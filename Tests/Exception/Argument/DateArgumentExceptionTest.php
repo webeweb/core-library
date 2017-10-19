@@ -25,6 +25,8 @@ final class DateArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
     /**
      * Test the __construct() method.
+     *
+     * @return void
      */
     public function testConstruct() {
         $ex = new DateArgumentException('');

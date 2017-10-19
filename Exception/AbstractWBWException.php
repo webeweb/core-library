@@ -18,6 +18,7 @@ use Exception;
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception
+ * @abstract
  */
 abstract class AbstractWBWException extends Exception {
 
