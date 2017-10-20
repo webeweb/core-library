@@ -20,7 +20,6 @@ use WBW\Library\Core\Exception\Argument\BooleanArgumentException;
 use WBW\Library\Core\Exception\Argument\DateArgumentException;
 use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
 use WBW\Library\Core\Exception\Argument\FloatArgumentException;
-use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
 use WBW\Library\Core\Exception\Argument\NumberArgumentException;
 use WBW\Library\Core\Exception\Argument\ObjectArgumentException;
@@ -45,10 +44,10 @@ final class ArgumentValidatorTest extends PHPUnit_Framework_TestCase {
     public function testIsValid() {
 
         try {
-            ArgumentValidator::isValid([], -18);
+            ArgumentValidator::isValid(null, -1);
         } catch (Exception $ex) {
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex, "The method isValid() does not throw the expected exception");
-            $this->assertEquals("The type \"-18\" is not implemented", $ex->getMessage(), "The method getMessage() does not return the expecetd string");
+            $this->assertInstanceOf("WBW\\Library\\Core\\Exception\\Argument\\IllegalArgumentException", $ex, "The method isValid() does not throw the expected exception");
+            $this->assertEquals("The type \"-1\" is not implemented", $ex->getMessage(), "The method getMessage() does not return the expecetd string");
         }
 
         $rsc = fopen(getcwd() . "/Tests/Argument/ArgumentValidatorTest.php", "r");
