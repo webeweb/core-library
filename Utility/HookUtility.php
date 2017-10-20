@@ -66,7 +66,7 @@ final class HookUtility {
             try {
                 $rc = new ReflectionClass($completeClassname);
             } catch (ReflectionException $ex) {
-                throw new HookClassNotFoundException($completeClassname);
+                throw new HookClassNotFoundException($completeClassname, $ex);
             }
 
             // Check the extends.
@@ -95,7 +95,7 @@ final class HookUtility {
 
                 $hooks[count($hooks) - 1]["method"] = $rm;
             } catch (ReflectionException $ex) {
-                throw new HookMethodNotFoundException($method);
+                throw new HookMethodNotFoundException($method, $ex);
             }
         }
 
