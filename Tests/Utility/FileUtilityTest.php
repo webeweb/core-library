@@ -13,6 +13,7 @@ namespace WBW\Library\Core\Tests\Utility;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Exception\Directory\DirectoryNotFoundException;
 use WBW\Library\Core\Exception\File\FileNotFoundException;
 use WBW\Library\Core\Utility\FileUtility;
 
@@ -55,6 +56,13 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 
         $this->assertContains("FileUtilityTest.php", FileUtility::getFilenames($pathname), "The method getFilenames() does not return the expected filenames");
         $this->assertEquals(["FileUtilityTest.txt"], FileUtility::getFilenames($pathname, ".txt"), "The method getFilenames() does not return the expected filenames with extension");
+
+        try {
+            FileUtility::getFilenames("DirectoryNotFoundException");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(DirectoryNotFoundException::class, $ex, "The method getFilenames() does not return the expected exception");
+            $this->assertEquals("The directory \"DirectoryNotFoundException\" is not found", $ex->getMessage(), "The method getMessage() does not return the expected string");
+        }
     }
 
 }

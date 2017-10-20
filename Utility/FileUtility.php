@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Utility;
 
+use WBW\Library\Core\Exception\Directory\DirectoryNotFoundException;
 use WBW\Library\Core\Exception\File\FileNotFoundException;
 
 /**
@@ -50,6 +51,7 @@ final class FileUtility {
      * @param string $pathname The pathname.
      * @param string $extension The file extension.
      * @return array Returns the filenames.
+     * @throws DirectoryNotFoundException Throws a directory not found exception if the directory does not exists.
      */
     public static function getFilenames($pathname, $extension = null) {
 
@@ -58,7 +60,7 @@ final class FileUtility {
 
         // Check if the directory exists.
         if (!file_exists($pathname)) {
-            return $filenames;
+            throw new DirectoryNotFoundException($pathname);
         }
 
         // Open the directory.
