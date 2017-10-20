@@ -9,15 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Argument;
+namespace WBW\Library\Core\Tests\Argument;
 
 use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Argument\ArgumentInterface;
 
 /**
  * Argument interface test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Argument
+ * @package WBW\Library\Core\Tests\Argument
  * @final
  */
 final class ArgumentInterfaceTest extends PHPUnit_Framework_TestCase {
