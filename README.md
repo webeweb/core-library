@@ -9,7 +9,7 @@ Some basic classes we re-use regulary into many projects...
 
 ## Installation
 
-Edit `composer.json` file to add this bundle package:
+Edit `composer.json` file to add this library package:
 
 ```yml
 "require": {
