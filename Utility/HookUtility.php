@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Utility;
 
+use Exception;
 use ReflectionClass;
 use ReflectionException;
 use WBW\Library\Core\Exception\Hook\HookClassNotFoundException;
