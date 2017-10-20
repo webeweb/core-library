@@ -19,7 +19,6 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception
- * @final
  */
 class IllegalArgumentException extends AbstractWBWException {
 
