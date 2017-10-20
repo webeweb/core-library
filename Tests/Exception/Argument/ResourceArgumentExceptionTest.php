@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
  * Resource argument exception test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception
+ * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
 final class ResourceArgumentExceptionTest extends PHPUnit_Framework_TestCase {
@@ -29,8 +29,11 @@ final class ResourceArgumentExceptionTest extends PHPUnit_Framework_TestCase {
      * @return void
      */
     public function testConstruct() {
-        $ex = new ResourceArgumentException('');
-        $this->assertEquals('The argument "" is not a resource', $ex->getMessage());
+
+        $ex = new ResourceArgumentException("");
+
+        $res = "The argument \"\" is not a resource";
+        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
     }
 
 }

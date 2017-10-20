@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\Argument\DateArgumentException;
  * Date argument exception test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception
+ * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
 final class DateArgumentExceptionTest extends PHPUnit_Framework_TestCase {
@@ -29,8 +29,11 @@ final class DateArgumentExceptionTest extends PHPUnit_Framework_TestCase {
      * @return void
      */
     public function testConstruct() {
-        $ex = new DateArgumentException('');
-        $this->assertEquals('The argument "" is not a date', $ex->getMessage());
+
+        $ex = new DateArgumentException("");
+
+        $res = "The argument \"\" is not a date";
+        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
     }
 
 }

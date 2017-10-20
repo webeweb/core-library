@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
  * Double argument exception test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception
+ * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
 final class DoubleArgumentExceptionTest extends PHPUnit_Framework_TestCase {
@@ -29,8 +29,11 @@ final class DoubleArgumentExceptionTest extends PHPUnit_Framework_TestCase {
      * @return void
      */
     public function testConstruct() {
-        $ex = new DoubleArgumentException('');
-        $this->assertEquals('The argument "" is not a double', $ex->getMessage());
+
+        $ex = new DoubleArgumentException("");
+
+        $res = "The argument \"\" is not a double";
+        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
     }
 
 }

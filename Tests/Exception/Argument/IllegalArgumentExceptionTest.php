@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
  * Illegal argument exception test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception
+ * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
 final class IllegalArgumentExceptionTest extends PHPUnit_Framework_TestCase {
@@ -29,8 +29,11 @@ final class IllegalArgumentExceptionTest extends PHPUnit_Framework_TestCase {
      * @return void
      */
     public function testConstruct() {
-        $ex = new IllegalArgumentException('The argument "" is illegal');
-        $this->assertEquals('The argument "" is illegal', $ex->getMessage());
+
+        $ex = new IllegalArgumentException("The argument \"\" is illegal");
+
+        $res = "The argument \"\" is illegal";
+        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
     }
 
 }

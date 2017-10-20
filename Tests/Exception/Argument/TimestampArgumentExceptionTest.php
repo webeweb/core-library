@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
  * Timestamp argument exception test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception
+ * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
 final class TimestampArgumentExceptionTest extends PHPUnit_Framework_TestCase {
@@ -29,8 +29,11 @@ final class TimestampArgumentExceptionTest extends PHPUnit_Framework_TestCase {
      * @return void
      */
     public function testConstruct() {
-        $ex = new TimestampArgumentException('');
-        $this->assertEquals('The argument "" is not a timestamp', $ex->getMessage());
+
+        $ex = new TimestampArgumentException("");
+
+        $res = "The argument \"\" is not a timestamp";
+        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
     }
 
 }

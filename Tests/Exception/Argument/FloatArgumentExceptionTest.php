@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\Argument\FloatArgumentException;
  * Float argument exception test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception
+ * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
 final class FloatArgumentExceptionTest extends PHPUnit_Framework_TestCase {
@@ -29,8 +29,11 @@ final class FloatArgumentExceptionTest extends PHPUnit_Framework_TestCase {
      * @return void
      */
     public function testConstruct() {
-        $ex = new FloatArgumentException('');
-        $this->assertEquals('The argument "" is not a float', $ex->getMessage());
+
+        $ex = new FloatArgumentException("");
+
+        $res = "The argument \"\" is not a float";
+        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
     }
 
 }
