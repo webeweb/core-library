@@ -26,7 +26,8 @@ final class ArgumentInterfaceTest extends PHPUnit_Framework_TestCase {
      * Test the __construct() method.
      *
      * @return void
-     */ public function testConstruct() {
+     */
+    public function testConstruct() {
 
         $this->assertEquals(63, ArgumentInterface::TYPE_ARRAY, "The constant TYPE_ARRAY does not return the expecetd value");
         $this->assertEquals(64, ArgumentInterface::TYPE_BOOLEAN, "The constant TYPE_BOOLEAN does not return the expecetd value");
