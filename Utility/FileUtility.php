@@ -31,11 +31,10 @@ final class FileUtility {
      * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
      */
     public static function getContents($filename) {
-        if (file_exists($filename)) {
-            return file_get_contents($filename);
-        } else {
+        if (!file_exists($filename)) {
             throw new FileNotFoundException($filename);
         }
+        return file_get_contents($filename);
     }
 
     /**
@@ -48,13 +47,13 @@ final class FileUtility {
      */
     public static function getFilenames($pathname, $extension = null) {
 
-        // Initialize the filenames.
-        $filenames = [];
-
         // Check if the directory exists.
         if (!file_exists($pathname)) {
             throw new DirectoryNotFoundException($pathname);
         }
+
+        // Initialize the filenames.
+        $filenames = [];
 
         // Open the directory.
         if (($directory = opendir($pathname)) !== false) {
