@@ -24,13 +24,6 @@ use WBW\Library\Core\Exception\File\FileNotFoundException;
 final class FileUtility {
 
     /**
-     * Constructor.
-     */
-    private function __construct() {
-        // NOTHING TO DO.
-    }
-
-    /**
      * Get a file contents.
      *
      * @param string $filename The filename.
