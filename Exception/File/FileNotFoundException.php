@@ -17,7 +17,6 @@ use WBW\Library\Core\Exception\AbstractWBWException;
 /**
  * File not found exception.
  *
- *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\File
  * @final
