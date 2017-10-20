@@ -47,7 +47,7 @@ final class ArgumentValidatorTest extends PHPUnit_Framework_TestCase {
         try {
             ArgumentValidator::isValid(null, -1);
         } catch (Exception $ex) {
-            // $this->assertInstanceOf(IllegalArgumentException::class, $ex, "The method isValid() does not throw the expected exception");
+            $this->assertInstanceOf(IllegalArgumentException::class, $ex, "The method isValid() does not throw the expected exception");
             $this->assertEquals("The type \"-1\" is not implemented", $ex->getMessage(), "The method getMessage() does not return the expecetd string");
         }
 

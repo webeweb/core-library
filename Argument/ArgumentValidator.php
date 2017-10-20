@@ -40,7 +40,7 @@ final class ArgumentValidator implements ArgumentInterface {
      * @param integer $type The type.
      * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
      */
-    public function isValid($value, $type) {
+    public static function isValid($value, $type) {
         switch ($type) {
             case (self::TYPE_ARRAY):
                 if (!is_array($value)) {
