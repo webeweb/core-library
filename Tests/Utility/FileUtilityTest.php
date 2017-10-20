@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\File\FileNotFoundException;
 use WBW\Library\Core\Utility\FileUtility;
 
 /**
- * File utility.
+ * File utility test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Utility
