@@ -42,57 +42,57 @@ final class ArgumentValidator implements ArgumentInterface {
      */
     public static function isValid($value, $type) {
         switch ($type) {
-            case (self::TYPE_ARRAY):
+            case self::TYPE_ARRAY:
                 if (!is_array($value)) {
                     throw new ArrayArgumentException($value);
                 }
                 break;
-            case (self::TYPE_BOOLEAN):
+            case self::TYPE_BOOLEAN:
                 if (!is_bool($value)) {
                     throw new BooleanArgumentException($value);
                 }
                 break;
-            case (self::TYPE_DATE):
+            case self::TYPE_DATE:
                 if (!date_parse($value)) {
                     throw new DateArgumentException($value);
                 }
                 break;
-            case (self::TYPE_DOUBLE):
+            case self::TYPE_DOUBLE:
                 if (!is_double($value)) {
                     throw new DoubleArgumentException($value);
                 }
                 break;
-            case (self::TYPE_FLOAT):
+            case self::TYPE_FLOAT:
                 if (!is_float($value)) {
                     throw new FloatArgumentException($value);
                 }
                 break;
-            case (self::TYPE_INTEGER):
+            case self::TYPE_INTEGER:
                 if (!is_integer($value)) {
                     throw new IntegerArgumentException($value);
                 }
                 break;
-            case (self::TYPE_NUMBER):
+            case self::TYPE_NUMBER:
                 if (!is_numeric($value)) {
                     throw new NumberArgumentException($value);
                 }
                 break;
-            case (self::TYPE_OBJECT):
+            case self::TYPE_OBJECT:
                 if (!is_object($value)) {
                     throw new ObjectArgumentException($value);
                 }
                 break;
-            case (self::TYPE_RESOURCE):
+            case self::TYPE_RESOURCE:
                 if (!is_resource($value)) {
                     throw new ResourceArgumentException($value);
                 }
                 break;
-            case (self::TYPE_STRING):
+            case self::TYPE_STRING:
                 if (!is_string($value)) {
                     throw new StringArgumentException($value);
                 }
                 break;
-            case (self::TYPE_TIMESTAMP):
+            case self::TYPE_TIMESTAMP:
                 if (!date_parse($value)) {
                     throw new TimestampArgumentException($value);
                 }
