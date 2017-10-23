@@ -70,7 +70,7 @@ interface HTTPCodeInterface {
         self::CODE_UNPROCESSABLE_ENTITY,
         self::CODE_LOCKED,
         self::CODE_METHOD_FAILURE,
-        self::CODE_UNORDERED_COLLECTION,
+        /* self::CODE_UNORDERED_COLLECTION, // WebDAV */
         self::CODE_UPGRADE_REQUIRED,
         self::CODE_PRECONDITION_REQUIRED,
         self::CODE_TOO_MANY_REQUESTS,
