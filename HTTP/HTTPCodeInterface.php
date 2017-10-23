@@ -66,7 +66,7 @@ interface HTTPCodeInterface {
         self::CODE_REQUESTED_RANGE_UNSATISFIABLE,
         self::CODE_EXPECTATION_FAILED,
         /* self::CODE_IM_A_TEAPOT, // */
-        self::CODE_BAD_MAPPING_MISDIRECTED_REQUEST,
+        /* self::CODE_BAD_MAPPING_MISDIRECTED_REQUEST , */
         self::CODE_UNPROCESSABLE_ENTITY,
         self::CODE_LOCKED,
         self::CODE_METHOD_FAILURE,
