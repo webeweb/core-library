@@ -14,7 +14,7 @@ Edit `composer.json` file to add this library package:
 ```yml
 "require": {
     ...
-    "webeweb/core-library": "dev-master"
+    "webeweb/core-library": "~1.0@dev"
 },
 ```
 
