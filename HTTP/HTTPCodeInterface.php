@@ -19,6 +19,9 @@ namespace WBW\Library\Core\HTTP;
  */
 interface HTTPCodeInterface {
 
+    /**
+     * All codes.
+     */
     const ALL_CODES = [
         self::CODE_CONTINUE,
         self::CODE_SWITCHING_PROTOCOLS,
