@@ -24,7 +24,7 @@ use WBW\Library\Core\HTTP\HTTPCodeInterface;
 final class HTTPCodeInterfaceTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the __construct() method.
+     * Tests the __construct() method.
      *
      * @return void
      */

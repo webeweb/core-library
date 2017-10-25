@@ -24,7 +24,7 @@ use WBW\Library\Core\Exception\Hook\HookMethodNotFoundException;
 final class HookMethodNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the __construct() method.
+     * Tests the __construct() method.
      */
     public function testConstruct() {
 

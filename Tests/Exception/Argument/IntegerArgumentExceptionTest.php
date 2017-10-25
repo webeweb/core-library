@@ -24,7 +24,7 @@ use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
 final class IntegerArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the __construct() method.
+     * Tests the __construct() method.
      *
      * @return void
      */

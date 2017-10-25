@@ -24,7 +24,7 @@ use WBW\Library\Core\Exception\Hook\HookSyntaxErrorException;
 final class HookSyntaxErrorExceptionTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the __construct() method.
+     * Tests the __construct() method.
      */
     public function testConstruct() {
 

@@ -38,7 +38,7 @@ use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
 final class ArgumentValidatorTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the isValid() method.
+     * Tests the isValid() method.
      *
      * @return void
      */

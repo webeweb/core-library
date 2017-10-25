@@ -24,7 +24,7 @@ use WBW\Library\Core\Argument\ArgumentInterface;
 final class ArgumentInterfaceTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the __construct() method.
+     * Tests the __construct() method.
      *
      * @return void
      */

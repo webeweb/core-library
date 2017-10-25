@@ -38,7 +38,7 @@ use WBW\Library\Core\Form\Validator\FormValidator;
 final class FormValidatorTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the __construct() method.
+     * Tests the __construct() method.
      *
      * @return void
      */
@@ -58,7 +58,7 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * Test the isValid() method.
+     * Tests the isValid() method.
      *
      * @return void
      */

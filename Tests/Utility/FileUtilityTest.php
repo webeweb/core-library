@@ -27,7 +27,7 @@ use WBW\Library\Core\Utility\FileUtility;
 final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the getContents() method.
+     * Tests the getContents() method.
      *
      * @return void
      */
@@ -46,7 +46,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * Test the getFilenames() method.
+     * Tests the getFilenames() method.
      *
      * @return void
      */

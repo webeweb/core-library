@@ -24,7 +24,7 @@ use WBW\Library\Core\HTTP\HTTPMethodInterface;
 final class HTTPMethodInterfaceTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the __constructor() method.
+     * Tests the __constructor() method.
      *
      * @return void
      */

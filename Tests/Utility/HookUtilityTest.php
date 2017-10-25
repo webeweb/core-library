@@ -27,7 +27,7 @@ use WBW\Library\Core\Utility\HookUtility;
 final class HookUtilityTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the getHooks() method.
+     * Tests the getHooks() method.
      */
     public function testGetHooks() {
 

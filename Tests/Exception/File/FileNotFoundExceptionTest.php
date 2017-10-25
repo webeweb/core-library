@@ -24,7 +24,7 @@ use WBW\Library\Core\Exception\File\FileNotFoundException;
 final class FileNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Test the __construct() method.
+     * Tests the __construct() method.
      */
     public function testConstruct() {
 
