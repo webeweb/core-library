@@ -1,7 +1,7 @@
 {
     "name": "webeweb/core-library",
     "type": "library",
-    "description": "WBW core classes",
+    "description": "Core library",
     "keywords": ["webeweb", "library", "core"],
     "homepage": "http://github.com/webeweb/WBWCoreLibrary",
     "license": "LGPL-3.0",
