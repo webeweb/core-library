@@ -20,13 +20,13 @@ namespace WBW\Library\Core\Exception\Argument;
  */
 final class BooleanArgumentException extends IllegalArgumentException {
 
-    /**
-     * Constructor.
-     *
-     * @param $argument The argument.
-     */
-    public function __construct($argument) {
-        parent::__construct("The argument \"" . print_r($argument, true) . "\" is not a boolean");
-    }
+	/**
+	 * Constructor.
+	 *
+	 * @param $argument The argument.
+	 */
+	public function __construct($argument) {
+		parent::__construct("The argument \"" . print_r($argument, true) . "\" is not a boolean");
+	}
 
 }

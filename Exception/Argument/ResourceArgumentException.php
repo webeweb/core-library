@@ -20,13 +20,13 @@ namespace WBW\Library\Core\Exception\Argument;
  */
 final class ResourceArgumentException extends IllegalArgumentException {
 
-    /**
-     * Constructor.
-     *
-     * @param $argument The argument.
-     */
-    public function __construct($argument) {
-        parent::__construct("The argument \"" . print_r($argument, true) . "\" is not a resource");
-    }
+	/**
+	 * Constructor.
+	 *
+	 * @param $argument The argument.
+	 */
+	public function __construct($argument) {
+		parent::__construct("The argument \"" . print_r($argument, true) . "\" is not a resource");
+	}
 
 }

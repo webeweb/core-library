@@ -23,14 +23,14 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  */
 final class HookMethodNotFoundException extends AbstractWBWException {
 
-    /**
-     * Constructor.
-     *
-     * @param string $method The method.
-     * @param Exception $previous The previous exception.
-     */
-    public function __construct($method, Exception $previous = null) {
-        parent::__construct("The hook method \"" . $method . "\" is not found", $previous);
-    }
+	/**
+	 * Constructor.
+	 *
+	 * @param string $method The method.
+	 * @param Exception $previous The previous exception.
+	 */
+	public function __construct($method, Exception $previous = null) {
+		parent::__construct("The hook method \"" . $method . "\" is not found", $previous);
+	}
 
 }

@@ -23,14 +23,14 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  */
 final class DirectoryNotFoundException extends AbstractWBWException {
 
-    /**
-     * Constructor.
-     *
-     * @param string $directory The directory.
-     * @param Exception $previous The previous exception.
-     */
-    public function __construct($directory, Exception $previous = null) {
-        parent::__construct("The directory \"" . $directory . "\" is not found", $previous);
-    }
+	/**
+	 * Constructor.
+	 *
+	 * @param string $directory The directory.
+	 * @param Exception $previous The previous exception.
+	 */
+	public function __construct($directory, Exception $previous = null) {
+		parent::__construct("The directory \"" . $directory . "\" is not found", $previous);
+	}
 
 }

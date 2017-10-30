@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Argument\ObjectArgumentException;
  */
 final class ObjectArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
+	/**
+	 * Tests the __construct() method.
+	 *
+	 * @return void
+	 */
+	public function testConstruct() {
 
-        $ex = new ObjectArgumentException("");
+		$ex = new ObjectArgumentException("");
 
-        $res = "The argument \"\" is not an object";
-        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
-    }
+		$res = "The argument \"\" is not an object";
+		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
+	}
 
 }

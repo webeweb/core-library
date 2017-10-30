@@ -19,39 +19,39 @@ namespace WBW\Library\Core\HTTP;
  */
 interface HTTPMethodInterface {
 
-    /**
-     * Method "DELETE".
-     */
-    const METHOD_DELETE = "DELETE";
+	/**
+	 * Method "DELETE".
+	 */
+	const METHOD_DELETE = "DELETE";
 
-    /**
-     * Method "GET".
-     */
-    const METHOD_GET = "GET";
+	/**
+	 * Method "GET".
+	 */
+	const METHOD_GET = "GET";
 
-    /**
-     * Method "HEAD".
-     */
-    const METHOD_HEAD = "HEAD";
+	/**
+	 * Method "HEAD".
+	 */
+	const METHOD_HEAD = "HEAD";
 
-    /**
-     * Method "OPTIONS".
-     */
-    const METHOD_OPTIONS = "OPTIONS";
+	/**
+	 * Method "OPTIONS".
+	 */
+	const METHOD_OPTIONS = "OPTIONS";
 
-    /**
-     * Method "PATCH".
-     */
-    const METHOD_PATCH = "PATCH";
+	/**
+	 * Method "PATCH".
+	 */
+	const METHOD_PATCH = "PATCH";
 
-    /**
-     * Method "POST".
-     */
-    const METHOD_POST = "POST";
+	/**
+	 * Method "POST".
+	 */
+	const METHOD_POST = "POST";
 
-    /**
-     * Method "PUT".
-     */
-    const METHOD_PUT = "PUT";
+	/**
+	 * Method "PUT".
+	 */
+	const METHOD_PUT = "PUT";
 
 }

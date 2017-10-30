@@ -33,74 +33,74 @@ use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
  */
 final class ArgumentValidator implements ArgumentInterface {
 
-    /**
-     * Determines if the $value is of type $type.
-     *
-     * @param mixed $value The value.
-     * @param integer $type The type.
-     * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
-     */
-    public static function isValid($value, $type) {
-        switch ($type) {
-            case self::TYPE_ARRAY:
-                if (!is_array($value)) {
-                    throw new ArrayArgumentException($value);
-                }
-                break;
-            case self::TYPE_BOOLEAN:
-                if (!is_bool($value)) {
-                    throw new BooleanArgumentException($value);
-                }
-                break;
-            case self::TYPE_DATE:
-                if (!date_parse($value)) {
-                    throw new DateArgumentException($value);
-                }
-                break;
-            case self::TYPE_DOUBLE:
-                if (!is_double($value)) {
-                    throw new DoubleArgumentException($value);
-                }
-                break;
-            case self::TYPE_FLOAT:
-                if (!is_float($value)) {
-                    throw new FloatArgumentException($value);
-                }
-                break;
-            case self::TYPE_INTEGER:
-                if (!is_integer($value)) {
-                    throw new IntegerArgumentException($value);
-                }
-                break;
-            case self::TYPE_NUMBER:
-                if (!is_numeric($value)) {
-                    throw new NumberArgumentException($value);
-                }
-                break;
-            case self::TYPE_OBJECT:
-                if (!is_object($value)) {
-                    throw new ObjectArgumentException($value);
-                }
-                break;
-            case self::TYPE_RESOURCE:
-                if (!is_resource($value)) {
-                    throw new ResourceArgumentException($value);
-                }
-                break;
-            case self::TYPE_STRING:
-                if (!is_string($value)) {
-                    throw new StringArgumentException($value);
-                }
-                break;
-            case self::TYPE_TIMESTAMP:
-                if (!date_parse($value)) {
-                    throw new TimestampArgumentException($value);
-                }
-                break;
-            default:
-                throw new IllegalArgumentException("The type \"" . $type . "\" is not implemented");
-        }
-        return true;
-    }
+	/**
+	 * Determines if the $value is of type $type.
+	 *
+	 * @param mixed $value The value.
+	 * @param integer $type The type.
+	 * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
+	 */
+	public static function isValid($value, $type) {
+		switch ($type) {
+			case self::TYPE_ARRAY:
+				if (!is_array($value)) {
+					throw new ArrayArgumentException($value);
+				}
+				break;
+			case self::TYPE_BOOLEAN:
+				if (!is_bool($value)) {
+					throw new BooleanArgumentException($value);
+				}
+				break;
+			case self::TYPE_DATE:
+				if (!date_parse($value)) {
+					throw new DateArgumentException($value);
+				}
+				break;
+			case self::TYPE_DOUBLE:
+				if (!is_double($value)) {
+					throw new DoubleArgumentException($value);
+				}
+				break;
+			case self::TYPE_FLOAT:
+				if (!is_float($value)) {
+					throw new FloatArgumentException($value);
+				}
+				break;
+			case self::TYPE_INTEGER:
+				if (!is_integer($value)) {
+					throw new IntegerArgumentException($value);
+				}
+				break;
+			case self::TYPE_NUMBER:
+				if (!is_numeric($value)) {
+					throw new NumberArgumentException($value);
+				}
+				break;
+			case self::TYPE_OBJECT:
+				if (!is_object($value)) {
+					throw new ObjectArgumentException($value);
+				}
+				break;
+			case self::TYPE_RESOURCE:
+				if (!is_resource($value)) {
+					throw new ResourceArgumentException($value);
+				}
+				break;
+			case self::TYPE_STRING:
+				if (!is_string($value)) {
+					throw new StringArgumentException($value);
+				}
+				break;
+			case self::TYPE_TIMESTAMP:
+				if (!date_parse($value)) {
+					throw new TimestampArgumentException($value);
+				}
+				break;
+			default:
+				throw new IllegalArgumentException("The type \"" . $type . "\" is not implemented");
+		}
+		return true;
+	}
 
 }

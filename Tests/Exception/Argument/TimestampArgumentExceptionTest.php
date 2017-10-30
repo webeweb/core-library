@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
  */
 final class TimestampArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
+	/**
+	 * Tests the __construct() method.
+	 *
+	 * @return void
+	 */
+	public function testConstruct() {
 
-        $ex = new TimestampArgumentException("");
+		$ex = new TimestampArgumentException("");
 
-        $res = "The argument \"\" is not a timestamp";
-        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
-    }
+		$res = "The argument \"\" is not a timestamp";
+		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
+	}
 
 }

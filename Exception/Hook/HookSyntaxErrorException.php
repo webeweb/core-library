@@ -23,14 +23,14 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  */
 final class HookSyntaxErrorException extends AbstractWBWException {
 
-    /**
-     * Constructor.
-     *
-     * @param string $filename The filename.
-     * @param Exception $previous The previous exception.
-     */
-    public function __construct($filename, Exception $previous = null) {
-        parent::__construct("The hook file \"" . $filename . "\" contains syntax errors", $previous);
-    }
+	/**
+	 * Constructor.
+	 *
+	 * @param string $filename The filename.
+	 * @param Exception $previous The previous exception.
+	 */
+	public function __construct($filename, Exception $previous = null) {
+		parent::__construct("The hook file \"" . $filename . "\" contains syntax errors", $previous);
+	}
 
 }

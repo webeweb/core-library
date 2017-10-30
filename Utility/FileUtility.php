@@ -23,59 +23,59 @@ use WBW\Library\Core\Exception\File\FileNotFoundException;
  */
 final class FileUtility {
 
-    /**
-     * Get a file contents.
-     *
-     * @param string $filename The filename.
-     * @return string Returns the file contents.
-     * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
-     */
-    public static function getContents($filename) {
-        if (!file_exists($filename)) {
-            throw new FileNotFoundException($filename);
-        }
-        return file_get_contents($filename);
-    }
+	/**
+	 * Get a file contents.
+	 *
+	 * @param string $filename The filename.
+	 * @return string Returns the file contents.
+	 * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
+	 */
+	public static function getContents($filename) {
+		if (!file_exists($filename)) {
+			throw new FileNotFoundException($filename);
+		}
+		return file_get_contents($filename);
+	}
 
-    /**
-     * Get the filenames.
-     *
-     * @param string $pathname The pathname.
-     * @param string $extension The file extension.
-     * @return array Returns the filenames.
-     * @throws DirectoryNotFoundException Throws a directory not found exception if the directory does not exists.
-     */
-    public static function getFilenames($pathname, $extension = null) {
+	/**
+	 * Get the filenames.
+	 *
+	 * @param string $pathname The pathname.
+	 * @param string $extension The file extension.
+	 * @return array Returns the filenames.
+	 * @throws DirectoryNotFoundException Throws a directory not found exception if the directory does not exists.
+	 */
+	public static function getFilenames($pathname, $extension = null) {
 
-        // Check if the directory exists.
-        if (!file_exists($pathname)) {
-            throw new DirectoryNotFoundException($pathname);
-        }
+		// Check if the directory exists.
+		if (!file_exists($pathname)) {
+			throw new DirectoryNotFoundException($pathname);
+		}
 
-        // Initialize the filenames.
-        $filenames = [];
+		// Initialize the filenames.
+		$filenames = [];
 
-        // Open the directory.
-        if (($directory = opendir($pathname)) !== false) {
+		// Open the directory.
+		if (($directory = opendir($pathname)) !== false) {
 
-            // Initialize the offset.
-            $offset = strlen($extension);
+			// Initialize the offset.
+			$offset = strlen($extension);
 
-            // Read the directory.
-            while (($file = readdir($directory)) !== false) {
+			// Read the directory.
+			while (($file = readdir($directory)) !== false) {
 
-                // Determines if the file should be added.
-                if ($file !== "." && $file !== ".." && ((is_null($extension)) || substr_compare($file, $extension, -$offset) === 0)) {
-                    $filenames[] = $file;
-                }
-            }
+				// Determines if the file should be added.
+				if ($file !== "." && $file !== ".." && ((is_null($extension)) || substr_compare($file, $extension, -$offset) === 0)) {
+					$filenames[] = $file;
+				}
+			}
 
-            // Close the directory.
-            closedir($directory);
-        }
+			// Close the directory.
+			closedir($directory);
+		}
 
-        // Return the filenames.
-        return $filenames;
-    }
+		// Return the filenames.
+		return $filenames;
+	}
 
 }

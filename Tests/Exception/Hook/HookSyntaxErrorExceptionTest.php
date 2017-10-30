@@ -23,15 +23,15 @@ use WBW\Library\Core\Exception\Hook\HookSyntaxErrorException;
  */
 final class HookSyntaxErrorExceptionTest extends PHPUnit_Framework_TestCase {
 
-    /**
-     * Tests the __construct() method.
-     */
-    public function testConstruct() {
+	/**
+	 * Tests the __construct() method.
+	 */
+	public function testConstruct() {
 
-        $ex = new HookSyntaxErrorException("HookSyntaxErrorException");
+		$ex = new HookSyntaxErrorException("HookSyntaxErrorException");
 
-        $res = "The hook file \"HookSyntaxErrorException\" contains syntax errors";
-        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
-    }
+		$res = "The hook file \"HookSyntaxErrorException\" contains syntax errors";
+		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
+	}
 
 }

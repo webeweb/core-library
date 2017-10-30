@@ -23,15 +23,15 @@ use WBW\Library\Core\Exception\File\FileNotFoundException;
  */
 final class FileNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 
-    /**
-     * Tests the __construct() method.
-     */
-    public function testConstruct() {
+	/**
+	 * Tests the __construct() method.
+	 */
+	public function testConstruct() {
 
-        $ex = new FileNotFoundException("");
+		$ex = new FileNotFoundException("");
 
-        $res = "The file \"\" is not found";
-        $this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
-    }
+		$res = "The file \"\" is not found";
+		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
+	}
 
 }
