@@ -30,9 +30,9 @@ final class ArrayArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new ArrayArgumentException("");
+		$ex = new ArrayArgumentException("exception");
 
-		$res = "The argument \"\" is not an array";
+		$res = "The argument \"exception\" is not an array";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

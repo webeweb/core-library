@@ -30,9 +30,9 @@ final class DoubleArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new DoubleArgumentException("");
+		$ex = new DoubleArgumentException("exception");
 
-		$res = "The argument \"\" is not a double";
+		$res = "The argument \"exception\" is not a double";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

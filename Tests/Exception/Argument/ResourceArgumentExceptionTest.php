@@ -30,9 +30,9 @@ final class ResourceArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new ResourceArgumentException("");
+		$ex = new ResourceArgumentException("exception");
 
-		$res = "The argument \"\" is not a resource";
+		$res = "The argument \"exception\" is not a resource";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

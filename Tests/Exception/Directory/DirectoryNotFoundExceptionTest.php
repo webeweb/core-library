@@ -28,9 +28,9 @@ final class DirectoryNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new DirectoryNotFoundException("");
+		$ex = new DirectoryNotFoundException("exception");
 
-		$res = "The directory \"\" is not found";
+		$res = "The directory \"exception\" is not found";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

@@ -28,9 +28,9 @@ final class HookMethodNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new HookMethodNotFoundException("HookMethodNotFoundException");
+		$ex = new HookMethodNotFoundException("exception");
 
-		$res = "The hook method \"HookMethodNotFoundException\" is not found";
+		$res = "The hook method \"exception\" is not found";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

@@ -28,9 +28,9 @@ final class HookSyntaxErrorExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new HookSyntaxErrorException("HookSyntaxErrorException");
+		$ex = new HookSyntaxErrorException("exception");
 
-		$res = "The hook file \"HookSyntaxErrorException\" contains syntax errors";
+		$res = "The hook file \"exception\" contains syntax errors";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

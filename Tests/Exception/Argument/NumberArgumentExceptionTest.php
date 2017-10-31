@@ -30,9 +30,9 @@ final class NumberArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new NumberArgumentException("");
+		$ex = new NumberArgumentException("exception");
 
-		$res = "The argument \"\" is not a number";
+		$res = "The argument \"exception\" is not a number";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

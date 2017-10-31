@@ -30,9 +30,9 @@ final class IntegerArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new IntegerArgumentException("");
+		$ex = new IntegerArgumentException("exception");
 
-		$res = "The argument \"\" is not an integer";
+		$res = "The argument \"exception\" is not an integer";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

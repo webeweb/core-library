@@ -30,9 +30,9 @@ final class IllegalArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new IllegalArgumentException("The argument \"\" is illegal");
+		$ex = new IllegalArgumentException("The argument \"exception\" is illegal");
 
-		$res = "The argument \"\" is illegal";
+		$res = "The argument \"exception\" is illegal";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

@@ -30,9 +30,9 @@ final class FloatArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new FloatArgumentException("");
+		$ex = new FloatArgumentException("exception");
 
-		$res = "The argument \"\" is not a float";
+		$res = "The argument \"exception\" is not a float";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 

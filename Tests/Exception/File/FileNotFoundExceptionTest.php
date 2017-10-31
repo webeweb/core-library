@@ -28,9 +28,9 @@ final class FileNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new FileNotFoundException("");
+		$ex = new FileNotFoundException("exception");
 
-		$res = "The file \"\" is not found";
+		$res = "The file \"exception\" is not found";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
 	}
 
