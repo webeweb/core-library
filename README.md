@@ -39,7 +39,7 @@ Once all required libraries are installed then do:
 
 ```bash
 
-$ ./vendor/bin/phpunit
+$ vendor/bin/phpunit
 
 ```
 
