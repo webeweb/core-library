@@ -20,7 +20,7 @@ Edit `composer.json` file to add this library package:
 
 ```
 
-Run `php composer.phar update webeweb/core-library`
+Run `composer update webeweb/core-library`
 
 ---
 
@@ -39,7 +39,7 @@ Once all required libraries are installed then do:
 
 ```bash
 
-$ vendor/bin/phpunit
+$ ./vendor/bin/phpunit
 
 ```
 
