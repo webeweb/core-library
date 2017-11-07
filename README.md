@@ -12,7 +12,7 @@ This package contains some classes we re-use regulary into other packages or pro
 Open a command console, enter your project directory and execute the following
 command to download the latest stable version of this package:
 
-```console
+```bash
 
 $ composer require webeweb/core-library "~1.0@dev"
 
@@ -30,7 +30,7 @@ To test the package, is better to clone this repository on your computer.
 Open a command console and execute the following commands to download the latest
 stable version of this package:
 
-```console
+```bash
 
 $ mkdir WBWCoreLibrary
 $ cd WBWCoreLibrary
@@ -41,7 +41,7 @@ $ composer install
 
 Once all required libraries are installed then do:
 
-```console
+```bash
 
 $ vendor/bin/phpunit
 
