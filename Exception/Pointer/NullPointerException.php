@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Exception\Pointer;
 
 use Exception;
+use WBW\Library\Core\Exception\AbstractWBWException;
 
 /**
  * Null pointer exception.
@@ -20,7 +21,7 @@ use Exception;
  * @package WBW\Library\Core\Exception\Pointer
  * @final
  */
-final class NullPointerException extends AbstractSDKException {
+final class NullPointerException extends AbstractWBWException {
 
 	/**
 	 * Constructor.

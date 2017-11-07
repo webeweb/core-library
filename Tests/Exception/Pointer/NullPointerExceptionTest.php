@@ -11,6 +11,9 @@
 
 namespace WBW\Library\Core\Tests\Exception\Pointer;
 
+use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Exception\Pointer\NullPointerException;
+
 /**
  * Null pointer exception test.
  *
@@ -18,7 +21,7 @@ namespace WBW\Library\Core\Tests\Exception\Pointer;
  * @package WBW\Library\Core\Tests\Exception\Pointer
  * @final
  */
-final class NullPointerException extends PHPUnit_Framework_TestCase {
+final class NullPointerExceptionTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * Tests the __construct() method.
