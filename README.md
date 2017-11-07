@@ -19,8 +19,8 @@ $ composer require webeweb/core-library "~1.0@dev"
 ```
 
 This command requires you to have Composer installed globally, as explained
-in the [installation chapter](https://getcomposer.org/doc/00-intro.md)
-of the Composer documentation.
+in the [installation chapter](https://getcomposer.org/doc/00-intro.md) of the
+Composer documentation.
 
 ---
 
@@ -51,4 +51,5 @@ $ vendor/bin/phpunit
 
 ## License
 
-WBWCoreLibrary is released under the LGPL License. See the bundled [LICENSE](LICENSE) file for details.
+WBWCoreLibrary is released under the LGPL License. See the bundled [LICENSE](LICENSE)
+file for details.
