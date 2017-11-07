@@ -41,7 +41,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 			FileUtility::getContents("FileNotFoundException");
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(FileNotFoundException::class, $ex, "The method getContents() does not return the expected exception");
-			$this->assertEquals("The file \"FileNotFoundException\" is not found", $ex->getMessage(), "The method getMessage() does not return the expected string");
+			$this->assertEquals("The file \"FileNotFoundException\" is not found", $ex->getMessage(), "The method getMessage() does not return the expected value");
 		}
 	}
 
@@ -61,7 +61,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 			FileUtility::getFilenames("DirectoryNotFoundException");
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(DirectoryNotFoundException::class, $ex, "The method getFilenames() does not return the expected exception");
-			$this->assertEquals("The directory \"DirectoryNotFoundException\" is not found", $ex->getMessage(), "The method getMessage() does not return the expected string");
+			$this->assertEquals("The directory \"DirectoryNotFoundException\" is not found", $ex->getMessage(), "The method getMessage() does not return the expected value");
 		}
 	}
 

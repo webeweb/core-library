@@ -33,7 +33,7 @@ final class NumberArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 		$ex = new NumberArgumentException("exception");
 
 		$res = "The argument \"exception\" is not a number";
-		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected string");
+		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected value");
 	}
 
 }

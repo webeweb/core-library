@@ -9,30 +9,25 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\Argument;
-
-use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+namespace WBW\Library\Core\Tests\Exception\Pointer;
 
 /**
- * Illegal argument exception test.
+ * Null pointer exception test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception\Argument
+ * @package WBW\Library\Core\Tests\Exception\Pointer
  * @final
  */
-final class IllegalArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class NullPointerException extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * Tests the __construct() method.
-	 *
-	 * @return void
 	 */
 	public function testConstruct() {
 
-		$ex = new IllegalArgumentException("The argument \"exception\" is illegal");
+		$ex = new NullPointerException("exception");
 
-		$res = "The argument \"exception\" is illegal";
+		$res = "exception";
 		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected value");
 	}
 
