@@ -120,8 +120,8 @@ final class NavigationItem extends AbstractNode {
 		}
 
 		// Check the span.
-		if (!is_null($this->span)) {
-			$output["span"] = $this->span;
+		if (!is_null($this->getId())) {
+			$output["span"] = $this->getId();
 		}
 
 		// Check the nodes.

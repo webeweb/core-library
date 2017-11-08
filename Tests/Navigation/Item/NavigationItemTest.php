@@ -175,13 +175,9 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$res3 = ["span" => "id", "href" => "href", "icon" => "icon"];
 		$this->assertEquals($res3, $obj->toArray(), "The method toArray() does not return the expecetd value");
 
-		$obj->setSpan("span");
-		$res4 = ["span" => "span", "href" => "href", "icon" => "icon"];
-		$this->assertEquals($res4, $obj->toArray(), "The method toArray() does not return the expecetd value");
-
 		$obj->addNode(new NavigationItem("id2"));
-		$res5 = ["span" => "span", "href" => "href", "icon" => "icon", "subitems" => [["span" => "id2", "href" => "javascript: void(0);"]]];
-		$this->assertEquals($res5, $obj->toArray(), "The method toArray() does not return the expecetd value");
+		$res4 = ["span" => "id", "href" => "href", "icon" => "icon", "subitems" => [["span" => "id2", "href" => "javascript: void(0);"]]];
+		$this->assertEquals($res4, $obj->toArray(), "The method toArray() does not return the expecetd value");
 	}
 
 }
