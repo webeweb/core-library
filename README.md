@@ -5,6 +5,9 @@ core-library
 
 This package contains some classes we re-use regulary into other packages or projects.
 
+`core-library` uses a rolling relese based on git master branch which is considered
+stable.
+
 ---
 
 ## Installation
