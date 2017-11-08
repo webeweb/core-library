@@ -1,7 +1,6 @@
 {
 	"name": "webeweb/core-library",
 	"type": "library",
-	"description": "Core library",
 	"keywords": ["webeweb", "library", "core"],
 	"homepage": "http://github.com/webeweb/core-library",
 	"license": "LGPL-3.0",
