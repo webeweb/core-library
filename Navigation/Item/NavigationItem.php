@@ -38,13 +38,6 @@ final class NavigationItem extends AbstractNode {
 	private $icon;
 
 	/**
-	 * Span.
-	 *
-	 * @var string
-	 */
-	private $span;
-
-	/**
 	 * Constructor.
 	 *
 	 * @param string $span The span.
@@ -53,7 +46,6 @@ final class NavigationItem extends AbstractNode {
 	 */
 	public function __construct($span, $icon = null, $href = "javascript: void(0);") {
 		parent::__construct($span);
-		$this->span	 = $span;
 		$this->icon	 = $icon;
 		$this->href	 = $href;
 	}
@@ -82,7 +74,7 @@ final class NavigationItem extends AbstractNode {
 	 * @return string Returns the span.
 	 */
 	public function getSpan() {
-		return $this->span;
+		return parent::getId();
 	}
 
 	/**
@@ -104,17 +96,6 @@ final class NavigationItem extends AbstractNode {
 	 */
 	public function setIcon($icon) {
 		$this->icon = $icon;
-		return $this;
-	}
-
-	/**
-	 * Set the span.
-	 *
-	 * @param string $span The span.
-	 * @return NavigationItem Returns the navigation item.
-	 */
-	public function setSpan($span) {
-		$this->span = $span;
 		return $this;
 	}
 
