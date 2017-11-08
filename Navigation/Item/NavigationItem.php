@@ -77,15 +77,6 @@ final class NavigationItem extends AbstractNode {
 	}
 
 	/**
-	 * Get the items.
-	 *
-	 * @return NavigationItem[] Returns the items.
-	 */
-	public function getItems() {
-		return $this->_items;
-	}
-
-	/**
 	 * Get the span.
 	 *
 	 * @return string Returns the span.

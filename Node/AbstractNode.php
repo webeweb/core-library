@@ -73,7 +73,7 @@ abstract class AbstractNode {
 	}
 
 	/**
-	 * Clear the node.
+	 * Clear the nodes.
 	 *
 	 * @return AbstractNode Returns the node.
 	 */
@@ -132,19 +132,19 @@ abstract class AbstractNode {
 	 * @return AbstractNode Returns a node in case of success, null otherwise.
 	 */
 	public final function getNodeById($id, $recursively = false) {
-		$nodeFound = null;
-		if (isset($this->index[$id])) {
-			$nodeFound = $this->getNodeAt($this->index[$id]);
+		$found = null;
+		if (array_key_exists($id, $this->index)) {
+			$found = $this->getNodeAt($this->index[$id]);
 		}
-		if (is_null($nodeFound) && $recursively) {
-			foreach ($this->nodes as $node) {
-				$nodeFound = $node->getNode($id, $recursively);
-				if (!is_null($nodeFound)) {
+		if (is_null($found) && $recursively) {
+			foreach ($this->nodes as $current) {
+				$found = $current->getNodeById($id, $recursively);
+				if (!is_null($found)) {
 					break;
 				}
 			}
 		}
-		return $nodeFound;
+		return $found;
 	}
 
 	/**
