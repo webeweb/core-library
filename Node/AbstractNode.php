@@ -172,23 +172,11 @@ abstract class AbstractNode {
 	 * @return AbstractNode Returns the node.
 	 */
 	public final function removeNode(AbstractNode $node) {
-		if (isset($this->index[$node->id])) {
-			$pos			 = $this->index[$node->id];
-			$node->parent	 = null;
+		if (array_key_exists($node->id, $this->index)) {
+			unset($this->nodes[$this->index[$node->id]]);
 			unset($this->index[$node->id]);
-			unset($this->nodes[$pos]);
+			$node->parent = null;
 		}
-		return $this;
-	}
-
-	/**
-	 * Set the id.
-	 *
-	 * @param string $id The name.
-	 * @return AbstractNode Returns the node.
-	 */
-	protected final function setId($id) {
-		$this->id = $id;
 		return $this;
 	}
 
