@@ -26,7 +26,7 @@ class NavigationNode extends AbstractNavigationNode {
 	 * @param string $icon The icon.
 	 * @param string $route The route.
 	 */
-	public final function __construct($name, $icon = null, $route = null) {
+	public function __construct($name, $icon = null, $route = null) {
 		parent::__construct($name, $icon, $route);
 	}
 
