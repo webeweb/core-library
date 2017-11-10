@@ -16,9 +16,8 @@ namespace WBW\Library\Core\Navigation\Node;
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Navigation\Node
- * @final
  */
-final class BreadcrumbNode extends AbstractNavigationNode {
+class BreadcrumbNode extends AbstractNavigationNode {
 
 	/**
 	 * Constructor.
@@ -27,7 +26,7 @@ final class BreadcrumbNode extends AbstractNavigationNode {
 	 * @param string $icon The icon.
 	 * @param string $route The route.
 	 */
-	public function __construct($name, $icon = null, $route = null) {
+	public final function __construct($name, $icon = null, $route = null) {
 		parent::__construct($name, $icon, $route);
 		$this->setVisible(false);
 	}
