@@ -24,6 +24,26 @@ use WBW\Library\Core\Utility\StringUtility;
 final class StringUtilityTest extends PHPUnit_Framework_TestCase {
 
 	/**
+	 * Tests the parseArray() method.
+	 *
+	 * @return void
+	 */
+	public function testParseArray() {
+
+		$arg1	 = ["id" => "id", "class" => "class"];
+		$res1	 = "id=\"id\" class=\"class\"";
+		$this->assertEquals($res1, StringUtility::parseArray($arg1), "The method parseArray() does not return the expected value");
+
+		$arg2	 = ["id" => "    id   ", "class" => " class "];
+		$res2	 = "id=\"id\" class=\"class\"";
+		$this->assertEquals($res2, StringUtility::parseArray($arg2), "The method parseArray() does not return the expected value");
+
+		$arg3	 = ["id" => "id", "class" => ["class1", "class2", "class3   class4"]];
+		$res3	 = "id=\"id\" class=\"class1 class2 class3 class4\"";
+		$this->assertEquals($res3, StringUtility::parseArray($arg3), "The method parseArray() does not return the expected value");
+	}
+
+	/**
 	 * Tests the parseBoolean() method.
 	 *
 	 * @return void

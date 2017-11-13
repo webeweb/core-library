@@ -21,6 +21,44 @@ namespace WBW\Library\Core\Utility;
 final class StringUtility {
 
 	/**
+	 * Parse an array.
+	 *
+	 * @param array $values The values.
+	 * @return string Returns the array converted into key="value".
+	 */
+	public static function parseArray(array $values) {
+
+		// Initialize the array.
+		$output = [];
+
+		// Handle each value.
+		foreach ($values as $key => $value) {
+
+			// Check if the value is null.
+			if (is_null($value)) {
+				continue;
+			}
+
+			$buffer = "";
+
+			// Check if the value is an array.
+			if (is_array($value)) {
+				$buffer = implode(" ", $value);
+			} else {
+				$buffer = $value;
+			}
+
+			// Check if the buffer is not empty.
+			if ($buffer !== "") {
+				$output[] = $key . "=\"" . preg_replace("/\s+/", " ", trim($buffer)) . "\"";
+			}
+		}
+
+		// Concatenates all attributes.
+		return implode(" ", $output);
+	}
+
+	/**
 	 * Parse a boolean.
 	 *
 	 * @param boolean $value The boolean value.
