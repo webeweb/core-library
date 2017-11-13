@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Navigation\Item;
 
+use WBW\Library\Core\Navigation\NavigationInterface;
 use WBW\Library\Core\Node\AbstractNode;
 
 /**
@@ -21,7 +22,7 @@ use WBW\Library\Core\Node\AbstractNode;
  * @final
  * @deprecated
  */
-final class NavigationItem extends AbstractNode {
+final class NavigationItem extends AbstractNode implements NavigationInterface {
 
 	/**
 	 * Href.
@@ -44,7 +45,7 @@ final class NavigationItem extends AbstractNode {
 	 * @param string $icon The icon.
 	 * @param string $href The href.
 	 */
-	public function __construct($span, $icon = null, $href = "javascript: void(0);") {
+	public function __construct($span, $icon = null, $href = self::DEFAULT_HREF) {
 		parent::__construct($span);
 		$this->icon	 = $icon;
 		$this->href	 = $href;
