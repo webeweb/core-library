@@ -44,9 +44,12 @@ final class HookUtilityTest extends PHPUnit_Framework_TestCase {
 			$this->assertNull($current["method"]);
 		}
 
-		$hooks2 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/");
-		$this->assertCount(1, $hooks2, "The method getHooks() does not return the expected hooks with classname");
-		foreach ($hooks2 as $current) {
+		$hooks2 = HookUtility::getHooks($classpath, $namespace, "/Exception/");
+		$this->assertCount(0, $hooks2, "The method getHooks() does not return the expected hooks with classname");
+
+		$hooks3 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/");
+		$this->assertCount(1, $hooks3, "The method getHooks() does not return the expected hooks with classname");
+		foreach ($hooks3 as $current) {
 
 			$this->assertEquals($classpath, $current["classpath"], "The method getHooks() does not return the expected class path with classname");
 			$this->assertEquals($namespace, $current["namespace"], "The method getHooks() does not return the expected namespace with classname");
@@ -55,9 +58,12 @@ final class HookUtilityTest extends PHPUnit_Framework_TestCase {
 			$this->assertNull($current["method"]);
 		}
 
-		$hooks3 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", PHPUnit_Framework_TestCase::class);
-		$this->assertCount(1, $hooks3, "The method getHooks() does not return the expected hooks with extends");
-		foreach ($hooks3 as $current) {
+		$hooks4 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", "Exception");
+		$this->assertCount(0, $hooks4, "The method getHooks() does not return the expected hooks with extends");
+
+		$hooks5 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", PHPUnit_Framework_TestCase::class);
+		$this->assertCount(1, $hooks5, "The method getHooks() does not return the expected hooks with extends");
+		foreach ($hooks5 as $current) {
 
 			$this->assertEquals($classpath, $current["classpath"], "The method getHooks() does not return the expected class path with extends");
 			$this->assertEquals($namespace, $current["namespace"], "The method getHooks() does not return the expected namespace with extends");
@@ -66,9 +72,9 @@ final class HookUtilityTest extends PHPUnit_Framework_TestCase {
 			$this->assertNull($current["method"]);
 		}
 
-		$hooks4 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", PHPUnit_Framework_TestCase::class, "testGetHooks");
-		$this->assertCount(1, $hooks4, "The method getHooks() does not return the expected hooks with method");
-		foreach ($hooks4 as $current) {
+		$hooks6 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", PHPUnit_Framework_TestCase::class, "testGetHooks");
+		$this->assertCount(1, $hooks6, "The method getHooks() does not return the expected hooks with method");
+		foreach ($hooks6 as $current) {
 
 			$this->assertEquals($classpath, $current["classpath"], "The method getHooks() does not return the expected class path with method");
 			$this->assertEquals($namespace, $current["namespace"], "The method getHooks() does not return the expected namespace with method");
