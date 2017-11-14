@@ -19,6 +19,9 @@ namespace WBW\Library\Core\Navigation;
  */
 interface NavigationInterface {
 
+	/**
+	 * Default href.
+	 */
 	const DEFAULT_HREF = "javascript: void(0);";
 
 }
