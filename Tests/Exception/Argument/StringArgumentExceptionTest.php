@@ -33,7 +33,7 @@ final class StringArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 		$ex = new StringArgumentException("exception");
 
 		$res = "The argument \"exception\" is not a string";
-		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected value");
+		$this->assertEquals($res, $ex->getMessage());
 	}
 
 }

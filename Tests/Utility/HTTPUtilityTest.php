@@ -31,7 +31,7 @@ final class HTTPUtilityTest extends PHPUnit_Framework_TestCase {
 
 		$res = HTTPUtility::getCodes();
 
-		$this->assertCount(57, $res, "The method getCodes() does not return the expected value");
+		$this->assertCount(57, $res);
 	}
 
 }

@@ -32,12 +32,12 @@ final class NavigationNodeTest extends PHPUnit_Framework_TestCase {
 
 		$obj = new NavigationNode("id");
 
-		$this->assertEquals(false, $obj->getActive(), "The method getActive() does not return the expecetd value");
-		$this->assertEquals(false, $obj->getEnable(), "The method getEnable() does not return the expecetd value");
-		$this->assertEquals(null, $obj->getIcon(), "The method getIcon() does not return the expecetd value");
-		$this->assertEquals(null, $obj->getRoute(), "The method getRoute() does not return the expecetd value");
-		$this->assertEquals(null, $obj->getUrl(), "The method getUrl() does not return the expecetd value");
-		$this->assertEquals(true, $obj->getVisible(), "The method getVisible() does not return the expecetd value");
+		$this->assertEquals(false, $obj->getActive());
+		$this->assertEquals(false, $obj->getEnable());
+		$this->assertEquals(null, $obj->getIcon());
+		$this->assertEquals(null, $obj->getRoute());
+		$this->assertEquals(null, $obj->getUrl());
+		$this->assertEquals(true, $obj->getVisible());
 
 		$obj->setActive(true);
 		$obj->setEnable(true);
@@ -45,11 +45,11 @@ final class NavigationNodeTest extends PHPUnit_Framework_TestCase {
 		$obj->setRoute("route");
 		$obj->setUrl("url");
 
-		$this->assertEquals(true, $obj->getActive(), "The method getActive() does not return the expecetd value");
-		$this->assertEquals(true, $obj->getEnable(), "The method getEnable() does not return the expecetd value");
-		$this->assertEquals("icon", $obj->getIcon(), "The method getIcon() does not return the expecetd value");
-		$this->assertEquals("route", $obj->getRoute(), "The method getRoute() does not return the expecetd value");
-		$this->assertEquals("url", $obj->getUrl(), "The method getUrl() does not return the expecetd value");
+		$this->assertEquals(true, $obj->getActive());
+		$this->assertEquals(true, $obj->getEnable());
+		$this->assertEquals("icon", $obj->getIcon());
+		$this->assertEquals("route", $obj->getRoute());
+		$this->assertEquals("url", $obj->getUrl());
 	}
 
 	/**
@@ -63,11 +63,11 @@ final class NavigationNodeTest extends PHPUnit_Framework_TestCase {
 
 		$obj->addNode(new NavigationNode("id2"));
 
-		$this->assertEquals(false, $obj->isDisplayable(), "The method isDisplayable does not return the expecetd value");
+		$this->assertEquals(false, $obj->isDisplayable());
 
 		$obj->getLastNode()->setActive(true);
 		$obj->getLastNode()->setEnable(true);
-		$this->assertEquals(true, $obj->isDisplayable(), "The method isDisplayable does not return the expecetd value");
+		$this->assertEquals(true, $obj->isDisplayable());
 	}
 
 }

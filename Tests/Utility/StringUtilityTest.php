@@ -32,15 +32,15 @@ final class StringUtilityTest extends PHPUnit_Framework_TestCase {
 
 		$arg1	 = ["exception" => null, "id" => "id", "class" => "class"];
 		$res1	 = "id=\"id\" class=\"class\"";
-		$this->assertEquals($res1, StringUtility::parseArray($arg1), "The method parseArray() does not return the expected value");
+		$this->assertEquals($res1, StringUtility::parseArray($arg1));
 
 		$arg2	 = ["exception" => null, "id" => "    id   ", "class" => " class "];
 		$res2	 = "id=\"id\" class=\"class\"";
-		$this->assertEquals($res2, StringUtility::parseArray($arg2), "The method parseArray() does not return the expected value");
+		$this->assertEquals($res2, StringUtility::parseArray($arg2));
 
 		$arg3	 = ["exception" => null, "id" => "id", "class" => ["class1", "class2", "class3   class4"]];
 		$res3	 = "id=\"id\" class=\"class1 class2 class3 class4\"";
-		$this->assertEquals($res3, StringUtility::parseArray($arg3), "The method parseArray() does not return the expected value");
+		$this->assertEquals($res3, StringUtility::parseArray($arg3));
 	}
 
 	/**
@@ -50,9 +50,9 @@ final class StringUtilityTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testParseBoolean() {
 
-		$this->assertEquals("false", StringUtility::parseBoolean(null), "The method parseBoolean() does not return the expected value with \"null\"");
-		$this->assertEquals("false", StringUtility::parseBoolean(false), "The method parseBoolean() does not return the expected value with \"false\"");
-		$this->assertEquals("true", StringUtility::parseBoolean(true), "The method parseBoolean() does not return the expected value with \"true\"");
+		$this->assertEquals("false", StringUtility::parseBoolean(null));
+		$this->assertEquals("false", StringUtility::parseBoolean(false));
+		$this->assertEquals("true", StringUtility::parseBoolean(true));
 	}
 
 }

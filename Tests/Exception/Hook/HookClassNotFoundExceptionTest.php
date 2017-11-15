@@ -31,7 +31,7 @@ final class HookClassNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 		$ex = new HookClassNotFoundException("exception");
 
 		$res = "The hook class \"exception\" is not found";
-		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected value");
+		$this->assertEquals($res, $ex->getMessage());
 	}
 
 }

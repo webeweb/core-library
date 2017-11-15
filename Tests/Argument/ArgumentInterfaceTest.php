@@ -30,17 +30,17 @@ final class ArgumentInterfaceTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$this->assertEquals(63, ArgumentInterface::TYPE_ARRAY, "The constant TYPE_ARRAY does not return the expecetd value");
-		$this->assertEquals(64, ArgumentInterface::TYPE_BOOLEAN, "The constant TYPE_BOOLEAN does not return the expecetd value");
-		$this->assertEquals(30, ArgumentInterface::TYPE_DATE, "The constant TYPE_DATE does not return the expecetd value");
-		$this->assertEquals(59, ArgumentInterface::TYPE_DOUBLE, "The constant TYPE_DOUBLE does not return the expecetd value");
-		$this->assertEquals(54, ArgumentInterface::TYPE_FLOAT, "The constant TYPE_FLOAT does not return the expecetd value");
-		$this->assertEquals(78, ArgumentInterface::TYPE_INTEGER, "The constant TYPE_INTEGER does not return the expecetd value");
-		$this->assertEquals(73, ArgumentInterface::TYPE_NUMBER, "The constant TYPE_NUMBER does not return the expecetd value");
-		$this->assertEquals(55, ArgumentInterface::TYPE_OBJECT, "The constant TYPE_OBJECT does not return the expecetd value");
-		$this->assertEquals(104, ArgumentInterface::TYPE_RESOURCE, "The constant TYPE_RESOURCE does not return the expecetd value");
-		$this->assertEquals(87, ArgumentInterface::TYPE_STRING, "The constant TYPE_STRING does not return the expecetd value");
-		$this->assertEquals(116, ArgumentInterface::TYPE_TIMESTAMP, "The constant TYPE_TIMESTAMP does not return the expecetd value");
+		$this->assertEquals(63, ArgumentInterface::TYPE_ARRAY);
+		$this->assertEquals(64, ArgumentInterface::TYPE_BOOLEAN);
+		$this->assertEquals(30, ArgumentInterface::TYPE_DATE);
+		$this->assertEquals(59, ArgumentInterface::TYPE_DOUBLE);
+		$this->assertEquals(54, ArgumentInterface::TYPE_FLOAT);
+		$this->assertEquals(78, ArgumentInterface::TYPE_INTEGER);
+		$this->assertEquals(73, ArgumentInterface::TYPE_NUMBER);
+		$this->assertEquals(55, ArgumentInterface::TYPE_OBJECT);
+		$this->assertEquals(104, ArgumentInterface::TYPE_RESOURCE);
+		$this->assertEquals(87, ArgumentInterface::TYPE_STRING);
+		$this->assertEquals(116, ArgumentInterface::TYPE_TIMESTAMP);
 	}
 
 }

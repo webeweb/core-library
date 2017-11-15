@@ -33,7 +33,7 @@ final class ObjectArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 		$ex = new ObjectArgumentException("exception");
 
 		$res = "The argument \"exception\" is not an object";
-		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected value");
+		$this->assertEquals($res, $ex->getMessage());
 	}
 
 }

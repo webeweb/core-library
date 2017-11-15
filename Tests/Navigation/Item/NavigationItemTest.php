@@ -32,16 +32,16 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 
 		$obj = new NavigationItem("id");
 
-		$this->assertEquals("id", $obj->getId(), "The method getId() does not return the expected value");
+		$this->assertEquals("id", $obj->getId());
 
-		$this->assertEquals(null, $obj->getFirstNode(), "The method getFirstNode() does not return the expected value");
-		$this->assertEquals(null, $obj->getLastNode(), "The method getLastNode() does not return the expected value");
-		$this->assertEquals([], $obj->getNodes(), "The method getNodes() does not return the expected value");
-		$this->assertEquals(null, $obj->getParent(), "The method getParent() does not return the expected value");
+		$this->assertEquals(null, $obj->getFirstNode());
+		$this->assertEquals(null, $obj->getLastNode());
+		$this->assertEquals([], $obj->getNodes());
+		$this->assertEquals(null, $obj->getParent());
 
-		$this->assertEquals("id", $obj->getSpan(), "The method getSpan() does not return the expected value");
-		$this->assertEquals("javascript: void(0);", $obj->getHref(), "The method getHref() does not return the expected value");
-		$this->assertEquals(null, $obj->getIcon(), "The method getIcon() does not return the expected value");
+		$this->assertEquals("id", $obj->getSpan());
+		$this->assertEquals("javascript: void(0);", $obj->getHref());
+		$this->assertEquals(null, $obj->getIcon());
 	}
 
 	/**
@@ -55,7 +55,7 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$add = new NavigationItem("id2");
 
 		$obj->addNode($add);
-		$this->assertEquals([$add], $obj->getNodes(), "The method getNodes() does no return the expected value");
+		$this->assertEquals([$add], $obj->getNodes());
 	}
 
 	/**
@@ -69,10 +69,10 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$add = new NavigationItem("id2");
 
 		$obj->addNode($add);
-		$this->assertEquals([$add], $obj->getNodes(), "The method getNodes() does not return the expecetd value");
+		$this->assertEquals([$add], $obj->getNodes());
 
 		$obj->clearNodes();
-		$this->assertEquals([], $obj->getNodes(), "The method getNodes() does not return the expecetd value");
+		$this->assertEquals([], $obj->getNodes());
 	}
 
 	/**
@@ -86,7 +86,7 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$add = new NavigationItem("id2");
 
 		$obj->addNode($add);
-		$this->assertEquals($add, $obj->getFirstNode(), "The method getFirstNode() does not return the expecetd value");
+		$this->assertEquals($add, $obj->getFirstNode());
 	}
 
 	/**
@@ -100,7 +100,7 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$add = new NavigationItem("id2");
 
 		$obj->addNode($add);
-		$this->assertEquals($add, $obj->getLastNode(), "The method getLastNode() does not return the expecetd value");
+		$this->assertEquals($add, $obj->getLastNode());
 	}
 
 	/**
@@ -114,9 +114,9 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$add = new NavigationItem("id2");
 
 		$obj->addNode($add);
-		$this->assertEquals(null, $obj->getNodeAt(-1), "The method getNodeAt() does not return the expecetd value");
-		$this->assertEquals($add, $obj->getNodeAt(0), "The method getNodeAt() does not return the expecetd value");
-		$this->assertEquals(null, $obj->getNodeAt(1), "The method getNodeAt() does not return the expecetd value");
+		$this->assertEquals(null, $obj->getNodeAt(-1));
+		$this->assertEquals($add, $obj->getNodeAt(0));
+		$this->assertEquals(null, $obj->getNodeAt(1));
 	}
 
 	/**
@@ -132,10 +132,10 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 
 		$obj->addNode($add1);
 		$add1->addNode($add2);
-		$this->assertEquals(null, $obj->getNodeById("exception"), "The method getNodeById() does not return the expecetd value");
-		$this->assertEquals($add1, $obj->getNodeById("id2"), "The method getNodeById() does not return the expecetd value");
-		$this->assertEquals(null, $obj->getNodeById("id3"), "The method getNodeById() does not return the expecetd value");
-		$this->assertEquals($add2, $obj->getNodeById("id3", true), "The method getNodeById() does not return the expecetd value");
+		$this->assertEquals(null, $obj->getNodeById("exception"));
+		$this->assertEquals($add1, $obj->getNodeById("id2"));
+		$this->assertEquals(null, $obj->getNodeById("id3"));
+		$this->assertEquals($add2, $obj->getNodeById("id3", true));
 	}
 
 	/**
@@ -149,10 +149,10 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$add = new NavigationItem("id2");
 
 		$obj->addNode($add);
-		$this->assertEquals([$add], $obj->getNodes(), "The method getNodes() does no return the expected value");
+		$this->assertEquals([$add], $obj->getNodes());
 
 		$obj->removeNode($add);
-		$this->assertEquals([], $obj->getNodes(), "The method getNodes() does no return the expected value");
+		$this->assertEquals([], $obj->getNodes());
 	}
 
 	/**
@@ -165,19 +165,19 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$obj = new NavigationItem("id");
 
 		$res1 = ["span" => "id", "href" => "javascript: void(0);"];
-		$this->assertEquals($res1, $obj->toArray(), "The method toArray() does not return the expecetd value");
+		$this->assertEquals($res1, $obj->toArray());
 
 		$obj->setHref("href");
 		$res2 = ["span" => "id", "href" => "href"];
-		$this->assertEquals($res2, $obj->toArray(), "The method toArray() does not return the expecetd value");
+		$this->assertEquals($res2, $obj->toArray());
 
 		$obj->setIcon("icon");
 		$res3 = ["span" => "id", "href" => "href", "icon" => "icon"];
-		$this->assertEquals($res3, $obj->toArray(), "The method toArray() does not return the expecetd value");
+		$this->assertEquals($res3, $obj->toArray());
 
 		$obj->addNode(new NavigationItem("id2"));
 		$res4 = ["span" => "id", "href" => "href", "icon" => "icon", "subitems" => [["span" => "id2", "href" => "javascript: void(0);"]]];
-		$this->assertEquals($res4, $obj->toArray(), "The method toArray() does not return the expecetd value");
+		$this->assertEquals($res4, $obj->toArray());
 	}
 
 }

@@ -31,7 +31,7 @@ final class InvaliHTTPMethodExceptionTest extends PHPUnit_Framework_TestCase {
 		$ex = new InvalidHTTPMethodException("exception");
 
 		$res = "The HTTP method \"exception\" is invalid";
-		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected value");
+		$this->assertEquals($res, $ex->getMessage());
 	}
 
 }

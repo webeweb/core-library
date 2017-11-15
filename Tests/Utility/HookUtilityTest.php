@@ -15,6 +15,7 @@ use Exception;
 use PHPUnit_Framework_TestCase;
 use ReflectionClass;
 use ReflectionMethod;
+use WBW\Library\Core\Exception\Hook\HookMethodNotFoundException;
 use WBW\Library\Core\Utility\HookUtility;
 
 /**
@@ -37,56 +38,57 @@ final class HookUtilityTest extends PHPUnit_Framework_TestCase {
 		$hooks1 = HookUtility::getHooks($classpath, $namespace);
 		foreach ($hooks1 as $current) {
 
-			$this->assertEquals($classpath, $current["classpath"], "The method getHooks() does not return the expected class path");
-			$this->assertEquals($namespace, $current["namespace"], "The method getHooks() does not return the expected namespace");
-			$this->assertStringEndsWith(".php", $current["filename"], "The method getHooks() does not return the expected filename");
-			$this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]], "The methog getHooks() does not return the expected class");
-			$this->assertNull($current["method"]);
+			$this->assertEquals($classpath, $current["classpath"]);
+			$this->assertEquals($namespace, $current["namespace"]);
+			$this->assertStringEndsWith(".php", $current["filename"]);
+			$this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
+			$this->assertNull($current["method"], "The method getHooks() does not return the expected value");
 		}
 
 		$hooks2 = HookUtility::getHooks($classpath, $namespace, "/Exception/");
-		$this->assertCount(0, $hooks2, "The method getHooks() does not return the expected hooks with classname");
+		$this->assertCount(0, $hooks2);
 
 		$hooks3 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/");
-		$this->assertCount(1, $hooks3, "The method getHooks() does not return the expected hooks with classname");
+		$this->assertCount(1, $hooks3);
 		foreach ($hooks3 as $current) {
 
-			$this->assertEquals($classpath, $current["classpath"], "The method getHooks() does not return the expected class path with classname");
-			$this->assertEquals($namespace, $current["namespace"], "The method getHooks() does not return the expected namespace with classname");
-			$this->assertEquals("HookUtilityTest.php", $current["filename"], "The method getHooks() does not return the expected filename with classname");
-			$this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]], "The methog getHooks() does not return the expected class with classname");
-			$this->assertNull($current["method"]);
+			$this->assertEquals($classpath, $current["classpath"]);
+			$this->assertEquals($namespace, $current["namespace"]);
+			$this->assertEquals("HookUtilityTest.php", $current["filename"]);
+			$this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
+			$this->assertNull($current["method"], "The method getHooks() does not return the expected value");
 		}
 
 		$hooks4 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", "Exception");
-		$this->assertCount(0, $hooks4, "The method getHooks() does not return the expected hooks with extends");
+		$this->assertCount(0, $hooks4);
 
 		$hooks5 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", PHPUnit_Framework_TestCase::class);
-		$this->assertCount(1, $hooks5, "The method getHooks() does not return the expected hooks with extends");
+		$this->assertCount(1, $hooks5);
 		foreach ($hooks5 as $current) {
 
-			$this->assertEquals($classpath, $current["classpath"], "The method getHooks() does not return the expected class path with extends");
-			$this->assertEquals($namespace, $current["namespace"], "The method getHooks() does not return the expected namespace with extends");
-			$this->assertEquals("HookUtilityTest.php", $current["filename"], "The method getHooks() does not return the expected filename with extends");
-			$this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]], "The methog getHooks() does not return the expected class with extends");
-			$this->assertNull($current["method"]);
+			$this->assertEquals($classpath, $current["classpath"]);
+			$this->assertEquals($namespace, $current["namespace"]);
+			$this->assertEquals("HookUtilityTest.php", $current["filename"]);
+			$this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
+			$this->assertNull($current["method"], "The method getHooks() does not return the expected value");
 		}
 
 		$hooks6 = HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", PHPUnit_Framework_TestCase::class, "testGetHooks");
-		$this->assertCount(1, $hooks6, "The method getHooks() does not return the expected hooks with method");
+		$this->assertCount(1, $hooks6);
 		foreach ($hooks6 as $current) {
 
-			$this->assertEquals($classpath, $current["classpath"], "The method getHooks() does not return the expected class path with method");
-			$this->assertEquals($namespace, $current["namespace"], "The method getHooks() does not return the expected namespace with method");
-			$this->assertEquals("HookUtilityTest.php", $current["filename"], "The method getHooks() does not return the expected filename with method");
-			$this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]], "The methog getHooks() does not return the expected class with method");
+			$this->assertEquals($classpath, $current["classpath"]);
+			$this->assertEquals($namespace, $current["namespace"]);
+			$this->assertEquals("HookUtilityTest.php", $current["filename"]);
+			$this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
 			$this->assertContainsOnlyInstancesOf(ReflectionMethod::class, [$current["method"]]);
 		}
 
 		try {
 			HookUtility::getHooks($classpath, $namespace, "/HookUtilityTest/", PHPUnit_Framework_TestCase::class, "testGetHook");
 		} catch (Exception $ex) {
-			$this->assertEquals("The hook method \"testGetHook\" is not found", $ex->getMessage(), "The method getHooks() does not return the expected exception");
+			$this->assertInstanceOf(HookMethodNotFoundException::class, $ex);
+			$this->assertEquals("The hook method \"testGetHook\" is not found", $ex->getMessage());
 		}
 	}
 

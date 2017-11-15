@@ -33,7 +33,7 @@ final class TimestampArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 		$ex = new TimestampArgumentException("exception");
 
 		$res = "The argument \"exception\" is not a timestamp";
-		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected value");
+		$this->assertEquals($res, $ex->getMessage());
 	}
 
 }

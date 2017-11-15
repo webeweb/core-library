@@ -30,13 +30,13 @@ final class HTTPMethodInterfaceTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstructor() {
 
-		$this->assertEquals("DELETE", HTTPMethodInterface::METHOD_DELETE, "The constant METHOD_DELETE does not return the expected value");
-		$this->assertEquals("GET", HTTPMethodInterface::METHOD_GET, "The constant METHOD_GET does not return the expected value");
-		$this->assertEquals("HEAD", HTTPMethodInterface::METHOD_HEAD, "The constant METHOD_HEAD does not return the expected value");
-		$this->assertEquals("OPTIONS", HTTPMethodInterface::METHOD_OPTIONS, "The constant METHOD_OPTIONS does not return the expected value");
-		$this->assertEquals("PATCH", HTTPMethodInterface::METHOD_PATCH, "The constant METHOD_PATCH does not return the expected value");
-		$this->assertEquals("POST", HTTPMethodInterface::METHOD_POST, "The constant METHOD_POST does not return the expected value");
-		$this->assertEquals("PUT", HTTPMethodInterface::METHOD_PUT, "The constant METHOD_PUT does not return the expected value");
+		$this->assertEquals("DELETE", HTTPMethodInterface::METHOD_DELETE);
+		$this->assertEquals("GET", HTTPMethodInterface::METHOD_GET);
+		$this->assertEquals("HEAD", HTTPMethodInterface::METHOD_HEAD);
+		$this->assertEquals("OPTIONS", HTTPMethodInterface::METHOD_OPTIONS);
+		$this->assertEquals("PATCH", HTTPMethodInterface::METHOD_PATCH);
+		$this->assertEquals("POST", HTTPMethodInterface::METHOD_POST);
+		$this->assertEquals("PUT", HTTPMethodInterface::METHOD_PUT);
 	}
 
 }

@@ -33,7 +33,7 @@ final class DateArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 		$ex = new DateArgumentException("exception");
 
 		$res = "The argument \"exception\" is not a date";
-		$this->assertEquals($res, $ex->getMessage(), "The method getMessage() does not return the expected value");
+		$this->assertEquals($res, $ex->getMessage());
 	}
 
 }
