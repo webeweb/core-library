@@ -43,14 +43,14 @@ final class StringUtility {
 
 			// Check if the value is an array.
 			if (is_array($value)) {
-				$buffer = implode(" ", $value);
+				$buffer = trim(implode(" ", $value));
 			} else {
-				$buffer = $value;
+				$buffer = trim($value);
 			}
 
 			// Check if the buffer is not empty.
 			if ($buffer !== "") {
-				$output[] = $key . "=\"" . preg_replace("/\s+/", " ", trim($buffer)) . "\"";
+				$output[] = $key . "=\"" . preg_replace("/\s+/", " ", $buffer) . "\"";
 			}
 		}
 
