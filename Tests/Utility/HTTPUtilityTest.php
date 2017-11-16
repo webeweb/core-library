@@ -15,10 +15,11 @@ use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Utility\HTTPUtility;
 
 /**
- * HTTPUtilityTest
+ * HTTP utility test.
  *
- * @author Camille A. <c.attia@nectardecode.com>
+ * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Utility
+ * @final
  */
 final class HTTPUtilityTest extends PHPUnit_Framework_TestCase {
 
