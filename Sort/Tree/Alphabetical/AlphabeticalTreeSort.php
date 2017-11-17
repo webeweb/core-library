@@ -27,21 +27,23 @@ final class AlphabeticalTreeSort {
 	/**
 	 * Create a choices.
 	 *
-	 * @param AlphabeticalTreeSortInterface[] $nodes The nodes.
+	 * @param AlphabeticalTreeSortInterface[] $choices The choices.
 	 * @return array Returns the choices.
 	 */
-	public static function createChoices(array $nodes) {
+	public static function createChoices(array $choices) {
 
 		// Initialize the output.
 		$output = [];
 
 		// Handle each node.
-		foreach ($nodes as $current) {
+		foreach ($choices as $current) {
 
 			// Get and check the path.
 			$path = self::getPath($current);
-			if (count($path) === 1) {
+			if (!array_key_exists($path[0]->getLabel(), $output)) {
 				$output[$current->getLabel()] = [];
+			}
+			if (count($path) === 1) {
 				continue;
 			}
 
