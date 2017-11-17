@@ -25,6 +25,35 @@ namespace WBW\Library\Core\Sort\Tree\Alphabetical;
 final class AlphabeticalTreeSort {
 
 	/**
+	 * Create a choices.
+	 *
+	 * @param AlphabeticalTreeSortInterface[] $nodes The nodes.
+	 * @return array Returns the choices.
+	 */
+	public static function createChoices(array $nodes) {
+
+		// Initialize the output.
+		$output = [];
+
+		// Handle each node.
+		foreach ($nodes as $current) {
+
+			// Get and check the path.
+			$path = self::getPath($current);
+			if (count($path) === 1) {
+				$output[$current->getLabel()] = [];
+				continue;
+			}
+
+			// Add the node.
+			$output[$path[0]->getLabel()][] = $current;
+		}
+
+		// Return the output.
+		return $output;
+	}
+
+	/**
 	 * Compare.
 	 *
 	 * @param AlphabeticalTreeSortInterface $node1 The node 1.
@@ -34,8 +63,8 @@ final class AlphabeticalTreeSort {
 	public static function compare(AlphabeticalTreeSortInterface $node1, AlphabeticalTreeSortInterface $node2) {
 
 		// Get the paths.
-		$path1	 = AlphabeticalTreeSort::getPath($node1);
-		$path2	 = AlphabeticalTreeSort::getPath($node2);
+		$path1	 = self::getPath($node1);
+		$path2	 = self::getPath($node2);
 
 		// Count the path.
 		$count = count($path1);
@@ -64,7 +93,7 @@ final class AlphabeticalTreeSort {
 	 * @return integer Returns the level.
 	 */
 	public static function getLevel(AlphabeticalTreeSortInterface $node) {
-		return count(AlphabeticalTreeSort::getPath($node)) - 1;
+		return count(self::getPath($node)) - 1;
 	}
 
 	/**
