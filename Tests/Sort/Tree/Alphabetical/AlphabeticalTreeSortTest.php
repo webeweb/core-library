@@ -29,14 +29,19 @@ use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSort;
 final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 
 	/**
-	 * Tests the sort() method.
+	 * Objects.
 	 *
-	 * @return void
+	 * @var AlphabeticalTreeSortInterface[]
 	 */
-	public function testCompare() {
+	private $obj;
+
+	/**
+	 * {@inheritdoc}
+	 */
+	public function setUp() {
 
 		// Initialize the nodes.
-		$obj = [
+		$this->obj = [
 			new NavigationNode("id01"),
 			new NavigationNode("id02"),
 			new NavigationNode("id03"),
@@ -50,28 +55,36 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 		];
 
 		// Imbricate the nodes.
-		$obj[0]->addNode($obj[9]);
-		$obj[0]->addNode($obj[8]);
-		$obj[0]->addNode($obj[7]);
+		$this->obj[0]->addNode($this->obj[9]);
+		$this->obj[0]->addNode($this->obj[8]);
+		$this->obj[0]->addNode($this->obj[7]);
 
-		$obj[1]->addNode($obj[6]);
-		$obj[1]->addNode($obj[5]);
-		$obj[1]->addNode($obj[4]);
+		$this->obj[1]->addNode($this->obj[6]);
+		$this->obj[1]->addNode($this->obj[5]);
+		$this->obj[1]->addNode($this->obj[4]);
 
-		$obj[4]->addNode($obj[3]);
-		$obj[4]->addNode($obj[2]);
+		$this->obj[4]->addNode($this->obj[3]);
+		$this->obj[4]->addNode($this->obj[2]);
+	}
 
-		$res = AlphabeticalTreeSort::sort(array_values($obj));
-		$this->assertEquals($obj[0]->getLabel(), $res[0]->getLabel());
-		$this->assertEquals($obj[7]->getLabel(), $res[1]->getLabel());
-		$this->assertEquals($obj[8]->getLabel(), $res[2]->getLabel());
-		$this->assertEquals($obj[9]->getLabel(), $res[3]->getLabel());
-		$this->assertEquals($obj[1]->getLabel(), $res[4]->getLabel());
-		$this->assertEquals($obj[4]->getLabel(), $res[5]->getLabel());
-		$this->assertEquals($obj[2]->getLabel(), $res[6]->getLabel());
-		$this->assertEquals($obj[3]->getLabel(), $res[7]->getLabel());
-		$this->assertEquals($obj[5]->getLabel(), $res[8]->getLabel());
-		$this->assertEquals($obj[6]->getLabel(), $res[9]->getLabel());
+	/**
+	 * Tests the sort() method.
+	 *
+	 * @return void
+	 */
+	public function testCompare() {
+
+		$res = AlphabeticalTreeSort::sort(array_values($this->obj));
+		$this->assertEquals($this->obj[0]->getLabel(), $res[0]->getLabel());
+		$this->assertEquals($this->obj[7]->getLabel(), $res[1]->getLabel());
+		$this->assertEquals($this->obj[8]->getLabel(), $res[2]->getLabel());
+		$this->assertEquals($this->obj[9]->getLabel(), $res[3]->getLabel());
+		$this->assertEquals($this->obj[1]->getLabel(), $res[4]->getLabel());
+		$this->assertEquals($this->obj[4]->getLabel(), $res[5]->getLabel());
+		$this->assertEquals($this->obj[2]->getLabel(), $res[6]->getLabel());
+		$this->assertEquals($this->obj[3]->getLabel(), $res[7]->getLabel());
+		$this->assertEquals($this->obj[5]->getLabel(), $res[8]->getLabel());
+		$this->assertEquals($this->obj[6]->getLabel(), $res[9]->getLabel());
 	}
 
 	/**
@@ -81,42 +94,16 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testGetLevel() {
 
-		// Initialize the nodes.
-		$obj = [
-			new NavigationNode("id01"),
-			new NavigationNode("id02"),
-			new NavigationNode("id03"),
-			new NavigationNode("id04"),
-			new NavigationNode("id05"),
-			new NavigationNode("id06"),
-			new NavigationNode("id07"),
-			new NavigationNode("id08"),
-			new NavigationNode("id09"),
-			new NavigationNode("id10"),
-		];
-
-		// Imbricate the nodes.
-		$obj[0]->addNode($obj[9]);
-		$obj[0]->addNode($obj[8]);
-		$obj[0]->addNode($obj[7]);
-
-		$obj[1]->addNode($obj[6]);
-		$obj[1]->addNode($obj[5]);
-		$obj[1]->addNode($obj[4]);
-
-		$obj[4]->addNode($obj[3]);
-		$obj[4]->addNode($obj[2]);
-
-		$this->assertEquals(0, AlphabeticalTreeSort::getLevel($obj[0]));
-		$this->assertEquals(0, AlphabeticalTreeSort::getLevel($obj[1]));
-		$this->assertEquals(2, AlphabeticalTreeSort::getLevel($obj[2]));
-		$this->assertEquals(2, AlphabeticalTreeSort::getLevel($obj[3]));
-		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($obj[4]));
-		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($obj[5]));
-		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($obj[6]));
-		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($obj[7]));
-		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($obj[8]));
-		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($obj[9]));
+		$this->assertEquals(0, AlphabeticalTreeSort::getLevel($this->obj[0]));
+		$this->assertEquals(0, AlphabeticalTreeSort::getLevel($this->obj[1]));
+		$this->assertEquals(2, AlphabeticalTreeSort::getLevel($this->obj[2]));
+		$this->assertEquals(2, AlphabeticalTreeSort::getLevel($this->obj[3]));
+		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[4]));
+		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[5]));
+		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[6]));
+		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[7]));
+		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[8]));
+		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[9]));
 	}
 
 }
