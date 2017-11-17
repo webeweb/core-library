@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Node;
 
+use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSortInterface;
+
 /**
  * Abstract node.
  *
@@ -18,7 +20,7 @@ namespace WBW\Library\Core\Node;
  * @package WBW\Library\Core\Node
  * @abstract
  */
-abstract class AbstractNode {
+abstract class AbstractNode implements AlphabeticalTreeSortInterface {
 
 	/**
 	 * Index.
@@ -108,6 +110,13 @@ abstract class AbstractNode {
 	 * @return string Returns the id.
 	 */
 	public final function getId() {
+		return $this->id;
+	}
+
+	/**
+	 * {@inheritdoc}
+	 */
+	public function getLabel() {
 		return $this->id;
 	}
 
