@@ -30,7 +30,6 @@ final class BooleanUtility {
 		if (is_null($value)) {
 			return false;
 		}
-		$output = false;
 		switch (strtolower($value)) {
 			case "1":
 			case "o":
@@ -39,9 +38,9 @@ final class BooleanUtility {
 			case "true":
 			case "y":
 			case "yes":
-				$output = true;
+				return true;
 		}
-		return $output;
+		return false;
 	}
 
 }
