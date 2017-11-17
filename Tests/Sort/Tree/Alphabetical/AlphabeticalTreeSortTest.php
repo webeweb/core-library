@@ -68,26 +68,6 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 	}
 
 	/**
-	 * Tests the sort() method.
-	 *
-	 * @return void
-	 */
-	public function testCompare() {
-
-		$res = AlphabeticalTreeSort::sort(array_values($this->obj));
-		$this->assertEquals($this->obj[0]->getLabel(), $res[0]->getLabel());
-		$this->assertEquals($this->obj[7]->getLabel(), $res[1]->getLabel());
-		$this->assertEquals($this->obj[8]->getLabel(), $res[2]->getLabel());
-		$this->assertEquals($this->obj[9]->getLabel(), $res[3]->getLabel());
-		$this->assertEquals($this->obj[1]->getLabel(), $res[4]->getLabel());
-		$this->assertEquals($this->obj[4]->getLabel(), $res[5]->getLabel());
-		$this->assertEquals($this->obj[2]->getLabel(), $res[6]->getLabel());
-		$this->assertEquals($this->obj[3]->getLabel(), $res[7]->getLabel());
-		$this->assertEquals($this->obj[5]->getLabel(), $res[8]->getLabel());
-		$this->assertEquals($this->obj[6]->getLabel(), $res[9]->getLabel());
-	}
-
-	/**
 	 * Tests the getLevel() method.
 	 *
 	 * @return void
@@ -104,6 +84,26 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[7]));
 		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[8]));
 		$this->assertEquals(1, AlphabeticalTreeSort::getLevel($this->obj[9]));
+	}
+
+	/**
+	 * Tests the sort() method.
+	 *
+	 * @return void
+	 */
+	public function testSort() {
+
+		$res = AlphabeticalTreeSort::sort(array_values($this->obj));
+		$this->assertEquals($this->obj[0]->getLabel(), $res[0]->getLabel());
+		$this->assertEquals($this->obj[7]->getLabel(), $res[1]->getLabel());
+		$this->assertEquals($this->obj[8]->getLabel(), $res[2]->getLabel());
+		$this->assertEquals($this->obj[9]->getLabel(), $res[3]->getLabel());
+		$this->assertEquals($this->obj[1]->getLabel(), $res[4]->getLabel());
+		$this->assertEquals($this->obj[4]->getLabel(), $res[5]->getLabel());
+		$this->assertEquals($this->obj[2]->getLabel(), $res[6]->getLabel());
+		$this->assertEquals($this->obj[3]->getLabel(), $res[7]->getLabel());
+		$this->assertEquals($this->obj[5]->getLabel(), $res[8]->getLabel());
+		$this->assertEquals($this->obj[6]->getLabel(), $res[9]->getLabel());
 	}
 
 }
