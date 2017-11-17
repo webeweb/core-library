@@ -49,7 +49,7 @@ final class AlphabeticalTreeSort {
 
 			// Compare the elements.
 			if ($elem1 !== $elem2) {
-				return !is_null($elem2) ? strcmp($elem1->getLabel(), $elem2->getLabel()) : 1;
+				return !is_null($elem2) ? strcasecmp($elem1->getLabel(), $elem2->getLabel()) : 1;
 			}
 		}
 
