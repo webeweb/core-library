@@ -36,7 +36,7 @@ final class AlphabeticalTreeSort {
 		$output = [];
 
 		// Handle each node.
-		foreach ($choices as $current) {
+		foreach (self::sort($choices) as $current) {
 
 			// Get and check the path.
 			$path = self::getPath($current);

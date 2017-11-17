@@ -80,9 +80,9 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals($this->obj[8], $res["id01"][1]);
 		$this->assertEquals($this->obj[9], $res["id01"][2]);
 		$this->assertCount(5, $res["id02"]);
-		$this->assertEquals($this->obj[2], $res["id02"][0]);
-		$this->assertEquals($this->obj[3], $res["id02"][1]);
-		$this->assertEquals($this->obj[4], $res["id02"][2]);
+		$this->assertEquals($this->obj[4], $res["id02"][0]);
+		$this->assertEquals($this->obj[2], $res["id02"][1]);
+		$this->assertEquals($this->obj[3], $res["id02"][2]);
 		$this->assertEquals($this->obj[5], $res["id02"][3]);
 		$this->assertEquals($this->obj[6], $res["id02"][4]);
 	}
