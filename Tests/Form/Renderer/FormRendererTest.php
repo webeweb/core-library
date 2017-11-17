@@ -15,6 +15,7 @@ use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Form\Renderer\FormRenderer;
 use WBW\Library\Core\Form\Renderer\FormRendererInterface;
 use WBW\Library\Core\Form\Renderer\TranslateFormRendererInterface;
+use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSortInterface;
 
 /**
  * Form renderer test.
@@ -34,19 +35,22 @@ final class FormRendererTest extends PHPUnit_Framework_TestCase {
 
 		$obj = [
 			null,
+			$this->getMockBuilder(AlphabeticalTreeSortInterface::class)->getMock(),
 			$this->getMockBuilder(FormRendererInterface::class)->getMock(),
 			$this->getMockBuilder(TranslateFormRendererInterface::class)->getMock(),
 			$this,
 		];
 
 		// Set the mocks.
-		$obj[1]->expects($this->any())->method("getChoiceLabel")->willReturn("choiceLabel");
-		$obj[2]->expects($this->any())->method("getChoiceLabel")->willReturn("translatedChoiceLabel");
+		$obj[1]->expects($this->any())->method("getParent")->willReturn(null);
+		$obj[2]->expects($this->any())->method("getChoiceLabel")->willReturn("choiceLabel");
+		$obj[3]->expects($this->any())->method("getChoiceLabel")->willReturn("translatedChoiceLabel");
 
 		$this->assertEquals("label.empty_selection", FormRenderer::render($obj[0]));
-		$this->assertEquals("choiceLabel", FormRenderer::render($obj[1]));
-		$this->assertEquals("translatedChoiceLabel", FormRenderer::render($obj[2]));
-		$this->assertEquals("FormRendererInterface not implemented by this object", FormRenderer::render($obj[3]));
+		$this->assertEquals("+ FormRendererInterface not implemented by this object", FormRenderer::render($obj[1]));
+		$this->assertEquals("choiceLabel", FormRenderer::render($obj[2]));
+		$this->assertEquals("translatedChoiceLabel", FormRenderer::render($obj[3]));
+		$this->assertEquals("FormRendererInterface not implemented by this object", FormRenderer::render($obj[4]));
 	}
 
 }

@@ -11,6 +11,9 @@
 
 namespace WBW\Library\Core\Form\Renderer;
 
+use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSort;
+use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSortInterface;
+
 /**
  * Form renderer.
  *
@@ -34,13 +37,20 @@ final class FormRenderer {
 
 		// Check the option.
 		if (is_null($option)) {
-			$output = "label.empty_selection";
-		} elseif ($option instanceof TranslateFormRendererInterface) {
+			return "label.empty_selection";
+		}
+
+		if ($option instanceof TranslateFormRendererInterface) {
 			$output = $option->getChoiceLabel($translator);
-		} elseif ($option instanceof FormRendererInterface) {
+		} else if ($option instanceof FormRendererInterface) {
 			$output = $option->getChoiceLabel();
 		} else {
 			$output = "FormRendererInterface not implemented by this object";
+		}
+
+		if ($option instanceof AlphabeticalTreeSortInterface) {
+			$multiplier	 = AlphabeticalTreeSort::getLevel($option);
+			$output		 = implode("", ["+", str_repeat("-", $multiplier === 0 ? 0 : $multiplier - 1), " ", $output]);
 		}
 
 		// Return the output.
