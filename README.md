@@ -3,10 +3,11 @@ core-library
 
 [![Build Status](https://travis-ci.org/webeweb/core-library.svg?branch=master)](https://travis-ci.org/webeweb/core-library) [![Coverage Status](https://coveralls.io/repos/github/webeweb/core-library/badge.svg?branch=master)](https://coveralls.io/github/webeweb/core-library?branch=master) [![License](https://poser.pugx.org/webeweb/core-library/license)](https://packagist.org/packages/webeweb/core-library) [![composer.lock](https://poser.pugx.org/webeweb/core-library/composerlock)](https://packagist.org/packages/webeweb/core-library) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/57a910cc-74d4-4727-8c89-2805241f4ee6/mini.png)](https://insight.sensiolabs.com/projects/57a910cc-74d4-4727-8c89-2805241f4ee6)
 
-This package contains some classes we re-use regularly into other packages or projects.
+This package contains some classes we re-use regularly into other packages or
+projects.
 
-`core-library` uses a rolling release based on git master branch which is considered
-stable.
+`core-library` uses a rolling release based on git master branch which is
+considered stable.
 
 ---
 
