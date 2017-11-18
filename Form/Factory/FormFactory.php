@@ -23,6 +23,11 @@ use WBW\Library\Core\Form\Renderer\FormRenderer;
 final class FormFactory {
 
 	/**
+	 * Date format.
+	 */
+	const DATE_FORMAT = "dd/MM/yyyy";
+
+	/**
 	 * Create a choice type.
 	 *
 	 * @param array $choices The choices.
