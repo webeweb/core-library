@@ -1,0 +1,17 @@
+# /Resources/translations/samples.fr.yml
+choices:
+    civility:
+        empty: "Empty"
+        miss: "Miss"
+        mister: "Mister"
+        mirs: "Mrs"
+    marital-status:
+        divorced: "Divorced"
+        empty: "Empty"
+        married: "Married"
+        pacs: "PACS"
+        single: "Single"
+        widower: "Widower"
+
+label:
+    empty_selection: "Empty selection"
