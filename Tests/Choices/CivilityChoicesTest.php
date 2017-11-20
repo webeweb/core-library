@@ -15,7 +15,7 @@ use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Choices\CivilityChoices;
 
 /**
- * CivilityChoicesTest
+ * Civility choices test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Choices
