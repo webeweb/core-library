@@ -37,7 +37,7 @@ final class FormRenderer {
 
 		// Check the option.
 		if (is_null($option)) {
-			return "label.empty_selection";
+			return !is_null($translator) ? $translator->trans("label.empty_selection") : "Empty selection";
 		}
 
 		if ($option instanceof TranslateFormRendererInterface) {
