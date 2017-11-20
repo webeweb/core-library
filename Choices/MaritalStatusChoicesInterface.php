@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Choices;
 /**
  * Marital status choices interface.
  *
- * @author Camille A. <c.attia@nectardecode.com>
+ * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Choices
  */
 interface MaritalStatusChoicesInterface {
