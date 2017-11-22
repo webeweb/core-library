@@ -1,6 +1,5 @@
 <?php
-
-/*
+/**
  * This file is part of the core-library package.
  *
  * (c) 2017 NdC/WBW
