@@ -1,6 +1,5 @@
 <?php
-
-/*
+/**
  * This file is part of the core-library package.
  *
  * (c) 2017 NdC/WBW
@@ -19,7 +18,7 @@ use WBW\Library\Core\Exception\Hook\HookMethodNotFoundException;
 use WBW\Library\Core\Exception\Hook\HookSyntaxErrorException;
 
 /**
- * File utility.
+ * Hook utility.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Utility
@@ -30,10 +29,11 @@ final class HookUtility {
 	/**
 	 * Get the hooks.
 	 *
-	 * @param type $classpath The class path.
-	 * @param type $namespace The namespace.
-	 * @param type $classname The class name.
-	 * @param type $method The class method.
+	 * @param string $classpath The class path.
+	 * @param string $namespace The namespace.
+	 * @param string $classname The class name.
+	 * @param string $extends The class extend.
+	 * @param string $method The class method.
 	 * @return array Returns the hooks array.
 	 * @throws HookClassNotFoundException Throws a hook class not found if the classname is not found.
 	 */
