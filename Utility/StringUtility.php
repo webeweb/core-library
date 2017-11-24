@@ -23,7 +23,7 @@ final class StringUtility {
 	/**
 	 * Parse an array.
 	 *
-	 * @param array $values The values.
+	 * @param array $values The array.
 	 * @return string Returns the array converted into key="value".
 	 */
 	public static function parseArray(array $values) {
