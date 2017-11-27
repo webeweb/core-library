@@ -50,7 +50,7 @@ final class HookUtility {
 		foreach ($filenames as $filename) {
 
 			// Check the class name.
-			if (!(is_null($classname) || preg_match($classname, $filename) !== 0)) {
+			if (!is_null($classname) && preg_match($classname, $filename) === 0) {
 				continue;
 			}
 
