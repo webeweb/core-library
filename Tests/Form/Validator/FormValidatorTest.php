@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Form\Validator;
 
+use DateTime;
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\ArrayArgumentException;
@@ -80,6 +81,13 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
 		}
 
 		try {
+			FormValidator::convert("exception", FormValidator::FORMAT_DATE, "Y-m-d");
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(DateArgumentException::class, $ex);
+			$this->assertEquals("The argument \"exception\" is not a date", $ex->getMessage());
+		}
+
+		try {
 			FormValidator::convert(null, FormValidator::FORMAT_NUMBER);
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
@@ -101,23 +109,26 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
 		}
 
 		try {
-			FormValidator::convert(null, FormValidator::FORMAT_STRING);
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
-			$this->assertEquals("The type \"236\" is not implemented", $ex->getMessage());
-		}
-
-		try {
 			FormValidator::convert(null, FormValidator::FORMAT_TIMESTAMP);
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(NullPointerException::class, $ex);
 			$this->assertEquals("The datetime format is null", $ex->getMessage());
 		}
 
+		try {
+			FormValidator::convert("exception", FormValidator::FORMAT_TIMESTAMP, "Y-m-d H:m:s");
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(TimestampArgumentException::class, $ex);
+			$this->assertEquals("The argument \"exception\" is not a timestamp", $ex->getMessage());
+		}
+
 		$this->assertEquals(true, FormValidator::convert("1", FormValidator::FORMAT_BOOLEAN));
+		$this->assertInstanceOf(DateTime::class, FormValidator::convert("2017-11-27", FormValidator::FORMAT_DATE, "Y-m-d"));
 		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_DOUBLE));
 		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_FLOAT));
 		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_INTEGER));
+		$this->assertEquals("1", FormValidator::convert("1", FormValidator::FORMAT_INTEGER));
+		$this->assertInstanceOf(DateTime::class, FormValidator::convert("2017-11-27 11:20:00", FormValidator::FORMAT_TIMESTAMP, "Y-m-d H:m:s"));
 	}
 
 	/**

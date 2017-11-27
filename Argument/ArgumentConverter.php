@@ -14,6 +14,7 @@ namespace WBW\Library\Core\Argument;
 use DateTime;
 use WBW\Library\Core\Exception\Argument\DateArgumentException;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
 use WBW\Library\Core\Utility\BooleanUtility;
 use WBW\Library\Core\Utility\DoubleUtility;
@@ -58,13 +59,15 @@ final class ArgumentConverter implements ArgumentInterface {
 				return FloatUtility::parseString($value);
 			case self::TYPE_INTEGER:
 				return IntegerUtility::parseString($value);
+			case self::TYPE_STRING:
+				return $value;
 			case self::TYPE_TIMESTAMP:
 				if (is_null($dateFormat)) {
 					throw new NullPointerException("The datetime format is null");
 				}
 				$datetime = DateTime::createFromFormat($dateFormat, $value);
 				if ($datetime === false) {
-					throw new DateArgumentException($value);
+					throw new TimestampArgumentException($value);
 				}
 				return $datetime;
 			default:

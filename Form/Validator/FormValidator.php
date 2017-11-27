@@ -103,6 +103,8 @@ final class FormValidator {
 				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_FLOAT);
 			case self::FORMAT_INTEGER:
 				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_INTEGER);
+			case self::FORMAT_STRING:
+				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_STRING);
 			case self::FORMAT_TIMESTAMP:
 				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_TIMESTAMP, $dateFormat);
 			default:

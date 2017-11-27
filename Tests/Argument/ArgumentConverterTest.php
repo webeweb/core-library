@@ -16,7 +16,9 @@ use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Argument\ArgumentConverter;
 use WBW\Library\Core\Argument\ArgumentInterface;
+use WBW\Library\Core\Exception\Argument\DateArgumentException;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
 
 /**
@@ -50,6 +52,13 @@ final class ArgumentConverterTest extends PHPUnit_Framework_TestCase {
 		}
 
 		try {
+			ArgumentConverter::convert("exception", ArgumentInterface::TYPE_DATE, "Y-m-d");
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(DateArgumentException::class, $ex);
+			$this->assertEquals("The argument \"exception\" is not a date", $ex->getMessage());
+		}
+
+		try {
 			ArgumentConverter::convert(null, ArgumentInterface::TYPE_NUMBER);
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
@@ -71,17 +80,17 @@ final class ArgumentConverterTest extends PHPUnit_Framework_TestCase {
 		}
 
 		try {
-			ArgumentConverter::convert(null, ArgumentInterface::TYPE_STRING);
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
-			$this->assertEquals("The type \"87\" is not implemented", $ex->getMessage());
-		}
-
-		try {
 			ArgumentConverter::convert(null, ArgumentInterface::TYPE_TIMESTAMP);
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(NullPointerException::class, $ex);
 			$this->assertEquals("The datetime format is null", $ex->getMessage());
+		}
+
+		try {
+			ArgumentConverter::convert("exception", ArgumentInterface::TYPE_TIMESTAMP, "Y-m-d H:m:s");
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(TimestampArgumentException::class, $ex);
+			$this->assertEquals("The argument \"exception\" is not a timestamp", $ex->getMessage());
 		}
 
 		$this->assertEquals(true, ArgumentConverter::convert("1", ArgumentInterface::TYPE_BOOLEAN));
@@ -89,7 +98,8 @@ final class ArgumentConverterTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals(1, ArgumentConverter::convert("1", ArgumentInterface::TYPE_DOUBLE));
 		$this->assertEquals(1, ArgumentConverter::convert("1", ArgumentInterface::TYPE_FLOAT));
 		$this->assertEquals(1, ArgumentConverter::convert("1", ArgumentInterface::TYPE_INTEGER));
-		$this->assertInstanceOf(DateTime::class, ArgumentConverter::convert("2017-11-27 11:20:00", ArgumentInterface::TYPE_DATE, "Y-m-d H:m:s"));
+		$this->assertEquals("1", ArgumentConverter::convert("1", ArgumentInterface::TYPE_STRING));
+		$this->assertInstanceOf(DateTime::class, ArgumentConverter::convert("2017-11-27 11:20:00", ArgumentInterface::TYPE_TIMESTAMP, "Y-m-d H:m:s"));
 	}
 
 }
