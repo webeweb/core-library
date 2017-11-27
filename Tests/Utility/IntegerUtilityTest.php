@@ -20,7 +20,7 @@ use WBW\Library\Core\Utility\IntegerUtility;
  * Integer utility test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Core\Tests\Utility
  * @final
  */
 final class IntegerUtilityTest extends PHPUnit_Framework_TestCase {
