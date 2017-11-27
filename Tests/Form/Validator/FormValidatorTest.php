@@ -127,7 +127,7 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_DOUBLE));
 		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_FLOAT));
 		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_INTEGER));
-		$this->assertEquals("1", FormValidator::convert("1", FormValidator::FORMAT_INTEGER));
+		$this->assertEquals("1", FormValidator::convert("1", FormValidator::FORMAT_STRING));
 		$this->assertInstanceOf(DateTime::class, FormValidator::convert("2017-11-27 11:20:00", FormValidator::FORMAT_TIMESTAMP, "Y-m-d H:m:s"));
 	}
 
