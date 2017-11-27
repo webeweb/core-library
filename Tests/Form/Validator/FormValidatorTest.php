@@ -25,6 +25,7 @@ use WBW\Library\Core\Exception\Argument\ObjectArgumentException;
 use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
+use WBW\Library\Core\Exception\Pointer\NullPointerException;
 use WBW\Library\Core\Form\Validator\FormValidator;
 
 /**
@@ -74,8 +75,8 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
 		try {
 			FormValidator::convert(null, FormValidator::FORMAT_DATE);
 		} catch (Exception $ex) {
-			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
-			$this->assertEquals("The type \"44\" is not implemented", $ex->getMessage());
+			$this->assertInstanceOf(NullPointerException::class, $ex);
+			$this->assertEquals("The date format is null", $ex->getMessage());
 		}
 
 		try {
@@ -83,6 +84,13 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
 			$this->assertEquals("The type \"197\" is not implemented", $ex->getMessage());
+		}
+
+		try {
+			FormValidator::convert(null, FormValidator::FORMAT_OBJECT);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
+			$this->assertEquals("The type \"206\" is not implemented", $ex->getMessage());
 		}
 
 		try {
@@ -97,6 +105,13 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
 			$this->assertEquals("The type \"236\" is not implemented", $ex->getMessage());
+		}
+
+		try {
+			FormValidator::convert(null, FormValidator::FORMAT_TIMESTAMP);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(NullPointerException::class, $ex);
+			$this->assertEquals("The datetime format is null", $ex->getMessage());
 		}
 
 		$this->assertEquals(true, FormValidator::convert("1", FormValidator::FORMAT_BOOLEAN));

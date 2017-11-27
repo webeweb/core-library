@@ -91,16 +91,20 @@ final class FormValidator {
 	 * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
 	 * @deprecated
 	 */
-	public static function convert($value, $type) {
+	public static function convert($value, $type, $dateFormat = null) {
 		switch ($type) {
 			case self::FORMAT_BOOLEAN:
 				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_BOOLEAN);
+			case self::FORMAT_DATE:
+				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_DATE, $dateFormat);
 			case self::FORMAT_DOUBLE:
 				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_DOUBLE);
 			case self::FORMAT_FLOAT:
 				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_FLOAT);
 			case self::FORMAT_INTEGER:
 				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_INTEGER);
+			case self::FORMAT_TIMESTAMP:
+				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_TIMESTAMP, $dateFormat);
 			default:
 				throw new IllegalArgumentException("The type \"" . $type . "\" is not implemented");
 		}
