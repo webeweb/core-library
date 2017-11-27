@@ -53,7 +53,7 @@ final class ArgumentValidator implements ArgumentInterface {
 				}
 				break;
 			case self::TYPE_DATE:
-				if (!date_parse($value)) {
+				if (strtotime($value) === false) {
 					throw new DateArgumentException($value);
 				}
 				break;
@@ -93,7 +93,7 @@ final class ArgumentValidator implements ArgumentInterface {
 				}
 				break;
 			case self::TYPE_TIMESTAMP:
-				if (!date_parse($value)) {
+				if (strtotime($value) === false) {
 					throw new TimestampArgumentException($value);
 				}
 				break;
