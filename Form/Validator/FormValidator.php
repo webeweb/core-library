@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Form\Validator;
 
+use WBW\Library\Core\Argument\ArgumentConverter;
 use WBW\Library\Core\Argument\ArgumentInterface;
 use WBW\Library\Core\Argument\ArgumentValidator;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
@@ -22,7 +23,7 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
  * @package WBW\Library\Core\Form\Validator
  * @final
  * @deprecated
- * @see WBW\Library\Core\Argument\ArgumentValidator
+ * @see ArgumentValidator
  */
 final class FormValidator {
 
@@ -82,12 +83,36 @@ final class FormValidator {
 	const FORMAT_TIMESTAMP = 249;
 
 	/**
+	 * Convert a string value into type $type.
+	 *
+	 * @param string $value The string value.
+	 * @param integer $type The type.
+	 * @return mixed Returns the value.
+	 * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
+	 * @deprecated
+	 */
+	public static function convert($value, $type) {
+		switch ($type) {
+			case self::FORMAT_BOOLEAN:
+				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_BOOLEAN);
+			case self::FORMAT_DOUBLE:
+				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_DOUBLE);
+			case self::FORMAT_FLOAT:
+				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_FLOAT);
+			case self::FORMAT_INTEGER:
+				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_INTEGER);
+			default:
+				throw new IllegalArgumentException("The type \"" . $type . "\" is not implemented");
+		}
+	}
+
+	/**
 	 * Determines if the value is in the expected format.
 	 *
 	 * @param mixed $value The value.
 	 * @param int $format The expected format.
 	 * @return boolean Returns true
-	 * @throws IllegalArgumentException Throws an illegal argument exception if the .
+	 * @throws IllegalArgumentException Throws an illegal argument exception if the format is not implemented.
 	 * @deprecated
 	 */
 	public static function isValid($value, $format) {

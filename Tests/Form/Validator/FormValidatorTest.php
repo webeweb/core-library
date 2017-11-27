@@ -58,6 +58,54 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
 	}
 
 	/**
+	 * Tests the convert() method.
+	 *
+	 * @return void
+	 */
+	public function testConvert() {
+
+		try {
+			FormValidator::convert(null, FormValidator::FORMAT_ARRAY);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
+			$this->assertEquals("The type \"15\" is not implemented", $ex->getMessage());
+		}
+
+		try {
+			FormValidator::convert(null, FormValidator::FORMAT_DATE);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
+			$this->assertEquals("The type \"44\" is not implemented", $ex->getMessage());
+		}
+
+		try {
+			FormValidator::convert(null, FormValidator::FORMAT_NUMBER);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
+			$this->assertEquals("The type \"197\" is not implemented", $ex->getMessage());
+		}
+
+		try {
+			FormValidator::convert(null, FormValidator::FORMAT_RESOURCE);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
+			$this->assertEquals("The type \"228\" is not implemented", $ex->getMessage());
+		}
+
+		try {
+			FormValidator::convert(null, FormValidator::FORMAT_STRING);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
+			$this->assertEquals("The type \"236\" is not implemented", $ex->getMessage());
+		}
+
+		$this->assertEquals(true, FormValidator::convert("1", FormValidator::FORMAT_BOOLEAN));
+		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_DOUBLE));
+		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_FLOAT));
+		$this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_INTEGER));
+	}
+
+	/**
 	 * Tests the isValid() method.
 	 *
 	 * @return void
