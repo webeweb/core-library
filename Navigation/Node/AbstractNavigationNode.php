@@ -218,17 +218,11 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * Set the target.
 	 *
 	 * @param string $target The target.
+	 * @return NavigationNode Returns the navigation node.
 	 */
 	public final function setTarget($target) {
-		switch ($target) {
-			case "_blank":
-			case "_self":
-			case "_parent":
-			case "_top":
-			default:
-				$this->target = $target;
-				break;
-		}
+		$this->target = $target;
+		return $this;
 	}
 
 	/**
