@@ -36,6 +36,7 @@ final class NavigationNodeTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals(false, $obj->getEnable());
 		$this->assertEquals(null, $obj->getIcon());
 		$this->assertEquals(null, $obj->getRoute());
+		$this->assertEquals(null, $obj->getTarget());
 		$this->assertEquals(null, $obj->getUrl());
 		$this->assertEquals(true, $obj->getVisible());
 
@@ -43,12 +44,14 @@ final class NavigationNodeTest extends PHPUnit_Framework_TestCase {
 		$obj->setEnable(true);
 		$obj->setIcon("icon");
 		$obj->setRoute("route");
+		$obj->setTarget("_blank");
 		$obj->setUrl("url");
 
 		$this->assertEquals(true, $obj->getActive());
 		$this->assertEquals(true, $obj->getEnable());
 		$this->assertEquals("icon", $obj->getIcon());
 		$this->assertEquals("route", $obj->getRoute());
+		$this->assertEquals("_blank", $obj->getTarget());
 		$this->assertEquals("url", $obj->getUrl());
 	}
 

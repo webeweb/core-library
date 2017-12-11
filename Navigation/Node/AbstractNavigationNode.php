@@ -51,6 +51,13 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	private $route;
 
 	/**
+	 * Target.
+	 *
+	 * @var string
+	 */
+	private $target;
+
+	/**
 	 * URL.
 	 *
 	 * @var string
@@ -77,6 +84,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 		$this->enable	 = false;
 		$this->icon		 = $icon;
 		$this->route	 = $route;
+		$this->target	 = null;
 		$this->url		 = null;
 		$this->visible	 = true;
 	}
@@ -115,6 +123,15 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 */
 	public final function getRoute() {
 		return $this->route;
+	}
+
+	/**
+	 * Get the target.
+	 *
+	 * @return string Returns the target.
+	 */
+	public final function getTarget() {
+		return $this->target;
 	}
 
 	/**
@@ -195,6 +212,23 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	public final function setRoute($route) {
 		$this->route = $route;
 		return $this;
+	}
+
+	/**
+	 * Set the target.
+	 *
+	 * @param string $target The target.
+	 */
+	public final function setTarget($target) {
+		switch ($target) {
+			case "_blank":
+			case "_self":
+			case "_parent":
+			case "_top":
+			default:
+				$this->target = $target;
+				break;
+		}
 	}
 
 	/**
