@@ -78,7 +78,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * @param string $icon The icon.
 	 * @param string $route The route.
 	 */
-	protected function __construct($name, $icon = null, $route) {
+	protected function __construct($name, $icon = null, $route = null) {
 		parent::__construct($name);
 		$this->active	 = false;
 		$this->enable	 = false;
