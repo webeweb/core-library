@@ -87,6 +87,13 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
 	}
 
 	/**
+	 * {@inheritdoc}
+	 */
+	public function getAlphabeticalTreeSortLabel() {
+		return $this->id;
+	}
+
+	/**
 	 * Get the last children node.
 	 *
 	 * @return AbstractNode Returns the first node in case of success, null otherwise.
@@ -110,13 +117,6 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
 	 * @return string Returns the id.
 	 */
 	public final function getId() {
-		return $this->id;
-	}
-
-	/**
-	 * {@inheritdoc}
-	 */
-	public function getLabel() {
 		return $this->id;
 	}
 

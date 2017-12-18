@@ -114,16 +114,16 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 	public function testSort() {
 
 		$res = AlphabeticalTreeSort::sort(array_values($this->obj));
-		$this->assertEquals($this->obj[0]->getLabel(), $res[0]->getLabel());
-		$this->assertEquals($this->obj[7]->getLabel(), $res[1]->getLabel());
-		$this->assertEquals($this->obj[8]->getLabel(), $res[2]->getLabel());
-		$this->assertEquals($this->obj[9]->getLabel(), $res[3]->getLabel());
-		$this->assertEquals($this->obj[1]->getLabel(), $res[4]->getLabel());
-		$this->assertEquals($this->obj[4]->getLabel(), $res[5]->getLabel());
-		$this->assertEquals($this->obj[2]->getLabel(), $res[6]->getLabel());
-		$this->assertEquals($this->obj[3]->getLabel(), $res[7]->getLabel());
-		$this->assertEquals($this->obj[5]->getLabel(), $res[8]->getLabel());
-		$this->assertEquals($this->obj[6]->getLabel(), $res[9]->getLabel());
+		$this->assertEquals($this->obj[0]->getAlphabeticalTreeSortLabel(), $res[0]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[7]->getAlphabeticalTreeSortLabel(), $res[1]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[8]->getAlphabeticalTreeSortLabel(), $res[2]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[9]->getAlphabeticalTreeSortLabel(), $res[3]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[1]->getAlphabeticalTreeSortLabel(), $res[4]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[4]->getAlphabeticalTreeSortLabel(), $res[5]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[2]->getAlphabeticalTreeSortLabel(), $res[6]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[3]->getAlphabeticalTreeSortLabel(), $res[7]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[5]->getAlphabeticalTreeSortLabel(), $res[8]->getAlphabeticalTreeSortLabel());
+		$this->assertEquals($this->obj[6]->getAlphabeticalTreeSortLabel(), $res[9]->getAlphabeticalTreeSortLabel());
 	}
 
 }

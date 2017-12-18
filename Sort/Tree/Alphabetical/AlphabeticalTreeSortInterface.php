@@ -24,7 +24,7 @@ interface AlphabeticalTreeSortInterface {
 	 *
 	 * @return string Returns the label.
 	 */
-	public function getLabel();
+	public function getAlphabeticalTreeSortLabel();
 
 	/**
 	 * Get the parent.
