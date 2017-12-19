@@ -40,9 +40,12 @@ final class FormRenderer {
 			return !is_null($translator) ? $translator->trans("label.empty_selection") : "Empty selection";
 		}
 
-		if ($option instanceof TranslateFormRendererInterface) {
+		// Check the implementation.
+		if ($option instanceof TranslatedChoiceRendererInterface) {
+			$output = $option->getTranslatedChoiceLabel($translator);
+		} else if ($option instanceof TranslateFormRendererInterface) { // deprecated
 			$output = $option->getChoiceLabel($translator);
-		} else if ($option instanceof FormRendererInterface) {
+		} else if ($option instanceof ChoiceRendererInterface || $option instanceof FormRendererInterface) {
 			$output = $option->getChoiceLabel();
 		} else {
 			$output = "FormRendererInterface not implemented by this object";
