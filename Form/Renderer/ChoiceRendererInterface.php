@@ -12,13 +12,12 @@
 namespace WBW\Library\Core\Form\Renderer;
 
 /**
- * Form renderer interface.
+ * Choice renderer interface.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Form\Renderer
- * @deprecated
  */
-interface FormRendererInterface {
+interface ChoiceRendererInterface {
 
 	/**
 	 * Get the choice label.
