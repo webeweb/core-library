@@ -21,6 +21,8 @@ interface NavigationInterface {
 
 	/**
 	 * Default href.
+	 *
+	 * @var string
 	 */
 	const DEFAULT_HREF = "javascript: void(0);";
 

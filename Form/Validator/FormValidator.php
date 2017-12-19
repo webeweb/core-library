@@ -29,56 +29,78 @@ final class FormValidator {
 
 	/**
 	 * Format Array.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_ARRAY = 15;
 
 	/**
 	 * Format Boolean.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_BOOLEAN = 27;
 
 	/**
 	 * Format Double.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_DATE = 44;
 
 	/**
 	 * Format Double.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_DOUBLE = 46;
 
 	/**
 	 * Format Float.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_FLOAT = 65;
 
 	/**
 	 * Format Integer.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_INTEGER = 98;
 
 	/**
 	 * Format Number.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_NUMBER = 197;
 
 	/**
 	 * Format Object.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_OBJECT = 206;
 
 	/**
 	 * Format Resource.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_RESOURCE = 228;
 
 	/**
 	 * Format String.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_STRING = 236;
 
 	/**
 	 * Format Timestamp.
+	 *
+	 * @var integer
 	 */
 	const FORMAT_TIMESTAMP = 249;
 

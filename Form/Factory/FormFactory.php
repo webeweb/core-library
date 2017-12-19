@@ -24,6 +24,8 @@ final class FormFactory {
 
 	/**
 	 * Date format.
+	 *
+	 * @var string
 	 */
 	const DATE_FORMAT = "dd/MM/yyyy";
 
