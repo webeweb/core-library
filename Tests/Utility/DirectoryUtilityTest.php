@@ -11,6 +11,9 @@
 
 namespace WBW\Library\Core\Tests\Utility;
 
+use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Utility\DirectoryUtility;
+
 /**
  * Directory utility test.
  *
@@ -18,7 +21,7 @@ namespace WBW\Library\Core\Tests\Utility;
  * @package WBW\Library\Core\Tests\Utility
  * @final
  */
-final class DirectoryUtilityTest {
+final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * Tests the isEmpty() method.
