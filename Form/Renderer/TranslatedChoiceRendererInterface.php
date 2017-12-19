@@ -12,19 +12,18 @@
 namespace WBW\Library\Core\Form\Renderer;
 
 /**
- * Translate form renderer interface.
+ * Translated choice renderer.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Form\Renderer
- * @deprecated
  */
-interface TranslateFormRendererInterface {
+interface TranslatedChoiceRendererInterface {
 
 	/**
-	 * Get the choice label.
+	 * Get the translated choice label.
 	 *
 	 * @param TranslatorInterface $translator The translator service.
 	 * @return string Returns the choice label.
 	 */
-	public function getChoiceLabel($translator);
+	public function getTranslatedChoiceLabel($translator);
 }
