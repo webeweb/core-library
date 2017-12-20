@@ -42,11 +42,16 @@ final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
 	 * Tests the isEmpty() method.
 	 *
 	 * @return void
+	 * @depends testCreate
 	 */
 	public function testIsEmpty() {
 
+		$arg1	 = getcwd() . "/phpunit";
+		$arg2	 = $arg1 . "/unittest";
+
 		$this->assertEquals(null, DirectoryUtility::isEmpty("exception"));
-		$this->assertEquals(false, DirectoryUtility::isEmpty(getcwd()));
+		$this->assertEquals(false, DirectoryUtility::isEmpty($arg1));
+		$this->assertEquals(true, DirectoryUtility::isEmpty($arg2));
 	}
 
 	/**
