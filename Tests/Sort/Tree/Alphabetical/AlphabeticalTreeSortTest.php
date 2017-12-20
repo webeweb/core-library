@@ -38,7 +38,7 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * {@inheritdoc}
 	 */
-	public function setUp() {
+	protected function setUp() {
 
 		// Initialize the nodes.
 		$this->obj = [
