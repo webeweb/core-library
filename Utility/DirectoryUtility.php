@@ -24,13 +24,15 @@ final class DirectoryUtility {
 	 * Create a directory.
 	 *
 	 * @param string $dirname The directory name.
+	 * @param integer $mode The directory mode.
+	 * @param boolean $recursive Recursive ?
 	 * @return boolean Returns true in case of success, false otherwise or null if the directory exists.
 	 */
-	public static function create($dirname) {
+	public static function create($dirname, $mode = 0755, $recursive = false) {
 		if (file_exists($dirname) === true) {
 			return null;
 		}
-		return mkdir($dirname);
+		return mkdir($dirname, $mode, $recursive);
 	}
 
 	/**
