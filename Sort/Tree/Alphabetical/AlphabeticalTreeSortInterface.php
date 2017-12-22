@@ -31,5 +31,5 @@ interface AlphabeticalTreeSortInterface {
 	 *
 	 * @return AlphabeticalTreeSortInterface Returns the parent.
 	 */
-	public function getParent();
+	public function getAlphabeticalTreeSortParent();
 }

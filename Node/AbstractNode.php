@@ -94,6 +94,13 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
 	}
 
 	/**
+	 * {@inheritdoc}
+	 */
+	public final function getAlphabeticalTreeSortParent() {
+		return $this->parent;
+	}
+
+	/**
 	 * Get the last children node.
 	 *
 	 * @return AbstractNode Returns the first node in case of success, null otherwise.

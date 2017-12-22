@@ -115,7 +115,7 @@ final class AlphabeticalTreeSort {
 		// Handle each parent.
 		do {
 			array_unshift($path, $current);
-			$current = $current->getParent();
+			$current = $current->getAlphabeticalTreeSortParent();
 		} while (!is_null($current));
 
 		// Return the path.

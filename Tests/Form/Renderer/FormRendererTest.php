@@ -46,7 +46,7 @@ final class FormRendererTest extends PHPUnit_Framework_TestCase {
 		];
 
 		// Set the mocks.
-		$obj[1]->expects($this->any())->method("getParent")->willReturn(null);
+		$obj[1]->expects($this->any())->method("getAlphabeticalTreeSortParent")->willReturn(null);
 		$obj[2]->expects($this->any())->method("getChoiceLabel")->willReturn("choiceLabel");
 		$obj[3]->expects($this->any())->method("getTranslatedChoiceLabel")->willReturn("translatedChoiceLabel");
 		$obj[4]->expects($this->any())->method("getChoiceLabel")->willReturn("choiceLabel");
