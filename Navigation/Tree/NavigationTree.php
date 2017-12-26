@@ -54,9 +54,6 @@ final class NavigationTree extends AbstractNavigationNode {
 
 		// Handle each node.
 		foreach ($node->getNodes() as $current) {
-			if (($current instanceof AbstractNavigationNode) === false) {
-				continue;
-			}
 			$breadcrumbs = array_merge($breadcrumbs, $this->getBreadcrumbs($current));
 		}
 
