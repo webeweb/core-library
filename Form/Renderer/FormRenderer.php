@@ -32,9 +32,6 @@ final class FormRenderer {
 	 */
 	public static function render($option, $translator = null) {
 
-		// Initialize the output.
-		$output = "";
-
 		// Check the option.
 		if (is_null($option)) {
 			return !is_null($translator) ? $translator->trans("label.empty_selection") : "Empty selection";
