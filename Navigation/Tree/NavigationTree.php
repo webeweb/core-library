@@ -34,7 +34,7 @@ final class NavigationTree extends AbstractNavigationNode {
 	/**
 	 * Get the breadcrumbs.
 	 *
-	 * @param AbstractNavigationNode $node The navigation node.
+	 * @param null|AbstractNavigationNode $node The navigation node.
 	 * @return AsbtractNavigationNode[] Returns the navigation nodes.
 	 */
 	public function getBreadcrumbs(AbstractNavigationNode $node = null) {
