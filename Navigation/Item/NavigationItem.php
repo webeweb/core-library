@@ -129,9 +129,10 @@ final class NavigationItem extends AbstractNode implements NavigationInterface {
 		if (0 < $this->size()) {
 			$output["subitems"] = [];
 			foreach ($this->getNodes() as $current) {
-				if ($current instanceof NavigationItem) {
-					$output["subitems"][] = $current->toArray();
+				if (($current instanceof NavigationItem) === false) {
+					continue;
 				}
+				$output["subitems"][] = $current->toArray();
 			}
 		}
 
