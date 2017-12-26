@@ -13,6 +13,7 @@ namespace WBW\Library\Core\Tests\Utility;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\Directory\DirectoryNotFoundException;
 use WBW\Library\Core\Exception\File\FileNotFoundException;
 use WBW\Library\Core\Utility\FileUtility;
@@ -51,6 +52,13 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals("0.001 EB", FileUtility::formatSize(1000000000000000, "EB", 3));
 		$this->assertEquals("0.001 ZB", FileUtility::formatSize(1000000000000000000, "ZB", 3));
 		$this->assertEquals("0.001 YB", FileUtility::formatSize(1000000000000000000000, "YB", 3));
+
+		try {
+			FileUtility::formatSize(99, "exception");
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
+			$this->assertEquals("The unit \"exception\" does not exists", $ex->getMessage());
+		}
 	}
 
 	/**
@@ -65,10 +73,10 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals("FileUtilityTest", FileUtility::getContents($filename), 'The method getContents() does not return the expected content');
 
 		try {
-			FileUtility::getContents("FileNotFoundException");
+			FileUtility::getContents("exception");
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(FileNotFoundException::class, $ex);
-			$this->assertEquals("The file \"FileNotFoundException\" is not found", $ex->getMessage());
+			$this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
 		}
 	}
 
