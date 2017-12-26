@@ -36,8 +36,6 @@ final class StringUtility {
 				continue;
 			}
 
-			$buffer = "";
-
 			// Check if the value is an array.
 			if (is_array($value)) {
 				$buffer = trim(implode(" ", $value));
