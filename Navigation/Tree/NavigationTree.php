@@ -34,7 +34,7 @@ final class NavigationTree extends AbstractNavigationNode {
 	/**
 	 * Get the breadcrumbs.
 	 *
-	 * @param null|AbstractNavigationNode $node The navigation node.
+	 * @param AbstractNavigationNode $node The navigation node.
 	 * @return AsbtractNavigationNode[] Returns the navigation nodes.
 	 */
 	public function getBreadcrumbs(AbstractNavigationNode $node = null) {
@@ -54,6 +54,9 @@ final class NavigationTree extends AbstractNavigationNode {
 
 		// Handle each node.
 		foreach ($node->getNodes() as $current) {
+			if (($current instanceof AbstractNavigationNode) === false) {
+				continue;
+			}
 			$breadcrumbs = array_merge($breadcrumbs, $this->getBreadcrumbs($current));
 		}
 
