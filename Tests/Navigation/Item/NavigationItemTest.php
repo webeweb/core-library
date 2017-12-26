@@ -39,7 +39,6 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals([], $obj->getNodes());
 		$this->assertEquals(null, $obj->getParent());
 
-		$this->assertEquals("id", $obj->getSpan());
 		$this->assertEquals("javascript: void(0);", $obj->getHref());
 		$this->assertEquals(null, $obj->getIcon());
 	}

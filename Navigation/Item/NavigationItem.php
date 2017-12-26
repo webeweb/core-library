@@ -41,12 +41,12 @@ final class NavigationItem extends AbstractNode implements NavigationInterface {
 	/**
 	 * Constructor.
 	 *
-	 * @param string $span The span.
+	 * @param string $id The id.
 	 * @param string $icon The icon.
 	 * @param string $href The href.
 	 */
-	public function __construct($span, $icon = null, $href = self::DEFAULT_HREF) {
-		parent::__construct($span);
+	public function __construct($id, $icon = null, $href = self::DEFAULT_HREF) {
+		parent::__construct($id);
 		$this->icon	 = $icon;
 		$this->href	 = $href;
 	}
@@ -67,15 +67,6 @@ final class NavigationItem extends AbstractNode implements NavigationInterface {
 	 */
 	public function getIcon() {
 		return $this->icon;
-	}
-
-	/**
-	 * Get the span.
-	 *
-	 * @return string Returns the span.
-	 */
-	public function getSpan() {
-		return parent::getId();
 	}
 
 	/**
