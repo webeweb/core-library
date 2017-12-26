@@ -94,7 +94,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 *
 	 * @return boolean Returns the active.
 	 */
-	public final function getActive() {
+	final public function getActive() {
 		return $this->active;
 	}
 
@@ -103,7 +103,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 *
 	 * @return boolean Returns the enable.
 	 */
-	public final function getEnable() {
+	final public function getEnable() {
 		return $this->enable;
 	}
 
@@ -112,7 +112,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 *
 	 * @return string Returns the icon.
 	 */
-	public final function getIcon() {
+	final public function getIcon() {
 		return $this->icon;
 	}
 
@@ -121,7 +121,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 *
 	 * @return string Returns the route.
 	 */
-	public final function getRoute() {
+	final public function getRoute() {
 		return $this->route;
 	}
 
@@ -130,7 +130,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 *
 	 * @return string Returns the target.
 	 */
-	public final function getTarget() {
+	final public function getTarget() {
 		return $this->target;
 	}
 
@@ -139,7 +139,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 *
 	 * @return string Returns the URL.
 	 */
-	public final function getUrl() {
+	final public function getUrl() {
 		return $this->url;
 	}
 
@@ -148,7 +148,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 *
 	 * @return boolean Returns the visible.
 	 */
-	public final function getVisible() {
+	final public function getVisible() {
 		return $this->visible;
 	}
 
@@ -157,7 +157,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 *
 	 * @return boolean Returns true in case of success, false otherwise.
 	 */
-	public final function isDisplayable() {
+	final public function isDisplayable() {
 		$displayable = $this->enable && $this->visible;
 		if (!$displayable) {
 			foreach ($this->getNodes() as $current) {
@@ -176,7 +176,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * @param boolean $active Active ?
 	 * @return NavigationNode Returns the navigation node.
 	 */
-	public final function setActive($active) {
+	final public function setActive($active) {
 		$this->active = $active;
 		return $this;
 	}
@@ -187,7 +187,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * @param boolean $enable Enable ?.
 	 * @return NavigationNode Returns the navigation node.
 	 */
-	public final function setEnable($enable) {
+	final public function setEnable($enable) {
 		$this->enable = $enable;
 		return $this;
 	}
@@ -198,7 +198,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * @param string $icon The icon.
 	 * @return NavigationNode Returns the navigation node.
 	 */
-	public final function setIcon($icon) {
+	final public function setIcon($icon) {
 		$this->icon = $icon;
 		return $this;
 	}
@@ -209,7 +209,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * @param string $route The route.
 	 * @return NavigationNode Returns the navigation node.
 	 */
-	public final function setRoute($route) {
+	final public function setRoute($route) {
 		$this->route = $route;
 		return $this;
 	}
@@ -220,7 +220,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * @param string $target The target.
 	 * @return NavigationNode Returns the navigation node.
 	 */
-	public final function setTarget($target) {
+	final public function setTarget($target) {
 		$this->target = $target;
 		return $this;
 	}
@@ -231,7 +231,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * @param string $url The URL.
 	 * @return NavigationNode Returns the navigation node.
 	 */
-	public final function setUrl($url) {
+	final public function setUrl($url) {
 		$this->url = $url;
 		return $this;
 	}
@@ -242,7 +242,7 @@ abstract class AbstractNavigationNode extends AbstractNode {
 	 * @param boolean $visible Visible ?
 	 * @return NavigationNode Returns the navigation node.
 	 */
-	protected final function setVisible($visible) {
+	final protected function setVisible($visible) {
 		$this->visible = $visible;
 		return $this;
 	}
