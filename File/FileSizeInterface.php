@@ -20,66 +20,73 @@ namespace WBW\Library\Core\File;
 interface FileSizeInterface {
 
 	/**
-	 * File size "Byte".
+	 * File size divider.
 	 *
-	 * @var string
+	 * @var integer
 	 */
-	const FILE_SIZE_B = "B";
+	const FILE_SIZE_DIVIDER = 1000;
 
 	/**
-	 * File size "Exabyte".
+	 * File size unit "Byte".
 	 *
 	 * @var string
 	 */
-	const FILE_SIZE_EB = "EB";
+	const FILE_SIZE_UNIT_B = "B";
 
 	/**
-	 * File size "Kilobyte".
+	 * File size unit "Exabyte".
 	 *
 	 * @var string
 	 */
-	const FILE_SIZE_KB = "KB";
+	const FILE_SIZE_UNIT_EB = "EB";
 
 	/**
-	 * File size "Gigabyte".
+	 * File size unit "Kilobyte".
 	 *
 	 * @var string
 	 */
-	const FILE_SIZE_GB = "GB";
+	const FILE_SIZE_UNIT_KB = "KB";
 
 	/**
-	 * File size "Megabyte".
+	 * File size unit "Gigabyte".
 	 *
 	 * @var string
 	 */
-	const FILE_SIZE_MB = "MB";
+	const FILE_SIZE_UNIT_GB = "GB";
 
 	/**
-	 * File size "Petabyte".
+	 * File size unit "Megabyte".
 	 *
 	 * @var string
 	 */
-	const FILE_SIZE_PB = "PB";
+	const FILE_SIZE_UNIT_MB = "MB";
 
 	/**
-	 * File size "Terabyte".
+	 * File size unit "Petabyte".
 	 *
 	 * @var string
 	 */
-	const FILE_SIZE_TB = "TB";
+	const FILE_SIZE_UNIT_PB = "PB";
 
 	/**
-	 * File size "Yottabyte".
+	 * File size unit "Terabyte".
 	 *
 	 * @var string
 	 */
-	const FILE_SIZE_YB = "YB";
+	const FILE_SIZE_UNIT_TB = "TB";
 
 	/**
-	 * File size "Zettabyte".
+	 * File size unit "Yottabyte".
 	 *
 	 * @var string
 	 */
-	const FILE_SIZE_ZB = "ZB";
+	const FILE_SIZE_UNIT_YB = "YB";
+
+	/**
+	 * File size unit "Zettabyte".
+	 *
+	 * @var string
+	 */
+	const FILE_SIZE_UNIT_ZB = "ZB";
 
 }

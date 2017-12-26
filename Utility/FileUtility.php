@@ -48,8 +48,8 @@ final class FileUtility implements FileSizeInterface {
 		$output = $size;
 
 		$iteration = 0;
-		while (1000 <= $output || $iteration < $index) {
-			$output /= 1000;
+		while (self::FILE_SIZE_DIVIDER <= $output || $iteration < $index) {
+			$output /= self::FILE_SIZE_DIVIDER;
 			++$iteration;
 		}
 
