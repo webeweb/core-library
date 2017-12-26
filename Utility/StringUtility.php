@@ -28,9 +28,6 @@ final class StringUtility {
 	 */
 	public static function parseArray(array $values) {
 
-		// Initialize the array.
-		$output = [];
-
 		// Handle each value.
 		foreach ($values as $key => $value) {
 
