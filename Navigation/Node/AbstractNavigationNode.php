@@ -161,6 +161,9 @@ abstract class AbstractNavigationNode extends AbstractNode {
 		$displayable = $this->enable && $this->visible;
 		if (!$displayable) {
 			foreach ($this->getNodes() as $current) {
+				if (($current instanceof AbstractNavigationNode) === false) {
+					continue;
+				}
 				$displayable = $current->isDisplayable();
 				if ($displayable) {
 					break;
