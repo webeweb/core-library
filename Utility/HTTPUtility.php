@@ -41,7 +41,6 @@ final class HTTPUtility implements HTTPCodeInterface {
 			self::CODE_PARTIAL_CONTENT,
 			self::CODE_MULTI_STATUS,
 			self::CODE_ALREADY_REPORTED,
-			/* self::CODE_CONTENT_DIFFERENT, // WebDAV */
 			self::CODE_IM_USED,
 			self::CODE_MULTIPLE_CHOICES,
 			self::CODE_MOVED_PERMANENTLY,
@@ -49,10 +48,8 @@ final class HTTPUtility implements HTTPCodeInterface {
 			self::CODE_SEE_OTHER,
 			self::CODE_NOT_MODIFIED,
 			self::CODE_USE_PROXY,
-			/* self::CODE_SWITCH_PROXY, // Reserved */
 			self::CODE_TEMPORARY_REDIRECT,
 			self::CODE_PERMANENT_REDIRECT,
-			/* self::CODE_TOO_MANY_REDIRECTS, */
 			self::CODE_BAD_REQUEST,
 			self::CODE_UNAUTHORIZED,
 			self::CODE_PAYMENT_REQUIRED,
@@ -71,25 +68,13 @@ final class HTTPUtility implements HTTPCodeInterface {
 			self::CODE_UNSUPPORTED_MEDIA_TYPE,
 			self::CODE_REQUESTED_RANGE_UNSATISFIABLE,
 			self::CODE_EXPECTATION_FAILED,
-			/* self::CODE_IM_A_TEAPOT, // */
-			/* self::CODE_BAD_MAPPING_MISDIRECTED_REQUEST , */
 			self::CODE_UNPROCESSABLE_ENTITY,
 			self::CODE_LOCKED,
 			self::CODE_METHOD_FAILURE,
-			/* self::CODE_UNORDERED_COLLECTION, // WebDAV */
 			self::CODE_UPGRADE_REQUIRED,
 			self::CODE_PRECONDITION_REQUIRED,
 			self::CODE_TOO_MANY_REQUESTS,
 			self::CODE_REQUEST_HEADER_FIELDS_TOO_LARGE,
-			/* self::CODE_RETRY_WITH, // Microsoft */
-			/* self::CODE_BLOCKED_BY_WINDOWS_PARENTAL_CONTROLS, // Microsoft */
-			/* self::CODE_UNAVAILABLE_FOR_LEGAL_REASONS, */
-			/* self::CODE_UNRECOVERABLE_ERROR, // WebDAV */
-			/* self::CODE_NO_RESPONSE, // Nginx */
-			/* self::CODE_SSL_CERTIFICATE_ERROR, // Nginx */
-			/* self::CODE_SSL_CERTIFICATE_REQUIRED, // Nginx */
-			/* self::CODE_HTTP_REQUEST_SENT_TO_HTTPS_PORT, // Nginx */
-			/* self::CODE_CLIENT_CLOSED_REQUEST, // Nginx */
 			self::CODE_INTERNAL_SERVER_ERROR,
 			self::CODE_NOT_IMPLEMENTED,
 			self::CODE_BAD_GATEWAY_OU_PROXY_ERROR,
@@ -99,17 +84,8 @@ final class HTTPUtility implements HTTPCodeInterface {
 			self::CODE_VARIANT_ALSO_NEGOTIATES,
 			self::CODE_INSUFFICIENT_STORAGE,
 			self::CODE_LOOP_DETECTED,
-			/* self::CODE_BANDWIDTH_LIMIT_EXCEEDED, */
 			self::CODE_NOT_EXTENDED,
 			self::CODE_NETWORK_AUTHENTICATION_REQUIRED,
-			/* self::CODE_UNKNOWN_ERROR, // Cloudfare */
-			/* self::CODE_WEB_SERVER_IS_DOWN, // Cloudfare */
-			/* self::CODE_CONNECTION_TIMED_OUT, // Cloudfare */
-			/* self::CODE_ORIGIN_IS_UNREACHABLE, // Cloudfare */
-			/* self::CODE_A_TIMEOUT_OCCURRED, // Cloudfare */
-			/* self::CODE_SSL_HANDSHAKE_FAILED, // Cloudfare */
-			/* self::CODE_INVALID_SSL_CERTIFICATE, // Cloudfare */
-			/* self::CODE_RAILGUN_ERROR, // Cloudfare */
 		];
 	}
 
