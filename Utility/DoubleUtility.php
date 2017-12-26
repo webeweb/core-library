@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Utility;
 
 use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
+use WBW\Library\Core\Exception\Argument\FloatArgumentException;
 
 /**
  * Double utility.
@@ -30,13 +31,11 @@ final class DoubleUtility {
 	 * @throws DoubleArgumentException Throws a double argument exception if the string value does not represent a double.
 	 */
 	public static function parseString($value) {
-		if (is_null($value)) {
-			return null;
+		try {
+			return FloatUtility::parseString($value);
+		} catch (FloatArgumentException $ex) {
+			throw new DoubleArgumentException($value, $ex);
 		}
-		if (preg_match("/^[0-9]{1,}(\.[0-9]{0,})?$/", $value) === 0) {
-			throw new DoubleArgumentException($value);
-		}
-		return doubleval($value);
 	}
 
 }
