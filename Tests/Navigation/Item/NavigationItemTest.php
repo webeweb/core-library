@@ -13,6 +13,7 @@ namespace WBW\Library\Core\Tests\Navigation\Item;
 
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Navigation\Item\NavigationItem;
+use WBW\Library\Core\Navigation\Node\NavigationNode;
 
 /**
  * Navigation item test.
@@ -174,6 +175,7 @@ final class NavigationItemTest extends PHPUnit_Framework_TestCase {
 		$res3 = ["span" => "id", "href" => "href", "icon" => "icon"];
 		$this->assertEquals($res3, $obj->toArray());
 
+		$obj->addNode(new NavigationNode("id1"));
 		$obj->addNode(new NavigationItem("id2"));
 		$res4 = ["span" => "id", "href" => "href", "icon" => "icon", "subitems" => [["span" => "id2", "href" => "javascript: void(0);"]]];
 		$this->assertEquals($res4, $obj->toArray());
