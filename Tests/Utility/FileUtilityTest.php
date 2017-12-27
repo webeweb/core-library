@@ -28,6 +28,27 @@ use WBW\Library\Core\Utility\FileUtility;
 final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 
 	/**
+	 * Tests the delete() method.
+	 *
+	 * @return void
+	 */
+	public function testDelete() {
+
+		$filename = getcwd() . "/Tests/Utility/phpunit.txt";
+
+		fclose(fopen($filename, "w"));
+
+		$this->assertEquals(true, FileUtility::delete($filename));
+
+		try {
+			FileUtility::delete($filename);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(FileNotFoundException::class, $ex);
+			$this->assertEquals("The file \"" . $filename . "\" is not found", $ex->getMessage());
+		}
+	}
+
+	/**
 	 * Tests the formatSize() method.
 	 *
 	 * @return void

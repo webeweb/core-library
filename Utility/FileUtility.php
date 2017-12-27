@@ -26,6 +26,19 @@ use WBW\Library\Core\File\FileSizeInterface;
 final class FileUtility implements FileSizeInterface {
 
 	/**
+	 * Delete a file.
+	 *
+	 * @param string $filename The filename.
+	 * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
+	 */
+	public static function delete($filename) {
+		if (false === file_exists($filename)) {
+			throw new FileNotFoundException($filename);
+		}
+		return unlink($filename);
+	}
+
+	/**
 	 * Format a size.
 	 *
 	 * @param  $size The size.
