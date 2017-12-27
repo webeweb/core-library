@@ -63,7 +63,7 @@ final class StringUtility {
 	 * @return string Returns "true" in case of success, "false" otherwise.
 	 */
 	public static function parseBoolean($value) {
-		return $value === true ? "true" : "false";
+		return true === $value ? "true" : "false";
 	}
 
 }
