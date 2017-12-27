@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Tests\Navigation\Node;
 
 use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Navigation\Item\NavigationItem;
 use WBW\Library\Core\Navigation\Node\NavigationNode;
 
 /**
@@ -64,6 +65,7 @@ final class NavigationNodeTest extends PHPUnit_Framework_TestCase {
 
 		$obj = new NavigationNode("id");
 
+		$obj->addNode(new NavigationItem("id1"));
 		$obj->addNode(new NavigationNode("id2"));
 
 		$this->assertEquals(false, $obj->isDisplayable());
