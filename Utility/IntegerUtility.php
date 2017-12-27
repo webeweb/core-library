@@ -23,6 +23,16 @@ use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
 final class IntegerUtility {
 
 	/**
+	 * Parse a boolean.
+	 *
+	 * @param boolean $value The boolean value.
+	 * @return integer Returns 1 in case of success, 0 otherwise.
+	 */
+	public static function parseBoolean($value) {
+		return $value === true ? 1 : 0;
+	}
+
+	/**
 	 * Parse a string.
 	 *
 	 * @param string $value The string value.

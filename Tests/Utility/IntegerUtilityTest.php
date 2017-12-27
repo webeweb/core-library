@@ -26,6 +26,18 @@ use WBW\Library\Core\Utility\IntegerUtility;
 final class IntegerUtilityTest extends PHPUnit_Framework_TestCase {
 
 	/**
+	 * Tests the parseBoolean() method.
+	 *
+	 * @return void
+	 */
+	public function testParseBoolean() {
+
+		$this->assertEquals(0, IntegerUtility::parseBoolean(null));
+		$this->assertEquals(0, IntegerUtility::parseBoolean(false));
+		$this->assertEquals(1, IntegerUtility::parseBoolean(true));
+	}
+
+	/**
 	 * Tests the parseString() method.
 	 *
 	 * @return void
