@@ -43,12 +43,12 @@ final class NavigationTree extends AbstractNavigationNode {
 		$breadcrumbs = [];
 
 		// Correct the parameter if necessary.
-		if (is_null($node)) {
+		if (null === $node) {
 			$node = $this;
 		}
 
 		// Check the instance.
-		if (($node instanceof NavigationNode || $node instanceof BreadcrumbNode) && $node->getActive()) {
+		if (true === ($node instanceof NavigationNode || $node instanceof BreadcrumbNode) && true === $node->getActive()) {
 			$breadcrumbs[] = $node;
 		}
 

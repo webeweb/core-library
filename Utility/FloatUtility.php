@@ -30,10 +30,10 @@ final class FloatUtility {
 	 * @throws FloatArgumentException Throws a float argument exception if the string value does not represent a float.
 	 */
 	public static function parseString($value) {
-		if (is_null($value)) {
+		if (null === $value) {
 			return null;
 		}
-		if (preg_match("/^[0-9]{1,}(\.[0-9]{0,})?$/", $value) === 0) {
+		if (0 === preg_match("/^[0-9]{1,}(\.[0-9]{0,})?$/", $value)) {
 			throw new FloatArgumentException($value);
 		}
 		return floatval($value);

@@ -35,19 +35,19 @@ final class StringUtility {
 		foreach ($values as $key => $value) {
 
 			// Check if the value is null.
-			if (is_null($value)) {
+			if (null === $value) {
 				continue;
 			}
 
 			// Check if the value is an array.
-			if (is_array($value)) {
+			if (true === is_array($value)) {
 				$buffer = trim(implode(" ", $value));
 			} else {
 				$buffer = trim($value);
 			}
 
 			// Check if the buffer is not empty.
-			if ($buffer !== "") {
+			if ("" !== $buffer) {
 				$output[] = $key . "=\"" . preg_replace("/\s+/", " ", $buffer) . "\"";
 			}
 		}

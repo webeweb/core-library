@@ -45,11 +45,11 @@ final class ArgumentConverter implements ArgumentInterface {
 			case self::TYPE_BOOLEAN:
 				return BooleanUtility::parseString($value);
 			case self::TYPE_DATE:
-				if (is_null($dateFormat)) {
+				if (null === $dateFormat) {
 					throw new NullPointerException("The date format is null");
 				}
 				$datetime = DateTime::createFromFormat($dateFormat, $value);
-				if ($datetime === false) {
+				if (false === $datetime) {
 					throw new DateArgumentException($value);
 				}
 				return $datetime;
@@ -62,11 +62,11 @@ final class ArgumentConverter implements ArgumentInterface {
 			case self::TYPE_STRING:
 				return $value;
 			case self::TYPE_TIMESTAMP:
-				if (is_null($dateFormat)) {
+				if (null === $dateFormat) {
 					throw new NullPointerException("The datetime format is null");
 				}
 				$datetime = DateTime::createFromFormat($dateFormat, $value);
-				if ($datetime === false) {
+				if (false === $datetime) {
 					throw new TimestampArgumentException($value);
 				}
 				return $datetime;

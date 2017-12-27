@@ -40,7 +40,7 @@ final class FileUtility implements FileSizeInterface {
 
 		// Find the unit.
 		$index = array_search($unit, $units);
-		if (is_null($unit) === false && $index === false) {
+		if (null !== $unit && false === $index) {
 			throw new IllegalArgumentException("The unit \"" . $unit . "\" does not exists");
 		}
 
@@ -65,7 +65,7 @@ final class FileUtility implements FileSizeInterface {
 	 * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
 	 */
 	public static function getContents($filename) {
-		if (!file_exists($filename)) {
+		if (false === file_exists($filename)) {
 			throw new FileNotFoundException($filename);
 		}
 		return file_get_contents($filename);
@@ -77,12 +77,12 @@ final class FileUtility implements FileSizeInterface {
 	 * @param string $pathname The pathname.
 	 * @param string $extension The file extension.
 	 * @return array Returns the filenames.
-	 * @throws DirectoryNotFoundException Throws a directory not found exception if the directory does not exists.
+	 * @throws FileNotFoundException Throws a file not found exception if the directory does not exists.
 	 */
 	public static function getFilenames($pathname, $extension = null) {
 
 		// Check if the directory exists.
-		if (!file_exists($pathname)) {
+		if (false === file_exists($pathname)) {
 			throw new DirectoryNotFoundException($pathname);
 		}
 
@@ -90,7 +90,7 @@ final class FileUtility implements FileSizeInterface {
 		$filenames = [];
 
 		// Open the directory.
-		if (($directory = opendir($pathname)) !== false) {
+		if (false !== ($directory = opendir($pathname))) {
 
 			// Initialize the offset.
 			$offset = strlen($extension);
@@ -99,7 +99,7 @@ final class FileUtility implements FileSizeInterface {
 			while (($file = readdir($directory)) !== false) {
 
 				// Determines if the file should be added.
-				if ($file !== "." && $file !== ".." && ((is_null($extension)) || substr_compare($file, $extension, -$offset) === 0)) {
+				if ("." !== $file && ".." !== $file && ((null === $extension) || 0 === substr_compare($file, $extension, -$offset))) {
 					$filenames[] = $file;
 				}
 			}
@@ -120,7 +120,7 @@ final class FileUtility implements FileSizeInterface {
 	 * @throws FileNotFoundException Throws a File not found exception if the file does not exists.
 	 */
 	public static function getSize($filename) {
-		if (file_exists($filename) === false) {
+		if (false === file_exists($filename)) {
 			throw new FileNotFoundException($filename);
 		}
 		clearstatcache();

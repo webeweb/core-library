@@ -29,7 +29,7 @@ final class DirectoryUtility {
 	 * @return boolean Returns true in case of success, false otherwise or null if the directory exists.
 	 */
 	public static function create($dirname, $mode = 0755, $recursive = false) {
-		if (file_exists($dirname) === true) {
+		if (true === file_exists($dirname)) {
 			return null;
 		}
 		return mkdir($dirname, $mode, $recursive);
@@ -42,7 +42,7 @@ final class DirectoryUtility {
 	 * @return boolean Returns true in case of success, false otherwise or null if the directory can't be deleted.
 	 */
 	public static function delete($dirname) {
-		if (self::isEmpty($dirname) !== true) {
+		if (true !== self::isEmpty($dirname)) {
 			return null;
 		}
 		return rmdir($dirname);
@@ -55,7 +55,7 @@ final class DirectoryUtility {
 	 * @return boolean Returns true in case of success, false otherwise or null if the directory is not readable.
 	 */
 	public static function isEmpty($dirname) {
-		if (is_readable($dirname) === false) {
+		if (false === is_readable($dirname)) {
 			return null;
 		}
 		return (count(scandir($dirname)) == 2);
@@ -69,7 +69,7 @@ final class DirectoryUtility {
 	 * @return boolean Returns true in case of success, false otherwise or null if the directory can't be renamed.
 	 */
 	public static function rename($oldname, $newname) {
-		if (file_exists($oldname) === false || file_exists($newname) === true) {
+		if (false === file_exists($oldname) || true === file_exists($newname)) {
 			return null;
 		}
 		return rename($oldname, $newname);

@@ -33,24 +33,24 @@ final class FormRenderer {
 	public static function render($option, $translator = null) {
 
 		// Check the option.
-		if (is_null($option)) {
-			return !is_null($translator) ? $translator->trans("label.empty_selection") : "Empty selection";
+		if (null === $option) {
+			return null !== $translator ? $translator->trans("label.empty_selection") : "Empty selection";
 		}
 
 		// Check the implementation.
-		if ($option instanceof TranslatedChoiceRendererInterface) {
+		if (true === ($option instanceof TranslatedChoiceRendererInterface)) {
 			$output = $option->getTranslatedChoiceLabel($translator);
-		} else if ($option instanceof TranslateFormRendererInterface) { // deprecated
+		} else if (true === ($option instanceof TranslateFormRendererInterface)) { // deprecated
 			$output = $option->getChoiceLabel($translator);
-		} else if ($option instanceof ChoiceRendererInterface || $option instanceof FormRendererInterface) {
+		} else if (true === ($option instanceof ChoiceRendererInterface || $option instanceof FormRendererInterface)) {
 			$output = $option->getChoiceLabel();
 		} else {
 			$output = "FormRendererInterface not implemented by this object";
 		}
 
-		if ($option instanceof AlphabeticalTreeSortInterface) {
+		if (true === ($option instanceof AlphabeticalTreeSortInterface)) {
 			$multiplier	 = AlphabeticalTreeSort::getLevel($option);
-			$output		 = implode("", ["+", str_repeat("-", $multiplier === 0 ? 0 : $multiplier - 1), " ", $output]);
+			$output		 = implode("", ["+", str_repeat("-", 0 === $multiplier ? 0 : $multiplier - 1), " ", $output]);
 		}
 
 		// Return the output.

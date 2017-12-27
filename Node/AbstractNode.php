@@ -149,13 +149,13 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
 	 */
 	final public function getNodeById($id, $recursively = false) {
 		$found = null;
-		if (array_key_exists($id, $this->index)) {
+		if (true === array_key_exists($id, $this->index)) {
 			$found = $this->getNodeAt($this->index[$id]);
 		}
-		if (is_null($found) && $recursively) {
+		if (null === $found && true === $recursively) {
 			foreach ($this->nodes as $current) {
 				$found = $current->getNodeById($id, $recursively);
-				if (!is_null($found)) {
+				if (null !== $found) {
 					break;
 				}
 			}
@@ -188,7 +188,7 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
 	 * @return AbstractNode Returns the node.
 	 */
 	final public function removeNode(AbstractNode $node) {
-		if (array_key_exists($node->id, $this->index)) {
+		if (true === array_key_exists($node->id, $this->index)) {
 			unset($this->nodes[$this->index[$node->id]]);
 			unset($this->index[$node->id]);
 			$node->parent = null;

@@ -50,7 +50,7 @@ final class HookUtility {
 		foreach ($filenames as $filename) {
 
 			// Check the class name.
-			if (!is_null($classname) && preg_match($classname, $filename) === 0) {
+			if (null !== $classname && 0 === preg_match($classname, $filename)) {
 				continue;
 			}
 
@@ -71,7 +71,7 @@ final class HookUtility {
 			}
 
 			// Check the extends.
-			if (!(is_null($extends) || $rc->isSubclassOf($extends))) {
+			if (false === (null === $extends || true === $rc->isSubclassOf($extends))) {
 				continue;
 			}
 
@@ -87,7 +87,7 @@ final class HookUtility {
 			$hooks[] = $hook;
 
 			// Check the method.
-			if (is_null($method)) {
+			if (null === $method) {
 				continue;
 			}
 

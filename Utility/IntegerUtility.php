@@ -30,10 +30,10 @@ final class IntegerUtility {
 	 * @throws IntegerArgumentException Throws an integer argument exception if the string value does not represent an integer.
 	 */
 	public static function parseString($value) {
-		if (is_null($value)) {
+		if (null === $value) {
 			return null;
 		}
-		if (preg_match("/^[0-9]{1,}$/", $value) === 0) {
+		if (0 === preg_match("/^[0-9]{1,}$/", $value)) {
 			throw new IntegerArgumentException($value);
 		}
 		return intval($value);

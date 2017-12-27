@@ -50,10 +50,10 @@ final class FormFactory {
 	public static function createEntityType($class, array $choices = [], array $options = []) {
 
 		// Check the options.
-		if (!array_key_exists("empty", $options)) {
+		if (false === array_key_exists("empty", $options)) {
 			$options["empty"] = false;
 		}
-		if (!array_key_exists("translator", $options)) {
+		if (false === array_key_exists("translator", $options)) {
 			$options["translator"] = null;
 		}
 
@@ -67,7 +67,7 @@ final class FormFactory {
 		];
 
 		// Add an empty choice.
-		if ($options["empty"] === true) {
+		if (true === $options["empty"]) {
 			$output["choices"][] = null;
 		}
 

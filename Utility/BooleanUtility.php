@@ -27,7 +27,7 @@ final class BooleanUtility {
 	 * @return boolean Returns true in case of success, false otherwise.
 	 */
 	public static function parseString($value) {
-		if (is_null($value)) {
+		if (null === $value) {
 			return false;
 		}
 		switch (strtolower($value)) {

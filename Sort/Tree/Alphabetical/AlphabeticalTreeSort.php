@@ -40,10 +40,10 @@ final class AlphabeticalTreeSort {
 
 			// Get and check the path.
 			$path = self::getPath($current);
-			if (!array_key_exists($path[0]->getAlphabeticalTreeSortLabel(), $output)) {
+			if (false === array_key_exists($path[0]->getAlphabeticalTreeSortLabel(), $output)) {
 				$output[$current->getAlphabeticalTreeSortLabel()] = [];
 			}
-			if (count($path) === 1) {
+			if (1 === count($path)) {
 				continue;
 			}
 
@@ -80,7 +80,7 @@ final class AlphabeticalTreeSort {
 
 			// Compare the elements.
 			if ($elem1 !== $elem2) {
-				return !is_null($elem2) ? strcasecmp($elem1->getAlphabeticalTreeSortLabel(), $elem2->getAlphabeticalTreeSortLabel()) : 1;
+				return null !== $elem2 ? strcasecmp($elem1->getAlphabeticalTreeSortLabel(), $elem2->getAlphabeticalTreeSortLabel()) : 1;
 			}
 		}
 
@@ -116,7 +116,7 @@ final class AlphabeticalTreeSort {
 		do {
 			array_unshift($path, $current);
 			$current = $current->getAlphabeticalTreeSortParent();
-		} while (!is_null($current));
+		} while (null !== $current);
 
 		// Return the path.
 		return $path;
