@@ -53,7 +53,7 @@ final class FormRendererTest extends PHPUnit_Framework_TestCase {
 		$obj[5]->expects($this->any())->method("getChoiceLabel")->willReturn("choiceLabel");
 
 		$this->assertEquals("Empty selection", FormRenderer::render($obj[0]));
-		$this->assertEquals("&#9500;&nbsp;FormRendererInterface not implemented by this object", FormRenderer::render($obj[1]));
+		$this->assertEquals("├ FormRendererInterface not implemented by this object", FormRenderer::render($obj[1]));
 		$this->assertEquals("choiceLabel", FormRenderer::render($obj[2]));
 		$this->assertEquals("translatedChoiceLabel", FormRenderer::render($obj[3]));
 		$this->assertEquals("choiceLabel", FormRenderer::render($obj[4]));
