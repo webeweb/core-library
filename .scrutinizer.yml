@@ -1,4 +1,6 @@
 # .scutinizer.yml
+language: php
+
 checks:
     php: true
 
