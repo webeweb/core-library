@@ -97,7 +97,7 @@ final class FileUtility implements FileSizeInterface {
 
 		// Check if the directory exists.
 		if (false === file_exists($pathname)) {
-			throw new DirectoryNotFoundException($pathname);
+			throw new FileNotFoundException($pathname);
 		}
 
 		// Initialize the filenames.
@@ -163,13 +163,19 @@ final class FileUtility implements FileSizeInterface {
 	/**
 	 * Rename a file.
 	 *
-	 * @param string $oldname The old directory name.
-	 * @param string $newname The new directory name.
-	 * @return boolean Returns true in case of success, false otherwise or null if the file can't be renamed.
-	 * @see DirectoryUtility::rename()
+	 * @param string $oldFilename The old filename.
+	 * @param string $newFilename The new filename.
+	 * @return boolean Returns true in case of success, false otherwise or null if the new filename already exists.
+	 * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
 	 */
-	public static function rename($oldname, $newname) {
-		return DirectoryUtility::rename($oldname, $newname);
+	public static function rename($oldFilename, $newFilename) {
+		if (false === file_exists($oldFilename)) {
+			throw new FileNotFoundException($oldFilename);
+		}
+		if (true === file_exists($newFilename)) {
+			return null;
+		}
+		return rename($oldFilename, $newFilename);
 	}
 
 }

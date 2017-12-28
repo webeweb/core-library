@@ -14,7 +14,6 @@ namespace WBW\Library\Core\Tests\Utility;
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Exception\Directory\DirectoryNotFoundException;
 use WBW\Library\Core\Exception\File\FileNotFoundException;
 use WBW\Library\Core\Utility\FileUtility;
 
@@ -130,8 +129,8 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 		try {
 			FileUtility::getFilenames("exception");
 		} catch (Exception $ex) {
-			$this->assertInstanceOf(DirectoryNotFoundException::class, $ex);
-			$this->assertEquals("The directory \"exception\" is not found", $ex->getMessage());
+			$this->assertInstanceOf(FileNotFoundException::class, $ex);
+			$this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
 		}
 	}
 
@@ -175,7 +174,13 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 		$newname = getcwd() . "/unittest.txt";
 
 		$this->assertEquals(true, FileUtility::rename($oldname, $newname));
-		$this->assertEquals(null, FileUtility::rename($oldname, $newname));
+
+		try {
+			FileUtility::rename($oldname, $newname);
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(FileNotFoundException::class, $ex);
+			$this->assertEquals("The file \"" . $oldname . "\" is not found", $ex->getMessage());
+		}
 	}
 
 }

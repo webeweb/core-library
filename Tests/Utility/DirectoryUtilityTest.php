@@ -11,7 +11,9 @@
 
 namespace WBW\Library\Core\Tests\Utility;
 
+use Exception;
 use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Exception\File\FileNotFoundException;
 use WBW\Library\Core\Utility\DirectoryUtility;
 
 /**
@@ -66,7 +68,14 @@ final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
 		$arg2	 = $arg1 . "/unittest";
 
 		$this->assertEquals(true, DirectoryUtility::rename($arg2, $arg2 . "2"));
-		$this->assertEquals(null, DirectoryUtility::rename($arg2, $arg2 . "2"));
+
+		try {
+			DirectoryUtility::rename($arg2, $arg2 . "2");
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(FileNotFoundException::class, $ex);
+			$this->assertEquals("The file \"" . $arg2 . "\" is not found", $ex->getMessage());
+		}
+
 		$this->assertEquals(null, DirectoryUtility::rename($arg2 . "2", $arg1));
 	}
 

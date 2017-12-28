@@ -64,15 +64,14 @@ final class DirectoryUtility {
 	/**
 	 * Rename a directory.
 	 *
-	 * @param string $oldname The old directory name.
-	 * @param string $newname The new directory name.
-	 * @return boolean Returns true in case of success, false otherwise or null if the directory can't be renamed.
+	 * @param string $oldDirname The old directory name.
+	 * @param string $newDirname The new directory name.
+	 * @return boolean Returns true in case of success, false otherwise or null if the new directory name already exists.
+	 * @throws FileNotFoundException Throws a file not found exception if the directory does not exists.
+	 * @see FileUtility
 	 */
-	public static function rename($oldname, $newname) {
-		if (false === file_exists($oldname) || true === file_exists($newname)) {
-			return null;
-		}
-		return rename($oldname, $newname);
+	public static function rename($oldDirname, $newDirname) {
+		return FileUtility::rename($oldDirname, $newDirname);
 	}
 
 }
