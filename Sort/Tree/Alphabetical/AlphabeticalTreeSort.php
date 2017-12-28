@@ -76,7 +76,7 @@ final class AlphabeticalTreeSort {
 
 			// Get the elements.
 			$elem1	 = $path1[$i];
-			$elem2	 = isset($path2[$i]) ? $path2[$i] : null;
+			$elem2	 = true === isset($path2[$i]) ? $path2[$i] : null;
 
 			// Compare the elements.
 			if ($elem1 !== $elem2) {
