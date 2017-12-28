@@ -28,23 +28,37 @@ use WBW\Library\Core\Utility\FileUtility;
 final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 
 	/**
+	 * Filename.
+	 *
+	 * @var string
+	 */
+	private $filename;
+
+	/**
+	 * {@inheritdoc}
+	 */
+	protected function setUp() {
+
+		$this->filename = getcwd() . "/phpunit.txt";
+
+		fclose(fopen($this->filename, "w"));
+	}
+
+	/**
 	 * Tests the delete() method.
 	 *
 	 * @return void
 	 */
 	public function testDelete() {
 
-		$filename = getcwd() . "/Tests/Utility/phpunit.txt";
-
-		fclose(fopen($filename, "w"));
-
-		$this->assertEquals(true, FileUtility::delete($filename));
+		$this->assertFileExists($this->filename);
+		$this->assertEquals(true, FileUtility::delete($this->filename));
 
 		try {
-			FileUtility::delete($filename);
+			FileUtility::delete($this->filename);
 		} catch (Exception $ex) {
 			$this->assertInstanceOf(FileNotFoundException::class, $ex);
-			$this->assertEquals("The file \"" . $filename . "\" is not found", $ex->getMessage());
+			$this->assertEquals("The file \"" . $this->filename . "\" is not found", $ex->getMessage());
 		}
 	}
 
@@ -111,7 +125,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 		$pathname = getcwd() . "/Tests/Utility";
 
 		$this->assertContains("FileUtilityTest.php", FileUtility::getFilenames($pathname));
-		$this->assertEquals(["FileUtilityTest.txt"], FileUtility::getFilenames($pathname, ".txt"));
+		$this->assertContains("FileUtilityTest.txt", FileUtility::getFilenames($pathname, ".txt"));
 
 		try {
 			FileUtility::getFilenames("exception");
@@ -147,6 +161,21 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 
 		$res = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
 		$this->assertEquals($res, FileUtility::getUnits());
+	}
+
+	/**
+	 * Tests the rename() method.
+	 *
+	 * @return void
+	 * @depends testDelete
+	 */
+	public function testRename() {
+
+		$oldname = $this->filename;
+		$newname = getcwd() . "/unittest.txt";
+
+		$this->assertEquals(true, FileUtility::rename($oldname, $newname));
+		$this->assertEquals(null, FileUtility::rename($oldname, $newname));
 	}
 
 }

@@ -29,6 +29,7 @@ final class FileUtility implements FileSizeInterface {
 	 * Delete a file.
 	 *
 	 * @param string $filename The filename.
+	 * @return boolean Returns true in case of success, false otherwise.
 	 * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
 	 */
 	public static function delete($filename) {
@@ -157,6 +158,18 @@ final class FileUtility implements FileSizeInterface {
 			self::FILE_SIZE_UNIT_ZB,
 			self::FILE_SIZE_UNIT_YB,
 		];
+	}
+
+	/**
+	 * Rename a file.
+	 *
+	 * @param string $oldname The old directory name.
+	 * @param string $newname The new directory name.
+	 * @return boolean Returns true in case of success, false otherwise or null if the file can't be renamed.
+	 * @see DirectoryUtility::rename()
+	 */
+	public static function rename($oldname, $newname) {
+		return DirectoryUtility::rename($oldname, $newname);
 	}
 
 }
