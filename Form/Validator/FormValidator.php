@@ -105,70 +105,67 @@ final class FormValidator {
 	const FORMAT_TIMESTAMP = 249;
 
 	/**
-	 * Convert a string value into type $type.
+	 * Convert a string value into another format.
 	 *
 	 * @param string $value The string value.
-	 * @param integer $type The type.
+	 * @param integer $format The format.
 	 * @return mixed Returns the value.
 	 * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
 	 * @deprecated
 	 */
-	public static function convert($value, $type, $dateFormat = null) {
-		switch ($type) {
-			case self::FORMAT_BOOLEAN:
-				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_BOOLEAN);
-			case self::FORMAT_DATE:
-				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_DATE, $dateFormat);
-			case self::FORMAT_DOUBLE:
-				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_DOUBLE);
-			case self::FORMAT_FLOAT:
-				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_FLOAT);
-			case self::FORMAT_INTEGER:
-				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_INTEGER);
-			case self::FORMAT_STRING:
-				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_STRING);
-			case self::FORMAT_TIMESTAMP:
-				return ArgumentConverter::convert($value, ArgumentInterface::TYPE_TIMESTAMP, $dateFormat);
-			default:
-				throw new IllegalArgumentException("The type \"" . $type . "\" is not implemented");
+	public static function convert($value, $format, $dateFormat = null) {
+		if (true === in_array($format, [self::FORMAT_ARRAY, self::FORMAT_NUMBER, self::FORMAT_OBJECT, self::FORMAT_RESOURCE])) {
+			throw new IllegalArgumentException("The type \"" . $format . "\" is not implemented");
 		}
+		return ArgumentConverter::convert($value, self::transform($format), $dateFormat);
 	}
 
 	/**
-	 * Determines if the value is in the expected format.
+	 * Determines if a value is in the expected format.
 	 *
 	 * @param mixed $value The value.
 	 * @param int $format The expected format.
-	 * @return boolean Returns true
+	 * @return boolean Returns true.
 	 * @throws IllegalArgumentException Throws an illegal argument exception if the format is not implemented.
 	 * @deprecated
 	 */
 	public static function isValid($value, $format) {
-		switch ($format) {
+		return ArgumentValidator::isValid($value, self::transform($format));
+	}
+
+	/**
+	 * Transform a constant.
+	 *
+	 * @param integer $constant The constant.
+	 * @return integer Returns the transformed constant.
+	 * @throws IllegalArgumentException Throws an illegal argument exception if the constant is not implemented.
+	 */
+	private static function transform($constant) {
+		switch ($constant) {
 			case self::FORMAT_ARRAY:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_ARRAY);
+				return ArgumentInterface::TYPE_ARRAY;
 			case self::FORMAT_BOOLEAN:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_BOOLEAN);
+				return ArgumentInterface::TYPE_BOOLEAN;
 			case self::FORMAT_DATE:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_DATE);
+				return ArgumentInterface::TYPE_DATE;
 			case self::FORMAT_DOUBLE:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_DOUBLE);
+				return ArgumentInterface::TYPE_DOUBLE;
 			case self::FORMAT_FLOAT:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_FLOAT);
+				return ArgumentInterface::TYPE_FLOAT;
 			case self::FORMAT_INTEGER:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_INTEGER);
+				return ArgumentInterface::TYPE_INTEGER;
 			case self::FORMAT_NUMBER:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_NUMBER);
+				return ArgumentInterface::TYPE_NUMBER;
 			case self::FORMAT_OBJECT:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_OBJECT);
+				return ArgumentInterface::TYPE_OBJECT;
 			case self::FORMAT_RESOURCE:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_RESOURCE);
+				return ArgumentInterface::TYPE_RESOURCE;
 			case self::FORMAT_STRING:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_STRING);
+				return ArgumentInterface::TYPE_STRING;
 			case self::FORMAT_TIMESTAMP:
-				return ArgumentValidator::isValid($value, ArgumentInterface::TYPE_TIMESTAMP);
+				return ArgumentInterface::TYPE_TIMESTAMP;
 			default:
-				return ArgumentValidator::isValid($value, $format);
+				throw new IllegalArgumentException("The type \"" . $constant . "\" is not implemented");
 		}
 	}
 
