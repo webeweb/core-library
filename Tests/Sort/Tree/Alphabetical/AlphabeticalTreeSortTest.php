@@ -116,8 +116,8 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 		AlphabeticalTreeSort::removeOrphan($this->nodes);
 		$this->assertCount(10, $this->nodes);
 
-		$this->nodes[1]->removeNode($this->nodes[4]); // Remove node.
-		(new NavigationNode("id11"))->addNode($this->nodes[4]); // Add node to a new node (set parent) who isn't in the array
+		$this->nodes[1]->removeNode($this->nodes[4]);
+		(new NavigationNode("id11"))->addNode($this->nodes[4]); // Set a new parent that is not in the initial array.
 
 		AlphabeticalTreeSort::removeOrphan($this->nodes);
 		$this->assertCount(7, $this->nodes);
