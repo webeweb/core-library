@@ -186,15 +186,9 @@ final class FileUtility implements FileSizeInterface {
 	 *
 	 * @param string $source The source filename.
 	 * @param string $destination The destination filename.
-	 * @throws PHPExtensionNotFoundException Throws a PHP extension not found exception if the ZIP extension is not found.
 	 * @throws FileNotFoundException Throws a file not found exception if the source filename is not found.
 	 */
 	public static function zip($source, $destination) {
-
-		// Check if the extension is loaded.
-		if (false === extension_loaded("zip")) {
-			throw new PHPExtensionNotFoundException("zip");
-		}
 
 		// Check if the filename exists.
 		if (false === file_exists($source)) {
@@ -229,12 +223,15 @@ final class FileUtility implements FileSizeInterface {
 			// Clean up.
 			$current = realpath($current);
 
+			// Initialize the ZIP path.
+			$zipPath = preg_replace("/^" . str_replace("/", "\/", $source . "/") . "/", "", $current);
+
 			// Check the file type.
 			if (true === is_file($current)) {
-				$zip->addFromString(str_replace($source . "/", "", $current), self::getContents($current));
+				$zip->addFromString($zipPath, self::getContents($current));
 			}
 			if (true === is_dir($current)) {
-				$zip->addEmptyDir(str_replace($source . "/", "", $current . "/"));
+				$zip->addEmptyDir($zipPath);
 			}
 		}
 	}
