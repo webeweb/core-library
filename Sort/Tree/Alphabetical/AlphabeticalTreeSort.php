@@ -123,6 +123,31 @@ final class AlphabeticalTreeSort {
 	}
 
 	/**
+	 * Remove orphan.
+	 *
+	 * @param AlphabeticalTreeSortInterface[] $nodes The nodes.
+	 * @return void
+	 */
+	public static function removeOrphan(array &$nodes = []) {
+
+		$found = false;
+
+		do {
+
+			$found = false;
+			foreach ($nodes as $k => $v) {
+
+				if (false === ($v instanceof AlphabeticalTreeSortInterface) || null === $v->getAlphabeticalTreeSortParent() || true === in_array($v->getAlphabeticalTreeSortParent(), $nodes)) {
+					continue;
+				}
+
+				unset($nodes[$k]);
+				$found = true;
+			}
+		} while (true === $found);
+	}
+
+	/**
 	 * Sort.
 	 *
 	 * @param AlphabeticalTreeSortInterface[] $nodes The nodes.
@@ -131,7 +156,7 @@ final class AlphabeticalTreeSort {
 	public static function sort(array $nodes = []) {
 
 		// Sort the nodes.
-		usort($nodes, ["WBW\\Library\\Core\\Sort\\Tree\\Alphabetical\\AlphabeticalTreeSort", "compare"]);
+		usort($nodes, [AlphabeticalTreeSort::class, "compare"]);
 
 		// Return the nodes.
 		return $nodes;
