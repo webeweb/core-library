@@ -11,10 +11,13 @@
 
 namespace WBW\Library\Core\Utility;
 
+use RecursiveDirectoryIterator;
+use RecursiveIteratorIterator;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Exception\Directory\DirectoryNotFoundException;
+use WBW\Library\Core\Exception\Extension\PHP\PHPExtensionNotFoundException;
 use WBW\Library\Core\Exception\File\FileNotFoundException;
 use WBW\Library\Core\File\FileSizeInterface;
+use ZipArchive;
 
 /**
  * File utility.
@@ -113,7 +116,7 @@ final class FileUtility implements FileSizeInterface {
 			while (($file = readdir($directory)) !== false) {
 
 				// Determines if the file should be added.
-				if ("." !== $file && ".." !== $file && ((null === $extension) || 0 === substr_compare($file, $extension, -$offset))) {
+				if (false === in_array($file, [".", ".."]) && ((null === $extension) || 0 === substr_compare($file, $extension, -$offset))) {
 					$filenames[] = $file;
 				}
 			}
@@ -176,6 +179,64 @@ final class FileUtility implements FileSizeInterface {
 			return null;
 		}
 		return rename($oldFilename, $newFilename);
+	}
+
+	/**
+	 * Zip a file.
+	 *
+	 * @param string $source The source filename.
+	 * @param string $destination The destination filename.
+	 * @throws PHPExtensionNotFoundException Throws a PHP extension not found exception if the ZIP extension is not found.
+	 * @throws FileNotFoundException Throws a file not found exception if the source filename is not found.
+	 */
+	public static function zip($source, $destination) {
+
+		// Check if the extension is loaded.
+		if (false === extension_loaded("zip")) {
+			throw new PHPExtensionNotFoundException("zip");
+		}
+
+		// Check if the filename exists.
+		if (false === file_exists($source)) {
+			throw new FileNotFoundException($source);
+		}
+
+		// Initialize the ZIP archive.
+		$zip = new ZipArchive();
+		if (true !== $zip->open($destination, ZipArchive::CREATE)) {
+			return false;
+		}
+
+		// Clean up.
+		$source = str_replace("\\\\", "/", realpath($source));
+
+		// Is file ? => Add it and return.
+		if (true === is_file($source)) {
+			$zip->addFromString(basename($source), self::getContents($source));
+			return $zip->close();
+		}
+
+		// Get and handle the files list.
+		$files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($source), RecursiveIteratorIterator::SELF_FIRST);
+		foreach ($files as $current) {
+
+			// Clean up and determines if the file should be added.
+			$current = str_replace("\\\\", "/", $current);
+			if (true === in_array($current, [".", ".."])) {
+				continue;
+			}
+
+			// Clean up.
+			$current = realpath($current);
+
+			// Check the file type.
+			if (true === is_file($current)) {
+				$zip->addFromString(str_replace($source . "/", "", $current), self::getContents($current));
+			}
+			if (true === is_dir($current)) {
+				$zip->addEmptyDir(str_replace($source . "/", "", $current . "/"));
+			}
+		}
 	}
 
 }

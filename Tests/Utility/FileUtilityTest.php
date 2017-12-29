@@ -183,4 +183,33 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 		}
 	}
 
+	/**
+	 * Tests the zip() method.
+	 *
+	 * @return void
+	 */
+	public function testZip() {
+
+		try {
+			FileUtility::zip("exception", "exception.zip");
+		} catch (Exception $ex) {
+			$this->assertInstanceOf(FileNotFoundException::class, $ex);
+			$this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
+		}
+
+		$srcF	 = getcwd() . "/README.md";
+		$dstF	 = getcwd() . "/README.md.zip";
+
+		FileUtility::zip($srcF, $dstF);
+		$this->assertFileExists($dstF);
+		$this->assertGreaterThan(900, FileUtility::getSize($dstF));
+
+		$srcD	 = getcwd() . "/Tests";
+		$dstD	 = getcwd() . "/Tests.zip";
+
+		FileUtility::zip($srcD, $dstD);
+		$this->assertFileExists($dstD);
+		$this->assertGreaterThan(38000, FileUtility::getSize($dstD));
+	}
+
 }
