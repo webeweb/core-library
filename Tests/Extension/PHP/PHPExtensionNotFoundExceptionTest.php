@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\PHP\Extension;
+namespace WBW\Library\Core\Tests\Exception\Extension\PHP;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\PHP\Extension\PHPExtensionNotFoundException;
+use WBW\Library\Core\Exception\Extension\PHP\PHPExtensionNotFoundException;
 
 /**
  * PHP extension not found exception test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\PHP\Extension
+ * @package WBW\Library\Core\Exception\Extension\PHP
  * @final
  */
 final class PHPExtensionNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
