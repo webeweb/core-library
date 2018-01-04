@@ -38,10 +38,8 @@ final class FormRenderer {
 		}
 
 		// Check the implementation.
-		if (true === ($option instanceof TranslatedChoiceRendererInterface)) {
+		if (true === ($option instanceof TranslatedChoiceRendererInterface || $option instanceof TranslateFormRendererInterface)) {
 			$output = $option->getTranslatedChoiceLabel($translator);
-		} else if (true === ($option instanceof TranslateFormRendererInterface)) { // deprecated
-			$output = $option->getChoiceLabel($translator);
 		} else if (true === ($option instanceof ChoiceRendererInterface || $option instanceof FormRendererInterface)) {
 			$output = $option->getChoiceLabel();
 		} else {
@@ -50,7 +48,9 @@ final class FormRenderer {
 
 		if (true === ($option instanceof AlphabeticalTreeSortInterface)) {
 			$multiplier	 = AlphabeticalTreeSort::getLevel($option);
-			$output		 = implode("", [str_repeat(html_entity_decode("&nbsp;"), $multiplier * 3), html_entity_decode("&#9500;"), html_entity_decode("&nbsp;"), $output]);
+			$nbsp		 = html_entity_decode("&nbsp;");
+			$symbol		 = html_entity_decode("&#9500;");
+			$output		 = implode("", [str_repeat($nbsp, $multiplier * 3), $symbol, $nbsp, $output]);
 		}
 
 		// Return the output.

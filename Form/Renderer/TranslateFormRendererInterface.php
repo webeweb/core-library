@@ -18,13 +18,4 @@ namespace WBW\Library\Core\Form\Renderer;
  * @package WBW\Library\Core\Form\Renderer
  * @deprecated
  */
-interface TranslateFormRendererInterface {
-
-	/**
-	 * Get the choice label.
-	 *
-	 * @param TranslatorInterface $translator The translator service.
-	 * @return string Returns the choice label.
-	 */
-	public function getChoiceLabel($translator);
-}
+class_alias("WBW\Library\Core\Form\Renderer\TranslatedChoiceRendererInterface", "WBW\Library\Core\Form\Renderer\TranslateFormRendererInterface");
