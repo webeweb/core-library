@@ -29,7 +29,7 @@ final class IntegerArgumentException extends IllegalArgumentException {
 	 * @param Exception $previous The previous exception.
 	 */
 	public function __construct($argument, Exception $previous = null) {
-		parent::__construct("The argument \"" . print_r($argument, true) . "\" is not an integer", $previous);
+		parent::__construct(sprintf("The argument \"%s\" is not an integer", print_r($argument, true)), $previous);
 	}
 
 }

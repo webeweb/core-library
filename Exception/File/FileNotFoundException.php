@@ -30,7 +30,7 @@ final class FileNotFoundException extends AbstractWBWException {
 	 * @param Exception $previous The previous exception.
 	 */
 	public function __construct($filename, Exception $previous = null) {
-		parent::__construct("The file \"" . $filename . "\" is not found", $previous);
+		parent::__construct(sprintf("The file \"%s\" is not found", $filename), $previous);
 	}
 
 }

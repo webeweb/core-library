@@ -29,7 +29,7 @@ final class DateArgumentException extends IllegalArgumentException {
 	 * @param Exception $previous The previous exception.
 	 */
 	public function __construct($argument, Exception $previous = null) {
-		parent::__construct("The argument \"" . print_r($argument, true) . "\" is not a date", $previous);
+		parent::__construct(sprintf("The argument \"%s\" is not a date", print_r($argument, true)), $previous);
 	}
 
 }

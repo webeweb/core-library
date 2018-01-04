@@ -30,7 +30,7 @@ final class InvalidHTTPMethodException extends AbstractWBWException {
 	 * @param Exception $previous The previous exception.
 	 */
 	public function __construct($method, Exception $previous = null) {
-		parent::__construct("The HTTP method \"" . $method . "\" is invalid", $previous);
+		parent::__construct(sprintf("The HTTP method \"%s\" is invalid", $method), $previous);
 	}
 
 }

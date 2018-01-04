@@ -29,7 +29,7 @@ final class ResourceArgumentException extends IllegalArgumentException {
 	 * @param Exception $previous The previous exception.
 	 */
 	public function __construct($argument, Exception $previous = null) {
-		parent::__construct("The argument \"" . print_r($argument, true) . "\" is not a resource", $previous);
+		parent::__construct(sprintf("The argument \"%s\" is not a resource", print_r($argument, true)), $previous);
 	}
 
 }

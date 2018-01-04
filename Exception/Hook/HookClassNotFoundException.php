@@ -30,7 +30,7 @@ final class HookClassNotFoundException extends AbstractWBWException {
 	 * @param Exception $previous The previous exception.
 	 */
 	public function __construct($classname, Exception $previous = null) {
-		parent::__construct("The hook class \"" . $classname . "\" is not found", $previous);
+		parent::__construct(sprintf("The hook class \"%s\" is not found", $classname), $previous);
 	}
 
 }

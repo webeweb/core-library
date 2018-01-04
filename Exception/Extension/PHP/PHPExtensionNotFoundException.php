@@ -30,7 +30,7 @@ final class PHPExtensionNotFoundException extends AbstractWBWException {
 	 * @param Exception $previous The previous exception.
 	 */
 	public function __construct($extension, Exception $previous = null) {
-		parent::__construct("The PHP extension \"" . $extension . "\" is not found", $previous);
+		parent::__construct(sprintf("The PHP extension \"%s\" is not found", $extension), $previous);
 	}
 
 }

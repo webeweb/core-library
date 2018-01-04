@@ -30,7 +30,7 @@ final class DirectoryNotFoundException extends AbstractWBWException {
 	 * @param Exception $previous The previous exception.
 	 */
 	public function __construct($directory, Exception $previous = null) {
-		parent::__construct("The directory \"" . $directory . "\" is not found", $previous);
+		parent::__construct(sprintf("The directory \"%s\" is not found", $directory), $previous);
 	}
 
 }
