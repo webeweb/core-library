@@ -38,10 +38,10 @@ final class FormRenderer {
 		}
 
 		// Check the implementation.
-		if (true === ($option instanceof TranslatedChoiceRendererInterface || $option instanceof TranslateFormRendererInterface)) {
-			$output = $option->getTranslatedChoiceLabel($translator);
-		} else if (true === ($option instanceof ChoiceRendererInterface || $option instanceof FormRendererInterface)) {
+		if (true === ($option instanceof ChoiceRendererInterface)) {
 			$output = $option->getChoiceLabel();
+		} else if (true === ($option instanceof TranslatedChoiceRendererInterface)) {
+			$output = $option->getTranslatedChoiceLabel($translator);
 		} else {
 			$output = "FormRendererInterface not implemented by this object";
 		}
