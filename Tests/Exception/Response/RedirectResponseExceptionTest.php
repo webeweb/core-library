@@ -30,9 +30,10 @@ final class RedirectResponseExceptionTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testConstruct() {
 
-		$ex = new RedirectResponseException("", "RedirectResponseException");
-		$this->assertEquals("RedirectResponseException", $ex->getMessage());
-		$this->assertEquals("", $ex->getRoute());
+		$ex = new RedirectResponseException("route", ["name" => "value"], "exception");
+		$this->assertEquals("exception", $ex->getMessage());
+		$this->assertEquals(["name" => "value"], $ex->getArguments());
+		$this->assertEquals("route", $ex->getRoute());
 	}
 
 }
