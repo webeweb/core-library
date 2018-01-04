@@ -18,12 +18,4 @@ namespace WBW\Library\Core\Form\Renderer;
  * @package WBW\Library\Core\Form\Renderer
  * @deprecated
  */
-interface FormRendererInterface {
-
-	/**
-	 * Get the choice label.
-	 *
-	 * @return string Returns the choice label.
-	 */
-	public function getChoiceLabel();
-}
+class_alias("WBW\Library\Core\Form\Renderer\ChoiceRendererInterface", "WBW\Library\Core\Form\Renderer\FormRendererInterface");
