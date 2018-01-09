@@ -66,4 +66,16 @@ final class StringUtility {
 		return true === $value ? "true" : "false";
 	}
 
+	/**
+	 * Replace.
+	 *
+	 * @param string $subject The subject.
+	 * @param array $searches The searches.
+	 * @param array $replaces The replaces.
+	 * @return string Returns the replaced string.
+	 */
+	public static function replace($subject, array $searches, array $replaces) {
+		return str_replace($searches, $replaces, $subject);
+	}
+
 }

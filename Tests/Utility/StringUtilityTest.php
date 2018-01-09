@@ -55,4 +55,16 @@ final class StringUtilityTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals("true", StringUtility::parseBoolean(true));
 	}
 
+	/**
+	 * Tests the replace() method.
+	 *
+	 * @return void
+	 */
+	public function testReplace() {
+
+		$this->assertEquals("Hello %name% !", StringUtility::replace("Hello %name% !", [], []));
+		$this->assertEquals("Hello %world% !", StringUtility::replace("Hello %name% !", ["name"], ["world"]));
+		$this->assertEquals("Hello world !", StringUtility::replace("Hello %name% !", ["%name%"], ["world"]));
+	}
+
 }
