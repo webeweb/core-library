@@ -4,7 +4,7 @@
 	"description": "Core library",
 	"keywords": ["webeweb", "library", "core"],
 	"homepage": "http://github.com/webeweb/core-library",
-	"license": "LGPL-3.0",
+	"license": "LGPL-3.0-only",
 	"authors": [
 		{
 			"name": "webeweb",
