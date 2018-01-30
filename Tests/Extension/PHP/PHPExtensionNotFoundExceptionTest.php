@@ -23,15 +23,15 @@ use WBW\Library\Core\Exception\Extension\PHP\PHPExtensionNotFoundException;
  */
 final class PHPExtensionNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstructor() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstructor() {
 
-		$obj = new PHPExtensionNotFoundException("exception");
-		$this->assertEquals("The PHP extension \"exception\" is not found", $obj->getMessage());
-	}
+        $obj = new PHPExtensionNotFoundException("exception");
+        $this->assertEquals("The PHP extension \"exception\" is not found", $obj->getMessage());
+    }
 
 }

@@ -23,15 +23,15 @@ use WBW\Library\Core\Utility\HTTPUtility;
  */
 final class HTTPUtilityTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the getCodes() method.
-	 *
-	 * @return void
-	 */
-	public function testGetCodes() {
+    /**
+     * Tests the getCodes() method.
+     *
+     * @return void
+     */
+    public function testGetCodes() {
 
-		$res = HTTPUtility::getCodes();
-		$this->assertCount(57, $res);
-	}
+        $res = HTTPUtility::getCodes();
+        $this->assertCount(57, $res);
+    }
 
 }

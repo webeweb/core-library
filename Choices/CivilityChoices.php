@@ -20,18 +20,18 @@ namespace WBW\Library\Core\Choices;
  */
 final class CivilityChoices implements CivilityChoicesInterface {
 
-	/**
-	 * Get the choices.
-	 *
-	 * @return array Returns the choices.
-	 */
-	public static function getChoices() {
-		return [
-			self::CIVILITY_EMPTY	 => "choices.civility.empty",
-			self::CIVILITY_MISS		 => "choices.civility.miss",
-			self::CIVILITY_MRS		 => "choices.civility.mrs",
-			self::CIVILITY_MISTER	 => "choices.civility.mister",
-		];
-	}
+    /**
+     * Get the choices.
+     *
+     * @return array Returns the choices.
+     */
+    public static function getChoices() {
+        return [
+            self::CIVILITY_EMPTY  => "choices.civility.empty",
+            self::CIVILITY_MISS   => "choices.civility.miss",
+            self::CIVILITY_MRS    => "choices.civility.mrs",
+            self::CIVILITY_MISTER => "choices.civility.mister",
+        ];
+    }
 
 }

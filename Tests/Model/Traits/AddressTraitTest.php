@@ -23,112 +23,112 @@ use WBW\Library\Core\Model\Traits\AddressTrait;
  */
 final class AddressTraitTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Address.
-	 *
-	 * @var AddressTrait
-	 */
-	private $address;
+    /**
+     * Address.
+     *
+     * @var AddressTrait
+     */
+    private $address;
 
-	/**
-	 * {@inheritdoc}
-	 */
-	protected function setUp() {
+    /**
+     * {@inheritdoc}
+     */
+    protected function setUp() {
 
-		$this->address = $this->getObjectForTrait(AddressTrait::class);
-	}
+        $this->address = $this->getObjectForTrait(AddressTrait::class);
+    }
 
-	/**
-	 * Tests the __constructor() method.
-	 *
-	 * @return void
-	 */
-	public function testConstructor() {
+    /**
+     * Tests the __constructor() method.
+     *
+     * @return void
+     */
+    public function testConstructor() {
 
-		$this->assertEquals(null, $this->address->getAddress());
-		$this->assertEquals(null, $this->address->getCity());
-		$this->assertEquals(null, $this->address->getCompany());
-		$this->assertEquals(null, $this->address->getCountry());
-		$this->assertEquals(null, $this->address->getFirstname());
-		$this->assertEquals(null, $this->address->getLastname());
-		$this->assertEquals(null, $this->address->getPostalCode());
-	}
+        $this->assertEquals(null, $this->address->getAddress());
+        $this->assertEquals(null, $this->address->getCity());
+        $this->assertEquals(null, $this->address->getCompany());
+        $this->assertEquals(null, $this->address->getCountry());
+        $this->assertEquals(null, $this->address->getFirstname());
+        $this->assertEquals(null, $this->address->getLastname());
+        $this->assertEquals(null, $this->address->getPostalCode());
+    }
 
-	/**
-	 * Tests the setAddress() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAddress() {
+    /**
+     * Tests the setAddress() method.
+     *
+     * @return void
+     */
+    public function testSetAddress() {
 
-		$this->address->setAddress("address");
-		$this->assertEquals("address", $this->address->getAddress());
-	}
+        $this->address->setAddress("address");
+        $this->assertEquals("address", $this->address->getAddress());
+    }
 
-	/**
-	 * Tests the setCity() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCity() {
+    /**
+     * Tests the setCity() method.
+     *
+     * @return void
+     */
+    public function testSetCity() {
 
-		$this->address->setCity("city");
-		$this->assertEquals("city", $this->address->getCity());
-	}
+        $this->address->setCity("city");
+        $this->assertEquals("city", $this->address->getCity());
+    }
 
-	/**
-	 * Tests the setCompany() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCompany() {
+    /**
+     * Tests the setCompany() method.
+     *
+     * @return void
+     */
+    public function testSetCompany() {
 
-		$this->address->setCompany("company");
-		$this->assertEquals("company", $this->address->getCompany());
-	}
+        $this->address->setCompany("company");
+        $this->assertEquals("company", $this->address->getCompany());
+    }
 
-	/**
-	 * Tests the setCountry() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCountry() {
+    /**
+     * Tests the setCountry() method.
+     *
+     * @return void
+     */
+    public function testSetCountry() {
 
-		$this->address->setCountry("country");
-		$this->assertEquals("country", $this->address->getCountry());
-	}
+        $this->address->setCountry("country");
+        $this->assertEquals("country", $this->address->getCountry());
+    }
 
-	/**
-	 * Tests the setFirstname() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFirstname() {
+    /**
+     * Tests the setFirstname() method.
+     *
+     * @return void
+     */
+    public function testSetFirstname() {
 
-		$this->address->setFirstname("firstname");
-		$this->assertEquals("firstname", $this->address->getFirstname());
-	}
+        $this->address->setFirstname("firstname");
+        $this->assertEquals("firstname", $this->address->getFirstname());
+    }
 
-	/**
-	 * Tests the setLastname() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLastname() {
+    /**
+     * Tests the setLastname() method.
+     *
+     * @return void
+     */
+    public function testSetLastname() {
 
-		$this->address->setLastname("lastname");
-		$this->assertEquals("lastname", $this->address->getLastname());
-	}
+        $this->address->setLastname("lastname");
+        $this->assertEquals("lastname", $this->address->getLastname());
+    }
 
-	/**
-	 * Tests the setPostalCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPostalCode() {
+    /**
+     * Tests the setPostalCode() method.
+     *
+     * @return void
+     */
+    public function testSetPostalCode() {
 
-		$this->address->setPostalCode("postalCode");
-		$this->assertEquals("postalCode", $this->address->getPostalCode());
-	}
+        $this->address->setPostalCode("postalCode");
+        $this->assertEquals("postalCode", $this->address->getPostalCode());
+    }
 
 }

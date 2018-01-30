@@ -25,31 +25,31 @@ use WBW\Library\Core\Utility\FloatUtility;
  */
 final class FloatUtilityTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the parseString() method.
-	 *
-	 * @return void
-	 */
-	public function testParseString() {
+    /**
+     * Tests the parseString() method.
+     *
+     * @return void
+     */
+    public function testParseString() {
 
-		try {
-			FloatUtility::parseString("exception");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(FloatArgumentException::class, $ex);
-			$this->assertEquals("The argument \"exception\" is not a float", $ex->getMessage());
-		}
+        try {
+            FloatUtility::parseString("exception");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(FloatArgumentException::class, $ex);
+            $this->assertEquals("The argument \"exception\" is not a float", $ex->getMessage());
+        }
 
-		try {
-			FloatUtility::parseString("1A");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(FloatArgumentException::class, $ex);
-			$this->assertEquals("The argument \"1A\" is not a float", $ex->getMessage());
-		}
+        try {
+            FloatUtility::parseString("1A");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(FloatArgumentException::class, $ex);
+            $this->assertEquals("The argument \"1A\" is not a float", $ex->getMessage());
+        }
 
-		$this->assertEquals(null, FloatUtility::parseString(null));
-		$this->assertEquals(1.0, FloatUtility::parseString("1"));
-		$this->assertEquals(1.0, FloatUtility::parseString("1."));
-		$this->assertEquals(1.0, FloatUtility::parseString("1.0"));
-	}
+        $this->assertEquals(null, FloatUtility::parseString(null));
+        $this->assertEquals(1.0, FloatUtility::parseString("1"));
+        $this->assertEquals(1.0, FloatUtility::parseString("1."));
+        $this->assertEquals(1.0, FloatUtility::parseString("1.0"));
+    }
 
 }

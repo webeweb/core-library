@@ -23,52 +23,52 @@ use WBW\Library\Core\Model\Traits\PhoneNumbersTrait;
  */
 final class PhoneNumbersTraitTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Phone numbers.
-	 *
-	 * @var PhoneNumbersTrait
-	 */
-	private $phoneNumbers;
+    /**
+     * Phone numbers.
+     *
+     * @var PhoneNumbersTrait
+     */
+    private $phoneNumbers;
 
-	/**
-	 * {@inheritdoc}
-	 */
-	protected function setUp() {
+    /**
+     * {@inheritdoc}
+     */
+    protected function setUp() {
 
-		$this->phoneNumbers = $this->getObjectForTrait(PhoneNumbersTrait::class);
-	}
+        $this->phoneNumbers = $this->getObjectForTrait(PhoneNumbersTrait::class);
+    }
 
-	/**
-	 * Tests the __constructor() method.
-	 *
-	 * @return void
-	 */
-	public function testConstructor() {
+    /**
+     * Tests the __constructor() method.
+     *
+     * @return void
+     */
+    public function testConstructor() {
 
-		$this->assertEquals(null, $this->phoneNumbers->getMobileNumber());
-		$this->assertEquals(null, $this->phoneNumbers->getPhoneNumber());
-	}
+        $this->assertEquals(null, $this->phoneNumbers->getMobileNumber());
+        $this->assertEquals(null, $this->phoneNumbers->getPhoneNumber());
+    }
 
-	/**
-	 * Tests the setMobileNumber() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMobileNumber() {
+    /**
+     * Tests the setMobileNumber() method.
+     *
+     * @return void
+     */
+    public function testSetMobileNumber() {
 
-		$this->phoneNumbers->setMobileNumber("mobileNumber");
-		$this->assertEquals("mobileNumber", $this->phoneNumbers->getMobileNumber());
-	}
+        $this->phoneNumbers->setMobileNumber("mobileNumber");
+        $this->assertEquals("mobileNumber", $this->phoneNumbers->getMobileNumber());
+    }
 
-	/**
-	 * Tests the setPhoneNumber() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCity() {
+    /**
+     * Tests the setPhoneNumber() method.
+     *
+     * @return void
+     */
+    public function testSetCity() {
 
-		$this->phoneNumbers->setPhoneNumber("phoneNumber");
-		$this->assertEquals("phoneNumber", $this->phoneNumbers->getPhoneNumber());
-	}
+        $this->phoneNumbers->setPhoneNumber("phoneNumber");
+        $this->assertEquals("phoneNumber", $this->phoneNumbers->getPhoneNumber());
+    }
 
 }

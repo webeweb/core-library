@@ -24,41 +24,41 @@ use WBW\Library\Core\Navigation\Node\NavigationNode;
  */
 final class NavigationTree extends AbstractNavigationNode {
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		parent::__construct("tree");
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        parent::__construct("tree");
+    }
 
-	/**
-	 * Get the breadcrumbs.
-	 *
-	 * @param AbstractNavigationNode $node The navigation node.
-	 * @return AsbtractNavigationNode[] Returns the navigation nodes.
-	 */
-	public function getBreadcrumbs(AbstractNavigationNode $node = null) {
+    /**
+     * Get the breadcrumbs.
+     *
+     * @param AbstractNavigationNode $node The navigation node.
+     * @return AsbtractNavigationNode[] Returns the navigation nodes.
+     */
+    public function getBreadcrumbs(AbstractNavigationNode $node = null) {
 
-		// Create the breadcrumbs.
-		$breadcrumbs = [];
+        // Create the breadcrumbs.
+        $breadcrumbs = [];
 
-		// Correct the parameter if necessary.
-		if (null === $node) {
-			$node = $this;
-		}
+        // Correct the parameter if necessary.
+        if (null === $node) {
+            $node = $this;
+        }
 
-		// Check the instance.
-		if (true === ($node instanceof NavigationNode || $node instanceof BreadcrumbNode) && true === $node->getActive()) {
-			$breadcrumbs[] = $node;
-		}
+        // Check the instance.
+        if (true === ($node instanceof NavigationNode || $node instanceof BreadcrumbNode) && true === $node->getActive()) {
+            $breadcrumbs[] = $node;
+        }
 
-		// Handle each node.
-		foreach ($node->getNodes() as $current) {
-			$breadcrumbs = array_merge($breadcrumbs, $this->getBreadcrumbs($current));
-		}
+        // Handle each node.
+        foreach ($node->getNodes() as $current) {
+            $breadcrumbs = array_merge($breadcrumbs, $this->getBreadcrumbs($current));
+        }
 
-		// Return the breadcrumbs.
-		return $breadcrumbs;
-	}
+        // Return the breadcrumbs.
+        return $breadcrumbs;
+    }
 
 }

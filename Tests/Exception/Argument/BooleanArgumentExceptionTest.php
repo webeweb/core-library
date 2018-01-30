@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Argument\BooleanArgumentException;
  */
 final class BooleanArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$ex = new BooleanArgumentException("exception");
+        $ex = new BooleanArgumentException("exception");
 
-		$res = "The argument \"exception\" is not a boolean";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "The argument \"exception\" is not a boolean";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }

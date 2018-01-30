@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
  */
 final class ResourceArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$ex = new ResourceArgumentException("exception");
+        $ex = new ResourceArgumentException("exception");
 
-		$res = "The argument \"exception\" is not a resource";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "The argument \"exception\" is not a resource";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }

@@ -22,21 +22,21 @@ use WBW\Library\Core\Exception\Argument\FloatArgumentException;
  */
 final class FloatUtility {
 
-	/**
-	 * Parse a string.
-	 *
-	 * @param string $value The string value.
-	 * @return float Returns the float represented by the string value.
-	 * @throws FloatArgumentException Throws a float argument exception if the string value does not represent a float.
-	 */
-	public static function parseString($value) {
-		if (null === $value) {
-			return null;
-		}
-		if (0 === preg_match("/^[0-9]{1,}(\.[0-9]{0,})?$/", $value)) {
-			throw new FloatArgumentException($value);
-		}
-		return floatval($value);
-	}
+    /**
+     * Parse a string.
+     *
+     * @param string $value The string value.
+     * @return float Returns the float represented by the string value.
+     * @throws FloatArgumentException Throws a float argument exception if the string value does not represent a float.
+     */
+    public static function parseString($value) {
+        if (null === $value) {
+            return null;
+        }
+        if (0 === preg_match("/^[0-9]{1,}(\.[0-9]{0,})?$/", $value)) {
+            throw new FloatArgumentException($value);
+        }
+        return floatval($value);
+    }
 
 }

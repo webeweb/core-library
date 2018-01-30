@@ -24,22 +24,22 @@ use WBW\Library\Core\Navigation\Tree\NavigationTree;
  */
 final class NavigationTreeTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstructor() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstructor() {
 
-		$obj = new NavigationTree();
+        $obj = new NavigationTree();
 
-		$obj->addNode(new NavigationNode("main level"));
-		$obj->getLastNode()->setActive(true);
-		$obj->getLastNode()->addNode(new NavigationNode("sub-level1"));
-		$obj->getLastNode()->getLastNode()->setActive(true);
+        $obj->addNode(new NavigationNode("main level"));
+        $obj->getLastNode()->setActive(true);
+        $obj->getLastNode()->addNode(new NavigationNode("sub-level1"));
+        $obj->getLastNode()->getLastNode()->setActive(true);
 
-		$res = $obj->getBreadcrumbs();
-		$this->assertCount(2, $res);
-	}
+        $res = $obj->getBreadcrumbs();
+        $this->assertCount(2, $res);
+    }
 
 }

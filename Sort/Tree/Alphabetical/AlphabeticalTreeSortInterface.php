@@ -19,17 +19,17 @@ namespace WBW\Library\Core\Sort\Tree\Alphabetical;
  */
 interface AlphabeticalTreeSortInterface {
 
-	/**
-	 * Get the label.
-	 *
-	 * @return string Returns the label.
-	 */
-	public function getAlphabeticalTreeSortLabel();
+    /**
+     * Get the label.
+     *
+     * @return string Returns the label.
+     */
+    public function getAlphabeticalTreeSortLabel();
 
-	/**
-	 * Get the parent.
-	 *
-	 * @return AlphabeticalTreeSortInterface Returns the parent.
-	 */
-	public function getAlphabeticalTreeSortParent();
+    /**
+     * Get the parent.
+     *
+     * @return AlphabeticalTreeSortInterface Returns the parent.
+     */
+    public function getAlphabeticalTreeSortParent();
 }

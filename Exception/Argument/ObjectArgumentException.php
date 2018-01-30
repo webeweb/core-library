@@ -22,14 +22,14 @@ use Exception;
  */
 final class ObjectArgumentException extends IllegalArgumentException {
 
-	/**
-	 * Constructor.
-	 *
-	 * @param $argument The argument.
-	 * @param Exception $previous The previous exception.
-	 */
-	public function __construct($argument, Exception $previous = null) {
-		parent::__construct(sprintf("The argument \"%s\" is not an object", print_r($argument, true)), $previous);
-	}
+    /**
+     * Constructor.
+     *
+     * @param $argument The argument.
+     * @param Exception $previous The previous exception.
+     */
+    public function __construct($argument, Exception $previous = null) {
+        parent::__construct(sprintf("The argument \"%s\" is not an object", print_r($argument, true)), $previous);
+    }
 
 }

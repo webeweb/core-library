@@ -23,20 +23,20 @@ use WBW\Library\Core\HTTP\HTTPMethodInterface;
  */
 final class HTTPMethodInterfaceTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __constructor() method.
-	 *
-	 * @return void
-	 */
-	public function testConstructor() {
+    /**
+     * Tests the __constructor() method.
+     *
+     * @return void
+     */
+    public function testConstructor() {
 
-		$this->assertEquals("DELETE", HTTPMethodInterface::METHOD_DELETE);
-		$this->assertEquals("GET", HTTPMethodInterface::METHOD_GET);
-		$this->assertEquals("HEAD", HTTPMethodInterface::METHOD_HEAD);
-		$this->assertEquals("OPTIONS", HTTPMethodInterface::METHOD_OPTIONS);
-		$this->assertEquals("PATCH", HTTPMethodInterface::METHOD_PATCH);
-		$this->assertEquals("POST", HTTPMethodInterface::METHOD_POST);
-		$this->assertEquals("PUT", HTTPMethodInterface::METHOD_PUT);
-	}
+        $this->assertEquals("DELETE", HTTPMethodInterface::METHOD_DELETE);
+        $this->assertEquals("GET", HTTPMethodInterface::METHOD_GET);
+        $this->assertEquals("HEAD", HTTPMethodInterface::METHOD_HEAD);
+        $this->assertEquals("OPTIONS", HTTPMethodInterface::METHOD_OPTIONS);
+        $this->assertEquals("PATCH", HTTPMethodInterface::METHOD_PATCH);
+        $this->assertEquals("POST", HTTPMethodInterface::METHOD_POST);
+        $this->assertEquals("PUT", HTTPMethodInterface::METHOD_PUT);
+    }
 
 }

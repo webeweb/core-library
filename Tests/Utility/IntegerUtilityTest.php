@@ -25,55 +25,55 @@ use WBW\Library\Core\Utility\IntegerUtility;
  */
 final class IntegerUtilityTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the parseBoolean() method.
-	 *
-	 * @return void
-	 */
-	public function testParseBoolean() {
+    /**
+     * Tests the parseBoolean() method.
+     *
+     * @return void
+     */
+    public function testParseBoolean() {
 
-		$this->assertEquals(0, IntegerUtility::parseBoolean(null));
-		$this->assertEquals(0, IntegerUtility::parseBoolean(false));
-		$this->assertEquals(1, IntegerUtility::parseBoolean(true));
-	}
+        $this->assertEquals(0, IntegerUtility::parseBoolean(null));
+        $this->assertEquals(0, IntegerUtility::parseBoolean(false));
+        $this->assertEquals(1, IntegerUtility::parseBoolean(true));
+    }
 
-	/**
-	 * Tests the parseString() method.
-	 *
-	 * @return void
-	 */
-	public function testParseString() {
+    /**
+     * Tests the parseString() method.
+     *
+     * @return void
+     */
+    public function testParseString() {
 
-		try {
-			IntegerUtility::parseString("exception");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(IntegerArgumentException::class, $ex);
-			$this->assertEquals("The argument \"exception\" is not an integer", $ex->getMessage());
-		}
+        try {
+            IntegerUtility::parseString("exception");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(IntegerArgumentException::class, $ex);
+            $this->assertEquals("The argument \"exception\" is not an integer", $ex->getMessage());
+        }
 
-		try {
-			IntegerUtility::parseString("1A");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(IntegerArgumentException::class, $ex);
-			$this->assertEquals("The argument \"1A\" is not an integer", $ex->getMessage());
-		}
+        try {
+            IntegerUtility::parseString("1A");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(IntegerArgumentException::class, $ex);
+            $this->assertEquals("The argument \"1A\" is not an integer", $ex->getMessage());
+        }
 
-		try {
-			IntegerUtility::parseString("1.");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(IntegerArgumentException::class, $ex);
-			$this->assertEquals("The argument \"1.\" is not an integer", $ex->getMessage());
-		}
+        try {
+            IntegerUtility::parseString("1.");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(IntegerArgumentException::class, $ex);
+            $this->assertEquals("The argument \"1.\" is not an integer", $ex->getMessage());
+        }
 
-		try {
-			IntegerUtility::parseString("1.0");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(IntegerArgumentException::class, $ex);
-			$this->assertEquals("The argument \"1.0\" is not an integer", $ex->getMessage());
-		}
+        try {
+            IntegerUtility::parseString("1.0");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(IntegerArgumentException::class, $ex);
+            $this->assertEquals("The argument \"1.0\" is not an integer", $ex->getMessage());
+        }
 
-		$this->assertEquals(null, IntegerUtility::parseString(null));
-		$this->assertEquals(1, IntegerUtility::parseString("1"));
-	}
+        $this->assertEquals(null, IntegerUtility::parseString(null));
+        $this->assertEquals(1, IntegerUtility::parseString("1"));
+    }
 
 }

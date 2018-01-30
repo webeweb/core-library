@@ -26,190 +26,190 @@ use WBW\Library\Core\Utility\FileUtility;
  */
 final class FileUtilityTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Filename.
-	 *
-	 * @var string
-	 */
-	private $filename;
+    /**
+     * Filename.
+     *
+     * @var string
+     */
+    private $filename;
 
-	/**
-	 * {@inheritdoc}
-	 */
-	protected function setUp() {
+    /**
+     * {@inheritdoc}
+     */
+    protected function setUp() {
 
-		$this->filename = getcwd() . "/phpunit.txt";
+        $this->filename = getcwd() . "/phpunit.txt";
 
-		fclose(fopen($this->filename, "w"));
-	}
+        fclose(fopen($this->filename, "w"));
+    }
 
-	/**
-	 * Tests the delete() method.
-	 *
-	 * @return void
-	 */
-	public function testDelete() {
+    /**
+     * Tests the delete() method.
+     *
+     * @return void
+     */
+    public function testDelete() {
 
-		$this->assertFileExists($this->filename);
-		$this->assertEquals(true, FileUtility::delete($this->filename));
+        $this->assertFileExists($this->filename);
+        $this->assertEquals(true, FileUtility::delete($this->filename));
 
-		try {
-			FileUtility::delete($this->filename);
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(FileNotFoundException::class, $ex);
-			$this->assertEquals("The file \"" . $this->filename . "\" is not found", $ex->getMessage());
-		}
-	}
+        try {
+            FileUtility::delete($this->filename);
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(FileNotFoundException::class, $ex);
+            $this->assertEquals("The file \"" . $this->filename . "\" is not found", $ex->getMessage());
+        }
+    }
 
-	/**
-	 * Tests the formatSize() method.
-	 *
-	 * @return void
-	 */
-	public function testFormatSize() {
+    /**
+     * Tests the formatSize() method.
+     *
+     * @return void
+     */
+    public function testFormatSize() {
 
-		$this->assertEquals("99.00 B", FileUtility::formatSize(99));
-		$this->assertEquals("1.00 KB", FileUtility::formatSize(1000));
-		$this->assertEquals("1.00 MB", FileUtility::formatSize(1000000));
-		$this->assertEquals("1.00 GB", FileUtility::formatSize(1000000000));
-		$this->assertEquals("1.00 TB", FileUtility::formatSize(1000000000000));
-		$this->assertEquals("1.00 PB", FileUtility::formatSize(1000000000000000));
-		$this->assertEquals("1.00 EB", FileUtility::formatSize(1000000000000000000));
-		$this->assertEquals("1.00 ZB", FileUtility::formatSize(1000000000000000000000));
-		$this->assertEquals("1.00 YB", FileUtility::formatSize(1000000000000000000000000));
+        $this->assertEquals("99.00 B", FileUtility::formatSize(99));
+        $this->assertEquals("1.00 KB", FileUtility::formatSize(1000));
+        $this->assertEquals("1.00 MB", FileUtility::formatSize(1000000));
+        $this->assertEquals("1.00 GB", FileUtility::formatSize(1000000000));
+        $this->assertEquals("1.00 TB", FileUtility::formatSize(1000000000000));
+        $this->assertEquals("1.00 PB", FileUtility::formatSize(1000000000000000));
+        $this->assertEquals("1.00 EB", FileUtility::formatSize(1000000000000000000));
+        $this->assertEquals("1.00 ZB", FileUtility::formatSize(1000000000000000000000));
+        $this->assertEquals("1.00 YB", FileUtility::formatSize(1000000000000000000000000));
 
-		$this->assertEquals("0.099 KB", FileUtility::formatSize(99, "KB", 3));
-		$this->assertEquals("0.001 MB", FileUtility::formatSize(1000, "MB", 3));
-		$this->assertEquals("0.001 GB", FileUtility::formatSize(1000000, "GB", 3));
-		$this->assertEquals("0.001 TB", FileUtility::formatSize(1000000000, "TB", 3));
-		$this->assertEquals("0.001 PB", FileUtility::formatSize(1000000000000, "PB", 3));
-		$this->assertEquals("0.001 EB", FileUtility::formatSize(1000000000000000, "EB", 3));
-		$this->assertEquals("0.001 ZB", FileUtility::formatSize(1000000000000000000, "ZB", 3));
-		$this->assertEquals("0.001 YB", FileUtility::formatSize(1000000000000000000000, "YB", 3));
+        $this->assertEquals("0.099 KB", FileUtility::formatSize(99, "KB", 3));
+        $this->assertEquals("0.001 MB", FileUtility::formatSize(1000, "MB", 3));
+        $this->assertEquals("0.001 GB", FileUtility::formatSize(1000000, "GB", 3));
+        $this->assertEquals("0.001 TB", FileUtility::formatSize(1000000000, "TB", 3));
+        $this->assertEquals("0.001 PB", FileUtility::formatSize(1000000000000, "PB", 3));
+        $this->assertEquals("0.001 EB", FileUtility::formatSize(1000000000000000, "EB", 3));
+        $this->assertEquals("0.001 ZB", FileUtility::formatSize(1000000000000000000, "ZB", 3));
+        $this->assertEquals("0.001 YB", FileUtility::formatSize(1000000000000000000000, "YB", 3));
 
-		try {
-			FileUtility::formatSize(99, "exception");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(IllegalArgumentException::class, $ex);
-			$this->assertEquals("The unit \"exception\" does not exists", $ex->getMessage());
-		}
-	}
+        try {
+            FileUtility::formatSize(99, "exception");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
+            $this->assertEquals("The unit \"exception\" does not exists", $ex->getMessage());
+        }
+    }
 
-	/**
-	 * Tests the getContents() method.
-	 *
-	 * @return void
-	 */
-	public function testGetContents() {
+    /**
+     * Tests the getContents() method.
+     *
+     * @return void
+     */
+    public function testGetContents() {
 
-		$filename = getcwd() . "/Tests/Utility/FileUtilityTest.txt";
+        $filename = getcwd() . "/Tests/Utility/FileUtilityTest.txt";
 
-		$this->assertEquals("FileUtilityTest", FileUtility::getContents($filename), 'The method getContents() does not return the expected content');
+        $this->assertEquals("FileUtilityTest", FileUtility::getContents($filename), 'The method getContents() does not return the expected content');
 
-		try {
-			FileUtility::getContents("exception");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(FileNotFoundException::class, $ex);
-			$this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
-		}
-	}
+        try {
+            FileUtility::getContents("exception");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(FileNotFoundException::class, $ex);
+            $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
+        }
+    }
 
-	/**
-	 * Tests the getFilenames() method.
-	 *
-	 * @return void
-	 */
-	public function testGetFilenames() {
+    /**
+     * Tests the getFilenames() method.
+     *
+     * @return void
+     */
+    public function testGetFilenames() {
 
-		$pathname = getcwd() . "/Tests/Utility";
+        $pathname = getcwd() . "/Tests/Utility";
 
-		$this->assertContains("FileUtilityTest.php", FileUtility::getFilenames($pathname));
-		$this->assertContains("FileUtilityTest.txt", FileUtility::getFilenames($pathname, ".txt"));
+        $this->assertContains("FileUtilityTest.php", FileUtility::getFilenames($pathname));
+        $this->assertContains("FileUtilityTest.txt", FileUtility::getFilenames($pathname, ".txt"));
 
-		try {
-			FileUtility::getFilenames("exception");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(FileNotFoundException::class, $ex);
-			$this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
-		}
-	}
+        try {
+            FileUtility::getFilenames("exception");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(FileNotFoundException::class, $ex);
+            $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
+        }
+    }
 
-	/**
-	 * Tests the getSize() method.
-	 *
-	 * @return void
-	 */
-	public function testGetSize() {
+    /**
+     * Tests the getSize() method.
+     *
+     * @return void
+     */
+    public function testGetSize() {
 
-		$this->assertEquals(15, FileUtility::getSize(getcwd() . "/Tests/Utility/FileUtilityTest.txt"));
+        $this->assertEquals(15, FileUtility::getSize(getcwd() . "/Tests/Utility/FileUtilityTest.txt"));
 
-		try {
-			FileUtility::getSize("exception");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(FileNotFoundException::class, $ex);
-			$this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
-		}
-	}
+        try {
+            FileUtility::getSize("exception");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(FileNotFoundException::class, $ex);
+            $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
+        }
+    }
 
-	/**
-	 * Tests the getUnits() method.
-	 *
-	 * @return void
-	 */
-	public function testGetUnits() {
+    /**
+     * Tests the getUnits() method.
+     *
+     * @return void
+     */
+    public function testGetUnits() {
 
-		$res = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
-		$this->assertEquals($res, FileUtility::getUnits());
-	}
+        $res = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+        $this->assertEquals($res, FileUtility::getUnits());
+    }
 
-	/**
-	 * Tests the rename() method.
-	 *
-	 * @return void
-	 * @depends testDelete
-	 */
-	public function testRename() {
+    /**
+     * Tests the rename() method.
+     *
+     * @return void
+     * @depends testDelete
+     */
+    public function testRename() {
 
-		$oldname = $this->filename;
-		$newname = getcwd() . "/unittest.txt";
+        $oldname = $this->filename;
+        $newname = getcwd() . "/unittest.txt";
 
-		$this->assertEquals(true, FileUtility::rename($oldname, $newname));
+        $this->assertEquals(true, FileUtility::rename($oldname, $newname));
 
-		try {
-			FileUtility::rename($oldname, $newname);
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(FileNotFoundException::class, $ex);
-			$this->assertEquals("The file \"" . $oldname . "\" is not found", $ex->getMessage());
-		}
-	}
+        try {
+            FileUtility::rename($oldname, $newname);
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(FileNotFoundException::class, $ex);
+            $this->assertEquals("The file \"" . $oldname . "\" is not found", $ex->getMessage());
+        }
+    }
 
-	/**
-	 * Tests the zip() method.
-	 *
-	 * @return void
-	 */
-	public function testZip() {
+    /**
+     * Tests the zip() method.
+     *
+     * @return void
+     */
+    public function testZip() {
 
-		try {
-			FileUtility::zip("exception", "exception.zip");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(FileNotFoundException::class, $ex);
-			$this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
-		}
+        try {
+            FileUtility::zip("exception", "exception.zip");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(FileNotFoundException::class, $ex);
+            $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
+        }
 
-		$srcF	 = getcwd() . "/README.md";
-		$dstF	 = getcwd() . "/README.md.zip";
+        $srcF = getcwd() . "/README.md";
+        $dstF = getcwd() . "/README.md.zip";
 
-		FileUtility::zip($srcF, $dstF);
-		$this->assertFileExists($dstF);
-		$this->assertGreaterThan(900, FileUtility::getSize($dstF));
+        FileUtility::zip($srcF, $dstF);
+        $this->assertFileExists($dstF);
+        $this->assertGreaterThan(900, FileUtility::getSize($dstF));
 
-		$srcD	 = getcwd() . "/Tests";
-		$dstD	 = getcwd() . "/Tests.zip";
+        $srcD = getcwd() . "/Tests";
+        $dstD = getcwd() . "/Tests.zip";
 
-		FileUtility::zip($srcD, $dstD);
-		$this->assertFileExists($dstD);
-		$this->assertGreaterThan(38000, FileUtility::getSize($dstD));
-	}
+        FileUtility::zip($srcD, $dstD);
+        $this->assertFileExists($dstD);
+        $this->assertGreaterThan(38000, FileUtility::getSize($dstD));
+    }
 
 }

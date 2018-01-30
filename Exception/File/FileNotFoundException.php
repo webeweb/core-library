@@ -23,14 +23,14 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  */
 final class FileNotFoundException extends AbstractWBWException {
 
-	/**
-	 * Constructor.
-	 *
-	 * @param string $filename The filename.
-	 * @param Exception $previous The previous exception.
-	 */
-	public function __construct($filename, Exception $previous = null) {
-		parent::__construct(sprintf("The file \"%s\" is not found", $filename), $previous);
-	}
+    /**
+     * Constructor.
+     *
+     * @param string $filename The filename.
+     * @param Exception $previous The previous exception.
+     */
+    public function __construct($filename, Exception $previous = null) {
+        parent::__construct(sprintf("The file \"%s\" is not found", $filename), $previous);
+    }
 
 }

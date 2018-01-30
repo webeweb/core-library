@@ -23,14 +23,14 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  */
 final class PHPExtensionNotFoundException extends AbstractWBWException {
 
-	/**
-	 * Constructor.
-	 *
-	 * @param string $extension The extension.
-	 * @param Exception $previous The previous exception.
-	 */
-	public function __construct($extension, Exception $previous = null) {
-		parent::__construct(sprintf("The PHP extension \"%s\" is not found", $extension), $previous);
-	}
+    /**
+     * Constructor.
+     *
+     * @param string $extension The extension.
+     * @param Exception $previous The previous exception.
+     */
+    public function __construct($extension, Exception $previous = null) {
+        parent::__construct(sprintf("The PHP extension \"%s\" is not found", $extension), $previous);
+    }
 
 }

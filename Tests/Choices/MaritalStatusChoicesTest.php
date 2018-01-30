@@ -23,15 +23,15 @@ use WBW\Library\Core\Choices\MaritalStatusChoices;
  */
 final class MaritalStatusChoicesTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the getChoices() method.
-	 *
-	 * @return void
-	 */
-	public function testGetChoices() {
+    /**
+     * Tests the getChoices() method.
+     *
+     * @return void
+     */
+    public function testGetChoices() {
 
-		$res = [-1 => "choices.marital-status.empty", 66 => "choices.marital-status.single", 39 => "choices.marital-status.pacs", 68 => "choices.marital-status.married", 80 => "choices.marital-status.divorced", 97 => "choices.marital-status.widower"];
-		$this->assertEquals($res, MaritalStatusChoices::getChoices());
-	}
+        $res = [-1 => "choices.marital-status.empty", 66 => "choices.marital-status.single", 39 => "choices.marital-status.pacs", 68 => "choices.marital-status.married", 80 => "choices.marital-status.divorced", 97 => "choices.marital-status.widower"];
+        $this->assertEquals($res, MaritalStatusChoices::getChoices());
+    }
 
 }

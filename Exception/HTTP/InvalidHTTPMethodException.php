@@ -23,14 +23,14 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  */
 final class InvalidHTTPMethodException extends AbstractWBWException {
 
-	/**
-	 * Constructor.
-	 *
-	 * @param string $method The method.
-	 * @param Exception $previous The previous exception.
-	 */
-	public function __construct($method, Exception $previous = null) {
-		parent::__construct(sprintf("The HTTP method \"%s\" is invalid", $method), $previous);
-	}
+    /**
+     * Constructor.
+     *
+     * @param string $method The method.
+     * @param Exception $previous The previous exception.
+     */
+    public function __construct($method, Exception $previous = null) {
+        parent::__construct(sprintf("The HTTP method \"%s\" is invalid", $method), $previous);
+    }
 
 }

@@ -25,31 +25,31 @@ use WBW\Library\Core\Utility\DoubleUtility;
  */
 final class DoubleUtilityTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the parseString() method.
-	 *
-	 * @return void
-	 */
-	public function testParseString() {
+    /**
+     * Tests the parseString() method.
+     *
+     * @return void
+     */
+    public function testParseString() {
 
-		try {
-			DoubleUtility::parseString("exception");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(DoubleArgumentException::class, $ex);
-			$this->assertEquals("The argument \"exception\" is not a double", $ex->getMessage());
-		}
+        try {
+            DoubleUtility::parseString("exception");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(DoubleArgumentException::class, $ex);
+            $this->assertEquals("The argument \"exception\" is not a double", $ex->getMessage());
+        }
 
-		try {
-			DoubleUtility::parseString("1A");
-		} catch (Exception $ex) {
-			$this->assertInstanceOf(DoubleArgumentException::class, $ex);
-			$this->assertEquals("The argument \"1A\" is not a double", $ex->getMessage());
-		}
+        try {
+            DoubleUtility::parseString("1A");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(DoubleArgumentException::class, $ex);
+            $this->assertEquals("The argument \"1A\" is not a double", $ex->getMessage());
+        }
 
-		$this->assertEquals(null, DoubleUtility::parseString(null));
-		$this->assertEquals(1.0, DoubleUtility::parseString("1"));
-		$this->assertEquals(1.0, DoubleUtility::parseString("1."));
-		$this->assertEquals(1.0, DoubleUtility::parseString("1.0"));
-	}
+        $this->assertEquals(null, DoubleUtility::parseString(null));
+        $this->assertEquals(1.0, DoubleUtility::parseString("1"));
+        $this->assertEquals(1.0, DoubleUtility::parseString("1."));
+        $this->assertEquals(1.0, DoubleUtility::parseString("1.0"));
+    }
 
 }

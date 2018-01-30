@@ -23,15 +23,15 @@ use WBW\Library\Core\Exception\Directory\DirectoryNotFoundException;
  */
 final class DirectoryNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     */
+    public function testConstruct() {
 
-		$ex = new DirectoryNotFoundException("exception");
+        $ex = new DirectoryNotFoundException("exception");
 
-		$res = "The directory \"exception\" is not found";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "The directory \"exception\" is not found";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }

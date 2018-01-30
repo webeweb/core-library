@@ -22,13 +22,13 @@ use Exception;
  */
 final class ArrayArgumentException extends IllegalArgumentException {
 
-	/**
-	 * Constructor.
-	 *
-	 * @param $argument The argument.
-	 */
-	public function __construct($argument, Exception $previous = null) {
-		parent::__construct(sprintf("The argument \"%s\" is not an array", print_r($argument, true)), $previous);
-	}
+    /**
+     * Constructor.
+     *
+     * @param $argument The argument.
+     */
+    public function __construct($argument, Exception $previous = null) {
+        parent::__construct(sprintf("The argument \"%s\" is not an array", print_r($argument, true)), $previous);
+    }
 
 }

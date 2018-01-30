@@ -23,24 +23,24 @@ use WBW\Library\Core\Argument\ArgumentInterface;
  */
 final class ArgumentInterfaceTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$this->assertEquals(63, ArgumentInterface::TYPE_ARRAY);
-		$this->assertEquals(64, ArgumentInterface::TYPE_BOOLEAN);
-		$this->assertEquals(30, ArgumentInterface::TYPE_DATE);
-		$this->assertEquals(59, ArgumentInterface::TYPE_DOUBLE);
-		$this->assertEquals(54, ArgumentInterface::TYPE_FLOAT);
-		$this->assertEquals(78, ArgumentInterface::TYPE_INTEGER);
-		$this->assertEquals(73, ArgumentInterface::TYPE_NUMBER);
-		$this->assertEquals(55, ArgumentInterface::TYPE_OBJECT);
-		$this->assertEquals(104, ArgumentInterface::TYPE_RESOURCE);
-		$this->assertEquals(87, ArgumentInterface::TYPE_STRING);
-		$this->assertEquals(116, ArgumentInterface::TYPE_TIMESTAMP);
-	}
+        $this->assertEquals(63, ArgumentInterface::TYPE_ARRAY);
+        $this->assertEquals(64, ArgumentInterface::TYPE_BOOLEAN);
+        $this->assertEquals(30, ArgumentInterface::TYPE_DATE);
+        $this->assertEquals(59, ArgumentInterface::TYPE_DOUBLE);
+        $this->assertEquals(54, ArgumentInterface::TYPE_FLOAT);
+        $this->assertEquals(78, ArgumentInterface::TYPE_INTEGER);
+        $this->assertEquals(73, ArgumentInterface::TYPE_NUMBER);
+        $this->assertEquals(55, ArgumentInterface::TYPE_OBJECT);
+        $this->assertEquals(104, ArgumentInterface::TYPE_RESOURCE);
+        $this->assertEquals(87, ArgumentInterface::TYPE_STRING);
+        $this->assertEquals(116, ArgumentInterface::TYPE_TIMESTAMP);
+    }
 
 }

@@ -23,50 +23,50 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  */
 final class RedirectResponseException extends AbstractWBWException {
 
-	/**
-	 * Arguments.
-	 *
-	 * @var array
-	 */
-	private $arguments;
+    /**
+     * Arguments.
+     *
+     * @var array
+     */
+    private $arguments;
 
-	/**
-	 * Route
-	 *
-	 * @var string
-	 */
-	private $route;
+    /**
+     * Route
+     *
+     * @var string
+     */
+    private $route;
 
-	/**
-	 * Constructor.
-	 *
-	 * @param string $route The route.
-	 * @param array $arguments The arguments.
-	 * @param string $message The message.
-	 * @param Exception $previous The previous exception.
-	 */
-	public function __construct($route = "", $arguments = [], $message = "", Exception $previous = null) {
-		parent::__construct($message, $previous);
-		$this->arguments = $arguments;
-		$this->route	 = $route;
-	}
+    /**
+     * Constructor.
+     *
+     * @param string $route The route.
+     * @param array $arguments The arguments.
+     * @param string $message The message.
+     * @param Exception $previous The previous exception.
+     */
+    public function __construct($route = "", $arguments = [], $message = "", Exception $previous = null) {
+        parent::__construct($message, $previous);
+        $this->arguments = $arguments;
+        $this->route     = $route;
+    }
 
-	/**
-	 * Get the route.
-	 *
-	 * @return array Returns the arguments.
-	 */
-	public function getArguments() {
-		return $this->arguments;
-	}
+    /**
+     * Get the route.
+     *
+     * @return array Returns the arguments.
+     */
+    public function getArguments() {
+        return $this->arguments;
+    }
 
-	/**
-	 * Get the route.
-	 *
-	 * @return string Returns the route.
-	 */
-	public function getRoute() {
-		return $this->route;
-	}
+    /**
+     * Get the route.
+     *
+     * @return string Returns the route.
+     */
+    public function getRoute() {
+        return $this->route;
+    }
 
 }

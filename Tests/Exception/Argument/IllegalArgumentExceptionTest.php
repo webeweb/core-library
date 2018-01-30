@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
  */
 final class IllegalArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$ex = new IllegalArgumentException("The argument \"exception\" is illegal");
+        $ex = new IllegalArgumentException("The argument \"exception\" is illegal");
 
-		$res = "The argument \"exception\" is illegal";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "The argument \"exception\" is illegal";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }

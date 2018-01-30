@@ -19,58 +19,58 @@ namespace WBW\Library\Core\Model\Traits;
  */
 trait PhoneNumbersTrait {
 
-	/**
-	 * Mobile number.
-	 *
-	 * @var string
-	 */
-	private $mobileNumber;
+    /**
+     * Mobile number.
+     *
+     * @var string
+     */
+    private $mobileNumber;
 
-	/**
-	 * Phone number.
-	 *
-	 * @var string
-	 */
-	private $phoneNumber;
+    /**
+     * Phone number.
+     *
+     * @var string
+     */
+    private $phoneNumber;
 
-	/**
-	 * Get the mobile number.
-	 *
-	 * @return string Returns the mobile number.
-	 */
-	public function getMobileNumber() {
-		return $this->mobileNumber;
-	}
+    /**
+     * Get the mobile number.
+     *
+     * @return string Returns the mobile number.
+     */
+    public function getMobileNumber() {
+        return $this->mobileNumber;
+    }
 
-	/**
-	 * Get the phone number.
-	 *
-	 * @return string Returns the phone number.
-	 */
-	public function getPhoneNumber() {
-		return $this->phoneNumber;
-	}
+    /**
+     * Get the phone number.
+     *
+     * @return string Returns the phone number.
+     */
+    public function getPhoneNumber() {
+        return $this->phoneNumber;
+    }
 
-	/**
-	 * Set the mobile number.
-	 *
-	 * @param type $mobileNumber
-	 * @return PhoneNumbersTrait Returns the phone.
-	 */
-	public function setMobileNumber($mobileNumber) {
-		$this->mobileNumber = $mobileNumber;
-		return $this;
-	}
+    /**
+     * Set the mobile number.
+     *
+     * @param type $mobileNumber
+     * @return PhoneNumbersTrait Returns the phone.
+     */
+    public function setMobileNumber($mobileNumber) {
+        $this->mobileNumber = $mobileNumber;
+        return $this;
+    }
 
-	/**
-	 * Set the phone number.
-	 *
-	 * @param string $phoneNumber The phone number.
-	 * @return PhoneNumbersTrait Returns the phone.
-	 */
-	public function setPhoneNumber($phoneNumber) {
-		$this->phoneNumber = $phoneNumber;
-		return $this;
-	}
+    /**
+     * Set the phone number.
+     *
+     * @param string $phoneNumber The phone number.
+     * @return PhoneNumbersTrait Returns the phone.
+     */
+    public function setPhoneNumber($phoneNumber) {
+        $this->phoneNumber = $phoneNumber;
+        return $this;
+    }
 
 }

@@ -19,10 +19,10 @@ namespace WBW\Library\Core\Form\Renderer;
  */
 interface ChoiceRendererInterface {
 
-	/**
-	 * Get the choice label.
-	 *
-	 * @return string Returns the choice label.
-	 */
-	public function getChoiceLabel();
+    /**
+     * Get the choice label.
+     *
+     * @return string Returns the choice label.
+     */
+    public function getChoiceLabel();
 }

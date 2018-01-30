@@ -23,14 +23,14 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  */
 final class NullPointerException extends AbstractWBWException {
 
-	/**
-	 * Constructor.
-	 *
-	 * @param string $message The message.
-	 * @param Exception $previous The previous exception.
-	 */
-	public function __construct($message, Exception $previous = null) {
-		parent::__construct($message, $previous);
-	}
+    /**
+     * Constructor.
+     *
+     * @param string $message The message.
+     * @param Exception $previous The previous exception.
+     */
+    public function __construct($message, Exception $previous = null) {
+        parent::__construct($message, $previous);
+    }
 
 }

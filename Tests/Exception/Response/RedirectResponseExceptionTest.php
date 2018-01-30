@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Response\RedirectResponseException;
  */
 final class RedirectResponseExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$ex = new RedirectResponseException("route", ["name" => "value"], "exception");
-		$this->assertEquals("exception", $ex->getMessage());
-		$this->assertEquals(["name" => "value"], $ex->getArguments());
-		$this->assertEquals("route", $ex->getRoute());
-	}
+        $ex = new RedirectResponseException("route", ["name" => "value"], "exception");
+        $this->assertEquals("exception", $ex->getMessage());
+        $this->assertEquals(["name" => "value"], $ex->getArguments());
+        $this->assertEquals("route", $ex->getRoute());
+    }
 
 }

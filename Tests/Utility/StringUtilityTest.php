@@ -23,48 +23,48 @@ use WBW\Library\Core\Utility\StringUtility;
  */
 final class StringUtilityTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the parseArray() method.
-	 *
-	 * @return void
-	 */
-	public function testParseArray() {
+    /**
+     * Tests the parseArray() method.
+     *
+     * @return void
+     */
+    public function testParseArray() {
 
-		$arg1	 = ["exception" => null, "id" => "id", "class" => "class"];
-		$res1	 = "id=\"id\" class=\"class\"";
-		$this->assertEquals($res1, StringUtility::parseArray($arg1));
+        $arg1 = ["exception" => null, "id" => "id", "class" => "class"];
+        $res1 = "id=\"id\" class=\"class\"";
+        $this->assertEquals($res1, StringUtility::parseArray($arg1));
 
-		$arg2	 = ["exception" => null, "id" => "    id   ", "class" => " class "];
-		$res2	 = "id=\"id\" class=\"class\"";
-		$this->assertEquals($res2, StringUtility::parseArray($arg2));
+        $arg2 = ["exception" => null, "id" => "    id   ", "class" => " class "];
+        $res2 = "id=\"id\" class=\"class\"";
+        $this->assertEquals($res2, StringUtility::parseArray($arg2));
 
-		$arg3	 = ["exception" => null, "id" => "id", "class" => ["class1", "class2", "class3   class4"]];
-		$res3	 = "id=\"id\" class=\"class1 class2 class3 class4\"";
-		$this->assertEquals($res3, StringUtility::parseArray($arg3));
-	}
+        $arg3 = ["exception" => null, "id" => "id", "class" => ["class1", "class2", "class3   class4"]];
+        $res3 = "id=\"id\" class=\"class1 class2 class3 class4\"";
+        $this->assertEquals($res3, StringUtility::parseArray($arg3));
+    }
 
-	/**
-	 * Tests the parseBoolean() method.
-	 *
-	 * @return void
-	 */
-	public function testParseBoolean() {
+    /**
+     * Tests the parseBoolean() method.
+     *
+     * @return void
+     */
+    public function testParseBoolean() {
 
-		$this->assertEquals("false", StringUtility::parseBoolean(null));
-		$this->assertEquals("false", StringUtility::parseBoolean(false));
-		$this->assertEquals("true", StringUtility::parseBoolean(true));
-	}
+        $this->assertEquals("false", StringUtility::parseBoolean(null));
+        $this->assertEquals("false", StringUtility::parseBoolean(false));
+        $this->assertEquals("true", StringUtility::parseBoolean(true));
+    }
 
-	/**
-	 * Tests the replace() method.
-	 *
-	 * @return void
-	 */
-	public function testReplace() {
+    /**
+     * Tests the replace() method.
+     *
+     * @return void
+     */
+    public function testReplace() {
 
-		$this->assertEquals("Hello %name% !", StringUtility::replace("Hello %name% !", [], []));
-		$this->assertEquals("Hello %world% !", StringUtility::replace("Hello %name% !", ["name"], ["world"]));
-		$this->assertEquals("Hello world !", StringUtility::replace("Hello %name% !", ["%name%"], ["world"]));
-	}
+        $this->assertEquals("Hello %name% !", StringUtility::replace("Hello %name% !", [], []));
+        $this->assertEquals("Hello %world% !", StringUtility::replace("Hello %name% !", ["name"], ["world"]));
+        $this->assertEquals("Hello world !", StringUtility::replace("Hello %name% !", ["%name%"], ["world"]));
+    }
 
 }

@@ -19,11 +19,11 @@ namespace WBW\Library\Core\Form\Renderer;
  */
 interface TranslatedChoiceRendererInterface {
 
-	/**
-	 * Get the translated choice label.
-	 *
-	 * @param TranslatorInterface $translator The translator service.
-	 * @return string Returns the translated choice label.
-	 */
-	public function getTranslatedChoiceLabel($translator = null);
+    /**
+     * Get the translated choice label.
+     *
+     * @param TranslatorInterface $translator The translator service.
+     * @return string Returns the translated choice label.
+     */
+    public function getTranslatedChoiceLabel($translator = null);
 }

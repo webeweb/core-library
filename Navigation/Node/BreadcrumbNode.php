@@ -19,16 +19,16 @@ namespace WBW\Library\Core\Navigation\Node;
  */
 class BreadcrumbNode extends AbstractNavigationNode {
 
-	/**
-	 * Constructor.
-	 *
-	 * @param string $name The name.
-	 * @param string $icon The icon.
-	 * @param string $route The route.
-	 */
-	public function __construct($name, $icon = null, $route = null) {
-		parent::__construct($name, $icon, $route);
-		$this->setVisible(false);
-	}
+    /**
+     * Constructor.
+     *
+     * @param string $name The name.
+     * @param string $icon The icon.
+     * @param string $route The route.
+     */
+    public function __construct($name, $icon = null, $route = null) {
+        parent::__construct($name, $icon, $route);
+        $this->setVisible(false);
+    }
 
 }

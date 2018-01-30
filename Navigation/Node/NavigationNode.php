@@ -19,15 +19,15 @@ namespace WBW\Library\Core\Navigation\Node;
  */
 class NavigationNode extends AbstractNavigationNode {
 
-	/**
-	 * Constructor.
-	 *
-	 * @param string $name The name.
-	 * @param string $icon The icon.
-	 * @param string $route The route.
-	 */
-	public function __construct($name, $icon = null, $route = null) {
-		parent::__construct($name, $icon, $route);
-	}
+    /**
+     * Constructor.
+     *
+     * @param string $name The name.
+     * @param string $icon The icon.
+     * @param string $route The route.
+     */
+    public function __construct($name, $icon = null, $route = null) {
+        parent::__construct($name, $icon, $route);
+    }
 
 }

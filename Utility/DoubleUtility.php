@@ -23,19 +23,19 @@ use WBW\Library\Core\Exception\Argument\FloatArgumentException;
  */
 final class DoubleUtility {
 
-	/**
-	 * Parse a string.
-	 *
-	 * @param string $value The string value.
-	 * @return double Returns the double represented by the string value.
-	 * @throws DoubleArgumentException Throws a double argument exception if the string value does not represent a double.
-	 */
-	public static function parseString($value) {
-		try {
-			return FloatUtility::parseString($value);
-		} catch (FloatArgumentException $ex) {
-			throw new DoubleArgumentException($value, $ex);
-		}
-	}
+    /**
+     * Parse a string.
+     *
+     * @param string $value The string value.
+     * @return double Returns the double represented by the string value.
+     * @throws DoubleArgumentException Throws a double argument exception if the string value does not represent a double.
+     */
+    public static function parseString($value) {
+        try {
+            return FloatUtility::parseString($value);
+        } catch (FloatArgumentException $ex) {
+            throw new DoubleArgumentException($value, $ex);
+        }
+    }
 
 }

@@ -23,15 +23,15 @@ use WBW\Library\Core\Exception\Pointer\NullPointerException;
  */
 final class NullPointerExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     */
+    public function testConstruct() {
 
-		$ex = new NullPointerException("exception");
+        $ex = new NullPointerException("exception");
 
-		$res = "exception";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "exception";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }

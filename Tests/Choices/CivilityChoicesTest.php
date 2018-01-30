@@ -23,15 +23,15 @@ use WBW\Library\Core\Choices\CivilityChoices;
  */
 final class CivilityChoicesTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the getChoices() method.
-	 *
-	 * @return void
-	 */
-	public function testGetChoices() {
+    /**
+     * Tests the getChoices() method.
+     *
+     * @return void
+     */
+    public function testGetChoices() {
 
-		$res = [-1 => "choices.civility.empty", 60 => "choices.civility.miss", 50 => "choices.civility.mrs", 84 => "choices.civility.mister"];
-		$this->assertEquals($res, CivilityChoices::getChoices());
-	}
+        $res = [-1 => "choices.civility.empty", 60 => "choices.civility.miss", 50 => "choices.civility.mrs", 84 => "choices.civility.mister"];
+        $this->assertEquals($res, CivilityChoices::getChoices());
+    }
 
 }

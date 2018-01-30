@@ -20,16 +20,16 @@ namespace WBW\Library\Core\Utility;
  */
 final class ArrayUtility {
 
-	/**
-	 * Get a value.
-	 *
-	 * @param array $array The array.
-	 * @param mixed $key The key.
-	 * @param mixed $default The default value.
-	 * @return mixed Returns the value in case of success, $default otherwise.
-	 */
-	public static function get(array $array, $key, $default = null) {
-		return true === array_key_exists($key, $array) ? $array[$key] : $default;
-	}
+    /**
+     * Get a value.
+     *
+     * @param array $array The array.
+     * @param mixed $key The key.
+     * @param mixed $default The default value.
+     * @return mixed Returns the value in case of success, $default otherwise.
+     */
+    public static function get(array $array, $key, $default = null) {
+        return true === array_key_exists($key, $array) ? $array[$key] : $default;
+    }
 
 }

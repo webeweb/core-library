@@ -23,15 +23,15 @@ use WBW\Library\Core\Exception\HTTP\InvalidHTTPMethodException;
  */
 final class InvaliHTTPMethodExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     */
+    public function testConstruct() {
 
-		$ex = new InvalidHTTPMethodException("exception");
+        $ex = new InvalidHTTPMethodException("exception");
 
-		$res = "The HTTP method \"exception\" is invalid";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "The HTTP method \"exception\" is invalid";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }

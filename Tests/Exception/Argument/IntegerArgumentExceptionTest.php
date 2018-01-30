@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
  */
 final class IntegerArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$ex = new IntegerArgumentException("exception");
+        $ex = new IntegerArgumentException("exception");
 
-		$res = "The argument \"exception\" is not an integer";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "The argument \"exception\" is not an integer";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }

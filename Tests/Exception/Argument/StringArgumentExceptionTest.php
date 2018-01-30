@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Argument\StringArgumentException;
  */
 final class StringArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$ex = new StringArgumentException("exception");
+        $ex = new StringArgumentException("exception");
 
-		$res = "The argument \"exception\" is not a string";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "The argument \"exception\" is not a string";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }

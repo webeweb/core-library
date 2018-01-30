@@ -22,31 +22,31 @@ use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
  */
 final class IntegerUtility {
 
-	/**
-	 * Parse a boolean.
-	 *
-	 * @param boolean $value The boolean value.
-	 * @return integer Returns 1 in case of success, 0 otherwise.
-	 */
-	public static function parseBoolean($value) {
-		return $value === true ? 1 : 0;
-	}
+    /**
+     * Parse a boolean.
+     *
+     * @param boolean $value The boolean value.
+     * @return integer Returns 1 in case of success, 0 otherwise.
+     */
+    public static function parseBoolean($value) {
+        return $value === true ? 1 : 0;
+    }
 
-	/**
-	 * Parse a string.
-	 *
-	 * @param string $value The string value.
-	 * @return integer Returns the integer represented by the string value..
-	 * @throws IntegerArgumentException Throws an integer argument exception if the string value does not represent an integer.
-	 */
-	public static function parseString($value) {
-		if (null === $value) {
-			return null;
-		}
-		if (0 === preg_match("/^[0-9]{1,}$/", $value)) {
-			throw new IntegerArgumentException($value);
-		}
-		return intval($value);
-	}
+    /**
+     * Parse a string.
+     *
+     * @param string $value The string value.
+     * @return integer Returns the integer represented by the string value..
+     * @throws IntegerArgumentException Throws an integer argument exception if the string value does not represent an integer.
+     */
+    public static function parseString($value) {
+        if (null === $value) {
+            return null;
+        }
+        if (0 === preg_match("/^[0-9]{1,}$/", $value)) {
+            throw new IntegerArgumentException($value);
+        }
+        return intval($value);
+    }
 
 }

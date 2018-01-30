@@ -23,38 +23,38 @@ use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSortInterface;
  */
 final class FormRenderer {
 
-	/**
-	 * Render a select option.
-	 *
-	 * @param mixed $option The option.
-	 * @param TranslatorInterface $translator The translator service.
-	 * @return string Returns the label.
-	 */
-	public static function render($option, $translator = null) {
+    /**
+     * Render a select option.
+     *
+     * @param mixed $option The option.
+     * @param TranslatorInterface $translator The translator service.
+     * @return string Returns the label.
+     */
+    public static function render($option, $translator = null) {
 
-		// Check the option.
-		if (null === $option) {
-			return null !== $translator ? $translator->trans("label.empty_selection") : "Empty selection";
-		}
+        // Check the option.
+        if (null === $option) {
+            return null !== $translator ? $translator->trans("label.empty_selection") : "Empty selection";
+        }
 
-		// Check the implementation.
-		if (true === ($option instanceof ChoiceRendererInterface)) {
-			$output = $option->getChoiceLabel();
-		} else if (true === ($option instanceof TranslatedChoiceRendererInterface)) {
-			$output = $option->getTranslatedChoiceLabel($translator);
-		} else {
-			$output = "FormRendererInterface not implemented by this object";
-		}
+        // Check the implementation.
+        if (true === ($option instanceof ChoiceRendererInterface)) {
+            $output = $option->getChoiceLabel();
+        } else if (true === ($option instanceof TranslatedChoiceRendererInterface)) {
+            $output = $option->getTranslatedChoiceLabel($translator);
+        } else {
+            $output = "FormRendererInterface not implemented by this object";
+        }
 
-		if (true === ($option instanceof AlphabeticalTreeSortInterface)) {
-			$multiplier	 = AlphabeticalTreeSort::getLevel($option);
-			$nbsp		 = html_entity_decode("&nbsp;");
-			$symbol		 = html_entity_decode("&#9500;");
-			$output		 = implode("", [str_repeat($nbsp, $multiplier * 3), $symbol, $nbsp, $output]);
-		}
+        if (true === ($option instanceof AlphabeticalTreeSortInterface)) {
+            $multiplier = AlphabeticalTreeSort::getLevel($option);
+            $nbsp       = html_entity_decode("&nbsp;");
+            $symbol     = html_entity_decode("&#9500;");
+            $output     = implode("", [str_repeat($nbsp, $multiplier * 3), $symbol, $nbsp, $output]);
+        }
 
-		// Return the output.
-		return $output;
-	}
+        // Return the output.
+        return $output;
+    }
 
 }

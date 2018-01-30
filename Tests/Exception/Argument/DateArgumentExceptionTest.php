@@ -23,17 +23,17 @@ use WBW\Library\Core\Exception\Argument\DateArgumentException;
  */
 final class DateArgumentExceptionTest extends PHPUnit_Framework_TestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$ex = new DateArgumentException("exception");
+        $ex = new DateArgumentException("exception");
 
-		$res = "The argument \"exception\" is not a date";
-		$this->assertEquals($res, $ex->getMessage());
-	}
+        $res = "The argument \"exception\" is not a date";
+        $this->assertEquals($res, $ex->getMessage());
+    }
 
 }
