@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Tests\Navigation\Tree;
 
 use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Navigation\Item\NavigationItem;
 use WBW\Library\Core\Navigation\Node\NavigationNode;
 use WBW\Library\Core\Navigation\Tree\NavigationTree;
 
@@ -25,11 +26,11 @@ use WBW\Library\Core\Navigation\Tree\NavigationTree;
 final class NavigationTreeTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Tests the __construct() method.
+     * Tests the getBreadcrumbs() method.
      *
      * @return void
      */
-    public function testConstructor() {
+    public function testGetBreadcrumbs() {
 
         $obj = new NavigationTree();
 
@@ -37,6 +38,7 @@ final class NavigationTreeTest extends PHPUnit_Framework_TestCase {
         $obj->getLastNode()->setActive(true);
         $obj->getLastNode()->addNode(new NavigationNode("sub-level1"));
         $obj->getLastNode()->getLastNode()->setActive(true);
+        $obj->getLastNode()->addNode(new NavigationItem("sub-level2"));
 
         $res = $obj->getBreadcrumbs();
         $this->assertCount(2, $res);
