@@ -9,9 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database;
+namespace WBW\Library\Core\Database\Microsoft;
 
 use PDO;
+use WBW\Library\Core\Database\AbstractDatabase;
 use WBW\Library\Core\Exception\File\FileNotFoundException;
 use WBW\Library\Core\Utility\StringUtility;
 
@@ -19,10 +20,10 @@ use WBW\Library\Core\Utility\StringUtility;
  * Microsoft Access database.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database
+ * @package WBW\Library\Core\Database\Microsoft
  * @final
  */
-final class AccessDatabase extends AbstractDatabase {
+final class MicrosoftAccessDatabase extends AbstractDatabase {
 
     /**
      * Microsoft Access DSN.

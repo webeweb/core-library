@@ -9,21 +9,21 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Database;
+namespace WBW\Library\Core\Tests\Database\Microsoft;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Database\AccessDatabase;
+use WBW\Library\Core\Database\Microsoft\MicrosoftAccessDatabase;
 use WBW\Library\Core\Exception\File\FileNotFoundException;
 
 /**
  * Microsoft Access database test.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Database
+ * @package WBW\Library\Core\Tests\Database\Microsoft
  * @final
  */
-final class AccessDatabaseTest extends PHPUnit_Framework_TestCase {
+final class MicrosoftAccessDatabaseTest extends PHPUnit_Framework_TestCase {
 
     /**
      * Tests the __construct method.
@@ -32,7 +32,7 @@ final class AccessDatabaseTest extends PHPUnit_Framework_TestCase {
      */
     public function testConstructor() {
 
-        $obj = new AccessDatabase();
+        $obj = new MicrosoftAccessDatabase();
 
         $this->assertEquals(null, $obj->getDatabase());
         $this->assertEquals("", $obj->getPassword());
@@ -46,7 +46,7 @@ final class AccessDatabaseTest extends PHPUnit_Framework_TestCase {
      */
     public function testConnect() {
 
-        $obj = new AccessDatabase();
+        $obj = new MicrosoftAccessDatabase();
 
         try {
             $obj->setDatabase("exception");
@@ -64,7 +64,7 @@ final class AccessDatabaseTest extends PHPUnit_Framework_TestCase {
      */
     public function testSetDatabase() {
 
-        $obj = new AccessDatabase();
+        $obj = new MicrosoftAccessDatabase();
 
         $obj->setDatabase("database");
         $this->assertEquals("database", $obj->getDatabase());
@@ -77,7 +77,7 @@ final class AccessDatabaseTest extends PHPUnit_Framework_TestCase {
      */
     public function testSetPassword() {
 
-        $obj = new AccessDatabase();
+        $obj = new MicrosoftAccessDatabase();
 
         $obj->setPassword("password");
         $this->assertEquals("password", $obj->getPassword());
@@ -90,7 +90,7 @@ final class AccessDatabaseTest extends PHPUnit_Framework_TestCase {
      */
     public function testSetUsername() {
 
-        $obj = new AccessDatabase();
+        $obj = new MicrosoftAccessDatabase();
 
         $obj->setUsername("username");
         $this->assertEquals("username", $obj->getUsername());
