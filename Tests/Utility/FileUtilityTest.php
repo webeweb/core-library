@@ -44,6 +44,24 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public static function tearDownAfterClass() {
+        $filenames = [
+            getcwd() . "/README.md.zip",
+            getcwd() . "/Tests.zip",
+            getcwd() . "/phpunit.txt",
+            getcwd() . "/unittest.txt",
+        ];
+        foreach ($filenames as $current) {
+            if (false === file_exists($current)) {
+                continue;
+            }
+            unlink($current); // Remove files for local unit tests.
+        }
+    }
+
+    /**
      * Tests the delete() method.
      *
      * @return void
