@@ -54,7 +54,7 @@ trait PhoneNumbersTrait {
     /**
      * Set the mobile number.
      *
-     * @param type $mobileNumber
+     * @param string $mobileNumber
      * @return mixed Returns the class using this trait.
      */
     public function setMobileNumber($mobileNumber) {
