@@ -123,24 +123,51 @@ abstract class AbstractDatabase {
      * Prepare an INSERT SQL query.
      *
      * @param string $table The table.
-     * @param array $fields The fields [field => value].
+     * @param array $values The values [field => value].
      * @return string Returns the INSERT SQL query.
      */
-    final public function prepareInsert($table, array $fields) {
+    final public function prepareInsert($table, array $values) {
 
-        // Initialize the SQL.
-        $sql = [];
+        // Initialize the query.
+        $query = [];
 
-        $sql[] = "INSERT INTO ";
-        $sql[] = $table;
-        $sql[] = " (";
-        $sql[] = implode(", ", array_keys($fields));
-        $sql[] = ") VALUES (";
-        $sql[] = implode(", ", array_values($fields));
-        $sql[] = ")";
+        $query[] = "INSERT INTO ";
+        $query[] = $table;
+        $query[] = " (";
+        $query[] = implode(", ", array_keys($values));
+        $query[] = ") VALUES (";
+        $query[] = implode(", ", array_values($values));
+        $query[] = ")";
 
-        // Return the SQL.
-        return implode("", $sql);
+        // Return the query.
+        return implode("", $query);
+    }
+
+    /**
+     * Prepare an UPDATE SQL query.
+     *
+     * @param string $table The table.
+     * @param array $values The values [field => value]
+     * @return string Returns the UPDATE SQL query.
+     */
+    final public function prepareUpdate($table, array $values) {
+
+        // Initialize the SET.
+        $set = [];
+        foreach ($values as $k => $v) {
+            $set[] = $k . " = " . $v;
+        }
+
+        // Initialize the query.
+        $query = [];
+
+        $query[] = "UPDATE ";
+        $query[] = $table;
+        $query[] = " SET ";
+        $query[] = implode(", ", $set);
+
+        // Return the query.
+        return implode("", $query);
     }
 
     /**

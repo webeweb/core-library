@@ -86,6 +86,20 @@ final class MicrosoftAccessDatabaseTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the prepareUpdate() method.
+     *
+     * @return void
+     */
+    public function testPrepareUpdate() {
+
+        $obj = new MicrosoftAccessDatabase();
+
+        $arg = ["field1" => 1, "field2" => "'value2'", "field3" => "'value3'"];
+        $res = "UPDATE table SET field1 = 1, field2 = 'value2', field3 = 'value3'";
+        $this->assertEquals($res, $obj->prepareUpdate("table", $arg));
+    }
+
+    /**
      * Tests the setDatabase() method.
      *
      * @return void
