@@ -45,12 +45,9 @@ final class MicrosoftAccessDatabase extends AbstractDatabase {
     }
 
     /**
-     * Connect.
-     *
-     * @return PDO Returns the connection.
-     * @throws FileNotFoundException Throws a file not found exception if the filename does not exists.
+     * {@inheritdoc}
      */
-    public function connect() {
+    protected function connect() {
 
         // Check if the filename exists.
         if (false === file_exists($this->getDatabase())) {

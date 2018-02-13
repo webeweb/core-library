@@ -11,6 +11,9 @@
 
 namespace WBW\Library\Core\Database;
 
+use Exception;
+use PDO;
+
 /**
  * Abstract database.
  *
@@ -18,6 +21,13 @@ namespace WBW\Library\Core\Database;
  * @package WBW\Library\Core\Database
  */
 abstract class AbstractDatabase {
+
+    /**
+     * Connection.
+     *
+     * @var PDO
+     */
+    private $connection;
 
     /**
      * Database.
@@ -48,6 +58,27 @@ abstract class AbstractDatabase {
     }
 
     /**
+     * Connect.
+     *
+     * @return PDO Returns the connection.
+     * @throws Exception Throws an exception if the connection failed.
+     */
+    abstract protected function connect();
+
+    /**
+     * Get the connection.
+     *
+     * @return PDO Returns the connection.
+     * @throws Exception Throws an exception if the connection failed.
+     */
+    final public function getConnection() {
+        if (null === $this->connection) {
+            $this->connection = $this->connect();
+        }
+        return $this->connection;
+    }
+
+    /**
      * Get the database.
      *
      * @return string Returns the database.
@@ -72,6 +103,30 @@ abstract class AbstractDatabase {
      */
     final public function getUsername() {
         return $this->username;
+    }
+
+    /**
+     * Prepare an INSERT SQL query.
+     *
+     * @param string $table The table.
+     * @param array $fields The fields [field => value].
+     * @return string Returns the INSERT SQL query.
+     */
+    final public function prepareInsert($table, array $fields) {
+
+        // Initialize the SQL.
+        $sql = [];
+
+        $sql[] = "INSERT INTO ";
+        $sql[] = $table;
+        $sql[] = " (";
+        $sql[] = implode(", ", array_keys($fields));
+        $sql[] = ") VALUES (";
+        $sql[] = implode(", ", array_values($fields));
+        $sql[] = ")";
+
+        // Return the SQL.
+        return implode("", $sql);
     }
 
     /**

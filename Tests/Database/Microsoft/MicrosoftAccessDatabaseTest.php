@@ -40,21 +40,35 @@ final class MicrosoftAccessDatabaseTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * Tests the connect() method.
+     * Tests the getConnection() method.
      *
      * @return void
      */
-    public function testConnect() {
+    public function testGetConnection() {
 
         $obj = new MicrosoftAccessDatabase();
 
         try {
             $obj->setDatabase("exception");
-            $obj->connect();
+            $obj->getConnection();
         } catch (Exception $ex) {
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
             $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests the prepareInsert() method.
+     *
+     * @return void
+     */
+    public function testPrepareInsert() {
+
+        $obj = new MicrosoftAccessDatabase();
+
+        $arg = ["field1" => 1, "field2" => "'value2'", "field3" => "'value3'"];
+        $res = "INSERT INTO table (field1, field2, field3) VALUES (1, 'value2', 'value3')";
+        $this->assertEquals($res, $obj->prepareInsert("table", $arg));
     }
 
     /**
