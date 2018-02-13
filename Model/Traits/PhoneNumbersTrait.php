@@ -55,7 +55,7 @@ trait PhoneNumbersTrait {
      * Set the mobile number.
      *
      * @param type $mobileNumber
-     * @return PhoneNumbersTrait Returns the phone.
+     * @return mixed Returns the class using this trait.
      */
     public function setMobileNumber($mobileNumber) {
         $this->mobileNumber = $mobileNumber;
@@ -66,7 +66,7 @@ trait PhoneNumbersTrait {
      * Set the phone number.
      *
      * @param string $phoneNumber The phone number.
-     * @return PhoneNumbersTrait Returns the phone.
+     * @return mixed Returns the class using this trait.
      */
     public function setPhoneNumber($phoneNumber) {
         $this->phoneNumber = $phoneNumber;

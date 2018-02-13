@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Model\Traits;
 
 /**
- * AddressTrait.
+ * Address trait.
  *
  * @author NdC/WBW <https://github.com/webeweb/>
  * @package WBW\Library\Core\Model\Traits
@@ -135,7 +135,7 @@ trait AddressTrait {
      * Set the address.
      *
      * @param string $address The address
-     * @return AddressTrait Returns the address.
+     * @return mixed Returns the class using this trait.
      */
     public function setAddress($address) {
         $this->address = $address;
@@ -146,7 +146,7 @@ trait AddressTrait {
      * Set the city.
      *
      * @param string $city The city.
-     * @return AddressTrait Returns the address.
+     * @return mixed Returns the class using this trait.
      */
     public function setCity($city) {
         $this->city = $city;
@@ -157,7 +157,7 @@ trait AddressTrait {
      * Set the company.
      *
      * @param string $company The company.
-     * @return AddressTrait Returns the address.
+     * @return mixed Returns the class using this trait.
      */
     public function setCompany($company) {
         $this->company = $company;
@@ -168,7 +168,7 @@ trait AddressTrait {
      * Set the country.
      *
      * @param string $country The country.
-     * @return AddressTrait Returns the address.
+     * @return mixed Returns the class using this trait.
      */
     public function setCountry($country) {
         $this->country = $country;
@@ -179,7 +179,7 @@ trait AddressTrait {
      * Set the firstname.
      *
      * @param string $firstname The firstname.
-     * @return AddressTrait Returns the address.
+     * @return mixed Returns the class using this trait.
      */
     public function setFirstname($firstname) {
         $this->firstname = $firstname;
@@ -190,7 +190,7 @@ trait AddressTrait {
      * Set the lastname.
      *
      * @param string $lastname The lastname.
-     * @return AddressTrait Returns the address.
+     * @return mixed Returns the class using this trait.
      */
     public function setLastname($lastname) {
         $this->lastname = $lastname;
@@ -201,7 +201,7 @@ trait AddressTrait {
      * Set the postal code.
      *
      * @param string $postalCode The postal code.
-     * @return AddressTrait Returns the address.
+     * @return mixed Returns the class using this trait.
      */
     public function setPostalCode($postalCode) {
         $this->postalCode = $postalCode;
