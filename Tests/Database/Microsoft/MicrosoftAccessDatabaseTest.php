@@ -58,6 +58,20 @@ final class MicrosoftAccessDatabaseTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the prepareBinding() method.
+     *
+     * @return void
+     */
+    public function testPrepareBinding() {
+
+        $obj = new MicrosoftAccessDatabase();
+
+        $arg = ["field1", "field2", "field3"];
+        $res = ["field1" => ":field1", "field2" => ":field2", "field3" => ":field3"];
+        $this->assertEquals($res, $obj->prepareBinding($arg));
+    }
+
+    /**
      * Tests the prepareInsert() method.
      *
      * @return void

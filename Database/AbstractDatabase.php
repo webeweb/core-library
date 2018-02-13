@@ -106,6 +106,20 @@ abstract class AbstractDatabase {
     }
 
     /**
+     * Prepare a binding.
+     *
+     * @param array $fields The fields.
+     * @return array Returns the binding as key => :key.
+     */
+    final public function prepareBinding(array $fields) {
+        $output = [];
+        foreach ($fields as $current) {
+            $output[$current] = ":" . $current;
+        }
+        return $output;
+    }
+
+    /**
      * Prepare an INSERT SQL query.
      *
      * @param string $table The table.
