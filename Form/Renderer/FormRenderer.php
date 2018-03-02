@@ -49,7 +49,7 @@ final class FormRenderer {
         if (true === ($option instanceof AlphabeticalTreeSortInterface)) {
             $multiplier = AlphabeticalTreeSort::getLevel($option);
             $nbsp       = html_entity_decode("&nbsp;");
-            $symbol     = html_entity_decode("&#9500;");
+            $symbol     = html_entity_decode(0 === $multiplier ? "&#9472;" : "&#9492;");
             $output     = implode("", [str_repeat($nbsp, $multiplier * 3), $symbol, $nbsp, $output]);
         }
 
