@@ -31,8 +31,13 @@ final class LuhnAlgorithmTest extends PHPUnit_Framework_TestCase {
     public function testCheck() {
 
         $this->assertEquals(true, LuhnAlgorithm::check("51538089700014"));
+        $this->assertEquals(false, LuhnAlgorithm::check("51538089700024"));
+
         $this->assertEquals(true, LuhnAlgorithm::check("53897790100015"));
+        $this->assertEquals(false, LuhnAlgorithm::check("53897790100025"));
+
         $this->assertEquals(true, LuhnAlgorithm::check("53395168700011"));
+        $this->assertEquals(false, LuhnAlgorithm::check("53395168700021"));
     }
 
 }
