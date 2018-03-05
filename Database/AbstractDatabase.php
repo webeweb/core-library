@@ -17,7 +17,7 @@ use PDO;
 /**
  * Abstract database.
  *
- * @author NdC/WBW <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Database
  */
 abstract class AbstractDatabase {

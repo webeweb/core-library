@@ -19,7 +19,7 @@ use WBW\Library\Core\Utility\ClassUtility;
 /**
  * Class utility test.
  *
- * @author NdC/WBW <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Utility
  * @final
  */

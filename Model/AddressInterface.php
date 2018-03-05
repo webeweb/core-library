@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Model;
 /**
  * Address interface.
  *
- * @author NdC/WBW <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Model
  */
 interface AdressInterface {

@@ -19,7 +19,7 @@ use WBW\Library\Core\Exception\File\FileNotFoundException;
 /**
  * Microsoft Access database test.
  *
- * @author NdC/WBW <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Database\Microsoft
  * @final
  */

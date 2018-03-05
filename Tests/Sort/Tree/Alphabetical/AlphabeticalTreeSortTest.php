@@ -22,7 +22,7 @@ use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSort;
 /**
  * Alphabetical tree sort test.
  *
- * @author NdC/WBW <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Sort\Tree\Alphabetical
  * @final
  */

@@ -19,7 +19,7 @@ use WBW\Library\Core\Utility\StringUtility;
 /**
  * Microsoft Access database.
  *
- * @author NdC/WBW <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Database\Microsoft
  * @final
  */

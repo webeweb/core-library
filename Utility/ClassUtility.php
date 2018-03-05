@@ -16,7 +16,7 @@ use ReflectionClass;
 /**
  * Class utility.
  *
- * @author NdC/WBW <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Utility
  * @final
  */

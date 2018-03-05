@@ -18,7 +18,7 @@ namespace WBW\Library\Core\Sort\Tree\Alphabetical;
 /**
  * Alphabetical tree sort.
  *
- * @author NdC/WBW <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Sort\Tree\Alphabetical
  * @final
  */
