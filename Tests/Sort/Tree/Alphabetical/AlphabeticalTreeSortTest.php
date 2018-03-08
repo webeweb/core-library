@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Sort\Tree\Alphabetical;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSort;
 use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSortInterface;
-use WBW\Library\Core\Tests\Fixtures\TestNode;
+use WBW\Library\Core\Tests\Fixtures\Node\TestNode;
 
 /**
  * Alphabetical tree sort test.
