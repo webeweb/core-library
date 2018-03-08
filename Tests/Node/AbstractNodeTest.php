@@ -151,4 +151,20 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals([], $obj->getNodes());
     }
 
+    /**
+     * Tests the size() method.
+     *
+     * @return void.
+     */
+    public function testSize() {
+
+        $obj = new TestNode("id");
+        $add = new TestNode("id2");
+
+        $this->assertEquals(0, $obj->size());
+
+        $obj->addNode($add);
+        $this->assertEquals(1, $obj->size());
+    }
+
 }
