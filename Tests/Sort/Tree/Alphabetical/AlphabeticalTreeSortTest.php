@@ -12,8 +12,9 @@
 namespace WBW\Library\Core\Tests\Sort\Tree\Alphabetical;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Navigation\Node\NavigationNode;
 use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSort;
+use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSortInterface;
+use WBW\Library\Core\Tests\Fixtures\TestNode;
 
 /**
  * Alphabetical tree sort test.
@@ -38,16 +39,16 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 
         // Initialize the nodes.
         $this->nodes = [
-            new NavigationNode("id01"),
-            new NavigationNode("id02"),
-            new NavigationNode("id03"),
-            new NavigationNode("id04"),
-            new NavigationNode("id05"),
-            new NavigationNode("id06"),
-            new NavigationNode("id07"),
-            new NavigationNode("id08"),
-            new NavigationNode("id09"),
-            new NavigationNode("id10"),
+            new TestNode("id01"),
+            new TestNode("id02"),
+            new TestNode("id03"),
+            new TestNode("id04"),
+            new TestNode("id05"),
+            new TestNode("id06"),
+            new TestNode("id07"),
+            new TestNode("id08"),
+            new TestNode("id09"),
+            new TestNode("id10"),
         ];
 
         // Imbricate the nodes.
@@ -113,7 +114,7 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
         $this->assertCount(10, $this->nodes);
 
         $this->nodes[1]->removeNode($this->nodes[4]);
-        (new NavigationNode("id11"))->addNode($this->nodes[4]); // Set a new parent that is not in the initial array.
+        (new TestNode("id11"))->addNode($this->nodes[4]); // Set a new parent that is not in the initial array.
 
         AlphabeticalTreeSort::removeOrphan($this->nodes);
         $this->assertCount(7, $this->nodes);
