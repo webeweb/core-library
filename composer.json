@@ -24,7 +24,10 @@
     "autoload": {
         "psr-4": {
             "WBW\\Library\\Core\\": ""
-        }
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
     },
     "extra": {
         "branch-alias": {
