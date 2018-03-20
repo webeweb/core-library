@@ -54,4 +54,57 @@ final class ArrayUtilityTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals("exception", ArrayUtility::get($arg, "inexistant_string", "exception"));
     }
 
+    /**
+     * Tests the set() method.
+     *
+     * @return void
+     */
+    public function testSet() {
+
+        $objN = [];
+
+        ArrayUtility::set($objN, "key", null, [null]);
+        $this->assertEquals([], $objN);
+
+        $objB1 = [];
+
+        ArrayUtility::set($objB1, "key", true, [null, false]);
+        $this->assertEquals(["key" => true], $objB1);
+
+        $objB2 = [];
+
+        ArrayUtility::set($objB2, "key", false, [null, false]);
+        $this->assertEquals([], $objB2);
+
+        $objF1 = [];
+
+        ArrayUtility::set($objF1, "key", 1.0, [null, 0.0]);
+        $this->assertEquals(["key" => 1.0], $objF1);
+
+        $objF2 = [];
+
+        ArrayUtility::set($objF2, "key", 0.0, [null, 0.0]);
+        $this->assertEquals([], $objF2);
+
+        $objI1 = [];
+
+        ArrayUtility::set($objI1, "key", 1, [null, 0]);
+        $this->assertEquals(["key" => 1], $objI1);
+
+        $objI2 = [];
+
+        ArrayUtility::set($objI2, "key", 0, [null, 0]);
+        $this->assertEquals([], $objI2);
+
+        $objS1 = [];
+
+        ArrayUtility::set($objS1, "key", "true", [null, "false"]);
+        $this->assertEquals(["key" => "true"], $objS1);
+
+        $objS2 = [];
+
+        ArrayUtility::set($objS2, "key", "false", [null, "false"]);
+        $this->assertEquals([], $objS2);
+    }
+
 }

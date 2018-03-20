@@ -32,4 +32,22 @@ final class ArrayUtility {
         return true === array_key_exists($key, $array) ? $array[$key] : $default;
     }
 
+    /**
+     * Set a value.
+     *
+     * @param array $array The array.
+     * @param string $key The key.
+     * @param mixed $value The value.
+     * @param array $tests The tests.
+     */
+    public static function set(array &$array, $key, $value, array $tests = []) {
+        foreach ($tests as $current) {
+            if ($current !== $value) {
+                continue;
+            }
+            return;
+        }
+        $array[$key] = $value;
+    }
+
 }
