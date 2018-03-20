@@ -81,7 +81,7 @@ final class MicrosoftAccessDatabaseTest extends PHPUnit_Framework_TestCase {
         $obj = new MicrosoftAccessDatabase();
 
         $arg = ["field1" => 1, "field2" => "'value2'", "field3" => "'value3'"];
-        $res = "INSERT INTO table (field1, field2, field3) VALUES (1, 'value2', 'value3')";
+        $res = "INSERT INTO table (`field1`, `field2`, `field3`) VALUES (1, 'value2', 'value3')";
         $this->assertEquals($res, $obj->prepareInsert("table", $arg));
     }
 
@@ -95,7 +95,7 @@ final class MicrosoftAccessDatabaseTest extends PHPUnit_Framework_TestCase {
         $obj = new MicrosoftAccessDatabase();
 
         $arg = ["field1" => 1, "field2" => "'value2'", "field3" => "'value3'"];
-        $res = "UPDATE table SET field1 = 1, field2 = 'value2', field3 = 'value3'";
+        $res = "UPDATE table SET `field1` = 1, `field2` = 'value2', `field3` = 'value3'";
         $this->assertEquals($res, $obj->prepareUpdate("table", $arg));
     }
 

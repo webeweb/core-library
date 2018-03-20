@@ -133,9 +133,9 @@ abstract class AbstractDatabase {
 
         $query[] = "INSERT INTO ";
         $query[] = $table;
-        $query[] = " (";
-        $query[] = implode(", ", array_keys($values));
-        $query[] = ") VALUES (";
+        $query[] = " (`";
+        $query[] = implode("`, `", array_keys($values));
+        $query[] = "`) VALUES (";
         $query[] = implode(", ", array_values($values));
         $query[] = ")";
 
@@ -155,7 +155,7 @@ abstract class AbstractDatabase {
         // Initialize the SET.
         $set = [];
         foreach ($values as $k => $v) {
-            $set[] = $k . " = " . $v;
+            $set[] = "`" . $k . "` = " . $v;
         }
 
         // Initialize the query.
