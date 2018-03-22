@@ -17,7 +17,7 @@ considered stable.
 
 Requires:
 
-- [![ext-curl](https://img.shields.io/badge/PHP-ext--curl-blue.svg)](http://php.net/manual/en/book.curl.php)
+- [![ext-zip](https://img.shields.io/badge/PHP-ext--zip-blue.svg)](http://php.net/manual/en/book.zip.php)
 
 ---
 
