@@ -30,21 +30,21 @@ final class BooleanUtilityTest extends PHPUnit_Framework_TestCase {
      */
     public function testParseString() {
 
-        $this->assertEquals(false, BooleanUtility::parseString(null));
-        $this->assertEquals(false, BooleanUtility::parseString(""));
-        $this->assertEquals(true, BooleanUtility::parseString("1"));
-        $this->assertEquals(true, BooleanUtility::parseString("O"));
-        $this->assertEquals(true, BooleanUtility::parseString("o"));
-        $this->assertEquals(true, BooleanUtility::parseString("OK"));
-        $this->assertEquals(true, BooleanUtility::parseString("ok"));
-        $this->assertEquals(true, BooleanUtility::parseString("OUI"));
-        $this->assertEquals(true, BooleanUtility::parseString("oui"));
-        $this->assertEquals(true, BooleanUtility::parseString("TRUE"));
-        $this->assertEquals(true, BooleanUtility::parseString("true"));
-        $this->assertEquals(true, BooleanUtility::parseString("Y"));
-        $this->assertEquals(true, BooleanUtility::parseString("y"));
-        $this->assertEquals(true, BooleanUtility::parseString("YES"));
-        $this->assertEquals(true, BooleanUtility::parseString("yes"));
+        $this->assertFalse(BooleanUtility::parseString(null));
+        $this->assertFalse(BooleanUtility::parseString(""));
+        $this->assertTrue(BooleanUtility::parseString("1"));
+        $this->assertTrue(BooleanUtility::parseString("O"));
+        $this->assertTrue(BooleanUtility::parseString("o"));
+        $this->assertTrue(BooleanUtility::parseString("OK"));
+        $this->assertTrue(BooleanUtility::parseString("ok"));
+        $this->assertTrue(BooleanUtility::parseString("OUI"));
+        $this->assertTrue(BooleanUtility::parseString("oui"));
+        $this->assertTrue(BooleanUtility::parseString("TRUE"));
+        $this->assertTrue(BooleanUtility::parseString("true"));
+        $this->assertTrue(BooleanUtility::parseString("Y"));
+        $this->assertTrue(BooleanUtility::parseString("y"));
+        $this->assertTrue(BooleanUtility::parseString("YES"));
+        $this->assertTrue(BooleanUtility::parseString("yes"));
     }
 
 }

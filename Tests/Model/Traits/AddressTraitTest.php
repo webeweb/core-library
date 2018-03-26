@@ -45,13 +45,13 @@ final class AddressTraitTest extends PHPUnit_Framework_TestCase {
      */
     public function testConstructor() {
 
-        $this->assertEquals(null, $this->address->getAddress());
-        $this->assertEquals(null, $this->address->getCity());
-        $this->assertEquals(null, $this->address->getCompany());
-        $this->assertEquals(null, $this->address->getCountry());
-        $this->assertEquals(null, $this->address->getFirstname());
-        $this->assertEquals(null, $this->address->getLastname());
-        $this->assertEquals(null, $this->address->getPostalCode());
+        $this->assertNull($this->address->getAddress());
+        $this->assertNull($this->address->getCity());
+        $this->assertNull($this->address->getCompany());
+        $this->assertNull($this->address->getCountry());
+        $this->assertNull($this->address->getFirstname());
+        $this->assertNull($this->address->getLastname());
+        $this->assertNull($this->address->getPostalCode());
     }
 
     /**

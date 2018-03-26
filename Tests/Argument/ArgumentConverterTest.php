@@ -93,7 +93,7 @@ final class ArgumentConverterTest extends PHPUnit_Framework_TestCase {
             $this->assertEquals("The argument \"exception\" is not a timestamp", $ex->getMessage());
         }
 
-        $this->assertEquals(true, ArgumentConverter::convert("1", ArgumentInterface::TYPE_BOOLEAN));
+        $this->assertTrue(ArgumentConverter::convert("1", ArgumentInterface::TYPE_BOOLEAN));
         $this->assertInstanceOf(DateTime::class, ArgumentConverter::convert("2017-11-27", ArgumentInterface::TYPE_DATE, "Y-m-d"));
         $this->assertEquals(1, ArgumentConverter::convert("1", ArgumentInterface::TYPE_DOUBLE));
         $this->assertEquals(1, ArgumentConverter::convert("1", ArgumentInterface::TYPE_FLOAT));

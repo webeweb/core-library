@@ -67,7 +67,7 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
     /**
      * Tests the createChoices() method.
      *
-     * @return void.
+     * @return void
      */
     public function testCreateChoices() {
 

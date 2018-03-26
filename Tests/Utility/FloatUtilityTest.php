@@ -46,7 +46,7 @@ final class FloatUtilityTest extends PHPUnit_Framework_TestCase {
             $this->assertEquals("The argument \"1A\" is not a float", $ex->getMessage());
         }
 
-        $this->assertEquals(null, FloatUtility::parseString(null));
+        $this->assertNull(FloatUtility::parseString(null));
         $this->assertEquals(1.0, FloatUtility::parseString("1"));
         $this->assertEquals(1.0, FloatUtility::parseString("1."));
         $this->assertEquals(1.0, FloatUtility::parseString("1.0"));

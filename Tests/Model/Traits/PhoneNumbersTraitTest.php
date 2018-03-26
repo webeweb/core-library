@@ -45,8 +45,8 @@ final class PhoneNumbersTraitTest extends PHPUnit_Framework_TestCase {
      */
     public function testConstructor() {
 
-        $this->assertEquals(null, $this->phoneNumbers->getMobileNumber());
-        $this->assertEquals(null, $this->phoneNumbers->getPhoneNumber());
+        $this->assertNull($this->phoneNumbers->getMobileNumber());
+        $this->assertNull($this->phoneNumbers->getPhoneNumber());
     }
 
     /**

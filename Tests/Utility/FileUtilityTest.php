@@ -69,7 +69,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
     public function testDelete() {
 
         $this->assertFileExists($this->filename);
-        $this->assertEquals(true, FileUtility::delete($this->filename));
+        $this->assertTrue(FileUtility::delete($this->filename));
 
         try {
             FileUtility::delete($this->filename);
@@ -191,7 +191,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
         $oldname = $this->filename;
         $newname = getcwd() . "/unittest.txt";
 
-        $this->assertEquals(true, FileUtility::rename($oldname, $newname));
+        $this->assertTrue(FileUtility::rename($oldname, $newname));
 
         try {
             FileUtility::rename($oldname, $newname);

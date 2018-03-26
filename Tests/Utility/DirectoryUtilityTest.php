@@ -35,9 +35,9 @@ final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
         $arg1 = getcwd() . "/phpunit";
         $arg2 = $arg1 . "/unittest";
 
-        $this->assertEquals(true, DirectoryUtility::create($arg1));
-        $this->assertEquals(null, DirectoryUtility::create($arg1));
-        $this->assertEquals(true, DirectoryUtility::create($arg2));
+        $this->assertTrue(DirectoryUtility::create($arg1));
+        $this->assertNull(DirectoryUtility::create($arg1));
+        $this->assertTrue(DirectoryUtility::create($arg2));
     }
 
     /**
@@ -51,9 +51,9 @@ final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
         $arg1 = getcwd() . "/phpunit";
         $arg2 = $arg1 . "/unittest";
 
-        $this->assertEquals(null, DirectoryUtility::isEmpty("exception"));
-        $this->assertEquals(false, DirectoryUtility::isEmpty($arg1));
-        $this->assertEquals(true, DirectoryUtility::isEmpty($arg2));
+        $this->assertNull(DirectoryUtility::isEmpty("exception"));
+        $this->assertFalse(DirectoryUtility::isEmpty($arg1));
+        $this->assertTrue(DirectoryUtility::isEmpty($arg2));
     }
 
     /**
@@ -67,7 +67,7 @@ final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
         $arg1 = getcwd() . "/phpunit";
         $arg2 = $arg1 . "/unittest";
 
-        $this->assertEquals(true, DirectoryUtility::rename($arg2, $arg2 . "2"));
+        $this->assertTrue(DirectoryUtility::rename($arg2, $arg2 . "2"));
 
         try {
             DirectoryUtility::rename($arg2, $arg2 . "2");
@@ -76,7 +76,7 @@ final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
             $this->assertEquals("The file \"" . $arg2 . "\" is not found", $ex->getMessage());
         }
 
-        $this->assertEquals(null, DirectoryUtility::rename($arg2 . "2", $arg1));
+        $this->assertNull(DirectoryUtility::rename($arg2 . "2", $arg1));
     }
 
     /**
@@ -90,9 +90,9 @@ final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
         $arg1 = getcwd() . "/phpunit";
         $arg2 = $arg1 . "/unittest2";
 
-        $this->assertEquals(null, DirectoryUtility::delete($arg1));
-        $this->assertEquals(true, DirectoryUtility::delete($arg2));
-        $this->assertEquals(true, DirectoryUtility::delete($arg1));
+        $this->assertNull(DirectoryUtility::delete($arg1));
+        $this->assertTrue(DirectoryUtility::delete($arg2));
+        $this->assertTrue(DirectoryUtility::delete($arg1));
     }
 
 }

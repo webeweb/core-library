@@ -34,16 +34,16 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
 
         $this->assertEquals("id", $obj->getId());
 
-        $this->assertEquals(null, $obj->getFirstNode());
-        $this->assertEquals(null, $obj->getLastNode());
+        $this->assertNull($obj->getFirstNode());
+        $this->assertNull($obj->getLastNode());
         $this->assertEquals([], $obj->getNodes());
-        $this->assertEquals(null, $obj->getParent());
+        $this->assertNull($obj->getParent());
     }
 
     /**
      * Tests the addNode() method.
      *
-     * @return void.
+     * @return void
      */
     public function testAddNode() {
 
@@ -57,7 +57,7 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
     /**
      * Tests the clearNode() method.
      *
-     * @return void.
+     * @return void
      */
     public function testClearNode() {
 
@@ -74,7 +74,7 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
     /**
      * Tests the getFirstNode() method.
      *
-     * @return void.
+     * @return void
      */
     public function testGetFirstNode() {
 
@@ -88,7 +88,7 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
     /**
      * Tests the getLastNode() method.
      *
-     * @return void.
+     * @return void
      */
     public function testGetLastNode() {
 
@@ -102,7 +102,7 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
     /**
      * Tests the getNodeAt() method.
      *
-     * @return void.
+     * @return void
      */
     public function testGetNodeAt() {
 
@@ -110,15 +110,15 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
         $add = new TestNode("id2");
 
         $obj->addNode($add);
-        $this->assertEquals(null, $obj->getNodeAt(-1));
+        $this->assertNull($obj->getNodeAt(-1));
         $this->assertEquals($add, $obj->getNodeAt(0));
-        $this->assertEquals(null, $obj->getNodeAt(1));
+        $this->assertNull($obj->getNodeAt(1));
     }
 
     /**
      * Tests the getNodeById() method.
      *
-     * @return void.
+     * @return void
      */
     public function testGetNodeById() {
 
@@ -128,16 +128,16 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
 
         $obj->addNode($add1);
         $add1->addNode($add2);
-        $this->assertEquals(null, $obj->getNodeById("exception"));
+        $this->assertNull($obj->getNodeById("exception"));
         $this->assertEquals($add1, $obj->getNodeById("id2"));
-        $this->assertEquals(null, $obj->getNodeById("id3"));
+        $this->assertNull($obj->getNodeById("id3"));
         $this->assertEquals($add2, $obj->getNodeById("id3", true));
     }
 
     /**
      * Tests the removeNode() method.
      *
-     * @return void.
+     * @return void
      */
     public function testRemoveNode() {
 
@@ -154,7 +154,7 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
     /**
      * Tests the size() method.
      *
-     * @return void.
+     * @return void
      */
     public function testSize() {
 

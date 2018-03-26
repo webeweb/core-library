@@ -122,7 +122,7 @@ final class FormValidatorTest extends PHPUnit_Framework_TestCase {
             $this->assertEquals("The argument \"exception\" is not a timestamp", $ex->getMessage());
         }
 
-        $this->assertEquals(true, FormValidator::convert("1", FormValidator::FORMAT_BOOLEAN));
+        $this->assertTrue(FormValidator::convert("1", FormValidator::FORMAT_BOOLEAN));
         $this->assertInstanceOf(DateTime::class, FormValidator::convert("2017-11-27", FormValidator::FORMAT_DATE, "Y-m-d"));
         $this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_DOUBLE));
         $this->assertEquals(1, FormValidator::convert("1", FormValidator::FORMAT_FLOAT));

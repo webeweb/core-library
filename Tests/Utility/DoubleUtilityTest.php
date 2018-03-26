@@ -46,7 +46,7 @@ final class DoubleUtilityTest extends PHPUnit_Framework_TestCase {
             $this->assertEquals("The argument \"1A\" is not a double", $ex->getMessage());
         }
 
-        $this->assertEquals(null, DoubleUtility::parseString(null));
+        $this->assertNull(DoubleUtility::parseString(null));
         $this->assertEquals(1.0, DoubleUtility::parseString("1"));
         $this->assertEquals(1.0, DoubleUtility::parseString("1."));
         $this->assertEquals(1.0, DoubleUtility::parseString("1.0"));

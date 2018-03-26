@@ -34,7 +34,7 @@ final class MicrosoftAccessDatabaseTest extends PHPUnit_Framework_TestCase {
 
         $obj = new MicrosoftAccessDatabase();
 
-        $this->assertEquals(null, $obj->getDatabase());
+        $this->assertNull($obj->getDatabase());
         $this->assertEquals("", $obj->getPassword());
         $this->assertEquals("", $obj->getUsername());
     }

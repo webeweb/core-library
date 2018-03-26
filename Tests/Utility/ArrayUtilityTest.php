@@ -33,21 +33,21 @@ final class ArrayUtilityTest extends PHPUnit_Framework_TestCase {
         $arg = ["array" => [], "boolean" => true, "double" => 4.0, "float" => 6.0, "integer" => 9, "string" => "string"];
 
         $this->assertEquals([], ArrayUtility::get($arg, "array"));
-        $this->assertEquals(true, ArrayUtility::get($arg, "boolean"));
+        $this->assertTrue(ArrayUtility::get($arg, "boolean"));
         $this->assertEquals(4.0, ArrayUtility::get($arg, "double"));
         $this->assertEquals(6.0, ArrayUtility::get($arg, "float"));
         $this->assertEquals(9, ArrayUtility::get($arg, "integer"));
         $this->assertEquals("string", ArrayUtility::get($arg, "string"));
 
-        $this->assertEquals(null, ArrayUtility::get($arg, "inexistant_array"));
-        $this->assertEquals(null, ArrayUtility::get($arg, "inexistant_boolean"));
-        $this->assertEquals(null, ArrayUtility::get($arg, "inexistant_double"));
-        $this->assertEquals(null, ArrayUtility::get($arg, "inexistant_float"));
-        $this->assertEquals(null, ArrayUtility::get($arg, "inexistant_integer"));
-        $this->assertEquals(null, ArrayUtility::get($arg, "inexistant_string"));
+        $this->assertNull(ArrayUtility::get($arg, "inexistant_array"));
+        $this->assertNull(ArrayUtility::get($arg, "inexistant_boolean"));
+        $this->assertNull(ArrayUtility::get($arg, "inexistant_double"));
+        $this->assertNull(ArrayUtility::get($arg, "inexistant_float"));
+        $this->assertNull(ArrayUtility::get($arg, "inexistant_integer"));
+        $this->assertNull(ArrayUtility::get($arg, "inexistant_string"));
 
         $this->assertEquals([], ArrayUtility::get($arg, "inexistant_array", []));
-        $this->assertEquals(false, ArrayUtility::get($arg, "inexistant_boolean", false));
+        $this->assertFalse(ArrayUtility::get($arg, "inexistant_boolean", false));
         $this->assertEquals(-4.0, ArrayUtility::get($arg, "inexistant_double", -4.0));
         $this->assertEquals(-6.0, ArrayUtility::get($arg, "inexistant_float", -6.0));
         $this->assertEquals(-9, ArrayUtility::get($arg, "inexistant_integer", -9));

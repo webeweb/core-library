@@ -72,7 +72,7 @@ final class IntegerUtilityTest extends PHPUnit_Framework_TestCase {
             $this->assertEquals("The argument \"1.0\" is not an integer", $ex->getMessage());
         }
 
-        $this->assertEquals(null, IntegerUtility::parseString(null));
+        $this->assertNull(IntegerUtility::parseString(null));
         $this->assertEquals(1, IntegerUtility::parseString("1"));
     }
 
