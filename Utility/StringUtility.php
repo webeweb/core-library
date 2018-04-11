@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Utility;
 
+use Transliterator;
+
 /**
  * String utility.
  *
@@ -76,6 +78,16 @@ final class StringUtility {
      */
     public static function replace($subject, array $searches, array $replaces) {
         return str_replace($searches, $replaces, $subject);
+    }
+
+    /**
+     * Remove accents.
+     *
+     * @param string $str The string.
+     * @return string Returns the string without accents.
+     */
+    public static function removeAccents($str) {
+        return Transliterator::create("NFD; [:Nonspacing Mark:] Remove; NFC;")->transliterate($str);
     }
 
 }

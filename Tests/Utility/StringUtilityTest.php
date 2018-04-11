@@ -67,4 +67,64 @@ final class StringUtilityTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals("Hello world !", StringUtility::replace("Hello %name% !", ["%name%"], ["world"]));
     }
 
+    /**
+     * Tests the removeAccents() method.
+     *
+     * @return void
+     */
+    public function testRemoveAccents() {
+
+        $this->assertEquals("a", StringUtility::removeAccents("à"));
+        $this->assertEquals("a", StringUtility::removeAccents("á"));
+        $this->assertEquals("a", StringUtility::removeAccents("â"));
+        $this->assertEquals("a", StringUtility::removeAccents("ã"));
+        $this->assertEquals("a", StringUtility::removeAccents("ä"));
+        $this->assertEquals("c", StringUtility::removeAccents("ç"));
+        $this->assertEquals("e", StringUtility::removeAccents("è"));
+        $this->assertEquals("e", StringUtility::removeAccents("é"));
+        $this->assertEquals("e", StringUtility::removeAccents("ê"));
+        $this->assertEquals("e", StringUtility::removeAccents("ë"));
+        $this->assertEquals("i", StringUtility::removeAccents("ì"));
+        $this->assertEquals("i", StringUtility::removeAccents("í"));
+        $this->assertEquals("i", StringUtility::removeAccents("î"));
+        $this->assertEquals("i", StringUtility::removeAccents("ï"));
+        $this->assertEquals("n", StringUtility::removeAccents("ñ"));
+        $this->assertEquals("o", StringUtility::removeAccents("ò"));
+        $this->assertEquals("o", StringUtility::removeAccents("ó"));
+        $this->assertEquals("o", StringUtility::removeAccents("ô"));
+        $this->assertEquals("o", StringUtility::removeAccents("õ"));
+        $this->assertEquals("o", StringUtility::removeAccents("ö"));
+        $this->assertEquals("u", StringUtility::removeAccents("ù"));
+        $this->assertEquals("u", StringUtility::removeAccents("ú"));
+        $this->assertEquals("u", StringUtility::removeAccents("û"));
+        $this->assertEquals("u", StringUtility::removeAccents("ü"));
+        $this->assertEquals("y", StringUtility::removeAccents("ý"));
+        $this->assertEquals("y", StringUtility::removeAccents("ÿ"));
+        $this->assertEquals("A", StringUtility::removeAccents("À"));
+        $this->assertEquals("A", StringUtility::removeAccents("Á"));
+        $this->assertEquals("A", StringUtility::removeAccents("Â"));
+        $this->assertEquals("A", StringUtility::removeAccents("Ã"));
+        $this->assertEquals("A", StringUtility::removeAccents("Ä"));
+        $this->assertEquals("C", StringUtility::removeAccents("Ç"));
+        $this->assertEquals("E", StringUtility::removeAccents("È"));
+        $this->assertEquals("E", StringUtility::removeAccents("É"));
+        $this->assertEquals("E", StringUtility::removeAccents("Ê"));
+        $this->assertEquals("E", StringUtility::removeAccents("Ë"));
+        $this->assertEquals("I", StringUtility::removeAccents("Ì"));
+        $this->assertEquals("I", StringUtility::removeAccents("Í"));
+        $this->assertEquals("I", StringUtility::removeAccents("Î"));
+        $this->assertEquals("I", StringUtility::removeAccents("Ï"));
+        $this->assertEquals("N", StringUtility::removeAccents("Ñ"));
+        $this->assertEquals("O", StringUtility::removeAccents("Ò"));
+        $this->assertEquals("O", StringUtility::removeAccents("Ó"));
+        $this->assertEquals("O", StringUtility::removeAccents("Ô"));
+        $this->assertEquals("O", StringUtility::removeAccents("Õ"));
+        $this->assertEquals("O", StringUtility::removeAccents("Ö"));
+        $this->assertEquals("U", StringUtility::removeAccents("Ù"));
+        $this->assertEquals("U", StringUtility::removeAccents("Ú"));
+        $this->assertEquals("U", StringUtility::removeAccents("Û"));
+        $this->assertEquals("U", StringUtility::removeAccents("Ü"));
+        $this->assertEquals("Y", StringUtility::removeAccents("Ý"));
+    }
+
 }
