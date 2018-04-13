@@ -19,6 +19,7 @@ use WBW\Library\Core\Net\PasswordAuthentication;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Net
+ * @final
  */
 final class PasswordAuthenticationTest extends PHPUnit_Framework_TestCase {
 
