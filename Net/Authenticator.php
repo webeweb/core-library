@@ -65,7 +65,7 @@ class Authenticator {
     /**
      * Get the password authentication.
      *
-     * @return PasswordAuthentication Returns the password authentication.
+     * @return PasswordAuthentication Returns this password authentication.
      */
     public function getPasswordAuthentication() {
         return $this->passwordAuthentication;
@@ -84,7 +84,7 @@ class Authenticator {
      * Set the host.
      *
      * @param string $host
-     * @return Authenticator Returns the authenticator.
+     * @return Authenticator Returns this authenticator.
      */
     public function setHost($host) {
         $this->host = $host;
@@ -95,7 +95,7 @@ class Authenticator {
      * Set the password authenticator.
      *
      * @param PasswordAuthentication $passwordAuthentication The password authentication.
-     * @return Authenticator Returns the authenticator.
+     * @return Authenticator Returns this authenticator.
      */
     public function setPasswordAuthentication(PasswordAuthentication $passwordAuthentication) {
         $this->passwordAuthentication = $passwordAuthentication;
@@ -106,7 +106,7 @@ class Authenticator {
      * Set the port.
      *
      * @param integer $port The port.
-     * @return Authenticator Returns the authenticator.
+     * @return Authenticator Returns this authenticator.
      * @throws IllegalArgumentException Throws an illegal argument exception if the port isn't between 1 and 65536.
      */
     public function setPort($port) {
