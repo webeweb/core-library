@@ -16,6 +16,7 @@ namespace WBW\Library\Core\HTTP;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\HTTP
+ * @deprecated
  */
 interface HTTPCodeInterface {
 
