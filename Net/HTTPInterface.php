@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Net;
 
 /**
- * HTTPInterface.
+ * HTTP interface.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Net
