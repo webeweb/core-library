@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\File;
+namespace WBW\Library\Core\IO;
 
 /**
- * File size interface.
+ * File interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\File
+ * @package WBW\Library\Core\IO
  */
-interface FileSizeInterface {
+interface FileInterface {
 
     /**
      * File size divider.
