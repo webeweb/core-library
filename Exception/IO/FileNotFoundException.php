@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  * @package WBW\Library\Core\Exception\IO
  * @final
  */
-final class FileNotFoundException extends AbstractCoreException {
+final class FileNotFoundException extends IOException {
 
     /**
      * Constructor.

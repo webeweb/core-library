@@ -12,7 +12,6 @@
 namespace WBW\Library\Core\Exception\IO;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * Directory not found exception.
@@ -21,7 +20,7 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  * @package WBW\Library\Core\Exception\IO
  * @final
  */
-final class DirectoryNotFoundException extends AbstractCoreException {
+final class DirectoryNotFoundException extends IOException {
 
     /**
      * Constructor.

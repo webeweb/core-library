@@ -12,7 +12,6 @@
 namespace WBW\Library\Core\Exception\IO;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * Invalid HTTP method exception.
@@ -21,7 +20,7 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  * @package WBW\Library\Core\Exception\IO
  * @final
  */
-final class InvalidHTTPMethodException extends AbstractCoreException {
+final class InvalidHTTPMethodException extends IOException {
 
     /**
      * Constructor.
