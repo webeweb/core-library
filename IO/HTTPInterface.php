@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Net;
+namespace WBW\Library\Core\IO;
 
 /**
  * HTTP interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Net
+ * @package WBW\Library\Core\IO
  */
 interface HTTPInterface {
 
@@ -276,7 +276,7 @@ interface HTTPInterface {
      *
      * @var integer
      */
-    const HTTP_STATUS_HTTP_METHOD_NOT_ALLOWED = 405;
+    const HTTP_STATUS_METHOD_NOT_ALLOWED = 405;
 
     /**
      * HTTP status "Not Acceptable".
@@ -395,7 +395,7 @@ interface HTTPInterface {
      *
      * @var integer
      */
-    const HTTP_STATUS_HTTP_METHOD_FAILURE = 424;
+    const HTTP_STATUS_METHOD_FAILURE = 424;
 
     /**
      * HTTP status "Unordered Collection".

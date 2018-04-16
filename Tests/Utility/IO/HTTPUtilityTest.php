@@ -9,28 +9,39 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Core\Tests\Utility\IO;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Utility\HTTPUtility;
+use WBW\Library\Core\Utility\IO\HTTPUtility;
 
 /**
  * HTTP utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Core\Tests\Utility\IO
  * @final
  */
 final class HTTPUtilityTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Tests the getCodes() method.
+     * Tests the getHTTPMethods() method.
      *
      * @return void
      */
-    public function testGetCodes() {
+    public function testGetHTTPMethods() {
 
-        $res = HTTPUtility::getCodes();
+        $res = HTTPUtility::getHTTPMethods();
+        $this->assertCount(7, $res);
+    }
+
+    /**
+     * Tests the getHTTPStatus() method.
+     *
+     * @return void
+     */
+    public function testGetHTTPStatus() {
+
+        $res = HTTPUtility::getHTTPStatus();
         $this->assertCount(57, $res);
     }
 
