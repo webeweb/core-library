@@ -18,9 +18,8 @@ use Exception;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\IO
- * @final
  */
-final class InvalidHTTPMethodException extends IOException {
+class InvalidHTTPMethodException extends IOException {
 
     /**
      * Constructor.

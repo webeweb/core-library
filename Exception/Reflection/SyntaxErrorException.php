@@ -19,9 +19,8 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\Reflection
- * @final
  */
-final class SyntaxErrorException extends AbstractCoreException {
+class SyntaxErrorException extends AbstractCoreException {
 
     /**
      * Constructor.

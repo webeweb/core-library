@@ -19,9 +19,8 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\Pointer
- * @final
  */
-final class NullPointerException extends AbstractCoreException {
+class NullPointerException extends AbstractCoreException {
 
     /**
      * Constructor.

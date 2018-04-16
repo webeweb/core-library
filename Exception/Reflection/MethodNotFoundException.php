@@ -19,9 +19,8 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\Reflection
- * @final
  */
-final class MethodNotFoundException extends AbstractCoreException {
+class MethodNotFoundException extends AbstractCoreException {
 
     /**
      * Constructor.

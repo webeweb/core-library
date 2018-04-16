@@ -18,9 +18,8 @@ use Exception;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\IO
- * @final
  */
-final class DirectoryNotFoundException extends IOException {
+class DirectoryNotFoundException extends IOException {
 
     /**
      * Constructor.

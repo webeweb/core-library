@@ -21,9 +21,8 @@ use WBW\Library\Core\Utility\StringUtility;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Database
- * @final
  */
-final class MicrosoftAccessDatabase extends AbstractDatabase {
+class MicrosoftAccessDatabase extends AbstractDatabase {
 
     /**
      * Microsoft Access DSN.

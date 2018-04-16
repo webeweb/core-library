@@ -19,9 +19,8 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\Response
- * @final
  */
-final class RedirectResponseException extends AbstractCoreException {
+class RedirectResponseException extends AbstractCoreException {
 
     /**
      * Arguments.

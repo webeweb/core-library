@@ -19,9 +19,8 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\Extension
- * @final
  */
-final class PHPExtensionNotFoundException extends AbstractCoreException {
+class PHPExtensionNotFoundException extends AbstractCoreException {
 
     /**
      * Constructor.

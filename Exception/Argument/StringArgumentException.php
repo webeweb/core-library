@@ -18,9 +18,8 @@ use Exception;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception
- * @final
  */
-final class StringArgumentException extends IllegalArgumentException {
+class StringArgumentException extends IllegalArgumentException {
 
     /**
      * Constructor.

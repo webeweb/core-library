@@ -18,9 +18,8 @@ use Exception;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception
- * @final
  */
-final class TimestampArgumentException extends IllegalArgumentException {
+class TimestampArgumentException extends IllegalArgumentException {
 
     /**
      * Constructor.
