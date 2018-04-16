@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\Extension\PHP;
+namespace WBW\Library\Core\Exception\Extension;
 
 use Exception;
 use WBW\Library\Core\Exception\AbstractWBWException;
@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * PHP extension not found exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\Extension\PHP
+ * @package WBW\Library\Core\Exception\Extension
  * @final
  */
 final class PHPExtensionNotFoundException extends AbstractWBWException {

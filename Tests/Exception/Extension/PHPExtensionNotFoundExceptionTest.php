@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\Extension\PHP;
+namespace WBW\Library\Core\Tests\Exception\Extension;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\Extension\PHP\PHPExtensionNotFoundException;
+use WBW\Library\Core\Exception\Extension\PHPExtensionNotFoundException;
 
 /**
  * PHP extension not found exception test.
