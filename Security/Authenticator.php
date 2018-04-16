@@ -43,6 +43,13 @@ class Authenticator {
     private $port;
 
     /**
+     * Scheme.
+     *
+     * @var string
+     */
+    private $scheme;
+
+    /**
      * Constructor.
      *
      * @param string $host The host.
@@ -81,6 +88,15 @@ class Authenticator {
     }
 
     /**
+     * Get the scheme.
+     *
+     * @return string Returns the scheme.
+     */
+    public function getScheme() {
+        return $this->scheme;
+    }
+
+    /**
      * Set the host.
      *
      * @param string $host
@@ -110,10 +126,21 @@ class Authenticator {
      * @throws IllegalArgumentException Throws an illegal argument exception if the port isn't between 1 and 65536.
      */
     public function setPort($port) {
-        if ($port < 1 || 65536 < $port) {
+        if ($port < 0 || 65536 < $port) {
             throw new IllegalArgumentException("The port must be between 1 and 65536");
         }
         $this->port = $port;
+        return $this;
+    }
+
+    /**
+     * Set the shceme.
+     *
+     * @param string $scheme The scheme.
+     * @return Authenticator Returns this authenticator.
+     */
+    public function setScheme($scheme) {
+        $this->scheme = $scheme;
         return $this;
     }
 

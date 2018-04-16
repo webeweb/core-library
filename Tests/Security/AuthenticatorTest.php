@@ -54,6 +54,7 @@ final class AuthenticatorTest extends PHPUnit_Framework_TestCase {
         $this->assertNull($obj->getHost());
         $this->assertEquals($this->passwordAuthentication, $obj->getPasswordAuthentication());
         $this->assertNull($obj->getPort());
+        $this->assertNull($obj->getScheme());
     }
 
     /**
@@ -96,7 +97,7 @@ final class AuthenticatorTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(22, $obj->getPort());
 
         try {
-            $obj->setPort(0);
+            $obj->setPort(-1);
         } catch (Exception $ex) {
             $this->assertInstanceOf(IllegalArgumentException::class, $ex);
             $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
@@ -108,6 +109,19 @@ final class AuthenticatorTest extends PHPUnit_Framework_TestCase {
             $this->assertInstanceOf(IllegalArgumentException::class, $ex);
             $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests the setScheme() method.
+     *
+     * @return void
+     */
+    public function testSetScheme() {
+
+        $obj = new Authenticator(null, $this->passwordAuthentication);
+
+        $obj->setScheme("scheme");
+        $this->assertEquals("scheme", $obj->getScheme());
     }
 
 }
