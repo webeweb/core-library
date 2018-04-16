@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Core\Tests\Utility\Reflection;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
@@ -17,13 +17,13 @@ use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
-use WBW\Library\Core\Utility\ClassUtility;
+use WBW\Library\Core\Utility\Reflection\ClassUtility;
 
 /**
  * Class utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Core\Tests\Utility\Reflection
  * @final
  */
 final class ClassUtilityTest extends PHPUnit_Framework_TestCase {
@@ -35,8 +35,8 @@ final class ClassUtilityTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetHooks() {
 
-        $classpath = getcwd() . "/Tests/Utility/";
-        $namespace = "WBW\\Library\\Core\\Tests\\Utility\\";
+        $classpath = getcwd() . "/Tests/Utility/Reflection";
+        $namespace = "WBW\\Library\\Core\\Tests\\Utility\\Reflection\\";
 
         $hooks1 = ClassUtility::getHooks($classpath, $namespace);
         foreach ($hooks1 as $current) {

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Core\Utility\Reflection;
 
 use Exception;
 use ReflectionClass;
@@ -23,7 +23,7 @@ use WBW\Library\Core\Utility\IO\FileUtility;
  * Class utility.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Core\Utility\Reflection
  * @final
  */
 final class ClassUtility {
