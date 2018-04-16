@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Node;
 
-use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSortInterface;
+use WBW\Library\Core\Algorithm\Sorting\AlphabeticalTreeSortInterface;
 
 /**
  * Abstract node.

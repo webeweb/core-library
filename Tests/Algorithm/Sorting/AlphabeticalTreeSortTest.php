@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Sort\Tree\Alphabetical;
+namespace WBW\Library\Core\Tests\Algorithm\Sorting;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSort;
-use WBW\Library\Core\Sort\Tree\Alphabetical\AlphabeticalTreeSortInterface;
+use WBW\Library\Core\Algorithm\Sorting\AlphabeticalTreeSort;
+use WBW\Library\Core\Algorithm\Sorting\AlphabeticalTreeSortInterface;
 use WBW\Library\Core\Tests\Fixtures\Node\TestNode;
 
 /**
  * Alphabetical tree sort test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Sort\Tree\Alphabetical
+ * @package WBW\Library\Core\Algorithm\Sorting
  * @final
  */
 final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
