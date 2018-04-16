@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\HTTP;
+namespace WBW\Library\Core\Tests\Exception\IO;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\HTTP\InvalidHTTPMethodException;
+use WBW\Library\Core\Exception\IO\InvalidHTTPMethodException;
 
 /**
  * Invalid HTTP method exception test.
