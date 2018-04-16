@@ -126,8 +126,6 @@ final class AlphabeticalTreeSort {
      */
     public static function removeOrphan(array &$nodes = []) {
 
-        $found = false;
-
         do {
 
             $found = false;
