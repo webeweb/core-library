@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\Directory;
+namespace WBW\Library\Core\Tests\Exception\IO;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\Directory\DirectoryNotFoundException;
+use WBW\Library\Core\Exception\IO\DirectoryNotFoundException;
 
 /**
  * Directory not found exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception\Directory
+ * @package WBW\Library\Core\Tests\Exception\IO
  * @final
  */
 final class DirectoryNotFoundExceptionTest extends PHPUnit_Framework_TestCase {

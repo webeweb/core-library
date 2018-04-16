@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Utility;
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Exception\File\FileNotFoundException;
+use WBW\Library\Core\Exception\IO\FileNotFoundException;
 use WBW\Library\Core\Utility\FileUtility;
 
 /**

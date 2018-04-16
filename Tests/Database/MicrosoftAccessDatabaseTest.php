@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Database;
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Database\MicrosoftAccessDatabase;
-use WBW\Library\Core\Exception\File\FileNotFoundException;
+use WBW\Library\Core\Exception\IO\FileNotFoundException;
 
 /**
  * Microsoft Access database test.

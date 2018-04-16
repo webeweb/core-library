@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\File;
+namespace WBW\Library\Core\Exception\IO;
 
 use Exception;
 use WBW\Library\Core\Exception\AbstractWBWException;
@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * File not found exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\File
+ * @package WBW\Library\Core\Exception\IO
  * @final
  */
 final class FileNotFoundException extends AbstractWBWException {

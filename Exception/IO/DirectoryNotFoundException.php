@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\Directory;
+namespace WBW\Library\Core\Exception\IO;
 
 use Exception;
 use WBW\Library\Core\Exception\AbstractWBWException;
@@ -18,7 +18,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * Directory not found exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\Directory
+ * @package WBW\Library\Core\Exception\IO
  * @final
  */
 final class DirectoryNotFoundException extends AbstractWBWException {

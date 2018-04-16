@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Net;
 
-use WBW\Library\Core\IO\IOException;
+use WBW\Library\Core\Exception\IO\IOException;
 use WBW\Library\Core\Security\Authenticator;
 
 /**

@@ -14,8 +14,7 @@ namespace WBW\Library\Core\Utility;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Exception\Extension\PHP\PHPExtensionNotFoundException;
-use WBW\Library\Core\Exception\File\FileNotFoundException;
+use WBW\Library\Core\Exception\IO\FileNotFoundException;
 use WBW\Library\Core\File\FileSizeInterface;
 use ZipArchive;
 
