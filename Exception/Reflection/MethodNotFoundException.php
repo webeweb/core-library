@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Exception\Reflection;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractWBWException;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * Method not found exception.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * @package WBW\Library\Core\Exception\Reflection
  * @final
  */
-final class MethodNotFoundException extends AbstractWBWException {
+final class MethodNotFoundException extends AbstractCoreException {
 
     /**
      * Constructor.

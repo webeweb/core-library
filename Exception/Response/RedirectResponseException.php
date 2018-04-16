@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Exception\Response;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractWBWException;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * Redirect response exception.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * @package WBW\Library\Core\Exception\Response
  * @final
  */
-final class RedirectResponseException extends AbstractWBWException {
+final class RedirectResponseException extends AbstractCoreException {
 
     /**
      * Arguments.

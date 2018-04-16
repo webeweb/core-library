@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Exception\IO;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractWBWException;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * IO exception.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\IO
  */
-class IOException extends AbstractWBWException {
+class IOException extends AbstractCoreException {
 
     /**
      * Constructor.

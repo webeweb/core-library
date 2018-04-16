@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Exception\Reflection;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractWBWException;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * Syntax error exception.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * @package WBW\Library\Core\Exception\Reflection
  * @final
  */
-final class SyntaxErrorException extends AbstractWBWException {
+final class SyntaxErrorException extends AbstractCoreException {
 
     /**
      * Constructor.

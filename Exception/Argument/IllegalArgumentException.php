@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Exception\Argument;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractWBWException;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * Illegal argument exception.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception
  */
-class IllegalArgumentException extends AbstractWBWException {
+class IllegalArgumentException extends AbstractCoreException {
 
     /**
      * Constructor.

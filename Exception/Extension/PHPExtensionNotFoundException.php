@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Exception\Extension;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractWBWException;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * PHP extension not found exception.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * @package WBW\Library\Core\Exception\Extension
  * @final
  */
-final class PHPExtensionNotFoundException extends AbstractWBWException {
+final class PHPExtensionNotFoundException extends AbstractCoreException {
 
     /**
      * Constructor.

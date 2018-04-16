@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Exception\IO;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractWBWException;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * File not found exception.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\AbstractWBWException;
  * @package WBW\Library\Core\Exception\IO
  * @final
  */
-final class FileNotFoundException extends AbstractWBWException {
+final class FileNotFoundException extends AbstractCoreException {
 
     /**
      * Constructor.

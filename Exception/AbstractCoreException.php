@@ -14,13 +14,13 @@ namespace WBW\Library\Core\Exception;
 use Exception;
 
 /**
- * Abstract WBW exception.
+ * Abstract core exception.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception
  * @abstract
  */
-abstract class AbstractWBWException extends Exception {
+abstract class AbstractCoreException extends Exception {
 
     /**
      * Constructor.
