@@ -130,7 +130,7 @@ final class FormValidator {
      * @deprecated
      */
     public static function isValid($value, $format) {
-        return ArgumentValidator::isValid($value, self::transform($format));
+        return ArgumentValidator::isTypeOf($value, self::transform($format));
     }
 
     /**

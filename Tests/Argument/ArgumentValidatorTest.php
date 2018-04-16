@@ -45,7 +45,7 @@ final class ArgumentValidatorTest extends PHPUnit_Framework_TestCase {
     public function testIsValid() {
 
         try {
-            ArgumentValidator::isValid(null, -1);
+            ArgumentValidator::isTypeOf(null, -1);
         } catch (Exception $ex) {
             $this->assertInstanceOf(IllegalArgumentException::class, $ex);
             $this->assertEquals("The type \"-1\" is not implemented", $ex->getMessage());
@@ -53,90 +53,90 @@ final class ArgumentValidatorTest extends PHPUnit_Framework_TestCase {
 
         $rsc = fopen(getcwd() . "/Tests/Argument/ArgumentValidatorTest.php", "r");
 
-        $this->assertTrue(ArgumentValidator::isValid([], ArgumentInterface::TYPE_ARRAY));
-        $this->assertTrue(ArgumentValidator::isValid(true, ArgumentInterface::TYPE_BOOLEAN));
-        $this->assertTrue(ArgumentValidator::isValid("2017-10-20", ArgumentInterface::TYPE_DATE));
-        $this->assertTrue(ArgumentValidator::isValid(0.1, ArgumentInterface::TYPE_DOUBLE));
-        $this->assertTrue(ArgumentValidator::isValid(1.0, ArgumentInterface::TYPE_FLOAT));
-        $this->assertTrue(ArgumentValidator::isValid(1, ArgumentInterface::TYPE_INTEGER));
-        $this->assertTrue(ArgumentValidator::isValid(2, ArgumentInterface::TYPE_NUMBER));
-        $this->assertTrue(ArgumentValidator::isValid($this, ArgumentInterface::TYPE_OBJECT));
-        $this->assertTrue(ArgumentValidator::isValid($rsc, ArgumentInterface::TYPE_RESOURCE));
-        $this->assertTrue(ArgumentValidator::isValid("", ArgumentInterface::TYPE_STRING));
-        $this->assertTrue(ArgumentValidator::isValid("2017-10-20 15:41:10", ArgumentInterface::TYPE_TIMESTAMP));
+        $this->assertTrue(ArgumentValidator::isTypeOf([], ArgumentInterface::TYPE_ARRAY));
+        $this->assertTrue(ArgumentValidator::isTypeOf(true, ArgumentInterface::TYPE_BOOLEAN));
+        $this->assertTrue(ArgumentValidator::isTypeOf("2017-10-20", ArgumentInterface::TYPE_DATE));
+        $this->assertTrue(ArgumentValidator::isTypeOf(0.1, ArgumentInterface::TYPE_DOUBLE));
+        $this->assertTrue(ArgumentValidator::isTypeOf(1.0, ArgumentInterface::TYPE_FLOAT));
+        $this->assertTrue(ArgumentValidator::isTypeOf(1, ArgumentInterface::TYPE_INTEGER));
+        $this->assertTrue(ArgumentValidator::isTypeOf(2, ArgumentInterface::TYPE_NUMBER));
+        $this->assertTrue(ArgumentValidator::isTypeOf($this, ArgumentInterface::TYPE_OBJECT));
+        $this->assertTrue(ArgumentValidator::isTypeOf($rsc, ArgumentInterface::TYPE_RESOURCE));
+        $this->assertTrue(ArgumentValidator::isTypeOf("", ArgumentInterface::TYPE_STRING));
+        $this->assertTrue(ArgumentValidator::isTypeOf("2017-10-20 15:41:10", ArgumentInterface::TYPE_TIMESTAMP));
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_ARRAY);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_ARRAY);
         } catch (Exception $ex) {
             $this->assertInstanceOf(ArrayArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not an array", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_BOOLEAN);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_BOOLEAN);
         } catch (Exception $ex) {
             $this->assertInstanceOf(BooleanArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not a boolean", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_DATE);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_DATE);
         } catch (Exception $ex) {
             $this->assertInstanceOf(DateArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not a date", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_DOUBLE);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_DOUBLE);
         } catch (Exception $ex) {
             $this->assertInstanceOf(DoubleArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not a double", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_FLOAT);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_FLOAT);
         } catch (Exception $ex) {
             $this->assertInstanceOf(FloatArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not a float", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_INTEGER);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_INTEGER);
         } catch (Exception $ex) {
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not an integer", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_NUMBER);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_NUMBER);
         } catch (Exception $ex) {
             $this->assertInstanceOf(NumberArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not a number", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_OBJECT);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_OBJECT);
         } catch (Exception $ex) {
             $this->assertInstanceOf(ObjectArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not an object", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_RESOURCE);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_RESOURCE);
         } catch (Exception $ex) {
             $this->assertInstanceOf(ResourceArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not a resource", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_STRING);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_STRING);
         } catch (Exception $ex) {
             $this->assertInstanceOf(StringArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not a string", $ex->getMessage());
         }
 
         try {
-            ArgumentValidator::isValid(null, ArgumentInterface::TYPE_TIMESTAMP);
+            ArgumentValidator::isTypeOf(null, ArgumentInterface::TYPE_TIMESTAMP);
         } catch (Exception $ex) {
             $this->assertInstanceOf(TimestampArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not a timestamp", $ex->getMessage());
