@@ -17,6 +17,7 @@ use ReflectionException;
 use WBW\Library\Core\Exception\Hook\HookClassNotFoundException;
 use WBW\Library\Core\Exception\Hook\HookMethodNotFoundException;
 use WBW\Library\Core\Exception\Hook\HookSyntaxErrorException;
+use WBW\Library\Core\Utility\IO\FileUtility;
 
 /**
  * Hook utility.

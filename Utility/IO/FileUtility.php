@@ -9,23 +9,23 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Core\Utility\IO;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
-use WBW\Library\Core\File\FileSizeInterface;
+use WBW\Library\Core\IO\FileInterface;
 use ZipArchive;
 
 /**
  * File utility.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Core\Utility\IO
  * @final
  */
-final class FileUtility implements FileSizeInterface {
+final class FileUtility implements FileInterface {
 
     /**
      * Delete a file.

@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Core\Tests\Utility\IO;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
-use WBW\Library\Core\Utility\FileUtility;
+use WBW\Library\Core\Utility\IO\FileUtility;
 
 /**
  * File utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Core\Tests\Utility\IO
  * @final
  */
 final class FileUtilityTest extends PHPUnit_Framework_TestCase {
@@ -120,7 +120,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetContents() {
 
-        $filename = getcwd() . "/Tests/Utility/FileUtilityTest.txt";
+        $filename = getcwd() . "/Tests/Utility/IO/FileUtilityTest.txt";
 
         $this->assertEquals("FileUtilityTest", FileUtility::getContents($filename), 'The method getContents() does not return the expected content');
 
@@ -139,7 +139,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetFilenames() {
 
-        $pathname = getcwd() . "/Tests/Utility";
+        $pathname = getcwd() . "/Tests/Utility/IO";
 
         $this->assertContains("FileUtilityTest.php", FileUtility::getFilenames($pathname));
         $this->assertContains("FileUtilityTest.txt", FileUtility::getFilenames($pathname, ".txt"));
@@ -159,7 +159,7 @@ final class FileUtilityTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetSize() {
 
-        $this->assertEquals(15, FileUtility::getSize(getcwd() . "/Tests/Utility/FileUtilityTest.txt"));
+        $this->assertEquals(15, FileUtility::getSize(getcwd() . "/Tests/Utility/IO/FileUtilityTest.txt"));
 
         try {
             FileUtility::getSize("exception");

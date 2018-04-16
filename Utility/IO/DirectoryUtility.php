@@ -9,13 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Core\Utility\IO;
+
+use WBW\Library\Core\Exception\IO\FileNotFoundException;
 
 /**
  * Directory utility.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Core\Utility\IO
  * @final
  */
 final class DirectoryUtility {

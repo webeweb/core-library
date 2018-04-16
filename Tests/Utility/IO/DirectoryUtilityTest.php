@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Core\Tests\Utility\IO;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
-use WBW\Library\Core\Utility\DirectoryUtility;
+use WBW\Library\Core\Utility\IO\DirectoryUtility;
 
 /**
  * Directory utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Core\Tests\Utility\IO
  * @final
  */
 final class DirectoryUtilityTest extends PHPUnit_Framework_TestCase {
