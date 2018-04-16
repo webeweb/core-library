@@ -35,7 +35,7 @@ final class ArgumentConverter implements ArgumentInterface {
      *
      * @param string $value The string value.
      * @param integer $type The type.
-     * @param string $type The type.
+     * @param string $dateFormat The date format.
      * @return mixed Returns the value.
      * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
      * @throws NullPointerException Throws a null pointer exception if the type is date and the date format is null.
