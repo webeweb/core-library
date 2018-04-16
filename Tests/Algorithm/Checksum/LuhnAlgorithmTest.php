@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Algorithm;
+namespace WBW\Library\Core\Tests\Algorithm\Checksum;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Algorithm\LuhnAlgorithm;
+use WBW\Library\Core\Algorithm\Checksum\LuhnAlgorithm;
 
 /**
  * Luhn algorithm test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Algorithm
+ * @package WBW\Library\Core\Tests\Algorithm\Checksum
  * @final
  */
 final class LuhnAlgorithmTest extends PHPUnit_Framework_TestCase {
