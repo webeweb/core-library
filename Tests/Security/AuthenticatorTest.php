@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Net;
+namespace WBW\Library\Core\Tests\Security;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Net\Authenticator;
-use WBW\Library\Core\Net\PasswordAuthentication;
+use WBW\Library\Core\Security\Authenticator;
+use WBW\Library\Core\Security\PasswordAuthentication;
 
 /**
  * Authenticator test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Net
+ * @package WBW\Library\Core\Tests\Security
  * @final
  */
 final class AuthenticatorTest extends PHPUnit_Framework_TestCase {

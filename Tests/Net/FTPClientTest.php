@@ -14,9 +14,9 @@ namespace WBW\Library\Core\Tests\Net;
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\IO\IOException;
-use WBW\Library\Core\Net\Authenticator;
 use WBW\Library\Core\Net\FTPClient;
-use WBW\Library\Core\Net\PasswordAuthentication;
+use WBW\Library\Core\Security\Authenticator;
+use WBW\Library\Core\Security\PasswordAuthentication;
 
 /**
  * FTP client test.

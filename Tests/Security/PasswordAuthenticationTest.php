@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Net;
+namespace WBW\Library\Core\Tests\Security;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Net\PasswordAuthentication;
+use WBW\Library\Core\Security\PasswordAuthentication;
 
 /**
  * Password authentication test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Net
+ * @package WBW\Library\Core\Tests\Security
  * @final
  */
 final class PasswordAuthenticationTest extends PHPUnit_Framework_TestCase {

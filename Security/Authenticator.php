@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Net;
+namespace WBW\Library\Core\Security;
 
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 
@@ -17,7 +17,7 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
  * Authenticator.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Net
+ * @package WBW\Library\Core\Security
  */
 class Authenticator {
 
