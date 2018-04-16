@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Core\Tests\Utility\Argument;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
-use WBW\Library\Core\Utility\IntegerUtility;
+use WBW\Library\Core\Utility\Argument\IntegerUtility;
 
 /**
  * Integer utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Core\Tests\Utility\Argument
  * @final
  */
 final class IntegerUtilityTest extends PHPUnit_Framework_TestCase {

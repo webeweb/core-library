@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Core\Utility\Argument;
 
 use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
 
@@ -17,7 +17,7 @@ use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
  * Integer utility.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Core\Utility\Argument
  * @final
  */
 final class IntegerUtility {

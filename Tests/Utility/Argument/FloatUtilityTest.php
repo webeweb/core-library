@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Core\Tests\Utility\Argument;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\FloatArgumentException;
-use WBW\Library\Core\Utility\FloatUtility;
+use WBW\Library\Core\Utility\Argument\FloatUtility;
 
 /**
  * Float utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Core\Tests\Utility\Argument
  * @final
  */
 final class FloatUtilityTest extends PHPUnit_Framework_TestCase {

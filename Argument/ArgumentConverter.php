@@ -16,10 +16,10 @@ use WBW\Library\Core\Exception\Argument\DateArgumentException;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
-use WBW\Library\Core\Utility\BooleanUtility;
-use WBW\Library\Core\Utility\DoubleUtility;
-use WBW\Library\Core\Utility\FloatUtility;
-use WBW\Library\Core\Utility\IntegerUtility;
+use WBW\Library\Core\Utility\Argument\BooleanUtility;
+use WBW\Library\Core\Utility\Argument\DoubleUtility;
+use WBW\Library\Core\Utility\Argument\FloatUtility;
+use WBW\Library\Core\Utility\Argument\IntegerUtility;
 
 /**
  * Argument converter.

@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Utility;
 
+use WBW\Library\Core\Utility\Argument\StringUtility;
+
 /**
  * Date utility.
  *
