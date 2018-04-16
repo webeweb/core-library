@@ -9,28 +9,28 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\Hook;
+namespace WBW\Library\Core\Exception\Reflection;
 
 use Exception;
 use WBW\Library\Core\Exception\AbstractWBWException;
 
 /**
- * Hook class not found exception.
+ * Method not found exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\Hook
+ * @package WBW\Library\Core\Exception\Reflection
  * @final
  */
-final class HookClassNotFoundException extends AbstractWBWException {
+final class MethodNotFoundException extends AbstractWBWException {
 
     /**
      * Constructor.
      *
-     * @param string $classname The classname.
+     * @param string $method The method.
      * @param Exception $previous The previous exception.
      */
-    public function __construct($classname, Exception $previous = null) {
-        parent::__construct(sprintf("The hook class \"%s\" is not found", $classname), $previous);
+    public function __construct($method, Exception $previous = null) {
+        parent::__construct("The method \"" . $method . "\" is not found", $previous);
     }
 
 }

@@ -9,28 +9,30 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\Hook;
+namespace WBW\Library\Core\Tests\Exception\Reflection;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\Hook\HookSyntaxErrorException;
+use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
 
 /**
- * Hook syntax error exception test.
+ * Class not found exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception\Hook
+ * @package WBW\Library\Core\Tests\Exception\Reflection
  * @final
  */
-final class HookSyntaxErrorExceptionTest extends PHPUnit_Framework_TestCase {
+final class ClassNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 
     /**
      * Tests the __construct() method.
+     *
+     * @return void
      */
     public function testConstruct() {
 
-        $ex = new HookSyntaxErrorException("exception");
+        $ex = new ClassNotFoundException("exception");
 
-        $res = "The hook file \"exception\" contains syntax errors";
+        $res = "The class \"exception\" is not found";
         $this->assertEquals($res, $ex->getMessage());
     }
 

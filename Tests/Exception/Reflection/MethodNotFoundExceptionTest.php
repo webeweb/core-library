@@ -9,28 +9,30 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\Hook;
+namespace WBW\Library\Core\Tests\Exception\Reflection;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\Hook\HookMethodNotFoundException;
+use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
 
 /**
- * Hook method not found exception test.
+ * Method not found exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception\Hook
+ * @package WBW\Library\Core\Tests\Exception\Reflection
  * @final
  */
-final class HookMethodNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
+final class MethodNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
 
     /**
      * Tests the __construct() method.
+     *
+     * @return void
      */
     public function testConstruct() {
 
-        $ex = new HookMethodNotFoundException("exception");
+        $ex = new MethodNotFoundException("exception");
 
-        $res = "The hook method \"exception\" is not found";
+        $res = "The method \"exception\" is not found";
         $this->assertEquals($res, $ex->getMessage());
     }
 

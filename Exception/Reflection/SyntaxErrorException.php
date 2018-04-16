@@ -9,28 +9,28 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\Hook;
+namespace WBW\Library\Core\Exception\Reflection;
 
 use Exception;
 use WBW\Library\Core\Exception\AbstractWBWException;
 
 /**
- * Hook method not found exception.
+ * Syntax error exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\Hook
+ * @package WBW\Library\Core\Exception\Reflection
  * @final
  */
-final class HookMethodNotFoundException extends AbstractWBWException {
+final class SyntaxErrorException extends AbstractWBWException {
 
     /**
      * Constructor.
      *
-     * @param string $method The method.
+     * @param string $filename The filename.
      * @param Exception $previous The previous exception.
      */
-    public function __construct($method, Exception $previous = null) {
-        parent::__construct("The hook method \"" . $method . "\" is not found", $previous);
+    public function __construct($filename, Exception $previous = null) {
+        parent::__construct("The file \"" . $filename . "\" contains syntax errors", $previous);
     }
 
 }
