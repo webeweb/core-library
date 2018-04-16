@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Choices;
+namespace WBW\Library\Core\Model\Choices;
 
 /**
  * Marital status choices.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Choices
+ * @package WBW\Library\Core\Model\Choices
  * @final
  */
 final class MaritalStatusChoices implements MaritalStatusChoicesInterface {

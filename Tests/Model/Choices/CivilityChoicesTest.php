@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Choices;
+namespace WBW\Library\Core\Tests\Model\Choices;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Choices\CivilityChoices;
+use WBW\Library\Core\Model\Choices\CivilityChoices;
 
 /**
  * Civility choices test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Choices
+ * @package WBW\Library\Core\Model\Choices
  * @final
  */
 final class CivilityChoicesTest extends PHPUnit_Framework_TestCase {

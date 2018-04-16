@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Choices;
+namespace WBW\Library\Core\Tests\Model\Choices;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Choices\MaritalStatusChoices;
+use WBW\Library\Core\Model\Choices\MaritalStatusChoices;
 
 /**
  * Marital status choices test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Choices
+ * @package WBW\Library\Core\Model\Choices
  * @final
  */
 final class MaritalStatusChoicesTest extends PHPUnit_Framework_TestCase {
