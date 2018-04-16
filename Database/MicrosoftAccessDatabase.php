@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database\Microsoft;
+namespace WBW\Library\Core\Database;
 
 use PDO;
 use WBW\Library\Core\Database\AbstractDatabase;
@@ -20,7 +20,7 @@ use WBW\Library\Core\Utility\StringUtility;
  * Microsoft Access database.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database\Microsoft
+ * @package WBW\Library\Core\Database
  * @final
  */
 final class MicrosoftAccessDatabase extends AbstractDatabase {

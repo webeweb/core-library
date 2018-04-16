@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Database\Microsoft;
+namespace WBW\Library\Core\Tests\Database;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Database\Microsoft\MicrosoftAccessDatabase;
+use WBW\Library\Core\Database\MicrosoftAccessDatabase;
 use WBW\Library\Core\Exception\File\FileNotFoundException;
 
 /**
  * Microsoft Access database test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Database\Microsoft
+ * @package WBW\Library\Core\Tests\Database
  * @final
  */
 final class MicrosoftAccessDatabaseTest extends PHPUnit_Framework_TestCase {
