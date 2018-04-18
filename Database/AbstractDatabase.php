@@ -3,7 +3,7 @@
 /**
  * This file is part of the core-library package.
  *
- * (c) 2018 NdC/WBW
+ * (c) 2018 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,6 +13,7 @@ namespace WBW\Library\Core\Database;
 
 use Exception;
 use PDO;
+use WBW\Library\Core\Security\Authenticator;
 
 /**
  * Abstract database.
@@ -21,6 +22,13 @@ use PDO;
  * @package WBW\Library\Core\Database
  */
 abstract class AbstractDatabase {
+
+    /**
+     * Authenticator.
+     *
+     * @var Authenticator
+     */
+    private $authenticator;
 
     /**
      * Connection.
@@ -37,24 +45,10 @@ abstract class AbstractDatabase {
     private $database;
 
     /**
-     * Password.
-     *
-     * @var string
-     */
-    private $password;
-
-    /**
-     * Username.
-     *
-     * @var string
-     */
-    private $username;
-
-    /**
      * Constructor.
      */
-    protected function __construct() {
-        // NOTHING TO DO.
+    protected function __construct(Authenticator $authenticator) {
+        $this->authenticator = $authenticator;
     }
 
     /**
@@ -64,6 +58,15 @@ abstract class AbstractDatabase {
      * @throws Exception Throws an exception if the connection failed.
      */
     abstract protected function connect();
+
+    /**
+     * Get the authenticator.
+     *
+     * @return Authenticator Returns the authenticator.
+     */
+    final public function getAuthenticator() {
+        return $this->authenticator;
+    }
 
     /**
      * Get the connection.
@@ -85,24 +88,6 @@ abstract class AbstractDatabase {
      */
     final public function getDatabase() {
         return $this->database;
-    }
-
-    /**
-     * Get the paswword.
-     *
-     * @return string Returns the password.
-     */
-    final public function getPassword() {
-        return $this->password;
-    }
-
-    /**
-     * Get the username.
-     *
-     * @return string Returns the username.
-     */
-    final public function getUsername() {
-        return $this->username;
     }
 
     /**
@@ -171,35 +156,24 @@ abstract class AbstractDatabase {
     }
 
     /**
+     * Set the authenticator.
+     *
+     * @param Authenticator $authenticator The authenticator.
+     * @return AbstractDatabase Returns this abstract database.
+     */
+    final public function setAuthenticator(Authenticator $authenticator) {
+        $this->authenticator = $authenticator;
+        return $this;
+    }
+
+    /**
      * Set the database.
      *
      * @param string $database The database.
-     * @return AbstractDatabase Returns the database.
+     * @return AbstractDatabase Returns this abstract database.
      */
     final public function setDatabase($database) {
         $this->database = $database;
-        return $this;
-    }
-
-    /**
-     * Set the password.
-     *
-     * @param string $password The password.
-     * @return AbstractDatabase Returns the database.
-     */
-    final public function setPassword($password) {
-        $this->password = $password;
-        return $this;
-    }
-
-    /**
-     * Set the username.
-     *
-     * @param string $username The username.
-     * @return AbstractDatabase Returns the database.
-     */
-    final public function setUsername($username) {
-        $this->username = $username;
         return $this;
     }
 
