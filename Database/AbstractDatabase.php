@@ -91,24 +91,6 @@ abstract class AbstractDatabase {
     }
 
     /**
-     * Get a pages count.
-     *
-     * @param integer $rowNumber The row number.
-     * @param integer $rowDivider The row divider.
-     * @return integer Returns the pages count.
-     */
-    public static function getPagesCount($rowNumber, $rowDivider) {
-        if ($rowNumber < 0 || $rowDivider < 0) {
-            return -1;
-        }
-        $pagesCount = intval($rowNumber / $rowDivider);
-        if (0 < ($rowNumber % $rowDivider)) {
-            ++$pagesCount;
-        }
-        return $pagesCount;
-    }
-
-    /**
      * Prepare a binding.
      *
      * @param array $fields The fields.

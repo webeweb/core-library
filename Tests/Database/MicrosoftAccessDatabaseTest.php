@@ -55,22 +55,6 @@ final class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
     }
 
     /**
-     * Tests the getPagesCount() method.
-     *
-     * @return void
-     */
-    public function testGetPagesCount() {
-
-        $this->assertEquals(-1, MicrosoftAccessDatabase::getPagesCount(-1, 300));
-        $this->assertEquals(-1, MicrosoftAccessDatabase::getPagesCount(0, -1));
-        $this->assertEquals(-1, MicrosoftAccessDatabase::getPagesCount(-1, -1));
-        $this->assertEquals(0, MicrosoftAccessDatabase::getPagesCount(0, 300));
-        $this->assertEquals(1, MicrosoftAccessDatabase::getPagesCount(1, 300));
-        $this->assertEquals(1, MicrosoftAccessDatabase::getPagesCount(300, 300));
-        $this->assertEquals(2, MicrosoftAccessDatabase::getPagesCount(301, 300));
-    }
-
-    /**
      * Tests the prepareBinding() method.
      *
      * @return void
