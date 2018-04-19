@@ -26,6 +26,45 @@ use WBW\Library\Core\Utility\Argument\IntegerUtility;
 final class IntegerUtilityTest extends PHPUnit_Framework_TestCase {
 
     /**
+     * Tests the getLinesOffset() method.
+     *
+     * @return void
+     */
+    public function testGetLinesLimit() {
+
+        $this->assertEquals(-1, IntegerUtility::getLinesLimit(-1, 300));
+        $this->assertEquals(-1, IntegerUtility::getLinesLimit(0, -1));
+        $this->assertEquals(-1, IntegerUtility::getLinesLimit(-1, -1));
+
+        $this->assertEquals([0, 300], IntegerUtility::getLinesLimit(0, 300));
+        $this->assertEquals([300, 300], IntegerUtility::getLinesLimit(1, 300));
+        $this->assertEquals([90000, 300], IntegerUtility::getLinesLimit(300, 300));
+        $this->assertEquals([90300, 300], IntegerUtility::getLinesLimit(301, 300));
+
+        $this->assertEquals([0, 255], IntegerUtility::getLinesLimit(0, 300, 255));
+        $this->assertEquals([300, 255], IntegerUtility::getLinesLimit(1, 300, 555));
+        $this->assertEquals([90000, 255], IntegerUtility::getLinesLimit(300, 300, 90255));
+        $this->assertEquals([90300, 255], IntegerUtility::getLinesLimit(301, 300, 90555));
+    }
+
+    /**
+     * Tests the getPagesCount() method.
+     *
+     * @return void
+     */
+    public function testGetPagesCount() {
+
+        $this->assertEquals(-1, IntegerUtility::getPagesCount(-1, 300));
+        $this->assertEquals(-1, IntegerUtility::getPagesCount(0, -1));
+        $this->assertEquals(-1, IntegerUtility::getPagesCount(-1, -1));
+
+        $this->assertEquals(0, IntegerUtility::getPagesCount(0, 300));
+        $this->assertEquals(1, IntegerUtility::getPagesCount(1, 300));
+        $this->assertEquals(1, IntegerUtility::getPagesCount(300, 300));
+        $this->assertEquals(2, IntegerUtility::getPagesCount(301, 300));
+    }
+
+    /**
      * Tests the parseBoolean() method.
      *
      * @return void
