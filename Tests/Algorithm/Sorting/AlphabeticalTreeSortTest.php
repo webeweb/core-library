@@ -73,15 +73,15 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
 
         $res = AlphabeticalTreeSort::createChoices($this->nodes);
         $this->assertCount(3, $res["id01"]);
-        $this->assertEquals($this->nodes[7], $res["id01"][0]);
-        $this->assertEquals($this->nodes[8], $res["id01"][1]);
-        $this->assertEquals($this->nodes[9], $res["id01"][2]);
+        $this->assertSame($this->nodes[7], $res["id01"][0]);
+        $this->assertSame($this->nodes[8], $res["id01"][1]);
+        $this->assertSame($this->nodes[9], $res["id01"][2]);
         $this->assertCount(5, $res["id02"]);
-        $this->assertEquals($this->nodes[4], $res["id02"][0]);
-        $this->assertEquals($this->nodes[2], $res["id02"][1]);
-        $this->assertEquals($this->nodes[3], $res["id02"][2]);
-        $this->assertEquals($this->nodes[5], $res["id02"][3]);
-        $this->assertEquals($this->nodes[6], $res["id02"][4]);
+        $this->assertSame($this->nodes[4], $res["id02"][0]);
+        $this->assertSame($this->nodes[2], $res["id02"][1]);
+        $this->assertSame($this->nodes[3], $res["id02"][2]);
+        $this->assertSame($this->nodes[5], $res["id02"][3]);
+        $this->assertSame($this->nodes[6], $res["id02"][4]);
     }
 
     /**
@@ -128,16 +128,16 @@ final class AlphabeticalTreeSortTest extends PHPUnit_Framework_TestCase {
     public function testSort() {
 
         $res = AlphabeticalTreeSort::sort(array_values($this->nodes));
-        $this->assertEquals($this->nodes[0]->getAlphabeticalTreeSortLabel(), $res[0]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[7]->getAlphabeticalTreeSortLabel(), $res[1]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[8]->getAlphabeticalTreeSortLabel(), $res[2]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[9]->getAlphabeticalTreeSortLabel(), $res[3]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[1]->getAlphabeticalTreeSortLabel(), $res[4]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[4]->getAlphabeticalTreeSortLabel(), $res[5]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[2]->getAlphabeticalTreeSortLabel(), $res[6]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[3]->getAlphabeticalTreeSortLabel(), $res[7]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[5]->getAlphabeticalTreeSortLabel(), $res[8]->getAlphabeticalTreeSortLabel());
-        $this->assertEquals($this->nodes[6]->getAlphabeticalTreeSortLabel(), $res[9]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[0]->getAlphabeticalTreeSortLabel(), $res[0]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[7]->getAlphabeticalTreeSortLabel(), $res[1]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[8]->getAlphabeticalTreeSortLabel(), $res[2]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[9]->getAlphabeticalTreeSortLabel(), $res[3]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[1]->getAlphabeticalTreeSortLabel(), $res[4]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[4]->getAlphabeticalTreeSortLabel(), $res[5]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[2]->getAlphabeticalTreeSortLabel(), $res[6]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[3]->getAlphabeticalTreeSortLabel(), $res[7]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[5]->getAlphabeticalTreeSortLabel(), $res[8]->getAlphabeticalTreeSortLabel());
+        $this->assertSame($this->nodes[6]->getAlphabeticalTreeSortLabel(), $res[9]->getAlphabeticalTreeSortLabel());
     }
 
 }

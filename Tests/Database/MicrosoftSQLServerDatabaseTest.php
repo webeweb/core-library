@@ -33,7 +33,7 @@ final class MicrosoftSQLServerDatabaseTest extends AbstractDatabaseTest {
 
         $obj = new MicrosoftSQLServerDatabase($this->authenticator, null);
 
-        $this->assertEquals($this->authenticator, $obj->getAuthenticator());
+        $this->assertSame($this->authenticator, $obj->getAuthenticator());
         $this->assertNull($obj->getDatabase());
     }
 

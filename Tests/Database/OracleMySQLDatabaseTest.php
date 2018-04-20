@@ -33,7 +33,7 @@ final class OracleMySQLDatabaseTest extends AbstractDatabaseTest {
 
         $obj = new OracleMySQLDatabase($this->authenticator, null);
 
-        $this->assertEquals($this->authenticator, $obj->getAuthenticator());
+        $this->assertSame($this->authenticator, $obj->getAuthenticator());
         $this->assertNull($obj->getDatabase());
     }
 

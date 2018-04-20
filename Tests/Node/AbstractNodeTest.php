@@ -82,7 +82,7 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
         $add = new TestNode("id2");
 
         $obj->addNode($add);
-        $this->assertEquals($add, $obj->getFirstNode());
+        $this->assertSame($add, $obj->getFirstNode());
     }
 
     /**
@@ -96,7 +96,7 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
         $add = new TestNode("id2");
 
         $obj->addNode($add);
-        $this->assertEquals($add, $obj->getLastNode());
+        $this->assertSame($add, $obj->getLastNode());
     }
 
     /**
@@ -111,7 +111,7 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
 
         $obj->addNode($add);
         $this->assertNull($obj->getNodeAt(-1));
-        $this->assertEquals($add, $obj->getNodeAt(0));
+        $this->assertSame($add, $obj->getNodeAt(0));
         $this->assertNull($obj->getNodeAt(1));
     }
 
@@ -129,9 +129,9 @@ final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
         $obj->addNode($add1);
         $add1->addNode($add2);
         $this->assertNull($obj->getNodeById("exception"));
-        $this->assertEquals($add1, $obj->getNodeById("id2"));
+        $this->assertSame($add1, $obj->getNodeById("id2"));
         $this->assertNull($obj->getNodeById("id3"));
-        $this->assertEquals($add2, $obj->getNodeById("id3", true));
+        $this->assertSame($add2, $obj->getNodeById("id3", true));
     }
 
     /**

@@ -52,7 +52,7 @@ final class AuthenticatorTest extends PHPUnit_Framework_TestCase {
         $obj = new Authenticator(null, $this->passwordAuthentication);
 
         $this->assertNull($obj->getHost());
-        $this->assertEquals($this->passwordAuthentication, $obj->getPasswordAuthentication());
+        $this->assertSame($this->passwordAuthentication, $obj->getPasswordAuthentication());
         $this->assertNull($obj->getPort());
         $this->assertNull($obj->getScheme());
     }

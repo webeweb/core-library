@@ -41,8 +41,8 @@ final class ClassUtilityTest extends PHPUnit_Framework_TestCase {
         $hooks1 = ClassUtility::getHooks($classpath, $namespace);
         foreach ($hooks1 as $current) {
 
-            $this->assertEquals($classpath, $current["classpath"]);
-            $this->assertEquals($namespace, $current["namespace"]);
+            $this->assertSame($classpath, $current["classpath"]);
+            $this->assertSame($namespace, $current["namespace"]);
             $this->assertStringEndsWith(".php", $current["filename"]);
             $this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
             $this->assertNull($current["method"], "The method getHooks() does not return the expected value");
@@ -55,8 +55,8 @@ final class ClassUtilityTest extends PHPUnit_Framework_TestCase {
         $this->assertCount(1, $hooks3);
         foreach ($hooks3 as $current) {
 
-            $this->assertEquals($classpath, $current["classpath"]);
-            $this->assertEquals($namespace, $current["namespace"]);
+            $this->assertSame($classpath, $current["classpath"]);
+            $this->assertSame($namespace, $current["namespace"]);
             $this->assertEquals("ClassUtilityTest.php", $current["filename"]);
             $this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
             $this->assertNull($current["method"], "The method getHooks() does not return the expected value");
@@ -69,8 +69,8 @@ final class ClassUtilityTest extends PHPUnit_Framework_TestCase {
         $this->assertCount(1, $hooks5);
         foreach ($hooks5 as $current) {
 
-            $this->assertEquals($classpath, $current["classpath"]);
-            $this->assertEquals($namespace, $current["namespace"]);
+            $this->assertSame($classpath, $current["classpath"]);
+            $this->assertSame($namespace, $current["namespace"]);
             $this->assertEquals("ClassUtilityTest.php", $current["filename"]);
             $this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
             $this->assertNull($current["method"], "The method getHooks() does not return the expected value");
@@ -80,8 +80,8 @@ final class ClassUtilityTest extends PHPUnit_Framework_TestCase {
         $this->assertCount(1, $hooks6);
         foreach ($hooks6 as $current) {
 
-            $this->assertEquals($classpath, $current["classpath"]);
-            $this->assertEquals($namespace, $current["namespace"]);
+            $this->assertSame($classpath, $current["classpath"]);
+            $this->assertSame($namespace, $current["namespace"]);
             $this->assertEquals("ClassUtilityTest.php", $current["filename"]);
             $this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
             $this->assertContainsOnlyInstancesOf(ReflectionMethod::class, [$current["method"]]);
