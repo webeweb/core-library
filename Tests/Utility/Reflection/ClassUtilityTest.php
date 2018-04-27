@@ -96,6 +96,23 @@ final class ClassUtilityTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the getName() method.
+     *
+     * @return void
+     */
+    public function testGetName() {
+
+        try {
+            ClassUtility::getName("classnotfound");
+        } catch (Exception $ex) {
+            $this->assertInstanceOf(ReflectionException::class, $ex);
+            $this->assertEquals("Class classnotfound does not exist", $ex->getMessage());
+        }
+
+        $this->assertEquals("WBW\Library\Core\Tests\Utility\Reflection\ClassUtilityTest", ClassUtility::getName($this));
+    }
+
+    /**
      * Tests the getShortName() method.
      *
      * @return void

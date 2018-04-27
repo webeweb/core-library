@@ -106,13 +106,23 @@ final class ClassUtility {
     }
 
     /**
+     * Get the class name.
+     *
+     * @param mixed $object The class name or object.
+     * @return string Returns the class name.
+     */
+    public static function getName($object) {
+        return (new ReflectionClass($object))->getName();
+    }
+
+    /**
      * Get the short class name.
      *
-     * @param mixed $classname The class name or object.
+     * @param mixed $object The class name or object.
      * @return string Returns the short class name.
      */
-    public static function getShortName($classname) {
-        return (new ReflectionClass($classname))->getShortName();
+    public static function getShortName($object) {
+        return (new ReflectionClass($object))->getShortName();
     }
 
 }
