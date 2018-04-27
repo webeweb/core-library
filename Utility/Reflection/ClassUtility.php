@@ -110,6 +110,7 @@ final class ClassUtility {
      *
      * @param mixed $object The class name or object.
      * @return string Returns the class name.
+     * @throws ReflectionException Throws a Reflection exception if an error occurs.
      */
     public static function getName($object) {
         return (new ReflectionClass($object))->getName();
@@ -120,6 +121,7 @@ final class ClassUtility {
      *
      * @param mixed $object The class name or object.
      * @return string Returns the short class name.
+     * @throws ReflectionException Throws a Reflection exception if an error occurs.
      */
     public static function getShortName($object) {
         return (new ReflectionClass($object))->getShortName();
