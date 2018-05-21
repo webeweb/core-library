@@ -11,8 +11,10 @@
 
 namespace WBW\Library\Core\Database;
 
+use DateTime;
 use Exception;
 use PDO;
+use WBW\Library\Core\Exception\IO\FileNotFoundException;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
@@ -58,6 +60,59 @@ abstract class AbstractDatabase {
      * @throws Exception Throws an exception if the connection failed.
      */
     abstract protected function connect();
+
+    /**
+     * Execute a script.
+     *
+     * @param string $scriptname The script name.
+     * @param boolean $output Output ?
+     * @return array Returns an array with success, failed and total queries.
+     * @throws FileNotFoundException Throws a file not found exception if the script name does not exists.
+     */
+    final public function executeScript($scriptname, $output = false) {
+
+        // Initialize the pathname.
+        $pathname = realpath($scriptname);
+
+        // Check the pathname.
+        if (false === file_exists($pathname)) {
+            throw new FileNotFoundException($pathname);
+        }
+
+        // Initialize the output.
+        $success = 0;
+        $failed  = 0;
+        $total   = 0;
+
+        // Open the pathname.
+        $stream = fopen($pathname);
+
+        // Handle each query.
+        while (false === feof($stream)) {
+
+            // Read the query.
+            $query = fegts($stream);
+
+            // Prepare and execute the statement.
+            $stmt   = $this->connection->prepare($query);
+            $result = $stmt->execute();
+
+            // Increase.
+            ++$total;
+            true === $result ? ++$success : ++$failed;
+
+            // Check the output.
+            if (true === $output) {
+                echo "[" . (new DateTime())->format("Y-m-d H:i:s.u") . "] " . (true === $result ? "OK" : "KO") . " " . $query . "\n";
+            }
+        }
+
+        // Close the pathname.
+        fclose($pathname);
+
+        // Return.
+        return [$success, $failed, $total];
+    }
 
     /**
      * Get the authenticator.
