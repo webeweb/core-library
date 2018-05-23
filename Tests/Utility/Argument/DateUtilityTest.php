@@ -87,6 +87,12 @@ final class DateUtilityTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2018-05-15"), new DateTime("2018-05-01"), 5, 5));
         $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2018-05-22"), new DateTime("2018-05-01"), 5, 5));
         $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2018-05-29"), new DateTime("2018-05-01"), 5, 5));
+
+        $this->assertEquals(1, DateUtility::getWeekNumberToApply(new DateTime("2022-05-01"), new DateTime("2018-05-01"), 5, 1));
+        $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2022-05-08"), new DateTime("2018-05-01"), 5, 1));
+        $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2022-05-15"), new DateTime("2018-05-01"), 5, 1));
+        $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2022-05-22"), new DateTime("2018-05-01"), 5, 1));
+        $this->assertEquals(5, DateUtility::getWeekNumberToApply(new DateTime("2022-05-29"), new DateTime("2018-05-01"), 5, 1));
     }
 
     /**

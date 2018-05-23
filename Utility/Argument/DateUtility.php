@@ -43,6 +43,10 @@ final class DateUtility implements DateUtilityInterface {
         return intval($date->format("W"));
     }
 
+    public static function getYearNumber(DateTime $date) {
+        return intval($date->format("Y"));
+    }
+
     /**
      * Get a week number to apply with a schedule.
      *
@@ -68,14 +72,25 @@ final class DateUtility implements DateUtilityInterface {
      * @return integer Returns the week number to apply between 1 and $weekCount.
      */
     public static function getWeekNumberToApply(DateTime $date, DateTime $startDate, $weekCount, $weekNumber) {
+
+        // Check the date arguments.
+        if ($date < $startDate) {
+            return -1;
+        }
+
+        // Check the week arguments.
         if ($weekCount <= 0 || $weekNumber <= 0 || $weekCount < $weekNumber) {
             return -1;
         }
-        $result = self::getWeekNumber($date) - self::getWeekNumber($startDate) + $weekNumber;
+
+        // Calculate.
+        $result = intval($date->diff($startDate)->d / 7) + $weekNumber;
         if ($weekCount < $result) {
             $result -= $weekCount;
         }
-        return abs($result);
+
+        // Return.
+        return $result;
     }
 
     /**
