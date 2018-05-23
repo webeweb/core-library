@@ -66,28 +66,36 @@ final class DateUtilityTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetWeekNumberToApply() {
 
+        // Test with bad date arguments.
+        $this->assertEquals(-1, DateUtility::getWeekNumberToApply(new DateTime("2018-04-01"), new DateTime("2018-05-01"), 0, 1));
+
+        // Test with bad week arguments.
         $this->assertEquals(-1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 0, 1));
         $this->assertEquals(-1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 1, 0));
         $this->assertEquals(-1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 1, 2));
 
+        // Test with closest dates.
         $this->assertEquals(1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 5, 1));
         $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2018-05-08"), new DateTime("2018-05-01"), 5, 1));
         $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2018-05-15"), new DateTime("2018-05-01"), 5, 1));
         $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2018-05-22"), new DateTime("2018-05-01"), 5, 1));
         $this->assertEquals(5, DateUtility::getWeekNumberToApply(new DateTime("2018-05-29"), new DateTime("2018-05-01"), 5, 1));
 
+        // Change the week number.
         $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 5, 3));
         $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2018-05-08"), new DateTime("2018-05-01"), 5, 3));
         $this->assertEquals(5, DateUtility::getWeekNumberToApply(new DateTime("2018-05-15"), new DateTime("2018-05-01"), 5, 3));
         $this->assertEquals(1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-22"), new DateTime("2018-05-01"), 5, 3));
         $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2018-05-29"), new DateTime("2018-05-01"), 5, 3));
 
+        // Change the week number.
         $this->assertEquals(5, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 5, 5));
         $this->assertEquals(1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-08"), new DateTime("2018-05-01"), 5, 5));
         $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2018-05-15"), new DateTime("2018-05-01"), 5, 5));
         $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2018-05-22"), new DateTime("2018-05-01"), 5, 5));
         $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2018-05-29"), new DateTime("2018-05-01"), 5, 5));
 
+        // Change the year.
         $this->assertEquals(1, DateUtility::getWeekNumberToApply(new DateTime("2022-05-01"), new DateTime("2018-05-01"), 5, 1));
         $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2022-05-08"), new DateTime("2018-05-01"), 5, 1));
         $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2022-05-15"), new DateTime("2018-05-01"), 5, 1));
