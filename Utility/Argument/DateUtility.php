@@ -34,6 +34,16 @@ final class DateUtility implements DateUtilityInterface {
     }
 
     /**
+     * Get a year number.
+     *
+     * @param DateTime $date The date.
+     * @return integer Returns the year number.
+     */
+    public static function getYearNumber(DateTime $date) {
+        return intval($date->format("Y"));
+    }
+
+    /**
      * Get a week number.
      *
      * @param DateTime $date The date.
@@ -41,10 +51,6 @@ final class DateUtility implements DateUtilityInterface {
      */
     public static function getWeekNumber(DateTime $date) {
         return intval($date->format("W"));
-    }
-
-    public static function getYearNumber(DateTime $date) {
-        return intval($date->format("Y"));
     }
 
     /**

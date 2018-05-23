@@ -41,6 +41,19 @@ final class DateUtilityTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the getYearNumber() method.
+     *
+     * @return void
+     */
+    public function testGetYearNumber() {
+
+        $this->assertEquals(1900, DateUtility::getYearNumber(new DateTime("1900-05-21")));
+        $this->assertEquals(1970, DateUtility::getYearNumber(new DateTime("1970-05-22")));
+        $this->assertEquals(2000, DateUtility::getYearNumber(new DateTime("2000-05-23")));
+        $this->assertEquals(2018, DateUtility::getYearNumber(new DateTime("2018-05-24")));
+    }
+
+    /**
      * Tests the getWeekNumber() method.
      *
      * @return void
