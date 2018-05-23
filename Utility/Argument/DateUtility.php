@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Utility\Argument;
 
+use DateTime;
 use WBW\Library\Core\Utility\Argument\StringUtility;
 
 /**
@@ -21,6 +22,26 @@ use WBW\Library\Core\Utility\Argument\StringUtility;
  * @final
  */
 final class DateUtility implements DateUtilityInterface {
+
+    /**
+     * Get a day number.
+     *
+     * @param DateTime $date The date.
+     * @return integer Returns the day number between 1 and 7 with monday equals to 1.
+     */
+    public static function getDayNUmber(DateTime $date) {
+        return intval($date->format("N"));
+    }
+
+    /**
+     * Get a week number.
+     *
+     * @param DateTime $date The date.
+     * @return integer Returns the week number.
+     */
+    public static function getWeekNumber(DateTime $date) {
+        return intval($date->format("W"));
+    }
 
     /**
      * Get the weekday into FR.

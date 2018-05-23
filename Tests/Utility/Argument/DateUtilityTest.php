@@ -25,6 +25,40 @@ use WBW\Library\Core\Utility\Argument\DateUtility;
 final class DateUtilityTest extends PHPUnit_Framework_TestCase {
 
     /**
+     * Tests the getDayNumber() method.
+     *
+     * @return void
+     */
+    public function testGetDayNumber() {
+
+        $this->assertEquals(1, DateUtility::getDayNumber(new DateTime("2018-05-21")));
+        $this->assertEquals(2, DateUtility::getDayNumber(new DateTime("2018-05-22")));
+        $this->assertEquals(3, DateUtility::getDayNumber(new DateTime("2018-05-23")));
+        $this->assertEquals(4, DateUtility::getDayNumber(new DateTime("2018-05-24")));
+        $this->assertEquals(5, DateUtility::getDayNumber(new DateTime("2018-05-25")));
+        $this->assertEquals(6, DateUtility::getDayNumber(new DateTime("2018-05-26")));
+        $this->assertEquals(7, DateUtility::getDayNumber(new DateTime("2018-05-27")));
+    }
+
+    /**
+     * Tests the getWeekNumber() method.
+     *
+     * @return void
+     */
+    public function testGetWeekNumber() {
+
+        $this->assertEquals(1, DateUtility::getWeekNumber(new DateTime("2018-01-01")));
+        $this->assertEquals(52, DateUtility::getWeekNumber(new DateTime("2018-12-30")));
+        $this->assertEquals(1, DateUtility::getWeekNumber(new DateTime("2018-12-31")));
+
+        $this->assertEquals(18, DateUtility::getWeekNumber(new DateTime("2018-05-01")));
+        $this->assertEquals(19, DateUtility::getWeekNumber(new DateTime("2018-05-08")));
+        $this->assertEquals(20, DateUtility::getWeekNumber(new DateTime("2018-05-15")));
+        $this->assertEquals(21, DateUtility::getWeekNumber(new DateTime("2018-05-22")));
+        $this->assertEquals(22, DateUtility::getWeekNumber(new DateTime("2018-05-29")));
+    }
+
+    /**
      * Tests the translateWeekday() method.
      *
      * @return void
