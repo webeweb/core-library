@@ -59,6 +59,37 @@ final class DateUtilityTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the getWeekNumberToApply() method.
+     *
+     * @return void
+     * @depends testGetWeekNumber
+     */
+    public function testGetWeekNumberToApply() {
+
+        $this->assertEquals(-1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 0, 1));
+        $this->assertEquals(-1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 1, 0));
+        $this->assertEquals(-1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 1, 2));
+
+        $this->assertEquals(1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 5, 1));
+        $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2018-05-08"), new DateTime("2018-05-01"), 5, 1));
+        $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2018-05-15"), new DateTime("2018-05-01"), 5, 1));
+        $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2018-05-22"), new DateTime("2018-05-01"), 5, 1));
+        $this->assertEquals(5, DateUtility::getWeekNumberToApply(new DateTime("2018-05-29"), new DateTime("2018-05-01"), 5, 1));
+
+        $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 5, 3));
+        $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2018-05-08"), new DateTime("2018-05-01"), 5, 3));
+        $this->assertEquals(5, DateUtility::getWeekNumberToApply(new DateTime("2018-05-15"), new DateTime("2018-05-01"), 5, 3));
+        $this->assertEquals(1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-22"), new DateTime("2018-05-01"), 5, 3));
+        $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2018-05-29"), new DateTime("2018-05-01"), 5, 3));
+
+        $this->assertEquals(5, DateUtility::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 5, 5));
+        $this->assertEquals(1, DateUtility::getWeekNumberToApply(new DateTime("2018-05-08"), new DateTime("2018-05-01"), 5, 5));
+        $this->assertEquals(2, DateUtility::getWeekNumberToApply(new DateTime("2018-05-15"), new DateTime("2018-05-01"), 5, 5));
+        $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2018-05-22"), new DateTime("2018-05-01"), 5, 5));
+        $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2018-05-29"), new DateTime("2018-05-01"), 5, 5));
+    }
+
+    /**
      * Tests the translateWeekday() method.
      *
      * @return void
