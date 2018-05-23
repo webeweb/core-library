@@ -41,16 +41,24 @@ final class DateUtilityTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
-     * Tests the getYearNumber() method.
+     * Tests the getMonthNumber() method.
      *
      * @return void
      */
-    public function testGetYearNumber() {
+    public function testGetMonthNumber() {
 
-        $this->assertEquals(1900, DateUtility::getYearNumber(new DateTime("1900-05-21")));
-        $this->assertEquals(1970, DateUtility::getYearNumber(new DateTime("1970-05-22")));
-        $this->assertEquals(2000, DateUtility::getYearNumber(new DateTime("2000-05-23")));
-        $this->assertEquals(2018, DateUtility::getYearNumber(new DateTime("2018-05-24")));
+        $this->assertEquals(1, DateUtility::getMonthNumber(new DateTime("2018-01-01")));
+        $this->assertEquals(2, DateUtility::getMonthNumber(new DateTime("2018-02-01")));
+        $this->assertEquals(3, DateUtility::getMonthNumber(new DateTime("2018-03-01")));
+        $this->assertEquals(4, DateUtility::getMonthNumber(new DateTime("2018-04-01")));
+        $this->assertEquals(5, DateUtility::getMonthNumber(new DateTime("2018-05-01")));
+        $this->assertEquals(6, DateUtility::getMonthNumber(new DateTime("2018-06-01")));
+        $this->assertEquals(7, DateUtility::getMonthNumber(new DateTime("2018-07-01")));
+        $this->assertEquals(8, DateUtility::getMonthNumber(new DateTime("2018-08-01")));
+        $this->assertEquals(9, DateUtility::getMonthNumber(new DateTime("2018-09-01")));
+        $this->assertEquals(10, DateUtility::getMonthNumber(new DateTime("2018-10-01")));
+        $this->assertEquals(11, DateUtility::getMonthNumber(new DateTime("2018-11-01")));
+        $this->assertEquals(12, DateUtility::getMonthNumber(new DateTime("2018-12-01")));
     }
 
     /**
@@ -75,7 +83,6 @@ final class DateUtilityTest extends PHPUnit_Framework_TestCase {
      * Tests the getWeekNumberToApply() method.
      *
      * @return void
-     * @depends testGetWeekNumber
      */
     public function testGetWeekNumberToApply() {
 
@@ -114,6 +121,19 @@ final class DateUtilityTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(3, DateUtility::getWeekNumberToApply(new DateTime("2022-05-15"), new DateTime("2018-05-01"), 5, 1));
         $this->assertEquals(4, DateUtility::getWeekNumberToApply(new DateTime("2022-05-22"), new DateTime("2018-05-01"), 5, 1));
         $this->assertEquals(5, DateUtility::getWeekNumberToApply(new DateTime("2022-05-29"), new DateTime("2018-05-01"), 5, 1));
+    }
+
+    /**
+     * Tests the getYearNumber() method.
+     *
+     * @return void
+     */
+    public function testGetYearNumber() {
+
+        $this->assertEquals(1900, DateUtility::getYearNumber(new DateTime("1900-05-21")));
+        $this->assertEquals(1970, DateUtility::getYearNumber(new DateTime("1970-05-22")));
+        $this->assertEquals(2000, DateUtility::getYearNumber(new DateTime("2000-05-23")));
+        $this->assertEquals(2018, DateUtility::getYearNumber(new DateTime("2018-05-24")));
     }
 
     /**

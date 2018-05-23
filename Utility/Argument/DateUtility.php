@@ -34,13 +34,13 @@ final class DateUtility implements DateUtilityInterface {
     }
 
     /**
-     * Get a year number.
+     * Get a month number.
      *
      * @param DateTime $date The date.
-     * @return integer Returns the year number.
+     * @return integer Returns the month number.
      */
-    public static function getYearNumber(DateTime $date) {
-        return intval($date->format("Y"));
+    public static function getMonthNumber(DateTime $date) {
+        return intval($date->format("m"));
     }
 
     /**
@@ -114,6 +114,16 @@ final class DateUtility implements DateUtilityInterface {
             self::EN_WEEKDAY_FRIDAY    => self::FR_WEEKDAY_FRIDAY,
             self::EN_WEEKDAY_SATURDAY  => self::FR_WEEKDAY_SATURDAY,
         ];
+    }
+
+    /**
+     * Get a year number.
+     *
+     * @param DateTime $date The date.
+     * @return integer Returns the year number.
+     */
+    public static function getYearNumber(DateTime $date) {
+        return intval($date->format("Y"));
     }
 
     /**
