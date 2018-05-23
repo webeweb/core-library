@@ -29,7 +29,7 @@ final class DateUtility implements DateUtilityInterface {
      * @param DateTime $date The date.
      * @return integer Returns the day number between 1 and 7 with monday equals to 1.
      */
-    public static function getDayNUmber(DateTime $date) {
+    public static function getDayNumber(DateTime $date) {
         return intval($date->format("N"));
     }
 
