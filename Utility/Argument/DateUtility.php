@@ -79,11 +79,6 @@ final class DateUtility implements DateUtilityInterface {
      */
     public static function getWeekNumberToApply(DateTime $date, DateTime $startDate, $weekCount, $weekNumber) {
 
-        // Check the date arguments.
-        if ($date < $startDate) {
-            return -1;
-        }
-
         // Check the week arguments.
         if ($weekCount <= 0 || $weekNumber <= 0 || $weekCount < $weekNumber) {
             return -1;
