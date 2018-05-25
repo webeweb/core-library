@@ -29,7 +29,7 @@ final class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
      *
      * @returns void
      */
-    public function testConstructor() {
+    public function testConstruct() {
 
         $obj = new MicrosoftAccessDatabase($this->authenticator, null);
 

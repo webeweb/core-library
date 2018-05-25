@@ -28,7 +28,7 @@ final class PHPExtensionNotFoundExceptionTest extends PHPUnit_Framework_TestCase
      *
      * @return void
      */
-    public function testConstructor() {
+    public function testConstruct() {
 
         $obj = new PHPExtensionNotFoundException("exception");
         $this->assertEquals("The PHP extension \"exception\" is not found", $obj->getMessage());

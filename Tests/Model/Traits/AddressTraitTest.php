@@ -43,7 +43,7 @@ final class AddressTraitTest extends PHPUnit_Framework_TestCase {
      *
      * @return void
      */
-    public function testConstructor() {
+    public function testConstruct() {
 
         $this->assertNull($this->address->getAddress());
         $this->assertNull($this->address->getCity());
