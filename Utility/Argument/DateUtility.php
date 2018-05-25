@@ -72,7 +72,7 @@ final class DateUtility implements DateUtilityInterface {
      * </p>
      *
      * @param DateTime $date The date.
-     * @param DateTime $startDate The start  date.
+     * @param DateTime $startDate The start date.
      * @param integer $weekCount The week count.
      * @param integer $weekNumber The week number.
      * @return integer Returns the week number to apply between 1 and $weekCount.
