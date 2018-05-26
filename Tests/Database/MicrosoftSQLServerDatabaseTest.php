@@ -50,7 +50,7 @@ final class MicrosoftSQLServerDatabaseTest extends AbstractDatabaseTest {
             $obj->getConnection();
         } catch (Exception $ex) {
             $this->assertInstanceOf(PDOException::class, $ex);
-            $this->assertEquals("could not find driver", $ex->getMessage());
+            $this->assertNotEmpty($ex->getMessage());
         }
     }
 
