@@ -24,7 +24,7 @@ interface FonctorInterface {
      *
      * @param mixed $valueA The first value to compare.
      * @param type $valueB The second value to compare.
-     * @return boolean Returns true if second value is less than first value.
+     * @return boolean Returns true if first value is less than second value.
      */
     public function compare($valueA, $valueB);
 }
