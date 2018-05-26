@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting;
 
+use WBW\Library\Core\Algorithm\Sorting\FonctorInterface;
+
 /**
  * Integer fonctor.
  *
@@ -24,7 +26,7 @@ final class IntegerFonctor implements FonctorInterface {
      * {@inheritdoc}
      */
     public function compare($valueA, $valueB) {
-        return $valueB < $valueA;
+        return $valueA < $valueB;
     }
 
 }
