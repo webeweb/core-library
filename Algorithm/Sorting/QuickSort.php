@@ -41,6 +41,7 @@ class QuickSort {
      */
     public function __construct(array $values, FonctorInterface $fonctor) {
         $this->setFonctor($fonctor);
+        $this->setValues($values);
     }
 
     /**
@@ -77,11 +78,11 @@ class QuickSort {
 
         while ($i <= $j) {
 
-            while ($this->fonctor->compare($this->values[$i], $pivot)) {
+            while (true === $this->fonctor->compare($this->values[$i], $pivot)) {
                 ++$i;
             }
 
-            while ($this->fonctor->compare($pivot, $this->values[$j])) {
+            while (true === $this->fonctor->compare($pivot, $this->values[$j])) {
                 --$j;
             }
 
@@ -93,10 +94,10 @@ class QuickSort {
         }
 
         if ($min < $j) {
-            $this->partition($min, $j);
+            $this->quickSort($min, $j);
         }
         if ($i < $max) {
-            $this->partition($i, $max);
+            $this->quickSort($i, $max);
         }
     }
 
@@ -128,7 +129,7 @@ class QuickSort {
      * @return void
      */
     public function sort() {
-        $this->quickSort(0, count($this->values));
+        $this->quickSort(0, count($this->values) - 1);
     }
 
     /**

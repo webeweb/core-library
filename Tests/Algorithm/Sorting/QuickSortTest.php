@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Algorithm\Sorting;
 
+use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Algorithm\Sorting\FonctorInterface;
 use WBW\Library\Core\Algorithm\Sorting\QuickSort;
 use WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting\IntegerFonctor;
@@ -20,8 +21,9 @@ use WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting\IntegerFonctor;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Algorithm\Sorting
+ * @final
  */
-class QuickSortTest {
+final class QuickSortTest extends PHPUnit_Framework_TestCase {
 
     /**
      * Fonctor.
@@ -71,8 +73,9 @@ class QuickSortTest {
 
         $obj = new QuickSort($this->values, $this->fonctor);
 
+        $obj->sort();
         $res = [12, 21, 23, 32, 34, 43, 45, 54, 56, 65, 67, 76, 78, 87, 89, 98];
-        $this->assertEquals($res, $obj->sort());
+        $this->assertEquals($res, $obj->getValues());
     }
 
 }
