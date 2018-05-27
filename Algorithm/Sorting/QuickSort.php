@@ -20,11 +20,11 @@ namespace WBW\Library\Core\Algorithm\Sorting;
 class QuickSort {
 
     /**
-     * Fonctor.
+     * Functor.
      *
-     * @var FonctorInterface
+     * @var FunctorInterface
      */
-    private $fonctor;
+    private $functor;
 
     /**
      * Values.
@@ -37,20 +37,20 @@ class QuickSort {
      * Constructor.
      *
      * @param array $values The values.
-     * @param FonctorInterface $fonctor The fonctor.
+     * @param FunctorInterface $functor The fonctor.
      */
-    public function __construct(array $values, FonctorInterface $fonctor) {
-        $this->setFonctor($fonctor);
+    public function __construct(array $values, FunctorInterface $functor) {
+        $this->setFunctor($functor);
         $this->setValues($values);
     }
 
     /**
      * Get the fonctor.
      *
-     * @return Fonctor Returns the fonctor.
+     * @return Functor Returns the fonctor.
      */
-    public function getFonctor() {
-        return $this->fonctor;
+    public function getFunctor() {
+        return $this->functor;
     }
 
     /**
@@ -78,11 +78,11 @@ class QuickSort {
 
         while ($i <= $j) {
 
-            while (true === $this->fonctor->compare($this->values[$i], $pivot)) {
+            while (true === $this->functor->compare($this->values[$i], $pivot)) {
                 ++$i;
             }
 
-            while (true === $this->fonctor->compare($pivot, $this->values[$j])) {
+            while (true === $this->functor->compare($pivot, $this->values[$j])) {
                 --$j;
             }
 
@@ -104,11 +104,11 @@ class QuickSort {
     /**
      * Set the fonctor.
      *
-     * @param FonctorInterface $fonctor The fonctor.
+     * @param FunctorInterface $fonctor The fonctor.
      * @return QuickSort Returns this quick sort.
      */
-    public function setFonctor(FonctorInterface $fonctor) {
-        $this->fonctor = $fonctor;
+    public function setFunctor(FunctorInterface $fonctor) {
+        $this->functor = $fonctor;
         return $this;
     }
 

@@ -12,12 +12,12 @@
 namespace WBW\Library\Core\Algorithm\Sorting;
 
 /**
- * Fonctor interface.
+ * Functor interface.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Algorithm\Sorting
  */
-interface FonctorInterface {
+interface FunctorInterface {
 
     /**
      * Compare two values.

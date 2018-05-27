@@ -12,9 +12,9 @@
 namespace WBW\Library\Core\Tests\Algorithm\Sorting;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Algorithm\Sorting\FonctorInterface;
+use WBW\Library\Core\Algorithm\Sorting\FunctorInterface;
 use WBW\Library\Core\Algorithm\Sorting\QuickSort;
-use WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting\IntegerFonctor;
+use WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting\IntegerFunctor;
 
 /**
  * Quick sort test.
@@ -26,9 +26,9 @@ use WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting\IntegerFonctor;
 final class QuickSortTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * Fonctor.
+     * Functor.
      *
-     * @var FonctorInterface
+     * @var FunctorInterface
      */
     private $fonctor;
 
@@ -45,7 +45,7 @@ final class QuickSortTest extends PHPUnit_Framework_TestCase {
     protected function setUp() {
 
         // Set the fonctor mock.
-        $this->fonctor = new IntegerFonctor();
+        $this->fonctor = new IntegerFunctor();
 
         // Set the values mock.
         $this->values = [12, 98, 21, 89, 23, 87, 32, 78, 34, 76, 43, 67, 45, 65, 54, 56,];
@@ -60,7 +60,7 @@ final class QuickSortTest extends PHPUnit_Framework_TestCase {
 
         $obj = new QuickSort($this->values, $this->fonctor);
 
-        $this->assertSame($this->fonctor, $obj->getFonctor());
+        $this->assertSame($this->fonctor, $obj->getFunctor());
         $this->assertSame($this->values, $obj->getValues());
     }
 

@@ -11,16 +11,16 @@
 
 namespace WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting;
 
-use WBW\Library\Core\Algorithm\Sorting\FonctorInterface;
+use WBW\Library\Core\Algorithm\Sorting\FunctorInterface;
 
 /**
- * Integer fonctor.
+ * Integer functor.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Fixtures\Node
  * @final
  */
-final class IntegerFonctor implements FonctorInterface {
+final class IntegerFunctor implements FunctorInterface {
 
     /**
      * {@inheritdoc}
