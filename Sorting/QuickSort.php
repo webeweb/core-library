@@ -107,7 +107,7 @@ class QuickSort {
      * @param FunctorInterface $fonctor The fonctor.
      * @return QuickSort Returns this quick sort.
      */
-    public function setFunctor(FunctorInterface $fonctor) {
+    protected function setFunctor(FunctorInterface $fonctor) {
         $this->functor = $fonctor;
         return $this;
     }
@@ -118,7 +118,7 @@ class QuickSort {
      * @param array $values The values.
      * @return QuickSort Returns this quick sort.
      */
-    public function setValues(array $values = []) {
+    protected function setValues(array $values = []) {
         $this->values = $values;
         return $this;
     }
