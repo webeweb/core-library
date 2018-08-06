@@ -16,38 +16,6 @@ namespace WBW\Library\Core\Utility\Argument;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Utility\Argument
- * @final
+ * @deprecated
  */
-final class ArrayUtility {
-
-    /**
-     * Get a value.
-     *
-     * @param array $array The array.
-     * @param mixed $key The key.
-     * @param mixed $default The default value.
-     * @return mixed Returns the value in case of success, $default otherwise.
-     */
-    public static function get(array $array, $key, $default = null) {
-        return true === array_key_exists($key, $array) ? $array[$key] : $default;
-    }
-
-    /**
-     * Set a value.
-     *
-     * @param array $array The array.
-     * @param string $key The key.
-     * @param mixed $value The value.
-     * @param array $tests The tests.
-     */
-    public static function set(array &$array, $key, $value, array $tests = []) {
-        foreach ($tests as $current) {
-            if ($current !== $value) {
-                continue;
-            }
-            return;
-        }
-        $array[$key] = $value;
-    }
-
-}
+class_alias("WBW\Library\Core\Helper\Argument\ArrayHelper", "WBW\Library\Core\Utility\Argument\ArrayUtility");
