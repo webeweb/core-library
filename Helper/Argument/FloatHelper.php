@@ -18,9 +18,15 @@ use WBW\Library\Core\Exception\Argument\FloatArgumentException;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Helper\Argument
- * @final
  */
-final class FloatHelper {
+class FloatHelper {
+
+    /**
+     * Constructor.
+     */
+    private function __construct() {
+        // NOTHING TO DO.
+    }
 
     /**
      * Parse a string.
