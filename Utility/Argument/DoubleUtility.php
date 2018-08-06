@@ -11,31 +11,11 @@
 
 namespace WBW\Library\Core\Utility\Argument;
 
-use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
-use WBW\Library\Core\Exception\Argument\FloatArgumentException;
-
 /**
  * Double utility.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Utility\Argument
- * @final
+ * @deprecated
  */
-final class DoubleUtility {
-
-    /**
-     * Parse a string.
-     *
-     * @param string $value The string value.
-     * @return double Returns the double represented by the string value.
-     * @throws DoubleArgumentException Throws a double argument exception if the string value does not represent a double.
-     */
-    public static function parseString($value) {
-        try {
-            return FloatUtility::parseString($value);
-        } catch (FloatArgumentException $ex) {
-            throw new DoubleArgumentException($value, $ex);
-        }
-    }
-
-}
+class_alias("WBW\Library\Core\Helper\Argument\DoubleHelper", "WBW\Library\Core\Utility\Argument\DoubleUtility");
