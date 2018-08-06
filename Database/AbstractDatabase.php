@@ -66,7 +66,7 @@ abstract class AbstractDatabase {
      *
      * @return Authenticator Returns the authenticator.
      */
-    final public function getAuthenticator() {
+    public function getAuthenticator() {
         return $this->authenticator;
     }
 
@@ -76,7 +76,7 @@ abstract class AbstractDatabase {
      * @return PDO Returns the connection.
      * @throws Exception Throws an exception if the connection failed.
      */
-    final public function getConnection() {
+    public function getConnection() {
         if (null === $this->connection) {
             $this->connection = $this->connect();
         }
@@ -88,7 +88,7 @@ abstract class AbstractDatabase {
      *
      * @return string Returns the database.
      */
-    final public function getDatabase() {
+    public function getDatabase() {
         return $this->database;
     }
 
@@ -98,7 +98,7 @@ abstract class AbstractDatabase {
      * @param array $fields The fields.
      * @return array Returns the binding as key => :key.
      */
-    final public function prepareBinding(array $fields) {
+    public function prepareBinding(array $fields) {
         $output = [];
         foreach ($fields as $current) {
             $output[$current] = ":" . $current;
@@ -113,7 +113,7 @@ abstract class AbstractDatabase {
      * @param array $values The values [field => value].
      * @return string Returns the INSERT SQL query.
      */
-    final public function prepareInsert($table, array $values) {
+    public function prepareInsert($table, array $values) {
 
         // Initialize the query.
         $query = [];
@@ -137,7 +137,7 @@ abstract class AbstractDatabase {
      * @param array $values The values [field => value]
      * @return string Returns the UPDATE SQL query.
      */
-    final public function prepareUpdate($table, array $values) {
+    public function prepareUpdate($table, array $values) {
 
         // Initialize the SET.
         $set = [];
@@ -163,7 +163,7 @@ abstract class AbstractDatabase {
      * @param Authenticator $authenticator The authenticator.
      * @return AbstractDatabase Returns this abstract database.
      */
-    final public function setAuthenticator(Authenticator $authenticator) {
+    public function setAuthenticator(Authenticator $authenticator) {
         $this->authenticator = $authenticator;
         return $this;
     }
@@ -174,7 +174,7 @@ abstract class AbstractDatabase {
      * @param string $database The database.
      * @return AbstractDatabase Returns this abstract database.
      */
-    final public function setDatabase($database) {
+    public function setDatabase($database) {
         $this->database = $database;
         return $this;
     }
