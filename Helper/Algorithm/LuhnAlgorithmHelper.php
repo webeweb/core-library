@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Algorithm\Checksum;
+namespace WBW\Library\Core\Helper\Algorithm;
 
 /**
- * Luhn algorithm.
+ * Luhn algorithm helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Algorithm\Checksum
+ * @package WBW\Library\Core\Helper\Algorithm
  * @final
  */
-final class LuhnAlgorithm {
+final class LuhnAlgorithmHelper {
 
     /**
      * Check.
