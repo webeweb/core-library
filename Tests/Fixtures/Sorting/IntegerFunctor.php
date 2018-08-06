@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures\Sort;
+namespace WBW\Library\Core\Tests\Fixtures\Sorting;
 
-use WBW\Library\Core\Sort\FunctorInterface;
+use WBW\Library\Core\Sorting\FunctorInterface;
 
 /**
  * Integer functor.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Fixtures\Node
+ * @package WBW\Library\Core\Tests\Fixtures\Sorting
  * @final
  */
 final class IntegerFunctor implements FunctorInterface {
