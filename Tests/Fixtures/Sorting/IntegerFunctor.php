@@ -25,8 +25,8 @@ final class IntegerFunctor implements FunctorInterface {
     /**
      * {@inheritdoc}
      */
-    public function compare($valueA, $valueB) {
-        return $valueA < $valueB;
+    public function compare($a, $b) {
+        return $a < $b;
     }
 
 }
