@@ -22,13 +22,6 @@ use Transliterator;
 class StringHelper {
 
     /**
-     * Constructor.
-     */
-    private function __construct() {
-        // NOTHING TO DO.
-    }
-
-    /**
      * Parse an array.
      *
      * @param array $values The array.

@@ -23,13 +23,6 @@ use WBW\Library\Core\Exception\Argument\FloatArgumentException;
 class DoubleHelper {
 
     /**
-     * Constructor.
-     */
-    private function __construct() {
-        // NOTHING TO DO.
-    }
-
-    /**
      * Parse a string.
      *
      * @param string $value The string value.

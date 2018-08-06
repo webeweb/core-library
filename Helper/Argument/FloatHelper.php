@@ -22,13 +22,6 @@ use WBW\Library\Core\Exception\Argument\FloatArgumentException;
 class FloatHelper {
 
     /**
-     * Constructor.
-     */
-    private function __construct() {
-        // NOTHING TO DO.
-    }
-
-    /**
      * Parse a string.
      *
      * @param string $value The string value.

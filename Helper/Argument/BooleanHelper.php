@@ -20,13 +20,6 @@ namespace WBW\Library\Core\Helper\Argument;
 class BooleanHelper {
 
     /**
-     * Constructor.
-     */
-    private function __construct() {
-        // NOTHING TO DO.
-    }
-
-    /**
      * Parse a string.
      *
      * @param string $value The string value.

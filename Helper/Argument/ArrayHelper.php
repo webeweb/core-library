@@ -20,13 +20,6 @@ namespace WBW\Library\Core\Helper\Argument;
 class ArrayHelper {
 
     /**
-     * Constructor.
-     */
-    private function __construct() {
-        // NOTHING TO DO.
-    }
-
-    /**
      * Get a value.
      *
      * @param array $array The array.
