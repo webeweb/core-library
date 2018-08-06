@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Algorithm\Sorting;
+namespace WBW\Library\Core\Sort;
 
 /**
  * Quick sort.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Algorithm\Sorting
+ * @package WBW\Library\Core\Sort
  */
 class QuickSort {
 

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting;
+namespace WBW\Library\Core\Tests\Fixtures\Sort;
 
-use WBW\Library\Core\Algorithm\Sorting\FunctorInterface;
+use WBW\Library\Core\Sort\FunctorInterface;
 
 /**
  * Integer functor.

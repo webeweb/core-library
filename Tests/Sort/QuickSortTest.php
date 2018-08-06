@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Algorithm\Sorting;
+namespace WBW\Library\Core\Tests\Sort;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Algorithm\Sorting\FunctorInterface;
-use WBW\Library\Core\Algorithm\Sorting\QuickSort;
-use WBW\Library\Core\Tests\Fixtures\Algorithm\Sorting\IntegerFunctor;
+use WBW\Library\Core\Sort\FunctorInterface;
+use WBW\Library\Core\Sort\QuickSort;
+use WBW\Library\Core\Tests\Fixtures\Sort\IntegerFunctor;
 
 /**
  * Quick sort test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Algorithm\Sorting
+ * @package WBW\Library\Core\Tests\Sort
  * @final
  */
 final class QuickSortTest extends PHPUnit_Framework_TestCase {

@@ -9,22 +9,22 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Algorithm\Sorting;
+namespace WBW\Library\Core\Sort;
 
 /**
  * Functor interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Algorithm\Sorting
+ * @package WBW\Library\Core\Sort
  */
 interface FunctorInterface {
 
     /**
      * Compare two values.
      *
-     * @param mixed $valueA The first value to compare.
-     * @param mixed $valueB The second value to compare.
+     * @param mixed $a The first value to compare.
+     * @param mixed $b The second value to compare.
      * @return boolean Returns true if first value is less than second value.
      */
-    public function compare($valueA, $valueB);
+    public function compare($a, $b);
 }
