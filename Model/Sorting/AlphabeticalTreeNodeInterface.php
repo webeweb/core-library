@@ -3,33 +3,33 @@
 /**
  * This file is part of the core-library package.
  *
- * (c) 2017 WEBEWEB
+ * (c) 2018 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Algorithm\Sorting;
+namespace WBW\Library\Core\Model\Sorting;
 
 /**
- * Alphabetical tree sort interface.
+ * Alphabetical tree node interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Algorithm\Sorting
+ * @package WBW\Library\Core\Model\Sorting
  */
-interface AlphabeticalTreeSortInterface {
+interface AlphabeticalTreeNodeInterface {
 
     /**
      * Get the label.
      *
      * @return string Returns the label.
      */
-    public function getAlphabeticalTreeSortLabel();
+    public function getAlphabeticalTreeNodeLabel();
 
     /**
      * Get the parent.
      *
-     * @return AlphabeticalTreeSortInterface Returns the parent.
+     * @return AlphabeticalTreeNodeInterface Returns the parent.
      */
-    public function getAlphabeticalTreeSortParent();
+    public function getAlphabeticalTreeNodeParent();
 }

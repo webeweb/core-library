@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Node;
 
-use WBW\Library\Core\Algorithm\Sorting\AlphabeticalTreeSortInterface;
+use WBW\Library\Core\Model\Sorting\AlphabeticalTreeNodeInterface;
 
 /**
  * Abstract node.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Algorithm\Sorting\AlphabeticalTreeSortInterface;
  * @package WBW\Library\Core\Node
  * @abstract
  */
-abstract class AbstractNode implements AlphabeticalTreeSortInterface {
+abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
 
     /**
      * Index.
@@ -56,16 +56,17 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
      * @param string $id The id.
      */
     protected function __construct($id) {
-        $this->id    = $id;
-        $this->index = [];
-        $this->nodes = [];
+        $this->setId($id);
+        $this->setIndex([]);
+        $this->setNodes([]);
+        $this->setParent(null);
     }
 
     /**
      * Add a children node.
      *
      * @param AbstractNode $node The children node.
-     * @return AbstractNode Returns the node.
+     * @return AbstractNode Returns this node.
      */
     final public function addNode(AbstractNode $node) {
         $node->parent           = $this;
@@ -77,7 +78,7 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
     /**
      * Clear the nodes.
      *
-     * @return AbstractNode Returns the node.
+     * @return AbstractNode Returns this node.
      */
     final public function clearNodes() {
         foreach ($this->nodes as $node) {
@@ -89,23 +90,23 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
     /**
      * {@inheritdoc}
      */
-    public function getAlphabeticalTreeSortLabel() {
+    public function getAlphabeticalTreeNodeLabel() {
         return $this->id;
     }
 
     /**
      * {@inheritdoc}
      */
-    final public function getAlphabeticalTreeSortParent() {
+    public function getAlphabeticalTreeNodeParent() {
         return $this->parent;
     }
 
     /**
-     * Get the last children node.
+     * Get the first children node.
      *
      * @return AbstractNode Returns the first node in case of success, null otherwise.
      */
-    final public function getFirstNode() {
+    public function getFirstNode() {
         return $this->getNodeAt(0);
     }
 
@@ -114,7 +115,7 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
      *
      * @return AbstractNode Returns the last node in case of success, null otherwise.
      */
-    final public function getLastNode() {
+    public function getLastNode() {
         return $this->getNodeAt(count($this->nodes) - 1);
     }
 
@@ -123,7 +124,7 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
      *
      * @return string Returns the id.
      */
-    final public function getId() {
+    public function getId() {
         return $this->id;
     }
 
@@ -133,7 +134,7 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
      * @param integer $position The position.
      * @return AbstractNode Returns the node in case of success, null otherwise.
      */
-    final public function getNodeAt($position) {
+    public function getNodeAt($position) {
         if (0 <= $position && $position <= count($this->nodes) - 1) {
             return $this->nodes[$position];
         }
@@ -147,7 +148,7 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
      * @param boolean $recursively Recursively ?
      * @return AbstractNode Returns a node in case of success, null otherwise.
      */
-    final public function getNodeById($id, $recursively = false) {
+    public function getNodeById($id, $recursively = false) {
         $found = null;
         if (true === array_key_exists($id, $this->index)) {
             $found = $this->getNodeAt($this->index[$id]);
@@ -168,7 +169,7 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
      *
      * @return AbstractNode[] Returns the nodes.
      */
-    final public function getNodes() {
+    public function getNodes() {
         return $this->nodes;
     }
 
@@ -177,7 +178,7 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
      *
      * @return AbstractNode Returns the parent.
      */
-    final public function getParent() {
+    public function getParent() {
         return $this->parent;
     }
 
@@ -185,9 +186,9 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
      * Remove a node.
      *
      * @param AbstractNode $node The children node.
-     * @return AbstractNode Returns the node.
+     * @return AbstractNode Returns this node.
      */
-    final public function removeNode(AbstractNode $node) {
+    public function removeNode(AbstractNode $node) {
         if (true === array_key_exists($node->id, $this->index)) {
             unset($this->nodes[$this->index[$node->id]]);
             unset($this->index[$node->id]);
@@ -197,11 +198,55 @@ abstract class AbstractNode implements AlphabeticalTreeSortInterface {
     }
 
     /**
+     * Set the id.
+     *
+     * @param string $id The id.
+     * @return AbstractNode Returns this node.
+     */
+    protected function setId($id) {
+        $this->id = $id;
+        return $this;
+    }
+
+    /**
+     * Set the index.
+     *
+     * @param array $index The index.
+     * @return AbstractNode Returns this node.
+     */
+    protected function setIndex(array $index) {
+        $this->index = $index;
+        return $this;
+    }
+
+    /**
+     * Set the nodes.
+     *
+     * @param AbstractNode[] $nodes The nodes.
+     * @return AbstractNode Returns this node.
+     */
+    protected function setNodes(array $nodes) {
+        $this->nodes = $nodes;
+        return $this;
+    }
+
+    /**
+     * Set the parent.
+     *
+     * @param AbstractNode $parent The parent.
+     * @return AbstractNode Returns this node.
+     */
+    protected function setParent(AbstractNode $parent = null) {
+        $this->parent = $parent;
+        return $this;
+    }
+
+    /**
      * Size.
      *
-     * @return integer Returns the sie.
+     * @return integer Returns the size.
      */
-    final public function size() {
+    public function size() {
         return count($this->nodes);
     }
 
