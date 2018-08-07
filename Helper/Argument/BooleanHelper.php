@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Helper\Argument;
 
+use WBW\Library\Core\Exception\Argument\BooleanArgumentException;
+
 /**
  * Boolean helper.
  *
@@ -18,6 +20,18 @@ namespace WBW\Library\Core\Helper\Argument;
  * @package WBW\Library\Core\Helper\Argument
  */
 class BooleanHelper {
+
+    /**
+     * Determines if a value is a boolean.
+     *
+     * @param mixed $value The value.
+     * @throws BooleanArgumentException Throws a Boolean argument exception if the value is not of expected type.
+     */
+    public static function isBoolean($value) {
+        if (false === is_bool($value)) {
+            throw new BooleanArgumentException($value);
+        }
+    }
 
     /**
      * Parse a string.
