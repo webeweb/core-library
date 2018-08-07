@@ -86,6 +86,49 @@ class DateTimeHelper {
     }
 
     /**
+     * Get a week number to apply with a schedule.
+     *
+     * <p>
+     * For example:
+     * We have a schedule etablished over 5 weeks.
+     *
+     * We start the schedule with the week number 1.
+     * If the current date is 2018-01-01 and the start date is 2018-01-01, the week number is 1
+     * If the current date is 2018-01-08 and the start date is 2018-01-01, the week number is 2
+     * etc.
+     *
+     * We start the schedule with the week number 3.
+     * If the current date is 2018-01-01 and the start date is 2018-01-01, the week number is 3
+     * If the current date is 2018-01-08 and the start date is 2018-01-01, the week number is 4
+     * etc.
+     * </p>
+     *
+     * @param DateTime $date The date.
+     * @param DateTime $startDate The start date.
+     * @param integer $weekCount The week count.
+     * @param integer $weekOffset The week offset.
+     * @return integer Returns the week number to apply between 1 and $weekCount.
+     */
+    public static function getWeekNumberToApply(DateTime $date, DateTime $startDate, $weekCount, $weekOffset = 1) {
+
+        // Check the week arguments.
+        if ($weekCount <= 0 || $weekOffset <= 0 || $weekCount < $weekOffset) {
+            return -1;
+        }
+
+        // Calculate.
+        $result = intval($date->diff($startDate)->d / 7);
+        $result %= $weekCount;
+        $result += $weekOffset;
+        if ($weekCount < $result) {
+            $result -= $weekCount;
+        }
+
+        // Return.
+        return $result;
+    }
+
+    /**
      * Get a year number.
      *
      * @param DateTime $dateTime The date/time.
