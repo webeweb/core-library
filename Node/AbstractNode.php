@@ -68,7 +68,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param AbstractNode $node The children node.
      * @return AbstractNode Returns this node.
      */
-    final public function addNode(AbstractNode $node) {
+    public function addNode(AbstractNode $node) {
         $node->parent           = $this;
         $this->index[$node->id] = count($this->nodes);
         $this->nodes[]          = $node;
@@ -80,7 +80,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @return AbstractNode Returns this node.
      */
-    final public function clearNodes() {
+    public function clearNodes() {
         foreach ($this->nodes as $node) {
             $this->removeNode($node);
         }
