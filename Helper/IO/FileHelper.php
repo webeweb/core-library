@@ -3,29 +3,27 @@
 /**
  * This file is part of the core-library package.
  *
- * (c) 2017 WEBEWEB
+ * (c) 2018 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility\IO;
+namespace WBW\Library\Core\Helper\IO;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
-use WBW\Library\Core\IO\FileInterface;
 use ZipArchive;
 
 /**
- * File utility.
+ * File helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility\IO
- * @final
+ * @package WBW\Library\Core\Helper\IO
  */
-final class FileUtility implements FileInterface {
+class FileHelper implements FileInterface {
 
     /**
      * Delete a file.
