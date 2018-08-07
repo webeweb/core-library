@@ -16,9 +16,8 @@ namespace WBW\Library\Core\Model\Choices;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Model\Choices
- * @final
  */
-final class CivilityChoices implements CivilityChoicesInterface {
+class CivilityChoices implements CivilityChoicesInterface {
 
     /**
      * Get the choices.
