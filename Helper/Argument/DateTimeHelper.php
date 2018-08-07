@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Helper\Argument;
 
 use DateTime;
+use WBW\Library\Core\Exception\Argument\DateArgumentException;
 
 /**
  * Date/time helper.
@@ -92,6 +93,18 @@ class DateTimeHelper {
      */
     public static function getYearNumber(DateTime $dateTime) {
         return intval($dateTime->format("Y"));
+    }
+
+    /**
+     * Determines if a value is a date.
+     *
+     * @param mixed $value The value.
+     * @throws DateArgumentException Throws a Date argument exception if the value is not of expected type.
+     */
+    public static function isDate($value) {
+        if (false === strtotime($value)) {
+            throw new DateArgumentException($value);
+        }
     }
 
 }
