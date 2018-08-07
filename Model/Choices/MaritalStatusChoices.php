@@ -16,9 +16,8 @@ namespace WBW\Library\Core\Model\Choices;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Model\Choices
- * @final
  */
-final class MaritalStatusChoices implements MaritalStatusChoicesInterface {
+class MaritalStatusChoices implements MaritalStatusChoicesInterface {
 
     /**
      * Get the choices.
