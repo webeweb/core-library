@@ -17,7 +17,7 @@ use WBW\Library\Core\Exception\Argument\ObjectArgumentException;
 use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
-use WBW\Library\Core\Utility\IO\FileUtility;
+use WBW\Library\Core\Helper\IO\FileHelper;
 
 /**
  * Object helper.
@@ -44,7 +44,7 @@ class ObjectHelper {
         $hooks = [];
 
         // Get the filenames.
-        $filenames = FileUtility::getFileNames($classpath, ".php");
+        $filenames = FileHelper::getFileNames($classpath, ".php");
 
         // Handle each filenames.
         foreach ($filenames as $filename) {
