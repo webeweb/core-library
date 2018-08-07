@@ -9,91 +9,91 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Argument;
+namespace WBW\Library\Core\Helper\Argument;
 
 /**
  * Argument interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Argument
+ * @package WBW\Library\Core\Helper\Argument
  */
 interface ArgumentInterface {
 
     /**
-     * Type "Array".
+     * Argument "Array".
      *
      * @var integer
      */
-    const TYPE_ARRAY = 63;
+    const ARGUMENT_ARRAY = 63;
 
     /**
-     * Type "Boolean".
+     * Argument "Boolean".
      *
      * @var integer
      */
-    const TYPE_BOOLEAN = 64;
+    const ARGUMENT_BOOLEAN = 64;
 
     /**
-     * Type "Date".
+     * Argument "Date".
      *
      * @var integer
      */
-    const TYPE_DATE = 30;
+    const ARGUMENT_DATE = 30;
 
     /**
-     * Type "Double".
+     * Argument "Double".
      *
      * @var integer
      */
-    const TYPE_DOUBLE = 59;
+    const ARGUMENT_DOUBLE = 59;
 
     /**
-     * Type "Float".
+     * Argument "Float".
      *
      * @var integer
      */
-    const TYPE_FLOAT = 54;
+    const ARGUMENT_FLOAT = 54;
 
     /**
-     * Type "Integer".
+     * Argument "Integer".
      *
      * @var integer
      */
-    const TYPE_INTEGER = 78;
+    const ARGUMENT_INTEGER = 78;
 
     /**
-     * Type "Number".
+     * Argument "Number".
      *
      * @var integer
      */
-    const TYPE_NUMBER = 73;
+    const ARGUMENT_NUMBER = 73;
 
     /**
-     * Type "Object".
+     * Argument "Object".
      *
      * @var integer
      */
-    const TYPE_OBJECT = 55;
+    const ARGUMENT_OBJECT = 55;
 
     /**
-     * Type "Resource".
+     * Argument "Resource".
      *
      * @var integer
      */
-    const TYPE_RESOURCE = 104;
+    const ARGUMENT_RESOURCE = 104;
 
     /**
-     * Type "String".
+     * Argument "String".
      *
      * @var integer
      */
-    const TYPE_STRING = 87;
+    const ARGUMENT_STRING = 87;
 
     /**
-     * Type "Timestamp".
+     * Argument "Timestamp".
      *
      * @var integer
      */
-    const TYPE_TIMESTAMP = 116;
+    const ARGUMENT_TIMESTAMP = 116;
 
 }

@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Argument;
 
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+use WBW\Library\Core\Helper\Argument\ArgumentInterface;
 use WBW\Library\Core\Helper\Argument\ArrayHelper;
 use WBW\Library\Core\Helper\Argument\BooleanHelper;
 use WBW\Library\Core\Helper\Argument\DateTimeHelper;
@@ -42,37 +43,37 @@ final class ArgumentValidator implements ArgumentInterface {
      */
     public static function isTypeOf($value, $type) {
         switch ($type) {
-            case self::TYPE_ARRAY:
+            case self::ARGUMENT_ARRAY:
                 ArrayHelper::isArray($value);
                 break;
-            case self::TYPE_BOOLEAN:
+            case self::ARGUMENT_BOOLEAN:
                 BooleanHelper::isBoolean($value);
                 break;
-            case self::TYPE_DATE:
+            case self::ARGUMENT_DATE:
                 DateTimeHelper::isDate($value);
                 break;
-            case self::TYPE_DOUBLE:
+            case self::ARGUMENT_DOUBLE:
                 DoubleHelper::isDouble($value);
                 break;
-            case self::TYPE_FLOAT:
+            case self::ARGUMENT_FLOAT:
                 FloatHelper::isFloat($value);
                 break;
-            case self::TYPE_INTEGER:
+            case self::ARGUMENT_INTEGER:
                 IntegerHelper::isInteger($value);
                 break;
-            case self::TYPE_NUMBER:
+            case self::ARGUMENT_NUMBER:
                 NumberHelper::isNumber($value);
                 break;
-            case self::TYPE_OBJECT:
+            case self::ARGUMENT_OBJECT:
                 ObjectHelper::isObject($value);
                 break;
-            case self::TYPE_RESOURCE:
+            case self::ARGUMENT_RESOURCE:
                 ResourceHelper::isResource($value);
                 break;
-            case self::TYPE_STRING:
+            case self::ARGUMENT_STRING:
                 StringHelper::isString($value);
                 break;
-            case self::TYPE_TIMESTAMP:
+            case self::ARGUMENT_TIMESTAMP:
                 TimestampHelper::isTimestamp($value);
                 break;
             default:
