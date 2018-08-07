@@ -12,8 +12,8 @@
 namespace WBW\Library\Core\Database;
 
 use PDO;
+use WBW\Library\Core\Helper\Argument\StringHelper;
 use WBW\Library\Core\Security\Authenticator;
-use WBW\Library\Core\Utility\Argument\StringUtility;
 
 /**
  * Oracle MySQL database.
@@ -55,7 +55,7 @@ class OracleMySQLDatabase extends AbstractDatabase {
         $attributes = [PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"];
 
         // Replace the parameters.
-        $dsn = StringUtility::replace(self::DEFAULT_DSN, $searches, $replaces);
+        $dsn = StringHelper::replace(self::DEFAULT_DSN, $searches, $replaces);
 
         // Return the connection.
         return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword(), $attributes);

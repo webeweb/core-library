@@ -14,8 +14,8 @@ namespace WBW\Library\Core\Database;
 use PDO;
 use WBW\Library\Core\Database\AbstractDatabase;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
+use WBW\Library\Core\Helper\Argument\StringHelper;
 use WBW\Library\Core\Security\Authenticator;
-use WBW\Library\Core\Utility\StringUtility;
 
 /**
  * Microsoft Access database.
@@ -58,7 +58,7 @@ class MicrosoftAccessDatabase extends AbstractDatabase {
         $replaces = [$this->getDatabase(), $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword()];
 
         // Replace the parameters.
-        $dsn = StringUtility::replace(self::DEFAULT_DSN, $searches, $replaces);
+        $dsn = StringHelper::replace(self::DEFAULT_DSN, $searches, $replaces);
 
         // Return the connection.
         return new PDO($dsn);
