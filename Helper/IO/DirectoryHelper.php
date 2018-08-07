@@ -19,7 +19,7 @@ use WBW\Library\Core\Exception\IO\FileNotFoundException;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Helper\IO
  */
-final class DirectoryHelper {
+class DirectoryHelper {
 
     /**
      * Create a directory.
