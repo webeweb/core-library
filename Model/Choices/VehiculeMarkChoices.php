@@ -17,7 +17,7 @@ namespace WBW\Library\Core\Model\Choices;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Model\Choices
  */
-final class VehiculeMarkChoices implements VehiculeMarkChoicesInterface {
+class VehiculeMarkChoices implements VehiculeMarkChoicesInterface {
 
     /**
      * Get the choices.
