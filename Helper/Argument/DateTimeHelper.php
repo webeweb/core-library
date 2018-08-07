@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Helper\Argument;
 
 use DateTime;
+use Symfony\Component\Yaml\Yaml;
 use WBW\Library\Core\Exception\Argument\DateArgumentException;
 
 /**
@@ -148,6 +149,31 @@ class DateTimeHelper {
         if (false === strtotime($value)) {
             throw new DateArgumentException($value);
         }
+    }
+
+    /**
+     * Translate the weekday part.
+     *
+     * @param string $date The date.
+     * @param string $locale The locale.
+     * @return string Returns the weekday part translated.
+     */
+    public static function translateWeekday($date, $locale = "en") {
+
+        // Initialize.
+        $template = __DIR__ . "/../../Resources/translations/messages.%locale%.yml";
+        $filename = str_replace("%locale%", $locale, $template);
+
+        // Check if the filename exists.
+        if (false === file_exists($filename)) {
+            $filename = str_replace("%locale%", "en", $template);
+        }
+
+        // Parse the translations.
+        $translations = Yaml::parse(file_get_contents($filename));
+
+        // Return the weekday part translated.
+        return str_ireplace(array_keys($translations["weekdays"]), array_values($translations["weekdays"]), $date);
     }
 
 }

@@ -1,4 +1,4 @@
-# /Resources/translations/samples.fr.yml
+# /Resources/translations/messages.fr.yml
 choices:
     civility:
         empty: "Non renseignée"
@@ -15,3 +15,12 @@ choices:
 
 label:
     empty_selection: "Aucune sélection"
+
+weekdays:
+    monday:    "Lundi"
+    tuesday:   "Mardi"
+    wednesday: "Mercredi"
+    thursday:  "Jeudi"
+    friday:    "Vendredi"
+    saturday:  "Samedi"
+    sunday:    "Dimanche"

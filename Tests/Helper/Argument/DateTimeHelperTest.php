@@ -190,4 +190,30 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(2018, DateTimeHelper::getYearNumber(new DateTime("2018-05-24")));
     }
 
+    /**
+     * Tests the translateWeekday() method.
+     *
+     * @return void
+     */
+    public function testTranslateWeekday() {
+
+        $arg = [];
+        for ($i = 0; $i < 7; ++$i) {
+            $arg[] = new DateTime("2018-04-" . ($i + 8));
+        }
+
+        $res   = [];
+        $res[] = "Dimanche, 2018-04-08";
+        $res[] = "Lundi, 2018-04-09";
+        $res[] = "Mardi, 2018-04-10";
+        $res[] = "Mercredi, 2018-04-11";
+        $res[] = "Jeudi, 2018-04-12";
+        $res[] = "Vendredi, 2018-04-13";
+        $res[] = "Samedi, 2018-04-14";
+
+        for ($i = 0; $i < 7; ++$i) {
+            $this->assertEquals($res[$i], DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d"), "fr"));
+        }
+    }
+
 }
