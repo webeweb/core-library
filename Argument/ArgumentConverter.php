@@ -16,10 +16,10 @@ use WBW\Library\Core\Exception\Argument\DateArgumentException;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
-use WBW\Library\Core\Utility\Argument\BooleanUtility;
-use WBW\Library\Core\Utility\Argument\DoubleUtility;
-use WBW\Library\Core\Utility\Argument\FloatUtility;
-use WBW\Library\Core\Utility\Argument\IntegerUtility;
+use WBW\Library\Core\Helper\Argument\BooleanHelper;
+use WBW\Library\Core\Helper\Argument\DoubleHelper;
+use WBW\Library\Core\Helper\Argument\FloatHelper;
+use WBW\Library\Core\Helper\Argument\IntegerHelper;
 
 /**
  * Argument converter.
@@ -43,7 +43,7 @@ final class ArgumentConverter implements ArgumentInterface {
     public static function convert($value, $type, $dateFormat = null) {
         switch ($type) {
             case self::TYPE_BOOLEAN:
-                return BooleanUtility::parseString($value);
+                return BooleanHelper::parseString($value);
             case self::TYPE_DATE:
                 if (null === $dateFormat) {
                     throw new NullPointerException("The date format is null");
@@ -54,11 +54,11 @@ final class ArgumentConverter implements ArgumentInterface {
                 }
                 return $datetime;
             case self::TYPE_DOUBLE:
-                return DoubleUtility::parseString($value);
+                return DoubleHelper::parseString($value);
             case self::TYPE_FLOAT:
-                return FloatUtility::parseString($value);
+                return FloatHelper::parseString($value);
             case self::TYPE_INTEGER:
-                return IntegerUtility::parseString($value);
+                return IntegerHelper::parseString($value);
             case self::TYPE_STRING:
                 return $value;
             case self::TYPE_TIMESTAMP:
