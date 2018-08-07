@@ -16,9 +16,8 @@ namespace WBW\Library\Core\Helper\Algorithm;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Helper\Algorithm
- * @final
  */
-final class LuhnAlgorithmHelper {
+class LuhnAlgorithmHelper {
 
     /**
      * Check.
