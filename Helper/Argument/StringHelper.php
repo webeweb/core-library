@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Helper\Argument;
 
 use Transliterator;
+use WBW\Library\Core\Exception\Argument\StringArgumentException;
 
 /**
  * String helper.
@@ -20,6 +21,18 @@ use Transliterator;
  * @package WBW\Library\Core\Helper\Argument
  */
 class StringHelper {
+
+    /**
+     * Determines if a value is a string.
+     *
+     * @param mixed $value The value.
+     * @throws StringArgumentException Throws a String argument exception if the value is not of expected type.
+     */
+    public static function isString($value) {
+        if (false === is_string($value)) {
+            throw new StringArgumentException($value);
+        }
+    }
 
     /**
      * Parse an array.
