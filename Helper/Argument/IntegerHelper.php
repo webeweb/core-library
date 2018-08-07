@@ -48,6 +48,18 @@ class IntegerHelper {
     }
 
     /**
+     * Determines if a value is an integer.
+     *
+     * @param mixed $value The value.
+     * @throws IntegerArgumentException Throws a Integer argument exception if the value is not of expected type.
+     */
+    public static function isInteger($value) {
+        if (false === is_integer($value)) {
+            throw new IntegerArgumentException($value);
+        }
+    }
+
+    /**
      * Parse a boolean.
      *
      * @param boolean $value The boolean value.
