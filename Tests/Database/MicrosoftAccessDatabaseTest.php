@@ -96,17 +96,4 @@ final class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
         $this->assertEquals($res, $obj->prepareUpdate("table", $arg));
     }
 
-    /**
-     * Tests the setDatabase() method.
-     *
-     * @return void
-     */
-    public function testSetDatabase() {
-
-        $obj = new MicrosoftAccessDatabase($this->authenticator, null);
-
-        $obj->setDatabase("database");
-        $this->assertEquals("database", $obj->getDatabase());
-    }
-
 }
