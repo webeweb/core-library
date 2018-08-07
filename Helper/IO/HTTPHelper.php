@@ -9,18 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility\IO;
-
-use WBW\Library\Core\IO\HTTPInterface;
+namespace WBW\Library\Core\Helper\IO;
 
 /**
- * HTTP utility.
+ * HTTP helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility\IO
- * @final
+ * @package WBW\Library\Core\Helper\IO
  */
-final class HTTPUtility implements HTTPInterface {
+class HTTPHelper implements HTTPInterface {
 
     /**
      * Get the HTTP methods.

@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility\IO;
+namespace WBW\Library\Core\Tests\Helper\IO;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Utility\IO\HTTPUtility;
+use WBW\Library\Core\Helper\IO\HTTPHelper;
 
 /**
  * HTTP utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility\IO
+ * @package WBW\Library\Core\Tests\Helper\IO
  * @final
  */
-final class HTTPUtilityTest extends PHPUnit_Framework_TestCase {
+final class HTTPHelperTest extends PHPUnit_Framework_TestCase {
 
     /**
      * Tests the getHTTPMethods() method.
@@ -30,7 +30,7 @@ final class HTTPUtilityTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetHTTPMethods() {
 
-        $res = HTTPUtility::getHTTPMethods();
+        $res = HTTPHelper::getHTTPMethods();
         $this->assertCount(7, $res);
     }
 
@@ -41,7 +41,7 @@ final class HTTPUtilityTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetHTTPStatus() {
 
-        $res = HTTPUtility::getHTTPStatus();
+        $res = HTTPHelper::getHTTPStatus();
         $this->assertCount(57, $res);
     }
 
