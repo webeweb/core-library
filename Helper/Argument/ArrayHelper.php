@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Helper\Argument;
 
+use WBW\Library\Core\Exception\Argument\ArrayArgumentException;
+
 /**
  * Array helper.
  *
@@ -29,6 +31,18 @@ class ArrayHelper {
      */
     public static function get(array $array, $key, $default = null) {
         return true === array_key_exists($key, $array) ? $array[$key] : $default;
+    }
+
+    /**
+     * Determines if a value is an array.
+     *
+     * @param mixed $value The value.
+     * @throws ArrayArgumentException Throws an Array argument exception if the value is not of expected type.
+     */
+    public static function isArray($value) {
+        if (false === is_array($value)) {
+            throw new ArrayArgumentException($value);
+        }
     }
 
     /**
