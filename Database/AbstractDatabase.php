@@ -11,10 +11,8 @@
 
 namespace WBW\Library\Core\Database;
 
-use DateTime;
 use Exception;
 use PDO;
-use WBW\Library\Core\Exception\IO\FileNotFoundException;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
@@ -163,7 +161,7 @@ abstract class AbstractDatabase {
      * @param Authenticator $authenticator The authenticator.
      * @return AbstractDatabase Returns this abstract database.
      */
-    public function setAuthenticator(Authenticator $authenticator) {
+    protected function setAuthenticator(Authenticator $authenticator) {
         $this->authenticator = $authenticator;
         return $this;
     }
@@ -174,7 +172,7 @@ abstract class AbstractDatabase {
      * @param string $database The database.
      * @return AbstractDatabase Returns this abstract database.
      */
-    public function setDatabase($database) {
+    protected function setDatabase($database) {
         $this->database = $database;
         return $this;
     }
