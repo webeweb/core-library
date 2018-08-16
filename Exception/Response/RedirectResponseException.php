@@ -45,7 +45,7 @@ class RedirectResponseException extends AbstractCoreException {
      * @param Exception $previous The previous exception.
      */
     public function __construct($route = "", $arguments = [], $message = "", Exception $previous = null) {
-        parent::__construct($message, $previous);
+        parent::__construct($message, 500, $previous);
         $this->arguments = $arguments;
         $this->route     = $route;
     }

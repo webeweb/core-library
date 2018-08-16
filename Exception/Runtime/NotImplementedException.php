@@ -29,7 +29,7 @@ class NotImplementedException extends AbstractCoreException {
      * @param Exception $previous The previous exception.
      */
     public function __construct($message, Exception $previous = null) {
-        parent::__construct($message, $previous);
+        parent::__construct($message, 500, $previous);
     }
 
 }

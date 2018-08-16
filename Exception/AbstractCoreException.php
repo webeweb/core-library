@@ -26,10 +26,11 @@ abstract class AbstractCoreException extends Exception {
      * Constructor.
      *
      * @param string $message The message.
+     * @param string $code The code.
      * @param Exception $previous The previous exception.
      */
-    public function __construct($message, Exception $previous = null) {
-        parent::__construct($message, 500, $previous);
+    public function __construct($message, $code = 500, Exception $previous = null) {
+        parent::__construct($message, $code, $previous);
     }
 
 }

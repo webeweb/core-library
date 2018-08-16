@@ -29,7 +29,7 @@ class PHPExtensionNotFoundException extends AbstractCoreException {
      * @param Exception $previous The previous exception.
      */
     public function __construct($extension, Exception $previous = null) {
-        parent::__construct(sprintf("The PHP extension \"%s\" is not found", $extension), $previous);
+        parent::__construct(sprintf("The PHP extension \"%s\" is not found", $extension), 500, $previous);
     }
 
 }

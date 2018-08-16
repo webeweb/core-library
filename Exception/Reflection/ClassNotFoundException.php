@@ -29,7 +29,7 @@ class ClassNotFoundException extends AbstractCoreException {
      * @param Exception $previous The previous exception.
      */
     public function __construct($classname, Exception $previous = null) {
-        parent::__construct(sprintf("The class \"%s\" is not found", $classname), $previous);
+        parent::__construct(sprintf("The class \"%s\" is not found", $classname), 500, $previous);
     }
 
 }
