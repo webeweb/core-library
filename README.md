@@ -6,9 +6,6 @@ core-library
 This package contains some classes we re-use regularly into other packages or
 projects.
 
-`core-library` uses a rolling release based on git master branch which is
-considered stable.
-
 ---
 
 ## Compatibility
