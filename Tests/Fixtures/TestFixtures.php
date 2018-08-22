@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Fixtures;
 
+use DateTime;
 use WBW\Library\Core\Tests\Fixtures\Node\TestNode;
 
 /**
@@ -56,6 +57,25 @@ final class TestFixtures {
 
         // Return the nodes.
         return $nodes;
+    }
+
+    /**
+     * Get the time slot date/times.
+     *
+     * @return DateTime[] Returns the time slot date/times.
+     */
+    public static function getTimeSlotDateTimes() {
+
+        // Initialize the dates.
+        $dates = [];
+
+        $dates[] = new DateTime("2018-08-22 08:00:00");
+        $dates[] = new DateTime("2018-08-22 11:00:00");
+        $dates[] = new DateTime("2018-08-22 15:00:00");
+        $dates[] = new DateTime("2018-08-22 18:00:00");
+
+        // Return the dates.
+        return $dates;
     }
 
 }
