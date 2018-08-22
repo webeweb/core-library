@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\IO;
+namespace WBW\Library\Core\Tests\IO;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
-use WBW\Library\Core\Helper\IO\FileHelper;
+use WBW\Library\Core\IO\FileHelper;
 
 /**
  * File utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\IO
+ * @package WBW\Library\Core\Tests\IO
  * @final
  */
 final class FileHelperTest extends PHPUnit_Framework_TestCase {
@@ -120,7 +120,7 @@ final class FileHelperTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetContents() {
 
-        $filename = getcwd() . "/Tests/Helper/IO/FileHelperTest.txt";
+        $filename = getcwd() . "/Tests/IO/FileHelperTest.txt";
 
         $this->assertEquals("FileHelperTest", FileHelper::getContents($filename), 'The method getContents() does not return the expected content');
 
@@ -139,7 +139,7 @@ final class FileHelperTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetFilenames() {
 
-        $pathname = getcwd() . "/Tests/Helper/IO";
+        $pathname = getcwd() . "/Tests/IO";
 
         $this->assertContains("FileHelperTest.php", FileHelper::getFilenames($pathname));
         $this->assertContains("FileHelperTest.txt", FileHelper::getFilenames($pathname, ".txt"));
@@ -159,7 +159,7 @@ final class FileHelperTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetSize() {
 
-        $this->assertEquals(14, FileHelper::getSize(getcwd() . "/Tests/Helper/IO/FileHelperTest.txt"));
+        $this->assertEquals(14, FileHelper::getSize(getcwd() . "/Tests/IO/FileHelperTest.txt"));
 
         try {
             FileHelper::getSize("exception");

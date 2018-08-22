@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\IO;
+namespace WBW\Library\Core\Tests\IO;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Helper\IO\HTTPHelper;
+use WBW\Library\Core\IO\HTTPHelper;
 
 /**
  * HTTP utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\IO
+ * @package WBW\Library\Core\Tests\IO
  * @final
  */
 final class HTTPHelperTest extends PHPUnit_Framework_TestCase {

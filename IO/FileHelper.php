@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\IO;
+namespace WBW\Library\Core\IO;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
@@ -21,7 +21,7 @@ use ZipArchive;
  * File helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\IO
+ * @package WBW\Library\Core\IO
  */
 class FileHelper implements FileInterface {
 

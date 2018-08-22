@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\IO;
+namespace WBW\Library\Core\IO;
 
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
 
@@ -17,7 +17,7 @@ use WBW\Library\Core\Exception\IO\FileNotFoundException;
  * Directory helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\IO
+ * @package WBW\Library\Core\IO
  */
 class DirectoryHelper {
 
