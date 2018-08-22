@@ -72,10 +72,23 @@ class TimeSlot {
     }
 
     /**
+     * Determines if a time slot A contains a time slot b.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function contains(TimeSlot $a, TimeSlot $b) {
+        $c1 = DateTimeHelper::isBetween($b->getStartDate(), $a->getStartDate(), $a->getEndDate());
+        $c2 = DateTimeHelper::isBetween($b->getEndDate(), $a->getStartDate(), $a->getEndDate());
+        return $c1 && $c2;
+    }
+
+    /**
      * Determines if two time slots are equals.
      *
-     * @param TimeSlot $a The time slot.
-     * @param TimeSlot $b The time slot.
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
      * @return boolean Returns true in case of success, false otherwise.
      */
     public static function equals(TimeSlot $a, TimeSlot $b) {
@@ -107,6 +120,28 @@ class TimeSlot {
     }
 
     /**
+     * Full join two time slots.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return TimeSlot|null Returns a time slot in case of success, null otherwise.
+     */
+    public static function fullJoin(TimeSlot $a, TimeSlot $b) {
+
+        // Has inner  ?
+        if (false === self::hasInnerJoin($a, $b)) {
+            return null;
+        }
+
+        // Initialize the date/times.
+        $startDate = DateTimeHelper::getSmaller($a->getStartDate(), $b->getStartDate());
+        $endDate   = DateTimeHelper::getGreater($a->getEndDate(), $b->getEndDate());
+
+        // Return the time slot.
+        return new TimeSlot(clone $startDate, clone $endDate);
+    }
+
+    /**
      * Get the end date.
      *
      * @return DateTime Returns the end date.
@@ -131,6 +166,104 @@ class TimeSlot {
      */
     public function getTimeSlots() {
         return $this->timeSlots;
+    }
+
+    /**
+     * Determines if a time slot A has full join with time slot B.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function hasFullJoin(TimeSlot $a, TimeSlot $b) {
+        return true === self::hasInnerJoin($a, $b);
+    }
+
+    /**
+     * Determines if a time slot A has an inner join with time slot B.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function hasInnerJoin(TimeSlot $a, TimeSlot $b) {
+        $c1 = DateTimeHelper::isBetween($b->getStartDate(), $a->getStartDate(), $a->getEndDate());
+        $c2 = DateTimeHelper::isBetween($b->getEndDate(), $a->getStartDate(), $a->getEndDate());
+        $c3 = DateTimeHelper::isBetween($a->getStartDate(), $b->getStartDate(), $b->getEndDate());
+        $c4 = DateTimeHelper::isBetween($a->getEndDate(), $b->getStartDate(), $b->getEndDate());
+        return $c1 || $c2 || $c3 || $c4;
+    }
+
+    /**
+     * Inner join two time slots.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return TimeSlot|null Returns a time slot in case of success, null otherwise.
+     */
+    public static function innerJoin(TimeSlot $a, TimeSlot $b) {
+
+        // Has inner join ?
+        if (false === self::hasInnerJoin($a, $b)) {
+            return null;
+        }
+
+        // Initialize the date/times.
+        $startDate = DateTimeHelper::getGreater($a->getStartDate(), $b->getStartDate());
+        $endDate   = DateTimeHelper::getSmaller($a->getEndDate(), $b->getEndDate());
+
+        // Return the time slot.
+        return new TimeSlot(clone $startDate, clone $endDate);
+    }
+
+    /**
+     * Left join two time slots.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return TimeSlot Returns the time slot in case of success, null otherwise.
+     */
+    public static function leftJoin(TimeSlot $a, TimeSlot $b) {
+
+        // Has inner join ?
+        if (false === self::hasInnerJoin($a, $b)) {
+            return null;
+        }
+
+        // Return the time slot.
+        return new TimeSlot(clone $a->getStartDate(), clone $a->getEndDate());
+    }
+
+    /**
+     * Left join two time slots without time slot B intersection.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return TimeSlot[] Returns the time slot in case of success, null otherwise.
+     */
+    public static function leftJoinWithout(TimeSlot $a, TimeSlot $b) {
+
+        // Has inner join ?
+        if (false === self::hasInnerJoin($a, $b) || true === self::contains($b, $a)) {
+            return null;
+        }
+
+        // Contains ?
+        if (true === self::contains($a, $b)) {
+            return [
+                new Timeslot(clone $a->getStartDate(), clone $b->getStartDate()),
+                new Timeslot(clone $b->getEndDate(), clone $a->getEndDate()),
+            ];
+        }
+
+        // Initialize the date/times.
+        $startDate = true === DateTimeHelper::isLessThan($a->getStartDate(), $b->getStartDate()) ? $a->getStartDate() : $b->getEndDate();
+        $endDate   = true === DateTimeHelper::isGreaterThan($a->getEndDate(), $b->getEndDate()) ? $a->getEndDate() : $b->getStartDate();
+
+        // Return the time slot.
+        return [
+            new TimeSlot(clone $startDate, clone $endDate),
+        ];
     }
 
     /**
