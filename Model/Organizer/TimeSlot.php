@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Model;
+namespace WBW\Library\Core\Model\Organizer;
 
 use DateTime;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
@@ -19,7 +19,7 @@ use WBW\Library\Core\Helper\Argument\DateTimeHelper;
  * Time slot.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Model
+ * @package WBW\Library\Core\Model\Organizer
  */
 class TimeSlot {
 
