@@ -317,4 +317,76 @@ final class TimeSlotTest extends PHPUnit_Framework_TestCase {
         $this->assertCount(0, $obj->getTimeSlots());
     }
 
+    /**
+     * Tests the rightJoin() method.
+     *
+     * @return void
+     */
+    public function testRightJoin() {
+
+        // 08:00-11:00 / 15:00-18:00
+        $this->assertNull(TimeSlot::rightJoin(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
+
+        // 08:00-18:00 / 11:00-15:00
+        $res1 = TimeSlot::rightJoin(new TimeSlot($this->dates[0], $this->dates[3]), new TimeSlot($this->dates[1], $this->dates[2]));
+        $this->assertEquals($this->dates[1], $res1->getStartDate()); /* 11:00 */
+        $this->assertEquals($this->dates[2], $res1->getEndDate()); /* 15:00 */
+
+        // 11:00-18:00 / 08:00-15:00
+        $res2 = TimeSlot::rightJoin(new TimeSlot($this->dates[1], $this->dates[3]), new TimeSlot($this->dates[0], $this->dates[2]));
+        $this->assertEquals($this->dates[0], $res2->getStartDate()); /* 08:00 */
+        $this->assertEquals($this->dates[2], $res2->getEndDate()); /* 15:00 */
+
+        // 08:00-15:00 / 11:00-18:00
+        $res3 = TimeSlot::rightJoin(new TimeSlot($this->dates[0], $this->dates[2]), new TimeSlot($this->dates[1], $this->dates[3]));
+        $this->assertEquals($this->dates[1], $res3->getStartDate()); /* 11:00 */
+        $this->assertEquals($this->dates[3], $res3->getEndDate()); /* 18:00 */
+
+        // 11:00-15:00 / 08:00-18:00
+        $res4 = TimeSlot::rightJoin(new TimeSlot($this->dates[1], $this->dates[2]), new TimeSlot($this->dates[0], $this->dates[3]));
+        $this->assertEquals($this->dates[0], $res4->getStartDate()); /* 08:00 */
+        $this->assertEquals($this->dates[3], $res4->getEndDate()); /* 18:00 */
+    }
+
+    /**
+     * Tests the rightJoinWithout() method.
+     *
+     * @return void
+     */
+    public function testRightJoinWithout() {
+
+        // 08:00-11:00 / 15:00-18:00
+        $this->assertNull(TimeSlot::rightJoinWithout(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
+
+        // 08:00-18:00 / 11:00-15:00
+        $this->assertNull(TimeSlot::rightJoinWithout(new TimeSlot($this->dates[0], $this->dates[3]), new TimeSlot($this->dates[1], $this->dates[2])));
+
+        // 11:00-18:00 / 08:00-15:00
+        $res2 = TimeSlot::rightJoinWithout(new TimeSlot($this->dates[1], $this->dates[3]), new TimeSlot($this->dates[0], $this->dates[2]));
+
+        $this->assertCount(1, $res2);
+
+        $this->assertEquals($this->dates[0], $res2[0]->getStartDate()); /* 08:00 */
+        $this->assertEquals($this->dates[1], $res2[0]->getEndDate()); /* 11:00 */
+
+        // 08:00-15:00 / 11:00-18:00
+        $res3 = TimeSlot::rightJoinWithout(new TimeSlot($this->dates[0], $this->dates[2]), new TimeSlot($this->dates[1], $this->dates[3]));
+
+        $this->assertCount(1, $res3);
+
+        $this->assertEquals($this->dates[2], $res3[0]->getStartDate()); /* 15:00 */
+        $this->assertEquals($this->dates[3], $res3[0]->getEndDate()); /* 18:00 */
+
+        // 11:00-15:00 / 08:00-18:00
+        $res4 = TimeSlot::rightJoinWithout(new TimeSlot($this->dates[1], $this->dates[2]), new TimeSlot($this->dates[0], $this->dates[3]));
+
+        $this->assertCount(2, $res4);
+
+        $this->assertEquals($this->dates[0], $res4[0]->getStartDate()); /* 08:00 */
+        $this->assertEquals($this->dates[1], $res4[0]->getEndDate()); /* 11:00 */
+
+        $this->assertEquals($this->dates[2], $res4[1]->getStartDate()); /* 15:00 */
+        $this->assertEquals($this->dates[3], $res4[1]->getEndDate()); /* 18:00 */
+    }
+
 }

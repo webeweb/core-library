@@ -283,6 +283,28 @@ class TimeSlot {
     }
 
     /**
+     * Right join two time slots.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return TimeSlot Returns the time slot in case of success, null otherwise.
+     */
+    public static function rightJoin(TimeSlot $a, TimeSlot $b) {
+        return self::leftJoin($b, $a);
+    }
+
+    /**
+     * Right join two time slots without time slot B intersection.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return TimeSlot[] Returns the time slot in case of success, null otherwise.
+     */
+    public static function rightJoinWithout(TimeSlot $a, TimeSlot $b) {
+        return self::leftJoinWithout($b, $a);
+    }
+
+    /**
      * Set the end date.
      *
      * @param DateTime $endDate The end date.
