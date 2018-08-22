@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\Sorting;
+namespace WBW\Library\Core\Tests\Sorting;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Helper\Sorting\AlphabeticalTreeNodeHelper;
-use WBW\Library\Core\Model\Sorting\AlphabeticalTreeNodeInterface;
+use WBW\Library\Core\Sorting\AlphabeticalTreeNodeHelper;
+use WBW\Library\Core\Sorting\AlphabeticalTreeNodeInterface;
 use WBW\Library\Core\Tests\Fixtures\Node\TestNode;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  * Alphabetical tree node helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\Sorting
+ * @package WBW\Library\Core\Sorting
  * @final
  */
 final class AlphabeticalTreeNodeHelperTest extends PHPUnit_Framework_TestCase {

@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\Sorting;
 
-use WBW\Library\Core\Helper\Sorting\AlphabeticalTreeNodeHelper;
-use WBW\Library\Core\Model\Sorting\AlphabeticalTreeNodeInterface;
-
 /**
  * Alphabetical tree sort.
  *

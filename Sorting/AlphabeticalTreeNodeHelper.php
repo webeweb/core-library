@@ -9,16 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\Sorting;
-
-use WBW\Library\Core\Model\Sorting\AlphabeticalTreeNodeInterface;
-use WBW\Library\Core\Sorting\AlphabeticalTreeSort;
+namespace WBW\Library\Core\Sorting;
 
 /**
  * Alphabetical tree node helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\Sorting
+ * @package WBW\Library\Core\Sorting
  */
 class AlphabeticalTreeNodeHelper {
 
