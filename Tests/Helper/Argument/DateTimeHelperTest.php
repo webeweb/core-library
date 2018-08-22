@@ -191,6 +191,17 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the isBetween() method.
+     *
+     * @return void
+     */
+    public function testIsBetween() {
+
+        $this->assertTrue(DateTimeHelper::isBetween(new DateTime("2018-08-22 10:00"), new DateTime("2018-08-22 08:00"), new DateTime("2018-08-22 12:00")));
+        $this->assertFalse(DateTimeHelper::isBetween(new DateTime("2018-08-22 08:00"), new DateTime("2018-08-22 10:00"), new DateTime("2018-08-22 12:00")));
+    }
+
+    /**
      * Tests the translateWeekday() method.
      *
      * @return void

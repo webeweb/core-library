@@ -140,6 +140,20 @@ class DateTimeHelper {
     }
 
     /**
+     * Determines if a date/time is between date/time A and date/time B.
+     * 
+     * @param DateTime $dateTime The date/time.
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function isBetween(DateTime $dateTime, DateTime $a, DateTime $b) {
+        $c1 = $a->getTimestamp() < $dateTime->getTimestamp();
+        $c2 = $dateTime->getTimestamp() < $b->getTimestamp();
+        return $c1 && $c2;
+    }
+
+    /**
      * Determines if a value is a date.
      *
      * @param mixed $value The value.
