@@ -128,8 +128,8 @@ class TimeSlot {
      */
     public static function fullJoin(TimeSlot $a, TimeSlot $b) {
 
-        // Has inner  ?
-        if (false === self::hasInnerJoin($a, $b)) {
+        // Has full join ?
+        if (false === self::hasFullJoin($a, $b)) {
             return null;
         }
 
@@ -139,6 +139,34 @@ class TimeSlot {
 
         // Return the time slot.
         return new TimeSlot(clone $startDate, clone $endDate);
+    }
+
+    /**
+     * Full join two time slots without time slots intersection.
+     *
+     * @param TimeSlot $a The time slot A.
+     * @param TimeSlot $b The time slot B.
+     * @return TimeSlot[] Returns the time slots in case of success, null otherwise.
+     */
+    public static function fullJoinWithout(TimeSlot $a, TimeSlot $b) {
+
+        // Initialize the time slots.
+        $leftJoins  = self::leftJoinWithout($a, $b);
+        $rightJoins = self::rightJoinWithout($a, $b);
+
+        // Check the time slots.
+        if (null === $leftJoins && null === $rightJoins) {
+            return null;
+        }
+        if (null === $leftJoins) {
+            return $rightJoins;
+        }
+        if (null === $rightJoins) {
+            return $leftJoins;
+        }
+
+        // Return the time slots.
+        return array_merge($leftJoins, $rightJoins);
     }
 
     /**
