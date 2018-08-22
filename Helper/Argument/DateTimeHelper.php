@@ -34,8 +34,6 @@ class DateTimeHelper {
      *   1: if the date/time A is greater than date/time B
      */
     public static function compare(DateTime $a, DateTime $b) {
-        $tsA = $a->getTimestamp();
-        $tsB = $b->getTimestamp();
         if (true === self::isLessThan($a, $b)) {
             return -1;
         }
