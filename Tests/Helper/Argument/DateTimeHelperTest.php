@@ -65,6 +65,20 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the getGreater() method.
+     *
+     * @return void.
+     */
+    public function testGetGreater() {
+
+        $dt = new DateTime("2018-08-22");
+
+        $this->assertSame($dt, DateTimeHelper::getGreater($dt, new DateTime("2018-08-21")));
+        $this->assertSame($dt, DateTimeHelper::getGreater($dt, new DateTime("2018-08-22")));
+        $this->assertNotSame($dt, DateTimeHelper::getGreater($dt, new DateTime("2018-08-23")));
+    }
+
+    /**
      * Tests the getMonthNumber() method.
      *
      * @return void
@@ -83,6 +97,20 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(10, DateTimeHelper::getMonthNumber(new DateTime("2018-10-01")));
         $this->assertEquals(11, DateTimeHelper::getMonthNumber(new DateTime("2018-11-01")));
         $this->assertEquals(12, DateTimeHelper::getMonthNumber(new DateTime("2018-12-01")));
+    }
+
+    /**
+     * Tests the getSmaller() method.
+     *
+     * @return void.
+     */
+    public function testGetSmaller() {
+
+        $dt = new DateTime("2018-08-22");
+
+        $this->assertNotSame($dt, DateTimeHelper::getSmaller($dt, new DateTime("2018-08-21")));
+        $this->assertNotSame($dt, DateTimeHelper::getSmaller($dt, new DateTime("2018-08-22")));
+        $this->assertSame($dt, DateTimeHelper::getSmaller($dt, new DateTime("2018-08-23")));
     }
 
     /**
@@ -199,6 +227,28 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
 
         $this->assertTrue(DateTimeHelper::isBetween(new DateTime("2018-08-22 10:00"), new DateTime("2018-08-22 08:00"), new DateTime("2018-08-22 12:00")));
         $this->assertFalse(DateTimeHelper::isBetween(new DateTime("2018-08-22 08:00"), new DateTime("2018-08-22 10:00"), new DateTime("2018-08-22 12:00")));
+    }
+
+    /**
+     * Tests the isGreaterThan() method.
+     *
+     * @return void
+     */
+    public function testIsGreaterThan() {
+
+        $this->assertTrue(DateTimeHelper::isGreaterThan(new DateTime("2018-08-22"), new DateTime("2018-08-21")));
+        $this->assertFalse(DateTimeHelper::isGreaterThan(new DateTime("2018-08-22"), new DateTime("2018-08-23")));
+    }
+
+    /**
+     * Tests the isLessThan() method.
+     *
+     * @return void
+     */
+    public function testIsLessThan() {
+
+        $this->assertTrue(DateTimeHelper::isLessThan(new DateTime("2018-08-22"), new DateTime("2018-08-23")));
+        $this->assertFalse(DateTimeHelper::isLessThan(new DateTime("2018-08-22"), new DateTime("2018-08-21")));
     }
 
     /**

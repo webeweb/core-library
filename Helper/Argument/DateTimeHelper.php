@@ -29,17 +29,17 @@ class DateTimeHelper {
      * @param DateTime $a The date/time.
      * @param DateTime $b The date/time.
      * @return int Returns
-     *  -1: if the date/time A is greater than date/time B
-     *  1: if the date/time A is lesser than date/time B
-     *  0: if the date/time are equals.
+     *  -1: if the date/time A is lesser than date/time B
+     *   0: if the date/time are equals.
+     *   1: if the date/time A is greater than date/time B
      */
     public static function compare(DateTime $a, DateTime $b) {
-        $timestampA = $a->getTimestamp();
-        $timestampB = $b->getTimestamp();
-        if ($timestampA < $timestampB) {
+        $tsA = $a->getTimestamp();
+        $tsB = $b->getTimestamp();
+        if (true === self::isLessThan($a, $b)) {
             return -1;
         }
-        if ($timestampB < $timestampA) {
+        if (true === self::isGreaterThan($a, $b)) {
             return 1;
         }
         return 0;
@@ -67,6 +67,17 @@ class DateTimeHelper {
     }
 
     /**
+     * Get the greater date/time.
+     *
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
+     * @return DateTime Returns the greater date/time.
+     */
+    public static function getGreater(DateTime $a, DateTime $b) {
+        return 0 <= self::compare($a, $b) ? $a : $b;
+    }
+
+    /**
      * Get a month number.
      *
      * @param DateTime $dateTime The date/time.
@@ -74,6 +85,17 @@ class DateTimeHelper {
      */
     public static function getMonthNumber(DateTime $dateTime) {
         return intval($dateTime->format("m"));
+    }
+
+    /**
+     * Get the smaller date/time.
+     *
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
+     * @return DateTime Returns the smaller date/time.
+     */
+    public static function getSmaller(DateTime $a, DateTime $b) {
+        return 0 <= self::compare($a, $b) ? $b : $a;
     }
 
     /**
@@ -141,15 +163,15 @@ class DateTimeHelper {
 
     /**
      * Determines if a date/time is between date/time A and date/time B.
-     * 
+     *
      * @param DateTime $dateTime The date/time.
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function isBetween(DateTime $dateTime, DateTime $a, DateTime $b) {
-        $c1 = $a->getTimestamp() < $dateTime->getTimestamp();
-        $c2 = $dateTime->getTimestamp() < $b->getTimestamp();
+        $c1 = $a->getTimestamp() <= $dateTime->getTimestamp();
+        $c2 = $dateTime->getTimestamp() <= $b->getTimestamp();
         return $c1 && $c2;
     }
 
@@ -163,6 +185,28 @@ class DateTimeHelper {
         if (false === strtotime($value)) {
             throw new DateArgumentException($value);
         }
+    }
+
+    /**
+     * Detremines if date/time A is greater than date/time B.
+     *
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function isGreaterThan(DateTime $a, DateTime $b) {
+        return $a->getTimestamp() > $b->getTimestamp();
+    }
+
+    /**
+     * Detremines if date/time A is less than date/time B.
+     *
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function isLessThan(DateTime $a, DateTime $b) {
+        return $a->getTimestamp() < $b->getTimestamp();
     }
 
     /**
