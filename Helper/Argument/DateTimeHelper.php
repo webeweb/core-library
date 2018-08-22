@@ -14,6 +14,7 @@ namespace WBW\Library\Core\Helper\Argument;
 use DateTime;
 use Symfony\Component\Yaml\Yaml;
 use WBW\Library\Core\Exception\Argument\DateArgumentException;
+use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 
 /**
  * Date/time helper.
@@ -26,8 +27,8 @@ class DateTimeHelper {
     /**
      * Compare two date/time.
      *
-     * @param DateTime $a The date/time.
-     * @param DateTime $b The date/time.
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
      * @return int Returns
      *  -1: if the date/time A is lesser than date/time B
      *   0: if the date/time are equals.
@@ -44,10 +45,23 @@ class DateTimeHelper {
     }
 
     /**
+     * Compare tow date/time zones.
+     *
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
+     */
+    protected static function compareZone(DateTime $a, DateTime $b) {
+        if (false === DateTimeZoneHelper::equals($a->getTimezone(), $b->getTimezone())) {
+            throw new IllegalArgumentException("The two date/times does not have the same time zone");
+        }
+    }
+
+    /**
      * Determines if two date/time are equals.
      *
-     * @param DateTime $a The date/time.
-     * @param DateTime $b The date/time.
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
      * @return boolean Returns true in case o success, false otherwise.
      */
     public static function equals(DateTime $a, DateTime $b) {
@@ -168,6 +182,7 @@ class DateTimeHelper {
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function isBetween(DateTime $dateTime, DateTime $a, DateTime $b) {
+        self::compareZone($a, $b);
         $c1 = $a->getTimestamp() <= $dateTime->getTimestamp();
         $c2 = $dateTime->getTimestamp() <= $b->getTimestamp();
         return $c1 && $c2;
@@ -193,6 +208,7 @@ class DateTimeHelper {
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function isGreaterThan(DateTime $a, DateTime $b) {
+        self::compareZone($a, $b);
         return $a->getTimestamp() > $b->getTimestamp();
     }
 
@@ -204,6 +220,7 @@ class DateTimeHelper {
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function isLessThan(DateTime $a, DateTime $b) {
+        self::compareZone($a, $b);
         return $a->getTimestamp() < $b->getTimestamp();
     }
 

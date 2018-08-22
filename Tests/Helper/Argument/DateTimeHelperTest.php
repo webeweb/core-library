@@ -12,7 +12,10 @@
 namespace WBW\Library\Core\Tests\Helper\Argument;
 
 use DateTime;
+use DateTimeZone;
+use Exception;
 use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Helper\Argument\DateTimeHelper;
 
 /**
@@ -30,6 +33,15 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
      * @return void
      */
     public function testCompare() {
+
+        try {
+
+            DateTimeHelper::compare(new DateTime("2018-08-22 14:05:00", new DateTimeZone("UTC")), new DateTime("2018-08-22 14:05:00", new DateTimeZone("Europe/Paris")));
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
+            $this->assertEquals("The two date/times does not have the same time zone", $ex->getMessage());
+        }
 
         $this->assertEquals(-1, DateTimeHelper::compare(new DateTime("2018-08-06 15:20:00"), new DateTime("2018-08-06 15:20:01")));
         $this->assertEquals(0, DateTimeHelper::compare(new DateTime("2018-08-06 15:20:00"), new DateTime("2018-08-06 15:20:00")));
