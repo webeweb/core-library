@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Model\Traits;
+namespace WBW\Library\Core\Model\Contact;
 
 /**
  * Address trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Model\Traits
+ * @package WBW\Library\Core\Model\Contact
  */
 trait AddressTrait {
 

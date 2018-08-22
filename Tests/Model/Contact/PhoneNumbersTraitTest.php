@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Model\Traits;
+namespace WBW\Library\Core\Tests\Model\Contact;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Model\Traits\PhoneNumbersTrait;
+use WBW\Library\Core\Model\Contact\PhoneNumbersTrait;
 
 /**
  * Phone numbers trait test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Model\Traits
+ * @package WBW\Library\Core\Tests\Model\Contact
  * @final
  */
 final class PhoneNumbersTraitTest extends PHPUnit_Framework_TestCase {
