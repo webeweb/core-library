@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Model;
+namespace WBW\Library\Core\Model\Contact;
 
 /**
  * Phone numbers interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Model
+ * @package WBW\Library\Core\Model\Contact
  */
 interface PhoneNumbersInterface {
 
