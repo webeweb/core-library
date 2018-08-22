@@ -3,7 +3,7 @@ core-library
 
 [![Build Status](https://travis-ci.org/webeweb/core-library.svg?branch=master)](https://travis-ci.org/webeweb/core-library) [![Coverage Status](https://coveralls.io/repos/github/webeweb/core-library/badge.svg?branch=master)](https://coveralls.io/github/webeweb/core-library?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webeweb/core-library/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/webeweb/core-library/?branch=master) [![Latest Stable Version](https://poser.pugx.org/webeweb/core-library/v/stable)](https://packagist.org/packages/webeweb/core-library) [![Latest Unstable Version](https://poser.pugx.org/webeweb/core-library/v/unstable)](https://packagist.org/packages/webeweb/core-library) [![License](https://poser.pugx.org/webeweb/core-library/license)](https://packagist.org/packages/webeweb/core-library) [![composer.lock](https://poser.pugx.org/webeweb/core-library/composerlock)](https://packagist.org/packages/webeweb/core-library)
 
-This package contains some classes we re-use regularly into other packages or
+`core-library` contains some classes we re-use regularly into other packages or
 projects.
 
 ---
@@ -24,7 +24,7 @@ Open a command console, enter your project directory and execute the following
 command to download the latest stable version of this package:
 
 ```bash
-$ composer require webeweb/core-library "^3.0"
+$ composer require webeweb/core-library "^4.0"
 ```
 
 This command requires you to have Composer installed globally, as explained in
