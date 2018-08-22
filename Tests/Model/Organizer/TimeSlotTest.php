@@ -201,6 +201,23 @@ final class TimeSlotTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the getDuration() method.
+     *
+     * @return void
+     */
+    public function testGetDuration() {
+
+        // 08:00-11:00
+        $this->assertEquals(10800, (new TimeSlot($this->dates[0], $this->dates[1]))->getDuration());
+
+        // 08:00-15:00
+        $this->assertEquals(25200, (new TimeSlot($this->dates[0], $this->dates[2]))->getDuration());
+
+        // 08:00-18:00
+        $this->assertEquals(36000, (new TimeSlot($this->dates[0], $this->dates[3]))->getDuration());
+    }
+
+    /**
      * Tests the hasFullJoin() method.
      *
      * @return void

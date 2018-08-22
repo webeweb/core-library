@@ -52,7 +52,7 @@ class TimeSlot {
      * @throws IllegalArgumentException Throws an illegal argument exception.
      */
     public function __construct(DateTime $startDate, DateTime $endDate) {
-        if ($endDate < $startDate) {
+        if (false === DateTimeHelper::isLessThan($startDate, $endDate)) {
             throw new IllegalArgumentException("The end date must be greater than start date");
         }
         $this->setEndDate($endDate);
@@ -167,6 +167,15 @@ class TimeSlot {
 
         // Return the time slots.
         return array_merge($leftJoins, $rightJoins);
+    }
+
+    /**
+     * Get the duration.
+     *
+     * @return int Returns the duration.
+     */
+    public function getDuration() {
+        return DateTimeHelper::getDuration($this->getStartDate(), $this->getEndDate());
     }
 
     /**
