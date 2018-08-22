@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\Argument;
+namespace WBW\Library\Core\Argument;
 
 use WBW\Library\Core\Exception\Argument\FloatArgumentException;
 
@@ -17,7 +17,7 @@ use WBW\Library\Core\Exception\Argument\FloatArgumentException;
  * Float helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\Argument
+ * @package WBW\Library\Core\Argument
  */
 class FloatHelper {
 

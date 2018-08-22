@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\Argument;
+namespace WBW\Library\Core\Tests\Argument;
 
 use DateTime;
 use Exception;
@@ -27,14 +27,14 @@ use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
-use WBW\Library\Core\Helper\Argument\ArgumentHelper;
-use WBW\Library\Core\Helper\Argument\ArgumentInterface;
+use WBW\Library\Core\Argument\ArgumentHelper;
+use WBW\Library\Core\Argument\ArgumentInterface;
 
 /**
  * Argument helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\Argument
+ * @package WBW\Library\Core\Tests\Argument
  * @final
  */
 final class ArgumentHelperTest extends PHPUnit_Framework_TestCase {
@@ -125,7 +125,7 @@ final class ArgumentHelperTest extends PHPUnit_Framework_TestCase {
             $this->assertEquals("The type \"-1\" is not implemented", $ex->getMessage());
         }
 
-        $rsc = fopen(getcwd() . "/Tests/Helper/Argument/ArgumentHelperTest.php", "r");
+        $rsc = fopen(getcwd() . "/Tests/Argument/ArgumentHelperTest.php", "r");
 
         $this->assertTrue(ArgumentHelper::isTypeOf([], ArgumentInterface::ARGUMENT_ARRAY));
         $this->assertTrue(ArgumentHelper::isTypeOf(true, ArgumentInterface::ARGUMENT_BOOLEAN));

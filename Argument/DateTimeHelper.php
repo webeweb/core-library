@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\Argument;
+namespace WBW\Library\Core\Argument;
 
 use DateTime;
 use Symfony\Component\Yaml\Yaml;
@@ -20,7 +20,7 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
  * Date/time helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\Argument
+ * @package WBW\Library\Core\Argument
  */
 class DateTimeHelper {
 
@@ -254,7 +254,7 @@ class DateTimeHelper {
     public static function translateWeekday($date, $locale = "en") {
 
         // Initialize.
-        $template = __DIR__ . "/../../Resources/translations/messages.%locale%.yml";
+        $template = __DIR__ . "/../Resources/translations/messages.%locale%.yml";
         $filename = str_replace("%locale%", $locale, $template);
 
         // Check if the filename exists.

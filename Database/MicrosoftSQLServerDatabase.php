@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Database;
 
 use PDO;
-use WBW\Library\Core\Helper\Argument\StringHelper;
+use WBW\Library\Core\Argument\StringHelper;
 use WBW\Library\Core\Security\Authenticator;
 
 /**

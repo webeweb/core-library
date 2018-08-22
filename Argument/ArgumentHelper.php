@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\Argument;
+namespace WBW\Library\Core\Argument;
 
 use DateTime;
 use WBW\Library\Core\Exception\Argument\DateArgumentException;
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Pointer\NullPointerException;
  * Argument helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\Argument
+ * @package WBW\Library\Core\Argument
  */
 class ArgumentHelper implements ArgumentInterface {
 

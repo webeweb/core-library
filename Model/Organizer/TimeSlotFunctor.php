@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Model\Organizer;
 
-use WBW\Library\Core\Helper\Argument\DateTimeHelper;
+use WBW\Library\Core\Argument\DateTimeHelper;
 use WBW\Library\Core\Sorting\FunctorInterface;
 
 /**

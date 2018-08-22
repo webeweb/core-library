@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\Argument;
+namespace WBW\Library\Core\Tests\Argument;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Helper\Argument\StringHelper;
+use WBW\Library\Core\Argument\StringHelper;
 
 /**
  * String utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\Argument
+ * @package WBW\Library\Core\Tests\Argument
  * @final
  */
 final class StringHelperTest extends PHPUnit_Framework_TestCase {

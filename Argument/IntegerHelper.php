@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\Argument;
+namespace WBW\Library\Core\Argument;
 
 use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
 use WBW\Library\Core\Database\PaginateHelper;
@@ -18,7 +18,7 @@ use WBW\Library\Core\Database\PaginateHelper;
  * Integer helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\Argument
+ * @package WBW\Library\Core\Argument
  */
 class IntegerHelper {
 

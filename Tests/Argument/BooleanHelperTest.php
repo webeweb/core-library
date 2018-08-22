@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\Argument;
+namespace WBW\Library\Core\Tests\Argument;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Helper\Argument\BooleanHelper;
+use WBW\Library\Core\Argument\BooleanHelper;
 
 /**
  * Boolean helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\Argument
+ * @package WBW\Library\Core\Tests\Argument
  * @final
  */
 final class BooleanHelperTest extends PHPUnit_Framework_TestCase {

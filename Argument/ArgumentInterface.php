@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\Argument;
+namespace WBW\Library\Core\Argument;
 
 /**
  * Argument interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\Argument
+ * @package WBW\Library\Core\Argument
  */
 interface ArgumentInterface {
 

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\Argument;
+namespace WBW\Library\Core\Tests\Argument;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
@@ -17,13 +17,13 @@ use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
-use WBW\Library\Core\Helper\Argument\ObjectHelper;
+use WBW\Library\Core\Argument\ObjectHelper;
 
 /**
  * Object helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\Argument
+ * @package WBW\Library\Core\Tests\Argument
  * @final
  */
 final class ObjectHelperTest extends PHPUnit_Framework_TestCase {
@@ -35,8 +35,8 @@ final class ObjectHelperTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetHooks() {
 
-        $classpath = getcwd() . "/Tests/Helper/Argument";
-        $namespace = "WBW\\Library\\Core\\Tests\\Helper\\Argument\\";
+        $classpath = getcwd() . "/Tests/Argument";
+        $namespace = "WBW\\Library\\Core\\Tests\\Argument\\";
 
         $hooks1 = ObjectHelper::getHooks($classpath, $namespace);
         foreach ($hooks1 as $current) {
@@ -109,7 +109,7 @@ final class ObjectHelperTest extends PHPUnit_Framework_TestCase {
             $this->assertEquals("Class classnotfound does not exist", $ex->getMessage());
         }
 
-        $this->assertEquals("WBW\Library\Core\Tests\Helper\Argument\ObjectHelperTest", ObjectHelper::getName($this));
+        $this->assertEquals("WBW\Library\Core\Tests\Argument\ObjectHelperTest", ObjectHelper::getName($this));
     }
 
     /**

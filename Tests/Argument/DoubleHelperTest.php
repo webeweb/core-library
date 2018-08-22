@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\Argument;
+namespace WBW\Library\Core\Tests\Argument;
 
 use Exception;
 use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
-use WBW\Library\Core\Helper\Argument\DoubleHelper;
+use WBW\Library\Core\Argument\DoubleHelper;
 
 /**
  * Double helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\Argument
+ * @package WBW\Library\Core\Tests\Argument
  * @final
  */
 final class DoubleHelperTest extends PHPUnit_Framework_TestCase {
