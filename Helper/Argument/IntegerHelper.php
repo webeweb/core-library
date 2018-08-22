@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Helper\Argument;
 
 use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
-use WBW\Library\Core\Helper\Database\PaginateHelper;
+use WBW\Library\Core\Database\PaginateHelper;
 
 /**
  * Integer helper.

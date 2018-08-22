@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\Database;
+namespace WBW\Library\Core\Tests\Database;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Helper\Database\PaginateHelper;
+use WBW\Library\Core\Database\PaginateHelper;
 
 /**
  * Paginate helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\Database
+ * @package WBW\Library\Core\Tests\Database
  * @final
  */
 final class PaginateHelperTest extends PHPUnit_Framework_TestCase {
