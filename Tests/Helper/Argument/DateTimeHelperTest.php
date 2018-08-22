@@ -281,12 +281,15 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
      */
     public function testTranslateWeekday() {
 
+        // Initialize the date/times.
         $arg = [];
         for ($i = 0; $i < 7; ++$i) {
             $arg[] = new DateTime("2018-04-" . ($i + 8));
         }
 
-        $res   = [];
+        // Initialize the results.
+        $res = [];
+
         $res[] = "Dimanche, 2018-04-08";
         $res[] = "Lundi, 2018-04-09";
         $res[] = "Mardi, 2018-04-10";
@@ -295,8 +298,14 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
         $res[] = "Vendredi, 2018-04-13";
         $res[] = "Samedi, 2018-04-14";
 
+        // Handle each date/time.
         for ($i = 0; $i < 7; ++$i) {
+
+            // With FR language : translation.
             $this->assertEquals($res[$i], DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d"), "fr"));
+
+            // With DE language : no translation.
+            $this->assertEquals($arg[$i]->format("l, Y-m-d"), DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d"), "de"));
         }
     }
 
