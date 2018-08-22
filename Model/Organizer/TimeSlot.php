@@ -239,7 +239,7 @@ class TimeSlot {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return TimeSlot[] Returns the time slot in case of success, null otherwise.
+     * @return TimeSlot[] Returns the time slots in case of success, null otherwise.
      */
     public static function leftJoinWithout(TimeSlot $a, TimeSlot $b) {
 
@@ -260,7 +260,7 @@ class TimeSlot {
         $startDate = true === DateTimeHelper::isLessThan($a->getStartDate(), $b->getStartDate()) ? $a->getStartDate() : $b->getEndDate();
         $endDate   = true === DateTimeHelper::isGreaterThan($a->getEndDate(), $b->getEndDate()) ? $a->getEndDate() : $b->getStartDate();
 
-        // Return the time slot.
+        // Return the time slots.
         return [
             new TimeSlot(clone $startDate, clone $endDate),
         ];
@@ -298,7 +298,7 @@ class TimeSlot {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return TimeSlot[] Returns the time slot in case of success, null otherwise.
+     * @return TimeSlot[] Returns the time slots in case of success, null otherwise.
      */
     public static function rightJoinWithout(TimeSlot $a, TimeSlot $b) {
         return self::leftJoinWithout($b, $a);
@@ -332,7 +332,7 @@ class TimeSlot {
      * @param TimeSlot[] $timeSlots The time slots.
      * @return TimeSlot Returns this time slot.
      */
-    protected function setTimeSlots(array $timeSlots) {
+    protected function setTimeSlots($timeSlots) {
         $this->timeSlots = $timeSlots;
         return $this;
     }
