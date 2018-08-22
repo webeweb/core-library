@@ -171,11 +171,11 @@ final class TimeSlotTest extends PHPUnit_Framework_TestCase {
 
         $this->assertCount(2, $res2);
 
-        $this->assertEquals($this->dates[2], $res2[0]->getStartDate()); /* 15:00 */
-        $this->assertEquals($this->dates[3], $res2[0]->getEndDate()); /* 18:00 */
+        $this->assertEquals($this->dates[0], $res2[0]->getStartDate()); /* 08:00 */
+        $this->assertEquals($this->dates[1], $res2[0]->getEndDate()); /* 11:00 */
 
-        $this->assertEquals($this->dates[0], $res2[1]->getStartDate()); /* 08:00 */
-        $this->assertEquals($this->dates[1], $res2[1]->getEndDate()); /* 11:00 */
+        $this->assertEquals($this->dates[2], $res2[1]->getStartDate()); /* 15:00 */
+        $this->assertEquals($this->dates[3], $res2[1]->getEndDate()); /* 18:00 */
 
         // 08:00-15:00 / 11:00-18:00
         $res3 = TimeSlot::fullJoinWithout(new TimeSlot($this->dates[0], $this->dates[2]), new TimeSlot($this->dates[1], $this->dates[3]));

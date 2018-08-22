@@ -14,6 +14,7 @@ namespace WBW\Library\Core\Model\Organizer;
 use DateTime;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Helper\Argument\DateTimeHelper;
+use WBW\Library\Core\Sorting\QuickSort;
 
 /**
  * Time slot.
@@ -166,7 +167,7 @@ class TimeSlot {
         }
 
         // Return the time slots.
-        return array_merge($leftJoins, $rightJoins);
+        return self::sort(array_merge($leftJoins, $rightJoins));
     }
 
     /**
@@ -287,10 +288,10 @@ class TimeSlot {
 
         // Contains ?
         if (true === self::contains($a, $b)) {
-            return [
-                new Timeslot(clone $a->getStartDate(), clone $b->getStartDate()),
-                new Timeslot(clone $b->getEndDate(), clone $a->getEndDate()),
-            ];
+            return self::sort([
+                    new Timeslot(clone $a->getStartDate(), clone $b->getStartDate()),
+                    new Timeslot(clone $b->getEndDate(), clone $a->getEndDate()),
+            ]);
         }
 
         // Initialize the date/times.
@@ -372,6 +373,22 @@ class TimeSlot {
     protected function setTimeSlots($timeSlots) {
         $this->timeSlots = $timeSlots;
         return $this;
+    }
+
+    /**
+     * Sort time slots.
+     *
+     * @param TimeSlot[] $timeSlots The time slots.
+     * @return TimeSlot[] Returns the sorted time slots.
+     */
+    public static function sort($timeSlots) {
+
+        // Initialize a Qucik sort.
+        $sorter = new QuickSort($timeSlots, new TimeSlotFunctor());
+        $sorter->sort();
+
+        // Return the time slots.
+        return $sorter->getValues();
     }
 
 }
