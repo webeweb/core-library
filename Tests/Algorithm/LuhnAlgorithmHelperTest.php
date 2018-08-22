@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper\Algorithm;
+namespace WBW\Library\Core\Tests\Algorithm;
 
 use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Helper\Algorithm\LuhnAlgorithmHelper;
+use WBW\Library\Core\Algorithm\LuhnAlgorithmHelper;
 
 /**
  * Luhn algorithm helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Helper\Algorithm
+ * @package WBW\Library\Core\Tests\Algorithm
  * @final
  */
 final class LuhnAlgorithmTest extends PHPUnit_Framework_TestCase {

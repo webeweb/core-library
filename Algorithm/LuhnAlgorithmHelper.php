@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper\Algorithm;
+namespace WBW\Library\Core\Algorithm;
 
 /**
  * Luhn algorithm helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Helper\Algorithm
+ * @package WBW\Library\Core\Algorithm
  */
 class LuhnAlgorithmHelper {
 
