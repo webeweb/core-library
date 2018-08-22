@@ -77,6 +77,17 @@ final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
     }
 
     /**
+     * Tests the getDuration() method.
+     *
+     * @return void
+     */
+    public function testGetDuration() {
+
+        $this->assertEquals(-3600, DateTimeHelper::getDuration(new DateTime("2018-08-20 16:00:00"), new DateTime("2018-08-20 15:00:00")));
+        $this->assertEquals(3600, DateTimeHelper::getDuration(new DateTime("2018-08-20 15:00:00"), new DateTime("2018-08-20 16:00:00")));
+    }
+
+    /**
      * Tests the getGreater() method.
      *
      * @return void.

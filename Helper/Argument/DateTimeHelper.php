@@ -33,6 +33,7 @@ class DateTimeHelper {
      *  -1: if the date/time A is lesser than date/time B
      *   0: if the date/time are equals.
      *   1: if the date/time A is greater than date/time B
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function compare(DateTime $a, DateTime $b) {
         if (true === self::isLessThan($a, $b)) {
@@ -63,6 +64,7 @@ class DateTimeHelper {
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
      * @return boolean Returns true in case o success, false otherwise.
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function equals(DateTime $a, DateTime $b) {
         return 0 === self::compare($a, $b);
@@ -79,11 +81,25 @@ class DateTimeHelper {
     }
 
     /**
+     * Get the duration.
+     *
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
+     * @return int Returns the duration.
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
+     */
+    public static function getDuration(DateTime $a, DateTime $b) {
+        self::compareZone($a, $b);
+        return $b->getTimestamp() - $a->getTimestamp();
+    }
+
+    /**
      * Get the greater date/time.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
      * @return DateTime Returns the greater date/time.
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function getGreater(DateTime $a, DateTime $b) {
         return 0 <= self::compare($a, $b) ? $a : $b;
@@ -105,6 +121,7 @@ class DateTimeHelper {
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
      * @return DateTime Returns the smaller date/time.
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function getSmaller(DateTime $a, DateTime $b) {
         return 0 <= self::compare($a, $b) ? $b : $a;
@@ -180,6 +197,7 @@ class DateTimeHelper {
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
      * @return bool Returns true in case of success, false otherwise.
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isBetween(DateTime $dateTime, DateTime $a, DateTime $b) {
         self::compareZone($a, $b);
@@ -206,6 +224,7 @@ class DateTimeHelper {
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
      * @return bool Returns true in case of success, false otherwise.
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isGreaterThan(DateTime $a, DateTime $b) {
         self::compareZone($a, $b);
@@ -218,6 +237,7 @@ class DateTimeHelper {
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
      * @return bool Returns true in case of success, false otherwise.
+     * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isLessThan(DateTime $a, DateTime $b) {
         self::compareZone($a, $b);
