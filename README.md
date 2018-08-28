@@ -56,5 +56,5 @@ $ vendor/bin/phpunit
 
 ## License
 
-core-library is released under the LGPL License. See the bundled [LICENSE](LICENSE)
+`core-library` is released under the LGPL License. See the bundled [LICENSE](LICENSE)
 file for details.
