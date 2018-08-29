@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Algorithm;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Algorithm\LuhnAlgorithmHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Luhn algorithm helper test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Algorithm\LuhnAlgorithmHelper;
  * @package WBW\Library\Core\Tests\Algorithm
  * @final
  */
-final class LuhnAlgorithmTest extends PHPUnit_Framework_TestCase {
+final class LuhnAlgorithmTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the check() method.
