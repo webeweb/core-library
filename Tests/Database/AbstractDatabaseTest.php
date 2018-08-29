@@ -11,9 +11,9 @@
 
 namespace WBW\Library\Core\Tests\Database;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Abstract database test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Security\PasswordAuthentication;
  * @package WBW\Library\Core\Tests\Database
  * @abstract
  */
-abstract class AbstractDatabaseTest extends PHPUnit_Framework_TestCase {
+abstract class AbstractDatabaseTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Authenticator.

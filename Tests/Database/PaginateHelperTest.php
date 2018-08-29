@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Database;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Database\PaginateHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Paginate helper test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Database\PaginateHelper;
  * @package WBW\Library\Core\Tests\Database
  * @final
  */
-final class PaginateHelperTest extends PHPUnit_Framework_TestCase {
+final class PaginateHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the getPageOffsetAndLimit() method.
