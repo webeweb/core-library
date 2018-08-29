@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Model\Contact;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Model\Contact\AddressTrait;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Address trait test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Model\Contact\AddressTrait;
  * @package WBW\Library\Core\Tests\Model\Contact
  * @final
  */
-final class AddressTraitTest extends PHPUnit_Framework_TestCase {
+final class AddressTraitTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Address.

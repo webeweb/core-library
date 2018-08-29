@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Model\Contact;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Model\Contact\PhoneNumbersTrait;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Phone numbers trait test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Model\Contact\PhoneNumbersTrait;
  * @package WBW\Library\Core\Tests\Model\Contact
  * @final
  */
-final class PhoneNumbersTraitTest extends PHPUnit_Framework_TestCase {
+final class PhoneNumbersTraitTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Phone numbers.
