@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Reflection;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Syntax error exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
  * @package WBW\Library\Core\Tests\Exception\Reflection
  * @final
  */
-final class SyntaxErrorExceptionTest extends PHPUnit_Framework_TestCase {
+final class SyntaxErrorExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

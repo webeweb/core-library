@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Reflection;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Class not found exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
  * @package WBW\Library\Core\Tests\Exception\Reflection
  * @final
  */
-final class ClassNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
+final class ClassNotFoundExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
