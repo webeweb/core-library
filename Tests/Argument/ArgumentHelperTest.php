@@ -13,7 +13,8 @@ namespace WBW\Library\Core\Tests\Argument;
 
 use DateTime;
 use Exception;
-use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Argument\ArgumentHelper;
+use WBW\Library\Core\Argument\ArgumentInterface;
 use WBW\Library\Core\Exception\Argument\ArrayArgumentException;
 use WBW\Library\Core\Exception\Argument\BooleanArgumentException;
 use WBW\Library\Core\Exception\Argument\DateArgumentException;
@@ -27,8 +28,7 @@ use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
-use WBW\Library\Core\Argument\ArgumentHelper;
-use WBW\Library\Core\Argument\ArgumentInterface;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Argument helper test.
@@ -37,7 +37,7 @@ use WBW\Library\Core\Argument\ArgumentInterface;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class ArgumentHelperTest extends PHPUnit_Framework_TestCase {
+final class ArgumentHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the convert() method.

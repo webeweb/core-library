@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Argument\ArrayHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Array helper test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Argument\ArrayHelper;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class ArrayHelperTest extends PHPUnit_Framework_TestCase {
+final class ArrayHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the get() method.

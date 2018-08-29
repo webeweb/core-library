@@ -14,9 +14,9 @@ namespace WBW\Library\Core\Tests\Argument;
 use DateTime;
 use DateTimeZone;
 use Exception;
-use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Argument\DateTimeHelper;
+use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Date/time helper test.
@@ -25,7 +25,7 @@ use WBW\Library\Core\Argument\DateTimeHelper;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class DateTimeHelperTest extends PHPUnit_Framework_TestCase {
+final class DateTimeHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the compare() method.

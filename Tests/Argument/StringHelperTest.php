@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Argument\StringHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * String utility test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Argument\StringHelper;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class StringHelperTest extends PHPUnit_Framework_TestCase {
+final class StringHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the parseArray() method.

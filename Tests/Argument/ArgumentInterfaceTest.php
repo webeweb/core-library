@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Argument\ArgumentInterface;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Argument interface test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Argument\ArgumentInterface;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class ArgumentInterfaceTest extends PHPUnit_Framework_TestCase {
+final class ArgumentInterfaceTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

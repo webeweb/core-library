@@ -12,9 +12,9 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use Exception;
-use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
 use WBW\Library\Core\Argument\IntegerHelper;
+use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Integer helper test.
@@ -23,7 +23,7 @@ use WBW\Library\Core\Argument\IntegerHelper;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class IntegerHelperTest extends PHPUnit_Framework_TestCase {
+final class IntegerHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the getLinesOffset() method.

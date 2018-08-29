@@ -12,8 +12,8 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use DateTimeZone;
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Argument\DateTimeZoneHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Date/time zone helper test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Argument\DateTimeZoneHelper;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class DateTimeZoneHelperTest extends PHPUnit_Framework_TestCase {
+final class DateTimeZoneHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the equals() method.

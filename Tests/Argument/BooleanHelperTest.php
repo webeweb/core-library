@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Argument\BooleanHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Boolean helper test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Argument\BooleanHelper;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class BooleanHelperTest extends PHPUnit_Framework_TestCase {
+final class BooleanHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the parseString() method.

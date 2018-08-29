@@ -12,9 +12,9 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use Exception;
-use PHPUnit_Framework_TestCase;
-use WBW\Library\Core\Exception\Argument\FloatArgumentException;
 use WBW\Library\Core\Argument\FloatHelper;
+use WBW\Library\Core\Exception\Argument\FloatArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Float helper test.
@@ -23,7 +23,7 @@ use WBW\Library\Core\Argument\FloatHelper;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class FloatHelperTest extends PHPUnit_Framework_TestCase {
+final class FloatHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the parseString() method.
