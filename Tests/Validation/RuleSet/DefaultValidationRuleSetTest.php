@@ -14,16 +14,16 @@ namespace WBW\Library\Core\Tests\Validation\RuleSet;
 use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
 use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
 use WBW\Library\Core\Validation\API\ValidationStatusInterface;
-use WBW\Library\Core\Validation\RuleSet\GenericValidationRuleSet;
+use WBW\Library\Core\Validation\RuleSet\DefaultValidationRuleSet;
 
 /**
- * Generic validation rule set test.
+ * Default validation rule set test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\RuleSet
  * @final
  */
-final class GenericValidationRuleSetTest extends AbstractValidationTest {
+final class DefaultValidationRuleSetTest extends AbstractValidationTest {
 
     /**
      * Tests the __construct() method.
@@ -32,7 +32,7 @@ final class GenericValidationRuleSetTest extends AbstractValidationTest {
      */
     public function testConstruct() {
 
-        $obj = new GenericValidationRuleSet();
+        $obj = new DefaultValidationRuleSet();
 
         $this->assertEquals([], $obj->getRules());
     }
@@ -44,7 +44,7 @@ final class GenericValidationRuleSetTest extends AbstractValidationTest {
      */
     public function testAddRule() {
 
-        $obj = new GenericValidationRuleSet();
+        $obj = new DefaultValidationRuleSet();
 
         $arg = new TestValidationRule();
 
@@ -62,7 +62,7 @@ final class GenericValidationRuleSetTest extends AbstractValidationTest {
      */
     public function testIsValid() {
 
-        $obj = new GenericValidationRuleSet();
+        $obj = new DefaultValidationRuleSet();
         $obj->addRule(new TestValidationRule());
 
         $res = $obj->isValid(new TestValidationRule());
@@ -79,7 +79,7 @@ final class GenericValidationRuleSetTest extends AbstractValidationTest {
      */
     public function testRemoveRule() {
 
-        $obj = new GenericValidationRuleSet();
+        $obj = new DefaultValidationRuleSet();
 
         $arg = new TestValidationRule();
 

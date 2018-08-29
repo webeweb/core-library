@@ -14,12 +14,12 @@ namespace WBW\Library\Core\Validation;
 use WBW\Library\Core\Validation\API\ValidationRuleSetInterface;
 
 /**
- * Generic validator.
+ * Default validator.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Validation
  */
-class GenericValidator extends AbstractValidator {
+class DefaultValidator extends AbstractValidator {
 
     /**
      * Constructor.

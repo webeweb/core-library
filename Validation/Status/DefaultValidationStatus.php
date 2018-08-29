@@ -12,12 +12,12 @@
 namespace WBW\Library\Core\Validation\Status;
 
 /**
- * Generic validation status.
+ * Default validation status.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Validation\Status
  */
-class GenericValidationStatus extends AbstractValidationStatus {
+class DefaultValidationStatus extends AbstractValidationStatus {
 
     /**
      * Constructor.

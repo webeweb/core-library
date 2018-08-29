@@ -12,12 +12,12 @@
 namespace WBW\Library\Core\Validation\RuleSet;
 
 /**
- * Generic validation rule set.
+ * Default validation rule set.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Validation\RuleSet
  */
-class GenericValidationRuleSet extends AbstractValidationRuleSet {
+class DefaultValidationRuleSet extends AbstractValidationRuleSet {
 
     /**
      * Constructor.

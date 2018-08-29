@@ -12,16 +12,16 @@
 namespace WBW\Library\Core\Tests\Validation\Status;
 
 use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
-use WBW\Library\Core\Validation\Status\GenericValidationStatus;
+use WBW\Library\Core\Validation\Status\DefaultValidationStatus;
 
 /**
- * Generic validation status test.
+ * Default validation status test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\Status
  * @final
  */
-final class GenericValidationStatusTest extends AbstractValidationTest {
+final class DefaultValidationStatusTest extends AbstractValidationTest {
 
     /**
      * Tests the __construct() method.
@@ -30,7 +30,7 @@ final class GenericValidationStatusTest extends AbstractValidationTest {
      */
     public function testConstruct() {
 
-        $obj = new GenericValidationStatus();
+        $obj = new DefaultValidationStatus();
 
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getMessage());
@@ -43,7 +43,7 @@ final class GenericValidationStatusTest extends AbstractValidationTest {
      */
     public function testSetCode() {
 
-        $obj = new GenericValidationStatus();
+        $obj = new DefaultValidationStatus();
 
         $obj->setCode(200);
         $this->assertEquals(200, $obj->getCode());
@@ -56,7 +56,7 @@ final class GenericValidationStatusTest extends AbstractValidationTest {
      */
     public function testSetMessage() {
 
-        $obj = new GenericValidationStatus();
+        $obj = new DefaultValidationStatus();
 
         $obj->setMessage("message");
         $this->assertEquals("message", $obj->getMessage());

@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Fixtures\Validation\Rule;
 
 use WBW\Library\Core\Validation\Rule\AbstractValidationRule;
-use WBW\Library\Core\Validation\Status\GenericValidationStatus;
+use WBW\Library\Core\Validation\Status\DefaultValidationStatus;
 
 /**
  * Test validation rule.
@@ -34,7 +34,7 @@ final class TestValidationRule extends AbstractValidationRule {
      * {@inheritdoc}
      */
     public function isValid($object) {
-        $status = new GenericValidationStatus(200);
+        $status = new DefaultValidationStatus(200);
         if (false === is_int($object)) {
             $status->setCode(500);
             $status->setMessage("The argument is not an int");

@@ -13,16 +13,16 @@ namespace WBW\Library\Core\Tests\Validation;
 
 use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
 use WBW\Library\Core\Validation\API\ValidationStatusInterface;
-use WBW\Library\Core\Validation\GenericValidator;
+use WBW\Library\Core\Validation\DefaultValidator;
 
 /**
- * Generic validator test.
+ * Default validator test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation
  * @final
  */
-final class GenericValidatorTest extends AbstractValidationTest {
+final class DefaultValidatorTest extends AbstractValidationTest {
 
     /**
      * Tests the __construct() method.
@@ -31,7 +31,7 @@ final class GenericValidatorTest extends AbstractValidationTest {
      */
     public function testConstruct() {
 
-        $obj = new GenericValidator($this->ruleSet);
+        $obj = new DefaultValidator($this->ruleSet);
 
         $this->assertSame($this->ruleSet, $obj->getRuleSet());
     }
@@ -43,7 +43,7 @@ final class GenericValidatorTest extends AbstractValidationTest {
      */
     public function testIsValid() {
 
-        $obj = new GenericValidator($this->ruleSet);
+        $obj = new DefaultValidator($this->ruleSet);
 
         $res = $obj->isValid(new TestValidationRule());
         $this->assertCount(1, $res);
