@@ -12,9 +12,9 @@
 namespace WBW\Library\Core\Tests\IO;
 
 use Exception;
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
 use WBW\Library\Core\IO\DirectoryHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Directory utility test.
@@ -23,7 +23,7 @@ use WBW\Library\Core\IO\DirectoryHelper;
  * @package WBW\Library\Core\Tests\IO
  * @final
  */
-final class DirectoryHelperTest extends PHPUnit_Framework_TestCase {
+final class DirectoryHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the create() method.

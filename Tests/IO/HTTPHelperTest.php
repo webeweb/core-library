@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\IO;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\IO\HTTPHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * HTTP utility test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\IO\HTTPHelper;
  * @package WBW\Library\Core\Tests\IO
  * @final
  */
-final class HTTPHelperTest extends PHPUnit_Framework_TestCase {
+final class HTTPHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the getHTTPMethods() method.

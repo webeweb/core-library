@@ -12,10 +12,10 @@
 namespace WBW\Library\Core\Tests\IO;
 
 use Exception;
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
 use WBW\Library\Core\IO\FileHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * File utility test.
@@ -24,7 +24,7 @@ use WBW\Library\Core\IO\FileHelper;
  * @package WBW\Library\Core\Tests\IO
  * @final
  */
-final class FileHelperTest extends PHPUnit_Framework_TestCase {
+final class FileHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Filename.
