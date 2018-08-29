@@ -17,7 +17,7 @@ use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
 /**
  * Abstract validation rule test.
  *
- * @author Camille A. <camille@ingeneo.eu>
+ * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\Rule
  * @final
  */
