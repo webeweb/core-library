@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Double argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class DoubleArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class DoubleArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

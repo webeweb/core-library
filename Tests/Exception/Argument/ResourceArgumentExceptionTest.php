@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Resource argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class ResourceArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class ResourceArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

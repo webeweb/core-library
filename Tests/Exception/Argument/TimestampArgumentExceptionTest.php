@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Timestamp argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class TimestampArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class TimestampArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\BooleanArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Boolean argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Argument\BooleanArgumentException;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class BooleanArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class BooleanArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

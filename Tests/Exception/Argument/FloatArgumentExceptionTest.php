@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\FloatArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Float argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Argument\FloatArgumentException;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class FloatArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class FloatArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

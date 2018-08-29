@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Integer argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class IntegerArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class IntegerArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

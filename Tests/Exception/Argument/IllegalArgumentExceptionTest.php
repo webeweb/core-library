@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Illegal argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class IllegalArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class IllegalArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

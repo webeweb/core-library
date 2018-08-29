@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * String argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Argument\StringArgumentException;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class StringArgumentExceptionTest extends PHPUnit_Framework_TestCase {
+final class StringArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
