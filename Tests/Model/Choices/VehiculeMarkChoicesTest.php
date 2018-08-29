@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Model\Choices;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Model\Choices\VehiculeMarkChoices;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Vehicule mark choices test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Model\Choices\VehiculeMarkChoices;
  * @package WBW\Library\Core\Tests\Model\Choices
  * @final
  */
-final class VehiculeMakChoicesTest extends PHPUnit_Framework_TestCase {
+final class VehiculeMakChoicesTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the getChoices() method.

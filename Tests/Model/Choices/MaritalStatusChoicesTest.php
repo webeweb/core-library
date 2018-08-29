@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Model\Choices;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Model\Choices\MaritalStatusChoices;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Marital status choices test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Model\Choices\MaritalStatusChoices;
  * @package WBW\Library\Core\Model\Choices
  * @final
  */
-final class MaritalStatusChoicesTest extends PHPUnit_Framework_TestCase {
+final class MaritalStatusChoicesTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the getChoices() method.
