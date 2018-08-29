@@ -25,7 +25,7 @@ class GenericValidationStatus extends AbstractValidationStatus {
      * @param int $code The code.
      * @param string $message The message.
      */
-    public function __construct($code, $message) {
+    public function __construct($code = null, $message = null) {
         parent::__construct($code, $message);
     }
 

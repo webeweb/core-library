@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Validation\Status;
 
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
 use WBW\Library\Core\Validation\Status\GenericValidationStatus;
 
 /**
@@ -21,7 +21,7 @@ use WBW\Library\Core\Validation\Status\GenericValidationStatus;
  * @package WBW\Library\Core\Tests\Validation\Status
  * @final
  */
-final class GenericValidationStatusTest extends AbstractCoreFrameworkTestCase {
+final class GenericValidationStatusTest extends AbstractValidationTest {
 
     /**
      * Tests the __construct() method.
@@ -30,10 +30,36 @@ final class GenericValidationStatusTest extends AbstractCoreFrameworkTestCase {
      */
     public function testConstruct() {
 
-        $obj = new GenericValidationStatus(200, "OK");
+        $obj = new GenericValidationStatus();
 
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getMessage());
+    }
+
+    /**
+     * Tests The setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new GenericValidationStatus();
+
+        $obj->setCode(200);
         $this->assertEquals(200, $obj->getCode());
-        $this->assertEquals("OK", $obj->getMessage());
+    }
+
+    /**
+     * Tests The setMessage() method.
+     *
+     * @return void
+     */
+    public function testSetMessage() {
+
+        $obj = new GenericValidationStatus();
+
+        $obj->setMessage("message");
+        $this->assertEquals("message", $obj->getMessage());
     }
 
 }

@@ -71,7 +71,7 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
      * @param int $code The code.
      * @return ValidationStatusInterface Returns this validation status.
      */
-    protected function setCode($code) {
+    public function setCode($code) {
         $this->code = $code;
         return $this;
     }
@@ -82,7 +82,7 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
      * @param string $message The message.
      * @return ValidationStatusInterface Returns this validation status.
      */
-    protected function setMessage($message) {
+    public function setMessage($message) {
         $this->message = $message;
         return $this;
     }
