@@ -11,6 +11,12 @@
 
 namespace WBW\Library\Core\Tests\Validation;
 
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
+use WBW\Library\Core\Validation\API\ValidationRuleInterface;
+use WBW\Library\Core\Validation\API\ValidationRuleSetInterface;
+use WBW\Library\Core\Validation\RuleSet\GenericValidationRuleSet;
+
 /**
  * Abstract validation test.
  *
@@ -18,13 +24,34 @@ namespace WBW\Library\Core\Tests\Validation;
  * @package WBW\Library\Core\Tests\Validation
  * @abstract
  */
-abstract class AbstractValidationTest extends \WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase {
+abstract class AbstractValidationTest extends AbstractCoreFrameworkTestCase {
+
+    /**
+     * Rule.
+     *
+     * @var ValidationRuleInterface
+     */
+    protected $rule;
+
+    /**
+     * Rule set.
+     *
+     * @var ValidationRuleSetInterface
+     */
+    protected $ruleSet;
 
     /**
      * {@inheritdoc}
      */
     protected function setUp() {
         parent::setUp();
+
+        // Set a Validation rule mock.
+        $this->rule = new TestValidationRule();
+
+        // Set a Validation rule set mock.
+        $this->ruleSet = new GenericValidationRuleSet();
+        $this->ruleSet->addRule($this->rule);
     }
 
 }
