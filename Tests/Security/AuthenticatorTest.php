@@ -12,10 +12,10 @@
 namespace WBW\Library\Core\Tests\Security;
 
 use Exception;
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Authenticator test.
@@ -24,7 +24,7 @@ use WBW\Library\Core\Security\PasswordAuthentication;
  * @package WBW\Library\Core\Tests\Security
  * @final
  */
-final class AuthenticatorTest extends PHPUnit_Framework_TestCase {
+final class AuthenticatorTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Password authentication.

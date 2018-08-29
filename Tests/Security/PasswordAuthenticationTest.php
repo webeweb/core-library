@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Security;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Security\PasswordAuthentication;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Password authentication test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Security\PasswordAuthentication;
  * @package WBW\Library\Core\Tests\Security
  * @final
  */
-final class PasswordAuthenticationTest extends PHPUnit_Framework_TestCase {
+final class PasswordAuthenticationTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
