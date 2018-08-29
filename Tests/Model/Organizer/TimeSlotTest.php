@@ -13,9 +13,9 @@ namespace WBW\Library\Core\Tests\Model\Organizer;
 
 use DateTime;
 use Exception;
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Model\Organizer\TimeSlot;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
 /**
@@ -25,7 +25,7 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  * @package WBW\Library\Core\Tests\Model\Organizer
  * @final
  */
-final class TimeSlotTest extends PHPUnit_Framework_TestCase {
+final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Dates.

@@ -12,9 +12,9 @@
 namespace WBW\Library\Core\Tests\Model\Organizer;
 
 use DateTime;
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Model\Organizer\TimeSlot;
 use WBW\Library\Core\Model\Organizer\TimeSlotHelper;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
 /**
@@ -24,7 +24,7 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  * @package WBW\Library\Core\Tests\Model\Organizer
  * @final
  */
-final class TimeSlotHelperTest extends PHPUnit_Framework_TestCase {
+final class TimeSlotHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Dates.
