@@ -108,6 +108,51 @@ class TimeSlot {
     }
 
     /**
+     * Left join without.
+     *
+     * @return TimeSlot[] Returns the time slots.
+     */
+    public function leftJoinWithout() {
+
+        // Sort and count the time slots.
+        $buffer = TimeSlotHelper::merge($this->getTimeSlots());
+        $number = count($buffer);
+
+        // Check the time slots count.
+        if (0 === $number) {
+            return [$this];
+        }
+
+        // Initialize the output.
+        $output = [$this];
+
+        // Handle each time slot.
+        for ($i = 0; $i < $number; ++$i) {
+
+            //
+            $j = count($output) - 1;
+
+            // Left join without.
+            $res = TimeSlotHelper::leftJoinWithout($output[$j], $buffer[$i]);
+            if (null === $res) {
+                continue;
+            }
+
+            //
+            $output[$j] = $res[0];
+            if (2 === count($res)) {
+                $output[] = $res[1];
+            }
+        }
+
+        // Return the output.
+        if (1 === count($output) && $this === $output[0]) {
+            return [];
+        }
+        return $output;
+    }
+
+    /**
      * Remove a time slot.
      *
      * @param TimeSlot $timeSlot The time slot.
@@ -151,7 +196,7 @@ class TimeSlot {
      * @param TimeSlot[] $timeSlots The time slots.
      * @return TimeSlot Returns this time slot.
      */
-    protected function setTimeSlots($timeSlots) {
+    protected function setTimeSlots(array $timeSlots) {
         $this->timeSlots = $timeSlots;
         return $this;
     }
