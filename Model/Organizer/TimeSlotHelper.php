@@ -219,6 +219,47 @@ class TimeSlotHelper {
     }
 
     /**
+     * Merge.
+     *
+     * @param TimeSlot[] $timeSlots The time slots.
+     * @return TimeSlot[] Returns the merged time slots.
+     */
+    public static function merge(array $timeSlots) {
+
+        // Count the time slots.
+        $number = count($timeSlots);
+
+        // Check the time slots count.
+        if (0 === $number) {
+            return [];
+        }
+
+        // Sort the time slots.
+        $buffer = self::sort($timeSlots);
+
+        // Initialize the output.
+        $output = [$buffer[0]];
+
+        // Handle each time slot.
+        for ($i = 0; $i < $number; ++$i) {
+
+            //
+            $j = count($output) - 1;
+
+            // Full join the time slots.
+            $res = self::fullJoin($output[$j], $buffer[$i]);
+            if (null === $res) {
+                $output[] = $buffer[$i];
+            } else {
+                $output[$j] = $res;
+            }
+        }
+
+        // Return the output.
+        return $output;
+    }
+
+    /**
      * Right join two time slots.
      *
      * @param TimeSlot $a The time slot A.
@@ -246,7 +287,7 @@ class TimeSlotHelper {
      * @param TimeSlot[] $timeSlots The time slots.
      * @return TimeSlot[] Returns the sorted time slots.
      */
-    public static function sort($timeSlots) {
+    public static function sort(array $timeSlots) {
 
         // Initialize a Qucik sort.
         $sorter = new QuickSort($timeSlots, new TimeSlotFunctor());

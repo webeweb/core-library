@@ -303,6 +303,46 @@ final class TimeSlotHelperTest extends AbstractCoreFrameworkTestCase {
     }
 
     /**
+     * Tests the merge() method.
+     *
+     * @return void
+     */
+    public function testMerge() {
+
+        // ===
+        $arg0 = [];
+
+        $res0 = TimeSlotHelper::merge($arg0);
+        $this->assertCount(0, $res0);
+
+        // ===
+        $arg1   = [];
+        $arg1[] = new TimeSlot($this->dates[0], $this->dates[1]); /* 08:00 / 11:00 */
+        $arg1[] = new TimeSlot($this->dates[1], $this->dates[2]); /* 11:00 / 15:00 */
+        $arg1[] = new TimeSlot($this->dates[2], $this->dates[3]); /* 15:00 / 18:00 */
+
+        $res1 = TimeSlotHelper::merge($arg1);
+        $this->assertCount(1, $res1);
+
+        $this->assertEquals($this->dates[0], $res1[0]->getStartDate()); /* 08:00 */
+        $this->assertEquals($this->dates[3], $res1[0]->getEndDate()); /* 18:00 */
+
+        // ===
+        $arg2   = [];
+        $arg2[] = new TimeSlot($this->dates[0], $this->dates[1]); /* 08:00 / 11:00 */
+        $arg2[] = new TimeSlot($this->dates[2], $this->dates[3]); /* 15:00 / 18:00 */
+
+        $res2 = TimeSlotHelper::merge($arg2);
+        $this->assertCount(2, $res2);
+
+        $this->assertEquals($this->dates[0], $res2[0]->getStartDate()); /* 08:00 */
+        $this->assertEquals($this->dates[1], $res2[0]->getEndDate()); /* 11:00 */
+
+        $this->assertEquals($this->dates[2], $res2[1]->getStartDate()); /* 15:00 */
+        $this->assertEquals($this->dates[3], $res2[1]->getEndDate()); /* 18:00 */
+    }
+
+    /**
      * Tests the rightJoin() method.
      *
      * @return void
