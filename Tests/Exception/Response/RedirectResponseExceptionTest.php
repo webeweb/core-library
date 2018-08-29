@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Response;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Response\RedirectResponseException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Redirect response exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Response\RedirectResponseException;
  * @package WBW\Library\Core\Tests\Exception\Response
  * @final
  */
-final class RedirectResponseExceptionTest extends PHPUnit_Framework_TestCase {
+final class RedirectResponseExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
