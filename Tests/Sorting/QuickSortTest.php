@@ -11,9 +11,9 @@
 
 namespace WBW\Library\Core\Tests\Sorting;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Sorting\FunctorInterface;
 use WBW\Library\Core\Sorting\QuickSort;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\Sorting\IntegerFunctor;
 
 /**
@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\Fixtures\Sorting\IntegerFunctor;
  * @package WBW\Library\Core\Tests\Sorting
  * @final
  */
-final class QuickSortTest extends PHPUnit_Framework_TestCase {
+final class QuickSortTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Functor.

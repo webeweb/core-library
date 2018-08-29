@@ -11,9 +11,9 @@
 
 namespace WBW\Library\Core\Tests\Sorting;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Sorting\AlphabeticalTreeNodeHelper;
 use WBW\Library\Core\Sorting\AlphabeticalTreeNodeInterface;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\Node\TestNode;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
@@ -24,7 +24,7 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  * @package WBW\Library\Core\Sorting
  * @final
  */
-final class AlphabeticalTreeNodeHelperTest extends PHPUnit_Framework_TestCase {
+final class AlphabeticalTreeNodeHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Nodes.
