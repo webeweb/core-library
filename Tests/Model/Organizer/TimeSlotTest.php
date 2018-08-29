@@ -113,64 +113,72 @@ final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
         // ===
         $obj0 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
 
-        $obj0->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 10:00"), new DateTime("2018-08-29 11:00")));
-        $obj0->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 13:00"), new DateTime("2018-08-29 14:00")));
-        $obj0->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 16:00"), new DateTime("2018-08-29 17:00")));
-
         $res0 = $obj0->leftJoinWithout();
-        $this->assertCount(4, $res0);
+        $this->assertCount(1, $res0);
 
-        $this->assertEquals("2018-08-29 08:00", $res0[0]->getStartDate()->format("Y-m-d H:i"));
-        $this->assertEquals("2018-08-29 10:00", $res0[0]->getEndDate()->format("Y-m-d H:i"));
-
-        $this->assertEquals("2018-08-29 11:00", $res0[1]->getStartDate()->format("Y-m-d H:i"));
-        $this->assertEquals("2018-08-29 13:00", $res0[1]->getEndDate()->format("Y-m-d H:i"));
-
-        $this->assertEquals("2018-08-29 14:00", $res0[2]->getStartDate()->format("Y-m-d H:i"));
-        $this->assertEquals("2018-08-29 16:00", $res0[2]->getEndDate()->format("Y-m-d H:i"));
-
-        $this->assertEquals("2018-08-29 17:00", $res0[3]->getStartDate()->format("Y-m-d H:i"));
-        $this->assertEquals("2018-08-29 18:00", $res0[3]->getEndDate()->format("Y-m-d H:i"));
+        $this->assertSame($obj0, $res0[0]);
 
         // ===
         $obj1 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
 
         $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 10:00"), new DateTime("2018-08-29 11:00")));
-        $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 11:00"), new DateTime("2018-08-29 13:00")));
-        $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 13:00"), new DateTime("2018-08-29 17:00")));
+        $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 13:00"), new DateTime("2018-08-29 14:00")));
+        $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 16:00"), new DateTime("2018-08-29 17:00")));
 
         $res1 = $obj1->leftJoinWithout();
-        $this->assertCount(2, $res1);
+        $this->assertCount(4, $res1);
 
         $this->assertEquals("2018-08-29 08:00", $res1[0]->getStartDate()->format("Y-m-d H:i"));
         $this->assertEquals("2018-08-29 10:00", $res1[0]->getEndDate()->format("Y-m-d H:i"));
 
-        $this->assertEquals("2018-08-29 17:00", $res1[1]->getStartDate()->format("Y-m-d H:i"));
-        $this->assertEquals("2018-08-29 18:00", $res1[1]->getEndDate()->format("Y-m-d H:i"));
+        $this->assertEquals("2018-08-29 11:00", $res1[1]->getStartDate()->format("Y-m-d H:i"));
+        $this->assertEquals("2018-08-29 13:00", $res1[1]->getEndDate()->format("Y-m-d H:i"));
+
+        $this->assertEquals("2018-08-29 14:00", $res1[2]->getStartDate()->format("Y-m-d H:i"));
+        $this->assertEquals("2018-08-29 16:00", $res1[2]->getEndDate()->format("Y-m-d H:i"));
+
+        $this->assertEquals("2018-08-29 17:00", $res1[3]->getStartDate()->format("Y-m-d H:i"));
+        $this->assertEquals("2018-08-29 18:00", $res1[3]->getEndDate()->format("Y-m-d H:i"));
 
         // ===
         $obj2 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
 
-        $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 07:00"), new DateTime("2018-08-29 08:00")));
+        $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 10:00"), new DateTime("2018-08-29 11:00")));
         $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 11:00"), new DateTime("2018-08-29 13:00")));
-        $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 18:00"), new DateTime("2018-08-29 19:00")));
+        $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 13:00"), new DateTime("2018-08-29 17:00")));
 
         $res2 = $obj2->leftJoinWithout();
         $this->assertCount(2, $res2);
 
         $this->assertEquals("2018-08-29 08:00", $res2[0]->getStartDate()->format("Y-m-d H:i"));
-        $this->assertEquals("2018-08-29 11:00", $res2[0]->getEndDate()->format("Y-m-d H:i"));
+        $this->assertEquals("2018-08-29 10:00", $res2[0]->getEndDate()->format("Y-m-d H:i"));
 
-        $this->assertEquals("2018-08-29 13:00", $res2[1]->getStartDate()->format("Y-m-d H:i"));
+        $this->assertEquals("2018-08-29 17:00", $res2[1]->getStartDate()->format("Y-m-d H:i"));
         $this->assertEquals("2018-08-29 18:00", $res2[1]->getEndDate()->format("Y-m-d H:i"));
 
         // ===
         $obj3 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
 
-        $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 07:00"), new DateTime("2018-08-29 19:00")));
+        $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 07:00"), new DateTime("2018-08-29 08:00")));
+        $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 11:00"), new DateTime("2018-08-29 13:00")));
+        $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 18:00"), new DateTime("2018-08-29 19:00")));
 
         $res3 = $obj3->leftJoinWithout();
-        $this->assertCount(0, $res3);
+        $this->assertCount(2, $res3);
+
+        $this->assertEquals("2018-08-29 08:00", $res3[0]->getStartDate()->format("Y-m-d H:i"));
+        $this->assertEquals("2018-08-29 11:00", $res3[0]->getEndDate()->format("Y-m-d H:i"));
+
+        $this->assertEquals("2018-08-29 13:00", $res3[1]->getStartDate()->format("Y-m-d H:i"));
+        $this->assertEquals("2018-08-29 18:00", $res3[1]->getEndDate()->format("Y-m-d H:i"));
+
+        // ===
+        $obj4 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
+
+        $obj4->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 07:00"), new DateTime("2018-08-29 19:00")));
+
+        $res4 = $obj4->leftJoinWithout();
+        $this->assertCount(0, $res4);
     }
 
     /**
