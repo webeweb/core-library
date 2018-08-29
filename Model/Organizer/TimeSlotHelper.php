@@ -241,7 +241,7 @@ class TimeSlotHelper {
         $output = [$buffer[0]];
 
         // Handle each time slot.
-        for ($i = 0; $i < $number; ++$i) {
+        for ($i = 1; $i < $number; ++$i) {
 
             //
             $j = count($output) - 1;
