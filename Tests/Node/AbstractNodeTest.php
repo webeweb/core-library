@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Node;
 
-use PHPUnit_Framework_TestCase;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\Node\TestNode;
 
 /**
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\Fixtures\Node\TestNode;
  * @package WBW\Library\Core\Tests\Navigation\Item
  * @final
  */
-final class AbstractNodeTest extends PHPUnit_Framework_TestCase {
+final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
