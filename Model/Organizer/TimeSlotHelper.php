@@ -121,6 +121,20 @@ class TimeSlotHelper {
     }
 
     /**
+     * Get the duration.
+     *
+     * @param TimeSlot[] $timeSlots the time slots.
+     * @return int Returns the duration.
+     */
+    public static function getDuration(array $timeSlots) {
+        $output = 0;
+        foreach ($timeSlots as $current) {
+            $output += $current->getDuration();
+        }
+        return $output;
+    }
+
+    /**
      * Determines if a time slot A has full join with time slot B.
      *
      * @param TimeSlot $a The time slot A.

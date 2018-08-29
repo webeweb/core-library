@@ -154,6 +154,22 @@ final class TimeSlotHelperTest extends AbstractCoreFrameworkTestCase {
     }
 
     /**
+     * Tests the getDuration() method.
+     *
+     * @return void
+     */
+    public function testGetDuration() {
+
+        $arg    = [];
+        $arg [] = new TimeSlot($this->dates[0], $this->dates[1]);
+        $arg [] = new TimeSlot($this->dates[1], $this->dates[2]);
+        $arg [] = new TimeSlot($this->dates[2], $this->dates[3]);
+
+        $res = 36000;
+        $this->assertEquals($res, TimeSlotHelper::getDuration($arg));
+    }
+
+    /**
      * Tests the hasFullJoin() method.
      *
      * @return void
