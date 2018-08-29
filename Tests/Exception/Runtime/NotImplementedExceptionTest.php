@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Runtime;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\Runtime\NotImplementedException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Not implemented exception test .
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\Runtime\NotImplementedException;
  * @package WBW\Library\Core\Tests\Exception\Runtime
  * @final
  */
-final class NotImplementedExceptionTest extends PHPUnit_Framework_TestCase {
+final class NotImplementedExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
