@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\IO;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\IO\InvalidHTTPMethodException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Invalid HTTP method exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\IO\InvalidHTTPMethodException;
  * @package WBW\Library\Core\Tests\Exception\HTTP
  * @final
  */
-final class InvaliHTTPMethodExceptionTest extends PHPUnit_Framework_TestCase {
+final class InvaliHTTPMethodExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

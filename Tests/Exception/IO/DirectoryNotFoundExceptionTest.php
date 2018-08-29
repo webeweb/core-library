@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\IO;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\IO\DirectoryNotFoundException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * Directory not found exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\IO\DirectoryNotFoundException;
  * @package WBW\Library\Core\Tests\Exception\IO
  * @final
  */
-final class DirectoryNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
+final class DirectoryNotFoundExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

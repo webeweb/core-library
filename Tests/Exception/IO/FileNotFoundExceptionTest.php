@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\IO;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * File not found exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\IO\FileNotFoundException;
  * @package WBW\Library\Core\Tests\Exception\IO
  * @final
  */
-final class FileNotFoundExceptionTest extends PHPUnit_Framework_TestCase {
+final class FileNotFoundExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\IO;
 
-use PHPUnit_Framework_TestCase;
 use WBW\Library\Core\Exception\IO\IOException;
+use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * IO exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\IO\IOException;
  * @package WBW\Library\Core\Tests\Exception\IO
  * @final
  */
-final class IOExceptionTest extends PHPUnit_Framework_TestCase {
+final class IOExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
