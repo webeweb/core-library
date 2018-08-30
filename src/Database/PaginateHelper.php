@@ -22,10 +22,10 @@ class PaginateHelper {
     /**
      * Get a page offset and limit.
      *
-     * @param integer $pageNumber The page number.
-     * @param integer $divider The divider.
-     * @param integer $total The total.
-     * @return integer[] Returns the page offset and limit in case of success, -1 otherwise.
+     * @param int $pageNumber The page number.
+     * @param int $divider The divider.
+     * @param int $total The total.
+     * @return int[] Returns the page offset and limit in case of success, -1 otherwise.
      */
     public static function getPageOffsetAndLimit($pageNumber, $divider, $total = -1) {
         if ($pageNumber < 0 || $divider < 0) {
@@ -43,9 +43,9 @@ class PaginateHelper {
     /**
      * Get a pages count.
      *
-     * @param integer $linesNumber The lines number.
-     * @param integer $divider The divider.
-     * @return integer Returns the pages count in case of success, -1 otherwise.
+     * @param int $linesNumber The lines number.
+     * @param int $divider The divider.
+     * @return int Returns the pages count in case of success, -1 otherwise.
      */
     public static function getPagesCount($linesNumber, $divider) {
         if ($linesNumber < 0 || $divider < 0) {
