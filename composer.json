@@ -24,15 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "WBW\\Library\\Core\\": ""
-        },
-        "exclude-from-classmap": [
-            "/Tests/"
-        ]
+            "WBW\\Library\\Core\\": "src/"
+        }
     },
     "autoload-dev": {
         "psr-4": {
-            "WBW\\Library\\Core\\Tests\\": "Tests/"
+            "WBW\\Library\\Core\\Tests\\": "tests/"
         }
     },
     "config": {
