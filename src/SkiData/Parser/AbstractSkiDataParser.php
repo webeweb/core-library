@@ -15,6 +15,7 @@ use DateTime;
 use WBW\Library\Core\Argument\IntegerHelper;
 use WBW\Library\Core\Exception\SkiData\SkiDataMissingStartRecordFormatException;
 use WBW\Library\Core\Exception\SkiData\SkiDataTooLongDataException;
+use WBW\Library\Core\SkiData\API\SkiDataParserInterface;
 use WBW\Library\Core\SkiData\Entity\SkiDataStartRecordFormat;
 
 /**
