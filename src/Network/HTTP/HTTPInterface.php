@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\IO;
+namespace WBW\Library\Core\Network\HTTP;
 
 /**
  * HTTP interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\IO
+ * @package WBW\Library\Core\Network\HTTP
  */
 interface HTTPInterface {
 

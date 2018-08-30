@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\IO;
+namespace WBW\Library\Core\Tests\Network\HTTP;
 
-use WBW\Library\Core\IO\HTTPHelper;
+use WBW\Library\Core\Network\HTTP\HTTPHelper;
 use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
  * HTTP utility test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\IO
+ * @package WBW\Library\Core\Tests\Network\HTTP
  * @final
  */
 final class HTTPHelperTest extends AbstractCoreFrameworkTestCase {
