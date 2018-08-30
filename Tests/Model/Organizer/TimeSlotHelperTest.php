@@ -74,32 +74,29 @@ final class TimeSlotHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testEquals() {
 
-        $arg = [];
+        $obj = [];
 
-        $arg[] = new TimeSlot($this->dates[0], $this->dates[1]);
-        $arg[] = new TimeSlot($this->dates[0], $this->dates[2]);
-        $arg[] = new TimeSlot($this->dates[0], $this->dates[3]);
-        $arg[] = new TimeSlot($this->dates[1], $this->dates[2]);
-        $arg[] = new TimeSlot($this->dates[1], $this->dates[3]);
-        $arg[] = new TimeSlot($this->dates[2], $this->dates[3]);
+        $obj[] = new TimeSlot($this->dates[0], $this->dates[1]);
+        $obj[] = new TimeSlot($this->dates[0], $this->dates[2]);
+        $obj[] = new TimeSlot($this->dates[0], $this->dates[3]);
+        $obj[] = new TimeSlot($this->dates[2], $this->dates[3]);
 
         // Start dates.
-        $this->assertFalse(TimeSlotHelper::equals($arg[0], $arg[3]));
-        $this->assertTrue(TimeSlotHelper::equals($arg[0], $arg[0]));
+        $this->assertFalse(TimeSlotHelper::equals($obj[0], $obj[3]));
+        $this->assertTrue(TimeSlotHelper::equals($obj[0], $obj[0]));
 
         // End dates.
-        $this->assertFalse(TimeSlotHelper::equals($arg[0], $arg[1]));
-        $this->assertTrue(TimeSlotHelper::equals($arg[0], $arg[0]));
+        $this->assertFalse(TimeSlotHelper::equals($obj[0], $obj[1]));
+        $this->assertTrue(TimeSlotHelper::equals($obj[0], $obj[0]));
 
         // Time slots count.
-        $arg[0]->addTimeSlot($arg[1]);
-        $this->assertFalse(TimeSlotHelper::equals($arg[0], $arg[2]));
-        $this->assertTrue(TimeSlotHelper::equals($arg[0], $arg[0]));
+        $arg = clone $obj[0];
+        $this->assertFalse(TimeSlotHelper::equals($arg, $obj[0]->addTimeSlot($obj[1])));
+        $this->assertTrue(TimeSlotHelper::equals($obj[0], $obj[0]));
 
         // Time slots.
-        $arg[1]->addTimeSlot($arg[2]);
-        $this->assertFalse(TimeSlotHelper::equals($arg[0], $arg[1]));
-        $this->assertTrue(TimeSlotHelper::equals($arg[0], $arg[0]));
+        $this->assertFalse(TimeSlotHelper::equals($obj[0], $arg->addTimeSlot($obj[2])));
+        $this->assertTrue(TimeSlotHelper::equals($obj[0], $obj[0]));
     }
 
     /**
