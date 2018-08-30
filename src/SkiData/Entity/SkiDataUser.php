@@ -116,13 +116,6 @@ class SkiDataUser {
     private $passageLicensePlatePermitted;
 
     /**
-     * Remarks.
-     *
-     * @var string
-     */
-    private $remarks;
-
-    /**
      * User number.
      *
      * @var integer
