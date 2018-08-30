@@ -213,7 +213,7 @@ class SkiDataUser {
     /**
      * Get the check licence plate.
      *
-     * @return boolean Returns the check licence plate
+     * @return bool Returns the check licence plate
      */
     public function getCheckLicensePlate() {
         return $this->checkLicensePlate;
@@ -231,7 +231,7 @@ class SkiDataUser {
     /**
      * Get the customer number.
      *
-     * @return integer Returns the customer number.
+     * @return int Returns the customer number.
      */
     public function getCustomerNumber() {
         return $this->customerNumber;
@@ -258,7 +258,7 @@ class SkiDataUser {
     /**
      * Get the deleted record.
      *
-     * @return boolean Returns the deleted record.
+     * @return bool Returns the deleted record.
      */
     public function getDeletedRecord() {
         return $this->deletedRecord;
@@ -276,7 +276,7 @@ class SkiDataUser {
     /**
      * Get the E-ticket authentication.
      *
-     * @return integer Returns the E-ticket authentication.
+     * @return int Returns the E-ticket authentication.
      */
     public function getETicketAuthentication() {
         return $this->eTicketAuthentication;
@@ -294,7 +294,7 @@ class SkiDataUser {
     /**
      * Get the E-ticket service art.
      *
-     * @return integer Returns the E-ticket service art.
+     * @return int Returns the E-ticket service art.
      */
     public function getETicketServiceArt() {
         return $this->eTicketServiceArt;
@@ -303,7 +303,7 @@ class SkiDataUser {
     /**
      * Get the E-ticket service typ.
      *
-     * @return integer Returns the E-ticket service typ.
+     * @return int Returns the E-ticket service typ.
      */
     public function getETicketServiceTyp() {
         return $this->eTicketServiceTyp;
@@ -312,7 +312,7 @@ class SkiDataUser {
     /**
      * Get the E-ticket type p.
      *
-     * @return integer Returns the E-ticket type p.
+     * @return int Returns the E-ticket type p.
      */
     public function getETicketTypeP() {
         return $this->eTicketTypeP;
@@ -330,7 +330,7 @@ class SkiDataUser {
     /**
      * Get the excess times with credit card.
      *
-     * @return boolean Returns the excess times with credit card.
+     * @return bool Returns the excess times with credit card.
      */
     public function getExcessTimesCreditCard() {
         return $this->excessTimesCreditCard;
@@ -357,7 +357,7 @@ class SkiDataUser {
     /**
      * Get the group counting.
      *
-     * @return boolean Returns the group counting.
+     * @return bool Returns the group counting.
      */
     public function getGroupCounting() {
         return $this->groupCounting;
@@ -384,7 +384,7 @@ class SkiDataUser {
     /**
      * Get the passage with license plate permitted.
      *
-     * @return boolean Returns teh passage with license plate permitted.
+     * @return bool Returns teh passage with license plate permitted.
      */
     public function getPassageLicensePlatePermitted() {
         return $this->passageLicensePlatePermitted;
@@ -438,7 +438,7 @@ class SkiDataUser {
     /**
      * Get the user number.
      *
-     * @return integer Returns the user number.
+     * @return int Returns the user number.
      */
     public function getUserNumber() {
         return $this->userNumber;
@@ -447,7 +447,7 @@ class SkiDataUser {
     /**
      * Set the check with license plate.
      *
-     * @param boolean $checkLicensePlate The check with license plate.
+     * @param bool $checkLicensePlate The check with license plate.
      * @return SkiDataUser Returns this user entity.
      */
     public function setCheckLicensePlate($checkLicensePlate) {
@@ -469,7 +469,7 @@ class SkiDataUser {
     /**
      * Set the customer number.
      *
-     * @param integer $customerNumber The customer number.
+     * @param int $customerNumber The customer number.
      * @return SkiDataUser Returns this user entity.
      */
     public function setCustomerNumber($customerNumber) {
@@ -502,7 +502,7 @@ class SkiDataUser {
     /**
      * Set the deleted record.
      *
-     * @param boolean $deletedRecord The deleted record.
+     * @param bool $deletedRecord The deleted record.
      * @return SkiDataUser Returns this user entity.
      */
     public function setDeletedRecord($deletedRecord) {
@@ -524,7 +524,7 @@ class SkiDataUser {
     /**
      * Set the E-ticket authentication.
      *
-     * @param integer $eTicketAuthentication The E-ticket authentication.
+     * @param int $eTicketAuthentication The E-ticket authentication.
      * @return SkiDataUser Returns this user entity.
      */
     public function setETicketAuthentication($eTicketAuthentication) {
@@ -546,7 +546,7 @@ class SkiDataUser {
     /**
      * Set the E-ticket service art.
      *
-     * @param integer $eTicketServiceArt The E-ticket service art.
+     * @param int $eTicketServiceArt The E-ticket service art.
      * @return SkiDataUser Returns this user entity.
      */
     public function setETicketServiceArt($eTicketServiceArt) {
@@ -557,7 +557,7 @@ class SkiDataUser {
     /**
      * Set the E-ticket service typ.
      *
-     * @param integer $eTicketServiceTyp The E-ticket service typ.
+     * @param int $eTicketServiceTyp The E-ticket service typ.
      * @return SkiDataUser Returns this user entity.
      */
     public function setETicketServiceTyp($eTicketServiceTyp) {
@@ -568,7 +568,7 @@ class SkiDataUser {
     /**
      * Set the E-ticket type p.
      *
-     * @param integer $eTicketTypeP The E-ticket type p.
+     * @param int $eTicketTypeP The E-ticket type p.
      * @return SkiDataUser Returns this user entity.
      */
     public function setETicketTypeP($eTicketTypeP) {
@@ -590,7 +590,7 @@ class SkiDataUser {
     /**
      * Set the excess times with credit card.
      *
-     * @param boolean $excessTimesCreditCard The excess times with credit card.
+     * @param bool $excessTimesCreditCard The excess times with credit card.
      * @return SkiDataUser Returns this user entity.
      */
     public function setExcessTimesCreditCard($excessTimesCreditCard) {
@@ -623,7 +623,7 @@ class SkiDataUser {
     /**
      * Set the group counting.
      *
-     * @param boolean $groupCounting The group counting.
+     * @param bool $groupCounting The group counting.
      * @return SkiDataUser Returns this user entity.
      */
     public function setGroupCounting($groupCounting) {
@@ -657,7 +657,7 @@ class SkiDataUser {
      * Set the passage with license plate permitted.
      *
      * @return SkiDataUser Returns this user entity.
-     * @param boolean $passageLicensePlatePermitted The passage with license plate permitted.
+     * @param bool $passageLicensePlatePermitted The passage with license plate permitted.
      */
     public function setPassageLicensePlatePermitted($passageLicensePlatePermitted) {
         $this->passageLicensePlatePermitted = $passageLicensePlatePermitted;
@@ -722,7 +722,7 @@ class SkiDataUser {
     /**
      * Set the user number.
      *
-     * @param integer $userNumber The user number.
+     * @param int $userNumber The user number.
      * @return SkiDataUser Returns this user entity.
      */
     public function setUserNumber($userNumber) {
