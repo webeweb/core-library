@@ -131,7 +131,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     /**
      * Get a node at position.
      *
-     * @param integer $position The position.
+     * @param int $position The position.
      * @return AbstractNode Returns the node in case of success, null otherwise.
      */
     public function getNodeAt($position) {
@@ -145,7 +145,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * Get a node by id.
      *
      * @param string $id The id.
-     * @param boolean $recursively Recursively ?
+     * @param bool $recursively Recursively ?
      * @return AbstractNode Returns a node in case of success, null otherwise.
      */
     public function getNodeById($id, $recursively = false) {
@@ -244,7 +244,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     /**
      * Size.
      *
-     * @return integer Returns the size.
+     * @return int Returns the size.
      */
     public function size() {
         return count($this->nodes);
