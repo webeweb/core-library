@@ -61,7 +61,7 @@ final class FTPClientTest extends AbstractCoreFrameworkTestCase {
     protected function setUp() {
         parent::setUp();
 
-        // Set the Password authentications.
+        // Set the Password authentication mocks.
         $passwordAuthenticationR = new PasswordAuthentication("anonymous", "guest");
         $passwordAuthenticationW = new PasswordAuthentication("dlpuser@dlptest.com", "e73jzTRTNqCN9PYAAjjn");
 
