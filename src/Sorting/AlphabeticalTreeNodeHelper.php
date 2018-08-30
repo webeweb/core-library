@@ -58,7 +58,7 @@ class AlphabeticalTreeNodeHelper {
      * Get the level.
      *
      * @param AlphabeticalTreeNodeInterface $node The node.
-     * @return integer Returns the level.
+     * @return int Returns the level.
      */
     public static function getLevel(AlphabeticalTreeNodeInterface $node) {
         return count(self::getPath($node)) - 1;

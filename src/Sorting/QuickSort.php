@@ -65,8 +65,8 @@ class QuickSort {
     /**
      * Quick sort the values.
      *
-     * @param integer $min The min index.
-     * @param integer $max The max index.
+     * @param int $min The min index.
+     * @param int $max The max index.
      * @return void
      */
     private function quickSort($min, $max) {
@@ -135,8 +135,8 @@ class QuickSort {
     /**
      * Swap two values.
      *
-     * @param integer $a The first value index.
-     * @param integer $b The second value index.
+     * @param int $a The first value index.
+     * @param int $b The second value index.
      */
     private function swap($a, $b) {
         $value            = $this->values[$a];
