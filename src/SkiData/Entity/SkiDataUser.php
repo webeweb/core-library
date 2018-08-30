@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\SkiData\Entity;
 
 use DateTime;
+use WBW\Library\Core\SkiData\Model\SkiDataCustomerTrait;
 
 /**
  * SkiData user entity.
@@ -20,6 +21,8 @@ use DateTime;
  * @package WBW\Library\Core\SkiData\Entity
  */
 class SkiDataUser {
+
+    use SkiDataCustomerTrait;
 
     /**
      * Check licence plate.
@@ -36,39 +39,11 @@ class SkiDataUser {
     private $creditCardNumber;
 
     /**
-     * Customer number.
-     *
-     * @var integer
-     */
-    private $customerNumber;
-
-    /**
      * Date of birth.
      *
      * @var DateTime
      */
     private $dateBirth;
-
-    /**
-     * Date/time of last modification.
-     *
-     * @var DateTime
-     */
-    private $datetimeLastModification;
-
-    /**
-     * Deleted record.
-     *
-     * @var boolean
-     */
-    private $deletedRecord;
-
-    /**
-     * Division.
-     *
-     * @var string
-     */
-    private $division;
 
     /**
      * E-ticket authentication.
@@ -106,13 +81,6 @@ class SkiDataUser {
     private $eTicketTypeP;
 
     /**
-     * Email.
-     *
-     * @var string
-     */
-    private $email;
-
-    /**
      * Excess times with creadit card.
      *
      * @var boolean
@@ -125,20 +93,6 @@ class SkiDataUser {
      * @var DateTime
      */
     private $expiryDate;
-
-    /**
-     * Firstname.
-     *
-     * @var string
-     */
-    private $firstname;
-
-    /**
-     * Group counting.
-     *
-     * @var boolean
-     */
-    private $groupCounting;
 
     /**
      * Identification number.
@@ -167,34 +121,6 @@ class SkiDataUser {
      * @var string
      */
     private $remarks;
-
-    /**
-     * Remarks 2.
-     *
-     * @var string
-     */
-    private $remarks2;
-
-    /**
-     * Remarks 3.
-     *
-     * @var string
-     */
-    private $remarks3;
-
-    /**
-     * Username.
-     *
-     * @var string
-     */
-    private $surname;
-
-    /**
-     * Title.
-     *
-     * @var string
-     */
-    private $title;
 
     /**
      * User number.
@@ -229,48 +155,12 @@ class SkiDataUser {
     }
 
     /**
-     * Get the customer number.
-     *
-     * @return int Returns the customer number.
-     */
-    public function getCustomerNumber() {
-        return $this->customerNumber;
-    }
-
-    /**
      * Get the date of birth.
      *
      * @return DateTime Returns the date of birth.
      */
     public function getDateBirth() {
         return $this->dateBirth;
-    }
-
-    /**
-     * Get the date/time of last modification.
-     *
-     * @return DateTime Returns the date/time of last modification.
-     */
-    public function getDatetimeLastModification() {
-        return $this->datetimeLastModification;
-    }
-
-    /**
-     * Get the deleted record.
-     *
-     * @return bool Returns the deleted record.
-     */
-    public function getDeletedRecord() {
-        return $this->deletedRecord;
-    }
-
-    /**
-     * Get the division.
-     *
-     * @return string Returns the division.
-     */
-    public function getDivision() {
-        return $this->division;
     }
 
     /**
@@ -319,15 +209,6 @@ class SkiDataUser {
     }
 
     /**
-     * Get the email.
-     *
-     * @return string Returns the email.
-     */
-    public function getEmail() {
-        return $this->email;
-    }
-
-    /**
      * Get the excess times with credit card.
      *
      * @return bool Returns the excess times with credit card.
@@ -343,24 +224,6 @@ class SkiDataUser {
      */
     public function getExpiryDate() {
         return $this->expiryDate;
-    }
-
-    /**
-     * Get the firstname.
-     *
-     * @return string Returns the firstname.
-     */
-    public function getFirstname() {
-        return $this->firstname;
-    }
-
-    /**
-     * Get the group counting.
-     *
-     * @return bool Returns the group counting.
-     */
-    public function getGroupCounting() {
-        return $this->groupCounting;
     }
 
     /**
@@ -388,51 +251,6 @@ class SkiDataUser {
      */
     public function getPassageLicensePlatePermitted() {
         return $this->passageLicensePlatePermitted;
-    }
-
-    /**
-     * Get the remarks.
-     *
-     * @return string Returns the remarks.
-     */
-    public function getRemarks() {
-        return $this->remarks;
-    }
-
-    /**
-     * Get the remarks 2.
-     *
-     * @return string Returns the remarks 2.
-     */
-    public function getRemarks2() {
-        return $this->remarks2;
-    }
-
-    /**
-     * Get the remarks 3.
-     *
-     * @return string Returns the remarks 3.
-     */
-    public function getRemarks3() {
-        return $this->remarks3;
-    }
-
-    /**
-     * Get the surname.
-     *
-     * @return string Returns the surname.
-     */
-    public function getSurname() {
-        return $this->surname;
-    }
-
-    /**
-     * Get the title.
-     *
-     * @return string Returns the title.
-     */
-    public function getTitle() {
-        return $this->title;
     }
 
     /**
@@ -467,17 +285,6 @@ class SkiDataUser {
     }
 
     /**
-     * Set the customer number.
-     *
-     * @param int $customerNumber The customer number.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setCustomerNumber($customerNumber) {
-        $this->customerNumber = $customerNumber;
-        return $this;
-    }
-
-    /**
      * Set the date of birth.
      *
      * @param DateTime $dateBirth The date of birth.
@@ -485,39 +292,6 @@ class SkiDataUser {
      */
     public function setDateBirth(DateTime $dateBirth = null) {
         $this->dateBirth = $dateBirth;
-        return $this;
-    }
-
-    /**
-     * Set the date/time of last modification.
-     *
-     * @param DateTime $datetimeLastModification The date/time of last modification.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setDatetimeLastModification(DateTime $datetimeLastModification = null) {
-        $this->datetimeLastModification = $datetimeLastModification;
-        return $this;
-    }
-
-    /**
-     * Set the deleted record.
-     *
-     * @param bool $deletedRecord The deleted record.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setDeletedRecord($deletedRecord) {
-        $this->deletedRecord = $deletedRecord;
-        return $this;
-    }
-
-    /**
-     * Set the division.
-     *
-     * @param string $division The division.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setDivision($division) {
-        $this->division = $division;
         return $this;
     }
 
@@ -577,17 +351,6 @@ class SkiDataUser {
     }
 
     /**
-     * Set the email.
-     *
-     * @param string $email The email.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setEmail($email) {
-        $this->email = $email;
-        return $this;
-    }
-
-    /**
      * Set the excess times with credit card.
      *
      * @param bool $excessTimesCreditCard The excess times with credit card.
@@ -606,28 +369,6 @@ class SkiDataUser {
      */
     public function setExpiryDate(DateTime $expiryDate = null) {
         $this->expiryDate = $expiryDate;
-        return $this;
-    }
-
-    /**
-     * Set the firstname.
-     *
-     * @param string $firstname The firstname.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setFirstname($firstname) {
-        $this->firstname = $firstname;
-        return $this;
-    }
-
-    /**
-     * Set the group counting.
-     *
-     * @param bool $groupCounting The group counting.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setGroupCounting($groupCounting) {
-        $this->groupCounting = $groupCounting;
         return $this;
     }
 
@@ -661,61 +402,6 @@ class SkiDataUser {
      */
     public function setPassageLicensePlatePermitted($passageLicensePlatePermitted) {
         $this->passageLicensePlatePermitted = $passageLicensePlatePermitted;
-        return $this;
-    }
-
-    /**
-     * Set the remarks.
-     *
-     * @param string $remarks The remarks.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setRemarks($remarks) {
-        $this->remarks = $remarks;
-        return $this;
-    }
-
-    /**
-     * Set the remarks 2.
-     *
-     * @param string $remarks2 The remarks 2.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setRemarks2($remarks2) {
-        $this->remarks2 = $remarks2;
-        return $this;
-    }
-
-    /**
-     * Set the remarks 3.
-     *
-     * @param string $remarks3 The remarks 3.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setRemarks3($remarks3) {
-        $this->remarks3 = $remarks3;
-        return $this;
-    }
-
-    /**
-     * Set the surname.
-     *
-     * @param string $surname The surname.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setSurname($surname) {
-        $this->surname = $surname;
-        return $this;
-    }
-
-    /**
-     * Set the title.
-     *
-     * @param string $title The title.
-     * @return SkiDataUser Returns this user entity.
-     */
-    public function setTitle($title) {
-        $this->title = $title;
         return $this;
     }
 

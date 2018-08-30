@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\SkiData\Entity;
 
 use DateTime;
+use WBW\Library\Core\SkiData\Model\SkiDataCardTrait;
 
 /**
  * SkiData card entity.
@@ -22,25 +23,16 @@ use DateTime;
 class SkiDataCard {
 
     /**
+     * SkiData card.
+     */
+    use SkiDataCardTrait;
+
+    /**
      * Article number.
      *
      * @var integer
      */
     private $articleNumber;
-
-    /**
-     * Blocked.
-     *
-     * @var boolean
-     */
-    private $blocked;
-
-    /**
-     * Blocked as of date.
-     *
-     * @var DateTime
-     */
-    private $blockedDate;
 
     /**
      * Currency residual value.
@@ -238,24 +230,6 @@ class SkiDataCard {
      */
     public function getArticleNumber() {
         return $this->articleNumber;
-    }
-
-    /**
-     * Get the blocked.
-     *
-     * @return bool Returns the blocked.
-     */
-    public function getBlocked() {
-        return $this->blocked;
-    }
-
-    /**
-     * Get the blocked as of date.
-     *
-     * @return DateTime Returns the blocked as of date.
-     */
-    public function getBlockedDate() {
-        return $this->blockedDate;
     }
 
     /**
@@ -500,28 +474,6 @@ class SkiDataCard {
      */
     public function setArticleNumber($articleNumber) {
         $this->articleNumber = $articleNumber;
-        return $this;
-    }
-
-    /**
-     * Set the blocked.
-     *
-     * @param bool $blocked The blocked.
-     * @return SkiDataCard Returns this card entity.
-     */
-    public function setBlocked($blocked) {
-        $this->blocked = $blocked;
-        return $this;
-    }
-
-    /**
-     * Set the blocked as of date.
-     *
-     * @param DateTime $blockedDate The blocked as of date.
-     * @return SkiDataCard Returns this card entity.
-     */
-    public function setBlockedDate(DateTime $blockedDate = null) {
-        $this->blockedDate = $blockedDate;
         return $this;
     }
 
