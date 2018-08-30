@@ -92,13 +92,11 @@ final class TimeSlotHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertTrue(TimeSlotHelper::equals($arg[0], $arg[0]));
 
         // Time slots count.
-        $arg[0]->addTimeSlot($arg[1]);
-        $this->assertFalse(TimeSlotHelper::equals($arg[0], $arg[2]));
+        $this->assertFalse(TimeSlotHelper::equals(clone $arg[0], $arg[0]->addTimeSlot($arg[1])));
         $this->assertTrue(TimeSlotHelper::equals($arg[0], $arg[0]));
 
         // Time slots.
-        $arg[1]->addTimeSlot($arg[2]);
-        $this->assertFalse(TimeSlotHelper::equals($arg[0], $arg[1]));
+        $this->assertFalse(TimeSlotHelper::equals(clone $arg[0], $arg[0]->removeTimeSlot($arg[1])->addTimeSlot($arg[2])));
         $this->assertTrue(TimeSlotHelper::equals($arg[0], $arg[0]));
     }
 
