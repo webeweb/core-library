@@ -29,7 +29,7 @@ class FileHelper implements FileInterface {
      * Delete a file.
      *
      * @param string $filename The filename.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
      */
     public static function delete($filename) {
@@ -130,7 +130,7 @@ class FileHelper implements FileInterface {
      * Get a file size.
      *
      * @param string $filename The filename.
-     * @return integer Returns the file size.
+     * @return int Returns the file size.
      * @throws FileNotFoundException Throws a File not found exception if the file does not exists.
      */
     public static function getSize($filename) {
@@ -165,7 +165,7 @@ class FileHelper implements FileInterface {
      *
      * @param string $oldFilename The old filename.
      * @param string $newFilename The new filename.
-     * @return boolean Returns true in case of success, false otherwise or null if the new filename already exists.
+     * @return bool Returns true in case of success, false otherwise or null if the new filename already exists.
      * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
      */
     public static function rename($oldFilename, $newFilename) {
