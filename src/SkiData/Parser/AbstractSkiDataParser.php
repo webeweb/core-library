@@ -13,7 +13,6 @@ namespace WBW\Library\Core\SkiData\Parser;
 
 use DateTime;
 use WBW\Library\Core\Argument\IntegerHelper;
-use WBW\Library\Core\Exception\SkiData\SkiDataMissingStartRecordFormatException;
 use WBW\Library\Core\Exception\SkiData\SkiDataTooLongDataException;
 use WBW\Library\Core\SkiData\API\SkiDataParserInterface;
 use WBW\Library\Core\SkiData\Entity\SkiDataStartRecordFormat;
@@ -49,10 +48,7 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      */
     protected function decodeDate($str) {
         $date = DateTime::createFromFormat("!" . self::DATE_FORMAT, $str);
-        if (false === $date) {
-            return null;
-        }
-        return $date;
+        return false === $date ? null : $date;
     }
 
     /**
@@ -63,10 +59,7 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      */
     protected function decodeDateTime($str) {
         $date = DateTime::createFromFormat(self::DATETIME_FORMAT, $str);
-        if (false === $date) {
-            return null;
-        }
-        return $date;
+        return false === $date ? null : $date;
     }
 
     /**
@@ -76,10 +69,7 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      * @return string Returns the decoded string into string.
      */
     protected function decodeString($str) {
-        if ("" === $str || 2 === strlen($str)) {
-            return "";
-        }
-        return substr($str, 1, strlen($str) - 2);
+        return ("" === $str || 2 === strlen($str)) ? "" : substr($str, 1, strlen($str) - 2);
     }
 
     /**
@@ -99,10 +89,7 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      * @return string Returns the encoded datetime value.
      */
     protected function encodeDate(DateTime $value = null) {
-        if (null === $value) {
-            return "";
-        }
-        return $value->format(self::DATE_FORMAT);
+        return null === $value ? "" : $value->format(self::DATE_FORMAT);
     }
 
     /**
@@ -112,10 +99,7 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      * @return string Returns the encoded datetime value.
      */
     protected function encodeDateTime(DateTime $value = null) {
-        if (null === $value) {
-            return "";
-        }
-        return $value->format(self::DATETIME_FORMAT);
+        return null === $value ? "" : $value->format(self::DATETIME_FORMAT);
     }
 
     /**
@@ -127,11 +111,8 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      * @throws SkiDataTooLongDataException Throws a too long data exception if the value exceeds the length.
      */
     protected function encodeInteger($value, $length) {
-        if (null === $value) {
-            return "";
-        }
         $format = "%'.0" . $length . "d";
-        $output = sprintf($format, $value);
+        $output = null === $value ? "" : sprintf($format, $value);
         if ($length < strlen($output)) {
             throw new SkiDataTooLongDataException($value, $length);
         }
@@ -160,20 +141,6 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      */
     public function getStartRecordFormat() {
         return $this->startRecordFormat;
-    }
-
-    /**
-     * Determines if the version of record structure is less or equal than $versionRecordStructure.
-     *
-     * @param integer $versionRecordStructure The version of record structure.
-     * @return boolean Returns true in case of success, false otherwise.
-     * @throws SkiDataMissingStartRecordFormatException Throws a missing start record format exception if the start record format is missing.
-     */
-    protected function isVersionRecordStructure($versionRecordStructure) {
-        if (null === $this->startRecordFormat) {
-            throw new SkiDataMissingStartRecordFormatException();
-        }
-        return $versionRecordStructure <= $this->startRecordFormat->getVersionRecordStructure();
     }
 
     /**
