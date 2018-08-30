@@ -81,7 +81,7 @@ class Authenticator {
     /**
      * Get the port.
      *
-     * @return integer Returns the port.
+     * @return int Returns the port.
      */
     public function getPort() {
         return $this->port;
@@ -121,7 +121,7 @@ class Authenticator {
     /**
      * Set the port.
      *
-     * @param integer $port The port.
+     * @param int $port The port.
      * @return Authenticator Returns this authenticator.
      * @throws IllegalArgumentException Throws an illegal argument exception if the port isn't between 1 and 65536.
      */
