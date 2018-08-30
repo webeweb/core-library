@@ -35,6 +35,7 @@ final class SkiDataStartRecordFormatTest extends AbstractCoreFrameworkTestCase {
 
         $this->assertNull($obj->getCurrency());
         $this->assertNull($obj->getDateFile());
+        $this->assertNull($obj->getFacilityNumber());
         $this->assertNull($obj->getNumberRecords());
         $this->assertNull($obj->getVersionRecordStructure());
     }
@@ -63,6 +64,19 @@ final class SkiDataStartRecordFormatTest extends AbstractCoreFrameworkTestCase {
 
         $obj->setDateFile(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getDateFile()->format("Y-m-d"));
+    }
+
+    /**
+     * Tests the setFacilityNumber() method.
+     *
+     * @return void
+     */
+    public function testSetFacilityNumber() {
+
+        $obj = new SkiDataStartRecordFormat();
+
+        $obj->setFacilityNumber(1);
+        $this->assertEquals(1, $obj->getFacilityNumber());
     }
 
     /**
