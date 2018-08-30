@@ -25,14 +25,14 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
     /**
      * Get the code.
      *
-     * @var string
+     * @var int
      */
     private $code;
 
     /**
      * Message.
      *
-     * @var bool
+     * @var string
      */
     private $message;
 
@@ -48,18 +48,14 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
     }
 
     /**
-     * Get the code.
-     *
-     * @return int Returns the code.
+     * {@inheritdoc}
      */
     public function getCode() {
         return $this->code;
     }
 
     /**
-     * Get the message.
-     *
-     * @return string Returns the message.
+     * {@inheritdoc}
      */
     public function getMessage() {
         return $this->message;
