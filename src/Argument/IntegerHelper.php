@@ -25,10 +25,10 @@ class IntegerHelper {
     /**
      * Get a lines limit.
      *
-     * @param integer $pageNumber The page number.
-     * @param integer $divider The divider.
-     * @param integer $total The total.
-     * @return integer[] Returns the offset and limit in case of success, -1 otherwise.
+     * @param int $pageNumber The page number.
+     * @param int $divider The divider.
+     * @param int $total The total.
+     * @return int[] Returns the offset and limit in case of success, -1 otherwise.
      * @deprecated
      */
     public static function getLinesLimit($pageNumber, $divider, $total = -1) {
@@ -38,9 +38,9 @@ class IntegerHelper {
     /**
      * Get a pages count.
      *
-     * @param integer $linesNumber The lines number.
-     * @param integer $divider The divider.
-     * @return integer Returns the pages count in case of success, -1 otherwise.
+     * @param int $linesNumber The lines number.
+     * @param int $divider The divider.
+     * @return int Returns the pages count in case of success, -1 otherwise.
      * @deprecated
      */
     public static function getPagesCount($linesNumber, $divider) {
@@ -62,8 +62,8 @@ class IntegerHelper {
     /**
      * Parse a boolean.
      *
-     * @param boolean $value The boolean value.
-     * @return integer Returns 1 in case of success, 0 otherwise.
+     * @param bool $value The boolean value.
+     * @return int Returns 1 in case of success, 0 otherwise.
      */
     public static function parseBoolean($value) {
         return $value === true ? 1 : 0;
@@ -73,7 +73,7 @@ class IntegerHelper {
      * Parse a string.
      *
      * @param string $value The string value.
-     * @return integer Returns the integer represented by the string value..
+     * @return int Returns the integer represented by the string value..
      * @throws IntegerArgumentException Throws an integer argument exception if the string value does not represent an integer.
      */
     public static function parseString($value) {

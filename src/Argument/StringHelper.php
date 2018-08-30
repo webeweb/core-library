@@ -73,7 +73,7 @@ class StringHelper {
     /**
      * Parse a boolean.
      *
-     * @param boolean $value The boolean value.
+     * @param bool $value The boolean value.
      * @return string Returns "true" in case of success, "false" otherwise.
      */
     public static function parseBoolean($value) {

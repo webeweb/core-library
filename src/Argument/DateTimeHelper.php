@@ -63,7 +63,7 @@ class DateTimeHelper {
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
-     * @return boolean Returns true in case o success, false otherwise.
+     * @return bool Returns true in case o success, false otherwise.
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function equals(DateTime $a, DateTime $b) {
@@ -74,7 +74,7 @@ class DateTimeHelper {
      * Get a day number.
      *
      * @param DateTime $dateTime The date/time.
-     * @return integer Returns the day number between 1 and 7 with monday equals to 1.
+     * @return int Returns the day number between 1 and 7 with monday equals to 1.
      */
     public static function getDayNumber(DateTime $dateTime) {
         return intval($dateTime->format("N"));
@@ -109,7 +109,7 @@ class DateTimeHelper {
      * Get a month number.
      *
      * @param DateTime $dateTime The date/time.
-     * @return integer Returns the month number.
+     * @return int Returns the month number.
      */
     public static function getMonthNumber(DateTime $dateTime) {
         return intval($dateTime->format("m"));
@@ -131,7 +131,7 @@ class DateTimeHelper {
      * Get a week number.
      *
      * @param DateTime $dateTime The date/time.
-     * @return integer Returns the week number.
+     * @return int Returns the week number.
      */
     public static function getWeekNumber(DateTime $dateTime) {
         return intval($dateTime->format("W"));
@@ -157,9 +157,9 @@ class DateTimeHelper {
      *
      * @param DateTime $date The date.
      * @param DateTime $startDate The start date.
-     * @param integer $weekCount The week count.
-     * @param integer $weekOffset The week offset.
-     * @return integer Returns the week number to apply between 1 and $weekCount.
+     * @param int $weekCount The week count.
+     * @param int $weekOffset The week offset.
+     * @return int Returns the week number to apply between 1 and $weekCount.
      */
     public static function getWeekNumberToApply(DateTime $date, DateTime $startDate, $weekCount, $weekOffset = 1) {
 
@@ -184,7 +184,7 @@ class DateTimeHelper {
      * Get a year number.
      *
      * @param DateTime $dateTime The date/time.
-     * @return integer Returns the year number.
+     * @return int Returns the year number.
      */
     public static function getYearNumber(DateTime $dateTime) {
         return intval($dateTime->format("Y"));

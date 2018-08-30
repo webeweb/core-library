@@ -29,7 +29,7 @@ class ArgumentHelper implements ArgumentInterface {
      * Convert a string value into type $type.
      *
      * @param string $value The string value.
-     * @param integer $type The type.
+     * @param int $type The type.
      * @param string $dateFormat The date format.
      * @return mixed Returns the value.
      * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
@@ -74,7 +74,7 @@ class ArgumentHelper implements ArgumentInterface {
      * Determines if the $value is of type $type.
      *
      * @param mixed $value The value.
-     * @param integer $type The type.
+     * @param int $type The type.
      * @throws IllegalArgumentException Throws an illegal argument exception if the value is not of expected type.
      */
     public static function isTypeOf($value, $type) {
