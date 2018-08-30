@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Fixtures;
 
 use DateTime;
-use WBW\Library\Core\Tests\Fixtures\Node\TestNode;
+use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
 
 /**
  * Test fixtures.

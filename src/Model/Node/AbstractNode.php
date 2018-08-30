@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Node;
+namespace WBW\Library\Core\Model\Node;
 
 use WBW\Library\Core\Sorting\AlphabeticalTreeNodeInterface;
 
@@ -17,7 +17,7 @@ use WBW\Library\Core\Sorting\AlphabeticalTreeNodeInterface;
  * Abstract node.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Node
+ * @package WBW\Library\Core\Model\Node
  * @abstract
  */
 abstract class AbstractNode implements AlphabeticalTreeNodeInterface {

@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures\Node;
+namespace WBW\Library\Core\Tests\Fixtures\Model\Node;
 
-use WBW\Library\Core\Node\AbstractNode;
+use WBW\Library\Core\Model\Node\AbstractNode;
 
 /**
  * Test node.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Fixtures\Node
+ * @package WBW\Library\Core\Tests\Fixtures\Model\Node
  * @final
  */
 final class TestNode extends AbstractNode {
