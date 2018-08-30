@@ -40,7 +40,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      */
     public static function equals(TimeSlot $a, TimeSlot $b) {
 
