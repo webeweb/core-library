@@ -160,10 +160,10 @@ class TimeSlot {
      */
     public function removeTimeSlot(TimeSlot $timeSlot) {
         for ($i = count($this->timeSlots) - 1; 0 <= $i; --$i) {
-            if (true === TimeSlotHelper::equals($timeSlot, $this->timeSlots[$i])) {
-                unset($this->timeSlots[$i]);
-                break;
+            if (true !== TimeSlotHelper::equals($timeSlot, $this->timeSlots[$i])) {
+                continue;
             }
+            unset($this->timeSlots[$i]);
         }
         return $this;
     }
