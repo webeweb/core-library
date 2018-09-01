@@ -12,9 +12,9 @@
 namespace WBW\Library\Core\Network\CURL\Request;
 
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
-use WBW\Library\CURL\Configuration\CURLConfiguration;
-use WBW\Library\CURL\Exception\CURLRequestCallException;
-use WBW\Library\CURL\Response\CURLResponseInterface;
+use WBW\Library\Core\Exception\Network\CURLRequestCallException;
+use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
+use WBW\Library\Core\Network\CURL\Response\CURLResponseInterface;
 
 /**
  * cURL request interface.
