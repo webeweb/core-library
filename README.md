@@ -21,7 +21,7 @@ Provides:
 - IO classes (directories, files, zip, etc.)
 - Model classes (chart accounts, contact, node, organizer, etc.)
 - Network utilities (cURL, FTP, HTTP, SFTP, etc)
-- Security classes (authenticator, passwor, authentication, etc.)
+- Security classes (authenticator, password authentication, etc.)
 - SkiData API (https://github.com/webeweb/skidata-library)
 - Sorting utilities (alphabetical tree sort, quick sort, etc)
 - Validation API (rule, rule set, validator, etc.)
