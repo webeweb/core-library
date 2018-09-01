@@ -1,10 +1,30 @@
 core-library
 ============
 
-[![Build Status](https://travis-ci.org/webeweb/core-library.svg?branch=master)](https://travis-ci.org/webeweb/core-library) [![Coverage Status](https://coveralls.io/repos/github/webeweb/core-library/badge.svg?branch=master)](https://coveralls.io/github/webeweb/core-library?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webeweb/core-library/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/webeweb/core-library/?branch=master) [![Latest Stable Version](https://poser.pugx.org/webeweb/core-library/v/stable)](https://packagist.org/packages/webeweb/core-library) [![Latest Unstable Version](https://poser.pugx.org/webeweb/core-library/v/unstable)](https://packagist.org/packages/webeweb/core-library) [![License](https://poser.pugx.org/webeweb/core-library/license)](https://packagist.org/packages/webeweb/core-library) [![composer.lock](https://poser.pugx.org/webeweb/core-library/composerlock)](https://packagist.org/packages/webeweb/core-library)
+[![Build Status](https://travis-ci.org/webeweb/core-library.svg?branch=master)](https://travis-ci.org/webeweb/core-library)
+[![Coverage Status](https://coveralls.io/repos/github/webeweb/core-library/badge.svg?branch=master)](https://coveralls.io/github/webeweb/core-library?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webeweb/core-library/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/webeweb/core-library/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/webeweb/core-library/v/stable)](https://packagist.org/packages/webeweb/core-library)
+[![Latest Unstable Version](https://poser.pugx.org/webeweb/core-library/v/unstable)](https://packagist.org/packages/webeweb/core-library)
+[![License](https://poser.pugx.org/webeweb/core-library/license)](https://packagist.org/packages/webeweb/core-library)
+[![composer.lock](https://poser.pugx.org/webeweb/core-library/composerlock)](https://packagist.org/packages/webeweb/core-library)
 
 `core-library` contains some classes we re-use regularly into other packages or
 projects.
+
+Provides:
+
+- Algorithms utilities (Luhn, etc.)
+- Arguments utilities (array, boolean, double, float, integer, string, etc.)
+- Databases connectors (Access, SQL Server, MySQL, etc.)
+- Exceptions classes
+- IO classes (directories, files, zip, etc.)
+- Model classes (chart accounts, contact, node, organizer, etc.)
+- Network utilities (cURL, FTP, HTTP, SFTP, etc)
+- Security classes (authenticator, passwor, authentication, etc.)
+- SkiData API (https://github.com/webeweb/skidata-library)
+- Sorting utilities (alphabetical tree sort, quick sort, etc)
+- Validation API (rule, rule set, validator, etc.)
 
 ---
 
@@ -14,6 +34,7 @@ projects.
 
 Requires:
 
+[![ext-curl](https://img.shields.io/badge/PHP-ext--curl-blue.svg)](http://php.net/manual/en/book.curl.php)
 [![ext-ftp](https://img.shields.io/badge/PHP-ext--ftp-blue.svg)](http://php.net/manual/en/book.ftp.php)
 [![ext-ssh2](https://img.shields.io/badge/PHP-ext--ssh2-blue.svg)](http://php.net/manual/en/book.ssh2.php)
 [![ext-zip](https://img.shields.io/badge/PHP-ext--zip-blue.svg)](http://php.net/manual/en/book.zip.php)
