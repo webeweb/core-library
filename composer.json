@@ -2,7 +2,7 @@
     "name": "webeweb/core-library",
     "type": "library",
     "description": "Core library",
-    "keywords": ["webeweb", "library", "core", "database", "helper", "security"],
+    "keywords": ["webeweb", "library", "core", "algorithm", "argument", "database", "io", "network", "security", "skidata", "sorting", "validation", "curl", "ftp", "sftp"],
     "homepage": "http://github.com/webeweb/core-library",
     "license": "LGPL-3.0-only",
     "authors": [
