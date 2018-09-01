@@ -19,7 +19,7 @@ Provides:
 - Databases connectors (Access, SQL Server, MySQL, etc.)
 - Exceptions classes
 - IO classes (directories, files, zip, etc.)
-- Model classes (chart accounts, contact, node, organizer, etc.)
+- Model classes (choices, contact, node, organizer, etc.)
 - Network utilities (cURL, FTP, HTTP, SFTP, etc)
 - Security classes (authenticator, password authentication, etc.)
 - SkiData API (https://github.com/webeweb/skidata-library)
