@@ -12,6 +12,9 @@
         }
     ],
     "require": {
+        "ext-curl": "*",
+        "ext-ftp": "*",
+        "ext-ssh2": "*",
         "ext-zip": "*",
         "php": "^5.6|^7.0",
         "symfony/yaml": "*"
