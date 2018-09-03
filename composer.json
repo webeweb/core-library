@@ -24,14 +24,14 @@
         "issues": "http://github.com/webeweb/core-library/issues"
     },
     "autoload": {
-        "psr-4": {
-            "WBW\\Library\\Core\\": "src/"
-        }
+        "classmap": [
+            "src/"
+        ]
     },
     "autoload-dev": {
-        "psr-4": {
-            "WBW\\Library\\Core\\Tests\\": "tests/"
-        }
+        "classmap": [
+            "tests/"
+        ]
     },
     "config": {
         "sort-packages": true
