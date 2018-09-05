@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Argument;
 
 use Error;
+use Exception;
 use ReflectionClass;
 use ReflectionException;
 use WBW\Library\Core\Exception\Argument\ObjectArgumentException;
