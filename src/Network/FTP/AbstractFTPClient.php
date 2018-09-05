@@ -43,7 +43,7 @@ abstract class AbstractFTPClient {
      * @param Authenticator $authenticator The authenticator.
      */
     protected function __construct(Authenticator $authenticator) {
-        $this->authenticator = $authenticator;
+        $this->setAuthenticator($authenticator);
     }
 
     /**
@@ -51,7 +51,7 @@ abstract class AbstractFTPClient {
      *
      * @return Authenticator Returns the authenticator.
      */
-    final public function getAuthenticator() {
+    public function getAuthenticator() {
         return $this->authenticator;
     }
 
@@ -60,7 +60,7 @@ abstract class AbstractFTPClient {
      *
      * @return mixed Returns the connection.
      */
-    final public function getConnection() {
+    public function getConnection() {
         return $this->connection;
     }
 
@@ -70,7 +70,7 @@ abstract class AbstractFTPClient {
      * @param string $message The message.
      * @return FTPException Returns a new FTP exception.
      */
-    final protected function newFTPException($message) {
+    protected function newFTPException($message) {
         return new FTPException(sprintf("%s://%s:%s@%s:%d " . $message, $this->authenticator->getScheme(), $this->authenticator->getPasswordAuthentication()->getUsername(), $this->authenticator->getPasswordAuthentication()->getPassword(), $this->authenticator->getHost(), $this->authenticator->getPort()));
     }
 
@@ -80,7 +80,7 @@ abstract class AbstractFTPClient {
      * @param Authenticator $authenticator The authenticator.
      * @returns AbstractFTPClient Returns this abstract FTP client.
      */
-    final protected function setAuthenticator(Authenticator $authenticator) {
+    protected function setAuthenticator(Authenticator $authenticator) {
         $this->authenticator = $authenticator;
         return $this;
     }
@@ -91,7 +91,7 @@ abstract class AbstractFTPClient {
      * @param mixed $connection The connection.
      * @returns AbstractFTPClient Returns this abstract FTP client.
      */
-    final protected function setConnection($connection) {
+    protected function setConnection($connection) {
         $this->connection = $connection;
         return $this;
     }
