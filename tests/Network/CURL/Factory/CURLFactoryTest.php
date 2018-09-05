@@ -41,16 +41,6 @@ final class CURLFactoryTest extends AbstractCoreFrameworkTestCase {
     public function testGetInstance() {
 
         // ===
-        try {
-
-            CURLFactory::getInstance("exception");
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(InvalidHTTPMethodException::class, $ex);
-            $this->assertEquals("The HTTP method \"exception\" is invalid", $ex->getMessage());
-        }
-
-        // ===
         $res1 = CURLFactory::getInstance(HTTPInterface::HTTP_METHOD_DELETE);
         $this->assertInstanceOf(CURLDeleteRequest::class, $res1);
 
@@ -77,6 +67,16 @@ final class CURLFactoryTest extends AbstractCoreFrameworkTestCase {
         // ===
         $res7 = CURLFactory::getInstance(HTTPInterface::HTTP_METHOD_PUT);
         $this->assertInstanceOf(CURLPutRequest::class, $res7);
+
+        // ===
+        try {
+
+            CURLFactory::getInstance("exception");
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidHTTPMethodException::class, $ex);
+            $this->assertEquals("The HTTP method \"exception\" is invalid", $ex->getMessage());
+        }
     }
 
 }

@@ -53,6 +53,12 @@ final class CURLGetRequestTest extends AbstractCURLRequestTest {
         $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
 
         // ===
+        $obj->addHeader("name", "value");
+
+        $res = ["name" => "value"];
+        $this->assertEquals($res, $obj->getHeaders());
+
+        // ===
         try {
 
             $obj->addHeader(1, "value");
@@ -61,12 +67,6 @@ final class CURLGetRequestTest extends AbstractCURLRequestTest {
             $this->assertInstanceOf(StringArgumentException::class, $ex);
             $this->assertEquals("The argument \"1\" is not a string", $ex->getMessage());
         }
-
-        // ===
-        $obj->addHeader("name", "value");
-
-        $res = ["name" => "value"];
-        $this->assertEquals($res, $obj->getHeaders());
     }
 
     /**
@@ -79,6 +79,12 @@ final class CURLGetRequestTest extends AbstractCURLRequestTest {
         $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
 
         // ===
+        $obj->addQueryData("name", "value");
+
+        $res = ["name" => "value"];
+        $this->assertEquals($res, $obj->getQueryData());
+
+        // ===
         try {
 
             $obj->addQueryData(1, "value");
@@ -87,12 +93,6 @@ final class CURLGetRequestTest extends AbstractCURLRequestTest {
             $this->assertInstanceOf(StringArgumentException::class, $ex);
             $this->assertEquals("The argument \"1\" is not a string", $ex->getMessage());
         }
-
-        // ===
-        $obj->addQueryData("name", "value");
-
-        $res = ["name" => "value"];
-        $this->assertEquals($res, $obj->getQueryData());
     }
 
     /**
