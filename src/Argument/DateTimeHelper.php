@@ -63,7 +63,7 @@ class DateTimeHelper {
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
-     * @return bool Returns true in case o success, false otherwise.
+     * @return boolean Returns true in case o success, false otherwise.
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function equals(DateTime $a, DateTime $b) {
@@ -196,7 +196,7 @@ class DateTimeHelper {
      * @param DateTime $dateTime The date/time.
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
-     * @return bool Returns true in case of success, false otherwise.
+     * @return boolean Returns true in case of success, false otherwise.
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isBetween(DateTime $dateTime, DateTime $a, DateTime $b) {
@@ -223,7 +223,7 @@ class DateTimeHelper {
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
-     * @return bool Returns true in case of success, false otherwise.
+     * @return boolean Returns true in case of success, false otherwise.
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isGreaterThan(DateTime $a, DateTime $b) {
@@ -236,7 +236,7 @@ class DateTimeHelper {
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
-     * @return bool Returns true in case of success, false otherwise.
+     * @return boolean Returns true in case of success, false otherwise.
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isLessThan(DateTime $a, DateTime $b) {

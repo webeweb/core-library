@@ -244,7 +244,7 @@ class SkiDataCard {
     /**
      * Get the display text.
      *
-     * @return bool Returns the display text.
+     * @return boolean Returns the display text.
      */
     public function getDisplayText() {
         return $this->displayText;
@@ -271,7 +271,7 @@ class SkiDataCard {
     /**
      * Get the entry barrier closed.
      *
-     * @return bool Returns the entry barrier closed.
+     * @return boolean Returns the entry barrier closed.
      */
     public function getEntryBarrierClosed() {
         return $this->entryBarrierClosed;
@@ -280,7 +280,7 @@ class SkiDataCard {
     /**
      * Get the exit barrier closed.
      *
-     * @return bool Returns the exit barrier closed.
+     * @return boolean Returns the exit barrier closed.
      */
     public function getExitBarrierClosed() {
         return $this->exitBarrierClosed;
@@ -298,7 +298,7 @@ class SkiDataCard {
     /**
      * Get the is neutral.
      *
-     * @return bool Returns the is neutral.
+     * @return boolean Returns the is neutral.
      */
     public function getNeutral() {
         return $this->isNeutral;
@@ -361,7 +361,7 @@ class SkiDataCard {
     /**
      * Get the retain ticket at entry.
      *
-     * @return bool Returns the retain ticket at entry.
+     * @return boolean Returns the retain ticket at entry.
      */
     public function getRetainTicketEntry() {
         return $this->retainTicketEntry;
@@ -370,7 +370,7 @@ class SkiDataCard {
     /**
      * Get the retain ticket exit.
      *
-     * @return bool Returns the retain ticket ax exit.
+     * @return boolean Returns the retain ticket ax exit.
      */
     public function getRetainTicketExit() {
         return $this->retainTicketExit;
@@ -442,7 +442,7 @@ class SkiDataCard {
     /**
      * Get the use valid car parks.
      *
-     * @return bool Returns the use valid car parks.
+     * @return boolean Returns the use valid car parks.
      */
     public function getUseValidCarParks() {
         return $this->useValidCarParks;
@@ -491,7 +491,7 @@ class SkiDataCard {
     /**
      * Set the display text.
      *
-     * @param bool $displayText The display text.
+     * @param boolean $displayText The display text.
      * @return SkiDataCard Returns this card entity.
      */
     public function setDisplayText($displayText) {
@@ -524,7 +524,7 @@ class SkiDataCard {
     /**
      * Set the entry barrier closed.
      *
-     * @param bool $entryBarrierClosed The entry barrier closed.
+     * @param boolean $entryBarrierClosed The entry barrier closed.
      * @return SkiDataCard Returns this card entity.
      */
     public function setEntryBarrierClosed($entryBarrierClosed) {
@@ -535,7 +535,7 @@ class SkiDataCard {
     /**
      * Set the exit barrier closed.
      *
-     * @param bool $exitBarrierClosed The exit barrier closed.
+     * @param boolean $exitBarrierClosed The exit barrier closed.
      * @return SkiDataCard Returns this card entity.
      */
     public function setExitBarrierClosed($exitBarrierClosed) {
@@ -557,7 +557,7 @@ class SkiDataCard {
     /**
      * Set the is neutral.
      *
-     * @param bool $isNeutral The is neutral.
+     * @param boolean $isNeutral The is neutral.
      * @return SkiDataCard Returns this card entity.
      */
     public function setNeutral($isNeutral) {
@@ -634,7 +634,7 @@ class SkiDataCard {
     /**
      * Set the retain ticket at entry.
      *
-     * @param bool $retainTicketEntry The retain ticket at entry.
+     * @param boolean $retainTicketEntry The retain ticket at entry.
      * @return SkiDataCard Returns this card entity.
      */
     public function setRetainTicketEntry($retainTicketEntry) {
@@ -645,7 +645,7 @@ class SkiDataCard {
     /**
      * Set the retain ticket at exit.
      *
-     * @param bool $retainTicketExit The retain ticket at exit.
+     * @param boolean $retainTicketExit The retain ticket at exit.
      * @return SkiDataCard Returns this card entity.
      */
     public function setRetainTicketExit($retainTicketExit) {
@@ -733,7 +733,7 @@ class SkiDataCard {
     /**
      * Set the use valid car parks.
      *
-     * @param bool $useValidCarParks The use valid car parks.
+     * @param boolean $useValidCarParks The use valid car parks.
      * @return SkiDataCard Returns this card entity.
      */
     public function setUseValidCarParks($useValidCarParks) {

@@ -26,8 +26,8 @@ class DirectoryHelper {
      *
      * @param string $dirname The directory name.
      * @param int $mode The directory mode.
-     * @param bool $recursive Recursive ?
-     * @return bool Returns true in case of success, false otherwise or null if the directory exists.
+     * @param boolean $recursive Recursive ?
+     * @return boolean Returns true in case of success, false otherwise or null if the directory exists.
      */
     public static function create($dirname, $mode = 0755, $recursive = false) {
         if (true === file_exists($dirname)) {
@@ -40,7 +40,7 @@ class DirectoryHelper {
      * Delete a directory.
      *
      * @param string $dirname The directory name.
-     * @return bool Returns true in case of success, false otherwise or null if the directory can't be deleted.
+     * @return boolean Returns true in case of success, false otherwise or null if the directory can't be deleted.
      */
     public static function delete($dirname) {
         if (true !== self::isEmpty($dirname)) {
@@ -53,7 +53,7 @@ class DirectoryHelper {
      * Determines if a directory is empty.
      *
      * @param string $dirname The directory name.
-     * @return bool Returns true in case of success, false otherwise or null if the directory is not readable.
+     * @return boolean Returns true in case of success, false otherwise or null if the directory is not readable.
      */
     public static function isEmpty($dirname) {
         if (false === is_readable($dirname)) {
@@ -67,7 +67,7 @@ class DirectoryHelper {
      *
      * @param string $oldDirname The old directory name.
      * @param string $newDirname The new directory name.
-     * @return bool Returns true in case of success, false otherwise or null if the new directory name already exists.
+     * @return boolean Returns true in case of success, false otherwise or null if the new directory name already exists.
      * @throws FileNotFoundException Throws a file not found exception if the directory does not exists.
      * @see FileHelper
      */

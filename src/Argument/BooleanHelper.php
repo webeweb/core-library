@@ -37,7 +37,7 @@ class BooleanHelper {
      * Parse a string.
      *
      * @param string $value The string value.
-     * @return bool Returns true in case of success, false otherwise.
+     * @return boolean Returns true in case of success, false otherwise.
      */
     public static function parseString($value) {
         if (null === $value) {

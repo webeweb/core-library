@@ -132,7 +132,7 @@ class SkiDataUser {
     /**
      * Get the check licence plate.
      *
-     * @return bool Returns the check licence plate
+     * @return boolean Returns the check licence plate
      */
     public function getCheckLicensePlate() {
         return $this->checkLicensePlate;
@@ -204,7 +204,7 @@ class SkiDataUser {
     /**
      * Get the excess times with credit card.
      *
-     * @return bool Returns the excess times with credit card.
+     * @return boolean Returns the excess times with credit card.
      */
     public function getExcessTimesCreditCard() {
         return $this->excessTimesCreditCard;
@@ -240,7 +240,7 @@ class SkiDataUser {
     /**
      * Get the passage with license plate permitted.
      *
-     * @return bool Returns teh passage with license plate permitted.
+     * @return boolean Returns teh passage with license plate permitted.
      */
     public function getPassageLicensePlatePermitted() {
         return $this->passageLicensePlatePermitted;
@@ -258,7 +258,7 @@ class SkiDataUser {
     /**
      * Set the check with license plate.
      *
-     * @param bool $checkLicensePlate The check with license plate.
+     * @param boolean $checkLicensePlate The check with license plate.
      * @return SkiDataUser Returns this user entity.
      */
     public function setCheckLicensePlate($checkLicensePlate) {
@@ -346,7 +346,7 @@ class SkiDataUser {
     /**
      * Set the excess times with credit card.
      *
-     * @param bool $excessTimesCreditCard The excess times with credit card.
+     * @param boolean $excessTimesCreditCard The excess times with credit card.
      * @return SkiDataUser Returns this user entity.
      */
     public function setExcessTimesCreditCard($excessTimesCreditCard) {
@@ -391,7 +391,7 @@ class SkiDataUser {
      * Set the passage with license plate permitted.
      *
      * @return SkiDataUser Returns this user entity.
-     * @param bool $passageLicensePlatePermitted The passage with license plate permitted.
+     * @param boolean $passageLicensePlatePermitted The passage with license plate permitted.
      */
     public function setPassageLicensePlatePermitted($passageLicensePlatePermitted) {
         $this->passageLicensePlatePermitted = $passageLicensePlatePermitted;

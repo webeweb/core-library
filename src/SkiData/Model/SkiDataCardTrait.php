@@ -38,7 +38,7 @@ trait SkiDataCardTrait {
     /**
      * Get the blocked.
      *
-     * @return bool Returns the blocked.
+     * @return boolean Returns the blocked.
      */
     public function getBlocked() {
         return $this->blocked;
@@ -56,7 +56,7 @@ trait SkiDataCardTrait {
     /**
      * Set the blocked.
      *
-     * @param bool $blocked The blocked.
+     * @param boolean $blocked The blocked.
      */
     public function setBlocked($blocked) {
         $this->blocked = $blocked;
