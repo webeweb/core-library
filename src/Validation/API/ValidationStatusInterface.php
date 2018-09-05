@@ -32,4 +32,19 @@ interface ValidationStatusInterface {
      * @return string Returns the message.
      */
     public function getMessage();
+
+    /**
+     * Get the rule name.
+     *
+     * @return string Returns the rule name.
+     */
+    public function getRuleName();
+
+    /**
+     * Set the rule name.
+     *
+     * @param string $ruleName The rule name.
+     * @return ValidationStatusInterface Returns this validation status.
+     */
+    public function setRuleName($ruleName);
 }

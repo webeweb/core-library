@@ -37,6 +37,13 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
     private $message;
 
     /**
+     * Rule name.
+     *
+     * @var string
+     */
+    private $ruleName;
+
+    /**
      * Constructor.
      *
      * @param int $code The code.
@@ -62,6 +69,13 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function getRuleName() {
+        return $this->ruleName;
+    }
+
+    /**
      * Set the code.
      *
      * @param int $code The code.
@@ -80,6 +94,14 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
      */
     public function setMessage($message) {
         $this->message = $message;
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setRuleName($ruleName) {
+        $this->ruleName = $ruleName;
         return $this;
     }
 

@@ -34,6 +34,7 @@ final class DefaultValidationStatusTest extends AbstractValidationTest {
 
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getMessage());
+        $this->assertNull($obj->getRuleName());
     }
 
     /**
@@ -60,6 +61,19 @@ final class DefaultValidationStatusTest extends AbstractValidationTest {
 
         $obj->setMessage("message");
         $this->assertEquals("message", $obj->getMessage());
+    }
+
+    /**
+     * Tests The setRuleName() method.
+     *
+     * @return void
+     */
+    public function testSetRuleName() {
+
+        $obj = new DefaultValidationStatus();
+
+        $obj->setRuleName("ruleName");
+        $this->assertEquals("ruleName", $obj->getRuleName());
     }
 
 }
