@@ -71,19 +71,20 @@ final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
      */
     public function testConctruct() {
 
+        $obj = new TimeSlot($this->startDate, $this->endDate);
+
+        $this->assertSame($this->endDate, $obj->getEndDate());
+        $this->assertSame($this->startDate, $obj->getStartDate());
+        $this->assertEquals([], $obj->getTimeSlots());
+
         try {
+
             new TimeSlot($this->endDate, $this->startDate);
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(IllegalArgumentException::class, $ex);
             $this->assertEquals("The end date must be greater than start date", $ex->getMessage());
         }
-
-        $obj = new TimeSlot($this->startDate, $this->endDate);
-
-        $this->assertSame($this->endDate, $obj->getEndDate());
-        $this->assertSame($this->startDate, $obj->getStartDate());
-        $this->assertEquals([], $obj->getTimeSlots());
     }
 
     /**
