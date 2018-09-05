@@ -32,24 +32,31 @@ final class FloatHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testParseString() {
 
-        try {
-            FloatHelper::parseString("exception");
-        } catch (Exception $ex) {
-            $this->assertInstanceOf(FloatArgumentException::class, $ex);
-            $this->assertEquals("The argument \"exception\" is not a float", $ex->getMessage());
-        }
-
-        try {
-            FloatHelper::parseString("1A");
-        } catch (Exception $ex) {
-            $this->assertInstanceOf(FloatArgumentException::class, $ex);
-            $this->assertEquals("The argument \"1A\" is not a float", $ex->getMessage());
-        }
-
+        // ===
         $this->assertNull(FloatHelper::parseString(null));
         $this->assertEquals(1.0, FloatHelper::parseString("1"));
         $this->assertEquals(1.0, FloatHelper::parseString("1."));
         $this->assertEquals(1.0, FloatHelper::parseString("1.0"));
+
+        // ===
+        try {
+
+            FloatHelper::parseString("exception");
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(FloatArgumentException::class, $ex);
+            $this->assertEquals("The argument \"exception\" is not a float", $ex->getMessage());
+        }
+
+        // ===
+        try {
+
+            FloatHelper::parseString("1A");
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(FloatArgumentException::class, $ex);
+            $this->assertEquals("The argument \"1A\" is not a float", $ex->getMessage());
+        }
     }
 
 }

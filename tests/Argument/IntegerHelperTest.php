@@ -83,36 +83,48 @@ final class IntegerHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testParseString() {
 
+        $this->assertNull(IntegerHelper::parseString(null));
+        $this->assertEquals(1, IntegerHelper::parseString("1"));
+
+        // ===
         try {
+
             IntegerHelper::parseString("exception");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals("The argument \"exception\" is not an integer", $ex->getMessage());
         }
 
+        // ===
         try {
+
             IntegerHelper::parseString("1A");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals("The argument \"1A\" is not an integer", $ex->getMessage());
         }
 
+        // ===
         try {
+
             IntegerHelper::parseString("1.");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals("The argument \"1.\" is not an integer", $ex->getMessage());
         }
 
+        // ===
         try {
+
             IntegerHelper::parseString("1.0");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals("The argument \"1.0\" is not an integer", $ex->getMessage());
         }
-
-        $this->assertNull(IntegerHelper::parseString(null));
-        $this->assertEquals(1, IntegerHelper::parseString("1"));
     }
 
 }
