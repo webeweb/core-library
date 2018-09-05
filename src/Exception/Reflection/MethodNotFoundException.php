@@ -29,7 +29,7 @@ class MethodNotFoundException extends AbstractCoreException {
      * @param Exception $previous The previous exception.
      */
     public function __construct($method, Exception $previous = null) {
-        parent::__construct("The method \"" . $method . "\" is not found", 500, $previous);
+        parent::__construct(sprintf("The method \"%s\" is not found", $method), 500, $previous);
     }
 
 }
