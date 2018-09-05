@@ -124,7 +124,7 @@ class ObjectHelper {
      * @throws ReflectionException Throws a Reflection exception if an error occurs.
      */
     public static function getName($object) {
-        return (new ReflectionClass($object))->getName();
+        return (new ReflectionClass($object))->name;
     }
 
     /**
