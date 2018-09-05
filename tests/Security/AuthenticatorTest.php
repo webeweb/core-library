@@ -97,15 +97,19 @@ final class AuthenticatorTest extends AbstractCoreFrameworkTestCase {
         $this->assertEquals(22, $obj->getPort());
 
         try {
+
             $obj->setPort(-1);
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(IllegalArgumentException::class, $ex);
             $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
         }
 
         try {
+
             $obj->setPort(65537);
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(IllegalArgumentException::class, $ex);
             $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
         }
