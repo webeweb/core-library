@@ -72,8 +72,10 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertTrue(FileHelper::delete($this->filename));
 
         try {
+
             FileHelper::delete($this->filename);
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
             $this->assertEquals("The file \"" . $this->filename . "\" is not found", $ex->getMessage());
         }
@@ -106,8 +108,10 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertEquals("0.001 YB", FileHelper::formatSize(1000000000000000000000, "YB", 3));
 
         try {
+
             FileHelper::formatSize(99, "exception");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(IllegalArgumentException::class, $ex);
             $this->assertEquals("The unit \"exception\" does not exists", $ex->getMessage());
         }
@@ -125,8 +129,10 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertEquals("FileHelperTest", FileHelper::getContents($filename), 'The method getContents() does not return the expected content');
 
         try {
+
             FileHelper::getContents("exception");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
             $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
         }
@@ -145,8 +151,10 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertContains("FileHelperTest.txt", FileHelper::getFilenames($pathname, ".txt"));
 
         try {
+
             FileHelper::getFilenames("exception");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
             $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
         }
@@ -162,8 +170,10 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertEquals(14, FileHelper::getSize(getcwd() . "/tests/IO/FileHelperTest.txt"));
 
         try {
+
             FileHelper::getSize("exception");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
             $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
         }
@@ -194,8 +204,10 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertTrue(FileHelper::rename($oldname, $newname));
 
         try {
+
             FileHelper::rename($oldname, $newname);
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
             $this->assertEquals("The file \"" . $oldname . "\" is not found", $ex->getMessage());
         }
@@ -208,13 +220,7 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testZip() {
 
-        try {
-            FileHelper::zip("exception", "exception.zip");
-        } catch (Exception $ex) {
-            $this->assertInstanceOf(FileNotFoundException::class, $ex);
-            $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
-        }
-
+        // ===
         $srcF = getcwd() . "/README.md";
         $dstF = getcwd() . "/README.md.zip";
 
@@ -222,12 +228,23 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertFileExists($dstF);
         $this->assertGreaterThan(900, FileHelper::getSize($dstF));
 
+        // ===
         $srcD = getcwd() . "/tests";
         $dstD = getcwd() . "/tests.zip";
 
         FileHelper::zip($srcD, $dstD);
         $this->assertFileExists($dstD);
         $this->assertGreaterThan(38000, FileHelper::getSize($dstD));
+
+        // ===
+        try {
+
+            FileHelper::zip("exception", "exception.zip");
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(FileNotFoundException::class, $ex);
+            $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
+        }
     }
 
 }

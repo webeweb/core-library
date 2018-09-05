@@ -70,8 +70,10 @@ final class DirectoryHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertTrue(DirectoryHelper::rename($arg2, $arg2 . "2"));
 
         try {
+
             DirectoryHelper::rename($arg2, $arg2 . "2");
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
             $this->assertEquals("The file \"" . $arg2 . "\" is not found", $ex->getMessage());
         }
