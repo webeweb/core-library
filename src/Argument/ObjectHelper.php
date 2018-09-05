@@ -29,6 +29,17 @@ use WBW\Library\Core\IO\FileHelper;
 class ObjectHelper {
 
     /**
+     * Get a class directory.
+     *
+     * @param mixed $object The class name or object.
+     * @return string Returns the class directory.
+     */
+    public static function getDirectory($object) {
+        $filename = (new ReflectionClass($object))->getFileName();
+        return dirname($filename);
+    }
+
+    /**
      * Get the hooks.
      *
      * @param string $classpath The class path.
@@ -113,7 +124,7 @@ class ObjectHelper {
      * @throws ReflectionException Throws a Reflection exception if an error occurs.
      */
     public static function getName($object) {
-        return (new ReflectionClass($object))->name;
+        return (new ReflectionClass($object))->getName();
     }
 
     /**
