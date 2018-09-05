@@ -183,6 +183,7 @@ class FileHelper implements FileInterface {
      *
      * @param string $source The source filename.
      * @param string $destination The destination filename.
+     * @return bool Returns true in case of success, false otherwise.
      * @throws FileNotFoundException Throws a file not found exception if the source filename is not found.
      */
     public static function zip($source, $destination) {
@@ -194,40 +195,32 @@ class FileHelper implements FileInterface {
 
         // Initialize the ZIP archive.
         $zip = new ZipArchive();
-        if (true !== $zip->open($destination, ZipArchive::CREATE)) {
-            return false;
-        }
+        $zip->open($destination, ZipArchive::CREATE);
 
         // Clean up.
-        $source = str_replace("\\\\", "/", realpath($source));
+        $src = str_replace("\\\\", "/", realpath($source));
 
         // Is file ? => Add it and return.
-        if (true === is_file($source)) {
-            $zip->addFromString(basename($source), self::getContents($source));
+        if (true === is_file($src)) {
+            $zip->addFromString(basename($src), self::getContents($src));
             return $zip->close();
         }
 
-        // Get and handle the files list.
-        $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($source), RecursiveIteratorIterator::SELF_FIRST);
+        // Handle the files list.
+        $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($src), RecursiveIteratorIterator::SELF_FIRST);
         foreach ($files as $current) {
 
-            // Clean up and determines if the file should be added.
-            $current = str_replace("\\\\", "/", $current);
-            if (true === in_array($current, [".", ".."])) {
-                continue;
-            }
-
             // Clean up.
-            $current = realpath($current);
+            $cur = str_replace("\\\\", "/", realpath($current));
 
             // Initialize the ZIP path.
-            $zipPath = preg_replace("/^" . str_replace("/", "\/", $source . "/") . "/", "", $current);
+            $zipPath = preg_replace("/^" . str_replace("/", "\/", $src . "/") . "/", "", $cur);
 
             // Check the file type.
-            if (true === is_file($current)) {
-                $zip->addFromString($zipPath, self::getContents($current));
+            if (true === is_file($cur)) {
+                $zip->addFromString($zipPath, self::getContents($cur));
             }
-            if (true === is_dir($current)) {
+            if (true === is_dir($cur)) {
                 $zip->addEmptyDir($zipPath);
             }
         }
