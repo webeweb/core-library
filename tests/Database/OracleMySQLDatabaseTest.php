@@ -47,8 +47,10 @@ final class OracleMySQLDatabaseTest extends AbstractDatabaseTest {
         $obj = new OracleMySQLDatabase($this->authenticator, "exception");
 
         try {
+
             $obj->getConnection();
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(PDOException::class, $ex);
             $this->assertNotEmpty($ex->getMessage());
         }

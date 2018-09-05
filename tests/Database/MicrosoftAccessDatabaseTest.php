@@ -47,8 +47,10 @@ final class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
         $obj = new MicrosoftAccessDatabase($this->authenticator, "exception");
 
         try {
+
             $obj->getConnection();
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
             $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
         }

@@ -47,8 +47,10 @@ final class MicrosoftSQLServerDatabaseTest extends AbstractDatabaseTest {
         $obj = new MicrosoftSQLServerDatabase($this->authenticator, "exception");
 
         try {
+
             $obj->getConnection();
         } catch (Exception $ex) {
+
             $this->assertInstanceOf(PDOException::class, $ex);
             $this->assertNotEmpty($ex->getMessage());
         }
