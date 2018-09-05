@@ -17,7 +17,6 @@ use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
 use WBW\Library\Core\Argument\ObjectHelper;
-use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
 use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
@@ -147,6 +146,7 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
      * Tests the getHooks() method.
      *
      * @return void
+     * @requires PHP 7.0
      */
     public function testGetHooksWithSyntaxErrorException() {
 
