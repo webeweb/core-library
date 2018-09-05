@@ -50,19 +50,6 @@ final class ActionResponseTest extends AbstractCoreFrameworkTestCase {
     }
 
     /**
-     * Tests the jsonSerialize() method.
-     *
-     * @return void
-     */
-    public function testJsonSerialize() {
-
-        $obj = new ActionResponse();
-
-        $res = ["status" => null, "notify" => null];
-        $this->assertEquals($res, $obj->jsonSerialize());
-    }
-
-    /**
      * Tests the setStatus() method.
      *
      * @return void
@@ -105,6 +92,19 @@ final class ActionResponseTest extends AbstractCoreFrameworkTestCase {
         $obj->setNotify("notify");
         $res9 = ["status" => 200, "notify" => "notify"];
         $this->assertEquals($res9, $obj->toArray());
+    }
+
+    /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize() {
+
+        $obj = new ActionResponse();
+
+        $res = ["status" => null, "notify" => null];
+        $this->assertEquals($res, $obj->jsonSerialize());
     }
 
 }
