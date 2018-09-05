@@ -17,7 +17,9 @@ use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
 use WBW\Library\Core\Argument\ObjectHelper;
+use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
+use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
 use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
@@ -118,6 +120,17 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
             $this->assertContainsOnlyInstancesOf(ReflectionClass::class, [$current["class"]]);
             $this->assertContainsOnlyInstancesOf(ReflectionMethod::class, [$current["method"]]);
         }
+    }
+
+    /**
+     * Tests the getHooks() method.
+     *
+     * @return void
+     */
+    public function testGetHooksWithMethodNotFoundException() {
+
+        $classpath = getcwd() . "/tests/Argument";
+        $namespace = "WBW\\Library\\Core\\Tests\\Argument\\";
 
         // ===
         try {
@@ -127,6 +140,28 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
 
             $this->assertInstanceOf(MethodNotFoundException::class, $ex);
             $this->assertEquals("The method \"testGetHook\" is not found", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the getHooks() method.
+     *
+     * @return void
+     */
+    public function testGetHooksWithSyntaxErrorException() {
+
+        $classpath = getcwd() . "/tests/Fixtures/Argument";
+        $namespace = "WBW\\Library\\Core\\Tests\\Fixtures\\Argument\\";
+        $classname = "ObjectHelperSyntaxErrorException";
+
+        // ===
+        try {
+
+            ObjectHelper::getHooks($classpath, $namespace, "/" . $classname . "/");
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(SyntaxErrorException::class, $ex);
+            $this->assertEquals("The file \"" . implode("/", [$classpath, $classname . ".php"]) . "\" contains syntax errors", $ex->getMessage());
         }
     }
 
