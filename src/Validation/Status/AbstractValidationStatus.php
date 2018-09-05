@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Validation\Status;
 
+use JsonSerializable;
 use WBW\Library\Core\Validation\API\ValidationStatusInterface;
 
 /**
@@ -20,7 +21,7 @@ use WBW\Library\Core\Validation\API\ValidationStatusInterface;
  * @package WBW\Library\Core\Validation\Status
  * @abstract
  */
-abstract class AbstractValidationStatus implements ValidationStatusInterface {
+abstract class AbstractValidationStatus implements JsonSerializable, ValidationStatusInterface {
 
     /**
      * Get the code.
@@ -76,6 +77,13 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function jsonSerialize() {
+        return $this->toArray();
+    }
+
+    /**
      * Set the code.
      *
      * @param int $code The code.
@@ -103,6 +111,24 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface {
     public function setRuleName($ruleName) {
         $this->ruleName = $ruleName;
         return $this;
+    }
+
+    /**
+     * Convert into an array representing this instance.
+     *
+     * @return array Returns an array representing this instance.
+     */
+    public function toArray() {
+
+        // Initialize the output.
+        $output = [];
+
+        $output["code"]     = $this->code;
+        $output["message"]  = $this->message;
+        $output["ruleName"] = $this->ruleName;
+
+        // Return the output.
+        return $output;
     }
 
 }

@@ -76,4 +76,56 @@ final class DefaultValidationStatusTest extends AbstractValidationTest {
         $this->assertEquals("ruleName", $obj->getRuleName());
     }
 
+    /**
+     * Tests the toArray() method.
+     *
+     * @return void
+     */
+    public function testToArray() {
+
+        $obj = new DefaultValidationStatus();
+
+        // ===
+        $res0 = ["code" => null, "message" => null, "ruleName" => null];
+        $this->assertEquals($res0, $obj->toArray());
+
+        // ===
+        $obj->setCode(200);
+        $obj->setMessage(null);
+        $res1 = ["code" => 200, "message" => null, "ruleName" => null];
+        $this->assertEquals($res1, $obj->toArray());
+
+        // ===
+        $obj->setCode(null);
+        $obj->setMessage("message");
+        $res2 = ["code" => null, "message" => "message", "ruleName" => null];
+        $this->assertEquals($res2, $obj->toArray());
+
+        // ===
+        $obj->setMessage(null);
+        $obj->setRuleName("ruleName");
+        $res3 = ["code" => null, "message" => null, "ruleName" => "ruleName"];
+        $this->assertEquals($res3, $obj->toArray());
+
+        // ===
+        $obj->setCode(200);
+        $obj->setMessage("message");
+        $obj->setRuleName("ruleName");
+        $res9 = ["code" => 200, "message" => "message", "ruleName" => "ruleName"];
+        $this->assertEquals($res9, $obj->toArray());
+    }
+
+    /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize() {
+
+        $obj = new DefaultValidationStatus();
+
+        $res = ["code" => null, "message" => null, "ruleName" => null];
+        $this->assertEquals($res, $obj->jsonSerialize());
+    }
+
 }
