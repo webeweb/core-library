@@ -82,7 +82,11 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
     public function validate($object) {
         $result = [];
         foreach ($this->rules as $current) {
-            $result [] = $current->validate($object);
+            $status = $current->validate($object);
+            if (null === $status->getRuleName()) {
+                $status->setRuleName($current->getName());
+            }
+            $result [] = $status;
         }
         return $result;
     }

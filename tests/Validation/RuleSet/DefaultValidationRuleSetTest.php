@@ -93,6 +93,7 @@ final class DefaultValidationRuleSetTest extends AbstractValidationTest {
         $this->assertInstanceOf(ValidationStatusInterface::class, $res[0]);
         $this->assertEquals(500, $res[0]->getCode());
         $this->assertEquals("The argument is not an int", $res[0]->getMessage());
+        $this->assertEquals("Test validation rule", $res[0]->getRuleName());
     }
 
 }
