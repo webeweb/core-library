@@ -55,17 +55,6 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
     /**
      * {@inheritdoc}
      */
-    public function isValid($object) {
-        $result = [];
-        foreach ($this->rules as $current) {
-            $result [] = $current->isValid($object);
-        }
-        return $result;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
     public function removeRule(ValidationRuleInterface $rule) {
         for ($i = count($this->rules) - 1; 0 <= $i; --$i) {
             if ($rule !== $this->rules[$i]) {
@@ -85,6 +74,17 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
     public function setRules(array $rules) {
         $this->rules = $rules;
         return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function validate($object) {
+        $result = [];
+        foreach ($this->rules as $current) {
+            $result [] = $current->validate($object);
+        }
+        return $result;
     }
 
 }

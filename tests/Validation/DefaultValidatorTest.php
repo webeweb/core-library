@@ -37,15 +37,15 @@ final class DefaultValidatorTest extends AbstractValidationTest {
     }
 
     /**
-     * Tests the isValid() method.
+     * Tests the validate() method.
      *
      * @return void
      */
-    public function testIsValid() {
+    public function testValidate() {
 
         $obj = new DefaultValidator($this->ruleSet);
 
-        $res = $obj->isValid(new TestValidationRule());
+        $res = $obj->validate(new TestValidationRule());
         $this->assertCount(1, $res);
         $this->assertInstanceOf(ValidationStatusInterface::class, $res[0]);
         $this->assertEquals(500, $res[0]->getCode());

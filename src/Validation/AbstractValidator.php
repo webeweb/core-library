@@ -47,13 +47,6 @@ abstract class AbstractValidator implements ValidatorInterface {
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function isValid($object) {
-        return $this->ruleSet->isValid($object);
-    }
-
-    /**
      * Set the rule set.
      *
      * @param ValidationRuleSetInterface $ruleSet The rule set.
@@ -62,6 +55,13 @@ abstract class AbstractValidator implements ValidatorInterface {
     protected function setRuleSet(ValidationRuleSetInterface $ruleSet) {
         $this->ruleSet = $ruleSet;
         return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function validate($object) {
+        return $this->ruleSet->validate($object);
     }
 
 }

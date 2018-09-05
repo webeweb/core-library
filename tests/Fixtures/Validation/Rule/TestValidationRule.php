@@ -33,7 +33,7 @@ final class TestValidationRule extends AbstractValidationRule {
     /**
      * {@inheritdoc}
      */
-    public function isValid($object) {
+    public function validate($object) {
         $status = new DefaultValidationStatus(200);
         if (false === is_int($object)) {
             $status->setCode(500);

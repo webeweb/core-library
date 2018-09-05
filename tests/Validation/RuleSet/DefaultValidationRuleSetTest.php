@@ -56,23 +56,6 @@ final class DefaultValidationRuleSetTest extends AbstractValidationTest {
     }
 
     /**
-     * Tests the isValid() method.
-     *
-     * @return void
-     */
-    public function testIsValid() {
-
-        $obj = new DefaultValidationRuleSet();
-        $obj->addRule(new TestValidationRule());
-
-        $res = $obj->isValid(new TestValidationRule());
-        $this->assertCount(1, $res);
-        $this->assertInstanceOf(ValidationStatusInterface::class, $res[0]);
-        $this->assertEquals(500, $res[0]->getCode());
-        $this->assertEquals("The argument is not an int", $res[0]->getMessage());
-    }
-
-    /**
      * Tests the removeRule() method.
      *
      * @return void
@@ -93,6 +76,23 @@ final class DefaultValidationRuleSetTest extends AbstractValidationTest {
 
         $obj->removeRule($arg);
         $this->assertCount(0, $obj->getRules());
+    }
+
+    /**
+     * Tests the validate() method.
+     *
+     * @return void
+     */
+    public function testValidate() {
+
+        $obj = new DefaultValidationRuleSet();
+        $obj->addRule(new TestValidationRule());
+
+        $res = $obj->validate(new TestValidationRule());
+        $this->assertCount(1, $res);
+        $this->assertInstanceOf(ValidationStatusInterface::class, $res[0]);
+        $this->assertEquals(500, $res[0]->getCode());
+        $this->assertEquals("The argument is not an int", $res[0]->getMessage());
     }
 
 }

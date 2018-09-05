@@ -35,17 +35,17 @@ interface ValidationRuleSetInterface {
     public function getRules();
 
     /**
-     * Determines if an object is valid.
-     *
-     * @return ValidationStatusInterface[] Returns the validation status.
-     */
-    public function isValid($object);
-
-    /**
      * Remove a rule.
      *
      * @param ValidationRuleInterface $rule The rule.
      * @return ValidationRuleSetInterface Returns this validation rule set.
      */
     public function removeRule(ValidationRuleInterface $rule);
+
+    /**
+     * Validate.
+     *
+     * @return ValidationStatusInterface[] Returns the validation status.
+     */
+    public function validate($object);
 }

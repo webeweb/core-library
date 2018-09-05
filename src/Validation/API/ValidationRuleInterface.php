@@ -27,9 +27,9 @@ interface ValidationRuleInterface {
     public function getName();
 
     /**
-     * Determines if an object is valid.
+     * Validate.
      *
      * @return ValidationStatusInterface Returns the validation status.
      */
-    public function isValid($object);
+    public function validate($object);
 }
