@@ -11,9 +11,9 @@
 
 namespace WBW\Library\Core\Argument;
 
+use Error;
 use ReflectionClass;
 use ReflectionException;
-use Throwable;
 use WBW\Library\Core\Exception\Argument\ObjectArgumentException;
 use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
@@ -69,7 +69,7 @@ class ObjectHelper {
             // Import the class.
             try {
                 require_once $classpath . "/" . $filename;
-            } catch (Throwable $ex) {
+            } catch (Error $ex) {
                 throw new SyntaxErrorException($classpath . "/" . $filename);
             }
 
@@ -78,7 +78,7 @@ class ObjectHelper {
 
             try {
                 $rc = new ReflectionClass($completeClassname);
-            } catch (Throwable $ex) {
+            } catch (Exception $ex) {
                 throw new ClassNotFoundException($completeClassname, $ex);
             }
 
