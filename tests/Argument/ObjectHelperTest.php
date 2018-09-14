@@ -12,7 +12,6 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use Exception;
-use PHPUnit_Framework_TestCase;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
@@ -103,7 +102,7 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertCount(0, $hooks4);
 
         // ===
-        $hooks5 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", PHPUnit_Framework_TestCase::class);
+        $hooks5 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractCoreFrameworkTestCase::class);
         $this->assertCount(1, $hooks5);
         foreach ($hooks5 as $current) {
 
@@ -115,7 +114,7 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
         }
 
         // ===
-        $hooks6 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", PHPUnit_Framework_TestCase::class, "testGetHooks");
+        $hooks6 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractCoreFrameworkTestCase::class, "testGetHooks");
         $this->assertCount(1, $hooks6);
         foreach ($hooks6 as $current) {
 
@@ -139,7 +138,7 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
 
         try {
 
-            ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", PHPUnit_Framework_TestCase::class, "testGetHook");
+            ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractCoreFrameworkTestCase::class, "testGetHook");
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(MethodNotFoundException::class, $ex);
