@@ -32,23 +32,19 @@ final class DoubleHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testParseString() {
 
-        // ===
         $this->assertNull(DoubleHelper::parseString(null));
         $this->assertEquals(1.0, DoubleHelper::parseString("1"));
         $this->assertEquals(1.0, DoubleHelper::parseString("1."));
         $this->assertEquals(1.0, DoubleHelper::parseString("1.0"));
+    }
 
-        // ===
-        try {
+    /**
+     * Tests the parseString() method.
+     *
+     * @return void
+     */
+    public function testParseStringWithFloatArgumentException_mixed() {
 
-            DoubleHelper::parseString("exception");
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(DoubleArgumentException::class, $ex);
-            $this->assertEquals("The argument \"exception\" is not a double", $ex->getMessage());
-        }
-
-        // ===
         try {
 
             DoubleHelper::parseString("1A");
@@ -56,6 +52,23 @@ final class DoubleHelperTest extends AbstractCoreFrameworkTestCase {
 
             $this->assertInstanceOf(DoubleArgumentException::class, $ex);
             $this->assertEquals("The argument \"1A\" is not a double", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the parseString() method.
+     *
+     * @return void
+     */
+    public function testParseStringWithFloatArgumentException_string() {
+
+        try {
+
+            DoubleHelper::parseString("exception");
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(DoubleArgumentException::class, $ex);
+            $this->assertEquals("The argument \"exception\" is not a double", $ex->getMessage());
         }
     }
 
