@@ -85,18 +85,32 @@ final class IntegerHelperTest extends AbstractCoreFrameworkTestCase {
 
         $this->assertNull(IntegerHelper::parseString(null));
         $this->assertEquals(1, IntegerHelper::parseString("1"));
+    }
 
-        // ===
+    /**
+     * Tests the parseString() method.
+     *
+     * @return void
+     */
+    public function testParseStringWithIntegerArgumentException_float() {
+
         try {
 
-            IntegerHelper::parseString("exception");
+            IntegerHelper::parseString("1.0");
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
-            $this->assertEquals("The argument \"exception\" is not an integer", $ex->getMessage());
+            $this->assertEquals("The argument \"1.0\" is not an integer", $ex->getMessage());
         }
+    }
 
-        // ===
+    /**
+     * Tests the parseString() method.
+     *
+     * @return void
+     */
+    public function testParseStringWithIntegerArgumentException_mixed() {
+
         try {
 
             IntegerHelper::parseString("1A");
@@ -105,25 +119,22 @@ final class IntegerHelperTest extends AbstractCoreFrameworkTestCase {
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals("The argument \"1A\" is not an integer", $ex->getMessage());
         }
+    }
 
-        // ===
+    /**
+     * Tests the parseString() method.
+     *
+     * @return void
+     */
+    public function testParseStringWithIntegerArgumentException_string() {
+
         try {
 
-            IntegerHelper::parseString("1.");
+            IntegerHelper::parseString("exception");
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
-            $this->assertEquals("The argument \"1.\" is not an integer", $ex->getMessage());
-        }
-
-        // ===
-        try {
-
-            IntegerHelper::parseString("1.0");
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(IntegerArgumentException::class, $ex);
-            $this->assertEquals("The argument \"1.0\" is not an integer", $ex->getMessage());
+            $this->assertEquals("The argument \"exception\" is not an integer", $ex->getMessage());
         }
     }
 
