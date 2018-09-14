@@ -141,12 +141,12 @@ final class FTPClientTest extends AbstractCoreFrameworkTestCase {
 
         try {
 
-            $obj->getAuthenticator()->getPasswordAuthentication()->setPassword(null);
+            $obj->getAuthenticator()->getPasswordAuthentication()->setUsername("exception");
             $obj->login();
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(FTPException::class, $ex);
-            $this->assertEquals("ftp://anonymous:@speedtest.tele2.net:21 login failed", $ex->getMessage());
+            $this->assertEquals("ftp://exception:guest@speedtest.tele2.net:21 login failed", $ex->getMessage());
         }
     }
 
