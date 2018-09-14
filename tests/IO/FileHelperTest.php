@@ -28,24 +28,6 @@ use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 final class FileHelperTest extends AbstractCoreFrameworkTestCase {
 
     /**
-     * Filename.
-     *
-     * @var string
-     */
-    private $filename;
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function setUp() {
-        parent::setUp();
-
-        // Create a file.
-        $this->filename = getcwd() . "/phpunit.txt";
-        fclose(fopen($this->filename, "w"));
-    }
-
-    /**
      * {@inheritdoc}
      */
     public static function tearDownAfterClass() {
@@ -132,24 +114,29 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testDelete() {
 
-        $this->assertFileExists($this->filename);
-        $this->assertTrue(FileHelper::delete($this->filename));
+        $filename = getcwd() . "/phpunit.txt";
+
+        fclose(fopen($filename, "w"));
+        $this->assertTrue(FileHelper::delete($filename));
     }
 
     /**
      * Tests the delete() method.
      *
      * @return void
+     * @depends testDelete
      */
     public function testDeleteWithFileNotFoundException() {
 
+        $filename = getcwd() . "/phpunit.txt";
+
         try {
 
-            FileHelper::delete($this->filename);
+            FileHelper::delete($filename);
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(FileNotFoundException::class, $ex);
-            $this->assertEquals("The file \"" . $this->filename . "\" is not found", $ex->getMessage());
+            $this->assertEquals("The file \"" . $filename . "\" is not found", $ex->getMessage());
         }
     }
 
@@ -304,9 +291,10 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testRename() {
 
-        $oldname = $this->filename;
+        $oldname = getcwd() . "/phpunit.txt";
         $newname = getcwd() . "/unittest.txt";
 
+        fclose(fopen($oldname, "w"));
         $this->assertTrue(FileHelper::rename($oldname, $newname));
     }
 
@@ -318,8 +306,7 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testRenameWithFileNotFoundException() {
 
-        // ===
-        $oldname = $this->filename;
+        $oldname = getcwd() . "/phpunit.txt";
         $newname = getcwd() . "/unittest.txt";
 
         try {
