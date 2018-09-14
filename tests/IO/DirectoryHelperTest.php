@@ -68,6 +68,18 @@ final class DirectoryHelperTest extends AbstractCoreFrameworkTestCase {
         $arg2 = $arg1 . "/unittest";
 
         $this->assertTrue(DirectoryHelper::rename($arg2, $arg2 . "2"));
+    }
+
+    /**
+     * Tests the rename() method.
+     *
+     * @return void
+     * @depends testRename
+     */
+    public function testRenameWithFileNotFoundException() {
+
+        $arg1 = getcwd() . "/phpunit";
+        $arg2 = $arg1 . "/unittest";
 
         try {
 
