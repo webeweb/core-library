@@ -42,7 +42,7 @@ final class OracleMySQLDatabaseTest extends AbstractDatabaseTest {
      *
      * @return void
      */
-    public function testGetConnection() {
+    public function testGetConnectionWithPDOException() {
 
         $obj = new OracleMySQLDatabase($this->authenticator, "exception");
 
