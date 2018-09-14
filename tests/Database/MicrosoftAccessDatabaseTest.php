@@ -42,7 +42,7 @@ final class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
      *
      * @return void
      */
-    public function testGetConnection() {
+    public function testGetConnectionWithPDOException() {
 
         $obj = new MicrosoftAccessDatabase($this->authenticator, "exception");
 
