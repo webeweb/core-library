@@ -37,14 +37,20 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testGetDirectory() {
 
-        // ===
         $res = "/tests/Argument";
 
         $this->assertStringEndsWith($res, ObjectHelper::getDirectory($this));
         $this->assertStringEndsWith($res, ObjectHelper::getDirectory(ArgumentHelperTest::class));
         $this->assertStringEndsWith($res, ObjectHelper::getDirectory("WBW\\Library\\Core\\Tests\\Argument\\ObjectHelperTest"));
+    }
 
-        // ===
+    /**
+     * Tests the getDirectory() method.
+     *
+     * @return void
+     */
+    public function testGetDirectoryWithReflectionException() {
+
         try {
 
             ObjectHelper::getDirectory("classnotfound");
@@ -131,7 +137,6 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
         $classpath = getcwd() . "/tests/Argument";
         $namespace = "WBW\\Library\\Core\\Tests\\Argument\\";
 
-        // ===
         try {
 
             ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", PHPUnit_Framework_TestCase::class, "testGetHook");
@@ -154,7 +159,6 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
         $namespace = "WBW\\Library\\Core\\Tests\\Fixtures\\Argument\\";
         $classname = "ObjectHelperSyntaxErrorException";
 
-        // ===
         try {
 
             ObjectHelper::getHooks($classpath, $namespace, "/" . $classname . "/");
@@ -172,10 +176,16 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testGetName() {
 
-        // ===
         $this->assertEquals("WBW\Library\Core\Tests\Argument\ObjectHelperTest", ObjectHelper::getName($this));
+    }
 
-        // ===
+    /**
+     * Tests the getName() method.
+     *
+     * @return void
+     */
+    public function testGetNameWithReflectionException() {
+
         try {
 
             ObjectHelper::getName("classnotfound");
@@ -193,10 +203,16 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testGetShortName() {
 
-        // ===
         $this->assertEquals("ObjectHelperTest", ObjectHelper::getShortName($this));
+    }
 
-        // ===
+    /**
+     * Tests the getShortName() method.
+     *
+     * @return void
+     */
+    public function testGetShortNameWithReflectionException() {
+
         try {
 
             ObjectHelper::getShortName("classnotfound");
