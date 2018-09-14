@@ -62,12 +62,20 @@ final class CURLConfigurationTest extends AbstractCoreFrameworkTestCase {
 
         $obj = new CURLConfiguration();
 
-        // ===
         $obj->addHeader("name", "value");
-        $res1 = ["name" => "value"];
-        $this->assertEquals($res1, $obj->getHeaders());
+        $res = ["name" => "value"];
+        $this->assertEquals($res, $obj->getHeaders());
+    }
 
-        // ===
+    /**
+     * Tests the addHeader() method.
+     *
+     * @return void
+     */
+    public function testAddHeaderWithStringArgumentException() {
+
+        $obj = new CURLConfiguration();
+
         try {
 
             $obj->addHeader(1, "value");
