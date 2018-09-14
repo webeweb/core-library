@@ -52,13 +52,20 @@ final class CURLGetRequestTest extends AbstractCURLRequestTest {
 
         $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
 
-        // ===
         $obj->addHeader("name", "value");
-
         $res = ["name" => "value"];
         $this->assertEquals($res, $obj->getHeaders());
+    }
 
-        // ===
+    /**
+     * Tests addHeader() method.
+     *
+     * @return void
+     */
+    public function testAddHeaderWithStringArgumentException() {
+
+        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+
         try {
 
             $obj->addHeader(1, "value");
@@ -78,13 +85,20 @@ final class CURLGetRequestTest extends AbstractCURLRequestTest {
 
         $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
 
-        // ===
         $obj->addQueryData("name", "value");
-
         $res = ["name" => "value"];
         $this->assertEquals($res, $obj->getQueryData());
+    }
 
-        // ===
+    /**
+     * Tests addQueryData() method.
+     *
+     * @return void
+     */
+    public function testAddQueryDataWithStringArgumentException() {
+
+        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+
         try {
 
             $obj->addQueryData(1, "value");
@@ -207,7 +221,6 @@ final class CURLGetRequestTest extends AbstractCURLRequestTest {
         $obj->getConfiguration()->setRequestTimeout(10);
         $obj->addQueryData("sleep", 60);
 
-        // ===
         try {
 
             $obj->call();
@@ -279,8 +292,6 @@ final class CURLGetRequestTest extends AbstractCURLRequestTest {
                 $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"]);
             }
         }
-
-        /* ================================================================= */
     }
 
     /**
