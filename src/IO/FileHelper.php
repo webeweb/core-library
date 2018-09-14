@@ -33,7 +33,7 @@ class FileHelper implements FileInterface {
      * @param string $dest The destination filename.
      * @throws IOException Throws an I/O exception if an error occurs.
      */
-    public function appendTo($src, $dest) {
+    public static function appendTo($src, $dest) {
 
         // Open the destination.
         $reader = @fopen($src, "r");

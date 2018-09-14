@@ -19,7 +19,7 @@ use WBW\Library\Core\IO\FileHelper;
 use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
- * File utility test.
+ * File helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\IO
