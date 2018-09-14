@@ -12,9 +12,9 @@
 namespace WBW\Library\Core\Tests\IO;
 
 use Exception;
-use RuntimeException;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
+use WBW\Library\Core\Exception\IO\IOException;
 use WBW\Library\Core\IO\FileHelper;
 use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
@@ -38,9 +38,10 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      * {@inheritdoc}
      */
     protected function setUp() {
+        parent::setUp();
 
+        // Create a file.
         $this->filename = getcwd() . "/phpunit.txt";
-
         fclose(fopen($this->filename, "w"));
     }
 
@@ -48,17 +49,79 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      * {@inheritdoc}
      */
     public static function tearDownAfterClass() {
+
+        // Initialize the filenames.
         $filenames = [
+            getcwd() . "/FileHelper.appendTo.txt",
             getcwd() . "/README.md.zip",
             getcwd() . "/tests.zip",
             getcwd() . "/phpunit.txt",
             getcwd() . "/unittest.txt",
         ];
+
+        // Handle each filename.
         foreach ($filenames as $current) {
             if (false === file_exists($current)) {
                 continue;
             }
             unlink($current); // Remove files for local unit tests.
+        }
+    }
+
+    /**
+     * Tests the appendTo() method.
+     *
+     * @return void
+     */
+    public function testAppendTo() {
+
+        // Initialize the filenames.
+        $src = getcwd() . "/README.md";
+        $dst = getcwd() . "/FileHelper.appendTo.txt";
+
+        FileHelper::appendTo($src, $dst);
+        $this->assertFileExists($dst);
+    }
+
+    /**
+     * Tests the appendTo() method.
+     *
+     * @return void
+     */
+    public function testAppendToWithFileNotFoundException() {
+
+        // Initialize the filenames.
+        $src = getcwd() . "FileNotFoundException";
+        $dst = getcwd() . "/FileHelper.appendTo.txt";
+
+        try {
+
+            FileHelper::appendTo($src, $dst);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(FileNotFoundException::class, $ex);
+            $this->assertRegExp("/The file \"(.*)FileNotFoundException\" is not found/", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the appendTo() method.
+     *
+     * @return void
+     */
+    public function testAppendToWithIOException() {
+
+        // Initialize the filenames.
+        $src = getcwd() . "/README.md";
+        $dst = getcwd() . "/DirectoryNotFound/FileHelper.appendTo.txt";
+
+        try {
+
+            FileHelper::appendTo($src, $dst);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(IOException::class, $ex);
+            $this->assertRegExp("/Failed to open \"(.*)FileHelper.appendTo.txt\"/", $ex->getMessage());
         }
     }
 
@@ -69,11 +132,17 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testDelete() {
 
-        // ===
         $this->assertFileExists($this->filename);
         $this->assertTrue(FileHelper::delete($this->filename));
+    }
 
-        // ===
+    /**
+     * Tests the delete() method.
+     *
+     * @return void
+     */
+    public function testDeleteWithFileNotFoundException() {
+
         try {
 
             FileHelper::delete($this->filename);
@@ -111,8 +180,15 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertEquals("0.001 EB", FileHelper::formatSize(1000000000000000, "EB", 3));
         $this->assertEquals("0.001 ZB", FileHelper::formatSize(1000000000000000000, "ZB", 3));
         $this->assertEquals("0.001 YB", FileHelper::formatSize(1000000000000000000000, "YB", 3));
+    }
 
-        // ===
+    /**
+     * Tests the formatSize() method.
+     *
+     * @return void
+     */
+    public function testFormatSizeWithFileNotFoundException() {
+
         try {
 
             FileHelper::formatSize(99, "exception");
@@ -130,12 +206,18 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testGetContents() {
 
-        // ===
         $filename = getcwd() . "/tests/IO/FileHelperTest.txt";
 
         $this->assertEquals("FileHelperTest", FileHelper::getContents($filename), 'The method getContents() does not return the expected content');
+    }
 
-        // ===
+    /**
+     * Tests the getContents() method.
+     *
+     * @return void
+     */
+    public function testGetContentsWithFileNotFoundException() {
+
         try {
 
             FileHelper::getContents("exception");
@@ -153,13 +235,19 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testGetFilenames() {
 
-        // ===
         $pathname = getcwd() . "/tests/IO";
 
         $this->assertContains("FileHelperTest.php", FileHelper::getFilenames($pathname));
         $this->assertContains("FileHelperTest.txt", FileHelper::getFilenames($pathname, ".txt"));
+    }
 
-        // ===
+    /**
+     * Tests the getFilenames() method.
+     *
+     * @return void
+     */
+    public function testGetFilenamesWithFileNotFoundException() {
+
         try {
 
             FileHelper::getFilenames("exception");
@@ -178,6 +266,14 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
     public function testGetSize() {
 
         $this->assertEquals(14, FileHelper::getSize(getcwd() . "/tests/IO/FileHelperTest.txt"));
+    }
+
+    /**
+     * Tests the getSize() method.
+     *
+     * @return void
+     */
+    public function testGetSizeWithFileNotFoundException() {
 
         try {
 
@@ -208,13 +304,24 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testRename() {
 
-        // ===
         $oldname = $this->filename;
         $newname = getcwd() . "/unittest.txt";
 
         $this->assertTrue(FileHelper::rename($oldname, $newname));
+    }
+
+    /**
+     * Tests the rename() method.
+     *
+     * @return void
+     * @depends testRename
+     */
+    public function testRenameWithFileNotFoundException() {
 
         // ===
+        $oldname = $this->filename;
+        $newname = getcwd() . "/unittest.txt";
+
         try {
 
             FileHelper::rename($oldname, $newname);
@@ -247,8 +354,15 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         FileHelper::zip($srcD, $dstD);
         $this->assertFileExists($dstD);
         $this->assertGreaterThan(38000, FileHelper::getSize($dstD));
+    }
 
-        // ===
+    /**
+     * Tests the zip() method.
+     *
+     * @return void
+     */
+    public function testZipWithFileNotFoundException() {
+
         try {
 
             FileHelper::zip("exception", "exception.zip");

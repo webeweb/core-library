@@ -15,6 +15,7 @@ use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\IO\FileNotFoundException;
+use WBW\Library\Core\Exception\IO\IOException;
 use ZipArchive;
 
 /**
@@ -24,6 +25,33 @@ use ZipArchive;
  * @package WBW\Library\Core\IO
  */
 class FileHelper implements FileInterface {
+
+    /**
+     * Append to.
+     *
+     * @param string $src The source filename.
+     * @param string $dest The destination filename.
+     * @throws IOException Throws an I/O exception if an error occurs.
+     */
+    public function appendTo($src, $dest) {
+
+        // Open the destination.
+        $reader = @fopen($src, "r");
+        if (false === $reader) {
+            throw new FileNotFoundException($src);
+        }
+
+        // Open the destination.
+        $writer = @fopen($dest, "w");
+        if (false === $writer) {
+            throw new IOException(sprintf("Failed to open \"%s\"", $dest));
+        }
+
+        // Append the source into destination.
+        if (false === @file_put_contents($dest, $reader, FILE_APPEND)) {
+            throw new IOException(sprintf("Failed to append \"%s\" into \"%s\"", $src, $dest));
+        }
+    }
 
     /**
      * Delete a file.
