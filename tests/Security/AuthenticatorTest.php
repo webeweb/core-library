@@ -95,6 +95,16 @@ final class AuthenticatorTest extends AbstractCoreFrameworkTestCase {
 
         $obj->setPort(22);
         $this->assertEquals(22, $obj->getPort());
+    }
+
+    /**
+     * Tests the setPort() method.
+     *
+     * @return void
+     */
+    public function testSetPortWithIllegalArgumentException() {
+
+        $obj = new Authenticator(null, $this->passwordAuthentication);
 
         try {
 
