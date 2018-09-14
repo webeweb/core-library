@@ -34,12 +34,18 @@ final class DateTimeHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testCompare() {
 
-        // ===
         $this->assertEquals(-1, DateTimeHelper::compare(new DateTime("2018-08-06 15:20:00"), new DateTime("2018-08-06 15:20:01")));
         $this->assertEquals(0, DateTimeHelper::compare(new DateTime("2018-08-06 15:20:00"), new DateTime("2018-08-06 15:20:00")));
         $this->assertEquals(1, DateTimeHelper::compare(new DateTime("2018-08-06 15:20:01"), new DateTime("2018-08-06 15:20:00")));
+    }
 
-        // ===
+    /**
+     * Tests the compare() method.
+     *
+     * @return void
+     */
+    public function testCompareWithIllegalArgumentException() {
+
         try {
 
             DateTimeHelper::compare(new DateTime("2018-08-22 14:05:00", new DateTimeZone("UTC")), new DateTime("2018-08-22 14:05:00", new DateTimeZone("Europe/Paris")));
