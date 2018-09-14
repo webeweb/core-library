@@ -57,11 +57,24 @@ final class SkiDataStartRecordFormatParserTest extends AbstractCoreFrameworkTest
         $obj->setNumberRecords(18);
         $obj->setCurrency("EUR");
 
-        // ===
         $res = '190000;0202747;20170921;00018;"EUR"';
         $this->assertEquals($res, (new SkiDataStartRecordFormatParser())->parseEntity($obj));
+    }
 
-        // ===
+    /**
+     * Tests the parseEntity() method.
+     *
+     * @return void
+     */
+    public function testParseEntityWithSkiDataTooLongException() {
+
+        $obj = new SkiDataStartRecordFormat();
+        $obj->setVersionRecordStructure(190000);
+        $obj->setFacilityNumber(202747);
+        $obj->setDateFile(new DateTime("2017-09-21 16:10:00"));
+        $obj->setNumberRecords(18);
+        $obj->setCurrency("EUR");
+
         try {
 
             $obj->setVersionRecordStructure(2000000);
@@ -72,7 +85,6 @@ final class SkiDataStartRecordFormatParserTest extends AbstractCoreFrameworkTest
             $this->assertEquals("The data \"2000000\" exceeds the length \"6\" allowed", $ex->getMessage());
         }
 
-        // ===
         try {
 
             $obj->setVersionRecordStructure(190000);
