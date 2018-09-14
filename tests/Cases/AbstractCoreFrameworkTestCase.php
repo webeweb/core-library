@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Cases;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Abstract Core framework test case.
@@ -20,6 +20,6 @@ use PHPUnit_Framework_TestCase;
  * @package WBW\Library\Core\Tests\Cases
  * @abstract
  */
-abstract class AbstractCoreFrameworkTestCase extends PHPUnit_Framework_TestCase {
+abstract class AbstractCoreFrameworkTestCase extends TestCase {
 
 }
