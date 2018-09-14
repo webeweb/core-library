@@ -76,6 +76,14 @@ final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
         $this->assertSame($this->endDate, $obj->getEndDate());
         $this->assertSame($this->startDate, $obj->getStartDate());
         $this->assertEquals([], $obj->getTimeSlots());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConctructWithException() {
 
         try {
 
