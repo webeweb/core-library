@@ -42,7 +42,7 @@ final class MicrosoftSQLServerDatabaseTest extends AbstractDatabaseTest {
      *
      * @return void
      */
-    public function testGetConnection() {
+    public function testGetConnectionWithPDOException() {
 
         $obj = new MicrosoftSQLServerDatabase($this->authenticator, "exception");
 
