@@ -115,7 +115,7 @@ final class CURLFactoryTest extends AbstractCoreFrameworkTestCase {
      *
      * @return void
      */
-    public function testGetInstanceWithException() {
+    public function testGetInstanceWithInvalidHTTPMethodException() {
 
         try {
 
