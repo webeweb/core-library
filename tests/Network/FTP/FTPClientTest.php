@@ -91,10 +91,18 @@ final class FTPClientTest extends AbstractCoreFrameworkTestCase {
 
         $obj = new FTPClient($this->authenticatorR);
 
-        // ===
         $this->assertSame($obj, $obj->connect());
+    }
 
-        // ===
+    /**
+     * Tests the connect() method.
+     *
+     * @return void
+     */
+    public function testConnectWithFTPException() {
+
+        $obj = new FTPClient($this->authenticatorR);
+
         try {
 
             $obj->getAuthenticator()->setHost("github.com");
@@ -117,10 +125,20 @@ final class FTPClientTest extends AbstractCoreFrameworkTestCase {
         $obj = new FTPClient($this->authenticatorR);
         $obj->connect();
 
-        // ===
         $this->assertSame($obj, $obj->login());
+    }
 
-        // ===
+    /**
+     * Tests the login() method.
+     *
+     * @return void
+     * @depends testConnect
+     */
+    public function testLoginWithFTPException() {
+
+        $obj = new FTPClient($this->authenticatorR);
+        $obj->connect();
+
         try {
 
             $obj->getAuthenticator()->getPasswordAuthentication()->setPassword(null);
@@ -144,10 +162,21 @@ final class FTPClientTest extends AbstractCoreFrameworkTestCase {
         $obj->connect();
         $obj->login();
 
-        // ===
         $this->assertSame($obj, $obj->mkdir(self::TEST_DIR));
+    }
 
-        // ===
+    /**
+     * Tests the mkdir() method.
+     *
+     * @return void
+     * @depends testMkdir
+     */
+    public function testMkdirWithFTPException() {
+
+        $obj = new FTPClient($this->authenticatorW);
+        $obj->connect();
+        $obj->login();
+
         try {
 
             $obj->mkdir(self::TEST_DIR);
@@ -191,10 +220,23 @@ final class FTPClientTest extends AbstractCoreFrameworkTestCase {
         $obj->connect();
         $obj->login();
 
-        // ===
         $this->assertSame($obj, $obj->rename($remote, self::TEST_DIR . "/LICENSE.md"));
+    }
 
-        // ===
+    /**
+     * Tests the rename() method.
+     *
+     * @return void
+     * @depends testRename
+     */
+    public function testRenameWithFTPException() {
+
+        $remote = self::TEST_DIR . "/LICENSE.txt";
+
+        $obj = new FTPClient($this->authenticatorW);
+        $obj->connect();
+        $obj->login();
+
         try {
 
             $obj->rename($remote, self::TEST_DIR . "/LICENSE.md");
@@ -219,10 +261,23 @@ final class FTPClientTest extends AbstractCoreFrameworkTestCase {
         $obj->connect();
         $obj->login();
 
-        // ===
         $this->assertSame($obj, $obj->delete($remote));
+    }
 
-        // ===
+    /**
+     * Tests the rename() method.
+     *
+     * @return void
+     * @depends testDelete
+     */
+    public function testDeleteWithException() {
+
+        $remote = self::TEST_DIR . "/LICENSE.md";
+
+        $obj = new FTPClient($this->authenticatorW);
+        $obj->connect();
+        $obj->login();
+
         try {
 
             $this->assertSame($obj, $obj->delete($remote));
@@ -245,10 +300,21 @@ final class FTPClientTest extends AbstractCoreFrameworkTestCase {
         $obj->connect();
         $obj->login();
 
-        // ===
         $this->assertSame($obj, $obj->rmdir(self::TEST_DIR));
+    }
 
-        // ===
+    /**
+     * Tests the rmdir() method.
+     *
+     * @return void
+     * @depends testRmdir
+     */
+    public function testRmdirWithFTPException() {
+
+        $obj = new FTPClient($this->authenticatorW);
+        $obj->connect();
+        $obj->login();
+
         try {
 
             $this->assertSame($obj, $obj->rmdir(self::TEST_DIR));
