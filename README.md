@@ -18,7 +18,7 @@ Provides:
 - Arguments utilities (array, boolean, double, float, integer, string, etc.)
 - Databases connectors (Access, SQL Server, MySQL, etc.)
 - Exceptions classes
-- IO classes (directories, files, zip, etc.)
+- File system classes (directories, files, zip, etc.)
 - Model classes (choices, contact, node, organizer, etc.)
 - Network utilities (cURL, FTP, HTTP, SFTP, etc)
 - Security classes (authenticator, password authentication, etc.)
