@@ -29,7 +29,7 @@ class InvalidHTTPMethodException extends AbstractCoreException {
      * @param Exception $previous The previous exception.
      */
     public function __construct($method, Exception $previous = null) {
-        parent::__construct(sprintf("The HTTP method \"%s\" is invalid", $method), $previous);
+        parent::__construct(sprintf("The HTTP method \"%s\" is invalid", $method), 500, $previous);
     }
 
 }
