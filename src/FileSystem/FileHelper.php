@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\IO;
+namespace WBW\Library\Core\FileSystem;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Exception\IO\FileNotFoundException;
-use WBW\Library\Core\Exception\IO\IOException;
+use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
+use WBW\Library\Core\Exception\FileSystem\IOException;
 use ZipArchive;
 
 /**

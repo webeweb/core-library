@@ -19,7 +19,7 @@ use WBW\Library\Core\Exception\Argument\ObjectArgumentException;
 use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
-use WBW\Library\Core\IO\FileHelper;
+use WBW\Library\Core\FileSystem\FileHelper;
 
 /**
  * Object helper.

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Exception\Network;
 
-use WBW\Library\Core\Exception\IO\IOException;
+use WBW\Library\Core\Exception\FileSystem\IOException;
 
 /**
  * FTP exception.

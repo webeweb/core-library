@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Network\CURL\Factory;
 
-use WBW\Library\Core\Exception\IO\InvalidHTTPMethodException;
+use WBW\Library\Core\Exception\FileSystem\InvalidHTTPMethodException;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 use WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLGetRequest;

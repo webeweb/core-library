@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Database;
 use PDO;
 use WBW\Library\Core\Argument\StringHelper;
 use WBW\Library\Core\Database\AbstractDatabase;
-use WBW\Library\Core\Exception\IO\FileNotFoundException;
+use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 use WBW\Library\Core\Security\Authenticator;
 
 /**

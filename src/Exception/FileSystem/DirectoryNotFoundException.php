@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\IO;
+namespace WBW\Library\Core\Exception\FileSystem;
 
 use Exception;
 

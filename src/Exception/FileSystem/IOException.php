@@ -3,32 +3,33 @@
 /**
  * This file is part of the core-library package.
  *
- * (c) 2017 WEBEWEB
+ * (c) 2018 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\IO;
+namespace WBW\Library\Core\Exception\FileSystem;
 
 use Exception;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
- * Invalid HTTP method exception.
+ * IO exception.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\IO
  */
-class InvalidHTTPMethodException extends IOException {
+class IOException extends AbstractCoreException {
 
     /**
      * Constructor.
      *
-     * @param string $method The method.
+     * @param string $message The message.
      * @param Exception $previous The previous exception.
      */
-    public function __construct($method, Exception $previous = null) {
-        parent::__construct(sprintf("The HTTP method \"%s\" is invalid", $method), $previous);
+    public function __construct($message, Exception $previous = null) {
+        parent::__construct($message, 500, $previous);
     }
 
 }

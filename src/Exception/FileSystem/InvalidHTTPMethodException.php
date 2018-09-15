@@ -9,26 +9,26 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\IO;
+namespace WBW\Library\Core\Exception\FileSystem;
 
 use Exception;
 
 /**
- * File not found exception.
+ * Invalid HTTP method exception.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\IO
  */
-class FileNotFoundException extends IOException {
+class InvalidHTTPMethodException extends IOException {
 
     /**
      * Constructor.
      *
-     * @param string $filename The filename.
+     * @param string $method The method.
      * @param Exception $previous The previous exception.
      */
-    public function __construct($filename, Exception $previous = null) {
-        parent::__construct(sprintf("The file \"%s\" is not found", $filename), $previous);
+    public function __construct($method, Exception $previous = null) {
+        parent::__construct(sprintf("The HTTP method \"%s\" is invalid", $method), $previous);
     }
 
 }

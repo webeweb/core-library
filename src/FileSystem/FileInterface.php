@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\IO;
+namespace WBW\Library\Core\FileSystem;
 
 /**
  * File interface.
