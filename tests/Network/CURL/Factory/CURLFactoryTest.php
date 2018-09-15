@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Factory;
 
 use Exception;
-use WBW\Library\Core\Exception\FileSystem\InvalidHTTPMethodException;
+use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
 use WBW\Library\Core\Network\CURL\Factory\CURLFactory;
 use WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLGetRequest;
