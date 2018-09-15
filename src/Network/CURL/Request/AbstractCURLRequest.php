@@ -13,8 +13,8 @@ namespace WBW\Library\Core\Network\CURL\Request;
 
 use DateTime;
 use WBW\Library\Core\Argument\ArgumentHelper;
-use WBW\Library\Core\Exception\FileSystem\InvalidHTTPMethodException;
 use WBW\Library\Core\Exception\Network\CURLRequestCallException;
+use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 use WBW\Library\Core\Network\CURL\Response\CURLResponse;
 use WBW\Library\Core\Network\HTTP\HTTPInterface;

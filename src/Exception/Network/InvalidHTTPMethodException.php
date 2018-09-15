@@ -9,9 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\FileSystem;
+namespace WBW\Library\Core\Exception\Network;
 
 use Exception;
+use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
  * Invalid HTTP method exception.
@@ -19,7 +20,7 @@ use Exception;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\IO
  */
-class InvalidHTTPMethodException extends IOException {
+class InvalidHTTPMethodException extends AbstractCoreException {
 
     /**
      * Constructor.
