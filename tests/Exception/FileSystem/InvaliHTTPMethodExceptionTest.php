@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\IO;
+namespace WBW\Library\Core\Tests\Exception\FileSystem;
 
-use WBW\Library\Core\Exception\IO\InvalidHTTPMethodException;
+use WBW\Library\Core\Exception\FileSystem\InvalidHTTPMethodException;
 use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**

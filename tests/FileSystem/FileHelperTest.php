@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\IO;
+namespace WBW\Library\Core\Tests\FileSystem;
 
 use Exception;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Exception\IO\FileNotFoundException;
-use WBW\Library\Core\Exception\IO\IOException;
-use WBW\Library\Core\IO\FileHelper;
+use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
+use WBW\Library\Core\Exception\FileSystem\IOException;
+use WBW\Library\Core\FileSystem\FileHelper;
 use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
@@ -193,7 +193,7 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testGetContents() {
 
-        $filename = getcwd() . "/tests/IO/FileHelperTest.txt";
+        $filename = getcwd() . "/tests/FileSystem/FileHelperTest.txt";
 
         $this->assertEquals("FileHelperTest", FileHelper::getContents($filename), 'The method getContents() does not return the expected content');
     }
@@ -222,7 +222,7 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testGetFilenames() {
 
-        $pathname = getcwd() . "/tests/IO";
+        $pathname = getcwd() . "/tests/FileSystem";
 
         $this->assertContains("FileHelperTest.php", FileHelper::getFilenames($pathname));
         $this->assertContains("FileHelperTest.txt", FileHelper::getFilenames($pathname, ".txt"));
@@ -252,7 +252,7 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
      */
     public function testGetSize() {
 
-        $this->assertEquals(14, FileHelper::getSize(getcwd() . "/tests/IO/FileHelperTest.txt"));
+        $this->assertEquals(14, FileHelper::getSize(getcwd() . "/tests/FileSystem/FileHelperTest.txt"));
     }
 
     /**

@@ -3,36 +3,34 @@
 /**
  * This file is part of the core-library package.
  *
- * (c) 2018 WEBEWEB
+ * (c) 2017 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\IO;
+namespace WBW\Library\Core\Tests\Exception\FileSystem;
 
-use WBW\Library\Core\Exception\IO\IOException;
+use WBW\Library\Core\Exception\FileSystem\DirectoryNotFoundException;
 use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
 
 /**
- * IO exception test.
+ * Directory not found exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\IO
  * @final
  */
-final class IOExceptionTest extends AbstractCoreFrameworkTestCase {
+final class DirectoryNotFoundExceptionTest extends AbstractCoreFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
-     *
-     * @return void
      */
     public function testConstruct() {
 
-        $ex = new IOException("exception");
+        $ex = new DirectoryNotFoundException("exception");
 
-        $res = "exception";
+        $res = "The directory \"exception\" is not found";
         $this->assertEquals($res, $ex->getMessage());
     }
 

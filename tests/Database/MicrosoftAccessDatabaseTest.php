@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Database;
 
 use Exception;
 use WBW\Library\Core\Database\MicrosoftAccessDatabase;
-use WBW\Library\Core\Exception\IO\FileNotFoundException;
+use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 
 /**
  * Microsoft Access database test.
