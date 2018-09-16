@@ -38,7 +38,7 @@ class AlphabeticalTreeNodeHelper {
         foreach ($sorter->getNodes() as $current) {
 
             // Get and check the path.
-            $path = self::getPath($current);
+            $path = static::getPath($current);
             if (false === array_key_exists($path[0]->getAlphabeticalTreeNodeLabel(), $output)) {
                 $output[$current->getAlphabeticalTreeNodeLabel()] = [];
             }
@@ -61,7 +61,7 @@ class AlphabeticalTreeNodeHelper {
      * @return int Returns the level.
      */
     public static function getLevel(AlphabeticalTreeNodeInterface $node) {
-        return count(self::getPath($node)) - 1;
+        return count(static::getPath($node)) - 1;
     }
 
     /**
