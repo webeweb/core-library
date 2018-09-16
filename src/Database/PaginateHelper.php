@@ -34,7 +34,7 @@ class PaginateHelper {
         $offset = $pageNumber * $divider;
         $limit  = $divider;
         if (0 <= $total && ($total < $offset || $total < ($offset + $limit))) {
-            $offset = (self::getPagesCount($total, $divider) - 1) * $divider;
+            $offset = (static::getPagesCount($total, $divider) - 1) * $divider;
             $limit  = $total - $offset;
         }
         return [$offset, $limit];
