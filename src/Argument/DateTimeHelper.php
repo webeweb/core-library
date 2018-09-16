@@ -36,10 +36,10 @@ class DateTimeHelper {
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function compare(DateTime $a, DateTime $b) {
-        if (true === self::isLessThan($a, $b)) {
+        if (true === static::isLessThan($a, $b)) {
             return -1;
         }
-        if (true === self::isGreaterThan($a, $b)) {
+        if (true === static::isGreaterThan($a, $b)) {
             return 1;
         }
         return 0;
@@ -67,7 +67,7 @@ class DateTimeHelper {
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function equals(DateTime $a, DateTime $b) {
-        return 0 === self::compare($a, $b);
+        return 0 === static::compare($a, $b);
     }
 
     /**
@@ -89,7 +89,7 @@ class DateTimeHelper {
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function getDuration(DateTime $a, DateTime $b) {
-        self::compareZone($a, $b);
+        static::compareZone($a, $b);
         return $b->getTimestamp() - $a->getTimestamp();
     }
 
@@ -102,7 +102,7 @@ class DateTimeHelper {
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function getGreater(DateTime $a, DateTime $b) {
-        return 0 <= self::compare($a, $b) ? $a : $b;
+        return 0 <= static::compare($a, $b) ? $a : $b;
     }
 
     /**
@@ -124,7 +124,7 @@ class DateTimeHelper {
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function getSmaller(DateTime $a, DateTime $b) {
-        return 0 <= self::compare($a, $b) ? $b : $a;
+        return 0 <= static::compare($a, $b) ? $b : $a;
     }
 
     /**
@@ -200,7 +200,7 @@ class DateTimeHelper {
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isBetween(DateTime $dateTime, DateTime $a, DateTime $b) {
-        self::compareZone($a, $b);
+        static::compareZone($a, $b);
         $c1 = $a->getTimestamp() <= $dateTime->getTimestamp();
         $c2 = $dateTime->getTimestamp() <= $b->getTimestamp();
         return $c1 && $c2;
@@ -227,7 +227,7 @@ class DateTimeHelper {
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isGreaterThan(DateTime $a, DateTime $b) {
-        self::compareZone($a, $b);
+        static::compareZone($a, $b);
         return $a->getTimestamp() > $b->getTimestamp();
     }
 
@@ -240,7 +240,7 @@ class DateTimeHelper {
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isLessThan(DateTime $a, DateTime $b) {
-        self::compareZone($a, $b);
+        static::compareZone($a, $b);
         return $a->getTimestamp() < $b->getTimestamp();
     }
 
