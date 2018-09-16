@@ -78,7 +78,7 @@ class FileHelper implements FileInterface {
 
 
         // Initialize the units.
-        $units = self::getUnits();
+        $units = static::getUnits();
 
         // Find the unit.
         $index = array_search($unit, $units);
@@ -230,7 +230,7 @@ class FileHelper implements FileInterface {
 
         // Is file ? => Add it and return.
         if (true === is_file($src)) {
-            $zip->addFromString(basename($src), self::getContents($src));
+            $zip->addFromString(basename($src), static::getContents($src));
             return $zip->close();
         }
 
@@ -246,7 +246,7 @@ class FileHelper implements FileInterface {
 
             // Check the file type.
             if (true === is_file($cur)) {
-                $zip->addFromString($zipPath, self::getContents($cur));
+                $zip->addFromString($zipPath, static::getContents($cur));
             }
             if (true === is_dir($cur)) {
                 $zip->addEmptyDir($zipPath);

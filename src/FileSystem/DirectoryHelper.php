@@ -43,7 +43,7 @@ class DirectoryHelper {
      * @return boolean Returns true in case of success, false otherwise or null if the directory can't be deleted.
      */
     public static function delete($dirname) {
-        if (true !== self::isEmpty($dirname)) {
+        if (true !== static::isEmpty($dirname)) {
             return null;
         }
         return rmdir($dirname);
