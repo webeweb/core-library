@@ -61,7 +61,7 @@ class TimeSlotHelper {
 
         // Handle each time slot.
         for ($i = count($a->getTimeSlots()) - 1; 0 <= $i; --$i) {
-            if (false === self::equals($a->getTimeSlots()[$i], $b->getTimeSlots()[$i])) {
+            if (false === static::equals($a->getTimeSlots()[$i], $b->getTimeSlots()[$i])) {
                 return false;
             }
         }
@@ -80,7 +80,7 @@ class TimeSlotHelper {
     public static function fullJoin(TimeSlot $a, TimeSlot $b) {
 
         // Has full join ?
-        if (false === self::hasFullJoin($a, $b)) {
+        if (false === static::hasFullJoin($a, $b)) {
             return null;
         }
 
@@ -102,8 +102,8 @@ class TimeSlotHelper {
     public static function fullJoinWithout(TimeSlot $a, TimeSlot $b) {
 
         // Initialize the time slots.
-        $leftJoins  = self::leftJoinWithout($a, $b);
-        $rightJoins = self::rightJoinWithout($a, $b);
+        $leftJoins  = static::leftJoinWithout($a, $b);
+        $rightJoins = static::rightJoinWithout($a, $b);
 
         // Check the time slots.
         if (null === $leftJoins && null === $rightJoins) {
@@ -117,7 +117,7 @@ class TimeSlotHelper {
         }
 
         // Return the time slots.
-        return self::sort(array_merge($leftJoins, $rightJoins));
+        return static::sort(array_merge($leftJoins, $rightJoins));
     }
 
     /**
@@ -142,7 +142,7 @@ class TimeSlotHelper {
      * @return boolean Returns true in case of success, false otherwise.
      */
     public static function hasFullJoin(TimeSlot $a, TimeSlot $b) {
-        return true === self::hasInnerJoin($a, $b);
+        return true === static::hasInnerJoin($a, $b);
     }
 
     /**
@@ -170,7 +170,7 @@ class TimeSlotHelper {
     public static function innerJoin(TimeSlot $a, TimeSlot $b) {
 
         // Has inner join ?
-        if (false === self::hasInnerJoin($a, $b)) {
+        if (false === static::hasInnerJoin($a, $b)) {
             return null;
         }
 
@@ -192,7 +192,7 @@ class TimeSlotHelper {
     public static function leftJoin(TimeSlot $a, TimeSlot $b) {
 
         // Has inner join ?
-        if (false === self::hasInnerJoin($a, $b)) {
+        if (false === static::hasInnerJoin($a, $b)) {
             return null;
         }
 
@@ -210,13 +210,13 @@ class TimeSlotHelper {
     public static function leftJoinWithout(TimeSlot $a, TimeSlot $b) {
 
         // Has inner join ?
-        if (false === self::hasInnerJoin($a, $b) || true === self::contains($b, $a)) {
+        if (false === static::hasInnerJoin($a, $b) || true === static::contains($b, $a)) {
             return null;
         }
 
         // Contains ?
-        if (true === self::contains($a, $b)) {
-            return self::sort([
+        if (true === static::contains($a, $b)) {
+            return static::sort([
                     new TimeSlot(clone $a->getStartDate(), clone $b->getStartDate()),
                     new TimeSlot(clone $b->getEndDate(), clone $a->getEndDate()),
             ]);
@@ -249,7 +249,7 @@ class TimeSlotHelper {
         }
 
         // Sort the time slots.
-        $buffer = self::sort($timeSlots);
+        $buffer = static::sort($timeSlots);
 
         // Initialize the output.
         $output = [$buffer[0]];
@@ -261,7 +261,7 @@ class TimeSlotHelper {
             $j = count($output) - 1;
 
             // Full join the time slots.
-            $res = self::fullJoin($output[$j], $buffer[$i]);
+            $res = static::fullJoin($output[$j], $buffer[$i]);
             if (null === $res) {
                 $output[] = $buffer[$i];
             } else {
@@ -281,7 +281,7 @@ class TimeSlotHelper {
      * @return TimeSlot Returns the time slot in case of success, null otherwise.
      */
     public static function rightJoin(TimeSlot $a, TimeSlot $b) {
-        return self::leftJoin($b, $a);
+        return static::leftJoin($b, $a);
     }
 
     /**
@@ -292,7 +292,7 @@ class TimeSlotHelper {
      * @return TimeSlot[] Returns the time slots in case of success, null otherwise.
      */
     public static function rightJoinWithout(TimeSlot $a, TimeSlot $b) {
-        return self::leftJoinWithout($b, $a);
+        return static::leftJoinWithout($b, $a);
     }
 
     /**
