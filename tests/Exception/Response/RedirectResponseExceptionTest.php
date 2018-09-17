@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Response;
 
 use WBW\Library\Core\Exception\Response\RedirectResponseException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Redirect response exception test.
