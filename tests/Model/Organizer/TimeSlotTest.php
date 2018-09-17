@@ -15,7 +15,7 @@ use DateTime;
 use Exception;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Model\Organizer\TimeSlot;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
 /**

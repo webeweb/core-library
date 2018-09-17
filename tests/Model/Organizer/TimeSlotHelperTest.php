@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Model\Organizer;
 use DateTime;
 use WBW\Library\Core\Model\Organizer\TimeSlot;
 use WBW\Library\Core\Model\Organizer\TimeSlotHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
 /**
