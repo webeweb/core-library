@@ -130,9 +130,9 @@ final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
         // ===
         $obj1 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
 
-        $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 10:00"), new DateTime("2018-08-29 11:00")));
-        $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 13:00"), new DateTime("2018-08-29 14:00")));
-        $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 16:00"), new DateTime("2018-08-29 17:00")));
+        $this->assertSame($obj1, $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 10:00"), new DateTime("2018-08-29 11:00"))));
+        $this->assertSame($obj1, $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 13:00"), new DateTime("2018-08-29 14:00"))));
+        $this->assertSame($obj1, $obj1->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 16:00"), new DateTime("2018-08-29 17:00"))));
 
         $res1 = $obj1->leftJoinWithout();
         $this->assertCount(4, $res1);
@@ -152,9 +152,9 @@ final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
         // ===
         $obj2 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
 
-        $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 10:00"), new DateTime("2018-08-29 11:00")));
-        $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 11:00"), new DateTime("2018-08-29 13:00")));
-        $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 13:00"), new DateTime("2018-08-29 17:00")));
+        $this->assertSame($obj2, $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 10:00"), new DateTime("2018-08-29 11:00"))));
+        $this->assertSame($obj2, $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 11:00"), new DateTime("2018-08-29 13:00"))));
+        $this->assertSame($obj2, $obj2->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 13:00"), new DateTime("2018-08-29 17:00"))));
 
         $res2 = $obj2->leftJoinWithout();
         $this->assertCount(2, $res2);
@@ -168,9 +168,9 @@ final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
         // ===
         $obj3 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
 
-        $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 07:00"), new DateTime("2018-08-29 08:00")));
-        $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 11:00"), new DateTime("2018-08-29 13:00")));
-        $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 18:00"), new DateTime("2018-08-29 19:00")));
+        $this->assertSame($obj3, $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 07:00"), new DateTime("2018-08-29 08:00"))));
+        $this->assertSame($obj3, $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 11:00"), new DateTime("2018-08-29 13:00"))));
+        $this->assertSame($obj3, $obj3->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 18:00"), new DateTime("2018-08-29 19:00"))));
 
         $res3 = $obj3->leftJoinWithout();
         $this->assertCount(2, $res3);
@@ -184,7 +184,7 @@ final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
         // ===
         $obj4 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
 
-        $obj4->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 07:00"), new DateTime("2018-08-29 19:00")));
+        $this->assertSame($obj4, $obj4->addTimeSlot(new TimeSlot(new DateTime("2018-08-29 07:00"), new DateTime("2018-08-29 19:00"))));
 
         $res4 = $obj4->leftJoinWithout();
         $this->assertCount(0, $res4);
@@ -203,13 +203,13 @@ final class TimeSlotTest extends AbstractCoreFrameworkTestCase {
 
         $arg = new TimeSlot($this->startDate, $this->endDate);
 
-        $obj->addTimeSlot($arg);
+        $this->assertSame($obj, $obj->addTimeSlot($arg));
         $this->assertCount(1, $obj->getTimeSlots());
 
-        $obj->removeTimeSlot(new TimeSlot($this->startDate, new DateTime("2018-08-06 14:45:00")));
+        $this->assertSame($obj, $obj->removeTimeSlot(new TimeSlot($this->startDate, new DateTime("2018-08-06 14:45:00"))));
         $this->assertCount(1, $obj->getTimeSlots());
 
-        $obj->removeTimeSlot($arg);
+        $this->assertSame($obj, $obj->removeTimeSlot($arg));
         $this->assertCount(0, $obj->getTimeSlots());
     }
 

@@ -50,7 +50,7 @@ final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
         $obj = new TestNode("id");
         $add = new TestNode("id2");
 
-        $obj->addNode($add);
+        $this->assertSame($obj, $obj->addNode($add));
         $this->assertEquals([$add], $obj->getNodes());
     }
 
@@ -64,10 +64,10 @@ final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
         $obj = new TestNode("id");
         $add = new TestNode("id2");
 
-        $obj->addNode($add);
+        $this->assertSame($obj, $obj->addNode($add));
         $this->assertEquals([$add], $obj->getNodes());
 
-        $obj->clearNodes();
+        $this->assertSame($obj, $obj->clearNodes());
         $this->assertEquals([], $obj->getNodes());
     }
 
@@ -81,7 +81,7 @@ final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
         $obj = new TestNode("id");
         $add = new TestNode("id2");
 
-        $obj->addNode($add);
+        $this->assertSame($obj, $obj->addNode($add));
         $this->assertSame($add, $obj->getFirstNode());
     }
 
@@ -95,7 +95,7 @@ final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
         $obj = new TestNode("id");
         $add = new TestNode("id2");
 
-        $obj->addNode($add);
+        $this->assertSame($obj, $obj->addNode($add));
         $this->assertSame($add, $obj->getLastNode());
     }
 
@@ -109,7 +109,7 @@ final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
         $obj = new TestNode("id");
         $add = new TestNode("id2");
 
-        $obj->addNode($add);
+        $this->assertSame($obj, $obj->addNode($add));
         $this->assertNull($obj->getNodeAt(-1));
         $this->assertSame($add, $obj->getNodeAt(0));
         $this->assertNull($obj->getNodeAt(1));
@@ -126,8 +126,8 @@ final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
         $add1 = new TestNode("id2");
         $add2 = new TestNode("id3");
 
-        $obj->addNode($add1);
-        $add1->addNode($add2);
+        $this->assertSame($obj, $obj->addNode($add1));
+        $this->assertSame($add1, $add1->addNode($add2));
         $this->assertNull($obj->getNodeById("exception"));
         $this->assertSame($add1, $obj->getNodeById("id2"));
         $this->assertNull($obj->getNodeById("id3"));
@@ -144,10 +144,10 @@ final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
         $obj = new TestNode("id");
         $add = new TestNode("id2");
 
-        $obj->addNode($add);
+        $this->assertSame($obj, $obj->addNode($add));
         $this->assertEquals([$add], $obj->getNodes());
 
-        $obj->removeNode($add);
+        $this->assertSame($obj, $obj->removeNode($add));
         $this->assertEquals([], $obj->getNodes());
     }
 
@@ -163,7 +163,7 @@ final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
 
         $this->assertEquals(0, $obj->size());
 
-        $obj->addNode($add);
+        $this->assertSame($obj, $obj->addNode($add));
         $this->assertEquals(1, $obj->size());
     }
 

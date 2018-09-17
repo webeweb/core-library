@@ -95,10 +95,10 @@ final class CURLConfigurationTest extends AbstractCoreFrameworkTestCase {
 
         $obj = new CURLConfiguration();
 
-        $obj->addHeader("name", "value");
+        $this->assertSame($obj, $obj->addHeader("name", "value"));
         $this->assertCount(1, $obj->getHeaders());
 
-        $obj->clearHeaders();
+        $this->assertSame($obj, $obj->clearHeaders());
         $this->assertCount(0, $obj->getHeaders());
     }
 

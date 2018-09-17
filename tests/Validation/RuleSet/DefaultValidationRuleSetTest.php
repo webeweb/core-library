@@ -50,7 +50,7 @@ final class DefaultValidationRuleSetTest extends AbstractValidationTest {
 
         $this->assertCount(0, $obj->getRules());
 
-        $obj->addRule($arg);
+        $this->assertSame($obj, $obj->addRule($arg));
         $this->assertCount(1, $obj->getRules());
         $this->assertSame($arg, $obj->getRules()[0]);
     }
@@ -66,15 +66,15 @@ final class DefaultValidationRuleSetTest extends AbstractValidationTest {
 
         $arg = new TestValidationRule();
 
-        $obj->addRule($arg);
+        $this->assertSame($obj, $obj->addRule($arg));
         $this->assertCount(1, $obj->getRules());
         $this->assertSame($arg, $obj->getRules()[0]);
 
-        $obj->removeRule(new TestValidationRule());
+        $this->assertSame($obj, $obj->removeRule(new TestValidationRule()));
         $this->assertCount(1, $obj->getRules());
         $this->assertSame($arg, $obj->getRules()[0]);
 
-        $obj->removeRule($arg);
+        $this->assertSame($obj, $obj->removeRule($arg));
         $this->assertCount(0, $obj->getRules());
     }
 
