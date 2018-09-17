@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\SkiData\Entity;
 
 use DateTime;
 use WBW\Library\Core\SkiData\Entity\SkiDataCustomer;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * SkiData customer entity test.
