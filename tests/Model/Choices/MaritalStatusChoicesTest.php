@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Choices;
 
 use WBW\Library\Core\Model\Choices\MaritalStatusChoices;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Marital status choices test.

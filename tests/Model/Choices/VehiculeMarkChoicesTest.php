@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Choices;
 
 use WBW\Library\Core\Model\Choices\VehiculeMarkChoices;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Vehicule mark choices test.
