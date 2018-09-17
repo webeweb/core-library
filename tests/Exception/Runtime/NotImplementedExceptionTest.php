@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Runtime;
 
 use WBW\Library\Core\Exception\Runtime\NotImplementedException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Not implemented exception test .
