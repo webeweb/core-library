@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Extension;
 
 use WBW\Library\Core\Exception\Extension\PHPExtensionNotFoundException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * PHP extension not found exception test.
