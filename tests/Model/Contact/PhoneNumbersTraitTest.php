@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Contact;
 
 use WBW\Library\Core\Model\Contact\PhoneNumbersTrait;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Phone numbers trait test.

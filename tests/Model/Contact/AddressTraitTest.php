@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Contact;
 
 use WBW\Library\Core\Model\Contact\AddressTrait;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Address trait test.
