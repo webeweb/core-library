@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\SkiData\Parser;
 use DateTime;
 use WBW\Library\Core\SkiData\Entity\SkiDataCard;
 use WBW\Library\Core\SkiData\Parser\SkiDataCardParser;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * SkiData card parser test.
