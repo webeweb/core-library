@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * String argument exception test.
