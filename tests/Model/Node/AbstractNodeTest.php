@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Node;
 
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
 
 /**
