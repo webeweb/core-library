@@ -61,8 +61,9 @@ final class FileHelperTest extends AbstractCoreFrameworkTestCase {
         $src = getcwd() . "/README.md";
         $dst = getcwd() . "/FileHelper.appendTo.txt";
 
-        FileHelper::appendTo($src, $dst);
+        FileHelper::appendTo($src, $dst, true);
         $this->assertFileExists($dst);
+        $this->assertRegExp("/^.*details\.\n\n$/s", file_get_contents($dst));
     }
 
     /**

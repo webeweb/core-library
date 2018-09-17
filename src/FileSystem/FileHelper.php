@@ -31,9 +31,10 @@ class FileHelper implements FileInterface {
      *
      * @param string $src The source filename.
      * @param string $dest The destination filename.
+     * @param bool $newline New line ?
      * @throws IOException Throws an I/O exception if an error occurs.
      */
-    public static function appendTo($src, $dest) {
+    public static function appendTo($src, $dest, $newline = false) {
 
         // Open the destination.
         $reader = @fopen($src, "r");
@@ -50,6 +51,19 @@ class FileHelper implements FileInterface {
         // Append the source into destination.
         if (false === @file_put_contents($dest, $reader, FILE_APPEND)) {
             throw new IOException(sprintf("Failed to append \"%s\" into \"%s\"", $src, $dest));
+        }
+
+        // Append a new line.
+        if (true === $newline && false === @file_put_contents($dest, "\n", FILE_APPEND)) {
+            throw new IOException(sprintf("Failed to append \"%s\" into \"%s\"", $src, $dest));
+        }
+
+        // Close the files.
+        if (false === @fclose($reader)) {
+            throw new IOException(sprintf("Failed to open \"%s\"", $src));
+        }
+        if (false === @fclose($writer)) {
+            throw new IOException(sprintf("Failed to open \"%s\"", $dest));
         }
     }
 
