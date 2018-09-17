@@ -16,7 +16,7 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 use WBW\Library\Core\Exception\FileSystem\IOException;
 use WBW\Library\Core\FileSystem\FileHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * File helper test.

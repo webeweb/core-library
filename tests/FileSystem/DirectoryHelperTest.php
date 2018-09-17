@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\FileSystem;
 use Exception;
 use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 use WBW\Library\Core\FileSystem\DirectoryHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Directory utility test.
