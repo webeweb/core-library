@@ -118,7 +118,7 @@ class QuickSort {
      * @param array $values The values.
      * @return QuickSort Returns this quick sort.
      */
-    protected function setValues(array $values = []) {
+    protected function setValues(array $values) {
         $this->values = $values;
         return $this;
     }

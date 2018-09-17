@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Network\CURL\Factory;
 
 use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
+use WBW\Library\Core\Network\CURL\API\CURLRequestInterface;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 use WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLGetRequest;
@@ -20,7 +21,6 @@ use WBW\Library\Core\Network\CURL\Request\CURLOptionsRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPatchRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPostRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPutRequest;
-use WBW\Library\Core\Network\CURL\Request\CURLRequestInterface;
 use WBW\Library\Core\Network\HTTP\HTTPInterface;
 
 /**

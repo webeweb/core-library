@@ -25,7 +25,7 @@ abstract class AbstractChartAccountsModel {
     /**
      * Accounts.
      *
-     * @var COAAccount[]
+     * @var ChartAccountsAccount[]
      */
     private $accounts;
 
@@ -70,7 +70,7 @@ abstract class AbstractChartAccountsModel {
     /**
      * Get the accounts.
      *
-     * @return COAAccount[] Returns the accounts.
+     * @return ChartAccountsAccount[] Returns the accounts.
      */
     public function getAccounts() {
         return $this->accounts;
@@ -113,10 +113,10 @@ abstract class AbstractChartAccountsModel {
     /**
      * Set the accounts.
      *
-     * @param COAAccount[] $accounts The ccounts.
+     * @param ChartAccountsAccount[] $accounts The ccounts.
      * @return AbstractChartAccountsModel Returns this charts of accounts model.
      */
-    protected function setAccounts($accounts) {
+    protected function setAccounts(array $accounts) {
         $this->accounts = $accounts;
         return $this;
     }
