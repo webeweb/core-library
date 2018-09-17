@@ -42,7 +42,7 @@ class FileHelper implements FileInterface {
         }
 
         // Open the destination.
-        $writer = @fopen($dest, "w");
+        $writer = @fopen($dest, "a");
         if (false === $writer) {
             throw new IOException(sprintf("Failed to open \"%s\"", $dest));
         }
