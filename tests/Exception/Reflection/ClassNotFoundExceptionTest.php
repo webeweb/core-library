@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Reflection;
 
 use WBW\Library\Core\Exception\Reflection\ClassNotFoundException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Class not found exception test.

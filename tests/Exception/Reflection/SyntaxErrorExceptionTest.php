@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Reflection;
 
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Syntax error exception test.
