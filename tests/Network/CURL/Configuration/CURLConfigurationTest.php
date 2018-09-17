@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Network\CURL\Configuration;
 use Exception;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * cURL configuration test.
