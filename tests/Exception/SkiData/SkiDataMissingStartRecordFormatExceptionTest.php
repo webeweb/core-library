@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\SkiData;
 
 use WBW\Library\Core\Exception\SkiData\SkiDataMissingStartRecordFormatException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * SkiData missing start record format exception test.
