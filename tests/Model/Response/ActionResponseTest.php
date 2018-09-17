@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Response;
 
 use WBW\Library\Core\Model\Response\ActionResponse;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Action response test.
