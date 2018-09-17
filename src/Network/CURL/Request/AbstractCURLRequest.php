@@ -15,6 +15,7 @@ use DateTime;
 use WBW\Library\Core\Argument\ArgumentHelper;
 use WBW\Library\Core\Exception\Network\CURLRequestCallException;
 use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
+use WBW\Library\Core\Network\CURL\API\CURLRequestInterface;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 use WBW\Library\Core\Network\CURL\Response\CURLResponse;
 use WBW\Library\Core\Network\HTTP\HTTPInterface;
@@ -274,21 +275,21 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * {@inheritdoc}
      */
     public function clearHeaders() {
-        return $this->setHeaders();
+        return $this->setHeaders([]);
     }
 
     /**
      * {@inheritdoc}
      */
     public function clearPostData() {
-        return $this->setPostData();
+        return $this->setPostData([]);
     }
 
     /**
      * {@inheritdoc}
      */
     public function clearQueryData() {
-        return $this->setQueryData();
+        return $this->setQueryData([]);
     }
 
     /**
@@ -455,7 +456,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * @param array $headers The headers.
      * @return AbstractCURLRequest Returns this request.
      */
-    protected function setHeaders(array $headers = []) {
+    protected function setHeaders(array $headers) {
         $this->headers = $headers;
         return $this;
     }
@@ -490,7 +491,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * @param array $postData The POST data.
      * @return AbstractCURLRequest Returns this request.
      */
-    protected function setPostData(array $postData = []) {
+    protected function setPostData(array $postData) {
         $this->postData = $postData;
         return $this;
     }
@@ -501,7 +502,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * @param array $queryData The query data.
      * @return AbstractCURLRequest Returns this request.
      */
-    protected function setQueryData(array $queryData = []) {
+    protected function setQueryData(array $queryData) {
         $this->queryData = $queryData;
         return $this;
     }

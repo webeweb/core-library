@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Network\CURL\Request;
+namespace WBW\Library\Core\Network\CURL\API;
 
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Exception\Network\CURLRequestCallException;
@@ -20,7 +20,7 @@ use WBW\Library\Core\Network\CURL\Response\CURLResponseInterface;
  * cURL request interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Network\CURL\Request
+ * @package WBW\Library\Core\Network\CURL\API
  */
 interface CURLRequestInterface {
 
