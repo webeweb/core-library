@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Security;
 
 use WBW\Library\Core\Security\PasswordAuthentication;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Password authentication test.

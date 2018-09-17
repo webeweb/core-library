@@ -15,7 +15,7 @@ use Exception;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Authenticator test.
