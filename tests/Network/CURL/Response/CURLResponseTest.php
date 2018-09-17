@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Response;
 
 use WBW\Library\Core\Network\CURL\Response\CURLResponse;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * cURL response test.
