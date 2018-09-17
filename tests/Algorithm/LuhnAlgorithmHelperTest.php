@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Algorithm;
 
 use WBW\Library\Core\Algorithm\LuhnAlgorithmHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Luhn algorithm helper test.
