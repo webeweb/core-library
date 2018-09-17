@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use WBW\Library\Core\Argument\StringHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * String utility test.

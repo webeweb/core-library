@@ -18,7 +18,7 @@ use ReflectionMethod;
 use WBW\Library\Core\Argument\ObjectHelper;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Object helper test.

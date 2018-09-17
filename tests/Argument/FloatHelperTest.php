@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Argument;
 use Exception;
 use WBW\Library\Core\Argument\FloatHelper;
 use WBW\Library\Core\Exception\Argument\FloatArgumentException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Float helper test.

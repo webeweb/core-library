@@ -16,7 +16,7 @@ use DateTimeZone;
 use Exception;
 use WBW\Library\Core\Argument\DateTimeHelper;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Date/time helper test.

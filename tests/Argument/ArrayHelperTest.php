@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use WBW\Library\Core\Argument\ArrayHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Array helper test.

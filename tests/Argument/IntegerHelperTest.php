@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Argument;
 use Exception;
 use WBW\Library\Core\Argument\IntegerHelper;
 use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Integer helper test.

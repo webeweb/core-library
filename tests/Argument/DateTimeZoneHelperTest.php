@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Argument;
 
 use DateTimeZone;
 use WBW\Library\Core\Argument\DateTimeZoneHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Date/time zone helper test.

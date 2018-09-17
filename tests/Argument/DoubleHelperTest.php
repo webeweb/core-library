@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Argument;
 use Exception;
 use WBW\Library\Core\Argument\DoubleHelper;
 use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Double helper test.
