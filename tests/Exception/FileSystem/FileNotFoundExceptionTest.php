@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\FileSystem;
 
 use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * File not found exception test.
