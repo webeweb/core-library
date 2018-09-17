@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Pointer;
 
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Null pointer exception test.
