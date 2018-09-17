@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Network\CURL\Response;
 
+use WBW\Library\Core\Network\CURL\API\CURLResponseInterface;
+
 /**
  * cURL response.
  *
@@ -127,7 +129,7 @@ class CURLResponse implements CURLResponseInterface {
      * @param array $requestHeader The request header.
      * @return CURLResponse Returns this CURL response.
      */
-    public function setRequestHeader(array $requestHeader = []) {
+    public function setRequestHeader(array $requestHeader) {
         $this->requestHeader = $requestHeader;
         return $this;
     }
@@ -160,7 +162,7 @@ class CURLResponse implements CURLResponseInterface {
      * @param array $responseHeader The response header.
      * @return CURLResponse Returns this CURL response.
      */
-    public function setResponseHeader(array $responseHeader = []) {
+    public function setResponseHeader(array $responseHeader) {
         $this->responseHeader = $responseHeader;
         return $this;
     }
@@ -171,7 +173,7 @@ class CURLResponse implements CURLResponseInterface {
      * @param array $responseInfo The response info.
      * @return CURLResponse Returns this CURL response.
      */
-    public function setResponseInfo(array $responseInfo = []) {
+    public function setResponseInfo(array $responseInfo) {
         $this->responseInfo = $responseInfo;
         return $this;
     }
