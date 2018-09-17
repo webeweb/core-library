@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
  * Abstract Core framework test case.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Cases
+ * @package WBW\Library\Core\Tests
  * @abstract
  */
 abstract class AbstractCoreFrameworkTestCase extends TestCase {
