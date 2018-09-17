@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Database;
 
 use WBW\Library\Core\Database\PaginateHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Paginate helper test.
