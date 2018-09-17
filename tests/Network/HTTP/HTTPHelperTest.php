@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\HTTP;
 
 use WBW\Library\Core\Network\HTTP\HTTPHelper;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * HTTP utility test.
