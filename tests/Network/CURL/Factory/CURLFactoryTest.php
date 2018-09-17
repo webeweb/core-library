@@ -22,7 +22,7 @@ use WBW\Library\Core\Network\CURL\Request\CURLPatchRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPostRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPutRequest;
 use WBW\Library\Core\Network\HTTP\HTTPInterface;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * cURL factory test.
