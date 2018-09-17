@@ -13,8 +13,8 @@ namespace WBW\Library\Core\Tests\Sorting;
 
 use WBW\Library\Core\Sorting\FunctorInterface;
 use WBW\Library\Core\Sorting\QuickSort;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
-use WBW\Library\Core\Tests\Fixtures\Sorting\IntegerFunctor;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\Fixtures\Sorting\TestIntegerFunctor;
 
 /**
  * Quick sort test.
@@ -45,7 +45,7 @@ final class QuickSortTest extends AbstractCoreFrameworkTestCase {
     protected function setUp() {
 
         // Set the fonctor mock.
-        $this->fonctor = new IntegerFunctor();
+        $this->fonctor = new TestIntegerFunctor();
 
         // Set the values mock.
         $this->values = [12, 98, 21, 89, 23, 87, 32, 78, 34, 76, 43, 67, 45, 65, 54, 56,];
