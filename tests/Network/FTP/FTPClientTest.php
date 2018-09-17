@@ -16,7 +16,7 @@ use WBW\Library\Core\Exception\Network\FTPException;
 use WBW\Library\Core\Network\FTP\FTPClient;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * FTP client test.
