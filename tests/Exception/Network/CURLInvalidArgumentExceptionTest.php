@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Network;
 
 use WBW\Library\Core\Exception\Network\CURLInvalidArgumentException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * cURL invalid argument exception test.

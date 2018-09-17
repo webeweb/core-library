@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Network;
 
 use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * Invalid HTTP method exception test.

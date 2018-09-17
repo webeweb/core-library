@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Exception\Network;
 
 use WBW\Library\Core\Exception\Network\CURLRequestCallException;
 use WBW\Library\Core\Network\CURL\Response\CURLResponse;
-use WBW\Library\Core\Tests\Cases\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
 
 /**
  * cURL request call exception test.
