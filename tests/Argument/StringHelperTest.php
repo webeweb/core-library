@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use WBW\Library\Core\Argument\StringHelper;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * String utility test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class StringHelperTest extends AbstractCoreFrameworkTestCase {
+final class StringHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseArray() method.

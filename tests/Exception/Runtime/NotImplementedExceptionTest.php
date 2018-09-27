@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Runtime;
 
 use WBW\Library\Core\Exception\Runtime\NotImplementedException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Not implemented exception test .
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Exception\Runtime
  * @final
  */
-final class NotImplementedExceptionTest extends AbstractCoreFrameworkTestCase {
+final class NotImplementedExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

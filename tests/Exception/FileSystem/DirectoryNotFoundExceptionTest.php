@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\FileSystem;
 
 use WBW\Library\Core\Exception\FileSystem\DirectoryNotFoundException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Directory not found exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Exception\IO
  * @final
  */
-final class DirectoryNotFoundExceptionTest extends AbstractCoreFrameworkTestCase {
+final class DirectoryNotFoundExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

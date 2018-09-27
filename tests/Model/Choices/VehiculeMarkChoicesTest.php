@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Choices;
 
 use WBW\Library\Core\Model\Choices\VehiculeMarkChoices;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Vehicule mark choices test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Model\Choices
  * @final
  */
-final class VehiculeMakChoicesTest extends AbstractCoreFrameworkTestCase {
+final class VehiculeMakChoicesTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getChoices() method.

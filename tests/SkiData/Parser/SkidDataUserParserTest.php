@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\SkiData\Parser;
 use DateTime;
 use WBW\Library\Core\SkiData\Entity\SkiDataUser;
 use WBW\Library\Core\SkiData\Parser\SkiDataUserParser;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * SkidData user parser test.
@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\SkiData\Parser
  * @final
  */
-final class SkidDataUserParserTest extends AbstractCoreFrameworkTestCase {
+final class SkidDataUserParserTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseEntity() method.

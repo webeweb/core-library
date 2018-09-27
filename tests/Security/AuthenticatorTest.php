@@ -15,7 +15,7 @@ use Exception;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Authenticator test.
@@ -24,7 +24,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Security
  * @final
  */
-final class AuthenticatorTest extends AbstractCoreFrameworkTestCase {
+final class AuthenticatorTest extends AbstractFrameworkTestCase {
 
     /**
      * Password authentication.

@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Response;
 
 use WBW\Library\Core\Network\CURL\Response\CURLResponse;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * cURL response test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Network\CURL\Response
  * @final
  */
-final class CURLResponseTest extends AbstractCoreFrameworkTestCase {
+final class CURLResponseTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __constructor() method.

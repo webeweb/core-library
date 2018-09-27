@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
 use WBW\Library\Core\Exception\Argument\BooleanArgumentException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Boolean argument exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Exception\Argument
  * @final
  */
-final class BooleanArgumentExceptionTest extends AbstractCoreFrameworkTestCase {
+final class BooleanArgumentExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\SkiData;
 
 use WBW\Library\Core\Exception\SkiData\SkiDataTooLongDataException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * SkiData too long data exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Exception\SkiData
  * @final
  */
-final class SkiDataTooLongDataExceptionTest extends AbstractCoreFrameworkTestCase {
+final class SkiDataTooLongDataExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

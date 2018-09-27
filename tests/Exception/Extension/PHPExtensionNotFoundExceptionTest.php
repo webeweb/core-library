@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Extension;
 
 use WBW\Library\Core\Exception\Extension\PHPExtensionNotFoundException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * PHP extension not found exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Exception\Extension\PHP
  * @final
  */
-final class PHPExtensionNotFoundExceptionTest extends AbstractCoreFrameworkTestCase {
+final class PHPExtensionNotFoundExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

@@ -16,7 +16,7 @@ use Exception;
 use WBW\Library\Core\Exception\SkiData\SkiDataTooLongDataException;
 use WBW\Library\Core\SkiData\Entity\SkiDataStartRecordFormat;
 use WBW\Library\Core\SkiData\Parser\SkiDataStartRecordFormatParser;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * SkiData start record format parser test.
@@ -25,7 +25,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\SkiData\Parser
  * @final
  */
-final class SkiDataStartRecordFormatParserTest extends AbstractCoreFrameworkTestCase {
+final class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Database;
 
 use WBW\Library\Core\Database\PaginateHelper;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Paginate helper test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Database
  * @final
  */
-final class PaginateHelperTest extends AbstractCoreFrameworkTestCase {
+final class PaginateHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getPageOffsetAndLimit() method.

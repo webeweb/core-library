@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Choices;
 
 use WBW\Library\Core\Model\Choices\CivilityChoices;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Civility choices test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Model\Choices
  * @final
  */
-final class CivilityChoicesTest extends AbstractCoreFrameworkTestCase {
+final class CivilityChoicesTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getChoices() method.

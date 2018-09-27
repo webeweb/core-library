@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Request;
 
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Abstract cURL request test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Network\CURL\Request
  * @abstract
  */
-abstract class AbstractCURLRequestTest extends AbstractCoreFrameworkTestCase {
+abstract class AbstractCURLRequestTest extends AbstractFrameworkTestCase {
 
     /**
      * Resource path.

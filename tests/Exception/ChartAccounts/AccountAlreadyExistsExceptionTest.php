@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Exception\ChartAccounts;
 
 use WBW\Library\Core\ChartAccounts\Model\ChartAccountsAccount;
 use WBW\Library\Core\Exception\ChartAccounts\AccountAlreadyExistsException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Account already exists exception test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Exception\ChartAccounts
  * @final
  */
-final class AccountAlreadyExistsExceptionTest extends AbstractCoreFrameworkTestCase {
+final class AccountAlreadyExistsExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

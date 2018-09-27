@@ -18,7 +18,7 @@ use ReflectionMethod;
 use WBW\Library\Core\Argument\ObjectHelper;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Object helper test.
@@ -27,7 +27,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
+final class ObjectHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getDirectory() method.
@@ -102,7 +102,7 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
         $this->assertCount(0, $hooks4);
 
         // ===
-        $hooks5 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractCoreFrameworkTestCase::class);
+        $hooks5 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractFrameworkTestCase::class);
         $this->assertCount(1, $hooks5);
         foreach ($hooks5 as $current) {
 
@@ -114,7 +114,7 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
         }
 
         // ===
-        $hooks6 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractCoreFrameworkTestCase::class, "testGetHooks");
+        $hooks6 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractFrameworkTestCase::class, "testGetHooks");
         $this->assertCount(1, $hooks6);
         foreach ($hooks6 as $current) {
 
@@ -138,7 +138,7 @@ final class ObjectHelperTest extends AbstractCoreFrameworkTestCase {
 
         try {
 
-            ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractCoreFrameworkTestCase::class, "testGetHook");
+            ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractFrameworkTestCase::class, "testGetHook");
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(MethodNotFoundException::class, $ex);

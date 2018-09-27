@@ -16,7 +16,7 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 use WBW\Library\Core\Exception\FileSystem\IOException;
 use WBW\Library\Core\FileSystem\FileHelper;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * File helper test.
@@ -25,7 +25,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\IO
  * @final
  */
-final class FileHelperTest extends AbstractCoreFrameworkTestCase {
+final class FileHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * {@inheritdoc}

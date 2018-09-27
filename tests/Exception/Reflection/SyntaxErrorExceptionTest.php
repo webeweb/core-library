@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Reflection;
 
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Syntax error exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Exception\Reflection
  * @final
  */
-final class SyntaxErrorExceptionTest extends AbstractCoreFrameworkTestCase {
+final class SyntaxErrorExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

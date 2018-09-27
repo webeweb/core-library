@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Choices;
 
 use WBW\Library\Core\Model\Choices\MaritalStatusChoices;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Marital status choices test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Model\Choices
  * @final
  */
-final class MaritalStatusChoicesTest extends AbstractCoreFrameworkTestCase {
+final class MaritalStatusChoicesTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getChoices() method.

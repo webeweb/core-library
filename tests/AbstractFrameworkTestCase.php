@@ -20,6 +20,6 @@ use PHPUnit\Framework\TestCase;
  * @package WBW\Library\Core\Tests
  * @abstract
  */
-abstract class AbstractCoreFrameworkTestCase extends TestCase {
+abstract class AbstractFrameworkTestCase extends TestCase {
 
 }

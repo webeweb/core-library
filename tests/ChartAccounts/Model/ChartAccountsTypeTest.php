@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\ChartAccounts\Model;
 
 use WBW\Library\Core\ChartAccounts\Model\ChartAccountsType;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Chart of accounts type test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\ChartAccounts\Model
  * @final
  */
-final class ChartAccountsTypeTest extends AbstractCoreFrameworkTestCase {
+final class ChartAccountsTypeTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

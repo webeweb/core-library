@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Network\CURL\Configuration;
 use Exception;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * cURL configuration test.
@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Network\CURL\Configuration
  * @final
  */
-final class CURLConfigurationTest extends AbstractCoreFrameworkTestCase {
+final class CURLConfigurationTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __constructor() method.

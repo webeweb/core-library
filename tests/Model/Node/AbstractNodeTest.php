@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Node;
 
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
 
 /**
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
  * @package WBW\Library\Core\Tests\Navigation\Item
  * @final
  */
-final class AbstractNodeTest extends AbstractCoreFrameworkTestCase {
+final class AbstractNodeTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

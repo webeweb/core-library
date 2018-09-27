@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Argument;
 use Exception;
 use WBW\Library\Core\Argument\DoubleHelper;
 use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Double helper test.
@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class DoubleHelperTest extends AbstractCoreFrameworkTestCase {
+final class DoubleHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseString() method.

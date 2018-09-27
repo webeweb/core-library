@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\FileSystem;
 use Exception;
 use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 use WBW\Library\Core\FileSystem\DirectoryHelper;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Directory utility test.
@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\IO
  * @final
  */
-final class DirectoryHelperTest extends AbstractCoreFrameworkTestCase {
+final class DirectoryHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the create() method.

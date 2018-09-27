@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Response;
 
 use WBW\Library\Core\Model\Response\ActionResponse;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Action response test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Model\Response
  * @final
  */
-final class ActionResponseTest extends AbstractCoreFrameworkTestCase {
+final class ActionResponseTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

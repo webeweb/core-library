@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\SkiData\Entity;
 
 use DateTime;
 use WBW\Library\Core\SkiData\Entity\SkiDataStartRecordFormat;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * SkiData start record format test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\SkiData\Entity
  * @final
  */
-final class SkiDataStartRecordFormatTest extends AbstractCoreFrameworkTestCase {
+final class SkiDataStartRecordFormatTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

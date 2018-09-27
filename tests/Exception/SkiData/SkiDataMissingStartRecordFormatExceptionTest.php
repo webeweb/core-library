@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\SkiData;
 
 use WBW\Library\Core\Exception\SkiData\SkiDataMissingStartRecordFormatException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * SkiData missing start record format exception test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Exception\SkiData
  * @final
  */
-final class SkiDataMissingStartRecordFormatExceptionTest extends AbstractCoreFrameworkTestCase {
+final class SkiDataMissingStartRecordFormatExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

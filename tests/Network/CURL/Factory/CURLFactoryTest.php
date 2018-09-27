@@ -22,7 +22,7 @@ use WBW\Library\Core\Network\CURL\Request\CURLPatchRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPostRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPutRequest;
 use WBW\Library\Core\Network\HTTP\HTTPInterface;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * cURL factory test.
@@ -31,7 +31,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Network\CURL\Factory
  * @final
  */
-final class CURLFactoryTest extends AbstractCoreFrameworkTestCase {
+final class CURLFactoryTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getInstance() method.

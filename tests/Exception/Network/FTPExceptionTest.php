@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Exception\Network;
 
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 use WBW\Library\Core\Exception\Network\FTPException;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\Exception\Network\FTPException;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Network
  */
-final class FTPExceptionTest extends AbstractCoreFrameworkTestCase {
+final class FTPExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

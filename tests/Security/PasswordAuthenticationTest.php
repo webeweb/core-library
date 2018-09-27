@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Security;
 
 use WBW\Library\Core\Security\PasswordAuthentication;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Password authentication test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Security
  * @final
  */
-final class PasswordAuthenticationTest extends AbstractCoreFrameworkTestCase {
+final class PasswordAuthenticationTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

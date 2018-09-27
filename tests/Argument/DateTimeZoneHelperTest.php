@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Argument;
 
 use DateTimeZone;
 use WBW\Library\Core\Argument\DateTimeZoneHelper;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Date/time zone helper test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class DateTimeZoneHelperTest extends AbstractCoreFrameworkTestCase {
+final class DateTimeZoneHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the equals() method.

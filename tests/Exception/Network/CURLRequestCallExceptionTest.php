@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Exception\Network;
 
 use WBW\Library\Core\Exception\Network\CURLRequestCallException;
 use WBW\Library\Core\Network\CURL\Response\CURLResponse;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * cURL request call exception test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Exception\Network
  * @final
  */
-final class CURLRequestCallExceptionTest extends AbstractCoreFrameworkTestCase {
+final class CURLRequestCallExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __constructor() method.

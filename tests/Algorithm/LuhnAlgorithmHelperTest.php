@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Algorithm;
 
 use WBW\Library\Core\Algorithm\LuhnAlgorithmHelper;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Luhn algorithm helper test.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Algorithm
  * @final
  */
-final class LuhnAlgorithmTest extends AbstractCoreFrameworkTestCase {
+final class LuhnAlgorithmTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the check() method.

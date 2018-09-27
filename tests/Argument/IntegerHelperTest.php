@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Argument;
 use Exception;
 use WBW\Library\Core\Argument\IntegerHelper;
 use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
-use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * Integer helper test.
@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\AbstractCoreFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Argument
  * @final
  */
-final class IntegerHelperTest extends AbstractCoreFrameworkTestCase {
+final class IntegerHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getLinesOffset() method.
