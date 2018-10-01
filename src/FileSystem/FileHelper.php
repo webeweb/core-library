@@ -60,10 +60,10 @@ class FileHelper implements FileInterface {
 
         // Close the files.
         if (false === @fclose($reader)) {
-            throw new IOException(sprintf("Failed to open \"%s\"", $src));
+            throw new IOException(sprintf("Failed to close \"%s\"", $src));
         }
         if (false === @fclose($writer)) {
-            throw new IOException(sprintf("Failed to open \"%s\"", $dest));
+            throw new IOException(sprintf("Failed to close \"%s\"", $dest));
         }
     }
 
