@@ -151,4 +151,29 @@ class ObjectHelper {
         }
     }
 
+    /**
+     * URL decode a short name.
+     *
+     * @param string $string The string.
+     * @return string Returns the URL decoded short name.
+     */
+    public static function urlDecodeShortName($string) {
+        return ucfirst(preg_replace_callback("/(\-[a-z]{1})/", function($matches) {
+                return strtoupper(str_replace("-", "", $matches[0]));
+            }, $string));
+    }
+
+    /**
+     * URL encode a short name.
+     *
+     * @param mixed $object The object.
+     * @return string Returns the URL encoded short name.
+     * @throws ReflectionException Throws a Reflection exception if an error occurs.
+     */
+    public static function urlEncodeShortName($object) {
+        $classname = static::getShortName($object);
+        $explode   = preg_replace("/([a-z]{1})([A-Z]{1})/", "$1-$2", $classname);
+        return strtolower($explode);
+    }
+
 }

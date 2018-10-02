@@ -222,4 +222,26 @@ final class ObjectHelperTest extends AbstractFrameworkTestCase {
         }
     }
 
+    /**
+     * Tests the urlDecodeShortName() method.
+     *
+     * @return void
+     */
+    public function testUrlDecodeShortName() {
+
+        $this->assertEquals("DateTimeZoneHelperTest", ObjectHelper::urlDecodeShortName("date-time-zone-helper-test"));
+        $this->assertEquals("ObjectHelperTest", ObjectHelper::urlDecodeShortName("object-helper-test"));
+    }
+
+    /**
+     * Tests the urlEncodeShortName() method.
+     *
+     * @return void
+     */
+    public function testUrlEncodeShortName() {
+
+        $this->assertEquals("date-time-zone-helper-test", ObjectHelper::urlEncodeShortName(DateTimeZoneHelperTest::class));
+        $this->assertEquals("object-helper-test", ObjectHelper::urlEncodeShortName($this));
+    }
+
 }
