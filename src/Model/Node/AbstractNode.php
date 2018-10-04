@@ -145,7 +145,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * Get a node by id.
      *
      * @param string $id The id.
-     * @param boolean $recursively Recursively ?
+     * @param bool $recursively Recursively ?
      * @return AbstractNode Returns a node in case of success, null otherwise.
      */
     public function getNodeById($id, $recursively = false) {

@@ -27,7 +27,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      */
     public static function contains(TimeSlot $a, TimeSlot $b) {
         $c1 = DateTimeHelper::isBetween($b->getStartDate(), $a->getStartDate(), $a->getEndDate());
@@ -40,7 +40,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      */
     public static function equals(TimeSlot $a, TimeSlot $b) {
 
@@ -139,7 +139,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      */
     public static function hasFullJoin(TimeSlot $a, TimeSlot $b) {
         return true === static::hasInnerJoin($a, $b);
@@ -150,7 +150,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      */
     public static function hasInnerJoin(TimeSlot $a, TimeSlot $b) {
         $c1 = DateTimeHelper::isBetween($b->getStartDate(), $a->getStartDate(), $a->getEndDate());

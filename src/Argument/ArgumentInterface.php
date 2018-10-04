@@ -22,77 +22,77 @@ interface ArgumentInterface {
     /**
      * Argument "Array".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_ARRAY = 63;
 
     /**
      * Argument "Boolean".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_BOOLEAN = 64;
 
     /**
      * Argument "Date".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_DATE = 30;
 
     /**
      * Argument "Double".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_DOUBLE = 59;
 
     /**
      * Argument "Float".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_FLOAT = 54;
 
     /**
      * Argument "Integer".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_INTEGER = 78;
 
     /**
      * Argument "Number".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_NUMBER = 73;
 
     /**
      * Argument "Object".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_OBJECT = 55;
 
     /**
      * Argument "Resource".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_RESOURCE = 104;
 
     /**
      * Argument "String".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_STRING = 87;
 
     /**
      * Argument "Timestamp".
      *
-     * @var integer
+     * @var int
      */
     const ARGUMENT_TIMESTAMP = 116;
 

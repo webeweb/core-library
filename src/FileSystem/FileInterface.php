@@ -22,7 +22,7 @@ interface FileInterface {
     /**
      * File size divider.
      *
-     * @var integer
+     * @var int
      */
     const FILE_SIZE_DIVIDER = 1000;
 

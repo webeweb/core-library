@@ -44,7 +44,7 @@ class SkiDataCustomer {
     /**
      * Counting of neutral cards.
      *
-     * @var boolean
+     * @var bool
      */
     private $countingNeutralCards;
 
@@ -65,14 +65,14 @@ class SkiDataCustomer {
     /**
      * Deposit.
      *
-     * @var integer
+     * @var int
      */
     private $deposit;
 
     /**
      * Entry during max. level allowed.
      *
-     * @var boolean
+     * @var bool
      */
     private $entryMaxLevelAllowed;
 
@@ -86,14 +86,14 @@ class SkiDataCustomer {
     /**
      * Max. level per car park.
      *
-     * @var boolean
+     * @var bool
      */
     private $maxLevelCarPark;
 
     /**
      * Maximum level.
      *
-     * @var integer
+     * @var int
      */
     private $maximumLevel;
 
@@ -149,7 +149,7 @@ class SkiDataCustomer {
     /**
      * Ticket return allowed.
      *
-     * @var boolean
+     * @var bool
      */
     private $ticketReturnAllowed;
 
@@ -181,7 +181,7 @@ class SkiDataCustomer {
     /**
      * Get the couting neutral cards.
      *
-     * @return boolean Returns the couting neutral cards.
+     * @return bool Returns the couting neutral cards.
      */
     public function getCountingNeutralCards() {
         return $this->countingNeutralCards;
@@ -217,7 +217,7 @@ class SkiDataCustomer {
     /**
      * Get the entry during max. level allowed.
      *
-     * @return boolean Returns the entry during max. level allowed.
+     * @return bool Returns the entry during max. level allowed.
      */
     public function getEntryMaxLevelAllowed() {
         return $this->entryMaxLevelAllowed;
@@ -235,7 +235,7 @@ class SkiDataCustomer {
     /**
      * Get the max level per car park.
      *
-     * @return boolean Returns the max level per car park.
+     * @return bool Returns the max level per car park.
      */
     public function getMaxLevelCarPark() {
         return $this->maxLevelCarPark;
@@ -316,7 +316,7 @@ class SkiDataCustomer {
     /**
      * Get the ticket return allowed.
      *
-     * @return boolean Returns the ticket return allowed.
+     * @return bool Returns the ticket return allowed.
      */
     public function getTicketReturnAllowed() {
         return $this->ticketReturnAllowed;
@@ -347,7 +347,7 @@ class SkiDataCustomer {
     /**
      * Set the couting neutral cards.
      *
-     * @param boolean $countingNeutralCards The couting neutral cards.
+     * @param bool $countingNeutralCards The couting neutral cards.
      * @return SkiDataCustomer Returns this customer entity.
      */
     public function setCountingNeutralCards($countingNeutralCards) {
@@ -391,7 +391,7 @@ class SkiDataCustomer {
     /**
      * Set the entry during max level allowed.
      *
-     * @param boolean $entryMaxLevelAllowed The entry during max level allowed.
+     * @param bool $entryMaxLevelAllowed The entry during max level allowed.
      * @return SkiDataCustomer Returns this customer entity.
      */
     public function setEntryMaxLevelAllowed($entryMaxLevelAllowed) {
@@ -413,7 +413,7 @@ class SkiDataCustomer {
     /**
      * Set the max level per car park.
      *
-     * @param boolean $maxLevelCarPark The max level per car park.
+     * @param bool $maxLevelCarPark The max level per car park.
      * @return SkiDataCustomer Returns this customer entity.
      */
     public function setMaxLevelCarPark($maxLevelCarPark) {
@@ -512,7 +512,7 @@ class SkiDataCustomer {
     /**
      * Set the ticket return allowed.
      *
-     * @param boolean $ticketReturnAllowed The ticket return allowed.
+     * @param bool $ticketReturnAllowed The ticket return allowed.
      * @return SkiDataCustomer Returns this customer entity.
      */
     public function setTicketReturnAllowed($ticketReturnAllowed) {

@@ -25,21 +25,21 @@ class CURLConfiguration {
     /**
      * Allow encoding.
      *
-     * @var boolean
+     * @var bool
      */
     private $allowEncoding = false;
 
     /**
      * HTTP connect timeout.
      *
-     * @var integer
+     * @var int
      */
     private $connectTimeout = 0;
 
     /**
      * Debug.
      *
-     * @var boolean
+     * @var bool
      */
     private $debug = false;
 
@@ -95,14 +95,14 @@ class CURLConfiguration {
     /**
      * Proxy port.
      *
-     * @var integer
+     * @var int
      */
     private $proxyPort;
 
     /**
      * Proxy type.
      *
-     * @var integer
+     * @var int
      */
     private $proxyType;
 
@@ -116,14 +116,14 @@ class CURLConfiguration {
     /**
      * HTTP request timeout.
      *
-     * @var integer
+     * @var int
      */
     private $requestTimeout = 0;
 
     /**
      * SSL verification.
      *
-     * @var boolean
+     * @var bool
      */
     private $sslVerification = true;
 
@@ -137,7 +137,7 @@ class CURLConfiguration {
     /**
      * Verbose.
      *
-     * @var boolean
+     * @var bool
      */
     private $verbose = false;
 
@@ -174,7 +174,7 @@ class CURLConfiguration {
     /**
      * Get the allow encoding.
      *
-     * @return boolean Returns the allow encoding.
+     * @return bool Returns the allow encoding.
      */
     public function getAllowEncoding() {
         return $this->allowEncoding;
@@ -183,7 +183,7 @@ class CURLConfiguration {
     /**
      * Get the connect timeout.
      *
-     * @return integer Returns the connect timeout.
+     * @return int Returns the connect timeout.
      */
     public function getConnectTimeout() {
         return $this->connectTimeout;
@@ -264,7 +264,7 @@ class CURLConfiguration {
     /**
      * Get the proxy port.
      *
-     * @return integer Returns the proxy port.
+     * @return int Returns the proxy port.
      */
     public function getProxyPort() {
         return $this->proxyPort;
@@ -273,7 +273,7 @@ class CURLConfiguration {
     /**
      * Get the proxy type.
      *
-     * @return integer Returns the proxy type.
+     * @return int Returns the proxy type.
      */
     public function getProxyType() {
         return $this->proxyType;
@@ -291,7 +291,7 @@ class CURLConfiguration {
     /**
      * Get the request timeout.
      *
-     * @return integer Returns the request timeout.
+     * @return int Returns the request timeout.
      */
     public function getRequestTimeout() {
         return $this->requestTimeout;
@@ -300,7 +300,7 @@ class CURLConfiguration {
     /**
      * Get the SSL verification.
      *
-     * @return boolean Returns the SSL verification.
+     * @return bool Returns the SSL verification.
      */
     public function getSslVerification() {
         return $this->sslVerification;
@@ -318,7 +318,7 @@ class CURLConfiguration {
     /**
      * Get the verbose.
      *
-     * @return boolean Returns the verbose.
+     * @return bool Returns the verbose.
      */
     public function getVerbose() {
         return $this->verbose;
@@ -338,7 +338,7 @@ class CURLConfiguration {
     /**
      * Set the allow encoding.
      *
-     * @param boolean $allowEncoding The allow encoding.
+     * @param bool $allowEncoding The allow encoding.
      * @return CURLConfiguration Returns this CURL configuration.
      */
     public function setAllowEncoding($allowEncoding = false) {
@@ -349,7 +349,7 @@ class CURLConfiguration {
     /**
      * Set the connect timeout.
      *
-     * @param integer $connectTimeout The connect timeout.
+     * @param int $connectTimeout The connect timeout.
      * @return CURLConfiguration Returns this CURL configuration.
      */
     public function setConnectTimeout($connectTimeout = 0) {
@@ -360,7 +360,7 @@ class CURLConfiguration {
     /**
      * Set the debug.
      *
-     * @param boolean $debug The debug.
+     * @param bool $debug The debug.
      * @return CURLConfiguration Returns this CURL configuration.
      */
     public function setDebug($debug = false) {
@@ -448,7 +448,7 @@ class CURLConfiguration {
     /**
      * Set the proxy port.
      *
-     * @param integer $proxyPort The proxy port.
+     * @param int $proxyPort The proxy port.
      * @return CURLConfiguration Returns this CURL configuration.
      */
     public function setProxyPort($proxyPort) {
@@ -459,7 +459,7 @@ class CURLConfiguration {
     /**
      * Set the proxy type.
      *
-     * @param integer $proxyType The proxy type.
+     * @param int $proxyType The proxy type.
      * @return CURLConfiguration Returns this CURL configuration.
      */
     public function setProxyType($proxyType) {
@@ -481,7 +481,7 @@ class CURLConfiguration {
     /**
      * Set the request timeout.
      *
-     * @param integer $requestTimeout The request timeout.
+     * @param int $requestTimeout The request timeout.
      * @return CURLConfiguration Returns this CURL configuration.
      */
     public function setRequestTimeout($requestTimeout = 0) {
@@ -492,7 +492,7 @@ class CURLConfiguration {
     /**
      * Set the SSL verification.
      *
-     * @param boolean $sslVerification The SSL verification.
+     * @param bool $sslVerification The SSL verification.
      * @return CURLConfiguration Returns this CURL configuration.
      */
     public function setSslVerification($sslVerification = true) {
@@ -514,7 +514,7 @@ class CURLConfiguration {
     /**
      * Set the verbose.
      *
-     * @param boolean $verbose The verbose.
+     * @param bool $verbose The verbose.
      * @return CURLConfiguration Returns this CURL configuration.
      */
     public function setVerbose($verbose = false) {

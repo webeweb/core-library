@@ -38,21 +38,21 @@ class SkiDataStartRecordFormat {
     /**
      * Facility number
      *
-     * @var integer
+     * @var int
      */
     private $facilityNumber;
 
     /**
      * Number of records.
      *
-     * @var integer
+     * @var int
      */
     private $numberRecords;
 
     /**
      * Version of record structure.
      *
-     * @var integer
+     * @var int
      */
     private $versionRecordStructure;
 

@@ -23,7 +23,7 @@ class LuhnAlgorithmHelper {
      * Check.
      *
      * @param string $str The string.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      */
     public static function check($str) {
 

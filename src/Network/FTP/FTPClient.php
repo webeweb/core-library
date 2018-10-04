@@ -51,7 +51,7 @@ class FTPClient extends AbstractFTPClient {
     /**
      * Opens this FTP connection.
      *
-     * @param integer $timeout The timeout.
+     * @param int $timeout The timeout.
      * @return FTPClient Returns this FTP client.
      * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */
@@ -97,7 +97,7 @@ class FTPClient extends AbstractFTPClient {
     /**
      * Tuns passive mode on or off.
      *
-     * @param boolean $pasv The passive mode.
+     * @param bool $pasv The passive mode.
      * @return FTPClient Returns this FTP client.
      * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */
@@ -113,8 +113,8 @@ class FTPClient extends AbstractFTPClient {
      *
      * @param string $localFile The local file.
      * @param string $remoteFile The remote file.
-     * @param integer $mode The mode.
-     * @param integer $startPos The start position.
+     * @param int $mode The mode.
+     * @param int $startPos The start position.
      * @return FTPClient Returns this FTP client.
      * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */

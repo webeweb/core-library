@@ -116,8 +116,8 @@ class SFTPClient extends AbstractFTPClient {
      * Creates a directory.
      *
      * @param string $directory The directory.
-     * @param integer $mode The mode.
-     * @param boolean $recursive Recursively ?.
+     * @param int $mode The mode.
+     * @param bool $recursive Recursively ?.
      * @return SFTPClient Returns this SFTP client.
      * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */

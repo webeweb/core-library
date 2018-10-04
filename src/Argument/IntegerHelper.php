@@ -62,7 +62,7 @@ class IntegerHelper {
     /**
      * Parse a boolean.
      *
-     * @param boolean $value The boolean value.
+     * @param bool $value The boolean value.
      * @return int Returns 1 in case of success, 0 otherwise.
      */
     public static function parseBoolean($value) {

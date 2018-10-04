@@ -22,28 +22,28 @@ interface CivilityChoicesInterface {
     /**
      * Civility "Empty".
      *
-     * @var integer
+     * @var int
      */
     const CIVILITY_EMPTY = -1;
 
     /**
      * Civility "Miss".
      *
-     * @var integer
+     * @var int
      */
     const CIVILITY_MISS = 60;
 
     /**
      * Civility "Mister".
      *
-     * @var integer
+     * @var int
      */
     const CIVILITY_MISTER = 84;
 
     /**
      * Civility "Mrs".
      *
-     * @var integer
+     * @var int
      */
     const CIVILITY_MRS = 50;
 

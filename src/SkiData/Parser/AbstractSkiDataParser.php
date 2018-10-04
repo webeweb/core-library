@@ -75,7 +75,7 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
     /**
      * Encode a boolean value.
      *
-     * @param boolean $value The value.
+     * @param bool $value The value.
      * @return string Returns the encoded boolean value.
      */
     protected function encodeBoolean($value) {
@@ -105,8 +105,8 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
     /**
      * Encode an integer value.
      *
-     * @param integer $value The value.
-     * @param integer $length The length.
+     * @param int $value The value.
+     * @param int $length The length.
      * @return string Returns the encoded integer.
      * @throws SkiDataTooLongDataException Throws a too long data exception if the value exceeds the length.
      */
@@ -123,7 +123,7 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      * Encode a string value.
      *
      * @param string $value The value.
-     * @param integer $length The length.
+     * @param int $length The length.
      * @return string Returns the encoded string.
      * @throws SkiDataTooLongDataException Throws a too long data exception if the value exceeds the length.
      */

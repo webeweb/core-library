@@ -71,7 +71,7 @@ class FileHelper implements FileInterface {
      * Delete a file.
      *
      * @param string $filename The filename.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
      */
     public static function delete($filename) {
@@ -207,7 +207,7 @@ class FileHelper implements FileInterface {
      *
      * @param string $oldFilename The old filename.
      * @param string $newFilename The new filename.
-     * @return boolean Returns true in case of success, false otherwise or null if the new filename already exists.
+     * @return bool Returns true in case of success, false otherwise or null if the new filename already exists.
      * @throws FileNotFoundException Throws a file not found exception if the file does not exists.
      */
     public static function rename($oldFilename, $newFilename) {
@@ -225,7 +225,7 @@ class FileHelper implements FileInterface {
      *
      * @param string $source The source filename.
      * @param string $destination The destination filename.
-     * @return boolean Returns true in case of success, false otherwise.
+     * @return bool Returns true in case of success, false otherwise.
      * @throws FileNotFoundException Throws a file not found exception if the source filename is not found.
      */
     public static function zip($source, $destination) {

@@ -38,7 +38,7 @@ class Authenticator {
     /**
      * Port.
      *
-     * @var integer
+     * @var int
      */
     private $port;
 

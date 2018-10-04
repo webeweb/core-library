@@ -24,7 +24,7 @@ trait SkiDataCustomerTrait {
     /**
      * Customer number.
      *
-     * @var integer
+     * @var int
      */
     private $customerNumber;
 
@@ -38,7 +38,7 @@ trait SkiDataCustomerTrait {
     /**
      * Deleted record.
      *
-     * @var boolean
+     * @var bool
      */
     private $deletedRecord;
 
@@ -66,7 +66,7 @@ trait SkiDataCustomerTrait {
     /**
      * Group counting.
      *
-     * @var boolean
+     * @var bool
      */
     private $groupCounting;
 
@@ -126,7 +126,7 @@ trait SkiDataCustomerTrait {
     /**
      * Get the deleted record.
      *
-     * @return boolean Returns the deleted record.
+     * @return bool Returns the deleted record.
      */
     public function getDeletedRecord() {
         return $this->deletedRecord;
@@ -162,7 +162,7 @@ trait SkiDataCustomerTrait {
     /**
      * Get the group counting.
      *
-     * @return boolean Returns the group counting.
+     * @return bool Returns the group counting.
      */
     public function getGroupCounting() {
         return $this->groupCounting;
@@ -236,7 +236,7 @@ trait SkiDataCustomerTrait {
     /**
      * Set the deleted record.
      *
-     * @param boolean $deletedRecord The deleted record.
+     * @param bool $deletedRecord The deleted record.
      */
     public function setDeletedRecord($deletedRecord) {
         $this->deletedRecord = $deletedRecord;
@@ -276,7 +276,7 @@ trait SkiDataCustomerTrait {
     /**
      * Set the group counting.
      *
-     * @param boolean $groupCounting The group counting.
+     * @param bool $groupCounting The group counting.
      */
     public function setGroupCounting($groupCounting) {
         $this->groupCounting = $groupCounting;
