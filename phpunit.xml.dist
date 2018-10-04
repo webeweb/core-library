@@ -15,6 +15,7 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
+                <directory>src/Network/FTP</directory>
                 <directory>src/Resources</directory>
                 <directory>tests</directory>
                 <directory>vendor</directory>
