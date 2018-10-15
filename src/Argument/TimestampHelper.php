@@ -25,6 +25,7 @@ class TimestampHelper {
      * Determines if a value is a timestamp.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws TimestampArgumentException Throws a Timestamp argument exception if the value is not of expected type.
      */
     public static function isTimestamp($value) {

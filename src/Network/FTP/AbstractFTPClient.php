@@ -78,7 +78,7 @@ abstract class AbstractFTPClient {
      * Set the authenticator.
      *
      * @param Authenticator $authenticator The authenticator.
-     * @returns AbstractFTPClient Returns this abstract FTP client.
+     * @returnAbstractFTPClient Returns this abstract FTP client.
      */
     protected function setAuthenticator(Authenticator $authenticator) {
         $this->authenticator = $authenticator;
@@ -89,7 +89,7 @@ abstract class AbstractFTPClient {
      * Set the connection.
      *
      * @param mixed $connection The connection.
-     * @returns AbstractFTPClient Returns this abstract FTP client.
+     * @returnAbstractFTPClient Returns this abstract FTP client.
      */
     protected function setConnection($connection) {
         $this->connection = $connection;

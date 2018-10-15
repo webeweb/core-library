@@ -25,6 +25,7 @@ class FloatHelper {
      * Determines if a value is a float.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws FloatArgumentException Throws a Float argument exception if the value is not of expected type.
      */
     public static function isFloat($value) {

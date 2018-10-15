@@ -37,6 +37,7 @@ class ArrayHelper {
      * Determines if a value is an array.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws ArrayArgumentException Throws an Array argument exception if the value is not of expected type.
      */
     public static function isArray($value) {
@@ -52,6 +53,7 @@ class ArrayHelper {
      * @param string $key The key.
      * @param mixed $value The value.
      * @param array $tests The tests.
+     * @return void
      */
     public static function set(array &$array, $key, $value, array $tests = []) {
         foreach ($tests as $current) {

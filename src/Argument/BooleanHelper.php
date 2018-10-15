@@ -25,6 +25,7 @@ class BooleanHelper {
      * Determines if a value is a boolean.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws BooleanArgumentException Throws a Boolean argument exception if the value is not of expected type.
      */
     public static function isBoolean($value) {

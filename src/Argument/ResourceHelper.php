@@ -25,6 +25,7 @@ class ResourceHelper {
      * Determines if a value is a resource.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws ResourceArgumentException Throws a Resource argument exception if the value is not of expected type.
      */
     public static function isResource($value) {

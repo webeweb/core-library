@@ -25,6 +25,7 @@ class NumberHelper {
      * Determines if a value is a number.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws NumberArgumentException Throws a Number argument exception if the value is not of expected type.
      */
     public static function isNumber($value) {

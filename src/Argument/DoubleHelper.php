@@ -26,6 +26,7 @@ class DoubleHelper {
      * Determines if a value is a double.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws DoubleArgumentException Throws a Double argument exception if the value is not of expected type.
      */
     public static function isDouble($value) {

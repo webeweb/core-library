@@ -50,6 +50,7 @@ class DateTimeHelper {
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
+     * @return void
      * @throws IllegalArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     protected static function compareZone(DateTime $a, DateTime $b) {
@@ -210,6 +211,7 @@ class DateTimeHelper {
      * Determines if a value is a date.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws DateArgumentException Throws a Date argument exception if the value is not of expected type.
      */
     public static function isDate($value) {

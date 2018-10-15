@@ -26,6 +26,7 @@ class StringHelper {
      * Determines if a value is a string.
      *
      * @param mixed $value The value.
+     * @return void
      * @throws StringArgumentException Throws a String argument exception if the value is not of expected type.
      */
     public static function isString($value) {

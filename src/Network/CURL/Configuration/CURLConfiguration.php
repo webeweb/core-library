@@ -328,6 +328,7 @@ class CURLConfiguration {
      * Remove an header.
      *
      * @param string $name The header name.
+     * @return void
      */
     public function removeHeader($name) {
         if (true === array_key_exists($name, $this->headers)) {

@@ -390,8 +390,8 @@ class SkiDataUser {
     /**
      * Set the passage with license plate permitted.
      *
-     * @return SkiDataUser Returns this user entity.
      * @param bool $passageLicensePlatePermitted The passage with license plate permitted.
+     * @return SkiDataUser Returns this user entity.
      */
     public function setPassageLicensePlatePermitted($passageLicensePlatePermitted) {
         $this->passageLicensePlatePermitted = $passageLicensePlatePermitted;

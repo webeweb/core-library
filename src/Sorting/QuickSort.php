@@ -137,6 +137,7 @@ class QuickSort {
      *
      * @param int $a The first value index.
      * @param int $b The second value index.
+     * @return void
      */
     private function swap($a, $b) {
         $value            = $this->values[$a];

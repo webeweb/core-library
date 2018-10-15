@@ -50,6 +50,7 @@ class IntegerHelper {
     /**
      * Determines if a value is an integer.
      *
+     * @return void
      * @param mixed $value The value.
      * @throws IntegerArgumentException Throws a Integer argument exception if the value is not of expected type.
      */

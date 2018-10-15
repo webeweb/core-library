@@ -69,7 +69,6 @@ class DirectoryHelper {
      * @param string $newDirname The new directory name.
      * @return bool Returns true in case of success, false otherwise or null if the new directory name already exists.
      * @throws FileNotFoundException Throws a file not found exception if the directory does not exists.
-     * @see FileHelper
      */
     public static function rename($oldDirname, $newDirname) {
         return FileHelper::rename($oldDirname, $newDirname);

@@ -32,6 +32,7 @@ class FileHelper implements FileInterface {
      * @param string $src The source filename.
      * @param string $dest The destination filename.
      * @param bool $newline New line ?
+     * @return void
      * @throws IOException Throws an I/O exception if an error occurs.
      */
     public static function appendTo($src, $dest, $newline = false) {
