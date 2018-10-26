@@ -6,6 +6,7 @@ checks:
 
 filter:
     excluded_paths:
+        - "src/Quadratus/Model/*"
         - "src/Resources/*"
         - "tests/*"
         - "vendor/*"
