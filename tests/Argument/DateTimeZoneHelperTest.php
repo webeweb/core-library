@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
- * @final
  */
-final class DateTimeZoneHelperTest extends AbstractFrameworkTestCase {
+class DateTimeZoneHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the equals() method.

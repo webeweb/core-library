@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
- * @final
  */
-final class ArgumentInterfaceTest extends AbstractFrameworkTestCase {
+class ArgumentInterfaceTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

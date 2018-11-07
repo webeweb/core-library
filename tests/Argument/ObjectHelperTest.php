@@ -25,9 +25,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
- * @final
  */
-final class ObjectHelperTest extends AbstractFrameworkTestCase {
+class ObjectHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getDirectory() method.

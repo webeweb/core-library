@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
- * @final
  */
-final class BooleanHelperTest extends AbstractFrameworkTestCase {
+class BooleanHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseString() method.

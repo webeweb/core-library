@@ -21,9 +21,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
- * @final
  */
-final class IntegerHelperTest extends AbstractFrameworkTestCase {
+class IntegerHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getLinesOffset() method.

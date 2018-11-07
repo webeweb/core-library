@@ -21,9 +21,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
- * @final
  */
-final class FloatHelperTest extends AbstractFrameworkTestCase {
+class FloatHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseString() method.
