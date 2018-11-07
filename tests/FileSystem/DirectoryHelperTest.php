@@ -21,9 +21,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\IO
- * @final
  */
-final class DirectoryHelperTest extends AbstractFrameworkTestCase {
+class DirectoryHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the create() method.
