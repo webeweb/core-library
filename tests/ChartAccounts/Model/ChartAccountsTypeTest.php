@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ChartAccounts\Model
- * @final
  */
-final class ChartAccountsTypeTest extends AbstractFrameworkTestCase {
+class ChartAccountsTypeTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
