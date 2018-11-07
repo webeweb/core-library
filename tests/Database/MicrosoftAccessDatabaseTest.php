@@ -20,9 +20,8 @@ use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Database
- * @final
  */
-final class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
+class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
 
     /**
      * Tests the __construct method.

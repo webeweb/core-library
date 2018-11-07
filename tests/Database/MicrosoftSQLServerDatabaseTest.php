@@ -20,9 +20,8 @@ use WBW\Library\Core\Database\MicrosoftSQLServerDatabase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Database
- * @final
  */
-final class MicrosoftSQLServerDatabaseTest extends AbstractDatabaseTest {
+class MicrosoftSQLServerDatabaseTest extends AbstractDatabaseTest {
 
     /**
      * Tests the __construct method.

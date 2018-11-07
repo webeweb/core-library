@@ -20,9 +20,8 @@ use WBW\Library\Core\Database\OracleMySQLDatabase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Database
- * @final
  */
-final class OracleMySQLDatabaseTest extends AbstractDatabaseTest {
+class OracleMySQLDatabaseTest extends AbstractDatabaseTest {
 
     /**
      * Tests the __construct method.

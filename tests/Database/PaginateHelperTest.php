@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Database
- * @final
  */
-final class PaginateHelperTest extends AbstractFrameworkTestCase {
+class PaginateHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getPageOffsetAndLimit() method.
