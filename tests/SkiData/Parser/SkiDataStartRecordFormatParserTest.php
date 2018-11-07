@@ -23,9 +23,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\SkiData\Parser
- * @final
  */
-final class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
+class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

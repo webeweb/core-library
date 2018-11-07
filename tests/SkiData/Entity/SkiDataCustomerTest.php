@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\SkiData\Entity
- * @final
  */
-final class SkiDataCustomerTest extends AbstractFrameworkTestCase {
+class SkiDataCustomerTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

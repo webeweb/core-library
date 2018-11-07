@@ -21,9 +21,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\SkiData\Parser
- * @final
  */
-final class SkidDataUserParserTest extends AbstractFrameworkTestCase {
+class SkidDataUserParserTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseEntity() method.
