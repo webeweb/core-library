@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Algorithm
- * @final
  */
-final class LuhnAlgorithmTest extends AbstractFrameworkTestCase {
+class LuhnAlgorithmTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the check() method.
