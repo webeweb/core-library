@@ -19,9 +19,8 @@ use WBW\Library\Core\Validation\Status\DefaultValidationStatus;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Fixtures\Validation\Rule
- * @final
  */
-final class TestValidationRule extends AbstractValidationRule {
+class TestValidationRule extends AbstractValidationRule {
 
     /**
      * Constructor.

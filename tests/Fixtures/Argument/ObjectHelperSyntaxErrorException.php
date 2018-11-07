@@ -16,6 +16,5 @@ namespace WBW\Library\Core\Tests\Fixtures\Argument;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Fixtures\Argument
- * @final
  */
-final class ObjectHelperSyntaxErrorException {
+class ObjectHelperSyntaxErrorException {

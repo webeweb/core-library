@@ -18,9 +18,8 @@ use WBW\Library\Core\Sorting\FunctorInterface;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Fixtures\Sorting
- * @final
  */
-final class TestIntegerFunctor implements FunctorInterface {
+class TestIntegerFunctor implements FunctorInterface {
 
     /**
      * {@inheritdoc}

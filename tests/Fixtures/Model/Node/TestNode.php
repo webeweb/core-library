@@ -18,9 +18,8 @@ use WBW\Library\Core\Model\Node\AbstractNode;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Fixtures\Model\Node
- * @final
  */
-final class TestNode extends AbstractNode {
+class TestNode extends AbstractNode {
 
     /**
      * Constructor.

@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Fixtures
  */
-final class TestFixtures {
+class TestFixtures {
 
     /**
      * Get the TestNode fixtures.
