@@ -23,141 +23,141 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HeuresAbsenceTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$this->assertNull($obj->getAbsenceAu());
-		$this->assertNull($obj->getAbsenceDu());
-		$this->assertNull($obj->getDateJour());
-		$this->assertNull($obj->getNbHAReintegrer());
-		$this->assertNull($obj->getNbHNonEffectue());
-		$this->assertNull($obj->getNbHRetenueSalaire());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getTransfere());
-		$this->assertNull($obj->getTypeAbsence());
-	}
+        $this->assertNull($obj->getAbsenceAu());
+        $this->assertNull($obj->getAbsenceDu());
+        $this->assertNull($obj->getDateJour());
+        $this->assertNull($obj->getNbHAReintegrer());
+        $this->assertNull($obj->getNbHNonEffectue());
+        $this->assertNull($obj->getNbHRetenueSalaire());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTransfere());
+        $this->assertNull($obj->getTypeAbsence());
+    }
 
-	/**
-	 * Tests the setAbsenceAu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAbsenceAu() {
+    /**
+     * Tests the setAbsenceAu() method.
+     *
+     * @return void
+     */
+    public function testSetAbsenceAu() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setAbsenceAu(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getAbsenceAu());
-	}
+        $obj->setAbsenceAu(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getAbsenceAu());
+    }
 
-	/**
-	 * Tests the setAbsenceDu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAbsenceDu() {
+    /**
+     * Tests the setAbsenceDu() method.
+     *
+     * @return void
+     */
+    public function testSetAbsenceDu() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setAbsenceDu(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getAbsenceDu());
-	}
+        $obj->setAbsenceDu(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getAbsenceDu());
+    }
 
-	/**
-	 * Tests the setDateJour() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateJour() {
+    /**
+     * Tests the setDateJour() method.
+     *
+     * @return void
+     */
+    public function testSetDateJour() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setDateJour(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateJour());
-	}
+        $obj->setDateJour(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateJour());
+    }
 
-	/**
-	 * Tests the setNbHAReintegrer() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHAReintegrer() {
+    /**
+     * Tests the setNbHAReintegrer() method.
+     *
+     * @return void
+     */
+    public function testSetNbHAReintegrer() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setNbHAReintegrer(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHAReintegrer());
-	}
+        $obj->setNbHAReintegrer(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHAReintegrer());
+    }
 
-	/**
-	 * Tests the setNbHNonEffectue() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHNonEffectue() {
+    /**
+     * Tests the setNbHNonEffectue() method.
+     *
+     * @return void
+     */
+    public function testSetNbHNonEffectue() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setNbHNonEffectue(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHNonEffectue());
-	}
+        $obj->setNbHNonEffectue(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHNonEffectue());
+    }
 
-	/**
-	 * Tests the setNbHRetenueSalaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHRetenueSalaire() {
+    /**
+     * Tests the setNbHRetenueSalaire() method.
+     *
+     * @return void
+     */
+    public function testSetNbHRetenueSalaire() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setNbHRetenueSalaire(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHRetenueSalaire());
-	}
+        $obj->setNbHRetenueSalaire(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHRetenueSalaire());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setTransfere() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTransfere() {
+    /**
+     * Tests the setTransfere() method.
+     *
+     * @return void
+     */
+    public function testSetTransfere() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setTransfere("transfere");
-		$this->assertEquals("transfere", $obj->getTransfere());
-	}
+        $obj->setTransfere("transfere");
+        $this->assertEquals("transfere", $obj->getTransfere());
+    }
 
-	/**
-	 * Tests the setTypeAbsence() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeAbsence() {
+    /**
+     * Tests the setTypeAbsence() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAbsence() {
 
-		$obj = new HeuresAbsence();
+        $obj = new HeuresAbsence();
 
-		$obj->setTypeAbsence("typeAbsence");
-		$this->assertEquals("typeAbsence", $obj->getTypeAbsence());
-	}
+        $obj->setTypeAbsence("typeAbsence");
+        $this->assertEquals("typeAbsence", $obj->getTypeAbsence());
+    }
 
 }

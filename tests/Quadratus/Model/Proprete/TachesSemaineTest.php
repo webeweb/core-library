@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class TachesSemaineTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new TachesSemaine();
+        $obj = new TachesSemaine();
 
-		$this->assertNull($obj->getAutoIncr());
-		$this->assertNull($obj->getCodeSemaineTache());
-		$this->assertNull($obj->getDiscrTache());
-	}
+        $this->assertNull($obj->getAutoIncr());
+        $this->assertNull($obj->getCodeSemaineTache());
+        $this->assertNull($obj->getDiscrTache());
+    }
 
-	/**
-	 * Tests the setAutoIncr() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAutoIncr() {
+    /**
+     * Tests the setAutoIncr() method.
+     *
+     * @return void
+     */
+    public function testSetAutoIncr() {
 
-		$obj = new TachesSemaine();
+        $obj = new TachesSemaine();
 
-		$obj->setAutoIncr(10);
-		$this->assertEquals(10, $obj->getAutoIncr());
-	}
+        $obj->setAutoIncr(10);
+        $this->assertEquals(10, $obj->getAutoIncr());
+    }
 
-	/**
-	 * Tests the setCodeSemaineTache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeSemaineTache() {
+    /**
+     * Tests the setCodeSemaineTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeSemaineTache() {
 
-		$obj = new TachesSemaine();
+        $obj = new TachesSemaine();
 
-		$obj->setCodeSemaineTache("codeSemaineTache");
-		$this->assertEquals("codeSemaineTache", $obj->getCodeSemaineTache());
-	}
+        $obj->setCodeSemaineTache("codeSemaineTache");
+        $this->assertEquals("codeSemaineTache", $obj->getCodeSemaineTache());
+    }
 
-	/**
-	 * Tests the setDiscrTache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDiscrTache() {
+    /**
+     * Tests the setDiscrTache() method.
+     *
+     * @return void
+     */
+    public function testSetDiscrTache() {
 
-		$obj = new TachesSemaine();
+        $obj = new TachesSemaine();
 
-		$obj->setDiscrTache(10);
-		$this->assertEquals(10, $obj->getDiscrTache());
-	}
+        $obj->setDiscrTache(10);
+        $this->assertEquals(10, $obj->getDiscrTache());
+    }
 
 }

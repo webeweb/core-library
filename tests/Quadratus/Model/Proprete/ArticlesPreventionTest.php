@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ArticlesPreventionTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ArticlesPrevention();
+        $obj = new ArticlesPrevention();
 
-		$this->assertNull($obj->getCodeArticle());
-		$this->assertNull($obj->getCodePrev());
-	}
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodePrev());
+    }
 
-	/**
-	 * Tests the setCodeArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeArticle() {
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
 
-		$obj = new ArticlesPrevention();
+        $obj = new ArticlesPrevention();
 
-		$obj->setCodeArticle("codeArticle");
-		$this->assertEquals("codeArticle", $obj->getCodeArticle());
-	}
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
 
-	/**
-	 * Tests the setCodePrev() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePrev() {
+    /**
+     * Tests the setCodePrev() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrev() {
 
-		$obj = new ArticlesPrevention();
+        $obj = new ArticlesPrevention();
 
-		$obj->setCodePrev("codePrev");
-		$this->assertEquals("codePrev", $obj->getCodePrev());
-	}
+        $obj->setCodePrev("codePrev");
+        $this->assertEquals("codePrev", $obj->getCodePrev());
+    }
 
 }

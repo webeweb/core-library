@@ -21,146 +21,146 @@ use DateTime;
  */
 class ChantiersPeriodesFermeture {
 
-	/**
-	 * Code affaire.
-	 *
-	 * @var string
-	 */
-	private $codeAffaire;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
 
-	/**
-	 * Code chantier.
-	 *
-	 * @var string
-	 */
-	private $codeChantier;
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
 
-	/**
-	 * Code client.
-	 *
-	 * @var string
-	 */
-	private $codeClient;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
 
-	/**
-	 * Date au.
-	 *
-	 * @var DateTime
-	 */
-	private $dateAu;
+    /**
+     * Date au.
+     *
+     * @var DateTime
+     */
+    private $dateAu;
 
-	/**
-	 * Date du.
-	 *
-	 * @var DateTime
-	 */
-	private $dateDu;
+    /**
+     * Date du.
+     *
+     * @var DateTime
+     */
+    private $dateDu;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code affaire.
-	 *
-	 * @return string Returns the code affaire.
-	 */
-	public function getCodeAffaire() {
-		return $this->codeAffaire;
-	}
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
 
-	/**
-	 * Get the code chantier.
-	 *
-	 * @return string Returns the code chantier.
-	 */
-	public function getCodeChantier() {
-		return $this->codeChantier;
-	}
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
 
-	/**
-	 * Get the code client.
-	 *
-	 * @return string Returns the code client.
-	 */
-	public function getCodeClient() {
-		return $this->codeClient;
-	}
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
 
-	/**
-	 * Get the date au.
-	 *
-	 * @return DateTime Returns the date au.
-	 */
-	public function getDateAu() {
-		return $this->dateAu;
-	}
+    /**
+     * Get the date au.
+     *
+     * @return DateTime Returns the date au.
+     */
+    public function getDateAu() {
+        return $this->dateAu;
+    }
 
-	/**
-	 * Get the date du.
-	 *
-	 * @return DateTime Returns the date du.
-	 */
-	public function getDateDu() {
-		return $this->dateDu;
-	}
+    /**
+     * Get the date du.
+     *
+     * @return DateTime Returns the date du.
+     */
+    public function getDateDu() {
+        return $this->dateDu;
+    }
 
-	/**
-	 * Set the code affaire.
-	 *
-	 * @param string $codeAffaire The code affaire.
-	 * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
-	 */
-	public function setCodeAffaire($codeAffaire) {
-		$this->codeAffaire = $codeAffaire;
-		return $this;
-	}
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
 
-	/**
-	 * Set the code chantier.
-	 *
-	 * @param string $codeChantier The code chantier.
-	 * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
-	 */
-	public function setCodeChantier($codeChantier) {
-		$this->codeChantier = $codeChantier;
-		return $this;
-	}
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
 
-	/**
-	 * Set the code client.
-	 *
-	 * @param string $codeClient The code client.
-	 * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
-	 */
-	public function setCodeClient($codeClient) {
-		$this->codeClient = $codeClient;
-		return $this;
-	}
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
 
-	/**
-	 * Set the date au.
-	 *
-	 * @param DateTime $dateAu The date au.
-	 * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
-	 */
-	public function setDateAu(DateTime $dateAu = null) {
-		$this->dateAu = $dateAu;
-		return $this;
-	}
+    /**
+     * Set the date au.
+     *
+     * @param DateTime $dateAu The date au.
+     * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
+     */
+    public function setDateAu(DateTime $dateAu = null) {
+        $this->dateAu = $dateAu;
+        return $this;
+    }
 
-	/**
-	 * Set the date du.
-	 *
-	 * @param DateTime $dateDu The date du.
-	 * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
-	 */
-	public function setDateDu(DateTime $dateDu = null) {
-		$this->dateDu = $dateDu;
-		return $this;
-	}
+    /**
+     * Set the date du.
+     *
+     * @param DateTime $dateDu The date du.
+     * @return ChantiersPeriodesFermeture Returns this chantiers periodes fermeture.
+     */
+    public function setDateDu(DateTime $dateDu = null) {
+        $this->dateDu = $dateDu;
+        return $this;
+    }
 
 }

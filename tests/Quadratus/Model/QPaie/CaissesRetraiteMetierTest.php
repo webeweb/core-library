@@ -22,281 +22,281 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CaissesRetraiteMetierTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$this->assertNull($obj->getCategSalarie());
-		$this->assertNull($obj->getCategSalarieEquiv());
-		$this->assertNull($obj->getCodeActivite());
-		$this->assertNull($obj->getCodeMetier());
-		$this->assertNull($obj->getCodeOrganismeAgirc());
-		$this->assertNull($obj->getCodeOrganismeArrco());
-		$this->assertNull($obj->getCodeOrganismeCCCA());
-		$this->assertNull($obj->getCodeOrganismeFraisSante());
-		$this->assertNull($obj->getCodeOrganismePrev());
-		$this->assertNull($obj->getCodeOrganismePrevComp());
-		$this->assertNull($obj->getIdInstitutionAgirc());
-		$this->assertNull($obj->getIdInstitutionArrco());
-		$this->assertNull($obj->getIdInstitutionCCCA());
-		$this->assertNull($obj->getIdInstitutionFraisSante());
-		$this->assertNull($obj->getIdInstitutionPrev());
-		$this->assertNull($obj->getIdInstitutionPrevComp());
-		$this->assertNull($obj->getIndiceCateg());
-		$this->assertNull($obj->getIntitule());
-		$this->assertNull($obj->getPasActive());
-	}
+        $this->assertNull($obj->getCategSalarie());
+        $this->assertNull($obj->getCategSalarieEquiv());
+        $this->assertNull($obj->getCodeActivite());
+        $this->assertNull($obj->getCodeMetier());
+        $this->assertNull($obj->getCodeOrganismeAgirc());
+        $this->assertNull($obj->getCodeOrganismeArrco());
+        $this->assertNull($obj->getCodeOrganismeCCCA());
+        $this->assertNull($obj->getCodeOrganismeFraisSante());
+        $this->assertNull($obj->getCodeOrganismePrev());
+        $this->assertNull($obj->getCodeOrganismePrevComp());
+        $this->assertNull($obj->getIdInstitutionAgirc());
+        $this->assertNull($obj->getIdInstitutionArrco());
+        $this->assertNull($obj->getIdInstitutionCCCA());
+        $this->assertNull($obj->getIdInstitutionFraisSante());
+        $this->assertNull($obj->getIdInstitutionPrev());
+        $this->assertNull($obj->getIdInstitutionPrevComp());
+        $this->assertNull($obj->getIndiceCateg());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getPasActive());
+    }
 
-	/**
-	 * Tests the setCategSalarie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCategSalarie() {
+    /**
+     * Tests the setCategSalarie() method.
+     *
+     * @return void
+     */
+    public function testSetCategSalarie() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCategSalarie(10);
-		$this->assertEquals(10, $obj->getCategSalarie());
-	}
+        $obj->setCategSalarie(10);
+        $this->assertEquals(10, $obj->getCategSalarie());
+    }
 
-	/**
-	 * Tests the setCategSalarieEquiv() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCategSalarieEquiv() {
+    /**
+     * Tests the setCategSalarieEquiv() method.
+     *
+     * @return void
+     */
+    public function testSetCategSalarieEquiv() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCategSalarieEquiv("categSalarieEquiv");
-		$this->assertEquals("categSalarieEquiv", $obj->getCategSalarieEquiv());
-	}
+        $obj->setCategSalarieEquiv("categSalarieEquiv");
+        $this->assertEquals("categSalarieEquiv", $obj->getCategSalarieEquiv());
+    }
 
-	/**
-	 * Tests the setCodeActivite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeActivite() {
+    /**
+     * Tests the setCodeActivite() method.
+     *
+     * @return void
+     */
+    public function testSetCodeActivite() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCodeActivite("codeActivite");
-		$this->assertEquals("codeActivite", $obj->getCodeActivite());
-	}
+        $obj->setCodeActivite("codeActivite");
+        $this->assertEquals("codeActivite", $obj->getCodeActivite());
+    }
 
-	/**
-	 * Tests the setCodeMetier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeMetier() {
+    /**
+     * Tests the setCodeMetier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeMetier() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCodeMetier("codeMetier");
-		$this->assertEquals("codeMetier", $obj->getCodeMetier());
-	}
+        $obj->setCodeMetier("codeMetier");
+        $this->assertEquals("codeMetier", $obj->getCodeMetier());
+    }
 
-	/**
-	 * Tests the setCodeOrganismeAgirc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganismeAgirc() {
+    /**
+     * Tests the setCodeOrganismeAgirc() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganismeAgirc() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCodeOrganismeAgirc("codeOrganismeAgirc");
-		$this->assertEquals("codeOrganismeAgirc", $obj->getCodeOrganismeAgirc());
-	}
+        $obj->setCodeOrganismeAgirc("codeOrganismeAgirc");
+        $this->assertEquals("codeOrganismeAgirc", $obj->getCodeOrganismeAgirc());
+    }
 
-	/**
-	 * Tests the setCodeOrganismeArrco() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganismeArrco() {
+    /**
+     * Tests the setCodeOrganismeArrco() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganismeArrco() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCodeOrganismeArrco("codeOrganismeArrco");
-		$this->assertEquals("codeOrganismeArrco", $obj->getCodeOrganismeArrco());
-	}
+        $obj->setCodeOrganismeArrco("codeOrganismeArrco");
+        $this->assertEquals("codeOrganismeArrco", $obj->getCodeOrganismeArrco());
+    }
 
-	/**
-	 * Tests the setCodeOrganismeCCCA() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganismeCCCA() {
+    /**
+     * Tests the setCodeOrganismeCCCA() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganismeCCCA() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCodeOrganismeCCCA("codeOrganismeCCCA");
-		$this->assertEquals("codeOrganismeCCCA", $obj->getCodeOrganismeCCCA());
-	}
+        $obj->setCodeOrganismeCCCA("codeOrganismeCCCA");
+        $this->assertEquals("codeOrganismeCCCA", $obj->getCodeOrganismeCCCA());
+    }
 
-	/**
-	 * Tests the setCodeOrganismeFraisSante() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganismeFraisSante() {
+    /**
+     * Tests the setCodeOrganismeFraisSante() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganismeFraisSante() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCodeOrganismeFraisSante("codeOrganismeFraisSante");
-		$this->assertEquals("codeOrganismeFraisSante", $obj->getCodeOrganismeFraisSante());
-	}
+        $obj->setCodeOrganismeFraisSante("codeOrganismeFraisSante");
+        $this->assertEquals("codeOrganismeFraisSante", $obj->getCodeOrganismeFraisSante());
+    }
 
-	/**
-	 * Tests the setCodeOrganismePrev() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganismePrev() {
+    /**
+     * Tests the setCodeOrganismePrev() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganismePrev() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCodeOrganismePrev("codeOrganismePrev");
-		$this->assertEquals("codeOrganismePrev", $obj->getCodeOrganismePrev());
-	}
+        $obj->setCodeOrganismePrev("codeOrganismePrev");
+        $this->assertEquals("codeOrganismePrev", $obj->getCodeOrganismePrev());
+    }
 
-	/**
-	 * Tests the setCodeOrganismePrevComp() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganismePrevComp() {
+    /**
+     * Tests the setCodeOrganismePrevComp() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganismePrevComp() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setCodeOrganismePrevComp("codeOrganismePrevComp");
-		$this->assertEquals("codeOrganismePrevComp", $obj->getCodeOrganismePrevComp());
-	}
+        $obj->setCodeOrganismePrevComp("codeOrganismePrevComp");
+        $this->assertEquals("codeOrganismePrevComp", $obj->getCodeOrganismePrevComp());
+    }
 
-	/**
-	 * Tests the setIdInstitutionAgirc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIdInstitutionAgirc() {
+    /**
+     * Tests the setIdInstitutionAgirc() method.
+     *
+     * @return void
+     */
+    public function testSetIdInstitutionAgirc() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setIdInstitutionAgirc("idInstitutionAgirc");
-		$this->assertEquals("idInstitutionAgirc", $obj->getIdInstitutionAgirc());
-	}
+        $obj->setIdInstitutionAgirc("idInstitutionAgirc");
+        $this->assertEquals("idInstitutionAgirc", $obj->getIdInstitutionAgirc());
+    }
 
-	/**
-	 * Tests the setIdInstitutionArrco() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIdInstitutionArrco() {
+    /**
+     * Tests the setIdInstitutionArrco() method.
+     *
+     * @return void
+     */
+    public function testSetIdInstitutionArrco() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setIdInstitutionArrco("idInstitutionArrco");
-		$this->assertEquals("idInstitutionArrco", $obj->getIdInstitutionArrco());
-	}
+        $obj->setIdInstitutionArrco("idInstitutionArrco");
+        $this->assertEquals("idInstitutionArrco", $obj->getIdInstitutionArrco());
+    }
 
-	/**
-	 * Tests the setIdInstitutionCCCA() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIdInstitutionCCCA() {
+    /**
+     * Tests the setIdInstitutionCCCA() method.
+     *
+     * @return void
+     */
+    public function testSetIdInstitutionCCCA() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setIdInstitutionCCCA("idInstitutionCCCA");
-		$this->assertEquals("idInstitutionCCCA", $obj->getIdInstitutionCCCA());
-	}
+        $obj->setIdInstitutionCCCA("idInstitutionCCCA");
+        $this->assertEquals("idInstitutionCCCA", $obj->getIdInstitutionCCCA());
+    }
 
-	/**
-	 * Tests the setIdInstitutionFraisSante() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIdInstitutionFraisSante() {
+    /**
+     * Tests the setIdInstitutionFraisSante() method.
+     *
+     * @return void
+     */
+    public function testSetIdInstitutionFraisSante() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setIdInstitutionFraisSante("idInstitutionFraisSante");
-		$this->assertEquals("idInstitutionFraisSante", $obj->getIdInstitutionFraisSante());
-	}
+        $obj->setIdInstitutionFraisSante("idInstitutionFraisSante");
+        $this->assertEquals("idInstitutionFraisSante", $obj->getIdInstitutionFraisSante());
+    }
 
-	/**
-	 * Tests the setIdInstitutionPrev() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIdInstitutionPrev() {
+    /**
+     * Tests the setIdInstitutionPrev() method.
+     *
+     * @return void
+     */
+    public function testSetIdInstitutionPrev() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setIdInstitutionPrev("idInstitutionPrev");
-		$this->assertEquals("idInstitutionPrev", $obj->getIdInstitutionPrev());
-	}
+        $obj->setIdInstitutionPrev("idInstitutionPrev");
+        $this->assertEquals("idInstitutionPrev", $obj->getIdInstitutionPrev());
+    }
 
-	/**
-	 * Tests the setIdInstitutionPrevComp() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIdInstitutionPrevComp() {
+    /**
+     * Tests the setIdInstitutionPrevComp() method.
+     *
+     * @return void
+     */
+    public function testSetIdInstitutionPrevComp() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setIdInstitutionPrevComp("idInstitutionPrevComp");
-		$this->assertEquals("idInstitutionPrevComp", $obj->getIdInstitutionPrevComp());
-	}
+        $obj->setIdInstitutionPrevComp("idInstitutionPrevComp");
+        $this->assertEquals("idInstitutionPrevComp", $obj->getIdInstitutionPrevComp());
+    }
 
-	/**
-	 * Tests the setIndiceCateg() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndiceCateg() {
+    /**
+     * Tests the setIndiceCateg() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceCateg() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setIndiceCateg(10);
-		$this->assertEquals(10, $obj->getIndiceCateg());
-	}
+        $obj->setIndiceCateg(10);
+        $this->assertEquals(10, $obj->getIndiceCateg());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setPasActive() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPasActive() {
+    /**
+     * Tests the setPasActive() method.
+     *
+     * @return void
+     */
+    public function testSetPasActive() {
 
-		$obj = new CaissesRetraiteMetier();
+        $obj = new CaissesRetraiteMetier();
 
-		$obj->setPasActive(true);
-		$this->assertEquals(true, $obj->getPasActive());
-	}
+        $obj->setPasActive(true);
+        $this->assertEquals(true, $obj->getPasActive());
+    }
 
 }

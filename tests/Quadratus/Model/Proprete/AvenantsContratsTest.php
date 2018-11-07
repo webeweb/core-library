@@ -23,169 +23,169 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AvenantsContratsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$this->assertNull($obj->getChrono());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getDateAvenant());
-		$this->assertNull($obj->getLienDocument());
-		$this->assertNull($obj->getNumAvenantSaisi());
-		$this->assertNull($obj->getNumeroAvenant());
-		$this->assertNull($obj->getObservation());
-		$this->assertNull($obj->getPeriodeAvenant());
-		$this->assertNull($obj->getSignatureEmploye());
-		$this->assertNull($obj->getTypeAvenant());
-		$this->assertNull($obj->getTypeDocument());
-	}
+        $this->assertNull($obj->getChrono());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateAvenant());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNumAvenantSaisi());
+        $this->assertNull($obj->getNumeroAvenant());
+        $this->assertNull($obj->getObservation());
+        $this->assertNull($obj->getPeriodeAvenant());
+        $this->assertNull($obj->getSignatureEmploye());
+        $this->assertNull($obj->getTypeAvenant());
+        $this->assertNull($obj->getTypeDocument());
+    }
 
-	/**
-	 * Tests the setChrono() method.
-	 *
-	 * @return void
-	 */
-	public function testSetChrono() {
+    /**
+     * Tests the setChrono() method.
+     *
+     * @return void
+     */
+    public function testSetChrono() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setChrono("chrono");
-		$this->assertEquals("chrono", $obj->getChrono());
-	}
+        $obj->setChrono("chrono");
+        $this->assertEquals("chrono", $obj->getChrono());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setDateAvenant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateAvenant() {
+    /**
+     * Tests the setDateAvenant() method.
+     *
+     * @return void
+     */
+    public function testSetDateAvenant() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setDateAvenant(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAvenant());
-	}
+        $obj->setDateAvenant(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAvenant());
+    }
 
-	/**
-	 * Tests the setLienDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLienDocument() {
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setLienDocument("lienDocument");
-		$this->assertEquals("lienDocument", $obj->getLienDocument());
-	}
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
 
-	/**
-	 * Tests the setNumAvenantSaisi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumAvenantSaisi() {
+    /**
+     * Tests the setNumAvenantSaisi() method.
+     *
+     * @return void
+     */
+    public function testSetNumAvenantSaisi() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setNumAvenantSaisi(10);
-		$this->assertEquals(10, $obj->getNumAvenantSaisi());
-	}
+        $obj->setNumAvenantSaisi(10);
+        $this->assertEquals(10, $obj->getNumAvenantSaisi());
+    }
 
-	/**
-	 * Tests the setNumeroAvenant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroAvenant() {
+    /**
+     * Tests the setNumeroAvenant() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAvenant() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setNumeroAvenant(10);
-		$this->assertEquals(10, $obj->getNumeroAvenant());
-	}
+        $obj->setNumeroAvenant(10);
+        $this->assertEquals(10, $obj->getNumeroAvenant());
+    }
 
-	/**
-	 * Tests the setObservation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetObservation() {
+    /**
+     * Tests the setObservation() method.
+     *
+     * @return void
+     */
+    public function testSetObservation() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setObservation("observation");
-		$this->assertEquals("observation", $obj->getObservation());
-	}
+        $obj->setObservation("observation");
+        $this->assertEquals("observation", $obj->getObservation());
+    }
 
-	/**
-	 * Tests the setPeriodeAvenant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeAvenant() {
+    /**
+     * Tests the setPeriodeAvenant() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeAvenant() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setPeriodeAvenant(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeAvenant());
-	}
+        $obj->setPeriodeAvenant(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeAvenant());
+    }
 
-	/**
-	 * Tests the setSignatureEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSignatureEmploye() {
+    /**
+     * Tests the setSignatureEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureEmploye() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setSignatureEmploye(true);
-		$this->assertEquals(true, $obj->getSignatureEmploye());
-	}
+        $obj->setSignatureEmploye(true);
+        $this->assertEquals(true, $obj->getSignatureEmploye());
+    }
 
-	/**
-	 * Tests the setTypeAvenant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeAvenant() {
+    /**
+     * Tests the setTypeAvenant() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAvenant() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setTypeAvenant("typeAvenant");
-		$this->assertEquals("typeAvenant", $obj->getTypeAvenant());
-	}
+        $obj->setTypeAvenant("typeAvenant");
+        $this->assertEquals("typeAvenant", $obj->getTypeAvenant());
+    }
 
-	/**
-	 * Tests the setTypeDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeDocument() {
+    /**
+     * Tests the setTypeDocument() method.
+     *
+     * @return void
+     */
+    public function testSetTypeDocument() {
 
-		$obj = new AvenantsContrats();
+        $obj = new AvenantsContrats();
 
-		$obj->setTypeDocument("typeDocument");
-		$this->assertEquals("typeDocument", $obj->getTypeDocument());
-	}
+        $obj->setTypeDocument("typeDocument");
+        $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
 
 }

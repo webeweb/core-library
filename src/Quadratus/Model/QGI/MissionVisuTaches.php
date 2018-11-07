@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Mission visu taches model.
  *
@@ -20,92 +19,92 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class MissionVisuTaches {
 
-	/**
-	 * Code mission.
-	 *
-	 * @var string
-	 */
-	private $codeMission;
+    /**
+     * Code mission.
+     *
+     * @var string
+     */
+    private $codeMission;
 
-	/**
-	 * Code tache visu.
-	 *
-	 * @var string
-	 */
-	private $codeTacheVisu;
+    /**
+     * Code tache visu.
+     *
+     * @var string
+     */
+    private $codeTacheVisu;
 
-	/**
-	 * Is regroupement.
-	 *
-	 * @var boolean
-	 */
-	private $isRegroupement;
+    /**
+     * Is regroupement.
+     *
+     * @var boolean
+     */
+    private $isRegroupement;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code mission.
-	 *
-	 * @return string Returns the code mission.
-	 */
-	public function getCodeMission() {
-		return $this->codeMission;
-	}
+    /**
+     * Get the code mission.
+     *
+     * @return string Returns the code mission.
+     */
+    public function getCodeMission() {
+        return $this->codeMission;
+    }
 
-	/**
-	 * Get the code tache visu.
-	 *
-	 * @return string Returns the code tache visu.
-	 */
-	public function getCodeTacheVisu() {
-		return $this->codeTacheVisu;
-	}
+    /**
+     * Get the code tache visu.
+     *
+     * @return string Returns the code tache visu.
+     */
+    public function getCodeTacheVisu() {
+        return $this->codeTacheVisu;
+    }
 
-	/**
-	 * Get the is regroupement.
-	 *
-	 * @return boolean Returns the is regroupement.
-	 */
-	public function getIsRegroupement() {
-		return $this->isRegroupement;
-	}
+    /**
+     * Get the is regroupement.
+     *
+     * @return boolean Returns the is regroupement.
+     */
+    public function getIsRegroupement() {
+        return $this->isRegroupement;
+    }
 
-	/**
-	 * Set the code mission.
-	 *
-	 * @param string $codeMission The code mission.
-	 * @return MissionVisuTaches Returns this mission visu taches.
-	 */
-	public function setCodeMission($codeMission) {
-		$this->codeMission = $codeMission;
-		return $this;
-	}
+    /**
+     * Set the code mission.
+     *
+     * @param string $codeMission The code mission.
+     * @return MissionVisuTaches Returns this mission visu taches.
+     */
+    public function setCodeMission($codeMission) {
+        $this->codeMission = $codeMission;
+        return $this;
+    }
 
-	/**
-	 * Set the code tache visu.
-	 *
-	 * @param string $codeTacheVisu The code tache visu.
-	 * @return MissionVisuTaches Returns this mission visu taches.
-	 */
-	public function setCodeTacheVisu($codeTacheVisu) {
-		$this->codeTacheVisu = $codeTacheVisu;
-		return $this;
-	}
+    /**
+     * Set the code tache visu.
+     *
+     * @param string $codeTacheVisu The code tache visu.
+     * @return MissionVisuTaches Returns this mission visu taches.
+     */
+    public function setCodeTacheVisu($codeTacheVisu) {
+        $this->codeTacheVisu = $codeTacheVisu;
+        return $this;
+    }
 
-	/**
-	 * Set the is regroupement.
-	 *
-	 * @param boolean $isRegroupement The is regroupement.
-	 * @return MissionVisuTaches Returns this mission visu taches.
-	 */
-	public function setIsRegroupement($isRegroupement) {
-		$this->isRegroupement = $isRegroupement;
-		return $this;
-	}
+    /**
+     * Set the is regroupement.
+     *
+     * @param boolean $isRegroupement The is regroupement.
+     * @return MissionVisuTaches Returns this mission visu taches.
+     */
+    public function setIsRegroupement($isRegroupement) {
+        $this->isRegroupement = $isRegroupement;
+        return $this;
+    }
 
 }

@@ -23,155 +23,155 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ActionsCo_DocsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$this->assertNull($obj->getAuteur());
-		$this->assertNull($obj->getCodeAction());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeDoc());
-		$this->assertNull($obj->getCodeManif());
-		$this->assertNull($obj->getDateCreation());
-		$this->assertNull($obj->getDateModification());
-		$this->assertNull($obj->getEmplacementFichier());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getNumero());
-	}
+        $this->assertNull($obj->getAuteur());
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeDoc());
+        $this->assertNull($obj->getCodeManif());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getEmplacementFichier());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumero());
+    }
 
-	/**
-	 * Tests the setAuteur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAuteur() {
+    /**
+     * Tests the setAuteur() method.
+     *
+     * @return void
+     */
+    public function testSetAuteur() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setAuteur("auteur");
-		$this->assertEquals("auteur", $obj->getAuteur());
-	}
+        $obj->setAuteur("auteur");
+        $this->assertEquals("auteur", $obj->getAuteur());
+    }
 
-	/**
-	 * Tests the setCodeAction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAction() {
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setCodeAction("codeAction");
-		$this->assertEquals("codeAction", $obj->getCodeAction());
-	}
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeDoc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeDoc() {
+    /**
+     * Tests the setCodeDoc() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDoc() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setCodeDoc("codeDoc");
-		$this->assertEquals("codeDoc", $obj->getCodeDoc());
-	}
+        $obj->setCodeDoc("codeDoc");
+        $this->assertEquals("codeDoc", $obj->getCodeDoc());
+    }
 
-	/**
-	 * Tests the setCodeManif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeManif() {
+    /**
+     * Tests the setCodeManif() method.
+     *
+     * @return void
+     */
+    public function testSetCodeManif() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setCodeManif("codeManif");
-		$this->assertEquals("codeManif", $obj->getCodeManif());
-	}
+        $obj->setCodeManif("codeManif");
+        $this->assertEquals("codeManif", $obj->getCodeManif());
+    }
 
-	/**
-	 * Tests the setDateCreation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateCreation() {
+    /**
+     * Tests the setDateCreation() method.
+     *
+     * @return void
+     */
+    public function testSetDateCreation() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setDateCreation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
-	}
+        $obj->setDateCreation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
+    }
 
-	/**
-	 * Tests the setDateModification() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateModification() {
+    /**
+     * Tests the setDateModification() method.
+     *
+     * @return void
+     */
+    public function testSetDateModification() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setDateModification(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateModification());
-	}
+        $obj->setDateModification(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateModification());
+    }
 
-	/**
-	 * Tests the setEmplacementFichier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEmplacementFichier() {
+    /**
+     * Tests the setEmplacementFichier() method.
+     *
+     * @return void
+     */
+    public function testSetEmplacementFichier() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setEmplacementFichier("emplacementFichier");
-		$this->assertEquals("emplacementFichier", $obj->getEmplacementFichier());
-	}
+        $obj->setEmplacementFichier("emplacementFichier");
+        $this->assertEquals("emplacementFichier", $obj->getEmplacementFichier());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setNumero() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumero() {
+    /**
+     * Tests the setNumero() method.
+     *
+     * @return void
+     */
+    public function testSetNumero() {
 
-		$obj = new ActionsCo_Docs();
+        $obj = new ActionsCo_Docs();
 
-		$obj->setNumero(10);
-		$this->assertEquals(10, $obj->getNumero());
-	}
+        $obj->setNumero(10);
+        $this->assertEquals(10, $obj->getNumero());
+    }
 
 }

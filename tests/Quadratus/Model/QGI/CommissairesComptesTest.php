@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CommissairesComptesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CommissairesComptes();
+        $obj = new CommissairesComptes();
 
-		$this->assertNull($obj->getCodeCAC());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getDateNomination());
-		$this->assertNull($obj->getDureeMandat());
-		$this->assertNull($obj->getObservations());
-		$this->assertNull($obj->getPosition());
-		$this->assertNull($obj->getTitulaire());
-	}
+        $this->assertNull($obj->getCodeCAC());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDateNomination());
+        $this->assertNull($obj->getDureeMandat());
+        $this->assertNull($obj->getObservations());
+        $this->assertNull($obj->getPosition());
+        $this->assertNull($obj->getTitulaire());
+    }
 
-	/**
-	 * Tests the setCodeCAC() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCAC() {
+    /**
+     * Tests the setCodeCAC() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCAC() {
 
-		$obj = new CommissairesComptes();
+        $obj = new CommissairesComptes();
 
-		$obj->setCodeCAC("codeCAC");
-		$this->assertEquals("codeCAC", $obj->getCodeCAC());
-	}
+        $obj->setCodeCAC("codeCAC");
+        $this->assertEquals("codeCAC", $obj->getCodeCAC());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new CommissairesComptes();
+        $obj = new CommissairesComptes();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setDateNomination() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateNomination() {
+    /**
+     * Tests the setDateNomination() method.
+     *
+     * @return void
+     */
+    public function testSetDateNomination() {
 
-		$obj = new CommissairesComptes();
+        $obj = new CommissairesComptes();
 
-		$obj->setDateNomination(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateNomination());
-	}
+        $obj->setDateNomination(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateNomination());
+    }
 
-	/**
-	 * Tests the setDureeMandat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDureeMandat() {
+    /**
+     * Tests the setDureeMandat() method.
+     *
+     * @return void
+     */
+    public function testSetDureeMandat() {
 
-		$obj = new CommissairesComptes();
+        $obj = new CommissairesComptes();
 
-		$obj->setDureeMandat(10);
-		$this->assertEquals(10, $obj->getDureeMandat());
-	}
+        $obj->setDureeMandat(10);
+        $this->assertEquals(10, $obj->getDureeMandat());
+    }
 
-	/**
-	 * Tests the setObservations() method.
-	 *
-	 * @return void
-	 */
-	public function testSetObservations() {
+    /**
+     * Tests the setObservations() method.
+     *
+     * @return void
+     */
+    public function testSetObservations() {
 
-		$obj = new CommissairesComptes();
+        $obj = new CommissairesComptes();
 
-		$obj->setObservations("observations");
-		$this->assertEquals("observations", $obj->getObservations());
-	}
+        $obj->setObservations("observations");
+        $this->assertEquals("observations", $obj->getObservations());
+    }
 
-	/**
-	 * Tests the setPosition() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPosition() {
+    /**
+     * Tests the setPosition() method.
+     *
+     * @return void
+     */
+    public function testSetPosition() {
 
-		$obj = new CommissairesComptes();
+        $obj = new CommissairesComptes();
 
-		$obj->setPosition(10);
-		$this->assertEquals(10, $obj->getPosition());
-	}
+        $obj->setPosition(10);
+        $this->assertEquals(10, $obj->getPosition());
+    }
 
-	/**
-	 * Tests the setTitulaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTitulaire() {
+    /**
+     * Tests the setTitulaire() method.
+     *
+     * @return void
+     */
+    public function testSetTitulaire() {
 
-		$obj = new CommissairesComptes();
+        $obj = new CommissairesComptes();
 
-		$obj->setTitulaire(true);
-		$this->assertEquals(true, $obj->getTitulaire());
-	}
+        $obj->setTitulaire(true);
+        $this->assertEquals(true, $obj->getTitulaire());
+    }
 
 }

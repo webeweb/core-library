@@ -22,85 +22,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ClientsSelectionTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ClientsSelection();
+        $obj = new ClientsSelection();
 
-		$this->assertNull($obj->getChamp());
-		$this->assertNull($obj->getCodeCol());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getType());
-		$this->assertNull($obj->getValeur());
-	}
+        $this->assertNull($obj->getChamp());
+        $this->assertNull($obj->getCodeCol());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getValeur());
+    }
 
-	/**
-	 * Tests the setChamp() method.
-	 *
-	 * @return void
-	 */
-	public function testSetChamp() {
+    /**
+     * Tests the setChamp() method.
+     *
+     * @return void
+     */
+    public function testSetChamp() {
 
-		$obj = new ClientsSelection();
+        $obj = new ClientsSelection();
 
-		$obj->setChamp("champ");
-		$this->assertEquals("champ", $obj->getChamp());
-	}
+        $obj->setChamp("champ");
+        $this->assertEquals("champ", $obj->getChamp());
+    }
 
-	/**
-	 * Tests the setCodeCol() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCol() {
+    /**
+     * Tests the setCodeCol() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCol() {
 
-		$obj = new ClientsSelection();
+        $obj = new ClientsSelection();
 
-		$obj->setCodeCol("codeCol");
-		$this->assertEquals("codeCol", $obj->getCodeCol());
-	}
+        $obj->setCodeCol("codeCol");
+        $this->assertEquals("codeCol", $obj->getCodeCol());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new ClientsSelection();
+        $obj = new ClientsSelection();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new ClientsSelection();
+        $obj = new ClientsSelection();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
-	/**
-	 * Tests the setValeur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetValeur() {
+    /**
+     * Tests the setValeur() method.
+     *
+     * @return void
+     */
+    public function testSetValeur() {
 
-		$obj = new ClientsSelection();
+        $obj = new ClientsSelection();
 
-		$obj->setValeur("valeur");
-		$this->assertEquals("valeur", $obj->getValeur());
-	}
+        $obj->setValeur("valeur");
+        $this->assertEquals("valeur", $obj->getValeur());
+    }
 
 }

@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RegroupementDSTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RegroupementDS();
+        $obj = new RegroupementDS();
 
-		$this->assertNull($obj->getCodeRds());
-		$this->assertNull($obj->getCodeRupture());
-		$this->assertNull($obj->getIntitule());
-		$this->assertNull($obj->getOrganisme());
-	}
+        $this->assertNull($obj->getCodeRds());
+        $this->assertNull($obj->getCodeRupture());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getOrganisme());
+    }
 
-	/**
-	 * Tests the setCodeRds() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRds() {
+    /**
+     * Tests the setCodeRds() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRds() {
 
-		$obj = new RegroupementDS();
+        $obj = new RegroupementDS();
 
-		$obj->setCodeRds("codeRds");
-		$this->assertEquals("codeRds", $obj->getCodeRds());
-	}
+        $obj->setCodeRds("codeRds");
+        $this->assertEquals("codeRds", $obj->getCodeRds());
+    }
 
-	/**
-	 * Tests the setCodeRupture() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRupture() {
+    /**
+     * Tests the setCodeRupture() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRupture() {
 
-		$obj = new RegroupementDS();
+        $obj = new RegroupementDS();
 
-		$obj->setCodeRupture("codeRupture");
-		$this->assertEquals("codeRupture", $obj->getCodeRupture());
-	}
+        $obj->setCodeRupture("codeRupture");
+        $this->assertEquals("codeRupture", $obj->getCodeRupture());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new RegroupementDS();
+        $obj = new RegroupementDS();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOrganisme() {
+    /**
+     * Tests the setOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetOrganisme() {
 
-		$obj = new RegroupementDS();
+        $obj = new RegroupementDS();
 
-		$obj->setOrganisme("organisme");
-		$this->assertEquals("organisme", $obj->getOrganisme());
-	}
+        $obj->setOrganisme("organisme");
+        $this->assertEquals("organisme", $obj->getOrganisme());
+    }
 
 }

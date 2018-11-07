@@ -22,113 +22,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RG_ProfilsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RG_Profils();
+        $obj = new RG_Profils();
 
-		$this->assertNull($obj->getFichiers_Move());
-		$this->assertNull($obj->getFichiers_PublierWeb());
-		$this->assertNull($obj->getNiveau_Maxi());
-		$this->assertNull($obj->getNiveau_Supplementaire_libelle());
-		$this->assertNull($obj->getPath());
-		$this->assertNull($obj->getPath_Format());
-		$this->assertNull($obj->getUniqID());
-	}
+        $this->assertNull($obj->getFichiers_Move());
+        $this->assertNull($obj->getFichiers_PublierWeb());
+        $this->assertNull($obj->getNiveau_Maxi());
+        $this->assertNull($obj->getNiveau_Supplementaire_libelle());
+        $this->assertNull($obj->getPath());
+        $this->assertNull($obj->getPath_Format());
+        $this->assertNull($obj->getUniqID());
+    }
 
-	/**
-	 * Tests the setFichiers_Move() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFichiers_Move() {
+    /**
+     * Tests the setFichiers_Move() method.
+     *
+     * @return void
+     */
+    public function testSetFichiers_Move() {
 
-		$obj = new RG_Profils();
+        $obj = new RG_Profils();
 
-		$obj->setFichiers_Move("fichiers_Move");
-		$this->assertEquals("fichiers_Move", $obj->getFichiers_Move());
-	}
+        $obj->setFichiers_Move("fichiers_Move");
+        $this->assertEquals("fichiers_Move", $obj->getFichiers_Move());
+    }
 
-	/**
-	 * Tests the setFichiers_PublierWeb() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFichiers_PublierWeb() {
+    /**
+     * Tests the setFichiers_PublierWeb() method.
+     *
+     * @return void
+     */
+    public function testSetFichiers_PublierWeb() {
 
-		$obj = new RG_Profils();
+        $obj = new RG_Profils();
 
-		$obj->setFichiers_PublierWeb("fichiers_PublierWeb");
-		$this->assertEquals("fichiers_PublierWeb", $obj->getFichiers_PublierWeb());
-	}
+        $obj->setFichiers_PublierWeb("fichiers_PublierWeb");
+        $this->assertEquals("fichiers_PublierWeb", $obj->getFichiers_PublierWeb());
+    }
 
-	/**
-	 * Tests the setNiveau_Maxi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNiveau_Maxi() {
+    /**
+     * Tests the setNiveau_Maxi() method.
+     *
+     * @return void
+     */
+    public function testSetNiveau_Maxi() {
 
-		$obj = new RG_Profils();
+        $obj = new RG_Profils();
 
-		$obj->setNiveau_Maxi("niveau_Maxi");
-		$this->assertEquals("niveau_Maxi", $obj->getNiveau_Maxi());
-	}
+        $obj->setNiveau_Maxi("niveau_Maxi");
+        $this->assertEquals("niveau_Maxi", $obj->getNiveau_Maxi());
+    }
 
-	/**
-	 * Tests the setNiveau_Supplementaire_libelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNiveau_Supplementaire_libelle() {
+    /**
+     * Tests the setNiveau_Supplementaire_libelle() method.
+     *
+     * @return void
+     */
+    public function testSetNiveau_Supplementaire_libelle() {
 
-		$obj = new RG_Profils();
+        $obj = new RG_Profils();
 
-		$obj->setNiveau_Supplementaire_libelle(true);
-		$this->assertEquals(true, $obj->getNiveau_Supplementaire_libelle());
-	}
+        $obj->setNiveau_Supplementaire_libelle(true);
+        $this->assertEquals(true, $obj->getNiveau_Supplementaire_libelle());
+    }
 
-	/**
-	 * Tests the setPath() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPath() {
+    /**
+     * Tests the setPath() method.
+     *
+     * @return void
+     */
+    public function testSetPath() {
 
-		$obj = new RG_Profils();
+        $obj = new RG_Profils();
 
-		$obj->setPath("path");
-		$this->assertEquals("path", $obj->getPath());
-	}
+        $obj->setPath("path");
+        $this->assertEquals("path", $obj->getPath());
+    }
 
-	/**
-	 * Tests the setPath_Format() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPath_Format() {
+    /**
+     * Tests the setPath_Format() method.
+     *
+     * @return void
+     */
+    public function testSetPath_Format() {
 
-		$obj = new RG_Profils();
+        $obj = new RG_Profils();
 
-		$obj->setPath_Format("path_Format");
-		$this->assertEquals("path_Format", $obj->getPath_Format());
-	}
+        $obj->setPath_Format("path_Format");
+        $this->assertEquals("path_Format", $obj->getPath_Format());
+    }
 
-	/**
-	 * Tests the setUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqID() {
+    /**
+     * Tests the setUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetUniqID() {
 
-		$obj = new RG_Profils();
+        $obj = new RG_Profils();
 
-		$obj->setUniqID("uniqID");
-		$this->assertEquals("uniqID", $obj->getUniqID());
-	}
+        $obj->setUniqID("uniqID");
+        $this->assertEquals("uniqID", $obj->getUniqID());
+    }
 
 }

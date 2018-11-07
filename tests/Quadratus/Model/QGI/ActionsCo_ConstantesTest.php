@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ActionsCo_ConstantesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ActionsCo_Constantes();
+        $obj = new ActionsCo_Constantes();
 
-		$this->assertNull($obj->getLieuEdition());
-		$this->assertNull($obj->getNumDeclaration());
-	}
+        $this->assertNull($obj->getLieuEdition());
+        $this->assertNull($obj->getNumDeclaration());
+    }
 
-	/**
-	 * Tests the setLieuEdition() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLieuEdition() {
+    /**
+     * Tests the setLieuEdition() method.
+     *
+     * @return void
+     */
+    public function testSetLieuEdition() {
 
-		$obj = new ActionsCo_Constantes();
+        $obj = new ActionsCo_Constantes();
 
-		$obj->setLieuEdition("lieuEdition");
-		$this->assertEquals("lieuEdition", $obj->getLieuEdition());
-	}
+        $obj->setLieuEdition("lieuEdition");
+        $this->assertEquals("lieuEdition", $obj->getLieuEdition());
+    }
 
-	/**
-	 * Tests the setNumDeclaration() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDeclaration() {
+    /**
+     * Tests the setNumDeclaration() method.
+     *
+     * @return void
+     */
+    public function testSetNumDeclaration() {
 
-		$obj = new ActionsCo_Constantes();
+        $obj = new ActionsCo_Constantes();
 
-		$obj->setNumDeclaration("numDeclaration");
-		$this->assertEquals("numDeclaration", $obj->getNumDeclaration());
-	}
+        $obj->setNumDeclaration("numDeclaration");
+        $this->assertEquals("numDeclaration", $obj->getNumDeclaration());
+    }
 
 }

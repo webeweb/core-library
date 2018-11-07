@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CumulsLibellesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CumulsLibelles();
+        $obj = new CumulsLibelles();
 
-		$this->assertNull($obj->getMontantCumul());
-		$this->assertNull($obj->getNumCumulBulletin());
-		$this->assertNull($obj->getNumeroEmploye());
-	}
+        $this->assertNull($obj->getMontantCumul());
+        $this->assertNull($obj->getNumCumulBulletin());
+        $this->assertNull($obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setMontantCumul() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantCumul() {
+    /**
+     * Tests the setMontantCumul() method.
+     *
+     * @return void
+     */
+    public function testSetMontantCumul() {
 
-		$obj = new CumulsLibelles();
+        $obj = new CumulsLibelles();
 
-		$obj->setMontantCumul(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantCumul());
-	}
+        $obj->setMontantCumul(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantCumul());
+    }
 
-	/**
-	 * Tests the setNumCumulBulletin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumCumulBulletin() {
+    /**
+     * Tests the setNumCumulBulletin() method.
+     *
+     * @return void
+     */
+    public function testSetNumCumulBulletin() {
 
-		$obj = new CumulsLibelles();
+        $obj = new CumulsLibelles();
 
-		$obj->setNumCumulBulletin(10);
-		$this->assertEquals(10, $obj->getNumCumulBulletin());
-	}
+        $obj->setNumCumulBulletin(10);
+        $this->assertEquals(10, $obj->getNumCumulBulletin());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new CumulsLibelles();
+        $obj = new CumulsLibelles();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
 }

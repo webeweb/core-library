@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CriteresListeAffaireTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CriteresListeAffaire();
+        $obj = new CriteresListeAffaire();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getNumLibelle());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumLibelle());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new CriteresListeAffaire();
+        $obj = new CriteresListeAffaire();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new CriteresListeAffaire();
+        $obj = new CriteresListeAffaire();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setNumLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLibelle() {
+    /**
+     * Tests the setNumLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetNumLibelle() {
 
-		$obj = new CriteresListeAffaire();
+        $obj = new CriteresListeAffaire();
 
-		$obj->setNumLibelle("numLibelle");
-		$this->assertEquals("numLibelle", $obj->getNumLibelle());
-	}
+        $obj->setNumLibelle("numLibelle");
+        $this->assertEquals("numLibelle", $obj->getNumLibelle());
+    }
 
 }

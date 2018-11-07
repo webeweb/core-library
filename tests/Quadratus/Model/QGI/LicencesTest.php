@@ -23,267 +23,267 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LicencesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeClientDistr());
-		$this->assertNull($obj->getCodeProduit());
-		$this->assertNull($obj->getCommentaire());
-		$this->assertNull($obj->getCpVille());
-		$this->assertNull($obj->getDateCreation());
-		$this->assertNull($obj->getDemo());
-		$this->assertNull($obj->getLicence());
-		$this->assertNull($obj->getNomClient());
-		$this->assertNull($obj->getNombrePostes());
-		$this->assertNull($obj->getOption1());
-		$this->assertNull($obj->getOption2());
-		$this->assertNull($obj->getOption3());
-		$this->assertNull($obj->getOption4());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getSupport());
-		$this->assertNull($obj->getTypeReseau());
-		$this->assertNull($obj->getVersion());
-	}
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeClientDistr());
+        $this->assertNull($obj->getCodeProduit());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getCpVille());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDemo());
+        $this->assertNull($obj->getLicence());
+        $this->assertNull($obj->getNomClient());
+        $this->assertNull($obj->getNombrePostes());
+        $this->assertNull($obj->getOption1());
+        $this->assertNull($obj->getOption2());
+        $this->assertNull($obj->getOption3());
+        $this->assertNull($obj->getOption4());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getSupport());
+        $this->assertNull($obj->getTypeReseau());
+        $this->assertNull($obj->getVersion());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeClientDistr() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClientDistr() {
+    /**
+     * Tests the setCodeClientDistr() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClientDistr() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setCodeClientDistr("codeClientDistr");
-		$this->assertEquals("codeClientDistr", $obj->getCodeClientDistr());
-	}
+        $obj->setCodeClientDistr("codeClientDistr");
+        $this->assertEquals("codeClientDistr", $obj->getCodeClientDistr());
+    }
 
-	/**
-	 * Tests the setCodeProduit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeProduit() {
+    /**
+     * Tests the setCodeProduit() method.
+     *
+     * @return void
+     */
+    public function testSetCodeProduit() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setCodeProduit("codeProduit");
-		$this->assertEquals("codeProduit", $obj->getCodeProduit());
-	}
+        $obj->setCodeProduit("codeProduit");
+        $this->assertEquals("codeProduit", $obj->getCodeProduit());
+    }
 
-	/**
-	 * Tests the setCommentaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCommentaire() {
+    /**
+     * Tests the setCommentaire() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setCommentaire("commentaire");
-		$this->assertEquals("commentaire", $obj->getCommentaire());
-	}
+        $obj->setCommentaire("commentaire");
+        $this->assertEquals("commentaire", $obj->getCommentaire());
+    }
 
-	/**
-	 * Tests the setCpVille() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCpVille() {
+    /**
+     * Tests the setCpVille() method.
+     *
+     * @return void
+     */
+    public function testSetCpVille() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setCpVille("cpVille");
-		$this->assertEquals("cpVille", $obj->getCpVille());
-	}
+        $obj->setCpVille("cpVille");
+        $this->assertEquals("cpVille", $obj->getCpVille());
+    }
 
-	/**
-	 * Tests the setDateCreation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateCreation() {
+    /**
+     * Tests the setDateCreation() method.
+     *
+     * @return void
+     */
+    public function testSetDateCreation() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setDateCreation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
-	}
+        $obj->setDateCreation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
+    }
 
-	/**
-	 * Tests the setDemo() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDemo() {
+    /**
+     * Tests the setDemo() method.
+     *
+     * @return void
+     */
+    public function testSetDemo() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setDemo(true);
-		$this->assertEquals(true, $obj->getDemo());
-	}
+        $obj->setDemo(true);
+        $this->assertEquals(true, $obj->getDemo());
+    }
 
-	/**
-	 * Tests the setLicence() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLicence() {
+    /**
+     * Tests the setLicence() method.
+     *
+     * @return void
+     */
+    public function testSetLicence() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setLicence("licence");
-		$this->assertEquals("licence", $obj->getLicence());
-	}
+        $obj->setLicence("licence");
+        $this->assertEquals("licence", $obj->getLicence());
+    }
 
-	/**
-	 * Tests the setNomClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomClient() {
+    /**
+     * Tests the setNomClient() method.
+     *
+     * @return void
+     */
+    public function testSetNomClient() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setNomClient("nomClient");
-		$this->assertEquals("nomClient", $obj->getNomClient());
-	}
+        $obj->setNomClient("nomClient");
+        $this->assertEquals("nomClient", $obj->getNomClient());
+    }
 
-	/**
-	 * Tests the setNombrePostes() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNombrePostes() {
+    /**
+     * Tests the setNombrePostes() method.
+     *
+     * @return void
+     */
+    public function testSetNombrePostes() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setNombrePostes(10);
-		$this->assertEquals(10, $obj->getNombrePostes());
-	}
+        $obj->setNombrePostes(10);
+        $this->assertEquals(10, $obj->getNombrePostes());
+    }
 
-	/**
-	 * Tests the setOption1() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOption1() {
+    /**
+     * Tests the setOption1() method.
+     *
+     * @return void
+     */
+    public function testSetOption1() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setOption1("option1");
-		$this->assertEquals("option1", $obj->getOption1());
-	}
+        $obj->setOption1("option1");
+        $this->assertEquals("option1", $obj->getOption1());
+    }
 
-	/**
-	 * Tests the setOption2() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOption2() {
+    /**
+     * Tests the setOption2() method.
+     *
+     * @return void
+     */
+    public function testSetOption2() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setOption2("option2");
-		$this->assertEquals("option2", $obj->getOption2());
-	}
+        $obj->setOption2("option2");
+        $this->assertEquals("option2", $obj->getOption2());
+    }
 
-	/**
-	 * Tests the setOption3() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOption3() {
+    /**
+     * Tests the setOption3() method.
+     *
+     * @return void
+     */
+    public function testSetOption3() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setOption3("option3");
-		$this->assertEquals("option3", $obj->getOption3());
-	}
+        $obj->setOption3("option3");
+        $this->assertEquals("option3", $obj->getOption3());
+    }
 
-	/**
-	 * Tests the setOption4() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOption4() {
+    /**
+     * Tests the setOption4() method.
+     *
+     * @return void
+     */
+    public function testSetOption4() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setOption4("option4");
-		$this->assertEquals("option4", $obj->getOption4());
-	}
+        $obj->setOption4("option4");
+        $this->assertEquals("option4", $obj->getOption4());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setSupport() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSupport() {
+    /**
+     * Tests the setSupport() method.
+     *
+     * @return void
+     */
+    public function testSetSupport() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setSupport("support");
-		$this->assertEquals("support", $obj->getSupport());
-	}
+        $obj->setSupport("support");
+        $this->assertEquals("support", $obj->getSupport());
+    }
 
-	/**
-	 * Tests the setTypeReseau() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeReseau() {
+    /**
+     * Tests the setTypeReseau() method.
+     *
+     * @return void
+     */
+    public function testSetTypeReseau() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setTypeReseau("typeReseau");
-		$this->assertEquals("typeReseau", $obj->getTypeReseau());
-	}
+        $obj->setTypeReseau("typeReseau");
+        $this->assertEquals("typeReseau", $obj->getTypeReseau());
+    }
 
-	/**
-	 * Tests the setVersion() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVersion() {
+    /**
+     * Tests the setVersion() method.
+     *
+     * @return void
+     */
+    public function testSetVersion() {
 
-		$obj = new Licences();
+        $obj = new Licences();
 
-		$obj->setVersion("version");
-		$this->assertEquals("version", $obj->getVersion());
-	}
+        $obj->setVersion("version");
+        $this->assertEquals("version", $obj->getVersion());
+    }
 
 }

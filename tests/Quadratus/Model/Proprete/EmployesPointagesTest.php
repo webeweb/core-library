@@ -23,127 +23,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmployesPointagesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$this->assertNull($obj->getCodeCollaboValid());
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getDateValidationSynchro());
-		$this->assertNull($obj->getEtat());
-		$this->assertNull($obj->getPeriodePointageCloturee());
-		$this->assertNull($obj->getPeriodePrevisionnelGeneree());
-		$this->assertNull($obj->getUniqIDSynchro());
-	}
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getPeriodePointageCloturee());
+        $this->assertNull($obj->getPeriodePrevisionnelGeneree());
+        $this->assertNull($obj->getUniqIDSynchro());
+    }
 
-	/**
-	 * Tests the setCodeCollaboValid() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaboValid() {
+    /**
+     * Tests the setCodeCollaboValid() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaboValid() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$obj->setCodeCollaboValid("codeCollaboValid");
-		$this->assertEquals("codeCollaboValid", $obj->getCodeCollaboValid());
-	}
+        $obj->setCodeCollaboValid("codeCollaboValid");
+        $this->assertEquals("codeCollaboValid", $obj->getCodeCollaboValid());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setDateValidationSynchro() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateValidationSynchro() {
+    /**
+     * Tests the setDateValidationSynchro() method.
+     *
+     * @return void
+     */
+    public function testSetDateValidationSynchro() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$obj->setDateValidationSynchro(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateValidationSynchro());
-	}
+        $obj->setDateValidationSynchro(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateValidationSynchro());
+    }
 
-	/**
-	 * Tests the setEtat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEtat() {
+    /**
+     * Tests the setEtat() method.
+     *
+     * @return void
+     */
+    public function testSetEtat() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$obj->setEtat("etat");
-		$this->assertEquals("etat", $obj->getEtat());
-	}
+        $obj->setEtat("etat");
+        $this->assertEquals("etat", $obj->getEtat());
+    }
 
-	/**
-	 * Tests the setPeriodePointageCloturee() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodePointageCloturee() {
+    /**
+     * Tests the setPeriodePointageCloturee() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodePointageCloturee() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$obj->setPeriodePointageCloturee(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodePointageCloturee());
-	}
+        $obj->setPeriodePointageCloturee(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodePointageCloturee());
+    }
 
-	/**
-	 * Tests the setPeriodePrevisionnelGeneree() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodePrevisionnelGeneree() {
+    /**
+     * Tests the setPeriodePrevisionnelGeneree() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodePrevisionnelGeneree() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$obj->setPeriodePrevisionnelGeneree(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodePrevisionnelGeneree());
-	}
+        $obj->setPeriodePrevisionnelGeneree(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodePrevisionnelGeneree());
+    }
 
-	/**
-	 * Tests the setUniqIDSynchro() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqIDSynchro() {
+    /**
+     * Tests the setUniqIDSynchro() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIDSynchro() {
 
-		$obj = new EmployesPointages();
+        $obj = new EmployesPointages();
 
-		$obj->setUniqIDSynchro("uniqIDSynchro");
-		$this->assertEquals("uniqIDSynchro", $obj->getUniqIDSynchro());
-	}
+        $obj->setUniqIDSynchro("uniqIDSynchro");
+        $this->assertEquals("uniqIDSynchro", $obj->getUniqIDSynchro());
+    }
 
 }

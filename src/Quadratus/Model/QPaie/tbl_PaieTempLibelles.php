@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QPaie;
 
-
 /**
  * tbl_ paie temp libelles model.
  *
@@ -20,119 +19,119 @@ namespace WBW\Library\Core\Quadratus\Model\QPaie;
  */
 class tbl_PaieTempLibelles {
 
-	/**
-	 * Code.
-	 *
-	 * @var string
-	 */
-	private $code;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
 
-	/**
-	 * Code calcul.
-	 *
-	 * @var string
-	 */
-	private $codeCalcul;
+    /**
+     * Code calcul.
+     *
+     * @var string
+     */
+    private $codeCalcul;
 
-	/**
-	 * Intitule.
-	 *
-	 * @var string
-	 */
-	private $intitule;
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
 
-	/**
-	 * Numero employe.
-	 *
-	 * @var string
-	 */
-	private $numeroEmploye;
+    /**
+     * Numero employe.
+     *
+     * @var string
+     */
+    private $numeroEmploye;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code.
-	 *
-	 * @return string Returns the code.
-	 */
-	public function getCode() {
-		return $this->code;
-	}
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
 
-	/**
-	 * Get the code calcul.
-	 *
-	 * @return string Returns the code calcul.
-	 */
-	public function getCodeCalcul() {
-		return $this->codeCalcul;
-	}
+    /**
+     * Get the code calcul.
+     *
+     * @return string Returns the code calcul.
+     */
+    public function getCodeCalcul() {
+        return $this->codeCalcul;
+    }
 
-	/**
-	 * Get the intitule.
-	 *
-	 * @return string Returns the intitule.
-	 */
-	public function getIntitule() {
-		return $this->intitule;
-	}
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
 
-	/**
-	 * Get the numero employe.
-	 *
-	 * @return string Returns the numero employe.
-	 */
-	public function getNumeroEmploye() {
-		return $this->numeroEmploye;
-	}
+    /**
+     * Get the numero employe.
+     *
+     * @return string Returns the numero employe.
+     */
+    public function getNumeroEmploye() {
+        return $this->numeroEmploye;
+    }
 
-	/**
-	 * Set the code.
-	 *
-	 * @param string $code The code.
-	 * @return tbl_PaieTempLibelles Returns this tbl_ paie temp libelles.
-	 */
-	public function setCode($code) {
-		$this->code = $code;
-		return $this;
-	}
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     * @return tbl_PaieTempLibelles Returns this tbl_ paie temp libelles.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
 
-	/**
-	 * Set the code calcul.
-	 *
-	 * @param string $codeCalcul The code calcul.
-	 * @return tbl_PaieTempLibelles Returns this tbl_ paie temp libelles.
-	 */
-	public function setCodeCalcul($codeCalcul) {
-		$this->codeCalcul = $codeCalcul;
-		return $this;
-	}
+    /**
+     * Set the code calcul.
+     *
+     * @param string $codeCalcul The code calcul.
+     * @return tbl_PaieTempLibelles Returns this tbl_ paie temp libelles.
+     */
+    public function setCodeCalcul($codeCalcul) {
+        $this->codeCalcul = $codeCalcul;
+        return $this;
+    }
 
-	/**
-	 * Set the intitule.
-	 *
-	 * @param string $intitule The intitule.
-	 * @return tbl_PaieTempLibelles Returns this tbl_ paie temp libelles.
-	 */
-	public function setIntitule($intitule) {
-		$this->intitule = $intitule;
-		return $this;
-	}
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     * @return tbl_PaieTempLibelles Returns this tbl_ paie temp libelles.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
 
-	/**
-	 * Set the numero employe.
-	 *
-	 * @param string $numeroEmploye The numero employe.
-	 * @return tbl_PaieTempLibelles Returns this tbl_ paie temp libelles.
-	 */
-	public function setNumeroEmploye($numeroEmploye) {
-		$this->numeroEmploye = $numeroEmploye;
-		return $this;
-	}
+    /**
+     * Set the numero employe.
+     *
+     * @param string $numeroEmploye The numero employe.
+     * @return tbl_PaieTempLibelles Returns this tbl_ paie temp libelles.
+     */
+    public function setNumeroEmploye($numeroEmploye) {
+        $this->numeroEmploye = $numeroEmploye;
+        return $this;
+    }
 
 }

@@ -21,119 +21,119 @@ use DateTime;
  */
 class TempsPassesDeleted {
 
-	/**
-	 * Contexte.
-	 *
-	 * @var string
-	 */
-	private $contexte;
+    /**
+     * Contexte.
+     *
+     * @var string
+     */
+    private $contexte;
 
-	/**
-	 * Date suppression.
-	 *
-	 * @var DateTime
-	 */
-	private $dateSuppression;
+    /**
+     * Date suppression.
+     *
+     * @var DateTime
+     */
+    private $dateSuppression;
 
-	/**
-	 * G uniq i d.
-	 *
-	 * @var string
-	 */
-	private $gUniqID;
+    /**
+     * G uniq i d.
+     *
+     * @var string
+     */
+    private $gUniqID;
 
-	/**
-	 * User.
-	 *
-	 * @var string
-	 */
-	private $user;
+    /**
+     * User.
+     *
+     * @var string
+     */
+    private $user;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the contexte.
-	 *
-	 * @return string Returns the contexte.
-	 */
-	public function getContexte() {
-		return $this->contexte;
-	}
+    /**
+     * Get the contexte.
+     *
+     * @return string Returns the contexte.
+     */
+    public function getContexte() {
+        return $this->contexte;
+    }
 
-	/**
-	 * Get the date suppression.
-	 *
-	 * @return DateTime Returns the date suppression.
-	 */
-	public function getDateSuppression() {
-		return $this->dateSuppression;
-	}
+    /**
+     * Get the date suppression.
+     *
+     * @return DateTime Returns the date suppression.
+     */
+    public function getDateSuppression() {
+        return $this->dateSuppression;
+    }
 
-	/**
-	 * Get the g uniq i d.
-	 *
-	 * @return string Returns the g uniq i d.
-	 */
-	public function getGUniqID() {
-		return $this->gUniqID;
-	}
+    /**
+     * Get the g uniq i d.
+     *
+     * @return string Returns the g uniq i d.
+     */
+    public function getGUniqID() {
+        return $this->gUniqID;
+    }
 
-	/**
-	 * Get the user.
-	 *
-	 * @return string Returns the user.
-	 */
-	public function getUser() {
-		return $this->user;
-	}
+    /**
+     * Get the user.
+     *
+     * @return string Returns the user.
+     */
+    public function getUser() {
+        return $this->user;
+    }
 
-	/**
-	 * Set the contexte.
-	 *
-	 * @param string $contexte The contexte.
-	 * @return TempsPassesDeleted Returns this temps passes deleted.
-	 */
-	public function setContexte($contexte) {
-		$this->contexte = $contexte;
-		return $this;
-	}
+    /**
+     * Set the contexte.
+     *
+     * @param string $contexte The contexte.
+     * @return TempsPassesDeleted Returns this temps passes deleted.
+     */
+    public function setContexte($contexte) {
+        $this->contexte = $contexte;
+        return $this;
+    }
 
-	/**
-	 * Set the date suppression.
-	 *
-	 * @param DateTime $dateSuppression The date suppression.
-	 * @return TempsPassesDeleted Returns this temps passes deleted.
-	 */
-	public function setDateSuppression(DateTime $dateSuppression = null) {
-		$this->dateSuppression = $dateSuppression;
-		return $this;
-	}
+    /**
+     * Set the date suppression.
+     *
+     * @param DateTime $dateSuppression The date suppression.
+     * @return TempsPassesDeleted Returns this temps passes deleted.
+     */
+    public function setDateSuppression(DateTime $dateSuppression = null) {
+        $this->dateSuppression = $dateSuppression;
+        return $this;
+    }
 
-	/**
-	 * Set the g uniq i d.
-	 *
-	 * @param string $gUniqID The g uniq i d.
-	 * @return TempsPassesDeleted Returns this temps passes deleted.
-	 */
-	public function setGUniqID($gUniqID) {
-		$this->gUniqID = $gUniqID;
-		return $this;
-	}
+    /**
+     * Set the g uniq i d.
+     *
+     * @param string $gUniqID The g uniq i d.
+     * @return TempsPassesDeleted Returns this temps passes deleted.
+     */
+    public function setGUniqID($gUniqID) {
+        $this->gUniqID = $gUniqID;
+        return $this;
+    }
 
-	/**
-	 * Set the user.
-	 *
-	 * @param string $user The user.
-	 * @return TempsPassesDeleted Returns this temps passes deleted.
-	 */
-	public function setUser($user) {
-		$this->user = $user;
-		return $this;
-	}
+    /**
+     * Set the user.
+     *
+     * @param string $user The user.
+     * @return TempsPassesDeleted Returns this temps passes deleted.
+     */
+    public function setUser($user) {
+        $this->user = $user;
+        return $this;
+    }
 
 }

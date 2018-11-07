@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class SousRepertoiresAppelsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new SousRepertoiresAppels();
+        $obj = new SousRepertoiresAppels();
 
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getNiveauLigne());
-		$this->assertNull($obj->getNumeroLigne());
-		$this->assertNull($obj->getProprietes());
-		$this->assertNull($obj->getUniqID());
-	}
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNiveauLigne());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getProprietes());
+        $this->assertNull($obj->getUniqID());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new SousRepertoiresAppels();
+        $obj = new SousRepertoiresAppels();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new SousRepertoiresAppels();
+        $obj = new SousRepertoiresAppels();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setNiveauLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNiveauLigne() {
+    /**
+     * Tests the setNiveauLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNiveauLigne() {
 
-		$obj = new SousRepertoiresAppels();
+        $obj = new SousRepertoiresAppels();
 
-		$obj->setNiveauLigne(10);
-		$this->assertEquals(10, $obj->getNiveauLigne());
-	}
+        $obj->setNiveauLigne(10);
+        $this->assertEquals(10, $obj->getNiveauLigne());
+    }
 
-	/**
-	 * Tests the setNumeroLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroLigne() {
+    /**
+     * Tests the setNumeroLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLigne() {
 
-		$obj = new SousRepertoiresAppels();
+        $obj = new SousRepertoiresAppels();
 
-		$obj->setNumeroLigne(10);
-		$this->assertEquals(10, $obj->getNumeroLigne());
-	}
+        $obj->setNumeroLigne(10);
+        $this->assertEquals(10, $obj->getNumeroLigne());
+    }
 
-	/**
-	 * Tests the setProprietes() method.
-	 *
-	 * @return void
-	 */
-	public function testSetProprietes() {
+    /**
+     * Tests the setProprietes() method.
+     *
+     * @return void
+     */
+    public function testSetProprietes() {
 
-		$obj = new SousRepertoiresAppels();
+        $obj = new SousRepertoiresAppels();
 
-		$obj->setProprietes("proprietes");
-		$this->assertEquals("proprietes", $obj->getProprietes());
-	}
+        $obj->setProprietes("proprietes");
+        $this->assertEquals("proprietes", $obj->getProprietes());
+    }
 
-	/**
-	 * Tests the setUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqID() {
+    /**
+     * Tests the setUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetUniqID() {
 
-		$obj = new SousRepertoiresAppels();
+        $obj = new SousRepertoiresAppels();
 
-		$obj->setUniqID("uniqID");
-		$this->assertEquals("uniqID", $obj->getUniqID());
-	}
+        $obj->setUniqID("uniqID");
+        $this->assertEquals("uniqID", $obj->getUniqID());
+    }
 
 }

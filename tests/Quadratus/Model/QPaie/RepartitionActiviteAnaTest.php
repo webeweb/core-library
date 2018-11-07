@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RepartitionActiviteAnaTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RepartitionActiviteAna();
+        $obj = new RepartitionActiviteAna();
 
-		$this->assertNull($obj->getCentre());
-		$this->assertNull($obj->getNature());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getTauxVentilation());
-	}
+        $this->assertNull($obj->getCentre());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTauxVentilation());
+    }
 
-	/**
-	 * Tests the setCentre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCentre() {
+    /**
+     * Tests the setCentre() method.
+     *
+     * @return void
+     */
+    public function testSetCentre() {
 
-		$obj = new RepartitionActiviteAna();
+        $obj = new RepartitionActiviteAna();
 
-		$obj->setCentre("centre");
-		$this->assertEquals("centre", $obj->getCentre());
-	}
+        $obj->setCentre("centre");
+        $this->assertEquals("centre", $obj->getCentre());
+    }
 
-	/**
-	 * Tests the setNature() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNature() {
+    /**
+     * Tests the setNature() method.
+     *
+     * @return void
+     */
+    public function testSetNature() {
 
-		$obj = new RepartitionActiviteAna();
+        $obj = new RepartitionActiviteAna();
 
-		$obj->setNature("nature");
-		$this->assertEquals("nature", $obj->getNature());
-	}
+        $obj->setNature("nature");
+        $this->assertEquals("nature", $obj->getNature());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new RepartitionActiviteAna();
+        $obj = new RepartitionActiviteAna();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setTauxVentilation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxVentilation() {
+    /**
+     * Tests the setTauxVentilation() method.
+     *
+     * @return void
+     */
+    public function testSetTauxVentilation() {
 
-		$obj = new RepartitionActiviteAna();
+        $obj = new RepartitionActiviteAna();
 
-		$obj->setTauxVentilation(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxVentilation());
-	}
+        $obj->setTauxVentilation(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxVentilation());
+    }
 
 }

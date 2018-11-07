@@ -22,85 +22,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LibellesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Libelles();
+        $obj = new Libelles();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getType());
-		$this->assertNull($obj->getTypeMontant());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getTypeMontant());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new Libelles();
+        $obj = new Libelles();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new Libelles();
+        $obj = new Libelles();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new Libelles();
+        $obj = new Libelles();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new Libelles();
+        $obj = new Libelles();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
-	/**
-	 * Tests the setTypeMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeMontant() {
+    /**
+     * Tests the setTypeMontant() method.
+     *
+     * @return void
+     */
+    public function testSetTypeMontant() {
 
-		$obj = new Libelles();
+        $obj = new Libelles();
 
-		$obj->setTypeMontant("typeMontant");
-		$this->assertEquals("typeMontant", $obj->getTypeMontant());
-	}
+        $obj->setTypeMontant("typeMontant");
+        $this->assertEquals("typeMontant", $obj->getTypeMontant());
+    }
 
 }

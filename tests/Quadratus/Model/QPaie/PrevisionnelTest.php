@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PrevisionnelTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Previsionnel();
+        $obj = new Previsionnel();
 
-		$this->assertNull($obj->getAnnee());
-		$this->assertNull($obj->getDateApplication());
-		$this->assertNull($obj->getDebutSemaine());
-		$this->assertNull($obj->getHorairePrevu());
-		$this->assertNull($obj->getNumeroGrilleType());
-		$this->assertNull($obj->getNumeroSemaine());
-	}
+        $this->assertNull($obj->getAnnee());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getDebutSemaine());
+        $this->assertNull($obj->getHorairePrevu());
+        $this->assertNull($obj->getNumeroGrilleType());
+        $this->assertNull($obj->getNumeroSemaine());
+    }
 
-	/**
-	 * Tests the setAnnee() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAnnee() {
+    /**
+     * Tests the setAnnee() method.
+     *
+     * @return void
+     */
+    public function testSetAnnee() {
 
-		$obj = new Previsionnel();
+        $obj = new Previsionnel();
 
-		$obj->setAnnee(10);
-		$this->assertEquals(10, $obj->getAnnee());
-	}
+        $obj->setAnnee(10);
+        $this->assertEquals(10, $obj->getAnnee());
+    }
 
-	/**
-	 * Tests the setDateApplication() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateApplication() {
+    /**
+     * Tests the setDateApplication() method.
+     *
+     * @return void
+     */
+    public function testSetDateApplication() {
 
-		$obj = new Previsionnel();
+        $obj = new Previsionnel();
 
-		$obj->setDateApplication(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplication());
-	}
+        $obj->setDateApplication(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplication());
+    }
 
-	/**
-	 * Tests the setDebutSemaine() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDebutSemaine() {
+    /**
+     * Tests the setDebutSemaine() method.
+     *
+     * @return void
+     */
+    public function testSetDebutSemaine() {
 
-		$obj = new Previsionnel();
+        $obj = new Previsionnel();
 
-		$obj->setDebutSemaine(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDebutSemaine());
-	}
+        $obj->setDebutSemaine(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDebutSemaine());
+    }
 
-	/**
-	 * Tests the setHorairePrevu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHorairePrevu() {
+    /**
+     * Tests the setHorairePrevu() method.
+     *
+     * @return void
+     */
+    public function testSetHorairePrevu() {
 
-		$obj = new Previsionnel();
+        $obj = new Previsionnel();
 
-		$obj->setHorairePrevu(10.092018);
-		$this->assertEquals(10.092018, $obj->getHorairePrevu());
-	}
+        $obj->setHorairePrevu(10.092018);
+        $this->assertEquals(10.092018, $obj->getHorairePrevu());
+    }
 
-	/**
-	 * Tests the setNumeroGrilleType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroGrilleType() {
+    /**
+     * Tests the setNumeroGrilleType() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroGrilleType() {
 
-		$obj = new Previsionnel();
+        $obj = new Previsionnel();
 
-		$obj->setNumeroGrilleType(10);
-		$this->assertEquals(10, $obj->getNumeroGrilleType());
-	}
+        $obj->setNumeroGrilleType(10);
+        $this->assertEquals(10, $obj->getNumeroGrilleType());
+    }
 
-	/**
-	 * Tests the setNumeroSemaine() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroSemaine() {
+    /**
+     * Tests the setNumeroSemaine() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroSemaine() {
 
-		$obj = new Previsionnel();
+        $obj = new Previsionnel();
 
-		$obj->setNumeroSemaine("numeroSemaine");
-		$this->assertEquals("numeroSemaine", $obj->getNumeroSemaine());
-	}
+        $obj->setNumeroSemaine("numeroSemaine");
+        $this->assertEquals("numeroSemaine", $obj->getNumeroSemaine());
+    }
 
 }

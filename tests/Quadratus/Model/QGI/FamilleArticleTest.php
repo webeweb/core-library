@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class FamilleArticleTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new FamilleArticle();
+        $obj = new FamilleArticle();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getLibelle());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new FamilleArticle();
+        $obj = new FamilleArticle();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new FamilleArticle();
+        $obj = new FamilleArticle();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
 }

@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QPaie;
 
-
 /**
  * Regroupement libelles model.
  *
@@ -20,65 +19,65 @@ namespace WBW\Library\Core\Quadratus\Model\QPaie;
  */
 class RegroupementLibelles {
 
-	/**
-	 * Code libelle.
-	 *
-	 * @var string
-	 */
-	private $codeLibelle;
+    /**
+     * Code libelle.
+     *
+     * @var string
+     */
+    private $codeLibelle;
 
-	/**
-	 * Num regroupement.
-	 *
-	 * @var int
-	 */
-	private $numRegroupement;
+    /**
+     * Num regroupement.
+     *
+     * @var int
+     */
+    private $numRegroupement;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code libelle.
-	 *
-	 * @return string Returns the code libelle.
-	 */
-	public function getCodeLibelle() {
-		return $this->codeLibelle;
-	}
+    /**
+     * Get the code libelle.
+     *
+     * @return string Returns the code libelle.
+     */
+    public function getCodeLibelle() {
+        return $this->codeLibelle;
+    }
 
-	/**
-	 * Get the num regroupement.
-	 *
-	 * @return int Returns the num regroupement.
-	 */
-	public function getNumRegroupement() {
-		return $this->numRegroupement;
-	}
+    /**
+     * Get the num regroupement.
+     *
+     * @return int Returns the num regroupement.
+     */
+    public function getNumRegroupement() {
+        return $this->numRegroupement;
+    }
 
-	/**
-	 * Set the code libelle.
-	 *
-	 * @param string $codeLibelle The code libelle.
-	 * @return RegroupementLibelles Returns this regroupement libelles.
-	 */
-	public function setCodeLibelle($codeLibelle) {
-		$this->codeLibelle = $codeLibelle;
-		return $this;
-	}
+    /**
+     * Set the code libelle.
+     *
+     * @param string $codeLibelle The code libelle.
+     * @return RegroupementLibelles Returns this regroupement libelles.
+     */
+    public function setCodeLibelle($codeLibelle) {
+        $this->codeLibelle = $codeLibelle;
+        return $this;
+    }
 
-	/**
-	 * Set the num regroupement.
-	 *
-	 * @param int $numRegroupement The num regroupement.
-	 * @return RegroupementLibelles Returns this regroupement libelles.
-	 */
-	public function setNumRegroupement($numRegroupement) {
-		$this->numRegroupement = $numRegroupement;
-		return $this;
-	}
+    /**
+     * Set the num regroupement.
+     *
+     * @param int $numRegroupement The num regroupement.
+     * @return RegroupementLibelles Returns this regroupement libelles.
+     */
+    public function setNumRegroupement($numRegroupement) {
+        $this->numRegroupement = $numRegroupement;
+        return $this;
+    }
 
 }

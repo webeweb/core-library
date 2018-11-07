@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class TempsPrevisionnelsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new TempsPrevisionnels();
+        $obj = new TempsPrevisionnels();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeAvenant());
-		$this->assertNull($obj->getCodePhase());
-		$this->assertNull($obj->getCodeTache());
-		$this->assertNull($obj->getCoutHoraire());
-		$this->assertNull($obj->getNbHeures());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeAvenant());
+        $this->assertNull($obj->getCodePhase());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getCoutHoraire());
+        $this->assertNull($obj->getNbHeures());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new TempsPrevisionnels();
+        $obj = new TempsPrevisionnels();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeAvenant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAvenant() {
+    /**
+     * Tests the setCodeAvenant() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAvenant() {
 
-		$obj = new TempsPrevisionnels();
+        $obj = new TempsPrevisionnels();
 
-		$obj->setCodeAvenant("codeAvenant");
-		$this->assertEquals("codeAvenant", $obj->getCodeAvenant());
-	}
+        $obj->setCodeAvenant("codeAvenant");
+        $this->assertEquals("codeAvenant", $obj->getCodeAvenant());
+    }
 
-	/**
-	 * Tests the setCodePhase() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePhase() {
+    /**
+     * Tests the setCodePhase() method.
+     *
+     * @return void
+     */
+    public function testSetCodePhase() {
 
-		$obj = new TempsPrevisionnels();
+        $obj = new TempsPrevisionnels();
 
-		$obj->setCodePhase("codePhase");
-		$this->assertEquals("codePhase", $obj->getCodePhase());
-	}
+        $obj->setCodePhase("codePhase");
+        $this->assertEquals("codePhase", $obj->getCodePhase());
+    }
 
-	/**
-	 * Tests the setCodeTache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTache() {
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
 
-		$obj = new TempsPrevisionnels();
+        $obj = new TempsPrevisionnels();
 
-		$obj->setCodeTache("codeTache");
-		$this->assertEquals("codeTache", $obj->getCodeTache());
-	}
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
 
-	/**
-	 * Tests the setCoutHoraire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCoutHoraire() {
+    /**
+     * Tests the setCoutHoraire() method.
+     *
+     * @return void
+     */
+    public function testSetCoutHoraire() {
 
-		$obj = new TempsPrevisionnels();
+        $obj = new TempsPrevisionnels();
 
-		$obj->setCoutHoraire(10.092018);
-		$this->assertEquals(10.092018, $obj->getCoutHoraire());
-	}
+        $obj->setCoutHoraire(10.092018);
+        $this->assertEquals(10.092018, $obj->getCoutHoraire());
+    }
 
-	/**
-	 * Tests the setNbHeures() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHeures() {
+    /**
+     * Tests the setNbHeures() method.
+     *
+     * @return void
+     */
+    public function testSetNbHeures() {
 
-		$obj = new TempsPrevisionnels();
+        $obj = new TempsPrevisionnels();
 
-		$obj->setNbHeures(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHeures());
-	}
+        $obj->setNbHeures(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHeures());
+    }
 
 }

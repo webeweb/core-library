@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class SousFamilleArticleTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new SousFamilleArticle();
+        $obj = new SousFamilleArticle();
 
-		$this->assertNull($obj->getActivitePrincipale());
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getLibelle());
-	}
+        $this->assertNull($obj->getActivitePrincipale());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setActivitePrincipale() method.
-	 *
-	 * @return void
-	 */
-	public function testSetActivitePrincipale() {
+    /**
+     * Tests the setActivitePrincipale() method.
+     *
+     * @return void
+     */
+    public function testSetActivitePrincipale() {
 
-		$obj = new SousFamilleArticle();
+        $obj = new SousFamilleArticle();
 
-		$obj->setActivitePrincipale("activitePrincipale");
-		$this->assertEquals("activitePrincipale", $obj->getActivitePrincipale());
-	}
+        $obj->setActivitePrincipale("activitePrincipale");
+        $this->assertEquals("activitePrincipale", $obj->getActivitePrincipale());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new SousFamilleArticle();
+        $obj = new SousFamilleArticle();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new SousFamilleArticle();
+        $obj = new SousFamilleArticle();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
 }

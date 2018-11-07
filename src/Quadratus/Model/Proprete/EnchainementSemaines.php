@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\Proprete;
 
-
 /**
  * Enchainement semaines model.
  *
@@ -20,65 +19,65 @@ namespace WBW\Library\Core\Quadratus\Model\Proprete;
  */
 class EnchainementSemaines {
 
-	/**
-	 * Discr sem.
-	 *
-	 * @var int
-	 */
-	private $discrSem;
+    /**
+     * Discr sem.
+     *
+     * @var int
+     */
+    private $discrSem;
 
-	/**
-	 * Num ordre.
-	 *
-	 * @var int
-	 */
-	private $numOrdre;
+    /**
+     * Num ordre.
+     *
+     * @var int
+     */
+    private $numOrdre;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the discr sem.
-	 *
-	 * @return int Returns the discr sem.
-	 */
-	public function getDiscrSem() {
-		return $this->discrSem;
-	}
+    /**
+     * Get the discr sem.
+     *
+     * @return int Returns the discr sem.
+     */
+    public function getDiscrSem() {
+        return $this->discrSem;
+    }
 
-	/**
-	 * Get the num ordre.
-	 *
-	 * @return int Returns the num ordre.
-	 */
-	public function getNumOrdre() {
-		return $this->numOrdre;
-	}
+    /**
+     * Get the num ordre.
+     *
+     * @return int Returns the num ordre.
+     */
+    public function getNumOrdre() {
+        return $this->numOrdre;
+    }
 
-	/**
-	 * Set the discr sem.
-	 *
-	 * @param int $discrSem The discr sem.
-	 * @return EnchainementSemaines Returns this enchainement semaines.
-	 */
-	public function setDiscrSem($discrSem) {
-		$this->discrSem = $discrSem;
-		return $this;
-	}
+    /**
+     * Set the discr sem.
+     *
+     * @param int $discrSem The discr sem.
+     * @return EnchainementSemaines Returns this enchainement semaines.
+     */
+    public function setDiscrSem($discrSem) {
+        $this->discrSem = $discrSem;
+        return $this;
+    }
 
-	/**
-	 * Set the num ordre.
-	 *
-	 * @param int $numOrdre The num ordre.
-	 * @return EnchainementSemaines Returns this enchainement semaines.
-	 */
-	public function setNumOrdre($numOrdre) {
-		$this->numOrdre = $numOrdre;
-		return $this;
-	}
+    /**
+     * Set the num ordre.
+     *
+     * @param int $numOrdre The num ordre.
+     * @return EnchainementSemaines Returns this enchainement semaines.
+     */
+    public function setNumOrdre($numOrdre) {
+        $this->numOrdre = $numOrdre;
+        return $this;
+    }
 
 }

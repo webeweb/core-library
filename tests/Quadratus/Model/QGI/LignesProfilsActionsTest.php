@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LignesProfilsActionsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new LignesProfilsActions();
+        $obj = new LignesProfilsActions();
 
-		$this->assertNull($obj->getCodeAction());
-		$this->assertNull($obj->getCodeProfil());
-		$this->assertNull($obj->getNumLigne());
-	}
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeProfil());
+        $this->assertNull($obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setCodeAction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAction() {
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
 
-		$obj = new LignesProfilsActions();
+        $obj = new LignesProfilsActions();
 
-		$obj->setCodeAction("codeAction");
-		$this->assertEquals("codeAction", $obj->getCodeAction());
-	}
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
 
-	/**
-	 * Tests the setCodeProfil() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeProfil() {
+    /**
+     * Tests the setCodeProfil() method.
+     *
+     * @return void
+     */
+    public function testSetCodeProfil() {
 
-		$obj = new LignesProfilsActions();
+        $obj = new LignesProfilsActions();
 
-		$obj->setCodeProfil("codeProfil");
-		$this->assertEquals("codeProfil", $obj->getCodeProfil());
-	}
+        $obj->setCodeProfil("codeProfil");
+        $this->assertEquals("codeProfil", $obj->getCodeProfil());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new LignesProfilsActions();
+        $obj = new LignesProfilsActions();
 
-		$obj->setNumLigne(10);
-		$this->assertEquals(10, $obj->getNumLigne());
-	}
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
 
 }

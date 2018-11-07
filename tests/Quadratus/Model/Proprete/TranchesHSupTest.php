@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class TranchesHSupTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$this->assertNull($obj->getNbHeures());
-		$this->assertNull($obj->getTaux());
-		$this->assertNull($obj->getType());
-	}
+        $this->assertNull($obj->getNbHeures());
+        $this->assertNull($obj->getTaux());
+        $this->assertNull($obj->getType());
+    }
 
-	/**
-	 * Tests the setNbHeures() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHeures() {
+    /**
+     * Tests the setNbHeures() method.
+     *
+     * @return void
+     */
+    public function testSetNbHeures() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setNbHeures(10);
-		$this->assertEquals(10, $obj->getNbHeures());
-	}
+        $obj->setNbHeures(10);
+        $this->assertEquals(10, $obj->getNbHeures());
+    }
 
-	/**
-	 * Tests the setTaux() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTaux() {
+    /**
+     * Tests the setTaux() method.
+     *
+     * @return void
+     */
+    public function testSetTaux() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setTaux(10.092018);
-		$this->assertEquals(10.092018, $obj->getTaux());
-	}
+        $obj->setTaux(10.092018);
+        $this->assertEquals(10.092018, $obj->getTaux());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
 }

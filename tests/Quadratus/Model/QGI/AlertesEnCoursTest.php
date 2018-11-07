@@ -23,127 +23,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AlertesEnCoursTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$this->assertNull($obj->getARDemande());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeCollabDST());
-		$this->assertNull($obj->getCodeCollabORG());
-		$this->assertNull($obj->getDateCreation());
-		$this->assertNull($obj->getDateDeclenchement());
-		$this->assertNull($obj->getIDAlerte());
-		$this->assertNull($obj->getTexteAlerte());
-	}
+        $this->assertNull($obj->getARDemande());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollabDST());
+        $this->assertNull($obj->getCodeCollabORG());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateDeclenchement());
+        $this->assertNull($obj->getIDAlerte());
+        $this->assertNull($obj->getTexteAlerte());
+    }
 
-	/**
-	 * Tests the setARDemande() method.
-	 *
-	 * @return void
-	 */
-	public function testSetARDemande() {
+    /**
+     * Tests the setARDemande() method.
+     *
+     * @return void
+     */
+    public function testSetARDemande() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$obj->setARDemande(true);
-		$this->assertEquals(true, $obj->getARDemande());
-	}
+        $obj->setARDemande(true);
+        $this->assertEquals(true, $obj->getARDemande());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeCollabDST() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollabDST() {
+    /**
+     * Tests the setCodeCollabDST() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollabDST() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$obj->setCodeCollabDST("codeCollabDST");
-		$this->assertEquals("codeCollabDST", $obj->getCodeCollabDST());
-	}
+        $obj->setCodeCollabDST("codeCollabDST");
+        $this->assertEquals("codeCollabDST", $obj->getCodeCollabDST());
+    }
 
-	/**
-	 * Tests the setCodeCollabORG() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollabORG() {
+    /**
+     * Tests the setCodeCollabORG() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollabORG() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$obj->setCodeCollabORG("codeCollabORG");
-		$this->assertEquals("codeCollabORG", $obj->getCodeCollabORG());
-	}
+        $obj->setCodeCollabORG("codeCollabORG");
+        $this->assertEquals("codeCollabORG", $obj->getCodeCollabORG());
+    }
 
-	/**
-	 * Tests the setDateCreation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateCreation() {
+    /**
+     * Tests the setDateCreation() method.
+     *
+     * @return void
+     */
+    public function testSetDateCreation() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$obj->setDateCreation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
-	}
+        $obj->setDateCreation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
+    }
 
-	/**
-	 * Tests the setDateDeclenchement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateDeclenchement() {
+    /**
+     * Tests the setDateDeclenchement() method.
+     *
+     * @return void
+     */
+    public function testSetDateDeclenchement() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$obj->setDateDeclenchement(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDeclenchement());
-	}
+        $obj->setDateDeclenchement(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDeclenchement());
+    }
 
-	/**
-	 * Tests the setIDAlerte() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIDAlerte() {
+    /**
+     * Tests the setIDAlerte() method.
+     *
+     * @return void
+     */
+    public function testSetIDAlerte() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$obj->setIDAlerte(10);
-		$this->assertEquals(10, $obj->getIDAlerte());
-	}
+        $obj->setIDAlerte(10);
+        $this->assertEquals(10, $obj->getIDAlerte());
+    }
 
-	/**
-	 * Tests the setTexteAlerte() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTexteAlerte() {
+    /**
+     * Tests the setTexteAlerte() method.
+     *
+     * @return void
+     */
+    public function testSetTexteAlerte() {
 
-		$obj = new AlertesEnCours();
+        $obj = new AlertesEnCours();
 
-		$obj->setTexteAlerte("texteAlerte");
-		$this->assertEquals("texteAlerte", $obj->getTexteAlerte());
-	}
+        $obj->setTexteAlerte("texteAlerte");
+        $this->assertEquals("texteAlerte", $obj->getTexteAlerte());
+    }
 
 }

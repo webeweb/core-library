@@ -23,57 +23,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmpReportModulationTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmpReportModulation();
+        $obj = new EmpReportModulation();
 
-		$this->assertNull($obj->getDateApplication());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getReportModAnt());
-	}
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getReportModAnt());
+    }
 
-	/**
-	 * Tests the setDateApplication() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateApplication() {
+    /**
+     * Tests the setDateApplication() method.
+     *
+     * @return void
+     */
+    public function testSetDateApplication() {
 
-		$obj = new EmpReportModulation();
+        $obj = new EmpReportModulation();
 
-		$obj->setDateApplication(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplication());
-	}
+        $obj->setDateApplication(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplication());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new EmpReportModulation();
+        $obj = new EmpReportModulation();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setReportModAnt() method.
-	 *
-	 * @return void
-	 */
-	public function testSetReportModAnt() {
+    /**
+     * Tests the setReportModAnt() method.
+     *
+     * @return void
+     */
+    public function testSetReportModAnt() {
 
-		$obj = new EmpReportModulation();
+        $obj = new EmpReportModulation();
 
-		$obj->setReportModAnt(10.092018);
-		$this->assertEquals(10.092018, $obj->getReportModAnt());
-	}
+        $obj->setReportModAnt(10.092018);
+        $this->assertEquals(10.092018, $obj->getReportModAnt());
+    }
 
 }

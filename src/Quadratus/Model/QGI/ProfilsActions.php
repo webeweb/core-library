@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Profils actions model.
  *
@@ -20,65 +19,65 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class ProfilsActions {
 
-	/**
-	 * Code profil.
-	 *
-	 * @var string
-	 */
-	private $codeProfil;
+    /**
+     * Code profil.
+     *
+     * @var string
+     */
+    private $codeProfil;
 
-	/**
-	 * Intitule.
-	 *
-	 * @var string
-	 */
-	private $intitule;
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code profil.
-	 *
-	 * @return string Returns the code profil.
-	 */
-	public function getCodeProfil() {
-		return $this->codeProfil;
-	}
+    /**
+     * Get the code profil.
+     *
+     * @return string Returns the code profil.
+     */
+    public function getCodeProfil() {
+        return $this->codeProfil;
+    }
 
-	/**
-	 * Get the intitule.
-	 *
-	 * @return string Returns the intitule.
-	 */
-	public function getIntitule() {
-		return $this->intitule;
-	}
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
 
-	/**
-	 * Set the code profil.
-	 *
-	 * @param string $codeProfil The code profil.
-	 * @return ProfilsActions Returns this profils actions.
-	 */
-	public function setCodeProfil($codeProfil) {
-		$this->codeProfil = $codeProfil;
-		return $this;
-	}
+    /**
+     * Set the code profil.
+     *
+     * @param string $codeProfil The code profil.
+     * @return ProfilsActions Returns this profils actions.
+     */
+    public function setCodeProfil($codeProfil) {
+        $this->codeProfil = $codeProfil;
+        return $this;
+    }
 
-	/**
-	 * Set the intitule.
-	 *
-	 * @param string $intitule The intitule.
-	 * @return ProfilsActions Returns this profils actions.
-	 */
-	public function setIntitule($intitule) {
-		$this->intitule = $intitule;
-		return $this;
-	}
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     * @return ProfilsActions Returns this profils actions.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
 
 }

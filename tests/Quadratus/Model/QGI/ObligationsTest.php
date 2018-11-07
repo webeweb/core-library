@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ObligationsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Obligations();
+        $obj = new Obligations();
 
-		$this->assertNull($obj->getCodeFamille());
-		$this->assertNull($obj->getCodeObligation());
-		$this->assertNull($obj->getFrequence());
-		$this->assertNull($obj->getIntitule());
-	}
+        $this->assertNull($obj->getCodeFamille());
+        $this->assertNull($obj->getCodeObligation());
+        $this->assertNull($obj->getFrequence());
+        $this->assertNull($obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setCodeFamille() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeFamille() {
+    /**
+     * Tests the setCodeFamille() method.
+     *
+     * @return void
+     */
+    public function testSetCodeFamille() {
 
-		$obj = new Obligations();
+        $obj = new Obligations();
 
-		$obj->setCodeFamille("codeFamille");
-		$this->assertEquals("codeFamille", $obj->getCodeFamille());
-	}
+        $obj->setCodeFamille("codeFamille");
+        $this->assertEquals("codeFamille", $obj->getCodeFamille());
+    }
 
-	/**
-	 * Tests the setCodeObligation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeObligation() {
+    /**
+     * Tests the setCodeObligation() method.
+     *
+     * @return void
+     */
+    public function testSetCodeObligation() {
 
-		$obj = new Obligations();
+        $obj = new Obligations();
 
-		$obj->setCodeObligation("codeObligation");
-		$this->assertEquals("codeObligation", $obj->getCodeObligation());
-	}
+        $obj->setCodeObligation("codeObligation");
+        $this->assertEquals("codeObligation", $obj->getCodeObligation());
+    }
 
-	/**
-	 * Tests the setFrequence() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFrequence() {
+    /**
+     * Tests the setFrequence() method.
+     *
+     * @return void
+     */
+    public function testSetFrequence() {
 
-		$obj = new Obligations();
+        $obj = new Obligations();
 
-		$obj->setFrequence("frequence");
-		$this->assertEquals("frequence", $obj->getFrequence());
-	}
+        $obj->setFrequence("frequence");
+        $this->assertEquals("frequence", $obj->getFrequence());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new Obligations();
+        $obj = new Obligations();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
 }

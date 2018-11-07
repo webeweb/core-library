@@ -22,183 +22,183 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class BonsTravauxInterventionsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getDimanche());
-		$this->assertNull($obj->getJeudi());
-		$this->assertNull($obj->getLundi());
-		$this->assertNull($obj->getMardi());
-		$this->assertNull($obj->getMercredi());
-		$this->assertNull($obj->getNumBT());
-		$this->assertNull($obj->getNumSem());
-		$this->assertNull($obj->getSamedi());
-		$this->assertNull($obj->getVendredi());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDimanche());
+        $this->assertNull($obj->getJeudi());
+        $this->assertNull($obj->getLundi());
+        $this->assertNull($obj->getMardi());
+        $this->assertNull($obj->getMercredi());
+        $this->assertNull($obj->getNumBT());
+        $this->assertNull($obj->getNumSem());
+        $this->assertNull($obj->getSamedi());
+        $this->assertNull($obj->getVendredi());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setDimanche() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDimanche() {
+    /**
+     * Tests the setDimanche() method.
+     *
+     * @return void
+     */
+    public function testSetDimanche() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setDimanche(true);
-		$this->assertEquals(true, $obj->getDimanche());
-	}
+        $obj->setDimanche(true);
+        $this->assertEquals(true, $obj->getDimanche());
+    }
 
-	/**
-	 * Tests the setJeudi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetJeudi() {
+    /**
+     * Tests the setJeudi() method.
+     *
+     * @return void
+     */
+    public function testSetJeudi() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setJeudi(true);
-		$this->assertEquals(true, $obj->getJeudi());
-	}
+        $obj->setJeudi(true);
+        $this->assertEquals(true, $obj->getJeudi());
+    }
 
-	/**
-	 * Tests the setLundi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLundi() {
+    /**
+     * Tests the setLundi() method.
+     *
+     * @return void
+     */
+    public function testSetLundi() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setLundi(true);
-		$this->assertEquals(true, $obj->getLundi());
-	}
+        $obj->setLundi(true);
+        $this->assertEquals(true, $obj->getLundi());
+    }
 
-	/**
-	 * Tests the setMardi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMardi() {
+    /**
+     * Tests the setMardi() method.
+     *
+     * @return void
+     */
+    public function testSetMardi() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setMardi(true);
-		$this->assertEquals(true, $obj->getMardi());
-	}
+        $obj->setMardi(true);
+        $this->assertEquals(true, $obj->getMardi());
+    }
 
-	/**
-	 * Tests the setMercredi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMercredi() {
+    /**
+     * Tests the setMercredi() method.
+     *
+     * @return void
+     */
+    public function testSetMercredi() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setMercredi(true);
-		$this->assertEquals(true, $obj->getMercredi());
-	}
+        $obj->setMercredi(true);
+        $this->assertEquals(true, $obj->getMercredi());
+    }
 
-	/**
-	 * Tests the setNumBT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumBT() {
+    /**
+     * Tests the setNumBT() method.
+     *
+     * @return void
+     */
+    public function testSetNumBT() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setNumBT(10);
-		$this->assertEquals(10, $obj->getNumBT());
-	}
+        $obj->setNumBT(10);
+        $this->assertEquals(10, $obj->getNumBT());
+    }
 
-	/**
-	 * Tests the setNumSem() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumSem() {
+    /**
+     * Tests the setNumSem() method.
+     *
+     * @return void
+     */
+    public function testSetNumSem() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setNumSem("numSem");
-		$this->assertEquals("numSem", $obj->getNumSem());
-	}
+        $obj->setNumSem("numSem");
+        $this->assertEquals("numSem", $obj->getNumSem());
+    }
 
-	/**
-	 * Tests the setSamedi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSamedi() {
+    /**
+     * Tests the setSamedi() method.
+     *
+     * @return void
+     */
+    public function testSetSamedi() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setSamedi(true);
-		$this->assertEquals(true, $obj->getSamedi());
-	}
+        $obj->setSamedi(true);
+        $this->assertEquals(true, $obj->getSamedi());
+    }
 
-	/**
-	 * Tests the setVendredi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVendredi() {
+    /**
+     * Tests the setVendredi() method.
+     *
+     * @return void
+     */
+    public function testSetVendredi() {
 
-		$obj = new BonsTravauxInterventions();
+        $obj = new BonsTravauxInterventions();
 
-		$obj->setVendredi(true);
-		$this->assertEquals(true, $obj->getVendredi());
-	}
+        $obj->setVendredi(true);
+        $this->assertEquals(true, $obj->getVendredi());
+    }
 
 }

@@ -22,197 +22,197 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LiaisonsDestinatairesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$this->assertNull($obj->getAgence());
-		$this->assertNull($obj->getChemin());
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getEMail());
-		$this->assertNull($obj->getIntitule());
-		$this->assertNull($obj->getMachine());
-		$this->assertNull($obj->getMotDePasse());
-		$this->assertNull($obj->getPartage());
-		$this->assertNull($obj->getSelectionArticle());
-		$this->assertNull($obj->getSelectionClient());
-		$this->assertNull($obj->getSelectionFournisseur());
-		$this->assertNull($obj->getTypeLiaison());
-		$this->assertNull($obj->getUtilisateur());
-	}
+        $this->assertNull($obj->getAgence());
+        $this->assertNull($obj->getChemin());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getEMail());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMachine());
+        $this->assertNull($obj->getMotDePasse());
+        $this->assertNull($obj->getPartage());
+        $this->assertNull($obj->getSelectionArticle());
+        $this->assertNull($obj->getSelectionClient());
+        $this->assertNull($obj->getSelectionFournisseur());
+        $this->assertNull($obj->getTypeLiaison());
+        $this->assertNull($obj->getUtilisateur());
+    }
 
-	/**
-	 * Tests the setAgence() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAgence() {
+    /**
+     * Tests the setAgence() method.
+     *
+     * @return void
+     */
+    public function testSetAgence() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setAgence(true);
-		$this->assertEquals(true, $obj->getAgence());
-	}
+        $obj->setAgence(true);
+        $this->assertEquals(true, $obj->getAgence());
+    }
 
-	/**
-	 * Tests the setChemin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetChemin() {
+    /**
+     * Tests the setChemin() method.
+     *
+     * @return void
+     */
+    public function testSetChemin() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setChemin("chemin");
-		$this->assertEquals("chemin", $obj->getChemin());
-	}
+        $obj->setChemin("chemin");
+        $this->assertEquals("chemin", $obj->getChemin());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setEMail() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEMail() {
+    /**
+     * Tests the setEMail() method.
+     *
+     * @return void
+     */
+    public function testSetEMail() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setEMail("eMail");
-		$this->assertEquals("eMail", $obj->getEMail());
-	}
+        $obj->setEMail("eMail");
+        $this->assertEquals("eMail", $obj->getEMail());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setMachine() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMachine() {
+    /**
+     * Tests the setMachine() method.
+     *
+     * @return void
+     */
+    public function testSetMachine() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setMachine("machine");
-		$this->assertEquals("machine", $obj->getMachine());
-	}
+        $obj->setMachine("machine");
+        $this->assertEquals("machine", $obj->getMachine());
+    }
 
-	/**
-	 * Tests the setMotDePasse() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMotDePasse() {
+    /**
+     * Tests the setMotDePasse() method.
+     *
+     * @return void
+     */
+    public function testSetMotDePasse() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setMotDePasse("motDePasse");
-		$this->assertEquals("motDePasse", $obj->getMotDePasse());
-	}
+        $obj->setMotDePasse("motDePasse");
+        $this->assertEquals("motDePasse", $obj->getMotDePasse());
+    }
 
-	/**
-	 * Tests the setPartage() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPartage() {
+    /**
+     * Tests the setPartage() method.
+     *
+     * @return void
+     */
+    public function testSetPartage() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setPartage("partage");
-		$this->assertEquals("partage", $obj->getPartage());
-	}
+        $obj->setPartage("partage");
+        $this->assertEquals("partage", $obj->getPartage());
+    }
 
-	/**
-	 * Tests the setSelectionArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSelectionArticle() {
+    /**
+     * Tests the setSelectionArticle() method.
+     *
+     * @return void
+     */
+    public function testSetSelectionArticle() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setSelectionArticle("selectionArticle");
-		$this->assertEquals("selectionArticle", $obj->getSelectionArticle());
-	}
+        $obj->setSelectionArticle("selectionArticle");
+        $this->assertEquals("selectionArticle", $obj->getSelectionArticle());
+    }
 
-	/**
-	 * Tests the setSelectionClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSelectionClient() {
+    /**
+     * Tests the setSelectionClient() method.
+     *
+     * @return void
+     */
+    public function testSetSelectionClient() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setSelectionClient("selectionClient");
-		$this->assertEquals("selectionClient", $obj->getSelectionClient());
-	}
+        $obj->setSelectionClient("selectionClient");
+        $this->assertEquals("selectionClient", $obj->getSelectionClient());
+    }
 
-	/**
-	 * Tests the setSelectionFournisseur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSelectionFournisseur() {
+    /**
+     * Tests the setSelectionFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetSelectionFournisseur() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setSelectionFournisseur("selectionFournisseur");
-		$this->assertEquals("selectionFournisseur", $obj->getSelectionFournisseur());
-	}
+        $obj->setSelectionFournisseur("selectionFournisseur");
+        $this->assertEquals("selectionFournisseur", $obj->getSelectionFournisseur());
+    }
 
-	/**
-	 * Tests the setTypeLiaison() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeLiaison() {
+    /**
+     * Tests the setTypeLiaison() method.
+     *
+     * @return void
+     */
+    public function testSetTypeLiaison() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setTypeLiaison("typeLiaison");
-		$this->assertEquals("typeLiaison", $obj->getTypeLiaison());
-	}
+        $obj->setTypeLiaison("typeLiaison");
+        $this->assertEquals("typeLiaison", $obj->getTypeLiaison());
+    }
 
-	/**
-	 * Tests the setUtilisateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUtilisateur() {
+    /**
+     * Tests the setUtilisateur() method.
+     *
+     * @return void
+     */
+    public function testSetUtilisateur() {
 
-		$obj = new LiaisonsDestinataires();
+        $obj = new LiaisonsDestinataires();
 
-		$obj->setUtilisateur("utilisateur");
-		$this->assertEquals("utilisateur", $obj->getUtilisateur());
-	}
+        $obj->setUtilisateur("utilisateur");
+        $this->assertEquals("utilisateur", $obj->getUtilisateur());
+    }
 
 }

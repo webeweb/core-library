@@ -23,253 +23,253 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LignesATATest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$this->assertNull($obj->getAvantagesEuroOuFranc());
-		$this->assertNull($obj->getCSEuroOuFranc());
-		$this->assertNull($obj->getDateEcheance());
-		$this->assertNull($obj->getFraisPSEuroOuFranc());
-		$this->assertNull($obj->getFraisProSoumis());
-		$this->assertNull($obj->getIndemnitesEuroOuFranc());
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getMontantAvantages());
-		$this->assertNull($obj->getMontantCotis());
-		$this->assertNull($obj->getMontantEuroOuFranc());
-		$this->assertNull($obj->getMontantIndemnites());
-		$this->assertNull($obj->getNbHTrav());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getNumeroAttestation());
-		$this->assertNull($obj->getPeriodeDeb());
-		$this->assertNull($obj->getPeriodeFin());
-		$this->assertNull($obj->getTauxDedSup());
-	}
+        $this->assertNull($obj->getAvantagesEuroOuFranc());
+        $this->assertNull($obj->getCSEuroOuFranc());
+        $this->assertNull($obj->getDateEcheance());
+        $this->assertNull($obj->getFraisPSEuroOuFranc());
+        $this->assertNull($obj->getFraisProSoumis());
+        $this->assertNull($obj->getIndemnitesEuroOuFranc());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantAvantages());
+        $this->assertNull($obj->getMontantCotis());
+        $this->assertNull($obj->getMontantEuroOuFranc());
+        $this->assertNull($obj->getMontantIndemnites());
+        $this->assertNull($obj->getNbHTrav());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getTauxDedSup());
+    }
 
-	/**
-	 * Tests the setAvantagesEuroOuFranc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAvantagesEuroOuFranc() {
+    /**
+     * Tests the setAvantagesEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetAvantagesEuroOuFranc() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setAvantagesEuroOuFranc("avantagesEuroOuFranc");
-		$this->assertEquals("avantagesEuroOuFranc", $obj->getAvantagesEuroOuFranc());
-	}
+        $obj->setAvantagesEuroOuFranc("avantagesEuroOuFranc");
+        $this->assertEquals("avantagesEuroOuFranc", $obj->getAvantagesEuroOuFranc());
+    }
 
-	/**
-	 * Tests the setCSEuroOuFranc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCSEuroOuFranc() {
+    /**
+     * Tests the setCSEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetCSEuroOuFranc() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setCSEuroOuFranc("cSEuroOuFranc");
-		$this->assertEquals("cSEuroOuFranc", $obj->getCSEuroOuFranc());
-	}
+        $obj->setCSEuroOuFranc("cSEuroOuFranc");
+        $this->assertEquals("cSEuroOuFranc", $obj->getCSEuroOuFranc());
+    }
 
-	/**
-	 * Tests the setDateEcheance() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateEcheance() {
+    /**
+     * Tests the setDateEcheance() method.
+     *
+     * @return void
+     */
+    public function testSetDateEcheance() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setDateEcheance(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEcheance());
-	}
+        $obj->setDateEcheance(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEcheance());
+    }
 
-	/**
-	 * Tests the setFraisPSEuroOuFranc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFraisPSEuroOuFranc() {
+    /**
+     * Tests the setFraisPSEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetFraisPSEuroOuFranc() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setFraisPSEuroOuFranc("fraisPSEuroOuFranc");
-		$this->assertEquals("fraisPSEuroOuFranc", $obj->getFraisPSEuroOuFranc());
-	}
+        $obj->setFraisPSEuroOuFranc("fraisPSEuroOuFranc");
+        $this->assertEquals("fraisPSEuroOuFranc", $obj->getFraisPSEuroOuFranc());
+    }
 
-	/**
-	 * Tests the setFraisProSoumis() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFraisProSoumis() {
+    /**
+     * Tests the setFraisProSoumis() method.
+     *
+     * @return void
+     */
+    public function testSetFraisProSoumis() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setFraisProSoumis(10.092018);
-		$this->assertEquals(10.092018, $obj->getFraisProSoumis());
-	}
+        $obj->setFraisProSoumis(10.092018);
+        $this->assertEquals(10.092018, $obj->getFraisProSoumis());
+    }
 
-	/**
-	 * Tests the setIndemnitesEuroOuFranc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndemnitesEuroOuFranc() {
+    /**
+     * Tests the setIndemnitesEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetIndemnitesEuroOuFranc() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setIndemnitesEuroOuFranc("indemnitesEuroOuFranc");
-		$this->assertEquals("indemnitesEuroOuFranc", $obj->getIndemnitesEuroOuFranc());
-	}
+        $obj->setIndemnitesEuroOuFranc("indemnitesEuroOuFranc");
+        $this->assertEquals("indemnitesEuroOuFranc", $obj->getIndemnitesEuroOuFranc());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setMontantAvantages() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantAvantages() {
+    /**
+     * Tests the setMontantAvantages() method.
+     *
+     * @return void
+     */
+    public function testSetMontantAvantages() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setMontantAvantages(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantAvantages());
-	}
+        $obj->setMontantAvantages(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantAvantages());
+    }
 
-	/**
-	 * Tests the setMontantCotis() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantCotis() {
+    /**
+     * Tests the setMontantCotis() method.
+     *
+     * @return void
+     */
+    public function testSetMontantCotis() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setMontantCotis(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantCotis());
-	}
+        $obj->setMontantCotis(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantCotis());
+    }
 
-	/**
-	 * Tests the setMontantEuroOuFranc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantEuroOuFranc() {
+    /**
+     * Tests the setMontantEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetMontantEuroOuFranc() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setMontantEuroOuFranc("montantEuroOuFranc");
-		$this->assertEquals("montantEuroOuFranc", $obj->getMontantEuroOuFranc());
-	}
+        $obj->setMontantEuroOuFranc("montantEuroOuFranc");
+        $this->assertEquals("montantEuroOuFranc", $obj->getMontantEuroOuFranc());
+    }
 
-	/**
-	 * Tests the setMontantIndemnites() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantIndemnites() {
+    /**
+     * Tests the setMontantIndemnites() method.
+     *
+     * @return void
+     */
+    public function testSetMontantIndemnites() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setMontantIndemnites(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantIndemnites());
-	}
+        $obj->setMontantIndemnites(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantIndemnites());
+    }
 
-	/**
-	 * Tests the setNbHTrav() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHTrav() {
+    /**
+     * Tests the setNbHTrav() method.
+     *
+     * @return void
+     */
+    public function testSetNbHTrav() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setNbHTrav(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHTrav());
-	}
+        $obj->setNbHTrav(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHTrav());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setNumLigne("numLigne");
-		$this->assertEquals("numLigne", $obj->getNumLigne());
-	}
+        $obj->setNumLigne("numLigne");
+        $this->assertEquals("numLigne", $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setNumeroAttestation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroAttestation() {
+    /**
+     * Tests the setNumeroAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAttestation() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setNumeroAttestation("numeroAttestation");
-		$this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
-	}
+        $obj->setNumeroAttestation("numeroAttestation");
+        $this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
+    }
 
-	/**
-	 * Tests the setPeriodeDeb() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeDeb() {
+    /**
+     * Tests the setPeriodeDeb() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeDeb() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setPeriodeDeb(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeDeb());
-	}
+        $obj->setPeriodeDeb(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeDeb());
+    }
 
-	/**
-	 * Tests the setPeriodeFin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeFin() {
+    /**
+     * Tests the setPeriodeFin() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeFin() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setPeriodeFin(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeFin());
-	}
+        $obj->setPeriodeFin(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeFin());
+    }
 
-	/**
-	 * Tests the setTauxDedSup() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxDedSup() {
+    /**
+     * Tests the setTauxDedSup() method.
+     *
+     * @return void
+     */
+    public function testSetTauxDedSup() {
 
-		$obj = new LignesATA();
+        $obj = new LignesATA();
 
-		$obj->setTauxDedSup(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxDedSup());
-	}
+        $obj->setTauxDedSup(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxDedSup());
+    }
 
 }

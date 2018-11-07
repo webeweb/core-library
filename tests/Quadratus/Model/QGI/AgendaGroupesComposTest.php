@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AgendaGroupesComposTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AgendaGroupesCompos();
+        $obj = new AgendaGroupesCompos();
 
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getCodeGroupe());
-	}
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeGroupe());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new AgendaGroupesCompos();
+        $obj = new AgendaGroupesCompos();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setCodeGroupe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeGroupe() {
+    /**
+     * Tests the setCodeGroupe() method.
+     *
+     * @return void
+     */
+    public function testSetCodeGroupe() {
 
-		$obj = new AgendaGroupesCompos();
+        $obj = new AgendaGroupesCompos();
 
-		$obj->setCodeGroupe("codeGroupe");
-		$this->assertEquals("codeGroupe", $obj->getCodeGroupe());
-	}
+        $obj->setCodeGroupe("codeGroupe");
+        $this->assertEquals("codeGroupe", $obj->getCodeGroupe());
+    }
 
 }

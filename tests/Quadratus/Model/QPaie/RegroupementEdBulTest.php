@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RegroupementEdBulTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RegroupementEdBul();
+        $obj = new RegroupementEdBul();
 
-		$this->assertNull($obj->getAfficher());
-		$this->assertNull($obj->getCodeLibelle());
-		$this->assertNull($obj->getCodeRegroupEdBul());
-		$this->assertNull($obj->getCodeTitre());
-		$this->assertNull($obj->getExo());
-		$this->assertNull($obj->getQuadra());
-	}
+        $this->assertNull($obj->getAfficher());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeRegroupEdBul());
+        $this->assertNull($obj->getCodeTitre());
+        $this->assertNull($obj->getExo());
+        $this->assertNull($obj->getQuadra());
+    }
 
-	/**
-	 * Tests the setAfficher() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAfficher() {
+    /**
+     * Tests the setAfficher() method.
+     *
+     * @return void
+     */
+    public function testSetAfficher() {
 
-		$obj = new RegroupementEdBul();
+        $obj = new RegroupementEdBul();
 
-		$obj->setAfficher(true);
-		$this->assertEquals(true, $obj->getAfficher());
-	}
+        $obj->setAfficher(true);
+        $this->assertEquals(true, $obj->getAfficher());
+    }
 
-	/**
-	 * Tests the setCodeLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeLibelle() {
+    /**
+     * Tests the setCodeLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibelle() {
 
-		$obj = new RegroupementEdBul();
+        $obj = new RegroupementEdBul();
 
-		$obj->setCodeLibelle("codeLibelle");
-		$this->assertEquals("codeLibelle", $obj->getCodeLibelle());
-	}
+        $obj->setCodeLibelle("codeLibelle");
+        $this->assertEquals("codeLibelle", $obj->getCodeLibelle());
+    }
 
-	/**
-	 * Tests the setCodeRegroupEdBul() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRegroupEdBul() {
+    /**
+     * Tests the setCodeRegroupEdBul() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegroupEdBul() {
 
-		$obj = new RegroupementEdBul();
+        $obj = new RegroupementEdBul();
 
-		$obj->setCodeRegroupEdBul("codeRegroupEdBul");
-		$this->assertEquals("codeRegroupEdBul", $obj->getCodeRegroupEdBul());
-	}
+        $obj->setCodeRegroupEdBul("codeRegroupEdBul");
+        $this->assertEquals("codeRegroupEdBul", $obj->getCodeRegroupEdBul());
+    }
 
-	/**
-	 * Tests the setCodeTitre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTitre() {
+    /**
+     * Tests the setCodeTitre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTitre() {
 
-		$obj = new RegroupementEdBul();
+        $obj = new RegroupementEdBul();
 
-		$obj->setCodeTitre("codeTitre");
-		$this->assertEquals("codeTitre", $obj->getCodeTitre());
-	}
+        $obj->setCodeTitre("codeTitre");
+        $this->assertEquals("codeTitre", $obj->getCodeTitre());
+    }
 
-	/**
-	 * Tests the setExo() method.
-	 *
-	 * @return void
-	 */
-	public function testSetExo() {
+    /**
+     * Tests the setExo() method.
+     *
+     * @return void
+     */
+    public function testSetExo() {
 
-		$obj = new RegroupementEdBul();
+        $obj = new RegroupementEdBul();
 
-		$obj->setExo(true);
-		$this->assertEquals(true, $obj->getExo());
-	}
+        $obj->setExo(true);
+        $this->assertEquals(true, $obj->getExo());
+    }
 
-	/**
-	 * Tests the setQuadra() method.
-	 *
-	 * @return void
-	 */
-	public function testSetQuadra() {
+    /**
+     * Tests the setQuadra() method.
+     *
+     * @return void
+     */
+    public function testSetQuadra() {
 
-		$obj = new RegroupementEdBul();
+        $obj = new RegroupementEdBul();
 
-		$obj->setQuadra(true);
-		$this->assertEquals(true, $obj->getQuadra());
-	}
+        $obj->setQuadra(true);
+        $this->assertEquals(true, $obj->getQuadra());
+    }
 
 }

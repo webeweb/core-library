@@ -23,253 +23,253 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AbsencesEmployeTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$this->assertNull($obj->getAbsenceModifiee());
-		$this->assertNull($obj->getCodeAbsence());
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeCollaboValid());
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodeTache());
-		$this->assertNull($obj->getDateDebutAbs());
-		$this->assertNull($obj->getDateFinAbs());
-		$this->assertNull($obj->getDateValidationSynchro());
-		$this->assertNull($obj->getEtat());
-		$this->assertNull($obj->getFromFermetureChantier());
-		$this->assertNull($obj->getNumBT());
-		$this->assertNull($obj->getUniqID());
-		$this->assertNull($obj->getUniqIDSynchro());
-	}
+        $this->assertNull($obj->getAbsenceModifiee());
+        $this->assertNull($obj->getCodeAbsence());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getDateDebutAbs());
+        $this->assertNull($obj->getDateFinAbs());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getFromFermetureChantier());
+        $this->assertNull($obj->getNumBT());
+        $this->assertNull($obj->getUniqID());
+        $this->assertNull($obj->getUniqIDSynchro());
+    }
 
-	/**
-	 * Tests the setAbsenceModifiee() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAbsenceModifiee() {
+    /**
+     * Tests the setAbsenceModifiee() method.
+     *
+     * @return void
+     */
+    public function testSetAbsenceModifiee() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setAbsenceModifiee("absenceModifiee");
-		$this->assertEquals("absenceModifiee", $obj->getAbsenceModifiee());
-	}
+        $obj->setAbsenceModifiee("absenceModifiee");
+        $this->assertEquals("absenceModifiee", $obj->getAbsenceModifiee());
+    }
 
-	/**
-	 * Tests the setCodeAbsence() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAbsence() {
+    /**
+     * Tests the setCodeAbsence() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAbsence() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setCodeAbsence("codeAbsence");
-		$this->assertEquals("codeAbsence", $obj->getCodeAbsence());
-	}
+        $obj->setCodeAbsence("codeAbsence");
+        $this->assertEquals("codeAbsence", $obj->getCodeAbsence());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeCollaboValid() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaboValid() {
+    /**
+     * Tests the setCodeCollaboValid() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaboValid() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setCodeCollaboValid("codeCollaboValid");
-		$this->assertEquals("codeCollaboValid", $obj->getCodeCollaboValid());
-	}
+        $obj->setCodeCollaboValid("codeCollaboValid");
+        $this->assertEquals("codeCollaboValid", $obj->getCodeCollaboValid());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodeTache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTache() {
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setCodeTache("codeTache");
-		$this->assertEquals("codeTache", $obj->getCodeTache());
-	}
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
 
-	/**
-	 * Tests the setDateDebutAbs() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateDebutAbs() {
+    /**
+     * Tests the setDateDebutAbs() method.
+     *
+     * @return void
+     */
+    public function testSetDateDebutAbs() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setDateDebutAbs(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDebutAbs());
-	}
+        $obj->setDateDebutAbs(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDebutAbs());
+    }
 
-	/**
-	 * Tests the setDateFinAbs() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateFinAbs() {
+    /**
+     * Tests the setDateFinAbs() method.
+     *
+     * @return void
+     */
+    public function testSetDateFinAbs() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setDateFinAbs(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateFinAbs());
-	}
+        $obj->setDateFinAbs(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateFinAbs());
+    }
 
-	/**
-	 * Tests the setDateValidationSynchro() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateValidationSynchro() {
+    /**
+     * Tests the setDateValidationSynchro() method.
+     *
+     * @return void
+     */
+    public function testSetDateValidationSynchro() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setDateValidationSynchro(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateValidationSynchro());
-	}
+        $obj->setDateValidationSynchro(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateValidationSynchro());
+    }
 
-	/**
-	 * Tests the setEtat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEtat() {
+    /**
+     * Tests the setEtat() method.
+     *
+     * @return void
+     */
+    public function testSetEtat() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setEtat("etat");
-		$this->assertEquals("etat", $obj->getEtat());
-	}
+        $obj->setEtat("etat");
+        $this->assertEquals("etat", $obj->getEtat());
+    }
 
-	/**
-	 * Tests the setFromFermetureChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFromFermetureChantier() {
+    /**
+     * Tests the setFromFermetureChantier() method.
+     *
+     * @return void
+     */
+    public function testSetFromFermetureChantier() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setFromFermetureChantier(true);
-		$this->assertEquals(true, $obj->getFromFermetureChantier());
-	}
+        $obj->setFromFermetureChantier(true);
+        $this->assertEquals(true, $obj->getFromFermetureChantier());
+    }
 
-	/**
-	 * Tests the setNumBT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumBT() {
+    /**
+     * Tests the setNumBT() method.
+     *
+     * @return void
+     */
+    public function testSetNumBT() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setNumBT(10);
-		$this->assertEquals(10, $obj->getNumBT());
-	}
+        $obj->setNumBT(10);
+        $this->assertEquals(10, $obj->getNumBT());
+    }
 
-	/**
-	 * Tests the setUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqID() {
+    /**
+     * Tests the setUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetUniqID() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setUniqID("uniqID");
-		$this->assertEquals("uniqID", $obj->getUniqID());
-	}
+        $obj->setUniqID("uniqID");
+        $this->assertEquals("uniqID", $obj->getUniqID());
+    }
 
-	/**
-	 * Tests the setUniqIDSynchro() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqIDSynchro() {
+    /**
+     * Tests the setUniqIDSynchro() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIDSynchro() {
 
-		$obj = new AbsencesEmploye();
+        $obj = new AbsencesEmploye();
 
-		$obj->setUniqIDSynchro("uniqIDSynchro");
-		$this->assertEquals("uniqIDSynchro", $obj->getUniqIDSynchro());
-	}
+        $obj->setUniqIDSynchro("uniqIDSynchro");
+        $this->assertEquals("uniqIDSynchro", $obj->getUniqIDSynchro());
+    }
 
 }

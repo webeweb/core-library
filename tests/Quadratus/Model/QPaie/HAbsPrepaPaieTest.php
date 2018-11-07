@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HAbsPrepaPaieTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HAbsPrepaPaie();
+        $obj = new HAbsPrepaPaie();
 
-		$this->assertNull($obj->getNbHNonEffectue());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getSemaine());
-		$this->assertNull($obj->getTypeAbsence());
-	}
+        $this->assertNull($obj->getNbHNonEffectue());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getSemaine());
+        $this->assertNull($obj->getTypeAbsence());
+    }
 
-	/**
-	 * Tests the setNbHNonEffectue() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHNonEffectue() {
+    /**
+     * Tests the setNbHNonEffectue() method.
+     *
+     * @return void
+     */
+    public function testSetNbHNonEffectue() {
 
-		$obj = new HAbsPrepaPaie();
+        $obj = new HAbsPrepaPaie();
 
-		$obj->setNbHNonEffectue(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHNonEffectue());
-	}
+        $obj->setNbHNonEffectue(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHNonEffectue());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new HAbsPrepaPaie();
+        $obj = new HAbsPrepaPaie();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new HAbsPrepaPaie();
+        $obj = new HAbsPrepaPaie();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setSemaine() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSemaine() {
+    /**
+     * Tests the setSemaine() method.
+     *
+     * @return void
+     */
+    public function testSetSemaine() {
 
-		$obj = new HAbsPrepaPaie();
+        $obj = new HAbsPrepaPaie();
 
-		$obj->setSemaine("semaine");
-		$this->assertEquals("semaine", $obj->getSemaine());
-	}
+        $obj->setSemaine("semaine");
+        $this->assertEquals("semaine", $obj->getSemaine());
+    }
 
-	/**
-	 * Tests the setTypeAbsence() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeAbsence() {
+    /**
+     * Tests the setTypeAbsence() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAbsence() {
 
-		$obj = new HAbsPrepaPaie();
+        $obj = new HAbsPrepaPaie();
 
-		$obj->setTypeAbsence("typeAbsence");
-		$this->assertEquals("typeAbsence", $obj->getTypeAbsence());
-	}
+        $obj->setTypeAbsence("typeAbsence");
+        $this->assertEquals("typeAbsence", $obj->getTypeAbsence());
+    }
 
 }

@@ -21,92 +21,92 @@ use DateTime;
  */
 class QuadraDB {
 
-	/**
-	 * Date envoi message.
-	 *
-	 * @var DateTime
-	 */
-	private $dateEnvoiMessage;
+    /**
+     * Date envoi message.
+     *
+     * @var DateTime
+     */
+    private $dateEnvoiMessage;
 
-	/**
-	 * Taille base.
-	 *
-	 * @var int
-	 */
-	private $tailleBase;
+    /**
+     * Taille base.
+     *
+     * @var int
+     */
+    private $tailleBase;
 
-	/**
-	 * Version.
-	 *
-	 * @var int
-	 */
-	private $version;
+    /**
+     * Version.
+     *
+     * @var int
+     */
+    private $version;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the date envoi message.
-	 *
-	 * @return DateTime Returns the date envoi message.
-	 */
-	public function getDateEnvoiMessage() {
-		return $this->dateEnvoiMessage;
-	}
+    /**
+     * Get the date envoi message.
+     *
+     * @return DateTime Returns the date envoi message.
+     */
+    public function getDateEnvoiMessage() {
+        return $this->dateEnvoiMessage;
+    }
 
-	/**
-	 * Get the taille base.
-	 *
-	 * @return int Returns the taille base.
-	 */
-	public function getTailleBase() {
-		return $this->tailleBase;
-	}
+    /**
+     * Get the taille base.
+     *
+     * @return int Returns the taille base.
+     */
+    public function getTailleBase() {
+        return $this->tailleBase;
+    }
 
-	/**
-	 * Get the version.
-	 *
-	 * @return int Returns the version.
-	 */
-	public function getVersion() {
-		return $this->version;
-	}
+    /**
+     * Get the version.
+     *
+     * @return int Returns the version.
+     */
+    public function getVersion() {
+        return $this->version;
+    }
 
-	/**
-	 * Set the date envoi message.
-	 *
-	 * @param DateTime $dateEnvoiMessage The date envoi message.
-	 * @return QuadraDB Returns this quadra d b.
-	 */
-	public function setDateEnvoiMessage(DateTime $dateEnvoiMessage = null) {
-		$this->dateEnvoiMessage = $dateEnvoiMessage;
-		return $this;
-	}
+    /**
+     * Set the date envoi message.
+     *
+     * @param DateTime $dateEnvoiMessage The date envoi message.
+     * @return QuadraDB Returns this quadra d b.
+     */
+    public function setDateEnvoiMessage(DateTime $dateEnvoiMessage = null) {
+        $this->dateEnvoiMessage = $dateEnvoiMessage;
+        return $this;
+    }
 
-	/**
-	 * Set the taille base.
-	 *
-	 * @param int $tailleBase The taille base.
-	 * @return QuadraDB Returns this quadra d b.
-	 */
-	public function setTailleBase($tailleBase) {
-		$this->tailleBase = $tailleBase;
-		return $this;
-	}
+    /**
+     * Set the taille base.
+     *
+     * @param int $tailleBase The taille base.
+     * @return QuadraDB Returns this quadra d b.
+     */
+    public function setTailleBase($tailleBase) {
+        $this->tailleBase = $tailleBase;
+        return $this;
+    }
 
-	/**
-	 * Set the version.
-	 *
-	 * @param int $version The version.
-	 * @return QuadraDB Returns this quadra d b.
-	 */
-	public function setVersion($version) {
-		$this->version = $version;
-		return $this;
-	}
+    /**
+     * Set the version.
+     *
+     * @param int $version The version.
+     * @return QuadraDB Returns this quadra d b.
+     */
+    public function setVersion($version) {
+        $this->version = $version;
+        return $this;
+    }
 
 }

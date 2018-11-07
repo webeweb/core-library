@@ -23,71 +23,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ChargesPaiePrimesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ChargesPaiePrimes();
+        $obj = new ChargesPaiePrimes();
 
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodePrime());
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getPeriode());
-	}
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodePrime());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new ChargesPaiePrimes();
+        $obj = new ChargesPaiePrimes();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodePrime() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePrime() {
+    /**
+     * Tests the setCodePrime() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrime() {
 
-		$obj = new ChargesPaiePrimes();
+        $obj = new ChargesPaiePrimes();
 
-		$obj->setCodePrime("codePrime");
-		$this->assertEquals("codePrime", $obj->getCodePrime());
-	}
+        $obj->setCodePrime("codePrime");
+        $this->assertEquals("codePrime", $obj->getCodePrime());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new ChargesPaiePrimes();
+        $obj = new ChargesPaiePrimes();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new ChargesPaiePrimes();
+        $obj = new ChargesPaiePrimes();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
 }

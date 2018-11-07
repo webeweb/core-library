@@ -22,127 +22,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ChantiersFrequencesControlesQualiteTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getJour());
-		$this->assertNull($obj->getMois());
-		$this->assertNull($obj->getNumeroFreq());
-		$this->assertNull($obj->getQuePremiereAnnee());
-		$this->assertNull($obj->getTypeControle());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getJour());
+        $this->assertNull($obj->getMois());
+        $this->assertNull($obj->getNumeroFreq());
+        $this->assertNull($obj->getQuePremiereAnnee());
+        $this->assertNull($obj->getTypeControle());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setJour() method.
-	 *
-	 * @return void
-	 */
-	public function testSetJour() {
+    /**
+     * Tests the setJour() method.
+     *
+     * @return void
+     */
+    public function testSetJour() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$obj->setJour("jour");
-		$this->assertEquals("jour", $obj->getJour());
-	}
+        $obj->setJour("jour");
+        $this->assertEquals("jour", $obj->getJour());
+    }
 
-	/**
-	 * Tests the setMois() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMois() {
+    /**
+     * Tests the setMois() method.
+     *
+     * @return void
+     */
+    public function testSetMois() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$obj->setMois("mois");
-		$this->assertEquals("mois", $obj->getMois());
-	}
+        $obj->setMois("mois");
+        $this->assertEquals("mois", $obj->getMois());
+    }
 
-	/**
-	 * Tests the setNumeroFreq() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroFreq() {
+    /**
+     * Tests the setNumeroFreq() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroFreq() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$obj->setNumeroFreq(10);
-		$this->assertEquals(10, $obj->getNumeroFreq());
-	}
+        $obj->setNumeroFreq(10);
+        $this->assertEquals(10, $obj->getNumeroFreq());
+    }
 
-	/**
-	 * Tests the setQuePremiereAnnee() method.
-	 *
-	 * @return void
-	 */
-	public function testSetQuePremiereAnnee() {
+    /**
+     * Tests the setQuePremiereAnnee() method.
+     *
+     * @return void
+     */
+    public function testSetQuePremiereAnnee() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$obj->setQuePremiereAnnee(true);
-		$this->assertEquals(true, $obj->getQuePremiereAnnee());
-	}
+        $obj->setQuePremiereAnnee(true);
+        $this->assertEquals(true, $obj->getQuePremiereAnnee());
+    }
 
-	/**
-	 * Tests the setTypeControle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeControle() {
+    /**
+     * Tests the setTypeControle() method.
+     *
+     * @return void
+     */
+    public function testSetTypeControle() {
 
-		$obj = new ChantiersFrequencesControlesQualite();
+        $obj = new ChantiersFrequencesControlesQualite();
 
-		$obj->setTypeControle("typeControle");
-		$this->assertEquals("typeControle", $obj->getTypeControle());
-	}
+        $obj->setTypeControle("typeControle");
+        $this->assertEquals("typeControle", $obj->getTypeControle());
+    }
 
 }

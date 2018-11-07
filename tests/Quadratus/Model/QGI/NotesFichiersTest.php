@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class NotesFichiersTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new NotesFichiers();
+        $obj = new NotesFichiers();
 
-		$this->assertNull($obj->getDateCreation());
-		$this->assertNull($obj->getNomFichier());
-		$this->assertNull($obj->getNumNote());
-		$this->assertNull($obj->getOrigineFichier());
-		$this->assertNull($obj->getTitre());
-	}
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getNomFichier());
+        $this->assertNull($obj->getNumNote());
+        $this->assertNull($obj->getOrigineFichier());
+        $this->assertNull($obj->getTitre());
+    }
 
-	/**
-	 * Tests the setDateCreation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateCreation() {
+    /**
+     * Tests the setDateCreation() method.
+     *
+     * @return void
+     */
+    public function testSetDateCreation() {
 
-		$obj = new NotesFichiers();
+        $obj = new NotesFichiers();
 
-		$obj->setDateCreation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
-	}
+        $obj->setDateCreation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
+    }
 
-	/**
-	 * Tests the setNomFichier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomFichier() {
+    /**
+     * Tests the setNomFichier() method.
+     *
+     * @return void
+     */
+    public function testSetNomFichier() {
 
-		$obj = new NotesFichiers();
+        $obj = new NotesFichiers();
 
-		$obj->setNomFichier("nomFichier");
-		$this->assertEquals("nomFichier", $obj->getNomFichier());
-	}
+        $obj->setNomFichier("nomFichier");
+        $this->assertEquals("nomFichier", $obj->getNomFichier());
+    }
 
-	/**
-	 * Tests the setNumNote() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumNote() {
+    /**
+     * Tests the setNumNote() method.
+     *
+     * @return void
+     */
+    public function testSetNumNote() {
 
-		$obj = new NotesFichiers();
+        $obj = new NotesFichiers();
 
-		$obj->setNumNote("numNote");
-		$this->assertEquals("numNote", $obj->getNumNote());
-	}
+        $obj->setNumNote("numNote");
+        $this->assertEquals("numNote", $obj->getNumNote());
+    }
 
-	/**
-	 * Tests the setOrigineFichier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOrigineFichier() {
+    /**
+     * Tests the setOrigineFichier() method.
+     *
+     * @return void
+     */
+    public function testSetOrigineFichier() {
 
-		$obj = new NotesFichiers();
+        $obj = new NotesFichiers();
 
-		$obj->setOrigineFichier("origineFichier");
-		$this->assertEquals("origineFichier", $obj->getOrigineFichier());
-	}
+        $obj->setOrigineFichier("origineFichier");
+        $this->assertEquals("origineFichier", $obj->getOrigineFichier());
+    }
 
-	/**
-	 * Tests the setTitre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTitre() {
+    /**
+     * Tests the setTitre() method.
+     *
+     * @return void
+     */
+    public function testSetTitre() {
 
-		$obj = new NotesFichiers();
+        $obj = new NotesFichiers();
 
-		$obj->setTitre("titre");
-		$this->assertEquals("titre", $obj->getTitre());
-	}
+        $obj->setTitre("titre");
+        $this->assertEquals("titre", $obj->getTitre());
+    }
 
 }

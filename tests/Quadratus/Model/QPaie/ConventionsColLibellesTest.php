@@ -22,127 +22,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ConventionsColLibellesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$this->assertNull($obj->getActive());
-		$this->assertNull($obj->getCategSalarie());
-		$this->assertNull($obj->getCodeConvention());
-		$this->assertNull($obj->getCodeLibelle());
-		$this->assertNull($obj->getFraisSanteAM());
-		$this->assertNull($obj->getIndiceCateg());
-		$this->assertNull($obj->getIntitule());
-		$this->assertNull($obj->getPosition());
-	}
+        $this->assertNull($obj->getActive());
+        $this->assertNull($obj->getCategSalarie());
+        $this->assertNull($obj->getCodeConvention());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getFraisSanteAM());
+        $this->assertNull($obj->getIndiceCateg());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getPosition());
+    }
 
-	/**
-	 * Tests the setActive() method.
-	 *
-	 * @return void
-	 */
-	public function testSetActive() {
+    /**
+     * Tests the setActive() method.
+     *
+     * @return void
+     */
+    public function testSetActive() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$obj->setActive(true);
-		$this->assertEquals(true, $obj->getActive());
-	}
+        $obj->setActive(true);
+        $this->assertEquals(true, $obj->getActive());
+    }
 
-	/**
-	 * Tests the setCategSalarie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCategSalarie() {
+    /**
+     * Tests the setCategSalarie() method.
+     *
+     * @return void
+     */
+    public function testSetCategSalarie() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$obj->setCategSalarie(10);
-		$this->assertEquals(10, $obj->getCategSalarie());
-	}
+        $obj->setCategSalarie(10);
+        $this->assertEquals(10, $obj->getCategSalarie());
+    }
 
-	/**
-	 * Tests the setCodeConvention() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeConvention() {
+    /**
+     * Tests the setCodeConvention() method.
+     *
+     * @return void
+     */
+    public function testSetCodeConvention() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$obj->setCodeConvention("codeConvention");
-		$this->assertEquals("codeConvention", $obj->getCodeConvention());
-	}
+        $obj->setCodeConvention("codeConvention");
+        $this->assertEquals("codeConvention", $obj->getCodeConvention());
+    }
 
-	/**
-	 * Tests the setCodeLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeLibelle() {
+    /**
+     * Tests the setCodeLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibelle() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$obj->setCodeLibelle("codeLibelle");
-		$this->assertEquals("codeLibelle", $obj->getCodeLibelle());
-	}
+        $obj->setCodeLibelle("codeLibelle");
+        $this->assertEquals("codeLibelle", $obj->getCodeLibelle());
+    }
 
-	/**
-	 * Tests the setFraisSanteAM() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFraisSanteAM() {
+    /**
+     * Tests the setFraisSanteAM() method.
+     *
+     * @return void
+     */
+    public function testSetFraisSanteAM() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$obj->setFraisSanteAM(true);
-		$this->assertEquals(true, $obj->getFraisSanteAM());
-	}
+        $obj->setFraisSanteAM(true);
+        $this->assertEquals(true, $obj->getFraisSanteAM());
+    }
 
-	/**
-	 * Tests the setIndiceCateg() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndiceCateg() {
+    /**
+     * Tests the setIndiceCateg() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceCateg() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$obj->setIndiceCateg(10);
-		$this->assertEquals(10, $obj->getIndiceCateg());
-	}
+        $obj->setIndiceCateg(10);
+        $this->assertEquals(10, $obj->getIndiceCateg());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setPosition() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPosition() {
+    /**
+     * Tests the setPosition() method.
+     *
+     * @return void
+     */
+    public function testSetPosition() {
 
-		$obj = new ConventionsColLibelles();
+        $obj = new ConventionsColLibelles();
 
-		$obj->setPosition(10);
-		$this->assertEquals(10, $obj->getPosition());
-	}
+        $obj->setPosition(10);
+        $this->assertEquals(10, $obj->getPosition());
+    }
 
 }

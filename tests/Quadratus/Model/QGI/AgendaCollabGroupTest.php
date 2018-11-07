@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AgendaCollabGroupTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AgendaCollabGroup();
+        $obj = new AgendaCollabGroup();
 
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getCodeGroupe());
-		$this->assertNull($obj->getNumLig());
-	}
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeGroupe());
+        $this->assertNull($obj->getNumLig());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new AgendaCollabGroup();
+        $obj = new AgendaCollabGroup();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setCodeGroupe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeGroupe() {
+    /**
+     * Tests the setCodeGroupe() method.
+     *
+     * @return void
+     */
+    public function testSetCodeGroupe() {
 
-		$obj = new AgendaCollabGroup();
+        $obj = new AgendaCollabGroup();
 
-		$obj->setCodeGroupe("codeGroupe");
-		$this->assertEquals("codeGroupe", $obj->getCodeGroupe());
-	}
+        $obj->setCodeGroupe("codeGroupe");
+        $this->assertEquals("codeGroupe", $obj->getCodeGroupe());
+    }
 
-	/**
-	 * Tests the setNumLig() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLig() {
+    /**
+     * Tests the setNumLig() method.
+     *
+     * @return void
+     */
+    public function testSetNumLig() {
 
-		$obj = new AgendaCollabGroup();
+        $obj = new AgendaCollabGroup();
 
-		$obj->setNumLig(10);
-		$this->assertEquals(10, $obj->getNumLig());
-	}
+        $obj->setNumLig(10);
+        $this->assertEquals(10, $obj->getNumLig());
+    }
 
 }

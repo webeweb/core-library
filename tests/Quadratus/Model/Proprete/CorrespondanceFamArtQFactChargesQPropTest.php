@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CorrespondanceFamArtQFactChargesQPropTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CorrespondanceFamArtQFactChargesQProp();
+        $obj = new CorrespondanceFamArtQFactChargesQProp();
 
-		$this->assertNull($obj->getCodeCharge());
-		$this->assertNull($obj->getCodeFamArt());
-	}
+        $this->assertNull($obj->getCodeCharge());
+        $this->assertNull($obj->getCodeFamArt());
+    }
 
-	/**
-	 * Tests the setCodeCharge() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCharge() {
+    /**
+     * Tests the setCodeCharge() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCharge() {
 
-		$obj = new CorrespondanceFamArtQFactChargesQProp();
+        $obj = new CorrespondanceFamArtQFactChargesQProp();
 
-		$obj->setCodeCharge("codeCharge");
-		$this->assertEquals("codeCharge", $obj->getCodeCharge());
-	}
+        $obj->setCodeCharge("codeCharge");
+        $this->assertEquals("codeCharge", $obj->getCodeCharge());
+    }
 
-	/**
-	 * Tests the setCodeFamArt() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeFamArt() {
+    /**
+     * Tests the setCodeFamArt() method.
+     *
+     * @return void
+     */
+    public function testSetCodeFamArt() {
 
-		$obj = new CorrespondanceFamArtQFactChargesQProp();
+        $obj = new CorrespondanceFamArtQFactChargesQProp();
 
-		$obj->setCodeFamArt("codeFamArt");
-		$this->assertEquals("codeFamArt", $obj->getCodeFamArt());
-	}
+        $obj->setCodeFamArt("codeFamArt");
+        $this->assertEquals("codeFamArt", $obj->getCodeFamArt());
+    }
 
 }

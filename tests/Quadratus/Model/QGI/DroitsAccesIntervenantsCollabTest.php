@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DroitsAccesIntervenantsCollabTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DroitsAccesIntervenantsCollab();
+        $obj = new DroitsAccesIntervenantsCollab();
 
-		$this->assertNull($obj->getAccesLibre());
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getTypeIntervenant());
-	}
+        $this->assertNull($obj->getAccesLibre());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getTypeIntervenant());
+    }
 
-	/**
-	 * Tests the setAccesLibre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAccesLibre() {
+    /**
+     * Tests the setAccesLibre() method.
+     *
+     * @return void
+     */
+    public function testSetAccesLibre() {
 
-		$obj = new DroitsAccesIntervenantsCollab();
+        $obj = new DroitsAccesIntervenantsCollab();
 
-		$obj->setAccesLibre(true);
-		$this->assertEquals(true, $obj->getAccesLibre());
-	}
+        $obj->setAccesLibre(true);
+        $this->assertEquals(true, $obj->getAccesLibre());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new DroitsAccesIntervenantsCollab();
+        $obj = new DroitsAccesIntervenantsCollab();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setTypeIntervenant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeIntervenant() {
+    /**
+     * Tests the setTypeIntervenant() method.
+     *
+     * @return void
+     */
+    public function testSetTypeIntervenant() {
 
-		$obj = new DroitsAccesIntervenantsCollab();
+        $obj = new DroitsAccesIntervenantsCollab();
 
-		$obj->setTypeIntervenant("typeIntervenant");
-		$this->assertEquals("typeIntervenant", $obj->getTypeIntervenant());
-	}
+        $obj->setTypeIntervenant("typeIntervenant");
+        $this->assertEquals("typeIntervenant", $obj->getTypeIntervenant());
+    }
 
 }

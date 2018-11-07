@@ -23,71 +23,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class FractionEtabPseudoSiretTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new FractionEtabPseudoSiret();
+        $obj = new FractionEtabPseudoSiret();
 
-		$this->assertNull($obj->getAPartirDe());
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getNumFraction());
-		$this->assertNull($obj->getPseudoSiret());
-	}
+        $this->assertNull($obj->getAPartirDe());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getNumFraction());
+        $this->assertNull($obj->getPseudoSiret());
+    }
 
-	/**
-	 * Tests the setAPartirDe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAPartirDe() {
+    /**
+     * Tests the setAPartirDe() method.
+     *
+     * @return void
+     */
+    public function testSetAPartirDe() {
 
-		$obj = new FractionEtabPseudoSiret();
+        $obj = new FractionEtabPseudoSiret();
 
-		$obj->setAPartirDe(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getAPartirDe());
-	}
+        $obj->setAPartirDe(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getAPartirDe());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new FractionEtabPseudoSiret();
+        $obj = new FractionEtabPseudoSiret();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setNumFraction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumFraction() {
+    /**
+     * Tests the setNumFraction() method.
+     *
+     * @return void
+     */
+    public function testSetNumFraction() {
 
-		$obj = new FractionEtabPseudoSiret();
+        $obj = new FractionEtabPseudoSiret();
 
-		$obj->setNumFraction("numFraction");
-		$this->assertEquals("numFraction", $obj->getNumFraction());
-	}
+        $obj->setNumFraction("numFraction");
+        $this->assertEquals("numFraction", $obj->getNumFraction());
+    }
 
-	/**
-	 * Tests the setPseudoSiret() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPseudoSiret() {
+    /**
+     * Tests the setPseudoSiret() method.
+     *
+     * @return void
+     */
+    public function testSetPseudoSiret() {
 
-		$obj = new FractionEtabPseudoSiret();
+        $obj = new FractionEtabPseudoSiret();
 
-		$obj->setPseudoSiret("pseudoSiret");
-		$this->assertEquals("pseudoSiret", $obj->getPseudoSiret());
-	}
+        $obj->setPseudoSiret("pseudoSiret");
+        $this->assertEquals("pseudoSiret", $obj->getPseudoSiret());
+    }
 
 }

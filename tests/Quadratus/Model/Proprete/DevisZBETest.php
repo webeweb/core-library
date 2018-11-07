@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DevisZBETest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DevisZBE();
+        $obj = new DevisZBE();
 
-		$this->assertNull($obj->getBatiment());
-		$this->assertNull($obj->getEtage());
-		$this->assertNull($obj->getNumDevis());
-		$this->assertNull($obj->getZoneGeographique());
-	}
+        $this->assertNull($obj->getBatiment());
+        $this->assertNull($obj->getEtage());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getZoneGeographique());
+    }
 
-	/**
-	 * Tests the setBatiment() method.
-	 *
-	 * @return void
-	 */
-	public function testSetBatiment() {
+    /**
+     * Tests the setBatiment() method.
+     *
+     * @return void
+     */
+    public function testSetBatiment() {
 
-		$obj = new DevisZBE();
+        $obj = new DevisZBE();
 
-		$obj->setBatiment("batiment");
-		$this->assertEquals("batiment", $obj->getBatiment());
-	}
+        $obj->setBatiment("batiment");
+        $this->assertEquals("batiment", $obj->getBatiment());
+    }
 
-	/**
-	 * Tests the setEtage() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEtage() {
+    /**
+     * Tests the setEtage() method.
+     *
+     * @return void
+     */
+    public function testSetEtage() {
 
-		$obj = new DevisZBE();
+        $obj = new DevisZBE();
 
-		$obj->setEtage("etage");
-		$this->assertEquals("etage", $obj->getEtage());
-	}
+        $obj->setEtage("etage");
+        $this->assertEquals("etage", $obj->getEtage());
+    }
 
-	/**
-	 * Tests the setNumDevis() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDevis() {
+    /**
+     * Tests the setNumDevis() method.
+     *
+     * @return void
+     */
+    public function testSetNumDevis() {
 
-		$obj = new DevisZBE();
+        $obj = new DevisZBE();
 
-		$obj->setNumDevis("numDevis");
-		$this->assertEquals("numDevis", $obj->getNumDevis());
-	}
+        $obj->setNumDevis("numDevis");
+        $this->assertEquals("numDevis", $obj->getNumDevis());
+    }
 
-	/**
-	 * Tests the setZoneGeographique() method.
-	 *
-	 * @return void
-	 */
-	public function testSetZoneGeographique() {
+    /**
+     * Tests the setZoneGeographique() method.
+     *
+     * @return void
+     */
+    public function testSetZoneGeographique() {
 
-		$obj = new DevisZBE();
+        $obj = new DevisZBE();
 
-		$obj->setZoneGeographique("zoneGeographique");
-		$this->assertEquals("zoneGeographique", $obj->getZoneGeographique());
-	}
+        $obj->setZoneGeographique("zoneGeographique");
+        $this->assertEquals("zoneGeographique", $obj->getZoneGeographique());
+    }
 
 }

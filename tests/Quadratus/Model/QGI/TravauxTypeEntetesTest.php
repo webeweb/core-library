@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class TravauxTypeEntetesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new TravauxTypeEntetes();
+        $obj = new TravauxTypeEntetes();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getCodeMission());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getPolice());
-		$this->assertNull($obj->getPolice2());
-		$this->assertNull($obj->getPolice3());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getPolice());
+        $this->assertNull($obj->getPolice2());
+        $this->assertNull($obj->getPolice3());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new TravauxTypeEntetes();
+        $obj = new TravauxTypeEntetes();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setCodeMission() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeMission() {
+    /**
+     * Tests the setCodeMission() method.
+     *
+     * @return void
+     */
+    public function testSetCodeMission() {
 
-		$obj = new TravauxTypeEntetes();
+        $obj = new TravauxTypeEntetes();
 
-		$obj->setCodeMission("codeMission");
-		$this->assertEquals("codeMission", $obj->getCodeMission());
-	}
+        $obj->setCodeMission("codeMission");
+        $this->assertEquals("codeMission", $obj->getCodeMission());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new TravauxTypeEntetes();
+        $obj = new TravauxTypeEntetes();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setPolice() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPolice() {
+    /**
+     * Tests the setPolice() method.
+     *
+     * @return void
+     */
+    public function testSetPolice() {
 
-		$obj = new TravauxTypeEntetes();
+        $obj = new TravauxTypeEntetes();
 
-		$obj->setPolice("police");
-		$this->assertEquals("police", $obj->getPolice());
-	}
+        $obj->setPolice("police");
+        $this->assertEquals("police", $obj->getPolice());
+    }
 
-	/**
-	 * Tests the setPolice2() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPolice2() {
+    /**
+     * Tests the setPolice2() method.
+     *
+     * @return void
+     */
+    public function testSetPolice2() {
 
-		$obj = new TravauxTypeEntetes();
+        $obj = new TravauxTypeEntetes();
 
-		$obj->setPolice2("police2");
-		$this->assertEquals("police2", $obj->getPolice2());
-	}
+        $obj->setPolice2("police2");
+        $this->assertEquals("police2", $obj->getPolice2());
+    }
 
-	/**
-	 * Tests the setPolice3() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPolice3() {
+    /**
+     * Tests the setPolice3() method.
+     *
+     * @return void
+     */
+    public function testSetPolice3() {
 
-		$obj = new TravauxTypeEntetes();
+        $obj = new TravauxTypeEntetes();
 
-		$obj->setPolice3("police3");
-		$this->assertEquals("police3", $obj->getPolice3());
-	}
+        $obj->setPolice3("police3");
+        $this->assertEquals("police3", $obj->getPolice3());
+    }
 
 }

@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ArticleVariantesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ArticleVariantes();
+        $obj = new ArticleVariantes();
 
-		$this->assertNull($obj->getCodeArticle());
-		$this->assertNull($obj->getCodeBarre());
-		$this->assertNull($obj->getCodeVariante());
-		$this->assertNull($obj->getLibelle());
-	}
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeBarre());
+        $this->assertNull($obj->getCodeVariante());
+        $this->assertNull($obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setCodeArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeArticle() {
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
 
-		$obj = new ArticleVariantes();
+        $obj = new ArticleVariantes();
 
-		$obj->setCodeArticle("codeArticle");
-		$this->assertEquals("codeArticle", $obj->getCodeArticle());
-	}
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
 
-	/**
-	 * Tests the setCodeBarre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeBarre() {
+    /**
+     * Tests the setCodeBarre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeBarre() {
 
-		$obj = new ArticleVariantes();
+        $obj = new ArticleVariantes();
 
-		$obj->setCodeBarre("codeBarre");
-		$this->assertEquals("codeBarre", $obj->getCodeBarre());
-	}
+        $obj->setCodeBarre("codeBarre");
+        $this->assertEquals("codeBarre", $obj->getCodeBarre());
+    }
 
-	/**
-	 * Tests the setCodeVariante() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeVariante() {
+    /**
+     * Tests the setCodeVariante() method.
+     *
+     * @return void
+     */
+    public function testSetCodeVariante() {
 
-		$obj = new ArticleVariantes();
+        $obj = new ArticleVariantes();
 
-		$obj->setCodeVariante("codeVariante");
-		$this->assertEquals("codeVariante", $obj->getCodeVariante());
-	}
+        $obj->setCodeVariante("codeVariante");
+        $this->assertEquals("codeVariante", $obj->getCodeVariante());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new ArticleVariantes();
+        $obj = new ArticleVariantes();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
 }

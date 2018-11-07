@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CdeTypeInspEntetesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CdeTypeInspEntetes();
+        $obj = new CdeTypeInspEntetes();
 
-		$this->assertNull($obj->getCodeInspecteur());
-		$this->assertNull($obj->getDtValiditeDebut());
-		$this->assertNull($obj->getDtValiditeFin());
-		$this->assertNull($obj->getMontantBudget());
-		$this->assertNull($obj->getMontantHTCde());
-	}
+        $this->assertNull($obj->getCodeInspecteur());
+        $this->assertNull($obj->getDtValiditeDebut());
+        $this->assertNull($obj->getDtValiditeFin());
+        $this->assertNull($obj->getMontantBudget());
+        $this->assertNull($obj->getMontantHTCde());
+    }
 
-	/**
-	 * Tests the setCodeInspecteur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeInspecteur() {
+    /**
+     * Tests the setCodeInspecteur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeInspecteur() {
 
-		$obj = new CdeTypeInspEntetes();
+        $obj = new CdeTypeInspEntetes();
 
-		$obj->setCodeInspecteur("codeInspecteur");
-		$this->assertEquals("codeInspecteur", $obj->getCodeInspecteur());
-	}
+        $obj->setCodeInspecteur("codeInspecteur");
+        $this->assertEquals("codeInspecteur", $obj->getCodeInspecteur());
+    }
 
-	/**
-	 * Tests the setDtValiditeDebut() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtValiditeDebut() {
+    /**
+     * Tests the setDtValiditeDebut() method.
+     *
+     * @return void
+     */
+    public function testSetDtValiditeDebut() {
 
-		$obj = new CdeTypeInspEntetes();
+        $obj = new CdeTypeInspEntetes();
 
-		$obj->setDtValiditeDebut(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeDebut());
-	}
+        $obj->setDtValiditeDebut(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeDebut());
+    }
 
-	/**
-	 * Tests the setDtValiditeFin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtValiditeFin() {
+    /**
+     * Tests the setDtValiditeFin() method.
+     *
+     * @return void
+     */
+    public function testSetDtValiditeFin() {
 
-		$obj = new CdeTypeInspEntetes();
+        $obj = new CdeTypeInspEntetes();
 
-		$obj->setDtValiditeFin(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFin());
-	}
+        $obj->setDtValiditeFin(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFin());
+    }
 
-	/**
-	 * Tests the setMontantBudget() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantBudget() {
+    /**
+     * Tests the setMontantBudget() method.
+     *
+     * @return void
+     */
+    public function testSetMontantBudget() {
 
-		$obj = new CdeTypeInspEntetes();
+        $obj = new CdeTypeInspEntetes();
 
-		$obj->setMontantBudget(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantBudget());
-	}
+        $obj->setMontantBudget(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantBudget());
+    }
 
-	/**
-	 * Tests the setMontantHTCde() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantHTCde() {
+    /**
+     * Tests the setMontantHTCde() method.
+     *
+     * @return void
+     */
+    public function testSetMontantHTCde() {
 
-		$obj = new CdeTypeInspEntetes();
+        $obj = new CdeTypeInspEntetes();
 
-		$obj->setMontantHTCde(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantHTCde());
-	}
+        $obj->setMontantHTCde(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantHTCde());
+    }
 
 }

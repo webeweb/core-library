@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class BulletinsNavigoTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new BulletinsNavigo();
+        $obj = new BulletinsNavigo();
 
-		$this->assertNull($obj->getIndicePeriode());
-		$this->assertNull($obj->getNbSemaine());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getRbtNonProratise());
-		$this->assertNull($obj->getTypeAbonnement());
-		$this->assertNull($obj->getZone());
-	}
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNbSemaine());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getRbtNonProratise());
+        $this->assertNull($obj->getTypeAbonnement());
+        $this->assertNull($obj->getZone());
+    }
 
-	/**
-	 * Tests the setIndicePeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndicePeriode() {
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
 
-		$obj = new BulletinsNavigo();
+        $obj = new BulletinsNavigo();
 
-		$obj->setIndicePeriode(10);
-		$this->assertEquals(10, $obj->getIndicePeriode());
-	}
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
 
-	/**
-	 * Tests the setNbSemaine() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbSemaine() {
+    /**
+     * Tests the setNbSemaine() method.
+     *
+     * @return void
+     */
+    public function testSetNbSemaine() {
 
-		$obj = new BulletinsNavigo();
+        $obj = new BulletinsNavigo();
 
-		$obj->setNbSemaine("nbSemaine");
-		$this->assertEquals("nbSemaine", $obj->getNbSemaine());
-	}
+        $obj->setNbSemaine("nbSemaine");
+        $this->assertEquals("nbSemaine", $obj->getNbSemaine());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new BulletinsNavigo();
+        $obj = new BulletinsNavigo();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new BulletinsNavigo();
+        $obj = new BulletinsNavigo();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setRbtNonProratise() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRbtNonProratise() {
+    /**
+     * Tests the setRbtNonProratise() method.
+     *
+     * @return void
+     */
+    public function testSetRbtNonProratise() {
 
-		$obj = new BulletinsNavigo();
+        $obj = new BulletinsNavigo();
 
-		$obj->setRbtNonProratise(true);
-		$this->assertEquals(true, $obj->getRbtNonProratise());
-	}
+        $obj->setRbtNonProratise(true);
+        $this->assertEquals(true, $obj->getRbtNonProratise());
+    }
 
-	/**
-	 * Tests the setTypeAbonnement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeAbonnement() {
+    /**
+     * Tests the setTypeAbonnement() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAbonnement() {
 
-		$obj = new BulletinsNavigo();
+        $obj = new BulletinsNavigo();
 
-		$obj->setTypeAbonnement("typeAbonnement");
-		$this->assertEquals("typeAbonnement", $obj->getTypeAbonnement());
-	}
+        $obj->setTypeAbonnement("typeAbonnement");
+        $this->assertEquals("typeAbonnement", $obj->getTypeAbonnement());
+    }
 
-	/**
-	 * Tests the setZone() method.
-	 *
-	 * @return void
-	 */
-	public function testSetZone() {
+    /**
+     * Tests the setZone() method.
+     *
+     * @return void
+     */
+    public function testSetZone() {
 
-		$obj = new BulletinsNavigo();
+        $obj = new BulletinsNavigo();
 
-		$obj->setZone("zone");
-		$this->assertEquals("zone", $obj->getZone());
-	}
+        $obj->setZone("zone");
+        $this->assertEquals("zone", $obj->getZone());
+    }
 
 }

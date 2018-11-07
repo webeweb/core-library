@@ -23,169 +23,169 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DADSUBTPTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCodeOrganisme());
-		$this->assertNull($obj->getCodeTempsArret());
-		$this->assertNull($obj->getDebutPeriode());
-		$this->assertNull($obj->getFinPeriode());
-		$this->assertNull($obj->getMontantEmployeur());
-		$this->assertNull($obj->getNumero());
-		$this->assertNull($obj->getNumeroOrdre());
-		$this->assertNull($obj->getQualifUniteTemps());
-		$this->assertNull($obj->getTempsArret());
-		$this->assertNull($obj->getTypeArret());
-	}
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodeTempsArret());
+        $this->assertNull($obj->getDebutPeriode());
+        $this->assertNull($obj->getFinPeriode());
+        $this->assertNull($obj->getMontantEmployeur());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getNumeroOrdre());
+        $this->assertNull($obj->getQualifUniteTemps());
+        $this->assertNull($obj->getTempsArret());
+        $this->assertNull($obj->getTypeArret());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCodeOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganisme() {
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setCodeOrganisme("codeOrganisme");
-		$this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-	}
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
 
-	/**
-	 * Tests the setCodeTempsArret() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTempsArret() {
+    /**
+     * Tests the setCodeTempsArret() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTempsArret() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setCodeTempsArret("codeTempsArret");
-		$this->assertEquals("codeTempsArret", $obj->getCodeTempsArret());
-	}
+        $obj->setCodeTempsArret("codeTempsArret");
+        $this->assertEquals("codeTempsArret", $obj->getCodeTempsArret());
+    }
 
-	/**
-	 * Tests the setDebutPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDebutPeriode() {
+    /**
+     * Tests the setDebutPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetDebutPeriode() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setDebutPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDebutPeriode());
-	}
+        $obj->setDebutPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDebutPeriode());
+    }
 
-	/**
-	 * Tests the setFinPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFinPeriode() {
+    /**
+     * Tests the setFinPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetFinPeriode() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setFinPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getFinPeriode());
-	}
+        $obj->setFinPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getFinPeriode());
+    }
 
-	/**
-	 * Tests the setMontantEmployeur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantEmployeur() {
+    /**
+     * Tests the setMontantEmployeur() method.
+     *
+     * @return void
+     */
+    public function testSetMontantEmployeur() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setMontantEmployeur(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantEmployeur());
-	}
+        $obj->setMontantEmployeur(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantEmployeur());
+    }
 
-	/**
-	 * Tests the setNumero() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumero() {
+    /**
+     * Tests the setNumero() method.
+     *
+     * @return void
+     */
+    public function testSetNumero() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setNumero("numero");
-		$this->assertEquals("numero", $obj->getNumero());
-	}
+        $obj->setNumero("numero");
+        $this->assertEquals("numero", $obj->getNumero());
+    }
 
-	/**
-	 * Tests the setNumeroOrdre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroOrdre() {
+    /**
+     * Tests the setNumeroOrdre() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroOrdre() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setNumeroOrdre(10);
-		$this->assertEquals(10, $obj->getNumeroOrdre());
-	}
+        $obj->setNumeroOrdre(10);
+        $this->assertEquals(10, $obj->getNumeroOrdre());
+    }
 
-	/**
-	 * Tests the setQualifUniteTemps() method.
-	 *
-	 * @return void
-	 */
-	public function testSetQualifUniteTemps() {
+    /**
+     * Tests the setQualifUniteTemps() method.
+     *
+     * @return void
+     */
+    public function testSetQualifUniteTemps() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setQualifUniteTemps("qualifUniteTemps");
-		$this->assertEquals("qualifUniteTemps", $obj->getQualifUniteTemps());
-	}
+        $obj->setQualifUniteTemps("qualifUniteTemps");
+        $this->assertEquals("qualifUniteTemps", $obj->getQualifUniteTemps());
+    }
 
-	/**
-	 * Tests the setTempsArret() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTempsArret() {
+    /**
+     * Tests the setTempsArret() method.
+     *
+     * @return void
+     */
+    public function testSetTempsArret() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setTempsArret(10.092018);
-		$this->assertEquals(10.092018, $obj->getTempsArret());
-	}
+        $obj->setTempsArret(10.092018);
+        $this->assertEquals(10.092018, $obj->getTempsArret());
+    }
 
-	/**
-	 * Tests the setTypeArret() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeArret() {
+    /**
+     * Tests the setTypeArret() method.
+     *
+     * @return void
+     */
+    public function testSetTypeArret() {
 
-		$obj = new DADSUBTP();
+        $obj = new DADSUBTP();
 
-		$obj->setTypeArret("typeArret");
-		$this->assertEquals("typeArret", $obj->getTypeArret());
-	}
+        $obj->setTypeArret("typeArret");
+        $this->assertEquals("typeArret", $obj->getTypeArret());
+    }
 
 }

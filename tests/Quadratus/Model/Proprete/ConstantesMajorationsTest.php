@@ -22,85 +22,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ConstantesMajorationsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ConstantesMajorations();
+        $obj = new ConstantesMajorations();
 
-		$this->assertNull($obj->getExcept());
-		$this->assertNull($obj->getMai());
-		$this->assertNull($obj->getNormal());
-		$this->assertNull($obj->getType());
-		$this->assertNull($obj->getType2());
-	}
+        $this->assertNull($obj->getExcept());
+        $this->assertNull($obj->getMai());
+        $this->assertNull($obj->getNormal());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getType2());
+    }
 
-	/**
-	 * Tests the setExcept() method.
-	 *
-	 * @return void
-	 */
-	public function testSetExcept() {
+    /**
+     * Tests the setExcept() method.
+     *
+     * @return void
+     */
+    public function testSetExcept() {
 
-		$obj = new ConstantesMajorations();
+        $obj = new ConstantesMajorations();
 
-		$obj->setExcept(10.092018);
-		$this->assertEquals(10.092018, $obj->getExcept());
-	}
+        $obj->setExcept(10.092018);
+        $this->assertEquals(10.092018, $obj->getExcept());
+    }
 
-	/**
-	 * Tests the setMai() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMai() {
+    /**
+     * Tests the setMai() method.
+     *
+     * @return void
+     */
+    public function testSetMai() {
 
-		$obj = new ConstantesMajorations();
+        $obj = new ConstantesMajorations();
 
-		$obj->setMai(10.092018);
-		$this->assertEquals(10.092018, $obj->getMai());
-	}
+        $obj->setMai(10.092018);
+        $this->assertEquals(10.092018, $obj->getMai());
+    }
 
-	/**
-	 * Tests the setNormal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNormal() {
+    /**
+     * Tests the setNormal() method.
+     *
+     * @return void
+     */
+    public function testSetNormal() {
 
-		$obj = new ConstantesMajorations();
+        $obj = new ConstantesMajorations();
 
-		$obj->setNormal(10.092018);
-		$this->assertEquals(10.092018, $obj->getNormal());
-	}
+        $obj->setNormal(10.092018);
+        $this->assertEquals(10.092018, $obj->getNormal());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new ConstantesMajorations();
+        $obj = new ConstantesMajorations();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
-	/**
-	 * Tests the setType2() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType2() {
+    /**
+     * Tests the setType2() method.
+     *
+     * @return void
+     */
+    public function testSetType2() {
 
-		$obj = new ConstantesMajorations();
+        $obj = new ConstantesMajorations();
 
-		$obj->setType2(10.092018);
-		$this->assertEquals(10.092018, $obj->getType2());
-	}
+        $obj->setType2(10.092018);
+        $this->assertEquals(10.092018, $obj->getType2());
+    }
 
 }

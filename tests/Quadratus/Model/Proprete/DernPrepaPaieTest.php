@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DernPrepaPaieTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DernPrepaPaie();
+        $obj = new DernPrepaPaie();
 
-		$this->assertNull($obj->getAlerteRouge());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getDesignation());
-		$this->assertNull($obj->getDtPrepa());
-		$this->assertNull($obj->getPeriode());
-	}
+        $this->assertNull($obj->getAlerteRouge());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getDtPrepa());
+        $this->assertNull($obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setAlerteRouge() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAlerteRouge() {
+    /**
+     * Tests the setAlerteRouge() method.
+     *
+     * @return void
+     */
+    public function testSetAlerteRouge() {
 
-		$obj = new DernPrepaPaie();
+        $obj = new DernPrepaPaie();
 
-		$obj->setAlerteRouge(true);
-		$this->assertEquals(true, $obj->getAlerteRouge());
-	}
+        $obj->setAlerteRouge(true);
+        $this->assertEquals(true, $obj->getAlerteRouge());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new DernPrepaPaie();
+        $obj = new DernPrepaPaie();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setDesignation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDesignation() {
+    /**
+     * Tests the setDesignation() method.
+     *
+     * @return void
+     */
+    public function testSetDesignation() {
 
-		$obj = new DernPrepaPaie();
+        $obj = new DernPrepaPaie();
 
-		$obj->setDesignation("designation");
-		$this->assertEquals("designation", $obj->getDesignation());
-	}
+        $obj->setDesignation("designation");
+        $this->assertEquals("designation", $obj->getDesignation());
+    }
 
-	/**
-	 * Tests the setDtPrepa() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtPrepa() {
+    /**
+     * Tests the setDtPrepa() method.
+     *
+     * @return void
+     */
+    public function testSetDtPrepa() {
 
-		$obj = new DernPrepaPaie();
+        $obj = new DernPrepaPaie();
 
-		$obj->setDtPrepa(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtPrepa());
-	}
+        $obj->setDtPrepa(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtPrepa());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new DernPrepaPaie();
+        $obj = new DernPrepaPaie();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
 }

@@ -22,85 +22,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ConstTabAnalVenteTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ConstTabAnalVente();
+        $obj = new ConstTabAnalVente();
 
-		$this->assertNull($obj->getCodeAnalArticle());
-		$this->assertNull($obj->getCodeAnalClient());
-		$this->assertNull($obj->getCodeCentre());
-		$this->assertNull($obj->getCodeNature());
-		$this->assertNull($obj->getType());
-	}
+        $this->assertNull($obj->getCodeAnalArticle());
+        $this->assertNull($obj->getCodeAnalClient());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getType());
+    }
 
-	/**
-	 * Tests the setCodeAnalArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAnalArticle() {
+    /**
+     * Tests the setCodeAnalArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAnalArticle() {
 
-		$obj = new ConstTabAnalVente();
+        $obj = new ConstTabAnalVente();
 
-		$obj->setCodeAnalArticle("codeAnalArticle");
-		$this->assertEquals("codeAnalArticle", $obj->getCodeAnalArticle());
-	}
+        $obj->setCodeAnalArticle("codeAnalArticle");
+        $this->assertEquals("codeAnalArticle", $obj->getCodeAnalArticle());
+    }
 
-	/**
-	 * Tests the setCodeAnalClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAnalClient() {
+    /**
+     * Tests the setCodeAnalClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAnalClient() {
 
-		$obj = new ConstTabAnalVente();
+        $obj = new ConstTabAnalVente();
 
-		$obj->setCodeAnalClient("codeAnalClient");
-		$this->assertEquals("codeAnalClient", $obj->getCodeAnalClient());
-	}
+        $obj->setCodeAnalClient("codeAnalClient");
+        $this->assertEquals("codeAnalClient", $obj->getCodeAnalClient());
+    }
 
-	/**
-	 * Tests the setCodeCentre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCentre() {
+    /**
+     * Tests the setCodeCentre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCentre() {
 
-		$obj = new ConstTabAnalVente();
+        $obj = new ConstTabAnalVente();
 
-		$obj->setCodeCentre("codeCentre");
-		$this->assertEquals("codeCentre", $obj->getCodeCentre());
-	}
+        $obj->setCodeCentre("codeCentre");
+        $this->assertEquals("codeCentre", $obj->getCodeCentre());
+    }
 
-	/**
-	 * Tests the setCodeNature() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeNature() {
+    /**
+     * Tests the setCodeNature() method.
+     *
+     * @return void
+     */
+    public function testSetCodeNature() {
 
-		$obj = new ConstTabAnalVente();
+        $obj = new ConstTabAnalVente();
 
-		$obj->setCodeNature("codeNature");
-		$this->assertEquals("codeNature", $obj->getCodeNature());
-	}
+        $obj->setCodeNature("codeNature");
+        $this->assertEquals("codeNature", $obj->getCodeNature());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new ConstTabAnalVente();
+        $obj = new ConstTabAnalVente();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
 }

@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Regroupements model.
  *
@@ -20,92 +19,92 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class Regroupements {
 
-	/**
-	 * Code.
-	 *
-	 * @var string
-	 */
-	private $code;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
 
-	/**
-	 * Libelle.
-	 *
-	 * @var string
-	 */
-	private $libelle;
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
 
-	/**
-	 * Num ordre.
-	 *
-	 * @var int
-	 */
-	private $numOrdre;
+    /**
+     * Num ordre.
+     *
+     * @var int
+     */
+    private $numOrdre;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code.
-	 *
-	 * @return string Returns the code.
-	 */
-	public function getCode() {
-		return $this->code;
-	}
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
 
-	/**
-	 * Get the libelle.
-	 *
-	 * @return string Returns the libelle.
-	 */
-	public function getLibelle() {
-		return $this->libelle;
-	}
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
 
-	/**
-	 * Get the num ordre.
-	 *
-	 * @return int Returns the num ordre.
-	 */
-	public function getNumOrdre() {
-		return $this->numOrdre;
-	}
+    /**
+     * Get the num ordre.
+     *
+     * @return int Returns the num ordre.
+     */
+    public function getNumOrdre() {
+        return $this->numOrdre;
+    }
 
-	/**
-	 * Set the code.
-	 *
-	 * @param string $code The code.
-	 * @return Regroupements Returns this regroupements.
-	 */
-	public function setCode($code) {
-		$this->code = $code;
-		return $this;
-	}
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     * @return Regroupements Returns this regroupements.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
 
-	/**
-	 * Set the libelle.
-	 *
-	 * @param string $libelle The libelle.
-	 * @return Regroupements Returns this regroupements.
-	 */
-	public function setLibelle($libelle) {
-		$this->libelle = $libelle;
-		return $this;
-	}
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     * @return Regroupements Returns this regroupements.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
 
-	/**
-	 * Set the num ordre.
-	 *
-	 * @param int $numOrdre The num ordre.
-	 * @return Regroupements Returns this regroupements.
-	 */
-	public function setNumOrdre($numOrdre) {
-		$this->numOrdre = $numOrdre;
-		return $this;
-	}
+    /**
+     * Set the num ordre.
+     *
+     * @param int $numOrdre The num ordre.
+     * @return Regroupements Returns this regroupements.
+     */
+    public function setNumOrdre($numOrdre) {
+        $this->numOrdre = $numOrdre;
+        return $this;
+    }
 
 }

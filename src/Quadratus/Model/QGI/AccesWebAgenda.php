@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Acces web agenda model.
  *
@@ -20,119 +19,119 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class AccesWebAgenda {
 
-	/**
-	 * Code.
-	 *
-	 * @var string
-	 */
-	private $code;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
 
-	/**
-	 * Code collaborateur.
-	 *
-	 * @var string
-	 */
-	private $codeCollaborateur;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
 
-	/**
-	 * Droit modif.
-	 *
-	 * @var boolean
-	 */
-	private $droitModif;
+    /**
+     * Droit modif.
+     *
+     * @var boolean
+     */
+    private $droitModif;
 
-	/**
-	 * Type.
-	 *
-	 * @var string
-	 */
-	private $type;
+    /**
+     * Type.
+     *
+     * @var string
+     */
+    private $type;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code.
-	 *
-	 * @return string Returns the code.
-	 */
-	public function getCode() {
-		return $this->code;
-	}
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
 
-	/**
-	 * Get the code collaborateur.
-	 *
-	 * @return string Returns the code collaborateur.
-	 */
-	public function getCodeCollaborateur() {
-		return $this->codeCollaborateur;
-	}
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
 
-	/**
-	 * Get the droit modif.
-	 *
-	 * @return boolean Returns the droit modif.
-	 */
-	public function getDroitModif() {
-		return $this->droitModif;
-	}
+    /**
+     * Get the droit modif.
+     *
+     * @return boolean Returns the droit modif.
+     */
+    public function getDroitModif() {
+        return $this->droitModif;
+    }
 
-	/**
-	 * Get the type.
-	 *
-	 * @return string Returns the type.
-	 */
-	public function getType() {
-		return $this->type;
-	}
+    /**
+     * Get the type.
+     *
+     * @return string Returns the type.
+     */
+    public function getType() {
+        return $this->type;
+    }
 
-	/**
-	 * Set the code.
-	 *
-	 * @param string $code The code.
-	 * @return AccesWebAgenda Returns this acces web agenda.
-	 */
-	public function setCode($code) {
-		$this->code = $code;
-		return $this;
-	}
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     * @return AccesWebAgenda Returns this acces web agenda.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
 
-	/**
-	 * Set the code collaborateur.
-	 *
-	 * @param string $codeCollaborateur The code collaborateur.
-	 * @return AccesWebAgenda Returns this acces web agenda.
-	 */
-	public function setCodeCollaborateur($codeCollaborateur) {
-		$this->codeCollaborateur = $codeCollaborateur;
-		return $this;
-	}
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     * @return AccesWebAgenda Returns this acces web agenda.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
 
-	/**
-	 * Set the droit modif.
-	 *
-	 * @param boolean $droitModif The droit modif.
-	 * @return AccesWebAgenda Returns this acces web agenda.
-	 */
-	public function setDroitModif($droitModif) {
-		$this->droitModif = $droitModif;
-		return $this;
-	}
+    /**
+     * Set the droit modif.
+     *
+     * @param boolean $droitModif The droit modif.
+     * @return AccesWebAgenda Returns this acces web agenda.
+     */
+    public function setDroitModif($droitModif) {
+        $this->droitModif = $droitModif;
+        return $this;
+    }
 
-	/**
-	 * Set the type.
-	 *
-	 * @param string $type The type.
-	 * @return AccesWebAgenda Returns this acces web agenda.
-	 */
-	public function setType($type) {
-		$this->type = $type;
-		return $this;
-	}
+    /**
+     * Set the type.
+     *
+     * @param string $type The type.
+     * @return AccesWebAgenda Returns this acces web agenda.
+     */
+    public function setType($type) {
+        $this->type = $type;
+        return $this;
+    }
 
 }

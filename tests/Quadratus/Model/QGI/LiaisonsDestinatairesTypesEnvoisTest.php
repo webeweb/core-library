@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LiaisonsDestinatairesTypesEnvoisTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new LiaisonsDestinatairesTypesEnvois();
+        $obj = new LiaisonsDestinatairesTypesEnvois();
 
-		$this->assertNull($obj->getCodeDestinataire());
-		$this->assertNull($obj->getCodeTypeEnvoi());
-	}
+        $this->assertNull($obj->getCodeDestinataire());
+        $this->assertNull($obj->getCodeTypeEnvoi());
+    }
 
-	/**
-	 * Tests the setCodeDestinataire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeDestinataire() {
+    /**
+     * Tests the setCodeDestinataire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDestinataire() {
 
-		$obj = new LiaisonsDestinatairesTypesEnvois();
+        $obj = new LiaisonsDestinatairesTypesEnvois();
 
-		$obj->setCodeDestinataire("codeDestinataire");
-		$this->assertEquals("codeDestinataire", $obj->getCodeDestinataire());
-	}
+        $obj->setCodeDestinataire("codeDestinataire");
+        $this->assertEquals("codeDestinataire", $obj->getCodeDestinataire());
+    }
 
-	/**
-	 * Tests the setCodeTypeEnvoi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTypeEnvoi() {
+    /**
+     * Tests the setCodeTypeEnvoi() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTypeEnvoi() {
 
-		$obj = new LiaisonsDestinatairesTypesEnvois();
+        $obj = new LiaisonsDestinatairesTypesEnvois();
 
-		$obj->setCodeTypeEnvoi("codeTypeEnvoi");
-		$this->assertEquals("codeTypeEnvoi", $obj->getCodeTypeEnvoi());
-	}
+        $obj->setCodeTypeEnvoi("codeTypeEnvoi");
+        $this->assertEquals("codeTypeEnvoi", $obj->getCodeTypeEnvoi());
+    }
 
 }

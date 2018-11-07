@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RetraitesEmpTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RetraitesEmp();
+        $obj = new RetraitesEmp();
 
-		$this->assertNull($obj->getCodeOrganisme());
-		$this->assertNull($obj->getIdInstitution());
-		$this->assertNull($obj->getIndiceContrat());
-		$this->assertNull($obj->getNonGere());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getTypeOrga());
-	}
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getIdInstitution());
+        $this->assertNull($obj->getIndiceContrat());
+        $this->assertNull($obj->getNonGere());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTypeOrga());
+    }
 
-	/**
-	 * Tests the setCodeOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganisme() {
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
 
-		$obj = new RetraitesEmp();
+        $obj = new RetraitesEmp();
 
-		$obj->setCodeOrganisme("codeOrganisme");
-		$this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-	}
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
 
-	/**
-	 * Tests the setIdInstitution() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIdInstitution() {
+    /**
+     * Tests the setIdInstitution() method.
+     *
+     * @return void
+     */
+    public function testSetIdInstitution() {
 
-		$obj = new RetraitesEmp();
+        $obj = new RetraitesEmp();
 
-		$obj->setIdInstitution("idInstitution");
-		$this->assertEquals("idInstitution", $obj->getIdInstitution());
-	}
+        $obj->setIdInstitution("idInstitution");
+        $this->assertEquals("idInstitution", $obj->getIdInstitution());
+    }
 
-	/**
-	 * Tests the setIndiceContrat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndiceContrat() {
+    /**
+     * Tests the setIndiceContrat() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceContrat() {
 
-		$obj = new RetraitesEmp();
+        $obj = new RetraitesEmp();
 
-		$obj->setIndiceContrat(10);
-		$this->assertEquals(10, $obj->getIndiceContrat());
-	}
+        $obj->setIndiceContrat(10);
+        $this->assertEquals(10, $obj->getIndiceContrat());
+    }
 
-	/**
-	 * Tests the setNonGere() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNonGere() {
+    /**
+     * Tests the setNonGere() method.
+     *
+     * @return void
+     */
+    public function testSetNonGere() {
 
-		$obj = new RetraitesEmp();
+        $obj = new RetraitesEmp();
 
-		$obj->setNonGere(true);
-		$this->assertEquals(true, $obj->getNonGere());
-	}
+        $obj->setNonGere(true);
+        $this->assertEquals(true, $obj->getNonGere());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new RetraitesEmp();
+        $obj = new RetraitesEmp();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setTypeOrga() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeOrga() {
+    /**
+     * Tests the setTypeOrga() method.
+     *
+     * @return void
+     */
+    public function testSetTypeOrga() {
 
-		$obj = new RetraitesEmp();
+        $obj = new RetraitesEmp();
 
-		$obj->setTypeOrga("typeOrga");
-		$this->assertEquals("typeOrga", $obj->getTypeOrga());
-	}
+        $obj->setTypeOrga("typeOrga");
+        $this->assertEquals("typeOrga", $obj->getTypeOrga());
+    }
 
 }

@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ConventionsColConfTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ConventionsColConf();
+        $obj = new ConventionsColConf();
 
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getDroit());
-		$this->assertNull($obj->getType());
-	}
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getDroit());
+        $this->assertNull($obj->getType());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new ConventionsColConf();
+        $obj = new ConventionsColConf();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setDroit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDroit() {
+    /**
+     * Tests the setDroit() method.
+     *
+     * @return void
+     */
+    public function testSetDroit() {
 
-		$obj = new ConventionsColConf();
+        $obj = new ConventionsColConf();
 
-		$obj->setDroit("droit");
-		$this->assertEquals("droit", $obj->getDroit());
-	}
+        $obj->setDroit("droit");
+        $this->assertEquals("droit", $obj->getDroit());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new ConventionsColConf();
+        $obj = new ConventionsColConf();
 
-		$obj->setType(10);
-		$this->assertEquals(10, $obj->getType());
-	}
+        $obj->setType(10);
+        $this->assertEquals(10, $obj->getType());
+    }
 
 }

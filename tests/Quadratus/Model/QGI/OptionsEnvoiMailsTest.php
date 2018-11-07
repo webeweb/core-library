@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class OptionsEnvoiMailsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new OptionsEnvoiMails();
+        $obj = new OptionsEnvoiMails();
 
-		$this->assertNull($obj->getAvecEntete());
-		$this->assertNull($obj->getAvecPied());
-		$this->assertNull($obj->getCodeCollab());
-		$this->assertNull($obj->getCodeModule());
-	}
+        $this->assertNull($obj->getAvecEntete());
+        $this->assertNull($obj->getAvecPied());
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getCodeModule());
+    }
 
-	/**
-	 * Tests the setAvecEntete() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAvecEntete() {
+    /**
+     * Tests the setAvecEntete() method.
+     *
+     * @return void
+     */
+    public function testSetAvecEntete() {
 
-		$obj = new OptionsEnvoiMails();
+        $obj = new OptionsEnvoiMails();
 
-		$obj->setAvecEntete(true);
-		$this->assertEquals(true, $obj->getAvecEntete());
-	}
+        $obj->setAvecEntete(true);
+        $this->assertEquals(true, $obj->getAvecEntete());
+    }
 
-	/**
-	 * Tests the setAvecPied() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAvecPied() {
+    /**
+     * Tests the setAvecPied() method.
+     *
+     * @return void
+     */
+    public function testSetAvecPied() {
 
-		$obj = new OptionsEnvoiMails();
+        $obj = new OptionsEnvoiMails();
 
-		$obj->setAvecPied(true);
-		$this->assertEquals(true, $obj->getAvecPied());
-	}
+        $obj->setAvecPied(true);
+        $this->assertEquals(true, $obj->getAvecPied());
+    }
 
-	/**
-	 * Tests the setCodeCollab() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollab() {
+    /**
+     * Tests the setCodeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollab() {
 
-		$obj = new OptionsEnvoiMails();
+        $obj = new OptionsEnvoiMails();
 
-		$obj->setCodeCollab("codeCollab");
-		$this->assertEquals("codeCollab", $obj->getCodeCollab());
-	}
+        $obj->setCodeCollab("codeCollab");
+        $this->assertEquals("codeCollab", $obj->getCodeCollab());
+    }
 
-	/**
-	 * Tests the setCodeModule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeModule() {
+    /**
+     * Tests the setCodeModule() method.
+     *
+     * @return void
+     */
+    public function testSetCodeModule() {
 
-		$obj = new OptionsEnvoiMails();
+        $obj = new OptionsEnvoiMails();
 
-		$obj->setCodeModule("codeModule");
-		$this->assertEquals("codeModule", $obj->getCodeModule());
-	}
+        $obj->setCodeModule("codeModule");
+        $this->assertEquals("codeModule", $obj->getCodeModule());
+    }
 
 }

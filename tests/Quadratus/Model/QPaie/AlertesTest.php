@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AlertesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Alertes();
+        $obj = new Alertes();
 
-		$this->assertNull($obj->getCloturee());
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCommentaire());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getType());
-	}
+        $this->assertNull($obj->getCloturee());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getType());
+    }
 
-	/**
-	 * Tests the setCloturee() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCloturee() {
+    /**
+     * Tests the setCloturee() method.
+     *
+     * @return void
+     */
+    public function testSetCloturee() {
 
-		$obj = new Alertes();
+        $obj = new Alertes();
 
-		$obj->setCloturee(true);
-		$this->assertEquals(true, $obj->getCloturee());
-	}
+        $obj->setCloturee(true);
+        $this->assertEquals(true, $obj->getCloturee());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new Alertes();
+        $obj = new Alertes();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCommentaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCommentaire() {
+    /**
+     * Tests the setCommentaire() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire() {
 
-		$obj = new Alertes();
+        $obj = new Alertes();
 
-		$obj->setCommentaire("commentaire");
-		$this->assertEquals("commentaire", $obj->getCommentaire());
-	}
+        $obj->setCommentaire("commentaire");
+        $this->assertEquals("commentaire", $obj->getCommentaire());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new Alertes();
+        $obj = new Alertes();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new Alertes();
+        $obj = new Alertes();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new Alertes();
+        $obj = new Alertes();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
 }

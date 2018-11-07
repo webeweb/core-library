@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CollabAdrMailConfTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CollabAdrMailConf();
+        $obj = new CollabAdrMailConf();
 
-		$this->assertNull($obj->getAdresseEmail());
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getIntitule());
-	}
+        $this->assertNull($obj->getAdresseEmail());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setAdresseEmail() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAdresseEmail() {
+    /**
+     * Tests the setAdresseEmail() method.
+     *
+     * @return void
+     */
+    public function testSetAdresseEmail() {
 
-		$obj = new CollabAdrMailConf();
+        $obj = new CollabAdrMailConf();
 
-		$obj->setAdresseEmail("adresseEmail");
-		$this->assertEquals("adresseEmail", $obj->getAdresseEmail());
-	}
+        $obj->setAdresseEmail("adresseEmail");
+        $this->assertEquals("adresseEmail", $obj->getAdresseEmail());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new CollabAdrMailConf();
+        $obj = new CollabAdrMailConf();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new CollabAdrMailConf();
+        $obj = new CollabAdrMailConf();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
 }

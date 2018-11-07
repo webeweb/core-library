@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PrestationsRisquesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new PrestationsRisques();
+        $obj = new PrestationsRisques();
 
-		$this->assertNull($obj->getCodeArticle());
-		$this->assertNull($obj->getCodeTache());
-		$this->assertNull($obj->getTauxExposition());
-	}
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getTauxExposition());
+    }
 
-	/**
-	 * Tests the setCodeArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeArticle() {
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
 
-		$obj = new PrestationsRisques();
+        $obj = new PrestationsRisques();
 
-		$obj->setCodeArticle("codeArticle");
-		$this->assertEquals("codeArticle", $obj->getCodeArticle());
-	}
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
 
-	/**
-	 * Tests the setCodeTache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTache() {
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
 
-		$obj = new PrestationsRisques();
+        $obj = new PrestationsRisques();
 
-		$obj->setCodeTache("codeTache");
-		$this->assertEquals("codeTache", $obj->getCodeTache());
-	}
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
 
-	/**
-	 * Tests the setTauxExposition() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxExposition() {
+    /**
+     * Tests the setTauxExposition() method.
+     *
+     * @return void
+     */
+    public function testSetTauxExposition() {
 
-		$obj = new PrestationsRisques();
+        $obj = new PrestationsRisques();
 
-		$obj->setTauxExposition(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxExposition());
-	}
+        $obj->setTauxExposition(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxExposition());
+    }
 
 }

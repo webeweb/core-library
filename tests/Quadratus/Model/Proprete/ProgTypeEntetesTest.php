@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ProgTypeEntetesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ProgTypeEntetes();
+        $obj = new ProgTypeEntetes();
 
-		$this->assertNull($obj->getDesignation());
-		$this->assertNull($obj->getNumProgramme());
-	}
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getNumProgramme());
+    }
 
-	/**
-	 * Tests the setDesignation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDesignation() {
+    /**
+     * Tests the setDesignation() method.
+     *
+     * @return void
+     */
+    public function testSetDesignation() {
 
-		$obj = new ProgTypeEntetes();
+        $obj = new ProgTypeEntetes();
 
-		$obj->setDesignation("designation");
-		$this->assertEquals("designation", $obj->getDesignation());
-	}
+        $obj->setDesignation("designation");
+        $this->assertEquals("designation", $obj->getDesignation());
+    }
 
-	/**
-	 * Tests the setNumProgramme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumProgramme() {
+    /**
+     * Tests the setNumProgramme() method.
+     *
+     * @return void
+     */
+    public function testSetNumProgramme() {
 
-		$obj = new ProgTypeEntetes();
+        $obj = new ProgTypeEntetes();
 
-		$obj->setNumProgramme(10);
-		$this->assertEquals(10, $obj->getNumProgramme());
-	}
+        $obj->setNumProgramme(10);
+        $this->assertEquals(10, $obj->getNumProgramme());
+    }
 
 }

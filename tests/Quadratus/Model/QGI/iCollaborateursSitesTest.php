@@ -22,155 +22,155 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class iCollaborateursSitesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$this->assertNull($obj->getAdresseIP());
-		$this->assertNull($obj->getCodeCollab());
-		$this->assertNull($obj->getDossier());
-		$this->assertNull($obj->getRestrCliAssist1());
-		$this->assertNull($obj->getRestrCliAssist2());
-		$this->assertNull($obj->getRestrCliAutre1());
-		$this->assertNull($obj->getRestrCliAutre2());
-		$this->assertNull($obj->getRestrCliCollab());
-		$this->assertNull($obj->getRestrCliExpert());
-		$this->assertNull($obj->getRestrCliPortef());
-	}
+        $this->assertNull($obj->getAdresseIP());
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getDossier());
+        $this->assertNull($obj->getRestrCliAssist1());
+        $this->assertNull($obj->getRestrCliAssist2());
+        $this->assertNull($obj->getRestrCliAutre1());
+        $this->assertNull($obj->getRestrCliAutre2());
+        $this->assertNull($obj->getRestrCliCollab());
+        $this->assertNull($obj->getRestrCliExpert());
+        $this->assertNull($obj->getRestrCliPortef());
+    }
 
-	/**
-	 * Tests the setAdresseIP() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAdresseIP() {
+    /**
+     * Tests the setAdresseIP() method.
+     *
+     * @return void
+     */
+    public function testSetAdresseIP() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setAdresseIP("adresseIP");
-		$this->assertEquals("adresseIP", $obj->getAdresseIP());
-	}
+        $obj->setAdresseIP("adresseIP");
+        $this->assertEquals("adresseIP", $obj->getAdresseIP());
+    }
 
-	/**
-	 * Tests the setCodeCollab() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollab() {
+    /**
+     * Tests the setCodeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollab() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setCodeCollab("codeCollab");
-		$this->assertEquals("codeCollab", $obj->getCodeCollab());
-	}
+        $obj->setCodeCollab("codeCollab");
+        $this->assertEquals("codeCollab", $obj->getCodeCollab());
+    }
 
-	/**
-	 * Tests the setDossier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDossier() {
+    /**
+     * Tests the setDossier() method.
+     *
+     * @return void
+     */
+    public function testSetDossier() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setDossier("dossier");
-		$this->assertEquals("dossier", $obj->getDossier());
-	}
+        $obj->setDossier("dossier");
+        $this->assertEquals("dossier", $obj->getDossier());
+    }
 
-	/**
-	 * Tests the setRestrCliAssist1() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRestrCliAssist1() {
+    /**
+     * Tests the setRestrCliAssist1() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliAssist1() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setRestrCliAssist1("restrCliAssist1");
-		$this->assertEquals("restrCliAssist1", $obj->getRestrCliAssist1());
-	}
+        $obj->setRestrCliAssist1("restrCliAssist1");
+        $this->assertEquals("restrCliAssist1", $obj->getRestrCliAssist1());
+    }
 
-	/**
-	 * Tests the setRestrCliAssist2() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRestrCliAssist2() {
+    /**
+     * Tests the setRestrCliAssist2() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliAssist2() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setRestrCliAssist2("restrCliAssist2");
-		$this->assertEquals("restrCliAssist2", $obj->getRestrCliAssist2());
-	}
+        $obj->setRestrCliAssist2("restrCliAssist2");
+        $this->assertEquals("restrCliAssist2", $obj->getRestrCliAssist2());
+    }
 
-	/**
-	 * Tests the setRestrCliAutre1() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRestrCliAutre1() {
+    /**
+     * Tests the setRestrCliAutre1() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliAutre1() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setRestrCliAutre1("restrCliAutre1");
-		$this->assertEquals("restrCliAutre1", $obj->getRestrCliAutre1());
-	}
+        $obj->setRestrCliAutre1("restrCliAutre1");
+        $this->assertEquals("restrCliAutre1", $obj->getRestrCliAutre1());
+    }
 
-	/**
-	 * Tests the setRestrCliAutre2() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRestrCliAutre2() {
+    /**
+     * Tests the setRestrCliAutre2() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliAutre2() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setRestrCliAutre2("restrCliAutre2");
-		$this->assertEquals("restrCliAutre2", $obj->getRestrCliAutre2());
-	}
+        $obj->setRestrCliAutre2("restrCliAutre2");
+        $this->assertEquals("restrCliAutre2", $obj->getRestrCliAutre2());
+    }
 
-	/**
-	 * Tests the setRestrCliCollab() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRestrCliCollab() {
+    /**
+     * Tests the setRestrCliCollab() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliCollab() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setRestrCliCollab("restrCliCollab");
-		$this->assertEquals("restrCliCollab", $obj->getRestrCliCollab());
-	}
+        $obj->setRestrCliCollab("restrCliCollab");
+        $this->assertEquals("restrCliCollab", $obj->getRestrCliCollab());
+    }
 
-	/**
-	 * Tests the setRestrCliExpert() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRestrCliExpert() {
+    /**
+     * Tests the setRestrCliExpert() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliExpert() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setRestrCliExpert("restrCliExpert");
-		$this->assertEquals("restrCliExpert", $obj->getRestrCliExpert());
-	}
+        $obj->setRestrCliExpert("restrCliExpert");
+        $this->assertEquals("restrCliExpert", $obj->getRestrCliExpert());
+    }
 
-	/**
-	 * Tests the setRestrCliPortef() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRestrCliPortef() {
+    /**
+     * Tests the setRestrCliPortef() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliPortef() {
 
-		$obj = new iCollaborateursSites();
+        $obj = new iCollaborateursSites();
 
-		$obj->setRestrCliPortef("restrCliPortef");
-		$this->assertEquals("restrCliPortef", $obj->getRestrCliPortef());
-	}
+        $obj->setRestrCliPortef("restrCliPortef");
+        $this->assertEquals("restrCliPortef", $obj->getRestrCliPortef());
+    }
 
 }

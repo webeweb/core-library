@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Confidentialite zones model.
  *
@@ -20,119 +19,119 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class ConfidentialiteZones {
 
-	/**
-	 * Champ.
-	 *
-	 * @var string
-	 */
-	private $champ;
+    /**
+     * Champ.
+     *
+     * @var string
+     */
+    private $champ;
 
-	/**
-	 * Chapitre.
-	 *
-	 * @var string
-	 */
-	private $chapitre;
+    /**
+     * Chapitre.
+     *
+     * @var string
+     */
+    private $chapitre;
 
-	/**
-	 * Code collaborateur.
-	 *
-	 * @var string
-	 */
-	private $codeCollaborateur;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
 
-	/**
-	 * Type.
-	 *
-	 * @var string
-	 */
-	private $type;
+    /**
+     * Type.
+     *
+     * @var string
+     */
+    private $type;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the champ.
-	 *
-	 * @return string Returns the champ.
-	 */
-	public function getChamp() {
-		return $this->champ;
-	}
+    /**
+     * Get the champ.
+     *
+     * @return string Returns the champ.
+     */
+    public function getChamp() {
+        return $this->champ;
+    }
 
-	/**
-	 * Get the chapitre.
-	 *
-	 * @return string Returns the chapitre.
-	 */
-	public function getChapitre() {
-		return $this->chapitre;
-	}
+    /**
+     * Get the chapitre.
+     *
+     * @return string Returns the chapitre.
+     */
+    public function getChapitre() {
+        return $this->chapitre;
+    }
 
-	/**
-	 * Get the code collaborateur.
-	 *
-	 * @return string Returns the code collaborateur.
-	 */
-	public function getCodeCollaborateur() {
-		return $this->codeCollaborateur;
-	}
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
 
-	/**
-	 * Get the type.
-	 *
-	 * @return string Returns the type.
-	 */
-	public function getType() {
-		return $this->type;
-	}
+    /**
+     * Get the type.
+     *
+     * @return string Returns the type.
+     */
+    public function getType() {
+        return $this->type;
+    }
 
-	/**
-	 * Set the champ.
-	 *
-	 * @param string $champ The champ.
-	 * @return ConfidentialiteZones Returns this confidentialite zones.
-	 */
-	public function setChamp($champ) {
-		$this->champ = $champ;
-		return $this;
-	}
+    /**
+     * Set the champ.
+     *
+     * @param string $champ The champ.
+     * @return ConfidentialiteZones Returns this confidentialite zones.
+     */
+    public function setChamp($champ) {
+        $this->champ = $champ;
+        return $this;
+    }
 
-	/**
-	 * Set the chapitre.
-	 *
-	 * @param string $chapitre The chapitre.
-	 * @return ConfidentialiteZones Returns this confidentialite zones.
-	 */
-	public function setChapitre($chapitre) {
-		$this->chapitre = $chapitre;
-		return $this;
-	}
+    /**
+     * Set the chapitre.
+     *
+     * @param string $chapitre The chapitre.
+     * @return ConfidentialiteZones Returns this confidentialite zones.
+     */
+    public function setChapitre($chapitre) {
+        $this->chapitre = $chapitre;
+        return $this;
+    }
 
-	/**
-	 * Set the code collaborateur.
-	 *
-	 * @param string $codeCollaborateur The code collaborateur.
-	 * @return ConfidentialiteZones Returns this confidentialite zones.
-	 */
-	public function setCodeCollaborateur($codeCollaborateur) {
-		$this->codeCollaborateur = $codeCollaborateur;
-		return $this;
-	}
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     * @return ConfidentialiteZones Returns this confidentialite zones.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
 
-	/**
-	 * Set the type.
-	 *
-	 * @param string $type The type.
-	 * @return ConfidentialiteZones Returns this confidentialite zones.
-	 */
-	public function setType($type) {
-		$this->type = $type;
-		return $this;
-	}
+    /**
+     * Set the type.
+     *
+     * @param string $type The type.
+     * @return ConfidentialiteZones Returns this confidentialite zones.
+     */
+    public function setType($type) {
+        $this->type = $type;
+        return $this;
+    }
 
 }

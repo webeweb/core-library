@@ -23,71 +23,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class TempsPassesDeletedTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new TempsPassesDeleted();
+        $obj = new TempsPassesDeleted();
 
-		$this->assertNull($obj->getContexte());
-		$this->assertNull($obj->getDateSuppression());
-		$this->assertNull($obj->getGUniqID());
-		$this->assertNull($obj->getUser());
-	}
+        $this->assertNull($obj->getContexte());
+        $this->assertNull($obj->getDateSuppression());
+        $this->assertNull($obj->getGUniqID());
+        $this->assertNull($obj->getUser());
+    }
 
-	/**
-	 * Tests the setContexte() method.
-	 *
-	 * @return void
-	 */
-	public function testSetContexte() {
+    /**
+     * Tests the setContexte() method.
+     *
+     * @return void
+     */
+    public function testSetContexte() {
 
-		$obj = new TempsPassesDeleted();
+        $obj = new TempsPassesDeleted();
 
-		$obj->setContexte("contexte");
-		$this->assertEquals("contexte", $obj->getContexte());
-	}
+        $obj->setContexte("contexte");
+        $this->assertEquals("contexte", $obj->getContexte());
+    }
 
-	/**
-	 * Tests the setDateSuppression() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateSuppression() {
+    /**
+     * Tests the setDateSuppression() method.
+     *
+     * @return void
+     */
+    public function testSetDateSuppression() {
 
-		$obj = new TempsPassesDeleted();
+        $obj = new TempsPassesDeleted();
 
-		$obj->setDateSuppression(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateSuppression());
-	}
+        $obj->setDateSuppression(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateSuppression());
+    }
 
-	/**
-	 * Tests the setGUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetGUniqID() {
+    /**
+     * Tests the setGUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetGUniqID() {
 
-		$obj = new TempsPassesDeleted();
+        $obj = new TempsPassesDeleted();
 
-		$obj->setGUniqID("gUniqID");
-		$this->assertEquals("gUniqID", $obj->getGUniqID());
-	}
+        $obj->setGUniqID("gUniqID");
+        $this->assertEquals("gUniqID", $obj->getGUniqID());
+    }
 
-	/**
-	 * Tests the setUser() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUser() {
+    /**
+     * Tests the setUser() method.
+     *
+     * @return void
+     */
+    public function testSetUser() {
 
-		$obj = new TempsPassesDeleted();
+        $obj = new TempsPassesDeleted();
 
-		$obj->setUser("user");
-		$this->assertEquals("user", $obj->getUser());
-	}
+        $obj->setUser("user");
+        $this->assertEquals("user", $obj->getUser());
+    }
 
 }

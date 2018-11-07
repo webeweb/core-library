@@ -21,200 +21,200 @@ use DateTime;
  */
 class CommissairesComptes {
 
-	/**
-	 * Code c a c.
-	 *
-	 * @var string
-	 */
-	private $codeCAC;
+    /**
+     * Code c a c.
+     *
+     * @var string
+     */
+    private $codeCAC;
 
-	/**
-	 * Code client.
-	 *
-	 * @var string
-	 */
-	private $codeClient;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
 
-	/**
-	 * Date nomination.
-	 *
-	 * @var DateTime
-	 */
-	private $dateNomination;
+    /**
+     * Date nomination.
+     *
+     * @var DateTime
+     */
+    private $dateNomination;
 
-	/**
-	 * Duree mandat.
-	 *
-	 * @var int
-	 */
-	private $dureeMandat;
+    /**
+     * Duree mandat.
+     *
+     * @var int
+     */
+    private $dureeMandat;
 
-	/**
-	 * Observations.
-	 *
-	 * @var string
-	 */
-	private $observations;
+    /**
+     * Observations.
+     *
+     * @var string
+     */
+    private $observations;
 
-	/**
-	 * Position.
-	 *
-	 * @var int
-	 */
-	private $position;
+    /**
+     * Position.
+     *
+     * @var int
+     */
+    private $position;
 
-	/**
-	 * Titulaire.
-	 *
-	 * @var boolean
-	 */
-	private $titulaire;
+    /**
+     * Titulaire.
+     *
+     * @var boolean
+     */
+    private $titulaire;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code c a c.
-	 *
-	 * @return string Returns the code c a c.
-	 */
-	public function getCodeCAC() {
-		return $this->codeCAC;
-	}
+    /**
+     * Get the code c a c.
+     *
+     * @return string Returns the code c a c.
+     */
+    public function getCodeCAC() {
+        return $this->codeCAC;
+    }
 
-	/**
-	 * Get the code client.
-	 *
-	 * @return string Returns the code client.
-	 */
-	public function getCodeClient() {
-		return $this->codeClient;
-	}
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
 
-	/**
-	 * Get the date nomination.
-	 *
-	 * @return DateTime Returns the date nomination.
-	 */
-	public function getDateNomination() {
-		return $this->dateNomination;
-	}
+    /**
+     * Get the date nomination.
+     *
+     * @return DateTime Returns the date nomination.
+     */
+    public function getDateNomination() {
+        return $this->dateNomination;
+    }
 
-	/**
-	 * Get the duree mandat.
-	 *
-	 * @return int Returns the duree mandat.
-	 */
-	public function getDureeMandat() {
-		return $this->dureeMandat;
-	}
+    /**
+     * Get the duree mandat.
+     *
+     * @return int Returns the duree mandat.
+     */
+    public function getDureeMandat() {
+        return $this->dureeMandat;
+    }
 
-	/**
-	 * Get the observations.
-	 *
-	 * @return string Returns the observations.
-	 */
-	public function getObservations() {
-		return $this->observations;
-	}
+    /**
+     * Get the observations.
+     *
+     * @return string Returns the observations.
+     */
+    public function getObservations() {
+        return $this->observations;
+    }
 
-	/**
-	 * Get the position.
-	 *
-	 * @return int Returns the position.
-	 */
-	public function getPosition() {
-		return $this->position;
-	}
+    /**
+     * Get the position.
+     *
+     * @return int Returns the position.
+     */
+    public function getPosition() {
+        return $this->position;
+    }
 
-	/**
-	 * Get the titulaire.
-	 *
-	 * @return boolean Returns the titulaire.
-	 */
-	public function getTitulaire() {
-		return $this->titulaire;
-	}
+    /**
+     * Get the titulaire.
+     *
+     * @return boolean Returns the titulaire.
+     */
+    public function getTitulaire() {
+        return $this->titulaire;
+    }
 
-	/**
-	 * Set the code c a c.
-	 *
-	 * @param string $codeCAC The code c a c.
-	 * @return CommissairesComptes Returns this commissaires comptes.
-	 */
-	public function setCodeCAC($codeCAC) {
-		$this->codeCAC = $codeCAC;
-		return $this;
-	}
+    /**
+     * Set the code c a c.
+     *
+     * @param string $codeCAC The code c a c.
+     * @return CommissairesComptes Returns this commissaires comptes.
+     */
+    public function setCodeCAC($codeCAC) {
+        $this->codeCAC = $codeCAC;
+        return $this;
+    }
 
-	/**
-	 * Set the code client.
-	 *
-	 * @param string $codeClient The code client.
-	 * @return CommissairesComptes Returns this commissaires comptes.
-	 */
-	public function setCodeClient($codeClient) {
-		$this->codeClient = $codeClient;
-		return $this;
-	}
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     * @return CommissairesComptes Returns this commissaires comptes.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
 
-	/**
-	 * Set the date nomination.
-	 *
-	 * @param DateTime $dateNomination The date nomination.
-	 * @return CommissairesComptes Returns this commissaires comptes.
-	 */
-	public function setDateNomination(DateTime $dateNomination = null) {
-		$this->dateNomination = $dateNomination;
-		return $this;
-	}
+    /**
+     * Set the date nomination.
+     *
+     * @param DateTime $dateNomination The date nomination.
+     * @return CommissairesComptes Returns this commissaires comptes.
+     */
+    public function setDateNomination(DateTime $dateNomination = null) {
+        $this->dateNomination = $dateNomination;
+        return $this;
+    }
 
-	/**
-	 * Set the duree mandat.
-	 *
-	 * @param int $dureeMandat The duree mandat.
-	 * @return CommissairesComptes Returns this commissaires comptes.
-	 */
-	public function setDureeMandat($dureeMandat) {
-		$this->dureeMandat = $dureeMandat;
-		return $this;
-	}
+    /**
+     * Set the duree mandat.
+     *
+     * @param int $dureeMandat The duree mandat.
+     * @return CommissairesComptes Returns this commissaires comptes.
+     */
+    public function setDureeMandat($dureeMandat) {
+        $this->dureeMandat = $dureeMandat;
+        return $this;
+    }
 
-	/**
-	 * Set the observations.
-	 *
-	 * @param string $observations The observations.
-	 * @return CommissairesComptes Returns this commissaires comptes.
-	 */
-	public function setObservations($observations) {
-		$this->observations = $observations;
-		return $this;
-	}
+    /**
+     * Set the observations.
+     *
+     * @param string $observations The observations.
+     * @return CommissairesComptes Returns this commissaires comptes.
+     */
+    public function setObservations($observations) {
+        $this->observations = $observations;
+        return $this;
+    }
 
-	/**
-	 * Set the position.
-	 *
-	 * @param int $position The position.
-	 * @return CommissairesComptes Returns this commissaires comptes.
-	 */
-	public function setPosition($position) {
-		$this->position = $position;
-		return $this;
-	}
+    /**
+     * Set the position.
+     *
+     * @param int $position The position.
+     * @return CommissairesComptes Returns this commissaires comptes.
+     */
+    public function setPosition($position) {
+        $this->position = $position;
+        return $this;
+    }
 
-	/**
-	 * Set the titulaire.
-	 *
-	 * @param boolean $titulaire The titulaire.
-	 * @return CommissairesComptes Returns this commissaires comptes.
-	 */
-	public function setTitulaire($titulaire) {
-		$this->titulaire = $titulaire;
-		return $this;
-	}
+    /**
+     * Set the titulaire.
+     *
+     * @param boolean $titulaire The titulaire.
+     * @return CommissairesComptes Returns this commissaires comptes.
+     */
+    public function setTitulaire($titulaire) {
+        $this->titulaire = $titulaire;
+        return $this;
+    }
 
 }

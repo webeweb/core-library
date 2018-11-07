@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmpRecapCodePenibiliteTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmpRecapCodePenibilite();
+        $obj = new EmpRecapCodePenibilite();
 
-		$this->assertNull($obj->getCodePenibilite());
-		$this->assertNull($obj->getIDRecap());
-		$this->assertNull($obj->getNumeroOrdre());
-	}
+        $this->assertNull($obj->getCodePenibilite());
+        $this->assertNull($obj->getIDRecap());
+        $this->assertNull($obj->getNumeroOrdre());
+    }
 
-	/**
-	 * Tests the setCodePenibilite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePenibilite() {
+    /**
+     * Tests the setCodePenibilite() method.
+     *
+     * @return void
+     */
+    public function testSetCodePenibilite() {
 
-		$obj = new EmpRecapCodePenibilite();
+        $obj = new EmpRecapCodePenibilite();
 
-		$obj->setCodePenibilite("codePenibilite");
-		$this->assertEquals("codePenibilite", $obj->getCodePenibilite());
-	}
+        $obj->setCodePenibilite("codePenibilite");
+        $this->assertEquals("codePenibilite", $obj->getCodePenibilite());
+    }
 
-	/**
-	 * Tests the setIDRecap() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIDRecap() {
+    /**
+     * Tests the setIDRecap() method.
+     *
+     * @return void
+     */
+    public function testSetIDRecap() {
 
-		$obj = new EmpRecapCodePenibilite();
+        $obj = new EmpRecapCodePenibilite();
 
-		$obj->setIDRecap(10);
-		$this->assertEquals(10, $obj->getIDRecap());
-	}
+        $obj->setIDRecap(10);
+        $this->assertEquals(10, $obj->getIDRecap());
+    }
 
-	/**
-	 * Tests the setNumeroOrdre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroOrdre() {
+    /**
+     * Tests the setNumeroOrdre() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroOrdre() {
 
-		$obj = new EmpRecapCodePenibilite();
+        $obj = new EmpRecapCodePenibilite();
 
-		$obj->setNumeroOrdre(10);
-		$this->assertEquals(10, $obj->getNumeroOrdre());
-	}
+        $obj->setNumeroOrdre(10);
+        $this->assertEquals(10, $obj->getNumeroOrdre());
+    }
 
 }

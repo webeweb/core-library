@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmployesModulesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmployesModules();
+        $obj = new EmployesModules();
 
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getDebutModulation());
-		$this->assertNull($obj->getEcartCumuleInit());
-		$this->assertNull($obj->getFinModulation());
-		$this->assertNull($obj->getPeriodeEcartCumule());
-	}
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDebutModulation());
+        $this->assertNull($obj->getEcartCumuleInit());
+        $this->assertNull($obj->getFinModulation());
+        $this->assertNull($obj->getPeriodeEcartCumule());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new EmployesModules();
+        $obj = new EmployesModules();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setDebutModulation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDebutModulation() {
+    /**
+     * Tests the setDebutModulation() method.
+     *
+     * @return void
+     */
+    public function testSetDebutModulation() {
 
-		$obj = new EmployesModules();
+        $obj = new EmployesModules();
 
-		$obj->setDebutModulation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDebutModulation());
-	}
+        $obj->setDebutModulation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDebutModulation());
+    }
 
-	/**
-	 * Tests the setEcartCumuleInit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEcartCumuleInit() {
+    /**
+     * Tests the setEcartCumuleInit() method.
+     *
+     * @return void
+     */
+    public function testSetEcartCumuleInit() {
 
-		$obj = new EmployesModules();
+        $obj = new EmployesModules();
 
-		$obj->setEcartCumuleInit(10.092018);
-		$this->assertEquals(10.092018, $obj->getEcartCumuleInit());
-	}
+        $obj->setEcartCumuleInit(10.092018);
+        $this->assertEquals(10.092018, $obj->getEcartCumuleInit());
+    }
 
-	/**
-	 * Tests the setFinModulation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFinModulation() {
+    /**
+     * Tests the setFinModulation() method.
+     *
+     * @return void
+     */
+    public function testSetFinModulation() {
 
-		$obj = new EmployesModules();
+        $obj = new EmployesModules();
 
-		$obj->setFinModulation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getFinModulation());
-	}
+        $obj->setFinModulation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getFinModulation());
+    }
 
-	/**
-	 * Tests the setPeriodeEcartCumule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeEcartCumule() {
+    /**
+     * Tests the setPeriodeEcartCumule() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeEcartCumule() {
 
-		$obj = new EmployesModules();
+        $obj = new EmployesModules();
 
-		$obj->setPeriodeEcartCumule(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeEcartCumule());
-	}
+        $obj->setPeriodeEcartCumule(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeEcartCumule());
+    }
 
 }

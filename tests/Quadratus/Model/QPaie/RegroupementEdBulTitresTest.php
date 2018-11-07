@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RegroupementEdBulTitresTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RegroupementEdBulTitres();
+        $obj = new RegroupementEdBulTitres();
 
-		$this->assertNull($obj->getAfficher());
-		$this->assertNull($obj->getCodeTitre());
-		$this->assertNull($obj->getQuadra());
-		$this->assertNull($obj->getTitre());
-	}
+        $this->assertNull($obj->getAfficher());
+        $this->assertNull($obj->getCodeTitre());
+        $this->assertNull($obj->getQuadra());
+        $this->assertNull($obj->getTitre());
+    }
 
-	/**
-	 * Tests the setAfficher() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAfficher() {
+    /**
+     * Tests the setAfficher() method.
+     *
+     * @return void
+     */
+    public function testSetAfficher() {
 
-		$obj = new RegroupementEdBulTitres();
+        $obj = new RegroupementEdBulTitres();
 
-		$obj->setAfficher(true);
-		$this->assertEquals(true, $obj->getAfficher());
-	}
+        $obj->setAfficher(true);
+        $this->assertEquals(true, $obj->getAfficher());
+    }
 
-	/**
-	 * Tests the setCodeTitre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTitre() {
+    /**
+     * Tests the setCodeTitre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTitre() {
 
-		$obj = new RegroupementEdBulTitres();
+        $obj = new RegroupementEdBulTitres();
 
-		$obj->setCodeTitre("codeTitre");
-		$this->assertEquals("codeTitre", $obj->getCodeTitre());
-	}
+        $obj->setCodeTitre("codeTitre");
+        $this->assertEquals("codeTitre", $obj->getCodeTitre());
+    }
 
-	/**
-	 * Tests the setQuadra() method.
-	 *
-	 * @return void
-	 */
-	public function testSetQuadra() {
+    /**
+     * Tests the setQuadra() method.
+     *
+     * @return void
+     */
+    public function testSetQuadra() {
 
-		$obj = new RegroupementEdBulTitres();
+        $obj = new RegroupementEdBulTitres();
 
-		$obj->setQuadra(true);
-		$this->assertEquals(true, $obj->getQuadra());
-	}
+        $obj->setQuadra(true);
+        $this->assertEquals(true, $obj->getQuadra());
+    }
 
-	/**
-	 * Tests the setTitre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTitre() {
+    /**
+     * Tests the setTitre() method.
+     *
+     * @return void
+     */
+    public function testSetTitre() {
 
-		$obj = new RegroupementEdBulTitres();
+        $obj = new RegroupementEdBulTitres();
 
-		$obj->setTitre("titre");
-		$this->assertEquals("titre", $obj->getTitre());
-	}
+        $obj->setTitre("titre");
+        $this->assertEquals("titre", $obj->getTitre());
+    }
 
 }

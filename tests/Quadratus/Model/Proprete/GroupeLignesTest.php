@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class GroupeLignesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new GroupeLignes();
+        $obj = new GroupeLignes();
 
-		$this->assertNull($obj->getCodeElement());
-		$this->assertNull($obj->getGroupe());
-		$this->assertNull($obj->getOrdre());
-		$this->assertNull($obj->getTypeElement());
-	}
+        $this->assertNull($obj->getCodeElement());
+        $this->assertNull($obj->getGroupe());
+        $this->assertNull($obj->getOrdre());
+        $this->assertNull($obj->getTypeElement());
+    }
 
-	/**
-	 * Tests the setCodeElement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeElement() {
+    /**
+     * Tests the setCodeElement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeElement() {
 
-		$obj = new GroupeLignes();
+        $obj = new GroupeLignes();
 
-		$obj->setCodeElement("codeElement");
-		$this->assertEquals("codeElement", $obj->getCodeElement());
-	}
+        $obj->setCodeElement("codeElement");
+        $this->assertEquals("codeElement", $obj->getCodeElement());
+    }
 
-	/**
-	 * Tests the setGroupe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetGroupe() {
+    /**
+     * Tests the setGroupe() method.
+     *
+     * @return void
+     */
+    public function testSetGroupe() {
 
-		$obj = new GroupeLignes();
+        $obj = new GroupeLignes();
 
-		$obj->setGroupe("groupe");
-		$this->assertEquals("groupe", $obj->getGroupe());
-	}
+        $obj->setGroupe("groupe");
+        $this->assertEquals("groupe", $obj->getGroupe());
+    }
 
-	/**
-	 * Tests the setOrdre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOrdre() {
+    /**
+     * Tests the setOrdre() method.
+     *
+     * @return void
+     */
+    public function testSetOrdre() {
 
-		$obj = new GroupeLignes();
+        $obj = new GroupeLignes();
 
-		$obj->setOrdre(10);
-		$this->assertEquals(10, $obj->getOrdre());
-	}
+        $obj->setOrdre(10);
+        $this->assertEquals(10, $obj->getOrdre());
+    }
 
-	/**
-	 * Tests the setTypeElement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeElement() {
+    /**
+     * Tests the setTypeElement() method.
+     *
+     * @return void
+     */
+    public function testSetTypeElement() {
 
-		$obj = new GroupeLignes();
+        $obj = new GroupeLignes();
 
-		$obj->setTypeElement("typeElement");
-		$this->assertEquals("typeElement", $obj->getTypeElement());
-	}
+        $obj->setTypeElement("typeElement");
+        $this->assertEquals("typeElement", $obj->getTypeElement());
+    }
 
 }

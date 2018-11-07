@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ChantiersSynchroIdTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ChantiersSynchroId();
+        $obj = new ChantiersSynchroId();
 
-		$this->assertNull($obj->getBlocDA());
-		$this->assertNull($obj->getBlocFC());
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getUniqID());
-	}
+        $this->assertNull($obj->getBlocDA());
+        $this->assertNull($obj->getBlocFC());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getUniqID());
+    }
 
-	/**
-	 * Tests the setBlocDA() method.
-	 *
-	 * @return void
-	 */
-	public function testSetBlocDA() {
+    /**
+     * Tests the setBlocDA() method.
+     *
+     * @return void
+     */
+    public function testSetBlocDA() {
 
-		$obj = new ChantiersSynchroId();
+        $obj = new ChantiersSynchroId();
 
-		$obj->setBlocDA(true);
-		$this->assertEquals(true, $obj->getBlocDA());
-	}
+        $obj->setBlocDA(true);
+        $this->assertEquals(true, $obj->getBlocDA());
+    }
 
-	/**
-	 * Tests the setBlocFC() method.
-	 *
-	 * @return void
-	 */
-	public function testSetBlocFC() {
+    /**
+     * Tests the setBlocFC() method.
+     *
+     * @return void
+     */
+    public function testSetBlocFC() {
 
-		$obj = new ChantiersSynchroId();
+        $obj = new ChantiersSynchroId();
 
-		$obj->setBlocFC(true);
-		$this->assertEquals(true, $obj->getBlocFC());
-	}
+        $obj->setBlocFC(true);
+        $this->assertEquals(true, $obj->getBlocFC());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new ChantiersSynchroId();
+        $obj = new ChantiersSynchroId();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new ChantiersSynchroId();
+        $obj = new ChantiersSynchroId();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ChantiersSynchroId();
+        $obj = new ChantiersSynchroId();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqID() {
+    /**
+     * Tests the setUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetUniqID() {
 
-		$obj = new ChantiersSynchroId();
+        $obj = new ChantiersSynchroId();
 
-		$obj->setUniqID("uniqID");
-		$this->assertEquals("uniqID", $obj->getUniqID());
-	}
+        $obj->setUniqID("uniqID");
+        $this->assertEquals("uniqID", $obj->getUniqID());
+    }
 
 }

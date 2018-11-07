@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Clients favoris model.
  *
@@ -20,65 +19,65 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class ClientsFavoris {
 
-	/**
-	 * Code client.
-	 *
-	 * @var string
-	 */
-	private $codeClient;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
 
-	/**
-	 * Code col.
-	 *
-	 * @var string
-	 */
-	private $codeCol;
+    /**
+     * Code col.
+     *
+     * @var string
+     */
+    private $codeCol;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code client.
-	 *
-	 * @return string Returns the code client.
-	 */
-	public function getCodeClient() {
-		return $this->codeClient;
-	}
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
 
-	/**
-	 * Get the code col.
-	 *
-	 * @return string Returns the code col.
-	 */
-	public function getCodeCol() {
-		return $this->codeCol;
-	}
+    /**
+     * Get the code col.
+     *
+     * @return string Returns the code col.
+     */
+    public function getCodeCol() {
+        return $this->codeCol;
+    }
 
-	/**
-	 * Set the code client.
-	 *
-	 * @param string $codeClient The code client.
-	 * @return ClientsFavoris Returns this clients favoris.
-	 */
-	public function setCodeClient($codeClient) {
-		$this->codeClient = $codeClient;
-		return $this;
-	}
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     * @return ClientsFavoris Returns this clients favoris.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
 
-	/**
-	 * Set the code col.
-	 *
-	 * @param string $codeCol The code col.
-	 * @return ClientsFavoris Returns this clients favoris.
-	 */
-	public function setCodeCol($codeCol) {
-		$this->codeCol = $codeCol;
-		return $this;
-	}
+    /**
+     * Set the code col.
+     *
+     * @param string $codeCol The code col.
+     * @return ClientsFavoris Returns this clients favoris.
+     */
+    public function setCodeCol($codeCol) {
+        $this->codeCol = $codeCol;
+        return $this;
+    }
 
 }

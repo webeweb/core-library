@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ObligationsPointeesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ObligationsPointees();
+        $obj = new ObligationsPointees();
 
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeObligation());
-		$this->assertNull($obj->getDateEffet());
-		$this->assertNull($obj->getLe());
-		$this->assertNull($obj->getPar());
-	}
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeObligation());
+        $this->assertNull($obj->getDateEffet());
+        $this->assertNull($obj->getLe());
+        $this->assertNull($obj->getPar());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ObligationsPointees();
+        $obj = new ObligationsPointees();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeObligation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeObligation() {
+    /**
+     * Tests the setCodeObligation() method.
+     *
+     * @return void
+     */
+    public function testSetCodeObligation() {
 
-		$obj = new ObligationsPointees();
+        $obj = new ObligationsPointees();
 
-		$obj->setCodeObligation("codeObligation");
-		$this->assertEquals("codeObligation", $obj->getCodeObligation());
-	}
+        $obj->setCodeObligation("codeObligation");
+        $this->assertEquals("codeObligation", $obj->getCodeObligation());
+    }
 
-	/**
-	 * Tests the setDateEffet() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateEffet() {
+    /**
+     * Tests the setDateEffet() method.
+     *
+     * @return void
+     */
+    public function testSetDateEffet() {
 
-		$obj = new ObligationsPointees();
+        $obj = new ObligationsPointees();
 
-		$obj->setDateEffet(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEffet());
-	}
+        $obj->setDateEffet(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEffet());
+    }
 
-	/**
-	 * Tests the setLe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLe() {
+    /**
+     * Tests the setLe() method.
+     *
+     * @return void
+     */
+    public function testSetLe() {
 
-		$obj = new ObligationsPointees();
+        $obj = new ObligationsPointees();
 
-		$obj->setLe(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getLe());
-	}
+        $obj->setLe(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getLe());
+    }
 
-	/**
-	 * Tests the setPar() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPar() {
+    /**
+     * Tests the setPar() method.
+     *
+     * @return void
+     */
+    public function testSetPar() {
 
-		$obj = new ObligationsPointees();
+        $obj = new ObligationsPointees();
 
-		$obj->setPar("par");
-		$this->assertEquals("par", $obj->getPar());
-	}
+        $obj->setPar("par");
+        $this->assertEquals("par", $obj->getPar());
+    }
 
 }

@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\Proprete;
 
-
 /**
  * Detail charges model.
  *
@@ -20,119 +19,119 @@ namespace WBW\Library\Core\Quadratus\Model\Proprete;
  */
 class DetailCharges {
 
-	/**
-	 * Commentaire.
-	 *
-	 * @var string
-	 */
-	private $commentaire;
+    /**
+     * Commentaire.
+     *
+     * @var string
+     */
+    private $commentaire;
 
-	/**
-	 * Montant.
-	 *
-	 * @var float
-	 */
-	private $montant;
+    /**
+     * Montant.
+     *
+     * @var float
+     */
+    private $montant;
 
-	/**
-	 * Num ligne.
-	 *
-	 * @var int
-	 */
-	private $numLigne;
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
 
-	/**
-	 * Uniq id.
-	 *
-	 * @var string
-	 */
-	private $uniqId;
+    /**
+     * Uniq id.
+     *
+     * @var string
+     */
+    private $uniqId;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the commentaire.
-	 *
-	 * @return string Returns the commentaire.
-	 */
-	public function getCommentaire() {
-		return $this->commentaire;
-	}
+    /**
+     * Get the commentaire.
+     *
+     * @return string Returns the commentaire.
+     */
+    public function getCommentaire() {
+        return $this->commentaire;
+    }
 
-	/**
-	 * Get the montant.
-	 *
-	 * @return float Returns the montant.
-	 */
-	public function getMontant() {
-		return $this->montant;
-	}
+    /**
+     * Get the montant.
+     *
+     * @return float Returns the montant.
+     */
+    public function getMontant() {
+        return $this->montant;
+    }
 
-	/**
-	 * Get the num ligne.
-	 *
-	 * @return int Returns the num ligne.
-	 */
-	public function getNumLigne() {
-		return $this->numLigne;
-	}
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
 
-	/**
-	 * Get the uniq id.
-	 *
-	 * @return string Returns the uniq id.
-	 */
-	public function getUniqId() {
-		return $this->uniqId;
-	}
+    /**
+     * Get the uniq id.
+     *
+     * @return string Returns the uniq id.
+     */
+    public function getUniqId() {
+        return $this->uniqId;
+    }
 
-	/**
-	 * Set the commentaire.
-	 *
-	 * @param string $commentaire The commentaire.
-	 * @return DetailCharges Returns this detail charges.
-	 */
-	public function setCommentaire($commentaire) {
-		$this->commentaire = $commentaire;
-		return $this;
-	}
+    /**
+     * Set the commentaire.
+     *
+     * @param string $commentaire The commentaire.
+     * @return DetailCharges Returns this detail charges.
+     */
+    public function setCommentaire($commentaire) {
+        $this->commentaire = $commentaire;
+        return $this;
+    }
 
-	/**
-	 * Set the montant.
-	 *
-	 * @param float $montant The montant.
-	 * @return DetailCharges Returns this detail charges.
-	 */
-	public function setMontant($montant) {
-		$this->montant = $montant;
-		return $this;
-	}
+    /**
+     * Set the montant.
+     *
+     * @param float $montant The montant.
+     * @return DetailCharges Returns this detail charges.
+     */
+    public function setMontant($montant) {
+        $this->montant = $montant;
+        return $this;
+    }
 
-	/**
-	 * Set the num ligne.
-	 *
-	 * @param int $numLigne The num ligne.
-	 * @return DetailCharges Returns this detail charges.
-	 */
-	public function setNumLigne($numLigne) {
-		$this->numLigne = $numLigne;
-		return $this;
-	}
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     * @return DetailCharges Returns this detail charges.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
+    }
 
-	/**
-	 * Set the uniq id.
-	 *
-	 * @param string $uniqId The uniq id.
-	 * @return DetailCharges Returns this detail charges.
-	 */
-	public function setUniqId($uniqId) {
-		$this->uniqId = $uniqId;
-		return $this;
-	}
+    /**
+     * Set the uniq id.
+     *
+     * @param string $uniqId The uniq id.
+     * @return DetailCharges Returns this detail charges.
+     */
+    public function setUniqId($uniqId) {
+        $this->uniqId = $uniqId;
+        return $this;
+    }
 
 }

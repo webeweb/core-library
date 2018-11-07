@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Clients sel avance favoris model.
  *
@@ -20,146 +19,146 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class ClientsSelAvanceFavoris {
 
-	/**
-	 * Code collaborateur.
-	 *
-	 * @var string
-	 */
-	private $codeCollaborateur;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
 
-	/**
-	 * Code liste.
-	 *
-	 * @var string
-	 */
-	private $codeListe;
+    /**
+     * Code liste.
+     *
+     * @var string
+     */
+    private $codeListe;
 
-	/**
-	 * Description.
-	 *
-	 * @var string
-	 */
-	private $description;
+    /**
+     * Description.
+     *
+     * @var string
+     */
+    private $description;
 
-	/**
-	 * Ordre.
-	 *
-	 * @var int
-	 */
-	private $ordre;
+    /**
+     * Ordre.
+     *
+     * @var int
+     */
+    private $ordre;
 
-	/**
-	 * Origine.
-	 *
-	 * @var string
-	 */
-	private $origine;
+    /**
+     * Origine.
+     *
+     * @var string
+     */
+    private $origine;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code collaborateur.
-	 *
-	 * @return string Returns the code collaborateur.
-	 */
-	public function getCodeCollaborateur() {
-		return $this->codeCollaborateur;
-	}
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
 
-	/**
-	 * Get the code liste.
-	 *
-	 * @return string Returns the code liste.
-	 */
-	public function getCodeListe() {
-		return $this->codeListe;
-	}
+    /**
+     * Get the code liste.
+     *
+     * @return string Returns the code liste.
+     */
+    public function getCodeListe() {
+        return $this->codeListe;
+    }
 
-	/**
-	 * Get the description.
-	 *
-	 * @return string Returns the description.
-	 */
-	public function getDescription() {
-		return $this->description;
-	}
+    /**
+     * Get the description.
+     *
+     * @return string Returns the description.
+     */
+    public function getDescription() {
+        return $this->description;
+    }
 
-	/**
-	 * Get the ordre.
-	 *
-	 * @return int Returns the ordre.
-	 */
-	public function getOrdre() {
-		return $this->ordre;
-	}
+    /**
+     * Get the ordre.
+     *
+     * @return int Returns the ordre.
+     */
+    public function getOrdre() {
+        return $this->ordre;
+    }
 
-	/**
-	 * Get the origine.
-	 *
-	 * @return string Returns the origine.
-	 */
-	public function getOrigine() {
-		return $this->origine;
-	}
+    /**
+     * Get the origine.
+     *
+     * @return string Returns the origine.
+     */
+    public function getOrigine() {
+        return $this->origine;
+    }
 
-	/**
-	 * Set the code collaborateur.
-	 *
-	 * @param string $codeCollaborateur The code collaborateur.
-	 * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
-	 */
-	public function setCodeCollaborateur($codeCollaborateur) {
-		$this->codeCollaborateur = $codeCollaborateur;
-		return $this;
-	}
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
 
-	/**
-	 * Set the code liste.
-	 *
-	 * @param string $codeListe The code liste.
-	 * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
-	 */
-	public function setCodeListe($codeListe) {
-		$this->codeListe = $codeListe;
-		return $this;
-	}
+    /**
+     * Set the code liste.
+     *
+     * @param string $codeListe The code liste.
+     * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
+     */
+    public function setCodeListe($codeListe) {
+        $this->codeListe = $codeListe;
+        return $this;
+    }
 
-	/**
-	 * Set the description.
-	 *
-	 * @param string $description The description.
-	 * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
-	 */
-	public function setDescription($description) {
-		$this->description = $description;
-		return $this;
-	}
+    /**
+     * Set the description.
+     *
+     * @param string $description The description.
+     * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
+     */
+    public function setDescription($description) {
+        $this->description = $description;
+        return $this;
+    }
 
-	/**
-	 * Set the ordre.
-	 *
-	 * @param int $ordre The ordre.
-	 * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
-	 */
-	public function setOrdre($ordre) {
-		$this->ordre = $ordre;
-		return $this;
-	}
+    /**
+     * Set the ordre.
+     *
+     * @param int $ordre The ordre.
+     * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
+     */
+    public function setOrdre($ordre) {
+        $this->ordre = $ordre;
+        return $this;
+    }
 
-	/**
-	 * Set the origine.
-	 *
-	 * @param string $origine The origine.
-	 * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
-	 */
-	public function setOrigine($origine) {
-		$this->origine = $origine;
-		return $this;
-	}
+    /**
+     * Set the origine.
+     *
+     * @param string $origine The origine.
+     * @return ClientsSelAvanceFavoris Returns this clients sel avance favoris.
+     */
+    public function setOrigine($origine) {
+        $this->origine = $origine;
+        return $this;
+    }
 
 }

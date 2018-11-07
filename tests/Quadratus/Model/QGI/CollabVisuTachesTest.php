@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CollabVisuTachesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CollabVisuTaches();
+        $obj = new CollabVisuTaches();
 
-		$this->assertNull($obj->getCodeCollab());
-		$this->assertNull($obj->getCodeTacheVisu());
-	}
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getCodeTacheVisu());
+    }
 
-	/**
-	 * Tests the setCodeCollab() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollab() {
+    /**
+     * Tests the setCodeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollab() {
 
-		$obj = new CollabVisuTaches();
+        $obj = new CollabVisuTaches();
 
-		$obj->setCodeCollab("codeCollab");
-		$this->assertEquals("codeCollab", $obj->getCodeCollab());
-	}
+        $obj->setCodeCollab("codeCollab");
+        $this->assertEquals("codeCollab", $obj->getCodeCollab());
+    }
 
-	/**
-	 * Tests the setCodeTacheVisu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTacheVisu() {
+    /**
+     * Tests the setCodeTacheVisu() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTacheVisu() {
 
-		$obj = new CollabVisuTaches();
+        $obj = new CollabVisuTaches();
 
-		$obj->setCodeTacheVisu("codeTacheVisu");
-		$this->assertEquals("codeTacheVisu", $obj->getCodeTacheVisu());
-	}
+        $obj->setCodeTacheVisu("codeTacheVisu");
+        $this->assertEquals("codeTacheVisu", $obj->getCodeTacheVisu());
+    }
 
 }

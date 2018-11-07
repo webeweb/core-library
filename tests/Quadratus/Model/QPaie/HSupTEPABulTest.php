@@ -23,141 +23,141 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HSupTEPABulTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$this->assertNull($obj->getIndicePeriode());
-		$this->assertNull($obj->getMtBrutExo());
-		$this->assertNull($obj->getMtBrutExoAbat());
-		$this->assertNull($obj->getNbJHExo());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getPourcentMajo());
-		$this->assertNull($obj->getTypeExo());
-	}
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getMtBrutExo());
+        $this->assertNull($obj->getMtBrutExoAbat());
+        $this->assertNull($obj->getNbJHExo());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPourcentMajo());
+        $this->assertNull($obj->getTypeExo());
+    }
 
-	/**
-	 * Tests the setIndicePeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndicePeriode() {
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setIndicePeriode(10);
-		$this->assertEquals(10, $obj->getIndicePeriode());
-	}
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
 
-	/**
-	 * Tests the setMtBrutExo() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMtBrutExo() {
+    /**
+     * Tests the setMtBrutExo() method.
+     *
+     * @return void
+     */
+    public function testSetMtBrutExo() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setMtBrutExo(10.092018);
-		$this->assertEquals(10.092018, $obj->getMtBrutExo());
-	}
+        $obj->setMtBrutExo(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtBrutExo());
+    }
 
-	/**
-	 * Tests the setMtBrutExoAbat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMtBrutExoAbat() {
+    /**
+     * Tests the setMtBrutExoAbat() method.
+     *
+     * @return void
+     */
+    public function testSetMtBrutExoAbat() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setMtBrutExoAbat(10.092018);
-		$this->assertEquals(10.092018, $obj->getMtBrutExoAbat());
-	}
+        $obj->setMtBrutExoAbat(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtBrutExoAbat());
+    }
 
-	/**
-	 * Tests the setNbJHExo() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbJHExo() {
+    /**
+     * Tests the setNbJHExo() method.
+     *
+     * @return void
+     */
+    public function testSetNbJHExo() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setNbJHExo(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbJHExo());
-	}
+        $obj->setNbJHExo(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJHExo());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setNumLigne(10);
-		$this->assertEquals(10, $obj->getNumLigne());
-	}
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setPourcentMajo() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPourcentMajo() {
+    /**
+     * Tests the setPourcentMajo() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentMajo() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setPourcentMajo(10.092018);
-		$this->assertEquals(10.092018, $obj->getPourcentMajo());
-	}
+        $obj->setPourcentMajo(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentMajo());
+    }
 
-	/**
-	 * Tests the setTypeExo() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeExo() {
+    /**
+     * Tests the setTypeExo() method.
+     *
+     * @return void
+     */
+    public function testSetTypeExo() {
 
-		$obj = new HSupTEPABul();
+        $obj = new HSupTEPABul();
 
-		$obj->setTypeExo("typeExo");
-		$this->assertEquals("typeExo", $obj->getTypeExo());
-	}
+        $obj->setTypeExo("typeExo");
+        $this->assertEquals("typeExo", $obj->getTypeExo());
+    }
 
 }

@@ -22,141 +22,141 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ChantiersDescriptifLocauxElementsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeElement());
-		$this->assertNull($obj->getCoefficient());
-		$this->assertNull($obj->getNiveauNoeud());
-		$this->assertNull($obj->getNumeroNoeud());
-		$this->assertNull($obj->getTypeElement());
-		$this->assertNull($obj->getUniqIdLocal());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeElement());
+        $this->assertNull($obj->getCoefficient());
+        $this->assertNull($obj->getNiveauNoeud());
+        $this->assertNull($obj->getNumeroNoeud());
+        $this->assertNull($obj->getTypeElement());
+        $this->assertNull($obj->getUniqIdLocal());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeElement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeElement() {
+    /**
+     * Tests the setCodeElement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeElement() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setCodeElement("codeElement");
-		$this->assertEquals("codeElement", $obj->getCodeElement());
-	}
+        $obj->setCodeElement("codeElement");
+        $this->assertEquals("codeElement", $obj->getCodeElement());
+    }
 
-	/**
-	 * Tests the setCoefficient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCoefficient() {
+    /**
+     * Tests the setCoefficient() method.
+     *
+     * @return void
+     */
+    public function testSetCoefficient() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setCoefficient(10.092018);
-		$this->assertEquals(10.092018, $obj->getCoefficient());
-	}
+        $obj->setCoefficient(10.092018);
+        $this->assertEquals(10.092018, $obj->getCoefficient());
+    }
 
-	/**
-	 * Tests the setNiveauNoeud() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNiveauNoeud() {
+    /**
+     * Tests the setNiveauNoeud() method.
+     *
+     * @return void
+     */
+    public function testSetNiveauNoeud() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setNiveauNoeud(10);
-		$this->assertEquals(10, $obj->getNiveauNoeud());
-	}
+        $obj->setNiveauNoeud(10);
+        $this->assertEquals(10, $obj->getNiveauNoeud());
+    }
 
-	/**
-	 * Tests the setNumeroNoeud() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroNoeud() {
+    /**
+     * Tests the setNumeroNoeud() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroNoeud() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setNumeroNoeud(10);
-		$this->assertEquals(10, $obj->getNumeroNoeud());
-	}
+        $obj->setNumeroNoeud(10);
+        $this->assertEquals(10, $obj->getNumeroNoeud());
+    }
 
-	/**
-	 * Tests the setTypeElement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeElement() {
+    /**
+     * Tests the setTypeElement() method.
+     *
+     * @return void
+     */
+    public function testSetTypeElement() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setTypeElement("typeElement");
-		$this->assertEquals("typeElement", $obj->getTypeElement());
-	}
+        $obj->setTypeElement("typeElement");
+        $this->assertEquals("typeElement", $obj->getTypeElement());
+    }
 
-	/**
-	 * Tests the setUniqIdLocal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqIdLocal() {
+    /**
+     * Tests the setUniqIdLocal() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIdLocal() {
 
-		$obj = new ChantiersDescriptifLocauxElements();
+        $obj = new ChantiersDescriptifLocauxElements();
 
-		$obj->setUniqIdLocal("uniqIdLocal");
-		$this->assertEquals("uniqIdLocal", $obj->getUniqIdLocal());
-	}
+        $obj->setUniqIdLocal("uniqIdLocal");
+        $this->assertEquals("uniqIdLocal", $obj->getUniqIdLocal());
+    }
 
 }

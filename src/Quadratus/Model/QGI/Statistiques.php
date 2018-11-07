@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Statistiques model.
  *
@@ -20,119 +19,119 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class Statistiques {
 
-	/**
-	 * Code client.
-	 *
-	 * @var string
-	 */
-	private $codeClient;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
 
-	/**
-	 * Code rubrique.
-	 *
-	 * @var string
-	 */
-	private $codeRubrique;
+    /**
+     * Code rubrique.
+     *
+     * @var string
+     */
+    private $codeRubrique;
 
-	/**
-	 * Info cellule.
-	 *
-	 * @var float
-	 */
-	private $infoCellule;
+    /**
+     * Info cellule.
+     *
+     * @var float
+     */
+    private $infoCellule;
 
-	/**
-	 * Millesime.
-	 *
-	 * @var string
-	 */
-	private $millesime;
+    /**
+     * Millesime.
+     *
+     * @var string
+     */
+    private $millesime;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code client.
-	 *
-	 * @return string Returns the code client.
-	 */
-	public function getCodeClient() {
-		return $this->codeClient;
-	}
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
 
-	/**
-	 * Get the code rubrique.
-	 *
-	 * @return string Returns the code rubrique.
-	 */
-	public function getCodeRubrique() {
-		return $this->codeRubrique;
-	}
+    /**
+     * Get the code rubrique.
+     *
+     * @return string Returns the code rubrique.
+     */
+    public function getCodeRubrique() {
+        return $this->codeRubrique;
+    }
 
-	/**
-	 * Get the info cellule.
-	 *
-	 * @return float Returns the info cellule.
-	 */
-	public function getInfoCellule() {
-		return $this->infoCellule;
-	}
+    /**
+     * Get the info cellule.
+     *
+     * @return float Returns the info cellule.
+     */
+    public function getInfoCellule() {
+        return $this->infoCellule;
+    }
 
-	/**
-	 * Get the millesime.
-	 *
-	 * @return string Returns the millesime.
-	 */
-	public function getMillesime() {
-		return $this->millesime;
-	}
+    /**
+     * Get the millesime.
+     *
+     * @return string Returns the millesime.
+     */
+    public function getMillesime() {
+        return $this->millesime;
+    }
 
-	/**
-	 * Set the code client.
-	 *
-	 * @param string $codeClient The code client.
-	 * @return Statistiques Returns this statistiques.
-	 */
-	public function setCodeClient($codeClient) {
-		$this->codeClient = $codeClient;
-		return $this;
-	}
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     * @return Statistiques Returns this statistiques.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
 
-	/**
-	 * Set the code rubrique.
-	 *
-	 * @param string $codeRubrique The code rubrique.
-	 * @return Statistiques Returns this statistiques.
-	 */
-	public function setCodeRubrique($codeRubrique) {
-		$this->codeRubrique = $codeRubrique;
-		return $this;
-	}
+    /**
+     * Set the code rubrique.
+     *
+     * @param string $codeRubrique The code rubrique.
+     * @return Statistiques Returns this statistiques.
+     */
+    public function setCodeRubrique($codeRubrique) {
+        $this->codeRubrique = $codeRubrique;
+        return $this;
+    }
 
-	/**
-	 * Set the info cellule.
-	 *
-	 * @param float $infoCellule The info cellule.
-	 * @return Statistiques Returns this statistiques.
-	 */
-	public function setInfoCellule($infoCellule) {
-		$this->infoCellule = $infoCellule;
-		return $this;
-	}
+    /**
+     * Set the info cellule.
+     *
+     * @param float $infoCellule The info cellule.
+     * @return Statistiques Returns this statistiques.
+     */
+    public function setInfoCellule($infoCellule) {
+        $this->infoCellule = $infoCellule;
+        return $this;
+    }
 
-	/**
-	 * Set the millesime.
-	 *
-	 * @param string $millesime The millesime.
-	 * @return Statistiques Returns this statistiques.
-	 */
-	public function setMillesime($millesime) {
-		$this->millesime = $millesime;
-		return $this;
-	}
+    /**
+     * Set the millesime.
+     *
+     * @param string $millesime The millesime.
+     * @return Statistiques Returns this statistiques.
+     */
+    public function setMillesime($millesime) {
+        $this->millesime = $millesime;
+        return $this;
+    }
 
 }

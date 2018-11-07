@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LstDiffusionLignesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new LstDiffusionLignes();
+        $obj = new LstDiffusionLignes();
 
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getCodeGroupe());
-		$this->assertNull($obj->getNumLig());
-		$this->assertNull($obj->getType());
-	}
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeGroupe());
+        $this->assertNull($obj->getNumLig());
+        $this->assertNull($obj->getType());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new LstDiffusionLignes();
+        $obj = new LstDiffusionLignes();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setCodeGroupe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeGroupe() {
+    /**
+     * Tests the setCodeGroupe() method.
+     *
+     * @return void
+     */
+    public function testSetCodeGroupe() {
 
-		$obj = new LstDiffusionLignes();
+        $obj = new LstDiffusionLignes();
 
-		$obj->setCodeGroupe("codeGroupe");
-		$this->assertEquals("codeGroupe", $obj->getCodeGroupe());
-	}
+        $obj->setCodeGroupe("codeGroupe");
+        $this->assertEquals("codeGroupe", $obj->getCodeGroupe());
+    }
 
-	/**
-	 * Tests the setNumLig() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLig() {
+    /**
+     * Tests the setNumLig() method.
+     *
+     * @return void
+     */
+    public function testSetNumLig() {
 
-		$obj = new LstDiffusionLignes();
+        $obj = new LstDiffusionLignes();
 
-		$obj->setNumLig(10);
-		$this->assertEquals(10, $obj->getNumLig());
-	}
+        $obj->setNumLig(10);
+        $this->assertEquals(10, $obj->getNumLig());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new LstDiffusionLignes();
+        $obj = new LstDiffusionLignes();
 
-		$obj->setType(10);
-		$this->assertEquals(10, $obj->getType());
-	}
+        $obj->setType(10);
+        $this->assertEquals(10, $obj->getType());
+    }
 
 }

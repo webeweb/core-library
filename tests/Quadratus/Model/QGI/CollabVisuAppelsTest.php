@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CollabVisuAppelsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new CollabVisuAppels();
+        $obj = new CollabVisuAppels();
 
-		$this->assertNull($obj->getCodeCollab());
-		$this->assertNull($obj->getCodeCollabVisu());
-		$this->assertNull($obj->getTypeCode());
-	}
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getCodeCollabVisu());
+        $this->assertNull($obj->getTypeCode());
+    }
 
-	/**
-	 * Tests the setCodeCollab() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollab() {
+    /**
+     * Tests the setCodeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollab() {
 
-		$obj = new CollabVisuAppels();
+        $obj = new CollabVisuAppels();
 
-		$obj->setCodeCollab("codeCollab");
-		$this->assertEquals("codeCollab", $obj->getCodeCollab());
-	}
+        $obj->setCodeCollab("codeCollab");
+        $this->assertEquals("codeCollab", $obj->getCodeCollab());
+    }
 
-	/**
-	 * Tests the setCodeCollabVisu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollabVisu() {
+    /**
+     * Tests the setCodeCollabVisu() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollabVisu() {
 
-		$obj = new CollabVisuAppels();
+        $obj = new CollabVisuAppels();
 
-		$obj->setCodeCollabVisu("codeCollabVisu");
-		$this->assertEquals("codeCollabVisu", $obj->getCodeCollabVisu());
-	}
+        $obj->setCodeCollabVisu("codeCollabVisu");
+        $this->assertEquals("codeCollabVisu", $obj->getCodeCollabVisu());
+    }
 
-	/**
-	 * Tests the setTypeCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeCode() {
+    /**
+     * Tests the setTypeCode() method.
+     *
+     * @return void
+     */
+    public function testSetTypeCode() {
 
-		$obj = new CollabVisuAppels();
+        $obj = new CollabVisuAppels();
 
-		$obj->setTypeCode("typeCode");
-		$this->assertEquals("typeCode", $obj->getTypeCode());
-	}
+        $obj->setTypeCode("typeCode");
+        $this->assertEquals("typeCode", $obj->getTypeCode());
+    }
 
 }

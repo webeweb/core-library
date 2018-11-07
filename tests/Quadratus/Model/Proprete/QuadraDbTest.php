@@ -23,57 +23,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class QuadraDbTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new QuadraDb();
+        $obj = new QuadraDb();
 
-		$this->assertNull($obj->getDateEnvoiMessage());
-		$this->assertNull($obj->getTailleBase());
-		$this->assertNull($obj->getVersion());
-	}
+        $this->assertNull($obj->getDateEnvoiMessage());
+        $this->assertNull($obj->getTailleBase());
+        $this->assertNull($obj->getVersion());
+    }
 
-	/**
-	 * Tests the setDateEnvoiMessage() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateEnvoiMessage() {
+    /**
+     * Tests the setDateEnvoiMessage() method.
+     *
+     * @return void
+     */
+    public function testSetDateEnvoiMessage() {
 
-		$obj = new QuadraDb();
+        $obj = new QuadraDb();
 
-		$obj->setDateEnvoiMessage(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEnvoiMessage());
-	}
+        $obj->setDateEnvoiMessage(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEnvoiMessage());
+    }
 
-	/**
-	 * Tests the setTailleBase() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTailleBase() {
+    /**
+     * Tests the setTailleBase() method.
+     *
+     * @return void
+     */
+    public function testSetTailleBase() {
 
-		$obj = new QuadraDb();
+        $obj = new QuadraDb();
 
-		$obj->setTailleBase(10.092018);
-		$this->assertEquals(10.092018, $obj->getTailleBase());
-	}
+        $obj->setTailleBase(10.092018);
+        $this->assertEquals(10.092018, $obj->getTailleBase());
+    }
 
-	/**
-	 * Tests the setVersion() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVersion() {
+    /**
+     * Tests the setVersion() method.
+     *
+     * @return void
+     */
+    public function testSetVersion() {
 
-		$obj = new QuadraDb();
+        $obj = new QuadraDb();
 
-		$obj->setVersion(10);
-		$this->assertEquals(10, $obj->getVersion());
-	}
+        $obj->setVersion(10);
+        $this->assertEquals(10, $obj->getVersion());
+    }
 
 }

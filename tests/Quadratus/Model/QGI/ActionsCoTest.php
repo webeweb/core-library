@@ -23,253 +23,253 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ActionsCoTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getDateCreation());
-		$this->assertNull($obj->getDateFinVie());
-		$this->assertNull($obj->getDateModification());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getLibelleMemo());
-		$this->assertNull($obj->getOp_Confirmation());
-		$this->assertNull($obj->getOp_ContratSigne());
-		$this->assertNull($obj->getOp_Explication());
-		$this->assertNull($obj->getOp_InvitationIndiv());
-		$this->assertNull($obj->getOp_InvitationMasse());
-		$this->assertNull($obj->getOp_Presence());
-		$this->assertNull($obj->getOp_PriseRDV());
-		$this->assertNull($obj->getOp_Relance());
-		$this->assertNull($obj->getOp_ReponseInscrip());
-		$this->assertNull($obj->getOp_ReponseNegative());
-		$this->assertNull($obj->getOp_Reservation());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateFinVie());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLibelleMemo());
+        $this->assertNull($obj->getOp_Confirmation());
+        $this->assertNull($obj->getOp_ContratSigne());
+        $this->assertNull($obj->getOp_Explication());
+        $this->assertNull($obj->getOp_InvitationIndiv());
+        $this->assertNull($obj->getOp_InvitationMasse());
+        $this->assertNull($obj->getOp_Presence());
+        $this->assertNull($obj->getOp_PriseRDV());
+        $this->assertNull($obj->getOp_Relance());
+        $this->assertNull($obj->getOp_ReponseInscrip());
+        $this->assertNull($obj->getOp_ReponseNegative());
+        $this->assertNull($obj->getOp_Reservation());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setDateCreation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateCreation() {
+    /**
+     * Tests the setDateCreation() method.
+     *
+     * @return void
+     */
+    public function testSetDateCreation() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setDateCreation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
-	}
+        $obj->setDateCreation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
+    }
 
-	/**
-	 * Tests the setDateFinVie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateFinVie() {
+    /**
+     * Tests the setDateFinVie() method.
+     *
+     * @return void
+     */
+    public function testSetDateFinVie() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setDateFinVie(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateFinVie());
-	}
+        $obj->setDateFinVie(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateFinVie());
+    }
 
-	/**
-	 * Tests the setDateModification() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateModification() {
+    /**
+     * Tests the setDateModification() method.
+     *
+     * @return void
+     */
+    public function testSetDateModification() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setDateModification(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateModification());
-	}
+        $obj->setDateModification(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateModification());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setLibelleMemo() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelleMemo() {
+    /**
+     * Tests the setLibelleMemo() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleMemo() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setLibelleMemo("libelleMemo");
-		$this->assertEquals("libelleMemo", $obj->getLibelleMemo());
-	}
+        $obj->setLibelleMemo("libelleMemo");
+        $this->assertEquals("libelleMemo", $obj->getLibelleMemo());
+    }
 
-	/**
-	 * Tests the setOp_Confirmation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_Confirmation() {
+    /**
+     * Tests the setOp_Confirmation() method.
+     *
+     * @return void
+     */
+    public function testSetOp_Confirmation() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_Confirmation(true);
-		$this->assertEquals(true, $obj->getOp_Confirmation());
-	}
+        $obj->setOp_Confirmation(true);
+        $this->assertEquals(true, $obj->getOp_Confirmation());
+    }
 
-	/**
-	 * Tests the setOp_ContratSigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_ContratSigne() {
+    /**
+     * Tests the setOp_ContratSigne() method.
+     *
+     * @return void
+     */
+    public function testSetOp_ContratSigne() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_ContratSigne(true);
-		$this->assertEquals(true, $obj->getOp_ContratSigne());
-	}
+        $obj->setOp_ContratSigne(true);
+        $this->assertEquals(true, $obj->getOp_ContratSigne());
+    }
 
-	/**
-	 * Tests the setOp_Explication() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_Explication() {
+    /**
+     * Tests the setOp_Explication() method.
+     *
+     * @return void
+     */
+    public function testSetOp_Explication() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_Explication(true);
-		$this->assertEquals(true, $obj->getOp_Explication());
-	}
+        $obj->setOp_Explication(true);
+        $this->assertEquals(true, $obj->getOp_Explication());
+    }
 
-	/**
-	 * Tests the setOp_InvitationIndiv() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_InvitationIndiv() {
+    /**
+     * Tests the setOp_InvitationIndiv() method.
+     *
+     * @return void
+     */
+    public function testSetOp_InvitationIndiv() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_InvitationIndiv(true);
-		$this->assertEquals(true, $obj->getOp_InvitationIndiv());
-	}
+        $obj->setOp_InvitationIndiv(true);
+        $this->assertEquals(true, $obj->getOp_InvitationIndiv());
+    }
 
-	/**
-	 * Tests the setOp_InvitationMasse() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_InvitationMasse() {
+    /**
+     * Tests the setOp_InvitationMasse() method.
+     *
+     * @return void
+     */
+    public function testSetOp_InvitationMasse() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_InvitationMasse(true);
-		$this->assertEquals(true, $obj->getOp_InvitationMasse());
-	}
+        $obj->setOp_InvitationMasse(true);
+        $this->assertEquals(true, $obj->getOp_InvitationMasse());
+    }
 
-	/**
-	 * Tests the setOp_Presence() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_Presence() {
+    /**
+     * Tests the setOp_Presence() method.
+     *
+     * @return void
+     */
+    public function testSetOp_Presence() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_Presence(true);
-		$this->assertEquals(true, $obj->getOp_Presence());
-	}
+        $obj->setOp_Presence(true);
+        $this->assertEquals(true, $obj->getOp_Presence());
+    }
 
-	/**
-	 * Tests the setOp_PriseRDV() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_PriseRDV() {
+    /**
+     * Tests the setOp_PriseRDV() method.
+     *
+     * @return void
+     */
+    public function testSetOp_PriseRDV() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_PriseRDV(true);
-		$this->assertEquals(true, $obj->getOp_PriseRDV());
-	}
+        $obj->setOp_PriseRDV(true);
+        $this->assertEquals(true, $obj->getOp_PriseRDV());
+    }
 
-	/**
-	 * Tests the setOp_Relance() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_Relance() {
+    /**
+     * Tests the setOp_Relance() method.
+     *
+     * @return void
+     */
+    public function testSetOp_Relance() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_Relance(true);
-		$this->assertEquals(true, $obj->getOp_Relance());
-	}
+        $obj->setOp_Relance(true);
+        $this->assertEquals(true, $obj->getOp_Relance());
+    }
 
-	/**
-	 * Tests the setOp_ReponseInscrip() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_ReponseInscrip() {
+    /**
+     * Tests the setOp_ReponseInscrip() method.
+     *
+     * @return void
+     */
+    public function testSetOp_ReponseInscrip() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_ReponseInscrip(true);
-		$this->assertEquals(true, $obj->getOp_ReponseInscrip());
-	}
+        $obj->setOp_ReponseInscrip(true);
+        $this->assertEquals(true, $obj->getOp_ReponseInscrip());
+    }
 
-	/**
-	 * Tests the setOp_ReponseNegative() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_ReponseNegative() {
+    /**
+     * Tests the setOp_ReponseNegative() method.
+     *
+     * @return void
+     */
+    public function testSetOp_ReponseNegative() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_ReponseNegative(true);
-		$this->assertEquals(true, $obj->getOp_ReponseNegative());
-	}
+        $obj->setOp_ReponseNegative(true);
+        $this->assertEquals(true, $obj->getOp_ReponseNegative());
+    }
 
-	/**
-	 * Tests the setOp_Reservation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOp_Reservation() {
+    /**
+     * Tests the setOp_Reservation() method.
+     *
+     * @return void
+     */
+    public function testSetOp_Reservation() {
 
-		$obj = new ActionsCo();
+        $obj = new ActionsCo();
 
-		$obj->setOp_Reservation(true);
-		$this->assertEquals(true, $obj->getOp_Reservation());
-	}
+        $obj->setOp_Reservation(true);
+        $this->assertEquals(true, $obj->getOp_Reservation());
+    }
 
 }

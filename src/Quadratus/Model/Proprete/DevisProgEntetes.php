@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\Proprete;
 
-
 /**
  * Devis prog entetes model.
  *
@@ -20,92 +19,92 @@ namespace WBW\Library\Core\Quadratus\Model\Proprete;
  */
 class DevisProgEntetes {
 
-	/**
-	 * Designation.
-	 *
-	 * @var string
-	 */
-	private $designation;
+    /**
+     * Designation.
+     *
+     * @var string
+     */
+    private $designation;
 
-	/**
-	 * Num devis.
-	 *
-	 * @var string
-	 */
-	private $numDevis;
+    /**
+     * Num devis.
+     *
+     * @var string
+     */
+    private $numDevis;
 
-	/**
-	 * Num programme.
-	 *
-	 * @var int
-	 */
-	private $numProgramme;
+    /**
+     * Num programme.
+     *
+     * @var int
+     */
+    private $numProgramme;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the designation.
-	 *
-	 * @return string Returns the designation.
-	 */
-	public function getDesignation() {
-		return $this->designation;
-	}
+    /**
+     * Get the designation.
+     *
+     * @return string Returns the designation.
+     */
+    public function getDesignation() {
+        return $this->designation;
+    }
 
-	/**
-	 * Get the num devis.
-	 *
-	 * @return string Returns the num devis.
-	 */
-	public function getNumDevis() {
-		return $this->numDevis;
-	}
+    /**
+     * Get the num devis.
+     *
+     * @return string Returns the num devis.
+     */
+    public function getNumDevis() {
+        return $this->numDevis;
+    }
 
-	/**
-	 * Get the num programme.
-	 *
-	 * @return int Returns the num programme.
-	 */
-	public function getNumProgramme() {
-		return $this->numProgramme;
-	}
+    /**
+     * Get the num programme.
+     *
+     * @return int Returns the num programme.
+     */
+    public function getNumProgramme() {
+        return $this->numProgramme;
+    }
 
-	/**
-	 * Set the designation.
-	 *
-	 * @param string $designation The designation.
-	 * @return DevisProgEntetes Returns this devis prog entetes.
-	 */
-	public function setDesignation($designation) {
-		$this->designation = $designation;
-		return $this;
-	}
+    /**
+     * Set the designation.
+     *
+     * @param string $designation The designation.
+     * @return DevisProgEntetes Returns this devis prog entetes.
+     */
+    public function setDesignation($designation) {
+        $this->designation = $designation;
+        return $this;
+    }
 
-	/**
-	 * Set the num devis.
-	 *
-	 * @param string $numDevis The num devis.
-	 * @return DevisProgEntetes Returns this devis prog entetes.
-	 */
-	public function setNumDevis($numDevis) {
-		$this->numDevis = $numDevis;
-		return $this;
-	}
+    /**
+     * Set the num devis.
+     *
+     * @param string $numDevis The num devis.
+     * @return DevisProgEntetes Returns this devis prog entetes.
+     */
+    public function setNumDevis($numDevis) {
+        $this->numDevis = $numDevis;
+        return $this;
+    }
 
-	/**
-	 * Set the num programme.
-	 *
-	 * @param int $numProgramme The num programme.
-	 * @return DevisProgEntetes Returns this devis prog entetes.
-	 */
-	public function setNumProgramme($numProgramme) {
-		$this->numProgramme = $numProgramme;
-		return $this;
-	}
+    /**
+     * Set the num programme.
+     *
+     * @param int $numProgramme The num programme.
+     * @return DevisProgEntetes Returns this devis prog entetes.
+     */
+    public function setNumProgramme($numProgramme) {
+        $this->numProgramme = $numProgramme;
+        return $this;
+    }
 
 }

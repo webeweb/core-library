@@ -23,71 +23,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PointeuseTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Pointeuse();
+        $obj = new Pointeuse();
 
-		$this->assertNull($obj->getCodeCollab());
-		$this->assertNull($obj->getDateHeureSysteme());
-		$this->assertNull($obj->getEtat());
-		$this->assertNull($obj->getIDPointeuse());
-	}
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getDateHeureSysteme());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getIDPointeuse());
+    }
 
-	/**
-	 * Tests the setCodeCollab() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollab() {
+    /**
+     * Tests the setCodeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollab() {
 
-		$obj = new Pointeuse();
+        $obj = new Pointeuse();
 
-		$obj->setCodeCollab("codeCollab");
-		$this->assertEquals("codeCollab", $obj->getCodeCollab());
-	}
+        $obj->setCodeCollab("codeCollab");
+        $this->assertEquals("codeCollab", $obj->getCodeCollab());
+    }
 
-	/**
-	 * Tests the setDateHeureSysteme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateHeureSysteme() {
+    /**
+     * Tests the setDateHeureSysteme() method.
+     *
+     * @return void
+     */
+    public function testSetDateHeureSysteme() {
 
-		$obj = new Pointeuse();
+        $obj = new Pointeuse();
 
-		$obj->setDateHeureSysteme(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateHeureSysteme());
-	}
+        $obj->setDateHeureSysteme(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateHeureSysteme());
+    }
 
-	/**
-	 * Tests the setEtat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEtat() {
+    /**
+     * Tests the setEtat() method.
+     *
+     * @return void
+     */
+    public function testSetEtat() {
 
-		$obj = new Pointeuse();
+        $obj = new Pointeuse();
 
-		$obj->setEtat("etat");
-		$this->assertEquals("etat", $obj->getEtat());
-	}
+        $obj->setEtat("etat");
+        $this->assertEquals("etat", $obj->getEtat());
+    }
 
-	/**
-	 * Tests the setIDPointeuse() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIDPointeuse() {
+    /**
+     * Tests the setIDPointeuse() method.
+     *
+     * @return void
+     */
+    public function testSetIDPointeuse() {
 
-		$obj = new Pointeuse();
+        $obj = new Pointeuse();
 
-		$obj->setIDPointeuse(10);
-		$this->assertEquals(10, $obj->getIDPointeuse());
-	}
+        $obj->setIDPointeuse(10);
+        $this->assertEquals(10, $obj->getIDPointeuse());
+    }
 
 }

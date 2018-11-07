@@ -22,113 +22,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class BonsTravauxEmployesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new BonsTravauxEmployes();
+        $obj = new BonsTravauxEmployes();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodeEquipe());
-		$this->assertNull($obj->getNumBT());
-		$this->assertNull($obj->getTransfertPaie());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeEquipe());
+        $this->assertNull($obj->getNumBT());
+        $this->assertNull($obj->getTransfertPaie());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new BonsTravauxEmployes();
+        $obj = new BonsTravauxEmployes();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new BonsTravauxEmployes();
+        $obj = new BonsTravauxEmployes();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new BonsTravauxEmployes();
+        $obj = new BonsTravauxEmployes();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new BonsTravauxEmployes();
+        $obj = new BonsTravauxEmployes();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodeEquipe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEquipe() {
+    /**
+     * Tests the setCodeEquipe() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEquipe() {
 
-		$obj = new BonsTravauxEmployes();
+        $obj = new BonsTravauxEmployes();
 
-		$obj->setCodeEquipe("codeEquipe");
-		$this->assertEquals("codeEquipe", $obj->getCodeEquipe());
-	}
+        $obj->setCodeEquipe("codeEquipe");
+        $this->assertEquals("codeEquipe", $obj->getCodeEquipe());
+    }
 
-	/**
-	 * Tests the setNumBT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumBT() {
+    /**
+     * Tests the setNumBT() method.
+     *
+     * @return void
+     */
+    public function testSetNumBT() {
 
-		$obj = new BonsTravauxEmployes();
+        $obj = new BonsTravauxEmployes();
 
-		$obj->setNumBT(10);
-		$this->assertEquals(10, $obj->getNumBT());
-	}
+        $obj->setNumBT(10);
+        $this->assertEquals(10, $obj->getNumBT());
+    }
 
-	/**
-	 * Tests the setTransfertPaie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTransfertPaie() {
+    /**
+     * Tests the setTransfertPaie() method.
+     *
+     * @return void
+     */
+    public function testSetTransfertPaie() {
 
-		$obj = new BonsTravauxEmployes();
+        $obj = new BonsTravauxEmployes();
 
-		$obj->setTransfertPaie("transfertPaie");
-		$this->assertEquals("transfertPaie", $obj->getTransfertPaie());
-	}
+        $obj->setTransfertPaie("transfertPaie");
+        $this->assertEquals("transfertPaie", $obj->getTransfertPaie());
+    }
 
 }

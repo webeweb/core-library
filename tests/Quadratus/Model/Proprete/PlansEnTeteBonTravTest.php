@@ -23,435 +23,435 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PlansEnTeteBonTravTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$this->assertNull($obj->getBTQ());
-		$this->assertNull($obj->getBureauDistributeur());
-		$this->assertNull($obj->getCivilite());
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodePays());
-		$this->assertNull($obj->getCodePostal());
-		$this->assertNull($obj->getCodeRegroupement());
-		$this->assertNull($obj->getComplement());
-		$this->assertNull($obj->getDtAvantDernPrepa());
-		$this->assertNull($obj->getDtDernPrepa());
-		$this->assertNull($obj->getDtValiditeFactDeb());
-		$this->assertNull($obj->getDtValiditeFactDebDebMois());
-		$this->assertNull($obj->getDtValiditeFactFin());
-		$this->assertNull($obj->getDtValiditeFactFinFinMois());
-		$this->assertNull($obj->getJourFact());
-		$this->assertNull($obj->getMontantHTPX());
-		$this->assertNull($obj->getMontantHTVM());
-		$this->assertNull($obj->getNomClient());
-		$this->assertNull($obj->getNomSuite());
-		$this->assertNull($obj->getNomSuite2());
-		$this->assertNull($obj->getNomSuite3());
-		$this->assertNull($obj->getNomVoie());
-		$this->assertNull($obj->getNumBT());
-		$this->assertNull($obj->getNumVoie());
-		$this->assertNull($obj->getReferenceFacture());
-		$this->assertNull($obj->getReferenceFacture2());
-		$this->assertNull($obj->getRepriseDatesEmployes());
-		$this->assertNull($obj->getTypeAdresse());
-	}
-
-	/**
-	 * Tests the setBTQ() method.
-	 *
-	 * @return void
-	 */
-	public function testSetBTQ() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setBTQ("bTQ");
-		$this->assertEquals("bTQ", $obj->getBTQ());
-	}
-
-	/**
-	 * Tests the setBureauDistributeur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetBureauDistributeur() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setBureauDistributeur("bureauDistributeur");
-		$this->assertEquals("bureauDistributeur", $obj->getBureauDistributeur());
-	}
-
-	/**
-	 * Tests the setCivilite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCivilite() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setCivilite("civilite");
-		$this->assertEquals("civilite", $obj->getCivilite());
-	}
-
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
-
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
-
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
-
-	/**
-	 * Tests the setCodePays() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePays() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setCodePays("codePays");
-		$this->assertEquals("codePays", $obj->getCodePays());
-	}
-
-	/**
-	 * Tests the setCodePostal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePostal() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setCodePostal("codePostal");
-		$this->assertEquals("codePostal", $obj->getCodePostal());
-	}
-
-	/**
-	 * Tests the setCodeRegroupement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRegroupement() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setCodeRegroupement("codeRegroupement");
-		$this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
-	}
-
-	/**
-	 * Tests the setComplement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetComplement() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setComplement("complément");
-		$this->assertEquals("complément", $obj->getComplement());
-	}
-
-	/**
-	 * Tests the setDtAvantDernPrepa() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtAvantDernPrepa() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setDtAvantDernPrepa(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtAvantDernPrepa());
-	}
-
-	/**
-	 * Tests the setDtDernPrepa() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtDernPrepa() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setDtDernPrepa(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtDernPrepa());
-	}
-
-	/**
-	 * Tests the setDtValiditeFactDeb() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtValiditeFactDeb() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setDtValiditeFactDeb(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFactDeb());
-	}
-
-	/**
-	 * Tests the setDtValiditeFactDebDebMois() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtValiditeFactDebDebMois() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setDtValiditeFactDebDebMois(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFactDebDebMois());
-	}
-
-	/**
-	 * Tests the setDtValiditeFactFin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtValiditeFactFin() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setDtValiditeFactFin(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFactFin());
-	}
-
-	/**
-	 * Tests the setDtValiditeFactFinFinMois() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtValiditeFactFinFinMois() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setDtValiditeFactFinFinMois(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFactFinFinMois());
-	}
-
-	/**
-	 * Tests the setJourFact() method.
-	 *
-	 * @return void
-	 */
-	public function testSetJourFact() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setJourFact("jourFact");
-		$this->assertEquals("jourFact", $obj->getJourFact());
-	}
-
-	/**
-	 * Tests the setMontantHTPX() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantHTPX() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setMontantHTPX(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantHTPX());
-	}
-
-	/**
-	 * Tests the setMontantHTVM() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantHTVM() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setMontantHTVM(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantHTVM());
-	}
-
-	/**
-	 * Tests the setNomClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomClient() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setNomClient("nomClient");
-		$this->assertEquals("nomClient", $obj->getNomClient());
-	}
-
-	/**
-	 * Tests the setNomSuite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomSuite() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setNomSuite("nomSuite");
-		$this->assertEquals("nomSuite", $obj->getNomSuite());
-	}
-
-	/**
-	 * Tests the setNomSuite2() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomSuite2() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setNomSuite2("nomSuite2");
-		$this->assertEquals("nomSuite2", $obj->getNomSuite2());
-	}
-
-	/**
-	 * Tests the setNomSuite3() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomSuite3() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setNomSuite3("nomSuite3");
-		$this->assertEquals("nomSuite3", $obj->getNomSuite3());
-	}
-
-	/**
-	 * Tests the setNomVoie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomVoie() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setNomVoie("nomVoie");
-		$this->assertEquals("nomVoie", $obj->getNomVoie());
-	}
-
-	/**
-	 * Tests the setNumBT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumBT() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setNumBT(10);
-		$this->assertEquals(10, $obj->getNumBT());
-	}
-
-	/**
-	 * Tests the setNumVoie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumVoie() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setNumVoie("numVoie");
-		$this->assertEquals("numVoie", $obj->getNumVoie());
-	}
-
-	/**
-	 * Tests the setReferenceFacture() method.
-	 *
-	 * @return void
-	 */
-	public function testSetReferenceFacture() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setReferenceFacture("referenceFacture");
-		$this->assertEquals("referenceFacture", $obj->getReferenceFacture());
-	}
-
-	/**
-	 * Tests the setReferenceFacture2() method.
-	 *
-	 * @return void
-	 */
-	public function testSetReferenceFacture2() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setReferenceFacture2("referenceFacture2");
-		$this->assertEquals("referenceFacture2", $obj->getReferenceFacture2());
-	}
-
-	/**
-	 * Tests the setRepriseDatesEmployes() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRepriseDatesEmployes() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setRepriseDatesEmployes(true);
-		$this->assertEquals(true, $obj->getRepriseDatesEmployes());
-	}
-
-	/**
-	 * Tests the setTypeAdresse() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeAdresse() {
-
-		$obj = new PlansEnTeteBonTrav();
-
-		$obj->setTypeAdresse("typeAdresse");
-		$this->assertEquals("typeAdresse", $obj->getTypeAdresse());
-	}
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $this->assertNull($obj->getBTQ());
+        $this->assertNull($obj->getBureauDistributeur());
+        $this->assertNull($obj->getCivilite());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodePays());
+        $this->assertNull($obj->getCodePostal());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getComplement());
+        $this->assertNull($obj->getDtAvantDernPrepa());
+        $this->assertNull($obj->getDtDernPrepa());
+        $this->assertNull($obj->getDtValiditeFactDeb());
+        $this->assertNull($obj->getDtValiditeFactDebDebMois());
+        $this->assertNull($obj->getDtValiditeFactFin());
+        $this->assertNull($obj->getDtValiditeFactFinFinMois());
+        $this->assertNull($obj->getJourFact());
+        $this->assertNull($obj->getMontantHTPX());
+        $this->assertNull($obj->getMontantHTVM());
+        $this->assertNull($obj->getNomClient());
+        $this->assertNull($obj->getNomSuite());
+        $this->assertNull($obj->getNomSuite2());
+        $this->assertNull($obj->getNomSuite3());
+        $this->assertNull($obj->getNomVoie());
+        $this->assertNull($obj->getNumBT());
+        $this->assertNull($obj->getNumVoie());
+        $this->assertNull($obj->getReferenceFacture());
+        $this->assertNull($obj->getReferenceFacture2());
+        $this->assertNull($obj->getRepriseDatesEmployes());
+        $this->assertNull($obj->getTypeAdresse());
+    }
+
+    /**
+     * Tests the setBTQ() method.
+     *
+     * @return void
+     */
+    public function testSetBTQ() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setBTQ("bTQ");
+        $this->assertEquals("bTQ", $obj->getBTQ());
+    }
+
+    /**
+     * Tests the setBureauDistributeur() method.
+     *
+     * @return void
+     */
+    public function testSetBureauDistributeur() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setBureauDistributeur("bureauDistributeur");
+        $this->assertEquals("bureauDistributeur", $obj->getBureauDistributeur());
+    }
+
+    /**
+     * Tests the setCivilite() method.
+     *
+     * @return void
+     */
+    public function testSetCivilite() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setCivilite("civilite");
+        $this->assertEquals("civilite", $obj->getCivilite());
+    }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodePays() method.
+     *
+     * @return void
+     */
+    public function testSetCodePays() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setCodePays("codePays");
+        $this->assertEquals("codePays", $obj->getCodePays());
+    }
+
+    /**
+     * Tests the setCodePostal() method.
+     *
+     * @return void
+     */
+    public function testSetCodePostal() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setCodePostal("codePostal");
+        $this->assertEquals("codePostal", $obj->getCodePostal());
+    }
+
+    /**
+     * Tests the setCodeRegroupement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegroupement() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setCodeRegroupement("codeRegroupement");
+        $this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
+    }
+
+    /**
+     * Tests the setComplement() method.
+     *
+     * @return void
+     */
+    public function testSetComplement() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setComplement("complément");
+        $this->assertEquals("complément", $obj->getComplement());
+    }
+
+    /**
+     * Tests the setDtAvantDernPrepa() method.
+     *
+     * @return void
+     */
+    public function testSetDtAvantDernPrepa() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setDtAvantDernPrepa(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtAvantDernPrepa());
+    }
+
+    /**
+     * Tests the setDtDernPrepa() method.
+     *
+     * @return void
+     */
+    public function testSetDtDernPrepa() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setDtDernPrepa(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtDernPrepa());
+    }
+
+    /**
+     * Tests the setDtValiditeFactDeb() method.
+     *
+     * @return void
+     */
+    public function testSetDtValiditeFactDeb() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setDtValiditeFactDeb(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFactDeb());
+    }
+
+    /**
+     * Tests the setDtValiditeFactDebDebMois() method.
+     *
+     * @return void
+     */
+    public function testSetDtValiditeFactDebDebMois() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setDtValiditeFactDebDebMois(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFactDebDebMois());
+    }
+
+    /**
+     * Tests the setDtValiditeFactFin() method.
+     *
+     * @return void
+     */
+    public function testSetDtValiditeFactFin() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setDtValiditeFactFin(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFactFin());
+    }
+
+    /**
+     * Tests the setDtValiditeFactFinFinMois() method.
+     *
+     * @return void
+     */
+    public function testSetDtValiditeFactFinFinMois() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setDtValiditeFactFinFinMois(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtValiditeFactFinFinMois());
+    }
+
+    /**
+     * Tests the setJourFact() method.
+     *
+     * @return void
+     */
+    public function testSetJourFact() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setJourFact("jourFact");
+        $this->assertEquals("jourFact", $obj->getJourFact());
+    }
+
+    /**
+     * Tests the setMontantHTPX() method.
+     *
+     * @return void
+     */
+    public function testSetMontantHTPX() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setMontantHTPX(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantHTPX());
+    }
+
+    /**
+     * Tests the setMontantHTVM() method.
+     *
+     * @return void
+     */
+    public function testSetMontantHTVM() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setMontantHTVM(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantHTVM());
+    }
+
+    /**
+     * Tests the setNomClient() method.
+     *
+     * @return void
+     */
+    public function testSetNomClient() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setNomClient("nomClient");
+        $this->assertEquals("nomClient", $obj->getNomClient());
+    }
+
+    /**
+     * Tests the setNomSuite() method.
+     *
+     * @return void
+     */
+    public function testSetNomSuite() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setNomSuite("nomSuite");
+        $this->assertEquals("nomSuite", $obj->getNomSuite());
+    }
+
+    /**
+     * Tests the setNomSuite2() method.
+     *
+     * @return void
+     */
+    public function testSetNomSuite2() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setNomSuite2("nomSuite2");
+        $this->assertEquals("nomSuite2", $obj->getNomSuite2());
+    }
+
+    /**
+     * Tests the setNomSuite3() method.
+     *
+     * @return void
+     */
+    public function testSetNomSuite3() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setNomSuite3("nomSuite3");
+        $this->assertEquals("nomSuite3", $obj->getNomSuite3());
+    }
+
+    /**
+     * Tests the setNomVoie() method.
+     *
+     * @return void
+     */
+    public function testSetNomVoie() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setNomVoie("nomVoie");
+        $this->assertEquals("nomVoie", $obj->getNomVoie());
+    }
+
+    /**
+     * Tests the setNumBT() method.
+     *
+     * @return void
+     */
+    public function testSetNumBT() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setNumBT(10);
+        $this->assertEquals(10, $obj->getNumBT());
+    }
+
+    /**
+     * Tests the setNumVoie() method.
+     *
+     * @return void
+     */
+    public function testSetNumVoie() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setNumVoie("numVoie");
+        $this->assertEquals("numVoie", $obj->getNumVoie());
+    }
+
+    /**
+     * Tests the setReferenceFacture() method.
+     *
+     * @return void
+     */
+    public function testSetReferenceFacture() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setReferenceFacture("referenceFacture");
+        $this->assertEquals("referenceFacture", $obj->getReferenceFacture());
+    }
+
+    /**
+     * Tests the setReferenceFacture2() method.
+     *
+     * @return void
+     */
+    public function testSetReferenceFacture2() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setReferenceFacture2("referenceFacture2");
+        $this->assertEquals("referenceFacture2", $obj->getReferenceFacture2());
+    }
+
+    /**
+     * Tests the setRepriseDatesEmployes() method.
+     *
+     * @return void
+     */
+    public function testSetRepriseDatesEmployes() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setRepriseDatesEmployes(true);
+        $this->assertEquals(true, $obj->getRepriseDatesEmployes());
+    }
+
+    /**
+     * Tests the setTypeAdresse() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAdresse() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $obj->setTypeAdresse("typeAdresse");
+        $this->assertEquals("typeAdresse", $obj->getTypeAdresse());
+    }
 
 }

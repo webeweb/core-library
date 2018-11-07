@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DADSURetraiteEnteteTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DADSURetraiteEntete();
+        $obj = new DADSURetraiteEntete();
 
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCodeOrganisme());
-		$this->assertNull($obj->getIntitule());
-		$this->assertNull($obj->getMailContact());
-		$this->assertNull($obj->getNomContact());
-		$this->assertNull($obj->getTelContact());
-	}
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMailContact());
+        $this->assertNull($obj->getNomContact());
+        $this->assertNull($obj->getTelContact());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new DADSURetraiteEntete();
+        $obj = new DADSURetraiteEntete();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCodeOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganisme() {
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
 
-		$obj = new DADSURetraiteEntete();
+        $obj = new DADSURetraiteEntete();
 
-		$obj->setCodeOrganisme("codeOrganisme");
-		$this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-	}
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new DADSURetraiteEntete();
+        $obj = new DADSURetraiteEntete();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setMailContact() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMailContact() {
+    /**
+     * Tests the setMailContact() method.
+     *
+     * @return void
+     */
+    public function testSetMailContact() {
 
-		$obj = new DADSURetraiteEntete();
+        $obj = new DADSURetraiteEntete();
 
-		$obj->setMailContact("mailContact");
-		$this->assertEquals("mailContact", $obj->getMailContact());
-	}
+        $obj->setMailContact("mailContact");
+        $this->assertEquals("mailContact", $obj->getMailContact());
+    }
 
-	/**
-	 * Tests the setNomContact() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomContact() {
+    /**
+     * Tests the setNomContact() method.
+     *
+     * @return void
+     */
+    public function testSetNomContact() {
 
-		$obj = new DADSURetraiteEntete();
+        $obj = new DADSURetraiteEntete();
 
-		$obj->setNomContact("nomContact");
-		$this->assertEquals("nomContact", $obj->getNomContact());
-	}
+        $obj->setNomContact("nomContact");
+        $this->assertEquals("nomContact", $obj->getNomContact());
+    }
 
-	/**
-	 * Tests the setTelContact() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTelContact() {
+    /**
+     * Tests the setTelContact() method.
+     *
+     * @return void
+     */
+    public function testSetTelContact() {
 
-		$obj = new DADSURetraiteEntete();
+        $obj = new DADSURetraiteEntete();
 
-		$obj->setTelContact("telContact");
-		$this->assertEquals("telContact", $obj->getTelContact());
-	}
+        $obj->setTelContact("telContact");
+        $this->assertEquals("telContact", $obj->getTelContact());
+    }
 
 }

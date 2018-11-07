@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PointageReglementsLignesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new PointageReglementsLignes();
+        $obj = new PointageReglementsLignes();
 
-		$this->assertNull($obj->getMontantPointe());
-		$this->assertNull($obj->getNumCptPayeur());
-		$this->assertNull($obj->getNumDoss());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getNumUniqEcr());
-		$this->assertNull($obj->getNumeroCompte());
-	}
+        $this->assertNull($obj->getMontantPointe());
+        $this->assertNull($obj->getNumCptPayeur());
+        $this->assertNull($obj->getNumDoss());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumUniqEcr());
+        $this->assertNull($obj->getNumeroCompte());
+    }
 
-	/**
-	 * Tests the setMontantPointe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantPointe() {
+    /**
+     * Tests the setMontantPointe() method.
+     *
+     * @return void
+     */
+    public function testSetMontantPointe() {
 
-		$obj = new PointageReglementsLignes();
+        $obj = new PointageReglementsLignes();
 
-		$obj->setMontantPointe(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantPointe());
-	}
+        $obj->setMontantPointe(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantPointe());
+    }
 
-	/**
-	 * Tests the setNumCptPayeur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumCptPayeur() {
+    /**
+     * Tests the setNumCptPayeur() method.
+     *
+     * @return void
+     */
+    public function testSetNumCptPayeur() {
 
-		$obj = new PointageReglementsLignes();
+        $obj = new PointageReglementsLignes();
 
-		$obj->setNumCptPayeur("numCptPayeur");
-		$this->assertEquals("numCptPayeur", $obj->getNumCptPayeur());
-	}
+        $obj->setNumCptPayeur("numCptPayeur");
+        $this->assertEquals("numCptPayeur", $obj->getNumCptPayeur());
+    }
 
-	/**
-	 * Tests the setNumDoss() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDoss() {
+    /**
+     * Tests the setNumDoss() method.
+     *
+     * @return void
+     */
+    public function testSetNumDoss() {
 
-		$obj = new PointageReglementsLignes();
+        $obj = new PointageReglementsLignes();
 
-		$obj->setNumDoss("numDoss");
-		$this->assertEquals("numDoss", $obj->getNumDoss());
-	}
+        $obj->setNumDoss("numDoss");
+        $this->assertEquals("numDoss", $obj->getNumDoss());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new PointageReglementsLignes();
+        $obj = new PointageReglementsLignes();
 
-		$obj->setNumLigne(10);
-		$this->assertEquals(10, $obj->getNumLigne());
-	}
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setNumUniqEcr() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumUniqEcr() {
+    /**
+     * Tests the setNumUniqEcr() method.
+     *
+     * @return void
+     */
+    public function testSetNumUniqEcr() {
 
-		$obj = new PointageReglementsLignes();
+        $obj = new PointageReglementsLignes();
 
-		$obj->setNumUniqEcr(10);
-		$this->assertEquals(10, $obj->getNumUniqEcr());
-	}
+        $obj->setNumUniqEcr(10);
+        $this->assertEquals(10, $obj->getNumUniqEcr());
+    }
 
-	/**
-	 * Tests the setNumeroCompte() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroCompte() {
+    /**
+     * Tests the setNumeroCompte() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompte() {
 
-		$obj = new PointageReglementsLignes();
+        $obj = new PointageReglementsLignes();
 
-		$obj->setNumeroCompte("numeroCompte");
-		$this->assertEquals("numeroCompte", $obj->getNumeroCompte());
-	}
+        $obj->setNumeroCompte("numeroCompte");
+        $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
 
 }

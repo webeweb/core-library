@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LignesIjssPrevoyanceTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new LignesIjssPrevoyance();
+        $obj = new LignesIjssPrevoyance();
 
-		$this->assertNull($obj->getDateVersement());
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getNumeroAttestation());
-		$this->assertNull($obj->getPeriodeDeb());
-		$this->assertNull($obj->getPeriodeFin());
-	}
+        $this->assertNull($obj->getDateVersement());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+    }
 
-	/**
-	 * Tests the setDateVersement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateVersement() {
+    /**
+     * Tests the setDateVersement() method.
+     *
+     * @return void
+     */
+    public function testSetDateVersement() {
 
-		$obj = new LignesIjssPrevoyance();
+        $obj = new LignesIjssPrevoyance();
 
-		$obj->setDateVersement(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateVersement());
-	}
+        $obj->setDateVersement(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateVersement());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new LignesIjssPrevoyance();
+        $obj = new LignesIjssPrevoyance();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new LignesIjssPrevoyance();
+        $obj = new LignesIjssPrevoyance();
 
-		$obj->setNumLigne("numLigne");
-		$this->assertEquals("numLigne", $obj->getNumLigne());
-	}
+        $obj->setNumLigne("numLigne");
+        $this->assertEquals("numLigne", $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setNumeroAttestation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroAttestation() {
+    /**
+     * Tests the setNumeroAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAttestation() {
 
-		$obj = new LignesIjssPrevoyance();
+        $obj = new LignesIjssPrevoyance();
 
-		$obj->setNumeroAttestation("numeroAttestation");
-		$this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
-	}
+        $obj->setNumeroAttestation("numeroAttestation");
+        $this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
+    }
 
-	/**
-	 * Tests the setPeriodeDeb() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeDeb() {
+    /**
+     * Tests the setPeriodeDeb() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeDeb() {
 
-		$obj = new LignesIjssPrevoyance();
+        $obj = new LignesIjssPrevoyance();
 
-		$obj->setPeriodeDeb(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeDeb());
-	}
+        $obj->setPeriodeDeb(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeDeb());
+    }
 
-	/**
-	 * Tests the setPeriodeFin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeFin() {
+    /**
+     * Tests the setPeriodeFin() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeFin() {
 
-		$obj = new LignesIjssPrevoyance();
+        $obj = new LignesIjssPrevoyance();
 
-		$obj->setPeriodeFin(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeFin());
-	}
+        $obj->setPeriodeFin(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeFin());
+    }
 
 }

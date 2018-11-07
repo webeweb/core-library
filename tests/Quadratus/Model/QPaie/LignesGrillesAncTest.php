@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LignesGrillesAncTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new LignesGrillesAnc();
+        $obj = new LignesGrillesAnc();
 
-		$this->assertNull($obj->getCodeGrille());
-		$this->assertNull($obj->getNbMoisEcoules());
-		$this->assertNull($obj->getValeur());
-	}
+        $this->assertNull($obj->getCodeGrille());
+        $this->assertNull($obj->getNbMoisEcoules());
+        $this->assertNull($obj->getValeur());
+    }
 
-	/**
-	 * Tests the setCodeGrille() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeGrille() {
+    /**
+     * Tests the setCodeGrille() method.
+     *
+     * @return void
+     */
+    public function testSetCodeGrille() {
 
-		$obj = new LignesGrillesAnc();
+        $obj = new LignesGrillesAnc();
 
-		$obj->setCodeGrille("codeGrille");
-		$this->assertEquals("codeGrille", $obj->getCodeGrille());
-	}
+        $obj->setCodeGrille("codeGrille");
+        $this->assertEquals("codeGrille", $obj->getCodeGrille());
+    }
 
-	/**
-	 * Tests the setNbMoisEcoules() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbMoisEcoules() {
+    /**
+     * Tests the setNbMoisEcoules() method.
+     *
+     * @return void
+     */
+    public function testSetNbMoisEcoules() {
 
-		$obj = new LignesGrillesAnc();
+        $obj = new LignesGrillesAnc();
 
-		$obj->setNbMoisEcoules(10);
-		$this->assertEquals(10, $obj->getNbMoisEcoules());
-	}
+        $obj->setNbMoisEcoules(10);
+        $this->assertEquals(10, $obj->getNbMoisEcoules());
+    }
 
-	/**
-	 * Tests the setValeur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetValeur() {
+    /**
+     * Tests the setValeur() method.
+     *
+     * @return void
+     */
+    public function testSetValeur() {
 
-		$obj = new LignesGrillesAnc();
+        $obj = new LignesGrillesAnc();
 
-		$obj->setValeur(10.092018);
-		$this->assertEquals(10.092018, $obj->getValeur());
-	}
+        $obj->setValeur(10.092018);
+        $this->assertEquals(10.092018, $obj->getValeur());
+    }
 
 }

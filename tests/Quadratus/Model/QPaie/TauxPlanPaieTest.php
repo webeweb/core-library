@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class TauxPlanPaieTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new TauxPlanPaie();
+        $obj = new TauxPlanPaie();
 
-		$this->assertNull($obj->getAPartirDe());
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getFormatNonEtendu());
-		$this->assertNull($obj->getNumeroTaux());
-		$this->assertNull($obj->getTauxPatronal());
-		$this->assertNull($obj->getTauxSalarial());
-	}
+        $this->assertNull($obj->getAPartirDe());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getFormatNonEtendu());
+        $this->assertNull($obj->getNumeroTaux());
+        $this->assertNull($obj->getTauxPatronal());
+        $this->assertNull($obj->getTauxSalarial());
+    }
 
-	/**
-	 * Tests the setAPartirDe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAPartirDe() {
+    /**
+     * Tests the setAPartirDe() method.
+     *
+     * @return void
+     */
+    public function testSetAPartirDe() {
 
-		$obj = new TauxPlanPaie();
+        $obj = new TauxPlanPaie();
 
-		$obj->setAPartirDe(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getAPartirDe());
-	}
+        $obj->setAPartirDe(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getAPartirDe());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new TauxPlanPaie();
+        $obj = new TauxPlanPaie();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setFormatNonEtendu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFormatNonEtendu() {
+    /**
+     * Tests the setFormatNonEtendu() method.
+     *
+     * @return void
+     */
+    public function testSetFormatNonEtendu() {
 
-		$obj = new TauxPlanPaie();
+        $obj = new TauxPlanPaie();
 
-		$obj->setFormatNonEtendu(true);
-		$this->assertEquals(true, $obj->getFormatNonEtendu());
-	}
+        $obj->setFormatNonEtendu(true);
+        $this->assertEquals(true, $obj->getFormatNonEtendu());
+    }
 
-	/**
-	 * Tests the setNumeroTaux() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroTaux() {
+    /**
+     * Tests the setNumeroTaux() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroTaux() {
 
-		$obj = new TauxPlanPaie();
+        $obj = new TauxPlanPaie();
 
-		$obj->setNumeroTaux(10);
-		$this->assertEquals(10, $obj->getNumeroTaux());
-	}
+        $obj->setNumeroTaux(10);
+        $this->assertEquals(10, $obj->getNumeroTaux());
+    }
 
-	/**
-	 * Tests the setTauxPatronal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxPatronal() {
+    /**
+     * Tests the setTauxPatronal() method.
+     *
+     * @return void
+     */
+    public function testSetTauxPatronal() {
 
-		$obj = new TauxPlanPaie();
+        $obj = new TauxPlanPaie();
 
-		$obj->setTauxPatronal(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxPatronal());
-	}
+        $obj->setTauxPatronal(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxPatronal());
+    }
 
-	/**
-	 * Tests the setTauxSalarial() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxSalarial() {
+    /**
+     * Tests the setTauxSalarial() method.
+     *
+     * @return void
+     */
+    public function testSetTauxSalarial() {
 
-		$obj = new TauxPlanPaie();
+        $obj = new TauxPlanPaie();
 
-		$obj->setTauxSalarial(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxSalarial());
-	}
+        $obj->setTauxSalarial(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxSalarial());
+    }
 
 }

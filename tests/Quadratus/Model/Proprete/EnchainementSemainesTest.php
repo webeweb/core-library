@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EnchainementSemainesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EnchainementSemaines();
+        $obj = new EnchainementSemaines();
 
-		$this->assertNull($obj->getDiscrSem());
-		$this->assertNull($obj->getNumOrdre());
-	}
+        $this->assertNull($obj->getDiscrSem());
+        $this->assertNull($obj->getNumOrdre());
+    }
 
-	/**
-	 * Tests the setDiscrSem() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDiscrSem() {
+    /**
+     * Tests the setDiscrSem() method.
+     *
+     * @return void
+     */
+    public function testSetDiscrSem() {
 
-		$obj = new EnchainementSemaines();
+        $obj = new EnchainementSemaines();
 
-		$obj->setDiscrSem(10);
-		$this->assertEquals(10, $obj->getDiscrSem());
-	}
+        $obj->setDiscrSem(10);
+        $this->assertEquals(10, $obj->getDiscrSem());
+    }
 
-	/**
-	 * Tests the setNumOrdre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumOrdre() {
+    /**
+     * Tests the setNumOrdre() method.
+     *
+     * @return void
+     */
+    public function testSetNumOrdre() {
 
-		$obj = new EnchainementSemaines();
+        $obj = new EnchainementSemaines();
 
-		$obj->setNumOrdre(10);
-		$this->assertEquals(10, $obj->getNumOrdre());
-	}
+        $obj->setNumOrdre(10);
+        $this->assertEquals(10, $obj->getNumOrdre());
+    }
 
 }

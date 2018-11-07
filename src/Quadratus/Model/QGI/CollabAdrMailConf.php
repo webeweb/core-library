@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Collab adr mail conf model.
  *
@@ -20,92 +19,92 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class CollabAdrMailConf {
 
-	/**
-	 * Adresse email.
-	 *
-	 * @var string
-	 */
-	private $adresseEmail;
+    /**
+     * Adresse email.
+     *
+     * @var string
+     */
+    private $adresseEmail;
 
-	/**
-	 * Code collaborateur.
-	 *
-	 * @var string
-	 */
-	private $codeCollaborateur;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
 
-	/**
-	 * Intitule.
-	 *
-	 * @var string
-	 */
-	private $intitule;
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the adresse email.
-	 *
-	 * @return string Returns the adresse email.
-	 */
-	public function getAdresseEmail() {
-		return $this->adresseEmail;
-	}
+    /**
+     * Get the adresse email.
+     *
+     * @return string Returns the adresse email.
+     */
+    public function getAdresseEmail() {
+        return $this->adresseEmail;
+    }
 
-	/**
-	 * Get the code collaborateur.
-	 *
-	 * @return string Returns the code collaborateur.
-	 */
-	public function getCodeCollaborateur() {
-		return $this->codeCollaborateur;
-	}
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
 
-	/**
-	 * Get the intitule.
-	 *
-	 * @return string Returns the intitule.
-	 */
-	public function getIntitule() {
-		return $this->intitule;
-	}
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
 
-	/**
-	 * Set the adresse email.
-	 *
-	 * @param string $adresseEmail The adresse email.
-	 * @return CollabAdrMailConf Returns this collab adr mail conf.
-	 */
-	public function setAdresseEmail($adresseEmail) {
-		$this->adresseEmail = $adresseEmail;
-		return $this;
-	}
+    /**
+     * Set the adresse email.
+     *
+     * @param string $adresseEmail The adresse email.
+     * @return CollabAdrMailConf Returns this collab adr mail conf.
+     */
+    public function setAdresseEmail($adresseEmail) {
+        $this->adresseEmail = $adresseEmail;
+        return $this;
+    }
 
-	/**
-	 * Set the code collaborateur.
-	 *
-	 * @param string $codeCollaborateur The code collaborateur.
-	 * @return CollabAdrMailConf Returns this collab adr mail conf.
-	 */
-	public function setCodeCollaborateur($codeCollaborateur) {
-		$this->codeCollaborateur = $codeCollaborateur;
-		return $this;
-	}
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     * @return CollabAdrMailConf Returns this collab adr mail conf.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
 
-	/**
-	 * Set the intitule.
-	 *
-	 * @param string $intitule The intitule.
-	 * @return CollabAdrMailConf Returns this collab adr mail conf.
-	 */
-	public function setIntitule($intitule) {
-		$this->intitule = $intitule;
-		return $this;
-	}
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     * @return CollabAdrMailConf Returns this collab adr mail conf.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
 
 }

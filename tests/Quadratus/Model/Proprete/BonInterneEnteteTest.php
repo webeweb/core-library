@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class BonInterneEnteteTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new BonInterneEntete();
+        $obj = new BonInterneEntete();
 
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getCodeLivreur());
-		$this->assertNull($obj->getDateLivraison());
-		$this->assertNull($obj->getLienDocument());
-		$this->assertNull($obj->getNoBonInt());
-	}
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeLivreur());
+        $this->assertNull($obj->getDateLivraison());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNoBonInt());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new BonInterneEntete();
+        $obj = new BonInterneEntete();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setCodeLivreur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeLivreur() {
+    /**
+     * Tests the setCodeLivreur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLivreur() {
 
-		$obj = new BonInterneEntete();
+        $obj = new BonInterneEntete();
 
-		$obj->setCodeLivreur("codeLivreur");
-		$this->assertEquals("codeLivreur", $obj->getCodeLivreur());
-	}
+        $obj->setCodeLivreur("codeLivreur");
+        $this->assertEquals("codeLivreur", $obj->getCodeLivreur());
+    }
 
-	/**
-	 * Tests the setDateLivraison() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateLivraison() {
+    /**
+     * Tests the setDateLivraison() method.
+     *
+     * @return void
+     */
+    public function testSetDateLivraison() {
 
-		$obj = new BonInterneEntete();
+        $obj = new BonInterneEntete();
 
-		$obj->setDateLivraison(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateLivraison());
-	}
+        $obj->setDateLivraison(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateLivraison());
+    }
 
-	/**
-	 * Tests the setLienDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLienDocument() {
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
 
-		$obj = new BonInterneEntete();
+        $obj = new BonInterneEntete();
 
-		$obj->setLienDocument("lienDocument");
-		$this->assertEquals("lienDocument", $obj->getLienDocument());
-	}
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
 
-	/**
-	 * Tests the setNoBonInt() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNoBonInt() {
+    /**
+     * Tests the setNoBonInt() method.
+     *
+     * @return void
+     */
+    public function testSetNoBonInt() {
 
-		$obj = new BonInterneEntete();
+        $obj = new BonInterneEntete();
 
-		$obj->setNoBonInt("noBonInt");
-		$this->assertEquals("noBonInt", $obj->getNoBonInt());
-	}
+        $obj->setNoBonInt("noBonInt");
+        $this->assertEquals("noBonInt", $obj->getNoBonInt());
+    }
 
 }

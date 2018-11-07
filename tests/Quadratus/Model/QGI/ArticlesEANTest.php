@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ArticlesEANTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ArticlesEAN();
+        $obj = new ArticlesEAN();
 
-		$this->assertNull($obj->getCodeArticle());
-		$this->assertNull($obj->getEAN());
-		$this->assertNull($obj->getGamme());
-		$this->assertNull($obj->getVariante());
-	}
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getEAN());
+        $this->assertNull($obj->getGamme());
+        $this->assertNull($obj->getVariante());
+    }
 
-	/**
-	 * Tests the setCodeArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeArticle() {
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
 
-		$obj = new ArticlesEAN();
+        $obj = new ArticlesEAN();
 
-		$obj->setCodeArticle("codeArticle");
-		$this->assertEquals("codeArticle", $obj->getCodeArticle());
-	}
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
 
-	/**
-	 * Tests the setEAN() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEAN() {
+    /**
+     * Tests the setEAN() method.
+     *
+     * @return void
+     */
+    public function testSetEAN() {
 
-		$obj = new ArticlesEAN();
+        $obj = new ArticlesEAN();
 
-		$obj->setEAN("eAN");
-		$this->assertEquals("eAN", $obj->getEAN());
-	}
+        $obj->setEAN("eAN");
+        $this->assertEquals("eAN", $obj->getEAN());
+    }
 
-	/**
-	 * Tests the setGamme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetGamme() {
+    /**
+     * Tests the setGamme() method.
+     *
+     * @return void
+     */
+    public function testSetGamme() {
 
-		$obj = new ArticlesEAN();
+        $obj = new ArticlesEAN();
 
-		$obj->setGamme(10);
-		$this->assertEquals(10, $obj->getGamme());
-	}
+        $obj->setGamme(10);
+        $this->assertEquals(10, $obj->getGamme());
+    }
 
-	/**
-	 * Tests the setVariante() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVariante() {
+    /**
+     * Tests the setVariante() method.
+     *
+     * @return void
+     */
+    public function testSetVariante() {
 
-		$obj = new ArticlesEAN();
+        $obj = new ArticlesEAN();
 
-		$obj->setVariante("variante");
-		$this->assertEquals("variante", $obj->getVariante());
-	}
+        $obj->setVariante("variante");
+        $this->assertEquals("variante", $obj->getVariante());
+    }
 
 }

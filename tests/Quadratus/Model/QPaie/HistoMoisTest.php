@@ -23,71 +23,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HistoMoisTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HistoMois();
+        $obj = new HistoMois();
 
-		$this->assertNull($obj->getIndicePeriode());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getLienDocument());
-		$this->assertNull($obj->getPeriode());
-	}
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setIndicePeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndicePeriode() {
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
 
-		$obj = new HistoMois();
+        $obj = new HistoMois();
 
-		$obj->setIndicePeriode(10);
-		$this->assertEquals(10, $obj->getIndicePeriode());
-	}
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new HistoMois();
+        $obj = new HistoMois();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setLienDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLienDocument() {
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
 
-		$obj = new HistoMois();
+        $obj = new HistoMois();
 
-		$obj->setLienDocument("lienDocument");
-		$this->assertEquals("lienDocument", $obj->getLienDocument());
-	}
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new HistoMois();
+        $obj = new HistoMois();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
 }

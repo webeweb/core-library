@@ -23,127 +23,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HistoriqueTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$this->assertNull($obj->getAnnees());
-		$this->assertNull($obj->getAnneesPlus());
-		$this->assertNull($obj->getCSValide());
-		$this->assertNull($obj->getCTValide());
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getRub());
-		$this->assertNull($obj->getService());
-		$this->assertNull($obj->getVisiteMedicale());
-	}
+        $this->assertNull($obj->getAnnees());
+        $this->assertNull($obj->getAnneesPlus());
+        $this->assertNull($obj->getCSValide());
+        $this->assertNull($obj->getCTValide());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getRub());
+        $this->assertNull($obj->getService());
+        $this->assertNull($obj->getVisiteMedicale());
+    }
 
-	/**
-	 * Tests the setAnnees() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAnnees() {
+    /**
+     * Tests the setAnnees() method.
+     *
+     * @return void
+     */
+    public function testSetAnnees() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$obj->setAnnees(10);
-		$this->assertEquals(10, $obj->getAnnees());
-	}
+        $obj->setAnnees(10);
+        $this->assertEquals(10, $obj->getAnnees());
+    }
 
-	/**
-	 * Tests the setAnneesPlus() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAnneesPlus() {
+    /**
+     * Tests the setAnneesPlus() method.
+     *
+     * @return void
+     */
+    public function testSetAnneesPlus() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$obj->setAnneesPlus(10);
-		$this->assertEquals(10, $obj->getAnneesPlus());
-	}
+        $obj->setAnneesPlus(10);
+        $this->assertEquals(10, $obj->getAnneesPlus());
+    }
 
-	/**
-	 * Tests the setCSValide() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCSValide() {
+    /**
+     * Tests the setCSValide() method.
+     *
+     * @return void
+     */
+    public function testSetCSValide() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$obj->setCSValide(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getCSValide());
-	}
+        $obj->setCSValide(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getCSValide());
+    }
 
-	/**
-	 * Tests the setCTValide() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCTValide() {
+    /**
+     * Tests the setCTValide() method.
+     *
+     * @return void
+     */
+    public function testSetCTValide() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$obj->setCTValide(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getCTValide());
-	}
+        $obj->setCTValide(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getCTValide());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setRub() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRub() {
+    /**
+     * Tests the setRub() method.
+     *
+     * @return void
+     */
+    public function testSetRub() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$obj->setRub("rub");
-		$this->assertEquals("rub", $obj->getRub());
-	}
+        $obj->setRub("rub");
+        $this->assertEquals("rub", $obj->getRub());
+    }
 
-	/**
-	 * Tests the setService() method.
-	 *
-	 * @return void
-	 */
-	public function testSetService() {
+    /**
+     * Tests the setService() method.
+     *
+     * @return void
+     */
+    public function testSetService() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$obj->setService("service");
-		$this->assertEquals("service", $obj->getService());
-	}
+        $obj->setService("service");
+        $this->assertEquals("service", $obj->getService());
+    }
 
-	/**
-	 * Tests the setVisiteMedicale() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVisiteMedicale() {
+    /**
+     * Tests the setVisiteMedicale() method.
+     *
+     * @return void
+     */
+    public function testSetVisiteMedicale() {
 
-		$obj = new Historique();
+        $obj = new Historique();
 
-		$obj->setVisiteMedicale(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getVisiteMedicale());
-	}
+        $obj->setVisiteMedicale(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getVisiteMedicale());
+    }
 
 }

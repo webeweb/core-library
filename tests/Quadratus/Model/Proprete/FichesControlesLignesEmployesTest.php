@@ -22,127 +22,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class FichesControlesLignesEmployesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodeRemplacant());
-		$this->assertNull($obj->getNumeroFiche());
-		$this->assertNull($obj->getPoste());
-		$this->assertNull($obj->getRemarque());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeRemplacant());
+        $this->assertNull($obj->getNumeroFiche());
+        $this->assertNull($obj->getPoste());
+        $this->assertNull($obj->getRemarque());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodeRemplacant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRemplacant() {
+    /**
+     * Tests the setCodeRemplacant() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRemplacant() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$obj->setCodeRemplacant("codeRemplacant");
-		$this->assertEquals("codeRemplacant", $obj->getCodeRemplacant());
-	}
+        $obj->setCodeRemplacant("codeRemplacant");
+        $this->assertEquals("codeRemplacant", $obj->getCodeRemplacant());
+    }
 
-	/**
-	 * Tests the setNumeroFiche() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroFiche() {
+    /**
+     * Tests the setNumeroFiche() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroFiche() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$obj->setNumeroFiche(10);
-		$this->assertEquals(10, $obj->getNumeroFiche());
-	}
+        $obj->setNumeroFiche(10);
+        $this->assertEquals(10, $obj->getNumeroFiche());
+    }
 
-	/**
-	 * Tests the setPoste() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPoste() {
+    /**
+     * Tests the setPoste() method.
+     *
+     * @return void
+     */
+    public function testSetPoste() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$obj->setPoste("poste");
-		$this->assertEquals("poste", $obj->getPoste());
-	}
+        $obj->setPoste("poste");
+        $this->assertEquals("poste", $obj->getPoste());
+    }
 
-	/**
-	 * Tests the setRemarque() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRemarque() {
+    /**
+     * Tests the setRemarque() method.
+     *
+     * @return void
+     */
+    public function testSetRemarque() {
 
-		$obj = new FichesControlesLignesEmployes();
+        $obj = new FichesControlesLignesEmployes();
 
-		$obj->setRemarque("remarque");
-		$this->assertEquals("remarque", $obj->getRemarque());
-	}
+        $obj->setRemarque("remarque");
+        $this->assertEquals("remarque", $obj->getRemarque());
+    }
 
 }

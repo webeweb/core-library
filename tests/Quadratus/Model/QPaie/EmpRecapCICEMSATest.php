@@ -23,169 +23,169 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmpRecapCICEMSATest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$this->assertNull($obj->getCaisseCP());
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCodeUnite());
-		$this->assertNull($obj->getIndicePeriode());
-		$this->assertNull($obj->getNomEmploye());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getRemunAssietteCICE());
-		$this->assertNull($obj->getRemunBrutCICE());
-		$this->assertNull($obj->getSMICMCICE());
-		$this->assertNull($obj->getSortieMois());
-	}
+        $this->assertNull($obj->getCaisseCP());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeUnite());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNomEmploye());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getRemunAssietteCICE());
+        $this->assertNull($obj->getRemunBrutCICE());
+        $this->assertNull($obj->getSMICMCICE());
+        $this->assertNull($obj->getSortieMois());
+    }
 
-	/**
-	 * Tests the setCaisseCP() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCaisseCP() {
+    /**
+     * Tests the setCaisseCP() method.
+     *
+     * @return void
+     */
+    public function testSetCaisseCP() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setCaisseCP(true);
-		$this->assertEquals(true, $obj->getCaisseCP());
-	}
+        $obj->setCaisseCP(true);
+        $this->assertEquals(true, $obj->getCaisseCP());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCodeUnite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeUnite() {
+    /**
+     * Tests the setCodeUnite() method.
+     *
+     * @return void
+     */
+    public function testSetCodeUnite() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setCodeUnite("codeUnite");
-		$this->assertEquals("codeUnite", $obj->getCodeUnite());
-	}
+        $obj->setCodeUnite("codeUnite");
+        $this->assertEquals("codeUnite", $obj->getCodeUnite());
+    }
 
-	/**
-	 * Tests the setIndicePeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndicePeriode() {
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setIndicePeriode(10);
-		$this->assertEquals(10, $obj->getIndicePeriode());
-	}
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
 
-	/**
-	 * Tests the setNomEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomEmploye() {
+    /**
+     * Tests the setNomEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNomEmploye() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setNomEmploye("nomEmploye");
-		$this->assertEquals("nomEmploye", $obj->getNomEmploye());
-	}
+        $obj->setNomEmploye("nomEmploye");
+        $this->assertEquals("nomEmploye", $obj->getNomEmploye());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setRemunAssietteCICE() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRemunAssietteCICE() {
+    /**
+     * Tests the setRemunAssietteCICE() method.
+     *
+     * @return void
+     */
+    public function testSetRemunAssietteCICE() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setRemunAssietteCICE(10.092018);
-		$this->assertEquals(10.092018, $obj->getRemunAssietteCICE());
-	}
+        $obj->setRemunAssietteCICE(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemunAssietteCICE());
+    }
 
-	/**
-	 * Tests the setRemunBrutCICE() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRemunBrutCICE() {
+    /**
+     * Tests the setRemunBrutCICE() method.
+     *
+     * @return void
+     */
+    public function testSetRemunBrutCICE() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setRemunBrutCICE(10.092018);
-		$this->assertEquals(10.092018, $obj->getRemunBrutCICE());
-	}
+        $obj->setRemunBrutCICE(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemunBrutCICE());
+    }
 
-	/**
-	 * Tests the setSMICMCICE() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSMICMCICE() {
+    /**
+     * Tests the setSMICMCICE() method.
+     *
+     * @return void
+     */
+    public function testSetSMICMCICE() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setSMICMCICE(10.092018);
-		$this->assertEquals(10.092018, $obj->getSMICMCICE());
-	}
+        $obj->setSMICMCICE(10.092018);
+        $this->assertEquals(10.092018, $obj->getSMICMCICE());
+    }
 
-	/**
-	 * Tests the setSortieMois() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSortieMois() {
+    /**
+     * Tests the setSortieMois() method.
+     *
+     * @return void
+     */
+    public function testSetSortieMois() {
 
-		$obj = new EmpRecapCICEMSA();
+        $obj = new EmpRecapCICEMSA();
 
-		$obj->setSortieMois(true);
-		$this->assertEquals(true, $obj->getSortieMois());
-	}
+        $obj->setSortieMois(true);
+        $this->assertEquals(true, $obj->getSortieMois());
+    }
 
 }

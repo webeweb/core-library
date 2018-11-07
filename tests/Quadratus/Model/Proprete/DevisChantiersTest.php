@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DevisChantiersTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DevisChantiers();
+        $obj = new DevisChantiers();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getMajDescriptif());
-		$this->assertNull($obj->getMontantHT());
-		$this->assertNull($obj->getNumDevis());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getMajDescriptif());
+        $this->assertNull($obj->getMontantHT());
+        $this->assertNull($obj->getNumDevis());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new DevisChantiers();
+        $obj = new DevisChantiers();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new DevisChantiers();
+        $obj = new DevisChantiers();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new DevisChantiers();
+        $obj = new DevisChantiers();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setMajDescriptif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMajDescriptif() {
+    /**
+     * Tests the setMajDescriptif() method.
+     *
+     * @return void
+     */
+    public function testSetMajDescriptif() {
 
-		$obj = new DevisChantiers();
+        $obj = new DevisChantiers();
 
-		$obj->setMajDescriptif(true);
-		$this->assertEquals(true, $obj->getMajDescriptif());
-	}
+        $obj->setMajDescriptif(true);
+        $this->assertEquals(true, $obj->getMajDescriptif());
+    }
 
-	/**
-	 * Tests the setMontantHT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantHT() {
+    /**
+     * Tests the setMontantHT() method.
+     *
+     * @return void
+     */
+    public function testSetMontantHT() {
 
-		$obj = new DevisChantiers();
+        $obj = new DevisChantiers();
 
-		$obj->setMontantHT(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantHT());
-	}
+        $obj->setMontantHT(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantHT());
+    }
 
-	/**
-	 * Tests the setNumDevis() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDevis() {
+    /**
+     * Tests the setNumDevis() method.
+     *
+     * @return void
+     */
+    public function testSetNumDevis() {
 
-		$obj = new DevisChantiers();
+        $obj = new DevisChantiers();
 
-		$obj->setNumDevis("numDevis");
-		$this->assertEquals("numDevis", $obj->getNumDevis());
-	}
+        $obj->setNumDevis("numDevis");
+        $this->assertEquals("numDevis", $obj->getNumDevis());
+    }
 
 }

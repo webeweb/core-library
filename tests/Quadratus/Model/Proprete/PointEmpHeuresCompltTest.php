@@ -23,169 +23,169 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PointEmpHeuresCompltTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$this->assertNull($obj->getAFacturer());
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodeTache());
-		$this->assertNull($obj->getDate());
-		$this->assertNull($obj->getHeureCompl());
-		$this->assertNull($obj->getHeureComplNuit());
-		$this->assertNull($obj->getNumBT());
-		$this->assertNull($obj->getTypeHeure());
-	}
+        $this->assertNull($obj->getAFacturer());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getHeureCompl());
+        $this->assertNull($obj->getHeureComplNuit());
+        $this->assertNull($obj->getNumBT());
+        $this->assertNull($obj->getTypeHeure());
+    }
 
-	/**
-	 * Tests the setAFacturer() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAFacturer() {
+    /**
+     * Tests the setAFacturer() method.
+     *
+     * @return void
+     */
+    public function testSetAFacturer() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setAFacturer(true);
-		$this->assertEquals(true, $obj->getAFacturer());
-	}
+        $obj->setAFacturer(true);
+        $this->assertEquals(true, $obj->getAFacturer());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodeTache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTache() {
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setCodeTache("codeTache");
-		$this->assertEquals("codeTache", $obj->getCodeTache());
-	}
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
 
-	/**
-	 * Tests the setDate() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDate() {
+    /**
+     * Tests the setDate() method.
+     *
+     * @return void
+     */
+    public function testSetDate() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setDate(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDate());
-	}
+        $obj->setDate(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDate());
+    }
 
-	/**
-	 * Tests the setHeureCompl() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHeureCompl() {
+    /**
+     * Tests the setHeureCompl() method.
+     *
+     * @return void
+     */
+    public function testSetHeureCompl() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setHeureCompl(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getHeureCompl());
-	}
+        $obj->setHeureCompl(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getHeureCompl());
+    }
 
-	/**
-	 * Tests the setHeureComplNuit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHeureComplNuit() {
+    /**
+     * Tests the setHeureComplNuit() method.
+     *
+     * @return void
+     */
+    public function testSetHeureComplNuit() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setHeureComplNuit(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getHeureComplNuit());
-	}
+        $obj->setHeureComplNuit(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getHeureComplNuit());
+    }
 
-	/**
-	 * Tests the setNumBT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumBT() {
+    /**
+     * Tests the setNumBT() method.
+     *
+     * @return void
+     */
+    public function testSetNumBT() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setNumBT(10);
-		$this->assertEquals(10, $obj->getNumBT());
-	}
+        $obj->setNumBT(10);
+        $this->assertEquals(10, $obj->getNumBT());
+    }
 
-	/**
-	 * Tests the setTypeHeure() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeHeure() {
+    /**
+     * Tests the setTypeHeure() method.
+     *
+     * @return void
+     */
+    public function testSetTypeHeure() {
 
-		$obj = new PointEmpHeuresComplt();
+        $obj = new PointEmpHeuresComplt();
 
-		$obj->setTypeHeure("typeHeure");
-		$this->assertEquals("typeHeure", $obj->getTypeHeure());
-	}
+        $obj->setTypeHeure("typeHeure");
+        $this->assertEquals("typeHeure", $obj->getTypeHeure());
+    }
 
 }

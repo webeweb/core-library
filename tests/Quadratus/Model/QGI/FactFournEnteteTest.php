@@ -23,225 +23,225 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class FactFournEnteteTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$this->assertNull($obj->getBoniMali());
-		$this->assertNull($obj->getCodeJournal());
-		$this->assertNull($obj->getDate());
-		$this->assertNull($obj->getFolio());
-		$this->assertNull($obj->getLibAuto());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getMonnaie());
-		$this->assertNull($obj->getMontantTTCcredit());
-		$this->assertNull($obj->getMontantTTCdebit());
-		$this->assertNull($obj->getNumDossCpta());
-		$this->assertNull($obj->getNumFacture());
-		$this->assertNull($obj->getNumFournisseur());
-		$this->assertNull($obj->getNumLot());
-		$this->assertNull($obj->getNumUniq());
-		$this->assertNull($obj->getRefImage());
-	}
+        $this->assertNull($obj->getBoniMali());
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getFolio());
+        $this->assertNull($obj->getLibAuto());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMonnaie());
+        $this->assertNull($obj->getMontantTTCcredit());
+        $this->assertNull($obj->getMontantTTCdebit());
+        $this->assertNull($obj->getNumDossCpta());
+        $this->assertNull($obj->getNumFacture());
+        $this->assertNull($obj->getNumFournisseur());
+        $this->assertNull($obj->getNumLot());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getRefImage());
+    }
 
-	/**
-	 * Tests the setBoniMali() method.
-	 *
-	 * @return void
-	 */
-	public function testSetBoniMali() {
+    /**
+     * Tests the setBoniMali() method.
+     *
+     * @return void
+     */
+    public function testSetBoniMali() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setBoniMali(true);
-		$this->assertEquals(true, $obj->getBoniMali());
-	}
+        $obj->setBoniMali(true);
+        $this->assertEquals(true, $obj->getBoniMali());
+    }
 
-	/**
-	 * Tests the setCodeJournal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeJournal() {
+    /**
+     * Tests the setCodeJournal() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJournal() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setCodeJournal("codeJournal");
-		$this->assertEquals("codeJournal", $obj->getCodeJournal());
-	}
+        $obj->setCodeJournal("codeJournal");
+        $this->assertEquals("codeJournal", $obj->getCodeJournal());
+    }
 
-	/**
-	 * Tests the setDate() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDate() {
+    /**
+     * Tests the setDate() method.
+     *
+     * @return void
+     */
+    public function testSetDate() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setDate(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDate());
-	}
+        $obj->setDate(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDate());
+    }
 
-	/**
-	 * Tests the setFolio() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFolio() {
+    /**
+     * Tests the setFolio() method.
+     *
+     * @return void
+     */
+    public function testSetFolio() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setFolio(10);
-		$this->assertEquals(10, $obj->getFolio());
-	}
+        $obj->setFolio(10);
+        $this->assertEquals(10, $obj->getFolio());
+    }
 
-	/**
-	 * Tests the setLibAuto() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibAuto() {
+    /**
+     * Tests the setLibAuto() method.
+     *
+     * @return void
+     */
+    public function testSetLibAuto() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setLibAuto("libAuto");
-		$this->assertEquals("libAuto", $obj->getLibAuto());
-	}
+        $obj->setLibAuto("libAuto");
+        $this->assertEquals("libAuto", $obj->getLibAuto());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setMonnaie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMonnaie() {
+    /**
+     * Tests the setMonnaie() method.
+     *
+     * @return void
+     */
+    public function testSetMonnaie() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setMonnaie("monnaie");
-		$this->assertEquals("monnaie", $obj->getMonnaie());
-	}
+        $obj->setMonnaie("monnaie");
+        $this->assertEquals("monnaie", $obj->getMonnaie());
+    }
 
-	/**
-	 * Tests the setMontantTTCcredit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantTTCcredit() {
+    /**
+     * Tests the setMontantTTCcredit() method.
+     *
+     * @return void
+     */
+    public function testSetMontantTTCcredit() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setMontantTTCcredit("montantTTCcredit");
-		$this->assertEquals("montantTTCcredit", $obj->getMontantTTCcredit());
-	}
+        $obj->setMontantTTCcredit("montantTTCcredit");
+        $this->assertEquals("montantTTCcredit", $obj->getMontantTTCcredit());
+    }
 
-	/**
-	 * Tests the setMontantTTCdebit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantTTCdebit() {
+    /**
+     * Tests the setMontantTTCdebit() method.
+     *
+     * @return void
+     */
+    public function testSetMontantTTCdebit() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setMontantTTCdebit("montantTTCdebit");
-		$this->assertEquals("montantTTCdebit", $obj->getMontantTTCdebit());
-	}
+        $obj->setMontantTTCdebit("montantTTCdebit");
+        $this->assertEquals("montantTTCdebit", $obj->getMontantTTCdebit());
+    }
 
-	/**
-	 * Tests the setNumDossCpta() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDossCpta() {
+    /**
+     * Tests the setNumDossCpta() method.
+     *
+     * @return void
+     */
+    public function testSetNumDossCpta() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setNumDossCpta("numDossCpta");
-		$this->assertEquals("numDossCpta", $obj->getNumDossCpta());
-	}
+        $obj->setNumDossCpta("numDossCpta");
+        $this->assertEquals("numDossCpta", $obj->getNumDossCpta());
+    }
 
-	/**
-	 * Tests the setNumFacture() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumFacture() {
+    /**
+     * Tests the setNumFacture() method.
+     *
+     * @return void
+     */
+    public function testSetNumFacture() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setNumFacture("numFacture");
-		$this->assertEquals("numFacture", $obj->getNumFacture());
-	}
+        $obj->setNumFacture("numFacture");
+        $this->assertEquals("numFacture", $obj->getNumFacture());
+    }
 
-	/**
-	 * Tests the setNumFournisseur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumFournisseur() {
+    /**
+     * Tests the setNumFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetNumFournisseur() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setNumFournisseur("numFournisseur");
-		$this->assertEquals("numFournisseur", $obj->getNumFournisseur());
-	}
+        $obj->setNumFournisseur("numFournisseur");
+        $this->assertEquals("numFournisseur", $obj->getNumFournisseur());
+    }
 
-	/**
-	 * Tests the setNumLot() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLot() {
+    /**
+     * Tests the setNumLot() method.
+     *
+     * @return void
+     */
+    public function testSetNumLot() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setNumLot(10);
-		$this->assertEquals(10, $obj->getNumLot());
-	}
+        $obj->setNumLot(10);
+        $this->assertEquals(10, $obj->getNumLot());
+    }
 
-	/**
-	 * Tests the setNumUniq() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumUniq() {
+    /**
+     * Tests the setNumUniq() method.
+     *
+     * @return void
+     */
+    public function testSetNumUniq() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setNumUniq("numUniq");
-		$this->assertEquals("numUniq", $obj->getNumUniq());
-	}
+        $obj->setNumUniq("numUniq");
+        $this->assertEquals("numUniq", $obj->getNumUniq());
+    }
 
-	/**
-	 * Tests the setRefImage() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRefImage() {
+    /**
+     * Tests the setRefImage() method.
+     *
+     * @return void
+     */
+    public function testSetRefImage() {
 
-		$obj = new FactFournEntete();
+        $obj = new FactFournEntete();
 
-		$obj->setRefImage("refImage");
-		$this->assertEquals("refImage", $obj->getRefImage());
-	}
+        $obj->setRefImage("refImage");
+        $this->assertEquals("refImage", $obj->getRefImage());
+    }
 
 }

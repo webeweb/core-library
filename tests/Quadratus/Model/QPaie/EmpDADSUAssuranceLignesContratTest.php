@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmpDADSUAssuranceLignesContratTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmpDADSUAssuranceLignesContrat();
+        $obj = new EmpDADSUAssuranceLignesContrat();
 
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCodeOrganisme());
-		$this->assertNull($obj->getNbEnfants());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getRefContrat());
-		$this->assertNull($obj->getUniteGestion());
-	}
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getNbEnfants());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getRefContrat());
+        $this->assertNull($obj->getUniteGestion());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new EmpDADSUAssuranceLignesContrat();
+        $obj = new EmpDADSUAssuranceLignesContrat();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCodeOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganisme() {
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
 
-		$obj = new EmpDADSUAssuranceLignesContrat();
+        $obj = new EmpDADSUAssuranceLignesContrat();
 
-		$obj->setCodeOrganisme("codeOrganisme");
-		$this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-	}
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
 
-	/**
-	 * Tests the setNbEnfants() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbEnfants() {
+    /**
+     * Tests the setNbEnfants() method.
+     *
+     * @return void
+     */
+    public function testSetNbEnfants() {
 
-		$obj = new EmpDADSUAssuranceLignesContrat();
+        $obj = new EmpDADSUAssuranceLignesContrat();
 
-		$obj->setNbEnfants("nbEnfants");
-		$this->assertEquals("nbEnfants", $obj->getNbEnfants());
-	}
+        $obj->setNbEnfants("nbEnfants");
+        $this->assertEquals("nbEnfants", $obj->getNbEnfants());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new EmpDADSUAssuranceLignesContrat();
+        $obj = new EmpDADSUAssuranceLignesContrat();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setRefContrat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRefContrat() {
+    /**
+     * Tests the setRefContrat() method.
+     *
+     * @return void
+     */
+    public function testSetRefContrat() {
 
-		$obj = new EmpDADSUAssuranceLignesContrat();
+        $obj = new EmpDADSUAssuranceLignesContrat();
 
-		$obj->setRefContrat("refContrat");
-		$this->assertEquals("refContrat", $obj->getRefContrat());
-	}
+        $obj->setRefContrat("refContrat");
+        $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
 
-	/**
-	 * Tests the setUniteGestion() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniteGestion() {
+    /**
+     * Tests the setUniteGestion() method.
+     *
+     * @return void
+     */
+    public function testSetUniteGestion() {
 
-		$obj = new EmpDADSUAssuranceLignesContrat();
+        $obj = new EmpDADSUAssuranceLignesContrat();
 
-		$obj->setUniteGestion("uniteGestion");
-		$this->assertEquals("uniteGestion", $obj->getUniteGestion());
-	}
+        $obj->setUniteGestion("uniteGestion");
+        $this->assertEquals("uniteGestion", $obj->getUniteGestion());
+    }
 
 }

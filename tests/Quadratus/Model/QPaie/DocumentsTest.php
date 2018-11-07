@@ -23,197 +23,197 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DocumentsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$this->assertNull($obj->getAnnee());
-		$this->assertNull($obj->getAuteur());
-		$this->assertNull($obj->getChapitre());
-		$this->assertNull($obj->getChrono());
-		$this->assertNull($obj->getCodeNature());
-		$this->assertNull($obj->getDateHeureSys());
-		$this->assertNull($obj->getDateModification());
-		$this->assertNull($obj->getIndiceBulletin());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getLienDocument());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPeriodeArchivage());
-		$this->assertNull($obj->getPublierWeb());
-	}
+        $this->assertNull($obj->getAnnee());
+        $this->assertNull($obj->getAuteur());
+        $this->assertNull($obj->getChapitre());
+        $this->assertNull($obj->getChrono());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getDateHeureSys());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getIndiceBulletin());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriodeArchivage());
+        $this->assertNull($obj->getPublierWeb());
+    }
 
-	/**
-	 * Tests the setAnnee() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAnnee() {
+    /**
+     * Tests the setAnnee() method.
+     *
+     * @return void
+     */
+    public function testSetAnnee() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setAnnee("annee");
-		$this->assertEquals("annee", $obj->getAnnee());
-	}
+        $obj->setAnnee("annee");
+        $this->assertEquals("annee", $obj->getAnnee());
+    }
 
-	/**
-	 * Tests the setAuteur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAuteur() {
+    /**
+     * Tests the setAuteur() method.
+     *
+     * @return void
+     */
+    public function testSetAuteur() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setAuteur("auteur");
-		$this->assertEquals("auteur", $obj->getAuteur());
-	}
+        $obj->setAuteur("auteur");
+        $this->assertEquals("auteur", $obj->getAuteur());
+    }
 
-	/**
-	 * Tests the setChapitre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetChapitre() {
+    /**
+     * Tests the setChapitre() method.
+     *
+     * @return void
+     */
+    public function testSetChapitre() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setChapitre("chapitre");
-		$this->assertEquals("chapitre", $obj->getChapitre());
-	}
+        $obj->setChapitre("chapitre");
+        $this->assertEquals("chapitre", $obj->getChapitre());
+    }
 
-	/**
-	 * Tests the setChrono() method.
-	 *
-	 * @return void
-	 */
-	public function testSetChrono() {
+    /**
+     * Tests the setChrono() method.
+     *
+     * @return void
+     */
+    public function testSetChrono() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setChrono("chrono");
-		$this->assertEquals("chrono", $obj->getChrono());
-	}
+        $obj->setChrono("chrono");
+        $this->assertEquals("chrono", $obj->getChrono());
+    }
 
-	/**
-	 * Tests the setCodeNature() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeNature() {
+    /**
+     * Tests the setCodeNature() method.
+     *
+     * @return void
+     */
+    public function testSetCodeNature() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setCodeNature("codeNature");
-		$this->assertEquals("codeNature", $obj->getCodeNature());
-	}
+        $obj->setCodeNature("codeNature");
+        $this->assertEquals("codeNature", $obj->getCodeNature());
+    }
 
-	/**
-	 * Tests the setDateHeureSys() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateHeureSys() {
+    /**
+     * Tests the setDateHeureSys() method.
+     *
+     * @return void
+     */
+    public function testSetDateHeureSys() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setDateHeureSys(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateHeureSys());
-	}
+        $obj->setDateHeureSys(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateHeureSys());
+    }
 
-	/**
-	 * Tests the setDateModification() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateModification() {
+    /**
+     * Tests the setDateModification() method.
+     *
+     * @return void
+     */
+    public function testSetDateModification() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setDateModification(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateModification());
-	}
+        $obj->setDateModification(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateModification());
+    }
 
-	/**
-	 * Tests the setIndiceBulletin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndiceBulletin() {
+    /**
+     * Tests the setIndiceBulletin() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceBulletin() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setIndiceBulletin(10);
-		$this->assertEquals(10, $obj->getIndiceBulletin());
-	}
+        $obj->setIndiceBulletin(10);
+        $this->assertEquals(10, $obj->getIndiceBulletin());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setLienDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLienDocument() {
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setLienDocument("lienDocument");
-		$this->assertEquals("lienDocument", $obj->getLienDocument());
-	}
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPeriodeArchivage() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeArchivage() {
+    /**
+     * Tests the setPeriodeArchivage() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeArchivage() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setPeriodeArchivage(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeArchivage());
-	}
+        $obj->setPeriodeArchivage(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeArchivage());
+    }
 
-	/**
-	 * Tests the setPublierWeb() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPublierWeb() {
+    /**
+     * Tests the setPublierWeb() method.
+     *
+     * @return void
+     */
+    public function testSetPublierWeb() {
 
-		$obj = new Documents();
+        $obj = new Documents();
 
-		$obj->setPublierWeb(true);
-		$this->assertEquals(true, $obj->getPublierWeb());
-	}
+        $obj->setPublierWeb(true);
+        $this->assertEquals(true, $obj->getPublierWeb());
+    }
 
 }

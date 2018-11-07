@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DADSURetraiteLignesContratTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DADSURetraiteLignesContrat();
+        $obj = new DADSURetraiteLignesContrat();
 
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCodeOrganisme());
-		$this->assertNull($obj->getDesignationCommerciale());
-		$this->assertNull($obj->getRefContrat());
-	}
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getDesignationCommerciale());
+        $this->assertNull($obj->getRefContrat());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new DADSURetraiteLignesContrat();
+        $obj = new DADSURetraiteLignesContrat();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCodeOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganisme() {
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
 
-		$obj = new DADSURetraiteLignesContrat();
+        $obj = new DADSURetraiteLignesContrat();
 
-		$obj->setCodeOrganisme("codeOrganisme");
-		$this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-	}
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
 
-	/**
-	 * Tests the setDesignationCommerciale() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDesignationCommerciale() {
+    /**
+     * Tests the setDesignationCommerciale() method.
+     *
+     * @return void
+     */
+    public function testSetDesignationCommerciale() {
 
-		$obj = new DADSURetraiteLignesContrat();
+        $obj = new DADSURetraiteLignesContrat();
 
-		$obj->setDesignationCommerciale("designationCommerciale");
-		$this->assertEquals("designationCommerciale", $obj->getDesignationCommerciale());
-	}
+        $obj->setDesignationCommerciale("designationCommerciale");
+        $this->assertEquals("designationCommerciale", $obj->getDesignationCommerciale());
+    }
 
-	/**
-	 * Tests the setRefContrat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRefContrat() {
+    /**
+     * Tests the setRefContrat() method.
+     *
+     * @return void
+     */
+    public function testSetRefContrat() {
 
-		$obj = new DADSURetraiteLignesContrat();
+        $obj = new DADSURetraiteLignesContrat();
 
-		$obj->setRefContrat("refContrat");
-		$this->assertEquals("refContrat", $obj->getRefContrat());
-	}
+        $obj->setRefContrat("refContrat");
+        $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
 
 }

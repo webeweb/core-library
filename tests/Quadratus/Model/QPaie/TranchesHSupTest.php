@@ -23,197 +23,197 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class TranchesHSupTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$this->assertNull($obj->getAComptabiliserRC());
-		$this->assertNull($obj->getAComptabiliserRCIT());
-		$this->assertNull($obj->getAppliquerHSup());
-		$this->assertNull($obj->getAppliquerReposRemplace());
-		$this->assertNull($obj->getCodeLibHS());
-		$this->assertNull($obj->getDateApplication());
-		$this->assertNull($obj->getDeclencheRCSemaine());
-		$this->assertNull($obj->getHoraireDepassement());
-		$this->assertNull($obj->getNumeroGrilleType());
-		$this->assertNull($obj->getPourcentHSup());
-		$this->assertNull($obj->getPourcentRC());
-		$this->assertNull($obj->getPourcentReposRemplace());
-		$this->assertNull($obj->getTypePaiement());
-	}
+        $this->assertNull($obj->getAComptabiliserRC());
+        $this->assertNull($obj->getAComptabiliserRCIT());
+        $this->assertNull($obj->getAppliquerHSup());
+        $this->assertNull($obj->getAppliquerReposRemplace());
+        $this->assertNull($obj->getCodeLibHS());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getDeclencheRCSemaine());
+        $this->assertNull($obj->getHoraireDepassement());
+        $this->assertNull($obj->getNumeroGrilleType());
+        $this->assertNull($obj->getPourcentHSup());
+        $this->assertNull($obj->getPourcentRC());
+        $this->assertNull($obj->getPourcentReposRemplace());
+        $this->assertNull($obj->getTypePaiement());
+    }
 
-	/**
-	 * Tests the setAComptabiliserRC() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAComptabiliserRC() {
+    /**
+     * Tests the setAComptabiliserRC() method.
+     *
+     * @return void
+     */
+    public function testSetAComptabiliserRC() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setAComptabiliserRC(true);
-		$this->assertEquals(true, $obj->getAComptabiliserRC());
-	}
+        $obj->setAComptabiliserRC(true);
+        $this->assertEquals(true, $obj->getAComptabiliserRC());
+    }
 
-	/**
-	 * Tests the setAComptabiliserRCIT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAComptabiliserRCIT() {
+    /**
+     * Tests the setAComptabiliserRCIT() method.
+     *
+     * @return void
+     */
+    public function testSetAComptabiliserRCIT() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setAComptabiliserRCIT(true);
-		$this->assertEquals(true, $obj->getAComptabiliserRCIT());
-	}
+        $obj->setAComptabiliserRCIT(true);
+        $this->assertEquals(true, $obj->getAComptabiliserRCIT());
+    }
 
-	/**
-	 * Tests the setAppliquerHSup() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAppliquerHSup() {
+    /**
+     * Tests the setAppliquerHSup() method.
+     *
+     * @return void
+     */
+    public function testSetAppliquerHSup() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setAppliquerHSup(true);
-		$this->assertEquals(true, $obj->getAppliquerHSup());
-	}
+        $obj->setAppliquerHSup(true);
+        $this->assertEquals(true, $obj->getAppliquerHSup());
+    }
 
-	/**
-	 * Tests the setAppliquerReposRemplace() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAppliquerReposRemplace() {
+    /**
+     * Tests the setAppliquerReposRemplace() method.
+     *
+     * @return void
+     */
+    public function testSetAppliquerReposRemplace() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setAppliquerReposRemplace(true);
-		$this->assertEquals(true, $obj->getAppliquerReposRemplace());
-	}
+        $obj->setAppliquerReposRemplace(true);
+        $this->assertEquals(true, $obj->getAppliquerReposRemplace());
+    }
 
-	/**
-	 * Tests the setCodeLibHS() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeLibHS() {
+    /**
+     * Tests the setCodeLibHS() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibHS() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setCodeLibHS("codeLibHS");
-		$this->assertEquals("codeLibHS", $obj->getCodeLibHS());
-	}
+        $obj->setCodeLibHS("codeLibHS");
+        $this->assertEquals("codeLibHS", $obj->getCodeLibHS());
+    }
 
-	/**
-	 * Tests the setDateApplication() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateApplication() {
+    /**
+     * Tests the setDateApplication() method.
+     *
+     * @return void
+     */
+    public function testSetDateApplication() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setDateApplication(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplication());
-	}
+        $obj->setDateApplication(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplication());
+    }
 
-	/**
-	 * Tests the setDeclencheRCSemaine() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDeclencheRCSemaine() {
+    /**
+     * Tests the setDeclencheRCSemaine() method.
+     *
+     * @return void
+     */
+    public function testSetDeclencheRCSemaine() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setDeclencheRCSemaine(true);
-		$this->assertEquals(true, $obj->getDeclencheRCSemaine());
-	}
+        $obj->setDeclencheRCSemaine(true);
+        $this->assertEquals(true, $obj->getDeclencheRCSemaine());
+    }
 
-	/**
-	 * Tests the setHoraireDepassement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHoraireDepassement() {
+    /**
+     * Tests the setHoraireDepassement() method.
+     *
+     * @return void
+     */
+    public function testSetHoraireDepassement() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setHoraireDepassement(10.092018);
-		$this->assertEquals(10.092018, $obj->getHoraireDepassement());
-	}
+        $obj->setHoraireDepassement(10.092018);
+        $this->assertEquals(10.092018, $obj->getHoraireDepassement());
+    }
 
-	/**
-	 * Tests the setNumeroGrilleType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroGrilleType() {
+    /**
+     * Tests the setNumeroGrilleType() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroGrilleType() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setNumeroGrilleType(10);
-		$this->assertEquals(10, $obj->getNumeroGrilleType());
-	}
+        $obj->setNumeroGrilleType(10);
+        $this->assertEquals(10, $obj->getNumeroGrilleType());
+    }
 
-	/**
-	 * Tests the setPourcentHSup() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPourcentHSup() {
+    /**
+     * Tests the setPourcentHSup() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentHSup() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setPourcentHSup(10.092018);
-		$this->assertEquals(10.092018, $obj->getPourcentHSup());
-	}
+        $obj->setPourcentHSup(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentHSup());
+    }
 
-	/**
-	 * Tests the setPourcentRC() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPourcentRC() {
+    /**
+     * Tests the setPourcentRC() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentRC() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setPourcentRC(10.092018);
-		$this->assertEquals(10.092018, $obj->getPourcentRC());
-	}
+        $obj->setPourcentRC(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentRC());
+    }
 
-	/**
-	 * Tests the setPourcentReposRemplace() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPourcentReposRemplace() {
+    /**
+     * Tests the setPourcentReposRemplace() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentReposRemplace() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setPourcentReposRemplace(10.092018);
-		$this->assertEquals(10.092018, $obj->getPourcentReposRemplace());
-	}
+        $obj->setPourcentReposRemplace(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentReposRemplace());
+    }
 
-	/**
-	 * Tests the setTypePaiement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypePaiement() {
+    /**
+     * Tests the setTypePaiement() method.
+     *
+     * @return void
+     */
+    public function testSetTypePaiement() {
 
-		$obj = new TranchesHSup();
+        $obj = new TranchesHSup();
 
-		$obj->setTypePaiement("typePaiement");
-		$this->assertEquals("typePaiement", $obj->getTypePaiement());
-	}
+        $obj->setTypePaiement("typePaiement");
+        $this->assertEquals("typePaiement", $obj->getTypePaiement());
+    }
 
 }

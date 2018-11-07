@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AgendaTachesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AgendaTaches();
+        $obj = new AgendaTaches();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getListeGroupes());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getListeGroupes());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new AgendaTaches();
+        $obj = new AgendaTaches();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new AgendaTaches();
+        $obj = new AgendaTaches();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setListeGroupes() method.
-	 *
-	 * @return void
-	 */
-	public function testSetListeGroupes() {
+    /**
+     * Tests the setListeGroupes() method.
+     *
+     * @return void
+     */
+    public function testSetListeGroupes() {
 
-		$obj = new AgendaTaches();
+        $obj = new AgendaTaches();
 
-		$obj->setListeGroupes("listeGroupes");
-		$this->assertEquals("listeGroupes", $obj->getListeGroupes());
-	}
+        $obj->setListeGroupes("listeGroupes");
+        $this->assertEquals("listeGroupes", $obj->getListeGroupes());
+    }
 
 }

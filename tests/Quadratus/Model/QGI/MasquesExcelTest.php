@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class MasquesExcelTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new MasquesExcel();
+        $obj = new MasquesExcel();
 
-		$this->assertNull($obj->getModele());
-		$this->assertNull($obj->getTitre());
-		$this->assertNull($obj->getTypeMasque());
-	}
+        $this->assertNull($obj->getModele());
+        $this->assertNull($obj->getTitre());
+        $this->assertNull($obj->getTypeMasque());
+    }
 
-	/**
-	 * Tests the setModele() method.
-	 *
-	 * @return void
-	 */
-	public function testSetModele() {
+    /**
+     * Tests the setModele() method.
+     *
+     * @return void
+     */
+    public function testSetModele() {
 
-		$obj = new MasquesExcel();
+        $obj = new MasquesExcel();
 
-		$obj->setModele("modele");
-		$this->assertEquals("modele", $obj->getModele());
-	}
+        $obj->setModele("modele");
+        $this->assertEquals("modele", $obj->getModele());
+    }
 
-	/**
-	 * Tests the setTitre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTitre() {
+    /**
+     * Tests the setTitre() method.
+     *
+     * @return void
+     */
+    public function testSetTitre() {
 
-		$obj = new MasquesExcel();
+        $obj = new MasquesExcel();
 
-		$obj->setTitre("titre");
-		$this->assertEquals("titre", $obj->getTitre());
-	}
+        $obj->setTitre("titre");
+        $this->assertEquals("titre", $obj->getTitre());
+    }
 
-	/**
-	 * Tests the setTypeMasque() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeMasque() {
+    /**
+     * Tests the setTypeMasque() method.
+     *
+     * @return void
+     */
+    public function testSetTypeMasque() {
 
-		$obj = new MasquesExcel();
+        $obj = new MasquesExcel();
 
-		$obj->setTypeMasque("typeMasque");
-		$this->assertEquals("typeMasque", $obj->getTypeMasque());
-	}
+        $obj->setTypeMasque("typeMasque");
+        $this->assertEquals("typeMasque", $obj->getTypeMasque());
+    }
 
 }

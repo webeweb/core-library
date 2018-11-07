@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AgendaFichiersTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AgendaFichiers();
+        $obj = new AgendaFichiers();
 
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getDateAjout());
-		$this->assertNull($obj->getNomFichier());
-		$this->assertNull($obj->getOrigineFichier());
-		$this->assertNull($obj->getRefGUID());
-		$this->assertNull($obj->getTitre());
-	}
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDateAjout());
+        $this->assertNull($obj->getNomFichier());
+        $this->assertNull($obj->getOrigineFichier());
+        $this->assertNull($obj->getRefGUID());
+        $this->assertNull($obj->getTitre());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new AgendaFichiers();
+        $obj = new AgendaFichiers();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setDateAjout() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateAjout() {
+    /**
+     * Tests the setDateAjout() method.
+     *
+     * @return void
+     */
+    public function testSetDateAjout() {
 
-		$obj = new AgendaFichiers();
+        $obj = new AgendaFichiers();
 
-		$obj->setDateAjout(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAjout());
-	}
+        $obj->setDateAjout(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAjout());
+    }
 
-	/**
-	 * Tests the setNomFichier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomFichier() {
+    /**
+     * Tests the setNomFichier() method.
+     *
+     * @return void
+     */
+    public function testSetNomFichier() {
 
-		$obj = new AgendaFichiers();
+        $obj = new AgendaFichiers();
 
-		$obj->setNomFichier("nomFichier");
-		$this->assertEquals("nomFichier", $obj->getNomFichier());
-	}
+        $obj->setNomFichier("nomFichier");
+        $this->assertEquals("nomFichier", $obj->getNomFichier());
+    }
 
-	/**
-	 * Tests the setOrigineFichier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetOrigineFichier() {
+    /**
+     * Tests the setOrigineFichier() method.
+     *
+     * @return void
+     */
+    public function testSetOrigineFichier() {
 
-		$obj = new AgendaFichiers();
+        $obj = new AgendaFichiers();
 
-		$obj->setOrigineFichier("origineFichier");
-		$this->assertEquals("origineFichier", $obj->getOrigineFichier());
-	}
+        $obj->setOrigineFichier("origineFichier");
+        $this->assertEquals("origineFichier", $obj->getOrigineFichier());
+    }
 
-	/**
-	 * Tests the setRefGUID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRefGUID() {
+    /**
+     * Tests the setRefGUID() method.
+     *
+     * @return void
+     */
+    public function testSetRefGUID() {
 
-		$obj = new AgendaFichiers();
+        $obj = new AgendaFichiers();
 
-		$obj->setRefGUID("refGUID");
-		$this->assertEquals("refGUID", $obj->getRefGUID());
-	}
+        $obj->setRefGUID("refGUID");
+        $this->assertEquals("refGUID", $obj->getRefGUID());
+    }
 
-	/**
-	 * Tests the setTitre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTitre() {
+    /**
+     * Tests the setTitre() method.
+     *
+     * @return void
+     */
+    public function testSetTitre() {
 
-		$obj = new AgendaFichiers();
+        $obj = new AgendaFichiers();
 
-		$obj->setTitre("titre");
-		$this->assertEquals("titre", $obj->getTitre());
-	}
+        $obj->setTitre("titre");
+        $this->assertEquals("titre", $obj->getTitre());
+    }
 
 }

@@ -22,85 +22,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class QualifiantsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Qualifiants();
+        $obj = new Qualifiants();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getColonne());
-		$this->assertNull($obj->getVisuAppels());
-		$this->assertNull($obj->getVisuDocuments());
-		$this->assertNull($obj->getVisuEvenements());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getColonne());
+        $this->assertNull($obj->getVisuAppels());
+        $this->assertNull($obj->getVisuDocuments());
+        $this->assertNull($obj->getVisuEvenements());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new Qualifiants();
+        $obj = new Qualifiants();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setColonne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetColonne() {
+    /**
+     * Tests the setColonne() method.
+     *
+     * @return void
+     */
+    public function testSetColonne() {
 
-		$obj = new Qualifiants();
+        $obj = new Qualifiants();
 
-		$obj->setColonne(10);
-		$this->assertEquals(10, $obj->getColonne());
-	}
+        $obj->setColonne(10);
+        $this->assertEquals(10, $obj->getColonne());
+    }
 
-	/**
-	 * Tests the setVisuAppels() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVisuAppels() {
+    /**
+     * Tests the setVisuAppels() method.
+     *
+     * @return void
+     */
+    public function testSetVisuAppels() {
 
-		$obj = new Qualifiants();
+        $obj = new Qualifiants();
 
-		$obj->setVisuAppels(true);
-		$this->assertEquals(true, $obj->getVisuAppels());
-	}
+        $obj->setVisuAppels(true);
+        $this->assertEquals(true, $obj->getVisuAppels());
+    }
 
-	/**
-	 * Tests the setVisuDocuments() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVisuDocuments() {
+    /**
+     * Tests the setVisuDocuments() method.
+     *
+     * @return void
+     */
+    public function testSetVisuDocuments() {
 
-		$obj = new Qualifiants();
+        $obj = new Qualifiants();
 
-		$obj->setVisuDocuments(true);
-		$this->assertEquals(true, $obj->getVisuDocuments());
-	}
+        $obj->setVisuDocuments(true);
+        $this->assertEquals(true, $obj->getVisuDocuments());
+    }
 
-	/**
-	 * Tests the setVisuEvenements() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVisuEvenements() {
+    /**
+     * Tests the setVisuEvenements() method.
+     *
+     * @return void
+     */
+    public function testSetVisuEvenements() {
 
-		$obj = new Qualifiants();
+        $obj = new Qualifiants();
 
-		$obj->setVisuEvenements(true);
-		$this->assertEquals(true, $obj->getVisuEvenements());
-	}
+        $obj->setVisuEvenements(true);
+        $this->assertEquals(true, $obj->getVisuEvenements());
+    }
 
 }

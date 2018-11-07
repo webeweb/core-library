@@ -22,85 +22,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ConstTabTvaAchatTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ConstTabTvaAchat();
+        $obj = new ConstTabTvaAchat();
 
-		$this->assertNull($obj->getCodeTvaArticle());
-		$this->assertNull($obj->getCodeTvaFourn());
-		$this->assertNull($obj->getCompteTva());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getTauxTva());
-	}
+        $this->assertNull($obj->getCodeTvaArticle());
+        $this->assertNull($obj->getCodeTvaFourn());
+        $this->assertNull($obj->getCompteTva());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getTauxTva());
+    }
 
-	/**
-	 * Tests the setCodeTvaArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTvaArticle() {
+    /**
+     * Tests the setCodeTvaArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTvaArticle() {
 
-		$obj = new ConstTabTvaAchat();
+        $obj = new ConstTabTvaAchat();
 
-		$obj->setCodeTvaArticle("codeTvaArticle");
-		$this->assertEquals("codeTvaArticle", $obj->getCodeTvaArticle());
-	}
+        $obj->setCodeTvaArticle("codeTvaArticle");
+        $this->assertEquals("codeTvaArticle", $obj->getCodeTvaArticle());
+    }
 
-	/**
-	 * Tests the setCodeTvaFourn() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTvaFourn() {
+    /**
+     * Tests the setCodeTvaFourn() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTvaFourn() {
 
-		$obj = new ConstTabTvaAchat();
+        $obj = new ConstTabTvaAchat();
 
-		$obj->setCodeTvaFourn("codeTvaFourn");
-		$this->assertEquals("codeTvaFourn", $obj->getCodeTvaFourn());
-	}
+        $obj->setCodeTvaFourn("codeTvaFourn");
+        $this->assertEquals("codeTvaFourn", $obj->getCodeTvaFourn());
+    }
 
-	/**
-	 * Tests the setCompteTva() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCompteTva() {
+    /**
+     * Tests the setCompteTva() method.
+     *
+     * @return void
+     */
+    public function testSetCompteTva() {
 
-		$obj = new ConstTabTvaAchat();
+        $obj = new ConstTabTvaAchat();
 
-		$obj->setCompteTva("compteTva");
-		$this->assertEquals("compteTva", $obj->getCompteTva());
-	}
+        $obj->setCompteTva("compteTva");
+        $this->assertEquals("compteTva", $obj->getCompteTva());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new ConstTabTvaAchat();
+        $obj = new ConstTabTvaAchat();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setTauxTva() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxTva() {
+    /**
+     * Tests the setTauxTva() method.
+     *
+     * @return void
+     */
+    public function testSetTauxTva() {
 
-		$obj = new ConstTabTvaAchat();
+        $obj = new ConstTabTvaAchat();
 
-		$obj->setTauxTva(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxTva());
-	}
+        $obj->setTauxTva(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxTva());
+    }
 
 }

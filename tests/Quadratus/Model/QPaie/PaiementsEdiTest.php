@@ -22,155 +22,155 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PaiementsEdiTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$this->assertNull($obj->getBIC());
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCodeOrganisme());
-		$this->assertNull($obj->getDomBanque());
-		$this->assertNull($obj->getGenererCouponPaiement());
-		$this->assertNull($obj->getIBAN());
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getMontantDucsAnnuelle());
-		$this->assertNull($obj->getMoyenPaiement());
-		$this->assertNull($obj->getRib());
-	}
+        $this->assertNull($obj->getBIC());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getDomBanque());
+        $this->assertNull($obj->getGenererCouponPaiement());
+        $this->assertNull($obj->getIBAN());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantDucsAnnuelle());
+        $this->assertNull($obj->getMoyenPaiement());
+        $this->assertNull($obj->getRib());
+    }
 
-	/**
-	 * Tests the setBIC() method.
-	 *
-	 * @return void
-	 */
-	public function testSetBIC() {
+    /**
+     * Tests the setBIC() method.
+     *
+     * @return void
+     */
+    public function testSetBIC() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setBIC("bIC");
-		$this->assertEquals("bIC", $obj->getBIC());
-	}
+        $obj->setBIC("bIC");
+        $this->assertEquals("bIC", $obj->getBIC());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCodeOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganisme() {
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setCodeOrganisme("codeOrganisme");
-		$this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-	}
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
 
-	/**
-	 * Tests the setDomBanque() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDomBanque() {
+    /**
+     * Tests the setDomBanque() method.
+     *
+     * @return void
+     */
+    public function testSetDomBanque() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setDomBanque("domBanque");
-		$this->assertEquals("domBanque", $obj->getDomBanque());
-	}
+        $obj->setDomBanque("domBanque");
+        $this->assertEquals("domBanque", $obj->getDomBanque());
+    }
 
-	/**
-	 * Tests the setGenererCouponPaiement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetGenererCouponPaiement() {
+    /**
+     * Tests the setGenererCouponPaiement() method.
+     *
+     * @return void
+     */
+    public function testSetGenererCouponPaiement() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setGenererCouponPaiement(true);
-		$this->assertEquals(true, $obj->getGenererCouponPaiement());
-	}
+        $obj->setGenererCouponPaiement(true);
+        $this->assertEquals(true, $obj->getGenererCouponPaiement());
+    }
 
-	/**
-	 * Tests the setIBAN() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIBAN() {
+    /**
+     * Tests the setIBAN() method.
+     *
+     * @return void
+     */
+    public function testSetIBAN() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setIBAN("iBAN");
-		$this->assertEquals("iBAN", $obj->getIBAN());
-	}
+        $obj->setIBAN("iBAN");
+        $this->assertEquals("iBAN", $obj->getIBAN());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setMontantDucsAnnuelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantDucsAnnuelle() {
+    /**
+     * Tests the setMontantDucsAnnuelle() method.
+     *
+     * @return void
+     */
+    public function testSetMontantDucsAnnuelle() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setMontantDucsAnnuelle(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantDucsAnnuelle());
-	}
+        $obj->setMontantDucsAnnuelle(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantDucsAnnuelle());
+    }
 
-	/**
-	 * Tests the setMoyenPaiement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMoyenPaiement() {
+    /**
+     * Tests the setMoyenPaiement() method.
+     *
+     * @return void
+     */
+    public function testSetMoyenPaiement() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setMoyenPaiement("moyenPaiement");
-		$this->assertEquals("moyenPaiement", $obj->getMoyenPaiement());
-	}
+        $obj->setMoyenPaiement("moyenPaiement");
+        $this->assertEquals("moyenPaiement", $obj->getMoyenPaiement());
+    }
 
-	/**
-	 * Tests the setRib() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRib() {
+    /**
+     * Tests the setRib() method.
+     *
+     * @return void
+     */
+    public function testSetRib() {
 
-		$obj = new PaiementsEdi();
+        $obj = new PaiementsEdi();
 
-		$obj->setRib("rib");
-		$this->assertEquals("rib", $obj->getRib());
-	}
+        $obj->setRib("rib");
+        $this->assertEquals("rib", $obj->getRib());
+    }
 
 }

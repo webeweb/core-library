@@ -22,29 +22,29 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class eWSEspaceTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new eWSEspace();
+        $obj = new eWSEspace();
 
-		$this->assertNull($obj->getNumDoss());
-	}
+        $this->assertNull($obj->getNumDoss());
+    }
 
-	/**
-	 * Tests the setNumDoss() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDoss() {
+    /**
+     * Tests the setNumDoss() method.
+     *
+     * @return void
+     */
+    public function testSetNumDoss() {
 
-		$obj = new eWSEspace();
+        $obj = new eWSEspace();
 
-		$obj->setNumDoss("numDoss");
-		$this->assertEquals("numDoss", $obj->getNumDoss());
-	}
+        $obj->setNumDoss("numDoss");
+        $this->assertEquals("numDoss", $obj->getNumDoss());
+    }
 
 }

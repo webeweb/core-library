@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DossiersCptaTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DossiersCpta();
+        $obj = new DossiersCpta();
 
-		$this->assertNull($obj->getCheminDossierCpta());
-		$this->assertNull($obj->getNumDossierCpta());
-		$this->assertNull($obj->getNumDossierFact());
-	}
+        $this->assertNull($obj->getCheminDossierCpta());
+        $this->assertNull($obj->getNumDossierCpta());
+        $this->assertNull($obj->getNumDossierFact());
+    }
 
-	/**
-	 * Tests the setCheminDossierCpta() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCheminDossierCpta() {
+    /**
+     * Tests the setCheminDossierCpta() method.
+     *
+     * @return void
+     */
+    public function testSetCheminDossierCpta() {
 
-		$obj = new DossiersCpta();
+        $obj = new DossiersCpta();
 
-		$obj->setCheminDossierCpta("cheminDossierCpta");
-		$this->assertEquals("cheminDossierCpta", $obj->getCheminDossierCpta());
-	}
+        $obj->setCheminDossierCpta("cheminDossierCpta");
+        $this->assertEquals("cheminDossierCpta", $obj->getCheminDossierCpta());
+    }
 
-	/**
-	 * Tests the setNumDossierCpta() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDossierCpta() {
+    /**
+     * Tests the setNumDossierCpta() method.
+     *
+     * @return void
+     */
+    public function testSetNumDossierCpta() {
 
-		$obj = new DossiersCpta();
+        $obj = new DossiersCpta();
 
-		$obj->setNumDossierCpta("numDossierCpta");
-		$this->assertEquals("numDossierCpta", $obj->getNumDossierCpta());
-	}
+        $obj->setNumDossierCpta("numDossierCpta");
+        $this->assertEquals("numDossierCpta", $obj->getNumDossierCpta());
+    }
 
-	/**
-	 * Tests the setNumDossierFact() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDossierFact() {
+    /**
+     * Tests the setNumDossierFact() method.
+     *
+     * @return void
+     */
+    public function testSetNumDossierFact() {
 
-		$obj = new DossiersCpta();
+        $obj = new DossiersCpta();
 
-		$obj->setNumDossierFact("numDossierFact");
-		$this->assertEquals("numDossierFact", $obj->getNumDossierFact());
-	}
+        $obj->setNumDossierFact("numDossierFact");
+        $this->assertEquals("numDossierFact", $obj->getNumDossierFact());
+    }
 
 }

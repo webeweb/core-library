@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ProgTypeLignesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ProgTypeLignes();
+        $obj = new ProgTypeLignes();
 
-		$this->assertNull($obj->getCodeOperation());
-		$this->assertNull($obj->getCoefficient());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getNumProgramme());
-		$this->assertNull($obj->getVitesseReelle());
-		$this->assertNull($obj->getVitesseTheorique());
-	}
+        $this->assertNull($obj->getCodeOperation());
+        $this->assertNull($obj->getCoefficient());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumProgramme());
+        $this->assertNull($obj->getVitesseReelle());
+        $this->assertNull($obj->getVitesseTheorique());
+    }
 
-	/**
-	 * Tests the setCodeOperation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOperation() {
+    /**
+     * Tests the setCodeOperation() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOperation() {
 
-		$obj = new ProgTypeLignes();
+        $obj = new ProgTypeLignes();
 
-		$obj->setCodeOperation("codeOperation");
-		$this->assertEquals("codeOperation", $obj->getCodeOperation());
-	}
+        $obj->setCodeOperation("codeOperation");
+        $this->assertEquals("codeOperation", $obj->getCodeOperation());
+    }
 
-	/**
-	 * Tests the setCoefficient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCoefficient() {
+    /**
+     * Tests the setCoefficient() method.
+     *
+     * @return void
+     */
+    public function testSetCoefficient() {
 
-		$obj = new ProgTypeLignes();
+        $obj = new ProgTypeLignes();
 
-		$obj->setCoefficient(10.092018);
-		$this->assertEquals(10.092018, $obj->getCoefficient());
-	}
+        $obj->setCoefficient(10.092018);
+        $this->assertEquals(10.092018, $obj->getCoefficient());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new ProgTypeLignes();
+        $obj = new ProgTypeLignes();
 
-		$obj->setNumLigne(10);
-		$this->assertEquals(10, $obj->getNumLigne());
-	}
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setNumProgramme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumProgramme() {
+    /**
+     * Tests the setNumProgramme() method.
+     *
+     * @return void
+     */
+    public function testSetNumProgramme() {
 
-		$obj = new ProgTypeLignes();
+        $obj = new ProgTypeLignes();
 
-		$obj->setNumProgramme(10);
-		$this->assertEquals(10, $obj->getNumProgramme());
-	}
+        $obj->setNumProgramme(10);
+        $this->assertEquals(10, $obj->getNumProgramme());
+    }
 
-	/**
-	 * Tests the setVitesseReelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVitesseReelle() {
+    /**
+     * Tests the setVitesseReelle() method.
+     *
+     * @return void
+     */
+    public function testSetVitesseReelle() {
 
-		$obj = new ProgTypeLignes();
+        $obj = new ProgTypeLignes();
 
-		$obj->setVitesseReelle(10.092018);
-		$this->assertEquals(10.092018, $obj->getVitesseReelle());
-	}
+        $obj->setVitesseReelle(10.092018);
+        $this->assertEquals(10.092018, $obj->getVitesseReelle());
+    }
 
-	/**
-	 * Tests the setVitesseTheorique() method.
-	 *
-	 * @return void
-	 */
-	public function testSetVitesseTheorique() {
+    /**
+     * Tests the setVitesseTheorique() method.
+     *
+     * @return void
+     */
+    public function testSetVitesseTheorique() {
 
-		$obj = new ProgTypeLignes();
+        $obj = new ProgTypeLignes();
 
-		$obj->setVitesseTheorique(10.092018);
-		$this->assertEquals(10.092018, $obj->getVitesseTheorique());
-	}
+        $obj->setVitesseTheorique(10.092018);
+        $this->assertEquals(10.092018, $obj->getVitesseTheorique());
+    }
 
 }

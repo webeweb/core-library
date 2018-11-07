@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DetailChargesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DetailCharges();
+        $obj = new DetailCharges();
 
-		$this->assertNull($obj->getCommentaire());
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getUniqId());
-	}
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getUniqId());
+    }
 
-	/**
-	 * Tests the setCommentaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCommentaire() {
+    /**
+     * Tests the setCommentaire() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire() {
 
-		$obj = new DetailCharges();
+        $obj = new DetailCharges();
 
-		$obj->setCommentaire("commentaire");
-		$this->assertEquals("commentaire", $obj->getCommentaire());
-	}
+        $obj->setCommentaire("commentaire");
+        $this->assertEquals("commentaire", $obj->getCommentaire());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new DetailCharges();
+        $obj = new DetailCharges();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new DetailCharges();
+        $obj = new DetailCharges();
 
-		$obj->setNumLigne(10);
-		$this->assertEquals(10, $obj->getNumLigne());
-	}
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setUniqId() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqId() {
+    /**
+     * Tests the setUniqId() method.
+     *
+     * @return void
+     */
+    public function testSetUniqId() {
 
-		$obj = new DetailCharges();
+        $obj = new DetailCharges();
 
-		$obj->setUniqId("uniqId");
-		$this->assertEquals("uniqId", $obj->getUniqId());
-	}
+        $obj->setUniqId("uniqId");
+        $this->assertEquals("uniqId", $obj->getUniqId());
+    }
 
 }

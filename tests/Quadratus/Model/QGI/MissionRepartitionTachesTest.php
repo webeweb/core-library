@@ -22,85 +22,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class MissionRepartitionTachesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new MissionRepartitionTaches();
+        $obj = new MissionRepartitionTaches();
 
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getCodeMission());
-		$this->assertNull($obj->getCodeTache());
-		$this->assertNull($obj->getRepartition());
-	}
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getRepartition());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new MissionRepartitionTaches();
+        $obj = new MissionRepartitionTaches();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new MissionRepartitionTaches();
+        $obj = new MissionRepartitionTaches();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setCodeMission() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeMission() {
+    /**
+     * Tests the setCodeMission() method.
+     *
+     * @return void
+     */
+    public function testSetCodeMission() {
 
-		$obj = new MissionRepartitionTaches();
+        $obj = new MissionRepartitionTaches();
 
-		$obj->setCodeMission("codeMission");
-		$this->assertEquals("codeMission", $obj->getCodeMission());
-	}
+        $obj->setCodeMission("codeMission");
+        $this->assertEquals("codeMission", $obj->getCodeMission());
+    }
 
-	/**
-	 * Tests the setCodeTache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTache() {
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
 
-		$obj = new MissionRepartitionTaches();
+        $obj = new MissionRepartitionTaches();
 
-		$obj->setCodeTache("codeTache");
-		$this->assertEquals("codeTache", $obj->getCodeTache());
-	}
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
 
-	/**
-	 * Tests the setRepartition() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRepartition() {
+    /**
+     * Tests the setRepartition() method.
+     *
+     * @return void
+     */
+    public function testSetRepartition() {
 
-		$obj = new MissionRepartitionTaches();
+        $obj = new MissionRepartitionTaches();
 
-		$obj->setRepartition(10.092018);
-		$this->assertEquals(10.092018, $obj->getRepartition());
-	}
+        $obj->setRepartition(10.092018);
+        $this->assertEquals(10.092018, $obj->getRepartition());
+    }
 
 }

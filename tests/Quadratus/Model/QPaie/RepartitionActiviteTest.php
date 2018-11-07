@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RepartitionActiviteTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RepartitionActivite();
+        $obj = new RepartitionActivite();
 
-		$this->assertNull($obj->getCodeService());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getTauxVentilation());
-	}
+        $this->assertNull($obj->getCodeService());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTauxVentilation());
+    }
 
-	/**
-	 * Tests the setCodeService() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeService() {
+    /**
+     * Tests the setCodeService() method.
+     *
+     * @return void
+     */
+    public function testSetCodeService() {
 
-		$obj = new RepartitionActivite();
+        $obj = new RepartitionActivite();
 
-		$obj->setCodeService("codeService");
-		$this->assertEquals("codeService", $obj->getCodeService());
-	}
+        $obj->setCodeService("codeService");
+        $this->assertEquals("codeService", $obj->getCodeService());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new RepartitionActivite();
+        $obj = new RepartitionActivite();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setTauxVentilation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxVentilation() {
+    /**
+     * Tests the setTauxVentilation() method.
+     *
+     * @return void
+     */
+    public function testSetTauxVentilation() {
 
-		$obj = new RepartitionActivite();
+        $obj = new RepartitionActivite();
 
-		$obj->setTauxVentilation(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxVentilation());
-	}
+        $obj->setTauxVentilation(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxVentilation());
+    }
 
 }

@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HistoTransfertCptaTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HistoTransfertCpta();
+        $obj = new HistoTransfertCpta();
 
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCodeJournal());
-		$this->assertNull($obj->getDateEcriture());
-		$this->assertNull($obj->getNumLot());
-		$this->assertNull($obj->getPeriodeTransfert());
-		$this->assertNull($obj->getTypeTransfert());
-	}
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getDateEcriture());
+        $this->assertNull($obj->getNumLot());
+        $this->assertNull($obj->getPeriodeTransfert());
+        $this->assertNull($obj->getTypeTransfert());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new HistoTransfertCpta();
+        $obj = new HistoTransfertCpta();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCodeJournal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeJournal() {
+    /**
+     * Tests the setCodeJournal() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJournal() {
 
-		$obj = new HistoTransfertCpta();
+        $obj = new HistoTransfertCpta();
 
-		$obj->setCodeJournal("codeJournal");
-		$this->assertEquals("codeJournal", $obj->getCodeJournal());
-	}
+        $obj->setCodeJournal("codeJournal");
+        $this->assertEquals("codeJournal", $obj->getCodeJournal());
+    }
 
-	/**
-	 * Tests the setDateEcriture() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateEcriture() {
+    /**
+     * Tests the setDateEcriture() method.
+     *
+     * @return void
+     */
+    public function testSetDateEcriture() {
 
-		$obj = new HistoTransfertCpta();
+        $obj = new HistoTransfertCpta();
 
-		$obj->setDateEcriture(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEcriture());
-	}
+        $obj->setDateEcriture(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEcriture());
+    }
 
-	/**
-	 * Tests the setNumLot() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLot() {
+    /**
+     * Tests the setNumLot() method.
+     *
+     * @return void
+     */
+    public function testSetNumLot() {
 
-		$obj = new HistoTransfertCpta();
+        $obj = new HistoTransfertCpta();
 
-		$obj->setNumLot(10);
-		$this->assertEquals(10, $obj->getNumLot());
-	}
+        $obj->setNumLot(10);
+        $this->assertEquals(10, $obj->getNumLot());
+    }
 
-	/**
-	 * Tests the setPeriodeTransfert() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeTransfert() {
+    /**
+     * Tests the setPeriodeTransfert() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeTransfert() {
 
-		$obj = new HistoTransfertCpta();
+        $obj = new HistoTransfertCpta();
 
-		$obj->setPeriodeTransfert(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeTransfert());
-	}
+        $obj->setPeriodeTransfert(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeTransfert());
+    }
 
-	/**
-	 * Tests the setTypeTransfert() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeTransfert() {
+    /**
+     * Tests the setTypeTransfert() method.
+     *
+     * @return void
+     */
+    public function testSetTypeTransfert() {
 
-		$obj = new HistoTransfertCpta();
+        $obj = new HistoTransfertCpta();
 
-		$obj->setTypeTransfert("typeTransfert");
-		$this->assertEquals("typeTransfert", $obj->getTypeTransfert());
-	}
+        $obj->setTypeTransfert("typeTransfert");
+        $this->assertEquals("typeTransfert", $obj->getTypeTransfert());
+    }
 
 }

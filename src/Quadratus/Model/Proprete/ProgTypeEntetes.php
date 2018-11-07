@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\Proprete;
 
-
 /**
  * Prog type entetes model.
  *
@@ -20,65 +19,65 @@ namespace WBW\Library\Core\Quadratus\Model\Proprete;
  */
 class ProgTypeEntetes {
 
-	/**
-	 * Designation.
-	 *
-	 * @var string
-	 */
-	private $designation;
+    /**
+     * Designation.
+     *
+     * @var string
+     */
+    private $designation;
 
-	/**
-	 * Num programme.
-	 *
-	 * @var int
-	 */
-	private $numProgramme;
+    /**
+     * Num programme.
+     *
+     * @var int
+     */
+    private $numProgramme;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the designation.
-	 *
-	 * @return string Returns the designation.
-	 */
-	public function getDesignation() {
-		return $this->designation;
-	}
+    /**
+     * Get the designation.
+     *
+     * @return string Returns the designation.
+     */
+    public function getDesignation() {
+        return $this->designation;
+    }
 
-	/**
-	 * Get the num programme.
-	 *
-	 * @return int Returns the num programme.
-	 */
-	public function getNumProgramme() {
-		return $this->numProgramme;
-	}
+    /**
+     * Get the num programme.
+     *
+     * @return int Returns the num programme.
+     */
+    public function getNumProgramme() {
+        return $this->numProgramme;
+    }
 
-	/**
-	 * Set the designation.
-	 *
-	 * @param string $designation The designation.
-	 * @return ProgTypeEntetes Returns this prog type entetes.
-	 */
-	public function setDesignation($designation) {
-		$this->designation = $designation;
-		return $this;
-	}
+    /**
+     * Set the designation.
+     *
+     * @param string $designation The designation.
+     * @return ProgTypeEntetes Returns this prog type entetes.
+     */
+    public function setDesignation($designation) {
+        $this->designation = $designation;
+        return $this;
+    }
 
-	/**
-	 * Set the num programme.
-	 *
-	 * @param int $numProgramme The num programme.
-	 * @return ProgTypeEntetes Returns this prog type entetes.
-	 */
-	public function setNumProgramme($numProgramme) {
-		$this->numProgramme = $numProgramme;
-		return $this;
-	}
+    /**
+     * Set the num programme.
+     *
+     * @param int $numProgramme The num programme.
+     * @return ProgTypeEntetes Returns this prog type entetes.
+     */
+    public function setNumProgramme($numProgramme) {
+        $this->numProgramme = $numProgramme;
+        return $this;
+    }
 
 }

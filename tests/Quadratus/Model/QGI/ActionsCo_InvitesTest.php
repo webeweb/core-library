@@ -23,141 +23,141 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ActionsCo_InvitesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$this->assertNull($obj->getCodeAction());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeColl());
-		$this->assertNull($obj->getDateAjout());
-		$this->assertNull($obj->getNomInterlocuteur());
-		$this->assertNull($obj->getNumInterlocuteur());
-		$this->assertNull($obj->getRetourNeg());
-		$this->assertNull($obj->getTypeInvitation());
-		$this->assertNull($obj->getTypeInvite());
-	}
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeColl());
+        $this->assertNull($obj->getDateAjout());
+        $this->assertNull($obj->getNomInterlocuteur());
+        $this->assertNull($obj->getNumInterlocuteur());
+        $this->assertNull($obj->getRetourNeg());
+        $this->assertNull($obj->getTypeInvitation());
+        $this->assertNull($obj->getTypeInvite());
+    }
 
-	/**
-	 * Tests the setCodeAction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAction() {
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setCodeAction("codeAction");
-		$this->assertEquals("codeAction", $obj->getCodeAction());
-	}
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeColl() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeColl() {
+    /**
+     * Tests the setCodeColl() method.
+     *
+     * @return void
+     */
+    public function testSetCodeColl() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setCodeColl("codeColl");
-		$this->assertEquals("codeColl", $obj->getCodeColl());
-	}
+        $obj->setCodeColl("codeColl");
+        $this->assertEquals("codeColl", $obj->getCodeColl());
+    }
 
-	/**
-	 * Tests the setDateAjout() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateAjout() {
+    /**
+     * Tests the setDateAjout() method.
+     *
+     * @return void
+     */
+    public function testSetDateAjout() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setDateAjout(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAjout());
-	}
+        $obj->setDateAjout(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAjout());
+    }
 
-	/**
-	 * Tests the setNomInterlocuteur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomInterlocuteur() {
+    /**
+     * Tests the setNomInterlocuteur() method.
+     *
+     * @return void
+     */
+    public function testSetNomInterlocuteur() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setNomInterlocuteur("nomInterlocuteur");
-		$this->assertEquals("nomInterlocuteur", $obj->getNomInterlocuteur());
-	}
+        $obj->setNomInterlocuteur("nomInterlocuteur");
+        $this->assertEquals("nomInterlocuteur", $obj->getNomInterlocuteur());
+    }
 
-	/**
-	 * Tests the setNumInterlocuteur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumInterlocuteur() {
+    /**
+     * Tests the setNumInterlocuteur() method.
+     *
+     * @return void
+     */
+    public function testSetNumInterlocuteur() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setNumInterlocuteur(10);
-		$this->assertEquals(10, $obj->getNumInterlocuteur());
-	}
+        $obj->setNumInterlocuteur(10);
+        $this->assertEquals(10, $obj->getNumInterlocuteur());
+    }
 
-	/**
-	 * Tests the setRetourNeg() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRetourNeg() {
+    /**
+     * Tests the setRetourNeg() method.
+     *
+     * @return void
+     */
+    public function testSetRetourNeg() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setRetourNeg(true);
-		$this->assertEquals(true, $obj->getRetourNeg());
-	}
+        $obj->setRetourNeg(true);
+        $this->assertEquals(true, $obj->getRetourNeg());
+    }
 
-	/**
-	 * Tests the setTypeInvitation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeInvitation() {
+    /**
+     * Tests the setTypeInvitation() method.
+     *
+     * @return void
+     */
+    public function testSetTypeInvitation() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setTypeInvitation(10);
-		$this->assertEquals(10, $obj->getTypeInvitation());
-	}
+        $obj->setTypeInvitation(10);
+        $this->assertEquals(10, $obj->getTypeInvitation());
+    }
 
-	/**
-	 * Tests the setTypeInvite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeInvite() {
+    /**
+     * Tests the setTypeInvite() method.
+     *
+     * @return void
+     */
+    public function testSetTypeInvite() {
 
-		$obj = new ActionsCo_Invites();
+        $obj = new ActionsCo_Invites();
 
-		$obj->setTypeInvite("typeInvite");
-		$this->assertEquals("typeInvite", $obj->getTypeInvite());
-	}
+        $obj->setTypeInvite("typeInvite");
+        $this->assertEquals("typeInvite", $obj->getTypeInvite());
+    }
 
 }

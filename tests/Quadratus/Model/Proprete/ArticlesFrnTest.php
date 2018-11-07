@@ -22,141 +22,141 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ArticlesFrnTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$this->assertNull($obj->getCodeArticle());
-		$this->assertNull($obj->getCodeFournisseur());
-		$this->assertNull($obj->getCommentaires());
-		$this->assertNull($obj->getConditionnement());
-		$this->assertNull($obj->getDelaiLe());
-		$this->assertNull($obj->getDelaiLocal());
-		$this->assertNull($obj->getDelaiNombre());
-		$this->assertNull($obj->getDelaiType());
-		$this->assertNull($obj->getRefArticleFournisseur());
-	}
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeFournisseur());
+        $this->assertNull($obj->getCommentaires());
+        $this->assertNull($obj->getConditionnement());
+        $this->assertNull($obj->getDelaiLe());
+        $this->assertNull($obj->getDelaiLocal());
+        $this->assertNull($obj->getDelaiNombre());
+        $this->assertNull($obj->getDelaiType());
+        $this->assertNull($obj->getRefArticleFournisseur());
+    }
 
-	/**
-	 * Tests the setCodeArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeArticle() {
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setCodeArticle("codeArticle");
-		$this->assertEquals("codeArticle", $obj->getCodeArticle());
-	}
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
 
-	/**
-	 * Tests the setCodeFournisseur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeFournisseur() {
+    /**
+     * Tests the setCodeFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeFournisseur() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setCodeFournisseur("codeFournisseur");
-		$this->assertEquals("codeFournisseur", $obj->getCodeFournisseur());
-	}
+        $obj->setCodeFournisseur("codeFournisseur");
+        $this->assertEquals("codeFournisseur", $obj->getCodeFournisseur());
+    }
 
-	/**
-	 * Tests the setCommentaires() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCommentaires() {
+    /**
+     * Tests the setCommentaires() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaires() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setCommentaires("commentaires");
-		$this->assertEquals("commentaires", $obj->getCommentaires());
-	}
+        $obj->setCommentaires("commentaires");
+        $this->assertEquals("commentaires", $obj->getCommentaires());
+    }
 
-	/**
-	 * Tests the setConditionnement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetConditionnement() {
+    /**
+     * Tests the setConditionnement() method.
+     *
+     * @return void
+     */
+    public function testSetConditionnement() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setConditionnement("conditionnement");
-		$this->assertEquals("conditionnement", $obj->getConditionnement());
-	}
+        $obj->setConditionnement("conditionnement");
+        $this->assertEquals("conditionnement", $obj->getConditionnement());
+    }
 
-	/**
-	 * Tests the setDelaiLe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDelaiLe() {
+    /**
+     * Tests the setDelaiLe() method.
+     *
+     * @return void
+     */
+    public function testSetDelaiLe() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setDelaiLe(10);
-		$this->assertEquals(10, $obj->getDelaiLe());
-	}
+        $obj->setDelaiLe(10);
+        $this->assertEquals(10, $obj->getDelaiLe());
+    }
 
-	/**
-	 * Tests the setDelaiLocal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDelaiLocal() {
+    /**
+     * Tests the setDelaiLocal() method.
+     *
+     * @return void
+     */
+    public function testSetDelaiLocal() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setDelaiLocal(true);
-		$this->assertEquals(true, $obj->getDelaiLocal());
-	}
+        $obj->setDelaiLocal(true);
+        $this->assertEquals(true, $obj->getDelaiLocal());
+    }
 
-	/**
-	 * Tests the setDelaiNombre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDelaiNombre() {
+    /**
+     * Tests the setDelaiNombre() method.
+     *
+     * @return void
+     */
+    public function testSetDelaiNombre() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setDelaiNombre(10);
-		$this->assertEquals(10, $obj->getDelaiNombre());
-	}
+        $obj->setDelaiNombre(10);
+        $this->assertEquals(10, $obj->getDelaiNombre());
+    }
 
-	/**
-	 * Tests the setDelaiType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDelaiType() {
+    /**
+     * Tests the setDelaiType() method.
+     *
+     * @return void
+     */
+    public function testSetDelaiType() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setDelaiType(10);
-		$this->assertEquals(10, $obj->getDelaiType());
-	}
+        $obj->setDelaiType(10);
+        $this->assertEquals(10, $obj->getDelaiType());
+    }
 
-	/**
-	 * Tests the setRefArticleFournisseur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRefArticleFournisseur() {
+    /**
+     * Tests the setRefArticleFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetRefArticleFournisseur() {
 
-		$obj = new ArticlesFrn();
+        $obj = new ArticlesFrn();
 
-		$obj->setRefArticleFournisseur("refArticleFournisseur");
-		$this->assertEquals("refArticleFournisseur", $obj->getRefArticleFournisseur());
-	}
+        $obj->setRefArticleFournisseur("refArticleFournisseur");
+        $this->assertEquals("refArticleFournisseur", $obj->getRefArticleFournisseur());
+    }
 
 }

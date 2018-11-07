@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PointageSynchroSupprimeTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new PointageSynchroSupprime();
+        $obj = new PointageSynchroSupprime();
 
-		$this->assertNull($obj->getCleEnreg());
-		$this->assertNull($obj->getCreeParGenPrev());
-		$this->assertNull($obj->getNomTable());
-		$this->assertNull($obj->getTimeSuppression());
-		$this->assertNull($obj->getUniqIDSynchro());
-	}
+        $this->assertNull($obj->getCleEnreg());
+        $this->assertNull($obj->getCreeParGenPrev());
+        $this->assertNull($obj->getNomTable());
+        $this->assertNull($obj->getTimeSuppression());
+        $this->assertNull($obj->getUniqIDSynchro());
+    }
 
-	/**
-	 * Tests the setCleEnreg() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCleEnreg() {
+    /**
+     * Tests the setCleEnreg() method.
+     *
+     * @return void
+     */
+    public function testSetCleEnreg() {
 
-		$obj = new PointageSynchroSupprime();
+        $obj = new PointageSynchroSupprime();
 
-		$obj->setCleEnreg("cleEnreg");
-		$this->assertEquals("cleEnreg", $obj->getCleEnreg());
-	}
+        $obj->setCleEnreg("cleEnreg");
+        $this->assertEquals("cleEnreg", $obj->getCleEnreg());
+    }
 
-	/**
-	 * Tests the setCreeParGenPrev() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCreeParGenPrev() {
+    /**
+     * Tests the setCreeParGenPrev() method.
+     *
+     * @return void
+     */
+    public function testSetCreeParGenPrev() {
 
-		$obj = new PointageSynchroSupprime();
+        $obj = new PointageSynchroSupprime();
 
-		$obj->setCreeParGenPrev(true);
-		$this->assertEquals(true, $obj->getCreeParGenPrev());
-	}
+        $obj->setCreeParGenPrev(true);
+        $this->assertEquals(true, $obj->getCreeParGenPrev());
+    }
 
-	/**
-	 * Tests the setNomTable() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomTable() {
+    /**
+     * Tests the setNomTable() method.
+     *
+     * @return void
+     */
+    public function testSetNomTable() {
 
-		$obj = new PointageSynchroSupprime();
+        $obj = new PointageSynchroSupprime();
 
-		$obj->setNomTable("nomTable");
-		$this->assertEquals("nomTable", $obj->getNomTable());
-	}
+        $obj->setNomTable("nomTable");
+        $this->assertEquals("nomTable", $obj->getNomTable());
+    }
 
-	/**
-	 * Tests the setTimeSuppression() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTimeSuppression() {
+    /**
+     * Tests the setTimeSuppression() method.
+     *
+     * @return void
+     */
+    public function testSetTimeSuppression() {
 
-		$obj = new PointageSynchroSupprime();
+        $obj = new PointageSynchroSupprime();
 
-		$obj->setTimeSuppression(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getTimeSuppression());
-	}
+        $obj->setTimeSuppression(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getTimeSuppression());
+    }
 
-	/**
-	 * Tests the setUniqIDSynchro() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqIDSynchro() {
+    /**
+     * Tests the setUniqIDSynchro() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIDSynchro() {
 
-		$obj = new PointageSynchroSupprime();
+        $obj = new PointageSynchroSupprime();
 
-		$obj->setUniqIDSynchro("uniqIDSynchro");
-		$this->assertEquals("uniqIDSynchro", $obj->getUniqIDSynchro());
-	}
+        $obj->setUniqIDSynchro("uniqIDSynchro");
+        $this->assertEquals("uniqIDSynchro", $obj->getUniqIDSynchro());
+    }
 
 }

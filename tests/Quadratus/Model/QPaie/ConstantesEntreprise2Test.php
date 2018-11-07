@@ -23,155 +23,155 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ConstantesEntreprise2Test extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$this->assertNull($obj->getDateApplicationFSLisse());
-		$this->assertNull($obj->getDateApplicationForfaitSocial8());
-		$this->assertNull($obj->getGereEVTFinContratLot());
-		$this->assertNull($obj->getGerePrevNormeDSN());
-		$this->assertNull($obj->getGestionDSN());
-		$this->assertNull($obj->getNEvenementDSN());
-		$this->assertNull($obj->getNePasActiverPrimeAnnuelleProprete());
-		$this->assertNull($obj->getRegimeMixteMSA());
-		$this->assertNull($obj->getTauxPrimeAnnuellePropreteMoins20Ans());
-		$this->assertNull($obj->getTauxPrimeAnnuellePropretePlus20Ans());
-	}
+        $this->assertNull($obj->getDateApplicationFSLisse());
+        $this->assertNull($obj->getDateApplicationForfaitSocial8());
+        $this->assertNull($obj->getGereEVTFinContratLot());
+        $this->assertNull($obj->getGerePrevNormeDSN());
+        $this->assertNull($obj->getGestionDSN());
+        $this->assertNull($obj->getNEvenementDSN());
+        $this->assertNull($obj->getNePasActiverPrimeAnnuelleProprete());
+        $this->assertNull($obj->getRegimeMixteMSA());
+        $this->assertNull($obj->getTauxPrimeAnnuellePropreteMoins20Ans());
+        $this->assertNull($obj->getTauxPrimeAnnuellePropretePlus20Ans());
+    }
 
-	/**
-	 * Tests the setDateApplicationFSLisse() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateApplicationFSLisse() {
+    /**
+     * Tests the setDateApplicationFSLisse() method.
+     *
+     * @return void
+     */
+    public function testSetDateApplicationFSLisse() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setDateApplicationFSLisse(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplicationFSLisse());
-	}
+        $obj->setDateApplicationFSLisse(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplicationFSLisse());
+    }
 
-	/**
-	 * Tests the setDateApplicationForfaitSocial8() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateApplicationForfaitSocial8() {
+    /**
+     * Tests the setDateApplicationForfaitSocial8() method.
+     *
+     * @return void
+     */
+    public function testSetDateApplicationForfaitSocial8() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setDateApplicationForfaitSocial8(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplicationForfaitSocial8());
-	}
+        $obj->setDateApplicationForfaitSocial8(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplicationForfaitSocial8());
+    }
 
-	/**
-	 * Tests the setGereEVTFinContratLot() method.
-	 *
-	 * @return void
-	 */
-	public function testSetGereEVTFinContratLot() {
+    /**
+     * Tests the setGereEVTFinContratLot() method.
+     *
+     * @return void
+     */
+    public function testSetGereEVTFinContratLot() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setGereEVTFinContratLot(true);
-		$this->assertEquals(true, $obj->getGereEVTFinContratLot());
-	}
+        $obj->setGereEVTFinContratLot(true);
+        $this->assertEquals(true, $obj->getGereEVTFinContratLot());
+    }
 
-	/**
-	 * Tests the setGerePrevNormeDSN() method.
-	 *
-	 * @return void
-	 */
-	public function testSetGerePrevNormeDSN() {
+    /**
+     * Tests the setGerePrevNormeDSN() method.
+     *
+     * @return void
+     */
+    public function testSetGerePrevNormeDSN() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setGerePrevNormeDSN(true);
-		$this->assertEquals(true, $obj->getGerePrevNormeDSN());
-	}
+        $obj->setGerePrevNormeDSN(true);
+        $this->assertEquals(true, $obj->getGerePrevNormeDSN());
+    }
 
-	/**
-	 * Tests the setGestionDSN() method.
-	 *
-	 * @return void
-	 */
-	public function testSetGestionDSN() {
+    /**
+     * Tests the setGestionDSN() method.
+     *
+     * @return void
+     */
+    public function testSetGestionDSN() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setGestionDSN(true);
-		$this->assertEquals(true, $obj->getGestionDSN());
-	}
+        $obj->setGestionDSN(true);
+        $this->assertEquals(true, $obj->getGestionDSN());
+    }
 
-	/**
-	 * Tests the setNEvenementDSN() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNEvenementDSN() {
+    /**
+     * Tests the setNEvenementDSN() method.
+     *
+     * @return void
+     */
+    public function testSetNEvenementDSN() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setNEvenementDSN(10);
-		$this->assertEquals(10, $obj->getNEvenementDSN());
-	}
+        $obj->setNEvenementDSN(10);
+        $this->assertEquals(10, $obj->getNEvenementDSN());
+    }
 
-	/**
-	 * Tests the setNePasActiverPrimeAnnuelleProprete() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNePasActiverPrimeAnnuelleProprete() {
+    /**
+     * Tests the setNePasActiverPrimeAnnuelleProprete() method.
+     *
+     * @return void
+     */
+    public function testSetNePasActiverPrimeAnnuelleProprete() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setNePasActiverPrimeAnnuelleProprete(true);
-		$this->assertEquals(true, $obj->getNePasActiverPrimeAnnuelleProprete());
-	}
+        $obj->setNePasActiverPrimeAnnuelleProprete(true);
+        $this->assertEquals(true, $obj->getNePasActiverPrimeAnnuelleProprete());
+    }
 
-	/**
-	 * Tests the setRegimeMixteMSA() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRegimeMixteMSA() {
+    /**
+     * Tests the setRegimeMixteMSA() method.
+     *
+     * @return void
+     */
+    public function testSetRegimeMixteMSA() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setRegimeMixteMSA(true);
-		$this->assertEquals(true, $obj->getRegimeMixteMSA());
-	}
+        $obj->setRegimeMixteMSA(true);
+        $this->assertEquals(true, $obj->getRegimeMixteMSA());
+    }
 
-	/**
-	 * Tests the setTauxPrimeAnnuellePropreteMoins20Ans() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxPrimeAnnuellePropreteMoins20Ans() {
+    /**
+     * Tests the setTauxPrimeAnnuellePropreteMoins20Ans() method.
+     *
+     * @return void
+     */
+    public function testSetTauxPrimeAnnuellePropreteMoins20Ans() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setTauxPrimeAnnuellePropreteMoins20Ans(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxPrimeAnnuellePropreteMoins20Ans());
-	}
+        $obj->setTauxPrimeAnnuellePropreteMoins20Ans(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxPrimeAnnuellePropreteMoins20Ans());
+    }
 
-	/**
-	 * Tests the setTauxPrimeAnnuellePropretePlus20Ans() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxPrimeAnnuellePropretePlus20Ans() {
+    /**
+     * Tests the setTauxPrimeAnnuellePropretePlus20Ans() method.
+     *
+     * @return void
+     */
+    public function testSetTauxPrimeAnnuellePropretePlus20Ans() {
 
-		$obj = new ConstantesEntreprise2();
+        $obj = new ConstantesEntreprise2();
 
-		$obj->setTauxPrimeAnnuellePropretePlus20Ans(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxPrimeAnnuellePropretePlus20Ans());
-	}
+        $obj->setTauxPrimeAnnuellePropretePlus20Ans(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxPrimeAnnuellePropretePlus20Ans());
+    }
 
 }

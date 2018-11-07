@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AvenantsPreparesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AvenantsPrepares();
+        $obj = new AvenantsPrepares();
 
-		$this->assertNull($obj->getChrono());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getContinuerVerif());
-		$this->assertNull($obj->getNom());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getPrenom());
-		$this->assertNull($obj->getTypeDocument());
-	}
+        $this->assertNull($obj->getChrono());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getContinuerVerif());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPrenom());
+        $this->assertNull($obj->getTypeDocument());
+    }
 
-	/**
-	 * Tests the setChrono() method.
-	 *
-	 * @return void
-	 */
-	public function testSetChrono() {
+    /**
+     * Tests the setChrono() method.
+     *
+     * @return void
+     */
+    public function testSetChrono() {
 
-		$obj = new AvenantsPrepares();
+        $obj = new AvenantsPrepares();
 
-		$obj->setChrono("chrono");
-		$this->assertEquals("chrono", $obj->getChrono());
-	}
+        $obj->setChrono("chrono");
+        $this->assertEquals("chrono", $obj->getChrono());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new AvenantsPrepares();
+        $obj = new AvenantsPrepares();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setContinuerVerif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetContinuerVerif() {
+    /**
+     * Tests the setContinuerVerif() method.
+     *
+     * @return void
+     */
+    public function testSetContinuerVerif() {
 
-		$obj = new AvenantsPrepares();
+        $obj = new AvenantsPrepares();
 
-		$obj->setContinuerVerif(true);
-		$this->assertEquals(true, $obj->getContinuerVerif());
-	}
+        $obj->setContinuerVerif(true);
+        $this->assertEquals(true, $obj->getContinuerVerif());
+    }
 
-	/**
-	 * Tests the setNom() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNom() {
+    /**
+     * Tests the setNom() method.
+     *
+     * @return void
+     */
+    public function testSetNom() {
 
-		$obj = new AvenantsPrepares();
+        $obj = new AvenantsPrepares();
 
-		$obj->setNom("nom");
-		$this->assertEquals("nom", $obj->getNom());
-	}
+        $obj->setNom("nom");
+        $this->assertEquals("nom", $obj->getNom());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new AvenantsPrepares();
+        $obj = new AvenantsPrepares();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setPrenom() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPrenom() {
+    /**
+     * Tests the setPrenom() method.
+     *
+     * @return void
+     */
+    public function testSetPrenom() {
 
-		$obj = new AvenantsPrepares();
+        $obj = new AvenantsPrepares();
 
-		$obj->setPrenom("prenom");
-		$this->assertEquals("prenom", $obj->getPrenom());
-	}
+        $obj->setPrenom("prenom");
+        $this->assertEquals("prenom", $obj->getPrenom());
+    }
 
-	/**
-	 * Tests the setTypeDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeDocument() {
+    /**
+     * Tests the setTypeDocument() method.
+     *
+     * @return void
+     */
+    public function testSetTypeDocument() {
 
-		$obj = new AvenantsPrepares();
+        $obj = new AvenantsPrepares();
 
-		$obj->setTypeDocument("typeDocument");
-		$this->assertEquals("typeDocument", $obj->getTypeDocument());
-	}
+        $obj->setTypeDocument("typeDocument");
+        $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
 
 }

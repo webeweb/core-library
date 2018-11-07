@@ -23,127 +23,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HistoPaiePrimesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodePrime());
-		$this->assertNull($obj->getNombrePrime());
-		$this->assertNull($obj->getNumeroPrime());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getPeriodeRappel());
-		$this->assertNull($obj->getTauxPrime());
-		$this->assertNull($obj->getTypePrime());
-	}
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodePrime());
+        $this->assertNull($obj->getNombrePrime());
+        $this->assertNull($obj->getNumeroPrime());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPeriodeRappel());
+        $this->assertNull($obj->getTauxPrime());
+        $this->assertNull($obj->getTypePrime());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodePrime() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePrime() {
+    /**
+     * Tests the setCodePrime() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrime() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$obj->setCodePrime("codePrime");
-		$this->assertEquals("codePrime", $obj->getCodePrime());
-	}
+        $obj->setCodePrime("codePrime");
+        $this->assertEquals("codePrime", $obj->getCodePrime());
+    }
 
-	/**
-	 * Tests the setNombrePrime() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNombrePrime() {
+    /**
+     * Tests the setNombrePrime() method.
+     *
+     * @return void
+     */
+    public function testSetNombrePrime() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$obj->setNombrePrime(10.092018);
-		$this->assertEquals(10.092018, $obj->getNombrePrime());
-	}
+        $obj->setNombrePrime(10.092018);
+        $this->assertEquals(10.092018, $obj->getNombrePrime());
+    }
 
-	/**
-	 * Tests the setNumeroPrime() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroPrime() {
+    /**
+     * Tests the setNumeroPrime() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroPrime() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$obj->setNumeroPrime(10);
-		$this->assertEquals(10, $obj->getNumeroPrime());
-	}
+        $obj->setNumeroPrime(10);
+        $this->assertEquals(10, $obj->getNumeroPrime());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setPeriodeRappel() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeRappel() {
+    /**
+     * Tests the setPeriodeRappel() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeRappel() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$obj->setPeriodeRappel(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeRappel());
-	}
+        $obj->setPeriodeRappel(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeRappel());
+    }
 
-	/**
-	 * Tests the setTauxPrime() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxPrime() {
+    /**
+     * Tests the setTauxPrime() method.
+     *
+     * @return void
+     */
+    public function testSetTauxPrime() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$obj->setTauxPrime(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxPrime());
-	}
+        $obj->setTauxPrime(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxPrime());
+    }
 
-	/**
-	 * Tests the setTypePrime() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypePrime() {
+    /**
+     * Tests the setTypePrime() method.
+     *
+     * @return void
+     */
+    public function testSetTypePrime() {
 
-		$obj = new HistoPaiePrimes();
+        $obj = new HistoPaiePrimes();
 
-		$obj->setTypePrime("typePrime");
-		$this->assertEquals("typePrime", $obj->getTypePrime());
-	}
+        $obj->setTypePrime("typePrime");
+        $this->assertEquals("typePrime", $obj->getTypePrime());
+    }
 
 }

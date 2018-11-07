@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ContenuTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Contenu();
+        $obj = new Contenu();
 
-		$this->assertNull($obj->getPosition());
-		$this->assertNull($obj->getTexteContenu());
-	}
+        $this->assertNull($obj->getPosition());
+        $this->assertNull($obj->getTexteContenu());
+    }
 
-	/**
-	 * Tests the setPosition() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPosition() {
+    /**
+     * Tests the setPosition() method.
+     *
+     * @return void
+     */
+    public function testSetPosition() {
 
-		$obj = new Contenu();
+        $obj = new Contenu();
 
-		$obj->setPosition(10);
-		$this->assertEquals(10, $obj->getPosition());
-	}
+        $obj->setPosition(10);
+        $this->assertEquals(10, $obj->getPosition());
+    }
 
-	/**
-	 * Tests the setTexteContenu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTexteContenu() {
+    /**
+     * Tests the setTexteContenu() method.
+     *
+     * @return void
+     */
+    public function testSetTexteContenu() {
 
-		$obj = new Contenu();
+        $obj = new Contenu();
 
-		$obj->setTexteContenu("texteContenu");
-		$this->assertEquals("texteContenu", $obj->getTexteContenu());
-	}
+        $obj->setTexteContenu("texteContenu");
+        $this->assertEquals("texteContenu", $obj->getTexteContenu());
+    }
 
 }

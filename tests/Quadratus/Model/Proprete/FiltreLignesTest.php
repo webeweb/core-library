@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class FiltreLignesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new FiltreLignes();
+        $obj = new FiltreLignes();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getUniqID());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getUniqID());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new FiltreLignes();
+        $obj = new FiltreLignes();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqID() {
+    /**
+     * Tests the setUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetUniqID() {
 
-		$obj = new FiltreLignes();
+        $obj = new FiltreLignes();
 
-		$obj->setUniqID("uniqID");
-		$this->assertEquals("uniqID", $obj->getUniqID());
-	}
+        $obj->setUniqID("uniqID");
+        $this->assertEquals("uniqID", $obj->getUniqID());
+    }
 
 }

@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DADSUAnnuelleTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DADSUAnnuelle();
+        $obj = new DADSUAnnuelle();
 
-		$this->assertNull($obj->getNomFichierDADSU());
-		$this->assertNull($obj->getTdsAnnee());
-	}
+        $this->assertNull($obj->getNomFichierDADSU());
+        $this->assertNull($obj->getTdsAnnee());
+    }
 
-	/**
-	 * Tests the setNomFichierDADSU() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomFichierDADSU() {
+    /**
+     * Tests the setNomFichierDADSU() method.
+     *
+     * @return void
+     */
+    public function testSetNomFichierDADSU() {
 
-		$obj = new DADSUAnnuelle();
+        $obj = new DADSUAnnuelle();
 
-		$obj->setNomFichierDADSU("nomFichierDADSU");
-		$this->assertEquals("nomFichierDADSU", $obj->getNomFichierDADSU());
-	}
+        $obj->setNomFichierDADSU("nomFichierDADSU");
+        $this->assertEquals("nomFichierDADSU", $obj->getNomFichierDADSU());
+    }
 
-	/**
-	 * Tests the setTdsAnnee() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTdsAnnee() {
+    /**
+     * Tests the setTdsAnnee() method.
+     *
+     * @return void
+     */
+    public function testSetTdsAnnee() {
 
-		$obj = new DADSUAnnuelle();
+        $obj = new DADSUAnnuelle();
 
-		$obj->setTdsAnnee(10);
-		$this->assertEquals(10, $obj->getTdsAnnee());
-	}
+        $obj->setTdsAnnee(10);
+        $this->assertEquals(10, $obj->getTdsAnnee());
+    }
 
 }

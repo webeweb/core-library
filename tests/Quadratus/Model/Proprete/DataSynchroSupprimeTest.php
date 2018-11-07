@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DataSynchroSupprimeTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DataSynchroSupprime();
+        $obj = new DataSynchroSupprime();
 
-		$this->assertNull($obj->getTypeData());
-		$this->assertNull($obj->getUniqIDBlocage());
-	}
+        $this->assertNull($obj->getTypeData());
+        $this->assertNull($obj->getUniqIDBlocage());
+    }
 
-	/**
-	 * Tests the setTypeData() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeData() {
+    /**
+     * Tests the setTypeData() method.
+     *
+     * @return void
+     */
+    public function testSetTypeData() {
 
-		$obj = new DataSynchroSupprime();
+        $obj = new DataSynchroSupprime();
 
-		$obj->setTypeData("typeData");
-		$this->assertEquals("typeData", $obj->getTypeData());
-	}
+        $obj->setTypeData("typeData");
+        $this->assertEquals("typeData", $obj->getTypeData());
+    }
 
-	/**
-	 * Tests the setUniqIDBlocage() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqIDBlocage() {
+    /**
+     * Tests the setUniqIDBlocage() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIDBlocage() {
 
-		$obj = new DataSynchroSupprime();
+        $obj = new DataSynchroSupprime();
 
-		$obj->setUniqIDBlocage("uniqIDBlocage");
-		$this->assertEquals("uniqIDBlocage", $obj->getUniqIDBlocage());
-	}
+        $obj->setUniqIDBlocage("uniqIDBlocage");
+        $this->assertEquals("uniqIDBlocage", $obj->getUniqIDBlocage());
+    }
 
 }

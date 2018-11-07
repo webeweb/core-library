@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class FichesControlesSupprimeesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new FichesControlesSupprimees();
+        $obj = new FichesControlesSupprimees();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getDateTransfert());
-		$this->assertNull($obj->getNumeroFiche());
-		$this->assertNull($obj->getUniqIDBlocage());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getDateTransfert());
+        $this->assertNull($obj->getNumeroFiche());
+        $this->assertNull($obj->getUniqIDBlocage());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new FichesControlesSupprimees();
+        $obj = new FichesControlesSupprimees();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new FichesControlesSupprimees();
+        $obj = new FichesControlesSupprimees();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new FichesControlesSupprimees();
+        $obj = new FichesControlesSupprimees();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new FichesControlesSupprimees();
+        $obj = new FichesControlesSupprimees();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setDateTransfert() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateTransfert() {
+    /**
+     * Tests the setDateTransfert() method.
+     *
+     * @return void
+     */
+    public function testSetDateTransfert() {
 
-		$obj = new FichesControlesSupprimees();
+        $obj = new FichesControlesSupprimees();
 
-		$obj->setDateTransfert(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateTransfert());
-	}
+        $obj->setDateTransfert(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateTransfert());
+    }
 
-	/**
-	 * Tests the setNumeroFiche() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroFiche() {
+    /**
+     * Tests the setNumeroFiche() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroFiche() {
 
-		$obj = new FichesControlesSupprimees();
+        $obj = new FichesControlesSupprimees();
 
-		$obj->setNumeroFiche(10);
-		$this->assertEquals(10, $obj->getNumeroFiche());
-	}
+        $obj->setNumeroFiche(10);
+        $this->assertEquals(10, $obj->getNumeroFiche());
+    }
 
-	/**
-	 * Tests the setUniqIDBlocage() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqIDBlocage() {
+    /**
+     * Tests the setUniqIDBlocage() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIDBlocage() {
 
-		$obj = new FichesControlesSupprimees();
+        $obj = new FichesControlesSupprimees();
 
-		$obj->setUniqIDBlocage("uniqIDBlocage");
-		$this->assertEquals("uniqIDBlocage", $obj->getUniqIDBlocage());
-	}
+        $obj->setUniqIDBlocage("uniqIDBlocage");
+        $this->assertEquals("uniqIDBlocage", $obj->getUniqIDBlocage());
+    }
 
 }

@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AgendaGroupesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AgendaGroupes();
+        $obj = new AgendaGroupes();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getCodeColl());
-		$this->assertNull($obj->getLibelle());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeColl());
+        $this->assertNull($obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new AgendaGroupes();
+        $obj = new AgendaGroupes();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setCodeColl() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeColl() {
+    /**
+     * Tests the setCodeColl() method.
+     *
+     * @return void
+     */
+    public function testSetCodeColl() {
 
-		$obj = new AgendaGroupes();
+        $obj = new AgendaGroupes();
 
-		$obj->setCodeColl("codeColl");
-		$this->assertEquals("codeColl", $obj->getCodeColl());
-	}
+        $obj->setCodeColl("codeColl");
+        $this->assertEquals("codeColl", $obj->getCodeColl());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new AgendaGroupes();
+        $obj = new AgendaGroupes();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
 }

@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class iSitesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new iSites();
+        $obj = new iSites();
 
-		$this->assertNull($obj->getAdresseIP());
-		$this->assertNull($obj->getNomSite());
-	}
+        $this->assertNull($obj->getAdresseIP());
+        $this->assertNull($obj->getNomSite());
+    }
 
-	/**
-	 * Tests the setAdresseIP() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAdresseIP() {
+    /**
+     * Tests the setAdresseIP() method.
+     *
+     * @return void
+     */
+    public function testSetAdresseIP() {
 
-		$obj = new iSites();
+        $obj = new iSites();
 
-		$obj->setAdresseIP("adresseIP");
-		$this->assertEquals("adresseIP", $obj->getAdresseIP());
-	}
+        $obj->setAdresseIP("adresseIP");
+        $this->assertEquals("adresseIP", $obj->getAdresseIP());
+    }
 
-	/**
-	 * Tests the setNomSite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomSite() {
+    /**
+     * Tests the setNomSite() method.
+     *
+     * @return void
+     */
+    public function testSetNomSite() {
 
-		$obj = new iSites();
+        $obj = new iSites();
 
-		$obj->setNomSite("nomSite");
-		$this->assertEquals("nomSite", $obj->getNomSite());
-	}
+        $obj->setNomSite("nomSite");
+        $this->assertEquals("nomSite", $obj->getNomSite());
+    }
 
 }

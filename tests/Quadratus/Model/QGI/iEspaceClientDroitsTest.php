@@ -22,183 +22,183 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class iEspaceClientDroitsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$this->assertNull($obj->getCodeCollabMessages());
-		$this->assertNull($obj->getCodeUser());
-		$this->assertNull($obj->getDossierClient());
-		$this->assertNull($obj->getFctDocuments());
-		$this->assertNull($obj->getFctDocumentsAutre());
-		$this->assertNull($obj->getFctDocumentsCompta());
-		$this->assertNull($obj->getFctDocumentsJuridique());
-		$this->assertNull($obj->getFctDocumentsPaie());
-		$this->assertNull($obj->getFctInfos());
-		$this->assertNull($obj->getFctMessagerie());
-		$this->assertNull($obj->getNomUser());
-		$this->assertNull($obj->getPassword());
-	}
+        $this->assertNull($obj->getCodeCollabMessages());
+        $this->assertNull($obj->getCodeUser());
+        $this->assertNull($obj->getDossierClient());
+        $this->assertNull($obj->getFctDocuments());
+        $this->assertNull($obj->getFctDocumentsAutre());
+        $this->assertNull($obj->getFctDocumentsCompta());
+        $this->assertNull($obj->getFctDocumentsJuridique());
+        $this->assertNull($obj->getFctDocumentsPaie());
+        $this->assertNull($obj->getFctInfos());
+        $this->assertNull($obj->getFctMessagerie());
+        $this->assertNull($obj->getNomUser());
+        $this->assertNull($obj->getPassword());
+    }
 
-	/**
-	 * Tests the setCodeCollabMessages() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollabMessages() {
+    /**
+     * Tests the setCodeCollabMessages() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollabMessages() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setCodeCollabMessages("codeCollabMessages");
-		$this->assertEquals("codeCollabMessages", $obj->getCodeCollabMessages());
-	}
+        $obj->setCodeCollabMessages("codeCollabMessages");
+        $this->assertEquals("codeCollabMessages", $obj->getCodeCollabMessages());
+    }
 
-	/**
-	 * Tests the setCodeUser() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeUser() {
+    /**
+     * Tests the setCodeUser() method.
+     *
+     * @return void
+     */
+    public function testSetCodeUser() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setCodeUser("codeUser");
-		$this->assertEquals("codeUser", $obj->getCodeUser());
-	}
+        $obj->setCodeUser("codeUser");
+        $this->assertEquals("codeUser", $obj->getCodeUser());
+    }
 
-	/**
-	 * Tests the setDossierClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDossierClient() {
+    /**
+     * Tests the setDossierClient() method.
+     *
+     * @return void
+     */
+    public function testSetDossierClient() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setDossierClient("dossierClient");
-		$this->assertEquals("dossierClient", $obj->getDossierClient());
-	}
+        $obj->setDossierClient("dossierClient");
+        $this->assertEquals("dossierClient", $obj->getDossierClient());
+    }
 
-	/**
-	 * Tests the setFctDocuments() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFctDocuments() {
+    /**
+     * Tests the setFctDocuments() method.
+     *
+     * @return void
+     */
+    public function testSetFctDocuments() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setFctDocuments(true);
-		$this->assertEquals(true, $obj->getFctDocuments());
-	}
+        $obj->setFctDocuments(true);
+        $this->assertEquals(true, $obj->getFctDocuments());
+    }
 
-	/**
-	 * Tests the setFctDocumentsAutre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFctDocumentsAutre() {
+    /**
+     * Tests the setFctDocumentsAutre() method.
+     *
+     * @return void
+     */
+    public function testSetFctDocumentsAutre() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setFctDocumentsAutre(10);
-		$this->assertEquals(10, $obj->getFctDocumentsAutre());
-	}
+        $obj->setFctDocumentsAutre(10);
+        $this->assertEquals(10, $obj->getFctDocumentsAutre());
+    }
 
-	/**
-	 * Tests the setFctDocumentsCompta() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFctDocumentsCompta() {
+    /**
+     * Tests the setFctDocumentsCompta() method.
+     *
+     * @return void
+     */
+    public function testSetFctDocumentsCompta() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setFctDocumentsCompta(10);
-		$this->assertEquals(10, $obj->getFctDocumentsCompta());
-	}
+        $obj->setFctDocumentsCompta(10);
+        $this->assertEquals(10, $obj->getFctDocumentsCompta());
+    }
 
-	/**
-	 * Tests the setFctDocumentsJuridique() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFctDocumentsJuridique() {
+    /**
+     * Tests the setFctDocumentsJuridique() method.
+     *
+     * @return void
+     */
+    public function testSetFctDocumentsJuridique() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setFctDocumentsJuridique(10);
-		$this->assertEquals(10, $obj->getFctDocumentsJuridique());
-	}
+        $obj->setFctDocumentsJuridique(10);
+        $this->assertEquals(10, $obj->getFctDocumentsJuridique());
+    }
 
-	/**
-	 * Tests the setFctDocumentsPaie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFctDocumentsPaie() {
+    /**
+     * Tests the setFctDocumentsPaie() method.
+     *
+     * @return void
+     */
+    public function testSetFctDocumentsPaie() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setFctDocumentsPaie(10);
-		$this->assertEquals(10, $obj->getFctDocumentsPaie());
-	}
+        $obj->setFctDocumentsPaie(10);
+        $this->assertEquals(10, $obj->getFctDocumentsPaie());
+    }
 
-	/**
-	 * Tests the setFctInfos() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFctInfos() {
+    /**
+     * Tests the setFctInfos() method.
+     *
+     * @return void
+     */
+    public function testSetFctInfos() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setFctInfos(true);
-		$this->assertEquals(true, $obj->getFctInfos());
-	}
+        $obj->setFctInfos(true);
+        $this->assertEquals(true, $obj->getFctInfos());
+    }
 
-	/**
-	 * Tests the setFctMessagerie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFctMessagerie() {
+    /**
+     * Tests the setFctMessagerie() method.
+     *
+     * @return void
+     */
+    public function testSetFctMessagerie() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setFctMessagerie(10);
-		$this->assertEquals(10, $obj->getFctMessagerie());
-	}
+        $obj->setFctMessagerie(10);
+        $this->assertEquals(10, $obj->getFctMessagerie());
+    }
 
-	/**
-	 * Tests the setNomUser() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomUser() {
+    /**
+     * Tests the setNomUser() method.
+     *
+     * @return void
+     */
+    public function testSetNomUser() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setNomUser("nomUser");
-		$this->assertEquals("nomUser", $obj->getNomUser());
-	}
+        $obj->setNomUser("nomUser");
+        $this->assertEquals("nomUser", $obj->getNomUser());
+    }
 
-	/**
-	 * Tests the setPassword() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPassword() {
+    /**
+     * Tests the setPassword() method.
+     *
+     * @return void
+     */
+    public function testSetPassword() {
 
-		$obj = new iEspaceClientDroits();
+        $obj = new iEspaceClientDroits();
 
-		$obj->setPassword("password");
-		$this->assertEquals("password", $obj->getPassword());
-	}
+        $obj->setPassword("password");
+        $this->assertEquals("password", $obj->getPassword());
+    }
 
 }

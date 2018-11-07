@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RepartitionActiviteAnaBulTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RepartitionActiviteAnaBul();
+        $obj = new RepartitionActiviteAnaBul();
 
-		$this->assertNull($obj->getCentre());
-		$this->assertNull($obj->getIndicePeriode());
-		$this->assertNull($obj->getNature());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getTauxVentilation());
-	}
+        $this->assertNull($obj->getCentre());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTauxVentilation());
+    }
 
-	/**
-	 * Tests the setCentre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCentre() {
+    /**
+     * Tests the setCentre() method.
+     *
+     * @return void
+     */
+    public function testSetCentre() {
 
-		$obj = new RepartitionActiviteAnaBul();
+        $obj = new RepartitionActiviteAnaBul();
 
-		$obj->setCentre("centre");
-		$this->assertEquals("centre", $obj->getCentre());
-	}
+        $obj->setCentre("centre");
+        $this->assertEquals("centre", $obj->getCentre());
+    }
 
-	/**
-	 * Tests the setIndicePeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndicePeriode() {
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
 
-		$obj = new RepartitionActiviteAnaBul();
+        $obj = new RepartitionActiviteAnaBul();
 
-		$obj->setIndicePeriode(10);
-		$this->assertEquals(10, $obj->getIndicePeriode());
-	}
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
 
-	/**
-	 * Tests the setNature() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNature() {
+    /**
+     * Tests the setNature() method.
+     *
+     * @return void
+     */
+    public function testSetNature() {
 
-		$obj = new RepartitionActiviteAnaBul();
+        $obj = new RepartitionActiviteAnaBul();
 
-		$obj->setNature("nature");
-		$this->assertEquals("nature", $obj->getNature());
-	}
+        $obj->setNature("nature");
+        $this->assertEquals("nature", $obj->getNature());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new RepartitionActiviteAnaBul();
+        $obj = new RepartitionActiviteAnaBul();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new RepartitionActiviteAnaBul();
+        $obj = new RepartitionActiviteAnaBul();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setTauxVentilation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxVentilation() {
+    /**
+     * Tests the setTauxVentilation() method.
+     *
+     * @return void
+     */
+    public function testSetTauxVentilation() {
 
-		$obj = new RepartitionActiviteAnaBul();
+        $obj = new RepartitionActiviteAnaBul();
 
-		$obj->setTauxVentilation(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxVentilation());
-	}
+        $obj->setTauxVentilation(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxVentilation());
+    }
 
 }

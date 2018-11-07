@@ -23,155 +23,155 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class PiecesJointesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$this->assertNull($obj->getAPublierEspaceClient());
-		$this->assertNull($obj->getAPublierWeb());
-		$this->assertNull($obj->getArchive());
-		$this->assertNull($obj->getAuteur());
-		$this->assertNull($obj->getDateCreation());
-		$this->assertNull($obj->getIndice());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getNbDocAttache());
-		$this->assertNull($obj->getNomPiece());
-		$this->assertNull($obj->getNumPiece());
-	}
+        $this->assertNull($obj->getAPublierEspaceClient());
+        $this->assertNull($obj->getAPublierWeb());
+        $this->assertNull($obj->getArchive());
+        $this->assertNull($obj->getAuteur());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNbDocAttache());
+        $this->assertNull($obj->getNomPiece());
+        $this->assertNull($obj->getNumPiece());
+    }
 
-	/**
-	 * Tests the setAPublierEspaceClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAPublierEspaceClient() {
+    /**
+     * Tests the setAPublierEspaceClient() method.
+     *
+     * @return void
+     */
+    public function testSetAPublierEspaceClient() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setAPublierEspaceClient(true);
-		$this->assertEquals(true, $obj->getAPublierEspaceClient());
-	}
+        $obj->setAPublierEspaceClient(true);
+        $this->assertEquals(true, $obj->getAPublierEspaceClient());
+    }
 
-	/**
-	 * Tests the setAPublierWeb() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAPublierWeb() {
+    /**
+     * Tests the setAPublierWeb() method.
+     *
+     * @return void
+     */
+    public function testSetAPublierWeb() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setAPublierWeb(true);
-		$this->assertEquals(true, $obj->getAPublierWeb());
-	}
+        $obj->setAPublierWeb(true);
+        $this->assertEquals(true, $obj->getAPublierWeb());
+    }
 
-	/**
-	 * Tests the setArchive() method.
-	 *
-	 * @return void
-	 */
-	public function testSetArchive() {
+    /**
+     * Tests the setArchive() method.
+     *
+     * @return void
+     */
+    public function testSetArchive() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setArchive(true);
-		$this->assertEquals(true, $obj->getArchive());
-	}
+        $obj->setArchive(true);
+        $this->assertEquals(true, $obj->getArchive());
+    }
 
-	/**
-	 * Tests the setAuteur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAuteur() {
+    /**
+     * Tests the setAuteur() method.
+     *
+     * @return void
+     */
+    public function testSetAuteur() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setAuteur("auteur");
-		$this->assertEquals("auteur", $obj->getAuteur());
-	}
+        $obj->setAuteur("auteur");
+        $this->assertEquals("auteur", $obj->getAuteur());
+    }
 
-	/**
-	 * Tests the setDateCreation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateCreation() {
+    /**
+     * Tests the setDateCreation() method.
+     *
+     * @return void
+     */
+    public function testSetDateCreation() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setDateCreation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
-	}
+        $obj->setDateCreation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreation());
+    }
 
-	/**
-	 * Tests the setIndice() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndice() {
+    /**
+     * Tests the setIndice() method.
+     *
+     * @return void
+     */
+    public function testSetIndice() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setIndice(10);
-		$this->assertEquals(10, $obj->getIndice());
-	}
+        $obj->setIndice(10);
+        $this->assertEquals(10, $obj->getIndice());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setNbDocAttache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbDocAttache() {
+    /**
+     * Tests the setNbDocAttache() method.
+     *
+     * @return void
+     */
+    public function testSetNbDocAttache() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setNbDocAttache(10);
-		$this->assertEquals(10, $obj->getNbDocAttache());
-	}
+        $obj->setNbDocAttache(10);
+        $this->assertEquals(10, $obj->getNbDocAttache());
+    }
 
-	/**
-	 * Tests the setNomPiece() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomPiece() {
+    /**
+     * Tests the setNomPiece() method.
+     *
+     * @return void
+     */
+    public function testSetNomPiece() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setNomPiece("nomPiece");
-		$this->assertEquals("nomPiece", $obj->getNomPiece());
-	}
+        $obj->setNomPiece("nomPiece");
+        $this->assertEquals("nomPiece", $obj->getNomPiece());
+    }
 
-	/**
-	 * Tests the setNumPiece() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumPiece() {
+    /**
+     * Tests the setNumPiece() method.
+     *
+     * @return void
+     */
+    public function testSetNumPiece() {
 
-		$obj = new PiecesJointes();
+        $obj = new PiecesJointes();
 
-		$obj->setNumPiece(10);
-		$this->assertEquals(10, $obj->getNumPiece());
-	}
+        $obj->setNumPiece(10);
+        $this->assertEquals(10, $obj->getNumPiece());
+    }
 
 }

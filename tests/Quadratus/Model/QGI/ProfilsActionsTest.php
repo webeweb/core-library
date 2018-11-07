@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ProfilsActionsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ProfilsActions();
+        $obj = new ProfilsActions();
 
-		$this->assertNull($obj->getCodeProfil());
-		$this->assertNull($obj->getIntitule());
-	}
+        $this->assertNull($obj->getCodeProfil());
+        $this->assertNull($obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setCodeProfil() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeProfil() {
+    /**
+     * Tests the setCodeProfil() method.
+     *
+     * @return void
+     */
+    public function testSetCodeProfil() {
 
-		$obj = new ProfilsActions();
+        $obj = new ProfilsActions();
 
-		$obj->setCodeProfil("codeProfil");
-		$this->assertEquals("codeProfil", $obj->getCodeProfil());
-	}
+        $obj->setCodeProfil("codeProfil");
+        $this->assertEquals("codeProfil", $obj->getCodeProfil());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new ProfilsActions();
+        $obj = new ProfilsActions();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
 }

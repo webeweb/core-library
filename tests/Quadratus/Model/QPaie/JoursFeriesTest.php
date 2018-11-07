@@ -23,43 +23,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class JoursFeriesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new JoursFeries();
+        $obj = new JoursFeries();
 
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getJour());
-	}
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getJour());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new JoursFeries();
+        $obj = new JoursFeries();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setJour() method.
-	 *
-	 * @return void
-	 */
-	public function testSetJour() {
+    /**
+     * Tests the setJour() method.
+     *
+     * @return void
+     */
+    public function testSetJour() {
 
-		$obj = new JoursFeries();
+        $obj = new JoursFeries();
 
-		$obj->setJour(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getJour());
-	}
+        $obj->setJour(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getJour());
+    }
 
 }

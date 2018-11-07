@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class IntitCumulsLibellesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new IntitCumulsLibelles();
+        $obj = new IntitCumulsLibelles();
 
-		$this->assertNull($obj->getIntitule());
-		$this->assertNull($obj->getNumCumulBulletin());
-	}
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumCumulBulletin());
+    }
 
-	/**
-	 * Tests the setIntitule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIntitule() {
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
 
-		$obj = new IntitCumulsLibelles();
+        $obj = new IntitCumulsLibelles();
 
-		$obj->setIntitule("intitule");
-		$this->assertEquals("intitule", $obj->getIntitule());
-	}
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 
-	/**
-	 * Tests the setNumCumulBulletin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumCumulBulletin() {
+    /**
+     * Tests the setNumCumulBulletin() method.
+     *
+     * @return void
+     */
+    public function testSetNumCumulBulletin() {
 
-		$obj = new IntitCumulsLibelles();
+        $obj = new IntitCumulsLibelles();
 
-		$obj->setNumCumulBulletin(10);
-		$this->assertEquals(10, $obj->getNumCumulBulletin());
-	}
+        $obj->setNumCumulBulletin(10);
+        $this->assertEquals(10, $obj->getNumCumulBulletin());
+    }
 
 }

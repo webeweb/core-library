@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class StatistiquesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Statistiques();
+        $obj = new Statistiques();
 
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeRubrique());
-		$this->assertNull($obj->getInfoCellule());
-		$this->assertNull($obj->getMillesime());
-	}
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeRubrique());
+        $this->assertNull($obj->getInfoCellule());
+        $this->assertNull($obj->getMillesime());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new Statistiques();
+        $obj = new Statistiques();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeRubrique() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRubrique() {
+    /**
+     * Tests the setCodeRubrique() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRubrique() {
 
-		$obj = new Statistiques();
+        $obj = new Statistiques();
 
-		$obj->setCodeRubrique("codeRubrique");
-		$this->assertEquals("codeRubrique", $obj->getCodeRubrique());
-	}
+        $obj->setCodeRubrique("codeRubrique");
+        $this->assertEquals("codeRubrique", $obj->getCodeRubrique());
+    }
 
-	/**
-	 * Tests the setInfoCellule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetInfoCellule() {
+    /**
+     * Tests the setInfoCellule() method.
+     *
+     * @return void
+     */
+    public function testSetInfoCellule() {
 
-		$obj = new Statistiques();
+        $obj = new Statistiques();
 
-		$obj->setInfoCellule(10.092018);
-		$this->assertEquals(10.092018, $obj->getInfoCellule());
-	}
+        $obj->setInfoCellule(10.092018);
+        $this->assertEquals(10.092018, $obj->getInfoCellule());
+    }
 
-	/**
-	 * Tests the setMillesime() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMillesime() {
+    /**
+     * Tests the setMillesime() method.
+     *
+     * @return void
+     */
+    public function testSetMillesime() {
 
-		$obj = new Statistiques();
+        $obj = new Statistiques();
 
-		$obj->setMillesime("millesime");
-		$this->assertEquals("millesime", $obj->getMillesime());
-	}
+        $obj->setMillesime("millesime");
+        $this->assertEquals("millesime", $obj->getMillesime());
+    }
 
 }

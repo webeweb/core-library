@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ActionsTachesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ActionsTaches();
+        $obj = new ActionsTaches();
 
-		$this->assertNull($obj->getCodeAction());
-		$this->assertNull($obj->getCodeTache());
-	}
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeTache());
+    }
 
-	/**
-	 * Tests the setCodeAction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAction() {
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
 
-		$obj = new ActionsTaches();
+        $obj = new ActionsTaches();
 
-		$obj->setCodeAction("codeAction");
-		$this->assertEquals("codeAction", $obj->getCodeAction());
-	}
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
 
-	/**
-	 * Tests the setCodeTache() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTache() {
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
 
-		$obj = new ActionsTaches();
+        $obj = new ActionsTaches();
 
-		$obj->setCodeTache("codeTache");
-		$this->assertEquals("codeTache", $obj->getCodeTache());
-	}
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
 
 }

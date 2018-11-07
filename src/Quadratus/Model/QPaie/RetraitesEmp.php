@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QPaie;
 
-
 /**
  * Retraites emp model.
  *
@@ -20,173 +19,173 @@ namespace WBW\Library\Core\Quadratus\Model\QPaie;
  */
 class RetraitesEmp {
 
-	/**
-	 * Code organisme.
-	 *
-	 * @var string
-	 */
-	private $codeOrganisme;
+    /**
+     * Code organisme.
+     *
+     * @var string
+     */
+    private $codeOrganisme;
 
-	/**
-	 * Id institution.
-	 *
-	 * @var string
-	 */
-	private $idInstitution;
+    /**
+     * Id institution.
+     *
+     * @var string
+     */
+    private $idInstitution;
 
-	/**
-	 * Indice contrat.
-	 *
-	 * @var int
-	 */
-	private $indiceContrat;
+    /**
+     * Indice contrat.
+     *
+     * @var int
+     */
+    private $indiceContrat;
 
-	/**
-	 * Non gere.
-	 *
-	 * @var boolean
-	 */
-	private $nonGere;
+    /**
+     * Non gere.
+     *
+     * @var boolean
+     */
+    private $nonGere;
 
-	/**
-	 * Numero employe.
-	 *
-	 * @var string
-	 */
-	private $numeroEmploye;
+    /**
+     * Numero employe.
+     *
+     * @var string
+     */
+    private $numeroEmploye;
 
-	/**
-	 * Type orga.
-	 *
-	 * @var string
-	 */
-	private $typeOrga;
+    /**
+     * Type orga.
+     *
+     * @var string
+     */
+    private $typeOrga;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code organisme.
-	 *
-	 * @return string Returns the code organisme.
-	 */
-	public function getCodeOrganisme() {
-		return $this->codeOrganisme;
-	}
+    /**
+     * Get the code organisme.
+     *
+     * @return string Returns the code organisme.
+     */
+    public function getCodeOrganisme() {
+        return $this->codeOrganisme;
+    }
 
-	/**
-	 * Get the id institution.
-	 *
-	 * @return string Returns the id institution.
-	 */
-	public function getIdInstitution() {
-		return $this->idInstitution;
-	}
+    /**
+     * Get the id institution.
+     *
+     * @return string Returns the id institution.
+     */
+    public function getIdInstitution() {
+        return $this->idInstitution;
+    }
 
-	/**
-	 * Get the indice contrat.
-	 *
-	 * @return int Returns the indice contrat.
-	 */
-	public function getIndiceContrat() {
-		return $this->indiceContrat;
-	}
+    /**
+     * Get the indice contrat.
+     *
+     * @return int Returns the indice contrat.
+     */
+    public function getIndiceContrat() {
+        return $this->indiceContrat;
+    }
 
-	/**
-	 * Get the non gere.
-	 *
-	 * @return boolean Returns the non gere.
-	 */
-	public function getNonGere() {
-		return $this->nonGere;
-	}
+    /**
+     * Get the non gere.
+     *
+     * @return boolean Returns the non gere.
+     */
+    public function getNonGere() {
+        return $this->nonGere;
+    }
 
-	/**
-	 * Get the numero employe.
-	 *
-	 * @return string Returns the numero employe.
-	 */
-	public function getNumeroEmploye() {
-		return $this->numeroEmploye;
-	}
+    /**
+     * Get the numero employe.
+     *
+     * @return string Returns the numero employe.
+     */
+    public function getNumeroEmploye() {
+        return $this->numeroEmploye;
+    }
 
-	/**
-	 * Get the type orga.
-	 *
-	 * @return string Returns the type orga.
-	 */
-	public function getTypeOrga() {
-		return $this->typeOrga;
-	}
+    /**
+     * Get the type orga.
+     *
+     * @return string Returns the type orga.
+     */
+    public function getTypeOrga() {
+        return $this->typeOrga;
+    }
 
-	/**
-	 * Set the code organisme.
-	 *
-	 * @param string $codeOrganisme The code organisme.
-	 * @return RetraitesEmp Returns this retraites emp.
-	 */
-	public function setCodeOrganisme($codeOrganisme) {
-		$this->codeOrganisme = $codeOrganisme;
-		return $this;
-	}
+    /**
+     * Set the code organisme.
+     *
+     * @param string $codeOrganisme The code organisme.
+     * @return RetraitesEmp Returns this retraites emp.
+     */
+    public function setCodeOrganisme($codeOrganisme) {
+        $this->codeOrganisme = $codeOrganisme;
+        return $this;
+    }
 
-	/**
-	 * Set the id institution.
-	 *
-	 * @param string $idInstitution The id institution.
-	 * @return RetraitesEmp Returns this retraites emp.
-	 */
-	public function setIdInstitution($idInstitution) {
-		$this->idInstitution = $idInstitution;
-		return $this;
-	}
+    /**
+     * Set the id institution.
+     *
+     * @param string $idInstitution The id institution.
+     * @return RetraitesEmp Returns this retraites emp.
+     */
+    public function setIdInstitution($idInstitution) {
+        $this->idInstitution = $idInstitution;
+        return $this;
+    }
 
-	/**
-	 * Set the indice contrat.
-	 *
-	 * @param int $indiceContrat The indice contrat.
-	 * @return RetraitesEmp Returns this retraites emp.
-	 */
-	public function setIndiceContrat($indiceContrat) {
-		$this->indiceContrat = $indiceContrat;
-		return $this;
-	}
+    /**
+     * Set the indice contrat.
+     *
+     * @param int $indiceContrat The indice contrat.
+     * @return RetraitesEmp Returns this retraites emp.
+     */
+    public function setIndiceContrat($indiceContrat) {
+        $this->indiceContrat = $indiceContrat;
+        return $this;
+    }
 
-	/**
-	 * Set the non gere.
-	 *
-	 * @param boolean $nonGere The non gere.
-	 * @return RetraitesEmp Returns this retraites emp.
-	 */
-	public function setNonGere($nonGere) {
-		$this->nonGere = $nonGere;
-		return $this;
-	}
+    /**
+     * Set the non gere.
+     *
+     * @param boolean $nonGere The non gere.
+     * @return RetraitesEmp Returns this retraites emp.
+     */
+    public function setNonGere($nonGere) {
+        $this->nonGere = $nonGere;
+        return $this;
+    }
 
-	/**
-	 * Set the numero employe.
-	 *
-	 * @param string $numeroEmploye The numero employe.
-	 * @return RetraitesEmp Returns this retraites emp.
-	 */
-	public function setNumeroEmploye($numeroEmploye) {
-		$this->numeroEmploye = $numeroEmploye;
-		return $this;
-	}
+    /**
+     * Set the numero employe.
+     *
+     * @param string $numeroEmploye The numero employe.
+     * @return RetraitesEmp Returns this retraites emp.
+     */
+    public function setNumeroEmploye($numeroEmploye) {
+        $this->numeroEmploye = $numeroEmploye;
+        return $this;
+    }
 
-	/**
-	 * Set the type orga.
-	 *
-	 * @param string $typeOrga The type orga.
-	 * @return RetraitesEmp Returns this retraites emp.
-	 */
-	public function setTypeOrga($typeOrga) {
-		$this->typeOrga = $typeOrga;
-		return $this;
-	}
+    /**
+     * Set the type orga.
+     *
+     * @param string $typeOrga The type orga.
+     * @return RetraitesEmp Returns this retraites emp.
+     */
+    public function setTypeOrga($typeOrga) {
+        $this->typeOrga = $typeOrga;
+        return $this;
+    }
 
 }

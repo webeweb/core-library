@@ -23,169 +23,169 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AvenantsContratsChantiersTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$this->assertNull($obj->getCodeAbsence());
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodeTitulaire());
-		$this->assertNull($obj->getNumeroAvenant());
-		$this->assertNull($obj->getNumeroLigne());
-		$this->assertNull($obj->getRemplaceAu());
-		$this->assertNull($obj->getRemplaceDu());
-		$this->assertNull($obj->getTypeDocument());
-	}
+        $this->assertNull($obj->getCodeAbsence());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTitulaire());
+        $this->assertNull($obj->getNumeroAvenant());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getRemplaceAu());
+        $this->assertNull($obj->getRemplaceDu());
+        $this->assertNull($obj->getTypeDocument());
+    }
 
-	/**
-	 * Tests the setCodeAbsence() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAbsence() {
+    /**
+     * Tests the setCodeAbsence() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAbsence() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setCodeAbsence("codeAbsence");
-		$this->assertEquals("codeAbsence", $obj->getCodeAbsence());
-	}
+        $obj->setCodeAbsence("codeAbsence");
+        $this->assertEquals("codeAbsence", $obj->getCodeAbsence());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodeTitulaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTitulaire() {
+    /**
+     * Tests the setCodeTitulaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTitulaire() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setCodeTitulaire("codeTitulaire");
-		$this->assertEquals("codeTitulaire", $obj->getCodeTitulaire());
-	}
+        $obj->setCodeTitulaire("codeTitulaire");
+        $this->assertEquals("codeTitulaire", $obj->getCodeTitulaire());
+    }
 
-	/**
-	 * Tests the setNumeroAvenant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroAvenant() {
+    /**
+     * Tests the setNumeroAvenant() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAvenant() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setNumeroAvenant(10);
-		$this->assertEquals(10, $obj->getNumeroAvenant());
-	}
+        $obj->setNumeroAvenant(10);
+        $this->assertEquals(10, $obj->getNumeroAvenant());
+    }
 
-	/**
-	 * Tests the setNumeroLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroLigne() {
+    /**
+     * Tests the setNumeroLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLigne() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setNumeroLigne(10);
-		$this->assertEquals(10, $obj->getNumeroLigne());
-	}
+        $obj->setNumeroLigne(10);
+        $this->assertEquals(10, $obj->getNumeroLigne());
+    }
 
-	/**
-	 * Tests the setRemplaceAu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRemplaceAu() {
+    /**
+     * Tests the setRemplaceAu() method.
+     *
+     * @return void
+     */
+    public function testSetRemplaceAu() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setRemplaceAu(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getRemplaceAu());
-	}
+        $obj->setRemplaceAu(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getRemplaceAu());
+    }
 
-	/**
-	 * Tests the setRemplaceDu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRemplaceDu() {
+    /**
+     * Tests the setRemplaceDu() method.
+     *
+     * @return void
+     */
+    public function testSetRemplaceDu() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setRemplaceDu(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getRemplaceDu());
-	}
+        $obj->setRemplaceDu(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getRemplaceDu());
+    }
 
-	/**
-	 * Tests the setTypeDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeDocument() {
+    /**
+     * Tests the setTypeDocument() method.
+     *
+     * @return void
+     */
+    public function testSetTypeDocument() {
 
-		$obj = new AvenantsContratsChantiers();
+        $obj = new AvenantsContratsChantiers();
 
-		$obj->setTypeDocument("typeDocument");
-		$this->assertEquals("typeDocument", $obj->getTypeDocument());
-	}
+        $obj->setTypeDocument("typeDocument");
+        $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
 
 }

@@ -21,200 +21,200 @@ use DateTime;
  */
 class HistoriqueNotes {
 
-	/**
-	 * Code categorie.
-	 *
-	 * @var string
-	 */
-	private $codeCategorie;
+    /**
+     * Code categorie.
+     *
+     * @var string
+     */
+    private $codeCategorie;
 
-	/**
-	 * Code collaborateur.
-	 *
-	 * @var string
-	 */
-	private $codeCollaborateur;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
 
-	/**
-	 * Date cloture.
-	 *
-	 * @var DateTime
-	 */
-	private $dateCloture;
+    /**
+     * Date cloture.
+     *
+     * @var DateTime
+     */
+    private $dateCloture;
 
-	/**
-	 * Date creation.
-	 *
-	 * @var DateTime
-	 */
-	private $dateCreation;
+    /**
+     * Date creation.
+     *
+     * @var DateTime
+     */
+    private $dateCreation;
 
-	/**
-	 * Intitule.
-	 *
-	 * @var string
-	 */
-	private $intitule;
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
 
-	/**
-	 * Num uniq.
-	 *
-	 * @var string
-	 */
-	private $numUniq;
+    /**
+     * Num uniq.
+     *
+     * @var string
+     */
+    private $numUniq;
 
-	/**
-	 * Titre.
-	 *
-	 * @var string
-	 */
-	private $titre;
+    /**
+     * Titre.
+     *
+     * @var string
+     */
+    private $titre;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code categorie.
-	 *
-	 * @return string Returns the code categorie.
-	 */
-	public function getCodeCategorie() {
-		return $this->codeCategorie;
-	}
+    /**
+     * Get the code categorie.
+     *
+     * @return string Returns the code categorie.
+     */
+    public function getCodeCategorie() {
+        return $this->codeCategorie;
+    }
 
-	/**
-	 * Get the code collaborateur.
-	 *
-	 * @return string Returns the code collaborateur.
-	 */
-	public function getCodeCollaborateur() {
-		return $this->codeCollaborateur;
-	}
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
 
-	/**
-	 * Get the date cloture.
-	 *
-	 * @return DateTime Returns the date cloture.
-	 */
-	public function getDateCloture() {
-		return $this->dateCloture;
-	}
+    /**
+     * Get the date cloture.
+     *
+     * @return DateTime Returns the date cloture.
+     */
+    public function getDateCloture() {
+        return $this->dateCloture;
+    }
 
-	/**
-	 * Get the date creation.
-	 *
-	 * @return DateTime Returns the date creation.
-	 */
-	public function getDateCreation() {
-		return $this->dateCreation;
-	}
+    /**
+     * Get the date creation.
+     *
+     * @return DateTime Returns the date creation.
+     */
+    public function getDateCreation() {
+        return $this->dateCreation;
+    }
 
-	/**
-	 * Get the intitule.
-	 *
-	 * @return string Returns the intitule.
-	 */
-	public function getIntitule() {
-		return $this->intitule;
-	}
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
 
-	/**
-	 * Get the num uniq.
-	 *
-	 * @return string Returns the num uniq.
-	 */
-	public function getNumUniq() {
-		return $this->numUniq;
-	}
+    /**
+     * Get the num uniq.
+     *
+     * @return string Returns the num uniq.
+     */
+    public function getNumUniq() {
+        return $this->numUniq;
+    }
 
-	/**
-	 * Get the titre.
-	 *
-	 * @return string Returns the titre.
-	 */
-	public function getTitre() {
-		return $this->titre;
-	}
+    /**
+     * Get the titre.
+     *
+     * @return string Returns the titre.
+     */
+    public function getTitre() {
+        return $this->titre;
+    }
 
-	/**
-	 * Set the code categorie.
-	 *
-	 * @param string $codeCategorie The code categorie.
-	 * @return HistoriqueNotes Returns this historique notes.
-	 */
-	public function setCodeCategorie($codeCategorie) {
-		$this->codeCategorie = $codeCategorie;
-		return $this;
-	}
+    /**
+     * Set the code categorie.
+     *
+     * @param string $codeCategorie The code categorie.
+     * @return HistoriqueNotes Returns this historique notes.
+     */
+    public function setCodeCategorie($codeCategorie) {
+        $this->codeCategorie = $codeCategorie;
+        return $this;
+    }
 
-	/**
-	 * Set the code collaborateur.
-	 *
-	 * @param string $codeCollaborateur The code collaborateur.
-	 * @return HistoriqueNotes Returns this historique notes.
-	 */
-	public function setCodeCollaborateur($codeCollaborateur) {
-		$this->codeCollaborateur = $codeCollaborateur;
-		return $this;
-	}
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     * @return HistoriqueNotes Returns this historique notes.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
 
-	/**
-	 * Set the date cloture.
-	 *
-	 * @param DateTime $dateCloture The date cloture.
-	 * @return HistoriqueNotes Returns this historique notes.
-	 */
-	public function setDateCloture(DateTime $dateCloture = null) {
-		$this->dateCloture = $dateCloture;
-		return $this;
-	}
+    /**
+     * Set the date cloture.
+     *
+     * @param DateTime $dateCloture The date cloture.
+     * @return HistoriqueNotes Returns this historique notes.
+     */
+    public function setDateCloture(DateTime $dateCloture = null) {
+        $this->dateCloture = $dateCloture;
+        return $this;
+    }
 
-	/**
-	 * Set the date creation.
-	 *
-	 * @param DateTime $dateCreation The date creation.
-	 * @return HistoriqueNotes Returns this historique notes.
-	 */
-	public function setDateCreation(DateTime $dateCreation = null) {
-		$this->dateCreation = $dateCreation;
-		return $this;
-	}
+    /**
+     * Set the date creation.
+     *
+     * @param DateTime $dateCreation The date creation.
+     * @return HistoriqueNotes Returns this historique notes.
+     */
+    public function setDateCreation(DateTime $dateCreation = null) {
+        $this->dateCreation = $dateCreation;
+        return $this;
+    }
 
-	/**
-	 * Set the intitule.
-	 *
-	 * @param string $intitule The intitule.
-	 * @return HistoriqueNotes Returns this historique notes.
-	 */
-	public function setIntitule($intitule) {
-		$this->intitule = $intitule;
-		return $this;
-	}
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     * @return HistoriqueNotes Returns this historique notes.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
 
-	/**
-	 * Set the num uniq.
-	 *
-	 * @param string $numUniq The num uniq.
-	 * @return HistoriqueNotes Returns this historique notes.
-	 */
-	public function setNumUniq($numUniq) {
-		$this->numUniq = $numUniq;
-		return $this;
-	}
+    /**
+     * Set the num uniq.
+     *
+     * @param string $numUniq The num uniq.
+     * @return HistoriqueNotes Returns this historique notes.
+     */
+    public function setNumUniq($numUniq) {
+        $this->numUniq = $numUniq;
+        return $this;
+    }
 
-	/**
-	 * Set the titre.
-	 *
-	 * @param string $titre The titre.
-	 * @return HistoriqueNotes Returns this historique notes.
-	 */
-	public function setTitre($titre) {
-		$this->titre = $titre;
-		return $this;
-	}
+    /**
+     * Set the titre.
+     *
+     * @param string $titre The titre.
+     * @return HistoriqueNotes Returns this historique notes.
+     */
+    public function setTitre($titre) {
+        $this->titre = $titre;
+        return $this;
+    }
 
 }

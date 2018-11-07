@@ -23,141 +23,141 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class LignesATCTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getMontantCotis());
-		$this->assertNull($obj->getMotif());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getNumeroAttestation());
-		$this->assertNull($obj->getPSEuroOuFranc());
-		$this->assertNull($obj->getPeriodeDeb());
-		$this->assertNull($obj->getPeriodeFin());
-		$this->assertNull($obj->getSalaireEuroOuFranc());
-	}
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantCotis());
+        $this->assertNull($obj->getMotif());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPSEuroOuFranc());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getSalaireEuroOuFranc());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setMontantCotis() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantCotis() {
+    /**
+     * Tests the setMontantCotis() method.
+     *
+     * @return void
+     */
+    public function testSetMontantCotis() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setMontantCotis(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantCotis());
-	}
+        $obj->setMontantCotis(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantCotis());
+    }
 
-	/**
-	 * Tests the setMotif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMotif() {
+    /**
+     * Tests the setMotif() method.
+     *
+     * @return void
+     */
+    public function testSetMotif() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setMotif("motif");
-		$this->assertEquals("motif", $obj->getMotif());
-	}
+        $obj->setMotif("motif");
+        $this->assertEquals("motif", $obj->getMotif());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setNumLigne("numLigne");
-		$this->assertEquals("numLigne", $obj->getNumLigne());
-	}
+        $obj->setNumLigne("numLigne");
+        $this->assertEquals("numLigne", $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setNumeroAttestation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroAttestation() {
+    /**
+     * Tests the setNumeroAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAttestation() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setNumeroAttestation("numeroAttestation");
-		$this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
-	}
+        $obj->setNumeroAttestation("numeroAttestation");
+        $this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
+    }
 
-	/**
-	 * Tests the setPSEuroOuFranc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPSEuroOuFranc() {
+    /**
+     * Tests the setPSEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetPSEuroOuFranc() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setPSEuroOuFranc("pSEuroOuFranc");
-		$this->assertEquals("pSEuroOuFranc", $obj->getPSEuroOuFranc());
-	}
+        $obj->setPSEuroOuFranc("pSEuroOuFranc");
+        $this->assertEquals("pSEuroOuFranc", $obj->getPSEuroOuFranc());
+    }
 
-	/**
-	 * Tests the setPeriodeDeb() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeDeb() {
+    /**
+     * Tests the setPeriodeDeb() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeDeb() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setPeriodeDeb(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeDeb());
-	}
+        $obj->setPeriodeDeb(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeDeb());
+    }
 
-	/**
-	 * Tests the setPeriodeFin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriodeFin() {
+    /**
+     * Tests the setPeriodeFin() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodeFin() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setPeriodeFin(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeFin());
-	}
+        $obj->setPeriodeFin(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriodeFin());
+    }
 
-	/**
-	 * Tests the setSalaireEuroOuFranc() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSalaireEuroOuFranc() {
+    /**
+     * Tests the setSalaireEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetSalaireEuroOuFranc() {
 
-		$obj = new LignesATC();
+        $obj = new LignesATC();
 
-		$obj->setSalaireEuroOuFranc("salaireEuroOuFranc");
-		$this->assertEquals("salaireEuroOuFranc", $obj->getSalaireEuroOuFranc());
-	}
+        $obj->setSalaireEuroOuFranc("salaireEuroOuFranc");
+        $this->assertEquals("salaireEuroOuFranc", $obj->getSalaireEuroOuFranc());
+    }
 
 }

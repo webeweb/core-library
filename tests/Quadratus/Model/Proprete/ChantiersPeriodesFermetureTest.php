@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ChantiersPeriodesFermetureTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ChantiersPeriodesFermeture();
+        $obj = new ChantiersPeriodesFermeture();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getDateAu());
-		$this->assertNull($obj->getDateDu());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDateAu());
+        $this->assertNull($obj->getDateDu());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new ChantiersPeriodesFermeture();
+        $obj = new ChantiersPeriodesFermeture();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new ChantiersPeriodesFermeture();
+        $obj = new ChantiersPeriodesFermeture();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ChantiersPeriodesFermeture();
+        $obj = new ChantiersPeriodesFermeture();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setDateAu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateAu() {
+    /**
+     * Tests the setDateAu() method.
+     *
+     * @return void
+     */
+    public function testSetDateAu() {
 
-		$obj = new ChantiersPeriodesFermeture();
+        $obj = new ChantiersPeriodesFermeture();
 
-		$obj->setDateAu(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAu());
-	}
+        $obj->setDateAu(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAu());
+    }
 
-	/**
-	 * Tests the setDateDu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateDu() {
+    /**
+     * Tests the setDateDu() method.
+     *
+     * @return void
+     */
+    public function testSetDateDu() {
 
-		$obj = new ChantiersPeriodesFermeture();
+        $obj = new ChantiersPeriodesFermeture();
 
-		$obj->setDateDu(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDu());
-	}
+        $obj->setDateDu(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDu());
+    }
 
 }

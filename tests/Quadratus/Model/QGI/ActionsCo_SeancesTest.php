@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ActionsCo_SeancesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ActionsCo_Seances();
+        $obj = new ActionsCo_Seances();
 
-		$this->assertNull($obj->getCodeAction());
-		$this->assertNull($obj->getCodeManif());
-		$this->assertNull($obj->getDateSeance());
-		$this->assertNull($obj->getHeureDeb());
-		$this->assertNull($obj->getHeureFin());
-		$this->assertNull($obj->getLibelleSeance());
-		$this->assertNull($obj->getNumSeance());
-	}
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeManif());
+        $this->assertNull($obj->getDateSeance());
+        $this->assertNull($obj->getHeureDeb());
+        $this->assertNull($obj->getHeureFin());
+        $this->assertNull($obj->getLibelleSeance());
+        $this->assertNull($obj->getNumSeance());
+    }
 
-	/**
-	 * Tests the setCodeAction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAction() {
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
 
-		$obj = new ActionsCo_Seances();
+        $obj = new ActionsCo_Seances();
 
-		$obj->setCodeAction("codeAction");
-		$this->assertEquals("codeAction", $obj->getCodeAction());
-	}
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
 
-	/**
-	 * Tests the setCodeManif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeManif() {
+    /**
+     * Tests the setCodeManif() method.
+     *
+     * @return void
+     */
+    public function testSetCodeManif() {
 
-		$obj = new ActionsCo_Seances();
+        $obj = new ActionsCo_Seances();
 
-		$obj->setCodeManif("codeManif");
-		$this->assertEquals("codeManif", $obj->getCodeManif());
-	}
+        $obj->setCodeManif("codeManif");
+        $this->assertEquals("codeManif", $obj->getCodeManif());
+    }
 
-	/**
-	 * Tests the setDateSeance() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateSeance() {
+    /**
+     * Tests the setDateSeance() method.
+     *
+     * @return void
+     */
+    public function testSetDateSeance() {
 
-		$obj = new ActionsCo_Seances();
+        $obj = new ActionsCo_Seances();
 
-		$obj->setDateSeance(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateSeance());
-	}
+        $obj->setDateSeance(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateSeance());
+    }
 
-	/**
-	 * Tests the setHeureDeb() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHeureDeb() {
+    /**
+     * Tests the setHeureDeb() method.
+     *
+     * @return void
+     */
+    public function testSetHeureDeb() {
 
-		$obj = new ActionsCo_Seances();
+        $obj = new ActionsCo_Seances();
 
-		$obj->setHeureDeb(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getHeureDeb());
-	}
+        $obj->setHeureDeb(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getHeureDeb());
+    }
 
-	/**
-	 * Tests the setHeureFin() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHeureFin() {
+    /**
+     * Tests the setHeureFin() method.
+     *
+     * @return void
+     */
+    public function testSetHeureFin() {
 
-		$obj = new ActionsCo_Seances();
+        $obj = new ActionsCo_Seances();
 
-		$obj->setHeureFin(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getHeureFin());
-	}
+        $obj->setHeureFin(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getHeureFin());
+    }
 
-	/**
-	 * Tests the setLibelleSeance() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelleSeance() {
+    /**
+     * Tests the setLibelleSeance() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleSeance() {
 
-		$obj = new ActionsCo_Seances();
+        $obj = new ActionsCo_Seances();
 
-		$obj->setLibelleSeance("libelleSeance");
-		$this->assertEquals("libelleSeance", $obj->getLibelleSeance());
-	}
+        $obj->setLibelleSeance("libelleSeance");
+        $this->assertEquals("libelleSeance", $obj->getLibelleSeance());
+    }
 
-	/**
-	 * Tests the setNumSeance() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumSeance() {
+    /**
+     * Tests the setNumSeance() method.
+     *
+     * @return void
+     */
+    public function testSetNumSeance() {
 
-		$obj = new ActionsCo_Seances();
+        $obj = new ActionsCo_Seances();
 
-		$obj->setNumSeance(10);
-		$this->assertEquals(10, $obj->getNumSeance());
-	}
+        $obj->setNumSeance(10);
+        $this->assertEquals(10, $obj->getNumSeance());
+    }
 
 }

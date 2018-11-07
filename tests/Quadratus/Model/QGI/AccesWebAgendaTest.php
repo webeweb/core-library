@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AccesWebAgendaTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AccesWebAgenda();
+        $obj = new AccesWebAgenda();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getDroitModif());
-		$this->assertNull($obj->getType());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getDroitModif());
+        $this->assertNull($obj->getType());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new AccesWebAgenda();
+        $obj = new AccesWebAgenda();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new AccesWebAgenda();
+        $obj = new AccesWebAgenda();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setDroitModif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDroitModif() {
+    /**
+     * Tests the setDroitModif() method.
+     *
+     * @return void
+     */
+    public function testSetDroitModif() {
 
-		$obj = new AccesWebAgenda();
+        $obj = new AccesWebAgenda();
 
-		$obj->setDroitModif(true);
-		$this->assertEquals(true, $obj->getDroitModif());
-	}
+        $obj->setDroitModif(true);
+        $this->assertEquals(true, $obj->getDroitModif());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new AccesWebAgenda();
+        $obj = new AccesWebAgenda();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
 }

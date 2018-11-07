@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * e w s espace model.
  *
@@ -20,38 +19,38 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class eWSEspace {
 
-	/**
-	 * Num doss.
-	 *
-	 * @var string
-	 */
-	private $numDoss;
+    /**
+     * Num doss.
+     *
+     * @var string
+     */
+    private $numDoss;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the num doss.
-	 *
-	 * @return string Returns the num doss.
-	 */
-	public function getNumDoss() {
-		return $this->numDoss;
-	}
+    /**
+     * Get the num doss.
+     *
+     * @return string Returns the num doss.
+     */
+    public function getNumDoss() {
+        return $this->numDoss;
+    }
 
-	/**
-	 * Set the num doss.
-	 *
-	 * @param string $numDoss The num doss.
-	 * @return eWSEspace Returns this e w s espace.
-	 */
-	public function setNumDoss($numDoss) {
-		$this->numDoss = $numDoss;
-		return $this;
-	}
+    /**
+     * Set the num doss.
+     *
+     * @param string $numDoss The num doss.
+     * @return eWSEspace Returns this e w s espace.
+     */
+    public function setNumDoss($numDoss) {
+        $this->numDoss = $numDoss;
+        return $this;
+    }
 
 }

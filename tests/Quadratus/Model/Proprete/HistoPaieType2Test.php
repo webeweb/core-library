@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HistoPaieType2Test extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HistoPaieType2();
+        $obj = new HistoPaieType2();
 
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodePrime());
-		$this->assertNull($obj->getNbHeures());
-		$this->assertNull($obj->getPeriode());
-		$this->assertNull($obj->getTauxMajoration());
-		$this->assertNull($obj->getTypeDNJF());
-	}
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodePrime());
+        $this->assertNull($obj->getNbHeures());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTauxMajoration());
+        $this->assertNull($obj->getTypeDNJF());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new HistoPaieType2();
+        $obj = new HistoPaieType2();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodePrime() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePrime() {
+    /**
+     * Tests the setCodePrime() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrime() {
 
-		$obj = new HistoPaieType2();
+        $obj = new HistoPaieType2();
 
-		$obj->setCodePrime("codePrime");
-		$this->assertEquals("codePrime", $obj->getCodePrime());
-	}
+        $obj->setCodePrime("codePrime");
+        $this->assertEquals("codePrime", $obj->getCodePrime());
+    }
 
-	/**
-	 * Tests the setNbHeures() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHeures() {
+    /**
+     * Tests the setNbHeures() method.
+     *
+     * @return void
+     */
+    public function testSetNbHeures() {
 
-		$obj = new HistoPaieType2();
+        $obj = new HistoPaieType2();
 
-		$obj->setNbHeures(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHeures());
-	}
+        $obj->setNbHeures(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHeures());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new HistoPaieType2();
+        $obj = new HistoPaieType2();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setTauxMajoration() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxMajoration() {
+    /**
+     * Tests the setTauxMajoration() method.
+     *
+     * @return void
+     */
+    public function testSetTauxMajoration() {
 
-		$obj = new HistoPaieType2();
+        $obj = new HistoPaieType2();
 
-		$obj->setTauxMajoration(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxMajoration());
-	}
+        $obj->setTauxMajoration(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxMajoration());
+    }
 
-	/**
-	 * Tests the setTypeDNJF() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeDNJF() {
+    /**
+     * Tests the setTypeDNJF() method.
+     *
+     * @return void
+     */
+    public function testSetTypeDNJF() {
 
-		$obj = new HistoPaieType2();
+        $obj = new HistoPaieType2();
 
-		$obj->setTypeDNJF("typeDNJF");
-		$this->assertEquals("typeDNJF", $obj->getTypeDNJF());
-	}
+        $obj->setTypeDNJF("typeDNJF");
+        $this->assertEquals("typeDNJF", $obj->getTypeDNJF());
+    }
 
 }

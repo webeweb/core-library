@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class CategoriesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Categories();
+        $obj = new Categories();
 
-		$this->assertNull($obj->getCarTec());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getParent());
-		$this->assertNull($obj->getType());
-	}
+        $this->assertNull($obj->getCarTec());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getParent());
+        $this->assertNull($obj->getType());
+    }
 
-	/**
-	 * Tests the setCarTec() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCarTec() {
+    /**
+     * Tests the setCarTec() method.
+     *
+     * @return void
+     */
+    public function testSetCarTec() {
 
-		$obj = new Categories();
+        $obj = new Categories();
 
-		$obj->setCarTec("carTec");
-		$this->assertEquals("carTec", $obj->getCarTec());
-	}
+        $obj->setCarTec("carTec");
+        $this->assertEquals("carTec", $obj->getCarTec());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new Categories();
+        $obj = new Categories();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setParent() method.
-	 *
-	 * @return void
-	 */
-	public function testSetParent() {
+    /**
+     * Tests the setParent() method.
+     *
+     * @return void
+     */
+    public function testSetParent() {
 
-		$obj = new Categories();
+        $obj = new Categories();
 
-		$obj->setParent("parent");
-		$this->assertEquals("parent", $obj->getParent());
-	}
+        $obj->setParent("parent");
+        $this->assertEquals("parent", $obj->getParent());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new Categories();
+        $obj = new Categories();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
 }

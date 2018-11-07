@@ -23,155 +23,155 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ArticlesFrnPrixATest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$this->assertNull($obj->getCodeArticle());
-		$this->assertNull($obj->getCodeFournisseur());
-		$this->assertNull($obj->getDateDebut());
-		$this->assertNull($obj->getPrixCond());
-		$this->assertNull($obj->getPxAchat());
-		$this->assertNull($obj->getQteAchat());
-		$this->assertNull($obj->getQteCond());
-		$this->assertNull($obj->getRemise1());
-		$this->assertNull($obj->getRemise2());
-		$this->assertNull($obj->getRemise3());
-	}
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeFournisseur());
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getPrixCond());
+        $this->assertNull($obj->getPxAchat());
+        $this->assertNull($obj->getQteAchat());
+        $this->assertNull($obj->getQteCond());
+        $this->assertNull($obj->getRemise1());
+        $this->assertNull($obj->getRemise2());
+        $this->assertNull($obj->getRemise3());
+    }
 
-	/**
-	 * Tests the setCodeArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeArticle() {
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setCodeArticle("codeArticle");
-		$this->assertEquals("codeArticle", $obj->getCodeArticle());
-	}
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
 
-	/**
-	 * Tests the setCodeFournisseur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeFournisseur() {
+    /**
+     * Tests the setCodeFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeFournisseur() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setCodeFournisseur("codeFournisseur");
-		$this->assertEquals("codeFournisseur", $obj->getCodeFournisseur());
-	}
+        $obj->setCodeFournisseur("codeFournisseur");
+        $this->assertEquals("codeFournisseur", $obj->getCodeFournisseur());
+    }
 
-	/**
-	 * Tests the setDateDebut() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateDebut() {
+    /**
+     * Tests the setDateDebut() method.
+     *
+     * @return void
+     */
+    public function testSetDateDebut() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setDateDebut(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDebut());
-	}
+        $obj->setDateDebut(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDebut());
+    }
 
-	/**
-	 * Tests the setPrixCond() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPrixCond() {
+    /**
+     * Tests the setPrixCond() method.
+     *
+     * @return void
+     */
+    public function testSetPrixCond() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setPrixCond(true);
-		$this->assertEquals(true, $obj->getPrixCond());
-	}
+        $obj->setPrixCond(true);
+        $this->assertEquals(true, $obj->getPrixCond());
+    }
 
-	/**
-	 * Tests the setPxAchat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPxAchat() {
+    /**
+     * Tests the setPxAchat() method.
+     *
+     * @return void
+     */
+    public function testSetPxAchat() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setPxAchat(10.092018);
-		$this->assertEquals(10.092018, $obj->getPxAchat());
-	}
+        $obj->setPxAchat(10.092018);
+        $this->assertEquals(10.092018, $obj->getPxAchat());
+    }
 
-	/**
-	 * Tests the setQteAchat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetQteAchat() {
+    /**
+     * Tests the setQteAchat() method.
+     *
+     * @return void
+     */
+    public function testSetQteAchat() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setQteAchat(10.092018);
-		$this->assertEquals(10.092018, $obj->getQteAchat());
-	}
+        $obj->setQteAchat(10.092018);
+        $this->assertEquals(10.092018, $obj->getQteAchat());
+    }
 
-	/**
-	 * Tests the setQteCond() method.
-	 *
-	 * @return void
-	 */
-	public function testSetQteCond() {
+    /**
+     * Tests the setQteCond() method.
+     *
+     * @return void
+     */
+    public function testSetQteCond() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setQteCond(10);
-		$this->assertEquals(10, $obj->getQteCond());
-	}
+        $obj->setQteCond(10);
+        $this->assertEquals(10, $obj->getQteCond());
+    }
 
-	/**
-	 * Tests the setRemise1() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRemise1() {
+    /**
+     * Tests the setRemise1() method.
+     *
+     * @return void
+     */
+    public function testSetRemise1() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setRemise1(10.092018);
-		$this->assertEquals(10.092018, $obj->getRemise1());
-	}
+        $obj->setRemise1(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemise1());
+    }
 
-	/**
-	 * Tests the setRemise2() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRemise2() {
+    /**
+     * Tests the setRemise2() method.
+     *
+     * @return void
+     */
+    public function testSetRemise2() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setRemise2(10.092018);
-		$this->assertEquals(10.092018, $obj->getRemise2());
-	}
+        $obj->setRemise2(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemise2());
+    }
 
-	/**
-	 * Tests the setRemise3() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRemise3() {
+    /**
+     * Tests the setRemise3() method.
+     *
+     * @return void
+     */
+    public function testSetRemise3() {
 
-		$obj = new ArticlesFrnPrixA();
+        $obj = new ArticlesFrnPrixA();
 
-		$obj->setRemise3(10.092018);
-		$this->assertEquals(10.092018, $obj->getRemise3());
-	}
+        $obj->setRemise3(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemise3());
+    }
 
 }

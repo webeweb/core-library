@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ObligationsLieesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ObligationsLiees();
+        $obj = new ObligationsLiees();
 
-		$this->assertNull($obj->getCodeAction());
-		$this->assertNull($obj->getCodeObligation());
-	}
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeObligation());
+    }
 
-	/**
-	 * Tests the setCodeAction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAction() {
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
 
-		$obj = new ObligationsLiees();
+        $obj = new ObligationsLiees();
 
-		$obj->setCodeAction("codeAction");
-		$this->assertEquals("codeAction", $obj->getCodeAction());
-	}
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
 
-	/**
-	 * Tests the setCodeObligation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeObligation() {
+    /**
+     * Tests the setCodeObligation() method.
+     *
+     * @return void
+     */
+    public function testSetCodeObligation() {
 
-		$obj = new ObligationsLiees();
+        $obj = new ObligationsLiees();
 
-		$obj->setCodeObligation("codeObligation");
-		$this->assertEquals("codeObligation", $obj->getCodeObligation());
-	}
+        $obj->setCodeObligation("codeObligation");
+        $this->assertEquals("codeObligation", $obj->getCodeObligation());
+    }
 
 }

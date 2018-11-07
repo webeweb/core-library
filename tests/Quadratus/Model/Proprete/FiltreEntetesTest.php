@@ -22,113 +22,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class FiltreEntetesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new FiltreEntetes();
+        $obj = new FiltreEntetes();
 
-		$this->assertNull($obj->getCodeFiltre());
-		$this->assertNull($obj->getCollaborateur());
-		$this->assertNull($obj->getCommercialFacture());
-		$this->assertNull($obj->getFonctionnalite());
-		$this->assertNull($obj->getLibelle());
-		$this->assertNull($obj->getTypeFiltre());
-		$this->assertNull($obj->getUniqID());
-	}
+        $this->assertNull($obj->getCodeFiltre());
+        $this->assertNull($obj->getCollaborateur());
+        $this->assertNull($obj->getCommercialFacture());
+        $this->assertNull($obj->getFonctionnalite());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getTypeFiltre());
+        $this->assertNull($obj->getUniqID());
+    }
 
-	/**
-	 * Tests the setCodeFiltre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeFiltre() {
+    /**
+     * Tests the setCodeFiltre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeFiltre() {
 
-		$obj = new FiltreEntetes();
+        $obj = new FiltreEntetes();
 
-		$obj->setCodeFiltre("codeFiltre");
-		$this->assertEquals("codeFiltre", $obj->getCodeFiltre());
-	}
+        $obj->setCodeFiltre("codeFiltre");
+        $this->assertEquals("codeFiltre", $obj->getCodeFiltre());
+    }
 
-	/**
-	 * Tests the setCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCollaborateur() {
+    /**
+     * Tests the setCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCollaborateur() {
 
-		$obj = new FiltreEntetes();
+        $obj = new FiltreEntetes();
 
-		$obj->setCollaborateur("collaborateur");
-		$this->assertEquals("collaborateur", $obj->getCollaborateur());
-	}
+        $obj->setCollaborateur("collaborateur");
+        $this->assertEquals("collaborateur", $obj->getCollaborateur());
+    }
 
-	/**
-	 * Tests the setCommercialFacture() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCommercialFacture() {
+    /**
+     * Tests the setCommercialFacture() method.
+     *
+     * @return void
+     */
+    public function testSetCommercialFacture() {
 
-		$obj = new FiltreEntetes();
+        $obj = new FiltreEntetes();
 
-		$obj->setCommercialFacture(true);
-		$this->assertEquals(true, $obj->getCommercialFacture());
-	}
+        $obj->setCommercialFacture(true);
+        $this->assertEquals(true, $obj->getCommercialFacture());
+    }
 
-	/**
-	 * Tests the setFonctionnalite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFonctionnalite() {
+    /**
+     * Tests the setFonctionnalite() method.
+     *
+     * @return void
+     */
+    public function testSetFonctionnalite() {
 
-		$obj = new FiltreEntetes();
+        $obj = new FiltreEntetes();
 
-		$obj->setFonctionnalite("fonctionnalite");
-		$this->assertEquals("fonctionnalite", $obj->getFonctionnalite());
-	}
+        $obj->setFonctionnalite("fonctionnalite");
+        $this->assertEquals("fonctionnalite", $obj->getFonctionnalite());
+    }
 
-	/**
-	 * Tests the setLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelle() {
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
 
-		$obj = new FiltreEntetes();
+        $obj = new FiltreEntetes();
 
-		$obj->setLibelle("libelle");
-		$this->assertEquals("libelle", $obj->getLibelle());
-	}
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 
-	/**
-	 * Tests the setTypeFiltre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeFiltre() {
+    /**
+     * Tests the setTypeFiltre() method.
+     *
+     * @return void
+     */
+    public function testSetTypeFiltre() {
 
-		$obj = new FiltreEntetes();
+        $obj = new FiltreEntetes();
 
-		$obj->setTypeFiltre("typeFiltre");
-		$this->assertEquals("typeFiltre", $obj->getTypeFiltre());
-	}
+        $obj->setTypeFiltre("typeFiltre");
+        $this->assertEquals("typeFiltre", $obj->getTypeFiltre());
+    }
 
-	/**
-	 * Tests the setUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqID() {
+    /**
+     * Tests the setUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetUniqID() {
 
-		$obj = new FiltreEntetes();
+        $obj = new FiltreEntetes();
 
-		$obj->setUniqID("uniqID");
-		$this->assertEquals("uniqID", $obj->getUniqID());
-	}
+        $obj->setUniqID("uniqID");
+        $this->assertEquals("uniqID", $obj->getUniqID());
+    }
 
 }

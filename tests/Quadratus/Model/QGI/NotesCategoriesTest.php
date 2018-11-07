@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class NotesCategoriesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new NotesCategories();
+        $obj = new NotesCategories();
 
-		$this->assertNull($obj->getCodeCategorie());
-		$this->assertNull($obj->getCodeCollaborateur());
-		$this->assertNull($obj->getNomCategorie());
-		$this->assertNull($obj->getPosition());
-	}
+        $this->assertNull($obj->getCodeCategorie());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getNomCategorie());
+        $this->assertNull($obj->getPosition());
+    }
 
-	/**
-	 * Tests the setCodeCategorie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCategorie() {
+    /**
+     * Tests the setCodeCategorie() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCategorie() {
 
-		$obj = new NotesCategories();
+        $obj = new NotesCategories();
 
-		$obj->setCodeCategorie("codeCategorie");
-		$this->assertEquals("codeCategorie", $obj->getCodeCategorie());
-	}
+        $obj->setCodeCategorie("codeCategorie");
+        $this->assertEquals("codeCategorie", $obj->getCodeCategorie());
+    }
 
-	/**
-	 * Tests the setCodeCollaborateur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollaborateur() {
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
 
-		$obj = new NotesCategories();
+        $obj = new NotesCategories();
 
-		$obj->setCodeCollaborateur("codeCollaborateur");
-		$this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-	}
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
 
-	/**
-	 * Tests the setNomCategorie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomCategorie() {
+    /**
+     * Tests the setNomCategorie() method.
+     *
+     * @return void
+     */
+    public function testSetNomCategorie() {
 
-		$obj = new NotesCategories();
+        $obj = new NotesCategories();
 
-		$obj->setNomCategorie("nomCategorie");
-		$this->assertEquals("nomCategorie", $obj->getNomCategorie());
-	}
+        $obj->setNomCategorie("nomCategorie");
+        $this->assertEquals("nomCategorie", $obj->getNomCategorie());
+    }
 
-	/**
-	 * Tests the setPosition() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPosition() {
+    /**
+     * Tests the setPosition() method.
+     *
+     * @return void
+     */
+    public function testSetPosition() {
 
-		$obj = new NotesCategories();
+        $obj = new NotesCategories();
 
-		$obj->setPosition(10);
-		$this->assertEquals(10, $obj->getPosition());
-	}
+        $obj->setPosition(10);
+        $this->assertEquals(10, $obj->getPosition());
+    }
 
 }

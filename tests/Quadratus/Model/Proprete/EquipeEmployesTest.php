@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EquipeEmployesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EquipeEmployes();
+        $obj = new EquipeEmployes();
 
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodeEquipe());
-	}
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeEquipe());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new EquipeEmployes();
+        $obj = new EquipeEmployes();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodeEquipe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEquipe() {
+    /**
+     * Tests the setCodeEquipe() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEquipe() {
 
-		$obj = new EquipeEmployes();
+        $obj = new EquipeEmployes();
 
-		$obj->setCodeEquipe("codeEquipe");
-		$this->assertEquals("codeEquipe", $obj->getCodeEquipe());
-	}
+        $obj->setCodeEquipe("codeEquipe");
+        $this->assertEquals("codeEquipe", $obj->getCodeEquipe());
+    }
 
 }

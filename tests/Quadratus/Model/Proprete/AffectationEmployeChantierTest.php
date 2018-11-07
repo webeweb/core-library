@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AffectationEmployeChantierTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AffectationEmployeChantier();
+        $obj = new AffectationEmployeChantier();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getDateAffectation());
-		$this->assertNull($obj->getDateFinAffectation());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateAffectation());
+        $this->assertNull($obj->getDateFinAffectation());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new AffectationEmployeChantier();
+        $obj = new AffectationEmployeChantier();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new AffectationEmployeChantier();
+        $obj = new AffectationEmployeChantier();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new AffectationEmployeChantier();
+        $obj = new AffectationEmployeChantier();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new AffectationEmployeChantier();
+        $obj = new AffectationEmployeChantier();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setDateAffectation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateAffectation() {
+    /**
+     * Tests the setDateAffectation() method.
+     *
+     * @return void
+     */
+    public function testSetDateAffectation() {
 
-		$obj = new AffectationEmployeChantier();
+        $obj = new AffectationEmployeChantier();
 
-		$obj->setDateAffectation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAffectation());
-	}
+        $obj->setDateAffectation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateAffectation());
+    }
 
-	/**
-	 * Tests the setDateFinAffectation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateFinAffectation() {
+    /**
+     * Tests the setDateFinAffectation() method.
+     *
+     * @return void
+     */
+    public function testSetDateFinAffectation() {
 
-		$obj = new AffectationEmployeChantier();
+        $obj = new AffectationEmployeChantier();
 
-		$obj->setDateFinAffectation(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateFinAffectation());
-	}
+        $obj->setDateFinAffectation(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateFinAffectation());
+    }
 
 }

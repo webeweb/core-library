@@ -23,127 +23,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DernErrPrepaFactTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeRegroupement());
-		$this->assertNull($obj->getDesignation());
-		$this->assertNull($obj->getDtPrepa());
-		$this->assertNull($obj->getNoChronoPreparation());
-		$this->assertNull($obj->getPeriode());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getDtPrepa());
+        $this->assertNull($obj->getNoChronoPreparation());
+        $this->assertNull($obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeRegroupement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRegroupement() {
+    /**
+     * Tests the setCodeRegroupement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegroupement() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$obj->setCodeRegroupement("codeRegroupement");
-		$this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
-	}
+        $obj->setCodeRegroupement("codeRegroupement");
+        $this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
+    }
 
-	/**
-	 * Tests the setDesignation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDesignation() {
+    /**
+     * Tests the setDesignation() method.
+     *
+     * @return void
+     */
+    public function testSetDesignation() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$obj->setDesignation("designation");
-		$this->assertEquals("designation", $obj->getDesignation());
-	}
+        $obj->setDesignation("designation");
+        $this->assertEquals("designation", $obj->getDesignation());
+    }
 
-	/**
-	 * Tests the setDtPrepa() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDtPrepa() {
+    /**
+     * Tests the setDtPrepa() method.
+     *
+     * @return void
+     */
+    public function testSetDtPrepa() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$obj->setDtPrepa(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDtPrepa());
-	}
+        $obj->setDtPrepa(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtPrepa());
+    }
 
-	/**
-	 * Tests the setNoChronoPreparation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNoChronoPreparation() {
+    /**
+     * Tests the setNoChronoPreparation() method.
+     *
+     * @return void
+     */
+    public function testSetNoChronoPreparation() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$obj->setNoChronoPreparation(10);
-		$this->assertEquals(10, $obj->getNoChronoPreparation());
-	}
+        $obj->setNoChronoPreparation(10);
+        $this->assertEquals(10, $obj->getNoChronoPreparation());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new DernErrPrepaFact();
+        $obj = new DernErrPrepaFact();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
 }

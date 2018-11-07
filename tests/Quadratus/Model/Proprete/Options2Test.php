@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class Options2Test extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Options2();
+        $obj = new Options2();
 
-		$this->assertNull($obj->getBooleen());
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getDateHeure());
-		$this->assertNull($obj->getDescriptif());
-		$this->assertNull($obj->getNumerique());
-		$this->assertNull($obj->getString());
-		$this->assertNull($obj->getType());
-	}
+        $this->assertNull($obj->getBooleen());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getDateHeure());
+        $this->assertNull($obj->getDescriptif());
+        $this->assertNull($obj->getNumerique());
+        $this->assertNull($obj->getString());
+        $this->assertNull($obj->getType());
+    }
 
-	/**
-	 * Tests the setBooleen() method.
-	 *
-	 * @return void
-	 */
-	public function testSetBooleen() {
+    /**
+     * Tests the setBooleen() method.
+     *
+     * @return void
+     */
+    public function testSetBooleen() {
 
-		$obj = new Options2();
+        $obj = new Options2();
 
-		$obj->setBooleen(true);
-		$this->assertEquals(true, $obj->getBooleen());
-	}
+        $obj->setBooleen(true);
+        $this->assertEquals(true, $obj->getBooleen());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new Options2();
+        $obj = new Options2();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setDateHeure() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateHeure() {
+    /**
+     * Tests the setDateHeure() method.
+     *
+     * @return void
+     */
+    public function testSetDateHeure() {
 
-		$obj = new Options2();
+        $obj = new Options2();
 
-		$obj->setDateHeure(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateHeure());
-	}
+        $obj->setDateHeure(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateHeure());
+    }
 
-	/**
-	 * Tests the setDescriptif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDescriptif() {
+    /**
+     * Tests the setDescriptif() method.
+     *
+     * @return void
+     */
+    public function testSetDescriptif() {
 
-		$obj = new Options2();
+        $obj = new Options2();
 
-		$obj->setDescriptif("descriptif");
-		$this->assertEquals("descriptif", $obj->getDescriptif());
-	}
+        $obj->setDescriptif("descriptif");
+        $this->assertEquals("descriptif", $obj->getDescriptif());
+    }
 
-	/**
-	 * Tests the setNumerique() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumerique() {
+    /**
+     * Tests the setNumerique() method.
+     *
+     * @return void
+     */
+    public function testSetNumerique() {
 
-		$obj = new Options2();
+        $obj = new Options2();
 
-		$obj->setNumerique(10.092018);
-		$this->assertEquals(10.092018, $obj->getNumerique());
-	}
+        $obj->setNumerique(10.092018);
+        $this->assertEquals(10.092018, $obj->getNumerique());
+    }
 
-	/**
-	 * Tests the setString() method.
-	 *
-	 * @return void
-	 */
-	public function testSetString() {
+    /**
+     * Tests the setString() method.
+     *
+     * @return void
+     */
+    public function testSetString() {
 
-		$obj = new Options2();
+        $obj = new Options2();
 
-		$obj->setString("string");
-		$this->assertEquals("string", $obj->getString());
-	}
+        $obj->setString("string");
+        $this->assertEquals("string", $obj->getString());
+    }
 
-	/**
-	 * Tests the setType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetType() {
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
 
-		$obj = new Options2();
+        $obj = new Options2();
 
-		$obj->setType("type");
-		$this->assertEquals("type", $obj->getType());
-	}
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 
 }

@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ChapitresDocumentsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ChapitresDocuments();
+        $obj = new ChapitresDocuments();
 
-		$this->assertNull($obj->getCode());
-		$this->assertNull($obj->getNomRepertoire());
-		$this->assertNull($obj->getPosition());
-	}
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getNomRepertoire());
+        $this->assertNull($obj->getPosition());
+    }
 
-	/**
-	 * Tests the setCode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCode() {
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
 
-		$obj = new ChapitresDocuments();
+        $obj = new ChapitresDocuments();
 
-		$obj->setCode("code");
-		$this->assertEquals("code", $obj->getCode());
-	}
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
 
-	/**
-	 * Tests the setNomRepertoire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNomRepertoire() {
+    /**
+     * Tests the setNomRepertoire() method.
+     *
+     * @return void
+     */
+    public function testSetNomRepertoire() {
 
-		$obj = new ChapitresDocuments();
+        $obj = new ChapitresDocuments();
 
-		$obj->setNomRepertoire("nomRepertoire");
-		$this->assertEquals("nomRepertoire", $obj->getNomRepertoire());
-	}
+        $obj->setNomRepertoire("nomRepertoire");
+        $this->assertEquals("nomRepertoire", $obj->getNomRepertoire());
+    }
 
-	/**
-	 * Tests the setPosition() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPosition() {
+    /**
+     * Tests the setPosition() method.
+     *
+     * @return void
+     */
+    public function testSetPosition() {
 
-		$obj = new ChapitresDocuments();
+        $obj = new ChapitresDocuments();
 
-		$obj->setPosition(10);
-		$this->assertEquals(10, $obj->getPosition());
-	}
+        $obj->setPosition(10);
+        $this->assertEquals(10, $obj->getPosition());
+    }
 
 }

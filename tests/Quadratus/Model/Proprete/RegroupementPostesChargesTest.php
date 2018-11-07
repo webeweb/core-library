@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class RegroupementPostesChargesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new RegroupementPostesCharges();
+        $obj = new RegroupementPostesCharges();
 
-		$this->assertNull($obj->getCodeCharge());
-		$this->assertNull($obj->getCodeRegCharge());
-	}
+        $this->assertNull($obj->getCodeCharge());
+        $this->assertNull($obj->getCodeRegCharge());
+    }
 
-	/**
-	 * Tests the setCodeCharge() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCharge() {
+    /**
+     * Tests the setCodeCharge() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCharge() {
 
-		$obj = new RegroupementPostesCharges();
+        $obj = new RegroupementPostesCharges();
 
-		$obj->setCodeCharge("codeCharge");
-		$this->assertEquals("codeCharge", $obj->getCodeCharge());
-	}
+        $obj->setCodeCharge("codeCharge");
+        $this->assertEquals("codeCharge", $obj->getCodeCharge());
+    }
 
-	/**
-	 * Tests the setCodeRegCharge() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRegCharge() {
+    /**
+     * Tests the setCodeRegCharge() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegCharge() {
 
-		$obj = new RegroupementPostesCharges();
+        $obj = new RegroupementPostesCharges();
 
-		$obj->setCodeRegCharge("codeRegCharge");
-		$this->assertEquals("codeRegCharge", $obj->getCodeRegCharge());
-	}
+        $obj->setCodeRegCharge("codeRegCharge");
+        $this->assertEquals("codeRegCharge", $obj->getCodeRegCharge());
+    }
 
 }

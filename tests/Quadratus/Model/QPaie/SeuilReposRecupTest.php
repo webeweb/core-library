@@ -23,71 +23,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class SeuilReposRecupTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new SeuilReposRecup();
+        $obj = new SeuilReposRecup();
 
-		$this->assertNull($obj->getDateApplication());
-		$this->assertNull($obj->getNbJourReposRecup());
-		$this->assertNull($obj->getNumeroGrilleType());
-		$this->assertNull($obj->getSeuilDeclenche());
-	}
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getNbJourReposRecup());
+        $this->assertNull($obj->getNumeroGrilleType());
+        $this->assertNull($obj->getSeuilDeclenche());
+    }
 
-	/**
-	 * Tests the setDateApplication() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateApplication() {
+    /**
+     * Tests the setDateApplication() method.
+     *
+     * @return void
+     */
+    public function testSetDateApplication() {
 
-		$obj = new SeuilReposRecup();
+        $obj = new SeuilReposRecup();
 
-		$obj->setDateApplication(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplication());
-	}
+        $obj->setDateApplication(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateApplication());
+    }
 
-	/**
-	 * Tests the setNbJourReposRecup() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbJourReposRecup() {
+    /**
+     * Tests the setNbJourReposRecup() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourReposRecup() {
 
-		$obj = new SeuilReposRecup();
+        $obj = new SeuilReposRecup();
 
-		$obj->setNbJourReposRecup(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbJourReposRecup());
-	}
+        $obj->setNbJourReposRecup(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourReposRecup());
+    }
 
-	/**
-	 * Tests the setNumeroGrilleType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroGrilleType() {
+    /**
+     * Tests the setNumeroGrilleType() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroGrilleType() {
 
-		$obj = new SeuilReposRecup();
+        $obj = new SeuilReposRecup();
 
-		$obj->setNumeroGrilleType(10);
-		$this->assertEquals(10, $obj->getNumeroGrilleType());
-	}
+        $obj->setNumeroGrilleType(10);
+        $this->assertEquals(10, $obj->getNumeroGrilleType());
+    }
 
-	/**
-	 * Tests the setSeuilDeclenche() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSeuilDeclenche() {
+    /**
+     * Tests the setSeuilDeclenche() method.
+     *
+     * @return void
+     */
+    public function testSetSeuilDeclenche() {
 
-		$obj = new SeuilReposRecup();
+        $obj = new SeuilReposRecup();
 
-		$obj->setSeuilDeclenche(10.092018);
-		$this->assertEquals(10.092018, $obj->getSeuilDeclenche());
-	}
+        $obj->setSeuilDeclenche(10.092018);
+        $this->assertEquals(10.092018, $obj->getSeuilDeclenche());
+    }
 
 }

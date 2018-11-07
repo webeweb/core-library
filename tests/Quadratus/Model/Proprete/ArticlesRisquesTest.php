@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ArticlesRisquesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ArticlesRisques();
+        $obj = new ArticlesRisques();
 
-		$this->assertNull($obj->getCodeArticle());
-		$this->assertNull($obj->getCodeRisque());
-	}
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeRisque());
+    }
 
-	/**
-	 * Tests the setCodeArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeArticle() {
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
 
-		$obj = new ArticlesRisques();
+        $obj = new ArticlesRisques();
 
-		$obj->setCodeArticle("codeArticle");
-		$this->assertEquals("codeArticle", $obj->getCodeArticle());
-	}
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
 
-	/**
-	 * Tests the setCodeRisque() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRisque() {
+    /**
+     * Tests the setCodeRisque() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRisque() {
 
-		$obj = new ArticlesRisques();
+        $obj = new ArticlesRisques();
 
-		$obj->setCodeRisque("codeRisque");
-		$this->assertEquals("codeRisque", $obj->getCodeRisque());
-	}
+        $obj->setCodeRisque("codeRisque");
+        $this->assertEquals("codeRisque", $obj->getCodeRisque());
+    }
 
 }

@@ -22,85 +22,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ClientsAffairesChantiersTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ClientsAffairesChantiers();
+        $obj = new ClientsAffairesChantiers();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getDossierProp());
-		$this->assertNull($obj->getNumUniq());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDossierProp());
+        $this->assertNull($obj->getNumUniq());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new ClientsAffairesChantiers();
+        $obj = new ClientsAffairesChantiers();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new ClientsAffairesChantiers();
+        $obj = new ClientsAffairesChantiers();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ClientsAffairesChantiers();
+        $obj = new ClientsAffairesChantiers();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setDossierProp() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDossierProp() {
+    /**
+     * Tests the setDossierProp() method.
+     *
+     * @return void
+     */
+    public function testSetDossierProp() {
 
-		$obj = new ClientsAffairesChantiers();
+        $obj = new ClientsAffairesChantiers();
 
-		$obj->setDossierProp("dossierProp");
-		$this->assertEquals("dossierProp", $obj->getDossierProp());
-	}
+        $obj->setDossierProp("dossierProp");
+        $this->assertEquals("dossierProp", $obj->getDossierProp());
+    }
 
-	/**
-	 * Tests the setNumUniq() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumUniq() {
+    /**
+     * Tests the setNumUniq() method.
+     *
+     * @return void
+     */
+    public function testSetNumUniq() {
 
-		$obj = new ClientsAffairesChantiers();
+        $obj = new ClientsAffairesChantiers();
 
-		$obj->setNumUniq("numUniq");
-		$this->assertEquals("numUniq", $obj->getNumUniq());
-	}
+        $obj->setNumUniq("numUniq");
+        $this->assertEquals("numUniq", $obj->getNumUniq());
+    }
 
 }

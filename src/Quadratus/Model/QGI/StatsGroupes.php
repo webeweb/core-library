@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\QGI;
 
-
 /**
  * Stats groupes model.
  *
@@ -20,92 +19,92 @@ namespace WBW\Library\Core\Quadratus\Model\QGI;
  */
 class StatsGroupes {
 
-	/**
-	 * Code.
-	 *
-	 * @var string
-	 */
-	private $code;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
 
-	/**
-	 * Groupe stat.
-	 *
-	 * @var string
-	 */
-	private $groupeStat;
+    /**
+     * Groupe stat.
+     *
+     * @var string
+     */
+    private $groupeStat;
 
-	/**
-	 * Type champ.
-	 *
-	 * @var string
-	 */
-	private $typeChamp;
+    /**
+     * Type champ.
+     *
+     * @var string
+     */
+    private $typeChamp;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code.
-	 *
-	 * @return string Returns the code.
-	 */
-	public function getCode() {
-		return $this->code;
-	}
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
 
-	/**
-	 * Get the groupe stat.
-	 *
-	 * @return string Returns the groupe stat.
-	 */
-	public function getGroupeStat() {
-		return $this->groupeStat;
-	}
+    /**
+     * Get the groupe stat.
+     *
+     * @return string Returns the groupe stat.
+     */
+    public function getGroupeStat() {
+        return $this->groupeStat;
+    }
 
-	/**
-	 * Get the type champ.
-	 *
-	 * @return string Returns the type champ.
-	 */
-	public function getTypeChamp() {
-		return $this->typeChamp;
-	}
+    /**
+     * Get the type champ.
+     *
+     * @return string Returns the type champ.
+     */
+    public function getTypeChamp() {
+        return $this->typeChamp;
+    }
 
-	/**
-	 * Set the code.
-	 *
-	 * @param string $code The code.
-	 * @return StatsGroupes Returns this stats groupes.
-	 */
-	public function setCode($code) {
-		$this->code = $code;
-		return $this;
-	}
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     * @return StatsGroupes Returns this stats groupes.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
 
-	/**
-	 * Set the groupe stat.
-	 *
-	 * @param string $groupeStat The groupe stat.
-	 * @return StatsGroupes Returns this stats groupes.
-	 */
-	public function setGroupeStat($groupeStat) {
-		$this->groupeStat = $groupeStat;
-		return $this;
-	}
+    /**
+     * Set the groupe stat.
+     *
+     * @param string $groupeStat The groupe stat.
+     * @return StatsGroupes Returns this stats groupes.
+     */
+    public function setGroupeStat($groupeStat) {
+        $this->groupeStat = $groupeStat;
+        return $this;
+    }
 
-	/**
-	 * Set the type champ.
-	 *
-	 * @param string $typeChamp The type champ.
-	 * @return StatsGroupes Returns this stats groupes.
-	 */
-	public function setTypeChamp($typeChamp) {
-		$this->typeChamp = $typeChamp;
-		return $this;
-	}
+    /**
+     * Set the type champ.
+     *
+     * @param string $typeChamp The type champ.
+     * @return StatsGroupes Returns this stats groupes.
+     */
+    public function setTypeChamp($typeChamp) {
+        $this->typeChamp = $typeChamp;
+        return $this;
+    }
 
 }

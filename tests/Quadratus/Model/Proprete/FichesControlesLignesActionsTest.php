@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class FichesControlesLignesActionsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new FichesControlesLignesActions();
+        $obj = new FichesControlesLignesActions();
 
-		$this->assertNull($obj->getCodeAction());
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getDate());
-		$this->assertNull($obj->getLibelleAction());
-		$this->assertNull($obj->getNumeroFiche());
-	}
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getLibelleAction());
+        $this->assertNull($obj->getNumeroFiche());
+    }
 
-	/**
-	 * Tests the setCodeAction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAction() {
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
 
-		$obj = new FichesControlesLignesActions();
+        $obj = new FichesControlesLignesActions();
 
-		$obj->setCodeAction("codeAction");
-		$this->assertEquals("codeAction", $obj->getCodeAction());
-	}
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new FichesControlesLignesActions();
+        $obj = new FichesControlesLignesActions();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new FichesControlesLignesActions();
+        $obj = new FichesControlesLignesActions();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new FichesControlesLignesActions();
+        $obj = new FichesControlesLignesActions();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setDate() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDate() {
+    /**
+     * Tests the setDate() method.
+     *
+     * @return void
+     */
+    public function testSetDate() {
 
-		$obj = new FichesControlesLignesActions();
+        $obj = new FichesControlesLignesActions();
 
-		$obj->setDate(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDate());
-	}
+        $obj->setDate(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDate());
+    }
 
-	/**
-	 * Tests the setLibelleAction() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLibelleAction() {
+    /**
+     * Tests the setLibelleAction() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleAction() {
 
-		$obj = new FichesControlesLignesActions();
+        $obj = new FichesControlesLignesActions();
 
-		$obj->setLibelleAction("libelleAction");
-		$this->assertEquals("libelleAction", $obj->getLibelleAction());
-	}
+        $obj->setLibelleAction("libelleAction");
+        $this->assertEquals("libelleAction", $obj->getLibelleAction());
+    }
 
-	/**
-	 * Tests the setNumeroFiche() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroFiche() {
+    /**
+     * Tests the setNumeroFiche() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroFiche() {
 
-		$obj = new FichesControlesLignesActions();
+        $obj = new FichesControlesLignesActions();
 
-		$obj->setNumeroFiche(10);
-		$this->assertEquals(10, $obj->getNumeroFiche());
-	}
+        $obj->setNumeroFiche(10);
+        $this->assertEquals(10, $obj->getNumeroFiche());
+    }
 
 }

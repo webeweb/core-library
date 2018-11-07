@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class TrameInventaireTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new TrameInventaire();
+        $obj = new TrameInventaire();
 
-		$this->assertNull($obj->getCodeArticle());
-		$this->assertNull($obj->getCodeTrame());
-		$this->assertNull($obj->getNumOrdre());
-	}
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeTrame());
+        $this->assertNull($obj->getNumOrdre());
+    }
 
-	/**
-	 * Tests the setCodeArticle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeArticle() {
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
 
-		$obj = new TrameInventaire();
+        $obj = new TrameInventaire();
 
-		$obj->setCodeArticle("codeArticle");
-		$this->assertEquals("codeArticle", $obj->getCodeArticle());
-	}
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
 
-	/**
-	 * Tests the setCodeTrame() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeTrame() {
+    /**
+     * Tests the setCodeTrame() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTrame() {
 
-		$obj = new TrameInventaire();
+        $obj = new TrameInventaire();
 
-		$obj->setCodeTrame("codeTrame");
-		$this->assertEquals("codeTrame", $obj->getCodeTrame());
-	}
+        $obj->setCodeTrame("codeTrame");
+        $this->assertEquals("codeTrame", $obj->getCodeTrame());
+    }
 
-	/**
-	 * Tests the setNumOrdre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumOrdre() {
+    /**
+     * Tests the setNumOrdre() method.
+     *
+     * @return void
+     */
+    public function testSetNumOrdre() {
 
-		$obj = new TrameInventaire();
+        $obj = new TrameInventaire();
 
-		$obj->setNumOrdre(10);
-		$this->assertEquals(10, $obj->getNumOrdre());
-	}
+        $obj->setNumOrdre(10);
+        $this->assertEquals(10, $obj->getNumOrdre());
+    }
 
 }

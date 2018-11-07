@@ -23,99 +23,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ElementsSupprimesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ElementsSupprimes();
+        $obj = new ElementsSupprimes();
 
-		$this->assertNull($obj->getDate1());
-		$this->assertNull($obj->getDateElem());
-		$this->assertNull($obj->getMemo1());
-		$this->assertNull($obj->getTexte1());
-		$this->assertNull($obj->getTypeElem());
-		$this->assertNull($obj->getUniqID());
-	}
+        $this->assertNull($obj->getDate1());
+        $this->assertNull($obj->getDateElem());
+        $this->assertNull($obj->getMemo1());
+        $this->assertNull($obj->getTexte1());
+        $this->assertNull($obj->getTypeElem());
+        $this->assertNull($obj->getUniqID());
+    }
 
-	/**
-	 * Tests the setDate1() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDate1() {
+    /**
+     * Tests the setDate1() method.
+     *
+     * @return void
+     */
+    public function testSetDate1() {
 
-		$obj = new ElementsSupprimes();
+        $obj = new ElementsSupprimes();
 
-		$obj->setDate1(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDate1());
-	}
+        $obj->setDate1(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDate1());
+    }
 
-	/**
-	 * Tests the setDateElem() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateElem() {
+    /**
+     * Tests the setDateElem() method.
+     *
+     * @return void
+     */
+    public function testSetDateElem() {
 
-		$obj = new ElementsSupprimes();
+        $obj = new ElementsSupprimes();
 
-		$obj->setDateElem(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateElem());
-	}
+        $obj->setDateElem(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateElem());
+    }
 
-	/**
-	 * Tests the setMemo1() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMemo1() {
+    /**
+     * Tests the setMemo1() method.
+     *
+     * @return void
+     */
+    public function testSetMemo1() {
 
-		$obj = new ElementsSupprimes();
+        $obj = new ElementsSupprimes();
 
-		$obj->setMemo1("memo1");
-		$this->assertEquals("memo1", $obj->getMemo1());
-	}
+        $obj->setMemo1("memo1");
+        $this->assertEquals("memo1", $obj->getMemo1());
+    }
 
-	/**
-	 * Tests the setTexte1() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTexte1() {
+    /**
+     * Tests the setTexte1() method.
+     *
+     * @return void
+     */
+    public function testSetTexte1() {
 
-		$obj = new ElementsSupprimes();
+        $obj = new ElementsSupprimes();
 
-		$obj->setTexte1("texte1");
-		$this->assertEquals("texte1", $obj->getTexte1());
-	}
+        $obj->setTexte1("texte1");
+        $this->assertEquals("texte1", $obj->getTexte1());
+    }
 
-	/**
-	 * Tests the setTypeElem() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeElem() {
+    /**
+     * Tests the setTypeElem() method.
+     *
+     * @return void
+     */
+    public function testSetTypeElem() {
 
-		$obj = new ElementsSupprimes();
+        $obj = new ElementsSupprimes();
 
-		$obj->setTypeElem("typeElem");
-		$this->assertEquals("typeElem", $obj->getTypeElem());
-	}
+        $obj->setTypeElem("typeElem");
+        $this->assertEquals("typeElem", $obj->getTypeElem());
+    }
 
-	/**
-	 * Tests the setUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqID() {
+    /**
+     * Tests the setUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetUniqID() {
 
-		$obj = new ElementsSupprimes();
+        $obj = new ElementsSupprimes();
 
-		$obj->setUniqID("uniqID");
-		$this->assertEquals("uniqID", $obj->getUniqID());
-	}
+        $obj->setUniqID("uniqID");
+        $this->assertEquals("uniqID", $obj->getUniqID());
+    }
 
 }

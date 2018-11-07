@@ -22,71 +22,71 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmpDADSURetraiteLignesContratTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmpDADSURetraiteLignesContrat();
+        $obj = new EmpDADSURetraiteLignesContrat();
 
-		$this->assertNull($obj->getCodeEtablissement());
-		$this->assertNull($obj->getCodeOrganisme());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getRefContrat());
-	}
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getRefContrat());
+    }
 
-	/**
-	 * Tests the setCodeEtablissement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEtablissement() {
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
 
-		$obj = new EmpDADSURetraiteLignesContrat();
+        $obj = new EmpDADSURetraiteLignesContrat();
 
-		$obj->setCodeEtablissement(10);
-		$this->assertEquals(10, $obj->getCodeEtablissement());
-	}
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
 
-	/**
-	 * Tests the setCodeOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganisme() {
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
 
-		$obj = new EmpDADSURetraiteLignesContrat();
+        $obj = new EmpDADSURetraiteLignesContrat();
 
-		$obj->setCodeOrganisme("codeOrganisme");
-		$this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-	}
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new EmpDADSURetraiteLignesContrat();
+        $obj = new EmpDADSURetraiteLignesContrat();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setRefContrat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRefContrat() {
+    /**
+     * Tests the setRefContrat() method.
+     *
+     * @return void
+     */
+    public function testSetRefContrat() {
 
-		$obj = new EmpDADSURetraiteLignesContrat();
+        $obj = new EmpDADSURetraiteLignesContrat();
 
-		$obj->setRefContrat("refContrat");
-		$this->assertEquals("refContrat", $obj->getRefContrat());
-	}
+        $obj->setRefContrat("refContrat");
+        $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
 
 }

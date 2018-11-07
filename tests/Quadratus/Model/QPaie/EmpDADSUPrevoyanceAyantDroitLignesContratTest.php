@@ -23,127 +23,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmpDADSUPrevoyanceAyantDroitLignesContratTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$this->assertNull($obj->getCodeOption());
-		$this->assertNull($obj->getCodeOrganisme());
-		$this->assertNull($obj->getCodePopulation());
-		$this->assertNull($obj->getDebutPeriode());
-		$this->assertNull($obj->getFinPeriode());
-		$this->assertNull($obj->getNumeroAyantDroit());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getRefContrat());
-	}
+        $this->assertNull($obj->getCodeOption());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodePopulation());
+        $this->assertNull($obj->getDebutPeriode());
+        $this->assertNull($obj->getFinPeriode());
+        $this->assertNull($obj->getNumeroAyantDroit());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getRefContrat());
+    }
 
-	/**
-	 * Tests the setCodeOption() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOption() {
+    /**
+     * Tests the setCodeOption() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOption() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$obj->setCodeOption("codeOption");
-		$this->assertEquals("codeOption", $obj->getCodeOption());
-	}
+        $obj->setCodeOption("codeOption");
+        $this->assertEquals("codeOption", $obj->getCodeOption());
+    }
 
-	/**
-	 * Tests the setCodeOrganisme() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeOrganisme() {
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$obj->setCodeOrganisme("codeOrganisme");
-		$this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-	}
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
 
-	/**
-	 * Tests the setCodePopulation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodePopulation() {
+    /**
+     * Tests the setCodePopulation() method.
+     *
+     * @return void
+     */
+    public function testSetCodePopulation() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$obj->setCodePopulation("codePopulation");
-		$this->assertEquals("codePopulation", $obj->getCodePopulation());
-	}
+        $obj->setCodePopulation("codePopulation");
+        $this->assertEquals("codePopulation", $obj->getCodePopulation());
+    }
 
-	/**
-	 * Tests the setDebutPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDebutPeriode() {
+    /**
+     * Tests the setDebutPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetDebutPeriode() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$obj->setDebutPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDebutPeriode());
-	}
+        $obj->setDebutPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDebutPeriode());
+    }
 
-	/**
-	 * Tests the setFinPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFinPeriode() {
+    /**
+     * Tests the setFinPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetFinPeriode() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$obj->setFinPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getFinPeriode());
-	}
+        $obj->setFinPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getFinPeriode());
+    }
 
-	/**
-	 * Tests the setNumeroAyantDroit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroAyantDroit() {
+    /**
+     * Tests the setNumeroAyantDroit() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAyantDroit() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$obj->setNumeroAyantDroit(10);
-		$this->assertEquals(10, $obj->getNumeroAyantDroit());
-	}
+        $obj->setNumeroAyantDroit(10);
+        $this->assertEquals(10, $obj->getNumeroAyantDroit());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setRefContrat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetRefContrat() {
+    /**
+     * Tests the setRefContrat() method.
+     *
+     * @return void
+     */
+    public function testSetRefContrat() {
 
-		$obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
+        $obj = new EmpDADSUPrevoyanceAyantDroitLignesContrat();
 
-		$obj->setRefContrat("refContrat");
-		$this->assertEquals("refContrat", $obj->getRefContrat());
-	}
+        $obj->setRefContrat("refContrat");
+        $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
 
 }

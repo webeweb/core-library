@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EnfantsTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Enfants();
+        $obj = new Enfants();
 
-		$this->assertNull($obj->getACharge());
-		$this->assertNull($obj->getDateNaissance());
-		$this->assertNull($obj->getNom());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPrenom());
-		$this->assertNull($obj->getSexe());
-	}
+        $this->assertNull($obj->getACharge());
+        $this->assertNull($obj->getDateNaissance());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPrenom());
+        $this->assertNull($obj->getSexe());
+    }
 
-	/**
-	 * Tests the setACharge() method.
-	 *
-	 * @return void
-	 */
-	public function testSetACharge() {
+    /**
+     * Tests the setACharge() method.
+     *
+     * @return void
+     */
+    public function testSetACharge() {
 
-		$obj = new Enfants();
+        $obj = new Enfants();
 
-		$obj->setACharge(true);
-		$this->assertEquals(true, $obj->getACharge());
-	}
+        $obj->setACharge(true);
+        $this->assertEquals(true, $obj->getACharge());
+    }
 
-	/**
-	 * Tests the setDateNaissance() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateNaissance() {
+    /**
+     * Tests the setDateNaissance() method.
+     *
+     * @return void
+     */
+    public function testSetDateNaissance() {
 
-		$obj = new Enfants();
+        $obj = new Enfants();
 
-		$obj->setDateNaissance(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateNaissance());
-	}
+        $obj->setDateNaissance(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateNaissance());
+    }
 
-	/**
-	 * Tests the setNom() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNom() {
+    /**
+     * Tests the setNom() method.
+     *
+     * @return void
+     */
+    public function testSetNom() {
 
-		$obj = new Enfants();
+        $obj = new Enfants();
 
-		$obj->setNom("nom");
-		$this->assertEquals("nom", $obj->getNom());
-	}
+        $obj->setNom("nom");
+        $this->assertEquals("nom", $obj->getNom());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new Enfants();
+        $obj = new Enfants();
 
-		$obj->setNumLigne(10);
-		$this->assertEquals(10, $obj->getNumLigne());
-	}
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new Enfants();
+        $obj = new Enfants();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPrenom() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPrenom() {
+    /**
+     * Tests the setPrenom() method.
+     *
+     * @return void
+     */
+    public function testSetPrenom() {
 
-		$obj = new Enfants();
+        $obj = new Enfants();
 
-		$obj->setPrenom("prenom");
-		$this->assertEquals("prenom", $obj->getPrenom());
-	}
+        $obj->setPrenom("prenom");
+        $this->assertEquals("prenom", $obj->getPrenom());
+    }
 
-	/**
-	 * Tests the setSexe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSexe() {
+    /**
+     * Tests the setSexe() method.
+     *
+     * @return void
+     */
+    public function testSetSexe() {
 
-		$obj = new Enfants();
+        $obj = new Enfants();
 
-		$obj->setSexe("sexe");
-		$this->assertEquals("sexe", $obj->getSexe());
-	}
+        $obj->setSexe("sexe");
+        $this->assertEquals("sexe", $obj->getSexe());
+    }
 
 }

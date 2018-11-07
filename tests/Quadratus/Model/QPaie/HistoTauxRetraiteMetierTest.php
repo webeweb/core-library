@@ -23,155 +23,155 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HistoTauxRetraiteMetierTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$this->assertNull($obj->getAPartirDe());
-		$this->assertNull($obj->getCategSalarie());
-		$this->assertNull($obj->getCodeActivite());
-		$this->assertNull($obj->getCodeLibelle());
-		$this->assertNull($obj->getCodeMetier());
-		$this->assertNull($obj->getFormatNonEtendu());
-		$this->assertNull($obj->getIndiceCateg());
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getTauxPatronal());
-		$this->assertNull($obj->getTauxSalarial());
-	}
+        $this->assertNull($obj->getAPartirDe());
+        $this->assertNull($obj->getCategSalarie());
+        $this->assertNull($obj->getCodeActivite());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeMetier());
+        $this->assertNull($obj->getFormatNonEtendu());
+        $this->assertNull($obj->getIndiceCateg());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getTauxPatronal());
+        $this->assertNull($obj->getTauxSalarial());
+    }
 
-	/**
-	 * Tests the setAPartirDe() method.
-	 *
-	 * @return void
-	 */
-	public function testSetAPartirDe() {
+    /**
+     * Tests the setAPartirDe() method.
+     *
+     * @return void
+     */
+    public function testSetAPartirDe() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setAPartirDe(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getAPartirDe());
-	}
+        $obj->setAPartirDe(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getAPartirDe());
+    }
 
-	/**
-	 * Tests the setCategSalarie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCategSalarie() {
+    /**
+     * Tests the setCategSalarie() method.
+     *
+     * @return void
+     */
+    public function testSetCategSalarie() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setCategSalarie(10);
-		$this->assertEquals(10, $obj->getCategSalarie());
-	}
+        $obj->setCategSalarie(10);
+        $this->assertEquals(10, $obj->getCategSalarie());
+    }
 
-	/**
-	 * Tests the setCodeActivite() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeActivite() {
+    /**
+     * Tests the setCodeActivite() method.
+     *
+     * @return void
+     */
+    public function testSetCodeActivite() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setCodeActivite("codeActivite");
-		$this->assertEquals("codeActivite", $obj->getCodeActivite());
-	}
+        $obj->setCodeActivite("codeActivite");
+        $this->assertEquals("codeActivite", $obj->getCodeActivite());
+    }
 
-	/**
-	 * Tests the setCodeLibelle() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeLibelle() {
+    /**
+     * Tests the setCodeLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibelle() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setCodeLibelle("codeLibelle");
-		$this->assertEquals("codeLibelle", $obj->getCodeLibelle());
-	}
+        $obj->setCodeLibelle("codeLibelle");
+        $this->assertEquals("codeLibelle", $obj->getCodeLibelle());
+    }
 
-	/**
-	 * Tests the setCodeMetier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeMetier() {
+    /**
+     * Tests the setCodeMetier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeMetier() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setCodeMetier("codeMetier");
-		$this->assertEquals("codeMetier", $obj->getCodeMetier());
-	}
+        $obj->setCodeMetier("codeMetier");
+        $this->assertEquals("codeMetier", $obj->getCodeMetier());
+    }
 
-	/**
-	 * Tests the setFormatNonEtendu() method.
-	 *
-	 * @return void
-	 */
-	public function testSetFormatNonEtendu() {
+    /**
+     * Tests the setFormatNonEtendu() method.
+     *
+     * @return void
+     */
+    public function testSetFormatNonEtendu() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setFormatNonEtendu(true);
-		$this->assertEquals(true, $obj->getFormatNonEtendu());
-	}
+        $obj->setFormatNonEtendu(true);
+        $this->assertEquals(true, $obj->getFormatNonEtendu());
+    }
 
-	/**
-	 * Tests the setIndiceCateg() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndiceCateg() {
+    /**
+     * Tests the setIndiceCateg() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceCateg() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setIndiceCateg(10);
-		$this->assertEquals(10, $obj->getIndiceCateg());
-	}
+        $obj->setIndiceCateg(10);
+        $this->assertEquals(10, $obj->getIndiceCateg());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setTauxPatronal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxPatronal() {
+    /**
+     * Tests the setTauxPatronal() method.
+     *
+     * @return void
+     */
+    public function testSetTauxPatronal() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setTauxPatronal(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxPatronal());
-	}
+        $obj->setTauxPatronal(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxPatronal());
+    }
 
-	/**
-	 * Tests the setTauxSalarial() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTauxSalarial() {
+    /**
+     * Tests the setTauxSalarial() method.
+     *
+     * @return void
+     */
+    public function testSetTauxSalarial() {
 
-		$obj = new HistoTauxRetraiteMetier();
+        $obj = new HistoTauxRetraiteMetier();
 
-		$obj->setTauxSalarial(10.092018);
-		$this->assertEquals(10.092018, $obj->getTauxSalarial());
-	}
+        $obj->setTauxSalarial(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxSalarial());
+    }
 
 }

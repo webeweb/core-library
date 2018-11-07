@@ -22,183 +22,183 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class SousLignesAnalytiquesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeCentre());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeNature());
-		$this->assertNull($obj->getCodeRegroupement());
-		$this->assertNull($obj->getMontant());
-		$this->assertNull($obj->getNumeroDocument());
-		$this->assertNull($obj->getNumeroLigne());
-		$this->assertNull($obj->getNumeroLigneAnal());
-		$this->assertNull($obj->getNumeroSousLigneCptHT());
-		$this->assertNull($obj->getTypeDocument());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumeroDocument());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getNumeroLigneAnal());
+        $this->assertNull($obj->getNumeroSousLigneCptHT());
+        $this->assertNull($obj->getTypeDocument());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeCentre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCentre() {
+    /**
+     * Tests the setCodeCentre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCentre() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setCodeCentre("codeCentre");
-		$this->assertEquals("codeCentre", $obj->getCodeCentre());
-	}
+        $obj->setCodeCentre("codeCentre");
+        $this->assertEquals("codeCentre", $obj->getCodeCentre());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeNature() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeNature() {
+    /**
+     * Tests the setCodeNature() method.
+     *
+     * @return void
+     */
+    public function testSetCodeNature() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setCodeNature("codeNature");
-		$this->assertEquals("codeNature", $obj->getCodeNature());
-	}
+        $obj->setCodeNature("codeNature");
+        $this->assertEquals("codeNature", $obj->getCodeNature());
+    }
 
-	/**
-	 * Tests the setCodeRegroupement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRegroupement() {
+    /**
+     * Tests the setCodeRegroupement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegroupement() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setCodeRegroupement("codeRegroupement");
-		$this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
-	}
+        $obj->setCodeRegroupement("codeRegroupement");
+        $this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
+    }
 
-	/**
-	 * Tests the setMontant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontant() {
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setMontant(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontant());
-	}
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
 
-	/**
-	 * Tests the setNumeroDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroDocument() {
+    /**
+     * Tests the setNumeroDocument() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroDocument() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setNumeroDocument("numeroDocument");
-		$this->assertEquals("numeroDocument", $obj->getNumeroDocument());
-	}
+        $obj->setNumeroDocument("numeroDocument");
+        $this->assertEquals("numeroDocument", $obj->getNumeroDocument());
+    }
 
-	/**
-	 * Tests the setNumeroLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroLigne() {
+    /**
+     * Tests the setNumeroLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLigne() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setNumeroLigne(10);
-		$this->assertEquals(10, $obj->getNumeroLigne());
-	}
+        $obj->setNumeroLigne(10);
+        $this->assertEquals(10, $obj->getNumeroLigne());
+    }
 
-	/**
-	 * Tests the setNumeroLigneAnal() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroLigneAnal() {
+    /**
+     * Tests the setNumeroLigneAnal() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLigneAnal() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setNumeroLigneAnal(10);
-		$this->assertEquals(10, $obj->getNumeroLigneAnal());
-	}
+        $obj->setNumeroLigneAnal(10);
+        $this->assertEquals(10, $obj->getNumeroLigneAnal());
+    }
 
-	/**
-	 * Tests the setNumeroSousLigneCptHT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroSousLigneCptHT() {
+    /**
+     * Tests the setNumeroSousLigneCptHT() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroSousLigneCptHT() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setNumeroSousLigneCptHT(10);
-		$this->assertEquals(10, $obj->getNumeroSousLigneCptHT());
-	}
+        $obj->setNumeroSousLigneCptHT(10);
+        $this->assertEquals(10, $obj->getNumeroSousLigneCptHT());
+    }
 
-	/**
-	 * Tests the setTypeDocument() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeDocument() {
+    /**
+     * Tests the setTypeDocument() method.
+     *
+     * @return void
+     */
+    public function testSetTypeDocument() {
 
-		$obj = new SousLignesAnalytiques();
+        $obj = new SousLignesAnalytiques();
 
-		$obj->setTypeDocument("typeDocument");
-		$this->assertEquals("typeDocument", $obj->getTypeDocument());
-	}
+        $obj->setTypeDocument("typeDocument");
+        $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
 
 }

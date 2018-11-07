@@ -21,308 +21,308 @@ use DateTime;
  */
 class CommentairesPaie {
 
-	/**
-	 * Code collabo valid.
-	 *
-	 * @var string
-	 */
-	private $codeCollaboValid;
+    /**
+     * Code collabo valid.
+     *
+     * @var string
+     */
+    private $codeCollaboValid;
 
-	/**
-	 * Code collaborateur.
-	 *
-	 * @var string
-	 */
-	private $codeCollaborateur;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
 
-	/**
-	 * Code employe.
-	 *
-	 * @var string
-	 */
-	private $codeEmploye;
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
 
-	/**
-	 * Commentaire.
-	 *
-	 * @var string
-	 */
-	private $commentaire;
+    /**
+     * Commentaire.
+     *
+     * @var string
+     */
+    private $commentaire;
 
-	/**
-	 * Date comm.
-	 *
-	 * @var DateTime
-	 */
-	private $dateComm;
+    /**
+     * Date comm.
+     *
+     * @var DateTime
+     */
+    private $dateComm;
 
-	/**
-	 * Date validation synchro.
-	 *
-	 * @var DateTime
-	 */
-	private $dateValidationSynchro;
+    /**
+     * Date validation synchro.
+     *
+     * @var DateTime
+     */
+    private $dateValidationSynchro;
 
-	/**
-	 * Etat.
-	 *
-	 * @var string
-	 */
-	private $etat;
+    /**
+     * Etat.
+     *
+     * @var string
+     */
+    private $etat;
 
-	/**
-	 * Id comm.
-	 *
-	 * @var int
-	 */
-	private $idComm;
+    /**
+     * Id comm.
+     *
+     * @var int
+     */
+    private $idComm;
 
-	/**
-	 * Periode.
-	 *
-	 * @var DateTime
-	 */
-	private $periode;
+    /**
+     * Periode.
+     *
+     * @var DateTime
+     */
+    private $periode;
 
-	/**
-	 * Type comm.
-	 *
-	 * @var string
-	 */
-	private $typeComm;
+    /**
+     * Type comm.
+     *
+     * @var string
+     */
+    private $typeComm;
 
-	/**
-	 * Uniq i d synchro.
-	 *
-	 * @var string
-	 */
-	private $uniqIDSynchro;
+    /**
+     * Uniq i d synchro.
+     *
+     * @var string
+     */
+    private $uniqIDSynchro;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code collabo valid.
-	 *
-	 * @return string Returns the code collabo valid.
-	 */
-	public function getCodeCollaboValid() {
-		return $this->codeCollaboValid;
-	}
+    /**
+     * Get the code collabo valid.
+     *
+     * @return string Returns the code collabo valid.
+     */
+    public function getCodeCollaboValid() {
+        return $this->codeCollaboValid;
+    }
 
-	/**
-	 * Get the code collaborateur.
-	 *
-	 * @return string Returns the code collaborateur.
-	 */
-	public function getCodeCollaborateur() {
-		return $this->codeCollaborateur;
-	}
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
 
-	/**
-	 * Get the code employe.
-	 *
-	 * @return string Returns the code employe.
-	 */
-	public function getCodeEmploye() {
-		return $this->codeEmploye;
-	}
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
 
-	/**
-	 * Get the commentaire.
-	 *
-	 * @return string Returns the commentaire.
-	 */
-	public function getCommentaire() {
-		return $this->commentaire;
-	}
+    /**
+     * Get the commentaire.
+     *
+     * @return string Returns the commentaire.
+     */
+    public function getCommentaire() {
+        return $this->commentaire;
+    }
 
-	/**
-	 * Get the date comm.
-	 *
-	 * @return DateTime Returns the date comm.
-	 */
-	public function getDateComm() {
-		return $this->dateComm;
-	}
+    /**
+     * Get the date comm.
+     *
+     * @return DateTime Returns the date comm.
+     */
+    public function getDateComm() {
+        return $this->dateComm;
+    }
 
-	/**
-	 * Get the date validation synchro.
-	 *
-	 * @return DateTime Returns the date validation synchro.
-	 */
-	public function getDateValidationSynchro() {
-		return $this->dateValidationSynchro;
-	}
+    /**
+     * Get the date validation synchro.
+     *
+     * @return DateTime Returns the date validation synchro.
+     */
+    public function getDateValidationSynchro() {
+        return $this->dateValidationSynchro;
+    }
 
-	/**
-	 * Get the etat.
-	 *
-	 * @return string Returns the etat.
-	 */
-	public function getEtat() {
-		return $this->etat;
-	}
+    /**
+     * Get the etat.
+     *
+     * @return string Returns the etat.
+     */
+    public function getEtat() {
+        return $this->etat;
+    }
 
-	/**
-	 * Get the id comm.
-	 *
-	 * @return int Returns the id comm.
-	 */
-	public function getIdComm() {
-		return $this->idComm;
-	}
+    /**
+     * Get the id comm.
+     *
+     * @return int Returns the id comm.
+     */
+    public function getIdComm() {
+        return $this->idComm;
+    }
 
-	/**
-	 * Get the periode.
-	 *
-	 * @return DateTime Returns the periode.
-	 */
-	public function getPeriode() {
-		return $this->periode;
-	}
+    /**
+     * Get the periode.
+     *
+     * @return DateTime Returns the periode.
+     */
+    public function getPeriode() {
+        return $this->periode;
+    }
 
-	/**
-	 * Get the type comm.
-	 *
-	 * @return string Returns the type comm.
-	 */
-	public function getTypeComm() {
-		return $this->typeComm;
-	}
+    /**
+     * Get the type comm.
+     *
+     * @return string Returns the type comm.
+     */
+    public function getTypeComm() {
+        return $this->typeComm;
+    }
 
-	/**
-	 * Get the uniq i d synchro.
-	 *
-	 * @return string Returns the uniq i d synchro.
-	 */
-	public function getUniqIDSynchro() {
-		return $this->uniqIDSynchro;
-	}
+    /**
+     * Get the uniq i d synchro.
+     *
+     * @return string Returns the uniq i d synchro.
+     */
+    public function getUniqIDSynchro() {
+        return $this->uniqIDSynchro;
+    }
 
-	/**
-	 * Set the code collabo valid.
-	 *
-	 * @param string $codeCollaboValid The code collabo valid.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setCodeCollaboValid($codeCollaboValid) {
-		$this->codeCollaboValid = $codeCollaboValid;
-		return $this;
-	}
+    /**
+     * Set the code collabo valid.
+     *
+     * @param string $codeCollaboValid The code collabo valid.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setCodeCollaboValid($codeCollaboValid) {
+        $this->codeCollaboValid = $codeCollaboValid;
+        return $this;
+    }
 
-	/**
-	 * Set the code collaborateur.
-	 *
-	 * @param string $codeCollaborateur The code collaborateur.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setCodeCollaborateur($codeCollaborateur) {
-		$this->codeCollaborateur = $codeCollaborateur;
-		return $this;
-	}
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
 
-	/**
-	 * Set the code employe.
-	 *
-	 * @param string $codeEmploye The code employe.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setCodeEmploye($codeEmploye) {
-		$this->codeEmploye = $codeEmploye;
-		return $this;
-	}
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
 
-	/**
-	 * Set the commentaire.
-	 *
-	 * @param string $commentaire The commentaire.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setCommentaire($commentaire) {
-		$this->commentaire = $commentaire;
-		return $this;
-	}
+    /**
+     * Set the commentaire.
+     *
+     * @param string $commentaire The commentaire.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setCommentaire($commentaire) {
+        $this->commentaire = $commentaire;
+        return $this;
+    }
 
-	/**
-	 * Set the date comm.
-	 *
-	 * @param DateTime $dateComm The date comm.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setDateComm(DateTime $dateComm = null) {
-		$this->dateComm = $dateComm;
-		return $this;
-	}
+    /**
+     * Set the date comm.
+     *
+     * @param DateTime $dateComm The date comm.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setDateComm(DateTime $dateComm = null) {
+        $this->dateComm = $dateComm;
+        return $this;
+    }
 
-	/**
-	 * Set the date validation synchro.
-	 *
-	 * @param DateTime $dateValidationSynchro The date validation synchro.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
-		$this->dateValidationSynchro = $dateValidationSynchro;
-		return $this;
-	}
+    /**
+     * Set the date validation synchro.
+     *
+     * @param DateTime $dateValidationSynchro The date validation synchro.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
+        $this->dateValidationSynchro = $dateValidationSynchro;
+        return $this;
+    }
 
-	/**
-	 * Set the etat.
-	 *
-	 * @param string $etat The etat.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setEtat($etat) {
-		$this->etat = $etat;
-		return $this;
-	}
+    /**
+     * Set the etat.
+     *
+     * @param string $etat The etat.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setEtat($etat) {
+        $this->etat = $etat;
+        return $this;
+    }
 
-	/**
-	 * Set the id comm.
-	 *
-	 * @param int $idComm The id comm.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setIdComm($idComm) {
-		$this->idComm = $idComm;
-		return $this;
-	}
+    /**
+     * Set the id comm.
+     *
+     * @param int $idComm The id comm.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setIdComm($idComm) {
+        $this->idComm = $idComm;
+        return $this;
+    }
 
-	/**
-	 * Set the periode.
-	 *
-	 * @param DateTime $periode The periode.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setPeriode(DateTime $periode = null) {
-		$this->periode = $periode;
-		return $this;
-	}
+    /**
+     * Set the periode.
+     *
+     * @param DateTime $periode The periode.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setPeriode(DateTime $periode = null) {
+        $this->periode = $periode;
+        return $this;
+    }
 
-	/**
-	 * Set the type comm.
-	 *
-	 * @param string $typeComm The type comm.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setTypeComm($typeComm) {
-		$this->typeComm = $typeComm;
-		return $this;
-	}
+    /**
+     * Set the type comm.
+     *
+     * @param string $typeComm The type comm.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setTypeComm($typeComm) {
+        $this->typeComm = $typeComm;
+        return $this;
+    }
 
-	/**
-	 * Set the uniq i d synchro.
-	 *
-	 * @param string $uniqIDSynchro The uniq i d synchro.
-	 * @return CommentairesPaie Returns this commentaires paie.
-	 */
-	public function setUniqIDSynchro($uniqIDSynchro) {
-		$this->uniqIDSynchro = $uniqIDSynchro;
-		return $this;
-	}
+    /**
+     * Set the uniq i d synchro.
+     *
+     * @param string $uniqIDSynchro The uniq i d synchro.
+     * @return CommentairesPaie Returns this commentaires paie.
+     */
+    public function setUniqIDSynchro($uniqIDSynchro) {
+        $this->uniqIDSynchro = $uniqIDSynchro;
+        return $this;
+    }
 
 }

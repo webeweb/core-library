@@ -22,99 +22,99 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class EmployesPropreteTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new EmployesProprete();
+        $obj = new EmployesProprete();
 
-		$this->assertNull($obj->getControleur());
-		$this->assertNull($obj->getHotellerie());
-		$this->assertNull($obj->getLivreur());
-		$this->assertNull($obj->getModulation());
-		$this->assertNull($obj->getNumeroEmploye());
-		$this->assertNull($obj->getPolyvalent());
-	}
+        $this->assertNull($obj->getControleur());
+        $this->assertNull($obj->getHotellerie());
+        $this->assertNull($obj->getLivreur());
+        $this->assertNull($obj->getModulation());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPolyvalent());
+    }
 
-	/**
-	 * Tests the setControleur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetControleur() {
+    /**
+     * Tests the setControleur() method.
+     *
+     * @return void
+     */
+    public function testSetControleur() {
 
-		$obj = new EmployesProprete();
+        $obj = new EmployesProprete();
 
-		$obj->setControleur(true);
-		$this->assertEquals(true, $obj->getControleur());
-	}
+        $obj->setControleur(true);
+        $this->assertEquals(true, $obj->getControleur());
+    }
 
-	/**
-	 * Tests the setHotellerie() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHotellerie() {
+    /**
+     * Tests the setHotellerie() method.
+     *
+     * @return void
+     */
+    public function testSetHotellerie() {
 
-		$obj = new EmployesProprete();
+        $obj = new EmployesProprete();
 
-		$obj->setHotellerie(true);
-		$this->assertEquals(true, $obj->getHotellerie());
-	}
+        $obj->setHotellerie(true);
+        $this->assertEquals(true, $obj->getHotellerie());
+    }
 
-	/**
-	 * Tests the setLivreur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetLivreur() {
+    /**
+     * Tests the setLivreur() method.
+     *
+     * @return void
+     */
+    public function testSetLivreur() {
 
-		$obj = new EmployesProprete();
+        $obj = new EmployesProprete();
 
-		$obj->setLivreur(true);
-		$this->assertEquals(true, $obj->getLivreur());
-	}
+        $obj->setLivreur(true);
+        $this->assertEquals(true, $obj->getLivreur());
+    }
 
-	/**
-	 * Tests the setModulation() method.
-	 *
-	 * @return void
-	 */
-	public function testSetModulation() {
+    /**
+     * Tests the setModulation() method.
+     *
+     * @return void
+     */
+    public function testSetModulation() {
 
-		$obj = new EmployesProprete();
+        $obj = new EmployesProprete();
 
-		$obj->setModulation(true);
-		$this->assertEquals(true, $obj->getModulation());
-	}
+        $obj->setModulation(true);
+        $this->assertEquals(true, $obj->getModulation());
+    }
 
-	/**
-	 * Tests the setNumeroEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumeroEmploye() {
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
 
-		$obj = new EmployesProprete();
+        $obj = new EmployesProprete();
 
-		$obj->setNumeroEmploye("numeroEmploye");
-		$this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-	}
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 
-	/**
-	 * Tests the setPolyvalent() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPolyvalent() {
+    /**
+     * Tests the setPolyvalent() method.
+     *
+     * @return void
+     */
+    public function testSetPolyvalent() {
 
-		$obj = new EmployesProprete();
+        $obj = new EmployesProprete();
 
-		$obj->setPolyvalent(true);
-		$this->assertEquals(true, $obj->getPolyvalent());
-	}
+        $obj->setPolyvalent(true);
+        $this->assertEquals(true, $obj->getPolyvalent());
+    }
 
 }

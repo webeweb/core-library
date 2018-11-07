@@ -22,43 +22,43 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class ClientsFavorisTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new ClientsFavoris();
+        $obj = new ClientsFavoris();
 
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeCol());
-	}
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCol());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new ClientsFavoris();
+        $obj = new ClientsFavoris();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeCol() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCol() {
+    /**
+     * Tests the setCodeCol() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCol() {
 
-		$obj = new ClientsFavoris();
+        $obj = new ClientsFavoris();
 
-		$obj->setCodeCol("codeCol");
-		$this->assertEquals("codeCol", $obj->getCodeCol());
-	}
+        $obj->setCodeCol("codeCol");
+        $this->assertEquals("codeCol", $obj->getCodeCol());
+    }
 
 }

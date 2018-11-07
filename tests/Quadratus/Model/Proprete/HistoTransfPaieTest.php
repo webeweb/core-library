@@ -23,211 +23,211 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HistoTransfPaieTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getEcartCumule());
-		$this->assertNull($obj->getHCRPayees());
-		$this->assertNull($obj->getHNPComplH());
-		$this->assertNull($obj->getHNPHC11());
-		$this->assertNull($obj->getHNPHC25());
-		$this->assertNull($obj->getHNPHC33());
-		$this->assertNull($obj->getNbComplH());
-		$this->assertNull($obj->getNbHAbs());
-		$this->assertNull($obj->getNbHAbsJF());
-		$this->assertNull($obj->getNbHCompl());
-		$this->assertNull($obj->getNbHRempl());
-		$this->assertNull($obj->getNbHprevues());
-		$this->assertNull($obj->getPeriode());
-	}
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getEcartCumule());
+        $this->assertNull($obj->getHCRPayees());
+        $this->assertNull($obj->getHNPComplH());
+        $this->assertNull($obj->getHNPHC11());
+        $this->assertNull($obj->getHNPHC25());
+        $this->assertNull($obj->getHNPHC33());
+        $this->assertNull($obj->getNbComplH());
+        $this->assertNull($obj->getNbHAbs());
+        $this->assertNull($obj->getNbHAbsJF());
+        $this->assertNull($obj->getNbHCompl());
+        $this->assertNull($obj->getNbHRempl());
+        $this->assertNull($obj->getNbHprevues());
+        $this->assertNull($obj->getPeriode());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setEcartCumule() method.
-	 *
-	 * @return void
-	 */
-	public function testSetEcartCumule() {
+    /**
+     * Tests the setEcartCumule() method.
+     *
+     * @return void
+     */
+    public function testSetEcartCumule() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setEcartCumule(10.092018);
-		$this->assertEquals(10.092018, $obj->getEcartCumule());
-	}
+        $obj->setEcartCumule(10.092018);
+        $this->assertEquals(10.092018, $obj->getEcartCumule());
+    }
 
-	/**
-	 * Tests the setHCRPayees() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHCRPayees() {
+    /**
+     * Tests the setHCRPayees() method.
+     *
+     * @return void
+     */
+    public function testSetHCRPayees() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setHCRPayees(true);
-		$this->assertEquals(true, $obj->getHCRPayees());
-	}
+        $obj->setHCRPayees(true);
+        $this->assertEquals(true, $obj->getHCRPayees());
+    }
 
-	/**
-	 * Tests the setHNPComplH() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHNPComplH() {
+    /**
+     * Tests the setHNPComplH() method.
+     *
+     * @return void
+     */
+    public function testSetHNPComplH() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setHNPComplH(10.092018);
-		$this->assertEquals(10.092018, $obj->getHNPComplH());
-	}
+        $obj->setHNPComplH(10.092018);
+        $this->assertEquals(10.092018, $obj->getHNPComplH());
+    }
 
-	/**
-	 * Tests the setHNPHC11() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHNPHC11() {
+    /**
+     * Tests the setHNPHC11() method.
+     *
+     * @return void
+     */
+    public function testSetHNPHC11() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setHNPHC11(10.092018);
-		$this->assertEquals(10.092018, $obj->getHNPHC11());
-	}
+        $obj->setHNPHC11(10.092018);
+        $this->assertEquals(10.092018, $obj->getHNPHC11());
+    }
 
-	/**
-	 * Tests the setHNPHC25() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHNPHC25() {
+    /**
+     * Tests the setHNPHC25() method.
+     *
+     * @return void
+     */
+    public function testSetHNPHC25() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setHNPHC25(10.092018);
-		$this->assertEquals(10.092018, $obj->getHNPHC25());
-	}
+        $obj->setHNPHC25(10.092018);
+        $this->assertEquals(10.092018, $obj->getHNPHC25());
+    }
 
-	/**
-	 * Tests the setHNPHC33() method.
-	 *
-	 * @return void
-	 */
-	public function testSetHNPHC33() {
+    /**
+     * Tests the setHNPHC33() method.
+     *
+     * @return void
+     */
+    public function testSetHNPHC33() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setHNPHC33(10.092018);
-		$this->assertEquals(10.092018, $obj->getHNPHC33());
-	}
+        $obj->setHNPHC33(10.092018);
+        $this->assertEquals(10.092018, $obj->getHNPHC33());
+    }
 
-	/**
-	 * Tests the setNbComplH() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbComplH() {
+    /**
+     * Tests the setNbComplH() method.
+     *
+     * @return void
+     */
+    public function testSetNbComplH() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setNbComplH(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbComplH());
-	}
+        $obj->setNbComplH(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbComplH());
+    }
 
-	/**
-	 * Tests the setNbHAbs() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHAbs() {
+    /**
+     * Tests the setNbHAbs() method.
+     *
+     * @return void
+     */
+    public function testSetNbHAbs() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setNbHAbs(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHAbs());
-	}
+        $obj->setNbHAbs(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHAbs());
+    }
 
-	/**
-	 * Tests the setNbHAbsJF() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHAbsJF() {
+    /**
+     * Tests the setNbHAbsJF() method.
+     *
+     * @return void
+     */
+    public function testSetNbHAbsJF() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setNbHAbsJF(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHAbsJF());
-	}
+        $obj->setNbHAbsJF(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHAbsJF());
+    }
 
-	/**
-	 * Tests the setNbHCompl() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHCompl() {
+    /**
+     * Tests the setNbHCompl() method.
+     *
+     * @return void
+     */
+    public function testSetNbHCompl() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setNbHCompl(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHCompl());
-	}
+        $obj->setNbHCompl(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHCompl());
+    }
 
-	/**
-	 * Tests the setNbHRempl() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHRempl() {
+    /**
+     * Tests the setNbHRempl() method.
+     *
+     * @return void
+     */
+    public function testSetNbHRempl() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setNbHRempl(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHRempl());
-	}
+        $obj->setNbHRempl(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHRempl());
+    }
 
-	/**
-	 * Tests the setNbHprevues() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbHprevues() {
+    /**
+     * Tests the setNbHprevues() method.
+     *
+     * @return void
+     */
+    public function testSetNbHprevues() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setNbHprevues(10.092018);
-		$this->assertEquals(10.092018, $obj->getNbHprevues());
-	}
+        $obj->setNbHprevues(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHprevues());
+    }
 
-	/**
-	 * Tests the setPeriode() method.
-	 *
-	 * @return void
-	 */
-	public function testSetPeriode() {
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     */
+    public function testSetPeriode() {
 
-		$obj = new HistoTransfPaie();
+        $obj = new HistoTransfPaie();
 
-		$obj->setPeriode(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-	}
+        $obj->setPeriode(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
+    }
 
 }

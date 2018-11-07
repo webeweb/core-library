@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\Quadratus\Model\Proprete;
 
-
 /**
  * Correspondance fam art q fact charges q prop model.
  *
@@ -20,65 +19,65 @@ namespace WBW\Library\Core\Quadratus\Model\Proprete;
  */
 class CorrespondanceFamArtQFactChargesQProp {
 
-	/**
-	 * Code charge.
-	 *
-	 * @var string
-	 */
-	private $codeCharge;
+    /**
+     * Code charge.
+     *
+     * @var string
+     */
+    private $codeCharge;
 
-	/**
-	 * Code fam art.
-	 *
-	 * @var string
-	 */
-	private $codeFamArt;
+    /**
+     * Code fam art.
+     *
+     * @var string
+     */
+    private $codeFamArt;
 
-	/**
-	 * Constructor.
-	 */
-	public function __construct() {
-		// NOTHING TO DO;
-	}
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
 
-	/**
-	 * Get the code charge.
-	 *
-	 * @return string Returns the code charge.
-	 */
-	public function getCodeCharge() {
-		return $this->codeCharge;
-	}
+    /**
+     * Get the code charge.
+     *
+     * @return string Returns the code charge.
+     */
+    public function getCodeCharge() {
+        return $this->codeCharge;
+    }
 
-	/**
-	 * Get the code fam art.
-	 *
-	 * @return string Returns the code fam art.
-	 */
-	public function getCodeFamArt() {
-		return $this->codeFamArt;
-	}
+    /**
+     * Get the code fam art.
+     *
+     * @return string Returns the code fam art.
+     */
+    public function getCodeFamArt() {
+        return $this->codeFamArt;
+    }
 
-	/**
-	 * Set the code charge.
-	 *
-	 * @param string $codeCharge The code charge.
-	 * @return CorrespondanceFamArtQFactChargesQProp Returns this correspondance fam art q fact charges q prop.
-	 */
-	public function setCodeCharge($codeCharge) {
-		$this->codeCharge = $codeCharge;
-		return $this;
-	}
+    /**
+     * Set the code charge.
+     *
+     * @param string $codeCharge The code charge.
+     * @return CorrespondanceFamArtQFactChargesQProp Returns this correspondance fam art q fact charges q prop.
+     */
+    public function setCodeCharge($codeCharge) {
+        $this->codeCharge = $codeCharge;
+        return $this;
+    }
 
-	/**
-	 * Set the code fam art.
-	 *
-	 * @param string $codeFamArt The code fam art.
-	 * @return CorrespondanceFamArtQFactChargesQProp Returns this correspondance fam art q fact charges q prop.
-	 */
-	public function setCodeFamArt($codeFamArt) {
-		$this->codeFamArt = $codeFamArt;
-		return $this;
-	}
+    /**
+     * Set the code fam art.
+     *
+     * @param string $codeFamArt The code fam art.
+     * @return CorrespondanceFamArtQFactChargesQProp Returns this correspondance fam art q fact charges q prop.
+     */
+    public function setCodeFamArt($codeFamArt) {
+        $this->codeFamArt = $codeFamArt;
+        return $this;
+    }
 
 }

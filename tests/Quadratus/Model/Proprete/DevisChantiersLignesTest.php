@@ -22,169 +22,169 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DevisChantiersLignesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$this->assertNull($obj->getCodeAffaire());
-		$this->assertNull($obj->getCodeChantier());
-		$this->assertNull($obj->getCodeClient());
-		$this->assertNull($obj->getCodeLocalType());
-		$this->assertNull($obj->getCodeRevetement());
-		$this->assertNull($obj->getMontantHT());
-		$this->assertNull($obj->getNumDevis());
-		$this->assertNull($obj->getNumLigne());
-		$this->assertNull($obj->getSolMur());
-		$this->assertNull($obj->getSurface());
-		$this->assertNull($obj->getUniqIdNoeud());
-	}
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeLocalType());
+        $this->assertNull($obj->getCodeRevetement());
+        $this->assertNull($obj->getMontantHT());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getSolMur());
+        $this->assertNull($obj->getSurface());
+        $this->assertNull($obj->getUniqIdNoeud());
+    }
 
-	/**
-	 * Tests the setCodeAffaire() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeAffaire() {
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setCodeAffaire("codeAffaire");
-		$this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-	}
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
 
-	/**
-	 * Tests the setCodeChantier() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeChantier() {
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setCodeChantier("codeChantier");
-		$this->assertEquals("codeChantier", $obj->getCodeChantier());
-	}
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
 
-	/**
-	 * Tests the setCodeClient() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeClient() {
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setCodeClient("codeClient");
-		$this->assertEquals("codeClient", $obj->getCodeClient());
-	}
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
 
-	/**
-	 * Tests the setCodeLocalType() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeLocalType() {
+    /**
+     * Tests the setCodeLocalType() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLocalType() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setCodeLocalType("codeLocalType");
-		$this->assertEquals("codeLocalType", $obj->getCodeLocalType());
-	}
+        $obj->setCodeLocalType("codeLocalType");
+        $this->assertEquals("codeLocalType", $obj->getCodeLocalType());
+    }
 
-	/**
-	 * Tests the setCodeRevetement() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRevetement() {
+    /**
+     * Tests the setCodeRevetement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRevetement() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setCodeRevetement("codeRevetement");
-		$this->assertEquals("codeRevetement", $obj->getCodeRevetement());
-	}
+        $obj->setCodeRevetement("codeRevetement");
+        $this->assertEquals("codeRevetement", $obj->getCodeRevetement());
+    }
 
-	/**
-	 * Tests the setMontantHT() method.
-	 *
-	 * @return void
-	 */
-	public function testSetMontantHT() {
+    /**
+     * Tests the setMontantHT() method.
+     *
+     * @return void
+     */
+    public function testSetMontantHT() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setMontantHT(10.092018);
-		$this->assertEquals(10.092018, $obj->getMontantHT());
-	}
+        $obj->setMontantHT(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantHT());
+    }
 
-	/**
-	 * Tests the setNumDevis() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumDevis() {
+    /**
+     * Tests the setNumDevis() method.
+     *
+     * @return void
+     */
+    public function testSetNumDevis() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setNumDevis("numDevis");
-		$this->assertEquals("numDevis", $obj->getNumDevis());
-	}
+        $obj->setNumDevis("numDevis");
+        $this->assertEquals("numDevis", $obj->getNumDevis());
+    }
 
-	/**
-	 * Tests the setNumLigne() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNumLigne() {
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setNumLigne(10);
-		$this->assertEquals(10, $obj->getNumLigne());
-	}
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
 
-	/**
-	 * Tests the setSolMur() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSolMur() {
+    /**
+     * Tests the setSolMur() method.
+     *
+     * @return void
+     */
+    public function testSetSolMur() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setSolMur("solMur");
-		$this->assertEquals("solMur", $obj->getSolMur());
-	}
+        $obj->setSolMur("solMur");
+        $this->assertEquals("solMur", $obj->getSolMur());
+    }
 
-	/**
-	 * Tests the setSurface() method.
-	 *
-	 * @return void
-	 */
-	public function testSetSurface() {
+    /**
+     * Tests the setSurface() method.
+     *
+     * @return void
+     */
+    public function testSetSurface() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setSurface(10.092018);
-		$this->assertEquals(10.092018, $obj->getSurface());
-	}
+        $obj->setSurface(10.092018);
+        $this->assertEquals(10.092018, $obj->getSurface());
+    }
 
-	/**
-	 * Tests the setUniqIdNoeud() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUniqIdNoeud() {
+    /**
+     * Tests the setUniqIdNoeud() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIdNoeud() {
 
-		$obj = new DevisChantiersLignes();
+        $obj = new DevisChantiersLignes();
 
-		$obj->setUniqIdNoeud("uniqIdNoeud");
-		$this->assertEquals("uniqIdNoeud", $obj->getUniqIdNoeud());
-	}
+        $obj->setUniqIdNoeud("uniqIdNoeud");
+        $this->assertEquals("uniqIdNoeud", $obj->getUniqIdNoeud());
+    }
 
 }

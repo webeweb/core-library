@@ -23,85 +23,85 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class DevisesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new Devises();
+        $obj = new Devises();
 
-		$this->assertNull($obj->getCodeDevise());
-		$this->assertNull($obj->getDate());
-		$this->assertNull($obj->getNbDec());
-		$this->assertNull($obj->getTaux());
-		$this->assertNull($obj->getUseNbDec());
-	}
+        $this->assertNull($obj->getCodeDevise());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getNbDec());
+        $this->assertNull($obj->getTaux());
+        $this->assertNull($obj->getUseNbDec());
+    }
 
-	/**
-	 * Tests the setCodeDevise() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeDevise() {
+    /**
+     * Tests the setCodeDevise() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDevise() {
 
-		$obj = new Devises();
+        $obj = new Devises();
 
-		$obj->setCodeDevise("codeDevise");
-		$this->assertEquals("codeDevise", $obj->getCodeDevise());
-	}
+        $obj->setCodeDevise("codeDevise");
+        $this->assertEquals("codeDevise", $obj->getCodeDevise());
+    }
 
-	/**
-	 * Tests the setDate() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDate() {
+    /**
+     * Tests the setDate() method.
+     *
+     * @return void
+     */
+    public function testSetDate() {
 
-		$obj = new Devises();
+        $obj = new Devises();
 
-		$obj->setDate(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDate());
-	}
+        $obj->setDate(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDate());
+    }
 
-	/**
-	 * Tests the setNbDec() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNbDec() {
+    /**
+     * Tests the setNbDec() method.
+     *
+     * @return void
+     */
+    public function testSetNbDec() {
 
-		$obj = new Devises();
+        $obj = new Devises();
 
-		$obj->setNbDec("nbDec");
-		$this->assertEquals("nbDec", $obj->getNbDec());
-	}
+        $obj->setNbDec("nbDec");
+        $this->assertEquals("nbDec", $obj->getNbDec());
+    }
 
-	/**
-	 * Tests the setTaux() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTaux() {
+    /**
+     * Tests the setTaux() method.
+     *
+     * @return void
+     */
+    public function testSetTaux() {
 
-		$obj = new Devises();
+        $obj = new Devises();
 
-		$obj->setTaux(10.092018);
-		$this->assertEquals(10.092018, $obj->getTaux());
-	}
+        $obj->setTaux(10.092018);
+        $this->assertEquals(10.092018, $obj->getTaux());
+    }
 
-	/**
-	 * Tests the setUseNbDec() method.
-	 *
-	 * @return void
-	 */
-	public function testSetUseNbDec() {
+    /**
+     * Tests the setUseNbDec() method.
+     *
+     * @return void
+     */
+    public function testSetUseNbDec() {
 
-		$obj = new Devises();
+        $obj = new Devises();
 
-		$obj->setUseNbDec(true);
-		$this->assertEquals(true, $obj->getUseNbDec());
-	}
+        $obj->setUseNbDec(true);
+        $this->assertEquals(true, $obj->getUseNbDec());
+    }
 
 }

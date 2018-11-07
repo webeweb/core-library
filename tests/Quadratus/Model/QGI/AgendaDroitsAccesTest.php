@@ -22,57 +22,57 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AgendaDroitsAccesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AgendaDroitsAcces();
+        $obj = new AgendaDroitsAcces();
 
-		$this->assertNull($obj->getCodeCollDroit());
-		$this->assertNull($obj->getCodeCollSuivi());
-		$this->assertNull($obj->getNiveauDroit());
-	}
+        $this->assertNull($obj->getCodeCollDroit());
+        $this->assertNull($obj->getCodeCollSuivi());
+        $this->assertNull($obj->getNiveauDroit());
+    }
 
-	/**
-	 * Tests the setCodeCollDroit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollDroit() {
+    /**
+     * Tests the setCodeCollDroit() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollDroit() {
 
-		$obj = new AgendaDroitsAcces();
+        $obj = new AgendaDroitsAcces();
 
-		$obj->setCodeCollDroit("codeCollDroit");
-		$this->assertEquals("codeCollDroit", $obj->getCodeCollDroit());
-	}
+        $obj->setCodeCollDroit("codeCollDroit");
+        $this->assertEquals("codeCollDroit", $obj->getCodeCollDroit());
+    }
 
-	/**
-	 * Tests the setCodeCollSuivi() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeCollSuivi() {
+    /**
+     * Tests the setCodeCollSuivi() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollSuivi() {
 
-		$obj = new AgendaDroitsAcces();
+        $obj = new AgendaDroitsAcces();
 
-		$obj->setCodeCollSuivi("codeCollSuivi");
-		$this->assertEquals("codeCollSuivi", $obj->getCodeCollSuivi());
-	}
+        $obj->setCodeCollSuivi("codeCollSuivi");
+        $this->assertEquals("codeCollSuivi", $obj->getCodeCollSuivi());
+    }
 
-	/**
-	 * Tests the setNiveauDroit() method.
-	 *
-	 * @return void
-	 */
-	public function testSetNiveauDroit() {
+    /**
+     * Tests the setNiveauDroit() method.
+     *
+     * @return void
+     */
+    public function testSetNiveauDroit() {
 
-		$obj = new AgendaDroitsAcces();
+        $obj = new AgendaDroitsAcces();
 
-		$obj->setNiveauDroit("niveauDroit");
-		$this->assertEquals("niveauDroit", $obj->getNiveauDroit());
-	}
+        $obj->setNiveauDroit("niveauDroit");
+        $this->assertEquals("niveauDroit", $obj->getNiveauDroit());
+    }
 
 }

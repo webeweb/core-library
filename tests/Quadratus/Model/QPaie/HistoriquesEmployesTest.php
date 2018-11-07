@@ -23,127 +23,127 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class HistoriquesEmployesTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$this->assertNull($obj->getChapitre());
-		$this->assertNull($obj->getCollCreat());
-		$this->assertNull($obj->getCollModif());
-		$this->assertNull($obj->getDateCreat());
-		$this->assertNull($obj->getDateModif());
-		$this->assertNull($obj->getDescription());
-		$this->assertNull($obj->getGUniqID());
-		$this->assertNull($obj->getIndice());
-	}
+        $this->assertNull($obj->getChapitre());
+        $this->assertNull($obj->getCollCreat());
+        $this->assertNull($obj->getCollModif());
+        $this->assertNull($obj->getDateCreat());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getDescription());
+        $this->assertNull($obj->getGUniqID());
+        $this->assertNull($obj->getIndice());
+    }
 
-	/**
-	 * Tests the setChapitre() method.
-	 *
-	 * @return void
-	 */
-	public function testSetChapitre() {
+    /**
+     * Tests the setChapitre() method.
+     *
+     * @return void
+     */
+    public function testSetChapitre() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$obj->setChapitre("chapitre");
-		$this->assertEquals("chapitre", $obj->getChapitre());
-	}
+        $obj->setChapitre("chapitre");
+        $this->assertEquals("chapitre", $obj->getChapitre());
+    }
 
-	/**
-	 * Tests the setCollCreat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCollCreat() {
+    /**
+     * Tests the setCollCreat() method.
+     *
+     * @return void
+     */
+    public function testSetCollCreat() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$obj->setCollCreat("collCreat");
-		$this->assertEquals("collCreat", $obj->getCollCreat());
-	}
+        $obj->setCollCreat("collCreat");
+        $this->assertEquals("collCreat", $obj->getCollCreat());
+    }
 
-	/**
-	 * Tests the setCollModif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCollModif() {
+    /**
+     * Tests the setCollModif() method.
+     *
+     * @return void
+     */
+    public function testSetCollModif() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$obj->setCollModif("collModif");
-		$this->assertEquals("collModif", $obj->getCollModif());
-	}
+        $obj->setCollModif("collModif");
+        $this->assertEquals("collModif", $obj->getCollModif());
+    }
 
-	/**
-	 * Tests the setDateCreat() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateCreat() {
+    /**
+     * Tests the setDateCreat() method.
+     *
+     * @return void
+     */
+    public function testSetDateCreat() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$obj->setDateCreat(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreat());
-	}
+        $obj->setDateCreat(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateCreat());
+    }
 
-	/**
-	 * Tests the setDateModif() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateModif() {
+    /**
+     * Tests the setDateModif() method.
+     *
+     * @return void
+     */
+    public function testSetDateModif() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$obj->setDateModif(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateModif());
-	}
+        $obj->setDateModif(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateModif());
+    }
 
-	/**
-	 * Tests the setDescription() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDescription() {
+    /**
+     * Tests the setDescription() method.
+     *
+     * @return void
+     */
+    public function testSetDescription() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$obj->setDescription("description");
-		$this->assertEquals("description", $obj->getDescription());
-	}
+        $obj->setDescription("description");
+        $this->assertEquals("description", $obj->getDescription());
+    }
 
-	/**
-	 * Tests the setGUniqID() method.
-	 *
-	 * @return void
-	 */
-	public function testSetGUniqID() {
+    /**
+     * Tests the setGUniqID() method.
+     *
+     * @return void
+     */
+    public function testSetGUniqID() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$obj->setGUniqID("gUniqID");
-		$this->assertEquals("gUniqID", $obj->getGUniqID());
-	}
+        $obj->setGUniqID("gUniqID");
+        $this->assertEquals("gUniqID", $obj->getGUniqID());
+    }
 
-	/**
-	 * Tests the setIndice() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndice() {
+    /**
+     * Tests the setIndice() method.
+     *
+     * @return void
+     */
+    public function testSetIndice() {
 
-		$obj = new HistoriquesEmployes();
+        $obj = new HistoriquesEmployes();
 
-		$obj->setIndice(10);
-		$this->assertEquals(10, $obj->getIndice());
-	}
+        $obj->setIndice(10);
+        $this->assertEquals(10, $obj->getIndice());
+    }
 
 }

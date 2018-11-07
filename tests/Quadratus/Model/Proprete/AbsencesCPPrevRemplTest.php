@@ -23,113 +23,113 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  */
 class AbsencesCPPrevRemplTest extends AbstractFrameworkTestCase {
 
-	/**
-	 * Tests the __construct() method.
-	 *
-	 * @return void
-	 */
-	public function testConstruct() {
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
 
-		$obj = new AbsencesCPPrevRempl();
+        $obj = new AbsencesCPPrevRempl();
 
-		$this->assertNull($obj->getCodeEmploye());
-		$this->assertNull($obj->getCodeRemplacant());
-		$this->assertNull($obj->getDateDebutCP());
-		$this->assertNull($obj->getDateDebutRempl());
-		$this->assertNull($obj->getDateFinRempl());
-		$this->assertNull($obj->getIndice());
-		$this->assertNull($obj->getTypeRempl());
-	}
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeRemplacant());
+        $this->assertNull($obj->getDateDebutCP());
+        $this->assertNull($obj->getDateDebutRempl());
+        $this->assertNull($obj->getDateFinRempl());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getTypeRempl());
+    }
 
-	/**
-	 * Tests the setCodeEmploye() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeEmploye() {
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
 
-		$obj = new AbsencesCPPrevRempl();
+        $obj = new AbsencesCPPrevRempl();
 
-		$obj->setCodeEmploye("codeEmploye");
-		$this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-	}
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
 
-	/**
-	 * Tests the setCodeRemplacant() method.
-	 *
-	 * @return void
-	 */
-	public function testSetCodeRemplacant() {
+    /**
+     * Tests the setCodeRemplacant() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRemplacant() {
 
-		$obj = new AbsencesCPPrevRempl();
+        $obj = new AbsencesCPPrevRempl();
 
-		$obj->setCodeRemplacant("codeRemplacant");
-		$this->assertEquals("codeRemplacant", $obj->getCodeRemplacant());
-	}
+        $obj->setCodeRemplacant("codeRemplacant");
+        $this->assertEquals("codeRemplacant", $obj->getCodeRemplacant());
+    }
 
-	/**
-	 * Tests the setDateDebutCP() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateDebutCP() {
+    /**
+     * Tests the setDateDebutCP() method.
+     *
+     * @return void
+     */
+    public function testSetDateDebutCP() {
 
-		$obj = new AbsencesCPPrevRempl();
+        $obj = new AbsencesCPPrevRempl();
 
-		$obj->setDateDebutCP(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDebutCP());
-	}
+        $obj->setDateDebutCP(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDebutCP());
+    }
 
-	/**
-	 * Tests the setDateDebutRempl() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateDebutRempl() {
+    /**
+     * Tests the setDateDebutRempl() method.
+     *
+     * @return void
+     */
+    public function testSetDateDebutRempl() {
 
-		$obj = new AbsencesCPPrevRempl();
+        $obj = new AbsencesCPPrevRempl();
 
-		$obj->setDateDebutRempl(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDebutRempl());
-	}
+        $obj->setDateDebutRempl(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateDebutRempl());
+    }
 
-	/**
-	 * Tests the setDateFinRempl() method.
-	 *
-	 * @return void
-	 */
-	public function testSetDateFinRempl() {
+    /**
+     * Tests the setDateFinRempl() method.
+     *
+     * @return void
+     */
+    public function testSetDateFinRempl() {
 
-		$obj = new AbsencesCPPrevRempl();
+        $obj = new AbsencesCPPrevRempl();
 
-		$obj->setDateFinRempl(new DateTime("2018-09-10"));
-		$this->assertEquals(new DateTime("2018-09-10"), $obj->getDateFinRempl());
-	}
+        $obj->setDateFinRempl(new DateTime("2018-09-10"));
+        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateFinRempl());
+    }
 
-	/**
-	 * Tests the setIndice() method.
-	 *
-	 * @return void
-	 */
-	public function testSetIndice() {
+    /**
+     * Tests the setIndice() method.
+     *
+     * @return void
+     */
+    public function testSetIndice() {
 
-		$obj = new AbsencesCPPrevRempl();
+        $obj = new AbsencesCPPrevRempl();
 
-		$obj->setIndice("indice");
-		$this->assertEquals("indice", $obj->getIndice());
-	}
+        $obj->setIndice("indice");
+        $this->assertEquals("indice", $obj->getIndice());
+    }
 
-	/**
-	 * Tests the setTypeRempl() method.
-	 *
-	 * @return void
-	 */
-	public function testSetTypeRempl() {
+    /**
+     * Tests the setTypeRempl() method.
+     *
+     * @return void
+     */
+    public function testSetTypeRempl() {
 
-		$obj = new AbsencesCPPrevRempl();
+        $obj = new AbsencesCPPrevRempl();
 
-		$obj->setTypeRempl("typeRempl");
-		$this->assertEquals("typeRempl", $obj->getTypeRempl());
-	}
+        $obj->setTypeRempl("typeRempl");
+        $this->assertEquals("typeRempl", $obj->getTypeRempl());
+    }
 
 }
