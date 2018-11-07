@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Response
- * @final
  */
-final class RedirectResponseExceptionTest extends AbstractFrameworkTestCase {
+class RedirectResponseExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

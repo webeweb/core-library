@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Pointer
- * @final
  */
-final class NullPointerExceptionTest extends AbstractFrameworkTestCase {
+class NullPointerExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

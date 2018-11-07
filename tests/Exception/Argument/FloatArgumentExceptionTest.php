@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Argument
- * @final
  */
-final class FloatArgumentExceptionTest extends AbstractFrameworkTestCase {
+class FloatArgumentExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

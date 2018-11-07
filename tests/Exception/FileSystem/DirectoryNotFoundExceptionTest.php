@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\IO
- * @final
  */
-final class DirectoryNotFoundExceptionTest extends AbstractFrameworkTestCase {
+class DirectoryNotFoundExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

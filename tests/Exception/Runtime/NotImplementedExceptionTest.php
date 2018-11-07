@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Runtime
- * @final
  */
-final class NotImplementedExceptionTest extends AbstractFrameworkTestCase {
+class NotImplementedExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

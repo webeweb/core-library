@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Exception\Extension\PHP
- * @final
  */
-final class PHPExtensionNotFoundExceptionTest extends AbstractFrameworkTestCase {
+class PHPExtensionNotFoundExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

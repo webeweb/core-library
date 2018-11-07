@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\IO
- * @final
  */
-final class FileNotFoundExceptionTest extends AbstractFrameworkTestCase {
+class FileNotFoundExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\HTTP
- * @final
  */
-final class InvaliHTTPMethodExceptionTest extends AbstractFrameworkTestCase {
+class InvaliHTTPMethodExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

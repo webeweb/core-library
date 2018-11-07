@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\SkiData
- * @final
  */
-final class SkiDataMissingStartRecordFormatExceptionTest extends AbstractFrameworkTestCase {
+class SkiDataMissingStartRecordFormatExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

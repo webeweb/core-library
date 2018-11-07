@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Argument
- * @final
  */
-final class TimestampArgumentExceptionTest extends AbstractFrameworkTestCase {
+class TimestampArgumentExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

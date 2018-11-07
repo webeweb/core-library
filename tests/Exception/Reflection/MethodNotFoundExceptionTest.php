@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Reflection
- * @final
  */
-final class MethodNotFoundExceptionTest extends AbstractFrameworkTestCase {
+class MethodNotFoundExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

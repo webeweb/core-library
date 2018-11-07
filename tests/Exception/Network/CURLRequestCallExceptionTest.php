@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Network
- * @final
  */
-final class CURLRequestCallExceptionTest extends AbstractFrameworkTestCase {
+class CURLRequestCallExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __constructor() method.
