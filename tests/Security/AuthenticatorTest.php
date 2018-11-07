@@ -22,9 +22,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Security
- * @final
  */
-final class AuthenticatorTest extends AbstractFrameworkTestCase {
+class AuthenticatorTest extends AbstractFrameworkTestCase {
 
     /**
      * Password authentication.
