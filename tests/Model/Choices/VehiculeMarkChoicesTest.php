@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Choices
- * @final
  */
-final class VehiculeMakChoicesTest extends AbstractFrameworkTestCase {
+class VehiculeMakChoicesTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getChoices() method.

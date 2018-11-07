@@ -22,9 +22,8 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Organizer
- * @final
  */
-final class TimeSlotHelperTest extends AbstractFrameworkTestCase {
+class TimeSlotHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Dates.

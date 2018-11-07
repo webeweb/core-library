@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Contact
- * @final
  */
-final class PhoneNumbersTraitTest extends AbstractFrameworkTestCase {
+class PhoneNumbersTraitTest extends AbstractFrameworkTestCase {
 
     /**
      * Phone numbers.

@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Navigation\Item
- * @final
  */
-final class AbstractNodeTest extends AbstractFrameworkTestCase {
+class AbstractNodeTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.

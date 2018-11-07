@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Model\Choices
- * @final
  */
-final class MaritalStatusChoicesTest extends AbstractFrameworkTestCase {
+class MaritalStatusChoicesTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getChoices() method.

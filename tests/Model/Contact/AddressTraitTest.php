@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Contact
- * @final
  */
-final class AddressTraitTest extends AbstractFrameworkTestCase {
+class AddressTraitTest extends AbstractFrameworkTestCase {
 
     /**
      * Address.
