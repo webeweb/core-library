@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\Proprete
- * @final
  */
-final class ArtVarDepotTest extends AbstractFrameworkTestCase {
+class ArtVarDepotTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\QGI
- * @final
  */
-final class RG_ProfilsTest extends AbstractFrameworkTestCase {
+class RG_ProfilsTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

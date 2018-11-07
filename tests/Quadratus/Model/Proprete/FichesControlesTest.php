@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\Proprete
- * @final
  */
-final class FichesControlesTest extends AbstractFrameworkTestCase {
+class FichesControlesTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

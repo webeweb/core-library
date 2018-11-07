@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\QPaie
- * @final
  */
-final class GrillesTypeTest extends AbstractFrameworkTestCase {
+class GrillesTypeTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

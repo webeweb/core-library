@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\QPaie
- * @final
  */
-final class TauxRetraiteMetierTest extends AbstractFrameworkTestCase {
+class TauxRetraiteMetierTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

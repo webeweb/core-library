@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\QGI
- * @final
  */
-final class LettresMissionsLignesTest extends AbstractFrameworkTestCase {
+class LettresMissionsLignesTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

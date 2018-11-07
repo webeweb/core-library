@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\QGI
- * @final
  */
-final class OptionsEnvoiMailsTest extends AbstractFrameworkTestCase {
+class OptionsEnvoiMailsTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

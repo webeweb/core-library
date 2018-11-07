@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\Proprete
- * @final
  */
-final class BonsTravauxEmployesTest extends AbstractFrameworkTestCase {
+class BonsTravauxEmployesTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

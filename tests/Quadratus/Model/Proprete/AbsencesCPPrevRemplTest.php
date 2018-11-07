@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\Proprete
- * @final
  */
-final class AbsencesCPPrevRemplTest extends AbstractFrameworkTestCase {
+class AbsencesCPPrevRemplTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

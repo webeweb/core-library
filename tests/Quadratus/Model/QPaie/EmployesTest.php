@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\QPaie
- * @final
  */
-final class EmployesTest extends AbstractFrameworkTestCase {
+class EmployesTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.

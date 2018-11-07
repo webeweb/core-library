@@ -20,9 +20,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Quadratus\Model\QPaie
- * @final
  */
-final class SaisieArretTest extends AbstractFrameworkTestCase {
+class SaisieArretTest extends AbstractFrameworkTestCase {
 
 	/**
 	 * Tests the __construct() method.
