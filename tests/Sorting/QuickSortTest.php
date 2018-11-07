@@ -21,9 +21,8 @@ use WBW\Library\Core\Tests\Fixtures\Sorting\TestIntegerFunctor;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Sorting
- * @final
  */
-final class QuickSortTest extends AbstractFrameworkTestCase {
+class QuickSortTest extends AbstractFrameworkTestCase {
 
     /**
      * Functor.

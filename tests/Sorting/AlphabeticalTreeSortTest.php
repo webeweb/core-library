@@ -21,9 +21,8 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Sorting
- * @final
  */
-final class AlphabeticalTreeSortTest extends AbstractFrameworkTestCase {
+class AlphabeticalTreeSortTest extends AbstractFrameworkTestCase {
 
     /**
      * Nodes.
