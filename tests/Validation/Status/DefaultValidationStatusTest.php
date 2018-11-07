@@ -19,9 +19,8 @@ use WBW\Library\Core\Validation\Status\DefaultValidationStatus;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\Status
- * @final
  */
-final class DefaultValidationStatusTest extends AbstractValidationTest {
+class DefaultValidationStatusTest extends AbstractValidationTest {
 
     /**
      * Tests the __construct() method.

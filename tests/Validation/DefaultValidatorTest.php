@@ -20,9 +20,8 @@ use WBW\Library\Core\Validation\DefaultValidator;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation
- * @final
  */
-final class DefaultValidatorTest extends AbstractValidationTest {
+class DefaultValidatorTest extends AbstractValidationTest {
 
     /**
      * Tests the __construct() method.

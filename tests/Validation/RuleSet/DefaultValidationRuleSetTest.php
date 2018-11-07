@@ -21,9 +21,8 @@ use WBW\Library\Core\Validation\RuleSet\DefaultValidationRuleSet;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\RuleSet
- * @final
  */
-final class DefaultValidationRuleSetTest extends AbstractValidationTest {
+class DefaultValidationRuleSetTest extends AbstractValidationTest {
 
     /**
      * Tests the __construct() method.

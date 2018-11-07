@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\Rule
- * @final
  */
-final class AbstractValidationRuleTest extends AbstractValidationTest {
+class AbstractValidationRuleTest extends AbstractValidationTest {
 
     /**
      * Tests the __construct() method.
