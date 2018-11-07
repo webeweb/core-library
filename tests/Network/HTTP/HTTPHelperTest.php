@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\HTTP
- * @final
  */
-final class HTTPHelperTest extends AbstractFrameworkTestCase {
+class HTTPHelperTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getHTTPMethods() method.

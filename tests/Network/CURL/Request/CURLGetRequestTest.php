@@ -22,9 +22,8 @@ use WBW\Library\Core\Network\HTTP\HTTPHelper;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Request
- * @final
  */
-final class CURLGetRequestTest extends AbstractCURLRequestTest {
+class CURLGetRequestTest extends AbstractCURLRequestTest {
 
     /**
      * Tests __construct() method.

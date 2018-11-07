@@ -19,9 +19,8 @@ use WBW\Library\Core\Network\CURL\Request\CURLPatchRequest;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Request
- * @final
  */
-final class CURLPatchRequestTest extends AbstractCURLRequestTest {
+class CURLPatchRequestTest extends AbstractCURLRequestTest {
 
     /**
      * Tests __construct() method.

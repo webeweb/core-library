@@ -18,9 +18,8 @@ use WBW\Library\Core\Network\CURL\Request\CURLOptionsRequest;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Request
- * @final
  */
-final class CURLOptionsRequestTest extends AbstractCURLRequestTest {
+class CURLOptionsRequestTest extends AbstractCURLRequestTest {
 
     /**
      * Tests __construct() method.

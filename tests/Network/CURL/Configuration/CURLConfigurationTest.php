@@ -21,9 +21,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Configuration
- * @final
  */
-final class CURLConfigurationTest extends AbstractFrameworkTestCase {
+class CURLConfigurationTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __constructor() method.

@@ -19,9 +19,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Response
- * @final
  */
-final class CURLResponseTest extends AbstractFrameworkTestCase {
+class CURLResponseTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __constructor() method.

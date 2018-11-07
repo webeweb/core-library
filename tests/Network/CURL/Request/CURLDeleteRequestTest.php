@@ -18,9 +18,8 @@ use WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Request
- * @final
  */
-final class CURLDeleteRequestTest extends AbstractCURLRequestTest {
+class CURLDeleteRequestTest extends AbstractCURLRequestTest {
 
     /**
      * Tests __construct() method.

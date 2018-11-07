@@ -29,9 +29,8 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Factory
- * @final
  */
-final class CURLFactoryTest extends AbstractFrameworkTestCase {
+class CURLFactoryTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the getInstance() method.
