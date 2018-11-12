@@ -3,12 +3,12 @@
     "type": "library",
     "description": "Core library",
     "keywords": ["webeweb", "library", "core", "algorithm", "argument", "database", "io", "network", "security", "skidata", "sorting", "validation", "curl", "ftp", "sftp"],
-    "homepage": "http://github.com/webeweb/core-library",
+    "homepage": "https://github.com/webeweb/core-library",
     "license": "LGPL-3.0-only",
     "authors": [
         {
             "name": "webeweb",
-            "homepage": "http://github.com/webeweb/"
+            "homepage": "https://github.com/webeweb/"
         }
     ],
     "require": {
@@ -22,7 +22,7 @@
         "phpunit/phpunit": "5.7.*|^7.0"
     },
     "support": {
-        "issues": "http://github.com/webeweb/core-library/issues"
+        "issues": "https://github.com/webeweb/core-library/issues"
     },
     "autoload": {
         "psr-4": {
