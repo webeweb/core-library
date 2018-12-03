@@ -66,7 +66,7 @@ stable version of this package:
 ```bash
 $ mkdir core-library
 $ cd core-library
-$ git clone git@github.com:webeweb/core-library.git .
+$ git clone https://github.com/webeweb/core-library.git .
 $ composer install
 ```
 
