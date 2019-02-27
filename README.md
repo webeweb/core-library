@@ -64,9 +64,8 @@ Open a command console and execute the following commands to download the latest
 stable version of this package:
 
 ```bash
-$ mkdir core-library
+$ git clone https://github.com/webeweb/core-library.git
 $ cd core-library
-$ git clone https://github.com/webeweb/core-library.git .
 $ composer install
 ```
 
