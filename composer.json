@@ -31,11 +31,11 @@
         "ext-curl": "*",
         "ext-intl": "*",
         "ext-zip": "*",
-        "php": "^5.6|^7.0|^8.0",
+        "php": "^5.6|^7.0",
         "symfony/yaml": "^2.6|^3.0|^4.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "5.7.*|^7.0"
+        "phpunit/phpunit": "^5.7|^7.0"
     },
     "support": {
         "issues": "https://github.com/webeweb/core-library/issues"
