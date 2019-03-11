@@ -1,0 +1,813 @@
+<?php
+
+/*
+ * This file is part of the core-library package.
+ *
+ * (c) 2018 WEBEWEB
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
+
+use DateTime;
+
+/**
+ * Intervenants model.
+ *
+ * @author webeweb <https://github.com/webeweb/>
+ * @package WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete
+ */
+class Intervenants {
+
+    /**
+     * A p e.
+     *
+     * @var string
+     */
+    private $aPE;
+
+    /**
+     * B t q.
+     *
+     * @var string
+     */
+    private $bTQ;
+
+    /**
+     * Bureau distributeur.
+     *
+     * @var string
+     */
+    private $bureauDistributeur;
+
+    /**
+     * Civilite.
+     *
+     * @var string
+     */
+    private $civilite;
+
+    /**
+     * Code officiel commune.
+     *
+     * @var string
+     */
+    private $codeOfficielCommune;
+
+    /**
+     * Code postal.
+     *
+     * @var string
+     */
+    private $codePostal;
+
+    /**
+     * Complement.
+     *
+     * @var string
+     */
+    private $complement;
+
+    /**
+     * Date creat.
+     *
+     * @var DateTime
+     */
+    private $dateCreat;
+
+    /**
+     * Date modif.
+     *
+     * @var DateTime
+     */
+    private $dateModif;
+
+    /**
+     * Fax.
+     *
+     * @var string
+     */
+    private $fax;
+
+    /**
+     * Id.
+     *
+     * @var string
+     */
+    private $id;
+
+    /**
+     * Ident tva.
+     *
+     * @var string
+     */
+    private $identTva;
+
+    /**
+     * Nom.
+     *
+     * @var string
+     */
+    private $nom;
+
+    /**
+     * Nom marital.
+     *
+     * @var string
+     */
+    private $nomMarital;
+
+    /**
+     * Nom responsable.
+     *
+     * @var string
+     */
+    private $nomResponsable;
+
+    /**
+     * Nom suite.
+     *
+     * @var string
+     */
+    private $nomSuite;
+
+    /**
+     * Nom ville.
+     *
+     * @var string
+     */
+    private $nomVille;
+
+    /**
+     * Nom voie.
+     *
+     * @var string
+     */
+    private $nomVoie;
+
+    /**
+     * Num voie.
+     *
+     * @var string
+     */
+    private $numVoie;
+
+    /**
+     * Portable1.
+     *
+     * @var string
+     */
+    private $portable1;
+
+    /**
+     * Portable2.
+     *
+     * @var string
+     */
+    private $portable2;
+
+    /**
+     * Prenom.
+     *
+     * @var string
+     */
+    private $prenom;
+
+    /**
+     * Qualite.
+     *
+     * @var string
+     */
+    private $qualite;
+
+    /**
+     * Rc.
+     *
+     * @var string
+     */
+    private $rc;
+
+    /**
+     * Siret.
+     *
+     * @var string
+     */
+    private $siret;
+
+    /**
+     * Tel1.
+     *
+     * @var string
+     */
+    private $tel1;
+
+    /**
+     * Tel2.
+     *
+     * @var string
+     */
+    private $tel2;
+
+    /**
+     * Tel voiture.
+     *
+     * @var string
+     */
+    private $telVoiture;
+
+    /**
+     * Telex.
+     *
+     * @var string
+     */
+    private $telex;
+
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
+
+    /**
+     * Get the a p e.
+     *
+     * @return string Returns the a p e.
+     */
+    public function getAPE() {
+        return $this->aPE;
+    }
+
+    /**
+     * Get the b t q.
+     *
+     * @return string Returns the b t q.
+     */
+    public function getBTQ() {
+        return $this->bTQ;
+    }
+
+    /**
+     * Get the bureau distributeur.
+     *
+     * @return string Returns the bureau distributeur.
+     */
+    public function getBureauDistributeur() {
+        return $this->bureauDistributeur;
+    }
+
+    /**
+     * Get the civilite.
+     *
+     * @return string Returns the civilite.
+     */
+    public function getCivilite() {
+        return $this->civilite;
+    }
+
+    /**
+     * Get the code officiel commune.
+     *
+     * @return string Returns the code officiel commune.
+     */
+    public function getCodeOfficielCommune() {
+        return $this->codeOfficielCommune;
+    }
+
+    /**
+     * Get the code postal.
+     *
+     * @return string Returns the code postal.
+     */
+    public function getCodePostal() {
+        return $this->codePostal;
+    }
+
+    /**
+     * Get the complement.
+     *
+     * @return string Returns the complement.
+     */
+    public function getComplement() {
+        return $this->complement;
+    }
+
+    /**
+     * Get the date creat.
+     *
+     * @return DateTime Returns the date creat.
+     */
+    public function getDateCreat() {
+        return $this->dateCreat;
+    }
+
+    /**
+     * Get the date modif.
+     *
+     * @return DateTime Returns the date modif.
+     */
+    public function getDateModif() {
+        return $this->dateModif;
+    }
+
+    /**
+     * Get the fax.
+     *
+     * @return string Returns the fax.
+     */
+    public function getFax() {
+        return $this->fax;
+    }
+
+    /**
+     * Get the id.
+     *
+     * @return string Returns the id.
+     */
+    public function getId() {
+        return $this->id;
+    }
+
+    /**
+     * Get the ident tva.
+     *
+     * @return string Returns the ident tva.
+     */
+    public function getIdentTva() {
+        return $this->identTva;
+    }
+
+    /**
+     * Get the nom.
+     *
+     * @return string Returns the nom.
+     */
+    public function getNom() {
+        return $this->nom;
+    }
+
+    /**
+     * Get the nom marital.
+     *
+     * @return string Returns the nom marital.
+     */
+    public function getNomMarital() {
+        return $this->nomMarital;
+    }
+
+    /**
+     * Get the nom responsable.
+     *
+     * @return string Returns the nom responsable.
+     */
+    public function getNomResponsable() {
+        return $this->nomResponsable;
+    }
+
+    /**
+     * Get the nom suite.
+     *
+     * @return string Returns the nom suite.
+     */
+    public function getNomSuite() {
+        return $this->nomSuite;
+    }
+
+    /**
+     * Get the nom ville.
+     *
+     * @return string Returns the nom ville.
+     */
+    public function getNomVille() {
+        return $this->nomVille;
+    }
+
+    /**
+     * Get the nom voie.
+     *
+     * @return string Returns the nom voie.
+     */
+    public function getNomVoie() {
+        return $this->nomVoie;
+    }
+
+    /**
+     * Get the num voie.
+     *
+     * @return string Returns the num voie.
+     */
+    public function getNumVoie() {
+        return $this->numVoie;
+    }
+
+    /**
+     * Get the portable1.
+     *
+     * @return string Returns the portable1.
+     */
+    public function getPortable1() {
+        return $this->portable1;
+    }
+
+    /**
+     * Get the portable2.
+     *
+     * @return string Returns the portable2.
+     */
+    public function getPortable2() {
+        return $this->portable2;
+    }
+
+    /**
+     * Get the prenom.
+     *
+     * @return string Returns the prenom.
+     */
+    public function getPrenom() {
+        return $this->prenom;
+    }
+
+    /**
+     * Get the qualite.
+     *
+     * @return string Returns the qualite.
+     */
+    public function getQualite() {
+        return $this->qualite;
+    }
+
+    /**
+     * Get the rc.
+     *
+     * @return string Returns the rc.
+     */
+    public function getRc() {
+        return $this->rc;
+    }
+
+    /**
+     * Get the siret.
+     *
+     * @return string Returns the siret.
+     */
+    public function getSiret() {
+        return $this->siret;
+    }
+
+    /**
+     * Get the tel1.
+     *
+     * @return string Returns the tel1.
+     */
+    public function getTel1() {
+        return $this->tel1;
+    }
+
+    /**
+     * Get the tel2.
+     *
+     * @return string Returns the tel2.
+     */
+    public function getTel2() {
+        return $this->tel2;
+    }
+
+    /**
+     * Get the tel voiture.
+     *
+     * @return string Returns the tel voiture.
+     */
+    public function getTelVoiture() {
+        return $this->telVoiture;
+    }
+
+    /**
+     * Get the telex.
+     *
+     * @return string Returns the telex.
+     */
+    public function getTelex() {
+        return $this->telex;
+    }
+
+    /**
+     * Set the a p e.
+     *
+     * @param string $aPE The a p e.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setAPE($aPE) {
+        $this->aPE = $aPE;
+        return $this;
+    }
+
+    /**
+     * Set the b t q.
+     *
+     * @param string $bTQ The b t q.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setBTQ($bTQ) {
+        $this->bTQ = $bTQ;
+        return $this;
+    }
+
+    /**
+     * Set the bureau distributeur.
+     *
+     * @param string $bureauDistributeur The bureau distributeur.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setBureauDistributeur($bureauDistributeur) {
+        $this->bureauDistributeur = $bureauDistributeur;
+        return $this;
+    }
+
+    /**
+     * Set the civilite.
+     *
+     * @param string $civilite The civilite.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setCivilite($civilite) {
+        $this->civilite = $civilite;
+        return $this;
+    }
+
+    /**
+     * Set the code officiel commune.
+     *
+     * @param string $codeOfficielCommune The code officiel commune.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setCodeOfficielCommune($codeOfficielCommune) {
+        $this->codeOfficielCommune = $codeOfficielCommune;
+        return $this;
+    }
+
+    /**
+     * Set the code postal.
+     *
+     * @param string $codePostal The code postal.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setCodePostal($codePostal) {
+        $this->codePostal = $codePostal;
+        return $this;
+    }
+
+    /**
+     * Set the complement.
+     *
+     * @param string $complement The complement.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setComplement($complement) {
+        $this->complement = $complement;
+        return $this;
+    }
+
+    /**
+     * Set the date creat.
+     *
+     * @param DateTime $dateCreat The date creat.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setDateCreat(DateTime $dateCreat = null) {
+        $this->dateCreat = $dateCreat;
+        return $this;
+    }
+
+    /**
+     * Set the date modif.
+     *
+     * @param DateTime $dateModif The date modif.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setDateModif(DateTime $dateModif = null) {
+        $this->dateModif = $dateModif;
+        return $this;
+    }
+
+    /**
+     * Set the fax.
+     *
+     * @param string $fax The fax.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setFax($fax) {
+        $this->fax = $fax;
+        return $this;
+    }
+
+    /**
+     * Set the id.
+     *
+     * @param string $id The id.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setId($id) {
+        $this->id = $id;
+        return $this;
+    }
+
+    /**
+     * Set the ident tva.
+     *
+     * @param string $identTva The ident tva.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setIdentTva($identTva) {
+        $this->identTva = $identTva;
+        return $this;
+    }
+
+    /**
+     * Set the nom.
+     *
+     * @param string $nom The nom.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setNom($nom) {
+        $this->nom = $nom;
+        return $this;
+    }
+
+    /**
+     * Set the nom marital.
+     *
+     * @param string $nomMarital The nom marital.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setNomMarital($nomMarital) {
+        $this->nomMarital = $nomMarital;
+        return $this;
+    }
+
+    /**
+     * Set the nom responsable.
+     *
+     * @param string $nomResponsable The nom responsable.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setNomResponsable($nomResponsable) {
+        $this->nomResponsable = $nomResponsable;
+        return $this;
+    }
+
+    /**
+     * Set the nom suite.
+     *
+     * @param string $nomSuite The nom suite.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setNomSuite($nomSuite) {
+        $this->nomSuite = $nomSuite;
+        return $this;
+    }
+
+    /**
+     * Set the nom ville.
+     *
+     * @param string $nomVille The nom ville.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setNomVille($nomVille) {
+        $this->nomVille = $nomVille;
+        return $this;
+    }
+
+    /**
+     * Set the nom voie.
+     *
+     * @param string $nomVoie The nom voie.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setNomVoie($nomVoie) {
+        $this->nomVoie = $nomVoie;
+        return $this;
+    }
+
+    /**
+     * Set the num voie.
+     *
+     * @param string $numVoie The num voie.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setNumVoie($numVoie) {
+        $this->numVoie = $numVoie;
+        return $this;
+    }
+
+    /**
+     * Set the portable1.
+     *
+     * @param string $portable1 The portable1.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setPortable1($portable1) {
+        $this->portable1 = $portable1;
+        return $this;
+    }
+
+    /**
+     * Set the portable2.
+     *
+     * @param string $portable2 The portable2.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setPortable2($portable2) {
+        $this->portable2 = $portable2;
+        return $this;
+    }
+
+    /**
+     * Set the prenom.
+     *
+     * @param string $prenom The prenom.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setPrenom($prenom) {
+        $this->prenom = $prenom;
+        return $this;
+    }
+
+    /**
+     * Set the qualite.
+     *
+     * @param string $qualite The qualite.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setQualite($qualite) {
+        $this->qualite = $qualite;
+        return $this;
+    }
+
+    /**
+     * Set the rc.
+     *
+     * @param string $rc The rc.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setRc($rc) {
+        $this->rc = $rc;
+        return $this;
+    }
+
+    /**
+     * Set the siret.
+     *
+     * @param string $siret The siret.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setSiret($siret) {
+        $this->siret = $siret;
+        return $this;
+    }
+
+    /**
+     * Set the tel1.
+     *
+     * @param string $tel1 The tel1.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setTel1($tel1) {
+        $this->tel1 = $tel1;
+        return $this;
+    }
+
+    /**
+     * Set the tel2.
+     *
+     * @param string $tel2 The tel2.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setTel2($tel2) {
+        $this->tel2 = $tel2;
+        return $this;
+    }
+
+    /**
+     * Set the tel voiture.
+     *
+     * @param string $telVoiture The tel voiture.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setTelVoiture($telVoiture) {
+        $this->telVoiture = $telVoiture;
+        return $this;
+    }
+
+    /**
+     * Set the telex.
+     *
+     * @param string $telex The telex.
+     * @return Intervenants Returns this intervenants.
+     */
+    public function setTelex($telex) {
+        $this->telex = $telex;
+        return $this;
+    }
+}
