@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,29 +9,31 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\SkiData\Parser;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Parser;
 
 use DateTime;
-use WBW\Library\Core\SkiData\Entity\SkiDataUser;
-use WBW\Library\Core\SkiData\Parser\SkiDataUserParser;
+use Exception;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\SkiData\Model\User;
+use WBW\Library\Core\ThirdParty\SkiData\Parser\UserParser;
 
 /**
- * SkidData user parser test.
+ * User parser test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\SkiData\Parser
+ * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Parser
  */
-class SkidDataUserParserTest extends AbstractFrameworkTestCase {
+class UserParserTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseEntity() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseEntity() {
 
-        $obj = new SkiDataUser();
+        $obj = new User();
         $obj->setUserNumber(987654321);
         $obj->setCustomerNumber(123456789);
         $obj->setTitle("title");
@@ -60,19 +62,20 @@ class SkidDataUserParserTest extends AbstractFrameworkTestCase {
         $obj->setETicketServiceArt(2);
 
         $res = '987654321;123456789;"title";"surname";"firstname";20170920;"12345";"remarks";20170921 115500;0;"identificationNumber";0;1;1;"creditCardNumber";;"remarks2";"remarks3";"division";"email";1;1;"eTicketEmailTelephone";1;3;2';
-        $this->assertEquals($res, (new SkiDataUserParser())->parseEntity($obj));
+        $this->assertEquals($res, (new UserParser())->parseEntity($obj));
     }
 
     /**
      * Tests the parseLine() method.
      *
      * @retrun void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseLine() {
 
         $obj = '987654321;123456789;"title";"surname";"firstname";20170920;"12345";"remarks";20170921 115500;0;"identificationNumber";0;1;1;"creditCardNumber";;"remarks2";"remarks3";"division";"email";1;1;"eTicketEmailTelephone";1;3;2';
 
-        $res = (new SkiDataUserParser())->parseLine($obj);
+        $res = (new UserParser())->parseLine($obj);
         $this->assertEquals(987654321, $res->getUserNumber());
         $this->assertEquals(123456789, $res->getCustomerNumber());
         $this->assertEquals("title", $res->getTitle());
@@ -100,5 +103,4 @@ class SkidDataUserParserTest extends AbstractFrameworkTestCase {
         $this->assertEquals(3, $res->getETicketServiceTyp());
         $this->assertEquals(2, $res->getEticketServiceArt());
     }
-
 }
