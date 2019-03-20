@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\SkiData\Entity;
+namespace WBW\Library\Core\ThirdParty\SkiData\Model;
 
 use DateTime;
-use WBW\Library\Core\SkiData\Model\SkiDataCustomerTrait;
+use WBW\Library\Core\ThirdParty\SkiData\Traits\CustomerTrait;
 
 /**
- * SkiData user entity.
+ * User.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\SkiData\Entity
+ * @package WBW\Library\Core\ThirdParty\SkiData\Model
  */
-class SkiDataUser {
+class User {
 
-    use SkiDataCustomerTrait;
+    use CustomerTrait;
 
     /**
      * Check licence plate.
@@ -259,7 +259,7 @@ class SkiDataUser {
      * Set the check with license plate.
      *
      * @param bool $checkLicensePlate The check with license plate.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setCheckLicensePlate($checkLicensePlate) {
         $this->checkLicensePlate = $checkLicensePlate;
@@ -270,7 +270,7 @@ class SkiDataUser {
      * Set the credit card number.
      *
      * @param string $creditCardNumber The credit card number.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setCreditCardNumber($creditCardNumber) {
         $this->creditCardNumber = $creditCardNumber;
@@ -281,7 +281,7 @@ class SkiDataUser {
      * Set the date of birth.
      *
      * @param DateTime $dateBirth The date of birth.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setDateBirth(DateTime $dateBirth = null) {
         $this->dateBirth = $dateBirth;
@@ -292,7 +292,7 @@ class SkiDataUser {
      * Set the E-ticket authentication.
      *
      * @param int $eTicketAuthentication The E-ticket authentication.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setETicketAuthentication($eTicketAuthentication) {
         $this->eTicketAuthentication = $eTicketAuthentication;
@@ -303,7 +303,7 @@ class SkiDataUser {
      * Set the E-ticket email/telephone.
      *
      * @param string $eTicketEmailTelephone The E-ticket email/telephone.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setETicketEmailTelephone($eTicketEmailTelephone) {
         $this->eTicketEmailTelephone = $eTicketEmailTelephone;
@@ -314,7 +314,7 @@ class SkiDataUser {
      * Set the E-ticket service art.
      *
      * @param int $eTicketServiceArt The E-ticket service art.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setETicketServiceArt($eTicketServiceArt) {
         $this->eTicketServiceArt = $eTicketServiceArt;
@@ -325,7 +325,7 @@ class SkiDataUser {
      * Set the E-ticket service typ.
      *
      * @param int $eTicketServiceTyp The E-ticket service typ.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setETicketServiceTyp($eTicketServiceTyp) {
         $this->eTicketServiceTyp = $eTicketServiceTyp;
@@ -336,7 +336,7 @@ class SkiDataUser {
      * Set the E-ticket type p.
      *
      * @param int $eTicketTypeP The E-ticket type p.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setETicketTypeP($eTicketTypeP) {
         $this->eTicketTypeP = $eTicketTypeP;
@@ -347,7 +347,7 @@ class SkiDataUser {
      * Set the excess times with credit card.
      *
      * @param bool $excessTimesCreditCard The excess times with credit card.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setExcessTimesCreditCard($excessTimesCreditCard) {
         $this->excessTimesCreditCard = $excessTimesCreditCard;
@@ -358,7 +358,7 @@ class SkiDataUser {
      * Set the expiry date.
      *
      * @param DateTime $expiryDate The expiry date.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setExpiryDate(DateTime $expiryDate = null) {
         $this->expiryDate = $expiryDate;
@@ -369,7 +369,7 @@ class SkiDataUser {
      * Set the identification number.
      *
      * @param string $identificationNumber The identification number.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setIdentificationNumber($identificationNumber) {
         $this->identificationNumber = $identificationNumber;
@@ -380,7 +380,7 @@ class SkiDataUser {
      * Set the parking space.
      *
      * @param string $parkingSpace The parking space.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setParkingSpace($parkingSpace) {
         $this->parkingSpace = $parkingSpace;
@@ -391,7 +391,7 @@ class SkiDataUser {
      * Set the passage with license plate permitted.
      *
      * @param bool $passageLicensePlatePermitted The passage with license plate permitted.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setPassageLicensePlatePermitted($passageLicensePlatePermitted) {
         $this->passageLicensePlatePermitted = $passageLicensePlatePermitted;
@@ -402,7 +402,7 @@ class SkiDataUser {
      * Set the user number.
      *
      * @param int $userNumber The user number.
-     * @return SkiDataUser Returns this user entity.
+     * @return User Returns this user entity.
      */
     public function setUserNumber($userNumber) {
         $this->userNumber = $userNumber;
