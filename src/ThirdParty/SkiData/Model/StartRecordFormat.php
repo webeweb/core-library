@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\SkiData\Entity;
+namespace WBW\Library\Core\ThirdParty\SkiData\Model;
 
 use DateTime;
 
 /**
- * SkiData start record rormat entity.
+ * Start record format .
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\SkiData\Entity
+ * @package WBW\Library\Core\ThirdParty\SkiData\Model
  */
-class SkiDataStartRecordFormat {
+class StartRecordFormat {
 
     /**
      * Currency.
@@ -112,7 +112,7 @@ class SkiDataStartRecordFormat {
      * Set the currency.
      *
      * @param string $currency The currency.
-     * @return SkiDataStartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format entity.
      */
     public function setCurrency($currency) {
         $this->currency = $currency;
@@ -123,7 +123,7 @@ class SkiDataStartRecordFormat {
      * Set the date of file.
      *
      * @param DateTime $dateFile The date of file.
-     * @return SkiDataStartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format entity.
      */
     public function setDateFile(DateTime $dateFile = null) {
         $this->dateFile = $dateFile;
@@ -134,7 +134,7 @@ class SkiDataStartRecordFormat {
      * Set the facility number.
      *
      * @param int $facilityNumber The facility number.
-     * @return SkiDataStartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format entity.
      */
     public function setFacilityNumber($facilityNumber) {
         $this->facilityNumber = $facilityNumber;
@@ -145,7 +145,7 @@ class SkiDataStartRecordFormat {
      * Set the number of records.
      *
      * @param int $numberRecords The number of records.
-     * @return SkiDataStartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format entity.
      */
     public function setNumberRecords($numberRecords) {
         $this->numberRecords = $numberRecords;
@@ -156,7 +156,7 @@ class SkiDataStartRecordFormat {
      * Set the version of record structure.
      *
      * @param int $versionRecordStructure The version of record structure.
-     * @return SkiDataStartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format entity.
      */
     public function setVersionRecordStructure($versionRecordStructure) {
         $this->versionRecordStructure = $versionRecordStructure;

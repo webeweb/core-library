@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -12,16 +12,17 @@
 namespace WBW\Library\Core\Tests\SkiData\Entity;
 
 use DateTime;
-use WBW\Library\Core\SkiData\Entity\SkiDataStartRecordFormat;
+use Exception;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\SkiData\Model\StartRecordFormat;
 
 /**
- * SkiData start record format test.
+ * Start record format test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\SkiData\Entity
  */
-class SkiDataStartRecordFormatTest extends AbstractFrameworkTestCase {
+class StartRecordFormatTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
@@ -30,7 +31,7 @@ class SkiDataStartRecordFormatTest extends AbstractFrameworkTestCase {
      */
     public function testConstruct() {
 
-        $obj = new SkiDataStartRecordFormat();
+        $obj = new StartRecordFormat();
 
         $this->assertNull($obj->getCurrency());
         $this->assertNull($obj->getDateFile());
@@ -46,7 +47,7 @@ class SkiDataStartRecordFormatTest extends AbstractFrameworkTestCase {
      */
     public function testSetCurrency() {
 
-        $obj = new SkiDataStartRecordFormat();
+        $obj = new StartRecordFormat();
 
         $obj->setCurrency("currency");
         $this->assertEquals("currency", $obj->getCurrency());
@@ -56,10 +57,11 @@ class SkiDataStartRecordFormatTest extends AbstractFrameworkTestCase {
      * Tests the setDateFile() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testSetDateFile() {
 
-        $obj = new SkiDataStartRecordFormat();
+        $obj = new StartRecordFormat();
 
         $obj->setDateFile(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getDateFile()->format("Y-m-d"));
@@ -72,7 +74,7 @@ class SkiDataStartRecordFormatTest extends AbstractFrameworkTestCase {
      */
     public function testSetFacilityNumber() {
 
-        $obj = new SkiDataStartRecordFormat();
+        $obj = new StartRecordFormat();
 
         $obj->setFacilityNumber(1);
         $this->assertEquals(1, $obj->getFacilityNumber());
@@ -85,7 +87,7 @@ class SkiDataStartRecordFormatTest extends AbstractFrameworkTestCase {
      */
     public function testSetNumberRecords() {
 
-        $obj = new SkiDataStartRecordFormat();
+        $obj = new StartRecordFormat();
 
         $obj->setNumberRecords(1);
         $this->assertEquals(1, $obj->getNumberRecords());
@@ -98,10 +100,9 @@ class SkiDataStartRecordFormatTest extends AbstractFrameworkTestCase {
      */
     public function testSetVersionRecordStructure() {
 
-        $obj = new SkiDataStartRecordFormat();
+        $obj = new StartRecordFormat();
 
         $obj->setVersionRecordStructure(1);
         $this->assertEquals(1, $obj->getVersionRecordStructure());
     }
-
 }
