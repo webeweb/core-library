@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,29 +9,31 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\SkiData\Parser;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Parser;
 
 use DateTime;
-use WBW\Library\Core\SkiData\Entity\SkiDataCard;
-use WBW\Library\Core\SkiData\Parser\SkiDataCardParser;
+use Exception;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\SkiData\Model\Card;
+use WBW\Library\Core\ThirdParty\SkiData\Parser\CardParser;
 
 /**
- * SkiData card parser test.
+ * Card parser test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\SkiData\Parser
+ * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Parser
  */
-class SkiDataCardParserTest extends AbstractFrameworkTestCase {
+class CardParserTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseEntity() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseEntity() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
         $obj->setTicketNumber("ticketNumber");
         $obj->setUserNumber(987654321);
         $obj->setArticleNumber(321);
@@ -63,19 +65,20 @@ class SkiDataCardParserTest extends AbstractFrameworkTestCase {
         $obj->setProductionFacilityNumber(1234567);
 
         $res = '"ticketNumber";987654321;321;20170920;20170921;1;;2;0;3412;0;0;1;1;0;1;"displayText1";"displayText2";9876;123456789012;"serialNumberKeyCard";"3.0";3;"ticke";"serialNo";;20170922;1;1234567';
-        $this->assertEquals($res, (new SkiDataCardParser())->parseEntity($obj));
+        $this->assertEquals($res, (new CardParser())->parseEntity($obj));
     }
 
     /**
      * Tests the parseLine() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseLine() {
 
         $obj = '"ticketNumber";987654321;321;20170920;20170921;1;;2;0;3412;0;0;1;1;0;1;"displayText1";"displayText2";9876;123456789012;"serialNumberKeyCard";"3.0";3;"ticke";"serialNo";;20170922;1;1234567';
 
-        $res = (new SkiDataCardParser())->parseLine($obj);
+        $res = (new CardParser())->parseLine($obj);
         $this->assertEquals("ticketNumber", $res->getTicketNumber());
         $this->assertEquals(987654321, $res->getUserNumber());
         $this->assertEquals(321, $res->getArticleNumber());
@@ -106,5 +109,4 @@ class SkiDataCardParserTest extends AbstractFrameworkTestCase {
         $this->assertTrue($res->getUseValidCarParks());
         $this->assertEquals(1234567, $res->getProductionFacilityNumber());
     }
-
 }

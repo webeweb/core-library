@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,27 +9,27 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\SkiData\Parser;
+namespace WBW\Library\Core\ThirdParty\SkiData\Parser;
 
 use DateTime;
 use WBW\Library\Core\Argument\IntegerHelper;
-use WBW\Library\Core\Exception\SkiData\SkiDataTooLongDataException;
-use WBW\Library\Core\SkiData\API\SkiDataParserInterface;
-use WBW\Library\Core\SkiData\Entity\SkiDataStartRecordFormat;
+use WBW\Library\Core\ThirdParty\SkiData\API\ParserInterface;
+use WBW\Library\Core\ThirdParty\SkiData\Exception\TooLongDataException;
+use WBW\Library\Core\ThirdParty\SkiData\Model\StartRecordFormat;
 
 /**
- * Abstract SkiData parser.
+ * Abstract parser.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\SkiData\Parser
+ * @package WBW\Library\Core\ThirdParty\SkiData\Parser
  * @abstract
  */
-abstract class AbstractSkiDataParser implements SkiDataParserInterface {
+abstract class AbstractParser implements ParserInterface {
 
     /**
      * Start record format.
      *
-     * @var SkiDataStartRecordFormat
+     * @var StartRecordFormat
      */
     private $startRecordFormat;
 
@@ -108,13 +108,13 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      * @param int $value The value.
      * @param int $length The length.
      * @return string Returns the encoded integer.
-     * @throws SkiDataTooLongDataException Throws a too long data exception if the value exceeds the length.
+     * @throws TooLongDataException Throws a too long data exception if the value exceeds the length.
      */
     protected function encodeInteger($value, $length) {
         $format = "%'.0" . $length . "d";
         $output = null === $value ? "" : sprintf($format, $value);
         if ($length < strlen($output)) {
-            throw new SkiDataTooLongDataException($value, $length);
+            throw new TooLongDataException($value, $length);
         }
         return $output;
     }
@@ -125,11 +125,11 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
      * @param string $value The value.
      * @param int $length The length.
      * @return string Returns the encoded string.
-     * @throws SkiDataTooLongDataException Throws a too long data exception if the value exceeds the length.
+     * @throws TooLongDataException Throws a too long data exception if the value exceeds the length.
      */
     protected function encodeString($value, $length = -1) {
         if (-1 !== $length && $length < strlen($value)) {
-            throw new SkiDataTooLongDataException($value, $length);
+            throw new TooLongDataException($value, $length);
         }
         return "\"" . substr($value, 0, (-1 === $length ? strlen($value) : $length)) . "\"";
     }
@@ -137,7 +137,7 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
     /**
      * Get the start record format.
      *
-     * @return SkiDataStartRecordFormat Returns the start record format.
+     * @return StartRecordFormat Returns the start record format.
      */
     public function getStartRecordFormat() {
         return $this->startRecordFormat;
@@ -146,12 +146,11 @@ abstract class AbstractSkiDataParser implements SkiDataParserInterface {
     /**
      * Set the start record format.
      *
-     * @param SkiDataStartRecordFormat $startRecordFormat The start record format.
-     * @return AbstractSkiDataParser Returns the parser.
+     * @param StartRecordFormat $startRecordFormat The start record format.
+     * @return AbstractParser Returns the parser.
      */
-    public function setStartRecordFormat(SkiDataStartRecordFormat $startRecordFormat) {
+    public function setStartRecordFormat(StartRecordFormat $startRecordFormat) {
         $this->startRecordFormat = $startRecordFormat;
         return $this;
     }
-
 }
