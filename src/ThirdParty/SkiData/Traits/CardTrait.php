@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\SkiData\Model;
+namespace WBW\Library\Core\ThirdParty\SkiData\Traits;
 
 use DateTime;
 
 /**
- * SkiData card trait.
+ * Card trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\SkiData\Model
+ * @package WBW\Library\Core\ThirdParty\SkiData\Traits
  */
-trait SkiDataCardTrait {
+trait CardTrait {
 
     /**
      * Blocked.
@@ -72,5 +72,4 @@ trait SkiDataCardTrait {
         $this->blockedDate = $blockedDate;
         return $this;
     }
-
 }
