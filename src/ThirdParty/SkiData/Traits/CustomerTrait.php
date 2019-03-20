@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\SkiData\Model;
+namespace WBW\Library\Core\ThirdParty\SkiData\Traits;
 
 use DateTime;
 
 /**
- * SkiData customer trait.
+ * Customer trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\SkiData\Model
+ * @package WBW\Library\Core\ThirdParty\SkiData\Traits
  */
-trait SkiDataCustomerTrait {
+trait CustomerTrait {
 
     /**
      * Customer number.
@@ -51,7 +51,6 @@ trait SkiDataCustomerTrait {
 
     /**
      * E-mail.
-     *
      * @var string
      */
     private $email;
