@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\SkiData;
+namespace WBW\Library\Core\ThirdParty\SkiData\Exception;
 
 /**
- * SkiData too long data exception.
+ * Too long data exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\SkiData
+ * @package WBW\Library\Core\ThirdParty\SkiData\Exception
  */
-class SkiDataTooLongDataException extends AbstractSkiDataException {
+class TooLongDataException extends AbstractException {
 
     /**
      * Constructor.
@@ -28,5 +28,4 @@ class SkiDataTooLongDataException extends AbstractSkiDataException {
     public function __construct($value, $length) {
         parent::__construct(sprintf("The data \"%s\" exceeds the length \"%d\" allowed", $value, $length));
     }
-
 }

@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\SkiData;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Exception;
 
-use WBW\Library\Core\Exception\SkiData\SkiDataTooLongDataException;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\SkiData\Exception\TooLongDataException;
 
 /**
- * SkiData too long data exception test.
+ * Too long data exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception\SkiData
+ * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Exception
  */
-class SkiDataTooLongDataExceptionTest extends AbstractFrameworkTestCase {
+class TooLongDataExceptionTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
@@ -29,10 +29,9 @@ class SkiDataTooLongDataExceptionTest extends AbstractFrameworkTestCase {
      */
     public function testConstruct() {
 
-        $ex = new SkiDataTooLongDataException("", 0);
+        $ex = new TooLongDataException("", 0);
 
         $res = "The data \"\" exceeds the length \"0\" allowed";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }
