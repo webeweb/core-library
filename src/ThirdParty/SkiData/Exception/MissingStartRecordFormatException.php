@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\SkiData;
+namespace WBW\Library\Core\ThirdParty\SkiData\Exception;
 
 /**
- * SkiData missing start record format exception.
+ * Missing start record format exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\SkiData
+ * @package WBW\Library\Core\ThirdParty\SkiData\Exception
  */
-class SkiDataMissingStartRecordFormatException extends AbstractSkiDataException {
+class MissingStartRecordFormatException extends AbstractException {
 
     /**
      * Constructor.
@@ -25,5 +25,4 @@ class SkiDataMissingStartRecordFormatException extends AbstractSkiDataException 
     public function __construct() {
         parent::__construct("The start record format is missing");
     }
-
 }

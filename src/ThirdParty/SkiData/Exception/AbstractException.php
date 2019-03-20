@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\SkiData;
+namespace WBW\Library\Core\ThirdParty\SkiData\Exception;
 
 use WBW\Library\Core\Exception\AbstractCoreException;
 
 /**
- * Abstract SkiData exception.
+ * Abstract exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\SkiData
+ * @package WBW\Library\Core\ThirdParty\SkiData\Exception
  * @abstract
  */
-abstract class AbstractSkiDataException extends AbstractCoreException {
+abstract class AbstractException extends AbstractCoreException {
 
     /**
      * Constructor.
@@ -30,5 +30,4 @@ abstract class AbstractSkiDataException extends AbstractCoreException {
     public function __construct($message) {
         parent::__construct($message);
     }
-
 }
