@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,22 +9,22 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\SkiData\Parser;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Parser;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Exception\SkiData\SkiDataTooLongDataException;
-use WBW\Library\Core\SkiData\Entity\SkiDataStartRecordFormat;
-use WBW\Library\Core\SkiData\Parser\SkiDataStartRecordFormatParser;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\SkiData\Exception\TooLongDataException;
+use WBW\Library\Core\ThirdParty\SkiData\Model\StartRecordFormat;
+use WBW\Library\Core\ThirdParty\SkiData\Parser\StartRecordFormatParser;
 
 /**
- * SkiData start record format parser test.
+ * Start record format parser test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\SkiData\Parser
+ * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Parser
  */
-class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
+class StartRecordFormatParserTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
@@ -33,11 +33,11 @@ class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
      */
     public function testConstruct() {
 
-        $obj = new SkiDataStartRecordFormatParser();
+        $obj = new StartRecordFormatParser();
 
         $this->assertNull($obj->getStartRecordFormat());
 
-        $res = new SkiDataStartRecordFormat();
+        $res = new StartRecordFormat();
         $obj->setStartRecordFormat($res);
         $this->assertEquals($res, $obj->getStartRecordFormat());
     }
@@ -46,10 +46,11 @@ class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
      * Tests the parseEntity() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseEntity() {
 
-        $obj = new SkiDataStartRecordFormat();
+        $obj = new StartRecordFormat();
         $obj->setVersionRecordStructure(190000);
         $obj->setFacilityNumber(202747);
         $obj->setDateFile(new DateTime("2017-09-21 16:10:00"));
@@ -57,17 +58,18 @@ class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
         $obj->setCurrency("EUR");
 
         $res = '190000;0202747;20170921;00018;"EUR"';
-        $this->assertEquals($res, (new SkiDataStartRecordFormatParser())->parseEntity($obj));
+        $this->assertEquals($res, (new StartRecordFormatParser())->parseEntity($obj));
     }
 
     /**
      * Tests the parseEntity() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseEntityWithSkiDataTooLongException() {
 
-        $obj = new SkiDataStartRecordFormat();
+        $obj = new StartRecordFormat();
         $obj->setVersionRecordStructure(190000);
         $obj->setFacilityNumber(202747);
         $obj->setDateFile(new DateTime("2017-09-21 16:10:00"));
@@ -77,10 +79,10 @@ class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
         try {
 
             $obj->setVersionRecordStructure(2000000);
-            (new SkiDataStartRecordFormatParser())->parseEntity($obj);
+            (new StartRecordFormatParser())->parseEntity($obj);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(SkiDataTooLongDataException::class, $ex);
+            $this->assertInstanceOf(Exception::class, $ex);
             $this->assertEquals("The data \"2000000\" exceeds the length \"6\" allowed", $ex->getMessage());
         }
 
@@ -88,10 +90,10 @@ class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
 
             $obj->setVersionRecordStructure(190000);
             $obj->setCurrency("Exception");
-            (new SkiDataStartRecordFormatParser())->parseEntity($obj);
+            (new StartRecordFormatParser())->parseEntity($obj);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(SkiDataTooLongDataException::class, $ex);
+            $this->assertInstanceOf(TooLongDataException::class, $ex);
             $this->assertEquals("The data \"Exception\" exceeds the length \"6\" allowed", $ex->getMessage());
         }
     }
@@ -100,12 +102,13 @@ class SkiDataStartRecordFormatParserTest extends AbstractFrameworkTestCase {
      * Tests the parseLine() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseLine() {
 
         $res = '190000;0202747;20170921;00018;"EUR"';
 
-        $obj = (new SkiDataStartRecordFormatParser())->parseLine($res);
+        $obj = (new StartRecordFormatParser())->parseLine($res);
         $this->assertEquals(190000, $obj->getVersionRecordStructure());
         $this->assertEquals(202747, $obj->getFacilityNumber());
         $this->assertEquals(new DateTime("2017-09-21 00:00:00"), $obj->getDateFile());
