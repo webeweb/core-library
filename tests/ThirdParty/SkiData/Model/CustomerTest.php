@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -12,16 +12,17 @@
 namespace WBW\Library\Core\Tests\SkiData\Entity;
 
 use DateTime;
-use WBW\Library\Core\SkiData\Entity\SkiDataCustomer;
+use Exception;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\SkiData\Model\Customer;
 
 /**
- * SkiData customer entity test.
+ * Customer test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\SkiData\Entity
  */
-class SkiDataCustomerTest extends AbstractFrameworkTestCase {
+class CustomerTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
@@ -30,12 +31,10 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testConstructor() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $this->assertNull($obj->getAccountingNumber());
         $this->assertNull($obj->getBeginDate());
-        $this->assertNull($obj->getBlocked());
-        $this->assertNull($obj->getBlockedDate());
         $this->assertNull($obj->getCity());
         $this->assertNull($obj->getCountingNeutralCards());
         $this->assertNull($obj->getCountry());
@@ -73,7 +72,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetAccountingNumber() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setAccountingNumber("accountingNumber");
         $this->assertEquals("accountingNumber", $obj->getAccountingNumber());
@@ -83,39 +82,14 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      * Tests the setBeginDate() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testSetBeginDate() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setBeginDate(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getBeginDate()->format("Y-m-d"));
-    }
-
-    /**
-     * Tests the setBlocked() method.
-     *
-     * @return void
-     */
-    public function testSetBlocked() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setBlocked(true);
-        $this->assertTrue($obj->getBlocked());
-    }
-
-    /**
-     * Tests the setBlockedDate() method.
-     *
-     * @return void
-     */
-    public function testSetBlockedDate() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setBlockedDate(new DateTime("2018-08-30"));
-        $this->assertEquals("2018-08-30", $obj->getBlockedDate()->format("Y-m-d"));
     }
 
     /**
@@ -125,7 +99,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetCity() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setCity("city");
         $this->assertEquals("city", $obj->getCity());
@@ -138,7 +112,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetCountingNeutralCards() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setCountingNeutralCards(true);
         $this->assertTrue($obj->getCountingNeutralCards());
@@ -151,49 +125,10 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetCountry() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setCountry("country");
         $this->assertEquals("country", $obj->getCountry());
-    }
-
-    /**
-     * Tests the setCustomerNumber() method.
-     *
-     * @return void
-     */
-    public function testSetCustomerNumber() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setCustomerNumber(1);
-        $this->assertEquals(1, $obj->getCustomerNumber());
-    }
-
-    /**
-     * Tests the setDatetimeLastModification() method.
-     *
-     * @return void
-     */
-    public function testSetDatetimeLastModification() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setDatetimeLastModification(new DateTime("2018-08-30"));
-        $this->assertEquals("2018-08-30", $obj->getDatetimeLastModification()->format("Y-m-d"));
-    }
-
-    /**
-     * Tests the setDeletedRecord() method.
-     *
-     * @return void
-     */
-    public function testSetDeletedRecord() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setDeletedRecord(true);
-        $this->assertTrue($obj->getDeletedRecord());
     }
 
     /**
@@ -203,36 +138,10 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetDeposit() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setDeposit(1);
         $this->assertEquals(1, $obj->getDeposit());
-    }
-
-    /**
-     * Tests the setDivision() method.
-     *
-     * @return void
-     */
-    public function testSetDivision() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setDivision("division");
-        $this->assertEquals("division", $obj->getDivision());
-    }
-
-    /**
-     * Tests the setEmail() method.
-     *
-     * @return void
-     */
-    public function testSetEmail() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setEmail("email");
-        $this->assertEquals("email", $obj->getEmail());
     }
 
     /**
@@ -242,36 +151,10 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetEntryMaxLevelAllowed() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setEntryMaxLevelAllowed(true);
         $this->assertTrue($obj->getEntryMaxLevelAllowed());
-    }
-
-    /**
-     * Tests the setFirstname() method.
-     *
-     * @return void
-     */
-    public function testSetFirstname() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setFirstname("firstname");
-        $this->assertEquals("firstname", $obj->getFirstname());
-    }
-
-    /**
-     * Tests the setGroupCounting() method.
-     *
-     * @return void
-     */
-    public function testSetGroupCounting() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setGroupCounting(true);
-        $this->assertTrue($obj->getGroupCounting());
     }
 
     /**
@@ -281,7 +164,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetIdDocumentNo() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setIdDocumentNo("idDocumentNo");
         $this->assertEquals("idDocumentNo", $obj->getIdDocumentNo());
@@ -294,7 +177,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetMaxLevelCarPark() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setMaxLevelCarPark(true);
         $this->assertTrue($obj->getMaxLevelCarPark());
@@ -307,7 +190,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetMaximumLevel() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setMaximumLevel(1);
         $this->assertEquals(1, $obj->getMaximumLevel());
@@ -320,7 +203,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetNationality() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setNationality("nationality");
         $this->assertEquals("nationality", $obj->getNationality());
@@ -333,49 +216,10 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetPCode() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setPCode("pCode");
         $this->assertEquals("pCode", $obj->getPCode());
-    }
-
-    /**
-     * Tests the setRemarks() method.
-     *
-     * @return void
-     */
-    public function testSetRemarks() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setRemarks("remarks");
-        $this->assertEquals("remarks", $obj->getRemarks());
-    }
-
-    /**
-     * Tests the setRemarks2() method.
-     *
-     * @return void
-     */
-    public function testSetRemarks2() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setRemarks2("remarks2");
-        $this->assertEquals("remarks2", $obj->getRemarks2());
-    }
-
-    /**
-     * Tests the setRemarks3() method.
-     *
-     * @return void
-     */
-    public function testSetRemarks3() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setRemarks3("remarks3");
-        $this->assertEquals("remarks3", $obj->getRemarks3());
     }
 
     /**
@@ -385,7 +229,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetRentalAgreementNo() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setRentalAgreementNo("rentalAgreementNo");
         $this->assertEquals("rentalAgreementNo", $obj->getRentalAgreementNo());
@@ -398,23 +242,10 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetStreet() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setStreet("street");
         $this->assertEquals("street", $obj->getStreet());
-    }
-
-    /**
-     * Tests the setSurname() method.
-     *
-     * @return void
-     */
-    public function testSetSurname() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setSurname("surname");
-        $this->assertEquals("surname", $obj->getSurname());
     }
 
     /**
@@ -424,7 +255,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetTaxCode() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setTaxCode("taxCode");
         $this->assertEquals("taxCode", $obj->getTaxCode());
@@ -437,7 +268,7 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetTelephone() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setTelephone("telephone");
         $this->assertEquals("telephone", $obj->getTelephone());
@@ -447,10 +278,11 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      * Tests the setTerminationDate() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testSetTerminationDate() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setTerminationDate(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getTerminationDate()->format("Y-m-d"));
@@ -463,23 +295,9 @@ class SkiDataCustomerTest extends AbstractFrameworkTestCase {
      */
     public function testSetTicketReturnAllowed() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
 
         $obj->setTicketReturnAllowed(true);
         $this->assertTrue($obj->getTicketReturnAllowed());
     }
-
-    /**
-     * Tests the setTitle() method.
-     *
-     * @return void
-     */
-    public function testSetTitle() {
-
-        $obj = new SkiDataCustomer();
-
-        $obj->setTitle("title");
-        $this->assertEquals("title", $obj->getTitle());
-    }
-
 }
