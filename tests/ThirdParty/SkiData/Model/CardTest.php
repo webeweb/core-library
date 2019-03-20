@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -12,16 +12,17 @@
 namespace WBW\Library\Core\Tests\SkiData\Entity;
 
 use DateTime;
-use WBW\Library\Core\SkiData\Entity\SkiDataCard;
+use Exception;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\SkiData\Model\Card;
 
 /**
- * SkiData card entity test.
+ * Card test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\SkiData\Entity
  */
-class SkiDataCardTest extends AbstractFrameworkTestCase {
+class CardTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the __construct() method.
@@ -30,7 +31,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testConstructor() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $this->assertNull($obj->getArticleNumber());
         $this->assertNull($obj->getBlocked());
@@ -70,36 +71,10 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetArticleNumber() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setArticleNumber(1);
         $this->assertEquals(1, $obj->getArticleNumber());
-    }
-
-    /**
-     * Tests the setBlocked() method.
-     *
-     * @return void
-     */
-    public function testSetBlocked() {
-
-        $obj = new SkiDataCard();
-
-        $obj->setBlocked(true);
-        $this->assertTrue($obj->getBlocked());
-    }
-
-    /**
-     * Tests the setBlockedDate() method.
-     *
-     * @return void
-     */
-    public function testSetBlockedDate() {
-
-        $obj = new SkiDataCard();
-
-        $obj->setBlockedDate(new DateTime("2018-08-30"));
-        $this->assertEquals("2018-08-30", $obj->getBlockedDate()->format("2018-08-30"));
     }
 
     /**
@@ -109,7 +84,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetCurrencyResidualValue() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setCurrencyResidualValue("currencyResidualValue");
         $this->assertEquals("currencyResidualValue", $obj->getCurrencyResidualValue());
@@ -122,7 +97,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetDisplayText() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setDisplayText("displayText");
         $this->assertEquals("displayText", $obj->getDisplayText());
@@ -135,7 +110,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetDisplayText1() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setDisplayText1("displayText1");
         $this->assertEquals("displayText1", $obj->getDisplayText1());
@@ -148,7 +123,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetDisplayText2() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setDisplayText2("displayText2");
         $this->assertEquals("displayText2", $obj->getDisplayText2());
@@ -161,7 +136,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetEntryBarrierClosed() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setEntryBarrierClosed(true);
         $this->assertTrue($obj->getEntryBarrierClosed());
@@ -174,7 +149,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetExitBarrierClosed() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setExitBarrierClosed(true);
         $this->assertTrue($obj->getExitBarrierClosed());
@@ -184,10 +159,11 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      * Tests the setExpires() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testSetExpires() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setExpires(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getExpires()->format("Y-m-d"));
@@ -200,7 +176,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetNeutral() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setNeutral(true);
         $this->assertTrue($obj->getNeutral());
@@ -213,7 +189,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetPersonnalNo() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setPersonnalNo(1);
         $this->assertEquals(1, $obj->getPersonnalNo());
@@ -226,7 +202,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetProductionCounter() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setProductionCounter(1);
         $this->assertEquals(1, $obj->getProductionCounter());
@@ -239,7 +215,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetProductionFacilityNumber() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setProductionFacilityNumber(1);
         $this->assertEquals(1, $obj->getProductionFacilityNumber());
@@ -252,7 +228,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetProductionState() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setProductionState(1);
         $this->assertEquals(1, $obj->getProductionState());
@@ -265,7 +241,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetReasonProduction() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setReasonProduction(1);
         $this->assertEquals(1, $obj->getReasonProduction());
@@ -278,7 +254,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetResidualValue() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setResidualValue(1);
         $this->assertEquals(1, $obj->getResidualValue());
@@ -291,7 +267,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetRetainTicketEntry() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setRetainTicketEntry(true);
         $this->assertTrue($obj->getRetainTicketEntry());
@@ -304,7 +280,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetRetainTicketExit() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setRetainTicketExit(true);
         $this->assertTrue($obj->getRetainTicketExit());
@@ -317,7 +293,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetSerialNo() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setSerialNo("serialNo");
         $this->assertEquals("serialNo", $obj->getSerialNo());
@@ -330,7 +306,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetSerialNumberKeyCardSwatch() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setSerialNumberKeyCardSwatch("serialNumberKeyCardSwatch");
         $this->assertEquals("serialNumberKeyCardSwatch", $obj->getSerialNumberKeyCardSwatch());
@@ -340,10 +316,11 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      * Tests the setSuspendPeriodFrom() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testSetSuspendPeriodFrom() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setSuspendPeriodFrom(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getSuspendPeriodFrom()->format("Y-m-d"));
@@ -353,10 +330,11 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      * Tests the setSuspendPeriodUntil() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testSetSuspendPeriodUntil() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setSuspendPeriodUntil(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getSuspendPeriodUntil()->format("Y-m-d"));
@@ -369,7 +347,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetTicketNumber() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setTicketNumber("ticketNumber");
         $this->assertEquals("ticketNumber", $obj->getTicketNumber());
@@ -382,7 +360,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetTicketSubType() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setTicketSubType("ticketSubType");
         $this->assertEquals("ticketSubType", $obj->getTicketSubType());
@@ -395,7 +373,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetTicketType() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setTicketType(1);
         $this->assertEquals(1, $obj->getTicketType());
@@ -408,7 +386,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetUseValidCarParks() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setUseValidCarParks(true);
         $this->assertTrue($obj->getUseValidCarParks());
@@ -421,7 +399,7 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      */
     public function testSetUserNumber() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setUserNumber(1);
         $this->assertEquals(1, $obj->getUserNumber());
@@ -431,13 +409,13 @@ class SkiDataCardTest extends AbstractFrameworkTestCase {
      * Tests the setValidFrom() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testSetValidFrom() {
 
-        $obj = new SkiDataCard();
+        $obj = new Card();
 
         $obj->setValidFrom(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getValidFrom()->format("Y-m-d"));
     }
-
 }
