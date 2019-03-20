@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,22 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\SkiData\API;
+namespace WBW\Library\Core\ThirdParty\SkiData\API;
 
 /**
- * SkiData parser interface.
+ * Parser interface.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\SkiData\API
  */
-interface SkiDataParserInterface {
-
-    /**
-     * Date format.
-     *
-     * @var string
-     */
-    const DATE_FORMAT = "Ymd";
+interface ParserInterface {
 
     /**
      * Date/time format.
@@ -32,5 +25,10 @@ interface SkiDataParserInterface {
      * @var string
      */
     const DATETIME_FORMAT = "Ymd His";
-
+    /**
+     * Date format.
+     *
+     * @var string
+     */
+    const DATE_FORMAT = "Ymd";
 }
