@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -9,29 +9,31 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\SkiData\Parser;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Parser;
 
 use DateTime;
-use WBW\Library\Core\SkiData\Entity\SkiDataCustomer;
-use WBW\Library\Core\SkiData\Parser\SkiDataCustomerParser;
+use Exception;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\SkiData\Model\Customer;
+use WBW\Library\Core\ThirdParty\SkiData\Parser\CustomerParser;
 
 /**
- * SkiData customer parser test.
+ * Customer parser test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\SkiData\Parser
+ * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Parser
  */
-class SkiDataCustomerParserTest extends AbstractFrameworkTestCase {
+class CustomerParserTest extends AbstractFrameworkTestCase {
 
     /**
      * Tests the parseEntity() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseEntity() {
 
-        $obj = new SkiDataCustomer();
+        $obj = new Customer();
         $obj->setCustomerNumber(123456789);
         $obj->setTitle("title");
         $obj->setSurname("surname");
@@ -66,19 +68,20 @@ class SkiDataCustomerParserTest extends AbstractFrameworkTestCase {
         $obj->setAccountingNumber("accountingNumber");
 
         $res = '123456789;"title";"surname";"firstname";"street";"pCode";"city";"abc";"taxCode";"idDocumentNo";"telephone";"rentalAgreementNo";20170921;20170930;000000123456;1234;"remarks";20170921 103500;0;;0;1;1;0;1;"remarks2";"remarks3";"division";"email";0;"abc";"accountingNumber"';
-        $this->assertEquals($res, (new SkiDataCustomerParser())->parseEntity($obj));
+        $this->assertEquals($res, (new CustomerParser())->parseEntity($obj));
     }
 
     /**
      * Tests the parseLine() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testParseLine() {
 
         $obj = '123456789;"title";"surname";"firstname";"street";"pCode";"city";"abc";"taxCode";"idDocumentNo";"telephone";"rentalAgreementNo";20170921;20170930;000000123456;1234;"remarks";20170921 103500;0;;0;1;1;0;1;"remarks2";"remarks3";"division";"email";0;"abc";"accountingNumber"';
 
-        $res = (new SkiDataCustomerParser())->parseLine($obj);
+        $res = (new CustomerParser())->parseLine($obj);
         $this->assertEquals(123456789, $res->getCustomerNumber());
         $this->assertEquals("title", $res->getTitle());
         $this->assertEquals("surname", $res->getSurname());
@@ -112,5 +115,4 @@ class SkiDataCustomerParserTest extends AbstractFrameworkTestCase {
         $this->assertEquals("abc", $res->getNationality());
         $this->assertEquals("accountingNumber", $res->getAccountingNumber());
     }
-
 }
