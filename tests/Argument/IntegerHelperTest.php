@@ -84,6 +84,7 @@ class IntegerHelperTest extends AbstractFrameworkTestCase {
 
         $this->assertNull(IntegerHelper::parseString(null));
         $this->assertEquals(1, IntegerHelper::parseString("1"));
+        $this->assertEquals(-1, IntegerHelper::parseString("-1"));
     }
 
     /**

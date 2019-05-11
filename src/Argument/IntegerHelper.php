@@ -81,7 +81,7 @@ class IntegerHelper {
         if (null === $value) {
             return null;
         }
-        if (0 === preg_match("/^[0-9]{1,}$/", $value)) {
+        if (0 === preg_match("/^\-?[0-9]{1,}$/", $value)) {
             throw new IntegerArgumentException($value);
         }
         return intval($value);

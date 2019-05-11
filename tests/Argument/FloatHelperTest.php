@@ -35,6 +35,9 @@ class FloatHelperTest extends AbstractFrameworkTestCase {
         $this->assertEquals(1.0, FloatHelper::parseString("1"));
         $this->assertEquals(1.0, FloatHelper::parseString("1."));
         $this->assertEquals(1.0, FloatHelper::parseString("1.0"));
+        $this->assertEquals(-1.0, FloatHelper::parseString("-1"));
+        $this->assertEquals(-1.0, FloatHelper::parseString("-1."));
+        $this->assertEquals(-1.0, FloatHelper::parseString("-1.0"));
     }
 
     /**

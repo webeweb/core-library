@@ -35,6 +35,9 @@ class DoubleHelperTest extends AbstractFrameworkTestCase {
         $this->assertEquals(1.0, DoubleHelper::parseString("1"));
         $this->assertEquals(1.0, DoubleHelper::parseString("1."));
         $this->assertEquals(1.0, DoubleHelper::parseString("1.0"));
+        $this->assertEquals(-1.0, DoubleHelper::parseString("-1"));
+        $this->assertEquals(-1.0, DoubleHelper::parseString("-1."));
+        $this->assertEquals(-1.0, DoubleHelper::parseString("-1.0"));
     }
 
     /**
