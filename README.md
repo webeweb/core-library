@@ -34,11 +34,11 @@ Provides:
 
 Requires:
 
-[![ext-curl](https://img.shields.io/badge/PHP-ext--curl-blue.svg)](http://php.net/manual/en/book.curl.php)
-[![ext-ftp](https://img.shields.io/badge/PHP-ext--ftp-blue.svg)](http://php.net/manual/en/book.ftp.php)
-[![ext-intl](https://img.shields.io/badge/PHP-ext--intl-blue.svg)](http://php.net/manual/en/book.intl.php)
-[![ext-ssh2](https://img.shields.io/badge/PHP-ext--ssh2-blue.svg)](http://php.net/manual/en/book.ssh2.php)
-[![ext-zip](https://img.shields.io/badge/PHP-ext--zip-blue.svg)](http://php.net/manual/en/book.zip.php)
+[![ext-curl](https://img.shields.io/badge/PHP-ext--curl-blue.svg?style=flat-square)](http://php.net/manual/en/book.curl.php)
+[![ext-ftp](https://img.shields.io/badge/PHP-ext--ftp-blue.svg?style=flat-square)](http://php.net/manual/en/book.ftp.php)
+[![ext-intl](https://img.shields.io/badge/PHP-ext--intl-blue.svg?style=flat-square)](http://php.net/manual/en/book.intl.php)
+[![ext-ssh2](https://img.shields.io/badge/PHP-ext--ssh2-blue.svg?style=flat-square)](http://php.net/manual/en/book.ssh2.php)
+[![ext-zip](https://img.shields.io/badge/PHP-ext--zip-blue.svg?style=flat-square)](http://php.net/manual/en/book.zip.php)
 
 ---
 
