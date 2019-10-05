@@ -1,7 +1,7 @@
 core-library
 ============
 
-[![Build Status](https://img.shields.io/travis/webeweb/core-library/master.svg?style=flat-square)](https://travis-ci.org/webeweb/core-library)
+[![Build Status](https://img.shields.io/travis/webeweb/core-library/master.svg?style=flat-square)](https://travis-ci.com/webeweb/core-library)
 [![Coverage Status](https://img.shields.io/coveralls/webeweb/core-library/master.svg?style=flat-square)](https://coveralls.io/github/webeweb/core-library?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/webeweb/core-library/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/webeweb/core-library/?branch=master)
 [![Latest Stable Version](https://img.shields.io/packagist/v/webeweb/core-library.svg?style=flat-square)](https://packagist.org/packages/webeweb/core-library)
