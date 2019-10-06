@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -24,23 +24,6 @@ use WBW\Library\Core\Network\HTTP\HTTPHelper;
  * @package WBW\Library\Core\Tests\Network\CURL\Request
  */
 class CURLGetRequestTest extends AbstractCURLRequestTest {
-
-    /**
-     * Tests __construct() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
-
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
-
-        $this->assertSame($this->configuration, $obj->getConfiguration());
-        $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, $obj->getMethod());
-        $this->assertEquals([], $obj->getPostData());
-        $this->assertEquals([], $obj->getQueryData());
-        $this->assertEquals("testCall.php", $obj->getResourcePath());
-    }
 
     /**
      * Tests addHeader() method.
@@ -164,6 +147,34 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      *
      * @return void
      */
+    public function testCallWithHTTPCodes() {
+
+        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+
+        foreach (HTTPHelper::getHTTPStatus() as $code) {
+            try {
+
+                $obj->addQueryData("code", $code);
+
+                $rslt = $obj->call();
+
+                $this->assertEquals($code, $rslt->getResponseInfo()["http_code"]);
+                $this->assertGreaterThanOrEqual(200, $rslt->getResponseInfo()["http_code"]);
+                $this->assertLessThanOrEqual(299, $rslt->getResponseInfo()["http_code"]);
+            } catch (Exception $ex) {
+
+                $this->assertInstanceOf(CURLRequestCallException::class, $ex);
+                $this->assertEquals($code, $ex->getCode());
+                $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"]);
+            }
+        }
+    }
+
+    /**
+     * Tests call() method.
+     *
+     * @return void
+     */
     public function testCallWithHeader() {
 
         $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
@@ -266,34 +277,6 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
     }
 
     /**
-     * Tests call() method.
-     *
-     * @return void
-     */
-    public function testCallWithHTTPCodes() {
-
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
-
-        foreach (HTTPHelper::getHTTPStatus() as $code) {
-            try {
-
-                $obj->addQueryData("code", $code);
-
-                $rslt = $obj->call();
-
-                $this->assertEquals($code, $rslt->getResponseInfo()["http_code"]);
-                $this->assertGreaterThanOrEqual(200, $rslt->getResponseInfo()["http_code"]);
-                $this->assertLessThanOrEqual(299, $rslt->getResponseInfo()["http_code"]);
-            } catch (Exception $ex) {
-
-                $this->assertInstanceOf(CURLRequestCallException::class, $ex);
-                $this->assertEquals($code, $ex->getCode());
-                $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"]);
-            }
-        }
-    }
-
-    /**
      * Tests the clearHeader() method.
      *
      * @return void
@@ -323,6 +306,23 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
 
         $obj->clearQueryData();
         $this->assertCount(0, $obj->getQueryData());
+    }
+
+    /**
+     * Tests __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
+
+        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+
+        $this->assertSame($this->configuration, $obj->getConfiguration());
+        $this->assertEquals([], $obj->getHeaders());
+        $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, $obj->getMethod());
+        $this->assertEquals([], $obj->getPostData());
+        $this->assertEquals([], $obj->getQueryData());
+        $this->assertEquals("testCall.php", $obj->getResourcePath());
     }
 
     /**

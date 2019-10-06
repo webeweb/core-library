@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArtVarDepot;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArtVarDepot;
 
 /**
  * Art var depot model test.

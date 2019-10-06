@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Argument;
 
-use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
 use WBW\Library\Core\Database\PaginateHelper;
+use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
 
 /**
  * Integer helper.
@@ -50,8 +50,8 @@ class IntegerHelper {
     /**
      * Determines if a value is an integer.
      *
-     * @return void
      * @param mixed $value The value.
+     * @return void
      * @throws IntegerArgumentException Throws a Integer argument exception if the value is not of expected type.
      */
     public static function isInteger($value) {

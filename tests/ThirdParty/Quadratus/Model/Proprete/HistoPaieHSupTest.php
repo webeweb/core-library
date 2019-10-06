@@ -13,8 +13,8 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HistoPaieHSup;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HistoPaieHSup;
 
 /**
  * Histo paie h sup model test.

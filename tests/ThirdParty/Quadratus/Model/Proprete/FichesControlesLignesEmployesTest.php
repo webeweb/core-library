@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesLignesEmployes;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesLignesEmployes;
 
 /**
  * Fiches controles lignes employes model test.

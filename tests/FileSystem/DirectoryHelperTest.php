@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -37,6 +37,22 @@ class DirectoryHelperTest extends AbstractFrameworkTestCase {
         $this->assertTrue(DirectoryHelper::create($arg1));
         $this->assertNull(DirectoryHelper::create($arg1));
         $this->assertTrue(DirectoryHelper::create($arg2));
+    }
+
+    /**
+     * Tests the delete() method.
+     *
+     * @return void
+     * @depends testRename
+     */
+    public function testDelete() {
+
+        $arg1 = getcwd() . "/phpunit";
+        $arg2 = $arg1 . "/unittest2";
+
+        $this->assertNull(DirectoryHelper::delete($arg1));
+        $this->assertTrue(DirectoryHelper::delete($arg2));
+        $this->assertTrue(DirectoryHelper::delete($arg1));
     }
 
     /**
@@ -90,22 +106,6 @@ class DirectoryHelperTest extends AbstractFrameworkTestCase {
         }
 
         $this->assertNull(DirectoryHelper::rename($arg2 . "2", $arg1));
-    }
-
-    /**
-     * Tests the delete() method.
-     *
-     * @return void
-     * @depends testRename
-     */
-    public function testDelete() {
-
-        $arg1 = getcwd() . "/phpunit";
-        $arg2 = $arg1 . "/unittest2";
-
-        $this->assertNull(DirectoryHelper::delete($arg1));
-        $this->assertTrue(DirectoryHelper::delete($arg2));
-        $this->assertTrue(DirectoryHelper::delete($arg1));
     }
 
 }

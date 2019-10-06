@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -52,18 +52,6 @@ class StringHelperTest extends AbstractFrameworkTestCase {
         $this->assertEquals("false", StringHelper::parseBoolean(null));
         $this->assertEquals("false", StringHelper::parseBoolean(false));
         $this->assertEquals("true", StringHelper::parseBoolean(true));
-    }
-
-    /**
-     * Tests the replace() method.
-     *
-     * @return void
-     */
-    public function testReplace() {
-
-        $this->assertEquals("Hello %name% !", StringHelper::replace("Hello %name% !", [], []));
-        $this->assertEquals("Hello %world% !", StringHelper::replace("Hello %name% !", ["name"], ["world"]));
-        $this->assertEquals("Hello world !", StringHelper::replace("Hello %name% !", ["%name%"], ["world"]));
     }
 
     /**
@@ -124,6 +112,18 @@ class StringHelperTest extends AbstractFrameworkTestCase {
         $this->assertEquals("U", StringHelper::removeAccents("Û"));
         $this->assertEquals("U", StringHelper::removeAccents("Ü"));
         $this->assertEquals("Y", StringHelper::removeAccents("Ý"));
+    }
+
+    /**
+     * Tests the replace() method.
+     *
+     * @return void
+     */
+    public function testReplace() {
+
+        $this->assertEquals("Hello %name% !", StringHelper::replace("Hello %name% !", [], []));
+        $this->assertEquals("Hello %world% !", StringHelper::replace("Hello %name% !", ["name"], ["world"]));
+        $this->assertEquals("Hello world !", StringHelper::replace("Hello %name% !", ["%name%"], ["world"]));
     }
 
 }

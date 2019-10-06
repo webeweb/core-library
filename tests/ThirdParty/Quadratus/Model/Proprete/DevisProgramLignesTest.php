@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisProgramLignes;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisProgramLignes;
 
 /**
  * Devis program lignes model test.

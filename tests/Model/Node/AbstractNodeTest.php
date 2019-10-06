@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -21,23 +21,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
  * @package WBW\Library\Core\Tests\Navigation\Item
  */
 class AbstractNodeTest extends AbstractFrameworkTestCase {
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
-
-        $obj = new TestNode("id");
-
-        $this->assertEquals("id", $obj->getId());
-
-        $this->assertNull($obj->getFirstNode());
-        $this->assertNull($obj->getLastNode());
-        $this->assertEquals([], $obj->getNodes());
-        $this->assertNull($obj->getParent());
-    }
 
     /**
      * Tests the addNode() method.
@@ -68,6 +51,23 @@ class AbstractNodeTest extends AbstractFrameworkTestCase {
 
         $this->assertSame($obj, $obj->clearNodes());
         $this->assertEquals([], $obj->getNodes());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
+
+        $obj = new TestNode("id");
+
+        $this->assertEquals("id", $obj->getId());
+
+        $this->assertNull($obj->getFirstNode());
+        $this->assertNull($obj->getLastNode());
+        $this->assertEquals([], $obj->getNodes());
+        $this->assertNull($obj->getParent());
     }
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -21,19 +21,6 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Model\Response
  */
 class ActionResponseTest extends AbstractFrameworkTestCase {
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function testConstructor() {
-
-        $obj = new ActionResponse();
-
-        $this->assertNull($obj->getNotify());
-        $this->assertNull($obj->getStatus());
-    }
 
     /**
      * Tests the setNotify() method.
@@ -59,6 +46,32 @@ class ActionResponseTest extends AbstractFrameworkTestCase {
 
         $obj->setStatus(200);
         $this->assertEquals(200, $obj->getStatus());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstructor() {
+
+        $obj = new ActionResponse();
+
+        $this->assertNull($obj->getNotify());
+        $this->assertNull($obj->getStatus());
+    }
+
+    /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize() {
+
+        $obj = new ActionResponse();
+
+        $res = ["status" => null, "notify" => null];
+        $this->assertEquals($res, $obj->jsonSerialize());
     }
 
     /**
@@ -91,19 +104,6 @@ class ActionResponseTest extends AbstractFrameworkTestCase {
         $obj->setNotify("notify");
         $res9 = ["status" => 200, "notify" => "notify"];
         $this->assertEquals($res9, $obj->toArray());
-    }
-
-    /**
-     * Tests the jsonSerialize() method.
-     *
-     * @return void
-     */
-    public function testJsonSerialize() {
-
-        $obj = new ActionResponse();
-
-        $res = ["status" => null, "notify" => null];
-        $this->assertEquals($res, $obj->jsonSerialize());
     }
 
 }

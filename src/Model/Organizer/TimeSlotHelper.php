@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -217,8 +217,8 @@ class TimeSlotHelper {
         // Contains ?
         if (true === static::contains($a, $b)) {
             return static::sort([
-                    new TimeSlot(clone $a->getStartDate(), clone $b->getStartDate()),
-                    new TimeSlot(clone $b->getEndDate(), clone $a->getEndDate()),
+                new TimeSlot(clone $a->getStartDate(), clone $b->getStartDate()),
+                new TimeSlot(clone $b->getEndDate(), clone $a->getEndDate()),
             ]);
         }
 

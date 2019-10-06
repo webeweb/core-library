@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -90,7 +90,6 @@ class FileHelper implements FileInterface {
      * @return string Returns the formated size.
      */
     public static function formatSize($size, $unit = null, $decimals = 2) {
-
 
         // Initialize the units.
         $units = static::getUnits();

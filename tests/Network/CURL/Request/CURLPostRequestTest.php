@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -22,23 +22,6 @@ use WBW\Library\Core\Network\CURL\Request\CURLPostRequest;
  * @package WBW\Library\Core\Tests\Network\CURL\Request
  */
 class CURLPostRequestTest extends AbstractCURLRequestTest {
-
-    /**
-     * Tests __construct() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
-
-        $obj = new CURLPostRequest($this->configuration, self::RESOURCE_PATH);
-
-        $this->assertSame($this->configuration, $obj->getConfiguration());
-        $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(CURLPostRequest::HTTP_METHOD_POST, $obj->getMethod());
-        $this->assertEquals([], $obj->getPostData());
-        $this->assertEquals([], $obj->getQueryData());
-        $this->assertEquals("testCall.php", $obj->getResourcePath());
-    }
 
     /**
      * Tests addPostData() method.
@@ -107,6 +90,23 @@ class CURLPostRequestTest extends AbstractCURLRequestTest {
 
         $obj->clearPostData();
         $this->assertCount(0, $obj->getPostData());
+    }
+
+    /**
+     * Tests __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
+
+        $obj = new CURLPostRequest($this->configuration, self::RESOURCE_PATH);
+
+        $this->assertSame($this->configuration, $obj->getConfiguration());
+        $this->assertEquals([], $obj->getHeaders());
+        $this->assertEquals(CURLPostRequest::HTTP_METHOD_POST, $obj->getMethod());
+        $this->assertEquals([], $obj->getPostData());
+        $this->assertEquals([], $obj->getQueryData());
+        $this->assertEquals("testCall.php", $obj->getResourcePath());
     }
 
     /**

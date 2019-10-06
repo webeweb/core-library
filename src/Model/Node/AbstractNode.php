@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2017 WEBEWEB
@@ -23,18 +23,18 @@ use WBW\Library\Core\Sorting\AlphabeticalTreeNodeInterface;
 abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
 
     /**
-     * Index.
-     *
-     * @var array
-     */
-    private $index;
-
-    /**
      * Id.
      *
      * @var string
      */
     private $id;
+
+    /**
+     * Index.
+     *
+     * @var array
+     */
+    private $index;
 
     /**
      * Children nodes.
@@ -111,21 +111,21 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     }
 
     /**
-     * Get the last children node.
-     *
-     * @return AbstractNode Returns the last node in case of success, null otherwise.
-     */
-    public function getLastNode() {
-        return $this->getNodeAt(count($this->nodes) - 1);
-    }
-
-    /**
      * Get the id.
      *
      * @return string Returns the id.
      */
     public function getId() {
         return $this->id;
+    }
+
+    /**
+     * Get the last children node.
+     *
+     * @return AbstractNode Returns the last node in case of success, null otherwise.
+     */
+    public function getLastNode() {
+        return $this->getNodeAt(count($this->nodes) - 1);
     }
 
     /**

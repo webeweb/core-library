@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -48,7 +48,6 @@ class TimeSlotHelperTest extends AbstractFrameworkTestCase {
      * @return void
      */
     public function testContains() {
-
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertFalse(TimeSlotHelper::contains(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));

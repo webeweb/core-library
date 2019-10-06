@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -25,18 +25,6 @@ use WBW\Library\Core\Validation\RuleSet\DefaultValidationRuleSet;
 class DefaultValidationRuleSetTest extends AbstractValidationTest {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
-
-        $obj = new DefaultValidationRuleSet();
-
-        $this->assertEquals([], $obj->getRules());
-    }
-
-    /**
      * Tests the addRule() method.
      *
      * @return void
@@ -52,6 +40,18 @@ class DefaultValidationRuleSetTest extends AbstractValidationTest {
         $this->assertSame($obj, $obj->addRule($arg));
         $this->assertCount(1, $obj->getRules());
         $this->assertSame($arg, $obj->getRules()[0]);
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
+
+        $obj = new DefaultValidationRuleSet();
+
+        $this->assertEquals([], $obj->getRules());
     }
 
     /**

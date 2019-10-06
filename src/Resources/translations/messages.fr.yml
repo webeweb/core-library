@@ -1,17 +1,17 @@
 # /Resources/translations/messages.fr.yml
 choices:
     civility:
-        empty: "Non renseignée"
-        miss: "Mademoiselle"
+        empty:  "Non renseignée"
+        miss:   "Mademoiselle"
         mister: "Monsieur"
-        mirs: "Madame"
+        mirs:   "Madame"
     marital-status:
         divorced: "Divorcée/divorcé"
-        empty: "Non renseignée"
-        married: "Mariée/marié"
-        pacs: "PACSé"
-        single: "Célibataire"
-        widower: "Veuve/veuf"
+        empty:    "Non renseignée"
+        married:  "Mariée/marié"
+        pacs:     "PACSé"
+        single:   "Célibataire"
+        widower:  "Veuve/veuf"
 
 label:
     empty_selection: "Aucune sélection"

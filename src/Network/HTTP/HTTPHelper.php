@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -25,7 +25,7 @@ class HTTPHelper implements HTTPInterface {
      * @return array Returns the HTTP methods.
      */
     public static function getHTTPMethods() {
-        return[
+        return [
             self::HTTP_METHOD_DELETE,
             self::HTTP_METHOD_GET,
             self::HTTP_METHOD_HEAD,

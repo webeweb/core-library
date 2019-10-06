@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -389,7 +389,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
             if (true === isset($h[1])) {
                 if (false === isset($headers[$h[0]])) {
                     $headers[$h[0]] = trim($h[1]);
-                } elseif (true === is_array($headers[$h[0]])) {
+                } else if (true === is_array($headers[$h[0]])) {
                     $headers[$h[0]] = array_merge($headers[$h[0]], [trim($h[1])]);
                 } else {
                     $headers[$h[0]] = array_merge([$headers[$h[0]]], [trim($h[1])]);
@@ -398,7 +398,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
             } else {
                 if ("\t" === substr($h[0], 0, 1)) {
                     $headers[$key] .= "\r\n\t" . trim($h[0]);
-                } elseif (!$key) {
+                } else if (!$key) {
                     $headers[0] = trim($h[0]);
                 }
                 trim($h[0]);

@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -39,6 +39,21 @@ class ChartAccountsAccountTest extends AbstractFrameworkTestCase {
     }
 
     /**
+     * Tests the setAccountType() method.
+     *
+     * @return void
+     */
+    public function testSetAccountType() {
+
+        $obj = new ChartAccountsAccount();
+
+        $arg = new ChartAccountsType();
+
+        $obj->setAccountType($arg);
+        $this->assertSame($arg, $obj->getAccountType());
+    }
+
+    /**
      * Tests the setLabel() method.
      *
      * @return void
@@ -62,21 +77,6 @@ class ChartAccountsAccountTest extends AbstractFrameworkTestCase {
 
         $obj->setNumber("number");
         $this->assertEquals("number", $obj->getNumber());
-    }
-
-    /**
-     * Tests the setAccountType() method.
-     *
-     * @return void
-     */
-    public function testSetAccountType() {
-
-        $obj = new ChartAccountsAccount();
-
-        $arg = new ChartAccountsType();
-
-        $obj->setAccountType($arg);
-        $this->assertSame($arg, $obj->getAccountType());
     }
 
 }

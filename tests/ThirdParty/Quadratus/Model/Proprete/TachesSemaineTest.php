@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\TachesSemaine;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\TachesSemaine;
 
 /**
  * Taches semaine model test.

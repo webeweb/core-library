@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CorrespondanceFamArtQFactChargesQProp;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CorrespondanceFamArtQFactChargesQProp;
 
 /**
  * Correspondance fam art q fact charges q prop model test.

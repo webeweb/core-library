@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -70,6 +70,23 @@ class CURLFactoryTest extends AbstractFrameworkTestCase {
      *
      * @return void
      */
+    public function testGetInstanceWithInvalidHTTPMethodException() {
+
+        try {
+
+            CURLFactory::getInstance("exception");
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidHTTPMethodException::class, $ex);
+            $this->assertEquals("The HTTP method \"exception\" is invalid", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the getInstance() method.
+     *
+     * @return void
+     */
     public function testGetInstanceWithOptions() {
 
         $obj = CURLFactory::getInstance(HTTPInterface::HTTP_METHOD_OPTIONS);
@@ -107,23 +124,6 @@ class CURLFactoryTest extends AbstractFrameworkTestCase {
 
         $obj = CURLFactory::getInstance(HTTPInterface::HTTP_METHOD_PUT);
         $this->assertInstanceOf(CURLPutRequest::class, $obj);
-    }
-
-    /**
-     * Tests the getInstance() method.
-     *
-     * @return void
-     */
-    public function testGetInstanceWithInvalidHTTPMethodException() {
-
-        try {
-
-            CURLFactory::getInstance("exception");
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(InvalidHTTPMethodException::class, $ex);
-            $this->assertEquals("The HTTP method \"exception\" is invalid", $ex->getMessage());
-        }
     }
 
 }

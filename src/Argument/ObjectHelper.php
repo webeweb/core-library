@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -160,8 +160,8 @@ class ObjectHelper {
      */
     public static function urlDecodeShortName($string) {
         return ucfirst(preg_replace_callback("/(\-[a-z]{1})/", function($matches) {
-                return strtoupper(str_replace("-", "", $matches[0]));
-            }, $string));
+            return strtoupper(str_replace("-", "", $matches[0]));
+        }, $string));
     }
 
     /**

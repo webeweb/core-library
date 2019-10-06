@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -23,34 +23,6 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Network\CURL\Configuration
  */
 class CURLConfigurationTest extends AbstractFrameworkTestCase {
-
-    /**
-     * Tests the __constructor() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
-
-        $obj = new CURLConfiguration();
-
-        $this->assertFalse($obj->getAllowEncoding());
-        $this->assertEquals(0, $obj->getConnectTimeout());
-        $this->assertFalse($obj->getDebug());
-        $this->assertEquals("php://output", $obj->getDebugFile());
-        $this->assertEquals([], $obj->getHeaders());
-        $this->assertNull($obj->getHost());
-        $this->assertNull($obj->getHttpPassword());
-        $this->assertNull($obj->getHttpUsername());
-        $this->assertNull($obj->getProxyHost());
-        $this->assertNull($obj->getProxyPassword());
-        $this->assertNull($obj->getProxyPort());
-        $this->assertNull($obj->getProxyType());
-        $this->assertNull($obj->getProxyUsername());
-        $this->assertEquals(0, $obj->getRequestTimeout());
-        $this->assertTrue($obj->getSslVerification());
-        $this->assertEquals("webeweb/curl-library", $obj->getUserAgent());
-        $this->assertFalse($obj->getVerbose());
-    }
 
     /**
      * Tests the addHeader() method.
@@ -99,6 +71,34 @@ class CURLConfigurationTest extends AbstractFrameworkTestCase {
 
         $this->assertSame($obj, $obj->clearHeaders());
         $this->assertCount(0, $obj->getHeaders());
+    }
+
+    /**
+     * Tests the __constructor() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
+
+        $obj = new CURLConfiguration();
+
+        $this->assertFalse($obj->getAllowEncoding());
+        $this->assertEquals(0, $obj->getConnectTimeout());
+        $this->assertFalse($obj->getDebug());
+        $this->assertEquals("php://output", $obj->getDebugFile());
+        $this->assertEquals([], $obj->getHeaders());
+        $this->assertNull($obj->getHost());
+        $this->assertNull($obj->getHttpPassword());
+        $this->assertNull($obj->getHttpUsername());
+        $this->assertNull($obj->getProxyHost());
+        $this->assertNull($obj->getProxyPassword());
+        $this->assertNull($obj->getProxyPort());
+        $this->assertNull($obj->getProxyType());
+        $this->assertNull($obj->getProxyUsername());
+        $this->assertEquals(0, $obj->getRequestTimeout());
+        $this->assertTrue($obj->getSslVerification());
+        $this->assertEquals("webeweb/curl-library", $obj->getUserAgent());
+        $this->assertFalse($obj->getVerbose());
     }
 
     /**

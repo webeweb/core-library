@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Network\CURL\Configuration;
 
-use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Argument\ArgumentHelper;
+use WBW\Library\Core\Exception\Argument\StringArgumentException;
 
 /**
  * cURL configuration.

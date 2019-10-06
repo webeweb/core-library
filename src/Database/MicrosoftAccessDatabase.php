@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -13,7 +13,6 @@ namespace WBW\Library\Core\Database;
 
 use PDO;
 use WBW\Library\Core\Argument\StringHelper;
-use WBW\Library\Core\Database\AbstractDatabase;
 use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 use WBW\Library\Core\Security\Authenticator;
 

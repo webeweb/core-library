@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -34,6 +34,19 @@ class DefaultValidationStatusTest extends AbstractValidationTest {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getMessage());
         $this->assertNull($obj->getRuleName());
+    }
+
+    /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize() {
+
+        $obj = new DefaultValidationStatus();
+
+        $res = ["code" => null, "message" => null, "ruleName" => null];
+        $this->assertEquals($res, $obj->jsonSerialize());
     }
 
     /**
@@ -112,19 +125,6 @@ class DefaultValidationStatusTest extends AbstractValidationTest {
         $obj->setRuleName("ruleName");
         $res9 = ["code" => 200, "message" => "message", "ruleName" => "ruleName"];
         $this->assertEquals($res9, $obj->toArray());
-    }
-
-    /**
-     * Tests the jsonSerialize() method.
-     *
-     * @return void
-     */
-    public function testJsonSerialize() {
-
-        $obj = new DefaultValidationStatus();
-
-        $res = ["code" => null, "message" => null, "ruleName" => null];
-        $this->assertEquals($res, $obj->jsonSerialize());
     }
 
 }

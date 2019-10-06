@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -93,6 +93,23 @@ class ArgumentHelperTest extends AbstractFrameworkTestCase {
      *
      * @return void
      */
+    public function testConvertWithIllegalArgumentException104() {
+
+        try {
+
+            ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_RESOURCE);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
+            $this->assertEquals("The type \"104\" is not implemented", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the convert() method.
+     *
+     * @return void
+     */
     public function testConvertWithIllegalArgumentException55() {
 
         try {
@@ -127,15 +144,15 @@ class ArgumentHelperTest extends AbstractFrameworkTestCase {
      *
      * @return void
      */
-    public function testConvertWithIllegalArgumentException104() {
+    public function testConvertWithNullPointerException116() {
 
         try {
 
-            ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_RESOURCE);
+            ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_TIMESTAMP);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
-            $this->assertEquals("The type \"104\" is not implemented", $ex->getMessage());
+            $this->assertInstanceOf(NullPointerException::class, $ex);
+            $this->assertEquals("The datetime format is null", $ex->getMessage());
         }
     }
 
@@ -153,23 +170,6 @@ class ArgumentHelperTest extends AbstractFrameworkTestCase {
 
             $this->assertInstanceOf(NullPointerException::class, $ex);
             $this->assertEquals("The date format is null", $ex->getMessage());
-        }
-    }
-
-    /**
-     * Tests the convert() method.
-     *
-     * @return void
-     */
-    public function testConvertWithNullPointerException116() {
-
-        try {
-
-            ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_TIMESTAMP);
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(NullPointerException::class, $ex);
-            $this->assertEquals("The datetime format is null", $ex->getMessage());
         }
     }
 

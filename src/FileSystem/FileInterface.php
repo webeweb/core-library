@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -41,18 +41,18 @@ interface FileInterface {
     const FILE_SIZE_UNIT_EB = "EB";
 
     /**
-     * File size unit "Kilobyte".
-     *
-     * @var string
-     */
-    const FILE_SIZE_UNIT_KB = "KB";
-
-    /**
      * File size unit "Gigabyte".
      *
      * @var string
      */
     const FILE_SIZE_UNIT_GB = "GB";
+
+    /**
+     * File size unit "Kilobyte".
+     *
+     * @var string
+     */
+    const FILE_SIZE_UNIT_KB = "KB";
 
     /**
      * File size unit "Megabyte".

@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -82,6 +82,16 @@ class StringHelper {
     }
 
     /**
+     * Remove accents.
+     *
+     * @param string $str The string.
+     * @return string Returns the string without accents.
+     */
+    public static function removeAccents($str) {
+        return Transliterator::create("NFD; [:Nonspacing Mark:] Remove; NFC;")->transliterate($str);
+    }
+
+    /**
      * Replace.
      *
      * @param string $subject The subject.
@@ -91,16 +101,6 @@ class StringHelper {
      */
     public static function replace($subject, array $searches, array $replaces) {
         return str_replace($searches, $replaces, $subject);
-    }
-
-    /**
-     * Remove accents.
-     *
-     * @param string $str The string.
-     * @return string Returns the string without accents.
-     */
-    public static function removeAccents($str) {
-        return Transliterator::create("NFD; [:Nonspacing Mark:] Remove; NFC;")->transliterate($str);
     }
 
 }

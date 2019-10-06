@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -140,16 +140,13 @@ class DateTimeHelper {
 
     /**
      * Get a week number to apply with a schedule.
-     *
      * <p>
      * For example:
      * We have a schedule etablished over 5 weeks.
-     *
      * We start the schedule with the week number 1.
      * If the current date is 2018-01-01 and the start date is 2018-01-01, the week number is 1
      * If the current date is 2018-01-08 and the start date is 2018-01-01, the week number is 2
      * etc.
-     *
      * We start the schedule with the week number 3.
      * If the current date is 2018-01-01 and the start date is 2018-01-01, the week number is 3
      * If the current date is 2018-01-08 and the start date is 2018-01-01, the week number is 4

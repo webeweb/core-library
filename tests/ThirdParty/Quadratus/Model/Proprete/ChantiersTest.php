@@ -13,8 +13,8 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Chantiers;
 use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Chantiers;
 
 /**
  * Chantiers model test.
@@ -639,19 +639,6 @@ class ChantiersTest extends AbstractFrameworkTestCase {
     }
 
     /**
-     * Tests the setComplementLivraison() method.
-     *
-     * @return void
-     */
-    public function testSetComplementLivraison() {
-
-        $obj = new Chantiers();
-
-        $obj->setComplementLivraison("complementLivraison");
-        $this->assertEquals("complementLivraison", $obj->getComplementLivraison());
-    }
-
-    /**
      * Tests the setComplement() method.
      *
      * @return void
@@ -662,6 +649,19 @@ class ChantiersTest extends AbstractFrameworkTestCase {
 
         $obj->setComplement("complément");
         $this->assertEquals("complément", $obj->getComplement());
+    }
+
+    /**
+     * Tests the setComplementLivraison() method.
+     *
+     * @return void
+     */
+    public function testSetComplementLivraison() {
+
+        $obj = new Chantiers();
+
+        $obj->setComplementLivraison("complementLivraison");
+        $this->assertEquals("complementLivraison", $obj->getComplementLivraison());
     }
 
     /**

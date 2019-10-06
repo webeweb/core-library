@@ -25,6 +25,7 @@ interface ParserInterface {
      * @var string
      */
     const DATETIME_FORMAT = "Ymd His";
+
     /**
      * Date format.
      *

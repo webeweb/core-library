@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Exception\Network;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 use WBW\Library\Core\Exception\Network\FTPException;
+use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 
 /**
  * FTP exception test.

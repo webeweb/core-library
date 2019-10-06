@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -95,6 +95,20 @@ class FTPClient extends AbstractFTPClient {
     }
 
     /**
+     * Creates a directory.
+     *
+     * @param string $directory The directory.
+     * @return FTPClient Returns this FTP client.
+     * @throws FTPException Throws a FTP exception if an I/O error occurs.
+     */
+    public function mkdir($directory) {
+        if (false === @ftp_mkdir($this->getConnection(), $directory)) {
+            throw $this->newFTPException(sprintf("mkdir %s failed", $directory));
+        }
+        return $this;
+    }
+
+    /**
      * Tuns passive mode on or off.
      *
      * @param bool $pasv The passive mode.
@@ -121,20 +135,6 @@ class FTPClient extends AbstractFTPClient {
     public function put($localFile, $remoteFile, $mode = FTP_IMAGE, $startPos = 0) {
         if (false === @ftp_put($this->getConnection(), $remoteFile, $localFile, $mode, $startPos)) {
             throw $this->newFTPException(sprintf("put %s into %s failed", $localFile, $remoteFile));
-        }
-        return $this;
-    }
-
-    /**
-     * Creates a directory.
-     *
-     * @param string $directory The directory.
-     * @return FTPClient Returns this FTP client.
-     * @throws FTPException Throws a FTP exception if an I/O error occurs.
-     */
-    public function mkdir($directory) {
-        if (false === @ftp_mkdir($this->getConnection(), $directory)) {
-            throw $this->newFTPException(sprintf("mkdir %s failed", $directory));
         }
         return $this;
     }

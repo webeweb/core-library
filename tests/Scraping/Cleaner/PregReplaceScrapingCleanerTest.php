@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -23,19 +23,6 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
 class PregReplaceScrapingCleanerTest extends AbstractFrameworkTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
-
-        $obj = new PregReplaceScrapingCleaner("/pattern/", "replacement");
-
-        $this->assertEquals("/pattern/", $obj->getPattern());
-        $this->assertEquals("replacement", $obj->getReplacement());
-    }
-
-    /**
      * Tests the clean() method.
      *
      * @return void
@@ -47,6 +34,19 @@ class PregReplaceScrapingCleanerTest extends AbstractFrameworkTestCase {
         $this->assertNull($obj->clean(null));
         $this->assertNull($obj->clean(true));
         $this->assertEquals("replacement", $obj->clean("pattern"));
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
+
+        $obj = new PregReplaceScrapingCleaner("/pattern/", "replacement");
+
+        $this->assertEquals("/pattern/", $obj->getPattern());
+        $this->assertEquals("replacement", $obj->getReplacement());
     }
 
 }

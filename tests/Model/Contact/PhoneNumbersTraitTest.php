@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
@@ -49,17 +49,6 @@ class PhoneNumbersTraitTest extends AbstractFrameworkTestCase {
     }
 
     /**
-     * Tests the setMobileNumber() method.
-     *
-     * @return void
-     */
-    public function testSetMobileNumber() {
-
-        $this->phoneNumbers->setMobileNumber("mobileNumber");
-        $this->assertEquals("mobileNumber", $this->phoneNumbers->getMobileNumber());
-    }
-
-    /**
      * Tests the setPhoneNumber() method.
      *
      * @return void
@@ -68,6 +57,17 @@ class PhoneNumbersTraitTest extends AbstractFrameworkTestCase {
 
         $this->phoneNumbers->setPhoneNumber("phoneNumber");
         $this->assertEquals("phoneNumber", $this->phoneNumbers->getPhoneNumber());
+    }
+
+    /**
+     * Tests the setMobileNumber() method.
+     *
+     * @return void
+     */
+    public function testSetMobileNumber() {
+
+        $this->phoneNumbers->setMobileNumber("mobileNumber");
+        $this->assertEquals("mobileNumber", $this->phoneNumbers->getMobileNumber());
     }
 
 }
