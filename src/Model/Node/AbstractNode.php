@@ -104,7 +104,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     /**
      * Get the first children node.
      *
-     * @return AbstractNode Returns the first node in case of success, null otherwise.
+     * @return AbstractNode|null Returns the first node in case of success, null otherwise.
      */
     public function getFirstNode() {
         return $this->getNodeAt(0);
@@ -122,7 +122,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     /**
      * Get the last children node.
      *
-     * @return AbstractNode Returns the last node in case of success, null otherwise.
+     * @return AbstractNode|null Returns the last node in case of success, null otherwise.
      */
     public function getLastNode() {
         return $this->getNodeAt(count($this->nodes) - 1);
@@ -132,7 +132,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * Get a node at position.
      *
      * @param int $position The position.
-     * @return AbstractNode Returns the node in case of success, null otherwise.
+     * @return AbstractNode|null Returns the node in case of success, null otherwise.
      */
     public function getNodeAt($position) {
         if (0 <= $position && $position <= count($this->nodes) - 1) {
@@ -146,7 +146,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @param string $id The id.
      * @param bool $recursively Recursively ?
-     * @return AbstractNode Returns a node in case of success, null otherwise.
+     * @return AbstractNode|null Returns a node in case of success, null otherwise.
      */
     public function getNodeById($id, $recursively = false) {
         $found = null;

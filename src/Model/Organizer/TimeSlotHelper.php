@@ -97,7 +97,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return TimeSlot[] Returns the time slots in case of success, null otherwise.
+     * @return TimeSlot[]|null Returns the time slots in case of success, null otherwise.
      */
     public static function fullJoinWithout(TimeSlot $a, TimeSlot $b) {
 
@@ -187,7 +187,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return TimeSlot Returns the time slot in case of success, null otherwise.
+     * @return TimeSlot|null Returns the time slot in case of success, null otherwise.
      */
     public static function leftJoin(TimeSlot $a, TimeSlot $b) {
 
@@ -205,7 +205,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return TimeSlot[] Returns the time slots in case of success, null otherwise.
+     * @return TimeSlot[]|null Returns the time slots in case of success, null otherwise.
      */
     public static function leftJoinWithout(TimeSlot $a, TimeSlot $b) {
 
@@ -278,7 +278,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return TimeSlot Returns the time slot in case of success, null otherwise.
+     * @return TimeSlot|null Returns the time slot in case of success, null otherwise.
      */
     public static function rightJoin(TimeSlot $a, TimeSlot $b) {
         return static::leftJoin($b, $a);
@@ -289,7 +289,7 @@ class TimeSlotHelper {
      *
      * @param TimeSlot $a The time slot A.
      * @param TimeSlot $b The time slot B.
-     * @return TimeSlot[] Returns the time slots in case of success, null otherwise.
+     * @return TimeSlot[]|null Returns the time slots in case of success, null otherwise.
      */
     public static function rightJoinWithout(TimeSlot $a, TimeSlot $b) {
         return static::leftJoinWithout($b, $a);
