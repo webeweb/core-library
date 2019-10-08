@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use WBW\Library\Core\Argument\ArgumentInterface;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Argument interface test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
  */
-class ArgumentInterfaceTest extends AbstractFrameworkTestCase {
+class ArgumentInterfaceTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

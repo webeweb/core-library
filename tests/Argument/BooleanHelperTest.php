@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Argument;
 
 use WBW\Library\Core\Argument\BooleanHelper;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Boolean helper test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
  */
-class BooleanHelperTest extends AbstractFrameworkTestCase {
+class BooleanHelperTest extends AbstractTestCase {
 
     /**
      * Tests the parseString() method.

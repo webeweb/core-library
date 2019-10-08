@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Forfaits;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Forfaits;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
  */
-class ForfaitsTest extends AbstractFrameworkTestCase {
+class ForfaitsTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

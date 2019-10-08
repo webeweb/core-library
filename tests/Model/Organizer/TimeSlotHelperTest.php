@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Model\Organizer;
 use DateTime;
 use WBW\Library\Core\Model\Organizer\TimeSlot;
 use WBW\Library\Core\Model\Organizer\TimeSlotHelper;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
 /**
@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Organizer
  */
-class TimeSlotHelperTest extends AbstractFrameworkTestCase {
+class TimeSlotHelperTest extends AbstractTestCase {
 
     /**
      * Dates.

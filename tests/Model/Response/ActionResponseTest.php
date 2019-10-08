@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Response;
 
 use WBW\Library\Core\Model\Response\ActionResponse;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Action response test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Response
  */
-class ActionResponseTest extends AbstractFrameworkTestCase {
+class ActionResponseTest extends AbstractTestCase {
 
     /**
      * Tests the setNotify() method.

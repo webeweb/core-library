@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RegularisationAF;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RegularisationAF;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
  */
-class RegularisationAFTest extends AbstractFrameworkTestCase {
+class RegularisationAFTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

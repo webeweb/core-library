@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 use DateTime;
 use Exception;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\JournauxRapproch;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Journaux rapproch model test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
  */
-class JournauxRapprochTest extends AbstractFrameworkTestCase {
+class JournauxRapprochTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

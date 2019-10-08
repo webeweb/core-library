@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 use DateTime;
 use Exception;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Historique_hmois;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Historique_hmois model test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
  */
-class Historique_hmoisTest extends AbstractFrameworkTestCase {
+class Historique_hmoisTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

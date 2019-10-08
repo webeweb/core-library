@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCo_Inscrits;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCo_Inscrits;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
  */
-class ActionsCo_InscritsTest extends AbstractFrameworkTestCase {
+class ActionsCo_InscritsTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

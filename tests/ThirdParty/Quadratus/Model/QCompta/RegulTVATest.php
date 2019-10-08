@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 use DateTime;
 use Exception;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\RegulTVA;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Regul t v a model test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
  */
-class RegulTVATest extends AbstractFrameworkTestCase {
+class RegulTVATest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

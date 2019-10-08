@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ComptesDAS2;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Comptes d a s2 model test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
  */
-class ComptesDAS2Test extends AbstractFrameworkTestCase {
+class ComptesDAS2Test extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

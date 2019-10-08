@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Regroupements;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Regroupements;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
  */
-class RegroupementsTest extends AbstractFrameworkTestCase {
+class RegroupementsTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

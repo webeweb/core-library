@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesBulletinCompl;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesBulletinCompl;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
  */
-class LignesBulletinComplTest extends AbstractFrameworkTestCase {
+class LignesBulletinComplTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

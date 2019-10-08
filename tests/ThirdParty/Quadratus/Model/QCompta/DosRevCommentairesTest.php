@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 use DateTime;
 use Exception;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DosRevCommentaires;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Dos rev commentaires model test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
  */
-class DosRevCommentairesTest extends AbstractFrameworkTestCase {
+class DosRevCommentairesTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

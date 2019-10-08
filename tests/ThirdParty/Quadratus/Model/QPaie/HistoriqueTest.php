@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Historique;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Historique;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
  */
-class HistoriqueTest extends AbstractFrameworkTestCase {
+class HistoriqueTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

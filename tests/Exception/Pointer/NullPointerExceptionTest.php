@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Pointer;
 
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Null pointer exception test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Pointer
  */
-class NullPointerExceptionTest extends AbstractFrameworkTestCase {
+class NullPointerExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

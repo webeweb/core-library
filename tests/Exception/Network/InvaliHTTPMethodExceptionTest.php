@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Network;
 
 use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Invalid HTTP method exception test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\HTTP
  */
-class InvaliHTTPMethodExceptionTest extends AbstractFrameworkTestCase {
+class InvaliHTTPMethodExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

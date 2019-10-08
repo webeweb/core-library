@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Scraping\Cleaner;
 
 use WBW\Library\Core\Scraping\Cleaner\PregReplaceScrapingCleaner;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * preg_replace scraping cleaner test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Scraping\Cleaner
  */
-class PregReplaceScrapingCleanerTest extends AbstractFrameworkTestCase {
+class PregReplaceScrapingCleanerTest extends AbstractTestCase {
 
     /**
      * Tests the clean() method.

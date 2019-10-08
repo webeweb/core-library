@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Security;
 
 use WBW\Library\Core\Security\PasswordAuthentication;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Password authentication test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Security
  */
-class PasswordAuthenticationTest extends AbstractFrameworkTestCase {
+class PasswordAuthenticationTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

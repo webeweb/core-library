@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxRetraite;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxRetraite;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
  */
-class TauxRetraiteTest extends AbstractFrameworkTestCase {
+class TauxRetraiteTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

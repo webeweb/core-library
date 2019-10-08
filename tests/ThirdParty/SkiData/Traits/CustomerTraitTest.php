@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Traits;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\ThirdParty\SkiData\Traits\TestCustomerTrait;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\Fixtures\ThirdParty\SkiData\Traits\TestCustomerTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Traits
  */
-class CustomerTraitTest extends AbstractFrameworkTestCase {
+class CustomerTraitTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

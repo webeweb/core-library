@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Sorting;
 
 use WBW\Library\Core\Sorting\FunctorInterface;
 use WBW\Library\Core\Sorting\QuickSort;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Sorting\TestIntegerFunctor;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\Fixtures\Sorting\TestIntegerFunctor;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Sorting
  */
-class QuickSortTest extends AbstractFrameworkTestCase {
+class QuickSortTest extends AbstractTestCase {
 
     /**
      * Functor.

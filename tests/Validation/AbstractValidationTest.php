@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Validation;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
 use WBW\Library\Core\Validation\API\ValidationRuleInterface;
 use WBW\Library\Core\Validation\API\ValidationRuleSetInterface;
@@ -24,7 +24,7 @@ use WBW\Library\Core\Validation\RuleSet\DefaultValidationRuleSet;
  * @package WBW\Library\Core\Tests\Validation
  * @abstract
  */
-abstract class AbstractValidationTest extends AbstractFrameworkTestCase {
+abstract class AbstractValidationTest extends AbstractTestCase {
 
     /**
      * Rule.

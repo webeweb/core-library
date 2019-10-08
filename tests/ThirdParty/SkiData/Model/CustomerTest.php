@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\SkiData\Entity;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\SkiData\Model\Customer;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\Customer;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\SkiData\Entity
  */
-class CustomerTest extends AbstractFrameworkTestCase {
+class CustomerTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

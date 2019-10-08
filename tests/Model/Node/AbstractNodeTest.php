@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Node;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Navigation\Item
  */
-class AbstractNodeTest extends AbstractFrameworkTestCase {
+class AbstractNodeTest extends AbstractTestCase {
 
     /**
      * Tests the addNode() method.

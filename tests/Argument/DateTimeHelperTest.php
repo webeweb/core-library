@@ -16,7 +16,7 @@ use DateTimeZone;
 use Exception;
 use WBW\Library\Core\Argument\DateTimeHelper;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Date/time helper test.
@@ -24,7 +24,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
  */
-class DateTimeHelperTest extends AbstractFrameworkTestCase {
+class DateTimeHelperTest extends AbstractTestCase {
 
     /**
      * Tests the compare() method.

@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Reglements;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Reglements model test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
  */
-class ReglementsTest extends AbstractFrameworkTestCase {
+class ReglementsTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

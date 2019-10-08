@@ -18,7 +18,7 @@ use ReflectionMethod;
 use WBW\Library\Core\Argument\ObjectHelper;
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
 use WBW\Library\Core\Exception\Reflection\SyntaxErrorException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Object helper test.
@@ -26,7 +26,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
  */
-class ObjectHelperTest extends AbstractFrameworkTestCase {
+class ObjectHelperTest extends AbstractTestCase {
 
     /**
      * Tests the getDirectory() method.
@@ -101,7 +101,7 @@ class ObjectHelperTest extends AbstractFrameworkTestCase {
         $this->assertCount(0, $hooks4);
 
         // ===
-        $hooks5 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractFrameworkTestCase::class);
+        $hooks5 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractTestCase::class);
         $this->assertCount(1, $hooks5);
         foreach ($hooks5 as $current) {
 
@@ -113,7 +113,7 @@ class ObjectHelperTest extends AbstractFrameworkTestCase {
         }
 
         // ===
-        $hooks6 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractFrameworkTestCase::class, "testGetHooks");
+        $hooks6 = ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractTestCase::class, "testGetHooks");
         $this->assertCount(1, $hooks6);
         foreach ($hooks6 as $current) {
 
@@ -137,7 +137,7 @@ class ObjectHelperTest extends AbstractFrameworkTestCase {
 
         try {
 
-            ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractFrameworkTestCase::class, "testGetHook");
+            ObjectHelper::getHooks($classpath, $namespace, "/ObjectHelperTest/", AbstractTestCase::class, "testGetHook");
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(MethodNotFoundException::class, $ex);

@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Contact;
 
 use WBW\Library\Core\Model\Contact\PhoneNumbersTrait;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Phone numbers trait test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Contact
  */
-class PhoneNumbersTraitTest extends AbstractFrameworkTestCase {
+class PhoneNumbersTraitTest extends AbstractTestCase {
 
     /**
      * Phone numbers.

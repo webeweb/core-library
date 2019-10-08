@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\CalculIS;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Calcul i s model test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
  */
-class CalculISTest extends AbstractFrameworkTestCase {
+class CalculISTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

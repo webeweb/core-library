@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Network;
 
 use WBW\Library\Core\Exception\Network\CURLMethodNotAllowedException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * cURL method not allowed exception test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Network
  */
-class CURLInvalidMessageClassExceptionTest extends AbstractFrameworkTestCase {
+class CURLInvalidMessageClassExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

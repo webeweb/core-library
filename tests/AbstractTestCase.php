@@ -14,12 +14,12 @@ namespace WBW\Library\Core\Tests;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Abstract Core framework test case.
+ * Abstract test case.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests
  * @abstract
  */
-abstract class AbstractFrameworkTestCase extends TestCase {
+abstract class AbstractTestCase extends TestCase {
 
 }

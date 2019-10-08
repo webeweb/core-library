@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Sorting;
 
 use WBW\Library\Core\Model\Sorting\AlphabeticalTreeNodeInterface;
 use WBW\Library\Core\Sorting\AlphabeticalTreeSort;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Sorting
  */
-class AlphabeticalTreeSortTest extends AbstractFrameworkTestCase {
+class AlphabeticalTreeSortTest extends AbstractTestCase {
 
     /**
      * Nodes.

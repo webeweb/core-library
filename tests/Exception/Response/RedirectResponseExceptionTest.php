@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Response;
 
 use WBW\Library\Core\Exception\Response\RedirectResponseException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Redirect response exception test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Response
  */
-class RedirectResponseExceptionTest extends AbstractFrameworkTestCase {
+class RedirectResponseExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

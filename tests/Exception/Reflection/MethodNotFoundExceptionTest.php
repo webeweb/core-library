@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Reflection;
 
 use WBW\Library\Core\Exception\Reflection\MethodNotFoundException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Method not found exception test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Reflection
  */
-class MethodNotFoundExceptionTest extends AbstractFrameworkTestCase {
+class MethodNotFoundExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

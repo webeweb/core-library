@@ -28,7 +28,7 @@ use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
 use WBW\Library\Core\Exception\Pointer\NullPointerException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Argument helper test.
@@ -36,7 +36,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
  */
-class ArgumentHelperTest extends AbstractFrameworkTestCase {
+class ArgumentHelperTest extends AbstractTestCase {
 
     /**
      * Tests the convert() method.

@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Scraping\Cleaner;
 
 use WBW\Library\Core\Scraping\Cleaner\StrReplaceScrapingCleaner;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * str_replace scraping cleaner test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Scraping\Cleaner
  */
-class StrReplaceScrapingCleanerTest extends AbstractFrameworkTestCase {
+class StrReplaceScrapingCleanerTest extends AbstractTestCase {
 
     /**
      * Tests the clean() method.

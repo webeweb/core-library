@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\SkiData\Entity;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\SkiData\Model\StartRecordFormat;
 
 /**
@@ -22,7 +22,7 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\StartRecordFormat;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\SkiData\Entity
  */
-class StartRecordFormatTest extends AbstractFrameworkTestCase {
+class StartRecordFormatTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

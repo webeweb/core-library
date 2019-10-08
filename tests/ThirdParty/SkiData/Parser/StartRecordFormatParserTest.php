@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Parser;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\SkiData\Exception\TooLongDataException;
 use WBW\Library\Core\ThirdParty\SkiData\Model\StartRecordFormat;
 use WBW\Library\Core\ThirdParty\SkiData\Parser\StartRecordFormatParser;
@@ -24,7 +24,7 @@ use WBW\Library\Core\ThirdParty\SkiData\Parser\StartRecordFormatParser;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Parser
  */
-class StartRecordFormatParserTest extends AbstractFrameworkTestCase {
+class StartRecordFormatParserTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

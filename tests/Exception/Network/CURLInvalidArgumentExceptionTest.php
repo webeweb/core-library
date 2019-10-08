@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Network;
 
 use WBW\Library\Core\Exception\Network\CURLInvalidArgumentException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * cURL invalid argument exception test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Network
  */
-class CURLInvalidArgumentExceptionTest extends AbstractFrameworkTestCase {
+class CURLInvalidArgumentExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

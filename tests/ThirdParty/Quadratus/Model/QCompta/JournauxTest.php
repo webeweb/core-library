@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Journaux;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Journaux model test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
  */
-class JournauxTest extends AbstractFrameworkTestCase {
+class JournauxTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

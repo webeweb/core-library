@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Choices;
 
 use WBW\Library\Core\Model\Choices\VehiculeMarkChoices;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Vehicule mark choices test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Choices
  */
-class VehiculeMakChoicesTest extends AbstractFrameworkTestCase {
+class VehiculeMakChoicesTest extends AbstractTestCase {
 
     /**
      * Tests the getChoices() method.

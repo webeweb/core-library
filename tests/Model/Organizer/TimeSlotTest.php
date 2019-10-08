@@ -15,7 +15,7 @@ use DateTime;
 use Exception;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Model\Organizer\TimeSlot;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
 
 /**
@@ -24,7 +24,7 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Organizer
  */
-class TimeSlotTest extends AbstractFrameworkTestCase {
+class TimeSlotTest extends AbstractTestCase {
 
     /**
      * Dates.

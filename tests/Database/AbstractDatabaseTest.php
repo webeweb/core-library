@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Database;
 
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Abstract database test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @package WBW\Library\Core\Tests\Database
  * @abstract
  */
-abstract class AbstractDatabaseTest extends AbstractFrameworkTestCase {
+abstract class AbstractDatabaseTest extends AbstractTestCase {
 
     /**
      * Authenticator.

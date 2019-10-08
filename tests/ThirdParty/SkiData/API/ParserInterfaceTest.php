@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\SkiData\API;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\SkiData\API\ParserInterface;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\SkiData\API\ParserInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Core\Tests\ThirdParty\SkiData\API
  */
-class ParserInterfaceTest extends AbstractFrameworkTestCase {
+class ParserInterfaceTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

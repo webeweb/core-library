@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Runtime;
 
 use WBW\Library\Core\Exception\Runtime\NotImplementedException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Not implemented exception test .
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Runtime
  */
-class NotImplementedExceptionTest extends AbstractFrameworkTestCase {
+class NotImplementedExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

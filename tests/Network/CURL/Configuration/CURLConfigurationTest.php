@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Network\CURL\Configuration;
 use Exception;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * cURL configuration test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Configuration
  */
-class CURLConfigurationTest extends AbstractFrameworkTestCase {
+class CURLConfigurationTest extends AbstractTestCase {
 
     /**
      * Tests the addHeader() method.

@@ -14,7 +14,7 @@ namespace WBW\Library\Core\Tests\Argument;
 use Exception;
 use WBW\Library\Core\Argument\FloatHelper;
 use WBW\Library\Core\Exception\Argument\FloatArgumentException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Float helper test.
@@ -22,7 +22,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument
  */
-class FloatHelperTest extends AbstractFrameworkTestCase {
+class FloatHelperTest extends AbstractTestCase {
 
     /**
      * Tests the parseString() method.

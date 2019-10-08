@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Parser;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\SkiData\Model\Card;
 use WBW\Library\Core\ThirdParty\SkiData\Parser\CardParser;
 
@@ -23,7 +23,7 @@ use WBW\Library\Core\ThirdParty\SkiData\Parser\CardParser;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Parser
  */
-class CardParserTest extends AbstractFrameworkTestCase {
+class CardParserTest extends AbstractTestCase {
 
     /**
      * Tests the parseEntity() method.

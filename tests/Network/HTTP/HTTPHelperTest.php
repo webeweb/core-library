@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\HTTP;
 
 use WBW\Library\Core\Network\HTTP\HTTPHelper;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * HTTP utility test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\HTTP
  */
-class HTTPHelperTest extends AbstractFrameworkTestCase {
+class HTTPHelperTest extends AbstractTestCase {
 
     /**
      * Tests the getHTTPMethods() method.

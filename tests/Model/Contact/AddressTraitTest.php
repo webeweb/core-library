@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Contact;
 
 use WBW\Library\Core\Model\Contact\AddressTrait;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Address trait test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Model\Contact
  */
-class AddressTraitTest extends AbstractFrameworkTestCase {
+class AddressTraitTest extends AbstractTestCase {
 
     /**
      * Address.

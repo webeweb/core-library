@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsLstPersoIndiceCollab;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsLstPersoIndiceCollab;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
  */
-class ClientsLstPersoIndiceCollabTest extends AbstractFrameworkTestCase {
+class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

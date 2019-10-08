@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Algorithm;
 
 use WBW\Library\Core\Algorithm\LuhnAlgorithmHelper;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Luhn algorithm helper test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Algorithm
  */
-class LuhnAlgorithmTest extends AbstractFrameworkTestCase {
+class LuhnAlgorithmTest extends AbstractTestCase {
 
     /**
      * Tests the check() method.

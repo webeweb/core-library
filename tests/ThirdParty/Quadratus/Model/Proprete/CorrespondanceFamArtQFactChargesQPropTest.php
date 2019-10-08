@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CorrespondanceFamArtQFactChargesQProp;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CorrespondanceFamArtQFa
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
  */
-class CorrespondanceFamArtQFactChargesQPropTest extends AbstractFrameworkTestCase {
+class CorrespondanceFamArtQFactChargesQPropTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

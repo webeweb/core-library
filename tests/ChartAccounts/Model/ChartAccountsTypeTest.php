@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\ChartAccounts\Model;
 
 use WBW\Library\Core\ChartAccounts\Model\ChartAccountsType;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Chart of accounts type test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ChartAccounts\Model
  */
-class ChartAccountsTypeTest extends AbstractFrameworkTestCase {
+class ChartAccountsTypeTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

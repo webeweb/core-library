@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\Argument;
 
 use WBW\Library\Core\Exception\Argument\FloatArgumentException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Float argument exception test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\Argument
  */
-class FloatArgumentExceptionTest extends AbstractFrameworkTestCase {
+class FloatArgumentExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

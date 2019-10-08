@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Exception\FileSystem;
 
 use WBW\Library\Core\Exception\FileSystem\IOException;
-use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * IO exception test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractFrameworkTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Exception\IO
  */
-class IOExceptionTest extends AbstractFrameworkTestCase {
+class IOExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.
