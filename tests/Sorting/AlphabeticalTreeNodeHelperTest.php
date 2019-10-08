@@ -97,5 +97,4 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
         AlphabeticalTreeNodeHelper::removeOrphan($this->nodes);
         $this->assertCount(7, $this->nodes);
     }
-
 }

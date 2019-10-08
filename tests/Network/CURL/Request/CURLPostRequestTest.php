@@ -127,5 +127,4 @@ class CURLPostRequestTest extends AbstractCURLRequestTest {
         $obj->removePostData("name");
         $this->assertCount(0, $obj->getPostData());
     }
-
 }

@@ -48,5 +48,4 @@ class StrReplaceScrapingCleanerTest extends AbstractTestCase {
         $this->assertEquals(["search"], $obj->getSearches());
         $this->assertEquals(["replace"], $obj->getReplaces());
     }
-
 }

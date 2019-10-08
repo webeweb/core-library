@@ -34,5 +34,4 @@ class StringArgumentExceptionTest extends AbstractTestCase {
         $res = "The argument \"exception\" is not a string";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

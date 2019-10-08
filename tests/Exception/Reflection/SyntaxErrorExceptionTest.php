@@ -34,5 +34,4 @@ class SyntaxErrorExceptionTest extends AbstractTestCase {
         $res = "The file \"exception\" contains syntax errors";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

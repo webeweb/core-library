@@ -167,5 +167,4 @@ class FTPClient extends AbstractFTPClient {
         }
         return $this;
     }
-
 }

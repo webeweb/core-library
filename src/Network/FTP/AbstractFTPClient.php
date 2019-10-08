@@ -95,5 +95,4 @@ abstract class AbstractFTPClient {
         $this->connection = $connection;
         return $this;
     }
-
 }

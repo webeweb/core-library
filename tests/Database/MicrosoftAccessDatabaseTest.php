@@ -96,5 +96,4 @@ class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
         $res = "UPDATE table SET `field1` = 1, `field2` = 'value2', `field3` = 'value3'";
         $this->assertEquals($res, $obj->prepareUpdate("table", $arg));
     }
-
 }

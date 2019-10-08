@@ -329,5 +329,4 @@ class CURLConfigurationTest extends AbstractTestCase {
         $obj->setVerbose(true);
         $this->assertTrue($obj->getVerbose());
     }
-
 }

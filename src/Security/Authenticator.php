@@ -143,5 +143,4 @@ class Authenticator {
         $this->scheme = $scheme;
         return $this;
     }
-
 }

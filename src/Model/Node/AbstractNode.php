@@ -249,5 +249,4 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     public function size() {
         return count($this->nodes);
     }
-
 }

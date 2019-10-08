@@ -362,5 +362,4 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
         $obj->removeQueryData("name");
         $this->assertCount(0, $obj->getQueryData());
     }
-
 }

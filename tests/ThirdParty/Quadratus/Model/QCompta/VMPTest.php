@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\VMP;
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\VMP;
 
 /**
  * V m p model test.

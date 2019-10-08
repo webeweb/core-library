@@ -142,5 +142,4 @@ abstract class AbstractChartAccountsModel {
         $this->number = $number;
         return $this;
     }
-
 }

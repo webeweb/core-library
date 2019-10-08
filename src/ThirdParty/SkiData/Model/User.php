@@ -408,5 +408,4 @@ class User {
         $this->userNumber = $userNumber;
         return $this;
     }
-
 }

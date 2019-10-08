@@ -102,5 +102,4 @@ class StringHelper {
     public static function replace($subject, array $searches, array $replaces) {
         return str_replace($searches, $replaces, $subject);
     }
-
 }

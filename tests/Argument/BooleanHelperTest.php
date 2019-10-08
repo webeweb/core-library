@@ -45,5 +45,4 @@ class BooleanHelperTest extends AbstractTestCase {
         $this->assertTrue(BooleanHelper::parseString("YES"));
         $this->assertTrue(BooleanHelper::parseString("yes"));
     }
-
 }

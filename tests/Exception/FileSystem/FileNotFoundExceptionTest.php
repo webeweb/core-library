@@ -32,5 +32,4 @@ class FileNotFoundExceptionTest extends AbstractTestCase {
         $res = "The file \"exception\" is not found";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

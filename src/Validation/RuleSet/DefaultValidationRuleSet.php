@@ -25,5 +25,4 @@ class DefaultValidationRuleSet extends AbstractValidationRuleSet {
     public function __construct() {
         parent::__construct();
     }
-
 }

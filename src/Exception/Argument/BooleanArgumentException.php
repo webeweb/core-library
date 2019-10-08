@@ -30,5 +30,4 @@ class BooleanArgumentException extends IllegalArgumentException {
     public function __construct($argument, Exception $previous = null) {
         parent::__construct(sprintf("The argument \"%s\" is not a boolean", print_r($argument, true)), $previous);
     }
-
 }

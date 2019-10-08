@@ -59,5 +59,4 @@ class CURLRequestCallException extends AbstractCURLException {
         $this->response = $response;
         return $this;
     }
-
 }

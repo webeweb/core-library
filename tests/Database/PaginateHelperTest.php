@@ -60,5 +60,4 @@ class PaginateHelperTest extends AbstractTestCase {
         $this->assertEquals(1, PaginateHelper::getPagesCount(300, 300));
         $this->assertEquals(2, PaginateHelper::getPagesCount(301, 300));
     }
-
 }

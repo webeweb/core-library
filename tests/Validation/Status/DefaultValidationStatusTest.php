@@ -126,5 +126,4 @@ class DefaultValidationStatusTest extends AbstractValidationTest {
         $res9 = ["code" => 200, "message" => "message", "ruleName" => "ruleName"];
         $this->assertEquals($res9, $obj->toArray());
     }
-
 }

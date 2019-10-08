@@ -759,5 +759,4 @@ class Card {
         $this->validFrom = $validFrom;
         return $this;
     }
-
 }

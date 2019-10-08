@@ -144,5 +144,4 @@ class QuickSort {
         $this->values[$a] = $this->values[$b];
         $this->values[$b] = $value;
     }
-
 }

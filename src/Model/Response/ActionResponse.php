@@ -104,5 +104,4 @@ class ActionResponse implements JsonSerializable {
             "notify" => $this->getNotify(),
         ];
     }
-
 }

@@ -54,5 +54,4 @@ abstract class AbstractValidationRule implements ValidationRuleInterface {
     protected function setName($name) {
         $this->name = $name;
     }
-
 }

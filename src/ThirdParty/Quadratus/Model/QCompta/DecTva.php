@@ -1030,6 +1030,13 @@ class DecTva {
     private $azLigne5Mtt;
 
     /**
+     * b groupe.
+     *
+     * @var bool
+     */
+    private $bGroupe;
+
+    /**
      * C a12 mois cloture.
      *
      * @var int
@@ -1275,6 +1282,20 @@ class DecTva {
     private $ville;
 
     /**
+     * z0029.
+     *
+     * @var float
+     */
+    private $z0029;
+
+    /**
+     * z0030.
+     *
+     * @var float
+     */
+    private $z0030;
+
+    /**
      * Z0031.
      *
      * @var float
@@ -1317,6 +1338,13 @@ class DecTva {
     private $z0035;
 
     /**
+     * z0036.
+     *
+     * @var float
+     */
+    private $z0036;
+
+    /**
      * Z0037.
      *
      * @var float
@@ -1329,6 +1357,13 @@ class DecTva {
      * @var float
      */
     private $z0038;
+
+    /**
+     * z0039.
+     *
+     * @var float
+     */
+    private $z0039;
 
     /**
      * Z0040.
@@ -1352,6 +1387,41 @@ class DecTva {
     private $z0041;
 
     /**
+     * z0044.
+     *
+     * @var float
+     */
+    private $z0044;
+
+    /**
+     * z0044b.
+     *
+     * @var float
+     */
+    private $z0044b;
+
+    /**
+     * z0045.
+     *
+     * @var float
+     */
+    private $z0045;
+
+    /**
+     * z0046.
+     *
+     * @var float
+     */
+    private $z0046;
+
+    /**
+     * z0059b.
+     *
+     * @var float
+     */
+    private $z0059b;
+
+    /**
      * Z01.
      *
      * @var float
@@ -1371,6 +1441,34 @@ class DecTva {
      * @var float
      */
     private $z0100b;
+
+    /**
+     * z0121.
+     *
+     * @var float
+     */
+    private $z0121;
+
+    /**
+     * z0121b.
+     *
+     * @var float
+     */
+    private $z0121b;
+
+    /**
+     * z0151.
+     *
+     * @var float
+     */
+    private $z0151;
+
+    /**
+     * z0151b.
+     *
+     * @var float
+     */
+    private $z0151b;
 
     /**
      * Z02.
@@ -1406,6 +1504,20 @@ class DecTva {
      * @var float
      */
     private $z0205b;
+
+    /**
+     * z0207.
+     *
+     * @var float
+     */
+    private $z0207;
+
+    /**
+     * z0207b.
+     *
+     * @var float
+     */
+    private $z0207b;
 
     /**
      * Z0600.
@@ -1457,6 +1569,13 @@ class DecTva {
     private $z0705;
 
     /**
+     * z0709.
+     *
+     * @var float
+     */
+    private $z0709;
+
+    /**
      * Z0900.
      *
      * @var float
@@ -1499,6 +1618,34 @@ class DecTva {
     private $z0950b;
 
     /**
+     * z12 code.
+     *
+     * @var string
+     */
+    private $z12Code;
+
+    /**
+     * z12 h t.
+     *
+     * @var float
+     */
+    private $z12HT;
+
+    /**
+     * z12 lib.
+     *
+     * @var string
+     */
+    private $z12Lib;
+
+    /**
+     * z12 taxe.
+     *
+     * @var float
+     */
+    private $z12Taxe;
+
+    /**
      * Z14.
      *
      * @var float
@@ -1539,6 +1686,13 @@ class DecTva {
      * @var float
      */
     private $z25;
+
+    /**
+     * z4227.
+     *
+     * @var float
+     */
+    private $z4227;
 
     /**
      * Z8001.
@@ -1602,160 +1756,6 @@ class DecTva {
      * @var float
      */
     private $z9999;
-
-    /**
-     * b groupe.
-     *
-     * @var bool
-     */
-    private $bGroupe;
-
-    /**
-     * z0029.
-     *
-     * @var float
-     */
-    private $z0029;
-
-    /**
-     * z0030.
-     *
-     * @var float
-     */
-    private $z0030;
-
-    /**
-     * z0036.
-     *
-     * @var float
-     */
-    private $z0036;
-
-    /**
-     * z0039.
-     *
-     * @var float
-     */
-    private $z0039;
-
-    /**
-     * z0044.
-     *
-     * @var float
-     */
-    private $z0044;
-
-    /**
-     * z0044b.
-     *
-     * @var float
-     */
-    private $z0044b;
-
-    /**
-     * z0045.
-     *
-     * @var float
-     */
-    private $z0045;
-
-    /**
-     * z0046.
-     *
-     * @var float
-     */
-    private $z0046;
-
-    /**
-     * z0059b.
-     *
-     * @var float
-     */
-    private $z0059b;
-
-    /**
-     * z0121.
-     *
-     * @var float
-     */
-    private $z0121;
-
-    /**
-     * z0121b.
-     *
-     * @var float
-     */
-    private $z0121b;
-
-    /**
-     * z0151.
-     *
-     * @var float
-     */
-    private $z0151;
-
-    /**
-     * z0151b.
-     *
-     * @var float
-     */
-    private $z0151b;
-
-    /**
-     * z0207.
-     *
-     * @var float
-     */
-    private $z0207;
-
-    /**
-     * z0207b.
-     *
-     * @var float
-     */
-    private $z0207b;
-
-    /**
-     * z0709.
-     *
-     * @var float
-     */
-    private $z0709;
-
-    /**
-     * z12 code.
-     *
-     * @var string
-     */
-    private $z12Code;
-
-    /**
-     * z12 h t.
-     *
-     * @var float
-     */
-    private $z12HT;
-
-    /**
-     * z12 lib.
-     *
-     * @var string
-     */
-    private $z12Lib;
-
-    /**
-     * z12 taxe.
-     *
-     * @var float
-     */
-    private $z12Taxe;
-
-    /**
-     * z4227.
-     *
-     * @var float
-     */
-    private $z4227;
 
     /**
      * z9b code.

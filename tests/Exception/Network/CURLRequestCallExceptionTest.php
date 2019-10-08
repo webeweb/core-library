@@ -41,5 +41,4 @@ class CURLRequestCallExceptionTest extends AbstractTestCase {
         $this->assertEquals([], $obj->getResponse()->getResponseHeader());
         $this->assertEquals([], $obj->getResponse()->getResponseInfo());
     }
-
 }

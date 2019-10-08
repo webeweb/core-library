@@ -69,5 +69,4 @@ class PhoneNumbersTraitTest extends AbstractTestCase {
         $this->phoneNumbers->setMobileNumber("mobileNumber");
         $this->assertEquals("mobileNumber", $this->phoneNumbers->getMobileNumber());
     }
-
 }

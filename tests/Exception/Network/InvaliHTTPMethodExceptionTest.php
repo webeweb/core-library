@@ -32,5 +32,4 @@ class InvaliHTTPMethodExceptionTest extends AbstractTestCase {
         $res = "The HTTP method \"exception\" is invalid";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

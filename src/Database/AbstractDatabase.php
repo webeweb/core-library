@@ -176,5 +176,4 @@ abstract class AbstractDatabase {
         $this->database = $database;
         return $this;
     }
-
 }

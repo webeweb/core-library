@@ -56,5 +56,4 @@ class BooleanHelper {
         }
         return false;
     }
-
 }

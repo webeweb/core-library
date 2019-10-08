@@ -38,5 +38,4 @@ class LuhnAlgorithmTest extends AbstractTestCase {
         $this->assertTrue(LuhnAlgorithmHelper::check("53395168700011"));
         $this->assertFalse(LuhnAlgorithmHelper::check("53395168700021"));
     }
-
 }

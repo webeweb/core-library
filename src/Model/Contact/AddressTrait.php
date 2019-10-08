@@ -207,5 +207,4 @@ trait AddressTrait {
         $this->postalCode = $postalCode;
         return $this;
     }
-
 }

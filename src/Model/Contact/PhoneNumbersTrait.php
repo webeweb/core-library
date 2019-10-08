@@ -72,5 +72,4 @@ trait PhoneNumbersTrait {
         $this->phoneNumber = $phoneNumber;
         return $this;
     }
-
 }

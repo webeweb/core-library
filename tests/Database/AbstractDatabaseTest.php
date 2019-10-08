@@ -39,5 +39,4 @@ abstract class AbstractDatabaseTest extends AbstractTestCase {
         // Set an Authenticator mock.
         $this->authenticator = new Authenticator("localhost", new PasswordAuthentication("username", "password"));
     }
-
 }

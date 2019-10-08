@@ -94,5 +94,4 @@ class DefaultValidationRuleSetTest extends AbstractValidationTest {
         $this->assertEquals("The argument is not an int", $res[0]->getMessage());
         $this->assertEquals("Test validation rule", $res[0]->getRuleName());
     }
-
 }

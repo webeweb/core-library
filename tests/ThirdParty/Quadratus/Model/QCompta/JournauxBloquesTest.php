@@ -13,8 +13,8 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\JournauxBloques;
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\JournauxBloques;
 
 /**
  * Journaux bloques model test.

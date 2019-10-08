@@ -41,5 +41,4 @@ class ArgumentInterfaceTest extends AbstractTestCase {
         $this->assertEquals(87, ArgumentInterface::ARGUMENT_STRING);
         $this->assertEquals(116, ArgumentInterface::ARGUMENT_TIMESTAMP);
     }
-
 }

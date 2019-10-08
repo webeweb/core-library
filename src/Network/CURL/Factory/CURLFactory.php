@@ -74,5 +74,4 @@ class CURLFactory implements HTTPInterface {
                 throw new InvalidHTTPMethodException($method);
         }
     }
-
 }

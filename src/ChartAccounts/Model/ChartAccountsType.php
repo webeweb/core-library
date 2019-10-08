@@ -25,5 +25,4 @@ class ChartAccountsType extends AbstractChartAccountsModel {
     public function __construct() {
         parent::__construct();
     }
-
 }

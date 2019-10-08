@@ -63,5 +63,4 @@ class AlphabeticalTreeSortTest extends AbstractTestCase {
         $this->assertEquals($this->nodes[5]->getAlphabeticalTreeNodeLabel(), $res[8]->getAlphabeticalTreeNodeLabel());
         $this->assertEquals($this->nodes[6]->getAlphabeticalTreeNodeLabel(), $res[9]->getAlphabeticalTreeNodeLabel());
     }
-
 }

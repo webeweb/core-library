@@ -32,5 +32,4 @@ class CivilityChoices implements CivilityChoicesInterface {
             self::CIVILITY_MISTER => "choices.civility.mister",
         ];
     }
-
 }

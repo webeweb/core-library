@@ -64,6 +64,13 @@ class Dossier4 {
     private $archiveDeclTVA;
 
     /**
+     * b ca12 t.
+     *
+     * @var bool
+     */
+    private $bCa12T;
+
+    /**
      * Bal agee nb jours int1.
      *
      * @var int
@@ -1105,13 +1112,6 @@ class Dossier4 {
      * @var bool
      */
     private $yaTauxReduit;
-
-    /**
-     * b ca12 t.
-     *
-     * @var bool
-     */
-    private $bCa12T;
 
     /**
      * Constructor.

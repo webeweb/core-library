@@ -32,5 +32,4 @@ class DirectoryNotFoundExceptionTest extends AbstractTestCase {
         $res = "The directory \"exception\" is not found";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

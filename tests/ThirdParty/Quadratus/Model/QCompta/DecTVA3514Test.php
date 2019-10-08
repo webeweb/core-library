@@ -13,8 +13,8 @@ namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DecTVA3514;
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DecTVA3514;
 
 /**
  * Dec t v a3514 model test.

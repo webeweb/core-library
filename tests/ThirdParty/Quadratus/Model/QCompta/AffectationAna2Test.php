@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\AffectationAna2;
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\AffectationAna2;
 
 /**
  * Affectation ana2 model test.

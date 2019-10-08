@@ -34,5 +34,4 @@ class MaritalStatusChoices implements MaritalStatusChoicesInterface {
             self::MARITAL_STATUS_DIVORCED => "choices.marital-status.divorced",
         ];
     }
-
 }

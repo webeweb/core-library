@@ -31,5 +31,4 @@ class SyntaxErrorException extends AbstractCoreException {
     public function __construct($filename, Exception $previous = null) {
         parent::__construct(sprintf("The file \"%s\" contains syntax errors", $filename), 500, $previous);
     }
-
 }

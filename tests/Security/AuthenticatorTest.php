@@ -136,5 +136,4 @@ class AuthenticatorTest extends AbstractTestCase {
         $obj->setScheme("scheme");
         $this->assertEquals("scheme", $obj->getScheme());
     }
-
 }

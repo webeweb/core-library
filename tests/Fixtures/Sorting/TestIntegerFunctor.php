@@ -27,5 +27,4 @@ class TestIntegerFunctor implements FunctorInterface {
     public function compare($a, $b) {
         return $a < $b;
     }
-
 }

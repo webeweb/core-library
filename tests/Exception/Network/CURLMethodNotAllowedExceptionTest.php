@@ -34,5 +34,4 @@ class CURLInvalidMessageClassExceptionTest extends AbstractTestCase {
         $res = "The method \"exception\" is not allowed";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

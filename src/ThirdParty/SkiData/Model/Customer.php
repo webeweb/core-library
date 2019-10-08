@@ -518,5 +518,4 @@ class Customer {
         $this->ticketReturnAllowed = $ticketReturnAllowed;
         return $this;
     }
-
 }

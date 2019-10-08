@@ -33,5 +33,4 @@ class AbstractValidationRuleTest extends AbstractValidationTest {
 
         $this->assertEquals("Test validation rule", $obj->getName());
     }
-
 }

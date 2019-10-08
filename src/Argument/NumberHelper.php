@@ -33,5 +33,4 @@ class NumberHelper {
             throw new NumberArgumentException($value);
         }
     }
-
 }

@@ -105,5 +105,4 @@ class ArrayHelperTest extends AbstractTestCase {
         ArrayHelper::set($objS2, "key", "false", [null, "false"]);
         $this->assertEquals([], $objS2);
     }
-
 }

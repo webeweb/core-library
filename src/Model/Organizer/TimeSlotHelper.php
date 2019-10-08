@@ -310,5 +310,4 @@ class TimeSlotHelper {
         // Return the time slots.
         return $sorter->getValues();
     }
-
 }

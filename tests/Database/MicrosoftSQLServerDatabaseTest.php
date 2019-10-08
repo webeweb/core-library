@@ -54,5 +54,4 @@ class MicrosoftSQLServerDatabaseTest extends AbstractDatabaseTest {
             $this->assertNotEmpty($ex->getMessage());
         }
     }
-
 }

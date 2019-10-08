@@ -35,5 +35,4 @@ class HTMLEntityDecodeScrapingCleanerTest extends AbstractTestCase {
         $this->assertNull($obj->clean(true));
         $this->assertEquals("&", $obj->clean("&amp;"));
     }
-
 }

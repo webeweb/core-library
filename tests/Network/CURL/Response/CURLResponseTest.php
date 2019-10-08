@@ -116,5 +116,4 @@ class CURLResponseTest extends AbstractTestCase {
         $obj->setResponseInfo(["responseInfo" => "responseInfo"]);
         $this->assertEquals(["responseInfo" => "responseInfo"], $obj->getResponseInfo());
     }
-
 }

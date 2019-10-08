@@ -52,5 +52,4 @@ class VehiculeMarkChoices implements VehiculeMarkChoicesInterface {
             self::VEHICULE_MARK_VOLVO      => "Volvo",
         ];
     }
-
 }

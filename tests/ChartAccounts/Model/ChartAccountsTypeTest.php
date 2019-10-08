@@ -61,5 +61,4 @@ class ChartAccountsTypeTest extends AbstractTestCase {
         $obj->setNumber("number");
         $this->assertEquals("number", $obj->getNumber());
     }
-
 }

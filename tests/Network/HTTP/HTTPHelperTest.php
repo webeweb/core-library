@@ -43,5 +43,4 @@ class HTTPHelperTest extends AbstractTestCase {
         $res = HTTPHelper::getHTTPStatus();
         $this->assertCount(57, $res);
     }
-
 }

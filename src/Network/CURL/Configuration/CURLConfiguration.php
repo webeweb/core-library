@@ -522,5 +522,4 @@ class CURLConfiguration {
         $this->verbose = $verbose;
         return $this;
     }
-
 }

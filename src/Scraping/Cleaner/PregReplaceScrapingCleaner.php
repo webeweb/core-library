@@ -93,5 +93,4 @@ class PregReplaceScrapingCleaner {
         $this->replacement = $replacement;
         return $this;
     }
-
 }

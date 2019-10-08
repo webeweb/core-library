@@ -31,5 +31,4 @@ class DateTimeZoneHelper {
     public static function equals(DateTimeZone $a, DateTimeZone $b) {
         return $a->getName() === $b->getName();
     }
-
 }

@@ -57,5 +57,4 @@ class PaginateHelper {
         }
         return $pagesCount;
     }
-
 }

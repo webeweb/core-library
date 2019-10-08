@@ -34,5 +34,4 @@ class IllegalArgumentExceptionTest extends AbstractTestCase {
         $res = "The argument \"exception\" is illegal";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

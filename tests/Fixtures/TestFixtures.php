@@ -77,5 +77,4 @@ class TestFixtures {
         // Return the dates.
         return $dates;
     }
-
 }

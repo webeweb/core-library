@@ -30,5 +30,4 @@ class IntegerArgumentException extends IllegalArgumentException {
     public function __construct($argument, Exception $previous = null) {
         parent::__construct(sprintf("The argument \"%s\" is not an integer", print_r($argument, true)), $previous);
     }
-
 }

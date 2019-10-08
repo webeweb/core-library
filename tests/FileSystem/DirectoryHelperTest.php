@@ -107,5 +107,4 @@ class DirectoryHelperTest extends AbstractTestCase {
 
         $this->assertNull(DirectoryHelper::rename($arg2 . "2", $arg1));
     }
-
 }

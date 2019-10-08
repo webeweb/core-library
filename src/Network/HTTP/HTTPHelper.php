@@ -102,5 +102,4 @@ class HTTPHelper implements HTTPInterface {
             self::HTTP_STATUS_NETWORK_AUTHENTICATION_REQUIRED,
         ];
     }
-
 }

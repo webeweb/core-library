@@ -48,5 +48,4 @@ class PregReplaceScrapingCleanerTest extends AbstractTestCase {
         $this->assertEquals("/pattern/", $obj->getPattern());
         $this->assertEquals("replacement", $obj->getReplacement());
     }
-
 }

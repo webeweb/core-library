@@ -28,5 +28,4 @@ class TimeSlotFunctor implements FunctorInterface {
     public function compare($a, $b) {
         return DateTimeHelper::isLessThan($a->getStartDate(), $b->getStartDate());
     }
-
 }

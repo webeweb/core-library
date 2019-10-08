@@ -514,5 +514,4 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
         $this->resourcePath = preg_replace("/^\//", "", trim($resourcePath));
         return $this;
     }
-
 }

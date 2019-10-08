@@ -32,5 +32,4 @@ class PHPExtensionNotFoundExceptionTest extends AbstractTestCase {
         $obj = new PHPExtensionNotFoundException("exception");
         $this->assertEquals("The PHP extension \"exception\" is not found", $obj->getMessage());
     }
-
 }

@@ -162,5 +162,4 @@ class StartRecordFormat {
         $this->versionRecordStructure = $versionRecordStructure;
         return $this;
     }
-
 }

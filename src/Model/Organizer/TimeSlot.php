@@ -200,5 +200,4 @@ class TimeSlot {
         $this->timeSlots = $timeSlots;
         return $this;
     }
-
 }

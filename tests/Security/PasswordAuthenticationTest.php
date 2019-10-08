@@ -65,5 +65,4 @@ class PasswordAuthenticationTest extends AbstractTestCase {
 
         $this->assertEquals("username", $obj->getUsername());
     }
-
 }

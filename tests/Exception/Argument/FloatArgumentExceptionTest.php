@@ -34,5 +34,4 @@ class FloatArgumentExceptionTest extends AbstractTestCase {
         $res = "The argument \"exception\" is not a float";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

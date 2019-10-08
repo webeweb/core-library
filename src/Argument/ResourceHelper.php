@@ -33,5 +33,4 @@ class ResourceHelper {
             throw new ResourceArgumentException($value);
         }
     }
-
 }

@@ -37,5 +37,4 @@ class TrimScrapingCleaner implements ScrapingCleanerInterface {
         }
         return trim($value);
     }
-
 }

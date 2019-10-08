@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-
 /**
  * Detail credits bails model.
  *

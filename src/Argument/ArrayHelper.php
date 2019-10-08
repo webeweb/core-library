@@ -64,5 +64,4 @@ class ArrayHelper {
         }
         $array[$key] = $value;
     }
-
 }

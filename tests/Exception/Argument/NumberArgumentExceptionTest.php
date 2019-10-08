@@ -34,5 +34,4 @@ class NumberArgumentExceptionTest extends AbstractTestCase {
         $res = "The argument \"exception\" is not a number";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

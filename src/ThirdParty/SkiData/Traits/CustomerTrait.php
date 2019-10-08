@@ -331,5 +331,4 @@ trait CustomerTrait {
         $this->title = $title;
         return $this;
     }
-
 }

@@ -52,5 +52,4 @@ class ChartAccountsAccount extends AbstractChartAccountsModel {
         $this->accountType = $accountType;
         return $this;
     }
-
 }

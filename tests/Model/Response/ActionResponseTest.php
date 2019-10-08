@@ -105,5 +105,4 @@ class ActionResponseTest extends AbstractTestCase {
         $res9 = ["status" => 200, "notify" => "notify"];
         $this->assertEquals($res9, $obj->toArray());
     }
-
 }

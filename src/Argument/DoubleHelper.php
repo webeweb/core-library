@@ -49,5 +49,4 @@ class DoubleHelper {
             throw new DoubleArgumentException($value, $ex);
         }
     }
-
 }

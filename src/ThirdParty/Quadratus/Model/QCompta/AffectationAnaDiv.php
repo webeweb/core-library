@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-
 /**
  * Affectation ana div model.
  *

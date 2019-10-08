@@ -115,5 +115,4 @@ class StartRecordFormatParserTest extends AbstractTestCase {
         $this->assertEquals(18, $obj->getNumberRecords());
         $this->assertEquals("EUR", $obj->getCurrency());
     }
-
 }

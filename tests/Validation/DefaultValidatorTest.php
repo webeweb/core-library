@@ -50,5 +50,4 @@ class DefaultValidatorTest extends AbstractValidationTest {
         $this->assertEquals(500, $res[0]->getCode());
         $this->assertEquals("The argument is not an int", $res[0]->getMessage());
     }
-
 }

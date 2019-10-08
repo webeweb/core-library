@@ -176,5 +176,4 @@ class ObjectHelper {
         $explode   = preg_replace("/([a-z]{1})([A-Z]{1})/", "$1-$2", $classname);
         return strtolower($explode);
     }
-
 }

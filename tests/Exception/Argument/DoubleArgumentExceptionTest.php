@@ -34,5 +34,4 @@ class DoubleArgumentExceptionTest extends AbstractTestCase {
         $res = "The argument \"exception\" is not a double";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

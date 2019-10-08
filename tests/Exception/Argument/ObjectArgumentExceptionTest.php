@@ -34,5 +34,4 @@ class ObjectArgumentExceptionTest extends AbstractTestCase {
         $res = "The argument \"exception\" is not an object";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

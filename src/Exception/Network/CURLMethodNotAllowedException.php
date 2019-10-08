@@ -27,5 +27,4 @@ class CURLMethodNotAllowedException extends AbstractCURLException {
     public function __construct($method) {
         parent::__construct(sprintf("The method \"%s\" is not allowed", $method));
     }
-
 }

@@ -30,5 +30,4 @@ class DirectoryNotFoundException extends IOException {
     public function __construct($directory, Exception $previous = null) {
         parent::__construct(sprintf("The directory \"%s\" is not found", $directory), $previous);
     }
-
 }

@@ -62,5 +62,4 @@ class MicrosoftAccessDatabase extends AbstractDatabase {
         // Return the connection.
         return new PDO($dsn);
     }
-
 }

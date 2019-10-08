@@ -28,5 +28,4 @@ class DefaultValidationStatus extends AbstractValidationStatus {
     public function __construct($code = null, $message = null) {
         parent::__construct($code, $message);
     }
-
 }

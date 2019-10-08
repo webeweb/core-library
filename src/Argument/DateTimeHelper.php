@@ -267,5 +267,4 @@ class DateTimeHelper {
         // Return the weekday part translated.
         return str_ireplace(array_keys($translations["weekdays"]), array_values($translations["weekdays"]), $date);
     }
-
 }

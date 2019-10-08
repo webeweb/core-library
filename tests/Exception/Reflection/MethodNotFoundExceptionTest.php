@@ -34,5 +34,4 @@ class MethodNotFoundExceptionTest extends AbstractTestCase {
         $res = "The method \"exception\" is not found";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

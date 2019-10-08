@@ -37,5 +37,4 @@ class HTMLEntityDecodeScrapingCleaner implements ScrapingCleanerInterface {
         }
         return html_entity_decode($value);
     }
-
 }

@@ -30,5 +30,4 @@ abstract class AbstractChartAccountsException extends AbstractCoreException {
     public function __construct($message) {
         parent::__construct($message);
     }
-
 }

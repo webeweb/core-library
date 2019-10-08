@@ -171,5 +171,4 @@ class SFTPClient extends AbstractFTPClient {
         }
         return $this;
     }
-
 }

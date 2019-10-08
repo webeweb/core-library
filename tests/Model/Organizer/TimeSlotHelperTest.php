@@ -459,5 +459,4 @@ class TimeSlotHelperTest extends AbstractTestCase {
         $this->assertEquals($this->dates[2], $res4[1]->getStartDate()); /* 15:00 */
         $this->assertEquals($this->dates[3], $res4[1]->getEndDate()); /* 18:00 */
     }
-
 }

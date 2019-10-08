@@ -83,5 +83,4 @@ class PasswordAuthentication {
         $this->username = $username;
         return $this;
     }
-
 }

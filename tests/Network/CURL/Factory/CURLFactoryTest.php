@@ -125,5 +125,4 @@ class CURLFactoryTest extends AbstractTestCase {
         $obj = CURLFactory::getInstance(HTTPInterface::HTTP_METHOD_PUT);
         $this->assertInstanceOf(CURLPutRequest::class, $obj);
     }
-
 }

@@ -45,5 +45,4 @@ abstract class AbstractCURLRequestTest extends AbstractTestCase {
         $this->configuration = new CURLConfiguration();
         $this->configuration->setHost("https://webeweb.fr/");
     }
-
 }

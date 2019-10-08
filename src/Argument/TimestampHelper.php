@@ -33,5 +33,4 @@ class TimestampHelper {
             throw new TimestampArgumentException($value);
         }
     }
-
 }

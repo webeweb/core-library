@@ -242,5 +242,4 @@ class ObjectHelperTest extends AbstractTestCase {
         $this->assertEquals("date-time-zone-helper-test", ObjectHelper::urlEncodeShortName(DateTimeZoneHelperTest::class));
         $this->assertEquals("object-helper-test", ObjectHelper::urlEncodeShortName($this));
     }
-
 }

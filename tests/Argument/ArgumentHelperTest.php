@@ -415,5 +415,4 @@ class ArgumentHelperTest extends AbstractTestCase {
             $this->assertEquals("The argument \"\" is not a timestamp", $ex->getMessage());
         }
     }
-
 }

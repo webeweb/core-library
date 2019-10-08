@@ -57,5 +57,4 @@ class VehiculeMakChoicesTest extends AbstractTestCase {
         ];
         $this->assertEquals($res, VehiculeMarkChoices::getChoices());
     }
-
 }

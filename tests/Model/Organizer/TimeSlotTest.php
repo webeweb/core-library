@@ -211,5 +211,4 @@ class TimeSlotTest extends AbstractTestCase {
         $this->assertSame($obj, $obj->removeTimeSlot($arg));
         $this->assertCount(0, $obj->getTimeSlots());
     }
-
 }

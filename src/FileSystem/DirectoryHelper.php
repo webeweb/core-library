@@ -73,5 +73,4 @@ class DirectoryHelper {
     public static function rename($oldDirname, $newDirname) {
         return FileHelper::rename($oldDirname, $newDirname);
     }
-
 }

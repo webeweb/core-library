@@ -38,5 +38,4 @@ class AccountAlreadyExistsExceptionTest extends AbstractTestCase {
         $res = "This account [101:Bank/Cash at bank] already exists";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

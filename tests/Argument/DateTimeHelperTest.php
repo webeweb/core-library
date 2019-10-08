@@ -315,5 +315,4 @@ class DateTimeHelperTest extends AbstractTestCase {
             $this->assertEquals($arg[$i]->format("l, Y-m-d"), DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d"), "de"));
         }
     }
-
 }

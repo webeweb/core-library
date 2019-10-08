@@ -56,5 +56,4 @@ class LuhnAlgorithmHelper {
         // Return.
         return 0 === $sum % 10;
     }
-
 }

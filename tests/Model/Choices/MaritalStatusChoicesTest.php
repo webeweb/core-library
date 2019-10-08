@@ -39,5 +39,4 @@ class MaritalStatusChoicesTest extends AbstractTestCase {
         ];
         $this->assertEquals($res, MaritalStatusChoices::getChoices());
     }
-
 }

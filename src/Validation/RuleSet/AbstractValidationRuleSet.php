@@ -90,5 +90,4 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
         }
         return $result;
     }
-
 }

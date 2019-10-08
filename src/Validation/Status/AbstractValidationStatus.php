@@ -130,5 +130,4 @@ abstract class AbstractValidationStatus implements JsonSerializable, ValidationS
         // Return the output.
         return $output;
     }
-
 }

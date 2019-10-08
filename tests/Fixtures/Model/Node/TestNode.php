@@ -29,5 +29,4 @@ class TestNode extends AbstractNode {
     public function __construct($id) {
         parent::__construct($id);
     }
-
 }

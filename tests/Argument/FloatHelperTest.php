@@ -73,5 +73,4 @@ class FloatHelperTest extends AbstractTestCase {
             $this->assertEquals("The argument \"exception\" is not a float", $ex->getMessage());
         }
     }
-
 }

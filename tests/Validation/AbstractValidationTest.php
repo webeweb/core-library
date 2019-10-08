@@ -53,5 +53,4 @@ abstract class AbstractValidationTest extends AbstractTestCase {
         $this->ruleSet = new DefaultValidationRuleSet();
         $this->ruleSet->addRule($this->rule);
     }
-
 }

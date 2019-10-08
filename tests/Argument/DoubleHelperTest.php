@@ -73,5 +73,4 @@ class DoubleHelperTest extends AbstractTestCase {
             $this->assertEquals("The argument \"exception\" is not a double", $ex->getMessage());
         }
     }
-
 }

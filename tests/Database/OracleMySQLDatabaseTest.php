@@ -54,5 +54,4 @@ class OracleMySQLDatabaseTest extends AbstractDatabaseTest {
             $this->assertNotEmpty($ex->getMessage());
         }
     }
-
 }

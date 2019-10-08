@@ -37,5 +37,4 @@ class CivilityChoicesTest extends AbstractTestCase {
         ];
         $this->assertEquals($res, CivilityChoices::getChoices());
     }
-
 }

@@ -99,5 +99,4 @@ class AlphabeticalTreeSort {
     public function sort() {
         usort($this->nodes, [$this, "compare"]);
     }
-
 }

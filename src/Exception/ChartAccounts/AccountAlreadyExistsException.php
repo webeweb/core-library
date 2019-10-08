@@ -29,5 +29,4 @@ class AccountAlreadyExistsException extends AbstractChartAccountsException {
     public function __construct(ChartAccountsAccount $account) {
         parent::__construct(sprintf("This account [%s:%s] already exists", $account->getNumber(), $account->getLabel()));
     }
-
 }

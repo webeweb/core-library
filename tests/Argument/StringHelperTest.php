@@ -125,5 +125,4 @@ class StringHelperTest extends AbstractTestCase {
         $this->assertEquals("Hello %world% !", StringHelper::replace("Hello %name% !", ["name"], ["world"]));
         $this->assertEquals("Hello world !", StringHelper::replace("Hello %name% !", ["%name%"], ["world"]));
     }
-
 }

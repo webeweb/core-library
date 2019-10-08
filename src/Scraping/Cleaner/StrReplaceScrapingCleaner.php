@@ -93,5 +93,4 @@ class StrReplaceScrapingCleaner {
         $this->searches = $searches;
         return $this;
     }
-
 }

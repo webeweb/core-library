@@ -67,5 +67,4 @@ class RedirectResponseException extends AbstractCoreException {
     public function getRoute() {
         return $this->route;
     }
-
 }

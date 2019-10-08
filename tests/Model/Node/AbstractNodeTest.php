@@ -165,5 +165,4 @@ class AbstractNodeTest extends AbstractTestCase {
         $this->assertSame($obj, $obj->addNode($add));
         $this->assertEquals(1, $obj->size());
     }
-
 }

@@ -34,5 +34,4 @@ class FTPExceptionTest extends AbstractTestCase {
         $res = "exception";
         $this->assertEquals($res, $obj->getMessage());
     }
-
 }

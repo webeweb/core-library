@@ -177,5 +177,4 @@ class CURLResponse implements CURLResponseInterface {
         $this->responseInfo = $responseInfo;
         return $this;
     }
-
 }

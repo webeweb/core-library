@@ -50,5 +50,4 @@ class FloatHelper {
         }
         return floatval($value);
     }
-
 }

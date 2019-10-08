@@ -267,5 +267,4 @@ class FileHelper implements FileInterface {
             }
         }
     }
-
 }

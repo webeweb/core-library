@@ -27,5 +27,4 @@ class CURLInvalidArgumentException extends AbstractCURLException {
     public function __construct($message) {
         parent::__construct($message);
     }
-
 }

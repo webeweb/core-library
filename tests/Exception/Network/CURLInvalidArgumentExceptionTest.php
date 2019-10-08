@@ -34,5 +34,4 @@ class CURLInvalidArgumentExceptionTest extends AbstractTestCase {
         $res = "exception";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

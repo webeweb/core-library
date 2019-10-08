@@ -59,5 +59,4 @@ class MicrosoftSQLServerDatabase extends AbstractDatabase {
         // Return the connection.
         return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword());
     }
-
 }

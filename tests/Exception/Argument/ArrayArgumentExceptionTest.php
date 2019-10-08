@@ -34,5 +34,4 @@ class ArrayArgumentExceptionTest extends AbstractTestCase {
         $res = "The argument \"exception\" is not an array";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

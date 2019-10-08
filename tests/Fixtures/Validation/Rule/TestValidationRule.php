@@ -40,5 +40,4 @@ class TestValidationRule extends AbstractValidationRule {
         }
         return $status;
     }
-
 }

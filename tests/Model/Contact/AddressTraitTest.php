@@ -129,5 +129,4 @@ class AddressTraitTest extends AbstractTestCase {
         $this->address->setPostalCode("postalCode");
         $this->assertEquals("postalCode", $this->address->getPostalCode());
     }
-
 }

@@ -30,5 +30,4 @@ class CURLGetRequest extends AbstractCURLRequest {
     public function __construct(CURLConfiguration $configuration, $resourcePath) {
         parent::__construct(self::HTTP_METHOD_GET, $configuration, $resourcePath);
     }
-
 }

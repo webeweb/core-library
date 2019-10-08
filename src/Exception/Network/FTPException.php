@@ -29,5 +29,4 @@ class FTPException extends IOException {
     public function __construct($message) {
         parent::__construct($message);
     }
-
 }

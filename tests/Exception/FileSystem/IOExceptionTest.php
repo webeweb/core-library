@@ -34,5 +34,4 @@ class IOExceptionTest extends AbstractTestCase {
         $res = "exception";
         $this->assertEquals($res, $ex->getMessage());
     }
-
 }

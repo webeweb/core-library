@@ -30,5 +30,4 @@ class FileNotFoundException extends IOException {
     public function __construct($filename, Exception $previous = null) {
         parent::__construct(sprintf("The file \"%s\" is not found", $filename), $previous);
     }
-
 }

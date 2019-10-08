@@ -29,5 +29,4 @@ class DefaultValidator extends AbstractValidator {
     public function __construct(ValidationRuleSetInterface $ruleSet) {
         parent::__construct($ruleSet);
     }
-
 }

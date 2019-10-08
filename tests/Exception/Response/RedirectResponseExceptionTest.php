@@ -34,5 +34,4 @@ class RedirectResponseExceptionTest extends AbstractTestCase {
         $this->assertEquals(["name" => "value"], $ex->getArguments());
         $this->assertEquals("route", $ex->getRoute());
     }
-
 }

@@ -63,5 +63,4 @@ abstract class AbstractValidator implements ValidatorInterface {
     public function validate($object) {
         return $this->ruleSet->validate($object);
     }
-
 }

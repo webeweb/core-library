@@ -813,6 +813,13 @@ class DecTVAGroupe {
     private $finExo;
 
     /**
+     * i lock.
+     *
+     * @var int
+     */
+    private $iLock;
+
+    /**
      * Lib doss.
      *
      * @var string
@@ -904,11 +911,39 @@ class DecTVAGroupe {
     private $z0121b;
 
     /**
+     * z0151b.
+     *
+     * @var float
+     */
+    private $z0151b;
+
+    /**
+     * z0207b.
+     *
+     * @var float
+     */
+    private $z0207b;
+
+    /**
+     * z0600.
+     *
+     * @var float
+     */
+    private $z0600;
+
+    /**
      * Z0705.
      *
      * @var float
      */
     private $z0705;
+
+    /**
+     * z0900b.
+     *
+     * @var float
+     */
+    private $z0900b;
 
     /**
      * Z0920b.
@@ -1042,41 +1077,6 @@ class DecTVAGroupe {
      * @var float
      */
     private $z9BTaxe;
-
-    /**
-     * i lock.
-     *
-     * @var int
-     */
-    private $iLock;
-
-    /**
-     * z0151b.
-     *
-     * @var float
-     */
-    private $z0151b;
-
-    /**
-     * z0207b.
-     *
-     * @var float
-     */
-    private $z0207b;
-
-    /**
-     * z0600.
-     *
-     * @var float
-     */
-    private $z0600;
-
-    /**
-     * z0900b.
-     *
-     * @var float
-     */
-    private $z0900b;
 
     /**
      * Constructor.

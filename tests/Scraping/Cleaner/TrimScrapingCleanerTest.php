@@ -35,5 +35,4 @@ class TrimScrapingCleanerTest extends AbstractTestCase {
         $this->assertNull($obj->clean(true));
         $this->assertEquals("string", $obj->clean(" string "));
     }
-
 }

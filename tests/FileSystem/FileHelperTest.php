@@ -359,5 +359,4 @@ class FileHelperTest extends AbstractTestCase {
             $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
         }
     }
-
 }
