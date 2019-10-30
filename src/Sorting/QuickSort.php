@@ -37,7 +37,7 @@ class QuickSort {
      * Constructor.
      *
      * @param array $values The values.
-     * @param FunctorInterface $functor The fonctor.
+     * @param FunctorInterface $functor The functor.
      */
     public function __construct(array $values, FunctorInterface $functor) {
         $this->setFunctor($functor);
@@ -45,9 +45,9 @@ class QuickSort {
     }
 
     /**
-     * Get the fonctor.
+     * Get the functor.
      *
-     * @return Functor Returns the fonctor.
+     * @return FunctorInterface Returns the functor.
      */
     public function getFunctor() {
         return $this->functor;
@@ -74,15 +74,15 @@ class QuickSort {
         $i = $min;
         $j = $max;
 
-        $pivot = $this->values[$min + ($max - $min) / 2];
+        $pivot = $this->getValues()[$min + ($max - $min) / 2];
 
         while ($i <= $j) {
 
-            while (true === $this->functor->compare($this->values[$i], $pivot)) {
+            while (true === $this->getFunctor()->compare($this->getValues()[$i], $pivot)) {
                 ++$i;
             }
 
-            while (true === $this->functor->compare($pivot, $this->values[$j])) {
+            while (true === $this->getFunctor()->compare($pivot, $this->getValues()[$j])) {
                 --$j;
             }
 
@@ -102,13 +102,13 @@ class QuickSort {
     }
 
     /**
-     * Set the fonctor.
+     * Set the functor.
      *
-     * @param FunctorInterface $fonctor The fonctor.
+     * @param FunctorInterface $functor The functor.
      * @return QuickSort Returns this quick sort.
      */
-    protected function setFunctor(FunctorInterface $fonctor) {
-        $this->functor = $fonctor;
+    protected function setFunctor(FunctorInterface $functor) {
+        $this->functor = $functor;
         return $this;
     }
 
@@ -129,7 +129,7 @@ class QuickSort {
      * @return void
      */
     public function sort() {
-        $this->quickSort(0, count($this->values) - 1);
+        $this->quickSort(0, count($this->getValues()) - 1);
     }
 
     /**
@@ -140,8 +140,9 @@ class QuickSort {
      * @return void
      */
     private function swap($a, $b) {
-        $value            = $this->values[$a];
-        $this->values[$a] = $this->values[$b];
+        $value = $this->getValues()[$a];
+
+        $this->values[$a] = $this->getValues()[$b];
         $this->values[$b] = $value;
     }
 }

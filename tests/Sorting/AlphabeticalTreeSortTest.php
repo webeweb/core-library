@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Sorting;
 
-use WBW\Library\Core\Model\Sorting\AlphabeticalTreeNodeInterface;
+use WBW\Library\Core\Sorting\AlphabeticalTreeNodeInterface;
 use WBW\Library\Core\Sorting\AlphabeticalTreeSort;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;

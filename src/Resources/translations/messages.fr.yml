@@ -9,7 +9,7 @@ choices:
         divorced: "Divorcée/divorcé"
         empty:    "Non renseignée"
         married:  "Mariée/marié"
-        pacs:     "PACSé"
+        pacs:     "PACSÉ"
         single:   "Célibataire"
         widower:  "Veuve/veuf"
 

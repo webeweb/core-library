@@ -335,7 +335,7 @@ class Customer {
     /**
      * Set the begin date.
      *
-     * @param DateTime $beginDate The begin date.
+     * @param DateTime|null $beginDate The begin date.
      * @return Customer Returns this customer entity.
      */
     public function setBeginDate(DateTime $beginDate = null) {
@@ -500,7 +500,7 @@ class Customer {
     /**
      * Set the termination date.
      *
-     * @param DateTime $terminationDate The termination date.
+     * @param DateTime|null $terminationDate The termination date.
      * @return Customer Returns this customer entity.
      */
     public function setTerminationDate(DateTime $terminationDate = null) {

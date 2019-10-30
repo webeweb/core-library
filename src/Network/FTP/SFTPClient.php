@@ -134,7 +134,6 @@ class SFTPClient extends AbstractFTPClient {
      * @param string $localFile The local file.
      * @param string $remoteFile The remote file.
      * @return SFTPClient Returns this SFTP client.
-     * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */
     public function put($localFile, $remoteFile) {
         $stream = fopen("ssh2.sftp://" . intval($this->getSFTP()) . $remoteFile, "w");

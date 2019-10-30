@@ -20,7 +20,7 @@ namespace WBW\Library\Core\Sorting;
 class AlphabeticalTreeSort {
 
     /**
-     * Nodee.
+     * Nodes.
      *
      * @var AlphabeticalTreeNodeInterface[]
      */
@@ -47,27 +47,21 @@ class AlphabeticalTreeSort {
      */
     protected function compare(AlphabeticalTreeNodeInterface $a, AlphabeticalTreeNodeInterface $b) {
 
-        // Get the paths.
         $pathA = AlphabeticalTreeNodeHelper::getPath($a);
         $pathB = AlphabeticalTreeNodeHelper::getPath($b);
 
-        // Count the path.
         $count = count($pathA);
 
-        // Handle each path.
         for ($i = 0; $i < $count; ++$i) {
 
-            // Get the items.
             $itemA = $pathA[$i];
             $itemB = true === isset($pathB[$i]) ? $pathB[$i] : null;
 
-            // Compare the items.
             if ($itemA !== $itemB) {
                 return null !== $itemB ? strcasecmp($itemA->getAlphabeticalTreeNodeLabel(), $itemB->getAlphabeticalTreeNodeLabel()) : 1;
             }
         }
 
-        // Return.
         return 0;
     }
 
@@ -94,9 +88,10 @@ class AlphabeticalTreeSort {
     /**
      * Sort.
      *
-     * @return void
+     * @return AlphabeticalTreeSort Returns this alphabetical tree sort.
      */
     public function sort() {
         usort($this->nodes, [$this, "compare"]);
+        return $this;
     }
 }

@@ -86,7 +86,8 @@ class CardParser extends AbstractParser {
     public function parseLine($line) {
 
         $data = explode(";", $line);
-        $i    = -1;
+
+        $i = -1;
 
         $model = new Card();
         $model->setTicketNumber($this->decodeString($data[++$i]));

@@ -69,7 +69,7 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
      * Set the rules.
      *
      * @param ValidationRuleInterface[] $rules The rules.
-     * @return ValidatuionRuleSetInterface Returns this validation rule set.
+     * @return ValidationRuleSetInterface Returns this validation rule set.
      */
     public function setRules(array $rules) {
         $this->rules = $rules;
@@ -80,14 +80,19 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
      * {@inheritdoc}
      */
     public function validate($object) {
+
         $result = [];
+
         foreach ($this->rules as $current) {
+
             $status = $current->validate($object);
             if (null === $status->getRuleName()) {
                 $status->setRuleName($current->getName());
             }
+
             $result [] = $status;
         }
+
         return $result;
     }
 }

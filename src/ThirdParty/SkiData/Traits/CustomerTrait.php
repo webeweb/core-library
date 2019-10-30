@@ -56,7 +56,7 @@ trait CustomerTrait {
     private $email;
 
     /**
-     * Firstname.
+     * First name.
      *
      * @var string
      */
@@ -225,7 +225,7 @@ trait CustomerTrait {
     /**
      * Set the date/time of last modification.
      *
-     * @param DateTime $datetimeLastModification The date/time of last modification.
+     * @param DateTime|null $datetimeLastModification The date/time of last modification.
      */
     public function setDatetimeLastModification(DateTime $datetimeLastModification = null) {
         $this->datetimeLastModification = $datetimeLastModification;

@@ -87,6 +87,7 @@ class AuthenticatorTest extends AbstractTestCase {
      * Tests the setPort() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testSetPort() {
 

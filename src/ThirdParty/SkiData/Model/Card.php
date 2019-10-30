@@ -543,7 +543,7 @@ class Card {
     /**
      * Set the expires.
      *
-     * @param DateTime $expires The expires.
+     * @param DateTime|null $expires The expires.
      * @return Card Returns this card entity.
      */
     public function setExpires(DateTime $expires = null) {
@@ -675,7 +675,7 @@ class Card {
     /**
      * Set the suspend period from.
      *
-     * @param DateTime $suspendPeriodFrom The suspend period from.
+     * @param DateTime|null $suspendPeriodFrom The suspend period from.
      * @return Card Returns this card entity.
      */
     public function setSuspendPeriodFrom(DateTime $suspendPeriodFrom = null) {
@@ -686,7 +686,7 @@ class Card {
     /**
      * Set the suspend period until.
      *
-     * @param DateTime $suspendPeriodUntil The suspend period until.
+     * @param DateTime|null $suspendPeriodUntil The suspend period until.
      * @return Card Returns this card entity.
      */
     public function setSuspendPeriodUntil(DateTime $suspendPeriodUntil = null) {
@@ -752,7 +752,7 @@ class Card {
     /**
      * Set the valid from.
      *
-     * @param DateTime $validFrom The valid from.
+     * @param DateTime|null $validFrom The valid from.
      * @return Card Returns this card entity.
      */
     public function setValidFrom(DateTime $validFrom = null) {

@@ -36,17 +36,16 @@ class CURLFactory implements HTTPInterface {
      *
      * @param string $method The method.
      * @param CURLConfiguration $configuration The configuration.
-     * @return CURLRequestInterface Returns this request.
+     * @param string $resourcePath The resource path.
+     * @return CURLRequestInterface Returns the cURL request.
      * @throws InvalidHTTPMethodException Throws an invalid HTTP method exception if the method is not implemented.
      */
     public static function getInstance($method, CURLConfiguration $configuration = null, $resourcePath = null) {
 
-        // Check the configuration.
         if (null === $configuration) {
             $configuration = new CURLConfiguration();
         }
 
-        // Switch into $method.
         switch ($method) {
 
             case self::HTTP_METHOD_DELETE:

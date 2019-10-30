@@ -40,8 +40,8 @@ class PasswordAuthentication {
      * @param string $password The password.
      */
     public function __construct($username, $password) {
-        $this->password = $password;
-        $this->username = $username;
+        $this->setPassword($password);
+        $this->setUsername($username);
     }
 
     /**

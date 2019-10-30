@@ -83,7 +83,8 @@ class UserParser extends AbstractParser {
     public function parseLine($line) {
 
         $data = explode(";", $line);
-        $i    = -1;
+
+        $i = -1;
 
         $model = new User();
         $model->setUserNumber(IntegerHelper::parseString($data[++$i]));

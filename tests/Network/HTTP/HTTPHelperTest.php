@@ -15,7 +15,7 @@ use WBW\Library\Core\Network\HTTP\HTTPHelper;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * HTTP utility test.
+ * HTTP helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\HTTP
@@ -23,24 +23,24 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class HTTPHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the getHTTPMethods() method.
+     * Tests the getHttpMethods() method.
      *
      * @return void
      */
-    public function testGetHTTPMethods() {
+    public function testGetHttpMethods() {
 
-        $res = HTTPHelper::getHTTPMethods();
+        $res = HTTPHelper::getHttpMethods();
         $this->assertCount(7, $res);
     }
 
     /**
-     * Tests the getHTTPStatus() method.
+     * Tests the getHttpStatus() method.
      *
      * @return void
      */
-    public function testGetHTTPStatus() {
+    public function testGetHttpStatus() {
 
-        $res = HTTPHelper::getHTTPStatus();
+        $res = HTTPHelper::getHttpStatus();
         $this->assertCount(57, $res);
     }
 }

@@ -29,6 +29,7 @@ interface ValidationRuleInterface {
     /**
      * Validate.
      *
+     * @param mixed $object The object.
      * @return ValidationStatusInterface Returns the validation status.
      */
     public function validate($object);

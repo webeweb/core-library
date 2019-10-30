@@ -27,17 +27,13 @@ class AlphabeticalTreeNodeHelper {
      */
     public static function createChoices(array $choices) {
 
-        // Initialize the output.
         $output = [];
 
-        // Sort the nodes.
         $sorter = new AlphabeticalTreeSort($choices);
         $sorter->sort();
 
-        // Handle each node.
         foreach ($sorter->getNodes() as $current) {
 
-            // Get and check the path.
             $path = static::getPath($current);
             if (false === array_key_exists($path[0]->getAlphabeticalTreeNodeLabel(), $output)) {
                 $output[$current->getAlphabeticalTreeNodeLabel()] = [];
@@ -46,11 +42,9 @@ class AlphabeticalTreeNodeHelper {
                 continue;
             }
 
-            // Add the node.
             $output[$path[0]->getAlphabeticalTreeNodeLabel()][] = $current;
         }
 
-        // Return the output.
         return $output;
     }
 
@@ -72,19 +66,15 @@ class AlphabeticalTreeNodeHelper {
      */
     public static function getPath(AlphabeticalTreeNodeInterface $node) {
 
-        // Initialize the path.
         $path = [];
 
-        // Save the node.
         $current = $node;
 
-        // Handle each parent.
         do {
             array_unshift($path, $current);
             $current = $current->getAlphabeticalTreeNodeParent();
         } while (null !== $current);
 
-        // Return the path.
         return $path;
     }
 

@@ -61,7 +61,8 @@ class StartRecordFormatParser extends AbstractParser {
     public function parseLine($line) {
 
         $data = explode(";", $line);
-        $i    = -1;
+
+        $i = -1;
 
         $model = new StartRecordFormat();
         $model->setVersionRecordStructure(IntegerHelper::parseString($data[++$i]));

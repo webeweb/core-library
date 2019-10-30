@@ -38,7 +38,7 @@ interface CURLResponseInterface {
      *
      * @return string Returns the request URL.
      */
-    public function getRequestURL();
+    public function getRequestUrl();
 
     /**
      * Get the response body.

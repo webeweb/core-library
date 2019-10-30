@@ -89,7 +89,8 @@ class CustomerParser extends AbstractParser {
     public function parseLine($line) {
 
         $data = explode(";", $line);
-        $i    = -1;
+
+        $i = -1;
 
         $model = new Customer();
         $model->setCustomerNumber(IntegerHelper::parseString($data[++$i]));

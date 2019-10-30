@@ -28,15 +28,19 @@ class PaginateHelper {
      * @return int[] Returns the page offset and limit in case of success, -1 otherwise.
      */
     public static function getPageOffsetAndLimit($pageNumber, $divider, $total = -1) {
+
         if ($pageNumber < 0 || $divider < 0) {
             return -1;
         }
+
         $offset = $pageNumber * $divider;
         $limit  = $divider;
+
         if (0 <= $total && ($total < $offset || $total < ($offset + $limit))) {
             $offset = (static::getPagesCount($total, $divider) - 1) * $divider;
             $limit  = $total - $offset;
         }
+
         return [$offset, $limit];
     }
 
@@ -48,13 +52,16 @@ class PaginateHelper {
      * @return int Returns the pages count in case of success, -1 otherwise.
      */
     public static function getPagesCount($linesNumber, $divider) {
+
         if ($linesNumber < 0 || $divider < 0) {
             return -1;
         }
+
         $pagesCount = intval($linesNumber / $divider);
         if (0 < ($linesNumber % $divider)) {
             ++$pagesCount;
         }
+
         return $pagesCount;
     }
 }

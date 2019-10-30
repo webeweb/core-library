@@ -29,7 +29,7 @@ class QuickSortTest extends AbstractTestCase {
      *
      * @var FunctorInterface
      */
-    private $fonctor;
+    private $functor;
 
     /**
      * Values.
@@ -43,8 +43,8 @@ class QuickSortTest extends AbstractTestCase {
      */
     protected function setUp() {
 
-        // Set the fonctor mock.
-        $this->fonctor = new TestIntegerFunctor();
+        // Set the functor mock.
+        $this->functor = new TestIntegerFunctor();
 
         // Set the values mock.
         $this->values = [12, 98, 21, 89, 23, 87, 32, 78, 34, 76, 43, 67, 45, 65, 54, 56,];
@@ -57,9 +57,9 @@ class QuickSortTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
-        $obj = new QuickSort($this->values, $this->fonctor);
+        $obj = new QuickSort($this->values, $this->functor);
 
-        $this->assertSame($this->fonctor, $obj->getFunctor());
+        $this->assertSame($this->functor, $obj->getFunctor());
         $this->assertSame($this->values, $obj->getValues());
     }
 
@@ -70,7 +70,7 @@ class QuickSortTest extends AbstractTestCase {
      */
     public function testSort() {
 
-        $obj = new QuickSort($this->values, $this->fonctor);
+        $obj = new QuickSort($this->values, $this->functor);
 
         $obj->sort();
         $res = [12, 21, 23, 32, 34, 43, 45, 54, 56, 65, 67, 76, 78, 87, 89, 98];

@@ -81,7 +81,7 @@ class User {
     private $eTicketTypeP;
 
     /**
-     * Excess times with creadit card.
+     * Excess times with credit card.
      *
      * @var bool
      */
@@ -280,7 +280,7 @@ class User {
     /**
      * Set the date of birth.
      *
-     * @param DateTime $dateBirth The date of birth.
+     * @param DateTime|null $dateBirth The date of birth.
      * @return User Returns this user entity.
      */
     public function setDateBirth(DateTime $dateBirth = null) {
@@ -357,7 +357,7 @@ class User {
     /**
      * Set the expiry date.
      *
-     * @param DateTime $expiryDate The expiry date.
+     * @param DateTime|null $expiryDate The expiry date.
      * @return User Returns this user entity.
      */
     public function setExpiryDate(DateTime $expiryDate = null) {

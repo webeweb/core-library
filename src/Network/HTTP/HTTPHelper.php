@@ -24,7 +24,7 @@ class HTTPHelper implements HTTPInterface {
      *
      * @return array Returns the HTTP methods.
      */
-    public static function getHTTPMethods() {
+    public static function getHttpMethods() {
         return [
             self::HTTP_METHOD_DELETE,
             self::HTTP_METHOD_GET,
@@ -41,7 +41,7 @@ class HTTPHelper implements HTTPInterface {
      *
      * @return array Returns the HTTP status.
      */
-    public static function getHTTPStatus() {
+    public static function getHttpStatus() {
         return [
             self::HTTP_STATUS_CONTINUE,
             self::HTTP_STATUS_SWITCHING_PROTOCOLS,

@@ -30,7 +30,7 @@ use WBW\Library\Core\Network\HTTP\HTTPInterface;
 abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterface {
 
     /**
-     * Content-type application/x-www-form-urlencoded
+     * Content-Type "application/x-www-form-urlencoded".
      *
      * @var string
      */
@@ -121,38 +121,30 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      */
     public function call() {
 
-        // Define the necessary argurments.
         $curlHeaders  = $this->mergeHeaders();
         $curlPOSTData = http_build_query($this->getPostData());
 
-        //
         if (true === in_array("Content-Type: application/json", $curlHeaders)) {
             $curlPOSTData = json_encode($this->getPostData());
         }
 
-        // Initialize the URL.
         $curlURL = $this->mergeURL();
         if (0 < count($this->getQueryData())) {
             $curlURL = implode("?", [$curlURL, http_build_query($this->getQueryData())]);
         }
 
-        // Initialize cURL.
         $stream = curl_init();
 
-        // Set the connect timeout.
         if (0 < $this->getConfiguration()->getConnectTimeout()) {
             curl_setopt($stream, CURLOPT_CONNECTTIMEOUT, $this->getConfiguration()->getConnectTimeout());
         }
 
-        // Set the encoding.
         if (true === $this->getConfiguration()->getAllowEncoding()) {
             curl_setopt($stream, CURLOPT_ENCODING, "");
         }
 
-        // Set the HTTP headers.
         curl_setopt($stream, CURLOPT_HTTPHEADER, $curlHeaders);
 
-        // Set the post.
         switch ($this->getMethod()) {
 
             case self::HTTP_METHOD_DELETE:
@@ -173,7 +165,6 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
                 break;
         }
 
-        // Set the proxy.
         if (null !== $this->getConfiguration()->getProxyHost()) {
             curl_setopt($stream, CURLOPT_PROXY, $this->getConfiguration()->getProxyHost());
         }
@@ -187,37 +178,32 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
             curl_setopt($stream, CURLOPT_PROXYUSERPWD, implode(":", [$this->getConfiguration()->getProxyUsername(), $this->getConfiguration()->getProxyPassword()]));
         }
 
-        // Set the return.
         curl_setopt($stream, CURLOPT_RETURNTRANSFER, true);
 
-        // Set the SSL verification.
         if (false === $this->getConfiguration()->getSslVerification()) {
             curl_setopt($stream, CURLOPT_SSL_VERIFYHOST, 0);
             curl_setopt($stream, CURLOPT_SSL_VERIFYPEER, 0);
         }
 
-        // Set the request timeout.
         if (0 < $this->getConfiguration()->getRequestTimeout()) {
             curl_setopt($stream, CURLOPT_TIMEOUT, $this->getConfiguration()->getRequestTimeout());
         }
 
-        // Set the URL.
         curl_setopt($stream, CURLOPT_URL, $curlURL);
 
-        // Set the user agent.
         curl_setopt($stream, CURLOPT_USERAGENT, $this->getConfiguration()->getUserAgent());
 
-        // Get the HTTP response headers.
         curl_setopt($stream, CURLOPT_HEADER, 1);
 
-        // Set the verbose.
         if (true === $this->getConfiguration()->getDebug()) {
+
             curl_setopt($stream, CURLOPT_STDERR, fopen($this->getConfiguration()->getDebugFile(), "a"));
             curl_setopt($stream, CURLOPT_VERBOSE, 0);
 
             $msg = (new DateTime())->format("c") . " [DEBUG] " . $curlURL . PHP_EOL . "HTTP request body ~BEGIN~" . PHP_EOL . print_r($curlPOSTData, true) . PHP_EOL . "~END~" . PHP_EOL;
             error_log($msg, 3, $this->getConfiguration()->getDebugFile());
         } else {
+
             if (true === $this->getConfiguration()->getVerbose()) {
                 curl_setopt($stream, CURLOPT_VERBOSE, 1);
             } else {
@@ -225,20 +211,17 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
             }
         }
 
-        // Make the request.
         $curlExec     = curl_exec($stream);
         $httpHeadSize = curl_getinfo($stream, CURLINFO_HEADER_SIZE);
         $httpHead     = $this->parseheader(substr($curlExec, 0, $httpHeadSize));
         $httpBody     = substr($curlExec, $httpHeadSize);
         $curlInfo     = curl_getinfo($stream);
 
-        //
         if (true === $this->getConfiguration()->getDebug()) {
             $msg = (new DateTime())->format("c") . " [DEBUG] " . $curlURL . PHP_EOL . "HTTP response body ~BEGIN~" . PHP_EOL . print_r($httpBody, true) . PHP_EOL . "~END~" . PHP_EOL;
             error_log($msg, 3, $this->getConfiguration()->getDebugFile());
         }
 
-        // Initialize the response.
         $response = new CURLResponse();
         $response->setRequestBody($curlPOSTData);
         $response->setRequestHeader($curlHeaders);
@@ -247,27 +230,21 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
         $response->setResponseHeader($httpHead);
         $response->setResponseInfo($curlInfo);
 
-        // Check HTTP code.
         if (200 <= $curlInfo["http_code"] && $curlInfo["http_code"] <= 299) {
-
-            // Return the response.
             return $response;
         }
 
-        // Initialize the parameters.
         $cde = $curlInfo["http_code"];
         $msg = curl_errno($stream);
 
-        // Check the HTTP code.
         if (0 === $curlInfo["http_code"]) {
             if (false === empty(curl_error($stream))) {
-                $msg = "Call to " . $curlURL . " failed : " . curl_error($stream);
+                $msg = "Call to ${curlURL} failed : " . curl_error($stream);
             } else {
-                $msg = "Call to " . $curlURL . " failed, but for an unknown reason. This could happen if you are disconnected from the network.";
+                $msg = "Call to ${curlURL} failed, but for an unknown reason. This could happen if you are disconnected from the network.";
             }
         }
 
-        // Throw the exception.
         throw new CURLRequestCallException($msg, $cde, $response);
     }
 
@@ -443,7 +420,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * Set the configuration.
      *
      * @param CURLConfiguration $configuration The configuration.
-     * @return AbstractCURLRequest Returns this request.
+     * @return AbstractCURLRequest Returns this cURL request.
      */
     protected function setConfiguration(CURLConfiguration $configuration) {
         $this->configuration = $configuration;
@@ -454,7 +431,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * Set the headers.
      *
      * @param array $headers The headers.
-     * @return AbstractCURLRequest Returns this request.
+     * @return AbstractCURLRequest Returns this cURL request.
      */
     protected function setHeaders(array $headers) {
         $this->headers = $headers;
@@ -465,7 +442,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * Set the method.
      *
      * @param string $method The method.
-     * @return AbstractCURLRequest Returns this request.
+     * @return AbstractCURLRequest Returns this cURL request.
      * @throws InvalidHTTPMethodException Throws an invalid HTTP method exception if the method is not implemented.
      */
     protected function setMethod($method) {
@@ -489,7 +466,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * Set the POST data.
      *
      * @param array $postData The POST data.
-     * @return AbstractCURLRequest Returns this request.
+     * @return AbstractCURLRequest Returns this cURL request.
      */
     protected function setPostData(array $postData) {
         $this->postData = $postData;
@@ -500,7 +477,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * Set the query data.
      *
      * @param array $queryData The query data.
-     * @return AbstractCURLRequest Returns this request.
+     * @return AbstractCURLRequest Returns this cURL request.
      */
     protected function setQueryData(array $queryData) {
         $this->queryData = $queryData;

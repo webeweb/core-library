@@ -122,7 +122,7 @@ class StartRecordFormat {
     /**
      * Set the date of file.
      *
-     * @param DateTime $dateFile The date of file.
+     * @param DateTime|null $dateFile The date of file.
      * @return StartRecordFormat Returns this start record format entity.
      */
     public function setDateFile(DateTime $dateFile = null) {

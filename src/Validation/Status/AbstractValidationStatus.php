@@ -80,7 +80,11 @@ abstract class AbstractValidationStatus implements JsonSerializable, ValidationS
      * {@inheritdoc}
      */
     public function jsonSerialize() {
-        return $this->toArray();
+        return [
+            "code"     => $this->getCode(),
+            "message"  => $this->getMessage(),
+            "ruleName" => $this->getRuleName(),
+        ];
     }
 
     /**
@@ -111,23 +115,5 @@ abstract class AbstractValidationStatus implements JsonSerializable, ValidationS
     public function setRuleName($ruleName) {
         $this->ruleName = $ruleName;
         return $this;
-    }
-
-    /**
-     * Convert into an array representing this instance.
-     *
-     * @return array Returns an array representing this instance.
-     */
-    public function toArray() {
-
-        // Initialize the output.
-        $output = [];
-
-        $output["code"]     = $this->code;
-        $output["message"]  = $this->message;
-        $output["ruleName"] = $this->ruleName;
-
-        // Return the output.
-        return $output;
     }
 }

@@ -40,7 +40,7 @@ class CURLResponse implements CURLResponseInterface {
      *
      * @var string
      */
-    private $requestURL;
+    private $requestUrl;
 
     /**
      * Response body.
@@ -87,8 +87,8 @@ class CURLResponse implements CURLResponseInterface {
     /**
      * {@inheritdoc}
      */
-    public function getRequestURL() {
-        return $this->requestURL;
+    public function getRequestUrl() {
+        return $this->requestUrl;
     }
 
     /**
@@ -137,11 +137,11 @@ class CURLResponse implements CURLResponseInterface {
     /**
      * Set the request URL.
      *
-     * @param string $requestURL The request URL.
+     * @param string $requestUrl The request URL.
      * @return CURLResponse Returns this CURL response.
      */
-    public function setRequestURL($requestURL) {
-        $this->requestURL = $requestURL;
+    public function setRequestUrl($requestUrl) {
+        $this->requestUrl = $requestUrl;
         return $this;
     }
 

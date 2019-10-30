@@ -44,7 +44,7 @@ abstract class AbstractParser implements ParserInterface {
      * Decode a date string.
      *
      * @param string $str The string.
-     * @return DateTime Returns the decoded string into DateTime.
+     * @return DateTime|null Returns the decoded string into DateTime in case of success, null otherwise.
      */
     protected function decodeDate($str) {
         $date = DateTime::createFromFormat("!" . self::DATE_FORMAT, $str);
@@ -55,7 +55,7 @@ abstract class AbstractParser implements ParserInterface {
      * Decode a datetime string.
      *
      * @param string $str The string.
-     * @return DateTime Returns the decoded string into DateTime.
+     * @return DateTime|null Returns the decoded string into DateTime in case of success, null otherwise.
      */
     protected function decodeDateTime($str) {
         $date = DateTime::createFromFormat(self::DATETIME_FORMAT, $str);
@@ -111,7 +111,7 @@ abstract class AbstractParser implements ParserInterface {
      * @throws TooLongDataException Throws a too long data exception if the value exceeds the length.
      */
     protected function encodeInteger($value, $length) {
-        $format = "%'.0" . $length . "d";
+        $format = "%'.0${length}d";
         $output = null === $value ? "" : sprintf($format, $value);
         if ($length < strlen($output)) {
             throw new TooLongDataException($value, $length);

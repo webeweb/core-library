@@ -66,7 +66,7 @@ trait CardTrait {
     /**
      * Set the blocked as of date.
      *
-     * @param DateTime $blockedDate The blocked as of date.
+     * @param DateTime|null $blockedDate The blocked as of date.
      */
     public function setBlockedDate(DateTime $blockedDate = null) {
         $this->blockedDate = $blockedDate;

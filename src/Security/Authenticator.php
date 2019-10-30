@@ -134,7 +134,7 @@ class Authenticator {
     }
 
     /**
-     * Set the shceme.
+     * Set the scheme.
      *
      * @param string $scheme The scheme.
      * @return Authenticator Returns this authenticator.
