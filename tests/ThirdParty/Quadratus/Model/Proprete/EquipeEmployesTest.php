@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\EquipeEmployes;
 
 /**
- * Equipe employes model test.
+ * Equipe employes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -33,31 +33,5 @@ class EquipeEmployesTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeEmploye());
         $this->assertNull($obj->getCodeEquipe());
-    }
-
-    /**
-     * Tests the setCodeEmploye() method.
-     *
-     * @return void
-     */
-    public function testSetCodeEmploye() {
-
-        $obj = new EquipeEmployes();
-
-        $obj->setCodeEmploye("codeEmploye");
-        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-    }
-
-    /**
-     * Tests the setCodeEquipe() method.
-     *
-     * @return void
-     */
-    public function testSetCodeEquipe() {
-
-        $obj = new EquipeEmployes();
-
-        $obj->setCodeEquipe("codeEquipe");
-        $this->assertEquals("codeEquipe", $obj->getCodeEquipe());
     }
 }

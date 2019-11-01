@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArtVarDepot;
 
 /**
- * Art var depot model test.
+ * Art var depot test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -40,122 +40,5 @@ class ArtVarDepotTest extends AbstractTestCase {
         $this->assertNull($obj->getQteStockMini());
         $this->assertNull($obj->getQteStockReel());
         $this->assertNull($obj->getQteStockReserve());
-    }
-
-    /**
-     * Tests the setAlleeCasier() method.
-     *
-     * @return void
-     */
-    public function testSetAlleeCasier() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setAlleeCasier("alleeCasier");
-        $this->assertEquals("alleeCasier", $obj->getAlleeCasier());
-    }
-
-    /**
-     * Tests the setCodeArticle() method.
-     *
-     * @return void
-     */
-    public function testSetCodeArticle() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setCodeArticle("codeArticle");
-        $this->assertEquals("codeArticle", $obj->getCodeArticle());
-    }
-
-    /**
-     * Tests the setCodeDepot() method.
-     *
-     * @return void
-     */
-    public function testSetCodeDepot() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setCodeDepot("codeDepot");
-        $this->assertEquals("codeDepot", $obj->getCodeDepot());
-    }
-
-    /**
-     * Tests the setCodeVariante() method.
-     *
-     * @return void
-     */
-    public function testSetCodeVariante() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setCodeVariante("codeVariante");
-        $this->assertEquals("codeVariante", $obj->getCodeVariante());
-    }
-
-    /**
-     * Tests the setQteStockAttente() method.
-     *
-     * @return void
-     */
-    public function testSetQteStockAttente() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setQteStockAttente(10.092018);
-        $this->assertEquals(10.092018, $obj->getQteStockAttente());
-    }
-
-    /**
-     * Tests the setQteStockMaxi() method.
-     *
-     * @return void
-     */
-    public function testSetQteStockMaxi() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setQteStockMaxi(10.092018);
-        $this->assertEquals(10.092018, $obj->getQteStockMaxi());
-    }
-
-    /**
-     * Tests the setQteStockMini() method.
-     *
-     * @return void
-     */
-    public function testSetQteStockMini() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setQteStockMini(10.092018);
-        $this->assertEquals(10.092018, $obj->getQteStockMini());
-    }
-
-    /**
-     * Tests the setQteStockReel() method.
-     *
-     * @return void
-     */
-    public function testSetQteStockReel() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setQteStockReel(10.092018);
-        $this->assertEquals(10.092018, $obj->getQteStockReel());
-    }
-
-    /**
-     * Tests the setQteStockReserve() method.
-     *
-     * @return void
-     */
-    public function testSetQteStockReserve() {
-
-        $obj = new ArtVarDepot();
-
-        $obj->setQteStockReserve(10.092018);
-        $this->assertEquals(10.092018, $obj->getQteStockReserve());
     }
 }

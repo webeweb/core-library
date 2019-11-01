@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TempsPrevisionnels;
 
 /**
- * Temps previsionnels model test.
+ * Temps previsionnels test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -37,83 +37,5 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeTache());
         $this->assertNull($obj->getCoutHoraire());
         $this->assertNull($obj->getNbHeures());
-    }
-
-    /**
-     * Tests the setCodeAffaire() method.
-     *
-     * @return void
-     */
-    public function testSetCodeAffaire() {
-
-        $obj = new TempsPrevisionnels();
-
-        $obj->setCodeAffaire("codeAffaire");
-        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-    }
-
-    /**
-     * Tests the setCodeAvenant() method.
-     *
-     * @return void
-     */
-    public function testSetCodeAvenant() {
-
-        $obj = new TempsPrevisionnels();
-
-        $obj->setCodeAvenant("codeAvenant");
-        $this->assertEquals("codeAvenant", $obj->getCodeAvenant());
-    }
-
-    /**
-     * Tests the setCodePhase() method.
-     *
-     * @return void
-     */
-    public function testSetCodePhase() {
-
-        $obj = new TempsPrevisionnels();
-
-        $obj->setCodePhase("codePhase");
-        $this->assertEquals("codePhase", $obj->getCodePhase());
-    }
-
-    /**
-     * Tests the setCodeTache() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTache() {
-
-        $obj = new TempsPrevisionnels();
-
-        $obj->setCodeTache("codeTache");
-        $this->assertEquals("codeTache", $obj->getCodeTache());
-    }
-
-    /**
-     * Tests the setCoutHoraire() method.
-     *
-     * @return void
-     */
-    public function testSetCoutHoraire() {
-
-        $obj = new TempsPrevisionnels();
-
-        $obj->setCoutHoraire(10.092018);
-        $this->assertEquals(10.092018, $obj->getCoutHoraire());
-    }
-
-    /**
-     * Tests the setNbHeures() method.
-     *
-     * @return void
-     */
-    public function testSetNbHeures() {
-
-        $obj = new TempsPrevisionnels();
-
-        $obj->setNbHeures(10.092018);
-        $this->assertEquals(10.092018, $obj->getNbHeures());
     }
 }

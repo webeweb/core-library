@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Obligations;
 
 /**
- * Obligations model test.
+ * Obligations test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -35,57 +35,5 @@ class ObligationsTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeObligation());
         $this->assertNull($obj->getFrequence());
         $this->assertNull($obj->getIntitule());
-    }
-
-    /**
-     * Tests the setCodeFamille() method.
-     *
-     * @return void
-     */
-    public function testSetCodeFamille() {
-
-        $obj = new Obligations();
-
-        $obj->setCodeFamille("codeFamille");
-        $this->assertEquals("codeFamille", $obj->getCodeFamille());
-    }
-
-    /**
-     * Tests the setCodeObligation() method.
-     *
-     * @return void
-     */
-    public function testSetCodeObligation() {
-
-        $obj = new Obligations();
-
-        $obj->setCodeObligation("codeObligation");
-        $this->assertEquals("codeObligation", $obj->getCodeObligation());
-    }
-
-    /**
-     * Tests the setFrequence() method.
-     *
-     * @return void
-     */
-    public function testSetFrequence() {
-
-        $obj = new Obligations();
-
-        $obj->setFrequence("frequence");
-        $this->assertEquals("frequence", $obj->getFrequence());
-    }
-
-    /**
-     * Tests the setIntitule() method.
-     *
-     * @return void
-     */
-    public function testSetIntitule() {
-
-        $obj = new Obligations();
-
-        $obj->setIntitule("intitule");
-        $this->assertEquals("intitule", $obj->getIntitule());
     }
 }

@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CriteresListeAffaire;
 
 /**
- * Criteres liste affaire model test.
+ * Criteres liste affaire test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class CriteresListeAffaireTest extends AbstractTestCase {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getNumLibelle());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new CriteresListeAffaire();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new CriteresListeAffaire();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
-    }
-
-    /**
-     * Tests the setNumLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetNumLibelle() {
-
-        $obj = new CriteresListeAffaire();
-
-        $obj->setNumLibelle("numLibelle");
-        $this->assertEquals("numLibelle", $obj->getNumLibelle());
     }
 }

@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\SousRepertoiresCol;
 
 /**
- * Sous repertoires col model test.
+ * Sous repertoires col test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class SousRepertoiresColTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollaborateur());
         $this->assertNull($obj->getNom());
         $this->assertNull($obj->getNumSousRep());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new SousRepertoiresCol();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setNom() method.
-     *
-     * @return void
-     */
-    public function testSetNom() {
-
-        $obj = new SousRepertoiresCol();
-
-        $obj->setNom("nom");
-        $this->assertEquals("nom", $obj->getNom());
-    }
-
-    /**
-     * Tests the setNumSousRep() method.
-     *
-     * @return void
-     */
-    public function testSetNumSousRep() {
-
-        $obj = new SousRepertoiresCol();
-
-        $obj->setNumSousRep(10);
-        $this->assertEquals(10, $obj->getNumSousRep());
     }
 }

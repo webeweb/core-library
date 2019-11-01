@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AffaireSuivi;
 
 /**
- * Affaire suivi model test.
+ * Affaire suivi test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -40,97 +38,5 @@ class AffaireSuiviTest extends AbstractTestCase {
         $this->assertNull($obj->getDateBilan());
         $this->assertNull($obj->getListeCollab());
         $this->assertNull($obj->getNbHeuresPrevisionnel());
-    }
-
-    /**
-     * Tests the setAvancement() method.
-     *
-     * @return void
-     */
-    public function testSetAvancement() {
-
-        $obj = new AffaireSuivi();
-
-        $obj->setAvancement(10.092018);
-        $this->assertEquals(10.092018, $obj->getAvancement());
-    }
-
-    /**
-     * Tests the setCodeAffaire() method.
-     *
-     * @return void
-     */
-    public function testSetCodeAffaire() {
-
-        $obj = new AffaireSuivi();
-
-        $obj->setCodeAffaire("codeAffaire");
-        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-    }
-
-    /**
-     * Tests the setCodePhase() method.
-     *
-     * @return void
-     */
-    public function testSetCodePhase() {
-
-        $obj = new AffaireSuivi();
-
-        $obj->setCodePhase("codePhase");
-        $this->assertEquals("codePhase", $obj->getCodePhase());
-    }
-
-    /**
-     * Tests the setCommentaire() method.
-     *
-     * @return void
-     */
-    public function testSetCommentaire() {
-
-        $obj = new AffaireSuivi();
-
-        $obj->setCommentaire("commentaire");
-        $this->assertEquals("commentaire", $obj->getCommentaire());
-    }
-
-    /**
-     * Tests the setDateBilan() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetDateBilan() {
-
-        $obj = new AffaireSuivi();
-
-        $obj->setDateBilan(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateBilan());
-    }
-
-    /**
-     * Tests the setListeCollab() method.
-     *
-     * @return void
-     */
-    public function testSetListeCollab() {
-
-        $obj = new AffaireSuivi();
-
-        $obj->setListeCollab("listeCollab");
-        $this->assertEquals("listeCollab", $obj->getListeCollab());
-    }
-
-    /**
-     * Tests the setNbHeuresPrevisionnel() method.
-     *
-     * @return void
-     */
-    public function testSetNbHeuresPrevisionnel() {
-
-        $obj = new AffaireSuivi();
-
-        $obj->setNbHeuresPrevisionnel(10.092018);
-        $this->assertEquals(10.092018, $obj->getNbHeuresPrevisionnel());
     }
 }

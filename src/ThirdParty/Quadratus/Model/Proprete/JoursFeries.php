@@ -11,101 +11,26 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use DateTime;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeJourTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroJfTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePaysTrait;
 
 /**
- * Jours feries model.
+ * Jours feries.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete
  */
 class JoursFeries {
 
-    /**
-     * Code pays.
-     *
-     * @var string
-     */
-    private $codePays;
-
-    /**
-     * Jour.
-     *
-     * @var DateTime
-     */
-    private $jour;
-
-    /**
-     * Numero j f.
-     *
-     * @var int
-     */
-    private $numeroJF;
+    use StringCodePaysTrait;
+    use DateTimeJourTrait;
+    use IntNumeroJfTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code pays.
-     *
-     * @return string Returns the code pays.
-     */
-    public function getCodePays() {
-        return $this->codePays;
-    }
-
-    /**
-     * Get the jour.
-     *
-     * @return DateTime Returns the jour.
-     */
-    public function getJour() {
-        return $this->jour;
-    }
-
-    /**
-     * Get the numero j f.
-     *
-     * @return int Returns the numero j f.
-     */
-    public function getNumeroJF() {
-        return $this->numeroJF;
-    }
-
-    /**
-     * Set the code pays.
-     *
-     * @param string $codePays The code pays.
-     * @return JoursFeries Returns this jours feries.
-     */
-    public function setCodePays($codePays) {
-        $this->codePays = $codePays;
-        return $this;
-    }
-
-    /**
-     * Set the jour.
-     *
-     * @param DateTime $jour The jour.
-     * @return JoursFeries Returns this jours feries.
-     */
-    public function setJour(DateTime $jour = null) {
-        $this->jour = $jour;
-        return $this;
-    }
-
-    /**
-     * Set the numero j f.
-     *
-     * @param int $numeroJF The numero j f.
-     * @return JoursFeries Returns this jours feries.
-     */
-    public function setNumeroJF($numeroJF) {
-        $this->numeroJF = $numeroJF;
-        return $this;
     }
 }

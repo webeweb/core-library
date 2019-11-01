@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CorrespondanceFamArtQFactChargesQProp;
 
 /**
- * Correspondance fam art q fact charges q prop model test.
+ * Correspondance fam art q fact charges q prop test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -33,31 +33,5 @@ class CorrespondanceFamArtQFactChargesQPropTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeCharge());
         $this->assertNull($obj->getCodeFamArt());
-    }
-
-    /**
-     * Tests the setCodeCharge() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCharge() {
-
-        $obj = new CorrespondanceFamArtQFactChargesQProp();
-
-        $obj->setCodeCharge("codeCharge");
-        $this->assertEquals("codeCharge", $obj->getCodeCharge());
-    }
-
-    /**
-     * Tests the setCodeFamArt() method.
-     *
-     * @return void
-     */
-    public function testSetCodeFamArt() {
-
-        $obj = new CorrespondanceFamArtQFactChargesQProp();
-
-        $obj->setCodeFamArt("codeFamArt");
-        $this->assertEquals("codeFamArt", $obj->getCodeFamArt());
     }
 }

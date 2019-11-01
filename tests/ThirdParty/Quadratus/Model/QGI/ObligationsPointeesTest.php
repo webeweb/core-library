@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ObligationsPointees;
 
 /**
- * Obligations pointees model test.
+ * Obligations pointees test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -38,72 +36,5 @@ class ObligationsPointeesTest extends AbstractTestCase {
         $this->assertNull($obj->getDateEffet());
         $this->assertNull($obj->getLe());
         $this->assertNull($obj->getPar());
-    }
-
-    /**
-     * Tests the setCodeClient() method.
-     *
-     * @return void
-     */
-    public function testSetCodeClient() {
-
-        $obj = new ObligationsPointees();
-
-        $obj->setCodeClient("codeClient");
-        $this->assertEquals("codeClient", $obj->getCodeClient());
-    }
-
-    /**
-     * Tests the setCodeObligation() method.
-     *
-     * @return void
-     */
-    public function testSetCodeObligation() {
-
-        $obj = new ObligationsPointees();
-
-        $obj->setCodeObligation("codeObligation");
-        $this->assertEquals("codeObligation", $obj->getCodeObligation());
-    }
-
-    /**
-     * Tests the setDateEffet() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetDateEffet() {
-
-        $obj = new ObligationsPointees();
-
-        $obj->setDateEffet(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateEffet());
-    }
-
-    /**
-     * Tests the setLe() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetLe() {
-
-        $obj = new ObligationsPointees();
-
-        $obj->setLe(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getLe());
-    }
-
-    /**
-     * Tests the setPar() method.
-     *
-     * @return void
-     */
-    public function testSetPar() {
-
-        $obj = new ObligationsPointees();
-
-        $obj->setPar("par");
-        $this->assertEquals("par", $obj->getPar());
     }
 }

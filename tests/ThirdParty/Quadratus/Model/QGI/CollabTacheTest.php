@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CollabTache;
 
 /**
- * Collab tache model test.
+ * Collab tache test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -33,73 +33,8 @@ class CollabTacheTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeCollab());
         $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getPV1());
-        $this->assertNull($obj->getPV2());
-        $this->assertNull($obj->getPV3());
-    }
-
-    /**
-     * Tests the setCodeCollab() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollab() {
-
-        $obj = new CollabTache();
-
-        $obj->setCodeCollab("codeCollab");
-        $this->assertEquals("codeCollab", $obj->getCodeCollab());
-    }
-
-    /**
-     * Tests the setCodeTache() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTache() {
-
-        $obj = new CollabTache();
-
-        $obj->setCodeTache("codeTache");
-        $this->assertEquals("codeTache", $obj->getCodeTache());
-    }
-
-    /**
-     * Tests the setPV1() method.
-     *
-     * @return void
-     */
-    public function testSetPV1() {
-
-        $obj = new CollabTache();
-
-        $obj->setPV1(10.092018);
-        $this->assertEquals(10.092018, $obj->getPV1());
-    }
-
-    /**
-     * Tests the setPV2() method.
-     *
-     * @return void
-     */
-    public function testSetPV2() {
-
-        $obj = new CollabTache();
-
-        $obj->setPV2(10.092018);
-        $this->assertEquals(10.092018, $obj->getPV2());
-    }
-
-    /**
-     * Tests the setPV3() method.
-     *
-     * @return void
-     */
-    public function testSetPV3() {
-
-        $obj = new CollabTache();
-
-        $obj->setPV3(10.092018);
-        $this->assertEquals(10.092018, $obj->getPV3());
+        $this->assertNull($obj->getPv1());
+        $this->assertNull($obj->getPv2());
+        $this->assertNull($obj->getPv3());
     }
 }

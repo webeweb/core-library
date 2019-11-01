@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AgendaGroupes;
 
 /**
- * Agenda groupes model test.
+ * Agenda groupes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class AgendaGroupesTest extends AbstractTestCase {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getCodeColl());
         $this->assertNull($obj->getLibelle());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new AgendaGroupes();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setCodeColl() method.
-     *
-     * @return void
-     */
-    public function testSetCodeColl() {
-
-        $obj = new AgendaGroupes();
-
-        $obj->setCodeColl("codeColl");
-        $this->assertEquals("codeColl", $obj->getCodeColl());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new AgendaGroupes();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
     }
 }

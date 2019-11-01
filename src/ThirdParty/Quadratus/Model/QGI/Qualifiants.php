@@ -11,153 +11,30 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolVisuAppelsTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolVisuDocumentsTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolVisuEvenementsTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntColonneTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
+
 /**
- * Qualifiants model.
+ * Qualifiants.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QGI
  */
 class Qualifiants {
 
-    /**
-     * Code.
-     *
-     * @var string
-     */
-    private $code;
-
-    /**
-     * Colonne.
-     *
-     * @var int
-     */
-    private $colonne;
-
-    /**
-     * Visu appels.
-     *
-     * @var bool
-     */
-    private $visuAppels;
-
-    /**
-     * Visu documents.
-     *
-     * @var bool
-     */
-    private $visuDocuments;
-
-    /**
-     * Visu evenements.
-     *
-     * @var bool
-     */
-    private $visuEvenements;
+    use StringCodeTrait;
+    use IntColonneTrait;
+    use BoolVisuAppelsTrait;
+    use BoolVisuDocumentsTrait;
+    use BoolVisuEvenementsTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code.
-     *
-     * @return string Returns the code.
-     */
-    public function getCode() {
-        return $this->code;
-    }
-
-    /**
-     * Get the colonne.
-     *
-     * @return int Returns the colonne.
-     */
-    public function getColonne() {
-        return $this->colonne;
-    }
-
-    /**
-     * Get the visu appels.
-     *
-     * @return bool Returns the visu appels.
-     */
-    public function getVisuAppels() {
-        return $this->visuAppels;
-    }
-
-    /**
-     * Get the visu documents.
-     *
-     * @return bool Returns the visu documents.
-     */
-    public function getVisuDocuments() {
-        return $this->visuDocuments;
-    }
-
-    /**
-     * Get the visu evenements.
-     *
-     * @return bool Returns the visu evenements.
-     */
-    public function getVisuEvenements() {
-        return $this->visuEvenements;
-    }
-
-    /**
-     * Set the code.
-     *
-     * @param string $code The code.
-     * @return Qualifiants Returns this qualifiants.
-     */
-    public function setCode($code) {
-        $this->code = $code;
-        return $this;
-    }
-
-    /**
-     * Set the colonne.
-     *
-     * @param int $colonne The colonne.
-     * @return Qualifiants Returns this qualifiants.
-     */
-    public function setColonne($colonne) {
-        $this->colonne = $colonne;
-        return $this;
-    }
-
-    /**
-     * Set the visu appels.
-     *
-     * @param bool $visuAppels The visu appels.
-     * @return Qualifiants Returns this qualifiants.
-     */
-    public function setVisuAppels($visuAppels) {
-        $this->visuAppels = $visuAppels;
-        return $this;
-    }
-
-    /**
-     * Set the visu documents.
-     *
-     * @param bool $visuDocuments The visu documents.
-     * @return Qualifiants Returns this qualifiants.
-     */
-    public function setVisuDocuments($visuDocuments) {
-        $this->visuDocuments = $visuDocuments;
-        return $this;
-    }
-
-    /**
-     * Set the visu evenements.
-     *
-     * @param bool $visuEvenements The visu evenements.
-     * @return Qualifiants Returns this qualifiants.
-     */
-    public function setVisuEvenements($visuEvenements) {
-        $this->visuEvenements = $visuEvenements;
-        return $this;
     }
 }

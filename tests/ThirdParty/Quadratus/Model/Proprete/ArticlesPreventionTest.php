@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArticlesPrevention;
 
 /**
- * Articles prevention model test.
+ * Articles prevention test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -33,31 +33,5 @@ class ArticlesPreventionTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeArticle());
         $this->assertNull($obj->getCodePrev());
-    }
-
-    /**
-     * Tests the setCodeArticle() method.
-     *
-     * @return void
-     */
-    public function testSetCodeArticle() {
-
-        $obj = new ArticlesPrevention();
-
-        $obj->setCodeArticle("codeArticle");
-        $this->assertEquals("codeArticle", $obj->getCodeArticle());
-    }
-
-    /**
-     * Tests the setCodePrev() method.
-     *
-     * @return void
-     */
-    public function testSetCodePrev() {
-
-        $obj = new ArticlesPrevention();
-
-        $obj->setCodePrev("codePrev");
-        $this->assertEquals("codePrev", $obj->getCodePrev());
     }
 }

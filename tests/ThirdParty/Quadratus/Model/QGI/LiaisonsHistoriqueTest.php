@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LiaisonsHistorique;
 
 /**
- * Liaisons historique model test.
+ * Liaisons historique test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -43,137 +41,5 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
         $this->assertNull($obj->getNumeroDossier());
         $this->assertNull($obj->getSens());
         $this->assertNull($obj->getTypeLiaison());
-    }
-
-    /**
-     * Tests the setCodeCollab() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollab() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setCodeCollab("codeCollab");
-        $this->assertEquals("codeCollab", $obj->getCodeCollab());
-    }
-
-    /**
-     * Tests the setDateLiaison() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetDateLiaison() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setDateLiaison(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateLiaison());
-    }
-
-    /**
-     * Tests the setDateRetourPrevue() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetDateRetourPrevue() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setDateRetourPrevue(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateRetourPrevue());
-    }
-
-    /**
-     * Tests the setDestinataire() method.
-     *
-     * @return void
-     */
-    public function testSetDestinataire() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setDestinataire("destinataire");
-        $this->assertEquals("destinataire", $obj->getDestinataire());
-    }
-
-    /**
-     * Tests the setModules() method.
-     *
-     * @return void
-     */
-    public function testSetModules() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setModules("modules");
-        $this->assertEquals("modules", $obj->getModules());
-    }
-
-    /**
-     * Tests the setModulesBloques() method.
-     *
-     * @return void
-     */
-    public function testSetModulesBloques() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setModulesBloques("modulesBloques");
-        $this->assertEquals("modulesBloques", $obj->getModulesBloques());
-    }
-
-    /**
-     * Tests the setNumUniq() method.
-     *
-     * @return void
-     */
-    public function testSetNumUniq() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setNumUniq(10);
-        $this->assertEquals(10, $obj->getNumUniq());
-    }
-
-    /**
-     * Tests the setNumeroDossier() method.
-     *
-     * @return void
-     */
-    public function testSetNumeroDossier() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setNumeroDossier("numeroDossier");
-        $this->assertEquals("numeroDossier", $obj->getNumeroDossier());
-    }
-
-    /**
-     * Tests the setSens() method.
-     *
-     * @return void
-     */
-    public function testSetSens() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setSens("sens");
-        $this->assertEquals("sens", $obj->getSens());
-    }
-
-    /**
-     * Tests the setTypeLiaison() method.
-     *
-     * @return void
-     */
-    public function testSetTypeLiaison() {
-
-        $obj = new LiaisonsHistorique();
-
-        $obj->setTypeLiaison("typeLiaison");
-        $this->assertEquals("typeLiaison", $obj->getTypeLiaison());
     }
 }

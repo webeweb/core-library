@@ -3,7 +3,7 @@
 /*
  * This file is part of the core-library package.
  *
- * (c) 2019 WEBEWEB
+ * (c) 2018 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\AffectationAna3;
 
 /**
- * Affectation ana3 model test.
+ * Affectation ana3 test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta
@@ -40,122 +40,5 @@ class AffectationAna3Test extends AbstractTestCase {
         $this->assertNull($obj->getQuantite1());
         $this->assertNull($obj->getQuantite2());
         $this->assertNull($obj->getSens());
-    }
-
-    /**
-     * Tests the setAnneeRecolte() method.
-     *
-     * @return void
-     */
-    public function testSetAnneeRecolte() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setAnneeRecolte("anneeRecolte");
-        $this->assertEquals("anneeRecolte", $obj->getAnneeRecolte());
-    }
-
-    /**
-     * Tests the setCodeCentre() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCentre() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setCodeCentre("codeCentre");
-        $this->assertEquals("codeCentre", $obj->getCodeCentre());
-    }
-
-    /**
-     * Tests the setCodeNature() method.
-     *
-     * @return void
-     */
-    public function testSetCodeNature() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setCodeNature("codeNature");
-        $this->assertEquals("codeNature", $obj->getCodeNature());
-    }
-
-    /**
-     * Tests the setMontant() method.
-     *
-     * @return void
-     */
-    public function testSetMontant() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setMontant(10.092018);
-        $this->assertEquals(10.092018, $obj->getMontant());
-    }
-
-    /**
-     * Tests the setNumCompte() method.
-     *
-     * @return void
-     */
-    public function testSetNumCompte() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setNumCompte("numCompte");
-        $this->assertEquals("numCompte", $obj->getNumCompte());
-    }
-
-    /**
-     * Tests the setPourcentage() method.
-     *
-     * @return void
-     */
-    public function testSetPourcentage() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setPourcentage(10.092018);
-        $this->assertEquals(10.092018, $obj->getPourcentage());
-    }
-
-    /**
-     * Tests the setQuantite1() method.
-     *
-     * @return void
-     */
-    public function testSetQuantite1() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setQuantite1(10.092018);
-        $this->assertEquals(10.092018, $obj->getQuantite1());
-    }
-
-    /**
-     * Tests the setQuantite2() method.
-     *
-     * @return void
-     */
-    public function testSetQuantite2() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setQuantite2(10.092018);
-        $this->assertEquals(10.092018, $obj->getQuantite2());
-    }
-
-    /**
-     * Tests the setSens() method.
-     *
-     * @return void
-     */
-    public function testSetSens() {
-
-        $obj = new AffectationAna3();
-
-        $obj->setSens("sens");
-        $this->assertEquals("sens", $obj->getSens());
     }
 }

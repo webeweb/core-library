@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxRetraiteEtab;
 
 /**
- * Taux retraite etab model test.
+ * Taux retraite etab test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
@@ -35,172 +33,15 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
 
         $this->assertNull($obj->getAPartirDe());
         $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getTauxRetTr2PP());
-        $this->assertNull($obj->getTauxRetTr2PS());
-        $this->assertNull($obj->getTauxRetTrAPP());
-        $this->assertNull($obj->getTauxRetTrAPS());
-        $this->assertNull($obj->getTauxRetTrBPP());
-        $this->assertNull($obj->getTauxRetTrBPS());
-        $this->assertNull($obj->getTauxRetTrCPP());
-        $this->assertNull($obj->getTauxRetTrCPS());
-        $this->assertNull($obj->getTauxRetTrDPP());
-        $this->assertNull($obj->getTauxRetTrDPS());
-    }
-
-    /**
-     * Tests the setAPartirDe() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetAPartirDe() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setAPartirDe(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getAPartirDe());
-    }
-
-    /**
-     * Tests the setCodeEtablissement() method.
-     *
-     * @return void
-     */
-    public function testSetCodeEtablissement() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setCodeEtablissement(10);
-        $this->assertEquals(10, $obj->getCodeEtablissement());
-    }
-
-    /**
-     * Tests the setTauxRetTr2PP() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTr2PP() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTr2PP(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTr2PP());
-    }
-
-    /**
-     * Tests the setTauxRetTr2PS() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTr2PS() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTr2PS(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTr2PS());
-    }
-
-    /**
-     * Tests the setTauxRetTrAPP() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTrAPP() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTrAPP(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTrAPP());
-    }
-
-    /**
-     * Tests the setTauxRetTrAPS() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTrAPS() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTrAPS(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTrAPS());
-    }
-
-    /**
-     * Tests the setTauxRetTrBPP() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTrBPP() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTrBPP(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTrBPP());
-    }
-
-    /**
-     * Tests the setTauxRetTrBPS() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTrBPS() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTrBPS(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTrBPS());
-    }
-
-    /**
-     * Tests the setTauxRetTrCPP() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTrCPP() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTrCPP(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTrCPP());
-    }
-
-    /**
-     * Tests the setTauxRetTrCPS() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTrCPS() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTrCPS(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTrCPS());
-    }
-
-    /**
-     * Tests the setTauxRetTrDPP() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTrDPP() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTrDPP(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTrDPP());
-    }
-
-    /**
-     * Tests the setTauxRetTrDPS() method.
-     *
-     * @return void
-     */
-    public function testSetTauxRetTrDPS() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $obj->setTauxRetTrDPS(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxRetTrDPS());
+        $this->assertNull($obj->getTauxRetTr2Pp());
+        $this->assertNull($obj->getTauxRetTr2Ps());
+        $this->assertNull($obj->getTauxRetTrApp());
+        $this->assertNull($obj->getTauxRetTrAps());
+        $this->assertNull($obj->getTauxRetTrBpp());
+        $this->assertNull($obj->getTauxRetTrBps());
+        $this->assertNull($obj->getTauxRetTrCpp());
+        $this->assertNull($obj->getTauxRetTrCps());
+        $this->assertNull($obj->getTauxRetTrDpp());
+        $this->assertNull($obj->getTauxRetTrDps());
     }
 }

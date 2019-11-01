@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PointageSynchroSupprime;
 
 /**
- * Pointage synchro supprime model test.
+ * Pointage synchro supprime test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -37,72 +35,6 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
         $this->assertNull($obj->getCreeParGenPrev());
         $this->assertNull($obj->getNomTable());
         $this->assertNull($obj->getTimeSuppression());
-        $this->assertNull($obj->getUniqIDSynchro());
-    }
-
-    /**
-     * Tests the setCleEnreg() method.
-     *
-     * @return void
-     */
-    public function testSetCleEnreg() {
-
-        $obj = new PointageSynchroSupprime();
-
-        $obj->setCleEnreg("cleEnreg");
-        $this->assertEquals("cleEnreg", $obj->getCleEnreg());
-    }
-
-    /**
-     * Tests the setCreeParGenPrev() method.
-     *
-     * @return void
-     */
-    public function testSetCreeParGenPrev() {
-
-        $obj = new PointageSynchroSupprime();
-
-        $obj->setCreeParGenPrev(true);
-        $this->assertEquals(true, $obj->getCreeParGenPrev());
-    }
-
-    /**
-     * Tests the setNomTable() method.
-     *
-     * @return void
-     */
-    public function testSetNomTable() {
-
-        $obj = new PointageSynchroSupprime();
-
-        $obj->setNomTable("nomTable");
-        $this->assertEquals("nomTable", $obj->getNomTable());
-    }
-
-    /**
-     * Tests the setTimeSuppression() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetTimeSuppression() {
-
-        $obj = new PointageSynchroSupprime();
-
-        $obj->setTimeSuppression(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getTimeSuppression());
-    }
-
-    /**
-     * Tests the setUniqIDSynchro() method.
-     *
-     * @return void
-     */
-    public function testSetUniqIDSynchro() {
-
-        $obj = new PointageSynchroSupprime();
-
-        $obj->setUniqIDSynchro("uniqIDSynchro");
-        $this->assertEquals("uniqIDSynchro", $obj->getUniqIDSynchro());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

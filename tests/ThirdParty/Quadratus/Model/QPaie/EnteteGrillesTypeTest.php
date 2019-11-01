@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EnteteGrillesType;
 
 /**
- * Entete grilles type model test.
+ * Entete grilles type test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
@@ -33,31 +33,5 @@ class EnteteGrillesTypeTest extends AbstractTestCase {
 
         $this->assertNull($obj->getIntitule());
         $this->assertNull($obj->getNumeroGrilleType());
-    }
-
-    /**
-     * Tests the setIntitule() method.
-     *
-     * @return void
-     */
-    public function testSetIntitule() {
-
-        $obj = new EnteteGrillesType();
-
-        $obj->setIntitule("intitule");
-        $this->assertEquals("intitule", $obj->getIntitule());
-    }
-
-    /**
-     * Tests the setNumeroGrilleType() method.
-     *
-     * @return void
-     */
-    public function testSetNumeroGrilleType() {
-
-        $obj = new EnteteGrillesType();
-
-        $obj->setNumeroGrilleType(10);
-        $this->assertEquals(10, $obj->getNumeroGrilleType());
     }
 }

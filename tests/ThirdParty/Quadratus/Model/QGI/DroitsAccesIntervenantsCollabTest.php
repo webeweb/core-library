@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\DroitsAccesIntervenantsCollab;
 
 /**
- * Droits acces intervenants collab model test.
+ * Droits acces intervenants collab test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
         $this->assertNull($obj->getAccesLibre());
         $this->assertNull($obj->getCodeCollaborateur());
         $this->assertNull($obj->getTypeIntervenant());
-    }
-
-    /**
-     * Tests the setAccesLibre() method.
-     *
-     * @return void
-     */
-    public function testSetAccesLibre() {
-
-        $obj = new DroitsAccesIntervenantsCollab();
-
-        $obj->setAccesLibre(true);
-        $this->assertEquals(true, $obj->getAccesLibre());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new DroitsAccesIntervenantsCollab();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setTypeIntervenant() method.
-     *
-     * @return void
-     */
-    public function testSetTypeIntervenant() {
-
-        $obj = new DroitsAccesIntervenantsCollab();
-
-        $obj->setTypeIntervenant("typeIntervenant");
-        $this->assertEquals("typeIntervenant", $obj->getTypeIntervenant());
     }
 }

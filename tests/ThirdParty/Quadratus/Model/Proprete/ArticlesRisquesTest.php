@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArticlesRisques;
 
 /**
- * Articles risques model test.
+ * Articles risques test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -33,31 +33,5 @@ class ArticlesRisquesTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeArticle());
         $this->assertNull($obj->getCodeRisque());
-    }
-
-    /**
-     * Tests the setCodeArticle() method.
-     *
-     * @return void
-     */
-    public function testSetCodeArticle() {
-
-        $obj = new ArticlesRisques();
-
-        $obj->setCodeArticle("codeArticle");
-        $this->assertEquals("codeArticle", $obj->getCodeArticle());
-    }
-
-    /**
-     * Tests the setCodeRisque() method.
-     *
-     * @return void
-     */
-    public function testSetCodeRisque() {
-
-        $obj = new ArticlesRisques();
-
-        $obj->setCodeRisque("codeRisque");
-        $this->assertEquals("codeRisque", $obj->getCodeRisque());
     }
 }

@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\BonInterneEntete;
 
 /**
- * Bon interne entete model test.
+ * Bon interne entete test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -38,71 +36,5 @@ class BonInterneEnteteTest extends AbstractTestCase {
         $this->assertNull($obj->getDateLivraison());
         $this->assertNull($obj->getLienDocument());
         $this->assertNull($obj->getNoBonInt());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new BonInterneEntete();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setCodeLivreur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeLivreur() {
-
-        $obj = new BonInterneEntete();
-
-        $obj->setCodeLivreur("codeLivreur");
-        $this->assertEquals("codeLivreur", $obj->getCodeLivreur());
-    }
-
-    /**
-     * Tests the setDateLivraison() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetDateLivraison() {
-
-        $obj = new BonInterneEntete();
-
-        $obj->setDateLivraison(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateLivraison());
-    }
-
-    /**
-     * Tests the setLienDocument() method.
-     *
-     * @return void
-     */
-    public function testSetLienDocument() {
-
-        $obj = new BonInterneEntete();
-
-        $obj->setLienDocument("lienDocument");
-        $this->assertEquals("lienDocument", $obj->getLienDocument());
-    }
-
-    /**
-     * Tests the setNoBonInt() method.
-     *
-     * @return void
-     */
-    public function testSetNoBonInt() {
-
-        $obj = new BonInterneEntete();
-
-        $obj->setNoBonInt("noBonInt");
-        $this->assertEquals("noBonInt", $obj->getNoBonInt());
     }
 }

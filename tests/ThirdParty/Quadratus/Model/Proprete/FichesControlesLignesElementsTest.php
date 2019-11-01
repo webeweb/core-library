@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesLignesElements;
 
 /**
- * Fiches controles lignes elements model test.
+ * Fiches controles lignes elements test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -44,149 +42,5 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
         $this->assertNull($obj->getNumeroFiche());
         $this->assertNull($obj->getNumeroNoeud());
         $this->assertNull($obj->getTypeElement());
-    }
-
-    /**
-     * Tests the setCodeAffaire() method.
-     *
-     * @return void
-     */
-    public function testSetCodeAffaire() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setCodeAffaire("codeAffaire");
-        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-    }
-
-    /**
-     * Tests the setCodeChantier() method.
-     *
-     * @return void
-     */
-    public function testSetCodeChantier() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setCodeChantier("codeChantier");
-        $this->assertEquals("codeChantier", $obj->getCodeChantier());
-    }
-
-    /**
-     * Tests the setCodeClient() method.
-     *
-     * @return void
-     */
-    public function testSetCodeClient() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setCodeClient("codeClient");
-        $this->assertEquals("codeClient", $obj->getCodeClient());
-    }
-
-    /**
-     * Tests the setCodeElement() method.
-     *
-     * @return void
-     */
-    public function testSetCodeElement() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setCodeElement("codeElement");
-        $this->assertEquals("codeElement", $obj->getCodeElement());
-    }
-
-    /**
-     * Tests the setCoefficient() method.
-     *
-     * @return void
-     */
-    public function testSetCoefficient() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setCoefficient(10.092018);
-        $this->assertEquals(10.092018, $obj->getCoefficient());
-    }
-
-    /**
-     * Tests the setMiseEnConformite() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetMiseEnConformite() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setMiseEnConformite(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getMiseEnConformite());
-    }
-
-    /**
-     * Tests the setNiveauNoeud() method.
-     *
-     * @return void
-     */
-    public function testSetNiveauNoeud() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setNiveauNoeud(10);
-        $this->assertEquals(10, $obj->getNiveauNoeud());
-    }
-
-    /**
-     * Tests the setNote() method.
-     *
-     * @return void
-     */
-    public function testSetNote() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setNote(10);
-        $this->assertEquals(10, $obj->getNote());
-    }
-
-    /**
-     * Tests the setNumeroFiche() method.
-     *
-     * @return void
-     */
-    public function testSetNumeroFiche() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setNumeroFiche(10);
-        $this->assertEquals(10, $obj->getNumeroFiche());
-    }
-
-    /**
-     * Tests the setNumeroNoeud() method.
-     *
-     * @return void
-     */
-    public function testSetNumeroNoeud() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setNumeroNoeud(10);
-        $this->assertEquals(10, $obj->getNumeroNoeud());
-    }
-
-    /**
-     * Tests the setTypeElement() method.
-     *
-     * @return void
-     */
-    public function testSetTypeElement() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $obj->setTypeElement("typeElement");
-        $this->assertEquals("typeElement", $obj->getTypeElement());
     }
 }

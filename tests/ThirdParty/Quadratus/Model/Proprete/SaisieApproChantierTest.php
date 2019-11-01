@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\SaisieApproChantier;
 
 /**
- * Saisie appro chantier model test.
+ * Saisie appro chantier test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -38,71 +36,5 @@ class SaisieApproChantierTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeClient());
         $this->assertNull($obj->getPeriode());
         $this->assertNull($obj->getPret());
-    }
-
-    /**
-     * Tests the setCodeAffaire() method.
-     *
-     * @return void
-     */
-    public function testSetCodeAffaire() {
-
-        $obj = new SaisieApproChantier();
-
-        $obj->setCodeAffaire("codeAffaire");
-        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-    }
-
-    /**
-     * Tests the setCodeChantier() method.
-     *
-     * @return void
-     */
-    public function testSetCodeChantier() {
-
-        $obj = new SaisieApproChantier();
-
-        $obj->setCodeChantier("codeChantier");
-        $this->assertEquals("codeChantier", $obj->getCodeChantier());
-    }
-
-    /**
-     * Tests the setCodeClient() method.
-     *
-     * @return void
-     */
-    public function testSetCodeClient() {
-
-        $obj = new SaisieApproChantier();
-
-        $obj->setCodeClient("codeClient");
-        $this->assertEquals("codeClient", $obj->getCodeClient());
-    }
-
-    /**
-     * Tests the setPeriode() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetPeriode() {
-
-        $obj = new SaisieApproChantier();
-
-        $obj->setPeriode(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-    }
-
-    /**
-     * Tests the setPret() method.
-     *
-     * @return void
-     */
-    public function testSetPret() {
-
-        $obj = new SaisieApproChantier();
-
-        $obj->setPret(true);
-        $this->assertEquals(true, $obj->getPret());
     }
 }

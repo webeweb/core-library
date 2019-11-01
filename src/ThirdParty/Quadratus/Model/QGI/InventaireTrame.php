@@ -11,99 +11,26 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroLigneTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrameTrait;
+
 /**
- * Inventaire trame model.
+ * Inventaire trame.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QGI
  */
 class InventaireTrame {
 
-    /**
-     * Code article.
-     *
-     * @var string
-     */
-    private $codeArticle;
-
-    /**
-     * Code trame.
-     *
-     * @var string
-     */
-    private $codeTrame;
-
-    /**
-     * Numero ligne.
-     *
-     * @var int
-     */
-    private $numeroLigne;
+    use StringCodeArticleTrait;
+    use StringCodeTrameTrait;
+    use IntNumeroLigneTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code article.
-     *
-     * @return string Returns the code article.
-     */
-    public function getCodeArticle() {
-        return $this->codeArticle;
-    }
-
-    /**
-     * Get the code trame.
-     *
-     * @return string Returns the code trame.
-     */
-    public function getCodeTrame() {
-        return $this->codeTrame;
-    }
-
-    /**
-     * Get the numero ligne.
-     *
-     * @return int Returns the numero ligne.
-     */
-    public function getNumeroLigne() {
-        return $this->numeroLigne;
-    }
-
-    /**
-     * Set the code article.
-     *
-     * @param string $codeArticle The code article.
-     * @return InventaireTrame Returns this inventaire trame.
-     */
-    public function setCodeArticle($codeArticle) {
-        $this->codeArticle = $codeArticle;
-        return $this;
-    }
-
-    /**
-     * Set the code trame.
-     *
-     * @param string $codeTrame The code trame.
-     * @return InventaireTrame Returns this inventaire trame.
-     */
-    public function setCodeTrame($codeTrame) {
-        $this->codeTrame = $codeTrame;
-        return $this;
-    }
-
-    /**
-     * Set the numero ligne.
-     *
-     * @param int $numeroLigne The numero ligne.
-     * @return InventaireTrame Returns this inventaire trame.
-     */
-    public function setNumeroLigne($numeroLigne) {
-        $this->numeroLigne = $numeroLigne;
-        return $this;
     }
 }

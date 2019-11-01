@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PrestationsRisques;
 
 /**
- * Prestations risques model test.
+ * Prestations risques test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -34,44 +34,5 @@ class PrestationsRisquesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeArticle());
         $this->assertNull($obj->getCodeTache());
         $this->assertNull($obj->getTauxExposition());
-    }
-
-    /**
-     * Tests the setCodeArticle() method.
-     *
-     * @return void
-     */
-    public function testSetCodeArticle() {
-
-        $obj = new PrestationsRisques();
-
-        $obj->setCodeArticle("codeArticle");
-        $this->assertEquals("codeArticle", $obj->getCodeArticle());
-    }
-
-    /**
-     * Tests the setCodeTache() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTache() {
-
-        $obj = new PrestationsRisques();
-
-        $obj->setCodeTache("codeTache");
-        $this->assertEquals("codeTache", $obj->getCodeTache());
-    }
-
-    /**
-     * Tests the setTauxExposition() method.
-     *
-     * @return void
-     */
-    public function testSetTauxExposition() {
-
-        $obj = new PrestationsRisques();
-
-        $obj->setTauxExposition(10.092018);
-        $this->assertEquals(10.092018, $obj->getTauxExposition());
     }
 }

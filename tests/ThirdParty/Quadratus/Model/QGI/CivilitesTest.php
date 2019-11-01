@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Civilites;
 
 /**
- * Civilites model test.
+ * Civilites test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -33,31 +33,5 @@ class CivilitesTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLibelle());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new Civilites();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new Civilites();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
     }
 }

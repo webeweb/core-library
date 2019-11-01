@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\RegroupementPostesCharges;
 
 /**
- * Regroupement postes charges model test.
+ * Regroupement postes charges test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -33,31 +33,5 @@ class RegroupementPostesChargesTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeCharge());
         $this->assertNull($obj->getCodeRegCharge());
-    }
-
-    /**
-     * Tests the setCodeCharge() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCharge() {
-
-        $obj = new RegroupementPostesCharges();
-
-        $obj->setCodeCharge("codeCharge");
-        $this->assertEquals("codeCharge", $obj->getCodeCharge());
-    }
-
-    /**
-     * Tests the setCodeRegCharge() method.
-     *
-     * @return void
-     */
-    public function testSetCodeRegCharge() {
-
-        $obj = new RegroupementPostesCharges();
-
-        $obj->setCodeRegCharge("codeRegCharge");
-        $this->assertEquals("codeRegCharge", $obj->getCodeRegCharge());
     }
 }

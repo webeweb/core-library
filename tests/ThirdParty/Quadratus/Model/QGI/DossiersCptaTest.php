@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\DossiersCpta;
 
 /**
- * Dossiers cpta model test.
+ * Dossiers cpta test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class DossiersCptaTest extends AbstractTestCase {
         $this->assertNull($obj->getCheminDossierCpta());
         $this->assertNull($obj->getNumDossierCpta());
         $this->assertNull($obj->getNumDossierFact());
-    }
-
-    /**
-     * Tests the setCheminDossierCpta() method.
-     *
-     * @return void
-     */
-    public function testSetCheminDossierCpta() {
-
-        $obj = new DossiersCpta();
-
-        $obj->setCheminDossierCpta("cheminDossierCpta");
-        $this->assertEquals("cheminDossierCpta", $obj->getCheminDossierCpta());
-    }
-
-    /**
-     * Tests the setNumDossierCpta() method.
-     *
-     * @return void
-     */
-    public function testSetNumDossierCpta() {
-
-        $obj = new DossiersCpta();
-
-        $obj->setNumDossierCpta("numDossierCpta");
-        $this->assertEquals("numDossierCpta", $obj->getNumDossierCpta());
-    }
-
-    /**
-     * Tests the setNumDossierFact() method.
-     *
-     * @return void
-     */
-    public function testSetNumDossierFact() {
-
-        $obj = new DossiersCpta();
-
-        $obj->setNumDossierFact("numDossierFact");
-        $this->assertEquals("numDossierFact", $obj->getNumDossierFact());
     }
 }

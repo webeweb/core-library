@@ -11,155 +11,30 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use DateTime;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeValideATrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeValideDeTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollabTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumiKeyTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPasswordTrait;
 
 /**
- * i collaborateurs model.
+ * i collaborateurs.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QGI
  */
 class iCollaborateurs {
 
-    /**
-     * Code collab.
-     *
-     * @var string
-     */
-    private $codeCollab;
-
-    /**
-     * Numi key.
-     *
-     * @var string
-     */
-    private $numiKey;
-
-    /**
-     * Pass word.
-     *
-     * @var string
-     */
-    private $passWord;
-
-    /**
-     * Valide a.
-     *
-     * @var DateTime
-     */
-    private $valideA;
-
-    /**
-     * Valide de.
-     *
-     * @var DateTime
-     */
-    private $valideDe;
+    use StringCodeCollabTrait;
+    use StringNumiKeyTrait;
+    use StringPasswordTrait;
+    use DateTimeValideATrait;
+    use DateTimeValideDeTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code collab.
-     *
-     * @return string Returns the code collab.
-     */
-    public function getCodeCollab() {
-        return $this->codeCollab;
-    }
-
-    /**
-     * Get the numi key.
-     *
-     * @return string Returns the numi key.
-     */
-    public function getNumiKey() {
-        return $this->numiKey;
-    }
-
-    /**
-     * Get the pass word.
-     *
-     * @return string Returns the pass word.
-     */
-    public function getPassWord() {
-        return $this->passWord;
-    }
-
-    /**
-     * Get the valide a.
-     *
-     * @return DateTime Returns the valide a.
-     */
-    public function getValideA() {
-        return $this->valideA;
-    }
-
-    /**
-     * Get the valide de.
-     *
-     * @return DateTime Returns the valide de.
-     */
-    public function getValideDe() {
-        return $this->valideDe;
-    }
-
-    /**
-     * Set the code collab.
-     *
-     * @param string $codeCollab The code collab.
-     * @return iCollaborateurs Returns this i collaborateurs.
-     */
-    public function setCodeCollab($codeCollab) {
-        $this->codeCollab = $codeCollab;
-        return $this;
-    }
-
-    /**
-     * Set the numi key.
-     *
-     * @param string $numiKey The numi key.
-     * @return iCollaborateurs Returns this i collaborateurs.
-     */
-    public function setNumiKey($numiKey) {
-        $this->numiKey = $numiKey;
-        return $this;
-    }
-
-    /**
-     * Set the pass word.
-     *
-     * @param string $passWord The pass word.
-     * @return iCollaborateurs Returns this i collaborateurs.
-     */
-    public function setPassWord($passWord) {
-        $this->passWord = $passWord;
-        return $this;
-    }
-
-    /**
-     * Set the valide a.
-     *
-     * @param DateTime $valideA The valide a.
-     * @return iCollaborateurs Returns this i collaborateurs.
-     */
-    public function setValideA(DateTime $valideA = null) {
-        $this->valideA = $valideA;
-        return $this;
-    }
-
-    /**
-     * Set the valide de.
-     *
-     * @param DateTime $valideDe The valide de.
-     * @return iCollaborateurs Returns this i collaborateurs.
-     */
-    public function setValideDe(DateTime $valideDe = null) {
-        $this->valideDe = $valideDe;
-        return $this;
     }
 }

@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HAbsPrepaPaie;
 
 /**
- * H abs prepa paie model test.
+ * H abs prepa paie test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
@@ -38,71 +36,5 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
         $this->assertNull($obj->getPeriode());
         $this->assertNull($obj->getSemaine());
         $this->assertNull($obj->getTypeAbsence());
-    }
-
-    /**
-     * Tests the setNbHNonEffectue() method.
-     *
-     * @return void
-     */
-    public function testSetNbHNonEffectue() {
-
-        $obj = new HAbsPrepaPaie();
-
-        $obj->setNbHNonEffectue(10.092018);
-        $this->assertEquals(10.092018, $obj->getNbHNonEffectue());
-    }
-
-    /**
-     * Tests the setNumeroEmploye() method.
-     *
-     * @return void
-     */
-    public function testSetNumeroEmploye() {
-
-        $obj = new HAbsPrepaPaie();
-
-        $obj->setNumeroEmploye("numeroEmploye");
-        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-    }
-
-    /**
-     * Tests the setPeriode() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetPeriode() {
-
-        $obj = new HAbsPrepaPaie();
-
-        $obj->setPeriode(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-    }
-
-    /**
-     * Tests the setSemaine() method.
-     *
-     * @return void
-     */
-    public function testSetSemaine() {
-
-        $obj = new HAbsPrepaPaie();
-
-        $obj->setSemaine("semaine");
-        $this->assertEquals("semaine", $obj->getSemaine());
-    }
-
-    /**
-     * Tests the setTypeAbsence() method.
-     *
-     * @return void
-     */
-    public function testSetTypeAbsence() {
-
-        $obj = new HAbsPrepaPaie();
-
-        $obj->setTypeAbsence("typeAbsence");
-        $this->assertEquals("typeAbsence", $obj->getTypeAbsence());
     }
 }

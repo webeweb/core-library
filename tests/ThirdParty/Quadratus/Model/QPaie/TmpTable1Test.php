@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TmpTable1;
 
 /**
- * Tmp table1 model test.
+ * Tmp table1 test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
@@ -44,149 +42,5 @@ class TmpTable1Test extends AbstractTestCase {
         $this->assertNull($obj->getType());
         $this->assertNull($obj->getValeur());
         $this->assertNull($obj->getValeurTot());
-    }
-
-    /**
-     * Tests the setClasse() method.
-     *
-     * @return void
-     */
-    public function testSetClasse() {
-
-        $obj = new TmpTable1();
-
-        $obj->setClasse("classe");
-        $this->assertEquals("classe", $obj->getClasse());
-    }
-
-    /**
-     * Tests the setCodeOrganisme() method.
-     *
-     * @return void
-     */
-    public function testSetCodeOrganisme() {
-
-        $obj = new TmpTable1();
-
-        $obj->setCodeOrganisme("codeOrganisme");
-        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-    }
-
-    /**
-     * Tests the setEtablissement() method.
-     *
-     * @return void
-     */
-    public function testSetEtablissement() {
-
-        $obj = new TmpTable1();
-
-        $obj->setEtablissement(10);
-        $this->assertEquals(10, $obj->getEtablissement());
-    }
-
-    /**
-     * Tests the setIndicePeriode() method.
-     *
-     * @return void
-     */
-    public function testSetIndicePeriode() {
-
-        $obj = new TmpTable1();
-
-        $obj->setIndicePeriode(10);
-        $this->assertEquals(10, $obj->getIndicePeriode());
-    }
-
-    /**
-     * Tests the setInverse() method.
-     *
-     * @return void
-     */
-    public function testSetInverse() {
-
-        $obj = new TmpTable1();
-
-        $obj->setInverse(true);
-        $this->assertEquals(true, $obj->getInverse());
-    }
-
-    /**
-     * Tests the setPeriode() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetPeriode() {
-
-        $obj = new TmpTable1();
-
-        $obj->setPeriode(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
-    }
-
-    /**
-     * Tests the setQui() method.
-     *
-     * @return void
-     */
-    public function testSetQui() {
-
-        $obj = new TmpTable1();
-
-        $obj->setQui(10);
-        $this->assertEquals(10, $obj->getQui());
-    }
-
-    /**
-     * Tests the setService() method.
-     *
-     * @return void
-     */
-    public function testSetService() {
-
-        $obj = new TmpTable1();
-
-        $obj->setService("service");
-        $this->assertEquals("service", $obj->getService());
-    }
-
-    /**
-     * Tests the setType() method.
-     *
-     * @return void
-     */
-    public function testSetType() {
-
-        $obj = new TmpTable1();
-
-        $obj->setType(10);
-        $this->assertEquals(10, $obj->getType());
-    }
-
-    /**
-     * Tests the setValeur() method.
-     *
-     * @return void
-     */
-    public function testSetValeur() {
-
-        $obj = new TmpTable1();
-
-        $obj->setValeur(10.092018);
-        $this->assertEquals(10.092018, $obj->getValeur());
-    }
-
-    /**
-     * Tests the setValeurTot() method.
-     *
-     * @return void
-     */
-    public function testSetValeurTot() {
-
-        $obj = new TmpTable1();
-
-        $obj->setValeurTot(10.092018);
-        $this->assertEquals(10.092018, $obj->getValeurTot());
     }
 }

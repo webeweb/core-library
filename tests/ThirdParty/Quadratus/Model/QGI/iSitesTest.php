@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\iSites;
 
 /**
- * i sites model test.
+ * i sites test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -31,33 +31,7 @@ class iSitesTest extends AbstractTestCase {
 
         $obj = new iSites();
 
-        $this->assertNull($obj->getAdresseIP());
+        $this->assertNull($obj->getAdresseIp());
         $this->assertNull($obj->getNomSite());
-    }
-
-    /**
-     * Tests the setAdresseIP() method.
-     *
-     * @return void
-     */
-    public function testSetAdresseIP() {
-
-        $obj = new iSites();
-
-        $obj->setAdresseIP("adresseIP");
-        $this->assertEquals("adresseIP", $obj->getAdresseIP());
-    }
-
-    /**
-     * Tests the setNomSite() method.
-     *
-     * @return void
-     */
-    public function testSetNomSite() {
-
-        $obj = new iSites();
-
-        $obj->setNomSite("nomSite");
-        $this->assertEquals("nomSite", $obj->getNomSite());
     }
 }

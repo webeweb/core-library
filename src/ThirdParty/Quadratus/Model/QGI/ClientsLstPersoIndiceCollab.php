@@ -11,153 +11,30 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIndiceTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntOrigineTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringChapitreTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefGuidTrait;
+
 /**
- * Clients lst perso indice collab model.
+ * Clients lst perso indice collab.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QGI
  */
 class ClientsLstPersoIndiceCollab {
 
-    /**
-     * Chapitre.
-     *
-     * @var string
-     */
-    private $chapitre;
-
-    /**
-     * Code collaborateur.
-     *
-     * @var string
-     */
-    private $codeCollaborateur;
-
-    /**
-     * Indice.
-     *
-     * @var int
-     */
-    private $indice;
-
-    /**
-     * Origine.
-     *
-     * @var int
-     */
-    private $origine;
-
-    /**
-     * Ref g u i d.
-     *
-     * @var string
-     */
-    private $refGUID;
+    use StringChapitreTrait;
+    use StringCodeCollaborateurTrait;
+    use IntIndiceTrait;
+    use IntOrigineTrait;
+    use StringRefGuidTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the chapitre.
-     *
-     * @return string Returns the chapitre.
-     */
-    public function getChapitre() {
-        return $this->chapitre;
-    }
-
-    /**
-     * Get the code collaborateur.
-     *
-     * @return string Returns the code collaborateur.
-     */
-    public function getCodeCollaborateur() {
-        return $this->codeCollaborateur;
-    }
-
-    /**
-     * Get the indice.
-     *
-     * @return int Returns the indice.
-     */
-    public function getIndice() {
-        return $this->indice;
-    }
-
-    /**
-     * Get the origine.
-     *
-     * @return int Returns the origine.
-     */
-    public function getOrigine() {
-        return $this->origine;
-    }
-
-    /**
-     * Get the ref g u i d.
-     *
-     * @return string Returns the ref g u i d.
-     */
-    public function getRefGUID() {
-        return $this->refGUID;
-    }
-
-    /**
-     * Set the chapitre.
-     *
-     * @param string $chapitre The chapitre.
-     * @return ClientsLstPersoIndiceCollab Returns this clients lst perso indice collab.
-     */
-    public function setChapitre($chapitre) {
-        $this->chapitre = $chapitre;
-        return $this;
-    }
-
-    /**
-     * Set the code collaborateur.
-     *
-     * @param string $codeCollaborateur The code collaborateur.
-     * @return ClientsLstPersoIndiceCollab Returns this clients lst perso indice collab.
-     */
-    public function setCodeCollaborateur($codeCollaborateur) {
-        $this->codeCollaborateur = $codeCollaborateur;
-        return $this;
-    }
-
-    /**
-     * Set the indice.
-     *
-     * @param int $indice The indice.
-     * @return ClientsLstPersoIndiceCollab Returns this clients lst perso indice collab.
-     */
-    public function setIndice($indice) {
-        $this->indice = $indice;
-        return $this;
-    }
-
-    /**
-     * Set the origine.
-     *
-     * @param int $origine The origine.
-     * @return ClientsLstPersoIndiceCollab Returns this clients lst perso indice collab.
-     */
-    public function setOrigine($origine) {
-        $this->origine = $origine;
-        return $this;
-    }
-
-    /**
-     * Set the ref g u i d.
-     *
-     * @param string $refGUID The ref g u i d.
-     * @return ClientsLstPersoIndiceCollab Returns this clients lst perso indice collab.
-     */
-    public function setRefGUID($refGUID) {
-        $this->refGUID = $refGUID;
-        return $this;
     }
 }

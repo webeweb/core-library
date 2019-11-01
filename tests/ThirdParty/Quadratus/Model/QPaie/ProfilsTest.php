@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Profils;
 
 /**
- * Profils model test.
+ * Profils test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
@@ -33,31 +33,5 @@ class ProfilsTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getIntitule());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new Profils();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setIntitule() method.
-     *
-     * @return void
-     */
-    public function testSetIntitule() {
-
-        $obj = new Profils();
-
-        $obj->setIntitule("intitule");
-        $this->assertEquals("intitule", $obj->getIntitule());
     }
 }

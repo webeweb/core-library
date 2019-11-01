@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CommissairesComptes;
 
 /**
- * Commissaires comptes model test.
+ * Commissaires comptes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -33,104 +31,12 @@ class CommissairesComptesTest extends AbstractTestCase {
 
         $obj = new CommissairesComptes();
 
-        $this->assertNull($obj->getCodeCAC());
+        $this->assertNull($obj->getCodeCac());
         $this->assertNull($obj->getCodeClient());
         $this->assertNull($obj->getDateNomination());
         $this->assertNull($obj->getDureeMandat());
         $this->assertNull($obj->getObservations());
         $this->assertNull($obj->getPosition());
         $this->assertNull($obj->getTitulaire());
-    }
-
-    /**
-     * Tests the setCodeCAC() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCAC() {
-
-        $obj = new CommissairesComptes();
-
-        $obj->setCodeCAC("codeCAC");
-        $this->assertEquals("codeCAC", $obj->getCodeCAC());
-    }
-
-    /**
-     * Tests the setCodeClient() method.
-     *
-     * @return void
-     */
-    public function testSetCodeClient() {
-
-        $obj = new CommissairesComptes();
-
-        $obj->setCodeClient("codeClient");
-        $this->assertEquals("codeClient", $obj->getCodeClient());
-    }
-
-    /**
-     * Tests the setDateNomination() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetDateNomination() {
-
-        $obj = new CommissairesComptes();
-
-        $obj->setDateNomination(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDateNomination());
-    }
-
-    /**
-     * Tests the setDureeMandat() method.
-     *
-     * @return void
-     */
-    public function testSetDureeMandat() {
-
-        $obj = new CommissairesComptes();
-
-        $obj->setDureeMandat(10);
-        $this->assertEquals(10, $obj->getDureeMandat());
-    }
-
-    /**
-     * Tests the setObservations() method.
-     *
-     * @return void
-     */
-    public function testSetObservations() {
-
-        $obj = new CommissairesComptes();
-
-        $obj->setObservations("observations");
-        $this->assertEquals("observations", $obj->getObservations());
-    }
-
-    /**
-     * Tests the setPosition() method.
-     *
-     * @return void
-     */
-    public function testSetPosition() {
-
-        $obj = new CommissairesComptes();
-
-        $obj->setPosition(10);
-        $this->assertEquals(10, $obj->getPosition());
-    }
-
-    /**
-     * Tests the setTitulaire() method.
-     *
-     * @return void
-     */
-    public function testSetTitulaire() {
-
-        $obj = new CommissairesComptes();
-
-        $obj->setTitulaire(true);
-        $this->assertEquals(true, $obj->getTitulaire());
     }
 }

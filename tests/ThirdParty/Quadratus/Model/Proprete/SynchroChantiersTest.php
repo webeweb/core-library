@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\SynchroChantiers;
 
 /**
- * Synchro chantiers model test.
+ * Synchro chantiers test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -35,57 +35,5 @@ class SynchroChantiersTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeChantier());
         $this->assertNull($obj->getCodeClient());
         $this->assertNull($obj->getCodeSynchro());
-    }
-
-    /**
-     * Tests the setCodeAffaire() method.
-     *
-     * @return void
-     */
-    public function testSetCodeAffaire() {
-
-        $obj = new SynchroChantiers();
-
-        $obj->setCodeAffaire("codeAffaire");
-        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
-    }
-
-    /**
-     * Tests the setCodeChantier() method.
-     *
-     * @return void
-     */
-    public function testSetCodeChantier() {
-
-        $obj = new SynchroChantiers();
-
-        $obj->setCodeChantier("codeChantier");
-        $this->assertEquals("codeChantier", $obj->getCodeChantier());
-    }
-
-    /**
-     * Tests the setCodeClient() method.
-     *
-     * @return void
-     */
-    public function testSetCodeClient() {
-
-        $obj = new SynchroChantiers();
-
-        $obj->setCodeClient("codeClient");
-        $this->assertEquals("codeClient", $obj->getCodeClient());
-    }
-
-    /**
-     * Tests the setCodeSynchro() method.
-     *
-     * @return void
-     */
-    public function testSetCodeSynchro() {
-
-        $obj = new SynchroChantiers();
-
-        $obj->setCodeSynchro("codeSynchro");
-        $this->assertEquals("codeSynchro", $obj->getCodeSynchro());
     }
 }

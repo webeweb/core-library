@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LignesProfilsActions;
 
 /**
- * Lignes profils actions model test.
+ * Lignes profils actions test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class LignesProfilsActionsTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeAction());
         $this->assertNull($obj->getCodeProfil());
         $this->assertNull($obj->getNumLigne());
-    }
-
-    /**
-     * Tests the setCodeAction() method.
-     *
-     * @return void
-     */
-    public function testSetCodeAction() {
-
-        $obj = new LignesProfilsActions();
-
-        $obj->setCodeAction("codeAction");
-        $this->assertEquals("codeAction", $obj->getCodeAction());
-    }
-
-    /**
-     * Tests the setCodeProfil() method.
-     *
-     * @return void
-     */
-    public function testSetCodeProfil() {
-
-        $obj = new LignesProfilsActions();
-
-        $obj->setCodeProfil("codeProfil");
-        $this->assertEquals("codeProfil", $obj->getCodeProfil());
-    }
-
-    /**
-     * Tests the setNumLigne() method.
-     *
-     * @return void
-     */
-    public function testSetNumLigne() {
-
-        $obj = new LignesProfilsActions();
-
-        $obj->setNumLigne(10);
-        $this->assertEquals(10, $obj->getNumLigne());
     }
 }

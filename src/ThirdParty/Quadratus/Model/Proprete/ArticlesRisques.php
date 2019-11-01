@@ -11,72 +11,24 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRisqueTrait;
+
 /**
- * Articles risques model.
+ * Articles risques.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete
  */
 class ArticlesRisques {
 
-    /**
-     * Code article.
-     *
-     * @var string
-     */
-    private $codeArticle;
-
-    /**
-     * Code risque.
-     *
-     * @var string
-     */
-    private $codeRisque;
+    use StringCodeArticleTrait;
+    use StringCodeRisqueTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code article.
-     *
-     * @return string Returns the code article.
-     */
-    public function getCodeArticle() {
-        return $this->codeArticle;
-    }
-
-    /**
-     * Get the code risque.
-     *
-     * @return string Returns the code risque.
-     */
-    public function getCodeRisque() {
-        return $this->codeRisque;
-    }
-
-    /**
-     * Set the code article.
-     *
-     * @param string $codeArticle The code article.
-     * @return ArticlesRisques Returns this articles risques.
-     */
-    public function setCodeArticle($codeArticle) {
-        $this->codeArticle = $codeArticle;
-        return $this;
-    }
-
-    /**
-     * Set the code risque.
-     *
-     * @param string $codeRisque The code risque.
-     * @return ArticlesRisques Returns this articles risques.
-     */
-    public function setCodeRisque($codeRisque) {
-        $this->codeRisque = $codeRisque;
-        return $this;
     }
 }

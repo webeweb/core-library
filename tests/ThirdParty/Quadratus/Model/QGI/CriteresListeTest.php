@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CriteresListe;
 
 /**
- * Criteres liste model test.
+ * Criteres liste test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class CriteresListeTest extends AbstractTestCase {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getNumLibelle());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new CriteresListe();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new CriteresListe();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
-    }
-
-    /**
-     * Tests the setNumLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetNumLibelle() {
-
-        $obj = new CriteresListe();
-
-        $obj->setNumLibelle("numLibelle");
-        $this->assertEquals("numLibelle", $obj->getNumLibelle());
     }
 }

@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsSelAvanceFavoris;
 
 /**
- * Clients sel avance favoris model test.
+ * Clients sel avance favoris test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -36,70 +36,5 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
         $this->assertNull($obj->getDescription());
         $this->assertNull($obj->getOrdre());
         $this->assertNull($obj->getOrigine());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new ClientsSelAvanceFavoris();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setCodeListe() method.
-     *
-     * @return void
-     */
-    public function testSetCodeListe() {
-
-        $obj = new ClientsSelAvanceFavoris();
-
-        $obj->setCodeListe("codeListe");
-        $this->assertEquals("codeListe", $obj->getCodeListe());
-    }
-
-    /**
-     * Tests the setDescription() method.
-     *
-     * @return void
-     */
-    public function testSetDescription() {
-
-        $obj = new ClientsSelAvanceFavoris();
-
-        $obj->setDescription("description");
-        $this->assertEquals("description", $obj->getDescription());
-    }
-
-    /**
-     * Tests the setOrdre() method.
-     *
-     * @return void
-     */
-    public function testSetOrdre() {
-
-        $obj = new ClientsSelAvanceFavoris();
-
-        $obj->setOrdre(10);
-        $this->assertEquals(10, $obj->getOrdre());
-    }
-
-    /**
-     * Tests the setOrigine() method.
-     *
-     * @return void
-     */
-    public function testSetOrigine() {
-
-        $obj = new ClientsSelAvanceFavoris();
-
-        $obj->setOrigine("origine");
-        $this->assertEquals("origine", $obj->getOrigine());
     }
 }

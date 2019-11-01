@@ -11,99 +11,26 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMotControleTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeTrait;
+
 /**
- * Fonctions controles model.
+ * Fonctions controles.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QGI
  */
 class FonctionsControles {
 
-    /**
-     * Intitule.
-     *
-     * @var string
-     */
-    private $intitule;
-
-    /**
-     * Mot controle.
-     *
-     * @var string
-     */
-    private $motControle;
-
-    /**
-     * Type.
-     *
-     * @var string
-     */
-    private $type;
+    use StringIntituleTrait;
+    use StringMotControleTrait;
+    use StringTypeTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the intitule.
-     *
-     * @return string Returns the intitule.
-     */
-    public function getIntitule() {
-        return $this->intitule;
-    }
-
-    /**
-     * Get the mot controle.
-     *
-     * @return string Returns the mot controle.
-     */
-    public function getMotControle() {
-        return $this->motControle;
-    }
-
-    /**
-     * Get the type.
-     *
-     * @return string Returns the type.
-     */
-    public function getType() {
-        return $this->type;
-    }
-
-    /**
-     * Set the intitule.
-     *
-     * @param string $intitule The intitule.
-     * @return FonctionsControles Returns this fonctions controles.
-     */
-    public function setIntitule($intitule) {
-        $this->intitule = $intitule;
-        return $this;
-    }
-
-    /**
-     * Set the mot controle.
-     *
-     * @param string $motControle The mot controle.
-     * @return FonctionsControles Returns this fonctions controles.
-     */
-    public function setMotControle($motControle) {
-        $this->motControle = $motControle;
-        return $this;
-    }
-
-    /**
-     * Set the type.
-     *
-     * @param string $type The type.
-     * @return FonctionsControles Returns this fonctions controles.
-     */
-    public function setType($type) {
-        $this->type = $type;
-        return $this;
     }
 }

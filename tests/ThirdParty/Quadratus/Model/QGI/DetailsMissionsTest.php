@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\DetailsMissions;
 
 /**
- * Details missions model test.
+ * Details missions test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -37,83 +37,5 @@ class DetailsMissionsTest extends AbstractTestCase {
         $this->assertNull($obj->getNiveau());
         $this->assertNull($obj->getNumLigne());
         $this->assertNull($obj->getTypeAffectation());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new DetailsMissions();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setCodeMission() method.
-     *
-     * @return void
-     */
-    public function testSetCodeMission() {
-
-        $obj = new DetailsMissions();
-
-        $obj->setCodeMission("codeMission");
-        $this->assertEquals("codeMission", $obj->getCodeMission());
-    }
-
-    /**
-     * Tests the setCodeTravail() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTravail() {
-
-        $obj = new DetailsMissions();
-
-        $obj->setCodeTravail("codeTravail");
-        $this->assertEquals("codeTravail", $obj->getCodeTravail());
-    }
-
-    /**
-     * Tests the setNiveau() method.
-     *
-     * @return void
-     */
-    public function testSetNiveau() {
-
-        $obj = new DetailsMissions();
-
-        $obj->setNiveau(10);
-        $this->assertEquals(10, $obj->getNiveau());
-    }
-
-    /**
-     * Tests the setNumLigne() method.
-     *
-     * @return void
-     */
-    public function testSetNumLigne() {
-
-        $obj = new DetailsMissions();
-
-        $obj->setNumLigne(10);
-        $this->assertEquals(10, $obj->getNumLigne());
-    }
-
-    /**
-     * Tests the setTypeAffectation() method.
-     *
-     * @return void
-     */
-    public function testSetTypeAffectation() {
-
-        $obj = new DetailsMissions();
-
-        $obj->setTypeAffectation("typeAffectation");
-        $this->assertEquals("typeAffectation", $obj->getTypeAffectation());
     }
 }

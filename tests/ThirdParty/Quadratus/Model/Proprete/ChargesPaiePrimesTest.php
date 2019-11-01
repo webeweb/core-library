@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChargesPaiePrimes;
 
 /**
- * Charges paie primes model test.
+ * Charges paie primes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -37,58 +35,5 @@ class ChargesPaiePrimesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodePrime());
         $this->assertNull($obj->getMontant());
         $this->assertNull($obj->getPeriode());
-    }
-
-    /**
-     * Tests the setCodeEmploye() method.
-     *
-     * @return void
-     */
-    public function testSetCodeEmploye() {
-
-        $obj = new ChargesPaiePrimes();
-
-        $obj->setCodeEmploye("codeEmploye");
-        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-    }
-
-    /**
-     * Tests the setCodePrime() method.
-     *
-     * @return void
-     */
-    public function testSetCodePrime() {
-
-        $obj = new ChargesPaiePrimes();
-
-        $obj->setCodePrime("codePrime");
-        $this->assertEquals("codePrime", $obj->getCodePrime());
-    }
-
-    /**
-     * Tests the setMontant() method.
-     *
-     * @return void
-     */
-    public function testSetMontant() {
-
-        $obj = new ChargesPaiePrimes();
-
-        $obj->setMontant(10.092018);
-        $this->assertEquals(10.092018, $obj->getMontant());
-    }
-
-    /**
-     * Tests the setPeriode() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetPeriode() {
-
-        $obj = new ChargesPaiePrimes();
-
-        $obj->setPeriode(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
     }
 }

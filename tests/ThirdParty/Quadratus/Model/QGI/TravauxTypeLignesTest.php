@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TravauxTypeLignes;
 
 /**
- * Travaux type lignes model test.
+ * Travaux type lignes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,100 +34,9 @@ class TravauxTypeLignesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeRepartition());
         $this->assertNull($obj->getCodeTravail());
         $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNbUO());
+        $this->assertNull($obj->getNbUo());
         $this->assertNull($obj->getNiveauLigne());
         $this->assertNull($obj->getNumeroLigne());
         $this->assertNull($obj->getPolice());
-    }
-
-    /**
-     * Tests the setCodeRepartition() method.
-     *
-     * @return void
-     */
-    public function testSetCodeRepartition() {
-
-        $obj = new TravauxTypeLignes();
-
-        $obj->setCodeRepartition("codeRepartition");
-        $this->assertEquals("codeRepartition", $obj->getCodeRepartition());
-    }
-
-    /**
-     * Tests the setCodeTravail() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTravail() {
-
-        $obj = new TravauxTypeLignes();
-
-        $obj->setCodeTravail("codeTravail");
-        $this->assertEquals("codeTravail", $obj->getCodeTravail());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new TravauxTypeLignes();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
-    }
-
-    /**
-     * Tests the setNbUO() method.
-     *
-     * @return void
-     */
-    public function testSetNbUO() {
-
-        $obj = new TravauxTypeLignes();
-
-        $obj->setNbUO(10.092018);
-        $this->assertEquals(10.092018, $obj->getNbUO());
-    }
-
-    /**
-     * Tests the setNiveauLigne() method.
-     *
-     * @return void
-     */
-    public function testSetNiveauLigne() {
-
-        $obj = new TravauxTypeLignes();
-
-        $obj->setNiveauLigne("niveauLigne");
-        $this->assertEquals("niveauLigne", $obj->getNiveauLigne());
-    }
-
-    /**
-     * Tests the setNumeroLigne() method.
-     *
-     * @return void
-     */
-    public function testSetNumeroLigne() {
-
-        $obj = new TravauxTypeLignes();
-
-        $obj->setNumeroLigne(10);
-        $this->assertEquals(10, $obj->getNumeroLigne());
-    }
-
-    /**
-     * Tests the setPolice() method.
-     *
-     * @return void
-     */
-    public function testSetPolice() {
-
-        $obj = new TravauxTypeLignes();
-
-        $obj->setPolice("police");
-        $this->assertEquals("police", $obj->getPolice());
     }
 }

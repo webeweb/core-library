@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\FonctionsControles;
 
 /**
- * Fonctions controles model test.
+ * Fonctions controles test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class FonctionsControlesTest extends AbstractTestCase {
         $this->assertNull($obj->getIntitule());
         $this->assertNull($obj->getMotControle());
         $this->assertNull($obj->getType());
-    }
-
-    /**
-     * Tests the setIntitule() method.
-     *
-     * @return void
-     */
-    public function testSetIntitule() {
-
-        $obj = new FonctionsControles();
-
-        $obj->setIntitule("intitule");
-        $this->assertEquals("intitule", $obj->getIntitule());
-    }
-
-    /**
-     * Tests the setMotControle() method.
-     *
-     * @return void
-     */
-    public function testSetMotControle() {
-
-        $obj = new FonctionsControles();
-
-        $obj->setMotControle("motControle");
-        $this->assertEquals("motControle", $obj->getMotControle());
-    }
-
-    /**
-     * Tests the setType() method.
-     *
-     * @return void
-     */
-    public function testSetType() {
-
-        $obj = new FonctionsControles();
-
-        $obj->setType("type");
-        $this->assertEquals("type", $obj->getType());
     }
 }

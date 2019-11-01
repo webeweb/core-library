@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsLstPersoIndiceCollab;
 
 /**
- * Clients lst perso indice collab model test.
+ * Clients lst perso indice collab test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -35,71 +35,6 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollaborateur());
         $this->assertNull($obj->getIndice());
         $this->assertNull($obj->getOrigine());
-        $this->assertNull($obj->getRefGUID());
-    }
-
-    /**
-     * Tests the setChapitre() method.
-     *
-     * @return void
-     */
-    public function testSetChapitre() {
-
-        $obj = new ClientsLstPersoIndiceCollab();
-
-        $obj->setChapitre("chapitre");
-        $this->assertEquals("chapitre", $obj->getChapitre());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new ClientsLstPersoIndiceCollab();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setIndice() method.
-     *
-     * @return void
-     */
-    public function testSetIndice() {
-
-        $obj = new ClientsLstPersoIndiceCollab();
-
-        $obj->setIndice(10);
-        $this->assertEquals(10, $obj->getIndice());
-    }
-
-    /**
-     * Tests the setOrigine() method.
-     *
-     * @return void
-     */
-    public function testSetOrigine() {
-
-        $obj = new ClientsLstPersoIndiceCollab();
-
-        $obj->setOrigine(10);
-        $this->assertEquals(10, $obj->getOrigine());
-    }
-
-    /**
-     * Tests the setRefGUID() method.
-     *
-     * @return void
-     */
-    public function testSetRefGUID() {
-
-        $obj = new ClientsLstPersoIndiceCollab();
-
-        $obj->setRefGUID("refGUID");
-        $this->assertEquals("refGUID", $obj->getRefGUID());
+        $this->assertNull($obj->getRefGuid());
     }
 }

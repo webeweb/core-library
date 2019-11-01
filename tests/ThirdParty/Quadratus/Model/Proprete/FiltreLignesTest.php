@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FiltreLignes;
 
 /**
- * Filtre lignes model test.
+ * Filtre lignes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -32,32 +32,6 @@ class FiltreLignesTest extends AbstractTestCase {
         $obj = new FiltreLignes();
 
         $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getUniqID());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new FiltreLignes();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setUniqID() method.
-     *
-     * @return void
-     */
-    public function testSetUniqID() {
-
-        $obj = new FiltreLignes();
-
-        $obj->setUniqID("uniqID");
-        $this->assertEquals("uniqID", $obj->getUniqID());
+        $this->assertNull($obj->getUniqId());
     }
 }

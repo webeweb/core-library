@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AccesWebAgenda;
 
 /**
- * Acces web agenda model test.
+ * Acces web agenda test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -35,57 +35,5 @@ class AccesWebAgendaTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollaborateur());
         $this->assertNull($obj->getDroitModif());
         $this->assertNull($obj->getType());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new AccesWebAgenda();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new AccesWebAgenda();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setDroitModif() method.
-     *
-     * @return void
-     */
-    public function testSetDroitModif() {
-
-        $obj = new AccesWebAgenda();
-
-        $obj->setDroitModif(true);
-        $this->assertEquals(true, $obj->getDroitModif());
-    }
-
-    /**
-     * Tests the setType() method.
-     *
-     * @return void
-     */
-    public function testSetType() {
-
-        $obj = new AccesWebAgenda();
-
-        $obj->setType("type");
-        $this->assertEquals("type", $obj->getType());
     }
 }

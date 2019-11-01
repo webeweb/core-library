@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ConstTabVentilAchat;
 
 /**
- * Const tab ventil achat model test.
+ * Const tab ventil achat test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -35,57 +35,5 @@ class ConstTabVentilAchatTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeVentilFourn());
         $this->assertNull($obj->getCompteVentil());
         $this->assertNull($obj->getLibelle());
-    }
-
-    /**
-     * Tests the setCodeVentilArticle() method.
-     *
-     * @return void
-     */
-    public function testSetCodeVentilArticle() {
-
-        $obj = new ConstTabVentilAchat();
-
-        $obj->setCodeVentilArticle("codeVentilArticle");
-        $this->assertEquals("codeVentilArticle", $obj->getCodeVentilArticle());
-    }
-
-    /**
-     * Tests the setCodeVentilFourn() method.
-     *
-     * @return void
-     */
-    public function testSetCodeVentilFourn() {
-
-        $obj = new ConstTabVentilAchat();
-
-        $obj->setCodeVentilFourn("codeVentilFourn");
-        $this->assertEquals("codeVentilFourn", $obj->getCodeVentilFourn());
-    }
-
-    /**
-     * Tests the setCompteVentil() method.
-     *
-     * @return void
-     */
-    public function testSetCompteVentil() {
-
-        $obj = new ConstTabVentilAchat();
-
-        $obj->setCompteVentil("compteVentil");
-        $this->assertEquals("compteVentil", $obj->getCompteVentil());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new ConstTabVentilAchat();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
     }
 }

@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\PaiementsEdi;
 
 /**
- * Paiements edi model test.
+ * Paiements edi test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
@@ -31,145 +31,15 @@ class PaiementsEdiTest extends AbstractTestCase {
 
         $obj = new PaiementsEdi();
 
-        $this->assertNull($obj->getBIC());
+        $this->assertNull($obj->getBic());
         $this->assertNull($obj->getCodeEtablissement());
         $this->assertNull($obj->getCodeOrganisme());
         $this->assertNull($obj->getDomBanque());
         $this->assertNull($obj->getGenererCouponPaiement());
-        $this->assertNull($obj->getIBAN());
+        $this->assertNull($obj->getIban());
         $this->assertNull($obj->getMontant());
         $this->assertNull($obj->getMontantDucsAnnuelle());
         $this->assertNull($obj->getMoyenPaiement());
         $this->assertNull($obj->getRib());
-    }
-
-    /**
-     * Tests the setBIC() method.
-     *
-     * @return void
-     */
-    public function testSetBIC() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setBIC("bIC");
-        $this->assertEquals("bIC", $obj->getBIC());
-    }
-
-    /**
-     * Tests the setCodeEtablissement() method.
-     *
-     * @return void
-     */
-    public function testSetCodeEtablissement() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setCodeEtablissement(10);
-        $this->assertEquals(10, $obj->getCodeEtablissement());
-    }
-
-    /**
-     * Tests the setCodeOrganisme() method.
-     *
-     * @return void
-     */
-    public function testSetCodeOrganisme() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setCodeOrganisme("codeOrganisme");
-        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
-    }
-
-    /**
-     * Tests the setDomBanque() method.
-     *
-     * @return void
-     */
-    public function testSetDomBanque() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setDomBanque("domBanque");
-        $this->assertEquals("domBanque", $obj->getDomBanque());
-    }
-
-    /**
-     * Tests the setGenererCouponPaiement() method.
-     *
-     * @return void
-     */
-    public function testSetGenererCouponPaiement() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setGenererCouponPaiement(true);
-        $this->assertEquals(true, $obj->getGenererCouponPaiement());
-    }
-
-    /**
-     * Tests the setIBAN() method.
-     *
-     * @return void
-     */
-    public function testSetIBAN() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setIBAN("iBAN");
-        $this->assertEquals("iBAN", $obj->getIBAN());
-    }
-
-    /**
-     * Tests the setMontant() method.
-     *
-     * @return void
-     */
-    public function testSetMontant() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setMontant(10.092018);
-        $this->assertEquals(10.092018, $obj->getMontant());
-    }
-
-    /**
-     * Tests the setMontantDucsAnnuelle() method.
-     *
-     * @return void
-     */
-    public function testSetMontantDucsAnnuelle() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setMontantDucsAnnuelle(10.092018);
-        $this->assertEquals(10.092018, $obj->getMontantDucsAnnuelle());
-    }
-
-    /**
-     * Tests the setMoyenPaiement() method.
-     *
-     * @return void
-     */
-    public function testSetMoyenPaiement() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setMoyenPaiement("moyenPaiement");
-        $this->assertEquals("moyenPaiement", $obj->getMoyenPaiement());
-    }
-
-    /**
-     * Tests the setRib() method.
-     *
-     * @return void
-     */
-    public function testSetRib() {
-
-        $obj = new PaiementsEdi();
-
-        $obj->setRib("rib");
-        $this->assertEquals("rib", $obj->getRib());
     }
 }

@@ -1,0 +1,296 @@
+<?php
+
+/*
+ * This file is part of the core-library package.
+ *
+ * (c) 2018 WEBEWEB
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
+
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolExoAgffTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCtrlNormeBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCtrlNormePrevTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCtrlNormeRetTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCtrlNormeTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDebutPeriodeDeclTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeFinPeriodeDeclTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatActionsGratuitesNbreTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatActionsGratuitesValeurUTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAncienneteBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAncienneteTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAtTauxTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAutresSommesExoMnt1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAutresSommesExoMnt2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAutresSommesExoMnt3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAutresSommesExoMnt4Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBaseExoBrut1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBaseExoBrut2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBaseExoBrut3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBaseExoPlaf1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBaseExoPlaf2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBaseExoPlaf3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDadsuNbOptionsTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDadsuPrixSouscriptOptTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDadsuValeurActionTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatEpargneSalMnt1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatEpargneSalMnt2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatEpargneSalMnt3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatEpargneSalMnt4Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatGpecMntExoCotSecuTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatGpecMntExoCsgcrdsTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatIndemnCpPlafTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatIndemnRuptureMnt1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatIndemnRuptureMnt2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbhEtabBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbhSalBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbPeriodiciteIrcantecTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatParticipPatronAvtgeMnt1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatParticipPatronAvtgeMnt2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPourcentActTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatRemunMedecinsTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatSupplFamTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntAnneePrepaTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCodeEtablissementTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroOrdreTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAtBureauTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAtEtabTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAtRisqueTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAutresSommesExoCode1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAutresSommesExoCode2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAutresSommesExoCode3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAutresSommesExoCode4Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringBtqLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringBureauDistributeurLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCategorieBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCaractTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClasseCnbfTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeContratTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeConventionColTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeDecalagePaieTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeDelegGestRisqueMaladieTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeDroitContratTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmplMultTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmploisMultTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEtatContratPrudTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeExtensionAlsaceMoselleTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeInseeLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifDebPer2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifDebPer3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifDebPer4Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifDebPer5Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifDebPerTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifFinPer2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifFinPer3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifFinPer4Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifFinPer5Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMotifFinPerTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeNatureBaseCotisationsTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeOfficielCommuneLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePostalLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegime1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegime2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegime3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegimeBaseOblAtTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegimeBaseOblMaladieTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegimeBaseOblTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegimeBaseOblVieilPatTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegimeBaseOblVieilSalTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegimeBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeStatutCategConvTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeStatutCategIrcTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeStatutCategTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeStatutProTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTypeExo1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTypeExo2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTypeExo3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCommentaireTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComplementLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDadsuConjointSalarieTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEchelonTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEmploiTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEpargneSalCode1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEpargneSalCode2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEpargneSalCode3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEpargneSalCode4Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtatCtrlNormeBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtatCtrlNormePrevTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtatCtrlNormeRetTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtatCtrlNormeTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIndemnRuptureCode1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIndemnRuptureCode2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIndiceTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNicEtabAffectationTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNiveauTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomVilleInseeLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomVilleLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomVoieLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroAdhesionBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroAffilFncTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroRattach1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroRattach2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroRattach3Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroRattachBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumVoieLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringParticipPatronAvtgeCode1Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringParticipPatronAvtgeCode2Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPeriodiciteIrcantecTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPositionTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSiretLieuTravTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringStatutCotisantBtpTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTds59Trait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeAffilBtpTrait;
+
+/**
+ * Emp dadsu param.
+ *
+ * @author webeweb <https://github.com/webeweb/>
+ * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie
+ */
+class EmpDadsuParam {
+
+    use FloatActionsGratuitesNbreTrait;
+    use FloatActionsGratuitesValeurUTrait;
+    use FloatAncienneteTrait;
+    use FloatAncienneteBtpTrait;
+    use IntAnneePrepaTrait;
+    use StringAtBureauTrait;
+    use StringAtEtabTrait;
+    use StringAtRisqueTrait;
+    use FloatAtTauxTrait;
+    use StringAutresSommesExoCode1Trait;
+    use StringAutresSommesExoCode2Trait;
+    use StringAutresSommesExoCode3Trait;
+    use StringAutresSommesExoCode4Trait;
+    use FloatAutresSommesExoMnt1Trait;
+    use FloatAutresSommesExoMnt2Trait;
+    use FloatAutresSommesExoMnt3Trait;
+    use FloatAutresSommesExoMnt4Trait;
+    use StringBtqLieuTravTrait;
+    use FloatBaseExoBrut1Trait;
+    use FloatBaseExoBrut2Trait;
+    use FloatBaseExoBrut3Trait;
+    use FloatBaseExoPlaf1Trait;
+    use FloatBaseExoPlaf2Trait;
+    use FloatBaseExoPlaf3Trait;
+    use StringBureauDistributeurLieuTravTrait;
+    use StringCategorieBtpTrait;
+    use StringCodeCaractTrait;
+    use StringCodeClasseCnbfTrait;
+    use StringCodeContratTravTrait;
+    use StringCodeConventionColTrait;
+    use StringCodeDecalagePaieTrait;
+    use StringCodeDelegGestRisqueMaladieTrait;
+    use StringCodeDroitContratTrait;
+    use StringCodeEmplMultTrait;
+    use StringCodeEmploisMultTrait;
+    use IntCodeEtablissementTrait;
+    use StringCodeEtatContratPrudTrait;
+    use StringCodeExtensionAlsaceMoselleTrait;
+    use StringCodeInseeLieuTravTrait;
+    use StringCodeMotifDebPerTrait;
+    use StringCodeMotifDebPer2Trait;
+    use StringCodeMotifDebPer3Trait;
+    use StringCodeMotifDebPer4Trait;
+    use StringCodeMotifDebPer5Trait;
+    use StringCodeMotifFinPerTrait;
+    use StringCodeMotifFinPer2Trait;
+    use StringCodeMotifFinPer3Trait;
+    use StringCodeMotifFinPer4Trait;
+    use StringCodeMotifFinPer5Trait;
+    use StringCodeNatureBaseCotisationsTrait;
+    use StringCodeOfficielCommuneLieuTravTrait;
+    use StringCodePostalLieuTravTrait;
+    use StringCodeRegime1Trait;
+    use StringCodeRegime2Trait;
+    use StringCodeRegime3Trait;
+    use StringCodeRegimeBtpTrait;
+    use StringCodeRegimeBaseOblTrait;
+    use StringCodeRegimeBaseOblAtTrait;
+    use StringCodeRegimeBaseOblMaladieTrait;
+    use StringCodeRegimeBaseOblVieilPatTrait;
+    use StringCodeRegimeBaseOblVieilSalTrait;
+    use StringCodeStatutCategTrait;
+    use StringCodeStatutCategConvTrait;
+    use StringCodeStatutCategIrcTrait;
+    use StringCodeStatutProTrait;
+    use StringCodeTypeExo1Trait;
+    use StringCodeTypeExo2Trait;
+    use StringCodeTypeExo3Trait;
+    use StringCommentaireTrait;
+    use StringComplementLieuTravTrait;
+    use StringDadsuConjointSalarieTrait;
+    use FloatDadsuNbOptionsTrait;
+    use FloatDadsuPrixSouscriptOptTrait;
+    use FloatDadsuValeurActionTrait;
+    use DateTimeDateCtrlNormeTrait;
+    use DateTimeDateCtrlNormeBtpTrait;
+    use DateTimeDateCtrlNormePrevTrait;
+    use DateTimeDateCtrlNormeRetTrait;
+    use DateTimeDebutPeriodeDeclTrait;
+    use StringEchelonTrait;
+    use StringEmploiTrait;
+    use StringEpargneSalCode1Trait;
+    use StringEpargneSalCode2Trait;
+    use StringEpargneSalCode3Trait;
+    use StringEpargneSalCode4Trait;
+    use FloatEpargneSalMnt1Trait;
+    use FloatEpargneSalMnt2Trait;
+    use FloatEpargneSalMnt3Trait;
+    use FloatEpargneSalMnt4Trait;
+    use StringEtatCtrlNormeTrait;
+    use StringEtatCtrlNormeBtpTrait;
+    use StringEtatCtrlNormePrevTrait;
+    use StringEtatCtrlNormeRetTrait;
+    use BoolExoAgffTrait;
+    use DateTimeFinPeriodeDeclTrait;
+    use FloatGpecMntExoCsgcrdsTrait;
+    use FloatGpecMntExoCotSecuTrait;
+    use FloatIndemnCpPlafTrait;
+    use StringIndemnRuptureCode1Trait;
+    use StringIndemnRuptureCode2Trait;
+    use FloatIndemnRuptureMnt1Trait;
+    use FloatIndemnRuptureMnt2Trait;
+    use StringIndiceTrait;
+    use FloatNbPeriodiciteIrcantecTrait;
+    use FloatNbhEtabBtpTrait;
+    use FloatNbhSalBtpTrait;
+    use StringNicEtabAffectationTrait;
+    use StringNiveauTrait;
+    use StringNomVilleInseeLieuTravTrait;
+    use StringNomVilleLieuTravTrait;
+    use StringNomVoieLieuTravTrait;
+    use StringNumVoieLieuTravTrait;
+    use StringNumeroTrait;
+    use StringNumeroAdhesionBtpTrait;
+    use StringNumeroAffilFncTrait;
+    use IntNumeroOrdreTrait;
+    use StringNumeroRattach1Trait;
+    use StringNumeroRattach2Trait;
+    use StringNumeroRattach3Trait;
+    use StringNumeroRattachBtpTrait;
+    use StringParticipPatronAvtgeCode1Trait;
+    use StringParticipPatronAvtgeCode2Trait;
+    use FloatParticipPatronAvtgeMnt1Trait;
+    use FloatParticipPatronAvtgeMnt2Trait;
+    use StringPeriodiciteIrcantecTrait;
+    use StringPositionTrait;
+    use FloatPourcentActTrait;
+    use FloatRemunMedecinsTrait;
+    use StringSiretLieuTravTrait;
+    use StringStatutCotisantBtpTrait;
+    use FloatSupplFamTrait;
+    use StringTds59Trait;
+    use StringTypeAffilBtpTrait;
+
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO;
+    }
+}

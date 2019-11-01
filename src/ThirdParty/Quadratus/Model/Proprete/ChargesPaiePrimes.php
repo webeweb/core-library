@@ -11,128 +11,28 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use DateTime;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePrimeTrait;
 
 /**
- * Charges paie primes model.
+ * Charges paie primes.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete
  */
 class ChargesPaiePrimes {
 
-    /**
-     * Code employe.
-     *
-     * @var string
-     */
-    private $codeEmploye;
-
-    /**
-     * Code prime.
-     *
-     * @var string
-     */
-    private $codePrime;
-
-    /**
-     * Montant.
-     *
-     * @var float
-     */
-    private $montant;
-
-    /**
-     * Periode.
-     *
-     * @var DateTime
-     */
-    private $periode;
+    use StringCodeEmployeTrait;
+    use StringCodePrimeTrait;
+    use FloatMontantTrait;
+    use DateTimePeriodeTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code employe.
-     *
-     * @return string Returns the code employe.
-     */
-    public function getCodeEmploye() {
-        return $this->codeEmploye;
-    }
-
-    /**
-     * Get the code prime.
-     *
-     * @return string Returns the code prime.
-     */
-    public function getCodePrime() {
-        return $this->codePrime;
-    }
-
-    /**
-     * Get the montant.
-     *
-     * @return float Returns the montant.
-     */
-    public function getMontant() {
-        return $this->montant;
-    }
-
-    /**
-     * Get the periode.
-     *
-     * @return DateTime Returns the periode.
-     */
-    public function getPeriode() {
-        return $this->periode;
-    }
-
-    /**
-     * Set the code employe.
-     *
-     * @param string $codeEmploye The code employe.
-     * @return ChargesPaiePrimes Returns this charges paie primes.
-     */
-    public function setCodeEmploye($codeEmploye) {
-        $this->codeEmploye = $codeEmploye;
-        return $this;
-    }
-
-    /**
-     * Set the code prime.
-     *
-     * @param string $codePrime The code prime.
-     * @return ChargesPaiePrimes Returns this charges paie primes.
-     */
-    public function setCodePrime($codePrime) {
-        $this->codePrime = $codePrime;
-        return $this;
-    }
-
-    /**
-     * Set the montant.
-     *
-     * @param float $montant The montant.
-     * @return ChargesPaiePrimes Returns this charges paie primes.
-     */
-    public function setMontant($montant) {
-        $this->montant = $montant;
-        return $this;
-    }
-
-    /**
-     * Set the periode.
-     *
-     * @param DateTime $periode The periode.
-     * @return ChargesPaiePrimes Returns this charges paie primes.
-     */
-    public function setPeriode(DateTime $periode = null) {
-        $this->periode = $periode;
-        return $this;
     }
 }

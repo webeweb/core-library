@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmployesProprete;
 
 /**
- * Employes proprete model test.
+ * Employes proprete test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
@@ -37,83 +37,5 @@ class EmployesPropreteTest extends AbstractTestCase {
         $this->assertNull($obj->getModulation());
         $this->assertNull($obj->getNumeroEmploye());
         $this->assertNull($obj->getPolyvalent());
-    }
-
-    /**
-     * Tests the setControleur() method.
-     *
-     * @return void
-     */
-    public function testSetControleur() {
-
-        $obj = new EmployesProprete();
-
-        $obj->setControleur(true);
-        $this->assertEquals(true, $obj->getControleur());
-    }
-
-    /**
-     * Tests the setHotellerie() method.
-     *
-     * @return void
-     */
-    public function testSetHotellerie() {
-
-        $obj = new EmployesProprete();
-
-        $obj->setHotellerie(true);
-        $this->assertEquals(true, $obj->getHotellerie());
-    }
-
-    /**
-     * Tests the setLivreur() method.
-     *
-     * @return void
-     */
-    public function testSetLivreur() {
-
-        $obj = new EmployesProprete();
-
-        $obj->setLivreur(true);
-        $this->assertEquals(true, $obj->getLivreur());
-    }
-
-    /**
-     * Tests the setModulation() method.
-     *
-     * @return void
-     */
-    public function testSetModulation() {
-
-        $obj = new EmployesProprete();
-
-        $obj->setModulation(true);
-        $this->assertEquals(true, $obj->getModulation());
-    }
-
-    /**
-     * Tests the setNumeroEmploye() method.
-     *
-     * @return void
-     */
-    public function testSetNumeroEmploye() {
-
-        $obj = new EmployesProprete();
-
-        $obj->setNumeroEmploye("numeroEmploye");
-        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
-    }
-
-    /**
-     * Tests the setPolyvalent() method.
-     *
-     * @return void
-     */
-    public function testSetPolyvalent() {
-
-        $obj = new EmployesProprete();
-
-        $obj->setPolyvalent(true);
-        $this->assertEquals(true, $obj->getPolyvalent());
     }
 }

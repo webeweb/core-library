@@ -3,7 +3,7 @@
 /*
  * This file is part of the core-library package.
  *
- * (c) 2019 WEBEWEB
+ * (c) 2018 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -11,182 +11,32 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use DateTime;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBrutTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatCotisPatronalesTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatCotisSalarialesTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatHeuresTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPlafondTrait;
 
 /**
- * Controle salaires model.
+ * Controle salaires.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta
  */
 class ControleSalaires {
 
-    /**
-     * Brut.
-     *
-     * @var float
-     */
-    private $brut;
-
-    /**
-     * Cotis patronales.
-     *
-     * @var float
-     */
-    private $cotisPatronales;
-
-    /**
-     * Cotis salariales.
-     *
-     * @var float
-     */
-    private $cotisSalariales;
-
-    /**
-     * Heures.
-     *
-     * @var float
-     */
-    private $heures;
-
-    /**
-     * Periode.
-     *
-     * @var DateTime
-     */
-    private $periode;
-
-    /**
-     * Plafond.
-     *
-     * @var float
-     */
-    private $plafond;
+    use FloatBrutTrait;
+    use FloatCotisPatronalesTrait;
+    use FloatCotisSalarialesTrait;
+    use FloatHeuresTrait;
+    use DateTimePeriodeTrait;
+    use FloatPlafondTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the brut.
-     *
-     * @return float Returns the brut.
-     */
-    public function getBrut() {
-        return $this->brut;
-    }
-
-    /**
-     * Get the cotis patronales.
-     *
-     * @return float Returns the cotis patronales.
-     */
-    public function getCotisPatronales() {
-        return $this->cotisPatronales;
-    }
-
-    /**
-     * Get the cotis salariales.
-     *
-     * @return float Returns the cotis salariales.
-     */
-    public function getCotisSalariales() {
-        return $this->cotisSalariales;
-    }
-
-    /**
-     * Get the heures.
-     *
-     * @return float Returns the heures.
-     */
-    public function getHeures() {
-        return $this->heures;
-    }
-
-    /**
-     * Get the periode.
-     *
-     * @return DateTime Returns the periode.
-     */
-    public function getPeriode() {
-        return $this->periode;
-    }
-
-    /**
-     * Get the plafond.
-     *
-     * @return float Returns the plafond.
-     */
-    public function getPlafond() {
-        return $this->plafond;
-    }
-
-    /**
-     * Set the brut.
-     *
-     * @param float $brut The brut.
-     * @return ControleSalaires Returns this controle salaires.
-     */
-    public function setBrut($brut) {
-        $this->brut = $brut;
-        return $this;
-    }
-
-    /**
-     * Set the cotis patronales.
-     *
-     * @param float $cotisPatronales The cotis patronales.
-     * @return ControleSalaires Returns this controle salaires.
-     */
-    public function setCotisPatronales($cotisPatronales) {
-        $this->cotisPatronales = $cotisPatronales;
-        return $this;
-    }
-
-    /**
-     * Set the cotis salariales.
-     *
-     * @param float $cotisSalariales The cotis salariales.
-     * @return ControleSalaires Returns this controle salaires.
-     */
-    public function setCotisSalariales($cotisSalariales) {
-        $this->cotisSalariales = $cotisSalariales;
-        return $this;
-    }
-
-    /**
-     * Set the heures.
-     *
-     * @param float $heures The heures.
-     * @return ControleSalaires Returns this controle salaires.
-     */
-    public function setHeures($heures) {
-        $this->heures = $heures;
-        return $this;
-    }
-
-    /**
-     * Set the periode.
-     *
-     * @param DateTime $periode The periode.
-     * @return ControleSalaires Returns this controle salaires.
-     */
-    public function setPeriode(DateTime $periode = null) {
-        $this->periode = $periode;
-        return $this;
-    }
-
-    /**
-     * Set the plafond.
-     *
-     * @param float $plafond The plafond.
-     * @return ControleSalaires Returns this controle salaires.
-     */
-    public function setPlafond($plafond) {
-        $this->plafond = $plafond;
-        return $this;
     }
 }

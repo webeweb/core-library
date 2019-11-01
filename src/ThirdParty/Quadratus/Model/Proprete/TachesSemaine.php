@@ -11,99 +11,26 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntAutoIncrTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDiscrTacheTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeSemaineTacheTrait;
+
 /**
- * Taches semaine model.
+ * Taches semaine.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete
  */
 class TachesSemaine {
 
-    /**
-     * Auto incr.
-     *
-     * @var int
-     */
-    private $autoIncr;
-
-    /**
-     * Code semaine tache.
-     *
-     * @var string
-     */
-    private $codeSemaineTache;
-
-    /**
-     * Discr tache.
-     *
-     * @var int
-     */
-    private $discrTache;
+    use IntAutoIncrTrait;
+    use StringCodeSemaineTacheTrait;
+    use IntDiscrTacheTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the auto incr.
-     *
-     * @return int Returns the auto incr.
-     */
-    public function getAutoIncr() {
-        return $this->autoIncr;
-    }
-
-    /**
-     * Get the code semaine tache.
-     *
-     * @return string Returns the code semaine tache.
-     */
-    public function getCodeSemaineTache() {
-        return $this->codeSemaineTache;
-    }
-
-    /**
-     * Get the discr tache.
-     *
-     * @return int Returns the discr tache.
-     */
-    public function getDiscrTache() {
-        return $this->discrTache;
-    }
-
-    /**
-     * Set the auto incr.
-     *
-     * @param int $autoIncr The auto incr.
-     * @return TachesSemaine Returns this taches semaine.
-     */
-    public function setAutoIncr($autoIncr) {
-        $this->autoIncr = $autoIncr;
-        return $this;
-    }
-
-    /**
-     * Set the code semaine tache.
-     *
-     * @param string $codeSemaineTache The code semaine tache.
-     * @return TachesSemaine Returns this taches semaine.
-     */
-    public function setCodeSemaineTache($codeSemaineTache) {
-        $this->codeSemaineTache = $codeSemaineTache;
-        return $this;
-    }
-
-    /**
-     * Set the discr tache.
-     *
-     * @param int $discrTache The discr tache.
-     * @return TachesSemaine Returns this taches semaine.
-     */
-    public function setDiscrTache($discrTache) {
-        $this->discrTache = $discrTache;
-        return $this;
     }
 }

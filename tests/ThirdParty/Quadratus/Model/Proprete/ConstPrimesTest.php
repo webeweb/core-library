@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ConstPrimes;
 
 /**
- * Const primes model test.
+ * Const primes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -34,44 +34,5 @@ class ConstPrimesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodePrimeQPaie());
         $this->assertNull($obj->getIndice());
         $this->assertNull($obj->getLibelle());
-    }
-
-    /**
-     * Tests the setCodePrimeQPaie() method.
-     *
-     * @return void
-     */
-    public function testSetCodePrimeQPaie() {
-
-        $obj = new ConstPrimes();
-
-        $obj->setCodePrimeQPaie("codePrimeQPaie");
-        $this->assertEquals("codePrimeQPaie", $obj->getCodePrimeQPaie());
-    }
-
-    /**
-     * Tests the setIndice() method.
-     *
-     * @return void
-     */
-    public function testSetIndice() {
-
-        $obj = new ConstPrimes();
-
-        $obj->setIndice(10);
-        $this->assertEquals(10, $obj->getIndice());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new ConstPrimes();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
     }
 }

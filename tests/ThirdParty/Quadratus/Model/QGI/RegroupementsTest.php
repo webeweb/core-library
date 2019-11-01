@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Regroupements;
 
 /**
- * Regroupements model test.
+ * Regroupements test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class RegroupementsTest extends AbstractTestCase {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getNumOrdre());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new Regroupements();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new Regroupements();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
-    }
-
-    /**
-     * Tests the setNumOrdre() method.
-     *
-     * @return void
-     */
-    public function testSetNumOrdre() {
-
-        $obj = new Regroupements();
-
-        $obj->setNumOrdre(10);
-        $this->assertEquals(10, $obj->getNumOrdre());
     }
 }

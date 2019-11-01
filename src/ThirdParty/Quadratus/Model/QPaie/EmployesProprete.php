@@ -11,180 +11,32 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolControleurTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolHotellerieTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolLivreurTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolModulationTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolPolyvalentTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
+
 /**
- * Employes proprete model.
+ * Employes proprete.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie
  */
 class EmployesProprete {
 
-    /**
-     * Controleur.
-     *
-     * @var bool
-     */
-    private $controleur;
-
-    /**
-     * Hotellerie.
-     *
-     * @var bool
-     */
-    private $hotellerie;
-
-    /**
-     * Livreur.
-     *
-     * @var bool
-     */
-    private $livreur;
-
-    /**
-     * Modulation.
-     *
-     * @var bool
-     */
-    private $modulation;
-
-    /**
-     * Numero employe.
-     *
-     * @var string
-     */
-    private $numeroEmploye;
-
-    /**
-     * Polyvalent.
-     *
-     * @var bool
-     */
-    private $polyvalent;
+    use BoolControleurTrait;
+    use BoolHotellerieTrait;
+    use BoolLivreurTrait;
+    use BoolModulationTrait;
+    use StringNumeroEmployeTrait;
+    use BoolPolyvalentTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the controleur.
-     *
-     * @return bool Returns the controleur.
-     */
-    public function getControleur() {
-        return $this->controleur;
-    }
-
-    /**
-     * Get the hotellerie.
-     *
-     * @return bool Returns the hotellerie.
-     */
-    public function getHotellerie() {
-        return $this->hotellerie;
-    }
-
-    /**
-     * Get the livreur.
-     *
-     * @return bool Returns the livreur.
-     */
-    public function getLivreur() {
-        return $this->livreur;
-    }
-
-    /**
-     * Get the modulation.
-     *
-     * @return bool Returns the modulation.
-     */
-    public function getModulation() {
-        return $this->modulation;
-    }
-
-    /**
-     * Get the numero employe.
-     *
-     * @return string Returns the numero employe.
-     */
-    public function getNumeroEmploye() {
-        return $this->numeroEmploye;
-    }
-
-    /**
-     * Get the polyvalent.
-     *
-     * @return bool Returns the polyvalent.
-     */
-    public function getPolyvalent() {
-        return $this->polyvalent;
-    }
-
-    /**
-     * Set the controleur.
-     *
-     * @param bool $controleur The controleur.
-     * @return EmployesProprete Returns this employes proprete.
-     */
-    public function setControleur($controleur) {
-        $this->controleur = $controleur;
-        return $this;
-    }
-
-    /**
-     * Set the hotellerie.
-     *
-     * @param bool $hotellerie The hotellerie.
-     * @return EmployesProprete Returns this employes proprete.
-     */
-    public function setHotellerie($hotellerie) {
-        $this->hotellerie = $hotellerie;
-        return $this;
-    }
-
-    /**
-     * Set the livreur.
-     *
-     * @param bool $livreur The livreur.
-     * @return EmployesProprete Returns this employes proprete.
-     */
-    public function setLivreur($livreur) {
-        $this->livreur = $livreur;
-        return $this;
-    }
-
-    /**
-     * Set the modulation.
-     *
-     * @param bool $modulation The modulation.
-     * @return EmployesProprete Returns this employes proprete.
-     */
-    public function setModulation($modulation) {
-        $this->modulation = $modulation;
-        return $this;
-    }
-
-    /**
-     * Set the numero employe.
-     *
-     * @param string $numeroEmploye The numero employe.
-     * @return EmployesProprete Returns this employes proprete.
-     */
-    public function setNumeroEmploye($numeroEmploye) {
-        $this->numeroEmploye = $numeroEmploye;
-        return $this;
-    }
-
-    /**
-     * Set the polyvalent.
-     *
-     * @param bool $polyvalent The polyvalent.
-     * @return EmployesProprete Returns this employes proprete.
-     */
-    public function setPolyvalent($polyvalent) {
-        $this->polyvalent = $polyvalent;
-        return $this;
     }
 }

@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CriteresListeEntPiece;
 
 /**
- * Criteres liste ent piece model test.
+ * Criteres liste ent piece test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class CriteresListeEntPieceTest extends AbstractTestCase {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getNumLibelle());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new CriteresListeEntPiece();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new CriteresListeEntPiece();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
-    }
-
-    /**
-     * Tests the setNumLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetNumLibelle() {
-
-        $obj = new CriteresListeEntPiece();
-
-        $obj->setNumLibelle("numLibelle");
-        $this->assertEquals("numLibelle", $obj->getNumLibelle());
     }
 }

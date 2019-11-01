@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsTaches;
 
 /**
- * Actions taches model test.
+ * Actions taches test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -33,31 +33,5 @@ class ActionsTachesTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeAction());
         $this->assertNull($obj->getCodeTache());
-    }
-
-    /**
-     * Tests the setCodeAction() method.
-     *
-     * @return void
-     */
-    public function testSetCodeAction() {
-
-        $obj = new ActionsTaches();
-
-        $obj->setCodeAction("codeAction");
-        $this->assertEquals("codeAction", $obj->getCodeAction());
-    }
-
-    /**
-     * Tests the setCodeTache() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTache() {
-
-        $obj = new ActionsTaches();
-
-        $obj->setCodeTache("codeTache");
-        $this->assertEquals("codeTache", $obj->getCodeTache());
     }
 }

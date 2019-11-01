@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisProgEntetes;
 
 /**
- * Devis prog entetes model test.
+ * Devis prog entetes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -34,44 +34,5 @@ class DevisProgEntetesTest extends AbstractTestCase {
         $this->assertNull($obj->getDesignation());
         $this->assertNull($obj->getNumDevis());
         $this->assertNull($obj->getNumProgramme());
-    }
-
-    /**
-     * Tests the setDesignation() method.
-     *
-     * @return void
-     */
-    public function testSetDesignation() {
-
-        $obj = new DevisProgEntetes();
-
-        $obj->setDesignation("designation");
-        $this->assertEquals("designation", $obj->getDesignation());
-    }
-
-    /**
-     * Tests the setNumDevis() method.
-     *
-     * @return void
-     */
-    public function testSetNumDevis() {
-
-        $obj = new DevisProgEntetes();
-
-        $obj->setNumDevis("numDevis");
-        $this->assertEquals("numDevis", $obj->getNumDevis());
-    }
-
-    /**
-     * Tests the setNumProgramme() method.
-     *
-     * @return void
-     */
-    public function testSetNumProgramme() {
-
-        $obj = new DevisProgEntetes();
-
-        $obj->setNumProgramme(10);
-        $this->assertEquals(10, $obj->getNumProgramme());
     }
 }

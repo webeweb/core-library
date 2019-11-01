@@ -11,126 +11,28 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeSynchroTrait;
+
 /**
- * Synchro chantiers model.
+ * Synchro chantiers.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete
  */
 class SynchroChantiers {
 
-    /**
-     * Code affaire.
-     *
-     * @var string
-     */
-    private $codeAffaire;
-
-    /**
-     * Code chantier.
-     *
-     * @var string
-     */
-    private $codeChantier;
-
-    /**
-     * Code client.
-     *
-     * @var string
-     */
-    private $codeClient;
-
-    /**
-     * Code synchro.
-     *
-     * @var string
-     */
-    private $codeSynchro;
+    use StringCodeAffaireTrait;
+    use StringCodeChantierTrait;
+    use StringCodeClientTrait;
+    use StringCodeSynchroTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code affaire.
-     *
-     * @return string Returns the code affaire.
-     */
-    public function getCodeAffaire() {
-        return $this->codeAffaire;
-    }
-
-    /**
-     * Get the code chantier.
-     *
-     * @return string Returns the code chantier.
-     */
-    public function getCodeChantier() {
-        return $this->codeChantier;
-    }
-
-    /**
-     * Get the code client.
-     *
-     * @return string Returns the code client.
-     */
-    public function getCodeClient() {
-        return $this->codeClient;
-    }
-
-    /**
-     * Get the code synchro.
-     *
-     * @return string Returns the code synchro.
-     */
-    public function getCodeSynchro() {
-        return $this->codeSynchro;
-    }
-
-    /**
-     * Set the code affaire.
-     *
-     * @param string $codeAffaire The code affaire.
-     * @return SynchroChantiers Returns this synchro chantiers.
-     */
-    public function setCodeAffaire($codeAffaire) {
-        $this->codeAffaire = $codeAffaire;
-        return $this;
-    }
-
-    /**
-     * Set the code chantier.
-     *
-     * @param string $codeChantier The code chantier.
-     * @return SynchroChantiers Returns this synchro chantiers.
-     */
-    public function setCodeChantier($codeChantier) {
-        $this->codeChantier = $codeChantier;
-        return $this;
-    }
-
-    /**
-     * Set the code client.
-     *
-     * @param string $codeClient The code client.
-     * @return SynchroChantiers Returns this synchro chantiers.
-     */
-    public function setCodeClient($codeClient) {
-        $this->codeClient = $codeClient;
-        return $this;
-    }
-
-    /**
-     * Set the code synchro.
-     *
-     * @param string $codeSynchro The code synchro.
-     * @return SynchroChantiers Returns this synchro chantiers.
-     */
-    public function setCodeSynchro($codeSynchro) {
-        $this->codeSynchro = $codeSynchro;
-        return $this;
     }
 }

@@ -11,99 +11,26 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringListeGroupesTrait;
+
 /**
- * Agenda taches model.
+ * Agenda taches.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QGI
  */
 class AgendaTaches {
 
-    /**
-     * Code.
-     *
-     * @var string
-     */
-    private $code;
-
-    /**
-     * Libelle.
-     *
-     * @var string
-     */
-    private $libelle;
-
-    /**
-     * Liste groupes.
-     *
-     * @var string
-     */
-    private $listeGroupes;
+    use StringCodeTrait;
+    use StringLibelleTrait;
+    use StringListeGroupesTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code.
-     *
-     * @return string Returns the code.
-     */
-    public function getCode() {
-        return $this->code;
-    }
-
-    /**
-     * Get the libelle.
-     *
-     * @return string Returns the libelle.
-     */
-    public function getLibelle() {
-        return $this->libelle;
-    }
-
-    /**
-     * Get the liste groupes.
-     *
-     * @return string Returns the liste groupes.
-     */
-    public function getListeGroupes() {
-        return $this->listeGroupes;
-    }
-
-    /**
-     * Set the code.
-     *
-     * @param string $code The code.
-     * @return AgendaTaches Returns this agenda taches.
-     */
-    public function setCode($code) {
-        $this->code = $code;
-        return $this;
-    }
-
-    /**
-     * Set the libelle.
-     *
-     * @param string $libelle The libelle.
-     * @return AgendaTaches Returns this agenda taches.
-     */
-    public function setLibelle($libelle) {
-        $this->libelle = $libelle;
-        return $this;
-    }
-
-    /**
-     * Set the liste groupes.
-     *
-     * @param string $listeGroupes The liste groupes.
-     * @return AgendaTaches Returns this agenda taches.
-     */
-    public function setListeGroupes($listeGroupes) {
-        $this->listeGroupes = $listeGroupes;
-        return $this;
     }
 }

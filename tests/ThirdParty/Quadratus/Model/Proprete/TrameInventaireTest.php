@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\TrameInventaire;
 
 /**
- * Trame inventaire model test.
+ * Trame inventaire test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -34,44 +34,5 @@ class TrameInventaireTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeArticle());
         $this->assertNull($obj->getCodeTrame());
         $this->assertNull($obj->getNumOrdre());
-    }
-
-    /**
-     * Tests the setCodeArticle() method.
-     *
-     * @return void
-     */
-    public function testSetCodeArticle() {
-
-        $obj = new TrameInventaire();
-
-        $obj->setCodeArticle("codeArticle");
-        $this->assertEquals("codeArticle", $obj->getCodeArticle());
-    }
-
-    /**
-     * Tests the setCodeTrame() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTrame() {
-
-        $obj = new TrameInventaire();
-
-        $obj->setCodeTrame("codeTrame");
-        $this->assertEquals("codeTrame", $obj->getCodeTrame());
-    }
-
-    /**
-     * Tests the setNumOrdre() method.
-     *
-     * @return void
-     */
-    public function testSetNumOrdre() {
-
-        $obj = new TrameInventaire();
-
-        $obj->setNumOrdre(10);
-        $this->assertEquals(10, $obj->getNumOrdre());
     }
 }

@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\StatsGroupes;
 
 /**
- * Stats groupes model test.
+ * Stats groupes test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class StatsGroupesTest extends AbstractTestCase {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getGroupeStat());
         $this->assertNull($obj->getTypeChamp());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new StatsGroupes();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setGroupeStat() method.
-     *
-     * @return void
-     */
-    public function testSetGroupeStat() {
-
-        $obj = new StatsGroupes();
-
-        $obj->setGroupeStat("groupeStat");
-        $this->assertEquals("groupeStat", $obj->getGroupeStat());
-    }
-
-    /**
-     * Tests the setTypeChamp() method.
-     *
-     * @return void
-     */
-    public function testSetTypeChamp() {
-
-        $obj = new StatsGroupes();
-
-        $obj->setTypeChamp("typeChamp");
-        $this->assertEquals("typeChamp", $obj->getTypeChamp());
     }
 }

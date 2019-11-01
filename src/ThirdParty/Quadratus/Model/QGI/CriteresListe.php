@@ -11,99 +11,26 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumLibelleTrait;
+
 /**
- * Criteres liste model.
+ * Criteres liste.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\QGI
  */
 class CriteresListe {
 
-    /**
-     * Code.
-     *
-     * @var string
-     */
-    private $code;
-
-    /**
-     * Libelle.
-     *
-     * @var string
-     */
-    private $libelle;
-
-    /**
-     * Num libelle.
-     *
-     * @var string
-     */
-    private $numLibelle;
+    use StringCodeTrait;
+    use StringLibelleTrait;
+    use StringNumLibelleTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code.
-     *
-     * @return string Returns the code.
-     */
-    public function getCode() {
-        return $this->code;
-    }
-
-    /**
-     * Get the libelle.
-     *
-     * @return string Returns the libelle.
-     */
-    public function getLibelle() {
-        return $this->libelle;
-    }
-
-    /**
-     * Get the num libelle.
-     *
-     * @return string Returns the num libelle.
-     */
-    public function getNumLibelle() {
-        return $this->numLibelle;
-    }
-
-    /**
-     * Set the code.
-     *
-     * @param string $code The code.
-     * @return CriteresListe Returns this criteres liste.
-     */
-    public function setCode($code) {
-        $this->code = $code;
-        return $this;
-    }
-
-    /**
-     * Set the libelle.
-     *
-     * @param string $libelle The libelle.
-     * @return CriteresListe Returns this criteres liste.
-     */
-    public function setLibelle($libelle) {
-        $this->libelle = $libelle;
-        return $this;
-    }
-
-    /**
-     * Set the num libelle.
-     *
-     * @param string $numLibelle The num libelle.
-     * @return CriteresListe Returns this criteres liste.
-     */
-    public function setNumLibelle($numLibelle) {
-        $this->numLibelle = $numLibelle;
-        return $this;
     }
 }

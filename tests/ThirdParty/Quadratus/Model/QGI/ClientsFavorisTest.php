@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsFavoris;
 
 /**
- * Clients favoris model test.
+ * Clients favoris test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -33,31 +33,5 @@ class ClientsFavorisTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeClient());
         $this->assertNull($obj->getCodeCol());
-    }
-
-    /**
-     * Tests the setCodeClient() method.
-     *
-     * @return void
-     */
-    public function testSetCodeClient() {
-
-        $obj = new ClientsFavoris();
-
-        $obj->setCodeClient("codeClient");
-        $this->assertEquals("codeClient", $obj->getCodeClient());
-    }
-
-    /**
-     * Tests the setCodeCol() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCol() {
-
-        $obj = new ClientsFavoris();
-
-        $obj->setCodeCol("codeCol");
-        $this->assertEquals("codeCol", $obj->getCodeCol());
     }
 }

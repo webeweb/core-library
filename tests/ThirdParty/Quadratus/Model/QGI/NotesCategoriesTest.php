@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\NotesCategories;
 
 /**
- * Notes categories model test.
+ * Notes categories test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -35,57 +35,5 @@ class NotesCategoriesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollaborateur());
         $this->assertNull($obj->getNomCategorie());
         $this->assertNull($obj->getPosition());
-    }
-
-    /**
-     * Tests the setCodeCategorie() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCategorie() {
-
-        $obj = new NotesCategories();
-
-        $obj->setCodeCategorie("codeCategorie");
-        $this->assertEquals("codeCategorie", $obj->getCodeCategorie());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new NotesCategories();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setNomCategorie() method.
-     *
-     * @return void
-     */
-    public function testSetNomCategorie() {
-
-        $obj = new NotesCategories();
-
-        $obj->setNomCategorie("nomCategorie");
-        $this->assertEquals("nomCategorie", $obj->getNomCategorie());
-    }
-
-    /**
-     * Tests the setPosition() method.
-     *
-     * @return void
-     */
-    public function testSetPosition() {
-
-        $obj = new NotesCategories();
-
-        $obj->setPosition(10);
-        $this->assertEquals(10, $obj->getPosition());
     }
 }

@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LiaisonsDestinatairesTypesEnvois;
 
 /**
- * Liaisons destinataires types envois model test.
+ * Liaisons destinataires types envois test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -33,31 +33,5 @@ class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeDestinataire());
         $this->assertNull($obj->getCodeTypeEnvoi());
-    }
-
-    /**
-     * Tests the setCodeDestinataire() method.
-     *
-     * @return void
-     */
-    public function testSetCodeDestinataire() {
-
-        $obj = new LiaisonsDestinatairesTypesEnvois();
-
-        $obj->setCodeDestinataire("codeDestinataire");
-        $this->assertEquals("codeDestinataire", $obj->getCodeDestinataire());
-    }
-
-    /**
-     * Tests the setCodeTypeEnvoi() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTypeEnvoi() {
-
-        $obj = new LiaisonsDestinatairesTypesEnvois();
-
-        $obj->setCodeTypeEnvoi("codeTypeEnvoi");
-        $this->assertEquals("codeTypeEnvoi", $obj->getCodeTypeEnvoi());
     }
 }

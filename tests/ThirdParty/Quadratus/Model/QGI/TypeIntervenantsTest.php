@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TypeIntervenants;
 
 /**
- * Type intervenants model test.
+ * Type intervenants test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -37,83 +37,5 @@ class TypeIntervenantsTest extends AbstractTestCase {
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getPrefixe());
         $this->assertNull($obj->getProchainNumero());
-    }
-
-    /**
-     * Tests the setAccesLibre() method.
-     *
-     * @return void
-     */
-    public function testSetAccesLibre() {
-
-        $obj = new TypeIntervenants();
-
-        $obj->setAccesLibre(true);
-        $this->assertEquals(true, $obj->getAccesLibre());
-    }
-
-    /**
-     * Tests the setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode() {
-
-        $obj = new TypeIntervenants();
-
-        $obj->setCode("code");
-        $this->assertEquals("code", $obj->getCode());
-    }
-
-    /**
-     * Tests the setIncrementAuto() method.
-     *
-     * @return void
-     */
-    public function testSetIncrementAuto() {
-
-        $obj = new TypeIntervenants();
-
-        $obj->setIncrementAuto(true);
-        $this->assertEquals(true, $obj->getIncrementAuto());
-    }
-
-    /**
-     * Tests the setLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetLibelle() {
-
-        $obj = new TypeIntervenants();
-
-        $obj->setLibelle("libelle");
-        $this->assertEquals("libelle", $obj->getLibelle());
-    }
-
-    /**
-     * Tests the setPrefixe() method.
-     *
-     * @return void
-     */
-    public function testSetPrefixe() {
-
-        $obj = new TypeIntervenants();
-
-        $obj->setPrefixe("prefixe");
-        $this->assertEquals("prefixe", $obj->getPrefixe());
-    }
-
-    /**
-     * Tests the setProchainNumero() method.
-     *
-     * @return void
-     */
-    public function testSetProchainNumero() {
-
-        $obj = new TypeIntervenants();
-
-        $obj->setProchainNumero(10);
-        $this->assertEquals(10, $obj->getProchainNumero());
     }
 }

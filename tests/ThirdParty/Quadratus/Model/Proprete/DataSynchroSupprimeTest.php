@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DataSynchroSupprime;
 
 /**
- * Data synchro supprime model test.
+ * Data synchro supprime test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -32,32 +32,6 @@ class DataSynchroSupprimeTest extends AbstractTestCase {
         $obj = new DataSynchroSupprime();
 
         $this->assertNull($obj->getTypeData());
-        $this->assertNull($obj->getUniqIDBlocage());
-    }
-
-    /**
-     * Tests the setTypeData() method.
-     *
-     * @return void
-     */
-    public function testSetTypeData() {
-
-        $obj = new DataSynchroSupprime();
-
-        $obj->setTypeData("typeData");
-        $this->assertEquals("typeData", $obj->getTypeData());
-    }
-
-    /**
-     * Tests the setUniqIDBlocage() method.
-     *
-     * @return void
-     */
-    public function testSetUniqIDBlocage() {
-
-        $obj = new DataSynchroSupprime();
-
-        $obj->setUniqIDBlocage("uniqIDBlocage");
-        $this->assertEquals("uniqIDBlocage", $obj->getUniqIDBlocage());
+        $this->assertNull($obj->getUniqIdBlocage());
     }
 }

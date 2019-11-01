@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CollabVisuTaches;
 
 /**
- * Collab visu taches model test.
+ * Collab visu taches test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -33,31 +33,5 @@ class CollabVisuTachesTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeCollab());
         $this->assertNull($obj->getCodeTacheVisu());
-    }
-
-    /**
-     * Tests the setCodeCollab() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollab() {
-
-        $obj = new CollabVisuTaches();
-
-        $obj->setCodeCollab("codeCollab");
-        $this->assertEquals("codeCollab", $obj->getCodeCollab());
-    }
-
-    /**
-     * Tests the setCodeTacheVisu() method.
-     *
-     * @return void
-     */
-    public function testSetCodeTacheVisu() {
-
-        $obj = new CollabVisuTaches();
-
-        $obj->setCodeTacheVisu("codeTacheVisu");
-        $this->assertEquals("codeTacheVisu", $obj->getCodeTacheVisu());
     }
 }

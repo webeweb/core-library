@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RegroupementLibelles;
 
 /**
- * Regroupement libelles model test.
+ * Regroupement libelles test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie
@@ -33,31 +33,5 @@ class RegroupementLibellesTest extends AbstractTestCase {
 
         $this->assertNull($obj->getCodeLibelle());
         $this->assertNull($obj->getNumRegroupement());
-    }
-
-    /**
-     * Tests the setCodeLibelle() method.
-     *
-     * @return void
-     */
-    public function testSetCodeLibelle() {
-
-        $obj = new RegroupementLibelles();
-
-        $obj->setCodeLibelle("codeLibelle");
-        $this->assertEquals("codeLibelle", $obj->getCodeLibelle());
-    }
-
-    /**
-     * Tests the setNumRegroupement() method.
-     *
-     * @return void
-     */
-    public function testSetNumRegroupement() {
-
-        $obj = new RegroupementLibelles();
-
-        $obj->setNumRegroupement(10);
-        $this->assertEquals(10, $obj->getNumRegroupement());
     }
 }

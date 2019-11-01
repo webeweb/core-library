@@ -11,13 +11,11 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DernPrepaPaie;
 
 /**
- * Dern prepa paie model test.
+ * Dern prepa paie test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete
@@ -38,72 +36,5 @@ class DernPrepaPaieTest extends AbstractTestCase {
         $this->assertNull($obj->getDesignation());
         $this->assertNull($obj->getDtPrepa());
         $this->assertNull($obj->getPeriode());
-    }
-
-    /**
-     * Tests the setAlerteRouge() method.
-     *
-     * @return void
-     */
-    public function testSetAlerteRouge() {
-
-        $obj = new DernPrepaPaie();
-
-        $obj->setAlerteRouge(true);
-        $this->assertEquals(true, $obj->getAlerteRouge());
-    }
-
-    /**
-     * Tests the setCodeEmploye() method.
-     *
-     * @return void
-     */
-    public function testSetCodeEmploye() {
-
-        $obj = new DernPrepaPaie();
-
-        $obj->setCodeEmploye("codeEmploye");
-        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
-    }
-
-    /**
-     * Tests the setDesignation() method.
-     *
-     * @return void
-     */
-    public function testSetDesignation() {
-
-        $obj = new DernPrepaPaie();
-
-        $obj->setDesignation("designation");
-        $this->assertEquals("designation", $obj->getDesignation());
-    }
-
-    /**
-     * Tests the setDtPrepa() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetDtPrepa() {
-
-        $obj = new DernPrepaPaie();
-
-        $obj->setDtPrepa(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getDtPrepa());
-    }
-
-    /**
-     * Tests the setPeriode() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetPeriode() {
-
-        $obj = new DernPrepaPaie();
-
-        $obj->setPeriode(new DateTime("2018-09-10"));
-        $this->assertEquals(new DateTime("2018-09-10"), $obj->getPeriode());
     }
 }

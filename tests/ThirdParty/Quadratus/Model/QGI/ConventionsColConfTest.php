@@ -15,7 +15,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ConventionsColConf;
 
 /**
- * Conventions col conf model test.
+ * Conventions col conf test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI
@@ -34,44 +34,5 @@ class ConventionsColConfTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollaborateur());
         $this->assertNull($obj->getDroit());
         $this->assertNull($obj->getType());
-    }
-
-    /**
-     * Tests the setCodeCollaborateur() method.
-     *
-     * @return void
-     */
-    public function testSetCodeCollaborateur() {
-
-        $obj = new ConventionsColConf();
-
-        $obj->setCodeCollaborateur("codeCollaborateur");
-        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
-    }
-
-    /**
-     * Tests the setDroit() method.
-     *
-     * @return void
-     */
-    public function testSetDroit() {
-
-        $obj = new ConventionsColConf();
-
-        $obj->setDroit("droit");
-        $this->assertEquals("droit", $obj->getDroit());
-    }
-
-    /**
-     * Tests the setType() method.
-     *
-     * @return void
-     */
-    public function testSetType() {
-
-        $obj = new ConventionsColConf();
-
-        $obj->setType(10);
-        $this->assertEquals(10, $obj->getType());
     }
 }

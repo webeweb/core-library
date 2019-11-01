@@ -11,72 +11,24 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
+use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePrevTrait;
+
 /**
- * Articles prevention model.
+ * Articles prevention.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete
  */
 class ArticlesPrevention {
 
-    /**
-     * Code article.
-     *
-     * @var string
-     */
-    private $codeArticle;
-
-    /**
-     * Code prev.
-     *
-     * @var string
-     */
-    private $codePrev;
+    use StringCodeArticleTrait;
+    use StringCodePrevTrait;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
-    }
-
-    /**
-     * Get the code article.
-     *
-     * @return string Returns the code article.
-     */
-    public function getCodeArticle() {
-        return $this->codeArticle;
-    }
-
-    /**
-     * Get the code prev.
-     *
-     * @return string Returns the code prev.
-     */
-    public function getCodePrev() {
-        return $this->codePrev;
-    }
-
-    /**
-     * Set the code article.
-     *
-     * @param string $codeArticle The code article.
-     * @return ArticlesPrevention Returns this articles prevention.
-     */
-    public function setCodeArticle($codeArticle) {
-        $this->codeArticle = $codeArticle;
-        return $this;
-    }
-
-    /**
-     * Set the code prev.
-     *
-     * @param string $codePrev The code prev.
-     * @return ArticlesPrevention Returns this articles prevention.
-     */
-    public function setCodePrev($codePrev) {
-        $this->codePrev = $codePrev;
-        return $this;
     }
 }
