@@ -29,20 +29,6 @@ class CURLConfigurationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testAddHeader() {
-
-        $obj = new CURLConfiguration();
-
-        $obj->addHeader("name", "value");
-        $res = ["name" => "value"];
-        $this->assertEquals($res, $obj->getHeaders());
-    }
-
-    /**
-     * Tests the addHeader() method.
-     *
-     * @return void
-     */
     public function testAddHeaderWithStringArgumentException() {
 
         $obj = new CURLConfiguration();
@@ -61,6 +47,7 @@ class CURLConfigurationTest extends AbstractTestCase {
      * Tests the clearHeader() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testClearHeaders() {
 
@@ -105,6 +92,7 @@ class CURLConfigurationTest extends AbstractTestCase {
      * Tests the removeHeader() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testRemoveHeader() {
 

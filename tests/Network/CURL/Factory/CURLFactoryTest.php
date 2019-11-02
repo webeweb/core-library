@@ -36,6 +36,7 @@ class CURLFactoryTest extends AbstractTestCase {
      * Tests the getInstance() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetInstanceWithDelete() {
 
@@ -47,6 +48,7 @@ class CURLFactoryTest extends AbstractTestCase {
      * Tests the getInstance() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetInstanceWithGet() {
 
@@ -58,6 +60,7 @@ class CURLFactoryTest extends AbstractTestCase {
      * Tests the getInstance() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetInstanceWithHead() {
 
@@ -69,6 +72,7 @@ class CURLFactoryTest extends AbstractTestCase {
      * Tests the getInstance() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetInstanceWithInvalidHTTPMethodException() {
 
@@ -86,6 +90,7 @@ class CURLFactoryTest extends AbstractTestCase {
      * Tests the getInstance() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetInstanceWithOptions() {
 
@@ -97,6 +102,7 @@ class CURLFactoryTest extends AbstractTestCase {
      * Tests the getInstance() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetInstanceWithPatch() {
 
@@ -108,6 +114,7 @@ class CURLFactoryTest extends AbstractTestCase {
      * Tests the getInstance() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetInstanceWithPost() {
 
@@ -119,6 +126,7 @@ class CURLFactoryTest extends AbstractTestCase {
      * Tests the getInstance() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetInstanceWithPut() {
 

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Validation\Status;
 
-use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Validation\Status\DefaultValidationStatus;
 
 /**
@@ -20,7 +20,7 @@ use WBW\Library\Core\Validation\Status\DefaultValidationStatus;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\Status
  */
-class DefaultValidationStatusTest extends AbstractValidationTest {
+class DefaultValidationStatusTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

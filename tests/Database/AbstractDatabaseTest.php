@@ -35,6 +35,7 @@ abstract class AbstractDatabaseTest extends AbstractTestCase {
      * {@inheritdoc}
      */
     protected function setUp() {
+        parent::setUp();
 
         // Set an Authenticator mock.
         $this->authenticator = new Authenticator("localhost", new PasswordAuthentication("username", "password"));

@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Validation\RuleSet;
 
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
 use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
 use WBW\Library\Core\Validation\API\ValidationStatusInterface;
@@ -22,25 +23,7 @@ use WBW\Library\Core\Validation\RuleSet\DefaultValidationRuleSet;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\RuleSet
  */
-class DefaultValidationRuleSetTest extends AbstractValidationTest {
-
-    /**
-     * Tests the addRule() method.
-     *
-     * @return void
-     */
-    public function testAddRule() {
-
-        $obj = new DefaultValidationRuleSet();
-
-        $arg = new TestValidationRule();
-
-        $this->assertCount(0, $obj->getRules());
-
-        $this->assertSame($obj, $obj->addRule($arg));
-        $this->assertCount(1, $obj->getRules());
-        $this->assertSame($arg, $obj->getRules()[0]);
-    }
+class DefaultValidationRuleSetTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

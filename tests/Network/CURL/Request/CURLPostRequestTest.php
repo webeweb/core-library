@@ -14,23 +14,25 @@ namespace WBW\Library\Core\Tests\Network\CURL\Request;
 use Exception;
 use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Request\CURLPostRequest;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * cURL POST request test.
+ * cURL "POST" request test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Request
  */
-class CURLPostRequestTest extends AbstractCURLRequestTest {
+class CURLPostRequestTest extends AbstractTestCase {
 
     /**
      * Tests addPostData() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testAddPostData() {
 
-        $obj = new CURLPostRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addPostData("name", "value");
         $res = ["name" => "value"];
@@ -41,10 +43,11 @@ class CURLPostRequestTest extends AbstractCURLRequestTest {
      * Tests addPostData() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testAddPostDataWithStringArgumentException() {
 
-        $obj = new CURLPostRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         try {
 
@@ -60,10 +63,11 @@ class CURLPostRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws \Exception Throws an exception if an error occurs.
      */
     public function testCall() {
 
-        $obj = new CURLPostRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
@@ -80,10 +84,11 @@ class CURLPostRequestTest extends AbstractCURLRequestTest {
      * Tests the clearPostData() method.
      *
      * @return void
+     * @throws \Exception Throws an exception if an error occurs.
      */
     public function testClearPostData() {
 
-        $obj = new CURLPostRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addPostData("name", "value");
         $this->assertCount(1, $obj->getPostData());
@@ -96,27 +101,29 @@ class CURLPostRequestTest extends AbstractCURLRequestTest {
      * Tests __construct() method.
      *
      * @return void
+     * @throws \Exception Throws an exception if an error occurs.
      */
     public function testConstruct() {
 
-        $obj = new CURLPostRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
-        $this->assertSame($this->configuration, $obj->getConfiguration());
+        $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
         $this->assertEquals(CURLPostRequest::HTTP_METHOD_POST, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
-        $this->assertEquals("testCall.php", $obj->getResourcePath());
+        $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());
     }
 
     /**
      * Tests removePostData() method.
      *
      * @return void
+     * @throws \Exception Throws an exception if an error occurs.
      */
     public function testRemovePostData() {
 
-        $obj = new CURLPostRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addPostData("name", "value");
         $this->assertCount(1, $obj->getPostData());

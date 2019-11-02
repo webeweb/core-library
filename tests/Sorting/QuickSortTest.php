@@ -42,6 +42,7 @@ class QuickSortTest extends AbstractTestCase {
      * {@inheritdoc}
      */
     protected function setUp() {
+        parent::setUp();
 
         // Set the functor mock.
         $this->functor = new TestIntegerFunctor();
@@ -73,6 +74,7 @@ class QuickSortTest extends AbstractTestCase {
         $obj = new QuickSort($this->values, $this->functor);
 
         $obj->sort();
+
         $res = [12, 21, 23, 32, 34, 43, 45, 54, 56, 65, 67, 76, 78, 87, 89, 98];
         $this->assertEquals($res, $obj->getValues());
     }

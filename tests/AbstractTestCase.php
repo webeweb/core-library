@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Tests;
 
 use PHPUnit\Framework\TestCase;
+use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 
 /**
  * Abstract test case.
@@ -21,5 +22,30 @@ use PHPUnit\Framework\TestCase;
  * @abstract
  */
 abstract class AbstractTestCase extends TestCase {
+
+    /**
+     * cURL configuration.
+     *
+     * @var CURLConfiguration
+     */
+    protected $curlConfiguration;
+
+    /**
+     * cURL resource path.
+     *
+     * @var string
+     */
+    protected $curlResourcePath = "curl-library.php";
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function setUp() {
+        parent::setUp();
+
+        // Set a cURL configuration mock.
+        $this->curlConfiguration = new CURLConfiguration();
+        $this->curlConfiguration->setHost("https://webeweb.dev/");
+    }
 
 }

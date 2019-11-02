@@ -16,37 +16,25 @@ use WBW\Library\Core\Exception\Argument\StringArgumentException;
 use WBW\Library\Core\Exception\Network\CURLRequestCallException;
 use WBW\Library\Core\Network\CURL\Request\CURLGetRequest;
 use WBW\Library\Core\Network\HTTP\HTTPHelper;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * cURL GET request test.
+ * cURL "GET" request test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Request
  */
-class CURLGetRequestTest extends AbstractCURLRequestTest {
+class CURLGetRequestTest extends AbstractTestCase {
 
     /**
      * Tests addHeader() method.
      *
      * @return void
-     */
-    public function testAddHeader() {
-
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
-
-        $obj->addHeader("name", "value");
-        $res = ["name" => "value"];
-        $this->assertEquals($res, $obj->getHeaders());
-    }
-
-    /**
-     * Tests addHeader() method.
-     *
-     * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testAddHeaderWithStringArgumentException() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         try {
 
@@ -62,24 +50,11 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests addQueryData() method.
      *
      * @return void
-     */
-    public function testAddQueryData() {
-
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
-
-        $obj->addQueryData("name", "value");
-        $res = ["name" => "value"];
-        $this->assertEquals($res, $obj->getQueryData());
-    }
-
-    /**
-     * Tests addQueryData() method.
-     *
-     * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testAddQueryDataWithStringArgumentException() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         try {
 
@@ -95,15 +70,15 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithAllowEncoding() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->getConfiguration()->setAllowEncoding(true);
 
         $res = $obj->call();
-
         $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
@@ -112,15 +87,15 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithConnectTimeout() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->getConfiguration()->setConnectTimeout(30);
 
         $res = $obj->call();
-
         $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
@@ -129,15 +104,15 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithDebug() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->getConfiguration()->setDebug(true);
 
         $res = $obj->call();
-
         $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
@@ -146,21 +121,21 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithHTTPCodes() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         foreach (HTTPHelper::getHTTPStatus() as $code) {
             try {
 
                 $obj->addQueryData("code", $code);
 
-                $rslt = $obj->call();
-
-                $this->assertEquals($code, $rslt->getResponseInfo()["http_code"]);
-                $this->assertGreaterThanOrEqual(200, $rslt->getResponseInfo()["http_code"]);
-                $this->assertLessThanOrEqual(299, $rslt->getResponseInfo()["http_code"]);
+                $res = $obj->call();
+                $this->assertEquals($code, $res->getResponseInfo()["http_code"]);
+                $this->assertGreaterThanOrEqual(200, $res->getResponseInfo()["http_code"]);
+                $this->assertLessThanOrEqual(299, $res->getResponseInfo()["http_code"]);
             } catch (Exception $ex) {
 
                 $this->assertInstanceOf(CURLRequestCallException::class, $ex);
@@ -174,30 +149,16 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithHeader() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addHeader("h", "v");
 
-        // ===
         $resH = $obj->call();
-
         $this->assertContains("h: v", $resH->getRequestHeader());
-        $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, json_decode($resH->getResponseBody(), true)["method"]);
-        $this->assertEquals(200, $resH->getResponseInfo()["http_code"]);
-
-        $obj->removeHeader("h");
-
-        /* === JSON ======================================================== */
-        $obj->addHeader("Content-Type", "application/json");
-        $obj->addPostData("name", "value");
-
-        $resJSON = $obj->call();
-
-        $this->assertContains("Content-Type: application/json", $resJSON->getRequestHeader());
-        $this->assertContains('{"name":"value"}', $resJSON->getRequestBody());
         $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, json_decode($resH->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $resH->getResponseInfo()["http_code"]);
     }
@@ -206,15 +167,34 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testCallWithHeaderApplicationJSON() {
+
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
+
+        $obj->addHeader("Content-Type", "application/json");
+        $obj->addPostData("name", "value");
+
+        $res = $obj->call();
+        $this->assertContains("Content-Type: application/json", $res->getRequestHeader());
+        $this->assertContains('{"name":"value"}', $res->getRequestBody());
+        $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
+    }
+
+    /**
+     * Tests call() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithRequestTimeout() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->getConfiguration()->setRequestTimeout(30);
 
         $res = $obj->call();
-
         $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
@@ -223,10 +203,11 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithRequestTimeoutException() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->getConfiguration()->setRequestTimeout(10);
         $obj->addQueryData("sleep", 60);
@@ -246,15 +227,15 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithSSLVerification() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->getConfiguration()->setSslVerification(false);
 
         $res = $obj->call();
-
         $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
@@ -263,15 +244,15 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests call() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCallWithVerbose() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->getConfiguration()->setVerbose(true);
 
         $res = $obj->call();
-
         $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
@@ -280,10 +261,11 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests the clearHeader() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testClearHeaders() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addHeader("name", "value");
         $this->assertCount(1, $obj->getHeaders());
@@ -296,10 +278,11 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests the clearQueryData() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testClearQueryData() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addQueryData("name", "value");
         $this->assertCount(1, $obj->getQueryData());
@@ -312,27 +295,29 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests __construct() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testConstruct() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
-        $this->assertSame($this->configuration, $obj->getConfiguration());
+        $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
         $this->assertEquals(CURLGetRequest::HTTP_METHOD_GET, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
-        $this->assertEquals("testCall.php", $obj->getResourcePath());
+        $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());
     }
 
     /**
      * Tests removeHeader() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testRemoveHeader() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addHeader("name", "value");
         $this->assertCount(1, $obj->getHeaders());
@@ -348,10 +333,11 @@ class CURLGetRequestTest extends AbstractCURLRequestTest {
      * Tests removeQueryData() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testRemoveQueryData() {
 
-        $obj = new CURLGetRequest($this->configuration, self::RESOURCE_PATH);
+        $obj = new CURLGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addQueryData("name", "value");
         $this->assertCount(1, $obj->getQueryData());

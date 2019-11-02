@@ -33,6 +33,7 @@ class AddressTraitTest extends AbstractTestCase {
      * {@inheritdoc}
      */
     protected function setUp() {
+        parent::setUp();
 
         $this->address = $this->getObjectForTrait(AddressTrait::class);
     }

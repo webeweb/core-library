@@ -19,6 +19,7 @@ use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Network\CURL\Request
+ * @deprecated since 6.0.0 use {http://docs.guzzlephp.org/en/stable/} instead
  */
 class CURLDeleteRequest extends AbstractCURLRequest {
 

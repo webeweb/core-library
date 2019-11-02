@@ -11,9 +11,13 @@
 
 namespace WBW\Library\Core\Tests\Validation;
 
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
+use WBW\Library\Core\Validation\API\ValidationRuleInterface;
+use WBW\Library\Core\Validation\API\ValidationRuleSetInterface;
 use WBW\Library\Core\Validation\API\ValidationStatusInterface;
 use WBW\Library\Core\Validation\DefaultValidator;
+use WBW\Library\Core\Validation\RuleSet\DefaultValidationRuleSet;
 
 /**
  * Default validator test.
@@ -21,7 +25,35 @@ use WBW\Library\Core\Validation\DefaultValidator;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation
  */
-class DefaultValidatorTest extends AbstractValidationTest {
+class DefaultValidatorTest extends AbstractTestCase {
+
+    /**
+     * Rule.
+     *
+     * @var ValidationRuleInterface
+     */
+    private $rule;
+
+    /**
+     * Rule set.
+     *
+     * @var ValidationRuleSetInterface
+     */
+    private $ruleSet;
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function setUp() {
+        parent::setUp();
+
+        // Set a Validation rule mock.
+        $this->rule = new TestValidationRule();
+
+        // Set a Validation rule set mock.
+        $this->ruleSet = new DefaultValidationRuleSet();
+        $this->ruleSet->addRule($this->rule);
+    }
 
     /**
      * Tests the __construct() method.

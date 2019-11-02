@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Validation\Rule;
 
+use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
-use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
 
 /**
  * Abstract validation rule test.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\Validation\AbstractValidationTest;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Validation\Rule
  */
-class AbstractValidationRuleTest extends AbstractValidationTest {
+class AbstractValidationRuleTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.

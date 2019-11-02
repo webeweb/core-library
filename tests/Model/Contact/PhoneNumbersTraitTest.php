@@ -33,6 +33,7 @@ class PhoneNumbersTraitTest extends AbstractTestCase {
      * {@inheritdoc}
      */
     protected function setUp() {
+        parent::setUp();
 
         $this->phoneNumbers = $this->getObjectForTrait(PhoneNumbersTrait::class);
     }
