@@ -3,9 +3,18 @@ CHANGELOG
 
 ### master
 
+> IMPORTANT NOTICE: The following classes has been deprecated
+> - WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest
+> - WBW\Library\Core\Network\CURL\Request\CURLGetRequest
+> - WBW\Library\Core\Network\CURL\Request\CURLHeadRequest
+> - WBW\Library\Core\Network\CURL\Request\CURLOptionsRequest
+> - WBW\Library\Core\Network\CURL\Request\CURLPatchRequest
+> - WBW\Library\Core\Network\CURL\Request\CURLPostRequest
+> - WBW\Library\Core\Network\CURL\Request\CURLPutRequest
+
 - Add CHANGELOG
 - Add PHP extensions into Composer
-- Add Quadratus model classes
+- Add third party Quadratus
 - Change license
 - Fix Numeric helpers (Float/Double/Integer) when the argument is a negative number
 - Remove "final" keyword
