@@ -113,18 +113,16 @@ abstract class AbstractDatabase {
      */
     public function prepareInsert($table, array $values) {
 
-        // Initialize the query.
-        $query = [];
+        $query = [
+            "INSERT INTO ",
+            $table,
+            " (`",
+            implode("`, `", array_keys($values)),
+            "`) VALUES (",
+            implode(", ", array_values($values)),
+            ")",
+        ];
 
-        $query[] = "INSERT INTO ";
-        $query[] = $table;
-        $query[] = " (`";
-        $query[] = implode("`, `", array_keys($values));
-        $query[] = "`) VALUES (";
-        $query[] = implode(", ", array_values($values));
-        $query[] = ")";
-
-        // Return the query.
         return implode("", $query);
     }
 
@@ -137,21 +135,18 @@ abstract class AbstractDatabase {
      */
     public function prepareUpdate($table, array $values) {
 
-        // Initialize the SET.
         $set = [];
         foreach ($values as $k => $v) {
             $set[] = "`" . $k . "` = " . $v;
         }
 
-        // Initialize the query.
-        $query = [];
+        $query = [
+            "UPDATE ",
+            $table,
+            " SET ",
+            implode(", ", $set),
+        ];
 
-        $query[] = "UPDATE ";
-        $query[] = $table;
-        $query[] = " SET ";
-        $query[] = implode(", ", $set);
-
-        // Return the query.
         return implode("", $query);
     }
 
