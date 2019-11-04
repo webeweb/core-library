@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Validation\Rule;
+namespace WBW\Library\Core\Validator\Rule;
 
-use WBW\Library\Core\Validation\API\ValidationRuleInterface;
+use WBW\Library\Core\Validator\API\ValidationRuleInterface;
 
 /**
  * Abstract validation rule.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Validation\Rule
+ * @package WBW\Library\Core\Validator\Rule
  * @abstract
  */
 abstract class AbstractValidationRule implements ValidationRuleInterface {

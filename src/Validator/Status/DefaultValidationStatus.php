@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Validation\Status;
+namespace WBW\Library\Core\Validator\Status;
 
 /**
  * Default validation status.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Validation\Status
+ * @package WBW\Library\Core\Validator\Status
  */
 class DefaultValidationStatus extends AbstractValidationStatus {
 

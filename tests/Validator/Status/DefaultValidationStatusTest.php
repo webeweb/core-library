@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Validation\Status;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Validation\Status\DefaultValidationStatus;
+use WBW\Library\Core\Validator\Status\DefaultValidationStatus;
 
 /**
  * Default validation status test.

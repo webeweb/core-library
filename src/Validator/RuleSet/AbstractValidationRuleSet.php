@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Validation\RuleSet;
+namespace WBW\Library\Core\Validator\RuleSet;
 
-use WBW\Library\Core\Validation\API\ValidationRuleInterface;
-use WBW\Library\Core\Validation\API\ValidationRuleSetInterface;
+use WBW\Library\Core\Validator\API\ValidationRuleInterface;
+use WBW\Library\Core\Validator\API\ValidationRuleSetInterface;
 
 /**
  * Abstract validation rule set.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Validation\RuleSet
+ * @package WBW\Library\Core\Validator\RuleSet
  * @abstract
  */
 abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {

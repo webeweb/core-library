@@ -13,11 +13,11 @@ namespace WBW\Library\Core\Tests\Validation;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
-use WBW\Library\Core\Validation\API\ValidationRuleInterface;
-use WBW\Library\Core\Validation\API\ValidationRuleSetInterface;
-use WBW\Library\Core\Validation\API\ValidationStatusInterface;
-use WBW\Library\Core\Validation\DefaultValidator;
-use WBW\Library\Core\Validation\RuleSet\DefaultValidationRuleSet;
+use WBW\Library\Core\Validator\API\ValidationRuleInterface;
+use WBW\Library\Core\Validator\API\ValidationRuleSetInterface;
+use WBW\Library\Core\Validator\API\ValidationStatusInterface;
+use WBW\Library\Core\Validator\DefaultValidator;
+use WBW\Library\Core\Validator\RuleSet\DefaultValidationRuleSet;
 
 /**
  * Default validator test.

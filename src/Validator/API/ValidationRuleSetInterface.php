@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Validation\API;
+namespace WBW\Library\Core\Validator\API;
 
 /**
  * Validation rule set interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Validation\API
+ * @package WBW\Library\Core\Validator\API
  */
 interface ValidationRuleSetInterface {
 

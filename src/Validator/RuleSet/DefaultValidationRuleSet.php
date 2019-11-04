@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Validation\RuleSet;
+namespace WBW\Library\Core\Validator\RuleSet;
 
 /**
  * Default validation rule set.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Validation\RuleSet
+ * @package WBW\Library\Core\Validator\RuleSet
  */
 class DefaultValidationRuleSet extends AbstractValidationRuleSet {
 
