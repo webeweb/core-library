@@ -4,6 +4,9 @@ CHANGELOG
 ### master
 
 > IMPORTANT NOTICE: The following classes has been removed
+> - WBW\Library\Core\ChartAccounts\Model\AbstractChartAccountsModel
+> - WBW\Library\Core\ChartAccounts\Model\ChartAccountsAccount
+> - WBW\Library\Core\ChartAccounts\Model\ChartAccountsType
 > - WBW\Library\Core\Model\Choices\CivilityChoices
 > - WBW\Library\Core\Model\Choices\CivilityChoicesInterface
 > - WBW\Library\Core\Model\Choices\MaritalStatusChoices
@@ -21,6 +24,7 @@ CHANGELOG
 > - WBW\Library\Core\Network\CURL\Request\CURLPutRequest
 
 - Add CHANGELOG
+- Add Civility interface
 - Add date/time Birth date trait
 - Add date/time Created at trait
 - Add date/time Date trait
@@ -36,15 +40,19 @@ CHANGELOG
 - Add float Size trait
 - Add float VAT amount trait
 - Add float VAT total trait
+- Add integer Civility trait
 - Add integer Count trait
 - Add integer Height trait
 - Add integer Id trait
 - Add integer Maximum trait
+- Add integer Marital status trait
 - Add integer Minimum trait
+- Add integer Port trait
 - Add integer Position trait
 - Add integer Size trait
 - Add integer Type trait
 - Add integer Width trait
+- Add Marital status interface
 - Add string Accounting code trait
 - Add string Comment trait
 - Add string Content trait
@@ -57,11 +65,13 @@ CHANGELOG
 - Add string Mime type trait
 - Add string Name trait
 - Add string Number trait
+- Add string Password trait
 - Add string Pathname trait
 - Add string Filename trait
 - Add string Mime type trait
 - Add string Reference trait
 - Add string Source trait
+- Add string Username trait
 - Add third party Adoria
 - Add third party Quadratus
 - Change license
