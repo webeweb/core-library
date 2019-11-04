@@ -49,15 +49,12 @@ class OracleMySQLDatabase extends AbstractDatabase {
      */
     protected function connect() {
 
-        // Prepare the parameters.
         $searches   = ["%HOST%", "%PORT%", "%DATABASE%"];
-        $replaces   = [$this->getAuthenticator()->getHost(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
+        $replaces   = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
         $attributes = [PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"];
 
-        // Replace the parameters.
-        $dsn = StringHelper::replace(self::DEFAULT_DSN, $searches, $replaces);
+        $dsn = str_replace( $searches, $replaces, self::DEFAULT_DSN);
 
-        // Return the connection.
         return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword(), $attributes);
     }
 }

@@ -12,7 +12,6 @@
 namespace WBW\Library\Core\Database;
 
 use PDO;
-use WBW\Library\Core\Argument\StringHelper;
 use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 use WBW\Library\Core\Security\Authenticator;
 
@@ -47,19 +46,15 @@ class MicrosoftAccessDatabase extends AbstractDatabase {
      */
     protected function connect() {
 
-        // Check if the filename exists.
         if (false === file_exists($this->getDatabase())) {
             throw new FileNotFoundException($this->getDatabase());
         }
 
-        // Prepare the parameters.
         $searches = ["%DBQ%", "%UID%", "%PWD%"];
         $replaces = [$this->getDatabase(), $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword()];
 
-        // Replace the parameters.
-        $dsn = StringHelper::replace(self::DEFAULT_DSN, $searches, $replaces);
+        $dsn = str_replace($searches, $replaces, self::DEFAULT_DSN);
 
-        // Return the connection.
         return new PDO($dsn);
     }
 }

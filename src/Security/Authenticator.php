@@ -11,7 +11,8 @@
 
 namespace WBW\Library\Core\Security;
 
-use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+use WBW\Library\Core\Model\Attribute\IntegerPortTrait;
+use WBW\Library\Core\Model\Attribute\StringHostnameTrait;
 
 /**
  * Authenticator.
@@ -21,12 +22,8 @@ use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
  */
 class Authenticator {
 
-    /**
-     * Host.
-     *
-     * @var string
-     */
-    private $host;
+    use IntegerPortTrait;
+    use StringHostnameTrait;
 
     /**
      * Password authentication.
@@ -34,13 +31,6 @@ class Authenticator {
      * @var PasswordAuthentication
      */
     private $passwordAuthentication;
-
-    /**
-     * Port.
-     *
-     * @var int
-     */
-    private $port;
 
     /**
      * Scheme.
@@ -61,30 +51,12 @@ class Authenticator {
     }
 
     /**
-     * Get the host.
-     *
-     * @return string Returns the host.
-     */
-    public function getHost() {
-        return $this->host;
-    }
-
-    /**
      * Get the password authentication.
      *
      * @return PasswordAuthentication Returns this password authentication.
      */
     public function getPasswordAuthentication() {
         return $this->passwordAuthentication;
-    }
-
-    /**
-     * Get the port.
-     *
-     * @return int Returns the port.
-     */
-    public function getPort() {
-        return $this->port;
     }
 
     /**
@@ -97,17 +69,6 @@ class Authenticator {
     }
 
     /**
-     * Set the host.
-     *
-     * @param string $host
-     * @return Authenticator Returns this authenticator.
-     */
-    public function setHost($host) {
-        $this->host = $host;
-        return $this;
-    }
-
-    /**
      * Set the password authenticator.
      *
      * @param PasswordAuthentication $passwordAuthentication The password authentication.
@@ -115,21 +76,6 @@ class Authenticator {
      */
     public function setPasswordAuthentication(PasswordAuthentication $passwordAuthentication) {
         $this->passwordAuthentication = $passwordAuthentication;
-        return $this;
-    }
-
-    /**
-     * Set the port.
-     *
-     * @param int $port The port.
-     * @return Authenticator Returns this authenticator.
-     * @throws IllegalArgumentException Throws an illegal argument exception if the port isn't between 1 and 65536.
-     */
-    public function setPort($port) {
-        if ($port < 0 || 65536 < $port) {
-            throw new IllegalArgumentException("The port must be between 1 and 65536");
-        }
-        $this->port = $port;
         return $this;
     }
 

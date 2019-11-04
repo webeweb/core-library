@@ -11,8 +11,6 @@
 
 namespace WBW\Library\Core\Tests\Security;
 
-use Exception;
-use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
 use WBW\Library\Core\Tests\AbstractTestCase;
@@ -51,23 +49,10 @@ class AuthenticatorTest extends AbstractTestCase {
 
         $obj = new Authenticator(null, $this->passwordAuthentication);
 
-        $this->assertNull($obj->getHost());
+        $this->assertNull($obj->getHostname());
         $this->assertSame($this->passwordAuthentication, $obj->getPasswordAuthentication());
         $this->assertNull($obj->getPort());
         $this->assertNull($obj->getScheme());
-    }
-
-    /**
-     * Tests the setHost() method.
-     *
-     * @return void
-     */
-    public function testSetHost() {
-
-        $obj = new Authenticator(null, $this->passwordAuthentication);
-
-        $obj->setHost("host");
-        $this->assertEquals("host", $obj->getHost());
     }
 
     /**
@@ -82,48 +67,6 @@ class AuthenticatorTest extends AbstractTestCase {
         $obj->setPasswordAuthentication(new PasswordAuthentication(null, null));
         $this->assertNull($obj->getPasswordAuthentication()->getUsername());
         $this->assertNull($obj->getPasswordAuthentication()->getPassword());
-    }
-
-    /**
-     * Tests the setPort() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetPort() {
-
-        $obj = new Authenticator(null, $this->passwordAuthentication);
-
-        $obj->setPort(22);
-        $this->assertEquals(22, $obj->getPort());
-    }
-
-    /**
-     * Tests the setPort() method.
-     *
-     * @return void
-     */
-    public function testSetPortWithIllegalArgumentException() {
-
-        $obj = new Authenticator(null, $this->passwordAuthentication);
-
-        try {
-
-            $obj->setPort(-1);
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
-            $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
-        }
-
-        try {
-
-            $obj->setPort(65537);
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
-            $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
-        }
     }
 
     /**
