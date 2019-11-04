@@ -48,19 +48,6 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccountingCode() method.
-     *
-     * @return void
-     */
-    public function testSetAccountingCode() {
-
-        $obj = new Line();
-
-        $obj->setAccountingCode("AccountingCode");
-        $this->assertEquals("AccountingCode", $obj->getAccountingCode());
-    }
-
-    /**
      * Tests the setAmount() method.
      *
      * @return void
@@ -183,19 +170,6 @@ class LineTest extends AbstractTestCase {
 
         $obj->setInvoiceNumber("InvoiceNumber");
         $this->assertEquals("InvoiceNumber", $obj->getInvoiceNumber());
-    }
-
-    /**
-     * Tests the setReference() method.
-     *
-     * @return void
-     */
-    public function testSetReference() {
-
-        $obj = new Line();
-
-        $obj->setReference("Reference");
-        $this->assertEquals("Reference", $obj->getReference());
     }
 
     /**

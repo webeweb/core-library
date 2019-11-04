@@ -12,6 +12,8 @@
 namespace WBW\Library\Core\ThirdParty\Adoria\Model;
 
 use DateTime;
+use WBW\Library\Core\Model\Attribute\StringAccountingCodeTrait;
+use WBW\Library\Core\Model\Attribute\StringReferenceTrait;
 
 /**
  * Line.
@@ -21,12 +23,8 @@ use DateTime;
  */
 class Line {
 
-    /**
-     * Accounting code.
-     *
-     * @var string
-     */
-    private $accountingCode;
+    use StringAccountingCodeTrait;
+    use StringReferenceTrait;
 
     /**
      * Amount.
@@ -92,13 +90,6 @@ class Line {
     private $invoiceNumber;
 
     /**
-     * Reference.
-     *
-     * @var string
-     */
-    private $reference;
-
-    /**
      * Subledger account.
      *
      * @var string
@@ -110,15 +101,6 @@ class Line {
      */
     public function __construct() {
         // NOTHING TO DO.
-    }
-
-    /**
-     * Get the accounting code.
-     *
-     * @return string Returns the accounting code.
-     */
-    public function getAccountingCode() {
-        return $this->accountingCode;
     }
 
     /**
@@ -203,32 +185,12 @@ class Line {
     }
 
     /**
-     * Get the reference.
-     *
-     * @return string Returns the reference.
-     */
-    public function getReference() {
-        return $this->reference;
-    }
-
-    /**
      * Get the subledger account.
      *
      * @return string Returns the subledger account.
      */
     public function getSubledgerAccount() {
         return $this->subledgerAccount;
-    }
-
-    /**
-     * Set the accounting code.
-     *
-     * @param string $accountingCode The accounting code.
-     * @return Line Returns this line.
-     */
-    public function setAccountingCode($accountingCode) {
-        $this->accountingCode = $accountingCode;
-        return $this;
     }
 
     /**
@@ -327,17 +289,6 @@ class Line {
      */
     public function setInvoiceNumber($invoiceNumber) {
         $this->invoiceNumber = $invoiceNumber;
-        return $this;
-    }
-
-    /**
-     * Set the reference.
-     *
-     * @param string $reference The reference.
-     * @return Line Returns this line.
-     */
-    public function setReference($reference) {
-        $this->reference = $reference;
         return $this;
     }
 
