@@ -262,7 +262,7 @@ class Line {
     /**
      * Set the invoice date.
      *
-     * @param DateTime $invoiceDate The invoice date.
+     * @param DateTime|null $invoiceDate The invoice date.
      * @return Line Returns this line.
      */
     public function setInvoiceDate(DateTime $invoiceDate = null) {
@@ -273,10 +273,10 @@ class Line {
     /**
      * Set the invoice due date.
      *
-     * @param DateTime $invoiceDueDate The invoice due date.
+     * @param DateTime|null $invoiceDueDate The invoice due date.
      * @return Line Returns this line.
      */
-    public function setInvoiceDueDate($invoiceDueDate) {
+    public function setInvoiceDueDate(DateTime $invoiceDueDate = null) {
         $this->invoiceDueDate = $invoiceDueDate;
         return $this;
     }

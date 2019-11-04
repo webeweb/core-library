@@ -40,7 +40,7 @@ trait IntegerIdTrait {
      *
      * @param int $id The id.
      */
-    private function setId($id) {
+    protected function setId($id) {
         $this->id = $id;
         return $this;
     }

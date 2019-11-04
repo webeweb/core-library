@@ -36,6 +36,7 @@ class SFTPClient extends AbstractFTPClient {
      */
     public function __construct(Authenticator $authenticator) {
         parent::__construct($authenticator);
+
         $this->getAuthenticator()->setScheme("sftp");
         if (null === $this->getAuthenticator()->getPort()) {
             $this->getAuthenticator()->setPort(22);
@@ -62,12 +63,15 @@ class SFTPClient extends AbstractFTPClient {
      * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */
     public function connect() {
-        $host = $this->getAuthenticator()->getHost();
+
+        $host = $this->getAuthenticator()->getHostname();
         $port = $this->getAuthenticator()->getPort();
+
         $this->setConnection(ssh2_connect($host, $port));
         if (false === $this->getConnection()) {
             throw $this->newFTPException("connection failed");
         }
+
         return $this;
     }
 
@@ -104,11 +108,14 @@ class SFTPClient extends AbstractFTPClient {
      * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */
     public function login() {
+
         $username = $this->getAuthenticator()->getPasswordAuthentication()->getUsername();
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
+
         if (false === ssh2_auth_password($this->getConnection(), $username, $password)) {
             throw $this->newFTPException("login failed");
         }
+
         return $this;
     }
 

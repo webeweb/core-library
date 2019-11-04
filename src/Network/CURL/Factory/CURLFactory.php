@@ -39,6 +39,7 @@ class CURLFactory implements HTTPInterface {
      * @param string $resourcePath The resource path.
      * @return CURLRequestInterface Returns the cURL request.
      * @throws InvalidHTTPMethodException Throws an invalid HTTP method exception if the method is not implemented.
+     * @deprecated since 6.0.0 use {http://docs.guzzlephp.org/en/stable/} instead
      */
     public static function getInstance($method, CURLConfiguration $configuration = null, $resourcePath = null) {
 

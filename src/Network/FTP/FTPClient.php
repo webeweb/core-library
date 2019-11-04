@@ -29,6 +29,7 @@ class FTPClient extends AbstractFTPClient {
      */
     public function __construct(Authenticator $authenticator) {
         parent::__construct($authenticator);
+
         $this->getAuthenticator()->setScheme("ftp");
         if (null === $this->getAuthenticator()->getPort()) {
             $this->getAuthenticator()->setPort(21);
@@ -56,12 +57,15 @@ class FTPClient extends AbstractFTPClient {
      * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */
     public function connect($timeout = 90) {
-        $host = $this->getAuthenticator()->getHost();
+
+        $host = $this->getAuthenticator()->getHostname();
         $port = $this->getAuthenticator()->getPort();
+
         $this->setConnection(@ftp_connect($host, $port, $timeout));
         if (false === $this->getConnection()) {
             throw $this->newFTPException("connection failed");
         }
+
         return $this;
     }
 
@@ -86,11 +90,14 @@ class FTPClient extends AbstractFTPClient {
      * @throws FTPException Throws a FTP exception if an I/O error occurs.
      */
     public function login() {
+
         $username = $this->getAuthenticator()->getPasswordAuthentication()->getUsername();
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
+
         if (false === @ftp_login($this->getConnection(), $username, $password)) {
             throw $this->newFTPException("login failed");
         }
+
         return $this;
     }
 

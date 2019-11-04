@@ -42,12 +42,12 @@ class Authenticator {
     /**
      * Constructor.
      *
-     * @param string $host The host.
+     * @param string $hostname The hostname.
      * @param PasswordAuthentication $passwordAuthentication
      */
-    public function __construct($host, PasswordAuthentication $passwordAuthentication) {
-        $this->host                   = $host;
-        $this->passwordAuthentication = $passwordAuthentication;
+    public function __construct($hostname, PasswordAuthentication $passwordAuthentication) {
+        $this->setHostname($hostname);
+        $this->setPasswordAuthentication($passwordAuthentication);
     }
 
     /**

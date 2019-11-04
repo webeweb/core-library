@@ -71,14 +71,24 @@ abstract class AbstractFTPClient {
      * @return FTPException Returns a new FTP exception.
      */
     protected function newFTPException($message) {
-        return new FTPException(sprintf("%s://%s:%s@%s:%d " . $message, $this->authenticator->getScheme(), $this->authenticator->getPasswordAuthentication()->getUsername(), $this->authenticator->getPasswordAuthentication()->getPassword(), $this->authenticator->getHost(), $this->authenticator->getPort()));
+
+        $format = "%s://%s:%s@%s:%d ${message}";
+        $args   = [
+            $this->getAuthenticator()->getScheme(),
+            $this->getAuthenticator()->getPasswordAuthentication()->getUsername(),
+            $this->getAuthenticator()->getPasswordAuthentication()->getPassword(),
+            $this->getAuthenticator()->getHostname(),
+            $this->getAuthenticator()->getPort(),
+        ];
+
+        return new FTPException(vsprintf($format, $args));
     }
 
     /**
      * Set the authenticator.
      *
      * @param Authenticator $authenticator The authenticator.
-     * @returnAbstractFTPClient Returns this abstract FTP client.
+     * @return AbstractFTPClient Returns this FTP client.
      */
     protected function setAuthenticator(Authenticator $authenticator) {
         $this->authenticator = $authenticator;
@@ -89,7 +99,7 @@ abstract class AbstractFTPClient {
      * Set the connection.
      *
      * @param mixed $connection The connection.
-     * @returnAbstractFTPClient Returns this abstract FTP client.
+     * @return AbstractFTPClient Returns this FTP client.
      */
     protected function setConnection($connection) {
         $this->connection = $connection;
