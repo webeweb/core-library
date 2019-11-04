@@ -7,6 +7,7 @@ CHANGELOG
 > - WBW\Library\Core\ChartAccounts\Model\AbstractChartAccountsModel
 > - WBW\Library\Core\ChartAccounts\Model\ChartAccountsAccount
 > - WBW\Library\Core\ChartAccounts\Model\ChartAccountsType
+> - WBW\Library\Core\Exception\ChartAccounts\AccountAlreadyExistsException
 > - WBW\Library\Core\Model\Choices\CivilityChoices
 > - WBW\Library\Core\Model\Choices\CivilityChoicesInterface
 > - WBW\Library\Core\Model\Choices\MaritalStatusChoices
