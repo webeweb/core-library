@@ -3,6 +3,14 @@ CHANGELOG
 
 ### master
 
+> IMPORTANT NOTICE: The following classes has been removed
+> - WBW\Library\Core\Model\Choices\CivilityChoices
+> - WBW\Library\Core\Model\Choices\CivilityChoicesInterface
+> - WBW\Library\Core\Model\Choices\MaritalStatusChoices
+> - WBW\Library\Core\Model\Choices\MaritalStatusChoicesInterface
+> - WBW\Library\Core\Model\Choices\VehicleMarkChoices
+> - WBW\Library\Core\Model\Choices\VehicleMarkChoicesInterface
+
 > IMPORTANT NOTICE: The following classes has been deprecated
 > - WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest
 > - WBW\Library\Core\Network\CURL\Request\CURLGetRequest
@@ -13,12 +21,53 @@ CHANGELOG
 > - WBW\Library\Core\Network\CURL\Request\CURLPutRequest
 
 - Add CHANGELOG
-- Add PHP extensions into Composer
+- Add date/time Birth date trait
+- Add date/time Created at trait
+- Add date/time Date trait
+- Add date/time Updated at trait
+- Add float Average trait
+- Add float Discount rate trait
+- Add float Excluding VAT price trait
+- Add float Excluding VAT total trait
+- Add float Including VAT price trait
+- Add float Including VAT total trait
+- Add float Quantity trait
+- Add float Rate trait
+- Add float Size trait
+- Add float VAT amount trait
+- Add float VAT total trait
+- Add integer Count trait
+- Add integer Height trait
+- Add integer Id trait
+- Add integer Maximum trait
+- Add integer Minimum trait
+- Add integer Position trait
+- Add integer Size trait
+- Add integer Type trait
+- Add integer Width trait
+- Add string Accounting code trait
+- Add string Comment trait
+- Add string Content trait
+- Add string Description trait
+- Add string Directory trait
+- Add string First name trait
+- Add string Label trait
+- Add string Lang trait
+- Add string Last name trait
+- Add string Mime type trait
+- Add string Name trait
+- Add string Number trait
+- Add string Pathname trait
+- Add string Filename trait
+- Add string Mime type trait
+- Add string Reference trait
+- Add string Source trait
+- Add third party Adoria
 - Add third party Quadratus
 - Change license
 - Fix Numeric helpers (Float/Double/Integer) when the argument is a negative number
 - Remove "final" keyword
-- Move SkiData classes into ThirdParty package
+- Move SkiData classes into Third party package
 - Update Composer (according to Composer schema)
 - Update Scrutinizer-CI configuration
 

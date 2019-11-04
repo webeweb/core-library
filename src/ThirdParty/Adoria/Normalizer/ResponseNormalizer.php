@@ -80,6 +80,10 @@ class ResponseNormalizer {
         $lines = [];
 
         $data = ArrayHelper::get($decodedResponse, "Datas", []);
+        if (null === $data) {
+            $data = [];
+        }
+
         foreach ($data as $current) {
             $lines[] = static::denormalizeLine(json_encode($current));
         }
