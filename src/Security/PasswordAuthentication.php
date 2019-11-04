@@ -11,6 +11,9 @@
 
 namespace WBW\Library\Core\Security;
 
+use WBW\Library\Core\Model\Attribute\StringPasswordTrait;
+use WBW\Library\Core\Model\Attribute\StringUsernameTrait;
+
 /**
  * Password authentication.
  *
@@ -19,19 +22,8 @@ namespace WBW\Library\Core\Security;
  */
 class PasswordAuthentication {
 
-    /**
-     * Password.
-     *
-     * @var string
-     */
-    private $password;
-
-    /**
-     * Username.
-     *
-     * @var string
-     */
-    private $username;
+    use StringPasswordTrait;
+    use StringUsernameTrait;
 
     /**
      * Constructor.
@@ -42,45 +34,5 @@ class PasswordAuthentication {
     public function __construct($username, $password) {
         $this->setPassword($password);
         $this->setUsername($username);
-    }
-
-    /**
-     * Get the password.
-     *
-     * @return string Returns the password.
-     */
-    public function getPassword() {
-        return $this->password;
-    }
-
-    /**
-     * Get the username.
-     *
-     * @return string Returns the username.
-     */
-    public function getUsername() {
-        return $this->username;
-    }
-
-    /**
-     * Set the password.
-     *
-     * @param string $password The password.
-     * @return PasswordAuthentication Returns the password authentication.
-     */
-    public function setPassword($password) {
-        $this->password = $password;
-        return $this;
-    }
-
-    /**
-     * Set the username.
-     *
-     * @param string $username The username.
-     * @return PasswordAuthentication Returns the password authentication.
-     */
-    public function setUsername($username) {
-        $this->username = $username;
-        return $this;
     }
 }

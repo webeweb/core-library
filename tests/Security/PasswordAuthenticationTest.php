@@ -31,36 +31,7 @@ class PasswordAuthenticationTest extends AbstractTestCase {
 
         $obj = new PasswordAuthentication(null, null);
 
-        $this->assertNull($obj->getUsername());
-    }
-
-    /**
-     * Tests the setPassword() method.
-     *
-     * @return void
-     */
-    public function testSetPassword() {
-
-        $obj = new PasswordAuthentication(null, null);
-
         $this->assertNull($obj->getPassword());
-
-        $obj->setPassword("password");
-        $this->assertEquals("password", $obj->getPassword());
-    }
-
-    /**
-     * Tests the setUsername() method.
-     *
-     * @return void
-     */
-    public function testSetUsername() {
-
-        $obj = new PasswordAuthentication(null, null);
-
         $this->assertNull($obj->getUsername());
-
-        $obj->setUsername("username");
-        $this->assertEquals("username", $obj->getUsername());
     }
 }
