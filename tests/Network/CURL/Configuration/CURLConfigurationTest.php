@@ -99,15 +99,11 @@ class CURLConfigurationTest extends AbstractTestCase {
         $obj = new CURLConfiguration();
         $obj->addHeader("name", "value");
 
-        // ===
         $obj->removeHeader("");
-        $res1 = ["name" => "value"];
-        $this->assertEquals($res1, $obj->getHeaders());
+        $this->assertEquals(["name" => "value"], $obj->getHeaders());
 
-        // ===
         $obj->removeHeader("name");
-        $res2 = [];
-        $this->assertEquals($res2, $obj->getHeaders());
+        $this->assertEquals([], $obj->getHeaders());
     }
 
     /**
