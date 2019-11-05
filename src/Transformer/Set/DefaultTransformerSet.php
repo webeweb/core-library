@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\ChartAccounts\Model;
+namespace WBW\Library\Core\Transformer\Set;
 
 /**
- * Chart of accounts type model.
+ * Default transformer set.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\ChartAccounts\Model
+ * @package WBW\Library\Core\Transformer\Set
  */
-class ChartAccountsType extends AbstractChartAccountsModel {
+class DefaultTransformerSet extends AbstractTransformerSet {
 
     /**
      * Constructor.

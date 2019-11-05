@@ -9,31 +9,31 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Scraping\Cleaner;
+namespace WBW\Library\Core\Tests\Transformer;
 
-use WBW\Library\Core\Scraping\Cleaner\StrReplaceScrapingCleaner;
+use WBW\Library\Core\Transformer\StrReplaceTransformer;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * str_replace scraping cleaner test.
+ * str_replace transformer test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Scraping\Cleaner
+ * @package WBW\Library\Core\Tests\Transformer
  */
-class StrReplaceScrapingCleanerTest extends AbstractTestCase {
+class StrReplaceScrapingTransformerTest extends AbstractTestCase {
 
     /**
-     * Tests the clean() method.
+     * Tests the transform() method.
      *
      * @return void
      */
-    public function testClean() {
+    public function testTransform() {
 
-        $obj = new StrReplaceScrapingCleaner(["search"], ["replace"]);
+        $obj = new StrReplaceTransformer(["search"], ["replace"]);
 
-        $this->assertNull($obj->clean(null));
-        $this->assertNull($obj->clean(true));
-        $this->assertEquals("replace", $obj->clean("search"));
+        $this->assertNull($obj->transform(null));
+        $this->assertNull($obj->transform(true));
+        $this->assertEquals("replace", $obj->transform("search"));
     }
 
     /**
@@ -43,7 +43,7 @@ class StrReplaceScrapingCleanerTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
-        $obj = new StrReplaceScrapingCleaner(["search"], ["replace"]);
+        $obj = new StrReplaceTransformer(["search"], ["replace"]);
 
         $this->assertEquals(["search"], $obj->getSearches());
         $this->assertEquals(["replace"], $obj->getReplaces());

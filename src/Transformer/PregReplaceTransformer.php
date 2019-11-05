@@ -9,15 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Scraping\Cleaner;
+namespace WBW\Library\Core\Transformer;
+
+use WBW\Library\Core\Transformer\API\TransformerInterface;
 
 /**
- * preg_replace scraping cleaner.
+ * preg_replace transformer.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Scraping\Cleaner
+ * @package WBW\Library\Core\Transformer
  */
-class PregReplaceScrapingCleaner {
+class PregReplaceTransformer implements TransformerInterface {
 
     /**
      * Pattern.
@@ -45,16 +47,6 @@ class PregReplaceScrapingCleaner {
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function clean($value) {
-        if (null === $value || false === is_string($value)) {
-            return null;
-        }
-        return preg_replace($this->getPattern(), $this->getReplacement(), $value);
-    }
-
-    /**
      * Get the pattern.
      *
      * @return string Returns the pattern.
@@ -76,9 +68,9 @@ class PregReplaceScrapingCleaner {
      * Set the pattern.
      *
      * @param string $pattern The pattern.
-     * @return SrapingPregReplaceCleaner Returns this preg_replace cleaner.
+     * @return TransformerInterface Returns this preg_replace transformer.
      */
-    protected function setPattern($pattern) {
+    public function setPattern($pattern) {
         $this->pattern = $pattern;
         return $this;
     }
@@ -87,10 +79,20 @@ class PregReplaceScrapingCleaner {
      * Set the replacement.
      *
      * @param string $replacement The replacement.
-     * @return SrapingPregReplaceCleaner Returns this preg_replace cleaner.
+     * @return TransformerInterface Returns this preg_replace transformer.
      */
-    protected function setReplacement($replacement) {
+    public function setReplacement($replacement) {
         $this->replacement = $replacement;
         return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function transform($value) {
+        if (null === $value || false === is_string($value)) {
+            return null;
+        }
+        return preg_replace($this->getPattern(), $this->getReplacement(), $value);
     }
 }

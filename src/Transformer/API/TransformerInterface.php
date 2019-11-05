@@ -9,21 +9,21 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Scraping\API;
+namespace WBW\Library\Core\Transformer\API;
 
 /**
- * Scraping cleaner interface.
+ * Transformer interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Scraping\API
+ * @package WBW\Library\Core\Transformer\API
  */
-interface ScrapingCleanerInterface {
+interface TransformerInterface {
 
     /**
-     * Clean a value.
+     * Transform a value.
      *
-     * @param string $value The value.
-     * @return mixed Return the cleaned value.
+     * @param mixed $value The value.
+     * @return mixed Return the transformed value.
      */
-    public function clean($value);
+    public function transform($value);
 }

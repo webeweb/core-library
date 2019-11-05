@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Scraping\Cleaner;
+namespace WBW\Library\Core\Transformer;
 
-use WBW\Library\Core\Scraping\API\ScrapingCleanerInterface;
+use WBW\Library\Core\Transformer\API\TransformerInterface;
 
 /**
- * trim scraping cleaner.
+ * trim transformer.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Scraping\Cleaner
+ * @package WBW\Library\Core\Transformer
  */
-class TrimScrapingCleaner implements ScrapingCleanerInterface {
+class TrimTransformer implements TransformerInterface {
 
     /**
      * Constructor.
@@ -31,7 +31,7 @@ class TrimScrapingCleaner implements ScrapingCleanerInterface {
     /**
      * {@inheritdoc}
      */
-    public function clean($value) {
+    public function transform($value) {
         if (null === $value || false === is_string($value)) {
             return null;
         }

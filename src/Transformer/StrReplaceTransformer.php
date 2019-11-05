@@ -9,15 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Scraping\Cleaner;
+namespace WBW\Library\Core\Transformer;
+
+use WBW\Library\Core\Transformer\API\TransformerInterface;
 
 /**
- * str_replace scraping cleaner.
+ * str_replace transformer.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Scraping\Cleaner
+ * @package WBW\Library\Core\Transformer
  */
-class StrReplaceScrapingCleaner {
+class StrReplaceTransformer implements TransformerInterface {
 
     /**
      * Replaces.
@@ -45,16 +47,6 @@ class StrReplaceScrapingCleaner {
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function clean($value) {
-        if (null === $value || false === is_string($value)) {
-            return null;
-        }
-        return str_replace($this->getSearches(), $this->getReplaces(), $value);
-    }
-
-    /**
      * Get the replaces.
      *
      * @return array Returns the replaces.
@@ -76,9 +68,9 @@ class StrReplaceScrapingCleaner {
      * Set the replaces.
      *
      * @param array $replaces The replaces.
-     * @return SrapingStringReplaceCleaner Returns this str_replace cleaner.
+     * @return TransformerInterface Returns this str_replace transformer.
      */
-    protected function setReplaces(array $replaces) {
+    public function setReplaces(array $replaces) {
         $this->replaces = $replaces;
         return $this;
     }
@@ -87,10 +79,20 @@ class StrReplaceScrapingCleaner {
      * Set the searches.
      *
      * @param array $searches The seaches.
-     * @return SrapingStringReplaceCleaner Returns this str_replace cleaner.
+     * @return TransformerInterface Returns this str_replace transformer.
      */
-    protected function setSearches(array $searches) {
+    public function setSearches(array $searches) {
         $this->searches = $searches;
         return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function transform($value) {
+        if (null === $value || false === is_string($value)) {
+            return null;
+        }
+        return str_replace($this->getSearches(), $this->getReplaces(), $value);
     }
 }
