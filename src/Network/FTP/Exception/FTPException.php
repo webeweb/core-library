@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\Network;
+namespace WBW\Library\Core\Network\FTP\Exception;
 
 use WBW\Library\Core\Exception\FileSystem\IOException;
 
@@ -17,7 +17,7 @@ use WBW\Library\Core\Exception\FileSystem\IOException;
  * FTP exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\Network
+ * @package WBW\Library\Core\Network\FTP\Exception
  */
 class FTPException extends IOException {
 

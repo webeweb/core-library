@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\Network;
+namespace WBW\Library\Core\Tests\Network\FTP\Exception;
 
-use WBW\Library\Core\Exception\Network\FTPException;
+use WBW\Library\Core\Network\FTP\Exception\FTPException;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * FTP exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception\Network
+ * @package WBW\Library\Core\Tests\Network\FTP\Exception
  */
 class FTPExceptionTest extends AbstractTestCase {
 

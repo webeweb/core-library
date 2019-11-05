@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Network\FTP;
+namespace WBW\Library\Core\Network\FTP\Client;
 
-use WBW\Library\Core\Exception\Network\FTPException;
+use WBW\Library\Core\Network\FTP\Exception\FTPException;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
  * SFTP client.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Network\FTP
+ * @package WBW\Library\Core\Network\FTP\Client
  */
 class SFTPClient extends AbstractFTPClient {
 
