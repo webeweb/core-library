@@ -12,11 +12,11 @@
 namespace WBW\Library\Core\Network\CURL\Request;
 
 use DateTime;
+use InvalidArgumentException;
 use WBW\Library\Core\Argument\ArgumentHelper;
-use WBW\Library\Core\Exception\Network\CURLRequestCallException;
-use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
 use WBW\Library\Core\Network\CURL\API\CURLRequestInterface;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
+use WBW\Library\Core\Network\CURL\Exception\CURLRequestCallException;
 use WBW\Library\Core\Network\CURL\Response\CURLResponse;
 use WBW\Library\Core\Network\HTTP\HTTPInterface;
 
@@ -31,7 +31,6 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
 
     /**
      * Content-Type "application/x-www-form-urlencoded".
-     *
      * @var string
      */
     const CONTENT_TYPE_X_WWW_FORM_URLENCODED = "Content-Type: application/x-www-form-urlencoded";
@@ -84,7 +83,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      * @param string $method The Method.
      * @param CURLConfiguration $configuration The configuration.
      * @param string $resourcePath The resource path.
-     * @throws InvalidHTTPMethodException Throws an invalid HTTP method exception if the method is not implemented.
+     * @throws InvalidArgumentException Throws an invalid argument exception if the method is not implemented.
      */
     protected function __construct($method, CURLConfiguration $configuration, $resourcePath) {
         $this->setConfiguration($configuration);
@@ -443,7 +442,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
      *
      * @param string $method The method.
      * @return AbstractCURLRequest Returns this cURL request.
-     * @throws InvalidHTTPMethodException Throws an invalid HTTP method exception if the method is not implemented.
+     * @throws InvalidArgumentException Throws an invalid argument exception if the method is not implemented.
      */
     protected function setMethod($method) {
         switch ($method) {
@@ -457,7 +456,7 @@ abstract class AbstractCURLRequest implements CURLRequestInterface, HTTPInterfac
                 $this->method = $method;
                 break;
             default:
-                throw new InvalidHTTPMethodException($method);
+                throw new InvalidArgumentException(sprintf("The HTTP method \"%s\" is invalid", $method));
         }
         return $this;
     }

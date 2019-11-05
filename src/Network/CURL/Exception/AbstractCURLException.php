@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\Network;
+namespace WBW\Library\Core\Network\CURL\Exception;
 
 use Exception;
 
@@ -17,7 +17,7 @@ use Exception;
  * Abstract cURL exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\Network
+ * @package WBW\Library\Core\Network\CURL\Exception
  * @abstract
  */
 abstract class AbstractCURLException extends Exception {

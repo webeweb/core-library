@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Network\CURL\Factory;
 
-use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
+use InvalidArgumentException;
 use WBW\Library\Core\Network\CURL\API\CURLRequestInterface;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 use WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest;
@@ -28,6 +28,7 @@ use WBW\Library\Core\Network\HTTP\HTTPInterface;
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Network\CURL\Factory
+ * @deprecated since 6.0.0 use {http://docs.guzzlephp.org/en/stable/} instead
  */
 class CURLFactory implements HTTPInterface {
 
@@ -38,8 +39,7 @@ class CURLFactory implements HTTPInterface {
      * @param CURLConfiguration $configuration The configuration.
      * @param string $resourcePath The resource path.
      * @return CURLRequestInterface Returns the cURL request.
-     * @throws InvalidHTTPMethodException Throws an invalid HTTP method exception if the method is not implemented.
-     * @deprecated since 6.0.0 use {http://docs.guzzlephp.org/en/stable/} instead
+     * @throws InvalidArgumentException Throws an invalid argument exception if the method is not implemented.
      */
     public static function getInstance($method, CURLConfiguration $configuration = null, $resourcePath = null) {
 
@@ -69,9 +69,8 @@ class CURLFactory implements HTTPInterface {
 
             case self::HTTP_METHOD_PUT:
                 return new CURLPutRequest($configuration, $resourcePath);
-
-            default:
-                throw new InvalidHTTPMethodException($method);
         }
+
+        throw new InvalidArgumentException(sprintf("The HTTP method \"%s\" is invalid", $method));
     }
 }

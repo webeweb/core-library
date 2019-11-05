@@ -3,33 +3,35 @@
 /*
  * This file is part of the core-library package.
  *
- * (c) 2017 WEBEWEB
+ * (c) 2018 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\Network;
+namespace WBW\Library\Core\Tests\Network\CURL\Exception;
 
-use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
+use WBW\Library\Core\Network\CURL\Exception\CURLInvalidArgumentException;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * Invalid HTTP method exception test.
+ * cURL invalid argument exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception\HTTP
+ * @package WBW\Library\Core\Tests\Network\CURL\Exception
  */
-class InvaliHTTPMethodExceptionTest extends AbstractTestCase {
+class CURLInvalidArgumentExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.
+     *
+     * @return void
      */
     public function testConstruct() {
 
-        $ex = new InvalidHTTPMethodException("exception");
+        $ex = new CURLInvalidArgumentException("exception");
 
-        $res = "The HTTP method \"exception\" is invalid";
+        $res = "exception";
         $this->assertEquals($res, $ex->getMessage());
     }
 }

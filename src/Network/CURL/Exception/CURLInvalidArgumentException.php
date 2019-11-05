@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception\Network;
+namespace WBW\Library\Core\Network\CURL\Exception;
 
 /**
  * cURL invalid argument exception.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Exception\Network
+ * @package WBW\Library\Core\Network\CURL\Exception
  */
 class CURLInvalidArgumentException extends AbstractCURLException {
 

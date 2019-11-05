@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception\Network;
+namespace WBW\Library\Core\Tests\Network\CURL\Exception;
 
-use WBW\Library\Core\Exception\Network\CURLRequestCallException;
+use WBW\Library\Core\Network\CURL\Exception\CURLRequestCallException;
 use WBW\Library\Core\Network\CURL\Response\CURLResponse;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
@@ -19,7 +19,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
  * cURL request call exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Exception\Network
+ * @package WBW\Library\Core\Tests\Network\CURL\Exception
  */
 class CURLRequestCallExceptionTest extends AbstractTestCase {
 

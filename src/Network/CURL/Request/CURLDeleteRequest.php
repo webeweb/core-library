@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Network\CURL\Request;
 
-use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
+use InvalidArgumentException;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 
 /**
@@ -28,7 +28,7 @@ class CURLDeleteRequest extends AbstractCURLRequest {
      *
      * @param CURLConfiguration $configuration The configuration.
      * @param string $resourcePath The resource path.
-     * @throws InvalidHTTPMethodException Throws an invalid HTTP method exception if the method is not implemented.
+     * @throws InvalidArgumentException Throws an invalid argument exception if the method is not implemented.
      */
     public function __construct(CURLConfiguration $configuration, $resourcePath) {
         parent::__construct(self::HTTP_METHOD_DELETE, $configuration, $resourcePath);

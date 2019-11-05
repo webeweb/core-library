@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Factory;
 
 use Exception;
-use WBW\Library\Core\Exception\Network\InvalidHTTPMethodException;
+use InvalidArgumentException;
 use WBW\Library\Core\Network\CURL\Factory\CURLFactory;
 use WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLGetRequest;
@@ -74,14 +74,14 @@ class CURLFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetInstanceWithInvalidHTTPMethodException() {
+    public function testGetInstanceWithInvalidArgumentException() {
 
         try {
 
             CURLFactory::getInstance("exception");
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(InvalidHTTPMethodException::class, $ex);
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The HTTP method \"exception\" is invalid", $ex->getMessage());
         }
     }
