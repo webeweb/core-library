@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures\Validation\Rule;
+namespace WBW\Library\Core\Tests\Fixtures\Validator\Rule;
 
-use WBW\Library\Core\Validation\Rule\AbstractValidationRule;
-use WBW\Library\Core\Validation\Status\DefaultValidationStatus;
+use WBW\Library\Core\Validator\Rule\AbstractValidationRule;
+use WBW\Library\Core\Validator\Status\DefaultValidationStatus;
 
 /**
  * Test validation rule.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Fixtures\Validation\Rule
+ * @package WBW\Library\Core\Tests\Fixtures\Validator\Rule
  */
 class TestValidationRule extends AbstractValidationRule {
 

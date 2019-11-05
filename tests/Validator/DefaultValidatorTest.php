@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Validation;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
+use WBW\Library\Core\Tests\Fixtures\Validator\Rule\TestValidationRule;
 use WBW\Library\Core\Validator\API\ValidationRuleInterface;
 use WBW\Library\Core\Validator\API\ValidationRuleSetInterface;
 use WBW\Library\Core\Validator\API\ValidationStatusInterface;

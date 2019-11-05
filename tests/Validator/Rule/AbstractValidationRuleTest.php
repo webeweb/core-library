@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Validation\Rule;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\Validation\Rule\TestValidationRule;
+use WBW\Library\Core\Tests\Fixtures\Validator\Rule\TestValidationRule;
 
 /**
  * Abstract validation rule test.
