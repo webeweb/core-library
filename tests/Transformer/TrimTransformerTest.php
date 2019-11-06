@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Transformer
  */
-class TrimScrapingTransformerTest extends AbstractTestCase {
+class TrimTransformerTest extends AbstractTestCase {
 
     /**
      * Tests the transform() method.
