@@ -14,6 +14,7 @@ namespace WBW\Library\Core\Tests\Transformer\Set;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Transformer\API\TransformerInterface;
 use WBW\Library\Core\Transformer\Set\DefaultTransformerSet;
+use WBW\Library\Core\Transformer\TrimTransformer;
 
 /**
  * Default transformer set test.
@@ -66,11 +67,11 @@ class DefaultTransformerSetTest extends AbstractTestCase {
     public function testTransform() {
 
         // Set a Transformer mock.
-        $transformer = $this->getMockBuilder(TransformerInterface::class)->getMock();
+        $transformer = new TrimTransformer();
 
         $obj = new DefaultTransformerSet();
         $obj->addTransformer($transformer);
 
-        $obj->transform(null);
+        $this->assertEquals("trim", $obj->transform(" trim "));
     }
 }
