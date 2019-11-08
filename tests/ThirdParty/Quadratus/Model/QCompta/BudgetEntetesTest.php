@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\BudgetEntetes;
 
@@ -39,5 +41,117 @@ class BudgetEntetesTest extends AbstractTestCase {
         $this->assertNull($obj->getPeriodeFin());
         $this->assertNull($obj->getRefImage());
         $this->assertNull($obj->getTypeColRef());
+    }
+
+    /**
+     * Tests the setArrondi() method.
+     *
+     * @return void
+     */
+    public function testSetArrondi() {
+
+        $obj = new BudgetEntetes();
+
+        $obj->setArrondi("arrondi");
+        $this->assertEquals("arrondi", $obj->getArrondi());
+    }
+
+    /**
+     * Tests the setCodeBudget() method.
+     *
+     * @return void
+     */
+    public function testSetCodeBudget() {
+
+        $obj = new BudgetEntetes();
+
+        $obj->setCodeBudget("codeBudget");
+        $this->assertEquals("codeBudget", $obj->getCodeBudget());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new BudgetEntetes();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setNumColRef() method.
+     *
+     * @return void
+     */
+    public function testSetNumColRef() {
+
+        $obj = new BudgetEntetes();
+
+        $obj->setNumColRef(10);
+        $this->assertEquals(10, $obj->getNumColRef());
+    }
+
+    /**
+     * Tests the setPeriodeDebut() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeDebut() {
+
+        // Set a Date/time mock.
+        $periodeDebut = new DateTime("2018-09-10");
+
+        $obj = new BudgetEntetes();
+
+        $obj->setPeriodeDebut($periodeDebut);
+        $this->assertSame($periodeDebut, $obj->getPeriodeDebut());
+    }
+
+    /**
+     * Tests the setPeriodeFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeFin() {
+
+        // Set a Date/time mock.
+        $periodeFin = new DateTime("2018-09-10");
+
+        $obj = new BudgetEntetes();
+
+        $obj->setPeriodeFin($periodeFin);
+        $this->assertSame($periodeFin, $obj->getPeriodeFin());
+    }
+
+    /**
+     * Tests the setRefImage() method.
+     *
+     * @return void
+     */
+    public function testSetRefImage() {
+
+        $obj = new BudgetEntetes();
+
+        $obj->setRefImage("refImage");
+        $this->assertEquals("refImage", $obj->getRefImage());
+    }
+
+    /**
+     * Tests the setTypeColRef() method.
+     *
+     * @return void
+     */
+    public function testSetTypeColRef() {
+
+        $obj = new BudgetEntetes();
+
+        $obj->setTypeColRef("typeColRef");
+        $this->assertEquals("typeColRef", $obj->getTypeColRef());
     }
 }

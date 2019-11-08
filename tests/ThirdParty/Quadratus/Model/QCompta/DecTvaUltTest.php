@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DecTvaUlt;
 
@@ -44,5 +46,186 @@ class DecTvaUltTest extends AbstractTestCase {
         $this->assertNull($obj->getPerDec());
         $this->assertNull($obj->getPerDecUlt());
         $this->assertNull($obj->getPeriodeEcriture());
+    }
+
+    /**
+     * Tests the setCodeJournal() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJournal() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setCodeJournal("codeJournal");
+        $this->assertEquals("codeJournal", $obj->getCodeJournal());
+    }
+
+    /**
+     * Tests the setCodeTva() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTva() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setCodeTva(10);
+        $this->assertEquals(10, $obj->getCodeTva());
+    }
+
+    /**
+     * Tests the setCompteur() method.
+     *
+     * @return void
+     */
+    public function testSetCompteur() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setCompteur(10);
+        $this->assertEquals(10, $obj->getCompteur());
+    }
+
+    /**
+     * Tests the setFolio() method.
+     *
+     * @return void
+     */
+    public function testSetFolio() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setFolio(10);
+        $this->assertEquals(10, $obj->getFolio());
+    }
+
+    /**
+     * Tests the setLibelleEcr() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleEcr() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setLibelleEcr("libelleEcr");
+        $this->assertEquals("libelleEcr", $obj->getLibelleEcr());
+    }
+
+    /**
+     * Tests the setLigneFolio() method.
+     *
+     * @return void
+     */
+    public function testSetLigneFolio() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setLigneFolio(10);
+        $this->assertEquals(10, $obj->getLigneFolio());
+    }
+
+    /**
+     * Tests the setMontantHt() method.
+     *
+     * @return void
+     */
+    public function testSetMontantHt() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setMontantHt(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantHt());
+    }
+
+    /**
+     * Tests the setMontantTva() method.
+     *
+     * @return void
+     */
+    public function testSetMontantTva() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setMontantTva(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantTva());
+    }
+
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the setNumUniqEcr() method.
+     *
+     * @return void
+     */
+    public function testSetNumUniqEcr() {
+
+        $obj = new DecTvaUlt();
+
+        $obj->setNumUniqEcr(10);
+        $this->assertEquals(10, $obj->getNumUniqEcr());
+    }
+
+    /**
+     * Tests the setPerDec() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPerDec() {
+
+        // Set a Date/time mock.
+        $perDec = new DateTime("2018-09-10");
+
+        $obj = new DecTvaUlt();
+
+        $obj->setPerDec($perDec);
+        $this->assertSame($perDec, $obj->getPerDec());
+    }
+
+    /**
+     * Tests the setPerDecUlt() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPerDecUlt() {
+
+        // Set a Date/time mock.
+        $perDecUlt = new DateTime("2018-09-10");
+
+        $obj = new DecTvaUlt();
+
+        $obj->setPerDecUlt($perDecUlt);
+        $this->assertSame($perDecUlt, $obj->getPerDecUlt());
+    }
+
+    /**
+     * Tests the setPeriodeEcriture() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeEcriture() {
+
+        // Set a Date/time mock.
+        $periodeEcriture = new DateTime("2018-09-10");
+
+        $obj = new DecTvaUlt();
+
+        $obj->setPeriodeEcriture($periodeEcriture);
+        $this->assertSame($periodeEcriture, $obj->getPeriodeEcriture());
     }
 }

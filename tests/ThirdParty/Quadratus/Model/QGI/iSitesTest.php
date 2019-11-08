@@ -34,4 +34,30 @@ class iSitesTest extends AbstractTestCase {
         $this->assertNull($obj->getAdresseIp());
         $this->assertNull($obj->getNomSite());
     }
+
+    /**
+     * Tests the setAdresseIp() method.
+     *
+     * @return void
+     */
+    public function testSetAdresseIp() {
+
+        $obj = new iSites();
+
+        $obj->setAdresseIp("adresseIp");
+        $this->assertEquals("adresseIp", $obj->getAdresseIp());
+    }
+
+    /**
+     * Tests the setNomSite() method.
+     *
+     * @return void
+     */
+    public function testSetNomSite() {
+
+        $obj = new iSites();
+
+        $obj->setNomSite("nomSite");
+        $this->assertEquals("nomSite", $obj->getNomSite());
+    }
 }

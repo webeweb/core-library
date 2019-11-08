@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Historiquehtabord;
 
@@ -50,5 +52,256 @@ class HistoriquehtabordTest extends AbstractTestCase {
         $this->assertNull($obj->getRegle());
         $this->assertNull($obj->getRub());
         $this->assertNull($obj->getTypeZone());
+    }
+
+    /**
+     * Tests the setAlpha() method.
+     *
+     * @return void
+     */
+    public function testSetAlpha() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setAlpha("alpha");
+        $this->assertEquals("alpha", $obj->getAlpha());
+    }
+
+    /**
+     * Tests the setAnN() method.
+     *
+     * @return void
+     */
+    public function testSetAnN() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setAnN(10.092018);
+        $this->assertEquals(10.092018, $obj->getAnN());
+    }
+
+    /**
+     * Tests the setAnN1() method.
+     *
+     * @return void
+     */
+    public function testSetAnN1() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setAnN1(10.092018);
+        $this->assertEquals(10.092018, $obj->getAnN1());
+    }
+
+    /**
+     * Tests the setAnN2() method.
+     *
+     * @return void
+     */
+    public function testSetAnN2() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setAnN2(10.092018);
+        $this->assertEquals(10.092018, $obj->getAnN2());
+    }
+
+    /**
+     * Tests the setBudget1() method.
+     *
+     * @return void
+     */
+    public function testSetBudget1() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setBudget1(10.092018);
+        $this->assertEquals(10.092018, $obj->getBudget1());
+    }
+
+    /**
+     * Tests the setBudget2() method.
+     *
+     * @return void
+     */
+    public function testSetBudget2() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setBudget2(10.092018);
+        $this->assertEquals(10.092018, $obj->getBudget2());
+    }
+
+    /**
+     * Tests the setDate() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDate() {
+
+        // Set a Date/time mock.
+        $date = new DateTime("2018-09-10");
+
+        $obj = new Historiquehtabord();
+
+        $obj->setDate($date);
+        $this->assertSame($date, $obj->getDate());
+    }
+
+    /**
+     * Tests the setFlgAnN() method.
+     *
+     * @return void
+     */
+    public function testSetFlgAnN() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setFlgAnN(true);
+        $this->assertEquals(true, $obj->getFlgAnN());
+    }
+
+    /**
+     * Tests the setFlgAnN1() method.
+     *
+     * @return void
+     */
+    public function testSetFlgAnN1() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setFlgAnN1(true);
+        $this->assertEquals(true, $obj->getFlgAnN1());
+    }
+
+    /**
+     * Tests the setFlgAnN2() method.
+     *
+     * @return void
+     */
+    public function testSetFlgAnN2() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setFlgAnN2(true);
+        $this->assertEquals(true, $obj->getFlgAnN2());
+    }
+
+    /**
+     * Tests the setFlgBudget1() method.
+     *
+     * @return void
+     */
+    public function testSetFlgBudget1() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setFlgBudget1(true);
+        $this->assertEquals(true, $obj->getFlgBudget1());
+    }
+
+    /**
+     * Tests the setFlgBudget2() method.
+     *
+     * @return void
+     */
+    public function testSetFlgBudget2() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setFlgBudget2(true);
+        $this->assertEquals(true, $obj->getFlgBudget2());
+    }
+
+    /**
+     * Tests the setFmtDec() method.
+     *
+     * @return void
+     */
+    public function testSetFmtDec() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setFmtDec(10);
+        $this->assertEquals(10, $obj->getFmtDec());
+    }
+
+    /**
+     * Tests the setFmtInt() method.
+     *
+     * @return void
+     */
+    public function testSetFmtInt() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setFmtInt(10);
+        $this->assertEquals(10, $obj->getFmtInt());
+    }
+
+    /**
+     * Tests the setMemo() method.
+     *
+     * @return void
+     */
+    public function testSetMemo() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setMemo("memo");
+        $this->assertEquals("memo", $obj->getMemo());
+    }
+
+    /**
+     * Tests the setNoConvEuro() method.
+     *
+     * @return void
+     */
+    public function testSetNoConvEuro() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setNoConvEuro(true);
+        $this->assertEquals(true, $obj->getNoConvEuro());
+    }
+
+    /**
+     * Tests the setRegle() method.
+     *
+     * @return void
+     */
+    public function testSetRegle() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setRegle("regle");
+        $this->assertEquals("regle", $obj->getRegle());
+    }
+
+    /**
+     * Tests the setRub() method.
+     *
+     * @return void
+     */
+    public function testSetRub() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setRub("rub");
+        $this->assertEquals("rub", $obj->getRub());
+    }
+
+    /**
+     * Tests the setTypeZone() method.
+     *
+     * @return void
+     */
+    public function testSetTypeZone() {
+
+        $obj = new Historiquehtabord();
+
+        $obj->setTypeZone("typeZone");
+        $this->assertEquals("typeZone", $obj->getTypeZone());
     }
 }

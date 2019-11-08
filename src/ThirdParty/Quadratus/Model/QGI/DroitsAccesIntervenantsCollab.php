@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolAccesLibreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeIntervenantTrait;
-
 /**
  * Droits acces intervenants collab.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeIntervenantTrait;
  */
 class DroitsAccesIntervenantsCollab {
 
-    use BoolAccesLibreTrait;
-    use StringCodeCollaborateurTrait;
-    use StringTypeIntervenantTrait;
+    /**
+     * Acces libre.
+     *
+     * @var bool
+     */
+    private $accesLibre;
+
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Type intervenant.
+     *
+     * @var string
+     */
+    private $typeIntervenant;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the acces libre.
+     *
+     * @return bool Returns the acces libre.
+     */
+    public function getAccesLibre() {
+        return $this->accesLibre;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the type intervenant.
+     *
+     * @return string Returns the type intervenant.
+     */
+    public function getTypeIntervenant() {
+        return $this->typeIntervenant;
+    }
+
+    /**
+     * Set the acces libre.
+     *
+     * @param bool $accesLibre The acces libre.
+     */
+    public function setAccesLibre($accesLibre) {
+        $this->accesLibre = $accesLibre;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the type intervenant.
+     *
+     * @param string $typeIntervenant The type intervenant.
+     */
+    public function setTypeIntervenant($typeIntervenant) {
+        $this->typeIntervenant = $typeIntervenant;
+        return $this;
     }
 }

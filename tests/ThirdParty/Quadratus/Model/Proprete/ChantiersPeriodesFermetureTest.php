@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersPeriodesFermeture;
 
@@ -36,5 +38,78 @@ class ChantiersPeriodesFermetureTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeClient());
         $this->assertNull($obj->getDateAu());
         $this->assertNull($obj->getDateDu());
+    }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new ChantiersPeriodesFermeture();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new ChantiersPeriodesFermeture();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new ChantiersPeriodesFermeture();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setDateAu() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateAu() {
+
+        // Set a Date/time mock.
+        $dateAu = new DateTime("2018-09-10");
+
+        $obj = new ChantiersPeriodesFermeture();
+
+        $obj->setDateAu($dateAu);
+        $this->assertSame($dateAu, $obj->getDateAu());
+    }
+
+    /**
+     * Tests the setDateDu() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateDu() {
+
+        // Set a Date/time mock.
+        $dateDu = new DateTime("2018-09-10");
+
+        $obj = new ChantiersPeriodesFermeture();
+
+        $obj->setDateDu($dateDu);
+        $this->assertSame($dateDu, $obj->getDateDu());
     }
 }

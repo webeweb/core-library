@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesEntetes;
 
@@ -56,5 +58,350 @@ class FichesControlesEntetesTest extends AbstractTestCase {
         $this->assertNull($obj->getTypeControle());
         $this->assertNull($obj->getUniqIdBlocage());
         $this->assertNull($obj->getUniqIdNoeud());
+    }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setCommentaire() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setCommentaire("commentaire");
+        $this->assertEquals("commentaire", $obj->getCommentaire());
+    }
+
+    /**
+     * Tests the setControleur() method.
+     *
+     * @return void
+     */
+    public function testSetControleur() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setControleur("controleur");
+        $this->assertEquals("controleur", $obj->getControleur());
+    }
+
+    /**
+     * Tests the setDateControle() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateControle() {
+
+        // Set a Date/time mock.
+        $dateControle = new DateTime("2018-09-10");
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setDateControle($dateControle);
+        $this->assertSame($dateControle, $obj->getDateControle());
+    }
+
+    /**
+     * Tests the setDateCtrlPrevue() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateCtrlPrevue() {
+
+        // Set a Date/time mock.
+        $dateCtrlPrevue = new DateTime("2018-09-10");
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setDateCtrlPrevue($dateCtrlPrevue);
+        $this->assertSame($dateCtrlPrevue, $obj->getDateCtrlPrevue());
+    }
+
+    /**
+     * Tests the setDateTransfert() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateTransfert() {
+
+        // Set a Date/time mock.
+        $dateTransfert = new DateTime("2018-09-10");
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setDateTransfert($dateTransfert);
+        $this->assertSame($dateTransfert, $obj->getDateTransfert());
+    }
+
+    /**
+     * Tests the setFicheContradictoire() method.
+     *
+     * @return void
+     */
+    public function testSetFicheContradictoire() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setFicheContradictoire(true);
+        $this->assertEquals(true, $obj->getFicheContradictoire());
+    }
+
+    /**
+     * Tests the setFicheSignee() method.
+     *
+     * @return void
+     */
+    public function testSetFicheSignee() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setFicheSignee(true);
+        $this->assertEquals(true, $obj->getFicheSignee());
+    }
+
+    /**
+     * Tests the setHeureDebut() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetHeureDebut() {
+
+        // Set a Date/time mock.
+        $heureDebut = new DateTime("2018-09-10");
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setHeureDebut($heureDebut);
+        $this->assertSame($heureDebut, $obj->getHeureDebut());
+    }
+
+    /**
+     * Tests the setHeureFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetHeureFin() {
+
+        // Set a Date/time mock.
+        $heureFin = new DateTime("2018-09-10");
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setHeureFin($heureFin);
+        $this->assertSame($heureFin, $obj->getHeureFin());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
+
+    /**
+     * Tests the setLocal() method.
+     *
+     * @return void
+     */
+    public function testSetLocal() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setLocal("local");
+        $this->assertEquals("local", $obj->getLocal());
+    }
+
+    /**
+     * Tests the setLocalPere() method.
+     *
+     * @return void
+     */
+    public function testSetLocalPere() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setLocalPere("localPere");
+        $this->assertEquals("localPere", $obj->getLocalPere());
+    }
+
+    /**
+     * Tests the setNoteGlobale() method.
+     *
+     * @return void
+     */
+    public function testSetNoteGlobale() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setNoteGlobale(10.092018);
+        $this->assertEquals(10.092018, $obj->getNoteGlobale());
+    }
+
+    /**
+     * Tests the setNoteObjectif() method.
+     *
+     * @return void
+     */
+    public function testSetNoteObjectif() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setNoteObjectif(10.092018);
+        $this->assertEquals(10.092018, $obj->getNoteObjectif());
+    }
+
+    /**
+     * Tests the setNumeroFiche() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroFiche() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setNumeroFiche(10);
+        $this->assertEquals(10, $obj->getNumeroFiche());
+    }
+
+    /**
+     * Tests the setNumeroNoeudLocal() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroNoeudLocal() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setNumeroNoeudLocal(10);
+        $this->assertEquals(10, $obj->getNumeroNoeudLocal());
+    }
+
+    /**
+     * Tests the setSatisfactionGenerale() method.
+     *
+     * @return void
+     */
+    public function testSetSatisfactionGenerale() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setSatisfactionGenerale("satisfactionGenerale");
+        $this->assertEquals("satisfactionGenerale", $obj->getSatisfactionGenerale());
+    }
+
+    /**
+     * Tests the setTypeControle() method.
+     *
+     * @return void
+     */
+    public function testSetTypeControle() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setTypeControle("typeControle");
+        $this->assertEquals("typeControle", $obj->getTypeControle());
+    }
+
+    /**
+     * Tests the setUniqIdBlocage() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIdBlocage() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setUniqIdBlocage("uniqIdBlocage");
+        $this->assertEquals("uniqIdBlocage", $obj->getUniqIdBlocage());
+    }
+
+    /**
+     * Tests the setUniqIdNoeud() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIdNoeud() {
+
+        $obj = new FichesControlesEntetes();
+
+        $obj->setUniqIdNoeud("uniqIdNoeud");
+        $this->assertEquals("uniqIdNoeud", $obj->getUniqIdNoeud());
     }
 }

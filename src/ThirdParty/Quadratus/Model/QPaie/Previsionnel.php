@@ -11,12 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateApplicationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDebutSemaineTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatHorairePrevuTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntAnneeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroGrilleTypeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroSemaineTrait;
+use DateTime;
 
 /**
  * Previsionnel.
@@ -26,17 +21,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroSemaineTrait;
  */
 class Previsionnel {
 
-    use IntAnneeTrait;
-    use DateTimeDateApplicationTrait;
-    use DateTimeDebutSemaineTrait;
-    use FloatHorairePrevuTrait;
-    use IntNumeroGrilleTypeTrait;
-    use StringNumeroSemaineTrait;
+    /**
+     * Annee.
+     *
+     * @var int
+     */
+    private $annee;
+
+    /**
+     * Date application.
+     *
+     * @var DateTime|null
+     */
+    private $dateApplication;
+
+    /**
+     * Debut semaine.
+     *
+     * @var DateTime|null
+     */
+    private $debutSemaine;
+
+    /**
+     * Horaire prevu.
+     *
+     * @var float
+     */
+    private $horairePrevu;
+
+    /**
+     * Numero grille type.
+     *
+     * @var int
+     */
+    private $numeroGrilleType;
+
+    /**
+     * Numero semaine.
+     *
+     * @var string
+     */
+    private $numeroSemaine;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the annee.
+     *
+     * @return int Returns the annee.
+     */
+    public function getAnnee() {
+        return $this->annee;
+    }
+
+    /**
+     * Get the date application.
+     *
+     * @return DateTime|null Returns the date application.
+     */
+    public function getDateApplication() {
+        return $this->dateApplication;
+    }
+
+    /**
+     * Get the debut semaine.
+     *
+     * @return DateTime|null Returns the debut semaine.
+     */
+    public function getDebutSemaine() {
+        return $this->debutSemaine;
+    }
+
+    /**
+     * Get the horaire prevu.
+     *
+     * @return float Returns the horaire prevu.
+     */
+    public function getHorairePrevu() {
+        return $this->horairePrevu;
+    }
+
+    /**
+     * Get the numero grille type.
+     *
+     * @return int Returns the numero grille type.
+     */
+    public function getNumeroGrilleType() {
+        return $this->numeroGrilleType;
+    }
+
+    /**
+     * Get the numero semaine.
+     *
+     * @return string Returns the numero semaine.
+     */
+    public function getNumeroSemaine() {
+        return $this->numeroSemaine;
+    }
+
+    /**
+     * Set the annee.
+     *
+     * @param int $annee The annee.
+     */
+    public function setAnnee($annee) {
+        $this->annee = $annee;
+        return $this;
+    }
+
+    /**
+     * Set the date application.
+     *
+     * @param DateTime|null $dateApplication The date application.
+     */
+    public function setDateApplication(DateTime $dateApplication = null) {
+        $this->dateApplication = $dateApplication;
+        return $this;
+    }
+
+    /**
+     * Set the debut semaine.
+     *
+     * @param DateTime|null $debutSemaine The debut semaine.
+     */
+    public function setDebutSemaine(DateTime $debutSemaine = null) {
+        $this->debutSemaine = $debutSemaine;
+        return $this;
+    }
+
+    /**
+     * Set the horaire prevu.
+     *
+     * @param float $horairePrevu The horaire prevu.
+     */
+    public function setHorairePrevu($horairePrevu) {
+        $this->horairePrevu = $horairePrevu;
+        return $this;
+    }
+
+    /**
+     * Set the numero grille type.
+     *
+     * @param int $numeroGrilleType The numero grille type.
+     */
+    public function setNumeroGrilleType($numeroGrilleType) {
+        $this->numeroGrilleType = $numeroGrilleType;
+        return $this;
+    }
+
+    /**
+     * Set the numero semaine.
+     *
+     * @param string $numeroSemaine The numero semaine.
+     */
+    public function setNumeroSemaine($numeroSemaine) {
+        $this->numeroSemaine = $numeroSemaine;
+        return $this;
     }
 }

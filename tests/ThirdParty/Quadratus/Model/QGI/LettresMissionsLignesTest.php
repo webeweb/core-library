@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LettresMissionsLignes;
 
@@ -52,5 +54,286 @@ class LettresMissionsLignesTest extends AbstractTestCase {
         $this->assertNull($obj->getRealisePar());
         $this->assertNull($obj->getTypeAffectation());
         $this->assertNull($obj->getUniqId());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setCodeMission() method.
+     *
+     * @return void
+     */
+    public function testSetCodeMission() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setCodeMission("codeMission");
+        $this->assertEquals("codeMission", $obj->getCodeMission());
+    }
+
+    /**
+     * Tests the setCodeRegroupement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegroupement() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setCodeRegroupement("codeRegroupement");
+        $this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
+    }
+
+    /**
+     * Tests the setCodeTravail() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTravail() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setCodeTravail("codeTravail");
+        $this->assertEquals("codeTravail", $obj->getCodeTravail());
+    }
+
+    /**
+     * Tests the setDateDebut() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateDebut() {
+
+        // Set a Date/time mock.
+        $dateDebut = new DateTime("2018-09-10");
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setDateDebut($dateDebut);
+        $this->assertSame($dateDebut, $obj->getDateDebut());
+    }
+
+    /**
+     * Tests the setDateFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateFin() {
+
+        // Set a Date/time mock.
+        $dateFin = new DateTime("2018-09-10");
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setDateFin($dateFin);
+        $this->assertSame($dateFin, $obj->getDateFin());
+    }
+
+    /**
+     * Tests the setDeclarationARediger() method.
+     *
+     * @return void
+     */
+    public function testSetDeclarationARediger() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setDeclarationARediger(true);
+        $this->assertEquals(true, $obj->getDeclarationARediger());
+    }
+
+    /**
+     * Tests the setFrequence() method.
+     *
+     * @return void
+     */
+    public function testSetFrequence() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setFrequence("frequence");
+        $this->assertEquals("frequence", $obj->getFrequence());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setNbrHeures() method.
+     *
+     * @return void
+     */
+    public function testSetNbrHeures() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setNbrHeures(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbrHeures());
+    }
+
+    /**
+     * Tests the setNbrOperations() method.
+     *
+     * @return void
+     */
+    public function testSetNbrOperations() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setNbrOperations("nbrOperations");
+        $this->assertEquals("nbrOperations", $obj->getNbrOperations());
+    }
+
+    /**
+     * Tests the setNiveau() method.
+     *
+     * @return void
+     */
+    public function testSetNiveau() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setNiveau(10);
+        $this->assertEquals(10, $obj->getNiveau());
+    }
+
+    /**
+     * Tests the setNiveauLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNiveauLigne() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setNiveauLigne("niveauLigne");
+        $this->assertEquals("niveauLigne", $obj->getNiveauLigne());
+    }
+
+    /**
+     * Tests the setNumeroLettre() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLettre() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setNumeroLettre("numeroLettre");
+        $this->assertEquals("numeroLettre", $obj->getNumeroLettre());
+    }
+
+    /**
+     * Tests the setNumeroLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLigne() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setNumeroLigne(10);
+        $this->assertEquals(10, $obj->getNumeroLigne());
+    }
+
+    /**
+     * Tests the setObservations() method.
+     *
+     * @return void
+     */
+    public function testSetObservations() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setObservations("observations");
+        $this->assertEquals("observations", $obj->getObservations());
+    }
+
+    /**
+     * Tests the setPolice() method.
+     *
+     * @return void
+     */
+    public function testSetPolice() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setPolice("police");
+        $this->assertEquals("police", $obj->getPolice());
+    }
+
+    /**
+     * Tests the setRealisePar() method.
+     *
+     * @return void
+     */
+    public function testSetRealisePar() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setRealisePar("realisePar");
+        $this->assertEquals("realisePar", $obj->getRealisePar());
+    }
+
+    /**
+     * Tests the setTypeAffectation() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAffectation() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setTypeAffectation("typeAffectation");
+        $this->assertEquals("typeAffectation", $obj->getTypeAffectation());
+    }
+
+    /**
+     * Tests the setUniqId() method.
+     *
+     * @return void
+     */
+    public function testSetUniqId() {
+
+        $obj = new LettresMissionsLignes();
+
+        $obj->setUniqId("uniqId");
+        $this->assertEquals("uniqId", $obj->getUniqId());
     }
 }

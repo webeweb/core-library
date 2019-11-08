@@ -36,4 +36,56 @@ class RegroupementDsTest extends AbstractTestCase {
         $this->assertNull($obj->getIntitule());
         $this->assertNull($obj->getOrganisme());
     }
+
+    /**
+     * Tests the setCodeRds() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRds() {
+
+        $obj = new RegroupementDs();
+
+        $obj->setCodeRds("codeRds");
+        $this->assertEquals("codeRds", $obj->getCodeRds());
+    }
+
+    /**
+     * Tests the setCodeRupture() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRupture() {
+
+        $obj = new RegroupementDs();
+
+        $obj->setCodeRupture("codeRupture");
+        $this->assertEquals("codeRupture", $obj->getCodeRupture());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new RegroupementDs();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetOrganisme() {
+
+        $obj = new RegroupementDs();
+
+        $obj->setOrganisme("organisme");
+        $this->assertEquals("organisme", $obj->getOrganisme());
+    }
 }

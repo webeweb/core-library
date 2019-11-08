@@ -34,4 +34,30 @@ class ValorisationHoraireTest extends AbstractTestCase {
         $this->assertNull($obj->getCoutHoraire());
         $this->assertNull($obj->getQualification());
     }
+
+    /**
+     * Tests the setCoutHoraire() method.
+     *
+     * @return void
+     */
+    public function testSetCoutHoraire() {
+
+        $obj = new ValorisationHoraire();
+
+        $obj->setCoutHoraire(10.092018);
+        $this->assertEquals(10.092018, $obj->getCoutHoraire());
+    }
+
+    /**
+     * Tests the setQualification() method.
+     *
+     * @return void
+     */
+    public function testSetQualification() {
+
+        $obj = new ValorisationHoraire();
+
+        $obj->setQualification("qualification");
+        $this->assertEquals("qualification", $obj->getQualification());
+    }
 }

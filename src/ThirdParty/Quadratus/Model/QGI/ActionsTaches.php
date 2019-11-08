@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeActionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTrait;
-
 /**
  * Actions taches.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTrait;
  */
 class ActionsTaches {
 
-    use StringCodeActionTrait;
-    use StringCodeTacheTrait;
+    /**
+     * Code action.
+     *
+     * @var string
+     */
+    private $codeAction;
+
+    /**
+     * Code tache.
+     *
+     * @var string
+     */
+    private $codeTache;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code action.
+     *
+     * @return string Returns the code action.
+     */
+    public function getCodeAction() {
+        return $this->codeAction;
+    }
+
+    /**
+     * Get the code tache.
+     *
+     * @return string Returns the code tache.
+     */
+    public function getCodeTache() {
+        return $this->codeTache;
+    }
+
+    /**
+     * Set the code action.
+     *
+     * @param string $codeAction The code action.
+     */
+    public function setCodeAction($codeAction) {
+        $this->codeAction = $codeAction;
+        return $this;
+    }
+
+    /**
+     * Set the code tache.
+     *
+     * @param string $codeTache The code tache.
+     */
+    public function setCodeTache($codeTache) {
+        $this->codeTache = $codeTache;
+        return $this;
     }
 }

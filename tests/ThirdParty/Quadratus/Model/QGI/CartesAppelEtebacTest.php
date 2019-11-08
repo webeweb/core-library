@@ -38,4 +38,82 @@ class CartesAppelEtebacTest extends AbstractTestCase {
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getTypeCarte());
     }
+
+    /**
+     * Tests the setCarteAppel() method.
+     *
+     * @return void
+     */
+    public function testSetCarteAppel() {
+
+        $obj = new CartesAppelEtebac();
+
+        $obj->setCarteAppel("carteAppel");
+        $this->assertEquals("carteAppel", $obj->getCarteAppel());
+    }
+
+    /**
+     * Tests the setCodeBanque() method.
+     *
+     * @return void
+     */
+    public function testSetCodeBanque() {
+
+        $obj = new CartesAppelEtebac();
+
+        $obj->setCodeBanque("codeBanque");
+        $this->assertEquals("codeBanque", $obj->getCodeBanque());
+    }
+
+    /**
+     * Tests the setIdCarte() method.
+     *
+     * @return void
+     */
+    public function testSetIdCarte() {
+
+        $obj = new CartesAppelEtebac();
+
+        $obj->setIdCarte("idCarte");
+        $this->assertEquals("idCarte", $obj->getIdCarte());
+    }
+
+    /**
+     * Tests the setLgCarteAppel() method.
+     *
+     * @return void
+     */
+    public function testSetLgCarteAppel() {
+
+        $obj = new CartesAppelEtebac();
+
+        $obj->setLgCarteAppel("lgCarteAppel");
+        $this->assertEquals("lgCarteAppel", $obj->getLgCarteAppel());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new CartesAppelEtebac();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setTypeCarte() method.
+     *
+     * @return void
+     */
+    public function testSetTypeCarte() {
+
+        $obj = new CartesAppelEtebac();
+
+        $obj->setTypeCarte("typeCarte");
+        $this->assertEquals("typeCarte", $obj->getTypeCarte());
+    }
 }

@@ -35,4 +35,43 @@ class VentilationsAutoTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeVentilation());
         $this->assertNull($obj->getCompteVentilation());
     }
+
+    /**
+     * Tests the setCodeJournal() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJournal() {
+
+        $obj = new VentilationsAuto();
+
+        $obj->setCodeJournal("codeJournal");
+        $this->assertEquals("codeJournal", $obj->getCodeJournal());
+    }
+
+    /**
+     * Tests the setCodeVentilation() method.
+     *
+     * @return void
+     */
+    public function testSetCodeVentilation() {
+
+        $obj = new VentilationsAuto();
+
+        $obj->setCodeVentilation("codeVentilation");
+        $this->assertEquals("codeVentilation", $obj->getCodeVentilation());
+    }
+
+    /**
+     * Tests the setCompteVentilation() method.
+     *
+     * @return void
+     */
+    public function testSetCompteVentilation() {
+
+        $obj = new VentilationsAuto();
+
+        $obj->setCompteVentilation("compteVentilation");
+        $this->assertEquals("compteVentilation", $obj->getCompteVentilation());
+    }
 }

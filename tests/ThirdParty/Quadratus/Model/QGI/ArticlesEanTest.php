@@ -36,4 +36,56 @@ class ArticlesEanTest extends AbstractTestCase {
         $this->assertNull($obj->getGamme());
         $this->assertNull($obj->getVariante());
     }
+
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
+
+        $obj = new ArticlesEan();
+
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
+
+    /**
+     * Tests the setEan() method.
+     *
+     * @return void
+     */
+    public function testSetEan() {
+
+        $obj = new ArticlesEan();
+
+        $obj->setEan("ean");
+        $this->assertEquals("ean", $obj->getEan());
+    }
+
+    /**
+     * Tests the setGamme() method.
+     *
+     * @return void
+     */
+    public function testSetGamme() {
+
+        $obj = new ArticlesEan();
+
+        $obj->setGamme(10);
+        $this->assertEquals(10, $obj->getGamme());
+    }
+
+    /**
+     * Tests the setVariante() method.
+     *
+     * @return void
+     */
+    public function testSetVariante() {
+
+        $obj = new ArticlesEan();
+
+        $obj->setVariante("variante");
+        $this->assertEquals("variante", $obj->getVariante());
+    }
 }

@@ -11,16 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateLiaisonTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateRetourPrevueTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumUniqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollabTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDestinataireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringModulesBloquesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringModulesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroDossierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSensTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeLiaisonTrait;
+use DateTime;
 
 /**
  * Liaisons historique.
@@ -30,21 +21,270 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeLiaisonTrait;
  */
 class LiaisonsHistorique {
 
-    use StringCodeCollabTrait;
-    use DateTimeDateLiaisonTrait;
-    use DateTimeDateRetourPrevueTrait;
-    use StringDestinataireTrait;
-    use StringModulesTrait;
-    use StringModulesBloquesTrait;
-    use IntNumUniqTrait;
-    use StringNumeroDossierTrait;
-    use StringSensTrait;
-    use StringTypeLiaisonTrait;
+    /**
+     * Code collab.
+     *
+     * @var string
+     */
+    private $codeCollab;
+
+    /**
+     * Date liaison.
+     *
+     * @var DateTime|null
+     */
+    private $dateLiaison;
+
+    /**
+     * Date retour prevue.
+     *
+     * @var DateTime|null
+     */
+    private $dateRetourPrevue;
+
+    /**
+     * Destinataire.
+     *
+     * @var string
+     */
+    private $destinataire;
+
+    /**
+     * Modules.
+     *
+     * @var string
+     */
+    private $modules;
+
+    /**
+     * Modules bloques.
+     *
+     * @var string
+     */
+    private $modulesBloques;
+
+    /**
+     * Num uniq.
+     *
+     * @var int
+     */
+    private $numUniq;
+
+    /**
+     * Numero dossier.
+     *
+     * @var string
+     */
+    private $numeroDossier;
+
+    /**
+     * Sens.
+     *
+     * @var string
+     */
+    private $sens;
+
+    /**
+     * Type liaison.
+     *
+     * @var string
+     */
+    private $typeLiaison;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code collab.
+     *
+     * @return string Returns the code collab.
+     */
+    public function getCodeCollab() {
+        return $this->codeCollab;
+    }
+
+    /**
+     * Get the date liaison.
+     *
+     * @return DateTime|null Returns the date liaison.
+     */
+    public function getDateLiaison() {
+        return $this->dateLiaison;
+    }
+
+    /**
+     * Get the date retour prevue.
+     *
+     * @return DateTime|null Returns the date retour prevue.
+     */
+    public function getDateRetourPrevue() {
+        return $this->dateRetourPrevue;
+    }
+
+    /**
+     * Get the destinataire.
+     *
+     * @return string Returns the destinataire.
+     */
+    public function getDestinataire() {
+        return $this->destinataire;
+    }
+
+    /**
+     * Get the modules.
+     *
+     * @return string Returns the modules.
+     */
+    public function getModules() {
+        return $this->modules;
+    }
+
+    /**
+     * Get the modules bloques.
+     *
+     * @return string Returns the modules bloques.
+     */
+    public function getModulesBloques() {
+        return $this->modulesBloques;
+    }
+
+    /**
+     * Get the num uniq.
+     *
+     * @return int Returns the num uniq.
+     */
+    public function getNumUniq() {
+        return $this->numUniq;
+    }
+
+    /**
+     * Get the numero dossier.
+     *
+     * @return string Returns the numero dossier.
+     */
+    public function getNumeroDossier() {
+        return $this->numeroDossier;
+    }
+
+    /**
+     * Get the sens.
+     *
+     * @return string Returns the sens.
+     */
+    public function getSens() {
+        return $this->sens;
+    }
+
+    /**
+     * Get the type liaison.
+     *
+     * @return string Returns the type liaison.
+     */
+    public function getTypeLiaison() {
+        return $this->typeLiaison;
+    }
+
+    /**
+     * Set the code collab.
+     *
+     * @param string $codeCollab The code collab.
+     */
+    public function setCodeCollab($codeCollab) {
+        $this->codeCollab = $codeCollab;
+        return $this;
+    }
+
+    /**
+     * Set the date liaison.
+     *
+     * @param DateTime|null $dateLiaison The date liaison.
+     */
+    public function setDateLiaison(DateTime $dateLiaison = null) {
+        $this->dateLiaison = $dateLiaison;
+        return $this;
+    }
+
+    /**
+     * Set the date retour prevue.
+     *
+     * @param DateTime|null $dateRetourPrevue The date retour prevue.
+     */
+    public function setDateRetourPrevue(DateTime $dateRetourPrevue = null) {
+        $this->dateRetourPrevue = $dateRetourPrevue;
+        return $this;
+    }
+
+    /**
+     * Set the destinataire.
+     *
+     * @param string $destinataire The destinataire.
+     */
+    public function setDestinataire($destinataire) {
+        $this->destinataire = $destinataire;
+        return $this;
+    }
+
+    /**
+     * Set the modules.
+     *
+     * @param string $modules The modules.
+     */
+    public function setModules($modules) {
+        $this->modules = $modules;
+        return $this;
+    }
+
+    /**
+     * Set the modules bloques.
+     *
+     * @param string $modulesBloques The modules bloques.
+     */
+    public function setModulesBloques($modulesBloques) {
+        $this->modulesBloques = $modulesBloques;
+        return $this;
+    }
+
+    /**
+     * Set the num uniq.
+     *
+     * @param int $numUniq The num uniq.
+     */
+    public function setNumUniq($numUniq) {
+        $this->numUniq = $numUniq;
+        return $this;
+    }
+
+    /**
+     * Set the numero dossier.
+     *
+     * @param string $numeroDossier The numero dossier.
+     */
+    public function setNumeroDossier($numeroDossier) {
+        $this->numeroDossier = $numeroDossier;
+        return $this;
+    }
+
+    /**
+     * Set the sens.
+     *
+     * @param string $sens The sens.
+     */
+    public function setSens($sens) {
+        $this->sens = $sens;
+        return $this;
+    }
+
+    /**
+     * Set the type liaison.
+     *
+     * @param string $typeLiaison The type liaison.
+     */
+    public function setTypeLiaison($typeLiaison) {
+        $this->typeLiaison = $typeLiaison;
+        return $this;
     }
 }

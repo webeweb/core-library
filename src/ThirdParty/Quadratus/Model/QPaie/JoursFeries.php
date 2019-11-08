@@ -11,8 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeJourTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCodeEtablissementTrait;
+use DateTime;
 
 /**
  * Jours feries.
@@ -22,13 +21,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCodeEtablissementTrait;
  */
 class JoursFeries {
 
-    use IntCodeEtablissementTrait;
-    use DateTimeJourTrait;
+    /**
+     * Code etablissement.
+     *
+     * @var int
+     */
+    private $codeEtablissement;
+
+    /**
+     * Jour.
+     *
+     * @var DateTime|null
+     */
+    private $jour;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code etablissement.
+     *
+     * @return int Returns the code etablissement.
+     */
+    public function getCodeEtablissement() {
+        return $this->codeEtablissement;
+    }
+
+    /**
+     * Get the jour.
+     *
+     * @return DateTime|null Returns the jour.
+     */
+    public function getJour() {
+        return $this->jour;
+    }
+
+    /**
+     * Set the code etablissement.
+     *
+     * @param int $codeEtablissement The code etablissement.
+     */
+    public function setCodeEtablissement($codeEtablissement) {
+        $this->codeEtablissement = $codeEtablissement;
+        return $this;
+    }
+
+    /**
+     * Set the jour.
+     *
+     * @param DateTime|null $jour The jour.
+     */
+    public function setJour(DateTime $jour = null) {
+        $this->jour = $jour;
+        return $this;
     }
 }

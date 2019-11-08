@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolDroitModifTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeTrait;
-
 /**
  * Acces web agenda.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeTrait;
  */
 class AccesWebAgenda {
 
-    use StringCodeTrait;
-    use StringCodeCollaborateurTrait;
-    use BoolDroitModifTrait;
-    use StringTypeTrait;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Droit modif.
+     *
+     * @var bool
+     */
+    private $droitModif;
+
+    /**
+     * Type.
+     *
+     * @var string
+     */
+    private $type;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the droit modif.
+     *
+     * @return bool Returns the droit modif.
+     */
+    public function getDroitModif() {
+        return $this->droitModif;
+    }
+
+    /**
+     * Get the type.
+     *
+     * @return string Returns the type.
+     */
+    public function getType() {
+        return $this->type;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the droit modif.
+     *
+     * @param bool $droitModif The droit modif.
+     */
+    public function setDroitModif($droitModif) {
+        $this->droitModif = $droitModif;
+        return $this;
+    }
+
+    /**
+     * Set the type.
+     *
+     * @param string $type The type.
+     */
+    public function setType($type) {
+        $this->type = $type;
+        return $this;
     }
 }

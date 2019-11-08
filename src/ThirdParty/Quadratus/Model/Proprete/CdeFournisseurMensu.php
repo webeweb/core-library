@@ -11,45 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolCommandeIsoleeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolFromCdeTypeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolMajStockByDaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolPrixSaisiTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolValideeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateLivraisonTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateTransfertTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPuBrutTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQuantiteBsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQuantiteCdeCliTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQuantiteCdeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQuantiteLivTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQuantiteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatRemise1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatRemise2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatRemise3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeFournisseurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeInspecteurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeLivraisonTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeLivreurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCritereTexte1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNoBonIntTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNoPieceCdeCliTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNoPieceCdeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroBsGenereTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPosteRentTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeGestionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypePieceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniqIdBlocageTrait;
+use DateTime;
 
 /**
  * Cde fournisseur mensu.
@@ -59,50 +21,1024 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniqIdBlocageTrait;
  */
 class CdeFournisseurMensu {
 
-    use StringCodeAffaireTrait;
-    use StringCodeArticleTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringCodeCollaborateurTrait;
-    use StringCodeFournisseurTrait;
-    use StringCodeInspecteurTrait;
-    use StringCodeLivraisonTrait;
-    use StringCodeLivreurTrait;
-    use BoolCommandeIsoleeTrait;
-    use StringCritereTexte1Trait;
-    use DateTimeDateLivraisonTrait;
-    use DateTimeDateTransfertTrait;
-    use StringDesignationTrait;
-    use StringDesignation2Trait;
-    use StringDesignation3Trait;
-    use BoolFromCdeTypeTrait;
-    use BoolMajStockByDaTrait;
-    use StringNoBonIntTrait;
-    use StringNoPieceCdeTrait;
-    use StringNoPieceCdeCliTrait;
-    use StringNumeroBsGenereTrait;
-    use IntNumeroLigneTrait;
-    use FloatPuBrutTrait;
-    use DateTimePeriodeTrait;
-    use StringPosteRentTrait;
-    use BoolPrixSaisiTrait;
-    use FloatQuantiteTrait;
-    use FloatQuantiteBsTrait;
-    use FloatQuantiteCdeTrait;
-    use FloatQuantiteCdeCliTrait;
-    use FloatQuantiteLivTrait;
-    use FloatRemise1Trait;
-    use FloatRemise2Trait;
-    use FloatRemise3Trait;
-    use StringTypeGestionTrait;
-    use StringTypePieceTrait;
-    use StringUniqIdBlocageTrait;
-    use BoolValideeTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code article.
+     *
+     * @var string
+     */
+    private $codeArticle;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Code fournisseur.
+     *
+     * @var string
+     */
+    private $codeFournisseur;
+
+    /**
+     * Code inspecteur.
+     *
+     * @var string
+     */
+    private $codeInspecteur;
+
+    /**
+     * Code livraison.
+     *
+     * @var string
+     */
+    private $codeLivraison;
+
+    /**
+     * Code livreur.
+     *
+     * @var string
+     */
+    private $codeLivreur;
+
+    /**
+     * Commande isolee.
+     *
+     * @var bool
+     */
+    private $commandeIsolee;
+
+    /**
+     * Critere texte1.
+     *
+     * @var string
+     */
+    private $critereTexte1;
+
+    /**
+     * Date livraison.
+     *
+     * @var DateTime|null
+     */
+    private $dateLivraison;
+
+    /**
+     * Date transfert.
+     *
+     * @var DateTime|null
+     */
+    private $dateTransfert;
+
+    /**
+     * Designation.
+     *
+     * @var string
+     */
+    private $designation;
+
+    /**
+     * Designation2.
+     *
+     * @var string
+     */
+    private $designation2;
+
+    /**
+     * Designation3.
+     *
+     * @var string
+     */
+    private $designation3;
+
+    /**
+     * From cde type.
+     *
+     * @var bool
+     */
+    private $fromCdeType;
+
+    /**
+     * Maj stock by da.
+     *
+     * @var bool
+     */
+    private $majStockByDa;
+
+    /**
+     * No bon int.
+     *
+     * @var string
+     */
+    private $noBonInt;
+
+    /**
+     * No piece cde.
+     *
+     * @var string
+     */
+    private $noPieceCde;
+
+    /**
+     * No piece cde cli.
+     *
+     * @var string
+     */
+    private $noPieceCdeCli;
+
+    /**
+     * Numero bs genere.
+     *
+     * @var string
+     */
+    private $numeroBsGenere;
+
+    /**
+     * Numero ligne.
+     *
+     * @var int
+     */
+    private $numeroLigne;
+
+    /**
+     * Periode.
+     *
+     * @var DateTime|null
+     */
+    private $periode;
+
+    /**
+     * Poste rent.
+     *
+     * @var string
+     */
+    private $posteRent;
+
+    /**
+     * Prix saisi.
+     *
+     * @var bool
+     */
+    private $prixSaisi;
+
+    /**
+     * Pu brut.
+     *
+     * @var float
+     */
+    private $puBrut;
+
+    /**
+     * Quantite.
+     *
+     * @var float
+     */
+    private $quantite;
+
+    /**
+     * Quantite bs.
+     *
+     * @var float
+     */
+    private $quantiteBs;
+
+    /**
+     * Quantite cde.
+     *
+     * @var float
+     */
+    private $quantiteCde;
+
+    /**
+     * Quantite cde cli.
+     *
+     * @var float
+     */
+    private $quantiteCdeCli;
+
+    /**
+     * Quantite liv.
+     *
+     * @var float
+     */
+    private $quantiteLiv;
+
+    /**
+     * Remise1.
+     *
+     * @var float
+     */
+    private $remise1;
+
+    /**
+     * Remise2.
+     *
+     * @var float
+     */
+    private $remise2;
+
+    /**
+     * Remise3.
+     *
+     * @var float
+     */
+    private $remise3;
+
+    /**
+     * Type gestion.
+     *
+     * @var string
+     */
+    private $typeGestion;
+
+    /**
+     * Type piece.
+     *
+     * @var string
+     */
+    private $typePiece;
+
+    /**
+     * Uniq id blocage.
+     *
+     * @var string
+     */
+    private $uniqIdBlocage;
+
+    /**
+     * Validee.
+     *
+     * @var bool
+     */
+    private $validee;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code article.
+     *
+     * @return string Returns the code article.
+     */
+    public function getCodeArticle() {
+        return $this->codeArticle;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the code fournisseur.
+     *
+     * @return string Returns the code fournisseur.
+     */
+    public function getCodeFournisseur() {
+        return $this->codeFournisseur;
+    }
+
+    /**
+     * Get the code inspecteur.
+     *
+     * @return string Returns the code inspecteur.
+     */
+    public function getCodeInspecteur() {
+        return $this->codeInspecteur;
+    }
+
+    /**
+     * Get the code livraison.
+     *
+     * @return string Returns the code livraison.
+     */
+    public function getCodeLivraison() {
+        return $this->codeLivraison;
+    }
+
+    /**
+     * Get the code livreur.
+     *
+     * @return string Returns the code livreur.
+     */
+    public function getCodeLivreur() {
+        return $this->codeLivreur;
+    }
+
+    /**
+     * Get the commande isolee.
+     *
+     * @return bool Returns the commande isolee.
+     */
+    public function getCommandeIsolee() {
+        return $this->commandeIsolee;
+    }
+
+    /**
+     * Get the critere texte1.
+     *
+     * @return string Returns the critere texte1.
+     */
+    public function getCritereTexte1() {
+        return $this->critereTexte1;
+    }
+
+    /**
+     * Get the date livraison.
+     *
+     * @return DateTime|null Returns the date livraison.
+     */
+    public function getDateLivraison() {
+        return $this->dateLivraison;
+    }
+
+    /**
+     * Get the date transfert.
+     *
+     * @return DateTime|null Returns the date transfert.
+     */
+    public function getDateTransfert() {
+        return $this->dateTransfert;
+    }
+
+    /**
+     * Get the designation.
+     *
+     * @return string Returns the designation.
+     */
+    public function getDesignation() {
+        return $this->designation;
+    }
+
+    /**
+     * Get the designation2.
+     *
+     * @return string Returns the designation2.
+     */
+    public function getDesignation2() {
+        return $this->designation2;
+    }
+
+    /**
+     * Get the designation3.
+     *
+     * @return string Returns the designation3.
+     */
+    public function getDesignation3() {
+        return $this->designation3;
+    }
+
+    /**
+     * Get the from cde type.
+     *
+     * @return bool Returns the from cde type.
+     */
+    public function getFromCdeType() {
+        return $this->fromCdeType;
+    }
+
+    /**
+     * Get the maj stock by da.
+     *
+     * @return bool Returns the maj stock by da.
+     */
+    public function getMajStockByDa() {
+        return $this->majStockByDa;
+    }
+
+    /**
+     * Get the no bon int.
+     *
+     * @return string Returns the no bon int.
+     */
+    public function getNoBonInt() {
+        return $this->noBonInt;
+    }
+
+    /**
+     * Get the no piece cde.
+     *
+     * @return string Returns the no piece cde.
+     */
+    public function getNoPieceCde() {
+        return $this->noPieceCde;
+    }
+
+    /**
+     * Get the no piece cde cli.
+     *
+     * @return string Returns the no piece cde cli.
+     */
+    public function getNoPieceCdeCli() {
+        return $this->noPieceCdeCli;
+    }
+
+    /**
+     * Get the numero bs genere.
+     *
+     * @return string Returns the numero bs genere.
+     */
+    public function getNumeroBsGenere() {
+        return $this->numeroBsGenere;
+    }
+
+    /**
+     * Get the numero ligne.
+     *
+     * @return int Returns the numero ligne.
+     */
+    public function getNumeroLigne() {
+        return $this->numeroLigne;
+    }
+
+    /**
+     * Get the periode.
+     *
+     * @return DateTime|null Returns the periode.
+     */
+    public function getPeriode() {
+        return $this->periode;
+    }
+
+    /**
+     * Get the poste rent.
+     *
+     * @return string Returns the poste rent.
+     */
+    public function getPosteRent() {
+        return $this->posteRent;
+    }
+
+    /**
+     * Get the prix saisi.
+     *
+     * @return bool Returns the prix saisi.
+     */
+    public function getPrixSaisi() {
+        return $this->prixSaisi;
+    }
+
+    /**
+     * Get the pu brut.
+     *
+     * @return float Returns the pu brut.
+     */
+    public function getPuBrut() {
+        return $this->puBrut;
+    }
+
+    /**
+     * Get the quantite.
+     *
+     * @return float Returns the quantite.
+     */
+    public function getQuantite() {
+        return $this->quantite;
+    }
+
+    /**
+     * Get the quantite bs.
+     *
+     * @return float Returns the quantite bs.
+     */
+    public function getQuantiteBs() {
+        return $this->quantiteBs;
+    }
+
+    /**
+     * Get the quantite cde.
+     *
+     * @return float Returns the quantite cde.
+     */
+    public function getQuantiteCde() {
+        return $this->quantiteCde;
+    }
+
+    /**
+     * Get the quantite cde cli.
+     *
+     * @return float Returns the quantite cde cli.
+     */
+    public function getQuantiteCdeCli() {
+        return $this->quantiteCdeCli;
+    }
+
+    /**
+     * Get the quantite liv.
+     *
+     * @return float Returns the quantite liv.
+     */
+    public function getQuantiteLiv() {
+        return $this->quantiteLiv;
+    }
+
+    /**
+     * Get the remise1.
+     *
+     * @return float Returns the remise1.
+     */
+    public function getRemise1() {
+        return $this->remise1;
+    }
+
+    /**
+     * Get the remise2.
+     *
+     * @return float Returns the remise2.
+     */
+    public function getRemise2() {
+        return $this->remise2;
+    }
+
+    /**
+     * Get the remise3.
+     *
+     * @return float Returns the remise3.
+     */
+    public function getRemise3() {
+        return $this->remise3;
+    }
+
+    /**
+     * Get the type gestion.
+     *
+     * @return string Returns the type gestion.
+     */
+    public function getTypeGestion() {
+        return $this->typeGestion;
+    }
+
+    /**
+     * Get the type piece.
+     *
+     * @return string Returns the type piece.
+     */
+    public function getTypePiece() {
+        return $this->typePiece;
+    }
+
+    /**
+     * Get the uniq id blocage.
+     *
+     * @return string Returns the uniq id blocage.
+     */
+    public function getUniqIdBlocage() {
+        return $this->uniqIdBlocage;
+    }
+
+    /**
+     * Get the validee.
+     *
+     * @return bool Returns the validee.
+     */
+    public function getValidee() {
+        return $this->validee;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code article.
+     *
+     * @param string $codeArticle The code article.
+     */
+    public function setCodeArticle($codeArticle) {
+        $this->codeArticle = $codeArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the code fournisseur.
+     *
+     * @param string $codeFournisseur The code fournisseur.
+     */
+    public function setCodeFournisseur($codeFournisseur) {
+        $this->codeFournisseur = $codeFournisseur;
+        return $this;
+    }
+
+    /**
+     * Set the code inspecteur.
+     *
+     * @param string $codeInspecteur The code inspecteur.
+     */
+    public function setCodeInspecteur($codeInspecteur) {
+        $this->codeInspecteur = $codeInspecteur;
+        return $this;
+    }
+
+    /**
+     * Set the code livraison.
+     *
+     * @param string $codeLivraison The code livraison.
+     */
+    public function setCodeLivraison($codeLivraison) {
+        $this->codeLivraison = $codeLivraison;
+        return $this;
+    }
+
+    /**
+     * Set the code livreur.
+     *
+     * @param string $codeLivreur The code livreur.
+     */
+    public function setCodeLivreur($codeLivreur) {
+        $this->codeLivreur = $codeLivreur;
+        return $this;
+    }
+
+    /**
+     * Set the commande isolee.
+     *
+     * @param bool $commandeIsolee The commande isolee.
+     */
+    public function setCommandeIsolee($commandeIsolee) {
+        $this->commandeIsolee = $commandeIsolee;
+        return $this;
+    }
+
+    /**
+     * Set the critere texte1.
+     *
+     * @param string $critereTexte1 The critere texte1.
+     */
+    public function setCritereTexte1($critereTexte1) {
+        $this->critereTexte1 = $critereTexte1;
+        return $this;
+    }
+
+    /**
+     * Set the date livraison.
+     *
+     * @param DateTime|null $dateLivraison The date livraison.
+     */
+    public function setDateLivraison(DateTime $dateLivraison = null) {
+        $this->dateLivraison = $dateLivraison;
+        return $this;
+    }
+
+    /**
+     * Set the date transfert.
+     *
+     * @param DateTime|null $dateTransfert The date transfert.
+     */
+    public function setDateTransfert(DateTime $dateTransfert = null) {
+        $this->dateTransfert = $dateTransfert;
+        return $this;
+    }
+
+    /**
+     * Set the designation.
+     *
+     * @param string $designation The designation.
+     */
+    public function setDesignation($designation) {
+        $this->designation = $designation;
+        return $this;
+    }
+
+    /**
+     * Set the designation2.
+     *
+     * @param string $designation2 The designation2.
+     */
+    public function setDesignation2($designation2) {
+        $this->designation2 = $designation2;
+        return $this;
+    }
+
+    /**
+     * Set the designation3.
+     *
+     * @param string $designation3 The designation3.
+     */
+    public function setDesignation3($designation3) {
+        $this->designation3 = $designation3;
+        return $this;
+    }
+
+    /**
+     * Set the from cde type.
+     *
+     * @param bool $fromCdeType The from cde type.
+     */
+    public function setFromCdeType($fromCdeType) {
+        $this->fromCdeType = $fromCdeType;
+        return $this;
+    }
+
+    /**
+     * Set the maj stock by da.
+     *
+     * @param bool $majStockByDa The maj stock by da.
+     */
+    public function setMajStockByDa($majStockByDa) {
+        $this->majStockByDa = $majStockByDa;
+        return $this;
+    }
+
+    /**
+     * Set the no bon int.
+     *
+     * @param string $noBonInt The no bon int.
+     */
+    public function setNoBonInt($noBonInt) {
+        $this->noBonInt = $noBonInt;
+        return $this;
+    }
+
+    /**
+     * Set the no piece cde.
+     *
+     * @param string $noPieceCde The no piece cde.
+     */
+    public function setNoPieceCde($noPieceCde) {
+        $this->noPieceCde = $noPieceCde;
+        return $this;
+    }
+
+    /**
+     * Set the no piece cde cli.
+     *
+     * @param string $noPieceCdeCli The no piece cde cli.
+     */
+    public function setNoPieceCdeCli($noPieceCdeCli) {
+        $this->noPieceCdeCli = $noPieceCdeCli;
+        return $this;
+    }
+
+    /**
+     * Set the numero bs genere.
+     *
+     * @param string $numeroBsGenere The numero bs genere.
+     */
+    public function setNumeroBsGenere($numeroBsGenere) {
+        $this->numeroBsGenere = $numeroBsGenere;
+        return $this;
+    }
+
+    /**
+     * Set the numero ligne.
+     *
+     * @param int $numeroLigne The numero ligne.
+     */
+    public function setNumeroLigne($numeroLigne) {
+        $this->numeroLigne = $numeroLigne;
+        return $this;
+    }
+
+    /**
+     * Set the periode.
+     *
+     * @param DateTime|null $periode The periode.
+     */
+    public function setPeriode(DateTime $periode = null) {
+        $this->periode = $periode;
+        return $this;
+    }
+
+    /**
+     * Set the poste rent.
+     *
+     * @param string $posteRent The poste rent.
+     */
+    public function setPosteRent($posteRent) {
+        $this->posteRent = $posteRent;
+        return $this;
+    }
+
+    /**
+     * Set the prix saisi.
+     *
+     * @param bool $prixSaisi The prix saisi.
+     */
+    public function setPrixSaisi($prixSaisi) {
+        $this->prixSaisi = $prixSaisi;
+        return $this;
+    }
+
+    /**
+     * Set the pu brut.
+     *
+     * @param float $puBrut The pu brut.
+     */
+    public function setPuBrut($puBrut) {
+        $this->puBrut = $puBrut;
+        return $this;
+    }
+
+    /**
+     * Set the quantite.
+     *
+     * @param float $quantite The quantite.
+     */
+    public function setQuantite($quantite) {
+        $this->quantite = $quantite;
+        return $this;
+    }
+
+    /**
+     * Set the quantite bs.
+     *
+     * @param float $quantiteBs The quantite bs.
+     */
+    public function setQuantiteBs($quantiteBs) {
+        $this->quantiteBs = $quantiteBs;
+        return $this;
+    }
+
+    /**
+     * Set the quantite cde.
+     *
+     * @param float $quantiteCde The quantite cde.
+     */
+    public function setQuantiteCde($quantiteCde) {
+        $this->quantiteCde = $quantiteCde;
+        return $this;
+    }
+
+    /**
+     * Set the quantite cde cli.
+     *
+     * @param float $quantiteCdeCli The quantite cde cli.
+     */
+    public function setQuantiteCdeCli($quantiteCdeCli) {
+        $this->quantiteCdeCli = $quantiteCdeCli;
+        return $this;
+    }
+
+    /**
+     * Set the quantite liv.
+     *
+     * @param float $quantiteLiv The quantite liv.
+     */
+    public function setQuantiteLiv($quantiteLiv) {
+        $this->quantiteLiv = $quantiteLiv;
+        return $this;
+    }
+
+    /**
+     * Set the remise1.
+     *
+     * @param float $remise1 The remise1.
+     */
+    public function setRemise1($remise1) {
+        $this->remise1 = $remise1;
+        return $this;
+    }
+
+    /**
+     * Set the remise2.
+     *
+     * @param float $remise2 The remise2.
+     */
+    public function setRemise2($remise2) {
+        $this->remise2 = $remise2;
+        return $this;
+    }
+
+    /**
+     * Set the remise3.
+     *
+     * @param float $remise3 The remise3.
+     */
+    public function setRemise3($remise3) {
+        $this->remise3 = $remise3;
+        return $this;
+    }
+
+    /**
+     * Set the type gestion.
+     *
+     * @param string $typeGestion The type gestion.
+     */
+    public function setTypeGestion($typeGestion) {
+        $this->typeGestion = $typeGestion;
+        return $this;
+    }
+
+    /**
+     * Set the type piece.
+     *
+     * @param string $typePiece The type piece.
+     */
+    public function setTypePiece($typePiece) {
+        $this->typePiece = $typePiece;
+        return $this;
+    }
+
+    /**
+     * Set the uniq id blocage.
+     *
+     * @param string $uniqIdBlocage The uniq id blocage.
+     */
+    public function setUniqIdBlocage($uniqIdBlocage) {
+        $this->uniqIdBlocage = $uniqIdBlocage;
+        return $this;
+    }
+
+    /**
+     * Set the validee.
+     *
+     * @param bool $validee The validee.
+     */
+    public function setValidee($validee) {
+        $this->validee = $validee;
+        return $this;
     }
 }

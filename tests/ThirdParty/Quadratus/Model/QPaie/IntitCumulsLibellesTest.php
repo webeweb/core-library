@@ -34,4 +34,30 @@ class IntitCumulsLibellesTest extends AbstractTestCase {
         $this->assertNull($obj->getIntitule());
         $this->assertNull($obj->getNumCumulBulletin());
     }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new IntitCumulsLibelles();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setNumCumulBulletin() method.
+     *
+     * @return void
+     */
+    public function testSetNumCumulBulletin() {
+
+        $obj = new IntitCumulsLibelles();
+
+        $obj->setNumCumulBulletin(10);
+        $this->assertEquals(10, $obj->getNumCumulBulletin());
+    }
 }

@@ -35,4 +35,43 @@ class AgendaGroupesCompos2Test extends AbstractTestCase {
         $this->assertNull($obj->getCodeGroupe());
         $this->assertNull($obj->getNumLig());
     }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new AgendaGroupesCompos2();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setCodeGroupe() method.
+     *
+     * @return void
+     */
+    public function testSetCodeGroupe() {
+
+        $obj = new AgendaGroupesCompos2();
+
+        $obj->setCodeGroupe("codeGroupe");
+        $this->assertEquals("codeGroupe", $obj->getCodeGroupe());
+    }
+
+    /**
+     * Tests the setNumLig() method.
+     *
+     * @return void
+     */
+    public function testSetNumLig() {
+
+        $obj = new AgendaGroupesCompos2();
+
+        $obj->setNumLig(10);
+        $this->assertEquals(10, $obj->getNumLig());
+    }
 }

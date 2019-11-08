@@ -11,19 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDernierSalaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMoyenneSalairesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatProvisionTotaleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatSalaireRefTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatSoldeJoursN1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatSoldeJoursNTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTxChargesSocTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCentreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringColPourSalRefTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNatureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomCompletEmpTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmpTrait;
-
 /**
  * Provisions cp.
  *
@@ -32,23 +19,322 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmpTrait;
  */
 class ProvisionsCp {
 
-    use StringCentreTrait;
-    use StringColPourSalRefTrait;
-    use FloatDernierSalaireTrait;
-    use FloatMoyenneSalairesTrait;
-    use StringNatureTrait;
-    use StringNomCompletEmpTrait;
-    use StringNumeroEmpTrait;
-    use FloatProvisionTotaleTrait;
-    use FloatSalaireRefTrait;
-    use FloatSoldeJoursNTrait;
-    use FloatSoldeJoursN1Trait;
-    use FloatTxChargesSocTrait;
+    /**
+     * Centre.
+     *
+     * @var string
+     */
+    private $centre;
+
+    /**
+     * Col pour sal ref.
+     *
+     * @var string
+     */
+    private $colPourSalRef;
+
+    /**
+     * Dernier salaire.
+     *
+     * @var float
+     */
+    private $dernierSalaire;
+
+    /**
+     * Moyenne salaires.
+     *
+     * @var float
+     */
+    private $moyenneSalaires;
+
+    /**
+     * Nature.
+     *
+     * @var string
+     */
+    private $nature;
+
+    /**
+     * Nom complet emp.
+     *
+     * @var string
+     */
+    private $nomCompletEmp;
+
+    /**
+     * Numero emp.
+     *
+     * @var string
+     */
+    private $numeroEmp;
+
+    /**
+     * Provision totale.
+     *
+     * @var float
+     */
+    private $provisionTotale;
+
+    /**
+     * Salaire ref.
+     *
+     * @var float
+     */
+    private $salaireRef;
+
+    /**
+     * Solde jours n.
+     *
+     * @var float
+     */
+    private $soldeJoursN;
+
+    /**
+     * Solde jours n1.
+     *
+     * @var float
+     */
+    private $soldeJoursN1;
+
+    /**
+     * Tx charges soc.
+     *
+     * @var float
+     */
+    private $txChargesSoc;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the centre.
+     *
+     * @return string Returns the centre.
+     */
+    public function getCentre() {
+        return $this->centre;
+    }
+
+    /**
+     * Get the col pour sal ref.
+     *
+     * @return string Returns the col pour sal ref.
+     */
+    public function getColPourSalRef() {
+        return $this->colPourSalRef;
+    }
+
+    /**
+     * Get the dernier salaire.
+     *
+     * @return float Returns the dernier salaire.
+     */
+    public function getDernierSalaire() {
+        return $this->dernierSalaire;
+    }
+
+    /**
+     * Get the moyenne salaires.
+     *
+     * @return float Returns the moyenne salaires.
+     */
+    public function getMoyenneSalaires() {
+        return $this->moyenneSalaires;
+    }
+
+    /**
+     * Get the nature.
+     *
+     * @return string Returns the nature.
+     */
+    public function getNature() {
+        return $this->nature;
+    }
+
+    /**
+     * Get the nom complet emp.
+     *
+     * @return string Returns the nom complet emp.
+     */
+    public function getNomCompletEmp() {
+        return $this->nomCompletEmp;
+    }
+
+    /**
+     * Get the numero emp.
+     *
+     * @return string Returns the numero emp.
+     */
+    public function getNumeroEmp() {
+        return $this->numeroEmp;
+    }
+
+    /**
+     * Get the provision totale.
+     *
+     * @return float Returns the provision totale.
+     */
+    public function getProvisionTotale() {
+        return $this->provisionTotale;
+    }
+
+    /**
+     * Get the salaire ref.
+     *
+     * @return float Returns the salaire ref.
+     */
+    public function getSalaireRef() {
+        return $this->salaireRef;
+    }
+
+    /**
+     * Get the solde jours n.
+     *
+     * @return float Returns the solde jours n.
+     */
+    public function getSoldeJoursN() {
+        return $this->soldeJoursN;
+    }
+
+    /**
+     * Get the solde jours n1.
+     *
+     * @return float Returns the solde jours n1.
+     */
+    public function getSoldeJoursN1() {
+        return $this->soldeJoursN1;
+    }
+
+    /**
+     * Get the tx charges soc.
+     *
+     * @return float Returns the tx charges soc.
+     */
+    public function getTxChargesSoc() {
+        return $this->txChargesSoc;
+    }
+
+    /**
+     * Set the centre.
+     *
+     * @param string $centre The centre.
+     */
+    public function setCentre($centre) {
+        $this->centre = $centre;
+        return $this;
+    }
+
+    /**
+     * Set the col pour sal ref.
+     *
+     * @param string $colPourSalRef The col pour sal ref.
+     */
+    public function setColPourSalRef($colPourSalRef) {
+        $this->colPourSalRef = $colPourSalRef;
+        return $this;
+    }
+
+    /**
+     * Set the dernier salaire.
+     *
+     * @param float $dernierSalaire The dernier salaire.
+     */
+    public function setDernierSalaire($dernierSalaire) {
+        $this->dernierSalaire = $dernierSalaire;
+        return $this;
+    }
+
+    /**
+     * Set the moyenne salaires.
+     *
+     * @param float $moyenneSalaires The moyenne salaires.
+     */
+    public function setMoyenneSalaires($moyenneSalaires) {
+        $this->moyenneSalaires = $moyenneSalaires;
+        return $this;
+    }
+
+    /**
+     * Set the nature.
+     *
+     * @param string $nature The nature.
+     */
+    public function setNature($nature) {
+        $this->nature = $nature;
+        return $this;
+    }
+
+    /**
+     * Set the nom complet emp.
+     *
+     * @param string $nomCompletEmp The nom complet emp.
+     */
+    public function setNomCompletEmp($nomCompletEmp) {
+        $this->nomCompletEmp = $nomCompletEmp;
+        return $this;
+    }
+
+    /**
+     * Set the numero emp.
+     *
+     * @param string $numeroEmp The numero emp.
+     */
+    public function setNumeroEmp($numeroEmp) {
+        $this->numeroEmp = $numeroEmp;
+        return $this;
+    }
+
+    /**
+     * Set the provision totale.
+     *
+     * @param float $provisionTotale The provision totale.
+     */
+    public function setProvisionTotale($provisionTotale) {
+        $this->provisionTotale = $provisionTotale;
+        return $this;
+    }
+
+    /**
+     * Set the salaire ref.
+     *
+     * @param float $salaireRef The salaire ref.
+     */
+    public function setSalaireRef($salaireRef) {
+        $this->salaireRef = $salaireRef;
+        return $this;
+    }
+
+    /**
+     * Set the solde jours n.
+     *
+     * @param float $soldeJoursN The solde jours n.
+     */
+    public function setSoldeJoursN($soldeJoursN) {
+        $this->soldeJoursN = $soldeJoursN;
+        return $this;
+    }
+
+    /**
+     * Set the solde jours n1.
+     *
+     * @param float $soldeJoursN1 The solde jours n1.
+     */
+    public function setSoldeJoursN1($soldeJoursN1) {
+        $this->soldeJoursN1 = $soldeJoursN1;
+        return $this;
+    }
+
+    /**
+     * Set the tx charges soc.
+     *
+     * @param float $txChargesSoc The tx charges soc.
+     */
+    public function setTxChargesSoc($txChargesSoc) {
+        $this->txChargesSoc = $txChargesSoc;
+        return $this;
     }
 }

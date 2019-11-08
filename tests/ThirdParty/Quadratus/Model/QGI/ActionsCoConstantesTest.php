@@ -34,4 +34,30 @@ class ActionsCoConstantesTest extends AbstractTestCase {
         $this->assertNull($obj->getLieuEdition());
         $this->assertNull($obj->getNumDeclaration());
     }
+
+    /**
+     * Tests the setLieuEdition() method.
+     *
+     * @return void
+     */
+    public function testSetLieuEdition() {
+
+        $obj = new ActionsCoConstantes();
+
+        $obj->setLieuEdition("lieuEdition");
+        $this->assertEquals("lieuEdition", $obj->getLieuEdition());
+    }
+
+    /**
+     * Tests the setNumDeclaration() method.
+     *
+     * @return void
+     */
+    public function testSetNumDeclaration() {
+
+        $obj = new ActionsCoConstantes();
+
+        $obj->setNumDeclaration("numDeclaration");
+        $this->assertEquals("numDeclaration", $obj->getNumDeclaration());
+    }
 }

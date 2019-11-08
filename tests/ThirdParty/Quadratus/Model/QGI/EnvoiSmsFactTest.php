@@ -36,4 +36,56 @@ class EnvoiSmsFactTest extends AbstractTestCase {
         $this->assertNull($obj->getMsgClient());
         $this->assertNull($obj->getMsgRepresentant());
     }
+
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
+
+        $obj = new EnvoiSmsFact();
+
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new EnvoiSmsFact();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setMsgClient() method.
+     *
+     * @return void
+     */
+    public function testSetMsgClient() {
+
+        $obj = new EnvoiSmsFact();
+
+        $obj->setMsgClient("msgClient");
+        $this->assertEquals("msgClient", $obj->getMsgClient());
+    }
+
+    /**
+     * Tests the setMsgRepresentant() method.
+     *
+     * @return void
+     */
+    public function testSetMsgRepresentant() {
+
+        $obj = new EnvoiSmsFact();
+
+        $obj->setMsgRepresentant("msgRepresentant");
+        $this->assertEquals("msgRepresentant", $obj->getMsgRepresentant());
+    }
 }

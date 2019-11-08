@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeJournalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeVentilationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCompteVentilationTrait;
-
 /**
  * Ventilations auto.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCompteVentilationTrait
  */
 class VentilationsAuto {
 
-    use StringCodeJournalTrait;
-    use StringCodeVentilationTrait;
-    use StringCompteVentilationTrait;
+    /**
+     * Code journal.
+     *
+     * @var string
+     */
+    private $codeJournal;
+
+    /**
+     * Code ventilation.
+     *
+     * @var string
+     */
+    private $codeVentilation;
+
+    /**
+     * Compte ventilation.
+     *
+     * @var string
+     */
+    private $compteVentilation;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code journal.
+     *
+     * @return string Returns the code journal.
+     */
+    public function getCodeJournal() {
+        return $this->codeJournal;
+    }
+
+    /**
+     * Get the code ventilation.
+     *
+     * @return string Returns the code ventilation.
+     */
+    public function getCodeVentilation() {
+        return $this->codeVentilation;
+    }
+
+    /**
+     * Get the compte ventilation.
+     *
+     * @return string Returns the compte ventilation.
+     */
+    public function getCompteVentilation() {
+        return $this->compteVentilation;
+    }
+
+    /**
+     * Set the code journal.
+     *
+     * @param string $codeJournal The code journal.
+     */
+    public function setCodeJournal($codeJournal) {
+        $this->codeJournal = $codeJournal;
+        return $this;
+    }
+
+    /**
+     * Set the code ventilation.
+     *
+     * @param string $codeVentilation The code ventilation.
+     */
+    public function setCodeVentilation($codeVentilation) {
+        $this->codeVentilation = $codeVentilation;
+        return $this;
+    }
+
+    /**
+     * Set the compte ventilation.
+     *
+     * @param string $compteVentilation The compte ventilation.
+     */
+    public function setCompteVentilation($compteVentilation) {
+        $this->compteVentilation = $compteVentilation;
+        return $this;
     }
 }

@@ -11,12 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolAccesCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolAccesIntervenantsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolAccesTotalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNbSmsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-
 /**
  * Envoi sms.
  *
@@ -25,16 +19,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait
  */
 class EnvoiSms {
 
-    use BoolAccesCollaborateurTrait;
-    use BoolAccesIntervenantsTrait;
-    use BoolAccesTotalTrait;
-    use StringCodeCollaborateurTrait;
-    use IntNbSmsTrait;
+    /**
+     * Acces collaborateur.
+     *
+     * @var bool
+     */
+    private $accesCollaborateur;
+
+    /**
+     * Acces intervenants.
+     *
+     * @var bool
+     */
+    private $accesIntervenants;
+
+    /**
+     * Acces total.
+     *
+     * @var bool
+     */
+    private $accesTotal;
+
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Nb sms.
+     *
+     * @var int
+     */
+    private $nbSms;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the acces collaborateur.
+     *
+     * @return bool Returns the acces collaborateur.
+     */
+    public function getAccesCollaborateur() {
+        return $this->accesCollaborateur;
+    }
+
+    /**
+     * Get the acces intervenants.
+     *
+     * @return bool Returns the acces intervenants.
+     */
+    public function getAccesIntervenants() {
+        return $this->accesIntervenants;
+    }
+
+    /**
+     * Get the acces total.
+     *
+     * @return bool Returns the acces total.
+     */
+    public function getAccesTotal() {
+        return $this->accesTotal;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the nb sms.
+     *
+     * @return int Returns the nb sms.
+     */
+    public function getNbSms() {
+        return $this->nbSms;
+    }
+
+    /**
+     * Set the acces collaborateur.
+     *
+     * @param bool $accesCollaborateur The acces collaborateur.
+     */
+    public function setAccesCollaborateur($accesCollaborateur) {
+        $this->accesCollaborateur = $accesCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the acces intervenants.
+     *
+     * @param bool $accesIntervenants The acces intervenants.
+     */
+    public function setAccesIntervenants($accesIntervenants) {
+        $this->accesIntervenants = $accesIntervenants;
+        return $this;
+    }
+
+    /**
+     * Set the acces total.
+     *
+     * @param bool $accesTotal The acces total.
+     */
+    public function setAccesTotal($accesTotal) {
+        $this->accesTotal = $accesTotal;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the nb sms.
+     *
+     * @param int $nbSms The nb sms.
+     */
+    public function setNbSms($nbSms) {
+        $this->nbSms = $nbSms;
+        return $this;
     }
 }

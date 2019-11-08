@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DecTva;
 
@@ -283,5 +285,3285 @@ class DecTvaTest extends AbstractTestCase {
         $this->assertNull($obj->getz9bHt());
         $this->assertNull($obj->getz9bLib());
         $this->assertNull($obj->getZ9BTaxe());
+    }
+
+    /**
+     * Tests the setACorres1() method.
+     *
+     * @return void
+     */
+    public function testSetACorres1() {
+
+        $obj = new DecTva();
+
+        $obj->setACorres1("aCorres1");
+        $this->assertEquals("aCorres1", $obj->getACorres1());
+    }
+
+    /**
+     * Tests the setACorres2() method.
+     *
+     * @return void
+     */
+    public function testSetACorres2() {
+
+        $obj = new DecTva();
+
+        $obj->setACorres2("aCorres2");
+        $this->assertEquals("aCorres2", $obj->getACorres2());
+    }
+
+    /**
+     * Tests the setACorres3() method.
+     *
+     * @return void
+     */
+    public function testSetACorres3() {
+
+        $obj = new DecTva();
+
+        $obj->setACorres3("aCorres3");
+        $this->assertEquals("aCorres3", $obj->getACorres3());
+    }
+
+    /**
+     * Tests the setACorres4() method.
+     *
+     * @return void
+     */
+    public function testSetACorres4() {
+
+        $obj = new DecTva();
+
+        $obj->setACorres4("aCorres4");
+        $this->assertEquals("aCorres4", $obj->getACorres4());
+    }
+
+    /**
+     * Tests the setACorres5() method.
+     *
+     * @return void
+     */
+    public function testSetACorres5() {
+
+        $obj = new DecTva();
+
+        $obj->setACorres5("aCorres5");
+        $this->assertEquals("aCorres5", $obj->getACorres5());
+    }
+
+    /**
+     * Tests the setACorres6() method.
+     *
+     * @return void
+     */
+    public function testSetACorres6() {
+
+        $obj = new DecTva();
+
+        $obj->setACorres6("aCorres6");
+        $this->assertEquals("aCorres6", $obj->getACorres6());
+    }
+
+    /**
+     * Tests the setACorres7() method.
+     *
+     * @return void
+     */
+    public function testSetACorres7() {
+
+        $obj = new DecTva();
+
+        $obj->setACorres7("aCorres7");
+        $this->assertEquals("aCorres7", $obj->getACorres7());
+    }
+
+    /**
+     * Tests the setACorres8() method.
+     *
+     * @return void
+     */
+    public function testSetACorres8() {
+
+        $obj = new DecTva();
+
+        $obj->setACorres8("aCorres8");
+        $this->assertEquals("aCorres8", $obj->getACorres8());
+    }
+
+    /**
+     * Tests the setAz0990() method.
+     *
+     * @return void
+     */
+    public function testSetAz0990() {
+
+        $obj = new DecTva();
+
+        $obj->setAz0990(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz0990());
+    }
+
+    /**
+     * Tests the setAz0990b() method.
+     *
+     * @return void
+     */
+    public function testSetAz0990b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz0990b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz0990b());
+    }
+
+    /**
+     * Tests the setAz1010() method.
+     *
+     * @return void
+     */
+    public function testSetAz1010() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1010(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1010());
+    }
+
+    /**
+     * Tests the setAz1010b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1010b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1010b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1010b());
+    }
+
+    /**
+     * Tests the setAz1020() method.
+     *
+     * @return void
+     */
+    public function testSetAz1020() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1020(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1020());
+    }
+
+    /**
+     * Tests the setAz1020b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1020b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1020b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1020b());
+    }
+
+    /**
+     * Tests the setAz1030() method.
+     *
+     * @return void
+     */
+    public function testSetAz1030() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1030(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1030());
+    }
+
+    /**
+     * Tests the setAz1030b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1030b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1030b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1030b());
+    }
+
+    /**
+     * Tests the setAz1040() method.
+     *
+     * @return void
+     */
+    public function testSetAz1040() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1040(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1040());
+    }
+
+    /**
+     * Tests the setAz1040b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1040b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1040b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1040b());
+    }
+
+    /**
+     * Tests the setAz1050() method.
+     *
+     * @return void
+     */
+    public function testSetAz1050() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1050(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1050());
+    }
+
+    /**
+     * Tests the setAz1050b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1050b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1050b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1050b());
+    }
+
+    /**
+     * Tests the setAz1080() method.
+     *
+     * @return void
+     */
+    public function testSetAz1080() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1080(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1080());
+    }
+
+    /**
+     * Tests the setAz1080b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1080b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1080b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1080b());
+    }
+
+    /**
+     * Tests the setAz1081() method.
+     *
+     * @return void
+     */
+    public function testSetAz1081() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1081(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1081());
+    }
+
+    /**
+     * Tests the setAz1081b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1081b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1081b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1081b());
+    }
+
+    /**
+     * Tests the setAz1090() method.
+     *
+     * @return void
+     */
+    public function testSetAz1090() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1090(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1090());
+    }
+
+    /**
+     * Tests the setAz1090b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1090b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1090b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1090b());
+    }
+
+    /**
+     * Tests the setAz1100() method.
+     *
+     * @return void
+     */
+    public function testSetAz1100() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1100(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1100());
+    }
+
+    /**
+     * Tests the setAz1100b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1100b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1100b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1100b());
+    }
+
+    /**
+     * Tests the setAz1110() method.
+     *
+     * @return void
+     */
+    public function testSetAz1110() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1110(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1110());
+    }
+
+    /**
+     * Tests the setAz1110b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1110b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1110b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1110b());
+    }
+
+    /**
+     * Tests the setAz1120() method.
+     *
+     * @return void
+     */
+    public function testSetAz1120() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1120(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1120());
+    }
+
+    /**
+     * Tests the setAz1120b() method.
+     *
+     * @return void
+     */
+    public function testSetAz1120b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz1120b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz1120b());
+    }
+
+    /**
+     * Tests the setAz3240() method.
+     *
+     * @return void
+     */
+    public function testSetAz3240() {
+
+        $obj = new DecTva();
+
+        $obj->setAz3240(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz3240());
+    }
+
+    /**
+     * Tests the setAz3260() method.
+     *
+     * @return void
+     */
+    public function testSetAz3260() {
+
+        $obj = new DecTva();
+
+        $obj->setAz3260(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz3260());
+    }
+
+    /**
+     * Tests the setAz3510() method.
+     *
+     * @return void
+     */
+    public function testSetAz3510() {
+
+        $obj = new DecTva();
+
+        $obj->setAz3510(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz3510());
+    }
+
+    /**
+     * Tests the setAz3520() method.
+     *
+     * @return void
+     */
+    public function testSetAz3520() {
+
+        $obj = new DecTva();
+
+        $obj->setAz3520(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz3520());
+    }
+
+    /**
+     * Tests the setAz38Code() method.
+     *
+     * @return void
+     */
+    public function testSetAz38Code() {
+
+        $obj = new DecTva();
+
+        $obj->setAz38Code("az38Code");
+        $this->assertEquals("az38Code", $obj->getAz38Code());
+    }
+
+    /**
+     * Tests the setAz38Lib() method.
+     *
+     * @return void
+     */
+    public function testSetAz38Lib() {
+
+        $obj = new DecTva();
+
+        $obj->setAz38Lib("az38Lib");
+        $this->assertEquals("az38Lib", $obj->getAz38Lib());
+    }
+
+    /**
+     * Tests the setAz38b() method.
+     *
+     * @return void
+     */
+    public function testSetAz38b() {
+
+        $obj = new DecTva();
+
+        $obj->setAz38b(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz38b());
+    }
+
+    /**
+     * Tests the setAz38ht() method.
+     *
+     * @return void
+     */
+    public function testSetAz38ht() {
+
+        $obj = new DecTva();
+
+        $obj->setAz38ht(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz38ht());
+    }
+
+    /**
+     * Tests the setAz3910() method.
+     *
+     * @return void
+     */
+    public function testSetAz3910() {
+
+        $obj = new DecTva();
+
+        $obj->setAz3910(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz3910());
+    }
+
+    /**
+     * Tests the setAz4200() method.
+     *
+     * @return void
+     */
+    public function testSetAz4200() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4200(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4200());
+    }
+
+    /**
+     * Tests the setAz4201() method.
+     *
+     * @return void
+     */
+    public function testSetAz4201() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4201(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4201());
+    }
+
+    /**
+     * Tests the setAz4204() method.
+     *
+     * @return void
+     */
+    public function testSetAz4204() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4204(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4204());
+    }
+
+    /**
+     * Tests the setAz4206() method.
+     *
+     * @return void
+     */
+    public function testSetAz4206() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4206(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4206());
+    }
+
+    /**
+     * Tests the setAz4207() method.
+     *
+     * @return void
+     */
+    public function testSetAz4207() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4207(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4207());
+    }
+
+    /**
+     * Tests the setAz4208() method.
+     *
+     * @return void
+     */
+    public function testSetAz4208() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4208(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4208());
+    }
+
+    /**
+     * Tests the setAz4209() method.
+     *
+     * @return void
+     */
+    public function testSetAz4209() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4209(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4209());
+    }
+
+    /**
+     * Tests the setAz4210() method.
+     *
+     * @return void
+     */
+    public function testSetAz4210() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4210(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4210());
+    }
+
+    /**
+     * Tests the setAz4211() method.
+     *
+     * @return void
+     */
+    public function testSetAz4211() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4211(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4211());
+    }
+
+    /**
+     * Tests the setAz4212() method.
+     *
+     * @return void
+     */
+    public function testSetAz4212() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4212(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4212());
+    }
+
+    /**
+     * Tests the setAz4213() method.
+     *
+     * @return void
+     */
+    public function testSetAz4213() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4213(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4213());
+    }
+
+    /**
+     * Tests the setAz4215() method.
+     *
+     * @return void
+     */
+    public function testSetAz4215() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4215(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4215());
+    }
+
+    /**
+     * Tests the setAz4220() method.
+     *
+     * @return void
+     */
+    public function testSetAz4220() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4220(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4220());
+    }
+
+    /**
+     * Tests the setAz4222() method.
+     *
+     * @return void
+     */
+    public function testSetAz4222() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4222(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4222());
+    }
+
+    /**
+     * Tests the setAz4223() method.
+     *
+     * @return void
+     */
+    public function testSetAz4223() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4223(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4223());
+    }
+
+    /**
+     * Tests the setAz4224() method.
+     *
+     * @return void
+     */
+    public function testSetAz4224() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4224(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4224());
+    }
+
+    /**
+     * Tests the setAz4228Mtt() method.
+     *
+     * @return void
+     */
+    public function testSetAz4228Mtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4228Mtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4228Mtt());
+    }
+
+    /**
+     * Tests the setAz4230() method.
+     *
+     * @return void
+     */
+    public function testSetAz4230() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4230(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4230());
+    }
+
+    /**
+     * Tests the setAz4231() method.
+     *
+     * @return void
+     */
+    public function testSetAz4231() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4231(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4231());
+    }
+
+    /**
+     * Tests the setAz4232() method.
+     *
+     * @return void
+     */
+    public function testSetAz4232() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4232(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4232());
+    }
+
+    /**
+     * Tests the setAz4233() method.
+     *
+     * @return void
+     */
+    public function testSetAz4233() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4233(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4233());
+    }
+
+    /**
+     * Tests the setAz4234() method.
+     *
+     * @return void
+     */
+    public function testSetAz4234() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4234(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4234());
+    }
+
+    /**
+     * Tests the setAz4235() method.
+     *
+     * @return void
+     */
+    public function testSetAz4235() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4235(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4235());
+    }
+
+    /**
+     * Tests the setAz4236() method.
+     *
+     * @return void
+     */
+    public function testSetAz4236() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4236(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4236());
+    }
+
+    /**
+     * Tests the setAz4237() method.
+     *
+     * @return void
+     */
+    public function testSetAz4237() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4237(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4237());
+    }
+
+    /**
+     * Tests the setAz4238() method.
+     *
+     * @return void
+     */
+    public function testSetAz4238() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4238(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4238());
+    }
+
+    /**
+     * Tests the setAz4239() method.
+     *
+     * @return void
+     */
+    public function testSetAz4239() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4239(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4239());
+    }
+
+    /**
+     * Tests the setAz4240() method.
+     *
+     * @return void
+     */
+    public function testSetAz4240() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4240(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4240());
+    }
+
+    /**
+     * Tests the setAz4241() method.
+     *
+     * @return void
+     */
+    public function testSetAz4241() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4241(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4241());
+    }
+
+    /**
+     * Tests the setAz4242() method.
+     *
+     * @return void
+     */
+    public function testSetAz4242() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4242(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4242());
+    }
+
+    /**
+     * Tests the setAz4243() method.
+     *
+     * @return void
+     */
+    public function testSetAz4243() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4243(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4243());
+    }
+
+    /**
+     * Tests the setAz4244() method.
+     *
+     * @return void
+     */
+    public function testSetAz4244() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4244(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4244());
+    }
+
+    /**
+     * Tests the setAz4245() method.
+     *
+     * @return void
+     */
+    public function testSetAz4245() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4245(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4245());
+    }
+
+    /**
+     * Tests the setAz4246() method.
+     *
+     * @return void
+     */
+    public function testSetAz4246() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4246(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4246());
+    }
+
+    /**
+     * Tests the setAz4247() method.
+     *
+     * @return void
+     */
+    public function testSetAz4247() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4247(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4247());
+    }
+
+    /**
+     * Tests the setAz4248() method.
+     *
+     * @return void
+     */
+    public function testSetAz4248() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4248(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4248());
+    }
+
+    /**
+     * Tests the setAz4249() method.
+     *
+     * @return void
+     */
+    public function testSetAz4249() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4249(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4249());
+    }
+
+    /**
+     * Tests the setAz4250() method.
+     *
+     * @return void
+     */
+    public function testSetAz4250() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4250(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4250());
+    }
+
+    /**
+     * Tests the setAz4251() method.
+     *
+     * @return void
+     */
+    public function testSetAz4251() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4251(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4251());
+    }
+
+    /**
+     * Tests the setAz4252() method.
+     *
+     * @return void
+     */
+    public function testSetAz4252() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4252(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4252());
+    }
+
+    /**
+     * Tests the setAz4254() method.
+     *
+     * @return void
+     */
+    public function testSetAz4254() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4254(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4254());
+    }
+
+    /**
+     * Tests the setAz4255() method.
+     *
+     * @return void
+     */
+    public function testSetAz4255() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4255(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4255());
+    }
+
+    /**
+     * Tests the setAz4256() method.
+     *
+     * @return void
+     */
+    public function testSetAz4256() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4256(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4256());
+    }
+
+    /**
+     * Tests the setAz4257() method.
+     *
+     * @return void
+     */
+    public function testSetAz4257() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4257(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4257());
+    }
+
+    /**
+     * Tests the setAz4258() method.
+     *
+     * @return void
+     */
+    public function testSetAz4258() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4258(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4258());
+    }
+
+    /**
+     * Tests the setAz4259() method.
+     *
+     * @return void
+     */
+    public function testSetAz4259() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4259(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4259());
+    }
+
+    /**
+     * Tests the setAz4260() method.
+     *
+     * @return void
+     */
+    public function testSetAz4260() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4260(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4260());
+    }
+
+    /**
+     * Tests the setAz4261() method.
+     *
+     * @return void
+     */
+    public function testSetAz4261() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4261(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4261());
+    }
+
+    /**
+     * Tests the setAz4262() method.
+     *
+     * @return void
+     */
+    public function testSetAz4262() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4262(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4262());
+    }
+
+    /**
+     * Tests the setAz4263() method.
+     *
+     * @return void
+     */
+    public function testSetAz4263() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4263(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4263());
+    }
+
+    /**
+     * Tests the setAz4264() method.
+     *
+     * @return void
+     */
+    public function testSetAz4264() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4264(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4264());
+    }
+
+    /**
+     * Tests the setAz4265() method.
+     *
+     * @return void
+     */
+    public function testSetAz4265() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4265(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4265());
+    }
+
+    /**
+     * Tests the setAz4266() method.
+     *
+     * @return void
+     */
+    public function testSetAz4266() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4266(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4266());
+    }
+
+    /**
+     * Tests the setAz4267() method.
+     *
+     * @return void
+     */
+    public function testSetAz4267() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4267(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4267());
+    }
+
+    /**
+     * Tests the setAz4268() method.
+     *
+     * @return void
+     */
+    public function testSetAz4268() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4268(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4268());
+    }
+
+    /**
+     * Tests the setAz4268Base() method.
+     *
+     * @return void
+     */
+    public function testSetAz4268Base() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4268Base(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4268Base());
+    }
+
+    /**
+     * Tests the setAz4269() method.
+     *
+     * @return void
+     */
+    public function testSetAz4269() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4269(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4269());
+    }
+
+    /**
+     * Tests the setAz4269Base() method.
+     *
+     * @return void
+     */
+    public function testSetAz4269Base() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4269Base(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4269Base());
+    }
+
+    /**
+     * Tests the setAz4270() method.
+     *
+     * @return void
+     */
+    public function testSetAz4270() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4270(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4270());
+    }
+
+    /**
+     * Tests the setAz4270Base() method.
+     *
+     * @return void
+     */
+    public function testSetAz4270Base() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4270Base(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4270Base());
+    }
+
+    /**
+     * Tests the setAz4271() method.
+     *
+     * @return void
+     */
+    public function testSetAz4271() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4271(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4271());
+    }
+
+    /**
+     * Tests the setAz4271Base() method.
+     *
+     * @return void
+     */
+    public function testSetAz4271Base() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4271Base(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4271Base());
+    }
+
+    /**
+     * Tests the setAz4272() method.
+     *
+     * @return void
+     */
+    public function testSetAz4272() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4272(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4272());
+    }
+
+    /**
+     * Tests the setAz4274() method.
+     *
+     * @return void
+     */
+    public function testSetAz4274() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4274(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4274());
+    }
+
+    /**
+     * Tests the setAz4276() method.
+     *
+     * @return void
+     */
+    public function testSetAz4276() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4276(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4276());
+    }
+
+    /**
+     * Tests the setAz4276Base() method.
+     *
+     * @return void
+     */
+    public function testSetAz4276Base() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4276Base(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4276Base());
+    }
+
+    /**
+     * Tests the setAz4277() method.
+     *
+     * @return void
+     */
+    public function testSetAz4277() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4277(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4277());
+    }
+
+    /**
+     * Tests the setAz4277Base() method.
+     *
+     * @return void
+     */
+    public function testSetAz4277Base() {
+
+        $obj = new DecTva();
+
+        $obj->setAz4277Base(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz4277Base());
+    }
+
+    /**
+     * Tests the setAz50Code() method.
+     *
+     * @return void
+     */
+    public function testSetAz50Code() {
+
+        $obj = new DecTva();
+
+        $obj->setAz50Code("az50Code");
+        $this->assertEquals("az50Code", $obj->getAz50Code());
+    }
+
+    /**
+     * Tests the setAz50Lib() method.
+     *
+     * @return void
+     */
+    public function testSetAz50Lib() {
+
+        $obj = new DecTva();
+
+        $obj->setAz50Lib("az50Lib");
+        $this->assertEquals("az50Lib", $obj->getAz50Lib());
+    }
+
+    /**
+     * Tests the setAz50Mtt() method.
+     *
+     * @return void
+     */
+    public function testSetAz50Mtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAz50Mtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz50Mtt());
+    }
+
+    /**
+     * Tests the setAz59Code() method.
+     *
+     * @return void
+     */
+    public function testSetAz59Code() {
+
+        $obj = new DecTva();
+
+        $obj->setAz59Code("az59Code");
+        $this->assertEquals("az59Code", $obj->getAz59Code());
+    }
+
+    /**
+     * Tests the setAz59Lib() method.
+     *
+     * @return void
+     */
+    public function testSetAz59Lib() {
+
+        $obj = new DecTva();
+
+        $obj->setAz59Lib("az59Lib");
+        $this->assertEquals("az59Lib", $obj->getAz59Lib());
+    }
+
+    /**
+     * Tests the setAz59Mtt() method.
+     *
+     * @return void
+     */
+    public function testSetAz59Mtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAz59Mtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAz59Mtt());
+    }
+
+    /**
+     * Tests the setAzEnCode() method.
+     *
+     * @return void
+     */
+    public function testSetAzEnCode() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEnCode("azEnCode");
+        $this->assertEquals("azEnCode", $obj->getAzEnCode());
+    }
+
+    /**
+     * Tests the setAzEnLib() method.
+     *
+     * @return void
+     */
+    public function testSetAzEnLib() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEnLib("azEnLib");
+        $this->assertEquals("azEnLib", $obj->getAzEnLib());
+    }
+
+    /**
+     * Tests the setAzEsCode() method.
+     *
+     * @return void
+     */
+    public function testSetAzEsCode() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEsCode("azEsCode");
+        $this->assertEquals("azEsCode", $obj->getAzEsCode());
+    }
+
+    /**
+     * Tests the setAzEsLib() method.
+     *
+     * @return void
+     */
+    public function testSetAzEsLib() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEsLib("azEsLib");
+        $this->assertEquals("azEsLib", $obj->getAzEsLib());
+    }
+
+    /**
+     * Tests the setAzEsMtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzEsMtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEsMtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzEsMtt());
+    }
+
+    /**
+     * Tests the setAzEuCode() method.
+     *
+     * @return void
+     */
+    public function testSetAzEuCode() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEuCode("azEuCode");
+        $this->assertEquals("azEuCode", $obj->getAzEuCode());
+    }
+
+    /**
+     * Tests the setAzEuLib() method.
+     *
+     * @return void
+     */
+    public function testSetAzEuLib() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEuLib("azEuLib");
+        $this->assertEquals("azEuLib", $obj->getAzEuLib());
+    }
+
+    /**
+     * Tests the setAzEuMtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzEuMtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEuMtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzEuMtt());
+    }
+
+    /**
+     * Tests the setAzExCode() method.
+     *
+     * @return void
+     */
+    public function testSetAzExCode() {
+
+        $obj = new DecTva();
+
+        $obj->setAzExCode("azExCode");
+        $this->assertEquals("azExCode", $obj->getAzExCode());
+    }
+
+    /**
+     * Tests the setAzExLib() method.
+     *
+     * @return void
+     */
+    public function testSetAzExLib() {
+
+        $obj = new DecTva();
+
+        $obj->setAzExLib("azExLib");
+        $this->assertEquals("azExLib", $obj->getAzExLib());
+    }
+
+    /**
+     * Tests the setAzExMtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzExMtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzExMtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzExMtt());
+    }
+
+    /**
+     * Tests the setAzEyCode() method.
+     *
+     * @return void
+     */
+    public function testSetAzEyCode() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEyCode("azEyCode");
+        $this->assertEquals("azEyCode", $obj->getAzEyCode());
+    }
+
+    /**
+     * Tests the setAzEyLib() method.
+     *
+     * @return void
+     */
+    public function testSetAzEyLib() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEyLib("azEyLib");
+        $this->assertEquals("azEyLib", $obj->getAzEyLib());
+    }
+
+    /**
+     * Tests the setAzEyMtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzEyMtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEyMtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzEyMtt());
+    }
+
+    /**
+     * Tests the setAzEzCode() method.
+     *
+     * @return void
+     */
+    public function testSetAzEzCode() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEzCode("azEzCode");
+        $this->assertEquals("azEzCode", $obj->getAzEzCode());
+    }
+
+    /**
+     * Tests the setAzEzLib() method.
+     *
+     * @return void
+     */
+    public function testSetAzEzLib() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEzLib("azEzLib");
+        $this->assertEquals("azEzLib", $obj->getAzEzLib());
+    }
+
+    /**
+     * Tests the setAzEzMtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzEzMtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzEzMtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzEzMtt());
+    }
+
+    /**
+     * Tests the setAzGaCode() method.
+     *
+     * @return void
+     */
+    public function testSetAzGaCode() {
+
+        $obj = new DecTva();
+
+        $obj->setAzGaCode("azGaCode");
+        $this->assertEquals("azGaCode", $obj->getAzGaCode());
+    }
+
+    /**
+     * Tests the setAzGaLib() method.
+     *
+     * @return void
+     */
+    public function testSetAzGaLib() {
+
+        $obj = new DecTva();
+
+        $obj->setAzGaLib("azGaLib");
+        $this->assertEquals("azGaLib", $obj->getAzGaLib());
+    }
+
+    /**
+     * Tests the setAzGaMtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzGaMtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzGaMtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzGaMtt());
+    }
+
+    /**
+     * Tests the setAzGcCode() method.
+     *
+     * @return void
+     */
+    public function testSetAzGcCode() {
+
+        $obj = new DecTva();
+
+        $obj->setAzGcCode("azGcCode");
+        $this->assertEquals("azGcCode", $obj->getAzGcCode());
+    }
+
+    /**
+     * Tests the setAzGcLib() method.
+     *
+     * @return void
+     */
+    public function testSetAzGcLib() {
+
+        $obj = new DecTva();
+
+        $obj->setAzGcLib("azGcLib");
+        $this->assertEquals("azGcLib", $obj->getAzGcLib());
+    }
+
+    /**
+     * Tests the setAzGcMtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzGcMtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzGcMtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzGcMtt());
+    }
+
+    /**
+     * Tests the setAzHi() method.
+     *
+     * @return void
+     */
+    public function testSetAzHi() {
+
+        $obj = new DecTva();
+
+        $obj->setAzHi(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzHi());
+    }
+
+    /**
+     * Tests the setAzHl() method.
+     *
+     * @return void
+     */
+    public function testSetAzHl() {
+
+        $obj = new DecTva();
+
+        $obj->setAzHl(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzHl());
+    }
+
+    /**
+     * Tests the setAzJb() method.
+     *
+     * @return void
+     */
+    public function testSetAzJb() {
+
+        $obj = new DecTva();
+
+        $obj->setAzJb(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzJb());
+    }
+
+    /**
+     * Tests the setAzJc() method.
+     *
+     * @return void
+     */
+    public function testSetAzJc() {
+
+        $obj = new DecTva();
+
+        $obj->setAzJc(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzJc());
+    }
+
+    /**
+     * Tests the setAzLigne4Mtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzLigne4Mtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzLigne4Mtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzLigne4Mtt());
+    }
+
+    /**
+     * Tests the setAzLigne5Mtt() method.
+     *
+     * @return void
+     */
+    public function testSetAzLigne5Mtt() {
+
+        $obj = new DecTva();
+
+        $obj->setAzLigne5Mtt(10.092018);
+        $this->assertEquals(10.092018, $obj->getAzLigne5Mtt());
+    }
+
+    /**
+     * Tests the setCa12MoisCloture() method.
+     *
+     * @return void
+     */
+    public function testSetCa12MoisCloture() {
+
+        $obj = new DecTva();
+
+        $obj->setCa12MoisCloture(10);
+        $this->assertEquals(10, $obj->getCa12MoisCloture());
+    }
+
+    /**
+     * Tests the setCorres1() method.
+     *
+     * @return void
+     */
+    public function testSetCorres1() {
+
+        $obj = new DecTva();
+
+        $obj->setCorres1("corres1");
+        $this->assertEquals("corres1", $obj->getCorres1());
+    }
+
+    /**
+     * Tests the setCorres2() method.
+     *
+     * @return void
+     */
+    public function testSetCorres2() {
+
+        $obj = new DecTva();
+
+        $obj->setCorres2("corres2");
+        $this->assertEquals("corres2", $obj->getCorres2());
+    }
+
+    /**
+     * Tests the setCorres3() method.
+     *
+     * @return void
+     */
+    public function testSetCorres3() {
+
+        $obj = new DecTva();
+
+        $obj->setCorres3("corres3");
+        $this->assertEquals("corres3", $obj->getCorres3());
+    }
+
+    /**
+     * Tests the setCorres4() method.
+     *
+     * @return void
+     */
+    public function testSetCorres4() {
+
+        $obj = new DecTva();
+
+        $obj->setCorres4("corres4");
+        $this->assertEquals("corres4", $obj->getCorres4());
+    }
+
+    /**
+     * Tests the setCorres5() method.
+     *
+     * @return void
+     */
+    public function testSetCorres5() {
+
+        $obj = new DecTva();
+
+        $obj->setCorres5("corres5");
+        $this->assertEquals("corres5", $obj->getCorres5());
+    }
+
+    /**
+     * Tests the setCorres6() method.
+     *
+     * @return void
+     */
+    public function testSetCorres6() {
+
+        $obj = new DecTva();
+
+        $obj->setCorres6("corres6");
+        $this->assertEquals("corres6", $obj->getCorres6());
+    }
+
+    /**
+     * Tests the setCorres7() method.
+     *
+     * @return void
+     */
+    public function testSetCorres7() {
+
+        $obj = new DecTva();
+
+        $obj->setCorres7("corres7");
+        $this->assertEquals("corres7", $obj->getCorres7());
+    }
+
+    /**
+     * Tests the setCorres8() method.
+     *
+     * @return void
+     */
+    public function testSetCorres8() {
+
+        $obj = new DecTva();
+
+        $obj->setCorres8("corres8");
+        $this->assertEquals("corres8", $obj->getCorres8());
+    }
+
+    /**
+     * Tests the setCreditCompte() method.
+     *
+     * @return void
+     */
+    public function testSetCreditCompte() {
+
+        $obj = new DecTva();
+
+        $obj->setCreditCompte(true);
+        $this->assertEquals(true, $obj->getCreditCompte());
+    }
+
+    /**
+     * Tests the setCreditImputer() method.
+     *
+     * @return void
+     */
+    public function testSetCreditImputer() {
+
+        $obj = new DecTva();
+
+        $obj->setCreditImputer(true);
+        $this->assertEquals(true, $obj->getCreditImputer());
+    }
+
+    /**
+     * Tests the setDateDec() method.
+     *
+     * @return void
+     */
+    public function testSetDateDec() {
+
+        $obj = new DecTva();
+
+        $obj->setDateDec("dateDec");
+        $this->assertEquals("dateDec", $obj->getDateDec());
+    }
+
+    /**
+     * Tests the setFlgAc() method.
+     *
+     * @return void
+     */
+    public function testSetFlgAc() {
+
+        $obj = new DecTva();
+
+        $obj->setFlgAc(true);
+        $this->assertEquals(true, $obj->getFlgAc());
+    }
+
+    /**
+     * Tests the setGenAuto() method.
+     *
+     * @return void
+     */
+    public function testSetGenAuto() {
+
+        $obj = new DecTva();
+
+        $obj->setGenAuto(true);
+        $this->assertEquals(true, $obj->getGenAuto());
+    }
+
+    /**
+     * Tests the setHtTaux196() method.
+     *
+     * @return void
+     */
+    public function testSetHtTaux196() {
+
+        $obj = new DecTva();
+
+        $obj->setHtTaux196(10.092018);
+        $this->assertEquals(10.092018, $obj->getHtTaux196());
+    }
+
+    /**
+     * Tests the setHtTaux7() method.
+     *
+     * @return void
+     */
+    public function testSetHtTaux7() {
+
+        $obj = new DecTva();
+
+        $obj->setHtTaux7(10.092018);
+        $this->assertEquals(10.092018, $obj->getHtTaux7());
+    }
+
+    /**
+     * Tests the setLiquiTaxes1() method.
+     *
+     * @return void
+     */
+    public function testSetLiquiTaxes1() {
+
+        $obj = new DecTva();
+
+        $obj->setLiquiTaxes1("liquiTaxes1");
+        $this->assertEquals("liquiTaxes1", $obj->getLiquiTaxes1());
+    }
+
+    /**
+     * Tests the setLiquiTaxes2() method.
+     *
+     * @return void
+     */
+    public function testSetLiquiTaxes2() {
+
+        $obj = new DecTva();
+
+        $obj->setLiquiTaxes2("liquiTaxes2");
+        $this->assertEquals("liquiTaxes2", $obj->getLiquiTaxes2());
+    }
+
+    /**
+     * Tests the setLiquiTaxes3() method.
+     *
+     * @return void
+     */
+    public function testSetLiquiTaxes3() {
+
+        $obj = new DecTva();
+
+        $obj->setLiquiTaxes3("liquiTaxes3");
+        $this->assertEquals("liquiTaxes3", $obj->getLiquiTaxes3());
+    }
+
+    /**
+     * Tests the setLiquiTaxes4() method.
+     *
+     * @return void
+     */
+    public function testSetLiquiTaxes4() {
+
+        $obj = new DecTva();
+
+        $obj->setLiquiTaxes4("liquiTaxes4");
+        $this->assertEquals("liquiTaxes4", $obj->getLiquiTaxes4());
+    }
+
+    /**
+     * Tests the setLiquiTaxes5() method.
+     *
+     * @return void
+     */
+    public function testSetLiquiTaxes5() {
+
+        $obj = new DecTva();
+
+        $obj->setLiquiTaxes5("liquiTaxes5");
+        $this->assertEquals("liquiTaxes5", $obj->getLiquiTaxes5());
+    }
+
+    /**
+     * Tests the setMentionExpresse() method.
+     *
+     * @return void
+     */
+    public function testSetMentionExpresse() {
+
+        $obj = new DecTva();
+
+        $obj->setMentionExpresse(true);
+        $this->assertEquals(true, $obj->getMentionExpresse());
+    }
+
+    /**
+     * Tests the setMonnaie() method.
+     *
+     * @return void
+     */
+    public function testSetMonnaie() {
+
+        $obj = new DecTva();
+
+        $obj->setMonnaie("monnaie");
+        $this->assertEquals("monnaie", $obj->getMonnaie());
+    }
+
+    /**
+     * Tests the setMonnaieTenue() method.
+     *
+     * @return void
+     */
+    public function testSetMonnaieTenue() {
+
+        $obj = new DecTva();
+
+        $obj->setMonnaieTenue("monnaieTenue");
+        $this->assertEquals("monnaieTenue", $obj->getMonnaieTenue());
+    }
+
+    /**
+     * Tests the setNoLotEcritures() method.
+     *
+     * @return void
+     */
+    public function testSetNoLotEcritures() {
+
+        $obj = new DecTva();
+
+        $obj->setNoLotEcritures(10);
+        $this->assertEquals(10, $obj->getNoLotEcritures());
+    }
+
+    /**
+     * Tests the setPCent() method.
+     *
+     * @return void
+     */
+    public function testSetPCent() {
+
+        $obj = new DecTva();
+
+        $obj->setPCent(10.092018);
+        $this->assertEquals(10.092018, $obj->getPCent());
+    }
+
+    /**
+     * Tests the setPaiementImputation() method.
+     *
+     * @return void
+     */
+    public function testSetPaiementImputation() {
+
+        $obj = new DecTva();
+
+        $obj->setPaiementImputation(true);
+        $this->assertEquals(true, $obj->getPaiementImputation());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new DecTva();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the setReportAcp() method.
+     *
+     * @return void
+     */
+    public function testSetReportAcp() {
+
+        $obj = new DecTva();
+
+        $obj->setReportAcp(10.092018);
+        $this->assertEquals(10.092018, $obj->getReportAcp());
+    }
+
+    /**
+     * Tests the setRibTitulaire1() method.
+     *
+     * @return void
+     */
+    public function testSetRibTitulaire1() {
+
+        $obj = new DecTva();
+
+        $obj->setRibTitulaire1("ribTitulaire1");
+        $this->assertEquals("ribTitulaire1", $obj->getRibTitulaire1());
+    }
+
+    /**
+     * Tests the setRibTitulaire2() method.
+     *
+     * @return void
+     */
+    public function testSetRibTitulaire2() {
+
+        $obj = new DecTva();
+
+        $obj->setRibTitulaire2("ribTitulaire2");
+        $this->assertEquals("ribTitulaire2", $obj->getRibTitulaire2());
+    }
+
+    /**
+     * Tests the setSelAdresseDest() method.
+     *
+     * @return void
+     */
+    public function testSetSelAdresseDest() {
+
+        $obj = new DecTva();
+
+        $obj->setSelAdresseDest("selAdresseDest");
+        $this->assertEquals("selAdresseDest", $obj->getSelAdresseDest());
+    }
+
+    /**
+     * Tests the setTotal() method.
+     *
+     * @return void
+     */
+    public function testSetTotal() {
+
+        $obj = new DecTva();
+
+        $obj->setTotal(10.092018);
+        $this->assertEquals(10.092018, $obj->getTotal());
+    }
+
+    /**
+     * Tests the setTypeReglement() method.
+     *
+     * @return void
+     */
+    public function testSetTypeReglement() {
+
+        $obj = new DecTva();
+
+        $obj->setTypeReglement(10);
+        $this->assertEquals(10, $obj->getTypeReglement());
+    }
+
+    /**
+     * Tests the setVille() method.
+     *
+     * @return void
+     */
+    public function testSetVille() {
+
+        $obj = new DecTva();
+
+        $obj->setVille("ville");
+        $this->assertEquals("ville", $obj->getVille());
+    }
+
+    /**
+     * Tests the setZ0031() method.
+     *
+     * @return void
+     */
+    public function testSetZ0031() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0031(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0031());
+    }
+
+    /**
+     * Tests the setZ0031b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0031b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0031b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0031b());
+    }
+
+    /**
+     * Tests the setZ0032() method.
+     *
+     * @return void
+     */
+    public function testSetZ0032() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0032(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0032());
+    }
+
+    /**
+     * Tests the setZ0033() method.
+     *
+     * @return void
+     */
+    public function testSetZ0033() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0033(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0033());
+    }
+
+    /**
+     * Tests the setZ0034() method.
+     *
+     * @return void
+     */
+    public function testSetZ0034() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0034(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0034());
+    }
+
+    /**
+     * Tests the setZ0035() method.
+     *
+     * @return void
+     */
+    public function testSetZ0035() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0035(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0035());
+    }
+
+    /**
+     * Tests the setZ0037() method.
+     *
+     * @return void
+     */
+    public function testSetZ0037() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0037(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0037());
+    }
+
+    /**
+     * Tests the setZ0038() method.
+     *
+     * @return void
+     */
+    public function testSetZ0038() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0038(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0038());
+    }
+
+    /**
+     * Tests the setZ0040() method.
+     *
+     * @return void
+     */
+    public function testSetZ0040() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0040(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0040());
+    }
+
+    /**
+     * Tests the setZ0040b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0040b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0040b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0040b());
+    }
+
+    /**
+     * Tests the setZ0041() method.
+     *
+     * @return void
+     */
+    public function testSetZ0041() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0041(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0041());
+    }
+
+    /**
+     * Tests the setZ01() method.
+     *
+     * @return void
+     */
+    public function testSetZ01() {
+
+        $obj = new DecTva();
+
+        $obj->setZ01(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ01());
+    }
+
+    /**
+     * Tests the setZ0100() method.
+     *
+     * @return void
+     */
+    public function testSetZ0100() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0100(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0100());
+    }
+
+    /**
+     * Tests the setZ0100b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0100b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0100b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0100b());
+    }
+
+    /**
+     * Tests the setZ0121b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0121b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0121b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0121b());
+    }
+
+    /**
+     * Tests the setZ02() method.
+     *
+     * @return void
+     */
+    public function testSetZ02() {
+
+        $obj = new DecTva();
+
+        $obj->setZ02(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ02());
+    }
+
+    /**
+     * Tests the setZ0200() method.
+     *
+     * @return void
+     */
+    public function testSetZ0200() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0200(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0200());
+    }
+
+    /**
+     * Tests the setZ0200b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0200b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0200b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0200b());
+    }
+
+    /**
+     * Tests the setZ0205() method.
+     *
+     * @return void
+     */
+    public function testSetZ0205() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0205(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0205());
+    }
+
+    /**
+     * Tests the setZ0205b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0205b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0205b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0205b());
+    }
+
+    /**
+     * Tests the setZ0600() method.
+     *
+     * @return void
+     */
+    public function testSetZ0600() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0600(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0600());
+    }
+
+    /**
+     * Tests the setZ0701() method.
+     *
+     * @return void
+     */
+    public function testSetZ0701() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0701(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0701());
+    }
+
+    /**
+     * Tests the setZ0702() method.
+     *
+     * @return void
+     */
+    public function testSetZ0702() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0702(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0702());
+    }
+
+    /**
+     * Tests the setZ0702b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0702b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0702b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0702b());
+    }
+
+    /**
+     * Tests the setZ0703() method.
+     *
+     * @return void
+     */
+    public function testSetZ0703() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0703(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0703());
+    }
+
+    /**
+     * Tests the setZ0703b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0703b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0703b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0703b());
+    }
+
+    /**
+     * Tests the setZ0705() method.
+     *
+     * @return void
+     */
+    public function testSetZ0705() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0705(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0705());
+    }
+
+    /**
+     * Tests the setZ0900() method.
+     *
+     * @return void
+     */
+    public function testSetZ0900() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0900(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0900());
+    }
+
+    /**
+     * Tests the setZ0900b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0900b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0900b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0900b());
+    }
+
+    /**
+     * Tests the setZ0920() method.
+     *
+     * @return void
+     */
+    public function testSetZ0920() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0920(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0920());
+    }
+
+    /**
+     * Tests the setZ0920b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0920b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0920b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0920b());
+    }
+
+    /**
+     * Tests the setZ0950() method.
+     *
+     * @return void
+     */
+    public function testSetZ0950() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0950(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0950());
+    }
+
+    /**
+     * Tests the setZ0950b() method.
+     *
+     * @return void
+     */
+    public function testSetZ0950b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ0950b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ0950b());
+    }
+
+    /**
+     * Tests the setZ12Code() method.
+     *
+     * @return void
+     */
+    public function testSetZ12Code() {
+
+        $obj = new DecTva();
+
+        $obj->setZ12Code("z12Code");
+        $this->assertEquals("z12Code", $obj->getZ12Code());
+    }
+
+    /**
+     * Tests the setZ12Lib() method.
+     *
+     * @return void
+     */
+    public function testSetZ12Lib() {
+
+        $obj = new DecTva();
+
+        $obj->setZ12Lib("z12Lib");
+        $this->assertEquals("z12Lib", $obj->getZ12Lib());
+    }
+
+    /**
+     * Tests the setZ12Taxe() method.
+     *
+     * @return void
+     */
+    public function testSetZ12Taxe() {
+
+        $obj = new DecTva();
+
+        $obj->setZ12Taxe(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ12Taxe());
+    }
+
+    /**
+     * Tests the setZ14() method.
+     *
+     * @return void
+     */
+    public function testSetZ14() {
+
+        $obj = new DecTva();
+
+        $obj->setZ14(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ14());
+    }
+
+    /**
+     * Tests the setZ18() method.
+     *
+     * @return void
+     */
+    public function testSetZ18() {
+
+        $obj = new DecTva();
+
+        $obj->setZ18(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ18());
+    }
+
+    /**
+     * Tests the setZ196() method.
+     *
+     * @return void
+     */
+    public function testSetZ196() {
+
+        $obj = new DecTva();
+
+        $obj->setZ196(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ196());
+    }
+
+    /**
+     * Tests the setZ196b() method.
+     *
+     * @return void
+     */
+    public function testSetZ196b() {
+
+        $obj = new DecTva();
+
+        $obj->setZ196b(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ196b());
+    }
+
+    /**
+     * Tests the setZ21() method.
+     *
+     * @return void
+     */
+    public function testSetZ21() {
+
+        $obj = new DecTva();
+
+        $obj->setZ21(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ21());
+    }
+
+    /**
+     * Tests the setZ25() method.
+     *
+     * @return void
+     */
+    public function testSetZ25() {
+
+        $obj = new DecTva();
+
+        $obj->setZ25(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ25());
+    }
+
+    /**
+     * Tests the setZ4227() method.
+     *
+     * @return void
+     */
+    public function testSetZ4227() {
+
+        $obj = new DecTva();
+
+        $obj->setZ4227(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ4227());
+    }
+
+    /**
+     * Tests the setZ8001() method.
+     *
+     * @return void
+     */
+    public function testSetZ8001() {
+
+        $obj = new DecTva();
+
+        $obj->setZ8001(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ8001());
+    }
+
+    /**
+     * Tests the setZ8002() method.
+     *
+     * @return void
+     */
+    public function testSetZ8002() {
+
+        $obj = new DecTva();
+
+        $obj->setZ8002(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ8002());
+    }
+
+    /**
+     * Tests the setZ8003() method.
+     *
+     * @return void
+     */
+    public function testSetZ8003() {
+
+        $obj = new DecTva();
+
+        $obj->setZ8003(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ8003());
+    }
+
+    /**
+     * Tests the setZ8003c() method.
+     *
+     * @return void
+     */
+    public function testSetZ8003c() {
+
+        $obj = new DecTva();
+
+        $obj->setZ8003c(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ8003c());
+    }
+
+    /**
+     * Tests the setZ8005() method.
+     *
+     * @return void
+     */
+    public function testSetZ8005() {
+
+        $obj = new DecTva();
+
+        $obj->setZ8005(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ8005());
+    }
+
+    /**
+     * Tests the setZ9979() method.
+     *
+     * @return void
+     */
+    public function testSetZ9979() {
+
+        $obj = new DecTva();
+
+        $obj->setZ9979(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ9979());
+    }
+
+    /**
+     * Tests the setZ9989() method.
+     *
+     * @return void
+     */
+    public function testSetZ9989() {
+
+        $obj = new DecTva();
+
+        $obj->setZ9989(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ9989());
+    }
+
+    /**
+     * Tests the setZ9991() method.
+     *
+     * @return void
+     */
+    public function testSetZ9991() {
+
+        $obj = new DecTva();
+
+        $obj->setZ9991(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ9991());
+    }
+
+    /**
+     * Tests the setZ9999() method.
+     *
+     * @return void
+     */
+    public function testSetZ9999() {
+
+        $obj = new DecTva();
+
+        $obj->setZ9999(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ9999());
+    }
+
+    /**
+     * Tests the setZ9BTaxe() method.
+     *
+     * @return void
+     */
+    public function testSetZ9BTaxe() {
+
+        $obj = new DecTva();
+
+        $obj->setZ9BTaxe(10.092018);
+        $this->assertEquals(10.092018, $obj->getZ9BTaxe());
+    }
+
+    /**
+     * Tests the setbGroupe() method.
+     *
+     * @return void
+     */
+    public function testSetbGroupe() {
+
+        $obj = new DecTva();
+
+        $obj->setbGroupe(true);
+        $this->assertEquals(true, $obj->getbGroupe());
+    }
+
+    /**
+     * Tests the setz0029() method.
+     *
+     * @return void
+     */
+    public function testSetz0029() {
+
+        $obj = new DecTva();
+
+        $obj->setz0029(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0029());
+    }
+
+    /**
+     * Tests the setz0030() method.
+     *
+     * @return void
+     */
+    public function testSetz0030() {
+
+        $obj = new DecTva();
+
+        $obj->setz0030(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0030());
+    }
+
+    /**
+     * Tests the setz0036() method.
+     *
+     * @return void
+     */
+    public function testSetz0036() {
+
+        $obj = new DecTva();
+
+        $obj->setz0036(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0036());
+    }
+
+    /**
+     * Tests the setz0039() method.
+     *
+     * @return void
+     */
+    public function testSetz0039() {
+
+        $obj = new DecTva();
+
+        $obj->setz0039(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0039());
+    }
+
+    /**
+     * Tests the setz0044() method.
+     *
+     * @return void
+     */
+    public function testSetz0044() {
+
+        $obj = new DecTva();
+
+        $obj->setz0044(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0044());
+    }
+
+    /**
+     * Tests the setz0044b() method.
+     *
+     * @return void
+     */
+    public function testSetz0044b() {
+
+        $obj = new DecTva();
+
+        $obj->setz0044b(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0044b());
+    }
+
+    /**
+     * Tests the setz0045() method.
+     *
+     * @return void
+     */
+    public function testSetz0045() {
+
+        $obj = new DecTva();
+
+        $obj->setz0045(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0045());
+    }
+
+    /**
+     * Tests the setz0046() method.
+     *
+     * @return void
+     */
+    public function testSetz0046() {
+
+        $obj = new DecTva();
+
+        $obj->setz0046(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0046());
+    }
+
+    /**
+     * Tests the setz0059b() method.
+     *
+     * @return void
+     */
+    public function testSetz0059b() {
+
+        $obj = new DecTva();
+
+        $obj->setz0059b(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0059b());
+    }
+
+    /**
+     * Tests the setz0121() method.
+     *
+     * @return void
+     */
+    public function testSetz0121() {
+
+        $obj = new DecTva();
+
+        $obj->setz0121(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0121());
+    }
+
+    /**
+     * Tests the setz0151() method.
+     *
+     * @return void
+     */
+    public function testSetz0151() {
+
+        $obj = new DecTva();
+
+        $obj->setz0151(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0151());
+    }
+
+    /**
+     * Tests the setz0151b() method.
+     *
+     * @return void
+     */
+    public function testSetz0151b() {
+
+        $obj = new DecTva();
+
+        $obj->setz0151b(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0151b());
+    }
+
+    /**
+     * Tests the setz0207() method.
+     *
+     * @return void
+     */
+    public function testSetz0207() {
+
+        $obj = new DecTva();
+
+        $obj->setz0207(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0207());
+    }
+
+    /**
+     * Tests the setz0207b() method.
+     *
+     * @return void
+     */
+    public function testSetz0207b() {
+
+        $obj = new DecTva();
+
+        $obj->setz0207b(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0207b());
+    }
+
+    /**
+     * Tests the setz0709() method.
+     *
+     * @return void
+     */
+    public function testSetz0709() {
+
+        $obj = new DecTva();
+
+        $obj->setz0709(10.092018);
+        $this->assertEquals(10.092018, $obj->getz0709());
+    }
+
+    /**
+     * Tests the setz12Ht() method.
+     *
+     * @return void
+     */
+    public function testSetz12Ht() {
+
+        $obj = new DecTva();
+
+        $obj->setz12Ht(10.092018);
+        $this->assertEquals(10.092018, $obj->getz12Ht());
+    }
+
+    /**
+     * Tests the setz9bCode() method.
+     *
+     * @return void
+     */
+    public function testSetz9bCode() {
+
+        $obj = new DecTva();
+
+        $obj->setz9bCode("z9bCode");
+        $this->assertEquals("z9bCode", $obj->getz9bCode());
+    }
+
+    /**
+     * Tests the setz9bHt() method.
+     *
+     * @return void
+     */
+    public function testSetz9bHt() {
+
+        $obj = new DecTva();
+
+        $obj->setz9bHt(10.092018);
+        $this->assertEquals(10.092018, $obj->getz9bHt());
+    }
+
+    /**
+     * Tests the setz9bLib() method.
+     *
+     * @return void
+     */
+    public function testSetz9bLib() {
+
+        $obj = new DecTva();
+
+        $obj->setz9bLib("z9bLib");
+        $this->assertEquals("z9bLib", $obj->getz9bLib());
     }
 }

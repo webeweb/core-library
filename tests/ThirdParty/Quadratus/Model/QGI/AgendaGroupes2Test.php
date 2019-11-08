@@ -34,4 +34,30 @@ class AgendaGroupes2Test extends AbstractTestCase {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLibelle());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new AgendaGroupes2();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new AgendaGroupes2();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 }

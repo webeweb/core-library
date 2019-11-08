@@ -37,4 +37,69 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
         $this->assertNull($obj->getOrigine());
         $this->assertNull($obj->getRefGuid());
     }
+
+    /**
+     * Tests the setChapitre() method.
+     *
+     * @return void
+     */
+    public function testSetChapitre() {
+
+        $obj = new ClientsLstPersoIndiceCollab();
+
+        $obj->setChapitre("chapitre");
+        $this->assertEquals("chapitre", $obj->getChapitre());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new ClientsLstPersoIndiceCollab();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setIndice() method.
+     *
+     * @return void
+     */
+    public function testSetIndice() {
+
+        $obj = new ClientsLstPersoIndiceCollab();
+
+        $obj->setIndice(10);
+        $this->assertEquals(10, $obj->getIndice());
+    }
+
+    /**
+     * Tests the setOrigine() method.
+     *
+     * @return void
+     */
+    public function testSetOrigine() {
+
+        $obj = new ClientsLstPersoIndiceCollab();
+
+        $obj->setOrigine(10);
+        $this->assertEquals(10, $obj->getOrigine());
+    }
+
+    /**
+     * Tests the setRefGuid() method.
+     *
+     * @return void
+     */
+    public function testSetRefGuid() {
+
+        $obj = new ClientsLstPersoIndiceCollab();
+
+        $obj->setRefGuid("refGuid");
+        $this->assertEquals("refGuid", $obj->getRefGuid());
+    }
 }

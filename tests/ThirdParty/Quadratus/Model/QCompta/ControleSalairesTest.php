@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ControleSalaires;
 
@@ -37,5 +39,87 @@ class ControleSalairesTest extends AbstractTestCase {
         $this->assertNull($obj->getHeures());
         $this->assertNull($obj->getPeriode());
         $this->assertNull($obj->getPlafond());
+    }
+
+    /**
+     * Tests the setBrut() method.
+     *
+     * @return void
+     */
+    public function testSetBrut() {
+
+        $obj = new ControleSalaires();
+
+        $obj->setBrut(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrut());
+    }
+
+    /**
+     * Tests the setCotisPatronales() method.
+     *
+     * @return void
+     */
+    public function testSetCotisPatronales() {
+
+        $obj = new ControleSalaires();
+
+        $obj->setCotisPatronales(10.092018);
+        $this->assertEquals(10.092018, $obj->getCotisPatronales());
+    }
+
+    /**
+     * Tests the setCotisSalariales() method.
+     *
+     * @return void
+     */
+    public function testSetCotisSalariales() {
+
+        $obj = new ControleSalaires();
+
+        $obj->setCotisSalariales(10.092018);
+        $this->assertEquals(10.092018, $obj->getCotisSalariales());
+    }
+
+    /**
+     * Tests the setHeures() method.
+     *
+     * @return void
+     */
+    public function testSetHeures() {
+
+        $obj = new ControleSalaires();
+
+        $obj->setHeures(10.092018);
+        $this->assertEquals(10.092018, $obj->getHeures());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new ControleSalaires();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the setPlafond() method.
+     *
+     * @return void
+     */
+    public function testSetPlafond() {
+
+        $obj = new ControleSalaires();
+
+        $obj->setPlafond(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafond());
     }
 }

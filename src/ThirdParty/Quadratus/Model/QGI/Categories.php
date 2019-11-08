@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCarTecTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringParentTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeTrait;
-
 /**
  * Categories.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeTrait;
  */
 class Categories {
 
-    use StringCarTecTrait;
-    use StringLibelleTrait;
-    use StringParentTrait;
-    use StringTypeTrait;
+    /**
+     * Car tec.
+     *
+     * @var string
+     */
+    private $carTec;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Parent.
+     *
+     * @var string
+     */
+    private $parent;
+
+    /**
+     * Type.
+     *
+     * @var string
+     */
+    private $type;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the car tec.
+     *
+     * @return string Returns the car tec.
+     */
+    public function getCarTec() {
+        return $this->carTec;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the parent.
+     *
+     * @return string Returns the parent.
+     */
+    public function getParent() {
+        return $this->parent;
+    }
+
+    /**
+     * Get the type.
+     *
+     * @return string Returns the type.
+     */
+    public function getType() {
+        return $this->type;
+    }
+
+    /**
+     * Set the car tec.
+     *
+     * @param string $carTec The car tec.
+     */
+    public function setCarTec($carTec) {
+        $this->carTec = $carTec;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the parent.
+     *
+     * @param string $parent The parent.
+     */
+    public function setParent($parent) {
+        $this->parent = $parent;
+        return $this;
+    }
+
+    /**
+     * Set the type.
+     *
+     * @param string $type The type.
+     */
+    public function setType($type) {
+        $this->type = $type;
+        return $this;
     }
 }

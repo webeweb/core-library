@@ -37,4 +37,69 @@ class EnvoiSmsTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollaborateur());
         $this->assertNull($obj->getNbSms());
     }
+
+    /**
+     * Tests the setAccesCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetAccesCollaborateur() {
+
+        $obj = new EnvoiSms();
+
+        $obj->setAccesCollaborateur(true);
+        $this->assertEquals(true, $obj->getAccesCollaborateur());
+    }
+
+    /**
+     * Tests the setAccesIntervenants() method.
+     *
+     * @return void
+     */
+    public function testSetAccesIntervenants() {
+
+        $obj = new EnvoiSms();
+
+        $obj->setAccesIntervenants(true);
+        $this->assertEquals(true, $obj->getAccesIntervenants());
+    }
+
+    /**
+     * Tests the setAccesTotal() method.
+     *
+     * @return void
+     */
+    public function testSetAccesTotal() {
+
+        $obj = new EnvoiSms();
+
+        $obj->setAccesTotal(true);
+        $this->assertEquals(true, $obj->getAccesTotal());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new EnvoiSms();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setNbSms() method.
+     *
+     * @return void
+     */
+    public function testSetNbSms() {
+
+        $obj = new EnvoiSms();
+
+        $obj->setNbSms(10);
+        $this->assertEquals(10, $obj->getNbSms());
+    }
 }

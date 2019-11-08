@@ -11,17 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCtrlTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateDebExpoTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFicheTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFinExpoTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTempsExpositionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePrestationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeProduitTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLstCodePhaseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLstCodePrevTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringResuCtrlTrait;
+use DateTime;
 
 /**
  * Fiches exposition.
@@ -31,22 +21,296 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringResuCtrlTrait;
  */
 class FichesExposition {
 
-    use StringCodeEmployeTrait;
-    use StringCodePrestationTrait;
-    use StringCodeProduitTrait;
-    use DateTimeDateCtrlTrait;
-    use DateTimeDateDebExpoTrait;
-    use DateTimeDateFicheTrait;
-    use DateTimeDateFinExpoTrait;
-    use StringLstCodePhaseTrait;
-    use StringLstCodePrevTrait;
-    use StringResuCtrlTrait;
-    use FloatTempsExpositionTrait;
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
+
+    /**
+     * Code prestation.
+     *
+     * @var string
+     */
+    private $codePrestation;
+
+    /**
+     * Code produit.
+     *
+     * @var string
+     */
+    private $codeProduit;
+
+    /**
+     * Date ctrl.
+     *
+     * @var DateTime|null
+     */
+    private $dateCtrl;
+
+    /**
+     * Date deb expo.
+     *
+     * @var DateTime|null
+     */
+    private $dateDebExpo;
+
+    /**
+     * Date fiche.
+     *
+     * @var DateTime|null
+     */
+    private $dateFiche;
+
+    /**
+     * Date fin expo.
+     *
+     * @var DateTime|null
+     */
+    private $dateFinExpo;
+
+    /**
+     * Lst code phase.
+     *
+     * @var string
+     */
+    private $lstCodePhase;
+
+    /**
+     * Lst code prev.
+     *
+     * @var string
+     */
+    private $lstCodePrev;
+
+    /**
+     * Resu ctrl.
+     *
+     * @var string
+     */
+    private $resuCtrl;
+
+    /**
+     * Temps exposition.
+     *
+     * @var float
+     */
+    private $tempsExposition;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
+
+    /**
+     * Get the code prestation.
+     *
+     * @return string Returns the code prestation.
+     */
+    public function getCodePrestation() {
+        return $this->codePrestation;
+    }
+
+    /**
+     * Get the code produit.
+     *
+     * @return string Returns the code produit.
+     */
+    public function getCodeProduit() {
+        return $this->codeProduit;
+    }
+
+    /**
+     * Get the date ctrl.
+     *
+     * @return DateTime|null Returns the date ctrl.
+     */
+    public function getDateCtrl() {
+        return $this->dateCtrl;
+    }
+
+    /**
+     * Get the date deb expo.
+     *
+     * @return DateTime|null Returns the date deb expo.
+     */
+    public function getDateDebExpo() {
+        return $this->dateDebExpo;
+    }
+
+    /**
+     * Get the date fiche.
+     *
+     * @return DateTime|null Returns the date fiche.
+     */
+    public function getDateFiche() {
+        return $this->dateFiche;
+    }
+
+    /**
+     * Get the date fin expo.
+     *
+     * @return DateTime|null Returns the date fin expo.
+     */
+    public function getDateFinExpo() {
+        return $this->dateFinExpo;
+    }
+
+    /**
+     * Get the lst code phase.
+     *
+     * @return string Returns the lst code phase.
+     */
+    public function getLstCodePhase() {
+        return $this->lstCodePhase;
+    }
+
+    /**
+     * Get the lst code prev.
+     *
+     * @return string Returns the lst code prev.
+     */
+    public function getLstCodePrev() {
+        return $this->lstCodePrev;
+    }
+
+    /**
+     * Get the resu ctrl.
+     *
+     * @return string Returns the resu ctrl.
+     */
+    public function getResuCtrl() {
+        return $this->resuCtrl;
+    }
+
+    /**
+     * Get the temps exposition.
+     *
+     * @return float Returns the temps exposition.
+     */
+    public function getTempsExposition() {
+        return $this->tempsExposition;
+    }
+
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the code prestation.
+     *
+     * @param string $codePrestation The code prestation.
+     */
+    public function setCodePrestation($codePrestation) {
+        $this->codePrestation = $codePrestation;
+        return $this;
+    }
+
+    /**
+     * Set the code produit.
+     *
+     * @param string $codeProduit The code produit.
+     */
+    public function setCodeProduit($codeProduit) {
+        $this->codeProduit = $codeProduit;
+        return $this;
+    }
+
+    /**
+     * Set the date ctrl.
+     *
+     * @param DateTime|null $dateCtrl The date ctrl.
+     */
+    public function setDateCtrl(DateTime $dateCtrl = null) {
+        $this->dateCtrl = $dateCtrl;
+        return $this;
+    }
+
+    /**
+     * Set the date deb expo.
+     *
+     * @param DateTime|null $dateDebExpo The date deb expo.
+     */
+    public function setDateDebExpo(DateTime $dateDebExpo = null) {
+        $this->dateDebExpo = $dateDebExpo;
+        return $this;
+    }
+
+    /**
+     * Set the date fiche.
+     *
+     * @param DateTime|null $dateFiche The date fiche.
+     */
+    public function setDateFiche(DateTime $dateFiche = null) {
+        $this->dateFiche = $dateFiche;
+        return $this;
+    }
+
+    /**
+     * Set the date fin expo.
+     *
+     * @param DateTime|null $dateFinExpo The date fin expo.
+     */
+    public function setDateFinExpo(DateTime $dateFinExpo = null) {
+        $this->dateFinExpo = $dateFinExpo;
+        return $this;
+    }
+
+    /**
+     * Set the lst code phase.
+     *
+     * @param string $lstCodePhase The lst code phase.
+     */
+    public function setLstCodePhase($lstCodePhase) {
+        $this->lstCodePhase = $lstCodePhase;
+        return $this;
+    }
+
+    /**
+     * Set the lst code prev.
+     *
+     * @param string $lstCodePrev The lst code prev.
+     */
+    public function setLstCodePrev($lstCodePrev) {
+        $this->lstCodePrev = $lstCodePrev;
+        return $this;
+    }
+
+    /**
+     * Set the resu ctrl.
+     *
+     * @param string $resuCtrl The resu ctrl.
+     */
+    public function setResuCtrl($resuCtrl) {
+        $this->resuCtrl = $resuCtrl;
+        return $this;
+    }
+
+    /**
+     * Set the temps exposition.
+     *
+     * @param float $tempsExposition The temps exposition.
+     */
+    public function setTempsExposition($tempsExposition) {
+        $this->tempsExposition = $tempsExposition;
+        return $this;
     }
 }

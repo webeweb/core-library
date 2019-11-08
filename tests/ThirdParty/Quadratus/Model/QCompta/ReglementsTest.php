@@ -37,4 +37,69 @@ class ReglementsTest extends AbstractTestCase {
         $this->assertNull($obj->getIntitule3());
         $this->assertNull($obj->getTypeAcceptation());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new Reglements();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new Reglements();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setIntitule2() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule2() {
+
+        $obj = new Reglements();
+
+        $obj->setIntitule2("intitule2");
+        $this->assertEquals("intitule2", $obj->getIntitule2());
+    }
+
+    /**
+     * Tests the setIntitule3() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule3() {
+
+        $obj = new Reglements();
+
+        $obj->setIntitule3("intitule3");
+        $this->assertEquals("intitule3", $obj->getIntitule3());
+    }
+
+    /**
+     * Tests the setTypeAcceptation() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAcceptation() {
+
+        $obj = new Reglements();
+
+        $obj->setTypeAcceptation("typeAcceptation");
+        $this->assertEquals("typeAcceptation", $obj->getTypeAcceptation());
+    }
 }

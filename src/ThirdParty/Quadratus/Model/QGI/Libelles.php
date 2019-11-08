@@ -11,12 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeMontantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeTrait;
-
 /**
  * Libelles.
  *
@@ -25,16 +19,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeTrait;
  */
 class Libelles {
 
-    use StringCodeTrait;
-    use StringLibelleTrait;
-    use FloatMontantTrait;
-    use StringTypeTrait;
-    use StringTypeMontantTrait;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Montant.
+     *
+     * @var float
+     */
+    private $montant;
+
+    /**
+     * Type.
+     *
+     * @var string
+     */
+    private $type;
+
+    /**
+     * Type montant.
+     *
+     * @var string
+     */
+    private $typeMontant;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the montant.
+     *
+     * @return float Returns the montant.
+     */
+    public function getMontant() {
+        return $this->montant;
+    }
+
+    /**
+     * Get the type.
+     *
+     * @return string Returns the type.
+     */
+    public function getType() {
+        return $this->type;
+    }
+
+    /**
+     * Get the type montant.
+     *
+     * @return string Returns the type montant.
+     */
+    public function getTypeMontant() {
+        return $this->typeMontant;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the montant.
+     *
+     * @param float $montant The montant.
+     */
+    public function setMontant($montant) {
+        $this->montant = $montant;
+        return $this;
+    }
+
+    /**
+     * Set the type.
+     *
+     * @param string $type The type.
+     */
+    public function setType($type) {
+        $this->type = $type;
+        return $this;
+    }
+
+    /**
+     * Set the type montant.
+     *
+     * @param string $typeMontant The type montant.
+     */
+    public function setTypeMontant($typeMontant) {
+        $this->typeMontant = $typeMontant;
+        return $this;
     }
 }

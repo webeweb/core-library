@@ -46,4 +46,186 @@ class ActionsCoInscritsTest extends AbstractTestCase {
         $this->assertNull($obj->getTelephone());
         $this->assertNull($obj->getTypeInvite());
     }
+
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodeManif() method.
+     *
+     * @return void
+     */
+    public function testSetCodeManif() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setCodeManif("codeManif");
+        $this->assertEquals("codeManif", $obj->getCodeManif());
+    }
+
+    /**
+     * Tests the setConfirme() method.
+     *
+     * @return void
+     */
+    public function testSetConfirme() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setConfirme(true);
+        $this->assertEquals(true, $obj->getConfirme());
+    }
+
+    /**
+     * Tests the setEmail() method.
+     *
+     * @return void
+     */
+    public function testSetEmail() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setEmail("email");
+        $this->assertEquals("email", $obj->getEmail());
+    }
+
+    /**
+     * Tests the setFax() method.
+     *
+     * @return void
+     */
+    public function testSetFax() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setFax("fax");
+        $this->assertEquals("fax", $obj->getFax());
+    }
+
+    /**
+     * Tests the setNom() method.
+     *
+     * @return void
+     */
+    public function testSetNom() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setNom("nom");
+        $this->assertEquals("nom", $obj->getNom());
+    }
+
+    /**
+     * Tests the setNumInterlocuteur() method.
+     *
+     * @return void
+     */
+    public function testSetNumInterlocuteur() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setNumInterlocuteur(10);
+        $this->assertEquals(10, $obj->getNumInterlocuteur());
+    }
+
+    /**
+     * Tests the setNumSeance() method.
+     *
+     * @return void
+     */
+    public function testSetNumSeance() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setNumSeance(10);
+        $this->assertEquals(10, $obj->getNumSeance());
+    }
+
+    /**
+     * Tests the setNumero() method.
+     *
+     * @return void
+     */
+    public function testSetNumero() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setNumero(10);
+        $this->assertEquals(10, $obj->getNumero());
+    }
+
+    /**
+     * Tests the setPrenom() method.
+     *
+     * @return void
+     */
+    public function testSetPrenom() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setPrenom("prenom");
+        $this->assertEquals("prenom", $obj->getPrenom());
+    }
+
+    /**
+     * Tests the setPresent() method.
+     *
+     * @return void
+     */
+    public function testSetPresent() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setPresent(true);
+        $this->assertEquals(true, $obj->getPresent());
+    }
+
+    /**
+     * Tests the setTelephone() method.
+     *
+     * @return void
+     */
+    public function testSetTelephone() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setTelephone("telephone");
+        $this->assertEquals("telephone", $obj->getTelephone());
+    }
+
+    /**
+     * Tests the setTypeInvite() method.
+     *
+     * @return void
+     */
+    public function testSetTypeInvite() {
+
+        $obj = new ActionsCoInscrits();
+
+        $obj->setTypeInvite("typeInvite");
+        $this->assertEquals("typeInvite", $obj->getTypeInvite());
+    }
 }

@@ -11,25 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolBloquantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolEnAttenteReponseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolNeedAnswerTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolPermanentTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDtCreationQuestionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDtCreationReponseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDtModifQuestionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDtModifReponseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDtTransfertDaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeRevTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCptCommentTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntTypeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollModifQuestionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollModifReponseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollQuestionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollReponseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNiveauTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTxtQuestionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTxtReponseTrait;
+use DateTime;
 
 /**
  * Dos rev commentaires.
@@ -39,30 +21,504 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTxtReponseTrait;
  */
 class DosRevCommentaires {
 
-    use BoolBloquantTrait;
-    use StringCodeCollModifQuestionTrait;
-    use StringCodeCollModifReponseTrait;
-    use StringCodeCollQuestionTrait;
-    use StringCodeCollReponseTrait;
-    use IntCptCommentTrait;
-    use DateTimeDtCreationQuestionTrait;
-    use DateTimeDtCreationReponseTrait;
-    use DateTimeDtModifQuestionTrait;
-    use DateTimeDtModifReponseTrait;
-    use DateTimeDtTransfertDaTrait;
-    use BoolEnAttenteReponseTrait;
-    use BoolNeedAnswerTrait;
-    use StringNiveauTrait;
-    use DateTimePeriodeRevTrait;
-    use BoolPermanentTrait;
-    use StringTxtQuestionTrait;
-    use StringTxtReponseTrait;
-    use IntTypeTrait;
+    /**
+     * Bloquant.
+     *
+     * @var bool
+     */
+    private $bloquant;
+
+    /**
+     * Code coll modif question.
+     *
+     * @var string
+     */
+    private $codeCollModifQuestion;
+
+    /**
+     * Code coll modif reponse.
+     *
+     * @var string
+     */
+    private $codeCollModifReponse;
+
+    /**
+     * Code coll question.
+     *
+     * @var string
+     */
+    private $codeCollQuestion;
+
+    /**
+     * Code coll reponse.
+     *
+     * @var string
+     */
+    private $codeCollReponse;
+
+    /**
+     * Cpt comment.
+     *
+     * @var int
+     */
+    private $cptComment;
+
+    /**
+     * Dt creation question.
+     *
+     * @var DateTime|null
+     */
+    private $dtCreationQuestion;
+
+    /**
+     * Dt creation reponse.
+     *
+     * @var DateTime|null
+     */
+    private $dtCreationReponse;
+
+    /**
+     * Dt modif question.
+     *
+     * @var DateTime|null
+     */
+    private $dtModifQuestion;
+
+    /**
+     * Dt modif reponse.
+     *
+     * @var DateTime|null
+     */
+    private $dtModifReponse;
+
+    /**
+     * Dt transfert da.
+     *
+     * @var DateTime|null
+     */
+    private $dtTransfertDa;
+
+    /**
+     * En attente reponse.
+     *
+     * @var bool
+     */
+    private $enAttenteReponse;
+
+    /**
+     * Need answer.
+     *
+     * @var bool
+     */
+    private $needAnswer;
+
+    /**
+     * Niveau.
+     *
+     * @var string
+     */
+    private $niveau;
+
+    /**
+     * Periode rev.
+     *
+     * @var DateTime|null
+     */
+    private $periodeRev;
+
+    /**
+     * Permanent.
+     *
+     * @var bool
+     */
+    private $permanent;
+
+    /**
+     * Txt question.
+     *
+     * @var string
+     */
+    private $txtQuestion;
+
+    /**
+     * Txt reponse.
+     *
+     * @var string
+     */
+    private $txtReponse;
+
+    /**
+     * Type.
+     *
+     * @var int
+     */
+    private $type;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the bloquant.
+     *
+     * @return bool Returns the bloquant.
+     */
+    public function getBloquant() {
+        return $this->bloquant;
+    }
+
+    /**
+     * Get the code coll modif question.
+     *
+     * @return string Returns the code coll modif question.
+     */
+    public function getCodeCollModifQuestion() {
+        return $this->codeCollModifQuestion;
+    }
+
+    /**
+     * Get the code coll modif reponse.
+     *
+     * @return string Returns the code coll modif reponse.
+     */
+    public function getCodeCollModifReponse() {
+        return $this->codeCollModifReponse;
+    }
+
+    /**
+     * Get the code coll question.
+     *
+     * @return string Returns the code coll question.
+     */
+    public function getCodeCollQuestion() {
+        return $this->codeCollQuestion;
+    }
+
+    /**
+     * Get the code coll reponse.
+     *
+     * @return string Returns the code coll reponse.
+     */
+    public function getCodeCollReponse() {
+        return $this->codeCollReponse;
+    }
+
+    /**
+     * Get the cpt comment.
+     *
+     * @return int Returns the cpt comment.
+     */
+    public function getCptComment() {
+        return $this->cptComment;
+    }
+
+    /**
+     * Get the dt creation question.
+     *
+     * @return DateTime|null Returns the dt creation question.
+     */
+    public function getDtCreationQuestion() {
+        return $this->dtCreationQuestion;
+    }
+
+    /**
+     * Get the dt creation reponse.
+     *
+     * @return DateTime|null Returns the dt creation reponse.
+     */
+    public function getDtCreationReponse() {
+        return $this->dtCreationReponse;
+    }
+
+    /**
+     * Get the dt modif question.
+     *
+     * @return DateTime|null Returns the dt modif question.
+     */
+    public function getDtModifQuestion() {
+        return $this->dtModifQuestion;
+    }
+
+    /**
+     * Get the dt modif reponse.
+     *
+     * @return DateTime|null Returns the dt modif reponse.
+     */
+    public function getDtModifReponse() {
+        return $this->dtModifReponse;
+    }
+
+    /**
+     * Get the dt transfert da.
+     *
+     * @return DateTime|null Returns the dt transfert da.
+     */
+    public function getDtTransfertDa() {
+        return $this->dtTransfertDa;
+    }
+
+    /**
+     * Get the en attente reponse.
+     *
+     * @return bool Returns the en attente reponse.
+     */
+    public function getEnAttenteReponse() {
+        return $this->enAttenteReponse;
+    }
+
+    /**
+     * Get the need answer.
+     *
+     * @return bool Returns the need answer.
+     */
+    public function getNeedAnswer() {
+        return $this->needAnswer;
+    }
+
+    /**
+     * Get the niveau.
+     *
+     * @return string Returns the niveau.
+     */
+    public function getNiveau() {
+        return $this->niveau;
+    }
+
+    /**
+     * Get the periode rev.
+     *
+     * @return DateTime|null Returns the periode rev.
+     */
+    public function getPeriodeRev() {
+        return $this->periodeRev;
+    }
+
+    /**
+     * Get the permanent.
+     *
+     * @return bool Returns the permanent.
+     */
+    public function getPermanent() {
+        return $this->permanent;
+    }
+
+    /**
+     * Get the txt question.
+     *
+     * @return string Returns the txt question.
+     */
+    public function getTxtQuestion() {
+        return $this->txtQuestion;
+    }
+
+    /**
+     * Get the txt reponse.
+     *
+     * @return string Returns the txt reponse.
+     */
+    public function getTxtReponse() {
+        return $this->txtReponse;
+    }
+
+    /**
+     * Get the type.
+     *
+     * @return int Returns the type.
+     */
+    public function getType() {
+        return $this->type;
+    }
+
+    /**
+     * Set the bloquant.
+     *
+     * @param bool $bloquant The bloquant.
+     */
+    public function setBloquant($bloquant) {
+        $this->bloquant = $bloquant;
+        return $this;
+    }
+
+    /**
+     * Set the code coll modif question.
+     *
+     * @param string $codeCollModifQuestion The code coll modif question.
+     */
+    public function setCodeCollModifQuestion($codeCollModifQuestion) {
+        $this->codeCollModifQuestion = $codeCollModifQuestion;
+        return $this;
+    }
+
+    /**
+     * Set the code coll modif reponse.
+     *
+     * @param string $codeCollModifReponse The code coll modif reponse.
+     */
+    public function setCodeCollModifReponse($codeCollModifReponse) {
+        $this->codeCollModifReponse = $codeCollModifReponse;
+        return $this;
+    }
+
+    /**
+     * Set the code coll question.
+     *
+     * @param string $codeCollQuestion The code coll question.
+     */
+    public function setCodeCollQuestion($codeCollQuestion) {
+        $this->codeCollQuestion = $codeCollQuestion;
+        return $this;
+    }
+
+    /**
+     * Set the code coll reponse.
+     *
+     * @param string $codeCollReponse The code coll reponse.
+     */
+    public function setCodeCollReponse($codeCollReponse) {
+        $this->codeCollReponse = $codeCollReponse;
+        return $this;
+    }
+
+    /**
+     * Set the cpt comment.
+     *
+     * @param int $cptComment The cpt comment.
+     */
+    public function setCptComment($cptComment) {
+        $this->cptComment = $cptComment;
+        return $this;
+    }
+
+    /**
+     * Set the dt creation question.
+     *
+     * @param DateTime|null $dtCreationQuestion The dt creation question.
+     */
+    public function setDtCreationQuestion(DateTime $dtCreationQuestion = null) {
+        $this->dtCreationQuestion = $dtCreationQuestion;
+        return $this;
+    }
+
+    /**
+     * Set the dt creation reponse.
+     *
+     * @param DateTime|null $dtCreationReponse The dt creation reponse.
+     */
+    public function setDtCreationReponse(DateTime $dtCreationReponse = null) {
+        $this->dtCreationReponse = $dtCreationReponse;
+        return $this;
+    }
+
+    /**
+     * Set the dt modif question.
+     *
+     * @param DateTime|null $dtModifQuestion The dt modif question.
+     */
+    public function setDtModifQuestion(DateTime $dtModifQuestion = null) {
+        $this->dtModifQuestion = $dtModifQuestion;
+        return $this;
+    }
+
+    /**
+     * Set the dt modif reponse.
+     *
+     * @param DateTime|null $dtModifReponse The dt modif reponse.
+     */
+    public function setDtModifReponse(DateTime $dtModifReponse = null) {
+        $this->dtModifReponse = $dtModifReponse;
+        return $this;
+    }
+
+    /**
+     * Set the dt transfert da.
+     *
+     * @param DateTime|null $dtTransfertDa The dt transfert da.
+     */
+    public function setDtTransfertDa(DateTime $dtTransfertDa = null) {
+        $this->dtTransfertDa = $dtTransfertDa;
+        return $this;
+    }
+
+    /**
+     * Set the en attente reponse.
+     *
+     * @param bool $enAttenteReponse The en attente reponse.
+     */
+    public function setEnAttenteReponse($enAttenteReponse) {
+        $this->enAttenteReponse = $enAttenteReponse;
+        return $this;
+    }
+
+    /**
+     * Set the need answer.
+     *
+     * @param bool $needAnswer The need answer.
+     */
+    public function setNeedAnswer($needAnswer) {
+        $this->needAnswer = $needAnswer;
+        return $this;
+    }
+
+    /**
+     * Set the niveau.
+     *
+     * @param string $niveau The niveau.
+     */
+    public function setNiveau($niveau) {
+        $this->niveau = $niveau;
+        return $this;
+    }
+
+    /**
+     * Set the periode rev.
+     *
+     * @param DateTime|null $periodeRev The periode rev.
+     */
+    public function setPeriodeRev(DateTime $periodeRev = null) {
+        $this->periodeRev = $periodeRev;
+        return $this;
+    }
+
+    /**
+     * Set the permanent.
+     *
+     * @param bool $permanent The permanent.
+     */
+    public function setPermanent($permanent) {
+        $this->permanent = $permanent;
+        return $this;
+    }
+
+    /**
+     * Set the txt question.
+     *
+     * @param string $txtQuestion The txt question.
+     */
+    public function setTxtQuestion($txtQuestion) {
+        $this->txtQuestion = $txtQuestion;
+        return $this;
+    }
+
+    /**
+     * Set the txt reponse.
+     *
+     * @param string $txtReponse The txt reponse.
+     */
+    public function setTxtReponse($txtReponse) {
+        $this->txtReponse = $txtReponse;
+        return $this;
+    }
+
+    /**
+     * Set the type.
+     *
+     * @param int $type The type.
+     */
+    public function setType($type) {
+        $this->type = $type;
+        return $this;
     }
 }

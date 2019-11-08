@@ -35,4 +35,43 @@ class Comptes3Test extends AbstractTestCase {
         $this->assertNull($obj->getNumeroCompte());
         $this->assertNull($obj->getPourcentRepart());
     }
+
+    /**
+     * Tests the setCodeSection() method.
+     *
+     * @return void
+     */
+    public function testSetCodeSection() {
+
+        $obj = new Comptes3();
+
+        $obj->setCodeSection("codeSection");
+        $this->assertEquals("codeSection", $obj->getCodeSection());
+    }
+
+    /**
+     * Tests the setNumeroCompte() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompte() {
+
+        $obj = new Comptes3();
+
+        $obj->setNumeroCompte("numeroCompte");
+        $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the setPourcentRepart() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentRepart() {
+
+        $obj = new Comptes3();
+
+        $obj->setPourcentRepart(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentRepart());
+    }
 }

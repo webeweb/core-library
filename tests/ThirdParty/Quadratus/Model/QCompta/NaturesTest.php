@@ -41,4 +41,121 @@ class NaturesTest extends AbstractTestCase {
         $this->assertNull($obj->getSuiviQuantite());
         $this->assertNull($obj->getTypeNature());
     }
+
+    /**
+     * Tests the setChapitreAffect() method.
+     *
+     * @return void
+     */
+    public function testSetChapitreAffect() {
+
+        $obj = new Natures();
+
+        $obj->setChapitreAffect("chapitreAffect");
+        $this->assertEquals("chapitreAffect", $obj->getChapitreAffect());
+    }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new Natures();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new Natures();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setModeCalculRepart() method.
+     *
+     * @return void
+     */
+    public function testSetModeCalculRepart() {
+
+        $obj = new Natures();
+
+        $obj->setModeCalculRepart("modeCalculRepart");
+        $this->assertEquals("modeCalculRepart", $obj->getModeCalculRepart());
+    }
+
+    /**
+     * Tests the setNatureInactive() method.
+     *
+     * @return void
+     */
+    public function testSetNatureInactive() {
+
+        $obj = new Natures();
+
+        $obj->setNatureInactive(true);
+        $this->assertEquals(true, $obj->getNatureInactive());
+    }
+
+    /**
+     * Tests the setOrdreEdition() method.
+     *
+     * @return void
+     */
+    public function testSetOrdreEdition() {
+
+        $obj = new Natures();
+
+        $obj->setOrdreEdition(10);
+        $this->assertEquals(10, $obj->getOrdreEdition());
+    }
+
+    /**
+     * Tests the setSuiviAnneeRecolte() method.
+     *
+     * @return void
+     */
+    public function testSetSuiviAnneeRecolte() {
+
+        $obj = new Natures();
+
+        $obj->setSuiviAnneeRecolte(true);
+        $this->assertEquals(true, $obj->getSuiviAnneeRecolte());
+    }
+
+    /**
+     * Tests the setSuiviQuantite() method.
+     *
+     * @return void
+     */
+    public function testSetSuiviQuantite() {
+
+        $obj = new Natures();
+
+        $obj->setSuiviQuantite("suiviQuantite");
+        $this->assertEquals("suiviQuantite", $obj->getSuiviQuantite());
+    }
+
+    /**
+     * Tests the setTypeNature() method.
+     *
+     * @return void
+     */
+    public function testSetTypeNature() {
+
+        $obj = new Natures();
+
+        $obj->setTypeNature("typeNature");
+        $this->assertEquals("typeNature", $obj->getTypeNature());
+    }
 }

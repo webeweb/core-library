@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\BlEntete;
 
@@ -95,5 +97,857 @@ class BlEnteteTest extends AbstractTestCase {
         $this->assertNull($obj->getTransfert());
         $this->assertNull($obj->getTransporteur());
         $this->assertNull($obj->getTxEscompteVente());
+    }
+
+    /**
+     * Tests the setBtq() method.
+     *
+     * @return void
+     */
+    public function testSetBtq() {
+
+        $obj = new BlEntete();
+
+        $obj->setBtq("btq");
+        $this->assertEquals("btq", $obj->getBtq());
+    }
+
+    /**
+     * Tests the setBtq2() method.
+     *
+     * @return void
+     */
+    public function testSetBtq2() {
+
+        $obj = new BlEntete();
+
+        $obj->setBtq2("btq2");
+        $this->assertEquals("btq2", $obj->getBtq2());
+    }
+
+    /**
+     * Tests the setBureauDistributeur() method.
+     *
+     * @return void
+     */
+    public function testSetBureauDistributeur() {
+
+        $obj = new BlEntete();
+
+        $obj->setBureauDistributeur("bureauDistributeur");
+        $this->assertEquals("bureauDistributeur", $obj->getBureauDistributeur());
+    }
+
+    /**
+     * Tests the setBureauDistributeur2() method.
+     *
+     * @return void
+     */
+    public function testSetBureauDistributeur2() {
+
+        $obj = new BlEntete();
+
+        $obj->setBureauDistributeur2("bureauDistributeur2");
+        $this->assertEquals("bureauDistributeur2", $obj->getBureauDistributeur2());
+    }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodeDevise() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDevise() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeDevise("codeDevise");
+        $this->assertEquals("codeDevise", $obj->getCodeDevise());
+    }
+
+    /**
+     * Tests the setCodeOfficielCommune() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOfficielCommune() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeOfficielCommune("codeOfficielCommune");
+        $this->assertEquals("codeOfficielCommune", $obj->getCodeOfficielCommune());
+    }
+
+    /**
+     * Tests the setCodeOfficielCommune2() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOfficielCommune2() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeOfficielCommune2("codeOfficielCommune2");
+        $this->assertEquals("codeOfficielCommune2", $obj->getCodeOfficielCommune2());
+    }
+
+    /**
+     * Tests the setCodePostal() method.
+     *
+     * @return void
+     */
+    public function testSetCodePostal() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodePostal("codePostal");
+        $this->assertEquals("codePostal", $obj->getCodePostal());
+    }
+
+    /**
+     * Tests the setCodePostal2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePostal2() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodePostal2("codePostal2");
+        $this->assertEquals("codePostal2", $obj->getCodePostal2());
+    }
+
+    /**
+     * Tests the setCodeReglement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeReglement() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeReglement("codeReglement");
+        $this->assertEquals("codeReglement", $obj->getCodeReglement());
+    }
+
+    /**
+     * Tests the setCodeRegroupement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegroupement() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeRegroupement("codeRegroupement");
+        $this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
+    }
+
+    /**
+     * Tests the setCodeRepresentant() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRepresentant() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeRepresentant("codeRepresentant");
+        $this->assertEquals("codeRepresentant", $obj->getCodeRepresentant());
+    }
+
+    /**
+     * Tests the setCodeTva() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTva() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeTva("codeTva");
+        $this->assertEquals("codeTva", $obj->getCodeTva());
+    }
+
+    /**
+     * Tests the setCodeVentilCompta() method.
+     *
+     * @return void
+     */
+    public function testSetCodeVentilCompta() {
+
+        $obj = new BlEntete();
+
+        $obj->setCodeVentilCompta("codeVentilCompta");
+        $this->assertEquals("codeVentilCompta", $obj->getCodeVentilCompta());
+    }
+
+    /**
+     * Tests the setComplement() method.
+     *
+     * @return void
+     */
+    public function testSetComplement() {
+
+        $obj = new BlEntete();
+
+        $obj->setComplement("complement");
+        $this->assertEquals("complement", $obj->getComplement());
+    }
+
+    /**
+     * Tests the setComplement2() method.
+     *
+     * @return void
+     */
+    public function testSetComplement2() {
+
+        $obj = new BlEntete();
+
+        $obj->setComplement2("complement2");
+        $this->assertEquals("complement2", $obj->getComplement2());
+    }
+
+    /**
+     * Tests the setDateCreation() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateCreation() {
+
+        // Set a Date/time mock.
+        $dateCreation = new DateTime("2018-09-10");
+
+        $obj = new BlEntete();
+
+        $obj->setDateCreation($dateCreation);
+        $this->assertSame($dateCreation, $obj->getDateCreation());
+    }
+
+    /**
+     * Tests the setDateEcheance() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateEcheance() {
+
+        // Set a Date/time mock.
+        $dateEcheance = new DateTime("2018-09-10");
+
+        $obj = new BlEntete();
+
+        $obj->setDateEcheance($dateEcheance);
+        $this->assertSame($dateEcheance, $obj->getDateEcheance());
+    }
+
+    /**
+     * Tests the setDateModification() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateModification() {
+
+        // Set a Date/time mock.
+        $dateModification = new DateTime("2018-09-10");
+
+        $obj = new BlEntete();
+
+        $obj->setDateModification($dateModification);
+        $this->assertSame($dateModification, $obj->getDateModification());
+    }
+
+    /**
+     * Tests the setDatePiece() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDatePiece() {
+
+        // Set a Date/time mock.
+        $datePiece = new DateTime("2018-09-10");
+
+        $obj = new BlEntete();
+
+        $obj->setDatePiece($datePiece);
+        $this->assertSame($datePiece, $obj->getDatePiece());
+    }
+
+    /**
+     * Tests the setDateReceptionPrevue() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateReceptionPrevue() {
+
+        // Set a Date/time mock.
+        $dateReceptionPrevue = new DateTime("2018-09-10");
+
+        $obj = new BlEntete();
+
+        $obj->setDateReceptionPrevue($dateReceptionPrevue);
+        $this->assertSame($dateReceptionPrevue, $obj->getDateReceptionPrevue());
+    }
+
+    /**
+     * Tests the setEcheanceForcee() method.
+     *
+     * @return void
+     */
+    public function testSetEcheanceForcee() {
+
+        $obj = new BlEntete();
+
+        $obj->setEcheanceForcee(true);
+        $this->assertEquals(true, $obj->getEcheanceForcee());
+    }
+
+    /**
+     * Tests the setEdition() method.
+     *
+     * @return void
+     */
+    public function testSetEdition() {
+
+        $obj = new BlEntete();
+
+        $obj->setEdition(10);
+        $this->assertEquals(10, $obj->getEdition());
+    }
+
+    /**
+     * Tests the setFactureEuros() method.
+     *
+     * @return void
+     */
+    public function testSetFactureEuros() {
+
+        $obj = new BlEntete();
+
+        $obj->setFactureEuros(true);
+        $this->assertEquals(true, $obj->getFactureEuros());
+    }
+
+    /**
+     * Tests the setMontantAcompte() method.
+     *
+     * @return void
+     */
+    public function testSetMontantAcompte() {
+
+        $obj = new BlEntete();
+
+        $obj->setMontantAcompte(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantAcompte());
+    }
+
+    /**
+     * Tests the setNbColis() method.
+     *
+     * @return void
+     */
+    public function testSetNbColis() {
+
+        $obj = new BlEntete();
+
+        $obj->setNbColis(10);
+        $this->assertEquals(10, $obj->getNbColis());
+    }
+
+    /**
+     * Tests the setNoPiece() method.
+     *
+     * @return void
+     */
+    public function testSetNoPiece() {
+
+        $obj = new BlEntete();
+
+        $obj->setNoPiece("noPiece");
+        $this->assertEquals("noPiece", $obj->getNoPiece());
+    }
+
+    /**
+     * Tests the setNom() method.
+     *
+     * @return void
+     */
+    public function testSetNom() {
+
+        $obj = new BlEntete();
+
+        $obj->setNom("nom");
+        $this->assertEquals("nom", $obj->getNom());
+    }
+
+    /**
+     * Tests the setNom2() method.
+     *
+     * @return void
+     */
+    public function testSetNom2() {
+
+        $obj = new BlEntete();
+
+        $obj->setNom2("nom2");
+        $this->assertEquals("nom2", $obj->getNom2());
+    }
+
+    /**
+     * Tests the setNomSuite() method.
+     *
+     * @return void
+     */
+    public function testSetNomSuite() {
+
+        $obj = new BlEntete();
+
+        $obj->setNomSuite("nomSuite");
+        $this->assertEquals("nomSuite", $obj->getNomSuite());
+    }
+
+    /**
+     * Tests the setNomSuite2() method.
+     *
+     * @return void
+     */
+    public function testSetNomSuite2() {
+
+        $obj = new BlEntete();
+
+        $obj->setNomSuite2("nomSuite2");
+        $this->assertEquals("nomSuite2", $obj->getNomSuite2());
+    }
+
+    /**
+     * Tests the setNomVille() method.
+     *
+     * @return void
+     */
+    public function testSetNomVille() {
+
+        $obj = new BlEntete();
+
+        $obj->setNomVille("nomVille");
+        $this->assertEquals("nomVille", $obj->getNomVille());
+    }
+
+    /**
+     * Tests the setNomVille2() method.
+     *
+     * @return void
+     */
+    public function testSetNomVille2() {
+
+        $obj = new BlEntete();
+
+        $obj->setNomVille2("nomVille2");
+        $this->assertEquals("nomVille2", $obj->getNomVille2());
+    }
+
+    /**
+     * Tests the setNomVoie() method.
+     *
+     * @return void
+     */
+    public function testSetNomVoie() {
+
+        $obj = new BlEntete();
+
+        $obj->setNomVoie("nomVoie");
+        $this->assertEquals("nomVoie", $obj->getNomVoie());
+    }
+
+    /**
+     * Tests the setNomVoie2() method.
+     *
+     * @return void
+     */
+    public function testSetNomVoie2() {
+
+        $obj = new BlEntete();
+
+        $obj->setNomVoie2("nomVoie2");
+        $this->assertEquals("nomVoie2", $obj->getNomVoie2());
+    }
+
+    /**
+     * Tests the setNombreEcheances() method.
+     *
+     * @return void
+     */
+    public function testSetNombreEcheances() {
+
+        $obj = new BlEntete();
+
+        $obj->setNombreEcheances(10);
+        $this->assertEquals(10, $obj->getNombreEcheances());
+    }
+
+    /**
+     * Tests the setNumVoie() method.
+     *
+     * @return void
+     */
+    public function testSetNumVoie() {
+
+        $obj = new BlEntete();
+
+        $obj->setNumVoie("numVoie");
+        $this->assertEquals("numVoie", $obj->getNumVoie());
+    }
+
+    /**
+     * Tests the setNumVoie2() method.
+     *
+     * @return void
+     */
+    public function testSetNumVoie2() {
+
+        $obj = new BlEntete();
+
+        $obj->setNumVoie2("numVoie2");
+        $this->assertEquals("numVoie2", $obj->getNumVoie2());
+    }
+
+    /**
+     * Tests the setNumeroPj() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroPj() {
+
+        $obj = new BlEntete();
+
+        $obj->setNumeroPj(10);
+        $this->assertEquals(10, $obj->getNumeroPj());
+    }
+
+    /**
+     * Tests the setPaiementDepartLe() method.
+     *
+     * @return void
+     */
+    public function testSetPaiementDepartLe() {
+
+        $obj = new BlEntete();
+
+        $obj->setPaiementDepartLe(10);
+        $this->assertEquals(10, $obj->getPaiementDepartLe());
+    }
+
+    /**
+     * Tests the setPaiementLe() method.
+     *
+     * @return void
+     */
+    public function testSetPaiementLe() {
+
+        $obj = new BlEntete();
+
+        $obj->setPaiementLe(10);
+        $this->assertEquals(10, $obj->getPaiementLe());
+    }
+
+    /**
+     * Tests the setPaiementNombreDeJours() method.
+     *
+     * @return void
+     */
+    public function testSetPaiementNombreDeJours() {
+
+        $obj = new BlEntete();
+
+        $obj->setPaiementNombreDeJours(10);
+        $this->assertEquals(10, $obj->getPaiementNombreDeJours());
+    }
+
+    /**
+     * Tests the setPoids() method.
+     *
+     * @return void
+     */
+    public function testSetPoids() {
+
+        $obj = new BlEntete();
+
+        $obj->setPoids(10.092018);
+        $this->assertEquals(10.092018, $obj->getPoids());
+    }
+
+    /**
+     * Tests the setReference1() method.
+     *
+     * @return void
+     */
+    public function testSetReference1() {
+
+        $obj = new BlEntete();
+
+        $obj->setReference1("reference1");
+        $this->assertEquals("reference1", $obj->getReference1());
+    }
+
+    /**
+     * Tests the setReference2() method.
+     *
+     * @return void
+     */
+    public function testSetReference2() {
+
+        $obj = new BlEntete();
+
+        $obj->setReference2("reference2");
+        $this->assertEquals("reference2", $obj->getReference2());
+    }
+
+    /**
+     * Tests the setReference3() method.
+     *
+     * @return void
+     */
+    public function testSetReference3() {
+
+        $obj = new BlEntete();
+
+        $obj->setReference3("reference3");
+        $this->assertEquals("reference3", $obj->getReference3());
+    }
+
+    /**
+     * Tests the setReference4() method.
+     *
+     * @return void
+     */
+    public function testSetReference4() {
+
+        $obj = new BlEntete();
+
+        $obj->setReference4("reference4");
+        $this->assertEquals("reference4", $obj->getReference4());
+    }
+
+    /**
+     * Tests the setRemisePied() method.
+     *
+     * @return void
+     */
+    public function testSetRemisePied() {
+
+        $obj = new BlEntete();
+
+        $obj->setRemisePied(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemisePied());
+    }
+
+    /**
+     * Tests the setRemisePied2() method.
+     *
+     * @return void
+     */
+    public function testSetRemisePied2() {
+
+        $obj = new BlEntete();
+
+        $obj->setRemisePied2(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemisePied2());
+    }
+
+    /**
+     * Tests the setRemisePied3() method.
+     *
+     * @return void
+     */
+    public function testSetRemisePied3() {
+
+        $obj = new BlEntete();
+
+        $obj->setRemisePied3(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemisePied3());
+    }
+
+    /**
+     * Tests the setSaisirAdresse() method.
+     *
+     * @return void
+     */
+    public function testSetSaisirAdresse() {
+
+        $obj = new BlEntete();
+
+        $obj->setSaisirAdresse(true);
+        $this->assertEquals(true, $obj->getSaisirAdresse());
+    }
+
+    /**
+     * Tests the setSaisirAdresseLivraison() method.
+     *
+     * @return void
+     */
+    public function testSetSaisirAdresseLivraison() {
+
+        $obj = new BlEntete();
+
+        $obj->setSaisirAdresseLivraison(true);
+        $this->assertEquals(true, $obj->getSaisirAdresseLivraison());
+    }
+
+    /**
+     * Tests the setSoumisEscompte() method.
+     *
+     * @return void
+     */
+    public function testSetSoumisEscompte() {
+
+        $obj = new BlEntete();
+
+        $obj->setSoumisEscompte(true);
+        $this->assertEquals(true, $obj->getSoumisEscompte());
+    }
+
+    /**
+     * Tests the setSoumisTaxe1() method.
+     *
+     * @return void
+     */
+    public function testSetSoumisTaxe1() {
+
+        $obj = new BlEntete();
+
+        $obj->setSoumisTaxe1(true);
+        $this->assertEquals(true, $obj->getSoumisTaxe1());
+    }
+
+    /**
+     * Tests the setSoumisTaxe2() method.
+     *
+     * @return void
+     */
+    public function testSetSoumisTaxe2() {
+
+        $obj = new BlEntete();
+
+        $obj->setSoumisTaxe2(true);
+        $this->assertEquals(true, $obj->getSoumisTaxe2());
+    }
+
+    /**
+     * Tests the setSoumisTaxe3() method.
+     *
+     * @return void
+     */
+    public function testSetSoumisTaxe3() {
+
+        $obj = new BlEntete();
+
+        $obj->setSoumisTaxe3(true);
+        $this->assertEquals(true, $obj->getSoumisTaxe3());
+    }
+
+    /**
+     * Tests the setTauxCommission() method.
+     *
+     * @return void
+     */
+    public function testSetTauxCommission() {
+
+        $obj = new BlEntete();
+
+        $obj->setTauxCommission(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxCommission());
+    }
+
+    /**
+     * Tests the setTauxDevise() method.
+     *
+     * @return void
+     */
+    public function testSetTauxDevise() {
+
+        $obj = new BlEntete();
+
+        $obj->setTauxDevise(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxDevise());
+    }
+
+    /**
+     * Tests the setTransfert() method.
+     *
+     * @return void
+     */
+    public function testSetTransfert() {
+
+        $obj = new BlEntete();
+
+        $obj->setTransfert(10);
+        $this->assertEquals(10, $obj->getTransfert());
+    }
+
+    /**
+     * Tests the setTransporteur() method.
+     *
+     * @return void
+     */
+    public function testSetTransporteur() {
+
+        $obj = new BlEntete();
+
+        $obj->setTransporteur("transporteur");
+        $this->assertEquals("transporteur", $obj->getTransporteur());
+    }
+
+    /**
+     * Tests the setTxEscompteVente() method.
+     *
+     * @return void
+     */
+    public function testSetTxEscompteVente() {
+
+        $obj = new BlEntete();
+
+        $obj->setTxEscompteVente(10.092018);
+        $this->assertEquals(10.092018, $obj->getTxEscompteVente());
     }
 }

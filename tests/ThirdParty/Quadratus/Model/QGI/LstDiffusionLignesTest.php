@@ -36,4 +36,56 @@ class LstDiffusionLignesTest extends AbstractTestCase {
         $this->assertNull($obj->getNumLig());
         $this->assertNull($obj->getType());
     }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new LstDiffusionLignes();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setCodeGroupe() method.
+     *
+     * @return void
+     */
+    public function testSetCodeGroupe() {
+
+        $obj = new LstDiffusionLignes();
+
+        $obj->setCodeGroupe("codeGroupe");
+        $this->assertEquals("codeGroupe", $obj->getCodeGroupe());
+    }
+
+    /**
+     * Tests the setNumLig() method.
+     *
+     * @return void
+     */
+    public function testSetNumLig() {
+
+        $obj = new LstDiffusionLignes();
+
+        $obj->setNumLig(10);
+        $this->assertEquals(10, $obj->getNumLig());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new LstDiffusionLignes();
+
+        $obj->setType(10);
+        $this->assertEquals(10, $obj->getType());
+    }
 }

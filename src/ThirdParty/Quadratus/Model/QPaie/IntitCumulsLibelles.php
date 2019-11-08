@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumCumulBulletinTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
-
 /**
  * Intit cumuls libelles.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
  */
 class IntitCumulsLibelles {
 
-    use StringIntituleTrait;
-    use IntNumCumulBulletinTrait;
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
+
+    /**
+     * Num cumul bulletin.
+     *
+     * @var int
+     */
+    private $numCumulBulletin;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
+
+    /**
+     * Get the num cumul bulletin.
+     *
+     * @return int Returns the num cumul bulletin.
+     */
+    public function getNumCumulBulletin() {
+        return $this->numCumulBulletin;
+    }
+
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
+
+    /**
+     * Set the num cumul bulletin.
+     *
+     * @param int $numCumulBulletin The num cumul bulletin.
+     */
+    public function setNumCumulBulletin($numCumulBulletin) {
+        $this->numCumulBulletin = $numCumulBulletin;
+        return $this;
     }
 }

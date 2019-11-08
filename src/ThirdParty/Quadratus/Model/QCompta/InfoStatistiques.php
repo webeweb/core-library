@@ -11,12 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntAFacturerHorsExTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntAFacturerSurExTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCodeElementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCompteurHorsExTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCompteurSurExTrait;
-
 /**
  * Info statistiques.
  *
@@ -25,16 +19,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCompteurSurExTrait;
  */
 class InfoStatistiques {
 
-    use IntAFacturerHorsExTrait;
-    use IntAFacturerSurExTrait;
-    use IntCodeElementTrait;
-    use IntCompteurHorsExTrait;
-    use IntCompteurSurExTrait;
+    /**
+     * A facturer hors ex.
+     *
+     * @var int
+     */
+    private $aFacturerHorsEx;
+
+    /**
+     * A facturer sur ex.
+     *
+     * @var int
+     */
+    private $aFacturerSurEx;
+
+    /**
+     * Code element.
+     *
+     * @var int
+     */
+    private $codeElement;
+
+    /**
+     * Compteur hors ex.
+     *
+     * @var int
+     */
+    private $compteurHorsEx;
+
+    /**
+     * Compteur sur ex.
+     *
+     * @var int
+     */
+    private $compteurSurEx;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the a facturer hors ex.
+     *
+     * @return int Returns the a facturer hors ex.
+     */
+    public function getAFacturerHorsEx() {
+        return $this->aFacturerHorsEx;
+    }
+
+    /**
+     * Get the a facturer sur ex.
+     *
+     * @return int Returns the a facturer sur ex.
+     */
+    public function getAFacturerSurEx() {
+        return $this->aFacturerSurEx;
+    }
+
+    /**
+     * Get the code element.
+     *
+     * @return int Returns the code element.
+     */
+    public function getCodeElement() {
+        return $this->codeElement;
+    }
+
+    /**
+     * Get the compteur hors ex.
+     *
+     * @return int Returns the compteur hors ex.
+     */
+    public function getCompteurHorsEx() {
+        return $this->compteurHorsEx;
+    }
+
+    /**
+     * Get the compteur sur ex.
+     *
+     * @return int Returns the compteur sur ex.
+     */
+    public function getCompteurSurEx() {
+        return $this->compteurSurEx;
+    }
+
+    /**
+     * Set the a facturer hors ex.
+     *
+     * @param int $aFacturerHorsEx The a facturer hors ex.
+     */
+    public function setAFacturerHorsEx($aFacturerHorsEx) {
+        $this->aFacturerHorsEx = $aFacturerHorsEx;
+        return $this;
+    }
+
+    /**
+     * Set the a facturer sur ex.
+     *
+     * @param int $aFacturerSurEx The a facturer sur ex.
+     */
+    public function setAFacturerSurEx($aFacturerSurEx) {
+        $this->aFacturerSurEx = $aFacturerSurEx;
+        return $this;
+    }
+
+    /**
+     * Set the code element.
+     *
+     * @param int $codeElement The code element.
+     */
+    public function setCodeElement($codeElement) {
+        $this->codeElement = $codeElement;
+        return $this;
+    }
+
+    /**
+     * Set the compteur hors ex.
+     *
+     * @param int $compteurHorsEx The compteur hors ex.
+     */
+    public function setCompteurHorsEx($compteurHorsEx) {
+        $this->compteurHorsEx = $compteurHorsEx;
+        return $this;
+    }
+
+    /**
+     * Set the compteur sur ex.
+     *
+     * @param int $compteurSurEx The compteur sur ex.
+     */
+    public function setCompteurSurEx($compteurSurEx) {
+        $this->compteurSurEx = $compteurSurEx;
+        return $this;
     }
 }

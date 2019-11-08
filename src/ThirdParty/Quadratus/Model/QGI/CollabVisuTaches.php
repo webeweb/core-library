@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollabTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheVisuTrait;
-
 /**
  * Collab visu taches.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheVisuTrait;
  */
 class CollabVisuTaches {
 
-    use StringCodeCollabTrait;
-    use StringCodeTacheVisuTrait;
+    /**
+     * Code collab.
+     *
+     * @var string
+     */
+    private $codeCollab;
+
+    /**
+     * Code tache visu.
+     *
+     * @var string
+     */
+    private $codeTacheVisu;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code collab.
+     *
+     * @return string Returns the code collab.
+     */
+    public function getCodeCollab() {
+        return $this->codeCollab;
+    }
+
+    /**
+     * Get the code tache visu.
+     *
+     * @return string Returns the code tache visu.
+     */
+    public function getCodeTacheVisu() {
+        return $this->codeTacheVisu;
+    }
+
+    /**
+     * Set the code collab.
+     *
+     * @param string $codeCollab The code collab.
+     */
+    public function setCodeCollab($codeCollab) {
+        $this->codeCollab = $codeCollab;
+        return $this;
+    }
+
+    /**
+     * Set the code tache visu.
+     *
+     * @param string $codeTacheVisu The code tache visu.
+     */
+    public function setCodeTacheVisu($codeTacheVisu) {
+        $this->codeTacheVisu = $codeTacheVisu;
+        return $this;
     }
 }

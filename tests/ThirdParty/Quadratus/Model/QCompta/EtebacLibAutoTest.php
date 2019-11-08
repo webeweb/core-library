@@ -34,4 +34,30 @@ class EtebacLibAutoTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeEtebac());
         $this->assertNull($obj->getCodeLibAuto());
     }
+
+    /**
+     * Tests the setCodeEtebac() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtebac() {
+
+        $obj = new EtebacLibAuto();
+
+        $obj->setCodeEtebac("codeEtebac");
+        $this->assertEquals("codeEtebac", $obj->getCodeEtebac());
+    }
+
+    /**
+     * Tests the setCodeLibAuto() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibAuto() {
+
+        $obj = new EtebacLibAuto();
+
+        $obj->setCodeLibAuto("codeLibAuto");
+        $this->assertEquals("codeLibAuto", $obj->getCodeLibAuto());
+    }
 }

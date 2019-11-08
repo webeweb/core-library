@@ -35,4 +35,43 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
         $this->assertNull($obj->getIdRecap());
         $this->assertNull($obj->getNumeroOrdre());
     }
+
+    /**
+     * Tests the setCodePenibilite() method.
+     *
+     * @return void
+     */
+    public function testSetCodePenibilite() {
+
+        $obj = new EmpRecapCodePenibilite();
+
+        $obj->setCodePenibilite("codePenibilite");
+        $this->assertEquals("codePenibilite", $obj->getCodePenibilite());
+    }
+
+    /**
+     * Tests the setIdRecap() method.
+     *
+     * @return void
+     */
+    public function testSetIdRecap() {
+
+        $obj = new EmpRecapCodePenibilite();
+
+        $obj->setIdRecap(10);
+        $this->assertEquals(10, $obj->getIdRecap());
+    }
+
+    /**
+     * Tests the setNumeroOrdre() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroOrdre() {
+
+        $obj = new EmpRecapCodePenibilite();
+
+        $obj->setNumeroOrdre(10);
+        $this->assertEquals(10, $obj->getNumeroOrdre());
+    }
 }

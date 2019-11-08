@@ -37,4 +37,69 @@ class InfoStatistiquesTest extends AbstractTestCase {
         $this->assertNull($obj->getCompteurHorsEx());
         $this->assertNull($obj->getCompteurSurEx());
     }
+
+    /**
+     * Tests the setAFacturerHorsEx() method.
+     *
+     * @return void
+     */
+    public function testSetAFacturerHorsEx() {
+
+        $obj = new InfoStatistiques();
+
+        $obj->setAFacturerHorsEx(10);
+        $this->assertEquals(10, $obj->getAFacturerHorsEx());
+    }
+
+    /**
+     * Tests the setAFacturerSurEx() method.
+     *
+     * @return void
+     */
+    public function testSetAFacturerSurEx() {
+
+        $obj = new InfoStatistiques();
+
+        $obj->setAFacturerSurEx(10);
+        $this->assertEquals(10, $obj->getAFacturerSurEx());
+    }
+
+    /**
+     * Tests the setCodeElement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeElement() {
+
+        $obj = new InfoStatistiques();
+
+        $obj->setCodeElement(10);
+        $this->assertEquals(10, $obj->getCodeElement());
+    }
+
+    /**
+     * Tests the setCompteurHorsEx() method.
+     *
+     * @return void
+     */
+    public function testSetCompteurHorsEx() {
+
+        $obj = new InfoStatistiques();
+
+        $obj->setCompteurHorsEx(10);
+        $this->assertEquals(10, $obj->getCompteurHorsEx());
+    }
+
+    /**
+     * Tests the setCompteurSurEx() method.
+     *
+     * @return void
+     */
+    public function testSetCompteurSurEx() {
+
+        $obj = new InfoStatistiques();
+
+        $obj->setCompteurSurEx(10);
+        $this->assertEquals(10, $obj->getCompteurSurEx());
+    }
 }

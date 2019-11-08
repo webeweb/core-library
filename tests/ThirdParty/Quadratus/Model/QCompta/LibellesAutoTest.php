@@ -35,4 +35,43 @@ class LibellesAutoTest extends AbstractTestCase {
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getSuiviDateEcheance());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new LibellesAuto();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new LibellesAuto();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setSuiviDateEcheance() method.
+     *
+     * @return void
+     */
+    public function testSetSuiviDateEcheance() {
+
+        $obj = new LibellesAuto();
+
+        $obj->setSuiviDateEcheance(true);
+        $this->assertEquals(true, $obj->getSuiviDateEcheance());
+    }
 }

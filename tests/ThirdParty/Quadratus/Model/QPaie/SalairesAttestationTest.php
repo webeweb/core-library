@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\SalairesAttestation;
 
@@ -42,5 +44,160 @@ class SalairesAttestationTest extends AbstractTestCase {
         $this->assertNull($obj->getPeriodeFin());
         $this->assertNull($obj->getPrecompte());
         $this->assertNull($obj->getSalaireBrut());
+    }
+
+    /**
+     * Tests the setDatePaie() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDatePaie() {
+
+        // Set a Date/time mock.
+        $datePaie = new DateTime("2018-09-10");
+
+        $obj = new SalairesAttestation();
+
+        $obj->setDatePaie($datePaie);
+        $this->assertSame($datePaie, $obj->getDatePaie());
+    }
+
+    /**
+     * Tests the setEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetEuroOuFranc() {
+
+        $obj = new SalairesAttestation();
+
+        $obj->setEuroOuFranc("euroOuFranc");
+        $this->assertEquals("euroOuFranc", $obj->getEuroOuFranc());
+    }
+
+    /**
+     * Tests the setHeuresTrav() method.
+     *
+     * @return void
+     */
+    public function testSetHeuresTrav() {
+
+        $obj = new SalairesAttestation();
+
+        $obj->setHeuresTrav(10.092018);
+        $this->assertEquals(10.092018, $obj->getHeuresTrav());
+    }
+
+    /**
+     * Tests the setJoursNonPayes() method.
+     *
+     * @return void
+     */
+    public function testSetJoursNonPayes() {
+
+        $obj = new SalairesAttestation();
+
+        $obj->setJoursNonPayes(10.092018);
+        $this->assertEquals(10.092018, $obj->getJoursNonPayes());
+    }
+
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
+
+        $obj = new SalairesAttestation();
+
+        $obj->setNumLigne("numLigne");
+        $this->assertEquals("numLigne", $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the setNumeroAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAttestation() {
+
+        $obj = new SalairesAttestation();
+
+        $obj->setNumeroAttestation("numeroAttestation");
+        $this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
+    }
+
+    /**
+     * Tests the setObservation() method.
+     *
+     * @return void
+     */
+    public function testSetObservation() {
+
+        $obj = new SalairesAttestation();
+
+        $obj->setObservation("observation");
+        $this->assertEquals("observation", $obj->getObservation());
+    }
+
+    /**
+     * Tests the setPeriodeDeb() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeDeb() {
+
+        // Set a Date/time mock.
+        $periodeDeb = new DateTime("2018-09-10");
+
+        $obj = new SalairesAttestation();
+
+        $obj->setPeriodeDeb($periodeDeb);
+        $this->assertSame($periodeDeb, $obj->getPeriodeDeb());
+    }
+
+    /**
+     * Tests the setPeriodeFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeFin() {
+
+        // Set a Date/time mock.
+        $periodeFin = new DateTime("2018-09-10");
+
+        $obj = new SalairesAttestation();
+
+        $obj->setPeriodeFin($periodeFin);
+        $this->assertSame($periodeFin, $obj->getPeriodeFin());
+    }
+
+    /**
+     * Tests the setPrecompte() method.
+     *
+     * @return void
+     */
+    public function testSetPrecompte() {
+
+        $obj = new SalairesAttestation();
+
+        $obj->setPrecompte(10.092018);
+        $this->assertEquals(10.092018, $obj->getPrecompte());
+    }
+
+    /**
+     * Tests the setSalaireBrut() method.
+     *
+     * @return void
+     */
+    public function testSetSalaireBrut() {
+
+        $obj = new SalairesAttestation();
+
+        $obj->setSalaireBrut(10.092018);
+        $this->assertEquals(10.092018, $obj->getSalaireBrut());
     }
 }

@@ -11,42 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolDepuisDebFacTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolImprimerDansPiedTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolPxDevisTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolVentilMargeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeVentilMargeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantUnitaireTaxeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrixAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrixUnitaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQuantiteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatRemiseLigne1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatRemiseLigne2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatRemiseLigne3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxTvaArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxTvaTaxeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAnalArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegroupementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTvaArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeUniteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeVentilArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignationBis2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignationBis3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignationBisTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignationRtfTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMotCleDansPiedTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroDevisTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPosteRentTrait;
+use DateTime;
 
 /**
  * Devis commercial lignes.
@@ -56,47 +21,946 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPosteRentTrait;
  */
 class DevisCommercialLignes {
 
-    use StringCodeAffaireTrait;
-    use StringCodeAffaireLigneTrait;
-    use StringCodeAnalArticleTrait;
-    use StringCodeArticleTrait;
-    use StringCodeChantierTrait;
-    use StringCodeChantierLigneTrait;
-    use StringCodeClientTrait;
-    use StringCodeRegroupementTrait;
-    use StringCodeTvaArticleTrait;
-    use StringCodeUniteTrait;
-    use StringCodeVentilArticleTrait;
-    use BoolDepuisDebFacTrait;
-    use StringDesignationTrait;
-    use StringDesignation2Trait;
-    use StringDesignation3Trait;
-    use StringDesignationBisTrait;
-    use StringDesignationBis2Trait;
-    use StringDesignationBis3Trait;
-    use StringDesignationRtfTrait;
-    use BoolImprimerDansPiedTrait;
-    use FloatMontantUnitaireTaxeTrait;
-    use StringMotCleDansPiedTrait;
-    use StringNumeroDevisTrait;
-    use IntNumeroLigneTrait;
-    use DateTimePeriodeVentilMargeTrait;
-    use StringPosteRentTrait;
-    use FloatPrixAchatTrait;
-    use FloatPrixUnitaireTrait;
-    use BoolPxDevisTrait;
-    use FloatQuantiteTrait;
-    use FloatRemiseLigne1Trait;
-    use FloatRemiseLigne2Trait;
-    use FloatRemiseLigne3Trait;
-    use FloatTauxTvaArticleTrait;
-    use FloatTauxTvaTaxeTrait;
-    use BoolVentilMargeTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code affaire ligne.
+     *
+     * @var string
+     */
+    private $codeAffaireLigne;
+
+    /**
+     * Code anal article.
+     *
+     * @var string
+     */
+    private $codeAnalArticle;
+
+    /**
+     * Code article.
+     *
+     * @var string
+     */
+    private $codeArticle;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code chantier ligne.
+     *
+     * @var string
+     */
+    private $codeChantierLigne;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code regroupement.
+     *
+     * @var string
+     */
+    private $codeRegroupement;
+
+    /**
+     * Code tva article.
+     *
+     * @var string
+     */
+    private $codeTvaArticle;
+
+    /**
+     * Code unite.
+     *
+     * @var string
+     */
+    private $codeUnite;
+
+    /**
+     * Code ventil article.
+     *
+     * @var string
+     */
+    private $codeVentilArticle;
+
+    /**
+     * Depuis deb fac.
+     *
+     * @var bool
+     */
+    private $depuisDebFac;
+
+    /**
+     * Designation.
+     *
+     * @var string
+     */
+    private $designation;
+
+    /**
+     * Designation2.
+     *
+     * @var string
+     */
+    private $designation2;
+
+    /**
+     * Designation3.
+     *
+     * @var string
+     */
+    private $designation3;
+
+    /**
+     * Designation bis.
+     *
+     * @var string
+     */
+    private $designationBis;
+
+    /**
+     * Designation bis2.
+     *
+     * @var string
+     */
+    private $designationBis2;
+
+    /**
+     * Designation bis3.
+     *
+     * @var string
+     */
+    private $designationBis3;
+
+    /**
+     * Designation rtf.
+     *
+     * @var string
+     */
+    private $designationRtf;
+
+    /**
+     * Imprimer dans pied.
+     *
+     * @var bool
+     */
+    private $imprimerDansPied;
+
+    /**
+     * Montant unitaire taxe.
+     *
+     * @var float
+     */
+    private $montantUnitaireTaxe;
+
+    /**
+     * Mot cle dans pied.
+     *
+     * @var string
+     */
+    private $motCleDansPied;
+
+    /**
+     * Numero devis.
+     *
+     * @var string
+     */
+    private $numeroDevis;
+
+    /**
+     * Numero ligne.
+     *
+     * @var int
+     */
+    private $numeroLigne;
+
+    /**
+     * Periode ventil marge.
+     *
+     * @var DateTime|null
+     */
+    private $periodeVentilMarge;
+
+    /**
+     * Poste rent.
+     *
+     * @var string
+     */
+    private $posteRent;
+
+    /**
+     * Prix achat.
+     *
+     * @var float
+     */
+    private $prixAchat;
+
+    /**
+     * Prix unitaire.
+     *
+     * @var float
+     */
+    private $prixUnitaire;
+
+    /**
+     * Px devis.
+     *
+     * @var bool
+     */
+    private $pxDevis;
+
+    /**
+     * Quantite.
+     *
+     * @var float
+     */
+    private $quantite;
+
+    /**
+     * Remise ligne1.
+     *
+     * @var float
+     */
+    private $remiseLigne1;
+
+    /**
+     * Remise ligne2.
+     *
+     * @var float
+     */
+    private $remiseLigne2;
+
+    /**
+     * Remise ligne3.
+     *
+     * @var float
+     */
+    private $remiseLigne3;
+
+    /**
+     * Taux tva article.
+     *
+     * @var float
+     */
+    private $tauxTvaArticle;
+
+    /**
+     * Taux tva taxe.
+     *
+     * @var float
+     */
+    private $tauxTvaTaxe;
+
+    /**
+     * Ventil marge.
+     *
+     * @var bool
+     */
+    private $ventilMarge;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code affaire ligne.
+     *
+     * @return string Returns the code affaire ligne.
+     */
+    public function getCodeAffaireLigne() {
+        return $this->codeAffaireLigne;
+    }
+
+    /**
+     * Get the code anal article.
+     *
+     * @return string Returns the code anal article.
+     */
+    public function getCodeAnalArticle() {
+        return $this->codeAnalArticle;
+    }
+
+    /**
+     * Get the code article.
+     *
+     * @return string Returns the code article.
+     */
+    public function getCodeArticle() {
+        return $this->codeArticle;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code chantier ligne.
+     *
+     * @return string Returns the code chantier ligne.
+     */
+    public function getCodeChantierLigne() {
+        return $this->codeChantierLigne;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code regroupement.
+     *
+     * @return string Returns the code regroupement.
+     */
+    public function getCodeRegroupement() {
+        return $this->codeRegroupement;
+    }
+
+    /**
+     * Get the code tva article.
+     *
+     * @return string Returns the code tva article.
+     */
+    public function getCodeTvaArticle() {
+        return $this->codeTvaArticle;
+    }
+
+    /**
+     * Get the code unite.
+     *
+     * @return string Returns the code unite.
+     */
+    public function getCodeUnite() {
+        return $this->codeUnite;
+    }
+
+    /**
+     * Get the code ventil article.
+     *
+     * @return string Returns the code ventil article.
+     */
+    public function getCodeVentilArticle() {
+        return $this->codeVentilArticle;
+    }
+
+    /**
+     * Get the depuis deb fac.
+     *
+     * @return bool Returns the depuis deb fac.
+     */
+    public function getDepuisDebFac() {
+        return $this->depuisDebFac;
+    }
+
+    /**
+     * Get the designation.
+     *
+     * @return string Returns the designation.
+     */
+    public function getDesignation() {
+        return $this->designation;
+    }
+
+    /**
+     * Get the designation2.
+     *
+     * @return string Returns the designation2.
+     */
+    public function getDesignation2() {
+        return $this->designation2;
+    }
+
+    /**
+     * Get the designation3.
+     *
+     * @return string Returns the designation3.
+     */
+    public function getDesignation3() {
+        return $this->designation3;
+    }
+
+    /**
+     * Get the designation bis.
+     *
+     * @return string Returns the designation bis.
+     */
+    public function getDesignationBis() {
+        return $this->designationBis;
+    }
+
+    /**
+     * Get the designation bis2.
+     *
+     * @return string Returns the designation bis2.
+     */
+    public function getDesignationBis2() {
+        return $this->designationBis2;
+    }
+
+    /**
+     * Get the designation bis3.
+     *
+     * @return string Returns the designation bis3.
+     */
+    public function getDesignationBis3() {
+        return $this->designationBis3;
+    }
+
+    /**
+     * Get the designation rtf.
+     *
+     * @return string Returns the designation rtf.
+     */
+    public function getDesignationRtf() {
+        return $this->designationRtf;
+    }
+
+    /**
+     * Get the imprimer dans pied.
+     *
+     * @return bool Returns the imprimer dans pied.
+     */
+    public function getImprimerDansPied() {
+        return $this->imprimerDansPied;
+    }
+
+    /**
+     * Get the montant unitaire taxe.
+     *
+     * @return float Returns the montant unitaire taxe.
+     */
+    public function getMontantUnitaireTaxe() {
+        return $this->montantUnitaireTaxe;
+    }
+
+    /**
+     * Get the mot cle dans pied.
+     *
+     * @return string Returns the mot cle dans pied.
+     */
+    public function getMotCleDansPied() {
+        return $this->motCleDansPied;
+    }
+
+    /**
+     * Get the numero devis.
+     *
+     * @return string Returns the numero devis.
+     */
+    public function getNumeroDevis() {
+        return $this->numeroDevis;
+    }
+
+    /**
+     * Get the numero ligne.
+     *
+     * @return int Returns the numero ligne.
+     */
+    public function getNumeroLigne() {
+        return $this->numeroLigne;
+    }
+
+    /**
+     * Get the periode ventil marge.
+     *
+     * @return DateTime|null Returns the periode ventil marge.
+     */
+    public function getPeriodeVentilMarge() {
+        return $this->periodeVentilMarge;
+    }
+
+    /**
+     * Get the poste rent.
+     *
+     * @return string Returns the poste rent.
+     */
+    public function getPosteRent() {
+        return $this->posteRent;
+    }
+
+    /**
+     * Get the prix achat.
+     *
+     * @return float Returns the prix achat.
+     */
+    public function getPrixAchat() {
+        return $this->prixAchat;
+    }
+
+    /**
+     * Get the prix unitaire.
+     *
+     * @return float Returns the prix unitaire.
+     */
+    public function getPrixUnitaire() {
+        return $this->prixUnitaire;
+    }
+
+    /**
+     * Get the px devis.
+     *
+     * @return bool Returns the px devis.
+     */
+    public function getPxDevis() {
+        return $this->pxDevis;
+    }
+
+    /**
+     * Get the quantite.
+     *
+     * @return float Returns the quantite.
+     */
+    public function getQuantite() {
+        return $this->quantite;
+    }
+
+    /**
+     * Get the remise ligne1.
+     *
+     * @return float Returns the remise ligne1.
+     */
+    public function getRemiseLigne1() {
+        return $this->remiseLigne1;
+    }
+
+    /**
+     * Get the remise ligne2.
+     *
+     * @return float Returns the remise ligne2.
+     */
+    public function getRemiseLigne2() {
+        return $this->remiseLigne2;
+    }
+
+    /**
+     * Get the remise ligne3.
+     *
+     * @return float Returns the remise ligne3.
+     */
+    public function getRemiseLigne3() {
+        return $this->remiseLigne3;
+    }
+
+    /**
+     * Get the taux tva article.
+     *
+     * @return float Returns the taux tva article.
+     */
+    public function getTauxTvaArticle() {
+        return $this->tauxTvaArticle;
+    }
+
+    /**
+     * Get the taux tva taxe.
+     *
+     * @return float Returns the taux tva taxe.
+     */
+    public function getTauxTvaTaxe() {
+        return $this->tauxTvaTaxe;
+    }
+
+    /**
+     * Get the ventil marge.
+     *
+     * @return bool Returns the ventil marge.
+     */
+    public function getVentilMarge() {
+        return $this->ventilMarge;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code affaire ligne.
+     *
+     * @param string $codeAffaireLigne The code affaire ligne.
+     */
+    public function setCodeAffaireLigne($codeAffaireLigne) {
+        $this->codeAffaireLigne = $codeAffaireLigne;
+        return $this;
+    }
+
+    /**
+     * Set the code anal article.
+     *
+     * @param string $codeAnalArticle The code anal article.
+     */
+    public function setCodeAnalArticle($codeAnalArticle) {
+        $this->codeAnalArticle = $codeAnalArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code article.
+     *
+     * @param string $codeArticle The code article.
+     */
+    public function setCodeArticle($codeArticle) {
+        $this->codeArticle = $codeArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier ligne.
+     *
+     * @param string $codeChantierLigne The code chantier ligne.
+     */
+    public function setCodeChantierLigne($codeChantierLigne) {
+        $this->codeChantierLigne = $codeChantierLigne;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code regroupement.
+     *
+     * @param string $codeRegroupement The code regroupement.
+     */
+    public function setCodeRegroupement($codeRegroupement) {
+        $this->codeRegroupement = $codeRegroupement;
+        return $this;
+    }
+
+    /**
+     * Set the code tva article.
+     *
+     * @param string $codeTvaArticle The code tva article.
+     */
+    public function setCodeTvaArticle($codeTvaArticle) {
+        $this->codeTvaArticle = $codeTvaArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code unite.
+     *
+     * @param string $codeUnite The code unite.
+     */
+    public function setCodeUnite($codeUnite) {
+        $this->codeUnite = $codeUnite;
+        return $this;
+    }
+
+    /**
+     * Set the code ventil article.
+     *
+     * @param string $codeVentilArticle The code ventil article.
+     */
+    public function setCodeVentilArticle($codeVentilArticle) {
+        $this->codeVentilArticle = $codeVentilArticle;
+        return $this;
+    }
+
+    /**
+     * Set the depuis deb fac.
+     *
+     * @param bool $depuisDebFac The depuis deb fac.
+     */
+    public function setDepuisDebFac($depuisDebFac) {
+        $this->depuisDebFac = $depuisDebFac;
+        return $this;
+    }
+
+    /**
+     * Set the designation.
+     *
+     * @param string $designation The designation.
+     */
+    public function setDesignation($designation) {
+        $this->designation = $designation;
+        return $this;
+    }
+
+    /**
+     * Set the designation2.
+     *
+     * @param string $designation2 The designation2.
+     */
+    public function setDesignation2($designation2) {
+        $this->designation2 = $designation2;
+        return $this;
+    }
+
+    /**
+     * Set the designation3.
+     *
+     * @param string $designation3 The designation3.
+     */
+    public function setDesignation3($designation3) {
+        $this->designation3 = $designation3;
+        return $this;
+    }
+
+    /**
+     * Set the designation bis.
+     *
+     * @param string $designationBis The designation bis.
+     */
+    public function setDesignationBis($designationBis) {
+        $this->designationBis = $designationBis;
+        return $this;
+    }
+
+    /**
+     * Set the designation bis2.
+     *
+     * @param string $designationBis2 The designation bis2.
+     */
+    public function setDesignationBis2($designationBis2) {
+        $this->designationBis2 = $designationBis2;
+        return $this;
+    }
+
+    /**
+     * Set the designation bis3.
+     *
+     * @param string $designationBis3 The designation bis3.
+     */
+    public function setDesignationBis3($designationBis3) {
+        $this->designationBis3 = $designationBis3;
+        return $this;
+    }
+
+    /**
+     * Set the designation rtf.
+     *
+     * @param string $designationRtf The designation rtf.
+     */
+    public function setDesignationRtf($designationRtf) {
+        $this->designationRtf = $designationRtf;
+        return $this;
+    }
+
+    /**
+     * Set the imprimer dans pied.
+     *
+     * @param bool $imprimerDansPied The imprimer dans pied.
+     */
+    public function setImprimerDansPied($imprimerDansPied) {
+        $this->imprimerDansPied = $imprimerDansPied;
+        return $this;
+    }
+
+    /**
+     * Set the montant unitaire taxe.
+     *
+     * @param float $montantUnitaireTaxe The montant unitaire taxe.
+     */
+    public function setMontantUnitaireTaxe($montantUnitaireTaxe) {
+        $this->montantUnitaireTaxe = $montantUnitaireTaxe;
+        return $this;
+    }
+
+    /**
+     * Set the mot cle dans pied.
+     *
+     * @param string $motCleDansPied The mot cle dans pied.
+     */
+    public function setMotCleDansPied($motCleDansPied) {
+        $this->motCleDansPied = $motCleDansPied;
+        return $this;
+    }
+
+    /**
+     * Set the numero devis.
+     *
+     * @param string $numeroDevis The numero devis.
+     */
+    public function setNumeroDevis($numeroDevis) {
+        $this->numeroDevis = $numeroDevis;
+        return $this;
+    }
+
+    /**
+     * Set the numero ligne.
+     *
+     * @param int $numeroLigne The numero ligne.
+     */
+    public function setNumeroLigne($numeroLigne) {
+        $this->numeroLigne = $numeroLigne;
+        return $this;
+    }
+
+    /**
+     * Set the periode ventil marge.
+     *
+     * @param DateTime|null $periodeVentilMarge The periode ventil marge.
+     */
+    public function setPeriodeVentilMarge(DateTime $periodeVentilMarge = null) {
+        $this->periodeVentilMarge = $periodeVentilMarge;
+        return $this;
+    }
+
+    /**
+     * Set the poste rent.
+     *
+     * @param string $posteRent The poste rent.
+     */
+    public function setPosteRent($posteRent) {
+        $this->posteRent = $posteRent;
+        return $this;
+    }
+
+    /**
+     * Set the prix achat.
+     *
+     * @param float $prixAchat The prix achat.
+     */
+    public function setPrixAchat($prixAchat) {
+        $this->prixAchat = $prixAchat;
+        return $this;
+    }
+
+    /**
+     * Set the prix unitaire.
+     *
+     * @param float $prixUnitaire The prix unitaire.
+     */
+    public function setPrixUnitaire($prixUnitaire) {
+        $this->prixUnitaire = $prixUnitaire;
+        return $this;
+    }
+
+    /**
+     * Set the px devis.
+     *
+     * @param bool $pxDevis The px devis.
+     */
+    public function setPxDevis($pxDevis) {
+        $this->pxDevis = $pxDevis;
+        return $this;
+    }
+
+    /**
+     * Set the quantite.
+     *
+     * @param float $quantite The quantite.
+     */
+    public function setQuantite($quantite) {
+        $this->quantite = $quantite;
+        return $this;
+    }
+
+    /**
+     * Set the remise ligne1.
+     *
+     * @param float $remiseLigne1 The remise ligne1.
+     */
+    public function setRemiseLigne1($remiseLigne1) {
+        $this->remiseLigne1 = $remiseLigne1;
+        return $this;
+    }
+
+    /**
+     * Set the remise ligne2.
+     *
+     * @param float $remiseLigne2 The remise ligne2.
+     */
+    public function setRemiseLigne2($remiseLigne2) {
+        $this->remiseLigne2 = $remiseLigne2;
+        return $this;
+    }
+
+    /**
+     * Set the remise ligne3.
+     *
+     * @param float $remiseLigne3 The remise ligne3.
+     */
+    public function setRemiseLigne3($remiseLigne3) {
+        $this->remiseLigne3 = $remiseLigne3;
+        return $this;
+    }
+
+    /**
+     * Set the taux tva article.
+     *
+     * @param float $tauxTvaArticle The taux tva article.
+     */
+    public function setTauxTvaArticle($tauxTvaArticle) {
+        $this->tauxTvaArticle = $tauxTvaArticle;
+        return $this;
+    }
+
+    /**
+     * Set the taux tva taxe.
+     *
+     * @param float $tauxTvaTaxe The taux tva taxe.
+     */
+    public function setTauxTvaTaxe($tauxTvaTaxe) {
+        $this->tauxTvaTaxe = $tauxTvaTaxe;
+        return $this;
+    }
+
+    /**
+     * Set the ventil marge.
+     *
+     * @param bool $ventilMarge The ventil marge.
+     */
+    public function setVentilMarge($ventilMarge) {
+        $this->ventilMarge = $ventilMarge;
+        return $this;
     }
 }

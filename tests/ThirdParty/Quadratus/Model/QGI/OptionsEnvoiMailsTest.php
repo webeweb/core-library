@@ -36,4 +36,56 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollab());
         $this->assertNull($obj->getCodeModule());
     }
+
+    /**
+     * Tests the setAvecEntete() method.
+     *
+     * @return void
+     */
+    public function testSetAvecEntete() {
+
+        $obj = new OptionsEnvoiMails();
+
+        $obj->setAvecEntete(true);
+        $this->assertEquals(true, $obj->getAvecEntete());
+    }
+
+    /**
+     * Tests the setAvecPied() method.
+     *
+     * @return void
+     */
+    public function testSetAvecPied() {
+
+        $obj = new OptionsEnvoiMails();
+
+        $obj->setAvecPied(true);
+        $this->assertEquals(true, $obj->getAvecPied());
+    }
+
+    /**
+     * Tests the setCodeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollab() {
+
+        $obj = new OptionsEnvoiMails();
+
+        $obj->setCodeCollab("codeCollab");
+        $this->assertEquals("codeCollab", $obj->getCodeCollab());
+    }
+
+    /**
+     * Tests the setCodeModule() method.
+     *
+     * @return void
+     */
+    public function testSetCodeModule() {
+
+        $obj = new OptionsEnvoiMails();
+
+        $obj->setCodeModule("codeModule");
+        $this->assertEquals("codeModule", $obj->getCodeModule());
+    }
 }

@@ -39,4 +39,95 @@ class FichesDePosteTest extends AbstractTestCase {
         $this->assertNull($obj->getNumBt());
         $this->assertNull($obj->getPoste());
     }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new FichesDePoste();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new FichesDePoste();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new FichesDePoste();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
+
+        $obj = new FichesDePoste();
+
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
+
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
+
+        $obj = new FichesDePoste();
+
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
+
+    /**
+     * Tests the setNumBt() method.
+     *
+     * @return void
+     */
+    public function testSetNumBt() {
+
+        $obj = new FichesDePoste();
+
+        $obj->setNumBt(10);
+        $this->assertEquals(10, $obj->getNumBt());
+    }
+
+    /**
+     * Tests the setPoste() method.
+     *
+     * @return void
+     */
+    public function testSetPoste() {
+
+        $obj = new FichesDePoste();
+
+        $obj->setPoste("poste");
+        $this->assertEquals("poste", $obj->getPoste());
+    }
 }

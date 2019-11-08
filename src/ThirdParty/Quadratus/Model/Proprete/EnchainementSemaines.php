@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDiscrSemTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumOrdreTrait;
-
 /**
  * Enchainement semaines.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumOrdreTrait;
  */
 class EnchainementSemaines {
 
-    use IntDiscrSemTrait;
-    use IntNumOrdreTrait;
+    /**
+     * Discr sem.
+     *
+     * @var int
+     */
+    private $discrSem;
+
+    /**
+     * Num ordre.
+     *
+     * @var int
+     */
+    private $numOrdre;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the discr sem.
+     *
+     * @return int Returns the discr sem.
+     */
+    public function getDiscrSem() {
+        return $this->discrSem;
+    }
+
+    /**
+     * Get the num ordre.
+     *
+     * @return int Returns the num ordre.
+     */
+    public function getNumOrdre() {
+        return $this->numOrdre;
+    }
+
+    /**
+     * Set the discr sem.
+     *
+     * @param int $discrSem The discr sem.
+     */
+    public function setDiscrSem($discrSem) {
+        $this->discrSem = $discrSem;
+        return $this;
+    }
+
+    /**
+     * Set the num ordre.
+     *
+     * @param int $numOrdre The num ordre.
+     */
+    public function setNumOrdre($numOrdre) {
+        $this->numOrdre = $numOrdre;
+        return $this;
     }
 }

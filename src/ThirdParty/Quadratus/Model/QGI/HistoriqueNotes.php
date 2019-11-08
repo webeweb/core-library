@@ -11,13 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateClotureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCreationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCategorieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumUniqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTitreTrait;
+use DateTime;
 
 /**
  * Historique notes.
@@ -27,18 +21,192 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTitreTrait;
  */
 class HistoriqueNotes {
 
-    use StringCodeCategorieTrait;
-    use StringCodeCollaborateurTrait;
-    use DateTimeDateClotureTrait;
-    use DateTimeDateCreationTrait;
-    use StringIntituleTrait;
-    use StringNumUniqTrait;
-    use StringTitreTrait;
+    /**
+     * Code categorie.
+     *
+     * @var string
+     */
+    private $codeCategorie;
+
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Date cloture.
+     *
+     * @var DateTime|null
+     */
+    private $dateCloture;
+
+    /**
+     * Date creation.
+     *
+     * @var DateTime|null
+     */
+    private $dateCreation;
+
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
+
+    /**
+     * Num uniq.
+     *
+     * @var string
+     */
+    private $numUniq;
+
+    /**
+     * Titre.
+     *
+     * @var string
+     */
+    private $titre;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code categorie.
+     *
+     * @return string Returns the code categorie.
+     */
+    public function getCodeCategorie() {
+        return $this->codeCategorie;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the date cloture.
+     *
+     * @return DateTime|null Returns the date cloture.
+     */
+    public function getDateCloture() {
+        return $this->dateCloture;
+    }
+
+    /**
+     * Get the date creation.
+     *
+     * @return DateTime|null Returns the date creation.
+     */
+    public function getDateCreation() {
+        return $this->dateCreation;
+    }
+
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
+
+    /**
+     * Get the num uniq.
+     *
+     * @return string Returns the num uniq.
+     */
+    public function getNumUniq() {
+        return $this->numUniq;
+    }
+
+    /**
+     * Get the titre.
+     *
+     * @return string Returns the titre.
+     */
+    public function getTitre() {
+        return $this->titre;
+    }
+
+    /**
+     * Set the code categorie.
+     *
+     * @param string $codeCategorie The code categorie.
+     */
+    public function setCodeCategorie($codeCategorie) {
+        $this->codeCategorie = $codeCategorie;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the date cloture.
+     *
+     * @param DateTime|null $dateCloture The date cloture.
+     */
+    public function setDateCloture(DateTime $dateCloture = null) {
+        $this->dateCloture = $dateCloture;
+        return $this;
+    }
+
+    /**
+     * Set the date creation.
+     *
+     * @param DateTime|null $dateCreation The date creation.
+     */
+    public function setDateCreation(DateTime $dateCreation = null) {
+        $this->dateCreation = $dateCreation;
+        return $this;
+    }
+
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
+
+    /**
+     * Set the num uniq.
+     *
+     * @param string $numUniq The num uniq.
+     */
+    public function setNumUniq($numUniq) {
+        $this->numUniq = $numUniq;
+        return $this;
+    }
+
+    /**
+     * Set the titre.
+     *
+     * @param string $titre The titre.
+     */
+    public function setTitre($titre) {
+        $this->titre = $titre;
+        return $this;
     }
 }

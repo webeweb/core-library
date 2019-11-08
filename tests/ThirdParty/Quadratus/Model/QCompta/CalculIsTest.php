@@ -38,4 +38,82 @@ class CalculIsTest extends AbstractTestCase {
         $this->assertNull($obj->getNumUniq());
         $this->assertNull($obj->getTypeLigne());
     }
+
+    /**
+     * Tests the setCorrespondance() method.
+     *
+     * @return void
+     */
+    public function testSetCorrespondance() {
+
+        $obj = new CalculIs();
+
+        $obj->setCorrespondance("correspondance");
+        $this->assertEquals("correspondance", $obj->getCorrespondance());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new CalculIs();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
+
+        $obj = new CalculIs();
+
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
+
+    /**
+     * Tests the setMontantN1() method.
+     *
+     * @return void
+     */
+    public function testSetMontantN1() {
+
+        $obj = new CalculIs();
+
+        $obj->setMontantN1(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantN1());
+    }
+
+    /**
+     * Tests the setNumUniq() method.
+     *
+     * @return void
+     */
+    public function testSetNumUniq() {
+
+        $obj = new CalculIs();
+
+        $obj->setNumUniq(10);
+        $this->assertEquals(10, $obj->getNumUniq());
+    }
+
+    /**
+     * Tests the setTypeLigne() method.
+     *
+     * @return void
+     */
+    public function testSetTypeLigne() {
+
+        $obj = new CalculIs();
+
+        $obj->setTypeLigne("typeLigne");
+        $this->assertEquals("typeLigne", $obj->getTypeLigne());
+    }
 }

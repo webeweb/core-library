@@ -11,17 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringBtqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringBureauDistributeurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeLivraisonTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePostalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComplementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomSuiteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomVoieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumVoieTrait;
-
 /**
  * Adresses livraison.
  *
@@ -30,21 +19,270 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumVoieTrait;
  */
 class AdressesLivraison {
 
-    use StringBtqTrait;
-    use StringBureauDistributeurTrait;
-    use StringCodeLivraisonTrait;
-    use StringCodePostalTrait;
-    use StringComplementTrait;
-    use StringLibelleTrait;
-    use StringNomTrait;
-    use StringNomSuiteTrait;
-    use StringNomVoieTrait;
-    use StringNumVoieTrait;
+    /**
+     * Btq.
+     *
+     * @var string
+     */
+    private $btq;
+
+    /**
+     * Bureau distributeur.
+     *
+     * @var string
+     */
+    private $bureauDistributeur;
+
+    /**
+     * Code livraison.
+     *
+     * @var string
+     */
+    private $codeLivraison;
+
+    /**
+     * Code postal.
+     *
+     * @var string
+     */
+    private $codePostal;
+
+    /**
+     * Complement.
+     *
+     * @var string
+     */
+    private $complement;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Nom.
+     *
+     * @var string
+     */
+    private $nom;
+
+    /**
+     * Nom suite.
+     *
+     * @var string
+     */
+    private $nomSuite;
+
+    /**
+     * Nom voie.
+     *
+     * @var string
+     */
+    private $nomVoie;
+
+    /**
+     * Num voie.
+     *
+     * @var string
+     */
+    private $numVoie;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the btq.
+     *
+     * @return string Returns the btq.
+     */
+    public function getBtq() {
+        return $this->btq;
+    }
+
+    /**
+     * Get the bureau distributeur.
+     *
+     * @return string Returns the bureau distributeur.
+     */
+    public function getBureauDistributeur() {
+        return $this->bureauDistributeur;
+    }
+
+    /**
+     * Get the code livraison.
+     *
+     * @return string Returns the code livraison.
+     */
+    public function getCodeLivraison() {
+        return $this->codeLivraison;
+    }
+
+    /**
+     * Get the code postal.
+     *
+     * @return string Returns the code postal.
+     */
+    public function getCodePostal() {
+        return $this->codePostal;
+    }
+
+    /**
+     * Get the complement.
+     *
+     * @return string Returns the complement.
+     */
+    public function getComplement() {
+        return $this->complement;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the nom.
+     *
+     * @return string Returns the nom.
+     */
+    public function getNom() {
+        return $this->nom;
+    }
+
+    /**
+     * Get the nom suite.
+     *
+     * @return string Returns the nom suite.
+     */
+    public function getNomSuite() {
+        return $this->nomSuite;
+    }
+
+    /**
+     * Get the nom voie.
+     *
+     * @return string Returns the nom voie.
+     */
+    public function getNomVoie() {
+        return $this->nomVoie;
+    }
+
+    /**
+     * Get the num voie.
+     *
+     * @return string Returns the num voie.
+     */
+    public function getNumVoie() {
+        return $this->numVoie;
+    }
+
+    /**
+     * Set the btq.
+     *
+     * @param string $btq The btq.
+     */
+    public function setBtq($btq) {
+        $this->btq = $btq;
+        return $this;
+    }
+
+    /**
+     * Set the bureau distributeur.
+     *
+     * @param string $bureauDistributeur The bureau distributeur.
+     */
+    public function setBureauDistributeur($bureauDistributeur) {
+        $this->bureauDistributeur = $bureauDistributeur;
+        return $this;
+    }
+
+    /**
+     * Set the code livraison.
+     *
+     * @param string $codeLivraison The code livraison.
+     */
+    public function setCodeLivraison($codeLivraison) {
+        $this->codeLivraison = $codeLivraison;
+        return $this;
+    }
+
+    /**
+     * Set the code postal.
+     *
+     * @param string $codePostal The code postal.
+     */
+    public function setCodePostal($codePostal) {
+        $this->codePostal = $codePostal;
+        return $this;
+    }
+
+    /**
+     * Set the complement.
+     *
+     * @param string $complement The complement.
+     */
+    public function setComplement($complement) {
+        $this->complement = $complement;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the nom.
+     *
+     * @param string $nom The nom.
+     */
+    public function setNom($nom) {
+        $this->nom = $nom;
+        return $this;
+    }
+
+    /**
+     * Set the nom suite.
+     *
+     * @param string $nomSuite The nom suite.
+     */
+    public function setNomSuite($nomSuite) {
+        $this->nomSuite = $nomSuite;
+        return $this;
+    }
+
+    /**
+     * Set the nom voie.
+     *
+     * @param string $nomVoie The nom voie.
+     */
+    public function setNomVoie($nomVoie) {
+        $this->nomVoie = $nomVoie;
+        return $this;
+    }
+
+    /**
+     * Set the num voie.
+     *
+     * @param string $numVoie The num voie.
+     */
+    public function setNumVoie($numVoie) {
+        $this->numVoie = $numVoie;
+        return $this;
     }
 }

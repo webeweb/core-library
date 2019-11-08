@@ -35,4 +35,43 @@ class InventaireTrameTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeTrame());
         $this->assertNull($obj->getNumeroLigne());
     }
+
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
+
+        $obj = new InventaireTrame();
+
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
+
+    /**
+     * Tests the setCodeTrame() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTrame() {
+
+        $obj = new InventaireTrame();
+
+        $obj->setCodeTrame("codeTrame");
+        $this->assertEquals("codeTrame", $obj->getCodeTrame());
+    }
+
+    /**
+     * Tests the setNumeroLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLigne() {
+
+        $obj = new InventaireTrame();
+
+        $obj->setNumeroLigne(10);
+        $this->assertEquals(10, $obj->getNumeroLigne());
+    }
 }

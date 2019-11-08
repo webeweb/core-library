@@ -11,16 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPourcentageTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQuantite1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQuantite2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAnneeRecolteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCentreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeNatureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumCompteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSensTrait;
-
 /**
  * Affectation ana3.
  *
@@ -29,20 +19,244 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSensTrait;
  */
 class AffectationAna3 {
 
-    use StringAnneeRecolteTrait;
-    use StringCodeCentreTrait;
-    use StringCodeNatureTrait;
-    use FloatMontantTrait;
-    use StringNumCompteTrait;
-    use FloatPourcentageTrait;
-    use FloatQuantite1Trait;
-    use FloatQuantite2Trait;
-    use StringSensTrait;
+    /**
+     * Annee recolte.
+     *
+     * @var string
+     */
+    private $anneeRecolte;
+
+    /**
+     * Code centre.
+     *
+     * @var string
+     */
+    private $codeCentre;
+
+    /**
+     * Code nature.
+     *
+     * @var string
+     */
+    private $codeNature;
+
+    /**
+     * Montant.
+     *
+     * @var float
+     */
+    private $montant;
+
+    /**
+     * Num compte.
+     *
+     * @var string
+     */
+    private $numCompte;
+
+    /**
+     * Pourcentage.
+     *
+     * @var float
+     */
+    private $pourcentage;
+
+    /**
+     * Quantite1.
+     *
+     * @var float
+     */
+    private $quantite1;
+
+    /**
+     * Quantite2.
+     *
+     * @var float
+     */
+    private $quantite2;
+
+    /**
+     * Sens.
+     *
+     * @var string
+     */
+    private $sens;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the annee recolte.
+     *
+     * @return string Returns the annee recolte.
+     */
+    public function getAnneeRecolte() {
+        return $this->anneeRecolte;
+    }
+
+    /**
+     * Get the code centre.
+     *
+     * @return string Returns the code centre.
+     */
+    public function getCodeCentre() {
+        return $this->codeCentre;
+    }
+
+    /**
+     * Get the code nature.
+     *
+     * @return string Returns the code nature.
+     */
+    public function getCodeNature() {
+        return $this->codeNature;
+    }
+
+    /**
+     * Get the montant.
+     *
+     * @return float Returns the montant.
+     */
+    public function getMontant() {
+        return $this->montant;
+    }
+
+    /**
+     * Get the num compte.
+     *
+     * @return string Returns the num compte.
+     */
+    public function getNumCompte() {
+        return $this->numCompte;
+    }
+
+    /**
+     * Get the pourcentage.
+     *
+     * @return float Returns the pourcentage.
+     */
+    public function getPourcentage() {
+        return $this->pourcentage;
+    }
+
+    /**
+     * Get the quantite1.
+     *
+     * @return float Returns the quantite1.
+     */
+    public function getQuantite1() {
+        return $this->quantite1;
+    }
+
+    /**
+     * Get the quantite2.
+     *
+     * @return float Returns the quantite2.
+     */
+    public function getQuantite2() {
+        return $this->quantite2;
+    }
+
+    /**
+     * Get the sens.
+     *
+     * @return string Returns the sens.
+     */
+    public function getSens() {
+        return $this->sens;
+    }
+
+    /**
+     * Set the annee recolte.
+     *
+     * @param string $anneeRecolte The annee recolte.
+     */
+    public function setAnneeRecolte($anneeRecolte) {
+        $this->anneeRecolte = $anneeRecolte;
+        return $this;
+    }
+
+    /**
+     * Set the code centre.
+     *
+     * @param string $codeCentre The code centre.
+     */
+    public function setCodeCentre($codeCentre) {
+        $this->codeCentre = $codeCentre;
+        return $this;
+    }
+
+    /**
+     * Set the code nature.
+     *
+     * @param string $codeNature The code nature.
+     */
+    public function setCodeNature($codeNature) {
+        $this->codeNature = $codeNature;
+        return $this;
+    }
+
+    /**
+     * Set the montant.
+     *
+     * @param float $montant The montant.
+     */
+    public function setMontant($montant) {
+        $this->montant = $montant;
+        return $this;
+    }
+
+    /**
+     * Set the num compte.
+     *
+     * @param string $numCompte The num compte.
+     */
+    public function setNumCompte($numCompte) {
+        $this->numCompte = $numCompte;
+        return $this;
+    }
+
+    /**
+     * Set the pourcentage.
+     *
+     * @param float $pourcentage The pourcentage.
+     */
+    public function setPourcentage($pourcentage) {
+        $this->pourcentage = $pourcentage;
+        return $this;
+    }
+
+    /**
+     * Set the quantite1.
+     *
+     * @param float $quantite1 The quantite1.
+     */
+    public function setQuantite1($quantite1) {
+        $this->quantite1 = $quantite1;
+        return $this;
+    }
+
+    /**
+     * Set the quantite2.
+     *
+     * @param float $quantite2 The quantite2.
+     */
+    public function setQuantite2($quantite2) {
+        $this->quantite2 = $quantite2;
+        return $this;
+    }
+
+    /**
+     * Set the sens.
+     *
+     * @param string $sens The sens.
+     */
+    public function setSens($sens) {
+        $this->sens = $sens;
+        return $this;
     }
 }

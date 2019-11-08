@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntGammeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEanTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringVarianteTrait;
-
 /**
  * Articles ean.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringVarianteTrait;
  */
 class ArticlesEan {
 
-    use StringCodeArticleTrait;
-    use StringEanTrait;
-    use IntGammeTrait;
-    use StringVarianteTrait;
+    /**
+     * Code article.
+     *
+     * @var string
+     */
+    private $codeArticle;
+
+    /**
+     * Ean.
+     *
+     * @var string
+     */
+    private $ean;
+
+    /**
+     * Gamme.
+     *
+     * @var int
+     */
+    private $gamme;
+
+    /**
+     * Variante.
+     *
+     * @var string
+     */
+    private $variante;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code article.
+     *
+     * @return string Returns the code article.
+     */
+    public function getCodeArticle() {
+        return $this->codeArticle;
+    }
+
+    /**
+     * Get the ean.
+     *
+     * @return string Returns the ean.
+     */
+    public function getEan() {
+        return $this->ean;
+    }
+
+    /**
+     * Get the gamme.
+     *
+     * @return int Returns the gamme.
+     */
+    public function getGamme() {
+        return $this->gamme;
+    }
+
+    /**
+     * Get the variante.
+     *
+     * @return string Returns the variante.
+     */
+    public function getVariante() {
+        return $this->variante;
+    }
+
+    /**
+     * Set the code article.
+     *
+     * @param string $codeArticle The code article.
+     */
+    public function setCodeArticle($codeArticle) {
+        $this->codeArticle = $codeArticle;
+        return $this;
+    }
+
+    /**
+     * Set the ean.
+     *
+     * @param string $ean The ean.
+     */
+    public function setEan($ean) {
+        $this->ean = $ean;
+        return $this;
+    }
+
+    /**
+     * Set the gamme.
+     *
+     * @param int $gamme The gamme.
+     */
+    public function setGamme($gamme) {
+        $this->gamme = $gamme;
+        return $this;
+    }
+
+    /**
+     * Set the variante.
+     *
+     * @param string $variante The variante.
+     */
+    public function setVariante($variante) {
+        $this->variante = $variante;
+        return $this;
     }
 }

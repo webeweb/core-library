@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumProgrammeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignationTrait;
-
 /**
  * Prog type entetes.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignationTrait;
  */
 class ProgTypeEntetes {
 
-    use StringDesignationTrait;
-    use IntNumProgrammeTrait;
+    /**
+     * Designation.
+     *
+     * @var string
+     */
+    private $designation;
+
+    /**
+     * Num programme.
+     *
+     * @var int
+     */
+    private $numProgramme;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the designation.
+     *
+     * @return string Returns the designation.
+     */
+    public function getDesignation() {
+        return $this->designation;
+    }
+
+    /**
+     * Get the num programme.
+     *
+     * @return int Returns the num programme.
+     */
+    public function getNumProgramme() {
+        return $this->numProgramme;
+    }
+
+    /**
+     * Set the designation.
+     *
+     * @param string $designation The designation.
+     */
+    public function setDesignation($designation) {
+        $this->designation = $designation;
+        return $this;
+    }
+
+    /**
+     * Set the num programme.
+     *
+     * @param int $numProgramme The num programme.
+     */
+    public function setNumProgramme($numProgramme) {
+        $this->numProgramme = $numProgramme;
+        return $this;
     }
 }

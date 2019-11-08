@@ -11,27 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolImputationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolInverseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBaseTotTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatBaseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatChargePatTotTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatChargePatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatChargeSalTotTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatChargeSalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxPatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxSalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntEtablissementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIndicePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntQuiTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntTypeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringClasseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeOrganismeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringServiceTrait;
+use DateTime;
 
 /**
  * Tmp table0.
@@ -41,32 +21,556 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringServiceTrait;
  */
 class TmpTable0 {
 
-    use FloatBaseTrait;
-    use FloatBaseTotTrait;
-    use FloatChargePatTrait;
-    use FloatChargePatTotTrait;
-    use FloatChargeSalTrait;
-    use FloatChargeSalTotTrait;
-    use StringClasseTrait;
-    use StringCodeTrait;
-    use StringCodeOrganismeTrait;
-    use IntEtablissementTrait;
-    use BoolImputationTrait;
-    use IntIndicePeriodeTrait;
-    use BoolInverseTrait;
-    use StringLibelleTrait;
-    use StringNumeroTrait;
-    use DateTimePeriodeTrait;
-    use IntQuiTrait;
-    use StringServiceTrait;
-    use FloatTauxPatTrait;
-    use FloatTauxSalTrait;
-    use IntTypeTrait;
+    /**
+     * Base.
+     *
+     * @var float
+     */
+    private $base;
+
+    /**
+     * Base tot.
+     *
+     * @var float
+     */
+    private $baseTot;
+
+    /**
+     * Charge pat.
+     *
+     * @var float
+     */
+    private $chargePat;
+
+    /**
+     * Charge pat tot.
+     *
+     * @var float
+     */
+    private $chargePatTot;
+
+    /**
+     * Charge sal.
+     *
+     * @var float
+     */
+    private $chargeSal;
+
+    /**
+     * Charge sal tot.
+     *
+     * @var float
+     */
+    private $chargeSalTot;
+
+    /**
+     * Classe.
+     *
+     * @var string
+     */
+    private $classe;
+
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Code organisme.
+     *
+     * @var string
+     */
+    private $codeOrganisme;
+
+    /**
+     * Etablissement.
+     *
+     * @var int
+     */
+    private $etablissement;
+
+    /**
+     * Imputation.
+     *
+     * @var bool
+     */
+    private $imputation;
+
+    /**
+     * Indice periode.
+     *
+     * @var int
+     */
+    private $indicePeriode;
+
+    /**
+     * Inverse.
+     *
+     * @var bool
+     */
+    private $inverse;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Numero.
+     *
+     * @var string
+     */
+    private $numero;
+
+    /**
+     * Periode.
+     *
+     * @var DateTime|null
+     */
+    private $periode;
+
+    /**
+     * Qui.
+     *
+     * @var int
+     */
+    private $qui;
+
+    /**
+     * Service.
+     *
+     * @var string
+     */
+    private $service;
+
+    /**
+     * Taux pat.
+     *
+     * @var float
+     */
+    private $tauxPat;
+
+    /**
+     * Taux sal.
+     *
+     * @var float
+     */
+    private $tauxSal;
+
+    /**
+     * Type.
+     *
+     * @var int
+     */
+    private $type;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the base.
+     *
+     * @return float Returns the base.
+     */
+    public function getBase() {
+        return $this->base;
+    }
+
+    /**
+     * Get the base tot.
+     *
+     * @return float Returns the base tot.
+     */
+    public function getBaseTot() {
+        return $this->baseTot;
+    }
+
+    /**
+     * Get the charge pat.
+     *
+     * @return float Returns the charge pat.
+     */
+    public function getChargePat() {
+        return $this->chargePat;
+    }
+
+    /**
+     * Get the charge pat tot.
+     *
+     * @return float Returns the charge pat tot.
+     */
+    public function getChargePatTot() {
+        return $this->chargePatTot;
+    }
+
+    /**
+     * Get the charge sal.
+     *
+     * @return float Returns the charge sal.
+     */
+    public function getChargeSal() {
+        return $this->chargeSal;
+    }
+
+    /**
+     * Get the charge sal tot.
+     *
+     * @return float Returns the charge sal tot.
+     */
+    public function getChargeSalTot() {
+        return $this->chargeSalTot;
+    }
+
+    /**
+     * Get the classe.
+     *
+     * @return string Returns the classe.
+     */
+    public function getClasse() {
+        return $this->classe;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the code organisme.
+     *
+     * @return string Returns the code organisme.
+     */
+    public function getCodeOrganisme() {
+        return $this->codeOrganisme;
+    }
+
+    /**
+     * Get the etablissement.
+     *
+     * @return int Returns the etablissement.
+     */
+    public function getEtablissement() {
+        return $this->etablissement;
+    }
+
+    /**
+     * Get the imputation.
+     *
+     * @return bool Returns the imputation.
+     */
+    public function getImputation() {
+        return $this->imputation;
+    }
+
+    /**
+     * Get the indice periode.
+     *
+     * @return int Returns the indice periode.
+     */
+    public function getIndicePeriode() {
+        return $this->indicePeriode;
+    }
+
+    /**
+     * Get the inverse.
+     *
+     * @return bool Returns the inverse.
+     */
+    public function getInverse() {
+        return $this->inverse;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the numero.
+     *
+     * @return string Returns the numero.
+     */
+    public function getNumero() {
+        return $this->numero;
+    }
+
+    /**
+     * Get the periode.
+     *
+     * @return DateTime|null Returns the periode.
+     */
+    public function getPeriode() {
+        return $this->periode;
+    }
+
+    /**
+     * Get the qui.
+     *
+     * @return int Returns the qui.
+     */
+    public function getQui() {
+        return $this->qui;
+    }
+
+    /**
+     * Get the service.
+     *
+     * @return string Returns the service.
+     */
+    public function getService() {
+        return $this->service;
+    }
+
+    /**
+     * Get the taux pat.
+     *
+     * @return float Returns the taux pat.
+     */
+    public function getTauxPat() {
+        return $this->tauxPat;
+    }
+
+    /**
+     * Get the taux sal.
+     *
+     * @return float Returns the taux sal.
+     */
+    public function getTauxSal() {
+        return $this->tauxSal;
+    }
+
+    /**
+     * Get the type.
+     *
+     * @return int Returns the type.
+     */
+    public function getType() {
+        return $this->type;
+    }
+
+    /**
+     * Set the base.
+     *
+     * @param float $base The base.
+     */
+    public function setBase($base) {
+        $this->base = $base;
+        return $this;
+    }
+
+    /**
+     * Set the base tot.
+     *
+     * @param float $baseTot The base tot.
+     */
+    public function setBaseTot($baseTot) {
+        $this->baseTot = $baseTot;
+        return $this;
+    }
+
+    /**
+     * Set the charge pat.
+     *
+     * @param float $chargePat The charge pat.
+     */
+    public function setChargePat($chargePat) {
+        $this->chargePat = $chargePat;
+        return $this;
+    }
+
+    /**
+     * Set the charge pat tot.
+     *
+     * @param float $chargePatTot The charge pat tot.
+     */
+    public function setChargePatTot($chargePatTot) {
+        $this->chargePatTot = $chargePatTot;
+        return $this;
+    }
+
+    /**
+     * Set the charge sal.
+     *
+     * @param float $chargeSal The charge sal.
+     */
+    public function setChargeSal($chargeSal) {
+        $this->chargeSal = $chargeSal;
+        return $this;
+    }
+
+    /**
+     * Set the charge sal tot.
+     *
+     * @param float $chargeSalTot The charge sal tot.
+     */
+    public function setChargeSalTot($chargeSalTot) {
+        $this->chargeSalTot = $chargeSalTot;
+        return $this;
+    }
+
+    /**
+     * Set the classe.
+     *
+     * @param string $classe The classe.
+     */
+    public function setClasse($classe) {
+        $this->classe = $classe;
+        return $this;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the code organisme.
+     *
+     * @param string $codeOrganisme The code organisme.
+     */
+    public function setCodeOrganisme($codeOrganisme) {
+        $this->codeOrganisme = $codeOrganisme;
+        return $this;
+    }
+
+    /**
+     * Set the etablissement.
+     *
+     * @param int $etablissement The etablissement.
+     */
+    public function setEtablissement($etablissement) {
+        $this->etablissement = $etablissement;
+        return $this;
+    }
+
+    /**
+     * Set the imputation.
+     *
+     * @param bool $imputation The imputation.
+     */
+    public function setImputation($imputation) {
+        $this->imputation = $imputation;
+        return $this;
+    }
+
+    /**
+     * Set the indice periode.
+     *
+     * @param int $indicePeriode The indice periode.
+     */
+    public function setIndicePeriode($indicePeriode) {
+        $this->indicePeriode = $indicePeriode;
+        return $this;
+    }
+
+    /**
+     * Set the inverse.
+     *
+     * @param bool $inverse The inverse.
+     */
+    public function setInverse($inverse) {
+        $this->inverse = $inverse;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the numero.
+     *
+     * @param string $numero The numero.
+     */
+    public function setNumero($numero) {
+        $this->numero = $numero;
+        return $this;
+    }
+
+    /**
+     * Set the periode.
+     *
+     * @param DateTime|null $periode The periode.
+     */
+    public function setPeriode(DateTime $periode = null) {
+        $this->periode = $periode;
+        return $this;
+    }
+
+    /**
+     * Set the qui.
+     *
+     * @param int $qui The qui.
+     */
+    public function setQui($qui) {
+        $this->qui = $qui;
+        return $this;
+    }
+
+    /**
+     * Set the service.
+     *
+     * @param string $service The service.
+     */
+    public function setService($service) {
+        $this->service = $service;
+        return $this;
+    }
+
+    /**
+     * Set the taux pat.
+     *
+     * @param float $tauxPat The taux pat.
+     */
+    public function setTauxPat($tauxPat) {
+        $this->tauxPat = $tauxPat;
+        return $this;
+    }
+
+    /**
+     * Set the taux sal.
+     *
+     * @param float $tauxSal The taux sal.
+     */
+    public function setTauxSal($tauxSal) {
+        $this->tauxSal = $tauxSal;
+        return $this;
+    }
+
+    /**
+     * Set the type.
+     *
+     * @param int $type The type.
+     */
+    public function setType($type) {
+        $this->type = $type;
+        return $this;
     }
 }

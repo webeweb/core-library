@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PlanPrevOrdonnancement;
 
@@ -41,5 +43,139 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
         $this->assertNull($obj->getDiscrTache());
         $this->assertNull($obj->getNumBt());
         $this->assertNull($obj->getNumOrdre());
+    }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
+
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
+
+    /**
+     * Tests the setDate() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDate() {
+
+        // Set a Date/time mock.
+        $date = new DateTime("2018-09-10");
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setDate($date);
+        $this->assertSame($date, $obj->getDate());
+    }
+
+    /**
+     * Tests the setDescriptif() method.
+     *
+     * @return void
+     */
+    public function testSetDescriptif() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setDescriptif("descriptif");
+        $this->assertEquals("descriptif", $obj->getDescriptif());
+    }
+
+    /**
+     * Tests the setDiscrTache() method.
+     *
+     * @return void
+     */
+    public function testSetDiscrTache() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setDiscrTache(10);
+        $this->assertEquals(10, $obj->getDiscrTache());
+    }
+
+    /**
+     * Tests the setNumBt() method.
+     *
+     * @return void
+     */
+    public function testSetNumBt() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setNumBt(10);
+        $this->assertEquals(10, $obj->getNumBt());
+    }
+
+    /**
+     * Tests the setNumOrdre() method.
+     *
+     * @return void
+     */
+    public function testSetNumOrdre() {
+
+        $obj = new PlanPrevOrdonnancement();
+
+        $obj->setNumOrdre(10);
+        $this->assertEquals(10, $obj->getNumOrdre());
     }
 }

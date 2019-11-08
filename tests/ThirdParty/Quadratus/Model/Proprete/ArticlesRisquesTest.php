@@ -34,4 +34,30 @@ class ArticlesRisquesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeArticle());
         $this->assertNull($obj->getCodeRisque());
     }
+
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
+
+        $obj = new ArticlesRisques();
+
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
+
+    /**
+     * Tests the setCodeRisque() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRisque() {
+
+        $obj = new ArticlesRisques();
+
+        $obj->setCodeRisque("codeRisque");
+        $this->assertEquals("codeRisque", $obj->getCodeRisque());
+    }
 }

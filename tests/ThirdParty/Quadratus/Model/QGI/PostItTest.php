@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\PostIt;
 
@@ -39,5 +41,117 @@ class PostItTest extends AbstractTestCase {
         $this->assertNull($obj->getRefGuid());
         $this->assertNull($obj->getType());
         $this->assertNull($obj->getUniqId());
+    }
+
+    /**
+     * Tests the setCodeCollDest() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollDest() {
+
+        $obj = new PostIt();
+
+        $obj->setCodeCollDest("codeCollDest");
+        $this->assertEquals("codeCollDest", $obj->getCodeCollDest());
+    }
+
+    /**
+     * Tests the setCodeCollOrg() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollOrg() {
+
+        $obj = new PostIt();
+
+        $obj->setCodeCollOrg("codeCollOrg");
+        $this->assertEquals("codeCollOrg", $obj->getCodeCollOrg());
+    }
+
+    /**
+     * Tests the setDateHeure() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateHeure() {
+
+        // Set a Date/time mock.
+        $dateHeure = new DateTime("2018-09-10");
+
+        $obj = new PostIt();
+
+        $obj->setDateHeure($dateHeure);
+        $this->assertSame($dateHeure, $obj->getDateHeure());
+    }
+
+    /**
+     * Tests the setDateSysSaisie() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateSysSaisie() {
+
+        // Set a Date/time mock.
+        $dateSysSaisie = new DateTime("2018-09-10");
+
+        $obj = new PostIt();
+
+        $obj->setDateSysSaisie($dateSysSaisie);
+        $this->assertSame($dateSysSaisie, $obj->getDateSysSaisie());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new PostIt();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setRefGuid() method.
+     *
+     * @return void
+     */
+    public function testSetRefGuid() {
+
+        $obj = new PostIt();
+
+        $obj->setRefGuid("refGuid");
+        $this->assertEquals("refGuid", $obj->getRefGuid());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new PostIt();
+
+        $obj->setType(10);
+        $this->assertEquals(10, $obj->getType());
+    }
+
+    /**
+     * Tests the setUniqId() method.
+     *
+     * @return void
+     */
+    public function testSetUniqId() {
+
+        $obj = new PostIt();
+
+        $obj->setUniqId("uniqId");
+        $this->assertEquals("uniqId", $obj->getUniqId());
     }
 }

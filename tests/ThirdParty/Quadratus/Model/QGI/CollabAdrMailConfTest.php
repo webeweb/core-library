@@ -35,4 +35,43 @@ class CollabAdrMailConfTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollaborateur());
         $this->assertNull($obj->getIntitule());
     }
+
+    /**
+     * Tests the setAdresseEmail() method.
+     *
+     * @return void
+     */
+    public function testSetAdresseEmail() {
+
+        $obj = new CollabAdrMailConf();
+
+        $obj->setAdresseEmail("adresseEmail");
+        $this->assertEquals("adresseEmail", $obj->getAdresseEmail());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new CollabAdrMailConf();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new CollabAdrMailConf();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 }

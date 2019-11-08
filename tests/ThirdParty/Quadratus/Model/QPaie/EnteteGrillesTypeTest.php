@@ -34,4 +34,30 @@ class EnteteGrillesTypeTest extends AbstractTestCase {
         $this->assertNull($obj->getIntitule());
         $this->assertNull($obj->getNumeroGrilleType());
     }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new EnteteGrillesType();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setNumeroGrilleType() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroGrilleType() {
+
+        $obj = new EnteteGrillesType();
+
+        $obj->setNumeroGrilleType(10);
+        $this->assertEquals(10, $obj->getNumeroGrilleType());
+    }
 }

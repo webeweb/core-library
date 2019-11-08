@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEquipeTrait;
-
 /**
  * Equipe employes.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEquipeTrait;
  */
 class EquipeEmployes {
 
-    use StringCodeEmployeTrait;
-    use StringCodeEquipeTrait;
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
+
+    /**
+     * Code equipe.
+     *
+     * @var string
+     */
+    private $codeEquipe;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
+
+    /**
+     * Get the code equipe.
+     *
+     * @return string Returns the code equipe.
+     */
+    public function getCodeEquipe() {
+        return $this->codeEquipe;
+    }
+
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the code equipe.
+     *
+     * @param string $codeEquipe The code equipe.
+     */
+    public function setCodeEquipe($codeEquipe) {
+        $this->codeEquipe = $codeEquipe;
+        return $this;
     }
 }

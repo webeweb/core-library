@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumRegroupementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeLibelleTrait;
-
 /**
  * Regroupement libelles.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeLibelleTrait;
  */
 class RegroupementLibelles {
 
-    use StringCodeLibelleTrait;
-    use IntNumRegroupementTrait;
+    /**
+     * Code libelle.
+     *
+     * @var string
+     */
+    private $codeLibelle;
+
+    /**
+     * Num regroupement.
+     *
+     * @var int
+     */
+    private $numRegroupement;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code libelle.
+     *
+     * @return string Returns the code libelle.
+     */
+    public function getCodeLibelle() {
+        return $this->codeLibelle;
+    }
+
+    /**
+     * Get the num regroupement.
+     *
+     * @return int Returns the num regroupement.
+     */
+    public function getNumRegroupement() {
+        return $this->numRegroupement;
+    }
+
+    /**
+     * Set the code libelle.
+     *
+     * @param string $codeLibelle The code libelle.
+     */
+    public function setCodeLibelle($codeLibelle) {
+        $this->codeLibelle = $codeLibelle;
+        return $this;
+    }
+
+    /**
+     * Set the num regroupement.
+     *
+     * @param int $numRegroupement The num regroupement.
+     */
+    public function setNumRegroupement($numRegroupement) {
+        $this->numRegroupement = $numRegroupement;
+        return $this;
     }
 }

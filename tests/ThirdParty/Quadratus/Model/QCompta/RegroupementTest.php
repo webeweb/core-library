@@ -34,4 +34,30 @@ class RegroupementTest extends AbstractTestCase {
         $this->assertNull($obj->getClasse());
         $this->assertNull($obj->getIntitule());
     }
+
+    /**
+     * Tests the setClasse() method.
+     *
+     * @return void
+     */
+    public function testSetClasse() {
+
+        $obj = new Regroupement();
+
+        $obj->setClasse("classe");
+        $this->assertEquals("classe", $obj->getClasse());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new Regroupement();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 }

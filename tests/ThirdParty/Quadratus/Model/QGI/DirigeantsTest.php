@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Dirigeants;
 
@@ -38,5 +40,100 @@ class DirigeantsTest extends AbstractTestCase {
         $this->assertNull($obj->getDuree());
         $this->assertNull($obj->getId());
         $this->assertNull($obj->getObservations());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new Dirigeants();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodeDirigeant() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDirigeant() {
+
+        $obj = new Dirigeants();
+
+        $obj->setCodeDirigeant("codeDirigeant");
+        $this->assertEquals("codeDirigeant", $obj->getCodeDirigeant());
+    }
+
+    /**
+     * Tests the setCodeFonction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeFonction() {
+
+        $obj = new Dirigeants();
+
+        $obj->setCodeFonction("codeFonction");
+        $this->assertEquals("codeFonction", $obj->getCodeFonction());
+    }
+
+    /**
+     * Tests the setDateNomination() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateNomination() {
+
+        // Set a Date/time mock.
+        $dateNomination = new DateTime("2018-09-10");
+
+        $obj = new Dirigeants();
+
+        $obj->setDateNomination($dateNomination);
+        $this->assertSame($dateNomination, $obj->getDateNomination());
+    }
+
+    /**
+     * Tests the setDuree() method.
+     *
+     * @return void
+     */
+    public function testSetDuree() {
+
+        $obj = new Dirigeants();
+
+        $obj->setDuree(10);
+        $this->assertEquals(10, $obj->getDuree());
+    }
+
+    /**
+     * Tests the setId() method.
+     *
+     * @return void
+     */
+    public function testSetId() {
+
+        $obj = new Dirigeants();
+
+        $obj->setId(10);
+        $this->assertEquals(10, $obj->getId());
+    }
+
+    /**
+     * Tests the setObservations() method.
+     *
+     * @return void
+     */
+    public function testSetObservations() {
+
+        $obj = new Dirigeants();
+
+        $obj->setObservations("observations");
+        $this->assertEquals("observations", $obj->getObservations());
     }
 }

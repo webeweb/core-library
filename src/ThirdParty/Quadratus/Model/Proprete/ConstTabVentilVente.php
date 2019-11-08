@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeVentilArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeVentilClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCompteVentilTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-
 /**
  * Const tab ventil vente.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
  */
 class ConstTabVentilVente {
 
-    use StringCodeVentilArticleTrait;
-    use StringCodeVentilClientTrait;
-    use StringCompteVentilTrait;
-    use StringLibelleTrait;
+    /**
+     * Code ventil article.
+     *
+     * @var string
+     */
+    private $codeVentilArticle;
+
+    /**
+     * Code ventil client.
+     *
+     * @var string
+     */
+    private $codeVentilClient;
+
+    /**
+     * Compte ventil.
+     *
+     * @var string
+     */
+    private $compteVentil;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code ventil article.
+     *
+     * @return string Returns the code ventil article.
+     */
+    public function getCodeVentilArticle() {
+        return $this->codeVentilArticle;
+    }
+
+    /**
+     * Get the code ventil client.
+     *
+     * @return string Returns the code ventil client.
+     */
+    public function getCodeVentilClient() {
+        return $this->codeVentilClient;
+    }
+
+    /**
+     * Get the compte ventil.
+     *
+     * @return string Returns the compte ventil.
+     */
+    public function getCompteVentil() {
+        return $this->compteVentil;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Set the code ventil article.
+     *
+     * @param string $codeVentilArticle The code ventil article.
+     */
+    public function setCodeVentilArticle($codeVentilArticle) {
+        $this->codeVentilArticle = $codeVentilArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code ventil client.
+     *
+     * @param string $codeVentilClient The code ventil client.
+     */
+    public function setCodeVentilClient($codeVentilClient) {
+        $this->codeVentilClient = $codeVentilClient;
+        return $this;
+    }
+
+    /**
+     * Set the compte ventil.
+     *
+     * @param string $compteVentil The compte ventil.
+     */
+    public function setCompteVentil($compteVentil) {
+        $this->compteVentil = $compteVentil;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
     }
 }

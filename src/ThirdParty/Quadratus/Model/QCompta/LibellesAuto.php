@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolSuiviDateEcheanceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-
 /**
  * Libelles auto.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
  */
 class LibellesAuto {
 
-    use StringCodeTrait;
-    use StringLibelleTrait;
-    use BoolSuiviDateEcheanceTrait;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Suivi date echeance.
+     *
+     * @var bool
+     */
+    private $suiviDateEcheance;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the suivi date echeance.
+     *
+     * @return bool Returns the suivi date echeance.
+     */
+    public function getSuiviDateEcheance() {
+        return $this->suiviDateEcheance;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the suivi date echeance.
+     *
+     * @param bool $suiviDateEcheance The suivi date echeance.
+     */
+    public function setSuiviDateEcheance($suiviDateEcheance) {
+        $this->suiviDateEcheance = $suiviDateEcheance;
+        return $this;
     }
 }

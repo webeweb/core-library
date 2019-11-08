@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeActionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMsgClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMsgRepresentantTrait;
-
 /**
  * Envoi sms fact.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMsgRepresentantTrait;
  */
 class EnvoiSmsFact {
 
-    use StringCodeActionTrait;
-    use StringCodeCollaborateurTrait;
-    use StringMsgClientTrait;
-    use StringMsgRepresentantTrait;
+    /**
+     * Code action.
+     *
+     * @var string
+     */
+    private $codeAction;
+
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Msg client.
+     *
+     * @var string
+     */
+    private $msgClient;
+
+    /**
+     * Msg representant.
+     *
+     * @var string
+     */
+    private $msgRepresentant;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code action.
+     *
+     * @return string Returns the code action.
+     */
+    public function getCodeAction() {
+        return $this->codeAction;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the msg client.
+     *
+     * @return string Returns the msg client.
+     */
+    public function getMsgClient() {
+        return $this->msgClient;
+    }
+
+    /**
+     * Get the msg representant.
+     *
+     * @return string Returns the msg representant.
+     */
+    public function getMsgRepresentant() {
+        return $this->msgRepresentant;
+    }
+
+    /**
+     * Set the code action.
+     *
+     * @param string $codeAction The code action.
+     */
+    public function setCodeAction($codeAction) {
+        $this->codeAction = $codeAction;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the msg client.
+     *
+     * @param string $msgClient The msg client.
+     */
+    public function setMsgClient($msgClient) {
+        $this->msgClient = $msgClient;
+        return $this;
+    }
+
+    /**
+     * Set the msg representant.
+     *
+     * @param string $msgRepresentant The msg representant.
+     */
+    public function setMsgRepresentant($msgRepresentant) {
+        $this->msgRepresentant = $msgRepresentant;
+        return $this;
     }
 }

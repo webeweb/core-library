@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroGrilleTypeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
-
 /**
  * Entete grilles type.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
  */
 class EnteteGrillesType {
 
-    use StringIntituleTrait;
-    use IntNumeroGrilleTypeTrait;
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
+
+    /**
+     * Numero grille type.
+     *
+     * @var int
+     */
+    private $numeroGrilleType;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
+
+    /**
+     * Get the numero grille type.
+     *
+     * @return int Returns the numero grille type.
+     */
+    public function getNumeroGrilleType() {
+        return $this->numeroGrilleType;
+    }
+
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
+
+    /**
+     * Set the numero grille type.
+     *
+     * @param int $numeroGrilleType The numero grille type.
+     */
+    public function setNumeroGrilleType($numeroGrilleType) {
+        $this->numeroGrilleType = $numeroGrilleType;
+        return $this;
     }
 }

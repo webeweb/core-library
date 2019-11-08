@@ -11,8 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDossTrait;
-
 /**
  * e ws espace.
  *
@@ -21,12 +19,36 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDossTrait;
  */
 class eWsEspace {
 
-    use StringNumDossTrait;
+    /**
+     * Num doss.
+     *
+     * @var string
+     */
+    private $numDoss;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the num doss.
+     *
+     * @return string Returns the num doss.
+     */
+    public function getNumDoss() {
+        return $this->numDoss;
+    }
+
+    /**
+     * Set the num doss.
+     *
+     * @param string $numDoss The num doss.
+     */
+    public function setNumDoss($numDoss) {
+        $this->numDoss = $numDoss;
+        return $this;
     }
 }

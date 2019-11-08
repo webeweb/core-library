@@ -33,4 +33,17 @@ class eWsEspaceTest extends AbstractTestCase {
 
         $this->assertNull($obj->getNumDoss());
     }
+
+    /**
+     * Tests the setNumDoss() method.
+     *
+     * @return void
+     */
+    public function testSetNumDoss() {
+
+        $obj = new eWsEspace();
+
+        $obj->setNumDoss("numDoss");
+        $this->assertEquals("numDoss", $obj->getNumDoss());
+    }
 }

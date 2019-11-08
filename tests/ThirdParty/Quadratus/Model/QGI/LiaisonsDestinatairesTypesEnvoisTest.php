@@ -34,4 +34,30 @@ class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeDestinataire());
         $this->assertNull($obj->getCodeTypeEnvoi());
     }
+
+    /**
+     * Tests the setCodeDestinataire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDestinataire() {
+
+        $obj = new LiaisonsDestinatairesTypesEnvois();
+
+        $obj->setCodeDestinataire("codeDestinataire");
+        $this->assertEquals("codeDestinataire", $obj->getCodeDestinataire());
+    }
+
+    /**
+     * Tests the setCodeTypeEnvoi() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTypeEnvoi() {
+
+        $obj = new LiaisonsDestinatairesTypesEnvois();
+
+        $obj->setCodeTypeEnvoi("codeTypeEnvoi");
+        $this->assertEquals("codeTypeEnvoi", $obj->getCodeTypeEnvoi());
+    }
 }

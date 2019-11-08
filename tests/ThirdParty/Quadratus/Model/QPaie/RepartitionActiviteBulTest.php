@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RepartitionActiviteBul;
 
@@ -36,5 +38,74 @@ class RepartitionActiviteBulTest extends AbstractTestCase {
         $this->assertNull($obj->getNumeroEmploye());
         $this->assertNull($obj->getPeriode());
         $this->assertNull($obj->getTauxVentilation());
+    }
+
+    /**
+     * Tests the setCodeService() method.
+     *
+     * @return void
+     */
+    public function testSetCodeService() {
+
+        $obj = new RepartitionActiviteBul();
+
+        $obj->setCodeService("codeService");
+        $this->assertEquals("codeService", $obj->getCodeService());
+    }
+
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
+
+        $obj = new RepartitionActiviteBul();
+
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new RepartitionActiviteBul();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new RepartitionActiviteBul();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the setTauxVentilation() method.
+     *
+     * @return void
+     */
+    public function testSetTauxVentilation() {
+
+        $obj = new RepartitionActiviteBul();
+
+        $obj->setTauxVentilation(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxVentilation());
     }
 }

@@ -11,17 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCreatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateDebutTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFinTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateModifTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeReguleTraiteeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIdRecapTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroOrdreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollabTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIndiceBulTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
+use DateTime;
 
 /**
  * Emp recap penibilite.
@@ -31,22 +21,296 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
  */
 class EmpRecapPenibilite {
 
-    use StringCodeCollabTrait;
-    use DateTimeDateCreatTrait;
-    use DateTimeDateDebutTrait;
-    use DateTimeDateFinTrait;
-    use DateTimeDateModifTrait;
-    use StringEtatTrait;
-    use IntIdRecapTrait;
-    use StringIndiceBulTrait;
-    use StringNumeroEmployeTrait;
-    use IntNumeroOrdreTrait;
-    use DateTimeReguleTraiteeTrait;
+    /**
+     * Code collab.
+     *
+     * @var string
+     */
+    private $codeCollab;
+
+    /**
+     * Date creat.
+     *
+     * @var DateTime|null
+     */
+    private $dateCreat;
+
+    /**
+     * Date debut.
+     *
+     * @var DateTime|null
+     */
+    private $dateDebut;
+
+    /**
+     * Date fin.
+     *
+     * @var DateTime|null
+     */
+    private $dateFin;
+
+    /**
+     * Date modif.
+     *
+     * @var DateTime|null
+     */
+    private $dateModif;
+
+    /**
+     * Etat.
+     *
+     * @var string
+     */
+    private $etat;
+
+    /**
+     * Id recap.
+     *
+     * @var int
+     */
+    private $idRecap;
+
+    /**
+     * Indice bul.
+     *
+     * @var string
+     */
+    private $indiceBul;
+
+    /**
+     * Numero employe.
+     *
+     * @var string
+     */
+    private $numeroEmploye;
+
+    /**
+     * Numero ordre.
+     *
+     * @var int
+     */
+    private $numeroOrdre;
+
+    /**
+     * Regule traitee.
+     *
+     * @var DateTime|null
+     */
+    private $reguleTraitee;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code collab.
+     *
+     * @return string Returns the code collab.
+     */
+    public function getCodeCollab() {
+        return $this->codeCollab;
+    }
+
+    /**
+     * Get the date creat.
+     *
+     * @return DateTime|null Returns the date creat.
+     */
+    public function getDateCreat() {
+        return $this->dateCreat;
+    }
+
+    /**
+     * Get the date debut.
+     *
+     * @return DateTime|null Returns the date debut.
+     */
+    public function getDateDebut() {
+        return $this->dateDebut;
+    }
+
+    /**
+     * Get the date fin.
+     *
+     * @return DateTime|null Returns the date fin.
+     */
+    public function getDateFin() {
+        return $this->dateFin;
+    }
+
+    /**
+     * Get the date modif.
+     *
+     * @return DateTime|null Returns the date modif.
+     */
+    public function getDateModif() {
+        return $this->dateModif;
+    }
+
+    /**
+     * Get the etat.
+     *
+     * @return string Returns the etat.
+     */
+    public function getEtat() {
+        return $this->etat;
+    }
+
+    /**
+     * Get the id recap.
+     *
+     * @return int Returns the id recap.
+     */
+    public function getIdRecap() {
+        return $this->idRecap;
+    }
+
+    /**
+     * Get the indice bul.
+     *
+     * @return string Returns the indice bul.
+     */
+    public function getIndiceBul() {
+        return $this->indiceBul;
+    }
+
+    /**
+     * Get the numero employe.
+     *
+     * @return string Returns the numero employe.
+     */
+    public function getNumeroEmploye() {
+        return $this->numeroEmploye;
+    }
+
+    /**
+     * Get the numero ordre.
+     *
+     * @return int Returns the numero ordre.
+     */
+    public function getNumeroOrdre() {
+        return $this->numeroOrdre;
+    }
+
+    /**
+     * Get the regule traitee.
+     *
+     * @return DateTime|null Returns the regule traitee.
+     */
+    public function getReguleTraitee() {
+        return $this->reguleTraitee;
+    }
+
+    /**
+     * Set the code collab.
+     *
+     * @param string $codeCollab The code collab.
+     */
+    public function setCodeCollab($codeCollab) {
+        $this->codeCollab = $codeCollab;
+        return $this;
+    }
+
+    /**
+     * Set the date creat.
+     *
+     * @param DateTime|null $dateCreat The date creat.
+     */
+    public function setDateCreat(DateTime $dateCreat = null) {
+        $this->dateCreat = $dateCreat;
+        return $this;
+    }
+
+    /**
+     * Set the date debut.
+     *
+     * @param DateTime|null $dateDebut The date debut.
+     */
+    public function setDateDebut(DateTime $dateDebut = null) {
+        $this->dateDebut = $dateDebut;
+        return $this;
+    }
+
+    /**
+     * Set the date fin.
+     *
+     * @param DateTime|null $dateFin The date fin.
+     */
+    public function setDateFin(DateTime $dateFin = null) {
+        $this->dateFin = $dateFin;
+        return $this;
+    }
+
+    /**
+     * Set the date modif.
+     *
+     * @param DateTime|null $dateModif The date modif.
+     */
+    public function setDateModif(DateTime $dateModif = null) {
+        $this->dateModif = $dateModif;
+        return $this;
+    }
+
+    /**
+     * Set the etat.
+     *
+     * @param string $etat The etat.
+     */
+    public function setEtat($etat) {
+        $this->etat = $etat;
+        return $this;
+    }
+
+    /**
+     * Set the id recap.
+     *
+     * @param int $idRecap The id recap.
+     */
+    public function setIdRecap($idRecap) {
+        $this->idRecap = $idRecap;
+        return $this;
+    }
+
+    /**
+     * Set the indice bul.
+     *
+     * @param string $indiceBul The indice bul.
+     */
+    public function setIndiceBul($indiceBul) {
+        $this->indiceBul = $indiceBul;
+        return $this;
+    }
+
+    /**
+     * Set the numero employe.
+     *
+     * @param string $numeroEmploye The numero employe.
+     */
+    public function setNumeroEmploye($numeroEmploye) {
+        $this->numeroEmploye = $numeroEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the numero ordre.
+     *
+     * @param int $numeroOrdre The numero ordre.
+     */
+    public function setNumeroOrdre($numeroOrdre) {
+        $this->numeroOrdre = $numeroOrdre;
+        return $this;
+    }
+
+    /**
+     * Set the regule traitee.
+     *
+     * @param DateTime|null $reguleTraitee The regule traitee.
+     */
+    public function setReguleTraitee(DateTime $reguleTraitee = null) {
+        $this->reguleTraitee = $reguleTraitee;
+        return $this;
     }
 }

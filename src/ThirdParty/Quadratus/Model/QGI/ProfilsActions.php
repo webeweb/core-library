@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeProfilTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
-
 /**
  * Profils actions.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
  */
 class ProfilsActions {
 
-    use StringCodeProfilTrait;
-    use StringIntituleTrait;
+    /**
+     * Code profil.
+     *
+     * @var string
+     */
+    private $codeProfil;
+
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code profil.
+     *
+     * @return string Returns the code profil.
+     */
+    public function getCodeProfil() {
+        return $this->codeProfil;
+    }
+
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
+
+    /**
+     * Set the code profil.
+     *
+     * @param string $codeProfil The code profil.
+     */
+    public function setCodeProfil($codeProfil) {
+        $this->codeProfil = $codeProfil;
+        return $this;
+    }
+
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
     }
 }

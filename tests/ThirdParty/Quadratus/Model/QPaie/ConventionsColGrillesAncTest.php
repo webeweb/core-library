@@ -36,4 +36,56 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
         $this->assertNull($obj->getIntitule());
         $this->assertNull($obj->getTypeGrille());
     }
+
+    /**
+     * Tests the setCodeConvention() method.
+     *
+     * @return void
+     */
+    public function testSetCodeConvention() {
+
+        $obj = new ConventionsColGrillesAnc();
+
+        $obj->setCodeConvention("codeConvention");
+        $this->assertEquals("codeConvention", $obj->getCodeConvention());
+    }
+
+    /**
+     * Tests the setCodeGrille() method.
+     *
+     * @return void
+     */
+    public function testSetCodeGrille() {
+
+        $obj = new ConventionsColGrillesAnc();
+
+        $obj->setCodeGrille("codeGrille");
+        $this->assertEquals("codeGrille", $obj->getCodeGrille());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new ConventionsColGrillesAnc();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setTypeGrille() method.
+     *
+     * @return void
+     */
+    public function testSetTypeGrille() {
+
+        $obj = new ConventionsColGrillesAnc();
+
+        $obj->setTypeGrille(10);
+        $this->assertEquals(10, $obj->getTypeGrille());
+    }
 }

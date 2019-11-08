@@ -11,22 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateEntreeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateSortieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDetentionDirecteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDetentionIndirecteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumUniqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringBtqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePostalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComplementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCptFilialeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringFormeJuridiqueTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibDossTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNoDossTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomVoieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumVoieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSirenTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringVilleTrait;
+use DateTime;
 
 /**
  * Dec tva filiales.
@@ -36,27 +21,426 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringVilleTrait;
  */
 class DecTvaFiliales {
 
-    use StringBtqTrait;
-    use StringCodePostalTrait;
-    use StringComplementTrait;
-    use StringCptFilialeTrait;
-    use DateTimeDateEntreeTrait;
-    use DateTimeDateSortieTrait;
-    use FloatDetentionDirecteTrait;
-    use FloatDetentionIndirecteTrait;
-    use StringFormeJuridiqueTrait;
-    use StringLibDossTrait;
-    use StringNoDossTrait;
-    use StringNomVoieTrait;
-    use IntNumUniqTrait;
-    use StringNumVoieTrait;
-    use StringSirenTrait;
-    use StringVilleTrait;
+    /**
+     * Btq.
+     *
+     * @var string
+     */
+    private $btq;
+
+    /**
+     * Code postal.
+     *
+     * @var string
+     */
+    private $codePostal;
+
+    /**
+     * Complement.
+     *
+     * @var string
+     */
+    private $complement;
+
+    /**
+     * Cpt filiale.
+     *
+     * @var string
+     */
+    private $cptFiliale;
+
+    /**
+     * Date entree.
+     *
+     * @var DateTime|null
+     */
+    private $dateEntree;
+
+    /**
+     * Date sortie.
+     *
+     * @var DateTime|null
+     */
+    private $dateSortie;
+
+    /**
+     * Detention directe.
+     *
+     * @var float
+     */
+    private $detentionDirecte;
+
+    /**
+     * Detention indirecte.
+     *
+     * @var float
+     */
+    private $detentionIndirecte;
+
+    /**
+     * Forme juridique.
+     *
+     * @var string
+     */
+    private $formeJuridique;
+
+    /**
+     * Lib doss.
+     *
+     * @var string
+     */
+    private $libDoss;
+
+    /**
+     * No doss.
+     *
+     * @var string
+     */
+    private $noDoss;
+
+    /**
+     * Nom voie.
+     *
+     * @var string
+     */
+    private $nomVoie;
+
+    /**
+     * Num uniq.
+     *
+     * @var int
+     */
+    private $numUniq;
+
+    /**
+     * Num voie.
+     *
+     * @var string
+     */
+    private $numVoie;
+
+    /**
+     * Siren.
+     *
+     * @var string
+     */
+    private $siren;
+
+    /**
+     * Ville.
+     *
+     * @var string
+     */
+    private $ville;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the btq.
+     *
+     * @return string Returns the btq.
+     */
+    public function getBtq() {
+        return $this->btq;
+    }
+
+    /**
+     * Get the code postal.
+     *
+     * @return string Returns the code postal.
+     */
+    public function getCodePostal() {
+        return $this->codePostal;
+    }
+
+    /**
+     * Get the complement.
+     *
+     * @return string Returns the complement.
+     */
+    public function getComplement() {
+        return $this->complement;
+    }
+
+    /**
+     * Get the cpt filiale.
+     *
+     * @return string Returns the cpt filiale.
+     */
+    public function getCptFiliale() {
+        return $this->cptFiliale;
+    }
+
+    /**
+     * Get the date entree.
+     *
+     * @return DateTime|null Returns the date entree.
+     */
+    public function getDateEntree() {
+        return $this->dateEntree;
+    }
+
+    /**
+     * Get the date sortie.
+     *
+     * @return DateTime|null Returns the date sortie.
+     */
+    public function getDateSortie() {
+        return $this->dateSortie;
+    }
+
+    /**
+     * Get the detention directe.
+     *
+     * @return float Returns the detention directe.
+     */
+    public function getDetentionDirecte() {
+        return $this->detentionDirecte;
+    }
+
+    /**
+     * Get the detention indirecte.
+     *
+     * @return float Returns the detention indirecte.
+     */
+    public function getDetentionIndirecte() {
+        return $this->detentionIndirecte;
+    }
+
+    /**
+     * Get the forme juridique.
+     *
+     * @return string Returns the forme juridique.
+     */
+    public function getFormeJuridique() {
+        return $this->formeJuridique;
+    }
+
+    /**
+     * Get the lib doss.
+     *
+     * @return string Returns the lib doss.
+     */
+    public function getLibDoss() {
+        return $this->libDoss;
+    }
+
+    /**
+     * Get the no doss.
+     *
+     * @return string Returns the no doss.
+     */
+    public function getNoDoss() {
+        return $this->noDoss;
+    }
+
+    /**
+     * Get the nom voie.
+     *
+     * @return string Returns the nom voie.
+     */
+    public function getNomVoie() {
+        return $this->nomVoie;
+    }
+
+    /**
+     * Get the num uniq.
+     *
+     * @return int Returns the num uniq.
+     */
+    public function getNumUniq() {
+        return $this->numUniq;
+    }
+
+    /**
+     * Get the num voie.
+     *
+     * @return string Returns the num voie.
+     */
+    public function getNumVoie() {
+        return $this->numVoie;
+    }
+
+    /**
+     * Get the siren.
+     *
+     * @return string Returns the siren.
+     */
+    public function getSiren() {
+        return $this->siren;
+    }
+
+    /**
+     * Get the ville.
+     *
+     * @return string Returns the ville.
+     */
+    public function getVille() {
+        return $this->ville;
+    }
+
+    /**
+     * Set the btq.
+     *
+     * @param string $btq The btq.
+     */
+    public function setBtq($btq) {
+        $this->btq = $btq;
+        return $this;
+    }
+
+    /**
+     * Set the code postal.
+     *
+     * @param string $codePostal The code postal.
+     */
+    public function setCodePostal($codePostal) {
+        $this->codePostal = $codePostal;
+        return $this;
+    }
+
+    /**
+     * Set the complement.
+     *
+     * @param string $complement The complement.
+     */
+    public function setComplement($complement) {
+        $this->complement = $complement;
+        return $this;
+    }
+
+    /**
+     * Set the cpt filiale.
+     *
+     * @param string $cptFiliale The cpt filiale.
+     */
+    public function setCptFiliale($cptFiliale) {
+        $this->cptFiliale = $cptFiliale;
+        return $this;
+    }
+
+    /**
+     * Set the date entree.
+     *
+     * @param DateTime|null $dateEntree The date entree.
+     */
+    public function setDateEntree(DateTime $dateEntree = null) {
+        $this->dateEntree = $dateEntree;
+        return $this;
+    }
+
+    /**
+     * Set the date sortie.
+     *
+     * @param DateTime|null $dateSortie The date sortie.
+     */
+    public function setDateSortie(DateTime $dateSortie = null) {
+        $this->dateSortie = $dateSortie;
+        return $this;
+    }
+
+    /**
+     * Set the detention directe.
+     *
+     * @param float $detentionDirecte The detention directe.
+     */
+    public function setDetentionDirecte($detentionDirecte) {
+        $this->detentionDirecte = $detentionDirecte;
+        return $this;
+    }
+
+    /**
+     * Set the detention indirecte.
+     *
+     * @param float $detentionIndirecte The detention indirecte.
+     */
+    public function setDetentionIndirecte($detentionIndirecte) {
+        $this->detentionIndirecte = $detentionIndirecte;
+        return $this;
+    }
+
+    /**
+     * Set the forme juridique.
+     *
+     * @param string $formeJuridique The forme juridique.
+     */
+    public function setFormeJuridique($formeJuridique) {
+        $this->formeJuridique = $formeJuridique;
+        return $this;
+    }
+
+    /**
+     * Set the lib doss.
+     *
+     * @param string $libDoss The lib doss.
+     */
+    public function setLibDoss($libDoss) {
+        $this->libDoss = $libDoss;
+        return $this;
+    }
+
+    /**
+     * Set the no doss.
+     *
+     * @param string $noDoss The no doss.
+     */
+    public function setNoDoss($noDoss) {
+        $this->noDoss = $noDoss;
+        return $this;
+    }
+
+    /**
+     * Set the nom voie.
+     *
+     * @param string $nomVoie The nom voie.
+     */
+    public function setNomVoie($nomVoie) {
+        $this->nomVoie = $nomVoie;
+        return $this;
+    }
+
+    /**
+     * Set the num uniq.
+     *
+     * @param int $numUniq The num uniq.
+     */
+    public function setNumUniq($numUniq) {
+        $this->numUniq = $numUniq;
+        return $this;
+    }
+
+    /**
+     * Set the num voie.
+     *
+     * @param string $numVoie The num voie.
+     */
+    public function setNumVoie($numVoie) {
+        $this->numVoie = $numVoie;
+        return $this;
+    }
+
+    /**
+     * Set the siren.
+     *
+     * @param string $siren The siren.
+     */
+    public function setSiren($siren) {
+        $this->siren = $siren;
+        return $this;
+    }
+
+    /**
+     * Set the ville.
+     *
+     * @param string $ville The ville.
+     */
+    public function setVille($ville) {
+        $this->ville = $ville;
+        return $this;
     }
 }

@@ -37,4 +37,69 @@ class LibellesTest extends AbstractTestCase {
         $this->assertNull($obj->getType());
         $this->assertNull($obj->getTypeMontant());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new Libelles();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new Libelles();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
+
+        $obj = new Libelles();
+
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new Libelles();
+
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the setTypeMontant() method.
+     *
+     * @return void
+     */
+    public function testSetTypeMontant() {
+
+        $obj = new Libelles();
+
+        $obj->setTypeMontant("typeMontant");
+        $this->assertEquals("typeMontant", $obj->getTypeMontant());
+    }
 }

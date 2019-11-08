@@ -34,4 +34,30 @@ class ContenuTest extends AbstractTestCase {
         $this->assertNull($obj->getPosition());
         $this->assertNull($obj->getTexteContenu());
     }
+
+    /**
+     * Tests the setPosition() method.
+     *
+     * @return void
+     */
+    public function testSetPosition() {
+
+        $obj = new Contenu();
+
+        $obj->setPosition(10);
+        $this->assertEquals(10, $obj->getPosition());
+    }
+
+    /**
+     * Tests the setTexteContenu() method.
+     *
+     * @return void
+     */
+    public function testSetTexteContenu() {
+
+        $obj = new Contenu();
+
+        $obj->setTexteContenu("texteContenu");
+        $this->assertEquals("texteContenu", $obj->getTexteContenu());
+    }
 }

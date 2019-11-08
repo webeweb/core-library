@@ -11,33 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolIsMontantHtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolTypeFormationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolYaFeuillePresenceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateDebTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFinTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDureeDblTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantChequeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDureeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIndiceAffTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNbSeancesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeActionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeManifTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringContactTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleMemoTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuBtqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuBureauDistributeurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuCodePostalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuComplementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuEmailTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuFaxTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuNomTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuNomVoieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuNumVoieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuPjTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLieuTelTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomFormateurTrait;
+use DateTime;
 
 /**
  * Actions co manif.
@@ -47,38 +21,712 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomFormateurTrait;
  */
 class ActionsCoManif {
 
-    use StringCodeActionTrait;
-    use StringCodeManifTrait;
-    use StringContactTrait;
-    use DateTimeDateDebTrait;
-    use DateTimeDateFinTrait;
-    use IntDureeTrait;
-    use FloatDureeDblTrait;
-    use IntIndiceAffTrait;
-    use BoolIsMontantHtTrait;
-    use StringLibelleTrait;
-    use StringLibelleMemoTrait;
-    use StringLieuBtqTrait;
-    use StringLieuBureauDistributeurTrait;
-    use StringLieuCodePostalTrait;
-    use StringLieuComplementTrait;
-    use StringLieuEmailTrait;
-    use StringLieuFaxTrait;
-    use StringLieuNomTrait;
-    use StringLieuNomVoieTrait;
-    use StringLieuNumVoieTrait;
-    use StringLieuPjTrait;
-    use StringLieuTelTrait;
-    use FloatMontantChequeTrait;
-    use IntNbSeancesTrait;
-    use StringNomFormateurTrait;
-    use BoolTypeFormationTrait;
-    use BoolYaFeuillePresenceTrait;
+    /**
+     * Code action.
+     *
+     * @var string
+     */
+    private $codeAction;
+
+    /**
+     * Code manif.
+     *
+     * @var string
+     */
+    private $codeManif;
+
+    /**
+     * Contact.
+     *
+     * @var string
+     */
+    private $contact;
+
+    /**
+     * Date deb.
+     *
+     * @var DateTime|null
+     */
+    private $dateDeb;
+
+    /**
+     * Date fin.
+     *
+     * @var DateTime|null
+     */
+    private $dateFin;
+
+    /**
+     * Duree.
+     *
+     * @var int
+     */
+    private $duree;
+
+    /**
+     * Duree dbl.
+     *
+     * @var float
+     */
+    private $dureeDbl;
+
+    /**
+     * Indice aff.
+     *
+     * @var int
+     */
+    private $indiceAff;
+
+    /**
+     * Is montant ht.
+     *
+     * @var bool
+     */
+    private $isMontantHt;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Libelle memo.
+     *
+     * @var string
+     */
+    private $libelleMemo;
+
+    /**
+     * Lieu btq.
+     *
+     * @var string
+     */
+    private $lieuBtq;
+
+    /**
+     * Lieu bureau distributeur.
+     *
+     * @var string
+     */
+    private $lieuBureauDistributeur;
+
+    /**
+     * Lieu code postal.
+     *
+     * @var string
+     */
+    private $lieuCodePostal;
+
+    /**
+     * Lieu complement.
+     *
+     * @var string
+     */
+    private $lieuComplement;
+
+    /**
+     * Lieu email.
+     *
+     * @var string
+     */
+    private $lieuEmail;
+
+    /**
+     * Lieu fax.
+     *
+     * @var string
+     */
+    private $lieuFax;
+
+    /**
+     * Lieu nom.
+     *
+     * @var string
+     */
+    private $lieuNom;
+
+    /**
+     * Lieu nom voie.
+     *
+     * @var string
+     */
+    private $lieuNomVoie;
+
+    /**
+     * Lieu num voie.
+     *
+     * @var string
+     */
+    private $lieuNumVoie;
+
+    /**
+     * Lieu pj.
+     *
+     * @var string
+     */
+    private $lieuPj;
+
+    /**
+     * Lieu tel.
+     *
+     * @var string
+     */
+    private $lieuTel;
+
+    /**
+     * Montant cheque.
+     *
+     * @var float
+     */
+    private $montantCheque;
+
+    /**
+     * Nb seances.
+     *
+     * @var int
+     */
+    private $nbSeances;
+
+    /**
+     * Nom formateur.
+     *
+     * @var string
+     */
+    private $nomFormateur;
+
+    /**
+     * Type formation.
+     *
+     * @var bool
+     */
+    private $typeFormation;
+
+    /**
+     * Ya feuille presence.
+     *
+     * @var bool
+     */
+    private $yaFeuillePresence;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code action.
+     *
+     * @return string Returns the code action.
+     */
+    public function getCodeAction() {
+        return $this->codeAction;
+    }
+
+    /**
+     * Get the code manif.
+     *
+     * @return string Returns the code manif.
+     */
+    public function getCodeManif() {
+        return $this->codeManif;
+    }
+
+    /**
+     * Get the contact.
+     *
+     * @return string Returns the contact.
+     */
+    public function getContact() {
+        return $this->contact;
+    }
+
+    /**
+     * Get the date deb.
+     *
+     * @return DateTime|null Returns the date deb.
+     */
+    public function getDateDeb() {
+        return $this->dateDeb;
+    }
+
+    /**
+     * Get the date fin.
+     *
+     * @return DateTime|null Returns the date fin.
+     */
+    public function getDateFin() {
+        return $this->dateFin;
+    }
+
+    /**
+     * Get the duree.
+     *
+     * @return int Returns the duree.
+     */
+    public function getDuree() {
+        return $this->duree;
+    }
+
+    /**
+     * Get the duree dbl.
+     *
+     * @return float Returns the duree dbl.
+     */
+    public function getDureeDbl() {
+        return $this->dureeDbl;
+    }
+
+    /**
+     * Get the indice aff.
+     *
+     * @return int Returns the indice aff.
+     */
+    public function getIndiceAff() {
+        return $this->indiceAff;
+    }
+
+    /**
+     * Get the is montant ht.
+     *
+     * @return bool Returns the is montant ht.
+     */
+    public function getIsMontantHt() {
+        return $this->isMontantHt;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the libelle memo.
+     *
+     * @return string Returns the libelle memo.
+     */
+    public function getLibelleMemo() {
+        return $this->libelleMemo;
+    }
+
+    /**
+     * Get the lieu btq.
+     *
+     * @return string Returns the lieu btq.
+     */
+    public function getLieuBtq() {
+        return $this->lieuBtq;
+    }
+
+    /**
+     * Get the lieu bureau distributeur.
+     *
+     * @return string Returns the lieu bureau distributeur.
+     */
+    public function getLieuBureauDistributeur() {
+        return $this->lieuBureauDistributeur;
+    }
+
+    /**
+     * Get the lieu code postal.
+     *
+     * @return string Returns the lieu code postal.
+     */
+    public function getLieuCodePostal() {
+        return $this->lieuCodePostal;
+    }
+
+    /**
+     * Get the lieu complement.
+     *
+     * @return string Returns the lieu complement.
+     */
+    public function getLieuComplement() {
+        return $this->lieuComplement;
+    }
+
+    /**
+     * Get the lieu email.
+     *
+     * @return string Returns the lieu email.
+     */
+    public function getLieuEmail() {
+        return $this->lieuEmail;
+    }
+
+    /**
+     * Get the lieu fax.
+     *
+     * @return string Returns the lieu fax.
+     */
+    public function getLieuFax() {
+        return $this->lieuFax;
+    }
+
+    /**
+     * Get the lieu nom.
+     *
+     * @return string Returns the lieu nom.
+     */
+    public function getLieuNom() {
+        return $this->lieuNom;
+    }
+
+    /**
+     * Get the lieu nom voie.
+     *
+     * @return string Returns the lieu nom voie.
+     */
+    public function getLieuNomVoie() {
+        return $this->lieuNomVoie;
+    }
+
+    /**
+     * Get the lieu num voie.
+     *
+     * @return string Returns the lieu num voie.
+     */
+    public function getLieuNumVoie() {
+        return $this->lieuNumVoie;
+    }
+
+    /**
+     * Get the lieu pj.
+     *
+     * @return string Returns the lieu pj.
+     */
+    public function getLieuPj() {
+        return $this->lieuPj;
+    }
+
+    /**
+     * Get the lieu tel.
+     *
+     * @return string Returns the lieu tel.
+     */
+    public function getLieuTel() {
+        return $this->lieuTel;
+    }
+
+    /**
+     * Get the montant cheque.
+     *
+     * @return float Returns the montant cheque.
+     */
+    public function getMontantCheque() {
+        return $this->montantCheque;
+    }
+
+    /**
+     * Get the nb seances.
+     *
+     * @return int Returns the nb seances.
+     */
+    public function getNbSeances() {
+        return $this->nbSeances;
+    }
+
+    /**
+     * Get the nom formateur.
+     *
+     * @return string Returns the nom formateur.
+     */
+    public function getNomFormateur() {
+        return $this->nomFormateur;
+    }
+
+    /**
+     * Get the type formation.
+     *
+     * @return bool Returns the type formation.
+     */
+    public function getTypeFormation() {
+        return $this->typeFormation;
+    }
+
+    /**
+     * Get the ya feuille presence.
+     *
+     * @return bool Returns the ya feuille presence.
+     */
+    public function getYaFeuillePresence() {
+        return $this->yaFeuillePresence;
+    }
+
+    /**
+     * Set the code action.
+     *
+     * @param string $codeAction The code action.
+     */
+    public function setCodeAction($codeAction) {
+        $this->codeAction = $codeAction;
+        return $this;
+    }
+
+    /**
+     * Set the code manif.
+     *
+     * @param string $codeManif The code manif.
+     */
+    public function setCodeManif($codeManif) {
+        $this->codeManif = $codeManif;
+        return $this;
+    }
+
+    /**
+     * Set the contact.
+     *
+     * @param string $contact The contact.
+     */
+    public function setContact($contact) {
+        $this->contact = $contact;
+        return $this;
+    }
+
+    /**
+     * Set the date deb.
+     *
+     * @param DateTime|null $dateDeb The date deb.
+     */
+    public function setDateDeb(DateTime $dateDeb = null) {
+        $this->dateDeb = $dateDeb;
+        return $this;
+    }
+
+    /**
+     * Set the date fin.
+     *
+     * @param DateTime|null $dateFin The date fin.
+     */
+    public function setDateFin(DateTime $dateFin = null) {
+        $this->dateFin = $dateFin;
+        return $this;
+    }
+
+    /**
+     * Set the duree.
+     *
+     * @param int $duree The duree.
+     */
+    public function setDuree($duree) {
+        $this->duree = $duree;
+        return $this;
+    }
+
+    /**
+     * Set the duree dbl.
+     *
+     * @param float $dureeDbl The duree dbl.
+     */
+    public function setDureeDbl($dureeDbl) {
+        $this->dureeDbl = $dureeDbl;
+        return $this;
+    }
+
+    /**
+     * Set the indice aff.
+     *
+     * @param int $indiceAff The indice aff.
+     */
+    public function setIndiceAff($indiceAff) {
+        $this->indiceAff = $indiceAff;
+        return $this;
+    }
+
+    /**
+     * Set the is montant ht.
+     *
+     * @param bool $isMontantHt The is montant ht.
+     */
+    public function setIsMontantHt($isMontantHt) {
+        $this->isMontantHt = $isMontantHt;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the libelle memo.
+     *
+     * @param string $libelleMemo The libelle memo.
+     */
+    public function setLibelleMemo($libelleMemo) {
+        $this->libelleMemo = $libelleMemo;
+        return $this;
+    }
+
+    /**
+     * Set the lieu btq.
+     *
+     * @param string $lieuBtq The lieu btq.
+     */
+    public function setLieuBtq($lieuBtq) {
+        $this->lieuBtq = $lieuBtq;
+        return $this;
+    }
+
+    /**
+     * Set the lieu bureau distributeur.
+     *
+     * @param string $lieuBureauDistributeur The lieu bureau distributeur.
+     */
+    public function setLieuBureauDistributeur($lieuBureauDistributeur) {
+        $this->lieuBureauDistributeur = $lieuBureauDistributeur;
+        return $this;
+    }
+
+    /**
+     * Set the lieu code postal.
+     *
+     * @param string $lieuCodePostal The lieu code postal.
+     */
+    public function setLieuCodePostal($lieuCodePostal) {
+        $this->lieuCodePostal = $lieuCodePostal;
+        return $this;
+    }
+
+    /**
+     * Set the lieu complement.
+     *
+     * @param string $lieuComplement The lieu complement.
+     */
+    public function setLieuComplement($lieuComplement) {
+        $this->lieuComplement = $lieuComplement;
+        return $this;
+    }
+
+    /**
+     * Set the lieu email.
+     *
+     * @param string $lieuEmail The lieu email.
+     */
+    public function setLieuEmail($lieuEmail) {
+        $this->lieuEmail = $lieuEmail;
+        return $this;
+    }
+
+    /**
+     * Set the lieu fax.
+     *
+     * @param string $lieuFax The lieu fax.
+     */
+    public function setLieuFax($lieuFax) {
+        $this->lieuFax = $lieuFax;
+        return $this;
+    }
+
+    /**
+     * Set the lieu nom.
+     *
+     * @param string $lieuNom The lieu nom.
+     */
+    public function setLieuNom($lieuNom) {
+        $this->lieuNom = $lieuNom;
+        return $this;
+    }
+
+    /**
+     * Set the lieu nom voie.
+     *
+     * @param string $lieuNomVoie The lieu nom voie.
+     */
+    public function setLieuNomVoie($lieuNomVoie) {
+        $this->lieuNomVoie = $lieuNomVoie;
+        return $this;
+    }
+
+    /**
+     * Set the lieu num voie.
+     *
+     * @param string $lieuNumVoie The lieu num voie.
+     */
+    public function setLieuNumVoie($lieuNumVoie) {
+        $this->lieuNumVoie = $lieuNumVoie;
+        return $this;
+    }
+
+    /**
+     * Set the lieu pj.
+     *
+     * @param string $lieuPj The lieu pj.
+     */
+    public function setLieuPj($lieuPj) {
+        $this->lieuPj = $lieuPj;
+        return $this;
+    }
+
+    /**
+     * Set the lieu tel.
+     *
+     * @param string $lieuTel The lieu tel.
+     */
+    public function setLieuTel($lieuTel) {
+        $this->lieuTel = $lieuTel;
+        return $this;
+    }
+
+    /**
+     * Set the montant cheque.
+     *
+     * @param float $montantCheque The montant cheque.
+     */
+    public function setMontantCheque($montantCheque) {
+        $this->montantCheque = $montantCheque;
+        return $this;
+    }
+
+    /**
+     * Set the nb seances.
+     *
+     * @param int $nbSeances The nb seances.
+     */
+    public function setNbSeances($nbSeances) {
+        $this->nbSeances = $nbSeances;
+        return $this;
+    }
+
+    /**
+     * Set the nom formateur.
+     *
+     * @param string $nomFormateur The nom formateur.
+     */
+    public function setNomFormateur($nomFormateur) {
+        $this->nomFormateur = $nomFormateur;
+        return $this;
+    }
+
+    /**
+     * Set the type formation.
+     *
+     * @param bool $typeFormation The type formation.
+     */
+    public function setTypeFormation($typeFormation) {
+        $this->typeFormation = $typeFormation;
+        return $this;
+    }
+
+    /**
+     * Set the ya feuille presence.
+     *
+     * @param bool $yaFeuillePresence The ya feuille presence.
+     */
+    public function setYaFeuillePresence($yaFeuillePresence) {
+        $this->yaFeuillePresence = $yaFeuillePresence;
+        return $this;
     }
 }

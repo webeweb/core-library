@@ -36,4 +36,56 @@ class ConventionsColLignesGrillesAncTest extends AbstractTestCase {
         $this->assertNull($obj->getNbMoisEcoules());
         $this->assertNull($obj->getValeur());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new ConventionsColLignesGrillesAnc();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setCodeConvention() method.
+     *
+     * @return void
+     */
+    public function testSetCodeConvention() {
+
+        $obj = new ConventionsColLignesGrillesAnc();
+
+        $obj->setCodeConvention("codeConvention");
+        $this->assertEquals("codeConvention", $obj->getCodeConvention());
+    }
+
+    /**
+     * Tests the setNbMoisEcoules() method.
+     *
+     * @return void
+     */
+    public function testSetNbMoisEcoules() {
+
+        $obj = new ConventionsColLignesGrillesAnc();
+
+        $obj->setNbMoisEcoules(10);
+        $this->assertEquals(10, $obj->getNbMoisEcoules());
+    }
+
+    /**
+     * Tests the setValeur() method.
+     *
+     * @return void
+     */
+    public function testSetValeur() {
+
+        $obj = new ConventionsColLignesGrillesAnc();
+
+        $obj->setValeur(10.092018);
+        $this->assertEquals(10.092018, $obj->getValeur());
+    }
 }

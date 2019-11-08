@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringModeleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTitreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeMasqueTrait;
-
 /**
  * Masques excel.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeMasqueTrait;
  */
 class MasquesExcel {
 
-    use StringModeleTrait;
-    use StringTitreTrait;
-    use StringTypeMasqueTrait;
+    /**
+     * Modele.
+     *
+     * @var string
+     */
+    private $modele;
+
+    /**
+     * Titre.
+     *
+     * @var string
+     */
+    private $titre;
+
+    /**
+     * Type masque.
+     *
+     * @var string
+     */
+    private $typeMasque;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the modele.
+     *
+     * @return string Returns the modele.
+     */
+    public function getModele() {
+        return $this->modele;
+    }
+
+    /**
+     * Get the titre.
+     *
+     * @return string Returns the titre.
+     */
+    public function getTitre() {
+        return $this->titre;
+    }
+
+    /**
+     * Get the type masque.
+     *
+     * @return string Returns the type masque.
+     */
+    public function getTypeMasque() {
+        return $this->typeMasque;
+    }
+
+    /**
+     * Set the modele.
+     *
+     * @param string $modele The modele.
+     */
+    public function setModele($modele) {
+        $this->modele = $modele;
+        return $this;
+    }
+
+    /**
+     * Set the titre.
+     *
+     * @param string $titre The titre.
+     */
+    public function setTitre($titre) {
+        $this->titre = $titre;
+        return $this;
+    }
+
+    /**
+     * Set the type masque.
+     *
+     * @param string $typeMasque The type masque.
+     */
+    public function setTypeMasque($typeMasque) {
+        $this->typeMasque = $typeMasque;
+        return $this;
     }
 }

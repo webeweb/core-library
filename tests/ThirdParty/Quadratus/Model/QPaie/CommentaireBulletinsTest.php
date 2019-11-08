@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\CommentaireBulletins;
 
@@ -41,5 +43,139 @@ class CommentaireBulletinsTest extends AbstractTestCase {
         $this->assertNull($obj->getPeriode());
         $this->assertNull($obj->getTxtCommentaireRtf());
         $this->assertNull($obj->getTxtCommentaireSaisi());
+    }
+
+    /**
+     * Tests the setCommentaire1() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire1() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setCommentaire1("commentaire1");
+        $this->assertEquals("commentaire1", $obj->getCommentaire1());
+    }
+
+    /**
+     * Tests the setCommentaire2() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire2() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setCommentaire2("commentaire2");
+        $this->assertEquals("commentaire2", $obj->getCommentaire2());
+    }
+
+    /**
+     * Tests the setCommentaire3() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire3() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setCommentaire3("commentaire3");
+        $this->assertEquals("commentaire3", $obj->getCommentaire3());
+    }
+
+    /**
+     * Tests the setCommentaire4() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire4() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setCommentaire4("commentaire4");
+        $this->assertEquals("commentaire4", $obj->getCommentaire4());
+    }
+
+    /**
+     * Tests the setCommentaire5() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaire5() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setCommentaire5("commentaire5");
+        $this->assertEquals("commentaire5", $obj->getCommentaire5());
+    }
+
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the setTxtCommentaireRtf() method.
+     *
+     * @return void
+     */
+    public function testSetTxtCommentaireRtf() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setTxtCommentaireRtf("txtCommentaireRtf");
+        $this->assertEquals("txtCommentaireRtf", $obj->getTxtCommentaireRtf());
+    }
+
+    /**
+     * Tests the setTxtCommentaireSaisi() method.
+     *
+     * @return void
+     */
+    public function testSetTxtCommentaireSaisi() {
+
+        $obj = new CommentaireBulletins();
+
+        $obj->setTxtCommentaireSaisi("txtCommentaireSaisi");
+        $this->assertEquals("txtCommentaireSaisi", $obj->getTxtCommentaireSaisi());
     }
 }

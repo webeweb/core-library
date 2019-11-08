@@ -11,10 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateSuppressionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringContexteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringGUniqIdTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUserTrait;
+use DateTime;
 
 /**
  * Temps passes deleted.
@@ -24,15 +21,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUserTrait;
  */
 class TempsPassesDeleted {
 
-    use StringContexteTrait;
-    use DateTimeDateSuppressionTrait;
-    use StringGUniqIdTrait;
-    use StringUserTrait;
+    /**
+     * Contexte.
+     *
+     * @var string
+     */
+    private $contexte;
+
+    /**
+     * Date suppression.
+     *
+     * @var DateTime|null
+     */
+    private $dateSuppression;
+
+    /**
+     * G uniq id.
+     *
+     * @var string
+     */
+    private $gUniqId;
+
+    /**
+     * User.
+     *
+     * @var string
+     */
+    private $user;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the contexte.
+     *
+     * @return string Returns the contexte.
+     */
+    public function getContexte() {
+        return $this->contexte;
+    }
+
+    /**
+     * Get the date suppression.
+     *
+     * @return DateTime|null Returns the date suppression.
+     */
+    public function getDateSuppression() {
+        return $this->dateSuppression;
+    }
+
+    /**
+     * Get the g uniq id.
+     *
+     * @return string Returns the g uniq id.
+     */
+    public function getGUniqId() {
+        return $this->gUniqId;
+    }
+
+    /**
+     * Get the user.
+     *
+     * @return string Returns the user.
+     */
+    public function getUser() {
+        return $this->user;
+    }
+
+    /**
+     * Set the contexte.
+     *
+     * @param string $contexte The contexte.
+     */
+    public function setContexte($contexte) {
+        $this->contexte = $contexte;
+        return $this;
+    }
+
+    /**
+     * Set the date suppression.
+     *
+     * @param DateTime|null $dateSuppression The date suppression.
+     */
+    public function setDateSuppression(DateTime $dateSuppression = null) {
+        $this->dateSuppression = $dateSuppression;
+        return $this;
+    }
+
+    /**
+     * Set the g uniq id.
+     *
+     * @param string $gUniqId The g uniq id.
+     */
+    public function setGUniqId($gUniqId) {
+        $this->gUniqId = $gUniqId;
+        return $this;
+    }
+
+    /**
+     * Set the user.
+     *
+     * @param string $user The user.
+     */
+    public function setUser($user) {
+        $this->user = $user;
+        return $this;
     }
 }

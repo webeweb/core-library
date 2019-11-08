@@ -11,8 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeJournalTrait;
+use DateTime;
 
 /**
  * Journaux bloques.
@@ -22,13 +21,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeJournalTrait;
  */
 class JournauxBloques {
 
-    use StringCodeJournalTrait;
-    use DateTimePeriodeTrait;
+    /**
+     * Code journal.
+     *
+     * @var string
+     */
+    private $codeJournal;
+
+    /**
+     * Periode.
+     *
+     * @var DateTime|null
+     */
+    private $periode;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code journal.
+     *
+     * @return string Returns the code journal.
+     */
+    public function getCodeJournal() {
+        return $this->codeJournal;
+    }
+
+    /**
+     * Get the periode.
+     *
+     * @return DateTime|null Returns the periode.
+     */
+    public function getPeriode() {
+        return $this->periode;
+    }
+
+    /**
+     * Set the code journal.
+     *
+     * @param string $codeJournal The code journal.
+     */
+    public function setCodeJournal($codeJournal) {
+        $this->codeJournal = $codeJournal;
+        return $this;
+    }
+
+    /**
+     * Set the periode.
+     *
+     * @param DateTime|null $periode The periode.
+     */
+    public function setPeriode(DateTime $periode = null) {
+        $this->periode = $periode;
+        return $this;
     }
 }

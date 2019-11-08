@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroEnsembleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroCompteTrait;
-
 /**
  * Immo ensemble.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroCompteTrait;
  */
 class ImmoEnsemble {
 
-    use StringLibelleTrait;
-    use StringNumeroCompteTrait;
-    use IntNumeroEnsembleTrait;
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Numero compte.
+     *
+     * @var string
+     */
+    private $numeroCompte;
+
+    /**
+     * Numero ensemble.
+     *
+     * @var int
+     */
+    private $numeroEnsemble;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the numero compte.
+     *
+     * @return string Returns the numero compte.
+     */
+    public function getNumeroCompte() {
+        return $this->numeroCompte;
+    }
+
+    /**
+     * Get the numero ensemble.
+     *
+     * @return int Returns the numero ensemble.
+     */
+    public function getNumeroEnsemble() {
+        return $this->numeroEnsemble;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the numero compte.
+     *
+     * @param string $numeroCompte The numero compte.
+     */
+    public function setNumeroCompte($numeroCompte) {
+        $this->numeroCompte = $numeroCompte;
+        return $this;
+    }
+
+    /**
+     * Set the numero ensemble.
+     *
+     * @param int $numeroEnsemble The numero ensemble.
+     */
+    public function setNumeroEnsemble($numeroEnsemble) {
+        $this->numeroEnsemble = $numeroEnsemble;
+        return $this;
     }
 }

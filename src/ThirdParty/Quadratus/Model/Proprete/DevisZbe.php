@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringBatimentTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtageTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDevisTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringZoneGeographiqueTrait;
-
 /**
  * Devis zbe.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringZoneGeographiqueTrait;
  */
 class DevisZbe {
 
-    use StringBatimentTrait;
-    use StringEtageTrait;
-    use StringNumDevisTrait;
-    use StringZoneGeographiqueTrait;
+    /**
+     * Batiment.
+     *
+     * @var string
+     */
+    private $batiment;
+
+    /**
+     * Etage.
+     *
+     * @var string
+     */
+    private $etage;
+
+    /**
+     * Num devis.
+     *
+     * @var string
+     */
+    private $numDevis;
+
+    /**
+     * Zone geographique.
+     *
+     * @var string
+     */
+    private $zoneGeographique;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the batiment.
+     *
+     * @return string Returns the batiment.
+     */
+    public function getBatiment() {
+        return $this->batiment;
+    }
+
+    /**
+     * Get the etage.
+     *
+     * @return string Returns the etage.
+     */
+    public function getEtage() {
+        return $this->etage;
+    }
+
+    /**
+     * Get the num devis.
+     *
+     * @return string Returns the num devis.
+     */
+    public function getNumDevis() {
+        return $this->numDevis;
+    }
+
+    /**
+     * Get the zone geographique.
+     *
+     * @return string Returns the zone geographique.
+     */
+    public function getZoneGeographique() {
+        return $this->zoneGeographique;
+    }
+
+    /**
+     * Set the batiment.
+     *
+     * @param string $batiment The batiment.
+     */
+    public function setBatiment($batiment) {
+        $this->batiment = $batiment;
+        return $this;
+    }
+
+    /**
+     * Set the etage.
+     *
+     * @param string $etage The etage.
+     */
+    public function setEtage($etage) {
+        $this->etage = $etage;
+        return $this;
+    }
+
+    /**
+     * Set the num devis.
+     *
+     * @param string $numDevis The num devis.
+     */
+    public function setNumDevis($numDevis) {
+        $this->numDevis = $numDevis;
+        return $this;
+    }
+
+    /**
+     * Set the zone geographique.
+     *
+     * @param string $zoneGeographique The zone geographique.
+     */
+    public function setZoneGeographique($zoneGeographique) {
+        $this->zoneGeographique = $zoneGeographique;
+        return $this;
     }
 }

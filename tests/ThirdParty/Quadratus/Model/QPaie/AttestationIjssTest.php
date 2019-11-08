@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\AttestationIjss;
 
@@ -98,5 +100,924 @@ class AttestationIjssTest extends AbstractTestCase {
         $this->assertNull($obj->getSuspensionMotif());
         $this->assertNull($obj->getTravailTemp());
         $this->assertNull($obj->getTypeAttestation());
+    }
+
+    /**
+     * Tests the setAdresse1() method.
+     *
+     * @return void
+     */
+    public function testSetAdresse1() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setAdresse1("adresse1");
+        $this->assertEquals("adresse1", $obj->getAdresse1());
+    }
+
+    /**
+     * Tests the setAdresse2() method.
+     *
+     * @return void
+     */
+    public function testSetAdresse2() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setAdresse2("adresse2");
+        $this->assertEquals("adresse2", $obj->getAdresse2());
+    }
+
+    /**
+     * Tests the setAdresse3() method.
+     *
+     * @return void
+     */
+    public function testSetAdresse3() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setAdresse3("adresse3");
+        $this->assertEquals("adresse3", $obj->getAdresse3());
+    }
+
+    /**
+     * Tests the setCasGeneral() method.
+     *
+     * @return void
+     */
+    public function testSetCasGeneral() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setCasGeneral(true);
+        $this->assertEquals(true, $obj->getCasGeneral());
+    }
+
+    /**
+     * Tests the setCasParticulier() method.
+     *
+     * @return void
+     */
+    public function testSetCasParticulier() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setCasParticulier(true);
+        $this->assertEquals(true, $obj->getCasParticulier());
+    }
+
+    /**
+     * Tests the setCategorieSal() method.
+     *
+     * @return void
+     */
+    public function testSetCategorieSal() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setCategorieSal("categorieSal");
+        $this->assertEquals("categorieSal", $obj->getCategorieSal());
+    }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setDateDebutPaternite() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateDebutPaternite() {
+
+        // Set a Date/time mock.
+        $dateDebutPaternite = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setDateDebutPaternite($dateDebutPaternite);
+        $this->assertSame($dateDebutPaternite, $obj->getDateDebutPaternite());
+    }
+
+    /**
+     * Tests the setDateDernJMens() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateDernJMens() {
+
+        // Set a Date/time mock.
+        $dateDernJMens = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setDateDernJMens($dateDernJMens);
+        $this->assertSame($dateDernJMens, $obj->getDateDernJMens());
+    }
+
+    /**
+     * Tests the setDateNaissanceEmploye() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateNaissanceEmploye() {
+
+        // Set a Date/time mock.
+        $dateNaissanceEmploye = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setDateNaissanceEmploye($dateNaissanceEmploye);
+        $this->assertSame($dateNaissanceEmploye, $obj->getDateNaissanceEmploye());
+    }
+
+    /**
+     * Tests the setDateNaissanceEnfant() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateNaissanceEnfant() {
+
+        // Set a Date/time mock.
+        $dateNaissanceEnfant = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setDateNaissanceEnfant($dateNaissanceEnfant);
+        $this->assertSame($dateNaissanceEnfant, $obj->getDateNaissanceEnfant());
+    }
+
+    /**
+     * Tests the setDernJ() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDernJ() {
+
+        // Set a Date/time mock.
+        $dernJ = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setDernJ($dernJ);
+        $this->assertSame($dernJ, $obj->getDernJ());
+    }
+
+    /**
+     * Tests the setDispenseTravail() method.
+     *
+     * @return void
+     */
+    public function testSetDispenseTravail() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setDispenseTravail(true);
+        $this->assertEquals(true, $obj->getDispenseTravail());
+    }
+
+    /**
+     * Tests the setEmploi() method.
+     *
+     * @return void
+     */
+    public function testSetEmploi() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setEmploi("emploi");
+        $this->assertEquals("emploi", $obj->getEmploi());
+    }
+
+    /**
+     * Tests the setEtblAdresse1() method.
+     *
+     * @return void
+     */
+    public function testSetEtblAdresse1() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setEtblAdresse1("etblAdresse1");
+        $this->assertEquals("etblAdresse1", $obj->getEtblAdresse1());
+    }
+
+    /**
+     * Tests the setEtblAdresse2() method.
+     *
+     * @return void
+     */
+    public function testSetEtblAdresse2() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setEtblAdresse2("etblAdresse2");
+        $this->assertEquals("etblAdresse2", $obj->getEtblAdresse2());
+    }
+
+    /**
+     * Tests the setEtblAdresse3() method.
+     *
+     * @return void
+     */
+    public function testSetEtblAdresse3() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setEtblAdresse3("etblAdresse3");
+        $this->assertEquals("etblAdresse3", $obj->getEtblAdresse3());
+    }
+
+    /**
+     * Tests the setEtblRaisonSociale() method.
+     *
+     * @return void
+     */
+    public function testSetEtblRaisonSociale() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setEtblRaisonSociale("etblRaisonSociale");
+        $this->assertEquals("etblRaisonSociale", $obj->getEtblRaisonSociale());
+    }
+
+    /**
+     * Tests the setEtblTel() method.
+     *
+     * @return void
+     */
+    public function testSetEtblTel() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setEtblTel("etblTel");
+        $this->assertEquals("etblTel", $obj->getEtblTel());
+    }
+
+    /**
+     * Tests the setIban() method.
+     *
+     * @return void
+     */
+    public function testSetIban() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setIban("iban");
+        $this->assertEquals("iban", $obj->getIban());
+    }
+
+    /**
+     * Tests the setIntituleCompte() method.
+     *
+     * @return void
+     */
+    public function testSetIntituleCompte() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setIntituleCompte("intituleCompte");
+        $this->assertEquals("intituleCompte", $obj->getIntituleCompte());
+    }
+
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
+
+    /**
+     * Tests the setMaladie() method.
+     *
+     * @return void
+     */
+    public function testSetMaladie() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMaladie(true);
+        $this->assertEquals(true, $obj->getMaladie());
+    }
+
+    /**
+     * Tests the setMaternite() method.
+     *
+     * @return void
+     */
+    public function testSetMaternite() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMaternite(true);
+        $this->assertEquals(true, $obj->getMaternite());
+    }
+
+    /**
+     * Tests the setMatricule() method.
+     *
+     * @return void
+     */
+    public function testSetMatricule() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMatricule("matricule");
+        $this->assertEquals("matricule", $obj->getMatricule());
+    }
+
+    /**
+     * Tests the setMontantGeneral() method.
+     *
+     * @return void
+     */
+    public function testSetMontantGeneral() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMontantGeneral(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantGeneral());
+    }
+
+    /**
+     * Tests the setMontantParticulier() method.
+     *
+     * @return void
+     */
+    public function testSetMontantParticulier() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMontantParticulier(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantParticulier());
+    }
+
+    /**
+     * Tests the setMtCgEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetMtCgEuroOuFranc() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMtCgEuroOuFranc("mtCgEuroOuFranc");
+        $this->assertEquals("mtCgEuroOuFranc", $obj->getMtCgEuroOuFranc());
+    }
+
+    /**
+     * Tests the setMtCpEuroOuFranc() method.
+     *
+     * @return void
+     */
+    public function testSetMtCpEuroOuFranc() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMtCpEuroOuFranc("mtCpEuroOuFranc");
+        $this->assertEquals("mtCpEuroOuFranc", $obj->getMtCpEuroOuFranc());
+    }
+
+    /**
+     * Tests the setMtSalBrutMoins150H() method.
+     *
+     * @return void
+     */
+    public function testSetMtSalBrutMoins150H() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMtSalBrutMoins150H(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtSalBrutMoins150H());
+    }
+
+    /**
+     * Tests the setMtSalBrutMoins600H() method.
+     *
+     * @return void
+     */
+    public function testSetMtSalBrutMoins600H() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setMtSalBrutMoins600H(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtSalBrutMoins600H());
+    }
+
+    /**
+     * Tests the setNbEnfantsACharge() method.
+     *
+     * @return void
+     */
+    public function testSetNbEnfantsACharge() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNbEnfantsACharge("nbEnfantsACharge");
+        $this->assertEquals("nbEnfantsACharge", $obj->getNbEnfantsACharge());
+    }
+
+    /**
+     * Tests the setNbHCasPart() method.
+     *
+     * @return void
+     */
+    public function testSetNbHCasPart() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNbHCasPart(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHCasPart());
+    }
+
+    /**
+     * Tests the setNbHGeneral() method.
+     *
+     * @return void
+     */
+    public function testSetNbHGeneral() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNbHGeneral(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHGeneral());
+    }
+
+    /**
+     * Tests the setNir() method.
+     *
+     * @return void
+     */
+    public function testSetNir() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNir("nir");
+        $this->assertEquals("nir", $obj->getNir());
+    }
+
+    /**
+     * Tests the setNomEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNomEmploye() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNomEmploye("nomEmploye");
+        $this->assertEquals("nomEmploye", $obj->getNomEmploye());
+    }
+
+    /**
+     * Tests the setNomMarital() method.
+     *
+     * @return void
+     */
+    public function testSetNomMarital() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNomMarital("nomMarital");
+        $this->assertEquals("nomMarital", $obj->getNomMarital());
+    }
+
+    /**
+     * Tests the setNonRepris() method.
+     *
+     * @return void
+     */
+    public function testSetNonRepris() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNonRepris(true);
+        $this->assertEquals(true, $obj->getNonRepris());
+    }
+
+    /**
+     * Tests the setNumeroAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAttestation() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNumeroAttestation("numeroAttestation");
+        $this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetOrganisme() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setOrganisme("organisme");
+        $this->assertEquals("organisme", $obj->getOrganisme());
+    }
+
+    /**
+     * Tests the setPaiementEnEuro() method.
+     *
+     * @return void
+     */
+    public function testSetPaiementEnEuro() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setPaiementEnEuro(true);
+        $this->assertEquals(true, $obj->getPaiementEnEuro());
+    }
+
+    /**
+     * Tests the setPaternite() method.
+     *
+     * @return void
+     */
+    public function testSetPaternite() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setPaternite(true);
+        $this->assertEquals(true, $obj->getPaternite());
+    }
+
+    /**
+     * Tests the setPeriodeAu() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeAu() {
+
+        // Set a Date/time mock.
+        $periodeAu = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setPeriodeAu($periodeAu);
+        $this->assertSame($periodeAu, $obj->getPeriodeAu());
+    }
+
+    /**
+     * Tests the setPeriodeDu() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeDu() {
+
+        // Set a Date/time mock.
+        $periodeDu = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setPeriodeDu($periodeDu);
+        $this->assertSame($periodeDu, $obj->getPeriodeDu());
+    }
+
+    /**
+     * Tests the setPeriodeSubrAu() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeSubrAu() {
+
+        // Set a Date/time mock.
+        $periodeSubrAu = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setPeriodeSubrAu($periodeSubrAu);
+        $this->assertSame($periodeSubrAu, $obj->getPeriodeSubrAu());
+    }
+
+    /**
+     * Tests the setPeriodeSubrDu() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeSubrDu() {
+
+        // Set a Date/time mock.
+        $periodeSubrDu = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setPeriodeSubrDu($periodeSubrDu);
+        $this->assertSame($periodeSubrDu, $obj->getPeriodeSubrDu());
+    }
+
+    /**
+     * Tests the setPlusde200h() method.
+     *
+     * @return void
+     */
+    public function testSetPlusde200h() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setPlusde200h(true);
+        $this->assertEquals(true, $obj->getPlusde200h());
+    }
+
+    /**
+     * Tests the setPlusde800h() method.
+     *
+     * @return void
+     */
+    public function testSetPlusde800h() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setPlusde800h(true);
+        $this->assertEquals(true, $obj->getPlusde800h());
+    }
+
+    /**
+     * Tests the setPrenomEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetPrenomEmploye() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setPrenomEmploye("prenomEmploye");
+        $this->assertEquals("prenomEmploye", $obj->getPrenomEmploye());
+    }
+
+    /**
+     * Tests the setRectificative() method.
+     *
+     * @return void
+     */
+    public function testSetRectificative() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setRectificative(true);
+        $this->assertEquals(true, $obj->getRectificative());
+    }
+
+    /**
+     * Tests the setReprise() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetReprise() {
+
+        // Set a Date/time mock.
+        $reprise = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setReprise($reprise);
+        $this->assertSame($reprise, $obj->getReprise());
+    }
+
+    /**
+     * Tests the setRepriseMotifMed() method.
+     *
+     * @return void
+     */
+    public function testSetRepriseMotifMed() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setRepriseMotifMed(true);
+        $this->assertEquals(true, $obj->getRepriseMotifMed());
+    }
+
+    /**
+     * Tests the setRepriseRaisonPers() method.
+     *
+     * @return void
+     */
+    public function testSetRepriseRaisonPers() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setRepriseRaisonPers(true);
+        $this->assertEquals(true, $obj->getRepriseRaisonPers());
+    }
+
+    /**
+     * Tests the setSignatureDate() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetSignatureDate() {
+
+        // Set a Date/time mock.
+        $signatureDate = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setSignatureDate($signatureDate);
+        $this->assertSame($signatureDate, $obj->getSignatureDate());
+    }
+
+    /**
+     * Tests the setSignatureNom() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureNom() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSignatureNom("signatureNom");
+        $this->assertEquals("signatureNom", $obj->getSignatureNom());
+    }
+
+    /**
+     * Tests the setSignatureQualite() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureQualite() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSignatureQualite("signatureQualite");
+        $this->assertEquals("signatureQualite", $obj->getSignatureQualite());
+    }
+
+    /**
+     * Tests the setSignatureVille() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureVille() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSignatureVille("signatureVille");
+        $this->assertEquals("signatureVille", $obj->getSignatureVille());
+    }
+
+    /**
+     * Tests the setSiret() method.
+     *
+     * @return void
+     */
+    public function testSetSiret() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSiret("siret");
+        $this->assertEquals("siret", $obj->getSiret());
+    }
+
+    /**
+     * Tests the setSituation() method.
+     *
+     * @return void
+     */
+    public function testSetSituation() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSituation("situation");
+        $this->assertEquals("situation", $obj->getSituation());
+    }
+
+    /**
+     * Tests the setSubrogationConstantes() method.
+     *
+     * @return void
+     */
+    public function testSetSubrogationConstantes() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSubrogationConstantes(true);
+        $this->assertEquals(true, $obj->getSubrogationConstantes());
+    }
+
+    /**
+     * Tests the setSubrogationMontant() method.
+     *
+     * @return void
+     */
+    public function testSetSubrogationMontant() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSubrogationMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getSubrogationMontant());
+    }
+
+    /**
+     * Tests the setSubrogationPartielle() method.
+     *
+     * @return void
+     */
+    public function testSetSubrogationPartielle() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSubrogationPartielle(true);
+        $this->assertEquals(true, $obj->getSubrogationPartielle());
+    }
+
+    /**
+     * Tests the setSuspensionDate() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetSuspensionDate() {
+
+        // Set a Date/time mock.
+        $suspensionDate = new DateTime("2018-09-10");
+
+        $obj = new AttestationIjss();
+
+        $obj->setSuspensionDate($suspensionDate);
+        $this->assertSame($suspensionDate, $obj->getSuspensionDate());
+    }
+
+    /**
+     * Tests the setSuspensionMotif() method.
+     *
+     * @return void
+     */
+    public function testSetSuspensionMotif() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setSuspensionMotif("suspensionMotif");
+        $this->assertEquals("suspensionMotif", $obj->getSuspensionMotif());
+    }
+
+    /**
+     * Tests the setTravailTemp() method.
+     *
+     * @return void
+     */
+    public function testSetTravailTemp() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setTravailTemp(true);
+        $this->assertEquals(true, $obj->getTravailTemp());
+    }
+
+    /**
+     * Tests the setTypeAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAttestation() {
+
+        $obj = new AttestationIjss();
+
+        $obj->setTypeAttestation("typeAttestation");
+        $this->assertEquals("typeAttestation", $obj->getTypeAttestation());
     }
 }

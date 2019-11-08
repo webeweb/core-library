@@ -40,4 +40,108 @@ class RecapDpaTest extends AbstractTestCase {
         $this->assertNull($obj->getMttAnnee());
         $this->assertNull($obj->getPrimesFranch());
     }
+
+    /**
+     * Tests the setAleasClimat() method.
+     *
+     * @return void
+     */
+    public function testSetAleasClimat() {
+
+        $obj = new RecapDpa();
+
+        $obj->setAleasClimat(10.092018);
+        $this->assertEquals(10.092018, $obj->getAleasClimat());
+    }
+
+    /**
+     * Tests the setAleasEco() method.
+     *
+     * @return void
+     */
+    public function testSetAleasEco() {
+
+        $obj = new RecapDpa();
+
+        $obj->setAleasEco(10.092018);
+        $this->assertEquals(10.092018, $obj->getAleasEco());
+    }
+
+    /**
+     * Tests the setAnneeDed() method.
+     *
+     * @return void
+     */
+    public function testSetAnneeDed() {
+
+        $obj = new RecapDpa();
+
+        $obj->setAnneeDed(10);
+        $this->assertEquals(10, $obj->getAnneeDed());
+    }
+
+    /**
+     * Tests the setAnneeUtilisation() method.
+     *
+     * @return void
+     */
+    public function testSetAnneeUtilisation() {
+
+        $obj = new RecapDpa();
+
+        $obj->setAnneeUtilisation(10);
+        $this->assertEquals(10, $obj->getAnneeUtilisation());
+    }
+
+    /**
+     * Tests the setAutres() method.
+     *
+     * @return void
+     */
+    public function testSetAutres() {
+
+        $obj = new RecapDpa();
+
+        $obj->setAutres(10.092018);
+        $this->assertEquals(10.092018, $obj->getAutres());
+    }
+
+    /**
+     * Tests the setFranchDommages() method.
+     *
+     * @return void
+     */
+    public function testSetFranchDommages() {
+
+        $obj = new RecapDpa();
+
+        $obj->setFranchDommages(10.092018);
+        $this->assertEquals(10.092018, $obj->getFranchDommages());
+    }
+
+    /**
+     * Tests the setMttAnnee() method.
+     *
+     * @return void
+     */
+    public function testSetMttAnnee() {
+
+        $obj = new RecapDpa();
+
+        $obj->setMttAnnee(10.092018);
+        $this->assertEquals(10.092018, $obj->getMttAnnee());
+    }
+
+    /**
+     * Tests the setPrimesFranch() method.
+     *
+     * @return void
+     */
+    public function testSetPrimesFranch() {
+
+        $obj = new RecapDpa();
+
+        $obj->setPrimesFranch(10.092018);
+        $this->assertEquals(10.092018, $obj->getPrimesFranch());
+    }
 }

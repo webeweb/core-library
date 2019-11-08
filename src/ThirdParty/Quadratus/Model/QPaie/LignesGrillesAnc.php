@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatValeurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNbMoisEcoulesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeGrilleTrait;
-
 /**
  * Lignes grilles anc.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeGrilleTrait;
  */
 class LignesGrillesAnc {
 
-    use StringCodeGrilleTrait;
-    use IntNbMoisEcoulesTrait;
-    use FloatValeurTrait;
+    /**
+     * Code grille.
+     *
+     * @var string
+     */
+    private $codeGrille;
+
+    /**
+     * Nb mois ecoules.
+     *
+     * @var int
+     */
+    private $nbMoisEcoules;
+
+    /**
+     * Valeur.
+     *
+     * @var float
+     */
+    private $valeur;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code grille.
+     *
+     * @return string Returns the code grille.
+     */
+    public function getCodeGrille() {
+        return $this->codeGrille;
+    }
+
+    /**
+     * Get the nb mois ecoules.
+     *
+     * @return int Returns the nb mois ecoules.
+     */
+    public function getNbMoisEcoules() {
+        return $this->nbMoisEcoules;
+    }
+
+    /**
+     * Get the valeur.
+     *
+     * @return float Returns the valeur.
+     */
+    public function getValeur() {
+        return $this->valeur;
+    }
+
+    /**
+     * Set the code grille.
+     *
+     * @param string $codeGrille The code grille.
+     */
+    public function setCodeGrille($codeGrille) {
+        $this->codeGrille = $codeGrille;
+        return $this;
+    }
+
+    /**
+     * Set the nb mois ecoules.
+     *
+     * @param int $nbMoisEcoules The nb mois ecoules.
+     */
+    public function setNbMoisEcoules($nbMoisEcoules) {
+        $this->nbMoisEcoules = $nbMoisEcoules;
+        return $this;
+    }
+
+    /**
+     * Set the valeur.
+     *
+     * @param float $valeur The valeur.
+     */
+    public function setValeur($valeur) {
+        $this->valeur = $valeur;
+        return $this;
     }
 }

@@ -11,16 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolDelaiLocalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDelaiLeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDelaiNombreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDelaiTypeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeFournisseurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCommentairesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringConditionnementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefArticleFournisseurTrait;
-
 /**
  * Articles frn.
  *
@@ -29,20 +19,244 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefArticleFournisseurT
  */
 class ArticlesFrn {
 
-    use StringCodeArticleTrait;
-    use StringCodeFournisseurTrait;
-    use StringCommentairesTrait;
-    use StringConditionnementTrait;
-    use IntDelaiLeTrait;
-    use BoolDelaiLocalTrait;
-    use IntDelaiNombreTrait;
-    use IntDelaiTypeTrait;
-    use StringRefArticleFournisseurTrait;
+    /**
+     * Code article.
+     *
+     * @var string
+     */
+    private $codeArticle;
+
+    /**
+     * Code fournisseur.
+     *
+     * @var string
+     */
+    private $codeFournisseur;
+
+    /**
+     * Commentaires.
+     *
+     * @var string
+     */
+    private $commentaires;
+
+    /**
+     * Conditionnement.
+     *
+     * @var string
+     */
+    private $conditionnement;
+
+    /**
+     * Delai le.
+     *
+     * @var int
+     */
+    private $delaiLe;
+
+    /**
+     * Delai local.
+     *
+     * @var bool
+     */
+    private $delaiLocal;
+
+    /**
+     * Delai nombre.
+     *
+     * @var int
+     */
+    private $delaiNombre;
+
+    /**
+     * Delai type.
+     *
+     * @var int
+     */
+    private $delaiType;
+
+    /**
+     * Ref article fournisseur.
+     *
+     * @var string
+     */
+    private $refArticleFournisseur;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code article.
+     *
+     * @return string Returns the code article.
+     */
+    public function getCodeArticle() {
+        return $this->codeArticle;
+    }
+
+    /**
+     * Get the code fournisseur.
+     *
+     * @return string Returns the code fournisseur.
+     */
+    public function getCodeFournisseur() {
+        return $this->codeFournisseur;
+    }
+
+    /**
+     * Get the commentaires.
+     *
+     * @return string Returns the commentaires.
+     */
+    public function getCommentaires() {
+        return $this->commentaires;
+    }
+
+    /**
+     * Get the conditionnement.
+     *
+     * @return string Returns the conditionnement.
+     */
+    public function getConditionnement() {
+        return $this->conditionnement;
+    }
+
+    /**
+     * Get the delai le.
+     *
+     * @return int Returns the delai le.
+     */
+    public function getDelaiLe() {
+        return $this->delaiLe;
+    }
+
+    /**
+     * Get the delai local.
+     *
+     * @return bool Returns the delai local.
+     */
+    public function getDelaiLocal() {
+        return $this->delaiLocal;
+    }
+
+    /**
+     * Get the delai nombre.
+     *
+     * @return int Returns the delai nombre.
+     */
+    public function getDelaiNombre() {
+        return $this->delaiNombre;
+    }
+
+    /**
+     * Get the delai type.
+     *
+     * @return int Returns the delai type.
+     */
+    public function getDelaiType() {
+        return $this->delaiType;
+    }
+
+    /**
+     * Get the ref article fournisseur.
+     *
+     * @return string Returns the ref article fournisseur.
+     */
+    public function getRefArticleFournisseur() {
+        return $this->refArticleFournisseur;
+    }
+
+    /**
+     * Set the code article.
+     *
+     * @param string $codeArticle The code article.
+     */
+    public function setCodeArticle($codeArticle) {
+        $this->codeArticle = $codeArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code fournisseur.
+     *
+     * @param string $codeFournisseur The code fournisseur.
+     */
+    public function setCodeFournisseur($codeFournisseur) {
+        $this->codeFournisseur = $codeFournisseur;
+        return $this;
+    }
+
+    /**
+     * Set the commentaires.
+     *
+     * @param string $commentaires The commentaires.
+     */
+    public function setCommentaires($commentaires) {
+        $this->commentaires = $commentaires;
+        return $this;
+    }
+
+    /**
+     * Set the conditionnement.
+     *
+     * @param string $conditionnement The conditionnement.
+     */
+    public function setConditionnement($conditionnement) {
+        $this->conditionnement = $conditionnement;
+        return $this;
+    }
+
+    /**
+     * Set the delai le.
+     *
+     * @param int $delaiLe The delai le.
+     */
+    public function setDelaiLe($delaiLe) {
+        $this->delaiLe = $delaiLe;
+        return $this;
+    }
+
+    /**
+     * Set the delai local.
+     *
+     * @param bool $delaiLocal The delai local.
+     */
+    public function setDelaiLocal($delaiLocal) {
+        $this->delaiLocal = $delaiLocal;
+        return $this;
+    }
+
+    /**
+     * Set the delai nombre.
+     *
+     * @param int $delaiNombre The delai nombre.
+     */
+    public function setDelaiNombre($delaiNombre) {
+        $this->delaiNombre = $delaiNombre;
+        return $this;
+    }
+
+    /**
+     * Set the delai type.
+     *
+     * @param int $delaiType The delai type.
+     */
+    public function setDelaiType($delaiType) {
+        $this->delaiType = $delaiType;
+        return $this;
+    }
+
+    /**
+     * Set the ref article fournisseur.
+     *
+     * @param string $refArticleFournisseur The ref article fournisseur.
+     */
+    public function setRefArticleFournisseur($refArticleFournisseur) {
+        $this->refArticleFournisseur = $refArticleFournisseur;
+        return $this;
     }
 }

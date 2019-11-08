@@ -36,4 +36,56 @@ class AccesWebAgendaTest extends AbstractTestCase {
         $this->assertNull($obj->getDroitModif());
         $this->assertNull($obj->getType());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new AccesWebAgenda();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new AccesWebAgenda();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setDroitModif() method.
+     *
+     * @return void
+     */
+    public function testSetDroitModif() {
+
+        $obj = new AccesWebAgenda();
+
+        $obj->setDroitModif(true);
+        $this->assertEquals(true, $obj->getDroitModif());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new AccesWebAgenda();
+
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 }

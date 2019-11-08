@@ -35,4 +35,43 @@ class TramesTest extends AbstractTestCase {
         $this->assertNull($obj->getGardeMontants());
         $this->assertNull($obj->getLibelle());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new Trames();
+
+        $obj->setCode(10);
+        $this->assertEquals(10, $obj->getCode());
+    }
+
+    /**
+     * Tests the setGardeMontants() method.
+     *
+     * @return void
+     */
+    public function testSetGardeMontants() {
+
+        $obj = new Trames();
+
+        $obj->setGardeMontants(true);
+        $this->assertEquals(true, $obj->getGardeMontants());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new Trames();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 }

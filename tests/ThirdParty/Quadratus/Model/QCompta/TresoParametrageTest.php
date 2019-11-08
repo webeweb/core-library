@@ -35,4 +35,43 @@ class TresoParametrageTest extends AbstractTestCase {
         $this->assertNull($obj->getRegle());
         $this->assertNull($obj->getType());
     }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new TresoParametrage();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setRegle() method.
+     *
+     * @return void
+     */
+    public function testSetRegle() {
+
+        $obj = new TresoParametrage();
+
+        $obj->setRegle("regle");
+        $this->assertEquals("regle", $obj->getRegle());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new TresoParametrage();
+
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 }

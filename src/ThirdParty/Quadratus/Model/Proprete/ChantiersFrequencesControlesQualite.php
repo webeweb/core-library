@@ -11,15 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolQuePremiereAnneeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroFreqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringJourTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMoisTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeControleTrait;
-
 /**
  * Chantiers frequences controles qualite.
  *
@@ -28,19 +19,218 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeControleTrait;
  */
 class ChantiersFrequencesControlesQualite {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringJourTrait;
-    use StringMoisTrait;
-    use IntNumeroFreqTrait;
-    use BoolQuePremiereAnneeTrait;
-    use StringTypeControleTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Jour.
+     *
+     * @var string
+     */
+    private $jour;
+
+    /**
+     * Mois.
+     *
+     * @var string
+     */
+    private $mois;
+
+    /**
+     * Numero freq.
+     *
+     * @var int
+     */
+    private $numeroFreq;
+
+    /**
+     * Que premiere annee.
+     *
+     * @var bool
+     */
+    private $quePremiereAnnee;
+
+    /**
+     * Type controle.
+     *
+     * @var string
+     */
+    private $typeControle;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the jour.
+     *
+     * @return string Returns the jour.
+     */
+    public function getJour() {
+        return $this->jour;
+    }
+
+    /**
+     * Get the mois.
+     *
+     * @return string Returns the mois.
+     */
+    public function getMois() {
+        return $this->mois;
+    }
+
+    /**
+     * Get the numero freq.
+     *
+     * @return int Returns the numero freq.
+     */
+    public function getNumeroFreq() {
+        return $this->numeroFreq;
+    }
+
+    /**
+     * Get the que premiere annee.
+     *
+     * @return bool Returns the que premiere annee.
+     */
+    public function getQuePremiereAnnee() {
+        return $this->quePremiereAnnee;
+    }
+
+    /**
+     * Get the type controle.
+     *
+     * @return string Returns the type controle.
+     */
+    public function getTypeControle() {
+        return $this->typeControle;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the jour.
+     *
+     * @param string $jour The jour.
+     */
+    public function setJour($jour) {
+        $this->jour = $jour;
+        return $this;
+    }
+
+    /**
+     * Set the mois.
+     *
+     * @param string $mois The mois.
+     */
+    public function setMois($mois) {
+        $this->mois = $mois;
+        return $this;
+    }
+
+    /**
+     * Set the numero freq.
+     *
+     * @param int $numeroFreq The numero freq.
+     */
+    public function setNumeroFreq($numeroFreq) {
+        $this->numeroFreq = $numeroFreq;
+        return $this;
+    }
+
+    /**
+     * Set the que premiere annee.
+     *
+     * @param bool $quePremiereAnnee The que premiere annee.
+     */
+    public function setQuePremiereAnnee($quePremiereAnnee) {
+        $this->quePremiereAnnee = $quePremiereAnnee;
+        return $this;
+    }
+
+    /**
+     * Set the type controle.
+     *
+     * @param string $typeControle The type controle.
+     */
+    public function setTypeControle($typeControle) {
+        $this->typeControle = $typeControle;
+        return $this;
     }
 }

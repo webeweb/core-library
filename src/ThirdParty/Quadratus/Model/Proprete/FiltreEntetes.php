@@ -11,14 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolCommercialFactureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeFiltreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringFonctionnaliteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeFiltreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniqIdTrait;
-
 /**
  * Filtre entetes.
  *
@@ -27,18 +19,192 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniqIdTrait;
  */
 class FiltreEntetes {
 
-    use StringCodeFiltreTrait;
-    use StringCollaborateurTrait;
-    use BoolCommercialFactureTrait;
-    use StringFonctionnaliteTrait;
-    use StringLibelleTrait;
-    use StringTypeFiltreTrait;
-    use StringUniqIdTrait;
+    /**
+     * Code filtre.
+     *
+     * @var string
+     */
+    private $codeFiltre;
+
+    /**
+     * Collaborateur.
+     *
+     * @var string
+     */
+    private $collaborateur;
+
+    /**
+     * Commercial facture.
+     *
+     * @var bool
+     */
+    private $commercialFacture;
+
+    /**
+     * Fonctionnalite.
+     *
+     * @var string
+     */
+    private $fonctionnalite;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Type filtre.
+     *
+     * @var string
+     */
+    private $typeFiltre;
+
+    /**
+     * Uniq id.
+     *
+     * @var string
+     */
+    private $uniqId;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code filtre.
+     *
+     * @return string Returns the code filtre.
+     */
+    public function getCodeFiltre() {
+        return $this->codeFiltre;
+    }
+
+    /**
+     * Get the collaborateur.
+     *
+     * @return string Returns the collaborateur.
+     */
+    public function getCollaborateur() {
+        return $this->collaborateur;
+    }
+
+    /**
+     * Get the commercial facture.
+     *
+     * @return bool Returns the commercial facture.
+     */
+    public function getCommercialFacture() {
+        return $this->commercialFacture;
+    }
+
+    /**
+     * Get the fonctionnalite.
+     *
+     * @return string Returns the fonctionnalite.
+     */
+    public function getFonctionnalite() {
+        return $this->fonctionnalite;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the type filtre.
+     *
+     * @return string Returns the type filtre.
+     */
+    public function getTypeFiltre() {
+        return $this->typeFiltre;
+    }
+
+    /**
+     * Get the uniq id.
+     *
+     * @return string Returns the uniq id.
+     */
+    public function getUniqId() {
+        return $this->uniqId;
+    }
+
+    /**
+     * Set the code filtre.
+     *
+     * @param string $codeFiltre The code filtre.
+     */
+    public function setCodeFiltre($codeFiltre) {
+        $this->codeFiltre = $codeFiltre;
+        return $this;
+    }
+
+    /**
+     * Set the collaborateur.
+     *
+     * @param string $collaborateur The collaborateur.
+     */
+    public function setCollaborateur($collaborateur) {
+        $this->collaborateur = $collaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the commercial facture.
+     *
+     * @param bool $commercialFacture The commercial facture.
+     */
+    public function setCommercialFacture($commercialFacture) {
+        $this->commercialFacture = $commercialFacture;
+        return $this;
+    }
+
+    /**
+     * Set the fonctionnalite.
+     *
+     * @param string $fonctionnalite The fonctionnalite.
+     */
+    public function setFonctionnalite($fonctionnalite) {
+        $this->fonctionnalite = $fonctionnalite;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the type filtre.
+     *
+     * @param string $typeFiltre The type filtre.
+     */
+    public function setTypeFiltre($typeFiltre) {
+        $this->typeFiltre = $typeFiltre;
+        return $this;
+    }
+
+    /**
+     * Set the uniq id.
+     *
+     * @param string $uniqId The uniq id.
+     */
+    public function setUniqId($uniqId) {
+        $this->uniqId = $uniqId;
+        return $this;
     }
 }

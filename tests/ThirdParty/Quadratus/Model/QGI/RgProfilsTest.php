@@ -39,4 +39,95 @@ class RgProfilsTest extends AbstractTestCase {
         $this->assertNull($obj->getPathFormat());
         $this->assertNull($obj->getUniqId());
     }
+
+    /**
+     * Tests the setFichiersMove() method.
+     *
+     * @return void
+     */
+    public function testSetFichiersMove() {
+
+        $obj = new RgProfils();
+
+        $obj->setFichiersMove("fichiersMove");
+        $this->assertEquals("fichiersMove", $obj->getFichiersMove());
+    }
+
+    /**
+     * Tests the setFichiersPublierWeb() method.
+     *
+     * @return void
+     */
+    public function testSetFichiersPublierWeb() {
+
+        $obj = new RgProfils();
+
+        $obj->setFichiersPublierWeb("fichiersPublierWeb");
+        $this->assertEquals("fichiersPublierWeb", $obj->getFichiersPublierWeb());
+    }
+
+    /**
+     * Tests the setNiveauMaxi() method.
+     *
+     * @return void
+     */
+    public function testSetNiveauMaxi() {
+
+        $obj = new RgProfils();
+
+        $obj->setNiveauMaxi("niveauMaxi");
+        $this->assertEquals("niveauMaxi", $obj->getNiveauMaxi());
+    }
+
+    /**
+     * Tests the setNiveauSupplementairelibelle() method.
+     *
+     * @return void
+     */
+    public function testSetNiveauSupplementairelibelle() {
+
+        $obj = new RgProfils();
+
+        $obj->setNiveauSupplementairelibelle(true);
+        $this->assertEquals(true, $obj->getNiveauSupplementairelibelle());
+    }
+
+    /**
+     * Tests the setPath() method.
+     *
+     * @return void
+     */
+    public function testSetPath() {
+
+        $obj = new RgProfils();
+
+        $obj->setPath("path");
+        $this->assertEquals("path", $obj->getPath());
+    }
+
+    /**
+     * Tests the setPathFormat() method.
+     *
+     * @return void
+     */
+    public function testSetPathFormat() {
+
+        $obj = new RgProfils();
+
+        $obj->setPathFormat("pathFormat");
+        $this->assertEquals("pathFormat", $obj->getPathFormat());
+    }
+
+    /**
+     * Tests the setUniqId() method.
+     *
+     * @return void
+     */
+    public function testSetUniqId() {
+
+        $obj = new RgProfils();
+
+        $obj->setUniqId("uniqId");
+        $this->assertEquals("uniqId", $obj->getUniqId());
+    }
 }

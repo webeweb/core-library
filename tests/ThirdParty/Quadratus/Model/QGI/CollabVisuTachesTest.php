@@ -34,4 +34,30 @@ class CollabVisuTachesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCollab());
         $this->assertNull($obj->getCodeTacheVisu());
     }
+
+    /**
+     * Tests the setCodeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollab() {
+
+        $obj = new CollabVisuTaches();
+
+        $obj->setCodeCollab("codeCollab");
+        $this->assertEquals("codeCollab", $obj->getCodeCollab());
+    }
+
+    /**
+     * Tests the setCodeTacheVisu() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTacheVisu() {
+
+        $obj = new CollabVisuTaches();
+
+        $obj->setCodeTacheVisu("codeTacheVisu");
+        $this->assertEquals("codeTacheVisu", $obj->getCodeTacheVisu());
+    }
 }

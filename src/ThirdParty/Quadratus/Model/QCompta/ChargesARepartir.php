@@ -11,17 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatCoeffDegressifTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDureeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxLineaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroPjTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCentreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumContratTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumCptCarTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeAmortTrait;
+use DateTime;
 
 /**
  * Charges a repartir.
@@ -31,22 +21,296 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeAmortTrait;
  */
 class ChargesARepartir {
 
-    use StringCodeCentreTrait;
-    use FloatCoeffDegressifTrait;
-    use DateTimeDateTrait;
-    use FloatDureeTrait;
-    use StringLibelleTrait;
-    use FloatMontantTrait;
-    use StringNumContratTrait;
-    use StringNumCptCarTrait;
-    use IntNumeroPjTrait;
-    use FloatTauxLineaireTrait;
-    use StringTypeAmortTrait;
+    /**
+     * Code centre.
+     *
+     * @var string
+     */
+    private $codeCentre;
+
+    /**
+     * Coeff degressif.
+     *
+     * @var float
+     */
+    private $coeffDegressif;
+
+    /**
+     * Date.
+     *
+     * @var DateTime|null
+     */
+    private $date;
+
+    /**
+     * Duree.
+     *
+     * @var float
+     */
+    private $duree;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Montant.
+     *
+     * @var float
+     */
+    private $montant;
+
+    /**
+     * Num contrat.
+     *
+     * @var string
+     */
+    private $numContrat;
+
+    /**
+     * Num cpt car.
+     *
+     * @var string
+     */
+    private $numCptCar;
+
+    /**
+     * Numero pj.
+     *
+     * @var int
+     */
+    private $numeroPj;
+
+    /**
+     * Taux lineaire.
+     *
+     * @var float
+     */
+    private $tauxLineaire;
+
+    /**
+     * Type amort.
+     *
+     * @var string
+     */
+    private $typeAmort;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code centre.
+     *
+     * @return string Returns the code centre.
+     */
+    public function getCodeCentre() {
+        return $this->codeCentre;
+    }
+
+    /**
+     * Get the coeff degressif.
+     *
+     * @return float Returns the coeff degressif.
+     */
+    public function getCoeffDegressif() {
+        return $this->coeffDegressif;
+    }
+
+    /**
+     * Get the date.
+     *
+     * @return DateTime|null Returns the date.
+     */
+    public function getDate() {
+        return $this->date;
+    }
+
+    /**
+     * Get the duree.
+     *
+     * @return float Returns the duree.
+     */
+    public function getDuree() {
+        return $this->duree;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the montant.
+     *
+     * @return float Returns the montant.
+     */
+    public function getMontant() {
+        return $this->montant;
+    }
+
+    /**
+     * Get the num contrat.
+     *
+     * @return string Returns the num contrat.
+     */
+    public function getNumContrat() {
+        return $this->numContrat;
+    }
+
+    /**
+     * Get the num cpt car.
+     *
+     * @return string Returns the num cpt car.
+     */
+    public function getNumCptCar() {
+        return $this->numCptCar;
+    }
+
+    /**
+     * Get the numero pj.
+     *
+     * @return int Returns the numero pj.
+     */
+    public function getNumeroPj() {
+        return $this->numeroPj;
+    }
+
+    /**
+     * Get the taux lineaire.
+     *
+     * @return float Returns the taux lineaire.
+     */
+    public function getTauxLineaire() {
+        return $this->tauxLineaire;
+    }
+
+    /**
+     * Get the type amort.
+     *
+     * @return string Returns the type amort.
+     */
+    public function getTypeAmort() {
+        return $this->typeAmort;
+    }
+
+    /**
+     * Set the code centre.
+     *
+     * @param string $codeCentre The code centre.
+     */
+    public function setCodeCentre($codeCentre) {
+        $this->codeCentre = $codeCentre;
+        return $this;
+    }
+
+    /**
+     * Set the coeff degressif.
+     *
+     * @param float $coeffDegressif The coeff degressif.
+     */
+    public function setCoeffDegressif($coeffDegressif) {
+        $this->coeffDegressif = $coeffDegressif;
+        return $this;
+    }
+
+    /**
+     * Set the date.
+     *
+     * @param DateTime|null $date The date.
+     */
+    public function setDate(DateTime $date = null) {
+        $this->date = $date;
+        return $this;
+    }
+
+    /**
+     * Set the duree.
+     *
+     * @param float $duree The duree.
+     */
+    public function setDuree($duree) {
+        $this->duree = $duree;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the montant.
+     *
+     * @param float $montant The montant.
+     */
+    public function setMontant($montant) {
+        $this->montant = $montant;
+        return $this;
+    }
+
+    /**
+     * Set the num contrat.
+     *
+     * @param string $numContrat The num contrat.
+     */
+    public function setNumContrat($numContrat) {
+        $this->numContrat = $numContrat;
+        return $this;
+    }
+
+    /**
+     * Set the num cpt car.
+     *
+     * @param string $numCptCar The num cpt car.
+     */
+    public function setNumCptCar($numCptCar) {
+        $this->numCptCar = $numCptCar;
+        return $this;
+    }
+
+    /**
+     * Set the numero pj.
+     *
+     * @param int $numeroPj The numero pj.
+     */
+    public function setNumeroPj($numeroPj) {
+        $this->numeroPj = $numeroPj;
+        return $this;
+    }
+
+    /**
+     * Set the taux lineaire.
+     *
+     * @param float $tauxLineaire The taux lineaire.
+     */
+    public function setTauxLineaire($tauxLineaire) {
+        $this->tauxLineaire = $tauxLineaire;
+        return $this;
+    }
+
+    /**
+     * Set the type amort.
+     *
+     * @param string $typeAmort The type amort.
+     */
+    public function setTypeAmort($typeAmort) {
+        $this->typeAmort = $typeAmort;
+        return $this;
     }
 }

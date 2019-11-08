@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AccesWeb;
 
@@ -70,5 +72,524 @@ class AccesWebTest extends AbstractTestCase {
         $this->assertNull($obj->getRestrCliPortef());
         $this->assertNull($obj->getTentatives());
         $this->assertNull($obj->getiKey());
+    }
+
+    /**
+     * Tests the setAccesAgenda() method.
+     *
+     * @return void
+     */
+    public function testSetAccesAgenda() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesAgenda(true);
+        $this->assertEquals(true, $obj->getAccesAgenda());
+    }
+
+    /**
+     * Tests the setAccesArticles() method.
+     *
+     * @return void
+     */
+    public function testSetAccesArticles() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesArticles(true);
+        $this->assertEquals(true, $obj->getAccesArticles());
+    }
+
+    /**
+     * Tests the setAccesArticlesConsommes() method.
+     *
+     * @return void
+     */
+    public function testSetAccesArticlesConsommes() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesArticlesConsommes(true);
+        $this->assertEquals(true, $obj->getAccesArticlesConsommes());
+    }
+
+    /**
+     * Tests the setAccesClients() method.
+     *
+     * @return void
+     */
+    public function testSetAccesClients() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesClients(true);
+        $this->assertEquals(true, $obj->getAccesClients());
+    }
+
+    /**
+     * Tests the setAccesClientsFavoris() method.
+     *
+     * @return void
+     */
+    public function testSetAccesClientsFavoris() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesClientsFavoris(true);
+        $this->assertEquals(true, $obj->getAccesClientsFavoris());
+    }
+
+    /**
+     * Tests the setAccesConsultation() method.
+     *
+     * @return void
+     */
+    public function testSetAccesConsultation() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesConsultation(true);
+        $this->assertEquals(true, $obj->getAccesConsultation());
+    }
+
+    /**
+     * Tests the setAccesDossierCabinet() method.
+     *
+     * @return void
+     */
+    public function testSetAccesDossierCabinet() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesDossierCabinet(true);
+        $this->assertEquals(true, $obj->getAccesDossierCabinet());
+    }
+
+    /**
+     * Tests the setAccesFacture() method.
+     *
+     * @return void
+     */
+    public function testSetAccesFacture() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesFacture(true);
+        $this->assertEquals(true, $obj->getAccesFacture());
+    }
+
+    /**
+     * Tests the setAccesIBureau() method.
+     *
+     * @return void
+     */
+    public function testSetAccesIBureau() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesIBureau(true);
+        $this->assertEquals(true, $obj->getAccesIBureau());
+    }
+
+    /**
+     * Tests the setAccesInterventions() method.
+     *
+     * @return void
+     */
+    public function testSetAccesInterventions() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesInterventions(true);
+        $this->assertEquals(true, $obj->getAccesInterventions());
+    }
+
+    /**
+     * Tests the setAccesListeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetAccesListeCollab() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesListeCollab(true);
+        $this->assertEquals(true, $obj->getAccesListeCollab());
+    }
+
+    /**
+     * Tests the setAccesMessages() method.
+     *
+     * @return void
+     */
+    public function testSetAccesMessages() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesMessages(true);
+        $this->assertEquals(true, $obj->getAccesMessages());
+    }
+
+    /**
+     * Tests the setAccesNoteFrais() method.
+     *
+     * @return void
+     */
+    public function testSetAccesNoteFrais() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesNoteFrais(true);
+        $this->assertEquals(true, $obj->getAccesNoteFrais());
+    }
+
+    /**
+     * Tests the setAccesRepertoire() method.
+     *
+     * @return void
+     */
+    public function testSetAccesRepertoire() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesRepertoire(true);
+        $this->assertEquals(true, $obj->getAccesRepertoire());
+    }
+
+    /**
+     * Tests the setAccesSaisieCommande() method.
+     *
+     * @return void
+     */
+    public function testSetAccesSaisieCommande() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesSaisieCommande(true);
+        $this->assertEquals(true, $obj->getAccesSaisieCommande());
+    }
+
+    /**
+     * Tests the setAccesSaisieTp() method.
+     *
+     * @return void
+     */
+    public function testSetAccesSaisieTp() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesSaisieTp(true);
+        $this->assertEquals(true, $obj->getAccesSaisieTp());
+    }
+
+    /**
+     * Tests the setAccesSoldeCpta() method.
+     *
+     * @return void
+     */
+    public function testSetAccesSoldeCpta() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesSoldeCpta(true);
+        $this->assertEquals(true, $obj->getAccesSoldeCpta());
+    }
+
+    /**
+     * Tests the setAccesTableauxBord() method.
+     *
+     * @return void
+     */
+    public function testSetAccesTableauxBord() {
+
+        $obj = new AccesWeb();
+
+        $obj->setAccesTableauxBord(true);
+        $this->assertEquals(true, $obj->getAccesTableauxBord());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new AccesWeb();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setDateActivation() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateActivation() {
+
+        // Set a Date/time mock.
+        $dateActivation = new DateTime("2018-09-10");
+
+        $obj = new AccesWeb();
+
+        $obj->setDateActivation($dateActivation);
+        $this->assertSame($dateActivation, $obj->getDateActivation());
+    }
+
+    /**
+     * Tests the setDateFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateFin() {
+
+        // Set a Date/time mock.
+        $dateFin = new DateTime("2018-09-10");
+
+        $obj = new AccesWeb();
+
+        $obj->setDateFin($dateFin);
+        $this->assertSame($dateFin, $obj->getDateFin());
+    }
+
+    /**
+     * Tests the setDernTentative() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDernTentative() {
+
+        // Set a Date/time mock.
+        $dernTentative = new DateTime("2018-09-10");
+
+        $obj = new AccesWeb();
+
+        $obj->setDernTentative($dernTentative);
+        $this->assertSame($dernTentative, $obj->getDernTentative());
+    }
+
+    /**
+     * Tests the setDossCpta() method.
+     *
+     * @return void
+     */
+    public function testSetDossCpta() {
+
+        $obj = new AccesWeb();
+
+        $obj->setDossCpta("dossCpta");
+        $this->assertEquals("dossCpta", $obj->getDossCpta());
+    }
+
+    /**
+     * Tests the setDossPaie() method.
+     *
+     * @return void
+     */
+    public function testSetDossPaie() {
+
+        $obj = new AccesWeb();
+
+        $obj->setDossPaie("dossPaie");
+        $this->assertEquals("dossPaie", $obj->getDossPaie());
+    }
+
+    /**
+     * Tests the setDossProp() method.
+     *
+     * @return void
+     */
+    public function testSetDossProp() {
+
+        $obj = new AccesWeb();
+
+        $obj->setDossProp("dossProp");
+        $this->assertEquals("dossProp", $obj->getDossProp());
+    }
+
+    /**
+     * Tests the setDupliqueIntervention() method.
+     *
+     * @return void
+     */
+    public function testSetDupliqueIntervention() {
+
+        $obj = new AccesWeb();
+
+        $obj->setDupliqueIntervention(true);
+        $this->assertEquals(true, $obj->getDupliqueIntervention());
+    }
+
+    /**
+     * Tests the setMemeMdpQueIBureau() method.
+     *
+     * @return void
+     */
+    public function testSetMemeMdpQueIBureau() {
+
+        $obj = new AccesWeb();
+
+        $obj->setMemeMdpQueIBureau(true);
+        $this->assertEquals(true, $obj->getMemeMdpQueIBureau());
+    }
+
+    /**
+     * Tests the setMotDePasse() method.
+     *
+     * @return void
+     */
+    public function testSetMotDePasse() {
+
+        $obj = new AccesWeb();
+
+        $obj->setMotDePasse("motDePasse");
+        $this->assertEquals("motDePasse", $obj->getMotDePasse());
+    }
+
+    /**
+     * Tests the setRestrCliAssist1() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliAssist1() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliAssist1("restrCliAssist1");
+        $this->assertEquals("restrCliAssist1", $obj->getRestrCliAssist1());
+    }
+
+    /**
+     * Tests the setRestrCliAssist2() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliAssist2() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliAssist2("restrCliAssist2");
+        $this->assertEquals("restrCliAssist2", $obj->getRestrCliAssist2());
+    }
+
+    /**
+     * Tests the setRestrCliAutre1() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliAutre1() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliAutre1("restrCliAutre1");
+        $this->assertEquals("restrCliAutre1", $obj->getRestrCliAutre1());
+    }
+
+    /**
+     * Tests the setRestrCliAutre2() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliAutre2() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliAutre2("restrCliAutre2");
+        $this->assertEquals("restrCliAutre2", $obj->getRestrCliAutre2());
+    }
+
+    /**
+     * Tests the setRestrCliCollab() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliCollab() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliCollab("restrCliCollab");
+        $this->assertEquals("restrCliCollab", $obj->getRestrCliCollab());
+    }
+
+    /**
+     * Tests the setRestrCliDebut() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliDebut() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliDebut("restrCliDebut");
+        $this->assertEquals("restrCliDebut", $obj->getRestrCliDebut());
+    }
+
+    /**
+     * Tests the setRestrCliExpert() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliExpert() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliExpert("restrCliExpert");
+        $this->assertEquals("restrCliExpert", $obj->getRestrCliExpert());
+    }
+
+    /**
+     * Tests the setRestrCliFin() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliFin() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliFin("restrCliFin");
+        $this->assertEquals("restrCliFin", $obj->getRestrCliFin());
+    }
+
+    /**
+     * Tests the setRestrCliPortef() method.
+     *
+     * @return void
+     */
+    public function testSetRestrCliPortef() {
+
+        $obj = new AccesWeb();
+
+        $obj->setRestrCliPortef("restrCliPortef");
+        $this->assertEquals("restrCliPortef", $obj->getRestrCliPortef());
+    }
+
+    /**
+     * Tests the setTentatives() method.
+     *
+     * @return void
+     */
+    public function testSetTentatives() {
+
+        $obj = new AccesWeb();
+
+        $obj->setTentatives("tentatives");
+        $this->assertEquals("tentatives", $obj->getTentatives());
+    }
+
+    /**
+     * Tests the setiKey() method.
+     *
+     * @return void
+     */
+    public function testSetiKey() {
+
+        $obj = new AccesWeb();
+
+        $obj->setiKey("iKey");
+        $this->assertEquals("iKey", $obj->getiKey());
     }
 }

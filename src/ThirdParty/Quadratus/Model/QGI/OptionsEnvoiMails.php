@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolAvecEnteteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolAvecPiedTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollabTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeModuleTrait;
-
 /**
  * Options envoi mails.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeModuleTrait;
  */
 class OptionsEnvoiMails {
 
-    use BoolAvecEnteteTrait;
-    use BoolAvecPiedTrait;
-    use StringCodeCollabTrait;
-    use StringCodeModuleTrait;
+    /**
+     * Avec entete.
+     *
+     * @var bool
+     */
+    private $avecEntete;
+
+    /**
+     * Avec pied.
+     *
+     * @var bool
+     */
+    private $avecPied;
+
+    /**
+     * Code collab.
+     *
+     * @var string
+     */
+    private $codeCollab;
+
+    /**
+     * Code module.
+     *
+     * @var string
+     */
+    private $codeModule;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the avec entete.
+     *
+     * @return bool Returns the avec entete.
+     */
+    public function getAvecEntete() {
+        return $this->avecEntete;
+    }
+
+    /**
+     * Get the avec pied.
+     *
+     * @return bool Returns the avec pied.
+     */
+    public function getAvecPied() {
+        return $this->avecPied;
+    }
+
+    /**
+     * Get the code collab.
+     *
+     * @return string Returns the code collab.
+     */
+    public function getCodeCollab() {
+        return $this->codeCollab;
+    }
+
+    /**
+     * Get the code module.
+     *
+     * @return string Returns the code module.
+     */
+    public function getCodeModule() {
+        return $this->codeModule;
+    }
+
+    /**
+     * Set the avec entete.
+     *
+     * @param bool $avecEntete The avec entete.
+     */
+    public function setAvecEntete($avecEntete) {
+        $this->avecEntete = $avecEntete;
+        return $this;
+    }
+
+    /**
+     * Set the avec pied.
+     *
+     * @param bool $avecPied The avec pied.
+     */
+    public function setAvecPied($avecPied) {
+        $this->avecPied = $avecPied;
+        return $this;
+    }
+
+    /**
+     * Set the code collab.
+     *
+     * @param string $codeCollab The code collab.
+     */
+    public function setCodeCollab($codeCollab) {
+        $this->codeCollab = $codeCollab;
+        return $this;
+    }
+
+    /**
+     * Set the code module.
+     *
+     * @param string $codeModule The code module.
+     */
+    public function setCodeModule($codeModule) {
+        $this->codeModule = $codeModule;
+        return $this;
     }
 }

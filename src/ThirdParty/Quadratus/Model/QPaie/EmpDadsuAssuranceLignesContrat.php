@@ -11,13 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCodeEtablissementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeOrganismeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNbEnfantsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefContratTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniteGestionTrait;
-
 /**
  * Emp dadsu assurance lignes contrat.
  *
@@ -26,17 +19,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniteGestionTrait;
  */
 class EmpDadsuAssuranceLignesContrat {
 
-    use IntCodeEtablissementTrait;
-    use StringCodeOrganismeTrait;
-    use StringNbEnfantsTrait;
-    use StringNumeroEmployeTrait;
-    use StringRefContratTrait;
-    use StringUniteGestionTrait;
+    /**
+     * Code etablissement.
+     *
+     * @var int
+     */
+    private $codeEtablissement;
+
+    /**
+     * Code organisme.
+     *
+     * @var string
+     */
+    private $codeOrganisme;
+
+    /**
+     * Nb enfants.
+     *
+     * @var string
+     */
+    private $nbEnfants;
+
+    /**
+     * Numero employe.
+     *
+     * @var string
+     */
+    private $numeroEmploye;
+
+    /**
+     * Ref contrat.
+     *
+     * @var string
+     */
+    private $refContrat;
+
+    /**
+     * Unite gestion.
+     *
+     * @var string
+     */
+    private $uniteGestion;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code etablissement.
+     *
+     * @return int Returns the code etablissement.
+     */
+    public function getCodeEtablissement() {
+        return $this->codeEtablissement;
+    }
+
+    /**
+     * Get the code organisme.
+     *
+     * @return string Returns the code organisme.
+     */
+    public function getCodeOrganisme() {
+        return $this->codeOrganisme;
+    }
+
+    /**
+     * Get the nb enfants.
+     *
+     * @return string Returns the nb enfants.
+     */
+    public function getNbEnfants() {
+        return $this->nbEnfants;
+    }
+
+    /**
+     * Get the numero employe.
+     *
+     * @return string Returns the numero employe.
+     */
+    public function getNumeroEmploye() {
+        return $this->numeroEmploye;
+    }
+
+    /**
+     * Get the ref contrat.
+     *
+     * @return string Returns the ref contrat.
+     */
+    public function getRefContrat() {
+        return $this->refContrat;
+    }
+
+    /**
+     * Get the unite gestion.
+     *
+     * @return string Returns the unite gestion.
+     */
+    public function getUniteGestion() {
+        return $this->uniteGestion;
+    }
+
+    /**
+     * Set the code etablissement.
+     *
+     * @param int $codeEtablissement The code etablissement.
+     */
+    public function setCodeEtablissement($codeEtablissement) {
+        $this->codeEtablissement = $codeEtablissement;
+        return $this;
+    }
+
+    /**
+     * Set the code organisme.
+     *
+     * @param string $codeOrganisme The code organisme.
+     */
+    public function setCodeOrganisme($codeOrganisme) {
+        $this->codeOrganisme = $codeOrganisme;
+        return $this;
+    }
+
+    /**
+     * Set the nb enfants.
+     *
+     * @param string $nbEnfants The nb enfants.
+     */
+    public function setNbEnfants($nbEnfants) {
+        $this->nbEnfants = $nbEnfants;
+        return $this;
+    }
+
+    /**
+     * Set the numero employe.
+     *
+     * @param string $numeroEmploye The numero employe.
+     */
+    public function setNumeroEmploye($numeroEmploye) {
+        $this->numeroEmploye = $numeroEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the ref contrat.
+     *
+     * @param string $refContrat The ref contrat.
+     */
+    public function setRefContrat($refContrat) {
+        $this->refContrat = $refContrat;
+        return $this;
+    }
+
+    /**
+     * Set the unite gestion.
+     *
+     * @param string $uniteGestion The unite gestion.
+     */
+    public function setUniteGestion($uniteGestion) {
+        $this->uniteGestion = $uniteGestion;
+        return $this;
     }
 }

@@ -36,4 +36,56 @@ class RegroupementEdBulTitresTest extends AbstractTestCase {
         $this->assertNull($obj->getQuadra());
         $this->assertNull($obj->getTitre());
     }
+
+    /**
+     * Tests the setAfficher() method.
+     *
+     * @return void
+     */
+    public function testSetAfficher() {
+
+        $obj = new RegroupementEdBulTitres();
+
+        $obj->setAfficher(true);
+        $this->assertEquals(true, $obj->getAfficher());
+    }
+
+    /**
+     * Tests the setCodeTitre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTitre() {
+
+        $obj = new RegroupementEdBulTitres();
+
+        $obj->setCodeTitre("codeTitre");
+        $this->assertEquals("codeTitre", $obj->getCodeTitre());
+    }
+
+    /**
+     * Tests the setQuadra() method.
+     *
+     * @return void
+     */
+    public function testSetQuadra() {
+
+        $obj = new RegroupementEdBulTitres();
+
+        $obj->setQuadra(true);
+        $this->assertEquals(true, $obj->getQuadra());
+    }
+
+    /**
+     * Tests the setTitre() method.
+     *
+     * @return void
+     */
+    public function testSetTitre() {
+
+        $obj = new RegroupementEdBulTitres();
+
+        $obj->setTitre("titre");
+        $this->assertEquals("titre", $obj->getTitre());
+    }
 }

@@ -75,4 +75,563 @@ class Comptes2Test extends AbstractTestCase {
         $this->assertNull($obj->getTypeSuivi());
         $this->assertNull($obj->getZipCode());
     }
+
+    /**
+     * Tests the setAffacturage() method.
+     *
+     * @return void
+     */
+    public function testSetAffacturage() {
+
+        $obj = new Comptes2();
+
+        $obj->setAffacturage(true);
+        $this->assertEquals(true, $obj->getAffacturage());
+    }
+
+    /**
+     * Tests the setBic() method.
+     *
+     * @return void
+     */
+    public function testSetBic() {
+
+        $obj = new Comptes2();
+
+        $obj->setBic("bic");
+        $this->assertEquals("bic", $obj->getBic());
+    }
+
+    /**
+     * Tests the setBtq() method.
+     *
+     * @return void
+     */
+    public function testSetBtq() {
+
+        $obj = new Comptes2();
+
+        $obj->setBtq("btq");
+        $this->assertEquals("btq", $obj->getBtq());
+    }
+
+    /**
+     * Tests the setBureauDistributeur() method.
+     *
+     * @return void
+     */
+    public function testSetBureauDistributeur() {
+
+        $obj = new Comptes2();
+
+        $obj->setBureauDistributeur("bureauDistributeur");
+        $this->assertEquals("bureauDistributeur", $obj->getBureauDistributeur());
+    }
+
+    /**
+     * Tests the setCodeOfficielCommune() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOfficielCommune() {
+
+        $obj = new Comptes2();
+
+        $obj->setCodeOfficielCommune("codeOfficielCommune");
+        $this->assertEquals("codeOfficielCommune", $obj->getCodeOfficielCommune());
+    }
+
+    /**
+     * Tests the setCodePostal() method.
+     *
+     * @return void
+     */
+    public function testSetCodePostal() {
+
+        $obj = new Comptes2();
+
+        $obj->setCodePostal("codePostal");
+        $this->assertEquals("codePostal", $obj->getCodePostal());
+    }
+
+    /**
+     * Tests the setComplement() method.
+     *
+     * @return void
+     */
+    public function testSetComplement() {
+
+        $obj = new Comptes2();
+
+        $obj->setComplement("complement");
+        $this->assertEquals("complement", $obj->getComplement());
+    }
+
+    /**
+     * Tests the setComplementSuite() method.
+     *
+     * @return void
+     */
+    public function testSetComplementSuite() {
+
+        $obj = new Comptes2();
+
+        $obj->setComplementSuite("complementSuite");
+        $this->assertEquals("complementSuite", $obj->getComplementSuite());
+    }
+
+    /**
+     * Tests the setContrepartieAuto() method.
+     *
+     * @return void
+     */
+    public function testSetContrepartieAuto() {
+
+        $obj = new Comptes2();
+
+        $obj->setContrepartieAuto("contrepartieAuto");
+        $this->assertEquals("contrepartieAuto", $obj->getContrepartieAuto());
+    }
+
+    /**
+     * Tests the setCptFourAffacturage() method.
+     *
+     * @return void
+     */
+    public function testSetCptFourAffacturage() {
+
+        $obj = new Comptes2();
+
+        $obj->setCptFourAffacturage("cptFourAffacturage");
+        $this->assertEquals("cptFourAffacturage", $obj->getCptFourAffacturage());
+    }
+
+    /**
+     * Tests the setCptOrigine() method.
+     *
+     * @return void
+     */
+    public function testSetCptOrigine() {
+
+        $obj = new Comptes2();
+
+        $obj->setCptOrigine("cptOrigine");
+        $this->assertEquals("cptOrigine", $obj->getCptOrigine());
+    }
+
+    /**
+     * Tests the setDomBanque() method.
+     *
+     * @return void
+     */
+    public function testSetDomBanque() {
+
+        $obj = new Comptes2();
+
+        $obj->setDomBanque("domBanque");
+        $this->assertEquals("domBanque", $obj->getDomBanque());
+    }
+
+    /**
+     * Tests the setDomBanque2() method.
+     *
+     * @return void
+     */
+    public function testSetDomBanque2() {
+
+        $obj = new Comptes2();
+
+        $obj->setDomBanque2("domBanque2");
+        $this->assertEquals("domBanque2", $obj->getDomBanque2());
+    }
+
+    /**
+     * Tests the setDomBanque3() method.
+     *
+     * @return void
+     */
+    public function testSetDomBanque3() {
+
+        $obj = new Comptes2();
+
+        $obj->setDomBanque3("domBanque3");
+        $this->assertEquals("domBanque3", $obj->getDomBanque3());
+    }
+
+    /**
+     * Tests the setEcheanceFinDecade() method.
+     *
+     * @return void
+     */
+    public function testSetEcheanceFinDecade() {
+
+        $obj = new Comptes2();
+
+        $obj->setEcheanceFinDecade(true);
+        $this->assertEquals(true, $obj->getEcheanceFinDecade());
+    }
+
+    /**
+     * Tests the setEcheanceFinQuinzaine() method.
+     *
+     * @return void
+     */
+    public function testSetEcheanceFinQuinzaine() {
+
+        $obj = new Comptes2();
+
+        $obj->setEcheanceFinQuinzaine(true);
+        $this->assertEquals(true, $obj->getEcheanceFinQuinzaine());
+    }
+
+    /**
+     * Tests the setEmail() method.
+     *
+     * @return void
+     */
+    public function testSetEmail() {
+
+        $obj = new Comptes2();
+
+        $obj->setEmail("email");
+        $this->assertEquals("email", $obj->getEmail());
+    }
+
+    /**
+     * Tests the setFax() method.
+     *
+     * @return void
+     */
+    public function testSetFax() {
+
+        $obj = new Comptes2();
+
+        $obj->setFax("fax");
+        $this->assertEquals("fax", $obj->getFax());
+    }
+
+    /**
+     * Tests the setIban() method.
+     *
+     * @return void
+     */
+    public function testSetIban() {
+
+        $obj = new Comptes2();
+
+        $obj->setIban("iban");
+        $this->assertEquals("iban", $obj->getIban());
+    }
+
+    /**
+     * Tests the setIbanCodeImputFrais() method.
+     *
+     * @return void
+     */
+    public function testSetIbanCodeImputFrais() {
+
+        $obj = new Comptes2();
+
+        $obj->setIbanCodeImputFrais("ibanCodeImputFrais");
+        $this->assertEquals("ibanCodeImputFrais", $obj->getIbanCodeImputFrais());
+    }
+
+    /**
+     * Tests the setIdentTva() method.
+     *
+     * @return void
+     */
+    public function testSetIdentTva() {
+
+        $obj = new Comptes2();
+
+        $obj->setIdentTva("identTva");
+        $this->assertEquals("identTva", $obj->getIdentTva());
+    }
+
+    /**
+     * Tests the setJourDepartEcheance() method.
+     *
+     * @return void
+     */
+    public function testSetJourDepartEcheance() {
+
+        $obj = new Comptes2();
+
+        $obj->setJourDepartEcheance(10);
+        $this->assertEquals(10, $obj->getJourDepartEcheance());
+    }
+
+    /**
+     * Tests the setModePaiement() method.
+     *
+     * @return void
+     */
+    public function testSetModePaiement() {
+
+        $obj = new Comptes2();
+
+        $obj->setModePaiement("modePaiement");
+        $this->assertEquals("modePaiement", $obj->getModePaiement());
+    }
+
+    /**
+     * Tests the setNbJoursEcheance() method.
+     *
+     * @return void
+     */
+    public function testSetNbJoursEcheance() {
+
+        $obj = new Comptes2();
+
+        $obj->setNbJoursEcheance("nbJoursEcheance");
+        $this->assertEquals("nbJoursEcheance", $obj->getNbJoursEcheance());
+    }
+
+    /**
+     * Tests the setNiveauRelance() method.
+     *
+     * @return void
+     */
+    public function testSetNiveauRelance() {
+
+        $obj = new Comptes2();
+
+        $obj->setNiveauRelance("niveauRelance");
+        $this->assertEquals("niveauRelance", $obj->getNiveauRelance());
+    }
+
+    /**
+     * Tests the setNomVille() method.
+     *
+     * @return void
+     */
+    public function testSetNomVille() {
+
+        $obj = new Comptes2();
+
+        $obj->setNomVille("nomVille");
+        $this->assertEquals("nomVille", $obj->getNomVille());
+    }
+
+    /**
+     * Tests the setNomVoie() method.
+     *
+     * @return void
+     */
+    public function testSetNomVoie() {
+
+        $obj = new Comptes2();
+
+        $obj->setNomVoie("nomVoie");
+        $this->assertEquals("nomVoie", $obj->getNomVoie());
+    }
+
+    /**
+     * Tests the setNumCptStock() method.
+     *
+     * @return void
+     */
+    public function testSetNumCptStock() {
+
+        $obj = new Comptes2();
+
+        $obj->setNumCptStock("numCptStock");
+        $this->assertEquals("numCptStock", $obj->getNumCptStock());
+    }
+
+    /**
+     * Tests the setNumMandat() method.
+     *
+     * @return void
+     */
+    public function testSetNumMandat() {
+
+        $obj = new Comptes2();
+
+        $obj->setNumMandat(10);
+        $this->assertEquals(10, $obj->getNumMandat());
+    }
+
+    /**
+     * Tests the setNumVoie() method.
+     *
+     * @return void
+     */
+    public function testSetNumVoie() {
+
+        $obj = new Comptes2();
+
+        $obj->setNumVoie("numVoie");
+        $this->assertEquals("numVoie", $obj->getNumVoie());
+    }
+
+    /**
+     * Tests the setNumeroCompte() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompte() {
+
+        $obj = new Comptes2();
+
+        $obj->setNumeroCompte("numeroCompte");
+        $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the setPays() method.
+     *
+     * @return void
+     */
+    public function testSetPays() {
+
+        $obj = new Comptes2();
+
+        $obj->setPays("pays");
+        $this->assertEquals("pays", $obj->getPays());
+    }
+
+    /**
+     * Tests the setProfession() method.
+     *
+     * @return void
+     */
+    public function testSetProfession() {
+
+        $obj = new Comptes2();
+
+        $obj->setProfession("profession");
+        $this->assertEquals("profession", $obj->getProfession());
+    }
+
+    /**
+     * Tests the setRib() method.
+     *
+     * @return void
+     */
+    public function testSetRib() {
+
+        $obj = new Comptes2();
+
+        $obj->setRib("rib");
+        $this->assertEquals("rib", $obj->getRib());
+    }
+
+    /**
+     * Tests the setRib2() method.
+     *
+     * @return void
+     */
+    public function testSetRib2() {
+
+        $obj = new Comptes2();
+
+        $obj->setRib2("rib2");
+        $this->assertEquals("rib2", $obj->getRib2());
+    }
+
+    /**
+     * Tests the setRib3() method.
+     *
+     * @return void
+     */
+    public function testSetRib3() {
+
+        $obj = new Comptes2();
+
+        $obj->setRib3("rib3");
+        $this->assertEquals("rib3", $obj->getRib3());
+    }
+
+    /**
+     * Tests the setSiret() method.
+     *
+     * @return void
+     */
+    public function testSetSiret() {
+
+        $obj = new Comptes2();
+
+        $obj->setSiret("siret");
+        $this->assertEquals("siret", $obj->getSiret());
+    }
+
+    /**
+     * Tests the setSuiviStock() method.
+     *
+     * @return void
+     */
+    public function testSetSuiviStock() {
+
+        $obj = new Comptes2();
+
+        $obj->setSuiviStock(true);
+        $this->assertEquals(true, $obj->getSuiviStock());
+    }
+
+    /**
+     * Tests the setTel1() method.
+     *
+     * @return void
+     */
+    public function testSetTel1() {
+
+        $obj = new Comptes2();
+
+        $obj->setTel1("tel1");
+        $this->assertEquals("tel1", $obj->getTel1());
+    }
+
+    /**
+     * Tests the setTel2() method.
+     *
+     * @return void
+     */
+    public function testSetTel2() {
+
+        $obj = new Comptes2();
+
+        $obj->setTel2("tel2");
+        $this->assertEquals("tel2", $obj->getTel2());
+    }
+
+    /**
+     * Tests the setTermeEcheanceLe() method.
+     *
+     * @return void
+     */
+    public function testSetTermeEcheanceLe() {
+
+        $obj = new Comptes2();
+
+        $obj->setTermeEcheanceLe("termeEcheanceLe");
+        $this->assertEquals("termeEcheanceLe", $obj->getTermeEcheanceLe());
+    }
+
+    /**
+     * Tests the setTypeSuivi() method.
+     *
+     * @return void
+     */
+    public function testSetTypeSuivi() {
+
+        $obj = new Comptes2();
+
+        $obj->setTypeSuivi("typeSuivi");
+        $this->assertEquals("typeSuivi", $obj->getTypeSuivi());
+    }
+
+    /**
+     * Tests the setZipCode() method.
+     *
+     * @return void
+     */
+    public function testSetZipCode() {
+
+        $obj = new Comptes2();
+
+        $obj->setZipCode("zipCode");
+        $this->assertEquals("zipCode", $obj->getZipCode());
+    }
 }

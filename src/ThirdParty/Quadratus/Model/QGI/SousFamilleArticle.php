@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringActivitePrincipaleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-
 /**
  * Sous famille article.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
  */
 class SousFamilleArticle {
 
-    use StringActivitePrincipaleTrait;
-    use StringCodeTrait;
-    use StringLibelleTrait;
+    /**
+     * Activite principale.
+     *
+     * @var string
+     */
+    private $activitePrincipale;
+
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the activite principale.
+     *
+     * @return string Returns the activite principale.
+     */
+    public function getActivitePrincipale() {
+        return $this->activitePrincipale;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Set the activite principale.
+     *
+     * @param string $activitePrincipale The activite principale.
+     */
+    public function setActivitePrincipale($activitePrincipale) {
+        $this->activitePrincipale = $activitePrincipale;
+        return $this;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
     }
 }

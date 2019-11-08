@@ -39,4 +39,95 @@ class RgCorrespondancesTest extends AbstractTestCase {
         $this->assertNull($obj->getValeur());
         $this->assertNull($obj->getValeurOrigine());
     }
+
+    /**
+     * Tests the setFichiersPublierWeb() method.
+     *
+     * @return void
+     */
+    public function testSetFichiersPublierWeb() {
+
+        $obj = new RgCorrespondances();
+
+        $obj->setFichiersPublierWeb("fichiersPublierWeb");
+        $this->assertEquals("fichiersPublierWeb", $obj->getFichiersPublierWeb());
+    }
+
+    /**
+     * Tests the setIgnorer() method.
+     *
+     * @return void
+     */
+    public function testSetIgnorer() {
+
+        $obj = new RgCorrespondances();
+
+        $obj->setIgnorer("ignorer");
+        $this->assertEquals("ignorer", $obj->getIgnorer());
+    }
+
+    /**
+     * Tests the setNiveau() method.
+     *
+     * @return void
+     */
+    public function testSetNiveau() {
+
+        $obj = new RgCorrespondances();
+
+        $obj->setNiveau(10);
+        $this->assertEquals(10, $obj->getNiveau());
+    }
+
+    /**
+     * Tests the setTypeDonnees() method.
+     *
+     * @return void
+     */
+    public function testSetTypeDonnees() {
+
+        $obj = new RgCorrespondances();
+
+        $obj->setTypeDonnees("typeDonnees");
+        $this->assertEquals("typeDonnees", $obj->getTypeDonnees());
+    }
+
+    /**
+     * Tests the setUniqId() method.
+     *
+     * @return void
+     */
+    public function testSetUniqId() {
+
+        $obj = new RgCorrespondances();
+
+        $obj->setUniqId("uniqId");
+        $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the setValeur() method.
+     *
+     * @return void
+     */
+    public function testSetValeur() {
+
+        $obj = new RgCorrespondances();
+
+        $obj->setValeur("valeur");
+        $this->assertEquals("valeur", $obj->getValeur());
+    }
+
+    /**
+     * Tests the setValeurOrigine() method.
+     *
+     * @return void
+     */
+    public function testSetValeurOrigine() {
+
+        $obj = new RgCorrespondances();
+
+        $obj->setValeurOrigine("valeurOrigine");
+        $this->assertEquals("valeurOrigine", $obj->getValeurOrigine());
+    }
 }

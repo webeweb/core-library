@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeBarreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeVarianteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-
 /**
  * Article variantes.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
  */
 class ArticleVariantes {
 
-    use StringCodeArticleTrait;
-    use StringCodeBarreTrait;
-    use StringCodeVarianteTrait;
-    use StringLibelleTrait;
+    /**
+     * Code article.
+     *
+     * @var string
+     */
+    private $codeArticle;
+
+    /**
+     * Code barre.
+     *
+     * @var string
+     */
+    private $codeBarre;
+
+    /**
+     * Code variante.
+     *
+     * @var string
+     */
+    private $codeVariante;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code article.
+     *
+     * @return string Returns the code article.
+     */
+    public function getCodeArticle() {
+        return $this->codeArticle;
+    }
+
+    /**
+     * Get the code barre.
+     *
+     * @return string Returns the code barre.
+     */
+    public function getCodeBarre() {
+        return $this->codeBarre;
+    }
+
+    /**
+     * Get the code variante.
+     *
+     * @return string Returns the code variante.
+     */
+    public function getCodeVariante() {
+        return $this->codeVariante;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Set the code article.
+     *
+     * @param string $codeArticle The code article.
+     */
+    public function setCodeArticle($codeArticle) {
+        $this->codeArticle = $codeArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code barre.
+     *
+     * @param string $codeBarre The code barre.
+     */
+    public function setCodeBarre($codeBarre) {
+        $this->codeBarre = $codeBarre;
+        return $this;
+    }
+
+    /**
+     * Set the code variante.
+     *
+     * @param string $codeVariante The code variante.
+     */
+    public function setCodeVariante($codeVariante) {
+        $this->codeVariante = $codeVariante;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
     }
 }

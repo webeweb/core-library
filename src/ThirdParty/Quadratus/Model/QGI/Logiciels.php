@@ -11,19 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolMaintenanceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFinMaintTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantMaintTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIndiceAffTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCategorieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeIntervenantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCommentaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomLogicielTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumLicenceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefImageTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSousCategorieTrait;
+use DateTime;
 
 /**
  * Logiciels.
@@ -33,24 +21,348 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSousCategorieTrait;
  */
 class Logiciels {
 
-    use StringCategorieTrait;
-    use StringCodeClientTrait;
-    use StringCodeIntervenantTrait;
-    use StringCommentaireTrait;
-    use DateTimeDateAchatTrait;
-    use DateTimeDateFinMaintTrait;
-    use IntIndiceAffTrait;
-    use BoolMaintenanceTrait;
-    use FloatMontantMaintTrait;
-    use StringNomLogicielTrait;
-    use StringNumLicenceTrait;
-    use StringRefImageTrait;
-    use StringSousCategorieTrait;
+    /**
+     * Categorie.
+     *
+     * @var string
+     */
+    private $categorie;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code intervenant.
+     *
+     * @var string
+     */
+    private $codeIntervenant;
+
+    /**
+     * Commentaire.
+     *
+     * @var string
+     */
+    private $commentaire;
+
+    /**
+     * Date achat.
+     *
+     * @var DateTime|null
+     */
+    private $dateAchat;
+
+    /**
+     * Date fin maint.
+     *
+     * @var DateTime|null
+     */
+    private $dateFinMaint;
+
+    /**
+     * Indice aff.
+     *
+     * @var int
+     */
+    private $indiceAff;
+
+    /**
+     * Maintenance.
+     *
+     * @var bool
+     */
+    private $maintenance;
+
+    /**
+     * Montant maint.
+     *
+     * @var float
+     */
+    private $montantMaint;
+
+    /**
+     * Nom logiciel.
+     *
+     * @var string
+     */
+    private $nomLogiciel;
+
+    /**
+     * Num licence.
+     *
+     * @var string
+     */
+    private $numLicence;
+
+    /**
+     * Ref image.
+     *
+     * @var string
+     */
+    private $refImage;
+
+    /**
+     * Sous categorie.
+     *
+     * @var string
+     */
+    private $sousCategorie;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the categorie.
+     *
+     * @return string Returns the categorie.
+     */
+    public function getCategorie() {
+        return $this->categorie;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code intervenant.
+     *
+     * @return string Returns the code intervenant.
+     */
+    public function getCodeIntervenant() {
+        return $this->codeIntervenant;
+    }
+
+    /**
+     * Get the commentaire.
+     *
+     * @return string Returns the commentaire.
+     */
+    public function getCommentaire() {
+        return $this->commentaire;
+    }
+
+    /**
+     * Get the date achat.
+     *
+     * @return DateTime|null Returns the date achat.
+     */
+    public function getDateAchat() {
+        return $this->dateAchat;
+    }
+
+    /**
+     * Get the date fin maint.
+     *
+     * @return DateTime|null Returns the date fin maint.
+     */
+    public function getDateFinMaint() {
+        return $this->dateFinMaint;
+    }
+
+    /**
+     * Get the indice aff.
+     *
+     * @return int Returns the indice aff.
+     */
+    public function getIndiceAff() {
+        return $this->indiceAff;
+    }
+
+    /**
+     * Get the maintenance.
+     *
+     * @return bool Returns the maintenance.
+     */
+    public function getMaintenance() {
+        return $this->maintenance;
+    }
+
+    /**
+     * Get the montant maint.
+     *
+     * @return float Returns the montant maint.
+     */
+    public function getMontantMaint() {
+        return $this->montantMaint;
+    }
+
+    /**
+     * Get the nom logiciel.
+     *
+     * @return string Returns the nom logiciel.
+     */
+    public function getNomLogiciel() {
+        return $this->nomLogiciel;
+    }
+
+    /**
+     * Get the num licence.
+     *
+     * @return string Returns the num licence.
+     */
+    public function getNumLicence() {
+        return $this->numLicence;
+    }
+
+    /**
+     * Get the ref image.
+     *
+     * @return string Returns the ref image.
+     */
+    public function getRefImage() {
+        return $this->refImage;
+    }
+
+    /**
+     * Get the sous categorie.
+     *
+     * @return string Returns the sous categorie.
+     */
+    public function getSousCategorie() {
+        return $this->sousCategorie;
+    }
+
+    /**
+     * Set the categorie.
+     *
+     * @param string $categorie The categorie.
+     */
+    public function setCategorie($categorie) {
+        $this->categorie = $categorie;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code intervenant.
+     *
+     * @param string $codeIntervenant The code intervenant.
+     */
+    public function setCodeIntervenant($codeIntervenant) {
+        $this->codeIntervenant = $codeIntervenant;
+        return $this;
+    }
+
+    /**
+     * Set the commentaire.
+     *
+     * @param string $commentaire The commentaire.
+     */
+    public function setCommentaire($commentaire) {
+        $this->commentaire = $commentaire;
+        return $this;
+    }
+
+    /**
+     * Set the date achat.
+     *
+     * @param DateTime|null $dateAchat The date achat.
+     */
+    public function setDateAchat(DateTime $dateAchat = null) {
+        $this->dateAchat = $dateAchat;
+        return $this;
+    }
+
+    /**
+     * Set the date fin maint.
+     *
+     * @param DateTime|null $dateFinMaint The date fin maint.
+     */
+    public function setDateFinMaint(DateTime $dateFinMaint = null) {
+        $this->dateFinMaint = $dateFinMaint;
+        return $this;
+    }
+
+    /**
+     * Set the indice aff.
+     *
+     * @param int $indiceAff The indice aff.
+     */
+    public function setIndiceAff($indiceAff) {
+        $this->indiceAff = $indiceAff;
+        return $this;
+    }
+
+    /**
+     * Set the maintenance.
+     *
+     * @param bool $maintenance The maintenance.
+     */
+    public function setMaintenance($maintenance) {
+        $this->maintenance = $maintenance;
+        return $this;
+    }
+
+    /**
+     * Set the montant maint.
+     *
+     * @param float $montantMaint The montant maint.
+     */
+    public function setMontantMaint($montantMaint) {
+        $this->montantMaint = $montantMaint;
+        return $this;
+    }
+
+    /**
+     * Set the nom logiciel.
+     *
+     * @param string $nomLogiciel The nom logiciel.
+     */
+    public function setNomLogiciel($nomLogiciel) {
+        $this->nomLogiciel = $nomLogiciel;
+        return $this;
+    }
+
+    /**
+     * Set the num licence.
+     *
+     * @param string $numLicence The num licence.
+     */
+    public function setNumLicence($numLicence) {
+        $this->numLicence = $numLicence;
+        return $this;
+    }
+
+    /**
+     * Set the ref image.
+     *
+     * @param string $refImage The ref image.
+     */
+    public function setRefImage($refImage) {
+        $this->refImage = $refImage;
+        return $this;
+    }
+
+    /**
+     * Set the sous categorie.
+     *
+     * @param string $sousCategorie The sous categorie.
+     */
+    public function setSousCategorie($sousCategorie) {
+        $this->sousCategorie = $sousCategorie;
+        return $this;
     }
 }

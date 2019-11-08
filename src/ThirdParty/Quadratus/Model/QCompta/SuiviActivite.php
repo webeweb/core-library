@@ -11,11 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateHeureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIdActionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDescriptionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringResultatTrait;
+use DateTime;
 
 /**
  * Suivi activite.
@@ -25,16 +21,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringResultatTrait;
  */
 class SuiviActivite {
 
-    use StringCodeCollTrait;
-    use DateTimeDateHeureTrait;
-    use StringDescriptionTrait;
-    use IntIdActionTrait;
-    use StringResultatTrait;
+    /**
+     * Code coll.
+     *
+     * @var string
+     */
+    private $codeColl;
+
+    /**
+     * Date heure.
+     *
+     * @var DateTime|null
+     */
+    private $dateHeure;
+
+    /**
+     * Description.
+     *
+     * @var string
+     */
+    private $description;
+
+    /**
+     * Id action.
+     *
+     * @var int
+     */
+    private $idAction;
+
+    /**
+     * Resultat.
+     *
+     * @var string
+     */
+    private $resultat;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code coll.
+     *
+     * @return string Returns the code coll.
+     */
+    public function getCodeColl() {
+        return $this->codeColl;
+    }
+
+    /**
+     * Get the date heure.
+     *
+     * @return DateTime|null Returns the date heure.
+     */
+    public function getDateHeure() {
+        return $this->dateHeure;
+    }
+
+    /**
+     * Get the description.
+     *
+     * @return string Returns the description.
+     */
+    public function getDescription() {
+        return $this->description;
+    }
+
+    /**
+     * Get the id action.
+     *
+     * @return int Returns the id action.
+     */
+    public function getIdAction() {
+        return $this->idAction;
+    }
+
+    /**
+     * Get the resultat.
+     *
+     * @return string Returns the resultat.
+     */
+    public function getResultat() {
+        return $this->resultat;
+    }
+
+    /**
+     * Set the code coll.
+     *
+     * @param string $codeColl The code coll.
+     */
+    public function setCodeColl($codeColl) {
+        $this->codeColl = $codeColl;
+        return $this;
+    }
+
+    /**
+     * Set the date heure.
+     *
+     * @param DateTime|null $dateHeure The date heure.
+     */
+    public function setDateHeure(DateTime $dateHeure = null) {
+        $this->dateHeure = $dateHeure;
+        return $this;
+    }
+
+    /**
+     * Set the description.
+     *
+     * @param string $description The description.
+     */
+    public function setDescription($description) {
+        $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * Set the id action.
+     *
+     * @param int $idAction The id action.
+     */
+    public function setIdAction($idAction) {
+        $this->idAction = $idAction;
+        return $this;
+    }
+
+    /**
+     * Set the resultat.
+     *
+     * @param string $resultat The resultat.
+     */
+    public function setResultat($resultat) {
+        $this->resultat = $resultat;
+        return $this;
     }
 }

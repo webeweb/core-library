@@ -11,14 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumBtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEquipeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTransfertPaieTrait;
-
 /**
  * Bons travaux employes.
  *
@@ -27,18 +19,192 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTransfertPaieTrait;
  */
 class BonsTravauxEmployes {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringCodeEmployeTrait;
-    use StringCodeEquipeTrait;
-    use IntNumBtTrait;
-    use StringTransfertPaieTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
+
+    /**
+     * Code equipe.
+     *
+     * @var string
+     */
+    private $codeEquipe;
+
+    /**
+     * Num bt.
+     *
+     * @var int
+     */
+    private $numBt;
+
+    /**
+     * Transfert paie.
+     *
+     * @var string
+     */
+    private $transfertPaie;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
+
+    /**
+     * Get the code equipe.
+     *
+     * @return string Returns the code equipe.
+     */
+    public function getCodeEquipe() {
+        return $this->codeEquipe;
+    }
+
+    /**
+     * Get the num bt.
+     *
+     * @return int Returns the num bt.
+     */
+    public function getNumBt() {
+        return $this->numBt;
+    }
+
+    /**
+     * Get the transfert paie.
+     *
+     * @return string Returns the transfert paie.
+     */
+    public function getTransfertPaie() {
+        return $this->transfertPaie;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the code equipe.
+     *
+     * @param string $codeEquipe The code equipe.
+     */
+    public function setCodeEquipe($codeEquipe) {
+        $this->codeEquipe = $codeEquipe;
+        return $this;
+    }
+
+    /**
+     * Set the num bt.
+     *
+     * @param int $numBt The num bt.
+     */
+    public function setNumBt($numBt) {
+        $this->numBt = $numBt;
+        return $this;
+    }
+
+    /**
+     * Set the transfert paie.
+     *
+     * @param string $transfertPaie The transfert paie.
+     */
+    public function setTransfertPaie($transfertPaie) {
+        $this->transfertPaie = $transfertPaie;
+        return $this;
     }
 }

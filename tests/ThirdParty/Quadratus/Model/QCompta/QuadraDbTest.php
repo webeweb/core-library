@@ -33,4 +33,17 @@ class QuadraDbTest extends AbstractTestCase {
 
         $this->assertNull($obj->getVersion());
     }
+
+    /**
+     * Tests the setVersion() method.
+     *
+     * @return void
+     */
+    public function testSetVersion() {
+
+        $obj = new QuadraDb();
+
+        $obj->setVersion(10);
+        $this->assertEquals(10, $obj->getVersion());
+    }
 }

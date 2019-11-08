@@ -35,4 +35,43 @@ class TachesSemaineTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeSemaineTache());
         $this->assertNull($obj->getDiscrTache());
     }
+
+    /**
+     * Tests the setAutoIncr() method.
+     *
+     * @return void
+     */
+    public function testSetAutoIncr() {
+
+        $obj = new TachesSemaine();
+
+        $obj->setAutoIncr(10);
+        $this->assertEquals(10, $obj->getAutoIncr());
+    }
+
+    /**
+     * Tests the setCodeSemaineTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeSemaineTache() {
+
+        $obj = new TachesSemaine();
+
+        $obj->setCodeSemaineTache("codeSemaineTache");
+        $this->assertEquals("codeSemaineTache", $obj->getCodeSemaineTache());
+    }
+
+    /**
+     * Tests the setDiscrTache() method.
+     *
+     * @return void
+     */
+    public function testSetDiscrTache() {
+
+        $obj = new TachesSemaine();
+
+        $obj->setDiscrTache(10);
+        $this->assertEquals(10, $obj->getDiscrTache());
+    }
 }

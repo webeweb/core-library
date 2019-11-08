@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Bulletins;
 
@@ -283,5 +285,3293 @@ class BulletinsTest extends AbstractTestCase {
         $this->assertNull($obj->getTypeSaisieAbs());
         $this->assertNull($obj->getTypeSaisieAbsence());
         $this->assertNull($obj->getValoriseCp());
+    }
+
+    /**
+     * Tests the setAbatTheo() method.
+     *
+     * @return void
+     */
+    public function testSetAbatTheo() {
+
+        $obj = new Bulletins();
+
+        $obj->setAbatTheo(10.092018);
+        $this->assertEquals(10.092018, $obj->getAbatTheo());
+    }
+
+    /**
+     * Tests the setAbattementMax() method.
+     *
+     * @return void
+     */
+    public function testSetAbattementMax() {
+
+        $obj = new Bulletins();
+
+        $obj->setAbattementMax(10.092018);
+        $this->assertEquals(10.092018, $obj->getAbattementMax());
+    }
+
+    /**
+     * Tests the setAllegement() method.
+     *
+     * @return void
+     */
+    public function testSetAllegement() {
+
+        $obj = new Bulletins();
+
+        $obj->setAllegement(10.092018);
+        $this->assertEquals(10.092018, $obj->getAllegement());
+    }
+
+    /**
+     * Tests the setAllegementNonProratise() method.
+     *
+     * @return void
+     */
+    public function testSetAllegementNonProratise() {
+
+        $obj = new Bulletins();
+
+        $obj->setAllegementNonProratise(10.092018);
+        $this->assertEquals(10.092018, $obj->getAllegementNonProratise());
+    }
+
+    /**
+     * Tests the setAvantageNature() method.
+     *
+     * @return void
+     */
+    public function testSetAvantageNature() {
+
+        $obj = new Bulletins();
+
+        $obj->setAvantageNature(10.092018);
+        $this->assertEquals(10.092018, $obj->getAvantageNature());
+    }
+
+    /**
+     * Tests the setBaseGmp() method.
+     *
+     * @return void
+     */
+    public function testSetBaseGmp() {
+
+        $obj = new Bulletins();
+
+        $obj->setBaseGmp(10.092018);
+        $this->assertEquals(10.092018, $obj->getBaseGmp());
+    }
+
+    /**
+     * Tests the setBaseSecu() method.
+     *
+     * @return void
+     */
+    public function testSetBaseSecu() {
+
+        $obj = new Bulletins();
+
+        $obj->setBaseSecu(10.092018);
+        $this->assertEquals(10.092018, $obj->getBaseSecu());
+    }
+
+    /**
+     * Tests the setBaseSsPlafModif() method.
+     *
+     * @return void
+     */
+    public function testSetBaseSsPlafModif() {
+
+        $obj = new Bulletins();
+
+        $obj->setBaseSsPlafModif(true);
+        $this->assertEquals(true, $obj->getBaseSsPlafModif());
+    }
+
+    /**
+     * Tests the setBornePerModifie() method.
+     *
+     * @return void
+     */
+    public function testSetBornePerModifie() {
+
+        $obj = new Bulletins();
+
+        $obj->setBornePerModifie(true);
+        $this->assertEquals(true, $obj->getBornePerModifie());
+    }
+
+    /**
+     * Tests the setBrut() method.
+     *
+     * @return void
+     */
+    public function testSetBrut() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrut(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrut());
+    }
+
+    /**
+     * Tests the setBrutAl() method.
+     *
+     * @return void
+     */
+    public function testSetBrutAl() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutAl(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutAl());
+    }
+
+    /**
+     * Tests the setBrutAlLimiteSmic() method.
+     *
+     * @return void
+     */
+    public function testSetBrutAlLimiteSmic() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutAlLimiteSmic(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutAlLimiteSmic());
+    }
+
+    /**
+     * Tests the setBrutAlModifie() method.
+     *
+     * @return void
+     */
+    public function testSetBrutAlModifie() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutAlModifie(true);
+        $this->assertEquals(true, $obj->getBrutAlModifie());
+    }
+
+    /**
+     * Tests the setBrutAnl() method.
+     *
+     * @return void
+     */
+    public function testSetBrutAnl() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutAnl(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutAnl());
+    }
+
+    /**
+     * Tests the setBrutCaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetBrutCaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutCaisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutCaisse1());
+    }
+
+    /**
+     * Tests the setBrutCaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetBrutCaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutCaisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutCaisse2());
+    }
+
+    /**
+     * Tests the setBrutCaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetBrutCaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutCaisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutCaisse3());
+    }
+
+    /**
+     * Tests the setBrutCaisseCp() method.
+     *
+     * @return void
+     */
+    public function testSetBrutCaisseCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutCaisseCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutCaisseCp());
+    }
+
+    /**
+     * Tests the setBrutCp() method.
+     *
+     * @return void
+     */
+    public function testSetBrutCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutCp());
+    }
+
+    /**
+     * Tests the setBrutCsg() method.
+     *
+     * @return void
+     */
+    public function testSetBrutCsg() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutCsg(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutCsg());
+    }
+
+    /**
+     * Tests the setBrutSoumisAbat() method.
+     *
+     * @return void
+     */
+    public function testSetBrutSoumisAbat() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutSoumisAbat(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutSoumisAbat());
+    }
+
+    /**
+     * Tests the setBrutSoumisCrds() method.
+     *
+     * @return void
+     */
+    public function testSetBrutSoumisCrds() {
+
+        $obj = new Bulletins();
+
+        $obj->setBrutSoumisCrds(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutSoumisCrds());
+    }
+
+    /**
+     * Tests the setBulletinPublie() method.
+     *
+     * @return void
+     */
+    public function testSetBulletinPublie() {
+
+        $obj = new Bulletins();
+
+        $obj->setBulletinPublie(true);
+        $this->assertEquals(true, $obj->getBulletinPublie());
+    }
+
+    /**
+     * Tests the setCategTds() method.
+     *
+     * @return void
+     */
+    public function testSetCategTds() {
+
+        $obj = new Bulletins();
+
+        $obj->setCategTds("categTds");
+        $this->assertEquals("categTds", $obj->getCategTds());
+    }
+
+    /**
+     * Tests the setChequeEdite() method.
+     *
+     * @return void
+     */
+    public function testSetChequeEdite() {
+
+        $obj = new Bulletins();
+
+        $obj->setChequeEdite(true);
+        $this->assertEquals(true, $obj->getChequeEdite());
+    }
+
+    /**
+     * Tests the setChomPartielCoeffIndem() method.
+     *
+     * @return void
+     */
+    public function testSetChomPartielCoeffIndem() {
+
+        $obj = new Bulletins();
+
+        $obj->setChomPartielCoeffIndem(10.092018);
+        $this->assertEquals(10.092018, $obj->getChomPartielCoeffIndem());
+    }
+
+    /**
+     * Tests the setChomPartielCp() method.
+     *
+     * @return void
+     */
+    public function testSetChomPartielCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setChomPartielCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getChomPartielCp());
+    }
+
+    /**
+     * Tests the setChomPartielMinIndem() method.
+     *
+     * @return void
+     */
+    public function testSetChomPartielMinIndem() {
+
+        $obj = new Bulletins();
+
+        $obj->setChomPartielMinIndem(10.092018);
+        $this->assertEquals(10.092018, $obj->getChomPartielMinIndem());
+    }
+
+    /**
+     * Tests the setCodeAtPer() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAtPer() {
+
+        $obj = new Bulletins();
+
+        $obj->setCodeAtPer(10);
+        $this->assertEquals(10, $obj->getCodeAtPer());
+    }
+
+    /**
+     * Tests the setCodeCentreUrssaf() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCentreUrssaf() {
+
+        $obj = new Bulletins();
+
+        $obj->setCodeCentreUrssaf("codeCentreUrssaf");
+        $this->assertEquals("codeCentreUrssaf", $obj->getCodeCentreUrssaf());
+    }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new Bulletins();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setCodeTypeSal() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTypeSal() {
+
+        $obj = new Bulletins();
+
+        $obj->setCodeTypeSal("codeTypeSal");
+        $this->assertEquals("codeTypeSal", $obj->getCodeTypeSal());
+    }
+
+    /**
+     * Tests the setCoeffIntemperie() method.
+     *
+     * @return void
+     */
+    public function testSetCoeffIntemperie() {
+
+        $obj = new Bulletins();
+
+        $obj->setCoeffIntemperie(10.092018);
+        $this->assertEquals(10.092018, $obj->getCoeffIntemperie());
+    }
+
+    /**
+     * Tests the setContHSupReposComp() method.
+     *
+     * @return void
+     */
+    public function testSetContHSupReposComp() {
+
+        $obj = new Bulletins();
+
+        $obj->setContHSupReposComp(10.092018);
+        $this->assertEquals(10.092018, $obj->getContHSupReposComp());
+    }
+
+    /**
+     * Tests the setCoutGlobalMois() method.
+     *
+     * @return void
+     */
+    public function testSetCoutGlobalMois() {
+
+        $obj = new Bulletins();
+
+        $obj->setCoutGlobalMois(10.092018);
+        $this->assertEquals(10.092018, $obj->getCoutGlobalMois());
+    }
+
+    /**
+     * Tests the setCum30Ss() method.
+     *
+     * @return void
+     */
+    public function testSetCum30Ss() {
+
+        $obj = new Bulletins();
+
+        $obj->setCum30Ss(10.092018);
+        $this->assertEquals(10.092018, $obj->getCum30Ss());
+    }
+
+    /**
+     * Tests the setCumAntHSup() method.
+     *
+     * @return void
+     */
+    public function testSetCumAntHSup() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumAntHSup(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumAntHSup());
+    }
+
+    /**
+     * Tests the setCumBaseGmp() method.
+     *
+     * @return void
+     */
+    public function testSetCumBaseGmp() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumBaseGmp(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumBaseGmp());
+    }
+
+    /**
+     * Tests the setCumBaseSs() method.
+     *
+     * @return void
+     */
+    public function testSetCumBaseSs() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumBaseSs(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumBaseSs());
+    }
+
+    /**
+     * Tests the setCumBrut() method.
+     *
+     * @return void
+     */
+    public function testSetCumBrut() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumBrut(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumBrut());
+    }
+
+    /**
+     * Tests the setCumBrutAl() method.
+     *
+     * @return void
+     */
+    public function testSetCumBrutAl() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumBrutAl(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumBrutAl());
+    }
+
+    /**
+     * Tests the setCumBrutAnl() method.
+     *
+     * @return void
+     */
+    public function testSetCumBrutAnl() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumBrutAnl(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumBrutAnl());
+    }
+
+    /**
+     * Tests the setCumBrutCaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetCumBrutCaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumBrutCaisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumBrutCaisse1());
+    }
+
+    /**
+     * Tests the setCumBrutCaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetCumBrutCaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumBrutCaisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumBrutCaisse2());
+    }
+
+    /**
+     * Tests the setCumBrutCaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetCumBrutCaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumBrutCaisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumBrutCaisse3());
+    }
+
+    /**
+     * Tests the setCumDifDus() method.
+     *
+     * @return void
+     */
+    public function testSetCumDifDus() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumDifDus(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumDifDus());
+    }
+
+    /**
+     * Tests the setCumDifDus1() method.
+     *
+     * @return void
+     */
+    public function testSetCumDifDus1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumDifDus1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumDifDus1());
+    }
+
+    /**
+     * Tests the setCumHBonifie() method.
+     *
+     * @return void
+     */
+    public function testSetCumHBonifie() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumHBonifie(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumHBonifie());
+    }
+
+    /**
+     * Tests the setCumHReposComp() method.
+     *
+     * @return void
+     */
+    public function testSetCumHReposComp() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumHReposComp(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumHReposComp());
+    }
+
+    /**
+     * Tests the setCumHReposRemplace() method.
+     *
+     * @return void
+     */
+    public function testSetCumHReposRemplace() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumHReposRemplace(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumHReposRemplace());
+    }
+
+    /**
+     * Tests the setCumHService() method.
+     *
+     * @return void
+     */
+    public function testSetCumHService() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumHService(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumHService());
+    }
+
+    /**
+     * Tests the setCumImpos() method.
+     *
+     * @return void
+     */
+    public function testSetCumImpos() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumImpos(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumImpos());
+    }
+
+    /**
+     * Tests the setCumJReposRecup() method.
+     *
+     * @return void
+     */
+    public function testSetCumJReposRecup() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumJReposRecup(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumJReposRecup());
+    }
+
+    /**
+     * Tests the setCumMtCpPris() method.
+     *
+     * @return void
+     */
+    public function testSetCumMtCpPris() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumMtCpPris(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumMtCpPris());
+    }
+
+    /**
+     * Tests the setCumMtCpPris1() method.
+     *
+     * @return void
+     */
+    public function testSetCumMtCpPris1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumMtCpPris1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumMtCpPris1());
+    }
+
+    /**
+     * Tests the setCumNetAPayer() method.
+     *
+     * @return void
+     */
+    public function testSetCumNetAPayer() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumNetAPayer(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumNetAPayer());
+    }
+
+    /**
+     * Tests the setCumPlaf1Caisse1() method.
+     *
+     * @return void
+     */
+    public function testSetCumPlaf1Caisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPlaf1Caisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPlaf1Caisse1());
+    }
+
+    /**
+     * Tests the setCumPlaf1Caisse2() method.
+     *
+     * @return void
+     */
+    public function testSetCumPlaf1Caisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPlaf1Caisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPlaf1Caisse2());
+    }
+
+    /**
+     * Tests the setCumPlaf1Caisse3() method.
+     *
+     * @return void
+     */
+    public function testSetCumPlaf1Caisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPlaf1Caisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPlaf1Caisse3());
+    }
+
+    /**
+     * Tests the setCumPlaf2Caisse1() method.
+     *
+     * @return void
+     */
+    public function testSetCumPlaf2Caisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPlaf2Caisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPlaf2Caisse1());
+    }
+
+    /**
+     * Tests the setCumPlaf2Caisse2() method.
+     *
+     * @return void
+     */
+    public function testSetCumPlaf2Caisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPlaf2Caisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPlaf2Caisse2());
+    }
+
+    /**
+     * Tests the setCumPlaf2Caisse3() method.
+     *
+     * @return void
+     */
+    public function testSetCumPlaf2Caisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPlaf2Caisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPlaf2Caisse3());
+    }
+
+    /**
+     * Tests the setCumPlafondGmp() method.
+     *
+     * @return void
+     */
+    public function testSetCumPlafondGmp() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPlafondGmp(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPlafondGmp());
+    }
+
+    /**
+     * Tests the setCumPss1() method.
+     *
+     * @return void
+     */
+    public function testSetCumPss1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPss1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPss1());
+    }
+
+    /**
+     * Tests the setCumPss2() method.
+     *
+     * @return void
+     */
+    public function testSetCumPss2() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumPss2(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumPss2());
+    }
+
+    /**
+     * Tests the setCumRttDus() method.
+     *
+     * @return void
+     */
+    public function testSetCumRttDus() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumRttDus(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumRttDus());
+    }
+
+    /**
+     * Tests the setCumRttPris() method.
+     *
+     * @return void
+     */
+    public function testSetCumRttPris() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumRttPris(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumRttPris());
+    }
+
+    /**
+     * Tests the setCumTrACaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrACaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrACaisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrACaisse1());
+    }
+
+    /**
+     * Tests the setCumTrACaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrACaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrACaisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrACaisse2());
+    }
+
+    /**
+     * Tests the setCumTrACaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrACaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrACaisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrACaisse3());
+    }
+
+    /**
+     * Tests the setCumTrBCaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrBCaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrBCaisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrBCaisse1());
+    }
+
+    /**
+     * Tests the setCumTrBCaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrBCaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrBCaisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrBCaisse2());
+    }
+
+    /**
+     * Tests the setCumTrBCaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrBCaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrBCaisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrBCaisse3());
+    }
+
+    /**
+     * Tests the setCumTrCCaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrCCaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrCCaisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrCCaisse1());
+    }
+
+    /**
+     * Tests the setCumTrCCaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrCCaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrCCaisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrCCaisse2());
+    }
+
+    /**
+     * Tests the setCumTrCCaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrCCaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrCCaisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrCCaisse3());
+    }
+
+    /**
+     * Tests the setCumTranche2() method.
+     *
+     * @return void
+     */
+    public function testSetCumTranche2() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTranche2(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTranche2());
+    }
+
+    /**
+     * Tests the setCumTrancheA() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrancheA() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrancheA(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrancheA());
+    }
+
+    /**
+     * Tests the setCumTrancheB() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrancheB() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrancheB(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrancheB());
+    }
+
+    /**
+     * Tests the setCumTrancheC() method.
+     *
+     * @return void
+     */
+    public function testSetCumTrancheC() {
+
+        $obj = new Bulletins();
+
+        $obj->setCumTrancheC(10.092018);
+        $this->assertEquals(10.092018, $obj->getCumTrancheC());
+    }
+
+    /**
+     * Tests the setDelta() method.
+     *
+     * @return void
+     */
+    public function testSetDelta() {
+
+        $obj = new Bulletins();
+
+        $obj->setDelta(10.092018);
+        $this->assertEquals(10.092018, $obj->getDelta());
+    }
+
+    /**
+     * Tests the setDroitCp() method.
+     *
+     * @return void
+     */
+    public function testSetDroitCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setDroitCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getDroitCp());
+    }
+
+    /**
+     * Tests the setDtDebutPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDtDebutPeriode() {
+
+        // Set a Date/time mock.
+        $dtDebutPeriode = new DateTime("2018-09-10");
+
+        $obj = new Bulletins();
+
+        $obj->setDtDebutPeriode($dtDebutPeriode);
+        $this->assertSame($dtDebutPeriode, $obj->getDtDebutPeriode());
+    }
+
+    /**
+     * Tests the setDtFinPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDtFinPeriode() {
+
+        // Set a Date/time mock.
+        $dtFinPeriode = new DateTime("2018-09-10");
+
+        $obj = new Bulletins();
+
+        $obj->setDtFinPeriode($dtFinPeriode);
+        $this->assertSame($dtFinPeriode, $obj->getDtFinPeriode());
+    }
+
+    /**
+     * Tests the setEcartCumule() method.
+     *
+     * @return void
+     */
+    public function testSetEcartCumule() {
+
+        $obj = new Bulletins();
+
+        $obj->setEcartCumule(10.092018);
+        $this->assertEquals(10.092018, $obj->getEcartCumule());
+    }
+
+    /**
+     * Tests the setEtatBul() method.
+     *
+     * @return void
+     */
+    public function testSetEtatBul() {
+
+        $obj = new Bulletins();
+
+        $obj->setEtatBul("etatBul");
+        $this->assertEquals("etatBul", $obj->getEtatBul());
+    }
+
+    /**
+     * Tests the setEtatEdition() method.
+     *
+     * @return void
+     */
+    public function testSetEtatEdition() {
+
+        $obj = new Bulletins();
+
+        $obj->setEtatEdition("etatEdition");
+        $this->assertEquals("etatEdition", $obj->getEtatEdition());
+    }
+
+    /**
+     * Tests the setForfaitJour() method.
+     *
+     * @return void
+     */
+    public function testSetForfaitJour() {
+
+        $obj = new Bulletins();
+
+        $obj->setForfaitJour(true);
+        $this->assertEquals(true, $obj->getForfaitJour());
+    }
+
+    /**
+     * Tests the setGestCalcNetPaye() method.
+     *
+     * @return void
+     */
+    public function testSetGestCalcNetPaye() {
+
+        $obj = new Bulletins();
+
+        $obj->setGestCalcNetPaye(true);
+        $this->assertEquals(true, $obj->getGestCalcNetPaye());
+    }
+
+    /**
+     * Tests the setGestionCoeff() method.
+     *
+     * @return void
+     */
+    public function testSetGestionCoeff() {
+
+        $obj = new Bulletins();
+
+        $obj->setGestionCoeff(true);
+        $this->assertEquals(true, $obj->getGestionCoeff());
+    }
+
+    /**
+     * Tests the setHReelTrav() method.
+     *
+     * @return void
+     */
+    public function testSetHReelTrav() {
+
+        $obj = new Bulletins();
+
+        $obj->setHReelTrav(10.092018);
+        $this->assertEquals(10.092018, $obj->getHReelTrav());
+    }
+
+    /**
+     * Tests the setHTheoTrav() method.
+     *
+     * @return void
+     */
+    public function testSetHTheoTrav() {
+
+        $obj = new Bulletins();
+
+        $obj->setHTheoTrav(10.092018);
+        $this->assertEquals(10.092018, $obj->getHTheoTrav());
+    }
+
+    /**
+     * Tests the setHeureAbsence() method.
+     *
+     * @return void
+     */
+    public function testSetHeureAbsence() {
+
+        $obj = new Bulletins();
+
+        $obj->setHeureAbsence(10.092018);
+        $this->assertEquals(10.092018, $obj->getHeureAbsence());
+    }
+
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
+
+        $obj = new Bulletins();
+
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new Bulletins();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
+
+        $obj = new Bulletins();
+
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
+
+    /**
+     * Tests the setLienJustificatif() method.
+     *
+     * @return void
+     */
+    public function testSetLienJustificatif() {
+
+        $obj = new Bulletins();
+
+        $obj->setLienJustificatif("lienJustificatif");
+        $this->assertEquals("lienJustificatif", $obj->getLienJustificatif());
+    }
+
+    /**
+     * Tests the setMaxAbat() method.
+     *
+     * @return void
+     */
+    public function testSetMaxAbat() {
+
+        $obj = new Bulletins();
+
+        $obj->setMaxAbat(10.092018);
+        $this->assertEquals(10.092018, $obj->getMaxAbat());
+    }
+
+    /**
+     * Tests the setMensuelJournalier() method.
+     *
+     * @return void
+     */
+    public function testSetMensuelJournalier() {
+
+        $obj = new Bulletins();
+
+        $obj->setMensuelJournalier(true);
+        $this->assertEquals(true, $obj->getMensuelJournalier());
+    }
+
+    /**
+     * Tests the setMethodeIndemCp() method.
+     *
+     * @return void
+     */
+    public function testSetMethodeIndemCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setMethodeIndemCp("methodeIndemCp");
+        $this->assertEquals("methodeIndemCp", $obj->getMethodeIndemCp());
+    }
+
+    /**
+     * Tests the setMig() method.
+     *
+     * @return void
+     */
+    public function testSetMig() {
+
+        $obj = new Bulletins();
+
+        $obj->setMig(10.092018);
+        $this->assertEquals(10.092018, $obj->getMig());
+    }
+
+    /**
+     * Tests the setMontant1() method.
+     *
+     * @return void
+     */
+    public function testSetMontant1() {
+
+        $obj = new Bulletins();
+
+        $obj->setMontant1(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant1());
+    }
+
+    /**
+     * Tests the setMontant2() method.
+     *
+     * @return void
+     */
+    public function testSetMontant2() {
+
+        $obj = new Bulletins();
+
+        $obj->setMontant2(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant2());
+    }
+
+    /**
+     * Tests the setMontant3() method.
+     *
+     * @return void
+     */
+    public function testSetMontant3() {
+
+        $obj = new Bulletins();
+
+        $obj->setMontant3(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant3());
+    }
+
+    /**
+     * Tests the setMontant4() method.
+     *
+     * @return void
+     */
+    public function testSetMontant4() {
+
+        $obj = new Bulletins();
+
+        $obj->setMontant4(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant4());
+    }
+
+    /**
+     * Tests the setMontant5() method.
+     *
+     * @return void
+     */
+    public function testSetMontant5() {
+
+        $obj = new Bulletins();
+
+        $obj->setMontant5(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant5());
+    }
+
+    /**
+     * Tests the setMtHSupBonif() method.
+     *
+     * @return void
+     */
+    public function testSetMtHSupBonif() {
+
+        $obj = new Bulletins();
+
+        $obj->setMtHSupBonif(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtHSupBonif());
+    }
+
+    /**
+     * Tests the setMtICpCp() method.
+     *
+     * @return void
+     */
+    public function testSetMtICpCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setMtICpCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtICpCp());
+    }
+
+    /**
+     * Tests the setMtICpt() method.
+     *
+     * @return void
+     */
+    public function testSetMtICpt() {
+
+        $obj = new Bulletins();
+
+        $obj->setMtICpt(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtICpt());
+    }
+
+    /**
+     * Tests the setMtIInt() method.
+     *
+     * @return void
+     */
+    public function testSetMtIInt() {
+
+        $obj = new Bulletins();
+
+        $obj->setMtIInt(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtIInt());
+    }
+
+    /**
+     * Tests the setMtJcpArbitrage() method.
+     *
+     * @return void
+     */
+    public function testSetMtJcpArbitrage() {
+
+        $obj = new Bulletins();
+
+        $obj->setMtJcpArbitrage(true);
+        $this->assertEquals(true, $obj->getMtJcpArbitrage());
+    }
+
+    /**
+     * Tests the setMtJourneeCp() method.
+     *
+     * @return void
+     */
+    public function testSetMtJourneeCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setMtJourneeCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtJourneeCp());
+    }
+
+    /**
+     * Tests the setMtNetPayeTheo() method.
+     *
+     * @return void
+     */
+    public function testSetMtNetPayeTheo() {
+
+        $obj = new Bulletins();
+
+        $obj->setMtNetPayeTheo(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtNetPayeTheo());
+    }
+
+    /**
+     * Tests the setMtTauxLigSalBase() method.
+     *
+     * @return void
+     */
+    public function testSetMtTauxLigSalBase() {
+
+        $obj = new Bulletins();
+
+        $obj->setMtTauxLigSalBase(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtTauxLigSalBase());
+    }
+
+    /**
+     * Tests the setNb30() method.
+     *
+     * @return void
+     */
+    public function testSetNb30() {
+
+        $obj = new Bulletins();
+
+        $obj->setNb30(10.092018);
+        $this->assertEquals(10.092018, $obj->getNb30());
+    }
+
+    /**
+     * Tests the setNbHAbCp() method.
+     *
+     * @return void
+     */
+    public function testSetNbHAbCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHAbCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHAbCp());
+    }
+
+    /**
+     * Tests the setNbHAbsenceIntemp() method.
+     *
+     * @return void
+     */
+    public function testSetNbHAbsenceIntemp() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHAbsenceIntemp(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHAbsenceIntemp());
+    }
+
+    /**
+     * Tests the setNbHAttente() method.
+     *
+     * @return void
+     */
+    public function testSetNbHAttente() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHAttente(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHAttente());
+    }
+
+    /**
+     * Tests the setNbHBonifieDues() method.
+     *
+     * @return void
+     */
+    public function testSetNbHBonifieDues() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHBonifieDues(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHBonifieDues());
+    }
+
+    /**
+     * Tests the setNbHBonifiePrises() method.
+     *
+     * @return void
+     */
+    public function testSetNbHBonifiePrises() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHBonifiePrises(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHBonifiePrises());
+    }
+
+    /**
+     * Tests the setNbHCarenceIntemp() method.
+     *
+     * @return void
+     */
+    public function testSetNbHCarenceIntemp() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHCarenceIntemp(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHCarenceIntemp());
+    }
+
+    /**
+     * Tests the setNbHChomPartCp() method.
+     *
+     * @return void
+     */
+    public function testSetNbHChomPartCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHChomPartCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHChomPartCp());
+    }
+
+    /**
+     * Tests the setNbHChomPartTech() method.
+     *
+     * @return void
+     */
+    public function testSetNbHChomPartTech() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHChomPartTech(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHChomPartTech());
+    }
+
+    /**
+     * Tests the setNbHConduite() method.
+     *
+     * @return void
+     */
+    public function testSetNbHConduite() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHConduite(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHConduite());
+    }
+
+    /**
+     * Tests the setNbHConting() method.
+     *
+     * @return void
+     */
+    public function testSetNbHConting() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHConting(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHConting());
+    }
+
+    /**
+     * Tests the setNbHDble() method.
+     *
+     * @return void
+     */
+    public function testSetNbHDble() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHDble(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHDble());
+    }
+
+    /**
+     * Tests the setNbHDifDus() method.
+     *
+     * @return void
+     */
+    public function testSetNbHDifDus() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHDifDus(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHDifDus());
+    }
+
+    /**
+     * Tests the setNbHIntempIndem() method.
+     *
+     * @return void
+     */
+    public function testSetNbHIntempIndem() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHIntempIndem(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHIntempIndem());
+    }
+
+    /**
+     * Tests the setNbHLigSalBase() method.
+     *
+     * @return void
+     */
+    public function testSetNbHLigSalBase() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHLigSalBase(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHLigSalBase());
+    }
+
+    /**
+     * Tests the setNbHNormal() method.
+     *
+     * @return void
+     */
+    public function testSetNbHNormal() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHNormal(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHNormal());
+    }
+
+    /**
+     * Tests the setNbHPasDroitFillon() method.
+     *
+     * @return void
+     */
+    public function testSetNbHPasDroitFillon() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHPasDroitFillon(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHPasDroitFillon());
+    }
+
+    /**
+     * Tests the setNbHRemplace() method.
+     *
+     * @return void
+     */
+    public function testSetNbHRemplace() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHRemplace(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHRemplace());
+    }
+
+    /**
+     * Tests the setNbHRepoCompDues() method.
+     *
+     * @return void
+     */
+    public function testSetNbHRepoCompDues() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHRepoCompDues(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHRepoCompDues());
+    }
+
+    /**
+     * Tests the setNbHRepoCompPrises() method.
+     *
+     * @return void
+     */
+    public function testSetNbHRepoCompPrises() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHRepoCompPrises(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHRepoCompPrises());
+    }
+
+    /**
+     * Tests the setNbHRepoRDues() method.
+     *
+     * @return void
+     */
+    public function testSetNbHRepoRDues() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHRepoRDues(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHRepoRDues());
+    }
+
+    /**
+     * Tests the setNbHRepoRPrises() method.
+     *
+     * @return void
+     */
+    public function testSetNbHRepoRPrises() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHRepoRPrises(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHRepoRPrises());
+    }
+
+    /**
+     * Tests the setNbHSup1() method.
+     *
+     * @return void
+     */
+    public function testSetNbHSup1() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHSup1(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHSup1());
+    }
+
+    /**
+     * Tests the setNbHSup2() method.
+     *
+     * @return void
+     */
+    public function testSetNbHSup2() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHSup2(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHSup2());
+    }
+
+    /**
+     * Tests the setNbHSup3() method.
+     *
+     * @return void
+     */
+    public function testSetNbHSup3() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHSup3(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHSup3());
+    }
+
+    /**
+     * Tests the setNbHSup4() method.
+     *
+     * @return void
+     */
+    public function testSetNbHSup4() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHSup4(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHSup4());
+    }
+
+    /**
+     * Tests the setNbHSup5() method.
+     *
+     * @return void
+     */
+    public function testSetNbHSup5() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHSup5(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHSup5());
+    }
+
+    /**
+     * Tests the setNbHSupBonif() method.
+     *
+     * @return void
+     */
+    public function testSetNbHSupBonif() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHSupBonif(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHSupBonif());
+    }
+
+    /**
+     * Tests the setNbHSupBonifAbs() method.
+     *
+     * @return void
+     */
+    public function testSetNbHSupBonifAbs() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHSupBonifAbs(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHSupBonifAbs());
+    }
+
+    /**
+     * Tests the setNbHTrav() method.
+     *
+     * @return void
+     */
+    public function testSetNbHTrav() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHTrav(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHTrav());
+    }
+
+    /**
+     * Tests the setNbHTravail() method.
+     *
+     * @return void
+     */
+    public function testSetNbHTravail() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHTravail(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHTravail());
+    }
+
+    /**
+     * Tests the setNbHeurePaye() method.
+     *
+     * @return void
+     */
+    public function testSetNbHeurePaye() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHeurePaye(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHeurePaye());
+    }
+
+    /**
+     * Tests the setNbHeureSup() method.
+     *
+     * @return void
+     */
+    public function testSetNbHeureSup() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHeureSup(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHeureSup());
+    }
+
+    /**
+     * Tests the setNbHeureTrav() method.
+     *
+     * @return void
+     */
+    public function testSetNbHeureTrav() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHeureTrav(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHeureTrav());
+    }
+
+    /**
+     * Tests the setNbHeureTravMois() method.
+     *
+     * @return void
+     */
+    public function testSetNbHeureTravMois() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbHeureTravMois(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHeureTravMois());
+    }
+
+    /**
+     * Tests the setNbJChomPartCp() method.
+     *
+     * @return void
+     */
+    public function testSetNbJChomPartCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJChomPartCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJChomPartCp());
+    }
+
+    /**
+     * Tests the setNbJDus() method.
+     *
+     * @return void
+     */
+    public function testSetNbJDus() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJDus(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJDus());
+    }
+
+    /**
+     * Tests the setNbJDus1() method.
+     *
+     * @return void
+     */
+    public function testSetNbJDus1() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJDus1(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJDus1());
+    }
+
+    /**
+     * Tests the setNbJPris() method.
+     *
+     * @return void
+     */
+    public function testSetNbJPris() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJPris(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJPris());
+    }
+
+    /**
+     * Tests the setNbJPris1() method.
+     *
+     * @return void
+     */
+    public function testSetNbJPris1() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJPris1(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJPris1());
+    }
+
+    /**
+     * Tests the setNbJRepoRecupDus() method.
+     *
+     * @return void
+     */
+    public function testSetNbJRepoRecupDus() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJRepoRecupDus(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJRepoRecupDus());
+    }
+
+    /**
+     * Tests the setNbJRepoRecupPris() method.
+     *
+     * @return void
+     */
+    public function testSetNbJRepoRecupPris() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJRepoRecupPris(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJRepoRecupPris());
+    }
+
+    /**
+     * Tests the setNbJTravForce() method.
+     *
+     * @return void
+     */
+    public function testSetNbJTravForce() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJTravForce(true);
+        $this->assertEquals(true, $obj->getNbJTravForce());
+    }
+
+    /**
+     * Tests the setNbJTravMoisEs() method.
+     *
+     * @return void
+     */
+    public function testSetNbJTravMoisEs() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJTravMoisEs(10);
+        $this->assertEquals(10, $obj->getNbJTravMoisEs());
+    }
+
+    /**
+     * Tests the setNbJourBase() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourBase() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJourBase(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourBase());
+    }
+
+    /**
+     * Tests the setNbJourBaseCp() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourBaseCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJourBaseCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourBaseCp());
+    }
+
+    /**
+     * Tests the setNbJourCpAcquis() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourCpAcquis() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJourCpAcquis(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourCpAcquis());
+    }
+
+    /**
+     * Tests the setNbJourCpPris() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourCpPris() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJourCpPris(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourCpPris());
+    }
+
+    /**
+     * Tests the setNbJourNormaux() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourNormaux() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJourNormaux(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourNormaux());
+    }
+
+    /**
+     * Tests the setNbJourTrav() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourTrav() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJourTrav(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourTrav());
+    }
+
+    /**
+     * Tests the setNbJrttDus() method.
+     *
+     * @return void
+     */
+    public function testSetNbJrttDus() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJrttDus(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJrttDus());
+    }
+
+    /**
+     * Tests the setNbJrttPris() method.
+     *
+     * @return void
+     */
+    public function testSetNbJrttPris() {
+
+        $obj = new Bulletins();
+
+        $obj->setNbJrttPris(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJrttPris());
+    }
+
+    /**
+     * Tests the setNetAPayer() method.
+     *
+     * @return void
+     */
+    public function testSetNetAPayer() {
+
+        $obj = new Bulletins();
+
+        $obj->setNetAPayer(10.092018);
+        $this->assertEquals(10.092018, $obj->getNetAPayer());
+    }
+
+    /**
+     * Tests the setNetImpos() method.
+     *
+     * @return void
+     */
+    public function testSetNetImpos() {
+
+        $obj = new Bulletins();
+
+        $obj->setNetImpos(10.092018);
+        $this->assertEquals(10.092018, $obj->getNetImpos());
+    }
+
+    /**
+     * Tests the setNote1() method.
+     *
+     * @return void
+     */
+    public function testSetNote1() {
+
+        $obj = new Bulletins();
+
+        $obj->setNote1("note1");
+        $this->assertEquals("note1", $obj->getNote1());
+    }
+
+    /**
+     * Tests the setNote2() method.
+     *
+     * @return void
+     */
+    public function testSetNote2() {
+
+        $obj = new Bulletins();
+
+        $obj->setNote2("note2");
+        $this->assertEquals("note2", $obj->getNote2());
+    }
+
+    /**
+     * Tests the setNote3() method.
+     *
+     * @return void
+     */
+    public function testSetNote3() {
+
+        $obj = new Bulletins();
+
+        $obj->setNote3("note3");
+        $this->assertEquals("note3", $obj->getNote3());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new Bulletins();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setPaieEuro() method.
+     *
+     * @return void
+     */
+    public function testSetPaieEuro() {
+
+        $obj = new Bulletins();
+
+        $obj->setPaieEuro(true);
+        $this->assertEquals(true, $obj->getPaieEuro());
+    }
+
+    /**
+     * Tests the setPaiementCpNonPris() method.
+     *
+     * @return void
+     */
+    public function testSetPaiementCpNonPris() {
+
+        $obj = new Bulletins();
+
+        $obj->setPaiementCpNonPris(true);
+        $this->assertEquals(true, $obj->getPaiementCpNonPris());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new Bulletins();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the setPeriodicite() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodicite() {
+
+        $obj = new Bulletins();
+
+        $obj->setPeriodicite("periodicite");
+        $this->assertEquals("periodicite", $obj->getPeriodicite());
+    }
+
+    /**
+     * Tests the setPeriodiciteModifie() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodiciteModifie() {
+
+        $obj = new Bulletins();
+
+        $obj->setPeriodiciteModifie(true);
+        $this->assertEquals(true, $obj->getPeriodiciteModifie());
+    }
+
+    /**
+     * Tests the setPlafond1Caisse1() method.
+     *
+     * @return void
+     */
+    public function testSetPlafond1Caisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafond1Caisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafond1Caisse1());
+    }
+
+    /**
+     * Tests the setPlafond1Caisse2() method.
+     *
+     * @return void
+     */
+    public function testSetPlafond1Caisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafond1Caisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafond1Caisse2());
+    }
+
+    /**
+     * Tests the setPlafond1Caisse3() method.
+     *
+     * @return void
+     */
+    public function testSetPlafond1Caisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafond1Caisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafond1Caisse3());
+    }
+
+    /**
+     * Tests the setPlafond2Caisse1() method.
+     *
+     * @return void
+     */
+    public function testSetPlafond2Caisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafond2Caisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafond2Caisse1());
+    }
+
+    /**
+     * Tests the setPlafond2Caisse2() method.
+     *
+     * @return void
+     */
+    public function testSetPlafond2Caisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafond2Caisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafond2Caisse2());
+    }
+
+    /**
+     * Tests the setPlafond2Caisse3() method.
+     *
+     * @return void
+     */
+    public function testSetPlafond2Caisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafond2Caisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafond2Caisse3());
+    }
+
+    /**
+     * Tests the setPlafondGmp() method.
+     *
+     * @return void
+     */
+    public function testSetPlafondGmp() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafondGmp(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafondGmp());
+    }
+
+    /**
+     * Tests the setPlafondGmpModifie() method.
+     *
+     * @return void
+     */
+    public function testSetPlafondGmpModifie() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafondGmpModifie(true);
+        $this->assertEquals(true, $obj->getPlafondGmpModifie());
+    }
+
+    /**
+     * Tests the setPlafondHeure() method.
+     *
+     * @return void
+     */
+    public function testSetPlafondHeure() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafondHeure(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafondHeure());
+    }
+
+    /**
+     * Tests the setPlafondJour() method.
+     *
+     * @return void
+     */
+    public function testSetPlafondJour() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafondJour(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafondJour());
+    }
+
+    /**
+     * Tests the setPlafondSemaine() method.
+     *
+     * @return void
+     */
+    public function testSetPlafondSemaine() {
+
+        $obj = new Bulletins();
+
+        $obj->setPlafondSemaine(10.092018);
+        $this->assertEquals(10.092018, $obj->getPlafondSemaine());
+    }
+
+    /**
+     * Tests the setPourcentAbat() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentAbat() {
+
+        $obj = new Bulletins();
+
+        $obj->setPourcentAbat(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentAbat());
+    }
+
+    /**
+     * Tests the setPourcentActForce() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentActForce() {
+
+        $obj = new Bulletins();
+
+        $obj->setPourcentActForce(10);
+        $this->assertEquals(10, $obj->getPourcentActForce());
+    }
+
+    /**
+     * Tests the setPourcentActivite() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentActivite() {
+
+        $obj = new Bulletins();
+
+        $obj->setPourcentActivite(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentActivite());
+    }
+
+    /**
+     * Tests the setPourcentRemuHor() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentRemuHor() {
+
+        $obj = new Bulletins();
+
+        $obj->setPourcentRemuHor(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentRemuHor());
+    }
+
+    /**
+     * Tests the setPpSoumisTaxe() method.
+     *
+     * @return void
+     */
+    public function testSetPpSoumisTaxe() {
+
+        $obj = new Bulletins();
+
+        $obj->setPpSoumisTaxe(10.092018);
+        $this->assertEquals(10.092018, $obj->getPpSoumisTaxe());
+    }
+
+    /**
+     * Tests the setProvCp() method.
+     *
+     * @return void
+     */
+    public function testSetProvCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setProvCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getProvCp());
+    }
+
+    /**
+     * Tests the setProvCp1() method.
+     *
+     * @return void
+     */
+    public function testSetProvCp1() {
+
+        $obj = new Bulletins();
+
+        $obj->setProvCp1(10.092018);
+        $this->assertEquals(10.092018, $obj->getProvCp1());
+    }
+
+    /**
+     * Tests the setPss1() method.
+     *
+     * @return void
+     */
+    public function testSetPss1() {
+
+        $obj = new Bulletins();
+
+        $obj->setPss1(10.092018);
+        $this->assertEquals(10.092018, $obj->getPss1());
+    }
+
+    /**
+     * Tests the setPss2() method.
+     *
+     * @return void
+     */
+    public function testSetPss2() {
+
+        $obj = new Bulletins();
+
+        $obj->setPss2(10.092018);
+        $this->assertEquals(10.092018, $obj->getPss2());
+    }
+
+    /**
+     * Tests the setPss30() method.
+     *
+     * @return void
+     */
+    public function testSetPss30() {
+
+        $obj = new Bulletins();
+
+        $obj->setPss30(true);
+        $this->assertEquals(true, $obj->getPss30());
+    }
+
+    /**
+     * Tests the setPssMod() method.
+     *
+     * @return void
+     */
+    public function testSetPssMod() {
+
+        $obj = new Bulletins();
+
+        $obj->setPssMod(true);
+        $this->assertEquals(true, $obj->getPssMod());
+    }
+
+    /**
+     * Tests the setRemunMens() method.
+     *
+     * @return void
+     */
+    public function testSetRemunMens() {
+
+        $obj = new Bulletins();
+
+        $obj->setRemunMens(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemunMens());
+    }
+
+    /**
+     * Tests the setSBase() method.
+     *
+     * @return void
+     */
+    public function testSetSBase() {
+
+        $obj = new Bulletins();
+
+        $obj->setSBase(10.092018);
+        $this->assertEquals(10.092018, $obj->getSBase());
+    }
+
+    /**
+     * Tests the setSmic1() method.
+     *
+     * @return void
+     */
+    public function testSetSmic1() {
+
+        $obj = new Bulletins();
+
+        $obj->setSmic1(10.092018);
+        $this->assertEquals(10.092018, $obj->getSmic1());
+    }
+
+    /**
+     * Tests the setSmicH() method.
+     *
+     * @return void
+     */
+    public function testSetSmicH() {
+
+        $obj = new Bulletins();
+
+        $obj->setSmicH(10.092018);
+        $this->assertEquals(10.092018, $obj->getSmicH());
+    }
+
+    /**
+     * Tests the setSmicH35() method.
+     *
+     * @return void
+     */
+    public function testSetSmicH35() {
+
+        $obj = new Bulletins();
+
+        $obj->setSmicH35(10.092018);
+        $this->assertEquals(10.092018, $obj->getSmicH35());
+    }
+
+    /**
+     * Tests the setSmicH39() method.
+     *
+     * @return void
+     */
+    public function testSetSmicH39() {
+
+        $obj = new Bulletins();
+
+        $obj->setSmicH39(10.092018);
+        $this->assertEquals(10.092018, $obj->getSmicH39());
+    }
+
+    /**
+     * Tests the setSmicM() method.
+     *
+     * @return void
+     */
+    public function testSetSmicM() {
+
+        $obj = new Bulletins();
+
+        $obj->setSmicM(10.092018);
+        $this->assertEquals(10.092018, $obj->getSmicM());
+    }
+
+    /**
+     * Tests the setSmicM35() method.
+     *
+     * @return void
+     */
+    public function testSetSmicM35() {
+
+        $obj = new Bulletins();
+
+        $obj->setSmicM35(10.092018);
+        $this->assertEquals(10.092018, $obj->getSmicM35());
+    }
+
+    /**
+     * Tests the setSmicM39() method.
+     *
+     * @return void
+     */
+    public function testSetSmicM39() {
+
+        $obj = new Bulletins();
+
+        $obj->setSmicM39(10.092018);
+        $this->assertEquals(10.092018, $obj->getSmicM39());
+    }
+
+    /**
+     * Tests the setSortieMois() method.
+     *
+     * @return void
+     */
+    public function testSetSortieMois() {
+
+        $obj = new Bulletins();
+
+        $obj->setSortieMois(true);
+        $this->assertEquals(true, $obj->getSortieMois());
+    }
+
+    /**
+     * Tests the setTauxHAbCp() method.
+     *
+     * @return void
+     */
+    public function testSetTauxHAbCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setTauxHAbCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxHAbCp());
+    }
+
+    /**
+     * Tests the setTauxHAbsence() method.
+     *
+     * @return void
+     */
+    public function testSetTauxHAbsence() {
+
+        $obj = new Bulletins();
+
+        $obj->setTauxHAbsence(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxHAbsence());
+    }
+
+    /**
+     * Tests the setTauxHNormal() method.
+     *
+     * @return void
+     */
+    public function testSetTauxHNormal() {
+
+        $obj = new Bulletins();
+
+        $obj->setTauxHNormal(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxHNormal());
+    }
+
+    /**
+     * Tests the setTauxJournalier() method.
+     *
+     * @return void
+     */
+    public function testSetTauxJournalier() {
+
+        $obj = new Bulletins();
+
+        $obj->setTauxJournalier(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxJournalier());
+    }
+
+    /**
+     * Tests the setTotAcompte() method.
+     *
+     * @return void
+     */
+    public function testSetTotAcompte() {
+
+        $obj = new Bulletins();
+
+        $obj->setTotAcompte(10.092018);
+        $this->assertEquals(10.092018, $obj->getTotAcompte());
+    }
+
+    /**
+     * Tests the setTotAcompteCp() method.
+     *
+     * @return void
+     */
+    public function testSetTotAcompteCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setTotAcompteCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getTotAcompteCp());
+    }
+
+    /**
+     * Tests the setTotCotisPatron() method.
+     *
+     * @return void
+     */
+    public function testSetTotCotisPatron() {
+
+        $obj = new Bulletins();
+
+        $obj->setTotCotisPatron(10.092018);
+        $this->assertEquals(10.092018, $obj->getTotCotisPatron());
+    }
+
+    /**
+     * Tests the setTotPrimeNi() method.
+     *
+     * @return void
+     */
+    public function testSetTotPrimeNi() {
+
+        $obj = new Bulletins();
+
+        $obj->setTotPrimeNi(10.092018);
+        $this->assertEquals(10.092018, $obj->getTotPrimeNi());
+    }
+
+    /**
+     * Tests the setTotPrimeNs() method.
+     *
+     * @return void
+     */
+    public function testSetTotPrimeNs() {
+
+        $obj = new Bulletins();
+
+        $obj->setTotPrimeNs(10.092018);
+        $this->assertEquals(10.092018, $obj->getTotPrimeNs());
+    }
+
+    /**
+     * Tests the setTotRetenue() method.
+     *
+     * @return void
+     */
+    public function testSetTotRetenue() {
+
+        $obj = new Bulletins();
+
+        $obj->setTotRetenue(10.092018);
+        $this->assertEquals(10.092018, $obj->getTotRetenue());
+    }
+
+    /**
+     * Tests the setTrACaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetTrACaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrACaisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrACaisse1());
+    }
+
+    /**
+     * Tests the setTrACaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetTrACaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrACaisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrACaisse2());
+    }
+
+    /**
+     * Tests the setTrACaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetTrACaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrACaisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrACaisse3());
+    }
+
+    /**
+     * Tests the setTrBCaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetTrBCaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrBCaisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrBCaisse1());
+    }
+
+    /**
+     * Tests the setTrBCaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetTrBCaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrBCaisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrBCaisse2());
+    }
+
+    /**
+     * Tests the setTrBCaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetTrBCaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrBCaisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrBCaisse3());
+    }
+
+    /**
+     * Tests the setTrCCaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetTrCCaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrCCaisse1(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrCCaisse1());
+    }
+
+    /**
+     * Tests the setTrCCaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetTrCCaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrCCaisse2(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrCCaisse2());
+    }
+
+    /**
+     * Tests the setTrCCaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetTrCCaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrCCaisse3(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrCCaisse3());
+    }
+
+    /**
+     * Tests the setTranche2() method.
+     *
+     * @return void
+     */
+    public function testSetTranche2() {
+
+        $obj = new Bulletins();
+
+        $obj->setTranche2(10.092018);
+        $this->assertEquals(10.092018, $obj->getTranche2());
+    }
+
+    /**
+     * Tests the setTrancheA() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheA() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheA(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheA());
+    }
+
+    /**
+     * Tests the setTrancheAbal() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheAbal() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheAbal(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheAbal());
+    }
+
+    /**
+     * Tests the setTrancheAbanl() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheAbanl() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheAbanl(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheAbanl());
+    }
+
+    /**
+     * Tests the setTrancheAbna() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheAbna() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheAbna(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheAbna());
+    }
+
+    /**
+     * Tests the setTrancheB() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheB() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheB(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheB());
+    }
+
+    /**
+     * Tests the setTrancheBbal() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheBbal() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheBbal(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheBbal());
+    }
+
+    /**
+     * Tests the setTrancheBbanl() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheBbanl() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheBbanl(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheBbanl());
+    }
+
+    /**
+     * Tests the setTrancheBbna() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheBbna() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheBbna(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheBbna());
+    }
+
+    /**
+     * Tests the setTrancheC() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheC() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheC(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheC());
+    }
+
+    /**
+     * Tests the setTrancheCPlaf() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheCPlaf() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheCPlaf(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheCPlaf());
+    }
+
+    /**
+     * Tests the setTrancheCbal() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheCbal() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheCbal(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheCbal());
+    }
+
+    /**
+     * Tests the setTrancheCbanl() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheCbanl() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheCbanl(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheCbanl());
+    }
+
+    /**
+     * Tests the setTrancheCbna() method.
+     *
+     * @return void
+     */
+    public function testSetTrancheCbna() {
+
+        $obj = new Bulletins();
+
+        $obj->setTrancheCbna(10.092018);
+        $this->assertEquals(10.092018, $obj->getTrancheCbna());
+    }
+
+    /**
+     * Tests the setTxtNoteRtf() method.
+     *
+     * @return void
+     */
+    public function testSetTxtNoteRtf() {
+
+        $obj = new Bulletins();
+
+        $obj->setTxtNoteRtf("txtNoteRtf");
+        $this->assertEquals("txtNoteRtf", $obj->getTxtNoteRtf());
+    }
+
+    /**
+     * Tests the setTypeBaseCaisse1() method.
+     *
+     * @return void
+     */
+    public function testSetTypeBaseCaisse1() {
+
+        $obj = new Bulletins();
+
+        $obj->setTypeBaseCaisse1("typeBaseCaisse1");
+        $this->assertEquals("typeBaseCaisse1", $obj->getTypeBaseCaisse1());
+    }
+
+    /**
+     * Tests the setTypeBaseCaisse2() method.
+     *
+     * @return void
+     */
+    public function testSetTypeBaseCaisse2() {
+
+        $obj = new Bulletins();
+
+        $obj->setTypeBaseCaisse2("typeBaseCaisse2");
+        $this->assertEquals("typeBaseCaisse2", $obj->getTypeBaseCaisse2());
+    }
+
+    /**
+     * Tests the setTypeBaseCaisse3() method.
+     *
+     * @return void
+     */
+    public function testSetTypeBaseCaisse3() {
+
+        $obj = new Bulletins();
+
+        $obj->setTypeBaseCaisse3("typeBaseCaisse3");
+        $this->assertEquals("typeBaseCaisse3", $obj->getTypeBaseCaisse3());
+    }
+
+    /**
+     * Tests the setTypeGestionBal() method.
+     *
+     * @return void
+     */
+    public function testSetTypeGestionBal() {
+
+        $obj = new Bulletins();
+
+        $obj->setTypeGestionBal("typeGestionBal");
+        $this->assertEquals("typeGestionBal", $obj->getTypeGestionBal());
+    }
+
+    /**
+     * Tests the setTypePaiementBul() method.
+     *
+     * @return void
+     */
+    public function testSetTypePaiementBul() {
+
+        $obj = new Bulletins();
+
+        $obj->setTypePaiementBul("typePaiementBul");
+        $this->assertEquals("typePaiementBul", $obj->getTypePaiementBul());
+    }
+
+    /**
+     * Tests the setTypePaimentModifie() method.
+     *
+     * @return void
+     */
+    public function testSetTypePaimentModifie() {
+
+        $obj = new Bulletins();
+
+        $obj->setTypePaimentModifie(true);
+        $this->assertEquals(true, $obj->getTypePaimentModifie());
+    }
+
+    /**
+     * Tests the setTypeSaisieAbs() method.
+     *
+     * @return void
+     */
+    public function testSetTypeSaisieAbs() {
+
+        $obj = new Bulletins();
+
+        $obj->setTypeSaisieAbs("typeSaisieAbs");
+        $this->assertEquals("typeSaisieAbs", $obj->getTypeSaisieAbs());
+    }
+
+    /**
+     * Tests the setTypeSaisieAbsence() method.
+     *
+     * @return void
+     */
+    public function testSetTypeSaisieAbsence() {
+
+        $obj = new Bulletins();
+
+        $obj->setTypeSaisieAbsence("typeSaisieAbsence");
+        $this->assertEquals("typeSaisieAbsence", $obj->getTypeSaisieAbsence());
+    }
+
+    /**
+     * Tests the setValoriseCp() method.
+     *
+     * @return void
+     */
+    public function testSetValoriseCp() {
+
+        $obj = new Bulletins();
+
+        $obj->setValoriseCp(10.092018);
+        $this->assertEquals(10.092018, $obj->getValoriseCp());
     }
 }

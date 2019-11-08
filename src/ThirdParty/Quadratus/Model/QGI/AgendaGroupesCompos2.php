@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeGroupeTrait;
-
 /**
  * Agenda groupes compos2.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeGroupeTrait;
  */
 class AgendaGroupesCompos2 {
 
-    use StringCodeCollaborateurTrait;
-    use StringCodeGroupeTrait;
-    use IntNumLigTrait;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Code groupe.
+     *
+     * @var string
+     */
+    private $codeGroupe;
+
+    /**
+     * Num lig.
+     *
+     * @var int
+     */
+    private $numLig;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the code groupe.
+     *
+     * @return string Returns the code groupe.
+     */
+    public function getCodeGroupe() {
+        return $this->codeGroupe;
+    }
+
+    /**
+     * Get the num lig.
+     *
+     * @return int Returns the num lig.
+     */
+    public function getNumLig() {
+        return $this->numLig;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the code groupe.
+     *
+     * @param string $codeGroupe The code groupe.
+     */
+    public function setCodeGroupe($codeGroupe) {
+        $this->codeGroupe = $codeGroupe;
+        return $this;
+    }
+
+    /**
+     * Set the num lig.
+     *
+     * @param int $numLig The num lig.
+     */
+    public function setNumLig($numLig) {
+        $this->numLig = $numLig;
+        return $this;
     }
 }

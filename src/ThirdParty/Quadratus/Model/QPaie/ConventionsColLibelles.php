@@ -11,15 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolActiveTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolFraisSanteAmTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCategSalarieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIndiceCategTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntPositionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeConventionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
-
 /**
  * Conventions col libelles.
  *
@@ -28,19 +19,218 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
  */
 class ConventionsColLibelles {
 
-    use BoolActiveTrait;
-    use IntCategSalarieTrait;
-    use StringCodeConventionTrait;
-    use StringCodeLibelleTrait;
-    use BoolFraisSanteAmTrait;
-    use IntIndiceCategTrait;
-    use StringIntituleTrait;
-    use IntPositionTrait;
+    /**
+     * Active.
+     *
+     * @var bool
+     */
+    private $active;
+
+    /**
+     * Categ salarie.
+     *
+     * @var int
+     */
+    private $categSalarie;
+
+    /**
+     * Code convention.
+     *
+     * @var string
+     */
+    private $codeConvention;
+
+    /**
+     * Code libelle.
+     *
+     * @var string
+     */
+    private $codeLibelle;
+
+    /**
+     * Frais sante am.
+     *
+     * @var bool
+     */
+    private $fraisSanteAm;
+
+    /**
+     * Indice categ.
+     *
+     * @var int
+     */
+    private $indiceCateg;
+
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
+
+    /**
+     * Position.
+     *
+     * @var int
+     */
+    private $position;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the active.
+     *
+     * @return bool Returns the active.
+     */
+    public function getActive() {
+        return $this->active;
+    }
+
+    /**
+     * Get the categ salarie.
+     *
+     * @return int Returns the categ salarie.
+     */
+    public function getCategSalarie() {
+        return $this->categSalarie;
+    }
+
+    /**
+     * Get the code convention.
+     *
+     * @return string Returns the code convention.
+     */
+    public function getCodeConvention() {
+        return $this->codeConvention;
+    }
+
+    /**
+     * Get the code libelle.
+     *
+     * @return string Returns the code libelle.
+     */
+    public function getCodeLibelle() {
+        return $this->codeLibelle;
+    }
+
+    /**
+     * Get the frais sante am.
+     *
+     * @return bool Returns the frais sante am.
+     */
+    public function getFraisSanteAm() {
+        return $this->fraisSanteAm;
+    }
+
+    /**
+     * Get the indice categ.
+     *
+     * @return int Returns the indice categ.
+     */
+    public function getIndiceCateg() {
+        return $this->indiceCateg;
+    }
+
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
+
+    /**
+     * Get the position.
+     *
+     * @return int Returns the position.
+     */
+    public function getPosition() {
+        return $this->position;
+    }
+
+    /**
+     * Set the active.
+     *
+     * @param bool $active The active.
+     */
+    public function setActive($active) {
+        $this->active = $active;
+        return $this;
+    }
+
+    /**
+     * Set the categ salarie.
+     *
+     * @param int $categSalarie The categ salarie.
+     */
+    public function setCategSalarie($categSalarie) {
+        $this->categSalarie = $categSalarie;
+        return $this;
+    }
+
+    /**
+     * Set the code convention.
+     *
+     * @param string $codeConvention The code convention.
+     */
+    public function setCodeConvention($codeConvention) {
+        $this->codeConvention = $codeConvention;
+        return $this;
+    }
+
+    /**
+     * Set the code libelle.
+     *
+     * @param string $codeLibelle The code libelle.
+     */
+    public function setCodeLibelle($codeLibelle) {
+        $this->codeLibelle = $codeLibelle;
+        return $this;
+    }
+
+    /**
+     * Set the frais sante am.
+     *
+     * @param bool $fraisSanteAm The frais sante am.
+     */
+    public function setFraisSanteAm($fraisSanteAm) {
+        $this->fraisSanteAm = $fraisSanteAm;
+        return $this;
+    }
+
+    /**
+     * Set the indice categ.
+     *
+     * @param int $indiceCateg The indice categ.
+     */
+    public function setIndiceCateg($indiceCateg) {
+        $this->indiceCateg = $indiceCateg;
+        return $this;
+    }
+
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
+
+    /**
+     * Set the position.
+     *
+     * @param int $position The position.
+     */
+    public function setPosition($position) {
+        $this->position = $position;
+        return $this;
     }
 }

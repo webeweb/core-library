@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\PrepaPaieHSup;
 
@@ -37,5 +39,87 @@ class PrepaPaieHSupTest extends AbstractTestCase {
         $this->assertNull($obj->getPeriode());
         $this->assertNull($obj->getPourcentHSup());
         $this->assertNull($obj->getSemaine());
+    }
+
+    /**
+     * Tests the setCodeLibHs() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibHs() {
+
+        $obj = new PrepaPaieHSup();
+
+        $obj->setCodeLibHs("codeLibHs");
+        $this->assertEquals("codeLibHs", $obj->getCodeLibHs());
+    }
+
+    /**
+     * Tests the setNbHSup() method.
+     *
+     * @return void
+     */
+    public function testSetNbHSup() {
+
+        $obj = new PrepaPaieHSup();
+
+        $obj->setNbHSup(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHSup());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new PrepaPaieHSup();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new PrepaPaieHSup();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the setPourcentHSup() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentHSup() {
+
+        $obj = new PrepaPaieHSup();
+
+        $obj->setPourcentHSup(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentHSup());
+    }
+
+    /**
+     * Tests the setSemaine() method.
+     *
+     * @return void
+     */
+    public function testSetSemaine() {
+
+        $obj = new PrepaPaieHSup();
+
+        $obj->setSemaine("semaine");
+        $this->assertEquals("semaine", $obj->getSemaine());
     }
 }

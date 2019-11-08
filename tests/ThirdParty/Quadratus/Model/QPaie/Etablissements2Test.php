@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Etablissements2;
 
@@ -80,5 +82,646 @@ class Etablissements2Test extends AbstractTestCase {
         $this->assertNull($obj->getTelSignatureDnae());
         $this->assertNull($obj->getTypeEffectifCt());
         $this->assertNull($obj->getTypeMaintienBrutNet());
+    }
+
+    /**
+     * Tests the setAdherentSyndicat() method.
+     *
+     * @return void
+     */
+    public function testSetAdherentSyndicat() {
+
+        $obj = new Etablissements2();
+
+        $obj->setAdherentSyndicat(true);
+        $this->assertEquals(true, $obj->getAdherentSyndicat());
+    }
+
+    /**
+     * Tests the setAnneeChgtEffectif() method.
+     *
+     * @return void
+     */
+    public function testSetAnneeChgtEffectif() {
+
+        $obj = new Etablissements2();
+
+        $obj->setAnneeChgtEffectif("anneeChgtEffectif");
+        $this->assertEquals("anneeChgtEffectif", $obj->getAnneeChgtEffectif());
+    }
+
+    /**
+     * Tests the setAnneeJei() method.
+     *
+     * @return void
+     */
+    public function testSetAnneeJei() {
+
+        $obj = new Etablissements2();
+
+        $obj->setAnneeJei(10);
+        $this->assertEquals(10, $obj->getAnneeJei());
+    }
+
+    /**
+     * Tests the setAssujettiCvae() method.
+     *
+     * @return void
+     */
+    public function testSetAssujettiCvae() {
+
+        $obj = new Etablissements2();
+
+        $obj->setAssujettiCvae(true);
+        $this->assertEquals(true, $obj->getAssujettiCvae());
+    }
+
+    /**
+     * Tests the setAutreSignatureDnae() method.
+     *
+     * @return void
+     */
+    public function testSetAutreSignatureDnae() {
+
+        $obj = new Etablissements2();
+
+        $obj->setAutreSignatureDnae("autreSignatureDnae");
+        $this->assertEquals("autreSignatureDnae", $obj->getAutreSignatureDnae());
+    }
+
+    /**
+     * Tests the setBic2() method.
+     *
+     * @return void
+     */
+    public function testSetBic2() {
+
+        $obj = new Etablissements2();
+
+        $obj->setBic2("bic2");
+        $this->assertEquals("bic2", $obj->getBic2());
+    }
+
+    /**
+     * Tests the setBic3() method.
+     *
+     * @return void
+     */
+    public function testSetBic3() {
+
+        $obj = new Etablissements2();
+
+        $obj->setBic3("bic3");
+        $this->assertEquals("bic3", $obj->getBic3());
+    }
+
+    /**
+     * Tests the setCaisseCpTransport() method.
+     *
+     * @return void
+     */
+    public function testSetCaisseCpTransport() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCaisseCpTransport(true);
+        $this->assertEquals(true, $obj->getCaisseCpTransport());
+    }
+
+    /**
+     * Tests the setCategorieJuridique() method.
+     *
+     * @return void
+     */
+    public function testSetCategorieJuridique() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCategorieJuridique("categorieJuridique");
+        $this->assertEquals("categorieJuridique", $obj->getCategorieJuridique());
+    }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setCodeMedTravDue() method.
+     *
+     * @return void
+     */
+    public function testSetCodeMedTravDue() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCodeMedTravDue("codeMedTravDue");
+        $this->assertEquals("codeMedTravDue", $obj->getCodeMedTravDue());
+    }
+
+    /**
+     * Tests the setCodeOrgaDue() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrgaDue() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCodeOrgaDue("codeOrgaDue");
+        $this->assertEquals("codeOrgaDue", $obj->getCodeOrgaDue());
+    }
+
+    /**
+     * Tests the setCoeffFillonMoins20() method.
+     *
+     * @return void
+     */
+    public function testSetCoeffFillonMoins20() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCoeffFillonMoins20(true);
+        $this->assertEquals(true, $obj->getCoeffFillonMoins20());
+    }
+
+    /**
+     * Tests the setCompteChargeHeuresActPart() method.
+     *
+     * @return void
+     */
+    public function testSetCompteChargeHeuresActPart() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCompteChargeHeuresActPart("compteChargeHeuresActPart");
+        $this->assertEquals("compteChargeHeuresActPart", $obj->getCompteChargeHeuresActPart());
+    }
+
+    /**
+     * Tests the setCompteChargeIndemAbsIntemp() method.
+     *
+     * @return void
+     */
+    public function testSetCompteChargeIndemAbsIntemp() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCompteChargeIndemAbsIntemp("compteChargeIndemAbsIntemp");
+        $this->assertEquals("compteChargeIndemAbsIntemp", $obj->getCompteChargeIndemAbsIntemp());
+    }
+
+    /**
+     * Tests the setCompteChargeIndemActPart() method.
+     *
+     * @return void
+     */
+    public function testSetCompteChargeIndemActPart() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCompteChargeIndemActPart("compteChargeIndemActPart");
+        $this->assertEquals("compteChargeIndemActPart", $obj->getCompteChargeIndemActPart());
+    }
+
+    /**
+     * Tests the setCompteChargeIntVers() method.
+     *
+     * @return void
+     */
+    public function testSetCompteChargeIntVers() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCompteChargeIntVers("compteChargeIntVers");
+        $this->assertEquals("compteChargeIntVers", $obj->getCompteChargeIntVers());
+    }
+
+    /**
+     * Tests the setCompteChargePartVers() method.
+     *
+     * @return void
+     */
+    public function testSetCompteChargePartVers() {
+
+        $obj = new Etablissements2();
+
+        $obj->setCompteChargePartVers("compteChargePartVers");
+        $this->assertEquals("compteChargePartVers", $obj->getCompteChargePartVers());
+    }
+
+    /**
+     * Tests the setContactSignatureDnae() method.
+     *
+     * @return void
+     */
+    public function testSetContactSignatureDnae() {
+
+        $obj = new Etablissements2();
+
+        $obj->setContactSignatureDnae("contactSignatureDnae");
+        $this->assertEquals("contactSignatureDnae", $obj->getContactSignatureDnae());
+    }
+
+    /**
+     * Tests the setDateFinExclureLfr2012() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateFinExclureLfr2012() {
+
+        // Set a Date/time mock.
+        $dateFinExclureLfr2012 = new DateTime("2018-09-10");
+
+        $obj = new Etablissements2();
+
+        $obj->setDateFinExclureLfr2012($dateFinExclureLfr2012);
+        $this->assertSame($dateFinExclureLfr2012, $obj->getDateFinExclureLfr2012());
+    }
+
+    /**
+     * Tests the setExclureLfr2012() method.
+     *
+     * @return void
+     */
+    public function testSetExclureLfr2012() {
+
+        $obj = new Etablissements2();
+
+        $obj->setExclureLfr2012(true);
+        $this->assertEquals(true, $obj->getExclureLfr2012());
+    }
+
+    /**
+     * Tests the setGestionHstepa() method.
+     *
+     * @return void
+     */
+    public function testSetGestionHstepa() {
+
+        $obj = new Etablissements2();
+
+        $obj->setGestionHstepa("gestionHstepa");
+        $this->assertEquals("gestionHstepa", $obj->getGestionHstepa());
+    }
+
+    /**
+     * Tests the setGestionMaintienSalAuto() method.
+     *
+     * @return void
+     */
+    public function testSetGestionMaintienSalAuto() {
+
+        $obj = new Etablissements2();
+
+        $obj->setGestionMaintienSalAuto(true);
+        $this->assertEquals(true, $obj->getGestionMaintienSalAuto());
+    }
+
+    /**
+     * Tests the setIban2() method.
+     *
+     * @return void
+     */
+    public function testSetIban2() {
+
+        $obj = new Etablissements2();
+
+        $obj->setIban2("iban2");
+        $this->assertEquals("iban2", $obj->getIban2());
+    }
+
+    /**
+     * Tests the setIban3() method.
+     *
+     * @return void
+     */
+    public function testSetIban3() {
+
+        $obj = new Etablissements2();
+
+        $obj->setIban3("iban3");
+        $this->assertEquals("iban3", $obj->getIban3());
+    }
+
+    /**
+     * Tests the setIbanIdClient2() method.
+     *
+     * @return void
+     */
+    public function testSetIbanIdClient2() {
+
+        $obj = new Etablissements2();
+
+        $obj->setIbanIdClient2("ibanIdClient2");
+        $this->assertEquals("ibanIdClient2", $obj->getIbanIdClient2());
+    }
+
+    /**
+     * Tests the setIbanIdClient3() method.
+     *
+     * @return void
+     */
+    public function testSetIbanIdClient3() {
+
+        $obj = new Etablissements2();
+
+        $obj->setIbanIdClient3("ibanIdClient3");
+        $this->assertEquals("ibanIdClient3", $obj->getIbanIdClient3());
+    }
+
+    /**
+     * Tests the setImplantationEntreprise() method.
+     *
+     * @return void
+     */
+    public function testSetImplantationEntreprise() {
+
+        $obj = new Etablissements2();
+
+        $obj->setImplantationEntreprise("implantationEntreprise");
+        $this->assertEquals("implantationEntreprise", $obj->getImplantationEntreprise());
+    }
+
+    /**
+     * Tests the setJfChargeEmp() method.
+     *
+     * @return void
+     */
+    public function testSetJfChargeEmp() {
+
+        $obj = new Etablissements2();
+
+        $obj->setJfChargeEmp(true);
+        $this->assertEquals(true, $obj->getJfChargeEmp());
+    }
+
+    /**
+     * Tests the setLieuSignatureDnae() method.
+     *
+     * @return void
+     */
+    public function testSetLieuSignatureDnae() {
+
+        $obj = new Etablissements2();
+
+        $obj->setLieuSignatureDnae("lieuSignatureDnae");
+        $this->assertEquals("lieuSignatureDnae", $obj->getLieuSignatureDnae());
+    }
+
+    /**
+     * Tests the setMaintienNetDeducCsgijss() method.
+     *
+     * @return void
+     */
+    public function testSetMaintienNetDeducCsgijss() {
+
+        $obj = new Etablissements2();
+
+        $obj->setMaintienNetDeducCsgijss(true);
+        $this->assertEquals(true, $obj->getMaintienNetDeducCsgijss());
+    }
+
+    /**
+     * Tests the setNbFractionEtab() method.
+     *
+     * @return void
+     */
+    public function testSetNbFractionEtab() {
+
+        $obj = new Etablissements2();
+
+        $obj->setNbFractionEtab(10);
+        $this->assertEquals(10, $obj->getNbFractionEtab());
+    }
+
+    /**
+     * Tests the setNomSignataireDnae() method.
+     *
+     * @return void
+     */
+    public function testSetNomSignataireDnae() {
+
+        $obj = new Etablissements2();
+
+        $obj->setNomSignataireDnae("nomSignataireDnae");
+        $this->assertEquals("nomSignataireDnae", $obj->getNomSignataireDnae());
+    }
+
+    /**
+     * Tests the setPrenomSignataireDnae() method.
+     *
+     * @return void
+     */
+    public function testSetPrenomSignataireDnae() {
+
+        $obj = new Etablissements2();
+
+        $obj->setPrenomSignataireDnae("prenomSignataireDnae");
+        $this->assertEquals("prenomSignataireDnae", $obj->getPrenomSignataireDnae());
+    }
+
+    /**
+     * Tests the setPseudoSiret() method.
+     *
+     * @return void
+     */
+    public function testSetPseudoSiret() {
+
+        $obj = new Etablissements2();
+
+        $obj->setPseudoSiret("pseudoSiret");
+        $this->assertEquals("pseudoSiret", $obj->getPseudoSiret());
+    }
+
+    /**
+     * Tests the setQualiteSignataireDnae() method.
+     *
+     * @return void
+     */
+    public function testSetQualiteSignataireDnae() {
+
+        $obj = new Etablissements2();
+
+        $obj->setQualiteSignataireDnae("qualiteSignataireDnae");
+        $this->assertEquals("qualiteSignataireDnae", $obj->getQualiteSignataireDnae());
+    }
+
+    /**
+     * Tests the setReductionMayotte() method.
+     *
+     * @return void
+     */
+    public function testSetReductionMayotte() {
+
+        $obj = new Etablissements2();
+
+        $obj->setReductionMayotte(true);
+        $this->assertEquals(true, $obj->getReductionMayotte());
+    }
+
+    /**
+     * Tests the setRemunerationExpatries() method.
+     *
+     * @return void
+     */
+    public function testSetRemunerationExpatries() {
+
+        $obj = new Etablissements2();
+
+        $obj->setRemunerationExpatries("remunerationExpatries");
+        $this->assertEquals("remunerationExpatries", $obj->getRemunerationExpatries());
+    }
+
+    /**
+     * Tests the setSiretCentralisateur() method.
+     *
+     * @return void
+     */
+    public function testSetSiretCentralisateur() {
+
+        $obj = new Etablissements2();
+
+        $obj->setSiretCentralisateur(true);
+        $this->assertEquals(true, $obj->getSiretCentralisateur());
+    }
+
+    /**
+     * Tests the setSmicMCourant() method.
+     *
+     * @return void
+     */
+    public function testSetSmicMCourant() {
+
+        $obj = new Etablissements2();
+
+        $obj->setSmicMCourant(true);
+        $this->assertEquals(true, $obj->getSmicMCourant());
+    }
+
+    /**
+     * Tests the setSocieteInterim() method.
+     *
+     * @return void
+     */
+    public function testSetSocieteInterim() {
+
+        $obj = new Etablissements2();
+
+        $obj->setSocieteInterim(true);
+        $this->assertEquals(true, $obj->getSocieteInterim());
+    }
+
+    /**
+     * Tests the setTauxComplHeure() method.
+     *
+     * @return void
+     */
+    public function testSetTauxComplHeure() {
+
+        $obj = new Etablissements2();
+
+        $obj->setTauxComplHeure(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxComplHeure());
+    }
+
+    /**
+     * Tests the setTauxCotisOssEtOpe() method.
+     *
+     * @return void
+     */
+    public function testSetTauxCotisOssEtOpe() {
+
+        $obj = new Etablissements2();
+
+        $obj->setTauxCotisOssEtOpe(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxCotisOssEtOpe());
+    }
+
+    /**
+     * Tests the setTauxHComp() method.
+     *
+     * @return void
+     */
+    public function testSetTauxHComp() {
+
+        $obj = new Etablissements2();
+
+        $obj->setTauxHComp(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxHComp());
+    }
+
+    /**
+     * Tests the setTds19() method.
+     *
+     * @return void
+     */
+    public function testSetTds19() {
+
+        $obj = new Etablissements2();
+
+        $obj->setTds19("tds19");
+        $this->assertEquals("tds19", $obj->getTds19());
+    }
+
+    /**
+     * Tests the setTelSignatureDnae() method.
+     *
+     * @return void
+     */
+    public function testSetTelSignatureDnae() {
+
+        $obj = new Etablissements2();
+
+        $obj->setTelSignatureDnae("telSignatureDnae");
+        $this->assertEquals("telSignatureDnae", $obj->getTelSignatureDnae());
+    }
+
+    /**
+     * Tests the setTepaMoins20() method.
+     *
+     * @return void
+     */
+    public function testSetTepaMoins20() {
+
+        $obj = new Etablissements2();
+
+        $obj->setTepaMoins20(true);
+        $this->assertEquals(true, $obj->getTepaMoins20());
+    }
+
+    /**
+     * Tests the setTypeEffectifCt() method.
+     *
+     * @return void
+     */
+    public function testSetTypeEffectifCt() {
+
+        $obj = new Etablissements2();
+
+        $obj->setTypeEffectifCt("typeEffectifCt");
+        $this->assertEquals("typeEffectifCt", $obj->getTypeEffectifCt());
+    }
+
+    /**
+     * Tests the setTypeMaintienBrutNet() method.
+     *
+     * @return void
+     */
+    public function testSetTypeMaintienBrutNet() {
+
+        $obj = new Etablissements2();
+
+        $obj->setTypeMaintienBrutNet("typeMaintienBrutNet");
+        $this->assertEquals("typeMaintienBrutNet", $obj->getTypeMaintienBrutNet());
     }
 }

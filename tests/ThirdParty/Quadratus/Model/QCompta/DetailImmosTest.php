@@ -39,4 +39,95 @@ class DetailImmosTest extends AbstractTestCase {
         $this->assertNull($obj->getQuantite());
         $this->assertNull($obj->getValeur());
     }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new DetailImmos();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
+
+        $obj = new DetailImmos();
+
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the setNumero() method.
+     *
+     * @return void
+     */
+    public function testSetNumero() {
+
+        $obj = new DetailImmos();
+
+        $obj->setNumero(10);
+        $this->assertEquals(10, $obj->getNumero());
+    }
+
+    /**
+     * Tests the setNumeroCompte() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompte() {
+
+        $obj = new DetailImmos();
+
+        $obj->setNumeroCompte("numeroCompte");
+        $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the setNumeroDeux() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroDeux() {
+
+        $obj = new DetailImmos();
+
+        $obj->setNumeroDeux(10);
+        $this->assertEquals(10, $obj->getNumeroDeux());
+    }
+
+    /**
+     * Tests the setQuantite() method.
+     *
+     * @return void
+     */
+    public function testSetQuantite() {
+
+        $obj = new DetailImmos();
+
+        $obj->setQuantite(10.092018);
+        $this->assertEquals(10.092018, $obj->getQuantite());
+    }
+
+    /**
+     * Tests the setValeur() method.
+     *
+     * @return void
+     */
+    public function testSetValeur() {
+
+        $obj = new DetailImmos();
+
+        $obj->setValeur(10.092018);
+        $this->assertEquals(10.092018, $obj->getValeur());
+    }
 }

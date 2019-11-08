@@ -11,12 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateAffectationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFinAffectationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
+use DateTime;
 
 /**
  * Affectation employe chantier.
@@ -26,17 +21,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
  */
 class AffectationEmployeChantier {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringCodeEmployeTrait;
-    use DateTimeDateAffectationTrait;
-    use DateTimeDateFinAffectationTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
+
+    /**
+     * Date affectation.
+     *
+     * @var DateTime|null
+     */
+    private $dateAffectation;
+
+    /**
+     * Date fin affectation.
+     *
+     * @var DateTime|null
+     */
+    private $dateFinAffectation;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
+
+    /**
+     * Get the date affectation.
+     *
+     * @return DateTime|null Returns the date affectation.
+     */
+    public function getDateAffectation() {
+        return $this->dateAffectation;
+    }
+
+    /**
+     * Get the date fin affectation.
+     *
+     * @return DateTime|null Returns the date fin affectation.
+     */
+    public function getDateFinAffectation() {
+        return $this->dateFinAffectation;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the date affectation.
+     *
+     * @param DateTime|null $dateAffectation The date affectation.
+     */
+    public function setDateAffectation(DateTime $dateAffectation = null) {
+        $this->dateAffectation = $dateAffectation;
+        return $this;
+    }
+
+    /**
+     * Set the date fin affectation.
+     *
+     * @param DateTime|null $dateFinAffectation The date fin affectation.
+     */
+    public function setDateFinAffectation(DateTime $dateFinAffectation = null) {
+        $this->dateFinAffectation = $dateFinAffectation;
+        return $this;
     }
 }

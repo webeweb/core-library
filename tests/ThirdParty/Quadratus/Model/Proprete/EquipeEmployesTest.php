@@ -34,4 +34,30 @@ class EquipeEmployesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeEmploye());
         $this->assertNull($obj->getCodeEquipe());
     }
+
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
+
+        $obj = new EquipeEmployes();
+
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
+
+    /**
+     * Tests the setCodeEquipe() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEquipe() {
+
+        $obj = new EquipeEmployes();
+
+        $obj->setCodeEquipe("codeEquipe");
+        $this->assertEquals("codeEquipe", $obj->getCodeEquipe());
+    }
 }

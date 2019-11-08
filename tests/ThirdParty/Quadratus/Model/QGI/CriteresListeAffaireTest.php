@@ -35,4 +35,43 @@ class CriteresListeAffaireTest extends AbstractTestCase {
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getNumLibelle());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new CriteresListeAffaire();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new CriteresListeAffaire();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setNumLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetNumLibelle() {
+
+        $obj = new CriteresListeAffaire();
+
+        $obj->setNumLibelle("numLibelle");
+        $this->assertEquals("numLibelle", $obj->getNumLibelle());
+    }
 }

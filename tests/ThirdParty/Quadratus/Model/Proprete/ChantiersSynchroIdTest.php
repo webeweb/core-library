@@ -38,4 +38,82 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeClient());
         $this->assertNull($obj->getUniqId());
     }
+
+    /**
+     * Tests the setBlocDa() method.
+     *
+     * @return void
+     */
+    public function testSetBlocDa() {
+
+        $obj = new ChantiersSynchroId();
+
+        $obj->setBlocDa(true);
+        $this->assertEquals(true, $obj->getBlocDa());
+    }
+
+    /**
+     * Tests the setBlocFc() method.
+     *
+     * @return void
+     */
+    public function testSetBlocFc() {
+
+        $obj = new ChantiersSynchroId();
+
+        $obj->setBlocFc(true);
+        $this->assertEquals(true, $obj->getBlocFc());
+    }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new ChantiersSynchroId();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new ChantiersSynchroId();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new ChantiersSynchroId();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setUniqId() method.
+     *
+     * @return void
+     */
+    public function testSetUniqId() {
+
+        $obj = new ChantiersSynchroId();
+
+        $obj->setUniqId("uniqId");
+        $this->assertEquals("uniqId", $obj->getUniqId());
+    }
 }

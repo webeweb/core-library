@@ -35,4 +35,43 @@ class LignesGrillesAncTest extends AbstractTestCase {
         $this->assertNull($obj->getNbMoisEcoules());
         $this->assertNull($obj->getValeur());
     }
+
+    /**
+     * Tests the setCodeGrille() method.
+     *
+     * @return void
+     */
+    public function testSetCodeGrille() {
+
+        $obj = new LignesGrillesAnc();
+
+        $obj->setCodeGrille("codeGrille");
+        $this->assertEquals("codeGrille", $obj->getCodeGrille());
+    }
+
+    /**
+     * Tests the setNbMoisEcoules() method.
+     *
+     * @return void
+     */
+    public function testSetNbMoisEcoules() {
+
+        $obj = new LignesGrillesAnc();
+
+        $obj->setNbMoisEcoules(10);
+        $this->assertEquals(10, $obj->getNbMoisEcoules());
+    }
+
+    /**
+     * Tests the setValeur() method.
+     *
+     * @return void
+     */
+    public function testSetValeur() {
+
+        $obj = new LignesGrillesAnc();
+
+        $obj->setValeur(10.092018);
+        $this->assertEquals(10.092018, $obj->getValeur());
+    }
 }

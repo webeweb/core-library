@@ -11,11 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeValideATrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeValideDeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollabTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumiKeyTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPasswordTrait;
+use DateTime;
 
 /**
  * i collaborateurs.
@@ -25,16 +21,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPasswordTrait;
  */
 class iCollaborateurs {
 
-    use StringCodeCollabTrait;
-    use StringNumiKeyTrait;
-    use StringPasswordTrait;
-    use DateTimeValideATrait;
-    use DateTimeValideDeTrait;
+    /**
+     * Code collab.
+     *
+     * @var string
+     */
+    private $codeCollab;
+
+    /**
+     * Numi key.
+     *
+     * @var string
+     */
+    private $numiKey;
+
+    /**
+     * Password.
+     *
+     * @var string
+     */
+    private $password;
+
+    /**
+     * Valide a.
+     *
+     * @var DateTime|null
+     */
+    private $valideA;
+
+    /**
+     * Valide de.
+     *
+     * @var DateTime|null
+     */
+    private $valideDe;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code collab.
+     *
+     * @return string Returns the code collab.
+     */
+    public function getCodeCollab() {
+        return $this->codeCollab;
+    }
+
+    /**
+     * Get the numi key.
+     *
+     * @return string Returns the numi key.
+     */
+    public function getNumiKey() {
+        return $this->numiKey;
+    }
+
+    /**
+     * Get the password.
+     *
+     * @return string Returns the password.
+     */
+    public function getPassword() {
+        return $this->password;
+    }
+
+    /**
+     * Get the valide a.
+     *
+     * @return DateTime|null Returns the valide a.
+     */
+    public function getValideA() {
+        return $this->valideA;
+    }
+
+    /**
+     * Get the valide de.
+     *
+     * @return DateTime|null Returns the valide de.
+     */
+    public function getValideDe() {
+        return $this->valideDe;
+    }
+
+    /**
+     * Set the code collab.
+     *
+     * @param string $codeCollab The code collab.
+     */
+    public function setCodeCollab($codeCollab) {
+        $this->codeCollab = $codeCollab;
+        return $this;
+    }
+
+    /**
+     * Set the numi key.
+     *
+     * @param string $numiKey The numi key.
+     */
+    public function setNumiKey($numiKey) {
+        $this->numiKey = $numiKey;
+        return $this;
+    }
+
+    /**
+     * Set the password.
+     *
+     * @param string $password The password.
+     */
+    public function setPassword($password) {
+        $this->password = $password;
+        return $this;
+    }
+
+    /**
+     * Set the valide a.
+     *
+     * @param DateTime|null $valideA The valide a.
+     */
+    public function setValideA(DateTime $valideA = null) {
+        $this->valideA = $valideA;
+        return $this;
+    }
+
+    /**
+     * Set the valide de.
+     *
+     * @param DateTime|null $valideDe The valide de.
+     */
+    public function setValideDe(DateTime $valideDe = null) {
+        $this->valideDe = $valideDe;
+        return $this;
     }
 }

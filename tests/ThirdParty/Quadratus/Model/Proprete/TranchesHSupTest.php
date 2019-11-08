@@ -35,4 +35,43 @@ class TranchesHSupTest extends AbstractTestCase {
         $this->assertNull($obj->getTaux());
         $this->assertNull($obj->getType());
     }
+
+    /**
+     * Tests the setNbHeures() method.
+     *
+     * @return void
+     */
+    public function testSetNbHeures() {
+
+        $obj = new TranchesHSup();
+
+        $obj->setNbHeures(10);
+        $this->assertEquals(10, $obj->getNbHeures());
+    }
+
+    /**
+     * Tests the setTaux() method.
+     *
+     * @return void
+     */
+    public function testSetTaux() {
+
+        $obj = new TranchesHSup();
+
+        $obj->setTaux(10.092018);
+        $this->assertEquals(10.092018, $obj->getTaux());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new TranchesHSup();
+
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 }

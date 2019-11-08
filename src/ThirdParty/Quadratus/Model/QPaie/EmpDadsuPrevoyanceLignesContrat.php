@@ -11,13 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeOptionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeOrganismeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePopulationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNbEnfantsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefContratTrait;
-
 /**
  * Emp dadsu prevoyance lignes contrat.
  *
@@ -26,17 +19,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefContratTrait;
  */
 class EmpDadsuPrevoyanceLignesContrat {
 
-    use StringCodeOptionTrait;
-    use StringCodeOrganismeTrait;
-    use StringCodePopulationTrait;
-    use StringNbEnfantsTrait;
-    use StringNumeroEmployeTrait;
-    use StringRefContratTrait;
+    /**
+     * Code option.
+     *
+     * @var string
+     */
+    private $codeOption;
+
+    /**
+     * Code organisme.
+     *
+     * @var string
+     */
+    private $codeOrganisme;
+
+    /**
+     * Code population.
+     *
+     * @var string
+     */
+    private $codePopulation;
+
+    /**
+     * Nb enfants.
+     *
+     * @var string
+     */
+    private $nbEnfants;
+
+    /**
+     * Numero employe.
+     *
+     * @var string
+     */
+    private $numeroEmploye;
+
+    /**
+     * Ref contrat.
+     *
+     * @var string
+     */
+    private $refContrat;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code option.
+     *
+     * @return string Returns the code option.
+     */
+    public function getCodeOption() {
+        return $this->codeOption;
+    }
+
+    /**
+     * Get the code organisme.
+     *
+     * @return string Returns the code organisme.
+     */
+    public function getCodeOrganisme() {
+        return $this->codeOrganisme;
+    }
+
+    /**
+     * Get the code population.
+     *
+     * @return string Returns the code population.
+     */
+    public function getCodePopulation() {
+        return $this->codePopulation;
+    }
+
+    /**
+     * Get the nb enfants.
+     *
+     * @return string Returns the nb enfants.
+     */
+    public function getNbEnfants() {
+        return $this->nbEnfants;
+    }
+
+    /**
+     * Get the numero employe.
+     *
+     * @return string Returns the numero employe.
+     */
+    public function getNumeroEmploye() {
+        return $this->numeroEmploye;
+    }
+
+    /**
+     * Get the ref contrat.
+     *
+     * @return string Returns the ref contrat.
+     */
+    public function getRefContrat() {
+        return $this->refContrat;
+    }
+
+    /**
+     * Set the code option.
+     *
+     * @param string $codeOption The code option.
+     */
+    public function setCodeOption($codeOption) {
+        $this->codeOption = $codeOption;
+        return $this;
+    }
+
+    /**
+     * Set the code organisme.
+     *
+     * @param string $codeOrganisme The code organisme.
+     */
+    public function setCodeOrganisme($codeOrganisme) {
+        $this->codeOrganisme = $codeOrganisme;
+        return $this;
+    }
+
+    /**
+     * Set the code population.
+     *
+     * @param string $codePopulation The code population.
+     */
+    public function setCodePopulation($codePopulation) {
+        $this->codePopulation = $codePopulation;
+        return $this;
+    }
+
+    /**
+     * Set the nb enfants.
+     *
+     * @param string $nbEnfants The nb enfants.
+     */
+    public function setNbEnfants($nbEnfants) {
+        $this->nbEnfants = $nbEnfants;
+        return $this;
+    }
+
+    /**
+     * Set the numero employe.
+     *
+     * @param string $numeroEmploye The numero employe.
+     */
+    public function setNumeroEmploye($numeroEmploye) {
+        $this->numeroEmploye = $numeroEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the ref contrat.
+     *
+     * @param string $refContrat The ref contrat.
+     */
+    public function setRefContrat($refContrat) {
+        $this->refContrat = $refContrat;
+        return $this;
     }
 }

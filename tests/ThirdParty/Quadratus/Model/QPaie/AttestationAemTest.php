@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\AttestationAem;
 
@@ -110,5 +112,1056 @@ class AttestationAemTest extends AbstractTestCase {
         $this->assertNull($obj->getTypeAem());
         $this->assertNull($obj->getTypeLienParente());
         $this->assertNull($obj->getTypeNationalite());
+    }
+
+    /**
+     * Tests the setActivite() method.
+     *
+     * @return void
+     */
+    public function testSetActivite() {
+
+        $obj = new AttestationAem();
+
+        $obj->setActivite("activite");
+        $this->assertEquals("activite", $obj->getActivite());
+    }
+
+    /**
+     * Tests the setAemInitiale() method.
+     *
+     * @return void
+     */
+    public function testSetAemInitiale() {
+
+        $obj = new AttestationAem();
+
+        $obj->setAemInitiale(true);
+        $this->assertEquals(true, $obj->getAemInitiale());
+    }
+
+    /**
+     * Tests the setAutresContributions() method.
+     *
+     * @return void
+     */
+    public function testSetAutresContributions() {
+
+        $obj = new AttestationAem();
+
+        $obj->setAutresContributions(10.092018);
+        $this->assertEquals(10.092018, $obj->getAutresContributions());
+    }
+
+    /**
+     * Tests the setAutresRemunBrut() method.
+     *
+     * @return void
+     */
+    public function testSetAutresRemunBrut() {
+
+        $obj = new AttestationAem();
+
+        $obj->setAutresRemunBrut(10.092018);
+        $this->assertEquals(10.092018, $obj->getAutresRemunBrut());
+    }
+
+    /**
+     * Tests the setAutresTauxCotis() method.
+     *
+     * @return void
+     */
+    public function testSetAutresTauxCotis() {
+
+        $obj = new AttestationAem();
+
+        $obj->setAutresTauxCotis(10.092018);
+        $this->assertEquals(10.092018, $obj->getAutresTauxCotis());
+    }
+
+    /**
+     * Tests the setBrut() method.
+     *
+     * @return void
+     */
+    public function testSetBrut() {
+
+        $obj = new AttestationAem();
+
+        $obj->setBrut(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrut());
+    }
+
+    /**
+     * Tests the setBrutAl() method.
+     *
+     * @return void
+     */
+    public function testSetBrutAl() {
+
+        $obj = new AttestationAem();
+
+        $obj->setBrutAl(10.092018);
+        $this->assertEquals(10.092018, $obj->getBrutAl());
+    }
+
+    /**
+     * Tests the setCertificationSociale() method.
+     *
+     * @return void
+     */
+    public function testSetCertificationSociale() {
+
+        $obj = new AttestationAem();
+
+        $obj->setCertificationSociale(true);
+        $this->assertEquals(true, $obj->getCertificationSociale());
+    }
+
+    /**
+     * Tests the setCivilite() method.
+     *
+     * @return void
+     */
+    public function testSetCivilite() {
+
+        $obj = new AttestationAem();
+
+        $obj->setCivilite("civilite");
+        $this->assertEquals("civilite", $obj->getCivilite());
+    }
+
+    /**
+     * Tests the setCodeEmploi() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploi() {
+
+        $obj = new AttestationAem();
+
+        $obj->setCodeEmploi("codeEmploi");
+        $this->assertEquals("codeEmploi", $obj->getCodeEmploi());
+    }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new AttestationAem();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setCodeNaf2008() method.
+     *
+     * @return void
+     */
+    public function testSetCodeNaf2008() {
+
+        $obj = new AttestationAem();
+
+        $obj->setCodeNaf2008("codeNaf2008");
+        $this->assertEquals("codeNaf2008", $obj->getCodeNaf2008());
+    }
+
+    /**
+     * Tests the setCodeQualif() method.
+     *
+     * @return void
+     */
+    public function testSetCodeQualif() {
+
+        $obj = new AttestationAem();
+
+        $obj->setCodeQualif("codeQualif");
+        $this->assertEquals("codeQualif", $obj->getCodeQualif());
+    }
+
+    /**
+     * Tests the setContact() method.
+     *
+     * @return void
+     */
+    public function testSetContact() {
+
+        $obj = new AttestationAem();
+
+        $obj->setContact("contact");
+        $this->assertEquals("contact", $obj->getContact());
+    }
+
+    /**
+     * Tests the setContratEnCours() method.
+     *
+     * @return void
+     */
+    public function testSetContratEnCours() {
+
+        $obj = new AttestationAem();
+
+        $obj->setContratEnCours(true);
+        $this->assertEquals(true, $obj->getContratEnCours());
+    }
+
+    /**
+     * Tests the setContributions() method.
+     *
+     * @return void
+     */
+    public function testSetContributions() {
+
+        $obj = new AttestationAem();
+
+        $obj->setContributions(10.092018);
+        $this->assertEquals(10.092018, $obj->getContributions());
+    }
+
+    /**
+     * Tests the setDateEmbauche() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateEmbauche() {
+
+        // Set a Date/time mock.
+        $dateEmbauche = new DateTime("2018-09-10");
+
+        $obj = new AttestationAem();
+
+        $obj->setDateEmbauche($dateEmbauche);
+        $this->assertSame($dateEmbauche, $obj->getDateEmbauche());
+    }
+
+    /**
+     * Tests the setDateFinContrat() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateFinContrat() {
+
+        // Set a Date/time mock.
+        $dateFinContrat = new DateTime("2018-09-10");
+
+        $obj = new AttestationAem();
+
+        $obj->setDateFinContrat($dateFinContrat);
+        $this->assertSame($dateFinContrat, $obj->getDateFinContrat());
+    }
+
+    /**
+     * Tests the setDateFinContratInitiale() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateFinContratInitiale() {
+
+        // Set a Date/time mock.
+        $dateFinContratInitiale = new DateTime("2018-09-10");
+
+        $obj = new AttestationAem();
+
+        $obj->setDateFinContratInitiale($dateFinContratInitiale);
+        $this->assertSame($dateFinContratInitiale, $obj->getDateFinContratInitiale());
+    }
+
+    /**
+     * Tests the setDateNaiss() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateNaiss() {
+
+        // Set a Date/time mock.
+        $dateNaiss = new DateTime("2018-09-10");
+
+        $obj = new AttestationAem();
+
+        $obj->setDateNaiss($dateNaiss);
+        $this->assertSame($dateNaiss, $obj->getDateNaiss());
+    }
+
+    /**
+     * Tests the setEmpAdresse1() method.
+     *
+     * @return void
+     */
+    public function testSetEmpAdresse1() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEmpAdresse1("empAdresse1");
+        $this->assertEquals("empAdresse1", $obj->getEmpAdresse1());
+    }
+
+    /**
+     * Tests the setEmpAdresse2() method.
+     *
+     * @return void
+     */
+    public function testSetEmpAdresse2() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEmpAdresse2("empAdresse2");
+        $this->assertEquals("empAdresse2", $obj->getEmpAdresse2());
+    }
+
+    /**
+     * Tests the setEmpCodePostal() method.
+     *
+     * @return void
+     */
+    public function testSetEmpCodePostal() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEmpCodePostal("empCodePostal");
+        $this->assertEquals("empCodePostal", $obj->getEmpCodePostal());
+    }
+
+    /**
+     * Tests the setEmpCommune() method.
+     *
+     * @return void
+     */
+    public function testSetEmpCommune() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEmpCommune("empCommune");
+        $this->assertEquals("empCommune", $obj->getEmpCommune());
+    }
+
+    /**
+     * Tests the setEmpTel() method.
+     *
+     * @return void
+     */
+    public function testSetEmpTel() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEmpTel("empTel");
+        $this->assertEquals("empTel", $obj->getEmpTel());
+    }
+
+    /**
+     * Tests the setEmploi() method.
+     *
+     * @return void
+     */
+    public function testSetEmploi() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEmploi("emploi");
+        $this->assertEquals("emploi", $obj->getEmploi());
+    }
+
+    /**
+     * Tests the setEtblAdresse1() method.
+     *
+     * @return void
+     */
+    public function testSetEtblAdresse1() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEtblAdresse1("etblAdresse1");
+        $this->assertEquals("etblAdresse1", $obj->getEtblAdresse1());
+    }
+
+    /**
+     * Tests the setEtblAdresse2() method.
+     *
+     * @return void
+     */
+    public function testSetEtblAdresse2() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEtblAdresse2("etblAdresse2");
+        $this->assertEquals("etblAdresse2", $obj->getEtblAdresse2());
+    }
+
+    /**
+     * Tests the setEtblCodePostal() method.
+     *
+     * @return void
+     */
+    public function testSetEtblCodePostal() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEtblCodePostal("etblCodePostal");
+        $this->assertEquals("etblCodePostal", $obj->getEtblCodePostal());
+    }
+
+    /**
+     * Tests the setEtblCommune() method.
+     *
+     * @return void
+     */
+    public function testSetEtblCommune() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEtblCommune("etblCommune");
+        $this->assertEquals("etblCommune", $obj->getEtblCommune());
+    }
+
+    /**
+     * Tests the setEtblFax() method.
+     *
+     * @return void
+     */
+    public function testSetEtblFax() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEtblFax("etblFax");
+        $this->assertEquals("etblFax", $obj->getEtblFax());
+    }
+
+    /**
+     * Tests the setEtblMail() method.
+     *
+     * @return void
+     */
+    public function testSetEtblMail() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEtblMail("etblMail");
+        $this->assertEquals("etblMail", $obj->getEtblMail());
+    }
+
+    /**
+     * Tests the setEtblRaisonSociale() method.
+     *
+     * @return void
+     */
+    public function testSetEtblRaisonSociale() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEtblRaisonSociale("etblRaisonSociale");
+        $this->assertEquals("etblRaisonSociale", $obj->getEtblRaisonSociale());
+    }
+
+    /**
+     * Tests the setEtblTel() method.
+     *
+     * @return void
+     */
+    public function testSetEtblTel() {
+
+        $obj = new AttestationAem();
+
+        $obj->setEtblTel("etblTel");
+        $this->assertEquals("etblTel", $obj->getEtblTel());
+    }
+
+    /**
+     * Tests the setIndiceAem() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceAem() {
+
+        $obj = new AttestationAem();
+
+        $obj->setIndiceAem(10);
+        $this->assertEquals(10, $obj->getIndiceAem());
+    }
+
+    /**
+     * Tests the setLabelPrestataire() method.
+     *
+     * @return void
+     */
+    public function testSetLabelPrestataire() {
+
+        $obj = new AttestationAem();
+
+        $obj->setLabelPrestataire(true);
+        $this->assertEquals(true, $obj->getLabelPrestataire());
+    }
+
+    /**
+     * Tests the setLicenceSpectacle() method.
+     *
+     * @return void
+     */
+    public function testSetLicenceSpectacle() {
+
+        $obj = new AttestationAem();
+
+        $obj->setLicenceSpectacle(true);
+        $this->assertEquals(true, $obj->getLicenceSpectacle());
+    }
+
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
+
+        $obj = new AttestationAem();
+
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
+
+    /**
+     * Tests the setLienParente() method.
+     *
+     * @return void
+     */
+    public function testSetLienParente() {
+
+        $obj = new AttestationAem();
+
+        $obj->setLienParente(true);
+        $this->assertEquals(true, $obj->getLienParente());
+    }
+
+    /**
+     * Tests the setMotifFinContrat() method.
+     *
+     * @return void
+     */
+    public function testSetMotifFinContrat() {
+
+        $obj = new AttestationAem();
+
+        $obj->setMotifFinContrat("motifFinContrat");
+        $this->assertEquals("motifFinContrat", $obj->getMotifFinContrat());
+    }
+
+    /**
+     * Tests the setMotifRupture() method.
+     *
+     * @return void
+     */
+    public function testSetMotifRupture() {
+
+        $obj = new AttestationAem();
+
+        $obj->setMotifRupture("motifRupture");
+        $this->assertEquals("motifRupture", $obj->getMotifRupture());
+    }
+
+    /**
+     * Tests the setNaf() method.
+     *
+     * @return void
+     */
+    public function testSetNaf() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNaf("naf");
+        $this->assertEquals("naf", $obj->getNaf());
+    }
+
+    /**
+     * Tests the setNbJourTrav() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourTrav() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNbJourTrav(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourTrav());
+    }
+
+    /**
+     * Tests the setNir() method.
+     *
+     * @return void
+     */
+    public function testSetNir() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNir("nir");
+        $this->assertEquals("nir", $obj->getNir());
+    }
+
+    /**
+     * Tests the setNomEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNomEmploye() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNomEmploye("nomEmploye");
+        $this->assertEquals("nomEmploye", $obj->getNomEmploye());
+    }
+
+    /**
+     * Tests the setNomNaissance() method.
+     *
+     * @return void
+     */
+    public function testSetNomNaissance() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNomNaissance("nomNaissance");
+        $this->assertEquals("nomNaissance", $obj->getNomNaissance());
+    }
+
+    /**
+     * Tests the setNomRetraite() method.
+     *
+     * @return void
+     */
+    public function testSetNomRetraite() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNomRetraite("nomRetraite");
+        $this->assertEquals("nomRetraite", $obj->getNomRetraite());
+    }
+
+    /**
+     * Tests the setNombreCachets() method.
+     *
+     * @return void
+     */
+    public function testSetNombreCachets() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNombreCachets(10.092018);
+        $this->assertEquals(10.092018, $obj->getNombreCachets());
+    }
+
+    /**
+     * Tests the setNombreCachetsIsoles() method.
+     *
+     * @return void
+     */
+    public function testSetNombreCachetsIsoles() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNombreCachetsIsoles(10.092018);
+        $this->assertEquals(10.092018, $obj->getNombreCachetsIsoles());
+    }
+
+    /**
+     * Tests the setNombreHeures() method.
+     *
+     * @return void
+     */
+    public function testSetNombreHeures() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNombreHeures(10.092018);
+        $this->assertEquals(10.092018, $obj->getNombreHeures());
+    }
+
+    /**
+     * Tests the setNumAssedic() method.
+     *
+     * @return void
+     */
+    public function testSetNumAssedic() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumAssedic("numAssedic");
+        $this->assertEquals("numAssedic", $obj->getNumAssedic());
+    }
+
+    /**
+     * Tests the setNumCaisseSpectacle() method.
+     *
+     * @return void
+     */
+    public function testSetNumCaisseSpectacle() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumCaisseSpectacle("numCaisseSpectacle");
+        $this->assertEquals("numCaisseSpectacle", $obj->getNumCaisseSpectacle());
+    }
+
+    /**
+     * Tests the setNumCertificationSociale() method.
+     *
+     * @return void
+     */
+    public function testSetNumCertificationSociale() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumCertificationSociale("numCertificationSociale");
+        $this->assertEquals("numCertificationSociale", $obj->getNumCertificationSociale());
+    }
+
+    /**
+     * Tests the setNumIdccEmployeur() method.
+     *
+     * @return void
+     */
+    public function testSetNumIdccEmployeur() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumIdccEmployeur("numIdccEmployeur");
+        $this->assertEquals("numIdccEmployeur", $obj->getNumIdccEmployeur());
+    }
+
+    /**
+     * Tests the setNumIdccPrestationTravail() method.
+     *
+     * @return void
+     */
+    public function testSetNumIdccPrestationTravail() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumIdccPrestationTravail("numIdccPrestationTravail");
+        $this->assertEquals("numIdccPrestationTravail", $obj->getNumIdccPrestationTravail());
+    }
+
+    /**
+     * Tests the setNumObjet() method.
+     *
+     * @return void
+     */
+    public function testSetNumObjet() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumObjet("numObjet");
+        $this->assertEquals("numObjet", $obj->getNumObjet());
+    }
+
+    /**
+     * Tests the setNumeroAemInitiale() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAemInitiale() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumeroAemInitiale("numeroAemInitiale");
+        $this->assertEquals("numeroAemInitiale", $obj->getNumeroAemInitiale());
+    }
+
+    /**
+     * Tests the setNumeroAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAttestation() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumeroAttestation("numeroAttestation");
+        $this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setNumeroLabel() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLabel() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumeroLabel("numeroLabel");
+        $this->assertEquals("numeroLabel", $obj->getNumeroLabel());
+    }
+
+    /**
+     * Tests the setNumeroLicence() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLicence() {
+
+        $obj = new AttestationAem();
+
+        $obj->setNumeroLicence("numeroLicence");
+        $this->assertEquals("numeroLicence", $obj->getNumeroLicence());
+    }
+
+    /**
+     * Tests the setOrganisateurSpectacle() method.
+     *
+     * @return void
+     */
+    public function testSetOrganisateurSpectacle() {
+
+        $obj = new AttestationAem();
+
+        $obj->setOrganisateurSpectacle(true);
+        $this->assertEquals(true, $obj->getOrganisateurSpectacle());
+    }
+
+    /**
+     * Tests the setOrganismeAssedic() method.
+     *
+     * @return void
+     */
+    public function testSetOrganismeAssedic() {
+
+        $obj = new AttestationAem();
+
+        $obj->setOrganismeAssedic("organismeAssedic");
+        $this->assertEquals("organismeAssedic", $obj->getOrganismeAssedic());
+    }
+
+    /**
+     * Tests the setOrganismeRetraite() method.
+     *
+     * @return void
+     */
+    public function testSetOrganismeRetraite() {
+
+        $obj = new AttestationAem();
+
+        $obj->setOrganismeRetraite("organismeRetraite");
+        $this->assertEquals("organismeRetraite", $obj->getOrganismeRetraite());
+    }
+
+    /**
+     * Tests the setPeriodeAttest() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeAttest() {
+
+        // Set a Date/time mock.
+        $periodeAttest = new DateTime("2018-09-10");
+
+        $obj = new AttestationAem();
+
+        $obj->setPeriodeAttest($periodeAttest);
+        $this->assertSame($periodeAttest, $obj->getPeriodeAttest());
+    }
+
+    /**
+     * Tests the setPrenom() method.
+     *
+     * @return void
+     */
+    public function testSetPrenom() {
+
+        $obj = new AttestationAem();
+
+        $obj->setPrenom("prenom");
+        $this->assertEquals("prenom", $obj->getPrenom());
+    }
+
+    /**
+     * Tests the setSignatureDate() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetSignatureDate() {
+
+        // Set a Date/time mock.
+        $signatureDate = new DateTime("2018-09-10");
+
+        $obj = new AttestationAem();
+
+        $obj->setSignatureDate($signatureDate);
+        $this->assertSame($signatureDate, $obj->getSignatureDate());
+    }
+
+    /**
+     * Tests the setSignatureNom() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureNom() {
+
+        $obj = new AttestationAem();
+
+        $obj->setSignatureNom("signatureNom");
+        $this->assertEquals("signatureNom", $obj->getSignatureNom());
+    }
+
+    /**
+     * Tests the setSignaturePrenom() method.
+     *
+     * @return void
+     */
+    public function testSetSignaturePrenom() {
+
+        $obj = new AttestationAem();
+
+        $obj->setSignaturePrenom("signaturePrenom");
+        $this->assertEquals("signaturePrenom", $obj->getSignaturePrenom());
+    }
+
+    /**
+     * Tests the setSignatureQualite() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureQualite() {
+
+        $obj = new AttestationAem();
+
+        $obj->setSignatureQualite("signatureQualite");
+        $this->assertEquals("signatureQualite", $obj->getSignatureQualite());
+    }
+
+    /**
+     * Tests the setSignatureQualiteCode() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureQualiteCode() {
+
+        $obj = new AttestationAem();
+
+        $obj->setSignatureQualiteCode("signatureQualiteCode");
+        $this->assertEquals("signatureQualiteCode", $obj->getSignatureQualiteCode());
+    }
+
+    /**
+     * Tests the setSignatureVille() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureVille() {
+
+        $obj = new AttestationAem();
+
+        $obj->setSignatureVille("signatureVille");
+        $this->assertEquals("signatureVille", $obj->getSignatureVille());
+    }
+
+    /**
+     * Tests the setSiret() method.
+     *
+     * @return void
+     */
+    public function testSetSiret() {
+
+        $obj = new AttestationAem();
+
+        $obj->setSiret("siret");
+        $this->assertEquals("siret", $obj->getSiret());
+    }
+
+    /**
+     * Tests the setStatutCadre() method.
+     *
+     * @return void
+     */
+    public function testSetStatutCadre() {
+
+        $obj = new AttestationAem();
+
+        $obj->setStatutCadre(true);
+        $this->assertEquals(true, $obj->getStatutCadre());
+    }
+
+    /**
+     * Tests the setTauxCotis() method.
+     *
+     * @return void
+     */
+    public function testSetTauxCotis() {
+
+        $obj = new AttestationAem();
+
+        $obj->setTauxCotis(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxCotis());
+    }
+
+    /**
+     * Tests the setTelContact() method.
+     *
+     * @return void
+     */
+    public function testSetTelContact() {
+
+        $obj = new AttestationAem();
+
+        $obj->setTelContact("telContact");
+        $this->assertEquals("telContact", $obj->getTelContact());
+    }
+
+    /**
+     * Tests the setTypeAem() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAem() {
+
+        $obj = new AttestationAem();
+
+        $obj->setTypeAem("typeAem");
+        $this->assertEquals("typeAem", $obj->getTypeAem());
+    }
+
+    /**
+     * Tests the setTypeLienParente() method.
+     *
+     * @return void
+     */
+    public function testSetTypeLienParente() {
+
+        $obj = new AttestationAem();
+
+        $obj->setTypeLienParente("typeLienParente");
+        $this->assertEquals("typeLienParente", $obj->getTypeLienParente());
+    }
+
+    /**
+     * Tests the setTypeNationalite() method.
+     *
+     * @return void
+     */
+    public function testSetTypeNationalite() {
+
+        $obj = new AttestationAem();
+
+        $obj->setTypeNationalite("typeNationalite");
+        $this->assertEquals("typeNationalite", $obj->getTypeNationalite());
     }
 }

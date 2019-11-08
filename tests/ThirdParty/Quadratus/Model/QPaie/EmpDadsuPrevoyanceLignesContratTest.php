@@ -38,4 +38,82 @@ class EmpDadsuPrevoyanceLignesContratTest extends AbstractTestCase {
         $this->assertNull($obj->getNumeroEmploye());
         $this->assertNull($obj->getRefContrat());
     }
+
+    /**
+     * Tests the setCodeOption() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOption() {
+
+        $obj = new EmpDadsuPrevoyanceLignesContrat();
+
+        $obj->setCodeOption("codeOption");
+        $this->assertEquals("codeOption", $obj->getCodeOption());
+    }
+
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
+
+        $obj = new EmpDadsuPrevoyanceLignesContrat();
+
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
+
+    /**
+     * Tests the setCodePopulation() method.
+     *
+     * @return void
+     */
+    public function testSetCodePopulation() {
+
+        $obj = new EmpDadsuPrevoyanceLignesContrat();
+
+        $obj->setCodePopulation("codePopulation");
+        $this->assertEquals("codePopulation", $obj->getCodePopulation());
+    }
+
+    /**
+     * Tests the setNbEnfants() method.
+     *
+     * @return void
+     */
+    public function testSetNbEnfants() {
+
+        $obj = new EmpDadsuPrevoyanceLignesContrat();
+
+        $obj->setNbEnfants("nbEnfants");
+        $this->assertEquals("nbEnfants", $obj->getNbEnfants());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new EmpDadsuPrevoyanceLignesContrat();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setRefContrat() method.
+     *
+     * @return void
+     */
+    public function testSetRefContrat() {
+
+        $obj = new EmpDadsuPrevoyanceLignesContrat();
+
+        $obj->setRefContrat("refContrat");
+        $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
 }

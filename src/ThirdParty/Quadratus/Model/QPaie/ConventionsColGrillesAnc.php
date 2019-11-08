@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntTypeGrilleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeConventionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeGrilleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
-
 /**
  * Conventions col grilles anc.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
  */
 class ConventionsColGrillesAnc {
 
-    use StringCodeConventionTrait;
-    use StringCodeGrilleTrait;
-    use StringIntituleTrait;
-    use IntTypeGrilleTrait;
+    /**
+     * Code convention.
+     *
+     * @var string
+     */
+    private $codeConvention;
+
+    /**
+     * Code grille.
+     *
+     * @var string
+     */
+    private $codeGrille;
+
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
+
+    /**
+     * Type grille.
+     *
+     * @var int
+     */
+    private $typeGrille;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code convention.
+     *
+     * @return string Returns the code convention.
+     */
+    public function getCodeConvention() {
+        return $this->codeConvention;
+    }
+
+    /**
+     * Get the code grille.
+     *
+     * @return string Returns the code grille.
+     */
+    public function getCodeGrille() {
+        return $this->codeGrille;
+    }
+
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
+
+    /**
+     * Get the type grille.
+     *
+     * @return int Returns the type grille.
+     */
+    public function getTypeGrille() {
+        return $this->typeGrille;
+    }
+
+    /**
+     * Set the code convention.
+     *
+     * @param string $codeConvention The code convention.
+     */
+    public function setCodeConvention($codeConvention) {
+        $this->codeConvention = $codeConvention;
+        return $this;
+    }
+
+    /**
+     * Set the code grille.
+     *
+     * @param string $codeGrille The code grille.
+     */
+    public function setCodeGrille($codeGrille) {
+        $this->codeGrille = $codeGrille;
+        return $this;
+    }
+
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
+
+    /**
+     * Set the type grille.
+     *
+     * @param int $typeGrille The type grille.
+     */
+    public function setTypeGrille($typeGrille) {
+        $this->typeGrille = $typeGrille;
+        return $this;
     }
 }

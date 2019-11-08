@@ -44,4 +44,160 @@ class ProvisionsCpTest extends AbstractTestCase {
         $this->assertNull($obj->getSoldeJoursN1());
         $this->assertNull($obj->getTxChargesSoc());
     }
+
+    /**
+     * Tests the setCentre() method.
+     *
+     * @return void
+     */
+    public function testSetCentre() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setCentre("centre");
+        $this->assertEquals("centre", $obj->getCentre());
+    }
+
+    /**
+     * Tests the setColPourSalRef() method.
+     *
+     * @return void
+     */
+    public function testSetColPourSalRef() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setColPourSalRef("colPourSalRef");
+        $this->assertEquals("colPourSalRef", $obj->getColPourSalRef());
+    }
+
+    /**
+     * Tests the setDernierSalaire() method.
+     *
+     * @return void
+     */
+    public function testSetDernierSalaire() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setDernierSalaire(10.092018);
+        $this->assertEquals(10.092018, $obj->getDernierSalaire());
+    }
+
+    /**
+     * Tests the setMoyenneSalaires() method.
+     *
+     * @return void
+     */
+    public function testSetMoyenneSalaires() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setMoyenneSalaires(10.092018);
+        $this->assertEquals(10.092018, $obj->getMoyenneSalaires());
+    }
+
+    /**
+     * Tests the setNature() method.
+     *
+     * @return void
+     */
+    public function testSetNature() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setNature("nature");
+        $this->assertEquals("nature", $obj->getNature());
+    }
+
+    /**
+     * Tests the setNomCompletEmp() method.
+     *
+     * @return void
+     */
+    public function testSetNomCompletEmp() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setNomCompletEmp("nomCompletEmp");
+        $this->assertEquals("nomCompletEmp", $obj->getNomCompletEmp());
+    }
+
+    /**
+     * Tests the setNumeroEmp() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmp() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setNumeroEmp("numeroEmp");
+        $this->assertEquals("numeroEmp", $obj->getNumeroEmp());
+    }
+
+    /**
+     * Tests the setProvisionTotale() method.
+     *
+     * @return void
+     */
+    public function testSetProvisionTotale() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setProvisionTotale(10.092018);
+        $this->assertEquals(10.092018, $obj->getProvisionTotale());
+    }
+
+    /**
+     * Tests the setSalaireRef() method.
+     *
+     * @return void
+     */
+    public function testSetSalaireRef() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setSalaireRef(10.092018);
+        $this->assertEquals(10.092018, $obj->getSalaireRef());
+    }
+
+    /**
+     * Tests the setSoldeJoursN() method.
+     *
+     * @return void
+     */
+    public function testSetSoldeJoursN() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setSoldeJoursN(10.092018);
+        $this->assertEquals(10.092018, $obj->getSoldeJoursN());
+    }
+
+    /**
+     * Tests the setSoldeJoursN1() method.
+     *
+     * @return void
+     */
+    public function testSetSoldeJoursN1() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setSoldeJoursN1(10.092018);
+        $this->assertEquals(10.092018, $obj->getSoldeJoursN1());
+    }
+
+    /**
+     * Tests the setTxChargesSoc() method.
+     *
+     * @return void
+     */
+    public function testSetTxChargesSoc() {
+
+        $obj = new ProvisionsCp();
+
+        $obj->setTxChargesSoc(10.092018);
+        $this->assertEquals(10.092018, $obj->getTxChargesSoc());
+    }
 }

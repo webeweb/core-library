@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RegularisationAf;
 
@@ -40,5 +42,134 @@ class RegularisationAfTest extends AbstractTestCase {
         $this->assertNull($obj->getPerBulDeb());
         $this->assertNull($obj->getPerBulFin());
         $this->assertNull($obj->getPeriode());
+    }
+
+    /**
+     * Tests the setBaseAf() method.
+     *
+     * @return void
+     */
+    public function testSetBaseAf() {
+
+        $obj = new RegularisationAf();
+
+        $obj->setBaseAf(10.092018);
+        $this->assertEquals(10.092018, $obj->getBaseAf());
+    }
+
+    /**
+     * Tests the setCodeLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibelle() {
+
+        $obj = new RegularisationAf();
+
+        $obj->setCodeLibelle("codeLibelle");
+        $this->assertEquals("codeLibelle", $obj->getCodeLibelle());
+    }
+
+    /**
+     * Tests the setIndiceBulDeb() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceBulDeb() {
+
+        $obj = new RegularisationAf();
+
+        $obj->setIndiceBulDeb(10);
+        $this->assertEquals(10, $obj->getIndiceBulDeb());
+    }
+
+    /**
+     * Tests the setIndiceBulFin() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceBulFin() {
+
+        $obj = new RegularisationAf();
+
+        $obj->setIndiceBulFin(10);
+        $this->assertEquals(10, $obj->getIndiceBulFin());
+    }
+
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
+
+        $obj = new RegularisationAf();
+
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new RegularisationAf();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setPerBulDeb() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPerBulDeb() {
+
+        // Set a Date/time mock.
+        $perBulDeb = new DateTime("2018-09-10");
+
+        $obj = new RegularisationAf();
+
+        $obj->setPerBulDeb($perBulDeb);
+        $this->assertSame($perBulDeb, $obj->getPerBulDeb());
+    }
+
+    /**
+     * Tests the setPerBulFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPerBulFin() {
+
+        // Set a Date/time mock.
+        $perBulFin = new DateTime("2018-09-10");
+
+        $obj = new RegularisationAf();
+
+        $obj->setPerBulFin($perBulFin);
+        $this->assertSame($perBulFin, $obj->getPerBulFin());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new RegularisationAf();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
     }
 }

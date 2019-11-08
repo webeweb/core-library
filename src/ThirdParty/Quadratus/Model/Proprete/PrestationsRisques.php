@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxExpositionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTrait;
-
 /**
  * Prestations risques.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTrait;
  */
 class PrestationsRisques {
 
-    use StringCodeArticleTrait;
-    use StringCodeTacheTrait;
-    use FloatTauxExpositionTrait;
+    /**
+     * Code article.
+     *
+     * @var string
+     */
+    private $codeArticle;
+
+    /**
+     * Code tache.
+     *
+     * @var string
+     */
+    private $codeTache;
+
+    /**
+     * Taux exposition.
+     *
+     * @var float
+     */
+    private $tauxExposition;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code article.
+     *
+     * @return string Returns the code article.
+     */
+    public function getCodeArticle() {
+        return $this->codeArticle;
+    }
+
+    /**
+     * Get the code tache.
+     *
+     * @return string Returns the code tache.
+     */
+    public function getCodeTache() {
+        return $this->codeTache;
+    }
+
+    /**
+     * Get the taux exposition.
+     *
+     * @return float Returns the taux exposition.
+     */
+    public function getTauxExposition() {
+        return $this->tauxExposition;
+    }
+
+    /**
+     * Set the code article.
+     *
+     * @param string $codeArticle The code article.
+     */
+    public function setCodeArticle($codeArticle) {
+        $this->codeArticle = $codeArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code tache.
+     *
+     * @param string $codeTache The code tache.
+     */
+    public function setCodeTache($codeTache) {
+        $this->codeTache = $codeTache;
+        return $this;
+    }
+
+    /**
+     * Set the taux exposition.
+     *
+     * @param float $tauxExposition The taux exposition.
+     */
+    public function setTauxExposition($tauxExposition) {
+        $this->tauxExposition = $tauxExposition;
+        return $this;
     }
 }

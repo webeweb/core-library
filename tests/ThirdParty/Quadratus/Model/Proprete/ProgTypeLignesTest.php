@@ -38,4 +38,82 @@ class ProgTypeLignesTest extends AbstractTestCase {
         $this->assertNull($obj->getVitesseReelle());
         $this->assertNull($obj->getVitesseTheorique());
     }
+
+    /**
+     * Tests the setCodeOperation() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOperation() {
+
+        $obj = new ProgTypeLignes();
+
+        $obj->setCodeOperation("codeOperation");
+        $this->assertEquals("codeOperation", $obj->getCodeOperation());
+    }
+
+    /**
+     * Tests the setCoefficient() method.
+     *
+     * @return void
+     */
+    public function testSetCoefficient() {
+
+        $obj = new ProgTypeLignes();
+
+        $obj->setCoefficient(10.092018);
+        $this->assertEquals(10.092018, $obj->getCoefficient());
+    }
+
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
+
+        $obj = new ProgTypeLignes();
+
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the setNumProgramme() method.
+     *
+     * @return void
+     */
+    public function testSetNumProgramme() {
+
+        $obj = new ProgTypeLignes();
+
+        $obj->setNumProgramme(10);
+        $this->assertEquals(10, $obj->getNumProgramme());
+    }
+
+    /**
+     * Tests the setVitesseReelle() method.
+     *
+     * @return void
+     */
+    public function testSetVitesseReelle() {
+
+        $obj = new ProgTypeLignes();
+
+        $obj->setVitesseReelle(10.092018);
+        $this->assertEquals(10.092018, $obj->getVitesseReelle());
+    }
+
+    /**
+     * Tests the setVitesseTheorique() method.
+     *
+     * @return void
+     */
+    public function testSetVitesseTheorique() {
+
+        $obj = new ProgTypeLignes();
+
+        $obj->setVitesseTheorique(10.092018);
+        $this->assertEquals(10.092018, $obj->getVitesseTheorique());
+    }
 }

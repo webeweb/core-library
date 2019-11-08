@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeActionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeObligationTrait;
-
 /**
  * Obligations liees.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeObligationTrait;
  */
 class ObligationsLiees {
 
-    use StringCodeActionTrait;
-    use StringCodeObligationTrait;
+    /**
+     * Code action.
+     *
+     * @var string
+     */
+    private $codeAction;
+
+    /**
+     * Code obligation.
+     *
+     * @var string
+     */
+    private $codeObligation;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code action.
+     *
+     * @return string Returns the code action.
+     */
+    public function getCodeAction() {
+        return $this->codeAction;
+    }
+
+    /**
+     * Get the code obligation.
+     *
+     * @return string Returns the code obligation.
+     */
+    public function getCodeObligation() {
+        return $this->codeObligation;
+    }
+
+    /**
+     * Set the code action.
+     *
+     * @param string $codeAction The code action.
+     */
+    public function setCodeAction($codeAction) {
+        $this->codeAction = $codeAction;
+        return $this;
+    }
+
+    /**
+     * Set the code obligation.
+     *
+     * @param string $codeObligation The code obligation.
+     */
+    public function setCodeObligation($codeObligation) {
+        $this->codeObligation = $codeObligation;
+        return $this;
     }
 }

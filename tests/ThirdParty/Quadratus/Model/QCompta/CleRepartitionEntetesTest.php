@@ -36,4 +36,56 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
         $this->assertNull($obj->getTotal());
         $this->assertNull($obj->getTypeCle());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new CleRepartitionEntetes();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new CleRepartitionEntetes();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setTotal() method.
+     *
+     * @return void
+     */
+    public function testSetTotal() {
+
+        $obj = new CleRepartitionEntetes();
+
+        $obj->setTotal(10.092018);
+        $this->assertEquals(10.092018, $obj->getTotal());
+    }
+
+    /**
+     * Tests the setTypeCle() method.
+     *
+     * @return void
+     */
+    public function testSetTypeCle() {
+
+        $obj = new CleRepartitionEntetes();
+
+        $obj->setTypeCle("typeCle");
+        $this->assertEquals("typeCle", $obj->getTypeCle());
+    }
 }

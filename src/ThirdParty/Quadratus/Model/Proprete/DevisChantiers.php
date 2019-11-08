@@ -11,13 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolMajDescriptifTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantHtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDevisTrait;
-
 /**
  * Devis chantiers.
  *
@@ -26,17 +19,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDevisTrait;
  */
 class DevisChantiers {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use BoolMajDescriptifTrait;
-    use FloatMontantHtTrait;
-    use StringNumDevisTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Maj descriptif.
+     *
+     * @var bool
+     */
+    private $majDescriptif;
+
+    /**
+     * Montant ht.
+     *
+     * @var float
+     */
+    private $montantHt;
+
+    /**
+     * Num devis.
+     *
+     * @var string
+     */
+    private $numDevis;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the maj descriptif.
+     *
+     * @return bool Returns the maj descriptif.
+     */
+    public function getMajDescriptif() {
+        return $this->majDescriptif;
+    }
+
+    /**
+     * Get the montant ht.
+     *
+     * @return float Returns the montant ht.
+     */
+    public function getMontantHt() {
+        return $this->montantHt;
+    }
+
+    /**
+     * Get the num devis.
+     *
+     * @return string Returns the num devis.
+     */
+    public function getNumDevis() {
+        return $this->numDevis;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the maj descriptif.
+     *
+     * @param bool $majDescriptif The maj descriptif.
+     */
+    public function setMajDescriptif($majDescriptif) {
+        $this->majDescriptif = $majDescriptif;
+        return $this;
+    }
+
+    /**
+     * Set the montant ht.
+     *
+     * @param float $montantHt The montant ht.
+     */
+    public function setMontantHt($montantHt) {
+        $this->montantHt = $montantHt;
+        return $this;
+    }
+
+    /**
+     * Set the num devis.
+     *
+     * @param string $numDevis The num devis.
+     */
+    public function setNumDevis($numDevis) {
+        $this->numDevis = $numDevis;
+        return $this;
     }
 }

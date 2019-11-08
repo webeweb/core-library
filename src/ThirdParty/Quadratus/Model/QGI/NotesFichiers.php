@@ -11,11 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCreationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomFichierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumNoteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringOrigineFichierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTitreTrait;
+use DateTime;
 
 /**
  * Notes fichiers.
@@ -25,16 +21,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTitreTrait;
  */
 class NotesFichiers {
 
-    use DateTimeDateCreationTrait;
-    use StringNomFichierTrait;
-    use StringNumNoteTrait;
-    use StringOrigineFichierTrait;
-    use StringTitreTrait;
+    /**
+     * Date creation.
+     *
+     * @var DateTime|null
+     */
+    private $dateCreation;
+
+    /**
+     * Nom fichier.
+     *
+     * @var string
+     */
+    private $nomFichier;
+
+    /**
+     * Num note.
+     *
+     * @var string
+     */
+    private $numNote;
+
+    /**
+     * Origine fichier.
+     *
+     * @var string
+     */
+    private $origineFichier;
+
+    /**
+     * Titre.
+     *
+     * @var string
+     */
+    private $titre;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the date creation.
+     *
+     * @return DateTime|null Returns the date creation.
+     */
+    public function getDateCreation() {
+        return $this->dateCreation;
+    }
+
+    /**
+     * Get the nom fichier.
+     *
+     * @return string Returns the nom fichier.
+     */
+    public function getNomFichier() {
+        return $this->nomFichier;
+    }
+
+    /**
+     * Get the num note.
+     *
+     * @return string Returns the num note.
+     */
+    public function getNumNote() {
+        return $this->numNote;
+    }
+
+    /**
+     * Get the origine fichier.
+     *
+     * @return string Returns the origine fichier.
+     */
+    public function getOrigineFichier() {
+        return $this->origineFichier;
+    }
+
+    /**
+     * Get the titre.
+     *
+     * @return string Returns the titre.
+     */
+    public function getTitre() {
+        return $this->titre;
+    }
+
+    /**
+     * Set the date creation.
+     *
+     * @param DateTime|null $dateCreation The date creation.
+     */
+    public function setDateCreation(DateTime $dateCreation = null) {
+        $this->dateCreation = $dateCreation;
+        return $this;
+    }
+
+    /**
+     * Set the nom fichier.
+     *
+     * @param string $nomFichier The nom fichier.
+     */
+    public function setNomFichier($nomFichier) {
+        $this->nomFichier = $nomFichier;
+        return $this;
+    }
+
+    /**
+     * Set the num note.
+     *
+     * @param string $numNote The num note.
+     */
+    public function setNumNote($numNote) {
+        $this->numNote = $numNote;
+        return $this;
+    }
+
+    /**
+     * Set the origine fichier.
+     *
+     * @param string $origineFichier The origine fichier.
+     */
+    public function setOrigineFichier($origineFichier) {
+        $this->origineFichier = $origineFichier;
+        return $this;
+    }
+
+    /**
+     * Set the titre.
+     *
+     * @param string $titre The titre.
+     */
+    public function setTitre($titre) {
+        $this->titre = $titre;
+        return $this;
     }
 }

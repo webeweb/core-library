@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\FactFournEntete;
 
@@ -46,5 +48,204 @@ class FactFournEnteteTest extends AbstractTestCase {
         $this->assertNull($obj->getNumLot());
         $this->assertNull($obj->getNumUniq());
         $this->assertNull($obj->getRefImage());
+    }
+
+    /**
+     * Tests the setBoniMali() method.
+     *
+     * @return void
+     */
+    public function testSetBoniMali() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setBoniMali(true);
+        $this->assertEquals(true, $obj->getBoniMali());
+    }
+
+    /**
+     * Tests the setCodeJournal() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJournal() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setCodeJournal("codeJournal");
+        $this->assertEquals("codeJournal", $obj->getCodeJournal());
+    }
+
+    /**
+     * Tests the setDate() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDate() {
+
+        // Set a Date/time mock.
+        $date = new DateTime("2018-09-10");
+
+        $obj = new FactFournEntete();
+
+        $obj->setDate($date);
+        $this->assertSame($date, $obj->getDate());
+    }
+
+    /**
+     * Tests the setFolio() method.
+     *
+     * @return void
+     */
+    public function testSetFolio() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setFolio(10);
+        $this->assertEquals(10, $obj->getFolio());
+    }
+
+    /**
+     * Tests the setLibAuto() method.
+     *
+     * @return void
+     */
+    public function testSetLibAuto() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setLibAuto("libAuto");
+        $this->assertEquals("libAuto", $obj->getLibAuto());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setMonnaie() method.
+     *
+     * @return void
+     */
+    public function testSetMonnaie() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setMonnaie("monnaie");
+        $this->assertEquals("monnaie", $obj->getMonnaie());
+    }
+
+    /**
+     * Tests the setMontantTtCcredit() method.
+     *
+     * @return void
+     */
+    public function testSetMontantTtCcredit() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setMontantTtCcredit("montantTtCcredit");
+        $this->assertEquals("montantTtCcredit", $obj->getMontantTtCcredit());
+    }
+
+    /**
+     * Tests the setMontantTtCdebit() method.
+     *
+     * @return void
+     */
+    public function testSetMontantTtCdebit() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setMontantTtCdebit("montantTtCdebit");
+        $this->assertEquals("montantTtCdebit", $obj->getMontantTtCdebit());
+    }
+
+    /**
+     * Tests the setNumDossCpta() method.
+     *
+     * @return void
+     */
+    public function testSetNumDossCpta() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setNumDossCpta("numDossCpta");
+        $this->assertEquals("numDossCpta", $obj->getNumDossCpta());
+    }
+
+    /**
+     * Tests the setNumFacture() method.
+     *
+     * @return void
+     */
+    public function testSetNumFacture() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setNumFacture("numFacture");
+        $this->assertEquals("numFacture", $obj->getNumFacture());
+    }
+
+    /**
+     * Tests the setNumFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetNumFournisseur() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setNumFournisseur("numFournisseur");
+        $this->assertEquals("numFournisseur", $obj->getNumFournisseur());
+    }
+
+    /**
+     * Tests the setNumLot() method.
+     *
+     * @return void
+     */
+    public function testSetNumLot() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setNumLot(10);
+        $this->assertEquals(10, $obj->getNumLot());
+    }
+
+    /**
+     * Tests the setNumUniq() method.
+     *
+     * @return void
+     */
+    public function testSetNumUniq() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setNumUniq("numUniq");
+        $this->assertEquals("numUniq", $obj->getNumUniq());
+    }
+
+    /**
+     * Tests the setRefImage() method.
+     *
+     * @return void
+     */
+    public function testSetRefImage() {
+
+        $obj = new FactFournEntete();
+
+        $obj->setRefImage("refImage");
+        $this->assertEquals("refImage", $obj->getRefImage());
     }
 }

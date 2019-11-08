@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuPrevoyanceEntete;
 
@@ -40,5 +42,130 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
         $this->assertNull($obj->getMoisAnniv());
         $this->assertNull($obj->getNomContact());
         $this->assertNull($obj->getTelContact());
+    }
+
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
+
+    /**
+     * Tests the setCodePeriodicite() method.
+     *
+     * @return void
+     */
+    public function testSetCodePeriodicite() {
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setCodePeriodicite("codePeriodicite");
+        $this->assertEquals("codePeriodicite", $obj->getCodePeriodicite());
+    }
+
+    /**
+     * Tests the setDateApplication() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateApplication() {
+
+        // Set a Date/time mock.
+        $dateApplication = new DateTime("2018-09-10");
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setDateApplication($dateApplication);
+        $this->assertSame($dateApplication, $obj->getDateApplication());
+    }
+
+    /**
+     * Tests the setDateEmission() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateEmission() {
+
+        // Set a Date/time mock.
+        $dateEmission = new DateTime("2018-09-10");
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setDateEmission($dateEmission);
+        $this->assertSame($dateEmission, $obj->getDateEmission());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setMailContact() method.
+     *
+     * @return void
+     */
+    public function testSetMailContact() {
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setMailContact("mailContact");
+        $this->assertEquals("mailContact", $obj->getMailContact());
+    }
+
+    /**
+     * Tests the setMoisAnniv() method.
+     *
+     * @return void
+     */
+    public function testSetMoisAnniv() {
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setMoisAnniv("moisAnniv");
+        $this->assertEquals("moisAnniv", $obj->getMoisAnniv());
+    }
+
+    /**
+     * Tests the setNomContact() method.
+     *
+     * @return void
+     */
+    public function testSetNomContact() {
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setNomContact("nomContact");
+        $this->assertEquals("nomContact", $obj->getNomContact());
+    }
+
+    /**
+     * Tests the setTelContact() method.
+     *
+     * @return void
+     */
+    public function testSetTelContact() {
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $obj->setTelContact("telContact");
+        $this->assertEquals("telContact", $obj->getTelContact());
     }
 }

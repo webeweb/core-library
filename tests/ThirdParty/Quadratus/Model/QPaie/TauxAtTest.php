@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxAt;
 
@@ -38,5 +40,100 @@ class TauxAtTest extends AbstractTestCase {
         $this->assertNull($obj->getRisque());
         $this->assertNull($obj->getSection());
         $this->assertNull($obj->getTaux());
+    }
+
+    /**
+     * Tests the setAPartirDe() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetAPartirDe() {
+
+        // Set a Date/time mock.
+        $aPartirDe = new DateTime("2018-09-10");
+
+        $obj = new TauxAt();
+
+        $obj->setAPartirDe($aPartirDe);
+        $this->assertSame($aPartirDe, $obj->getAPartirDe());
+    }
+
+    /**
+     * Tests the setBureau() method.
+     *
+     * @return void
+     */
+    public function testSetBureau() {
+
+        $obj = new TauxAt();
+
+        $obj->setBureau("bureau");
+        $this->assertEquals("bureau", $obj->getBureau());
+    }
+
+    /**
+     * Tests the setCodeAt() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAt() {
+
+        $obj = new TauxAt();
+
+        $obj->setCodeAt(10);
+        $this->assertEquals(10, $obj->getCodeAt());
+    }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new TauxAt();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setRisque() method.
+     *
+     * @return void
+     */
+    public function testSetRisque() {
+
+        $obj = new TauxAt();
+
+        $obj->setRisque("risque");
+        $this->assertEquals("risque", $obj->getRisque());
+    }
+
+    /**
+     * Tests the setSection() method.
+     *
+     * @return void
+     */
+    public function testSetSection() {
+
+        $obj = new TauxAt();
+
+        $obj->setSection("section");
+        $this->assertEquals("section", $obj->getSection());
+    }
+
+    /**
+     * Tests the setTaux() method.
+     *
+     * @return void
+     */
+    public function testSetTaux() {
+
+        $obj = new TauxAt();
+
+        $obj->setTaux(10.092018);
+        $this->assertEquals(10.092018, $obj->getTaux());
     }
 }

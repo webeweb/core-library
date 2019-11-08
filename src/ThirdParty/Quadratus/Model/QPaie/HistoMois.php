@@ -11,10 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIndicePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLienDocumentTrait;
+use DateTime;
 
 /**
  * Histo mois.
@@ -24,15 +21,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLienDocumentTrait;
  */
 class HistoMois {
 
-    use IntIndicePeriodeTrait;
-    use StringLibelleTrait;
-    use StringLienDocumentTrait;
-    use DateTimePeriodeTrait;
+    /**
+     * Indice periode.
+     *
+     * @var int
+     */
+    private $indicePeriode;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Lien document.
+     *
+     * @var string
+     */
+    private $lienDocument;
+
+    /**
+     * Periode.
+     *
+     * @var DateTime|null
+     */
+    private $periode;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the indice periode.
+     *
+     * @return int Returns the indice periode.
+     */
+    public function getIndicePeriode() {
+        return $this->indicePeriode;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the lien document.
+     *
+     * @return string Returns the lien document.
+     */
+    public function getLienDocument() {
+        return $this->lienDocument;
+    }
+
+    /**
+     * Get the periode.
+     *
+     * @return DateTime|null Returns the periode.
+     */
+    public function getPeriode() {
+        return $this->periode;
+    }
+
+    /**
+     * Set the indice periode.
+     *
+     * @param int $indicePeriode The indice periode.
+     */
+    public function setIndicePeriode($indicePeriode) {
+        $this->indicePeriode = $indicePeriode;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the lien document.
+     *
+     * @param string $lienDocument The lien document.
+     */
+    public function setLienDocument($lienDocument) {
+        $this->lienDocument = $lienDocument;
+        return $this;
+    }
+
+    /**
+     * Set the periode.
+     *
+     * @param DateTime|null $periode The periode.
+     */
+    public function setPeriode(DateTime $periode = null) {
+        $this->periode = $periode;
+        return $this;
     }
 }

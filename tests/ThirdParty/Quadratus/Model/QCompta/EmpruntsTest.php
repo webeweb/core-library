@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Emprunts;
 
@@ -57,5 +59,351 @@ class EmpruntsTest extends AbstractTestCase {
         $this->assertNull($obj->getTauxAssurance());
         $this->assertNull($obj->getTauxInteret());
         $this->assertNull($obj->getTypeInFine());
+    }
+
+    /**
+     * Tests the setAEchoirEchu() method.
+     *
+     * @return void
+     */
+    public function testSetAEchoirEchu() {
+
+        $obj = new Emprunts();
+
+        $obj->setAEchoirEchu("aEchoirEchu");
+        $this->assertEquals("aEchoirEchu", $obj->getAEchoirEchu());
+    }
+
+    /**
+     * Tests the setCategorie() method.
+     *
+     * @return void
+     */
+    public function testSetCategorie() {
+
+        $obj = new Emprunts();
+
+        $obj->setCategorie("categorie");
+        $this->assertEquals("categorie", $obj->getCategorie());
+    }
+
+    /**
+     * Tests the setCentreAnalytique() method.
+     *
+     * @return void
+     */
+    public function testSetCentreAnalytique() {
+
+        $obj = new Emprunts();
+
+        $obj->setCentreAnalytique("centreAnalytique");
+        $this->assertEquals("centreAnalytique", $obj->getCentreAnalytique());
+    }
+
+    /**
+     * Tests the setCodeJournal() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJournal() {
+
+        $obj = new Emprunts();
+
+        $obj->setCodeJournal("codeJournal");
+        $this->assertEquals("codeJournal", $obj->getCodeJournal());
+    }
+
+    /**
+     * Tests the setCptAssuranceEmprunt() method.
+     *
+     * @return void
+     */
+    public function testSetCptAssuranceEmprunt() {
+
+        $obj = new Emprunts();
+
+        $obj->setCptAssuranceEmprunt("cptAssuranceEmprunt");
+        $this->assertEquals("cptAssuranceEmprunt", $obj->getCptAssuranceEmprunt());
+    }
+
+    /**
+     * Tests the setCptEmprunt() method.
+     *
+     * @return void
+     */
+    public function testSetCptEmprunt() {
+
+        $obj = new Emprunts();
+
+        $obj->setCptEmprunt("cptEmprunt");
+        $this->assertEquals("cptEmprunt", $obj->getCptEmprunt());
+    }
+
+    /**
+     * Tests the setCptInteretEmprunt() method.
+     *
+     * @return void
+     */
+    public function testSetCptInteretEmprunt() {
+
+        $obj = new Emprunts();
+
+        $obj->setCptInteretEmprunt("cptInteretEmprunt");
+        $this->assertEquals("cptInteretEmprunt", $obj->getCptInteretEmprunt());
+    }
+
+    /**
+     * Tests the setDateOuverture() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateOuverture() {
+
+        // Set a Date/time mock.
+        $dateOuverture = new DateTime("2018-09-10");
+
+        $obj = new Emprunts();
+
+        $obj->setDateOuverture($dateOuverture);
+        $this->assertSame($dateOuverture, $obj->getDateOuverture());
+    }
+
+    /**
+     * Tests the setDatePremiereEcheance() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDatePremiereEcheance() {
+
+        // Set a Date/time mock.
+        $datePremiereEcheance = new DateTime("2018-09-10");
+
+        $obj = new Emprunts();
+
+        $obj->setDatePremiereEcheance($datePremiereEcheance);
+        $this->assertSame($datePremiereEcheance, $obj->getDatePremiereEcheance());
+    }
+
+    /**
+     * Tests the setDiffere() method.
+     *
+     * @return void
+     */
+    public function testSetDiffere() {
+
+        $obj = new Emprunts();
+
+        $obj->setDiffere(true);
+        $this->assertEquals(true, $obj->getDiffere());
+    }
+
+    /**
+     * Tests the setDuree() method.
+     *
+     * @return void
+     */
+    public function testSetDuree() {
+
+        $obj = new Emprunts();
+
+        $obj->setDuree(10);
+        $this->assertEquals(10, $obj->getDuree());
+    }
+
+    /**
+     * Tests the setEmpruntEnFrancs() method.
+     *
+     * @return void
+     */
+    public function testSetEmpruntEnFrancs() {
+
+        $obj = new Emprunts();
+
+        $obj->setEmpruntEnFrancs(true);
+        $this->assertEquals(true, $obj->getEmpruntEnFrancs());
+    }
+
+    /**
+     * Tests the setIdentification() method.
+     *
+     * @return void
+     */
+    public function testSetIdentification() {
+
+        $obj = new Emprunts();
+
+        $obj->setIdentification("identification");
+        $this->assertEquals("identification", $obj->getIdentification());
+    }
+
+    /**
+     * Tests the setMoisAnnee() method.
+     *
+     * @return void
+     */
+    public function testSetMoisAnnee() {
+
+        $obj = new Emprunts();
+
+        $obj->setMoisAnnee("moisAnnee");
+        $this->assertEquals("moisAnnee", $obj->getMoisAnnee());
+    }
+
+    /**
+     * Tests the setMontantAssurance() method.
+     *
+     * @return void
+     */
+    public function testSetMontantAssurance() {
+
+        $obj = new Emprunts();
+
+        $obj->setMontantAssurance(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantAssurance());
+    }
+
+    /**
+     * Tests the setMontantEmprunte() method.
+     *
+     * @return void
+     */
+    public function testSetMontantEmprunte() {
+
+        $obj = new Emprunts();
+
+        $obj->setMontantEmprunte(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantEmprunte());
+    }
+
+    /**
+     * Tests the setMtCapitalFixeRemb() method.
+     *
+     * @return void
+     */
+    public function testSetMtCapitalFixeRemb() {
+
+        $obj = new Emprunts();
+
+        $obj->setMtCapitalFixeRemb(10.092018);
+        $this->assertEquals(10.092018, $obj->getMtCapitalFixeRemb());
+    }
+
+    /**
+     * Tests the setNature() method.
+     *
+     * @return void
+     */
+    public function testSetNature() {
+
+        $obj = new Emprunts();
+
+        $obj->setNature("nature");
+        $this->assertEquals("nature", $obj->getNature());
+    }
+
+    /**
+     * Tests the setNatureAnalytique() method.
+     *
+     * @return void
+     */
+    public function testSetNatureAnalytique() {
+
+        $obj = new Emprunts();
+
+        $obj->setNatureAnalytique("natureAnalytique");
+        $this->assertEquals("natureAnalytique", $obj->getNatureAnalytique());
+    }
+
+    /**
+     * Tests the setNumero() method.
+     *
+     * @return void
+     */
+    public function testSetNumero() {
+
+        $obj = new Emprunts();
+
+        $obj->setNumero(10);
+        $this->assertEquals(10, $obj->getNumero());
+    }
+
+    /**
+     * Tests the setNumeroPj() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroPj() {
+
+        $obj = new Emprunts();
+
+        $obj->setNumeroPj(10);
+        $this->assertEquals(10, $obj->getNumeroPj());
+    }
+
+    /**
+     * Tests the setOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetOrganisme() {
+
+        $obj = new Emprunts();
+
+        $obj->setOrganisme("organisme");
+        $this->assertEquals("organisme", $obj->getOrganisme());
+    }
+
+    /**
+     * Tests the setPeriodicite() method.
+     *
+     * @return void
+     */
+    public function testSetPeriodicite() {
+
+        $obj = new Emprunts();
+
+        $obj->setPeriodicite("periodicite");
+        $this->assertEquals("periodicite", $obj->getPeriodicite());
+    }
+
+    /**
+     * Tests the setTauxAssurance() method.
+     *
+     * @return void
+     */
+    public function testSetTauxAssurance() {
+
+        $obj = new Emprunts();
+
+        $obj->setTauxAssurance(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxAssurance());
+    }
+
+    /**
+     * Tests the setTauxInteret() method.
+     *
+     * @return void
+     */
+    public function testSetTauxInteret() {
+
+        $obj = new Emprunts();
+
+        $obj->setTauxInteret(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxInteret());
+    }
+
+    /**
+     * Tests the setTypeInFine() method.
+     *
+     * @return void
+     */
+    public function testSetTypeInFine() {
+
+        $obj = new Emprunts();
+
+        $obj->setTypeInFine(true);
+        $this->assertEquals(true, $obj->getTypeInFine());
     }
 }

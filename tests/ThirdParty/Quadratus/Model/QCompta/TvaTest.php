@@ -39,4 +39,95 @@ class TvaTest extends AbstractTestCase {
         $this->assertNull($obj->getTauxTva());
         $this->assertNull($obj->getTypeAutoliquidation());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new Tva();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setCompteTvaAchat() method.
+     *
+     * @return void
+     */
+    public function testSetCompteTvaAchat() {
+
+        $obj = new Tva();
+
+        $obj->setCompteTvaAchat("compteTvaAchat");
+        $this->assertEquals("compteTvaAchat", $obj->getCompteTvaAchat());
+    }
+
+    /**
+     * Tests the setCompteTvaImmo() method.
+     *
+     * @return void
+     */
+    public function testSetCompteTvaImmo() {
+
+        $obj = new Tva();
+
+        $obj->setCompteTvaImmo("compteTvaImmo");
+        $this->assertEquals("compteTvaImmo", $obj->getCompteTvaImmo());
+    }
+
+    /**
+     * Tests the setCompteTvaVente() method.
+     *
+     * @return void
+     */
+    public function testSetCompteTvaVente() {
+
+        $obj = new Tva();
+
+        $obj->setCompteTvaVente("compteTvaVente");
+        $this->assertEquals("compteTvaVente", $obj->getCompteTvaVente());
+    }
+
+    /**
+     * Tests the setCompteVentilation() method.
+     *
+     * @return void
+     */
+    public function testSetCompteVentilation() {
+
+        $obj = new Tva();
+
+        $obj->setCompteVentilation("compteVentilation");
+        $this->assertEquals("compteVentilation", $obj->getCompteVentilation());
+    }
+
+    /**
+     * Tests the setTauxTva() method.
+     *
+     * @return void
+     */
+    public function testSetTauxTva() {
+
+        $obj = new Tva();
+
+        $obj->setTauxTva(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxTva());
+    }
+
+    /**
+     * Tests the setTypeAutoliquidation() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAutoliquidation() {
+
+        $obj = new Tva();
+
+        $obj->setTypeAutoliquidation("typeAutoliquidation");
+        $this->assertEquals("typeAutoliquidation", $obj->getTypeAutoliquidation());
+    }
 }

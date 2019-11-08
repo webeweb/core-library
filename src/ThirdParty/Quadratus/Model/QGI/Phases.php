@@ -11,13 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolSaisieFactTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolSaisieTempsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumOrdreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegroupementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-
 /**
  * Phases.
  *
@@ -26,17 +19,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
  */
 class Phases {
 
-    use StringCodeTrait;
-    use StringCodeRegroupementTrait;
-    use StringLibelleTrait;
-    use IntNumOrdreTrait;
-    use BoolSaisieFactTrait;
-    use BoolSaisieTempsTrait;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Code regroupement.
+     *
+     * @var string
+     */
+    private $codeRegroupement;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Num ordre.
+     *
+     * @var int
+     */
+    private $numOrdre;
+
+    /**
+     * Saisie fact.
+     *
+     * @var bool
+     */
+    private $saisieFact;
+
+    /**
+     * Saisie temps.
+     *
+     * @var bool
+     */
+    private $saisieTemps;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the code regroupement.
+     *
+     * @return string Returns the code regroupement.
+     */
+    public function getCodeRegroupement() {
+        return $this->codeRegroupement;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the num ordre.
+     *
+     * @return int Returns the num ordre.
+     */
+    public function getNumOrdre() {
+        return $this->numOrdre;
+    }
+
+    /**
+     * Get the saisie fact.
+     *
+     * @return bool Returns the saisie fact.
+     */
+    public function getSaisieFact() {
+        return $this->saisieFact;
+    }
+
+    /**
+     * Get the saisie temps.
+     *
+     * @return bool Returns the saisie temps.
+     */
+    public function getSaisieTemps() {
+        return $this->saisieTemps;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the code regroupement.
+     *
+     * @param string $codeRegroupement The code regroupement.
+     */
+    public function setCodeRegroupement($codeRegroupement) {
+        $this->codeRegroupement = $codeRegroupement;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the num ordre.
+     *
+     * @param int $numOrdre The num ordre.
+     */
+    public function setNumOrdre($numOrdre) {
+        $this->numOrdre = $numOrdre;
+        return $this;
+    }
+
+    /**
+     * Set the saisie fact.
+     *
+     * @param bool $saisieFact The saisie fact.
+     */
+    public function setSaisieFact($saisieFact) {
+        $this->saisieFact = $saisieFact;
+        return $this;
+    }
+
+    /**
+     * Set the saisie temps.
+     *
+     * @param bool $saisieTemps The saisie temps.
+     */
+    public function setSaisieTemps($saisieTemps) {
+        $this->saisieTemps = $saisieTemps;
+        return $this;
     }
 }

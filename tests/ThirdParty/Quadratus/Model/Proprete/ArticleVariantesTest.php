@@ -36,4 +36,56 @@ class ArticleVariantesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeVariante());
         $this->assertNull($obj->getLibelle());
     }
+
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
+
+        $obj = new ArticleVariantes();
+
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
+
+    /**
+     * Tests the setCodeBarre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeBarre() {
+
+        $obj = new ArticleVariantes();
+
+        $obj->setCodeBarre("codeBarre");
+        $this->assertEquals("codeBarre", $obj->getCodeBarre());
+    }
+
+    /**
+     * Tests the setCodeVariante() method.
+     *
+     * @return void
+     */
+    public function testSetCodeVariante() {
+
+        $obj = new ArticleVariantes();
+
+        $obj->setCodeVariante("codeVariante");
+        $this->assertEquals("codeVariante", $obj->getCodeVariante());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new ArticleVariantes();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 }

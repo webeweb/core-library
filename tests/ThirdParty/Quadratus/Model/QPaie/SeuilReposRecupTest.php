@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\SeuilReposRecup;
 
@@ -35,5 +37,61 @@ class SeuilReposRecupTest extends AbstractTestCase {
         $this->assertNull($obj->getNbJourReposRecup());
         $this->assertNull($obj->getNumeroGrilleType());
         $this->assertNull($obj->getSeuilDeclenche());
+    }
+
+    /**
+     * Tests the setDateApplication() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateApplication() {
+
+        // Set a Date/time mock.
+        $dateApplication = new DateTime("2018-09-10");
+
+        $obj = new SeuilReposRecup();
+
+        $obj->setDateApplication($dateApplication);
+        $this->assertSame($dateApplication, $obj->getDateApplication());
+    }
+
+    /**
+     * Tests the setNbJourReposRecup() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourReposRecup() {
+
+        $obj = new SeuilReposRecup();
+
+        $obj->setNbJourReposRecup(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourReposRecup());
+    }
+
+    /**
+     * Tests the setNumeroGrilleType() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroGrilleType() {
+
+        $obj = new SeuilReposRecup();
+
+        $obj->setNumeroGrilleType(10);
+        $this->assertEquals(10, $obj->getNumeroGrilleType());
+    }
+
+    /**
+     * Tests the setSeuilDeclenche() method.
+     *
+     * @return void
+     */
+    public function testSetSeuilDeclenche() {
+
+        $obj = new SeuilReposRecup();
+
+        $obj->setSeuilDeclenche(10.092018);
+        $this->assertEquals(10.092018, $obj->getSeuilDeclenche());
     }
 }

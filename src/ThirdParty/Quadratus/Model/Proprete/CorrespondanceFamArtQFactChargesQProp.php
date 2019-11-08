@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChargeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeFamArtTrait;
-
 /**
  * Correspondance fam art q fact charges q prop.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeFamArtTrait;
  */
 class CorrespondanceFamArtQFactChargesQProp {
 
-    use StringCodeChargeTrait;
-    use StringCodeFamArtTrait;
+    /**
+     * Code charge.
+     *
+     * @var string
+     */
+    private $codeCharge;
+
+    /**
+     * Code fam art.
+     *
+     * @var string
+     */
+    private $codeFamArt;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code charge.
+     *
+     * @return string Returns the code charge.
+     */
+    public function getCodeCharge() {
+        return $this->codeCharge;
+    }
+
+    /**
+     * Get the code fam art.
+     *
+     * @return string Returns the code fam art.
+     */
+    public function getCodeFamArt() {
+        return $this->codeFamArt;
+    }
+
+    /**
+     * Set the code charge.
+     *
+     * @param string $codeCharge The code charge.
+     */
+    public function setCodeCharge($codeCharge) {
+        $this->codeCharge = $codeCharge;
+        return $this;
+    }
+
+    /**
+     * Set the code fam art.
+     *
+     * @param string $codeFamArt The code fam art.
+     */
+    public function setCodeFamArt($codeFamArt) {
+        $this->codeFamArt = $codeFamArt;
+        return $this;
     }
 }

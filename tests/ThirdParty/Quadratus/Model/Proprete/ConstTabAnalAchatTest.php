@@ -36,4 +36,56 @@ class ConstTabAnalAchatTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCentre());
         $this->assertNull($obj->getCodeNature());
     }
+
+    /**
+     * Tests the setCodeAnalArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAnalArticle() {
+
+        $obj = new ConstTabAnalAchat();
+
+        $obj->setCodeAnalArticle("codeAnalArticle");
+        $this->assertEquals("codeAnalArticle", $obj->getCodeAnalArticle());
+    }
+
+    /**
+     * Tests the setCodeAnalFourn() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAnalFourn() {
+
+        $obj = new ConstTabAnalAchat();
+
+        $obj->setCodeAnalFourn("codeAnalFourn");
+        $this->assertEquals("codeAnalFourn", $obj->getCodeAnalFourn());
+    }
+
+    /**
+     * Tests the setCodeCentre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCentre() {
+
+        $obj = new ConstTabAnalAchat();
+
+        $obj->setCodeCentre("codeCentre");
+        $this->assertEquals("codeCentre", $obj->getCodeCentre());
+    }
+
+    /**
+     * Tests the setCodeNature() method.
+     *
+     * @return void
+     */
+    public function testSetCodeNature() {
+
+        $obj = new ConstTabAnalAchat();
+
+        $obj->setCodeNature("codeNature");
+        $this->assertEquals("codeNature", $obj->getCodeNature());
+    }
 }

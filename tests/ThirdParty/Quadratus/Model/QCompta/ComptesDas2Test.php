@@ -44,4 +44,160 @@ class ComptesDas2Test extends AbstractTestCase {
         $this->assertNull($obj->getTypeIr());
         $this->assertNull($obj->getTypeRs());
     }
+
+    /**
+     * Tests the setAvantageNature() method.
+     *
+     * @return void
+     */
+    public function testSetAvantageNature() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setAvantageNature(10.092018);
+        $this->assertEquals(10.092018, $obj->getAvantageNature());
+    }
+
+    /**
+     * Tests the setIndemniteRbt() method.
+     *
+     * @return void
+     */
+    public function testSetIndemniteRbt() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setIndemniteRbt(10.092018);
+        $this->assertEquals(10.092018, $obj->getIndemniteRbt());
+    }
+
+    /**
+     * Tests the setMontant1() method.
+     *
+     * @return void
+     */
+    public function testSetMontant1() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setMontant1(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant1());
+    }
+
+    /**
+     * Tests the setMontant2() method.
+     *
+     * @return void
+     */
+    public function testSetMontant2() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setMontant2(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant2());
+    }
+
+    /**
+     * Tests the setNature1() method.
+     *
+     * @return void
+     */
+    public function testSetNature1() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setNature1("nature1");
+        $this->assertEquals("nature1", $obj->getNature1());
+    }
+
+    /**
+     * Tests the setNature2() method.
+     *
+     * @return void
+     */
+    public function testSetNature2() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setNature2("nature2");
+        $this->assertEquals("nature2", $obj->getNature2());
+    }
+
+    /**
+     * Tests the setNumeroCompte() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompte() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setNumeroCompte("numeroCompte");
+        $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the setRetenueSource() method.
+     *
+     * @return void
+     */
+    public function testSetRetenueSource() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setRetenueSource(10.092018);
+        $this->assertEquals(10.092018, $obj->getRetenueSource());
+    }
+
+    /**
+     * Tests the setTvada() method.
+     *
+     * @return void
+     */
+    public function testSetTvada() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setTvada(10.092018);
+        $this->assertEquals(10.092018, $obj->getTvada());
+    }
+
+    /**
+     * Tests the setTypeAn() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAn() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setTypeAn("typeAn");
+        $this->assertEquals("typeAn", $obj->getTypeAn());
+    }
+
+    /**
+     * Tests the setTypeIr() method.
+     *
+     * @return void
+     */
+    public function testSetTypeIr() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setTypeIr("typeIr");
+        $this->assertEquals("typeIr", $obj->getTypeIr());
+    }
+
+    /**
+     * Tests the setTypeRs() method.
+     *
+     * @return void
+     */
+    public function testSetTypeRs() {
+
+        $obj = new ComptesDas2();
+
+        $obj->setTypeRs("typeRs");
+        $this->assertEquals("typeRs", $obj->getTypeRs());
+    }
 }

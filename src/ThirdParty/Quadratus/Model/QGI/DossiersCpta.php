@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCheminDossierCptaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDossierCptaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDossierFactTrait;
-
 /**
  * Dossiers cpta.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDossierFactTrait;
  */
 class DossiersCpta {
 
-    use StringCheminDossierCptaTrait;
-    use StringNumDossierCptaTrait;
-    use StringNumDossierFactTrait;
+    /**
+     * Chemin dossier cpta.
+     *
+     * @var string
+     */
+    private $cheminDossierCpta;
+
+    /**
+     * Num dossier cpta.
+     *
+     * @var string
+     */
+    private $numDossierCpta;
+
+    /**
+     * Num dossier fact.
+     *
+     * @var string
+     */
+    private $numDossierFact;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the chemin dossier cpta.
+     *
+     * @return string Returns the chemin dossier cpta.
+     */
+    public function getCheminDossierCpta() {
+        return $this->cheminDossierCpta;
+    }
+
+    /**
+     * Get the num dossier cpta.
+     *
+     * @return string Returns the num dossier cpta.
+     */
+    public function getNumDossierCpta() {
+        return $this->numDossierCpta;
+    }
+
+    /**
+     * Get the num dossier fact.
+     *
+     * @return string Returns the num dossier fact.
+     */
+    public function getNumDossierFact() {
+        return $this->numDossierFact;
+    }
+
+    /**
+     * Set the chemin dossier cpta.
+     *
+     * @param string $cheminDossierCpta The chemin dossier cpta.
+     */
+    public function setCheminDossierCpta($cheminDossierCpta) {
+        $this->cheminDossierCpta = $cheminDossierCpta;
+        return $this;
+    }
+
+    /**
+     * Set the num dossier cpta.
+     *
+     * @param string $numDossierCpta The num dossier cpta.
+     */
+    public function setNumDossierCpta($numDossierCpta) {
+        $this->numDossierCpta = $numDossierCpta;
+        return $this;
+    }
+
+    /**
+     * Set the num dossier fact.
+     *
+     * @param string $numDossierFact The num dossier fact.
+     */
+    public function setNumDossierFact($numDossierFact) {
+        $this->numDossierFact = $numDossierFact;
+        return $this;
     }
 }

@@ -11,12 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPourcentageTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCentreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeNatureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumCompteTrait;
-
 /**
  * Affectation ana2.
  *
@@ -25,16 +19,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumCompteTrait;
  */
 class AffectationAna2 {
 
-    use StringCodeCentreTrait;
-    use StringCodeNatureTrait;
-    use StringNumCompteTrait;
-    use IntNumLigneTrait;
-    use FloatPourcentageTrait;
+    /**
+     * Code centre.
+     *
+     * @var string
+     */
+    private $codeCentre;
+
+    /**
+     * Code nature.
+     *
+     * @var string
+     */
+    private $codeNature;
+
+    /**
+     * Num compte.
+     *
+     * @var string
+     */
+    private $numCompte;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
+
+    /**
+     * Pourcentage.
+     *
+     * @var float
+     */
+    private $pourcentage;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code centre.
+     *
+     * @return string Returns the code centre.
+     */
+    public function getCodeCentre() {
+        return $this->codeCentre;
+    }
+
+    /**
+     * Get the code nature.
+     *
+     * @return string Returns the code nature.
+     */
+    public function getCodeNature() {
+        return $this->codeNature;
+    }
+
+    /**
+     * Get the num compte.
+     *
+     * @return string Returns the num compte.
+     */
+    public function getNumCompte() {
+        return $this->numCompte;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Get the pourcentage.
+     *
+     * @return float Returns the pourcentage.
+     */
+    public function getPourcentage() {
+        return $this->pourcentage;
+    }
+
+    /**
+     * Set the code centre.
+     *
+     * @param string $codeCentre The code centre.
+     */
+    public function setCodeCentre($codeCentre) {
+        $this->codeCentre = $codeCentre;
+        return $this;
+    }
+
+    /**
+     * Set the code nature.
+     *
+     * @param string $codeNature The code nature.
+     */
+    public function setCodeNature($codeNature) {
+        $this->codeNature = $codeNature;
+        return $this;
+    }
+
+    /**
+     * Set the num compte.
+     *
+     * @param string $numCompte The num compte.
+     */
+    public function setNumCompte($numCompte) {
+        $this->numCompte = $numCompte;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
+    }
+
+    /**
+     * Set the pourcentage.
+     *
+     * @param float $pourcentage The pourcentage.
+     */
+    public function setPourcentage($pourcentage) {
+        $this->pourcentage = $pourcentage;
+        return $this;
     }
 }

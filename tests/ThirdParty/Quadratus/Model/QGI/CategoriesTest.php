@@ -36,4 +36,56 @@ class CategoriesTest extends AbstractTestCase {
         $this->assertNull($obj->getParent());
         $this->assertNull($obj->getType());
     }
+
+    /**
+     * Tests the setCarTec() method.
+     *
+     * @return void
+     */
+    public function testSetCarTec() {
+
+        $obj = new Categories();
+
+        $obj->setCarTec("carTec");
+        $this->assertEquals("carTec", $obj->getCarTec());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new Categories();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setParent() method.
+     *
+     * @return void
+     */
+    public function testSetParent() {
+
+        $obj = new Categories();
+
+        $obj->setParent("parent");
+        $this->assertEquals("parent", $obj->getParent());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new Categories();
+
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 }

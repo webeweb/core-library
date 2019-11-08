@@ -35,4 +35,43 @@ class SousFamilleArticleTest extends AbstractTestCase {
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLibelle());
     }
+
+    /**
+     * Tests the setActivitePrincipale() method.
+     *
+     * @return void
+     */
+    public function testSetActivitePrincipale() {
+
+        $obj = new SousFamilleArticle();
+
+        $obj->setActivitePrincipale("activitePrincipale");
+        $this->assertEquals("activitePrincipale", $obj->getActivitePrincipale());
+    }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new SousFamilleArticle();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new SousFamilleArticle();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
 }

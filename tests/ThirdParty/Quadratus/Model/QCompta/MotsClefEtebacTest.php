@@ -39,4 +39,95 @@ class MotsClefEtebacTest extends AbstractTestCase {
         $this->assertNull($obj->getNumeroCompteRecette());
         $this->assertNull($obj->getRegle());
     }
+
+    /**
+     * Tests the setCodeJournal() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJournal() {
+
+        $obj = new MotsClefEtebac();
+
+        $obj->setCodeJournal("codeJournal");
+        $this->assertEquals("codeJournal", $obj->getCodeJournal());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new MotsClefEtebac();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setListeComptes() method.
+     *
+     * @return void
+     */
+    public function testSetListeComptes() {
+
+        $obj = new MotsClefEtebac();
+
+        $obj->setListeComptes("listeComptes");
+        $this->assertEquals("listeComptes", $obj->getListeComptes());
+    }
+
+    /**
+     * Tests the setMot() method.
+     *
+     * @return void
+     */
+    public function testSetMot() {
+
+        $obj = new MotsClefEtebac();
+
+        $obj->setMot("mot");
+        $this->assertEquals("mot", $obj->getMot());
+    }
+
+    /**
+     * Tests the setNumeroCompteDepense() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompteDepense() {
+
+        $obj = new MotsClefEtebac();
+
+        $obj->setNumeroCompteDepense("numeroCompteDepense");
+        $this->assertEquals("numeroCompteDepense", $obj->getNumeroCompteDepense());
+    }
+
+    /**
+     * Tests the setNumeroCompteRecette() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompteRecette() {
+
+        $obj = new MotsClefEtebac();
+
+        $obj->setNumeroCompteRecette("numeroCompteRecette");
+        $this->assertEquals("numeroCompteRecette", $obj->getNumeroCompteRecette());
+    }
+
+    /**
+     * Tests the setRegle() method.
+     *
+     * @return void
+     */
+    public function testSetRegle() {
+
+        $obj = new MotsClefEtebac();
+
+        $obj->setRegle("regle");
+        $this->assertEquals("regle", $obj->getRegle());
+    }
 }

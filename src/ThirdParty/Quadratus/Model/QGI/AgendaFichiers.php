@@ -11,12 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateAjoutTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomFichierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringOrigineFichierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefGuidTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTitreTrait;
+use DateTime;
 
 /**
  * Agenda fichiers.
@@ -26,17 +21,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTitreTrait;
  */
 class AgendaFichiers {
 
-    use StringCodeClientTrait;
-    use DateTimeDateAjoutTrait;
-    use StringNomFichierTrait;
-    use StringOrigineFichierTrait;
-    use StringRefGuidTrait;
-    use StringTitreTrait;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Date ajout.
+     *
+     * @var DateTime|null
+     */
+    private $dateAjout;
+
+    /**
+     * Nom fichier.
+     *
+     * @var string
+     */
+    private $nomFichier;
+
+    /**
+     * Origine fichier.
+     *
+     * @var string
+     */
+    private $origineFichier;
+
+    /**
+     * Ref guid.
+     *
+     * @var string
+     */
+    private $refGuid;
+
+    /**
+     * Titre.
+     *
+     * @var string
+     */
+    private $titre;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the date ajout.
+     *
+     * @return DateTime|null Returns the date ajout.
+     */
+    public function getDateAjout() {
+        return $this->dateAjout;
+    }
+
+    /**
+     * Get the nom fichier.
+     *
+     * @return string Returns the nom fichier.
+     */
+    public function getNomFichier() {
+        return $this->nomFichier;
+    }
+
+    /**
+     * Get the origine fichier.
+     *
+     * @return string Returns the origine fichier.
+     */
+    public function getOrigineFichier() {
+        return $this->origineFichier;
+    }
+
+    /**
+     * Get the ref guid.
+     *
+     * @return string Returns the ref guid.
+     */
+    public function getRefGuid() {
+        return $this->refGuid;
+    }
+
+    /**
+     * Get the titre.
+     *
+     * @return string Returns the titre.
+     */
+    public function getTitre() {
+        return $this->titre;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the date ajout.
+     *
+     * @param DateTime|null $dateAjout The date ajout.
+     */
+    public function setDateAjout(DateTime $dateAjout = null) {
+        $this->dateAjout = $dateAjout;
+        return $this;
+    }
+
+    /**
+     * Set the nom fichier.
+     *
+     * @param string $nomFichier The nom fichier.
+     */
+    public function setNomFichier($nomFichier) {
+        $this->nomFichier = $nomFichier;
+        return $this;
+    }
+
+    /**
+     * Set the origine fichier.
+     *
+     * @param string $origineFichier The origine fichier.
+     */
+    public function setOrigineFichier($origineFichier) {
+        $this->origineFichier = $origineFichier;
+        return $this;
+    }
+
+    /**
+     * Set the ref guid.
+     *
+     * @param string $refGuid The ref guid.
+     */
+    public function setRefGuid($refGuid) {
+        $this->refGuid = $refGuid;
+        return $this;
+    }
+
+    /**
+     * Set the titre.
+     *
+     * @param string $titre The titre.
+     */
+    public function setTitre($titre) {
+        $this->titre = $titre;
+        return $this;
     }
 }

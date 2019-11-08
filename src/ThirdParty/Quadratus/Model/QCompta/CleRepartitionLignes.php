@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatValeurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCentreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-
 /**
  * Cle repartition lignes.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
  */
 class CleRepartitionLignes {
 
-    use StringCodeTrait;
-    use StringCodeCentreTrait;
-    use IntNumLigneTrait;
-    use FloatValeurTrait;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Code centre.
+     *
+     * @var string
+     */
+    private $codeCentre;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
+
+    /**
+     * Valeur.
+     *
+     * @var float
+     */
+    private $valeur;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the code centre.
+     *
+     * @return string Returns the code centre.
+     */
+    public function getCodeCentre() {
+        return $this->codeCentre;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Get the valeur.
+     *
+     * @return float Returns the valeur.
+     */
+    public function getValeur() {
+        return $this->valeur;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the code centre.
+     *
+     * @param string $codeCentre The code centre.
+     */
+    public function setCodeCentre($codeCentre) {
+        $this->codeCentre = $codeCentre;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
+    }
+
+    /**
+     * Set the valeur.
+     *
+     * @param float $valeur The valeur.
+     */
+    public function setValeur($valeur) {
+        $this->valeur = $valeur;
+        return $this;
     }
 }

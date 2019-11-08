@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpReportModulation;
 
@@ -34,5 +36,48 @@ class EmpReportModulationTest extends AbstractTestCase {
         $this->assertNull($obj->getDateApplication());
         $this->assertNull($obj->getNumeroEmploye());
         $this->assertNull($obj->getReportModAnt());
+    }
+
+    /**
+     * Tests the setDateApplication() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateApplication() {
+
+        // Set a Date/time mock.
+        $dateApplication = new DateTime("2018-09-10");
+
+        $obj = new EmpReportModulation();
+
+        $obj->setDateApplication($dateApplication);
+        $this->assertSame($dateApplication, $obj->getDateApplication());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new EmpReportModulation();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setReportModAnt() method.
+     *
+     * @return void
+     */
+    public function testSetReportModAnt() {
+
+        $obj = new EmpReportModulation();
+
+        $obj->setReportModAnt(10.092018);
+        $this->assertEquals(10.092018, $obj->getReportModAnt());
     }
 }

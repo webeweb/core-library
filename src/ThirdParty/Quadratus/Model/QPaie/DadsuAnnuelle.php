@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntTdsAnneeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomFichierDadsuTrait;
-
 /**
  * Dadsu annuelle.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomFichierDadsuTrait;
  */
 class DadsuAnnuelle {
 
-    use StringNomFichierDadsuTrait;
-    use IntTdsAnneeTrait;
+    /**
+     * Nom fichier dadsu.
+     *
+     * @var string
+     */
+    private $nomFichierDadsu;
+
+    /**
+     * Tds annee.
+     *
+     * @var int
+     */
+    private $tdsAnnee;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the nom fichier dadsu.
+     *
+     * @return string Returns the nom fichier dadsu.
+     */
+    public function getNomFichierDadsu() {
+        return $this->nomFichierDadsu;
+    }
+
+    /**
+     * Get the tds annee.
+     *
+     * @return int Returns the tds annee.
+     */
+    public function getTdsAnnee() {
+        return $this->tdsAnnee;
+    }
+
+    /**
+     * Set the nom fichier dadsu.
+     *
+     * @param string $nomFichierDadsu The nom fichier dadsu.
+     */
+    public function setNomFichierDadsu($nomFichierDadsu) {
+        $this->nomFichierDadsu = $nomFichierDadsu;
+        return $this;
+    }
+
+    /**
+     * Set the tds annee.
+     *
+     * @param int $tdsAnnee The tds annee.
+     */
+    public function setTdsAnnee($tdsAnnee) {
+        $this->tdsAnnee = $tdsAnnee;
+        return $this;
     }
 }

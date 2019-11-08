@@ -11,20 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateDebauchageTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateEmbauchageTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeDeclaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbHTravTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatSalaireBrutTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxAtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCodeEtablissementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCommuneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNoEtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroAssureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringOrganismeTrait;
+use DateTime;
 
 /**
  * Lignes cafat.
@@ -34,25 +21,374 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringOrganismeTrait;
  */
 class LignesCafat {
 
-    use StringCodeCommuneTrait;
-    use IntCodeEtablissementTrait;
-    use DateTimeDateDebauchageTrait;
-    use DateTimeDateEmbauchageTrait;
-    use FloatNbHTravTrait;
-    use StringNoEtTrait;
-    use StringNomEmployeTrait;
-    use IntNumLigneTrait;
-    use StringNumeroAssureTrait;
-    use StringNumeroEmployeTrait;
-    use StringOrganismeTrait;
-    use DateTimePeriodeDeclaTrait;
-    use FloatSalaireBrutTrait;
-    use FloatTauxAtTrait;
+    /**
+     * Code commune.
+     *
+     * @var string
+     */
+    private $codeCommune;
+
+    /**
+     * Code etablissement.
+     *
+     * @var int
+     */
+    private $codeEtablissement;
+
+    /**
+     * Date debauchage.
+     *
+     * @var DateTime|null
+     */
+    private $dateDebauchage;
+
+    /**
+     * Date embauchage.
+     *
+     * @var DateTime|null
+     */
+    private $dateEmbauchage;
+
+    /**
+     * Nb h trav.
+     *
+     * @var float
+     */
+    private $nbHTrav;
+
+    /**
+     * No et.
+     *
+     * @var string
+     */
+    private $noEt;
+
+    /**
+     * Nom employe.
+     *
+     * @var string
+     */
+    private $nomEmploye;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
+
+    /**
+     * Numero assure.
+     *
+     * @var string
+     */
+    private $numeroAssure;
+
+    /**
+     * Numero employe.
+     *
+     * @var string
+     */
+    private $numeroEmploye;
+
+    /**
+     * Organisme.
+     *
+     * @var string
+     */
+    private $organisme;
+
+    /**
+     * Periode decla.
+     *
+     * @var DateTime|null
+     */
+    private $periodeDecla;
+
+    /**
+     * Salaire brut.
+     *
+     * @var float
+     */
+    private $salaireBrut;
+
+    /**
+     * Taux at.
+     *
+     * @var float
+     */
+    private $tauxAt;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code commune.
+     *
+     * @return string Returns the code commune.
+     */
+    public function getCodeCommune() {
+        return $this->codeCommune;
+    }
+
+    /**
+     * Get the code etablissement.
+     *
+     * @return int Returns the code etablissement.
+     */
+    public function getCodeEtablissement() {
+        return $this->codeEtablissement;
+    }
+
+    /**
+     * Get the date debauchage.
+     *
+     * @return DateTime|null Returns the date debauchage.
+     */
+    public function getDateDebauchage() {
+        return $this->dateDebauchage;
+    }
+
+    /**
+     * Get the date embauchage.
+     *
+     * @return DateTime|null Returns the date embauchage.
+     */
+    public function getDateEmbauchage() {
+        return $this->dateEmbauchage;
+    }
+
+    /**
+     * Get the nb h trav.
+     *
+     * @return float Returns the nb h trav.
+     */
+    public function getNbHTrav() {
+        return $this->nbHTrav;
+    }
+
+    /**
+     * Get the no et.
+     *
+     * @return string Returns the no et.
+     */
+    public function getNoEt() {
+        return $this->noEt;
+    }
+
+    /**
+     * Get the nom employe.
+     *
+     * @return string Returns the nom employe.
+     */
+    public function getNomEmploye() {
+        return $this->nomEmploye;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Get the numero assure.
+     *
+     * @return string Returns the numero assure.
+     */
+    public function getNumeroAssure() {
+        return $this->numeroAssure;
+    }
+
+    /**
+     * Get the numero employe.
+     *
+     * @return string Returns the numero employe.
+     */
+    public function getNumeroEmploye() {
+        return $this->numeroEmploye;
+    }
+
+    /**
+     * Get the organisme.
+     *
+     * @return string Returns the organisme.
+     */
+    public function getOrganisme() {
+        return $this->organisme;
+    }
+
+    /**
+     * Get the periode decla.
+     *
+     * @return DateTime|null Returns the periode decla.
+     */
+    public function getPeriodeDecla() {
+        return $this->periodeDecla;
+    }
+
+    /**
+     * Get the salaire brut.
+     *
+     * @return float Returns the salaire brut.
+     */
+    public function getSalaireBrut() {
+        return $this->salaireBrut;
+    }
+
+    /**
+     * Get the taux at.
+     *
+     * @return float Returns the taux at.
+     */
+    public function getTauxAt() {
+        return $this->tauxAt;
+    }
+
+    /**
+     * Set the code commune.
+     *
+     * @param string $codeCommune The code commune.
+     */
+    public function setCodeCommune($codeCommune) {
+        $this->codeCommune = $codeCommune;
+        return $this;
+    }
+
+    /**
+     * Set the code etablissement.
+     *
+     * @param int $codeEtablissement The code etablissement.
+     */
+    public function setCodeEtablissement($codeEtablissement) {
+        $this->codeEtablissement = $codeEtablissement;
+        return $this;
+    }
+
+    /**
+     * Set the date debauchage.
+     *
+     * @param DateTime|null $dateDebauchage The date debauchage.
+     */
+    public function setDateDebauchage(DateTime $dateDebauchage = null) {
+        $this->dateDebauchage = $dateDebauchage;
+        return $this;
+    }
+
+    /**
+     * Set the date embauchage.
+     *
+     * @param DateTime|null $dateEmbauchage The date embauchage.
+     */
+    public function setDateEmbauchage(DateTime $dateEmbauchage = null) {
+        $this->dateEmbauchage = $dateEmbauchage;
+        return $this;
+    }
+
+    /**
+     * Set the nb h trav.
+     *
+     * @param float $nbHTrav The nb h trav.
+     */
+    public function setNbHTrav($nbHTrav) {
+        $this->nbHTrav = $nbHTrav;
+        return $this;
+    }
+
+    /**
+     * Set the no et.
+     *
+     * @param string $noEt The no et.
+     */
+    public function setNoEt($noEt) {
+        $this->noEt = $noEt;
+        return $this;
+    }
+
+    /**
+     * Set the nom employe.
+     *
+     * @param string $nomEmploye The nom employe.
+     */
+    public function setNomEmploye($nomEmploye) {
+        $this->nomEmploye = $nomEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
+    }
+
+    /**
+     * Set the numero assure.
+     *
+     * @param string $numeroAssure The numero assure.
+     */
+    public function setNumeroAssure($numeroAssure) {
+        $this->numeroAssure = $numeroAssure;
+        return $this;
+    }
+
+    /**
+     * Set the numero employe.
+     *
+     * @param string $numeroEmploye The numero employe.
+     */
+    public function setNumeroEmploye($numeroEmploye) {
+        $this->numeroEmploye = $numeroEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the organisme.
+     *
+     * @param string $organisme The organisme.
+     */
+    public function setOrganisme($organisme) {
+        $this->organisme = $organisme;
+        return $this;
+    }
+
+    /**
+     * Set the periode decla.
+     *
+     * @param DateTime|null $periodeDecla The periode decla.
+     */
+    public function setPeriodeDecla(DateTime $periodeDecla = null) {
+        $this->periodeDecla = $periodeDecla;
+        return $this;
+    }
+
+    /**
+     * Set the salaire brut.
+     *
+     * @param float $salaireBrut The salaire brut.
+     */
+    public function setSalaireBrut($salaireBrut) {
+        $this->salaireBrut = $salaireBrut;
+        return $this;
+    }
+
+    /**
+     * Set the taux at.
+     *
+     * @param float $tauxAt The taux at.
+     */
+    public function setTauxAt($tauxAt) {
+        $this->tauxAt = $tauxAt;
+        return $this;
     }
 }

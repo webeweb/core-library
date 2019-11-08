@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Constantes;
 
@@ -282,5 +284,3300 @@ class ConstantesTest extends AbstractTestCase {
         $this->assertNull($obj->getUniqIdSynchro());
         $this->assertNull($obj->getUtiliserStockMini());
         $this->assertNull($obj->getVisualiserPointageBtValides());
+    }
+
+    /**
+     * Tests the set35Heures() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSet35Heures() {
+
+        // Set a Date/time mock.
+        $_35Heures = new DateTime("2018-09-10");
+
+        $obj = new Constantes();
+
+        $obj->set35Heures($_35Heures);
+        $this->assertSame($_35Heures, $obj->get35Heures());
+    }
+
+    /**
+     * Tests the setAlertesPaieDansPointage() method.
+     *
+     * @return void
+     */
+    public function testSetAlertesPaieDansPointage() {
+
+        $obj = new Constantes();
+
+        $obj->setAlertesPaieDansPointage(true);
+        $this->assertEquals(true, $obj->getAlertesPaieDansPointage());
+    }
+
+    /**
+     * Tests the setAlertesPaieDansReclam() method.
+     *
+     * @return void
+     */
+    public function testSetAlertesPaieDansReclam() {
+
+        $obj = new Constantes();
+
+        $obj->setAlertesPaieDansReclam(true);
+        $this->assertEquals(true, $obj->getAlertesPaieDansReclam());
+    }
+
+    /**
+     * Tests the setAnalytiqueNatureAgence() method.
+     *
+     * @return void
+     */
+    public function testSetAnalytiqueNatureAgence() {
+
+        $obj = new Constantes();
+
+        $obj->setAnalytiqueNatureAgence(true);
+        $this->assertEquals(true, $obj->getAnalytiqueNatureAgence());
+    }
+
+    /**
+     * Tests the setAnalytiqueParChantier() method.
+     *
+     * @return void
+     */
+    public function testSetAnalytiqueParChantier() {
+
+        $obj = new Constantes();
+
+        $obj->setAnalytiqueParChantier(true);
+        $this->assertEquals(true, $obj->getAnalytiqueParChantier());
+    }
+
+    /**
+     * Tests the setArchiverDevis() method.
+     *
+     * @return void
+     */
+    public function testSetArchiverDevis() {
+
+        $obj = new Constantes();
+
+        $obj->setArchiverDevis(true);
+        $this->assertEquals(true, $obj->getArchiverDevis());
+    }
+
+    /**
+     * Tests the setArchiverFacture() method.
+     *
+     * @return void
+     */
+    public function testSetArchiverFacture() {
+
+        $obj = new Constantes();
+
+        $obj->setArchiverFacture(true);
+        $this->assertEquals(true, $obj->getArchiverFacture());
+    }
+
+    /**
+     * Tests the setArrondiSurPu() method.
+     *
+     * @return void
+     */
+    public function testSetArrondiSurPu() {
+
+        $obj = new Constantes();
+
+        $obj->setArrondiSurPu(true);
+        $this->assertEquals(true, $obj->getArrondiSurPu());
+    }
+
+    /**
+     * Tests the setAutoriserDaSansMajStock() method.
+     *
+     * @return void
+     */
+    public function testSetAutoriserDaSansMajStock() {
+
+        $obj = new Constantes();
+
+        $obj->setAutoriserDaSansMajStock(true);
+        $this->assertEquals(true, $obj->getAutoriserDaSansMajStock());
+    }
+
+    /**
+     * Tests the setAutoriserDepBudChaCdeType() method.
+     *
+     * @return void
+     */
+    public function testSetAutoriserDepBudChaCdeType() {
+
+        $obj = new Constantes();
+
+        $obj->setAutoriserDepBudChaCdeType(true);
+        $this->assertEquals(true, $obj->getAutoriserDepBudChaCdeType());
+    }
+
+    /**
+     * Tests the setAutoriserMensuTacheVide() method.
+     *
+     * @return void
+     */
+    public function testSetAutoriserMensuTacheVide() {
+
+        $obj = new Constantes();
+
+        $obj->setAutoriserMensuTacheVide(true);
+        $this->assertEquals(true, $obj->getAutoriserMensuTacheVide());
+    }
+
+    /**
+     * Tests the setBlNumFact() method.
+     *
+     * @return void
+     */
+    public function testSetBlNumFact() {
+
+        $obj = new Constantes();
+
+        $obj->setBlNumFact(10);
+        $this->assertEquals(10, $obj->getBlNumFact());
+    }
+
+    /**
+     * Tests the setBlPrefixe() method.
+     *
+     * @return void
+     */
+    public function testSetBlPrefixe() {
+
+        $obj = new Constantes();
+
+        $obj->setBlPrefixe("blPrefixe");
+        $this->assertEquals("blPrefixe", $obj->getBlPrefixe());
+    }
+
+    /**
+     * Tests the setBrNumFact() method.
+     *
+     * @return void
+     */
+    public function testSetBrNumFact() {
+
+        $obj = new Constantes();
+
+        $obj->setBrNumFact(10);
+        $this->assertEquals(10, $obj->getBrNumFact());
+    }
+
+    /**
+     * Tests the setBrPrefixe() method.
+     *
+     * @return void
+     */
+    public function testSetBrPrefixe() {
+
+        $obj = new Constantes();
+
+        $obj->setBrPrefixe("brPrefixe");
+        $this->assertEquals("brPrefixe", $obj->getBrPrefixe());
+    }
+
+    /**
+     * Tests the setBsNumFact() method.
+     *
+     * @return void
+     */
+    public function testSetBsNumFact() {
+
+        $obj = new Constantes();
+
+        $obj->setBsNumFact(10);
+        $this->assertEquals(10, $obj->getBsNumFact());
+    }
+
+    /**
+     * Tests the setBsPrefixe() method.
+     *
+     * @return void
+     */
+    public function testSetBsPrefixe() {
+
+        $obj = new Constantes();
+
+        $obj->setBsPrefixe("bsPrefixe");
+        $this->assertEquals("bsPrefixe", $obj->getBsPrefixe());
+    }
+
+    /**
+     * Tests the setCddMensuTotalHeures() method.
+     *
+     * @return void
+     */
+    public function testSetCddMensuTotalHeures() {
+
+        $obj = new Constantes();
+
+        $obj->setCddMensuTotalHeures(true);
+        $this->assertEquals(true, $obj->getCddMensuTotalHeures());
+    }
+
+    /**
+     * Tests the setCdeClientNumFact() method.
+     *
+     * @return void
+     */
+    public function testSetCdeClientNumFact() {
+
+        $obj = new Constantes();
+
+        $obj->setCdeClientNumFact(10);
+        $this->assertEquals(10, $obj->getCdeClientNumFact());
+    }
+
+    /**
+     * Tests the setCdeClientPrefixe() method.
+     *
+     * @return void
+     */
+    public function testSetCdeClientPrefixe() {
+
+        $obj = new Constantes();
+
+        $obj->setCdeClientPrefixe("cdeClientPrefixe");
+        $this->assertEquals("cdeClientPrefixe", $obj->getCdeClientPrefixe());
+    }
+
+    /**
+     * Tests the setCdeFrnNumFact() method.
+     *
+     * @return void
+     */
+    public function testSetCdeFrnNumFact() {
+
+        $obj = new Constantes();
+
+        $obj->setCdeFrnNumFact(10);
+        $this->assertEquals(10, $obj->getCdeFrnNumFact());
+    }
+
+    /**
+     * Tests the setCdeFrnPrefixe() method.
+     *
+     * @return void
+     */
+    public function testSetCdeFrnPrefixe() {
+
+        $obj = new Constantes();
+
+        $obj->setCdeFrnPrefixe("cdeFrnPrefixe");
+        $this->assertEquals("cdeFrnPrefixe", $obj->getCdeFrnPrefixe());
+    }
+
+    /**
+     * Tests the setCentralisationVente() method.
+     *
+     * @return void
+     */
+    public function testSetCentralisationVente() {
+
+        $obj = new Constantes();
+
+        $obj->setCentralisationVente(true);
+        $this->assertEquals(true, $obj->getCentralisationVente());
+    }
+
+    /**
+     * Tests the setChargeMensuelleSansTache() method.
+     *
+     * @return void
+     */
+    public function testSetChargeMensuelleSansTache() {
+
+        $obj = new Constantes();
+
+        $obj->setChargeMensuelleSansTache(true);
+        $this->assertEquals(true, $obj->getChargeMensuelleSansTache());
+    }
+
+    /**
+     * Tests the setCheminDossCompta() method.
+     *
+     * @return void
+     */
+    public function testSetCheminDossCompta() {
+
+        $obj = new Constantes();
+
+        $obj->setCheminDossCompta("cheminDossCompta");
+        $this->assertEquals("cheminDossCompta", $obj->getCheminDossCompta());
+    }
+
+    /**
+     * Tests the setCleDebloquerPeriodeCloturee() method.
+     *
+     * @return void
+     */
+    public function testSetCleDebloquerPeriodeCloturee() {
+
+        $obj = new Constantes();
+
+        $obj->setCleDebloquerPeriodeCloturee("cleDebloquerPeriodeCloturee");
+        $this->assertEquals("cleDebloquerPeriodeCloturee", $obj->getCleDebloquerPeriodeCloturee());
+    }
+
+    /**
+     * Tests the setCodeAbsCpSansSolde() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAbsCpSansSolde() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeAbsCpSansSolde("codeAbsCpSansSolde");
+        $this->assertEquals("codeAbsCpSansSolde", $obj->getCodeAbsCpSansSolde());
+    }
+
+    /**
+     * Tests the setCodeAbsDefJf() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAbsDefJf() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeAbsDefJf("codeAbsDefJf");
+        $this->assertEquals("codeAbsDefJf", $obj->getCodeAbsDefJf());
+    }
+
+    /**
+     * Tests the setCodeAbsDefJfMoins3() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAbsDefJfMoins3() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeAbsDefJfMoins3("codeAbsDefJfMoins3");
+        $this->assertEquals("codeAbsDefJfMoins3", $obj->getCodeAbsDefJfMoins3());
+    }
+
+    /**
+     * Tests the setCodeAbsFermetureChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAbsFermetureChantier() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeAbsFermetureChantier("codeAbsFermetureChantier");
+        $this->assertEquals("codeAbsFermetureChantier", $obj->getCodeAbsFermetureChantier());
+    }
+
+    /**
+     * Tests the setCodeAbsPointageDefaut() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAbsPointageDefaut() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeAbsPointageDefaut("codeAbsPointageDefaut");
+        $this->assertEquals("codeAbsPointageDefaut", $obj->getCodeAbsPointageDefaut());
+    }
+
+    /**
+     * Tests the setCodeCollaboValid() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaboValid() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeCollaboValid("codeCollaboValid");
+        $this->assertEquals("codeCollaboValid", $obj->getCodeCollaboValid());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setCodeDepotParDefaut() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDepotParDefaut() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeDepotParDefaut("codeDepotParDefaut");
+        $this->assertEquals("codeDepotParDefaut", $obj->getCodeDepotParDefaut());
+    }
+
+    /**
+     * Tests the setCodeIcs() method.
+     *
+     * @return void
+     */
+    public function testSetCodeIcs() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeIcs("codeIcs");
+        $this->assertEquals("codeIcs", $obj->getCodeIcs());
+    }
+
+    /**
+     * Tests the setCodeJa() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJa() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeJa("codeJa");
+        $this->assertEquals("codeJa", $obj->getCodeJa());
+    }
+
+    /**
+     * Tests the setCodeJvNegoce() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJvNegoce() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeJvNegoce("codeJvNegoce");
+        $this->assertEquals("codeJvNegoce", $obj->getCodeJvNegoce());
+    }
+
+    /**
+     * Tests the setCodeJvPrestation() method.
+     *
+     * @return void
+     */
+    public function testSetCodeJvPrestation() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeJvPrestation("codeJvPrestation");
+        $this->assertEquals("codeJvPrestation", $obj->getCodeJvPrestation());
+    }
+
+    /**
+     * Tests the setCodeLivParDefaut() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLivParDefaut() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeLivParDefaut("codeLivParDefaut");
+        $this->assertEquals("codeLivParDefaut", $obj->getCodeLivParDefaut());
+    }
+
+    /**
+     * Tests the setCodePrimeChantier1() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeChantier1() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeChantier1("codePrimeChantier1");
+        $this->assertEquals("codePrimeChantier1", $obj->getCodePrimeChantier1());
+    }
+
+    /**
+     * Tests the setCodePrimeChantier2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeChantier2() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeChantier2("codePrimeChantier2");
+        $this->assertEquals("codePrimeChantier2", $obj->getCodePrimeChantier2());
+    }
+
+    /**
+     * Tests the setCodePrimeChantier3() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeChantier3() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeChantier3("codePrimeChantier3");
+        $this->assertEquals("codePrimeChantier3", $obj->getCodePrimeChantier3());
+    }
+
+    /**
+     * Tests the setCodePrimeDimanche1() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeDimanche1() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeDimanche1("codePrimeDimanche1");
+        $this->assertEquals("codePrimeDimanche1", $obj->getCodePrimeDimanche1());
+    }
+
+    /**
+     * Tests the setCodePrimeDimanche1Type2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeDimanche1Type2() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeDimanche1Type2("codePrimeDimanche1Type2");
+        $this->assertEquals("codePrimeDimanche1Type2", $obj->getCodePrimeDimanche1Type2());
+    }
+
+    /**
+     * Tests the setCodePrimeDimanche2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeDimanche2() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeDimanche2("codePrimeDimanche2");
+        $this->assertEquals("codePrimeDimanche2", $obj->getCodePrimeDimanche2());
+    }
+
+    /**
+     * Tests the setCodePrimeForfait() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeForfait() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeForfait("codePrimeForfait");
+        $this->assertEquals("codePrimeForfait", $obj->getCodePrimeForfait());
+    }
+
+    /**
+     * Tests the setCodePrimeHCompl() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeHCompl() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeHCompl("codePrimeHCompl");
+        $this->assertEquals("codePrimeHCompl", $obj->getCodePrimeHCompl());
+    }
+
+    /**
+     * Tests the setCodePrimeHCompl2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeHCompl2() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeHCompl2("codePrimeHCompl2");
+        $this->assertEquals("codePrimeHCompl2", $obj->getCodePrimeHCompl2());
+    }
+
+    /**
+     * Tests the setCodePrimeJf1() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeJf1() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeJf1("codePrimeJf1");
+        $this->assertEquals("codePrimeJf1", $obj->getCodePrimeJf1());
+    }
+
+    /**
+     * Tests the setCodePrimeJf1Type2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeJf1Type2() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeJf1Type2("codePrimeJf1Type2");
+        $this->assertEquals("codePrimeJf1Type2", $obj->getCodePrimeJf1Type2());
+    }
+
+    /**
+     * Tests the setCodePrimeJf2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeJf2() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeJf2("codePrimeJf2");
+        $this->assertEquals("codePrimeJf2", $obj->getCodePrimeJf2());
+    }
+
+    /**
+     * Tests the setCodePrimeJfMai() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeJfMai() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeJfMai("codePrimeJfMai");
+        $this->assertEquals("codePrimeJfMai", $obj->getCodePrimeJfMai());
+    }
+
+    /**
+     * Tests the setCodePrimeNuit1() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeNuit1() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeNuit1("codePrimeNuit1");
+        $this->assertEquals("codePrimeNuit1", $obj->getCodePrimeNuit1());
+    }
+
+    /**
+     * Tests the setCodePrimeNuit1Type2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeNuit1Type2() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeNuit1Type2("codePrimeNuit1Type2");
+        $this->assertEquals("codePrimeNuit1Type2", $obj->getCodePrimeNuit1Type2());
+    }
+
+    /**
+     * Tests the setCodePrimeNuit2() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeNuit2() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeNuit2("codePrimeNuit2");
+        $this->assertEquals("codePrimeNuit2", $obj->getCodePrimeNuit2());
+    }
+
+    /**
+     * Tests the setCodePrimePaniers() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimePaniers() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimePaniers("codePrimePaniers");
+        $this->assertEquals("codePrimePaniers", $obj->getCodePrimePaniers());
+    }
+
+    /**
+     * Tests the setCodePrimeRs() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeRs() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeRs("codePrimeRs");
+        $this->assertEquals("codePrimeRs", $obj->getCodePrimeRs());
+    }
+
+    /**
+     * Tests the setCodePrimeTp() method.
+     *
+     * @return void
+     */
+    public function testSetCodePrimeTp() {
+
+        $obj = new Constantes();
+
+        $obj->setCodePrimeTp("codePrimeTp");
+        $this->assertEquals("codePrimeTp", $obj->getCodePrimeTp());
+    }
+
+    /**
+     * Tests the setCodeRegJvNegDebut() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegJvNegDebut() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeRegJvNegDebut("codeRegJvNegDebut");
+        $this->assertEquals("codeRegJvNegDebut", $obj->getCodeRegJvNegDebut());
+    }
+
+    /**
+     * Tests the setCodeRegJvNegFin() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegJvNegFin() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeRegJvNegFin("codeRegJvNegFin");
+        $this->assertEquals("codeRegJvNegFin", $obj->getCodeRegJvNegFin());
+    }
+
+    /**
+     * Tests the setCodeRegJvPrestDebut() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegJvPrestDebut() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeRegJvPrestDebut("codeRegJvPrestDebut");
+        $this->assertEquals("codeRegJvPrestDebut", $obj->getCodeRegJvPrestDebut());
+    }
+
+    /**
+     * Tests the setCodeRegJvPrestFin() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegJvPrestFin() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeRegJvPrestFin("codeRegJvPrestFin");
+        $this->assertEquals("codeRegJvPrestFin", $obj->getCodeRegJvPrestFin());
+    }
+
+    /**
+     * Tests the setCodeTacheDefaut() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTacheDefaut() {
+
+        $obj = new Constantes();
+
+        $obj->setCodeTacheDefaut("codeTacheDefaut");
+        $this->assertEquals("codeTacheDefaut", $obj->getCodeTacheDefaut());
+    }
+
+    /**
+     * Tests the setCollectifDef() method.
+     *
+     * @return void
+     */
+    public function testSetCollectifDef() {
+
+        $obj = new Constantes();
+
+        $obj->setCollectifDef("collectifDef");
+        $this->assertEquals("collectifDef", $obj->getCollectifDef());
+    }
+
+    /**
+     * Tests the setCollectifDefFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetCollectifDefFournisseur() {
+
+        $obj = new Constantes();
+
+        $obj->setCollectifDefFournisseur("collectifDefFournisseur");
+        $this->assertEquals("collectifDefFournisseur", $obj->getCollectifDefFournisseur());
+    }
+
+    /**
+     * Tests the setCommentaireJourneeSolidarite() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaireJourneeSolidarite() {
+
+        $obj = new Constantes();
+
+        $obj->setCommentaireJourneeSolidarite("commentaireJourneeSolidarite");
+        $this->assertEquals("commentaireJourneeSolidarite", $obj->getCommentaireJourneeSolidarite());
+    }
+
+    /**
+     * Tests the setCompteCollectifAchat() method.
+     *
+     * @return void
+     */
+    public function testSetCompteCollectifAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setCompteCollectifAchat("compteCollectifAchat");
+        $this->assertEquals("compteCollectifAchat", $obj->getCompteCollectifAchat());
+    }
+
+    /**
+     * Tests the setCompteCollectifVente() method.
+     *
+     * @return void
+     */
+    public function testSetCompteCollectifVente() {
+
+        $obj = new Constantes();
+
+        $obj->setCompteCollectifVente("compteCollectifVente");
+        $this->assertEquals("compteCollectifVente", $obj->getCompteCollectifVente());
+    }
+
+    /**
+     * Tests the setCompteEscompteCaExonere() method.
+     *
+     * @return void
+     */
+    public function testSetCompteEscompteCaExonere() {
+
+        $obj = new Constantes();
+
+        $obj->setCompteEscompteCaExonere("compteEscompteCaExonere");
+        $this->assertEquals("compteEscompteCaExonere", $obj->getCompteEscompteCaExonere());
+    }
+
+    /**
+     * Tests the setCompteEscompteSoumisTva() method.
+     *
+     * @return void
+     */
+    public function testSetCompteEscompteSoumisTva() {
+
+        $obj = new Constantes();
+
+        $obj->setCompteEscompteSoumisTva("compteEscompteSoumisTva");
+        $this->assertEquals("compteEscompteSoumisTva", $obj->getCompteEscompteSoumisTva());
+    }
+
+    /**
+     * Tests the setCompteTvaAchat() method.
+     *
+     * @return void
+     */
+    public function testSetCompteTvaAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setCompteTvaAchat("compteTvaAchat");
+        $this->assertEquals("compteTvaAchat", $obj->getCompteTvaAchat());
+    }
+
+    /**
+     * Tests the setCompteTvaTaxeDeee() method.
+     *
+     * @return void
+     */
+    public function testSetCompteTvaTaxeDeee() {
+
+        $obj = new Constantes();
+
+        $obj->setCompteTvaTaxeDeee("compteTvaTaxeDeee");
+        $this->assertEquals("compteTvaTaxeDeee", $obj->getCompteTvaTaxeDeee());
+    }
+
+    /**
+     * Tests the setCompteTvaVente() method.
+     *
+     * @return void
+     */
+    public function testSetCompteTvaVente() {
+
+        $obj = new Constantes();
+
+        $obj->setCompteTvaVente("compteTvaVente");
+        $this->assertEquals("compteTvaVente", $obj->getCompteTvaVente());
+    }
+
+    /**
+     * Tests the setCompteVentilTaxeDeee() method.
+     *
+     * @return void
+     */
+    public function testSetCompteVentilTaxeDeee() {
+
+        $obj = new Constantes();
+
+        $obj->setCompteVentilTaxeDeee("compteVentilTaxeDeee");
+        $this->assertEquals("compteVentilTaxeDeee", $obj->getCompteVentilTaxeDeee());
+    }
+
+    /**
+     * Tests the setCompterSamediTfCpPaie() method.
+     *
+     * @return void
+     */
+    public function testSetCompterSamediTfCpPaie() {
+
+        $obj = new Constantes();
+
+        $obj->setCompterSamediTfCpPaie(true);
+        $this->assertEquals(true, $obj->getCompterSamediTfCpPaie());
+    }
+
+    /**
+     * Tests the setControlerCdeFrn() method.
+     *
+     * @return void
+     */
+    public function testSetControlerCdeFrn() {
+
+        $obj = new Constantes();
+
+        $obj->setControlerCdeFrn(true);
+        $this->assertEquals(true, $obj->getControlerCdeFrn());
+    }
+
+    /**
+     * Tests the setControlerChargesMensuelles() method.
+     *
+     * @return void
+     */
+    public function testSetControlerChargesMensuelles() {
+
+        $obj = new Constantes();
+
+        $obj->setControlerChargesMensuelles(true);
+        $this->assertEquals(true, $obj->getControlerChargesMensuelles());
+    }
+
+    /**
+     * Tests the setControlerCodeReg() method.
+     *
+     * @return void
+     */
+    public function testSetControlerCodeReg() {
+
+        $obj = new Constantes();
+
+        $obj->setControlerCodeReg(true);
+        $this->assertEquals(true, $obj->getControlerCodeReg());
+    }
+
+    /**
+     * Tests the setControlerDepHcMax() method.
+     *
+     * @return void
+     */
+    public function testSetControlerDepHcMax() {
+
+        $obj = new Constantes();
+
+        $obj->setControlerDepHcMax(true);
+        $this->assertEquals(true, $obj->getControlerDepHcMax());
+    }
+
+    /**
+     * Tests the setControlerDepHcPlusMois() method.
+     *
+     * @return void
+     */
+    public function testSetControlerDepHcPlusMois() {
+
+        $obj = new Constantes();
+
+        $obj->setControlerDepHcPlusMois(true);
+        $this->assertEquals(true, $obj->getControlerDepHcPlusMois());
+    }
+
+    /**
+     * Tests the setCpSansProvisions() method.
+     *
+     * @return void
+     */
+    public function testSetCpSansProvisions() {
+
+        $obj = new Constantes();
+
+        $obj->setCpSansProvisions(true);
+        $this->assertEquals(true, $obj->getCpSansProvisions());
+    }
+
+    /**
+     * Tests the setCreerAlertePaieDefEnPaie() method.
+     *
+     * @return void
+     */
+    public function testSetCreerAlertePaieDefEnPaie() {
+
+        $obj = new Constantes();
+
+        $obj->setCreerAlertePaieDefEnPaie(true);
+        $this->assertEquals(true, $obj->getCreerAlertePaieDefEnPaie());
+    }
+
+    /**
+     * Tests the setCtrlAutoCp() method.
+     *
+     * @return void
+     */
+    public function testSetCtrlAutoCp() {
+
+        $obj = new Constantes();
+
+        $obj->setCtrlAutoCp(true);
+        $this->assertEquals(true, $obj->getCtrlAutoCp());
+    }
+
+    /**
+     * Tests the setCtrlAutoCpAvecAnticipation() method.
+     *
+     * @return void
+     */
+    public function testSetCtrlAutoCpAvecAnticipation() {
+
+        $obj = new Constantes();
+
+        $obj->setCtrlAutoCpAvecAnticipation(true);
+        $this->assertEquals(true, $obj->getCtrlAutoCpAvecAnticipation());
+    }
+
+    /**
+     * Tests the setDateAppliGestionHeuresEnPlus() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateAppliGestionHeuresEnPlus() {
+
+        // Set a Date/time mock.
+        $dateAppliGestionHeuresEnPlus = new DateTime("2018-09-10");
+
+        $obj = new Constantes();
+
+        $obj->setDateAppliGestionHeuresEnPlus($dateAppliGestionHeuresEnPlus);
+        $this->assertSame($dateAppliGestionHeuresEnPlus, $obj->getDateAppliGestionHeuresEnPlus());
+    }
+
+    /**
+     * Tests the setDateJourneeSolidarite() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateJourneeSolidarite() {
+
+        // Set a Date/time mock.
+        $dateJourneeSolidarite = new DateTime("2018-09-10");
+
+        $obj = new Constantes();
+
+        $obj->setDateJourneeSolidarite($dateJourneeSolidarite);
+        $this->assertSame($dateJourneeSolidarite, $obj->getDateJourneeSolidarite());
+    }
+
+    /**
+     * Tests the setDateValidationSynchro() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateValidationSynchro() {
+
+        // Set a Date/time mock.
+        $dateValidationSynchro = new DateTime("2018-09-10");
+
+        $obj = new Constantes();
+
+        $obj->setDateValidationSynchro($dateValidationSynchro);
+        $this->assertSame($dateValidationSynchro, $obj->getDateValidationSynchro());
+    }
+
+    /**
+     * Tests the setDecMoisPrepFact() method.
+     *
+     * @return void
+     */
+    public function testSetDecMoisPrepFact() {
+
+        $obj = new Constantes();
+
+        $obj->setDecMoisPrepFact(10);
+        $this->assertEquals(10, $obj->getDecMoisPrepFact());
+    }
+
+    /**
+     * Tests the setDernierCompteClient() method.
+     *
+     * @return void
+     */
+    public function testSetDernierCompteClient() {
+
+        $obj = new Constantes();
+
+        $obj->setDernierCompteClient("dernierCompteClient");
+        $this->assertEquals("dernierCompteClient", $obj->getDernierCompteClient());
+    }
+
+    /**
+     * Tests the setDernierCompteFrn() method.
+     *
+     * @return void
+     */
+    public function testSetDernierCompteFrn() {
+
+        $obj = new Constantes();
+
+        $obj->setDernierCompteFrn("dernierCompteFrn");
+        $this->assertEquals("dernierCompteFrn", $obj->getDernierCompteFrn());
+    }
+
+    /**
+     * Tests the setDiscr() method.
+     *
+     * @return void
+     */
+    public function testSetDiscr() {
+
+        $obj = new Constantes();
+
+        $obj->setDiscr("discr");
+        $this->assertEquals("discr", $obj->getDiscr());
+    }
+
+    /**
+     * Tests the setDossCompta() method.
+     *
+     * @return void
+     */
+    public function testSetDossCompta() {
+
+        $obj = new Constantes();
+
+        $obj->setDossCompta("dossCompta");
+        $this->assertEquals("dossCompta", $obj->getDossCompta());
+    }
+
+    /**
+     * Tests the setDossPaie() method.
+     *
+     * @return void
+     */
+    public function testSetDossPaie() {
+
+        $obj = new Constantes();
+
+        $obj->setDossPaie("dossPaie");
+        $this->assertEquals("dossPaie", $obj->getDossPaie());
+    }
+
+    /**
+     * Tests the setEsCodeAbsEntree() method.
+     *
+     * @return void
+     */
+    public function testSetEsCodeAbsEntree() {
+
+        $obj = new Constantes();
+
+        $obj->setEsCodeAbsEntree("esCodeAbsEntree");
+        $this->assertEquals("esCodeAbsEntree", $obj->getEsCodeAbsEntree());
+    }
+
+    /**
+     * Tests the setEsCodeAbsSortie() method.
+     *
+     * @return void
+     */
+    public function testSetEsCodeAbsSortie() {
+
+        $obj = new Constantes();
+
+        $obj->setEsCodeAbsSortie("esCodeAbsSortie");
+        $this->assertEquals("esCodeAbsSortie", $obj->getEsCodeAbsSortie());
+    }
+
+    /**
+     * Tests the setEsHeuresReelles() method.
+     *
+     * @return void
+     */
+    public function testSetEsHeuresReelles() {
+
+        $obj = new Constantes();
+
+        $obj->setEsHeuresReelles(true);
+        $this->assertEquals(true, $obj->getEsHeuresReelles());
+    }
+
+    /**
+     * Tests the setEtablissementsPaie() method.
+     *
+     * @return void
+     */
+    public function testSetEtablissementsPaie() {
+
+        $obj = new Constantes();
+
+        $obj->setEtablissementsPaie("etablissementsPaie");
+        $this->assertEquals("etablissementsPaie", $obj->getEtablissementsPaie());
+    }
+
+    /**
+     * Tests the setEtat() method.
+     *
+     * @return void
+     */
+    public function testSetEtat() {
+
+        $obj = new Constantes();
+
+        $obj->setEtat("etat");
+        $this->assertEquals("etat", $obj->getEtat());
+    }
+
+    /**
+     * Tests the setEuro() method.
+     *
+     * @return void
+     */
+    public function testSetEuro() {
+
+        $obj = new Constantes();
+
+        $obj->setEuro(true);
+        $this->assertEquals(true, $obj->getEuro());
+    }
+
+    /**
+     * Tests the setFacturationProrataHeures() method.
+     *
+     * @return void
+     */
+    public function testSetFacturationProrataHeures() {
+
+        $obj = new Constantes();
+
+        $obj->setFacturationProrataHeures(true);
+        $this->assertEquals(true, $obj->getFacturationProrataHeures());
+    }
+
+    /**
+     * Tests the setFolioJa() method.
+     *
+     * @return void
+     */
+    public function testSetFolioJa() {
+
+        $obj = new Constantes();
+
+        $obj->setFolioJa("folioJa");
+        $this->assertEquals("folioJa", $obj->getFolioJa());
+    }
+
+    /**
+     * Tests the setFolioJvNegoce() method.
+     *
+     * @return void
+     */
+    public function testSetFolioJvNegoce() {
+
+        $obj = new Constantes();
+
+        $obj->setFolioJvNegoce("folioJvNegoce");
+        $this->assertEquals("folioJvNegoce", $obj->getFolioJvNegoce());
+    }
+
+    /**
+     * Tests the setFolioJvPrestation() method.
+     *
+     * @return void
+     */
+    public function testSetFolioJvPrestation() {
+
+        $obj = new Constantes();
+
+        $obj->setFolioJvPrestation("folioJvPrestation");
+        $this->assertEquals("folioJvPrestation", $obj->getFolioJvPrestation());
+    }
+
+    /**
+     * Tests the setGererNumCptChantier() method.
+     *
+     * @return void
+     */
+    public function testSetGererNumCptChantier() {
+
+        $obj = new Constantes();
+
+        $obj->setGererNumCptChantier(true);
+        $this->assertEquals(true, $obj->getGererNumCptChantier());
+    }
+
+    /**
+     * Tests the setGestionHCompl() method.
+     *
+     * @return void
+     */
+    public function testSetGestionHCompl() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionHCompl(true);
+        $this->assertEquals(true, $obj->getGestionHCompl());
+    }
+
+    /**
+     * Tests the setGestionHSupMens() method.
+     *
+     * @return void
+     */
+    public function testSetGestionHSupMens() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionHSupMens(true);
+        $this->assertEquals(true, $obj->getGestionHSupMens());
+    }
+
+    /**
+     * Tests the setGestionHSupMensuelle() method.
+     *
+     * @return void
+     */
+    public function testSetGestionHSupMensuelle() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionHSupMensuelle(true);
+        $this->assertEquals(true, $obj->getGestionHSupMensuelle());
+    }
+
+    /**
+     * Tests the setGestionMajDim() method.
+     *
+     * @return void
+     */
+    public function testSetGestionMajDim() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionMajDim("gestionMajDim");
+        $this->assertEquals("gestionMajDim", $obj->getGestionMajDim());
+    }
+
+    /**
+     * Tests the setGestionMajJf() method.
+     *
+     * @return void
+     */
+    public function testSetGestionMajJf() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionMajJf("gestionMajJf");
+        $this->assertEquals("gestionMajJf", $obj->getGestionMajJf());
+    }
+
+    /**
+     * Tests the setGestionMajNuit() method.
+     *
+     * @return void
+     */
+    public function testSetGestionMajNuit() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionMajNuit("gestionMajNuit");
+        $this->assertEquals("gestionMajNuit", $obj->getGestionMajNuit());
+    }
+
+    /**
+     * Tests the setGestionMultiDepot() method.
+     *
+     * @return void
+     */
+    public function testSetGestionMultiDepot() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionMultiDepot(true);
+        $this->assertEquals(true, $obj->getGestionMultiDepot());
+    }
+
+    /**
+     * Tests the setGestionQuotas() method.
+     *
+     * @return void
+     */
+    public function testSetGestionQuotas() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionQuotas(true);
+        $this->assertEquals(true, $obj->getGestionQuotas());
+    }
+
+    /**
+     * Tests the setGestionSpecifJf() method.
+     *
+     * @return void
+     */
+    public function testSetGestionSpecifJf() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionSpecifJf(true);
+        $this->assertEquals(true, $obj->getGestionSpecifJf());
+    }
+
+    /**
+     * Tests the setGestionSpecifMajoJf() method.
+     *
+     * @return void
+     */
+    public function testSetGestionSpecifMajoJf() {
+
+        $obj = new Constantes();
+
+        $obj->setGestionSpecifMajoJf(true);
+        $this->assertEquals(true, $obj->getGestionSpecifMajoJf());
+    }
+
+    /**
+     * Tests the setHDebNuit() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetHDebNuit() {
+
+        // Set a Date/time mock.
+        $hDebNuit = new DateTime("2018-09-10");
+
+        $obj = new Constantes();
+
+        $obj->setHDebNuit($hDebNuit);
+        $this->assertSame($hDebNuit, $obj->getHDebNuit());
+    }
+
+    /**
+     * Tests the setHDebNuitTravNuit() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetHDebNuitTravNuit() {
+
+        // Set a Date/time mock.
+        $hDebNuitTravNuit = new DateTime("2018-09-10");
+
+        $obj = new Constantes();
+
+        $obj->setHDebNuitTravNuit($hDebNuitTravNuit);
+        $this->assertSame($hDebNuitTravNuit, $obj->getHDebNuitTravNuit());
+    }
+
+    /**
+     * Tests the setHFinNuit() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetHFinNuit() {
+
+        // Set a Date/time mock.
+        $hFinNuit = new DateTime("2018-09-10");
+
+        $obj = new Constantes();
+
+        $obj->setHFinNuit($hFinNuit);
+        $this->assertSame($hFinNuit, $obj->getHFinNuit());
+    }
+
+    /**
+     * Tests the setHFinNuitTravNuit() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetHFinNuitTravNuit() {
+
+        // Set a Date/time mock.
+        $hFinNuitTravNuit = new DateTime("2018-09-10");
+
+        $obj = new Constantes();
+
+        $obj->setHFinNuitTravNuit($hFinNuitTravNuit);
+        $this->assertSame($hFinNuitTravNuit, $obj->getHFinNuitTravNuit());
+    }
+
+    /**
+     * Tests the setHeuresAbsenceMensualise() method.
+     *
+     * @return void
+     */
+    public function testSetHeuresAbsenceMensualise() {
+
+        $obj = new Constantes();
+
+        $obj->setHeuresAbsenceMensualise(true);
+        $this->assertEquals(true, $obj->getHeuresAbsenceMensualise());
+    }
+
+    /**
+     * Tests the setHeuresRemplEgalesMensTitulaire() method.
+     *
+     * @return void
+     */
+    public function testSetHeuresRemplEgalesMensTitulaire() {
+
+        $obj = new Constantes();
+
+        $obj->setHeuresRemplEgalesMensTitulaire(true);
+        $this->assertEquals(true, $obj->getHeuresRemplEgalesMensTitulaire());
+    }
+
+    /**
+     * Tests the setIncrementCompteAuto() method.
+     *
+     * @return void
+     */
+    public function testSetIncrementCompteAuto() {
+
+        $obj = new Constantes();
+
+        $obj->setIncrementCompteAuto(10);
+        $this->assertEquals(10, $obj->getIncrementCompteAuto());
+    }
+
+    /**
+     * Tests the setLiaisonComptaWin() method.
+     *
+     * @return void
+     */
+    public function testSetLiaisonComptaWin() {
+
+        $obj = new Constantes();
+
+        $obj->setLiaisonComptaWin(true);
+        $this->assertEquals(true, $obj->getLiaisonComptaWin());
+    }
+
+    /**
+     * Tests the setLibCritereBool1() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereBool1() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereBool1("libCritereBool1");
+        $this->assertEquals("libCritereBool1", $obj->getLibCritereBool1());
+    }
+
+    /**
+     * Tests the setLibCritereBool2() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereBool2() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereBool2("libCritereBool2");
+        $this->assertEquals("libCritereBool2", $obj->getLibCritereBool2());
+    }
+
+    /**
+     * Tests the setLibCritereByte1() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereByte1() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereByte1("libCritereByte1");
+        $this->assertEquals("libCritereByte1", $obj->getLibCritereByte1());
+    }
+
+    /**
+     * Tests the setLibCritereNum1() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereNum1() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereNum1("libCritereNum1");
+        $this->assertEquals("libCritereNum1", $obj->getLibCritereNum1());
+    }
+
+    /**
+     * Tests the setLibCritereNum2() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereNum2() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereNum2("libCritereNum2");
+        $this->assertEquals("libCritereNum2", $obj->getLibCritereNum2());
+    }
+
+    /**
+     * Tests the setLibCritereNum3() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereNum3() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereNum3("libCritereNum3");
+        $this->assertEquals("libCritereNum3", $obj->getLibCritereNum3());
+    }
+
+    /**
+     * Tests the setLibCritereNum4() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereNum4() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereNum4("libCritereNum4");
+        $this->assertEquals("libCritereNum4", $obj->getLibCritereNum4());
+    }
+
+    /**
+     * Tests the setLibCritereNum5() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereNum5() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereNum5("libCritereNum5");
+        $this->assertEquals("libCritereNum5", $obj->getLibCritereNum5());
+    }
+
+    /**
+     * Tests the setLibCritereTab1() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTab1() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTab1("libCritereTab1");
+        $this->assertEquals("libCritereTab1", $obj->getLibCritereTab1());
+    }
+
+    /**
+     * Tests the setLibCritereTab2() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTab2() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTab2("libCritereTab2");
+        $this->assertEquals("libCritereTab2", $obj->getLibCritereTab2());
+    }
+
+    /**
+     * Tests the setLibCritereTab3() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTab3() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTab3("libCritereTab3");
+        $this->assertEquals("libCritereTab3", $obj->getLibCritereTab3());
+    }
+
+    /**
+     * Tests the setLibCritereTab4() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTab4() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTab4("libCritereTab4");
+        $this->assertEquals("libCritereTab4", $obj->getLibCritereTab4());
+    }
+
+    /**
+     * Tests the setLibCritereTab5() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTab5() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTab5("libCritereTab5");
+        $this->assertEquals("libCritereTab5", $obj->getLibCritereTab5());
+    }
+
+    /**
+     * Tests the setLibCritereTxt1() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTxt1() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTxt1("libCritereTxt1");
+        $this->assertEquals("libCritereTxt1", $obj->getLibCritereTxt1());
+    }
+
+    /**
+     * Tests the setLibCritereTxt2() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTxt2() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTxt2("libCritereTxt2");
+        $this->assertEquals("libCritereTxt2", $obj->getLibCritereTxt2());
+    }
+
+    /**
+     * Tests the setLibCritereTxt3() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTxt3() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTxt3("libCritereTxt3");
+        $this->assertEquals("libCritereTxt3", $obj->getLibCritereTxt3());
+    }
+
+    /**
+     * Tests the setLibCritereTxt4() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTxt4() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTxt4("libCritereTxt4");
+        $this->assertEquals("libCritereTxt4", $obj->getLibCritereTxt4());
+    }
+
+    /**
+     * Tests the setLibCritereTxt5() method.
+     *
+     * @return void
+     */
+    public function testSetLibCritereTxt5() {
+
+        $obj = new Constantes();
+
+        $obj->setLibCritereTxt5("libCritereTxt5");
+        $this->assertEquals("libCritereTxt5", $obj->getLibCritereTxt5());
+    }
+
+    /**
+     * Tests the setLibelleAutoAvoir() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleAutoAvoir() {
+
+        $obj = new Constantes();
+
+        $obj->setLibelleAutoAvoir("libelleAutoAvoir");
+        $this->assertEquals("libelleAutoAvoir", $obj->getLibelleAutoAvoir());
+    }
+
+    /**
+     * Tests the setLibelleAutoFacture() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleAutoFacture() {
+
+        $obj = new Constantes();
+
+        $obj->setLibelleAutoFacture("libelleAutoFacture");
+        $this->assertEquals("libelleAutoFacture", $obj->getLibelleAutoFacture());
+    }
+
+    /**
+     * Tests the setLibelleHeuresSurcroit() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleHeuresSurcroit() {
+
+        $obj = new Constantes();
+
+        $obj->setLibelleHeuresSurcroit("libelleHeuresSurcroit");
+        $this->assertEquals("libelleHeuresSurcroit", $obj->getLibelleHeuresSurcroit());
+    }
+
+    /**
+     * Tests the setLibelleTransfert() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleTransfert() {
+
+        $obj = new Constantes();
+
+        $obj->setLibelleTransfert("libelleTransfert");
+        $this->assertEquals("libelleTransfert", $obj->getLibelleTransfert());
+    }
+
+    /**
+     * Tests the setLibelleTransfertAchat() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleTransfertAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setLibelleTransfertAchat("libelleTransfertAchat");
+        $this->assertEquals("libelleTransfertAchat", $obj->getLibelleTransfertAchat());
+    }
+
+    /**
+     * Tests the setLivCdeFrnDepotUnique() method.
+     *
+     * @return void
+     */
+    public function testSetLivCdeFrnDepotUnique() {
+
+        $obj = new Constantes();
+
+        $obj->setLivCdeFrnDepotUnique(true);
+        $this->assertEquals(true, $obj->getLivCdeFrnDepotUnique());
+    }
+
+    /**
+     * Tests the setMailAttestations() method.
+     *
+     * @return void
+     */
+    public function testSetMailAttestations() {
+
+        $obj = new Constantes();
+
+        $obj->setMailAttestations("mailAttestations");
+        $this->assertEquals("mailAttestations", $obj->getMailAttestations());
+    }
+
+    /**
+     * Tests the setMailFactures() method.
+     *
+     * @return void
+     */
+    public function testSetMailFactures() {
+
+        $obj = new Constantes();
+
+        $obj->setMailFactures("mailFactures");
+        $this->assertEquals("mailFactures", $obj->getMailFactures());
+    }
+
+    /**
+     * Tests the setMajDernierPassageBt() method.
+     *
+     * @return void
+     */
+    public function testSetMajDernierPassageBt() {
+
+        $obj = new Constantes();
+
+        $obj->setMajDernierPassageBt(true);
+        $this->assertEquals(true, $obj->getMajDernierPassageBt());
+    }
+
+    /**
+     * Tests the setMajDernierPrixAchat() method.
+     *
+     * @return void
+     */
+    public function testSetMajDernierPrixAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setMajDernierPrixAchat(true);
+        $this->assertEquals(true, $obj->getMajDernierPrixAchat());
+    }
+
+    /**
+     * Tests the setMajPamp() method.
+     *
+     * @return void
+     */
+    public function testSetMajPamp() {
+
+        $obj = new Constantes();
+
+        $obj->setMajPamp(true);
+        $this->assertEquals(true, $obj->getMajPamp());
+    }
+
+    /**
+     * Tests the setMajorationCascade() method.
+     *
+     * @return void
+     */
+    public function testSetMajorationCascade() {
+
+        $obj = new Constantes();
+
+        $obj->setMajorationCascade(true);
+        $this->assertEquals(true, $obj->getMajorationCascade());
+    }
+
+    /**
+     * Tests the setMajorationHPlus() method.
+     *
+     * @return void
+     */
+    public function testSetMajorationHPlus() {
+
+        $obj = new Constantes();
+
+        $obj->setMajorationHPlus("majorationHPlus");
+        $this->assertEquals("majorationHPlus", $obj->getMajorationHPlus());
+    }
+
+    /**
+     * Tests the setMargeNiveauEdition() method.
+     *
+     * @return void
+     */
+    public function testSetMargeNiveauEdition() {
+
+        $obj = new Constantes();
+
+        $obj->setMargeNiveauEdition("margeNiveauEdition");
+        $this->assertEquals("margeNiveauEdition", $obj->getMargeNiveauEdition());
+    }
+
+    /**
+     * Tests the setMargePourcentCharge() method.
+     *
+     * @return void
+     */
+    public function testSetMargePourcentCharge() {
+
+        $obj = new Constantes();
+
+        $obj->setMargePourcentCharge(10.092018);
+        $this->assertEquals(10.092018, $obj->getMargePourcentCharge());
+    }
+
+    /**
+     * Tests the setMargeSalInspProrataCa() method.
+     *
+     * @return void
+     */
+    public function testSetMargeSalInspProrataCa() {
+
+        $obj = new Constantes();
+
+        $obj->setMargeSalInspProrataCa(true);
+        $this->assertEquals(true, $obj->getMargeSalInspProrataCa());
+    }
+
+    /**
+     * Tests the setMensualisationTache() method.
+     *
+     * @return void
+     */
+    public function testSetMensualisationTache() {
+
+        $obj = new Constantes();
+
+        $obj->setMensualisationTache(true);
+        $this->assertEquals(true, $obj->getMensualisationTache());
+    }
+
+    /**
+     * Tests the setModeCalculPropositionCde() method.
+     *
+     * @return void
+     */
+    public function testSetModeCalculPropositionCde() {
+
+        $obj = new Constantes();
+
+        $obj->setModeCalculPropositionCde("modeCalculPropositionCde");
+        $this->assertEquals("modeCalculPropositionCde", $obj->getModeCalculPropositionCde());
+    }
+
+    /**
+     * Tests the setModeleDevis() method.
+     *
+     * @return void
+     */
+    public function testSetModeleDevis() {
+
+        $obj = new Constantes();
+
+        $obj->setModeleDevis("modeleDevis");
+        $this->assertEquals("modeleDevis", $obj->getModeleDevis());
+    }
+
+    /**
+     * Tests the setModeleDevisTech() method.
+     *
+     * @return void
+     */
+    public function testSetModeleDevisTech() {
+
+        $obj = new Constantes();
+
+        $obj->setModeleDevisTech("modeleDevisTech");
+        $this->assertEquals("modeleDevisTech", $obj->getModeleDevisTech());
+    }
+
+    /**
+     * Tests the setModeleFacture() method.
+     *
+     * @return void
+     */
+    public function testSetModeleFacture() {
+
+        $obj = new Constantes();
+
+        $obj->setModeleFacture("modeleFacture");
+        $this->assertEquals("modeleFacture", $obj->getModeleFacture());
+    }
+
+    /**
+     * Tests the setMtCptaNegatif() method.
+     *
+     * @return void
+     */
+    public function testSetMtCptaNegatif() {
+
+        $obj = new Constantes();
+
+        $obj->setMtCptaNegatif(true);
+        $this->assertEquals(true, $obj->getMtCptaNegatif());
+    }
+
+    /**
+     * Tests the setNDerDocument() method.
+     *
+     * @return void
+     */
+    public function testSetNDerDocument() {
+
+        $obj = new Constantes();
+
+        $obj->setNDerDocument(10);
+        $this->assertEquals(10, $obj->getNDerDocument());
+    }
+
+    /**
+     * Tests the setNbCaracteresLigneFact() method.
+     *
+     * @return void
+     */
+    public function testSetNbCaracteresLigneFact() {
+
+        $obj = new Constantes();
+
+        $obj->setNbCaracteresLigneFact("nbCaracteresLigneFact");
+        $this->assertEquals("nbCaracteresLigneFact", $obj->getNbCaracteresLigneFact());
+    }
+
+    /**
+     * Tests the setNbDecimalesPrixUnitaire() method.
+     *
+     * @return void
+     */
+    public function testSetNbDecimalesPrixUnitaire() {
+
+        $obj = new Constantes();
+
+        $obj->setNbDecimalesPrixUnitaire("nbDecimalesPrixUnitaire");
+        $this->assertEquals("nbDecimalesPrixUnitaire", $obj->getNbDecimalesPrixUnitaire());
+    }
+
+    /**
+     * Tests the setNbDecimalesQuantite() method.
+     *
+     * @return void
+     */
+    public function testSetNbDecimalesQuantite() {
+
+        $obj = new Constantes();
+
+        $obj->setNbDecimalesQuantite("nbDecimalesQuantite");
+        $this->assertEquals("nbDecimalesQuantite", $obj->getNbDecimalesQuantite());
+    }
+
+    /**
+     * Tests the setNbEntiersPrixUnitaire() method.
+     *
+     * @return void
+     */
+    public function testSetNbEntiersPrixUnitaire() {
+
+        $obj = new Constantes();
+
+        $obj->setNbEntiersPrixUnitaire("nbEntiersPrixUnitaire");
+        $this->assertEquals("nbEntiersPrixUnitaire", $obj->getNbEntiersPrixUnitaire());
+    }
+
+    /**
+     * Tests the setNbEntiersQuantite() method.
+     *
+     * @return void
+     */
+    public function testSetNbEntiersQuantite() {
+
+        $obj = new Constantes();
+
+        $obj->setNbEntiersQuantite("nbEntiersQuantite");
+        $this->assertEquals("nbEntiersQuantite", $obj->getNbEntiersQuantite());
+    }
+
+    /**
+     * Tests the setNbJourCpAcquis() method.
+     *
+     * @return void
+     */
+    public function testSetNbJourCpAcquis() {
+
+        $obj = new Constantes();
+
+        $obj->setNbJourCpAcquis(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJourCpAcquis());
+    }
+
+    /**
+     * Tests the setNbJoursAbsProratisationDcp() method.
+     *
+     * @return void
+     */
+    public function testSetNbJoursAbsProratisationDcp() {
+
+        $obj = new Constantes();
+
+        $obj->setNbJoursAbsProratisationDcp(10);
+        $this->assertEquals(10, $obj->getNbJoursAbsProratisationDcp());
+    }
+
+    /**
+     * Tests the setNbMoisConsecutifs() method.
+     *
+     * @return void
+     */
+    public function testSetNbMoisConsecutifs() {
+
+        $obj = new Constantes();
+
+        $obj->setNbMoisConsecutifs(10);
+        $this->assertEquals(10, $obj->getNbMoisConsecutifs());
+    }
+
+    /**
+     * Tests the setNomFactNbLignes() method.
+     *
+     * @return void
+     */
+    public function testSetNomFactNbLignes() {
+
+        $obj = new Constantes();
+
+        $obj->setNomFactNbLignes("nomFactNbLignes");
+        $this->assertEquals("nomFactNbLignes", $obj->getNomFactNbLignes());
+    }
+
+    /**
+     * Tests the setNomFichierAsciiAchat() method.
+     *
+     * @return void
+     */
+    public function testSetNomFichierAsciiAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setNomFichierAsciiAchat("nomFichierAsciiAchat");
+        $this->assertEquals("nomFichierAsciiAchat", $obj->getNomFichierAsciiAchat());
+    }
+
+    /**
+     * Tests the setNomFichierAsciiVente() method.
+     *
+     * @return void
+     */
+    public function testSetNomFichierAsciiVente() {
+
+        $obj = new Constantes();
+
+        $obj->setNomFichierAsciiVente("nomFichierAsciiVente");
+        $this->assertEquals("nomFichierAsciiVente", $obj->getNomFichierAsciiVente());
+    }
+
+    /**
+     * Tests the setNote0NonConforme() method.
+     *
+     * @return void
+     */
+    public function testSetNote0NonConforme() {
+
+        $obj = new Constantes();
+
+        $obj->setNote0NonConforme(true);
+        $this->assertEquals(true, $obj->getNote0NonConforme());
+    }
+
+    /**
+     * Tests the setNumBt() method.
+     *
+     * @return void
+     */
+    public function testSetNumBt() {
+
+        $obj = new Constantes();
+
+        $obj->setNumBt(10);
+        $this->assertEquals(10, $obj->getNumBt());
+    }
+
+    /**
+     * Tests the setNumCritereBtNum1() method.
+     *
+     * @return void
+     */
+    public function testSetNumCritereBtNum1() {
+
+        $obj = new Constantes();
+
+        $obj->setNumCritereBtNum1("numCritereBtNum1");
+        $this->assertEquals("numCritereBtNum1", $obj->getNumCritereBtNum1());
+    }
+
+    /**
+     * Tests the setNumCritereBtNum2() method.
+     *
+     * @return void
+     */
+    public function testSetNumCritereBtNum2() {
+
+        $obj = new Constantes();
+
+        $obj->setNumCritereBtNum2("numCritereBtNum2");
+        $this->assertEquals("numCritereBtNum2", $obj->getNumCritereBtNum2());
+    }
+
+    /**
+     * Tests the setNumCritereChantierFiltre1() method.
+     *
+     * @return void
+     */
+    public function testSetNumCritereChantierFiltre1() {
+
+        $obj = new Constantes();
+
+        $obj->setNumCritereChantierFiltre1("numCritereChantierFiltre1");
+        $this->assertEquals("numCritereChantierFiltre1", $obj->getNumCritereChantierFiltre1());
+    }
+
+    /**
+     * Tests the setNumDevis() method.
+     *
+     * @return void
+     */
+    public function testSetNumDevis() {
+
+        $obj = new Constantes();
+
+        $obj->setNumDevis(10);
+        $this->assertEquals(10, $obj->getNumDevis());
+    }
+
+    /**
+     * Tests the setNumFact() method.
+     *
+     * @return void
+     */
+    public function testSetNumFact() {
+
+        $obj = new Constantes();
+
+        $obj->setNumFact(10);
+        $this->assertEquals(10, $obj->getNumFact());
+    }
+
+    /**
+     * Tests the setNumFactVm() method.
+     *
+     * @return void
+     */
+    public function testSetNumFactVm() {
+
+        $obj = new Constantes();
+
+        $obj->setNumFactVm(10);
+        $this->assertEquals(10, $obj->getNumFactVm());
+    }
+
+    /**
+     * Tests the setNumeroFicheControle() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroFicheControle() {
+
+        $obj = new Constantes();
+
+        $obj->setNumeroFicheControle(10);
+        $this->assertEquals(10, $obj->getNumeroFicheControle());
+    }
+
+    /**
+     * Tests the setPaParFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetPaParFournisseur() {
+
+        $obj = new Constantes();
+
+        $obj->setPaParFournisseur(true);
+        $this->assertEquals(true, $obj->getPaParFournisseur());
+    }
+
+    /**
+     * Tests the setPasNumCptParDossier() method.
+     *
+     * @return void
+     */
+    public function testSetPasNumCptParDossier() {
+
+        $obj = new Constantes();
+
+        $obj->setPasNumCptParDossier(true);
+        $this->assertEquals(true, $obj->getPasNumCptParDossier());
+    }
+
+    /**
+     * Tests the setPdfBtCoefficient() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtCoefficient() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtCoefficient(10.092018);
+        $this->assertEquals(10.092018, $obj->getPdfBtCoefficient());
+    }
+
+    /**
+     * Tests the setPdfBtDatePassage() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtDatePassage() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtDatePassage(true);
+        $this->assertEquals(true, $obj->getPdfBtDatePassage());
+    }
+
+    /**
+     * Tests the setPdfBtDescriptif() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtDescriptif() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtDescriptif(true);
+        $this->assertEquals(true, $obj->getPdfBtDescriptif());
+    }
+
+    /**
+     * Tests the setPdfBtEmployesCorps() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtEmployesCorps() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtEmployesCorps(true);
+        $this->assertEquals(true, $obj->getPdfBtEmployesCorps());
+    }
+
+    /**
+     * Tests the setPdfBtEmployesRef() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtEmployesRef() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtEmployesRef(true);
+        $this->assertEquals(true, $obj->getPdfBtEmployesRef());
+    }
+
+    /**
+     * Tests the setPdfBtFacturerAlaValidation() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtFacturerAlaValidation() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtFacturerAlaValidation(true);
+        $this->assertEquals(true, $obj->getPdfBtFacturerAlaValidation());
+    }
+
+    /**
+     * Tests the setPdfBtFormatSaisieQtePu() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtFormatSaisieQtePu() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtFormatSaisieQtePu(true);
+        $this->assertEquals(true, $obj->getPdfBtFormatSaisieQtePu());
+    }
+
+    /**
+     * Tests the setPdfBtLibelleDate() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtLibelleDate() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtLibelleDate("pdfBtLibelleDate");
+        $this->assertEquals("pdfBtLibelleDate", $obj->getPdfBtLibelleDate());
+    }
+
+    /**
+     * Tests the setPdfBtNomChantier() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtNomChantier() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtNomChantier(true);
+        $this->assertEquals(true, $obj->getPdfBtNomChantier());
+    }
+
+    /**
+     * Tests the setPdfBtPeriodeValidite() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtPeriodeValidite() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtPeriodeValidite(true);
+        $this->assertEquals(true, $obj->getPdfBtPeriodeValidite());
+    }
+
+    /**
+     * Tests the setPdfBtPrixAchat() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtPrixAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtPrixAchat(10.092018);
+        $this->assertEquals(10.092018, $obj->getPdfBtPrixAchat());
+    }
+
+    /**
+     * Tests the setPdfBtReprendreLibelleDate() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtReprendreLibelleDate() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtReprendreLibelleDate(true);
+        $this->assertEquals(true, $obj->getPdfBtReprendreLibelleDate());
+    }
+
+    /**
+     * Tests the setPdfBtTauxHoraire() method.
+     *
+     * @return void
+     */
+    public function testSetPdfBtTauxHoraire() {
+
+        $obj = new Constantes();
+
+        $obj->setPdfBtTauxHoraire(10.092018);
+        $this->assertEquals(10.092018, $obj->getPdfBtTauxHoraire());
+    }
+
+    /**
+     * Tests the setPjEnvoiMail() method.
+     *
+     * @return void
+     */
+    public function testSetPjEnvoiMail() {
+
+        $obj = new Constantes();
+
+        $obj->setPjEnvoiMail("pjEnvoiMail");
+        $this->assertEquals("pjEnvoiMail", $obj->getPjEnvoiMail());
+    }
+
+    /**
+     * Tests the setPjEnvoiMailAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetPjEnvoiMailAttestation() {
+
+        $obj = new Constantes();
+
+        $obj->setPjEnvoiMailAttestation("pjEnvoiMailAttestation");
+        $this->assertEquals("pjEnvoiMailAttestation", $obj->getPjEnvoiMailAttestation());
+    }
+
+    /**
+     * Tests the setPointBtEmployesSortis() method.
+     *
+     * @return void
+     */
+    public function testSetPointBtEmployesSortis() {
+
+        $obj = new Constantes();
+
+        $obj->setPointBtEmployesSortis(true);
+        $this->assertEquals(true, $obj->getPointBtEmployesSortis());
+    }
+
+    /**
+     * Tests the setPoste1() method.
+     *
+     * @return void
+     */
+    public function testSetPoste1() {
+
+        $obj = new Constantes();
+
+        $obj->setPoste1("poste1");
+        $this->assertEquals("poste1", $obj->getPoste1());
+    }
+
+    /**
+     * Tests the setPoste2() method.
+     *
+     * @return void
+     */
+    public function testSetPoste2() {
+
+        $obj = new Constantes();
+
+        $obj->setPoste2("poste2");
+        $this->assertEquals("poste2", $obj->getPoste2());
+    }
+
+    /**
+     * Tests the setPoste3() method.
+     *
+     * @return void
+     */
+    public function testSetPoste3() {
+
+        $obj = new Constantes();
+
+        $obj->setPoste3("poste3");
+        $this->assertEquals("poste3", $obj->getPoste3());
+    }
+
+    /**
+     * Tests the setPoste4() method.
+     *
+     * @return void
+     */
+    public function testSetPoste4() {
+
+        $obj = new Constantes();
+
+        $obj->setPoste4("poste4");
+        $this->assertEquals("poste4", $obj->getPoste4());
+    }
+
+    /**
+     * Tests the setPoste5() method.
+     *
+     * @return void
+     */
+    public function testSetPoste5() {
+
+        $obj = new Constantes();
+
+        $obj->setPoste5("poste5");
+        $this->assertEquals("poste5", $obj->getPoste5());
+    }
+
+    /**
+     * Tests the setPourcMajHCompl() method.
+     *
+     * @return void
+     */
+    public function testSetPourcMajHCompl() {
+
+        $obj = new Constantes();
+
+        $obj->setPourcMajHCompl(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcMajHCompl());
+    }
+
+    /**
+     * Tests the setPourcMajHCompl2() method.
+     *
+     * @return void
+     */
+    public function testSetPourcMajHCompl2() {
+
+        $obj = new Constantes();
+
+        $obj->setPourcMajHCompl2(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcMajHCompl2());
+    }
+
+    /**
+     * Tests the setPourcentDepHcMax() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentDepHcMax() {
+
+        $obj = new Constantes();
+
+        $obj->setPourcentDepHcMax(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentDepHcMax());
+    }
+
+    /**
+     * Tests the setPourcentDepHcPlusMois() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentDepHcPlusMois() {
+
+        $obj = new Constantes();
+
+        $obj->setPourcentDepHcPlusMois(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentDepHcPlusMois());
+    }
+
+    /**
+     * Tests the setPourcentageReposRemplacement() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentageReposRemplacement() {
+
+        $obj = new Constantes();
+
+        $obj->setPourcentageReposRemplacement(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentageReposRemplacement());
+    }
+
+    /**
+     * Tests the setPrefixe() method.
+     *
+     * @return void
+     */
+    public function testSetPrefixe() {
+
+        $obj = new Constantes();
+
+        $obj->setPrefixe("prefixe");
+        $this->assertEquals("prefixe", $obj->getPrefixe());
+    }
+
+    /**
+     * Tests the setPrefixeDevis() method.
+     *
+     * @return void
+     */
+    public function testSetPrefixeDevis() {
+
+        $obj = new Constantes();
+
+        $obj->setPrefixeDevis("prefixeDevis");
+        $this->assertEquals("prefixeDevis", $obj->getPrefixeDevis());
+    }
+
+    /**
+     * Tests the setPreparerChantierPretOnly() method.
+     *
+     * @return void
+     */
+    public function testSetPreparerChantierPretOnly() {
+
+        $obj = new Constantes();
+
+        $obj->setPreparerChantierPretOnly(true);
+        $this->assertEquals(true, $obj->getPreparerChantierPretOnly());
+    }
+
+    /**
+     * Tests the setPrixDefautAchat() method.
+     *
+     * @return void
+     */
+    public function testSetPrixDefautAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setPrixDefautAchat(10);
+        $this->assertEquals(10, $obj->getPrixDefautAchat());
+    }
+
+    /**
+     * Tests the setPrixDefautEntreeDirecte() method.
+     *
+     * @return void
+     */
+    public function testSetPrixDefautEntreeDirecte() {
+
+        $obj = new Constantes();
+
+        $obj->setPrixDefautEntreeDirecte(10);
+        $this->assertEquals(10, $obj->getPrixDefautEntreeDirecte());
+    }
+
+    /**
+     * Tests the setPrixDefautInventaire() method.
+     *
+     * @return void
+     */
+    public function testSetPrixDefautInventaire() {
+
+        $obj = new Constantes();
+
+        $obj->setPrixDefautInventaire(10);
+        $this->assertEquals(10, $obj->getPrixDefautInventaire());
+    }
+
+    /**
+     * Tests the setPrixDefautSortieDirecte() method.
+     *
+     * @return void
+     */
+    public function testSetPrixDefautSortieDirecte() {
+
+        $obj = new Constantes();
+
+        $obj->setPrixDefautSortieDirecte(10);
+        $this->assertEquals(10, $obj->getPrixDefautSortieDirecte());
+    }
+
+    /**
+     * Tests the setPrixDefautVente() method.
+     *
+     * @return void
+     */
+    public function testSetPrixDefautVente() {
+
+        $obj = new Constantes();
+
+        $obj->setPrixDefautVente(10);
+        $this->assertEquals(10, $obj->getPrixDefautVente());
+    }
+
+    /**
+     * Tests the setProchainNumeroPj() method.
+     *
+     * @return void
+     */
+    public function testSetProchainNumeroPj() {
+
+        $obj = new Constantes();
+
+        $obj->setProchainNumeroPj(10);
+        $this->assertEquals(10, $obj->getProchainNumeroPj());
+    }
+
+    /**
+     * Tests the setProrataHeuresCreerLigne() method.
+     *
+     * @return void
+     */
+    public function testSetProrataHeuresCreerLigne() {
+
+        $obj = new Constantes();
+
+        $obj->setProrataHeuresCreerLigne(true);
+        $this->assertEquals(true, $obj->getProrataHeuresCreerLigne());
+    }
+
+    /**
+     * Tests the setProrataHeuresDesignationMoins() method.
+     *
+     * @return void
+     */
+    public function testSetProrataHeuresDesignationMoins() {
+
+        $obj = new Constantes();
+
+        $obj->setProrataHeuresDesignationMoins("prorataHeuresDesignationMoins");
+        $this->assertEquals("prorataHeuresDesignationMoins", $obj->getProrataHeuresDesignationMoins());
+    }
+
+    /**
+     * Tests the setProrataHeuresDesignationPlus() method.
+     *
+     * @return void
+     */
+    public function testSetProrataHeuresDesignationPlus() {
+
+        $obj = new Constantes();
+
+        $obj->setProrataHeuresDesignationPlus("prorataHeuresDesignationPlus");
+        $this->assertEquals("prorataHeuresDesignationPlus", $obj->getProrataHeuresDesignationPlus());
+    }
+
+    /**
+     * Tests the setProrataHeuresOption() method.
+     *
+     * @return void
+     */
+    public function testSetProrataHeuresOption() {
+
+        $obj = new Constantes();
+
+        $obj->setProrataHeuresOption("prorataHeuresOption");
+        $this->assertEquals("prorataHeuresOption", $obj->getProrataHeuresOption());
+    }
+
+    /**
+     * Tests the setProvCpInfosEmp() method.
+     *
+     * @return void
+     */
+    public function testSetProvCpInfosEmp() {
+
+        $obj = new Constantes();
+
+        $obj->setProvCpInfosEmp(true);
+        $this->assertEquals(true, $obj->getProvCpInfosEmp());
+    }
+
+    /**
+     * Tests the setProvisionsCp() method.
+     *
+     * @return void
+     */
+    public function testSetProvisionsCp() {
+
+        $obj = new Constantes();
+
+        $obj->setProvisionsCp(true);
+        $this->assertEquals(true, $obj->getProvisionsCp());
+    }
+
+    /**
+     * Tests the setQualiteNbCriteres() method.
+     *
+     * @return void
+     */
+    public function testSetQualiteNbCriteres() {
+
+        $obj = new Constantes();
+
+        $obj->setQualiteNbCriteres("qualiteNbCriteres");
+        $this->assertEquals("qualiteNbCriteres", $obj->getQualiteNbCriteres());
+    }
+
+    /**
+     * Tests the setQualiteNbNotes() method.
+     *
+     * @return void
+     */
+    public function testSetQualiteNbNotes() {
+
+        $obj = new Constantes();
+
+        $obj->setQualiteNbNotes("qualiteNbNotes");
+        $this->assertEquals("qualiteNbNotes", $obj->getQualiteNbNotes());
+    }
+
+    /**
+     * Tests the setQualiteSatisfactionGenerale() method.
+     *
+     * @return void
+     */
+    public function testSetQualiteSatisfactionGenerale() {
+
+        $obj = new Constantes();
+
+        $obj->setQualiteSatisfactionGenerale(true);
+        $this->assertEquals(true, $obj->getQualiteSatisfactionGenerale());
+    }
+
+    /**
+     * Tests the setReferenceMensuContratProprete() method.
+     *
+     * @return void
+     */
+    public function testSetReferenceMensuContratProprete() {
+
+        $obj = new Constantes();
+
+        $obj->setReferenceMensuContratProprete(true);
+        $this->assertEquals(true, $obj->getReferenceMensuContratProprete());
+    }
+
+    /**
+     * Tests the setRemplacantAbsJfPasAuto() method.
+     *
+     * @return void
+     */
+    public function testSetRemplacantAbsJfPasAuto() {
+
+        $obj = new Constantes();
+
+        $obj->setRemplacantAbsJfPasAuto(true);
+        $this->assertEquals(true, $obj->getRemplacantAbsJfPasAuto());
+    }
+
+    /**
+     * Tests the setRemplacantTravaillePasJf() method.
+     *
+     * @return void
+     */
+    public function testSetRemplacantTravaillePasJf() {
+
+        $obj = new Constantes();
+
+        $obj->setRemplacantTravaillePasJf(true);
+        $this->assertEquals(true, $obj->getRemplacantTravaillePasJf());
+    }
+
+    /**
+     * Tests the setRemplacementHcjf() method.
+     *
+     * @return void
+     */
+    public function testSetRemplacementHcjf() {
+
+        $obj = new Constantes();
+
+        $obj->setRemplacementHcjf(true);
+        $this->assertEquals(true, $obj->getRemplacementHcjf());
+    }
+
+    /**
+     * Tests the setReposCompensateurPourTravailleurNuit() method.
+     *
+     * @return void
+     */
+    public function testSetReposCompensateurPourTravailleurNuit() {
+
+        $obj = new Constantes();
+
+        $obj->setReposCompensateurPourTravailleurNuit(true);
+        $this->assertEquals(true, $obj->getReposCompensateurPourTravailleurNuit());
+    }
+
+    /**
+     * Tests the setRtFdansFactDev() method.
+     *
+     * @return void
+     */
+    public function testSetRtFdansFactDev() {
+
+        $obj = new Constantes();
+
+        $obj->setRtFdansFactDev(true);
+        $this->assertEquals(true, $obj->getRtFdansFactDev());
+    }
+
+    /**
+     * Tests the setSaisirAbsencesSurHc() method.
+     *
+     * @return void
+     */
+    public function testSetSaisirAbsencesSurHc() {
+
+        $obj = new Constantes();
+
+        $obj->setSaisirAbsencesSurHc(true);
+        $this->assertEquals(true, $obj->getSaisirAbsencesSurHc());
+    }
+
+    /**
+     * Tests the setSaisirCodeChantierAchat() method.
+     *
+     * @return void
+     */
+    public function testSetSaisirCodeChantierAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setSaisirCodeChantierAchat(true);
+        $this->assertEquals(true, $obj->getSaisirCodeChantierAchat());
+    }
+
+    /**
+     * Tests the setSaisirNumBt() method.
+     *
+     * @return void
+     */
+    public function testSetSaisirNumBt() {
+
+        $obj = new Constantes();
+
+        $obj->setSaisirNumBt(true);
+        $this->assertEquals(true, $obj->getSaisirNumBt());
+    }
+
+    /**
+     * Tests the setServicesPaie() method.
+     *
+     * @return void
+     */
+    public function testSetServicesPaie() {
+
+        $obj = new Constantes();
+
+        $obj->setServicesPaie("servicesPaie");
+        $this->assertEquals("servicesPaie", $obj->getServicesPaie());
+    }
+
+    /**
+     * Tests the setSeuilMajoHCompl() method.
+     *
+     * @return void
+     */
+    public function testSetSeuilMajoHCompl() {
+
+        $obj = new Constantes();
+
+        $obj->setSeuilMajoHCompl(10.092018);
+        $this->assertEquals(10.092018, $obj->getSeuilMajoHCompl());
+    }
+
+    /**
+     * Tests the setTauxEscompte() method.
+     *
+     * @return void
+     */
+    public function testSetTauxEscompte() {
+
+        $obj = new Constantes();
+
+        $obj->setTauxEscompte(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxEscompte());
+    }
+
+    /**
+     * Tests the setTauxMajoHc33() method.
+     *
+     * @return void
+     */
+    public function testSetTauxMajoHc33() {
+
+        $obj = new Constantes();
+
+        $obj->setTauxMajoHc33(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxMajoHc33());
+    }
+
+    /**
+     * Tests the setTauxMajorationHCompl() method.
+     *
+     * @return void
+     */
+    public function testSetTauxMajorationHCompl() {
+
+        $obj = new Constantes();
+
+        $obj->setTauxMajorationHCompl(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxMajorationHCompl());
+    }
+
+    /**
+     * Tests the setTauxTvaAchat() method.
+     *
+     * @return void
+     */
+    public function testSetTauxTvaAchat() {
+
+        $obj = new Constantes();
+
+        $obj->setTauxTvaAchat(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxTvaAchat());
+    }
+
+    /**
+     * Tests the setTauxTvaTaxeDeee() method.
+     *
+     * @return void
+     */
+    public function testSetTauxTvaTaxeDeee() {
+
+        $obj = new Constantes();
+
+        $obj->setTauxTvaTaxeDeee(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxTvaTaxeDeee());
+    }
+
+    /**
+     * Tests the setTauxTvaVente() method.
+     *
+     * @return void
+     */
+    public function testSetTauxTvaVente() {
+
+        $obj = new Constantes();
+
+        $obj->setTauxTvaVente(10.092018);
+        $this->assertEquals(10.092018, $obj->getTauxTvaVente());
+    }
+
+    /**
+     * Tests the setTypeRemplDefaut() method.
+     *
+     * @return void
+     */
+    public function testSetTypeRemplDefaut() {
+
+        $obj = new Constantes();
+
+        $obj->setTypeRemplDefaut("typeRemplDefaut");
+        $this->assertEquals("typeRemplDefaut", $obj->getTypeRemplDefaut());
+    }
+
+    /**
+     * Tests the setTypeTransfertVente() method.
+     *
+     * @return void
+     */
+    public function testSetTypeTransfertVente() {
+
+        $obj = new Constantes();
+
+        $obj->setTypeTransfertVente("typeTransfertVente");
+        $this->assertEquals("typeTransfertVente", $obj->getTypeTransfertVente());
+    }
+
+    /**
+     * Tests the setUniqIdSynchro() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIdSynchro() {
+
+        $obj = new Constantes();
+
+        $obj->setUniqIdSynchro("uniqIdSynchro");
+        $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the setUtiliserStockMini() method.
+     *
+     * @return void
+     */
+    public function testSetUtiliserStockMini() {
+
+        $obj = new Constantes();
+
+        $obj->setUtiliserStockMini(true);
+        $this->assertEquals(true, $obj->getUtiliserStockMini());
+    }
+
+    /**
+     * Tests the setVisualiserPointageBtValides() method.
+     *
+     * @return void
+     */
+    public function testSetVisualiserPointageBtValides() {
+
+        $obj = new Constantes();
+
+        $obj->setVisualiserPointageBtValides(true);
+        $this->assertEquals(true, $obj->getVisualiserPointageBtValides());
     }
 }

@@ -11,11 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateLivraisonTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeLivreurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLienDocumentTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNoBonIntTrait;
+use DateTime;
 
 /**
  * Bon interne entete.
@@ -25,16 +21,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNoBonIntTrait;
  */
 class BonInterneEntete {
 
-    use StringCodeCollaborateurTrait;
-    use StringCodeLivreurTrait;
-    use DateTimeDateLivraisonTrait;
-    use StringLienDocumentTrait;
-    use StringNoBonIntTrait;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Code livreur.
+     *
+     * @var string
+     */
+    private $codeLivreur;
+
+    /**
+     * Date livraison.
+     *
+     * @var DateTime|null
+     */
+    private $dateLivraison;
+
+    /**
+     * Lien document.
+     *
+     * @var string
+     */
+    private $lienDocument;
+
+    /**
+     * No bon int.
+     *
+     * @var string
+     */
+    private $noBonInt;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the code livreur.
+     *
+     * @return string Returns the code livreur.
+     */
+    public function getCodeLivreur() {
+        return $this->codeLivreur;
+    }
+
+    /**
+     * Get the date livraison.
+     *
+     * @return DateTime|null Returns the date livraison.
+     */
+    public function getDateLivraison() {
+        return $this->dateLivraison;
+    }
+
+    /**
+     * Get the lien document.
+     *
+     * @return string Returns the lien document.
+     */
+    public function getLienDocument() {
+        return $this->lienDocument;
+    }
+
+    /**
+     * Get the no bon int.
+     *
+     * @return string Returns the no bon int.
+     */
+    public function getNoBonInt() {
+        return $this->noBonInt;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the code livreur.
+     *
+     * @param string $codeLivreur The code livreur.
+     */
+    public function setCodeLivreur($codeLivreur) {
+        $this->codeLivreur = $codeLivreur;
+        return $this;
+    }
+
+    /**
+     * Set the date livraison.
+     *
+     * @param DateTime|null $dateLivraison The date livraison.
+     */
+    public function setDateLivraison(DateTime $dateLivraison = null) {
+        $this->dateLivraison = $dateLivraison;
+        return $this;
+    }
+
+    /**
+     * Set the lien document.
+     *
+     * @param string $lienDocument The lien document.
+     */
+    public function setLienDocument($lienDocument) {
+        $this->lienDocument = $lienDocument;
+        return $this;
+    }
+
+    /**
+     * Set the no bon int.
+     *
+     * @param string $noBonInt The no bon int.
+     */
+    public function setNoBonInt($noBonInt) {
+        $this->noBonInt = $noBonInt;
+        return $this;
     }
 }

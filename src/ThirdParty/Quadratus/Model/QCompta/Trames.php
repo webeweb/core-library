@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolGardeMontantsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-
 /**
  * Trames.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
  */
 class Trames {
 
-    use IntCodeTrait;
-    use BoolGardeMontantsTrait;
-    use StringLibelleTrait;
+    /**
+     * Code.
+     *
+     * @var int
+     */
+    private $code;
+
+    /**
+     * Garde montants.
+     *
+     * @var bool
+     */
+    private $gardeMontants;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return int Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the garde montants.
+     *
+     * @return bool Returns the garde montants.
+     */
+    public function getGardeMontants() {
+        return $this->gardeMontants;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param int $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the garde montants.
+     *
+     * @param bool $gardeMontants The garde montants.
+     */
+    public function setGardeMontants($gardeMontants) {
+        $this->gardeMontants = $gardeMontants;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
     }
 }

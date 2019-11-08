@@ -11,11 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxVentilationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIndicePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeServiceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
+use DateTime;
 
 /**
  * Repartition activite bul.
@@ -25,16 +21,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
  */
 class RepartitionActiviteBul {
 
-    use StringCodeServiceTrait;
-    use IntIndicePeriodeTrait;
-    use StringNumeroEmployeTrait;
-    use DateTimePeriodeTrait;
-    use FloatTauxVentilationTrait;
+    /**
+     * Code service.
+     *
+     * @var string
+     */
+    private $codeService;
+
+    /**
+     * Indice periode.
+     *
+     * @var int
+     */
+    private $indicePeriode;
+
+    /**
+     * Numero employe.
+     *
+     * @var string
+     */
+    private $numeroEmploye;
+
+    /**
+     * Periode.
+     *
+     * @var DateTime|null
+     */
+    private $periode;
+
+    /**
+     * Taux ventilation.
+     *
+     * @var float
+     */
+    private $tauxVentilation;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code service.
+     *
+     * @return string Returns the code service.
+     */
+    public function getCodeService() {
+        return $this->codeService;
+    }
+
+    /**
+     * Get the indice periode.
+     *
+     * @return int Returns the indice periode.
+     */
+    public function getIndicePeriode() {
+        return $this->indicePeriode;
+    }
+
+    /**
+     * Get the numero employe.
+     *
+     * @return string Returns the numero employe.
+     */
+    public function getNumeroEmploye() {
+        return $this->numeroEmploye;
+    }
+
+    /**
+     * Get the periode.
+     *
+     * @return DateTime|null Returns the periode.
+     */
+    public function getPeriode() {
+        return $this->periode;
+    }
+
+    /**
+     * Get the taux ventilation.
+     *
+     * @return float Returns the taux ventilation.
+     */
+    public function getTauxVentilation() {
+        return $this->tauxVentilation;
+    }
+
+    /**
+     * Set the code service.
+     *
+     * @param string $codeService The code service.
+     */
+    public function setCodeService($codeService) {
+        $this->codeService = $codeService;
+        return $this;
+    }
+
+    /**
+     * Set the indice periode.
+     *
+     * @param int $indicePeriode The indice periode.
+     */
+    public function setIndicePeriode($indicePeriode) {
+        $this->indicePeriode = $indicePeriode;
+        return $this;
+    }
+
+    /**
+     * Set the numero employe.
+     *
+     * @param string $numeroEmploye The numero employe.
+     */
+    public function setNumeroEmploye($numeroEmploye) {
+        $this->numeroEmploye = $numeroEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the periode.
+     *
+     * @param DateTime|null $periode The periode.
+     */
+    public function setPeriode(DateTime $periode = null) {
+        $this->periode = $periode;
+        return $this;
+    }
+
+    /**
+     * Set the taux ventilation.
+     *
+     * @param float $tauxVentilation The taux ventilation.
+     */
+    public function setTauxVentilation($tauxVentilation) {
+        $this->tauxVentilation = $tauxVentilation;
+        return $this;
     }
 }

@@ -34,4 +34,30 @@ class ProfilsActionsTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeProfil());
         $this->assertNull($obj->getIntitule());
     }
+
+    /**
+     * Tests the setCodeProfil() method.
+     *
+     * @return void
+     */
+    public function testSetCodeProfil() {
+
+        $obj = new ProfilsActions();
+
+        $obj->setCodeProfil("codeProfil");
+        $this->assertEquals("codeProfil", $obj->getCodeProfil());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new ProfilsActions();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
 }

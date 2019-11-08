@@ -34,4 +34,30 @@ class DadsuAnnuelleTest extends AbstractTestCase {
         $this->assertNull($obj->getNomFichierDadsu());
         $this->assertNull($obj->getTdsAnnee());
     }
+
+    /**
+     * Tests the setNomFichierDadsu() method.
+     *
+     * @return void
+     */
+    public function testSetNomFichierDadsu() {
+
+        $obj = new DadsuAnnuelle();
+
+        $obj->setNomFichierDadsu("nomFichierDadsu");
+        $this->assertEquals("nomFichierDadsu", $obj->getNomFichierDadsu());
+    }
+
+    /**
+     * Tests the setTdsAnnee() method.
+     *
+     * @return void
+     */
+    public function testSetTdsAnnee() {
+
+        $obj = new DadsuAnnuelle();
+
+        $obj->setTdsAnnee(10);
+        $this->assertEquals(10, $obj->getTdsAnnee());
+    }
 }

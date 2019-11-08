@@ -11,8 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntVersionTrait;
-
 /**
  * Quadra db.
  *
@@ -21,12 +19,36 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntVersionTrait;
  */
 class QuadraDb {
 
-    use IntVersionTrait;
+    /**
+     * Version.
+     *
+     * @var int
+     */
+    private $version;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the version.
+     *
+     * @return int Returns the version.
+     */
+    public function getVersion() {
+        return $this->version;
+    }
+
+    /**
+     * Set the version.
+     *
+     * @param int $version The version.
+     */
+    public function setVersion($version) {
+        $this->version = $version;
+        return $this;
     }
 }

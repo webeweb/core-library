@@ -34,4 +34,30 @@ class DataSynchroSupprimeTest extends AbstractTestCase {
         $this->assertNull($obj->getTypeData());
         $this->assertNull($obj->getUniqIdBlocage());
     }
+
+    /**
+     * Tests the setTypeData() method.
+     *
+     * @return void
+     */
+    public function testSetTypeData() {
+
+        $obj = new DataSynchroSupprime();
+
+        $obj->setTypeData("typeData");
+        $this->assertEquals("typeData", $obj->getTypeData());
+    }
+
+    /**
+     * Tests the setUniqIdBlocage() method.
+     *
+     * @return void
+     */
+    public function testSetUniqIdBlocage() {
+
+        $obj = new DataSynchroSupprime();
+
+        $obj->setUniqIdBlocage("uniqIdBlocage");
+        $this->assertEquals("uniqIdBlocage", $obj->getUniqIdBlocage());
+    }
 }

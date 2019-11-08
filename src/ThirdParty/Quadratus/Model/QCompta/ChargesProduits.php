@@ -11,24 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMtHtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMtN1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTxTvaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLotEcritureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLotPeriodiciteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCentreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeFeuilleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCommentairesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringContrePartieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtatLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibEcritureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMoisRevisionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNatureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroCompteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefImageTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSensTrait;
-
 /**
  * Charges produits.
  *
@@ -37,28 +19,452 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSensTrait;
  */
 class ChargesProduits {
 
-    use StringCentreTrait;
-    use StringCodeFeuilleTrait;
-    use StringCommentairesTrait;
-    use StringContrePartieTrait;
-    use StringEtatLigneTrait;
-    use StringLibEcritureTrait;
-    use StringMoisRevisionTrait;
-    use FloatMtHtTrait;
-    use FloatMtN1Trait;
-    use StringNatureTrait;
-    use IntNumLigneTrait;
-    use IntNumLotEcritureTrait;
-    use IntNumLotPeriodiciteTrait;
-    use StringNumeroCompteTrait;
-    use StringRefImageTrait;
-    use StringSensTrait;
-    use FloatTxTvaTrait;
+    /**
+     * Centre.
+     *
+     * @var string
+     */
+    private $centre;
+
+    /**
+     * Code feuille.
+     *
+     * @var string
+     */
+    private $codeFeuille;
+
+    /**
+     * Commentaires.
+     *
+     * @var string
+     */
+    private $commentaires;
+
+    /**
+     * Contre partie.
+     *
+     * @var string
+     */
+    private $contrePartie;
+
+    /**
+     * Etat ligne.
+     *
+     * @var string
+     */
+    private $etatLigne;
+
+    /**
+     * Lib ecriture.
+     *
+     * @var string
+     */
+    private $libEcriture;
+
+    /**
+     * Mois revision.
+     *
+     * @var string
+     */
+    private $moisRevision;
+
+    /**
+     * Mt ht.
+     *
+     * @var float
+     */
+    private $mtHt;
+
+    /**
+     * Mt n1.
+     *
+     * @var float
+     */
+    private $mtN1;
+
+    /**
+     * Nature.
+     *
+     * @var string
+     */
+    private $nature;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
+
+    /**
+     * Num lot ecriture.
+     *
+     * @var int
+     */
+    private $numLotEcriture;
+
+    /**
+     * Num lot periodicite.
+     *
+     * @var int
+     */
+    private $numLotPeriodicite;
+
+    /**
+     * Numero compte.
+     *
+     * @var string
+     */
+    private $numeroCompte;
+
+    /**
+     * Ref image.
+     *
+     * @var string
+     */
+    private $refImage;
+
+    /**
+     * Sens.
+     *
+     * @var string
+     */
+    private $sens;
+
+    /**
+     * Tx tva.
+     *
+     * @var float
+     */
+    private $txTva;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the centre.
+     *
+     * @return string Returns the centre.
+     */
+    public function getCentre() {
+        return $this->centre;
+    }
+
+    /**
+     * Get the code feuille.
+     *
+     * @return string Returns the code feuille.
+     */
+    public function getCodeFeuille() {
+        return $this->codeFeuille;
+    }
+
+    /**
+     * Get the commentaires.
+     *
+     * @return string Returns the commentaires.
+     */
+    public function getCommentaires() {
+        return $this->commentaires;
+    }
+
+    /**
+     * Get the contre partie.
+     *
+     * @return string Returns the contre partie.
+     */
+    public function getContrePartie() {
+        return $this->contrePartie;
+    }
+
+    /**
+     * Get the etat ligne.
+     *
+     * @return string Returns the etat ligne.
+     */
+    public function getEtatLigne() {
+        return $this->etatLigne;
+    }
+
+    /**
+     * Get the lib ecriture.
+     *
+     * @return string Returns the lib ecriture.
+     */
+    public function getLibEcriture() {
+        return $this->libEcriture;
+    }
+
+    /**
+     * Get the mois revision.
+     *
+     * @return string Returns the mois revision.
+     */
+    public function getMoisRevision() {
+        return $this->moisRevision;
+    }
+
+    /**
+     * Get the mt ht.
+     *
+     * @return float Returns the mt ht.
+     */
+    public function getMtHt() {
+        return $this->mtHt;
+    }
+
+    /**
+     * Get the mt n1.
+     *
+     * @return float Returns the mt n1.
+     */
+    public function getMtN1() {
+        return $this->mtN1;
+    }
+
+    /**
+     * Get the nature.
+     *
+     * @return string Returns the nature.
+     */
+    public function getNature() {
+        return $this->nature;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Get the num lot ecriture.
+     *
+     * @return int Returns the num lot ecriture.
+     */
+    public function getNumLotEcriture() {
+        return $this->numLotEcriture;
+    }
+
+    /**
+     * Get the num lot periodicite.
+     *
+     * @return int Returns the num lot periodicite.
+     */
+    public function getNumLotPeriodicite() {
+        return $this->numLotPeriodicite;
+    }
+
+    /**
+     * Get the numero compte.
+     *
+     * @return string Returns the numero compte.
+     */
+    public function getNumeroCompte() {
+        return $this->numeroCompte;
+    }
+
+    /**
+     * Get the ref image.
+     *
+     * @return string Returns the ref image.
+     */
+    public function getRefImage() {
+        return $this->refImage;
+    }
+
+    /**
+     * Get the sens.
+     *
+     * @return string Returns the sens.
+     */
+    public function getSens() {
+        return $this->sens;
+    }
+
+    /**
+     * Get the tx tva.
+     *
+     * @return float Returns the tx tva.
+     */
+    public function getTxTva() {
+        return $this->txTva;
+    }
+
+    /**
+     * Set the centre.
+     *
+     * @param string $centre The centre.
+     */
+    public function setCentre($centre) {
+        $this->centre = $centre;
+        return $this;
+    }
+
+    /**
+     * Set the code feuille.
+     *
+     * @param string $codeFeuille The code feuille.
+     */
+    public function setCodeFeuille($codeFeuille) {
+        $this->codeFeuille = $codeFeuille;
+        return $this;
+    }
+
+    /**
+     * Set the commentaires.
+     *
+     * @param string $commentaires The commentaires.
+     */
+    public function setCommentaires($commentaires) {
+        $this->commentaires = $commentaires;
+        return $this;
+    }
+
+    /**
+     * Set the contre partie.
+     *
+     * @param string $contrePartie The contre partie.
+     */
+    public function setContrePartie($contrePartie) {
+        $this->contrePartie = $contrePartie;
+        return $this;
+    }
+
+    /**
+     * Set the etat ligne.
+     *
+     * @param string $etatLigne The etat ligne.
+     */
+    public function setEtatLigne($etatLigne) {
+        $this->etatLigne = $etatLigne;
+        return $this;
+    }
+
+    /**
+     * Set the lib ecriture.
+     *
+     * @param string $libEcriture The lib ecriture.
+     */
+    public function setLibEcriture($libEcriture) {
+        $this->libEcriture = $libEcriture;
+        return $this;
+    }
+
+    /**
+     * Set the mois revision.
+     *
+     * @param string $moisRevision The mois revision.
+     */
+    public function setMoisRevision($moisRevision) {
+        $this->moisRevision = $moisRevision;
+        return $this;
+    }
+
+    /**
+     * Set the mt ht.
+     *
+     * @param float $mtHt The mt ht.
+     */
+    public function setMtHt($mtHt) {
+        $this->mtHt = $mtHt;
+        return $this;
+    }
+
+    /**
+     * Set the mt n1.
+     *
+     * @param float $mtN1 The mt n1.
+     */
+    public function setMtN1($mtN1) {
+        $this->mtN1 = $mtN1;
+        return $this;
+    }
+
+    /**
+     * Set the nature.
+     *
+     * @param string $nature The nature.
+     */
+    public function setNature($nature) {
+        $this->nature = $nature;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
+    }
+
+    /**
+     * Set the num lot ecriture.
+     *
+     * @param int $numLotEcriture The num lot ecriture.
+     */
+    public function setNumLotEcriture($numLotEcriture) {
+        $this->numLotEcriture = $numLotEcriture;
+        return $this;
+    }
+
+    /**
+     * Set the num lot periodicite.
+     *
+     * @param int $numLotPeriodicite The num lot periodicite.
+     */
+    public function setNumLotPeriodicite($numLotPeriodicite) {
+        $this->numLotPeriodicite = $numLotPeriodicite;
+        return $this;
+    }
+
+    /**
+     * Set the numero compte.
+     *
+     * @param string $numeroCompte The numero compte.
+     */
+    public function setNumeroCompte($numeroCompte) {
+        $this->numeroCompte = $numeroCompte;
+        return $this;
+    }
+
+    /**
+     * Set the ref image.
+     *
+     * @param string $refImage The ref image.
+     */
+    public function setRefImage($refImage) {
+        $this->refImage = $refImage;
+        return $this;
+    }
+
+    /**
+     * Set the sens.
+     *
+     * @param string $sens The sens.
+     */
+    public function setSens($sens) {
+        $this->sens = $sens;
+        return $this;
+    }
+
+    /**
+     * Set the tx tva.
+     *
+     * @param float $txTva The tx tva.
+     */
+    public function setTxTva($txTva) {
+        $this->txTva = $txTva;
+        return $this;
     }
 }

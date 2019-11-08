@@ -11,12 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolFormatNonEtenduTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeAPartirDeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxPatronalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxSalarialTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCodeEtablissementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroTauxTrait;
+use DateTime;
 
 /**
  * Taux plan paie.
@@ -26,17 +21,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroTauxTrait;
  */
 class TauxPlanPaie {
 
-    use DateTimeAPartirDeTrait;
-    use IntCodeEtablissementTrait;
-    use BoolFormatNonEtenduTrait;
-    use IntNumeroTauxTrait;
-    use FloatTauxPatronalTrait;
-    use FloatTauxSalarialTrait;
+    /**
+     * A partir de.
+     *
+     * @var DateTime|null
+     */
+    private $aPartirDe;
+
+    /**
+     * Code etablissement.
+     *
+     * @var int
+     */
+    private $codeEtablissement;
+
+    /**
+     * Format non etendu.
+     *
+     * @var bool
+     */
+    private $formatNonEtendu;
+
+    /**
+     * Numero taux.
+     *
+     * @var int
+     */
+    private $numeroTaux;
+
+    /**
+     * Taux patronal.
+     *
+     * @var float
+     */
+    private $tauxPatronal;
+
+    /**
+     * Taux salarial.
+     *
+     * @var float
+     */
+    private $tauxSalarial;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the a partir de.
+     *
+     * @return DateTime|null Returns the a partir de.
+     */
+    public function getAPartirDe() {
+        return $this->aPartirDe;
+    }
+
+    /**
+     * Get the code etablissement.
+     *
+     * @return int Returns the code etablissement.
+     */
+    public function getCodeEtablissement() {
+        return $this->codeEtablissement;
+    }
+
+    /**
+     * Get the format non etendu.
+     *
+     * @return bool Returns the format non etendu.
+     */
+    public function getFormatNonEtendu() {
+        return $this->formatNonEtendu;
+    }
+
+    /**
+     * Get the numero taux.
+     *
+     * @return int Returns the numero taux.
+     */
+    public function getNumeroTaux() {
+        return $this->numeroTaux;
+    }
+
+    /**
+     * Get the taux patronal.
+     *
+     * @return float Returns the taux patronal.
+     */
+    public function getTauxPatronal() {
+        return $this->tauxPatronal;
+    }
+
+    /**
+     * Get the taux salarial.
+     *
+     * @return float Returns the taux salarial.
+     */
+    public function getTauxSalarial() {
+        return $this->tauxSalarial;
+    }
+
+    /**
+     * Set the a partir de.
+     *
+     * @param DateTime|null $aPartirDe The a partir de.
+     */
+    public function setAPartirDe(DateTime $aPartirDe = null) {
+        $this->aPartirDe = $aPartirDe;
+        return $this;
+    }
+
+    /**
+     * Set the code etablissement.
+     *
+     * @param int $codeEtablissement The code etablissement.
+     */
+    public function setCodeEtablissement($codeEtablissement) {
+        $this->codeEtablissement = $codeEtablissement;
+        return $this;
+    }
+
+    /**
+     * Set the format non etendu.
+     *
+     * @param bool $formatNonEtendu The format non etendu.
+     */
+    public function setFormatNonEtendu($formatNonEtendu) {
+        $this->formatNonEtendu = $formatNonEtendu;
+        return $this;
+    }
+
+    /**
+     * Set the numero taux.
+     *
+     * @param int $numeroTaux The numero taux.
+     */
+    public function setNumeroTaux($numeroTaux) {
+        $this->numeroTaux = $numeroTaux;
+        return $this;
+    }
+
+    /**
+     * Set the taux patronal.
+     *
+     * @param float $tauxPatronal The taux patronal.
+     */
+    public function setTauxPatronal($tauxPatronal) {
+        $this->tauxPatronal = $tauxPatronal;
+        return $this;
+    }
+
+    /**
+     * Set the taux salarial.
+     *
+     * @param float $tauxSalarial The taux salarial.
+     */
+    public function setTauxSalarial($tauxSalarial) {
+        $this->tauxSalarial = $tauxSalarial;
+        return $this;
     }
 }

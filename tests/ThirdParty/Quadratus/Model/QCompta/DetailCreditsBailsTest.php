@@ -39,4 +39,95 @@ class DetailCreditsBailsTest extends AbstractTestCase {
         $this->assertNull($obj->getQuantite());
         $this->assertNull($obj->getValeur());
     }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new DetailCreditsBails();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
+
+        $obj = new DetailCreditsBails();
+
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the setNumero() method.
+     *
+     * @return void
+     */
+    public function testSetNumero() {
+
+        $obj = new DetailCreditsBails();
+
+        $obj->setNumero(10);
+        $this->assertEquals(10, $obj->getNumero());
+    }
+
+    /**
+     * Tests the setNumeroCompte() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompte() {
+
+        $obj = new DetailCreditsBails();
+
+        $obj->setNumeroCompte("numeroCompte");
+        $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the setNumeroDeux() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroDeux() {
+
+        $obj = new DetailCreditsBails();
+
+        $obj->setNumeroDeux(10);
+        $this->assertEquals(10, $obj->getNumeroDeux());
+    }
+
+    /**
+     * Tests the setQuantite() method.
+     *
+     * @return void
+     */
+    public function testSetQuantite() {
+
+        $obj = new DetailCreditsBails();
+
+        $obj->setQuantite(10.092018);
+        $this->assertEquals(10.092018, $obj->getQuantite());
+    }
+
+    /**
+     * Tests the setValeur() method.
+     *
+     * @return void
+     */
+    public function testSetValeur() {
+
+        $obj = new DetailCreditsBails();
+
+        $obj->setValeur(10.092018);
+        $this->assertEquals(10.092018, $obj->getValeur());
+    }
 }

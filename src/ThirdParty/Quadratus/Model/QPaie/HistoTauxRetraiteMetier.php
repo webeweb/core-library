@@ -11,16 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolFormatNonEtenduTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeAPartirDeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxPatronalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxSalarialTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntCategSalarieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIndiceCategTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeActiviteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMetierTrait;
+use DateTime;
 
 /**
  * Histo taux retraite metier.
@@ -30,21 +21,270 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMetierTrait;
  */
 class HistoTauxRetraiteMetier {
 
-    use DateTimeAPartirDeTrait;
-    use IntCategSalarieTrait;
-    use StringCodeActiviteTrait;
-    use StringCodeLibelleTrait;
-    use StringCodeMetierTrait;
-    use BoolFormatNonEtenduTrait;
-    use IntIndiceCategTrait;
-    use FloatMontantTrait;
-    use FloatTauxPatronalTrait;
-    use FloatTauxSalarialTrait;
+    /**
+     * A partir de.
+     *
+     * @var DateTime|null
+     */
+    private $aPartirDe;
+
+    /**
+     * Categ salarie.
+     *
+     * @var int
+     */
+    private $categSalarie;
+
+    /**
+     * Code activite.
+     *
+     * @var string
+     */
+    private $codeActivite;
+
+    /**
+     * Code libelle.
+     *
+     * @var string
+     */
+    private $codeLibelle;
+
+    /**
+     * Code metier.
+     *
+     * @var string
+     */
+    private $codeMetier;
+
+    /**
+     * Format non etendu.
+     *
+     * @var bool
+     */
+    private $formatNonEtendu;
+
+    /**
+     * Indice categ.
+     *
+     * @var int
+     */
+    private $indiceCateg;
+
+    /**
+     * Montant.
+     *
+     * @var float
+     */
+    private $montant;
+
+    /**
+     * Taux patronal.
+     *
+     * @var float
+     */
+    private $tauxPatronal;
+
+    /**
+     * Taux salarial.
+     *
+     * @var float
+     */
+    private $tauxSalarial;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the a partir de.
+     *
+     * @return DateTime|null Returns the a partir de.
+     */
+    public function getAPartirDe() {
+        return $this->aPartirDe;
+    }
+
+    /**
+     * Get the categ salarie.
+     *
+     * @return int Returns the categ salarie.
+     */
+    public function getCategSalarie() {
+        return $this->categSalarie;
+    }
+
+    /**
+     * Get the code activite.
+     *
+     * @return string Returns the code activite.
+     */
+    public function getCodeActivite() {
+        return $this->codeActivite;
+    }
+
+    /**
+     * Get the code libelle.
+     *
+     * @return string Returns the code libelle.
+     */
+    public function getCodeLibelle() {
+        return $this->codeLibelle;
+    }
+
+    /**
+     * Get the code metier.
+     *
+     * @return string Returns the code metier.
+     */
+    public function getCodeMetier() {
+        return $this->codeMetier;
+    }
+
+    /**
+     * Get the format non etendu.
+     *
+     * @return bool Returns the format non etendu.
+     */
+    public function getFormatNonEtendu() {
+        return $this->formatNonEtendu;
+    }
+
+    /**
+     * Get the indice categ.
+     *
+     * @return int Returns the indice categ.
+     */
+    public function getIndiceCateg() {
+        return $this->indiceCateg;
+    }
+
+    /**
+     * Get the montant.
+     *
+     * @return float Returns the montant.
+     */
+    public function getMontant() {
+        return $this->montant;
+    }
+
+    /**
+     * Get the taux patronal.
+     *
+     * @return float Returns the taux patronal.
+     */
+    public function getTauxPatronal() {
+        return $this->tauxPatronal;
+    }
+
+    /**
+     * Get the taux salarial.
+     *
+     * @return float Returns the taux salarial.
+     */
+    public function getTauxSalarial() {
+        return $this->tauxSalarial;
+    }
+
+    /**
+     * Set the a partir de.
+     *
+     * @param DateTime|null $aPartirDe The a partir de.
+     */
+    public function setAPartirDe(DateTime $aPartirDe = null) {
+        $this->aPartirDe = $aPartirDe;
+        return $this;
+    }
+
+    /**
+     * Set the categ salarie.
+     *
+     * @param int $categSalarie The categ salarie.
+     */
+    public function setCategSalarie($categSalarie) {
+        $this->categSalarie = $categSalarie;
+        return $this;
+    }
+
+    /**
+     * Set the code activite.
+     *
+     * @param string $codeActivite The code activite.
+     */
+    public function setCodeActivite($codeActivite) {
+        $this->codeActivite = $codeActivite;
+        return $this;
+    }
+
+    /**
+     * Set the code libelle.
+     *
+     * @param string $codeLibelle The code libelle.
+     */
+    public function setCodeLibelle($codeLibelle) {
+        $this->codeLibelle = $codeLibelle;
+        return $this;
+    }
+
+    /**
+     * Set the code metier.
+     *
+     * @param string $codeMetier The code metier.
+     */
+    public function setCodeMetier($codeMetier) {
+        $this->codeMetier = $codeMetier;
+        return $this;
+    }
+
+    /**
+     * Set the format non etendu.
+     *
+     * @param bool $formatNonEtendu The format non etendu.
+     */
+    public function setFormatNonEtendu($formatNonEtendu) {
+        $this->formatNonEtendu = $formatNonEtendu;
+        return $this;
+    }
+
+    /**
+     * Set the indice categ.
+     *
+     * @param int $indiceCateg The indice categ.
+     */
+    public function setIndiceCateg($indiceCateg) {
+        $this->indiceCateg = $indiceCateg;
+        return $this;
+    }
+
+    /**
+     * Set the montant.
+     *
+     * @param float $montant The montant.
+     */
+    public function setMontant($montant) {
+        $this->montant = $montant;
+        return $this;
+    }
+
+    /**
+     * Set the taux patronal.
+     *
+     * @param float $tauxPatronal The taux patronal.
+     */
+    public function setTauxPatronal($tauxPatronal) {
+        $this->tauxPatronal = $tauxPatronal;
+        return $this;
+    }
+
+    /**
+     * Set the taux salarial.
+     *
+     * @param float $tauxSalarial The taux salarial.
+     */
+    public function setTauxSalarial($tauxSalarial) {
+        $this->tauxSalarial = $tauxSalarial;
+        return $this;
     }
 }

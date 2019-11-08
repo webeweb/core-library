@@ -11,22 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateDebutAmortissementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFinAmortissementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFinServiceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateMiseEnServiceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantAmortissementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatValAchatEuroTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatValAchatFrfTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeBarreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMaterielTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation4Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDesignation5Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroSerieTrait;
+use DateTime;
 
 /**
  * Materiel.
@@ -36,27 +21,426 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroSerieTrait;
  */
 class Materiel {
 
-    use StringCodeBarreTrait;
-    use StringCodeMaterielTrait;
-    use DateTimeDateAchatTrait;
-    use DateTimeDateDebutAmortissementTrait;
-    use DateTimeDateFinAmortissementTrait;
-    use DateTimeDateFinServiceTrait;
-    use DateTimeDateMiseEnServiceTrait;
-    use StringDesignation1Trait;
-    use StringDesignation2Trait;
-    use StringDesignation3Trait;
-    use StringDesignation4Trait;
-    use StringDesignation5Trait;
-    use FloatMontantAmortissementTrait;
-    use StringNumeroSerieTrait;
-    use FloatValAchatEuroTrait;
-    use FloatValAchatFrfTrait;
+    /**
+     * Code barre.
+     *
+     * @var string
+     */
+    private $codeBarre;
+
+    /**
+     * Code materiel.
+     *
+     * @var string
+     */
+    private $codeMateriel;
+
+    /**
+     * Date achat.
+     *
+     * @var DateTime|null
+     */
+    private $dateAchat;
+
+    /**
+     * Date debut amortissement.
+     *
+     * @var DateTime|null
+     */
+    private $dateDebutAmortissement;
+
+    /**
+     * Date fin amortissement.
+     *
+     * @var DateTime|null
+     */
+    private $dateFinAmortissement;
+
+    /**
+     * Date fin service.
+     *
+     * @var DateTime|null
+     */
+    private $dateFinService;
+
+    /**
+     * Date mise en service.
+     *
+     * @var DateTime|null
+     */
+    private $dateMiseEnService;
+
+    /**
+     * Designation1.
+     *
+     * @var string
+     */
+    private $designation1;
+
+    /**
+     * Designation2.
+     *
+     * @var string
+     */
+    private $designation2;
+
+    /**
+     * Designation3.
+     *
+     * @var string
+     */
+    private $designation3;
+
+    /**
+     * Designation4.
+     *
+     * @var string
+     */
+    private $designation4;
+
+    /**
+     * Designation5.
+     *
+     * @var string
+     */
+    private $designation5;
+
+    /**
+     * Montant amortissement.
+     *
+     * @var float
+     */
+    private $montantAmortissement;
+
+    /**
+     * Numero serie.
+     *
+     * @var string
+     */
+    private $numeroSerie;
+
+    /**
+     * Val achat euro.
+     *
+     * @var float
+     */
+    private $valAchatEuro;
+
+    /**
+     * Val achat frf.
+     *
+     * @var float
+     */
+    private $valAchatFrf;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code barre.
+     *
+     * @return string Returns the code barre.
+     */
+    public function getCodeBarre() {
+        return $this->codeBarre;
+    }
+
+    /**
+     * Get the code materiel.
+     *
+     * @return string Returns the code materiel.
+     */
+    public function getCodeMateriel() {
+        return $this->codeMateriel;
+    }
+
+    /**
+     * Get the date achat.
+     *
+     * @return DateTime|null Returns the date achat.
+     */
+    public function getDateAchat() {
+        return $this->dateAchat;
+    }
+
+    /**
+     * Get the date debut amortissement.
+     *
+     * @return DateTime|null Returns the date debut amortissement.
+     */
+    public function getDateDebutAmortissement() {
+        return $this->dateDebutAmortissement;
+    }
+
+    /**
+     * Get the date fin amortissement.
+     *
+     * @return DateTime|null Returns the date fin amortissement.
+     */
+    public function getDateFinAmortissement() {
+        return $this->dateFinAmortissement;
+    }
+
+    /**
+     * Get the date fin service.
+     *
+     * @return DateTime|null Returns the date fin service.
+     */
+    public function getDateFinService() {
+        return $this->dateFinService;
+    }
+
+    /**
+     * Get the date mise en service.
+     *
+     * @return DateTime|null Returns the date mise en service.
+     */
+    public function getDateMiseEnService() {
+        return $this->dateMiseEnService;
+    }
+
+    /**
+     * Get the designation1.
+     *
+     * @return string Returns the designation1.
+     */
+    public function getDesignation1() {
+        return $this->designation1;
+    }
+
+    /**
+     * Get the designation2.
+     *
+     * @return string Returns the designation2.
+     */
+    public function getDesignation2() {
+        return $this->designation2;
+    }
+
+    /**
+     * Get the designation3.
+     *
+     * @return string Returns the designation3.
+     */
+    public function getDesignation3() {
+        return $this->designation3;
+    }
+
+    /**
+     * Get the designation4.
+     *
+     * @return string Returns the designation4.
+     */
+    public function getDesignation4() {
+        return $this->designation4;
+    }
+
+    /**
+     * Get the designation5.
+     *
+     * @return string Returns the designation5.
+     */
+    public function getDesignation5() {
+        return $this->designation5;
+    }
+
+    /**
+     * Get the montant amortissement.
+     *
+     * @return float Returns the montant amortissement.
+     */
+    public function getMontantAmortissement() {
+        return $this->montantAmortissement;
+    }
+
+    /**
+     * Get the numero serie.
+     *
+     * @return string Returns the numero serie.
+     */
+    public function getNumeroSerie() {
+        return $this->numeroSerie;
+    }
+
+    /**
+     * Get the val achat euro.
+     *
+     * @return float Returns the val achat euro.
+     */
+    public function getValAchatEuro() {
+        return $this->valAchatEuro;
+    }
+
+    /**
+     * Get the val achat frf.
+     *
+     * @return float Returns the val achat frf.
+     */
+    public function getValAchatFrf() {
+        return $this->valAchatFrf;
+    }
+
+    /**
+     * Set the code barre.
+     *
+     * @param string $codeBarre The code barre.
+     */
+    public function setCodeBarre($codeBarre) {
+        $this->codeBarre = $codeBarre;
+        return $this;
+    }
+
+    /**
+     * Set the code materiel.
+     *
+     * @param string $codeMateriel The code materiel.
+     */
+    public function setCodeMateriel($codeMateriel) {
+        $this->codeMateriel = $codeMateriel;
+        return $this;
+    }
+
+    /**
+     * Set the date achat.
+     *
+     * @param DateTime|null $dateAchat The date achat.
+     */
+    public function setDateAchat(DateTime $dateAchat = null) {
+        $this->dateAchat = $dateAchat;
+        return $this;
+    }
+
+    /**
+     * Set the date debut amortissement.
+     *
+     * @param DateTime|null $dateDebutAmortissement The date debut amortissement.
+     */
+    public function setDateDebutAmortissement(DateTime $dateDebutAmortissement = null) {
+        $this->dateDebutAmortissement = $dateDebutAmortissement;
+        return $this;
+    }
+
+    /**
+     * Set the date fin amortissement.
+     *
+     * @param DateTime|null $dateFinAmortissement The date fin amortissement.
+     */
+    public function setDateFinAmortissement(DateTime $dateFinAmortissement = null) {
+        $this->dateFinAmortissement = $dateFinAmortissement;
+        return $this;
+    }
+
+    /**
+     * Set the date fin service.
+     *
+     * @param DateTime|null $dateFinService The date fin service.
+     */
+    public function setDateFinService(DateTime $dateFinService = null) {
+        $this->dateFinService = $dateFinService;
+        return $this;
+    }
+
+    /**
+     * Set the date mise en service.
+     *
+     * @param DateTime|null $dateMiseEnService The date mise en service.
+     */
+    public function setDateMiseEnService(DateTime $dateMiseEnService = null) {
+        $this->dateMiseEnService = $dateMiseEnService;
+        return $this;
+    }
+
+    /**
+     * Set the designation1.
+     *
+     * @param string $designation1 The designation1.
+     */
+    public function setDesignation1($designation1) {
+        $this->designation1 = $designation1;
+        return $this;
+    }
+
+    /**
+     * Set the designation2.
+     *
+     * @param string $designation2 The designation2.
+     */
+    public function setDesignation2($designation2) {
+        $this->designation2 = $designation2;
+        return $this;
+    }
+
+    /**
+     * Set the designation3.
+     *
+     * @param string $designation3 The designation3.
+     */
+    public function setDesignation3($designation3) {
+        $this->designation3 = $designation3;
+        return $this;
+    }
+
+    /**
+     * Set the designation4.
+     *
+     * @param string $designation4 The designation4.
+     */
+    public function setDesignation4($designation4) {
+        $this->designation4 = $designation4;
+        return $this;
+    }
+
+    /**
+     * Set the designation5.
+     *
+     * @param string $designation5 The designation5.
+     */
+    public function setDesignation5($designation5) {
+        $this->designation5 = $designation5;
+        return $this;
+    }
+
+    /**
+     * Set the montant amortissement.
+     *
+     * @param float $montantAmortissement The montant amortissement.
+     */
+    public function setMontantAmortissement($montantAmortissement) {
+        $this->montantAmortissement = $montantAmortissement;
+        return $this;
+    }
+
+    /**
+     * Set the numero serie.
+     *
+     * @param string $numeroSerie The numero serie.
+     */
+    public function setNumeroSerie($numeroSerie) {
+        $this->numeroSerie = $numeroSerie;
+        return $this;
+    }
+
+    /**
+     * Set the val achat euro.
+     *
+     * @param float $valAchatEuro The val achat euro.
+     */
+    public function setValAchatEuro($valAchatEuro) {
+        $this->valAchatEuro = $valAchatEuro;
+        return $this;
+    }
+
+    /**
+     * Set the val achat frf.
+     *
+     * @param float $valAchatFrf The val achat frf.
+     */
+    public function setValAchatFrf($valAchatFrf) {
+        $this->valAchatFrf = $valAchatFrf;
+        return $this;
     }
 }

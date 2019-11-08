@@ -35,4 +35,43 @@ class MasquesExcelTest extends AbstractTestCase {
         $this->assertNull($obj->getTitre());
         $this->assertNull($obj->getTypeMasque());
     }
+
+    /**
+     * Tests the setModele() method.
+     *
+     * @return void
+     */
+    public function testSetModele() {
+
+        $obj = new MasquesExcel();
+
+        $obj->setModele("modele");
+        $this->assertEquals("modele", $obj->getModele());
+    }
+
+    /**
+     * Tests the setTitre() method.
+     *
+     * @return void
+     */
+    public function testSetTitre() {
+
+        $obj = new MasquesExcel();
+
+        $obj->setTitre("titre");
+        $this->assertEquals("titre", $obj->getTitre());
+    }
+
+    /**
+     * Tests the setTypeMasque() method.
+     *
+     * @return void
+     */
+    public function testSetTypeMasque() {
+
+        $obj = new MasquesExcel();
+
+        $obj->setTypeMasque("typeMasque");
+        $this->assertEquals("typeMasque", $obj->getTypeMasque());
+    }
 }

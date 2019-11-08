@@ -34,4 +34,30 @@ class ObligationsLieesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeAction());
         $this->assertNull($obj->getCodeObligation());
     }
+
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
+
+        $obj = new ObligationsLiees();
+
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
+
+    /**
+     * Tests the setCodeObligation() method.
+     *
+     * @return void
+     */
+    public function testSetCodeObligation() {
+
+        $obj = new ObligationsLiees();
+
+        $obj->setCodeObligation("codeObligation");
+        $this->assertEquals("codeObligation", $obj->getCodeObligation());
+    }
 }

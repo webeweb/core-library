@@ -11,28 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolDefautTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateApplicationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateValidationSynchroTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbHeureMajorationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNombrePrimeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxPrimeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumBtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroPrimeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaboValidTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePrimeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTypeBtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeMajoTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypePrimeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniqIdSynchroTrait;
+use DateTime;
 
 /**
  * Point emp primes.
@@ -42,33 +21,582 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniqIdSynchroTrait;
  */
 class PointEmpPrimes {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringCodeCollaboValidTrait;
-    use StringCodeCollaborateurTrait;
-    use StringCodeEmployeTrait;
-    use StringCodePrimeTrait;
-    use StringCodeTacheTrait;
-    use StringCodeTacheTypeBtTrait;
-    use DateTimeDateApplicationTrait;
-    use DateTimeDateValidationSynchroTrait;
-    use BoolDefautTrait;
-    use StringEtatTrait;
-    use FloatNbHeureMajorationTrait;
-    use FloatNombrePrimeTrait;
-    use IntNumBtTrait;
-    use IntNumeroPrimeTrait;
-    use DateTimePeriodeTrait;
-    use FloatTauxPrimeTrait;
-    use StringTypeMajoTrait;
-    use StringTypePrimeTrait;
-    use StringUniqIdSynchroTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code collabo valid.
+     *
+     * @var string
+     */
+    private $codeCollaboValid;
+
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
+
+    /**
+     * Code prime.
+     *
+     * @var string
+     */
+    private $codePrime;
+
+    /**
+     * Code tache.
+     *
+     * @var string
+     */
+    private $codeTache;
+
+    /**
+     * Code tache type bt.
+     *
+     * @var string
+     */
+    private $codeTacheTypeBt;
+
+    /**
+     * Date application.
+     *
+     * @var DateTime|null
+     */
+    private $dateApplication;
+
+    /**
+     * Date validation synchro.
+     *
+     * @var DateTime|null
+     */
+    private $dateValidationSynchro;
+
+    /**
+     * Defaut.
+     *
+     * @var bool
+     */
+    private $defaut;
+
+    /**
+     * Etat.
+     *
+     * @var string
+     */
+    private $etat;
+
+    /**
+     * Nb heure majoration.
+     *
+     * @var float
+     */
+    private $nbHeureMajoration;
+
+    /**
+     * Nombre prime.
+     *
+     * @var float
+     */
+    private $nombrePrime;
+
+    /**
+     * Num bt.
+     *
+     * @var int
+     */
+    private $numBt;
+
+    /**
+     * Numero prime.
+     *
+     * @var int
+     */
+    private $numeroPrime;
+
+    /**
+     * Periode.
+     *
+     * @var DateTime|null
+     */
+    private $periode;
+
+    /**
+     * Taux prime.
+     *
+     * @var float
+     */
+    private $tauxPrime;
+
+    /**
+     * Type majo.
+     *
+     * @var string
+     */
+    private $typeMajo;
+
+    /**
+     * Type prime.
+     *
+     * @var string
+     */
+    private $typePrime;
+
+    /**
+     * Uniq id synchro.
+     *
+     * @var string
+     */
+    private $uniqIdSynchro;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code collabo valid.
+     *
+     * @return string Returns the code collabo valid.
+     */
+    public function getCodeCollaboValid() {
+        return $this->codeCollaboValid;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
+
+    /**
+     * Get the code prime.
+     *
+     * @return string Returns the code prime.
+     */
+    public function getCodePrime() {
+        return $this->codePrime;
+    }
+
+    /**
+     * Get the code tache.
+     *
+     * @return string Returns the code tache.
+     */
+    public function getCodeTache() {
+        return $this->codeTache;
+    }
+
+    /**
+     * Get the code tache type bt.
+     *
+     * @return string Returns the code tache type bt.
+     */
+    public function getCodeTacheTypeBt() {
+        return $this->codeTacheTypeBt;
+    }
+
+    /**
+     * Get the date application.
+     *
+     * @return DateTime|null Returns the date application.
+     */
+    public function getDateApplication() {
+        return $this->dateApplication;
+    }
+
+    /**
+     * Get the date validation synchro.
+     *
+     * @return DateTime|null Returns the date validation synchro.
+     */
+    public function getDateValidationSynchro() {
+        return $this->dateValidationSynchro;
+    }
+
+    /**
+     * Get the defaut.
+     *
+     * @return bool Returns the defaut.
+     */
+    public function getDefaut() {
+        return $this->defaut;
+    }
+
+    /**
+     * Get the etat.
+     *
+     * @return string Returns the etat.
+     */
+    public function getEtat() {
+        return $this->etat;
+    }
+
+    /**
+     * Get the nb heure majoration.
+     *
+     * @return float Returns the nb heure majoration.
+     */
+    public function getNbHeureMajoration() {
+        return $this->nbHeureMajoration;
+    }
+
+    /**
+     * Get the nombre prime.
+     *
+     * @return float Returns the nombre prime.
+     */
+    public function getNombrePrime() {
+        return $this->nombrePrime;
+    }
+
+    /**
+     * Get the num bt.
+     *
+     * @return int Returns the num bt.
+     */
+    public function getNumBt() {
+        return $this->numBt;
+    }
+
+    /**
+     * Get the numero prime.
+     *
+     * @return int Returns the numero prime.
+     */
+    public function getNumeroPrime() {
+        return $this->numeroPrime;
+    }
+
+    /**
+     * Get the periode.
+     *
+     * @return DateTime|null Returns the periode.
+     */
+    public function getPeriode() {
+        return $this->periode;
+    }
+
+    /**
+     * Get the taux prime.
+     *
+     * @return float Returns the taux prime.
+     */
+    public function getTauxPrime() {
+        return $this->tauxPrime;
+    }
+
+    /**
+     * Get the type majo.
+     *
+     * @return string Returns the type majo.
+     */
+    public function getTypeMajo() {
+        return $this->typeMajo;
+    }
+
+    /**
+     * Get the type prime.
+     *
+     * @return string Returns the type prime.
+     */
+    public function getTypePrime() {
+        return $this->typePrime;
+    }
+
+    /**
+     * Get the uniq id synchro.
+     *
+     * @return string Returns the uniq id synchro.
+     */
+    public function getUniqIdSynchro() {
+        return $this->uniqIdSynchro;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code collabo valid.
+     *
+     * @param string $codeCollaboValid The code collabo valid.
+     */
+    public function setCodeCollaboValid($codeCollaboValid) {
+        $this->codeCollaboValid = $codeCollaboValid;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the code prime.
+     *
+     * @param string $codePrime The code prime.
+     */
+    public function setCodePrime($codePrime) {
+        $this->codePrime = $codePrime;
+        return $this;
+    }
+
+    /**
+     * Set the code tache.
+     *
+     * @param string $codeTache The code tache.
+     */
+    public function setCodeTache($codeTache) {
+        $this->codeTache = $codeTache;
+        return $this;
+    }
+
+    /**
+     * Set the code tache type bt.
+     *
+     * @param string $codeTacheTypeBt The code tache type bt.
+     */
+    public function setCodeTacheTypeBt($codeTacheTypeBt) {
+        $this->codeTacheTypeBt = $codeTacheTypeBt;
+        return $this;
+    }
+
+    /**
+     * Set the date application.
+     *
+     * @param DateTime|null $dateApplication The date application.
+     */
+    public function setDateApplication(DateTime $dateApplication = null) {
+        $this->dateApplication = $dateApplication;
+        return $this;
+    }
+
+    /**
+     * Set the date validation synchro.
+     *
+     * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     */
+    public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
+        $this->dateValidationSynchro = $dateValidationSynchro;
+        return $this;
+    }
+
+    /**
+     * Set the defaut.
+     *
+     * @param bool $defaut The defaut.
+     */
+    public function setDefaut($defaut) {
+        $this->defaut = $defaut;
+        return $this;
+    }
+
+    /**
+     * Set the etat.
+     *
+     * @param string $etat The etat.
+     */
+    public function setEtat($etat) {
+        $this->etat = $etat;
+        return $this;
+    }
+
+    /**
+     * Set the nb heure majoration.
+     *
+     * @param float $nbHeureMajoration The nb heure majoration.
+     */
+    public function setNbHeureMajoration($nbHeureMajoration) {
+        $this->nbHeureMajoration = $nbHeureMajoration;
+        return $this;
+    }
+
+    /**
+     * Set the nombre prime.
+     *
+     * @param float $nombrePrime The nombre prime.
+     */
+    public function setNombrePrime($nombrePrime) {
+        $this->nombrePrime = $nombrePrime;
+        return $this;
+    }
+
+    /**
+     * Set the num bt.
+     *
+     * @param int $numBt The num bt.
+     */
+    public function setNumBt($numBt) {
+        $this->numBt = $numBt;
+        return $this;
+    }
+
+    /**
+     * Set the numero prime.
+     *
+     * @param int $numeroPrime The numero prime.
+     */
+    public function setNumeroPrime($numeroPrime) {
+        $this->numeroPrime = $numeroPrime;
+        return $this;
+    }
+
+    /**
+     * Set the periode.
+     *
+     * @param DateTime|null $periode The periode.
+     */
+    public function setPeriode(DateTime $periode = null) {
+        $this->periode = $periode;
+        return $this;
+    }
+
+    /**
+     * Set the taux prime.
+     *
+     * @param float $tauxPrime The taux prime.
+     */
+    public function setTauxPrime($tauxPrime) {
+        $this->tauxPrime = $tauxPrime;
+        return $this;
+    }
+
+    /**
+     * Set the type majo.
+     *
+     * @param string $typeMajo The type majo.
+     */
+    public function setTypeMajo($typeMajo) {
+        $this->typeMajo = $typeMajo;
+        return $this;
+    }
+
+    /**
+     * Set the type prime.
+     *
+     * @param string $typePrime The type prime.
+     */
+    public function setTypePrime($typePrime) {
+        $this->typePrime = $typePrime;
+        return $this;
+    }
+
+    /**
+     * Set the uniq id synchro.
+     *
+     * @param string $uniqIdSynchro The uniq id synchro.
+     */
+    public function setUniqIdSynchro($uniqIdSynchro) {
+        $this->uniqIdSynchro = $uniqIdSynchro;
+        return $this;
     }
 }

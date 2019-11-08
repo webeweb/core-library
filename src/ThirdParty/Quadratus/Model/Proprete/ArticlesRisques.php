@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRisqueTrait;
-
 /**
  * Articles risques.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRisqueTrait;
  */
 class ArticlesRisques {
 
-    use StringCodeArticleTrait;
-    use StringCodeRisqueTrait;
+    /**
+     * Code article.
+     *
+     * @var string
+     */
+    private $codeArticle;
+
+    /**
+     * Code risque.
+     *
+     * @var string
+     */
+    private $codeRisque;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code article.
+     *
+     * @return string Returns the code article.
+     */
+    public function getCodeArticle() {
+        return $this->codeArticle;
+    }
+
+    /**
+     * Get the code risque.
+     *
+     * @return string Returns the code risque.
+     */
+    public function getCodeRisque() {
+        return $this->codeRisque;
+    }
+
+    /**
+     * Set the code article.
+     *
+     * @param string $codeArticle The code article.
+     */
+    public function setCodeArticle($codeArticle) {
+        $this->codeArticle = $codeArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code risque.
+     *
+     * @param string $codeRisque The code risque.
+     */
+    public function setCodeRisque($codeRisque) {
+        $this->codeRisque = $codeRisque;
+        return $this;
     }
 }

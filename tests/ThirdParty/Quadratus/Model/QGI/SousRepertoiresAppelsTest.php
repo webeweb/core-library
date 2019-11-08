@@ -38,4 +38,82 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
         $this->assertNull($obj->getProprietes());
         $this->assertNull($obj->getUniqId());
     }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new SousRepertoiresAppels();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new SousRepertoiresAppels();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setNiveauLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNiveauLigne() {
+
+        $obj = new SousRepertoiresAppels();
+
+        $obj->setNiveauLigne(10);
+        $this->assertEquals(10, $obj->getNiveauLigne());
+    }
+
+    /**
+     * Tests the setNumeroLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroLigne() {
+
+        $obj = new SousRepertoiresAppels();
+
+        $obj->setNumeroLigne(10);
+        $this->assertEquals(10, $obj->getNumeroLigne());
+    }
+
+    /**
+     * Tests the setProprietes() method.
+     *
+     * @return void
+     */
+    public function testSetProprietes() {
+
+        $obj = new SousRepertoiresAppels();
+
+        $obj->setProprietes("proprietes");
+        $this->assertEquals("proprietes", $obj->getProprietes());
+    }
+
+    /**
+     * Tests the setUniqId() method.
+     *
+     * @return void
+     */
+    public function testSetUniqId() {
+
+        $obj = new SousRepertoiresAppels();
+
+        $obj->setUniqId("uniqId");
+        $this->assertEquals("uniqId", $obj->getUniqId());
+    }
 }

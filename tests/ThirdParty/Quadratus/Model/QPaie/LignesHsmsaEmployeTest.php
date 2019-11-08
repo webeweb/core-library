@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesHsmsaEmploye;
 
@@ -42,5 +44,156 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
         $this->assertNull($obj->getPeriodeDecla());
         $this->assertNull($obj->getTauxHs());
         $this->assertNull($obj->getTypeRemunHs());
+    }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setCodeUnite() method.
+     *
+     * @return void
+     */
+    public function testSetCodeUnite() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setCodeUnite("codeUnite");
+        $this->assertEquals("codeUnite", $obj->getCodeUnite());
+    }
+
+    /**
+     * Tests the setMtHs() method.
+     *
+     * @return void
+     */
+    public function testSetMtHs() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setMtHs(10);
+        $this->assertEquals(10, $obj->getMtHs());
+    }
+
+    /**
+     * Tests the setNbHs() method.
+     *
+     * @return void
+     */
+    public function testSetNbHs() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setNbHs(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHs());
+    }
+
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setNumLigne("numLigne");
+        $this->assertEquals("numLigne", $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setNumeroEmploye2() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye2() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setNumeroEmploye2("numeroEmploye2");
+        $this->assertEquals("numeroEmploye2", $obj->getNumeroEmploye2());
+    }
+
+    /**
+     * Tests the setPerDeb() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPerDeb() {
+
+        // Set a Date/time mock.
+        $perDeb = new DateTime("2018-09-10");
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setPerDeb($perDeb);
+        $this->assertSame($perDeb, $obj->getPerDeb());
+    }
+
+    /**
+     * Tests the setPeriodeDecla() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeDecla() {
+
+        // Set a Date/time mock.
+        $periodeDecla = new DateTime("2018-09-10");
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setPeriodeDecla($periodeDecla);
+        $this->assertSame($periodeDecla, $obj->getPeriodeDecla());
+    }
+
+    /**
+     * Tests the setTauxHs() method.
+     *
+     * @return void
+     */
+    public function testSetTauxHs() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setTauxHs(10);
+        $this->assertEquals(10, $obj->getTauxHs());
+    }
+
+    /**
+     * Tests the setTypeRemunHs() method.
+     *
+     * @return void
+     */
+    public function testSetTypeRemunHs() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $obj->setTypeRemunHs("typeRemunHs");
+        $this->assertEquals("typeRemunHs", $obj->getTypeRemunHs());
     }
 }

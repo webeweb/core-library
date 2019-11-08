@@ -11,19 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolDimancheTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolJeudiTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolLundiTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolMardiTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolMercrediTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolSamediTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolVendrediTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumBtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumSemTrait;
-
 /**
  * Bons travaux interventions.
  *
@@ -32,23 +19,322 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumSemTrait;
  */
 class BonsTravauxInterventions {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use BoolDimancheTrait;
-    use BoolJeudiTrait;
-    use BoolLundiTrait;
-    use BoolMardiTrait;
-    use BoolMercrediTrait;
-    use IntNumBtTrait;
-    use StringNumSemTrait;
-    use BoolSamediTrait;
-    use BoolVendrediTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Dimanche.
+     *
+     * @var bool
+     */
+    private $dimanche;
+
+    /**
+     * Jeudi.
+     *
+     * @var bool
+     */
+    private $jeudi;
+
+    /**
+     * Lundi.
+     *
+     * @var bool
+     */
+    private $lundi;
+
+    /**
+     * Mardi.
+     *
+     * @var bool
+     */
+    private $mardi;
+
+    /**
+     * Mercredi.
+     *
+     * @var bool
+     */
+    private $mercredi;
+
+    /**
+     * Num bt.
+     *
+     * @var int
+     */
+    private $numBt;
+
+    /**
+     * Num sem.
+     *
+     * @var string
+     */
+    private $numSem;
+
+    /**
+     * Samedi.
+     *
+     * @var bool
+     */
+    private $samedi;
+
+    /**
+     * Vendredi.
+     *
+     * @var bool
+     */
+    private $vendredi;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the dimanche.
+     *
+     * @return bool Returns the dimanche.
+     */
+    public function getDimanche() {
+        return $this->dimanche;
+    }
+
+    /**
+     * Get the jeudi.
+     *
+     * @return bool Returns the jeudi.
+     */
+    public function getJeudi() {
+        return $this->jeudi;
+    }
+
+    /**
+     * Get the lundi.
+     *
+     * @return bool Returns the lundi.
+     */
+    public function getLundi() {
+        return $this->lundi;
+    }
+
+    /**
+     * Get the mardi.
+     *
+     * @return bool Returns the mardi.
+     */
+    public function getMardi() {
+        return $this->mardi;
+    }
+
+    /**
+     * Get the mercredi.
+     *
+     * @return bool Returns the mercredi.
+     */
+    public function getMercredi() {
+        return $this->mercredi;
+    }
+
+    /**
+     * Get the num bt.
+     *
+     * @return int Returns the num bt.
+     */
+    public function getNumBt() {
+        return $this->numBt;
+    }
+
+    /**
+     * Get the num sem.
+     *
+     * @return string Returns the num sem.
+     */
+    public function getNumSem() {
+        return $this->numSem;
+    }
+
+    /**
+     * Get the samedi.
+     *
+     * @return bool Returns the samedi.
+     */
+    public function getSamedi() {
+        return $this->samedi;
+    }
+
+    /**
+     * Get the vendredi.
+     *
+     * @return bool Returns the vendredi.
+     */
+    public function getVendredi() {
+        return $this->vendredi;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the dimanche.
+     *
+     * @param bool $dimanche The dimanche.
+     */
+    public function setDimanche($dimanche) {
+        $this->dimanche = $dimanche;
+        return $this;
+    }
+
+    /**
+     * Set the jeudi.
+     *
+     * @param bool $jeudi The jeudi.
+     */
+    public function setJeudi($jeudi) {
+        $this->jeudi = $jeudi;
+        return $this;
+    }
+
+    /**
+     * Set the lundi.
+     *
+     * @param bool $lundi The lundi.
+     */
+    public function setLundi($lundi) {
+        $this->lundi = $lundi;
+        return $this;
+    }
+
+    /**
+     * Set the mardi.
+     *
+     * @param bool $mardi The mardi.
+     */
+    public function setMardi($mardi) {
+        $this->mardi = $mardi;
+        return $this;
+    }
+
+    /**
+     * Set the mercredi.
+     *
+     * @param bool $mercredi The mercredi.
+     */
+    public function setMercredi($mercredi) {
+        $this->mercredi = $mercredi;
+        return $this;
+    }
+
+    /**
+     * Set the num bt.
+     *
+     * @param int $numBt The num bt.
+     */
+    public function setNumBt($numBt) {
+        $this->numBt = $numBt;
+        return $this;
+    }
+
+    /**
+     * Set the num sem.
+     *
+     * @param string $numSem The num sem.
+     */
+    public function setNumSem($numSem) {
+        $this->numSem = $numSem;
+        return $this;
+    }
+
+    /**
+     * Set the samedi.
+     *
+     * @param bool $samedi The samedi.
+     */
+    public function setSamedi($samedi) {
+        $this->samedi = $samedi;
+        return $this;
+    }
+
+    /**
+     * Set the vendredi.
+     *
+     * @param bool $vendredi The vendredi.
+     */
+    public function setVendredi($vendredi) {
+        $this->vendredi = $vendredi;
+        return $this;
     }
 }

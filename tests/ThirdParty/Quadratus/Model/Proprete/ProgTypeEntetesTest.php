@@ -34,4 +34,30 @@ class ProgTypeEntetesTest extends AbstractTestCase {
         $this->assertNull($obj->getDesignation());
         $this->assertNull($obj->getNumProgramme());
     }
+
+    /**
+     * Tests the setDesignation() method.
+     *
+     * @return void
+     */
+    public function testSetDesignation() {
+
+        $obj = new ProgTypeEntetes();
+
+        $obj->setDesignation("designation");
+        $this->assertEquals("designation", $obj->getDesignation());
+    }
+
+    /**
+     * Tests the setNumProgramme() method.
+     *
+     * @return void
+     */
+    public function testSetNumProgramme() {
+
+        $obj = new ProgTypeEntetes();
+
+        $obj->setNumProgramme(10);
+        $this->assertEquals(10, $obj->getNumProgramme());
+    }
 }

@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeGroupeTrait;
-
 /**
  * Agenda groupes compos.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeGroupeTrait;
  */
 class AgendaGroupesCompos {
 
-    use StringCodeCollaborateurTrait;
-    use StringCodeGroupeTrait;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Code groupe.
+     *
+     * @var string
+     */
+    private $codeGroupe;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the code groupe.
+     *
+     * @return string Returns the code groupe.
+     */
+    public function getCodeGroupe() {
+        return $this->codeGroupe;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the code groupe.
+     *
+     * @param string $codeGroupe The code groupe.
+     */
+    public function setCodeGroupe($codeGroupe) {
+        $this->codeGroupe = $codeGroupe;
+        return $this;
     }
 }

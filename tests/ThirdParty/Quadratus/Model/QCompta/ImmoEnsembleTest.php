@@ -35,4 +35,43 @@ class ImmoEnsembleTest extends AbstractTestCase {
         $this->assertNull($obj->getNumeroCompte());
         $this->assertNull($obj->getNumeroEnsemble());
     }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new ImmoEnsemble();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setNumeroCompte() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroCompte() {
+
+        $obj = new ImmoEnsemble();
+
+        $obj->setNumeroCompte("numeroCompte");
+        $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the setNumeroEnsemble() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEnsemble() {
+
+        $obj = new ImmoEnsemble();
+
+        $obj->setNumeroEnsemble(10);
+        $this->assertEquals(10, $obj->getNumeroEnsemble());
+    }
 }

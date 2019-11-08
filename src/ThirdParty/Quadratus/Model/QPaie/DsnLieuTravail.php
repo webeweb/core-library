@@ -11,21 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringBtqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringBureauDistributeurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeDistributionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeInseeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeNafTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePaysTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePostalTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComplementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComplementVoieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIdTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNatureJuridiqueTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomVoieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumVoieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRaisonSocialeTrait;
-
 /**
  * Dsn lieu travail.
  *
@@ -34,25 +19,374 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRaisonSocialeTrait;
  */
 class DsnLieuTravail {
 
-    use StringBtqTrait;
-    use StringBureauDistributeurTrait;
-    use StringCodeDistributionTrait;
-    use StringCodeInseeTrait;
-    use StringCodeNafTrait;
-    use StringCodePaysTrait;
-    use StringCodePostalTrait;
-    use StringComplementTrait;
-    use StringComplementVoieTrait;
-    use StringIdTrait;
-    use StringNatureJuridiqueTrait;
-    use StringNomVoieTrait;
-    use StringNumVoieTrait;
-    use StringRaisonSocialeTrait;
+    /**
+     * Btq.
+     *
+     * @var string
+     */
+    private $btq;
+
+    /**
+     * Bureau distributeur.
+     *
+     * @var string
+     */
+    private $bureauDistributeur;
+
+    /**
+     * Code distribution.
+     *
+     * @var string
+     */
+    private $codeDistribution;
+
+    /**
+     * Code insee.
+     *
+     * @var string
+     */
+    private $codeInsee;
+
+    /**
+     * Code naf.
+     *
+     * @var string
+     */
+    private $codeNaf;
+
+    /**
+     * Code pays.
+     *
+     * @var string
+     */
+    private $codePays;
+
+    /**
+     * Code postal.
+     *
+     * @var string
+     */
+    private $codePostal;
+
+    /**
+     * Complement.
+     *
+     * @var string
+     */
+    private $complement;
+
+    /**
+     * Complement voie.
+     *
+     * @var string
+     */
+    private $complementVoie;
+
+    /**
+     * Id.
+     *
+     * @var string
+     */
+    private $id;
+
+    /**
+     * Nature juridique.
+     *
+     * @var string
+     */
+    private $natureJuridique;
+
+    /**
+     * Nom voie.
+     *
+     * @var string
+     */
+    private $nomVoie;
+
+    /**
+     * Num voie.
+     *
+     * @var string
+     */
+    private $numVoie;
+
+    /**
+     * Raison sociale.
+     *
+     * @var string
+     */
+    private $raisonSociale;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the btq.
+     *
+     * @return string Returns the btq.
+     */
+    public function getBtq() {
+        return $this->btq;
+    }
+
+    /**
+     * Get the bureau distributeur.
+     *
+     * @return string Returns the bureau distributeur.
+     */
+    public function getBureauDistributeur() {
+        return $this->bureauDistributeur;
+    }
+
+    /**
+     * Get the code distribution.
+     *
+     * @return string Returns the code distribution.
+     */
+    public function getCodeDistribution() {
+        return $this->codeDistribution;
+    }
+
+    /**
+     * Get the code insee.
+     *
+     * @return string Returns the code insee.
+     */
+    public function getCodeInsee() {
+        return $this->codeInsee;
+    }
+
+    /**
+     * Get the code naf.
+     *
+     * @return string Returns the code naf.
+     */
+    public function getCodeNaf() {
+        return $this->codeNaf;
+    }
+
+    /**
+     * Get the code pays.
+     *
+     * @return string Returns the code pays.
+     */
+    public function getCodePays() {
+        return $this->codePays;
+    }
+
+    /**
+     * Get the code postal.
+     *
+     * @return string Returns the code postal.
+     */
+    public function getCodePostal() {
+        return $this->codePostal;
+    }
+
+    /**
+     * Get the complement.
+     *
+     * @return string Returns the complement.
+     */
+    public function getComplement() {
+        return $this->complement;
+    }
+
+    /**
+     * Get the complement voie.
+     *
+     * @return string Returns the complement voie.
+     */
+    public function getComplementVoie() {
+        return $this->complementVoie;
+    }
+
+    /**
+     * Get the id.
+     *
+     * @return string Returns the id.
+     */
+    public function getId() {
+        return $this->id;
+    }
+
+    /**
+     * Get the nature juridique.
+     *
+     * @return string Returns the nature juridique.
+     */
+    public function getNatureJuridique() {
+        return $this->natureJuridique;
+    }
+
+    /**
+     * Get the nom voie.
+     *
+     * @return string Returns the nom voie.
+     */
+    public function getNomVoie() {
+        return $this->nomVoie;
+    }
+
+    /**
+     * Get the num voie.
+     *
+     * @return string Returns the num voie.
+     */
+    public function getNumVoie() {
+        return $this->numVoie;
+    }
+
+    /**
+     * Get the raison sociale.
+     *
+     * @return string Returns the raison sociale.
+     */
+    public function getRaisonSociale() {
+        return $this->raisonSociale;
+    }
+
+    /**
+     * Set the btq.
+     *
+     * @param string $btq The btq.
+     */
+    public function setBtq($btq) {
+        $this->btq = $btq;
+        return $this;
+    }
+
+    /**
+     * Set the bureau distributeur.
+     *
+     * @param string $bureauDistributeur The bureau distributeur.
+     */
+    public function setBureauDistributeur($bureauDistributeur) {
+        $this->bureauDistributeur = $bureauDistributeur;
+        return $this;
+    }
+
+    /**
+     * Set the code distribution.
+     *
+     * @param string $codeDistribution The code distribution.
+     */
+    public function setCodeDistribution($codeDistribution) {
+        $this->codeDistribution = $codeDistribution;
+        return $this;
+    }
+
+    /**
+     * Set the code insee.
+     *
+     * @param string $codeInsee The code insee.
+     */
+    public function setCodeInsee($codeInsee) {
+        $this->codeInsee = $codeInsee;
+        return $this;
+    }
+
+    /**
+     * Set the code naf.
+     *
+     * @param string $codeNaf The code naf.
+     */
+    public function setCodeNaf($codeNaf) {
+        $this->codeNaf = $codeNaf;
+        return $this;
+    }
+
+    /**
+     * Set the code pays.
+     *
+     * @param string $codePays The code pays.
+     */
+    public function setCodePays($codePays) {
+        $this->codePays = $codePays;
+        return $this;
+    }
+
+    /**
+     * Set the code postal.
+     *
+     * @param string $codePostal The code postal.
+     */
+    public function setCodePostal($codePostal) {
+        $this->codePostal = $codePostal;
+        return $this;
+    }
+
+    /**
+     * Set the complement.
+     *
+     * @param string $complement The complement.
+     */
+    public function setComplement($complement) {
+        $this->complement = $complement;
+        return $this;
+    }
+
+    /**
+     * Set the complement voie.
+     *
+     * @param string $complementVoie The complement voie.
+     */
+    public function setComplementVoie($complementVoie) {
+        $this->complementVoie = $complementVoie;
+        return $this;
+    }
+
+    /**
+     * Set the id.
+     *
+     * @param string $id The id.
+     */
+    public function setId($id) {
+        $this->id = $id;
+        return $this;
+    }
+
+    /**
+     * Set the nature juridique.
+     *
+     * @param string $natureJuridique The nature juridique.
+     */
+    public function setNatureJuridique($natureJuridique) {
+        $this->natureJuridique = $natureJuridique;
+        return $this;
+    }
+
+    /**
+     * Set the nom voie.
+     *
+     * @param string $nomVoie The nom voie.
+     */
+    public function setNomVoie($nomVoie) {
+        $this->nomVoie = $nomVoie;
+        return $this;
+    }
+
+    /**
+     * Set the num voie.
+     *
+     * @param string $numVoie The num voie.
+     */
+    public function setNumVoie($numVoie) {
+        $this->numVoie = $numVoie;
+        return $this;
+    }
+
+    /**
+     * Set the raison sociale.
+     *
+     * @param string $raisonSociale The raison sociale.
+     */
+    public function setRaisonSociale($raisonSociale) {
+        $this->raisonSociale = $raisonSociale;
+        return $this;
     }
 }

@@ -41,4 +41,121 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
         $this->assertNull($obj->getModifiable());
         $this->assertNull($obj->getSansImages());
     }
+
+    /**
+     * Tests the setABloquer() method.
+     *
+     * @return void
+     */
+    public function testSetABloquer() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setABloquer("aBloquer");
+        $this->assertEquals("aBloquer", $obj->getABloquer());
+    }
+
+    /**
+     * Tests the setAEmettre() method.
+     *
+     * @return void
+     */
+    public function testSetAEmettre() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setAEmettre("aEmettre");
+        $this->assertEquals("aEmettre", $obj->getAEmettre());
+    }
+
+    /**
+     * Tests the setAccepteDepuisQBureau() method.
+     *
+     * @return void
+     */
+    public function testSetAccepteDepuisQBureau() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setAccepteDepuisQBureau(true);
+        $this->assertEquals(true, $obj->getAccepteDepuisQBureau());
+    }
+
+    /**
+     * Tests the setAccepteDepuisQc() method.
+     *
+     * @return void
+     */
+    public function testSetAccepteDepuisQc() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setAccepteDepuisQc(true);
+        $this->assertEquals(true, $obj->getAccepteDepuisQc());
+    }
+
+    /**
+     * Tests the setAccepteDepuisQp() method.
+     *
+     * @return void
+     */
+    public function testSetAccepteDepuisQp() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setAccepteDepuisQp(true);
+        $this->assertEquals(true, $obj->getAccepteDepuisQp());
+    }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setModifiable() method.
+     *
+     * @return void
+     */
+    public function testSetModifiable() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setModifiable(true);
+        $this->assertEquals(true, $obj->getModifiable());
+    }
+
+    /**
+     * Tests the setSansImages() method.
+     *
+     * @return void
+     */
+    public function testSetSansImages() {
+
+        $obj = new LiaisonsTypesEnvois();
+
+        $obj->setSansImages(true);
+        $this->assertEquals(true, $obj->getSansImages());
+    }
 }

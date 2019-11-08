@@ -11,16 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantCreditTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantDebitTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMissionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCompteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumEnteteTrait;
-
 /**
  * Fact fourn lignes.
  *
@@ -29,20 +19,244 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumEnteteTrait;
  */
 class FactFournLignes {
 
-    use StringCodeClientTrait;
-    use StringCodeMissionTrait;
-    use StringCollaborateurTrait;
-    use StringCompteTrait;
-    use StringLibelleTrait;
-    use FloatMontantCreditTrait;
-    use FloatMontantDebitTrait;
-    use StringNumEnteteTrait;
-    use IntNumLigneTrait;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code mission.
+     *
+     * @var string
+     */
+    private $codeMission;
+
+    /**
+     * Collaborateur.
+     *
+     * @var string
+     */
+    private $collaborateur;
+
+    /**
+     * Compte.
+     *
+     * @var string
+     */
+    private $compte;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Montant credit.
+     *
+     * @var float
+     */
+    private $montantCredit;
+
+    /**
+     * Montant debit.
+     *
+     * @var float
+     */
+    private $montantDebit;
+
+    /**
+     * Num entete.
+     *
+     * @var string
+     */
+    private $numEntete;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code mission.
+     *
+     * @return string Returns the code mission.
+     */
+    public function getCodeMission() {
+        return $this->codeMission;
+    }
+
+    /**
+     * Get the collaborateur.
+     *
+     * @return string Returns the collaborateur.
+     */
+    public function getCollaborateur() {
+        return $this->collaborateur;
+    }
+
+    /**
+     * Get the compte.
+     *
+     * @return string Returns the compte.
+     */
+    public function getCompte() {
+        return $this->compte;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the montant credit.
+     *
+     * @return float Returns the montant credit.
+     */
+    public function getMontantCredit() {
+        return $this->montantCredit;
+    }
+
+    /**
+     * Get the montant debit.
+     *
+     * @return float Returns the montant debit.
+     */
+    public function getMontantDebit() {
+        return $this->montantDebit;
+    }
+
+    /**
+     * Get the num entete.
+     *
+     * @return string Returns the num entete.
+     */
+    public function getNumEntete() {
+        return $this->numEntete;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code mission.
+     *
+     * @param string $codeMission The code mission.
+     */
+    public function setCodeMission($codeMission) {
+        $this->codeMission = $codeMission;
+        return $this;
+    }
+
+    /**
+     * Set the collaborateur.
+     *
+     * @param string $collaborateur The collaborateur.
+     */
+    public function setCollaborateur($collaborateur) {
+        $this->collaborateur = $collaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the compte.
+     *
+     * @param string $compte The compte.
+     */
+    public function setCompte($compte) {
+        $this->compte = $compte;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the montant credit.
+     *
+     * @param float $montantCredit The montant credit.
+     */
+    public function setMontantCredit($montantCredit) {
+        $this->montantCredit = $montantCredit;
+        return $this;
+    }
+
+    /**
+     * Set the montant debit.
+     *
+     * @param float $montantDebit The montant debit.
+     */
+    public function setMontantDebit($montantDebit) {
+        $this->montantDebit = $montantDebit;
+        return $this;
+    }
+
+    /**
+     * Set the num entete.
+     *
+     * @param string $numEntete The num entete.
+     */
+    public function setNumEntete($numEntete) {
+        $this->numEntete = $numEntete;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
     }
 }

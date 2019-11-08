@@ -35,4 +35,43 @@ class LibelleTest extends AbstractTestCase {
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getType());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new Libelle();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new Libelle();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new Libelle();
+
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 }

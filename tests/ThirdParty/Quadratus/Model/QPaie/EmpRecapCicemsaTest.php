@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpRecapCicemsa;
 
@@ -42,5 +44,152 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
         $this->assertNull($obj->getRemunBrutCice());
         $this->assertNull($obj->getSmicMcice());
         $this->assertNull($obj->getSortieMois());
+    }
+
+    /**
+     * Tests the setCaisseCp() method.
+     *
+     * @return void
+     */
+    public function testSetCaisseCp() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setCaisseCp(true);
+        $this->assertEquals(true, $obj->getCaisseCp());
+    }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setCodeUnite() method.
+     *
+     * @return void
+     */
+    public function testSetCodeUnite() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setCodeUnite("codeUnite");
+        $this->assertEquals("codeUnite", $obj->getCodeUnite());
+    }
+
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
+
+    /**
+     * Tests the setNomEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNomEmploye() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setNomEmploye("nomEmploye");
+        $this->assertEquals("nomEmploye", $obj->getNomEmploye());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the setRemunAssietteCice() method.
+     *
+     * @return void
+     */
+    public function testSetRemunAssietteCice() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setRemunAssietteCice(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemunAssietteCice());
+    }
+
+    /**
+     * Tests the setRemunBrutCice() method.
+     *
+     * @return void
+     */
+    public function testSetRemunBrutCice() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setRemunBrutCice(10.092018);
+        $this->assertEquals(10.092018, $obj->getRemunBrutCice());
+    }
+
+    /**
+     * Tests the setSmicMcice() method.
+     *
+     * @return void
+     */
+    public function testSetSmicMcice() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setSmicMcice(10.092018);
+        $this->assertEquals(10.092018, $obj->getSmicMcice());
+    }
+
+    /**
+     * Tests the setSortieMois() method.
+     *
+     * @return void
+     */
+    public function testSetSortieMois() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $obj->setSortieMois(true);
+        $this->assertEquals(true, $obj->getSortieMois());
     }
 }

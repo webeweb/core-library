@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DernErrPrepaFact;
 
@@ -39,5 +41,117 @@ class DernErrPrepaFactTest extends AbstractTestCase {
         $this->assertNull($obj->getDtPrepa());
         $this->assertNull($obj->getNoChronoPreparation());
         $this->assertNull($obj->getPeriode());
+    }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new DernErrPrepaFact();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new DernErrPrepaFact();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new DernErrPrepaFact();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setCodeRegroupement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeRegroupement() {
+
+        $obj = new DernErrPrepaFact();
+
+        $obj->setCodeRegroupement("codeRegroupement");
+        $this->assertEquals("codeRegroupement", $obj->getCodeRegroupement());
+    }
+
+    /**
+     * Tests the setDesignation() method.
+     *
+     * @return void
+     */
+    public function testSetDesignation() {
+
+        $obj = new DernErrPrepaFact();
+
+        $obj->setDesignation("designation");
+        $this->assertEquals("designation", $obj->getDesignation());
+    }
+
+    /**
+     * Tests the setDtPrepa() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDtPrepa() {
+
+        // Set a Date/time mock.
+        $dtPrepa = new DateTime("2018-09-10");
+
+        $obj = new DernErrPrepaFact();
+
+        $obj->setDtPrepa($dtPrepa);
+        $this->assertSame($dtPrepa, $obj->getDtPrepa());
+    }
+
+    /**
+     * Tests the setNoChronoPreparation() method.
+     *
+     * @return void
+     */
+    public function testSetNoChronoPreparation() {
+
+        $obj = new DernErrPrepaFact();
+
+        $obj->setNoChronoPreparation(10);
+        $this->assertEquals(10, $obj->getNoChronoPreparation());
+    }
+
+    /**
+     * Tests the setPeriode() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriode() {
+
+        // Set a Date/time mock.
+        $periode = new DateTime("2018-09-10");
+
+        $obj = new DernErrPrepaFact();
+
+        $obj->setPeriode($periode);
+        $this->assertSame($periode, $obj->getPeriode());
     }
 }

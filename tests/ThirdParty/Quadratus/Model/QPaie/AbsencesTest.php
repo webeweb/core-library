@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Absences;
 
@@ -53,5 +55,311 @@ class AbsencesTest extends AbstractTestCase {
         $this->assertNull($obj->getProlongation());
         $this->assertNull($obj->getReprise());
         $this->assertNull($obj->getTypeAbs());
+    }
+
+    /**
+     * Tests the setAbsJour() method.
+     *
+     * @return void
+     */
+    public function testSetAbsJour() {
+
+        $obj = new Absences();
+
+        $obj->setAbsJour(true);
+        $this->assertEquals(true, $obj->getAbsJour());
+    }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new Absences();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setCodeUser() method.
+     *
+     * @return void
+     */
+    public function testSetCodeUser() {
+
+        $obj = new Absences();
+
+        $obj->setCodeUser("codeUser");
+        $this->assertEquals("codeUser", $obj->getCodeUser());
+    }
+
+    /**
+     * Tests the setCongesPayes() method.
+     *
+     * @return void
+     */
+    public function testSetCongesPayes() {
+
+        $obj = new Absences();
+
+        $obj->setCongesPayes(true);
+        $this->assertEquals(true, $obj->getCongesPayes());
+    }
+
+    /**
+     * Tests the setDateAdded() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateAdded() {
+
+        // Set a Date/time mock.
+        $dateAdded = new DateTime("2018-09-10");
+
+        $obj = new Absences();
+
+        $obj->setDateAdded($dateAdded);
+        $this->assertSame($dateAdded, $obj->getDateAdded());
+    }
+
+    /**
+     * Tests the setDateAddedColl() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateAddedColl() {
+
+        // Set a Date/time mock.
+        $dateAddedColl = new DateTime("2018-09-10");
+
+        $obj = new Absences();
+
+        $obj->setDateAddedColl($dateAddedColl);
+        $this->assertSame($dateAddedColl, $obj->getDateAddedColl());
+    }
+
+    /**
+     * Tests the setInBul() method.
+     *
+     * @return void
+     */
+    public function testSetInBul() {
+
+        $obj = new Absences();
+
+        $obj->setInBul(true);
+        $this->assertEquals(true, $obj->getInBul());
+    }
+
+    /**
+     * Tests the setIndicePeriode() method.
+     *
+     * @return void
+     */
+    public function testSetIndicePeriode() {
+
+        $obj = new Absences();
+
+        $obj->setIndicePeriode(10);
+        $this->assertEquals(10, $obj->getIndicePeriode());
+    }
+
+    /**
+     * Tests the setNb30() method.
+     *
+     * @return void
+     */
+    public function testSetNb30() {
+
+        $obj = new Absences();
+
+        $obj->setNb30(10.092018);
+        $this->assertEquals(10.092018, $obj->getNb30());
+    }
+
+    /**
+     * Tests the setNbHAbCpCalcule() method.
+     *
+     * @return void
+     */
+    public function testSetNbHAbCpCalcule() {
+
+        $obj = new Absences();
+
+        $obj->setNbHAbCpCalcule(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHAbCpCalcule());
+    }
+
+    /**
+     * Tests the setNbHAbCpSaisi() method.
+     *
+     * @return void
+     */
+    public function testSetNbHAbCpSaisi() {
+
+        $obj = new Absences();
+
+        $obj->setNbHAbCpSaisi(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbHAbCpSaisi());
+    }
+
+    /**
+     * Tests the setNbJh() method.
+     *
+     * @return void
+     */
+    public function testSetNbJh() {
+
+        $obj = new Absences();
+
+        $obj->setNbJh(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJh());
+    }
+
+    /**
+     * Tests the setNbJhCalcule() method.
+     *
+     * @return void
+     */
+    public function testSetNbJhCalcule() {
+
+        $obj = new Absences();
+
+        $obj->setNbJhCalcule(10.092018);
+        $this->assertEquals(10.092018, $obj->getNbJhCalcule());
+    }
+
+    /**
+     * Tests the setNumEvenement() method.
+     *
+     * @return void
+     */
+    public function testSetNumEvenement() {
+
+        $obj = new Absences();
+
+        $obj->setNumEvenement(10);
+        $this->assertEquals(10, $obj->getNumEvenement());
+    }
+
+    /**
+     * Tests the setNumUniq() method.
+     *
+     * @return void
+     */
+    public function testSetNumUniq() {
+
+        $obj = new Absences();
+
+        $obj->setNumUniq(10);
+        $this->assertEquals(10, $obj->getNumUniq());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new Absences();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setPeriodeBul() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeBul() {
+
+        // Set a Date/time mock.
+        $periodeBul = new DateTime("2018-09-10");
+
+        $obj = new Absences();
+
+        $obj->setPeriodeBul($periodeBul);
+        $this->assertSame($periodeBul, $obj->getPeriodeBul());
+    }
+
+    /**
+     * Tests the setPeriodeDeb() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeDeb() {
+
+        // Set a Date/time mock.
+        $periodeDeb = new DateTime("2018-09-10");
+
+        $obj = new Absences();
+
+        $obj->setPeriodeDeb($periodeDeb);
+        $this->assertSame($periodeDeb, $obj->getPeriodeDeb());
+    }
+
+    /**
+     * Tests the setPeriodeFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeFin() {
+
+        // Set a Date/time mock.
+        $periodeFin = new DateTime("2018-09-10");
+
+        $obj = new Absences();
+
+        $obj->setPeriodeFin($periodeFin);
+        $this->assertSame($periodeFin, $obj->getPeriodeFin());
+    }
+
+    /**
+     * Tests the setProlongation() method.
+     *
+     * @return void
+     */
+    public function testSetProlongation() {
+
+        $obj = new Absences();
+
+        $obj->setProlongation(true);
+        $this->assertEquals(true, $obj->getProlongation());
+    }
+
+    /**
+     * Tests the setReprise() method.
+     *
+     * @return void
+     */
+    public function testSetReprise() {
+
+        $obj = new Absences();
+
+        $obj->setReprise(true);
+        $this->assertEquals(true, $obj->getReprise());
+    }
+
+    /**
+     * Tests the setTypeAbs() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAbs() {
+
+        $obj = new Absences();
+
+        $obj->setTypeAbs("typeAbs");
+        $this->assertEquals("typeAbs", $obj->getTypeAbs());
     }
 }

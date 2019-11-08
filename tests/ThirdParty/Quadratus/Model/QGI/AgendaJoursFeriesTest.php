@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AgendaJoursFeries;
 
@@ -35,5 +37,61 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
         $this->assertNull($obj->getDateFeriee());
         $this->assertNull($obj->getLibelle());
         $this->assertNull($obj->getType());
+    }
+
+    /**
+     * Tests the setCalculee() method.
+     *
+     * @return void
+     */
+    public function testSetCalculee() {
+
+        $obj = new AgendaJoursFeries();
+
+        $obj->setCalculee(true);
+        $this->assertEquals(true, $obj->getCalculee());
+    }
+
+    /**
+     * Tests the setDateFeriee() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateFeriee() {
+
+        // Set a Date/time mock.
+        $dateFeriee = new DateTime("2018-09-10");
+
+        $obj = new AgendaJoursFeries();
+
+        $obj->setDateFeriee($dateFeriee);
+        $this->assertSame($dateFeriee, $obj->getDateFeriee());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new AgendaJoursFeries();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new AgendaJoursFeries();
+
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
     }
 }

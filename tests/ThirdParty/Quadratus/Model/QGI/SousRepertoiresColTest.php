@@ -35,4 +35,43 @@ class SousRepertoiresColTest extends AbstractTestCase {
         $this->assertNull($obj->getNom());
         $this->assertNull($obj->getNumSousRep());
     }
+
+    /**
+     * Tests the setCodeCollaborateur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollaborateur() {
+
+        $obj = new SousRepertoiresCol();
+
+        $obj->setCodeCollaborateur("codeCollaborateur");
+        $this->assertEquals("codeCollaborateur", $obj->getCodeCollaborateur());
+    }
+
+    /**
+     * Tests the setNom() method.
+     *
+     * @return void
+     */
+    public function testSetNom() {
+
+        $obj = new SousRepertoiresCol();
+
+        $obj->setNom("nom");
+        $this->assertEquals("nom", $obj->getNom());
+    }
+
+    /**
+     * Tests the setNumSousRep() method.
+     *
+     * @return void
+     */
+    public function testSetNumSousRep() {
+
+        $obj = new SousRepertoiresCol();
+
+        $obj->setNumSousRep(10);
+        $this->assertEquals(10, $obj->getNumSousRep());
+    }
 }

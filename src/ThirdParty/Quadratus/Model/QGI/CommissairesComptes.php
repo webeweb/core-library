@@ -11,13 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolTitulaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateNominationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDureeMandatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntPositionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCacTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringObservationsTrait;
+use DateTime;
 
 /**
  * Commissaires comptes.
@@ -27,18 +21,192 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringObservationsTrait;
  */
 class CommissairesComptes {
 
-    use StringCodeCacTrait;
-    use StringCodeClientTrait;
-    use DateTimeDateNominationTrait;
-    use IntDureeMandatTrait;
-    use StringObservationsTrait;
-    use IntPositionTrait;
-    use BoolTitulaireTrait;
+    /**
+     * Code cac.
+     *
+     * @var string
+     */
+    private $codeCac;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Date nomination.
+     *
+     * @var DateTime|null
+     */
+    private $dateNomination;
+
+    /**
+     * Duree mandat.
+     *
+     * @var int
+     */
+    private $dureeMandat;
+
+    /**
+     * Observations.
+     *
+     * @var string
+     */
+    private $observations;
+
+    /**
+     * Position.
+     *
+     * @var int
+     */
+    private $position;
+
+    /**
+     * Titulaire.
+     *
+     * @var bool
+     */
+    private $titulaire;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code cac.
+     *
+     * @return string Returns the code cac.
+     */
+    public function getCodeCac() {
+        return $this->codeCac;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the date nomination.
+     *
+     * @return DateTime|null Returns the date nomination.
+     */
+    public function getDateNomination() {
+        return $this->dateNomination;
+    }
+
+    /**
+     * Get the duree mandat.
+     *
+     * @return int Returns the duree mandat.
+     */
+    public function getDureeMandat() {
+        return $this->dureeMandat;
+    }
+
+    /**
+     * Get the observations.
+     *
+     * @return string Returns the observations.
+     */
+    public function getObservations() {
+        return $this->observations;
+    }
+
+    /**
+     * Get the position.
+     *
+     * @return int Returns the position.
+     */
+    public function getPosition() {
+        return $this->position;
+    }
+
+    /**
+     * Get the titulaire.
+     *
+     * @return bool Returns the titulaire.
+     */
+    public function getTitulaire() {
+        return $this->titulaire;
+    }
+
+    /**
+     * Set the code cac.
+     *
+     * @param string $codeCac The code cac.
+     */
+    public function setCodeCac($codeCac) {
+        $this->codeCac = $codeCac;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the date nomination.
+     *
+     * @param DateTime|null $dateNomination The date nomination.
+     */
+    public function setDateNomination(DateTime $dateNomination = null) {
+        $this->dateNomination = $dateNomination;
+        return $this;
+    }
+
+    /**
+     * Set the duree mandat.
+     *
+     * @param int $dureeMandat The duree mandat.
+     */
+    public function setDureeMandat($dureeMandat) {
+        $this->dureeMandat = $dureeMandat;
+        return $this;
+    }
+
+    /**
+     * Set the observations.
+     *
+     * @param string $observations The observations.
+     */
+    public function setObservations($observations) {
+        $this->observations = $observations;
+        return $this;
+    }
+
+    /**
+     * Set the position.
+     *
+     * @param int $position The position.
+     */
+    public function setPosition($position) {
+        $this->position = $position;
+        return $this;
+    }
+
+    /**
+     * Set the titulaire.
+     *
+     * @param bool $titulaire The titulaire.
+     */
+    public function setTitulaire($titulaire) {
+        $this->titulaire = $titulaire;
+        return $this;
     }
 }

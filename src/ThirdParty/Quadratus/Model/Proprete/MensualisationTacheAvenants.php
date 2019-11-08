@@ -11,17 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolHistoMensSaisiTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeDebutValiditeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMensualisationCalculeeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMensualisationSaisieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumBtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroAvenantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTrait;
+use DateTime;
 
 /**
  * Mensualisation tache avenants.
@@ -31,22 +21,296 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTrait;
  */
 class MensualisationTacheAvenants {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringCodeEmployeTrait;
-    use StringCodeTacheTrait;
-    use BoolHistoMensSaisiTrait;
-    use FloatMensualisationCalculeeTrait;
-    use FloatMensualisationSaisieTrait;
-    use IntNumBtTrait;
-    use IntNumeroAvenantTrait;
-    use DateTimePeriodeDebutValiditeTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
+
+    /**
+     * Code tache.
+     *
+     * @var string
+     */
+    private $codeTache;
+
+    /**
+     * Histo mens saisi.
+     *
+     * @var bool
+     */
+    private $histoMensSaisi;
+
+    /**
+     * Mensualisation calculee.
+     *
+     * @var float
+     */
+    private $mensualisationCalculee;
+
+    /**
+     * Mensualisation saisie.
+     *
+     * @var float
+     */
+    private $mensualisationSaisie;
+
+    /**
+     * Num bt.
+     *
+     * @var int
+     */
+    private $numBt;
+
+    /**
+     * Numero avenant.
+     *
+     * @var int
+     */
+    private $numeroAvenant;
+
+    /**
+     * Periode debut validite.
+     *
+     * @var DateTime|null
+     */
+    private $periodeDebutValidite;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
+
+    /**
+     * Get the code tache.
+     *
+     * @return string Returns the code tache.
+     */
+    public function getCodeTache() {
+        return $this->codeTache;
+    }
+
+    /**
+     * Get the histo mens saisi.
+     *
+     * @return bool Returns the histo mens saisi.
+     */
+    public function getHistoMensSaisi() {
+        return $this->histoMensSaisi;
+    }
+
+    /**
+     * Get the mensualisation calculee.
+     *
+     * @return float Returns the mensualisation calculee.
+     */
+    public function getMensualisationCalculee() {
+        return $this->mensualisationCalculee;
+    }
+
+    /**
+     * Get the mensualisation saisie.
+     *
+     * @return float Returns the mensualisation saisie.
+     */
+    public function getMensualisationSaisie() {
+        return $this->mensualisationSaisie;
+    }
+
+    /**
+     * Get the num bt.
+     *
+     * @return int Returns the num bt.
+     */
+    public function getNumBt() {
+        return $this->numBt;
+    }
+
+    /**
+     * Get the numero avenant.
+     *
+     * @return int Returns the numero avenant.
+     */
+    public function getNumeroAvenant() {
+        return $this->numeroAvenant;
+    }
+
+    /**
+     * Get the periode debut validite.
+     *
+     * @return DateTime|null Returns the periode debut validite.
+     */
+    public function getPeriodeDebutValidite() {
+        return $this->periodeDebutValidite;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the code tache.
+     *
+     * @param string $codeTache The code tache.
+     */
+    public function setCodeTache($codeTache) {
+        $this->codeTache = $codeTache;
+        return $this;
+    }
+
+    /**
+     * Set the histo mens saisi.
+     *
+     * @param bool $histoMensSaisi The histo mens saisi.
+     */
+    public function setHistoMensSaisi($histoMensSaisi) {
+        $this->histoMensSaisi = $histoMensSaisi;
+        return $this;
+    }
+
+    /**
+     * Set the mensualisation calculee.
+     *
+     * @param float $mensualisationCalculee The mensualisation calculee.
+     */
+    public function setMensualisationCalculee($mensualisationCalculee) {
+        $this->mensualisationCalculee = $mensualisationCalculee;
+        return $this;
+    }
+
+    /**
+     * Set the mensualisation saisie.
+     *
+     * @param float $mensualisationSaisie The mensualisation saisie.
+     */
+    public function setMensualisationSaisie($mensualisationSaisie) {
+        $this->mensualisationSaisie = $mensualisationSaisie;
+        return $this;
+    }
+
+    /**
+     * Set the num bt.
+     *
+     * @param int $numBt The num bt.
+     */
+    public function setNumBt($numBt) {
+        $this->numBt = $numBt;
+        return $this;
+    }
+
+    /**
+     * Set the numero avenant.
+     *
+     * @param int $numeroAvenant The numero avenant.
+     */
+    public function setNumeroAvenant($numeroAvenant) {
+        $this->numeroAvenant = $numeroAvenant;
+        return $this;
+    }
+
+    /**
+     * Set the periode debut validite.
+     *
+     * @param DateTime|null $periodeDebutValidite The periode debut validite.
+     */
+    public function setPeriodeDebutValidite(DateTime $periodeDebutValidite = null) {
+        $this->periodeDebutValidite = $periodeDebutValidite;
+        return $this;
     }
 }

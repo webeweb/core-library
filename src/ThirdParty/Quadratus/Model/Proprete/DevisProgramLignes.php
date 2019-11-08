@@ -11,19 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatCoefficientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNoteResultatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatVitesseTheoriqueTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneProgTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEchelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeOperationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeProgrammeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDevisTrait;
-
 /**
  * Devis program lignes.
  *
@@ -32,23 +19,322 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDevisTrait;
  */
 class DevisProgramLignes {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringCodeEchelleTrait;
-    use StringCodeOperationTrait;
-    use StringCodeProgrammeTrait;
-    use FloatCoefficientTrait;
-    use FloatNoteResultatTrait;
-    use StringNumDevisTrait;
-    use IntNumLigneTrait;
-    use IntNumLigneProgTrait;
-    use FloatVitesseTheoriqueTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code echelle.
+     *
+     * @var string
+     */
+    private $codeEchelle;
+
+    /**
+     * Code operation.
+     *
+     * @var string
+     */
+    private $codeOperation;
+
+    /**
+     * Code programme.
+     *
+     * @var string
+     */
+    private $codeProgramme;
+
+    /**
+     * Coefficient.
+     *
+     * @var float
+     */
+    private $coefficient;
+
+    /**
+     * Note resultat.
+     *
+     * @var float
+     */
+    private $noteResultat;
+
+    /**
+     * Num devis.
+     *
+     * @var string
+     */
+    private $numDevis;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
+
+    /**
+     * Num ligne prog.
+     *
+     * @var int
+     */
+    private $numLigneProg;
+
+    /**
+     * Vitesse theorique.
+     *
+     * @var float
+     */
+    private $vitesseTheorique;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code echelle.
+     *
+     * @return string Returns the code echelle.
+     */
+    public function getCodeEchelle() {
+        return $this->codeEchelle;
+    }
+
+    /**
+     * Get the code operation.
+     *
+     * @return string Returns the code operation.
+     */
+    public function getCodeOperation() {
+        return $this->codeOperation;
+    }
+
+    /**
+     * Get the code programme.
+     *
+     * @return string Returns the code programme.
+     */
+    public function getCodeProgramme() {
+        return $this->codeProgramme;
+    }
+
+    /**
+     * Get the coefficient.
+     *
+     * @return float Returns the coefficient.
+     */
+    public function getCoefficient() {
+        return $this->coefficient;
+    }
+
+    /**
+     * Get the note resultat.
+     *
+     * @return float Returns the note resultat.
+     */
+    public function getNoteResultat() {
+        return $this->noteResultat;
+    }
+
+    /**
+     * Get the num devis.
+     *
+     * @return string Returns the num devis.
+     */
+    public function getNumDevis() {
+        return $this->numDevis;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Get the num ligne prog.
+     *
+     * @return int Returns the num ligne prog.
+     */
+    public function getNumLigneProg() {
+        return $this->numLigneProg;
+    }
+
+    /**
+     * Get the vitesse theorique.
+     *
+     * @return float Returns the vitesse theorique.
+     */
+    public function getVitesseTheorique() {
+        return $this->vitesseTheorique;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code echelle.
+     *
+     * @param string $codeEchelle The code echelle.
+     */
+    public function setCodeEchelle($codeEchelle) {
+        $this->codeEchelle = $codeEchelle;
+        return $this;
+    }
+
+    /**
+     * Set the code operation.
+     *
+     * @param string $codeOperation The code operation.
+     */
+    public function setCodeOperation($codeOperation) {
+        $this->codeOperation = $codeOperation;
+        return $this;
+    }
+
+    /**
+     * Set the code programme.
+     *
+     * @param string $codeProgramme The code programme.
+     */
+    public function setCodeProgramme($codeProgramme) {
+        $this->codeProgramme = $codeProgramme;
+        return $this;
+    }
+
+    /**
+     * Set the coefficient.
+     *
+     * @param float $coefficient The coefficient.
+     */
+    public function setCoefficient($coefficient) {
+        $this->coefficient = $coefficient;
+        return $this;
+    }
+
+    /**
+     * Set the note resultat.
+     *
+     * @param float $noteResultat The note resultat.
+     */
+    public function setNoteResultat($noteResultat) {
+        $this->noteResultat = $noteResultat;
+        return $this;
+    }
+
+    /**
+     * Set the num devis.
+     *
+     * @param string $numDevis The num devis.
+     */
+    public function setNumDevis($numDevis) {
+        $this->numDevis = $numDevis;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne prog.
+     *
+     * @param int $numLigneProg The num ligne prog.
+     */
+    public function setNumLigneProg($numLigneProg) {
+        $this->numLigneProg = $numLigneProg;
+        return $this;
+    }
+
+    /**
+     * Set the vitesse theorique.
+     *
+     * @param float $vitesseTheorique The vitesse theorique.
+     */
+    public function setVitesseTheorique($vitesseTheorique) {
+        $this->vitesseTheorique = $vitesseTheorique;
+        return $this;
     }
 }

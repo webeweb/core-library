@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QGI;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCoManif;
 
@@ -58,5 +60,364 @@ class ActionsCoManifTest extends AbstractTestCase {
         $this->assertNull($obj->getNomFormateur());
         $this->assertNull($obj->getTypeFormation());
         $this->assertNull($obj->getYaFeuillePresence());
+    }
+
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
+
+    /**
+     * Tests the setCodeManif() method.
+     *
+     * @return void
+     */
+    public function testSetCodeManif() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setCodeManif("codeManif");
+        $this->assertEquals("codeManif", $obj->getCodeManif());
+    }
+
+    /**
+     * Tests the setContact() method.
+     *
+     * @return void
+     */
+    public function testSetContact() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setContact("contact");
+        $this->assertEquals("contact", $obj->getContact());
+    }
+
+    /**
+     * Tests the setDateDeb() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateDeb() {
+
+        // Set a Date/time mock.
+        $dateDeb = new DateTime("2018-09-10");
+
+        $obj = new ActionsCoManif();
+
+        $obj->setDateDeb($dateDeb);
+        $this->assertSame($dateDeb, $obj->getDateDeb());
+    }
+
+    /**
+     * Tests the setDateFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateFin() {
+
+        // Set a Date/time mock.
+        $dateFin = new DateTime("2018-09-10");
+
+        $obj = new ActionsCoManif();
+
+        $obj->setDateFin($dateFin);
+        $this->assertSame($dateFin, $obj->getDateFin());
+    }
+
+    /**
+     * Tests the setDuree() method.
+     *
+     * @return void
+     */
+    public function testSetDuree() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setDuree(10);
+        $this->assertEquals(10, $obj->getDuree());
+    }
+
+    /**
+     * Tests the setDureeDbl() method.
+     *
+     * @return void
+     */
+    public function testSetDureeDbl() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setDureeDbl(10.092018);
+        $this->assertEquals(10.092018, $obj->getDureeDbl());
+    }
+
+    /**
+     * Tests the setIndiceAff() method.
+     *
+     * @return void
+     */
+    public function testSetIndiceAff() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setIndiceAff(10);
+        $this->assertEquals(10, $obj->getIndiceAff());
+    }
+
+    /**
+     * Tests the setIsMontantHt() method.
+     *
+     * @return void
+     */
+    public function testSetIsMontantHt() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setIsMontantHt(true);
+        $this->assertEquals(true, $obj->getIsMontantHt());
+    }
+
+    /**
+     * Tests the setLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetLibelle() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLibelle("libelle");
+        $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the setLibelleMemo() method.
+     *
+     * @return void
+     */
+    public function testSetLibelleMemo() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLibelleMemo("libelleMemo");
+        $this->assertEquals("libelleMemo", $obj->getLibelleMemo());
+    }
+
+    /**
+     * Tests the setLieuBtq() method.
+     *
+     * @return void
+     */
+    public function testSetLieuBtq() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuBtq("lieuBtq");
+        $this->assertEquals("lieuBtq", $obj->getLieuBtq());
+    }
+
+    /**
+     * Tests the setLieuBureauDistributeur() method.
+     *
+     * @return void
+     */
+    public function testSetLieuBureauDistributeur() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuBureauDistributeur("lieuBureauDistributeur");
+        $this->assertEquals("lieuBureauDistributeur", $obj->getLieuBureauDistributeur());
+    }
+
+    /**
+     * Tests the setLieuCodePostal() method.
+     *
+     * @return void
+     */
+    public function testSetLieuCodePostal() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuCodePostal("lieuCodePostal");
+        $this->assertEquals("lieuCodePostal", $obj->getLieuCodePostal());
+    }
+
+    /**
+     * Tests the setLieuComplement() method.
+     *
+     * @return void
+     */
+    public function testSetLieuComplement() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuComplement("lieuComplement");
+        $this->assertEquals("lieuComplement", $obj->getLieuComplement());
+    }
+
+    /**
+     * Tests the setLieuEmail() method.
+     *
+     * @return void
+     */
+    public function testSetLieuEmail() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuEmail("lieuEmail");
+        $this->assertEquals("lieuEmail", $obj->getLieuEmail());
+    }
+
+    /**
+     * Tests the setLieuFax() method.
+     *
+     * @return void
+     */
+    public function testSetLieuFax() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuFax("lieuFax");
+        $this->assertEquals("lieuFax", $obj->getLieuFax());
+    }
+
+    /**
+     * Tests the setLieuNom() method.
+     *
+     * @return void
+     */
+    public function testSetLieuNom() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuNom("lieuNom");
+        $this->assertEquals("lieuNom", $obj->getLieuNom());
+    }
+
+    /**
+     * Tests the setLieuNomVoie() method.
+     *
+     * @return void
+     */
+    public function testSetLieuNomVoie() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuNomVoie("lieuNomVoie");
+        $this->assertEquals("lieuNomVoie", $obj->getLieuNomVoie());
+    }
+
+    /**
+     * Tests the setLieuNumVoie() method.
+     *
+     * @return void
+     */
+    public function testSetLieuNumVoie() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuNumVoie("lieuNumVoie");
+        $this->assertEquals("lieuNumVoie", $obj->getLieuNumVoie());
+    }
+
+    /**
+     * Tests the setLieuPj() method.
+     *
+     * @return void
+     */
+    public function testSetLieuPj() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuPj("lieuPj");
+        $this->assertEquals("lieuPj", $obj->getLieuPj());
+    }
+
+    /**
+     * Tests the setLieuTel() method.
+     *
+     * @return void
+     */
+    public function testSetLieuTel() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setLieuTel("lieuTel");
+        $this->assertEquals("lieuTel", $obj->getLieuTel());
+    }
+
+    /**
+     * Tests the setMontantCheque() method.
+     *
+     * @return void
+     */
+    public function testSetMontantCheque() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setMontantCheque(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantCheque());
+    }
+
+    /**
+     * Tests the setNbSeances() method.
+     *
+     * @return void
+     */
+    public function testSetNbSeances() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setNbSeances(10);
+        $this->assertEquals(10, $obj->getNbSeances());
+    }
+
+    /**
+     * Tests the setNomFormateur() method.
+     *
+     * @return void
+     */
+    public function testSetNomFormateur() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setNomFormateur("nomFormateur");
+        $this->assertEquals("nomFormateur", $obj->getNomFormateur());
+    }
+
+    /**
+     * Tests the setTypeFormation() method.
+     *
+     * @return void
+     */
+    public function testSetTypeFormation() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setTypeFormation(true);
+        $this->assertEquals(true, $obj->getTypeFormation());
+    }
+
+    /**
+     * Tests the setYaFeuillePresence() method.
+     *
+     * @return void
+     */
+    public function testSetYaFeuillePresence() {
+
+        $obj = new ActionsCoManif();
+
+        $obj->setYaFeuillePresence(true);
+        $this->assertEquals(true, $obj->getYaFeuillePresence());
     }
 }

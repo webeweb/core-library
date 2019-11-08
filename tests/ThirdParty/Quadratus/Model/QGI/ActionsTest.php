@@ -39,4 +39,95 @@ class ActionsTest extends AbstractTestCase {
         $this->assertNull($obj->getQuantiteHeure());
         $this->assertNull($obj->getRelationQh());
     }
+
+    /**
+     * Tests the setCodeAction() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAction() {
+
+        $obj = new Actions();
+
+        $obj->setCodeAction("codeAction");
+        $this->assertEquals("codeAction", $obj->getCodeAction());
+    }
+
+    /**
+     * Tests the setCodeCalcul() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCalcul() {
+
+        $obj = new Actions();
+
+        $obj->setCodeCalcul(10);
+        $this->assertEquals(10, $obj->getCodeCalcul());
+    }
+
+    /**
+     * Tests the setDescriptifCourt() method.
+     *
+     * @return void
+     */
+    public function testSetDescriptifCourt() {
+
+        $obj = new Actions();
+
+        $obj->setDescriptifCourt("descriptifCourt");
+        $this->assertEquals("descriptifCourt", $obj->getDescriptifCourt());
+    }
+
+    /**
+     * Tests the setDescriptifLong() method.
+     *
+     * @return void
+     */
+    public function testSetDescriptifLong() {
+
+        $obj = new Actions();
+
+        $obj->setDescriptifLong("descriptifLong");
+        $this->assertEquals("descriptifLong", $obj->getDescriptifLong());
+    }
+
+    /**
+     * Tests the setObligationLiee() method.
+     *
+     * @return void
+     */
+    public function testSetObligationLiee() {
+
+        $obj = new Actions();
+
+        $obj->setObligationLiee("obligationLiee");
+        $this->assertEquals("obligationLiee", $obj->getObligationLiee());
+    }
+
+    /**
+     * Tests the setQuantiteHeure() method.
+     *
+     * @return void
+     */
+    public function testSetQuantiteHeure() {
+
+        $obj = new Actions();
+
+        $obj->setQuantiteHeure(10.092018);
+        $this->assertEquals(10.092018, $obj->getQuantiteHeure());
+    }
+
+    /**
+     * Tests the setRelationQh() method.
+     *
+     * @return void
+     */
+    public function testSetRelationQh() {
+
+        $obj = new Actions();
+
+        $obj->setRelationQh(true);
+        $this->assertEquals(true, $obj->getRelationQh());
+    }
 }

@@ -11,9 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateApplicationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatReportModAntTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
+use DateTime;
 
 /**
  * Emp report modulation.
@@ -23,14 +21,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroEmployeTrait;
  */
 class EmpReportModulation {
 
-    use DateTimeDateApplicationTrait;
-    use StringNumeroEmployeTrait;
-    use FloatReportModAntTrait;
+    /**
+     * Date application.
+     *
+     * @var DateTime|null
+     */
+    private $dateApplication;
+
+    /**
+     * Numero employe.
+     *
+     * @var string
+     */
+    private $numeroEmploye;
+
+    /**
+     * Report mod ant.
+     *
+     * @var float
+     */
+    private $reportModAnt;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the date application.
+     *
+     * @return DateTime|null Returns the date application.
+     */
+    public function getDateApplication() {
+        return $this->dateApplication;
+    }
+
+    /**
+     * Get the numero employe.
+     *
+     * @return string Returns the numero employe.
+     */
+    public function getNumeroEmploye() {
+        return $this->numeroEmploye;
+    }
+
+    /**
+     * Get the report mod ant.
+     *
+     * @return float Returns the report mod ant.
+     */
+    public function getReportModAnt() {
+        return $this->reportModAnt;
+    }
+
+    /**
+     * Set the date application.
+     *
+     * @param DateTime|null $dateApplication The date application.
+     */
+    public function setDateApplication(DateTime $dateApplication = null) {
+        $this->dateApplication = $dateApplication;
+        return $this;
+    }
+
+    /**
+     * Set the numero employe.
+     *
+     * @param string $numeroEmploye The numero employe.
+     */
+    public function setNumeroEmploye($numeroEmploye) {
+        $this->numeroEmploye = $numeroEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the report mod ant.
+     *
+     * @param float $reportModAnt The report mod ant.
+     */
+    public function setReportModAnt($reportModAnt) {
+        $this->reportModAnt = $reportModAnt;
+        return $this;
     }
 }

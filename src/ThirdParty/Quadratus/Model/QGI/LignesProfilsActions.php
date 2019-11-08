@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeActionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeProfilTrait;
-
 /**
  * Lignes profils actions.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeProfilTrait;
  */
 class LignesProfilsActions {
 
-    use StringCodeActionTrait;
-    use StringCodeProfilTrait;
-    use IntNumLigneTrait;
+    /**
+     * Code action.
+     *
+     * @var string
+     */
+    private $codeAction;
+
+    /**
+     * Code profil.
+     *
+     * @var string
+     */
+    private $codeProfil;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code action.
+     *
+     * @return string Returns the code action.
+     */
+    public function getCodeAction() {
+        return $this->codeAction;
+    }
+
+    /**
+     * Get the code profil.
+     *
+     * @return string Returns the code profil.
+     */
+    public function getCodeProfil() {
+        return $this->codeProfil;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Set the code action.
+     *
+     * @param string $codeAction The code action.
+     */
+    public function setCodeAction($codeAction) {
+        $this->codeAction = $codeAction;
+        return $this;
+    }
+
+    /**
+     * Set the code profil.
+     *
+     * @param string $codeProfil The code profil.
+     */
+    public function setCodeProfil($codeProfil) {
+        $this->codeProfil = $codeProfil;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
     }
 }

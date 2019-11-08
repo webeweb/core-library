@@ -11,55 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateEntretienTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateSignatureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDebutMissionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeFinMissionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatCaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatHonoPrevTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbrActesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbrBulletinsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbrEcrituresBqTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbrEcrituresDepensesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbrEcrituresOdTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbrEcrituresRecettesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbrEmployesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrix1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrix2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrix3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrix4Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrix5Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrix6Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPrix7Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntPremierExerciceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRegroupementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComment1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComment2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComment3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComment4Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComment5Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComment6Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringComment7Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEtatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringExerciceCourantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelle1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelle2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelle3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelle4Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelle5Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelle6Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelle7Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNbDeplacementsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroLettreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPolice1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPolice2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPolice3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeActionnairesAssociesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeCaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeMissionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeSystemeInfoTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeVolumeTrait;
+use DateTime;
 
 /**
  * Lettres missions entetes.
@@ -69,60 +21,1284 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeVolumeTrait;
  */
 class LettresMissionsEntetes {
 
-    use FloatCaTrait;
-    use StringCodeClientTrait;
-    use StringCodeRegroupementTrait;
-    use StringComment1Trait;
-    use StringComment2Trait;
-    use StringComment3Trait;
-    use StringComment4Trait;
-    use StringComment5Trait;
-    use StringComment6Trait;
-    use StringComment7Trait;
-    use DateTimeDateEntretienTrait;
-    use DateTimeDateSignatureTrait;
-    use DateTimeDebutMissionTrait;
-    use StringEtatTrait;
-    use StringExerciceCourantTrait;
-    use DateTimeFinMissionTrait;
-    use FloatHonoPrevTrait;
-    use StringLibelle1Trait;
-    use StringLibelle2Trait;
-    use StringLibelle3Trait;
-    use StringLibelle4Trait;
-    use StringLibelle5Trait;
-    use StringLibelle6Trait;
-    use StringLibelle7Trait;
-    use StringNbDeplacementsTrait;
-    use FloatNbrActesTrait;
-    use FloatNbrBulletinsTrait;
-    use FloatNbrEcrituresBqTrait;
-    use FloatNbrEcrituresDepensesTrait;
-    use FloatNbrEcrituresOdTrait;
-    use FloatNbrEcrituresRecettesTrait;
-    use FloatNbrEmployesTrait;
-    use StringNumeroLettreTrait;
-    use StringPolice1Trait;
-    use StringPolice2Trait;
-    use StringPolice3Trait;
-    use IntPremierExerciceTrait;
-    use FloatPrix1Trait;
-    use FloatPrix2Trait;
-    use FloatPrix3Trait;
-    use FloatPrix4Trait;
-    use FloatPrix5Trait;
-    use FloatPrix6Trait;
-    use FloatPrix7Trait;
-    use StringTypeActionnairesAssociesTrait;
-    use StringTypeCaTrait;
-    use StringTypeMissionTrait;
-    use StringTypeSystemeInfoTrait;
-    use StringTypeVolumeTrait;
+    /**
+     * Ca.
+     *
+     * @var float
+     */
+    private $ca;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code regroupement.
+     *
+     * @var string
+     */
+    private $codeRegroupement;
+
+    /**
+     * Comment1.
+     *
+     * @var string
+     */
+    private $comment1;
+
+    /**
+     * Comment2.
+     *
+     * @var string
+     */
+    private $comment2;
+
+    /**
+     * Comment3.
+     *
+     * @var string
+     */
+    private $comment3;
+
+    /**
+     * Comment4.
+     *
+     * @var string
+     */
+    private $comment4;
+
+    /**
+     * Comment5.
+     *
+     * @var string
+     */
+    private $comment5;
+
+    /**
+     * Comment6.
+     *
+     * @var string
+     */
+    private $comment6;
+
+    /**
+     * Comment7.
+     *
+     * @var string
+     */
+    private $comment7;
+
+    /**
+     * Date entretien.
+     *
+     * @var DateTime|null
+     */
+    private $dateEntretien;
+
+    /**
+     * Date signature.
+     *
+     * @var DateTime|null
+     */
+    private $dateSignature;
+
+    /**
+     * Debut mission.
+     *
+     * @var DateTime|null
+     */
+    private $debutMission;
+
+    /**
+     * Etat.
+     *
+     * @var string
+     */
+    private $etat;
+
+    /**
+     * Exercice courant.
+     *
+     * @var string
+     */
+    private $exerciceCourant;
+
+    /**
+     * Fin mission.
+     *
+     * @var DateTime|null
+     */
+    private $finMission;
+
+    /**
+     * Hono prev.
+     *
+     * @var float
+     */
+    private $honoPrev;
+
+    /**
+     * Libelle1.
+     *
+     * @var string
+     */
+    private $libelle1;
+
+    /**
+     * Libelle2.
+     *
+     * @var string
+     */
+    private $libelle2;
+
+    /**
+     * Libelle3.
+     *
+     * @var string
+     */
+    private $libelle3;
+
+    /**
+     * Libelle4.
+     *
+     * @var string
+     */
+    private $libelle4;
+
+    /**
+     * Libelle5.
+     *
+     * @var string
+     */
+    private $libelle5;
+
+    /**
+     * Libelle6.
+     *
+     * @var string
+     */
+    private $libelle6;
+
+    /**
+     * Libelle7.
+     *
+     * @var string
+     */
+    private $libelle7;
+
+    /**
+     * Nb deplacements.
+     *
+     * @var string
+     */
+    private $nbDeplacements;
+
+    /**
+     * Nbr actes.
+     *
+     * @var float
+     */
+    private $nbrActes;
+
+    /**
+     * Nbr bulletins.
+     *
+     * @var float
+     */
+    private $nbrBulletins;
+
+    /**
+     * Nbr ecritures bq.
+     *
+     * @var float
+     */
+    private $nbrEcrituresBq;
+
+    /**
+     * Nbr ecritures depenses.
+     *
+     * @var float
+     */
+    private $nbrEcrituresDepenses;
+
+    /**
+     * Nbr ecritures od.
+     *
+     * @var float
+     */
+    private $nbrEcrituresOd;
+
+    /**
+     * Nbr ecritures recettes.
+     *
+     * @var float
+     */
+    private $nbrEcrituresRecettes;
+
+    /**
+     * Nbr employes.
+     *
+     * @var float
+     */
+    private $nbrEmployes;
+
+    /**
+     * Numero lettre.
+     *
+     * @var string
+     */
+    private $numeroLettre;
+
+    /**
+     * Police1.
+     *
+     * @var string
+     */
+    private $police1;
+
+    /**
+     * Police2.
+     *
+     * @var string
+     */
+    private $police2;
+
+    /**
+     * Police3.
+     *
+     * @var string
+     */
+    private $police3;
+
+    /**
+     * Premier exercice.
+     *
+     * @var int
+     */
+    private $premierExercice;
+
+    /**
+     * Prix1.
+     *
+     * @var float
+     */
+    private $prix1;
+
+    /**
+     * Prix2.
+     *
+     * @var float
+     */
+    private $prix2;
+
+    /**
+     * Prix3.
+     *
+     * @var float
+     */
+    private $prix3;
+
+    /**
+     * Prix4.
+     *
+     * @var float
+     */
+    private $prix4;
+
+    /**
+     * Prix5.
+     *
+     * @var float
+     */
+    private $prix5;
+
+    /**
+     * Prix6.
+     *
+     * @var float
+     */
+    private $prix6;
+
+    /**
+     * Prix7.
+     *
+     * @var float
+     */
+    private $prix7;
+
+    /**
+     * Type actionnaires associes.
+     *
+     * @var string
+     */
+    private $typeActionnairesAssocies;
+
+    /**
+     * Type ca.
+     *
+     * @var string
+     */
+    private $typeCa;
+
+    /**
+     * Type mission.
+     *
+     * @var string
+     */
+    private $typeMission;
+
+    /**
+     * Type systeme info.
+     *
+     * @var string
+     */
+    private $typeSystemeInfo;
+
+    /**
+     * Type volume.
+     *
+     * @var string
+     */
+    private $typeVolume;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the ca.
+     *
+     * @return float Returns the ca.
+     */
+    public function getCa() {
+        return $this->ca;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code regroupement.
+     *
+     * @return string Returns the code regroupement.
+     */
+    public function getCodeRegroupement() {
+        return $this->codeRegroupement;
+    }
+
+    /**
+     * Get the comment1.
+     *
+     * @return string Returns the comment1.
+     */
+    public function getComment1() {
+        return $this->comment1;
+    }
+
+    /**
+     * Get the comment2.
+     *
+     * @return string Returns the comment2.
+     */
+    public function getComment2() {
+        return $this->comment2;
+    }
+
+    /**
+     * Get the comment3.
+     *
+     * @return string Returns the comment3.
+     */
+    public function getComment3() {
+        return $this->comment3;
+    }
+
+    /**
+     * Get the comment4.
+     *
+     * @return string Returns the comment4.
+     */
+    public function getComment4() {
+        return $this->comment4;
+    }
+
+    /**
+     * Get the comment5.
+     *
+     * @return string Returns the comment5.
+     */
+    public function getComment5() {
+        return $this->comment5;
+    }
+
+    /**
+     * Get the comment6.
+     *
+     * @return string Returns the comment6.
+     */
+    public function getComment6() {
+        return $this->comment6;
+    }
+
+    /**
+     * Get the comment7.
+     *
+     * @return string Returns the comment7.
+     */
+    public function getComment7() {
+        return $this->comment7;
+    }
+
+    /**
+     * Get the date entretien.
+     *
+     * @return DateTime|null Returns the date entretien.
+     */
+    public function getDateEntretien() {
+        return $this->dateEntretien;
+    }
+
+    /**
+     * Get the date signature.
+     *
+     * @return DateTime|null Returns the date signature.
+     */
+    public function getDateSignature() {
+        return $this->dateSignature;
+    }
+
+    /**
+     * Get the debut mission.
+     *
+     * @return DateTime|null Returns the debut mission.
+     */
+    public function getDebutMission() {
+        return $this->debutMission;
+    }
+
+    /**
+     * Get the etat.
+     *
+     * @return string Returns the etat.
+     */
+    public function getEtat() {
+        return $this->etat;
+    }
+
+    /**
+     * Get the exercice courant.
+     *
+     * @return string Returns the exercice courant.
+     */
+    public function getExerciceCourant() {
+        return $this->exerciceCourant;
+    }
+
+    /**
+     * Get the fin mission.
+     *
+     * @return DateTime|null Returns the fin mission.
+     */
+    public function getFinMission() {
+        return $this->finMission;
+    }
+
+    /**
+     * Get the hono prev.
+     *
+     * @return float Returns the hono prev.
+     */
+    public function getHonoPrev() {
+        return $this->honoPrev;
+    }
+
+    /**
+     * Get the libelle1.
+     *
+     * @return string Returns the libelle1.
+     */
+    public function getLibelle1() {
+        return $this->libelle1;
+    }
+
+    /**
+     * Get the libelle2.
+     *
+     * @return string Returns the libelle2.
+     */
+    public function getLibelle2() {
+        return $this->libelle2;
+    }
+
+    /**
+     * Get the libelle3.
+     *
+     * @return string Returns the libelle3.
+     */
+    public function getLibelle3() {
+        return $this->libelle3;
+    }
+
+    /**
+     * Get the libelle4.
+     *
+     * @return string Returns the libelle4.
+     */
+    public function getLibelle4() {
+        return $this->libelle4;
+    }
+
+    /**
+     * Get the libelle5.
+     *
+     * @return string Returns the libelle5.
+     */
+    public function getLibelle5() {
+        return $this->libelle5;
+    }
+
+    /**
+     * Get the libelle6.
+     *
+     * @return string Returns the libelle6.
+     */
+    public function getLibelle6() {
+        return $this->libelle6;
+    }
+
+    /**
+     * Get the libelle7.
+     *
+     * @return string Returns the libelle7.
+     */
+    public function getLibelle7() {
+        return $this->libelle7;
+    }
+
+    /**
+     * Get the nb deplacements.
+     *
+     * @return string Returns the nb deplacements.
+     */
+    public function getNbDeplacements() {
+        return $this->nbDeplacements;
+    }
+
+    /**
+     * Get the nbr actes.
+     *
+     * @return float Returns the nbr actes.
+     */
+    public function getNbrActes() {
+        return $this->nbrActes;
+    }
+
+    /**
+     * Get the nbr bulletins.
+     *
+     * @return float Returns the nbr bulletins.
+     */
+    public function getNbrBulletins() {
+        return $this->nbrBulletins;
+    }
+
+    /**
+     * Get the nbr ecritures bq.
+     *
+     * @return float Returns the nbr ecritures bq.
+     */
+    public function getNbrEcrituresBq() {
+        return $this->nbrEcrituresBq;
+    }
+
+    /**
+     * Get the nbr ecritures depenses.
+     *
+     * @return float Returns the nbr ecritures depenses.
+     */
+    public function getNbrEcrituresDepenses() {
+        return $this->nbrEcrituresDepenses;
+    }
+
+    /**
+     * Get the nbr ecritures od.
+     *
+     * @return float Returns the nbr ecritures od.
+     */
+    public function getNbrEcrituresOd() {
+        return $this->nbrEcrituresOd;
+    }
+
+    /**
+     * Get the nbr ecritures recettes.
+     *
+     * @return float Returns the nbr ecritures recettes.
+     */
+    public function getNbrEcrituresRecettes() {
+        return $this->nbrEcrituresRecettes;
+    }
+
+    /**
+     * Get the nbr employes.
+     *
+     * @return float Returns the nbr employes.
+     */
+    public function getNbrEmployes() {
+        return $this->nbrEmployes;
+    }
+
+    /**
+     * Get the numero lettre.
+     *
+     * @return string Returns the numero lettre.
+     */
+    public function getNumeroLettre() {
+        return $this->numeroLettre;
+    }
+
+    /**
+     * Get the police1.
+     *
+     * @return string Returns the police1.
+     */
+    public function getPolice1() {
+        return $this->police1;
+    }
+
+    /**
+     * Get the police2.
+     *
+     * @return string Returns the police2.
+     */
+    public function getPolice2() {
+        return $this->police2;
+    }
+
+    /**
+     * Get the police3.
+     *
+     * @return string Returns the police3.
+     */
+    public function getPolice3() {
+        return $this->police3;
+    }
+
+    /**
+     * Get the premier exercice.
+     *
+     * @return int Returns the premier exercice.
+     */
+    public function getPremierExercice() {
+        return $this->premierExercice;
+    }
+
+    /**
+     * Get the prix1.
+     *
+     * @return float Returns the prix1.
+     */
+    public function getPrix1() {
+        return $this->prix1;
+    }
+
+    /**
+     * Get the prix2.
+     *
+     * @return float Returns the prix2.
+     */
+    public function getPrix2() {
+        return $this->prix2;
+    }
+
+    /**
+     * Get the prix3.
+     *
+     * @return float Returns the prix3.
+     */
+    public function getPrix3() {
+        return $this->prix3;
+    }
+
+    /**
+     * Get the prix4.
+     *
+     * @return float Returns the prix4.
+     */
+    public function getPrix4() {
+        return $this->prix4;
+    }
+
+    /**
+     * Get the prix5.
+     *
+     * @return float Returns the prix5.
+     */
+    public function getPrix5() {
+        return $this->prix5;
+    }
+
+    /**
+     * Get the prix6.
+     *
+     * @return float Returns the prix6.
+     */
+    public function getPrix6() {
+        return $this->prix6;
+    }
+
+    /**
+     * Get the prix7.
+     *
+     * @return float Returns the prix7.
+     */
+    public function getPrix7() {
+        return $this->prix7;
+    }
+
+    /**
+     * Get the type actionnaires associes.
+     *
+     * @return string Returns the type actionnaires associes.
+     */
+    public function getTypeActionnairesAssocies() {
+        return $this->typeActionnairesAssocies;
+    }
+
+    /**
+     * Get the type ca.
+     *
+     * @return string Returns the type ca.
+     */
+    public function getTypeCa() {
+        return $this->typeCa;
+    }
+
+    /**
+     * Get the type mission.
+     *
+     * @return string Returns the type mission.
+     */
+    public function getTypeMission() {
+        return $this->typeMission;
+    }
+
+    /**
+     * Get the type systeme info.
+     *
+     * @return string Returns the type systeme info.
+     */
+    public function getTypeSystemeInfo() {
+        return $this->typeSystemeInfo;
+    }
+
+    /**
+     * Get the type volume.
+     *
+     * @return string Returns the type volume.
+     */
+    public function getTypeVolume() {
+        return $this->typeVolume;
+    }
+
+    /**
+     * Set the ca.
+     *
+     * @param float $ca The ca.
+     */
+    public function setCa($ca) {
+        $this->ca = $ca;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code regroupement.
+     *
+     * @param string $codeRegroupement The code regroupement.
+     */
+    public function setCodeRegroupement($codeRegroupement) {
+        $this->codeRegroupement = $codeRegroupement;
+        return $this;
+    }
+
+    /**
+     * Set the comment1.
+     *
+     * @param string $comment1 The comment1.
+     */
+    public function setComment1($comment1) {
+        $this->comment1 = $comment1;
+        return $this;
+    }
+
+    /**
+     * Set the comment2.
+     *
+     * @param string $comment2 The comment2.
+     */
+    public function setComment2($comment2) {
+        $this->comment2 = $comment2;
+        return $this;
+    }
+
+    /**
+     * Set the comment3.
+     *
+     * @param string $comment3 The comment3.
+     */
+    public function setComment3($comment3) {
+        $this->comment3 = $comment3;
+        return $this;
+    }
+
+    /**
+     * Set the comment4.
+     *
+     * @param string $comment4 The comment4.
+     */
+    public function setComment4($comment4) {
+        $this->comment4 = $comment4;
+        return $this;
+    }
+
+    /**
+     * Set the comment5.
+     *
+     * @param string $comment5 The comment5.
+     */
+    public function setComment5($comment5) {
+        $this->comment5 = $comment5;
+        return $this;
+    }
+
+    /**
+     * Set the comment6.
+     *
+     * @param string $comment6 The comment6.
+     */
+    public function setComment6($comment6) {
+        $this->comment6 = $comment6;
+        return $this;
+    }
+
+    /**
+     * Set the comment7.
+     *
+     * @param string $comment7 The comment7.
+     */
+    public function setComment7($comment7) {
+        $this->comment7 = $comment7;
+        return $this;
+    }
+
+    /**
+     * Set the date entretien.
+     *
+     * @param DateTime|null $dateEntretien The date entretien.
+     */
+    public function setDateEntretien(DateTime $dateEntretien = null) {
+        $this->dateEntretien = $dateEntretien;
+        return $this;
+    }
+
+    /**
+     * Set the date signature.
+     *
+     * @param DateTime|null $dateSignature The date signature.
+     */
+    public function setDateSignature(DateTime $dateSignature = null) {
+        $this->dateSignature = $dateSignature;
+        return $this;
+    }
+
+    /**
+     * Set the debut mission.
+     *
+     * @param DateTime|null $debutMission The debut mission.
+     */
+    public function setDebutMission(DateTime $debutMission = null) {
+        $this->debutMission = $debutMission;
+        return $this;
+    }
+
+    /**
+     * Set the etat.
+     *
+     * @param string $etat The etat.
+     */
+    public function setEtat($etat) {
+        $this->etat = $etat;
+        return $this;
+    }
+
+    /**
+     * Set the exercice courant.
+     *
+     * @param string $exerciceCourant The exercice courant.
+     */
+    public function setExerciceCourant($exerciceCourant) {
+        $this->exerciceCourant = $exerciceCourant;
+        return $this;
+    }
+
+    /**
+     * Set the fin mission.
+     *
+     * @param DateTime|null $finMission The fin mission.
+     */
+    public function setFinMission(DateTime $finMission = null) {
+        $this->finMission = $finMission;
+        return $this;
+    }
+
+    /**
+     * Set the hono prev.
+     *
+     * @param float $honoPrev The hono prev.
+     */
+    public function setHonoPrev($honoPrev) {
+        $this->honoPrev = $honoPrev;
+        return $this;
+    }
+
+    /**
+     * Set the libelle1.
+     *
+     * @param string $libelle1 The libelle1.
+     */
+    public function setLibelle1($libelle1) {
+        $this->libelle1 = $libelle1;
+        return $this;
+    }
+
+    /**
+     * Set the libelle2.
+     *
+     * @param string $libelle2 The libelle2.
+     */
+    public function setLibelle2($libelle2) {
+        $this->libelle2 = $libelle2;
+        return $this;
+    }
+
+    /**
+     * Set the libelle3.
+     *
+     * @param string $libelle3 The libelle3.
+     */
+    public function setLibelle3($libelle3) {
+        $this->libelle3 = $libelle3;
+        return $this;
+    }
+
+    /**
+     * Set the libelle4.
+     *
+     * @param string $libelle4 The libelle4.
+     */
+    public function setLibelle4($libelle4) {
+        $this->libelle4 = $libelle4;
+        return $this;
+    }
+
+    /**
+     * Set the libelle5.
+     *
+     * @param string $libelle5 The libelle5.
+     */
+    public function setLibelle5($libelle5) {
+        $this->libelle5 = $libelle5;
+        return $this;
+    }
+
+    /**
+     * Set the libelle6.
+     *
+     * @param string $libelle6 The libelle6.
+     */
+    public function setLibelle6($libelle6) {
+        $this->libelle6 = $libelle6;
+        return $this;
+    }
+
+    /**
+     * Set the libelle7.
+     *
+     * @param string $libelle7 The libelle7.
+     */
+    public function setLibelle7($libelle7) {
+        $this->libelle7 = $libelle7;
+        return $this;
+    }
+
+    /**
+     * Set the nb deplacements.
+     *
+     * @param string $nbDeplacements The nb deplacements.
+     */
+    public function setNbDeplacements($nbDeplacements) {
+        $this->nbDeplacements = $nbDeplacements;
+        return $this;
+    }
+
+    /**
+     * Set the nbr actes.
+     *
+     * @param float $nbrActes The nbr actes.
+     */
+    public function setNbrActes($nbrActes) {
+        $this->nbrActes = $nbrActes;
+        return $this;
+    }
+
+    /**
+     * Set the nbr bulletins.
+     *
+     * @param float $nbrBulletins The nbr bulletins.
+     */
+    public function setNbrBulletins($nbrBulletins) {
+        $this->nbrBulletins = $nbrBulletins;
+        return $this;
+    }
+
+    /**
+     * Set the nbr ecritures bq.
+     *
+     * @param float $nbrEcrituresBq The nbr ecritures bq.
+     */
+    public function setNbrEcrituresBq($nbrEcrituresBq) {
+        $this->nbrEcrituresBq = $nbrEcrituresBq;
+        return $this;
+    }
+
+    /**
+     * Set the nbr ecritures depenses.
+     *
+     * @param float $nbrEcrituresDepenses The nbr ecritures depenses.
+     */
+    public function setNbrEcrituresDepenses($nbrEcrituresDepenses) {
+        $this->nbrEcrituresDepenses = $nbrEcrituresDepenses;
+        return $this;
+    }
+
+    /**
+     * Set the nbr ecritures od.
+     *
+     * @param float $nbrEcrituresOd The nbr ecritures od.
+     */
+    public function setNbrEcrituresOd($nbrEcrituresOd) {
+        $this->nbrEcrituresOd = $nbrEcrituresOd;
+        return $this;
+    }
+
+    /**
+     * Set the nbr ecritures recettes.
+     *
+     * @param float $nbrEcrituresRecettes The nbr ecritures recettes.
+     */
+    public function setNbrEcrituresRecettes($nbrEcrituresRecettes) {
+        $this->nbrEcrituresRecettes = $nbrEcrituresRecettes;
+        return $this;
+    }
+
+    /**
+     * Set the nbr employes.
+     *
+     * @param float $nbrEmployes The nbr employes.
+     */
+    public function setNbrEmployes($nbrEmployes) {
+        $this->nbrEmployes = $nbrEmployes;
+        return $this;
+    }
+
+    /**
+     * Set the numero lettre.
+     *
+     * @param string $numeroLettre The numero lettre.
+     */
+    public function setNumeroLettre($numeroLettre) {
+        $this->numeroLettre = $numeroLettre;
+        return $this;
+    }
+
+    /**
+     * Set the police1.
+     *
+     * @param string $police1 The police1.
+     */
+    public function setPolice1($police1) {
+        $this->police1 = $police1;
+        return $this;
+    }
+
+    /**
+     * Set the police2.
+     *
+     * @param string $police2 The police2.
+     */
+    public function setPolice2($police2) {
+        $this->police2 = $police2;
+        return $this;
+    }
+
+    /**
+     * Set the police3.
+     *
+     * @param string $police3 The police3.
+     */
+    public function setPolice3($police3) {
+        $this->police3 = $police3;
+        return $this;
+    }
+
+    /**
+     * Set the premier exercice.
+     *
+     * @param int $premierExercice The premier exercice.
+     */
+    public function setPremierExercice($premierExercice) {
+        $this->premierExercice = $premierExercice;
+        return $this;
+    }
+
+    /**
+     * Set the prix1.
+     *
+     * @param float $prix1 The prix1.
+     */
+    public function setPrix1($prix1) {
+        $this->prix1 = $prix1;
+        return $this;
+    }
+
+    /**
+     * Set the prix2.
+     *
+     * @param float $prix2 The prix2.
+     */
+    public function setPrix2($prix2) {
+        $this->prix2 = $prix2;
+        return $this;
+    }
+
+    /**
+     * Set the prix3.
+     *
+     * @param float $prix3 The prix3.
+     */
+    public function setPrix3($prix3) {
+        $this->prix3 = $prix3;
+        return $this;
+    }
+
+    /**
+     * Set the prix4.
+     *
+     * @param float $prix4 The prix4.
+     */
+    public function setPrix4($prix4) {
+        $this->prix4 = $prix4;
+        return $this;
+    }
+
+    /**
+     * Set the prix5.
+     *
+     * @param float $prix5 The prix5.
+     */
+    public function setPrix5($prix5) {
+        $this->prix5 = $prix5;
+        return $this;
+    }
+
+    /**
+     * Set the prix6.
+     *
+     * @param float $prix6 The prix6.
+     */
+    public function setPrix6($prix6) {
+        $this->prix6 = $prix6;
+        return $this;
+    }
+
+    /**
+     * Set the prix7.
+     *
+     * @param float $prix7 The prix7.
+     */
+    public function setPrix7($prix7) {
+        $this->prix7 = $prix7;
+        return $this;
+    }
+
+    /**
+     * Set the type actionnaires associes.
+     *
+     * @param string $typeActionnairesAssocies The type actionnaires associes.
+     */
+    public function setTypeActionnairesAssocies($typeActionnairesAssocies) {
+        $this->typeActionnairesAssocies = $typeActionnairesAssocies;
+        return $this;
+    }
+
+    /**
+     * Set the type ca.
+     *
+     * @param string $typeCa The type ca.
+     */
+    public function setTypeCa($typeCa) {
+        $this->typeCa = $typeCa;
+        return $this;
+    }
+
+    /**
+     * Set the type mission.
+     *
+     * @param string $typeMission The type mission.
+     */
+    public function setTypeMission($typeMission) {
+        $this->typeMission = $typeMission;
+        return $this;
+    }
+
+    /**
+     * Set the type systeme info.
+     *
+     * @param string $typeSystemeInfo The type systeme info.
+     */
+    public function setTypeSystemeInfo($typeSystemeInfo) {
+        $this->typeSystemeInfo = $typeSystemeInfo;
+        return $this;
+    }
+
+    /**
+     * Set the type volume.
+     *
+     * @param string $typeVolume The type volume.
+     */
+    public function setTypeVolume($typeVolume) {
+        $this->typeVolume = $typeVolume;
+        return $this;
     }
 }

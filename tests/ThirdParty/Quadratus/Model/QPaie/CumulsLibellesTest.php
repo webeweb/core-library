@@ -35,4 +35,43 @@ class CumulsLibellesTest extends AbstractTestCase {
         $this->assertNull($obj->getNumCumulBulletin());
         $this->assertNull($obj->getNumeroEmploye());
     }
+
+    /**
+     * Tests the setMontantCumul() method.
+     *
+     * @return void
+     */
+    public function testSetMontantCumul() {
+
+        $obj = new CumulsLibelles();
+
+        $obj->setMontantCumul(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantCumul());
+    }
+
+    /**
+     * Tests the setNumCumulBulletin() method.
+     *
+     * @return void
+     */
+    public function testSetNumCumulBulletin() {
+
+        $obj = new CumulsLibelles();
+
+        $obj->setNumCumulBulletin(10);
+        $this->assertEquals(10, $obj->getNumCumulBulletin());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new CumulsLibelles();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 }

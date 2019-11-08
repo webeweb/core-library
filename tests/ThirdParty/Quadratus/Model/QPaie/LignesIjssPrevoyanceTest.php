@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesIjssPrevoyance;
 
@@ -37,5 +39,95 @@ class LignesIjssPrevoyanceTest extends AbstractTestCase {
         $this->assertNull($obj->getNumeroAttestation());
         $this->assertNull($obj->getPeriodeDeb());
         $this->assertNull($obj->getPeriodeFin());
+    }
+
+    /**
+     * Tests the setDateVersement() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateVersement() {
+
+        // Set a Date/time mock.
+        $dateVersement = new DateTime("2018-09-10");
+
+        $obj = new LignesIjssPrevoyance();
+
+        $obj->setDateVersement($dateVersement);
+        $this->assertSame($dateVersement, $obj->getDateVersement());
+    }
+
+    /**
+     * Tests the setMontant() method.
+     *
+     * @return void
+     */
+    public function testSetMontant() {
+
+        $obj = new LignesIjssPrevoyance();
+
+        $obj->setMontant(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontant());
+    }
+
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
+
+        $obj = new LignesIjssPrevoyance();
+
+        $obj->setNumLigne("numLigne");
+        $this->assertEquals("numLigne", $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the setNumeroAttestation() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAttestation() {
+
+        $obj = new LignesIjssPrevoyance();
+
+        $obj->setNumeroAttestation("numeroAttestation");
+        $this->assertEquals("numeroAttestation", $obj->getNumeroAttestation());
+    }
+
+    /**
+     * Tests the setPeriodeDeb() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeDeb() {
+
+        // Set a Date/time mock.
+        $periodeDeb = new DateTime("2018-09-10");
+
+        $obj = new LignesIjssPrevoyance();
+
+        $obj->setPeriodeDeb($periodeDeb);
+        $this->assertSame($periodeDeb, $obj->getPeriodeDeb());
+    }
+
+    /**
+     * Tests the setPeriodeFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeFin() {
+
+        // Set a Date/time mock.
+        $periodeFin = new DateTime("2018-09-10");
+
+        $obj = new LignesIjssPrevoyance();
+
+        $obj->setPeriodeFin($periodeFin);
+        $this->assertSame($periodeFin, $obj->getPeriodeFin());
     }
 }

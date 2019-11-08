@@ -37,4 +37,69 @@ class AffectationAnaTest extends AbstractTestCase {
         $this->assertNull($obj->getNumLigne());
         $this->assertNull($obj->getPourcentage());
     }
+
+    /**
+     * Tests the setCodeCentre() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCentre() {
+
+        $obj = new AffectationAna();
+
+        $obj->setCodeCentre("codeCentre");
+        $this->assertEquals("codeCentre", $obj->getCodeCentre());
+    }
+
+    /**
+     * Tests the setCodeNature() method.
+     *
+     * @return void
+     */
+    public function testSetCodeNature() {
+
+        $obj = new AffectationAna();
+
+        $obj->setCodeNature("codeNature");
+        $this->assertEquals("codeNature", $obj->getCodeNature());
+    }
+
+    /**
+     * Tests the setNumCompte() method.
+     *
+     * @return void
+     */
+    public function testSetNumCompte() {
+
+        $obj = new AffectationAna();
+
+        $obj->setNumCompte("numCompte");
+        $this->assertEquals("numCompte", $obj->getNumCompte());
+    }
+
+    /**
+     * Tests the setNumLigne() method.
+     *
+     * @return void
+     */
+    public function testSetNumLigne() {
+
+        $obj = new AffectationAna();
+
+        $obj->setNumLigne(10);
+        $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the setPourcentage() method.
+     *
+     * @return void
+     */
+    public function testSetPourcentage() {
+
+        $obj = new AffectationAna();
+
+        $obj->setPourcentage(10.092018);
+        $this->assertEquals(10.092018, $obj->getPourcentage());
+    }
 }

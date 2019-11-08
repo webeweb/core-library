@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpDadsuPrevoyanceEvenements;
 
@@ -39,5 +41,113 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
         $this->assertNull($obj->getDateEvenement());
         $this->assertNull($obj->getNumeroEmploye());
         $this->assertNull($obj->getRefContrat());
+    }
+
+    /**
+     * Tests the setADeclarerDsn() method.
+     *
+     * @return void
+     */
+    public function testSetADeclarerDsn() {
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $obj->setADeclarerDsn(true);
+        $this->assertEquals(true, $obj->getADeclarerDsn());
+    }
+
+    /**
+     * Tests the setCodeEvenement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEvenement() {
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $obj->setCodeEvenement("codeEvenement");
+        $this->assertEquals("codeEvenement", $obj->getCodeEvenement());
+    }
+
+    /**
+     * Tests the setCodeOption() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOption() {
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $obj->setCodeOption("codeOption");
+        $this->assertEquals("codeOption", $obj->getCodeOption());
+    }
+
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
+
+    /**
+     * Tests the setCodePopulation() method.
+     *
+     * @return void
+     */
+    public function testSetCodePopulation() {
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $obj->setCodePopulation("codePopulation");
+        $this->assertEquals("codePopulation", $obj->getCodePopulation());
+    }
+
+    /**
+     * Tests the setDateEvenement() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateEvenement() {
+
+        // Set a Date/time mock.
+        $dateEvenement = new DateTime("2018-09-10");
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $obj->setDateEvenement($dateEvenement);
+        $this->assertSame($dateEvenement, $obj->getDateEvenement());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setRefContrat() method.
+     *
+     * @return void
+     */
+    public function testSetRefContrat() {
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $obj->setRefContrat("refContrat");
+        $this->assertEquals("refContrat", $obj->getRefContrat());
     }
 }

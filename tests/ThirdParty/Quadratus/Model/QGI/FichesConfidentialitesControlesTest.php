@@ -39,4 +39,95 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
         $this->assertNull($obj->getMotDePasse());
         $this->assertNull($obj->getType());
     }
+
+    /**
+     * Tests the setAgence() method.
+     *
+     * @return void
+     */
+    public function testSetAgence() {
+
+        $obj = new FichesConfidentialitesControles();
+
+        $obj->setAgence("agence");
+        $this->assertEquals("agence", $obj->getAgence());
+    }
+
+    /**
+     * Tests the setAutorise() method.
+     *
+     * @return void
+     */
+    public function testSetAutorise() {
+
+        $obj = new FichesConfidentialitesControles();
+
+        $obj->setAutorise(true);
+        $this->assertEquals(true, $obj->getAutorise());
+    }
+
+    /**
+     * Tests the setCodeColl() method.
+     *
+     * @return void
+     */
+    public function testSetCodeColl() {
+
+        $obj = new FichesConfidentialitesControles();
+
+        $obj->setCodeColl("codeColl");
+        $this->assertEquals("codeColl", $obj->getCodeColl());
+    }
+
+    /**
+     * Tests the setDossier() method.
+     *
+     * @return void
+     */
+    public function testSetDossier() {
+
+        $obj = new FichesConfidentialitesControles();
+
+        $obj->setDossier("dossier");
+        $this->assertEquals("dossier", $obj->getDossier());
+    }
+
+    /**
+     * Tests the setMotControle() method.
+     *
+     * @return void
+     */
+    public function testSetMotControle() {
+
+        $obj = new FichesConfidentialitesControles();
+
+        $obj->setMotControle("motControle");
+        $this->assertEquals("motControle", $obj->getMotControle());
+    }
+
+    /**
+     * Tests the setMotDePasse() method.
+     *
+     * @return void
+     */
+    public function testSetMotDePasse() {
+
+        $obj = new FichesConfidentialitesControles();
+
+        $obj->setMotDePasse("motDePasse");
+        $this->assertEquals("motDePasse", $obj->getMotDePasse());
+    }
+
+    /**
+     * Tests the setType() method.
+     *
+     * @return void
+     */
+    public function testSetType() {
+
+        $obj = new FichesConfidentialitesControles();
+
+        $obj->setType("type");
+        $this->assertEquals("type", $obj->getType());
+    }
 }

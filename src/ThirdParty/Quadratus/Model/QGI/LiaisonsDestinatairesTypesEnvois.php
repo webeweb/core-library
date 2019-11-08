@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeDestinataireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTypeEnvoiTrait;
-
 /**
  * Liaisons destinataires types envois.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTypeEnvoiTrait;
  */
 class LiaisonsDestinatairesTypesEnvois {
 
-    use StringCodeDestinataireTrait;
-    use StringCodeTypeEnvoiTrait;
+    /**
+     * Code destinataire.
+     *
+     * @var string
+     */
+    private $codeDestinataire;
+
+    /**
+     * Code type envoi.
+     *
+     * @var string
+     */
+    private $codeTypeEnvoi;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code destinataire.
+     *
+     * @return string Returns the code destinataire.
+     */
+    public function getCodeDestinataire() {
+        return $this->codeDestinataire;
+    }
+
+    /**
+     * Get the code type envoi.
+     *
+     * @return string Returns the code type envoi.
+     */
+    public function getCodeTypeEnvoi() {
+        return $this->codeTypeEnvoi;
+    }
+
+    /**
+     * Set the code destinataire.
+     *
+     * @param string $codeDestinataire The code destinataire.
+     */
+    public function setCodeDestinataire($codeDestinataire) {
+        $this->codeDestinataire = $codeDestinataire;
+        return $this;
+    }
+
+    /**
+     * Set the code type envoi.
+     *
+     * @param string $codeTypeEnvoi The code type envoi.
+     */
+    public function setCodeTypeEnvoi($codeTypeEnvoi) {
+        $this->codeTypeEnvoi = $codeTypeEnvoi;
+        return $this;
     }
 }

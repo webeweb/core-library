@@ -11,11 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatInfoCelluleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeRubriqueTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMillesimeTrait;
-
 /**
  * Statistiques.
  *
@@ -24,15 +19,114 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMillesimeTrait;
  */
 class Statistiques {
 
-    use StringCodeClientTrait;
-    use StringCodeRubriqueTrait;
-    use FloatInfoCelluleTrait;
-    use StringMillesimeTrait;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code rubrique.
+     *
+     * @var string
+     */
+    private $codeRubrique;
+
+    /**
+     * Info cellule.
+     *
+     * @var float
+     */
+    private $infoCellule;
+
+    /**
+     * Millesime.
+     *
+     * @var string
+     */
+    private $millesime;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code rubrique.
+     *
+     * @return string Returns the code rubrique.
+     */
+    public function getCodeRubrique() {
+        return $this->codeRubrique;
+    }
+
+    /**
+     * Get the info cellule.
+     *
+     * @return float Returns the info cellule.
+     */
+    public function getInfoCellule() {
+        return $this->infoCellule;
+    }
+
+    /**
+     * Get the millesime.
+     *
+     * @return string Returns the millesime.
+     */
+    public function getMillesime() {
+        return $this->millesime;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code rubrique.
+     *
+     * @param string $codeRubrique The code rubrique.
+     */
+    public function setCodeRubrique($codeRubrique) {
+        $this->codeRubrique = $codeRubrique;
+        return $this;
+    }
+
+    /**
+     * Set the info cellule.
+     *
+     * @param float $infoCellule The info cellule.
+     */
+    public function setInfoCellule($infoCellule) {
+        $this->infoCellule = $infoCellule;
+        return $this;
+    }
+
+    /**
+     * Set the millesime.
+     *
+     * @param string $millesime The millesime.
+     */
+    public function setMillesime($millesime) {
+        $this->millesime = $millesime;
+        return $this;
     }
 }

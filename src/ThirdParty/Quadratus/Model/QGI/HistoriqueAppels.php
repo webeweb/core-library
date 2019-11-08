@@ -11,27 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolConfidentielTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateEntreeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateSortieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntIdHistoriqueTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurClotTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurDestTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurEntrantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeProduitTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringConsequenceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringEmailAuteurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringGroupeQualifiantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNatureTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNomClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringOrigineTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPieceJointeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringReponseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringSpecialTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTelTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeMessageTrait;
+use DateTime;
 
 /**
  * Historique appels.
@@ -41,32 +21,556 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeMessageTrait;
  */
 class HistoriqueAppels {
 
-    use StringCodeClientTrait;
-    use StringCodeCollaborateurClotTrait;
-    use StringCodeCollaborateurDestTrait;
-    use StringCodeCollaborateurEntrantTrait;
-    use StringCodeProduitTrait;
-    use BoolConfidentielTrait;
-    use StringConsequenceTrait;
-    use DateTimeDateEntreeTrait;
-    use DateTimeDateSortieTrait;
-    use StringEmailAuteurTrait;
-    use StringGroupeQualifiantTrait;
-    use IntIdHistoriqueTrait;
-    use StringIntituleTrait;
-    use StringNatureTrait;
-    use StringNomClientTrait;
-    use StringOrigineTrait;
-    use StringPieceJointeTrait;
-    use StringReponseTrait;
-    use StringSpecialTrait;
-    use StringTelTrait;
-    use StringTypeMessageTrait;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code collaborateur clot.
+     *
+     * @var string
+     */
+    private $codeCollaborateurClot;
+
+    /**
+     * Code collaborateur dest.
+     *
+     * @var string
+     */
+    private $codeCollaborateurDest;
+
+    /**
+     * Code collaborateur entrant.
+     *
+     * @var string
+     */
+    private $codeCollaborateurEntrant;
+
+    /**
+     * Code produit.
+     *
+     * @var string
+     */
+    private $codeProduit;
+
+    /**
+     * Confidentiel.
+     *
+     * @var bool
+     */
+    private $confidentiel;
+
+    /**
+     * Consequence.
+     *
+     * @var string
+     */
+    private $consequence;
+
+    /**
+     * Date entree.
+     *
+     * @var DateTime|null
+     */
+    private $dateEntree;
+
+    /**
+     * Date sortie.
+     *
+     * @var DateTime|null
+     */
+    private $dateSortie;
+
+    /**
+     * Email auteur.
+     *
+     * @var string
+     */
+    private $emailAuteur;
+
+    /**
+     * Groupe qualifiant.
+     *
+     * @var string
+     */
+    private $groupeQualifiant;
+
+    /**
+     * Id historique.
+     *
+     * @var int
+     */
+    private $idHistorique;
+
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
+
+    /**
+     * Nature.
+     *
+     * @var string
+     */
+    private $nature;
+
+    /**
+     * Nom client.
+     *
+     * @var string
+     */
+    private $nomClient;
+
+    /**
+     * Origine.
+     *
+     * @var string
+     */
+    private $origine;
+
+    /**
+     * Piece jointe.
+     *
+     * @var string
+     */
+    private $pieceJointe;
+
+    /**
+     * Reponse.
+     *
+     * @var string
+     */
+    private $reponse;
+
+    /**
+     * Special.
+     *
+     * @var string
+     */
+    private $special;
+
+    /**
+     * Tel.
+     *
+     * @var string
+     */
+    private $tel;
+
+    /**
+     * Type message.
+     *
+     * @var string
+     */
+    private $typeMessage;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code collaborateur clot.
+     *
+     * @return string Returns the code collaborateur clot.
+     */
+    public function getCodeCollaborateurClot() {
+        return $this->codeCollaborateurClot;
+    }
+
+    /**
+     * Get the code collaborateur dest.
+     *
+     * @return string Returns the code collaborateur dest.
+     */
+    public function getCodeCollaborateurDest() {
+        return $this->codeCollaborateurDest;
+    }
+
+    /**
+     * Get the code collaborateur entrant.
+     *
+     * @return string Returns the code collaborateur entrant.
+     */
+    public function getCodeCollaborateurEntrant() {
+        return $this->codeCollaborateurEntrant;
+    }
+
+    /**
+     * Get the code produit.
+     *
+     * @return string Returns the code produit.
+     */
+    public function getCodeProduit() {
+        return $this->codeProduit;
+    }
+
+    /**
+     * Get the confidentiel.
+     *
+     * @return bool Returns the confidentiel.
+     */
+    public function getConfidentiel() {
+        return $this->confidentiel;
+    }
+
+    /**
+     * Get the consequence.
+     *
+     * @return string Returns the consequence.
+     */
+    public function getConsequence() {
+        return $this->consequence;
+    }
+
+    /**
+     * Get the date entree.
+     *
+     * @return DateTime|null Returns the date entree.
+     */
+    public function getDateEntree() {
+        return $this->dateEntree;
+    }
+
+    /**
+     * Get the date sortie.
+     *
+     * @return DateTime|null Returns the date sortie.
+     */
+    public function getDateSortie() {
+        return $this->dateSortie;
+    }
+
+    /**
+     * Get the email auteur.
+     *
+     * @return string Returns the email auteur.
+     */
+    public function getEmailAuteur() {
+        return $this->emailAuteur;
+    }
+
+    /**
+     * Get the groupe qualifiant.
+     *
+     * @return string Returns the groupe qualifiant.
+     */
+    public function getGroupeQualifiant() {
+        return $this->groupeQualifiant;
+    }
+
+    /**
+     * Get the id historique.
+     *
+     * @return int Returns the id historique.
+     */
+    public function getIdHistorique() {
+        return $this->idHistorique;
+    }
+
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
+
+    /**
+     * Get the nature.
+     *
+     * @return string Returns the nature.
+     */
+    public function getNature() {
+        return $this->nature;
+    }
+
+    /**
+     * Get the nom client.
+     *
+     * @return string Returns the nom client.
+     */
+    public function getNomClient() {
+        return $this->nomClient;
+    }
+
+    /**
+     * Get the origine.
+     *
+     * @return string Returns the origine.
+     */
+    public function getOrigine() {
+        return $this->origine;
+    }
+
+    /**
+     * Get the piece jointe.
+     *
+     * @return string Returns the piece jointe.
+     */
+    public function getPieceJointe() {
+        return $this->pieceJointe;
+    }
+
+    /**
+     * Get the reponse.
+     *
+     * @return string Returns the reponse.
+     */
+    public function getReponse() {
+        return $this->reponse;
+    }
+
+    /**
+     * Get the special.
+     *
+     * @return string Returns the special.
+     */
+    public function getSpecial() {
+        return $this->special;
+    }
+
+    /**
+     * Get the tel.
+     *
+     * @return string Returns the tel.
+     */
+    public function getTel() {
+        return $this->tel;
+    }
+
+    /**
+     * Get the type message.
+     *
+     * @return string Returns the type message.
+     */
+    public function getTypeMessage() {
+        return $this->typeMessage;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur clot.
+     *
+     * @param string $codeCollaborateurClot The code collaborateur clot.
+     */
+    public function setCodeCollaborateurClot($codeCollaborateurClot) {
+        $this->codeCollaborateurClot = $codeCollaborateurClot;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur dest.
+     *
+     * @param string $codeCollaborateurDest The code collaborateur dest.
+     */
+    public function setCodeCollaborateurDest($codeCollaborateurDest) {
+        $this->codeCollaborateurDest = $codeCollaborateurDest;
+        return $this;
+    }
+
+    /**
+     * Set the code collaborateur entrant.
+     *
+     * @param string $codeCollaborateurEntrant The code collaborateur entrant.
+     */
+    public function setCodeCollaborateurEntrant($codeCollaborateurEntrant) {
+        $this->codeCollaborateurEntrant = $codeCollaborateurEntrant;
+        return $this;
+    }
+
+    /**
+     * Set the code produit.
+     *
+     * @param string $codeProduit The code produit.
+     */
+    public function setCodeProduit($codeProduit) {
+        $this->codeProduit = $codeProduit;
+        return $this;
+    }
+
+    /**
+     * Set the confidentiel.
+     *
+     * @param bool $confidentiel The confidentiel.
+     */
+    public function setConfidentiel($confidentiel) {
+        $this->confidentiel = $confidentiel;
+        return $this;
+    }
+
+    /**
+     * Set the consequence.
+     *
+     * @param string $consequence The consequence.
+     */
+    public function setConsequence($consequence) {
+        $this->consequence = $consequence;
+        return $this;
+    }
+
+    /**
+     * Set the date entree.
+     *
+     * @param DateTime|null $dateEntree The date entree.
+     */
+    public function setDateEntree(DateTime $dateEntree = null) {
+        $this->dateEntree = $dateEntree;
+        return $this;
+    }
+
+    /**
+     * Set the date sortie.
+     *
+     * @param DateTime|null $dateSortie The date sortie.
+     */
+    public function setDateSortie(DateTime $dateSortie = null) {
+        $this->dateSortie = $dateSortie;
+        return $this;
+    }
+
+    /**
+     * Set the email auteur.
+     *
+     * @param string $emailAuteur The email auteur.
+     */
+    public function setEmailAuteur($emailAuteur) {
+        $this->emailAuteur = $emailAuteur;
+        return $this;
+    }
+
+    /**
+     * Set the groupe qualifiant.
+     *
+     * @param string $groupeQualifiant The groupe qualifiant.
+     */
+    public function setGroupeQualifiant($groupeQualifiant) {
+        $this->groupeQualifiant = $groupeQualifiant;
+        return $this;
+    }
+
+    /**
+     * Set the id historique.
+     *
+     * @param int $idHistorique The id historique.
+     */
+    public function setIdHistorique($idHistorique) {
+        $this->idHistorique = $idHistorique;
+        return $this;
+    }
+
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
+
+    /**
+     * Set the nature.
+     *
+     * @param string $nature The nature.
+     */
+    public function setNature($nature) {
+        $this->nature = $nature;
+        return $this;
+    }
+
+    /**
+     * Set the nom client.
+     *
+     * @param string $nomClient The nom client.
+     */
+    public function setNomClient($nomClient) {
+        $this->nomClient = $nomClient;
+        return $this;
+    }
+
+    /**
+     * Set the origine.
+     *
+     * @param string $origine The origine.
+     */
+    public function setOrigine($origine) {
+        $this->origine = $origine;
+        return $this;
+    }
+
+    /**
+     * Set the piece jointe.
+     *
+     * @param string $pieceJointe The piece jointe.
+     */
+    public function setPieceJointe($pieceJointe) {
+        $this->pieceJointe = $pieceJointe;
+        return $this;
+    }
+
+    /**
+     * Set the reponse.
+     *
+     * @param string $reponse The reponse.
+     */
+    public function setReponse($reponse) {
+        $this->reponse = $reponse;
+        return $this;
+    }
+
+    /**
+     * Set the special.
+     *
+     * @param string $special The special.
+     */
+    public function setSpecial($special) {
+        $this->special = $special;
+        return $this;
+    }
+
+    /**
+     * Set the tel.
+     *
+     * @param string $tel The tel.
+     */
+    public function setTel($tel) {
+        $this->tel = $tel;
+        return $this;
+    }
+
+    /**
+     * Set the type message.
+     *
+     * @param string $typeMessage The type message.
+     */
+    public function setTypeMessage($typeMessage) {
+        $this->typeMessage = $typeMessage;
+        return $this;
     }
 }

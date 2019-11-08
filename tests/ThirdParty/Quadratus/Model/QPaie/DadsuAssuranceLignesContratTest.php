@@ -39,4 +39,95 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
         $this->assertNull($obj->getRefContrat());
         $this->assertNull($obj->getUniteGestion());
     }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new DadsuAssuranceLignesContrat();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setCodeLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibelle() {
+
+        $obj = new DadsuAssuranceLignesContrat();
+
+        $obj->setCodeLibelle("codeLibelle");
+        $this->assertEquals("codeLibelle", $obj->getCodeLibelle());
+    }
+
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
+
+        $obj = new DadsuAssuranceLignesContrat();
+
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
+
+    /**
+     * Tests the setCodePorteurRisque() method.
+     *
+     * @return void
+     */
+    public function testSetCodePorteurRisque() {
+
+        $obj = new DadsuAssuranceLignesContrat();
+
+        $obj->setCodePorteurRisque("codePorteurRisque");
+        $this->assertEquals("codePorteurRisque", $obj->getCodePorteurRisque());
+    }
+
+    /**
+     * Tests the setDesignationCommerciale() method.
+     *
+     * @return void
+     */
+    public function testSetDesignationCommerciale() {
+
+        $obj = new DadsuAssuranceLignesContrat();
+
+        $obj->setDesignationCommerciale("designationCommerciale");
+        $this->assertEquals("designationCommerciale", $obj->getDesignationCommerciale());
+    }
+
+    /**
+     * Tests the setRefContrat() method.
+     *
+     * @return void
+     */
+    public function testSetRefContrat() {
+
+        $obj = new DadsuAssuranceLignesContrat();
+
+        $obj->setRefContrat("refContrat");
+        $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
+
+    /**
+     * Tests the setUniteGestion() method.
+     *
+     * @return void
+     */
+    public function testSetUniteGestion() {
+
+        $obj = new DadsuAssuranceLignesContrat();
+
+        $obj->setUniteGestion("uniteGestion");
+        $this->assertEquals("uniteGestion", $obj->getUniteGestion());
+    }
 }

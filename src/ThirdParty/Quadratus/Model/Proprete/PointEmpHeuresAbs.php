@@ -11,17 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeHeureAbsNuitTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeHeureAbsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumBtTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAbsenceTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTacheTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeHeureTrait;
+use DateTime;
 
 /**
  * Point emp heures abs.
@@ -31,22 +21,296 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeHeureTrait;
  */
 class PointEmpHeuresAbs {
 
-    use StringCodeAbsenceTrait;
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringCodeEmployeTrait;
-    use StringCodeTacheTrait;
-    use DateTimeDateTrait;
-    use DateTimeHeureAbsTrait;
-    use DateTimeHeureAbsNuitTrait;
-    use IntNumBtTrait;
-    use StringTypeHeureTrait;
+    /**
+     * Code absence.
+     *
+     * @var string
+     */
+    private $codeAbsence;
+
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
+
+    /**
+     * Code tache.
+     *
+     * @var string
+     */
+    private $codeTache;
+
+    /**
+     * Date.
+     *
+     * @var DateTime|null
+     */
+    private $date;
+
+    /**
+     * Heure abs.
+     *
+     * @var DateTime|null
+     */
+    private $heureAbs;
+
+    /**
+     * Heure abs nuit.
+     *
+     * @var DateTime|null
+     */
+    private $heureAbsNuit;
+
+    /**
+     * Num bt.
+     *
+     * @var int
+     */
+    private $numBt;
+
+    /**
+     * Type heure.
+     *
+     * @var string
+     */
+    private $typeHeure;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code absence.
+     *
+     * @return string Returns the code absence.
+     */
+    public function getCodeAbsence() {
+        return $this->codeAbsence;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
+
+    /**
+     * Get the code tache.
+     *
+     * @return string Returns the code tache.
+     */
+    public function getCodeTache() {
+        return $this->codeTache;
+    }
+
+    /**
+     * Get the date.
+     *
+     * @return DateTime|null Returns the date.
+     */
+    public function getDate() {
+        return $this->date;
+    }
+
+    /**
+     * Get the heure abs.
+     *
+     * @return DateTime|null Returns the heure abs.
+     */
+    public function getHeureAbs() {
+        return $this->heureAbs;
+    }
+
+    /**
+     * Get the heure abs nuit.
+     *
+     * @return DateTime|null Returns the heure abs nuit.
+     */
+    public function getHeureAbsNuit() {
+        return $this->heureAbsNuit;
+    }
+
+    /**
+     * Get the num bt.
+     *
+     * @return int Returns the num bt.
+     */
+    public function getNumBt() {
+        return $this->numBt;
+    }
+
+    /**
+     * Get the type heure.
+     *
+     * @return string Returns the type heure.
+     */
+    public function getTypeHeure() {
+        return $this->typeHeure;
+    }
+
+    /**
+     * Set the code absence.
+     *
+     * @param string $codeAbsence The code absence.
+     */
+    public function setCodeAbsence($codeAbsence) {
+        $this->codeAbsence = $codeAbsence;
+        return $this;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the code tache.
+     *
+     * @param string $codeTache The code tache.
+     */
+    public function setCodeTache($codeTache) {
+        $this->codeTache = $codeTache;
+        return $this;
+    }
+
+    /**
+     * Set the date.
+     *
+     * @param DateTime|null $date The date.
+     */
+    public function setDate(DateTime $date = null) {
+        $this->date = $date;
+        return $this;
+    }
+
+    /**
+     * Set the heure abs.
+     *
+     * @param DateTime|null $heureAbs The heure abs.
+     */
+    public function setHeureAbs(DateTime $heureAbs = null) {
+        $this->heureAbs = $heureAbs;
+        return $this;
+    }
+
+    /**
+     * Set the heure abs nuit.
+     *
+     * @param DateTime|null $heureAbsNuit The heure abs nuit.
+     */
+    public function setHeureAbsNuit(DateTime $heureAbsNuit = null) {
+        $this->heureAbsNuit = $heureAbsNuit;
+        return $this;
+    }
+
+    /**
+     * Set the num bt.
+     *
+     * @param int $numBt The num bt.
+     */
+    public function setNumBt($numBt) {
+        $this->numBt = $numBt;
+        return $this;
+    }
+
+    /**
+     * Set the type heure.
+     *
+     * @param string $typeHeure The type heure.
+     */
+    public function setTypeHeure($typeHeure) {
+        $this->typeHeure = $typeHeure;
+        return $this;
     }
 }

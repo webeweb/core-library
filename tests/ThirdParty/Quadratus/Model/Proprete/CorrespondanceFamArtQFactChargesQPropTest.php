@@ -34,4 +34,30 @@ class CorrespondanceFamArtQFactChargesQPropTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeCharge());
         $this->assertNull($obj->getCodeFamArt());
     }
+
+    /**
+     * Tests the setCodeCharge() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCharge() {
+
+        $obj = new CorrespondanceFamArtQFactChargesQProp();
+
+        $obj->setCodeCharge("codeCharge");
+        $this->assertEquals("codeCharge", $obj->getCodeCharge());
+    }
+
+    /**
+     * Tests the setCodeFamArt() method.
+     *
+     * @return void
+     */
+    public function testSetCodeFamArt() {
+
+        $obj = new CorrespondanceFamArtQFactChargesQProp();
+
+        $obj->setCodeFamArt("codeFamArt");
+        $this->assertEquals("codeFamArt", $obj->getCodeFamArt());
+    }
 }

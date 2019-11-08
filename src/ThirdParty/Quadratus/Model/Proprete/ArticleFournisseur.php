@@ -11,40 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolAvtDerEurosTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolDerEurosTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolMiniEurosTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeAvtDerDateAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDerDateAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeMiniDateAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAvtDerPxAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAvtDerQteAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAvtDerRemise1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAvtDerRemise2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatAvtDerRemise3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDerPxAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDerQteAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDerRemise1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDerRemise2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatDerRemise3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMiniPxAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMiniQteAchatTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMiniRemise1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMiniRemise2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMiniRemise3Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatQteEconomiqueTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDelaiLeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDelaiNombreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntDelaiTypeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAvtDerCodeDeviseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeArticleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeFournisseurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCommentairesTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringConditionnementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDerCodeDeviseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringMiniCodeDeviseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefArticleFournisseurTrait;
+use DateTime;
 
 /**
  * Article fournisseur.
@@ -54,45 +21,894 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRefArticleFournisseurT
  */
 class ArticleFournisseur {
 
-    use StringAvtDerCodeDeviseTrait;
-    use DateTimeAvtDerDateAchatTrait;
-    use BoolAvtDerEurosTrait;
-    use FloatAvtDerPxAchatTrait;
-    use FloatAvtDerQteAchatTrait;
-    use FloatAvtDerRemise1Trait;
-    use FloatAvtDerRemise2Trait;
-    use FloatAvtDerRemise3Trait;
-    use StringCodeArticleTrait;
-    use StringCodeFournisseurTrait;
-    use StringCommentairesTrait;
-    use StringConditionnementTrait;
-    use IntDelaiLeTrait;
-    use IntDelaiNombreTrait;
-    use IntDelaiTypeTrait;
-    use StringDerCodeDeviseTrait;
-    use DateTimeDerDateAchatTrait;
-    use BoolDerEurosTrait;
-    use FloatDerPxAchatTrait;
-    use FloatDerQteAchatTrait;
-    use FloatDerRemise1Trait;
-    use FloatDerRemise2Trait;
-    use FloatDerRemise3Trait;
-    use StringMiniCodeDeviseTrait;
-    use DateTimeMiniDateAchatTrait;
-    use BoolMiniEurosTrait;
-    use FloatMiniPxAchatTrait;
-    use FloatMiniQteAchatTrait;
-    use FloatMiniRemise1Trait;
-    use FloatMiniRemise2Trait;
-    use FloatMiniRemise3Trait;
-    use IntNumeroLigneTrait;
-    use FloatQteEconomiqueTrait;
-    use StringRefArticleFournisseurTrait;
+    /**
+     * Avt der code devise.
+     *
+     * @var string
+     */
+    private $avtDerCodeDevise;
+
+    /**
+     * Avt der date achat.
+     *
+     * @var DateTime|null
+     */
+    private $avtDerDateAchat;
+
+    /**
+     * Avt der euros.
+     *
+     * @var bool
+     */
+    private $avtDerEuros;
+
+    /**
+     * Avt der px achat.
+     *
+     * @var float
+     */
+    private $avtDerPxAchat;
+
+    /**
+     * Avt der qte achat.
+     *
+     * @var float
+     */
+    private $avtDerQteAchat;
+
+    /**
+     * Avt der remise1.
+     *
+     * @var float
+     */
+    private $avtDerRemise1;
+
+    /**
+     * Avt der remise2.
+     *
+     * @var float
+     */
+    private $avtDerRemise2;
+
+    /**
+     * Avt der remise3.
+     *
+     * @var float
+     */
+    private $avtDerRemise3;
+
+    /**
+     * Code article.
+     *
+     * @var string
+     */
+    private $codeArticle;
+
+    /**
+     * Code fournisseur.
+     *
+     * @var string
+     */
+    private $codeFournisseur;
+
+    /**
+     * Commentaires.
+     *
+     * @var string
+     */
+    private $commentaires;
+
+    /**
+     * Conditionnement.
+     *
+     * @var string
+     */
+    private $conditionnement;
+
+    /**
+     * Delai le.
+     *
+     * @var int
+     */
+    private $delaiLe;
+
+    /**
+     * Delai nombre.
+     *
+     * @var int
+     */
+    private $delaiNombre;
+
+    /**
+     * Delai type.
+     *
+     * @var int
+     */
+    private $delaiType;
+
+    /**
+     * Der code devise.
+     *
+     * @var string
+     */
+    private $derCodeDevise;
+
+    /**
+     * Der date achat.
+     *
+     * @var DateTime|null
+     */
+    private $derDateAchat;
+
+    /**
+     * Der euros.
+     *
+     * @var bool
+     */
+    private $derEuros;
+
+    /**
+     * Der px achat.
+     *
+     * @var float
+     */
+    private $derPxAchat;
+
+    /**
+     * Der qte achat.
+     *
+     * @var float
+     */
+    private $derQteAchat;
+
+    /**
+     * Der remise1.
+     *
+     * @var float
+     */
+    private $derRemise1;
+
+    /**
+     * Der remise2.
+     *
+     * @var float
+     */
+    private $derRemise2;
+
+    /**
+     * Der remise3.
+     *
+     * @var float
+     */
+    private $derRemise3;
+
+    /**
+     * Mini code devise.
+     *
+     * @var string
+     */
+    private $miniCodeDevise;
+
+    /**
+     * Mini date achat.
+     *
+     * @var DateTime|null
+     */
+    private $miniDateAchat;
+
+    /**
+     * Mini euros.
+     *
+     * @var bool
+     */
+    private $miniEuros;
+
+    /**
+     * Mini px achat.
+     *
+     * @var float
+     */
+    private $miniPxAchat;
+
+    /**
+     * Mini qte achat.
+     *
+     * @var float
+     */
+    private $miniQteAchat;
+
+    /**
+     * Mini remise1.
+     *
+     * @var float
+     */
+    private $miniRemise1;
+
+    /**
+     * Mini remise2.
+     *
+     * @var float
+     */
+    private $miniRemise2;
+
+    /**
+     * Mini remise3.
+     *
+     * @var float
+     */
+    private $miniRemise3;
+
+    /**
+     * Numero ligne.
+     *
+     * @var int
+     */
+    private $numeroLigne;
+
+    /**
+     * Qte economique.
+     *
+     * @var float
+     */
+    private $qteEconomique;
+
+    /**
+     * Ref article fournisseur.
+     *
+     * @var string
+     */
+    private $refArticleFournisseur;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the avt der code devise.
+     *
+     * @return string Returns the avt der code devise.
+     */
+    public function getAvtDerCodeDevise() {
+        return $this->avtDerCodeDevise;
+    }
+
+    /**
+     * Get the avt der date achat.
+     *
+     * @return DateTime|null Returns the avt der date achat.
+     */
+    public function getAvtDerDateAchat() {
+        return $this->avtDerDateAchat;
+    }
+
+    /**
+     * Get the avt der euros.
+     *
+     * @return bool Returns the avt der euros.
+     */
+    public function getAvtDerEuros() {
+        return $this->avtDerEuros;
+    }
+
+    /**
+     * Get the avt der px achat.
+     *
+     * @return float Returns the avt der px achat.
+     */
+    public function getAvtDerPxAchat() {
+        return $this->avtDerPxAchat;
+    }
+
+    /**
+     * Get the avt der qte achat.
+     *
+     * @return float Returns the avt der qte achat.
+     */
+    public function getAvtDerQteAchat() {
+        return $this->avtDerQteAchat;
+    }
+
+    /**
+     * Get the avt der remise1.
+     *
+     * @return float Returns the avt der remise1.
+     */
+    public function getAvtDerRemise1() {
+        return $this->avtDerRemise1;
+    }
+
+    /**
+     * Get the avt der remise2.
+     *
+     * @return float Returns the avt der remise2.
+     */
+    public function getAvtDerRemise2() {
+        return $this->avtDerRemise2;
+    }
+
+    /**
+     * Get the avt der remise3.
+     *
+     * @return float Returns the avt der remise3.
+     */
+    public function getAvtDerRemise3() {
+        return $this->avtDerRemise3;
+    }
+
+    /**
+     * Get the code article.
+     *
+     * @return string Returns the code article.
+     */
+    public function getCodeArticle() {
+        return $this->codeArticle;
+    }
+
+    /**
+     * Get the code fournisseur.
+     *
+     * @return string Returns the code fournisseur.
+     */
+    public function getCodeFournisseur() {
+        return $this->codeFournisseur;
+    }
+
+    /**
+     * Get the commentaires.
+     *
+     * @return string Returns the commentaires.
+     */
+    public function getCommentaires() {
+        return $this->commentaires;
+    }
+
+    /**
+     * Get the conditionnement.
+     *
+     * @return string Returns the conditionnement.
+     */
+    public function getConditionnement() {
+        return $this->conditionnement;
+    }
+
+    /**
+     * Get the delai le.
+     *
+     * @return int Returns the delai le.
+     */
+    public function getDelaiLe() {
+        return $this->delaiLe;
+    }
+
+    /**
+     * Get the delai nombre.
+     *
+     * @return int Returns the delai nombre.
+     */
+    public function getDelaiNombre() {
+        return $this->delaiNombre;
+    }
+
+    /**
+     * Get the delai type.
+     *
+     * @return int Returns the delai type.
+     */
+    public function getDelaiType() {
+        return $this->delaiType;
+    }
+
+    /**
+     * Get the der code devise.
+     *
+     * @return string Returns the der code devise.
+     */
+    public function getDerCodeDevise() {
+        return $this->derCodeDevise;
+    }
+
+    /**
+     * Get the der date achat.
+     *
+     * @return DateTime|null Returns the der date achat.
+     */
+    public function getDerDateAchat() {
+        return $this->derDateAchat;
+    }
+
+    /**
+     * Get the der euros.
+     *
+     * @return bool Returns the der euros.
+     */
+    public function getDerEuros() {
+        return $this->derEuros;
+    }
+
+    /**
+     * Get the der px achat.
+     *
+     * @return float Returns the der px achat.
+     */
+    public function getDerPxAchat() {
+        return $this->derPxAchat;
+    }
+
+    /**
+     * Get the der qte achat.
+     *
+     * @return float Returns the der qte achat.
+     */
+    public function getDerQteAchat() {
+        return $this->derQteAchat;
+    }
+
+    /**
+     * Get the der remise1.
+     *
+     * @return float Returns the der remise1.
+     */
+    public function getDerRemise1() {
+        return $this->derRemise1;
+    }
+
+    /**
+     * Get the der remise2.
+     *
+     * @return float Returns the der remise2.
+     */
+    public function getDerRemise2() {
+        return $this->derRemise2;
+    }
+
+    /**
+     * Get the der remise3.
+     *
+     * @return float Returns the der remise3.
+     */
+    public function getDerRemise3() {
+        return $this->derRemise3;
+    }
+
+    /**
+     * Get the mini code devise.
+     *
+     * @return string Returns the mini code devise.
+     */
+    public function getMiniCodeDevise() {
+        return $this->miniCodeDevise;
+    }
+
+    /**
+     * Get the mini date achat.
+     *
+     * @return DateTime|null Returns the mini date achat.
+     */
+    public function getMiniDateAchat() {
+        return $this->miniDateAchat;
+    }
+
+    /**
+     * Get the mini euros.
+     *
+     * @return bool Returns the mini euros.
+     */
+    public function getMiniEuros() {
+        return $this->miniEuros;
+    }
+
+    /**
+     * Get the mini px achat.
+     *
+     * @return float Returns the mini px achat.
+     */
+    public function getMiniPxAchat() {
+        return $this->miniPxAchat;
+    }
+
+    /**
+     * Get the mini qte achat.
+     *
+     * @return float Returns the mini qte achat.
+     */
+    public function getMiniQteAchat() {
+        return $this->miniQteAchat;
+    }
+
+    /**
+     * Get the mini remise1.
+     *
+     * @return float Returns the mini remise1.
+     */
+    public function getMiniRemise1() {
+        return $this->miniRemise1;
+    }
+
+    /**
+     * Get the mini remise2.
+     *
+     * @return float Returns the mini remise2.
+     */
+    public function getMiniRemise2() {
+        return $this->miniRemise2;
+    }
+
+    /**
+     * Get the mini remise3.
+     *
+     * @return float Returns the mini remise3.
+     */
+    public function getMiniRemise3() {
+        return $this->miniRemise3;
+    }
+
+    /**
+     * Get the numero ligne.
+     *
+     * @return int Returns the numero ligne.
+     */
+    public function getNumeroLigne() {
+        return $this->numeroLigne;
+    }
+
+    /**
+     * Get the qte economique.
+     *
+     * @return float Returns the qte economique.
+     */
+    public function getQteEconomique() {
+        return $this->qteEconomique;
+    }
+
+    /**
+     * Get the ref article fournisseur.
+     *
+     * @return string Returns the ref article fournisseur.
+     */
+    public function getRefArticleFournisseur() {
+        return $this->refArticleFournisseur;
+    }
+
+    /**
+     * Set the avt der code devise.
+     *
+     * @param string $avtDerCodeDevise The avt der code devise.
+     */
+    public function setAvtDerCodeDevise($avtDerCodeDevise) {
+        $this->avtDerCodeDevise = $avtDerCodeDevise;
+        return $this;
+    }
+
+    /**
+     * Set the avt der date achat.
+     *
+     * @param DateTime|null $avtDerDateAchat The avt der date achat.
+     */
+    public function setAvtDerDateAchat(DateTime $avtDerDateAchat = null) {
+        $this->avtDerDateAchat = $avtDerDateAchat;
+        return $this;
+    }
+
+    /**
+     * Set the avt der euros.
+     *
+     * @param bool $avtDerEuros The avt der euros.
+     */
+    public function setAvtDerEuros($avtDerEuros) {
+        $this->avtDerEuros = $avtDerEuros;
+        return $this;
+    }
+
+    /**
+     * Set the avt der px achat.
+     *
+     * @param float $avtDerPxAchat The avt der px achat.
+     */
+    public function setAvtDerPxAchat($avtDerPxAchat) {
+        $this->avtDerPxAchat = $avtDerPxAchat;
+        return $this;
+    }
+
+    /**
+     * Set the avt der qte achat.
+     *
+     * @param float $avtDerQteAchat The avt der qte achat.
+     */
+    public function setAvtDerQteAchat($avtDerQteAchat) {
+        $this->avtDerQteAchat = $avtDerQteAchat;
+        return $this;
+    }
+
+    /**
+     * Set the avt der remise1.
+     *
+     * @param float $avtDerRemise1 The avt der remise1.
+     */
+    public function setAvtDerRemise1($avtDerRemise1) {
+        $this->avtDerRemise1 = $avtDerRemise1;
+        return $this;
+    }
+
+    /**
+     * Set the avt der remise2.
+     *
+     * @param float $avtDerRemise2 The avt der remise2.
+     */
+    public function setAvtDerRemise2($avtDerRemise2) {
+        $this->avtDerRemise2 = $avtDerRemise2;
+        return $this;
+    }
+
+    /**
+     * Set the avt der remise3.
+     *
+     * @param float $avtDerRemise3 The avt der remise3.
+     */
+    public function setAvtDerRemise3($avtDerRemise3) {
+        $this->avtDerRemise3 = $avtDerRemise3;
+        return $this;
+    }
+
+    /**
+     * Set the code article.
+     *
+     * @param string $codeArticle The code article.
+     */
+    public function setCodeArticle($codeArticle) {
+        $this->codeArticle = $codeArticle;
+        return $this;
+    }
+
+    /**
+     * Set the code fournisseur.
+     *
+     * @param string $codeFournisseur The code fournisseur.
+     */
+    public function setCodeFournisseur($codeFournisseur) {
+        $this->codeFournisseur = $codeFournisseur;
+        return $this;
+    }
+
+    /**
+     * Set the commentaires.
+     *
+     * @param string $commentaires The commentaires.
+     */
+    public function setCommentaires($commentaires) {
+        $this->commentaires = $commentaires;
+        return $this;
+    }
+
+    /**
+     * Set the conditionnement.
+     *
+     * @param string $conditionnement The conditionnement.
+     */
+    public function setConditionnement($conditionnement) {
+        $this->conditionnement = $conditionnement;
+        return $this;
+    }
+
+    /**
+     * Set the delai le.
+     *
+     * @param int $delaiLe The delai le.
+     */
+    public function setDelaiLe($delaiLe) {
+        $this->delaiLe = $delaiLe;
+        return $this;
+    }
+
+    /**
+     * Set the delai nombre.
+     *
+     * @param int $delaiNombre The delai nombre.
+     */
+    public function setDelaiNombre($delaiNombre) {
+        $this->delaiNombre = $delaiNombre;
+        return $this;
+    }
+
+    /**
+     * Set the delai type.
+     *
+     * @param int $delaiType The delai type.
+     */
+    public function setDelaiType($delaiType) {
+        $this->delaiType = $delaiType;
+        return $this;
+    }
+
+    /**
+     * Set the der code devise.
+     *
+     * @param string $derCodeDevise The der code devise.
+     */
+    public function setDerCodeDevise($derCodeDevise) {
+        $this->derCodeDevise = $derCodeDevise;
+        return $this;
+    }
+
+    /**
+     * Set the der date achat.
+     *
+     * @param DateTime|null $derDateAchat The der date achat.
+     */
+    public function setDerDateAchat(DateTime $derDateAchat = null) {
+        $this->derDateAchat = $derDateAchat;
+        return $this;
+    }
+
+    /**
+     * Set the der euros.
+     *
+     * @param bool $derEuros The der euros.
+     */
+    public function setDerEuros($derEuros) {
+        $this->derEuros = $derEuros;
+        return $this;
+    }
+
+    /**
+     * Set the der px achat.
+     *
+     * @param float $derPxAchat The der px achat.
+     */
+    public function setDerPxAchat($derPxAchat) {
+        $this->derPxAchat = $derPxAchat;
+        return $this;
+    }
+
+    /**
+     * Set the der qte achat.
+     *
+     * @param float $derQteAchat The der qte achat.
+     */
+    public function setDerQteAchat($derQteAchat) {
+        $this->derQteAchat = $derQteAchat;
+        return $this;
+    }
+
+    /**
+     * Set the der remise1.
+     *
+     * @param float $derRemise1 The der remise1.
+     */
+    public function setDerRemise1($derRemise1) {
+        $this->derRemise1 = $derRemise1;
+        return $this;
+    }
+
+    /**
+     * Set the der remise2.
+     *
+     * @param float $derRemise2 The der remise2.
+     */
+    public function setDerRemise2($derRemise2) {
+        $this->derRemise2 = $derRemise2;
+        return $this;
+    }
+
+    /**
+     * Set the der remise3.
+     *
+     * @param float $derRemise3 The der remise3.
+     */
+    public function setDerRemise3($derRemise3) {
+        $this->derRemise3 = $derRemise3;
+        return $this;
+    }
+
+    /**
+     * Set the mini code devise.
+     *
+     * @param string $miniCodeDevise The mini code devise.
+     */
+    public function setMiniCodeDevise($miniCodeDevise) {
+        $this->miniCodeDevise = $miniCodeDevise;
+        return $this;
+    }
+
+    /**
+     * Set the mini date achat.
+     *
+     * @param DateTime|null $miniDateAchat The mini date achat.
+     */
+    public function setMiniDateAchat(DateTime $miniDateAchat = null) {
+        $this->miniDateAchat = $miniDateAchat;
+        return $this;
+    }
+
+    /**
+     * Set the mini euros.
+     *
+     * @param bool $miniEuros The mini euros.
+     */
+    public function setMiniEuros($miniEuros) {
+        $this->miniEuros = $miniEuros;
+        return $this;
+    }
+
+    /**
+     * Set the mini px achat.
+     *
+     * @param float $miniPxAchat The mini px achat.
+     */
+    public function setMiniPxAchat($miniPxAchat) {
+        $this->miniPxAchat = $miniPxAchat;
+        return $this;
+    }
+
+    /**
+     * Set the mini qte achat.
+     *
+     * @param float $miniQteAchat The mini qte achat.
+     */
+    public function setMiniQteAchat($miniQteAchat) {
+        $this->miniQteAchat = $miniQteAchat;
+        return $this;
+    }
+
+    /**
+     * Set the mini remise1.
+     *
+     * @param float $miniRemise1 The mini remise1.
+     */
+    public function setMiniRemise1($miniRemise1) {
+        $this->miniRemise1 = $miniRemise1;
+        return $this;
+    }
+
+    /**
+     * Set the mini remise2.
+     *
+     * @param float $miniRemise2 The mini remise2.
+     */
+    public function setMiniRemise2($miniRemise2) {
+        $this->miniRemise2 = $miniRemise2;
+        return $this;
+    }
+
+    /**
+     * Set the mini remise3.
+     *
+     * @param float $miniRemise3 The mini remise3.
+     */
+    public function setMiniRemise3($miniRemise3) {
+        $this->miniRemise3 = $miniRemise3;
+        return $this;
+    }
+
+    /**
+     * Set the numero ligne.
+     *
+     * @param int $numeroLigne The numero ligne.
+     */
+    public function setNumeroLigne($numeroLigne) {
+        $this->numeroLigne = $numeroLigne;
+        return $this;
+    }
+
+    /**
+     * Set the qte economique.
+     *
+     * @param float $qteEconomique The qte economique.
+     */
+    public function setQteEconomique($qteEconomique) {
+        $this->qteEconomique = $qteEconomique;
+        return $this;
+    }
+
+    /**
+     * Set the ref article fournisseur.
+     *
+     * @param string $refArticleFournisseur The ref article fournisseur.
+     */
+    public function setRefArticleFournisseur($refArticleFournisseur) {
+        $this->refArticleFournisseur = $refArticleFournisseur;
+        return $this;
     }
 }

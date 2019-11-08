@@ -35,4 +35,43 @@ class MissionVisuTachesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeTacheVisu());
         $this->assertNull($obj->getIsRegroupement());
     }
+
+    /**
+     * Tests the setCodeMission() method.
+     *
+     * @return void
+     */
+    public function testSetCodeMission() {
+
+        $obj = new MissionVisuTaches();
+
+        $obj->setCodeMission("codeMission");
+        $this->assertEquals("codeMission", $obj->getCodeMission());
+    }
+
+    /**
+     * Tests the setCodeTacheVisu() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTacheVisu() {
+
+        $obj = new MissionVisuTaches();
+
+        $obj->setCodeTacheVisu("codeTacheVisu");
+        $this->assertEquals("codeTacheVisu", $obj->getCodeTacheVisu());
+    }
+
+    /**
+     * Tests the setIsRegroupement() method.
+     *
+     * @return void
+     */
+    public function testSetIsRegroupement() {
+
+        $obj = new MissionVisuTaches();
+
+        $obj->setIsRegroupement(true);
+        $this->assertEquals(true, $obj->getIsRegroupement());
+    }
 }

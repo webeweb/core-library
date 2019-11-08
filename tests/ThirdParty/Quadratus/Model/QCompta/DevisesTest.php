@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QCompta;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Devises;
 
@@ -34,5 +36,48 @@ class DevisesTest extends AbstractTestCase {
         $this->assertNull($obj->getCodeDevise());
         $this->assertNull($obj->getDate());
         $this->assertNull($obj->getTaux());
+    }
+
+    /**
+     * Tests the setCodeDevise() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDevise() {
+
+        $obj = new Devises();
+
+        $obj->setCodeDevise("codeDevise");
+        $this->assertEquals("codeDevise", $obj->getCodeDevise());
+    }
+
+    /**
+     * Tests the setDate() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDate() {
+
+        // Set a Date/time mock.
+        $date = new DateTime("2018-09-10");
+
+        $obj = new Devises();
+
+        $obj->setDate($date);
+        $this->assertSame($date, $obj->getDate());
+    }
+
+    /**
+     * Tests the setTaux() method.
+     *
+     * @return void
+     */
+    public function testSetTaux() {
+
+        $obj = new Devises();
+
+        $obj->setTaux(10.092018);
+        $this->assertEquals(10.092018, $obj->getTaux());
     }
 }

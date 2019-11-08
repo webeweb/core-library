@@ -11,17 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeMiseEnConformiteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatCoefficientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNiveauNoeudTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNoteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroFicheTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumeroNoeudTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeAffaireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeChantierTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeElementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeElementTrait;
+use DateTime;
 
 /**
  * Fiches controles lignes elements.
@@ -31,22 +21,296 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeElementTrait;
  */
 class FichesControlesLignesElements {
 
-    use StringCodeAffaireTrait;
-    use StringCodeChantierTrait;
-    use StringCodeClientTrait;
-    use StringCodeElementTrait;
-    use FloatCoefficientTrait;
-    use DateTimeMiseEnConformiteTrait;
-    use IntNiveauNoeudTrait;
-    use IntNoteTrait;
-    use IntNumeroFicheTrait;
-    use IntNumeroNoeudTrait;
-    use StringTypeElementTrait;
+    /**
+     * Code affaire.
+     *
+     * @var string
+     */
+    private $codeAffaire;
+
+    /**
+     * Code chantier.
+     *
+     * @var string
+     */
+    private $codeChantier;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code element.
+     *
+     * @var string
+     */
+    private $codeElement;
+
+    /**
+     * Coefficient.
+     *
+     * @var float
+     */
+    private $coefficient;
+
+    /**
+     * Mise en conformite.
+     *
+     * @var DateTime|null
+     */
+    private $miseEnConformite;
+
+    /**
+     * Niveau noeud.
+     *
+     * @var int
+     */
+    private $niveauNoeud;
+
+    /**
+     * Note.
+     *
+     * @var int
+     */
+    private $note;
+
+    /**
+     * Numero fiche.
+     *
+     * @var int
+     */
+    private $numeroFiche;
+
+    /**
+     * Numero noeud.
+     *
+     * @var int
+     */
+    private $numeroNoeud;
+
+    /**
+     * Type element.
+     *
+     * @var string
+     */
+    private $typeElement;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code affaire.
+     *
+     * @return string Returns the code affaire.
+     */
+    public function getCodeAffaire() {
+        return $this->codeAffaire;
+    }
+
+    /**
+     * Get the code chantier.
+     *
+     * @return string Returns the code chantier.
+     */
+    public function getCodeChantier() {
+        return $this->codeChantier;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code element.
+     *
+     * @return string Returns the code element.
+     */
+    public function getCodeElement() {
+        return $this->codeElement;
+    }
+
+    /**
+     * Get the coefficient.
+     *
+     * @return float Returns the coefficient.
+     */
+    public function getCoefficient() {
+        return $this->coefficient;
+    }
+
+    /**
+     * Get the mise en conformite.
+     *
+     * @return DateTime|null Returns the mise en conformite.
+     */
+    public function getMiseEnConformite() {
+        return $this->miseEnConformite;
+    }
+
+    /**
+     * Get the niveau noeud.
+     *
+     * @return int Returns the niveau noeud.
+     */
+    public function getNiveauNoeud() {
+        return $this->niveauNoeud;
+    }
+
+    /**
+     * Get the note.
+     *
+     * @return int Returns the note.
+     */
+    public function getNote() {
+        return $this->note;
+    }
+
+    /**
+     * Get the numero fiche.
+     *
+     * @return int Returns the numero fiche.
+     */
+    public function getNumeroFiche() {
+        return $this->numeroFiche;
+    }
+
+    /**
+     * Get the numero noeud.
+     *
+     * @return int Returns the numero noeud.
+     */
+    public function getNumeroNoeud() {
+        return $this->numeroNoeud;
+    }
+
+    /**
+     * Get the type element.
+     *
+     * @return string Returns the type element.
+     */
+    public function getTypeElement() {
+        return $this->typeElement;
+    }
+
+    /**
+     * Set the code affaire.
+     *
+     * @param string $codeAffaire The code affaire.
+     */
+    public function setCodeAffaire($codeAffaire) {
+        $this->codeAffaire = $codeAffaire;
+        return $this;
+    }
+
+    /**
+     * Set the code chantier.
+     *
+     * @param string $codeChantier The code chantier.
+     */
+    public function setCodeChantier($codeChantier) {
+        $this->codeChantier = $codeChantier;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code element.
+     *
+     * @param string $codeElement The code element.
+     */
+    public function setCodeElement($codeElement) {
+        $this->codeElement = $codeElement;
+        return $this;
+    }
+
+    /**
+     * Set the coefficient.
+     *
+     * @param float $coefficient The coefficient.
+     */
+    public function setCoefficient($coefficient) {
+        $this->coefficient = $coefficient;
+        return $this;
+    }
+
+    /**
+     * Set the mise en conformite.
+     *
+     * @param DateTime|null $miseEnConformite The mise en conformite.
+     */
+    public function setMiseEnConformite(DateTime $miseEnConformite = null) {
+        $this->miseEnConformite = $miseEnConformite;
+        return $this;
+    }
+
+    /**
+     * Set the niveau noeud.
+     *
+     * @param int $niveauNoeud The niveau noeud.
+     */
+    public function setNiveauNoeud($niveauNoeud) {
+        $this->niveauNoeud = $niveauNoeud;
+        return $this;
+    }
+
+    /**
+     * Set the note.
+     *
+     * @param int $note The note.
+     */
+    public function setNote($note) {
+        $this->note = $note;
+        return $this;
+    }
+
+    /**
+     * Set the numero fiche.
+     *
+     * @param int $numeroFiche The numero fiche.
+     */
+    public function setNumeroFiche($numeroFiche) {
+        $this->numeroFiche = $numeroFiche;
+        return $this;
+    }
+
+    /**
+     * Set the numero noeud.
+     *
+     * @param int $numeroNoeud The numero noeud.
+     */
+    public function setNumeroNoeud($numeroNoeud) {
+        $this->numeroNoeud = $numeroNoeud;
+        return $this;
+    }
+
+    /**
+     * Set the type element.
+     *
+     * @param string $typeElement The type element.
+     */
+    public function setTypeElement($typeElement) {
+        $this->typeElement = $typeElement;
+        return $this;
     }
 }

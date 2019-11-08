@@ -38,4 +38,82 @@ class Qualifiant2Test extends AbstractTestCase {
         $this->assertNull($obj->getNumLig());
         $this->assertNull($obj->getObjetRef());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new Qualifiant2();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setCodeLiaison() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLiaison() {
+
+        $obj = new Qualifiant2();
+
+        $obj->setCodeLiaison("codeLiaison");
+        $this->assertEquals("codeLiaison", $obj->getCodeLiaison());
+    }
+
+    /**
+     * Tests the setCodeLibelle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeLibelle() {
+
+        $obj = new Qualifiant2();
+
+        $obj->setCodeLibelle("codeLibelle");
+        $this->assertEquals("codeLibelle", $obj->getCodeLibelle());
+    }
+
+    /**
+     * Tests the setColonne() method.
+     *
+     * @return void
+     */
+    public function testSetColonne() {
+
+        $obj = new Qualifiant2();
+
+        $obj->setColonne("colonne");
+        $this->assertEquals("colonne", $obj->getColonne());
+    }
+
+    /**
+     * Tests the setNumLig() method.
+     *
+     * @return void
+     */
+    public function testSetNumLig() {
+
+        $obj = new Qualifiant2();
+
+        $obj->setNumLig(10);
+        $this->assertEquals(10, $obj->getNumLig());
+    }
+
+    /**
+     * Tests the setObjetRef() method.
+     *
+     * @return void
+     */
+    public function testSetObjetRef() {
+
+        $obj = new Qualifiant2();
+
+        $obj->setObjetRef("objetRef");
+        $this->assertEquals("objetRef", $obj->getObjetRef());
+    }
 }

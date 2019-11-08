@@ -11,29 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolCentreInactifTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolMargeDirecteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolRepartitionAutoTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolSuiviAnneeRecolteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCreationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateDevisTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatSuperficieTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTypeSuiviAutreValeurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntOrdreEditionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAdresseRue1Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAdresseRue2Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringAdresseVilleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCleRepartitionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringDescriptionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringIntituleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNiveauRepartitionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRepartitionAnaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringResponsableTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringRestrictionsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeCentreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeSuiviAutreTexteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeSuiviTrait;
+use DateTime;
 
 /**
  * Centres.
@@ -43,34 +21,608 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeSuiviTrait;
  */
 class Centres {
 
-    use StringAdresseRue1Trait;
-    use StringAdresseRue2Trait;
-    use StringAdresseVilleTrait;
-    use BoolCentreInactifTrait;
-    use StringCleRepartitionTrait;
-    use StringCodeTrait;
-    use DateTimeDateCreationTrait;
-    use DateTimeDateDevisTrait;
-    use StringDescriptionTrait;
-    use StringIntituleTrait;
-    use BoolMargeDirecteTrait;
-    use StringNiveauRepartitionTrait;
-    use IntOrdreEditionTrait;
-    use StringRepartitionAnaTrait;
-    use BoolRepartitionAutoTrait;
-    use StringResponsableTrait;
-    use StringRestrictionsTrait;
-    use BoolSuiviAnneeRecolteTrait;
-    use FloatSuperficieTrait;
-    use StringTypeCentreTrait;
-    use StringTypeSuiviTrait;
-    use StringTypeSuiviAutreTexteTrait;
-    use FloatTypeSuiviAutreValeurTrait;
+    /**
+     * Adresse rue1.
+     *
+     * @var string
+     */
+    private $adresseRue1;
+
+    /**
+     * Adresse rue2.
+     *
+     * @var string
+     */
+    private $adresseRue2;
+
+    /**
+     * Adresse ville.
+     *
+     * @var string
+     */
+    private $adresseVille;
+
+    /**
+     * Centre inactif.
+     *
+     * @var bool
+     */
+    private $centreInactif;
+
+    /**
+     * Cle repartition.
+     *
+     * @var string
+     */
+    private $cleRepartition;
+
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Date creation.
+     *
+     * @var DateTime|null
+     */
+    private $dateCreation;
+
+    /**
+     * Date devis.
+     *
+     * @var DateTime|null
+     */
+    private $dateDevis;
+
+    /**
+     * Description.
+     *
+     * @var string
+     */
+    private $description;
+
+    /**
+     * Intitule.
+     *
+     * @var string
+     */
+    private $intitule;
+
+    /**
+     * Marge directe.
+     *
+     * @var bool
+     */
+    private $margeDirecte;
+
+    /**
+     * Niveau repartition.
+     *
+     * @var string
+     */
+    private $niveauRepartition;
+
+    /**
+     * Ordre edition.
+     *
+     * @var int
+     */
+    private $ordreEdition;
+
+    /**
+     * Repartition ana.
+     *
+     * @var string
+     */
+    private $repartitionAna;
+
+    /**
+     * Repartition auto.
+     *
+     * @var bool
+     */
+    private $repartitionAuto;
+
+    /**
+     * Responsable.
+     *
+     * @var string
+     */
+    private $responsable;
+
+    /**
+     * Restrictions.
+     *
+     * @var string
+     */
+    private $restrictions;
+
+    /**
+     * Suivi annee recolte.
+     *
+     * @var bool
+     */
+    private $suiviAnneeRecolte;
+
+    /**
+     * Superficie.
+     *
+     * @var float
+     */
+    private $superficie;
+
+    /**
+     * Type centre.
+     *
+     * @var string
+     */
+    private $typeCentre;
+
+    /**
+     * Type suivi.
+     *
+     * @var string
+     */
+    private $typeSuivi;
+
+    /**
+     * Type suivi autre texte.
+     *
+     * @var string
+     */
+    private $typeSuiviAutreTexte;
+
+    /**
+     * Type suivi autre valeur.
+     *
+     * @var float
+     */
+    private $typeSuiviAutreValeur;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the adresse rue1.
+     *
+     * @return string Returns the adresse rue1.
+     */
+    public function getAdresseRue1() {
+        return $this->adresseRue1;
+    }
+
+    /**
+     * Get the adresse rue2.
+     *
+     * @return string Returns the adresse rue2.
+     */
+    public function getAdresseRue2() {
+        return $this->adresseRue2;
+    }
+
+    /**
+     * Get the adresse ville.
+     *
+     * @return string Returns the adresse ville.
+     */
+    public function getAdresseVille() {
+        return $this->adresseVille;
+    }
+
+    /**
+     * Get the centre inactif.
+     *
+     * @return bool Returns the centre inactif.
+     */
+    public function getCentreInactif() {
+        return $this->centreInactif;
+    }
+
+    /**
+     * Get the cle repartition.
+     *
+     * @return string Returns the cle repartition.
+     */
+    public function getCleRepartition() {
+        return $this->cleRepartition;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the date creation.
+     *
+     * @return DateTime|null Returns the date creation.
+     */
+    public function getDateCreation() {
+        return $this->dateCreation;
+    }
+
+    /**
+     * Get the date devis.
+     *
+     * @return DateTime|null Returns the date devis.
+     */
+    public function getDateDevis() {
+        return $this->dateDevis;
+    }
+
+    /**
+     * Get the description.
+     *
+     * @return string Returns the description.
+     */
+    public function getDescription() {
+        return $this->description;
+    }
+
+    /**
+     * Get the intitule.
+     *
+     * @return string Returns the intitule.
+     */
+    public function getIntitule() {
+        return $this->intitule;
+    }
+
+    /**
+     * Get the marge directe.
+     *
+     * @return bool Returns the marge directe.
+     */
+    public function getMargeDirecte() {
+        return $this->margeDirecte;
+    }
+
+    /**
+     * Get the niveau repartition.
+     *
+     * @return string Returns the niveau repartition.
+     */
+    public function getNiveauRepartition() {
+        return $this->niveauRepartition;
+    }
+
+    /**
+     * Get the ordre edition.
+     *
+     * @return int Returns the ordre edition.
+     */
+    public function getOrdreEdition() {
+        return $this->ordreEdition;
+    }
+
+    /**
+     * Get the repartition ana.
+     *
+     * @return string Returns the repartition ana.
+     */
+    public function getRepartitionAna() {
+        return $this->repartitionAna;
+    }
+
+    /**
+     * Get the repartition auto.
+     *
+     * @return bool Returns the repartition auto.
+     */
+    public function getRepartitionAuto() {
+        return $this->repartitionAuto;
+    }
+
+    /**
+     * Get the responsable.
+     *
+     * @return string Returns the responsable.
+     */
+    public function getResponsable() {
+        return $this->responsable;
+    }
+
+    /**
+     * Get the restrictions.
+     *
+     * @return string Returns the restrictions.
+     */
+    public function getRestrictions() {
+        return $this->restrictions;
+    }
+
+    /**
+     * Get the suivi annee recolte.
+     *
+     * @return bool Returns the suivi annee recolte.
+     */
+    public function getSuiviAnneeRecolte() {
+        return $this->suiviAnneeRecolte;
+    }
+
+    /**
+     * Get the superficie.
+     *
+     * @return float Returns the superficie.
+     */
+    public function getSuperficie() {
+        return $this->superficie;
+    }
+
+    /**
+     * Get the type centre.
+     *
+     * @return string Returns the type centre.
+     */
+    public function getTypeCentre() {
+        return $this->typeCentre;
+    }
+
+    /**
+     * Get the type suivi.
+     *
+     * @return string Returns the type suivi.
+     */
+    public function getTypeSuivi() {
+        return $this->typeSuivi;
+    }
+
+    /**
+     * Get the type suivi autre texte.
+     *
+     * @return string Returns the type suivi autre texte.
+     */
+    public function getTypeSuiviAutreTexte() {
+        return $this->typeSuiviAutreTexte;
+    }
+
+    /**
+     * Get the type suivi autre valeur.
+     *
+     * @return float Returns the type suivi autre valeur.
+     */
+    public function getTypeSuiviAutreValeur() {
+        return $this->typeSuiviAutreValeur;
+    }
+
+    /**
+     * Set the adresse rue1.
+     *
+     * @param string $adresseRue1 The adresse rue1.
+     */
+    public function setAdresseRue1($adresseRue1) {
+        $this->adresseRue1 = $adresseRue1;
+        return $this;
+    }
+
+    /**
+     * Set the adresse rue2.
+     *
+     * @param string $adresseRue2 The adresse rue2.
+     */
+    public function setAdresseRue2($adresseRue2) {
+        $this->adresseRue2 = $adresseRue2;
+        return $this;
+    }
+
+    /**
+     * Set the adresse ville.
+     *
+     * @param string $adresseVille The adresse ville.
+     */
+    public function setAdresseVille($adresseVille) {
+        $this->adresseVille = $adresseVille;
+        return $this;
+    }
+
+    /**
+     * Set the centre inactif.
+     *
+     * @param bool $centreInactif The centre inactif.
+     */
+    public function setCentreInactif($centreInactif) {
+        $this->centreInactif = $centreInactif;
+        return $this;
+    }
+
+    /**
+     * Set the cle repartition.
+     *
+     * @param string $cleRepartition The cle repartition.
+     */
+    public function setCleRepartition($cleRepartition) {
+        $this->cleRepartition = $cleRepartition;
+        return $this;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the date creation.
+     *
+     * @param DateTime|null $dateCreation The date creation.
+     */
+    public function setDateCreation(DateTime $dateCreation = null) {
+        $this->dateCreation = $dateCreation;
+        return $this;
+    }
+
+    /**
+     * Set the date devis.
+     *
+     * @param DateTime|null $dateDevis The date devis.
+     */
+    public function setDateDevis(DateTime $dateDevis = null) {
+        $this->dateDevis = $dateDevis;
+        return $this;
+    }
+
+    /**
+     * Set the description.
+     *
+     * @param string $description The description.
+     */
+    public function setDescription($description) {
+        $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * Set the intitule.
+     *
+     * @param string $intitule The intitule.
+     */
+    public function setIntitule($intitule) {
+        $this->intitule = $intitule;
+        return $this;
+    }
+
+    /**
+     * Set the marge directe.
+     *
+     * @param bool $margeDirecte The marge directe.
+     */
+    public function setMargeDirecte($margeDirecte) {
+        $this->margeDirecte = $margeDirecte;
+        return $this;
+    }
+
+    /**
+     * Set the niveau repartition.
+     *
+     * @param string $niveauRepartition The niveau repartition.
+     */
+    public function setNiveauRepartition($niveauRepartition) {
+        $this->niveauRepartition = $niveauRepartition;
+        return $this;
+    }
+
+    /**
+     * Set the ordre edition.
+     *
+     * @param int $ordreEdition The ordre edition.
+     */
+    public function setOrdreEdition($ordreEdition) {
+        $this->ordreEdition = $ordreEdition;
+        return $this;
+    }
+
+    /**
+     * Set the repartition ana.
+     *
+     * @param string $repartitionAna The repartition ana.
+     */
+    public function setRepartitionAna($repartitionAna) {
+        $this->repartitionAna = $repartitionAna;
+        return $this;
+    }
+
+    /**
+     * Set the repartition auto.
+     *
+     * @param bool $repartitionAuto The repartition auto.
+     */
+    public function setRepartitionAuto($repartitionAuto) {
+        $this->repartitionAuto = $repartitionAuto;
+        return $this;
+    }
+
+    /**
+     * Set the responsable.
+     *
+     * @param string $responsable The responsable.
+     */
+    public function setResponsable($responsable) {
+        $this->responsable = $responsable;
+        return $this;
+    }
+
+    /**
+     * Set the restrictions.
+     *
+     * @param string $restrictions The restrictions.
+     */
+    public function setRestrictions($restrictions) {
+        $this->restrictions = $restrictions;
+        return $this;
+    }
+
+    /**
+     * Set the suivi annee recolte.
+     *
+     * @param bool $suiviAnneeRecolte The suivi annee recolte.
+     */
+    public function setSuiviAnneeRecolte($suiviAnneeRecolte) {
+        $this->suiviAnneeRecolte = $suiviAnneeRecolte;
+        return $this;
+    }
+
+    /**
+     * Set the superficie.
+     *
+     * @param float $superficie The superficie.
+     */
+    public function setSuperficie($superficie) {
+        $this->superficie = $superficie;
+        return $this;
+    }
+
+    /**
+     * Set the type centre.
+     *
+     * @param string $typeCentre The type centre.
+     */
+    public function setTypeCentre($typeCentre) {
+        $this->typeCentre = $typeCentre;
+        return $this;
+    }
+
+    /**
+     * Set the type suivi.
+     *
+     * @param string $typeSuivi The type suivi.
+     */
+    public function setTypeSuivi($typeSuivi) {
+        $this->typeSuivi = $typeSuivi;
+        return $this;
+    }
+
+    /**
+     * Set the type suivi autre texte.
+     *
+     * @param string $typeSuiviAutreTexte The type suivi autre texte.
+     */
+    public function setTypeSuiviAutreTexte($typeSuiviAutreTexte) {
+        $this->typeSuiviAutreTexte = $typeSuiviAutreTexte;
+        return $this;
+    }
+
+    /**
+     * Set the type suivi autre valeur.
+     *
+     * @param float $typeSuiviAutreValeur The type suivi autre valeur.
+     */
+    public function setTypeSuiviAutreValeur($typeSuiviAutreValeur) {
+        $this->typeSuiviAutreValeur = $typeSuiviAutreValeur;
+        return $this;
     }
 }

@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\QPaie;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Spectacles;
 
@@ -35,5 +37,65 @@ class SpectaclesTest extends AbstractTestCase {
         $this->assertNull($obj->getDtFin());
         $this->assertNull($obj->getIntitule());
         $this->assertNull($obj->getNumObjet());
+    }
+
+    /**
+     * Tests the setDtDebut() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDtDebut() {
+
+        // Set a Date/time mock.
+        $dtDebut = new DateTime("2018-09-10");
+
+        $obj = new Spectacles();
+
+        $obj->setDtDebut($dtDebut);
+        $this->assertSame($dtDebut, $obj->getDtDebut());
+    }
+
+    /**
+     * Tests the setDtFin() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDtFin() {
+
+        // Set a Date/time mock.
+        $dtFin = new DateTime("2018-09-10");
+
+        $obj = new Spectacles();
+
+        $obj->setDtFin($dtFin);
+        $this->assertSame($dtFin, $obj->getDtFin());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new Spectacles();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setNumObjet() method.
+     *
+     * @return void
+     */
+    public function testSetNumObjet() {
+
+        $obj = new Spectacles();
+
+        $obj->setNumObjet("numObjet");
+        $this->assertEquals("numObjet", $obj->getNumObjet());
     }
 }

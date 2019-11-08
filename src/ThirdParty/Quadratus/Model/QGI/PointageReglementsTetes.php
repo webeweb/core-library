@@ -11,17 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateCreationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateGenereTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateModifTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantSaisiTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollCreationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollGenereTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollModifTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumCptPayeurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDossTrait;
+use DateTime;
 
 /**
  * Pointage reglements tetes.
@@ -31,22 +21,296 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumDossTrait;
  */
 class PointageReglementsTetes {
 
-    use StringCodeClientTrait;
-    use StringCodeCollCreationTrait;
-    use StringCodeCollGenereTrait;
-    use StringCodeCollModifTrait;
-    use DateTimeDateCreationTrait;
-    use DateTimeDateGenereTrait;
-    use DateTimeDateModifTrait;
-    use StringLibelleTrait;
-    use FloatMontantSaisiTrait;
-    use StringNumCptPayeurTrait;
-    use StringNumDossTrait;
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Code coll creation.
+     *
+     * @var string
+     */
+    private $codeCollCreation;
+
+    /**
+     * Code coll genere.
+     *
+     * @var string
+     */
+    private $codeCollGenere;
+
+    /**
+     * Code coll modif.
+     *
+     * @var string
+     */
+    private $codeCollModif;
+
+    /**
+     * Date creation.
+     *
+     * @var DateTime|null
+     */
+    private $dateCreation;
+
+    /**
+     * Date genere.
+     *
+     * @var DateTime|null
+     */
+    private $dateGenere;
+
+    /**
+     * Date modif.
+     *
+     * @var DateTime|null
+     */
+    private $dateModif;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Montant saisi.
+     *
+     * @var float
+     */
+    private $montantSaisi;
+
+    /**
+     * Num cpt payeur.
+     *
+     * @var string
+     */
+    private $numCptPayeur;
+
+    /**
+     * Num doss.
+     *
+     * @var string
+     */
+    private $numDoss;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the code coll creation.
+     *
+     * @return string Returns the code coll creation.
+     */
+    public function getCodeCollCreation() {
+        return $this->codeCollCreation;
+    }
+
+    /**
+     * Get the code coll genere.
+     *
+     * @return string Returns the code coll genere.
+     */
+    public function getCodeCollGenere() {
+        return $this->codeCollGenere;
+    }
+
+    /**
+     * Get the code coll modif.
+     *
+     * @return string Returns the code coll modif.
+     */
+    public function getCodeCollModif() {
+        return $this->codeCollModif;
+    }
+
+    /**
+     * Get the date creation.
+     *
+     * @return DateTime|null Returns the date creation.
+     */
+    public function getDateCreation() {
+        return $this->dateCreation;
+    }
+
+    /**
+     * Get the date genere.
+     *
+     * @return DateTime|null Returns the date genere.
+     */
+    public function getDateGenere() {
+        return $this->dateGenere;
+    }
+
+    /**
+     * Get the date modif.
+     *
+     * @return DateTime|null Returns the date modif.
+     */
+    public function getDateModif() {
+        return $this->dateModif;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the montant saisi.
+     *
+     * @return float Returns the montant saisi.
+     */
+    public function getMontantSaisi() {
+        return $this->montantSaisi;
+    }
+
+    /**
+     * Get the num cpt payeur.
+     *
+     * @return string Returns the num cpt payeur.
+     */
+    public function getNumCptPayeur() {
+        return $this->numCptPayeur;
+    }
+
+    /**
+     * Get the num doss.
+     *
+     * @return string Returns the num doss.
+     */
+    public function getNumDoss() {
+        return $this->numDoss;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the code coll creation.
+     *
+     * @param string $codeCollCreation The code coll creation.
+     */
+    public function setCodeCollCreation($codeCollCreation) {
+        $this->codeCollCreation = $codeCollCreation;
+        return $this;
+    }
+
+    /**
+     * Set the code coll genere.
+     *
+     * @param string $codeCollGenere The code coll genere.
+     */
+    public function setCodeCollGenere($codeCollGenere) {
+        $this->codeCollGenere = $codeCollGenere;
+        return $this;
+    }
+
+    /**
+     * Set the code coll modif.
+     *
+     * @param string $codeCollModif The code coll modif.
+     */
+    public function setCodeCollModif($codeCollModif) {
+        $this->codeCollModif = $codeCollModif;
+        return $this;
+    }
+
+    /**
+     * Set the date creation.
+     *
+     * @param DateTime|null $dateCreation The date creation.
+     */
+    public function setDateCreation(DateTime $dateCreation = null) {
+        $this->dateCreation = $dateCreation;
+        return $this;
+    }
+
+    /**
+     * Set the date genere.
+     *
+     * @param DateTime|null $dateGenere The date genere.
+     */
+    public function setDateGenere(DateTime $dateGenere = null) {
+        $this->dateGenere = $dateGenere;
+        return $this;
+    }
+
+    /**
+     * Set the date modif.
+     *
+     * @param DateTime|null $dateModif The date modif.
+     */
+    public function setDateModif(DateTime $dateModif = null) {
+        $this->dateModif = $dateModif;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the montant saisi.
+     *
+     * @param float $montantSaisi The montant saisi.
+     */
+    public function setMontantSaisi($montantSaisi) {
+        $this->montantSaisi = $montantSaisi;
+        return $this;
+    }
+
+    /**
+     * Set the num cpt payeur.
+     *
+     * @param string $numCptPayeur The num cpt payeur.
+     */
+    public function setNumCptPayeur($numCptPayeur) {
+        $this->numCptPayeur = $numCptPayeur;
+        return $this;
+    }
+
+    /**
+     * Set the num doss.
+     *
+     * @param string $numDoss The num doss.
+     */
+    public function setNumDoss($numDoss) {
+        $this->numDoss = $numDoss;
+        return $this;
     }
 }

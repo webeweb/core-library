@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\ThirdParty\Quadratus\Model\Proprete;
 
+use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AvenantsContrats;
 
@@ -42,5 +44,156 @@ class AvenantsContratsTest extends AbstractTestCase {
         $this->assertNull($obj->getSignatureEmploye());
         $this->assertNull($obj->getTypeAvenant());
         $this->assertNull($obj->getTypeDocument());
+    }
+
+    /**
+     * Tests the setChrono() method.
+     *
+     * @return void
+     */
+    public function testSetChrono() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setChrono("chrono");
+        $this->assertEquals("chrono", $obj->getChrono());
+    }
+
+    /**
+     * Tests the setCodeEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEmploye() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setCodeEmploye("codeEmploye");
+        $this->assertEquals("codeEmploye", $obj->getCodeEmploye());
+    }
+
+    /**
+     * Tests the setDateAvenant() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetDateAvenant() {
+
+        // Set a Date/time mock.
+        $dateAvenant = new DateTime("2018-09-10");
+
+        $obj = new AvenantsContrats();
+
+        $obj->setDateAvenant($dateAvenant);
+        $this->assertSame($dateAvenant, $obj->getDateAvenant());
+    }
+
+    /**
+     * Tests the setLienDocument() method.
+     *
+     * @return void
+     */
+    public function testSetLienDocument() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setLienDocument("lienDocument");
+        $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
+
+    /**
+     * Tests the setNumAvenantSaisi() method.
+     *
+     * @return void
+     */
+    public function testSetNumAvenantSaisi() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setNumAvenantSaisi(10);
+        $this->assertEquals(10, $obj->getNumAvenantSaisi());
+    }
+
+    /**
+     * Tests the setNumeroAvenant() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroAvenant() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setNumeroAvenant(10);
+        $this->assertEquals(10, $obj->getNumeroAvenant());
+    }
+
+    /**
+     * Tests the setObservation() method.
+     *
+     * @return void
+     */
+    public function testSetObservation() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setObservation("observation");
+        $this->assertEquals("observation", $obj->getObservation());
+    }
+
+    /**
+     * Tests the setPeriodeAvenant() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSetPeriodeAvenant() {
+
+        // Set a Date/time mock.
+        $periodeAvenant = new DateTime("2018-09-10");
+
+        $obj = new AvenantsContrats();
+
+        $obj->setPeriodeAvenant($periodeAvenant);
+        $this->assertSame($periodeAvenant, $obj->getPeriodeAvenant());
+    }
+
+    /**
+     * Tests the setSignatureEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetSignatureEmploye() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setSignatureEmploye(true);
+        $this->assertEquals(true, $obj->getSignatureEmploye());
+    }
+
+    /**
+     * Tests the setTypeAvenant() method.
+     *
+     * @return void
+     */
+    public function testSetTypeAvenant() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setTypeAvenant("typeAvenant");
+        $this->assertEquals("typeAvenant", $obj->getTypeAvenant());
+    }
+
+    /**
+     * Tests the setTypeDocument() method.
+     *
+     * @return void
+     */
+    public function testSetTypeDocument() {
+
+        $obj = new AvenantsContrats();
+
+        $obj->setTypeDocument("typeDocument");
+        $this->assertEquals("typeDocument", $obj->getTypeDocument());
     }
 }

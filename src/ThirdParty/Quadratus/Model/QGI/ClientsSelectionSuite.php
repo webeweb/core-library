@@ -11,14 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolCocheClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolCocheFournisseurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolCocheIntervenantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolCocheProspectTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolCocheSortiTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeColTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-
 /**
  * Clients selection suite.
  *
@@ -27,18 +19,192 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
  */
 class ClientsSelectionSuite {
 
-    use BoolCocheClientTrait;
-    use BoolCocheFournisseurTrait;
-    use BoolCocheIntervenantTrait;
-    use BoolCocheProspectTrait;
-    use BoolCocheSortiTrait;
-    use StringCodeColTrait;
-    use StringLibelleTrait;
+    /**
+     * Coche client.
+     *
+     * @var bool
+     */
+    private $cocheClient;
+
+    /**
+     * Coche fournisseur.
+     *
+     * @var bool
+     */
+    private $cocheFournisseur;
+
+    /**
+     * Coche intervenant.
+     *
+     * @var bool
+     */
+    private $cocheIntervenant;
+
+    /**
+     * Coche prospect.
+     *
+     * @var bool
+     */
+    private $cocheProspect;
+
+    /**
+     * Coche sorti.
+     *
+     * @var bool
+     */
+    private $cocheSorti;
+
+    /**
+     * Code col.
+     *
+     * @var string
+     */
+    private $codeCol;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the coche client.
+     *
+     * @return bool Returns the coche client.
+     */
+    public function getCocheClient() {
+        return $this->cocheClient;
+    }
+
+    /**
+     * Get the coche fournisseur.
+     *
+     * @return bool Returns the coche fournisseur.
+     */
+    public function getCocheFournisseur() {
+        return $this->cocheFournisseur;
+    }
+
+    /**
+     * Get the coche intervenant.
+     *
+     * @return bool Returns the coche intervenant.
+     */
+    public function getCocheIntervenant() {
+        return $this->cocheIntervenant;
+    }
+
+    /**
+     * Get the coche prospect.
+     *
+     * @return bool Returns the coche prospect.
+     */
+    public function getCocheProspect() {
+        return $this->cocheProspect;
+    }
+
+    /**
+     * Get the coche sorti.
+     *
+     * @return bool Returns the coche sorti.
+     */
+    public function getCocheSorti() {
+        return $this->cocheSorti;
+    }
+
+    /**
+     * Get the code col.
+     *
+     * @return string Returns the code col.
+     */
+    public function getCodeCol() {
+        return $this->codeCol;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Set the coche client.
+     *
+     * @param bool $cocheClient The coche client.
+     */
+    public function setCocheClient($cocheClient) {
+        $this->cocheClient = $cocheClient;
+        return $this;
+    }
+
+    /**
+     * Set the coche fournisseur.
+     *
+     * @param bool $cocheFournisseur The coche fournisseur.
+     */
+    public function setCocheFournisseur($cocheFournisseur) {
+        $this->cocheFournisseur = $cocheFournisseur;
+        return $this;
+    }
+
+    /**
+     * Set the coche intervenant.
+     *
+     * @param bool $cocheIntervenant The coche intervenant.
+     */
+    public function setCocheIntervenant($cocheIntervenant) {
+        $this->cocheIntervenant = $cocheIntervenant;
+        return $this;
+    }
+
+    /**
+     * Set the coche prospect.
+     *
+     * @param bool $cocheProspect The coche prospect.
+     */
+    public function setCocheProspect($cocheProspect) {
+        $this->cocheProspect = $cocheProspect;
+        return $this;
+    }
+
+    /**
+     * Set the coche sorti.
+     *
+     * @param bool $cocheSorti The coche sorti.
+     */
+    public function setCocheSorti($cocheSorti) {
+        $this->cocheSorti = $cocheSorti;
+        return $this;
+    }
+
+    /**
+     * Set the code col.
+     *
+     * @param string $codeCol The code col.
+     */
+    public function setCodeCol($codeCol) {
+        $this->codeCol = $codeCol;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
     }
 }

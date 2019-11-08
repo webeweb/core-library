@@ -46,4 +46,186 @@ class DsnLieuTravailTest extends AbstractTestCase {
         $this->assertNull($obj->getNumVoie());
         $this->assertNull($obj->getRaisonSociale());
     }
+
+    /**
+     * Tests the setBtq() method.
+     *
+     * @return void
+     */
+    public function testSetBtq() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setBtq("btq");
+        $this->assertEquals("btq", $obj->getBtq());
+    }
+
+    /**
+     * Tests the setBureauDistributeur() method.
+     *
+     * @return void
+     */
+    public function testSetBureauDistributeur() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setBureauDistributeur("bureauDistributeur");
+        $this->assertEquals("bureauDistributeur", $obj->getBureauDistributeur());
+    }
+
+    /**
+     * Tests the setCodeDistribution() method.
+     *
+     * @return void
+     */
+    public function testSetCodeDistribution() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setCodeDistribution("codeDistribution");
+        $this->assertEquals("codeDistribution", $obj->getCodeDistribution());
+    }
+
+    /**
+     * Tests the setCodeInsee() method.
+     *
+     * @return void
+     */
+    public function testSetCodeInsee() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setCodeInsee("codeInsee");
+        $this->assertEquals("codeInsee", $obj->getCodeInsee());
+    }
+
+    /**
+     * Tests the setCodeNaf() method.
+     *
+     * @return void
+     */
+    public function testSetCodeNaf() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setCodeNaf("codeNaf");
+        $this->assertEquals("codeNaf", $obj->getCodeNaf());
+    }
+
+    /**
+     * Tests the setCodePays() method.
+     *
+     * @return void
+     */
+    public function testSetCodePays() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setCodePays("codePays");
+        $this->assertEquals("codePays", $obj->getCodePays());
+    }
+
+    /**
+     * Tests the setCodePostal() method.
+     *
+     * @return void
+     */
+    public function testSetCodePostal() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setCodePostal("codePostal");
+        $this->assertEquals("codePostal", $obj->getCodePostal());
+    }
+
+    /**
+     * Tests the setComplement() method.
+     *
+     * @return void
+     */
+    public function testSetComplement() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setComplement("complement");
+        $this->assertEquals("complement", $obj->getComplement());
+    }
+
+    /**
+     * Tests the setComplementVoie() method.
+     *
+     * @return void
+     */
+    public function testSetComplementVoie() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setComplementVoie("complementVoie");
+        $this->assertEquals("complementVoie", $obj->getComplementVoie());
+    }
+
+    /**
+     * Tests the setId() method.
+     *
+     * @return void
+     */
+    public function testSetId() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setId("id");
+        $this->assertEquals("id", $obj->getId());
+    }
+
+    /**
+     * Tests the setNatureJuridique() method.
+     *
+     * @return void
+     */
+    public function testSetNatureJuridique() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setNatureJuridique("natureJuridique");
+        $this->assertEquals("natureJuridique", $obj->getNatureJuridique());
+    }
+
+    /**
+     * Tests the setNomVoie() method.
+     *
+     * @return void
+     */
+    public function testSetNomVoie() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setNomVoie("nomVoie");
+        $this->assertEquals("nomVoie", $obj->getNomVoie());
+    }
+
+    /**
+     * Tests the setNumVoie() method.
+     *
+     * @return void
+     */
+    public function testSetNumVoie() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setNumVoie("numVoie");
+        $this->assertEquals("numVoie", $obj->getNumVoie());
+    }
+
+    /**
+     * Tests the setRaisonSociale() method.
+     *
+     * @return void
+     */
+    public function testSetRaisonSociale() {
+
+        $obj = new DsnLieuTravail();
+
+        $obj->setRaisonSociale("raisonSociale");
+        $this->assertEquals("raisonSociale", $obj->getRaisonSociale());
+    }
 }

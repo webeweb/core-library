@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniqIdTrait;
-
 /**
  * Filtre lignes.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringUniqIdTrait;
  */
 class FiltreLignes {
 
-    use StringCodeTrait;
-    use StringUniqIdTrait;
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Uniq id.
+     *
+     * @var string
+     */
+    private $uniqId;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the uniq id.
+     *
+     * @return string Returns the uniq id.
+     */
+    public function getUniqId() {
+        return $this->uniqId;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the uniq id.
+     *
+     * @param string $uniqId The uniq id.
+     */
+    public function setUniqId($uniqId) {
+        $this->uniqId = $uniqId;
+        return $this;
     }
 }

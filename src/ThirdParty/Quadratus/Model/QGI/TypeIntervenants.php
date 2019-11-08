@@ -11,13 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolAccesLibreTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolIncrementAutoTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntProchainNumeroTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringLibelleTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPrefixeTrait;
-
 /**
  * Type intervenants.
  *
@@ -26,17 +19,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringPrefixeTrait;
  */
 class TypeIntervenants {
 
-    use BoolAccesLibreTrait;
-    use StringCodeTrait;
-    use BoolIncrementAutoTrait;
-    use StringLibelleTrait;
-    use StringPrefixeTrait;
-    use IntProchainNumeroTrait;
+    /**
+     * Acces libre.
+     *
+     * @var bool
+     */
+    private $accesLibre;
+
+    /**
+     * Code.
+     *
+     * @var string
+     */
+    private $code;
+
+    /**
+     * Increment auto.
+     *
+     * @var bool
+     */
+    private $incrementAuto;
+
+    /**
+     * Libelle.
+     *
+     * @var string
+     */
+    private $libelle;
+
+    /**
+     * Prefixe.
+     *
+     * @var string
+     */
+    private $prefixe;
+
+    /**
+     * Prochain numero.
+     *
+     * @var int
+     */
+    private $prochainNumero;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the acces libre.
+     *
+     * @return bool Returns the acces libre.
+     */
+    public function getAccesLibre() {
+        return $this->accesLibre;
+    }
+
+    /**
+     * Get the code.
+     *
+     * @return string Returns the code.
+     */
+    public function getCode() {
+        return $this->code;
+    }
+
+    /**
+     * Get the increment auto.
+     *
+     * @return bool Returns the increment auto.
+     */
+    public function getIncrementAuto() {
+        return $this->incrementAuto;
+    }
+
+    /**
+     * Get the libelle.
+     *
+     * @return string Returns the libelle.
+     */
+    public function getLibelle() {
+        return $this->libelle;
+    }
+
+    /**
+     * Get the prefixe.
+     *
+     * @return string Returns the prefixe.
+     */
+    public function getPrefixe() {
+        return $this->prefixe;
+    }
+
+    /**
+     * Get the prochain numero.
+     *
+     * @return int Returns the prochain numero.
+     */
+    public function getProchainNumero() {
+        return $this->prochainNumero;
+    }
+
+    /**
+     * Set the acces libre.
+     *
+     * @param bool $accesLibre The acces libre.
+     */
+    public function setAccesLibre($accesLibre) {
+        $this->accesLibre = $accesLibre;
+        return $this;
+    }
+
+    /**
+     * Set the code.
+     *
+     * @param string $code The code.
+     */
+    public function setCode($code) {
+        $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * Set the increment auto.
+     *
+     * @param bool $incrementAuto The increment auto.
+     */
+    public function setIncrementAuto($incrementAuto) {
+        $this->incrementAuto = $incrementAuto;
+        return $this;
+    }
+
+    /**
+     * Set the libelle.
+     *
+     * @param string $libelle The libelle.
+     */
+    public function setLibelle($libelle) {
+        $this->libelle = $libelle;
+        return $this;
+    }
+
+    /**
+     * Set the prefixe.
+     *
+     * @param string $prefixe The prefixe.
+     */
+    public function setPrefixe($prefixe) {
+        $this->prefixe = $prefixe;
+        return $this;
+    }
+
+    /**
+     * Set the prochain numero.
+     *
+     * @param int $prochainNumero The prochain numero.
+     */
+    public function setProchainNumero($prochainNumero) {
+        $this->prochainNumero = $prochainNumero;
+        return $this;
     }
 }

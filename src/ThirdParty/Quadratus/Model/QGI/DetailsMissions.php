@@ -11,13 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNiveauTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeCollaborateurTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeMissionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeTravailTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeAffectationTrait;
-
 /**
  * Details missions.
  *
@@ -26,17 +19,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeAffectationTrait;
  */
 class DetailsMissions {
 
-    use StringCodeCollaborateurTrait;
-    use StringCodeMissionTrait;
-    use StringCodeTravailTrait;
-    use IntNiveauTrait;
-    use IntNumLigneTrait;
-    use StringTypeAffectationTrait;
+    /**
+     * Code collaborateur.
+     *
+     * @var string
+     */
+    private $codeCollaborateur;
+
+    /**
+     * Code mission.
+     *
+     * @var string
+     */
+    private $codeMission;
+
+    /**
+     * Code travail.
+     *
+     * @var string
+     */
+    private $codeTravail;
+
+    /**
+     * Niveau.
+     *
+     * @var int
+     */
+    private $niveau;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
+
+    /**
+     * Type affectation.
+     *
+     * @var string
+     */
+    private $typeAffectation;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code collaborateur.
+     *
+     * @return string Returns the code collaborateur.
+     */
+    public function getCodeCollaborateur() {
+        return $this->codeCollaborateur;
+    }
+
+    /**
+     * Get the code mission.
+     *
+     * @return string Returns the code mission.
+     */
+    public function getCodeMission() {
+        return $this->codeMission;
+    }
+
+    /**
+     * Get the code travail.
+     *
+     * @return string Returns the code travail.
+     */
+    public function getCodeTravail() {
+        return $this->codeTravail;
+    }
+
+    /**
+     * Get the niveau.
+     *
+     * @return int Returns the niveau.
+     */
+    public function getNiveau() {
+        return $this->niveau;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Get the type affectation.
+     *
+     * @return string Returns the type affectation.
+     */
+    public function getTypeAffectation() {
+        return $this->typeAffectation;
+    }
+
+    /**
+     * Set the code collaborateur.
+     *
+     * @param string $codeCollaborateur The code collaborateur.
+     */
+    public function setCodeCollaborateur($codeCollaborateur) {
+        $this->codeCollaborateur = $codeCollaborateur;
+        return $this;
+    }
+
+    /**
+     * Set the code mission.
+     *
+     * @param string $codeMission The code mission.
+     */
+    public function setCodeMission($codeMission) {
+        $this->codeMission = $codeMission;
+        return $this;
+    }
+
+    /**
+     * Set the code travail.
+     *
+     * @param string $codeTravail The code travail.
+     */
+    public function setCodeTravail($codeTravail) {
+        $this->codeTravail = $codeTravail;
+        return $this;
+    }
+
+    /**
+     * Set the niveau.
+     *
+     * @param int $niveau The niveau.
+     */
+    public function setNiveau($niveau) {
+        $this->niveau = $niveau;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
+    }
+
+    /**
+     * Set the type affectation.
+     *
+     * @param string $typeAffectation The type affectation.
+     */
+    public function setTypeAffectation($typeAffectation) {
+        $this->typeAffectation = $typeAffectation;
+        return $this;
     }
 }

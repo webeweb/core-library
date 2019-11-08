@@ -11,16 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolGereEvtFinContratLotTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolGerePrevNormeDsnTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolGestionDsnTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolNePasActiverPrimeAnnuellePropreteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolRegimeMixteMsaTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateApplicationForfaitSocial8Trait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateApplicationFsLisseTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxPrimeAnnuellePropreteMoins20AnsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxPrimeAnnuellePropretePlus20AnsTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNEvenementDsnTrait;
+use DateTime;
 
 /**
  * Constantes entreprise2.
@@ -30,21 +21,270 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNEvenementDsnTrait;
  */
 class ConstantesEntreprise2 {
 
-    use DateTimeDateApplicationFsLisseTrait;
-    use DateTimeDateApplicationForfaitSocial8Trait;
-    use BoolGereEvtFinContratLotTrait;
-    use BoolGerePrevNormeDsnTrait;
-    use BoolGestionDsnTrait;
-    use IntNEvenementDsnTrait;
-    use BoolNePasActiverPrimeAnnuellePropreteTrait;
-    use BoolRegimeMixteMsaTrait;
-    use FloatTauxPrimeAnnuellePropreteMoins20AnsTrait;
-    use FloatTauxPrimeAnnuellePropretePlus20AnsTrait;
+    /**
+     * Date application forfait social8.
+     *
+     * @var DateTime|null
+     */
+    private $dateApplicationForfaitSocial8;
+
+    /**
+     * Date application fs lisse.
+     *
+     * @var DateTime|null
+     */
+    private $dateApplicationFsLisse;
+
+    /**
+     * Gere evt fin contrat lot.
+     *
+     * @var bool
+     */
+    private $gereEvtFinContratLot;
+
+    /**
+     * Gere prev norme dsn.
+     *
+     * @var bool
+     */
+    private $gerePrevNormeDsn;
+
+    /**
+     * Gestion dsn.
+     *
+     * @var bool
+     */
+    private $gestionDsn;
+
+    /**
+     * N evenement dsn.
+     *
+     * @var int
+     */
+    private $nEvenementDsn;
+
+    /**
+     * Ne pas activer prime annuelle proprete.
+     *
+     * @var bool
+     */
+    private $nePasActiverPrimeAnnuelleProprete;
+
+    /**
+     * Regime mixte msa.
+     *
+     * @var bool
+     */
+    private $regimeMixteMsa;
+
+    /**
+     * Taux prime annuelle proprete moins20 ans.
+     *
+     * @var float
+     */
+    private $tauxPrimeAnnuellePropreteMoins20Ans;
+
+    /**
+     * Taux prime annuelle proprete plus20 ans.
+     *
+     * @var float
+     */
+    private $tauxPrimeAnnuellePropretePlus20Ans;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the date application forfait social8.
+     *
+     * @return DateTime|null Returns the date application forfait social8.
+     */
+    public function getDateApplicationForfaitSocial8() {
+        return $this->dateApplicationForfaitSocial8;
+    }
+
+    /**
+     * Get the date application fs lisse.
+     *
+     * @return DateTime|null Returns the date application fs lisse.
+     */
+    public function getDateApplicationFsLisse() {
+        return $this->dateApplicationFsLisse;
+    }
+
+    /**
+     * Get the gere evt fin contrat lot.
+     *
+     * @return bool Returns the gere evt fin contrat lot.
+     */
+    public function getGereEvtFinContratLot() {
+        return $this->gereEvtFinContratLot;
+    }
+
+    /**
+     * Get the gere prev norme dsn.
+     *
+     * @return bool Returns the gere prev norme dsn.
+     */
+    public function getGerePrevNormeDsn() {
+        return $this->gerePrevNormeDsn;
+    }
+
+    /**
+     * Get the gestion dsn.
+     *
+     * @return bool Returns the gestion dsn.
+     */
+    public function getGestionDsn() {
+        return $this->gestionDsn;
+    }
+
+    /**
+     * Get the n evenement dsn.
+     *
+     * @return int Returns the n evenement dsn.
+     */
+    public function getNEvenementDsn() {
+        return $this->nEvenementDsn;
+    }
+
+    /**
+     * Get the ne pas activer prime annuelle proprete.
+     *
+     * @return bool Returns the ne pas activer prime annuelle proprete.
+     */
+    public function getNePasActiverPrimeAnnuelleProprete() {
+        return $this->nePasActiverPrimeAnnuelleProprete;
+    }
+
+    /**
+     * Get the regime mixte msa.
+     *
+     * @return bool Returns the regime mixte msa.
+     */
+    public function getRegimeMixteMsa() {
+        return $this->regimeMixteMsa;
+    }
+
+    /**
+     * Get the taux prime annuelle proprete moins20 ans.
+     *
+     * @return float Returns the taux prime annuelle proprete moins20 ans.
+     */
+    public function getTauxPrimeAnnuellePropreteMoins20Ans() {
+        return $this->tauxPrimeAnnuellePropreteMoins20Ans;
+    }
+
+    /**
+     * Get the taux prime annuelle proprete plus20 ans.
+     *
+     * @return float Returns the taux prime annuelle proprete plus20 ans.
+     */
+    public function getTauxPrimeAnnuellePropretePlus20Ans() {
+        return $this->tauxPrimeAnnuellePropretePlus20Ans;
+    }
+
+    /**
+     * Set the date application forfait social8.
+     *
+     * @param DateTime|null $dateApplicationForfaitSocial8 The date application forfait social8.
+     */
+    public function setDateApplicationForfaitSocial8(DateTime $dateApplicationForfaitSocial8 = null) {
+        $this->dateApplicationForfaitSocial8 = $dateApplicationForfaitSocial8;
+        return $this;
+    }
+
+    /**
+     * Set the date application fs lisse.
+     *
+     * @param DateTime|null $dateApplicationFsLisse The date application fs lisse.
+     */
+    public function setDateApplicationFsLisse(DateTime $dateApplicationFsLisse = null) {
+        $this->dateApplicationFsLisse = $dateApplicationFsLisse;
+        return $this;
+    }
+
+    /**
+     * Set the gere evt fin contrat lot.
+     *
+     * @param bool $gereEvtFinContratLot The gere evt fin contrat lot.
+     */
+    public function setGereEvtFinContratLot($gereEvtFinContratLot) {
+        $this->gereEvtFinContratLot = $gereEvtFinContratLot;
+        return $this;
+    }
+
+    /**
+     * Set the gere prev norme dsn.
+     *
+     * @param bool $gerePrevNormeDsn The gere prev norme dsn.
+     */
+    public function setGerePrevNormeDsn($gerePrevNormeDsn) {
+        $this->gerePrevNormeDsn = $gerePrevNormeDsn;
+        return $this;
+    }
+
+    /**
+     * Set the gestion dsn.
+     *
+     * @param bool $gestionDsn The gestion dsn.
+     */
+    public function setGestionDsn($gestionDsn) {
+        $this->gestionDsn = $gestionDsn;
+        return $this;
+    }
+
+    /**
+     * Set the n evenement dsn.
+     *
+     * @param int $nEvenementDsn The n evenement dsn.
+     */
+    public function setNEvenementDsn($nEvenementDsn) {
+        $this->nEvenementDsn = $nEvenementDsn;
+        return $this;
+    }
+
+    /**
+     * Set the ne pas activer prime annuelle proprete.
+     *
+     * @param bool $nePasActiverPrimeAnnuelleProprete The ne pas activer prime annuelle proprete.
+     */
+    public function setNePasActiverPrimeAnnuelleProprete($nePasActiverPrimeAnnuelleProprete) {
+        $this->nePasActiverPrimeAnnuelleProprete = $nePasActiverPrimeAnnuelleProprete;
+        return $this;
+    }
+
+    /**
+     * Set the regime mixte msa.
+     *
+     * @param bool $regimeMixteMsa The regime mixte msa.
+     */
+    public function setRegimeMixteMsa($regimeMixteMsa) {
+        $this->regimeMixteMsa = $regimeMixteMsa;
+        return $this;
+    }
+
+    /**
+     * Set the taux prime annuelle proprete moins20 ans.
+     *
+     * @param float $tauxPrimeAnnuellePropreteMoins20Ans The taux prime annuelle proprete moins20 ans.
+     */
+    public function setTauxPrimeAnnuellePropreteMoins20Ans($tauxPrimeAnnuellePropreteMoins20Ans) {
+        $this->tauxPrimeAnnuellePropreteMoins20Ans = $tauxPrimeAnnuellePropreteMoins20Ans;
+        return $this;
+    }
+
+    /**
+     * Set the taux prime annuelle proprete plus20 ans.
+     *
+     * @param float $tauxPrimeAnnuellePropretePlus20Ans The taux prime annuelle proprete plus20 ans.
+     */
+    public function setTauxPrimeAnnuellePropretePlus20Ans($tauxPrimeAnnuellePropretePlus20Ans) {
+        $this->tauxPrimeAnnuellePropretePlus20Ans = $tauxPrimeAnnuellePropretePlus20Ans;
+        return $this;
     }
 }

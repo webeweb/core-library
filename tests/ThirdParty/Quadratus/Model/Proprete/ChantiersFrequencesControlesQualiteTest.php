@@ -40,4 +40,108 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
         $this->assertNull($obj->getQuePremiereAnnee());
         $this->assertNull($obj->getTypeControle());
     }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setJour() method.
+     *
+     * @return void
+     */
+    public function testSetJour() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $obj->setJour("jour");
+        $this->assertEquals("jour", $obj->getJour());
+    }
+
+    /**
+     * Tests the setMois() method.
+     *
+     * @return void
+     */
+    public function testSetMois() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $obj->setMois("mois");
+        $this->assertEquals("mois", $obj->getMois());
+    }
+
+    /**
+     * Tests the setNumeroFreq() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroFreq() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $obj->setNumeroFreq(10);
+        $this->assertEquals(10, $obj->getNumeroFreq());
+    }
+
+    /**
+     * Tests the setQuePremiereAnnee() method.
+     *
+     * @return void
+     */
+    public function testSetQuePremiereAnnee() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $obj->setQuePremiereAnnee(true);
+        $this->assertEquals(true, $obj->getQuePremiereAnnee());
+    }
+
+    /**
+     * Tests the setTypeControle() method.
+     *
+     * @return void
+     */
+    public function testSetTypeControle() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $obj->setTypeControle("typeControle");
+        $this->assertEquals("typeControle", $obj->getTypeControle());
+    }
 }

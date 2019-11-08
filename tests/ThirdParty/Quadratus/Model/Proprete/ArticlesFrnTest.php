@@ -41,4 +41,121 @@ class ArticlesFrnTest extends AbstractTestCase {
         $this->assertNull($obj->getDelaiType());
         $this->assertNull($obj->getRefArticleFournisseur());
     }
+
+    /**
+     * Tests the setCodeArticle() method.
+     *
+     * @return void
+     */
+    public function testSetCodeArticle() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setCodeArticle("codeArticle");
+        $this->assertEquals("codeArticle", $obj->getCodeArticle());
+    }
+
+    /**
+     * Tests the setCodeFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetCodeFournisseur() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setCodeFournisseur("codeFournisseur");
+        $this->assertEquals("codeFournisseur", $obj->getCodeFournisseur());
+    }
+
+    /**
+     * Tests the setCommentaires() method.
+     *
+     * @return void
+     */
+    public function testSetCommentaires() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setCommentaires("commentaires");
+        $this->assertEquals("commentaires", $obj->getCommentaires());
+    }
+
+    /**
+     * Tests the setConditionnement() method.
+     *
+     * @return void
+     */
+    public function testSetConditionnement() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setConditionnement("conditionnement");
+        $this->assertEquals("conditionnement", $obj->getConditionnement());
+    }
+
+    /**
+     * Tests the setDelaiLe() method.
+     *
+     * @return void
+     */
+    public function testSetDelaiLe() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setDelaiLe(10);
+        $this->assertEquals(10, $obj->getDelaiLe());
+    }
+
+    /**
+     * Tests the setDelaiLocal() method.
+     *
+     * @return void
+     */
+    public function testSetDelaiLocal() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setDelaiLocal(true);
+        $this->assertEquals(true, $obj->getDelaiLocal());
+    }
+
+    /**
+     * Tests the setDelaiNombre() method.
+     *
+     * @return void
+     */
+    public function testSetDelaiNombre() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setDelaiNombre(10);
+        $this->assertEquals(10, $obj->getDelaiNombre());
+    }
+
+    /**
+     * Tests the setDelaiType() method.
+     *
+     * @return void
+     */
+    public function testSetDelaiType() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setDelaiType(10);
+        $this->assertEquals(10, $obj->getDelaiType());
+    }
+
+    /**
+     * Tests the setRefArticleFournisseur() method.
+     *
+     * @return void
+     */
+    public function testSetRefArticleFournisseur() {
+
+        $obj = new ArticlesFrn();
+
+        $obj->setRefArticleFournisseur("refArticleFournisseur");
+        $this->assertEquals("refArticleFournisseur", $obj->getRefArticleFournisseur());
+    }
 }

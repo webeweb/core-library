@@ -11,9 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatCoutHoraireTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringQualificationTrait;
-
 /**
  * Valorisation horaire.
  *
@@ -22,13 +19,62 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringQualificationTrait;
  */
 class ValorisationHoraire {
 
-    use FloatCoutHoraireTrait;
-    use StringQualificationTrait;
+    /**
+     * Cout horaire.
+     *
+     * @var float
+     */
+    private $coutHoraire;
+
+    /**
+     * Qualification.
+     *
+     * @var string
+     */
+    private $qualification;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the cout horaire.
+     *
+     * @return float Returns the cout horaire.
+     */
+    public function getCoutHoraire() {
+        return $this->coutHoraire;
+    }
+
+    /**
+     * Get the qualification.
+     *
+     * @return string Returns the qualification.
+     */
+    public function getQualification() {
+        return $this->qualification;
+    }
+
+    /**
+     * Set the cout horaire.
+     *
+     * @param float $coutHoraire The cout horaire.
+     */
+    public function setCoutHoraire($coutHoraire) {
+        $this->coutHoraire = $coutHoraire;
+        return $this;
+    }
+
+    /**
+     * Set the qualification.
+     *
+     * @param string $qualification The qualification.
+     */
+    public function setQualification($qualification) {
+        $this->qualification = $qualification;
+        return $this;
     }
 }

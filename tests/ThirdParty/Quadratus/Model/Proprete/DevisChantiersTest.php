@@ -38,4 +38,82 @@ class DevisChantiersTest extends AbstractTestCase {
         $this->assertNull($obj->getMontantHt());
         $this->assertNull($obj->getNumDevis());
     }
+
+    /**
+     * Tests the setCodeAffaire() method.
+     *
+     * @return void
+     */
+    public function testSetCodeAffaire() {
+
+        $obj = new DevisChantiers();
+
+        $obj->setCodeAffaire("codeAffaire");
+        $this->assertEquals("codeAffaire", $obj->getCodeAffaire());
+    }
+
+    /**
+     * Tests the setCodeChantier() method.
+     *
+     * @return void
+     */
+    public function testSetCodeChantier() {
+
+        $obj = new DevisChantiers();
+
+        $obj->setCodeChantier("codeChantier");
+        $this->assertEquals("codeChantier", $obj->getCodeChantier());
+    }
+
+    /**
+     * Tests the setCodeClient() method.
+     *
+     * @return void
+     */
+    public function testSetCodeClient() {
+
+        $obj = new DevisChantiers();
+
+        $obj->setCodeClient("codeClient");
+        $this->assertEquals("codeClient", $obj->getCodeClient());
+    }
+
+    /**
+     * Tests the setMajDescriptif() method.
+     *
+     * @return void
+     */
+    public function testSetMajDescriptif() {
+
+        $obj = new DevisChantiers();
+
+        $obj->setMajDescriptif(true);
+        $this->assertEquals(true, $obj->getMajDescriptif());
+    }
+
+    /**
+     * Tests the setMontantHt() method.
+     *
+     * @return void
+     */
+    public function testSetMontantHt() {
+
+        $obj = new DevisChantiers();
+
+        $obj->setMontantHt(10.092018);
+        $this->assertEquals(10.092018, $obj->getMontantHt());
+    }
+
+    /**
+     * Tests the setNumDevis() method.
+     *
+     * @return void
+     */
+    public function testSetNumDevis() {
+
+        $obj = new DevisChantiers();
+
+        $obj->setNumDevis("numDevis");
+        $this->assertEquals("numDevis", $obj->getNumDevis());
+    }
 }

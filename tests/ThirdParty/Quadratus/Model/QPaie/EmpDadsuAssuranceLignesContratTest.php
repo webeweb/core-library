@@ -38,4 +38,82 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
         $this->assertNull($obj->getRefContrat());
         $this->assertNull($obj->getUniteGestion());
     }
+
+    /**
+     * Tests the setCodeEtablissement() method.
+     *
+     * @return void
+     */
+    public function testSetCodeEtablissement() {
+
+        $obj = new EmpDadsuAssuranceLignesContrat();
+
+        $obj->setCodeEtablissement(10);
+        $this->assertEquals(10, $obj->getCodeEtablissement());
+    }
+
+    /**
+     * Tests the setCodeOrganisme() method.
+     *
+     * @return void
+     */
+    public function testSetCodeOrganisme() {
+
+        $obj = new EmpDadsuAssuranceLignesContrat();
+
+        $obj->setCodeOrganisme("codeOrganisme");
+        $this->assertEquals("codeOrganisme", $obj->getCodeOrganisme());
+    }
+
+    /**
+     * Tests the setNbEnfants() method.
+     *
+     * @return void
+     */
+    public function testSetNbEnfants() {
+
+        $obj = new EmpDadsuAssuranceLignesContrat();
+
+        $obj->setNbEnfants("nbEnfants");
+        $this->assertEquals("nbEnfants", $obj->getNbEnfants());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new EmpDadsuAssuranceLignesContrat();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the setRefContrat() method.
+     *
+     * @return void
+     */
+    public function testSetRefContrat() {
+
+        $obj = new EmpDadsuAssuranceLignesContrat();
+
+        $obj->setRefContrat("refContrat");
+        $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
+
+    /**
+     * Tests the setUniteGestion() method.
+     *
+     * @return void
+     */
+    public function testSetUniteGestion() {
+
+        $obj = new EmpDadsuAssuranceLignesContrat();
+
+        $obj->setUniteGestion("uniteGestion");
+        $this->assertEquals("uniteGestion", $obj->getUniteGestion());
+    }
 }

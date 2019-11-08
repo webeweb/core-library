@@ -11,17 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateDebutTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDateFinTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimeDatePaiementTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantPrecompteTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatMontantTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbHeureTravTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbJourTravTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatSalaireBrutTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntNumLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\IntTypeLigneTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroAttestationTrait;
+use DateTime;
 
 /**
  * Lignes attestation cacm.
@@ -31,22 +21,296 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroAttestationTrait
  */
 class LignesAttestationCacm {
 
-    use DateTimeDateDebutTrait;
-    use DateTimeDateFinTrait;
-    use DateTimeDatePaiementTrait;
-    use FloatMontantTrait;
-    use FloatMontantPrecompteTrait;
-    use FloatNbHeureTravTrait;
-    use FloatNbJourTravTrait;
-    use IntNumLigneTrait;
-    use StringNumeroAttestationTrait;
-    use FloatSalaireBrutTrait;
-    use IntTypeLigneTrait;
+    /**
+     * Date debut.
+     *
+     * @var DateTime|null
+     */
+    private $dateDebut;
+
+    /**
+     * Date fin.
+     *
+     * @var DateTime|null
+     */
+    private $dateFin;
+
+    /**
+     * Date paiement.
+     *
+     * @var DateTime|null
+     */
+    private $datePaiement;
+
+    /**
+     * Montant.
+     *
+     * @var float
+     */
+    private $montant;
+
+    /**
+     * Montant precompte.
+     *
+     * @var float
+     */
+    private $montantPrecompte;
+
+    /**
+     * Nb heure trav.
+     *
+     * @var float
+     */
+    private $nbHeureTrav;
+
+    /**
+     * Nb jour trav.
+     *
+     * @var float
+     */
+    private $nbJourTrav;
+
+    /**
+     * Num ligne.
+     *
+     * @var int
+     */
+    private $numLigne;
+
+    /**
+     * Numero attestation.
+     *
+     * @var string
+     */
+    private $numeroAttestation;
+
+    /**
+     * Salaire brut.
+     *
+     * @var float
+     */
+    private $salaireBrut;
+
+    /**
+     * Type ligne.
+     *
+     * @var int
+     */
+    private $typeLigne;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the date debut.
+     *
+     * @return DateTime|null Returns the date debut.
+     */
+    public function getDateDebut() {
+        return $this->dateDebut;
+    }
+
+    /**
+     * Get the date fin.
+     *
+     * @return DateTime|null Returns the date fin.
+     */
+    public function getDateFin() {
+        return $this->dateFin;
+    }
+
+    /**
+     * Get the date paiement.
+     *
+     * @return DateTime|null Returns the date paiement.
+     */
+    public function getDatePaiement() {
+        return $this->datePaiement;
+    }
+
+    /**
+     * Get the montant.
+     *
+     * @return float Returns the montant.
+     */
+    public function getMontant() {
+        return $this->montant;
+    }
+
+    /**
+     * Get the montant precompte.
+     *
+     * @return float Returns the montant precompte.
+     */
+    public function getMontantPrecompte() {
+        return $this->montantPrecompte;
+    }
+
+    /**
+     * Get the nb heure trav.
+     *
+     * @return float Returns the nb heure trav.
+     */
+    public function getNbHeureTrav() {
+        return $this->nbHeureTrav;
+    }
+
+    /**
+     * Get the nb jour trav.
+     *
+     * @return float Returns the nb jour trav.
+     */
+    public function getNbJourTrav() {
+        return $this->nbJourTrav;
+    }
+
+    /**
+     * Get the num ligne.
+     *
+     * @return int Returns the num ligne.
+     */
+    public function getNumLigne() {
+        return $this->numLigne;
+    }
+
+    /**
+     * Get the numero attestation.
+     *
+     * @return string Returns the numero attestation.
+     */
+    public function getNumeroAttestation() {
+        return $this->numeroAttestation;
+    }
+
+    /**
+     * Get the salaire brut.
+     *
+     * @return float Returns the salaire brut.
+     */
+    public function getSalaireBrut() {
+        return $this->salaireBrut;
+    }
+
+    /**
+     * Get the type ligne.
+     *
+     * @return int Returns the type ligne.
+     */
+    public function getTypeLigne() {
+        return $this->typeLigne;
+    }
+
+    /**
+     * Set the date debut.
+     *
+     * @param DateTime|null $dateDebut The date debut.
+     */
+    public function setDateDebut(DateTime $dateDebut = null) {
+        $this->dateDebut = $dateDebut;
+        return $this;
+    }
+
+    /**
+     * Set the date fin.
+     *
+     * @param DateTime|null $dateFin The date fin.
+     */
+    public function setDateFin(DateTime $dateFin = null) {
+        $this->dateFin = $dateFin;
+        return $this;
+    }
+
+    /**
+     * Set the date paiement.
+     *
+     * @param DateTime|null $datePaiement The date paiement.
+     */
+    public function setDatePaiement(DateTime $datePaiement = null) {
+        $this->datePaiement = $datePaiement;
+        return $this;
+    }
+
+    /**
+     * Set the montant.
+     *
+     * @param float $montant The montant.
+     */
+    public function setMontant($montant) {
+        $this->montant = $montant;
+        return $this;
+    }
+
+    /**
+     * Set the montant precompte.
+     *
+     * @param float $montantPrecompte The montant precompte.
+     */
+    public function setMontantPrecompte($montantPrecompte) {
+        $this->montantPrecompte = $montantPrecompte;
+        return $this;
+    }
+
+    /**
+     * Set the nb heure trav.
+     *
+     * @param float $nbHeureTrav The nb heure trav.
+     */
+    public function setNbHeureTrav($nbHeureTrav) {
+        $this->nbHeureTrav = $nbHeureTrav;
+        return $this;
+    }
+
+    /**
+     * Set the nb jour trav.
+     *
+     * @param float $nbJourTrav The nb jour trav.
+     */
+    public function setNbJourTrav($nbJourTrav) {
+        $this->nbJourTrav = $nbJourTrav;
+        return $this;
+    }
+
+    /**
+     * Set the num ligne.
+     *
+     * @param int $numLigne The num ligne.
+     */
+    public function setNumLigne($numLigne) {
+        $this->numLigne = $numLigne;
+        return $this;
+    }
+
+    /**
+     * Set the numero attestation.
+     *
+     * @param string $numeroAttestation The numero attestation.
+     */
+    public function setNumeroAttestation($numeroAttestation) {
+        $this->numeroAttestation = $numeroAttestation;
+        return $this;
+    }
+
+    /**
+     * Set the salaire brut.
+     *
+     * @param float $salaireBrut The salaire brut.
+     */
+    public function setSalaireBrut($salaireBrut) {
+        $this->salaireBrut = $salaireBrut;
+        return $this;
+    }
+
+    /**
+     * Set the type ligne.
+     *
+     * @param int $typeLigne The type ligne.
+     */
+    public function setTypeLigne($typeLigne) {
+        $this->typeLigne = $typeLigne;
+        return $this;
     }
 }

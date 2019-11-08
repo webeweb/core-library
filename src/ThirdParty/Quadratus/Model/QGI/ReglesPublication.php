@@ -11,12 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QGI;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolEwsPublicationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\BoolWebPublicationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringChainePublicationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeClientTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypePublicationTrait;
-
 /**
  * Regles publication.
  *
@@ -25,16 +19,140 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypePublicationTrait;
  */
 class ReglesPublication {
 
-    use StringChainePublicationTrait;
-    use StringCodeClientTrait;
-    use BoolEwsPublicationTrait;
-    use StringTypePublicationTrait;
-    use BoolWebPublicationTrait;
+    /**
+     * Chaine publication.
+     *
+     * @var string
+     */
+    private $chainePublication;
+
+    /**
+     * Code client.
+     *
+     * @var string
+     */
+    private $codeClient;
+
+    /**
+     * Ews publication.
+     *
+     * @var bool
+     */
+    private $ewsPublication;
+
+    /**
+     * Type publication.
+     *
+     * @var string
+     */
+    private $typePublication;
+
+    /**
+     * Web publication.
+     *
+     * @var bool
+     */
+    private $webPublication;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the chaine publication.
+     *
+     * @return string Returns the chaine publication.
+     */
+    public function getChainePublication() {
+        return $this->chainePublication;
+    }
+
+    /**
+     * Get the code client.
+     *
+     * @return string Returns the code client.
+     */
+    public function getCodeClient() {
+        return $this->codeClient;
+    }
+
+    /**
+     * Get the ews publication.
+     *
+     * @return bool Returns the ews publication.
+     */
+    public function getEwsPublication() {
+        return $this->ewsPublication;
+    }
+
+    /**
+     * Get the type publication.
+     *
+     * @return string Returns the type publication.
+     */
+    public function getTypePublication() {
+        return $this->typePublication;
+    }
+
+    /**
+     * Get the web publication.
+     *
+     * @return bool Returns the web publication.
+     */
+    public function getWebPublication() {
+        return $this->webPublication;
+    }
+
+    /**
+     * Set the chaine publication.
+     *
+     * @param string $chainePublication The chaine publication.
+     */
+    public function setChainePublication($chainePublication) {
+        $this->chainePublication = $chainePublication;
+        return $this;
+    }
+
+    /**
+     * Set the code client.
+     *
+     * @param string $codeClient The code client.
+     */
+    public function setCodeClient($codeClient) {
+        $this->codeClient = $codeClient;
+        return $this;
+    }
+
+    /**
+     * Set the ews publication.
+     *
+     * @param bool $ewsPublication The ews publication.
+     */
+    public function setEwsPublication($ewsPublication) {
+        $this->ewsPublication = $ewsPublication;
+        return $this;
+    }
+
+    /**
+     * Set the type publication.
+     *
+     * @param string $typePublication The type publication.
+     */
+    public function setTypePublication($typePublication) {
+        $this->typePublication = $typePublication;
+        return $this;
+    }
+
+    /**
+     * Set the web publication.
+     *
+     * @param bool $webPublication The web publication.
+     */
+    public function setWebPublication($webPublication) {
+        $this->webPublication = $webPublication;
+        return $this;
     }
 }

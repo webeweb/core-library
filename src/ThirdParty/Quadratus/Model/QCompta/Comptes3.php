@@ -11,10 +11,6 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatPourcentRepartTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeSectionTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroCompteTrait;
-
 /**
  * Comptes3.
  *
@@ -23,14 +19,88 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringNumeroCompteTrait;
  */
 class Comptes3 {
 
-    use StringCodeSectionTrait;
-    use StringNumeroCompteTrait;
-    use FloatPourcentRepartTrait;
+    /**
+     * Code section.
+     *
+     * @var string
+     */
+    private $codeSection;
+
+    /**
+     * Numero compte.
+     *
+     * @var string
+     */
+    private $numeroCompte;
+
+    /**
+     * Pourcent repart.
+     *
+     * @var float
+     */
+    private $pourcentRepart;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code section.
+     *
+     * @return string Returns the code section.
+     */
+    public function getCodeSection() {
+        return $this->codeSection;
+    }
+
+    /**
+     * Get the numero compte.
+     *
+     * @return string Returns the numero compte.
+     */
+    public function getNumeroCompte() {
+        return $this->numeroCompte;
+    }
+
+    /**
+     * Get the pourcent repart.
+     *
+     * @return float Returns the pourcent repart.
+     */
+    public function getPourcentRepart() {
+        return $this->pourcentRepart;
+    }
+
+    /**
+     * Set the code section.
+     *
+     * @param string $codeSection The code section.
+     */
+    public function setCodeSection($codeSection) {
+        $this->codeSection = $codeSection;
+        return $this;
+    }
+
+    /**
+     * Set the numero compte.
+     *
+     * @param string $numeroCompte The numero compte.
+     */
+    public function setNumeroCompte($numeroCompte) {
+        $this->numeroCompte = $numeroCompte;
+        return $this;
+    }
+
+    /**
+     * Set the pourcent repart.
+     *
+     * @param float $pourcentRepart The pourcent repart.
+     */
+    public function setPourcentRepart($pourcentRepart) {
+        $this->pourcentRepart = $pourcentRepart;
+        return $this;
     }
 }

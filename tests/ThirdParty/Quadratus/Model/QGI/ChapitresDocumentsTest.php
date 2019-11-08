@@ -35,4 +35,43 @@ class ChapitresDocumentsTest extends AbstractTestCase {
         $this->assertNull($obj->getNomRepertoire());
         $this->assertNull($obj->getPosition());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new ChapitresDocuments();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setNomRepertoire() method.
+     *
+     * @return void
+     */
+    public function testSetNomRepertoire() {
+
+        $obj = new ChapitresDocuments();
+
+        $obj->setNomRepertoire("nomRepertoire");
+        $this->assertEquals("nomRepertoire", $obj->getNomRepertoire());
+    }
+
+    /**
+     * Tests the setPosition() method.
+     *
+     * @return void
+     */
+    public function testSetPosition() {
+
+        $obj = new ChapitresDocuments();
+
+        $obj->setPosition(10);
+        $this->assertEquals(10, $obj->getPosition());
+    }
 }

@@ -36,4 +36,56 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
         $this->assertNull($obj->getIntitule());
         $this->assertNull($obj->getNumeroEmploye());
     }
+
+    /**
+     * Tests the setCode() method.
+     *
+     * @return void
+     */
+    public function testSetCode() {
+
+        $obj = new tblPaieTempLibelles();
+
+        $obj->setCode("code");
+        $this->assertEquals("code", $obj->getCode());
+    }
+
+    /**
+     * Tests the setCodeCalcul() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCalcul() {
+
+        $obj = new tblPaieTempLibelles();
+
+        $obj->setCodeCalcul("codeCalcul");
+        $this->assertEquals("codeCalcul", $obj->getCodeCalcul());
+    }
+
+    /**
+     * Tests the setIntitule() method.
+     *
+     * @return void
+     */
+    public function testSetIntitule() {
+
+        $obj = new tblPaieTempLibelles();
+
+        $obj->setIntitule("intitule");
+        $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the setNumeroEmploye() method.
+     *
+     * @return void
+     */
+    public function testSetNumeroEmploye() {
+
+        $obj = new tblPaieTempLibelles();
+
+        $obj->setNumeroEmploye("numeroEmploye");
+        $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
 }

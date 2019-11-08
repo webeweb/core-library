@@ -11,12 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete;
 
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\DateTimePeriodeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatNbHeuresTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\FloatTauxMajorationTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodeEmployeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringCodePrimeTrait;
-use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeDnjfTrait;
+use DateTime;
 
 /**
  * Histo paie type2.
@@ -26,17 +21,166 @@ use WBW\Library\Core\ThirdParty\Quadratus\Attribute\StringTypeDnjfTrait;
  */
 class HistoPaieType2 {
 
-    use StringCodeEmployeTrait;
-    use StringCodePrimeTrait;
-    use FloatNbHeuresTrait;
-    use DateTimePeriodeTrait;
-    use FloatTauxMajorationTrait;
-    use StringTypeDnjfTrait;
+    /**
+     * Code employe.
+     *
+     * @var string
+     */
+    private $codeEmploye;
+
+    /**
+     * Code prime.
+     *
+     * @var string
+     */
+    private $codePrime;
+
+    /**
+     * Nb heures.
+     *
+     * @var float
+     */
+    private $nbHeures;
+
+    /**
+     * Periode.
+     *
+     * @var DateTime|null
+     */
+    private $periode;
+
+    /**
+     * Taux majoration.
+     *
+     * @var float
+     */
+    private $tauxMajoration;
+
+    /**
+     * Type dnjf.
+     *
+     * @var string
+     */
+    private $typeDnjf;
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO;
+    }
+
+    /**
+     * Get the code employe.
+     *
+     * @return string Returns the code employe.
+     */
+    public function getCodeEmploye() {
+        return $this->codeEmploye;
+    }
+
+    /**
+     * Get the code prime.
+     *
+     * @return string Returns the code prime.
+     */
+    public function getCodePrime() {
+        return $this->codePrime;
+    }
+
+    /**
+     * Get the nb heures.
+     *
+     * @return float Returns the nb heures.
+     */
+    public function getNbHeures() {
+        return $this->nbHeures;
+    }
+
+    /**
+     * Get the periode.
+     *
+     * @return DateTime|null Returns the periode.
+     */
+    public function getPeriode() {
+        return $this->periode;
+    }
+
+    /**
+     * Get the taux majoration.
+     *
+     * @return float Returns the taux majoration.
+     */
+    public function getTauxMajoration() {
+        return $this->tauxMajoration;
+    }
+
+    /**
+     * Get the type dnjf.
+     *
+     * @return string Returns the type dnjf.
+     */
+    public function getTypeDnjf() {
+        return $this->typeDnjf;
+    }
+
+    /**
+     * Set the code employe.
+     *
+     * @param string $codeEmploye The code employe.
+     */
+    public function setCodeEmploye($codeEmploye) {
+        $this->codeEmploye = $codeEmploye;
+        return $this;
+    }
+
+    /**
+     * Set the code prime.
+     *
+     * @param string $codePrime The code prime.
+     */
+    public function setCodePrime($codePrime) {
+        $this->codePrime = $codePrime;
+        return $this;
+    }
+
+    /**
+     * Set the nb heures.
+     *
+     * @param float $nbHeures The nb heures.
+     */
+    public function setNbHeures($nbHeures) {
+        $this->nbHeures = $nbHeures;
+        return $this;
+    }
+
+    /**
+     * Set the periode.
+     *
+     * @param DateTime|null $periode The periode.
+     */
+    public function setPeriode(DateTime $periode = null) {
+        $this->periode = $periode;
+        return $this;
+    }
+
+    /**
+     * Set the taux majoration.
+     *
+     * @param float $tauxMajoration The taux majoration.
+     */
+    public function setTauxMajoration($tauxMajoration) {
+        $this->tauxMajoration = $tauxMajoration;
+        return $this;
+    }
+
+    /**
+     * Set the type dnjf.
+     *
+     * @param string $typeDnjf The type dnjf.
+     */
+    public function setTypeDnjf($typeDnjf) {
+        $this->typeDnjf = $typeDnjf;
+        return $this;
     }
 }

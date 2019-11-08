@@ -37,4 +37,69 @@ class CollabTacheTest extends AbstractTestCase {
         $this->assertNull($obj->getPv2());
         $this->assertNull($obj->getPv3());
     }
+
+    /**
+     * Tests the setCodeCollab() method.
+     *
+     * @return void
+     */
+    public function testSetCodeCollab() {
+
+        $obj = new CollabTache();
+
+        $obj->setCodeCollab("codeCollab");
+        $this->assertEquals("codeCollab", $obj->getCodeCollab());
+    }
+
+    /**
+     * Tests the setCodeTache() method.
+     *
+     * @return void
+     */
+    public function testSetCodeTache() {
+
+        $obj = new CollabTache();
+
+        $obj->setCodeTache("codeTache");
+        $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
+
+    /**
+     * Tests the setPv1() method.
+     *
+     * @return void
+     */
+    public function testSetPv1() {
+
+        $obj = new CollabTache();
+
+        $obj->setPv1(10.092018);
+        $this->assertEquals(10.092018, $obj->getPv1());
+    }
+
+    /**
+     * Tests the setPv2() method.
+     *
+     * @return void
+     */
+    public function testSetPv2() {
+
+        $obj = new CollabTache();
+
+        $obj->setPv2(10.092018);
+        $this->assertEquals(10.092018, $obj->getPv2());
+    }
+
+    /**
+     * Tests the setPv3() method.
+     *
+     * @return void
+     */
+    public function testSetPv3() {
+
+        $obj = new CollabTache();
+
+        $obj->setPv3(10.092018);
+        $this->assertEquals(10.092018, $obj->getPv3());
+    }
 }
