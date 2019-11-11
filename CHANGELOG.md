@@ -7,22 +7,21 @@ CHANGELOG
 > - WBW\Library\Core\ChartAccounts\Model\AbstractChartAccountsModel
 > - WBW\Library\Core\ChartAccounts\Model\ChartAccountsAccount
 > - WBW\Library\Core\ChartAccounts\Model\ChartAccountsType
+> - WBW\Library\Core\Exception\Argument\IllegalArgumentException
 > - WBW\Library\Core\Exception\ChartAccounts\AccountAlreadyExistsException
+> - WBW\Library\Core\Exception\Extension\PHPExtensionNotFoundException
+> - WBW\Library\Core\Exception\Pointer\NullPointerException
+> - WBW\Library\Core\Exception\Reflection\ClassNotFoundException
+> - WBW\Library\Core\Exception\Reflection\MethodNotFoundException
+> - WBW\Library\Core\Exception\Reflection\SyntaxErrorException
+> - WBW\Library\Core\Exception\Response\RedirectResponseException
+> - WBW\Library\Core\Exception\Runtime\NotImplementedException
 > - WBW\Library\Core\Model\Choices\CivilityChoices
 > - WBW\Library\Core\Model\Choices\CivilityChoicesInterface
 > - WBW\Library\Core\Model\Choices\MaritalStatusChoices
 > - WBW\Library\Core\Model\Choices\MaritalStatusChoicesInterface
 > - WBW\Library\Core\Model\Choices\VehicleMarkChoices
 > - WBW\Library\Core\Model\Choices\VehicleMarkChoicesInterface
-
-> IMPORTANT NOTICE: The following classes has been deprecated
-> - WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest
-> - WBW\Library\Core\Network\CURL\Request\CURLGetRequest
-> - WBW\Library\Core\Network\CURL\Request\CURLHeadRequest
-> - WBW\Library\Core\Network\CURL\Request\CURLOptionsRequest
-> - WBW\Library\Core\Network\CURL\Request\CURLPatchRequest
-> - WBW\Library\Core\Network\CURL\Request\CURLPostRequest
-> - WBW\Library\Core\Network\CURL\Request\CURLPutRequest
 
 - Add CHANGELOG
 - Add Civility interface
