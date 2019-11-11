@@ -16,6 +16,7 @@ CHANGELOG
 > - WBW\Library\Core\Exception\Reflection\SyntaxErrorException
 > - WBW\Library\Core\Exception\Response\RedirectResponseException
 > - WBW\Library\Core\Exception\Runtime\NotImplementedException
+> - WBW\Library\Core\Filesystem\DirectoryHelper
 > - WBW\Library\Core\Model\Choices\CivilityChoices
 > - WBW\Library\Core\Model\Choices\CivilityChoicesInterface
 > - WBW\Library\Core\Model\Choices\MaritalStatusChoices
