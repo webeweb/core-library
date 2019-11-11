@@ -26,6 +26,7 @@ CHANGELOG
 
 - Add CHANGELOG
 - Add Civility interface
+- Add boolean Enabled trait
 - Add date/time Birth date trait
 - Add date/time Created at trait
 - Add date/time Date trait
@@ -55,23 +56,28 @@ CHANGELOG
 - Add integer Width trait
 - Add Marital status interface
 - Add string Accounting code trait
+- Add string Addressee trait
 - Add string Comment trait
 - Add string Content trait
+- Add string Country trait
 - Add string Description trait
 - Add string Directory trait
+- Add string Filename trait
 - Add string First name trait
+- Add string House number trait
 - Add string Label trait
 - Add string Lang trait
 - Add string Last name trait
+- Add string Location trait
 - Add string Mime type trait
 - Add string Name trait
 - Add string Number trait
 - Add string Password trait
 - Add string Pathname trait
-- Add string Filename trait
-- Add string Mime type trait
+- Add string Postal code trait
 - Add string Reference trait
 - Add string Source trait
+- Add string Street name trait
 - Add string Username trait
 - Add third party Adoria
 - Add third party Quadratus
