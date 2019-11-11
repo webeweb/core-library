@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Network\CURL\Exception;
 
-use WBW\Library\Core\Network\CURL\Response\CURLResponse;
+use WBW\Library\Core\Network\CURL\API\CURLResponseInterface;
 
 /**
  * cURL request call exception.
@@ -24,7 +24,7 @@ class CURLRequestCallException extends AbstractCURLException {
     /**
      * cURL response.
      *
-     * @var CURLResponse
+     * @var CURLResponseInterface
      */
     private $response;
 
@@ -33,9 +33,9 @@ class CURLRequestCallException extends AbstractCURLException {
      *
      * @param string $message The message.
      * @param int $code The code.
-     * @param CURLResponse $response The response.
+     * @param CURLResponseInterface $response The response.
      */
-    public function __construct($message, $code, CURLResponse $response) {
+    public function __construct($message, $code, CURLResponseInterface $response) {
         parent::__construct($message, $code);
         $this->setResponse($response);
     }
@@ -43,7 +43,7 @@ class CURLRequestCallException extends AbstractCURLException {
     /**
      * Get the response.
      *
-     * @return CURLResponse Returns the response.
+     * @return CURLResponseInterface Returns the response.
      */
     public function getResponse() {
         return $this->response;
@@ -52,10 +52,10 @@ class CURLRequestCallException extends AbstractCURLException {
     /**
      * Set the response.
      *
-     * @param CURLResponse $response The response.
+     * @param CURLResponseInterface $response The response.
      * @return CURLRequestCallException Returns this request call exception.
      */
-    protected function setResponse(CURLResponse $response) {
+    protected function setResponse(CURLResponseInterface $response) {
         $this->response = $response;
         return $this;
     }

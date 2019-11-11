@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Network\CURL\API;
 
-use WBW\Library\Core\Exception\Argument\StringArgumentException;
+use WBW\Library\Core\Argument\Exception\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 use WBW\Library\Core\Network\CURL\Exception\CURLRequestCallException;
 

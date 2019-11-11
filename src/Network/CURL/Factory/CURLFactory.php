@@ -13,6 +13,7 @@ namespace WBW\Library\Core\Network\CURL\Factory;
 
 use InvalidArgumentException;
 use WBW\Library\Core\Network\CURL\API\CURLRequestInterface;
+use WBW\Library\Core\Network\CURL\API\CURLResponseInterface;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
 use WBW\Library\Core\Network\CURL\Request\CURLDeleteRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLGetRequest;
@@ -21,6 +22,7 @@ use WBW\Library\Core\Network\CURL\Request\CURLOptionsRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPatchRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPostRequest;
 use WBW\Library\Core\Network\CURL\Request\CURLPutRequest;
+use WBW\Library\Core\Network\CURL\Response\CURLResponse;
 use WBW\Library\Core\Network\HTTP\HTTPInterface;
 
 /**
@@ -32,7 +34,7 @@ use WBW\Library\Core\Network\HTTP\HTTPInterface;
 class CURLFactory implements HTTPInterface {
 
     /**
-     * Get an instance.
+     * Create a cURL request.
      *
      * @param string $method The method.
      * @param CURLConfiguration $configuration The configuration.
@@ -40,7 +42,7 @@ class CURLFactory implements HTTPInterface {
      * @return CURLRequestInterface Returns the cURL request.
      * @throws InvalidArgumentException Throws an invalid argument exception if the method is not implemented.
      */
-    public static function getInstance($method, CURLConfiguration $configuration = null, $resourcePath = null) {
+    public static function newCURLRequest($method, CURLConfiguration $configuration = null, $resourcePath = null) {
 
         if (null === $configuration) {
             $configuration = new CURLConfiguration();
@@ -71,5 +73,14 @@ class CURLFactory implements HTTPInterface {
         }
 
         throw new InvalidArgumentException(sprintf("The HTTP method \"%s\" is invalid", $method));
+    }
+
+    /**
+     * Create a cURL response.
+     *
+     * @return CURLResponseInterface Returns the cURL response.
+     */
+    public static function newCURLResponse() {
+        return new CURLResponse();
     }
 }
