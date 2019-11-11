@@ -9,26 +9,26 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database;
+namespace WBW\Library\Core\Database\Client;
 
+use InvalidArgumentException;
 use PDO;
-use WBW\Library\Core\Argument\StringHelper;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
- * Microsoft SQL Server database.
+ * Microsoft Access database.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database
+ * @package WBW\Library\Core\Database\Client
  */
-class MicrosoftSQLServerDatabase extends AbstractDatabase {
+class MicrosoftAccessDatabase extends AbstractDatabase {
 
     /**
-     * Microsoft SQL Server DSN.
+     * Microsoft Access DSN.
      *
      * @var string
      */
-    const DEFAULT_DSN = "sqlsrv:server=%HOST%,%PORT%;database=%DATABASE%;";
+    const DEFAULT_DSN = "odbc:DRIVER={Microsoft Access Driver (*.mdb)}; DBQ=%DBQ%; UID=%UID%; PWD=%PWD%";
 
     /**
      * Constructor.
@@ -39,9 +39,6 @@ class MicrosoftSQLServerDatabase extends AbstractDatabase {
     public function __construct(Authenticator $authenticator, $database) {
         parent::__construct($authenticator);
         $this->setDatabase($database);
-        if (null === $this->getAuthenticator()->getPort()) {
-            $this->getAuthenticator()->setPort(1433);
-        }
     }
 
     /**
@@ -49,11 +46,15 @@ class MicrosoftSQLServerDatabase extends AbstractDatabase {
      */
     protected function connect() {
 
-        $searches = ["%HOST%", "%PORT%", "%DATABASE%"];
-        $replaces = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
+        if (false === file_exists($this->getDatabase())) {
+            throw new InvalidArgumentException(sprintf("The database \"%s\" was not found", $this->getDatabase()));
+        }
+
+        $searches = ["%DBQ%", "%UID%", "%PWD%"];
+        $replaces = [$this->getDatabase(), $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword()];
 
         $dsn = str_replace($searches, $replaces, self::DEFAULT_DSN);
 
-        return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword());
+        return new PDO($dsn);
     }
 }

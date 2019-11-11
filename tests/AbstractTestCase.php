@@ -13,6 +13,8 @@ namespace WBW\Library\Core\Tests;
 
 use PHPUnit\Framework\TestCase;
 use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
+use WBW\Library\Core\Security\Authenticator;
+use WBW\Library\Core\Security\PasswordAuthentication;
 
 /**
  * Abstract test case.
@@ -22,6 +24,13 @@ use WBW\Library\Core\Network\CURL\Configuration\CURLConfiguration;
  * @abstract
  */
 abstract class AbstractTestCase extends TestCase {
+
+    /**
+     * Authenticator.
+     *
+     * @var Authenticator
+     */
+    protected $authenticator;
 
     /**
      * cURL configuration.
@@ -43,9 +52,11 @@ abstract class AbstractTestCase extends TestCase {
     protected function setUp() {
         parent::setUp();
 
+        // Set an Authenticator mock.
+        $this->authenticator = new Authenticator("localhost", new PasswordAuthentication("username", "password"));
+
         // Set a cURL configuration mock.
         $this->curlConfiguration = new CURLConfiguration();
         $this->curlConfiguration->setHost("https://webeweb.dev/");
     }
-
 }

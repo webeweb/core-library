@@ -9,26 +9,25 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database;
+namespace WBW\Library\Core\Database\Client;
 
 use PDO;
-use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
- * Microsoft Access database.
+ * Microsoft SQL Server database.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database
+ * @package WBW\Library\Core\Database\Client
  */
-class MicrosoftAccessDatabase extends AbstractDatabase {
+class MicrosoftSQLServerDatabase extends AbstractDatabase {
 
     /**
-     * Microsoft Access DSN.
+     * Microsoft SQL Server DSN.
      *
      * @var string
      */
-    const DEFAULT_DSN = "odbc:DRIVER={Microsoft Access Driver (*.mdb)}; DBQ=%DBQ%; UID=%UID%; PWD=%PWD%";
+    const DEFAULT_DSN = "sqlsrv:server=%HOST%,%PORT%;database=%DATABASE%;";
 
     /**
      * Constructor.
@@ -39,6 +38,9 @@ class MicrosoftAccessDatabase extends AbstractDatabase {
     public function __construct(Authenticator $authenticator, $database) {
         parent::__construct($authenticator);
         $this->setDatabase($database);
+        if (null === $this->getAuthenticator()->getPort()) {
+            $this->getAuthenticator()->setPort(1433);
+        }
     }
 
     /**
@@ -46,15 +48,11 @@ class MicrosoftAccessDatabase extends AbstractDatabase {
      */
     protected function connect() {
 
-        if (false === file_exists($this->getDatabase())) {
-            throw new FileNotFoundException($this->getDatabase());
-        }
-
-        $searches = ["%DBQ%", "%UID%", "%PWD%"];
-        $replaces = [$this->getDatabase(), $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword()];
+        $searches = ["%HOST%", "%PORT%", "%DATABASE%"];
+        $replaces = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
 
         $dsn = str_replace($searches, $replaces, self::DEFAULT_DSN);
 
-        return new PDO($dsn);
+        return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword());
     }
 }

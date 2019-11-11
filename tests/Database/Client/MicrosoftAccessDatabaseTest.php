@@ -9,19 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Database;
+namespace WBW\Library\Core\Tests\Database\Client;
 
 use Exception;
-use WBW\Library\Core\Database\MicrosoftAccessDatabase;
-use WBW\Library\Core\Exception\FileSystem\FileNotFoundException;
+use InvalidArgumentException;
+use WBW\Library\Core\Database\Client\MicrosoftAccessDatabase;
+use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Microsoft Access database test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Database
+ * @package WBW\Library\Core\Tests\Database\Client
  */
-class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
+class MicrosoftAccessDatabaseTest extends AbstractTestCase {
 
     /**
      * Tests the __construct method.
@@ -50,8 +51,8 @@ class MicrosoftAccessDatabaseTest extends AbstractDatabaseTest {
             $obj->getConnection();
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(FileNotFoundException::class, $ex);
-            $this->assertEquals("The file \"exception\" is not found", $ex->getMessage());
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("The database \"exception\" was not found", $ex->getMessage());
         }
     }
 

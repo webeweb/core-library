@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Database;
+namespace WBW\Library\Core\Tests\Database\Helper;
 
-use WBW\Library\Core\Database\PaginateHelper;
+use WBW\Library\Core\Database\Helper\PaginateHelper;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Paginate helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Database
+ * @package WBW\Library\Core\Tests\Database\Helper
  */
 class PaginateHelperTest extends AbstractTestCase {
 

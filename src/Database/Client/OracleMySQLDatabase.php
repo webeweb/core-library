@@ -9,17 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database;
+namespace WBW\Library\Core\Database\Client;
 
 use PDO;
-use WBW\Library\Core\Argument\StringHelper;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
  * Oracle MySQL database.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database
+ * @package WBW\Library\Core\Database\Client
  */
 class OracleMySQLDatabase extends AbstractDatabase {
 

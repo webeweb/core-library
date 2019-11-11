@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database;
+namespace WBW\Library\Core\Database\Client;
 
 use Exception;
 use PDO;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
- * Abstract database.
+ * Abstract database connector.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database
+ * @package WBW\Library\Core\Database\Client
  */
 abstract class AbstractDatabase {
 
@@ -46,6 +46,8 @@ abstract class AbstractDatabase {
 
     /**
      * Constructor.
+     *
+     * @param Authenticator $authenticator The authenticator.
      */
     protected function __construct(Authenticator $authenticator) {
         $this->authenticator = $authenticator;
