@@ -54,6 +54,19 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the isObject() method.
+     *
+     * @return void
+     */
+    public function testIsObject() {
+
+        $this->assertTrue(ArrayHelper::isObject(["key1" => "value1", "key2" => "value2"]));
+        $this->assertFalse(ArrayHelper::isObject(["value1", "value2"]));
+        $this->assertFalse(ArrayHelper::isObject([0 => "value1", 1 => "value2"]));
+        $this->assertFalse(ArrayHelper::isObject(["0" => "value1", "1" => "value2"]));
+    }
+
+    /**
      * Tests the set() method.
      *
      * @return void

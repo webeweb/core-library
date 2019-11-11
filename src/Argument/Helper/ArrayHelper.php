@@ -47,6 +47,16 @@ class ArrayHelper {
     }
 
     /**
+     * Determines if an array is an object.
+     *
+     * @param array $array The array.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function isObject(array $array) {
+        return range(0, count($array) - 1) !== array_keys($array);
+    }
+
+    /**
      * Set a value.
      *
      * @param array $array The array.
