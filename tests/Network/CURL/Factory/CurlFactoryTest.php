@@ -35,55 +35,55 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class CurlFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the newCURLRequest() method.
+     * Tests the newCurlRequest() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLRequestWithDelete() {
+    public function testNewCurlRequestWithDelete() {
 
-        $obj = CurlFactory::newCURLRequest(HttpInterface::HTTP_METHOD_DELETE);
+        $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_DELETE);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
         $this->assertInstanceOf(CurlDeleteRequest::class, $obj);
     }
 
     /**
-     * Tests the newCURLRequest() method.
+     * Tests the newCurlRequest() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLRequestWithGet() {
+    public function testNewCurlRequestWithGet() {
 
-        $obj = CurlFactory::newCURLRequest(HttpInterface::HTTP_METHOD_GET);
+        $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_GET);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
         $this->assertInstanceOf(CurlGetRequest::class, $obj);
     }
 
     /**
-     * Tests the newCURLRequest() method.
+     * Tests the newCurlRequest() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLRequestWithHead() {
+    public function testNewCurlRequestWithHead() {
 
-        $obj = CurlFactory::newCURLRequest(HttpInterface::HTTP_METHOD_HEAD);
+        $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_HEAD);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
         $this->assertInstanceOf(CurlHeadRequest::class, $obj);
     }
 
     /**
-     * Tests the newCURLRequest() method.
+     * Tests the newCurlRequest() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLRequestWithInvalidArgumentException() {
+    public function testNewCurlRequestWithInvalidArgumentException() {
 
         try {
 
-            CurlFactory::newCURLRequest("exception");
+            CurlFactory::newCurlRequest("exception");
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
@@ -92,66 +92,66 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the newCURLRequest() method.
+     * Tests the newCurlRequest() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLRequestWithOptions() {
+    public function testNewCurlRequestWithOptions() {
 
-        $obj = CurlFactory::newCURLRequest(HttpInterface::HTTP_METHOD_OPTIONS);
+        $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_OPTIONS);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
         $this->assertInstanceOf(CurlOptionsRequest::class, $obj);
     }
 
     /**
-     * Tests the newCURLRequest() method.
+     * Tests the newCurlRequest() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLRequestWithPatch() {
+    public function testNewCurlRequestWithPatch() {
 
-        $obj = CurlFactory::newCURLRequest(HttpInterface::HTTP_METHOD_PATCH);
+        $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_PATCH);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
         $this->assertInstanceOf(CurlPatchRequest::class, $obj);
     }
 
     /**
-     * Tests the newCURLRequest() method.
+     * Tests the newCurlRequest() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLRequestWithPost() {
+    public function testNewCurlRequestWithPost() {
 
-        $obj = CurlFactory::newCURLRequest(HttpInterface::HTTP_METHOD_POST);
+        $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_POST);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
         $this->assertInstanceOf(CurlPostRequest::class, $obj);
     }
 
     /**
-     * Tests the newCURLRequest() method.
+     * Tests the newCurlRequest() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLRequestWithPut() {
+    public function testNewCurlRequestWithPut() {
 
-        $obj = CurlFactory::newCURLRequest(HttpInterface::HTTP_METHOD_PUT);
+        $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_PUT);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
         $this->assertInstanceOf(CurlPutRequest::class, $obj);
     }
 
     /**
-     * Tests the newCURLResponse() method.
+     * Tests the newCurlResponse() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCURLResponse() {
+    public function testNewCurlResponse() {
 
-        $obj = CurlFactory::newCURLResponse();
+        $obj = CurlFactory::newCurlResponse();
         $this->assertInstanceOf(CurlResponseInterface::class, $obj);
     }
 }

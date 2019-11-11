@@ -42,7 +42,7 @@ class CurlFactory implements HttpInterface {
      * @return CurlRequestInterface Returns the cURL request.
      * @throws InvalidArgumentException Throws an invalid argument exception if the method is not implemented.
      */
-    public static function newCURLRequest($method, CurlConfiguration $configuration = null, $resourcePath = null) {
+    public static function newCurlRequest($method, CurlConfiguration $configuration = null, $resourcePath = null) {
 
         if (null === $configuration) {
             $configuration = new CurlConfiguration();
@@ -80,7 +80,7 @@ class CurlFactory implements HttpInterface {
      *
      * @return CurlResponseInterface Returns the cURL response.
      */
-    public static function newCURLResponse() {
+    public static function newCurlResponse() {
         return new CurlResponse();
     }
 }
