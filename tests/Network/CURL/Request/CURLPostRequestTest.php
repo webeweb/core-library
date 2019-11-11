@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Request;
 
 use Exception;
-use WBW\Library\Core\Exception\Argument\StringArgumentException;
+use WBW\Library\Core\Argument\Exception\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Request\CURLPostRequest;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
@@ -63,7 +63,7 @@ class CURLPostRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws \Exception Throws an exception if an error occurs.
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testCall() {
 
@@ -84,7 +84,7 @@ class CURLPostRequestTest extends AbstractTestCase {
      * Tests the clearPostData() method.
      *
      * @return void
-     * @throws \Exception Throws an exception if an error occurs.
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testClearPostData() {
 
@@ -101,7 +101,7 @@ class CURLPostRequestTest extends AbstractTestCase {
      * Tests __construct() method.
      *
      * @return void
-     * @throws \Exception Throws an exception if an error occurs.
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testConstruct() {
 
@@ -119,7 +119,7 @@ class CURLPostRequestTest extends AbstractTestCase {
      * Tests removePostData() method.
      *
      * @return void
-     * @throws \Exception Throws an exception if an error occurs.
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testRemovePostData() {
 

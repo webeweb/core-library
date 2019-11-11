@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Model\Organizer;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+use InvalidArgumentException;
 use WBW\Library\Core\Model\Organizer\TimeSlot;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
@@ -67,8 +67,9 @@ class TimeSlotTest extends AbstractTestCase {
      * Tests the __construct() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
-    public function testConctruct() {
+    public function testConstruct() {
 
         $obj = new TimeSlot($this->startDate, $this->endDate);
 
@@ -82,14 +83,14 @@ class TimeSlotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConctructWithException() {
+    public function testConstructWithException() {
 
         try {
 
             new TimeSlot($this->endDate, $this->startDate);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The end date must be greater than start date", $ex->getMessage());
         }
     }
@@ -98,6 +99,7 @@ class TimeSlotTest extends AbstractTestCase {
      * Tests the getDuration() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetDuration() {
 
@@ -115,6 +117,7 @@ class TimeSlotTest extends AbstractTestCase {
      * Tests the leftJoinWithout() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testLeftJoinWithout() {
 
@@ -193,6 +196,7 @@ class TimeSlotTest extends AbstractTestCase {
      * Tests the removeTimeSlot() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testRemoveTimeSlot() {
 

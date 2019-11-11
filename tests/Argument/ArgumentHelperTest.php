@@ -13,21 +13,20 @@ namespace WBW\Library\Core\Tests\Argument;
 
 use DateTime;
 use Exception;
+use InvalidArgumentException;
 use WBW\Library\Core\Argument\ArgumentHelper;
 use WBW\Library\Core\Argument\ArgumentInterface;
-use WBW\Library\Core\Exception\Argument\ArrayArgumentException;
-use WBW\Library\Core\Exception\Argument\BooleanArgumentException;
-use WBW\Library\Core\Exception\Argument\DateArgumentException;
-use WBW\Library\Core\Exception\Argument\DoubleArgumentException;
-use WBW\Library\Core\Exception\Argument\FloatArgumentException;
-use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
-use WBW\Library\Core\Exception\Argument\IntegerArgumentException;
-use WBW\Library\Core\Exception\Argument\NumberArgumentException;
-use WBW\Library\Core\Exception\Argument\ObjectArgumentException;
-use WBW\Library\Core\Exception\Argument\ResourceArgumentException;
-use WBW\Library\Core\Exception\Argument\StringArgumentException;
-use WBW\Library\Core\Exception\Argument\TimestampArgumentException;
-use WBW\Library\Core\Exception\Pointer\NullPointerException;
+use WBW\Library\Core\Argument\Exception\ArrayArgumentException;
+use WBW\Library\Core\Argument\Exception\BooleanArgumentException;
+use WBW\Library\Core\Argument\Exception\DateArgumentException;
+use WBW\Library\Core\Argument\Exception\DoubleArgumentException;
+use WBW\Library\Core\Argument\Exception\FloatArgumentException;
+use WBW\Library\Core\Argument\Exception\IntegerArgumentException;
+use WBW\Library\Core\Argument\Exception\NumberArgumentException;
+use WBW\Library\Core\Argument\Exception\ObjectArgumentException;
+use WBW\Library\Core\Argument\Exception\ResourceArgumentException;
+use WBW\Library\Core\Argument\Exception\StringArgumentException;
+use WBW\Library\Core\Argument\Exception\TimestampArgumentException;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
@@ -76,14 +75,14 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithIllegalArgumentException() {
+    public function testConvertWithInvalidArgumentException() {
 
         try {
 
             ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_ARRAY);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The type \"63\" is not implemented", $ex->getMessage());
         }
     }
@@ -93,14 +92,14 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithIllegalArgumentException104() {
+    public function testConvertWithInvalidArgumentException104() {
 
         try {
 
             ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_RESOURCE);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The type \"104\" is not implemented", $ex->getMessage());
         }
     }
@@ -110,48 +109,14 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithIllegalArgumentException55() {
-
-        try {
-
-            ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_OBJECT);
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
-            $this->assertEquals("The type \"55\" is not implemented", $ex->getMessage());
-        }
-    }
-
-    /**
-     * Tests the convert() method.
-     *
-     * @return void
-     */
-    public function testConvertWithIllegalArgumentException73() {
-
-        try {
-
-            ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_NUMBER);
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
-            $this->assertEquals("The type \"73\" is not implemented", $ex->getMessage());
-        }
-    }
-
-    /**
-     * Tests the convert() method.
-     *
-     * @return void
-     */
-    public function testConvertWithNullPointerException116() {
+    public function testConvertWithInvalidArgumentException116() {
 
         try {
 
             ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_TIMESTAMP);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(NullPointerException::class, $ex);
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The datetime format is null", $ex->getMessage());
         }
     }
@@ -161,15 +126,49 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithNullPointerException30() {
+    public function testConvertWithInvalidArgumentException30() {
 
         try {
 
             ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_DATE);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(NullPointerException::class, $ex);
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The date format is null", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the convert() method.
+     *
+     * @return void
+     */
+    public function testConvertWithInvalidArgumentException55() {
+
+        try {
+
+            ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_OBJECT);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("The type \"55\" is not implemented", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the convert() method.
+     *
+     * @return void
+     */
+    public function testConvertWithInvalidArgumentException73() {
+
+        try {
+
+            ArgumentHelper::convert(null, ArgumentInterface::ARGUMENT_NUMBER);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("The type \"73\" is not implemented", $ex->getMessage());
         }
     }
 
@@ -302,23 +301,6 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithIllegalArgumentException() {
-
-        try {
-
-            ArgumentHelper::isTypeOf(null, -1);
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(IllegalArgumentException::class, $ex);
-            $this->assertEquals("The type \"-1\" is not implemented", $ex->getMessage());
-        }
-    }
-
-    /**
-     * Tests the isValid() method.
-     *
-     * @return void
-     */
     public function testIsValidWithIntegerArgumentException() {
 
         try {
@@ -328,6 +310,23 @@ class ArgumentHelperTest extends AbstractTestCase {
 
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals("The argument \"\" is not an integer", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the isValid() method.
+     *
+     * @return void
+     */
+    public function testIsValidWithInvalidArgumentException() {
+
+        try {
+
+            ArgumentHelper::isTypeOf(null, -1);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("The type \"-1\" is not implemented", $ex->getMessage());
         }
     }
 

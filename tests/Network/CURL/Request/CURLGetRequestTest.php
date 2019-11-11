@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Request;
 
 use Exception;
-use WBW\Library\Core\Exception\Argument\StringArgumentException;
+use WBW\Library\Core\Argument\Exception\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Exception\CURLRequestCallException;
 use WBW\Library\Core\Network\CURL\Request\CURLGetRequest;
 use WBW\Library\Core\Network\HTTP\HTTPHelper;

@@ -12,8 +12,8 @@
 namespace WBW\Library\Core\Model\Organizer;
 
 use DateTime;
-use WBW\Library\Core\Argument\DateTimeHelper;
-use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
+use InvalidArgumentException;
+use WBW\Library\Core\Argument\Helper\DateTimeHelper;
 
 /**
  * Time slot.
@@ -49,11 +49,11 @@ class TimeSlot {
      *
      * @param DateTime $startDate The start date.
      * @param DateTime $endDate The end date.
-     * @throws IllegalArgumentException Throws an illegal argument exception.
+     * @throws InvalidArgumentException Throws an illegal argument exception.
      */
     public function __construct(DateTime $startDate, DateTime $endDate) {
         if (false === DateTimeHelper::isLessThan($startDate, $endDate)) {
-            throw new IllegalArgumentException("The end date must be greater than start date");
+            throw new InvalidArgumentException("The end date must be greater than start date");
         }
         $this->setEndDate($endDate);
         $this->setStartDate($startDate);

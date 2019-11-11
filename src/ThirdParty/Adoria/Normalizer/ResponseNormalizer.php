@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\ThirdParty\Adoria\Normalizer;
 
 use DateTime;
-use WBW\Library\Core\Argument\ArrayHelper;
+use WBW\Library\Core\Argument\Helper\ArrayHelper;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
 

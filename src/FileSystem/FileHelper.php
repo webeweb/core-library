@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\FileSystem;
 
+use InvalidArgumentException;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use WBW\Library\Core\Exception\Argument\IllegalArgumentException;
@@ -97,7 +98,7 @@ class FileHelper implements FileInterface {
         // Find the unit.
         $index = array_search($unit, $units);
         if (null !== $unit && false === $index) {
-            throw new IllegalArgumentException("The unit \"" . $unit . "\" does not exists");
+            throw new InvalidArgumentException("The unit \"" . $unit . "\" does not exists");
         }
 
         // Initialize the output.
