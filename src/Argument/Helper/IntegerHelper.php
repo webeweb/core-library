@@ -12,7 +12,6 @@
 namespace WBW\Library\Core\Argument\Helper;
 
 use WBW\Library\Core\Argument\Exception\IntegerArgumentException;
-use WBW\Library\Core\Database\PaginateHelper;
 
 /**
  * Integer helper.
@@ -21,31 +20,6 @@ use WBW\Library\Core\Database\PaginateHelper;
  * @package WBW\Library\Core\Argument\Helper
  */
 class IntegerHelper {
-
-    /**
-     * Get a lines limit.
-     *
-     * @param int $pageNumber The page number.
-     * @param int $divider The divider.
-     * @param int $total The total.
-     * @return int[] Returns the offset and limit in case of success, -1 otherwise.
-     * @deprecated
-     */
-    public static function getLinesLimit($pageNumber, $divider, $total = -1) {
-        return PaginateHelper::getPageOffsetAndLimit($pageNumber, $divider, $total);
-    }
-
-    /**
-     * Get a pages count.
-     *
-     * @param int $linesNumber The lines number.
-     * @param int $divider The divider.
-     * @return int Returns the pages count in case of success, -1 otherwise.
-     * @deprecated
-     */
-    public static function getPagesCount($linesNumber, $divider) {
-        return PaginateHelper::getPagesCount($linesNumber, $divider);
-    }
 
     /**
      * Determines if a value is an integer.

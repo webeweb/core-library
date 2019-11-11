@@ -25,45 +25,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class IntegerHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the getLinesOffset() method.
-     *
-     * @return void
-     */
-    public function testGetLinesLimit() {
-
-        $this->assertEquals(-1, IntegerHelper::getLinesLimit(-1, 300));
-        $this->assertEquals(-1, IntegerHelper::getLinesLimit(0, -1));
-        $this->assertEquals(-1, IntegerHelper::getLinesLimit(-1, -1));
-
-        $this->assertEquals([0, 300], IntegerHelper::getLinesLimit(0, 300));
-        $this->assertEquals([300, 300], IntegerHelper::getLinesLimit(1, 300));
-        $this->assertEquals([90000, 300], IntegerHelper::getLinesLimit(300, 300));
-        $this->assertEquals([90300, 300], IntegerHelper::getLinesLimit(301, 300));
-
-        $this->assertEquals([0, 255], IntegerHelper::getLinesLimit(0, 300, 255));
-        $this->assertEquals([300, 255], IntegerHelper::getLinesLimit(1, 300, 555));
-        $this->assertEquals([90000, 255], IntegerHelper::getLinesLimit(300, 300, 90255));
-        $this->assertEquals([90300, 255], IntegerHelper::getLinesLimit(301, 300, 90555));
-    }
-
-    /**
-     * Tests the getPagesCount() method.
-     *
-     * @return void
-     */
-    public function testGetPagesCount() {
-
-        $this->assertEquals(-1, IntegerHelper::getPagesCount(-1, 300));
-        $this->assertEquals(-1, IntegerHelper::getPagesCount(0, -1));
-        $this->assertEquals(-1, IntegerHelper::getPagesCount(-1, -1));
-
-        $this->assertEquals(0, IntegerHelper::getPagesCount(0, 300));
-        $this->assertEquals(1, IntegerHelper::getPagesCount(1, 300));
-        $this->assertEquals(1, IntegerHelper::getPagesCount(300, 300));
-        $this->assertEquals(2, IntegerHelper::getPagesCount(301, 300));
-    }
-
-    /**
      * Tests the parseBoolean() method.
      *
      * @return void
