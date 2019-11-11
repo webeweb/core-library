@@ -53,7 +53,7 @@ class OracleMySQLDatabase extends AbstractDatabase {
         $replaces   = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
         $attributes = [PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"];
 
-        $dsn = str_replace( $searches, $replaces, self::DEFAULT_DSN);
+        $dsn = str_replace($searches, $replaces, self::DEFAULT_DSN);
 
         return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword(), $attributes);
     }

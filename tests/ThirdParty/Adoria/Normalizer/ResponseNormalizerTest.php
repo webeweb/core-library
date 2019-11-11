@@ -11,11 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Adoria\Normalizer;
 
-use DateTime;
-use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
-use WBW\Library\Core\ThirdParty\Adoria\Model\RequestData;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
 use WBW\Library\Core\ThirdParty\Adoria\Normalizer\RequestNormalizer;
 use WBW\Library\Core\ThirdParty\Adoria\Normalizer\ResponseNormalizer;

@@ -43,4 +43,5 @@ trait FloatExcludingVatPriceTrait {
     public function setExcludingVatPrice($excludingVatPrice) {
         $this->excludingVatPrice = $excludingVatPrice;
         return $this;
-    }}
+    }
+}

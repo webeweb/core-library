@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Tests\Model\Organizer;
 
 use DateTime;
+use Exception;
 use WBW\Library\Core\Model\Organizer\TimeSlot;
 use WBW\Library\Core\Model\Organizer\TimeSlotHelper;
 use WBW\Library\Core\Tests\AbstractTestCase;
@@ -46,6 +47,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the contains() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testContains() {
 
@@ -69,6 +71,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the equals() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testEquals() {
 
@@ -101,6 +104,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the fullJoin() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testFullJoin() {
 
@@ -132,6 +136,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the fullJoinWithout() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testFullJoinWithout() {
 
@@ -187,6 +192,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the getDuration() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testGetDuration() {
 
@@ -203,6 +209,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the hasFullJoin() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testHasFullJoin() {
 
@@ -226,6 +233,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the hasInnerJoin() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testHasInnerJoin() {
 
@@ -249,6 +257,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the innerJoin() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testInnerJoin() {
 
@@ -280,6 +289,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the leftJoin() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testLeftJoin() {
 
@@ -311,6 +321,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the leftJoinWithout() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testLeftJoinWithout() {
 
@@ -352,6 +363,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the merge() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testMerge() {
 
@@ -392,6 +404,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the rightJoin() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testRightJoin() {
 
@@ -423,6 +436,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests the rightJoinWithout() method.
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testRightJoinWithout() {
 

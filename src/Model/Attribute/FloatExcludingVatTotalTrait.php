@@ -43,4 +43,5 @@ trait FloatExcludingVatTotalTrait {
     public function setExcludingVatTotal($excludingVatTotal) {
         $this->excludingVatTotal = $excludingVatTotal;
         return $this;
-    }}
+    }
+}

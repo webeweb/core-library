@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Transformer;
 
-use WBW\Library\Core\Transformer\TrimTransformer;
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\Transformer\TrimTransformer;
 
 /**
  * trim transformer test.

@@ -43,4 +43,5 @@ trait FloatIncludingVatPriceTrait {
     public function setIncludingVatPrice($includingVatPrice) {
         $this->includingVatPrice = $includingVatPrice;
         return $this;
-    }}
+    }
+}

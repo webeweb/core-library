@@ -43,4 +43,5 @@ trait FloatIncludingVatTotalTrait {
     public function setIncludingVatTotal($includingVatTotal) {
         $this->includingVatTotal = $includingVatTotal;
         return $this;
-    }}
+    }
+}

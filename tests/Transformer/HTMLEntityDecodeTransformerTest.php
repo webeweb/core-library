@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Transformer;
 
-use WBW\Library\Core\Transformer\HTMLEntityDecodeTransformer;
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\Transformer\HTMLEntityDecodeTransformer;
 
 /**
  * html_entity_decode transformer test.

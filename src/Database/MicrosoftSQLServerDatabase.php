@@ -52,7 +52,7 @@ class MicrosoftSQLServerDatabase extends AbstractDatabase {
         $searches = ["%HOST%", "%PORT%", "%DATABASE%"];
         $replaces = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
 
-        $dsn = str_replace( $searches, $replaces, self::DEFAULT_DSN);
+        $dsn = str_replace($searches, $replaces, self::DEFAULT_DSN);
 
         return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword());
     }

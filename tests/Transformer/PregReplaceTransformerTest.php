@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Transformer;
 
-use WBW\Library\Core\Transformer\PregReplaceTransformer;
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\Transformer\PregReplaceTransformer;
 
 /**
  * preg_replace transformer test.
@@ -21,6 +21,19 @@ use WBW\Library\Core\Tests\AbstractTestCase;
  * @package WBW\Library\Core\Tests\Transformer
  */
 class PregReplaceTransformerTest extends AbstractTestCase {
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function testConstruct() {
+
+        $obj = new PregReplaceTransformer("/pattern/", "replacement");
+
+        $this->assertEquals("/pattern/", $obj->getPattern());
+        $this->assertEquals("replacement", $obj->getReplacement());
+    }
 
     /**
      * Tests the transform() method.
@@ -34,18 +47,5 @@ class PregReplaceTransformerTest extends AbstractTestCase {
         $this->assertNull($obj->transform(null));
         $this->assertNull($obj->transform(true));
         $this->assertEquals("replacement", $obj->transform("pattern"));
-    }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function testConstruct() {
-
-        $obj = new PregReplaceTransformer("/pattern/", "replacement");
-
-        $this->assertEquals("/pattern/", $obj->getPattern());
-        $this->assertEquals("replacement", $obj->getReplacement());
     }
 }

@@ -28,14 +28,6 @@ interface TransformerSetInterface {
     public function addTransformer(TransformerInterface $transformer);
 
     /**
-     * Transform a value.
-     *
-     * @param mixed $value The value.
-     * @return mixed Return the transformed value.
-     */
-    public function transform($value);
-
-    /**
      * Get the transformers.
      *
      * @return TransformerInterface[] Returns the transformers.
@@ -49,4 +41,12 @@ interface TransformerSetInterface {
      * @return TransformerSetInterface Returns this transformer set.
      */
     public function removeTransformer(TransformerInterface $transformer);
+
+    /**
+     * Transform a value.
+     *
+     * @param mixed $value The value.
+     * @return mixed Return the transformed value.
+     */
+    public function transform($value);
 }
