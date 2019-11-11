@@ -14,16 +14,15 @@ projects.
 
 Provides:
 
-- Algorithms utilities (Luhn, etc.)
-- Arguments utilities (array, boolean, double, float, integer, string, etc.)
-- Databases connectors (Access, SQL Server, MySQL, etc.)
-- Exceptions classes
-- File system classes (directories, files, zip, etc.)
+- Algorithm helpers (Luhn, etc.)
+- Argument helpers (array, boolean, double, float, integer, string, etc.)
+- Database connectors (Access, SQL Server, MySQL, etc.)
 - Model classes (choices, contact, node, organizer, etc.)
 - Network utilities (cURL, FTP, HTTP, SFTP, etc)
 - Security classes (authenticator, password authentication, etc.)
 - SkiData API (https://github.com/webeweb/skidata-library)
 - Sorting utilities (alphabetical tree sort, quick sort, etc.)
+- Transformer API (set, transformer, etc.)
 - Validation API (rule, rule set, validator, etc.)
 
 ---
