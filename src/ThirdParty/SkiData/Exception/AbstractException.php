@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\SkiData\Exception;
 
-use WBW\Library\Core\Exception\AbstractCoreException;
+use WBW\Library\Core\Exception\AbstractException as BaseException;
 
 /**
  * Abstract exception.
@@ -20,7 +20,7 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  * @package WBW\Library\Core\ThirdParty\SkiData\Exception
  * @abstract
  */
-abstract class AbstractException extends AbstractCoreException {
+abstract class AbstractException extends BaseException {
 
     /**
      * Constructor.

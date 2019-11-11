@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\ThirdParty\Adoria\Exception;
 
 use Exception;
-use WBW\Library\Core\Exception\AbstractCoreException;
+use WBW\Library\Core\Exception\AbstractException as BaseException;
 
 /**
  * Abstract exception.
@@ -21,7 +21,7 @@ use WBW\Library\Core\Exception\AbstractCoreException;
  * @package WBW\Library\Core\ThirdParty\Adoria\Exception
  * @abstract
  */
-abstract class AbstractException extends AbstractCoreException {
+abstract class AbstractException extends BaseException {
 
     /**
      * Constructor.
