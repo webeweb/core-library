@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Tests\Fixtures;
 
 use DateTime;
+use Exception;
 use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
 
 /**
@@ -29,7 +30,6 @@ class TestFixtures {
      */
     public static function getTestNodes() {
 
-        // Initialize the nodes.
         $nodes = [
             new TestNode("id01"),
             new TestNode("id02"),
@@ -43,7 +43,6 @@ class TestFixtures {
             new TestNode("id10"),
         ];
 
-        // Imbricate the nodes.
         $nodes[0]->addNode($nodes[9]);
         $nodes[0]->addNode($nodes[8]);
         $nodes[0]->addNode($nodes[7]);
@@ -55,7 +54,6 @@ class TestFixtures {
         $nodes[4]->addNode($nodes[3]);
         $nodes[4]->addNode($nodes[2]);
 
-        // Return the nodes.
         return $nodes;
     }
 
@@ -63,18 +61,14 @@ class TestFixtures {
      * Get the time slot date/times.
      *
      * @return DateTime[] Returns the time slot date/times.
+     * @throws Exception Throws an exception if an error occurs.
      */
     public static function getTimeSlotDateTimes() {
-
-        // Initialize the dates.
-        $dates = [];
-
-        $dates[] = new DateTime("2018-08-22 08:00:00");
-        $dates[] = new DateTime("2018-08-22 11:00:00");
-        $dates[] = new DateTime("2018-08-22 15:00:00");
-        $dates[] = new DateTime("2018-08-22 18:00:00");
-
-        // Return the dates.
-        return $dates;
+        return [
+            new DateTime("2018-08-22 08:00:00"),
+            new DateTime("2018-08-22 11:00:00"),
+            new DateTime("2018-08-22 15:00:00"),
+            new DateTime("2018-08-22 18:00:00"),
+        ];
     }
 }
