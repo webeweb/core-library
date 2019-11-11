@@ -12,8 +12,7 @@
 namespace WBW\Library\Core\Tests\Adoria\Model;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\ThirdParty\Adoria\Model\LineInterface;
-use WBW\Library\Core\ThirdParty\Adoria\Model\LineResponseInterface;
+use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
 
 /**
@@ -48,7 +47,7 @@ class ResultTest extends AbstractTestCase {
     public function testHasData() {
 
         // Set a Line mock.
-        $line = $this->getMockBuilder(LineResponseInterface::class)->getMock();
+        $line = new Line();
 
         $obj = new Result();
 
@@ -77,7 +76,7 @@ class ResultTest extends AbstractTestCase {
     public function testSetDatas() {
 
         // Set a Line mock.
-        $line = $this->getMockBuilder(LineResponseInterface::class)->getMock();
+        $line = new Line();
 
         $obj = new Result();
 
