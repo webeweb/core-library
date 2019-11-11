@@ -467,7 +467,7 @@ class Card {
      * Set the article number.
      *
      * @param int $articleNumber The article number.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setArticleNumber($articleNumber) {
         $this->articleNumber = $articleNumber;
@@ -478,7 +478,7 @@ class Card {
      * Set the currency residual value.
      *
      * @param string $currencyResidualValue The currency residual value.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setCurrencyResidualValue($currencyResidualValue) {
         $this->currencyResidualValue = $currencyResidualValue;
@@ -489,7 +489,7 @@ class Card {
      * Set the display text.
      *
      * @param bool $displayText The display text.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setDisplayText($displayText) {
         $this->displayText = $displayText;
@@ -500,7 +500,7 @@ class Card {
      * Set the display text 1.
      *
      * @param string $displayText1 The display text 1.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setDisplayText1($displayText1) {
         $this->displayText1 = $displayText1;
@@ -511,7 +511,7 @@ class Card {
      * Set the display text 2.
      *
      * @param string $displayText2 The display text 2.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setDisplayText2($displayText2) {
         $this->displayText2 = $displayText2;
@@ -522,7 +522,7 @@ class Card {
      * Set the entry barrier closed.
      *
      * @param bool $entryBarrierClosed The entry barrier closed.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setEntryBarrierClosed($entryBarrierClosed) {
         $this->entryBarrierClosed = $entryBarrierClosed;
@@ -533,7 +533,7 @@ class Card {
      * Set the exit barrier closed.
      *
      * @param bool $exitBarrierClosed The exit barrier closed.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setExitBarrierClosed($exitBarrierClosed) {
         $this->exitBarrierClosed = $exitBarrierClosed;
@@ -544,7 +544,7 @@ class Card {
      * Set the expires.
      *
      * @param DateTime|null $expires The expires.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setExpires(DateTime $expires = null) {
         $this->expires = $expires;
@@ -555,7 +555,7 @@ class Card {
      * Set the is neutral.
      *
      * @param bool $isNeutral The is neutral.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setNeutral($isNeutral) {
         $this->isNeutral = $isNeutral;
@@ -566,7 +566,7 @@ class Card {
      * Set the personnal no.
      *
      * @param int $personnalNo The personnal no.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setPersonnalNo($personnalNo) {
         $this->personnalNo = $personnalNo;
@@ -577,7 +577,7 @@ class Card {
      * Set the production counter.
      *
      * @param int $productionCounter The production counter.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setProductionCounter($productionCounter) {
         $this->productionCounter = $productionCounter;
@@ -588,7 +588,7 @@ class Card {
      * Set the production facility number.
      *
      * @param int $productionFacilityNumber The production facility number.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setProductionFacilityNumber($productionFacilityNumber) {
         $this->productionFacilityNumber = $productionFacilityNumber;
@@ -599,7 +599,7 @@ class Card {
      * Set the production state.
      *
      * @param int $productionState The production state.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setProductionState($productionState) {
         $this->productionState = $productionState;
@@ -610,7 +610,7 @@ class Card {
      * Set the reason for production.
      *
      * @param int $reasonProduction The reason for production.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setReasonProduction($reasonProduction) {
         $this->reasonProduction = $reasonProduction;
@@ -621,7 +621,7 @@ class Card {
      * Set the residual value.
      *
      * @param int $residualValue The residual value.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setResidualValue($residualValue) {
         $this->residualValue = $residualValue;
@@ -632,7 +632,7 @@ class Card {
      * Set the retain ticket at entry.
      *
      * @param bool $retainTicketEntry The retain ticket at entry.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setRetainTicketEntry($retainTicketEntry) {
         $this->retainTicketEntry = $retainTicketEntry;
@@ -643,7 +643,7 @@ class Card {
      * Set the retain ticket at exit.
      *
      * @param bool $retainTicketExit The retain ticket at exit.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setRetainTicketExit($retainTicketExit) {
         $this->retainTicketExit = $retainTicketExit;
@@ -654,7 +654,7 @@ class Card {
      * Set the serial no.
      *
      * @param string $serialNo The serial no.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setSerialNo($serialNo) {
         $this->serialNo = $serialNo;
@@ -665,7 +665,7 @@ class Card {
      * Set the serial number KeyCard/Swatch.
      *
      * @param string $serialNumberKeyCardSwatch The serial number KeyCard/Swatch.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setSerialNumberKeyCardSwatch($serialNumberKeyCardSwatch) {
         $this->serialNumberKeyCardSwatch = $serialNumberKeyCardSwatch;
@@ -676,7 +676,7 @@ class Card {
      * Set the suspend period from.
      *
      * @param DateTime|null $suspendPeriodFrom The suspend period from.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setSuspendPeriodFrom(DateTime $suspendPeriodFrom = null) {
         $this->suspendPeriodFrom = $suspendPeriodFrom;
@@ -687,7 +687,7 @@ class Card {
      * Set the suspend period until.
      *
      * @param DateTime|null $suspendPeriodUntil The suspend period until.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setSuspendPeriodUntil(DateTime $suspendPeriodUntil = null) {
         $this->suspendPeriodUntil = $suspendPeriodUntil;
@@ -698,7 +698,7 @@ class Card {
      * Set the ticket number.
      *
      * @param string $ticketNumber The ticket number.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setTicketNumber($ticketNumber) {
         $this->ticketNumber = $ticketNumber;
@@ -709,7 +709,7 @@ class Card {
      * Set the ticket sub type.
      *
      * @param string $ticketSubType The ticket sub type.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setTicketSubType($ticketSubType) {
         $this->ticketSubType = $ticketSubType;
@@ -720,7 +720,7 @@ class Card {
      * Set the ticket type.
      *
      * @param int $ticketType The ticket type.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setTicketType($ticketType) {
         $this->ticketType = $ticketType;
@@ -731,7 +731,7 @@ class Card {
      * Set the use valid car parks.
      *
      * @param bool $useValidCarParks The use valid car parks.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setUseValidCarParks($useValidCarParks) {
         $this->useValidCarParks = $useValidCarParks;
@@ -742,7 +742,7 @@ class Card {
      * Set the user number.
      *
      * @param int $userNumber The user number.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setUserNumber($userNumber) {
         $this->userNumber = $userNumber;
@@ -753,7 +753,7 @@ class Card {
      * Set the valid from.
      *
      * @param DateTime|null $validFrom The valid from.
-     * @return Card Returns this card entity.
+     * @return Card Returns this card.
      */
     public function setValidFrom(DateTime $validFrom = null) {
         $this->validFrom = $validFrom;

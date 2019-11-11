@@ -26,7 +26,7 @@ class BooleanArgumentException extends InvalidArgumentException {
      * Constructor.
      *
      * @param mixed $argument The argument.
-     * @param Exception $previous The previous exception.
+     * @param Exception|null $previous The previous exception.
      */
     public function __construct($argument, Exception $previous = null) {
         parent::__construct(sprintf("The argument \"%s\" is not a boolean", print_r($argument, true)), 500, $previous);

@@ -56,12 +56,16 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
      * {@inheritdoc}
      */
     public function removeRule(ValidationRuleInterface $rule) {
+
         for ($i = count($this->rules) - 1; 0 <= $i; --$i) {
+
             if ($rule !== $this->rules[$i]) {
                 continue;
             }
+
             unset($this->rules[$i]);
         }
+
         return $this;
     }
 

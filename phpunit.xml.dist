@@ -25,7 +25,7 @@
     <testsuites>
         <testsuite name="webeweb/core-library">
             <directory suffix="Test.php">./tests</directory>
-            <exclude>./tests/Network/FTP/Client/FTPClientTest.php</exclude>
+            <exclude>./tests/Network/FTP/Client/FtpClientTest.php</exclude>
         </testsuite>
     </testsuites>
 </phpunit>

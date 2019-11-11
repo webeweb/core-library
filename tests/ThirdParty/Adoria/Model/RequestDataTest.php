@@ -41,7 +41,7 @@ class RequestDataTest extends AbstractTestCase {
     /**
      * Tests the setAnalyticCode() method.
      *
-     * @return
+     * @return void
      */
     public function testSetAnalyticCode() {
 
@@ -71,7 +71,7 @@ class RequestDataTest extends AbstractTestCase {
     /**
      * Tests the setIdentificationKey() method.
      *
-     * @return
+     * @return void
      */
     public function testSetIdentificationKey() {
 

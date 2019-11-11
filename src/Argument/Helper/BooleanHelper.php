@@ -41,9 +41,11 @@ class BooleanHelper {
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function parseString($value) {
+
         if (null === $value) {
             return false;
         }
+
         switch (strtolower($value)) {
             case "1":
             case "o":
@@ -54,6 +56,7 @@ class BooleanHelper {
             case "yes":
                 return true;
         }
+
         return false;
     }
 }

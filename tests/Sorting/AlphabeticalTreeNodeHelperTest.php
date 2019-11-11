@@ -38,7 +38,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
     protected function setUp() {
         parent::setUp();
 
-        // Initialize the nodes.
+        // Set the node mocks.
         $this->nodes = TestFixtures::getTestNodes();
     }
 

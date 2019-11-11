@@ -161,12 +161,10 @@ class DateTimeHelper {
      */
     public static function getWeekNumberToApply(DateTime $date, DateTime $startDate, $weekCount, $weekOffset = 1) {
 
-        // Check the week arguments.
         if ($weekCount <= 0 || $weekOffset <= 0 || $weekCount < $weekOffset) {
             return -1;
         }
 
-        // Calculate.
         $result = intval($date->diff($startDate)->d / 7);
         $result %= $weekCount;
         $result += $weekOffset;
@@ -174,7 +172,6 @@ class DateTimeHelper {
             $result -= $weekCount;
         }
 
-        // Return.
         return $result;
     }
 
@@ -218,7 +215,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Detremines if date/time A is greater than date/time B.
+     * Determines if date/time A is greater than date/time B.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -252,19 +249,15 @@ class DateTimeHelper {
      */
     public static function translateWeekday($date, $locale = "en") {
 
-        // Initialize.
         $template = __DIR__ . "/../../Resources/translations/messages.%locale%.yml";
         $filename = str_replace("%locale%", $locale, $template);
 
-        // Check if the filename exists.
         if (false === file_exists($filename)) {
             $filename = str_replace("%locale%", "en", $template);
         }
 
-        // Parse the translations.
         $translations = Yaml::parse(file_get_contents($filename));
 
-        // Return the weekday part translated.
         return str_ireplace(array_keys($translations["weekdays"]), array_values($translations["weekdays"]), $date);
     }
 }

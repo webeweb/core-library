@@ -26,6 +26,7 @@ class ArrayArgumentException extends InvalidArgumentException {
      * Constructor.
      *
      * @param mixed $argument The argument.
+     * @param Exception|null $previous The previous exception.
      */
     public function __construct($argument, Exception $previous = null) {
         parent::__construct(sprintf("The argument \"%s\" is not an array", print_r($argument, true)), 500, $previous);

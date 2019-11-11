@@ -112,7 +112,7 @@ class StartRecordFormat {
      * Set the currency.
      *
      * @param string $currency The currency.
-     * @return StartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format.
      */
     public function setCurrency($currency) {
         $this->currency = $currency;
@@ -123,7 +123,7 @@ class StartRecordFormat {
      * Set the date of file.
      *
      * @param DateTime|null $dateFile The date of file.
-     * @return StartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format.
      */
     public function setDateFile(DateTime $dateFile = null) {
         $this->dateFile = $dateFile;
@@ -134,7 +134,7 @@ class StartRecordFormat {
      * Set the facility number.
      *
      * @param int $facilityNumber The facility number.
-     * @return StartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format.
      */
     public function setFacilityNumber($facilityNumber) {
         $this->facilityNumber = $facilityNumber;
@@ -145,7 +145,7 @@ class StartRecordFormat {
      * Set the number of records.
      *
      * @param int $numberRecords The number of records.
-     * @return StartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format.
      */
     public function setNumberRecords($numberRecords) {
         $this->numberRecords = $numberRecords;
@@ -156,7 +156,7 @@ class StartRecordFormat {
      * Set the version of record structure.
      *
      * @param int $versionRecordStructure The version of record structure.
-     * @return StartRecordFormat Returns this start record format entity.
+     * @return StartRecordFormat Returns this start record format.
      */
     public function setVersionRecordStructure($versionRecordStructure) {
         $this->versionRecordStructure = $versionRecordStructure;

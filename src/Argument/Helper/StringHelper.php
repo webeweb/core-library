@@ -43,31 +43,25 @@ class StringHelper {
      */
     public static function parseArray(array $values) {
 
-        // Initialize the output.
         $output = [];
 
-        // Handle each value.
         foreach ($values as $key => $value) {
 
-            // Check if the value is null.
             if (null === $value) {
                 continue;
             }
 
-            // Check if the value is an array.
             if (true === is_array($value)) {
                 $buffer = trim(implode(" ", $value));
             } else {
                 $buffer = trim($value);
             }
 
-            // Check if the buffer is not empty.
             if ("" !== $buffer) {
                 $output[] = $key . "=\"" . preg_replace("/\s+/", " ", $buffer) . "\"";
             }
         }
 
-        // Concatenates all attributes.
         return implode(" ", $output);
     }
 

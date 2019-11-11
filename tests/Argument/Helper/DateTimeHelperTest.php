@@ -302,22 +302,20 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testTranslateWeekday() {
 
-        // Initialize the date/times.
         $arg = [];
         for ($i = 0; $i < 7; ++$i) {
             $arg[] = new DateTime("2018-04-" . ($i + 8));
         }
 
-        // Initialize the results.
-        $res = [];
-
-        $res[] = "Dimanche, 2018-04-08";
-        $res[] = "Lundi, 2018-04-09";
-        $res[] = "Mardi, 2018-04-10";
-        $res[] = "Mercredi, 2018-04-11";
-        $res[] = "Jeudi, 2018-04-12";
-        $res[] = "Vendredi, 2018-04-13";
-        $res[] = "Samedi, 2018-04-14";
+        $res = [
+            "Dimanche, 2018-04-08",
+            "Lundi, 2018-04-09",
+            "Mardi, 2018-04-10",
+            "Mercredi, 2018-04-11",
+            "Jeudi, 2018-04-12",
+            "Vendredi, 2018-04-13",
+            "Samedi, 2018-04-14",
+        ];
 
         // Handle each date/time.
         for ($i = 0; $i < 7; ++$i) {

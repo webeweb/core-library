@@ -55,13 +55,17 @@ abstract class AbstractTransformerSet implements TransformerSetInterface {
      * {@inheritdoc}
      */
     public function removeTransformer(TransformerInterface $transformer) {
+
         $count = count($this->transformers);
         for ($i = $count - 1; 0 <= $i; --$i) {
+
             if ($transformer !== $this->transformers[$i]) {
                 continue;
             }
+
             unset($this->transformers[$i]);
         }
+
         return $this;
     }
 
@@ -80,10 +84,12 @@ abstract class AbstractTransformerSet implements TransformerSetInterface {
      * {@inheritdoc}
      */
     public function transform($value) {
+
         $result = $value;
         foreach ($this->getTransformers() as $current) {
             $result = $current->transform($result);
         }
+
         return $result;
     }
 }

@@ -187,9 +187,9 @@ class Customer {
     }
 
     /**
-     * Get the couting neutral cards.
+     * Get the counting neutral cards.
      *
-     * @return bool Returns the couting neutral cards.
+     * @return bool Returns the counting neutral cards.
      */
     public function getCountingNeutralCards() {
         return $this->countingNeutralCards;
@@ -268,7 +268,7 @@ class Customer {
     }
 
     /**
-     * Get the rental aggreement no.
+     * Get the rental agreement no.
      *
      * @return string Returns the rental agreement no.
      */
@@ -325,7 +325,7 @@ class Customer {
      * Set the accounting number.
      *
      * @param string $accountingNumber The accounting number.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setAccountingNumber($accountingNumber) {
         $this->accountingNumber = $accountingNumber;
@@ -336,7 +336,7 @@ class Customer {
      * Set the begin date.
      *
      * @param DateTime|null $beginDate The begin date.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setBeginDate(DateTime $beginDate = null) {
         $this->beginDate = $beginDate;
@@ -347,7 +347,7 @@ class Customer {
      * Set the city.
      *
      * @param string $city The city.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setCity($city) {
         $this->city = $city;
@@ -355,10 +355,10 @@ class Customer {
     }
 
     /**
-     * Set the couting neutral cards.
+     * Set the counting neutral cards.
      *
-     * @param bool $countingNeutralCards The couting neutral cards.
-     * @return Customer Returns this customer entity.
+     * @param bool $countingNeutralCards The counting neutral cards.
+     * @return Customer Returns this customer.
      */
     public function setCountingNeutralCards($countingNeutralCards) {
         $this->countingNeutralCards = $countingNeutralCards;
@@ -369,7 +369,7 @@ class Customer {
      * Set the country.
      *
      * @param string $country The country.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setCountry($country) {
         $this->country = $country;
@@ -380,7 +380,7 @@ class Customer {
      * Set the deposit.
      *
      * @param int $deposit The deposit.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setDeposit($deposit) {
         $this->deposit = $deposit;
@@ -391,7 +391,7 @@ class Customer {
      * Set the entry during max level allowed.
      *
      * @param bool $entryMaxLevelAllowed The entry during max level allowed.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setEntryMaxLevelAllowed($entryMaxLevelAllowed) {
         $this->entryMaxLevelAllowed = $entryMaxLevelAllowed;
@@ -402,7 +402,7 @@ class Customer {
      * Set the ID document no.
      *
      * @param string $idDocumentNo The ID document no.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setIdDocumentNo($idDocumentNo) {
         $this->idDocumentNo = $idDocumentNo;
@@ -413,7 +413,7 @@ class Customer {
      * Set the max level per car park.
      *
      * @param bool $maxLevelCarPark The max level per car park.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setMaxLevelCarPark($maxLevelCarPark) {
         $this->maxLevelCarPark = $maxLevelCarPark;
@@ -424,7 +424,7 @@ class Customer {
      * Set the maximum level.
      *
      * @param int $maximumLevel The maximum level.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setMaximumLevel($maximumLevel) {
         $this->maximumLevel = $maximumLevel;
@@ -435,7 +435,7 @@ class Customer {
      * Set the nationality.
      *
      * @param string $nationality The nationality.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setNationality($nationality) {
         $this->nationality = $nationality;
@@ -446,7 +446,7 @@ class Customer {
      * Set the PCode.
      *
      * @param string $pCode The PCode.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setPCode($pCode) {
         $this->pCode = $pCode;
@@ -457,7 +457,7 @@ class Customer {
      * Set the rental agreements no.
      *
      * @param string $rentalAgreementNo The rental agreement no.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setRentalAgreementNo($rentalAgreementNo) {
         $this->rentalAgreementNo = $rentalAgreementNo;
@@ -468,7 +468,7 @@ class Customer {
      * Set the street.
      *
      * @param string $street The street.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setStreet($street) {
         $this->street = $street;
@@ -479,7 +479,7 @@ class Customer {
      * Set the tax code.
      *
      * @param string $taxCode The tax code.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setTaxCode($taxCode) {
         $this->taxCode = $taxCode;
@@ -490,7 +490,7 @@ class Customer {
      * Set the telephone.
      *
      * @param string $telephone The telephone.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setTelephone($telephone) {
         $this->telephone = $telephone;
@@ -501,7 +501,7 @@ class Customer {
      * Set the termination date.
      *
      * @param DateTime|null $terminationDate The termination date.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setTerminationDate(DateTime $terminationDate = null) {
         $this->terminationDate = $terminationDate;
@@ -512,7 +512,7 @@ class Customer {
      * Set the ticket return allowed.
      *
      * @param bool $ticketReturnAllowed The ticket return allowed.
-     * @return Customer Returns this customer entity.
+     * @return Customer Returns this customer.
      */
     public function setTicketReturnAllowed($ticketReturnAllowed) {
         $this->ticketReturnAllowed = $ticketReturnAllowed;

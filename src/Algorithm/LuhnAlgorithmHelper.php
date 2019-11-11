@@ -47,7 +47,6 @@ class LuhnAlgorithmHelper {
             $sum += $digit;
         }
 
-        // Return.
         return 0 === $sum % 10;
     }
 }

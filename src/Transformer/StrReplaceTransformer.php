@@ -78,7 +78,7 @@ class StrReplaceTransformer implements TransformerInterface {
     /**
      * Set the searches.
      *
-     * @param array $searches The seaches.
+     * @param array $searches The searches.
      * @return TransformerInterface Returns this str_replace transformer.
      */
     public function setSearches(array $searches) {

@@ -53,7 +53,7 @@ class Authenticator {
     /**
      * Get the password authentication.
      *
-     * @return PasswordAuthentication Returns this password authentication.
+     * @return PasswordAuthentication Returns the password authentication.
      */
     public function getPasswordAuthentication() {
         return $this->passwordAuthentication;

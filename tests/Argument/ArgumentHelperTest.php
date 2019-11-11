@@ -83,7 +83,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"63\" is not implemented", $ex->getMessage());
+            $this->assertEquals("The type \"220\" is not implemented", $ex->getMessage());
         }
     }
 
@@ -100,7 +100,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"104\" is not implemented", $ex->getMessage());
+            $this->assertEquals("The type \"419\" is not implemented", $ex->getMessage());
         }
     }
 
@@ -151,7 +151,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"55\" is not implemented", $ex->getMessage());
+            $this->assertEquals("The type \"204\" is not implemented", $ex->getMessage());
         }
     }
 
@@ -168,7 +168,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"73\" is not implemented", $ex->getMessage());
+            $this->assertEquals("The type \"236\" is not implemented", $ex->getMessage());
         }
     }
 

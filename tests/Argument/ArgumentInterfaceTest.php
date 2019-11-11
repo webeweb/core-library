@@ -29,16 +29,16 @@ class ArgumentInterfaceTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
-        $this->assertEquals(63, ArgumentInterface::ARGUMENT_ARRAY);
-        $this->assertEquals(64, ArgumentInterface::ARGUMENT_BOOLEAN);
-        $this->assertEquals(30, ArgumentInterface::ARGUMENT_DATE);
-        $this->assertEquals(59, ArgumentInterface::ARGUMENT_DOUBLE);
-        $this->assertEquals(54, ArgumentInterface::ARGUMENT_FLOAT);
-        $this->assertEquals(78, ArgumentInterface::ARGUMENT_INTEGER);
-        $this->assertEquals(73, ArgumentInterface::ARGUMENT_NUMBER);
-        $this->assertEquals(55, ArgumentInterface::ARGUMENT_OBJECT);
-        $this->assertEquals(104, ArgumentInterface::ARGUMENT_RESOURCE);
-        $this->assertEquals(87, ArgumentInterface::ARGUMENT_STRING);
-        $this->assertEquals(116, ArgumentInterface::ARGUMENT_TIMESTAMP);
+        $this->assertEquals(220, ArgumentInterface::ARGUMENT_ARRAY);
+        $this->assertEquals(254, ArgumentInterface::ARGUMENT_BOOLEAN);
+        $this->assertEquals(86, ArgumentInterface::ARGUMENT_DATE);
+        $this->assertEquals(195, ArgumentInterface::ARGUMENT_DOUBLE);
+        $this->assertEquals(179, ArgumentInterface::ARGUMENT_FLOAT);
+        $this->assertEquals(308, ArgumentInterface::ARGUMENT_INTEGER);
+        $this->assertEquals(236, ArgumentInterface::ARGUMENT_NUMBER);
+        $this->assertEquals(204, ArgumentInterface::ARGUMENT_OBJECT);
+        $this->assertEquals(419, ArgumentInterface::ARGUMENT_RESOURCE);
+        $this->assertEquals(261, ArgumentInterface::ARGUMENT_STRING);
+        $this->assertEquals(567, ArgumentInterface::ARGUMENT_TIMESTAMP);
     }
 }
