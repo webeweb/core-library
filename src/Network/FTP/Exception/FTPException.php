@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Network\FTP\Exception;
 
-use WBW\Library\Core\Exception\FileSystem\IOException;
+use WBW\Library\Core\Exception\AbstractException;
 
 /**
  * FTP exception.
@@ -19,7 +19,7 @@ use WBW\Library\Core\Exception\FileSystem\IOException;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Network\FTP\Exception
  */
-class FTPException extends IOException {
+class FTPException extends AbstractException {
 
     /**
      * Constructor.
