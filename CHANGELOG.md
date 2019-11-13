@@ -23,6 +23,8 @@ CHANGELOG
 > - WBW\Library\Core\Model\Choices\MaritalStatusChoicesInterface
 > - WBW\Library\Core\Model\Choices\VehicleMarkChoices
 > - WBW\Library\Core\Model\Choices\VehicleMarkChoicesInterface
+> - WBW\Library\Core\Model\Contact\PhoneNumbersInterface
+> - WBW\Library\Core\Model\Contact\PhoneNumbersTrait
 
 - Add CHANGELOG
 - Add Civility interface
@@ -81,6 +83,7 @@ CHANGELOG
 - Add string Username trait
 - Add third party Adoria
 - Add third party Quadratus
+- Add Timestampable trait
 - Change license
 - Fix Numeric helpers (Float/Double/Integer) when the argument is a negative number
 - Remove "final" keyword
