@@ -24,6 +24,20 @@ use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
 class TestFixtures {
 
     /**
+     * Get the images.
+     *
+     * @return string[]
+     */
+    public static function getImages() {
+        return [
+            getcwd() . "/tests/Fixtures/Image/Model/TestImage_1920x1037.jpg",
+            getcwd() . "/tests/Fixtures/Image/Model/TestImage_1920x1037.png",
+            getcwd() . "/tests/Fixtures/Image/Model/TestImage_1920x1920.png",
+            getcwd() . "/tests/Fixtures/Image/Model/TestImage_1920x3554.png",
+        ];
+    }
+
+    /**
      * Get the TestNode fixtures.
      *
      * @return TestNode[] Returns the TestNode fixtures.
