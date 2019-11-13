@@ -13,16 +13,16 @@ namespace WBW\Library\Core\Tests\Database\Client;
 
 use Exception;
 use InvalidArgumentException;
-use WBW\Library\Core\Database\Client\MicrosoftAccessDatabase;
+use WBW\Library\Core\Database\Client\MicrosoftAccessDatabaseClient;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * Microsoft Access database test.
+ * Microsoft Access database client test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Database\Client
  */
-class MicrosoftAccessDatabaseTest extends AbstractTestCase {
+class MicrosoftAccessDatabaseClientTest extends AbstractTestCase {
 
     /**
      * Tests the __construct method.
@@ -31,7 +31,7 @@ class MicrosoftAccessDatabaseTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
-        $obj = new MicrosoftAccessDatabase($this->authenticator, null);
+        $obj = new MicrosoftAccessDatabaseClient($this->authenticator, null);
 
         $this->assertSame($this->authenticator, $obj->getAuthenticator());
         $this->assertNull($obj->getDatabase());
@@ -44,7 +44,7 @@ class MicrosoftAccessDatabaseTest extends AbstractTestCase {
      */
     public function testGetConnectionWithPDOException() {
 
-        $obj = new MicrosoftAccessDatabase($this->authenticator, "exception");
+        $obj = new MicrosoftAccessDatabaseClient($this->authenticator, "exception");
 
         try {
 
@@ -63,7 +63,7 @@ class MicrosoftAccessDatabaseTest extends AbstractTestCase {
      */
     public function testPrepareBinding() {
 
-        $obj = new MicrosoftAccessDatabase($this->authenticator, null);
+        $obj = new MicrosoftAccessDatabaseClient($this->authenticator, null);
 
         $arg = ["field1", "field2", "field3"];
         $res = ["field1" => ":field1", "field2" => ":field2", "field3" => ":field3"];
@@ -77,7 +77,7 @@ class MicrosoftAccessDatabaseTest extends AbstractTestCase {
      */
     public function testPrepareInsert() {
 
-        $obj = new MicrosoftAccessDatabase($this->authenticator, null);
+        $obj = new MicrosoftAccessDatabaseClient($this->authenticator, null);
 
         $arg = ["field1" => 1, "field2" => "'value2'", "field3" => "'value3'"];
         $res = "INSERT INTO table (`field1`, `field2`, `field3`) VALUES (1, 'value2', 'value3')";
@@ -91,7 +91,7 @@ class MicrosoftAccessDatabaseTest extends AbstractTestCase {
      */
     public function testPrepareUpdate() {
 
-        $obj = new MicrosoftAccessDatabase($this->authenticator, null);
+        $obj = new MicrosoftAccessDatabaseClient($this->authenticator, null);
 
         $arg = ["field1" => 1, "field2" => "'value2'", "field3" => "'value3'"];
         $res = "UPDATE table SET `field1` = 1, `field2` = 'value2', `field3` = 'value3'";

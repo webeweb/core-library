@@ -15,19 +15,19 @@ use PDO;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
- * Oracle MySQL database.
+ * Microsoft SQL Server database client.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Database\Client
  */
-class OracleMySQLDatabase extends AbstractDatabase {
+class MicrosoftSQLServerDatabaseClient extends AbstractDatabaseClient {
 
     /**
      * Microsoft SQL Server DSN.
      *
      * @var string
      */
-    const DEFAULT_DSN = "mysql:host=%HOST%;port=%PORT%;dbname=%DATABASE%;";
+    const DEFAULT_DSN = "sqlsrv:server=%HOST%,%PORT%;database=%DATABASE%;";
 
     /**
      * Constructor.
@@ -37,9 +37,11 @@ class OracleMySQLDatabase extends AbstractDatabase {
      */
     public function __construct(Authenticator $authenticator, $database) {
         parent::__construct($authenticator);
+
         $this->setDatabase($database);
+
         if (null === $this->getAuthenticator()->getPort()) {
-            $this->getAuthenticator()->setPort(3306);
+            $this->getAuthenticator()->setPort(1433);
         }
     }
 
@@ -48,12 +50,11 @@ class OracleMySQLDatabase extends AbstractDatabase {
      */
     protected function connect() {
 
-        $searches   = ["%HOST%", "%PORT%", "%DATABASE%"];
-        $replaces   = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
-        $attributes = [PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"];
+        $searches = ["%HOST%", "%PORT%", "%DATABASE%"];
+        $replaces = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
 
         $dsn = str_replace($searches, $replaces, self::DEFAULT_DSN);
 
-        return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword(), $attributes);
+        return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword());
     }
 }

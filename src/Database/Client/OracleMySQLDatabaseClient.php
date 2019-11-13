@@ -15,19 +15,19 @@ use PDO;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
- * Microsoft SQL Server database.
+ * Oracle MySQL database client.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Database\Client
  */
-class MicrosoftSQLServerDatabase extends AbstractDatabase {
+class OracleMySQLDatabaseClient extends AbstractDatabaseClient {
 
     /**
      * Microsoft SQL Server DSN.
      *
      * @var string
      */
-    const DEFAULT_DSN = "sqlsrv:server=%HOST%,%PORT%;database=%DATABASE%;";
+    const DEFAULT_DSN = "mysql:host=%HOST%;port=%PORT%;dbname=%DATABASE%;";
 
     /**
      * Constructor.
@@ -37,9 +37,11 @@ class MicrosoftSQLServerDatabase extends AbstractDatabase {
      */
     public function __construct(Authenticator $authenticator, $database) {
         parent::__construct($authenticator);
+
         $this->setDatabase($database);
+
         if (null === $this->getAuthenticator()->getPort()) {
-            $this->getAuthenticator()->setPort(1433);
+            $this->getAuthenticator()->setPort(3306);
         }
     }
 
@@ -48,11 +50,12 @@ class MicrosoftSQLServerDatabase extends AbstractDatabase {
      */
     protected function connect() {
 
-        $searches = ["%HOST%", "%PORT%", "%DATABASE%"];
-        $replaces = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
+        $searches   = ["%HOST%", "%PORT%", "%DATABASE%"];
+        $replaces   = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];
+        $attributes = [PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"];
 
         $dsn = str_replace($searches, $replaces, self::DEFAULT_DSN);
 
-        return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword());
+        return new PDO($dsn, $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword(), $attributes);
     }
 }

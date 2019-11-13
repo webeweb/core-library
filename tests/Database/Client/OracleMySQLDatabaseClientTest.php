@@ -13,16 +13,16 @@ namespace WBW\Library\Core\Tests\Database\Client;
 
 use Exception;
 use PDOException;
-use WBW\Library\Core\Database\Client\MicrosoftSQLServerDatabase;
+use WBW\Library\Core\Database\Client\OracleMySQLDatabaseClient;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * Microsoft SQL Server database test.
+ * Microsoft SQL Server database client test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Database\Client
  */
-class MicrosoftSQLServerDatabaseTest extends AbstractTestCase {
+class OracleMySQLDatabaseClientTest extends AbstractTestCase {
 
     /**
      * Tests the __construct method.
@@ -31,7 +31,7 @@ class MicrosoftSQLServerDatabaseTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
-        $obj = new MicrosoftSQLServerDatabase($this->authenticator, null);
+        $obj = new OracleMySQLDatabaseClient($this->authenticator, null);
 
         $this->assertSame($this->authenticator, $obj->getAuthenticator());
         $this->assertNull($obj->getDatabase());
@@ -44,7 +44,7 @@ class MicrosoftSQLServerDatabaseTest extends AbstractTestCase {
      */
     public function testGetConnectionWithPDOException() {
 
-        $obj = new MicrosoftSQLServerDatabase($this->authenticator, "exception");
+        $obj = new OracleMySQLDatabaseClient($this->authenticator, "exception");
 
         try {
 

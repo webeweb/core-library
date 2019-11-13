@@ -16,12 +16,12 @@ use PDO;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
- * Microsoft Access database.
+ * Microsoft Access database client.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Database\Client
  */
-class MicrosoftAccessDatabase extends AbstractDatabase {
+class MicrosoftAccessDatabaseClient extends AbstractDatabaseClient {
 
     /**
      * Microsoft Access DSN.
@@ -38,6 +38,7 @@ class MicrosoftAccessDatabase extends AbstractDatabase {
      */
     public function __construct(Authenticator $authenticator, $database) {
         parent::__construct($authenticator);
+
         $this->setDatabase($database);
     }
 

@@ -16,12 +16,12 @@ use PDO;
 use WBW\Library\Core\Security\Authenticator;
 
 /**
- * Abstract database connector.
+ * Abstract database client.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Database\Client
  */
-abstract class AbstractDatabase {
+abstract class AbstractDatabaseClient {
 
     /**
      * Authenticator.
