@@ -20,77 +20,77 @@ namespace WBW\Library\Core\Argument;
 interface ArgumentInterface {
 
     /**
-     * Argument "Array".
+     * Argument "array".
      *
      * @var int
      */
     const ARGUMENT_ARRAY = 220;
 
     /**
-     * Argument "Boolean".
+     * Argument "boolean".
      *
      * @var int
      */
     const ARGUMENT_BOOLEAN = 254;
 
     /**
-     * Argument "Date".
+     * Argument "date".
      *
      * @var int
      */
     const ARGUMENT_DATE = 86;
 
     /**
-     * Argument "Double".
+     * Argument "double".
      *
      * @var int
      */
     const ARGUMENT_DOUBLE = 195;
 
     /**
-     * Argument "Float".
+     * Argument "float".
      *
      * @var int
      */
     const ARGUMENT_FLOAT = 179;
 
     /**
-     * Argument "Integer".
+     * Argument "integer".
      *
      * @var int
      */
     const ARGUMENT_INTEGER = 308;
 
     /**
-     * Argument "Number".
+     * Argument "number".
      *
      * @var int
      */
     const ARGUMENT_NUMBER = 236;
 
     /**
-     * Argument "Object".
+     * Argument "object".
      *
      * @var int
      */
     const ARGUMENT_OBJECT = 204;
 
     /**
-     * Argument "Resource".
+     * Argument "resource".
      *
      * @var int
      */
     const ARGUMENT_RESOURCE = 419;
 
     /**
-     * Argument "String".
+     * Argument "string".
      *
      * @var int
      */
     const ARGUMENT_STRING = 261;
 
     /**
-     * Argument "Timestamp".
+     * Argument "timestamp".
      *
      * @var int
      */
