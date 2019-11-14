@@ -29,7 +29,7 @@ use WBW\Library\Core\Model\Attribute\StringPathnameTrait;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Image\Model
  */
-class Image {
+class Image implements ImageInterface {
 
     use IntegerHeightTrait;
     use IntegerSizeTrait;
@@ -39,20 +39,6 @@ class Image {
     use StringFilenameTrait;
     use StringMimeTypeTrait;
     use StringPathnameTrait;
-
-    /**
-     * Orientation "horizontal".
-     *
-     * @var string
-     */
-    const ORIENTATION_HORIZONTAL = "horizontal";
-
-    /**
-     * Orientation "vertical".
-     *
-     * @var string
-     */
-    const ORIENTATION_VERTICAL = "vertical";
 
     /**
      * Constructor.

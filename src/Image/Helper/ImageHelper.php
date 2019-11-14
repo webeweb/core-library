@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Image\Helper;
 
 use WBW\Library\Core\Image\Model\Image;
+use WBW\Library\Core\Image\Model\ImageInterface;
 
 /**
  * Image helper.
@@ -47,7 +48,7 @@ class ImageHelper {
         $width  = $maxWidth;
         $height = $maxHeight;
 
-        if (Image::ORIENTATION_HORIZONTAL === $image->getOrientation()) {
+        if (ImageInterface::ORIENTATION_HORIZONTAL === $image->getOrientation()) {
             $height = intval($width / $ratio);
         } else {
             $width = intval($height * $ratio);
@@ -68,11 +69,11 @@ class ImageHelper {
 
         switch ($image->init()->getMimeType()) {
 
-            case "image/jpeg":
+            case ImageInterface::MIME_TYPE_JPEG:
                 $stream = imagecreatefromjpeg($image->getPathname());
                 break;
 
-            case "image/png":
+            case ImageInterface::MIME_TYPE_PNG:
                 $stream = imagecreatefrompng($image->getPathname());
                 if (false !== $stream) {
                     imagealphablending($stream, true);
@@ -97,7 +98,7 @@ class ImageHelper {
 
         switch ($image->init()->getMimeType()) {
 
-            case "image/png":
+            case ImageInterface::MIME_TYPE_PNG:
                 if (false !== $stream) {
                     imagealphablending($stream, false);
                     imagesavealpha($stream, true);
@@ -120,10 +121,10 @@ class ImageHelper {
 
         switch ($image->init()->getMimeType()) {
 
-            case "image/jpeg":
+            case ImageInterface::MIME_TYPE_JPEG:
                 return imagejpeg($outputStream, $pathname);
 
-            case "image/png":
+            case ImageInterface::MIME_TYPE_PNG:
                 return imagepng($outputStream, $pathname);
         }
 

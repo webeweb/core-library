@@ -49,9 +49,6 @@ class ImageTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
-        $this->assertEquals("horizontal", Image::ORIENTATION_HORIZONTAL);
-        $this->assertEquals("vertical", Image::ORIENTATION_VERTICAL);
-
         $obj = new Image($this->images[0]);
 
         $this->assertEquals($this->images[0], $obj->getPathname());
