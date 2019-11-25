@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Model\Organizer;
+namespace WBW\Library\Core\Utility;
 
 use WBW\Library\Core\Argument\Helper\DateTimeHelper;
 use WBW\Library\Core\Sorting\FunctorInterface;

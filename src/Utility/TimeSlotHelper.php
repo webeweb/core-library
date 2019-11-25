@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Model\Organizer;
+namespace WBW\Library\Core\Utility;
 
 use WBW\Library\Core\Argument\Helper\DateTimeHelper;
 use WBW\Library\Core\Sorting\QuickSort;
@@ -18,7 +18,7 @@ use WBW\Library\Core\Sorting\QuickSort;
  * Time slot helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Model\Organizer
+ * @package WBW\Library\Core\Utility
  */
 class TimeSlotHelper {
 

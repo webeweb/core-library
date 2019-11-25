@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Model\Organizer;
+namespace WBW\Library\Core\Tests\Utility;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Model\Organizer\TimeSlot;
-use WBW\Library\Core\Model\Organizer\TimeSlotHelper;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
+use WBW\Library\Core\Utility\TimeSlot;
+use WBW\Library\Core\Utility\TimeSlotHelper;
 
 /**
  * Time slot helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Model\Organizer
+ * @package WBW\Library\Core\Tests\Utility
  */
 class TimeSlotHelperTest extends AbstractTestCase {
 
