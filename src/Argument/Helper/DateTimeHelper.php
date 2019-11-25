@@ -249,14 +249,14 @@ class DateTimeHelper {
      */
     public static function translateWeekday($date, $locale = "en") {
 
-        $template = __DIR__ . "/../../Resources/translations/messages.%locale%.yml";
-        $filename = str_replace("%locale%", $locale, $template);
+        $messages = __DIR__ . "/../../Resources/translations/messages.%locale%.yml";
+        $filename = str_replace("%locale%", $locale, $messages);
 
         if (false === file_exists($filename)) {
-            $filename = str_replace("%locale%", "en", $template);
+            $filename = str_replace("%locale%", "en", $messages);
         }
 
-        $translations = Yaml::parse(file_get_contents($filename));
+        $translations = Yaml::parse(file_get_contents(realpath($filename)));
 
         return str_ireplace(array_keys($translations["weekdays"]), array_values($translations["weekdays"]), $date);
     }
