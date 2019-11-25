@@ -30,7 +30,7 @@ class PaginateHelper {
     public static function getPageOffsetAndLimit($pageNumber, $divider, $total = -1) {
 
         if ($pageNumber < 0 || $divider < 0) {
-            return -1;
+            return [-1, -1];
         }
 
         $offset = $pageNumber * $divider;

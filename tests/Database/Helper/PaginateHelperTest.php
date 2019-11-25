@@ -29,9 +29,9 @@ class PaginateHelperTest extends AbstractTestCase {
      */
     public function testGetPageOffsetAndLimit() {
 
-        $this->assertEquals(-1, PaginateHelper::getPageOffsetAndLimit(-1, 300));
-        $this->assertEquals(-1, PaginateHelper::getPageOffsetAndLimit(0, -1));
-        $this->assertEquals(-1, PaginateHelper::getPageOffsetAndLimit(-1, -1));
+        $this->assertEquals([-1, -1], PaginateHelper::getPageOffsetAndLimit(-1, 300));
+        $this->assertEquals([-1, -1], PaginateHelper::getPageOffsetAndLimit(0, -1));
+        $this->assertEquals([-1, -1], PaginateHelper::getPageOffsetAndLimit(-1, -1));
 
         $this->assertEquals([0, 300], PaginateHelper::getPageOffsetAndLimit(0, 300));
         $this->assertEquals([300, 300], PaginateHelper::getPageOffsetAndLimit(1, 300));
