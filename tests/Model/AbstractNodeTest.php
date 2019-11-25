@@ -12,13 +12,13 @@
 namespace WBW\Library\Core\Tests\Node;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
+use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
 
 /**
  * Abstract node test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Navigation\Item
+ * @package WBW\Library\Core\Tests\Node
  */
 class AbstractNodeTest extends AbstractTestCase {
 
