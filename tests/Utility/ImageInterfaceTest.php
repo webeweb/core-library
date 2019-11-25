@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Image\Model;
+namespace WBW\Library\Core\Tests\Utility;
 
-use WBW\Library\Core\Image\Model\ImageInterface;
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\Utility\ImageInterface;
 
 /**
  * Image interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Image\Model
+ * @package WBW\Library\Core\Tests\Utility
  */
 class ImageInterfaceTest extends AbstractTestCase {
 

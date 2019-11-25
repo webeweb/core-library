@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Bundle\CoreBundle\Tests\Model;
+namespace WBW\Library\Core\Tests\Utility;
 
 use Exception;
 use InvalidArgumentException;
-use WBW\Library\Core\Image\Model\Image;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
+use WBW\Library\Core\Utility\Image;
 
 /**
  * Image test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Bundle\CoreBundle\Tests\Model
+ * @package WBW\Library\Core\Tests\Utility
  */
 class ImageTest extends AbstractTestCase {
 

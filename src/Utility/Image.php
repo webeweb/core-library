@@ -9,11 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Image\Model;
+namespace WBW\Library\Core\Utility;
 
 use InvalidArgumentException;
 use RuntimeException;
-use WBW\Library\Core\Image\Helper\ImageHelper;
 use WBW\Library\Core\Model\Attribute\IntegerHeightTrait;
 use WBW\Library\Core\Model\Attribute\IntegerSizeTrait;
 use WBW\Library\Core\Model\Attribute\IntegerWidthTrait;
@@ -27,7 +26,7 @@ use WBW\Library\Core\Model\Attribute\StringPathnameTrait;
  * Image.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Image\Model
+ * @package WBW\Library\Core\Utility
  */
 class Image implements ImageInterface {
 
