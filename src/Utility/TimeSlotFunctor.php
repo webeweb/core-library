@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Utility;
 
 use WBW\Library\Core\Argument\Helper\DateTimeHelper;
-use WBW\Library\Core\Sorting\FunctorInterface;
+use WBW\Library\Core\Sorter\FunctorInterface;
 
 /**
  * Time slot functor.

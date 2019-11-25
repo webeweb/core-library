@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Utility;
 
 use WBW\Library\Core\Argument\Helper\DateTimeHelper;
-use WBW\Library\Core\Sorting\QuickSort;
+use WBW\Library\Core\Sorter\QuickSort;
 
 /**
  * Time slot helper.
@@ -44,29 +44,24 @@ class TimeSlotHelper {
      */
     public static function equals(TimeSlot $a, TimeSlot $b) {
 
-        // Compare the start dates.
         if (false === DateTimeHelper::equals($a->getStartDate(), $b->getStartDate())) {
             return false;
         }
 
-        // Compare the end dates.
         if (false === DateTimeHelper::equals($a->getEndDate(), $b->getEndDate())) {
             return false;
         }
 
-        // Compare the time slots count.
         if (count($a->getTimeSlots()) !== count($b->getTimeSlots())) {
             return false;
         }
 
-        // Handle each time slot.
         for ($i = count($a->getTimeSlots()) - 1; 0 <= $i; --$i) {
             if (false === static::equals($a->getTimeSlots()[$i], $b->getTimeSlots()[$i])) {
                 return false;
             }
         }
 
-        //
         return true;
     }
 
@@ -79,16 +74,13 @@ class TimeSlotHelper {
      */
     public static function fullJoin(TimeSlot $a, TimeSlot $b) {
 
-        // Has full join ?
         if (false === static::hasFullJoin($a, $b)) {
             return null;
         }
 
-        // Initialize the date/times.
         $startDate = DateTimeHelper::getSmaller($a->getStartDate(), $b->getStartDate());
         $endDate   = DateTimeHelper::getGreater($a->getEndDate(), $b->getEndDate());
 
-        // Return the time slot.
         return new TimeSlot(clone $startDate, clone $endDate);
     }
 
@@ -101,11 +93,9 @@ class TimeSlotHelper {
      */
     public static function fullJoinWithout(TimeSlot $a, TimeSlot $b) {
 
-        // Initialize the time slots.
         $leftJoins  = static::leftJoinWithout($a, $b);
         $rightJoins = static::rightJoinWithout($a, $b);
 
-        // Check the time slots.
         if (null === $leftJoins && null === $rightJoins) {
             return null;
         }
@@ -116,7 +106,6 @@ class TimeSlotHelper {
             return $leftJoins;
         }
 
-        // Return the time slots.
         return static::sort(array_merge($leftJoins, $rightJoins));
     }
 
@@ -127,11 +116,14 @@ class TimeSlotHelper {
      * @return int Returns the duration.
      */
     public static function getDuration(array $timeSlots) {
-        $output = 0;
+
+        $duration = 0;
+
         foreach ($timeSlots as $current) {
-            $output += $current->getDuration();
+            $duration += $current->getDuration();
         }
-        return $output;
+
+        return $duration;
     }
 
     /**
@@ -169,16 +161,13 @@ class TimeSlotHelper {
      */
     public static function innerJoin(TimeSlot $a, TimeSlot $b) {
 
-        // Has inner join ?
         if (false === static::hasInnerJoin($a, $b)) {
             return null;
         }
 
-        // Initialize the date/times.
         $startDate = DateTimeHelper::getGreater($a->getStartDate(), $b->getStartDate());
         $endDate   = DateTimeHelper::getSmaller($a->getEndDate(), $b->getEndDate());
 
-        // Return the time slot.
         return new TimeSlot(clone $startDate, clone $endDate);
     }
 
@@ -191,12 +180,10 @@ class TimeSlotHelper {
      */
     public static function leftJoin(TimeSlot $a, TimeSlot $b) {
 
-        // Has inner join ?
         if (false === static::hasInnerJoin($a, $b)) {
             return null;
         }
 
-        // Return the time slot.
         return new TimeSlot(clone $a->getStartDate(), clone $a->getEndDate());
     }
 
@@ -209,12 +196,10 @@ class TimeSlotHelper {
      */
     public static function leftJoinWithout(TimeSlot $a, TimeSlot $b) {
 
-        // Has inner join ?
         if (false === static::hasInnerJoin($a, $b) || true === static::contains($b, $a)) {
             return null;
         }
 
-        // Contains ?
         if (true === static::contains($a, $b)) {
             return static::sort([
                 new TimeSlot(clone $a->getStartDate(), clone $b->getStartDate()),
@@ -222,11 +207,9 @@ class TimeSlotHelper {
             ]);
         }
 
-        // Initialize the date/times.
         $startDate = true === DateTimeHelper::isLessThan($a->getStartDate(), $b->getStartDate()) ? $a->getStartDate() : $b->getEndDate();
         $endDate   = true === DateTimeHelper::isGreaterThan($a->getEndDate(), $b->getEndDate()) ? $a->getEndDate() : $b->getStartDate();
 
-        // Return the time slots.
         return [
             new TimeSlot(clone $startDate, clone $endDate),
         ];
@@ -240,37 +223,29 @@ class TimeSlotHelper {
      */
     public static function merge(array $timeSlots) {
 
-        // Count the time slots.
         $number = count($timeSlots);
 
-        // Check the time slots count.
         if (0 === $number) {
             return [];
         }
 
-        // Sort the time slots.
         $buffer = static::sort($timeSlots);
 
-        // Initialize the output.
-        $output = [$buffer[0]];
+        $merged = [$buffer[0]];
 
-        // Handle each time slot.
         for ($i = 1; $i < $number; ++$i) {
 
-            //
-            $j = count($output) - 1;
+            $j = count($merged) - 1;
 
-            // Full join the time slots.
-            $res = static::fullJoin($output[$j], $buffer[$i]);
+            $res = static::fullJoin($merged[$j], $buffer[$i]);
             if (null === $res) {
-                $output[] = $buffer[$i];
+                $merged[] = $buffer[$i];
             } else {
-                $output[$j] = $res;
+                $merged[$j] = $res;
             }
         }
 
-        // Return the output.
-        return $output;
+        return $merged;
     }
 
     /**
@@ -303,11 +278,9 @@ class TimeSlotHelper {
      */
     public static function sort(array $timeSlots) {
 
-        // Initialize a Qucik sort.
         $sorter = new QuickSort($timeSlots, new TimeSlotFunctor());
         $sorter->sort();
 
-        // Return the time slots.
         return $sorter->getValues();
     }
 }

@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Sorting;
+namespace WBW\Library\Core\Tests\Sorter;
 
-use WBW\Library\Core\Sorting\FunctorInterface;
-use WBW\Library\Core\Sorting\QuickSort;
+use WBW\Library\Core\Sorter\FunctorInterface;
+use WBW\Library\Core\Sorter\QuickSort;
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\Sorting\TestIntegerFunctor;
+use WBW\Library\Core\Tests\Fixtures\Sorter\TestIntegerFunctor;
 
 /**
  * Quick sort test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Sorting
+ * @package WBW\Library\Core\Tests\Sorter
  */
 class QuickSortTest extends AbstractTestCase {
 

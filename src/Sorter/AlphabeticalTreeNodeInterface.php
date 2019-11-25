@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Sorting;
+namespace WBW\Library\Core\Sorter;
 
 /**
  * Alphabetical tree node interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Sorting
+ * @package WBW\Library\Core\Sorter
  */
 interface AlphabeticalTreeNodeInterface {
 

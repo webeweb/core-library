@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Sorting;
+namespace WBW\Library\Core\Tests\Sorter;
 
-use WBW\Library\Core\Sorting\AlphabeticalTreeNodeHelper;
-use WBW\Library\Core\Sorting\AlphabeticalTreeNodeInterface;
+use WBW\Library\Core\Sorter\AlphabeticalTreeNodeHelper;
+use WBW\Library\Core\Sorter\AlphabeticalTreeNodeInterface;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
@@ -21,7 +21,7 @@ use WBW\Library\Core\Tests\Fixtures\TestFixtures;
  * Alphabetical tree node helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Sorting
+ * @package WBW\Library\Core\Sorter
  */
 class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
 
