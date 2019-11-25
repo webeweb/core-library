@@ -95,7 +95,7 @@ class ImageTest extends AbstractTestCase {
 
         $obj->init();
         $this->assertEquals([1920, 1037], $obj->getDimensions());
-        $this->assertEquals(getcwd() . "/tests/Fixtures/Image/Model", $obj->getDirectory());
+        $this->assertEquals(getcwd() . "/tests/Fixtures/Utility", $obj->getDirectory());
         $this->assertEquals("png", $obj->getExtension());
         $this->assertEquals("TestImage_1920x1037.png", $obj->getFilename());
         $this->assertEquals(1037, $obj->getHeight());

@@ -3,4 +3,4 @@
 /vendor/*
 
 # Fixtures
-/tests/Fixtures/Image/Model/*thumb*
+/tests/Fixtures/Utility/*thumb*
