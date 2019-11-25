@@ -13,7 +13,7 @@ namespace WBW\Library\Core\Tests\Fixtures;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\Fixtures\Model\Node\TestNode;
+use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
 
 /**
  * Test fixtures.
@@ -30,10 +30,10 @@ class TestFixtures {
      */
     public static function getImages() {
         return [
-            getcwd() . "/tests/Fixtures/Image/Model/TestImage_1920x1037.jpg",
-            getcwd() . "/tests/Fixtures/Image/Model/TestImage_1920x1037.png",
-            getcwd() . "/tests/Fixtures/Image/Model/TestImage_1920x1920.png",
-            getcwd() . "/tests/Fixtures/Image/Model/TestImage_1920x3554.png",
+            getcwd() . "/tests/Fixtures/Utility/TestImage_1920x1037.jpg",
+            getcwd() . "/tests/Fixtures/Utility/TestImage_1920x1037.png",
+            getcwd() . "/tests/Fixtures/Utility/TestImage_1920x1920.png",
+            getcwd() . "/tests/Fixtures/Utility/TestImage_1920x3554.png",
         ];
     }
 
