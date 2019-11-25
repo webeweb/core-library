@@ -25,6 +25,7 @@ CHANGELOG
 > - WBW\Library\Core\Model\Choices\VehicleMarkChoicesInterface
 > - WBW\Library\Core\Model\Contact\PhoneNumbersInterface
 > - WBW\Library\Core\Model\Contact\PhoneNumbersTrait
+> - WBW\Library\Core\Model\Response\ActionResponse
 
 - Add CHANGELOG
 - Add Civility interface
