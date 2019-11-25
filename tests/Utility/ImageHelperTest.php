@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Bundle\CoreBundle\Tests\Utility;
+namespace WBW\Library\Core\Tests\Utility;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\TestFixtures;
@@ -20,7 +20,7 @@ use WBW\Library\Core\Utility\ImageHelper;
  * Image helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Bundle\CoreBundle\Tests\Utility
+ * @package WBW\Library\Core\Tests\Utility
  */
 class ImageHelperTest extends AbstractTestCase {
 
