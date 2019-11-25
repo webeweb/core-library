@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Database\Client;
+namespace WBW\Library\Core\Tests\Database\Connector;
 
 use Exception;
 use PDOException;
-use WBW\Library\Core\Database\Client\MicrosoftSQLServerDatabaseClient;
+use WBW\Library\Core\Database\Connector\MicrosoftSQLServerDatabaseConnector;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * Microsoft SQL Server database client test.
+ * Microsoft SQL Server database connector test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Database\Client
+ * @package WBW\Library\Core\Tests\Database\Connector
  */
-class MicrosoftSQLServerDatabaseClientTest extends AbstractTestCase {
+class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
 
     /**
      * Tests the __construct method.
@@ -31,7 +31,7 @@ class MicrosoftSQLServerDatabaseClientTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
-        $obj = new MicrosoftSQLServerDatabaseClient($this->authenticator, null);
+        $obj = new MicrosoftSQLServerDatabaseConnector($this->authenticator, null);
 
         $this->assertSame($this->authenticator, $obj->getAuthenticator());
         $this->assertNull($obj->getDatabase());
@@ -44,7 +44,7 @@ class MicrosoftSQLServerDatabaseClientTest extends AbstractTestCase {
      */
     public function testGetConnectionWithPDOException() {
 
-        $obj = new MicrosoftSQLServerDatabaseClient($this->authenticator, "exception");
+        $obj = new MicrosoftSQLServerDatabaseConnector($this->authenticator, "exception");
 
         try {
 

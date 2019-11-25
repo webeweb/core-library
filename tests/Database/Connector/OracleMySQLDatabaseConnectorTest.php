@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Database\Client;
+namespace WBW\Library\Core\Tests\Database\Connector;
 
 use Exception;
 use PDOException;
-use WBW\Library\Core\Database\Client\OracleMySQLDatabaseClient;
+use WBW\Library\Core\Database\Connector\OracleMySQLDatabaseConnector;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * Microsoft SQL Server database client test.
+ * Microsoft SQL Server database connector test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Database\Client
+ * @package WBW\Library\Core\Tests\Database\Connector
  */
-class OracleMySQLDatabaseClientTest extends AbstractTestCase {
+class OracleMySQLDatabaseConnectorTest extends AbstractTestCase {
 
     /**
      * Tests the __construct method.
@@ -31,7 +31,7 @@ class OracleMySQLDatabaseClientTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
-        $obj = new OracleMySQLDatabaseClient($this->authenticator, null);
+        $obj = new OracleMySQLDatabaseConnector($this->authenticator, null);
 
         $this->assertSame($this->authenticator, $obj->getAuthenticator());
         $this->assertNull($obj->getDatabase());
@@ -44,7 +44,7 @@ class OracleMySQLDatabaseClientTest extends AbstractTestCase {
      */
     public function testGetConnectionWithPDOException() {
 
-        $obj = new OracleMySQLDatabaseClient($this->authenticator, "exception");
+        $obj = new OracleMySQLDatabaseConnector($this->authenticator, "exception");
 
         try {
 
