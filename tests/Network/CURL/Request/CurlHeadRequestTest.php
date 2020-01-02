@@ -32,7 +32,6 @@ class CurlHeadRequestTest extends AbstractTestCase {
     public function testCall() {
 
         $obj = new CurlHeadRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 

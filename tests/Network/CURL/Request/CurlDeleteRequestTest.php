@@ -32,7 +32,6 @@ class CurlDeleteRequestTest extends AbstractTestCase {
     public function testCall() {
 
         $obj = new CurlDeleteRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 

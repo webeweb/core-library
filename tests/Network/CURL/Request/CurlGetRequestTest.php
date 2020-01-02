@@ -75,7 +75,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithAllowEncoding() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->getConfiguration()->setAllowEncoding(true);
 
         $res = $obj->call();
@@ -92,7 +91,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithConnectTimeout() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->getConfiguration()->setConnectTimeout(30);
 
         $res = $obj->call();
@@ -109,7 +107,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithDebug() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->getConfiguration()->setDebug(true);
 
         $res = $obj->call();
@@ -128,6 +125,7 @@ class CurlGetRequestTest extends AbstractTestCase {
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
         foreach (HttpHelper::getHttpStatus() as $code) {
+
             try {
 
                 $obj->addQueryData("code", $code);
@@ -154,7 +152,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithHeader() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->addHeader("h", "v");
 
         $resH = $obj->call();
@@ -172,7 +169,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithHeaderApplicationJSON() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->addHeader("Content-Type", "application/json");
         $obj->addPostData("name", "value");
 
@@ -191,7 +187,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithRequestTimeout() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->getConfiguration()->setRequestTimeout(30);
 
         $res = $obj->call();
@@ -208,7 +203,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithRequestTimeoutException() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->getConfiguration()->setRequestTimeout(10);
         $obj->addQueryData("sleep", 60);
 
@@ -232,7 +226,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithSSLVerification() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->getConfiguration()->setSslVerification(false);
 
         $res = $obj->call();
@@ -249,7 +242,6 @@ class CurlGetRequestTest extends AbstractTestCase {
     public function testCallWithVerbose() {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->getConfiguration()->setVerbose(true);
 
         $res = $obj->call();

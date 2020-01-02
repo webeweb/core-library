@@ -68,12 +68,10 @@ class CurlPostRequestTest extends AbstractTestCase {
     public function testCall() {
 
         $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 
         $res = $obj->call();
-
         $this->assertContains("header: header", $res->getRequestHeader());
         $this->assertContains("queryData=queryData", $res->getRequestURL());
         $this->assertEquals(CurlPostRequest::HTTP_METHOD_POST, json_decode($res->getResponseBody(), true)["method"]);

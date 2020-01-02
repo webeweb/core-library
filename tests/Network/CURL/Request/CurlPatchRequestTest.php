@@ -33,7 +33,6 @@ class CurlPatchRequestTest extends AbstractTestCase {
     public function testCall() {
 
         $obj = new CurlPatchRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 
