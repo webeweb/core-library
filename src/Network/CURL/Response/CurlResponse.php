@@ -33,7 +33,7 @@ class CurlResponse implements CurlResponseInterface {
      *
      * @var array
      */
-    private $requestHeader = [];
+    private $requestHeader;
 
     /**
      * Request URL.
@@ -54,20 +54,22 @@ class CurlResponse implements CurlResponseInterface {
      *
      * @var array
      */
-    private $responseHeader = [];
+    private $responseHeader;
 
     /**
      * Response info.
      *
      * @var array
      */
-    private $responseInfo = [];
+    private $responseInfo;
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO.
+        $this->setRequestHeader([]);
+        $this->setResponseHeader([]);
+        $this->setResponseInfo([]);
     }
 
     /**
