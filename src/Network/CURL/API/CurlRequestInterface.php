@@ -11,9 +11,9 @@
 
 namespace WBW\Library\Core\Network\CURL\API;
 
+use Exception;
 use WBW\Library\Core\Argument\Exception\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Configuration\CurlConfiguration;
-use WBW\Library\Core\Network\CURL\Exception\CurlRequestCallException;
 
 /**
  * cURL request interface.
@@ -57,7 +57,7 @@ interface CurlRequestInterface {
      * Call the request.
      *
      * @return CurlResponseInterface Returns the response.
-     * @throws CurlRequestCallException Throws a CURL request call if something failed.
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function call();
 
