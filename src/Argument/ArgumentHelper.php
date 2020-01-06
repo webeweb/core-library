@@ -84,7 +84,7 @@ class ArgumentHelper implements ArgumentInterface {
                 return $datetime;
         }
 
-        throw new InvalidArgumentException("The type \"" . $type . "\" is not implemented");
+        throw new InvalidArgumentException("The type \"{$type}\" is not implemented");
     }
 
     /**
@@ -144,6 +144,6 @@ class ArgumentHelper implements ArgumentInterface {
                 return true;
         }
 
-        throw new InvalidArgumentException("The type \"" . $type . "\" is not implemented");
+        throw new InvalidArgumentException("The type \"{$type}\" is not implemented");
     }
 }

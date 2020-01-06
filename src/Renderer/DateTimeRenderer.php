@@ -45,7 +45,7 @@ class DateTimeRenderer {
         }
 
         $diff  = $refDate->getTimestamp() - $birthDate->getTimestamp();
-        $years = new DateTime("@" . $diff);
+        $years = new DateTime("@{$diff}");
 
         return intval($years->format("Y")) - 1970;
     }

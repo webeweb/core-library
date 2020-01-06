@@ -182,7 +182,7 @@ class CurlHelper {
             curl_setopt($stream, CURLOPT_STDERR, fopen($config->getDebugFile(), "a"));
             curl_setopt($stream, CURLOPT_VERBOSE, 0);
 
-            $msg = (new DateTime())->format("c") . " [DEBUG] " . $url . PHP_EOL . "HTTP request body ~BEGIN~" . PHP_EOL . print_r($postData, true) . PHP_EOL . "~END~" . PHP_EOL;
+            $msg = (new DateTime())->format("c") . " [DEBUG] {$url}" . PHP_EOL . "HTTP request body ~BEGIN~" . PHP_EOL . print_r($postData, true) . PHP_EOL . "~END~" . PHP_EOL;
             error_log($msg, 3, $config->getDebugFile());
         } else {
 
