@@ -38,7 +38,7 @@ class CurlPatchRequestTest extends AbstractTestCase {
 
         $res = $obj->call();
         $this->assertContains("header: header", $res->getRequestHeader());
-        $this->assertContains("queryData=queryData", $res->getRequestURL());
+        $this->assertContains("queryData=queryData", $res->getRequestUrl());
         $this->assertEquals(CurlPatchRequest::HTTP_METHOD_PATCH, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }

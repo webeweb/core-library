@@ -36,7 +36,7 @@ class CurlRequestCallExceptionTest extends AbstractTestCase {
         $this->assertEquals("exception", $obj->getMessage());
         $this->assertNull($obj->getResponse()->getRequestBody());
         $this->assertEquals([], $obj->getResponse()->getRequestHeader());
-        $this->assertNull($obj->getResponse()->getRequestURL());
+        $this->assertNull($obj->getResponse()->getRequestUrl());
         $this->assertNull($obj->getResponse()->getResponseBody());
         $this->assertEquals([], $obj->getResponse()->getResponseHeader());
         $this->assertEquals([], $obj->getResponse()->getResponseInfo());

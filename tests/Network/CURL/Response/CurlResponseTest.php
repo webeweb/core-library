@@ -33,7 +33,7 @@ class CurlResponseTest extends AbstractTestCase {
 
         $this->assertNull($obj->getRequestBody());
         $this->assertEquals([], $obj->getRequestHeader());
-        $this->assertNull($obj->getRequestURL());
+        $this->assertNull($obj->getRequestUrl());
         $this->assertNull($obj->getResponseBody());
         $this->assertEquals([], $obj->getResponseHeader());
         $this->assertEquals([], $obj->getResponseInfo());
@@ -66,16 +66,16 @@ class CurlResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequestURL() method.
+     * Tests the setRequestUrl() method.
      *
      * @return void
      */
-    public function testSetRequestURL() {
+    public function testSetRequestUrl() {
 
         $obj = new CurlResponse();
 
-        $obj->setRequestURL("requestURL");
-        $this->assertEquals("requestURL", $obj->getRequestURL());
+        $obj->setRequestUrl("requestURL");
+        $this->assertEquals("requestURL", $obj->getRequestUrl());
     }
 
     /**
