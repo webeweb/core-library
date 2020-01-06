@@ -15,6 +15,7 @@ use DateTime;
 use InvalidArgumentException;
 use WBW\Library\Core\Argument\ArgumentHelper;
 use WBW\Library\Core\Network\CURL\API\CurlRequestInterface;
+use WBW\Library\Core\Network\CURL\API\CurlResponseInterface;
 use WBW\Library\Core\Network\CURL\Configuration\CurlConfiguration;
 use WBW\Library\Core\Network\CURL\Exception\CurlRequestCallException;
 use WBW\Library\Core\Network\CURL\Factory\CurlFactory;
@@ -124,64 +125,58 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      */
     public function call() {
 
-        $headers  = $this->mergeHeaders();
-        $postData = http_build_query($this->getPostData());
+        $requestHeader = $this->mergeHeaders();
+        $requestBody   = http_build_query($this->getPostData());
 
-        if (true === in_array("Content-Type: application/json", $headers)) {
-            $postData = json_encode($this->getPostData());
+        if (true === in_array("Content-Type: application/json", $requestHeader)) {
+            $requestBody = json_encode($this->getPostData());
         }
 
-        $uri = $this->mergeUrl();
+        $requestUrl = $this->mergeUrl();
         if (0 < count($this->getQueryData())) {
-            $uri = implode("?", [$uri, http_build_query($this->getQueryData())]);
+            $requestUrl = implode("?", [$requestUrl, http_build_query($this->getQueryData())]);
         }
 
-        $stream = CurlHelper::initStream($uri, $this->getConfiguration());
+        $stream = CurlHelper::initStream($requestUrl, $this->getConfiguration());
 
-        CurlHelper::setHeaders($stream, $headers);
-        CurlHelper::setPost($stream, $this->getMethod(), $postData);
+        CurlHelper::setHeaders($stream, $requestHeader);
+        CurlHelper::setPost($stream, $this->getMethod(), $requestBody);
         CurlHelper::setProxy($stream, $this->getConfiguration());
         CurlHelper::setReturnTransfer($stream);
         CurlHelper::setSsl($stream, $this->getConfiguration());
         CurlHelper::setTimeout($stream, $this->getConfiguration());
         CurlHelper::setUserAgent($stream, $this->getConfiguration());
-        CurlHelper::setVerbose($stream, $this->getConfiguration(), $uri, $postData);
+        CurlHelper::setVerbose($stream, $this->getConfiguration(), $requestUrl, $requestBody);
 
-        $curlExec     = curl_exec($stream);
-        $httpHeadSize = curl_getinfo($stream, CURLINFO_HEADER_SIZE);
-        $httpHead     = $this->parseheader(substr($curlExec, 0, $httpHeadSize));
-        $httpBody     = substr($curlExec, $httpHeadSize);
-        $curlInfo     = curl_getinfo($stream);
+        $curlExec    = curl_exec($stream);
+        $curlGetInfo = curl_getinfo($stream, CURLINFO_HEADER_SIZE);
+
+        $responseHeader = $this->parseheader(substr($curlExec, 0, $curlGetInfo));
+        $responseBody   = substr($curlExec, $curlGetInfo);
+        $responseInfo   = curl_getinfo($stream);
 
         if (true === $this->getConfiguration()->getDebug()) {
-            $msg = (new DateTime())->format("c") . " [DEBUG] " . $uri . PHP_EOL . "HTTP response body ~BEGIN~" . PHP_EOL . print_r($httpBody, true) . PHP_EOL . "~END~" . PHP_EOL;
+            $msg = (new DateTime())->format("c") . " [DEBUG] {$requestUrl}" . PHP_EOL . "HTTP response body ~BEGIN~" . PHP_EOL . print_r($responseBody, true) . PHP_EOL . "~END~" . PHP_EOL;
             error_log($msg, 3, $this->getConfiguration()->getDebugFile());
         }
 
-        $response = CurlFactory::newCURLResponse();
-        $response->setRequestBody($postData);
-        $response->setRequestHeader($headers);
-        $response->setRequestURL($uri);
-        $response->setResponseBody($httpBody);
-        $response->setResponseHeader($httpHead);
-        $response->setResponseInfo($curlInfo);
+        $response = $this->prepareResponse($requestBody, $requestHeader, $requestUrl, $responseBody, $responseHeader, $responseInfo);
 
-        if (200 <= $curlInfo["http_code"] && $curlInfo["http_code"] <= 299) {
+        $curlHttpCode = $responseInfo["http_code"];
+        if (200 <= $curlHttpCode && $curlHttpCode <= 299) {
             return $response;
         }
 
-        $cde = $curlInfo["http_code"];
         $msg = curl_errno($stream);
-
-        if (0 === $curlInfo["http_code"]) {
+        if (0 === $curlHttpCode) {
             if (false === empty(curl_error($stream))) {
-                $msg = "Call to ${uri} failed : " . curl_error($stream);
+                $msg = "Call to ${requestUrl} failed : " . curl_error($stream);
             } else {
-                $msg = "Call to ${uri} failed, but for an unknown reason. This could happen if you are disconnected from the network.";
+                $msg = "Call to ${requestUrl} failed, but for an unknown reason. This could happen if you are disconnected from the network.";
             }
         }
 
-        throw new CurlRequestCallException($msg, $cde, $response);
+        throw new CurlRequestCallException($msg, $curlHttpCode, $response);
     }
 
     /**
@@ -254,12 +249,12 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      */
     private function mergeHeaders() {
 
-        $mergedHeaders = [];
+        $headers = [];
         foreach (array_merge($this->getConfiguration()->getHeaders(), $this->getHeaders()) as $key => $value) {
-            $mergedHeaders[] = implode(": ", [$key, $value]);
+            $headers[] = implode(": ", [$key, $value]);
         }
 
-        return $mergedHeaders;
+        return $headers;
     }
 
     /**
@@ -313,6 +308,30 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
         }
 
         return $headers;
+    }
+
+    /**
+     * Prepare a response.
+     *
+     * @param string $requestBody The request body.
+     * @param array $requestHeader The request header.
+     * @param string $requestUri The request URI.
+     * @param string $responseBody The response body.
+     * @param array $responseHeader The response header.
+     * @param array $responseInfo The response info.
+     * @return CurlResponseInterface Returns the response.
+     */
+    private function prepareResponse($requestBody, array $requestHeader, $requestUri, $responseBody, array $responseHeader, array $responseInfo) {
+
+        $response = CurlFactory::newCURLResponse();
+        $response->setRequestBody($requestBody);
+        $response->setRequestHeader($requestHeader);
+        $response->setRequestUrl($requestUri);
+        $response->setResponseBody($responseBody);
+        $response->setResponseHeader($responseHeader);
+        $response->setResponseInfo($responseInfo);
+
+        return $response;
     }
 
     /**
