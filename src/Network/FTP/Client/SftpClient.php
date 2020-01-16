@@ -25,7 +25,7 @@ class SftpClient extends AbstractFtpClient {
     /**
      * SFTP resource.
      *
-     * @var mixed
+     * @var resource
      */
     private $sftp;
 
@@ -44,20 +44,22 @@ class SftpClient extends AbstractFtpClient {
     }
 
     /**
-     * Closes this SFTP connection.
+     * Close.
      *
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
     public function close() {
+
         if (false === ssh2_exec($this->getConnection(), "exit")) {
-            throw $this->newFTPException("close failed");
+            throw $this->newFtpException("ssh2_exec failed: [exit]");
         }
+
         return $this;
     }
 
     /**
-     * Opens this SFTP connection.
+     * Connect.
      *
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
@@ -69,40 +71,64 @@ class SftpClient extends AbstractFtpClient {
 
         $this->setConnection(ssh2_connect($host, $port));
         if (false === $this->getConnection()) {
-            throw $this->newFTPException("connection failed");
+            throw $this->newFtpException("ssh2_connect failed: [${host}, ${$port}]");
         }
 
         return $this;
     }
 
     /**
-     * Deletes a file on the SFTP server.
+     * Delete.
      *
-     * @param string $path The file to delete.
+     * @param string $path The path.
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
     public function delete($path) {
+
         if (false === ssh2_sftp_unlink($this->getSftp(), $path)) {
-            throw $this->newFTPException(sprintf("delete %s failed", $path));
+            throw $this->newFtpException("ssh2_sftp_unlink failed: [${path}]");
         }
+
+        return $this;
+    }
+
+    /**
+     * Get a file.
+     *
+     * @param string $localFile The local file.
+     * @param string $remoteFile The remote file.
+     * @return SftpClient Returns this SFTP client.
+     */
+    public function get($localFile, $remoteFile) {
+
+        $input  = fopen("ssh2.sftp://" . intval($this->getSftp()) . $remoteFile, "r");
+        $output = fopen($localFile, "w");
+
+        stream_copy_to_stream($input, $output);
+
+        fclose($input);
+        fclose($output);
+
         return $this;
     }
 
     /**
      * Get the SFTP resource.
      *
-     * @return mixed Returns the SFTP resource.
+     * @return resource Returns the SFTP resource.
      */
     private function getSftp() {
+
         if (null === $this->sftp) {
             $this->sftp = ssh2_sftp($this->getConnection());
         }
+
         return $this->sftp;
     }
 
     /**
-     * Logs in to this SFTP connection.
+     * Login.
      *
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
@@ -113,14 +139,14 @@ class SftpClient extends AbstractFtpClient {
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
 
         if (false === ssh2_auth_password($this->getConnection(), $username, $password)) {
-            throw $this->newFTPException("login failed");
+            throw $this->newFtpException("ssh2_auth_password failed: [${username}]");
         }
 
         return $this;
     }
 
     /**
-     * Creates a directory.
+     * Make a directory.
      *
      * @param string $directory The directory.
      * @param int $mode The mode.
@@ -129,52 +155,64 @@ class SftpClient extends AbstractFtpClient {
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
     public function mkdir($directory, $mode = 0777, $recursive = false) {
+
         if (false === ssh2_sftp_mkdir($this->getSftp(), $directory, $mode, $recursive)) {
-            throw $this->newFTPException(sprintf("mkdir %s failed", $directory));
+            throw $this->newFtpException("ssh2_sftp_mkdir failed: [${directory}]");
         }
+
         return $this;
     }
 
     /**
-     * Uploads a file to the SFTP server.
+     * Put a file.
      *
      * @param string $localFile The local file.
      * @param string $remoteFile The remote file.
      * @return SftpClient Returns this SFTP client.
      */
     public function put($localFile, $remoteFile) {
-        $stream = fopen("ssh2.sftp://" . intval($this->getSftp()) . $remoteFile, "w");
-        fwrite($stream, file_get_contents($localFile));
-        fclose($stream);
+
+        $input  = fopen($localFile, "r");
+        $output = fopen("ssh2.sftp://" . intval($this->getSftp()) . $remoteFile, "w");
+
+        stream_copy_to_stream($input, $output);
+
+        fclose($input);
+        fclose($output);
+
         return $this;
     }
 
     /**
-     * Renames a file or a directory on the SFTP server.
+     * Rename.
      *
-     * @param string $oldName The old file/directory name.
+     * @param string $oldName The old name.
      * @param string $newName The new name.
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
     public function rename($oldName, $newName) {
+
         if (false === ssh2_sftp_rename($this->getSftp(), $oldName, $newName)) {
-            throw $this->newFTPException(sprintf("rename %s into %s failed", $oldName, $newName));
+            throw $this->newFtpException("ssh2_sftp_rename failed: [${oldName}, ${newName}]");
         }
+
         return $this;
     }
 
     /**
-     * Removes a directory.
+     * Remove a directory.
      *
      * @param string $directory The directory.
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
     public function rmdir($directory) {
+
         if (false === ssh2_sftp_rmdir($this->getSftp(), $directory)) {
-            throw $this->newFTPException(sprintf("rmdir %s failed", $directory));
+            throw $this->newFtpException("ssh2_sftp_rmdir failed: [${directory}]");
         }
+
         return $this;
     }
 }
