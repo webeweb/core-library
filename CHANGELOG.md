@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### master
+
+- Add get() method into FTP client
+- Add get() method into sFTP client
+
 ### [6.0.0](https://github.com/webeweb/core-library/tree/v6.0.0) (2019-11-25)
 
 > IMPORTANT NOTICE: The following classes has been removed
