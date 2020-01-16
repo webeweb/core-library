@@ -33,7 +33,7 @@ abstract class AbstractFtpClient {
     /**
      * Connection.
      *
-     * @var mixed
+     * @var ressource
      */
     private $connection;
 
@@ -70,7 +70,7 @@ abstract class AbstractFtpClient {
      * @param string $message The message.
      * @return FtpException Returns a new FTP exception.
      */
-    protected function newFTPException($message) {
+    protected function newFtpException($message) {
 
         $format = "%s://%s:%s@%s:%d ${message}";
         $args   = [
