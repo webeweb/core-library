@@ -37,24 +37,26 @@ class FtpClient extends AbstractFtpClient {
     }
 
     /**
-     * Closes this FTP connection.
+     * Close.
      *
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function close() {
+
         if (false === @ftp_close($this->getConnection())) {
-            throw $this->newFTPException("close failed");
+            throw $this->newFtpException("ftp_close failed");
         }
+
         return $this;
     }
 
     /**
-     * Opens this FTP connection.
+     * Connect.
      *
      * @param int $timeout The timeout.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function connect($timeout = 90) {
 
@@ -63,31 +65,50 @@ class FtpClient extends AbstractFtpClient {
 
         $this->setConnection(@ftp_connect($host, $port, $timeout));
         if (false === $this->getConnection()) {
-            throw $this->newFTPException("connection failed");
+            throw $this->newFtpException("ftp_connect failed: [${host}, ${port}]");
         }
 
         return $this;
     }
 
     /**
-     * Deletes a file on the FTP server.
+     * Delete.
      *
-     * @param string $path The file to delete.
+     * @param string $path The path.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function delete($path) {
+
         if (false === @ftp_delete($this->getConnection(), $path)) {
-            throw $this->newFTPException(sprintf("delete %s failed", $path));
+            throw $this->newFtpException("ftp_delete failed: [${path}]");
         }
+
         return $this;
     }
 
     /**
-     * Logs in to this FTP connection.
+     * Get a file.
+     *
+     * @param string $localFile The local file.
+     * @param string $remoteFile The remote file.
+     * @return FtpClient Returns this FTP client.
+     * @throws FtpException Throws a FTP exception if an error occurs.
+     */
+    public function get($localFile, $remoteFile) {
+
+        if (false === @ftp_get($this->getConnection(), $localFile, $remoteFile)) {
+            throw $this->newFtpException("ftp_get failed: [${localFile}, ${remoteFile}]");
+        }
+
+        return $this;
+    }
+
+    /**
+     * Login.
      *
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function login() {
 
@@ -95,83 +116,93 @@ class FtpClient extends AbstractFtpClient {
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
 
         if (false === @ftp_login($this->getConnection(), $username, $password)) {
-            throw $this->newFTPException("login failed");
+            throw $this->newFtpException("ftp_login failed: [${username}]");
         }
 
         return $this;
     }
 
     /**
-     * Creates a directory.
+     * Make a directory.
      *
      * @param string $directory The directory.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function mkdir($directory) {
+
         if (false === @ftp_mkdir($this->getConnection(), $directory)) {
-            throw $this->newFTPException(sprintf("mkdir %s failed", $directory));
+            throw $this->newFtpException("mkdir failed: [${directory}]");
         }
+
         return $this;
     }
 
     /**
-     * Tuns passive mode on or off.
+     * Set the passive mode.
      *
      * @param bool $pasv The passive mode.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function pasv($pasv) {
+
         if (false === @ftp_pasv($this->getConnection(), $pasv)) {
-            throw $this->newFTPException(sprintf("pasv from %d to %d failed", !$pasv, $pasv));
+            throw $this->newFtpException("ftp_pasv failed: [${pasv}]");
         }
+
         return $this;
     }
 
     /**
-     * Uploads a file to The FTP server.
+     * Put a file.
      *
      * @param string $localFile The local file.
      * @param string $remoteFile The remote file.
      * @param int $mode The mode.
      * @param int $startPos The start position.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function put($localFile, $remoteFile, $mode = FTP_IMAGE, $startPos = 0) {
+
         if (false === @ftp_put($this->getConnection(), $remoteFile, $localFile, $mode, $startPos)) {
-            throw $this->newFTPException(sprintf("put %s into %s failed", $localFile, $remoteFile));
+            throw $this->newFtpException("ftp_put failed: [${remoteFile}, ${localFile}]");
         }
+
         return $this;
     }
 
     /**
-     * Renames a file or a directory on the FTP server.
+     * Rename.
      *
-     * @param string $oldName The old file/directory name.
+     * @param string $oldName The old name.
      * @param string $newName The new name.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function rename($oldName, $newName) {
+
         if (false === @ftp_rename($this->getConnection(), $oldName, $newName)) {
-            throw $this->newFTPException(sprintf("rename %s into %s failed", $oldName, $newName));
+            throw $this->newFtpException("ftp_rename failed: [${oldName}, ${newName}]");
         }
+
         return $this;
     }
 
     /**
-     * Removes a directory.
+     * Remove a directory.
      *
      * @param string $directory The directory.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an I/O error occurs.
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function rmdir($directory) {
+
         if (false === @ftp_rmdir($this->getConnection(), $directory)) {
-            throw $this->newFTPException(sprintf("rmdir %s failed", $directory));
+            throw $this->newFtpException("ftp_rmdir failed: [${directory}]");
         }
+
         return $this;
     }
 }
