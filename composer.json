@@ -36,7 +36,6 @@
         "ext-intl": "*",
         "ext-json": "*",
         "ext-pdo": "*",
-        "ext-ssh2": "*",
         "ext-zip": "*",
         "symfony/yaml": "^2.6|^3.0|^4.0|^5.0"
     },
