@@ -5,6 +5,7 @@ CHANGELOG
 
 - Add get() method into FTP client
 - Add get() method into sFTP client
+- Add PHP extensions into Composer
 
 ### [6.0.0](https://github.com/webeweb/core-library/tree/v6.0.0) (2019-11-25)
 
