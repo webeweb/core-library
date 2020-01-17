@@ -44,7 +44,7 @@ abstract class AbstractTestCase extends TestCase {
      *
      * @var string
      */
-    protected $curlResourcePath = "curl-library.php";
+    protected $curlResourcePath;
 
     /**
      * {@inheritdoc}
@@ -58,5 +58,8 @@ abstract class AbstractTestCase extends TestCase {
         // Set a cURL configuration mock.
         $this->curlConfiguration = new CurlConfiguration();
         $this->curlConfiguration->setHost("https://webeweb.dev/");
+
+        // Set a cURL resource path mock.
+        $this->curlResourcePath = "curl-library.php";
     }
 }
