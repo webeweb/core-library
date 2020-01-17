@@ -38,7 +38,7 @@ class CurlHeadRequestTest extends AbstractTestCase {
         $res = $obj->call();
         $this->assertContains("header: header", $res->getRequestHeader());
         $this->assertContains("queryData=queryData", $res->getRequestUrl());
-        $this->assertNull(json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertNull(json_decode($res->getResponseBody(), true));
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 

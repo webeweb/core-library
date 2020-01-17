@@ -326,10 +326,6 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      */
     private function prepareResponse($requestBody, array $requestHeader, $requestUri, $responseBody, array $responseHeader, array $responseInfo) {
 
-        if (null === $responseBody) {
-            $responseBody = "";
-        }
-
         $response = CurlFactory::newCURLResponse();
         $response->setRequestBody($requestBody);
         $response->setRequestHeader($requestHeader);
