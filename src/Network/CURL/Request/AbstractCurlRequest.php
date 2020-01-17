@@ -49,28 +49,28 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      *
      * @var array
      */
-    private $headers = [];
+    private $headers;
 
     /**
      * Method.
      *
      * @var string
      */
-    private $method = self::HTTP_METHOD_GET;
+    private $method;
 
     /**
      * POST data.
      *
      * @var array
      */
-    private $postData = [];
+    private $postData;
 
     /**
      * Query data.
      *
      * @var array
      */
-    private $queryData = [];
+    private $queryData;
 
     /**
      * Resource path.
@@ -89,7 +89,10 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      */
     protected function __construct($method, CurlConfiguration $configuration, $resourcePath) {
         $this->setConfiguration($configuration);
+        $this->setHeaders([]);
         $this->setMethod($method);
+        $this->setQueryData([]);
+        $this->setPostData([]);
         $this->setResourcePath($resourcePath);
     }
 
@@ -322,6 +325,10 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      * @return CurlResponseInterface Returns the response.
      */
     private function prepareResponse($requestBody, array $requestHeader, $requestUri, $responseBody, array $responseHeader, array $responseInfo) {
+
+        if (null === $responseBody) {
+            $responseBody = "";
+        }
 
         $response = CurlFactory::newCURLResponse();
         $response->setRequestBody($requestBody);
