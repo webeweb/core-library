@@ -43,10 +43,9 @@ class FileSizeRendererTest extends AbstractTestCase {
 
         $this->assertEquals("", FileSizeRenderer::renderSize(null));
         $this->assertEquals("", FileSizeRenderer::renderSize(-1));
-        $this->assertEquals("1.00 Kio", FileSizeRenderer::renderSize(1024));
-        $this->assertEquals("1.000 Kio", FileSizeRenderer::renderSize(1024, 3));
-        $this->assertEquals("1.00 Mio", FileSizeRenderer::renderSize(1048576));
-        $this->assertEquals("1.00 Gio", FileSizeRenderer::renderSize(1073741842));
-        $this->assertEquals("1.00 Gio", FileSizeRenderer::renderSize(1073741842));
+        $this->assertRegExp("/^1[\.,]00 Kio$/", FileSizeRenderer::renderSize(1024));
+        $this->assertRegExp("/^1[\.,]00 Mio$/", FileSizeRenderer::renderSize(1048576));
+        $this->assertRegExp("/^1[\.,]00 Gio$/", FileSizeRenderer::renderSize(1073741842));
+        $this->assertRegExp("/^1[\.,]000 Gio$/", FileSizeRenderer::renderSize(1073741842, 3));
     }
 }
