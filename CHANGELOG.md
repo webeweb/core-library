@@ -6,6 +6,9 @@ CHANGELOG
 - Add FTPs client
 - Add get() method into sFTP client
 - Add PHP extensions into Composer
+- Add string Column trait
+- Add string Schema trait
+- Add string Table trait
 - Improve FTP client
 
 ### [6.0.0](https://github.com/webeweb/core-library/tree/v6.0.0) (2019-11-25)
