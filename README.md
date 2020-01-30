@@ -25,13 +25,12 @@ Provides:
 - Transformer API (set, transformer, etc.)
 - Validation API (rule, rule set, validator, etc.)
 
----
+If you like this package, pay me a beer (or a coffee)
+[![paypal.me](https://img.shields.io/badge/paypal.me-webeweb-0070ba.svg?style=flat-square&logo=paypal)](https://www.paypal.me/webeweb)
 
 ## Compatibility
 
 [![PHP](https://img.shields.io/packagist/php-v/webeweb/core-library.svg?style=flat-square)](http://php.net)
-
----
 
 ## Installation
 
@@ -45,8 +44,6 @@ $ composer require webeweb/core-library
 This command requires you to have Composer installed globally, as explained in
 the [installation chapter](https://getcomposer.org/doc/00-intro.md) of the
 Composer documentation.
-
----
 
 ## Testing
 
@@ -66,9 +63,12 @@ Once all required libraries are installed then do:
 $ vendor/bin/phpunit
 ```
 
----
-
 ## License
 
 `core-library` is released under the MIT License. See the bundled [LICENSE](LICENSE)
 file for details.
+
+## Donate
+
+If you like this work, please consider donating at
+[![paypal.me](https://img.shields.io/badge/paypal.me-webeweb-0070ba.svg?style=flat-square&logo=paypal)](https://www.paypal.me/webeweb)
