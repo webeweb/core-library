@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [6.1.0](https://github.com/webeweb/core-library/tree/v6.1.0) (2020-02-04)
 
 - Add FTPs client
 - Add get() method into sFTP client
