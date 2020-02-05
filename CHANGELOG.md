@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### master
+
+- Add float X trait
+- Add float Y trait
+- Add Point trait
+
 ### [6.1.0](https://github.com/webeweb/core-library/tree/v6.1.0) (2020-02-04)
 
 - Add FTPs client
