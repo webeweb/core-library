@@ -5,6 +5,8 @@ CHANGELOG
 
 - Add float X trait
 - Add float Y trait
+- Add Line
+- Add Point
 - Add Point trait
 
 ### [6.1.0](https://github.com/webeweb/core-library/tree/v6.1.0) (2020-02-04)
