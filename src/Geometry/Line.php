@@ -45,6 +45,24 @@ class Line {
     }
 
     /**
+     * Distance d = sqrt(a² + b²).
+     *
+     * @return float Returns the distance.
+     */
+    public function d() {
+        return $this->getB()->d($this->getA());
+    }
+
+    /**
+     * Degree.
+     *
+     * @return float Returns the degree.
+     */
+    public function deg() {
+        return $this->getB()->deg($this->getA());
+    }
+
+    /**
      * Get the point "A".
      *
      * @return Point Returns the point "A".
@@ -60,6 +78,16 @@ class Line {
      */
     public function getB() {
         return $this->b;
+    }
+
+    /**
+     * Slope m = (y2 - y1) / (x2 - x1).
+     *
+     * @return float Returns the slope.
+     */
+    public function m() {
+
+        return $this->getB()->m($this->getA());
     }
 
     /**
@@ -92,6 +120,30 @@ class Line {
         $b = $this->getB()->getY() - $mx;
 
         return new Point(0, $b);
+    }
+
+    /**
+     * Radian.
+     *
+     * @return float Returns the radian.
+     */
+    public function rad() {
+        return $this->getB()->rad($this->getA());
+    }
+
+    /**
+     * Rotate.
+     *
+     * @param Point $o The point.
+     * @param float $deg The degrees.
+     * @return Line Returns the rotated line.
+     */
+    public function rotate(Point $o, $deg) {
+
+        $a2 = $this->getA()->rotate($o, $deg);
+        $b2 = $this->getB()->rotate($o, $deg);
+
+        return new Line($a2, $b2);
     }
 
     /**

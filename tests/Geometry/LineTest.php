@@ -37,6 +37,42 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the d() method.
+     *
+     * @return void
+     */
+    public function testD() {
+
+        $obj = new Line(new Point(0, 0), new Point(3, 4));
+
+        $this->assertEquals(5, $obj->d());
+    }
+
+    /**
+     * Tests the deg() method.
+     *
+     * @return void
+     */
+    public function testDeg() {
+
+        $obj = new Line(new Point(0, 0), new Point(5, 5));
+
+        $this->assertEquals(45, $obj->deg());
+    }
+
+    /**
+     * Tests the m() method.
+     *
+     * @return void
+     */
+    public function testM() {
+
+        $obj = new Line(new Point(0, 0), new Point(5, 5));
+
+        $this->assertEquals(1, $obj->m());
+    }
+
+    /**
      * Tests the originallyAbscissa() method.
      *
      * @return void
@@ -62,6 +98,22 @@ class LineTest extends AbstractTestCase {
         $res = $obj->originallyOrdered();
         $this->assertEquals(0, $res->getX());
         $this->assertEquals(5, $res->getY());
+    }
+
+    /**
+     * Tests the rotate() method.
+     *
+     * @return void
+     */
+    public function testRotate() {
+
+        $obj = new Line(new Point(1, 1), new Point(5, 5));
+
+        $res = $obj->rotate(new Point(0, 0), 90);
+        $this->assertEquals(1, $res->getA()->getX());
+        $this->assertEquals(-1, $res->getA()->getY());
+        $this->assertEquals(5, $res->getB()->getX());
+        $this->assertEquals(-5, $res->getB()->getY());
     }
 
     /**
