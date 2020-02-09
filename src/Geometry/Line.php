@@ -86,7 +86,6 @@ class Line {
      * @return float Returns the slope.
      */
     public function m() {
-
         return $this->getB()->m($this->getA());
     }
 
