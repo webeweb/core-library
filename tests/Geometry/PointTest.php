@@ -57,6 +57,8 @@ class PointTest extends AbstractTestCase {
         $obj = new Point(5, 5);
 
         $this->assertEquals(45, $obj->deg(new Point(0, 0)));
+        $this->assertEquals(90, $obj->deg(new Point(5, 0)));
+        $this->assertEquals(-90, $obj->deg(new Point(5, 10)));
     }
 
     /**
@@ -69,7 +71,7 @@ class PointTest extends AbstractTestCase {
         $obj = new Point(5, 5);
 
         $this->assertEquals(1, $obj->m(new Point(0, 0)));
-        $this->assertEquals(0, $obj->m(new Point(0, 5)));
+        $this->assertEquals(INF, $obj->m(new Point(5, 10)));
     }
 
     /**

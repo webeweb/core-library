@@ -75,7 +75,7 @@ class Point {
         $y = $this->getY() - $p->getY();
 
         if (0 === $x) {
-            return 0.0;
+            return INF;
         }
 
         return $y / $x;
@@ -88,7 +88,15 @@ class Point {
      * @return float Returns the radian.
      */
     public function rad(Point $p) {
-        return atan($this->m($p));
+
+        $m = $this->m($p);
+        if (INF !== $m) {
+            return atan($m);
+        }
+
+        $rad = pi() / 2;
+
+        return $p->getY() < $this->getY() ? $rad : -$rad;
     }
 
     /**
