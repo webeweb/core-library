@@ -56,7 +56,7 @@ class Line {
     /**
      * Degree.
      *
-     * @return float Returns the degree.
+     * @return Angle Returns the degree.
      */
     public function deg() {
         return $this->getB()->deg($this->getA());
@@ -124,7 +124,7 @@ class Line {
     /**
      * Radian.
      *
-     * @return float Returns the radian.
+     * @return Angle Returns the radian.
      */
     public function rad() {
         return $this->getB()->rad($this->getA());
@@ -148,7 +148,7 @@ class Line {
     /**
      * Set the point "A".
      *
-     * @param Point $a The point "A".
+     * @param Point|null $a The point "A".
      * @return Line Returns this line.
      */
     public function setA(Point $a = null) {
@@ -159,7 +159,7 @@ class Line {
     /**
      * Set the point "B".
      *
-     * @param Point $b The point "B".
+     * @param Point|null $b The point "B".
      * @return Line Returns this line.
      */
     public function setB(Point $b = null) {

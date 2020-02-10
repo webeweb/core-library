@@ -44,7 +44,7 @@ class Point {
      */
     public function d(Point $p) {
 
-        $x = $this->getX() - $p->getY();
+        $x = $this->getX() - $p->getX();
         $y = $this->getY() - $p->getY();
 
         $x2 = $x * $x;
@@ -57,10 +57,13 @@ class Point {
      * Degree.
      *
      * @param Point $p The point.
-     * @return float Returns the degree.
+     * @return Angle Returns the degree.
      */
     public function deg(Point $p) {
-        return (new Angle($this->rad($p)))->deg();
+
+        $rad = $this->rad($p);
+
+        return new Angle($rad->deg(), Angle::UNIT_DEGREE);
     }
 
     /**
@@ -85,18 +88,18 @@ class Point {
      * Radian.
      *
      * @param Point $p The point.
-     * @return float Returns the radian.
+     * @return Angle Returns the radian.
      */
     public function rad(Point $p) {
 
         $m = $this->m($p);
         if (INF !== $m) {
-            return atan($m);
+            return new Angle(atan($m));
         }
 
         $rad = pi() / 2;
 
-        return $p->getY() < $this->getY() ? $rad : -$rad;
+        return new Angle($p->getY() < $this->getY() ? $rad : -$rad);
     }
 
     /**

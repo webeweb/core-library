@@ -58,7 +58,7 @@ class LineTest extends AbstractTestCase {
 
         $obj = new Line(new Point(0, 0), new Point(5, 5));
 
-        $this->assertEquals(45, $obj->deg());
+        $this->assertEquals(45, $obj->deg()->getValue());
     }
 
     /**
