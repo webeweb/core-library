@@ -60,7 +60,7 @@ class Point {
      * @return float Returns the degree.
      */
     public function deg(Point $p) {
-        return $this->rad($p) * 180 / pi();
+        return (new Angle($this->rad($p)))->deg();
     }
 
     /**
@@ -103,12 +103,12 @@ class Point {
      * Rotate.
      *
      * @param Point $o The point.
-     * @param float $deg The degrees.
+     * @param Angle $a The angle.
      * @return Point Returns the rotated point.
      */
-    public function rotate(Point $o, $deg) {
+    public function rotate(Point $o, Angle $a) {
 
-        $rad = $deg * pi() / 180;
+        $rad = $a->rad();
 
         $dX = $this->getX() - $o->getX();
         $dY = $this->getY() - $o->getY();

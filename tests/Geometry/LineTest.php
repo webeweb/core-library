@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Geometry;
 
+use WBW\Library\Core\Geometry\Angle;
 use WBW\Library\Core\Geometry\Line;
 use WBW\Library\Core\Geometry\Point;
 use WBW\Library\Core\Tests\AbstractTestCase;
@@ -109,7 +110,7 @@ class LineTest extends AbstractTestCase {
 
         $obj = new Line(new Point(1, 1), new Point(5, 5));
 
-        $res = $obj->rotate(new Point(0, 0), 90);
+        $res = $obj->rotate(new Point(0, 0), new Angle(90, Angle::UNIT_DEGREE));
         $this->assertEquals(1, $res->getA()->getX());
         $this->assertEquals(-1, $res->getA()->getY());
         $this->assertEquals(5, $res->getB()->getX());

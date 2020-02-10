@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Geometry;
 
+use WBW\Library\Core\Geometry\Angle;
 use WBW\Library\Core\Geometry\Point;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
@@ -83,7 +84,7 @@ class PointTest extends AbstractTestCase {
 
         $obj = new Point(5, 5);
 
-        $res = $obj->rotate(new Point(0, 0), 90);
+        $res = $obj->rotate(new Point(0, 0), new Angle(90, Angle::UNIT_DEGREE));
         $this->assertEquals(5, $res->getX());
         $this->assertEquals(-5, $res->getY());
     }

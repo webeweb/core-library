@@ -134,13 +134,13 @@ class Line {
      * Rotate.
      *
      * @param Point $o The point.
-     * @param float $deg The degrees.
+     * @param Angle $a The angle.
      * @return Line Returns the rotated line.
      */
-    public function rotate(Point $o, $deg) {
+    public function rotate(Point $o, Angle $a) {
 
-        $a2 = $this->getA()->rotate($o, $deg);
-        $b2 = $this->getB()->rotate($o, $deg);
+        $a2 = $this->getA()->rotate($o, $a);
+        $b2 = $this->getB()->rotate($o, $a);
 
         return new Line($a2, $b2);
     }
