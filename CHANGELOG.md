@@ -3,6 +3,7 @@ CHANGELOG
 
 ### master
 
+- Add Angle
 - Add float X trait
 - Add float Y trait
 - Add Line
