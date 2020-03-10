@@ -23,16 +23,39 @@ use WBW\Library\Core\Argument\Exception\StringArgumentException;
 class StringHelper {
 
     /**
+     * Create a DOM node.
+     *
+     * @param string $name The name.
+     * @param string $value The value.
+     * @param array $attributes The attributes.
+     * @return string Returns the DOM node.
+     */
+    public static function domNode($name, $value, array $attributes = []) {
+
+        $template = "<%name%%attributes%>%text%</%name%>";
+
+        $attr = trim(StringHelper::parseArray($attributes));
+        if (0 < strlen($attr)) {
+            $attr = " " . $attr;
+        }
+
+        $text = null !== $value ? trim($value, " ") : "";
+
+        return str_replace(["%name%", "%attributes%", "%text%"], [trim($name), $attr, $text], $template);
+    }
+
+    /**
      * Determines if a value is a string.
      *
      * @param mixed $value The value.
-     * @return void
+     * @return bool Returns true.
      * @throws StringArgumentException Throws a String argument exception if the value is not of expected type.
      */
     public static function isString($value) {
         if (false === is_string($value)) {
             throw new StringArgumentException($value);
         }
+        return true;
     }
 
     /**

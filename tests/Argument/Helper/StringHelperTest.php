@@ -23,6 +23,18 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class StringHelperTest extends AbstractTestCase {
 
     /**
+     * Tests the domNode() method.
+     *
+     * @return void
+     */
+    public function testDomNode() {
+
+        $arg = ["type" => "text/javascript"];
+        $res = file_get_contents(__DIR__ . "/StringHelperTest.testDomNode.html.txt");
+        $this->assertEquals($res, StringHelper::domNode("script", "\n    $(document).ready(function() {});\n", $arg) . "\n");
+    }
+
+    /**
      * Tests the parseArray() method.
      *
      * @return void
