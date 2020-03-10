@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [6.2.0](https://github.com/webeweb/core-library/tree/v6.2.0) (2020-03-10)
 
 - Add Angle
 - Add float X trait
