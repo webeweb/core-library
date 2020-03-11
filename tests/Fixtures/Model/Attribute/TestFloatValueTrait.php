@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fivaluetures\Model\Attribute;
+namespace WBW\Library\Core\Tests\Fixtures\Model\Attribute;
 
 use WBW\Library\Core\Model\Attribute\FloatValueTrait;
 
@@ -17,7 +17,7 @@ use WBW\Library\Core\Model\Attribute\FloatValueTrait;
  * Test float value trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Fivaluetures\Model\Attribute
+ * @package WBW\Library\Core\Tests\Fixtures\Model\Attribute
  */
 class TestFloatValueTrait {
 
