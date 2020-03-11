@@ -72,7 +72,7 @@ abstract class AbstractFtpClient {
      */
     protected function newFtpException($message) {
 
-        $format = "%s://%s:%s@%s:%d ${message}";
+        $format = "%s://%s:%s@%s:%d {$message}";
         $args   = [
             $this->getAuthenticator()->getScheme(),
             $this->getAuthenticator()->getPasswordAuthentication()->getUsername(),

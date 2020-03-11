@@ -111,7 +111,7 @@ abstract class AbstractParser implements ParserInterface {
      * @throws TooLongDataException Throws a too long data exception if the value exceeds the length.
      */
     protected function encodeInteger($value, $length) {
-        $format = "%'.0${length}d";
+        $format = "%'.0{$length}d";
         $output = null === $value ? "" : sprintf($format, $value);
         if ($length < strlen($output)) {
             throw new TooLongDataException($value, $length);

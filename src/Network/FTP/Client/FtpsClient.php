@@ -50,7 +50,7 @@ class FtpsClient extends FtpClient {
 
         $this->setConnection(@ftp_ssl_connect($host, $port, $timeout));
         if (false === $this->getConnection()) {
-            throw $this->newFtpException("ftp_ssl_connect failed: [${host}, ${port}, {$timeout}]");
+            throw $this->newFtpException("ftp_ssl_connect failed: [{$host}, {$port}, {$timeout}]");
         }
 
         return $this;

@@ -53,16 +53,16 @@ class FileSizeRenderer {
             return "";
         }
 
-        $format = "%.${decimals}f";
+        $format = "%.{$decimals}f";
 
         if (self::SIZE_DIVIDER_GIO <= $size) {
-            return sprintf("${format} Gio", $size / self::SIZE_DIVIDER_GIO);
+            return sprintf("{$format} Gio", $size / self::SIZE_DIVIDER_GIO);
         }
 
         if (self::SIZE_DIVIDER_MIO <= $size) {
-            return sprintf("${format} Mio", $size / self::SIZE_DIVIDER_MIO);
+            return sprintf("{$format} Mio", $size / self::SIZE_DIVIDER_MIO);
         }
 
-        return sprintf("${format} Kio", $size / self::SIZE_DIVIDER_KIO);
+        return sprintf("{$format} Kio", $size / self::SIZE_DIVIDER_KIO);
     }
 }

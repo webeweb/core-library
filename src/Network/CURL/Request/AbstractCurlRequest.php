@@ -173,9 +173,9 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
         $msg = curl_errno($stream);
         if (0 === $curlHttpCode) {
             if (false === empty(curl_error($stream))) {
-                $msg = "Call to ${requestUrl} failed : " . curl_error($stream);
+                $msg = "Call to {$requestUrl} failed : " . curl_error($stream);
             } else {
-                $msg = "Call to ${requestUrl} failed, but for an unknown reason. This could happen if you are disconnected from the network.";
+                $msg = "Call to {$requestUrl} failed, but for an unknown reason. This could happen if you are disconnected from the network.";
             }
         }
 

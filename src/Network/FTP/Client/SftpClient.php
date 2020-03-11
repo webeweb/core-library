@@ -71,7 +71,7 @@ class SftpClient extends AbstractFtpClient {
 
         $this->setConnection(ssh2_connect($host, $port));
         if (false === $this->getConnection()) {
-            throw $this->newFtpException("ssh2_connect failed: [${host}, ${$port}]");
+            throw $this->newFtpException("ssh2_connect failed: [{$host}, {$port}]");
         }
 
         return $this;
@@ -87,7 +87,7 @@ class SftpClient extends AbstractFtpClient {
     public function delete($path) {
 
         if (false === ssh2_sftp_unlink($this->getSftp(), $path)) {
-            throw $this->newFtpException("ssh2_sftp_unlink failed: [${path}]");
+            throw $this->newFtpException("ssh2_sftp_unlink failed: [{$path}]");
         }
 
         return $this;
@@ -139,7 +139,7 @@ class SftpClient extends AbstractFtpClient {
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
 
         if (false === ssh2_auth_password($this->getConnection(), $username, $password)) {
-            throw $this->newFtpException("ssh2_auth_password failed: [${username}]");
+            throw $this->newFtpException("ssh2_auth_password failed: [{$username}]");
         }
 
         return $this;
@@ -157,7 +157,7 @@ class SftpClient extends AbstractFtpClient {
     public function mkdir($directory, $mode = 0777, $recursive = false) {
 
         if (false === ssh2_sftp_mkdir($this->getSftp(), $directory, $mode, $recursive)) {
-            throw $this->newFtpException("ssh2_sftp_mkdir failed: [${directory}]");
+            throw $this->newFtpException("ssh2_sftp_mkdir failed: [{$directory}]");
         }
 
         return $this;
@@ -194,7 +194,7 @@ class SftpClient extends AbstractFtpClient {
     public function rename($oldName, $newName) {
 
         if (false === ssh2_sftp_rename($this->getSftp(), $oldName, $newName)) {
-            throw $this->newFtpException("ssh2_sftp_rename failed: [${oldName}, ${newName}]");
+            throw $this->newFtpException("ssh2_sftp_rename failed: [{$oldName}, {$newName}]");
         }
 
         return $this;
@@ -210,7 +210,7 @@ class SftpClient extends AbstractFtpClient {
     public function rmdir($directory) {
 
         if (false === ssh2_sftp_rmdir($this->getSftp(), $directory)) {
-            throw $this->newFtpException("ssh2_sftp_rmdir failed: [${directory}]");
+            throw $this->newFtpException("ssh2_sftp_rmdir failed: [{$directory}]");
         }
 
         return $this;

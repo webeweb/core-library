@@ -61,7 +61,7 @@ class FtpClient extends AbstractFtpClient {
     public function chdir($directory) {
 
         if (false === @ftp_chdir($this->getConnection(), $directory)) {
-            throw $this->newFtpException("ftp_chdir failed: [${directory}]");
+            throw $this->newFtpException("ftp_chdir failed: [{$directory}]");
         }
 
         return $this;
@@ -78,7 +78,7 @@ class FtpClient extends AbstractFtpClient {
     public function chmod($mode, $filename) {
 
         if (false === @ftp_chmod($this->getConnection(), $mode, $filename)) {
-            throw $this->newFtpException("ftp_chmod failed: [${mode}, ${filename}]");
+            throw $this->newFtpException("ftp_chmod failed: [{$mode}, {$filename}]");
         }
 
         return $this;
@@ -113,7 +113,7 @@ class FtpClient extends AbstractFtpClient {
 
         $this->setConnection(@ftp_connect($host, $port, $timeout));
         if (false === $this->getConnection()) {
-            throw $this->newFtpException("ftp_connect failed: [${host}, ${port}, {$timeout}]");
+            throw $this->newFtpException("ftp_connect failed: [{$host}, {$port}, {$timeout}]");
         }
 
         return $this;
@@ -129,7 +129,7 @@ class FtpClient extends AbstractFtpClient {
     public function delete($path) {
 
         if (false === @ftp_delete($this->getConnection(), $path)) {
-            throw $this->newFtpException("ftp_delete failed: [${path}]");
+            throw $this->newFtpException("ftp_delete failed: [{$path}]");
         }
 
         return $this;
@@ -148,7 +148,7 @@ class FtpClient extends AbstractFtpClient {
     public function fget($localStream, $remoteFile, $mode = FTP_BINARY, $resumePos = 0) {
 
         if (false === @ftp_fget($this->getConnection(), $localStream, $remoteFile, $mode, $resumePos)) {
-            throw $this->newFtpException("ftp_fget failed: [${localStream}, ${remoteFile}, ${mode}, ${resumePos}]");
+            throw $this->newFtpException("ftp_fget failed: [{$localStream}, {$remoteFile}, {$mode}, {$resumePos}]");
         }
 
         return $this;
@@ -167,7 +167,7 @@ class FtpClient extends AbstractFtpClient {
     public function fput($remoteFile, $localStream, $mode = FTP_BINARY, $startPos = 0) {
 
         if (false === @ftp_fput($this->getConnection(), $remoteFile, $localStream, $mode, $startPos)) {
-            throw $this->newFtpException("ftp_fput failed: [${remoteFile}, ${localStream}, ${mode}, ${startPos}]");
+            throw $this->newFtpException("ftp_fput failed: [{$remoteFile}, {$localStream}, {$mode}, {$startPos}]");
         }
 
         return $this;
@@ -186,7 +186,7 @@ class FtpClient extends AbstractFtpClient {
     public function get($localFile, $remoteFile, $mode = FTP_BINARY, $resumePos = 0) {
 
         if (false === @ftp_get($this->getConnection(), $localFile, $remoteFile, $mode, $resumePos)) {
-            throw $this->newFtpException("ftp_get failed: [${localFile}, ${remoteFile}, ${mode}, ${remoteFile}]");
+            throw $this->newFtpException("ftp_get failed: [{$localFile}, {$remoteFile}, {$mode}, {$remoteFile}]");
         }
 
         return $this;
@@ -204,7 +204,7 @@ class FtpClient extends AbstractFtpClient {
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
 
         if (false === @ftp_login($this->getConnection(), $username, $password)) {
-            throw $this->newFtpException("ftp_login failed: [${username}]");
+            throw $this->newFtpException("ftp_login failed: [{$username}]");
         }
 
         return $this;
@@ -221,7 +221,7 @@ class FtpClient extends AbstractFtpClient {
 
         $result = @ftp_mdtm($this->getConnection(), $remoteFile);
         if (false === $result) {
-            throw $this->newFtpException("ftp_mdtm failed: [${remoteFile}]");
+            throw $this->newFtpException("ftp_mdtm failed: [{$remoteFile}]");
         }
 
         return $result;
@@ -237,7 +237,7 @@ class FtpClient extends AbstractFtpClient {
     public function mkdir($directory) {
 
         if (false === @ftp_mkdir($this->getConnection(), $directory)) {
-            throw $this->newFtpException("mkdir failed: [${directory}]");
+            throw $this->newFtpException("mkdir failed: [{$directory}]");
         }
 
         return $this;
@@ -254,7 +254,7 @@ class FtpClient extends AbstractFtpClient {
 
         $result = @ftp_mlsd($this->getConnection(), $directory);
         if (false === $result) {
-            throw $this->newFtpException("ftp_mlsd failed: [${directory}]");
+            throw $this->newFtpException("ftp_mlsd failed: [{$directory}]");
         }
 
         return $result;
@@ -323,7 +323,7 @@ class FtpClient extends AbstractFtpClient {
 
         $result = @ftp_nlist($this->getConnection(), $directory);
         if (false === $result) {
-            throw $this->newFtpException("ftp_nlist failed: [${directory}]");
+            throw $this->newFtpException("ftp_nlist failed: [{$directory}]");
         }
 
         return $result;
@@ -339,7 +339,7 @@ class FtpClient extends AbstractFtpClient {
     public function pasv($pasv) {
 
         if (false === @ftp_pasv($this->getConnection(), $pasv)) {
-            throw $this->newFtpException("ftp_pasv failed: [${pasv}]");
+            throw $this->newFtpException("ftp_pasv failed: [{$pasv}]");
         }
 
         return $this;
@@ -358,7 +358,7 @@ class FtpClient extends AbstractFtpClient {
     public function put($localFile, $remoteFile, $mode = FTP_BINARY, $startPos = 0) {
 
         if (false === @ftp_put($this->getConnection(), $remoteFile, $localFile, $mode, $startPos)) {
-            throw $this->newFtpException("ftp_put failed: [${remoteFile}, ${localFile}, ${mode}, ${startPos}]");
+            throw $this->newFtpException("ftp_put failed: [{$remoteFile}, {$localFile}, {$mode}, {$startPos}]");
         }
 
         return $this;
@@ -391,7 +391,7 @@ class FtpClient extends AbstractFtpClient {
 
         $result = @ftp_rawList($this->getConnection(), $directory, $recursive);
         if (false === $result) {
-            throw $this->newFtpException("ftp_nlist failed: [${directory}, ${recursive}]");
+            throw $this->newFtpException("ftp_nlist failed: [{$directory}, {$recursive}]");
         }
 
         return $result;
@@ -408,7 +408,7 @@ class FtpClient extends AbstractFtpClient {
     public function rename($oldName, $newName) {
 
         if (false === @ftp_rename($this->getConnection(), $oldName, $newName)) {
-            throw $this->newFtpException("ftp_rename failed: [${oldName}, ${newName}]");
+            throw $this->newFtpException("ftp_rename failed: [{$oldName}, {$newName}]");
         }
 
         return $this;
@@ -424,7 +424,7 @@ class FtpClient extends AbstractFtpClient {
     public function rmdir($directory) {
 
         if (false === @ftp_rmdir($this->getConnection(), $directory)) {
-            throw $this->newFtpException("ftp_rmdir failed: [${directory}]");
+            throw $this->newFtpException("ftp_rmdir failed: [{$directory}]");
         }
 
         return $this;
@@ -441,7 +441,7 @@ class FtpClient extends AbstractFtpClient {
 
         $result = @ftp_size($this->getConnection(), $remoteFile);
         if (-1 === $result) {
-            throw $this->newFtpException("ftp_size failed: [${remoteFile}]");
+            throw $this->newFtpException("ftp_size failed: [{$remoteFile}]");
         }
 
         return $result;
