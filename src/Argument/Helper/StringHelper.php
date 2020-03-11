@@ -28,9 +28,10 @@ class StringHelper {
      * @param string $name The name.
      * @param string $value The value.
      * @param array $attributes The attributes.
+     * @param bool $shortTag Short tag ?
      * @return string Returns the DOM node.
      */
-    public static function domNode($name, $value, array $attributes = []) {
+    public static function domNode($name, $value, array $attributes = [], $shortTag = false) {
 
         $template = "<%name%%attributes%>%text%</%name%>";
 
@@ -40,6 +41,9 @@ class StringHelper {
         }
 
         $text = null !== $value ? trim($value, " ") : "";
+        if ("" === $text && true === $shortTag) {
+            $template = str_replace(">%text%</%name%>", "/>", $template);
+        }
 
         return str_replace(["%name%", "%attributes%", "%text%"], [trim($name), $attr, $text], $template);
     }

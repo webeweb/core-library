@@ -15,7 +15,7 @@ use WBW\Library\Core\Argument\Helper\StringHelper;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * String utility test.
+ * String helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Argument\Helper
@@ -32,6 +32,18 @@ class StringHelperTest extends AbstractTestCase {
         $arg = ["type" => "text/javascript"];
         $res = file_get_contents(__DIR__ . "/StringHelperTest.testDomNode.html.txt");
         $this->assertEquals($res, StringHelper::domNode("script", "\n    $(document).ready(function() {});\n", $arg) . "\n");
+    }
+
+    /**
+     * Tests the domNode() method.
+     *
+     * @return void
+     */
+    public function testDomNodeWithShortTag() {
+
+        $arg = ["type" => "text/javascript"];
+        $res = '<script type="text/javascript"/>';
+        $this->assertEquals($res, StringHelper::domNode("script", null, $arg, true));
     }
 
     /**
