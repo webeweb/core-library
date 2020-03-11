@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+### [6.3.0](https://github.com/webeweb/core-library/tree/v6.3.0) (2020-03-11)
+
+- Add string Link trait
+- Add string Query trait
+- Add string URL trait
+- Improve String helper
+
 ### [6.2.0](https://github.com/webeweb/core-library/tree/v6.2.0) (2020-03-10)
 
 - Add Angle
