@@ -80,7 +80,7 @@ class ImageTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The image \"${pathname}\" was not found", $ex->getMessage());
+            $this->assertEquals("The image \"{$pathname}\" was not found", $ex->getMessage());
         }
     }
 
