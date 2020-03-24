@@ -3,6 +3,7 @@ CHANGELOG
 
 ### master
 
+- Add integer Page trait
 - Add string Hash trait
 - Add string Hash "MD5" trait
 - Add string Hash "SHA1" trait

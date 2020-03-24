@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\ThirdParty\OcrLad\Model;
 
 use WBW\Library\Core\Geometry\Point;
+use WBW\Library\Core\Model\Attribute\IntegerPageTrait;
 use WBW\Library\Core\Model\Attribute\StringContentTrait;
 use WBW\Library\Core\Model\Attribute\StringTypeTrait;
 
@@ -23,8 +24,23 @@ use WBW\Library\Core\Model\Attribute\StringTypeTrait;
  */
 class Word {
 
+    use IntegerPageTrait;
     use StringContentTrait;
     use StringTypeTrait;
+
+    /**
+     * Type "line break".
+     *
+     * @var string
+     */
+    const TYPE_LINE_BREAK = "LB";
+
+    /**
+     * Type "no line break".
+     *
+     * @var string
+     */
+    const TYPE_NO_LINE_BREAK = "NLB";
 
     /**
      * OCR confidence.
