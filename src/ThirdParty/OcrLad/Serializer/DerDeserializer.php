@@ -62,7 +62,7 @@ class DerDeserializer {
 
         fclose($stream);
 
-        return $model;
+        return DerDeserializer::paginate($model);
     }
 
     /**
@@ -111,6 +111,32 @@ class DerDeserializer {
         $model->setY2(floatval($data[6]));
 
         return $model;
+    }
+
+    /**
+     * Paginate.
+     *
+     * @param Document $document The document.
+     * @return Document Returns the document.
+     */
+    protected static function paginate(Document $document) {
+
+        $last = 0;
+        $page = 0;
+
+        foreach ($document->getWords() as $current) {
+
+            if ($current->getY1() < $last) {
+                $last = 0;
+                ++$page;
+            }
+
+            $last = $current->getY1();
+
+            $document->getPages()[$page]->addWord($current);
+        }
+
+        return $document;
     }
 
     /**
