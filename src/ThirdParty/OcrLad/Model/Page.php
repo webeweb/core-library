@@ -13,6 +13,7 @@ namespace WBW\Library\Core\ThirdParty\OcrLad\Model;
 
 use WBW\Library\Core\Model\Attribute\IntegerHeightTrait;
 use WBW\Library\Core\Model\Attribute\IntegerWidthTrait;
+use WBW\Library\Core\ThirdParty\OcrLad\Model\Attribute\ArrayWordsTrait;
 
 /**
  * Page.
@@ -22,6 +23,7 @@ use WBW\Library\Core\Model\Attribute\IntegerWidthTrait;
  */
 class Page {
 
+    use ArrayWordsTrait;
     use IntegerHeightTrait;
     use IntegerWidthTrait;
 
@@ -50,7 +52,7 @@ class Page {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO.
+        $this->setWords([]);
     }
 
     /**

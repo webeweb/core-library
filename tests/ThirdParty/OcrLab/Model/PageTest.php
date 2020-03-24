@@ -36,6 +36,7 @@ class PageTest extends AbstractTestCase {
         $this->assertNull($obj->getRotation());
         $this->assertNull($obj->getTag());
         $this->assertNull($obj->getWidth());
+        $this->assertEquals([], $obj->getWords());
     }
 
     /**
