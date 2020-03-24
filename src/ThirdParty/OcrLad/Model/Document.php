@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\ThirdParty\OcrLad\Model;
 
 use WBW\Library\Core\Model\Attribute\StringFilenameTrait;
+use WBW\Library\Core\ThirdParty\OcrLad\Model\Attribute\ArrayWordsTrait;
 
 /**
  * Document.
@@ -21,6 +22,7 @@ use WBW\Library\Core\Model\Attribute\StringFilenameTrait;
  */
 class Document {
 
+    use ArrayWordsTrait;
     use StringFilenameTrait;
 
     /**
@@ -29,13 +31,6 @@ class Document {
      * @var Page[]
      */
     private $pages;
-
-    /**
-     * Words.
-     *
-     * @var Word[]
-     */
-    private $words;
 
     /**
      * Constructor.
@@ -57,32 +52,12 @@ class Document {
     }
 
     /**
-     * Add a word.
-     *
-     * @param Word $word The word.
-     * @return Document Returns this document.
-     */
-    public function addWord(Word $word) {
-        $this->words[] = $word;
-        return $this;
-    }
-
-    /**
      * Get the pages.
      *
      * @return Page[] Returns the pages.
      */
     public function getPages() {
         return $this->pages;
-    }
-
-    /**
-     * Get the words.
-     *
-     * @return Word[] Returns the words.
-     */
-    public function getWords() {
-        return $this->words;
     }
 
     /**
@@ -93,17 +68,6 @@ class Document {
      */
     protected function setPages(array $pages) {
         $this->pages = $pages;
-        return $this;
-    }
-
-    /**
-     * Set the words.
-     *
-     * @param Word[] $words The words.
-     * @return Document Returns this document.
-     */
-    protected function setWords(array $words) {
-        $this->words = $words;
         return $this;
     }
 }
