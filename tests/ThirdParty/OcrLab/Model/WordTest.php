@@ -30,10 +30,14 @@ class WordTest extends AbstractTestCase {
      */
     public function testConstruct() {
 
+        $this->assertEquals("LB", Word::TYPE_LINE_BREAK);
+        $this->assertEquals("NLB", Word::TYPE_NO_LINE_BREAK);
+
         $obj = new Word();
 
         $this->assertNull($obj->getContent());
         $this->assertNull($obj->getOcrConfidence());
+        $this->assertNull($obj->getPage());
         $this->assertInstanceOf(Point::class, $obj->getPoint1());
         $this->assertInstanceOf(Point::class, $obj->getPoint2());
         $this->assertNull($obj->getType());

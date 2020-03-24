@@ -101,9 +101,12 @@ class DerDeserializer {
             return null;
         }
 
+        preg_match("/(LB|NLB).?([0-9]+)/", trim($data[1]), $matches);
+
         $model = new Word();
         $model->setContent(trim($data[0]));
-        $model->setType(trim($data[1]));
+        $model->setType($matches[1]);
+        $model->setPage(intval($matches[2]));
         $model->setOcrConfidence(floatval(str_replace(",", ".", $data[2])));
         $model->setX1(floatval($data[3]));
         $model->setY1(floatval($data[4]));
@@ -121,18 +124,8 @@ class DerDeserializer {
      */
     protected static function paginate(Document $document) {
 
-        $last = 0;
-        $page = 0;
-
         foreach ($document->getWords() as $current) {
-
-            if ($current->getY1() < $last) {
-                $last = 0;
-                ++$page;
-            }
-
-            $last = $current->getY1();
-
+            $page = $current->getPage() - 1;
             $document->getPages()[$page]->addWord($current);
         }
 

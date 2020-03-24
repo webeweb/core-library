@@ -88,8 +88,9 @@ class DerDeserializerTest extends AbstractTestCase {
 
         $res = TestDerDeserializer::deserializeWord($rawData);
         $this->assertEquals("Hello", $res->getContent());
-        $this->assertEquals("NLB\e1", $res->getType());
+        $this->assertEquals(1, $res->getPage());
         $this->assertEquals(0.965782880783081, $res->getOcrConfidence());
+        $this->assertEquals("NLB", $res->getType());
         $this->assertEquals(1594, $res->getX1());
         $this->assertEquals(158, $res->getY1());
         $this->assertEquals(1659, $res->getX2());
