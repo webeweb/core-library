@@ -39,5 +39,4 @@ class WordHelper {
 
         return implode($glue, $output);
     }
-
 }
