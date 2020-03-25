@@ -36,6 +36,15 @@ trait FloatXTrait {
     }
 
     /**
+     * Get the (int) x.
+     *
+     * @return int Returns the x.
+     */
+    public function getXInt() {
+        return intval($this->x);
+    }
+
+    /**
      * Set the x.
      *
      * @param float $x The x.

@@ -45,5 +45,6 @@ class FloatXTraitTest extends AbstractTestCase {
 
         $obj->setX(1.01);
         $this->assertEquals(1.01, $obj->getX());
+        $this->assertEquals(1, $obj->getXInt());
     }
 }
