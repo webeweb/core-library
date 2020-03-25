@@ -44,7 +44,7 @@ class DerDeserializerTest extends AbstractTestCase {
         $res = DerDeserializer::deserializeDocument($filename);
         $this->assertEquals($filename, $res->getFilename());
         $this->assertCount(1, $res->getPages());
-        $this->assertCount(1, $res->getWords());
+        $this->assertCount(3, $res->getWords());
     }
 
     /**
