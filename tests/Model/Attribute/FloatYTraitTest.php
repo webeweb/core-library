@@ -45,5 +45,6 @@ class FloatYTraitTest extends AbstractTestCase {
 
         $obj->setY(1.01);
         $this->assertEquals(1.01, $obj->getY());
+        $this->assertEquals(1, $obj->getYInt());
     }
 }

@@ -36,6 +36,15 @@ trait FloatYTrait {
     }
 
     /**
+     * Get the (int) y.
+     *
+     * @return int Returns the y.
+     */
+    public function getYInt() {
+        return intval($this->y);
+    }
+
+    /**
      * Set the y.
      *
      * @param float $y The y.
