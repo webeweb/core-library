@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Tests;
 
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 use WBW\Library\Core\Network\CURL\Configuration\CurlConfiguration;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
@@ -47,6 +48,13 @@ abstract class AbstractTestCase extends TestCase {
     protected $curlResourcePath;
 
     /**
+     * Logger.
+     *
+     * @var LoggerInterface
+     */
+    protected $logger;
+
+    /**
      * {@inheritdoc}
      */
     protected function setUp() {
@@ -61,5 +69,8 @@ abstract class AbstractTestCase extends TestCase {
 
         // Set a cURL resource path mock.
         $this->curlResourcePath = "curl-library.php";
+
+        // Set a Logger mock.
+        $this->logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
     }
 }
