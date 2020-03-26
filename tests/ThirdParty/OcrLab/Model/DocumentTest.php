@@ -13,6 +13,7 @@ namespace WBW\Library\Core\Tests\ThirdParty\OcrLab\Model;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\OcrLad\Model\Document;
+use WBW\Library\Core\ThirdParty\OcrLad\Model\Page;
 
 /**
  * Document  test.
@@ -21,6 +22,24 @@ use WBW\Library\Core\ThirdParty\OcrLad\Model\Document;
  * @package WBW\Library\Core\Tests\ThirdParty\OcrLab\Model
  */
 class DocumentTest extends AbstractTestCase {
+
+    /**
+     * Tests the addPage() method.
+     *
+     * @return void
+     */
+    public function testAddPage() {
+
+        // Set a Page mock.
+        $word = new Page();
+
+        $obj = new Document();
+
+        $obj->addPage($word);
+        $this->assertSame($word, $obj->getPages()[0]);
+        $this->assertEquals(1, $obj->getNumberPages());
+        $this->assertTrue($obj->hasPages());
+    }
 
     /**
      * Tests the __construct() method.
@@ -34,5 +53,10 @@ class DocumentTest extends AbstractTestCase {
         $this->assertNull($obj->getFilename());
         $this->assertEquals([], $obj->getPages());
         $this->assertEquals([], $obj->getWords());
+
+        $this->assertEquals(0, $obj->getNumberPages());
+        $this->assertEquals(0, $obj->getNumberWords());
+        $this->assertFalse($obj->hasPages());
+        $this->assertFalse($obj->hasWords());
     }
 }

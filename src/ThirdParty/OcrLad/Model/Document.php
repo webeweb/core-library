@@ -52,12 +52,30 @@ class Document {
     }
 
     /**
+     * Get the number of pages.
+     *
+     * @return int Returns the number of pages.
+     */
+    public function getNumberPages() {
+        return count($this->pages);
+    }
+
+    /**
      * Get the pages.
      *
      * @return Page[] Returns the pages.
      */
     public function getPages() {
         return $this->pages;
+    }
+
+    /**
+     * Determines if this instance has pages.
+     *
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public function hasPages() {
+        return 1 <= $this->getNumberPages();
     }
 
     /**
