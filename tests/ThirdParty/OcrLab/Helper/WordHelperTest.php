@@ -35,7 +35,7 @@ class WordHelperTest extends AbstractTestCase {
         $word2 = (new Word())->setContent("World");
         $word3 = (new Word())->setContent("!");
 
-        $this->assertEquals("HelloWorld!", WordHelper::implodeWords([$word1, $word2, $word3]));
-        $this->assertEquals("Hello World !", WordHelper::implodeWords([$word1, $word2, $word3], " "));
+        $this->assertEquals("Hello World !", WordHelper::implodeWords([$word1, $word2, $word3]));
+        $this->assertEquals("HelloWorld!", WordHelper::implodeWords([$word1, $word2, $word3], ""));
     }
 }
