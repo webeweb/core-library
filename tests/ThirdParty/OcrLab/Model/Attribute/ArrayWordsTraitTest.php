@@ -37,6 +37,8 @@ class ArrayWordsTraitTest extends AbstractTestCase {
 
         $obj->addWord($word);
         $this->assertSame($word, $obj->getWords()[0]);
+        $this->assertEquals(1, $obj->getNumberWords());
+        $this->assertTrue($obj->hasWords());
     }
 
     /**
@@ -49,5 +51,7 @@ class ArrayWordsTraitTest extends AbstractTestCase {
         $obj = new TestArrayWordsTrait();
 
         $this->assertEquals([], $obj->getWords());
+        $this->assertEquals(0, $obj->getNumberWords());
+        $this->assertFalse($obj->hasWords());
     }
 }

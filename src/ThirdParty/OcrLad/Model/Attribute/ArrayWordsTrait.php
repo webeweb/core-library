@@ -39,12 +39,30 @@ trait ArrayWordsTrait {
     }
 
     /**
+     * Get the number of words.
+     *
+     * @return int Returns the number of words.
+     */
+    public function getNumberWords() {
+        return count($this->words);
+    }
+
+    /**
      * Get the words.
      *
      * @return Word[] Returns the words.
      */
     public function getWords() {
         return $this->words;
+    }
+
+    /**
+     * Determines if this instance has words.
+     *
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public function hasWords() {
+        return 1 <= $this->getNumberWords();
     }
 
     /**
