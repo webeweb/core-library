@@ -38,7 +38,7 @@ class TestDerDeserializer extends DerDeserializer {
     /**
      * {@inheritDoc}
      */
-    public static function splitHeader($rawData) {
-        return parent::splitHeader($rawData);
+    public static function processHeaders($rawData) {
+        return parent::processHeaders($rawData);
     }
 }

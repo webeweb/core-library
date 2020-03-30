@@ -43,12 +43,12 @@ class DerDeserializer {
 
         $stream = fopen($filename, "r");
 
-        $headers = DerDeserializer::splitHeader(fgets($stream));
+        $headers = DerDeserializer::processHeaders(fgets($stream));
         foreach ($headers as $current) {
 
             $page = DerDeserializer::deserializePage($current);
             if (null !== $page) {
-                $model->addPage($page);
+                $model->addPage($page->setParent($model));
             }
         }
 
@@ -62,7 +62,7 @@ class DerDeserializer {
 
         fclose($stream);
 
-        return DerDeserializer::paginate($model);
+        return DerDeserializer::processDocument($model);
     }
 
     /**
@@ -117,28 +117,31 @@ class DerDeserializer {
     }
 
     /**
-     * Paginate.
+     * Process the document.
      *
      * @param Document $document The document.
      * @return Document Returns the document.
      */
-    protected static function paginate(Document $document) {
+    protected static function processDocument(Document $document) {
 
         foreach ($document->getWords() as $current) {
-            $page = $current->getPage() - 1;
-            $document->getPages()[$page]->addWord($current);
+
+            $document->index($current);
+
+            $page = $document->getPage($current->getPage() - 1);
+            $page->addWord($current->setParent($page));
         }
 
         return $document;
     }
 
     /**
-     * Split an header.
+     * Process the headers.
      *
      * @param string $rawData The raw data.
      * @return string[] Returns the headers.
      */
-    protected static function splitHeader($rawData) {
+    protected static function processHeaders($rawData) {
 
         $data = explode(DerDeserializer::DER_DELIMITER, $rawData);
         if (6 === count($data)) {

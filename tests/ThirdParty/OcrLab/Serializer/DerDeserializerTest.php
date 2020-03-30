@@ -45,6 +45,14 @@ class DerDeserializerTest extends AbstractTestCase {
         $this->assertEquals($filename, $res->getFilename());
         $this->assertEquals(1, $res->getNumberPages());
         $this->assertEquals(3, $res->getNumberWords());
+
+        foreach ($res->getPages() as $current) {
+            $this->assertSame($res, $current->getParent());
+        }
+
+        foreach ($res->getWords() as $current) {
+            $this->assertSame($res->getPage(0), $current->getParent());
+        }
     }
 
     /**
@@ -118,7 +126,7 @@ class DerDeserializerTest extends AbstractTestCase {
         // Set a raw data.
         $rawData = "300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;";
 
-        $res = TestDerDeserializer::splitHeader($rawData);
+        $res = TestDerDeserializer::processHeaders($rawData);
         $this->assertCount(7, $res);
 
         $this->assertEquals("300;2479;3508;0;0;", $res[0]);
