@@ -28,6 +28,13 @@ class Page {
     use IntegerWidthTrait;
 
     /**
+     * Parent.
+     *
+     * @var Document
+     */
+    private $parent;
+
+    /**
      * Resolution.
      *
      * @var int
@@ -56,6 +63,15 @@ class Page {
     }
 
     /**
+     * Get the parent.
+     *
+     * @return Document Returns the parent.
+     */
+    public function getParent() {
+        return $this->parent;
+    }
+
+    /**
      * Get the resolution.
      *
      * @return int Returns the resolution.
@@ -80,6 +96,17 @@ class Page {
      */
     public function getTag() {
         return $this->tag;
+    }
+
+    /**
+     * Set the parent.
+     *
+     * @param Document|null $parent The parent.
+     * @return Page Returns this page.
+     */
+    public function setParent(Document $parent = null) {
+        $this->parent = $parent;
+        return $this;
     }
 
     /**

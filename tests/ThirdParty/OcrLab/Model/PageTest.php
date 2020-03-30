@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\Tests\ThirdParty\OcrLab\Model;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\ThirdParty\OcrLad\Model\Document;
 use WBW\Library\Core\ThirdParty\OcrLad\Model\Page;
 
 /**
@@ -32,11 +33,28 @@ class PageTest extends AbstractTestCase {
         $obj = new Page();
 
         $this->assertNull($obj->getHeight());
+        $this->assertNull($obj->getParent());
         $this->assertNull($obj->getResolution());
         $this->assertNull($obj->getRotation());
         $this->assertNull($obj->getTag());
         $this->assertNull($obj->getWidth());
         $this->assertEquals([], $obj->getWords());
+    }
+
+    /**
+     * Tests the setParent() method.
+     *
+     * @return void
+     */
+    public function testSetParent() {
+
+        // Set a Document mock.
+        $document = new Document();
+
+        $obj = new Page();
+
+        $obj->setParent($document);
+        $this->assertSame($document, $obj->getParent());
     }
 
     /**
