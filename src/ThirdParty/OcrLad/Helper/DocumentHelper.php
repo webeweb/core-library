@@ -13,7 +13,6 @@ namespace WBW\Library\Core\ThirdParty\OcrLad\Helper;
 
 use WBW\Library\Core\Geometry\Point;
 use WBW\Library\Core\ThirdParty\OcrLad\Model\Document;
-use WBW\Library\Core\ThirdParty\OcrLad\Model\Page;
 use WBW\Library\Core\ThirdParty\OcrLad\Model\Word;
 
 /**
@@ -44,10 +43,10 @@ class DocumentHelper {
      * Find a word.
      *
      * @param Point $position The position.
-     * @param Page|null $page The page.
+     * @param int|null $page The page.
      * @return Word Returns the word in case of success, null otherwise.
      */
-    public function findWordAt(Point $position, Page $page = null) {
+    public function findWordAt(Point $position, $page = null) {
 
         foreach ($this->getWords($page) as $current) {
 
@@ -67,10 +66,10 @@ class DocumentHelper {
      *
      * @param Point $start The start position.
      * @param Point $end The end position.
-     * @param Page|null $page The page.
+     * @param int|null $page The page.
      * @return Word[] Returns the words.
      */
-    public function findWordsIn(Point $start, Point $end, Page $page = null) {
+    public function findWordsIn(Point $start, Point $end, $page = null) {
 
         $matches = [];
 
@@ -94,10 +93,10 @@ class DocumentHelper {
      * Find the words.
      *
      * @param Point $start The start position.
-     * @param Page|null $page The page.
+     * @param int|null $page The page.
      * @return Word[] Returns the words.
      */
-    public function findWordsStartAt(Point $start, Page $page = null) {
+    public function findWordsStartAt(Point $start, $page = null) {
 
         $matches = [];
 
@@ -126,11 +125,12 @@ class DocumentHelper {
     /**
      * Get the words.
      *
-     * @param Page|null $page The page.
+     * @param int|null $p The page.
      * @return Word[] Returns the words.
      */
-    protected function getWords(Page $page = null) {
+    protected function getWords($p = null) {
 
+        $page = $this->getDocument()->getPage($p);
         if (null !== $page) {
             return $page->getWords();
         }
