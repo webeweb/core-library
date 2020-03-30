@@ -31,12 +31,12 @@ class DocumentTest extends AbstractTestCase {
     public function testAddPage() {
 
         // Set a Page mock.
-        $word = new Page();
+        $page = new Page();
 
         $obj = new Document();
 
-        $obj->addPage($word);
-        $this->assertSame($word, $obj->getPages()[0]);
+        $obj->addPage($page);
+        $this->assertSame($page, $obj->getPages()[0]);
         $this->assertEquals(1, $obj->getNumberPages());
         $this->assertTrue($obj->hasPages());
     }
@@ -51,6 +51,7 @@ class DocumentTest extends AbstractTestCase {
         $obj = new Document();
 
         $this->assertNull($obj->getFilename());
+        $this->assertEquals([], $obj->getIndex());
         $this->assertEquals([], $obj->getPages());
         $this->assertEquals([], $obj->getWords());
 
@@ -58,5 +59,24 @@ class DocumentTest extends AbstractTestCase {
         $this->assertEquals(0, $obj->getNumberWords());
         $this->assertFalse($obj->hasPages());
         $this->assertFalse($obj->hasWords());
+    }
+
+    /**
+     * Tests the getPage() method.
+     *
+     * @return void
+     */
+    public function testGetPage() {
+
+        // Set a Page mock.
+        $page = new Page();
+
+        $obj = new Document();
+        $obj->addPage($page);
+
+        $this->assertSame($page, $obj->getPage(0));
+
+        $this->assertNull($obj->getPage(-1));
+        $this->assertNull($obj->getPage(1));
     }
 }

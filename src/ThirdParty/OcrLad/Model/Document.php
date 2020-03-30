@@ -26,6 +26,13 @@ class Document {
     use StringFilenameTrait;
 
     /**
+     * Index.
+     *
+     * @var Word[]
+     */
+    private $index;
+
+    /**
      * Pages.
      *
      * @var Page[]
@@ -36,6 +43,7 @@ class Document {
      * Constructor.
      */
     public function __construct() {
+        $this->setIndex([]);
         $this->setPages([]);
         $this->setWords([]);
     }
@@ -52,12 +60,34 @@ class Document {
     }
 
     /**
+     * Get the index.
+     *
+     * @return Word[] Returns the index.
+     */
+    public function getIndex() {
+        return $this->index;
+    }
+
+    /**
      * Get the number of pages.
      *
      * @return int Returns the number of pages.
      */
     public function getNumberPages() {
-        return count($this->pages);
+        return count($this->getPages());
+    }
+
+    /**
+     * Get a page.
+     *
+     * @param int $p The page.
+     * @return Page|null Returns the page in case of success, null otherwise.
+     */
+    public function getPage($p) {
+        if (false === is_int($p) || $p < 0 || $this->getNumberPages() <= $p) {
+            return null;
+        }
+        return $this->getPages()[$p];
     }
 
     /**
@@ -76,6 +106,34 @@ class Document {
      */
     public function hasPages() {
         return 1 <= $this->getNumberPages();
+    }
+
+    /**
+     * Index a word.
+     *
+     * @param Word $word The word.
+     * @return Document Returns this document.
+     */
+    public function index(Word $word) {
+
+        if (false === array_key_exists($word->getContent(), $this->index)) {
+            $this->index[$word->getContent()] = [];
+        }
+
+        $this->index[$word->getContent()][] = $word;
+
+        return $this;
+    }
+
+    /**
+     * Set the index.
+     *
+     * @param Word[] $index The index.
+     * @return Document Returns this document.
+     */
+    protected function setIndex($index) {
+        $this->index = $index;
+        return $this;
     }
 
     /**
