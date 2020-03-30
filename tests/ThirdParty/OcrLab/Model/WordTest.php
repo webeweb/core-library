@@ -38,6 +38,7 @@ class WordTest extends AbstractTestCase {
         $this->assertNull($obj->getContent());
         $this->assertNull($obj->getOcrConfidence());
         $this->assertNull($obj->getPage());
+        $this->assertNull($obj->getParent());
         $this->assertInstanceOf(Point::class, $obj->getPoint1());
         $this->assertInstanceOf(Point::class, $obj->getPoint2());
         $this->assertNull($obj->getType());

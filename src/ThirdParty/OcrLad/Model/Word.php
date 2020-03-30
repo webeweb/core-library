@@ -50,6 +50,13 @@ class Word {
     private $ocrConfidence;
 
     /**
+     * Parent.
+     *
+     * @var Page
+     */
+    private $parent;
+
+    /**
      * Point 1.
      *
      * @var Point
@@ -78,6 +85,15 @@ class Word {
      */
     public function getOcrConfidence() {
         return $this->ocrConfidence;
+    }
+
+    /**
+     * Get the parent.
+     *
+     * @return Page Returns the parent.
+     */
+    public function getParent() {
+        return $this->parent;
     }
 
     /**
@@ -142,6 +158,17 @@ class Word {
      */
     public function setOcrConfidence($ocrConfidence) {
         $this->ocrConfidence = $ocrConfidence;
+        return $this;
+    }
+
+    /**
+     * Set the parent.
+     *
+     * @param Page|null $parent The parent.
+     * @return Word Returns this word.
+     */
+    public function setParent(Page $parent = null) {
+        $this->parent = $parent;
         return $this;
     }
 
