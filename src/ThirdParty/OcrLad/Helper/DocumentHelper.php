@@ -76,10 +76,10 @@ class DocumentHelper {
         foreach ($this->getWords($page) as $current) {
 
             $dX1 = $start->getXInt() <= $current->getPoint1()->getXInt();
-            $dY1 = $start->getYInt() === $current->getPoint1()->getYInt();
+            $dY1 = $start->getYInt() <= $current->getPoint1()->getYInt();
 
-            $dX2 = $current->getPoint2()->getXInt() < $end->getXInt();
-            $dY2 = $current->getPoint1()->getYInt() <= $end->getYInt();
+            $dX2 = $current->getPoint2()->getXInt() <= $end->getXInt();
+            $dY2 = $current->getPoint2()->getYInt() <= $end->getYInt();
 
             if (true === $dX1 && true === $dY1 && true === $dX2 && true === $dY2) {
                 $matches[] = $current;
