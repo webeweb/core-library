@@ -44,9 +44,6 @@ trait IntegerPageTrait {
      * @throws InvalidArgumentException Throws an invalid argument exception if the page is not between 1 and 65536.
      */
     public function setPage($page) {
-        if ($page < 0 || 65536 < $page) {
-            throw new InvalidArgumentException("The page must be between 1 and 65536");
-        }
         $this->page = $page;
         return $this;
     }
