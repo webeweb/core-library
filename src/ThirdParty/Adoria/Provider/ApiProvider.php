@@ -18,8 +18,8 @@ use WBW\Library\Core\ThirdParty\Adoria\API\ApiProviderInterface;
 use WBW\Library\Core\ThirdParty\Adoria\Exception\ApiException;
 use WBW\Library\Core\ThirdParty\Adoria\Model\RequestData;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
-use WBW\Library\Core\ThirdParty\Adoria\Normalizer\RequestNormalizer;
-use WBW\Library\Core\ThirdParty\Adoria\Normalizer\ResponseNormalizer;
+use WBW\Library\Core\ThirdParty\Adoria\Serializer\RequestSerializer;
+use WBW\Library\Core\ThirdParty\Adoria\Serializer\ResponseDeserializer;
 
 /**
  * API provider.
@@ -94,11 +94,11 @@ class ApiProvider implements ApiProviderInterface {
      */
     public function requestData(RequestData $requestData) {
 
-        $parameters = RequestNormalizer::normalizeRequestData($requestData);
+        $parameters = RequestSerializer::serializeRequestData($requestData);
 
         $rawResponse = $this->callAPI(self::REQUEST_DATA_RESOURCE_PATH, $parameters);
 
-        return ResponseNormalizer::denormalizeResult($rawResponse);
+        return ResponseDeserializer::deserializeResult($rawResponse);
     }
 
     /**

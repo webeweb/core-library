@@ -9,21 +9,21 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Normalizer;
+namespace WBW\Library\Core\Tests\Adoria\Serializer;
 
 use DateTime;
 use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Adoria\Model\RequestData;
-use WBW\Library\Core\ThirdParty\Adoria\Normalizer\RequestNormalizer;
+use WBW\Library\Core\ThirdParty\Adoria\Serializer\RequestSerializer;
 
 /**
- * Request normalizer test.
+ * Request serializer test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Adoria\Normalizer
+ * @package WBW\Library\Core\Tests\Adoria\Serializer
  */
-class RequestNormalizerTest extends AbstractTestCase {
+class RequestSerializerTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.
@@ -32,16 +32,16 @@ class RequestNormalizerTest extends AbstractTestCase {
      */
     public function testConstructor() {
 
-        $this->assertEquals("Y-m-d", RequestNormalizer::NORMALIZE_DATE_FORMAT);
+        $this->assertEquals("Y-m-d", RequestSerializer::REQUEST_DATE_FORMAT);
     }
 
     /**
-     * Tests the normalizeRequestData() method.
+     * Tests the serializeRequestData() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNormalizeRequestData() {
+    public function testSerializeRequestData() {
 
         // Set a Request data mock.
         $requestData = new RequestData();
@@ -49,7 +49,7 @@ class RequestNormalizerTest extends AbstractTestCase {
         $requestData->setIdentificationKey("identificationKey");
         $requestData->setAnalyticCode("analyticCode");
 
-        $obj = RequestNormalizer::normalizeRequestData($requestData);
+        $obj = RequestSerializer::serializeRequestData($requestData);
 
         $res = [
             "AnalyticCode"      => "analyticCode",

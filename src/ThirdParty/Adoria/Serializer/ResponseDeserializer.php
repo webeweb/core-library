@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\ThirdParty\Adoria\Normalizer;
+namespace WBW\Library\Core\ThirdParty\Adoria\Serializer;
 
 use DateTime;
 use WBW\Library\Core\Argument\Helper\ArrayHelper;
@@ -17,32 +17,32 @@ use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
 
 /**
- * Response normalizer.
+ * Response deserializer.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\ThirdParty\Adoria\Normalizer
+ * @package WBW\Library\Core\ThirdParty\Adoria\Serializer
  */
-class ResponseNormalizer {
+class ResponseDeserializer {
 
     /**
-     * Denormalize date format.
+     * Response date format.
      *
      * @var string
      */
-    const DENORMALIZE_DATE_FORMAT = RequestNormalizer::NORMALIZE_DATE_FORMAT;
+    const RESPONSE_DATE_FORMAT = RequestSerializer::REQUEST_DATE_FORMAT;
 
     /**
-     * Denormalize a line.
+     * Deserialize a line.
      *
      * @param string $rawResponse The raw response.
      * @return Line Returns the line.
      */
-    public static function denormalizeLine($rawResponse) {
+    public static function deserializeLine($rawResponse) {
 
         $decodedResponse = json_decode($rawResponse, true);
 
-        $invoiceDate    = DateTime::createFromFormat(self::DENORMALIZE_DATE_FORMAT, ArrayHelper::get($decodedResponse, "InvoiceDate"));
-        $invoiceDueDate = DateTime::createFromFormat(self::DENORMALIZE_DATE_FORMAT, ArrayHelper::get($decodedResponse, "InvoiceDueDate"));
+        $invoiceDate    = DateTime::createFromFormat(self::RESPONSE_DATE_FORMAT, ArrayHelper::get($decodedResponse, "InvoiceDate"));
+        $invoiceDueDate = DateTime::createFromFormat(self::RESPONSE_DATE_FORMAT, ArrayHelper::get($decodedResponse, "InvoiceDueDate"));
 
         $model = new Line();
 
@@ -63,12 +63,12 @@ class ResponseNormalizer {
     }
 
     /**
-     * Denormalize a result.
+     * Deserialize a result.
      *
      * @param string $rawResponse The raw response.
      * @return Result Returns the result.
      */
-    public static function denormalizeResult($rawResponse) {
+    public static function deserializeResult($rawResponse) {
 
         $model = new Result();
 
@@ -85,7 +85,7 @@ class ResponseNormalizer {
         }
 
         foreach ($data as $current) {
-            $lines[] = static::denormalizeLine(json_encode($current));
+            $lines[] = static::deserializeLine(json_encode($current));
         }
 
         $model->setData($lines);

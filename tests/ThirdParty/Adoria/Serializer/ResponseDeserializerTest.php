@@ -9,21 +9,21 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Normalizer;
+namespace WBW\Library\Core\Tests\Adoria\Serializer;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
-use WBW\Library\Core\ThirdParty\Adoria\Normalizer\RequestNormalizer;
-use WBW\Library\Core\ThirdParty\Adoria\Normalizer\ResponseNormalizer;
+use WBW\Library\Core\ThirdParty\Adoria\Serializer\RequestSerializer;
+use WBW\Library\Core\ThirdParty\Adoria\Serializer\ResponseDeserializer;
 
 /**
- * Object normalizer test.
+ * Response deserializer test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Adoria\Normalizer
+ * @package WBW\Library\Core\Tests\Adoria\Serializer
  */
-class ResponseNormalizerTest extends AbstractTestCase {
+class ResponseDeserializerTest extends AbstractTestCase {
 
     /**
      * Raw response "line".
@@ -82,17 +82,17 @@ JSON;
      */
     public function testConstructor() {
 
-        $this->assertEquals(RequestNormalizer::NORMALIZE_DATE_FORMAT, ResponseNormalizer::DENORMALIZE_DATE_FORMAT);
+        $this->assertEquals(RequestSerializer::REQUEST_DATE_FORMAT, ResponseDeserializer::RESPONSE_DATE_FORMAT);
     }
 
     /**
-     * Tests the denormalizeLine() method.
+     * Tests the deserializeLine() method.
      *
      * @return void
      */
-    public function testDenormalizeLine() {
+    public function testDeserializeLine() {
 
-        $obj = ResponseNormalizer::denormalizeLine(self::RAW_RESPONSE_LINE);
+        $obj = ResponseDeserializer::deserializeLine(self::RAW_RESPONSE_LINE);
 
         $this->assertInstanceOf(Line::class, $obj);
 
@@ -111,13 +111,13 @@ JSON;
     }
 
     /**
-     * Tests the denormalizeResult() method.
+     * Tests the deserializeResult() method.
      *
      * @return void
      */
-    public function testDenormalizeResult() {
+    public function testDeserializeResult() {
 
-        $obj = ResponseNormalizer::denormalizeResult(self::RAW_RESPONSE_RESULT);
+        $obj = ResponseDeserializer::deserializeresult(self::RAW_RESPONSE_RESULT);
 
         $this->assertInstanceOf(Result::class, $obj);
 
