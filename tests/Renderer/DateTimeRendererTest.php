@@ -48,6 +48,8 @@ class DateTimeRendererTest extends AbstractTestCase {
         $this->assertEquals(19, DateTimeRenderer::renderAge(new DateTime("2000-02-13"), $ref));
         $this->assertEquals(19, DateTimeRenderer::renderAge(new DateTime("2000-02-14"), $ref));
         $this->assertEquals(18, DateTimeRenderer::renderAge(new DateTime("2000-02-15"), $ref));
+
+        $this->assertGreaterThanOrEqual(20, DateTimeRenderer::renderAge(new DateTime("2000-01-01")));
     }
 
     /**

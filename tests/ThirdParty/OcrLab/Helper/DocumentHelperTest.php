@@ -70,6 +70,7 @@ class DocumentHelperTest extends AbstractTestCase {
         $this->assertEquals("Hello", $res->getContent());
 
         $this->assertNull($obj->findWordAt(new Point(9999, 9999)));
+        $this->assertNull($obj->findWordAt(new Point(9999, 9999), 0));
     }
 
     /**

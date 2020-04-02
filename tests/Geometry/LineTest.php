@@ -102,6 +102,18 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the rad() method.
+     *
+     * @return void
+     */
+    public function testRad() {
+
+        $obj = new Line(new Point(0, 0), new Point(5, 5));
+
+        $this->assertEquals(pi() / 4, $obj->rad()->getValue());
+    }
+
+    /**
      * Tests the rotate() method.
      *
      * @return void
