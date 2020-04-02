@@ -9,6 +9,8 @@ CHANGELOG
 - Add string Hash "SHA1" trait
 - Add string Hash "SHA256" trait
 - Add string Uid trait
+- Add Null logger
+- Add Terminal logger
 - Add OcrLad third party
 
 ### [6.3.0](https://github.com/webeweb/core-library/tree/v6.3.0) (2020-03-11)
