@@ -336,6 +336,7 @@ class Historiquehpnl {
      * Set the alpha.
      *
      * @param string $alpha The alpha.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setAlpha($alpha) {
         $this->alpha = $alpha;
@@ -346,6 +347,7 @@ class Historiquehpnl {
      * Set the an n.
      *
      * @param float $anN The an n.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setAnN($anN) {
         $this->anN = $anN;
@@ -356,6 +358,7 @@ class Historiquehpnl {
      * Set the an n1.
      *
      * @param float $anN1 The an n1.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setAnN1($anN1) {
         $this->anN1 = $anN1;
@@ -366,6 +369,7 @@ class Historiquehpnl {
      * Set the an n2.
      *
      * @param float $anN2 The an n2.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setAnN2($anN2) {
         $this->anN2 = $anN2;
@@ -376,6 +380,7 @@ class Historiquehpnl {
      * Set the budget1.
      *
      * @param float $budget1 The budget1.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setBudget1($budget1) {
         $this->budget1 = $budget1;
@@ -386,6 +391,7 @@ class Historiquehpnl {
      * Set the budget2.
      *
      * @param float $budget2 The budget2.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setBudget2($budget2) {
         $this->budget2 = $budget2;
@@ -396,6 +402,7 @@ class Historiquehpnl {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -406,6 +413,7 @@ class Historiquehpnl {
      * Set the flg an n.
      *
      * @param bool $flgAnN The flg an n.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setFlgAnN($flgAnN) {
         $this->flgAnN = $flgAnN;
@@ -416,6 +424,7 @@ class Historiquehpnl {
      * Set the flg an n1.
      *
      * @param bool $flgAnN1 The flg an n1.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setFlgAnN1($flgAnN1) {
         $this->flgAnN1 = $flgAnN1;
@@ -426,6 +435,7 @@ class Historiquehpnl {
      * Set the flg an n2.
      *
      * @param bool $flgAnN2 The flg an n2.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setFlgAnN2($flgAnN2) {
         $this->flgAnN2 = $flgAnN2;
@@ -436,6 +446,7 @@ class Historiquehpnl {
      * Set the flg budget1.
      *
      * @param bool $flgBudget1 The flg budget1.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setFlgBudget1($flgBudget1) {
         $this->flgBudget1 = $flgBudget1;
@@ -446,6 +457,7 @@ class Historiquehpnl {
      * Set the flg budget2.
      *
      * @param bool $flgBudget2 The flg budget2.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setFlgBudget2($flgBudget2) {
         $this->flgBudget2 = $flgBudget2;
@@ -456,6 +468,7 @@ class Historiquehpnl {
      * Set the fmt dec.
      *
      * @param int $fmtDec The fmt dec.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setFmtDec($fmtDec) {
         $this->fmtDec = $fmtDec;
@@ -466,6 +479,7 @@ class Historiquehpnl {
      * Set the fmt int.
      *
      * @param int $fmtInt The fmt int.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setFmtInt($fmtInt) {
         $this->fmtInt = $fmtInt;
@@ -476,6 +490,7 @@ class Historiquehpnl {
      * Set the memo.
      *
      * @param string $memo The memo.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setMemo($memo) {
         $this->memo = $memo;
@@ -486,6 +501,7 @@ class Historiquehpnl {
      * Set the no conv euro.
      *
      * @param bool $noConvEuro The no conv euro.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setNoConvEuro($noConvEuro) {
         $this->noConvEuro = $noConvEuro;
@@ -496,6 +512,7 @@ class Historiquehpnl {
      * Set the regle.
      *
      * @param string $regle The regle.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setRegle($regle) {
         $this->regle = $regle;
@@ -506,6 +523,7 @@ class Historiquehpnl {
      * Set the rub.
      *
      * @param string $rub The rub.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setRub($rub) {
         $this->rub = $rub;
@@ -516,6 +534,7 @@ class Historiquehpnl {
      * Set the type zone.
      *
      * @param string $typeZone The type zone.
+     * @return Historiquehpnl Returns this Historiquehpnl.
      */
     public function setTypeZone($typeZone) {
         $this->typeZone = $typeZone;

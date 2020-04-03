@@ -192,6 +192,7 @@ class AlertesHistorique {
      * Set the ar envoye.
      *
      * @param bool $arEnvoye The ar envoye.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setArEnvoye($arEnvoye) {
         $this->arEnvoye = $arEnvoye;
@@ -202,6 +203,7 @@ class AlertesHistorique {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -212,6 +214,7 @@ class AlertesHistorique {
      * Set the code collab dst.
      *
      * @param string $codeCollabDst The code collab dst.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setCodeCollabDst($codeCollabDst) {
         $this->codeCollabDst = $codeCollabDst;
@@ -222,6 +225,7 @@ class AlertesHistorique {
      * Set the code collab org.
      *
      * @param string $codeCollabOrg The code collab org.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setCodeCollabOrg($codeCollabOrg) {
         $this->codeCollabOrg = $codeCollabOrg;
@@ -232,6 +236,7 @@ class AlertesHistorique {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -242,6 +247,7 @@ class AlertesHistorique {
      * Set the date declenchement.
      *
      * @param DateTime|null $dateDeclenchement The date declenchement.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setDateDeclenchement(DateTime $dateDeclenchement = null) {
         $this->dateDeclenchement = $dateDeclenchement;
@@ -252,6 +258,7 @@ class AlertesHistorique {
      * Set the date reponse.
      *
      * @param DateTime|null $dateReponse The date reponse.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setDateReponse(DateTime $dateReponse = null) {
         $this->dateReponse = $dateReponse;
@@ -262,6 +269,7 @@ class AlertesHistorique {
      * Set the id alerte histo.
      *
      * @param int $idAlerteHisto The id alerte histo.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setIdAlerteHisto($idAlerteHisto) {
         $this->idAlerteHisto = $idAlerteHisto;
@@ -272,6 +280,7 @@ class AlertesHistorique {
      * Set the texte alerte.
      *
      * @param string $texteAlerte The texte alerte.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setTexteAlerte($texteAlerte) {
         $this->texteAlerte = $texteAlerte;
@@ -282,6 +291,7 @@ class AlertesHistorique {
      * Set the texte reponse.
      *
      * @param string $texteReponse The texte reponse.
+     * @return AlertesHistorique Returns this Alertes historique.
      */
     public function setTexteReponse($texteReponse) {
         $this->texteReponse = $texteReponse;

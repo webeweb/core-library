@@ -128,6 +128,7 @@ class HistoPaieAnal {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return HistoPaieAnal Returns this Histo paie anal.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -138,6 +139,7 @@ class HistoPaieAnal {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HistoPaieAnal Returns this Histo paie anal.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -148,6 +150,7 @@ class HistoPaieAnal {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return HistoPaieAnal Returns this Histo paie anal.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -158,6 +161,7 @@ class HistoPaieAnal {
      * Set the numero ligne anal.
      *
      * @param int $numeroLigneAnal The numero ligne anal.
+     * @return HistoPaieAnal Returns this Histo paie anal.
      */
     public function setNumeroLigneAnal($numeroLigneAnal) {
         $this->numeroLigneAnal = $numeroLigneAnal;
@@ -168,6 +172,7 @@ class HistoPaieAnal {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HistoPaieAnal Returns this Histo paie anal.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -178,6 +183,7 @@ class HistoPaieAnal {
      * Set the pourcent.
      *
      * @param float $pourcent The pourcent.
+     * @return HistoPaieAnal Returns this Histo paie anal.
      */
     public function setPourcent($pourcent) {
         $this->pourcent = $pourcent;

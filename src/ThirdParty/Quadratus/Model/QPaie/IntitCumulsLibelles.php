@@ -62,6 +62,7 @@ class IntitCumulsLibelles {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return IntitCumulsLibelles Returns this Intit cumuls libelles.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -72,6 +73,7 @@ class IntitCumulsLibelles {
      * Set the num cumul bulletin.
      *
      * @param int $numCumulBulletin The num cumul bulletin.
+     * @return IntitCumulsLibelles Returns this Intit cumuls libelles.
      */
     public function setNumCumulBulletin($numCumulBulletin) {
         $this->numCumulBulletin = $numCumulBulletin;

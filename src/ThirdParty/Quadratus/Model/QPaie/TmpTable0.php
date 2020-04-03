@@ -368,6 +368,7 @@ class TmpTable0 {
      * Set the base.
      *
      * @param float $base The base.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setBase($base) {
         $this->base = $base;
@@ -378,6 +379,7 @@ class TmpTable0 {
      * Set the base tot.
      *
      * @param float $baseTot The base tot.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setBaseTot($baseTot) {
         $this->baseTot = $baseTot;
@@ -388,6 +390,7 @@ class TmpTable0 {
      * Set the charge pat.
      *
      * @param float $chargePat The charge pat.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setChargePat($chargePat) {
         $this->chargePat = $chargePat;
@@ -398,6 +401,7 @@ class TmpTable0 {
      * Set the charge pat tot.
      *
      * @param float $chargePatTot The charge pat tot.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setChargePatTot($chargePatTot) {
         $this->chargePatTot = $chargePatTot;
@@ -408,6 +412,7 @@ class TmpTable0 {
      * Set the charge sal.
      *
      * @param float $chargeSal The charge sal.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setChargeSal($chargeSal) {
         $this->chargeSal = $chargeSal;
@@ -418,6 +423,7 @@ class TmpTable0 {
      * Set the charge sal tot.
      *
      * @param float $chargeSalTot The charge sal tot.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setChargeSalTot($chargeSalTot) {
         $this->chargeSalTot = $chargeSalTot;
@@ -428,6 +434,7 @@ class TmpTable0 {
      * Set the classe.
      *
      * @param string $classe The classe.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setClasse($classe) {
         $this->classe = $classe;
@@ -438,6 +445,7 @@ class TmpTable0 {
      * Set the code.
      *
      * @param string $code The code.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -448,6 +456,7 @@ class TmpTable0 {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -458,6 +467,7 @@ class TmpTable0 {
      * Set the etablissement.
      *
      * @param int $etablissement The etablissement.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setEtablissement($etablissement) {
         $this->etablissement = $etablissement;
@@ -468,6 +478,7 @@ class TmpTable0 {
      * Set the imputation.
      *
      * @param bool $imputation The imputation.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setImputation($imputation) {
         $this->imputation = $imputation;
@@ -478,6 +489,7 @@ class TmpTable0 {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -488,6 +500,7 @@ class TmpTable0 {
      * Set the inverse.
      *
      * @param bool $inverse The inverse.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setInverse($inverse) {
         $this->inverse = $inverse;
@@ -498,6 +511,7 @@ class TmpTable0 {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -508,6 +522,7 @@ class TmpTable0 {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -518,6 +533,7 @@ class TmpTable0 {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -528,6 +544,7 @@ class TmpTable0 {
      * Set the qui.
      *
      * @param int $qui The qui.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setQui($qui) {
         $this->qui = $qui;
@@ -538,6 +555,7 @@ class TmpTable0 {
      * Set the service.
      *
      * @param string $service The service.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setService($service) {
         $this->service = $service;
@@ -548,6 +566,7 @@ class TmpTable0 {
      * Set the taux pat.
      *
      * @param float $tauxPat The taux pat.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setTauxPat($tauxPat) {
         $this->tauxPat = $tauxPat;
@@ -558,6 +577,7 @@ class TmpTable0 {
      * Set the taux sal.
      *
      * @param float $tauxSal The taux sal.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setTauxSal($tauxSal) {
         $this->tauxSal = $tauxSal;
@@ -568,6 +588,7 @@ class TmpTable0 {
      * Set the type.
      *
      * @param int $type The type.
+     * @return TmpTable0 Returns this Tmp table0.
      */
     public function setType($type) {
         $this->type = $type;

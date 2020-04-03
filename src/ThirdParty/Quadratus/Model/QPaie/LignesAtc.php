@@ -176,6 +176,7 @@ class LignesAtc {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -186,6 +187,7 @@ class LignesAtc {
      * Set the montant cotis.
      *
      * @param float $montantCotis The montant cotis.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setMontantCotis($montantCotis) {
         $this->montantCotis = $montantCotis;
@@ -196,6 +198,7 @@ class LignesAtc {
      * Set the motif.
      *
      * @param string $motif The motif.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setMotif($motif) {
         $this->motif = $motif;
@@ -206,6 +209,7 @@ class LignesAtc {
      * Set the num ligne.
      *
      * @param string $numLigne The num ligne.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -216,6 +220,7 @@ class LignesAtc {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -226,6 +231,7 @@ class LignesAtc {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -236,6 +242,7 @@ class LignesAtc {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;
@@ -246,6 +253,7 @@ class LignesAtc {
      * Set the ps euro ou franc.
      *
      * @param string $psEuroOuFranc The ps euro ou franc.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setPsEuroOuFranc($psEuroOuFranc) {
         $this->psEuroOuFranc = $psEuroOuFranc;
@@ -256,6 +264,7 @@ class LignesAtc {
      * Set the salaire euro ou franc.
      *
      * @param string $salaireEuroOuFranc The salaire euro ou franc.
+     * @return LignesAtc Returns this Lignes atc.
      */
     public function setSalaireEuroOuFranc($salaireEuroOuFranc) {
         $this->salaireEuroOuFranc = $salaireEuroOuFranc;

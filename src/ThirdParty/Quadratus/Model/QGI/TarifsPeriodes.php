@@ -160,6 +160,7 @@ class TarifsPeriodes {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return TarifsPeriodes Returns this Tarifs periodes.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -170,6 +171,7 @@ class TarifsPeriodes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return TarifsPeriodes Returns this Tarifs periodes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -180,6 +182,7 @@ class TarifsPeriodes {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return TarifsPeriodes Returns this Tarifs periodes.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -190,6 +193,7 @@ class TarifsPeriodes {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return TarifsPeriodes Returns this Tarifs periodes.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -200,6 +204,7 @@ class TarifsPeriodes {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return TarifsPeriodes Returns this Tarifs periodes.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -210,6 +215,7 @@ class TarifsPeriodes {
      * Set the remise base.
      *
      * @param float $remiseBase The remise base.
+     * @return TarifsPeriodes Returns this Tarifs periodes.
      */
     public function setRemiseBase($remiseBase) {
         $this->remiseBase = $remiseBase;
@@ -220,6 +226,7 @@ class TarifsPeriodes {
      * Set the type code article.
      *
      * @param string $typeCodeArticle The type code article.
+     * @return TarifsPeriodes Returns this Tarifs periodes.
      */
     public function setTypeCodeArticle($typeCodeArticle) {
         $this->typeCodeArticle = $typeCodeArticle;
@@ -230,6 +237,7 @@ class TarifsPeriodes {
      * Set the type code client.
      *
      * @param string $typeCodeClient The type code client.
+     * @return TarifsPeriodes Returns this Tarifs periodes.
      */
     public function setTypeCodeClient($typeCodeClient) {
         $this->typeCodeClient = $typeCodeClient;

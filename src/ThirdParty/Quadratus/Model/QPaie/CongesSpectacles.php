@@ -880,6 +880,7 @@ class CongesSpectacles {
      * Set the base conges.
      *
      * @param float $baseConges The base conges.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setBaseConges($baseConges) {
         $this->baseConges = $baseConges;
@@ -890,6 +891,7 @@ class CongesSpectacles {
      * Set the brut.
      *
      * @param float $brut The brut.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setBrut($brut) {
         $this->brut = $brut;
@@ -900,6 +902,7 @@ class CongesSpectacles {
      * Set the ce initial.
      *
      * @param bool $ceInitial The ce initial.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setCeInitial($ceInitial) {
         $this->ceInitial = $ceInitial;
@@ -910,6 +913,7 @@ class CongesSpectacles {
      * Set the code emploi.
      *
      * @param string $codeEmploi The code emploi.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setCodeEmploi($codeEmploi) {
         $this->codeEmploi = $codeEmploi;
@@ -920,6 +924,7 @@ class CongesSpectacles {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -930,6 +935,7 @@ class CongesSpectacles {
      * Set the contact.
      *
      * @param string $contact The contact.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setContact($contact) {
         $this->contact = $contact;
@@ -940,6 +946,7 @@ class CongesSpectacles {
      * Set the contrat en cours.
      *
      * @param bool $contratEnCours The contrat en cours.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setContratEnCours($contratEnCours) {
         $this->contratEnCours = $contratEnCours;
@@ -950,6 +957,7 @@ class CongesSpectacles {
      * Set the date certificat emploi.
      *
      * @param DateTime|null $dateCertificatEmploi The date certificat emploi.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setDateCertificatEmploi(DateTime $dateCertificatEmploi = null) {
         $this->dateCertificatEmploi = $dateCertificatEmploi;
@@ -960,6 +968,7 @@ class CongesSpectacles {
      * Set the date embauche.
      *
      * @param DateTime|null $dateEmbauche The date embauche.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setDateEmbauche(DateTime $dateEmbauche = null) {
         $this->dateEmbauche = $dateEmbauche;
@@ -970,6 +979,7 @@ class CongesSpectacles {
      * Set the date fin contrat.
      *
      * @param DateTime|null $dateFinContrat The date fin contrat.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setDateFinContrat(DateTime $dateFinContrat = null) {
         $this->dateFinContrat = $dateFinContrat;
@@ -980,6 +990,7 @@ class CongesSpectacles {
      * Set the date naissance.
      *
      * @param DateTime|null $dateNaissance The date naissance.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setDateNaissance(DateTime $dateNaissance = null) {
         $this->dateNaissance = $dateNaissance;
@@ -990,6 +1001,7 @@ class CongesSpectacles {
      * Set the date paiement.
      *
      * @param DateTime|null $datePaiement The date paiement.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setDatePaiement(DateTime $datePaiement = null) {
         $this->datePaiement = $datePaiement;
@@ -1000,6 +1012,7 @@ class CongesSpectacles {
      * Set the debut periode attest.
      *
      * @param DateTime|null $debutPeriodeAttest The debut periode attest.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setDebutPeriodeAttest(DateTime $debutPeriodeAttest = null) {
         $this->debutPeriodeAttest = $debutPeriodeAttest;
@@ -1010,6 +1023,7 @@ class CongesSpectacles {
      * Set the dept naissance.
      *
      * @param string $deptNaissance The dept naissance.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setDeptNaissance($deptNaissance) {
         $this->deptNaissance = $deptNaissance;
@@ -1020,6 +1034,7 @@ class CongesSpectacles {
      * Set the disquette.
      *
      * @param bool $disquette The disquette.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setDisquette($disquette) {
         $this->disquette = $disquette;
@@ -1030,6 +1045,7 @@ class CongesSpectacles {
      * Set the edite.
      *
      * @param bool $edite The edite.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEdite($edite) {
         $this->edite = $edite;
@@ -1040,6 +1056,7 @@ class CongesSpectacles {
      * Set the emp adresse1.
      *
      * @param string $empAdresse1 The emp adresse1.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEmpAdresse1($empAdresse1) {
         $this->empAdresse1 = $empAdresse1;
@@ -1050,6 +1067,7 @@ class CongesSpectacles {
      * Set the emp adresse2.
      *
      * @param string $empAdresse2 The emp adresse2.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEmpAdresse2($empAdresse2) {
         $this->empAdresse2 = $empAdresse2;
@@ -1060,6 +1078,7 @@ class CongesSpectacles {
      * Set the emp code postal.
      *
      * @param string $empCodePostal The emp code postal.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEmpCodePostal($empCodePostal) {
         $this->empCodePostal = $empCodePostal;
@@ -1070,6 +1089,7 @@ class CongesSpectacles {
      * Set the emp commune.
      *
      * @param string $empCommune The emp commune.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEmpCommune($empCommune) {
         $this->empCommune = $empCommune;
@@ -1080,6 +1100,7 @@ class CongesSpectacles {
      * Set the emploi.
      *
      * @param string $emploi The emploi.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEmploi($emploi) {
         $this->emploi = $emploi;
@@ -1090,6 +1111,7 @@ class CongesSpectacles {
      * Set the etbl adresse1.
      *
      * @param string $etblAdresse1 The etbl adresse1.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEtblAdresse1($etblAdresse1) {
         $this->etblAdresse1 = $etblAdresse1;
@@ -1100,6 +1122,7 @@ class CongesSpectacles {
      * Set the etbl adresse2.
      *
      * @param string $etblAdresse2 The etbl adresse2.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEtblAdresse2($etblAdresse2) {
         $this->etblAdresse2 = $etblAdresse2;
@@ -1110,6 +1133,7 @@ class CongesSpectacles {
      * Set the etbl code postal.
      *
      * @param string $etblCodePostal The etbl code postal.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEtblCodePostal($etblCodePostal) {
         $this->etblCodePostal = $etblCodePostal;
@@ -1120,6 +1144,7 @@ class CongesSpectacles {
      * Set the etbl commune.
      *
      * @param string $etblCommune The etbl commune.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEtblCommune($etblCommune) {
         $this->etblCommune = $etblCommune;
@@ -1130,6 +1155,7 @@ class CongesSpectacles {
      * Set the etbl raison sociale.
      *
      * @param string $etblRaisonSociale The etbl raison sociale.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEtblRaisonSociale($etblRaisonSociale) {
         $this->etblRaisonSociale = $etblRaisonSociale;
@@ -1140,6 +1166,7 @@ class CongesSpectacles {
      * Set the etbl tel.
      *
      * @param string $etblTel The etbl tel.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setEtblTel($etblTel) {
         $this->etblTel = $etblTel;
@@ -1150,6 +1177,7 @@ class CongesSpectacles {
      * Set the indice ce.
      *
      * @param int $indiceCe The indice ce.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setIndiceCe($indiceCe) {
         $this->indiceCe = $indiceCe;
@@ -1160,6 +1188,7 @@ class CongesSpectacles {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -1170,6 +1199,7 @@ class CongesSpectacles {
      * Set the lieu certificat emploi.
      *
      * @param string $lieuCertificatEmploi The lieu certificat emploi.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setLieuCertificatEmploi($lieuCertificatEmploi) {
         $this->lieuCertificatEmploi = $lieuCertificatEmploi;
@@ -1180,6 +1210,7 @@ class CongesSpectacles {
      * Set the lieu naissance.
      *
      * @param string $lieuNaissance The lieu naissance.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setLieuNaissance($lieuNaissance) {
         $this->lieuNaissance = $lieuNaissance;
@@ -1190,6 +1221,7 @@ class CongesSpectacles {
      * Set the nb jour trav.
      *
      * @param float $nbJourTrav The nb jour trav.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNbJourTrav($nbJourTrav) {
         $this->nbJourTrav = $nbJourTrav;
@@ -1200,6 +1232,7 @@ class CongesSpectacles {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -1210,6 +1243,7 @@ class CongesSpectacles {
      * Set the nom employe.
      *
      * @param string $nomEmploye The nom employe.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNomEmploye($nomEmploye) {
         $this->nomEmploye = $nomEmploye;
@@ -1220,6 +1254,7 @@ class CongesSpectacles {
      * Set the nom naissance.
      *
      * @param string $nomNaissance The nom naissance.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNomNaissance($nomNaissance) {
         $this->nomNaissance = $nomNaissance;
@@ -1230,6 +1265,7 @@ class CongesSpectacles {
      * Set the nombre cachets.
      *
      * @param float $nombreCachets The nombre cachets.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNombreCachets($nombreCachets) {
         $this->nombreCachets = $nombreCachets;
@@ -1240,6 +1276,7 @@ class CongesSpectacles {
      * Set the nouvelle attest.
      *
      * @param bool $nouvelleAttest The nouvelle attest.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNouvelleAttest($nouvelleAttest) {
         $this->nouvelleAttest = $nouvelleAttest;
@@ -1250,6 +1287,7 @@ class CongesSpectacles {
      * Set the num caisse spectacle.
      *
      * @param string $numCaisseSpectacle The num caisse spectacle.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNumCaisseSpectacle($numCaisseSpectacle) {
         $this->numCaisseSpectacle = $numCaisseSpectacle;
@@ -1260,6 +1298,7 @@ class CongesSpectacles {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -1270,6 +1309,7 @@ class CongesSpectacles {
      * Set the numero ce initial.
      *
      * @param string $numeroCeInitial The numero ce initial.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNumeroCeInitial($numeroCeInitial) {
         $this->numeroCeInitial = $numeroCeInitial;
@@ -1280,6 +1320,7 @@ class CongesSpectacles {
      * Set the numero conges spectacle.
      *
      * @param string $numeroCongesSpectacle The numero conges spectacle.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNumeroCongesSpectacle($numeroCongesSpectacle) {
         $this->numeroCongesSpectacle = $numeroCongesSpectacle;
@@ -1290,6 +1331,7 @@ class CongesSpectacles {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -1300,6 +1342,7 @@ class CongesSpectacles {
      * Set the observations.
      *
      * @param string $observations The observations.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setObservations($observations) {
         $this->observations = $observations;
@@ -1310,6 +1353,7 @@ class CongesSpectacles {
      * Set the periode attest.
      *
      * @param DateTime|null $periodeAttest The periode attest.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setPeriodeAttest(DateTime $periodeAttest = null) {
         $this->periodeAttest = $periodeAttest;
@@ -1320,6 +1364,7 @@ class CongesSpectacles {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -1330,6 +1375,7 @@ class CongesSpectacles {
      * Set the pseudonyme.
      *
      * @param string $pseudonyme The pseudonyme.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setPseudonyme($pseudonyme) {
         $this->pseudonyme = $pseudonyme;
@@ -1340,6 +1386,7 @@ class CongesSpectacles {
      * Set the sexe.
      *
      * @param string $sexe The sexe.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setSexe($sexe) {
         $this->sexe = $sexe;
@@ -1350,6 +1397,7 @@ class CongesSpectacles {
      * Set the signataire certificat emploi.
      *
      * @param string $signataireCertificatEmploi The signataire certificat emploi.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setSignataireCertificatEmploi($signataireCertificatEmploi) {
         $this->signataireCertificatEmploi = $signataireCertificatEmploi;
@@ -1360,6 +1408,7 @@ class CongesSpectacles {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -1370,6 +1419,7 @@ class CongesSpectacles {
      * Set the statut cadre.
      *
      * @param bool $statutCadre The statut cadre.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setStatutCadre($statutCadre) {
         $this->statutCadre = $statutCadre;
@@ -1380,6 +1430,7 @@ class CongesSpectacles {
      * Set the tel contact.
      *
      * @param string $telContact The tel contact.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setTelContact($telContact) {
         $this->telContact = $telContact;
@@ -1390,6 +1441,7 @@ class CongesSpectacles {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setTitre($titre) {
         $this->titre = $titre;
@@ -1400,6 +1452,7 @@ class CongesSpectacles {
      * Set the type ce.
      *
      * @param string $typeCe The type ce.
+     * @return CongesSpectacles Returns this Conges spectacles.
      */
     public function setTypeCe($typeCe) {
         $this->typeCe = $typeCe;

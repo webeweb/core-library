@@ -238,6 +238,7 @@ class StatsPersoSuiviClientCols {
      * Set the an n.
      *
      * @param string $anN The an n.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setAnN($anN) {
         $this->anN = $anN;
@@ -248,6 +249,7 @@ class StatsPersoSuiviClientCols {
      * Set the code.
      *
      * @param string $code The code.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -258,6 +260,7 @@ class StatsPersoSuiviClientCols {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -268,6 +271,7 @@ class StatsPersoSuiviClientCols {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -278,6 +282,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle autres.
      *
      * @param string $regleAutres The regle autres.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleAutres($regleAutres) {
         $this->regleAutres = $regleAutres;
@@ -288,6 +293,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle barn.
      *
      * @param string $regleBarn The regle barn.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleBarn($regleBarn) {
         $this->regleBarn = $regleBarn;
@@ -298,6 +304,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle bars.
      *
      * @param string $regleBars The regle bars.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleBars($regleBars) {
         $this->regleBars = $regleBars;
@@ -308,6 +315,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle bicrn.
      *
      * @param string $regleBicrn The regle bicrn.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleBicrn($regleBicrn) {
         $this->regleBicrn = $regleBicrn;
@@ -318,6 +326,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle bicrs.
      *
      * @param string $regleBicrs The regle bicrs.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleBicrs($regleBicrs) {
         $this->regleBicrs = $regleBicrs;
@@ -328,6 +337,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle bnc.
      *
      * @param string $regleBnc The regle bnc.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleBnc($regleBnc) {
         $this->regleBnc = $regleBnc;
@@ -338,6 +348,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle sci.
      *
      * @param string $regleSci The regle sci.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleSci($regleSci) {
         $this->regleSci = $regleSci;
@@ -348,6 +359,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle scm.
      *
      * @param string $regleScm The regle scm.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleScm($regleScm) {
         $this->regleScm = $regleScm;
@@ -358,6 +370,7 @@ class StatsPersoSuiviClientCols {
      * Set the regle tous.
      *
      * @param string $regleTous The regle tous.
+     * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
     public function setRegleTous($regleTous) {
         $this->regleTous = $regleTous;

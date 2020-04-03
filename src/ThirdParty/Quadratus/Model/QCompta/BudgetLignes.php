@@ -558,6 +558,7 @@ class BudgetLignes {
      * Set the centre.
      *
      * @param string $centre The centre.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setCentre($centre) {
         $this->centre = $centre;
@@ -568,6 +569,7 @@ class BudgetLignes {
      * Set the code budget.
      *
      * @param string $codeBudget The code budget.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setCodeBudget($codeBudget) {
         $this->codeBudget = $codeBudget;
@@ -578,6 +580,7 @@ class BudgetLignes {
      * Set the coef.
      *
      * @param float $coef The coef.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setCoef($coef) {
         $this->coef = $coef;
@@ -588,6 +591,7 @@ class BudgetLignes {
      * Set the col saisie.
      *
      * @param string $colSaisie The col saisie.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setColSaisie($colSaisie) {
         $this->colSaisie = $colSaisie;
@@ -598,6 +602,7 @@ class BudgetLignes {
      * Set the commentaires.
      *
      * @param string $commentaires The commentaires.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setCommentaires($commentaires) {
         $this->commentaires = $commentaires;
@@ -608,6 +613,7 @@ class BudgetLignes {
      * Set the compte.
      *
      * @param string $compte The compte.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setCompte($compte) {
         $this->compte = $compte;
@@ -618,6 +624,7 @@ class BudgetLignes {
      * Set the mt1.
      *
      * @param float $mt1 The mt1.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt1($mt1) {
         $this->mt1 = $mt1;
@@ -628,6 +635,7 @@ class BudgetLignes {
      * Set the mt10.
      *
      * @param float $mt10 The mt10.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt10($mt10) {
         $this->mt10 = $mt10;
@@ -638,6 +646,7 @@ class BudgetLignes {
      * Set the mt11.
      *
      * @param float $mt11 The mt11.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt11($mt11) {
         $this->mt11 = $mt11;
@@ -648,6 +657,7 @@ class BudgetLignes {
      * Set the mt12.
      *
      * @param float $mt12 The mt12.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt12($mt12) {
         $this->mt12 = $mt12;
@@ -658,6 +668,7 @@ class BudgetLignes {
      * Set the mt13.
      *
      * @param float $mt13 The mt13.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt13($mt13) {
         $this->mt13 = $mt13;
@@ -668,6 +679,7 @@ class BudgetLignes {
      * Set the mt14.
      *
      * @param float $mt14 The mt14.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt14($mt14) {
         $this->mt14 = $mt14;
@@ -678,6 +690,7 @@ class BudgetLignes {
      * Set the mt15.
      *
      * @param float $mt15 The mt15.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt15($mt15) {
         $this->mt15 = $mt15;
@@ -688,6 +701,7 @@ class BudgetLignes {
      * Set the mt16.
      *
      * @param float $mt16 The mt16.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt16($mt16) {
         $this->mt16 = $mt16;
@@ -698,6 +712,7 @@ class BudgetLignes {
      * Set the mt17.
      *
      * @param float $mt17 The mt17.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt17($mt17) {
         $this->mt17 = $mt17;
@@ -708,6 +723,7 @@ class BudgetLignes {
      * Set the mt18.
      *
      * @param float $mt18 The mt18.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt18($mt18) {
         $this->mt18 = $mt18;
@@ -718,6 +734,7 @@ class BudgetLignes {
      * Set the mt19.
      *
      * @param float $mt19 The mt19.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt19($mt19) {
         $this->mt19 = $mt19;
@@ -728,6 +745,7 @@ class BudgetLignes {
      * Set the mt2.
      *
      * @param float $mt2 The mt2.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt2($mt2) {
         $this->mt2 = $mt2;
@@ -738,6 +756,7 @@ class BudgetLignes {
      * Set the mt20.
      *
      * @param float $mt20 The mt20.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt20($mt20) {
         $this->mt20 = $mt20;
@@ -748,6 +767,7 @@ class BudgetLignes {
      * Set the mt21.
      *
      * @param float $mt21 The mt21.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt21($mt21) {
         $this->mt21 = $mt21;
@@ -758,6 +778,7 @@ class BudgetLignes {
      * Set the mt22.
      *
      * @param float $mt22 The mt22.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt22($mt22) {
         $this->mt22 = $mt22;
@@ -768,6 +789,7 @@ class BudgetLignes {
      * Set the mt23.
      *
      * @param float $mt23 The mt23.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt23($mt23) {
         $this->mt23 = $mt23;
@@ -778,6 +800,7 @@ class BudgetLignes {
      * Set the mt24.
      *
      * @param float $mt24 The mt24.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt24($mt24) {
         $this->mt24 = $mt24;
@@ -788,6 +811,7 @@ class BudgetLignes {
      * Set the mt3.
      *
      * @param float $mt3 The mt3.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt3($mt3) {
         $this->mt3 = $mt3;
@@ -798,6 +822,7 @@ class BudgetLignes {
      * Set the mt4.
      *
      * @param float $mt4 The mt4.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt4($mt4) {
         $this->mt4 = $mt4;
@@ -808,6 +833,7 @@ class BudgetLignes {
      * Set the mt5.
      *
      * @param float $mt5 The mt5.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt5($mt5) {
         $this->mt5 = $mt5;
@@ -818,6 +844,7 @@ class BudgetLignes {
      * Set the mt6.
      *
      * @param float $mt6 The mt6.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt6($mt6) {
         $this->mt6 = $mt6;
@@ -828,6 +855,7 @@ class BudgetLignes {
      * Set the mt7.
      *
      * @param float $mt7 The mt7.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt7($mt7) {
         $this->mt7 = $mt7;
@@ -838,6 +866,7 @@ class BudgetLignes {
      * Set the mt8.
      *
      * @param float $mt8 The mt8.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt8($mt8) {
         $this->mt8 = $mt8;
@@ -848,6 +877,7 @@ class BudgetLignes {
      * Set the mt9.
      *
      * @param float $mt9 The mt9.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setMt9($mt9) {
         $this->mt9 = $mt9;
@@ -858,6 +888,7 @@ class BudgetLignes {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -868,6 +899,7 @@ class BudgetLignes {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -878,6 +910,7 @@ class BudgetLignes {
      * Set the type saisie.
      *
      * @param string $typeSaisie The type saisie.
+     * @return BudgetLignes Returns this Budget lignes.
      */
     public function setTypeSaisie($typeSaisie) {
         $this->typeSaisie = $typeSaisie;

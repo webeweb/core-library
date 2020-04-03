@@ -2448,6 +2448,7 @@ class DecTvaGroupe {
      * Set the az0990b.
      *
      * @param float $az0990b The az0990b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz0990b($az0990b) {
         $this->az0990b = $az0990b;
@@ -2458,6 +2459,7 @@ class DecTvaGroupe {
      * Set the az1010b.
      *
      * @param float $az1010b The az1010b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1010b($az1010b) {
         $this->az1010b = $az1010b;
@@ -2468,6 +2470,7 @@ class DecTvaGroupe {
      * Set the az1020b.
      *
      * @param float $az1020b The az1020b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1020b($az1020b) {
         $this->az1020b = $az1020b;
@@ -2478,6 +2481,7 @@ class DecTvaGroupe {
      * Set the az1030b.
      *
      * @param float $az1030b The az1030b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1030b($az1030b) {
         $this->az1030b = $az1030b;
@@ -2488,6 +2492,7 @@ class DecTvaGroupe {
      * Set the az1040b.
      *
      * @param float $az1040b The az1040b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1040b($az1040b) {
         $this->az1040b = $az1040b;
@@ -2498,6 +2503,7 @@ class DecTvaGroupe {
      * Set the az1050b.
      *
      * @param float $az1050b The az1050b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1050b($az1050b) {
         $this->az1050b = $az1050b;
@@ -2508,6 +2514,7 @@ class DecTvaGroupe {
      * Set the az1080b.
      *
      * @param float $az1080b The az1080b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1080b($az1080b) {
         $this->az1080b = $az1080b;
@@ -2518,6 +2525,7 @@ class DecTvaGroupe {
      * Set the az1081b.
      *
      * @param float $az1081b The az1081b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1081b($az1081b) {
         $this->az1081b = $az1081b;
@@ -2528,6 +2536,7 @@ class DecTvaGroupe {
      * Set the az1090b.
      *
      * @param float $az1090b The az1090b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1090b($az1090b) {
         $this->az1090b = $az1090b;
@@ -2538,6 +2547,7 @@ class DecTvaGroupe {
      * Set the az1100b.
      *
      * @param float $az1100b The az1100b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1100b($az1100b) {
         $this->az1100b = $az1100b;
@@ -2548,6 +2558,7 @@ class DecTvaGroupe {
      * Set the az1110b.
      *
      * @param float $az1110b The az1110b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1110b($az1110b) {
         $this->az1110b = $az1110b;
@@ -2558,6 +2569,7 @@ class DecTvaGroupe {
      * Set the az1120b.
      *
      * @param float $az1120b The az1120b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz1120b($az1120b) {
         $this->az1120b = $az1120b;
@@ -2568,6 +2580,7 @@ class DecTvaGroupe {
      * Set the az3240.
      *
      * @param float $az3240 The az3240.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz3240($az3240) {
         $this->az3240 = $az3240;
@@ -2578,6 +2591,7 @@ class DecTvaGroupe {
      * Set the az3510.
      *
      * @param float $az3510 The az3510.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz3510($az3510) {
         $this->az3510 = $az3510;
@@ -2588,6 +2602,7 @@ class DecTvaGroupe {
      * Set the az3520.
      *
      * @param float $az3520 The az3520.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz3520($az3520) {
         $this->az3520 = $az3520;
@@ -2598,6 +2613,7 @@ class DecTvaGroupe {
      * Set the az38 code.
      *
      * @param string $az38Code The az38 code.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz38Code($az38Code) {
         $this->az38Code = $az38Code;
@@ -2608,6 +2624,7 @@ class DecTvaGroupe {
      * Set the az38 lib.
      *
      * @param string $az38Lib The az38 lib.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz38Lib($az38Lib) {
         $this->az38Lib = $az38Lib;
@@ -2618,6 +2635,7 @@ class DecTvaGroupe {
      * Set the az38b.
      *
      * @param float $az38b The az38b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz38b($az38b) {
         $this->az38b = $az38b;
@@ -2628,6 +2646,7 @@ class DecTvaGroupe {
      * Set the az4200.
      *
      * @param float $az4200 The az4200.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4200($az4200) {
         $this->az4200 = $az4200;
@@ -2638,6 +2657,7 @@ class DecTvaGroupe {
      * Set the az4201.
      *
      * @param float $az4201 The az4201.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4201($az4201) {
         $this->az4201 = $az4201;
@@ -2648,6 +2668,7 @@ class DecTvaGroupe {
      * Set the az4204.
      *
      * @param float $az4204 The az4204.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4204($az4204) {
         $this->az4204 = $az4204;
@@ -2658,6 +2679,7 @@ class DecTvaGroupe {
      * Set the az4206.
      *
      * @param float $az4206 The az4206.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4206($az4206) {
         $this->az4206 = $az4206;
@@ -2668,6 +2690,7 @@ class DecTvaGroupe {
      * Set the az4207.
      *
      * @param float $az4207 The az4207.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4207($az4207) {
         $this->az4207 = $az4207;
@@ -2678,6 +2701,7 @@ class DecTvaGroupe {
      * Set the az4213.
      *
      * @param float $az4213 The az4213.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4213($az4213) {
         $this->az4213 = $az4213;
@@ -2688,6 +2712,7 @@ class DecTvaGroupe {
      * Set the az4215.
      *
      * @param float $az4215 The az4215.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4215($az4215) {
         $this->az4215 = $az4215;
@@ -2698,6 +2723,7 @@ class DecTvaGroupe {
      * Set the az4220.
      *
      * @param float $az4220 The az4220.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4220($az4220) {
         $this->az4220 = $az4220;
@@ -2708,6 +2734,7 @@ class DecTvaGroupe {
      * Set the az4222.
      *
      * @param float $az4222 The az4222.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4222($az4222) {
         $this->az4222 = $az4222;
@@ -2718,6 +2745,7 @@ class DecTvaGroupe {
      * Set the az4223.
      *
      * @param float $az4223 The az4223.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4223($az4223) {
         $this->az4223 = $az4223;
@@ -2728,6 +2756,7 @@ class DecTvaGroupe {
      * Set the az4228 mtt.
      *
      * @param float $az4228Mtt The az4228 mtt.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4228Mtt($az4228Mtt) {
         $this->az4228Mtt = $az4228Mtt;
@@ -2738,6 +2767,7 @@ class DecTvaGroupe {
      * Set the az4230.
      *
      * @param float $az4230 The az4230.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4230($az4230) {
         $this->az4230 = $az4230;
@@ -2748,6 +2778,7 @@ class DecTvaGroupe {
      * Set the az4231.
      *
      * @param float $az4231 The az4231.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4231($az4231) {
         $this->az4231 = $az4231;
@@ -2758,6 +2789,7 @@ class DecTvaGroupe {
      * Set the az4232.
      *
      * @param float $az4232 The az4232.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4232($az4232) {
         $this->az4232 = $az4232;
@@ -2768,6 +2800,7 @@ class DecTvaGroupe {
      * Set the az4233.
      *
      * @param float $az4233 The az4233.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4233($az4233) {
         $this->az4233 = $az4233;
@@ -2778,6 +2811,7 @@ class DecTvaGroupe {
      * Set the az4234.
      *
      * @param float $az4234 The az4234.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4234($az4234) {
         $this->az4234 = $az4234;
@@ -2788,6 +2822,7 @@ class DecTvaGroupe {
      * Set the az4235.
      *
      * @param float $az4235 The az4235.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4235($az4235) {
         $this->az4235 = $az4235;
@@ -2798,6 +2833,7 @@ class DecTvaGroupe {
      * Set the az4236.
      *
      * @param float $az4236 The az4236.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4236($az4236) {
         $this->az4236 = $az4236;
@@ -2808,6 +2844,7 @@ class DecTvaGroupe {
      * Set the az4237.
      *
      * @param float $az4237 The az4237.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4237($az4237) {
         $this->az4237 = $az4237;
@@ -2818,6 +2855,7 @@ class DecTvaGroupe {
      * Set the az4238.
      *
      * @param float $az4238 The az4238.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4238($az4238) {
         $this->az4238 = $az4238;
@@ -2828,6 +2866,7 @@ class DecTvaGroupe {
      * Set the az4239.
      *
      * @param float $az4239 The az4239.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4239($az4239) {
         $this->az4239 = $az4239;
@@ -2838,6 +2877,7 @@ class DecTvaGroupe {
      * Set the az4240.
      *
      * @param float $az4240 The az4240.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4240($az4240) {
         $this->az4240 = $az4240;
@@ -2848,6 +2888,7 @@ class DecTvaGroupe {
      * Set the az4241.
      *
      * @param float $az4241 The az4241.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4241($az4241) {
         $this->az4241 = $az4241;
@@ -2858,6 +2899,7 @@ class DecTvaGroupe {
      * Set the az4242.
      *
      * @param float $az4242 The az4242.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4242($az4242) {
         $this->az4242 = $az4242;
@@ -2868,6 +2910,7 @@ class DecTvaGroupe {
      * Set the az4243.
      *
      * @param float $az4243 The az4243.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4243($az4243) {
         $this->az4243 = $az4243;
@@ -2878,6 +2921,7 @@ class DecTvaGroupe {
      * Set the az4244.
      *
      * @param float $az4244 The az4244.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4244($az4244) {
         $this->az4244 = $az4244;
@@ -2888,6 +2932,7 @@ class DecTvaGroupe {
      * Set the az4245.
      *
      * @param float $az4245 The az4245.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4245($az4245) {
         $this->az4245 = $az4245;
@@ -2898,6 +2943,7 @@ class DecTvaGroupe {
      * Set the az4246.
      *
      * @param float $az4246 The az4246.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4246($az4246) {
         $this->az4246 = $az4246;
@@ -2908,6 +2954,7 @@ class DecTvaGroupe {
      * Set the az4247.
      *
      * @param float $az4247 The az4247.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4247($az4247) {
         $this->az4247 = $az4247;
@@ -2918,6 +2965,7 @@ class DecTvaGroupe {
      * Set the az4248.
      *
      * @param float $az4248 The az4248.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4248($az4248) {
         $this->az4248 = $az4248;
@@ -2928,6 +2976,7 @@ class DecTvaGroupe {
      * Set the az4249.
      *
      * @param float $az4249 The az4249.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4249($az4249) {
         $this->az4249 = $az4249;
@@ -2938,6 +2987,7 @@ class DecTvaGroupe {
      * Set the az4250.
      *
      * @param float $az4250 The az4250.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4250($az4250) {
         $this->az4250 = $az4250;
@@ -2948,6 +2998,7 @@ class DecTvaGroupe {
      * Set the az4251.
      *
      * @param float $az4251 The az4251.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4251($az4251) {
         $this->az4251 = $az4251;
@@ -2958,6 +3009,7 @@ class DecTvaGroupe {
      * Set the az4252.
      *
      * @param float $az4252 The az4252.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4252($az4252) {
         $this->az4252 = $az4252;
@@ -2968,6 +3020,7 @@ class DecTvaGroupe {
      * Set the az4254.
      *
      * @param float $az4254 The az4254.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4254($az4254) {
         $this->az4254 = $az4254;
@@ -2978,6 +3031,7 @@ class DecTvaGroupe {
      * Set the az4255.
      *
      * @param float $az4255 The az4255.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4255($az4255) {
         $this->az4255 = $az4255;
@@ -2988,6 +3042,7 @@ class DecTvaGroupe {
      * Set the az4256.
      *
      * @param float $az4256 The az4256.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4256($az4256) {
         $this->az4256 = $az4256;
@@ -2998,6 +3053,7 @@ class DecTvaGroupe {
      * Set the az4257.
      *
      * @param float $az4257 The az4257.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4257($az4257) {
         $this->az4257 = $az4257;
@@ -3008,6 +3064,7 @@ class DecTvaGroupe {
      * Set the az4258.
      *
      * @param float $az4258 The az4258.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4258($az4258) {
         $this->az4258 = $az4258;
@@ -3018,6 +3075,7 @@ class DecTvaGroupe {
      * Set the az4259.
      *
      * @param float $az4259 The az4259.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4259($az4259) {
         $this->az4259 = $az4259;
@@ -3028,6 +3086,7 @@ class DecTvaGroupe {
      * Set the az4260.
      *
      * @param float $az4260 The az4260.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4260($az4260) {
         $this->az4260 = $az4260;
@@ -3038,6 +3097,7 @@ class DecTvaGroupe {
      * Set the az4261.
      *
      * @param float $az4261 The az4261.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4261($az4261) {
         $this->az4261 = $az4261;
@@ -3048,6 +3108,7 @@ class DecTvaGroupe {
      * Set the az4262.
      *
      * @param float $az4262 The az4262.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4262($az4262) {
         $this->az4262 = $az4262;
@@ -3058,6 +3119,7 @@ class DecTvaGroupe {
      * Set the az4263.
      *
      * @param float $az4263 The az4263.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4263($az4263) {
         $this->az4263 = $az4263;
@@ -3068,6 +3130,7 @@ class DecTvaGroupe {
      * Set the az4264.
      *
      * @param float $az4264 The az4264.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4264($az4264) {
         $this->az4264 = $az4264;
@@ -3078,6 +3141,7 @@ class DecTvaGroupe {
      * Set the az4265.
      *
      * @param float $az4265 The az4265.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4265($az4265) {
         $this->az4265 = $az4265;
@@ -3088,6 +3152,7 @@ class DecTvaGroupe {
      * Set the az4266.
      *
      * @param float $az4266 The az4266.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4266($az4266) {
         $this->az4266 = $az4266;
@@ -3098,6 +3163,7 @@ class DecTvaGroupe {
      * Set the az4267.
      *
      * @param float $az4267 The az4267.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4267($az4267) {
         $this->az4267 = $az4267;
@@ -3108,6 +3174,7 @@ class DecTvaGroupe {
      * Set the az4268.
      *
      * @param float $az4268 The az4268.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4268($az4268) {
         $this->az4268 = $az4268;
@@ -3118,6 +3185,7 @@ class DecTvaGroupe {
      * Set the az4268 base.
      *
      * @param float $az4268Base The az4268 base.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4268Base($az4268Base) {
         $this->az4268Base = $az4268Base;
@@ -3128,6 +3196,7 @@ class DecTvaGroupe {
      * Set the az4269.
      *
      * @param float $az4269 The az4269.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4269($az4269) {
         $this->az4269 = $az4269;
@@ -3138,6 +3207,7 @@ class DecTvaGroupe {
      * Set the az4269 base.
      *
      * @param float $az4269Base The az4269 base.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4269Base($az4269Base) {
         $this->az4269Base = $az4269Base;
@@ -3148,6 +3218,7 @@ class DecTvaGroupe {
      * Set the az4270.
      *
      * @param float $az4270 The az4270.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4270($az4270) {
         $this->az4270 = $az4270;
@@ -3158,6 +3229,7 @@ class DecTvaGroupe {
      * Set the az4270 base.
      *
      * @param float $az4270Base The az4270 base.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4270Base($az4270Base) {
         $this->az4270Base = $az4270Base;
@@ -3168,6 +3240,7 @@ class DecTvaGroupe {
      * Set the az4271.
      *
      * @param float $az4271 The az4271.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4271($az4271) {
         $this->az4271 = $az4271;
@@ -3178,6 +3251,7 @@ class DecTvaGroupe {
      * Set the az4271 base.
      *
      * @param float $az4271Base The az4271 base.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4271Base($az4271Base) {
         $this->az4271Base = $az4271Base;
@@ -3188,6 +3262,7 @@ class DecTvaGroupe {
      * Set the az4272.
      *
      * @param float $az4272 The az4272.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4272($az4272) {
         $this->az4272 = $az4272;
@@ -3198,6 +3273,7 @@ class DecTvaGroupe {
      * Set the az4274.
      *
      * @param float $az4274 The az4274.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4274($az4274) {
         $this->az4274 = $az4274;
@@ -3208,6 +3284,7 @@ class DecTvaGroupe {
      * Set the az4276.
      *
      * @param float $az4276 The az4276.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4276($az4276) {
         $this->az4276 = $az4276;
@@ -3218,6 +3295,7 @@ class DecTvaGroupe {
      * Set the az4276 base.
      *
      * @param float $az4276Base The az4276 base.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4276Base($az4276Base) {
         $this->az4276Base = $az4276Base;
@@ -3228,6 +3306,7 @@ class DecTvaGroupe {
      * Set the az4277.
      *
      * @param float $az4277 The az4277.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4277($az4277) {
         $this->az4277 = $az4277;
@@ -3238,6 +3317,7 @@ class DecTvaGroupe {
      * Set the az4277 base.
      *
      * @param float $az4277Base The az4277 base.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4277Base($az4277Base) {
         $this->az4277Base = $az4277Base;
@@ -3248,6 +3328,7 @@ class DecTvaGroupe {
      * Set the az4278.
      *
      * @param float $az4278 The az4278.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4278($az4278) {
         $this->az4278 = $az4278;
@@ -3258,6 +3339,7 @@ class DecTvaGroupe {
      * Set the az4279.
      *
      * @param float $az4279 The az4279.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4279($az4279) {
         $this->az4279 = $az4279;
@@ -3268,6 +3350,7 @@ class DecTvaGroupe {
      * Set the az4280.
      *
      * @param float $az4280 The az4280.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4280($az4280) {
         $this->az4280 = $az4280;
@@ -3278,6 +3361,7 @@ class DecTvaGroupe {
      * Set the az4281.
      *
      * @param float $az4281 The az4281.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4281($az4281) {
         $this->az4281 = $az4281;
@@ -3288,6 +3372,7 @@ class DecTvaGroupe {
      * Set the az4282.
      *
      * @param float $az4282 The az4282.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4282($az4282) {
         $this->az4282 = $az4282;
@@ -3298,6 +3383,7 @@ class DecTvaGroupe {
      * Set the az4283.
      *
      * @param float $az4283 The az4283.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4283($az4283) {
         $this->az4283 = $az4283;
@@ -3308,6 +3394,7 @@ class DecTvaGroupe {
      * Set the az4284.
      *
      * @param float $az4284 The az4284.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4284($az4284) {
         $this->az4284 = $az4284;
@@ -3318,6 +3405,7 @@ class DecTvaGroupe {
      * Set the az4285.
      *
      * @param float $az4285 The az4285.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4285($az4285) {
         $this->az4285 = $az4285;
@@ -3328,6 +3416,7 @@ class DecTvaGroupe {
      * Set the az4288.
      *
      * @param float $az4288 The az4288.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4288($az4288) {
         $this->az4288 = $az4288;
@@ -3338,6 +3427,7 @@ class DecTvaGroupe {
      * Set the az4289.
      *
      * @param float $az4289 The az4289.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4289($az4289) {
         $this->az4289 = $az4289;
@@ -3348,6 +3438,7 @@ class DecTvaGroupe {
      * Set the az4290.
      *
      * @param float $az4290 The az4290.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz4290($az4290) {
         $this->az4290 = $az4290;
@@ -3358,6 +3449,7 @@ class DecTvaGroupe {
      * Set the az59 mtt.
      *
      * @param float $az59Mtt The az59 mtt.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAz59Mtt($az59Mtt) {
         $this->az59Mtt = $az59Mtt;
@@ -3368,6 +3460,7 @@ class DecTvaGroupe {
      * Set the az es mtt.
      *
      * @param float $azEsMtt The az es mtt.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzEsMtt($azEsMtt) {
         $this->azEsMtt = $azEsMtt;
@@ -3378,6 +3471,7 @@ class DecTvaGroupe {
      * Set the az eu mtt.
      *
      * @param float $azEuMtt The az eu mtt.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzEuMtt($azEuMtt) {
         $this->azEuMtt = $azEuMtt;
@@ -3388,6 +3482,7 @@ class DecTvaGroupe {
      * Set the az ez code.
      *
      * @param string $azEzCode The az ez code.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzEzCode($azEzCode) {
         $this->azEzCode = $azEzCode;
@@ -3398,6 +3493,7 @@ class DecTvaGroupe {
      * Set the az ez lib.
      *
      * @param string $azEzLib The az ez lib.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzEzLib($azEzLib) {
         $this->azEzLib = $azEzLib;
@@ -3408,6 +3504,7 @@ class DecTvaGroupe {
      * Set the az ez mtt.
      *
      * @param float $azEzMtt The az ez mtt.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzEzMtt($azEzMtt) {
         $this->azEzMtt = $azEzMtt;
@@ -3418,6 +3515,7 @@ class DecTvaGroupe {
      * Set the az ga code.
      *
      * @param string $azGaCode The az ga code.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzGaCode($azGaCode) {
         $this->azGaCode = $azGaCode;
@@ -3428,6 +3526,7 @@ class DecTvaGroupe {
      * Set the az ga lib.
      *
      * @param string $azGaLib The az ga lib.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzGaLib($azGaLib) {
         $this->azGaLib = $azGaLib;
@@ -3438,6 +3537,7 @@ class DecTvaGroupe {
      * Set the az ga mtt.
      *
      * @param float $azGaMtt The az ga mtt.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzGaMtt($azGaMtt) {
         $this->azGaMtt = $azGaMtt;
@@ -3448,6 +3548,7 @@ class DecTvaGroupe {
      * Set the az gc mtt.
      *
      * @param float $azGcMtt The az gc mtt.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzGcMtt($azGcMtt) {
         $this->azGcMtt = $azGcMtt;
@@ -3458,6 +3559,7 @@ class DecTvaGroupe {
      * Set the az hi.
      *
      * @param float $azHi The az hi.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzHi($azHi) {
         $this->azHi = $azHi;
@@ -3468,6 +3570,7 @@ class DecTvaGroupe {
      * Set the az jb.
      *
      * @param float $azJb The az jb.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzJb($azJb) {
         $this->azJb = $azJb;
@@ -3478,6 +3581,7 @@ class DecTvaGroupe {
      * Set the az jc.
      *
      * @param float $azJc The az jc.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzJc($azJc) {
         $this->azJc = $azJc;
@@ -3488,6 +3592,7 @@ class DecTvaGroupe {
      * Set the az total b.
      *
      * @param float $azTotalB The az total b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setAzTotalB($azTotalB) {
         $this->azTotalB = $azTotalB;
@@ -3498,6 +3603,7 @@ class DecTvaGroupe {
      * Set the corres1.
      *
      * @param string $corres1 The corres1.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setCorres1($corres1) {
         $this->corres1 = $corres1;
@@ -3508,6 +3614,7 @@ class DecTvaGroupe {
      * Set the corres2.
      *
      * @param string $corres2 The corres2.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setCorres2($corres2) {
         $this->corres2 = $corres2;
@@ -3518,6 +3625,7 @@ class DecTvaGroupe {
      * Set the corres3.
      *
      * @param string $corres3 The corres3.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setCorres3($corres3) {
         $this->corres3 = $corres3;
@@ -3528,6 +3636,7 @@ class DecTvaGroupe {
      * Set the corres4.
      *
      * @param string $corres4 The corres4.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setCorres4($corres4) {
         $this->corres4 = $corres4;
@@ -3538,6 +3647,7 @@ class DecTvaGroupe {
      * Set the corres5.
      *
      * @param string $corres5 The corres5.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setCorres5($corres5) {
         $this->corres5 = $corres5;
@@ -3548,6 +3658,7 @@ class DecTvaGroupe {
      * Set the date dec.
      *
      * @param string $dateDec The date dec.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setDateDec($dateDec) {
         $this->dateDec = $dateDec;
@@ -3558,6 +3669,7 @@ class DecTvaGroupe {
      * Set the debut exo.
      *
      * @param DateTime|null $debutExo The debut exo.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setDebutExo(DateTime $debutExo = null) {
         $this->debutExo = $debutExo;
@@ -3568,6 +3680,7 @@ class DecTvaGroupe {
      * Set the fin exo.
      *
      * @param DateTime|null $finExo The fin exo.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setFinExo(DateTime $finExo = null) {
         $this->finExo = $finExo;
@@ -3578,6 +3691,7 @@ class DecTvaGroupe {
      * Set the lib doss.
      *
      * @param string $libDoss The lib doss.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setLibDoss($libDoss) {
         $this->libDoss = $libDoss;
@@ -3588,6 +3702,7 @@ class DecTvaGroupe {
      * Set the mention expresse.
      *
      * @param bool $mentionExpresse The mention expresse.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setMentionExpresse($mentionExpresse) {
         $this->mentionExpresse = $mentionExpresse;
@@ -3598,6 +3713,7 @@ class DecTvaGroupe {
      * Set the no doss.
      *
      * @param string $noDoss The no doss.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setNoDoss($noDoss) {
         $this->noDoss = $noDoss;
@@ -3608,6 +3724,7 @@ class DecTvaGroupe {
      * Set the no lot ecritures.
      *
      * @param int $noLotEcritures The no lot ecritures.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setNoLotEcritures($noLotEcritures) {
         $this->noLotEcritures = $noLotEcritures;
@@ -3618,6 +3735,7 @@ class DecTvaGroupe {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -3628,6 +3746,7 @@ class DecTvaGroupe {
      * Set the paiement imputation.
      *
      * @param bool $paiementImputation The paiement imputation.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setPaiementImputation($paiementImputation) {
         $this->paiementImputation = $paiementImputation;
@@ -3638,6 +3757,7 @@ class DecTvaGroupe {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -3648,6 +3768,7 @@ class DecTvaGroupe {
      * Set the sel adresse dest.
      *
      * @param string $selAdresseDest The sel adresse dest.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setSelAdresseDest($selAdresseDest) {
         $this->selAdresseDest = $selAdresseDest;
@@ -3658,6 +3779,7 @@ class DecTvaGroupe {
      * Set the total.
      *
      * @param float $total The total.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setTotal($total) {
         $this->total = $total;
@@ -3668,6 +3790,7 @@ class DecTvaGroupe {
      * Set the type dec.
      *
      * @param string $typeDec The type dec.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setTypeDec($typeDec) {
         $this->typeDec = $typeDec;
@@ -3678,6 +3801,7 @@ class DecTvaGroupe {
      * Set the ville.
      *
      * @param string $ville The ville.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setVille($ville) {
         $this->ville = $ville;
@@ -3688,6 +3812,7 @@ class DecTvaGroupe {
      * Set the z0100b.
      *
      * @param float $z0100b The z0100b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ0100b($z0100b) {
         $this->z0100b = $z0100b;
@@ -3698,6 +3823,7 @@ class DecTvaGroupe {
      * Set the z0121b.
      *
      * @param float $z0121b The z0121b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ0121b($z0121b) {
         $this->z0121b = $z0121b;
@@ -3708,6 +3834,7 @@ class DecTvaGroupe {
      * Set the z0600.
      *
      * @param float $z0600 The z0600.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ0600($z0600) {
         $this->z0600 = $z0600;
@@ -3718,6 +3845,7 @@ class DecTvaGroupe {
      * Set the z0705.
      *
      * @param float $z0705 The z0705.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ0705($z0705) {
         $this->z0705 = $z0705;
@@ -3728,6 +3856,7 @@ class DecTvaGroupe {
      * Set the z0900b.
      *
      * @param float $z0900b The z0900b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ0900b($z0900b) {
         $this->z0900b = $z0900b;
@@ -3738,6 +3867,7 @@ class DecTvaGroupe {
      * Set the z0920b.
      *
      * @param float $z0920b The z0920b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ0920b($z0920b) {
         $this->z0920b = $z0920b;
@@ -3748,6 +3878,7 @@ class DecTvaGroupe {
      * Set the z12 code.
      *
      * @param string $z12Code The z12 code.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ12Code($z12Code) {
         $this->z12Code = $z12Code;
@@ -3758,6 +3889,7 @@ class DecTvaGroupe {
      * Set the z12 lib.
      *
      * @param string $z12Lib The z12 lib.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ12Lib($z12Lib) {
         $this->z12Lib = $z12Lib;
@@ -3768,6 +3900,7 @@ class DecTvaGroupe {
      * Set the z12 taxe.
      *
      * @param float $z12Taxe The z12 taxe.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ12Taxe($z12Taxe) {
         $this->z12Taxe = $z12Taxe;
@@ -3778,6 +3911,7 @@ class DecTvaGroupe {
      * Set the z14.
      *
      * @param float $z14 The z14.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ14($z14) {
         $this->z14 = $z14;
@@ -3788,6 +3922,7 @@ class DecTvaGroupe {
      * Set the z196b.
      *
      * @param float $z196b The z196b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ196b($z196b) {
         $this->z196b = $z196b;
@@ -3798,6 +3933,7 @@ class DecTvaGroupe {
      * Set the z21.
      *
      * @param float $z21 The z21.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ21($z21) {
         $this->z21 = $z21;
@@ -3808,6 +3944,7 @@ class DecTvaGroupe {
      * Set the z25.
      *
      * @param float $z25 The z25.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ25($z25) {
         $this->z25 = $z25;
@@ -3818,6 +3955,7 @@ class DecTvaGroupe {
      * Set the z4227.
      *
      * @param float $z4227 The z4227.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ4227($z4227) {
         $this->z4227 = $z4227;
@@ -3828,6 +3966,7 @@ class DecTvaGroupe {
      * Set the z8001.
      *
      * @param float $z8001 The z8001.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ8001($z8001) {
         $this->z8001 = $z8001;
@@ -3838,6 +3977,7 @@ class DecTvaGroupe {
      * Set the z8002.
      *
      * @param float $z8002 The z8002.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ8002($z8002) {
         $this->z8002 = $z8002;
@@ -3848,6 +3988,7 @@ class DecTvaGroupe {
      * Set the z8003.
      *
      * @param float $z8003 The z8003.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ8003($z8003) {
         $this->z8003 = $z8003;
@@ -3858,6 +3999,7 @@ class DecTvaGroupe {
      * Set the z8005.
      *
      * @param float $z8005 The z8005.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ8005($z8005) {
         $this->z8005 = $z8005;
@@ -3868,6 +4010,7 @@ class DecTvaGroupe {
      * Set the z8006.
      *
      * @param float $z8006 The z8006.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ8006($z8006) {
         $this->z8006 = $z8006;
@@ -3878,6 +4021,7 @@ class DecTvaGroupe {
      * Set the z9979.
      *
      * @param float $z9979 The z9979.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ9979($z9979) {
         $this->z9979 = $z9979;
@@ -3888,6 +4032,7 @@ class DecTvaGroupe {
      * Set the z9989.
      *
      * @param float $z9989 The z9989.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ9989($z9989) {
         $this->z9989 = $z9989;
@@ -3898,6 +4043,7 @@ class DecTvaGroupe {
      * Set the z9991.
      *
      * @param float $z9991 The z9991.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ9991($z9991) {
         $this->z9991 = $z9991;
@@ -3908,6 +4054,7 @@ class DecTvaGroupe {
      * Set the z9999.
      *
      * @param float $z9999 The z9999.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ9999($z9999) {
         $this->z9999 = $z9999;
@@ -3918,6 +4065,7 @@ class DecTvaGroupe {
      * Set the z9 b taxe.
      *
      * @param float $z9BTaxe The z9 b taxe.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setZ9BTaxe($z9BTaxe) {
         $this->z9BTaxe = $z9BTaxe;
@@ -3928,6 +4076,7 @@ class DecTvaGroupe {
      * Set the i lock.
      *
      * @param int $iLock The i lock.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setiLock($iLock) {
         $this->iLock = $iLock;
@@ -3938,6 +4087,7 @@ class DecTvaGroupe {
      * Set the z0151b.
      *
      * @param float $z0151b The z0151b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setz0151b($z0151b) {
         $this->z0151b = $z0151b;
@@ -3948,6 +4098,7 @@ class DecTvaGroupe {
      * Set the z0207b.
      *
      * @param float $z0207b The z0207b.
+     * @return DecTvaGroupe Returns this Dec tva groupe.
      */
     public function setz0207b($z0207b) {
         $this->z0207b = $z0207b;

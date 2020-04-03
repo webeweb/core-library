@@ -62,6 +62,7 @@ class AgendaGroupesCompos {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AgendaGroupesCompos Returns this Agenda groupes compos.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -72,6 +73,7 @@ class AgendaGroupesCompos {
      * Set the code groupe.
      *
      * @param string $codeGroupe The code groupe.
+     * @return AgendaGroupesCompos Returns this Agenda groupes compos.
      */
     public function setCodeGroupe($codeGroupe) {
         $this->codeGroupe = $codeGroupe;

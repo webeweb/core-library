@@ -206,6 +206,7 @@ class Prospects {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Prospects Returns this Prospects.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -216,6 +217,7 @@ class Prospects {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Prospects Returns this Prospects.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -226,6 +228,7 @@ class Prospects {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Prospects Returns this Prospects.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -236,6 +239,7 @@ class Prospects {
      * Set the code prospect.
      *
      * @param string $codeProspect The code prospect.
+     * @return Prospects Returns this Prospects.
      */
     public function setCodeProspect($codeProspect) {
         $this->codeProspect = $codeProspect;
@@ -246,6 +250,7 @@ class Prospects {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Prospects Returns this Prospects.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -256,6 +261,7 @@ class Prospects {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return Prospects Returns this Prospects.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -266,6 +272,7 @@ class Prospects {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return Prospects Returns this Prospects.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -276,6 +283,7 @@ class Prospects {
      * Set the nom suite2.
      *
      * @param string $nomSuite2 The nom suite2.
+     * @return Prospects Returns this Prospects.
      */
     public function setNomSuite2($nomSuite2) {
         $this->nomSuite2 = $nomSuite2;
@@ -286,6 +294,7 @@ class Prospects {
      * Set the nom suite3.
      *
      * @param string $nomSuite3 The nom suite3.
+     * @return Prospects Returns this Prospects.
      */
     public function setNomSuite3($nomSuite3) {
         $this->nomSuite3 = $nomSuite3;
@@ -296,6 +305,7 @@ class Prospects {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Prospects Returns this Prospects.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -306,6 +316,7 @@ class Prospects {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Prospects Returns this Prospects.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;

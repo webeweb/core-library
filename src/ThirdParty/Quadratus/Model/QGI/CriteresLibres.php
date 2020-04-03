@@ -1808,6 +1808,7 @@ class CriteresLibres {
      * Set the case1.
      *
      * @param bool $case1 The case1.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase1($case1) {
         $this->case1 = $case1;
@@ -1818,6 +1819,7 @@ class CriteresLibres {
      * Set the case10.
      *
      * @param bool $case10 The case10.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase10($case10) {
         $this->case10 = $case10;
@@ -1828,6 +1830,7 @@ class CriteresLibres {
      * Set the case11.
      *
      * @param bool $case11 The case11.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase11($case11) {
         $this->case11 = $case11;
@@ -1838,6 +1841,7 @@ class CriteresLibres {
      * Set the case12.
      *
      * @param bool $case12 The case12.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase12($case12) {
         $this->case12 = $case12;
@@ -1848,6 +1852,7 @@ class CriteresLibres {
      * Set the case13.
      *
      * @param bool $case13 The case13.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase13($case13) {
         $this->case13 = $case13;
@@ -1858,6 +1863,7 @@ class CriteresLibres {
      * Set the case14.
      *
      * @param bool $case14 The case14.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase14($case14) {
         $this->case14 = $case14;
@@ -1868,6 +1874,7 @@ class CriteresLibres {
      * Set the case15.
      *
      * @param bool $case15 The case15.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase15($case15) {
         $this->case15 = $case15;
@@ -1878,6 +1885,7 @@ class CriteresLibres {
      * Set the case16.
      *
      * @param bool $case16 The case16.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase16($case16) {
         $this->case16 = $case16;
@@ -1888,6 +1896,7 @@ class CriteresLibres {
      * Set the case17.
      *
      * @param bool $case17 The case17.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase17($case17) {
         $this->case17 = $case17;
@@ -1898,6 +1907,7 @@ class CriteresLibres {
      * Set the case18.
      *
      * @param bool $case18 The case18.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase18($case18) {
         $this->case18 = $case18;
@@ -1908,6 +1918,7 @@ class CriteresLibres {
      * Set the case19.
      *
      * @param bool $case19 The case19.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase19($case19) {
         $this->case19 = $case19;
@@ -1918,6 +1929,7 @@ class CriteresLibres {
      * Set the case2.
      *
      * @param bool $case2 The case2.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase2($case2) {
         $this->case2 = $case2;
@@ -1928,6 +1940,7 @@ class CriteresLibres {
      * Set the case20.
      *
      * @param bool $case20 The case20.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase20($case20) {
         $this->case20 = $case20;
@@ -1938,6 +1951,7 @@ class CriteresLibres {
      * Set the case21.
      *
      * @param bool $case21 The case21.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase21($case21) {
         $this->case21 = $case21;
@@ -1948,6 +1962,7 @@ class CriteresLibres {
      * Set the case22.
      *
      * @param bool $case22 The case22.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase22($case22) {
         $this->case22 = $case22;
@@ -1958,6 +1973,7 @@ class CriteresLibres {
      * Set the case23.
      *
      * @param bool $case23 The case23.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase23($case23) {
         $this->case23 = $case23;
@@ -1968,6 +1984,7 @@ class CriteresLibres {
      * Set the case24.
      *
      * @param bool $case24 The case24.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase24($case24) {
         $this->case24 = $case24;
@@ -1978,6 +1995,7 @@ class CriteresLibres {
      * Set the case25.
      *
      * @param bool $case25 The case25.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase25($case25) {
         $this->case25 = $case25;
@@ -1988,6 +2006,7 @@ class CriteresLibres {
      * Set the case26.
      *
      * @param bool $case26 The case26.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase26($case26) {
         $this->case26 = $case26;
@@ -1998,6 +2017,7 @@ class CriteresLibres {
      * Set the case27.
      *
      * @param bool $case27 The case27.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase27($case27) {
         $this->case27 = $case27;
@@ -2008,6 +2028,7 @@ class CriteresLibres {
      * Set the case28.
      *
      * @param bool $case28 The case28.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase28($case28) {
         $this->case28 = $case28;
@@ -2018,6 +2039,7 @@ class CriteresLibres {
      * Set the case29.
      *
      * @param bool $case29 The case29.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase29($case29) {
         $this->case29 = $case29;
@@ -2028,6 +2050,7 @@ class CriteresLibres {
      * Set the case3.
      *
      * @param bool $case3 The case3.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase3($case3) {
         $this->case3 = $case3;
@@ -2038,6 +2061,7 @@ class CriteresLibres {
      * Set the case30.
      *
      * @param bool $case30 The case30.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase30($case30) {
         $this->case30 = $case30;
@@ -2048,6 +2072,7 @@ class CriteresLibres {
      * Set the case31.
      *
      * @param bool $case31 The case31.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase31($case31) {
         $this->case31 = $case31;
@@ -2058,6 +2083,7 @@ class CriteresLibres {
      * Set the case32.
      *
      * @param bool $case32 The case32.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase32($case32) {
         $this->case32 = $case32;
@@ -2068,6 +2094,7 @@ class CriteresLibres {
      * Set the case33.
      *
      * @param bool $case33 The case33.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase33($case33) {
         $this->case33 = $case33;
@@ -2078,6 +2105,7 @@ class CriteresLibres {
      * Set the case34.
      *
      * @param bool $case34 The case34.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase34($case34) {
         $this->case34 = $case34;
@@ -2088,6 +2116,7 @@ class CriteresLibres {
      * Set the case35.
      *
      * @param bool $case35 The case35.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase35($case35) {
         $this->case35 = $case35;
@@ -2098,6 +2127,7 @@ class CriteresLibres {
      * Set the case36.
      *
      * @param bool $case36 The case36.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase36($case36) {
         $this->case36 = $case36;
@@ -2108,6 +2138,7 @@ class CriteresLibres {
      * Set the case37.
      *
      * @param bool $case37 The case37.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase37($case37) {
         $this->case37 = $case37;
@@ -2118,6 +2149,7 @@ class CriteresLibres {
      * Set the case38.
      *
      * @param bool $case38 The case38.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase38($case38) {
         $this->case38 = $case38;
@@ -2128,6 +2160,7 @@ class CriteresLibres {
      * Set the case39.
      *
      * @param bool $case39 The case39.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase39($case39) {
         $this->case39 = $case39;
@@ -2138,6 +2171,7 @@ class CriteresLibres {
      * Set the case4.
      *
      * @param bool $case4 The case4.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase4($case4) {
         $this->case4 = $case4;
@@ -2148,6 +2182,7 @@ class CriteresLibres {
      * Set the case40.
      *
      * @param bool $case40 The case40.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase40($case40) {
         $this->case40 = $case40;
@@ -2158,6 +2193,7 @@ class CriteresLibres {
      * Set the case41.
      *
      * @param bool $case41 The case41.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase41($case41) {
         $this->case41 = $case41;
@@ -2168,6 +2204,7 @@ class CriteresLibres {
      * Set the case42.
      *
      * @param bool $case42 The case42.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase42($case42) {
         $this->case42 = $case42;
@@ -2178,6 +2215,7 @@ class CriteresLibres {
      * Set the case43.
      *
      * @param bool $case43 The case43.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase43($case43) {
         $this->case43 = $case43;
@@ -2188,6 +2226,7 @@ class CriteresLibres {
      * Set the case44.
      *
      * @param bool $case44 The case44.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase44($case44) {
         $this->case44 = $case44;
@@ -2198,6 +2237,7 @@ class CriteresLibres {
      * Set the case45.
      *
      * @param bool $case45 The case45.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase45($case45) {
         $this->case45 = $case45;
@@ -2208,6 +2248,7 @@ class CriteresLibres {
      * Set the case46.
      *
      * @param bool $case46 The case46.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase46($case46) {
         $this->case46 = $case46;
@@ -2218,6 +2259,7 @@ class CriteresLibres {
      * Set the case47.
      *
      * @param bool $case47 The case47.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase47($case47) {
         $this->case47 = $case47;
@@ -2228,6 +2270,7 @@ class CriteresLibres {
      * Set the case48.
      *
      * @param bool $case48 The case48.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase48($case48) {
         $this->case48 = $case48;
@@ -2238,6 +2281,7 @@ class CriteresLibres {
      * Set the case49.
      *
      * @param bool $case49 The case49.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase49($case49) {
         $this->case49 = $case49;
@@ -2248,6 +2292,7 @@ class CriteresLibres {
      * Set the case5.
      *
      * @param bool $case5 The case5.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase5($case5) {
         $this->case5 = $case5;
@@ -2258,6 +2303,7 @@ class CriteresLibres {
      * Set the case50.
      *
      * @param bool $case50 The case50.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase50($case50) {
         $this->case50 = $case50;
@@ -2268,6 +2314,7 @@ class CriteresLibres {
      * Set the case6.
      *
      * @param bool $case6 The case6.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase6($case6) {
         $this->case6 = $case6;
@@ -2278,6 +2325,7 @@ class CriteresLibres {
      * Set the case7.
      *
      * @param bool $case7 The case7.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase7($case7) {
         $this->case7 = $case7;
@@ -2288,6 +2336,7 @@ class CriteresLibres {
      * Set the case8.
      *
      * @param bool $case8 The case8.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase8($case8) {
         $this->case8 = $case8;
@@ -2298,6 +2347,7 @@ class CriteresLibres {
      * Set the case9.
      *
      * @param bool $case9 The case9.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCase9($case9) {
         $this->case9 = $case9;
@@ -2308,6 +2358,7 @@ class CriteresLibres {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -2318,6 +2369,7 @@ class CriteresLibres {
      * Set the date1.
      *
      * @param DateTime|null $date1 The date1.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate1(DateTime $date1 = null) {
         $this->date1 = $date1;
@@ -2328,6 +2380,7 @@ class CriteresLibres {
      * Set the date10.
      *
      * @param DateTime|null $date10 The date10.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate10(DateTime $date10 = null) {
         $this->date10 = $date10;
@@ -2338,6 +2391,7 @@ class CriteresLibres {
      * Set the date11.
      *
      * @param DateTime|null $date11 The date11.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate11(DateTime $date11 = null) {
         $this->date11 = $date11;
@@ -2348,6 +2402,7 @@ class CriteresLibres {
      * Set the date12.
      *
      * @param DateTime|null $date12 The date12.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate12(DateTime $date12 = null) {
         $this->date12 = $date12;
@@ -2358,6 +2413,7 @@ class CriteresLibres {
      * Set the date13.
      *
      * @param DateTime|null $date13 The date13.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate13(DateTime $date13 = null) {
         $this->date13 = $date13;
@@ -2368,6 +2424,7 @@ class CriteresLibres {
      * Set the date14.
      *
      * @param DateTime|null $date14 The date14.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate14(DateTime $date14 = null) {
         $this->date14 = $date14;
@@ -2378,6 +2435,7 @@ class CriteresLibres {
      * Set the date15.
      *
      * @param DateTime|null $date15 The date15.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate15(DateTime $date15 = null) {
         $this->date15 = $date15;
@@ -2388,6 +2446,7 @@ class CriteresLibres {
      * Set the date16.
      *
      * @param DateTime|null $date16 The date16.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate16(DateTime $date16 = null) {
         $this->date16 = $date16;
@@ -2398,6 +2457,7 @@ class CriteresLibres {
      * Set the date17.
      *
      * @param DateTime|null $date17 The date17.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate17(DateTime $date17 = null) {
         $this->date17 = $date17;
@@ -2408,6 +2468,7 @@ class CriteresLibres {
      * Set the date18.
      *
      * @param DateTime|null $date18 The date18.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate18(DateTime $date18 = null) {
         $this->date18 = $date18;
@@ -2418,6 +2479,7 @@ class CriteresLibres {
      * Set the date19.
      *
      * @param DateTime|null $date19 The date19.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate19(DateTime $date19 = null) {
         $this->date19 = $date19;
@@ -2428,6 +2490,7 @@ class CriteresLibres {
      * Set the date2.
      *
      * @param DateTime|null $date2 The date2.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate2(DateTime $date2 = null) {
         $this->date2 = $date2;
@@ -2438,6 +2501,7 @@ class CriteresLibres {
      * Set the date20.
      *
      * @param DateTime|null $date20 The date20.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate20(DateTime $date20 = null) {
         $this->date20 = $date20;
@@ -2448,6 +2512,7 @@ class CriteresLibres {
      * Set the date3.
      *
      * @param DateTime|null $date3 The date3.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate3(DateTime $date3 = null) {
         $this->date3 = $date3;
@@ -2458,6 +2523,7 @@ class CriteresLibres {
      * Set the date4.
      *
      * @param DateTime|null $date4 The date4.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate4(DateTime $date4 = null) {
         $this->date4 = $date4;
@@ -2468,6 +2534,7 @@ class CriteresLibres {
      * Set the date5.
      *
      * @param DateTime|null $date5 The date5.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate5(DateTime $date5 = null) {
         $this->date5 = $date5;
@@ -2478,6 +2545,7 @@ class CriteresLibres {
      * Set the date6.
      *
      * @param DateTime|null $date6 The date6.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate6(DateTime $date6 = null) {
         $this->date6 = $date6;
@@ -2488,6 +2556,7 @@ class CriteresLibres {
      * Set the date7.
      *
      * @param DateTime|null $date7 The date7.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate7(DateTime $date7 = null) {
         $this->date7 = $date7;
@@ -2498,6 +2567,7 @@ class CriteresLibres {
      * Set the date8.
      *
      * @param DateTime|null $date8 The date8.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate8(DateTime $date8 = null) {
         $this->date8 = $date8;
@@ -2508,6 +2578,7 @@ class CriteresLibres {
      * Set the date9.
      *
      * @param DateTime|null $date9 The date9.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setDate9(DateTime $date9 = null) {
         $this->date9 = $date9;
@@ -2518,6 +2589,7 @@ class CriteresLibres {
      * Set the texte a.
      *
      * @param string $texteA The texte a.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteA($texteA) {
         $this->texteA = $texteA;
@@ -2528,6 +2600,7 @@ class CriteresLibres {
      * Set the texte b.
      *
      * @param string $texteB The texte b.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteB($texteB) {
         $this->texteB = $texteB;
@@ -2538,6 +2611,7 @@ class CriteresLibres {
      * Set the texte c.
      *
      * @param string $texteC The texte c.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteC($texteC) {
         $this->texteC = $texteC;
@@ -2548,6 +2622,7 @@ class CriteresLibres {
      * Set the texte d.
      *
      * @param string $texteD The texte d.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteD($texteD) {
         $this->texteD = $texteD;
@@ -2558,6 +2633,7 @@ class CriteresLibres {
      * Set the texte e.
      *
      * @param string $texteE The texte e.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteE($texteE) {
         $this->texteE = $texteE;
@@ -2568,6 +2644,7 @@ class CriteresLibres {
      * Set the texte f.
      *
      * @param string $texteF The texte f.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteF($texteF) {
         $this->texteF = $texteF;
@@ -2578,6 +2655,7 @@ class CriteresLibres {
      * Set the texte g.
      *
      * @param string $texteG The texte g.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteG($texteG) {
         $this->texteG = $texteG;
@@ -2588,6 +2666,7 @@ class CriteresLibres {
      * Set the texte h.
      *
      * @param string $texteH The texte h.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteH($texteH) {
         $this->texteH = $texteH;
@@ -2598,6 +2677,7 @@ class CriteresLibres {
      * Set the texte i.
      *
      * @param string $texteI The texte i.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteI($texteI) {
         $this->texteI = $texteI;
@@ -2608,6 +2688,7 @@ class CriteresLibres {
      * Set the texte j.
      *
      * @param string $texteJ The texte j.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteJ($texteJ) {
         $this->texteJ = $texteJ;
@@ -2618,6 +2699,7 @@ class CriteresLibres {
      * Set the texte k.
      *
      * @param string $texteK The texte k.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteK($texteK) {
         $this->texteK = $texteK;
@@ -2628,6 +2710,7 @@ class CriteresLibres {
      * Set the texte l.
      *
      * @param string $texteL The texte l.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteL($texteL) {
         $this->texteL = $texteL;
@@ -2638,6 +2721,7 @@ class CriteresLibres {
      * Set the texte m.
      *
      * @param string $texteM The texte m.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteM($texteM) {
         $this->texteM = $texteM;
@@ -2648,6 +2732,7 @@ class CriteresLibres {
      * Set the texte n.
      *
      * @param string $texteN The texte n.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteN($texteN) {
         $this->texteN = $texteN;
@@ -2658,6 +2743,7 @@ class CriteresLibres {
      * Set the texte o.
      *
      * @param string $texteO The texte o.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteO($texteO) {
         $this->texteO = $texteO;
@@ -2668,6 +2754,7 @@ class CriteresLibres {
      * Set the texte p.
      *
      * @param string $texteP The texte p.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteP($texteP) {
         $this->texteP = $texteP;
@@ -2678,6 +2765,7 @@ class CriteresLibres {
      * Set the texte q.
      *
      * @param string $texteQ The texte q.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteQ($texteQ) {
         $this->texteQ = $texteQ;
@@ -2688,6 +2776,7 @@ class CriteresLibres {
      * Set the texte r.
      *
      * @param string $texteR The texte r.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteR($texteR) {
         $this->texteR = $texteR;
@@ -2698,6 +2787,7 @@ class CriteresLibres {
      * Set the texte s.
      *
      * @param string $texteS The texte s.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteS($texteS) {
         $this->texteS = $texteS;
@@ -2708,6 +2798,7 @@ class CriteresLibres {
      * Set the texte t.
      *
      * @param string $texteT The texte t.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setTexteT($texteT) {
         $this->texteT = $texteT;
@@ -2718,6 +2809,7 @@ class CriteresLibres {
      * Set the valeur1.
      *
      * @param float $valeur1 The valeur1.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur1($valeur1) {
         $this->valeur1 = $valeur1;
@@ -2728,6 +2820,7 @@ class CriteresLibres {
      * Set the valeur10.
      *
      * @param float $valeur10 The valeur10.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur10($valeur10) {
         $this->valeur10 = $valeur10;
@@ -2738,6 +2831,7 @@ class CriteresLibres {
      * Set the valeur11.
      *
      * @param float $valeur11 The valeur11.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur11($valeur11) {
         $this->valeur11 = $valeur11;
@@ -2748,6 +2842,7 @@ class CriteresLibres {
      * Set the valeur12.
      *
      * @param float $valeur12 The valeur12.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur12($valeur12) {
         $this->valeur12 = $valeur12;
@@ -2758,6 +2853,7 @@ class CriteresLibres {
      * Set the valeur13.
      *
      * @param float $valeur13 The valeur13.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur13($valeur13) {
         $this->valeur13 = $valeur13;
@@ -2768,6 +2864,7 @@ class CriteresLibres {
      * Set the valeur14.
      *
      * @param float $valeur14 The valeur14.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur14($valeur14) {
         $this->valeur14 = $valeur14;
@@ -2778,6 +2875,7 @@ class CriteresLibres {
      * Set the valeur15.
      *
      * @param float $valeur15 The valeur15.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur15($valeur15) {
         $this->valeur15 = $valeur15;
@@ -2788,6 +2886,7 @@ class CriteresLibres {
      * Set the valeur16.
      *
      * @param float $valeur16 The valeur16.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur16($valeur16) {
         $this->valeur16 = $valeur16;
@@ -2798,6 +2897,7 @@ class CriteresLibres {
      * Set the valeur17.
      *
      * @param float $valeur17 The valeur17.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur17($valeur17) {
         $this->valeur17 = $valeur17;
@@ -2808,6 +2908,7 @@ class CriteresLibres {
      * Set the valeur18.
      *
      * @param float $valeur18 The valeur18.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur18($valeur18) {
         $this->valeur18 = $valeur18;
@@ -2818,6 +2919,7 @@ class CriteresLibres {
      * Set the valeur19.
      *
      * @param float $valeur19 The valeur19.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur19($valeur19) {
         $this->valeur19 = $valeur19;
@@ -2828,6 +2930,7 @@ class CriteresLibres {
      * Set the valeur2.
      *
      * @param float $valeur2 The valeur2.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur2($valeur2) {
         $this->valeur2 = $valeur2;
@@ -2838,6 +2941,7 @@ class CriteresLibres {
      * Set the valeur20.
      *
      * @param float $valeur20 The valeur20.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur20($valeur20) {
         $this->valeur20 = $valeur20;
@@ -2848,6 +2952,7 @@ class CriteresLibres {
      * Set the valeur3.
      *
      * @param float $valeur3 The valeur3.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur3($valeur3) {
         $this->valeur3 = $valeur3;
@@ -2858,6 +2963,7 @@ class CriteresLibres {
      * Set the valeur4.
      *
      * @param float $valeur4 The valeur4.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur4($valeur4) {
         $this->valeur4 = $valeur4;
@@ -2868,6 +2974,7 @@ class CriteresLibres {
      * Set the valeur5.
      *
      * @param float $valeur5 The valeur5.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur5($valeur5) {
         $this->valeur5 = $valeur5;
@@ -2878,6 +2985,7 @@ class CriteresLibres {
      * Set the valeur6.
      *
      * @param float $valeur6 The valeur6.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur6($valeur6) {
         $this->valeur6 = $valeur6;
@@ -2888,6 +2996,7 @@ class CriteresLibres {
      * Set the valeur7.
      *
      * @param float $valeur7 The valeur7.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur7($valeur7) {
         $this->valeur7 = $valeur7;
@@ -2898,6 +3007,7 @@ class CriteresLibres {
      * Set the valeur8.
      *
      * @param float $valeur8 The valeur8.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur8($valeur8) {
         $this->valeur8 = $valeur8;
@@ -2908,6 +3018,7 @@ class CriteresLibres {
      * Set the valeur9.
      *
      * @param float $valeur9 The valeur9.
+     * @return CriteresLibres Returns this Criteres libres.
      */
     public function setValeur9($valeur9) {
         $this->valeur9 = $valeur9;

@@ -96,6 +96,7 @@ class AgendaJoursFeries {
      * Set the calculee.
      *
      * @param bool $calculee The calculee.
+     * @return AgendaJoursFeries Returns this Agenda jours feries.
      */
     public function setCalculee($calculee) {
         $this->calculee = $calculee;
@@ -106,6 +107,7 @@ class AgendaJoursFeries {
      * Set the date feriee.
      *
      * @param DateTime|null $dateFeriee The date feriee.
+     * @return AgendaJoursFeries Returns this Agenda jours feries.
      */
     public function setDateFeriee(DateTime $dateFeriee = null) {
         $this->dateFeriee = $dateFeriee;
@@ -116,6 +118,7 @@ class AgendaJoursFeries {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return AgendaJoursFeries Returns this Agenda jours feries.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -126,6 +129,7 @@ class AgendaJoursFeries {
      * Set the type.
      *
      * @param string $type The type.
+     * @return AgendaJoursFeries Returns this Agenda jours feries.
      */
     public function setType($type) {
         $this->type = $type;

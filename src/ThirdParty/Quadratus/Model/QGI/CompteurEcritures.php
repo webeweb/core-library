@@ -176,6 +176,7 @@ class CompteurEcritures {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -186,6 +187,7 @@ class CompteurEcritures {
      * Set the date comptage.
      *
      * @param DateTime|null $dateComptage The date comptage.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setDateComptage(DateTime $dateComptage = null) {
         $this->dateComptage = $dateComptage;
@@ -196,6 +198,7 @@ class CompteurEcritures {
      * Set the millesime.
      *
      * @param string $millesime The millesime.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setMillesime($millesime) {
         $this->millesime = $millesime;
@@ -206,6 +209,7 @@ class CompteurEcritures {
      * Set the nb ecritures.
      *
      * @param int $nbEcritures The nb ecritures.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setNbEcritures($nbEcritures) {
         $this->nbEcritures = $nbEcritures;
@@ -216,6 +220,7 @@ class CompteurEcritures {
      * Set the nb ecritures a deduire.
      *
      * @param float $nbEcrituresADeduire The nb ecritures a deduire.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setNbEcrituresADeduire($nbEcrituresADeduire) {
         $this->nbEcrituresADeduire = $nbEcrituresADeduire;
@@ -226,6 +231,7 @@ class CompteurEcritures {
      * Set the no chrono preparation.
      *
      * @param int $noChronoPreparation The no chrono preparation.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setNoChronoPreparation($noChronoPreparation) {
         $this->noChronoPreparation = $noChronoPreparation;
@@ -236,6 +242,7 @@ class CompteurEcritures {
      * Set the periode preparation.
      *
      * @param DateTime|null $periodePreparation The periode preparation.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setPeriodePreparation(DateTime $periodePreparation = null) {
         $this->periodePreparation = $periodePreparation;
@@ -246,6 +253,7 @@ class CompteurEcritures {
      * Set the type.
      *
      * @param string $type The type.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setType($type) {
         $this->type = $type;
@@ -256,6 +264,7 @@ class CompteurEcritures {
      * Set the uniq id pdf.
      *
      * @param string $uniqIdPdf The uniq id pdf.
+     * @return CompteurEcritures Returns this Compteur ecritures.
      */
     public function setUniqIdPdf($uniqIdPdf) {
         $this->uniqIdPdf = $uniqIdPdf;

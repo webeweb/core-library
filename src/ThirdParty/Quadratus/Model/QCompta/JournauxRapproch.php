@@ -112,6 +112,7 @@ class JournauxRapproch {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return JournauxRapproch Returns this Journaux rapproch.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -122,6 +123,7 @@ class JournauxRapproch {
      * Set the methode.
      *
      * @param string $methode The methode.
+     * @return JournauxRapproch Returns this Journaux rapproch.
      */
     public function setMethode($methode) {
         $this->methode = $methode;
@@ -132,6 +134,7 @@ class JournauxRapproch {
      * Set the ne pas saisir solde fin.
      *
      * @param bool $nePasSaisirSoldeFin The ne pas saisir solde fin.
+     * @return JournauxRapproch Returns this Journaux rapproch.
      */
     public function setNePasSaisirSoldeFin($nePasSaisirSoldeFin) {
         $this->nePasSaisirSoldeFin = $nePasSaisirSoldeFin;
@@ -142,6 +145,7 @@ class JournauxRapproch {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return JournauxRapproch Returns this Journaux rapproch.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -152,6 +156,7 @@ class JournauxRapproch {
      * Set the solde fin.
      *
      * @param float $soldeFin The solde fin.
+     * @return JournauxRapproch Returns this Journaux rapproch.
      */
     public function setSoldeFin($soldeFin) {
         $this->soldeFin = $soldeFin;

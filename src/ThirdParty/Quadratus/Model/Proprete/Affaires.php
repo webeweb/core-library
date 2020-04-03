@@ -512,6 +512,7 @@ class Affaires {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Affaires Returns this Affaires.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -522,6 +523,7 @@ class Affaires {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Affaires Returns this Affaires.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -532,6 +534,7 @@ class Affaires {
      * Set the ca stat annuel.
      *
      * @param float $caStatAnnuel The ca stat annuel.
+     * @return Affaires Returns this Affaires.
      */
     public function setCaStatAnnuel($caStatAnnuel) {
         $this->caStatAnnuel = $caStatAnnuel;
@@ -542,6 +545,7 @@ class Affaires {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -552,6 +556,7 @@ class Affaires {
      * Set the code analytique.
      *
      * @param string $codeAnalytique The code analytique.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeAnalytique($codeAnalytique) {
         $this->codeAnalytique = $codeAnalytique;
@@ -562,6 +567,7 @@ class Affaires {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -572,6 +578,7 @@ class Affaires {
      * Set the code commercial.
      *
      * @param string $codeCommercial The code commercial.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeCommercial($codeCommercial) {
         $this->codeCommercial = $codeCommercial;
@@ -582,6 +589,7 @@ class Affaires {
      * Set the code factor.
      *
      * @param string $codeFactor The code factor.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeFactor($codeFactor) {
         $this->codeFactor = $codeFactor;
@@ -592,6 +600,7 @@ class Affaires {
      * Set the code pays.
      *
      * @param string $codePays The code pays.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodePays($codePays) {
         $this->codePays = $codePays;
@@ -602,6 +611,7 @@ class Affaires {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -612,6 +622,7 @@ class Affaires {
      * Set the code reg marge.
      *
      * @param string $codeRegMarge The code reg marge.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeRegMarge($codeRegMarge) {
         $this->codeRegMarge = $codeRegMarge;
@@ -622,6 +633,7 @@ class Affaires {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -632,6 +644,7 @@ class Affaires {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -642,6 +655,7 @@ class Affaires {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Affaires Returns this Affaires.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -652,6 +666,7 @@ class Affaires {
      * Set the date creat.
      *
      * @param DateTime|null $dateCreat The date creat.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateCreat(DateTime $dateCreat = null) {
         $this->dateCreat = $dateCreat;
@@ -662,6 +677,7 @@ class Affaires {
      * Set the date deb affaire.
      *
      * @param DateTime|null $dateDebAffaire The date deb affaire.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateDebAffaire(DateTime $dateDebAffaire = null) {
         $this->dateDebAffaire = $dateDebAffaire;
@@ -672,6 +688,7 @@ class Affaires {
      * Set the date deb affaire deb mois.
      *
      * @param DateTime|null $dateDebAffaireDebMois The date deb affaire deb mois.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateDebAffaireDebMois(DateTime $dateDebAffaireDebMois = null) {
         $this->dateDebAffaireDebMois = $dateDebAffaireDebMois;
@@ -682,6 +699,7 @@ class Affaires {
      * Set the date fin affaire.
      *
      * @param DateTime|null $dateFinAffaire The date fin affaire.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateFinAffaire(DateTime $dateFinAffaire = null) {
         $this->dateFinAffaire = $dateFinAffaire;
@@ -692,6 +710,7 @@ class Affaires {
      * Set the date fin affaire fin mois.
      *
      * @param DateTime|null $dateFinAffaireFinMois The date fin affaire fin mois.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateFinAffaireFinMois(DateTime $dateFinAffaireFinMois = null) {
         $this->dateFinAffaireFinMois = $dateFinAffaireFinMois;
@@ -702,6 +721,7 @@ class Affaires {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -712,6 +732,7 @@ class Affaires {
      * Set the date vente.
      *
      * @param DateTime|null $dateVente The date vente.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateVente(DateTime $dateVente = null) {
         $this->dateVente = $dateVente;
@@ -722,6 +743,7 @@ class Affaires {
      * Set the facture isolee.
      *
      * @param bool $factureIsolee The facture isolee.
+     * @return Affaires Returns this Affaires.
      */
     public function setFactureIsolee($factureIsolee) {
         $this->factureIsolee = $factureIsolee;
@@ -732,6 +754,7 @@ class Affaires {
      * Set the groupe sous traite.
      *
      * @param string $groupeSousTraite The groupe sous traite.
+     * @return Affaires Returns this Affaires.
      */
     public function setGroupeSousTraite($groupeSousTraite) {
         $this->groupeSousTraite = $groupeSousTraite;
@@ -742,6 +765,7 @@ class Affaires {
      * Set the nom adresse.
      *
      * @param string $nomAdresse The nom adresse.
+     * @return Affaires Returns this Affaires.
      */
     public function setNomAdresse($nomAdresse) {
         $this->nomAdresse = $nomAdresse;
@@ -752,6 +776,7 @@ class Affaires {
      * Set the nom affaire.
      *
      * @param string $nomAffaire The nom affaire.
+     * @return Affaires Returns this Affaires.
      */
     public function setNomAffaire($nomAffaire) {
         $this->nomAffaire = $nomAffaire;
@@ -762,6 +787,7 @@ class Affaires {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return Affaires Returns this Affaires.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -772,6 +798,7 @@ class Affaires {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Affaires Returns this Affaires.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -782,6 +809,7 @@ class Affaires {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Affaires Returns this Affaires.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -792,6 +820,7 @@ class Affaires {
      * Set the reference facture.
      *
      * @param string $referenceFacture The reference facture.
+     * @return Affaires Returns this Affaires.
      */
     public function setReferenceFacture($referenceFacture) {
         $this->referenceFacture = $referenceFacture;
@@ -802,6 +831,7 @@ class Affaires {
      * Set the reference facture2.
      *
      * @param string $referenceFacture2 The reference facture2.
+     * @return Affaires Returns this Affaires.
      */
     public function setReferenceFacture2($referenceFacture2) {
         $this->referenceFacture2 = $referenceFacture2;

@@ -94,6 +94,7 @@ class Statistiques {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Statistiques Returns this Statistiques.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -104,6 +105,7 @@ class Statistiques {
      * Set the code rubrique.
      *
      * @param string $codeRubrique The code rubrique.
+     * @return Statistiques Returns this Statistiques.
      */
     public function setCodeRubrique($codeRubrique) {
         $this->codeRubrique = $codeRubrique;
@@ -114,6 +116,7 @@ class Statistiques {
      * Set the info cellule.
      *
      * @param float $infoCellule The info cellule.
+     * @return Statistiques Returns this Statistiques.
      */
     public function setInfoCellule($infoCellule) {
         $this->infoCellule = $infoCellule;
@@ -124,6 +127,7 @@ class Statistiques {
      * Set the millesime.
      *
      * @param string $millesime The millesime.
+     * @return Statistiques Returns this Statistiques.
      */
     public function setMillesime($millesime) {
         $this->millesime = $millesime;

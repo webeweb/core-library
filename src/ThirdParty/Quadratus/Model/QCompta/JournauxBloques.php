@@ -64,6 +64,7 @@ class JournauxBloques {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return JournauxBloques Returns this Journaux bloques.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -74,6 +75,7 @@ class JournauxBloques {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return JournauxBloques Returns this Journaux bloques.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

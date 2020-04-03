@@ -110,6 +110,7 @@ class AffectationAna {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return AffectationAna Returns this Affectation ana.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -120,6 +121,7 @@ class AffectationAna {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return AffectationAna Returns this Affectation ana.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -130,6 +132,7 @@ class AffectationAna {
      * Set the num compte.
      *
      * @param string $numCompte The num compte.
+     * @return AffectationAna Returns this Affectation ana.
      */
     public function setNumCompte($numCompte) {
         $this->numCompte = $numCompte;
@@ -140,6 +143,7 @@ class AffectationAna {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return AffectationAna Returns this Affectation ana.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -150,6 +154,7 @@ class AffectationAna {
      * Set the pourcentage.
      *
      * @param float $pourcentage The pourcentage.
+     * @return AffectationAna Returns this Affectation ana.
      */
     public function setPourcentage($pourcentage) {
         $this->pourcentage = $pourcentage;

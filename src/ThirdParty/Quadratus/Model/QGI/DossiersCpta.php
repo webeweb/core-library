@@ -78,6 +78,7 @@ class DossiersCpta {
      * Set the chemin dossier cpta.
      *
      * @param string $cheminDossierCpta The chemin dossier cpta.
+     * @return DossiersCpta Returns this Dossiers cpta.
      */
     public function setCheminDossierCpta($cheminDossierCpta) {
         $this->cheminDossierCpta = $cheminDossierCpta;
@@ -88,6 +89,7 @@ class DossiersCpta {
      * Set the num dossier cpta.
      *
      * @param string $numDossierCpta The num dossier cpta.
+     * @return DossiersCpta Returns this Dossiers cpta.
      */
     public function setNumDossierCpta($numDossierCpta) {
         $this->numDossierCpta = $numDossierCpta;
@@ -98,6 +100,7 @@ class DossiersCpta {
      * Set the num dossier fact.
      *
      * @param string $numDossierFact The num dossier fact.
+     * @return DossiersCpta Returns this Dossiers cpta.
      */
     public function setNumDossierFact($numDossierFact) {
         $this->numDossierFact = $numDossierFact;

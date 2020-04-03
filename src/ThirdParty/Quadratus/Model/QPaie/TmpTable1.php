@@ -208,6 +208,7 @@ class TmpTable1 {
      * Set the classe.
      *
      * @param string $classe The classe.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setClasse($classe) {
         $this->classe = $classe;
@@ -218,6 +219,7 @@ class TmpTable1 {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -228,6 +230,7 @@ class TmpTable1 {
      * Set the etablissement.
      *
      * @param int $etablissement The etablissement.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setEtablissement($etablissement) {
         $this->etablissement = $etablissement;
@@ -238,6 +241,7 @@ class TmpTable1 {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -248,6 +252,7 @@ class TmpTable1 {
      * Set the inverse.
      *
      * @param bool $inverse The inverse.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setInverse($inverse) {
         $this->inverse = $inverse;
@@ -258,6 +263,7 @@ class TmpTable1 {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -268,6 +274,7 @@ class TmpTable1 {
      * Set the qui.
      *
      * @param int $qui The qui.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setQui($qui) {
         $this->qui = $qui;
@@ -278,6 +285,7 @@ class TmpTable1 {
      * Set the service.
      *
      * @param string $service The service.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setService($service) {
         $this->service = $service;
@@ -288,6 +296,7 @@ class TmpTable1 {
      * Set the type.
      *
      * @param int $type The type.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setType($type) {
         $this->type = $type;
@@ -298,6 +307,7 @@ class TmpTable1 {
      * Set the valeur.
      *
      * @param float $valeur The valeur.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setValeur($valeur) {
         $this->valeur = $valeur;
@@ -308,6 +318,7 @@ class TmpTable1 {
      * Set the valeur tot.
      *
      * @param float $valeurTot The valeur tot.
+     * @return TmpTable1 Returns this Tmp table1.
      */
     public function setValeurTot($valeurTot) {
         $this->valeurTot = $valeurTot;

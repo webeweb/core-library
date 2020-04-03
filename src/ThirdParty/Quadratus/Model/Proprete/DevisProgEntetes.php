@@ -78,6 +78,7 @@ class DevisProgEntetes {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return DevisProgEntetes Returns this Devis prog entetes.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -88,6 +89,7 @@ class DevisProgEntetes {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisProgEntetes Returns this Devis prog entetes.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -98,6 +100,7 @@ class DevisProgEntetes {
      * Set the num programme.
      *
      * @param int $numProgramme The num programme.
+     * @return DevisProgEntetes Returns this Devis prog entetes.
      */
     public function setNumProgramme($numProgramme) {
         $this->numProgramme = $numProgramme;

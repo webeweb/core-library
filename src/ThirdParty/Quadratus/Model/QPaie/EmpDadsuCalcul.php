@@ -1904,6 +1904,7 @@ class EmpDadsuCalcul {
      * Set the ancienn btp.
      *
      * @param DateTime|null $anciennBtp The ancienn btp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setAnciennBtp(DateTime $anciennBtp = null) {
         $this->anciennBtp = $anciennBtp;
@@ -1914,6 +1915,7 @@ class EmpDadsuCalcul {
      * Set the annee somme isol.
      *
      * @param string $anneeSommeIsol The annee somme isol.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setAnneeSommeIsol($anneeSommeIsol) {
         $this->anneeSommeIsol = $anneeSommeIsol;
@@ -1924,6 +1926,7 @@ class EmpDadsuCalcul {
      * Set the annee somme isol2.
      *
      * @param string $anneeSommeIsol2 The annee somme isol2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setAnneeSommeIsol2($anneeSommeIsol2) {
         $this->anneeSommeIsol2 = $anneeSommeIsol2;
@@ -1934,6 +1937,7 @@ class EmpDadsuCalcul {
      * Set the annee somme isol3.
      *
      * @param string $anneeSommeIsol3 The annee somme isol3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setAnneeSommeIsol3($anneeSommeIsol3) {
         $this->anneeSommeIsol3 = $anneeSommeIsol3;
@@ -1944,6 +1948,7 @@ class EmpDadsuCalcul {
      * Set the annee somme isol4.
      *
      * @param string $anneeSommeIsol4 The annee somme isol4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setAnneeSommeIsol4($anneeSommeIsol4) {
         $this->anneeSommeIsol4 = $anneeSommeIsol4;
@@ -1954,6 +1959,7 @@ class EmpDadsuCalcul {
      * Set the annee somme isol5.
      *
      * @param string $anneeSommeIsol5 The annee somme isol5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setAnneeSommeIsol5($anneeSommeIsol5) {
         $this->anneeSommeIsol5 = $anneeSommeIsol5;
@@ -1964,6 +1970,7 @@ class EmpDadsuCalcul {
      * Set the base brute cot ccpbtp.
      *
      * @param float $baseBruteCotCcpbtp The base brute cot ccpbtp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setBaseBruteCotCcpbtp($baseBruteCotCcpbtp) {
         $this->baseBruteCotCcpbtp = $baseBruteCotCcpbtp;
@@ -1974,6 +1981,7 @@ class EmpDadsuCalcul {
      * Set the base brute cot oppbtp.
      *
      * @param float $baseBruteCotOppbtp The base brute cot oppbtp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setBaseBruteCotOppbtp($baseBruteCotOppbtp) {
         $this->baseBruteCotOppbtp = $baseBruteCotOppbtp;
@@ -1984,6 +1992,7 @@ class EmpDadsuCalcul {
      * Set the base brute cpbtp.
      *
      * @param float $baseBruteCpbtp The base brute cpbtp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setBaseBruteCpbtp($baseBruteCpbtp) {
         $this->baseBruteCpbtp = $baseBruteCpbtp;
@@ -1994,6 +2003,7 @@ class EmpDadsuCalcul {
      * Set the benef assedic.
      *
      * @param string $benefAssedic The benef assedic.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setBenefAssedic($benefAssedic) {
         $this->benefAssedic = $benefAssedic;
@@ -2004,6 +2014,7 @@ class EmpDadsuCalcul {
      * Set the brut ircantec.
      *
      * @param float $brutIrcantec The brut ircantec.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setBrutIrcantec($brutIrcantec) {
         $this->brutIrcantec = $brutIrcantec;
@@ -2014,6 +2025,7 @@ class EmpDadsuCalcul {
      * Set the btp sal moyen.
      *
      * @param float $btpSalMoyen The btp sal moyen.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setBtpSalMoyen($btpSalMoyen) {
         $this->btpSalMoyen = $btpSalMoyen;
@@ -2024,6 +2036,7 @@ class EmpDadsuCalcul {
      * Set the code class btp.
      *
      * @param string $codeClassBtp The code class btp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeClassBtp($codeClassBtp) {
         $this->codeClassBtp = $codeClassBtp;
@@ -2034,6 +2047,7 @@ class EmpDadsuCalcul {
      * Set the code duree trav.
      *
      * @param string $codeDureeTrav The code duree trav.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeDureeTrav($codeDureeTrav) {
         $this->codeDureeTrav = $codeDureeTrav;
@@ -2044,6 +2058,7 @@ class EmpDadsuCalcul {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -2054,6 +2069,7 @@ class EmpDadsuCalcul {
      * Set the code lib b plaf.
      *
      * @param string $codeLibBPlaf The code lib b plaf.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBPlaf($codeLibBPlaf) {
         $this->codeLibBPlaf = $codeLibBPlaf;
@@ -2064,6 +2080,7 @@ class EmpDadsuCalcul {
      * Set the code lib b plaf2.
      *
      * @param string $codeLibBPlaf2 The code lib b plaf2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBPlaf2($codeLibBPlaf2) {
         $this->codeLibBPlaf2 = $codeLibBPlaf2;
@@ -2074,6 +2091,7 @@ class EmpDadsuCalcul {
      * Set the code lib b plaf3.
      *
      * @param string $codeLibBPlaf3 The code lib b plaf3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBPlaf3($codeLibBPlaf3) {
         $this->codeLibBPlaf3 = $codeLibBPlaf3;
@@ -2084,6 +2102,7 @@ class EmpDadsuCalcul {
      * Set the code lib b plaf4.
      *
      * @param string $codeLibBPlaf4 The code lib b plaf4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBPlaf4($codeLibBPlaf4) {
         $this->codeLibBPlaf4 = $codeLibBPlaf4;
@@ -2094,6 +2113,7 @@ class EmpDadsuCalcul {
      * Set the code lib b plaf5.
      *
      * @param string $codeLibBPlaf5 The code lib b plaf5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBPlaf5($codeLibBPlaf5) {
         $this->codeLibBPlaf5 = $codeLibBPlaf5;
@@ -2104,6 +2124,7 @@ class EmpDadsuCalcul {
      * Set the code lib brut.
      *
      * @param string $codeLibBrut The code lib brut.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBrut($codeLibBrut) {
         $this->codeLibBrut = $codeLibBrut;
@@ -2114,6 +2135,7 @@ class EmpDadsuCalcul {
      * Set the code lib brut2.
      *
      * @param string $codeLibBrut2 The code lib brut2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBrut2($codeLibBrut2) {
         $this->codeLibBrut2 = $codeLibBrut2;
@@ -2124,6 +2146,7 @@ class EmpDadsuCalcul {
      * Set the code lib brut3.
      *
      * @param string $codeLibBrut3 The code lib brut3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBrut3($codeLibBrut3) {
         $this->codeLibBrut3 = $codeLibBrut3;
@@ -2134,6 +2157,7 @@ class EmpDadsuCalcul {
      * Set the code lib brut4.
      *
      * @param string $codeLibBrut4 The code lib brut4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBrut4($codeLibBrut4) {
         $this->codeLibBrut4 = $codeLibBrut4;
@@ -2144,6 +2168,7 @@ class EmpDadsuCalcul {
      * Set the code lib brut5.
      *
      * @param string $codeLibBrut5 The code lib brut5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibBrut5($codeLibBrut5) {
         $this->codeLibBrut5 = $codeLibBrut5;
@@ -2154,6 +2179,7 @@ class EmpDadsuCalcul {
      * Set the code lib csg.
      *
      * @param string $codeLibCsg The code lib csg.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibCsg($codeLibCsg) {
         $this->codeLibCsg = $codeLibCsg;
@@ -2164,6 +2190,7 @@ class EmpDadsuCalcul {
      * Set the code lib irc1.
      *
      * @param string $codeLibIrc1 The code lib irc1.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibIrc1($codeLibIrc1) {
         $this->codeLibIrc1 = $codeLibIrc1;
@@ -2174,6 +2201,7 @@ class EmpDadsuCalcul {
      * Set the code lib irc2.
      *
      * @param string $codeLibIrc2 The code lib irc2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibIrc2($codeLibIrc2) {
         $this->codeLibIrc2 = $codeLibIrc2;
@@ -2184,6 +2212,7 @@ class EmpDadsuCalcul {
      * Set the code lib irc3.
      *
      * @param string $codeLibIrc3 The code lib irc3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibIrc3($codeLibIrc3) {
         $this->codeLibIrc3 = $codeLibIrc3;
@@ -2194,6 +2223,7 @@ class EmpDadsuCalcul {
      * Set the code lib somme.
      *
      * @param string $codeLibSomme The code lib somme.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibSomme($codeLibSomme) {
         $this->codeLibSomme = $codeLibSomme;
@@ -2204,6 +2234,7 @@ class EmpDadsuCalcul {
      * Set the code lib somme2.
      *
      * @param string $codeLibSomme2 The code lib somme2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibSomme2($codeLibSomme2) {
         $this->codeLibSomme2 = $codeLibSomme2;
@@ -2214,6 +2245,7 @@ class EmpDadsuCalcul {
      * Set the code lib somme3.
      *
      * @param string $codeLibSomme3 The code lib somme3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibSomme3($codeLibSomme3) {
         $this->codeLibSomme3 = $codeLibSomme3;
@@ -2224,6 +2256,7 @@ class EmpDadsuCalcul {
      * Set the code lib somme4.
      *
      * @param string $codeLibSomme4 The code lib somme4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibSomme4($codeLibSomme4) {
         $this->codeLibSomme4 = $codeLibSomme4;
@@ -2234,6 +2267,7 @@ class EmpDadsuCalcul {
      * Set the code lib somme5.
      *
      * @param string $codeLibSomme5 The code lib somme5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeLibSomme5($codeLibSomme5) {
         $this->codeLibSomme5 = $codeLibSomme5;
@@ -2244,6 +2278,7 @@ class EmpDadsuCalcul {
      * Set the code metier btp.
      *
      * @param string $codeMetierBtp The code metier btp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeMetierBtp($codeMetierBtp) {
         $this->codeMetierBtp = $codeMetierBtp;
@@ -2254,6 +2289,7 @@ class EmpDadsuCalcul {
      * Set the code type b plaf.
      *
      * @param string $codeTypeBPlaf The code type b plaf.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBPlaf($codeTypeBPlaf) {
         $this->codeTypeBPlaf = $codeTypeBPlaf;
@@ -2264,6 +2300,7 @@ class EmpDadsuCalcul {
      * Set the code type b plaf2.
      *
      * @param string $codeTypeBPlaf2 The code type b plaf2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBPlaf2($codeTypeBPlaf2) {
         $this->codeTypeBPlaf2 = $codeTypeBPlaf2;
@@ -2274,6 +2311,7 @@ class EmpDadsuCalcul {
      * Set the code type b plaf3.
      *
      * @param string $codeTypeBPlaf3 The code type b plaf3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBPlaf3($codeTypeBPlaf3) {
         $this->codeTypeBPlaf3 = $codeTypeBPlaf3;
@@ -2284,6 +2322,7 @@ class EmpDadsuCalcul {
      * Set the code type b plaf4.
      *
      * @param string $codeTypeBPlaf4 The code type b plaf4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBPlaf4($codeTypeBPlaf4) {
         $this->codeTypeBPlaf4 = $codeTypeBPlaf4;
@@ -2294,6 +2333,7 @@ class EmpDadsuCalcul {
      * Set the code type b plaf5.
      *
      * @param string $codeTypeBPlaf5 The code type b plaf5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBPlaf5($codeTypeBPlaf5) {
         $this->codeTypeBPlaf5 = $codeTypeBPlaf5;
@@ -2304,6 +2344,7 @@ class EmpDadsuCalcul {
      * Set the code type brut.
      *
      * @param string $codeTypeBrut The code type brut.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBrut($codeTypeBrut) {
         $this->codeTypeBrut = $codeTypeBrut;
@@ -2314,6 +2355,7 @@ class EmpDadsuCalcul {
      * Set the code type brut2.
      *
      * @param string $codeTypeBrut2 The code type brut2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBrut2($codeTypeBrut2) {
         $this->codeTypeBrut2 = $codeTypeBrut2;
@@ -2324,6 +2366,7 @@ class EmpDadsuCalcul {
      * Set the code type brut3.
      *
      * @param string $codeTypeBrut3 The code type brut3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBrut3($codeTypeBrut3) {
         $this->codeTypeBrut3 = $codeTypeBrut3;
@@ -2334,6 +2377,7 @@ class EmpDadsuCalcul {
      * Set the code type brut4.
      *
      * @param string $codeTypeBrut4 The code type brut4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBrut4($codeTypeBrut4) {
         $this->codeTypeBrut4 = $codeTypeBrut4;
@@ -2344,6 +2388,7 @@ class EmpDadsuCalcul {
      * Set the code type brut5.
      *
      * @param string $codeTypeBrut5 The code type brut5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeBrut5($codeTypeBrut5) {
         $this->codeTypeBrut5 = $codeTypeBrut5;
@@ -2354,6 +2399,7 @@ class EmpDadsuCalcul {
      * Set the code type somme.
      *
      * @param string $codeTypeSomme The code type somme.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeSomme($codeTypeSomme) {
         $this->codeTypeSomme = $codeTypeSomme;
@@ -2364,6 +2410,7 @@ class EmpDadsuCalcul {
      * Set the code type somme2.
      *
      * @param string $codeTypeSomme2 The code type somme2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeSomme2($codeTypeSomme2) {
         $this->codeTypeSomme2 = $codeTypeSomme2;
@@ -2374,6 +2421,7 @@ class EmpDadsuCalcul {
      * Set the code type somme3.
      *
      * @param string $codeTypeSomme3 The code type somme3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeSomme3($codeTypeSomme3) {
         $this->codeTypeSomme3 = $codeTypeSomme3;
@@ -2384,6 +2432,7 @@ class EmpDadsuCalcul {
      * Set the code type somme4.
      *
      * @param string $codeTypeSomme4 The code type somme4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeSomme4($codeTypeSomme4) {
         $this->codeTypeSomme4 = $codeTypeSomme4;
@@ -2394,6 +2443,7 @@ class EmpDadsuCalcul {
      * Set the code type somme5.
      *
      * @param string $codeTypeSomme5 The code type somme5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCodeTypeSomme5($codeTypeSomme5) {
         $this->codeTypeSomme5 = $codeTypeSomme5;
@@ -2404,6 +2454,7 @@ class EmpDadsuCalcul {
      * Set the csg specif.
      *
      * @param float $csgSpecif The csg specif.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setCsgSpecif($csgSpecif) {
         $this->csgSpecif = $csgSpecif;
@@ -2414,6 +2465,7 @@ class EmpDadsuCalcul {
      * Set the duree trav.
      *
      * @param float $dureeTrav The duree trav.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setDureeTrav($dureeTrav) {
         $this->dureeTrav = $dureeTrav;
@@ -2424,6 +2476,7 @@ class EmpDadsuCalcul {
      * Set the exo h code1.
      *
      * @param string $exoHCode1 The exo h code1.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHCode1($exoHCode1) {
         $this->exoHCode1 = $exoHCode1;
@@ -2434,6 +2487,7 @@ class EmpDadsuCalcul {
      * Set the exo h code2.
      *
      * @param string $exoHCode2 The exo h code2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHCode2($exoHCode2) {
         $this->exoHCode2 = $exoHCode2;
@@ -2444,6 +2498,7 @@ class EmpDadsuCalcul {
      * Set the exo h code3.
      *
      * @param string $exoHCode3 The exo h code3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHCode3($exoHCode3) {
         $this->exoHCode3 = $exoHCode3;
@@ -2454,6 +2509,7 @@ class EmpDadsuCalcul {
      * Set the exo h code4.
      *
      * @param string $exoHCode4 The exo h code4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHCode4($exoHCode4) {
         $this->exoHCode4 = $exoHCode4;
@@ -2464,6 +2520,7 @@ class EmpDadsuCalcul {
      * Set the exo h code5.
      *
      * @param string $exoHCode5 The exo h code5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHCode5($exoHCode5) {
         $this->exoHCode5 = $exoHCode5;
@@ -2474,6 +2531,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt1.
      *
      * @param float $exoHMnt1 The exo h mnt1.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMnt1($exoHMnt1) {
         $this->exoHMnt1 = $exoHMnt1;
@@ -2484,6 +2542,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt2.
      *
      * @param float $exoHMnt2 The exo h mnt2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMnt2($exoHMnt2) {
         $this->exoHMnt2 = $exoHMnt2;
@@ -2494,6 +2553,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt3.
      *
      * @param float $exoHMnt3 The exo h mnt3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMnt3($exoHMnt3) {
         $this->exoHMnt3 = $exoHMnt3;
@@ -2504,6 +2564,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt4.
      *
      * @param float $exoHMnt4 The exo h mnt4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMnt4($exoHMnt4) {
         $this->exoHMnt4 = $exoHMnt4;
@@ -2514,6 +2575,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt5.
      *
      * @param float $exoHMnt5 The exo h mnt5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMnt5($exoHMnt5) {
         $this->exoHMnt5 = $exoHMnt5;
@@ -2524,6 +2586,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt deduc cot pat1.
      *
      * @param float $exoHMntDeducCotPat1 The exo h mnt deduc cot pat1.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntDeducCotPat1($exoHMntDeducCotPat1) {
         $this->exoHMntDeducCotPat1 = $exoHMntDeducCotPat1;
@@ -2534,6 +2597,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt deduc cot pat2.
      *
      * @param float $exoHMntDeducCotPat2 The exo h mnt deduc cot pat2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntDeducCotPat2($exoHMntDeducCotPat2) {
         $this->exoHMntDeducCotPat2 = $exoHMntDeducCotPat2;
@@ -2544,6 +2608,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt deduc cot pat3.
      *
      * @param float $exoHMntDeducCotPat3 The exo h mnt deduc cot pat3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntDeducCotPat3($exoHMntDeducCotPat3) {
         $this->exoHMntDeducCotPat3 = $exoHMntDeducCotPat3;
@@ -2554,6 +2619,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt deduc cot pat4.
      *
      * @param float $exoHMntDeducCotPat4 The exo h mnt deduc cot pat4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntDeducCotPat4($exoHMntDeducCotPat4) {
         $this->exoHMntDeducCotPat4 = $exoHMntDeducCotPat4;
@@ -2564,6 +2630,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt deduc cot pat5.
      *
      * @param float $exoHMntDeducCotPat5 The exo h mnt deduc cot pat5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntDeducCotPat5($exoHMntDeducCotPat5) {
         $this->exoHMntDeducCotPat5 = $exoHMntDeducCotPat5;
@@ -2574,6 +2641,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt deduc cot pat tot.
      *
      * @param float $exoHMntDeducCotPatTot The exo h mnt deduc cot pat tot.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntDeducCotPatTot($exoHMntDeducCotPatTot) {
         $this->exoHMntDeducCotPatTot = $exoHMntDeducCotPatTot;
@@ -2584,6 +2652,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt reduc cot sal1.
      *
      * @param float $exoHMntReducCotSal1 The exo h mnt reduc cot sal1.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntReducCotSal1($exoHMntReducCotSal1) {
         $this->exoHMntReducCotSal1 = $exoHMntReducCotSal1;
@@ -2594,6 +2663,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt reduc cot sal2.
      *
      * @param float $exoHMntReducCotSal2 The exo h mnt reduc cot sal2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntReducCotSal2($exoHMntReducCotSal2) {
         $this->exoHMntReducCotSal2 = $exoHMntReducCotSal2;
@@ -2604,6 +2674,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt reduc cot sal3.
      *
      * @param float $exoHMntReducCotSal3 The exo h mnt reduc cot sal3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntReducCotSal3($exoHMntReducCotSal3) {
         $this->exoHMntReducCotSal3 = $exoHMntReducCotSal3;
@@ -2614,6 +2685,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt reduc cot sal4.
      *
      * @param float $exoHMntReducCotSal4 The exo h mnt reduc cot sal4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntReducCotSal4($exoHMntReducCotSal4) {
         $this->exoHMntReducCotSal4 = $exoHMntReducCotSal4;
@@ -2624,6 +2696,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt reduc cot sal5.
      *
      * @param float $exoHMntReducCotSal5 The exo h mnt reduc cot sal5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntReducCotSal5($exoHMntReducCotSal5) {
         $this->exoHMntReducCotSal5 = $exoHMntReducCotSal5;
@@ -2634,6 +2707,7 @@ class EmpDadsuCalcul {
      * Set the exo h mnt reduc cot sal tot.
      *
      * @param float $exoHMntReducCotSalTot The exo h mnt reduc cot sal tot.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHMntReducCotSalTot($exoHMntReducCotSalTot) {
         $this->exoHMntReducCotSalTot = $exoHMntReducCotSalTot;
@@ -2644,6 +2718,7 @@ class EmpDadsuCalcul {
      * Set the exo h nb hj1.
      *
      * @param float $exoHNbHj1 The exo h nb hj1.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHNbHj1($exoHNbHj1) {
         $this->exoHNbHj1 = $exoHNbHj1;
@@ -2654,6 +2729,7 @@ class EmpDadsuCalcul {
      * Set the exo h nb hj2.
      *
      * @param float $exoHNbHj2 The exo h nb hj2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHNbHj2($exoHNbHj2) {
         $this->exoHNbHj2 = $exoHNbHj2;
@@ -2664,6 +2740,7 @@ class EmpDadsuCalcul {
      * Set the exo h nb hj3.
      *
      * @param float $exoHNbHj3 The exo h nb hj3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHNbHj3($exoHNbHj3) {
         $this->exoHNbHj3 = $exoHNbHj3;
@@ -2674,6 +2751,7 @@ class EmpDadsuCalcul {
      * Set the exo h nb hj4.
      *
      * @param float $exoHNbHj4 The exo h nb hj4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHNbHj4($exoHNbHj4) {
         $this->exoHNbHj4 = $exoHNbHj4;
@@ -2684,6 +2762,7 @@ class EmpDadsuCalcul {
      * Set the exo h nb hj5.
      *
      * @param float $exoHNbHj5 The exo h nb hj5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setExoHNbHj5($exoHNbHj5) {
         $this->exoHNbHj5 = $exoHNbHj5;
@@ -2694,6 +2773,7 @@ class EmpDadsuCalcul {
      * Set the forma pro base.
      *
      * @param float $formaProBase The forma pro base.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setFormaProBase($formaProBase) {
         $this->formaProBase = $formaProBase;
@@ -2704,6 +2784,7 @@ class EmpDadsuCalcul {
      * Set the forma pro base cdd.
      *
      * @param float $formaProBaseCdd The forma pro base cdd.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setFormaProBaseCdd($formaProBaseCdd) {
         $this->formaProBaseCdd = $formaProBaseCdd;
@@ -2714,6 +2795,7 @@ class EmpDadsuCalcul {
      * Set the ind cp.
      *
      * @param float $indCp The ind cp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setIndCp($indCp) {
         $this->indCp = $indCp;
@@ -2724,6 +2806,7 @@ class EmpDadsuCalcul {
      * Set the ind intemp.
      *
      * @param float $indIntemp The ind intemp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setIndIntemp($indIntemp) {
         $this->indIntemp = $indIntemp;
@@ -2734,6 +2817,7 @@ class EmpDadsuCalcul {
      * Set the montant b plaf.
      *
      * @param float $montantBPlaf The montant b plaf.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBPlaf($montantBPlaf) {
         $this->montantBPlaf = $montantBPlaf;
@@ -2744,6 +2828,7 @@ class EmpDadsuCalcul {
      * Set the montant b plaf2.
      *
      * @param float $montantBPlaf2 The montant b plaf2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBPlaf2($montantBPlaf2) {
         $this->montantBPlaf2 = $montantBPlaf2;
@@ -2754,6 +2839,7 @@ class EmpDadsuCalcul {
      * Set the montant b plaf3.
      *
      * @param float $montantBPlaf3 The montant b plaf3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBPlaf3($montantBPlaf3) {
         $this->montantBPlaf3 = $montantBPlaf3;
@@ -2764,6 +2850,7 @@ class EmpDadsuCalcul {
      * Set the montant b plaf4.
      *
      * @param float $montantBPlaf4 The montant b plaf4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBPlaf4($montantBPlaf4) {
         $this->montantBPlaf4 = $montantBPlaf4;
@@ -2774,6 +2861,7 @@ class EmpDadsuCalcul {
      * Set the montant b plaf5.
      *
      * @param float $montantBPlaf5 The montant b plaf5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBPlaf5($montantBPlaf5) {
         $this->montantBPlaf5 = $montantBPlaf5;
@@ -2784,6 +2872,7 @@ class EmpDadsuCalcul {
      * Set the montant brut.
      *
      * @param float $montantBrut The montant brut.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBrut($montantBrut) {
         $this->montantBrut = $montantBrut;
@@ -2794,6 +2883,7 @@ class EmpDadsuCalcul {
      * Set the montant brut2.
      *
      * @param float $montantBrut2 The montant brut2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBrut2($montantBrut2) {
         $this->montantBrut2 = $montantBrut2;
@@ -2804,6 +2894,7 @@ class EmpDadsuCalcul {
      * Set the montant brut3.
      *
      * @param float $montantBrut3 The montant brut3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBrut3($montantBrut3) {
         $this->montantBrut3 = $montantBrut3;
@@ -2814,6 +2905,7 @@ class EmpDadsuCalcul {
      * Set the montant brut4.
      *
      * @param float $montantBrut4 The montant brut4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBrut4($montantBrut4) {
         $this->montantBrut4 = $montantBrut4;
@@ -2824,6 +2916,7 @@ class EmpDadsuCalcul {
      * Set the montant brut5.
      *
      * @param float $montantBrut5 The montant brut5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantBrut5($montantBrut5) {
         $this->montantBrut5 = $montantBrut5;
@@ -2834,6 +2927,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol brut.
      *
      * @param float $montantSommeIsolBrut The montant somme isol brut.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolBrut($montantSommeIsolBrut) {
         $this->montantSommeIsolBrut = $montantSommeIsolBrut;
@@ -2844,6 +2938,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol brut2.
      *
      * @param float $montantSommeIsolBrut2 The montant somme isol brut2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolBrut2($montantSommeIsolBrut2) {
         $this->montantSommeIsolBrut2 = $montantSommeIsolBrut2;
@@ -2854,6 +2949,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol brut3.
      *
      * @param float $montantSommeIsolBrut3 The montant somme isol brut3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolBrut3($montantSommeIsolBrut3) {
         $this->montantSommeIsolBrut3 = $montantSommeIsolBrut3;
@@ -2864,6 +2960,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol brut4.
      *
      * @param float $montantSommeIsolBrut4 The montant somme isol brut4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolBrut4($montantSommeIsolBrut4) {
         $this->montantSommeIsolBrut4 = $montantSommeIsolBrut4;
@@ -2874,6 +2971,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol brut5.
      *
      * @param float $montantSommeIsolBrut5 The montant somme isol brut5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolBrut5($montantSommeIsolBrut5) {
         $this->montantSommeIsolBrut5 = $montantSommeIsolBrut5;
@@ -2884,6 +2982,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol plaf.
      *
      * @param float $montantSommeIsolPlaf The montant somme isol plaf.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolPlaf($montantSommeIsolPlaf) {
         $this->montantSommeIsolPlaf = $montantSommeIsolPlaf;
@@ -2894,6 +2993,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol plaf2.
      *
      * @param float $montantSommeIsolPlaf2 The montant somme isol plaf2.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolPlaf2($montantSommeIsolPlaf2) {
         $this->montantSommeIsolPlaf2 = $montantSommeIsolPlaf2;
@@ -2904,6 +3004,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol plaf3.
      *
      * @param float $montantSommeIsolPlaf3 The montant somme isol plaf3.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolPlaf3($montantSommeIsolPlaf3) {
         $this->montantSommeIsolPlaf3 = $montantSommeIsolPlaf3;
@@ -2914,6 +3015,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol plaf4.
      *
      * @param float $montantSommeIsolPlaf4 The montant somme isol plaf4.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolPlaf4($montantSommeIsolPlaf4) {
         $this->montantSommeIsolPlaf4 = $montantSommeIsolPlaf4;
@@ -2924,6 +3026,7 @@ class EmpDadsuCalcul {
      * Set the montant somme isol plaf5.
      *
      * @param float $montantSommeIsolPlaf5 The montant somme isol plaf5.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMontantSommeIsolPlaf5($montantSommeIsolPlaf5) {
         $this->montantSommeIsolPlaf5 = $montantSommeIsolPlaf5;
@@ -2934,6 +3037,7 @@ class EmpDadsuCalcul {
      * Set the mt j rtt2007.
      *
      * @param float $mtJRtt2007 The mt j rtt2007.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setMtJRtt2007($mtJRtt2007) {
         $this->mtJRtt2007 = $mtJRtt2007;
@@ -2944,6 +3048,7 @@ class EmpDadsuCalcul {
      * Set the nb j rtt2007.
      *
      * @param float $nbJRtt2007 The nb j rtt2007.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setNbJRtt2007($nbJRtt2007) {
         $this->nbJRtt2007 = $nbJRtt2007;
@@ -2954,6 +3059,7 @@ class EmpDadsuCalcul {
      * Set the nb periode.
      *
      * @param float $nbPeriode The nb periode.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setNbPeriode($nbPeriode) {
         $this->nbPeriode = $nbPeriode;
@@ -2964,6 +3070,7 @@ class EmpDadsuCalcul {
      * Set the nbh chom partiel.
      *
      * @param float $nbhChomPartiel The nbh chom partiel.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setNbhChomPartiel($nbhChomPartiel) {
         $this->nbhChomPartiel = $nbhChomPartiel;
@@ -2974,6 +3081,7 @@ class EmpDadsuCalcul {
      * Set the nbh sem ircantec.
      *
      * @param float $nbhSemIrcantec The nbh sem ircantec.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setNbhSemIrcantec($nbhSemIrcantec) {
         $this->nbhSemIrcantec = $nbhSemIrcantec;
@@ -2984,6 +3092,7 @@ class EmpDadsuCalcul {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -2994,6 +3103,7 @@ class EmpDadsuCalcul {
      * Set the numero ordre.
      *
      * @param int $numeroOrdre The numero ordre.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setNumeroOrdre($numeroOrdre) {
         $this->numeroOrdre = $numeroOrdre;
@@ -3004,6 +3114,7 @@ class EmpDadsuCalcul {
      * Set the plaf ircantec.
      *
      * @param float $plafIrcantec The plaf ircantec.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setPlafIrcantec($plafIrcantec) {
         $this->plafIrcantec = $plafIrcantec;
@@ -3014,6 +3125,7 @@ class EmpDadsuCalcul {
      * Set the qualif unite temps.
      *
      * @param string $qualifUniteTemps The qualif unite temps.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setQualifUniteTemps($qualifUniteTemps) {
         $this->qualifUniteTemps = $qualifUniteTemps;
@@ -3024,6 +3136,7 @@ class EmpDadsuCalcul {
      * Set the suppl fam.
      *
      * @param float $supplFam The suppl fam.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setSupplFam($supplFam) {
         $this->supplFam = $supplFam;
@@ -3034,6 +3147,7 @@ class EmpDadsuCalcul {
      * Set the taxe apprentissage base.
      *
      * @param float $taxeApprentissageBase The taxe apprentissage base.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setTaxeApprentissageBase($taxeApprentissageBase) {
         $this->taxeApprentissageBase = $taxeApprentissageBase;
@@ -3044,6 +3158,7 @@ class EmpDadsuCalcul {
      * Set the taxe salaire.
      *
      * @param float $taxeSalaire The taxe salaire.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setTaxeSalaire($taxeSalaire) {
         $this->taxeSalaire = $taxeSalaire;
@@ -3054,6 +3169,7 @@ class EmpDadsuCalcul {
      * Set the tr a ircantec.
      *
      * @param float $trAIrcantec The tr a ircantec.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setTrAIrcantec($trAIrcantec) {
         $this->trAIrcantec = $trAIrcantec;
@@ -3064,6 +3180,7 @@ class EmpDadsuCalcul {
      * Set the tr b ircantec.
      *
      * @param float $trBIrcantec The tr b ircantec.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
      */
     public function setTrBIrcantec($trBIrcantec) {
         $this->trBIrcantec = $trBIrcantec;

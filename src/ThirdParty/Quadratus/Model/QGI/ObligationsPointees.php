@@ -112,6 +112,7 @@ class ObligationsPointees {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ObligationsPointees Returns this Obligations pointees.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -122,6 +123,7 @@ class ObligationsPointees {
      * Set the code obligation.
      *
      * @param string $codeObligation The code obligation.
+     * @return ObligationsPointees Returns this Obligations pointees.
      */
     public function setCodeObligation($codeObligation) {
         $this->codeObligation = $codeObligation;
@@ -132,6 +134,7 @@ class ObligationsPointees {
      * Set the date effet.
      *
      * @param DateTime|null $dateEffet The date effet.
+     * @return ObligationsPointees Returns this Obligations pointees.
      */
     public function setDateEffet(DateTime $dateEffet = null) {
         $this->dateEffet = $dateEffet;
@@ -142,6 +145,7 @@ class ObligationsPointees {
      * Set the le.
      *
      * @param DateTime|null $le The le.
+     * @return ObligationsPointees Returns this Obligations pointees.
      */
     public function setLe(DateTime $le = null) {
         $this->le = $le;
@@ -152,6 +156,7 @@ class ObligationsPointees {
      * Set the par.
      *
      * @param string $par The par.
+     * @return ObligationsPointees Returns this Obligations pointees.
      */
     public function setPar($par) {
         $this->par = $par;

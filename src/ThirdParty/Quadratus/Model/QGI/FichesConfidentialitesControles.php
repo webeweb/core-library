@@ -142,6 +142,7 @@ class FichesConfidentialitesControles {
      * Set the agence.
      *
      * @param string $agence The agence.
+     * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
     public function setAgence($agence) {
         $this->agence = $agence;
@@ -152,6 +153,7 @@ class FichesConfidentialitesControles {
      * Set the autorise.
      *
      * @param bool $autorise The autorise.
+     * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
     public function setAutorise($autorise) {
         $this->autorise = $autorise;
@@ -162,6 +164,7 @@ class FichesConfidentialitesControles {
      * Set the code coll.
      *
      * @param string $codeColl The code coll.
+     * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
     public function setCodeColl($codeColl) {
         $this->codeColl = $codeColl;
@@ -172,6 +175,7 @@ class FichesConfidentialitesControles {
      * Set the dossier.
      *
      * @param string $dossier The dossier.
+     * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
     public function setDossier($dossier) {
         $this->dossier = $dossier;
@@ -182,6 +186,7 @@ class FichesConfidentialitesControles {
      * Set the mot controle.
      *
      * @param string $motControle The mot controle.
+     * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
     public function setMotControle($motControle) {
         $this->motControle = $motControle;
@@ -192,6 +197,7 @@ class FichesConfidentialitesControles {
      * Set the mot de passe.
      *
      * @param string $motDePasse The mot de passe.
+     * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
     public function setMotDePasse($motDePasse) {
         $this->motDePasse = $motDePasse;
@@ -202,6 +208,7 @@ class FichesConfidentialitesControles {
      * Set the type.
      *
      * @param string $type The type.
+     * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
     public function setType($type) {
         $this->type = $type;

@@ -160,6 +160,7 @@ class RegulTva {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return RegulTva Returns this Regul tva.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -170,6 +171,7 @@ class RegulTva {
      * Set the ht.
      *
      * @param float $ht The ht.
+     * @return RegulTva Returns this Regul tva.
      */
     public function setHt($ht) {
         $this->ht = $ht;
@@ -180,6 +182,7 @@ class RegulTva {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return RegulTva Returns this Regul tva.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -190,6 +193,7 @@ class RegulTva {
      * Set the ligne.
      *
      * @param int $ligne The ligne.
+     * @return RegulTva Returns this Regul tva.
      */
     public function setLigne($ligne) {
         $this->ligne = $ligne;
@@ -200,6 +204,7 @@ class RegulTva {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return RegulTva Returns this Regul tva.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -210,6 +215,7 @@ class RegulTva {
      * Set the ttc.
      *
      * @param float $ttc The ttc.
+     * @return RegulTva Returns this Regul tva.
      */
     public function setTtc($ttc) {
         $this->ttc = $ttc;
@@ -220,6 +226,7 @@ class RegulTva {
      * Set the tva.
      *
      * @param float $tva The tva.
+     * @return RegulTva Returns this Regul tva.
      */
     public function setTva($tva) {
         $this->tva = $tva;
@@ -230,6 +237,7 @@ class RegulTva {
      * Set the type.
      *
      * @param int $type The type.
+     * @return RegulTva Returns this Regul tva.
      */
     public function setType($type) {
         $this->type = $type;

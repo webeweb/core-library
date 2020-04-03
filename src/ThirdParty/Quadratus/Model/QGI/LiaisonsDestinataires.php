@@ -238,6 +238,7 @@ class LiaisonsDestinataires {
      * Set the agence.
      *
      * @param bool $agence The agence.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setAgence($agence) {
         $this->agence = $agence;
@@ -248,6 +249,7 @@ class LiaisonsDestinataires {
      * Set the chemin.
      *
      * @param string $chemin The chemin.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setChemin($chemin) {
         $this->chemin = $chemin;
@@ -258,6 +260,7 @@ class LiaisonsDestinataires {
      * Set the code.
      *
      * @param string $code The code.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -268,6 +271,7 @@ class LiaisonsDestinataires {
      * Set the email.
      *
      * @param string $email The email.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -278,6 +282,7 @@ class LiaisonsDestinataires {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -288,6 +293,7 @@ class LiaisonsDestinataires {
      * Set the machine.
      *
      * @param string $machine The machine.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setMachine($machine) {
         $this->machine = $machine;
@@ -298,6 +304,7 @@ class LiaisonsDestinataires {
      * Set the mot de passe.
      *
      * @param string $motDePasse The mot de passe.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setMotDePasse($motDePasse) {
         $this->motDePasse = $motDePasse;
@@ -308,6 +315,7 @@ class LiaisonsDestinataires {
      * Set the partage.
      *
      * @param string $partage The partage.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setPartage($partage) {
         $this->partage = $partage;
@@ -318,6 +326,7 @@ class LiaisonsDestinataires {
      * Set the selection article.
      *
      * @param string $selectionArticle The selection article.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setSelectionArticle($selectionArticle) {
         $this->selectionArticle = $selectionArticle;
@@ -328,6 +337,7 @@ class LiaisonsDestinataires {
      * Set the selection client.
      *
      * @param string $selectionClient The selection client.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setSelectionClient($selectionClient) {
         $this->selectionClient = $selectionClient;
@@ -338,6 +348,7 @@ class LiaisonsDestinataires {
      * Set the selection fournisseur.
      *
      * @param string $selectionFournisseur The selection fournisseur.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setSelectionFournisseur($selectionFournisseur) {
         $this->selectionFournisseur = $selectionFournisseur;
@@ -348,6 +359,7 @@ class LiaisonsDestinataires {
      * Set the type liaison.
      *
      * @param string $typeLiaison The type liaison.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setTypeLiaison($typeLiaison) {
         $this->typeLiaison = $typeLiaison;
@@ -358,6 +370,7 @@ class LiaisonsDestinataires {
      * Set the utilisateur.
      *
      * @param string $utilisateur The utilisateur.
+     * @return LiaisonsDestinataires Returns this Liaisons destinataires.
      */
     public function setUtilisateur($utilisateur) {
         $this->utilisateur = $utilisateur;

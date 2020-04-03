@@ -144,6 +144,7 @@ class AbsencesCpPrevRempl {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -154,6 +155,7 @@ class AbsencesCpPrevRempl {
      * Set the code remplacant.
      *
      * @param string $codeRemplacant The code remplacant.
+     * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
     public function setCodeRemplacant($codeRemplacant) {
         $this->codeRemplacant = $codeRemplacant;
@@ -164,6 +166,7 @@ class AbsencesCpPrevRempl {
      * Set the date debut cp.
      *
      * @param DateTime|null $dateDebutCp The date debut cp.
+     * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
     public function setDateDebutCp(DateTime $dateDebutCp = null) {
         $this->dateDebutCp = $dateDebutCp;
@@ -174,6 +177,7 @@ class AbsencesCpPrevRempl {
      * Set the date debut rempl.
      *
      * @param DateTime|null $dateDebutRempl The date debut rempl.
+     * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
     public function setDateDebutRempl(DateTime $dateDebutRempl = null) {
         $this->dateDebutRempl = $dateDebutRempl;
@@ -184,6 +188,7 @@ class AbsencesCpPrevRempl {
      * Set the date fin rempl.
      *
      * @param DateTime|null $dateFinRempl The date fin rempl.
+     * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
     public function setDateFinRempl(DateTime $dateFinRempl = null) {
         $this->dateFinRempl = $dateFinRempl;
@@ -194,6 +199,7 @@ class AbsencesCpPrevRempl {
      * Set the indice.
      *
      * @param string $indice The indice.
+     * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -204,6 +210,7 @@ class AbsencesCpPrevRempl {
      * Set the type rempl.
      *
      * @param string $typeRempl The type rempl.
+     * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
     public function setTypeRempl($typeRempl) {
         $this->typeRempl = $typeRempl;

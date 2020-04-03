@@ -368,6 +368,7 @@ class HistoriqueAppels {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -378,6 +379,7 @@ class HistoriqueAppels {
      * Set the code collaborateur clot.
      *
      * @param string $codeCollaborateurClot The code collaborateur clot.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setCodeCollaborateurClot($codeCollaborateurClot) {
         $this->codeCollaborateurClot = $codeCollaborateurClot;
@@ -388,6 +390,7 @@ class HistoriqueAppels {
      * Set the code collaborateur dest.
      *
      * @param string $codeCollaborateurDest The code collaborateur dest.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setCodeCollaborateurDest($codeCollaborateurDest) {
         $this->codeCollaborateurDest = $codeCollaborateurDest;
@@ -398,6 +401,7 @@ class HistoriqueAppels {
      * Set the code collaborateur entrant.
      *
      * @param string $codeCollaborateurEntrant The code collaborateur entrant.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setCodeCollaborateurEntrant($codeCollaborateurEntrant) {
         $this->codeCollaborateurEntrant = $codeCollaborateurEntrant;
@@ -408,6 +412,7 @@ class HistoriqueAppels {
      * Set the code produit.
      *
      * @param string $codeProduit The code produit.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setCodeProduit($codeProduit) {
         $this->codeProduit = $codeProduit;
@@ -418,6 +423,7 @@ class HistoriqueAppels {
      * Set the confidentiel.
      *
      * @param bool $confidentiel The confidentiel.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setConfidentiel($confidentiel) {
         $this->confidentiel = $confidentiel;
@@ -428,6 +434,7 @@ class HistoriqueAppels {
      * Set the consequence.
      *
      * @param string $consequence The consequence.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setConsequence($consequence) {
         $this->consequence = $consequence;
@@ -438,6 +445,7 @@ class HistoriqueAppels {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -448,6 +456,7 @@ class HistoriqueAppels {
      * Set the date sortie.
      *
      * @param DateTime|null $dateSortie The date sortie.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setDateSortie(DateTime $dateSortie = null) {
         $this->dateSortie = $dateSortie;
@@ -458,6 +467,7 @@ class HistoriqueAppels {
      * Set the email auteur.
      *
      * @param string $emailAuteur The email auteur.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setEmailAuteur($emailAuteur) {
         $this->emailAuteur = $emailAuteur;
@@ -468,6 +478,7 @@ class HistoriqueAppels {
      * Set the groupe qualifiant.
      *
      * @param string $groupeQualifiant The groupe qualifiant.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setGroupeQualifiant($groupeQualifiant) {
         $this->groupeQualifiant = $groupeQualifiant;
@@ -478,6 +489,7 @@ class HistoriqueAppels {
      * Set the id historique.
      *
      * @param int $idHistorique The id historique.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setIdHistorique($idHistorique) {
         $this->idHistorique = $idHistorique;
@@ -488,6 +500,7 @@ class HistoriqueAppels {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -498,6 +511,7 @@ class HistoriqueAppels {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -508,6 +522,7 @@ class HistoriqueAppels {
      * Set the nom client.
      *
      * @param string $nomClient The nom client.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setNomClient($nomClient) {
         $this->nomClient = $nomClient;
@@ -518,6 +533,7 @@ class HistoriqueAppels {
      * Set the origine.
      *
      * @param string $origine The origine.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setOrigine($origine) {
         $this->origine = $origine;
@@ -528,6 +544,7 @@ class HistoriqueAppels {
      * Set the piece jointe.
      *
      * @param string $pieceJointe The piece jointe.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setPieceJointe($pieceJointe) {
         $this->pieceJointe = $pieceJointe;
@@ -538,6 +555,7 @@ class HistoriqueAppels {
      * Set the reponse.
      *
      * @param string $reponse The reponse.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setReponse($reponse) {
         $this->reponse = $reponse;
@@ -548,6 +566,7 @@ class HistoriqueAppels {
      * Set the special.
      *
      * @param string $special The special.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setSpecial($special) {
         $this->special = $special;
@@ -558,6 +577,7 @@ class HistoriqueAppels {
      * Set the tel.
      *
      * @param string $tel The tel.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setTel($tel) {
         $this->tel = $tel;
@@ -568,6 +588,7 @@ class HistoriqueAppels {
      * Set the type message.
      *
      * @param string $typeMessage The type message.
+     * @return HistoriqueAppels Returns this Historique appels.
      */
     public function setTypeMessage($typeMessage) {
         $this->typeMessage = $typeMessage;

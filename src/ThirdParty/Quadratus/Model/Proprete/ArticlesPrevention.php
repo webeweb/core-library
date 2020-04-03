@@ -62,6 +62,7 @@ class ArticlesPrevention {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArticlesPrevention Returns this Articles prevention.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -72,6 +73,7 @@ class ArticlesPrevention {
      * Set the code prev.
      *
      * @param string $codePrev The code prev.
+     * @return ArticlesPrevention Returns this Articles prevention.
      */
     public function setCodePrev($codePrev) {
         $this->codePrev = $codePrev;

@@ -126,6 +126,7 @@ class CalculIs {
      * Set the correspondance.
      *
      * @param string $correspondance The correspondance.
+     * @return CalculIs Returns this Calcul is.
      */
     public function setCorrespondance($correspondance) {
         $this->correspondance = $correspondance;
@@ -136,6 +137,7 @@ class CalculIs {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return CalculIs Returns this Calcul is.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -146,6 +148,7 @@ class CalculIs {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return CalculIs Returns this Calcul is.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -156,6 +159,7 @@ class CalculIs {
      * Set the montant n1.
      *
      * @param float $montantN1 The montant n1.
+     * @return CalculIs Returns this Calcul is.
      */
     public function setMontantN1($montantN1) {
         $this->montantN1 = $montantN1;
@@ -166,6 +170,7 @@ class CalculIs {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return CalculIs Returns this Calcul is.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -176,6 +181,7 @@ class CalculIs {
      * Set the type ligne.
      *
      * @param string $typeLigne The type ligne.
+     * @return CalculIs Returns this Calcul is.
      */
     public function setTypeLigne($typeLigne) {
         $this->typeLigne = $typeLigne;

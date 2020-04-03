@@ -320,6 +320,7 @@ class TachesDureeBudgetee {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -330,6 +331,7 @@ class TachesDureeBudgetee {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -340,6 +342,7 @@ class TachesDureeBudgetee {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -350,6 +353,7 @@ class TachesDureeBudgetee {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -360,6 +364,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee1.
      *
      * @param float $dureeBudgetee1 The duree budgetee1.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee1($dureeBudgetee1) {
         $this->dureeBudgetee1 = $dureeBudgetee1;
@@ -370,6 +375,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee10.
      *
      * @param float $dureeBudgetee10 The duree budgetee10.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee10($dureeBudgetee10) {
         $this->dureeBudgetee10 = $dureeBudgetee10;
@@ -380,6 +386,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee11.
      *
      * @param float $dureeBudgetee11 The duree budgetee11.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee11($dureeBudgetee11) {
         $this->dureeBudgetee11 = $dureeBudgetee11;
@@ -390,6 +397,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee12.
      *
      * @param float $dureeBudgetee12 The duree budgetee12.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee12($dureeBudgetee12) {
         $this->dureeBudgetee12 = $dureeBudgetee12;
@@ -400,6 +408,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee2.
      *
      * @param float $dureeBudgetee2 The duree budgetee2.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee2($dureeBudgetee2) {
         $this->dureeBudgetee2 = $dureeBudgetee2;
@@ -410,6 +419,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee3.
      *
      * @param float $dureeBudgetee3 The duree budgetee3.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee3($dureeBudgetee3) {
         $this->dureeBudgetee3 = $dureeBudgetee3;
@@ -420,6 +430,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee4.
      *
      * @param float $dureeBudgetee4 The duree budgetee4.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee4($dureeBudgetee4) {
         $this->dureeBudgetee4 = $dureeBudgetee4;
@@ -430,6 +441,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee5.
      *
      * @param float $dureeBudgetee5 The duree budgetee5.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee5($dureeBudgetee5) {
         $this->dureeBudgetee5 = $dureeBudgetee5;
@@ -440,6 +452,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee6.
      *
      * @param float $dureeBudgetee6 The duree budgetee6.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee6($dureeBudgetee6) {
         $this->dureeBudgetee6 = $dureeBudgetee6;
@@ -450,6 +463,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee7.
      *
      * @param float $dureeBudgetee7 The duree budgetee7.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee7($dureeBudgetee7) {
         $this->dureeBudgetee7 = $dureeBudgetee7;
@@ -460,6 +474,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee8.
      *
      * @param float $dureeBudgetee8 The duree budgetee8.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee8($dureeBudgetee8) {
         $this->dureeBudgetee8 = $dureeBudgetee8;
@@ -470,6 +485,7 @@ class TachesDureeBudgetee {
      * Set the duree budgetee9.
      *
      * @param float $dureeBudgetee9 The duree budgetee9.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setDureeBudgetee9($dureeBudgetee9) {
         $this->dureeBudgetee9 = $dureeBudgetee9;
@@ -480,6 +496,7 @@ class TachesDureeBudgetee {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -490,6 +507,7 @@ class TachesDureeBudgetee {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return TachesDureeBudgetee Returns this Taches duree budgetee.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

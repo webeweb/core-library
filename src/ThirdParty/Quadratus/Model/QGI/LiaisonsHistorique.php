@@ -192,6 +192,7 @@ class LiaisonsHistorique {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -202,6 +203,7 @@ class LiaisonsHistorique {
      * Set the date liaison.
      *
      * @param DateTime|null $dateLiaison The date liaison.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setDateLiaison(DateTime $dateLiaison = null) {
         $this->dateLiaison = $dateLiaison;
@@ -212,6 +214,7 @@ class LiaisonsHistorique {
      * Set the date retour prevue.
      *
      * @param DateTime|null $dateRetourPrevue The date retour prevue.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setDateRetourPrevue(DateTime $dateRetourPrevue = null) {
         $this->dateRetourPrevue = $dateRetourPrevue;
@@ -222,6 +225,7 @@ class LiaisonsHistorique {
      * Set the destinataire.
      *
      * @param string $destinataire The destinataire.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setDestinataire($destinataire) {
         $this->destinataire = $destinataire;
@@ -232,6 +236,7 @@ class LiaisonsHistorique {
      * Set the modules.
      *
      * @param string $modules The modules.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setModules($modules) {
         $this->modules = $modules;
@@ -242,6 +247,7 @@ class LiaisonsHistorique {
      * Set the modules bloques.
      *
      * @param string $modulesBloques The modules bloques.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setModulesBloques($modulesBloques) {
         $this->modulesBloques = $modulesBloques;
@@ -252,6 +258,7 @@ class LiaisonsHistorique {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -262,6 +269,7 @@ class LiaisonsHistorique {
      * Set the numero dossier.
      *
      * @param string $numeroDossier The numero dossier.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setNumeroDossier($numeroDossier) {
         $this->numeroDossier = $numeroDossier;
@@ -272,6 +280,7 @@ class LiaisonsHistorique {
      * Set the sens.
      *
      * @param string $sens The sens.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setSens($sens) {
         $this->sens = $sens;
@@ -282,6 +291,7 @@ class LiaisonsHistorique {
      * Set the type liaison.
      *
      * @param string $typeLiaison The type liaison.
+     * @return LiaisonsHistorique Returns this Liaisons historique.
      */
     public function setTypeLiaison($typeLiaison) {
         $this->typeLiaison = $typeLiaison;

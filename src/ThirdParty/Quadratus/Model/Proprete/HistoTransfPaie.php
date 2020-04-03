@@ -256,6 +256,7 @@ class HistoTransfPaie {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -266,6 +267,7 @@ class HistoTransfPaie {
      * Set the ecart cumule.
      *
      * @param float $ecartCumule The ecart cumule.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setEcartCumule($ecartCumule) {
         $this->ecartCumule = $ecartCumule;
@@ -276,6 +278,7 @@ class HistoTransfPaie {
      * Set the hcr payees.
      *
      * @param bool $hcrPayees The hcr payees.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setHcrPayees($hcrPayees) {
         $this->hcrPayees = $hcrPayees;
@@ -286,6 +289,7 @@ class HistoTransfPaie {
      * Set the hnp compl h.
      *
      * @param float $hnpComplH The hnp compl h.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setHnpComplH($hnpComplH) {
         $this->hnpComplH = $hnpComplH;
@@ -296,6 +300,7 @@ class HistoTransfPaie {
      * Set the hnphc11.
      *
      * @param float $hnphc11 The hnphc11.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setHnphc11($hnphc11) {
         $this->hnphc11 = $hnphc11;
@@ -306,6 +311,7 @@ class HistoTransfPaie {
      * Set the hnphc25.
      *
      * @param float $hnphc25 The hnphc25.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setHnphc25($hnphc25) {
         $this->hnphc25 = $hnphc25;
@@ -316,6 +322,7 @@ class HistoTransfPaie {
      * Set the hnphc33.
      *
      * @param float $hnphc33 The hnphc33.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setHnphc33($hnphc33) {
         $this->hnphc33 = $hnphc33;
@@ -326,6 +333,7 @@ class HistoTransfPaie {
      * Set the nb compl h.
      *
      * @param float $nbComplH The nb compl h.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setNbComplH($nbComplH) {
         $this->nbComplH = $nbComplH;
@@ -336,6 +344,7 @@ class HistoTransfPaie {
      * Set the nb h abs.
      *
      * @param float $nbHAbs The nb h abs.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setNbHAbs($nbHAbs) {
         $this->nbHAbs = $nbHAbs;
@@ -346,6 +355,7 @@ class HistoTransfPaie {
      * Set the nb h abs jf.
      *
      * @param float $nbHAbsJf The nb h abs jf.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setNbHAbsJf($nbHAbsJf) {
         $this->nbHAbsJf = $nbHAbsJf;
@@ -356,6 +366,7 @@ class HistoTransfPaie {
      * Set the nb h compl.
      *
      * @param float $nbHCompl The nb h compl.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setNbHCompl($nbHCompl) {
         $this->nbHCompl = $nbHCompl;
@@ -366,6 +377,7 @@ class HistoTransfPaie {
      * Set the nb h rempl.
      *
      * @param float $nbHRempl The nb h rempl.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setNbHRempl($nbHRempl) {
         $this->nbHRempl = $nbHRempl;
@@ -376,6 +388,7 @@ class HistoTransfPaie {
      * Set the nb hprevues.
      *
      * @param float $nbHprevues The nb hprevues.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setNbHprevues($nbHprevues) {
         $this->nbHprevues = $nbHprevues;
@@ -386,6 +399,7 @@ class HistoTransfPaie {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HistoTransfPaie Returns this Histo transf paie.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

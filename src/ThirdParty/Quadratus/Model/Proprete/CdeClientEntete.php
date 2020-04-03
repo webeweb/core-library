@@ -1056,6 +1056,7 @@ class CdeClientEntete {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -1066,6 +1067,7 @@ class CdeClientEntete {
      * Set the btq2.
      *
      * @param string $btq2 The btq2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setBtq2($btq2) {
         $this->btq2 = $btq2;
@@ -1076,6 +1078,7 @@ class CdeClientEntete {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -1086,6 +1089,7 @@ class CdeClientEntete {
      * Set the bureau distributeur2.
      *
      * @param string $bureauDistributeur2 The bureau distributeur2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setBureauDistributeur2($bureauDistributeur2) {
         $this->bureauDistributeur2 = $bureauDistributeur2;
@@ -1096,6 +1100,7 @@ class CdeClientEntete {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -1106,6 +1111,7 @@ class CdeClientEntete {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -1116,6 +1122,7 @@ class CdeClientEntete {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -1126,6 +1133,7 @@ class CdeClientEntete {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -1136,6 +1144,7 @@ class CdeClientEntete {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -1146,6 +1155,7 @@ class CdeClientEntete {
      * Set the code officiel commune2.
      *
      * @param string $codeOfficielCommune2 The code officiel commune2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeOfficielCommune2($codeOfficielCommune2) {
         $this->codeOfficielCommune2 = $codeOfficielCommune2;
@@ -1156,6 +1166,7 @@ class CdeClientEntete {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -1166,6 +1177,7 @@ class CdeClientEntete {
      * Set the code postal2.
      *
      * @param string $codePostal2 The code postal2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodePostal2($codePostal2) {
         $this->codePostal2 = $codePostal2;
@@ -1176,6 +1188,7 @@ class CdeClientEntete {
      * Set the code reglement.
      *
      * @param string $codeReglement The code reglement.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeReglement($codeReglement) {
         $this->codeReglement = $codeReglement;
@@ -1186,6 +1199,7 @@ class CdeClientEntete {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -1196,6 +1210,7 @@ class CdeClientEntete {
      * Set the code representant.
      *
      * @param string $codeRepresentant The code representant.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeRepresentant($codeRepresentant) {
         $this->codeRepresentant = $codeRepresentant;
@@ -1206,6 +1221,7 @@ class CdeClientEntete {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -1216,6 +1232,7 @@ class CdeClientEntete {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -1226,6 +1243,7 @@ class CdeClientEntete {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -1236,6 +1254,7 @@ class CdeClientEntete {
      * Set the complement2.
      *
      * @param string $complement2 The complement2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setComplement2($complement2) {
         $this->complement2 = $complement2;
@@ -1246,6 +1265,7 @@ class CdeClientEntete {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -1256,6 +1276,7 @@ class CdeClientEntete {
      * Set the date echeance.
      *
      * @param DateTime|null $dateEcheance The date echeance.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setDateEcheance(DateTime $dateEcheance = null) {
         $this->dateEcheance = $dateEcheance;
@@ -1266,6 +1287,7 @@ class CdeClientEntete {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -1276,6 +1298,7 @@ class CdeClientEntete {
      * Set the date piece.
      *
      * @param DateTime|null $datePiece The date piece.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setDatePiece(DateTime $datePiece = null) {
         $this->datePiece = $datePiece;
@@ -1286,6 +1309,7 @@ class CdeClientEntete {
      * Set the date reception prevue.
      *
      * @param DateTime|null $dateReceptionPrevue The date reception prevue.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setDateReceptionPrevue(DateTime $dateReceptionPrevue = null) {
         $this->dateReceptionPrevue = $dateReceptionPrevue;
@@ -1296,6 +1320,7 @@ class CdeClientEntete {
      * Set the echeance forcee.
      *
      * @param bool $echeanceForcee The echeance forcee.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setEcheanceForcee($echeanceForcee) {
         $this->echeanceForcee = $echeanceForcee;
@@ -1306,6 +1331,7 @@ class CdeClientEntete {
      * Set the edition.
      *
      * @param int $edition The edition.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setEdition($edition) {
         $this->edition = $edition;
@@ -1316,6 +1342,7 @@ class CdeClientEntete {
      * Set the facture euros.
      *
      * @param bool $factureEuros The facture euros.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setFactureEuros($factureEuros) {
         $this->factureEuros = $factureEuros;
@@ -1326,6 +1353,7 @@ class CdeClientEntete {
      * Set the montant acompte.
      *
      * @param float $montantAcompte The montant acompte.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setMontantAcompte($montantAcompte) {
         $this->montantAcompte = $montantAcompte;
@@ -1336,6 +1364,7 @@ class CdeClientEntete {
      * Set the nb colis.
      *
      * @param int $nbColis The nb colis.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNbColis($nbColis) {
         $this->nbColis = $nbColis;
@@ -1346,6 +1375,7 @@ class CdeClientEntete {
      * Set the no piece.
      *
      * @param string $noPiece The no piece.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNoPiece($noPiece) {
         $this->noPiece = $noPiece;
@@ -1356,6 +1386,7 @@ class CdeClientEntete {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -1366,6 +1397,7 @@ class CdeClientEntete {
      * Set the nom2.
      *
      * @param string $nom2 The nom2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNom2($nom2) {
         $this->nom2 = $nom2;
@@ -1376,6 +1408,7 @@ class CdeClientEntete {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -1386,6 +1419,7 @@ class CdeClientEntete {
      * Set the nom suite2.
      *
      * @param string $nomSuite2 The nom suite2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNomSuite2($nomSuite2) {
         $this->nomSuite2 = $nomSuite2;
@@ -1396,6 +1430,7 @@ class CdeClientEntete {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -1406,6 +1441,7 @@ class CdeClientEntete {
      * Set the nom ville2.
      *
      * @param string $nomVille2 The nom ville2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNomVille2($nomVille2) {
         $this->nomVille2 = $nomVille2;
@@ -1416,6 +1452,7 @@ class CdeClientEntete {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -1426,6 +1463,7 @@ class CdeClientEntete {
      * Set the nom voie2.
      *
      * @param string $nomVoie2 The nom voie2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNomVoie2($nomVoie2) {
         $this->nomVoie2 = $nomVoie2;
@@ -1436,6 +1474,7 @@ class CdeClientEntete {
      * Set the nombre echeances.
      *
      * @param int $nombreEcheances The nombre echeances.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -1446,6 +1485,7 @@ class CdeClientEntete {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -1456,6 +1496,7 @@ class CdeClientEntete {
      * Set the num voie2.
      *
      * @param string $numVoie2 The num voie2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNumVoie2($numVoie2) {
         $this->numVoie2 = $numVoie2;
@@ -1466,6 +1507,7 @@ class CdeClientEntete {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -1476,6 +1518,7 @@ class CdeClientEntete {
      * Set the paiement depart le.
      *
      * @param int $paiementDepartLe The paiement depart le.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setPaiementDepartLe($paiementDepartLe) {
         $this->paiementDepartLe = $paiementDepartLe;
@@ -1486,6 +1529,7 @@ class CdeClientEntete {
      * Set the paiement le.
      *
      * @param int $paiementLe The paiement le.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setPaiementLe($paiementLe) {
         $this->paiementLe = $paiementLe;
@@ -1496,6 +1540,7 @@ class CdeClientEntete {
      * Set the paiement nombre de jours.
      *
      * @param int $paiementNombreDeJours The paiement nombre de jours.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setPaiementNombreDeJours($paiementNombreDeJours) {
         $this->paiementNombreDeJours = $paiementNombreDeJours;
@@ -1506,6 +1551,7 @@ class CdeClientEntete {
      * Set the poids.
      *
      * @param float $poids The poids.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setPoids($poids) {
         $this->poids = $poids;
@@ -1516,6 +1562,7 @@ class CdeClientEntete {
      * Set the reference1.
      *
      * @param string $reference1 The reference1.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setReference1($reference1) {
         $this->reference1 = $reference1;
@@ -1526,6 +1573,7 @@ class CdeClientEntete {
      * Set the reference2.
      *
      * @param string $reference2 The reference2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setReference2($reference2) {
         $this->reference2 = $reference2;
@@ -1536,6 +1584,7 @@ class CdeClientEntete {
      * Set the reference3.
      *
      * @param string $reference3 The reference3.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setReference3($reference3) {
         $this->reference3 = $reference3;
@@ -1546,6 +1595,7 @@ class CdeClientEntete {
      * Set the reference4.
      *
      * @param string $reference4 The reference4.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setReference4($reference4) {
         $this->reference4 = $reference4;
@@ -1556,6 +1606,7 @@ class CdeClientEntete {
      * Set the remise pied.
      *
      * @param float $remisePied The remise pied.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setRemisePied($remisePied) {
         $this->remisePied = $remisePied;
@@ -1566,6 +1617,7 @@ class CdeClientEntete {
      * Set the remise pied2.
      *
      * @param float $remisePied2 The remise pied2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setRemisePied2($remisePied2) {
         $this->remisePied2 = $remisePied2;
@@ -1576,6 +1628,7 @@ class CdeClientEntete {
      * Set the remise pied3.
      *
      * @param float $remisePied3 The remise pied3.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setRemisePied3($remisePied3) {
         $this->remisePied3 = $remisePied3;
@@ -1586,6 +1639,7 @@ class CdeClientEntete {
      * Set the saisir adresse.
      *
      * @param bool $saisirAdresse The saisir adresse.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setSaisirAdresse($saisirAdresse) {
         $this->saisirAdresse = $saisirAdresse;
@@ -1596,6 +1650,7 @@ class CdeClientEntete {
      * Set the saisir adresse livraison.
      *
      * @param bool $saisirAdresseLivraison The saisir adresse livraison.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setSaisirAdresseLivraison($saisirAdresseLivraison) {
         $this->saisirAdresseLivraison = $saisirAdresseLivraison;
@@ -1606,6 +1661,7 @@ class CdeClientEntete {
      * Set the soumis escompte.
      *
      * @param bool $soumisEscompte The soumis escompte.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setSoumisEscompte($soumisEscompte) {
         $this->soumisEscompte = $soumisEscompte;
@@ -1616,6 +1672,7 @@ class CdeClientEntete {
      * Set the soumis taxe1.
      *
      * @param bool $soumisTaxe1 The soumis taxe1.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setSoumisTaxe1($soumisTaxe1) {
         $this->soumisTaxe1 = $soumisTaxe1;
@@ -1626,6 +1683,7 @@ class CdeClientEntete {
      * Set the soumis taxe2.
      *
      * @param bool $soumisTaxe2 The soumis taxe2.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setSoumisTaxe2($soumisTaxe2) {
         $this->soumisTaxe2 = $soumisTaxe2;
@@ -1636,6 +1694,7 @@ class CdeClientEntete {
      * Set the soumis taxe3.
      *
      * @param bool $soumisTaxe3 The soumis taxe3.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setSoumisTaxe3($soumisTaxe3) {
         $this->soumisTaxe3 = $soumisTaxe3;
@@ -1646,6 +1705,7 @@ class CdeClientEntete {
      * Set the taux commission.
      *
      * @param float $tauxCommission The taux commission.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setTauxCommission($tauxCommission) {
         $this->tauxCommission = $tauxCommission;
@@ -1656,6 +1716,7 @@ class CdeClientEntete {
      * Set the taux devise.
      *
      * @param float $tauxDevise The taux devise.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setTauxDevise($tauxDevise) {
         $this->tauxDevise = $tauxDevise;
@@ -1666,6 +1727,7 @@ class CdeClientEntete {
      * Set the transfert.
      *
      * @param int $transfert The transfert.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setTransfert($transfert) {
         $this->transfert = $transfert;
@@ -1676,6 +1738,7 @@ class CdeClientEntete {
      * Set the transporteur.
      *
      * @param string $transporteur The transporteur.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setTransporteur($transporteur) {
         $this->transporteur = $transporteur;
@@ -1686,6 +1749,7 @@ class CdeClientEntete {
      * Set the tx escompte vente.
      *
      * @param float $txEscompteVente The tx escompte vente.
+     * @return CdeClientEntete Returns this Cde client entete.
      */
     public function setTxEscompteVente($txEscompteVente) {
         $this->txEscompteVente = $txEscompteVente;

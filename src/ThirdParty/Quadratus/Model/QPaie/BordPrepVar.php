@@ -160,6 +160,7 @@ class BordPrepVar {
      * Set the code modele.
      *
      * @param string $codeModele The code modele.
+     * @return BordPrepVar Returns this Bord prep var.
      */
     public function setCodeModele($codeModele) {
         $this->codeModele = $codeModele;
@@ -170,6 +171,7 @@ class BordPrepVar {
      * Set the flag force.
      *
      * @param bool $flagForce The flag force.
+     * @return BordPrepVar Returns this Bord prep var.
      */
     public function setFlagForce($flagForce) {
         $this->flagForce = $flagForce;
@@ -180,6 +182,7 @@ class BordPrepVar {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return BordPrepVar Returns this Bord prep var.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -190,6 +193,7 @@ class BordPrepVar {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return BordPrepVar Returns this Bord prep var.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -200,6 +204,7 @@ class BordPrepVar {
      * Set the num col.
      *
      * @param string $numCol The num col.
+     * @return BordPrepVar Returns this Bord prep var.
      */
     public function setNumCol($numCol) {
         $this->numCol = $numCol;
@@ -210,6 +215,7 @@ class BordPrepVar {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return BordPrepVar Returns this Bord prep var.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -220,6 +226,7 @@ class BordPrepVar {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return BordPrepVar Returns this Bord prep var.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -230,6 +237,7 @@ class BordPrepVar {
      * Set the valeur.
      *
      * @param float $valeur The valeur.
+     * @return BordPrepVar Returns this Bord prep var.
      */
     public function setValeur($valeur) {
         $this->valeur = $valeur;

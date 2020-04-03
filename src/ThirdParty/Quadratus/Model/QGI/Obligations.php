@@ -94,6 +94,7 @@ class Obligations {
      * Set the code famille.
      *
      * @param string $codeFamille The code famille.
+     * @return Obligations Returns this Obligations.
      */
     public function setCodeFamille($codeFamille) {
         $this->codeFamille = $codeFamille;
@@ -104,6 +105,7 @@ class Obligations {
      * Set the code obligation.
      *
      * @param string $codeObligation The code obligation.
+     * @return Obligations Returns this Obligations.
      */
     public function setCodeObligation($codeObligation) {
         $this->codeObligation = $codeObligation;
@@ -114,6 +116,7 @@ class Obligations {
      * Set the frequence.
      *
      * @param string $frequence The frequence.
+     * @return Obligations Returns this Obligations.
      */
     public function setFrequence($frequence) {
         $this->frequence = $frequence;
@@ -124,6 +127,7 @@ class Obligations {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Obligations Returns this Obligations.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;

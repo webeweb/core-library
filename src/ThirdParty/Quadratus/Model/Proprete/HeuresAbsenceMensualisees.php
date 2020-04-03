@@ -288,6 +288,7 @@ class HeuresAbsenceMensualisees {
      * Set the code absence.
      *
      * @param string $codeAbsence The code absence.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setCodeAbsence($codeAbsence) {
         $this->codeAbsence = $codeAbsence;
@@ -298,6 +299,7 @@ class HeuresAbsenceMensualisees {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -308,6 +310,7 @@ class HeuresAbsenceMensualisees {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -318,6 +321,7 @@ class HeuresAbsenceMensualisees {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -328,6 +332,7 @@ class HeuresAbsenceMensualisees {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -338,6 +343,7 @@ class HeuresAbsenceMensualisees {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -348,6 +354,7 @@ class HeuresAbsenceMensualisees {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -358,6 +365,7 @@ class HeuresAbsenceMensualisees {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -368,6 +376,7 @@ class HeuresAbsenceMensualisees {
      * Set the date debut abs.
      *
      * @param DateTime|null $dateDebutAbs The date debut abs.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setDateDebutAbs(DateTime $dateDebutAbs = null) {
         $this->dateDebutAbs = $dateDebutAbs;
@@ -378,6 +387,7 @@ class HeuresAbsenceMensualisees {
      * Set the date fin abs.
      *
      * @param DateTime|null $dateFinAbs The date fin abs.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setDateFinAbs(DateTime $dateFinAbs = null) {
         $this->dateFinAbs = $dateFinAbs;
@@ -388,6 +398,7 @@ class HeuresAbsenceMensualisees {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -398,6 +409,7 @@ class HeuresAbsenceMensualisees {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -408,6 +420,7 @@ class HeuresAbsenceMensualisees {
      * Set the h abs mens.
      *
      * @param float $hAbsMens The h abs mens.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setHAbsMens($hAbsMens) {
         $this->hAbsMens = $hAbsMens;
@@ -418,6 +431,7 @@ class HeuresAbsenceMensualisees {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -428,6 +442,7 @@ class HeuresAbsenceMensualisees {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -438,6 +453,7 @@ class HeuresAbsenceMensualisees {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return HeuresAbsenceMensualisees Returns this Heures absence mensualisees.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

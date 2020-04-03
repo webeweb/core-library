@@ -288,6 +288,7 @@ class BudgetL {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return BudgetL Returns this Budget l.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -298,6 +299,7 @@ class BudgetL {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return BudgetL Returns this Budget l.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -308,6 +310,7 @@ class BudgetL {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return BudgetL Returns this Budget l.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -318,6 +321,7 @@ class BudgetL {
      * Set the code travail.
      *
      * @param string $codeTravail The code travail.
+     * @return BudgetL Returns this Budget l.
      */
     public function setCodeTravail($codeTravail) {
         $this->codeTravail = $codeTravail;
@@ -328,6 +332,7 @@ class BudgetL {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return BudgetL Returns this Budget l.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -338,6 +343,7 @@ class BudgetL {
      * Set the h soldees.
      *
      * @param bool $hSoldees The h soldees.
+     * @return BudgetL Returns this Budget l.
      */
     public function setHSoldees($hSoldees) {
         $this->hSoldees = $hSoldees;
@@ -348,6 +354,7 @@ class BudgetL {
      * Set the nbr heures.
      *
      * @param float $nbrHeures The nbr heures.
+     * @return BudgetL Returns this Budget l.
      */
     public function setNbrHeures($nbrHeures) {
         $this->nbrHeures = $nbrHeures;
@@ -358,6 +365,7 @@ class BudgetL {
      * Set the niveau.
      *
      * @param int $niveau The niveau.
+     * @return BudgetL Returns this Budget l.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -368,6 +376,7 @@ class BudgetL {
      * Set the nom travail.
      *
      * @param string $nomTravail The nom travail.
+     * @return BudgetL Returns this Budget l.
      */
     public function setNomTravail($nomTravail) {
         $this->nomTravail = $nomTravail;
@@ -378,6 +387,7 @@ class BudgetL {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return BudgetL Returns this Budget l.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -388,6 +398,7 @@ class BudgetL {
      * Set the num uniq.
      *
      * @param string $numUniq The num uniq.
+     * @return BudgetL Returns this Budget l.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -398,6 +409,7 @@ class BudgetL {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return BudgetL Returns this Budget l.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -408,6 +420,7 @@ class BudgetL {
      * Set the prix heure.
      *
      * @param float $prixHeure The prix heure.
+     * @return BudgetL Returns this Budget l.
      */
     public function setPrixHeure($prixHeure) {
         $this->prixHeure = $prixHeure;
@@ -418,6 +431,7 @@ class BudgetL {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return BudgetL Returns this Budget l.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -428,6 +442,7 @@ class BudgetL {
      * Set the type affectation.
      *
      * @param string $typeAffectation The type affectation.
+     * @return BudgetL Returns this Budget l.
      */
     public function setTypeAffectation($typeAffectation) {
         $this->typeAffectation = $typeAffectation;
@@ -438,6 +453,7 @@ class BudgetL {
      * Set the uniq id lm.
      *
      * @param string $uniqIdLm The uniq id lm.
+     * @return BudgetL Returns this Budget l.
      */
     public function setUniqIdLm($uniqIdLm) {
         $this->uniqIdLm = $uniqIdLm;

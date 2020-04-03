@@ -110,6 +110,7 @@ class MissionRepartitionTaches {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return MissionRepartitionTaches Returns this Mission repartition taches.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -120,6 +121,7 @@ class MissionRepartitionTaches {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return MissionRepartitionTaches Returns this Mission repartition taches.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -130,6 +132,7 @@ class MissionRepartitionTaches {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return MissionRepartitionTaches Returns this Mission repartition taches.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -140,6 +143,7 @@ class MissionRepartitionTaches {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return MissionRepartitionTaches Returns this Mission repartition taches.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -150,6 +154,7 @@ class MissionRepartitionTaches {
      * Set the repartition.
      *
      * @param float $repartition The repartition.
+     * @return MissionRepartitionTaches Returns this Mission repartition taches.
      */
     public function setRepartition($repartition) {
         $this->repartition = $repartition;

@@ -1008,6 +1008,7 @@ class CriteresArticle {
      * Set the booleen1.
      *
      * @param bool $booleen1 The booleen1.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen1($booleen1) {
         $this->booleen1 = $booleen1;
@@ -1018,6 +1019,7 @@ class CriteresArticle {
      * Set the booleen10.
      *
      * @param bool $booleen10 The booleen10.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen10($booleen10) {
         $this->booleen10 = $booleen10;
@@ -1028,6 +1030,7 @@ class CriteresArticle {
      * Set the booleen2.
      *
      * @param bool $booleen2 The booleen2.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen2($booleen2) {
         $this->booleen2 = $booleen2;
@@ -1038,6 +1041,7 @@ class CriteresArticle {
      * Set the booleen3.
      *
      * @param bool $booleen3 The booleen3.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen3($booleen3) {
         $this->booleen3 = $booleen3;
@@ -1048,6 +1052,7 @@ class CriteresArticle {
      * Set the booleen4.
      *
      * @param bool $booleen4 The booleen4.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen4($booleen4) {
         $this->booleen4 = $booleen4;
@@ -1058,6 +1063,7 @@ class CriteresArticle {
      * Set the booleen5.
      *
      * @param bool $booleen5 The booleen5.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen5($booleen5) {
         $this->booleen5 = $booleen5;
@@ -1068,6 +1074,7 @@ class CriteresArticle {
      * Set the booleen6.
      *
      * @param bool $booleen6 The booleen6.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen6($booleen6) {
         $this->booleen6 = $booleen6;
@@ -1078,6 +1085,7 @@ class CriteresArticle {
      * Set the booleen7.
      *
      * @param bool $booleen7 The booleen7.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen7($booleen7) {
         $this->booleen7 = $booleen7;
@@ -1088,6 +1096,7 @@ class CriteresArticle {
      * Set the booleen8.
      *
      * @param bool $booleen8 The booleen8.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen8($booleen8) {
         $this->booleen8 = $booleen8;
@@ -1098,6 +1107,7 @@ class CriteresArticle {
      * Set the booleen9.
      *
      * @param bool $booleen9 The booleen9.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setBooleen9($booleen9) {
         $this->booleen9 = $booleen9;
@@ -1108,6 +1118,7 @@ class CriteresArticle {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -1118,6 +1129,7 @@ class CriteresArticle {
      * Set the code ref1.
      *
      * @param string $codeRef1 The code ref1.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef1($codeRef1) {
         $this->codeRef1 = $codeRef1;
@@ -1128,6 +1140,7 @@ class CriteresArticle {
      * Set the code ref10.
      *
      * @param string $codeRef10 The code ref10.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef10($codeRef10) {
         $this->codeRef10 = $codeRef10;
@@ -1138,6 +1151,7 @@ class CriteresArticle {
      * Set the code ref2.
      *
      * @param string $codeRef2 The code ref2.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef2($codeRef2) {
         $this->codeRef2 = $codeRef2;
@@ -1148,6 +1162,7 @@ class CriteresArticle {
      * Set the code ref3.
      *
      * @param string $codeRef3 The code ref3.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef3($codeRef3) {
         $this->codeRef3 = $codeRef3;
@@ -1158,6 +1173,7 @@ class CriteresArticle {
      * Set the code ref4.
      *
      * @param string $codeRef4 The code ref4.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef4($codeRef4) {
         $this->codeRef4 = $codeRef4;
@@ -1168,6 +1184,7 @@ class CriteresArticle {
      * Set the code ref5.
      *
      * @param string $codeRef5 The code ref5.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef5($codeRef5) {
         $this->codeRef5 = $codeRef5;
@@ -1178,6 +1195,7 @@ class CriteresArticle {
      * Set the code ref6.
      *
      * @param string $codeRef6 The code ref6.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef6($codeRef6) {
         $this->codeRef6 = $codeRef6;
@@ -1188,6 +1206,7 @@ class CriteresArticle {
      * Set the code ref7.
      *
      * @param string $codeRef7 The code ref7.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef7($codeRef7) {
         $this->codeRef7 = $codeRef7;
@@ -1198,6 +1217,7 @@ class CriteresArticle {
      * Set the code ref8.
      *
      * @param string $codeRef8 The code ref8.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef8($codeRef8) {
         $this->codeRef8 = $codeRef8;
@@ -1208,6 +1228,7 @@ class CriteresArticle {
      * Set the code ref9.
      *
      * @param string $codeRef9 The code ref9.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setCodeRef9($codeRef9) {
         $this->codeRef9 = $codeRef9;
@@ -1218,6 +1239,7 @@ class CriteresArticle {
      * Set the date1.
      *
      * @param DateTime|null $date1 The date1.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate1(DateTime $date1 = null) {
         $this->date1 = $date1;
@@ -1228,6 +1250,7 @@ class CriteresArticle {
      * Set the date10.
      *
      * @param DateTime|null $date10 The date10.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate10(DateTime $date10 = null) {
         $this->date10 = $date10;
@@ -1238,6 +1261,7 @@ class CriteresArticle {
      * Set the date2.
      *
      * @param DateTime|null $date2 The date2.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate2(DateTime $date2 = null) {
         $this->date2 = $date2;
@@ -1248,6 +1272,7 @@ class CriteresArticle {
      * Set the date3.
      *
      * @param DateTime|null $date3 The date3.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate3(DateTime $date3 = null) {
         $this->date3 = $date3;
@@ -1258,6 +1283,7 @@ class CriteresArticle {
      * Set the date4.
      *
      * @param DateTime|null $date4 The date4.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate4(DateTime $date4 = null) {
         $this->date4 = $date4;
@@ -1268,6 +1294,7 @@ class CriteresArticle {
      * Set the date5.
      *
      * @param DateTime|null $date5 The date5.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate5(DateTime $date5 = null) {
         $this->date5 = $date5;
@@ -1278,6 +1305,7 @@ class CriteresArticle {
      * Set the date6.
      *
      * @param DateTime|null $date6 The date6.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate6(DateTime $date6 = null) {
         $this->date6 = $date6;
@@ -1288,6 +1316,7 @@ class CriteresArticle {
      * Set the date7.
      *
      * @param DateTime|null $date7 The date7.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate7(DateTime $date7 = null) {
         $this->date7 = $date7;
@@ -1298,6 +1327,7 @@ class CriteresArticle {
      * Set the date8.
      *
      * @param DateTime|null $date8 The date8.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate8(DateTime $date8 = null) {
         $this->date8 = $date8;
@@ -1308,6 +1338,7 @@ class CriteresArticle {
      * Set the date9.
      *
      * @param DateTime|null $date9 The date9.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDate9(DateTime $date9 = null) {
         $this->date9 = $date9;
@@ -1318,6 +1349,7 @@ class CriteresArticle {
      * Set the double1.
      *
      * @param float $double1 The double1.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble1($double1) {
         $this->double1 = $double1;
@@ -1328,6 +1360,7 @@ class CriteresArticle {
      * Set the double10.
      *
      * @param float $double10 The double10.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble10($double10) {
         $this->double10 = $double10;
@@ -1338,6 +1371,7 @@ class CriteresArticle {
      * Set the double2.
      *
      * @param float $double2 The double2.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble2($double2) {
         $this->double2 = $double2;
@@ -1348,6 +1382,7 @@ class CriteresArticle {
      * Set the double3.
      *
      * @param float $double3 The double3.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble3($double3) {
         $this->double3 = $double3;
@@ -1358,6 +1393,7 @@ class CriteresArticle {
      * Set the double4.
      *
      * @param float $double4 The double4.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble4($double4) {
         $this->double4 = $double4;
@@ -1368,6 +1404,7 @@ class CriteresArticle {
      * Set the double5.
      *
      * @param float $double5 The double5.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble5($double5) {
         $this->double5 = $double5;
@@ -1378,6 +1415,7 @@ class CriteresArticle {
      * Set the double6.
      *
      * @param float $double6 The double6.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble6($double6) {
         $this->double6 = $double6;
@@ -1388,6 +1426,7 @@ class CriteresArticle {
      * Set the double7.
      *
      * @param float $double7 The double7.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble7($double7) {
         $this->double7 = $double7;
@@ -1398,6 +1437,7 @@ class CriteresArticle {
      * Set the double8.
      *
      * @param float $double8 The double8.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble8($double8) {
         $this->double8 = $double8;
@@ -1408,6 +1448,7 @@ class CriteresArticle {
      * Set the double9.
      *
      * @param float $double9 The double9.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setDouble9($double9) {
         $this->double9 = $double9;
@@ -1418,6 +1459,7 @@ class CriteresArticle {
      * Set the long1.
      *
      * @param int $long1 The long1.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong1($long1) {
         $this->long1 = $long1;
@@ -1428,6 +1470,7 @@ class CriteresArticle {
      * Set the long10.
      *
      * @param int $long10 The long10.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong10($long10) {
         $this->long10 = $long10;
@@ -1438,6 +1481,7 @@ class CriteresArticle {
      * Set the long2.
      *
      * @param int $long2 The long2.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong2($long2) {
         $this->long2 = $long2;
@@ -1448,6 +1492,7 @@ class CriteresArticle {
      * Set the long3.
      *
      * @param int $long3 The long3.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong3($long3) {
         $this->long3 = $long3;
@@ -1458,6 +1503,7 @@ class CriteresArticle {
      * Set the long4.
      *
      * @param int $long4 The long4.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong4($long4) {
         $this->long4 = $long4;
@@ -1468,6 +1514,7 @@ class CriteresArticle {
      * Set the long5.
      *
      * @param int $long5 The long5.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong5($long5) {
         $this->long5 = $long5;
@@ -1478,6 +1525,7 @@ class CriteresArticle {
      * Set the long6.
      *
      * @param int $long6 The long6.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong6($long6) {
         $this->long6 = $long6;
@@ -1488,6 +1536,7 @@ class CriteresArticle {
      * Set the long7.
      *
      * @param int $long7 The long7.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong7($long7) {
         $this->long7 = $long7;
@@ -1498,6 +1547,7 @@ class CriteresArticle {
      * Set the long8.
      *
      * @param int $long8 The long8.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong8($long8) {
         $this->long8 = $long8;
@@ -1508,6 +1558,7 @@ class CriteresArticle {
      * Set the long9.
      *
      * @param int $long9 The long9.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setLong9($long9) {
         $this->long9 = $long9;
@@ -1518,6 +1569,7 @@ class CriteresArticle {
      * Set the texte1.
      *
      * @param string $texte1 The texte1.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte1($texte1) {
         $this->texte1 = $texte1;
@@ -1528,6 +1580,7 @@ class CriteresArticle {
      * Set the texte10.
      *
      * @param string $texte10 The texte10.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte10($texte10) {
         $this->texte10 = $texte10;
@@ -1538,6 +1591,7 @@ class CriteresArticle {
      * Set the texte2.
      *
      * @param string $texte2 The texte2.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte2($texte2) {
         $this->texte2 = $texte2;
@@ -1548,6 +1602,7 @@ class CriteresArticle {
      * Set the texte3.
      *
      * @param string $texte3 The texte3.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte3($texte3) {
         $this->texte3 = $texte3;
@@ -1558,6 +1613,7 @@ class CriteresArticle {
      * Set the texte4.
      *
      * @param string $texte4 The texte4.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte4($texte4) {
         $this->texte4 = $texte4;
@@ -1568,6 +1624,7 @@ class CriteresArticle {
      * Set the texte5.
      *
      * @param string $texte5 The texte5.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte5($texte5) {
         $this->texte5 = $texte5;
@@ -1578,6 +1635,7 @@ class CriteresArticle {
      * Set the texte6.
      *
      * @param string $texte6 The texte6.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte6($texte6) {
         $this->texte6 = $texte6;
@@ -1588,6 +1646,7 @@ class CriteresArticle {
      * Set the texte7.
      *
      * @param string $texte7 The texte7.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte7($texte7) {
         $this->texte7 = $texte7;
@@ -1598,6 +1657,7 @@ class CriteresArticle {
      * Set the texte8.
      *
      * @param string $texte8 The texte8.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte8($texte8) {
         $this->texte8 = $texte8;
@@ -1608,6 +1668,7 @@ class CriteresArticle {
      * Set the texte9.
      *
      * @param string $texte9 The texte9.
+     * @return CriteresArticle Returns this Criteres article.
      */
     public function setTexte9($texte9) {
         $this->texte9 = $texte9;

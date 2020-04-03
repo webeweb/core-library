@@ -576,6 +576,7 @@ class ArticleFournisseur {
      * Set the avt der code devise.
      *
      * @param string $avtDerCodeDevise The avt der code devise.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setAvtDerCodeDevise($avtDerCodeDevise) {
         $this->avtDerCodeDevise = $avtDerCodeDevise;
@@ -586,6 +587,7 @@ class ArticleFournisseur {
      * Set the avt der date achat.
      *
      * @param DateTime|null $avtDerDateAchat The avt der date achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setAvtDerDateAchat(DateTime $avtDerDateAchat = null) {
         $this->avtDerDateAchat = $avtDerDateAchat;
@@ -596,6 +598,7 @@ class ArticleFournisseur {
      * Set the avt der euros.
      *
      * @param bool $avtDerEuros The avt der euros.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setAvtDerEuros($avtDerEuros) {
         $this->avtDerEuros = $avtDerEuros;
@@ -606,6 +609,7 @@ class ArticleFournisseur {
      * Set the avt der px achat.
      *
      * @param float $avtDerPxAchat The avt der px achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setAvtDerPxAchat($avtDerPxAchat) {
         $this->avtDerPxAchat = $avtDerPxAchat;
@@ -616,6 +620,7 @@ class ArticleFournisseur {
      * Set the avt der qte achat.
      *
      * @param float $avtDerQteAchat The avt der qte achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setAvtDerQteAchat($avtDerQteAchat) {
         $this->avtDerQteAchat = $avtDerQteAchat;
@@ -626,6 +631,7 @@ class ArticleFournisseur {
      * Set the avt der remise1.
      *
      * @param float $avtDerRemise1 The avt der remise1.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setAvtDerRemise1($avtDerRemise1) {
         $this->avtDerRemise1 = $avtDerRemise1;
@@ -636,6 +642,7 @@ class ArticleFournisseur {
      * Set the avt der remise2.
      *
      * @param float $avtDerRemise2 The avt der remise2.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setAvtDerRemise2($avtDerRemise2) {
         $this->avtDerRemise2 = $avtDerRemise2;
@@ -646,6 +653,7 @@ class ArticleFournisseur {
      * Set the avt der remise3.
      *
      * @param float $avtDerRemise3 The avt der remise3.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setAvtDerRemise3($avtDerRemise3) {
         $this->avtDerRemise3 = $avtDerRemise3;
@@ -656,6 +664,7 @@ class ArticleFournisseur {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -666,6 +675,7 @@ class ArticleFournisseur {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -676,6 +686,7 @@ class ArticleFournisseur {
      * Set the commentaires.
      *
      * @param string $commentaires The commentaires.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setCommentaires($commentaires) {
         $this->commentaires = $commentaires;
@@ -686,6 +697,7 @@ class ArticleFournisseur {
      * Set the conditionnement.
      *
      * @param string $conditionnement The conditionnement.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setConditionnement($conditionnement) {
         $this->conditionnement = $conditionnement;
@@ -696,6 +708,7 @@ class ArticleFournisseur {
      * Set the delai le.
      *
      * @param int $delaiLe The delai le.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDelaiLe($delaiLe) {
         $this->delaiLe = $delaiLe;
@@ -706,6 +719,7 @@ class ArticleFournisseur {
      * Set the delai nombre.
      *
      * @param int $delaiNombre The delai nombre.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDelaiNombre($delaiNombre) {
         $this->delaiNombre = $delaiNombre;
@@ -716,6 +730,7 @@ class ArticleFournisseur {
      * Set the delai type.
      *
      * @param int $delaiType The delai type.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDelaiType($delaiType) {
         $this->delaiType = $delaiType;
@@ -726,6 +741,7 @@ class ArticleFournisseur {
      * Set the der code devise.
      *
      * @param string $derCodeDevise The der code devise.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDerCodeDevise($derCodeDevise) {
         $this->derCodeDevise = $derCodeDevise;
@@ -736,6 +752,7 @@ class ArticleFournisseur {
      * Set the der date achat.
      *
      * @param DateTime|null $derDateAchat The der date achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDerDateAchat(DateTime $derDateAchat = null) {
         $this->derDateAchat = $derDateAchat;
@@ -746,6 +763,7 @@ class ArticleFournisseur {
      * Set the der euros.
      *
      * @param bool $derEuros The der euros.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDerEuros($derEuros) {
         $this->derEuros = $derEuros;
@@ -756,6 +774,7 @@ class ArticleFournisseur {
      * Set the der px achat.
      *
      * @param float $derPxAchat The der px achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDerPxAchat($derPxAchat) {
         $this->derPxAchat = $derPxAchat;
@@ -766,6 +785,7 @@ class ArticleFournisseur {
      * Set the der qte achat.
      *
      * @param float $derQteAchat The der qte achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDerQteAchat($derQteAchat) {
         $this->derQteAchat = $derQteAchat;
@@ -776,6 +796,7 @@ class ArticleFournisseur {
      * Set the der remise1.
      *
      * @param float $derRemise1 The der remise1.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDerRemise1($derRemise1) {
         $this->derRemise1 = $derRemise1;
@@ -786,6 +807,7 @@ class ArticleFournisseur {
      * Set the der remise2.
      *
      * @param float $derRemise2 The der remise2.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDerRemise2($derRemise2) {
         $this->derRemise2 = $derRemise2;
@@ -796,6 +818,7 @@ class ArticleFournisseur {
      * Set the der remise3.
      *
      * @param float $derRemise3 The der remise3.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setDerRemise3($derRemise3) {
         $this->derRemise3 = $derRemise3;
@@ -806,6 +829,7 @@ class ArticleFournisseur {
      * Set the mini code devise.
      *
      * @param string $miniCodeDevise The mini code devise.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setMiniCodeDevise($miniCodeDevise) {
         $this->miniCodeDevise = $miniCodeDevise;
@@ -816,6 +840,7 @@ class ArticleFournisseur {
      * Set the mini date achat.
      *
      * @param DateTime|null $miniDateAchat The mini date achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setMiniDateAchat(DateTime $miniDateAchat = null) {
         $this->miniDateAchat = $miniDateAchat;
@@ -826,6 +851,7 @@ class ArticleFournisseur {
      * Set the mini euros.
      *
      * @param bool $miniEuros The mini euros.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setMiniEuros($miniEuros) {
         $this->miniEuros = $miniEuros;
@@ -836,6 +862,7 @@ class ArticleFournisseur {
      * Set the mini px achat.
      *
      * @param float $miniPxAchat The mini px achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setMiniPxAchat($miniPxAchat) {
         $this->miniPxAchat = $miniPxAchat;
@@ -846,6 +873,7 @@ class ArticleFournisseur {
      * Set the mini qte achat.
      *
      * @param float $miniQteAchat The mini qte achat.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setMiniQteAchat($miniQteAchat) {
         $this->miniQteAchat = $miniQteAchat;
@@ -856,6 +884,7 @@ class ArticleFournisseur {
      * Set the mini remise1.
      *
      * @param float $miniRemise1 The mini remise1.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setMiniRemise1($miniRemise1) {
         $this->miniRemise1 = $miniRemise1;
@@ -866,6 +895,7 @@ class ArticleFournisseur {
      * Set the mini remise2.
      *
      * @param float $miniRemise2 The mini remise2.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setMiniRemise2($miniRemise2) {
         $this->miniRemise2 = $miniRemise2;
@@ -876,6 +906,7 @@ class ArticleFournisseur {
      * Set the mini remise3.
      *
      * @param float $miniRemise3 The mini remise3.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setMiniRemise3($miniRemise3) {
         $this->miniRemise3 = $miniRemise3;
@@ -886,6 +917,7 @@ class ArticleFournisseur {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -896,6 +928,7 @@ class ArticleFournisseur {
      * Set the qte economique.
      *
      * @param float $qteEconomique The qte economique.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setQteEconomique($qteEconomique) {
         $this->qteEconomique = $qteEconomique;
@@ -906,6 +939,7 @@ class ArticleFournisseur {
      * Set the ref article fournisseur.
      *
      * @param string $refArticleFournisseur The ref article fournisseur.
+     * @return ArticleFournisseur Returns this Article fournisseur.
      */
     public function setRefArticleFournisseur($refArticleFournisseur) {
         $this->refArticleFournisseur = $refArticleFournisseur;

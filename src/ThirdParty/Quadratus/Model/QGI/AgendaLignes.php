@@ -448,6 +448,7 @@ class AgendaLignes {
      * Set the budget num uniq.
      *
      * @param string $budgetNumUniq The budget num uniq.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setBudgetNumUniq($budgetNumUniq) {
         $this->budgetNumUniq = $budgetNumUniq;
@@ -458,6 +459,7 @@ class AgendaLignes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -468,6 +470,7 @@ class AgendaLignes {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -478,6 +481,7 @@ class AgendaLignes {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -488,6 +492,7 @@ class AgendaLignes {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -498,6 +503,7 @@ class AgendaLignes {
      * Set the coll creation.
      *
      * @param string $collCreation The coll creation.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setCollCreation($collCreation) {
         $this->collCreation = $collCreation;
@@ -508,6 +514,7 @@ class AgendaLignes {
      * Set the coll modif.
      *
      * @param string $collModif The coll modif.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setCollModif($collModif) {
         $this->collModif = $collModif;
@@ -518,6 +525,7 @@ class AgendaLignes {
      * Set the confirme.
      *
      * @param bool $confirme The confirme.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setConfirme($confirme) {
         $this->confirme = $confirme;
@@ -528,6 +536,7 @@ class AgendaLignes {
      * Set the critere libre.
      *
      * @param string $critereLibre The critere libre.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setCritereLibre($critereLibre) {
         $this->critereLibre = $critereLibre;
@@ -538,6 +547,7 @@ class AgendaLignes {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -548,6 +558,7 @@ class AgendaLignes {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -558,6 +569,7 @@ class AgendaLignes {
      * Set the heure debut.
      *
      * @param DateTime|null $heureDebut The heure debut.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setHeureDebut(DateTime $heureDebut = null) {
         $this->heureDebut = $heureDebut;
@@ -568,6 +580,7 @@ class AgendaLignes {
      * Set the heure fin.
      *
      * @param DateTime|null $heureFin The heure fin.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setHeureFin(DateTime $heureFin = null) {
         $this->heureFin = $heureFin;
@@ -578,6 +591,7 @@ class AgendaLignes {
      * Set the interlocuteur.
      *
      * @param string $interlocuteur The interlocuteur.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setInterlocuteur($interlocuteur) {
         $this->interlocuteur = $interlocuteur;
@@ -588,6 +602,7 @@ class AgendaLignes {
      * Set the is tache tp.
      *
      * @param int $isTacheTp The is tache tp.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setIsTacheTp($isTacheTp) {
         $this->isTacheTp = $isTacheTp;
@@ -598,6 +613,7 @@ class AgendaLignes {
      * Set the is transf.
      *
      * @param bool $isTransf The is transf.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setIsTransf($isTransf) {
         $this->isTransf = $isTransf;
@@ -608,6 +624,7 @@ class AgendaLignes {
      * Set the jour.
      *
      * @param DateTime|null $jour The jour.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setJour(DateTime $jour = null) {
         $this->jour = $jour;
@@ -618,6 +635,7 @@ class AgendaLignes {
      * Set the memo plus.
      *
      * @param string $memoPlus The memo plus.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setMemoPlus($memoPlus) {
         $this->memoPlus = $memoPlus;
@@ -628,6 +646,7 @@ class AgendaLignes {
      * Set the message.
      *
      * @param string $message The message.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setMessage($message) {
         $this->message = $message;
@@ -638,6 +657,7 @@ class AgendaLignes {
      * Set the num ordre mission.
      *
      * @param string $numOrdreMission The num ordre mission.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setNumOrdreMission($numOrdreMission) {
         $this->numOrdreMission = $numOrdreMission;
@@ -648,6 +668,7 @@ class AgendaLignes {
      * Set the num uniq.
      *
      * @param string $numUniq The num uniq.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -658,6 +679,7 @@ class AgendaLignes {
      * Set the num uniq2.
      *
      * @param string $numUniq2 The num uniq2.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setNumUniq2($numUniq2) {
         $this->numUniq2 = $numUniq2;
@@ -668,6 +690,7 @@ class AgendaLignes {
      * Set the piece jointe.
      *
      * @param string $pieceJointe The piece jointe.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setPieceJointe($pieceJointe) {
         $this->pieceJointe = $pieceJointe;
@@ -678,6 +701,7 @@ class AgendaLignes {
      * Set the prive.
      *
      * @param bool $prive The prive.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setPrive($prive) {
         $this->prive = $prive;
@@ -688,6 +712,7 @@ class AgendaLignes {
      * Set the recurrence.
      *
      * @param string $recurrence The recurrence.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setRecurrence($recurrence) {
         $this->recurrence = $recurrence;
@@ -698,6 +723,7 @@ class AgendaLignes {
      * Set the type activite.
      *
      * @param string $typeActivite The type activite.
+     * @return AgendaLignes Returns this Agenda lignes.
      */
     public function setTypeActivite($typeActivite) {
         $this->typeActivite = $typeActivite;

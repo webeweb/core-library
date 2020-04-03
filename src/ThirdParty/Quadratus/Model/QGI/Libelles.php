@@ -110,6 +110,7 @@ class Libelles {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Libelles Returns this Libelles.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -120,6 +121,7 @@ class Libelles {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Libelles Returns this Libelles.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -130,6 +132,7 @@ class Libelles {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return Libelles Returns this Libelles.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -140,6 +143,7 @@ class Libelles {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Libelles Returns this Libelles.
      */
     public function setType($type) {
         $this->type = $type;
@@ -150,6 +154,7 @@ class Libelles {
      * Set the type montant.
      *
      * @param string $typeMontant The type montant.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeMontant($typeMontant) {
         $this->typeMontant = $typeMontant;

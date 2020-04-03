@@ -176,6 +176,7 @@ class HeuresAbsence {
      * Set the absence au.
      *
      * @param DateTime|null $absenceAu The absence au.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setAbsenceAu(DateTime $absenceAu = null) {
         $this->absenceAu = $absenceAu;
@@ -186,6 +187,7 @@ class HeuresAbsence {
      * Set the absence du.
      *
      * @param DateTime|null $absenceDu The absence du.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setAbsenceDu(DateTime $absenceDu = null) {
         $this->absenceDu = $absenceDu;
@@ -196,6 +198,7 @@ class HeuresAbsence {
      * Set the date jour.
      *
      * @param DateTime|null $dateJour The date jour.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setDateJour(DateTime $dateJour = null) {
         $this->dateJour = $dateJour;
@@ -206,6 +209,7 @@ class HeuresAbsence {
      * Set the nb h non effectue.
      *
      * @param float $nbHNonEffectue The nb h non effectue.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setNbHNonEffectue($nbHNonEffectue) {
         $this->nbHNonEffectue = $nbHNonEffectue;
@@ -216,6 +220,7 @@ class HeuresAbsence {
      * Set the nb h retenue salaire.
      *
      * @param float $nbHRetenueSalaire The nb h retenue salaire.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setNbHRetenueSalaire($nbHRetenueSalaire) {
         $this->nbHRetenueSalaire = $nbHRetenueSalaire;
@@ -226,6 +231,7 @@ class HeuresAbsence {
      * Set the nb ha reintegrer.
      *
      * @param float $nbHaReintegrer The nb ha reintegrer.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setNbHaReintegrer($nbHaReintegrer) {
         $this->nbHaReintegrer = $nbHaReintegrer;
@@ -236,6 +242,7 @@ class HeuresAbsence {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -246,6 +253,7 @@ class HeuresAbsence {
      * Set the transfere.
      *
      * @param string $transfere The transfere.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setTransfere($transfere) {
         $this->transfere = $transfere;
@@ -256,6 +264,7 @@ class HeuresAbsence {
      * Set the type absence.
      *
      * @param string $typeAbsence The type absence.
+     * @return HeuresAbsence Returns this Heures absence.
      */
     public function setTypeAbsence($typeAbsence) {
         $this->typeAbsence = $typeAbsence;

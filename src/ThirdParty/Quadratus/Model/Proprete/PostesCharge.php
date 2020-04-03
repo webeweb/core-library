@@ -126,6 +126,7 @@ class PostesCharge {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return PostesCharge Returns this Postes charge.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -136,6 +137,7 @@ class PostesCharge {
      * Set the code charge.
      *
      * @param string $codeCharge The code charge.
+     * @return PostesCharge Returns this Postes charge.
      */
     public function setCodeCharge($codeCharge) {
         $this->codeCharge = $codeCharge;
@@ -146,6 +148,7 @@ class PostesCharge {
      * Set the dern poste affecte.
      *
      * @param string $dernPosteAffecte The dern poste affecte.
+     * @return PostesCharge Returns this Postes charge.
      */
     public function setDernPosteAffecte($dernPosteAffecte) {
         $this->dernPosteAffecte = $dernPosteAffecte;
@@ -156,6 +159,7 @@ class PostesCharge {
      * Set the description.
      *
      * @param string $description The description.
+     * @return PostesCharge Returns this Postes charge.
      */
     public function setDescription($description) {
         $this->description = $description;
@@ -166,6 +170,7 @@ class PostesCharge {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return PostesCharge Returns this Postes charge.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -176,6 +181,7 @@ class PostesCharge {
      * Set the type prorata.
      *
      * @param string $typeProrata The type prorata.
+     * @return PostesCharge Returns this Postes charge.
      */
     public function setTypeProrata($typeProrata) {
         $this->typeProrata = $typeProrata;

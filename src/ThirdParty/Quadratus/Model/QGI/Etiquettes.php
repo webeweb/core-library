@@ -398,6 +398,7 @@ class Etiquettes {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -408,6 +409,7 @@ class Etiquettes {
      * Set the code barre.
      *
      * @param string $codeBarre The code barre.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setCodeBarre($codeBarre) {
         $this->codeBarre = $codeBarre;
@@ -418,6 +420,7 @@ class Etiquettes {
      * Set the code cli four.
      *
      * @param string $codeCliFour The code cli four.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setCodeCliFour($codeCliFour) {
         $this->codeCliFour = $codeCliFour;
@@ -428,6 +431,7 @@ class Etiquettes {
      * Set the code modele.
      *
      * @param string $codeModele The code modele.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setCodeModele($codeModele) {
         $this->codeModele = $codeModele;
@@ -438,6 +442,7 @@ class Etiquettes {
      * Set the etiq plus.
      *
      * @param bool $etiqPlus The etiq plus.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setEtiqPlus($etiqPlus) {
         $this->etiqPlus = $etiqPlus;
@@ -448,6 +453,7 @@ class Etiquettes {
      * Set the imprimante.
      *
      * @param string $imprimante The imprimante.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setImprimante($imprimante) {
         $this->imprimante = $imprimante;
@@ -458,6 +464,7 @@ class Etiquettes {
      * Set the prix vente.
      *
      * @param float $prixVente The prix vente.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setPrixVente($prixVente) {
         $this->prixVente = $prixVente;
@@ -468,6 +475,7 @@ class Etiquettes {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setType($type) {
         $this->type = $type;
@@ -478,6 +486,7 @@ class Etiquettes {
      * Set the zone1.
      *
      * @param string $zone1 The zone1.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone1($zone1) {
         $this->zone1 = $zone1;
@@ -488,6 +497,7 @@ class Etiquettes {
      * Set the zone10.
      *
      * @param string $zone10 The zone10.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone10($zone10) {
         $this->zone10 = $zone10;
@@ -498,6 +508,7 @@ class Etiquettes {
      * Set the zone11.
      *
      * @param string $zone11 The zone11.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone11($zone11) {
         $this->zone11 = $zone11;
@@ -508,6 +519,7 @@ class Etiquettes {
      * Set the zone12.
      *
      * @param string $zone12 The zone12.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone12($zone12) {
         $this->zone12 = $zone12;
@@ -518,6 +530,7 @@ class Etiquettes {
      * Set the zone13.
      *
      * @param string $zone13 The zone13.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone13($zone13) {
         $this->zone13 = $zone13;
@@ -528,6 +541,7 @@ class Etiquettes {
      * Set the zone14.
      *
      * @param string $zone14 The zone14.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone14($zone14) {
         $this->zone14 = $zone14;
@@ -538,6 +552,7 @@ class Etiquettes {
      * Set the zone15.
      *
      * @param string $zone15 The zone15.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone15($zone15) {
         $this->zone15 = $zone15;
@@ -548,6 +563,7 @@ class Etiquettes {
      * Set the zone2.
      *
      * @param string $zone2 The zone2.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone2($zone2) {
         $this->zone2 = $zone2;
@@ -558,6 +574,7 @@ class Etiquettes {
      * Set the zone3.
      *
      * @param string $zone3 The zone3.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone3($zone3) {
         $this->zone3 = $zone3;
@@ -568,6 +585,7 @@ class Etiquettes {
      * Set the zone4.
      *
      * @param string $zone4 The zone4.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone4($zone4) {
         $this->zone4 = $zone4;
@@ -578,6 +596,7 @@ class Etiquettes {
      * Set the zone5.
      *
      * @param string $zone5 The zone5.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone5($zone5) {
         $this->zone5 = $zone5;
@@ -588,6 +607,7 @@ class Etiquettes {
      * Set the zone6.
      *
      * @param string $zone6 The zone6.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone6($zone6) {
         $this->zone6 = $zone6;
@@ -598,6 +618,7 @@ class Etiquettes {
      * Set the zone7.
      *
      * @param string $zone7 The zone7.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone7($zone7) {
         $this->zone7 = $zone7;
@@ -608,6 +629,7 @@ class Etiquettes {
      * Set the zone8.
      *
      * @param string $zone8 The zone8.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone8($zone8) {
         $this->zone8 = $zone8;
@@ -618,6 +640,7 @@ class Etiquettes {
      * Set the zone9.
      *
      * @param string $zone9 The zone9.
+     * @return Etiquettes Returns this Etiquettes.
      */
     public function setZone9($zone9) {
         $this->zone9 = $zone9;

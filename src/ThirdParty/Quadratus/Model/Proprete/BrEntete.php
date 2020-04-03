@@ -1008,6 +1008,7 @@ class BrEntete {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return BrEntete Returns this Br entete.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -1018,6 +1019,7 @@ class BrEntete {
      * Set the btq2.
      *
      * @param string $btq2 The btq2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setBtq2($btq2) {
         $this->btq2 = $btq2;
@@ -1028,6 +1030,7 @@ class BrEntete {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return BrEntete Returns this Br entete.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -1038,6 +1041,7 @@ class BrEntete {
      * Set the bureau distributeur2.
      *
      * @param string $bureauDistributeur2 The bureau distributeur2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setBureauDistributeur2($bureauDistributeur2) {
         $this->bureauDistributeur2 = $bureauDistributeur2;
@@ -1048,6 +1052,7 @@ class BrEntete {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -1058,6 +1063,7 @@ class BrEntete {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -1068,6 +1074,7 @@ class BrEntete {
      * Set the code livraison.
      *
      * @param string $codeLivraison The code livraison.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodeLivraison($codeLivraison) {
         $this->codeLivraison = $codeLivraison;
@@ -1078,6 +1085,7 @@ class BrEntete {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -1088,6 +1096,7 @@ class BrEntete {
      * Set the code officiel commune2.
      *
      * @param string $codeOfficielCommune2 The code officiel commune2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodeOfficielCommune2($codeOfficielCommune2) {
         $this->codeOfficielCommune2 = $codeOfficielCommune2;
@@ -1098,6 +1107,7 @@ class BrEntete {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -1108,6 +1118,7 @@ class BrEntete {
      * Set the code postal2.
      *
      * @param string $codePostal2 The code postal2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodePostal2($codePostal2) {
         $this->codePostal2 = $codePostal2;
@@ -1118,6 +1129,7 @@ class BrEntete {
      * Set the code reglement.
      *
      * @param string $codeReglement The code reglement.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodeReglement($codeReglement) {
         $this->codeReglement = $codeReglement;
@@ -1128,6 +1140,7 @@ class BrEntete {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -1138,6 +1151,7 @@ class BrEntete {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return BrEntete Returns this Br entete.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -1148,6 +1162,7 @@ class BrEntete {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return BrEntete Returns this Br entete.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -1158,6 +1173,7 @@ class BrEntete {
      * Set the complement2.
      *
      * @param string $complement2 The complement2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setComplement2($complement2) {
         $this->complement2 = $complement2;
@@ -1168,6 +1184,7 @@ class BrEntete {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return BrEntete Returns this Br entete.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -1178,6 +1195,7 @@ class BrEntete {
      * Set the date echeance.
      *
      * @param DateTime|null $dateEcheance The date echeance.
+     * @return BrEntete Returns this Br entete.
      */
     public function setDateEcheance(DateTime $dateEcheance = null) {
         $this->dateEcheance = $dateEcheance;
@@ -1188,6 +1206,7 @@ class BrEntete {
      * Set the date facture fournisseur.
      *
      * @param DateTime|null $dateFactureFournisseur The date facture fournisseur.
+     * @return BrEntete Returns this Br entete.
      */
     public function setDateFactureFournisseur(DateTime $dateFactureFournisseur = null) {
         $this->dateFactureFournisseur = $dateFactureFournisseur;
@@ -1198,6 +1217,7 @@ class BrEntete {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return BrEntete Returns this Br entete.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -1208,6 +1228,7 @@ class BrEntete {
      * Set the date piece.
      *
      * @param DateTime|null $datePiece The date piece.
+     * @return BrEntete Returns this Br entete.
      */
     public function setDatePiece(DateTime $datePiece = null) {
         $this->datePiece = $datePiece;
@@ -1218,6 +1239,7 @@ class BrEntete {
      * Set the date reception prevue.
      *
      * @param DateTime|null $dateReceptionPrevue The date reception prevue.
+     * @return BrEntete Returns this Br entete.
      */
     public function setDateReceptionPrevue(DateTime $dateReceptionPrevue = null) {
         $this->dateReceptionPrevue = $dateReceptionPrevue;
@@ -1228,6 +1250,7 @@ class BrEntete {
      * Set the echeance forcee.
      *
      * @param bool $echeanceForcee The echeance forcee.
+     * @return BrEntete Returns this Br entete.
      */
     public function setEcheanceForcee($echeanceForcee) {
         $this->echeanceForcee = $echeanceForcee;
@@ -1238,6 +1261,7 @@ class BrEntete {
      * Set the edition.
      *
      * @param int $edition The edition.
+     * @return BrEntete Returns this Br entete.
      */
     public function setEdition($edition) {
         $this->edition = $edition;
@@ -1248,6 +1272,7 @@ class BrEntete {
      * Set the facture euros.
      *
      * @param bool $factureEuros The facture euros.
+     * @return BrEntete Returns this Br entete.
      */
     public function setFactureEuros($factureEuros) {
         $this->factureEuros = $factureEuros;
@@ -1258,6 +1283,7 @@ class BrEntete {
      * Set the montant acompte.
      *
      * @param float $montantAcompte The montant acompte.
+     * @return BrEntete Returns this Br entete.
      */
     public function setMontantAcompte($montantAcompte) {
         $this->montantAcompte = $montantAcompte;
@@ -1268,6 +1294,7 @@ class BrEntete {
      * Set the nb colis.
      *
      * @param int $nbColis The nb colis.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNbColis($nbColis) {
         $this->nbColis = $nbColis;
@@ -1278,6 +1305,7 @@ class BrEntete {
      * Set the no piece.
      *
      * @param string $noPiece The no piece.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNoPiece($noPiece) {
         $this->noPiece = $noPiece;
@@ -1288,6 +1316,7 @@ class BrEntete {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -1298,6 +1327,7 @@ class BrEntete {
      * Set the nom2.
      *
      * @param string $nom2 The nom2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNom2($nom2) {
         $this->nom2 = $nom2;
@@ -1308,6 +1338,7 @@ class BrEntete {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -1318,6 +1349,7 @@ class BrEntete {
      * Set the nom suite2.
      *
      * @param string $nomSuite2 The nom suite2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNomSuite2($nomSuite2) {
         $this->nomSuite2 = $nomSuite2;
@@ -1328,6 +1360,7 @@ class BrEntete {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -1338,6 +1371,7 @@ class BrEntete {
      * Set the nom ville2.
      *
      * @param string $nomVille2 The nom ville2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNomVille2($nomVille2) {
         $this->nomVille2 = $nomVille2;
@@ -1348,6 +1382,7 @@ class BrEntete {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -1358,6 +1393,7 @@ class BrEntete {
      * Set the nom voie2.
      *
      * @param string $nomVoie2 The nom voie2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNomVoie2($nomVoie2) {
         $this->nomVoie2 = $nomVoie2;
@@ -1368,6 +1404,7 @@ class BrEntete {
      * Set the nombre echeances.
      *
      * @param int $nombreEcheances The nombre echeances.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -1378,6 +1415,7 @@ class BrEntete {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -1388,6 +1426,7 @@ class BrEntete {
      * Set the num voie2.
      *
      * @param string $numVoie2 The num voie2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNumVoie2($numVoie2) {
         $this->numVoie2 = $numVoie2;
@@ -1398,6 +1437,7 @@ class BrEntete {
      * Set the numero facture fournisseur.
      *
      * @param string $numeroFactureFournisseur The numero facture fournisseur.
+     * @return BrEntete Returns this Br entete.
      */
     public function setNumeroFactureFournisseur($numeroFactureFournisseur) {
         $this->numeroFactureFournisseur = $numeroFactureFournisseur;
@@ -1408,6 +1448,7 @@ class BrEntete {
      * Set the paiement depart le.
      *
      * @param int $paiementDepartLe The paiement depart le.
+     * @return BrEntete Returns this Br entete.
      */
     public function setPaiementDepartLe($paiementDepartLe) {
         $this->paiementDepartLe = $paiementDepartLe;
@@ -1418,6 +1459,7 @@ class BrEntete {
      * Set the paiement le.
      *
      * @param int $paiementLe The paiement le.
+     * @return BrEntete Returns this Br entete.
      */
     public function setPaiementLe($paiementLe) {
         $this->paiementLe = $paiementLe;
@@ -1428,6 +1470,7 @@ class BrEntete {
      * Set the paiement nombre de jours.
      *
      * @param int $paiementNombreDeJours The paiement nombre de jours.
+     * @return BrEntete Returns this Br entete.
      */
     public function setPaiementNombreDeJours($paiementNombreDeJours) {
         $this->paiementNombreDeJours = $paiementNombreDeJours;
@@ -1438,6 +1481,7 @@ class BrEntete {
      * Set the poids.
      *
      * @param float $poids The poids.
+     * @return BrEntete Returns this Br entete.
      */
     public function setPoids($poids) {
         $this->poids = $poids;
@@ -1448,6 +1492,7 @@ class BrEntete {
      * Set the reference1.
      *
      * @param string $reference1 The reference1.
+     * @return BrEntete Returns this Br entete.
      */
     public function setReference1($reference1) {
         $this->reference1 = $reference1;
@@ -1458,6 +1503,7 @@ class BrEntete {
      * Set the reference2.
      *
      * @param string $reference2 The reference2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setReference2($reference2) {
         $this->reference2 = $reference2;
@@ -1468,6 +1514,7 @@ class BrEntete {
      * Set the reference3.
      *
      * @param string $reference3 The reference3.
+     * @return BrEntete Returns this Br entete.
      */
     public function setReference3($reference3) {
         $this->reference3 = $reference3;
@@ -1478,6 +1525,7 @@ class BrEntete {
      * Set the reference4.
      *
      * @param string $reference4 The reference4.
+     * @return BrEntete Returns this Br entete.
      */
     public function setReference4($reference4) {
         $this->reference4 = $reference4;
@@ -1488,6 +1536,7 @@ class BrEntete {
      * Set the remise pied.
      *
      * @param float $remisePied The remise pied.
+     * @return BrEntete Returns this Br entete.
      */
     public function setRemisePied($remisePied) {
         $this->remisePied = $remisePied;
@@ -1498,6 +1547,7 @@ class BrEntete {
      * Set the remise pied2.
      *
      * @param float $remisePied2 The remise pied2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setRemisePied2($remisePied2) {
         $this->remisePied2 = $remisePied2;
@@ -1508,6 +1558,7 @@ class BrEntete {
      * Set the remise pied3.
      *
      * @param float $remisePied3 The remise pied3.
+     * @return BrEntete Returns this Br entete.
      */
     public function setRemisePied3($remisePied3) {
         $this->remisePied3 = $remisePied3;
@@ -1518,6 +1569,7 @@ class BrEntete {
      * Set the saisir adresse.
      *
      * @param bool $saisirAdresse The saisir adresse.
+     * @return BrEntete Returns this Br entete.
      */
     public function setSaisirAdresse($saisirAdresse) {
         $this->saisirAdresse = $saisirAdresse;
@@ -1528,6 +1580,7 @@ class BrEntete {
      * Set the saisir adresse livraison.
      *
      * @param bool $saisirAdresseLivraison The saisir adresse livraison.
+     * @return BrEntete Returns this Br entete.
      */
     public function setSaisirAdresseLivraison($saisirAdresseLivraison) {
         $this->saisirAdresseLivraison = $saisirAdresseLivraison;
@@ -1538,6 +1591,7 @@ class BrEntete {
      * Set the soumis escompte.
      *
      * @param bool $soumisEscompte The soumis escompte.
+     * @return BrEntete Returns this Br entete.
      */
     public function setSoumisEscompte($soumisEscompte) {
         $this->soumisEscompte = $soumisEscompte;
@@ -1548,6 +1602,7 @@ class BrEntete {
      * Set the soumis taxe1.
      *
      * @param bool $soumisTaxe1 The soumis taxe1.
+     * @return BrEntete Returns this Br entete.
      */
     public function setSoumisTaxe1($soumisTaxe1) {
         $this->soumisTaxe1 = $soumisTaxe1;
@@ -1558,6 +1613,7 @@ class BrEntete {
      * Set the soumis taxe2.
      *
      * @param bool $soumisTaxe2 The soumis taxe2.
+     * @return BrEntete Returns this Br entete.
      */
     public function setSoumisTaxe2($soumisTaxe2) {
         $this->soumisTaxe2 = $soumisTaxe2;
@@ -1568,6 +1624,7 @@ class BrEntete {
      * Set the soumis taxe3.
      *
      * @param bool $soumisTaxe3 The soumis taxe3.
+     * @return BrEntete Returns this Br entete.
      */
     public function setSoumisTaxe3($soumisTaxe3) {
         $this->soumisTaxe3 = $soumisTaxe3;
@@ -1578,6 +1635,7 @@ class BrEntete {
      * Set the taux devise.
      *
      * @param float $tauxDevise The taux devise.
+     * @return BrEntete Returns this Br entete.
      */
     public function setTauxDevise($tauxDevise) {
         $this->tauxDevise = $tauxDevise;
@@ -1588,6 +1646,7 @@ class BrEntete {
      * Set the transfert.
      *
      * @param int $transfert The transfert.
+     * @return BrEntete Returns this Br entete.
      */
     public function setTransfert($transfert) {
         $this->transfert = $transfert;
@@ -1598,6 +1657,7 @@ class BrEntete {
      * Set the transporteur.
      *
      * @param string $transporteur The transporteur.
+     * @return BrEntete Returns this Br entete.
      */
     public function setTransporteur($transporteur) {
         $this->transporteur = $transporteur;
@@ -1608,6 +1668,7 @@ class BrEntete {
      * Set the tx escompte achat.
      *
      * @param float $txEscompteAchat The tx escompte achat.
+     * @return BrEntete Returns this Br entete.
      */
     public function setTxEscompteAchat($txEscompteAchat) {
         $this->txEscompteAchat = $txEscompteAchat;

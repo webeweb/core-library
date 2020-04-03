@@ -78,6 +78,7 @@ class FonctionsControles {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return FonctionsControles Returns this Fonctions controles.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -88,6 +89,7 @@ class FonctionsControles {
      * Set the mot controle.
      *
      * @param string $motControle The mot controle.
+     * @return FonctionsControles Returns this Fonctions controles.
      */
     public function setMotControle($motControle) {
         $this->motControle = $motControle;
@@ -98,6 +100,7 @@ class FonctionsControles {
      * Set the type.
      *
      * @param string $type The type.
+     * @return FonctionsControles Returns this Fonctions controles.
      */
     public function setType($type) {
         $this->type = $type;

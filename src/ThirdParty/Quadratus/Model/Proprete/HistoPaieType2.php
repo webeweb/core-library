@@ -128,6 +128,7 @@ class HistoPaieType2 {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HistoPaieType2 Returns this Histo paie type2.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -138,6 +139,7 @@ class HistoPaieType2 {
      * Set the code prime.
      *
      * @param string $codePrime The code prime.
+     * @return HistoPaieType2 Returns this Histo paie type2.
      */
     public function setCodePrime($codePrime) {
         $this->codePrime = $codePrime;
@@ -148,6 +150,7 @@ class HistoPaieType2 {
      * Set the nb heures.
      *
      * @param float $nbHeures The nb heures.
+     * @return HistoPaieType2 Returns this Histo paie type2.
      */
     public function setNbHeures($nbHeures) {
         $this->nbHeures = $nbHeures;
@@ -158,6 +161,7 @@ class HistoPaieType2 {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HistoPaieType2 Returns this Histo paie type2.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -168,6 +172,7 @@ class HistoPaieType2 {
      * Set the taux majoration.
      *
      * @param float $tauxMajoration The taux majoration.
+     * @return HistoPaieType2 Returns this Histo paie type2.
      */
     public function setTauxMajoration($tauxMajoration) {
         $this->tauxMajoration = $tauxMajoration;
@@ -178,6 +183,7 @@ class HistoPaieType2 {
      * Set the type dnjf.
      *
      * @param string $typeDnjf The type dnjf.
+     * @return HistoPaieType2 Returns this Histo paie type2.
      */
     public function setTypeDnjf($typeDnjf) {
         $this->typeDnjf = $typeDnjf;

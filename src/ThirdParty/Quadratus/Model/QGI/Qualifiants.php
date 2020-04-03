@@ -110,6 +110,7 @@ class Qualifiants {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Qualifiants Returns this Qualifiants.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -120,6 +121,7 @@ class Qualifiants {
      * Set the colonne.
      *
      * @param int $colonne The colonne.
+     * @return Qualifiants Returns this Qualifiants.
      */
     public function setColonne($colonne) {
         $this->colonne = $colonne;
@@ -130,6 +132,7 @@ class Qualifiants {
      * Set the visu appels.
      *
      * @param bool $visuAppels The visu appels.
+     * @return Qualifiants Returns this Qualifiants.
      */
     public function setVisuAppels($visuAppels) {
         $this->visuAppels = $visuAppels;
@@ -140,6 +143,7 @@ class Qualifiants {
      * Set the visu documents.
      *
      * @param bool $visuDocuments The visu documents.
+     * @return Qualifiants Returns this Qualifiants.
      */
     public function setVisuDocuments($visuDocuments) {
         $this->visuDocuments = $visuDocuments;
@@ -150,6 +154,7 @@ class Qualifiants {
      * Set the visu evenements.
      *
      * @param bool $visuEvenements The visu evenements.
+     * @return Qualifiants Returns this Qualifiants.
      */
     public function setVisuEvenements($visuEvenements) {
         $this->visuEvenements = $visuEvenements;

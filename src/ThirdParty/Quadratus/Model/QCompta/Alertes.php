@@ -96,6 +96,7 @@ class Alertes {
      * Set the cloturee.
      *
      * @param bool $cloturee The cloturee.
+     * @return Alertes Returns this Alertes.
      */
     public function setCloturee($cloturee) {
         $this->cloturee = $cloturee;
@@ -106,6 +107,7 @@ class Alertes {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return Alertes Returns this Alertes.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -116,6 +118,7 @@ class Alertes {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return Alertes Returns this Alertes.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -126,6 +129,7 @@ class Alertes {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return Alertes Returns this Alertes.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

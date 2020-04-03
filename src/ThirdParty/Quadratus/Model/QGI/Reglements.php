@@ -622,6 +622,7 @@ class Reglements {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return Reglements Returns this Reglements.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -632,6 +633,7 @@ class Reglements {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Reglements Returns this Reglements.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -642,6 +644,7 @@ class Reglements {
      * Set the code banque.
      *
      * @param string $codeBanque The code banque.
+     * @return Reglements Returns this Reglements.
      */
     public function setCodeBanque($codeBanque) {
         $this->codeBanque = $codeBanque;
@@ -652,6 +655,7 @@ class Reglements {
      * Set the code comptable.
      *
      * @param string $codeComptable The code comptable.
+     * @return Reglements Returns this Reglements.
      */
     public function setCodeComptable($codeComptable) {
         $this->codeComptable = $codeComptable;
@@ -662,6 +666,7 @@ class Reglements {
      * Set the compte caisse.
      *
      * @param string $compteCaisse The compte caisse.
+     * @return Reglements Returns this Reglements.
      */
     public function setCompteCaisse($compteCaisse) {
         $this->compteCaisse = $compteCaisse;
@@ -672,6 +677,7 @@ class Reglements {
      * Set the cpt portefeuille.
      *
      * @param string $cptPortefeuille The cpt portefeuille.
+     * @return Reglements Returns this Reglements.
      */
     public function setCptPortefeuille($cptPortefeuille) {
         $this->cptPortefeuille = $cptPortefeuille;
@@ -682,6 +688,7 @@ class Reglements {
      * Set the date echeance cpta.
      *
      * @param bool $dateEcheanceCpta The date echeance cpta.
+     * @return Reglements Returns this Reglements.
      */
     public function setDateEcheanceCpta($dateEcheanceCpta) {
         $this->dateEcheanceCpta = $dateEcheanceCpta;
@@ -692,6 +699,7 @@ class Reglements {
      * Set the definition paiement.
      *
      * @param bool $definitionPaiement The definition paiement.
+     * @return Reglements Returns this Reglements.
      */
     public function setDefinitionPaiement($definitionPaiement) {
         $this->definitionPaiement = $definitionPaiement;
@@ -702,6 +710,7 @@ class Reglements {
      * Set the definition remise.
      *
      * @param bool $definitionRemise The definition remise.
+     * @return Reglements Returns this Reglements.
      */
     public function setDefinitionRemise($definitionRemise) {
         $this->definitionRemise = $definitionRemise;
@@ -712,6 +721,7 @@ class Reglements {
      * Set the detail echeance cpta.
      *
      * @param bool $detailEcheanceCpta The detail echeance cpta.
+     * @return Reglements Returns this Reglements.
      */
     public function setDetailEcheanceCpta($detailEcheanceCpta) {
         $this->detailEcheanceCpta = $detailEcheanceCpta;
@@ -722,6 +732,7 @@ class Reglements {
      * Set the detail effet cpta.
      *
      * @param bool $detailEffetCpta The detail effet cpta.
+     * @return Reglements Returns this Reglements.
      */
     public function setDetailEffetCpta($detailEffetCpta) {
         $this->detailEffetCpta = $detailEffetCpta;
@@ -732,6 +743,7 @@ class Reglements {
      * Set the devise caisse.
      *
      * @param string $deviseCaisse The devise caisse.
+     * @return Reglements Returns this Reglements.
      */
     public function setDeviseCaisse($deviseCaisse) {
         $this->deviseCaisse = $deviseCaisse;
@@ -742,6 +754,7 @@ class Reglements {
      * Set the domiciliation bancaire1.
      *
      * @param string $domiciliationBancaire1 The domiciliation bancaire1.
+     * @return Reglements Returns this Reglements.
      */
     public function setDomiciliationBancaire1($domiciliationBancaire1) {
         $this->domiciliationBancaire1 = $domiciliationBancaire1;
@@ -752,6 +765,7 @@ class Reglements {
      * Set the domiciliation bancaire2.
      *
      * @param string $domiciliationBancaire2 The domiciliation bancaire2.
+     * @return Reglements Returns this Reglements.
      */
     public function setDomiciliationBancaire2($domiciliationBancaire2) {
         $this->domiciliationBancaire2 = $domiciliationBancaire2;
@@ -762,6 +776,7 @@ class Reglements {
      * Set the duree echeances.
      *
      * @param string $dureeEcheances The duree echeances.
+     * @return Reglements Returns this Reglements.
      */
     public function setDureeEcheances($dureeEcheances) {
         $this->dureeEcheances = $dureeEcheances;
@@ -772,6 +787,7 @@ class Reglements {
      * Set the echeance fin decade.
      *
      * @param bool $echeanceFinDecade The echeance fin decade.
+     * @return Reglements Returns this Reglements.
      */
     public function setEcheanceFinDecade($echeanceFinDecade) {
         $this->echeanceFinDecade = $echeanceFinDecade;
@@ -782,6 +798,7 @@ class Reglements {
      * Set the echeance fin quinzaine.
      *
      * @param bool $echeanceFinQuinzaine The echeance fin quinzaine.
+     * @return Reglements Returns this Reglements.
      */
     public function setEcheanceFinQuinzaine($echeanceFinQuinzaine) {
         $this->echeanceFinQuinzaine = $echeanceFinQuinzaine;
@@ -792,6 +809,7 @@ class Reglements {
      * Set the edit date echeance.
      *
      * @param bool $editDateEcheance The edit date echeance.
+     * @return Reglements Returns this Reglements.
      */
     public function setEditDateEcheance($editDateEcheance) {
         $this->editDateEcheance = $editDateEcheance;
@@ -802,6 +820,7 @@ class Reglements {
      * Set the editer cheque.
      *
      * @param bool $editerCheque The editer cheque.
+     * @return Reglements Returns this Reglements.
      */
     public function setEditerCheque($editerCheque) {
         $this->editerCheque = $editerCheque;
@@ -812,6 +831,7 @@ class Reglements {
      * Set the especes caisse.
      *
      * @param bool $especesCaisse The especes caisse.
+     * @return Reglements Returns this Reglements.
      */
     public function setEspecesCaisse($especesCaisse) {
         $this->especesCaisse = $especesCaisse;
@@ -822,6 +842,7 @@ class Reglements {
      * Set the gestion paiements.
      *
      * @param bool $gestionPaiements The gestion paiements.
+     * @return Reglements Returns this Reglements.
      */
     public function setGestionPaiements($gestionPaiements) {
         $this->gestionPaiements = $gestionPaiements;
@@ -832,6 +853,7 @@ class Reglements {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return Reglements Returns this Reglements.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -842,6 +864,7 @@ class Reglements {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Reglements Returns this Reglements.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -852,6 +875,7 @@ class Reglements {
      * Set the intitule2.
      *
      * @param string $intitule2 The intitule2.
+     * @return Reglements Returns this Reglements.
      */
     public function setIntitule2($intitule2) {
         $this->intitule2 = $intitule2;
@@ -862,6 +886,7 @@ class Reglements {
      * Set the intitule3.
      *
      * @param string $intitule3 The intitule3.
+     * @return Reglements Returns this Reglements.
      */
     public function setIntitule3($intitule3) {
         $this->intitule3 = $intitule3;
@@ -872,6 +897,7 @@ class Reglements {
      * Set the lcr.
      *
      * @param bool $lcr The lcr.
+     * @return Reglements Returns this Reglements.
      */
     public function setLcr($lcr) {
         $this->lcr = $lcr;
@@ -882,6 +908,7 @@ class Reglements {
      * Set the lib ecr caisse.
      *
      * @param string $libEcrCaisse The lib ecr caisse.
+     * @return Reglements Returns this Reglements.
      */
     public function setLibEcrCaisse($libEcrCaisse) {
         $this->libEcrCaisse = $libEcrCaisse;
@@ -892,6 +919,7 @@ class Reglements {
      * Set the nombre echeances.
      *
      * @param string $nombreEcheances The nombre echeances.
+     * @return Reglements Returns this Reglements.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -902,6 +930,7 @@ class Reglements {
      * Set the paiement depart le.
      *
      * @param string $paiementDepartLe The paiement depart le.
+     * @return Reglements Returns this Reglements.
      */
     public function setPaiementDepartLe($paiementDepartLe) {
         $this->paiementDepartLe = $paiementDepartLe;
@@ -912,6 +941,7 @@ class Reglements {
      * Set the paiement le.
      *
      * @param string $paiementLe The paiement le.
+     * @return Reglements Returns this Reglements.
      */
     public function setPaiementLe($paiementLe) {
         $this->paiementLe = $paiementLe;
@@ -922,6 +952,7 @@ class Reglements {
      * Set the paiement nombre de jours.
      *
      * @param int $paiementNombreDeJours The paiement nombre de jours.
+     * @return Reglements Returns this Reglements.
      */
     public function setPaiementNombreDeJours($paiementNombreDeJours) {
         $this->paiementNombreDeJours = $paiementNombreDeJours;
@@ -932,6 +963,7 @@ class Reglements {
      * Set the pas de tiroir caisse.
      *
      * @param bool $pasDeTiroirCaisse The pas de tiroir caisse.
+     * @return Reglements Returns this Reglements.
      */
     public function setPasDeTiroirCaisse($pasDeTiroirCaisse) {
         $this->pasDeTiroirCaisse = $pasDeTiroirCaisse;
@@ -942,6 +974,7 @@ class Reglements {
      * Set the pas effet avoir.
      *
      * @param bool $pasEffetAvoir The pas effet avoir.
+     * @return Reglements Returns this Reglements.
      */
     public function setPasEffetAvoir($pasEffetAvoir) {
         $this->pasEffetAvoir = $pasEffetAvoir;
@@ -952,6 +985,7 @@ class Reglements {
      * Set the remise pied.
      *
      * @param float $remisePied The remise pied.
+     * @return Reglements Returns this Reglements.
      */
     public function setRemisePied($remisePied) {
         $this->remisePied = $remisePied;
@@ -962,6 +996,7 @@ class Reglements {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Reglements Returns this Reglements.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -972,6 +1007,7 @@ class Reglements {
      * Set the traite editer.
      *
      * @param bool $traiteEditer The traite editer.
+     * @return Reglements Returns this Reglements.
      */
     public function setTraiteEditer($traiteEditer) {
         $this->traiteEditer = $traiteEditer;
@@ -982,6 +1018,7 @@ class Reglements {
      * Set the type acceptation.
      *
      * @param string $typeAcceptation The type acceptation.
+     * @return Reglements Returns this Reglements.
      */
     public function setTypeAcceptation($typeAcceptation) {
         $this->typeAcceptation = $typeAcceptation;

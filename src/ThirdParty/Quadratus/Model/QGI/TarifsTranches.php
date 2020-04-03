@@ -240,6 +240,7 @@ class TarifsTranches {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -250,6 +251,7 @@ class TarifsTranches {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -260,6 +262,7 @@ class TarifsTranches {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -270,6 +273,7 @@ class TarifsTranches {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -280,6 +284,7 @@ class TarifsTranches {
      * Set the coeff.
      *
      * @param float $coeff The coeff.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setCoeff($coeff) {
         $this->coeff = $coeff;
@@ -290,6 +295,7 @@ class TarifsTranches {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -300,6 +306,7 @@ class TarifsTranches {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -310,6 +317,7 @@ class TarifsTranches {
      * Set the num tranche.
      *
      * @param string $numTranche The num tranche.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setNumTranche($numTranche) {
         $this->numTranche = $numTranche;
@@ -320,6 +328,7 @@ class TarifsTranches {
      * Set the prix net.
      *
      * @param bool $prixNet The prix net.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setPrixNet($prixNet) {
         $this->prixNet = $prixNet;
@@ -330,6 +339,7 @@ class TarifsTranches {
      * Set the prix unit.
      *
      * @param float $prixUnit The prix unit.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setPrixUnit($prixUnit) {
         $this->prixUnit = $prixUnit;
@@ -340,6 +350,7 @@ class TarifsTranches {
      * Set the qte mini.
      *
      * @param float $qteMini The qte mini.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setQteMini($qteMini) {
         $this->qteMini = $qteMini;
@@ -350,6 +361,7 @@ class TarifsTranches {
      * Set the type code article.
      *
      * @param string $typeCodeArticle The type code article.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setTypeCodeArticle($typeCodeArticle) {
         $this->typeCodeArticle = $typeCodeArticle;
@@ -360,6 +372,7 @@ class TarifsTranches {
      * Set the type code client.
      *
      * @param string $typeCodeClient The type code client.
+     * @return TarifsTranches Returns this Tarifs tranches.
      */
     public function setTypeCodeClient($typeCodeClient) {
         $this->typeCodeClient = $typeCodeClient;

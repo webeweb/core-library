@@ -174,6 +174,7 @@ class ArtVarDepot {
      * Set the allee casier.
      *
      * @param string $alleeCasier The allee casier.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setAlleeCasier($alleeCasier) {
         $this->alleeCasier = $alleeCasier;
@@ -184,6 +185,7 @@ class ArtVarDepot {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -194,6 +196,7 @@ class ArtVarDepot {
      * Set the code depot.
      *
      * @param string $codeDepot The code depot.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setCodeDepot($codeDepot) {
         $this->codeDepot = $codeDepot;
@@ -204,6 +207,7 @@ class ArtVarDepot {
      * Set the code variante.
      *
      * @param string $codeVariante The code variante.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setCodeVariante($codeVariante) {
         $this->codeVariante = $codeVariante;
@@ -214,6 +218,7 @@ class ArtVarDepot {
      * Set the qte stock attente.
      *
      * @param float $qteStockAttente The qte stock attente.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setQteStockAttente($qteStockAttente) {
         $this->qteStockAttente = $qteStockAttente;
@@ -224,6 +229,7 @@ class ArtVarDepot {
      * Set the qte stock maxi.
      *
      * @param float $qteStockMaxi The qte stock maxi.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setQteStockMaxi($qteStockMaxi) {
         $this->qteStockMaxi = $qteStockMaxi;
@@ -234,6 +240,7 @@ class ArtVarDepot {
      * Set the qte stock mini.
      *
      * @param float $qteStockMini The qte stock mini.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setQteStockMini($qteStockMini) {
         $this->qteStockMini = $qteStockMini;
@@ -244,6 +251,7 @@ class ArtVarDepot {
      * Set the qte stock reel.
      *
      * @param float $qteStockReel The qte stock reel.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setQteStockReel($qteStockReel) {
         $this->qteStockReel = $qteStockReel;
@@ -254,6 +262,7 @@ class ArtVarDepot {
      * Set the qte stock reserve.
      *
      * @param float $qteStockReserve The qte stock reserve.
+     * @return ArtVarDepot Returns this Art var depot.
      */
     public function setQteStockReserve($qteStockReserve) {
         $this->qteStockReserve = $qteStockReserve;

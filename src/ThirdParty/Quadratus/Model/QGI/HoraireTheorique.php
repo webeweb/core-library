@@ -574,6 +574,7 @@ class HoraireTheorique {
      * Set the annee.
      *
      * @param int $annee The annee.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setAnnee($annee) {
         $this->annee = $annee;
@@ -584,6 +585,7 @@ class HoraireTheorique {
      * Set the code.
      *
      * @param string $code The code.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -594,6 +596,7 @@ class HoraireTheorique {
      * Set the nbre h.
      *
      * @param float $nbreH The nbre h.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreH($nbreH) {
         $this->nbreH = $nbreH;
@@ -604,6 +607,7 @@ class HoraireTheorique {
      * Set the nbre h dimanche.
      *
      * @param float $nbreHDimanche The nbre h dimanche.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHDimanche($nbreHDimanche) {
         $this->nbreHDimanche = $nbreHDimanche;
@@ -614,6 +618,7 @@ class HoraireTheorique {
      * Set the nbre h jeudi.
      *
      * @param float $nbreHJeudi The nbre h jeudi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHJeudi($nbreHJeudi) {
         $this->nbreHJeudi = $nbreHJeudi;
@@ -624,6 +629,7 @@ class HoraireTheorique {
      * Set the nbre h lundi.
      *
      * @param float $nbreHLundi The nbre h lundi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHLundi($nbreHLundi) {
         $this->nbreHLundi = $nbreHLundi;
@@ -634,6 +640,7 @@ class HoraireTheorique {
      * Set the nbre h mardi.
      *
      * @param float $nbreHMardi The nbre h mardi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMardi($nbreHMardi) {
         $this->nbreHMardi = $nbreHMardi;
@@ -644,6 +651,7 @@ class HoraireTheorique {
      * Set the nbre h max.
      *
      * @param float $nbreHMax The nbre h max.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMax($nbreHMax) {
         $this->nbreHMax = $nbreHMax;
@@ -654,6 +662,7 @@ class HoraireTheorique {
      * Set the nbre h maxi dimanche.
      *
      * @param float $nbreHMaxiDimanche The nbre h maxi dimanche.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMaxiDimanche($nbreHMaxiDimanche) {
         $this->nbreHMaxiDimanche = $nbreHMaxiDimanche;
@@ -664,6 +673,7 @@ class HoraireTheorique {
      * Set the nbre h maxi jeudi.
      *
      * @param float $nbreHMaxiJeudi The nbre h maxi jeudi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMaxiJeudi($nbreHMaxiJeudi) {
         $this->nbreHMaxiJeudi = $nbreHMaxiJeudi;
@@ -674,6 +684,7 @@ class HoraireTheorique {
      * Set the nbre h maxi lundi.
      *
      * @param float $nbreHMaxiLundi The nbre h maxi lundi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMaxiLundi($nbreHMaxiLundi) {
         $this->nbreHMaxiLundi = $nbreHMaxiLundi;
@@ -684,6 +695,7 @@ class HoraireTheorique {
      * Set the nbre h maxi mardi.
      *
      * @param float $nbreHMaxiMardi The nbre h maxi mardi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMaxiMardi($nbreHMaxiMardi) {
         $this->nbreHMaxiMardi = $nbreHMaxiMardi;
@@ -694,6 +706,7 @@ class HoraireTheorique {
      * Set the nbre h maxi mercredi.
      *
      * @param float $nbreHMaxiMercredi The nbre h maxi mercredi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMaxiMercredi($nbreHMaxiMercredi) {
         $this->nbreHMaxiMercredi = $nbreHMaxiMercredi;
@@ -704,6 +717,7 @@ class HoraireTheorique {
      * Set the nbre h maxi samedi.
      *
      * @param float $nbreHMaxiSamedi The nbre h maxi samedi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMaxiSamedi($nbreHMaxiSamedi) {
         $this->nbreHMaxiSamedi = $nbreHMaxiSamedi;
@@ -714,6 +728,7 @@ class HoraireTheorique {
      * Set the nbre h maxi vendredi.
      *
      * @param float $nbreHMaxiVendredi The nbre h maxi vendredi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMaxiVendredi($nbreHMaxiVendredi) {
         $this->nbreHMaxiVendredi = $nbreHMaxiVendredi;
@@ -724,6 +739,7 @@ class HoraireTheorique {
      * Set the nbre h mercredi.
      *
      * @param float $nbreHMercredi The nbre h mercredi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMercredi($nbreHMercredi) {
         $this->nbreHMercredi = $nbreHMercredi;
@@ -734,6 +750,7 @@ class HoraireTheorique {
      * Set the nbre h mini.
      *
      * @param float $nbreHMini The nbre h mini.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMini($nbreHMini) {
         $this->nbreHMini = $nbreHMini;
@@ -744,6 +761,7 @@ class HoraireTheorique {
      * Set the nbre h mini dimanche.
      *
      * @param float $nbreHMiniDimanche The nbre h mini dimanche.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMiniDimanche($nbreHMiniDimanche) {
         $this->nbreHMiniDimanche = $nbreHMiniDimanche;
@@ -754,6 +772,7 @@ class HoraireTheorique {
      * Set the nbre h mini jeudi.
      *
      * @param float $nbreHMiniJeudi The nbre h mini jeudi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMiniJeudi($nbreHMiniJeudi) {
         $this->nbreHMiniJeudi = $nbreHMiniJeudi;
@@ -764,6 +783,7 @@ class HoraireTheorique {
      * Set the nbre h mini lundi.
      *
      * @param float $nbreHMiniLundi The nbre h mini lundi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMiniLundi($nbreHMiniLundi) {
         $this->nbreHMiniLundi = $nbreHMiniLundi;
@@ -774,6 +794,7 @@ class HoraireTheorique {
      * Set the nbre h mini mardi.
      *
      * @param float $nbreHMiniMardi The nbre h mini mardi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMiniMardi($nbreHMiniMardi) {
         $this->nbreHMiniMardi = $nbreHMiniMardi;
@@ -784,6 +805,7 @@ class HoraireTheorique {
      * Set the nbre h mini mercredi.
      *
      * @param float $nbreHMiniMercredi The nbre h mini mercredi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMiniMercredi($nbreHMiniMercredi) {
         $this->nbreHMiniMercredi = $nbreHMiniMercredi;
@@ -794,6 +816,7 @@ class HoraireTheorique {
      * Set the nbre h mini samedi.
      *
      * @param float $nbreHMiniSamedi The nbre h mini samedi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMiniSamedi($nbreHMiniSamedi) {
         $this->nbreHMiniSamedi = $nbreHMiniSamedi;
@@ -804,6 +827,7 @@ class HoraireTheorique {
      * Set the nbre h mini vendredi.
      *
      * @param float $nbreHMiniVendredi The nbre h mini vendredi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHMiniVendredi($nbreHMiniVendredi) {
         $this->nbreHMiniVendredi = $nbreHMiniVendredi;
@@ -814,6 +838,7 @@ class HoraireTheorique {
      * Set the nbre h samedi.
      *
      * @param float $nbreHSamedi The nbre h samedi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHSamedi($nbreHSamedi) {
         $this->nbreHSamedi = $nbreHSamedi;
@@ -824,6 +849,7 @@ class HoraireTheorique {
      * Set the nbre h vendredi.
      *
      * @param float $nbreHVendredi The nbre h vendredi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNbreHVendredi($nbreHVendredi) {
         $this->nbreHVendredi = $nbreHVendredi;
@@ -834,6 +860,7 @@ class HoraireTheorique {
      * Set the numero sem.
      *
      * @param int $numeroSem The numero sem.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setNumeroSem($numeroSem) {
         $this->numeroSem = $numeroSem;
@@ -844,6 +871,7 @@ class HoraireTheorique {
      * Set the t dimanche.
      *
      * @param bool $tDimanche The t dimanche.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setTDimanche($tDimanche) {
         $this->tDimanche = $tDimanche;
@@ -854,6 +882,7 @@ class HoraireTheorique {
      * Set the t jeudi.
      *
      * @param bool $tJeudi The t jeudi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setTJeudi($tJeudi) {
         $this->tJeudi = $tJeudi;
@@ -864,6 +893,7 @@ class HoraireTheorique {
      * Set the t lundi.
      *
      * @param bool $tLundi The t lundi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setTLundi($tLundi) {
         $this->tLundi = $tLundi;
@@ -874,6 +904,7 @@ class HoraireTheorique {
      * Set the t mardi.
      *
      * @param bool $tMardi The t mardi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setTMardi($tMardi) {
         $this->tMardi = $tMardi;
@@ -884,6 +915,7 @@ class HoraireTheorique {
      * Set the t mercredi.
      *
      * @param bool $tMercredi The t mercredi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setTMercredi($tMercredi) {
         $this->tMercredi = $tMercredi;
@@ -894,6 +926,7 @@ class HoraireTheorique {
      * Set the t samedi.
      *
      * @param bool $tSamedi The t samedi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setTSamedi($tSamedi) {
         $this->tSamedi = $tSamedi;
@@ -904,6 +937,7 @@ class HoraireTheorique {
      * Set the t vendredi.
      *
      * @param bool $tVendredi The t vendredi.
+     * @return HoraireTheorique Returns this Horaire theorique.
      */
     public function setTVendredi($tVendredi) {
         $this->tVendredi = $tVendredi;

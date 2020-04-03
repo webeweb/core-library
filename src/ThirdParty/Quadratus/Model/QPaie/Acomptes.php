@@ -256,6 +256,7 @@ class Acomptes {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -266,6 +267,7 @@ class Acomptes {
      * Set the code user.
      *
      * @param string $codeUser The code user.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setCodeUser($codeUser) {
         $this->codeUser = $codeUser;
@@ -276,6 +278,7 @@ class Acomptes {
      * Set the conges payes.
      *
      * @param bool $congesPayes The conges payes.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setCongesPayes($congesPayes) {
         $this->congesPayes = $congesPayes;
@@ -286,6 +289,7 @@ class Acomptes {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -296,6 +300,7 @@ class Acomptes {
      * Set the date added.
      *
      * @param DateTime|null $dateAdded The date added.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setDateAdded(DateTime $dateAdded = null) {
         $this->dateAdded = $dateAdded;
@@ -306,6 +311,7 @@ class Acomptes {
      * Set the date added coll.
      *
      * @param DateTime|null $dateAddedColl The date added coll.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setDateAddedColl(DateTime $dateAddedColl = null) {
         $this->dateAddedColl = $dateAddedColl;
@@ -316,6 +322,7 @@ class Acomptes {
      * Set the en euro.
      *
      * @param bool $enEuro The en euro.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setEnEuro($enEuro) {
         $this->enEuro = $enEuro;
@@ -326,6 +333,7 @@ class Acomptes {
      * Set the in bul.
      *
      * @param bool $inBul The in bul.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setInBul($inBul) {
         $this->inBul = $inBul;
@@ -336,6 +344,7 @@ class Acomptes {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -346,6 +355,7 @@ class Acomptes {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -356,6 +366,7 @@ class Acomptes {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -366,6 +377,7 @@ class Acomptes {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -376,6 +388,7 @@ class Acomptes {
      * Set the paye.
      *
      * @param bool $paye The paye.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setPaye($paye) {
         $this->paye = $paye;
@@ -386,6 +399,7 @@ class Acomptes {
      * Set the type paiement.
      *
      * @param string $typePaiement The type paiement.
+     * @return Acomptes Returns this Acomptes.
      */
     public function setTypePaiement($typePaiement) {
         $this->typePaiement = $typePaiement;

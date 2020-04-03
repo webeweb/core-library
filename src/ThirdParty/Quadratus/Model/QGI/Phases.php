@@ -126,6 +126,7 @@ class Phases {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Phases Returns this Phases.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -136,6 +137,7 @@ class Phases {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return Phases Returns this Phases.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -146,6 +148,7 @@ class Phases {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Phases Returns this Phases.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -156,6 +159,7 @@ class Phases {
      * Set the num ordre.
      *
      * @param int $numOrdre The num ordre.
+     * @return Phases Returns this Phases.
      */
     public function setNumOrdre($numOrdre) {
         $this->numOrdre = $numOrdre;
@@ -166,6 +170,7 @@ class Phases {
      * Set the saisie fact.
      *
      * @param bool $saisieFact The saisie fact.
+     * @return Phases Returns this Phases.
      */
     public function setSaisieFact($saisieFact) {
         $this->saisieFact = $saisieFact;
@@ -176,6 +181,7 @@ class Phases {
      * Set the saisie temps.
      *
      * @param bool $saisieTemps The saisie temps.
+     * @return Phases Returns this Phases.
      */
     public function setSaisieTemps($saisieTemps) {
         $this->saisieTemps = $saisieTemps;

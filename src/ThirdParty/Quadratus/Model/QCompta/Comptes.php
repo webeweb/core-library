@@ -1408,6 +1408,7 @@ class Comptes {
      * Set the a lettrer auto.
      *
      * @param bool $aLettrerAuto The a lettrer auto.
+     * @return Comptes Returns this Comptes.
      */
     public function setALettrerAuto($aLettrerAuto) {
         $this->aLettrerAuto = $aLettrerAuto;
@@ -1418,6 +1419,7 @@ class Comptes {
      * Set the activer lot trace.
      *
      * @param bool $activerLotTrace The activer lot trace.
+     * @return Comptes Returns this Comptes.
      */
     public function setActiverLotTrace($activerLotTrace) {
         $this->activerLotTrace = $activerLotTrace;
@@ -1428,6 +1430,7 @@ class Comptes {
      * Set the bon a payer.
      *
      * @param bool $bonAPayer The bon a payer.
+     * @return Comptes Returns this Comptes.
      */
     public function setBonAPayer($bonAPayer) {
         $this->bonAPayer = $bonAPayer;
@@ -1438,6 +1441,7 @@ class Comptes {
      * Set the centralise gd livre.
      *
      * @param bool $centraliseGdLivre The centralise gd livre.
+     * @return Comptes Returns this Comptes.
      */
     public function setCentraliseGdLivre($centraliseGdLivre) {
         $this->centraliseGdLivre = $centraliseGdLivre;
@@ -1448,6 +1452,7 @@ class Comptes {
      * Set the cle deux.
      *
      * @param string $cleDeux The cle deux.
+     * @return Comptes Returns this Comptes.
      */
     public function setCleDeux($cleDeux) {
         $this->cleDeux = $cleDeux;
@@ -1458,6 +1463,7 @@ class Comptes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return Comptes Returns this Comptes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -1468,6 +1474,7 @@ class Comptes {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return Comptes Returns this Comptes.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -1478,6 +1485,7 @@ class Comptes {
      * Set the code regroup1.
      *
      * @param string $codeRegroup1 The code regroup1.
+     * @return Comptes Returns this Comptes.
      */
     public function setCodeRegroup1($codeRegroup1) {
         $this->codeRegroup1 = $codeRegroup1;
@@ -1488,6 +1496,7 @@ class Comptes {
      * Set the code regroup2.
      *
      * @param string $codeRegroup2 The code regroup2.
+     * @return Comptes Returns this Comptes.
      */
     public function setCodeRegroup2($codeRegroup2) {
         $this->codeRegroup2 = $codeRegroup2;
@@ -1498,6 +1507,7 @@ class Comptes {
      * Set the code regroup3.
      *
      * @param string $codeRegroup3 The code regroup3.
+     * @return Comptes Returns this Comptes.
      */
     public function setCodeRegroup3($codeRegroup3) {
         $this->codeRegroup3 = $codeRegroup3;
@@ -1508,6 +1518,7 @@ class Comptes {
      * Set the code regroup4.
      *
      * @param string $codeRegroup4 The code regroup4.
+     * @return Comptes Returns this Comptes.
      */
     public function setCodeRegroup4($codeRegroup4) {
         $this->codeRegroup4 = $codeRegroup4;
@@ -1518,6 +1529,7 @@ class Comptes {
      * Set the code repartition ana.
      *
      * @param string $codeRepartitionAna The code repartition ana.
+     * @return Comptes Returns this Comptes.
      */
     public function setCodeRepartitionAna($codeRepartitionAna) {
         $this->codeRepartitionAna = $codeRepartitionAna;
@@ -1528,6 +1540,7 @@ class Comptes {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return Comptes Returns this Comptes.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -1538,6 +1551,7 @@ class Comptes {
      * Set the collectif.
      *
      * @param string $collectif The collectif.
+     * @return Comptes Returns this Comptes.
      */
     public function setCollectif($collectif) {
         $this->collectif = $collectif;
@@ -1548,6 +1562,7 @@ class Comptes {
      * Set the collectif1.
      *
      * @param string $collectif1 The collectif1.
+     * @return Comptes Returns this Comptes.
      */
     public function setCollectif1($collectif1) {
         $this->collectif1 = $collectif1;
@@ -1558,6 +1573,7 @@ class Comptes {
      * Set the collectif2.
      *
      * @param string $collectif2 The collectif2.
+     * @return Comptes Returns this Comptes.
      */
     public function setCollectif2($collectif2) {
         $this->collectif2 = $collectif2;
@@ -1568,6 +1584,7 @@ class Comptes {
      * Set the compte inactif.
      *
      * @param bool $compteInactif The compte inactif.
+     * @return Comptes Returns this Comptes.
      */
     public function setCompteInactif($compteInactif) {
         $this->compteInactif = $compteInactif;
@@ -1578,6 +1595,7 @@ class Comptes {
      * Set the contrepartie charge prod.
      *
      * @param string $contrepartieChargeProd The contrepartie charge prod.
+     * @return Comptes Returns this Comptes.
      */
     public function setContrepartieChargeProd($contrepartieChargeProd) {
         $this->contrepartieChargeProd = $contrepartieChargeProd;
@@ -1588,6 +1606,7 @@ class Comptes {
      * Set the cpt particulier.
      *
      * @param bool $cptParticulier The cpt particulier.
+     * @return Comptes Returns this Comptes.
      */
     public function setCptParticulier($cptParticulier) {
         $this->cptParticulier = $cptParticulier;
@@ -1598,6 +1617,7 @@ class Comptes {
      * Set the cpt tva contrep cpr.
      *
      * @param string $cptTvaContrepCpr The cpt tva contrep cpr.
+     * @return Comptes Returns this Comptes.
      */
     public function setCptTvaContrepCpr($cptTvaContrepCpr) {
         $this->cptTvaContrepCpr = $cptTvaContrepCpr;
@@ -1608,6 +1628,7 @@ class Comptes {
      * Set the credit.
      *
      * @param float $credit The credit.
+     * @return Comptes Returns this Comptes.
      */
     public function setCredit($credit) {
         $this->credit = $credit;
@@ -1618,6 +1639,7 @@ class Comptes {
      * Set the credit1.
      *
      * @param float $credit1 The credit1.
+     * @return Comptes Returns this Comptes.
      */
     public function setCredit1($credit1) {
         $this->credit1 = $credit1;
@@ -1628,6 +1650,7 @@ class Comptes {
      * Set the credit2.
      *
      * @param float $credit2 The credit2.
+     * @return Comptes Returns this Comptes.
      */
     public function setCredit2($credit2) {
         $this->credit2 = $credit2;
@@ -1638,6 +1661,7 @@ class Comptes {
      * Set the credit hors ex.
      *
      * @param float $creditHorsEx The credit hors ex.
+     * @return Comptes Returns this Comptes.
      */
     public function setCreditHorsEx($creditHorsEx) {
         $this->creditHorsEx = $creditHorsEx;
@@ -1648,6 +1672,7 @@ class Comptes {
      * Set the cumul pied journal.
      *
      * @param bool $cumulPiedJournal The cumul pied journal.
+     * @return Comptes Returns this Comptes.
      */
     public function setCumulPiedJournal($cumulPiedJournal) {
         $this->cumulPiedJournal = $cumulPiedJournal;
@@ -1658,6 +1683,7 @@ class Comptes {
      * Set the date revision.
      *
      * @param DateTime|null $dateRevision The date revision.
+     * @return Comptes Returns this Comptes.
      */
     public function setDateRevision(DateTime $dateRevision = null) {
         $this->dateRevision = $dateRevision;
@@ -1668,6 +1694,7 @@ class Comptes {
      * Set the date sys creation.
      *
      * @param DateTime|null $dateSysCreation The date sys creation.
+     * @return Comptes Returns this Comptes.
      */
     public function setDateSysCreation(DateTime $dateSysCreation = null) {
         $this->dateSysCreation = $dateSysCreation;
@@ -1678,6 +1705,7 @@ class Comptes {
      * Set the debit.
      *
      * @param float $debit The debit.
+     * @return Comptes Returns this Comptes.
      */
     public function setDebit($debit) {
         $this->debit = $debit;
@@ -1688,6 +1716,7 @@ class Comptes {
      * Set the debit1.
      *
      * @param float $debit1 The debit1.
+     * @return Comptes Returns this Comptes.
      */
     public function setDebit1($debit1) {
         $this->debit1 = $debit1;
@@ -1698,6 +1727,7 @@ class Comptes {
      * Set the debit2.
      *
      * @param float $debit2 The debit2.
+     * @return Comptes Returns this Comptes.
      */
     public function setDebit2($debit2) {
         $this->debit2 = $debit2;
@@ -1708,6 +1738,7 @@ class Comptes {
      * Set the debit hors ex.
      *
      * @param float $debitHorsEx The debit hors ex.
+     * @return Comptes Returns this Comptes.
      */
     public function setDebitHorsEx($debitHorsEx) {
         $this->debitHorsEx = $debitHorsEx;
@@ -1718,6 +1749,7 @@ class Comptes {
      * Set the detail cloture.
      *
      * @param bool $detailCloture The detail cloture.
+     * @return Comptes Returns this Comptes.
      */
     public function setDetailCloture($detailCloture) {
         $this->detailCloture = $detailCloture;
@@ -1728,6 +1760,7 @@ class Comptes {
      * Set the edit m2.
      *
      * @param bool $editM2 The edit m2.
+     * @return Comptes Returns this Comptes.
      */
     public function setEditM2($editM2) {
         $this->editM2 = $editM2;
@@ -1738,6 +1771,7 @@ class Comptes {
      * Set the etat revision.
      *
      * @param string $etatRevision The etat revision.
+     * @return Comptes Returns this Comptes.
      */
     public function setEtatRevision($etatRevision) {
         $this->etatRevision = $etatRevision;
@@ -1748,6 +1782,7 @@ class Comptes {
      * Set the famille.
      *
      * @param string $famille The famille.
+     * @return Comptes Returns this Comptes.
      */
     public function setFamille($famille) {
         $this->famille = $famille;
@@ -1758,6 +1793,7 @@ class Comptes {
      * Set the franchise.
      *
      * @param bool $franchise The franchise.
+     * @return Comptes Returns this Comptes.
      */
     public function setFranchise($franchise) {
         $this->franchise = $franchise;
@@ -1768,6 +1804,7 @@ class Comptes {
      * Set the gerer int cpt cour.
      *
      * @param bool $gererIntCptCour The gerer int cpt cour.
+     * @return Comptes Returns this Comptes.
      */
     public function setGererIntCptCour($gererIntCptCour) {
         $this->gererIntCptCour = $gererIntCptCour;
@@ -1778,6 +1815,7 @@ class Comptes {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Comptes Returns this Comptes.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -1788,6 +1826,7 @@ class Comptes {
      * Set the intitule all.
      *
      * @param string $intituleAll The intitule all.
+     * @return Comptes Returns this Comptes.
      */
     public function setIntituleAll($intituleAll) {
         $this->intituleAll = $intituleAll;
@@ -1798,6 +1837,7 @@ class Comptes {
      * Set the intitule ang.
      *
      * @param string $intituleAng The intitule ang.
+     * @return Comptes Returns this Comptes.
      */
     public function setIntituleAng($intituleAng) {
         $this->intituleAng = $intituleAng;
@@ -1808,6 +1848,7 @@ class Comptes {
      * Set the intitule esp.
      *
      * @param string $intituleEsp The intitule esp.
+     * @return Comptes Returns this Comptes.
      */
     public function setIntituleEsp($intituleEsp) {
         $this->intituleEsp = $intituleEsp;
@@ -1818,6 +1859,7 @@ class Comptes {
      * Set the intitule ita.
      *
      * @param string $intituleIta The intitule ita.
+     * @return Comptes Returns this Comptes.
      */
     public function setIntituleIta($intituleIta) {
         $this->intituleIta = $intituleIta;
@@ -1828,6 +1870,7 @@ class Comptes {
      * Set the intitule long.
      *
      * @param string $intituleLong The intitule long.
+     * @return Comptes Returns this Comptes.
      */
     public function setIntituleLong($intituleLong) {
         $this->intituleLong = $intituleLong;
@@ -1838,6 +1881,7 @@ class Comptes {
      * Set the intra com.
      *
      * @param bool $intraCom The intra com.
+     * @return Comptes Returns this Comptes.
      */
     public function setIntraCom($intraCom) {
         $this->intraCom = $intraCom;
@@ -1848,6 +1892,7 @@ class Comptes {
      * Set the jal tre regl.
      *
      * @param string $jalTreRegl The jal tre regl.
+     * @return Comptes Returns this Comptes.
      */
     public function setJalTreRegl($jalTreRegl) {
         $this->jalTreRegl = $jalTreRegl;
@@ -1858,6 +1903,7 @@ class Comptes {
      * Set the libelle lot trace.
      *
      * @param string $libelleLotTrace The libelle lot trace.
+     * @return Comptes Returns this Comptes.
      */
     public function setLibelleLotTrace($libelleLotTrace) {
         $this->libelleLotTrace = $libelleLotTrace;
@@ -1868,6 +1914,7 @@ class Comptes {
      * Set the marge theorique.
      *
      * @param float $margeTheorique The marge theorique.
+     * @return Comptes Returns this Comptes.
      */
     public function setMargeTheorique($margeTheorique) {
         $this->margeTheorique = $margeTheorique;
@@ -1878,6 +1925,7 @@ class Comptes {
      * Set the methode tva.
      *
      * @param string $methodeTva The methode tva.
+     * @return Comptes Returns this Comptes.
      */
     public function setMethodeTva($methodeTva) {
         $this->methodeTva = $methodeTva;
@@ -1888,6 +1936,7 @@ class Comptes {
      * Set the nb ecritures.
      *
      * @param int $nbEcritures The nb ecritures.
+     * @return Comptes Returns this Comptes.
      */
     public function setNbEcritures($nbEcritures) {
         $this->nbEcritures = $nbEcritures;
@@ -1898,6 +1947,7 @@ class Comptes {
      * Set the niveau droit.
      *
      * @param string $niveauDroit The niveau droit.
+     * @return Comptes Returns this Comptes.
      */
     public function setNiveauDroit($niveauDroit) {
         $this->niveauDroit = $niveauDroit;
@@ -1908,6 +1958,7 @@ class Comptes {
      * Set the no doss reflechi.
      *
      * @param string $noDossReflechi The no doss reflechi.
+     * @return Comptes Returns this Comptes.
      */
     public function setNoDossReflechi($noDossReflechi) {
         $this->noDossReflechi = $noDossReflechi;
@@ -1918,6 +1969,7 @@ class Comptes {
      * Set the no prochain lettrage.
      *
      * @param int $noProchainLettrage The no prochain lettrage.
+     * @return Comptes Returns this Comptes.
      */
     public function setNoProchainLettrage($noProchainLettrage) {
         $this->noProchainLettrage = $noProchainLettrage;
@@ -1928,6 +1980,7 @@ class Comptes {
      * Set the num cpt reflechi.
      *
      * @param string $numCptReflechi The num cpt reflechi.
+     * @return Comptes Returns this Comptes.
      */
     public function setNumCptReflechi($numCptReflechi) {
         $this->numCptReflechi = $numCptReflechi;
@@ -1938,6 +1991,7 @@ class Comptes {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return Comptes Returns this Comptes.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -1948,6 +2002,7 @@ class Comptes {
      * Set the periodicite.
      *
      * @param bool $periodicite The periodicite.
+     * @return Comptes Returns this Comptes.
      */
     public function setPeriodicite($periodicite) {
         $this->periodicite = $periodicite;
@@ -1958,6 +2013,7 @@ class Comptes {
      * Set the personne morale.
      *
      * @param bool $personneMorale The personne morale.
+     * @return Comptes Returns this Comptes.
      */
     public function setPersonneMorale($personneMorale) {
         $this->personneMorale = $personneMorale;
@@ -1968,6 +2024,7 @@ class Comptes {
      * Set the presta tel.
      *
      * @param bool $prestaTel The presta tel.
+     * @return Comptes Returns this Comptes.
      */
     public function setPrestaTel($prestaTel) {
         $this->prestaTel = $prestaTel;
@@ -1978,6 +2035,7 @@ class Comptes {
      * Set the prestataire.
      *
      * @param int $prestataire The prestataire.
+     * @return Comptes Returns this Comptes.
      */
     public function setPrestataire($prestataire) {
         $this->prestataire = $prestataire;
@@ -1988,6 +2046,7 @@ class Comptes {
      * Set the prix moyen nb dec.
      *
      * @param int $prixMoyenNbDec The prix moyen nb dec.
+     * @return Comptes Returns this Comptes.
      */
     public function setPrixMoyenNbDec($prixMoyenNbDec) {
         $this->prixMoyenNbDec = $prixMoyenNbDec;
@@ -1998,6 +2057,7 @@ class Comptes {
      * Set the prix moyen nb dec2.
      *
      * @param int $prixMoyenNbDec2 The prix moyen nb dec2.
+     * @return Comptes Returns this Comptes.
      */
     public function setPrixMoyenNbDec2($prixMoyenNbDec2) {
         $this->prixMoyenNbDec2 = $prixMoyenNbDec2;
@@ -2008,6 +2068,7 @@ class Comptes {
      * Set the prix moyen nb entier.
      *
      * @param int $prixMoyenNbEntier The prix moyen nb entier.
+     * @return Comptes Returns this Comptes.
      */
     public function setPrixMoyenNbEntier($prixMoyenNbEntier) {
         $this->prixMoyenNbEntier = $prixMoyenNbEntier;
@@ -2018,6 +2079,7 @@ class Comptes {
      * Set the prix moyen nb entier2.
      *
      * @param int $prixMoyenNbEntier2 The prix moyen nb entier2.
+     * @return Comptes Returns this Comptes.
      */
     public function setPrixMoyenNbEntier2($prixMoyenNbEntier2) {
         $this->prixMoyenNbEntier2 = $prixMoyenNbEntier2;
@@ -2028,6 +2090,7 @@ class Comptes {
      * Set the prochaine lettre.
      *
      * @param string $prochaineLettre The prochaine lettre.
+     * @return Comptes Returns this Comptes.
      */
     public function setProchaineLettre($prochaineLettre) {
         $this->prochaineLettre = $prochaineLettre;
@@ -2038,6 +2101,7 @@ class Comptes {
      * Set the prochaine lettre tiers.
      *
      * @param string $prochaineLettreTiers The prochaine lettre tiers.
+     * @return Comptes Returns this Comptes.
      */
     public function setProchaineLettreTiers($prochaineLettreTiers) {
         $this->prochaineLettreTiers = $prochaineLettreTiers;
@@ -2048,6 +2112,7 @@ class Comptes {
      * Set the quantite libelle.
      *
      * @param string $quantiteLibelle The quantite libelle.
+     * @return Comptes Returns this Comptes.
      */
     public function setQuantiteLibelle($quantiteLibelle) {
         $this->quantiteLibelle = $quantiteLibelle;
@@ -2058,6 +2123,7 @@ class Comptes {
      * Set the quantite libelle2.
      *
      * @param string $quantiteLibelle2 The quantite libelle2.
+     * @return Comptes Returns this Comptes.
      */
     public function setQuantiteLibelle2($quantiteLibelle2) {
         $this->quantiteLibelle2 = $quantiteLibelle2;
@@ -2068,6 +2134,7 @@ class Comptes {
      * Set the quantite nb dec.
      *
      * @param int $quantiteNbDec The quantite nb dec.
+     * @return Comptes Returns this Comptes.
      */
     public function setQuantiteNbDec($quantiteNbDec) {
         $this->quantiteNbDec = $quantiteNbDec;
@@ -2078,6 +2145,7 @@ class Comptes {
      * Set the quantite nb dec2.
      *
      * @param int $quantiteNbDec2 The quantite nb dec2.
+     * @return Comptes Returns this Comptes.
      */
     public function setQuantiteNbDec2($quantiteNbDec2) {
         $this->quantiteNbDec2 = $quantiteNbDec2;
@@ -2088,6 +2156,7 @@ class Comptes {
      * Set the quantite nb entier.
      *
      * @param int $quantiteNbEntier The quantite nb entier.
+     * @return Comptes Returns this Comptes.
      */
     public function setQuantiteNbEntier($quantiteNbEntier) {
         $this->quantiteNbEntier = $quantiteNbEntier;
@@ -2098,6 +2167,7 @@ class Comptes {
      * Set the quantite nb entier2.
      *
      * @param int $quantiteNbEntier2 The quantite nb entier2.
+     * @return Comptes Returns this Comptes.
      */
     public function setQuantiteNbEntier2($quantiteNbEntier2) {
         $this->quantiteNbEntier2 = $quantiteNbEntier2;
@@ -2108,6 +2178,7 @@ class Comptes {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return Comptes Returns this Comptes.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -2118,6 +2189,7 @@ class Comptes {
      * Set the reference fournisseur.
      *
      * @param string $referenceFournisseur The reference fournisseur.
+     * @return Comptes Returns this Comptes.
      */
     public function setReferenceFournisseur($referenceFournisseur) {
         $this->referenceFournisseur = $referenceFournisseur;
@@ -2128,6 +2200,7 @@ class Comptes {
      * Set the repartition ana.
      *
      * @param string $repartitionAna The repartition ana.
+     * @return Comptes Returns this Comptes.
      */
     public function setRepartitionAna($repartitionAna) {
         $this->repartitionAna = $repartitionAna;
@@ -2138,6 +2211,7 @@ class Comptes {
      * Set the repartition auto.
      *
      * @param bool $repartitionAuto The repartition auto.
+     * @return Comptes Returns this Comptes.
      */
     public function setRepartitionAuto($repartitionAuto) {
         $this->repartitionAuto = $repartitionAuto;
@@ -2148,6 +2222,7 @@ class Comptes {
      * Set the rubrique bilan1.
      *
      * @param string $rubriqueBilan1 The rubrique bilan1.
+     * @return Comptes Returns this Comptes.
      */
     public function setRubriqueBilan1($rubriqueBilan1) {
         $this->rubriqueBilan1 = $rubriqueBilan1;
@@ -2158,6 +2233,7 @@ class Comptes {
      * Set the rubrique bilan2.
      *
      * @param string $rubriqueBilan2 The rubrique bilan2.
+     * @return Comptes Returns this Comptes.
      */
     public function setRubriqueBilan2($rubriqueBilan2) {
         $this->rubriqueBilan2 = $rubriqueBilan2;
@@ -2168,6 +2244,7 @@ class Comptes {
      * Set the suivi devises.
      *
      * @param bool $suiviDevises The suivi devises.
+     * @return Comptes Returns this Comptes.
      */
     public function setSuiviDevises($suiviDevises) {
         $this->suiviDevises = $suiviDevises;
@@ -2178,6 +2255,7 @@ class Comptes {
      * Set the suivi quantite.
      *
      * @param bool $suiviQuantite The suivi quantite.
+     * @return Comptes Returns this Comptes.
      */
     public function setSuiviQuantite($suiviQuantite) {
         $this->suiviQuantite = $suiviQuantite;
@@ -2188,6 +2266,7 @@ class Comptes {
      * Set the suivi quantite2.
      *
      * @param bool $suiviQuantite2 The suivi quantite2.
+     * @return Comptes Returns this Comptes.
      */
     public function setSuiviQuantite2($suiviQuantite2) {
         $this->suiviQuantite2 = $suiviQuantite2;
@@ -2198,6 +2277,7 @@ class Comptes {
      * Set the tva autres ope impos.
      *
      * @param bool $tvaAutresOpeImpos The tva autres ope impos.
+     * @return Comptes Returns this Comptes.
      */
     public function setTvaAutresOpeImpos($tvaAutresOpeImpos) {
         $this->tvaAutresOpeImpos = $tvaAutresOpeImpos;
@@ -2208,6 +2288,7 @@ class Comptes {
      * Set the tva dom.
      *
      * @param bool $tvaDom The tva dom.
+     * @return Comptes Returns this Comptes.
      */
     public function setTvaDom($tvaDom) {
         $this->tvaDom = $tvaDom;
@@ -2218,6 +2299,7 @@ class Comptes {
      * Set the tva encaissement.
      *
      * @param bool $tvaEncaissement The tva encaissement.
+     * @return Comptes Returns this Comptes.
      */
     public function setTvaEncaissement($tvaEncaissement) {
         $this->tvaEncaissement = $tvaEncaissement;
@@ -2228,6 +2310,7 @@ class Comptes {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Comptes Returns this Comptes.
      */
     public function setType($type) {
         $this->type = $type;
@@ -2238,6 +2321,7 @@ class Comptes {
      * Set the type collectif.
      *
      * @param bool $typeCollectif The type collectif.
+     * @return Comptes Returns this Comptes.
      */
     public function setTypeCollectif($typeCollectif) {
         $this->typeCollectif = $typeCollectif;
@@ -2248,6 +2332,7 @@ class Comptes {
      * Set the type cpt tiers.
      *
      * @param string $typeCptTiers The type cpt tiers.
+     * @return Comptes Returns this Comptes.
      */
     public function setTypeCptTiers($typeCptTiers) {
         $this->typeCptTiers = $typeCptTiers;
@@ -2258,6 +2343,7 @@ class Comptes {
      * Set the type intra com.
      *
      * @param int $typeIntraCom The type intra com.
+     * @return Comptes Returns this Comptes.
      */
     public function setTypeIntraCom($typeIntraCom) {
         $this->typeIntraCom = $typeIntraCom;

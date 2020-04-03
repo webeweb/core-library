@@ -142,6 +142,7 @@ class RgProfils {
      * Set the fichiers move.
      *
      * @param string $fichiersMove The fichiers move.
+     * @return RgProfils Returns this Rg profils.
      */
     public function setFichiersMove($fichiersMove) {
         $this->fichiersMove = $fichiersMove;
@@ -152,6 +153,7 @@ class RgProfils {
      * Set the fichiers publier web.
      *
      * @param string $fichiersPublierWeb The fichiers publier web.
+     * @return RgProfils Returns this Rg profils.
      */
     public function setFichiersPublierWeb($fichiersPublierWeb) {
         $this->fichiersPublierWeb = $fichiersPublierWeb;
@@ -162,6 +164,7 @@ class RgProfils {
      * Set the niveau maxi.
      *
      * @param string $niveauMaxi The niveau maxi.
+     * @return RgProfils Returns this Rg profils.
      */
     public function setNiveauMaxi($niveauMaxi) {
         $this->niveauMaxi = $niveauMaxi;
@@ -172,6 +175,7 @@ class RgProfils {
      * Set the niveau supplementairelibelle.
      *
      * @param bool $niveauSupplementairelibelle The niveau supplementairelibelle.
+     * @return RgProfils Returns this Rg profils.
      */
     public function setNiveauSupplementairelibelle($niveauSupplementairelibelle) {
         $this->niveauSupplementairelibelle = $niveauSupplementairelibelle;
@@ -182,6 +186,7 @@ class RgProfils {
      * Set the path.
      *
      * @param string $path The path.
+     * @return RgProfils Returns this Rg profils.
      */
     public function setPath($path) {
         $this->path = $path;
@@ -192,6 +197,7 @@ class RgProfils {
      * Set the path format.
      *
      * @param string $pathFormat The path format.
+     * @return RgProfils Returns this Rg profils.
      */
     public function setPathFormat($pathFormat) {
         $this->pathFormat = $pathFormat;
@@ -202,6 +208,7 @@ class RgProfils {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return RgProfils Returns this Rg profils.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

@@ -96,6 +96,7 @@ class SeuilReposRecup {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return SeuilReposRecup Returns this Seuil repos recup.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -106,6 +107,7 @@ class SeuilReposRecup {
      * Set the nb jour repos recup.
      *
      * @param float $nbJourReposRecup The nb jour repos recup.
+     * @return SeuilReposRecup Returns this Seuil repos recup.
      */
     public function setNbJourReposRecup($nbJourReposRecup) {
         $this->nbJourReposRecup = $nbJourReposRecup;
@@ -116,6 +118,7 @@ class SeuilReposRecup {
      * Set the numero grille type.
      *
      * @param int $numeroGrilleType The numero grille type.
+     * @return SeuilReposRecup Returns this Seuil repos recup.
      */
     public function setNumeroGrilleType($numeroGrilleType) {
         $this->numeroGrilleType = $numeroGrilleType;
@@ -126,6 +129,7 @@ class SeuilReposRecup {
      * Set the seuil declenche.
      *
      * @param float $seuilDeclenche The seuil declenche.
+     * @return SeuilReposRecup Returns this Seuil repos recup.
      */
     public function setSeuilDeclenche($seuilDeclenche) {
         $this->seuilDeclenche = $seuilDeclenche;

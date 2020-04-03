@@ -176,6 +176,7 @@ class EmpruntsLignes {
      * Set the date remboursement.
      *
      * @param DateTime|null $dateRemboursement The date remboursement.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setDateRemboursement(DateTime $dateRemboursement = null) {
         $this->dateRemboursement = $dateRemboursement;
@@ -186,6 +187,7 @@ class EmpruntsLignes {
      * Set the dont assurance.
      *
      * @param float $dontAssurance The dont assurance.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setDontAssurance($dontAssurance) {
         $this->dontAssurance = $dontAssurance;
@@ -196,6 +198,7 @@ class EmpruntsLignes {
      * Set the dont capital.
      *
      * @param float $dontCapital The dont capital.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setDontCapital($dontCapital) {
         $this->dontCapital = $dontCapital;
@@ -206,6 +209,7 @@ class EmpruntsLignes {
      * Set the dont interet.
      *
      * @param float $dontInteret The dont interet.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setDontInteret($dontInteret) {
         $this->dontInteret = $dontInteret;
@@ -216,6 +220,7 @@ class EmpruntsLignes {
      * Set the montant rembour.
      *
      * @param float $montantRembour The montant rembour.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setMontantRembour($montantRembour) {
         $this->montantRembour = $montantRembour;
@@ -226,6 +231,7 @@ class EmpruntsLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -236,6 +242,7 @@ class EmpruntsLignes {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -246,6 +253,7 @@ class EmpruntsLignes {
      * Set the restant du avant.
      *
      * @param float $restantDuAvant The restant du avant.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setRestantDuAvant($restantDuAvant) {
         $this->restantDuAvant = $restantDuAvant;
@@ -256,6 +264,7 @@ class EmpruntsLignes {
      * Set the taux ligne.
      *
      * @param float $tauxLigne The taux ligne.
+     * @return EmpruntsLignes Returns this Emprunts lignes.
      */
     public function setTauxLigne($tauxLigne) {
         $this->tauxLigne = $tauxLigne;

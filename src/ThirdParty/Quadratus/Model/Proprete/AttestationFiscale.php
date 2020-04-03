@@ -478,6 +478,7 @@ class AttestationFiscale {
      * Set the annee.
      *
      * @param int $annee The annee.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setAnnee($annee) {
         $this->annee = $annee;
@@ -488,6 +489,7 @@ class AttestationFiscale {
      * Set the code article1.
      *
      * @param string $codeArticle1 The code article1.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle1($codeArticle1) {
         $this->codeArticle1 = $codeArticle1;
@@ -498,6 +500,7 @@ class AttestationFiscale {
      * Set the code article10.
      *
      * @param string $codeArticle10 The code article10.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle10($codeArticle10) {
         $this->codeArticle10 = $codeArticle10;
@@ -508,6 +511,7 @@ class AttestationFiscale {
      * Set the code article2.
      *
      * @param string $codeArticle2 The code article2.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle2($codeArticle2) {
         $this->codeArticle2 = $codeArticle2;
@@ -518,6 +522,7 @@ class AttestationFiscale {
      * Set the code article3.
      *
      * @param string $codeArticle3 The code article3.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle3($codeArticle3) {
         $this->codeArticle3 = $codeArticle3;
@@ -528,6 +533,7 @@ class AttestationFiscale {
      * Set the code article4.
      *
      * @param string $codeArticle4 The code article4.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle4($codeArticle4) {
         $this->codeArticle4 = $codeArticle4;
@@ -538,6 +544,7 @@ class AttestationFiscale {
      * Set the code article5.
      *
      * @param string $codeArticle5 The code article5.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle5($codeArticle5) {
         $this->codeArticle5 = $codeArticle5;
@@ -548,6 +555,7 @@ class AttestationFiscale {
      * Set the code article6.
      *
      * @param string $codeArticle6 The code article6.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle6($codeArticle6) {
         $this->codeArticle6 = $codeArticle6;
@@ -558,6 +566,7 @@ class AttestationFiscale {
      * Set the code article7.
      *
      * @param string $codeArticle7 The code article7.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle7($codeArticle7) {
         $this->codeArticle7 = $codeArticle7;
@@ -568,6 +577,7 @@ class AttestationFiscale {
      * Set the code article8.
      *
      * @param string $codeArticle8 The code article8.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle8($codeArticle8) {
         $this->codeArticle8 = $codeArticle8;
@@ -578,6 +588,7 @@ class AttestationFiscale {
      * Set the code article9.
      *
      * @param string $codeArticle9 The code article9.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeArticle9($codeArticle9) {
         $this->codeArticle9 = $codeArticle9;
@@ -588,6 +599,7 @@ class AttestationFiscale {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -598,6 +610,7 @@ class AttestationFiscale {
      * Set the duree annuelle.
      *
      * @param float $dureeAnnuelle The duree annuelle.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setDureeAnnuelle($dureeAnnuelle) {
         $this->dureeAnnuelle = $dureeAnnuelle;
@@ -608,6 +621,7 @@ class AttestationFiscale {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -618,6 +632,7 @@ class AttestationFiscale {
      * Set the famille1.
      *
      * @param string $famille1 The famille1.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille1($famille1) {
         $this->famille1 = $famille1;
@@ -628,6 +643,7 @@ class AttestationFiscale {
      * Set the famille10.
      *
      * @param string $famille10 The famille10.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille10($famille10) {
         $this->famille10 = $famille10;
@@ -638,6 +654,7 @@ class AttestationFiscale {
      * Set the famille2.
      *
      * @param string $famille2 The famille2.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille2($famille2) {
         $this->famille2 = $famille2;
@@ -648,6 +665,7 @@ class AttestationFiscale {
      * Set the famille3.
      *
      * @param string $famille3 The famille3.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille3($famille3) {
         $this->famille3 = $famille3;
@@ -658,6 +676,7 @@ class AttestationFiscale {
      * Set the famille4.
      *
      * @param string $famille4 The famille4.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille4($famille4) {
         $this->famille4 = $famille4;
@@ -668,6 +687,7 @@ class AttestationFiscale {
      * Set the famille5.
      *
      * @param string $famille5 The famille5.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille5($famille5) {
         $this->famille5 = $famille5;
@@ -678,6 +698,7 @@ class AttestationFiscale {
      * Set the famille6.
      *
      * @param string $famille6 The famille6.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille6($famille6) {
         $this->famille6 = $famille6;
@@ -688,6 +709,7 @@ class AttestationFiscale {
      * Set the famille7.
      *
      * @param string $famille7 The famille7.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille7($famille7) {
         $this->famille7 = $famille7;
@@ -698,6 +720,7 @@ class AttestationFiscale {
      * Set the famille8.
      *
      * @param string $famille8 The famille8.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille8($famille8) {
         $this->famille8 = $famille8;
@@ -708,6 +731,7 @@ class AttestationFiscale {
      * Set the famille9.
      *
      * @param string $famille9 The famille9.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setFamille9($famille9) {
         $this->famille9 = $famille9;
@@ -718,6 +742,7 @@ class AttestationFiscale {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -728,6 +753,7 @@ class AttestationFiscale {
      * Set the mode reglement.
      *
      * @param string $modeReglement The mode reglement.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setModeReglement($modeReglement) {
         $this->modeReglement = $modeReglement;
@@ -738,6 +764,7 @@ class AttestationFiscale {
      * Set the montant tes.
      *
      * @param float $montantTes The montant tes.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setMontantTes($montantTes) {
         $this->montantTes = $montantTes;
@@ -748,6 +775,7 @@ class AttestationFiscale {
      * Set the montant ttc.
      *
      * @param float $montantTtc The montant ttc.
+     * @return AttestationFiscale Returns this Attestation fiscale.
      */
     public function setMontantTtc($montantTtc) {
         $this->montantTtc = $montantTtc;

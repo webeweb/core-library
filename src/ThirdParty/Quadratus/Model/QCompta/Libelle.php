@@ -78,6 +78,7 @@ class Libelle {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Libelle Returns this Libelle.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class Libelle {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Libelle Returns this Libelle.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -98,6 +100,7 @@ class Libelle {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Libelle Returns this Libelle.
      */
     public function setType($type) {
         $this->type = $type;

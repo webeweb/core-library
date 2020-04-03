@@ -254,6 +254,7 @@ class ClientsLstPersoColonnes {
      * Set the clause where.
      *
      * @param string $clauseWhere The clause where.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setClauseWhere($clauseWhere) {
         $this->clauseWhere = $clauseWhere;
@@ -264,6 +265,7 @@ class ClientsLstPersoColonnes {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -274,6 +276,7 @@ class ClientsLstPersoColonnes {
      * Set the indice tri.
      *
      * @param string $indiceTri The indice tri.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setIndiceTri($indiceTri) {
         $this->indiceTri = $indiceTri;
@@ -284,6 +287,7 @@ class ClientsLstPersoColonnes {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -294,6 +298,7 @@ class ClientsLstPersoColonnes {
      * Set the is formule.
      *
      * @param bool $isFormule The is formule.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setIsFormule($isFormule) {
         $this->isFormule = $isFormule;
@@ -304,6 +309,7 @@ class ClientsLstPersoColonnes {
      * Set the jointure.
      *
      * @param string $jointure The jointure.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setJointure($jointure) {
         $this->jointure = $jointure;
@@ -314,6 +320,7 @@ class ClientsLstPersoColonnes {
      * Set the nb decimales.
      *
      * @param string $nbDecimales The nb decimales.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setNbDecimales($nbDecimales) {
         $this->nbDecimales = $nbDecimales;
@@ -324,6 +331,7 @@ class ClientsLstPersoColonnes {
      * Set the nom champ.
      *
      * @param string $nomChamp The nom champ.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setNomChamp($nomChamp) {
         $this->nomChamp = $nomChamp;
@@ -334,6 +342,7 @@ class ClientsLstPersoColonnes {
      * Set the nom table.
      *
      * @param string $nomTable The nom table.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setNomTable($nomTable) {
         $this->nomTable = $nomTable;
@@ -344,6 +353,7 @@ class ClientsLstPersoColonnes {
      * Set the ref guid.
      *
      * @param string $refGuid The ref guid.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setRefGuid($refGuid) {
         $this->refGuid = $refGuid;
@@ -354,6 +364,7 @@ class ClientsLstPersoColonnes {
      * Set the saisie.
      *
      * @param bool $saisie The saisie.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setSaisie($saisie) {
         $this->saisie = $saisie;
@@ -364,6 +375,7 @@ class ClientsLstPersoColonnes {
      * Set the selection.
      *
      * @param string $selection The selection.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setSelection($selection) {
         $this->selection = $selection;
@@ -374,6 +386,7 @@ class ClientsLstPersoColonnes {
      * Set the taille.
      *
      * @param int $taille The taille.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setTaille($taille) {
         $this->taille = $taille;
@@ -384,6 +397,7 @@ class ClientsLstPersoColonnes {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
     public function setTitre($titre) {
         $this->titre = $titre;

@@ -128,6 +128,7 @@ class RepartitionActiviteAnaBul {
      * Set the centre.
      *
      * @param string $centre The centre.
+     * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
     public function setCentre($centre) {
         $this->centre = $centre;
@@ -138,6 +139,7 @@ class RepartitionActiviteAnaBul {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -148,6 +150,7 @@ class RepartitionActiviteAnaBul {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -158,6 +161,7 @@ class RepartitionActiviteAnaBul {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -168,6 +172,7 @@ class RepartitionActiviteAnaBul {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -178,6 +183,7 @@ class RepartitionActiviteAnaBul {
      * Set the taux ventilation.
      *
      * @param float $tauxVentilation The taux ventilation.
+     * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
     public function setTauxVentilation($tauxVentilation) {
         $this->tauxVentilation = $tauxVentilation;

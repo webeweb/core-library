@@ -160,6 +160,7 @@ class AlertesEnCours {
      * Set the ar demande.
      *
      * @param bool $arDemande The ar demande.
+     * @return AlertesEnCours Returns this Alertes en cours.
      */
     public function setArDemande($arDemande) {
         $this->arDemande = $arDemande;
@@ -170,6 +171,7 @@ class AlertesEnCours {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AlertesEnCours Returns this Alertes en cours.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -180,6 +182,7 @@ class AlertesEnCours {
      * Set the code collab dst.
      *
      * @param string $codeCollabDst The code collab dst.
+     * @return AlertesEnCours Returns this Alertes en cours.
      */
     public function setCodeCollabDst($codeCollabDst) {
         $this->codeCollabDst = $codeCollabDst;
@@ -190,6 +193,7 @@ class AlertesEnCours {
      * Set the code collab org.
      *
      * @param string $codeCollabOrg The code collab org.
+     * @return AlertesEnCours Returns this Alertes en cours.
      */
     public function setCodeCollabOrg($codeCollabOrg) {
         $this->codeCollabOrg = $codeCollabOrg;
@@ -200,6 +204,7 @@ class AlertesEnCours {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return AlertesEnCours Returns this Alertes en cours.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -210,6 +215,7 @@ class AlertesEnCours {
      * Set the date declenchement.
      *
      * @param DateTime|null $dateDeclenchement The date declenchement.
+     * @return AlertesEnCours Returns this Alertes en cours.
      */
     public function setDateDeclenchement(DateTime $dateDeclenchement = null) {
         $this->dateDeclenchement = $dateDeclenchement;
@@ -220,6 +226,7 @@ class AlertesEnCours {
      * Set the id alerte.
      *
      * @param int $idAlerte The id alerte.
+     * @return AlertesEnCours Returns this Alertes en cours.
      */
     public function setIdAlerte($idAlerte) {
         $this->idAlerte = $idAlerte;
@@ -230,6 +237,7 @@ class AlertesEnCours {
      * Set the texte alerte.
      *
      * @param string $texteAlerte The texte alerte.
+     * @return AlertesEnCours Returns this Alertes en cours.
      */
     public function setTexteAlerte($texteAlerte) {
         $this->texteAlerte = $texteAlerte;

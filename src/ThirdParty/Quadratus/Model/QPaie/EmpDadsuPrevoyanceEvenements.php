@@ -160,6 +160,7 @@ class EmpDadsuPrevoyanceEvenements {
      * Set the a declarer dsn.
      *
      * @param bool $aDeclarerDsn The a declarer dsn.
+     * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
     public function setADeclarerDsn($aDeclarerDsn) {
         $this->aDeclarerDsn = $aDeclarerDsn;
@@ -170,6 +171,7 @@ class EmpDadsuPrevoyanceEvenements {
      * Set the code evenement.
      *
      * @param string $codeEvenement The code evenement.
+     * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
     public function setCodeEvenement($codeEvenement) {
         $this->codeEvenement = $codeEvenement;
@@ -180,6 +182,7 @@ class EmpDadsuPrevoyanceEvenements {
      * Set the code option.
      *
      * @param string $codeOption The code option.
+     * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
     public function setCodeOption($codeOption) {
         $this->codeOption = $codeOption;
@@ -190,6 +193,7 @@ class EmpDadsuPrevoyanceEvenements {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -200,6 +204,7 @@ class EmpDadsuPrevoyanceEvenements {
      * Set the code population.
      *
      * @param string $codePopulation The code population.
+     * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
     public function setCodePopulation($codePopulation) {
         $this->codePopulation = $codePopulation;
@@ -210,6 +215,7 @@ class EmpDadsuPrevoyanceEvenements {
      * Set the date evenement.
      *
      * @param DateTime|null $dateEvenement The date evenement.
+     * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
     public function setDateEvenement(DateTime $dateEvenement = null) {
         $this->dateEvenement = $dateEvenement;
@@ -220,6 +226,7 @@ class EmpDadsuPrevoyanceEvenements {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -230,6 +237,7 @@ class EmpDadsuPrevoyanceEvenements {
      * Set the ref contrat.
      *
      * @param string $refContrat The ref contrat.
+     * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
     public function setRefContrat($refContrat) {
         $this->refContrat = $refContrat;

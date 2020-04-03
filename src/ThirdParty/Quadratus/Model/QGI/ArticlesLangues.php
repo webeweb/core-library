@@ -158,6 +158,7 @@ class ArticlesLangues {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArticlesLangues Returns this Articles langues.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -168,6 +169,7 @@ class ArticlesLangues {
      * Set the code langue.
      *
      * @param string $codeLangue The code langue.
+     * @return ArticlesLangues Returns this Articles langues.
      */
     public function setCodeLangue($codeLangue) {
         $this->codeLangue = $codeLangue;
@@ -178,6 +180,7 @@ class ArticlesLangues {
      * Set the designation apres.
      *
      * @param string $designationApres The designation apres.
+     * @return ArticlesLangues Returns this Articles langues.
      */
     public function setDesignationApres($designationApres) {
         $this->designationApres = $designationApres;
@@ -188,6 +191,7 @@ class ArticlesLangues {
      * Set the designation avant.
      *
      * @param string $designationAvant The designation avant.
+     * @return ArticlesLangues Returns this Articles langues.
      */
     public function setDesignationAvant($designationAvant) {
         $this->designationAvant = $designationAvant;
@@ -198,6 +202,7 @@ class ArticlesLangues {
      * Set the intitule1.
      *
      * @param string $intitule1 The intitule1.
+     * @return ArticlesLangues Returns this Articles langues.
      */
     public function setIntitule1($intitule1) {
         $this->intitule1 = $intitule1;
@@ -208,6 +213,7 @@ class ArticlesLangues {
      * Set the intitule2.
      *
      * @param string $intitule2 The intitule2.
+     * @return ArticlesLangues Returns this Articles langues.
      */
     public function setIntitule2($intitule2) {
         $this->intitule2 = $intitule2;
@@ -218,6 +224,7 @@ class ArticlesLangues {
      * Set the intitule3.
      *
      * @param string $intitule3 The intitule3.
+     * @return ArticlesLangues Returns this Articles langues.
      */
     public function setIntitule3($intitule3) {
         $this->intitule3 = $intitule3;
@@ -228,6 +235,7 @@ class ArticlesLangues {
      * Set the intitule4.
      *
      * @param string $intitule4 The intitule4.
+     * @return ArticlesLangues Returns this Articles langues.
      */
     public function setIntitule4($intitule4) {
         $this->intitule4 = $intitule4;

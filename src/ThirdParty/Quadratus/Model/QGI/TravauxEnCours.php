@@ -272,6 +272,7 @@ class TravauxEnCours {
      * Set the cataloguee.
      *
      * @param bool $cataloguee The cataloguee.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setCataloguee($cataloguee) {
         $this->cataloguee = $cataloguee;
@@ -282,6 +283,7 @@ class TravauxEnCours {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -292,6 +294,7 @@ class TravauxEnCours {
      * Set the code collaborateur dest.
      *
      * @param string $codeCollaborateurDest The code collaborateur dest.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setCodeCollaborateurDest($codeCollaborateurDest) {
         $this->codeCollaborateurDest = $codeCollaborateurDest;
@@ -302,6 +305,7 @@ class TravauxEnCours {
      * Set the code collaborateur entrant.
      *
      * @param string $codeCollaborateurEntrant The code collaborateur entrant.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setCodeCollaborateurEntrant($codeCollaborateurEntrant) {
         $this->codeCollaborateurEntrant = $codeCollaborateurEntrant;
@@ -312,6 +316,7 @@ class TravauxEnCours {
      * Set the date alerte.
      *
      * @param DateTime|null $dateAlerte The date alerte.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setDateAlerte(DateTime $dateAlerte = null) {
         $this->dateAlerte = $dateAlerte;
@@ -322,6 +327,7 @@ class TravauxEnCours {
      * Set the date butoir.
      *
      * @param DateTime|null $dateButoir The date butoir.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setDateButoir(DateTime $dateButoir = null) {
         $this->dateButoir = $dateButoir;
@@ -332,6 +338,7 @@ class TravauxEnCours {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -342,6 +349,7 @@ class TravauxEnCours {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -352,6 +360,7 @@ class TravauxEnCours {
      * Set the demandeur.
      *
      * @param string $demandeur The demandeur.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setDemandeur($demandeur) {
         $this->demandeur = $demandeur;
@@ -362,6 +371,7 @@ class TravauxEnCours {
      * Set the envoi post it.
      *
      * @param bool $envoiPostIt The envoi post it.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setEnvoiPostIt($envoiPostIt) {
         $this->envoiPostIt = $envoiPostIt;
@@ -372,6 +382,7 @@ class TravauxEnCours {
      * Set the id travail.
      *
      * @param int $idTravail The id travail.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setIdTravail($idTravail) {
         $this->idTravail = $idTravail;
@@ -382,6 +393,7 @@ class TravauxEnCours {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -392,6 +404,7 @@ class TravauxEnCours {
      * Set the nom client.
      *
      * @param string $nomClient The nom client.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setNomClient($nomClient) {
         $this->nomClient = $nomClient;
@@ -402,6 +415,7 @@ class TravauxEnCours {
      * Set the piece jointe.
      *
      * @param string $pieceJointe The piece jointe.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setPieceJointe($pieceJointe) {
         $this->pieceJointe = $pieceJointe;
@@ -412,6 +426,7 @@ class TravauxEnCours {
      * Set the travail fait.
      *
      * @param bool $travailFait The travail fait.
+     * @return TravauxEnCours Returns this Travaux en cours.
      */
     public function setTravailFait($travailFait) {
         $this->travailFait = $travailFait;

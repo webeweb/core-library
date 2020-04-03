@@ -192,6 +192,7 @@ class PiecesJointes {
      * Set the a publier espace client.
      *
      * @param bool $aPublierEspaceClient The a publier espace client.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setAPublierEspaceClient($aPublierEspaceClient) {
         $this->aPublierEspaceClient = $aPublierEspaceClient;
@@ -202,6 +203,7 @@ class PiecesJointes {
      * Set the a publier web.
      *
      * @param bool $aPublierWeb The a publier web.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setAPublierWeb($aPublierWeb) {
         $this->aPublierWeb = $aPublierWeb;
@@ -212,6 +214,7 @@ class PiecesJointes {
      * Set the archive.
      *
      * @param bool $archive The archive.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setArchive($archive) {
         $this->archive = $archive;
@@ -222,6 +225,7 @@ class PiecesJointes {
      * Set the auteur.
      *
      * @param string $auteur The auteur.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setAuteur($auteur) {
         $this->auteur = $auteur;
@@ -232,6 +236,7 @@ class PiecesJointes {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -242,6 +247,7 @@ class PiecesJointes {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -252,6 +258,7 @@ class PiecesJointes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -262,6 +269,7 @@ class PiecesJointes {
      * Set the nb doc attache.
      *
      * @param int $nbDocAttache The nb doc attache.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setNbDocAttache($nbDocAttache) {
         $this->nbDocAttache = $nbDocAttache;
@@ -272,6 +280,7 @@ class PiecesJointes {
      * Set the nom piece.
      *
      * @param string $nomPiece The nom piece.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setNomPiece($nomPiece) {
         $this->nomPiece = $nomPiece;
@@ -282,6 +291,7 @@ class PiecesJointes {
      * Set the num piece.
      *
      * @param int $numPiece The num piece.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setNumPiece($numPiece) {
         $this->numPiece = $numPiece;

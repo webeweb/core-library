@@ -126,6 +126,7 @@ class CartesAppelEtebac {
      * Set the carte appel.
      *
      * @param string $carteAppel The carte appel.
+     * @return CartesAppelEtebac Returns this Cartes appel etebac.
      */
     public function setCarteAppel($carteAppel) {
         $this->carteAppel = $carteAppel;
@@ -136,6 +137,7 @@ class CartesAppelEtebac {
      * Set the code banque.
      *
      * @param string $codeBanque The code banque.
+     * @return CartesAppelEtebac Returns this Cartes appel etebac.
      */
     public function setCodeBanque($codeBanque) {
         $this->codeBanque = $codeBanque;
@@ -146,6 +148,7 @@ class CartesAppelEtebac {
      * Set the id carte.
      *
      * @param string $idCarte The id carte.
+     * @return CartesAppelEtebac Returns this Cartes appel etebac.
      */
     public function setIdCarte($idCarte) {
         $this->idCarte = $idCarte;
@@ -156,6 +159,7 @@ class CartesAppelEtebac {
      * Set the lg carte appel.
      *
      * @param string $lgCarteAppel The lg carte appel.
+     * @return CartesAppelEtebac Returns this Cartes appel etebac.
      */
     public function setLgCarteAppel($lgCarteAppel) {
         $this->lgCarteAppel = $lgCarteAppel;
@@ -166,6 +170,7 @@ class CartesAppelEtebac {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return CartesAppelEtebac Returns this Cartes appel etebac.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -176,6 +181,7 @@ class CartesAppelEtebac {
      * Set the type carte.
      *
      * @param string $typeCarte The type carte.
+     * @return CartesAppelEtebac Returns this Cartes appel etebac.
      */
     public function setTypeCarte($typeCarte) {
         $this->typeCarte = $typeCarte;

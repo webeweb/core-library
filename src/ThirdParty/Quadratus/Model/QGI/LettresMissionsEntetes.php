@@ -816,6 +816,7 @@ class LettresMissionsEntetes {
      * Set the ca.
      *
      * @param float $ca The ca.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setCa($ca) {
         $this->ca = $ca;
@@ -826,6 +827,7 @@ class LettresMissionsEntetes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -836,6 +838,7 @@ class LettresMissionsEntetes {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -846,6 +849,7 @@ class LettresMissionsEntetes {
      * Set the comment1.
      *
      * @param string $comment1 The comment1.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setComment1($comment1) {
         $this->comment1 = $comment1;
@@ -856,6 +860,7 @@ class LettresMissionsEntetes {
      * Set the comment2.
      *
      * @param string $comment2 The comment2.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setComment2($comment2) {
         $this->comment2 = $comment2;
@@ -866,6 +871,7 @@ class LettresMissionsEntetes {
      * Set the comment3.
      *
      * @param string $comment3 The comment3.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setComment3($comment3) {
         $this->comment3 = $comment3;
@@ -876,6 +882,7 @@ class LettresMissionsEntetes {
      * Set the comment4.
      *
      * @param string $comment4 The comment4.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setComment4($comment4) {
         $this->comment4 = $comment4;
@@ -886,6 +893,7 @@ class LettresMissionsEntetes {
      * Set the comment5.
      *
      * @param string $comment5 The comment5.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setComment5($comment5) {
         $this->comment5 = $comment5;
@@ -896,6 +904,7 @@ class LettresMissionsEntetes {
      * Set the comment6.
      *
      * @param string $comment6 The comment6.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setComment6($comment6) {
         $this->comment6 = $comment6;
@@ -906,6 +915,7 @@ class LettresMissionsEntetes {
      * Set the comment7.
      *
      * @param string $comment7 The comment7.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setComment7($comment7) {
         $this->comment7 = $comment7;
@@ -916,6 +926,7 @@ class LettresMissionsEntetes {
      * Set the date entretien.
      *
      * @param DateTime|null $dateEntretien The date entretien.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setDateEntretien(DateTime $dateEntretien = null) {
         $this->dateEntretien = $dateEntretien;
@@ -926,6 +937,7 @@ class LettresMissionsEntetes {
      * Set the date signature.
      *
      * @param DateTime|null $dateSignature The date signature.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setDateSignature(DateTime $dateSignature = null) {
         $this->dateSignature = $dateSignature;
@@ -936,6 +948,7 @@ class LettresMissionsEntetes {
      * Set the debut mission.
      *
      * @param DateTime|null $debutMission The debut mission.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setDebutMission(DateTime $debutMission = null) {
         $this->debutMission = $debutMission;
@@ -946,6 +959,7 @@ class LettresMissionsEntetes {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -956,6 +970,7 @@ class LettresMissionsEntetes {
      * Set the exercice courant.
      *
      * @param string $exerciceCourant The exercice courant.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setExerciceCourant($exerciceCourant) {
         $this->exerciceCourant = $exerciceCourant;
@@ -966,6 +981,7 @@ class LettresMissionsEntetes {
      * Set the fin mission.
      *
      * @param DateTime|null $finMission The fin mission.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setFinMission(DateTime $finMission = null) {
         $this->finMission = $finMission;
@@ -976,6 +992,7 @@ class LettresMissionsEntetes {
      * Set the hono prev.
      *
      * @param float $honoPrev The hono prev.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setHonoPrev($honoPrev) {
         $this->honoPrev = $honoPrev;
@@ -986,6 +1003,7 @@ class LettresMissionsEntetes {
      * Set the libelle1.
      *
      * @param string $libelle1 The libelle1.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setLibelle1($libelle1) {
         $this->libelle1 = $libelle1;
@@ -996,6 +1014,7 @@ class LettresMissionsEntetes {
      * Set the libelle2.
      *
      * @param string $libelle2 The libelle2.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setLibelle2($libelle2) {
         $this->libelle2 = $libelle2;
@@ -1006,6 +1025,7 @@ class LettresMissionsEntetes {
      * Set the libelle3.
      *
      * @param string $libelle3 The libelle3.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setLibelle3($libelle3) {
         $this->libelle3 = $libelle3;
@@ -1016,6 +1036,7 @@ class LettresMissionsEntetes {
      * Set the libelle4.
      *
      * @param string $libelle4 The libelle4.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setLibelle4($libelle4) {
         $this->libelle4 = $libelle4;
@@ -1026,6 +1047,7 @@ class LettresMissionsEntetes {
      * Set the libelle5.
      *
      * @param string $libelle5 The libelle5.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setLibelle5($libelle5) {
         $this->libelle5 = $libelle5;
@@ -1036,6 +1058,7 @@ class LettresMissionsEntetes {
      * Set the libelle6.
      *
      * @param string $libelle6 The libelle6.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setLibelle6($libelle6) {
         $this->libelle6 = $libelle6;
@@ -1046,6 +1069,7 @@ class LettresMissionsEntetes {
      * Set the libelle7.
      *
      * @param string $libelle7 The libelle7.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setLibelle7($libelle7) {
         $this->libelle7 = $libelle7;
@@ -1056,6 +1080,7 @@ class LettresMissionsEntetes {
      * Set the nb deplacements.
      *
      * @param string $nbDeplacements The nb deplacements.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNbDeplacements($nbDeplacements) {
         $this->nbDeplacements = $nbDeplacements;
@@ -1066,6 +1091,7 @@ class LettresMissionsEntetes {
      * Set the nbr actes.
      *
      * @param float $nbrActes The nbr actes.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNbrActes($nbrActes) {
         $this->nbrActes = $nbrActes;
@@ -1076,6 +1102,7 @@ class LettresMissionsEntetes {
      * Set the nbr bulletins.
      *
      * @param float $nbrBulletins The nbr bulletins.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNbrBulletins($nbrBulletins) {
         $this->nbrBulletins = $nbrBulletins;
@@ -1086,6 +1113,7 @@ class LettresMissionsEntetes {
      * Set the nbr ecritures bq.
      *
      * @param float $nbrEcrituresBq The nbr ecritures bq.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNbrEcrituresBq($nbrEcrituresBq) {
         $this->nbrEcrituresBq = $nbrEcrituresBq;
@@ -1096,6 +1124,7 @@ class LettresMissionsEntetes {
      * Set the nbr ecritures depenses.
      *
      * @param float $nbrEcrituresDepenses The nbr ecritures depenses.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNbrEcrituresDepenses($nbrEcrituresDepenses) {
         $this->nbrEcrituresDepenses = $nbrEcrituresDepenses;
@@ -1106,6 +1135,7 @@ class LettresMissionsEntetes {
      * Set the nbr ecritures od.
      *
      * @param float $nbrEcrituresOd The nbr ecritures od.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNbrEcrituresOd($nbrEcrituresOd) {
         $this->nbrEcrituresOd = $nbrEcrituresOd;
@@ -1116,6 +1146,7 @@ class LettresMissionsEntetes {
      * Set the nbr ecritures recettes.
      *
      * @param float $nbrEcrituresRecettes The nbr ecritures recettes.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNbrEcrituresRecettes($nbrEcrituresRecettes) {
         $this->nbrEcrituresRecettes = $nbrEcrituresRecettes;
@@ -1126,6 +1157,7 @@ class LettresMissionsEntetes {
      * Set the nbr employes.
      *
      * @param float $nbrEmployes The nbr employes.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNbrEmployes($nbrEmployes) {
         $this->nbrEmployes = $nbrEmployes;
@@ -1136,6 +1168,7 @@ class LettresMissionsEntetes {
      * Set the numero lettre.
      *
      * @param string $numeroLettre The numero lettre.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setNumeroLettre($numeroLettre) {
         $this->numeroLettre = $numeroLettre;
@@ -1146,6 +1179,7 @@ class LettresMissionsEntetes {
      * Set the police1.
      *
      * @param string $police1 The police1.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPolice1($police1) {
         $this->police1 = $police1;
@@ -1156,6 +1190,7 @@ class LettresMissionsEntetes {
      * Set the police2.
      *
      * @param string $police2 The police2.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPolice2($police2) {
         $this->police2 = $police2;
@@ -1166,6 +1201,7 @@ class LettresMissionsEntetes {
      * Set the police3.
      *
      * @param string $police3 The police3.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPolice3($police3) {
         $this->police3 = $police3;
@@ -1176,6 +1212,7 @@ class LettresMissionsEntetes {
      * Set the premier exercice.
      *
      * @param int $premierExercice The premier exercice.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPremierExercice($premierExercice) {
         $this->premierExercice = $premierExercice;
@@ -1186,6 +1223,7 @@ class LettresMissionsEntetes {
      * Set the prix1.
      *
      * @param float $prix1 The prix1.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPrix1($prix1) {
         $this->prix1 = $prix1;
@@ -1196,6 +1234,7 @@ class LettresMissionsEntetes {
      * Set the prix2.
      *
      * @param float $prix2 The prix2.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPrix2($prix2) {
         $this->prix2 = $prix2;
@@ -1206,6 +1245,7 @@ class LettresMissionsEntetes {
      * Set the prix3.
      *
      * @param float $prix3 The prix3.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPrix3($prix3) {
         $this->prix3 = $prix3;
@@ -1216,6 +1256,7 @@ class LettresMissionsEntetes {
      * Set the prix4.
      *
      * @param float $prix4 The prix4.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPrix4($prix4) {
         $this->prix4 = $prix4;
@@ -1226,6 +1267,7 @@ class LettresMissionsEntetes {
      * Set the prix5.
      *
      * @param float $prix5 The prix5.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPrix5($prix5) {
         $this->prix5 = $prix5;
@@ -1236,6 +1278,7 @@ class LettresMissionsEntetes {
      * Set the prix6.
      *
      * @param float $prix6 The prix6.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPrix6($prix6) {
         $this->prix6 = $prix6;
@@ -1246,6 +1289,7 @@ class LettresMissionsEntetes {
      * Set the prix7.
      *
      * @param float $prix7 The prix7.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setPrix7($prix7) {
         $this->prix7 = $prix7;
@@ -1256,6 +1300,7 @@ class LettresMissionsEntetes {
      * Set the type actionnaires associes.
      *
      * @param string $typeActionnairesAssocies The type actionnaires associes.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setTypeActionnairesAssocies($typeActionnairesAssocies) {
         $this->typeActionnairesAssocies = $typeActionnairesAssocies;
@@ -1266,6 +1311,7 @@ class LettresMissionsEntetes {
      * Set the type ca.
      *
      * @param string $typeCa The type ca.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setTypeCa($typeCa) {
         $this->typeCa = $typeCa;
@@ -1276,6 +1322,7 @@ class LettresMissionsEntetes {
      * Set the type mission.
      *
      * @param string $typeMission The type mission.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setTypeMission($typeMission) {
         $this->typeMission = $typeMission;
@@ -1286,6 +1333,7 @@ class LettresMissionsEntetes {
      * Set the type systeme info.
      *
      * @param string $typeSystemeInfo The type systeme info.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setTypeSystemeInfo($typeSystemeInfo) {
         $this->typeSystemeInfo = $typeSystemeInfo;
@@ -1296,6 +1344,7 @@ class LettresMissionsEntetes {
      * Set the type volume.
      *
      * @param string $typeVolume The type volume.
+     * @return LettresMissionsEntetes Returns this Lettres missions entetes.
      */
     public function setTypeVolume($typeVolume) {
         $this->typeVolume = $typeVolume;

@@ -62,6 +62,7 @@ class RegroupementLibelles {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return RegroupementLibelles Returns this Regroupement libelles.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -72,6 +73,7 @@ class RegroupementLibelles {
      * Set the num regroupement.
      *
      * @param int $numRegroupement The num regroupement.
+     * @return RegroupementLibelles Returns this Regroupement libelles.
      */
     public function setNumRegroupement($numRegroupement) {
         $this->numRegroupement = $numRegroupement;

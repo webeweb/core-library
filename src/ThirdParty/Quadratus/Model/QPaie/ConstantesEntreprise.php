@@ -4064,6 +4064,7 @@ class ConstantesEntreprise {
      * Set the absence extra.
      *
      * @param string $absenceExtra The absence extra.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setAbsenceExtra($absenceExtra) {
         $this->absenceExtra = $absenceExtra;
@@ -4074,6 +4075,7 @@ class ConstantesEntreprise {
      * Set the activer pointage qws.
      *
      * @param bool $activerPointageQws The activer pointage qws.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setActiverPointageQws($activerPointageQws) {
         $this->activerPointageQws = $activerPointageQws;
@@ -4084,6 +4086,7 @@ class ConstantesEntreprise {
      * Set the adhesion tds norme.
      *
      * @param string $adhesionTdsNorme The adhesion tds norme.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setAdhesionTdsNorme($adhesionTdsNorme) {
         $this->adhesionTdsNorme = $adhesionTdsNorme;
@@ -4094,6 +4097,7 @@ class ConstantesEntreprise {
      * Set the affaire.
      *
      * @param string $affaire The affaire.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setAffaire($affaire) {
         $this->affaire = $affaire;
@@ -4104,6 +4108,7 @@ class ConstantesEntreprise {
      * Set the affectation taux27.
      *
      * @param bool $affectationTaux27 The affectation taux27.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setAffectationTaux27($affectationTaux27) {
         $this->affectationTaux27 = $affectationTaux27;
@@ -4114,6 +4119,7 @@ class ConstantesEntreprise {
      * Set the analytique employe.
      *
      * @param bool $analytiqueEmploye The analytique employe.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setAnalytiqueEmploye($analytiqueEmploye) {
         $this->analytiqueEmploye = $analytiqueEmploye;
@@ -4124,6 +4130,7 @@ class ConstantesEntreprise {
      * Set the arbitrage auto.
      *
      * @param string $arbitrageAuto The arbitrage auto.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setArbitrageAuto($arbitrageAuto) {
         $this->arbitrageAuto = $arbitrageAuto;
@@ -4134,6 +4141,7 @@ class ConstantesEntreprise {
      * Set the archivage actif.
      *
      * @param bool $archivageActif The archivage actif.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setArchivageActif($archivageActif) {
         $this->archivageActif = $archivageActif;
@@ -4144,6 +4152,7 @@ class ConstantesEntreprise {
      * Set the attest auto.
      *
      * @param bool $attestAuto The attest auto.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setAttestAuto($attestAuto) {
         $this->attestAuto = $attestAuto;
@@ -4154,6 +4163,7 @@ class ConstantesEntreprise {
      * Set the beneficie cice.
      *
      * @param bool $beneficieCice The beneficie cice.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setBeneficieCice($beneficieCice) {
         $this->beneficieCice = $beneficieCice;
@@ -4164,6 +4174,7 @@ class ConstantesEntreprise {
      * Set the brut al sal min conv.
      *
      * @param bool $brutAlSalMinConv The brut al sal min conv.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setBrutAlSalMinConv($brutAlSalMinConv) {
         $this->brutAlSalMinConv = $brutAlSalMinConv;
@@ -4174,6 +4185,7 @@ class ConstantesEntreprise {
      * Set the calcul auto h theorique.
      *
      * @param bool $calculAutoHTheorique The calcul auto h theorique.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCalculAutoHTheorique($calculAutoHTheorique) {
         $this->calculAutoHTheorique = $calculAutoHTheorique;
@@ -4184,6 +4196,7 @@ class ConstantesEntreprise {
      * Set the certif auto.
      *
      * @param bool $certifAuto The certif auto.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCertifAuto($certifAuto) {
         $this->certifAuto = $certifAuto;
@@ -4194,6 +4207,7 @@ class ConstantesEntreprise {
      * Set the cheques euro.
      *
      * @param string $chequesEuro The cheques euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setChequesEuro($chequesEuro) {
         $this->chequesEuro = $chequesEuro;
@@ -4204,6 +4218,7 @@ class ConstantesEntreprise {
      * Set the choix edition cheque tc.
      *
      * @param bool $choixEditionChequeTc The choix edition cheque tc.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setChoixEditionChequeTc($choixEditionChequeTc) {
         $this->choixEditionChequeTc = $choixEditionChequeTc;
@@ -4214,6 +4229,7 @@ class ConstantesEntreprise {
      * Set the cice pj mail cli ducs edi.
      *
      * @param bool $cicePjMailCliDucsEdi The cice pj mail cli ducs edi.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCicePjMailCliDucsEdi($cicePjMailCliDucsEdi) {
         $this->cicePjMailCliDucsEdi = $cicePjMailCliDucsEdi;
@@ -4224,6 +4240,7 @@ class ConstantesEntreprise {
      * Set the cle acces1.
      *
      * @param string $cleAcces1 The cle acces1.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCleAcces1($cleAcces1) {
         $this->cleAcces1 = $cleAcces1;
@@ -4234,6 +4251,7 @@ class ConstantesEntreprise {
      * Set the cle portable.
      *
      * @param string $clePortable The cle portable.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setClePortable($clePortable) {
         $this->clePortable = $clePortable;
@@ -4244,6 +4262,7 @@ class ConstantesEntreprise {
      * Set the code org btpdadsu.
      *
      * @param string $codeOrgBtpdadsu The code org btpdadsu.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCodeOrgBtpdadsu($codeOrgBtpdadsu) {
         $this->codeOrgBtpdadsu = $codeOrgBtpdadsu;
@@ -4254,6 +4273,7 @@ class ConstantesEntreprise {
      * Set the collaborateuri paie.
      *
      * @param string $collaborateuriPaie The collaborateuri paie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCollaborateuriPaie($collaborateuriPaie) {
         $this->collaborateuriPaie = $collaborateuriPaie;
@@ -4264,6 +4284,7 @@ class ConstantesEntreprise {
      * Set the compression.
      *
      * @param bool $compression The compression.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCompression($compression) {
         $this->compression = $compression;
@@ -4274,6 +4295,7 @@ class ConstantesEntreprise {
      * Set the compte gain euro.
      *
      * @param string $compteGainEuro The compte gain euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCompteGainEuro($compteGainEuro) {
         $this->compteGainEuro = $compteGainEuro;
@@ -4284,6 +4306,7 @@ class ConstantesEntreprise {
      * Set the compte perte euro.
      *
      * @param string $comptePerteEuro The compte perte euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setComptePerteEuro($comptePerteEuro) {
         $this->comptePerteEuro = $comptePerteEuro;
@@ -4294,6 +4317,7 @@ class ConstantesEntreprise {
      * Set the cpta elit euros.
      *
      * @param bool $cptaElitEuros The cpta elit euros.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCptaElitEuros($cptaElitEuros) {
         $this->cptaElitEuros = $cptaElitEuros;
@@ -4304,6 +4328,7 @@ class ConstantesEntreprise {
      * Set the ctrl auto cp.
      *
      * @param bool $ctrlAutoCp The ctrl auto cp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCtrlAutoCp($ctrlAutoCp) {
         $this->ctrlAutoCp = $ctrlAutoCp;
@@ -4314,6 +4339,7 @@ class ConstantesEntreprise {
      * Set the ctrl auto cp anticip.
      *
      * @param bool $ctrlAutoCpAnticip The ctrl auto cp anticip.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCtrlAutoCpAnticip($ctrlAutoCpAnticip) {
         $this->ctrlAutoCpAnticip = $ctrlAutoCpAnticip;
@@ -4324,6 +4350,7 @@ class ConstantesEntreprise {
      * Set the ctrl taux base.
      *
      * @param bool $ctrlTauxBase The ctrl taux base.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setCtrlTauxBase($ctrlTauxBase) {
         $this->ctrlTauxBase = $ctrlTauxBase;
@@ -4334,6 +4361,7 @@ class ConstantesEntreprise {
      * Set the dads dernier choix gestion aen.
      *
      * @param string $dadsDernierChoixGestionAen The dads dernier choix gestion aen.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDadsDernierChoixGestionAen($dadsDernierChoixGestionAen) {
         $this->dadsDernierChoixGestionAen = $dadsDernierChoixGestionAen;
@@ -4344,6 +4372,7 @@ class ConstantesEntreprise {
      * Set the dads type gestion aen.
      *
      * @param string $dadsTypeGestionAen The dads type gestion aen.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDadsTypeGestionAen($dadsTypeGestionAen) {
         $this->dadsTypeGestionAen = $dadsTypeGestionAen;
@@ -4354,6 +4383,7 @@ class ConstantesEntreprise {
      * Set the dadsu num agr ansp.
      *
      * @param string $dadsuNumAgrAnsp The dadsu num agr ansp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDadsuNumAgrAnsp($dadsuNumAgrAnsp) {
         $this->dadsuNumAgrAnsp = $dadsuNumAgrAnsp;
@@ -4364,6 +4394,7 @@ class ConstantesEntreprise {
      * Set the dadsu ref dec.
      *
      * @param string $dadsuRefDec The dadsu ref dec.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDadsuRefDec($dadsuRefDec) {
         $this->dadsuRefDec = $dadsuRefDec;
@@ -4374,6 +4405,7 @@ class ConstantesEntreprise {
      * Set the das type decl.
      *
      * @param string $dasTypeDecl The das type decl.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDasTypeDecl($dasTypeDecl) {
         $this->dasTypeDecl = $dasTypeDecl;
@@ -4384,6 +4416,7 @@ class ConstantesEntreprise {
      * Set the das type decl detail.
      *
      * @param string $dasTypeDeclDetail The das type decl detail.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDasTypeDeclDetail($dasTypeDeclDetail) {
         $this->dasTypeDeclDetail = $dasTypeDeclDetail;
@@ -4394,6 +4427,7 @@ class ConstantesEntreprise {
      * Set the date dp.
      *
      * @param DateTime|null $dateDp The date dp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDateDp(DateTime $dateDp = null) {
         $this->dateDp = $dateDp;
@@ -4404,6 +4438,7 @@ class ConstantesEntreprise {
      * Set the debut periode das.
      *
      * @param DateTime|null $debutPeriodeDas The debut periode das.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDebutPeriodeDas(DateTime $debutPeriodeDas = null) {
         $this->debutPeriodeDas = $debutPeriodeDas;
@@ -4414,6 +4449,7 @@ class ConstantesEntreprise {
      * Set the debut periode histo das.
      *
      * @param DateTime|null $debutPeriodeHistoDas The debut periode histo das.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDebutPeriodeHistoDas(DateTime $debutPeriodeHistoDas = null) {
         $this->debutPeriodeHistoDas = $debutPeriodeHistoDas;
@@ -4424,6 +4460,7 @@ class ConstantesEntreprise {
      * Set the deduction h sup fillon.
      *
      * @param bool $deductionHSupFillon The deduction h sup fillon.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDeductionHSupFillon($deductionHSupFillon) {
         $this->deductionHSupFillon = $deductionHSupFillon;
@@ -4434,6 +4471,7 @@ class ConstantesEntreprise {
      * Set the deduire h sup non structurelle.
      *
      * @param bool $deduireHSupNonStructurelle The deduire h sup non structurelle.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDeduireHSupNonStructurelle($deduireHSupNonStructurelle) {
         $this->deduireHSupNonStructurelle = $deduireHSupNonStructurelle;
@@ -4444,6 +4482,7 @@ class ConstantesEntreprise {
      * Set the dernier indice bul.
      *
      * @param int $dernierIndiceBul The dernier indice bul.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDernierIndiceBul($dernierIndiceBul) {
         $this->dernierIndiceBul = $dernierIndiceBul;
@@ -4454,6 +4493,7 @@ class ConstantesEntreprise {
      * Set the dest point irc.
      *
      * @param string $destPointIrc The dest point irc.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDestPointIrc($destPointIrc) {
         $this->destPointIrc = $destPointIrc;
@@ -4464,6 +4504,7 @@ class ConstantesEntreprise {
      * Set the dest tri point.
      *
      * @param string $destTriPoint The dest tri point.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDestTriPoint($destTriPoint) {
         $this->destTriPoint = $destTriPoint;
@@ -4474,6 +4515,7 @@ class ConstantesEntreprise {
      * Set the dossier proprete.
      *
      * @param string $dossierProprete The dossier proprete.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDossierProprete($dossierProprete) {
         $this->dossierProprete = $dossierProprete;
@@ -4484,6 +4526,7 @@ class ConstantesEntreprise {
      * Set the dossier sur web.
      *
      * @param bool $dossierSurWeb The dossier sur web.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDossierSurWeb($dossierSurWeb) {
         $this->dossierSurWeb = $dossierSurWeb;
@@ -4494,6 +4537,7 @@ class ConstantesEntreprise {
      * Set the ds code collab.
      *
      * @param string $dsCodeCollab The ds code collab.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDsCodeCollab($dsCodeCollab) {
         $this->dsCodeCollab = $dsCodeCollab;
@@ -4504,6 +4548,7 @@ class ConstantesEntreprise {
      * Set the ds date retour.
      *
      * @param DateTime|null $dsDateRetour The ds date retour.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDsDateRetour(DateTime $dsDateRetour = null) {
         $this->dsDateRetour = $dsDateRetour;
@@ -4514,6 +4559,7 @@ class ConstantesEntreprise {
      * Set the ds date sortie.
      *
      * @param DateTime|null $dsDateSortie The ds date sortie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDsDateSortie(DateTime $dsDateSortie = null) {
         $this->dsDateSortie = $dsDateSortie;
@@ -4524,6 +4570,7 @@ class ConstantesEntreprise {
      * Set the ds fusion.
      *
      * @param string $dsFusion The ds fusion.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDsFusion($dsFusion) {
         $this->dsFusion = $dsFusion;
@@ -4534,6 +4581,7 @@ class ConstantesEntreprise {
      * Set the ds type edition.
      *
      * @param string $dsTypeEdition The ds type edition.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDsTypeEdition($dsTypeEdition) {
         $this->dsTypeEdition = $dsTypeEdition;
@@ -4544,6 +4592,7 @@ class ConstantesEntreprise {
      * Set the dt debut periode.
      *
      * @param DateTime|null $dtDebutPeriode The dt debut periode.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDtDebutPeriode(DateTime $dtDebutPeriode = null) {
         $this->dtDebutPeriode = $dtDebutPeriode;
@@ -4554,6 +4603,7 @@ class ConstantesEntreprise {
      * Set the dt fin periode.
      *
      * @param DateTime|null $dtFinPeriode The dt fin periode.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDtFinPeriode(DateTime $dtFinPeriode = null) {
         $this->dtFinPeriode = $dtFinPeriode;
@@ -4564,6 +4614,7 @@ class ConstantesEntreprise {
      * Set the ducs franc euro.
      *
      * @param string $ducsFrancEuro The ducs franc euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setDucsFrancEuro($ducsFrancEuro) {
         $this->ducsFrancEuro = $ducsFrancEuro;
@@ -4574,6 +4625,7 @@ class ConstantesEntreprise {
      * Set the ecr type.
      *
      * @param string $ecrType The ecr type.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEcrType($ecrType) {
         $this->ecrType = $ecrType;
@@ -4584,6 +4636,7 @@ class ConstantesEntreprise {
      * Set the ed bord choix modele.
      *
      * @param string $edBordChoixModele The ed bord choix modele.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBordChoixModele($edBordChoixModele) {
         $this->edBordChoixModele = $edBordChoixModele;
@@ -4594,6 +4647,7 @@ class ConstantesEntreprise {
      * Set the ed bord rupture emp.
      *
      * @param bool $edBordRuptureEmp The ed bord rupture emp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBordRuptureEmp($edBordRuptureEmp) {
         $this->edBordRuptureEmp = $edBordRuptureEmp;
@@ -4604,6 +4658,7 @@ class ConstantesEntreprise {
      * Set the ed bord type imp.
      *
      * @param string $edBordTypeImp The ed bord type imp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBordTypeImp($edBordTypeImp) {
         $this->edBordTypeImp = $edBordTypeImp;
@@ -4614,6 +4669,7 @@ class ConstantesEntreprise {
      * Set the ed bordereau.
      *
      * @param bool $edBordereau The ed bordereau.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBordereau($edBordereau) {
         $this->edBordereau = $edBordereau;
@@ -4624,6 +4680,7 @@ class ConstantesEntreprise {
      * Set the ed bordereau prep.
      *
      * @param bool $edBordereauPrep The ed bordereau prep.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBordereauPrep($edBordereauPrep) {
         $this->edBordereauPrep = $edBordereauPrep;
@@ -4634,6 +4691,7 @@ class ConstantesEntreprise {
      * Set the ed bordereau prepa.
      *
      * @param bool $edBordereauPrepa The ed bordereau prepa.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBordereauPrepa($edBordereauPrepa) {
         $this->edBordereauPrepa = $edBordereauPrepa;
@@ -4644,6 +4702,7 @@ class ConstantesEntreprise {
      * Set the ed bul last fax.
      *
      * @param string $edBulLastFax The ed bul last fax.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBulLastFax($edBulLastFax) {
         $this->edBulLastFax = $edBulLastFax;
@@ -4654,6 +4713,7 @@ class ConstantesEntreprise {
      * Set the ed bul last mail.
      *
      * @param string $edBulLastMail The ed bul last mail.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBulLastMail($edBulLastMail) {
         $this->edBulLastMail = $edBulLastMail;
@@ -4664,6 +4724,7 @@ class ConstantesEntreprise {
      * Set the ed bul type sortie.
      *
      * @param string $edBulTypeSortie The ed bul type sortie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdBulTypeSortie($edBulTypeSortie) {
         $this->edBulTypeSortie = $edBulTypeSortie;
@@ -4674,6 +4735,7 @@ class ConstantesEntreprise {
      * Set the ed correspondance.
      *
      * @param bool $edCorrespondance The ed correspondance.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdCorrespondance($edCorrespondance) {
         $this->edCorrespondance = $edCorrespondance;
@@ -4684,6 +4746,7 @@ class ConstantesEntreprise {
      * Set the ed ducs auto.
      *
      * @param bool $edDucsAuto The ed ducs auto.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdDucsAuto($edDucsAuto) {
         $this->edDucsAuto = $edDucsAuto;
@@ -4694,6 +4757,7 @@ class ConstantesEntreprise {
      * Set the ed ducs nb ex.
      *
      * @param string $edDucsNbEx The ed ducs nb ex.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdDucsNbEx($edDucsNbEx) {
         $this->edDucsNbEx = $edDucsNbEx;
@@ -4704,6 +4768,7 @@ class ConstantesEntreprise {
      * Set the ed ducs opt btp.
      *
      * @param string $edDucsOptBtp The ed ducs opt btp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdDucsOptBtp($edDucsOptBtp) {
         $this->edDucsOptBtp = $edDucsOptBtp;
@@ -4714,6 +4779,7 @@ class ConstantesEntreprise {
      * Set the ed ducs type sortie.
      *
      * @param string $edDucsTypeSortie The ed ducs type sortie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdDucsTypeSortie($edDucsTypeSortie) {
         $this->edDucsTypeSortie = $edDucsTypeSortie;
@@ -4724,6 +4790,7 @@ class ConstantesEntreprise {
      * Set the ed h sup bonif que majo.
      *
      * @param bool $edHSupBonifQueMajo The ed h sup bonif que majo.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdHSupBonifQueMajo($edHSupBonifQueMajo) {
         $this->edHSupBonifQueMajo = $edHSupBonifQueMajo;
@@ -4734,6 +4801,7 @@ class ConstantesEntreprise {
      * Set the ed histo tri emp.
      *
      * @param string $edHistoTriEmp The ed histo tri emp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdHistoTriEmp($edHistoTriEmp) {
         $this->edHistoTriEmp = $edHistoTriEmp;
@@ -4744,6 +4812,7 @@ class ConstantesEntreprise {
      * Set the ed histo tri etablissement.
      *
      * @param bool $edHistoTriEtablissement The ed histo tri etablissement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdHistoTriEtablissement($edHistoTriEtablissement) {
         $this->edHistoTriEtablissement = $edHistoTriEtablissement;
@@ -4754,6 +4823,7 @@ class ConstantesEntreprise {
      * Set the ed histo tri service.
      *
      * @param bool $edHistoTriService The ed histo tri service.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdHistoTriService($edHistoTriService) {
         $this->edHistoTriService = $edHistoTriService;
@@ -4764,6 +4834,7 @@ class ConstantesEntreprise {
      * Set the ed histo type.
      *
      * @param string $edHistoType The ed histo type.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdHistoType($edHistoType) {
         $this->edHistoType = $edHistoType;
@@ -4774,6 +4845,7 @@ class ConstantesEntreprise {
      * Set the ed imput comptable.
      *
      * @param bool $edImputComptable The ed imput comptable.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdImputComptable($edImputComptable) {
         $this->edImputComptable = $edImputComptable;
@@ -4784,6 +4856,7 @@ class ConstantesEntreprise {
      * Set the ed texte1.
      *
      * @param string $edTexte1 The ed texte1.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdTexte1($edTexte1) {
         $this->edTexte1 = $edTexte1;
@@ -4794,6 +4867,7 @@ class ConstantesEntreprise {
      * Set the ed texte2.
      *
      * @param string $edTexte2 The ed texte2.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdTexte2($edTexte2) {
         $this->edTexte2 = $edTexte2;
@@ -4804,6 +4878,7 @@ class ConstantesEntreprise {
      * Set the ed trt cpta last fax.
      *
      * @param string $edTrtCptaLastFax The ed trt cpta last fax.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdTrtCptaLastFax($edTrtCptaLastFax) {
         $this->edTrtCptaLastFax = $edTrtCptaLastFax;
@@ -4814,6 +4889,7 @@ class ConstantesEntreprise {
      * Set the ed trt cpta last mail.
      *
      * @param string $edTrtCptaLastMail The ed trt cpta last mail.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdTrtCptaLastMail($edTrtCptaLastMail) {
         $this->edTrtCptaLastMail = $edTrtCptaLastMail;
@@ -4824,6 +4900,7 @@ class ConstantesEntreprise {
      * Set the ed trt cpta sortie.
      *
      * @param string $edTrtCptaSortie The ed trt cpta sortie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEdTrtCptaSortie($edTrtCptaSortie) {
         $this->edTrtCptaSortie = $edTrtCptaSortie;
@@ -4834,6 +4911,7 @@ class ConstantesEntreprise {
      * Set the edit qpxl absences.
      *
      * @param bool $editQpxlAbsences The edit qpxl absences.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEditQpxlAbsences($editQpxlAbsences) {
         $this->editQpxlAbsences = $editQpxlAbsences;
@@ -4844,6 +4922,7 @@ class ConstantesEntreprise {
      * Set the edit qpxl acomptes.
      *
      * @param bool $editQpxlAcomptes The edit qpxl acomptes.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEditQpxlAcomptes($editQpxlAcomptes) {
         $this->editQpxlAcomptes = $editQpxlAcomptes;
@@ -4854,6 +4933,7 @@ class ConstantesEntreprise {
      * Set the edit qpxl tri emp.
      *
      * @param string $editQpxlTriEmp The edit qpxl tri emp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEditQpxlTriEmp($editQpxlTriEmp) {
         $this->editQpxlTriEmp = $editQpxlTriEmp;
@@ -4864,6 +4944,7 @@ class ConstantesEntreprise {
      * Set the edit qpxl vider lib.
      *
      * @param bool $editQpxlViderLib The edit qpxl vider lib.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEditQpxlViderLib($editQpxlViderLib) {
         $this->editQpxlViderLib = $editQpxlViderLib;
@@ -4874,6 +4955,7 @@ class ConstantesEntreprise {
      * Set the editer bulletin stc.
      *
      * @param bool $editerBulletinStc The editer bulletin stc.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEditerBulletinStc($editerBulletinStc) {
         $this->editerBulletinStc = $editerBulletinStc;
@@ -4884,6 +4966,7 @@ class ConstantesEntreprise {
      * Set the edition cheque tc.
      *
      * @param bool $editionChequeTc The edition cheque tc.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEditionChequeTc($editionChequeTc) {
         $this->editionChequeTc = $editionChequeTc;
@@ -4894,6 +4977,7 @@ class ConstantesEntreprise {
      * Set the edition date.
      *
      * @param bool $editionDate The edition date.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEditionDate($editionDate) {
         $this->editionDate = $editionDate;
@@ -4904,6 +4988,7 @@ class ConstantesEntreprise {
      * Set the edition heure.
      *
      * @param bool $editionHeure The edition heure.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEditionHeure($editionHeure) {
         $this->editionHeure = $editionHeure;
@@ -4914,6 +4999,7 @@ class ConstantesEntreprise {
      * Set the email.
      *
      * @param string $email The email.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -4924,6 +5010,7 @@ class ConstantesEntreprise {
      * Set the entete solde tc.
      *
      * @param bool $enteteSoldeTc The entete solde tc.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEnteteSoldeTc($enteteSoldeTc) {
         $this->enteteSoldeTc = $enteteSoldeTc;
@@ -4934,6 +5021,7 @@ class ConstantesEntreprise {
      * Set the etat controle dadsu.
      *
      * @param string $etatControleDadsu The etat controle dadsu.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEtatControleDadsu($etatControleDadsu) {
         $this->etatControleDadsu = $etatControleDadsu;
@@ -4944,6 +5032,7 @@ class ConstantesEntreprise {
      * Set the etat ctrl norme.
      *
      * @param string $etatCtrlNorme The etat ctrl norme.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEtatCtrlNorme($etatCtrlNorme) {
         $this->etatCtrlNorme = $etatCtrlNorme;
@@ -4954,6 +5043,7 @@ class ConstantesEntreprise {
      * Set the etat das.
      *
      * @param string $etatDas The etat das.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEtatDas($etatDas) {
         $this->etatDas = $etatDas;
@@ -4964,6 +5054,7 @@ class ConstantesEntreprise {
      * Set the etat das rect.
      *
      * @param string $etatDasRect The etat das rect.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setEtatDasRect($etatDasRect) {
         $this->etatDasRect = $etatDasRect;
@@ -4974,6 +5065,7 @@ class ConstantesEntreprise {
      * Set the fichier unique.
      *
      * @param bool $fichierUnique The fichier unique.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setFichierUnique($fichierUnique) {
         $this->fichierUnique = $fichierUnique;
@@ -4984,6 +5076,7 @@ class ConstantesEntreprise {
      * Set the filtrer liste emp.
      *
      * @param int $filtrerListeEmp The filtrer liste emp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setFiltrerListeEmp($filtrerListeEmp) {
         $this->filtrerListeEmp = $filtrerListeEmp;
@@ -4994,6 +5087,7 @@ class ConstantesEntreprise {
      * Set the fin periode das.
      *
      * @param DateTime|null $finPeriodeDas The fin periode das.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setFinPeriodeDas(DateTime $finPeriodeDas = null) {
         $this->finPeriodeDas = $finPeriodeDas;
@@ -5004,6 +5098,7 @@ class ConstantesEntreprise {
      * Set the fin periode histo das.
      *
      * @param DateTime|null $finPeriodeHistoDas The fin periode histo das.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setFinPeriodeHistoDas(DateTime $finPeriodeHistoDas = null) {
         $this->finPeriodeHistoDas = $finPeriodeHistoDas;
@@ -5014,6 +5109,7 @@ class ConstantesEntreprise {
      * Set the flag traite.
      *
      * @param string $flagTraite The flag traite.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setFlagTraite($flagTraite) {
         $this->flagTraite = $flagTraite;
@@ -5024,6 +5120,7 @@ class ConstantesEntreprise {
      * Set the flag traite2.
      *
      * @param int $flagTraite2 The flag traite2.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setFlagTraite2($flagTraite2) {
         $this->flagTraite2 = $flagTraite2;
@@ -5034,6 +5131,7 @@ class ConstantesEntreprise {
      * Set the flag traite3.
      *
      * @param int $flagTraite3 The flag traite3.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setFlagTraite3($flagTraite3) {
         $this->flagTraite3 = $flagTraite3;
@@ -5044,6 +5142,7 @@ class ConstantesEntreprise {
      * Set the format fic virement.
      *
      * @param string $formatFicVirement The format fic virement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setFormatFicVirement($formatFicVirement) {
         $this->formatFicVirement = $formatFicVirement;
@@ -5054,6 +5153,7 @@ class ConstantesEntreprise {
      * Set the gest num bulletin.
      *
      * @param bool $gestNumBulletin The gest num bulletin.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestNumBulletin($gestNumBulletin) {
         $this->gestNumBulletin = $gestNumBulletin;
@@ -5064,6 +5164,7 @@ class ConstantesEntreprise {
      * Set the gest repo compens.
      *
      * @param bool $gestRepoCompens The gest repo compens.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestRepoCompens($gestRepoCompens) {
         $this->gestRepoCompens = $gestRepoCompens;
@@ -5074,6 +5175,7 @@ class ConstantesEntreprise {
      * Set the gest texte.
      *
      * @param bool $gestTexte The gest texte.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestTexte($gestTexte) {
         $this->gestTexte = $gestTexte;
@@ -5084,6 +5186,7 @@ class ConstantesEntreprise {
      * Set the gestion coeff.
      *
      * @param bool $gestionCoeff The gestion coeff.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestionCoeff($gestionCoeff) {
         $this->gestionCoeff = $gestionCoeff;
@@ -5094,6 +5197,7 @@ class ConstantesEntreprise {
      * Set the gestion coeff grille.
      *
      * @param bool $gestionCoeffGrille The gestion coeff grille.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestionCoeffGrille($gestionCoeffGrille) {
         $this->gestionCoeffGrille = $gestionCoeffGrille;
@@ -5104,6 +5208,7 @@ class ConstantesEntreprise {
      * Set the gestion exemplaire.
      *
      * @param string $gestionExemplaire The gestion exemplaire.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestionExemplaire($gestionExemplaire) {
         $this->gestionExemplaire = $gestionExemplaire;
@@ -5114,6 +5219,7 @@ class ConstantesEntreprise {
      * Set the gestion intemperie.
      *
      * @param bool $gestionIntemperie The gestion intemperie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestionIntemperie($gestionIntemperie) {
         $this->gestionIntemperie = $gestionIntemperie;
@@ -5124,6 +5230,7 @@ class ConstantesEntreprise {
      * Set the gestion numero employe auto.
      *
      * @param bool $gestionNumeroEmployeAuto The gestion numero employe auto.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestionNumeroEmployeAuto($gestionNumeroEmployeAuto) {
         $this->gestionNumeroEmployeAuto = $gestionNumeroEmployeAuto;
@@ -5134,6 +5241,7 @@ class ConstantesEntreprise {
      * Set the gestion qpxl.
      *
      * @param bool $gestionQpxl The gestion qpxl.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestionQpxl($gestionQpxl) {
         $this->gestionQpxl = $gestionQpxl;
@@ -5144,6 +5252,7 @@ class ConstantesEntreprise {
      * Set the gestion td bilaterale.
      *
      * @param bool $gestionTdBilaterale The gestion td bilaterale.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestionTdBilaterale($gestionTdBilaterale) {
         $this->gestionTdBilaterale = $gestionTdBilaterale;
@@ -5154,6 +5263,7 @@ class ConstantesEntreprise {
      * Set the gestion td sou dadsu.
      *
      * @param bool $gestionTdSouDadsu The gestion td sou dadsu.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGestionTdSouDadsu($gestionTdSouDadsu) {
         $this->gestionTdSouDadsu = $gestionTdSouDadsu;
@@ -5164,6 +5274,7 @@ class ConstantesEntreprise {
      * Set the groupe gi.
      *
      * @param string $groupeGi The groupe gi.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setGroupeGi($groupeGi) {
         $this->groupeGi = $groupeGi;
@@ -5174,6 +5285,7 @@ class ConstantesEntreprise {
      * Set the h bonif influ cassation.
      *
      * @param string $hBonifInfluCassation The h bonif influ cassation.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHBonifInfluCassation($hBonifInfluCassation) {
         $this->hBonifInfluCassation = $hBonifInfluCassation;
@@ -5184,6 +5296,7 @@ class ConstantesEntreprise {
      * Set the h sup1 structurelle.
      *
      * @param bool $hSup1Structurelle The h sup1 structurelle.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHSup1Structurelle($hSup1Structurelle) {
         $this->hSup1Structurelle = $hSup1Structurelle;
@@ -5194,6 +5307,7 @@ class ConstantesEntreprise {
      * Set the h sup2 structurelle.
      *
      * @param bool $hSup2Structurelle The h sup2 structurelle.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHSup2Structurelle($hSup2Structurelle) {
         $this->hSup2Structurelle = $hSup2Structurelle;
@@ -5204,6 +5318,7 @@ class ConstantesEntreprise {
      * Set the h sup3 structurelle.
      *
      * @param bool $hSup3Structurelle The h sup3 structurelle.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHSup3Structurelle($hSup3Structurelle) {
         $this->hSup3Structurelle = $hSup3Structurelle;
@@ -5214,6 +5329,7 @@ class ConstantesEntreprise {
      * Set the h sup4 structurelle.
      *
      * @param bool $hSup4Structurelle The h sup4 structurelle.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHSup4Structurelle($hSup4Structurelle) {
         $this->hSup4Structurelle = $hSup4Structurelle;
@@ -5224,6 +5340,7 @@ class ConstantesEntreprise {
      * Set the h sup5 structurelle.
      *
      * @param bool $hSup5Structurelle The h sup5 structurelle.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHSup5Structurelle($hSup5Structurelle) {
         $this->hSup5Structurelle = $hSup5Structurelle;
@@ -5234,6 +5351,7 @@ class ConstantesEntreprise {
      * Set the heure sup2 influ cassation.
      *
      * @param string $heureSup2InfluCassation The heure sup2 influ cassation.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHeureSup2InfluCassation($heureSup2InfluCassation) {
         $this->heureSup2InfluCassation = $heureSup2InfluCassation;
@@ -5244,6 +5362,7 @@ class ConstantesEntreprise {
      * Set the heure sup3 influ cassation.
      *
      * @param string $heureSup3InfluCassation The heure sup3 influ cassation.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHeureSup3InfluCassation($heureSup3InfluCassation) {
         $this->heureSup3InfluCassation = $heureSup3InfluCassation;
@@ -5254,6 +5373,7 @@ class ConstantesEntreprise {
      * Set the heure sup4 influ cassation.
      *
      * @param string $heureSup4InfluCassation The heure sup4 influ cassation.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHeureSup4InfluCassation($heureSup4InfluCassation) {
         $this->heureSup4InfluCassation = $heureSup4InfluCassation;
@@ -5264,6 +5384,7 @@ class ConstantesEntreprise {
      * Set the heure sup5 influ cassation.
      *
      * @param string $heureSup5InfluCassation The heure sup5 influ cassation.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHeureSup5InfluCassation($heureSup5InfluCassation) {
         $this->heureSup5InfluCassation = $heureSup5InfluCassation;
@@ -5274,6 +5395,7 @@ class ConstantesEntreprise {
      * Set the heure sup influ cassation.
      *
      * @param string $heureSupInfluCassation The heure sup influ cassation.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHeureSupInfluCassation($heureSupInfluCassation) {
         $this->heureSupInfluCassation = $heureSupInfluCassation;
@@ -5284,6 +5406,7 @@ class ConstantesEntreprise {
      * Set the heure theo base trav.
      *
      * @param string $heureTheoBaseTrav The heure theo base trav.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setHeureTheoBaseTrav($heureTheoBaseTrav) {
         $this->heureTheoBaseTrav = $heureTheoBaseTrav;
@@ -5294,6 +5417,7 @@ class ConstantesEntreprise {
      * Set the indem cp intervient brut al.
      *
      * @param bool $indemCpIntervientBrutAl The indem cp intervient brut al.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setIndemCpIntervientBrutAl($indemCpIntervientBrutAl) {
         $this->indemCpIntervientBrutAl = $indemCpIntervientBrutAl;
@@ -5304,6 +5428,7 @@ class ConstantesEntreprise {
      * Set the jour debut transfert.
      *
      * @param int $jourDebutTransfert The jour debut transfert.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setJourDebutTransfert($jourDebutTransfert) {
         $this->jourDebutTransfert = $jourDebutTransfert;
@@ -5314,6 +5439,7 @@ class ConstantesEntreprise {
      * Set the jour fin transfert.
      *
      * @param int $jourFinTransfert The jour fin transfert.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setJourFinTransfert($jourFinTransfert) {
         $this->jourFinTransfert = $jourFinTransfert;
@@ -5324,6 +5450,7 @@ class ConstantesEntreprise {
      * Set the jrn format.
      *
      * @param string $jrnFormat The jrn format.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setJrnFormat($jrnFormat) {
         $this->jrnFormat = $jrnFormat;
@@ -5334,6 +5461,7 @@ class ConstantesEntreprise {
      * Set the jrn regroupe abs.
      *
      * @param bool $jrnRegroupeAbs The jrn regroupe abs.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setJrnRegroupeAbs($jrnRegroupeAbs) {
         $this->jrnRegroupeAbs = $jrnRegroupeAbs;
@@ -5344,6 +5472,7 @@ class ConstantesEntreprise {
      * Set the jrn tri.
      *
      * @param string $jrnTri The jrn tri.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setJrnTri($jrnTri) {
         $this->jrnTri = $jrnTri;
@@ -5354,6 +5483,7 @@ class ConstantesEntreprise {
      * Set the jrn tri etablissement.
      *
      * @param string $jrnTriEtablissement The jrn tri etablissement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setJrnTriEtablissement($jrnTriEtablissement) {
         $this->jrnTriEtablissement = $jrnTriEtablissement;
@@ -5364,6 +5494,7 @@ class ConstantesEntreprise {
      * Set the jrn tri service.
      *
      * @param string $jrnTriService The jrn tri service.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setJrnTriService($jrnTriService) {
         $this->jrnTriService = $jrnTriService;
@@ -5374,6 +5505,7 @@ class ConstantesEntreprise {
      * Set the jrn type.
      *
      * @param string $jrnType The jrn type.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setJrnType($jrnType) {
         $this->jrnType = $jrnType;
@@ -5384,6 +5516,7 @@ class ConstantesEntreprise {
      * Set the liaison proprete.
      *
      * @param bool $liaisonProprete The liaison proprete.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLiaisonProprete($liaisonProprete) {
         $this->liaisonProprete = $liaisonProprete;
@@ -5394,6 +5527,7 @@ class ConstantesEntreprise {
      * Set the lib arbitrage.
      *
      * @param string $libArbitrage The lib arbitrage.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibArbitrage($libArbitrage) {
         $this->libArbitrage = $libArbitrage;
@@ -5404,6 +5538,7 @@ class ConstantesEntreprise {
      * Set the lib base conge.
      *
      * @param string $libBaseConge The lib base conge.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibBaseConge($libBaseConge) {
         $this->libBaseConge = $libBaseConge;
@@ -5414,6 +5549,7 @@ class ConstantesEntreprise {
      * Set the lib bqcp.
      *
      * @param string $libBqcp The lib bqcp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibBqcp($libBqcp) {
         $this->libBqcp = $libBqcp;
@@ -5424,6 +5560,7 @@ class ConstantesEntreprise {
      * Set the lib cachet aem.
      *
      * @param string $libCachetAem The lib cachet aem.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibCachetAem($libCachetAem) {
         $this->libCachetAem = $libCachetAem;
@@ -5434,6 +5571,7 @@ class ConstantesEntreprise {
      * Set the lib cotis cne.
      *
      * @param string $libCotisCne The lib cotis cne.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibCotisCne($libCotisCne) {
         $this->libCotisCne = $libCotisCne;
@@ -5444,6 +5582,7 @@ class ConstantesEntreprise {
      * Set the lib fin contrat.
      *
      * @param string $libFinContrat The lib fin contrat.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibFinContrat($libFinContrat) {
         $this->libFinContrat = $libFinContrat;
@@ -5454,6 +5593,7 @@ class ConstantesEntreprise {
      * Set the lib fin contrat cne.
      *
      * @param string $libFinContratCne The lib fin contrat cne.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibFinContratCne($libFinContratCne) {
         $this->libFinContratCne = $libFinContratCne;
@@ -5464,6 +5604,7 @@ class ConstantesEntreprise {
      * Set the lib indem cp.
      *
      * @param string $libIndemCp The lib indem cp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibIndemCp($libIndemCp) {
         $this->libIndemCp = $libIndemCp;
@@ -5474,6 +5615,7 @@ class ConstantesEntreprise {
      * Set the libelle libre virement.
      *
      * @param string $libelleLibreVirement The libelle libre virement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLibelleLibreVirement($libelleLibreVirement) {
         $this->libelleLibreVirement = $libelleLibreVirement;
@@ -5484,6 +5626,7 @@ class ConstantesEntreprise {
      * Set the ligne bul euro.
      *
      * @param bool $ligneBulEuro The ligne bul euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLigneBulEuro($ligneBulEuro) {
         $this->ligneBulEuro = $ligneBulEuro;
@@ -5494,6 +5637,7 @@ class ConstantesEntreprise {
      * Set the lignes transport.
      *
      * @param bool $lignesTransport The lignes transport.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setLignesTransport($lignesTransport) {
         $this->lignesTransport = $lignesTransport;
@@ -5504,6 +5648,7 @@ class ConstantesEntreprise {
      * Set the mail bulletin.
      *
      * @param string $mailBulletin The mail bulletin.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setMailBulletin($mailBulletin) {
         $this->mailBulletin = $mailBulletin;
@@ -5514,6 +5659,7 @@ class ConstantesEntreprise {
      * Set the mail bulletin cle.
      *
      * @param string $mailBulletinCle The mail bulletin cle.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setMailBulletinCle($mailBulletinCle) {
         $this->mailBulletinCle = $mailBulletinCle;
@@ -5524,6 +5670,7 @@ class ConstantesEntreprise {
      * Set the mail bulletin pj.
      *
      * @param string $mailBulletinPj The mail bulletin pj.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setMailBulletinPj($mailBulletinPj) {
         $this->mailBulletinPj = $mailBulletinPj;
@@ -5534,6 +5681,7 @@ class ConstantesEntreprise {
      * Set the mail c li ducs edi.
      *
      * @param bool $mailCLiDucsEdi The mail c li ducs edi.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setMailCLiDucsEdi($mailCLiDucsEdi) {
         $this->mailCLiDucsEdi = $mailCLiDucsEdi;
@@ -5544,6 +5692,7 @@ class ConstantesEntreprise {
      * Set the mention cp.
      *
      * @param bool $mentionCp The mention cp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setMentionCp($mentionCp) {
         $this->mentionCp = $mentionCp;
@@ -5554,6 +5703,7 @@ class ConstantesEntreprise {
      * Set the message vu.
      *
      * @param bool $messageVu The message vu.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setMessageVu($messageVu) {
         $this->messageVu = $messageVu;
@@ -5564,6 +5714,7 @@ class ConstantesEntreprise {
      * Set the millesime1.
      *
      * @param int $millesime1 The millesime1.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setMillesime1($millesime1) {
         $this->millesime1 = $millesime1;
@@ -5574,6 +5725,7 @@ class ConstantesEntreprise {
      * Set the mode planning.
      *
      * @param int $modePlanning The mode planning.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setModePlanning($modePlanning) {
         $this->modePlanning = $modePlanning;
@@ -5584,6 +5736,7 @@ class ConstantesEntreprise {
      * Set the modele apercu.
      *
      * @param string $modeleApercu The modele apercu.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setModeleApercu($modeleApercu) {
         $this->modeleApercu = $modeleApercu;
@@ -5594,6 +5747,7 @@ class ConstantesEntreprise {
      * Set the modele bon bleu.
      *
      * @param string $modeleBonBleu The modele bon bleu.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setModeleBonBleu($modeleBonBleu) {
         $this->modeleBonBleu = $modeleBonBleu;
@@ -5604,6 +5758,7 @@ class ConstantesEntreprise {
      * Set the modele bulletin.
      *
      * @param string $modeleBulletin The modele bulletin.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setModeleBulletin($modeleBulletin) {
         $this->modeleBulletin = $modeleBulletin;
@@ -5614,6 +5769,7 @@ class ConstantesEntreprise {
      * Set the modele certif.
      *
      * @param string $modeleCertif The modele certif.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setModeleCertif($modeleCertif) {
         $this->modeleCertif = $modeleCertif;
@@ -5624,6 +5780,7 @@ class ConstantesEntreprise {
      * Set the modele certif trav.
      *
      * @param string $modeleCertifTrav The modele certif trav.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setModeleCertifTrav($modeleCertifTrav) {
         $this->modeleCertifTrav = $modeleCertifTrav;
@@ -5634,6 +5791,7 @@ class ConstantesEntreprise {
      * Set the modele cheque.
      *
      * @param string $modeleCheque The modele cheque.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setModeleCheque($modeleCheque) {
         $this->modeleCheque = $modeleCheque;
@@ -5644,6 +5802,7 @@ class ConstantesEntreprise {
      * Set the mois cloture an.
      *
      * @param string $moisClotureAn The mois cloture an.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setMoisClotureAn($moisClotureAn) {
         $this->moisClotureAn = $moisClotureAn;
@@ -5654,6 +5813,7 @@ class ConstantesEntreprise {
      * Set the n attest aem.
      *
      * @param int $nAttestAem The n attest aem.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNAttestAem($nAttestAem) {
         $this->nAttestAem = $nAttestAem;
@@ -5664,6 +5824,7 @@ class ConstantesEntreprise {
      * Set the n attest aemedi.
      *
      * @param int $nAttestAemedi The n attest aemedi.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNAttestAemedi($nAttestAemedi) {
         $this->nAttestAemedi = $nAttestAemedi;
@@ -5674,6 +5835,7 @@ class ConstantesEntreprise {
      * Set the n attest aemx.
      *
      * @param int $nAttestAemx The n attest aemx.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNAttestAemx($nAttestAemx) {
         $this->nAttestAemx = $nAttestAemx;
@@ -5684,6 +5846,7 @@ class ConstantesEntreprise {
      * Set the n attest assedic.
      *
      * @param int $nAttestAssedic The n attest assedic.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNAttestAssedic($nAttestAssedic) {
         $this->nAttestAssedic = $nAttestAssedic;
@@ -5694,6 +5857,7 @@ class ConstantesEntreprise {
      * Set the n attest extras.
      *
      * @param int $nAttestExtras The n attest extras.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNAttestExtras($nAttestExtras) {
         $this->nAttestExtras = $nAttestExtras;
@@ -5704,6 +5868,7 @@ class ConstantesEntreprise {
      * Set the n attest ijss.
      *
      * @param int $nAttestIjss The n attest ijss.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNAttestIjss($nAttestIjss) {
         $this->nAttestIjss = $nAttestIjss;
@@ -5714,6 +5879,7 @@ class ConstantesEntreprise {
      * Set the n attest ijss at.
      *
      * @param int $nAttestIjssAt The n attest ijss at.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNAttestIjssAt($nAttestIjssAt) {
         $this->nAttestIjssAt = $nAttestIjssAt;
@@ -5724,6 +5890,7 @@ class ConstantesEntreprise {
      * Set the n der document.
      *
      * @param int $nDerDocument The n der document.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNDerDocument($nDerDocument) {
         $this->nDerDocument = $nDerDocument;
@@ -5734,6 +5901,7 @@ class ConstantesEntreprise {
      * Set the nap euro.
      *
      * @param bool $napEuro The nap euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNapEuro($napEuro) {
         $this->napEuro = $napEuro;
@@ -5744,6 +5912,7 @@ class ConstantesEntreprise {
      * Set the nb exemplaire.
      *
      * @param string $nbExemplaire The nb exemplaire.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNbExemplaire($nbExemplaire) {
         $this->nbExemplaire = $nbExemplaire;
@@ -5754,6 +5923,7 @@ class ConstantesEntreprise {
      * Set the nce conges spectacles.
      *
      * @param int $nceCongesSpectacles The nce conges spectacles.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNceCongesSpectacles($nceCongesSpectacles) {
         $this->nceCongesSpectacles = $nceCongesSpectacles;
@@ -5764,6 +5934,7 @@ class ConstantesEntreprise {
      * Set the nouv param retraite type.
      *
      * @param bool $nouvParamRetraiteType The nouv param retraite type.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setNouvParamRetraiteType($nouvParamRetraiteType) {
         $this->nouvParamRetraiteType = $nouvParamRetraiteType;
@@ -5774,6 +5945,7 @@ class ConstantesEntreprise {
      * Set the options calc abs.
      *
      * @param bool $optionsCalcAbs The options calc abs.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setOptionsCalcAbs($optionsCalcAbs) {
         $this->optionsCalcAbs = $optionsCalcAbs;
@@ -5784,6 +5956,7 @@ class ConstantesEntreprise {
      * Set the ordre libelle h sup.
      *
      * @param string $ordreLibelleHSup The ordre libelle h sup.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setOrdreLibelleHSup($ordreLibelleHSup) {
         $this->ordreLibelleHSup = $ordreLibelleHSup;
@@ -5794,6 +5967,7 @@ class ConstantesEntreprise {
      * Set the paie euro.
      *
      * @param bool $paieEuro The paie euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPaieEuro($paieEuro) {
         $this->paieEuro = $paieEuro;
@@ -5804,6 +5978,7 @@ class ConstantesEntreprise {
      * Set the part sal seule.
      *
      * @param bool $partSalSeule The part sal seule.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPartSalSeule($partSalSeule) {
         $this->partSalSeule = $partSalSeule;
@@ -5814,6 +5989,7 @@ class ConstantesEntreprise {
      * Set the pas gestion indice bul.
      *
      * @param bool $pasGestionIndiceBul The pas gestion indice bul.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPasGestionIndiceBul($pasGestionIndiceBul) {
         $this->pasGestionIndiceBul = $pasGestionIndiceBul;
@@ -5824,6 +6000,7 @@ class ConstantesEntreprise {
      * Set the pas prendre iccp fillon.
      *
      * @param bool $pasPrendreIccpFillon The pas prendre iccp fillon.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPasPrendreIccpFillon($pasPrendreIccpFillon) {
         $this->pasPrendreIccpFillon = $pasPrendreIccpFillon;
@@ -5834,6 +6011,7 @@ class ConstantesEntreprise {
      * Set the pas sous tot s base.
      *
      * @param bool $pasSousTotSBase The pas sous tot s base.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPasSousTotSBase($pasSousTotSBase) {
         $this->pasSousTotSBase = $pasSousTotSBase;
@@ -5844,6 +6022,7 @@ class ConstantesEntreprise {
      * Set the passage35 h fait.
      *
      * @param bool $passage35HFait The passage35 h fait.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPassage35HFait($passage35HFait) {
         $this->passage35HFait = $passage35HFait;
@@ -5854,6 +6033,7 @@ class ConstantesEntreprise {
      * Set the path virement.
      *
      * @param string $pathVirement The path virement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPathVirement($pathVirement) {
         $this->pathVirement = $pathVirement;
@@ -5864,6 +6044,7 @@ class ConstantesEntreprise {
      * Set the periode i paie.
      *
      * @param DateTime|null $periodeIPaie The periode i paie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPeriodeIPaie(DateTime $periodeIPaie = null) {
         $this->periodeIPaie = $periodeIPaie;
@@ -5874,6 +6055,7 @@ class ConstantesEntreprise {
      * Set the periode paie.
      *
      * @param DateTime|null $periodePaie The periode paie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPeriodePaie(DateTime $periodePaie = null) {
         $this->periodePaie = $periodePaie;
@@ -5884,6 +6066,7 @@ class ConstantesEntreprise {
      * Set the pj mail c li ducs edi.
      *
      * @param bool $pjMailCLiDucsEdi The pj mail c li ducs edi.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPjMailCLiDucsEdi($pjMailCLiDucsEdi) {
         $this->pjMailCLiDucsEdi = $pjMailCLiDucsEdi;
@@ -5894,6 +6077,7 @@ class ConstantesEntreprise {
      * Set the pj mail cli coupon paiement.
      *
      * @param bool $pjMailCliCouponPaiement The pj mail cli coupon paiement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPjMailCliCouponPaiement($pjMailCliCouponPaiement) {
         $this->pjMailCliCouponPaiement = $pjMailCliCouponPaiement;
@@ -5904,6 +6088,7 @@ class ConstantesEntreprise {
      * Set the plafond.
      *
      * @param float $plafond The plafond.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPlafond($plafond) {
         $this->plafond = $plafond;
@@ -5914,6 +6099,7 @@ class ConstantesEntreprise {
      * Set the porta frais sante certif trav.
      *
      * @param bool $portaFraisSanteCertifTrav The porta frais sante certif trav.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPortaFraisSanteCertifTrav($portaFraisSanteCertifTrav) {
         $this->portaFraisSanteCertifTrav = $portaFraisSanteCertifTrav;
@@ -5924,6 +6110,7 @@ class ConstantesEntreprise {
      * Set the porta prevoyance oblig.
      *
      * @param bool $portaPrevoyanceOblig The porta prevoyance oblig.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPortaPrevoyanceOblig($portaPrevoyanceOblig) {
         $this->portaPrevoyanceOblig = $portaPrevoyanceOblig;
@@ -5934,6 +6121,7 @@ class ConstantesEntreprise {
      * Set the preparation tdp.
      *
      * @param bool $preparationTdp The preparation tdp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPreparationTdp($preparationTdp) {
         $this->preparationTdp = $preparationTdp;
@@ -5944,6 +6132,7 @@ class ConstantesEntreprise {
      * Set the presence min.
      *
      * @param string $presenceMin The presence min.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setPresenceMin($presenceMin) {
         $this->presenceMin = $presenceMin;
@@ -5954,6 +6143,7 @@ class ConstantesEntreprise {
      * Set the prorata dif certif trav.
      *
      * @param bool $prorataDifCertifTrav The prorata dif certif trav.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setProrataDifCertifTrav($prorataDifCertifTrav) {
         $this->prorataDifCertifTrav = $prorataDifCertifTrav;
@@ -5964,6 +6154,7 @@ class ConstantesEntreprise {
      * Set the raz commentaire.
      *
      * @param string $razCommentaire The raz commentaire.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setRazCommentaire($razCommentaire) {
         $this->razCommentaire = $razCommentaire;
@@ -5974,6 +6165,7 @@ class ConstantesEntreprise {
      * Set the raz h sup.
      *
      * @param string $razHSup The raz h sup.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setRazHSup($razHSup) {
         $this->razHSup = $razHSup;
@@ -5984,6 +6176,7 @@ class ConstantesEntreprise {
      * Set the rdlpascii.
      *
      * @param bool $rdlpascii The rdlpascii.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setRdlpascii($rdlpascii) {
         $this->rdlpascii = $rdlpascii;
@@ -5994,6 +6187,7 @@ class ConstantesEntreprise {
      * Set the rdlpemployes.
      *
      * @param bool $rdlpemployes The rdlpemployes.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setRdlpemployes($rdlpemployes) {
         $this->rdlpemployes = $rdlpemployes;
@@ -6004,6 +6198,7 @@ class ConstantesEntreprise {
      * Set the ref remise.
      *
      * @param int $refRemise The ref remise.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setRefRemise($refRemise) {
         $this->refRemise = $refRemise;
@@ -6014,6 +6209,7 @@ class ConstantesEntreprise {
      * Set the ref trans.
      *
      * @param int $refTrans The ref trans.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setRefTrans($refTrans) {
         $this->refTrans = $refTrans;
@@ -6024,6 +6220,7 @@ class ConstantesEntreprise {
      * Set the reference interne virement.
      *
      * @param string $referenceInterneVirement The reference interne virement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setReferenceInterneVirement($referenceInterneVirement) {
         $this->referenceInterneVirement = $referenceInterneVirement;
@@ -6034,6 +6231,7 @@ class ConstantesEntreprise {
      * Set the regroup lib ed bul.
      *
      * @param bool $regroupLibEdBul The regroup lib ed bul.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setRegroupLibEdBul($regroupLibEdBul) {
         $this->regroupLibEdBul = $regroupLibEdBul;
@@ -6044,6 +6242,7 @@ class ConstantesEntreprise {
      * Set the report minimum.
      *
      * @param int $reportMinimum The report minimum.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setReportMinimum($reportMinimum) {
         $this->reportMinimum = $reportMinimum;
@@ -6054,6 +6253,7 @@ class ConstantesEntreprise {
      * Set the retraite97.
      *
      * @param bool $retraite97 The retraite97.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setRetraite97($retraite97) {
         $this->retraite97 = $retraite97;
@@ -6064,6 +6264,7 @@ class ConstantesEntreprise {
      * Set the sais plan emp sem.
      *
      * @param string $saisPlanEmpSem The sais plan emp sem.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setSaisPlanEmpSem($saisPlanEmpSem) {
         $this->saisPlanEmpSem = $saisPlanEmpSem;
@@ -6074,6 +6275,7 @@ class ConstantesEntreprise {
      * Set the saisie indice bul.
      *
      * @param bool $saisieIndiceBul The saisie indice bul.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setSaisieIndiceBul($saisieIndiceBul) {
         $this->saisieIndiceBul = $saisieIndiceBul;
@@ -6084,6 +6286,7 @@ class ConstantesEntreprise {
      * Set the saut page.
      *
      * @param bool $sautPage The saut page.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setSautPage($sautPage) {
         $this->sautPage = $sautPage;
@@ -6094,6 +6297,7 @@ class ConstantesEntreprise {
      * Set the seuil.
      *
      * @param float $seuil The seuil.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setSeuil($seuil) {
         $this->seuil = $seuil;
@@ -6104,6 +6308,7 @@ class ConstantesEntreprise {
      * Set the seuil conting.
      *
      * @param float $seuilConting The seuil conting.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setSeuilConting($seuilConting) {
         $this->seuilConting = $seuilConting;
@@ -6114,6 +6319,7 @@ class ConstantesEntreprise {
      * Set the stc auto.
      *
      * @param bool $stcAuto The stc auto.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setStcAuto($stcAuto) {
         $this->stcAuto = $stcAuto;
@@ -6124,6 +6330,7 @@ class ConstantesEntreprise {
      * Set the tab bord tri etablissement.
      *
      * @param bool $tabBordTriEtablissement The tab bord tri etablissement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTabBordTriEtablissement($tabBordTriEtablissement) {
         $this->tabBordTriEtablissement = $tabBordTriEtablissement;
@@ -6134,6 +6341,7 @@ class ConstantesEntreprise {
      * Set the tab bord tri service.
      *
      * @param bool $tabBordTriService The tab bord tri service.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTabBordTriService($tabBordTriService) {
         $this->tabBordTriService = $tabBordTriService;
@@ -6144,6 +6352,7 @@ class ConstantesEntreprise {
      * Set the tableau charge.
      *
      * @param string $tableauCharge The tableau charge.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTableauCharge($tableauCharge) {
         $this->tableauCharge = $tableauCharge;
@@ -6154,6 +6363,7 @@ class ConstantesEntreprise {
      * Set the tds annee.
      *
      * @param int $tdsAnnee The tds annee.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTdsAnnee($tdsAnnee) {
         $this->tdsAnnee = $tdsAnnee;
@@ -6164,6 +6374,7 @@ class ConstantesEntreprise {
      * Set the tds euro.
      *
      * @param bool $tdsEuro The tds euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTdsEuro($tdsEuro) {
         $this->tdsEuro = $tdsEuro;
@@ -6174,6 +6385,7 @@ class ConstantesEntreprise {
      * Set the tot gene isole.
      *
      * @param string $totGeneIsole The tot gene isole.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTotGeneIsole($totGeneIsole) {
         $this->totGeneIsole = $totGeneIsole;
@@ -6184,6 +6396,7 @@ class ConstantesEntreprise {
      * Set the tot service isole.
      *
      * @param string $totServiceIsole The tot service isole.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTotServiceIsole($totServiceIsole) {
         $this->totServiceIsole = $totServiceIsole;
@@ -6194,6 +6407,7 @@ class ConstantesEntreprise {
      * Set the total etab isole.
      *
      * @param string $totalEtabIsole The total etab isole.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTotalEtabIsole($totalEtabIsole) {
         $this->totalEtabIsole = $totalEtabIsole;
@@ -6204,6 +6418,7 @@ class ConstantesEntreprise {
      * Set the trans rupture.
      *
      * @param string $transRupture The trans rupture.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTransRupture($transRupture) {
         $this->transRupture = $transRupture;
@@ -6214,6 +6429,7 @@ class ConstantesEntreprise {
      * Set the trans tri etablissement.
      *
      * @param string $transTriEtablissement The trans tri etablissement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTransTriEtablissement($transTriEtablissement) {
         $this->transTriEtablissement = $transTriEtablissement;
@@ -6224,6 +6440,7 @@ class ConstantesEntreprise {
      * Set the transfert tds emp.
      *
      * @param bool $transfertTdsEmp The transfert tds emp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTransfertTdsEmp($transfertTdsEmp) {
         $this->transfertTdsEmp = $transfertTdsEmp;
@@ -6234,6 +6451,7 @@ class ConstantesEntreprise {
      * Set the tri employe.
      *
      * @param string $triEmploye The tri employe.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTriEmploye($triEmploye) {
         $this->triEmploye = $triEmploye;
@@ -6244,6 +6462,7 @@ class ConstantesEntreprise {
      * Set the tx sal decote.
      *
      * @param float $txSalDecote The tx sal decote.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTxSalDecote($txSalDecote) {
         $this->txSalDecote = $txSalDecote;
@@ -6254,6 +6473,7 @@ class ConstantesEntreprise {
      * Set the type abs sans solde.
      *
      * @param string $typeAbsSansSolde The type abs sans solde.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeAbsSansSolde($typeAbsSansSolde) {
         $this->typeAbsSansSolde = $typeAbsSansSolde;
@@ -6264,6 +6484,7 @@ class ConstantesEntreprise {
      * Set the type agrement aem.
      *
      * @param string $typeAgrementAem The type agrement aem.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeAgrementAem($typeAgrementAem) {
         $this->typeAgrementAem = $typeAgrementAem;
@@ -6274,6 +6495,7 @@ class ConstantesEntreprise {
      * Set the type bordereau prepa.
      *
      * @param string $typeBordereauPrepa The type bordereau prepa.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeBordereauPrepa($typeBordereauPrepa) {
         $this->typeBordereauPrepa = $typeBordereauPrepa;
@@ -6284,6 +6506,7 @@ class ConstantesEntreprise {
      * Set the type bulletin.
      *
      * @param string $typeBulletin The type bulletin.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeBulletin($typeBulletin) {
         $this->typeBulletin = $typeBulletin;
@@ -6294,6 +6517,7 @@ class ConstantesEntreprise {
      * Set the type dossier.
      *
      * @param string $typeDossier The type dossier.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeDossier($typeDossier) {
         $this->typeDossier = $typeDossier;
@@ -6304,6 +6528,7 @@ class ConstantesEntreprise {
      * Set the type due.
      *
      * @param string $typeDue The type due.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeDue($typeDue) {
         $this->typeDue = $typeDue;
@@ -6314,6 +6539,7 @@ class ConstantesEntreprise {
      * Set the type effectif.
      *
      * @param string $typeEffectif The type effectif.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeEffectif($typeEffectif) {
         $this->typeEffectif = $typeEffectif;
@@ -6324,6 +6550,7 @@ class ConstantesEntreprise {
      * Set the type fich bilat.
      *
      * @param string $typeFichBilat The type fich bilat.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeFichBilat($typeFichBilat) {
         $this->typeFichBilat = $typeFichBilat;
@@ -6334,6 +6561,7 @@ class ConstantesEntreprise {
      * Set the type gestion bal.
      *
      * @param string $typeGestionBal The type gestion bal.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeGestionBal($typeGestionBal) {
         $this->typeGestionBal = $typeGestionBal;
@@ -6344,6 +6572,7 @@ class ConstantesEntreprise {
      * Set the type modele.
      *
      * @param string $typeModele The type modele.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeModele($typeModele) {
         $this->typeModele = $typeModele;
@@ -6354,6 +6583,7 @@ class ConstantesEntreprise {
      * Set the type prep dadsu.
      *
      * @param string $typePrepDadsu The type prep dadsu.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypePrepDadsu($typePrepDadsu) {
         $this->typePrepDadsu = $typePrepDadsu;
@@ -6364,6 +6594,7 @@ class ConstantesEntreprise {
      * Set the type saisie abs.
      *
      * @param string $typeSaisieAbs The type saisie abs.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeSaisieAbs($typeSaisieAbs) {
         $this->typeSaisieAbs = $typeSaisieAbs;
@@ -6374,6 +6605,7 @@ class ConstantesEntreprise {
      * Set the type saisie absence.
      *
      * @param string $typeSaisieAbsence The type saisie absence.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeSaisieAbsence($typeSaisieAbsence) {
         $this->typeSaisieAbsence = $typeSaisieAbsence;
@@ -6384,6 +6616,7 @@ class ConstantesEntreprise {
      * Set the type stc.
      *
      * @param string $typeStc The type stc.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeStc($typeStc) {
         $this->typeStc = $typeStc;
@@ -6394,6 +6627,7 @@ class ConstantesEntreprise {
      * Set the type taux intemperie.
      *
      * @param string $typeTauxIntemperie The type taux intemperie.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeTauxIntemperie($typeTauxIntemperie) {
         $this->typeTauxIntemperie = $typeTauxIntemperie;
@@ -6404,6 +6638,7 @@ class ConstantesEntreprise {
      * Set the type tri.
      *
      * @param string $typeTri The type tri.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeTri($typeTri) {
         $this->typeTri = $typeTri;
@@ -6414,6 +6649,7 @@ class ConstantesEntreprise {
      * Set the type virement.
      *
      * @param string $typeVirement The type virement.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeVirement($typeVirement) {
         $this->typeVirement = $typeVirement;
@@ -6424,6 +6660,7 @@ class ConstantesEntreprise {
      * Set the type visu col saisie bul.
      *
      * @param string $typeVisuColSaisieBul The type visu col saisie bul.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setTypeVisuColSaisieBul($typeVisuColSaisieBul) {
         $this->typeVisuColSaisieBul = $typeVisuColSaisieBul;
@@ -6434,6 +6671,7 @@ class ConstantesEntreprise {
      * Set the utilise pdp quadra.
      *
      * @param bool $utilisePdpQuadra The utilise pdp quadra.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setUtilisePdpQuadra($utilisePdpQuadra) {
         $this->utilisePdpQuadra = $utilisePdpQuadra;
@@ -6444,6 +6682,7 @@ class ConstantesEntreprise {
      * Set the utilise pdp quadra2.
      *
      * @param bool $utilisePdpQuadra2 The utilise pdp quadra2.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setUtilisePdpQuadra2($utilisePdpQuadra2) {
         $this->utilisePdpQuadra2 = $utilisePdpQuadra2;
@@ -6454,6 +6693,7 @@ class ConstantesEntreprise {
      * Set the val cp bulletin.
      *
      * @param bool $valCpBulletin The val cp bulletin.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setValCpBulletin($valCpBulletin) {
         $this->valCpBulletin = $valCpBulletin;
@@ -6464,6 +6704,7 @@ class ConstantesEntreprise {
      * Set the val filtre liste emp.
      *
      * @param int $valFiltreListeEmp The val filtre liste emp.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setValFiltreListeEmp($valFiltreListeEmp) {
         $this->valFiltreListeEmp = $valFiltreListeEmp;
@@ -6474,6 +6715,7 @@ class ConstantesEntreprise {
      * Set the version controle dadsu.
      *
      * @param int $versionControleDadsu The version controle dadsu.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVersionControleDadsu($versionControleDadsu) {
         $this->versionControleDadsu = $versionControleDadsu;
@@ -6484,6 +6726,7 @@ class ConstantesEntreprise {
      * Set the vir code etab.
      *
      * @param string $virCodeEtab The vir code etab.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirCodeEtab($virCodeEtab) {
         $this->virCodeEtab = $virCodeEtab;
@@ -6494,6 +6737,7 @@ class ConstantesEntreprise {
      * Set the vir collectivite.
      *
      * @param string $virCollectivite The vir collectivite.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirCollectivite($virCollectivite) {
         $this->virCollectivite = $virCollectivite;
@@ -6504,6 +6748,7 @@ class ConstantesEntreprise {
      * Set the vir comptable centre.
      *
      * @param string $virComptableCentre The vir comptable centre.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirComptableCentre($virComptableCentre) {
         $this->virComptableCentre = $virComptableCentre;
@@ -6514,6 +6759,7 @@ class ConstantesEntreprise {
      * Set the vir comptable sub.
      *
      * @param string $virComptableSub The vir comptable sub.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirComptableSub($virComptableSub) {
         $this->virComptableSub = $virComptableSub;
@@ -6524,6 +6770,7 @@ class ConstantesEntreprise {
      * Set the vir fonction publique.
      *
      * @param bool $virFonctionPublique The vir fonction publique.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirFonctionPublique($virFonctionPublique) {
         $this->virFonctionPublique = $virFonctionPublique;
@@ -6534,6 +6781,7 @@ class ConstantesEntreprise {
      * Set the vir seuil.
      *
      * @param float $virSeuil The vir seuil.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirSeuil($virSeuil) {
         $this->virSeuil = $virSeuil;
@@ -6544,6 +6792,7 @@ class ConstantesEntreprise {
      * Set the vir type etab.
      *
      * @param string $virTypeEtab The vir type etab.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirTypeEtab($virTypeEtab) {
         $this->virTypeEtab = $virTypeEtab;
@@ -6554,6 +6803,7 @@ class ConstantesEntreprise {
      * Set the virement cr lf.
      *
      * @param bool $virementCrLf The virement cr lf.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirementCrLf($virementCrLf) {
         $this->virementCrLf = $virementCrLf;
@@ -6564,6 +6814,7 @@ class ConstantesEntreprise {
      * Set the virements euro.
      *
      * @param string $virementsEuro The virements euro.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setVirementsEuro($virementsEuro) {
         $this->virementsEuro = $virementsEuro;
@@ -6574,6 +6825,7 @@ class ConstantesEntreprise {
      * Set the web prioritaire.
      *
      * @param bool $webPrioritaire The web prioritaire.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
     public function setWebPrioritaire($webPrioritaire) {
         $this->webPrioritaire = $webPrioritaire;

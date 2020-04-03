@@ -270,6 +270,7 @@ class Factors {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return Factors Returns this Factors.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -280,6 +281,7 @@ class Factors {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Factors Returns this Factors.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -290,6 +292,7 @@ class Factors {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Factors Returns this Factors.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -300,6 +303,7 @@ class Factors {
      * Set the code factor.
      *
      * @param string $codeFactor The code factor.
+     * @return Factors Returns this Factors.
      */
     public function setCodeFactor($codeFactor) {
         $this->codeFactor = $codeFactor;
@@ -310,6 +314,7 @@ class Factors {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Factors Returns this Factors.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -320,6 +325,7 @@ class Factors {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Factors Returns this Factors.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -330,6 +336,7 @@ class Factors {
      * Set the domiciliation bancaire1.
      *
      * @param string $domiciliationBancaire1 The domiciliation bancaire1.
+     * @return Factors Returns this Factors.
      */
     public function setDomiciliationBancaire1($domiciliationBancaire1) {
         $this->domiciliationBancaire1 = $domiciliationBancaire1;
@@ -340,6 +347,7 @@ class Factors {
      * Set the domiciliation bancaire2.
      *
      * @param string $domiciliationBancaire2 The domiciliation bancaire2.
+     * @return Factors Returns this Factors.
      */
     public function setDomiciliationBancaire2($domiciliationBancaire2) {
         $this->domiciliationBancaire2 = $domiciliationBancaire2;
@@ -350,6 +358,7 @@ class Factors {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return Factors Returns this Factors.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -360,6 +369,7 @@ class Factors {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return Factors Returns this Factors.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -370,6 +380,7 @@ class Factors {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return Factors Returns this Factors.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -380,6 +391,7 @@ class Factors {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Factors Returns this Factors.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -390,6 +402,7 @@ class Factors {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Factors Returns this Factors.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -400,6 +413,7 @@ class Factors {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Factors Returns this Factors.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -410,6 +424,7 @@ class Factors {
      * Set the telephone.
      *
      * @param string $telephone The telephone.
+     * @return Factors Returns this Factors.
      */
     public function setTelephone($telephone) {
         $this->telephone = $telephone;

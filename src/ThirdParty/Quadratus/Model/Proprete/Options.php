@@ -112,6 +112,7 @@ class Options {
      * Set the booleen.
      *
      * @param bool $booleen The booleen.
+     * @return Options Returns this Options.
      */
     public function setBooleen($booleen) {
         $this->booleen = $booleen;
@@ -122,6 +123,7 @@ class Options {
      * Set the date heure.
      *
      * @param DateTime|null $dateHeure The date heure.
+     * @return Options Returns this Options.
      */
     public function setDateHeure(DateTime $dateHeure = null) {
         $this->dateHeure = $dateHeure;
@@ -132,6 +134,7 @@ class Options {
      * Set the descriptif.
      *
      * @param string $descriptif The descriptif.
+     * @return Options Returns this Options.
      */
     public function setDescriptif($descriptif) {
         $this->descriptif = $descriptif;
@@ -142,6 +145,7 @@ class Options {
      * Set the numerique.
      *
      * @param float $numerique The numerique.
+     * @return Options Returns this Options.
      */
     public function setNumerique($numerique) {
         $this->numerique = $numerique;
@@ -152,6 +156,7 @@ class Options {
      * Set the string.
      *
      * @param string $string The string.
+     * @return Options Returns this Options.
      */
     public function setString($string) {
         $this->string = $string;

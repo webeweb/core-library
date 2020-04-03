@@ -160,6 +160,7 @@ class EmployesPointages {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return EmployesPointages Returns this Employes pointages.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -170,6 +171,7 @@ class EmployesPointages {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return EmployesPointages Returns this Employes pointages.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -180,6 +182,7 @@ class EmployesPointages {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return EmployesPointages Returns this Employes pointages.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -190,6 +193,7 @@ class EmployesPointages {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return EmployesPointages Returns this Employes pointages.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -200,6 +204,7 @@ class EmployesPointages {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return EmployesPointages Returns this Employes pointages.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -210,6 +215,7 @@ class EmployesPointages {
      * Set the periode pointage cloturee.
      *
      * @param DateTime|null $periodePointageCloturee The periode pointage cloturee.
+     * @return EmployesPointages Returns this Employes pointages.
      */
     public function setPeriodePointageCloturee(DateTime $periodePointageCloturee = null) {
         $this->periodePointageCloturee = $periodePointageCloturee;
@@ -220,6 +226,7 @@ class EmployesPointages {
      * Set the periode previsionnel generee.
      *
      * @param DateTime|null $periodePrevisionnelGeneree The periode previsionnel generee.
+     * @return EmployesPointages Returns this Employes pointages.
      */
     public function setPeriodePrevisionnelGeneree(DateTime $periodePrevisionnelGeneree = null) {
         $this->periodePrevisionnelGeneree = $periodePrevisionnelGeneree;
@@ -230,6 +237,7 @@ class EmployesPointages {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return EmployesPointages Returns this Employes pointages.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

@@ -286,6 +286,7 @@ class ParamEtiquettes {
      * Set the avec code barre.
      *
      * @param bool $avecCodeBarre The avec code barre.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setAvecCodeBarre($avecCodeBarre) {
         $this->avecCodeBarre = $avecCodeBarre;
@@ -296,6 +297,7 @@ class ParamEtiquettes {
      * Set the avec prix vente.
      *
      * @param bool $avecPrixVente The avec prix vente.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setAvecPrixVente($avecPrixVente) {
         $this->avecPrixVente = $avecPrixVente;
@@ -306,6 +308,7 @@ class ParamEtiquettes {
      * Set the code modele.
      *
      * @param string $codeModele The code modele.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setCodeModele($codeModele) {
         $this->codeModele = $codeModele;
@@ -316,6 +319,7 @@ class ParamEtiquettes {
      * Set the etiq de front.
      *
      * @param int $etiqDeFront The etiq de front.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setEtiqDeFront($etiqDeFront) {
         $this->etiqDeFront = $etiqDeFront;
@@ -326,6 +330,7 @@ class ParamEtiquettes {
      * Set the etiq masque.
      *
      * @param bool $etiqMasque The etiq masque.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setEtiqMasque($etiqMasque) {
         $this->etiqMasque = $etiqMasque;
@@ -336,6 +341,7 @@ class ParamEtiquettes {
      * Set the etiq plus.
      *
      * @param bool $etiqPlus The etiq plus.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setEtiqPlus($etiqPlus) {
         $this->etiqPlus = $etiqPlus;
@@ -346,6 +352,7 @@ class ParamEtiquettes {
      * Set the imprimante.
      *
      * @param string $imprimante The imprimante.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setImprimante($imprimante) {
         $this->imprimante = $imprimante;
@@ -356,6 +363,7 @@ class ParamEtiquettes {
      * Set the init champ.
      *
      * @param string $initChamp The init champ.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setInitChamp($initChamp) {
         $this->initChamp = $initChamp;
@@ -366,6 +374,7 @@ class ParamEtiquettes {
      * Set the init table.
      *
      * @param string $initTable The init table.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setInitTable($initTable) {
         $this->initTable = $initTable;
@@ -376,6 +385,7 @@ class ParamEtiquettes {
      * Set the init valeur.
      *
      * @param string $initValeur The init valeur.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setInitValeur($initValeur) {
         $this->initValeur = $initValeur;
@@ -386,6 +396,7 @@ class ParamEtiquettes {
      * Set the lg zone.
      *
      * @param string $lgZone The lg zone.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setLgZone($lgZone) {
         $this->lgZone = $lgZone;
@@ -396,6 +407,7 @@ class ParamEtiquettes {
      * Set the lib zone.
      *
      * @param string $libZone The lib zone.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setLibZone($libZone) {
         $this->libZone = $libZone;
@@ -406,6 +418,7 @@ class ParamEtiquettes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -416,6 +429,7 @@ class ParamEtiquettes {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -426,6 +440,7 @@ class ParamEtiquettes {
      * Set the qte ent.
      *
      * @param bool $qteEnt The qte ent.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setQteEnt($qteEnt) {
         $this->qteEnt = $qteEnt;
@@ -436,6 +451,7 @@ class ParamEtiquettes {
      * Set the type.
      *
      * @param string $type The type.
+     * @return ParamEtiquettes Returns this Param etiquettes.
      */
     public function setType($type) {
         $this->type = $type;

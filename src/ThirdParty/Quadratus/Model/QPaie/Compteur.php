@@ -768,6 +768,7 @@ class Compteur {
      * Set the nb attes assedic.
      *
      * @param int $nbAttesAssedic The nb attes assedic.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesAssedic($nbAttesAssedic) {
         $this->nbAttesAssedic = $nbAttesAssedic;
@@ -778,6 +779,7 @@ class Compteur {
      * Set the nb attes assedic a deduire.
      *
      * @param int $nbAttesAssedicADeduire The nb attes assedic a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesAssedicADeduire($nbAttesAssedicADeduire) {
         $this->nbAttesAssedicADeduire = $nbAttesAssedicADeduire;
@@ -788,6 +790,7 @@ class Compteur {
      * Set the nb attes assedic fact.
      *
      * @param int $nbAttesAssedicFact The nb attes assedic fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesAssedicFact($nbAttesAssedicFact) {
         $this->nbAttesAssedicFact = $nbAttesAssedicFact;
@@ -798,6 +801,7 @@ class Compteur {
      * Set the nb attes ijss.
      *
      * @param int $nbAttesIjss The nb attes ijss.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesIjss($nbAttesIjss) {
         $this->nbAttesIjss = $nbAttesIjss;
@@ -808,6 +812,7 @@ class Compteur {
      * Set the nb attes ijss a deduire.
      *
      * @param int $nbAttesIjssADeduire The nb attes ijss a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesIjssADeduire($nbAttesIjssADeduire) {
         $this->nbAttesIjssADeduire = $nbAttesIjssADeduire;
@@ -818,6 +823,7 @@ class Compteur {
      * Set the nb attes ijss at.
      *
      * @param int $nbAttesIjssAt The nb attes ijss at.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesIjssAt($nbAttesIjssAt) {
         $this->nbAttesIjssAt = $nbAttesIjssAt;
@@ -828,6 +834,7 @@ class Compteur {
      * Set the nb attes ijss at fact.
      *
      * @param int $nbAttesIjssAtFact The nb attes ijss at fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesIjssAtFact($nbAttesIjssAtFact) {
         $this->nbAttesIjssAtFact = $nbAttesIjssAtFact;
@@ -838,6 +845,7 @@ class Compteur {
      * Set the nb attes ijss ata deduire.
      *
      * @param int $nbAttesIjssAtaDeduire The nb attes ijss ata deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesIjssAtaDeduire($nbAttesIjssAtaDeduire) {
         $this->nbAttesIjssAtaDeduire = $nbAttesIjssAtaDeduire;
@@ -848,6 +856,7 @@ class Compteur {
      * Set the nb attes ijss fact.
      *
      * @param int $nbAttesIjssFact The nb attes ijss fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttesIjssFact($nbAttesIjssFact) {
         $this->nbAttesIjssFact = $nbAttesIjssFact;
@@ -858,6 +867,7 @@ class Compteur {
      * Set the nb attest emploi.
      *
      * @param int $nbAttestEmploi The nb attest emploi.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttestEmploi($nbAttestEmploi) {
         $this->nbAttestEmploi = $nbAttestEmploi;
@@ -868,6 +878,7 @@ class Compteur {
      * Set the nb attest emploi a deduire.
      *
      * @param int $nbAttestEmploiADeduire The nb attest emploi a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttestEmploiADeduire($nbAttestEmploiADeduire) {
         $this->nbAttestEmploiADeduire = $nbAttestEmploiADeduire;
@@ -878,6 +889,7 @@ class Compteur {
      * Set the nb attest emploi fact.
      *
      * @param int $nbAttestEmploiFact The nb attest emploi fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbAttestEmploiFact($nbAttestEmploiFact) {
         $this->nbAttestEmploiFact = $nbAttestEmploiFact;
@@ -888,6 +900,7 @@ class Compteur {
      * Set the nb bul edites.
      *
      * @param int $nbBulEdites The nb bul edites.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbBulEdites($nbBulEdites) {
         $this->nbBulEdites = $nbBulEdites;
@@ -898,6 +911,7 @@ class Compteur {
      * Set the nb bul edites a deduire.
      *
      * @param int $nbBulEditesADeduire The nb bul edites a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbBulEditesADeduire($nbBulEditesADeduire) {
         $this->nbBulEditesADeduire = $nbBulEditesADeduire;
@@ -908,6 +922,7 @@ class Compteur {
      * Set the nb bul edites fact.
      *
      * @param int $nbBulEditesFact The nb bul edites fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbBulEditesFact($nbBulEditesFact) {
         $this->nbBulEditesFact = $nbBulEditesFact;
@@ -918,6 +933,7 @@ class Compteur {
      * Set the nb bul valides.
      *
      * @param int $nbBulValides The nb bul valides.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbBulValides($nbBulValides) {
         $this->nbBulValides = $nbBulValides;
@@ -928,6 +944,7 @@ class Compteur {
      * Set the nb bul valides a deduire.
      *
      * @param int $nbBulValidesADeduire The nb bul valides a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbBulValidesADeduire($nbBulValidesADeduire) {
         $this->nbBulValidesADeduire = $nbBulValidesADeduire;
@@ -938,6 +955,7 @@ class Compteur {
      * Set the nb bul valides fact.
      *
      * @param int $nbBulValidesFact The nb bul valides fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbBulValidesFact($nbBulValidesFact) {
         $this->nbBulValidesFact = $nbBulValidesFact;
@@ -948,6 +966,7 @@ class Compteur {
      * Set the nb certif travail.
      *
      * @param int $nbCertifTravail The nb certif travail.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbCertifTravail($nbCertifTravail) {
         $this->nbCertifTravail = $nbCertifTravail;
@@ -958,6 +977,7 @@ class Compteur {
      * Set the nb certif travail a deduire.
      *
      * @param int $nbCertifTravailADeduire The nb certif travail a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbCertifTravailADeduire($nbCertifTravailADeduire) {
         $this->nbCertifTravailADeduire = $nbCertifTravailADeduire;
@@ -968,6 +988,7 @@ class Compteur {
      * Set the nb certif travail fact.
      *
      * @param int $nbCertifTravailFact The nb certif travail fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbCertifTravailFact($nbCertifTravailFact) {
         $this->nbCertifTravailFact = $nbCertifTravailFact;
@@ -978,6 +999,7 @@ class Compteur {
      * Set the nb dads editees.
      *
      * @param int $nbDadsEditees The nb dads editees.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDadsEditees($nbDadsEditees) {
         $this->nbDadsEditees = $nbDadsEditees;
@@ -988,6 +1010,7 @@ class Compteur {
      * Set the nb dads editees a deduire.
      *
      * @param int $nbDadsEditeesADeduire The nb dads editees a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDadsEditeesADeduire($nbDadsEditeesADeduire) {
         $this->nbDadsEditeesADeduire = $nbDadsEditeesADeduire;
@@ -998,6 +1021,7 @@ class Compteur {
      * Set the nb dads editees fact.
      *
      * @param int $nbDadsEditeesFact The nb dads editees fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDadsEditeesFact($nbDadsEditeesFact) {
         $this->nbDadsEditeesFact = $nbDadsEditeesFact;
@@ -1008,6 +1032,7 @@ class Compteur {
      * Set the nb disquettes virements.
      *
      * @param int $nbDisquettesVirements The nb disquettes virements.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDisquettesVirements($nbDisquettesVirements) {
         $this->nbDisquettesVirements = $nbDisquettesVirements;
@@ -1018,6 +1043,7 @@ class Compteur {
      * Set the nb disquettes virements a deduire.
      *
      * @param int $nbDisquettesVirementsADeduire The nb disquettes virements a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDisquettesVirementsADeduire($nbDisquettesVirementsADeduire) {
         $this->nbDisquettesVirementsADeduire = $nbDisquettesVirementsADeduire;
@@ -1028,6 +1054,7 @@ class Compteur {
      * Set the nb disquettes virements fact.
      *
      * @param int $nbDisquettesVirementsFact The nb disquettes virements fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDisquettesVirementsFact($nbDisquettesVirementsFact) {
         $this->nbDisquettesVirementsFact = $nbDisquettesVirementsFact;
@@ -1038,6 +1065,7 @@ class Compteur {
      * Set the nb dsn evt arret.
      *
      * @param int $nbDsnEvtArret The nb dsn evt arret.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnEvtArret($nbDsnEvtArret) {
         $this->nbDsnEvtArret = $nbDsnEvtArret;
@@ -1048,6 +1076,7 @@ class Compteur {
      * Set the nb dsn evt arret a deduire.
      *
      * @param int $nbDsnEvtArretADeduire The nb dsn evt arret a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnEvtArretADeduire($nbDsnEvtArretADeduire) {
         $this->nbDsnEvtArretADeduire = $nbDsnEvtArretADeduire;
@@ -1058,6 +1087,7 @@ class Compteur {
      * Set the nb dsn evt arret fact.
      *
      * @param int $nbDsnEvtArretFact The nb dsn evt arret fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnEvtArretFact($nbDsnEvtArretFact) {
         $this->nbDsnEvtArretFact = $nbDsnEvtArretFact;
@@ -1068,6 +1098,7 @@ class Compteur {
      * Set the nb dsn evt fin contrat.
      *
      * @param int $nbDsnEvtFinContrat The nb dsn evt fin contrat.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnEvtFinContrat($nbDsnEvtFinContrat) {
         $this->nbDsnEvtFinContrat = $nbDsnEvtFinContrat;
@@ -1078,6 +1109,7 @@ class Compteur {
      * Set the nb dsn evt fin contrat a deduire.
      *
      * @param int $nbDsnEvtFinContratADeduire The nb dsn evt fin contrat a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnEvtFinContratADeduire($nbDsnEvtFinContratADeduire) {
         $this->nbDsnEvtFinContratADeduire = $nbDsnEvtFinContratADeduire;
@@ -1088,6 +1120,7 @@ class Compteur {
      * Set the nb dsn evt fin contrat fact.
      *
      * @param int $nbDsnEvtFinContratFact The nb dsn evt fin contrat fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnEvtFinContratFact($nbDsnEvtFinContratFact) {
         $this->nbDsnEvtFinContratFact = $nbDsnEvtFinContratFact;
@@ -1098,6 +1131,7 @@ class Compteur {
      * Set the nb dsn mensuelle.
      *
      * @param int $nbDsnMensuelle The nb dsn mensuelle.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnMensuelle($nbDsnMensuelle) {
         $this->nbDsnMensuelle = $nbDsnMensuelle;
@@ -1108,6 +1142,7 @@ class Compteur {
      * Set the nb dsn mensuelle a deduire.
      *
      * @param int $nbDsnMensuelleADeduire The nb dsn mensuelle a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnMensuelleADeduire($nbDsnMensuelleADeduire) {
         $this->nbDsnMensuelleADeduire = $nbDsnMensuelleADeduire;
@@ -1118,6 +1153,7 @@ class Compteur {
      * Set the nb dsn mensuelle fact.
      *
      * @param int $nbDsnMensuelleFact The nb dsn mensuelle fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDsnMensuelleFact($nbDsnMensuelleFact) {
         $this->nbDsnMensuelleFact = $nbDsnMensuelleFact;
@@ -1128,6 +1164,7 @@ class Compteur {
      * Set the nb due.
      *
      * @param int $nbDue The nb due.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDue($nbDue) {
         $this->nbDue = $nbDue;
@@ -1138,6 +1175,7 @@ class Compteur {
      * Set the nb due fact.
      *
      * @param int $nbDueFact The nb due fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDueFact($nbDueFact) {
         $this->nbDueFact = $nbDueFact;
@@ -1148,6 +1186,7 @@ class Compteur {
      * Set the nb duea deduire.
      *
      * @param int $nbDueaDeduire The nb duea deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbDueaDeduire($nbDueaDeduire) {
         $this->nbDueaDeduire = $nbDueaDeduire;
@@ -1158,6 +1197,7 @@ class Compteur {
      * Set the nb solde tout compte.
      *
      * @param int $nbSoldeToutCompte The nb solde tout compte.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbSoldeToutCompte($nbSoldeToutCompte) {
         $this->nbSoldeToutCompte = $nbSoldeToutCompte;
@@ -1168,6 +1208,7 @@ class Compteur {
      * Set the nb solde tout compte a deduire.
      *
      * @param int $nbSoldeToutCompteADeduire The nb solde tout compte a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbSoldeToutCompteADeduire($nbSoldeToutCompteADeduire) {
         $this->nbSoldeToutCompteADeduire = $nbSoldeToutCompteADeduire;
@@ -1178,6 +1219,7 @@ class Compteur {
      * Set the nb solde tout compte fact.
      *
      * @param int $nbSoldeToutCompteFact The nb solde tout compte fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbSoldeToutCompteFact($nbSoldeToutCompteFact) {
         $this->nbSoldeToutCompteFact = $nbSoldeToutCompteFact;
@@ -1188,6 +1230,7 @@ class Compteur {
      * Set the nb tds realisees.
      *
      * @param int $nbTdsRealisees The nb tds realisees.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbTdsRealisees($nbTdsRealisees) {
         $this->nbTdsRealisees = $nbTdsRealisees;
@@ -1198,6 +1241,7 @@ class Compteur {
      * Set the nb tds realisees a deduire.
      *
      * @param int $nbTdsRealiseesADeduire The nb tds realisees a deduire.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbTdsRealiseesADeduire($nbTdsRealiseesADeduire) {
         $this->nbTdsRealiseesADeduire = $nbTdsRealiseesADeduire;
@@ -1208,6 +1252,7 @@ class Compteur {
      * Set the nb tds realisees fact.
      *
      * @param int $nbTdsRealiseesFact The nb tds realisees fact.
+     * @return Compteur Returns this Compteur.
      */
     public function setNbTdsRealiseesFact($nbTdsRealiseesFact) {
         $this->nbTdsRealiseesFact = $nbTdsRealiseesFact;
@@ -1218,6 +1263,7 @@ class Compteur {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return Compteur Returns this Compteur.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

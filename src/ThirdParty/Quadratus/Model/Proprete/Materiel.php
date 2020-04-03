@@ -288,6 +288,7 @@ class Materiel {
      * Set the code barre.
      *
      * @param string $codeBarre The code barre.
+     * @return Materiel Returns this Materiel.
      */
     public function setCodeBarre($codeBarre) {
         $this->codeBarre = $codeBarre;
@@ -298,6 +299,7 @@ class Materiel {
      * Set the code materiel.
      *
      * @param string $codeMateriel The code materiel.
+     * @return Materiel Returns this Materiel.
      */
     public function setCodeMateriel($codeMateriel) {
         $this->codeMateriel = $codeMateriel;
@@ -308,6 +310,7 @@ class Materiel {
      * Set the date achat.
      *
      * @param DateTime|null $dateAchat The date achat.
+     * @return Materiel Returns this Materiel.
      */
     public function setDateAchat(DateTime $dateAchat = null) {
         $this->dateAchat = $dateAchat;
@@ -318,6 +321,7 @@ class Materiel {
      * Set the date debut amortissement.
      *
      * @param DateTime|null $dateDebutAmortissement The date debut amortissement.
+     * @return Materiel Returns this Materiel.
      */
     public function setDateDebutAmortissement(DateTime $dateDebutAmortissement = null) {
         $this->dateDebutAmortissement = $dateDebutAmortissement;
@@ -328,6 +332,7 @@ class Materiel {
      * Set the date fin amortissement.
      *
      * @param DateTime|null $dateFinAmortissement The date fin amortissement.
+     * @return Materiel Returns this Materiel.
      */
     public function setDateFinAmortissement(DateTime $dateFinAmortissement = null) {
         $this->dateFinAmortissement = $dateFinAmortissement;
@@ -338,6 +343,7 @@ class Materiel {
      * Set the date fin service.
      *
      * @param DateTime|null $dateFinService The date fin service.
+     * @return Materiel Returns this Materiel.
      */
     public function setDateFinService(DateTime $dateFinService = null) {
         $this->dateFinService = $dateFinService;
@@ -348,6 +354,7 @@ class Materiel {
      * Set the date mise en service.
      *
      * @param DateTime|null $dateMiseEnService The date mise en service.
+     * @return Materiel Returns this Materiel.
      */
     public function setDateMiseEnService(DateTime $dateMiseEnService = null) {
         $this->dateMiseEnService = $dateMiseEnService;
@@ -358,6 +365,7 @@ class Materiel {
      * Set the designation1.
      *
      * @param string $designation1 The designation1.
+     * @return Materiel Returns this Materiel.
      */
     public function setDesignation1($designation1) {
         $this->designation1 = $designation1;
@@ -368,6 +376,7 @@ class Materiel {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return Materiel Returns this Materiel.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -378,6 +387,7 @@ class Materiel {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return Materiel Returns this Materiel.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -388,6 +398,7 @@ class Materiel {
      * Set the designation4.
      *
      * @param string $designation4 The designation4.
+     * @return Materiel Returns this Materiel.
      */
     public function setDesignation4($designation4) {
         $this->designation4 = $designation4;
@@ -398,6 +409,7 @@ class Materiel {
      * Set the designation5.
      *
      * @param string $designation5 The designation5.
+     * @return Materiel Returns this Materiel.
      */
     public function setDesignation5($designation5) {
         $this->designation5 = $designation5;
@@ -408,6 +420,7 @@ class Materiel {
      * Set the montant amortissement.
      *
      * @param float $montantAmortissement The montant amortissement.
+     * @return Materiel Returns this Materiel.
      */
     public function setMontantAmortissement($montantAmortissement) {
         $this->montantAmortissement = $montantAmortissement;
@@ -418,6 +431,7 @@ class Materiel {
      * Set the numero serie.
      *
      * @param string $numeroSerie The numero serie.
+     * @return Materiel Returns this Materiel.
      */
     public function setNumeroSerie($numeroSerie) {
         $this->numeroSerie = $numeroSerie;
@@ -428,6 +442,7 @@ class Materiel {
      * Set the val achat euro.
      *
      * @param float $valAchatEuro The val achat euro.
+     * @return Materiel Returns this Materiel.
      */
     public function setValAchatEuro($valAchatEuro) {
         $this->valAchatEuro = $valAchatEuro;
@@ -438,6 +453,7 @@ class Materiel {
      * Set the val achat frf.
      *
      * @param float $valAchatFrf The val achat frf.
+     * @return Materiel Returns this Materiel.
      */
     public function setValAchatFrf($valAchatFrf) {
         $this->valAchatFrf = $valAchatFrf;

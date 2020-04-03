@@ -126,6 +126,7 @@ class DadsuRetraiteEntete {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return DadsuRetraiteEntete Returns this Dadsu retraite entete.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -136,6 +137,7 @@ class DadsuRetraiteEntete {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return DadsuRetraiteEntete Returns this Dadsu retraite entete.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -146,6 +148,7 @@ class DadsuRetraiteEntete {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return DadsuRetraiteEntete Returns this Dadsu retraite entete.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -156,6 +159,7 @@ class DadsuRetraiteEntete {
      * Set the mail contact.
      *
      * @param string $mailContact The mail contact.
+     * @return DadsuRetraiteEntete Returns this Dadsu retraite entete.
      */
     public function setMailContact($mailContact) {
         $this->mailContact = $mailContact;
@@ -166,6 +170,7 @@ class DadsuRetraiteEntete {
      * Set the nom contact.
      *
      * @param string $nomContact The nom contact.
+     * @return DadsuRetraiteEntete Returns this Dadsu retraite entete.
      */
     public function setNomContact($nomContact) {
         $this->nomContact = $nomContact;
@@ -176,6 +181,7 @@ class DadsuRetraiteEntete {
      * Set the tel contact.
      *
      * @param string $telContact The tel contact.
+     * @return DadsuRetraiteEntete Returns this Dadsu retraite entete.
      */
     public function setTelContact($telContact) {
         $this->telContact = $telContact;

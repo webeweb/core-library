@@ -142,6 +142,7 @@ class RgCorrespondances {
      * Set the fichiers publier web.
      *
      * @param string $fichiersPublierWeb The fichiers publier web.
+     * @return RgCorrespondances Returns this Rg correspondances.
      */
     public function setFichiersPublierWeb($fichiersPublierWeb) {
         $this->fichiersPublierWeb = $fichiersPublierWeb;
@@ -152,6 +153,7 @@ class RgCorrespondances {
      * Set the ignorer.
      *
      * @param string $ignorer The ignorer.
+     * @return RgCorrespondances Returns this Rg correspondances.
      */
     public function setIgnorer($ignorer) {
         $this->ignorer = $ignorer;
@@ -162,6 +164,7 @@ class RgCorrespondances {
      * Set the niveau.
      *
      * @param int $niveau The niveau.
+     * @return RgCorrespondances Returns this Rg correspondances.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -172,6 +175,7 @@ class RgCorrespondances {
      * Set the type donnees.
      *
      * @param string $typeDonnees The type donnees.
+     * @return RgCorrespondances Returns this Rg correspondances.
      */
     public function setTypeDonnees($typeDonnees) {
         $this->typeDonnees = $typeDonnees;
@@ -182,6 +186,7 @@ class RgCorrespondances {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return RgCorrespondances Returns this Rg correspondances.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;
@@ -192,6 +197,7 @@ class RgCorrespondances {
      * Set the valeur.
      *
      * @param string $valeur The valeur.
+     * @return RgCorrespondances Returns this Rg correspondances.
      */
     public function setValeur($valeur) {
         $this->valeur = $valeur;
@@ -202,6 +208,7 @@ class RgCorrespondances {
      * Set the valeur origine.
      *
      * @param string $valeurOrigine The valeur origine.
+     * @return RgCorrespondances Returns this Rg correspondances.
      */
     public function setValeurOrigine($valeurOrigine) {
         $this->valeurOrigine = $valeurOrigine;

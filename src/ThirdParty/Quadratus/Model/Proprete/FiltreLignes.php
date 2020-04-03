@@ -62,6 +62,7 @@ class FiltreLignes {
      * Set the code.
      *
      * @param string $code The code.
+     * @return FiltreLignes Returns this Filtre lignes.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class FiltreLignes {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return FiltreLignes Returns this Filtre lignes.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

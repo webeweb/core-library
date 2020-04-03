@@ -94,6 +94,7 @@ class ConstTabVentilVente {
      * Set the code ventil article.
      *
      * @param string $codeVentilArticle The code ventil article.
+     * @return ConstTabVentilVente Returns this Const tab ventil vente.
      */
     public function setCodeVentilArticle($codeVentilArticle) {
         $this->codeVentilArticle = $codeVentilArticle;
@@ -104,6 +105,7 @@ class ConstTabVentilVente {
      * Set the code ventil client.
      *
      * @param string $codeVentilClient The code ventil client.
+     * @return ConstTabVentilVente Returns this Const tab ventil vente.
      */
     public function setCodeVentilClient($codeVentilClient) {
         $this->codeVentilClient = $codeVentilClient;
@@ -114,6 +116,7 @@ class ConstTabVentilVente {
      * Set the compte ventil.
      *
      * @param string $compteVentil The compte ventil.
+     * @return ConstTabVentilVente Returns this Const tab ventil vente.
      */
     public function setCompteVentil($compteVentil) {
         $this->compteVentil = $compteVentil;
@@ -124,6 +127,7 @@ class ConstTabVentilVente {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ConstTabVentilVente Returns this Const tab ventil vente.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

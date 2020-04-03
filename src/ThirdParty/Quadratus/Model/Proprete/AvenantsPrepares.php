@@ -144,6 +144,7 @@ class AvenantsPrepares {
      * Set the chrono.
      *
      * @param string $chrono The chrono.
+     * @return AvenantsPrepares Returns this Avenants prepares.
      */
     public function setChrono($chrono) {
         $this->chrono = $chrono;
@@ -154,6 +155,7 @@ class AvenantsPrepares {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return AvenantsPrepares Returns this Avenants prepares.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -164,6 +166,7 @@ class AvenantsPrepares {
      * Set the continuer verif.
      *
      * @param bool $continuerVerif The continuer verif.
+     * @return AvenantsPrepares Returns this Avenants prepares.
      */
     public function setContinuerVerif($continuerVerif) {
         $this->continuerVerif = $continuerVerif;
@@ -174,6 +177,7 @@ class AvenantsPrepares {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return AvenantsPrepares Returns this Avenants prepares.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -184,6 +188,7 @@ class AvenantsPrepares {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return AvenantsPrepares Returns this Avenants prepares.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -194,6 +199,7 @@ class AvenantsPrepares {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return AvenantsPrepares Returns this Avenants prepares.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -204,6 +210,7 @@ class AvenantsPrepares {
      * Set the type document.
      *
      * @param string $typeDocument The type document.
+     * @return AvenantsPrepares Returns this Avenants prepares.
      */
     public function setTypeDocument($typeDocument) {
         $this->typeDocument = $typeDocument;

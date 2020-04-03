@@ -142,6 +142,7 @@ class DetailCreditsBails {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return DetailCreditsBails Returns this Detail credits bails.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -152,6 +153,7 @@ class DetailCreditsBails {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return DetailCreditsBails Returns this Detail credits bails.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -162,6 +164,7 @@ class DetailCreditsBails {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return DetailCreditsBails Returns this Detail credits bails.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -172,6 +175,7 @@ class DetailCreditsBails {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return DetailCreditsBails Returns this Detail credits bails.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -182,6 +186,7 @@ class DetailCreditsBails {
      * Set the numero deux.
      *
      * @param int $numeroDeux The numero deux.
+     * @return DetailCreditsBails Returns this Detail credits bails.
      */
     public function setNumeroDeux($numeroDeux) {
         $this->numeroDeux = $numeroDeux;
@@ -192,6 +197,7 @@ class DetailCreditsBails {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return DetailCreditsBails Returns this Detail credits bails.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -202,6 +208,7 @@ class DetailCreditsBails {
      * Set the valeur.
      *
      * @param float $valeur The valeur.
+     * @return DetailCreditsBails Returns this Detail credits bails.
      */
     public function setValeur($valeur) {
         $this->valeur = $valeur;

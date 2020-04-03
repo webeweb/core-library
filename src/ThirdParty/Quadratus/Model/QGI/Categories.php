@@ -94,6 +94,7 @@ class Categories {
      * Set the car tec.
      *
      * @param string $carTec The car tec.
+     * @return Categories Returns this Categories.
      */
     public function setCarTec($carTec) {
         $this->carTec = $carTec;
@@ -104,6 +105,7 @@ class Categories {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Categories Returns this Categories.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -114,6 +116,7 @@ class Categories {
      * Set the parent.
      *
      * @param string $parent The parent.
+     * @return Categories Returns this Categories.
      */
     public function setParent($parent) {
         $this->parent = $parent;
@@ -124,6 +127,7 @@ class Categories {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Categories Returns this Categories.
      */
     public function setType($type) {
         $this->type = $type;

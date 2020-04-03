@@ -142,6 +142,7 @@ class BonsTravauxEmployes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -152,6 +153,7 @@ class BonsTravauxEmployes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -162,6 +164,7 @@ class BonsTravauxEmployes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -172,6 +175,7 @@ class BonsTravauxEmployes {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -182,6 +186,7 @@ class BonsTravauxEmployes {
      * Set the code equipe.
      *
      * @param string $codeEquipe The code equipe.
+     * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
     public function setCodeEquipe($codeEquipe) {
         $this->codeEquipe = $codeEquipe;
@@ -192,6 +197,7 @@ class BonsTravauxEmployes {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -202,6 +208,7 @@ class BonsTravauxEmployes {
      * Set the transfert paie.
      *
      * @param string $transfertPaie The transfert paie.
+     * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
     public function setTransfertPaie($transfertPaie) {
         $this->transfertPaie = $transfertPaie;

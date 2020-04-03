@@ -544,6 +544,7 @@ class DeclarationsAt {
      * Set the adresse.
      *
      * @param string $adresse The adresse.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setAdresse($adresse) {
         $this->adresse = $adresse;
@@ -554,6 +555,7 @@ class DeclarationsAt {
      * Set the categorie.
      *
      * @param string $categorie The categorie.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setCategorie($categorie) {
         $this->categorie = $categorie;
@@ -564,6 +566,7 @@ class DeclarationsAt {
      * Set the code etablissement.
      *
      * @param string $codeEtablissement The code etablissement.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -574,6 +577,7 @@ class DeclarationsAt {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -584,6 +588,7 @@ class DeclarationsAt {
      * Set the commune.
      *
      * @param string $commune The commune.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setCommune($commune) {
         $this->commune = $commune;
@@ -594,6 +599,7 @@ class DeclarationsAt {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -604,6 +610,7 @@ class DeclarationsAt {
      * Set the date naissance.
      *
      * @param DateTime|null $dateNaissance The date naissance.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDateNaissance(DateTime $dateNaissance = null) {
         $this->dateNaissance = $dateNaissance;
@@ -614,6 +621,7 @@ class DeclarationsAt {
      * Set the deduct forfait.
      *
      * @param int $deductForfait The deduct forfait.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDeductForfait($deductForfait) {
         $this->deductForfait = $deductForfait;
@@ -624,6 +632,7 @@ class DeclarationsAt {
      * Set the dt accouchement.
      *
      * @param DateTime|null $dtAccouchement The dt accouchement.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDtAccouchement(DateTime $dtAccouchement = null) {
         $this->dtAccouchement = $dtAccouchement;
@@ -634,6 +643,7 @@ class DeclarationsAt {
      * Set the dt deb at.
      *
      * @param DateTime|null $dtDebAt The dt deb at.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDtDebAt(DateTime $dtDebAt = null) {
         $this->dtDebAt = $dtDebAt;
@@ -644,6 +654,7 @@ class DeclarationsAt {
      * Set the dt deb conges.
      *
      * @param DateTime|null $dtDebConges The dt deb conges.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDtDebConges(DateTime $dtDebConges = null) {
         $this->dtDebConges = $dtDebConges;
@@ -654,6 +665,7 @@ class DeclarationsAt {
      * Set the dt embauche.
      *
      * @param DateTime|null $dtEmbauche The dt embauche.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDtEmbauche(DateTime $dtEmbauche = null) {
         $this->dtEmbauche = $dtEmbauche;
@@ -664,6 +676,7 @@ class DeclarationsAt {
      * Set the dt fin conges.
      *
      * @param DateTime|null $dtFinConges The dt fin conges.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDtFinConges(DateTime $dtFinConges = null) {
         $this->dtFinConges = $dtFinConges;
@@ -674,6 +687,7 @@ class DeclarationsAt {
      * Set the dt fin contrat.
      *
      * @param DateTime|null $dtFinContrat The dt fin contrat.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDtFinContrat(DateTime $dtFinContrat = null) {
         $this->dtFinContrat = $dtFinContrat;
@@ -684,6 +698,7 @@ class DeclarationsAt {
      * Set the dt fin preavis.
      *
      * @param DateTime|null $dtFinPreavis The dt fin preavis.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setDtFinPreavis(DateTime $dtFinPreavis = null) {
         $this->dtFinPreavis = $dtFinPreavis;
@@ -694,6 +709,7 @@ class DeclarationsAt {
      * Set the etbl nom.
      *
      * @param string $etblNom The etbl nom.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setEtblNom($etblNom) {
         $this->etblNom = $etblNom;
@@ -704,6 +720,7 @@ class DeclarationsAt {
      * Set the etbl responsable.
      *
      * @param string $etblResponsable The etbl responsable.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setEtblResponsable($etblResponsable) {
         $this->etblResponsable = $etblResponsable;
@@ -714,6 +731,7 @@ class DeclarationsAt {
      * Set the etbl signature.
      *
      * @param string $etblSignature The etbl signature.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setEtblSignature($etblSignature) {
         $this->etblSignature = $etblSignature;
@@ -724,6 +742,7 @@ class DeclarationsAt {
      * Set the etbl siret.
      *
      * @param string $etblSiret The etbl siret.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setEtblSiret($etblSiret) {
         $this->etblSiret = $etblSiret;
@@ -734,6 +753,7 @@ class DeclarationsAt {
      * Set the etbl tel.
      *
      * @param string $etblTel The etbl tel.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setEtblTel($etblTel) {
         $this->etblTel = $etblTel;
@@ -744,6 +764,7 @@ class DeclarationsAt {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -754,6 +775,7 @@ class DeclarationsAt {
      * Set the memo accident.
      *
      * @param string $memoAccident The memo accident.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setMemoAccident($memoAccident) {
         $this->memoAccident = $memoAccident;
@@ -764,6 +786,7 @@ class DeclarationsAt {
      * Set the memo correspondance.
      *
      * @param string $memoCorrespondance The memo correspondance.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setMemoCorrespondance($memoCorrespondance) {
         $this->memoCorrespondance = $memoCorrespondance;
@@ -774,6 +797,7 @@ class DeclarationsAt {
      * Set the motif at.
      *
      * @param string $motifAt The motif at.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setMotifAt($motifAt) {
         $this->motifAt = $motifAt;
@@ -784,6 +808,7 @@ class DeclarationsAt {
      * Set the mt salaire brut.
      *
      * @param int $mtSalaireBrut The mt salaire brut.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setMtSalaireBrut($mtSalaireBrut) {
         $this->mtSalaireBrut = $mtSalaireBrut;
@@ -794,6 +819,7 @@ class DeclarationsAt {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -804,6 +830,7 @@ class DeclarationsAt {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -814,6 +841,7 @@ class DeclarationsAt {
      * Set the num dat.
      *
      * @param string $numDat The num dat.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setNumDat($numDat) {
         $this->numDat = $numDat;
@@ -824,6 +852,7 @@ class DeclarationsAt {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -834,6 +863,7 @@ class DeclarationsAt {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -844,6 +874,7 @@ class DeclarationsAt {
      * Set the sign date.
      *
      * @param DateTime|null $signDate The sign date.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setSignDate(DateTime $signDate = null) {
         $this->signDate = $signDate;
@@ -854,6 +885,7 @@ class DeclarationsAt {
      * Set the type dat.
      *
      * @param string $typeDat The type dat.
+     * @return DeclarationsAt Returns this Declarations at.
      */
     public function setTypeDat($typeDat) {
         $this->typeDat = $typeDat;

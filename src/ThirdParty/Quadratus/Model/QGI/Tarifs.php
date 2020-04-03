@@ -190,6 +190,7 @@ class Tarifs {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -200,6 +201,7 @@ class Tarifs {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -210,6 +212,7 @@ class Tarifs {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -220,6 +223,7 @@ class Tarifs {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -230,6 +234,7 @@ class Tarifs {
      * Set the com sur marge brute.
      *
      * @param bool $comSurMargeBrute The com sur marge brute.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setComSurMargeBrute($comSurMargeBrute) {
         $this->comSurMargeBrute = $comSurMargeBrute;
@@ -240,6 +245,7 @@ class Tarifs {
      * Set the prix ttc.
      *
      * @param bool $prixTtc The prix ttc.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPrixTtc($prixTtc) {
         $this->prixTtc = $prixTtc;
@@ -250,6 +256,7 @@ class Tarifs {
      * Set the prix unit base.
      *
      * @param float $prixUnitBase The prix unit base.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPrixUnitBase($prixUnitBase) {
         $this->prixUnitBase = $prixUnitBase;
@@ -260,6 +267,7 @@ class Tarifs {
      * Set the taux commission.
      *
      * @param float $tauxCommission The taux commission.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setTauxCommission($tauxCommission) {
         $this->tauxCommission = $tauxCommission;
@@ -270,6 +278,7 @@ class Tarifs {
      * Set the type code article.
      *
      * @param string $typeCodeArticle The type code article.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setTypeCodeArticle($typeCodeArticle) {
         $this->typeCodeArticle = $typeCodeArticle;
@@ -280,6 +289,7 @@ class Tarifs {
      * Set the type code client.
      *
      * @param string $typeCodeClient The type code client.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setTypeCodeClient($typeCodeClient) {
         $this->typeCodeClient = $typeCodeClient;

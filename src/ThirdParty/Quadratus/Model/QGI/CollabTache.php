@@ -110,6 +110,7 @@ class CollabTache {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return CollabTache Returns this Collab tache.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -120,6 +121,7 @@ class CollabTache {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return CollabTache Returns this Collab tache.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -130,6 +132,7 @@ class CollabTache {
      * Set the pv1.
      *
      * @param float $pv1 The pv1.
+     * @return CollabTache Returns this Collab tache.
      */
     public function setPv1($pv1) {
         $this->pv1 = $pv1;
@@ -140,6 +143,7 @@ class CollabTache {
      * Set the pv2.
      *
      * @param float $pv2 The pv2.
+     * @return CollabTache Returns this Collab tache.
      */
     public function setPv2($pv2) {
         $this->pv2 = $pv2;
@@ -150,6 +154,7 @@ class CollabTache {
      * Set the pv3.
      *
      * @param float $pv3 The pv3.
+     * @return CollabTache Returns this Collab tache.
      */
     public function setPv3($pv3) {
         $this->pv3 = $pv3;

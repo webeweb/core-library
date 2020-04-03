@@ -462,6 +462,7 @@ class ClientsSelAvance {
      * Set the code.
      *
      * @param string $code The code.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -472,6 +473,7 @@ class ClientsSelAvance {
      * Set the code col.
      *
      * @param string $codeCol The code col.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setCodeCol($codeCol) {
         $this->codeCol = $codeCol;
@@ -482,6 +484,7 @@ class ClientsSelAvance {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -492,6 +495,7 @@ class ClientsSelAvance {
      * Set the nom req1.
      *
      * @param string $nomReq1 The nom req1.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq1($nomReq1) {
         $this->nomReq1 = $nomReq1;
@@ -502,6 +506,7 @@ class ClientsSelAvance {
      * Set the nom req10.
      *
      * @param string $nomReq10 The nom req10.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq10($nomReq10) {
         $this->nomReq10 = $nomReq10;
@@ -512,6 +517,7 @@ class ClientsSelAvance {
      * Set the nom req11.
      *
      * @param string $nomReq11 The nom req11.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq11($nomReq11) {
         $this->nomReq11 = $nomReq11;
@@ -522,6 +528,7 @@ class ClientsSelAvance {
      * Set the nom req12.
      *
      * @param string $nomReq12 The nom req12.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq12($nomReq12) {
         $this->nomReq12 = $nomReq12;
@@ -532,6 +539,7 @@ class ClientsSelAvance {
      * Set the nom req2.
      *
      * @param string $nomReq2 The nom req2.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq2($nomReq2) {
         $this->nomReq2 = $nomReq2;
@@ -542,6 +550,7 @@ class ClientsSelAvance {
      * Set the nom req3.
      *
      * @param string $nomReq3 The nom req3.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq3($nomReq3) {
         $this->nomReq3 = $nomReq3;
@@ -552,6 +561,7 @@ class ClientsSelAvance {
      * Set the nom req4.
      *
      * @param string $nomReq4 The nom req4.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq4($nomReq4) {
         $this->nomReq4 = $nomReq4;
@@ -562,6 +572,7 @@ class ClientsSelAvance {
      * Set the nom req5.
      *
      * @param string $nomReq5 The nom req5.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq5($nomReq5) {
         $this->nomReq5 = $nomReq5;
@@ -572,6 +583,7 @@ class ClientsSelAvance {
      * Set the nom req6.
      *
      * @param string $nomReq6 The nom req6.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq6($nomReq6) {
         $this->nomReq6 = $nomReq6;
@@ -582,6 +594,7 @@ class ClientsSelAvance {
      * Set the nom req7.
      *
      * @param string $nomReq7 The nom req7.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq7($nomReq7) {
         $this->nomReq7 = $nomReq7;
@@ -592,6 +605,7 @@ class ClientsSelAvance {
      * Set the nom req8.
      *
      * @param string $nomReq8 The nom req8.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq8($nomReq8) {
         $this->nomReq8 = $nomReq8;
@@ -602,6 +616,7 @@ class ClientsSelAvance {
      * Set the nom req9.
      *
      * @param string $nomReq9 The nom req9.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setNomReq9($nomReq9) {
         $this->nomReq9 = $nomReq9;
@@ -612,6 +627,7 @@ class ClientsSelAvance {
      * Set the requete1.
      *
      * @param string $requete1 The requete1.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete1($requete1) {
         $this->requete1 = $requete1;
@@ -622,6 +638,7 @@ class ClientsSelAvance {
      * Set the requete10.
      *
      * @param string $requete10 The requete10.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete10($requete10) {
         $this->requete10 = $requete10;
@@ -632,6 +649,7 @@ class ClientsSelAvance {
      * Set the requete11.
      *
      * @param string $requete11 The requete11.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete11($requete11) {
         $this->requete11 = $requete11;
@@ -642,6 +660,7 @@ class ClientsSelAvance {
      * Set the requete12.
      *
      * @param string $requete12 The requete12.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete12($requete12) {
         $this->requete12 = $requete12;
@@ -652,6 +671,7 @@ class ClientsSelAvance {
      * Set the requete2.
      *
      * @param string $requete2 The requete2.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete2($requete2) {
         $this->requete2 = $requete2;
@@ -662,6 +682,7 @@ class ClientsSelAvance {
      * Set the requete3.
      *
      * @param string $requete3 The requete3.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete3($requete3) {
         $this->requete3 = $requete3;
@@ -672,6 +693,7 @@ class ClientsSelAvance {
      * Set the requete4.
      *
      * @param string $requete4 The requete4.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete4($requete4) {
         $this->requete4 = $requete4;
@@ -682,6 +704,7 @@ class ClientsSelAvance {
      * Set the requete5.
      *
      * @param string $requete5 The requete5.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete5($requete5) {
         $this->requete5 = $requete5;
@@ -692,6 +715,7 @@ class ClientsSelAvance {
      * Set the requete6.
      *
      * @param string $requete6 The requete6.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete6($requete6) {
         $this->requete6 = $requete6;
@@ -702,6 +726,7 @@ class ClientsSelAvance {
      * Set the requete7.
      *
      * @param string $requete7 The requete7.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete7($requete7) {
         $this->requete7 = $requete7;
@@ -712,6 +737,7 @@ class ClientsSelAvance {
      * Set the requete8.
      *
      * @param string $requete8 The requete8.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete8($requete8) {
         $this->requete8 = $requete8;
@@ -722,6 +748,7 @@ class ClientsSelAvance {
      * Set the requete9.
      *
      * @param string $requete9 The requete9.
+     * @return ClientsSelAvance Returns this Clients sel avance.
      */
     public function setRequete9($requete9) {
         $this->requete9 = $requete9;

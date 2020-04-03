@@ -222,6 +222,7 @@ class iEspaceClientDroits {
      * Set the code collab messages.
      *
      * @param string $codeCollabMessages The code collab messages.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setCodeCollabMessages($codeCollabMessages) {
         $this->codeCollabMessages = $codeCollabMessages;
@@ -232,6 +233,7 @@ class iEspaceClientDroits {
      * Set the code user.
      *
      * @param string $codeUser The code user.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setCodeUser($codeUser) {
         $this->codeUser = $codeUser;
@@ -242,6 +244,7 @@ class iEspaceClientDroits {
      * Set the dossier client.
      *
      * @param string $dossierClient The dossier client.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setDossierClient($dossierClient) {
         $this->dossierClient = $dossierClient;
@@ -252,6 +255,7 @@ class iEspaceClientDroits {
      * Set the fct documents.
      *
      * @param bool $fctDocuments The fct documents.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setFctDocuments($fctDocuments) {
         $this->fctDocuments = $fctDocuments;
@@ -262,6 +266,7 @@ class iEspaceClientDroits {
      * Set the fct documents autre.
      *
      * @param int $fctDocumentsAutre The fct documents autre.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setFctDocumentsAutre($fctDocumentsAutre) {
         $this->fctDocumentsAutre = $fctDocumentsAutre;
@@ -272,6 +277,7 @@ class iEspaceClientDroits {
      * Set the fct documents compta.
      *
      * @param int $fctDocumentsCompta The fct documents compta.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setFctDocumentsCompta($fctDocumentsCompta) {
         $this->fctDocumentsCompta = $fctDocumentsCompta;
@@ -282,6 +288,7 @@ class iEspaceClientDroits {
      * Set the fct documents juridique.
      *
      * @param int $fctDocumentsJuridique The fct documents juridique.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setFctDocumentsJuridique($fctDocumentsJuridique) {
         $this->fctDocumentsJuridique = $fctDocumentsJuridique;
@@ -292,6 +299,7 @@ class iEspaceClientDroits {
      * Set the fct documents paie.
      *
      * @param int $fctDocumentsPaie The fct documents paie.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setFctDocumentsPaie($fctDocumentsPaie) {
         $this->fctDocumentsPaie = $fctDocumentsPaie;
@@ -302,6 +310,7 @@ class iEspaceClientDroits {
      * Set the fct infos.
      *
      * @param bool $fctInfos The fct infos.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setFctInfos($fctInfos) {
         $this->fctInfos = $fctInfos;
@@ -312,6 +321,7 @@ class iEspaceClientDroits {
      * Set the fct messagerie.
      *
      * @param int $fctMessagerie The fct messagerie.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setFctMessagerie($fctMessagerie) {
         $this->fctMessagerie = $fctMessagerie;
@@ -322,6 +332,7 @@ class iEspaceClientDroits {
      * Set the nom user.
      *
      * @param string $nomUser The nom user.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setNomUser($nomUser) {
         $this->nomUser = $nomUser;
@@ -332,6 +343,7 @@ class iEspaceClientDroits {
      * Set the password.
      *
      * @param string $password The password.
+     * @return iEspaceClientDroits Returns this i espace client droits.
      */
     public function setPassword($password) {
         $this->password = $password;

@@ -576,6 +576,7 @@ class TempsPasses {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -586,6 +587,7 @@ class TempsPasses {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -596,6 +598,7 @@ class TempsPasses {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -606,6 +609,7 @@ class TempsPasses {
      * Set the code phase.
      *
      * @param string $codePhase The code phase.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setCodePhase($codePhase) {
         $this->codePhase = $codePhase;
@@ -616,6 +620,7 @@ class TempsPasses {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -626,6 +631,7 @@ class TempsPasses {
      * Set the code vehicule.
      *
      * @param string $codeVehicule The code vehicule.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setCodeVehicule($codeVehicule) {
         $this->codeVehicule = $codeVehicule;
@@ -636,6 +642,7 @@ class TempsPasses {
      * Set the cout km.
      *
      * @param float $coutKm The cout km.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setCoutKm($coutKm) {
         $this->coutKm = $coutKm;
@@ -646,6 +653,7 @@ class TempsPasses {
      * Set the date saisie.
      *
      * @param DateTime|null $dateSaisie The date saisie.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setDateSaisie(DateTime $dateSaisie = null) {
         $this->dateSaisie = $dateSaisie;
@@ -656,6 +664,7 @@ class TempsPasses {
      * Set the date sys saisie.
      *
      * @param DateTime|null $dateSysSaisie The date sys saisie.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setDateSysSaisie(DateTime $dateSysSaisie = null) {
         $this->dateSysSaisie = $dateSysSaisie;
@@ -666,6 +675,7 @@ class TempsPasses {
      * Set the etat.
      *
      * @param int $etat The etat.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -676,6 +686,7 @@ class TempsPasses {
      * Set the facturable.
      *
      * @param bool $facturable The facturable.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setFacturable($facturable) {
         $this->facturable = $facturable;
@@ -686,6 +697,7 @@ class TempsPasses {
      * Set the g uniq id.
      *
      * @param string $gUniqId The g uniq id.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setGUniqId($gUniqId) {
         $this->gUniqId = $gUniqId;
@@ -696,6 +708,7 @@ class TempsPasses {
      * Set the heure debut.
      *
      * @param DateTime|null $heureDebut The heure debut.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setHeureDebut(DateTime $heureDebut = null) {
         $this->heureDebut = $heureDebut;
@@ -706,6 +719,7 @@ class TempsPasses {
      * Set the heure fin.
      *
      * @param DateTime|null $heureFin The heure fin.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setHeureFin(DateTime $heureFin = null) {
         $this->heureFin = $heureFin;
@@ -716,6 +730,7 @@ class TempsPasses {
      * Set the id tps.
      *
      * @param int $idTps The id tps.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setIdTps($idTps) {
         $this->idTps = $idTps;
@@ -726,6 +741,7 @@ class TempsPasses {
      * Set the is transf.
      *
      * @param bool $isTransf The is transf.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setIsTransf($isTransf) {
         $this->isTransf = $isTransf;
@@ -736,6 +752,7 @@ class TempsPasses {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -746,6 +763,7 @@ class TempsPasses {
      * Set the monnaie.
      *
      * @param string $monnaie The monnaie.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setMonnaie($monnaie) {
         $this->monnaie = $monnaie;
@@ -756,6 +774,7 @@ class TempsPasses {
      * Set the montant crt.
      *
      * @param float $montantCrt The montant crt.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setMontantCrt($montantCrt) {
         $this->montantCrt = $montantCrt;
@@ -766,6 +785,7 @@ class TempsPasses {
      * Set the montant tva.
      *
      * @param float $montantTva The montant tva.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setMontantTva($montantTva) {
         $this->montantTva = $montantTva;
@@ -776,6 +796,7 @@ class TempsPasses {
      * Set the nb km.
      *
      * @param float $nbKm The nb km.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setNbKm($nbKm) {
         $this->nbKm = $nbKm;
@@ -786,6 +807,7 @@ class TempsPasses {
      * Set the nb uo.
      *
      * @param float $nbUo The nb uo.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setNbUo($nbUo) {
         $this->nbUo = $nbUo;
@@ -796,6 +818,7 @@ class TempsPasses {
      * Set the periode edition nd f.
      *
      * @param DateTime|null $periodeEditionNdF The periode edition nd f.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setPeriodeEditionNdF(DateTime $periodeEditionNdF = null) {
         $this->periodeEditionNdF = $periodeEditionNdF;
@@ -806,6 +829,7 @@ class TempsPasses {
      * Set the pu.
      *
      * @param float $pu The pu.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setPu($pu) {
         $this->pu = $pu;
@@ -816,6 +840,7 @@ class TempsPasses {
      * Set the pv1.
      *
      * @param float $pv1 The pv1.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setPv1($pv1) {
         $this->pv1 = $pv1;
@@ -826,6 +851,7 @@ class TempsPasses {
      * Set the pv2.
      *
      * @param float $pv2 The pv2.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setPv2($pv2) {
         $this->pv2 = $pv2;
@@ -836,6 +862,7 @@ class TempsPasses {
      * Set the pv3.
      *
      * @param float $pv3 The pv3.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setPv3($pv3) {
         $this->pv3 = $pv3;
@@ -846,6 +873,7 @@ class TempsPasses {
      * Set the qte.
      *
      * @param float $qte The qte.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setQte($qte) {
         $this->qte = $qte;
@@ -856,6 +884,7 @@ class TempsPasses {
      * Set the taux remise.
      *
      * @param float $tauxRemise The taux remise.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setTauxRemise($tauxRemise) {
         $this->tauxRemise = $tauxRemise;
@@ -866,6 +895,7 @@ class TempsPasses {
      * Set the taux remise ici.
      *
      * @param bool $tauxRemiseIci The taux remise ici.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setTauxRemiseIci($tauxRemiseIci) {
         $this->tauxRemiseIci = $tauxRemiseIci;
@@ -876,6 +906,7 @@ class TempsPasses {
      * Set the uniq id facture.
      *
      * @param string $uniqIdFacture The uniq id facture.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setUniqIdFacture($uniqIdFacture) {
         $this->uniqIdFacture = $uniqIdFacture;
@@ -886,6 +917,7 @@ class TempsPasses {
      * Set the valide.
      *
      * @param bool $valide The valide.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setValide($valide) {
         $this->valide = $valide;
@@ -896,6 +928,7 @@ class TempsPasses {
      * Set the valide collab.
      *
      * @param string $valideCollab The valide collab.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setValideCollab($valideCollab) {
         $this->valideCollab = $valideCollab;
@@ -906,6 +939,7 @@ class TempsPasses {
      * Set the valide date.
      *
      * @param DateTime|null $valideDate The valide date.
+     * @return TempsPasses Returns this Temps passes.
      */
     public function setValideDate(DateTime $valideDate = null) {
         $this->valideDate = $valideDate;

@@ -62,6 +62,7 @@ class ActionsTaches {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return ActionsTaches Returns this Actions taches.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -72,6 +73,7 @@ class ActionsTaches {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return ActionsTaches Returns this Actions taches.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;

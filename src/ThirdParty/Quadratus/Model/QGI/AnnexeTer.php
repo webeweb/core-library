@@ -688,6 +688,7 @@ class AnnexeTer {
      * Set the boolean1.
      *
      * @param bool $boolean1 The boolean1.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setBoolean1($boolean1) {
         $this->boolean1 = $boolean1;
@@ -698,6 +699,7 @@ class AnnexeTer {
      * Set the boolean2.
      *
      * @param bool $boolean2 The boolean2.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setBoolean2($boolean2) {
         $this->boolean2 = $boolean2;
@@ -708,6 +710,7 @@ class AnnexeTer {
      * Set the boolean3.
      *
      * @param bool $boolean3 The boolean3.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setBoolean3($boolean3) {
         $this->boolean3 = $boolean3;
@@ -718,6 +721,7 @@ class AnnexeTer {
      * Set the boolean4.
      *
      * @param bool $boolean4 The boolean4.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setBoolean4($boolean4) {
         $this->boolean4 = $boolean4;
@@ -728,6 +732,7 @@ class AnnexeTer {
      * Set the boolean5.
      *
      * @param bool $boolean5 The boolean5.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setBoolean5($boolean5) {
         $this->boolean5 = $boolean5;
@@ -738,6 +743,7 @@ class AnnexeTer {
      * Set the boolean6.
      *
      * @param bool $boolean6 The boolean6.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setBoolean6($boolean6) {
         $this->boolean6 = $boolean6;
@@ -748,6 +754,7 @@ class AnnexeTer {
      * Set the boolean7.
      *
      * @param bool $boolean7 The boolean7.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setBoolean7($boolean7) {
         $this->boolean7 = $boolean7;
@@ -758,6 +765,7 @@ class AnnexeTer {
      * Set the code1.
      *
      * @param string $code1 The code1.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setCode1($code1) {
         $this->code1 = $code1;
@@ -768,6 +776,7 @@ class AnnexeTer {
      * Set the code2.
      *
      * @param string $code2 The code2.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setCode2($code2) {
         $this->code2 = $code2;
@@ -778,6 +787,7 @@ class AnnexeTer {
      * Set the date1.
      *
      * @param DateTime|null $date1 The date1.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDate1(DateTime $date1 = null) {
         $this->date1 = $date1;
@@ -788,6 +798,7 @@ class AnnexeTer {
      * Set the date2.
      *
      * @param DateTime|null $date2 The date2.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDate2(DateTime $date2 = null) {
         $this->date2 = $date2;
@@ -798,6 +809,7 @@ class AnnexeTer {
      * Set the date3.
      *
      * @param DateTime|null $date3 The date3.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDate3(DateTime $date3 = null) {
         $this->date3 = $date3;
@@ -808,6 +820,7 @@ class AnnexeTer {
      * Set the date4.
      *
      * @param DateTime|null $date4 The date4.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDate4(DateTime $date4 = null) {
         $this->date4 = $date4;
@@ -818,6 +831,7 @@ class AnnexeTer {
      * Set the date5.
      *
      * @param DateTime|null $date5 The date5.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDate5(DateTime $date5 = null) {
         $this->date5 = $date5;
@@ -828,6 +842,7 @@ class AnnexeTer {
      * Set the date6.
      *
      * @param DateTime|null $date6 The date6.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDate6(DateTime $date6 = null) {
         $this->date6 = $date6;
@@ -838,6 +853,7 @@ class AnnexeTer {
      * Set the date7.
      *
      * @param DateTime|null $date7 The date7.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDate7(DateTime $date7 = null) {
         $this->date7 = $date7;
@@ -848,6 +864,7 @@ class AnnexeTer {
      * Set the double1.
      *
      * @param float $double1 The double1.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDouble1($double1) {
         $this->double1 = $double1;
@@ -858,6 +875,7 @@ class AnnexeTer {
      * Set the double2.
      *
      * @param float $double2 The double2.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDouble2($double2) {
         $this->double2 = $double2;
@@ -868,6 +886,7 @@ class AnnexeTer {
      * Set the double3.
      *
      * @param float $double3 The double3.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDouble3($double3) {
         $this->double3 = $double3;
@@ -878,6 +897,7 @@ class AnnexeTer {
      * Set the double4.
      *
      * @param float $double4 The double4.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDouble4($double4) {
         $this->double4 = $double4;
@@ -888,6 +908,7 @@ class AnnexeTer {
      * Set the double5.
      *
      * @param float $double5 The double5.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDouble5($double5) {
         $this->double5 = $double5;
@@ -898,6 +919,7 @@ class AnnexeTer {
      * Set the double6.
      *
      * @param float $double6 The double6.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDouble6($double6) {
         $this->double6 = $double6;
@@ -908,6 +930,7 @@ class AnnexeTer {
      * Set the double7.
      *
      * @param float $double7 The double7.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setDouble7($double7) {
         $this->double7 = $double7;
@@ -918,6 +941,7 @@ class AnnexeTer {
      * Set the long1.
      *
      * @param int $long1 The long1.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setLong1($long1) {
         $this->long1 = $long1;
@@ -928,6 +952,7 @@ class AnnexeTer {
      * Set the long2.
      *
      * @param int $long2 The long2.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setLong2($long2) {
         $this->long2 = $long2;
@@ -938,6 +963,7 @@ class AnnexeTer {
      * Set the long3.
      *
      * @param int $long3 The long3.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setLong3($long3) {
         $this->long3 = $long3;
@@ -948,6 +974,7 @@ class AnnexeTer {
      * Set the long4.
      *
      * @param int $long4 The long4.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setLong4($long4) {
         $this->long4 = $long4;
@@ -958,6 +985,7 @@ class AnnexeTer {
      * Set the long5.
      *
      * @param int $long5 The long5.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setLong5($long5) {
         $this->long5 = $long5;
@@ -968,6 +996,7 @@ class AnnexeTer {
      * Set the long6.
      *
      * @param int $long6 The long6.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setLong6($long6) {
         $this->long6 = $long6;
@@ -978,6 +1007,7 @@ class AnnexeTer {
      * Set the long7.
      *
      * @param int $long7 The long7.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setLong7($long7) {
         $this->long7 = $long7;
@@ -988,6 +1018,7 @@ class AnnexeTer {
      * Set the memo1.
      *
      * @param string $memo1 The memo1.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setMemo1($memo1) {
         $this->memo1 = $memo1;
@@ -998,6 +1029,7 @@ class AnnexeTer {
      * Set the memo2.
      *
      * @param string $memo2 The memo2.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setMemo2($memo2) {
         $this->memo2 = $memo2;
@@ -1008,6 +1040,7 @@ class AnnexeTer {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -1018,6 +1051,7 @@ class AnnexeTer {
      * Set the text1.
      *
      * @param string $text1 The text1.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setText1($text1) {
         $this->text1 = $text1;
@@ -1028,6 +1062,7 @@ class AnnexeTer {
      * Set the text2.
      *
      * @param string $text2 The text2.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setText2($text2) {
         $this->text2 = $text2;
@@ -1038,6 +1073,7 @@ class AnnexeTer {
      * Set the text3.
      *
      * @param string $text3 The text3.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setText3($text3) {
         $this->text3 = $text3;
@@ -1048,6 +1084,7 @@ class AnnexeTer {
      * Set the text4.
      *
      * @param string $text4 The text4.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setText4($text4) {
         $this->text4 = $text4;
@@ -1058,6 +1095,7 @@ class AnnexeTer {
      * Set the text5.
      *
      * @param string $text5 The text5.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setText5($text5) {
         $this->text5 = $text5;
@@ -1068,6 +1106,7 @@ class AnnexeTer {
      * Set the text6.
      *
      * @param string $text6 The text6.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setText6($text6) {
         $this->text6 = $text6;
@@ -1078,6 +1117,7 @@ class AnnexeTer {
      * Set the text7.
      *
      * @param string $text7 The text7.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setText7($text7) {
         $this->text7 = $text7;
@@ -1088,6 +1128,7 @@ class AnnexeTer {
      * Set the type.
      *
      * @param string $type The type.
+     * @return AnnexeTer Returns this Annexe ter.
      */
     public function setType($type) {
         $this->type = $type;

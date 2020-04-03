@@ -78,6 +78,7 @@ class AgendaTaches {
      * Set the code.
      *
      * @param string $code The code.
+     * @return AgendaTaches Returns this Agenda taches.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class AgendaTaches {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return AgendaTaches Returns this Agenda taches.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -98,6 +100,7 @@ class AgendaTaches {
      * Set the liste groupes.
      *
      * @param string $listeGroupes The liste groupes.
+     * @return AgendaTaches Returns this Agenda taches.
      */
     public function setListeGroupes($listeGroupes) {
         $this->listeGroupes = $listeGroupes;

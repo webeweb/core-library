@@ -222,6 +222,7 @@ class BonsTravauxInterventions {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -232,6 +233,7 @@ class BonsTravauxInterventions {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -242,6 +244,7 @@ class BonsTravauxInterventions {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -252,6 +255,7 @@ class BonsTravauxInterventions {
      * Set the dimanche.
      *
      * @param bool $dimanche The dimanche.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setDimanche($dimanche) {
         $this->dimanche = $dimanche;
@@ -262,6 +266,7 @@ class BonsTravauxInterventions {
      * Set the jeudi.
      *
      * @param bool $jeudi The jeudi.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setJeudi($jeudi) {
         $this->jeudi = $jeudi;
@@ -272,6 +277,7 @@ class BonsTravauxInterventions {
      * Set the lundi.
      *
      * @param bool $lundi The lundi.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setLundi($lundi) {
         $this->lundi = $lundi;
@@ -282,6 +288,7 @@ class BonsTravauxInterventions {
      * Set the mardi.
      *
      * @param bool $mardi The mardi.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setMardi($mardi) {
         $this->mardi = $mardi;
@@ -292,6 +299,7 @@ class BonsTravauxInterventions {
      * Set the mercredi.
      *
      * @param bool $mercredi The mercredi.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setMercredi($mercredi) {
         $this->mercredi = $mercredi;
@@ -302,6 +310,7 @@ class BonsTravauxInterventions {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -312,6 +321,7 @@ class BonsTravauxInterventions {
      * Set the num sem.
      *
      * @param string $numSem The num sem.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setNumSem($numSem) {
         $this->numSem = $numSem;
@@ -322,6 +332,7 @@ class BonsTravauxInterventions {
      * Set the samedi.
      *
      * @param bool $samedi The samedi.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setSamedi($samedi) {
         $this->samedi = $samedi;
@@ -332,6 +343,7 @@ class BonsTravauxInterventions {
      * Set the vendredi.
      *
      * @param bool $vendredi The vendredi.
+     * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
     public function setVendredi($vendredi) {
         $this->vendredi = $vendredi;

@@ -128,6 +128,7 @@ class Previsionnel {
      * Set the annee.
      *
      * @param int $annee The annee.
+     * @return Previsionnel Returns this Previsionnel.
      */
     public function setAnnee($annee) {
         $this->annee = $annee;
@@ -138,6 +139,7 @@ class Previsionnel {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return Previsionnel Returns this Previsionnel.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -148,6 +150,7 @@ class Previsionnel {
      * Set the debut semaine.
      *
      * @param DateTime|null $debutSemaine The debut semaine.
+     * @return Previsionnel Returns this Previsionnel.
      */
     public function setDebutSemaine(DateTime $debutSemaine = null) {
         $this->debutSemaine = $debutSemaine;
@@ -158,6 +161,7 @@ class Previsionnel {
      * Set the horaire prevu.
      *
      * @param float $horairePrevu The horaire prevu.
+     * @return Previsionnel Returns this Previsionnel.
      */
     public function setHorairePrevu($horairePrevu) {
         $this->horairePrevu = $horairePrevu;
@@ -168,6 +172,7 @@ class Previsionnel {
      * Set the numero grille type.
      *
      * @param int $numeroGrilleType The numero grille type.
+     * @return Previsionnel Returns this Previsionnel.
      */
     public function setNumeroGrilleType($numeroGrilleType) {
         $this->numeroGrilleType = $numeroGrilleType;
@@ -178,6 +183,7 @@ class Previsionnel {
      * Set the numero semaine.
      *
      * @param string $numeroSemaine The numero semaine.
+     * @return Previsionnel Returns this Previsionnel.
      */
     public function setNumeroSemaine($numeroSemaine) {
         $this->numeroSemaine = $numeroSemaine;

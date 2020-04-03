@@ -110,6 +110,7 @@ class InfoStatistiques {
      * Set the a facturer hors ex.
      *
      * @param int $aFacturerHorsEx The a facturer hors ex.
+     * @return InfoStatistiques Returns this Info statistiques.
      */
     public function setAFacturerHorsEx($aFacturerHorsEx) {
         $this->aFacturerHorsEx = $aFacturerHorsEx;
@@ -120,6 +121,7 @@ class InfoStatistiques {
      * Set the a facturer sur ex.
      *
      * @param int $aFacturerSurEx The a facturer sur ex.
+     * @return InfoStatistiques Returns this Info statistiques.
      */
     public function setAFacturerSurEx($aFacturerSurEx) {
         $this->aFacturerSurEx = $aFacturerSurEx;
@@ -130,6 +132,7 @@ class InfoStatistiques {
      * Set the code element.
      *
      * @param int $codeElement The code element.
+     * @return InfoStatistiques Returns this Info statistiques.
      */
     public function setCodeElement($codeElement) {
         $this->codeElement = $codeElement;
@@ -140,6 +143,7 @@ class InfoStatistiques {
      * Set the compteur hors ex.
      *
      * @param int $compteurHorsEx The compteur hors ex.
+     * @return InfoStatistiques Returns this Info statistiques.
      */
     public function setCompteurHorsEx($compteurHorsEx) {
         $this->compteurHorsEx = $compteurHorsEx;
@@ -150,6 +154,7 @@ class InfoStatistiques {
      * Set the compteur sur ex.
      *
      * @param int $compteurSurEx The compteur sur ex.
+     * @return InfoStatistiques Returns this Info statistiques.
      */
     public function setCompteurSurEx($compteurSurEx) {
         $this->compteurSurEx = $compteurSurEx;

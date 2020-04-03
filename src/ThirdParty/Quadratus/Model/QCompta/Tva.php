@@ -142,6 +142,7 @@ class Tva {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Tva Returns this Tva.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -152,6 +153,7 @@ class Tva {
      * Set the compte tva achat.
      *
      * @param string $compteTvaAchat The compte tva achat.
+     * @return Tva Returns this Tva.
      */
     public function setCompteTvaAchat($compteTvaAchat) {
         $this->compteTvaAchat = $compteTvaAchat;
@@ -162,6 +164,7 @@ class Tva {
      * Set the compte tva immo.
      *
      * @param string $compteTvaImmo The compte tva immo.
+     * @return Tva Returns this Tva.
      */
     public function setCompteTvaImmo($compteTvaImmo) {
         $this->compteTvaImmo = $compteTvaImmo;
@@ -172,6 +175,7 @@ class Tva {
      * Set the compte tva vente.
      *
      * @param string $compteTvaVente The compte tva vente.
+     * @return Tva Returns this Tva.
      */
     public function setCompteTvaVente($compteTvaVente) {
         $this->compteTvaVente = $compteTvaVente;
@@ -182,6 +186,7 @@ class Tva {
      * Set the compte ventilation.
      *
      * @param string $compteVentilation The compte ventilation.
+     * @return Tva Returns this Tva.
      */
     public function setCompteVentilation($compteVentilation) {
         $this->compteVentilation = $compteVentilation;
@@ -192,6 +197,7 @@ class Tva {
      * Set the taux tva.
      *
      * @param float $tauxTva The taux tva.
+     * @return Tva Returns this Tva.
      */
     public function setTauxTva($tauxTva) {
         $this->tauxTva = $tauxTva;
@@ -202,6 +208,7 @@ class Tva {
      * Set the type autoliquidation.
      *
      * @param string $typeAutoliquidation The type autoliquidation.
+     * @return Tva Returns this Tva.
      */
     public function setTypeAutoliquidation($typeAutoliquidation) {
         $this->typeAutoliquidation = $typeAutoliquidation;

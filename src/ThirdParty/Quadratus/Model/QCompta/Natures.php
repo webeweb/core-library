@@ -174,6 +174,7 @@ class Natures {
      * Set the chapitre affect.
      *
      * @param string $chapitreAffect The chapitre affect.
+     * @return Natures Returns this Natures.
      */
     public function setChapitreAffect($chapitreAffect) {
         $this->chapitreAffect = $chapitreAffect;
@@ -184,6 +185,7 @@ class Natures {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Natures Returns this Natures.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -194,6 +196,7 @@ class Natures {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Natures Returns this Natures.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -204,6 +207,7 @@ class Natures {
      * Set the mode calcul repart.
      *
      * @param string $modeCalculRepart The mode calcul repart.
+     * @return Natures Returns this Natures.
      */
     public function setModeCalculRepart($modeCalculRepart) {
         $this->modeCalculRepart = $modeCalculRepart;
@@ -214,6 +218,7 @@ class Natures {
      * Set the nature inactive.
      *
      * @param bool $natureInactive The nature inactive.
+     * @return Natures Returns this Natures.
      */
     public function setNatureInactive($natureInactive) {
         $this->natureInactive = $natureInactive;
@@ -224,6 +229,7 @@ class Natures {
      * Set the ordre edition.
      *
      * @param int $ordreEdition The ordre edition.
+     * @return Natures Returns this Natures.
      */
     public function setOrdreEdition($ordreEdition) {
         $this->ordreEdition = $ordreEdition;
@@ -234,6 +240,7 @@ class Natures {
      * Set the suivi annee recolte.
      *
      * @param bool $suiviAnneeRecolte The suivi annee recolte.
+     * @return Natures Returns this Natures.
      */
     public function setSuiviAnneeRecolte($suiviAnneeRecolte) {
         $this->suiviAnneeRecolte = $suiviAnneeRecolte;
@@ -244,6 +251,7 @@ class Natures {
      * Set the suivi quantite.
      *
      * @param string $suiviQuantite The suivi quantite.
+     * @return Natures Returns this Natures.
      */
     public function setSuiviQuantite($suiviQuantite) {
         $this->suiviQuantite = $suiviQuantite;
@@ -254,6 +262,7 @@ class Natures {
      * Set the type nature.
      *
      * @param string $typeNature The type nature.
+     * @return Natures Returns this Natures.
      */
     public function setTypeNature($typeNature) {
         $this->typeNature = $typeNature;

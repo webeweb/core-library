@@ -78,6 +78,7 @@ class LstDiffusionTetes {
      * Set the code.
      *
      * @param string $code The code.
+     * @return LstDiffusionTetes Returns this Lst diffusion tetes.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class LstDiffusionTetes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return LstDiffusionTetes Returns this Lst diffusion tetes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -98,6 +100,7 @@ class LstDiffusionTetes {
      * Set the type.
      *
      * @param int $type The type.
+     * @return LstDiffusionTetes Returns this Lst diffusion tetes.
      */
     public function setType($type) {
         $this->type = $type;

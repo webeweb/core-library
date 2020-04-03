@@ -158,6 +158,7 @@ class ConventionsColLibelles {
      * Set the active.
      *
      * @param bool $active The active.
+     * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
     public function setActive($active) {
         $this->active = $active;
@@ -168,6 +169,7 @@ class ConventionsColLibelles {
      * Set the categ salarie.
      *
      * @param int $categSalarie The categ salarie.
+     * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
     public function setCategSalarie($categSalarie) {
         $this->categSalarie = $categSalarie;
@@ -178,6 +180,7 @@ class ConventionsColLibelles {
      * Set the code convention.
      *
      * @param string $codeConvention The code convention.
+     * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
     public function setCodeConvention($codeConvention) {
         $this->codeConvention = $codeConvention;
@@ -188,6 +191,7 @@ class ConventionsColLibelles {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -198,6 +202,7 @@ class ConventionsColLibelles {
      * Set the frais sante am.
      *
      * @param bool $fraisSanteAm The frais sante am.
+     * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
     public function setFraisSanteAm($fraisSanteAm) {
         $this->fraisSanteAm = $fraisSanteAm;
@@ -208,6 +213,7 @@ class ConventionsColLibelles {
      * Set the indice categ.
      *
      * @param int $indiceCateg The indice categ.
+     * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
     public function setIndiceCateg($indiceCateg) {
         $this->indiceCateg = $indiceCateg;
@@ -218,6 +224,7 @@ class ConventionsColLibelles {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -228,6 +235,7 @@ class ConventionsColLibelles {
      * Set the position.
      *
      * @param int $position The position.
+     * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
     public function setPosition($position) {
         $this->position = $position;

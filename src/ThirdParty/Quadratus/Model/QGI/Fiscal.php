@@ -1536,6 +1536,7 @@ class Fiscal {
      * Set the abattement cga.
      *
      * @param bool $abattementCga The abattement cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setAbattementCga($abattementCga) {
         $this->abattementCga = $abattementCga;
@@ -1546,6 +1547,7 @@ class Fiscal {
      * Set the assurance controle.
      *
      * @param bool $assuranceControle The assurance controle.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setAssuranceControle($assuranceControle) {
         $this->assuranceControle = $assuranceControle;
@@ -1556,6 +1558,7 @@ class Fiscal {
      * Set the cd assiette.
      *
      * @param string $cdAssiette The cd assiette.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCdAssiette($cdAssiette) {
         $this->cdAssiette = $cdAssiette;
@@ -1566,6 +1569,7 @@ class Fiscal {
      * Set the cdi.
      *
      * @param string $cdi The cdi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCdi($cdi) {
         $this->cdi = $cdi;
@@ -1576,6 +1580,7 @@ class Fiscal {
      * Set the cga.
      *
      * @param bool $cga The cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCga($cga) {
         $this->cga = $cga;
@@ -1586,6 +1591,7 @@ class Fiscal {
      * Set the code centre impot.
      *
      * @param string $codeCentreImpot The code centre impot.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCodeCentreImpot($codeCentreImpot) {
         $this->codeCentreImpot = $codeCentreImpot;
@@ -1596,6 +1602,7 @@ class Fiscal {
      * Set the code cga.
      *
      * @param string $codeCga The code cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCodeCga($codeCga) {
         $this->codeCga = $codeCga;
@@ -1606,6 +1613,7 @@ class Fiscal {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -1616,6 +1624,7 @@ class Fiscal {
      * Set the code impot direct.
      *
      * @param string $codeImpotDirect The code impot direct.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCodeImpotDirect($codeImpotDirect) {
         $this->codeImpotDirect = $codeImpotDirect;
@@ -1626,6 +1635,7 @@ class Fiscal {
      * Set the code recette impots.
      *
      * @param string $codeRecetteImpots The code recette impots.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCodeRecetteImpots($codeRecetteImpots) {
         $this->codeRecetteImpots = $codeRecetteImpots;
@@ -1636,6 +1646,7 @@ class Fiscal {
      * Set the code regime tva.
      *
      * @param string $codeRegimeTva The code regime tva.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setCodeRegimeTva($codeRegimeTva) {
         $this->codeRegimeTva = $codeRegimeTva;
@@ -1646,6 +1657,7 @@ class Fiscal {
      * Set the contact centre impots.
      *
      * @param string $contactCentreImpots The contact centre impots.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setContactCentreImpots($contactCentreImpots) {
         $this->contactCentreImpots = $contactCentreImpots;
@@ -1656,6 +1668,7 @@ class Fiscal {
      * Set the contact cga.
      *
      * @param string $contactCga The contact cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setContactCga($contactCga) {
         $this->contactCga = $contactCga;
@@ -1666,6 +1679,7 @@ class Fiscal {
      * Set the contact recette impots.
      *
      * @param string $contactRecetteImpots The contact recette impots.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setContactRecetteImpots($contactRecetteImpots) {
         $this->contactRecetteImpots = $contactRecetteImpots;
@@ -1676,6 +1690,7 @@ class Fiscal {
      * Set the date adhesion cga.
      *
      * @param DateTime|null $dateAdhesionCga The date adhesion cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setDateAdhesionCga(DateTime $dateAdhesionCga = null) {
         $this->dateAdhesionCga = $dateAdhesionCga;
@@ -1686,6 +1701,7 @@ class Fiscal {
      * Set the date effet adhesion cga.
      *
      * @param DateTime|null $dateEffetAdhesionCga The date effet adhesion cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setDateEffetAdhesionCga(DateTime $dateEffetAdhesionCga = null) {
         $this->dateEffetAdhesionCga = $dateEffetAdhesionCga;
@@ -1696,6 +1712,7 @@ class Fiscal {
      * Set the date effet radiation cga.
      *
      * @param DateTime|null $dateEffetRadiationCga The date effet radiation cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setDateEffetRadiationCga(DateTime $dateEffetRadiationCga = null) {
         $this->dateEffetRadiationCga = $dateEffetRadiationCga;
@@ -1706,6 +1723,7 @@ class Fiscal {
      * Set the date radiation cga.
      *
      * @param DateTime|null $dateRadiationCga The date radiation cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setDateRadiationCga(DateTime $dateRadiationCga = null) {
         $this->dateRadiationCga = $dateRadiationCga;
@@ -1716,6 +1734,7 @@ class Fiscal {
      * Set the declaration sur.
      *
      * @param string $declarationSur The declaration sur.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setDeclarationSur($declarationSur) {
         $this->declarationSur = $declarationSur;
@@ -1726,6 +1745,7 @@ class Fiscal {
      * Set the duree exercice.
      *
      * @param string $dureeExercice The duree exercice.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setDureeExercice($dureeExercice) {
         $this->dureeExercice = $dureeExercice;
@@ -1736,6 +1756,7 @@ class Fiscal {
      * Set the edi tdfc bd f.
      *
      * @param bool $ediTdfcBdF The edi tdfc bd f.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setEdiTdfcBdF($ediTdfcBdF) {
         $this->ediTdfcBdF = $ediTdfcBdF;
@@ -1746,6 +1767,7 @@ class Fiscal {
      * Set the frp cle.
      *
      * @param string $frpCle The frp cle.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setFrpCle($frpCle) {
         $this->frpCle = $frpCle;
@@ -1756,6 +1778,7 @@ class Fiscal {
      * Set the frp dossier.
      *
      * @param string $frpDossier The frp dossier.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setFrpDossier($frpDossier) {
         $this->frpDossier = $frpDossier;
@@ -1766,6 +1789,7 @@ class Fiscal {
      * Set the frp recette.
      *
      * @param string $frpRecette The frp recette.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setFrpRecette($frpRecette) {
         $this->frpRecette = $frpRecette;
@@ -1776,6 +1800,7 @@ class Fiscal {
      * Set the id impots gouv fr.
      *
      * @param string $idImpotsGouvFr The id impots gouv fr.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setIdImpotsGouvFr($idImpotsGouvFr) {
         $this->idImpotsGouvFr = $idImpotsGouvFr;
@@ -1786,6 +1811,7 @@ class Fiscal {
      * Set the impot.
      *
      * @param string $impot The impot.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setImpot($impot) {
         $this->impot = $impot;
@@ -1796,6 +1822,7 @@ class Fiscal {
      * Set the insp.
      *
      * @param string $insp The insp.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setInsp($insp) {
         $this->insp = $insp;
@@ -1806,6 +1833,7 @@ class Fiscal {
      * Set the jour declaration.
      *
      * @param string $jourDeclaration The jour declaration.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setJourDeclaration($jourDeclaration) {
         $this->jourDeclaration = $jourDeclaration;
@@ -1816,6 +1844,7 @@ class Fiscal {
      * Set the mandat date debut dads.
      *
      * @param DateTime|null $mandatDateDebutDads The mandat date debut dads.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDateDebutDads(DateTime $mandatDateDebutDads = null) {
         $this->mandatDateDebutDads = $mandatDateDebutDads;
@@ -1826,6 +1855,7 @@ class Fiscal {
      * Set the mandat date debut ducsedi.
      *
      * @param DateTime|null $mandatDateDebutDucsedi The mandat date debut ducsedi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDateDebutDucsedi(DateTime $mandatDateDebutDucsedi = null) {
         $this->mandatDateDebutDucsedi = $mandatDateDebutDucsedi;
@@ -1836,6 +1866,7 @@ class Fiscal {
      * Set the mandat date debut editva.
      *
      * @param DateTime|null $mandatDateDebutEditva The mandat date debut editva.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDateDebutEditva(DateTime $mandatDateDebutEditva = null) {
         $this->mandatDateDebutEditva = $mandatDateDebutEditva;
@@ -1846,6 +1877,7 @@ class Fiscal {
      * Set the mandat date debut etebac.
      *
      * @param DateTime|null $mandatDateDebutEtebac The mandat date debut etebac.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDateDebutEtebac(DateTime $mandatDateDebutEtebac = null) {
         $this->mandatDateDebutEtebac = $mandatDateDebutEtebac;
@@ -1856,6 +1888,7 @@ class Fiscal {
      * Set the mandat date debut pedi.
      *
      * @param DateTime|null $mandatDateDebutPedi The mandat date debut pedi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDateDebutPedi(DateTime $mandatDateDebutPedi = null) {
         $this->mandatDateDebutPedi = $mandatDateDebutPedi;
@@ -1866,6 +1899,7 @@ class Fiscal {
      * Set the mandat date debut req.
      *
      * @param DateTime|null $mandatDateDebutReq The mandat date debut req.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDateDebutReq(DateTime $mandatDateDebutReq = null) {
         $this->mandatDateDebutReq = $mandatDateDebutReq;
@@ -1876,6 +1910,7 @@ class Fiscal {
      * Set the mandat date debut tdfc.
      *
      * @param DateTime|null $mandatDateDebutTdfc The mandat date debut tdfc.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDateDebutTdfc(DateTime $mandatDateDebutTdfc = null) {
         $this->mandatDateDebutTdfc = $mandatDateDebutTdfc;
@@ -1886,6 +1921,7 @@ class Fiscal {
      * Set the mandat duree dads.
      *
      * @param int $mandatDureeDads The mandat duree dads.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDureeDads($mandatDureeDads) {
         $this->mandatDureeDads = $mandatDureeDads;
@@ -1896,6 +1932,7 @@ class Fiscal {
      * Set the mandat duree ducsedi.
      *
      * @param int $mandatDureeDucsedi The mandat duree ducsedi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDureeDucsedi($mandatDureeDucsedi) {
         $this->mandatDureeDucsedi = $mandatDureeDucsedi;
@@ -1906,6 +1943,7 @@ class Fiscal {
      * Set the mandat duree editva.
      *
      * @param int $mandatDureeEditva The mandat duree editva.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDureeEditva($mandatDureeEditva) {
         $this->mandatDureeEditva = $mandatDureeEditva;
@@ -1916,6 +1954,7 @@ class Fiscal {
      * Set the mandat duree etebac.
      *
      * @param int $mandatDureeEtebac The mandat duree etebac.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDureeEtebac($mandatDureeEtebac) {
         $this->mandatDureeEtebac = $mandatDureeEtebac;
@@ -1926,6 +1965,7 @@ class Fiscal {
      * Set the mandat duree pedi.
      *
      * @param int $mandatDureePedi The mandat duree pedi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDureePedi($mandatDureePedi) {
         $this->mandatDureePedi = $mandatDureePedi;
@@ -1936,6 +1976,7 @@ class Fiscal {
      * Set the mandat duree req.
      *
      * @param int $mandatDureeReq The mandat duree req.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDureeReq($mandatDureeReq) {
         $this->mandatDureeReq = $mandatDureeReq;
@@ -1946,6 +1987,7 @@ class Fiscal {
      * Set the mandat duree tdfc.
      *
      * @param int $mandatDureeTdfc The mandat duree tdfc.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatDureeTdfc($mandatDureeTdfc) {
         $this->mandatDureeTdfc = $mandatDureeTdfc;
@@ -1956,6 +1998,7 @@ class Fiscal {
      * Set the mandat piece jointe dads.
      *
      * @param string $mandatPieceJointeDads The mandat piece jointe dads.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatPieceJointeDads($mandatPieceJointeDads) {
         $this->mandatPieceJointeDads = $mandatPieceJointeDads;
@@ -1966,6 +2009,7 @@ class Fiscal {
      * Set the mandat piece jointe ducsedi.
      *
      * @param string $mandatPieceJointeDucsedi The mandat piece jointe ducsedi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatPieceJointeDucsedi($mandatPieceJointeDucsedi) {
         $this->mandatPieceJointeDucsedi = $mandatPieceJointeDucsedi;
@@ -1976,6 +2020,7 @@ class Fiscal {
      * Set the mandat piece jointe editva.
      *
      * @param string $mandatPieceJointeEditva The mandat piece jointe editva.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatPieceJointeEditva($mandatPieceJointeEditva) {
         $this->mandatPieceJointeEditva = $mandatPieceJointeEditva;
@@ -1986,6 +2031,7 @@ class Fiscal {
      * Set the mandat piece jointe etebac.
      *
      * @param string $mandatPieceJointeEtebac The mandat piece jointe etebac.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatPieceJointeEtebac($mandatPieceJointeEtebac) {
         $this->mandatPieceJointeEtebac = $mandatPieceJointeEtebac;
@@ -1996,6 +2042,7 @@ class Fiscal {
      * Set the mandat piece jointe pedi.
      *
      * @param string $mandatPieceJointePedi The mandat piece jointe pedi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatPieceJointePedi($mandatPieceJointePedi) {
         $this->mandatPieceJointePedi = $mandatPieceJointePedi;
@@ -2006,6 +2053,7 @@ class Fiscal {
      * Set the mandat piece jointe req.
      *
      * @param string $mandatPieceJointeReq The mandat piece jointe req.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatPieceJointeReq($mandatPieceJointeReq) {
         $this->mandatPieceJointeReq = $mandatPieceJointeReq;
@@ -2016,6 +2064,7 @@ class Fiscal {
      * Set the mandat piece jointe tdfc.
      *
      * @param string $mandatPieceJointeTdfc The mandat piece jointe tdfc.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatPieceJointeTdfc($mandatPieceJointeTdfc) {
         $this->mandatPieceJointeTdfc = $mandatPieceJointeTdfc;
@@ -2026,6 +2075,7 @@ class Fiscal {
      * Set the mandat suivi dads.
      *
      * @param bool $mandatSuiviDads The mandat suivi dads.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatSuiviDads($mandatSuiviDads) {
         $this->mandatSuiviDads = $mandatSuiviDads;
@@ -2036,6 +2086,7 @@ class Fiscal {
      * Set the mandat suivi ducsedi.
      *
      * @param bool $mandatSuiviDucsedi The mandat suivi ducsedi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatSuiviDucsedi($mandatSuiviDucsedi) {
         $this->mandatSuiviDucsedi = $mandatSuiviDucsedi;
@@ -2046,6 +2097,7 @@ class Fiscal {
      * Set the mandat suivi editva.
      *
      * @param bool $mandatSuiviEditva The mandat suivi editva.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatSuiviEditva($mandatSuiviEditva) {
         $this->mandatSuiviEditva = $mandatSuiviEditva;
@@ -2056,6 +2108,7 @@ class Fiscal {
      * Set the mandat suivi etebac.
      *
      * @param bool $mandatSuiviEtebac The mandat suivi etebac.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatSuiviEtebac($mandatSuiviEtebac) {
         $this->mandatSuiviEtebac = $mandatSuiviEtebac;
@@ -2066,6 +2119,7 @@ class Fiscal {
      * Set the mandat suivi pedi.
      *
      * @param bool $mandatSuiviPedi The mandat suivi pedi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatSuiviPedi($mandatSuiviPedi) {
         $this->mandatSuiviPedi = $mandatSuiviPedi;
@@ -2076,6 +2130,7 @@ class Fiscal {
      * Set the mandat suivi req.
      *
      * @param bool $mandatSuiviReq The mandat suivi req.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatSuiviReq($mandatSuiviReq) {
         $this->mandatSuiviReq = $mandatSuiviReq;
@@ -2086,6 +2141,7 @@ class Fiscal {
      * Set the mandat suivi tdfc.
      *
      * @param bool $mandatSuiviTdfc The mandat suivi tdfc.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMandatSuiviTdfc($mandatSuiviTdfc) {
         $this->mandatSuiviTdfc = $mandatSuiviTdfc;
@@ -2096,6 +2152,7 @@ class Fiscal {
      * Set the mdp impots gouv fr.
      *
      * @param string $mdpImpotsGouvFr The mdp impots gouv fr.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMdpImpotsGouvFr($mdpImpotsGouvFr) {
         $this->mdpImpotsGouvFr = $mdpImpotsGouvFr;
@@ -2106,6 +2163,7 @@ class Fiscal {
      * Set the methode calcul.
      *
      * @param string $methodeCalcul The methode calcul.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMethodeCalcul($methodeCalcul) {
         $this->methodeCalcul = $methodeCalcul;
@@ -2116,6 +2174,7 @@ class Fiscal {
      * Set the motif radiation cga.
      *
      * @param string $motifRadiationCga The motif radiation cga.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setMotifRadiationCga($motifRadiationCga) {
         $this->motifRadiationCga = $motifRadiationCga;
@@ -2126,6 +2185,7 @@ class Fiscal {
      * Set the numero registre.
      *
      * @param string $numeroRegistre The numero registre.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setNumeroRegistre($numeroRegistre) {
         $this->numeroRegistre = $numeroRegistre;
@@ -2136,6 +2196,7 @@ class Fiscal {
      * Set the periodicite tva.
      *
      * @param string $periodiciteTva The periodicite tva.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setPeriodiciteTva($periodiciteTva) {
         $this->periodiciteTva = $periodiciteTva;
@@ -2146,6 +2207,7 @@ class Fiscal {
      * Set the pme communautaire.
      *
      * @param bool $pmeCommunautaire The pme communautaire.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setPmeCommunautaire($pmeCommunautaire) {
         $this->pmeCommunautaire = $pmeCommunautaire;
@@ -2156,6 +2218,7 @@ class Fiscal {
      * Set the pole enregistrement.
      *
      * @param string $poleEnregistrement The pole enregistrement.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setPoleEnregistrement($poleEnregistrement) {
         $this->poleEnregistrement = $poleEnregistrement;
@@ -2166,6 +2229,7 @@ class Fiscal {
      * Set the ref oblig fisc.
      *
      * @param string $refObligFisc The ref oblig fisc.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRefObligFisc($refObligFisc) {
         $this->refObligFisc = $refObligFisc;
@@ -2176,6 +2240,7 @@ class Fiscal {
      * Set the ref paiement dgi.
      *
      * @param string $refPaiementDgi The ref paiement dgi.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRefPaiementDgi($refPaiementDgi) {
         $this->refPaiementDgi = $refPaiementDgi;
@@ -2186,6 +2251,7 @@ class Fiscal {
      * Set the regime.
      *
      * @param string $regime The regime.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRegime($regime) {
         $this->regime = $regime;
@@ -2196,6 +2262,7 @@ class Fiscal {
      * Set the regime agricole.
      *
      * @param bool $regimeAgricole The regime agricole.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRegimeAgricole($regimeAgricole) {
         $this->regimeAgricole = $regimeAgricole;
@@ -2206,6 +2273,7 @@ class Fiscal {
      * Set the regime groupe.
      *
      * @param bool $regimeGroupe The regime groupe.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRegimeGroupe($regimeGroupe) {
         $this->regimeGroupe = $regimeGroupe;
@@ -2216,6 +2284,7 @@ class Fiscal {
      * Set the rof cfe.
      *
      * @param string $rofCfe The rof cfe.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRofCfe($rofCfe) {
         $this->rofCfe = $rofCfe;
@@ -2226,6 +2295,7 @@ class Fiscal {
      * Set the rof cvae.
      *
      * @param string $rofCvae The rof cvae.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRofCvae($rofCvae) {
         $this->rofCvae = $rofCvae;
@@ -2236,6 +2306,7 @@ class Fiscal {
      * Set the rof cvaep.
      *
      * @param string $rofCvaep The rof cvaep.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRofCvaep($rofCvaep) {
         $this->rofCvaep = $rofCvaep;
@@ -2246,6 +2317,7 @@ class Fiscal {
      * Set the rof is.
      *
      * @param string $rofIs The rof is.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRofIs($rofIs) {
         $this->rofIs = $rofIs;
@@ -2256,6 +2328,7 @@ class Fiscal {
      * Set the rof rcm.
      *
      * @param string $rofRcm The rof rcm.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRofRcm($rofRcm) {
         $this->rofRcm = $rofRcm;
@@ -2266,6 +2339,7 @@ class Fiscal {
      * Set the rof tdfc group.
      *
      * @param string $rofTdfcGroup The rof tdfc group.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRofTdfcGroup($rofTdfcGroup) {
         $this->rofTdfcGroup = $rofTdfcGroup;
@@ -2276,6 +2350,7 @@ class Fiscal {
      * Set the rof ts.
      *
      * @param string $rofTs The rof ts.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRofTs($rofTs) {
         $this->rofTs = $rofTs;
@@ -2286,6 +2361,7 @@ class Fiscal {
      * Set the rof tva.
      *
      * @param string $rofTva The rof tva.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setRofTva($rofTva) {
         $this->rofTva = $rofTva;
@@ -2296,6 +2372,7 @@ class Fiscal {
      * Set the societe mere.
      *
      * @param bool $societeMere The societe mere.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setSocieteMere($societeMere) {
         $this->societeMere = $societeMere;
@@ -2306,6 +2383,7 @@ class Fiscal {
      * Set the tresorerie.
      *
      * @param string $tresorerie The tresorerie.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTresorerie($tresorerie) {
         $this->tresorerie = $tresorerie;
@@ -2316,6 +2394,7 @@ class Fiscal {
      * Set the tresorerie is.
      *
      * @param string $tresorerieIs The tresorerie is.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTresorerieIs($tresorerieIs) {
         $this->tresorerieIs = $tresorerieIs;
@@ -2326,6 +2405,7 @@ class Fiscal {
      * Set the tva ca12 ae.
      *
      * @param string $tvaCa12Ae The tva ca12 ae.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaCa12Ae($tvaCa12Ae) {
         $this->tvaCa12Ae = $tvaCa12Ae;
@@ -2336,6 +2416,7 @@ class Fiscal {
      * Set the tva decaissements.
      *
      * @param bool $tvaDecaissements The tva decaissements.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaDecaissements($tvaDecaissements) {
         $this->tvaDecaissements = $tvaDecaissements;
@@ -2346,6 +2427,7 @@ class Fiscal {
      * Set the tva etab btq.
      *
      * @param string $tvaEtabBtq The tva etab btq.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaEtabBtq($tvaEtabBtq) {
         $this->tvaEtabBtq = $tvaEtabBtq;
@@ -2356,6 +2438,7 @@ class Fiscal {
      * Set the tva etab bureau distributeur.
      *
      * @param string $tvaEtabBureauDistributeur The tva etab bureau distributeur.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaEtabBureauDistributeur($tvaEtabBureauDistributeur) {
         $this->tvaEtabBureauDistributeur = $tvaEtabBureauDistributeur;
@@ -2366,6 +2449,7 @@ class Fiscal {
      * Set the tva etab code postal.
      *
      * @param string $tvaEtabCodePostal The tva etab code postal.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaEtabCodePostal($tvaEtabCodePostal) {
         $this->tvaEtabCodePostal = $tvaEtabCodePostal;
@@ -2376,6 +2460,7 @@ class Fiscal {
      * Set the tva etab complement.
      *
      * @param string $tvaEtabComplement The tva etab complement.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaEtabComplement($tvaEtabComplement) {
         $this->tvaEtabComplement = $tvaEtabComplement;
@@ -2386,6 +2471,7 @@ class Fiscal {
      * Set the tva etab nom rs.
      *
      * @param string $tvaEtabNomRs The tva etab nom rs.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaEtabNomRs($tvaEtabNomRs) {
         $this->tvaEtabNomRs = $tvaEtabNomRs;
@@ -2396,6 +2482,7 @@ class Fiscal {
      * Set the tva etab nom voie.
      *
      * @param string $tvaEtabNomVoie The tva etab nom voie.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaEtabNomVoie($tvaEtabNomVoie) {
         $this->tvaEtabNomVoie = $tvaEtabNomVoie;
@@ -2406,6 +2493,7 @@ class Fiscal {
      * Set the tva etab num voie.
      *
      * @param string $tvaEtabNumVoie The tva etab num voie.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaEtabNumVoie($tvaEtabNumVoie) {
         $this->tvaEtabNumVoie = $tvaEtabNumVoie;
@@ -2416,6 +2504,7 @@ class Fiscal {
      * Set the tva faite par client.
      *
      * @param bool $tvaFaiteParClient The tva faite par client.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaFaiteParClient($tvaFaiteParClient) {
         $this->tvaFaiteParClient = $tvaFaiteParClient;
@@ -2426,6 +2515,7 @@ class Fiscal {
      * Set the tva nom vir.
      *
      * @param string $tvaNomVir The tva nom vir.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaNomVir($tvaNomVir) {
         $this->tvaNomVir = $tvaNomVir;
@@ -2436,6 +2526,7 @@ class Fiscal {
      * Set the tvarib vir.
      *
      * @param string $tvaribVir The tvarib vir.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setTvaribVir($tvaribVir) {
         $this->tvaribVir = $tvaribVir;
@@ -2446,6 +2537,7 @@ class Fiscal {
      * Set the viseur conventionne.
      *
      * @param bool $viseurConventionne The viseur conventionne.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setViseurConventionne($viseurConventionne) {
         $this->viseurConventionne = $viseurConventionne;
@@ -2456,6 +2548,7 @@ class Fiscal {
      * Set the viseur dt attest.
      *
      * @param DateTime|null $viseurDtAttest The viseur dt attest.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setViseurDtAttest(DateTime $viseurDtAttest = null) {
         $this->viseurDtAttest = $viseurDtAttest;
@@ -2466,6 +2559,7 @@ class Fiscal {
      * Set the viseur num attest.
      *
      * @param string $viseurNumAttest The viseur num attest.
+     * @return Fiscal Returns this Fiscal.
      */
     public function setViseurNumAttest($viseurNumAttest) {
         $this->viseurNumAttest = $viseurNumAttest;

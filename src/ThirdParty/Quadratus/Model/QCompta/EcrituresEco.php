@@ -288,6 +288,7 @@ class EcrituresEco {
      * Set the centre.
      *
      * @param string $centre The centre.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setCentre($centre) {
         $this->centre = $centre;
@@ -298,6 +299,7 @@ class EcrituresEco {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -308,6 +310,7 @@ class EcrituresEco {
      * Set the code libelle auto.
      *
      * @param string $codeLibelleAuto The code libelle auto.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setCodeLibelleAuto($codeLibelleAuto) {
         $this->codeLibelleAuto = $codeLibelleAuto;
@@ -318,6 +321,7 @@ class EcrituresEco {
      * Set the folio.
      *
      * @param int $folio The folio.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setFolio($folio) {
         $this->folio = $folio;
@@ -328,6 +332,7 @@ class EcrituresEco {
      * Set the jour ecriture.
      *
      * @param string $jourEcriture The jour ecriture.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setJourEcriture($jourEcriture) {
         $this->jourEcriture = $jourEcriture;
@@ -338,6 +343,7 @@ class EcrituresEco {
      * Set the liaison ecriture.
      *
      * @param bool $liaisonEcriture The liaison ecriture.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setLiaisonEcriture($liaisonEcriture) {
         $this->liaisonEcriture = $liaisonEcriture;
@@ -348,6 +354,7 @@ class EcrituresEco {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -358,6 +365,7 @@ class EcrituresEco {
      * Set the montant tenu credit.
      *
      * @param float $montantTenuCredit The montant tenu credit.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setMontantTenuCredit($montantTenuCredit) {
         $this->montantTenuCredit = $montantTenuCredit;
@@ -368,6 +376,7 @@ class EcrituresEco {
      * Set the montant tenu debit.
      *
      * @param float $montantTenuDebit The montant tenu debit.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setMontantTenuDebit($montantTenuDebit) {
         $this->montantTenuDebit = $montantTenuDebit;
@@ -378,6 +387,7 @@ class EcrituresEco {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -388,6 +398,7 @@ class EcrituresEco {
      * Set the no lot trace.
      *
      * @param string $noLotTrace The no lot trace.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setNoLotTrace($noLotTrace) {
         $this->noLotTrace = $noLotTrace;
@@ -398,6 +409,7 @@ class EcrituresEco {
      * Set the num ecr eco.
      *
      * @param int $numEcrEco The num ecr eco.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setNumEcrEco($numEcrEco) {
         $this->numEcrEco = $numEcrEco;
@@ -408,6 +420,7 @@ class EcrituresEco {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -418,6 +431,7 @@ class EcrituresEco {
      * Set the periode ecriture.
      *
      * @param DateTime|null $periodeEcriture The periode ecriture.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
         $this->periodeEcriture = $periodeEcriture;
@@ -428,6 +442,7 @@ class EcrituresEco {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -438,6 +453,7 @@ class EcrituresEco {
      * Set the quantite2.
      *
      * @param float $quantite2 The quantite2.
+     * @return EcrituresEco Returns this Ecritures eco.
      */
     public function setQuantite2($quantite2) {
         $this->quantite2 = $quantite2;

@@ -208,6 +208,7 @@ class TramesLignes {
      * Set the code.
      *
      * @param int $code The code.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -218,6 +219,7 @@ class TramesLignes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -228,6 +230,7 @@ class TramesLignes {
      * Set the code lib auto.
      *
      * @param string $codeLibAuto The code lib auto.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setCodeLibAuto($codeLibAuto) {
         $this->codeLibAuto = $codeLibAuto;
@@ -238,6 +241,7 @@ class TramesLignes {
      * Set the compte.
      *
      * @param string $compte The compte.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setCompte($compte) {
         $this->compte = $compte;
@@ -248,6 +252,7 @@ class TramesLignes {
      * Set the compte contrepartie.
      *
      * @param string $compteContrepartie The compte contrepartie.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setCompteContrepartie($compteContrepartie) {
         $this->compteContrepartie = $compteContrepartie;
@@ -258,6 +263,7 @@ class TramesLignes {
      * Set the credit.
      *
      * @param float $credit The credit.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setCredit($credit) {
         $this->credit = $credit;
@@ -268,6 +274,7 @@ class TramesLignes {
      * Set the date echeance.
      *
      * @param DateTime|null $dateEcheance The date echeance.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setDateEcheance(DateTime $dateEcheance = null) {
         $this->dateEcheance = $dateEcheance;
@@ -278,6 +285,7 @@ class TramesLignes {
      * Set the debit.
      *
      * @param float $debit The debit.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setDebit($debit) {
         $this->debit = $debit;
@@ -288,6 +296,7 @@ class TramesLignes {
      * Set the is debit.
      *
      * @param bool $isDebit The is debit.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setIsDebit($isDebit) {
         $this->isDebit = $isDebit;
@@ -298,6 +307,7 @@ class TramesLignes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -308,6 +318,7 @@ class TramesLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return TramesLignes Returns this Trames lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;

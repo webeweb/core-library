@@ -110,6 +110,7 @@ class iComptaDroitsJournaux {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return iComptaDroitsJournaux Returns this i compta droits journaux.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -120,6 +121,7 @@ class iComptaDroitsJournaux {
      * Set the code user.
      *
      * @param string $codeUser The code user.
+     * @return iComptaDroitsJournaux Returns this i compta droits journaux.
      */
     public function setCodeUser($codeUser) {
         $this->codeUser = $codeUser;
@@ -130,6 +132,7 @@ class iComptaDroitsJournaux {
      * Set the flag.
      *
      * @param string $flag The flag.
+     * @return iComptaDroitsJournaux Returns this i compta droits journaux.
      */
     public function setFlag($flag) {
         $this->flag = $flag;
@@ -140,6 +143,7 @@ class iComptaDroitsJournaux {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return iComptaDroitsJournaux Returns this i compta droits journaux.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -150,6 +154,7 @@ class iComptaDroitsJournaux {
      * Set the no doss cpta.
      *
      * @param string $noDossCpta The no doss cpta.
+     * @return iComptaDroitsJournaux Returns this i compta droits journaux.
      */
     public function setNoDossCpta($noDossCpta) {
         $this->noDossCpta = $noDossCpta;

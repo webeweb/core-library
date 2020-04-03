@@ -448,6 +448,7 @@ class AttestationExtras {
      * Set the ancien assedic.
      *
      * @param bool $ancienAssedic The ancien assedic.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setAncienAssedic($ancienAssedic) {
         $this->ancienAssedic = $ancienAssedic;
@@ -458,6 +459,7 @@ class AttestationExtras {
      * Set the ancien garp.
      *
      * @param bool $ancienGarp The ancien garp.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setAncienGarp($ancienGarp) {
         $this->ancienGarp = $ancienGarp;
@@ -468,6 +470,7 @@ class AttestationExtras {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -478,6 +481,7 @@ class AttestationExtras {
      * Set the code motif rupture.
      *
      * @param string $codeMotifRupture The code motif rupture.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setCodeMotifRupture($codeMotifRupture) {
         $this->codeMotifRupture = $codeMotifRupture;
@@ -488,6 +492,7 @@ class AttestationExtras {
      * Set the code naf.
      *
      * @param string $codeNaf The code naf.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setCodeNaf($codeNaf) {
         $this->codeNaf = $codeNaf;
@@ -498,6 +503,7 @@ class AttestationExtras {
      * Set the effectif.
      *
      * @param int $effectif The effectif.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setEffectif($effectif) {
         $this->effectif = $effectif;
@@ -508,6 +514,7 @@ class AttestationExtras {
      * Set the emploi.
      *
      * @param string $emploi The emploi.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setEmploi($emploi) {
         $this->emploi = $emploi;
@@ -518,6 +525,7 @@ class AttestationExtras {
      * Set the etbl adresse.
      *
      * @param string $etblAdresse The etbl adresse.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setEtblAdresse($etblAdresse) {
         $this->etblAdresse = $etblAdresse;
@@ -528,6 +536,7 @@ class AttestationExtras {
      * Set the etbl raison sociale.
      *
      * @param string $etblRaisonSociale The etbl raison sociale.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setEtblRaisonSociale($etblRaisonSociale) {
         $this->etblRaisonSociale = $etblRaisonSociale;
@@ -538,6 +547,7 @@ class AttestationExtras {
      * Set the etbl tel.
      *
      * @param string $etblTel The etbl tel.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setEtblTel($etblTel) {
         $this->etblTel = $etblTel;
@@ -548,6 +558,7 @@ class AttestationExtras {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -558,6 +569,7 @@ class AttestationExtras {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -568,6 +580,7 @@ class AttestationExtras {
      * Set the nom employe.
      *
      * @param string $nomEmploye The nom employe.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setNomEmploye($nomEmploye) {
         $this->nomEmploye = $nomEmploye;
@@ -578,6 +591,7 @@ class AttestationExtras {
      * Set the nom pole emploi.
      *
      * @param string $nomPoleEmploi The nom pole emploi.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setNomPoleEmploi($nomPoleEmploi) {
         $this->nomPoleEmploi = $nomPoleEmploi;
@@ -588,6 +602,7 @@ class AttestationExtras {
      * Set the nom regime retraite.
      *
      * @param string $nomRegimeRetraite The nom regime retraite.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setNomRegimeRetraite($nomRegimeRetraite) {
         $this->nomRegimeRetraite = $nomRegimeRetraite;
@@ -598,6 +613,7 @@ class AttestationExtras {
      * Set the numero affiliation.
      *
      * @param string $numeroAffiliation The numero affiliation.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setNumeroAffiliation($numeroAffiliation) {
         $this->numeroAffiliation = $numeroAffiliation;
@@ -608,6 +624,7 @@ class AttestationExtras {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -618,6 +635,7 @@ class AttestationExtras {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -628,6 +646,7 @@ class AttestationExtras {
      * Set the periode emploi deb.
      *
      * @param DateTime|null $periodeEmploiDeb The periode emploi deb.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setPeriodeEmploiDeb(DateTime $periodeEmploiDeb = null) {
         $this->periodeEmploiDeb = $periodeEmploiDeb;
@@ -638,6 +657,7 @@ class AttestationExtras {
      * Set the periode emploi fin.
      *
      * @param DateTime|null $periodeEmploiFin The periode emploi fin.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setPeriodeEmploiFin(DateTime $periodeEmploiFin = null) {
         $this->periodeEmploiFin = $periodeEmploiFin;
@@ -648,6 +668,7 @@ class AttestationExtras {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -658,6 +679,7 @@ class AttestationExtras {
      * Set the signature date.
      *
      * @param DateTime|null $signatureDate The signature date.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setSignatureDate(DateTime $signatureDate = null) {
         $this->signatureDate = $signatureDate;
@@ -668,6 +690,7 @@ class AttestationExtras {
      * Set the signature nom.
      *
      * @param string $signatureNom The signature nom.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setSignatureNom($signatureNom) {
         $this->signatureNom = $signatureNom;
@@ -678,6 +701,7 @@ class AttestationExtras {
      * Set the signature qualite.
      *
      * @param string $signatureQualite The signature qualite.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setSignatureQualite($signatureQualite) {
         $this->signatureQualite = $signatureQualite;
@@ -688,6 +712,7 @@ class AttestationExtras {
      * Set the signature ville.
      *
      * @param string $signatureVille The signature ville.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setSignatureVille($signatureVille) {
         $this->signatureVille = $signatureVille;
@@ -698,6 +723,7 @@ class AttestationExtras {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return AttestationExtras Returns this Attestation extras.
      */
     public function setSiret($siret) {
         $this->siret = $siret;

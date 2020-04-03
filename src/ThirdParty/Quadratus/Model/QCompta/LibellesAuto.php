@@ -78,6 +78,7 @@ class LibellesAuto {
      * Set the code.
      *
      * @param string $code The code.
+     * @return LibellesAuto Returns this Libelles auto.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class LibellesAuto {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return LibellesAuto Returns this Libelles auto.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -98,6 +100,7 @@ class LibellesAuto {
      * Set the suivi date echeance.
      *
      * @param bool $suiviDateEcheance The suivi date echeance.
+     * @return LibellesAuto Returns this Libelles auto.
      */
     public function setSuiviDateEcheance($suiviDateEcheance) {
         $this->suiviDateEcheance = $suiviDateEcheance;

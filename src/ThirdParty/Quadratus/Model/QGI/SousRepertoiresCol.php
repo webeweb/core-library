@@ -78,6 +78,7 @@ class SousRepertoiresCol {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return SousRepertoiresCol Returns this Sous repertoires col.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -88,6 +89,7 @@ class SousRepertoiresCol {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return SousRepertoiresCol Returns this Sous repertoires col.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -98,6 +100,7 @@ class SousRepertoiresCol {
      * Set the num sous rep.
      *
      * @param int $numSousRep The num sous rep.
+     * @return SousRepertoiresCol Returns this Sous repertoires col.
      */
     public function setNumSousRep($numSousRep) {
         $this->numSousRep = $numSousRep;

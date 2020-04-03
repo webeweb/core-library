@@ -222,6 +222,7 @@ class SousLignesAnalytiques {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -232,6 +233,7 @@ class SousLignesAnalytiques {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -242,6 +244,7 @@ class SousLignesAnalytiques {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -252,6 +255,7 @@ class SousLignesAnalytiques {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -262,6 +266,7 @@ class SousLignesAnalytiques {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -272,6 +277,7 @@ class SousLignesAnalytiques {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -282,6 +288,7 @@ class SousLignesAnalytiques {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -292,6 +299,7 @@ class SousLignesAnalytiques {
      * Set the numero document.
      *
      * @param string $numeroDocument The numero document.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setNumeroDocument($numeroDocument) {
         $this->numeroDocument = $numeroDocument;
@@ -302,6 +310,7 @@ class SousLignesAnalytiques {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -312,6 +321,7 @@ class SousLignesAnalytiques {
      * Set the numero ligne anal.
      *
      * @param int $numeroLigneAnal The numero ligne anal.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setNumeroLigneAnal($numeroLigneAnal) {
         $this->numeroLigneAnal = $numeroLigneAnal;
@@ -322,6 +332,7 @@ class SousLignesAnalytiques {
      * Set the numero sous ligne cpt ht.
      *
      * @param int $numeroSousLigneCptHt The numero sous ligne cpt ht.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setNumeroSousLigneCptHt($numeroSousLigneCptHt) {
         $this->numeroSousLigneCptHt = $numeroSousLigneCptHt;
@@ -332,6 +343,7 @@ class SousLignesAnalytiques {
      * Set the type document.
      *
      * @param string $typeDocument The type document.
+     * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
     public function setTypeDocument($typeDocument) {
         $this->typeDocument = $typeDocument;

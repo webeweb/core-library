@@ -176,6 +176,7 @@ class DadsuPrevoyanceEntete {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -186,6 +187,7 @@ class DadsuPrevoyanceEntete {
      * Set the code periodicite.
      *
      * @param string $codePeriodicite The code periodicite.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setCodePeriodicite($codePeriodicite) {
         $this->codePeriodicite = $codePeriodicite;
@@ -196,6 +198,7 @@ class DadsuPrevoyanceEntete {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -206,6 +209,7 @@ class DadsuPrevoyanceEntete {
      * Set the date emission.
      *
      * @param DateTime|null $dateEmission The date emission.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setDateEmission(DateTime $dateEmission = null) {
         $this->dateEmission = $dateEmission;
@@ -216,6 +220,7 @@ class DadsuPrevoyanceEntete {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -226,6 +231,7 @@ class DadsuPrevoyanceEntete {
      * Set the mail contact.
      *
      * @param string $mailContact The mail contact.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setMailContact($mailContact) {
         $this->mailContact = $mailContact;
@@ -236,6 +242,7 @@ class DadsuPrevoyanceEntete {
      * Set the mois anniv.
      *
      * @param string $moisAnniv The mois anniv.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setMoisAnniv($moisAnniv) {
         $this->moisAnniv = $moisAnniv;
@@ -246,6 +253,7 @@ class DadsuPrevoyanceEntete {
      * Set the nom contact.
      *
      * @param string $nomContact The nom contact.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setNomContact($nomContact) {
         $this->nomContact = $nomContact;
@@ -256,6 +264,7 @@ class DadsuPrevoyanceEntete {
      * Set the tel contact.
      *
      * @param string $telContact The tel contact.
+     * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
     public function setTelContact($telContact) {
         $this->telContact = $telContact;

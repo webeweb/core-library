@@ -126,6 +126,7 @@ class RegroupementEdBul {
      * Set the afficher.
      *
      * @param bool $afficher The afficher.
+     * @return RegroupementEdBul Returns this Regroupement ed bul.
      */
     public function setAfficher($afficher) {
         $this->afficher = $afficher;
@@ -136,6 +137,7 @@ class RegroupementEdBul {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return RegroupementEdBul Returns this Regroupement ed bul.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -146,6 +148,7 @@ class RegroupementEdBul {
      * Set the code regroup ed bul.
      *
      * @param string $codeRegroupEdBul The code regroup ed bul.
+     * @return RegroupementEdBul Returns this Regroupement ed bul.
      */
     public function setCodeRegroupEdBul($codeRegroupEdBul) {
         $this->codeRegroupEdBul = $codeRegroupEdBul;
@@ -156,6 +159,7 @@ class RegroupementEdBul {
      * Set the code titre.
      *
      * @param string $codeTitre The code titre.
+     * @return RegroupementEdBul Returns this Regroupement ed bul.
      */
     public function setCodeTitre($codeTitre) {
         $this->codeTitre = $codeTitre;
@@ -166,6 +170,7 @@ class RegroupementEdBul {
      * Set the exo.
      *
      * @param bool $exo The exo.
+     * @return RegroupementEdBul Returns this Regroupement ed bul.
      */
     public function setExo($exo) {
         $this->exo = $exo;
@@ -176,6 +181,7 @@ class RegroupementEdBul {
      * Set the quadra.
      *
      * @param bool $quadra The quadra.
+     * @return RegroupementEdBul Returns this Regroupement ed bul.
      */
     public function setQuadra($quadra) {
         $this->quadra = $quadra;

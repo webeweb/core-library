@@ -864,6 +864,7 @@ class RecapLignesMsa {
      * Set the adresse msa.
      *
      * @param string $adresseMsa The adresse msa.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setAdresseMsa($adresseMsa) {
         $this->adresseMsa = $adresseMsa;
@@ -874,6 +875,7 @@ class RecapLignesMsa {
      * Set the c collect.
      *
      * @param string $cCollect The c collect.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setCCollect($cCollect) {
         $this->cCollect = $cCollect;
@@ -884,6 +886,7 @@ class RecapLignesMsa {
      * Set the code activite.
      *
      * @param string $codeActivite The code activite.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setCodeActivite($codeActivite) {
         $this->codeActivite = $codeActivite;
@@ -894,6 +897,7 @@ class RecapLignesMsa {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -904,6 +908,7 @@ class RecapLignesMsa {
      * Set the code unite.
      *
      * @param string $codeUnite The code unite.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -914,6 +919,7 @@ class RecapLignesMsa {
      * Set the date reglement.
      *
      * @param DateTime|null $dateReglement The date reglement.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setDateReglement(DateTime $dateReglement = null) {
         $this->dateReglement = $dateReglement;
@@ -924,6 +930,7 @@ class RecapLignesMsa {
      * Set the effectif cice.
      *
      * @param int $effectifCice The effectif cice.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setEffectifCice($effectifCice) {
         $this->effectifCice = $effectifCice;
@@ -934,6 +941,7 @@ class RecapLignesMsa {
      * Set the fait a.
      *
      * @param string $faitA The fait a.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setFaitA($faitA) {
         $this->faitA = $faitA;
@@ -944,6 +952,7 @@ class RecapLignesMsa {
      * Set the fait le.
      *
      * @param DateTime|null $faitLe The fait le.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setFaitLe(DateTime $faitLe = null) {
         $this->faitLe = $faitLe;
@@ -954,6 +963,7 @@ class RecapLignesMsa {
      * Set the fin per.
      *
      * @param DateTime|null $finPer The fin per.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setFinPer(DateTime $finPer = null) {
         $this->finPer = $finPer;
@@ -964,6 +974,7 @@ class RecapLignesMsa {
      * Set the intitule code unite.
      *
      * @param string $intituleCodeUnite The intitule code unite.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setIntituleCodeUnite($intituleCodeUnite) {
         $this->intituleCodeUnite = $intituleCodeUnite;
@@ -974,6 +985,7 @@ class RecapLignesMsa {
      * Set the liste services.
      *
      * @param string $listeServices The liste services.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setListeServices($listeServices) {
         $this->listeServices = $listeServices;
@@ -984,6 +996,7 @@ class RecapLignesMsa {
      * Set the mt csg.
      *
      * @param int $mtCsg The mt csg.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtCsg($mtCsg) {
         $this->mtCsg = $mtCsg;
@@ -994,6 +1007,7 @@ class RecapLignesMsa {
      * Set the mt csgrdsrr imp.
      *
      * @param int $mtCsgrdsrrImp The mt csgrdsrr imp.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtCsgrdsrrImp($mtCsgrdsrrImp) {
         $this->mtCsgrdsrrImp = $mtCsgrdsrrImp;
@@ -1004,6 +1018,7 @@ class RecapLignesMsa {
      * Set the mt csgrdsrr non imp.
      *
      * @param int $mtCsgrdsrrNonImp The mt csgrdsrr non imp.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtCsgrdsrrNonImp($mtCsgrdsrrNonImp) {
         $this->mtCsgrdsrrNonImp = $mtCsgrdsrrNonImp;
@@ -1014,6 +1029,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul57.
      *
      * @param int $mtElemCalcul57 The mt elem calcul57.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul57($mtElemCalcul57) {
         $this->mtElemCalcul57 = $mtElemCalcul57;
@@ -1024,6 +1040,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul58.
      *
      * @param int $mtElemCalcul58 The mt elem calcul58.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul58($mtElemCalcul58) {
         $this->mtElemCalcul58 = $mtElemCalcul58;
@@ -1034,6 +1051,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul59.
      *
      * @param int $mtElemCalcul59 The mt elem calcul59.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul59($mtElemCalcul59) {
         $this->mtElemCalcul59 = $mtElemCalcul59;
@@ -1044,6 +1062,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul60.
      *
      * @param int $mtElemCalcul60 The mt elem calcul60.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul60($mtElemCalcul60) {
         $this->mtElemCalcul60 = $mtElemCalcul60;
@@ -1054,6 +1073,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul61.
      *
      * @param int $mtElemCalcul61 The mt elem calcul61.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul61($mtElemCalcul61) {
         $this->mtElemCalcul61 = $mtElemCalcul61;
@@ -1064,6 +1084,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul62.
      *
      * @param int $mtElemCalcul62 The mt elem calcul62.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul62($mtElemCalcul62) {
         $this->mtElemCalcul62 = $mtElemCalcul62;
@@ -1074,6 +1095,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul63.
      *
      * @param int $mtElemCalcul63 The mt elem calcul63.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul63($mtElemCalcul63) {
         $this->mtElemCalcul63 = $mtElemCalcul63;
@@ -1084,6 +1106,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul65.
      *
      * @param int $mtElemCalcul65 The mt elem calcul65.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul65($mtElemCalcul65) {
         $this->mtElemCalcul65 = $mtElemCalcul65;
@@ -1094,6 +1117,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul66.
      *
      * @param int $mtElemCalcul66 The mt elem calcul66.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul66($mtElemCalcul66) {
         $this->mtElemCalcul66 = $mtElemCalcul66;
@@ -1104,6 +1128,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul67.
      *
      * @param int $mtElemCalcul67 The mt elem calcul67.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul67($mtElemCalcul67) {
         $this->mtElemCalcul67 = $mtElemCalcul67;
@@ -1114,6 +1139,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul68.
      *
      * @param int $mtElemCalcul68 The mt elem calcul68.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul68($mtElemCalcul68) {
         $this->mtElemCalcul68 = $mtElemCalcul68;
@@ -1124,6 +1150,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul69.
      *
      * @param int $mtElemCalcul69 The mt elem calcul69.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul69($mtElemCalcul69) {
         $this->mtElemCalcul69 = $mtElemCalcul69;
@@ -1134,6 +1161,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul70.
      *
      * @param int $mtElemCalcul70 The mt elem calcul70.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul70($mtElemCalcul70) {
         $this->mtElemCalcul70 = $mtElemCalcul70;
@@ -1144,6 +1172,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul71.
      *
      * @param int $mtElemCalcul71 The mt elem calcul71.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul71($mtElemCalcul71) {
         $this->mtElemCalcul71 = $mtElemCalcul71;
@@ -1154,6 +1183,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul72.
      *
      * @param int $mtElemCalcul72 The mt elem calcul72.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul72($mtElemCalcul72) {
         $this->mtElemCalcul72 = $mtElemCalcul72;
@@ -1164,6 +1194,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul73.
      *
      * @param int $mtElemCalcul73 The mt elem calcul73.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul73($mtElemCalcul73) {
         $this->mtElemCalcul73 = $mtElemCalcul73;
@@ -1174,6 +1205,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul74.
      *
      * @param int $mtElemCalcul74 The mt elem calcul74.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul74($mtElemCalcul74) {
         $this->mtElemCalcul74 = $mtElemCalcul74;
@@ -1184,6 +1216,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul75.
      *
      * @param int $mtElemCalcul75 The mt elem calcul75.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul75($mtElemCalcul75) {
         $this->mtElemCalcul75 = $mtElemCalcul75;
@@ -1194,6 +1227,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul76.
      *
      * @param int $mtElemCalcul76 The mt elem calcul76.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul76($mtElemCalcul76) {
         $this->mtElemCalcul76 = $mtElemCalcul76;
@@ -1204,6 +1238,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul77.
      *
      * @param int $mtElemCalcul77 The mt elem calcul77.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul77($mtElemCalcul77) {
         $this->mtElemCalcul77 = $mtElemCalcul77;
@@ -1214,6 +1249,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul78.
      *
      * @param int $mtElemCalcul78 The mt elem calcul78.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul78($mtElemCalcul78) {
         $this->mtElemCalcul78 = $mtElemCalcul78;
@@ -1224,6 +1260,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul79.
      *
      * @param int $mtElemCalcul79 The mt elem calcul79.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul79($mtElemCalcul79) {
         $this->mtElemCalcul79 = $mtElemCalcul79;
@@ -1234,6 +1271,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul97.
      *
      * @param int $mtElemCalcul97 The mt elem calcul97.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul97($mtElemCalcul97) {
         $this->mtElemCalcul97 = $mtElemCalcul97;
@@ -1244,6 +1282,7 @@ class RecapLignesMsa {
      * Set the mt elem calcul98.
      *
      * @param int $mtElemCalcul98 The mt elem calcul98.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtElemCalcul98($mtElemCalcul98) {
         $this->mtElemCalcul98 = $mtElemCalcul98;
@@ -1254,6 +1293,7 @@ class RecapLignesMsa {
      * Set the mt tcp.
      *
      * @param int $mtTcp The mt tcp.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setMtTcp($mtTcp) {
         $this->mtTcp = $mtTcp;
@@ -1264,6 +1304,7 @@ class RecapLignesMsa {
      * Set the per deb cice.
      *
      * @param DateTime|null $perDebCice The per deb cice.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setPerDebCice(DateTime $perDebCice = null) {
         $this->perDebCice = $perDebCice;
@@ -1274,6 +1315,7 @@ class RecapLignesMsa {
      * Set the per fin cice.
      *
      * @param DateTime|null $perFinCice The per fin cice.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setPerFinCice(DateTime $perFinCice = null) {
         $this->perFinCice = $perFinCice;
@@ -1284,6 +1326,7 @@ class RecapLignesMsa {
      * Set the periode decla.
      *
      * @param DateTime|null $periodeDecla The periode decla.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setPeriodeDecla(DateTime $periodeDecla = null) {
         $this->periodeDecla = $periodeDecla;
@@ -1294,6 +1337,7 @@ class RecapLignesMsa {
      * Set the personne contact.
      *
      * @param string $personneContact The personne contact.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setPersonneContact($personneContact) {
         $this->personneContact = $personneContact;
@@ -1304,6 +1348,7 @@ class RecapLignesMsa {
      * Set the prem mois.
      *
      * @param DateTime|null $premMois The prem mois.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setPremMois(DateTime $premMois = null) {
         $this->premMois = $premMois;
@@ -1314,6 +1359,7 @@ class RecapLignesMsa {
      * Set the salaries de.
      *
      * @param string $salariesDe The salaries de.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setSalariesDe($salariesDe) {
         $this->salariesDe = $salariesDe;
@@ -1324,6 +1370,7 @@ class RecapLignesMsa {
      * Set the selection service.
      *
      * @param string $selectionService The selection service.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setSelectionService($selectionService) {
         $this->selectionService = $selectionService;
@@ -1334,6 +1381,7 @@ class RecapLignesMsa {
      * Set the siren.
      *
      * @param string $siren The siren.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setSiren($siren) {
         $this->siren = $siren;
@@ -1344,6 +1392,7 @@ class RecapLignesMsa {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -1354,6 +1403,7 @@ class RecapLignesMsa {
      * Set the suivi par.
      *
      * @param string $suiviPar The suivi par.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setSuiviPar($suiviPar) {
         $this->suiviPar = $suiviPar;
@@ -1364,6 +1414,7 @@ class RecapLignesMsa {
      * Set the tel personne.
      *
      * @param string $telPersonne The tel personne.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setTelPersonne($telPersonne) {
         $this->telPersonne = $telPersonne;
@@ -1374,6 +1425,7 @@ class RecapLignesMsa {
      * Set the tri decl msa.
      *
      * @param string $triDeclMsa The tri decl msa.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
      */
     public function setTriDeclMsa($triDeclMsa) {
         $this->triDeclMsa = $triDeclMsa;

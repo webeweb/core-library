@@ -176,6 +176,7 @@ class EcrituresDecTva {
      * Set the code tva.
      *
      * @param int $codeTva The code tva.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -186,6 +187,7 @@ class EcrituresDecTva {
      * Set the date dec tva.
      *
      * @param DateTime|null $dateDecTva The date dec tva.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setDateDecTva(DateTime $dateDecTva = null) {
         $this->dateDecTva = $dateDecTva;
@@ -196,6 +198,7 @@ class EcrituresDecTva {
      * Set the jour ecriture.
      *
      * @param string $jourEcriture The jour ecriture.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setJourEcriture($jourEcriture) {
         $this->jourEcriture = $jourEcriture;
@@ -206,6 +209,7 @@ class EcrituresDecTva {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -216,6 +220,7 @@ class EcrituresDecTva {
      * Set the montant ht.
      *
      * @param float $montantHt The montant ht.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setMontantHt($montantHt) {
         $this->montantHt = $montantHt;
@@ -226,6 +231,7 @@ class EcrituresDecTva {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -236,6 +242,7 @@ class EcrituresDecTva {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -246,6 +253,7 @@ class EcrituresDecTva {
      * Set the periode ecriture.
      *
      * @param DateTime|null $periodeEcriture The periode ecriture.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
         $this->periodeEcriture = $periodeEcriture;
@@ -256,6 +264,7 @@ class EcrituresDecTva {
      * Set the type cdi.
      *
      * @param string $typeCdi The type cdi.
+     * @return EcrituresDecTva Returns this Ecritures dec tva.
      */
     public function setTypeCdi($typeCdi) {
         $this->typeCdi = $typeCdi;

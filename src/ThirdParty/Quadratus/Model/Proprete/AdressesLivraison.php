@@ -190,6 +190,7 @@ class AdressesLivraison {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -200,6 +201,7 @@ class AdressesLivraison {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -210,6 +212,7 @@ class AdressesLivraison {
      * Set the code livraison.
      *
      * @param string $codeLivraison The code livraison.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setCodeLivraison($codeLivraison) {
         $this->codeLivraison = $codeLivraison;
@@ -220,6 +223,7 @@ class AdressesLivraison {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -230,6 +234,7 @@ class AdressesLivraison {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -240,6 +245,7 @@ class AdressesLivraison {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -250,6 +256,7 @@ class AdressesLivraison {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -260,6 +267,7 @@ class AdressesLivraison {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -270,6 +278,7 @@ class AdressesLivraison {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -280,6 +289,7 @@ class AdressesLivraison {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return AdressesLivraison Returns this Adresses livraison.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;

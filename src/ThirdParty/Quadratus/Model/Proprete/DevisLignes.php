@@ -238,6 +238,7 @@ class DevisLignes {
      * Set the batiment.
      *
      * @param string $batiment The batiment.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setBatiment($batiment) {
         $this->batiment = $batiment;
@@ -248,6 +249,7 @@ class DevisLignes {
      * Set the code local.
      *
      * @param string $codeLocal The code local.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setCodeLocal($codeLocal) {
         $this->codeLocal = $codeLocal;
@@ -258,6 +260,7 @@ class DevisLignes {
      * Set the code revetement.
      *
      * @param string $codeRevetement The code revetement.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setCodeRevetement($codeRevetement) {
         $this->codeRevetement = $codeRevetement;
@@ -268,6 +271,7 @@ class DevisLignes {
      * Set the etage.
      *
      * @param string $etage The etage.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setEtage($etage) {
         $this->etage = $etage;
@@ -278,6 +282,7 @@ class DevisLignes {
      * Set the identification.
      *
      * @param string $identification The identification.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setIdentification($identification) {
         $this->identification = $identification;
@@ -288,6 +293,7 @@ class DevisLignes {
      * Set the libelle local.
      *
      * @param string $libelleLocal The libelle local.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setLibelleLocal($libelleLocal) {
         $this->libelleLocal = $libelleLocal;
@@ -298,6 +304,7 @@ class DevisLignes {
      * Set the libelle revetement.
      *
      * @param string $libelleRevetement The libelle revetement.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setLibelleRevetement($libelleRevetement) {
         $this->libelleRevetement = $libelleRevetement;
@@ -308,6 +315,7 @@ class DevisLignes {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -318,6 +326,7 @@ class DevisLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -328,6 +337,7 @@ class DevisLignes {
      * Set the num programme.
      *
      * @param int $numProgramme The num programme.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setNumProgramme($numProgramme) {
         $this->numProgramme = $numProgramme;
@@ -338,6 +348,7 @@ class DevisLignes {
      * Set the sol mur.
      *
      * @param string $solMur The sol mur.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setSolMur($solMur) {
         $this->solMur = $solMur;
@@ -348,6 +359,7 @@ class DevisLignes {
      * Set the surface.
      *
      * @param float $surface The surface.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setSurface($surface) {
         $this->surface = $surface;
@@ -358,6 +370,7 @@ class DevisLignes {
      * Set the zone geographique.
      *
      * @param string $zoneGeographique The zone geographique.
+     * @return DevisLignes Returns this Devis lignes.
      */
     public function setZoneGeographique($zoneGeographique) {
         $this->zoneGeographique = $zoneGeographique;

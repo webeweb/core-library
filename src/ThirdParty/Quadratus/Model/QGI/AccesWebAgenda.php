@@ -94,6 +94,7 @@ class AccesWebAgenda {
      * Set the code.
      *
      * @param string $code The code.
+     * @return AccesWebAgenda Returns this Acces web agenda.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -104,6 +105,7 @@ class AccesWebAgenda {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AccesWebAgenda Returns this Acces web agenda.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -114,6 +116,7 @@ class AccesWebAgenda {
      * Set the droit modif.
      *
      * @param bool $droitModif The droit modif.
+     * @return AccesWebAgenda Returns this Acces web agenda.
      */
     public function setDroitModif($droitModif) {
         $this->droitModif = $droitModif;
@@ -124,6 +127,7 @@ class AccesWebAgenda {
      * Set the type.
      *
      * @param string $type The type.
+     * @return AccesWebAgenda Returns this Acces web agenda.
      */
     public function setType($type) {
         $this->type = $type;

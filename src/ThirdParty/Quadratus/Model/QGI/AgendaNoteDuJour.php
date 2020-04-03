@@ -112,6 +112,7 @@ class AgendaNoteDuJour {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -122,6 +123,7 @@ class AgendaNoteDuJour {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -132,6 +134,7 @@ class AgendaNoteDuJour {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -142,6 +145,7 @@ class AgendaNoteDuJour {
      * Set the jour.
      *
      * @param DateTime|null $jour The jour.
+     * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
     public function setJour(DateTime $jour = null) {
         $this->jour = $jour;
@@ -152,6 +156,7 @@ class AgendaNoteDuJour {
      * Set the ma j externe.
      *
      * @param bool $maJExterne The ma j externe.
+     * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
     public function setMaJExterne($maJExterne) {
         $this->maJExterne = $maJExterne;

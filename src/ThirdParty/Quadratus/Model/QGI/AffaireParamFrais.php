@@ -272,6 +272,7 @@ class AffaireParamFrais {
      * Set the code.
      *
      * @param string $code The code.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -282,6 +283,7 @@ class AffaireParamFrais {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -292,6 +294,7 @@ class AffaireParamFrais {
      * Set the code avenant.
      *
      * @param string $codeAvenant The code avenant.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setCodeAvenant($codeAvenant) {
         $this->codeAvenant = $codeAvenant;
@@ -302,6 +305,7 @@ class AffaireParamFrais {
      * Set the code frais fixe.
      *
      * @param string $codeFraisFixe The code frais fixe.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setCodeFraisFixe($codeFraisFixe) {
         $this->codeFraisFixe = $codeFraisFixe;
@@ -312,6 +316,7 @@ class AffaireParamFrais {
      * Set the code phase.
      *
      * @param string $codePhase The code phase.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setCodePhase($codePhase) {
         $this->codePhase = $codePhase;
@@ -322,6 +327,7 @@ class AffaireParamFrais {
      * Set the comptes comptables.
      *
      * @param string $comptesComptables The comptes comptables.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setComptesComptables($comptesComptables) {
         $this->comptesComptables = $comptesComptables;
@@ -332,6 +338,7 @@ class AffaireParamFrais {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -342,6 +349,7 @@ class AffaireParamFrais {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -352,6 +360,7 @@ class AffaireParamFrais {
      * Set the mt fg1.
      *
      * @param float $mtFg1 The mt fg1.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setMtFg1($mtFg1) {
         $this->mtFg1 = $mtFg1;
@@ -362,6 +371,7 @@ class AffaireParamFrais {
      * Set the mt fg2.
      *
      * @param float $mtFg2 The mt fg2.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setMtFg2($mtFg2) {
         $this->mtFg2 = $mtFg2;
@@ -372,6 +382,7 @@ class AffaireParamFrais {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -382,6 +393,7 @@ class AffaireParamFrais {
      * Set the pourcentage.
      *
      * @param bool $pourcentage The pourcentage.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setPourcentage($pourcentage) {
         $this->pourcentage = $pourcentage;
@@ -392,6 +404,7 @@ class AffaireParamFrais {
      * Set the prct fg1.
      *
      * @param float $prctFg1 The prct fg1.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setPrctFg1($prctFg1) {
         $this->prctFg1 = $prctFg1;
@@ -402,6 +415,7 @@ class AffaireParamFrais {
      * Set the prct fg2.
      *
      * @param float $prctFg2 The prct fg2.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setPrctFg2($prctFg2) {
         $this->prctFg2 = $prctFg2;
@@ -412,6 +426,7 @@ class AffaireParamFrais {
      * Set the type.
      *
      * @param string $type The type.
+     * @return AffaireParamFrais Returns this Affaire param frais.
      */
     public function setType($type) {
         $this->type = $type;

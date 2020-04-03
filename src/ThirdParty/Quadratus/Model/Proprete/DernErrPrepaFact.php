@@ -160,6 +160,7 @@ class DernErrPrepaFact {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -170,6 +171,7 @@ class DernErrPrepaFact {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -180,6 +182,7 @@ class DernErrPrepaFact {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -190,6 +193,7 @@ class DernErrPrepaFact {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -200,6 +204,7 @@ class DernErrPrepaFact {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -210,6 +215,7 @@ class DernErrPrepaFact {
      * Set the dt prepa.
      *
      * @param DateTime|null $dtPrepa The dt prepa.
+     * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
     public function setDtPrepa(DateTime $dtPrepa = null) {
         $this->dtPrepa = $dtPrepa;
@@ -220,6 +226,7 @@ class DernErrPrepaFact {
      * Set the no chrono preparation.
      *
      * @param int $noChronoPreparation The no chrono preparation.
+     * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
     public function setNoChronoPreparation($noChronoPreparation) {
         $this->noChronoPreparation = $noChronoPreparation;
@@ -230,6 +237,7 @@ class DernErrPrepaFact {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

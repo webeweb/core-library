@@ -174,6 +174,7 @@ class ArticlesFrn {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -184,6 +185,7 @@ class ArticlesFrn {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -194,6 +196,7 @@ class ArticlesFrn {
      * Set the commentaires.
      *
      * @param string $commentaires The commentaires.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setCommentaires($commentaires) {
         $this->commentaires = $commentaires;
@@ -204,6 +207,7 @@ class ArticlesFrn {
      * Set the conditionnement.
      *
      * @param string $conditionnement The conditionnement.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setConditionnement($conditionnement) {
         $this->conditionnement = $conditionnement;
@@ -214,6 +218,7 @@ class ArticlesFrn {
      * Set the delai le.
      *
      * @param int $delaiLe The delai le.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setDelaiLe($delaiLe) {
         $this->delaiLe = $delaiLe;
@@ -224,6 +229,7 @@ class ArticlesFrn {
      * Set the delai local.
      *
      * @param bool $delaiLocal The delai local.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setDelaiLocal($delaiLocal) {
         $this->delaiLocal = $delaiLocal;
@@ -234,6 +240,7 @@ class ArticlesFrn {
      * Set the delai nombre.
      *
      * @param int $delaiNombre The delai nombre.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setDelaiNombre($delaiNombre) {
         $this->delaiNombre = $delaiNombre;
@@ -244,6 +251,7 @@ class ArticlesFrn {
      * Set the delai type.
      *
      * @param int $delaiType The delai type.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setDelaiType($delaiType) {
         $this->delaiType = $delaiType;
@@ -254,6 +262,7 @@ class ArticlesFrn {
      * Set the ref article fournisseur.
      *
      * @param string $refArticleFournisseur The ref article fournisseur.
+     * @return ArticlesFrn Returns this Articles frn.
      */
     public function setRefArticleFournisseur($refArticleFournisseur) {
         $this->refArticleFournisseur = $refArticleFournisseur;

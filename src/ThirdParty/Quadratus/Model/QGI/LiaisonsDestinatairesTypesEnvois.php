@@ -62,6 +62,7 @@ class LiaisonsDestinatairesTypesEnvois {
      * Set the code destinataire.
      *
      * @param string $codeDestinataire The code destinataire.
+     * @return LiaisonsDestinatairesTypesEnvois Returns this Liaisons destinataires types envois.
      */
     public function setCodeDestinataire($codeDestinataire) {
         $this->codeDestinataire = $codeDestinataire;
@@ -72,6 +73,7 @@ class LiaisonsDestinatairesTypesEnvois {
      * Set the code type envoi.
      *
      * @param string $codeTypeEnvoi The code type envoi.
+     * @return LiaisonsDestinatairesTypesEnvois Returns this Liaisons destinataires types envois.
      */
     public function setCodeTypeEnvoi($codeTypeEnvoi) {
         $this->codeTypeEnvoi = $codeTypeEnvoi;

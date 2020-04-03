@@ -254,6 +254,7 @@ class TauxRetraite {
      * Set the categ cadre.
      *
      * @param bool $categCadre The categ cadre.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setCategCadre($categCadre) {
         $this->categCadre = $categCadre;
@@ -264,6 +265,7 @@ class TauxRetraite {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -274,6 +276,7 @@ class TauxRetraite {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -284,6 +287,7 @@ class TauxRetraite {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -294,6 +298,7 @@ class TauxRetraite {
      * Set the indice contrat.
      *
      * @param int $indiceContrat The indice contrat.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setIndiceContrat($indiceContrat) {
         $this->indiceContrat = $indiceContrat;
@@ -304,6 +309,7 @@ class TauxRetraite {
      * Set the libelle bul.
      *
      * @param string $libelleBul The libelle bul.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setLibelleBul($libelleBul) {
         $this->libelleBul = $libelleBul;
@@ -314,6 +320,7 @@ class TauxRetraite {
      * Set the num dossier.
      *
      * @param string $numDossier The num dossier.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setNumDossier($numDossier) {
         $this->numDossier = $numDossier;
@@ -324,6 +331,7 @@ class TauxRetraite {
      * Set the sous dossier.
      *
      * @param string $sousDossier The sous dossier.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setSousDossier($sousDossier) {
         $this->sousDossier = $sousDossier;
@@ -334,6 +342,7 @@ class TauxRetraite {
      * Set the taux pat tr a.
      *
      * @param float $tauxPatTrA The taux pat tr a.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setTauxPatTrA($tauxPatTrA) {
         $this->tauxPatTrA = $tauxPatTrA;
@@ -344,6 +353,7 @@ class TauxRetraite {
      * Set the taux pat tr b.
      *
      * @param float $tauxPatTrB The taux pat tr b.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setTauxPatTrB($tauxPatTrB) {
         $this->tauxPatTrB = $tauxPatTrB;
@@ -354,6 +364,7 @@ class TauxRetraite {
      * Set the taux pat tr c.
      *
      * @param float $tauxPatTrC The taux pat tr c.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setTauxPatTrC($tauxPatTrC) {
         $this->tauxPatTrC = $tauxPatTrC;
@@ -364,6 +375,7 @@ class TauxRetraite {
      * Set the taux sal tr a.
      *
      * @param float $tauxSalTrA The taux sal tr a.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setTauxSalTrA($tauxSalTrA) {
         $this->tauxSalTrA = $tauxSalTrA;
@@ -374,6 +386,7 @@ class TauxRetraite {
      * Set the taux sal tr b.
      *
      * @param float $tauxSalTrB The taux sal tr b.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setTauxSalTrB($tauxSalTrB) {
         $this->tauxSalTrB = $tauxSalTrB;
@@ -384,6 +397,7 @@ class TauxRetraite {
      * Set the taux sal tr c.
      *
      * @param float $tauxSalTrC The taux sal tr c.
+     * @return TauxRetraite Returns this Taux retraite.
      */
     public function setTauxSalTrC($tauxSalTrC) {
         $this->tauxSalTrC = $tauxSalTrC;

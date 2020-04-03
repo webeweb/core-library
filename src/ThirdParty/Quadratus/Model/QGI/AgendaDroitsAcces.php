@@ -78,6 +78,7 @@ class AgendaDroitsAcces {
      * Set the code coll droit.
      *
      * @param string $codeCollDroit The code coll droit.
+     * @return AgendaDroitsAcces Returns this Agenda droits acces.
      */
     public function setCodeCollDroit($codeCollDroit) {
         $this->codeCollDroit = $codeCollDroit;
@@ -88,6 +89,7 @@ class AgendaDroitsAcces {
      * Set the code coll suivi.
      *
      * @param string $codeCollSuivi The code coll suivi.
+     * @return AgendaDroitsAcces Returns this Agenda droits acces.
      */
     public function setCodeCollSuivi($codeCollSuivi) {
         $this->codeCollSuivi = $codeCollSuivi;
@@ -98,6 +100,7 @@ class AgendaDroitsAcces {
      * Set the niveau droit.
      *
      * @param string $niveauDroit The niveau droit.
+     * @return AgendaDroitsAcces Returns this Agenda droits acces.
      */
     public function setNiveauDroit($niveauDroit) {
         $this->niveauDroit = $niveauDroit;

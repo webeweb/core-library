@@ -270,6 +270,7 @@ class Confidentialite {
      * Set the activation lst restri art.
      *
      * @param int $activationLstRestriArt The activation lst restri art.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActivationLstRestriArt($activationLstRestriArt) {
         $this->activationLstRestriArt = $activationLstRestriArt;
@@ -280,6 +281,7 @@ class Confidentialite {
      * Set the activation lst restri cli.
      *
      * @param int $activationLstRestriCli The activation lst restri cli.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActivationLstRestriCli($activationLstRestriCli) {
         $this->activationLstRestriCli = $activationLstRestriCli;
@@ -290,6 +292,7 @@ class Confidentialite {
      * Set the activation lst restri frn.
      *
      * @param int $activationLstRestriFrn The activation lst restri frn.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActivationLstRestriFrn($activationLstRestriFrn) {
         $this->activationLstRestriFrn = $activationLstRestriFrn;
@@ -300,6 +303,7 @@ class Confidentialite {
      * Set the active conf menus qb.
      *
      * @param bool $activeConfMenusQb The active conf menus qb.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActiveConfMenusQb($activeConfMenusQb) {
         $this->activeConfMenusQb = $activeConfMenusQb;
@@ -310,6 +314,7 @@ class Confidentialite {
      * Set the active conf menus qb2.
      *
      * @param bool $activeConfMenusQb2 The active conf menus qb2.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActiveConfMenusQb2($activeConfMenusQb2) {
         $this->activeConfMenusQb2 = $activeConfMenusQb2;
@@ -320,6 +325,7 @@ class Confidentialite {
      * Set the active conf menus qc.
      *
      * @param bool $activeConfMenusQc The active conf menus qc.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActiveConfMenusQc($activeConfMenusQc) {
         $this->activeConfMenusQc = $activeConfMenusQc;
@@ -330,6 +336,7 @@ class Confidentialite {
      * Set the active conf menus qfact.
      *
      * @param bool $activeConfMenusQfact The active conf menus qfact.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActiveConfMenusQfact($activeConfMenusQfact) {
         $this->activeConfMenusQfact = $activeConfMenusQfact;
@@ -340,6 +347,7 @@ class Confidentialite {
      * Set the active conf menus qgi.
      *
      * @param bool $activeConfMenusQgi The active conf menus qgi.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActiveConfMenusQgi($activeConfMenusQgi) {
         $this->activeConfMenusQgi = $activeConfMenusQgi;
@@ -350,6 +358,7 @@ class Confidentialite {
      * Set the active conf menus qp.
      *
      * @param bool $activeConfMenusQp The active conf menus qp.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActiveConfMenusQp($activeConfMenusQp) {
         $this->activeConfMenusQp = $activeConfMenusQp;
@@ -360,6 +369,7 @@ class Confidentialite {
      * Set the active conf menus qprop.
      *
      * @param bool $activeConfMenusQprop The active conf menus qprop.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActiveConfMenusQprop($activeConfMenusQprop) {
         $this->activeConfMenusQprop = $activeConfMenusQprop;
@@ -370,6 +380,7 @@ class Confidentialite {
      * Set the active conf menus qtrs.
      *
      * @param bool $activeConfMenusQtrs The active conf menus qtrs.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setActiveConfMenusQtrs($activeConfMenusQtrs) {
         $this->activeConfMenusQtrs = $activeConfMenusQtrs;
@@ -380,6 +391,7 @@ class Confidentialite {
      * Set the masquer base access.
      *
      * @param bool $masquerBaseAccess The masquer base access.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setMasquerBaseAccess($masquerBaseAccess) {
         $this->masquerBaseAccess = $masquerBaseAccess;
@@ -390,6 +402,7 @@ class Confidentialite {
      * Set the sel lst restri art def.
      *
      * @param string $selLstRestriArtDef The sel lst restri art def.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setSelLstRestriArtDef($selLstRestriArtDef) {
         $this->selLstRestriArtDef = $selLstRestriArtDef;
@@ -400,6 +413,7 @@ class Confidentialite {
      * Set the sel lst restri cli def.
      *
      * @param string $selLstRestriCliDef The sel lst restri cli def.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setSelLstRestriCliDef($selLstRestriCliDef) {
         $this->selLstRestriCliDef = $selLstRestriCliDef;
@@ -410,6 +424,7 @@ class Confidentialite {
      * Set the sel lst restri frn def.
      *
      * @param string $selLstRestriFrnDef The sel lst restri frn def.
+     * @return Confidentialite Returns this Confidentialite.
      */
     public function setSelLstRestriFrnDef($selLstRestriFrnDef) {
         $this->selLstRestriFrnDef = $selLstRestriFrnDef;

@@ -2016,6 +2016,7 @@ class Fournisseurs {
      * Set the adresse site fournisseur.
      *
      * @param string $adresseSiteFournisseur The adresse site fournisseur.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setAdresseSiteFournisseur($adresseSiteFournisseur) {
         $this->adresseSiteFournisseur = $adresseSiteFournisseur;
@@ -2026,6 +2027,7 @@ class Fournisseurs {
      * Set the article port1.
      *
      * @param string $articlePort1 The article port1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setArticlePort1($articlePort1) {
         $this->articlePort1 = $articlePort1;
@@ -2036,6 +2038,7 @@ class Fournisseurs {
      * Set the article port2.
      *
      * @param string $articlePort2 The article port2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setArticlePort2($articlePort2) {
         $this->articlePort2 = $articlePort2;
@@ -2046,6 +2049,7 @@ class Fournisseurs {
      * Set the bloque.
      *
      * @param bool $bloque The bloque.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setBloque($bloque) {
         $this->bloque = $bloque;
@@ -2056,6 +2060,7 @@ class Fournisseurs {
      * Set the chiffre affaire.
      *
      * @param float $chiffreAffaire The chiffre affaire.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setChiffreAffaire($chiffreAffaire) {
         $this->chiffreAffaire = $chiffreAffaire;
@@ -2066,6 +2071,7 @@ class Fournisseurs {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -2076,6 +2082,7 @@ class Fournisseurs {
      * Set the code activite.
      *
      * @param string $codeActivite The code activite.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeActivite($codeActivite) {
         $this->codeActivite = $codeActivite;
@@ -2086,6 +2093,7 @@ class Fournisseurs {
      * Set the code assistant juridique.
      *
      * @param string $codeAssistantJuridique The code assistant juridique.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeAssistantJuridique($codeAssistantJuridique) {
         $this->codeAssistantJuridique = $codeAssistantJuridique;
@@ -2096,6 +2104,7 @@ class Fournisseurs {
      * Set the code assistant social.
      *
      * @param string $codeAssistantSocial The code assistant social.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeAssistantSocial($codeAssistantSocial) {
         $this->codeAssistantSocial = $codeAssistantSocial;
@@ -2106,6 +2115,7 @@ class Fournisseurs {
      * Set the code autre1.
      *
      * @param string $codeAutre1 The code autre1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeAutre1($codeAutre1) {
         $this->codeAutre1 = $codeAutre1;
@@ -2116,6 +2126,7 @@ class Fournisseurs {
      * Set the code autre2.
      *
      * @param string $codeAutre2 The code autre2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeAutre2($codeAutre2) {
         $this->codeAutre2 = $codeAutre2;
@@ -2126,6 +2137,7 @@ class Fournisseurs {
      * Set the code avocat.
      *
      * @param string $codeAvocat The code avocat.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeAvocat($codeAvocat) {
         $this->codeAvocat = $codeAvocat;
@@ -2136,6 +2148,7 @@ class Fournisseurs {
      * Set the code barre.
      *
      * @param bool $codeBarre The code barre.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeBarre($codeBarre) {
         $this->codeBarre = $codeBarre;
@@ -2146,6 +2159,7 @@ class Fournisseurs {
      * Set the code categorie fournisseur.
      *
      * @param string $codeCategorieFournisseur The code categorie fournisseur.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeCategorieFournisseur($codeCategorieFournisseur) {
         $this->codeCategorieFournisseur = $codeCategorieFournisseur;
@@ -2156,6 +2170,7 @@ class Fournisseurs {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -2166,6 +2181,7 @@ class Fournisseurs {
      * Set the code depot.
      *
      * @param string $codeDepot The code depot.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeDepot($codeDepot) {
         $this->codeDepot = $codeDepot;
@@ -2176,6 +2192,7 @@ class Fournisseurs {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -2186,6 +2203,7 @@ class Fournisseurs {
      * Set the code edition fact.
      *
      * @param string $codeEditionFact The code edition fact.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeEditionFact($codeEditionFact) {
         $this->codeEditionFact = $codeEditionFact;
@@ -2196,6 +2214,7 @@ class Fournisseurs {
      * Set the code exc.
      *
      * @param string $codeExc The code exc.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeExc($codeExc) {
         $this->codeExc = $codeExc;
@@ -2206,6 +2225,7 @@ class Fournisseurs {
      * Set the code expert.
      *
      * @param string $codeExpert The code expert.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeExpert($codeExpert) {
         $this->codeExpert = $codeExpert;
@@ -2216,6 +2236,7 @@ class Fournisseurs {
      * Set the code famille.
      *
      * @param string $codeFamille The code famille.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeFamille($codeFamille) {
         $this->codeFamille = $codeFamille;
@@ -2226,6 +2247,7 @@ class Fournisseurs {
      * Set the code geo.
      *
      * @param string $codeGeo The code geo.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeGeo($codeGeo) {
         $this->codeGeo = $codeGeo;
@@ -2236,6 +2258,7 @@ class Fournisseurs {
      * Set the code imputation analytique.
      *
      * @param string $codeImputationAnalytique The code imputation analytique.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeImputationAnalytique($codeImputationAnalytique) {
         $this->codeImputationAnalytique = $codeImputationAnalytique;
@@ -2246,6 +2269,7 @@ class Fournisseurs {
      * Set the code langue designation article.
      *
      * @param string $codeLangueDesignationArticle The code langue designation article.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeLangueDesignationArticle($codeLangueDesignationArticle) {
         $this->codeLangueDesignationArticle = $codeLangueDesignationArticle;
@@ -2256,6 +2280,7 @@ class Fournisseurs {
      * Set the code origine.
      *
      * @param string $codeOrigine The code origine.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeOrigine($codeOrigine) {
         $this->codeOrigine = $codeOrigine;
@@ -2266,6 +2291,7 @@ class Fournisseurs {
      * Set the code portefeuille.
      *
      * @param string $codePortefeuille The code portefeuille.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodePortefeuille($codePortefeuille) {
         $this->codePortefeuille = $codePortefeuille;
@@ -2276,6 +2302,7 @@ class Fournisseurs {
      * Set the code reglement.
      *
      * @param string $codeReglement The code reglement.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeReglement($codeReglement) {
         $this->codeReglement = $codeReglement;
@@ -2286,6 +2313,7 @@ class Fournisseurs {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -2296,6 +2324,7 @@ class Fournisseurs {
      * Set the code sous famille.
      *
      * @param string $codeSousFamille The code sous famille.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeSousFamille($codeSousFamille) {
         $this->codeSousFamille = $codeSousFamille;
@@ -2306,6 +2335,7 @@ class Fournisseurs {
      * Set the code transporteur.
      *
      * @param string $codeTransporteur The code transporteur.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeTransporteur($codeTransporteur) {
         $this->codeTransporteur = $codeTransporteur;
@@ -2316,6 +2346,7 @@ class Fournisseurs {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -2326,6 +2357,7 @@ class Fournisseurs {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -2336,6 +2368,7 @@ class Fournisseurs {
      * Set the collectif.
      *
      * @param string $collectif The collectif.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCollectif($collectif) {
         $this->collectif = $collectif;
@@ -2346,6 +2379,7 @@ class Fournisseurs {
      * Set the compte de vente.
      *
      * @param bool $compteDeVente The compte de vente.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setCompteDeVente($compteDeVente) {
         $this->compteDeVente = $compteDeVente;
@@ -2356,6 +2390,7 @@ class Fournisseurs {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -2366,6 +2401,7 @@ class Fournisseurs {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -2376,6 +2412,7 @@ class Fournisseurs {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -2386,6 +2423,7 @@ class Fournisseurs {
      * Set the date sortie.
      *
      * @param DateTime|null $dateSortie The date sortie.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDateSortie(DateTime $dateSortie = null) {
         $this->dateSortie = $dateSortie;
@@ -2396,6 +2434,7 @@ class Fournisseurs {
      * Set the delai.
      *
      * @param float $delai The delai.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDelai($delai) {
         $this->delai = $delai;
@@ -2406,6 +2445,7 @@ class Fournisseurs {
      * Set the domiciliation bancaire1.
      *
      * @param string $domiciliationBancaire1 The domiciliation bancaire1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDomiciliationBancaire1($domiciliationBancaire1) {
         $this->domiciliationBancaire1 = $domiciliationBancaire1;
@@ -2416,6 +2456,7 @@ class Fournisseurs {
      * Set the domiciliation bancaire2.
      *
      * @param string $domiciliationBancaire2 The domiciliation bancaire2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDomiciliationBancaire2($domiciliationBancaire2) {
         $this->domiciliationBancaire2 = $domiciliationBancaire2;
@@ -2426,6 +2467,7 @@ class Fournisseurs {
      * Set the dossier comptable.
      *
      * @param string $dossierComptable The dossier comptable.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDossierComptable($dossierComptable) {
         $this->dossierComptable = $dossierComptable;
@@ -2436,6 +2478,7 @@ class Fournisseurs {
      * Set the dossier paie.
      *
      * @param string $dossierPaie The dossier paie.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDossierPaie($dossierPaie) {
         $this->dossierPaie = $dossierPaie;
@@ -2446,6 +2489,7 @@ class Fournisseurs {
      * Set the ds code collab.
      *
      * @param string $dsCodeCollab The ds code collab.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDsCodeCollab($dsCodeCollab) {
         $this->dsCodeCollab = $dsCodeCollab;
@@ -2456,6 +2500,7 @@ class Fournisseurs {
      * Set the ds date retour.
      *
      * @param DateTime|null $dsDateRetour The ds date retour.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDsDateRetour(DateTime $dsDateRetour = null) {
         $this->dsDateRetour = $dsDateRetour;
@@ -2466,6 +2511,7 @@ class Fournisseurs {
      * Set the ds date sortie.
      *
      * @param DateTime|null $dsDateSortie The ds date sortie.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setDsDateSortie(DateTime $dsDateSortie = null) {
         $this->dsDateSortie = $dsDateSortie;
@@ -2476,6 +2522,7 @@ class Fournisseurs {
      * Set the ean frn.
      *
      * @param string $eanFrn The ean frn.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEanFrn($eanFrn) {
         $this->eanFrn = $eanFrn;
@@ -2486,6 +2533,7 @@ class Fournisseurs {
      * Set the echeance fin decade.
      *
      * @param bool $echeanceFinDecade The echeance fin decade.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEcheanceFinDecade($echeanceFinDecade) {
         $this->echeanceFinDecade = $echeanceFinDecade;
@@ -2496,6 +2544,7 @@ class Fournisseurs {
      * Set the echeance fin quinzaine.
      *
      * @param bool $echeanceFinQuinzaine The echeance fin quinzaine.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEcheanceFinQuinzaine($echeanceFinQuinzaine) {
         $this->echeanceFinQuinzaine = $echeanceFinQuinzaine;
@@ -2506,6 +2555,7 @@ class Fournisseurs {
      * Set the etat1.
      *
      * @param string $etat1 The etat1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEtat1($etat1) {
         $this->etat1 = $etat1;
@@ -2516,6 +2566,7 @@ class Fournisseurs {
      * Set the etat2.
      *
      * @param string $etat2 The etat2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEtat2($etat2) {
         $this->etat2 = $etat2;
@@ -2526,6 +2577,7 @@ class Fournisseurs {
      * Set the etat3.
      *
      * @param string $etat3 The etat3.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEtat3($etat3) {
         $this->etat3 = $etat3;
@@ -2536,6 +2588,7 @@ class Fournisseurs {
      * Set the etat4.
      *
      * @param string $etat4 The etat4.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEtat4($etat4) {
         $this->etat4 = $etat4;
@@ -2546,6 +2599,7 @@ class Fournisseurs {
      * Set the etat5.
      *
      * @param string $etat5 The etat5.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEtat5($etat5) {
         $this->etat5 = $etat5;
@@ -2556,6 +2610,7 @@ class Fournisseurs {
      * Set the etiquettes.
      *
      * @param bool $etiquettes The etiquettes.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setEtiquettes($etiquettes) {
         $this->etiquettes = $etiquettes;
@@ -2566,6 +2621,7 @@ class Fournisseurs {
      * Set the facture euros.
      *
      * @param bool $factureEuros The facture euros.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setFactureEuros($factureEuros) {
         $this->factureEuros = $factureEuros;
@@ -2576,6 +2632,7 @@ class Fournisseurs {
      * Set the facture isolee.
      *
      * @param bool $factureIsolee The facture isolee.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setFactureIsolee($factureIsolee) {
         $this->factureIsolee = $factureIsolee;
@@ -2586,6 +2643,7 @@ class Fournisseurs {
      * Set the frais fixes1.
      *
      * @param bool $fraisFixes1 The frais fixes1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setFraisFixes1($fraisFixes1) {
         $this->fraisFixes1 = $fraisFixes1;
@@ -2596,6 +2654,7 @@ class Fournisseurs {
      * Set the frais fixes2.
      *
      * @param bool $fraisFixes2 The frais fixes2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setFraisFixes2($fraisFixes2) {
         $this->fraisFixes2 = $fraisFixes2;
@@ -2606,6 +2665,7 @@ class Fournisseurs {
      * Set the franco port1.
      *
      * @param float $francoPort1 The franco port1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setFrancoPort1($francoPort1) {
         $this->francoPort1 = $francoPort1;
@@ -2616,6 +2676,7 @@ class Fournisseurs {
      * Set the franco port2.
      *
      * @param float $francoPort2 The franco port2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setFrancoPort2($francoPort2) {
         $this->francoPort2 = $francoPort2;
@@ -2626,6 +2687,7 @@ class Fournisseurs {
      * Set the identifiant tva.
      *
      * @param string $identifiantTva The identifiant tva.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setIdentifiantTva($identifiantTva) {
         $this->identifiantTva = $identifiantTva;
@@ -2636,6 +2698,7 @@ class Fournisseurs {
      * Set the igp.
      *
      * @param bool $igp The igp.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setIgp($igp) {
         $this->igp = $igp;
@@ -2646,6 +2709,7 @@ class Fournisseurs {
      * Set the insp.
      *
      * @param string $insp The insp.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setInsp($insp) {
         $this->insp = $insp;
@@ -2656,6 +2720,7 @@ class Fournisseurs {
      * Set the mission sur dossier.
      *
      * @param int $missionSurDossier The mission sur dossier.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setMissionSurDossier($missionSurDossier) {
         $this->missionSurDossier = $missionSurDossier;
@@ -2666,6 +2731,7 @@ class Fournisseurs {
      * Set the modele br.
      *
      * @param string $modeleBr The modele br.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setModeleBr($modeleBr) {
         $this->modeleBr = $modeleBr;
@@ -2676,6 +2742,7 @@ class Fournisseurs {
      * Set the modele commande.
      *
      * @param string $modeleCommande The modele commande.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setModeleCommande($modeleCommande) {
         $this->modeleCommande = $modeleCommande;
@@ -2686,6 +2753,7 @@ class Fournisseurs {
      * Set the modele facture.
      *
      * @param string $modeleFacture The modele facture.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setModeleFacture($modeleFacture) {
         $this->modeleFacture = $modeleFacture;
@@ -2696,6 +2764,7 @@ class Fournisseurs {
      * Set the modele releve.
      *
      * @param string $modeleReleve The modele releve.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setModeleReleve($modeleReleve) {
         $this->modeleReleve = $modeleReleve;
@@ -2706,6 +2775,7 @@ class Fournisseurs {
      * Set the montant franco.
      *
      * @param float $montantFranco The montant franco.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setMontantFranco($montantFranco) {
         $this->montantFranco = $montantFranco;
@@ -2716,6 +2786,7 @@ class Fournisseurs {
      * Set the montant mini cde.
      *
      * @param float $montantMiniCde The montant mini cde.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setMontantMiniCde($montantMiniCde) {
         $this->montantMiniCde = $montantMiniCde;
@@ -2726,6 +2797,7 @@ class Fournisseurs {
      * Set the montant port liv.
      *
      * @param float $montantPortLiv The montant port liv.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setMontantPortLiv($montantPortLiv) {
         $this->montantPortLiv = $montantPortLiv;
@@ -2736,6 +2808,7 @@ class Fournisseurs {
      * Set the nb br.
      *
      * @param string $nbBr The nb br.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNbBr($nbBr) {
         $this->nbBr = $nbBr;
@@ -2746,6 +2819,7 @@ class Fournisseurs {
      * Set the nb commande.
      *
      * @param string $nbCommande The nb commande.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNbCommande($nbCommande) {
         $this->nbCommande = $nbCommande;
@@ -2756,6 +2830,7 @@ class Fournisseurs {
      * Set the nb facture.
      *
      * @param string $nbFacture The nb facture.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNbFacture($nbFacture) {
         $this->nbFacture = $nbFacture;
@@ -2766,6 +2841,7 @@ class Fournisseurs {
      * Set the nb jour interval.
      *
      * @param int $nbJourInterval The nb jour interval.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNbJourInterval($nbJourInterval) {
         $this->nbJourInterval = $nbJourInterval;
@@ -2776,6 +2852,7 @@ class Fournisseurs {
      * Set the nb max br.
      *
      * @param string $nbMaxBr The nb max br.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNbMaxBr($nbMaxBr) {
         $this->nbMaxBr = $nbMaxBr;
@@ -2786,6 +2863,7 @@ class Fournisseurs {
      * Set the nb releve.
      *
      * @param string $nbReleve The nb releve.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNbReleve($nbReleve) {
         $this->nbReleve = $nbReleve;
@@ -2796,6 +2874,7 @@ class Fournisseurs {
      * Set the nombre echeances.
      *
      * @param string $nombreEcheances The nombre echeances.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -2806,6 +2885,7 @@ class Fournisseurs {
      * Set the num facture f.
      *
      * @param int $numFactureF The num facture f.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNumFactureF($numFactureF) {
         $this->numFactureF = $numFactureF;
@@ -2816,6 +2896,7 @@ class Fournisseurs {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -2826,6 +2907,7 @@ class Fournisseurs {
      * Set the observation1.
      *
      * @param string $observation1 The observation1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setObservation1($observation1) {
         $this->observation1 = $observation1;
@@ -2836,6 +2918,7 @@ class Fournisseurs {
      * Set the observation2.
      *
      * @param string $observation2 The observation2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setObservation2($observation2) {
         $this->observation2 = $observation2;
@@ -2846,6 +2929,7 @@ class Fournisseurs {
      * Set the paiement depart le.
      *
      * @param int $paiementDepartLe The paiement depart le.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setPaiementDepartLe($paiementDepartLe) {
         $this->paiementDepartLe = $paiementDepartLe;
@@ -2856,6 +2940,7 @@ class Fournisseurs {
      * Set the paiement le.
      *
      * @param string $paiementLe The paiement le.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setPaiementLe($paiementLe) {
         $this->paiementLe = $paiementLe;
@@ -2866,6 +2951,7 @@ class Fournisseurs {
      * Set the paiement nombre de jours.
      *
      * @param int $paiementNombreDeJours The paiement nombre de jours.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setPaiementNombreDeJours($paiementNombreDeJours) {
         $this->paiementNombreDeJours = $paiementNombreDeJours;
@@ -2876,6 +2962,7 @@ class Fournisseurs {
      * Set the prefixe facture f.
      *
      * @param string $prefixeFactureF The prefixe facture f.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setPrefixeFactureF($prefixeFactureF) {
         $this->prefixeFactureF = $prefixeFactureF;
@@ -2886,6 +2973,7 @@ class Fournisseurs {
      * Set the regime.
      *
      * @param string $regime The regime.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRegime($regime) {
         $this->regime = $regime;
@@ -2896,6 +2984,7 @@ class Fournisseurs {
      * Set the regroupement fact.
      *
      * @param string $regroupementFact The regroupement fact.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRegroupementFact($regroupementFact) {
         $this->regroupementFact = $regroupementFact;
@@ -2906,6 +2995,7 @@ class Fournisseurs {
      * Set the releve facture.
      *
      * @param bool $releveFacture The releve facture.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setReleveFacture($releveFacture) {
         $this->releveFacture = $releveFacture;
@@ -2916,6 +3006,7 @@ class Fournisseurs {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -2926,6 +3017,7 @@ class Fournisseurs {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -2936,6 +3028,7 @@ class Fournisseurs {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -2946,6 +3039,7 @@ class Fournisseurs {
      * Set the remise pied.
      *
      * @param float $remisePied The remise pied.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRemisePied($remisePied) {
         $this->remisePied = $remisePied;
@@ -2956,6 +3050,7 @@ class Fournisseurs {
      * Set the remise pied2.
      *
      * @param float $remisePied2 The remise pied2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRemisePied2($remisePied2) {
         $this->remisePied2 = $remisePied2;
@@ -2966,6 +3061,7 @@ class Fournisseurs {
      * Set the remise pied3.
      *
      * @param float $remisePied3 The remise pied3.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRemisePied3($remisePied3) {
         $this->remisePied3 = $remisePied3;
@@ -2976,6 +3072,7 @@ class Fournisseurs {
      * Set the resultat.
      *
      * @param float $resultat The resultat.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setResultat($resultat) {
         $this->resultat = $resultat;
@@ -2986,6 +3083,7 @@ class Fournisseurs {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -2996,6 +3094,7 @@ class Fournisseurs {
      * Set the siege groupe.
      *
      * @param bool $siegeGroupe The siege groupe.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSiegeGroupe($siegeGroupe) {
         $this->siegeGroupe = $siegeGroupe;
@@ -3006,6 +3105,7 @@ class Fournisseurs {
      * Set the soumis escompte.
      *
      * @param bool $soumisEscompte The soumis escompte.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisEscompte($soumisEscompte) {
         $this->soumisEscompte = $soumisEscompte;
@@ -3016,6 +3116,7 @@ class Fournisseurs {
      * Set the soumis port1.
      *
      * @param string $soumisPort1 The soumis port1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisPort1($soumisPort1) {
         $this->soumisPort1 = $soumisPort1;
@@ -3026,6 +3127,7 @@ class Fournisseurs {
      * Set the soumis port2.
      *
      * @param string $soumisPort2 The soumis port2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisPort2($soumisPort2) {
         $this->soumisPort2 = $soumisPort2;
@@ -3036,6 +3138,7 @@ class Fournisseurs {
      * Set the soumis taxe1.
      *
      * @param bool $soumisTaxe1 The soumis taxe1.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisTaxe1($soumisTaxe1) {
         $this->soumisTaxe1 = $soumisTaxe1;
@@ -3046,6 +3149,7 @@ class Fournisseurs {
      * Set the soumis taxe2.
      *
      * @param bool $soumisTaxe2 The soumis taxe2.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisTaxe2($soumisTaxe2) {
         $this->soumisTaxe2 = $soumisTaxe2;
@@ -3056,6 +3160,7 @@ class Fournisseurs {
      * Set the soumis taxe3.
      *
      * @param bool $soumisTaxe3 The soumis taxe3.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisTaxe3($soumisTaxe3) {
         $this->soumisTaxe3 = $soumisTaxe3;
@@ -3066,6 +3171,7 @@ class Fournisseurs {
      * Set the soumis taxe4.
      *
      * @param bool $soumisTaxe4 The soumis taxe4.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisTaxe4($soumisTaxe4) {
         $this->soumisTaxe4 = $soumisTaxe4;
@@ -3076,6 +3182,7 @@ class Fournisseurs {
      * Set the soumis taxe5.
      *
      * @param bool $soumisTaxe5 The soumis taxe5.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisTaxe5($soumisTaxe5) {
         $this->soumisTaxe5 = $soumisTaxe5;
@@ -3086,6 +3193,7 @@ class Fournisseurs {
      * Set the soumis tva.
      *
      * @param bool $soumisTva The soumis tva.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setSoumisTva($soumisTva) {
         $this->soumisTva = $soumisTva;
@@ -3096,6 +3204,7 @@ class Fournisseurs {
      * Set the taux comm.
      *
      * @param float $tauxComm The taux comm.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTauxComm($tauxComm) {
         $this->tauxComm = $tauxComm;
@@ -3106,6 +3215,7 @@ class Fournisseurs {
      * Set the taux escompte.
      *
      * @param float $tauxEscompte The taux escompte.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTauxEscompte($tauxEscompte) {
         $this->tauxEscompte = $tauxEscompte;
@@ -3116,6 +3226,7 @@ class Fournisseurs {
      * Set the toutes activites.
      *
      * @param string $toutesActivites The toutes activites.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setToutesActivites($toutesActivites) {
         $this->toutesActivites = $toutesActivites;
@@ -3126,6 +3237,7 @@ class Fournisseurs {
      * Set the transporteur.
      *
      * @param string $transporteur The transporteur.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTransporteur($transporteur) {
         $this->transporteur = $transporteur;
@@ -3136,6 +3248,7 @@ class Fournisseurs {
      * Set the trs aff grp.
      *
      * @param bool $trsAffGrp The trs aff grp.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrsAffGrp($trsAffGrp) {
         $this->trsAffGrp = $trsAffGrp;
@@ -3146,6 +3259,7 @@ class Fournisseurs {
      * Set the trs aff mat dang.
      *
      * @param string $trsAffMatDang The trs aff mat dang.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrsAffMatDang($trsAffMatDang) {
         $this->trsAffMatDang = $trsAffMatDang;
@@ -3156,6 +3270,7 @@ class Fournisseurs {
      * Set the trs aff prod chim.
      *
      * @param string $trsAffProdChim The trs aff prod chim.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrsAffProdChim($trsAffProdChim) {
         $this->trsAffProdChim = $trsAffProdChim;
@@ -3166,6 +3281,7 @@ class Fournisseurs {
      * Set the trs aff refri.
      *
      * @param string $trsAffRefri The trs aff refri.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrsAffRefri($trsAffRefri) {
         $this->trsAffRefri = $trsAffRefri;
@@ -3176,6 +3292,7 @@ class Fournisseurs {
      * Set the trs code tarif.
      *
      * @param string $trsCodeTarif The trs code tarif.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrsCodeTarif($trsCodeTarif) {
         $this->trsCodeTarif = $trsCodeTarif;
@@ -3186,6 +3303,7 @@ class Fournisseurs {
      * Set the trs est un affrete.
      *
      * @param string $trsEstUnAffrete The trs est un affrete.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrsEstUnAffrete($trsEstUnAffrete) {
         $this->trsEstUnAffrete = $trsEstUnAffrete;
@@ -3196,6 +3314,7 @@ class Fournisseurs {
      * Set the trs gestion palettes.
      *
      * @param bool $trsGestionPalettes The trs gestion palettes.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrsGestionPalettes($trsGestionPalettes) {
         $this->trsGestionPalettes = $trsGestionPalettes;
@@ -3206,6 +3325,7 @@ class Fournisseurs {
      * Set the trs suivi planing aff.
      *
      * @param bool $trsSuiviPlaningAff The trs suivi planing aff.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrsSuiviPlaningAff($trsSuiviPlaningAff) {
         $this->trsSuiviPlaningAff = $trsSuiviPlaningAff;
@@ -3216,6 +3336,7 @@ class Fournisseurs {
      * Set the trsp cent px trs.
      *
      * @param float $trspCentPxTrs The trsp cent px trs.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTrspCentPxTrs($trspCentPxTrs) {
         $this->trspCentPxTrs = $trspCentPxTrs;
@@ -3226,6 +3347,7 @@ class Fournisseurs {
      * Set the tva regime.
      *
      * @param string $tvaRegime The tva regime.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTvaRegime($tvaRegime) {
         $this->tvaRegime = $tvaRegime;
@@ -3236,6 +3358,7 @@ class Fournisseurs {
      * Set the type edit br.
      *
      * @param string $typeEditBr The type edit br.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTypeEditBr($typeEditBr) {
         $this->typeEditBr = $typeEditBr;
@@ -3246,6 +3369,7 @@ class Fournisseurs {
      * Set the type fournisseur.
      *
      * @param string $typeFournisseur The type fournisseur.
+     * @return Fournisseurs Returns this Fournisseurs.
      */
     public function setTypeFournisseur($typeFournisseur) {
         $this->typeFournisseur = $typeFournisseur;

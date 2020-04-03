@@ -158,6 +158,7 @@ class SousLignesAnalAchats {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -168,6 +169,7 @@ class SousLignesAnalAchats {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -178,6 +180,7 @@ class SousLignesAnalAchats {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -188,6 +191,7 @@ class SousLignesAnalAchats {
      * Set the indice ligne.
      *
      * @param int $indiceLigne The indice ligne.
+     * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
     public function setIndiceLigne($indiceLigne) {
         $this->indiceLigne = $indiceLigne;
@@ -198,6 +202,7 @@ class SousLignesAnalAchats {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -208,6 +213,7 @@ class SousLignesAnalAchats {
      * Set the no piece.
      *
      * @param string $noPiece The no piece.
+     * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
     public function setNoPiece($noPiece) {
         $this->noPiece = $noPiece;
@@ -218,6 +224,7 @@ class SousLignesAnalAchats {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -228,6 +235,7 @@ class SousLignesAnalAchats {
      * Set the numero ligne anal.
      *
      * @param int $numeroLigneAnal The numero ligne anal.
+     * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
     public function setNumeroLigneAnal($numeroLigneAnal) {
         $this->numeroLigneAnal = $numeroLigneAnal;

@@ -126,6 +126,7 @@ class ChantiersSynchroId {
      * Set the bloc da.
      *
      * @param bool $blocDa The bloc da.
+     * @return ChantiersSynchroId Returns this Chantiers synchro id.
      */
     public function setBlocDa($blocDa) {
         $this->blocDa = $blocDa;
@@ -136,6 +137,7 @@ class ChantiersSynchroId {
      * Set the bloc fc.
      *
      * @param bool $blocFc The bloc fc.
+     * @return ChantiersSynchroId Returns this Chantiers synchro id.
      */
     public function setBlocFc($blocFc) {
         $this->blocFc = $blocFc;
@@ -146,6 +148,7 @@ class ChantiersSynchroId {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ChantiersSynchroId Returns this Chantiers synchro id.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -156,6 +159,7 @@ class ChantiersSynchroId {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ChantiersSynchroId Returns this Chantiers synchro id.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -166,6 +170,7 @@ class ChantiersSynchroId {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ChantiersSynchroId Returns this Chantiers synchro id.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -176,6 +181,7 @@ class ChantiersSynchroId {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return ChantiersSynchroId Returns this Chantiers synchro id.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

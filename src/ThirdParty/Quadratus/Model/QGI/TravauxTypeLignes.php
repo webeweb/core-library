@@ -142,6 +142,7 @@ class TravauxTypeLignes {
      * Set the code repartition.
      *
      * @param string $codeRepartition The code repartition.
+     * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
     public function setCodeRepartition($codeRepartition) {
         $this->codeRepartition = $codeRepartition;
@@ -152,6 +153,7 @@ class TravauxTypeLignes {
      * Set the code travail.
      *
      * @param string $codeTravail The code travail.
+     * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
     public function setCodeTravail($codeTravail) {
         $this->codeTravail = $codeTravail;
@@ -162,6 +164,7 @@ class TravauxTypeLignes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -172,6 +175,7 @@ class TravauxTypeLignes {
      * Set the nb uo.
      *
      * @param float $nbUo The nb uo.
+     * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
     public function setNbUo($nbUo) {
         $this->nbUo = $nbUo;
@@ -182,6 +186,7 @@ class TravauxTypeLignes {
      * Set the niveau ligne.
      *
      * @param string $niveauLigne The niveau ligne.
+     * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
     public function setNiveauLigne($niveauLigne) {
         $this->niveauLigne = $niveauLigne;
@@ -192,6 +197,7 @@ class TravauxTypeLignes {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -202,6 +208,7 @@ class TravauxTypeLignes {
      * Set the police.
      *
      * @param string $police The police.
+     * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
     public function setPolice($police) {
         $this->police = $police;

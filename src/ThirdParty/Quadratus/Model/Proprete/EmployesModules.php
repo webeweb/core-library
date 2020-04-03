@@ -112,6 +112,7 @@ class EmployesModules {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return EmployesModules Returns this Employes modules.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -122,6 +123,7 @@ class EmployesModules {
      * Set the debut modulation.
      *
      * @param DateTime|null $debutModulation The debut modulation.
+     * @return EmployesModules Returns this Employes modules.
      */
     public function setDebutModulation(DateTime $debutModulation = null) {
         $this->debutModulation = $debutModulation;
@@ -132,6 +134,7 @@ class EmployesModules {
      * Set the ecart cumule init.
      *
      * @param float $ecartCumuleInit The ecart cumule init.
+     * @return EmployesModules Returns this Employes modules.
      */
     public function setEcartCumuleInit($ecartCumuleInit) {
         $this->ecartCumuleInit = $ecartCumuleInit;
@@ -142,6 +145,7 @@ class EmployesModules {
      * Set the fin modulation.
      *
      * @param DateTime|null $finModulation The fin modulation.
+     * @return EmployesModules Returns this Employes modules.
      */
     public function setFinModulation(DateTime $finModulation = null) {
         $this->finModulation = $finModulation;
@@ -152,6 +156,7 @@ class EmployesModules {
      * Set the periode ecart cumule.
      *
      * @param DateTime|null $periodeEcartCumule The periode ecart cumule.
+     * @return EmployesModules Returns this Employes modules.
      */
     public function setPeriodeEcartCumule(DateTime $periodeEcartCumule = null) {
         $this->periodeEcartCumule = $periodeEcartCumule;

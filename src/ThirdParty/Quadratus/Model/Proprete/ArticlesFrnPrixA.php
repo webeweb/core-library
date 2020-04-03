@@ -192,6 +192,7 @@ class ArticlesFrnPrixA {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -202,6 +203,7 @@ class ArticlesFrnPrixA {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -212,6 +214,7 @@ class ArticlesFrnPrixA {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -222,6 +225,7 @@ class ArticlesFrnPrixA {
      * Set the prix cond.
      *
      * @param bool $prixCond The prix cond.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setPrixCond($prixCond) {
         $this->prixCond = $prixCond;
@@ -232,6 +236,7 @@ class ArticlesFrnPrixA {
      * Set the px achat.
      *
      * @param float $pxAchat The px achat.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setPxAchat($pxAchat) {
         $this->pxAchat = $pxAchat;
@@ -242,6 +247,7 @@ class ArticlesFrnPrixA {
      * Set the qte achat.
      *
      * @param float $qteAchat The qte achat.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setQteAchat($qteAchat) {
         $this->qteAchat = $qteAchat;
@@ -252,6 +258,7 @@ class ArticlesFrnPrixA {
      * Set the qte cond.
      *
      * @param int $qteCond The qte cond.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setQteCond($qteCond) {
         $this->qteCond = $qteCond;
@@ -262,6 +269,7 @@ class ArticlesFrnPrixA {
      * Set the remise1.
      *
      * @param float $remise1 The remise1.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setRemise1($remise1) {
         $this->remise1 = $remise1;
@@ -272,6 +280,7 @@ class ArticlesFrnPrixA {
      * Set the remise2.
      *
      * @param float $remise2 The remise2.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setRemise2($remise2) {
         $this->remise2 = $remise2;
@@ -282,6 +291,7 @@ class ArticlesFrnPrixA {
      * Set the remise3.
      *
      * @param float $remise3 The remise3.
+     * @return ArticlesFrnPrixA Returns this Articles frn prix a.
      */
     public function setRemise3($remise3) {
         $this->remise3 = $remise3;

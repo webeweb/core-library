@@ -62,6 +62,7 @@ class DadsuAnnuelle {
      * Set the nom fichier dadsu.
      *
      * @param string $nomFichierDadsu The nom fichier dadsu.
+     * @return DadsuAnnuelle Returns this Dadsu annuelle.
      */
     public function setNomFichierDadsu($nomFichierDadsu) {
         $this->nomFichierDadsu = $nomFichierDadsu;
@@ -72,6 +73,7 @@ class DadsuAnnuelle {
      * Set the tds annee.
      *
      * @param int $tdsAnnee The tds annee.
+     * @return DadsuAnnuelle Returns this Dadsu annuelle.
      */
     public function setTdsAnnee($tdsAnnee) {
         $this->tdsAnnee = $tdsAnnee;

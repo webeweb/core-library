@@ -128,6 +128,7 @@ class AgendaFichiers {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AgendaFichiers Returns this Agenda fichiers.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -138,6 +139,7 @@ class AgendaFichiers {
      * Set the date ajout.
      *
      * @param DateTime|null $dateAjout The date ajout.
+     * @return AgendaFichiers Returns this Agenda fichiers.
      */
     public function setDateAjout(DateTime $dateAjout = null) {
         $this->dateAjout = $dateAjout;
@@ -148,6 +150,7 @@ class AgendaFichiers {
      * Set the nom fichier.
      *
      * @param string $nomFichier The nom fichier.
+     * @return AgendaFichiers Returns this Agenda fichiers.
      */
     public function setNomFichier($nomFichier) {
         $this->nomFichier = $nomFichier;
@@ -158,6 +161,7 @@ class AgendaFichiers {
      * Set the origine fichier.
      *
      * @param string $origineFichier The origine fichier.
+     * @return AgendaFichiers Returns this Agenda fichiers.
      */
     public function setOrigineFichier($origineFichier) {
         $this->origineFichier = $origineFichier;
@@ -168,6 +172,7 @@ class AgendaFichiers {
      * Set the ref guid.
      *
      * @param string $refGuid The ref guid.
+     * @return AgendaFichiers Returns this Agenda fichiers.
      */
     public function setRefGuid($refGuid) {
         $this->refGuid = $refGuid;
@@ -178,6 +183,7 @@ class AgendaFichiers {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return AgendaFichiers Returns this Agenda fichiers.
      */
     public function setTitre($titre) {
         $this->titre = $titre;

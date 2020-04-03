@@ -1248,6 +1248,7 @@ class EmpTdsCalcul {
      * Set the base calc tds142.
      *
      * @param float $baseCalcTds142 The base calc tds142.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setBaseCalcTds142($baseCalcTds142) {
         $this->baseCalcTds142 = $baseCalcTds142;
@@ -1258,6 +1259,7 @@ class EmpTdsCalcul {
      * Set the code at per.
      *
      * @param int $codeAtPer The code at per.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setCodeAtPer($codeAtPer) {
         $this->codeAtPer = $codeAtPer;
@@ -1268,6 +1270,7 @@ class EmpTdsCalcul {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -1278,6 +1281,7 @@ class EmpTdsCalcul {
      * Set the cum net impos.
      *
      * @param float $cumNetImpos The cum net impos.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setCumNetImpos($cumNetImpos) {
         $this->cumNetImpos = $cumNetImpos;
@@ -1288,6 +1292,7 @@ class EmpTdsCalcul {
      * Set the debut periode decl.
      *
      * @param DateTime|null $debutPeriodeDecl The debut periode decl.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setDebutPeriodeDecl(DateTime $debutPeriodeDecl = null) {
         $this->debutPeriodeDecl = $debutPeriodeDecl;
@@ -1298,6 +1303,7 @@ class EmpTdsCalcul {
      * Set the derniere periode annee.
      *
      * @param bool $dernierePeriodeAnnee The derniere periode annee.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setDernierePeriodeAnnee($dernierePeriodeAnnee) {
         $this->dernierePeriodeAnnee = $dernierePeriodeAnnee;
@@ -1308,6 +1314,7 @@ class EmpTdsCalcul {
      * Set the fin periode decl.
      *
      * @param DateTime|null $finPeriodeDecl The fin periode decl.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setFinPeriodeDecl(DateTime $finPeriodeDecl = null) {
         $this->finPeriodeDecl = $finPeriodeDecl;
@@ -1318,6 +1325,7 @@ class EmpTdsCalcul {
      * Set the indemn impat.
      *
      * @param float $indemnImpat The indemn impat.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setIndemnImpat($indemnImpat) {
         $this->indemnImpat = $indemnImpat;
@@ -1328,6 +1336,7 @@ class EmpTdsCalcul {
      * Set the montant h sup compl exo.
      *
      * @param float $montantHSupComplExo The montant h sup compl exo.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setMontantHSupComplExo($montantHSupComplExo) {
         $this->montantHSupComplExo = $montantHSupComplExo;
@@ -1338,6 +1347,7 @@ class EmpTdsCalcul {
      * Set the nb heure sal.
      *
      * @param float $nbHeureSal The nb heure sal.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setNbHeureSal($nbHeureSal) {
         $this->nbHeureSal = $nbHeureSal;
@@ -1348,6 +1358,7 @@ class EmpTdsCalcul {
      * Set the nb heure trav.
      *
      * @param float $nbHeureTrav The nb heure trav.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setNbHeureTrav($nbHeureTrav) {
         $this->nbHeureTrav = $nbHeureTrav;
@@ -1358,6 +1369,7 @@ class EmpTdsCalcul {
      * Set the nb per paie.
      *
      * @param int $nbPerPaie The nb per paie.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setNbPerPaie($nbPerPaie) {
         $this->nbPerPaie = $nbPerPaie;
@@ -1368,6 +1380,7 @@ class EmpTdsCalcul {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -1378,6 +1391,7 @@ class EmpTdsCalcul {
      * Set the numero ordre.
      *
      * @param int $numeroOrdre The numero ordre.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setNumeroOrdre($numeroOrdre) {
         $this->numeroOrdre = $numeroOrdre;
@@ -1388,6 +1402,7 @@ class EmpTdsCalcul {
      * Set the particip serv pers.
      *
      * @param float $participServPers The particip serv pers.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setParticipServPers($participServPers) {
         $this->participServPers = $participServPers;
@@ -1398,6 +1413,7 @@ class EmpTdsCalcul {
      * Set the premiere periode annee.
      *
      * @param bool $premierePeriodeAnnee The premiere periode annee.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setPremierePeriodeAnnee($premierePeriodeAnnee) {
         $this->premierePeriodeAnnee = $premierePeriodeAnnee;
@@ -1408,6 +1424,7 @@ class EmpTdsCalcul {
      * Set the tds100.
      *
      * @param float $tds100 The tds100.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds100($tds100) {
         $this->tds100 = $tds100;
@@ -1418,6 +1435,7 @@ class EmpTdsCalcul {
      * Set the tds102.
      *
      * @param float $tds102 The tds102.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds102($tds102) {
         $this->tds102 = $tds102;
@@ -1428,6 +1446,7 @@ class EmpTdsCalcul {
      * Set the tds103.
      *
      * @param float $tds103 The tds103.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds103($tds103) {
         $this->tds103 = $tds103;
@@ -1438,6 +1457,7 @@ class EmpTdsCalcul {
      * Set the tds105.
      *
      * @param float $tds105 The tds105.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds105($tds105) {
         $this->tds105 = $tds105;
@@ -1448,6 +1468,7 @@ class EmpTdsCalcul {
      * Set the tds107.
      *
      * @param bool $tds107 The tds107.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds107($tds107) {
         $this->tds107 = $tds107;
@@ -1458,6 +1479,7 @@ class EmpTdsCalcul {
      * Set the tds108.
      *
      * @param bool $tds108 The tds108.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds108($tds108) {
         $this->tds108 = $tds108;
@@ -1468,6 +1490,7 @@ class EmpTdsCalcul {
      * Set the tds109.
      *
      * @param bool $tds109 The tds109.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds109($tds109) {
         $this->tds109 = $tds109;
@@ -1478,6 +1501,7 @@ class EmpTdsCalcul {
      * Set the tds110.
      *
      * @param bool $tds110 The tds110.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds110($tds110) {
         $this->tds110 = $tds110;
@@ -1488,6 +1512,7 @@ class EmpTdsCalcul {
      * Set the tds111.
      *
      * @param bool $tds111 The tds111.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds111($tds111) {
         $this->tds111 = $tds111;
@@ -1498,6 +1523,7 @@ class EmpTdsCalcul {
      * Set the tds112.
      *
      * @param float $tds112 The tds112.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds112($tds112) {
         $this->tds112 = $tds112;
@@ -1508,6 +1534,7 @@ class EmpTdsCalcul {
      * Set the tds113.
      *
      * @param bool $tds113 The tds113.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds113($tds113) {
         $this->tds113 = $tds113;
@@ -1518,6 +1545,7 @@ class EmpTdsCalcul {
      * Set the tds117.
      *
      * @param float $tds117 The tds117.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds117($tds117) {
         $this->tds117 = $tds117;
@@ -1528,6 +1556,7 @@ class EmpTdsCalcul {
      * Set the tds119.
      *
      * @param bool $tds119 The tds119.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds119($tds119) {
         $this->tds119 = $tds119;
@@ -1538,6 +1567,7 @@ class EmpTdsCalcul {
      * Set the tds120.
      *
      * @param bool $tds120 The tds120.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds120($tds120) {
         $this->tds120 = $tds120;
@@ -1548,6 +1578,7 @@ class EmpTdsCalcul {
      * Set the tds121.
      *
      * @param bool $tds121 The tds121.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds121($tds121) {
         $this->tds121 = $tds121;
@@ -1558,6 +1589,7 @@ class EmpTdsCalcul {
      * Set the tds122.
      *
      * @param bool $tds122 The tds122.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds122($tds122) {
         $this->tds122 = $tds122;
@@ -1568,6 +1600,7 @@ class EmpTdsCalcul {
      * Set the tds125.
      *
      * @param float $tds125 The tds125.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds125($tds125) {
         $this->tds125 = $tds125;
@@ -1578,6 +1611,7 @@ class EmpTdsCalcul {
      * Set the tds127.
      *
      * @param float $tds127 The tds127.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds127($tds127) {
         $this->tds127 = $tds127;
@@ -1588,6 +1622,7 @@ class EmpTdsCalcul {
      * Set the tds128.
      *
      * @param string $tds128 The tds128.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds128($tds128) {
         $this->tds128 = $tds128;
@@ -1598,6 +1633,7 @@ class EmpTdsCalcul {
      * Set the tds132.
      *
      * @param float $tds132 The tds132.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds132($tds132) {
         $this->tds132 = $tds132;
@@ -1608,6 +1644,7 @@ class EmpTdsCalcul {
      * Set the tds133.
      *
      * @param string $tds133 The tds133.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds133($tds133) {
         $this->tds133 = $tds133;
@@ -1618,6 +1655,7 @@ class EmpTdsCalcul {
      * Set the tds134.
      *
      * @param float $tds134 The tds134.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds134($tds134) {
         $this->tds134 = $tds134;
@@ -1628,6 +1666,7 @@ class EmpTdsCalcul {
      * Set the tds135.
      *
      * @param float $tds135 The tds135.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds135($tds135) {
         $this->tds135 = $tds135;
@@ -1638,6 +1677,7 @@ class EmpTdsCalcul {
      * Set the tds136.
      *
      * @param float $tds136 The tds136.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds136($tds136) {
         $this->tds136 = $tds136;
@@ -1648,6 +1688,7 @@ class EmpTdsCalcul {
      * Set the tds137.
      *
      * @param float $tds137 The tds137.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds137($tds137) {
         $this->tds137 = $tds137;
@@ -1658,6 +1699,7 @@ class EmpTdsCalcul {
      * Set the tds139.
      *
      * @param string $tds139 The tds139.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds139($tds139) {
         $this->tds139 = $tds139;
@@ -1668,6 +1710,7 @@ class EmpTdsCalcul {
      * Set the tds141.
      *
      * @param float $tds141 The tds141.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds141($tds141) {
         $this->tds141 = $tds141;
@@ -1678,6 +1721,7 @@ class EmpTdsCalcul {
      * Set the tds142.
      *
      * @param float $tds142 The tds142.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds142($tds142) {
         $this->tds142 = $tds142;
@@ -1688,6 +1732,7 @@ class EmpTdsCalcul {
      * Set the tds142 deja calcule.
      *
      * @param bool $tds142DejaCalcule The tds142 deja calcule.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds142DejaCalcule($tds142DejaCalcule) {
         $this->tds142DejaCalcule = $tds142DejaCalcule;
@@ -1698,6 +1743,7 @@ class EmpTdsCalcul {
      * Set the tds75.
      *
      * @param int $tds75 The tds75.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds75($tds75) {
         $this->tds75 = $tds75;
@@ -1708,6 +1754,7 @@ class EmpTdsCalcul {
      * Set the tds77.
      *
      * @param string $tds77 The tds77.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds77($tds77) {
         $this->tds77 = $tds77;
@@ -1718,6 +1765,7 @@ class EmpTdsCalcul {
      * Set the tds78.
      *
      * @param bool $tds78 The tds78.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds78($tds78) {
         $this->tds78 = $tds78;
@@ -1728,6 +1776,7 @@ class EmpTdsCalcul {
      * Set the tds81.
      *
      * @param float $tds81 The tds81.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds81($tds81) {
         $this->tds81 = $tds81;
@@ -1738,6 +1787,7 @@ class EmpTdsCalcul {
      * Set the tds82.
      *
      * @param float $tds82 The tds82.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds82($tds82) {
         $this->tds82 = $tds82;
@@ -1748,6 +1798,7 @@ class EmpTdsCalcul {
      * Set the tds84.
      *
      * @param float $tds84 The tds84.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds84($tds84) {
         $this->tds84 = $tds84;
@@ -1758,6 +1809,7 @@ class EmpTdsCalcul {
      * Set the tds85.
      *
      * @param float $tds85 The tds85.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds85($tds85) {
         $this->tds85 = $tds85;
@@ -1768,6 +1820,7 @@ class EmpTdsCalcul {
      * Set the tds86.
      *
      * @param float $tds86 The tds86.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds86($tds86) {
         $this->tds86 = $tds86;
@@ -1778,6 +1831,7 @@ class EmpTdsCalcul {
      * Set the tds87.
      *
      * @param float $tds87 The tds87.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds87($tds87) {
         $this->tds87 = $tds87;
@@ -1788,6 +1842,7 @@ class EmpTdsCalcul {
      * Set the tds88.
      *
      * @param float $tds88 The tds88.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds88($tds88) {
         $this->tds88 = $tds88;
@@ -1798,6 +1853,7 @@ class EmpTdsCalcul {
      * Set the tds89.
      *
      * @param float $tds89 The tds89.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds89($tds89) {
         $this->tds89 = $tds89;
@@ -1808,6 +1864,7 @@ class EmpTdsCalcul {
      * Set the tds90.
      *
      * @param float $tds90 The tds90.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds90($tds90) {
         $this->tds90 = $tds90;
@@ -1818,6 +1875,7 @@ class EmpTdsCalcul {
      * Set the tds91.
      *
      * @param float $tds91 The tds91.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds91($tds91) {
         $this->tds91 = $tds91;
@@ -1828,6 +1886,7 @@ class EmpTdsCalcul {
      * Set the tds92.
      *
      * @param float $tds92 The tds92.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds92($tds92) {
         $this->tds92 = $tds92;
@@ -1838,6 +1897,7 @@ class EmpTdsCalcul {
      * Set the tds93.
      *
      * @param float $tds93 The tds93.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds93($tds93) {
         $this->tds93 = $tds93;
@@ -1848,6 +1908,7 @@ class EmpTdsCalcul {
      * Set the tds94.
      *
      * @param float $tds94 The tds94.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds94($tds94) {
         $this->tds94 = $tds94;
@@ -1858,6 +1919,7 @@ class EmpTdsCalcul {
      * Set the tds95.
      *
      * @param float $tds95 The tds95.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTds95($tds95) {
         $this->tds95 = $tds95;
@@ -1868,6 +1930,7 @@ class EmpTdsCalcul {
      * Set the tds abatt frais pro.
      *
      * @param float $tdsAbattFraisPro The tds abatt frais pro.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsAbattFraisPro($tdsAbattFraisPro) {
         $this->tdsAbattFraisPro = $tdsAbattFraisPro;
@@ -1878,6 +1941,7 @@ class EmpTdsCalcul {
      * Set the tds alloc chom.
      *
      * @param float $tdsAllocChom The tds alloc chom.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsAllocChom($tdsAllocChom) {
         $this->tdsAllocChom = $tdsAllocChom;
@@ -1888,6 +1952,7 @@ class EmpTdsCalcul {
      * Set the tds alloc compl ijss.
      *
      * @param float $tdsAllocComplIjss The tds alloc compl ijss.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsAllocComplIjss($tdsAllocComplIjss) {
         $this->tdsAllocComplIjss = $tdsAllocComplIjss;
@@ -1898,6 +1963,7 @@ class EmpTdsCalcul {
      * Set the tds alloc retraite.
      *
      * @param float $tdsAllocRetraite The tds alloc retraite.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsAllocRetraite($tdsAllocRetraite) {
         $this->tdsAllocRetraite = $tdsAllocRetraite;
@@ -1908,6 +1974,7 @@ class EmpTdsCalcul {
      * Set the tds contrib ce cheques vac.
      *
      * @param float $tdsContribCeChequesVac The tds contrib ce cheques vac.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsContribCeChequesVac($tdsContribCeChequesVac) {
         $this->tdsContribCeChequesVac = $tdsContribCeChequesVac;
@@ -1918,6 +1985,7 @@ class EmpTdsCalcul {
      * Set the tds cumul n.
      *
      * @param float $tdsCumulN The tds cumul n.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsCumulN($tdsCumulN) {
         $this->tdsCumulN = $tdsCumulN;
@@ -1928,6 +1996,7 @@ class EmpTdsCalcul {
      * Set the tds flag raz.
      *
      * @param int $tdsFlagRaz The tds flag raz.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsFlagRaz($tdsFlagRaz) {
         $this->tdsFlagRaz = $tdsFlagRaz;
@@ -1938,6 +2007,7 @@ class EmpTdsCalcul {
      * Set the tds indemn depart retraite.
      *
      * @param float $tdsIndemnDepartRetraite The tds indemn depart retraite.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsIndemnDepartRetraite($tdsIndemnDepartRetraite) {
         $this->tdsIndemnDepartRetraite = $tdsIndemnDepartRetraite;
@@ -1948,6 +2018,7 @@ class EmpTdsCalcul {
      * Set the tds indemn imposables.
      *
      * @param float $tdsIndemnImposables The tds indemn imposables.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsIndemnImposables($tdsIndemnImposables) {
         $this->tdsIndemnImposables = $tdsIndemnImposables;
@@ -1958,6 +2029,7 @@ class EmpTdsCalcul {
      * Set the tds remb frais pro.
      *
      * @param float $tdsRembFraisPro The tds remb frais pro.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsRembFraisPro($tdsRembFraisPro) {
         $this->tdsRembFraisPro = $tdsRembFraisPro;
@@ -1968,6 +2040,7 @@ class EmpTdsCalcul {
      * Set the tds somme exo taxe sal.
      *
      * @param float $tdsSommeExoTaxeSal The tds somme exo taxe sal.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsSommeExoTaxeSal($tdsSommeExoTaxeSal) {
         $this->tdsSommeExoTaxeSal = $tdsSommeExoTaxeSal;
@@ -1978,6 +2051,7 @@ class EmpTdsCalcul {
      * Set the tds sup120.
      *
      * @param string $tdsSup120 The tds sup120.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsSup120($tdsSup120) {
         $this->tdsSup120 = $tdsSup120;
@@ -1988,6 +2062,7 @@ class EmpTdsCalcul {
      * Set the tds sup1200.
      *
      * @param string $tdsSup1200 The tds sup1200.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTdsSup1200($tdsSup1200) {
         $this->tdsSup1200 = $tdsSup1200;
@@ -1998,6 +2073,7 @@ class EmpTdsCalcul {
      * Set the total plaf.
      *
      * @param float $totalPlaf The total plaf.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
      */
     public function setTotalPlaf($totalPlaf) {
         $this->totalPlaf = $totalPlaf;

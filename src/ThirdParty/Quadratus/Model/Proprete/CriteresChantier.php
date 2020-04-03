@@ -238,6 +238,7 @@ class CriteresChantier {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -248,6 +249,7 @@ class CriteresChantier {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -258,6 +260,7 @@ class CriteresChantier {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -268,6 +271,7 @@ class CriteresChantier {
      * Set the code ref1.
      *
      * @param string $codeRef1 The code ref1.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setCodeRef1($codeRef1) {
         $this->codeRef1 = $codeRef1;
@@ -278,6 +282,7 @@ class CriteresChantier {
      * Set the code ref2.
      *
      * @param string $codeRef2 The code ref2.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setCodeRef2($codeRef2) {
         $this->codeRef2 = $codeRef2;
@@ -288,6 +293,7 @@ class CriteresChantier {
      * Set the code ref3.
      *
      * @param string $codeRef3 The code ref3.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setCodeRef3($codeRef3) {
         $this->codeRef3 = $codeRef3;
@@ -298,6 +304,7 @@ class CriteresChantier {
      * Set the code ref4.
      *
      * @param string $codeRef4 The code ref4.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setCodeRef4($codeRef4) {
         $this->codeRef4 = $codeRef4;
@@ -308,6 +315,7 @@ class CriteresChantier {
      * Set the code ref5.
      *
      * @param string $codeRef5 The code ref5.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setCodeRef5($codeRef5) {
         $this->codeRef5 = $codeRef5;
@@ -318,6 +326,7 @@ class CriteresChantier {
      * Set the texte1.
      *
      * @param string $texte1 The texte1.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setTexte1($texte1) {
         $this->texte1 = $texte1;
@@ -328,6 +337,7 @@ class CriteresChantier {
      * Set the texte2.
      *
      * @param string $texte2 The texte2.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setTexte2($texte2) {
         $this->texte2 = $texte2;
@@ -338,6 +348,7 @@ class CriteresChantier {
      * Set the texte3.
      *
      * @param string $texte3 The texte3.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setTexte3($texte3) {
         $this->texte3 = $texte3;
@@ -348,6 +359,7 @@ class CriteresChantier {
      * Set the texte4.
      *
      * @param string $texte4 The texte4.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setTexte4($texte4) {
         $this->texte4 = $texte4;
@@ -358,6 +370,7 @@ class CriteresChantier {
      * Set the texte5.
      *
      * @param string $texte5 The texte5.
+     * @return CriteresChantier Returns this Criteres chantier.
      */
     public function setTexte5($texte5) {
         $this->texte5 = $texte5;

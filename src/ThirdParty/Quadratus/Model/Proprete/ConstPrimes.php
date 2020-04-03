@@ -78,6 +78,7 @@ class ConstPrimes {
      * Set the code prime q paie.
      *
      * @param string $codePrimeQPaie The code prime q paie.
+     * @return ConstPrimes Returns this Const primes.
      */
     public function setCodePrimeQPaie($codePrimeQPaie) {
         $this->codePrimeQPaie = $codePrimeQPaie;
@@ -88,6 +89,7 @@ class ConstPrimes {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return ConstPrimes Returns this Const primes.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -98,6 +100,7 @@ class ConstPrimes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ConstPrimes Returns this Const primes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

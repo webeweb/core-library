@@ -112,6 +112,7 @@ class DernPrepaPaie {
      * Set the alerte rouge.
      *
      * @param bool $alerteRouge The alerte rouge.
+     * @return DernPrepaPaie Returns this Dern prepa paie.
      */
     public function setAlerteRouge($alerteRouge) {
         $this->alerteRouge = $alerteRouge;
@@ -122,6 +123,7 @@ class DernPrepaPaie {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return DernPrepaPaie Returns this Dern prepa paie.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -132,6 +134,7 @@ class DernPrepaPaie {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return DernPrepaPaie Returns this Dern prepa paie.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -142,6 +145,7 @@ class DernPrepaPaie {
      * Set the dt prepa.
      *
      * @param DateTime|null $dtPrepa The dt prepa.
+     * @return DernPrepaPaie Returns this Dern prepa paie.
      */
     public function setDtPrepa(DateTime $dtPrepa = null) {
         $this->dtPrepa = $dtPrepa;
@@ -152,6 +156,7 @@ class DernPrepaPaie {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return DernPrepaPaie Returns this Dern prepa paie.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

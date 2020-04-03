@@ -78,6 +78,7 @@ class CollabVisuAppels {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return CollabVisuAppels Returns this Collab visu appels.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -88,6 +89,7 @@ class CollabVisuAppels {
      * Set the code collab visu.
      *
      * @param string $codeCollabVisu The code collab visu.
+     * @return CollabVisuAppels Returns this Collab visu appels.
      */
     public function setCodeCollabVisu($codeCollabVisu) {
         $this->codeCollabVisu = $codeCollabVisu;
@@ -98,6 +100,7 @@ class CollabVisuAppels {
      * Set the type code.
      *
      * @param string $typeCode The type code.
+     * @return CollabVisuAppels Returns this Collab visu appels.
      */
     public function setTypeCode($typeCode) {
         $this->typeCode = $typeCode;

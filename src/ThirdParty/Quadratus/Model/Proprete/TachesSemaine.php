@@ -78,6 +78,7 @@ class TachesSemaine {
      * Set the auto incr.
      *
      * @param int $autoIncr The auto incr.
+     * @return TachesSemaine Returns this Taches semaine.
      */
     public function setAutoIncr($autoIncr) {
         $this->autoIncr = $autoIncr;
@@ -88,6 +89,7 @@ class TachesSemaine {
      * Set the code semaine tache.
      *
      * @param string $codeSemaineTache The code semaine tache.
+     * @return TachesSemaine Returns this Taches semaine.
      */
     public function setCodeSemaineTache($codeSemaineTache) {
         $this->codeSemaineTache = $codeSemaineTache;
@@ -98,6 +100,7 @@ class TachesSemaine {
      * Set the discr tache.
      *
      * @param int $discrTache The discr tache.
+     * @return TachesSemaine Returns this Taches semaine.
      */
     public function setDiscrTache($discrTache) {
         $this->discrTache = $discrTache;

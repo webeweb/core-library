@@ -158,6 +158,7 @@ class FichesControlesLignesEmployes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return FichesControlesLignesEmployes Returns this Fiches controles lignes employes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -168,6 +169,7 @@ class FichesControlesLignesEmployes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return FichesControlesLignesEmployes Returns this Fiches controles lignes employes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -178,6 +180,7 @@ class FichesControlesLignesEmployes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FichesControlesLignesEmployes Returns this Fiches controles lignes employes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -188,6 +191,7 @@ class FichesControlesLignesEmployes {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return FichesControlesLignesEmployes Returns this Fiches controles lignes employes.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -198,6 +202,7 @@ class FichesControlesLignesEmployes {
      * Set the code remplacant.
      *
      * @param string $codeRemplacant The code remplacant.
+     * @return FichesControlesLignesEmployes Returns this Fiches controles lignes employes.
      */
     public function setCodeRemplacant($codeRemplacant) {
         $this->codeRemplacant = $codeRemplacant;
@@ -208,6 +213,7 @@ class FichesControlesLignesEmployes {
      * Set the numero fiche.
      *
      * @param int $numeroFiche The numero fiche.
+     * @return FichesControlesLignesEmployes Returns this Fiches controles lignes employes.
      */
     public function setNumeroFiche($numeroFiche) {
         $this->numeroFiche = $numeroFiche;
@@ -218,6 +224,7 @@ class FichesControlesLignesEmployes {
      * Set the poste.
      *
      * @param string $poste The poste.
+     * @return FichesControlesLignesEmployes Returns this Fiches controles lignes employes.
      */
     public function setPoste($poste) {
         $this->poste = $poste;
@@ -228,6 +235,7 @@ class FichesControlesLignesEmployes {
      * Set the remarque.
      *
      * @param string $remarque The remarque.
+     * @return FichesControlesLignesEmployes Returns this Fiches controles lignes employes.
      */
     public function setRemarque($remarque) {
         $this->remarque = $remarque;

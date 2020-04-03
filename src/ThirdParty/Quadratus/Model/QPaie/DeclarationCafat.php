@@ -720,6 +720,7 @@ class DeclarationCafat {
      * Set the adresse1.
      *
      * @param string $adresse1 The adresse1.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setAdresse1($adresse1) {
         $this->adresse1 = $adresse1;
@@ -730,6 +731,7 @@ class DeclarationCafat {
      * Set the adresse2.
      *
      * @param string $adresse2 The adresse2.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setAdresse2($adresse2) {
         $this->adresse2 = $adresse2;
@@ -740,6 +742,7 @@ class DeclarationCafat {
      * Set the adresse3.
      *
      * @param string $adresse3 The adresse3.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setAdresse3($adresse3) {
         $this->adresse3 = $adresse3;
@@ -750,6 +753,7 @@ class DeclarationCafat {
      * Set the code cotis.
      *
      * @param string $codeCotis The code cotis.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setCodeCotis($codeCotis) {
         $this->codeCotis = $codeCotis;
@@ -760,6 +764,7 @@ class DeclarationCafat {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -770,6 +775,7 @@ class DeclarationCafat {
      * Set the date declaration.
      *
      * @param DateTime|null $dateDeclaration The date declaration.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setDateDeclaration(DateTime $dateDeclaration = null) {
         $this->dateDeclaration = $dateDeclaration;
@@ -780,6 +786,7 @@ class DeclarationCafat {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -790,6 +797,7 @@ class DeclarationCafat {
      * Set the mt autre deduction.
      *
      * @param float $mtAutreDeduction The mt autre deduction.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setMtAutreDeduction($mtAutreDeduction) {
         $this->mtAutreDeduction = $mtAutreDeduction;
@@ -800,6 +808,7 @@ class DeclarationCafat {
      * Set the mt deduction acompte.
      *
      * @param float $mtDeductionAcompte The mt deduction acompte.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setMtDeductionAcompte($mtDeductionAcompte) {
         $this->mtDeductionAcompte = $mtDeductionAcompte;
@@ -810,6 +819,7 @@ class DeclarationCafat {
      * Set the mt deduction acompte1.
      *
      * @param float $mtDeductionAcompte1 The mt deduction acompte1.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setMtDeductionAcompte1($mtDeductionAcompte1) {
         $this->mtDeductionAcompte1 = $mtDeductionAcompte1;
@@ -820,6 +830,7 @@ class DeclarationCafat {
      * Set the mt deduction acompte2.
      *
      * @param float $mtDeductionAcompte2 The mt deduction acompte2.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setMtDeductionAcompte2($mtDeductionAcompte2) {
         $this->mtDeductionAcompte2 = $mtDeductionAcompte2;
@@ -830,6 +841,7 @@ class DeclarationCafat {
      * Set the nb salaries.
      *
      * @param int $nbSalaries The nb salaries.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setNbSalaries($nbSalaries) {
         $this->nbSalaries = $nbSalaries;
@@ -840,6 +852,7 @@ class DeclarationCafat {
      * Set the no cotisant.
      *
      * @param string $noCotisant The no cotisant.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setNoCotisant($noCotisant) {
         $this->noCotisant = $noCotisant;
@@ -850,6 +863,7 @@ class DeclarationCafat {
      * Set the organisme.
      *
      * @param string $organisme The organisme.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setOrganisme($organisme) {
         $this->organisme = $organisme;
@@ -860,6 +874,7 @@ class DeclarationCafat {
      * Set the pas de personnel.
      *
      * @param bool $pasDePersonnel The pas de personnel.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPasDePersonnel($pasDePersonnel) {
         $this->pasDePersonnel = $pasDePersonnel;
@@ -870,6 +885,7 @@ class DeclarationCafat {
      * Set the pas de reembauche.
      *
      * @param bool $pasDeReembauche The pas de reembauche.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPasDeReembauche($pasDeReembauche) {
         $this->pasDeReembauche = $pasDeReembauche;
@@ -880,6 +896,7 @@ class DeclarationCafat {
      * Set the periode decla.
      *
      * @param DateTime|null $periodeDecla The periode decla.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPeriodeDecla(DateTime $periodeDecla = null) {
         $this->periodeDecla = $periodeDecla;
@@ -890,6 +907,7 @@ class DeclarationCafat {
      * Set the plafond1 ruamm tr2.
      *
      * @param float $plafond1RuammTr2 The plafond1 ruamm tr2.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPlafond1RuammTr2($plafond1RuammTr2) {
         $this->plafond1RuammTr2 = $plafond1RuammTr2;
@@ -900,6 +918,7 @@ class DeclarationCafat {
      * Set the plafond2 ruamm tr2.
      *
      * @param float $plafond2RuammTr2 The plafond2 ruamm tr2.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPlafond2RuammTr2($plafond2RuammTr2) {
         $this->plafond2RuammTr2 = $plafond2RuammTr2;
@@ -910,6 +929,7 @@ class DeclarationCafat {
      * Set the plafond autre regime.
      *
      * @param float $plafondAutreRegime The plafond autre regime.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPlafondAutreRegime($plafondAutreRegime) {
         $this->plafondAutreRegime = $plafondAutreRegime;
@@ -920,6 +940,7 @@ class DeclarationCafat {
      * Set the plafond fsh.
      *
      * @param float $plafondFsh The plafond fsh.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPlafondFsh($plafondFsh) {
         $this->plafondFsh = $plafondFsh;
@@ -930,6 +951,7 @@ class DeclarationCafat {
      * Set the plafond maladie.
      *
      * @param float $plafondMaladie The plafond maladie.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPlafondMaladie($plafondMaladie) {
         $this->plafondMaladie = $plafondMaladie;
@@ -940,6 +962,7 @@ class DeclarationCafat {
      * Set the plafond salaire.
      *
      * @param float $plafondSalaire The plafond salaire.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setPlafondSalaire($plafondSalaire) {
         $this->plafondSalaire = $plafondSalaire;
@@ -950,6 +973,7 @@ class DeclarationCafat {
      * Set the raison sociale.
      *
      * @param string $raisonSociale The raison sociale.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setRaisonSociale($raisonSociale) {
         $this->raisonSociale = $raisonSociale;
@@ -960,6 +984,7 @@ class DeclarationCafat {
      * Set the rid.
      *
      * @param string $rid The rid.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setRid($rid) {
         $this->rid = $rid;
@@ -970,6 +995,7 @@ class DeclarationCafat {
      * Set the secteur.
      *
      * @param string $secteur The secteur.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setSecteur($secteur) {
         $this->secteur = $secteur;
@@ -980,6 +1006,7 @@ class DeclarationCafat {
      * Set the taux at.
      *
      * @param float $tauxAt The taux at.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTauxAt($tauxAt) {
         $this->tauxAt = $tauxAt;
@@ -990,6 +1017,7 @@ class DeclarationCafat {
      * Set the taux autre regime.
      *
      * @param float $tauxAutreRegime The taux autre regime.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTauxAutreRegime($tauxAutreRegime) {
         $this->tauxAutreRegime = $tauxAutreRegime;
@@ -1000,6 +1028,7 @@ class DeclarationCafat {
      * Set the taux ccs.
      *
      * @param float $tauxCcs The taux ccs.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTauxCcs($tauxCcs) {
         $this->tauxCcs = $tauxCcs;
@@ -1010,6 +1039,7 @@ class DeclarationCafat {
      * Set the taux fsh.
      *
      * @param float $tauxFsh The taux fsh.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTauxFsh($tauxFsh) {
         $this->tauxFsh = $tauxFsh;
@@ -1020,6 +1050,7 @@ class DeclarationCafat {
      * Set the taux maladie.
      *
      * @param float $tauxMaladie The taux maladie.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTauxMaladie($tauxMaladie) {
         $this->tauxMaladie = $tauxMaladie;
@@ -1030,6 +1061,7 @@ class DeclarationCafat {
      * Set the taux ruamm tr2.
      *
      * @param float $tauxRuammTr2 The taux ruamm tr2.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTauxRuammTr2($tauxRuammTr2) {
         $this->tauxRuammTr2 = $tauxRuammTr2;
@@ -1040,6 +1072,7 @@ class DeclarationCafat {
      * Set the total cotis autre regime.
      *
      * @param float $totalCotisAutreRegime The total cotis autre regime.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalCotisAutreRegime($totalCotisAutreRegime) {
         $this->totalCotisAutreRegime = $totalCotisAutreRegime;
@@ -1050,6 +1083,7 @@ class DeclarationCafat {
      * Set the total cotis ccs.
      *
      * @param float $totalCotisCcs The total cotis ccs.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalCotisCcs($totalCotisCcs) {
         $this->totalCotisCcs = $totalCotisCcs;
@@ -1060,6 +1094,7 @@ class DeclarationCafat {
      * Set the total cotis fsh.
      *
      * @param float $totalCotisFsh The total cotis fsh.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalCotisFsh($totalCotisFsh) {
         $this->totalCotisFsh = $totalCotisFsh;
@@ -1070,6 +1105,7 @@ class DeclarationCafat {
      * Set the total cotis maladie.
      *
      * @param float $totalCotisMaladie The total cotis maladie.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalCotisMaladie($totalCotisMaladie) {
         $this->totalCotisMaladie = $totalCotisMaladie;
@@ -1080,6 +1116,7 @@ class DeclarationCafat {
      * Set the total cotis ruamm tr2.
      *
      * @param float $totalCotisRuammTr2 The total cotis ruamm tr2.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalCotisRuammTr2($totalCotisRuammTr2) {
         $this->totalCotisRuammTr2 = $totalCotisRuammTr2;
@@ -1090,6 +1127,7 @@ class DeclarationCafat {
      * Set the total remuneration.
      *
      * @param int $totalRemuneration The total remuneration.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalRemuneration($totalRemuneration) {
         $this->totalRemuneration = $totalRemuneration;
@@ -1100,6 +1138,7 @@ class DeclarationCafat {
      * Set the total ruamm tr2.
      *
      * @param float $totalRuammTr2 The total ruamm tr2.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalRuammTr2($totalRuammTr2) {
         $this->totalRuammTr2 = $totalRuammTr2;
@@ -1110,6 +1149,7 @@ class DeclarationCafat {
      * Set the total salaire autre regime.
      *
      * @param float $totalSalaireAutreRegime The total salaire autre regime.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalSalaireAutreRegime($totalSalaireAutreRegime) {
         $this->totalSalaireAutreRegime = $totalSalaireAutreRegime;
@@ -1120,6 +1160,7 @@ class DeclarationCafat {
      * Set the total salaire ccs.
      *
      * @param float $totalSalaireCcs The total salaire ccs.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalSalaireCcs($totalSalaireCcs) {
         $this->totalSalaireCcs = $totalSalaireCcs;
@@ -1130,6 +1171,7 @@ class DeclarationCafat {
      * Set the total salaire fsh.
      *
      * @param float $totalSalaireFsh The total salaire fsh.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalSalaireFsh($totalSalaireFsh) {
         $this->totalSalaireFsh = $totalSalaireFsh;
@@ -1140,6 +1182,7 @@ class DeclarationCafat {
      * Set the total salaire maladie.
      *
      * @param float $totalSalaireMaladie The total salaire maladie.
+     * @return DeclarationCafat Returns this Declaration cafat.
      */
     public function setTotalSalaireMaladie($totalSalaireMaladie) {
         $this->totalSalaireMaladie = $totalSalaireMaladie;

@@ -624,6 +624,7 @@ class GroupesClient {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -634,6 +635,7 @@ class GroupesClient {
      * Set the bloque.
      *
      * @param bool $bloque The bloque.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setBloque($bloque) {
         $this->bloque = $bloque;
@@ -644,6 +646,7 @@ class GroupesClient {
      * Set the cle alpha.
      *
      * @param string $cleAlpha The cle alpha.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCleAlpha($cleAlpha) {
         $this->cleAlpha = $cleAlpha;
@@ -654,6 +657,7 @@ class GroupesClient {
      * Set the client perdu.
      *
      * @param bool $clientPerdu The client perdu.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setClientPerdu($clientPerdu) {
         $this->clientPerdu = $clientPerdu;
@@ -664,6 +668,7 @@ class GroupesClient {
      * Set the code analytique.
      *
      * @param string $codeAnalytique The code analytique.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCodeAnalytique($codeAnalytique) {
         $this->codeAnalytique = $codeAnalytique;
@@ -674,6 +679,7 @@ class GroupesClient {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -684,6 +690,7 @@ class GroupesClient {
      * Set the code client fact.
      *
      * @param string $codeClientFact The code client fact.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCodeClientFact($codeClientFact) {
         $this->codeClientFact = $codeClientFact;
@@ -694,6 +701,7 @@ class GroupesClient {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -704,6 +712,7 @@ class GroupesClient {
      * Set the code langue designation article.
      *
      * @param string $codeLangueDesignationArticle The code langue designation article.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCodeLangueDesignationArticle($codeLangueDesignationArticle) {
         $this->codeLangueDesignationArticle = $codeLangueDesignationArticle;
@@ -714,6 +723,7 @@ class GroupesClient {
      * Set the code reglement.
      *
      * @param string $codeReglement The code reglement.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCodeReglement($codeReglement) {
         $this->codeReglement = $codeReglement;
@@ -724,6 +734,7 @@ class GroupesClient {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -734,6 +745,7 @@ class GroupesClient {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -744,6 +756,7 @@ class GroupesClient {
      * Set the collectif.
      *
      * @param string $collectif The collectif.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setCollectif($collectif) {
         $this->collectif = $collectif;
@@ -754,6 +767,7 @@ class GroupesClient {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -764,6 +778,7 @@ class GroupesClient {
      * Set the date sortie.
      *
      * @param DateTime|null $dateSortie The date sortie.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setDateSortie(DateTime $dateSortie = null) {
         $this->dateSortie = $dateSortie;
@@ -774,6 +789,7 @@ class GroupesClient {
      * Set the domiciliation bancaire1.
      *
      * @param string $domiciliationBancaire1 The domiciliation bancaire1.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setDomiciliationBancaire1($domiciliationBancaire1) {
         $this->domiciliationBancaire1 = $domiciliationBancaire1;
@@ -784,6 +800,7 @@ class GroupesClient {
      * Set the domiciliation bancaire2.
      *
      * @param string $domiciliationBancaire2 The domiciliation bancaire2.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setDomiciliationBancaire2($domiciliationBancaire2) {
         $this->domiciliationBancaire2 = $domiciliationBancaire2;
@@ -794,6 +811,7 @@ class GroupesClient {
      * Set the echeance fin decade.
      *
      * @param bool $echeanceFinDecade The echeance fin decade.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setEcheanceFinDecade($echeanceFinDecade) {
         $this->echeanceFinDecade = $echeanceFinDecade;
@@ -804,6 +822,7 @@ class GroupesClient {
      * Set the facture euros.
      *
      * @param bool $factureEuros The facture euros.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setFactureEuros($factureEuros) {
         $this->factureEuros = $factureEuros;
@@ -814,6 +833,7 @@ class GroupesClient {
      * Set the groupe.
      *
      * @param string $groupe The groupe.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setGroupe($groupe) {
         $this->groupe = $groupe;
@@ -824,6 +844,7 @@ class GroupesClient {
      * Set the nb bl.
      *
      * @param int $nbBl The nb bl.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setNbBl($nbBl) {
         $this->nbBl = $nbBl;
@@ -834,6 +855,7 @@ class GroupesClient {
      * Set the nb facture.
      *
      * @param int $nbFacture The nb facture.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setNbFacture($nbFacture) {
         $this->nbFacture = $nbFacture;
@@ -844,6 +866,7 @@ class GroupesClient {
      * Set the nombre echeances.
      *
      * @param string $nombreEcheances The nombre echeances.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -854,6 +877,7 @@ class GroupesClient {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -864,6 +888,7 @@ class GroupesClient {
      * Set the paiement depart le.
      *
      * @param string $paiementDepartLe The paiement depart le.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setPaiementDepartLe($paiementDepartLe) {
         $this->paiementDepartLe = $paiementDepartLe;
@@ -874,6 +899,7 @@ class GroupesClient {
      * Set the paiement le.
      *
      * @param string $paiementLe The paiement le.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setPaiementLe($paiementLe) {
         $this->paiementLe = $paiementLe;
@@ -884,6 +910,7 @@ class GroupesClient {
      * Set the paiement nombre de jours.
      *
      * @param int $paiementNombreDeJours The paiement nombre de jours.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setPaiementNombreDeJours($paiementNombreDeJours) {
         $this->paiementNombreDeJours = $paiementNombreDeJours;
@@ -894,6 +921,7 @@ class GroupesClient {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -904,6 +932,7 @@ class GroupesClient {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -914,6 +943,7 @@ class GroupesClient {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -924,6 +954,7 @@ class GroupesClient {
      * Set the remise pied.
      *
      * @param float $remisePied The remise pied.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setRemisePied($remisePied) {
         $this->remisePied = $remisePied;
@@ -934,6 +965,7 @@ class GroupesClient {
      * Set the remise pied2.
      *
      * @param float $remisePied2 The remise pied2.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setRemisePied2($remisePied2) {
         $this->remisePied2 = $remisePied2;
@@ -944,6 +976,7 @@ class GroupesClient {
      * Set the remise pied3.
      *
      * @param float $remisePied3 The remise pied3.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setRemisePied3($remisePied3) {
         $this->remisePied3 = $remisePied3;
@@ -954,6 +987,7 @@ class GroupesClient {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -964,6 +998,7 @@ class GroupesClient {
      * Set the soumis escompte.
      *
      * @param bool $soumisEscompte The soumis escompte.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setSoumisEscompte($soumisEscompte) {
         $this->soumisEscompte = $soumisEscompte;
@@ -974,6 +1009,7 @@ class GroupesClient {
      * Set the taux escompte.
      *
      * @param float $tauxEscompte The taux escompte.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setTauxEscompte($tauxEscompte) {
         $this->tauxEscompte = $tauxEscompte;
@@ -984,6 +1020,7 @@ class GroupesClient {
      * Set the type facture.
      *
      * @param int $typeFacture The type facture.
+     * @return GroupesClient Returns this Groupes client.
      */
     public function setTypeFacture($typeFacture) {
         $this->typeFacture = $typeFacture;

@@ -144,6 +144,7 @@ class Enfants {
      * Set the a charge.
      *
      * @param bool $aCharge The a charge.
+     * @return Enfants Returns this Enfants.
      */
     public function setACharge($aCharge) {
         $this->aCharge = $aCharge;
@@ -154,6 +155,7 @@ class Enfants {
      * Set the date naissance.
      *
      * @param DateTime|null $dateNaissance The date naissance.
+     * @return Enfants Returns this Enfants.
      */
     public function setDateNaissance(DateTime $dateNaissance = null) {
         $this->dateNaissance = $dateNaissance;
@@ -164,6 +166,7 @@ class Enfants {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return Enfants Returns this Enfants.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -174,6 +177,7 @@ class Enfants {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return Enfants Returns this Enfants.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -184,6 +188,7 @@ class Enfants {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return Enfants Returns this Enfants.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -194,6 +199,7 @@ class Enfants {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return Enfants Returns this Enfants.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -204,6 +210,7 @@ class Enfants {
      * Set the sexe.
      *
      * @param string $sexe The sexe.
+     * @return Enfants Returns this Enfants.
      */
     public function setSexe($sexe) {
         $this->sexe = $sexe;

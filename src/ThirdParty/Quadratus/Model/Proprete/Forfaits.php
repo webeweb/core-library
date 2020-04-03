@@ -400,6 +400,7 @@ class Forfaits {
      * Set the aou.
      *
      * @param bool $aou The aou.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setAou($aou) {
         $this->aou = $aou;
@@ -410,6 +411,7 @@ class Forfaits {
      * Set the avr.
      *
      * @param bool $avr The avr.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setAvr($avr) {
         $this->avr = $avr;
@@ -420,6 +422,7 @@ class Forfaits {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -430,6 +433,7 @@ class Forfaits {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -440,6 +444,7 @@ class Forfaits {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -450,6 +455,7 @@ class Forfaits {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -460,6 +466,7 @@ class Forfaits {
      * Set the code prime.
      *
      * @param string $codePrime The code prime.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setCodePrime($codePrime) {
         $this->codePrime = $codePrime;
@@ -470,6 +477,7 @@ class Forfaits {
      * Set the code tache type.
      *
      * @param string $codeTacheType The code tache type.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setCodeTacheType($codeTacheType) {
         $this->codeTacheType = $codeTacheType;
@@ -480,6 +488,7 @@ class Forfaits {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -490,6 +499,7 @@ class Forfaits {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -500,6 +510,7 @@ class Forfaits {
      * Set the dec.
      *
      * @param bool $dec The dec.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setDec($dec) {
         $this->dec = $dec;
@@ -510,6 +521,7 @@ class Forfaits {
      * Set the fev.
      *
      * @param bool $fev The fev.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setFev($fev) {
         $this->fev = $fev;
@@ -520,6 +532,7 @@ class Forfaits {
      * Set the jan.
      *
      * @param bool $jan The jan.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setJan($jan) {
         $this->jan = $jan;
@@ -530,6 +543,7 @@ class Forfaits {
      * Set the juil.
      *
      * @param bool $juil The juil.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setJuil($juil) {
         $this->juil = $juil;
@@ -540,6 +554,7 @@ class Forfaits {
      * Set the juin.
      *
      * @param bool $juin The juin.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setJuin($juin) {
         $this->juin = $juin;
@@ -550,6 +565,7 @@ class Forfaits {
      * Set the mai.
      *
      * @param bool $mai The mai.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setMai($mai) {
         $this->mai = $mai;
@@ -560,6 +576,7 @@ class Forfaits {
      * Set the mar.
      *
      * @param bool $mar The mar.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setMar($mar) {
         $this->mar = $mar;
@@ -570,6 +587,7 @@ class Forfaits {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -580,6 +598,7 @@ class Forfaits {
      * Set the nov.
      *
      * @param bool $nov The nov.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setNov($nov) {
         $this->nov = $nov;
@@ -590,6 +609,7 @@ class Forfaits {
      * Set the num forfait.
      *
      * @param int $numForfait The num forfait.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setNumForfait($numForfait) {
         $this->numForfait = $numForfait;
@@ -600,6 +620,7 @@ class Forfaits {
      * Set the oct.
      *
      * @param bool $oct The oct.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setOct($oct) {
         $this->oct = $oct;
@@ -610,6 +631,7 @@ class Forfaits {
      * Set the sep.
      *
      * @param bool $sep The sep.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setSep($sep) {
         $this->sep = $sep;
@@ -620,6 +642,7 @@ class Forfaits {
      * Set the type code prime.
      *
      * @param string $typeCodePrime The type code prime.
+     * @return Forfaits Returns this Forfaits.
      */
     public function setTypeCodePrime($typeCodePrime) {
         $this->typeCodePrime = $typeCodePrime;

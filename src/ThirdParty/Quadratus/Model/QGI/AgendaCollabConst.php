@@ -624,6 +624,7 @@ class AgendaCollabConst {
      * Set the artt.
      *
      * @param bool $artt The artt.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setArtt($artt) {
         $this->artt = $artt;
@@ -634,6 +635,7 @@ class AgendaCollabConst {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -644,6 +646,7 @@ class AgendaCollabConst {
      * Set the code site tenue.
      *
      * @param string $codeSiteTenue The code site tenue.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setCodeSiteTenue($codeSiteTenue) {
         $this->codeSiteTenue = $codeSiteTenue;
@@ -654,6 +657,7 @@ class AgendaCollabConst {
      * Set the confidentiel.
      *
      * @param bool $confidentiel The confidentiel.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setConfidentiel($confidentiel) {
         $this->confidentiel = $confidentiel;
@@ -664,6 +668,7 @@ class AgendaCollabConst {
      * Set the date derniere modif agenda.
      *
      * @param DateTime|null $dateDerniereModifAgenda The date derniere modif agenda.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setDateDerniereModifAgenda(DateTime $dateDerniereModifAgenda = null) {
         $this->dateDerniereModifAgenda = $dateDerniereModifAgenda;
@@ -674,6 +679,7 @@ class AgendaCollabConst {
      * Set the dimanche a mdeb.
      *
      * @param DateTime|null $dimancheAMdeb The dimanche a mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setDimancheAMdeb(DateTime $dimancheAMdeb = null) {
         $this->dimancheAMdeb = $dimancheAMdeb;
@@ -684,6 +690,7 @@ class AgendaCollabConst {
      * Set the dimanche a mfin.
      *
      * @param DateTime|null $dimancheAMfin The dimanche a mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setDimancheAMfin(DateTime $dimancheAMfin = null) {
         $this->dimancheAMfin = $dimancheAMfin;
@@ -694,6 +701,7 @@ class AgendaCollabConst {
      * Set the dimanche p mdeb.
      *
      * @param DateTime|null $dimanchePMdeb The dimanche p mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setDimanchePMdeb(DateTime $dimanchePMdeb = null) {
         $this->dimanchePMdeb = $dimanchePMdeb;
@@ -704,6 +712,7 @@ class AgendaCollabConst {
      * Set the dimanche p mfin.
      *
      * @param DateTime|null $dimanchePMfin The dimanche p mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setDimanchePMfin(DateTime $dimanchePMfin = null) {
         $this->dimanchePMfin = $dimanchePMfin;
@@ -714,6 +723,7 @@ class AgendaCollabConst {
      * Set the interdire rd v hors travail.
      *
      * @param bool $interdireRdVHorsTravail The interdire rd v hors travail.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setInterdireRdVHorsTravail($interdireRdVHorsTravail) {
         $this->interdireRdVHorsTravail = $interdireRdVHorsTravail;
@@ -724,6 +734,7 @@ class AgendaCollabConst {
      * Set the jeudi a mdeb.
      *
      * @param DateTime|null $jeudiAMdeb The jeudi a mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setJeudiAMdeb(DateTime $jeudiAMdeb = null) {
         $this->jeudiAMdeb = $jeudiAMdeb;
@@ -734,6 +745,7 @@ class AgendaCollabConst {
      * Set the jeudi a mfin.
      *
      * @param DateTime|null $jeudiAMfin The jeudi a mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setJeudiAMfin(DateTime $jeudiAMfin = null) {
         $this->jeudiAMfin = $jeudiAMfin;
@@ -744,6 +756,7 @@ class AgendaCollabConst {
      * Set the jeudi p mdeb.
      *
      * @param DateTime|null $jeudiPMdeb The jeudi p mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setJeudiPMdeb(DateTime $jeudiPMdeb = null) {
         $this->jeudiPMdeb = $jeudiPMdeb;
@@ -754,6 +767,7 @@ class AgendaCollabConst {
      * Set the jeudi p mfin.
      *
      * @param DateTime|null $jeudiPMfin The jeudi p mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setJeudiPMfin(DateTime $jeudiPMfin = null) {
         $this->jeudiPMfin = $jeudiPMfin;
@@ -764,6 +778,7 @@ class AgendaCollabConst {
      * Set the lundi a mdeb.
      *
      * @param DateTime|null $lundiAMdeb The lundi a mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setLundiAMdeb(DateTime $lundiAMdeb = null) {
         $this->lundiAMdeb = $lundiAMdeb;
@@ -774,6 +789,7 @@ class AgendaCollabConst {
      * Set the lundi a mfin.
      *
      * @param DateTime|null $lundiAMfin The lundi a mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setLundiAMfin(DateTime $lundiAMfin = null) {
         $this->lundiAMfin = $lundiAMfin;
@@ -784,6 +800,7 @@ class AgendaCollabConst {
      * Set the lundi p mdeb.
      *
      * @param DateTime|null $lundiPMdeb The lundi p mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setLundiPMdeb(DateTime $lundiPMdeb = null) {
         $this->lundiPMdeb = $lundiPMdeb;
@@ -794,6 +811,7 @@ class AgendaCollabConst {
      * Set the lundi p mfin.
      *
      * @param DateTime|null $lundiPMfin The lundi p mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setLundiPMfin(DateTime $lundiPMfin = null) {
         $this->lundiPMfin = $lundiPMfin;
@@ -804,6 +822,7 @@ class AgendaCollabConst {
      * Set the mardi a mdeb.
      *
      * @param DateTime|null $mardiAMdeb The mardi a mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setMardiAMdeb(DateTime $mardiAMdeb = null) {
         $this->mardiAMdeb = $mardiAMdeb;
@@ -814,6 +833,7 @@ class AgendaCollabConst {
      * Set the mardi a mfin.
      *
      * @param DateTime|null $mardiAMfin The mardi a mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setMardiAMfin(DateTime $mardiAMfin = null) {
         $this->mardiAMfin = $mardiAMfin;
@@ -824,6 +844,7 @@ class AgendaCollabConst {
      * Set the mardi p mdeb.
      *
      * @param DateTime|null $mardiPMdeb The mardi p mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setMardiPMdeb(DateTime $mardiPMdeb = null) {
         $this->mardiPMdeb = $mardiPMdeb;
@@ -834,6 +855,7 @@ class AgendaCollabConst {
      * Set the mardi p mfin.
      *
      * @param DateTime|null $mardiPMfin The mardi p mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setMardiPMfin(DateTime $mardiPMfin = null) {
         $this->mardiPMfin = $mardiPMfin;
@@ -844,6 +866,7 @@ class AgendaCollabConst {
      * Set the mercredi a mdeb.
      *
      * @param DateTime|null $mercrediAMdeb The mercredi a mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setMercrediAMdeb(DateTime $mercrediAMdeb = null) {
         $this->mercrediAMdeb = $mercrediAMdeb;
@@ -854,6 +877,7 @@ class AgendaCollabConst {
      * Set the mercredi a mfin.
      *
      * @param DateTime|null $mercrediAMfin The mercredi a mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setMercrediAMfin(DateTime $mercrediAMfin = null) {
         $this->mercrediAMfin = $mercrediAMfin;
@@ -864,6 +888,7 @@ class AgendaCollabConst {
      * Set the mercredi p mdeb.
      *
      * @param DateTime|null $mercrediPMdeb The mercredi p mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setMercrediPMdeb(DateTime $mercrediPMdeb = null) {
         $this->mercrediPMdeb = $mercrediPMdeb;
@@ -874,6 +899,7 @@ class AgendaCollabConst {
      * Set the mercredi p mfin.
      *
      * @param DateTime|null $mercrediPMfin The mercredi p mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setMercrediPMfin(DateTime $mercrediPMfin = null) {
         $this->mercrediPMfin = $mercrediPMfin;
@@ -884,6 +910,7 @@ class AgendaCollabConst {
      * Set the plus petite date activite modifiee.
      *
      * @param DateTime|null $plusPetiteDateActiviteModifiee The plus petite date activite modifiee.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setPlusPetiteDateActiviteModifiee(DateTime $plusPetiteDateActiviteModifiee = null) {
         $this->plusPetiteDateActiviteModifiee = $plusPetiteDateActiviteModifiee;
@@ -894,6 +921,7 @@ class AgendaCollabConst {
      * Set the samedi a mdeb.
      *
      * @param DateTime|null $samediAMdeb The samedi a mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setSamediAMdeb(DateTime $samediAMdeb = null) {
         $this->samediAMdeb = $samediAMdeb;
@@ -904,6 +932,7 @@ class AgendaCollabConst {
      * Set the samedi a mfin.
      *
      * @param DateTime|null $samediAMfin The samedi a mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setSamediAMfin(DateTime $samediAMfin = null) {
         $this->samediAMfin = $samediAMfin;
@@ -914,6 +943,7 @@ class AgendaCollabConst {
      * Set the samedi p mdeb.
      *
      * @param DateTime|null $samediPMdeb The samedi p mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setSamediPMdeb(DateTime $samediPMdeb = null) {
         $this->samediPMdeb = $samediPMdeb;
@@ -924,6 +954,7 @@ class AgendaCollabConst {
      * Set the samedi p mfin.
      *
      * @param DateTime|null $samediPMfin The samedi p mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setSamediPMfin(DateTime $samediPMfin = null) {
         $this->samediPMfin = $samediPMfin;
@@ -934,6 +965,7 @@ class AgendaCollabConst {
      * Set the suivi ordre mission.
      *
      * @param bool $suiviOrdreMission The suivi ordre mission.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setSuiviOrdreMission($suiviOrdreMission) {
         $this->suiviOrdreMission = $suiviOrdreMission;
@@ -944,6 +976,7 @@ class AgendaCollabConst {
      * Set the unite rdv.
      *
      * @param string $uniteRdv The unite rdv.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setUniteRdv($uniteRdv) {
         $this->uniteRdv = $uniteRdv;
@@ -954,6 +987,7 @@ class AgendaCollabConst {
      * Set the vendredi a mdeb.
      *
      * @param DateTime|null $vendrediAMdeb The vendredi a mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setVendrediAMdeb(DateTime $vendrediAMdeb = null) {
         $this->vendrediAMdeb = $vendrediAMdeb;
@@ -964,6 +998,7 @@ class AgendaCollabConst {
      * Set the vendredi a mfin.
      *
      * @param DateTime|null $vendrediAMfin The vendredi a mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setVendrediAMfin(DateTime $vendrediAMfin = null) {
         $this->vendrediAMfin = $vendrediAMfin;
@@ -974,6 +1009,7 @@ class AgendaCollabConst {
      * Set the vendredi p mdeb.
      *
      * @param DateTime|null $vendrediPMdeb The vendredi p mdeb.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setVendrediPMdeb(DateTime $vendrediPMdeb = null) {
         $this->vendrediPMdeb = $vendrediPMdeb;
@@ -984,6 +1020,7 @@ class AgendaCollabConst {
      * Set the vendredi p mfin.
      *
      * @param DateTime|null $vendrediPMfin The vendredi p mfin.
+     * @return AgendaCollabConst Returns this Agenda collab const.
      */
     public function setVendrediPMfin(DateTime $vendrediPMfin = null) {
         $this->vendrediPMfin = $vendrediPMfin;

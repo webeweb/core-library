@@ -78,6 +78,7 @@ class VentilationsAuto {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return VentilationsAuto Returns this Ventilations auto.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -88,6 +89,7 @@ class VentilationsAuto {
      * Set the code ventilation.
      *
      * @param string $codeVentilation The code ventilation.
+     * @return VentilationsAuto Returns this Ventilations auto.
      */
     public function setCodeVentilation($codeVentilation) {
         $this->codeVentilation = $codeVentilation;
@@ -98,6 +100,7 @@ class VentilationsAuto {
      * Set the compte ventilation.
      *
      * @param string $compteVentilation The compte ventilation.
+     * @return VentilationsAuto Returns this Ventilations auto.
      */
     public function setCompteVentilation($compteVentilation) {
         $this->compteVentilation = $compteVentilation;

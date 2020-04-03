@@ -320,6 +320,7 @@ class PlansFactBonTrav {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -330,6 +331,7 @@ class PlansFactBonTrav {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -340,6 +342,7 @@ class PlansFactBonTrav {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -350,6 +353,7 @@ class PlansFactBonTrav {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -360,6 +364,7 @@ class PlansFactBonTrav {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -370,6 +375,7 @@ class PlansFactBonTrav {
      * Set the coefficient.
      *
      * @param float $coefficient The coefficient.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setCoefficient($coefficient) {
         $this->coefficient = $coefficient;
@@ -380,6 +386,7 @@ class PlansFactBonTrav {
      * Set the date bt.
      *
      * @param DateTime|null $dateBt The date bt.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setDateBt(DateTime $dateBt = null) {
         $this->dateBt = $dateBt;
@@ -390,6 +397,7 @@ class PlansFactBonTrav {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -400,6 +408,7 @@ class PlansFactBonTrav {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -410,6 +419,7 @@ class PlansFactBonTrav {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -420,6 +430,7 @@ class PlansFactBonTrav {
      * Set the duree.
      *
      * @param float $duree The duree.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setDuree($duree) {
         $this->duree = $duree;
@@ -430,6 +441,7 @@ class PlansFactBonTrav {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -440,6 +452,7 @@ class PlansFactBonTrav {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -450,6 +463,7 @@ class PlansFactBonTrav {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -460,6 +474,7 @@ class PlansFactBonTrav {
      * Set the prix achat.
      *
      * @param float $prixAchat The prix achat.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setPrixAchat($prixAchat) {
         $this->prixAchat = $prixAchat;
@@ -470,6 +485,7 @@ class PlansFactBonTrav {
      * Set the px facture.
      *
      * @param bool $pxFacture The px facture.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setPxFacture($pxFacture) {
         $this->pxFacture = $pxFacture;
@@ -480,6 +496,7 @@ class PlansFactBonTrav {
      * Set the taux.
      *
      * @param float $taux The taux.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setTaux($taux) {
         $this->taux = $taux;
@@ -490,6 +507,7 @@ class PlansFactBonTrav {
      * Set the ventil marge.
      *
      * @param bool $ventilMarge The ventil marge.
+     * @return PlansFactBonTrav Returns this Plans fact bon trav.
      */
     public function setVentilMarge($ventilMarge) {
         $this->ventilMarge = $ventilMarge;

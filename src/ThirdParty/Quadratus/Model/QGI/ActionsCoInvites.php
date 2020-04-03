@@ -176,6 +176,7 @@ class ActionsCoInvites {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -186,6 +187,7 @@ class ActionsCoInvites {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -196,6 +198,7 @@ class ActionsCoInvites {
      * Set the code coll.
      *
      * @param string $codeColl The code coll.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setCodeColl($codeColl) {
         $this->codeColl = $codeColl;
@@ -206,6 +209,7 @@ class ActionsCoInvites {
      * Set the date ajout.
      *
      * @param DateTime|null $dateAjout The date ajout.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setDateAjout(DateTime $dateAjout = null) {
         $this->dateAjout = $dateAjout;
@@ -216,6 +220,7 @@ class ActionsCoInvites {
      * Set the nom interlocuteur.
      *
      * @param string $nomInterlocuteur The nom interlocuteur.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setNomInterlocuteur($nomInterlocuteur) {
         $this->nomInterlocuteur = $nomInterlocuteur;
@@ -226,6 +231,7 @@ class ActionsCoInvites {
      * Set the num interlocuteur.
      *
      * @param int $numInterlocuteur The num interlocuteur.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setNumInterlocuteur($numInterlocuteur) {
         $this->numInterlocuteur = $numInterlocuteur;
@@ -236,6 +242,7 @@ class ActionsCoInvites {
      * Set the retour neg.
      *
      * @param bool $retourNeg The retour neg.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setRetourNeg($retourNeg) {
         $this->retourNeg = $retourNeg;
@@ -246,6 +253,7 @@ class ActionsCoInvites {
      * Set the type invitation.
      *
      * @param int $typeInvitation The type invitation.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setTypeInvitation($typeInvitation) {
         $this->typeInvitation = $typeInvitation;
@@ -256,6 +264,7 @@ class ActionsCoInvites {
      * Set the type invite.
      *
      * @param string $typeInvite The type invite.
+     * @return ActionsCoInvites Returns this Actions co invites.
      */
     public function setTypeInvite($typeInvite) {
         $this->typeInvite = $typeInvite;

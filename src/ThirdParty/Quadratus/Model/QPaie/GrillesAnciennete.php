@@ -62,6 +62,7 @@ class GrillesAnciennete {
      * Set the code.
      *
      * @param string $code The code.
+     * @return GrillesAnciennete Returns this Grilles anciennete.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class GrillesAnciennete {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return GrillesAnciennete Returns this Grilles anciennete.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;

@@ -62,6 +62,7 @@ class iSites {
      * Set the adresse ip.
      *
      * @param string $adresseIp The adresse ip.
+     * @return iSites Returns this i sites.
      */
     public function setAdresseIp($adresseIp) {
         $this->adresseIp = $adresseIp;
@@ -72,6 +73,7 @@ class iSites {
      * Set the nom site.
      *
      * @param string $nomSite The nom site.
+     * @return iSites Returns this i sites.
      */
     public function setNomSite($nomSite) {
         $this->nomSite = $nomSite;

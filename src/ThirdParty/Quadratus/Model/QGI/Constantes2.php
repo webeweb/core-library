@@ -3136,6 +3136,7 @@ class Constantes2 {
      * Set the activation conf2 cmav cli.
      *
      * @param bool $activationConf2CmavCli The activation conf2 cmav cli.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setActivationConf2CmavCli($activationConf2CmavCli) {
         $this->activationConf2CmavCli = $activationConf2CmavCli;
@@ -3146,6 +3147,7 @@ class Constantes2 {
      * Set the active conf conv col.
      *
      * @param bool $activeConfConvCol The active conf conv col.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setActiveConfConvCol($activeConfConvCol) {
         $this->activeConfConvCol = $activeConfConvCol;
@@ -3156,6 +3158,7 @@ class Constantes2 {
      * Set the activer saisie regl.
      *
      * @param bool $activerSaisieRegl The activer saisie regl.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setActiverSaisieRegl($activerSaisieRegl) {
         $this->activerSaisieRegl = $activerSaisieRegl;
@@ -3166,6 +3169,7 @@ class Constantes2 {
      * Set the affectations cli frn.
      *
      * @param bool $affectationsCliFrn The affectations cli frn.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setAffectationsCliFrn($affectationsCliFrn) {
         $this->affectationsCliFrn = $affectationsCliFrn;
@@ -3176,6 +3180,7 @@ class Constantes2 {
      * Set the annulation affaire.
      *
      * @param bool $annulationAffaire The annulation affaire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setAnnulationAffaire($annulationAffaire) {
         $this->annulationAffaire = $annulationAffaire;
@@ -3186,6 +3191,7 @@ class Constantes2 {
      * Set the articles lst perso acces gestion modifiables.
      *
      * @param bool $articlesLstPersoAccesGestionModifiables The articles lst perso acces gestion modifiables.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setArticlesLstPersoAccesGestionModifiables($articlesLstPersoAccesGestionModifiables) {
         $this->articlesLstPersoAccesGestionModifiables = $articlesLstPersoAccesGestionModifiables;
@@ -3196,6 +3202,7 @@ class Constantes2 {
      * Set the articles lst perso acces gestionnaire.
      *
      * @param bool $articlesLstPersoAccesGestionnaire The articles lst perso acces gestionnaire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setArticlesLstPersoAccesGestionnaire($articlesLstPersoAccesGestionnaire) {
         $this->articlesLstPersoAccesGestionnaire = $articlesLstPersoAccesGestionnaire;
@@ -3206,6 +3213,7 @@ class Constantes2 {
      * Set the articles lst perso champs modif.
      *
      * @param bool $articlesLstPersoChampsModif The articles lst perso champs modif.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setArticlesLstPersoChampsModif($articlesLstPersoChampsModif) {
         $this->articlesLstPersoChampsModif = $articlesLstPersoChampsModif;
@@ -3216,6 +3224,7 @@ class Constantes2 {
      * Set the articles lst perso copie colonne.
      *
      * @param bool $articlesLstPersoCopieColonne The articles lst perso copie colonne.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setArticlesLstPersoCopieColonne($articlesLstPersoCopieColonne) {
         $this->articlesLstPersoCopieColonne = $articlesLstPersoCopieColonne;
@@ -3226,6 +3235,7 @@ class Constantes2 {
      * Set the articles lst perso interdire creat.
      *
      * @param bool $articlesLstPersoInterdireCreat The articles lst perso interdire creat.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setArticlesLstPersoInterdireCreat($articlesLstPersoInterdireCreat) {
         $this->articlesLstPersoInterdireCreat = $articlesLstPersoInterdireCreat;
@@ -3236,6 +3246,7 @@ class Constantes2 {
      * Set the asp affectation messages.
      *
      * @param string $aspAffectationMessages The asp affectation messages.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setAspAffectationMessages($aspAffectationMessages) {
         $this->aspAffectationMessages = $aspAffectationMessages;
@@ -3246,6 +3257,7 @@ class Constantes2 {
      * Set the avec heures theo.
      *
      * @param bool $avecHeuresTheo The avec heures theo.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setAvecHeuresTheo($avecHeuresTheo) {
         $this->avecHeuresTheo = $avecHeuresTheo;
@@ -3256,6 +3268,7 @@ class Constantes2 {
      * Set the calcul nombre messages.
      *
      * @param bool $calculNombreMessages The calcul nombre messages.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCalculNombreMessages($calculNombreMessages) {
         $this->calculNombreMessages = $calculNombreMessages;
@@ -3266,6 +3279,7 @@ class Constantes2 {
      * Set the champs critere article21.
      *
      * @param string $champsCritereArticle21 The champs critere article21.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle21($champsCritereArticle21) {
         $this->champsCritereArticle21 = $champsCritereArticle21;
@@ -3276,6 +3290,7 @@ class Constantes2 {
      * Set the champs critere article210.
      *
      * @param string $champsCritereArticle210 The champs critere article210.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle210($champsCritereArticle210) {
         $this->champsCritereArticle210 = $champsCritereArticle210;
@@ -3286,6 +3301,7 @@ class Constantes2 {
      * Set the champs critere article22.
      *
      * @param string $champsCritereArticle22 The champs critere article22.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle22($champsCritereArticle22) {
         $this->champsCritereArticle22 = $champsCritereArticle22;
@@ -3296,6 +3312,7 @@ class Constantes2 {
      * Set the champs critere article23.
      *
      * @param string $champsCritereArticle23 The champs critere article23.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle23($champsCritereArticle23) {
         $this->champsCritereArticle23 = $champsCritereArticle23;
@@ -3306,6 +3323,7 @@ class Constantes2 {
      * Set the champs critere article24.
      *
      * @param string $champsCritereArticle24 The champs critere article24.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle24($champsCritereArticle24) {
         $this->champsCritereArticle24 = $champsCritereArticle24;
@@ -3316,6 +3334,7 @@ class Constantes2 {
      * Set the champs critere article25.
      *
      * @param string $champsCritereArticle25 The champs critere article25.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle25($champsCritereArticle25) {
         $this->champsCritereArticle25 = $champsCritereArticle25;
@@ -3326,6 +3345,7 @@ class Constantes2 {
      * Set the champs critere article26.
      *
      * @param string $champsCritereArticle26 The champs critere article26.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle26($champsCritereArticle26) {
         $this->champsCritereArticle26 = $champsCritereArticle26;
@@ -3336,6 +3356,7 @@ class Constantes2 {
      * Set the champs critere article27.
      *
      * @param string $champsCritereArticle27 The champs critere article27.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle27($champsCritereArticle27) {
         $this->champsCritereArticle27 = $champsCritereArticle27;
@@ -3346,6 +3367,7 @@ class Constantes2 {
      * Set the champs critere article28.
      *
      * @param string $champsCritereArticle28 The champs critere article28.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle28($champsCritereArticle28) {
         $this->champsCritereArticle28 = $champsCritereArticle28;
@@ -3356,6 +3378,7 @@ class Constantes2 {
      * Set the champs critere article29.
      *
      * @param string $champsCritereArticle29 The champs critere article29.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereArticle29($champsCritereArticle29) {
         $this->champsCritereArticle29 = $champsCritereArticle29;
@@ -3366,6 +3389,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac1.
      *
      * @param string $champsCritereEntPieceAc1 The champs critere ent piece ac1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc1($champsCritereEntPieceAc1) {
         $this->champsCritereEntPieceAc1 = $champsCritereEntPieceAc1;
@@ -3376,6 +3400,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac10.
      *
      * @param string $champsCritereEntPieceAc10 The champs critere ent piece ac10.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc10($champsCritereEntPieceAc10) {
         $this->champsCritereEntPieceAc10 = $champsCritereEntPieceAc10;
@@ -3386,6 +3411,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac2.
      *
      * @param string $champsCritereEntPieceAc2 The champs critere ent piece ac2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc2($champsCritereEntPieceAc2) {
         $this->champsCritereEntPieceAc2 = $champsCritereEntPieceAc2;
@@ -3396,6 +3422,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac3.
      *
      * @param string $champsCritereEntPieceAc3 The champs critere ent piece ac3.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc3($champsCritereEntPieceAc3) {
         $this->champsCritereEntPieceAc3 = $champsCritereEntPieceAc3;
@@ -3406,6 +3433,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac4.
      *
      * @param string $champsCritereEntPieceAc4 The champs critere ent piece ac4.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc4($champsCritereEntPieceAc4) {
         $this->champsCritereEntPieceAc4 = $champsCritereEntPieceAc4;
@@ -3416,6 +3444,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac5.
      *
      * @param string $champsCritereEntPieceAc5 The champs critere ent piece ac5.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc5($champsCritereEntPieceAc5) {
         $this->champsCritereEntPieceAc5 = $champsCritereEntPieceAc5;
@@ -3426,6 +3455,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac6.
      *
      * @param string $champsCritereEntPieceAc6 The champs critere ent piece ac6.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc6($champsCritereEntPieceAc6) {
         $this->champsCritereEntPieceAc6 = $champsCritereEntPieceAc6;
@@ -3436,6 +3466,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac7.
      *
      * @param string $champsCritereEntPieceAc7 The champs critere ent piece ac7.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc7($champsCritereEntPieceAc7) {
         $this->champsCritereEntPieceAc7 = $champsCritereEntPieceAc7;
@@ -3446,6 +3477,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac8.
      *
      * @param string $champsCritereEntPieceAc8 The champs critere ent piece ac8.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc8($champsCritereEntPieceAc8) {
         $this->champsCritereEntPieceAc8 = $champsCritereEntPieceAc8;
@@ -3456,6 +3488,7 @@ class Constantes2 {
      * Set the champs critere ent piece ac9.
      *
      * @param string $champsCritereEntPieceAc9 The champs critere ent piece ac9.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setChampsCritereEntPieceAc9($champsCritereEntPieceAc9) {
         $this->champsCritereEntPieceAc9 = $champsCritereEntPieceAc9;
@@ -3466,6 +3499,7 @@ class Constantes2 {
      * Set the cle acces conf.
      *
      * @param string $cleAccesConf The cle acces conf.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCleAccesConf($cleAccesConf) {
         $this->cleAccesConf = $cleAccesConf;
@@ -3476,6 +3510,7 @@ class Constantes2 {
      * Set the cle acces plaquettes.
      *
      * @param string $cleAccesPlaquettes The cle acces plaquettes.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCleAccesPlaquettes($cleAccesPlaquettes) {
         $this->cleAccesPlaquettes = $cleAccesPlaquettes;
@@ -3486,6 +3521,7 @@ class Constantes2 {
      * Set the cle acces q admin db.
      *
      * @param string $cleAccesQAdminDb The cle acces q admin db.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCleAccesQAdminDb($cleAccesQAdminDb) {
         $this->cleAccesQAdminDb = $cleAccesQAdminDb;
@@ -3496,6 +3532,7 @@ class Constantes2 {
      * Set the cloture archivage auto.
      *
      * @param bool $clotureArchivageAuto The cloture archivage auto.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setClotureArchivageAuto($clotureArchivageAuto) {
         $this->clotureArchivageAuto = $clotureArchivageAuto;
@@ -3506,6 +3543,7 @@ class Constantes2 {
      * Set the code client quadratus.
      *
      * @param string $codeClientQuadratus The code client quadratus.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCodeClientQuadratus($codeClientQuadratus) {
         $this->codeClientQuadratus = $codeClientQuadratus;
@@ -3516,6 +3554,7 @@ class Constantes2 {
      * Set the compteur fil discussion.
      *
      * @param int $compteurFilDiscussion The compteur fil discussion.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCompteurFilDiscussion($compteurFilDiscussion) {
         $this->compteurFilDiscussion = $compteurFilDiscussion;
@@ -3526,6 +3565,7 @@ class Constantes2 {
      * Set the confidentialite affaire.
      *
      * @param bool $confidentialiteAffaire The confidentialite affaire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setConfidentialiteAffaire($confidentialiteAffaire) {
         $this->confidentialiteAffaire = $confidentialiteAffaire;
@@ -3536,6 +3576,7 @@ class Constantes2 {
      * Set the cout moyen horaire.
      *
      * @param float $coutMoyenHoraire The cout moyen horaire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCoutMoyenHoraire($coutMoyenHoraire) {
         $this->coutMoyenHoraire = $coutMoyenHoraire;
@@ -3546,6 +3587,7 @@ class Constantes2 {
      * Set the create cli1 fact par bl.
      *
      * @param bool $createCli1FactParBl The create cli1 fact par bl.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCreateCli1FactParBl($createCli1FactParBl) {
         $this->createCli1FactParBl = $createCli1FactParBl;
@@ -3556,6 +3598,7 @@ class Constantes2 {
      * Set the creation affaire.
      *
      * @param bool $creationAffaire The creation affaire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setCreationAffaire($creationAffaire) {
         $this->creationAffaire = $creationAffaire;
@@ -3566,6 +3609,7 @@ class Constantes2 {
      * Set the date dha.
      *
      * @param DateTime|null $dateDha The date dha.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setDateDha(DateTime $dateDha = null) {
         $this->dateDha = $dateDha;
@@ -3576,6 +3620,7 @@ class Constantes2 {
      * Set the date last exe qpub web.
      *
      * @param DateTime|null $dateLastExeQpubWeb The date last exe qpub web.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setDateLastExeQpubWeb(DateTime $dateLastExeQpubWeb = null) {
         $this->dateLastExeQpubWeb = $dateLastExeQpubWeb;
@@ -3586,6 +3631,7 @@ class Constantes2 {
      * Set the date pha.
      *
      * @param DateTime|null $datePha The date pha.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setDatePha(DateTime $datePha = null) {
         $this->datePha = $datePha;
@@ -3596,6 +3642,7 @@ class Constantes2 {
      * Set the derniere version cd.
      *
      * @param string $derniereVersionCd The derniere version cd.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setDerniereVersionCd($derniereVersionCd) {
         $this->derniereVersionCd = $derniereVersionCd;
@@ -3606,6 +3653,7 @@ class Constantes2 {
      * Set the droit collab visu documents.
      *
      * @param bool $droitCollabVisuDocuments The droit collab visu documents.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setDroitCollabVisuDocuments($droitCollabVisuDocuments) {
         $this->droitCollabVisuDocuments = $droitCollabVisuDocuments;
@@ -3616,6 +3664,7 @@ class Constantes2 {
      * Set the ech detail aff.
      *
      * @param bool $echDetailAff The ech detail aff.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setEchDetailAff($echDetailAff) {
         $this->echDetailAff = $echDetailAff;
@@ -3626,6 +3675,7 @@ class Constantes2 {
      * Set the etebac dest message.
      *
      * @param string $etebacDestMessage The etebac dest message.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setEtebacDestMessage($etebacDestMessage) {
         $this->etebacDestMessage = $etebacDestMessage;
@@ -3636,6 +3686,7 @@ class Constantes2 {
      * Set the f gsur ac.
      *
      * @param bool $fGsurAc The f gsur ac.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setFGsurAc($fGsurAc) {
         $this->fGsurAc = $fGsurAc;
@@ -3646,6 +3697,7 @@ class Constantes2 {
      * Set the f gsur monf.
      *
      * @param bool $fGsurMonf The f gsur monf.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setFGsurMonf($fGsurMonf) {
         $this->fGsurMonf = $fGsurMonf;
@@ -3656,6 +3708,7 @@ class Constantes2 {
      * Set the familles liees.
      *
      * @param bool $famillesLiees The familles liees.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setFamillesLiees($famillesLiees) {
         $this->famillesLiees = $famillesLiees;
@@ -3666,6 +3719,7 @@ class Constantes2 {
      * Set the fg sur cde frn.
      *
      * @param bool $fgSurCdeFrn The fg sur cde frn.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setFgSurCdeFrn($fgSurCdeFrn) {
         $this->fgSurCdeFrn = $fgSurCdeFrn;
@@ -3676,6 +3730,7 @@ class Constantes2 {
      * Set the fiche cli ne pas proposer creation dpdc.
      *
      * @param bool $ficheCliNePasProposerCreationDpdc The fiche cli ne pas proposer creation dpdc.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setFicheCliNePasProposerCreationDpdc($ficheCliNePasProposerCreationDpdc) {
         $this->ficheCliNePasProposerCreationDpdc = $ficheCliNePasProposerCreationDpdc;
@@ -3686,6 +3741,7 @@ class Constantes2 {
      * Set the gestion gammes.
      *
      * @param bool $gestionGammes The gestion gammes.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setGestionGammes($gestionGammes) {
         $this->gestionGammes = $gestionGammes;
@@ -3696,6 +3752,7 @@ class Constantes2 {
      * Set the gestion pointeuse q fact.
      *
      * @param bool $gestionPointeuseQFact The gestion pointeuse q fact.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setGestionPointeuseQFact($gestionPointeuseQFact) {
         $this->gestionPointeuseQFact = $gestionPointeuseQFact;
@@ -3706,6 +3763,7 @@ class Constantes2 {
      * Set the gestion pointeuse qc.
      *
      * @param bool $gestionPointeuseQc The gestion pointeuse qc.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setGestionPointeuseQc($gestionPointeuseQc) {
         $this->gestionPointeuseQc = $gestionPointeuseQc;
@@ -3716,6 +3774,7 @@ class Constantes2 {
      * Set the gestion pointeuse qgi.
      *
      * @param bool $gestionPointeuseQgi The gestion pointeuse qgi.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setGestionPointeuseQgi($gestionPointeuseQgi) {
         $this->gestionPointeuseQgi = $gestionPointeuseQgi;
@@ -3726,6 +3785,7 @@ class Constantes2 {
      * Set the gestion pointeuse qp.
      *
      * @param bool $gestionPointeuseQp The gestion pointeuse qp.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setGestionPointeuseQp($gestionPointeuseQp) {
         $this->gestionPointeuseQp = $gestionPointeuseQp;
@@ -3736,6 +3796,7 @@ class Constantes2 {
      * Set the gestion tarifs transporteurs.
      *
      * @param bool $gestionTarifsTransporteurs The gestion tarifs transporteurs.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setGestionTarifsTransporteurs($gestionTarifsTransporteurs) {
         $this->gestionTarifsTransporteurs = $gestionTarifsTransporteurs;
@@ -3746,6 +3807,7 @@ class Constantes2 {
      * Set the gestion tarifs transporteurs nb dec.
      *
      * @param int $gestionTarifsTransporteursNbDec The gestion tarifs transporteurs nb dec.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setGestionTarifsTransporteursNbDec($gestionTarifsTransporteursNbDec) {
         $this->gestionTarifsTransporteursNbDec = $gestionTarifsTransporteursNbDec;
@@ -3756,6 +3818,7 @@ class Constantes2 {
      * Set the gestion variantes.
      *
      * @param bool $gestionVariantes The gestion variantes.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setGestionVariantes($gestionVariantes) {
         $this->gestionVariantes = $gestionVariantes;
@@ -3766,6 +3829,7 @@ class Constantes2 {
      * Set the ht avec jours feries.
      *
      * @param bool $htAvecJoursFeries The ht avec jours feries.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setHtAvecJoursFeries($htAvecJoursFeries) {
         $this->htAvecJoursFeries = $htAvecJoursFeries;
@@ -3776,6 +3840,7 @@ class Constantes2 {
      * Set the ht avec saisie conges.
      *
      * @param bool $htAvecSaisieConges The ht avec saisie conges.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setHtAvecSaisieConges($htAvecSaisieConges) {
         $this->htAvecSaisieConges = $htAvecSaisieConges;
@@ -3786,6 +3851,7 @@ class Constantes2 {
      * Set the ht avec saisie conges codes clients.
      *
      * @param string $htAvecSaisieCongesCodesClients The ht avec saisie conges codes clients.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setHtAvecSaisieCongesCodesClients($htAvecSaisieCongesCodesClients) {
         $this->htAvecSaisieCongesCodesClients = $htAvecSaisieCongesCodesClients;
@@ -3796,6 +3862,7 @@ class Constantes2 {
      * Set the ht avec saisie conges codes taches.
      *
      * @param string $htAvecSaisieCongesCodesTaches The ht avec saisie conges codes taches.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setHtAvecSaisieCongesCodesTaches($htAvecSaisieCongesCodesTaches) {
         $this->htAvecSaisieCongesCodesTaches = $htAvecSaisieCongesCodesTaches;
@@ -3806,6 +3873,7 @@ class Constantes2 {
      * Set the increm auto article.
      *
      * @param bool $incremAutoArticle The increm auto article.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setIncremAutoArticle($incremAutoArticle) {
         $this->incremAutoArticle = $incremAutoArticle;
@@ -3816,6 +3884,7 @@ class Constantes2 {
      * Set the interdire acces archives cpta.
      *
      * @param bool $interdireAccesArchivesCpta The interdire acces archives cpta.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setInterdireAccesArchivesCpta($interdireAccesArchivesCpta) {
         $this->interdireAccesArchivesCpta = $interdireAccesArchivesCpta;
@@ -3826,6 +3895,7 @@ class Constantes2 {
      * Set the interdire acces archives paie.
      *
      * @param bool $interdireAccesArchivesPaie The interdire acces archives paie.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setInterdireAccesArchivesPaie($interdireAccesArchivesPaie) {
         $this->interdireAccesArchivesPaie = $interdireAccesArchivesPaie;
@@ -3836,6 +3906,7 @@ class Constantes2 {
      * Set the interdire acces edition balance.
      *
      * @param bool $interdireAccesEditionBalance The interdire acces edition balance.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setInterdireAccesEditionBalance($interdireAccesEditionBalance) {
         $this->interdireAccesEditionBalance = $interdireAccesEditionBalance;
@@ -3846,6 +3917,7 @@ class Constantes2 {
      * Set the interdire acces supp doc arch.
      *
      * @param bool $interdireAccesSuppDocArch The interdire acces supp doc arch.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setInterdireAccesSuppDocArch($interdireAccesSuppDocArch) {
         $this->interdireAccesSuppDocArch = $interdireAccesSuppDocArch;
@@ -3856,6 +3928,7 @@ class Constantes2 {
      * Set the interdire publi doc web.
      *
      * @param bool $interdirePubliDocWeb The interdire publi doc web.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setInterdirePubliDocWeb($interdirePubliDocWeb) {
         $this->interdirePubliDocWeb = $interdirePubliDocWeb;
@@ -3866,6 +3939,7 @@ class Constantes2 {
      * Set the ip prive qws.
      *
      * @param string $ipPriveQws The ip prive qws.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setIpPriveQws($ipPriveQws) {
         $this->ipPriveQws = $ipPriveQws;
@@ -3876,6 +3950,7 @@ class Constantes2 {
      * Set the liaison tda.
      *
      * @param bool $liaisonTda The liaison tda.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLiaisonTda($liaisonTda) {
         $this->liaisonTda = $liaisonTda;
@@ -3886,6 +3961,7 @@ class Constantes2 {
      * Set the lib affectation frn1.
      *
      * @param string $libAffectationFrn1 The lib affectation frn1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibAffectationFrn1($libAffectationFrn1) {
         $this->libAffectationFrn1 = $libAffectationFrn1;
@@ -3896,6 +3972,7 @@ class Constantes2 {
      * Set the lib affectation frn2.
      *
      * @param string $libAffectationFrn2 The lib affectation frn2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibAffectationFrn2($libAffectationFrn2) {
         $this->libAffectationFrn2 = $libAffectationFrn2;
@@ -3906,6 +3983,7 @@ class Constantes2 {
      * Set the lib affectation frn3.
      *
      * @param string $libAffectationFrn3 The lib affectation frn3.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibAffectationFrn3($libAffectationFrn3) {
         $this->libAffectationFrn3 = $libAffectationFrn3;
@@ -3916,6 +3994,7 @@ class Constantes2 {
      * Set the lib affectation frn4.
      *
      * @param string $libAffectationFrn4 The lib affectation frn4.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibAffectationFrn4($libAffectationFrn4) {
         $this->libAffectationFrn4 = $libAffectationFrn4;
@@ -3926,6 +4005,7 @@ class Constantes2 {
      * Set the lib affectation frn5.
      *
      * @param string $libAffectationFrn5 The lib affectation frn5.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibAffectationFrn5($libAffectationFrn5) {
         $this->libAffectationFrn5 = $libAffectationFrn5;
@@ -3936,6 +4016,7 @@ class Constantes2 {
      * Set the lib affectation frn6.
      *
      * @param string $libAffectationFrn6 The lib affectation frn6.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibAffectationFrn6($libAffectationFrn6) {
         $this->libAffectationFrn6 = $libAffectationFrn6;
@@ -3946,6 +4027,7 @@ class Constantes2 {
      * Set the lib affectation frn7.
      *
      * @param string $libAffectationFrn7 The lib affectation frn7.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibAffectationFrn7($libAffectationFrn7) {
         $this->libAffectationFrn7 = $libAffectationFrn7;
@@ -3956,6 +4038,7 @@ class Constantes2 {
      * Set the lib critere article21.
      *
      * @param string $libCritereArticle21 The lib critere article21.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle21($libCritereArticle21) {
         $this->libCritereArticle21 = $libCritereArticle21;
@@ -3966,6 +4049,7 @@ class Constantes2 {
      * Set the lib critere article210.
      *
      * @param string $libCritereArticle210 The lib critere article210.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle210($libCritereArticle210) {
         $this->libCritereArticle210 = $libCritereArticle210;
@@ -3976,6 +4060,7 @@ class Constantes2 {
      * Set the lib critere article22.
      *
      * @param string $libCritereArticle22 The lib critere article22.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle22($libCritereArticle22) {
         $this->libCritereArticle22 = $libCritereArticle22;
@@ -3986,6 +4071,7 @@ class Constantes2 {
      * Set the lib critere article23.
      *
      * @param string $libCritereArticle23 The lib critere article23.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle23($libCritereArticle23) {
         $this->libCritereArticle23 = $libCritereArticle23;
@@ -3996,6 +4082,7 @@ class Constantes2 {
      * Set the lib critere article24.
      *
      * @param string $libCritereArticle24 The lib critere article24.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle24($libCritereArticle24) {
         $this->libCritereArticle24 = $libCritereArticle24;
@@ -4006,6 +4093,7 @@ class Constantes2 {
      * Set the lib critere article25.
      *
      * @param string $libCritereArticle25 The lib critere article25.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle25($libCritereArticle25) {
         $this->libCritereArticle25 = $libCritereArticle25;
@@ -4016,6 +4104,7 @@ class Constantes2 {
      * Set the lib critere article26.
      *
      * @param string $libCritereArticle26 The lib critere article26.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle26($libCritereArticle26) {
         $this->libCritereArticle26 = $libCritereArticle26;
@@ -4026,6 +4115,7 @@ class Constantes2 {
      * Set the lib critere article27.
      *
      * @param string $libCritereArticle27 The lib critere article27.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle27($libCritereArticle27) {
         $this->libCritereArticle27 = $libCritereArticle27;
@@ -4036,6 +4126,7 @@ class Constantes2 {
      * Set the lib critere article28.
      *
      * @param string $libCritereArticle28 The lib critere article28.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle28($libCritereArticle28) {
         $this->libCritereArticle28 = $libCritereArticle28;
@@ -4046,6 +4137,7 @@ class Constantes2 {
      * Set the lib critere article29.
      *
      * @param string $libCritereArticle29 The lib critere article29.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereArticle29($libCritereArticle29) {
         $this->libCritereArticle29 = $libCritereArticle29;
@@ -4056,6 +4148,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac1.
      *
      * @param string $libCritereEntPieceAc1 The lib critere ent piece ac1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc1($libCritereEntPieceAc1) {
         $this->libCritereEntPieceAc1 = $libCritereEntPieceAc1;
@@ -4066,6 +4159,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac10.
      *
      * @param string $libCritereEntPieceAc10 The lib critere ent piece ac10.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc10($libCritereEntPieceAc10) {
         $this->libCritereEntPieceAc10 = $libCritereEntPieceAc10;
@@ -4076,6 +4170,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac2.
      *
      * @param string $libCritereEntPieceAc2 The lib critere ent piece ac2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc2($libCritereEntPieceAc2) {
         $this->libCritereEntPieceAc2 = $libCritereEntPieceAc2;
@@ -4086,6 +4181,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac3.
      *
      * @param string $libCritereEntPieceAc3 The lib critere ent piece ac3.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc3($libCritereEntPieceAc3) {
         $this->libCritereEntPieceAc3 = $libCritereEntPieceAc3;
@@ -4096,6 +4192,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac4.
      *
      * @param string $libCritereEntPieceAc4 The lib critere ent piece ac4.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc4($libCritereEntPieceAc4) {
         $this->libCritereEntPieceAc4 = $libCritereEntPieceAc4;
@@ -4106,6 +4203,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac5.
      *
      * @param string $libCritereEntPieceAc5 The lib critere ent piece ac5.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc5($libCritereEntPieceAc5) {
         $this->libCritereEntPieceAc5 = $libCritereEntPieceAc5;
@@ -4116,6 +4214,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac6.
      *
      * @param string $libCritereEntPieceAc6 The lib critere ent piece ac6.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc6($libCritereEntPieceAc6) {
         $this->libCritereEntPieceAc6 = $libCritereEntPieceAc6;
@@ -4126,6 +4225,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac7.
      *
      * @param string $libCritereEntPieceAc7 The lib critere ent piece ac7.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc7($libCritereEntPieceAc7) {
         $this->libCritereEntPieceAc7 = $libCritereEntPieceAc7;
@@ -4136,6 +4236,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac8.
      *
      * @param string $libCritereEntPieceAc8 The lib critere ent piece ac8.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc8($libCritereEntPieceAc8) {
         $this->libCritereEntPieceAc8 = $libCritereEntPieceAc8;
@@ -4146,6 +4247,7 @@ class Constantes2 {
      * Set the lib critere ent piece ac9.
      *
      * @param string $libCritereEntPieceAc9 The lib critere ent piece ac9.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibCritereEntPieceAc9($libCritereEntPieceAc9) {
         $this->libCritereEntPieceAc9 = $libCritereEntPieceAc9;
@@ -4156,6 +4258,7 @@ class Constantes2 {
      * Set the lib frais1.
      *
      * @param string $libFrais1 The lib frais1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibFrais1($libFrais1) {
         $this->libFrais1 = $libFrais1;
@@ -4166,6 +4269,7 @@ class Constantes2 {
      * Set the lib frais2.
      *
      * @param string $libFrais2 The lib frais2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibFrais2($libFrais2) {
         $this->libFrais2 = $libFrais2;
@@ -4176,6 +4280,7 @@ class Constantes2 {
      * Set the lib frais3.
      *
      * @param string $libFrais3 The lib frais3.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibFrais3($libFrais3) {
         $this->libFrais3 = $libFrais3;
@@ -4186,6 +4291,7 @@ class Constantes2 {
      * Set the libelle gamme.
      *
      * @param string $libelleGamme The libelle gamme.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibelleGamme($libelleGamme) {
         $this->libelleGamme = $libelleGamme;
@@ -4196,6 +4302,7 @@ class Constantes2 {
      * Set the libelle variante.
      *
      * @param string $libelleVariante The libelle variante.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLibelleVariante($libelleVariante) {
         $this->libelleVariante = $libelleVariante;
@@ -4206,6 +4313,7 @@ class Constantes2 {
      * Set the longueur num aff.
      *
      * @param int $longueurNumAff The longueur num aff.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setLongueurNumAff($longueurNumAff) {
         $this->longueurNumAff = $longueurNumAff;
@@ -4216,6 +4324,7 @@ class Constantes2 {
      * Set the maj codes activite cga.
      *
      * @param string $majCodesActiviteCga The maj codes activite cga.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setMajCodesActiviteCga($majCodesActiviteCga) {
         $this->majCodesActiviteCga = $majCodesActiviteCga;
@@ -4226,6 +4335,7 @@ class Constantes2 {
      * Set the mess aspod.
      *
      * @param bool $messAspod The mess aspod.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setMessAspod($messAspod) {
         $this->messAspod = $messAspod;
@@ -4236,6 +4346,7 @@ class Constantes2 {
      * Set the modif affaire.
      *
      * @param string $modifAffaire The modif affaire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setModifAffaire($modifAffaire) {
         $this->modifAffaire = $modifAffaire;
@@ -4246,6 +4357,7 @@ class Constantes2 {
      * Set the modif droits asp.
      *
      * @param bool $modifDroitsAsp The modif droits asp.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setModifDroitsAsp($modifDroitsAsp) {
         $this->modifDroitsAsp = $modifDroitsAsp;
@@ -4256,6 +4368,7 @@ class Constantes2 {
      * Set the nb max gamme.
      *
      * @param int $nbMaxGamme The nb max gamme.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNbMaxGamme($nbMaxGamme) {
         $this->nbMaxGamme = $nbMaxGamme;
@@ -4266,6 +4379,7 @@ class Constantes2 {
      * Set the ne pas creer cpt cli.
      *
      * @param bool $nePasCreerCptCli The ne pas creer cpt cli.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNePasCreerCptCli($nePasCreerCptCli) {
         $this->nePasCreerCptCli = $nePasCreerCptCli;
@@ -4276,6 +4390,7 @@ class Constantes2 {
      * Set the ne pas creer cpt frn.
      *
      * @param bool $nePasCreerCptFrn The ne pas creer cpt frn.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNePasCreerCptFrn($nePasCreerCptFrn) {
         $this->nePasCreerCptFrn = $nePasCreerCptFrn;
@@ -4286,6 +4401,7 @@ class Constantes2 {
      * Set the new db infos.
      *
      * @param bool $newDbInfos The new db infos.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNewDbInfos($newDbInfos) {
         $this->newDbInfos = $newDbInfos;
@@ -4296,6 +4412,7 @@ class Constantes2 {
      * Set the new q bureau.
      *
      * @param bool $newQBureau The new q bureau.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNewQBureau($newQBureau) {
         $this->newQBureau = $newQBureau;
@@ -4306,6 +4423,7 @@ class Constantes2 {
      * Set the no doss fact cab.
      *
      * @param string $noDossFactCab The no doss fact cab.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNoDossFactCab($noDossFactCab) {
         $this->noDossFactCab = $noDossFactCab;
@@ -4316,6 +4434,7 @@ class Constantes2 {
      * Set the pas de lien comptabilite.
      *
      * @param bool $pasDeLienComptabilite The pas de lien comptabilite.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setPasDeLienComptabilite($pasDeLienComptabilite) {
         $this->pasDeLienComptabilite = $pasDeLienComptabilite;
@@ -4326,6 +4445,7 @@ class Constantes2 {
      * Set the pme dossier rattachement.
      *
      * @param string $pmeDossierRattachement The pme dossier rattachement.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setPmeDossierRattachement($pmeDossierRattachement) {
         $this->pmeDossierRattachement = $pmeDossierRattachement;
@@ -4336,6 +4456,7 @@ class Constantes2 {
      * Set the prefixe code client.
      *
      * @param string $prefixeCodeClient The prefixe code client.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setPrefixeCodeClient($prefixeCodeClient) {
         $this->prefixeCodeClient = $prefixeCodeClient;
@@ -4346,6 +4467,7 @@ class Constantes2 {
      * Set the prochain code client.
      *
      * @param string $prochainCodeClient The prochain code client.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setProchainCodeClient($prochainCodeClient) {
         $this->prochainCodeClient = $prochainCodeClient;
@@ -4356,6 +4478,7 @@ class Constantes2 {
      * Set the proxy actif.
      *
      * @param bool $proxyActif The proxy actif.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setProxyActif($proxyActif) {
         $this->proxyActif = $proxyActif;
@@ -4366,6 +4489,7 @@ class Constantes2 {
      * Set the proxy adresse.
      *
      * @param string $proxyAdresse The proxy adresse.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setProxyAdresse($proxyAdresse) {
         $this->proxyAdresse = $proxyAdresse;
@@ -4376,6 +4500,7 @@ class Constantes2 {
      * Set the proxy port.
      *
      * @param int $proxyPort The proxy port.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setProxyPort($proxyPort) {
         $this->proxyPort = $proxyPort;
@@ -4386,6 +4511,7 @@ class Constantes2 {
      * Set the q pub web code collaborateur dest.
      *
      * @param string $qPubWebCodeCollaborateurDest The q pub web code collaborateur dest.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setQPubWebCodeCollaborateurDest($qPubWebCodeCollaborateurDest) {
         $this->qPubWebCodeCollaborateurDest = $qPubWebCodeCollaborateurDest;
@@ -4396,6 +4522,7 @@ class Constantes2 {
      * Set the qws chemin logo.
      *
      * @param string $qwsCheminLogo The qws chemin logo.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setQwsCheminLogo($qwsCheminLogo) {
         $this->qwsCheminLogo = $qwsCheminLogo;
@@ -4406,6 +4533,7 @@ class Constantes2 {
      * Set the qws code ipl.
      *
      * @param string $qwsCodeIpl The qws code ipl.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setQwsCodeIpl($qwsCodeIpl) {
         $this->qwsCodeIpl = $qwsCodeIpl;
@@ -4416,6 +4544,7 @@ class Constantes2 {
      * Set the qws http securise.
      *
      * @param bool $qwsHttpSecurise The qws http securise.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setQwsHttpSecurise($qwsHttpSecurise) {
         $this->qwsHttpSecurise = $qwsHttpSecurise;
@@ -4426,6 +4555,7 @@ class Constantes2 {
      * Set the qws nom produit.
      *
      * @param string $qwsNomProduit The qws nom produit.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setQwsNomProduit($qwsNomProduit) {
         $this->qwsNomProduit = $qwsNomProduit;
@@ -4436,6 +4566,7 @@ class Constantes2 {
      * Set the qws utiliser logo cabinet.
      *
      * @param bool $qwsUtiliserLogoCabinet The qws utiliser logo cabinet.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setQwsUtiliserLogoCabinet($qwsUtiliserLogoCabinet) {
         $this->qwsUtiliserLogoCabinet = $qwsUtiliserLogoCabinet;
@@ -4446,6 +4577,7 @@ class Constantes2 {
      * Set the qwsipl.
      *
      * @param string $qwsipl The qwsipl.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setQwsipl($qwsipl) {
         $this->qwsipl = $qwsipl;
@@ -4456,6 +4588,7 @@ class Constantes2 {
      * Set the rac data paie.
      *
      * @param string $racDataPaie The rac data paie.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setRacDataPaie($racDataPaie) {
         $this->racDataPaie = $racDataPaie;
@@ -4466,6 +4599,7 @@ class Constantes2 {
      * Set the rapport q infos.
      *
      * @param string $rapportQInfos The rapport q infos.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setRapportQInfos($rapportQInfos) {
         $this->rapportQInfos = $rapportQInfos;
@@ -4476,6 +4610,7 @@ class Constantes2 {
      * Set the req demandeur.
      *
      * @param string $reqDemandeur The req demandeur.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setReqDemandeur($reqDemandeur) {
         $this->reqDemandeur = $reqDemandeur;
@@ -4486,6 +4621,7 @@ class Constantes2 {
      * Set the saisie propriete mess.
      *
      * @param int $saisieProprieteMess The saisie propriete mess.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSaisieProprieteMess($saisieProprieteMess) {
         $this->saisieProprieteMess = $saisieProprieteMess;
@@ -4496,6 +4632,7 @@ class Constantes2 {
      * Set the saisie regl direct.
      *
      * @param bool $saisieReglDirect The saisie regl direct.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSaisieReglDirect($saisieReglDirect) {
         $this->saisieReglDirect = $saisieReglDirect;
@@ -4506,6 +4643,7 @@ class Constantes2 {
      * Set the saisie temps nb j apres.
      *
      * @param int $saisieTempsNbJApres The saisie temps nb j apres.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSaisieTempsNbJApres($saisieTempsNbJApres) {
         $this->saisieTempsNbJApres = $saisieTempsNbJApres;
@@ -4516,6 +4654,7 @@ class Constantes2 {
      * Set the saisie temps nb j avant.
      *
      * @param int $saisieTempsNbJAvant The saisie temps nb j avant.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSaisieTempsNbJAvant($saisieTempsNbJAvant) {
         $this->saisieTempsNbJAvant = $saisieTempsNbJAvant;
@@ -4526,6 +4665,7 @@ class Constantes2 {
      * Set the saisie tp ne pas afficher dp.
      *
      * @param bool $saisieTpNePasAfficherDp The saisie tp ne pas afficher dp.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSaisieTpNePasAfficherDp($saisieTpNePasAfficherDp) {
         $this->saisieTpNePasAfficherDp = $saisieTpNePasAfficherDp;
@@ -4536,6 +4676,7 @@ class Constantes2 {
      * Set the saisie tp onglet unique dp.
      *
      * @param bool $saisieTpOngletUniqueDp The saisie tp onglet unique dp.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSaisieTpOngletUniqueDp($saisieTpOngletUniqueDp) {
         $this->saisieTpOngletUniqueDp = $saisieTpOngletUniqueDp;
@@ -4546,6 +4687,7 @@ class Constantes2 {
      * Set the saisie tp onglet unique tn.
      *
      * @param bool $saisieTpOngletUniqueTn The saisie tp onglet unique tn.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSaisieTpOngletUniqueTn($saisieTpOngletUniqueTn) {
         $this->saisieTpOngletUniqueTn = $saisieTpOngletUniqueTn;
@@ -4556,6 +4698,7 @@ class Constantes2 {
      * Set the save histo memo2 file.
      *
      * @param bool $saveHistoMemo2File The save histo memo2 file.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSaveHistoMemo2File($saveHistoMemo2File) {
         $this->saveHistoMemo2File = $saveHistoMemo2File;
@@ -4566,6 +4709,7 @@ class Constantes2 {
      * Set the sel av lst perso acces gestion modifiables.
      *
      * @param bool $selAvLstPersoAccesGestionModifiables The sel av lst perso acces gestion modifiables.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSelAvLstPersoAccesGestionModifiables($selAvLstPersoAccesGestionModifiables) {
         $this->selAvLstPersoAccesGestionModifiables = $selAvLstPersoAccesGestionModifiables;
@@ -4576,6 +4720,7 @@ class Constantes2 {
      * Set the sel av lst perso acces gestionnaire.
      *
      * @param bool $selAvLstPersoAccesGestionnaire The sel av lst perso acces gestionnaire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSelAvLstPersoAccesGestionnaire($selAvLstPersoAccesGestionnaire) {
         $this->selAvLstPersoAccesGestionnaire = $selAvLstPersoAccesGestionnaire;
@@ -4586,6 +4731,7 @@ class Constantes2 {
      * Set the sel av lst perso champs modif.
      *
      * @param bool $selAvLstPersoChampsModif The sel av lst perso champs modif.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSelAvLstPersoChampsModif($selAvLstPersoChampsModif) {
         $this->selAvLstPersoChampsModif = $selAvLstPersoChampsModif;
@@ -4596,6 +4742,7 @@ class Constantes2 {
      * Set the sel av lst perso copie colonne.
      *
      * @param bool $selAvLstPersoCopieColonne The sel av lst perso copie colonne.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSelAvLstPersoCopieColonne($selAvLstPersoCopieColonne) {
         $this->selAvLstPersoCopieColonne = $selAvLstPersoCopieColonne;
@@ -4606,6 +4753,7 @@ class Constantes2 {
      * Set the sel av lst perso interdire creat.
      *
      * @param bool $selAvLstPersoInterdireCreat The sel av lst perso interdire creat.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSelAvLstPersoInterdireCreat($selAvLstPersoInterdireCreat) {
         $this->selAvLstPersoInterdireCreat = $selAvLstPersoInterdireCreat;
@@ -4616,6 +4764,7 @@ class Constantes2 {
      * Set the sms api key.
      *
      * @param string $smsApiKey The sms api key.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSmsApiKey($smsApiKey) {
         $this->smsApiKey = $smsApiKey;
@@ -4626,6 +4775,7 @@ class Constantes2 {
      * Set the sms droit acces.
      *
      * @param bool $smsDroitAcces The sms droit acces.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSmsDroitAcces($smsDroitAcces) {
         $this->smsDroitAcces = $smsDroitAcces;
@@ -4636,6 +4786,7 @@ class Constantes2 {
      * Set the sms key.
      *
      * @param string $smsKey The sms key.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSmsKey($smsKey) {
         $this->smsKey = $smsKey;
@@ -4646,6 +4797,7 @@ class Constantes2 {
      * Set the sms prestataire.
      *
      * @param string $smsPrestataire The sms prestataire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSmsPrestataire($smsPrestataire) {
         $this->smsPrestataire = $smsPrestataire;
@@ -4656,6 +4808,7 @@ class Constantes2 {
      * Set the sms sender.
      *
      * @param string $smsSender The sms sender.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSmsSender($smsSender) {
         $this->smsSender = $smsSender;
@@ -4666,6 +4819,7 @@ class Constantes2 {
      * Set the sms type.
      *
      * @param int $smsType The sms type.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSmsType($smsType) {
         $this->smsType = $smsType;
@@ -4676,6 +4830,7 @@ class Constantes2 {
      * Set the sms user login.
      *
      * @param string $smsUserLogin The sms user login.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSmsUserLogin($smsUserLogin) {
         $this->smsUserLogin = $smsUserLogin;
@@ -4686,6 +4841,7 @@ class Constantes2 {
      * Set the solde cpta od.
      *
      * @param bool $soldeCptaOd The solde cpta od.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSoldeCptaOd($soldeCptaOd) {
         $this->soldeCptaOd = $soldeCptaOd;
@@ -4696,6 +4852,7 @@ class Constantes2 {
      * Set the suivi client intitule generic1.
      *
      * @param string $suiviClientIntituleGeneric1 The suivi client intitule generic1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric1($suiviClientIntituleGeneric1) {
         $this->suiviClientIntituleGeneric1 = $suiviClientIntituleGeneric1;
@@ -4706,6 +4863,7 @@ class Constantes2 {
      * Set the suivi client intitule generic10.
      *
      * @param string $suiviClientIntituleGeneric10 The suivi client intitule generic10.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric10($suiviClientIntituleGeneric10) {
         $this->suiviClientIntituleGeneric10 = $suiviClientIntituleGeneric10;
@@ -4716,6 +4874,7 @@ class Constantes2 {
      * Set the suivi client intitule generic2.
      *
      * @param string $suiviClientIntituleGeneric2 The suivi client intitule generic2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric2($suiviClientIntituleGeneric2) {
         $this->suiviClientIntituleGeneric2 = $suiviClientIntituleGeneric2;
@@ -4726,6 +4885,7 @@ class Constantes2 {
      * Set the suivi client intitule generic3.
      *
      * @param string $suiviClientIntituleGeneric3 The suivi client intitule generic3.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric3($suiviClientIntituleGeneric3) {
         $this->suiviClientIntituleGeneric3 = $suiviClientIntituleGeneric3;
@@ -4736,6 +4896,7 @@ class Constantes2 {
      * Set the suivi client intitule generic4.
      *
      * @param string $suiviClientIntituleGeneric4 The suivi client intitule generic4.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric4($suiviClientIntituleGeneric4) {
         $this->suiviClientIntituleGeneric4 = $suiviClientIntituleGeneric4;
@@ -4746,6 +4907,7 @@ class Constantes2 {
      * Set the suivi client intitule generic5.
      *
      * @param string $suiviClientIntituleGeneric5 The suivi client intitule generic5.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric5($suiviClientIntituleGeneric5) {
         $this->suiviClientIntituleGeneric5 = $suiviClientIntituleGeneric5;
@@ -4756,6 +4918,7 @@ class Constantes2 {
      * Set the suivi client intitule generic6.
      *
      * @param string $suiviClientIntituleGeneric6 The suivi client intitule generic6.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric6($suiviClientIntituleGeneric6) {
         $this->suiviClientIntituleGeneric6 = $suiviClientIntituleGeneric6;
@@ -4766,6 +4929,7 @@ class Constantes2 {
      * Set the suivi client intitule generic7.
      *
      * @param string $suiviClientIntituleGeneric7 The suivi client intitule generic7.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric7($suiviClientIntituleGeneric7) {
         $this->suiviClientIntituleGeneric7 = $suiviClientIntituleGeneric7;
@@ -4776,6 +4940,7 @@ class Constantes2 {
      * Set the suivi client intitule generic8.
      *
      * @param string $suiviClientIntituleGeneric8 The suivi client intitule generic8.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric8($suiviClientIntituleGeneric8) {
         $this->suiviClientIntituleGeneric8 = $suiviClientIntituleGeneric8;
@@ -4786,6 +4951,7 @@ class Constantes2 {
      * Set the suivi client intitule generic9.
      *
      * @param string $suiviClientIntituleGeneric9 The suivi client intitule generic9.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setSuiviClientIntituleGeneric9($suiviClientIntituleGeneric9) {
         $this->suiviClientIntituleGeneric9 = $suiviClientIntituleGeneric9;
@@ -4796,6 +4962,7 @@ class Constantes2 {
      * Set the tp acces encours client.
      *
      * @param bool $tpAccesEncoursClient The tp acces encours client.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpAccesEncoursClient($tpAccesEncoursClient) {
         $this->tpAccesEncoursClient = $tpAccesEncoursClient;
@@ -4806,6 +4973,7 @@ class Constantes2 {
      * Set the tp avancement a la ligne.
      *
      * @param bool $tpAvancementALaLigne The tp avancement a la ligne.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpAvancementALaLigne($tpAvancementALaLigne) {
         $this->tpAvancementALaLigne = $tpAvancementALaLigne;
@@ -4816,6 +4984,7 @@ class Constantes2 {
      * Set the tp interdit qte.
      *
      * @param bool $tpInterditQte The tp interdit qte.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpInterditQte($tpInterditQte) {
         $this->tpInterditQte = $tpInterditQte;
@@ -4826,6 +4995,7 @@ class Constantes2 {
      * Set the tp libelle mission.
      *
      * @param bool $tpLibelleMission The tp libelle mission.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpLibelleMission($tpLibelleMission) {
         $this->tpLibelleMission = $tpLibelleMission;
@@ -4836,6 +5006,7 @@ class Constantes2 {
      * Set the tp limite saisie non operationnel.
      *
      * @param bool $tpLimiteSaisieNonOperationnel The tp limite saisie non operationnel.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpLimiteSaisieNonOperationnel($tpLimiteSaisieNonOperationnel) {
         $this->tpLimiteSaisieNonOperationnel = $tpLimiteSaisieNonOperationnel;
@@ -4846,6 +5017,7 @@ class Constantes2 {
      * Set the tp pas mois cloture.
      *
      * @param bool $tpPasMoisCloture The tp pas mois cloture.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpPasMoisCloture($tpPasMoisCloture) {
         $this->tpPasMoisCloture = $tpPasMoisCloture;
@@ -4856,6 +5028,7 @@ class Constantes2 {
      * Set the tp pourcentage non operationnel date.
      *
      * @param DateTime|null $tpPourcentageNonOperationnelDate The tp pourcentage non operationnel date.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpPourcentageNonOperationnelDate(DateTime $tpPourcentageNonOperationnelDate = null) {
         $this->tpPourcentageNonOperationnelDate = $tpPourcentageNonOperationnelDate;
@@ -4866,6 +5039,7 @@ class Constantes2 {
      * Set the tp qte invisible.
      *
      * @param bool $tpQteInvisible The tp qte invisible.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpQteInvisible($tpQteInvisible) {
         $this->tpQteInvisible = $tpQteInvisible;
@@ -4876,6 +5050,7 @@ class Constantes2 {
      * Set the tp saisie avancement.
      *
      * @param bool $tpSaisieAvancement The tp saisie avancement.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpSaisieAvancement($tpSaisieAvancement) {
         $this->tpSaisieAvancement = $tpSaisieAvancement;
@@ -4886,6 +5061,7 @@ class Constantes2 {
      * Set the tppupv123.
      *
      * @param bool $tppupv123 The tppupv123.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTppupv123($tppupv123) {
         $this->tppupv123 = $tppupv123;
@@ -4896,6 +5072,7 @@ class Constantes2 {
      * Set the tps num archive.
      *
      * @param string $tpsNumArchive The tps num archive.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTpsNumArchive($tpsNumArchive) {
         $this->tpsNumArchive = $tpsNumArchive;
@@ -4906,6 +5083,7 @@ class Constantes2 {
      * Set the trans variantes factgi.
      *
      * @param bool $transVariantesFactgi The trans variantes factgi.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTransVariantesFactgi($transVariantesFactgi) {
         $this->transVariantesFactgi = $transVariantesFactgi;
@@ -4916,6 +5094,7 @@ class Constantes2 {
      * Set the type affichage solde fourn.
      *
      * @param string $typeAffichageSoldeFourn The type affichage solde fourn.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTypeAffichageSoldeFourn($typeAffichageSoldeFourn) {
         $this->typeAffichageSoldeFourn = $typeAffichageSoldeFourn;
@@ -4926,6 +5105,7 @@ class Constantes2 {
      * Set the type frais1.
      *
      * @param bool $typeFrais1 The type frais1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTypeFrais1($typeFrais1) {
         $this->typeFrais1 = $typeFrais1;
@@ -4936,6 +5116,7 @@ class Constantes2 {
      * Set the type frais2.
      *
      * @param bool $typeFrais2 The type frais2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTypeFrais2($typeFrais2) {
         $this->typeFrais2 = $typeFrais2;
@@ -4946,6 +5127,7 @@ class Constantes2 {
      * Set the type frais3.
      *
      * @param bool $typeFrais3 The type frais3.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTypeFrais3($typeFrais3) {
         $this->typeFrais3 = $typeFrais3;
@@ -4956,6 +5138,7 @@ class Constantes2 {
      * Set the type saisie taux devises.
      *
      * @param string $typeSaisieTauxDevises The type saisie taux devises.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTypeSaisieTauxDevises($typeSaisieTauxDevises) {
         $this->typeSaisieTauxDevises = $typeSaisieTauxDevises;
@@ -4966,6 +5149,7 @@ class Constantes2 {
      * Set the v esur dep aff.
      *
      * @param bool $vEsurDepAff The v esur dep aff.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setVEsurDepAff($vEsurDepAff) {
         $this->vEsurDepAff = $vEsurDepAff;
@@ -4976,6 +5160,7 @@ class Constantes2 {
      * Set the val auto tarifs transporteurs.
      *
      * @param bool $valAutoTarifsTransporteurs The val auto tarifs transporteurs.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setValAutoTarifsTransporteurs($valAutoTarifsTransporteurs) {
         $this->valAutoTarifsTransporteurs = $valAutoTarifsTransporteurs;
@@ -4986,6 +5171,7 @@ class Constantes2 {
      * Set the visualisation fiche cabinet.
      *
      * @param bool $visualisationFicheCabinet The visualisation fiche cabinet.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setVisualisationFicheCabinet($visualisationFicheCabinet) {
         $this->visualisationFicheCabinet = $visualisationFicheCabinet;
@@ -4996,6 +5182,7 @@ class Constantes2 {
      * Set the word acces par q client.
      *
      * @param bool $wordAccesParQClient The word acces par q client.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setWordAccesParQClient($wordAccesParQClient) {
         $this->wordAccesParQClient = $wordAccesParQClient;
@@ -5006,6 +5193,7 @@ class Constantes2 {
      * Set the e ws cabinet.
      *
      * @param string $eWsCabinet The e ws cabinet.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function seteWsCabinet($eWsCabinet) {
         $this->eWsCabinet = $eWsCabinet;
@@ -5016,6 +5204,7 @@ class Constantes2 {
      * Set the e ws coll id.
      *
      * @param string $eWsCollId The e ws coll id.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function seteWsCollId($eWsCollId) {
         $this->eWsCollId = $eWsCollId;
@@ -5026,6 +5215,7 @@ class Constantes2 {
      * Set the e ws coll mdp.
      *
      * @param string $eWsCollMdp The e ws coll mdp.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function seteWsCollMdp($eWsCollMdp) {
         $this->eWsCollMdp = $eWsCollMdp;
@@ -5036,6 +5226,7 @@ class Constantes2 {
      * Set the e ws srv mdp.
      *
      * @param string $eWsSrvMdp The e ws srv mdp.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function seteWsSrvMdp($eWsSrvMdp) {
         $this->eWsSrvMdp = $eWsSrvMdp;
@@ -5046,6 +5237,7 @@ class Constantes2 {
      * Set the e ws srv name.
      *
      * @param string $eWsSrvName The e ws srv name.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function seteWsSrvName($eWsSrvName) {
         $this->eWsSrvName = $eWsSrvName;
@@ -5056,6 +5248,7 @@ class Constantes2 {
      * Set the e ws srv util.
      *
      * @param string $eWsSrvUtil The e ws srv util.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function seteWsSrvUtil($eWsSrvUtil) {
         $this->eWsSrvUtil = $eWsSrvUtil;
@@ -5066,6 +5259,7 @@ class Constantes2 {
      * Set the lng code article auto.
      *
      * @param int $lngCodeArticleAuto The lng code article auto.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setlngCodeArticleAuto($lngCodeArticleAuto) {
         $this->lngCodeArticleAuto = $lngCodeArticleAuto;

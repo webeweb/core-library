@@ -126,6 +126,7 @@ class RetraitesEmp {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return RetraitesEmp Returns this Retraites emp.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -136,6 +137,7 @@ class RetraitesEmp {
      * Set the id institution.
      *
      * @param string $idInstitution The id institution.
+     * @return RetraitesEmp Returns this Retraites emp.
      */
     public function setIdInstitution($idInstitution) {
         $this->idInstitution = $idInstitution;
@@ -146,6 +148,7 @@ class RetraitesEmp {
      * Set the indice contrat.
      *
      * @param int $indiceContrat The indice contrat.
+     * @return RetraitesEmp Returns this Retraites emp.
      */
     public function setIndiceContrat($indiceContrat) {
         $this->indiceContrat = $indiceContrat;
@@ -156,6 +159,7 @@ class RetraitesEmp {
      * Set the non gere.
      *
      * @param bool $nonGere The non gere.
+     * @return RetraitesEmp Returns this Retraites emp.
      */
     public function setNonGere($nonGere) {
         $this->nonGere = $nonGere;
@@ -166,6 +170,7 @@ class RetraitesEmp {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return RetraitesEmp Returns this Retraites emp.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -176,6 +181,7 @@ class RetraitesEmp {
      * Set the type orga.
      *
      * @param string $typeOrga The type orga.
+     * @return RetraitesEmp Returns this Retraites emp.
      */
     public function setTypeOrga($typeOrga) {
         $this->typeOrga = $typeOrga;

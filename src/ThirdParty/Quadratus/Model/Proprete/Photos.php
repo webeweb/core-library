@@ -128,6 +128,7 @@ class Photos {
      * Set the a publier espace client.
      *
      * @param bool $aPublierEspaceClient The a publier espace client.
+     * @return Photos Returns this Photos.
      */
     public function setAPublierEspaceClient($aPublierEspaceClient) {
         $this->aPublierEspaceClient = $aPublierEspaceClient;
@@ -138,6 +139,7 @@ class Photos {
      * Set the auteur.
      *
      * @param string $auteur The auteur.
+     * @return Photos Returns this Photos.
      */
     public function setAuteur($auteur) {
         $this->auteur = $auteur;
@@ -148,6 +150,7 @@ class Photos {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Photos Returns this Photos.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -158,6 +161,7 @@ class Photos {
      * Set the nom fichier id.
      *
      * @param string $nomFichierId The nom fichier id.
+     * @return Photos Returns this Photos.
      */
     public function setNomFichierId($nomFichierId) {
         $this->nomFichierId = $nomFichierId;
@@ -168,6 +172,7 @@ class Photos {
      * Set the type id.
      *
      * @param string $typeId The type id.
+     * @return Photos Returns this Photos.
      */
     public function setTypeId($typeId) {
         $this->typeId = $typeId;
@@ -178,6 +183,7 @@ class Photos {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return Photos Returns this Photos.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

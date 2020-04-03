@@ -128,6 +128,7 @@ class Documents {
      * Set the chrono.
      *
      * @param int $chrono The chrono.
+     * @return Documents Returns this Documents.
      */
     public function setChrono($chrono) {
         $this->chrono = $chrono;
@@ -138,6 +139,7 @@ class Documents {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Documents Returns this Documents.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -148,6 +150,7 @@ class Documents {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return Documents Returns this Documents.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -158,6 +161,7 @@ class Documents {
      * Set the date heure sys.
      *
      * @param DateTime|null $dateHeureSys The date heure sys.
+     * @return Documents Returns this Documents.
      */
     public function setDateHeureSys(DateTime $dateHeureSys = null) {
         $this->dateHeureSys = $dateHeureSys;
@@ -168,6 +172,7 @@ class Documents {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Documents Returns this Documents.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -178,6 +183,7 @@ class Documents {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return Documents Returns this Documents.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;

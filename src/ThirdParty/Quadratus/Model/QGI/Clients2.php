@@ -1520,6 +1520,7 @@ class Clients2 {
      * Set the allotissement.
      *
      * @param bool $allotissement The allotissement.
+     * @return Clients2 Returns this Clients2.
      */
     public function setAllotissement($allotissement) {
         $this->allotissement = $allotissement;
@@ -1530,6 +1531,7 @@ class Clients2 {
      * Set the bl mail.
      *
      * @param bool $blMail The bl mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setBlMail($blMail) {
         $this->blMail = $blMail;
@@ -1540,6 +1542,7 @@ class Clients2 {
      * Set the cdes mail.
      *
      * @param bool $cdesMail The cdes mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setCdesMail($cdesMail) {
         $this->cdesMail = $cdesMail;
@@ -1550,6 +1553,7 @@ class Clients2 {
      * Set the code activite cga.
      *
      * @param string $codeActiviteCga The code activite cga.
+     * @return Clients2 Returns this Clients2.
      */
     public function setCodeActiviteCga($codeActiviteCga) {
         $this->codeActiviteCga = $codeActiviteCga;
@@ -1560,6 +1564,7 @@ class Clients2 {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Clients2 Returns this Clients2.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -1570,6 +1575,7 @@ class Clients2 {
      * Set the code transporteur1.
      *
      * @param string $codeTransporteur1 The code transporteur1.
+     * @return Clients2 Returns this Clients2.
      */
     public function setCodeTransporteur1($codeTransporteur1) {
         $this->codeTransporteur1 = $codeTransporteur1;
@@ -1580,6 +1586,7 @@ class Clients2 {
      * Set the code transporteur2.
      *
      * @param string $codeTransporteur2 The code transporteur2.
+     * @return Clients2 Returns this Clients2.
      */
     public function setCodeTransporteur2($codeTransporteur2) {
         $this->codeTransporteur2 = $codeTransporteur2;
@@ -1590,6 +1597,7 @@ class Clients2 {
      * Set the code transporteur3.
      *
      * @param string $codeTransporteur3 The code transporteur3.
+     * @return Clients2 Returns this Clients2.
      */
     public function setCodeTransporteur3($codeTransporteur3) {
         $this->codeTransporteur3 = $codeTransporteur3;
@@ -1600,6 +1608,7 @@ class Clients2 {
      * Set the code transporteur4.
      *
      * @param string $codeTransporteur4 The code transporteur4.
+     * @return Clients2 Returns this Clients2.
      */
     public function setCodeTransporteur4($codeTransporteur4) {
         $this->codeTransporteur4 = $codeTransporteur4;
@@ -1610,6 +1619,7 @@ class Clients2 {
      * Set the code transporteur5.
      *
      * @param string $codeTransporteur5 The code transporteur5.
+     * @return Clients2 Returns this Clients2.
      */
     public function setCodeTransporteur5($codeTransporteur5) {
         $this->codeTransporteur5 = $codeTransporteur5;
@@ -1620,6 +1630,7 @@ class Clients2 {
      * Set the date deb exe publication.
      *
      * @param DateTime|null $dateDebExePublication The date deb exe publication.
+     * @return Clients2 Returns this Clients2.
      */
     public function setDateDebExePublication(DateTime $dateDebExePublication = null) {
         $this->dateDebExePublication = $dateDebExePublication;
@@ -1630,6 +1641,7 @@ class Clients2 {
      * Set the delai livraison.
      *
      * @param int $delaiLivraison The delai livraison.
+     * @return Clients2 Returns this Clients2.
      */
     public function setDelaiLivraison($delaiLivraison) {
         $this->delaiLivraison = $delaiLivraison;
@@ -1640,6 +1652,7 @@ class Clients2 {
      * Set the devis mail.
      *
      * @param bool $devisMail The devis mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setDevisMail($devisMail) {
         $this->devisMail = $devisMail;
@@ -1650,6 +1663,7 @@ class Clients2 {
      * Set the ean client.
      *
      * @param string $eanClient The ean client.
+     * @return Clients2 Returns this Clients2.
      */
     public function setEanClient($eanClient) {
         $this->eanClient = $eanClient;
@@ -1660,6 +1674,7 @@ class Clients2 {
      * Set the ean facture papier.
      *
      * @param string $eanFacturePapier The ean facture papier.
+     * @return Clients2 Returns this Clients2.
      */
     public function setEanFacturePapier($eanFacturePapier) {
         $this->eanFacturePapier = $eanFacturePapier;
@@ -1670,6 +1685,7 @@ class Clients2 {
      * Set the ean plateforme.
      *
      * @param string $eanPlateforme The ean plateforme.
+     * @return Clients2 Returns this Clients2.
      */
     public function setEanPlateforme($eanPlateforme) {
         $this->eanPlateforme = $eanPlateforme;
@@ -1680,6 +1696,7 @@ class Clients2 {
      * Set the echeance fin decade.
      *
      * @param bool $echeanceFinDecade The echeance fin decade.
+     * @return Clients2 Returns this Clients2.
      */
     public function setEcheanceFinDecade($echeanceFinDecade) {
         $this->echeanceFinDecade = $echeanceFinDecade;
@@ -1690,6 +1707,7 @@ class Clients2 {
      * Set the echeance fin quinzaine.
      *
      * @param bool $echeanceFinQuinzaine The echeance fin quinzaine.
+     * @return Clients2 Returns this Clients2.
      */
     public function setEcheanceFinQuinzaine($echeanceFinQuinzaine) {
         $this->echeanceFinQuinzaine = $echeanceFinQuinzaine;
@@ -1700,6 +1718,7 @@ class Clients2 {
      * Set the edi export bl.
      *
      * @param bool $ediExportBl The edi export bl.
+     * @return Clients2 Returns this Clients2.
      */
     public function setEdiExportBl($ediExportBl) {
         $this->ediExportBl = $ediExportBl;
@@ -1710,6 +1729,7 @@ class Clients2 {
      * Set the edi export fac.
      *
      * @param bool $ediExportFac The edi export fac.
+     * @return Clients2 Returns this Clients2.
      */
     public function setEdiExportFac($ediExportFac) {
         $this->ediExportFac = $ediExportFac;
@@ -1720,6 +1740,7 @@ class Clients2 {
      * Set the fact complement suite.
      *
      * @param string $factComplementSuite The fact complement suite.
+     * @return Clients2 Returns this Clients2.
      */
     public function setFactComplementSuite($factComplementSuite) {
         $this->factComplementSuite = $factComplementSuite;
@@ -1730,6 +1751,7 @@ class Clients2 {
      * Set the fact zip code.
      *
      * @param string $factZipCode The fact zip code.
+     * @return Clients2 Returns this Clients2.
      */
     public function setFactZipCode($factZipCode) {
         $this->factZipCode = $factZipCode;
@@ -1740,6 +1762,7 @@ class Clients2 {
      * Set the ind mail publication.
      *
      * @param int $indMailPublication The ind mail publication.
+     * @return Clients2 Returns this Clients2.
      */
     public function setIndMailPublication($indMailPublication) {
         $this->indMailPublication = $indMailPublication;
@@ -1750,6 +1773,7 @@ class Clients2 {
      * Set the indice bl mail.
      *
      * @param int $indiceBlMail The indice bl mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setIndiceBlMail($indiceBlMail) {
         $this->indiceBlMail = $indiceBlMail;
@@ -1760,6 +1784,7 @@ class Clients2 {
      * Set the indice cdes mail.
      *
      * @param int $indiceCdesMail The indice cdes mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setIndiceCdesMail($indiceCdesMail) {
         $this->indiceCdesMail = $indiceCdesMail;
@@ -1770,6 +1795,7 @@ class Clients2 {
      * Set the indice devis mail.
      *
      * @param int $indiceDevisMail The indice devis mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setIndiceDevisMail($indiceDevisMail) {
         $this->indiceDevisMail = $indiceDevisMail;
@@ -1780,6 +1806,7 @@ class Clients2 {
      * Set the indice releves mail.
      *
      * @param int $indiceRelevesMail The indice releves mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setIndiceRelevesMail($indiceRelevesMail) {
         $this->indiceRelevesMail = $indiceRelevesMail;
@@ -1790,6 +1817,7 @@ class Clients2 {
      * Set the lettre de mission date signature.
      *
      * @param DateTime|null $lettreDeMissionDateSignature The lettre de mission date signature.
+     * @return Clients2 Returns this Clients2.
      */
     public function setLettreDeMissionDateSignature(DateTime $lettreDeMissionDateSignature = null) {
         $this->lettreDeMissionDateSignature = $lettreDeMissionDateSignature;
@@ -1800,6 +1828,7 @@ class Clients2 {
      * Set the modele facture manuelle spe.
      *
      * @param string $modeleFactureManuelleSpe The modele facture manuelle spe.
+     * @return Clients2 Returns this Clients2.
      */
     public function setModeleFactureManuelleSpe($modeleFactureManuelleSpe) {
         $this->modeleFactureManuelleSpe = $modeleFactureManuelleSpe;
@@ -1810,6 +1839,7 @@ class Clients2 {
      * Set the montant depassement autorise.
      *
      * @param float $montantDepassementAutorise The montant depassement autorise.
+     * @return Clients2 Returns this Clients2.
      */
     public function setMontantDepassementAutorise($montantDepassementAutorise) {
         $this->montantDepassementAutorise = $montantDepassementAutorise;
@@ -1820,6 +1850,7 @@ class Clients2 {
      * Set the motif entree.
      *
      * @param string $motifEntree The motif entree.
+     * @return Clients2 Returns this Clients2.
      */
     public function setMotifEntree($motifEntree) {
         $this->motifEntree = $motifEntree;
@@ -1830,6 +1861,7 @@ class Clients2 {
      * Set the motif sortie.
      *
      * @param string $motifSortie The motif sortie.
+     * @return Clients2 Returns this Clients2.
      */
     public function setMotifSortie($motifSortie) {
         $this->motifSortie = $motifSortie;
@@ -1840,6 +1872,7 @@ class Clients2 {
      * Set the mt transport1.
      *
      * @param float $mtTransport1 The mt transport1.
+     * @return Clients2 Returns this Clients2.
      */
     public function setMtTransport1($mtTransport1) {
         $this->mtTransport1 = $mtTransport1;
@@ -1850,6 +1883,7 @@ class Clients2 {
      * Set the mt transport2.
      *
      * @param float $mtTransport2 The mt transport2.
+     * @return Clients2 Returns this Clients2.
      */
     public function setMtTransport2($mtTransport2) {
         $this->mtTransport2 = $mtTransport2;
@@ -1860,6 +1894,7 @@ class Clients2 {
      * Set the mt transport3.
      *
      * @param float $mtTransport3 The mt transport3.
+     * @return Clients2 Returns this Clients2.
      */
     public function setMtTransport3($mtTransport3) {
         $this->mtTransport3 = $mtTransport3;
@@ -1870,6 +1905,7 @@ class Clients2 {
      * Set the mt transport4.
      *
      * @param float $mtTransport4 The mt transport4.
+     * @return Clients2 Returns this Clients2.
      */
     public function setMtTransport4($mtTransport4) {
         $this->mtTransport4 = $mtTransport4;
@@ -1880,6 +1916,7 @@ class Clients2 {
      * Set the mt transport5.
      *
      * @param float $mtTransport5 The mt transport5.
+     * @return Clients2 Returns this Clients2.
      */
     public function setMtTransport5($mtTransport5) {
         $this->mtTransport5 = $mtTransport5;
@@ -1890,6 +1927,7 @@ class Clients2 {
      * Set the non concerne is.
      *
      * @param bool $nonConcerneIs The non concerne is.
+     * @return Clients2 Returns this Clients2.
      */
     public function setNonConcerneIs($nonConcerneIs) {
         $this->nonConcerneIs = $nonConcerneIs;
@@ -1900,6 +1938,7 @@ class Clients2 {
      * Set the non concerne tp.
      *
      * @param bool $nonConcerneTp The non concerne tp.
+     * @return Clients2 Returns this Clients2.
      */
     public function setNonConcerneTp($nonConcerneTp) {
         $this->nonConcerneTp = $nonConcerneTp;
@@ -1910,6 +1949,7 @@ class Clients2 {
      * Set the non facturable.
      *
      * @param bool $nonFacturable The non facturable.
+     * @return Clients2 Returns this Clients2.
      */
     public function setNonFacturable($nonFacturable) {
         $this->nonFacturable = $nonFacturable;
@@ -1920,6 +1960,7 @@ class Clients2 {
      * Set the pme tarif ou rem spe.
      *
      * @param bool $pmeTarifOuRemSpe The pme tarif ou rem spe.
+     * @return Clients2 Returns this Clients2.
      */
     public function setPmeTarifOuRemSpe($pmeTarifOuRemSpe) {
         $this->pmeTarifOuRemSpe = $pmeTarifOuRemSpe;
@@ -1930,6 +1971,7 @@ class Clients2 {
      * Set the prevenir mail publier.
      *
      * @param bool $prevenirMailPublier The prevenir mail publier.
+     * @return Clients2 Returns this Clients2.
      */
     public function setPrevenirMailPublier($prevenirMailPublier) {
         $this->prevenirMailPublier = $prevenirMailPublier;
@@ -1940,6 +1982,7 @@ class Clients2 {
      * Set the releves mail.
      *
      * @param bool $relevesMail The releves mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setRelevesMail($relevesMail) {
         $this->relevesMail = $relevesMail;
@@ -1950,6 +1993,7 @@ class Clients2 {
      * Set the social complement suite.
      *
      * @param string $socialComplementSuite The social complement suite.
+     * @return Clients2 Returns this Clients2.
      */
     public function setSocialComplementSuite($socialComplementSuite) {
         $this->socialComplementSuite = $socialComplementSuite;
@@ -1960,6 +2004,7 @@ class Clients2 {
      * Set the social zip code.
      *
      * @param string $socialZipCode The social zip code.
+     * @return Clients2 Returns this Clients2.
      */
     public function setSocialZipCode($socialZipCode) {
         $this->socialZipCode = $socialZipCode;
@@ -1970,6 +2015,7 @@ class Clients2 {
      * Set the trs art pied.
      *
      * @param string $trsArtPied The trs art pied.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsArtPied($trsArtPied) {
         $this->trsArtPied = $trsArtPied;
@@ -1980,6 +2026,7 @@ class Clients2 {
      * Set the trs art pied2.
      *
      * @param string $trsArtPied2 The trs art pied2.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsArtPied2($trsArtPied2) {
         $this->trsArtPied2 = $trsArtPied2;
@@ -1990,6 +2037,7 @@ class Clients2 {
      * Set the trs categ march.
      *
      * @param string $trsCategMarch The trs categ march.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCategMarch($trsCategMarch) {
         $this->trsCategMarch = $trsCategMarch;
@@ -2000,6 +2048,7 @@ class Clients2 {
      * Set the trs centre ana.
      *
      * @param string $trsCentreAna The trs centre ana.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCentreAna($trsCentreAna) {
         $this->trsCentreAna = $trsCentreAna;
@@ -2010,6 +2059,7 @@ class Clients2 {
      * Set the trs code tarif1.
      *
      * @param string $trsCodeTarif1 The trs code tarif1.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif1($trsCodeTarif1) {
         $this->trsCodeTarif1 = $trsCodeTarif1;
@@ -2020,6 +2070,7 @@ class Clients2 {
      * Set the trs code tarif1 sens.
      *
      * @param string $trsCodeTarif1Sens The trs code tarif1 sens.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif1Sens($trsCodeTarif1Sens) {
         $this->trsCodeTarif1Sens = $trsCodeTarif1Sens;
@@ -2030,6 +2081,7 @@ class Clients2 {
      * Set the trs code tarif2.
      *
      * @param string $trsCodeTarif2 The trs code tarif2.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif2($trsCodeTarif2) {
         $this->trsCodeTarif2 = $trsCodeTarif2;
@@ -2040,6 +2092,7 @@ class Clients2 {
      * Set the trs code tarif2 sens.
      *
      * @param string $trsCodeTarif2Sens The trs code tarif2 sens.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif2Sens($trsCodeTarif2Sens) {
         $this->trsCodeTarif2Sens = $trsCodeTarif2Sens;
@@ -2050,6 +2103,7 @@ class Clients2 {
      * Set the trs code tarif3.
      *
      * @param string $trsCodeTarif3 The trs code tarif3.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif3($trsCodeTarif3) {
         $this->trsCodeTarif3 = $trsCodeTarif3;
@@ -2060,6 +2114,7 @@ class Clients2 {
      * Set the trs code tarif3 sens.
      *
      * @param string $trsCodeTarif3Sens The trs code tarif3 sens.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif3Sens($trsCodeTarif3Sens) {
         $this->trsCodeTarif3Sens = $trsCodeTarif3Sens;
@@ -2070,6 +2125,7 @@ class Clients2 {
      * Set the trs code tarif4.
      *
      * @param string $trsCodeTarif4 The trs code tarif4.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif4($trsCodeTarif4) {
         $this->trsCodeTarif4 = $trsCodeTarif4;
@@ -2080,6 +2136,7 @@ class Clients2 {
      * Set the trs code tarif4 sens.
      *
      * @param string $trsCodeTarif4Sens The trs code tarif4 sens.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif4Sens($trsCodeTarif4Sens) {
         $this->trsCodeTarif4Sens = $trsCodeTarif4Sens;
@@ -2090,6 +2147,7 @@ class Clients2 {
      * Set the trs code tarif5.
      *
      * @param string $trsCodeTarif5 The trs code tarif5.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif5($trsCodeTarif5) {
         $this->trsCodeTarif5 = $trsCodeTarif5;
@@ -2100,6 +2158,7 @@ class Clients2 {
      * Set the trs code tarif5 sens.
      *
      * @param string $trsCodeTarif5Sens The trs code tarif5 sens.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif5Sens($trsCodeTarif5Sens) {
         $this->trsCodeTarif5Sens = $trsCodeTarif5Sens;
@@ -2110,6 +2169,7 @@ class Clients2 {
      * Set the trs code tarif6.
      *
      * @param string $trsCodeTarif6 The trs code tarif6.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif6($trsCodeTarif6) {
         $this->trsCodeTarif6 = $trsCodeTarif6;
@@ -2120,6 +2180,7 @@ class Clients2 {
      * Set the trs code tarif6 sens.
      *
      * @param string $trsCodeTarif6Sens The trs code tarif6 sens.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarif6Sens($trsCodeTarif6Sens) {
         $this->trsCodeTarif6Sens = $trsCodeTarif6Sens;
@@ -2130,6 +2191,7 @@ class Clients2 {
      * Set the trs code tarif def.
      *
      * @param int $trsCodeTarifDef The trs code tarif def.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsCodeTarifDef($trsCodeTarifDef) {
         $this->trsCodeTarifDef = $trsCodeTarifDef;
@@ -2140,6 +2202,7 @@ class Clients2 {
      * Set the trs comment1.
      *
      * @param string $trsComment1 The trs comment1.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment1($trsComment1) {
         $this->trsComment1 = $trsComment1;
@@ -2150,6 +2213,7 @@ class Clients2 {
      * Set the trs comment2.
      *
      * @param string $trsComment2 The trs comment2.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment2($trsComment2) {
         $this->trsComment2 = $trsComment2;
@@ -2160,6 +2224,7 @@ class Clients2 {
      * Set the trs comment3.
      *
      * @param string $trsComment3 The trs comment3.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment3($trsComment3) {
         $this->trsComment3 = $trsComment3;
@@ -2170,6 +2235,7 @@ class Clients2 {
      * Set the trs comment4.
      *
      * @param string $trsComment4 The trs comment4.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment4($trsComment4) {
         $this->trsComment4 = $trsComment4;
@@ -2180,6 +2246,7 @@ class Clients2 {
      * Set the trs comment5.
      *
      * @param string $trsComment5 The trs comment5.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment5($trsComment5) {
         $this->trsComment5 = $trsComment5;
@@ -2190,6 +2257,7 @@ class Clients2 {
      * Set the trs comment6.
      *
      * @param string $trsComment6 The trs comment6.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment6($trsComment6) {
         $this->trsComment6 = $trsComment6;
@@ -2200,6 +2268,7 @@ class Clients2 {
      * Set the trs comment7.
      *
      * @param string $trsComment7 The trs comment7.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment7($trsComment7) {
         $this->trsComment7 = $trsComment7;
@@ -2210,6 +2279,7 @@ class Clients2 {
      * Set the trs comment8.
      *
      * @param string $trsComment8 The trs comment8.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment8($trsComment8) {
         $this->trsComment8 = $trsComment8;
@@ -2220,6 +2290,7 @@ class Clients2 {
      * Set the trs comment9.
      *
      * @param string $trsComment9 The trs comment9.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsComment9($trsComment9) {
         $this->trsComment9 = $trsComment9;
@@ -2230,6 +2301,7 @@ class Clients2 {
      * Set the trs consignes1.
      *
      * @param string $trsConsignes1 The trs consignes1.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsConsignes1($trsConsignes1) {
         $this->trsConsignes1 = $trsConsignes1;
@@ -2240,6 +2312,7 @@ class Clients2 {
      * Set the trs consignes2.
      *
      * @param string $trsConsignes2 The trs consignes2.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsConsignes2($trsConsignes2) {
         $this->trsConsignes2 = $trsConsignes2;
@@ -2250,6 +2323,7 @@ class Clients2 {
      * Set the trs consignes3.
      *
      * @param string $trsConsignes3 The trs consignes3.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsConsignes3($trsConsignes3) {
         $this->trsConsignes3 = $trsConsignes3;
@@ -2260,6 +2334,7 @@ class Clients2 {
      * Set the trs gestion palettes.
      *
      * @param bool $trsGestionPalettes The trs gestion palettes.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsGestionPalettes($trsGestionPalettes) {
         $this->trsGestionPalettes = $trsGestionPalettes;
@@ -2270,6 +2345,7 @@ class Clients2 {
      * Set the trs marchandise sensible.
      *
      * @param bool $trsMarchandiseSensible The trs marchandise sensible.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsMarchandiseSensible($trsMarchandiseSensible) {
         $this->trsMarchandiseSensible = $trsMarchandiseSensible;
@@ -2280,6 +2356,7 @@ class Clients2 {
      * Set the trs modele facture spe.
      *
      * @param string $trsModeleFactureSpe The trs modele facture spe.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsModeleFactureSpe($trsModeleFactureSpe) {
         $this->trsModeleFactureSpe = $trsModeleFactureSpe;
@@ -2290,6 +2367,7 @@ class Clients2 {
      * Set the trs poids mini pal.
      *
      * @param float $trsPoidsMiniPal The trs poids mini pal.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsPoidsMiniPal($trsPoidsMiniPal) {
         $this->trsPoidsMiniPal = $trsPoidsMiniPal;
@@ -2300,6 +2378,7 @@ class Clients2 {
      * Set the trs port du auto.
      *
      * @param bool $trsPortDuAuto The trs port du auto.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsPortDuAuto($trsPortDuAuto) {
         $this->trsPortDuAuto = $trsPortDuAuto;
@@ -2310,6 +2389,7 @@ class Clients2 {
      * Set the trs suivi ca mens.
      *
      * @param bool $trsSuiviCaMens The trs suivi ca mens.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsSuiviCaMens($trsSuiviCaMens) {
         $this->trsSuiviCaMens = $trsSuiviCaMens;
@@ -2320,6 +2400,7 @@ class Clients2 {
      * Set the trs suivi dt enl.
      *
      * @param bool $trsSuiviDtEnl The trs suivi dt enl.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsSuiviDtEnl($trsSuiviDtEnl) {
         $this->trsSuiviDtEnl = $trsSuiviDtEnl;
@@ -2330,6 +2411,7 @@ class Clients2 {
      * Set the trs suivi dt liv.
      *
      * @param bool $trsSuiviDtLiv The trs suivi dt liv.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsSuiviDtLiv($trsSuiviDtLiv) {
         $this->trsSuiviDtLiv = $trsSuiviDtLiv;
@@ -2340,6 +2422,7 @@ class Clients2 {
      * Set the trs suivi dt liv fax.
      *
      * @param string $trsSuiviDtLivFax The trs suivi dt liv fax.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsSuiviDtLivFax($trsSuiviDtLivFax) {
         $this->trsSuiviDtLivFax = $trsSuiviDtLivFax;
@@ -2350,6 +2433,7 @@ class Clients2 {
      * Set the trs suivi dt liv mail.
      *
      * @param string $trsSuiviDtLivMail The trs suivi dt liv mail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsSuiviDtLivMail($trsSuiviDtLivMail) {
         $this->trsSuiviDtLivMail = $trsSuiviDtLivMail;
@@ -2360,6 +2444,7 @@ class Clients2 {
      * Set the trs type client.
      *
      * @param string $trsTypeClient The trs type client.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsTypeClient($trsTypeClient) {
         $this->trsTypeClient = $trsTypeClient;
@@ -2370,6 +2455,7 @@ class Clients2 {
      * Set the trs type facturation.
      *
      * @param string $trsTypeFacturation The trs type facturation.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsTypeFacturation($trsTypeFacturation) {
         $this->trsTypeFacturation = $trsTypeFacturation;
@@ -2380,6 +2466,7 @@ class Clients2 {
      * Set the trs type travail.
      *
      * @param string $trsTypeTravail The trs type travail.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTrsTypeTravail($trsTypeTravail) {
         $this->trsTypeTravail = $trsTypeTravail;
@@ -2390,6 +2477,7 @@ class Clients2 {
      * Set the type transport1.
      *
      * @param string $typeTransport1 The type transport1.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTypeTransport1($typeTransport1) {
         $this->typeTransport1 = $typeTransport1;
@@ -2400,6 +2488,7 @@ class Clients2 {
      * Set the type transport2.
      *
      * @param string $typeTransport2 The type transport2.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTypeTransport2($typeTransport2) {
         $this->typeTransport2 = $typeTransport2;
@@ -2410,6 +2499,7 @@ class Clients2 {
      * Set the type transport3.
      *
      * @param string $typeTransport3 The type transport3.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTypeTransport3($typeTransport3) {
         $this->typeTransport3 = $typeTransport3;
@@ -2420,6 +2510,7 @@ class Clients2 {
      * Set the type transport4.
      *
      * @param string $typeTransport4 The type transport4.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTypeTransport4($typeTransport4) {
         $this->typeTransport4 = $typeTransport4;
@@ -2430,6 +2521,7 @@ class Clients2 {
      * Set the type transport5.
      *
      * @param string $typeTransport5 The type transport5.
+     * @return Clients2 Returns this Clients2.
      */
     public function setTypeTransport5($typeTransport5) {
         $this->typeTransport5 = $typeTransport5;
@@ -2440,6 +2532,7 @@ class Clients2 {
      * Set the localisation archives.
      *
      * @param string $localisationArchives The localisation archives.
+     * @return Clients2 Returns this Clients2.
      */
     public function setlocalisationArchives($localisationArchives) {
         $this->localisationArchives = $localisationArchives;

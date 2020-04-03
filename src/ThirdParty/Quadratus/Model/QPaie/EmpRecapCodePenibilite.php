@@ -78,6 +78,7 @@ class EmpRecapCodePenibilite {
      * Set the code penibilite.
      *
      * @param string $codePenibilite The code penibilite.
+     * @return EmpRecapCodePenibilite Returns this Emp recap code penibilite.
      */
     public function setCodePenibilite($codePenibilite) {
         $this->codePenibilite = $codePenibilite;
@@ -88,6 +89,7 @@ class EmpRecapCodePenibilite {
      * Set the id recap.
      *
      * @param int $idRecap The id recap.
+     * @return EmpRecapCodePenibilite Returns this Emp recap code penibilite.
      */
     public function setIdRecap($idRecap) {
         $this->idRecap = $idRecap;
@@ -98,6 +100,7 @@ class EmpRecapCodePenibilite {
      * Set the numero ordre.
      *
      * @param int $numeroOrdre The numero ordre.
+     * @return EmpRecapCodePenibilite Returns this Emp recap code penibilite.
      */
     public function setNumeroOrdre($numeroOrdre) {
         $this->numeroOrdre = $numeroOrdre;

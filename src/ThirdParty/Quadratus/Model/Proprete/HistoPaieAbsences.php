@@ -256,6 +256,7 @@ class HistoPaieAbsences {
      * Set the code abs paie.
      *
      * @param string $codeAbsPaie The code abs paie.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setCodeAbsPaie($codeAbsPaie) {
         $this->codeAbsPaie = $codeAbsPaie;
@@ -266,6 +267,7 @@ class HistoPaieAbsences {
      * Set the code absence.
      *
      * @param string $codeAbsence The code absence.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setCodeAbsence($codeAbsence) {
         $this->codeAbsence = $codeAbsence;
@@ -276,6 +278,7 @@ class HistoPaieAbsences {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -286,6 +289,7 @@ class HistoPaieAbsences {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -296,6 +300,7 @@ class HistoPaieAbsences {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -306,6 +311,7 @@ class HistoPaieAbsences {
      * Set the date debut abs.
      *
      * @param DateTime|null $dateDebutAbs The date debut abs.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setDateDebutAbs(DateTime $dateDebutAbs = null) {
         $this->dateDebutAbs = $dateDebutAbs;
@@ -316,6 +322,7 @@ class HistoPaieAbsences {
      * Set the date fin abs.
      *
      * @param DateTime|null $dateFinAbs The date fin abs.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setDateFinAbs(DateTime $dateFinAbs = null) {
         $this->dateFinAbs = $dateFinAbs;
@@ -326,6 +333,7 @@ class HistoPaieAbsences {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -336,6 +344,7 @@ class HistoPaieAbsences {
      * Set the duree absence.
      *
      * @param float $dureeAbsence The duree absence.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setDureeAbsence($dureeAbsence) {
         $this->dureeAbsence = $dureeAbsence;
@@ -346,6 +355,7 @@ class HistoPaieAbsences {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -356,6 +366,7 @@ class HistoPaieAbsences {
      * Set the nb jours abs.
      *
      * @param float $nbJoursAbs The nb jours abs.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setNbJoursAbs($nbJoursAbs) {
         $this->nbJoursAbs = $nbJoursAbs;
@@ -366,6 +377,7 @@ class HistoPaieAbsences {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -376,6 +388,7 @@ class HistoPaieAbsences {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;
@@ -386,6 +399,7 @@ class HistoPaieAbsences {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return HistoPaieAbsences Returns this Histo paie absences.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

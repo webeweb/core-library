@@ -206,6 +206,7 @@ class AnnexeSuite {
      * Set the code1.
      *
      * @param string $code1 The code1.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setCode1($code1) {
         $this->code1 = $code1;
@@ -216,6 +217,7 @@ class AnnexeSuite {
      * Set the code2.
      *
      * @param string $code2 The code2.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setCode2($code2) {
         $this->code2 = $code2;
@@ -226,6 +228,7 @@ class AnnexeSuite {
      * Set the critere libre1.
      *
      * @param string $critereLibre1 The critere libre1.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setCritereLibre1($critereLibre1) {
         $this->critereLibre1 = $critereLibre1;
@@ -236,6 +239,7 @@ class AnnexeSuite {
      * Set the critere libre2.
      *
      * @param string $critereLibre2 The critere libre2.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setCritereLibre2($critereLibre2) {
         $this->critereLibre2 = $critereLibre2;
@@ -246,6 +250,7 @@ class AnnexeSuite {
      * Set the dest relance.
      *
      * @param bool $destRelance The dest relance.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setDestRelance($destRelance) {
         $this->destRelance = $destRelance;
@@ -256,6 +261,7 @@ class AnnexeSuite {
      * Set the fax.
      *
      * @param string $fax The fax.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setFax($fax) {
         $this->fax = $fax;
@@ -266,6 +272,7 @@ class AnnexeSuite {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -276,6 +283,7 @@ class AnnexeSuite {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -286,6 +294,7 @@ class AnnexeSuite {
      * Set the remarques rtf.
      *
      * @param string $remarquesRtf The remarques rtf.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setRemarquesRtf($remarquesRtf) {
         $this->remarquesRtf = $remarquesRtf;
@@ -296,6 +305,7 @@ class AnnexeSuite {
      * Set the service.
      *
      * @param string $service The service.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setService($service) {
         $this->service = $service;
@@ -306,6 +316,7 @@ class AnnexeSuite {
      * Set the type.
      *
      * @param string $type The type.
+     * @return AnnexeSuite Returns this Annexe suite.
      */
     public function setType($type) {
         $this->type = $type;

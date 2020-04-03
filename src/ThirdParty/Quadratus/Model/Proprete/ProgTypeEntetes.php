@@ -62,6 +62,7 @@ class ProgTypeEntetes {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return ProgTypeEntetes Returns this Prog type entetes.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -72,6 +73,7 @@ class ProgTypeEntetes {
      * Set the num programme.
      *
      * @param int $numProgramme The num programme.
+     * @return ProgTypeEntetes Returns this Prog type entetes.
      */
     public function setNumProgramme($numProgramme) {
         $this->numProgramme = $numProgramme;

@@ -126,6 +126,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      * Set the code option.
      *
      * @param string $codeOption The code option.
+     * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
     public function setCodeOption($codeOption) {
         $this->codeOption = $codeOption;
@@ -136,6 +137,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -146,6 +148,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      * Set the code population.
      *
      * @param string $codePopulation The code population.
+     * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
     public function setCodePopulation($codePopulation) {
         $this->codePopulation = $codePopulation;
@@ -156,6 +159,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      * Set the nb enfants.
      *
      * @param string $nbEnfants The nb enfants.
+     * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
     public function setNbEnfants($nbEnfants) {
         $this->nbEnfants = $nbEnfants;
@@ -166,6 +170,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -176,6 +181,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      * Set the ref contrat.
      *
      * @param string $refContrat The ref contrat.
+     * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
     public function setRefContrat($refContrat) {
         $this->refContrat = $refContrat;

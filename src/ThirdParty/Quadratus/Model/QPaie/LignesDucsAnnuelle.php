@@ -464,6 +464,7 @@ class LignesDucsAnnuelle {
      * Set the code at.
      *
      * @param int $codeAt The code at.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setCodeAt($codeAt) {
         $this->codeAt = $codeAt;
@@ -474,6 +475,7 @@ class LignesDucsAnnuelle {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -484,6 +486,7 @@ class LignesDucsAnnuelle {
      * Set the code ducs.
      *
      * @param string $codeDucs The code ducs.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setCodeDucs($codeDucs) {
         $this->codeDucs = $codeDucs;
@@ -494,6 +497,7 @@ class LignesDucsAnnuelle {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -504,6 +508,7 @@ class LignesDucsAnnuelle {
      * Set the code insee.
      *
      * @param string $codeInsee The code insee.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setCodeInsee($codeInsee) {
         $this->codeInsee = $codeInsee;
@@ -514,6 +519,7 @@ class LignesDucsAnnuelle {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -524,6 +530,7 @@ class LignesDucsAnnuelle {
      * Set the condition spec.
      *
      * @param string $conditionSpec The condition spec.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setConditionSpec($conditionSpec) {
         $this->conditionSpec = $conditionSpec;
@@ -534,6 +541,7 @@ class LignesDucsAnnuelle {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -544,6 +552,7 @@ class LignesDucsAnnuelle {
      * Set the exclure fusion.
      *
      * @param bool $exclureFusion The exclure fusion.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setExclureFusion($exclureFusion) {
         $this->exclureFusion = $exclureFusion;
@@ -554,6 +563,7 @@ class LignesDucsAnnuelle {
      * Set the id institution.
      *
      * @param string $idInstitution The id institution.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setIdInstitution($idInstitution) {
         $this->idInstitution = $idInstitution;
@@ -564,6 +574,7 @@ class LignesDucsAnnuelle {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -574,6 +585,7 @@ class LignesDucsAnnuelle {
      * Set the is taux.
      *
      * @param bool $isTaux The is taux.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setIsTaux($isTaux) {
         $this->isTaux = $isTaux;
@@ -584,6 +596,7 @@ class LignesDucsAnnuelle {
      * Set the marque.
      *
      * @param bool $marque The marque.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setMarque($marque) {
         $this->marque = $marque;
@@ -594,6 +607,7 @@ class LignesDucsAnnuelle {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -604,6 +618,7 @@ class LignesDucsAnnuelle {
      * Set the mt patronal.
      *
      * @param float $mtPatronal The mt patronal.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setMtPatronal($mtPatronal) {
         $this->mtPatronal = $mtPatronal;
@@ -614,6 +629,7 @@ class LignesDucsAnnuelle {
      * Set the mt salarial.
      *
      * @param float $mtSalarial The mt salarial.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setMtSalarial($mtSalarial) {
         $this->mtSalarial = $mtSalarial;
@@ -624,6 +640,7 @@ class LignesDucsAnnuelle {
      * Set the nb cot.
      *
      * @param float $nbCot The nb cot.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setNbCot($nbCot) {
         $this->nbCot = $nbCot;
@@ -634,6 +651,7 @@ class LignesDucsAnnuelle {
      * Set the nb patronal.
      *
      * @param float $nbPatronal The nb patronal.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setNbPatronal($nbPatronal) {
         $this->nbPatronal = $nbPatronal;
@@ -644,6 +662,7 @@ class LignesDucsAnnuelle {
      * Set the nb salarial.
      *
      * @param float $nbSalarial The nb salarial.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setNbSalarial($nbSalarial) {
         $this->nbSalarial = $nbSalarial;
@@ -654,6 +673,7 @@ class LignesDucsAnnuelle {
      * Set the organisme.
      *
      * @param string $organisme The organisme.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setOrganisme($organisme) {
         $this->organisme = $organisme;
@@ -664,6 +684,7 @@ class LignesDucsAnnuelle {
      * Set the periode decla.
      *
      * @param DateTime|null $periodeDecla The periode decla.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setPeriodeDecla(DateTime $periodeDecla = null) {
         $this->periodeDecla = $periodeDecla;
@@ -674,6 +695,7 @@ class LignesDucsAnnuelle {
      * Set the qualifiant cotis.
      *
      * @param string $qualifiantCotis The qualifiant cotis.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setQualifiantCotis($qualifiantCotis) {
         $this->qualifiantCotis = $qualifiantCotis;
@@ -684,6 +706,7 @@ class LignesDucsAnnuelle {
      * Set the somme base.
      *
      * @param float $sommeBase The somme base.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setSommeBase($sommeBase) {
         $this->sommeBase = $sommeBase;
@@ -694,6 +717,7 @@ class LignesDucsAnnuelle {
      * Set the taux at.
      *
      * @param float $tauxAt The taux at.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setTauxAt($tauxAt) {
         $this->tauxAt = $tauxAt;
@@ -704,6 +728,7 @@ class LignesDucsAnnuelle {
      * Set the taux patronal.
      *
      * @param float $tauxPatronal The taux patronal.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setTauxPatronal($tauxPatronal) {
         $this->tauxPatronal = $tauxPatronal;
@@ -714,6 +739,7 @@ class LignesDucsAnnuelle {
      * Set the taux salarial.
      *
      * @param float $tauxSalarial The taux salarial.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setTauxSalarial($tauxSalarial) {
         $this->tauxSalarial = $tauxSalarial;
@@ -724,6 +750,7 @@ class LignesDucsAnnuelle {
      * Set the type base unique.
      *
      * @param bool $typeBaseUnique The type base unique.
+     * @return LignesDucsAnnuelle Returns this Lignes ducs annuelle.
      */
     public function setTypeBaseUnique($typeBaseUnique) {
         $this->typeBaseUnique = $typeBaseUnique;

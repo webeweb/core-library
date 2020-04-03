@@ -62,6 +62,7 @@ class ObligationsLiees {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return ObligationsLiees Returns this Obligations liees.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -72,6 +73,7 @@ class ObligationsLiees {
      * Set the code obligation.
      *
      * @param string $codeObligation The code obligation.
+     * @return ObligationsLiees Returns this Obligations liees.
      */
     public function setCodeObligation($codeObligation) {
         $this->codeObligation = $codeObligation;

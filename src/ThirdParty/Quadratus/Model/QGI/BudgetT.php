@@ -704,6 +704,7 @@ class BudgetT {
      * Set the code assistant juridique.
      *
      * @param string $codeAssistantJuridique The code assistant juridique.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodeAssistantJuridique($codeAssistantJuridique) {
         $this->codeAssistantJuridique = $codeAssistantJuridique;
@@ -714,6 +715,7 @@ class BudgetT {
      * Set the code assistant social.
      *
      * @param string $codeAssistantSocial The code assistant social.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodeAssistantSocial($codeAssistantSocial) {
         $this->codeAssistantSocial = $codeAssistantSocial;
@@ -724,6 +726,7 @@ class BudgetT {
      * Set the code autre1.
      *
      * @param string $codeAutre1 The code autre1.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodeAutre1($codeAutre1) {
         $this->codeAutre1 = $codeAutre1;
@@ -734,6 +737,7 @@ class BudgetT {
      * Set the code autre2.
      *
      * @param string $codeAutre2 The code autre2.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodeAutre2($codeAutre2) {
         $this->codeAutre2 = $codeAutre2;
@@ -744,6 +748,7 @@ class BudgetT {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -754,6 +759,7 @@ class BudgetT {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -764,6 +770,7 @@ class BudgetT {
      * Set the code expert.
      *
      * @param string $codeExpert The code expert.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodeExpert($codeExpert) {
         $this->codeExpert = $codeExpert;
@@ -774,6 +781,7 @@ class BudgetT {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -784,6 +792,7 @@ class BudgetT {
      * Set the code portefeuille.
      *
      * @param string $codePortefeuille The code portefeuille.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCodePortefeuille($codePortefeuille) {
         $this->codePortefeuille = $codePortefeuille;
@@ -794,6 +803,7 @@ class BudgetT {
      * Set the collab auteur.
      *
      * @param string $collabAuteur The collab auteur.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCollabAuteur($collabAuteur) {
         $this->collabAuteur = $collabAuteur;
@@ -804,6 +814,7 @@ class BudgetT {
      * Set the collab valideur.
      *
      * @param string $collabValideur The collab valideur.
+     * @return BudgetT Returns this Budget t.
      */
     public function setCollabValideur($collabValideur) {
         $this->collabValideur = $collabValideur;
@@ -814,6 +825,7 @@ class BudgetT {
      * Set the comment1.
      *
      * @param string $comment1 The comment1.
+     * @return BudgetT Returns this Budget t.
      */
     public function setComment1($comment1) {
         $this->comment1 = $comment1;
@@ -824,6 +836,7 @@ class BudgetT {
      * Set the comment2.
      *
      * @param string $comment2 The comment2.
+     * @return BudgetT Returns this Budget t.
      */
     public function setComment2($comment2) {
         $this->comment2 = $comment2;
@@ -834,6 +847,7 @@ class BudgetT {
      * Set the comment3.
      *
      * @param string $comment3 The comment3.
+     * @return BudgetT Returns this Budget t.
      */
     public function setComment3($comment3) {
         $this->comment3 = $comment3;
@@ -844,6 +858,7 @@ class BudgetT {
      * Set the comment4.
      *
      * @param string $comment4 The comment4.
+     * @return BudgetT Returns this Budget t.
      */
     public function setComment4($comment4) {
         $this->comment4 = $comment4;
@@ -854,6 +869,7 @@ class BudgetT {
      * Set the comment5.
      *
      * @param string $comment5 The comment5.
+     * @return BudgetT Returns this Budget t.
      */
     public function setComment5($comment5) {
         $this->comment5 = $comment5;
@@ -864,6 +880,7 @@ class BudgetT {
      * Set the comment6.
      *
      * @param string $comment6 The comment6.
+     * @return BudgetT Returns this Budget t.
      */
     public function setComment6($comment6) {
         $this->comment6 = $comment6;
@@ -874,6 +891,7 @@ class BudgetT {
      * Set the comment7.
      *
      * @param string $comment7 The comment7.
+     * @return BudgetT Returns this Budget t.
      */
     public function setComment7($comment7) {
         $this->comment7 = $comment7;
@@ -884,6 +902,7 @@ class BudgetT {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return BudgetT Returns this Budget t.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -894,6 +913,7 @@ class BudgetT {
      * Set the date valid.
      *
      * @param DateTime|null $dateValid The date valid.
+     * @return BudgetT Returns this Budget t.
      */
     public function setDateValid(DateTime $dateValid = null) {
         $this->dateValid = $dateValid;
@@ -904,6 +924,7 @@ class BudgetT {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return BudgetT Returns this Budget t.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -914,6 +935,7 @@ class BudgetT {
      * Set the hono prev.
      *
      * @param float $honoPrev The hono prev.
+     * @return BudgetT Returns this Budget t.
      */
     public function setHonoPrev($honoPrev) {
         $this->honoPrev = $honoPrev;
@@ -924,6 +946,7 @@ class BudgetT {
      * Set the libelle1.
      *
      * @param string $libelle1 The libelle1.
+     * @return BudgetT Returns this Budget t.
      */
     public function setLibelle1($libelle1) {
         $this->libelle1 = $libelle1;
@@ -934,6 +957,7 @@ class BudgetT {
      * Set the libelle2.
      *
      * @param string $libelle2 The libelle2.
+     * @return BudgetT Returns this Budget t.
      */
     public function setLibelle2($libelle2) {
         $this->libelle2 = $libelle2;
@@ -944,6 +968,7 @@ class BudgetT {
      * Set the libelle3.
      *
      * @param string $libelle3 The libelle3.
+     * @return BudgetT Returns this Budget t.
      */
     public function setLibelle3($libelle3) {
         $this->libelle3 = $libelle3;
@@ -954,6 +979,7 @@ class BudgetT {
      * Set the libelle4.
      *
      * @param string $libelle4 The libelle4.
+     * @return BudgetT Returns this Budget t.
      */
     public function setLibelle4($libelle4) {
         $this->libelle4 = $libelle4;
@@ -964,6 +990,7 @@ class BudgetT {
      * Set the libelle5.
      *
      * @param string $libelle5 The libelle5.
+     * @return BudgetT Returns this Budget t.
      */
     public function setLibelle5($libelle5) {
         $this->libelle5 = $libelle5;
@@ -974,6 +1001,7 @@ class BudgetT {
      * Set the libelle6.
      *
      * @param string $libelle6 The libelle6.
+     * @return BudgetT Returns this Budget t.
      */
     public function setLibelle6($libelle6) {
         $this->libelle6 = $libelle6;
@@ -984,6 +1012,7 @@ class BudgetT {
      * Set the libelle7.
      *
      * @param string $libelle7 The libelle7.
+     * @return BudgetT Returns this Budget t.
      */
     public function setLibelle7($libelle7) {
         $this->libelle7 = $libelle7;
@@ -994,6 +1023,7 @@ class BudgetT {
      * Set the nbr bulletins.
      *
      * @param int $nbrBulletins The nbr bulletins.
+     * @return BudgetT Returns this Budget t.
      */
     public function setNbrBulletins($nbrBulletins) {
         $this->nbrBulletins = $nbrBulletins;
@@ -1004,6 +1034,7 @@ class BudgetT {
      * Set the nbr ecritures.
      *
      * @param int $nbrEcritures The nbr ecritures.
+     * @return BudgetT Returns this Budget t.
      */
     public function setNbrEcritures($nbrEcritures) {
         $this->nbrEcritures = $nbrEcritures;
@@ -1014,6 +1045,7 @@ class BudgetT {
      * Set the nbr heures.
      *
      * @param float $nbrHeures The nbr heures.
+     * @return BudgetT Returns this Budget t.
      */
     public function setNbrHeures($nbrHeures) {
         $this->nbrHeures = $nbrHeures;
@@ -1024,6 +1056,7 @@ class BudgetT {
      * Set the prix1.
      *
      * @param float $prix1 The prix1.
+     * @return BudgetT Returns this Budget t.
      */
     public function setPrix1($prix1) {
         $this->prix1 = $prix1;
@@ -1034,6 +1067,7 @@ class BudgetT {
      * Set the prix2.
      *
      * @param float $prix2 The prix2.
+     * @return BudgetT Returns this Budget t.
      */
     public function setPrix2($prix2) {
         $this->prix2 = $prix2;
@@ -1044,6 +1078,7 @@ class BudgetT {
      * Set the prix3.
      *
      * @param float $prix3 The prix3.
+     * @return BudgetT Returns this Budget t.
      */
     public function setPrix3($prix3) {
         $this->prix3 = $prix3;
@@ -1054,6 +1089,7 @@ class BudgetT {
      * Set the prix4.
      *
      * @param float $prix4 The prix4.
+     * @return BudgetT Returns this Budget t.
      */
     public function setPrix4($prix4) {
         $this->prix4 = $prix4;
@@ -1064,6 +1100,7 @@ class BudgetT {
      * Set the prix5.
      *
      * @param float $prix5 The prix5.
+     * @return BudgetT Returns this Budget t.
      */
     public function setPrix5($prix5) {
         $this->prix5 = $prix5;
@@ -1074,6 +1111,7 @@ class BudgetT {
      * Set the prix6.
      *
      * @param float $prix6 The prix6.
+     * @return BudgetT Returns this Budget t.
      */
     public function setPrix6($prix6) {
         $this->prix6 = $prix6;
@@ -1084,6 +1122,7 @@ class BudgetT {
      * Set the prix7.
      *
      * @param float $prix7 The prix7.
+     * @return BudgetT Returns this Budget t.
      */
     public function setPrix7($prix7) {
         $this->prix7 = $prix7;
@@ -1094,6 +1133,7 @@ class BudgetT {
      * Set the saisie tache.
      *
      * @param bool $saisieTache The saisie tache.
+     * @return BudgetT Returns this Budget t.
      */
     public function setSaisieTache($saisieTache) {
         $this->saisieTache = $saisieTache;
@@ -1104,6 +1144,7 @@ class BudgetT {
      * Set the type suivi.
      *
      * @param string $typeSuivi The type suivi.
+     * @return BudgetT Returns this Budget t.
      */
     public function setTypeSuivi($typeSuivi) {
         $this->typeSuivi = $typeSuivi;
@@ -1114,6 +1155,7 @@ class BudgetT {
      * Set the valo recap.
      *
      * @param int $valoRecap The valo recap.
+     * @return BudgetT Returns this Budget t.
      */
     public function setValoRecap($valoRecap) {
         $this->valoRecap = $valoRecap;

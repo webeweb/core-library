@@ -96,6 +96,7 @@ class ChargesPaiePrimes {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return ChargesPaiePrimes Returns this Charges paie primes.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -106,6 +107,7 @@ class ChargesPaiePrimes {
      * Set the code prime.
      *
      * @param string $codePrime The code prime.
+     * @return ChargesPaiePrimes Returns this Charges paie primes.
      */
     public function setCodePrime($codePrime) {
         $this->codePrime = $codePrime;
@@ -116,6 +118,7 @@ class ChargesPaiePrimes {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return ChargesPaiePrimes Returns this Charges paie primes.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -126,6 +129,7 @@ class ChargesPaiePrimes {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return ChargesPaiePrimes Returns this Charges paie primes.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

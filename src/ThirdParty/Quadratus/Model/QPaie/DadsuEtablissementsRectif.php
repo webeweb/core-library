@@ -126,6 +126,7 @@ class DadsuEtablissementsRectif {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return DadsuEtablissementsRectif Returns this Dadsu etablissements rectif.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -136,6 +137,7 @@ class DadsuEtablissementsRectif {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return DadsuEtablissementsRectif Returns this Dadsu etablissements rectif.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -146,6 +148,7 @@ class DadsuEtablissementsRectif {
      * Set the forma pro base.
      *
      * @param float $formaProBase The forma pro base.
+     * @return DadsuEtablissementsRectif Returns this Dadsu etablissements rectif.
      */
     public function setFormaProBase($formaProBase) {
         $this->formaProBase = $formaProBase;
@@ -156,6 +159,7 @@ class DadsuEtablissementsRectif {
      * Set the forma pro base cdd.
      *
      * @param float $formaProBaseCdd The forma pro base cdd.
+     * @return DadsuEtablissementsRectif Returns this Dadsu etablissements rectif.
      */
     public function setFormaProBaseCdd($formaProBaseCdd) {
         $this->formaProBaseCdd = $formaProBaseCdd;
@@ -166,6 +170,7 @@ class DadsuEtablissementsRectif {
      * Set the indice rectif.
      *
      * @param int $indiceRectif The indice rectif.
+     * @return DadsuEtablissementsRectif Returns this Dadsu etablissements rectif.
      */
     public function setIndiceRectif($indiceRectif) {
         $this->indiceRectif = $indiceRectif;
@@ -176,6 +181,7 @@ class DadsuEtablissementsRectif {
      * Set the taxe apprentissage base.
      *
      * @param float $taxeApprentissageBase The taxe apprentissage base.
+     * @return DadsuEtablissementsRectif Returns this Dadsu etablissements rectif.
      */
     public function setTaxeApprentissageBase($taxeApprentissageBase) {
         $this->taxeApprentissageBase = $taxeApprentissageBase;

@@ -256,6 +256,7 @@ class ChantiersHistoRev {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -266,6 +267,7 @@ class ChantiersHistoRev {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -276,6 +278,7 @@ class ChantiersHistoRev {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -286,6 +289,7 @@ class ChantiersHistoRev {
      * Set the code formule.
      *
      * @param string $codeFormule The code formule.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setCodeFormule($codeFormule) {
         $this->codeFormule = $codeFormule;
@@ -296,6 +300,7 @@ class ChantiersHistoRev {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -306,6 +311,7 @@ class ChantiersHistoRev {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -316,6 +322,7 @@ class ChantiersHistoRev {
      * Set the date revision.
      *
      * @param DateTime|null $dateRevision The date revision.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setDateRevision(DateTime $dateRevision = null) {
         $this->dateRevision = $dateRevision;
@@ -326,6 +333,7 @@ class ChantiersHistoRev {
      * Set the formule.
      *
      * @param string $formule The formule.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setFormule($formule) {
         $this->formule = $formule;
@@ -336,6 +344,7 @@ class ChantiersHistoRev {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -346,6 +355,7 @@ class ChantiersHistoRev {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -356,6 +366,7 @@ class ChantiersHistoRev {
      * Set the num ligne rev.
      *
      * @param int $numLigneRev The num ligne rev.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setNumLigneRev($numLigneRev) {
         $this->numLigneRev = $numLigneRev;
@@ -366,6 +377,7 @@ class ChantiersHistoRev {
      * Set the periode revisee.
      *
      * @param DateTime|null $periodeRevisee The periode revisee.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setPeriodeRevisee(DateTime $periodeRevisee = null) {
         $this->periodeRevisee = $periodeRevisee;
@@ -376,6 +388,7 @@ class ChantiersHistoRev {
      * Set the pourcentage.
      *
      * @param float $pourcentage The pourcentage.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setPourcentage($pourcentage) {
         $this->pourcentage = $pourcentage;
@@ -386,6 +399,7 @@ class ChantiersHistoRev {
      * Set the refus client.
      *
      * @param bool $refusClient The refus client.
+     * @return ChantiersHistoRev Returns this Chantiers histo rev.
      */
     public function setRefusClient($refusClient) {
         $this->refusClient = $refusClient;

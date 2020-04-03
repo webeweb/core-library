@@ -304,6 +304,7 @@ class Stocks {
      * Set the annee.
      *
      * @param string $annee The annee.
+     * @return Stocks Returns this Stocks.
      */
     public function setAnnee($annee) {
         $this->annee = $annee;
@@ -314,6 +315,7 @@ class Stocks {
      * Set the centre.
      *
      * @param string $centre The centre.
+     * @return Stocks Returns this Stocks.
      */
     public function setCentre($centre) {
         $this->centre = $centre;
@@ -324,6 +326,7 @@ class Stocks {
      * Set the libelle ecriture.
      *
      * @param string $libelleEcriture The libelle ecriture.
+     * @return Stocks Returns this Stocks.
      */
     public function setLibelleEcriture($libelleEcriture) {
         $this->libelleEcriture = $libelleEcriture;
@@ -334,6 +337,7 @@ class Stocks {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return Stocks Returns this Stocks.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -344,6 +348,7 @@ class Stocks {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return Stocks Returns this Stocks.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -354,6 +359,7 @@ class Stocks {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return Stocks Returns this Stocks.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -364,6 +370,7 @@ class Stocks {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Stocks Returns this Stocks.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -374,6 +381,7 @@ class Stocks {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return Stocks Returns this Stocks.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -384,6 +392,7 @@ class Stocks {
      * Set the prix u.
      *
      * @param float $prixU The prix u.
+     * @return Stocks Returns this Stocks.
      */
     public function setPrixU($prixU) {
         $this->prixU = $prixU;
@@ -394,6 +403,7 @@ class Stocks {
      * Set the prix u2.
      *
      * @param float $prixU2 The prix u2.
+     * @return Stocks Returns this Stocks.
      */
     public function setPrixU2($prixU2) {
         $this->prixU2 = $prixU2;
@@ -404,6 +414,7 @@ class Stocks {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return Stocks Returns this Stocks.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -414,6 +425,7 @@ class Stocks {
      * Set the quantite2.
      *
      * @param float $quantite2 The quantite2.
+     * @return Stocks Returns this Stocks.
      */
     public function setQuantite2($quantite2) {
         $this->quantite2 = $quantite2;
@@ -424,6 +436,7 @@ class Stocks {
      * Set the ref ecr code journal.
      *
      * @param string $refEcrCodeJournal The ref ecr code journal.
+     * @return Stocks Returns this Stocks.
      */
     public function setRefEcrCodeJournal($refEcrCodeJournal) {
         $this->refEcrCodeJournal = $refEcrCodeJournal;
@@ -434,6 +447,7 @@ class Stocks {
      * Set the ref ecr folio.
      *
      * @param int $refEcrFolio The ref ecr folio.
+     * @return Stocks Returns this Stocks.
      */
     public function setRefEcrFolio($refEcrFolio) {
         $this->refEcrFolio = $refEcrFolio;
@@ -444,6 +458,7 @@ class Stocks {
      * Set the ref ecr ligne folio.
      *
      * @param int $refEcrLigneFolio The ref ecr ligne folio.
+     * @return Stocks Returns this Stocks.
      */
     public function setRefEcrLigneFolio($refEcrLigneFolio) {
         $this->refEcrLigneFolio = $refEcrLigneFolio;
@@ -454,6 +469,7 @@ class Stocks {
      * Set the ref ecr num ligne.
      *
      * @param int $refEcrNumLigne The ref ecr num ligne.
+     * @return Stocks Returns this Stocks.
      */
     public function setRefEcrNumLigne($refEcrNumLigne) {
         $this->refEcrNumLigne = $refEcrNumLigne;
@@ -464,6 +480,7 @@ class Stocks {
      * Set the ref ecr periode ecriture.
      *
      * @param DateTime|null $refEcrPeriodeEcriture The ref ecr periode ecriture.
+     * @return Stocks Returns this Stocks.
      */
     public function setRefEcrPeriodeEcriture(DateTime $refEcrPeriodeEcriture = null) {
         $this->refEcrPeriodeEcriture = $refEcrPeriodeEcriture;

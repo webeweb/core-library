@@ -464,6 +464,7 @@ class TranchesSiBul {
      * Set the brut al sans si.
      *
      * @param float $brutAlSansSi The brut al sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setBrutAlSansSi($brutAlSansSi) {
         $this->brutAlSansSi = $brutAlSansSi;
@@ -474,6 +475,7 @@ class TranchesSiBul {
      * Set the cum brut al sans si.
      *
      * @param float $cumBrutAlSansSi The cum brut al sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumBrutAlSansSi($cumBrutAlSansSi) {
         $this->cumBrutAlSansSi = $cumBrutAlSansSi;
@@ -484,6 +486,7 @@ class TranchesSiBul {
      * Set the cum tot si.
      *
      * @param float $cumTotSi The cum tot si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTotSi($cumTotSi) {
         $this->cumTotSi = $cumTotSi;
@@ -494,6 +497,7 @@ class TranchesSiBul {
      * Set the cum tranche2 sans si.
      *
      * @param float $cumTranche2SansSi The cum tranche2 sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTranche2SansSi($cumTranche2SansSi) {
         $this->cumTranche2SansSi = $cumTranche2SansSi;
@@ -504,6 +508,7 @@ class TranchesSiBul {
      * Set the cum tranche2 si.
      *
      * @param float $cumTranche2Si The cum tranche2 si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTranche2Si($cumTranche2Si) {
         $this->cumTranche2Si = $cumTranche2Si;
@@ -514,6 +519,7 @@ class TranchesSiBul {
      * Set the cum tranche a sans si.
      *
      * @param float $cumTrancheASansSi The cum tranche a sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTrancheASansSi($cumTrancheASansSi) {
         $this->cumTrancheASansSi = $cumTrancheASansSi;
@@ -524,6 +530,7 @@ class TranchesSiBul {
      * Set the cum tranche asi.
      *
      * @param float $cumTrancheAsi The cum tranche asi.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTrancheAsi($cumTrancheAsi) {
         $this->cumTrancheAsi = $cumTrancheAsi;
@@ -534,6 +541,7 @@ class TranchesSiBul {
      * Set the cum tranche b sans si.
      *
      * @param float $cumTrancheBSansSi The cum tranche b sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTrancheBSansSi($cumTrancheBSansSi) {
         $this->cumTrancheBSansSi = $cumTrancheBSansSi;
@@ -544,6 +552,7 @@ class TranchesSiBul {
      * Set the cum tranche bsi.
      *
      * @param float $cumTrancheBsi The cum tranche bsi.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTrancheBsi($cumTrancheBsi) {
         $this->cumTrancheBsi = $cumTrancheBsi;
@@ -554,6 +563,7 @@ class TranchesSiBul {
      * Set the cum tranche c sans si.
      *
      * @param float $cumTrancheCSansSi The cum tranche c sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTrancheCSansSi($cumTrancheCSansSi) {
         $this->cumTrancheCSansSi = $cumTrancheCSansSi;
@@ -564,6 +574,7 @@ class TranchesSiBul {
      * Set the cum tranche csi.
      *
      * @param float $cumTrancheCsi The cum tranche csi.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTrancheCsi($cumTrancheCsi) {
         $this->cumTrancheCsi = $cumTrancheCsi;
@@ -574,6 +585,7 @@ class TranchesSiBul {
      * Set the cum tranche d1 sans si.
      *
      * @param float $cumTrancheD1SansSi The cum tranche d1 sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTrancheD1SansSi($cumTrancheD1SansSi) {
         $this->cumTrancheD1SansSi = $cumTrancheD1SansSi;
@@ -584,6 +596,7 @@ class TranchesSiBul {
      * Set the cum tranche d sans si.
      *
      * @param float $cumTrancheDSansSi The cum tranche d sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setCumTrancheDSansSi($cumTrancheDSansSi) {
         $this->cumTrancheDSansSi = $cumTrancheDSansSi;
@@ -594,6 +607,7 @@ class TranchesSiBul {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -604,6 +618,7 @@ class TranchesSiBul {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -614,6 +629,7 @@ class TranchesSiBul {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -624,6 +640,7 @@ class TranchesSiBul {
      * Set the tot si.
      *
      * @param float $totSi The tot si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTotSi($totSi) {
         $this->totSi = $totSi;
@@ -634,6 +651,7 @@ class TranchesSiBul {
      * Set the tranche2 sans si.
      *
      * @param float $tranche2SansSi The tranche2 sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTranche2SansSi($tranche2SansSi) {
         $this->tranche2SansSi = $tranche2SansSi;
@@ -644,6 +662,7 @@ class TranchesSiBul {
      * Set the tranche2 si.
      *
      * @param float $tranche2Si The tranche2 si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTranche2Si($tranche2Si) {
         $this->tranche2Si = $tranche2Si;
@@ -654,6 +673,7 @@ class TranchesSiBul {
      * Set the tranche a sans si.
      *
      * @param float $trancheASansSi The tranche a sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTrancheASansSi($trancheASansSi) {
         $this->trancheASansSi = $trancheASansSi;
@@ -664,6 +684,7 @@ class TranchesSiBul {
      * Set the tranche asi.
      *
      * @param float $trancheAsi The tranche asi.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTrancheAsi($trancheAsi) {
         $this->trancheAsi = $trancheAsi;
@@ -674,6 +695,7 @@ class TranchesSiBul {
      * Set the tranche b sans si.
      *
      * @param float $trancheBSansSi The tranche b sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTrancheBSansSi($trancheBSansSi) {
         $this->trancheBSansSi = $trancheBSansSi;
@@ -684,6 +706,7 @@ class TranchesSiBul {
      * Set the tranche bsi.
      *
      * @param float $trancheBsi The tranche bsi.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTrancheBsi($trancheBsi) {
         $this->trancheBsi = $trancheBsi;
@@ -694,6 +717,7 @@ class TranchesSiBul {
      * Set the tranche c sans si.
      *
      * @param float $trancheCSansSi The tranche c sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTrancheCSansSi($trancheCSansSi) {
         $this->trancheCSansSi = $trancheCSansSi;
@@ -704,6 +728,7 @@ class TranchesSiBul {
      * Set the tranche csi.
      *
      * @param float $trancheCsi The tranche csi.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTrancheCsi($trancheCsi) {
         $this->trancheCsi = $trancheCsi;
@@ -714,6 +739,7 @@ class TranchesSiBul {
      * Set the tranche d1 sans si.
      *
      * @param float $trancheD1SansSi The tranche d1 sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTrancheD1SansSi($trancheD1SansSi) {
         $this->trancheD1SansSi = $trancheD1SansSi;
@@ -724,6 +750,7 @@ class TranchesSiBul {
      * Set the tranche d sans si.
      *
      * @param float $trancheDSansSi The tranche d sans si.
+     * @return TranchesSiBul Returns this Tranches si bul.
      */
     public function setTrancheDSansSi($trancheDSansSi) {
         $this->trancheDSansSi = $trancheDSansSi;

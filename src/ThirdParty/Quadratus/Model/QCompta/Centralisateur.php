@@ -240,6 +240,7 @@ class Centralisateur {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -250,6 +251,7 @@ class Centralisateur {
      * Set the credit classe15.
      *
      * @param float $creditClasse15 The credit classe15.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setCreditClasse15($creditClasse15) {
         $this->creditClasse15 = $creditClasse15;
@@ -260,6 +262,7 @@ class Centralisateur {
      * Set the credit classe67.
      *
      * @param float $creditClasse67 The credit classe67.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setCreditClasse67($creditClasse67) {
         $this->creditClasse67 = $creditClasse67;
@@ -270,6 +273,7 @@ class Centralisateur {
      * Set the credit client.
      *
      * @param float $creditClient The credit client.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setCreditClient($creditClient) {
         $this->creditClient = $creditClient;
@@ -280,6 +284,7 @@ class Centralisateur {
      * Set the credit fournisseur.
      *
      * @param float $creditFournisseur The credit fournisseur.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setCreditFournisseur($creditFournisseur) {
         $this->creditFournisseur = $creditFournisseur;
@@ -290,6 +295,7 @@ class Centralisateur {
      * Set the debit classe15.
      *
      * @param float $debitClasse15 The debit classe15.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setDebitClasse15($debitClasse15) {
         $this->debitClasse15 = $debitClasse15;
@@ -300,6 +306,7 @@ class Centralisateur {
      * Set the debit classe67.
      *
      * @param float $debitClasse67 The debit classe67.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setDebitClasse67($debitClasse67) {
         $this->debitClasse67 = $debitClasse67;
@@ -310,6 +317,7 @@ class Centralisateur {
      * Set the debit client.
      *
      * @param float $debitClient The debit client.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setDebitClient($debitClient) {
         $this->debitClient = $debitClient;
@@ -320,6 +328,7 @@ class Centralisateur {
      * Set the debit fournisseur.
      *
      * @param float $debitFournisseur The debit fournisseur.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setDebitFournisseur($debitFournisseur) {
         $this->debitFournisseur = $debitFournisseur;
@@ -330,6 +339,7 @@ class Centralisateur {
      * Set the folio.
      *
      * @param int $folio The folio.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setFolio($folio) {
         $this->folio = $folio;
@@ -340,6 +350,7 @@ class Centralisateur {
      * Set the nb ligne folio.
      *
      * @param int $nbLigneFolio The nb ligne folio.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setNbLigneFolio($nbLigneFolio) {
         $this->nbLigneFolio = $nbLigneFolio;
@@ -350,6 +361,7 @@ class Centralisateur {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -360,6 +372,7 @@ class Centralisateur {
      * Set the prochaine ligne.
      *
      * @param int $prochaineLigne The prochaine ligne.
+     * @return Centralisateur Returns this Centralisateur.
      */
     public function setProchaineLigne($prochaineLigne) {
         $this->prochaineLigne = $prochaineLigne;

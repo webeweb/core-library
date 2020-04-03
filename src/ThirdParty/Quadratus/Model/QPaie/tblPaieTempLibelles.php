@@ -94,6 +94,7 @@ class tblPaieTempLibelles {
      * Set the code.
      *
      * @param string $code The code.
+     * @return tblPaieTempLibelles Returns this tbl paie temp libelles.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -104,6 +105,7 @@ class tblPaieTempLibelles {
      * Set the code calcul.
      *
      * @param string $codeCalcul The code calcul.
+     * @return tblPaieTempLibelles Returns this tbl paie temp libelles.
      */
     public function setCodeCalcul($codeCalcul) {
         $this->codeCalcul = $codeCalcul;
@@ -114,6 +116,7 @@ class tblPaieTempLibelles {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return tblPaieTempLibelles Returns this tbl paie temp libelles.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -124,6 +127,7 @@ class tblPaieTempLibelles {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return tblPaieTempLibelles Returns this tbl paie temp libelles.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;

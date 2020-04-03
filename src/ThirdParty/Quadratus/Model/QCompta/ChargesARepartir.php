@@ -208,6 +208,7 @@ class ChargesARepartir {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -218,6 +219,7 @@ class ChargesARepartir {
      * Set the coeff degressif.
      *
      * @param float $coeffDegressif The coeff degressif.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setCoeffDegressif($coeffDegressif) {
         $this->coeffDegressif = $coeffDegressif;
@@ -228,6 +230,7 @@ class ChargesARepartir {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -238,6 +241,7 @@ class ChargesARepartir {
      * Set the duree.
      *
      * @param float $duree The duree.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setDuree($duree) {
         $this->duree = $duree;
@@ -248,6 +252,7 @@ class ChargesARepartir {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -258,6 +263,7 @@ class ChargesARepartir {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -268,6 +274,7 @@ class ChargesARepartir {
      * Set the num contrat.
      *
      * @param string $numContrat The num contrat.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setNumContrat($numContrat) {
         $this->numContrat = $numContrat;
@@ -278,6 +285,7 @@ class ChargesARepartir {
      * Set the num cpt car.
      *
      * @param string $numCptCar The num cpt car.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setNumCptCar($numCptCar) {
         $this->numCptCar = $numCptCar;
@@ -288,6 +296,7 @@ class ChargesARepartir {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -298,6 +307,7 @@ class ChargesARepartir {
      * Set the taux lineaire.
      *
      * @param float $tauxLineaire The taux lineaire.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setTauxLineaire($tauxLineaire) {
         $this->tauxLineaire = $tauxLineaire;
@@ -308,6 +318,7 @@ class ChargesARepartir {
      * Set the type amort.
      *
      * @param string $typeAmort The type amort.
+     * @return ChargesARepartir Returns this Charges a repartir.
      */
     public function setTypeAmort($typeAmort) {
         $this->typeAmort = $typeAmort;

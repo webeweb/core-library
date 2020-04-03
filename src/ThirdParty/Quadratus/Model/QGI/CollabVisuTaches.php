@@ -62,6 +62,7 @@ class CollabVisuTaches {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return CollabVisuTaches Returns this Collab visu taches.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -72,6 +73,7 @@ class CollabVisuTaches {
      * Set the code tache visu.
      *
      * @param string $codeTacheVisu The code tache visu.
+     * @return CollabVisuTaches Returns this Collab visu taches.
      */
     public function setCodeTacheVisu($codeTacheVisu) {
         $this->codeTacheVisu = $codeTacheVisu;

@@ -288,6 +288,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande1.
      *
      * @param float $budgetCommande1 The budget commande1.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande1($budgetCommande1) {
         $this->budgetCommande1 = $budgetCommande1;
@@ -298,6 +299,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande10.
      *
      * @param float $budgetCommande10 The budget commande10.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande10($budgetCommande10) {
         $this->budgetCommande10 = $budgetCommande10;
@@ -308,6 +310,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande11.
      *
      * @param float $budgetCommande11 The budget commande11.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande11($budgetCommande11) {
         $this->budgetCommande11 = $budgetCommande11;
@@ -318,6 +321,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande12.
      *
      * @param float $budgetCommande12 The budget commande12.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande12($budgetCommande12) {
         $this->budgetCommande12 = $budgetCommande12;
@@ -328,6 +332,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande2.
      *
      * @param float $budgetCommande2 The budget commande2.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande2($budgetCommande2) {
         $this->budgetCommande2 = $budgetCommande2;
@@ -338,6 +343,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande3.
      *
      * @param float $budgetCommande3 The budget commande3.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande3($budgetCommande3) {
         $this->budgetCommande3 = $budgetCommande3;
@@ -348,6 +354,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande4.
      *
      * @param float $budgetCommande4 The budget commande4.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande4($budgetCommande4) {
         $this->budgetCommande4 = $budgetCommande4;
@@ -358,6 +365,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande5.
      *
      * @param float $budgetCommande5 The budget commande5.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande5($budgetCommande5) {
         $this->budgetCommande5 = $budgetCommande5;
@@ -368,6 +376,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande6.
      *
      * @param float $budgetCommande6 The budget commande6.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande6($budgetCommande6) {
         $this->budgetCommande6 = $budgetCommande6;
@@ -378,6 +387,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande7.
      *
      * @param float $budgetCommande7 The budget commande7.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande7($budgetCommande7) {
         $this->budgetCommande7 = $budgetCommande7;
@@ -388,6 +398,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande8.
      *
      * @param float $budgetCommande8 The budget commande8.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande8($budgetCommande8) {
         $this->budgetCommande8 = $budgetCommande8;
@@ -398,6 +409,7 @@ class ChantiersBudgetCommande {
      * Set the budget commande9.
      *
      * @param float $budgetCommande9 The budget commande9.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setBudgetCommande9($budgetCommande9) {
         $this->budgetCommande9 = $budgetCommande9;
@@ -408,6 +420,7 @@ class ChantiersBudgetCommande {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -418,6 +431,7 @@ class ChantiersBudgetCommande {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -428,6 +442,7 @@ class ChantiersBudgetCommande {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -438,6 +453,7 @@ class ChantiersBudgetCommande {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return ChantiersBudgetCommande Returns this Chantiers budget commande.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

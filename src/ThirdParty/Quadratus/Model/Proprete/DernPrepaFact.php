@@ -144,6 +144,7 @@ class DernPrepaFact {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DernPrepaFact Returns this Dern prepa fact.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -154,6 +155,7 @@ class DernPrepaFact {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DernPrepaFact Returns this Dern prepa fact.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -164,6 +166,7 @@ class DernPrepaFact {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DernPrepaFact Returns this Dern prepa fact.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -174,6 +177,7 @@ class DernPrepaFact {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return DernPrepaFact Returns this Dern prepa fact.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -184,6 +188,7 @@ class DernPrepaFact {
      * Set the dt prepa.
      *
      * @param DateTime|null $dtPrepa The dt prepa.
+     * @return DernPrepaFact Returns this Dern prepa fact.
      */
     public function setDtPrepa(DateTime $dtPrepa = null) {
         $this->dtPrepa = $dtPrepa;
@@ -194,6 +199,7 @@ class DernPrepaFact {
      * Set the no chrono preparation.
      *
      * @param int $noChronoPreparation The no chrono preparation.
+     * @return DernPrepaFact Returns this Dern prepa fact.
      */
     public function setNoChronoPreparation($noChronoPreparation) {
         $this->noChronoPreparation = $noChronoPreparation;
@@ -204,6 +210,7 @@ class DernPrepaFact {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return DernPrepaFact Returns this Dern prepa fact.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

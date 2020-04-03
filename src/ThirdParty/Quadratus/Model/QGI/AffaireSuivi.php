@@ -144,6 +144,7 @@ class AffaireSuivi {
      * Set the avancement.
      *
      * @param float $avancement The avancement.
+     * @return AffaireSuivi Returns this Affaire suivi.
      */
     public function setAvancement($avancement) {
         $this->avancement = $avancement;
@@ -154,6 +155,7 @@ class AffaireSuivi {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AffaireSuivi Returns this Affaire suivi.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -164,6 +166,7 @@ class AffaireSuivi {
      * Set the code phase.
      *
      * @param string $codePhase The code phase.
+     * @return AffaireSuivi Returns this Affaire suivi.
      */
     public function setCodePhase($codePhase) {
         $this->codePhase = $codePhase;
@@ -174,6 +177,7 @@ class AffaireSuivi {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return AffaireSuivi Returns this Affaire suivi.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -184,6 +188,7 @@ class AffaireSuivi {
      * Set the date bilan.
      *
      * @param DateTime|null $dateBilan The date bilan.
+     * @return AffaireSuivi Returns this Affaire suivi.
      */
     public function setDateBilan(DateTime $dateBilan = null) {
         $this->dateBilan = $dateBilan;
@@ -194,6 +199,7 @@ class AffaireSuivi {
      * Set the liste collab.
      *
      * @param string $listeCollab The liste collab.
+     * @return AffaireSuivi Returns this Affaire suivi.
      */
     public function setListeCollab($listeCollab) {
         $this->listeCollab = $listeCollab;
@@ -204,6 +210,7 @@ class AffaireSuivi {
      * Set the nb heures previsionnel.
      *
      * @param float $nbHeuresPrevisionnel The nb heures previsionnel.
+     * @return AffaireSuivi Returns this Affaire suivi.
      */
     public function setNbHeuresPrevisionnel($nbHeuresPrevisionnel) {
         $this->nbHeuresPrevisionnel = $nbHeuresPrevisionnel;

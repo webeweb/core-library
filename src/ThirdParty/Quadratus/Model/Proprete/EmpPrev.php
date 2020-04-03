@@ -368,6 +368,7 @@ class EmpPrev {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -378,6 +379,7 @@ class EmpPrev {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -388,6 +390,7 @@ class EmpPrev {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -398,6 +401,7 @@ class EmpPrev {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -408,6 +412,7 @@ class EmpPrev {
      * Set the date abs decalee.
      *
      * @param DateTime|null $dateAbsDecalee The date abs decalee.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setDateAbsDecalee(DateTime $dateAbsDecalee = null) {
         $this->dateAbsDecalee = $dateAbsDecalee;
@@ -418,6 +423,7 @@ class EmpPrev {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -428,6 +434,7 @@ class EmpPrev {
      * Set the dim type2.
      *
      * @param string $dimType2 The dim type2.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setDimType2($dimType2) {
         $this->dimType2 = $dimType2;
@@ -438,6 +445,7 @@ class EmpPrev {
      * Set the discr tache.
      *
      * @param int $discrTache The discr tache.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setDiscrTache($discrTache) {
         $this->discrTache = $discrTache;
@@ -448,6 +456,7 @@ class EmpPrev {
      * Set the duree.
      *
      * @param DateTime|null $duree The duree.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setDuree(DateTime $duree = null) {
         $this->duree = $duree;
@@ -458,6 +467,7 @@ class EmpPrev {
      * Set the employe remplace.
      *
      * @param string $employeRemplace The employe remplace.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setEmployeRemplace($employeRemplace) {
         $this->employeRemplace = $employeRemplace;
@@ -468,6 +478,7 @@ class EmpPrev {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -478,6 +489,7 @@ class EmpPrev {
      * Set the h nuit type2.
      *
      * @param string $hNuitType2 The h nuit type2.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setHNuitType2($hNuitType2) {
         $this->hNuitType2 = $hNuitType2;
@@ -488,6 +500,7 @@ class EmpPrev {
      * Set the heure deb.
      *
      * @param DateTime|null $heureDeb The heure deb.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setHeureDeb(DateTime $heureDeb = null) {
         $this->heureDeb = $heureDeb;
@@ -498,6 +511,7 @@ class EmpPrev {
      * Set the jf type2.
      *
      * @param string $jfType2 The jf type2.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setJfType2($jfType2) {
         $this->jfType2 = $jfType2;
@@ -508,6 +522,7 @@ class EmpPrev {
      * Set the nb chambres.
      *
      * @param float $nbChambres The nb chambres.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setNbChambres($nbChambres) {
         $this->nbChambres = $nbChambres;
@@ -518,6 +533,7 @@ class EmpPrev {
      * Set the note memo.
      *
      * @param string $noteMemo The note memo.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setNoteMemo($noteMemo) {
         $this->noteMemo = $noteMemo;
@@ -528,6 +544,7 @@ class EmpPrev {
      * Set the num chrono.
      *
      * @param int $numChrono The num chrono.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setNumChrono($numChrono) {
         $this->numChrono = $numChrono;
@@ -538,6 +555,7 @@ class EmpPrev {
      * Set the pointage.
      *
      * @param bool $pointage The pointage.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setPointage($pointage) {
         $this->pointage = $pointage;
@@ -548,6 +566,7 @@ class EmpPrev {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;
@@ -558,6 +577,7 @@ class EmpPrev {
      * Set the uniq id planning.
      *
      * @param string $uniqIdPlanning The uniq id planning.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setUniqIdPlanning($uniqIdPlanning) {
         $this->uniqIdPlanning = $uniqIdPlanning;
@@ -568,6 +588,7 @@ class EmpPrev {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return EmpPrev Returns this Emp prev.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

@@ -1136,6 +1136,7 @@ class DevisCommercialEntetes {
      * Set the ad int btq.
      *
      * @param string $adIntBtq The ad int btq.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setAdIntBtq($adIntBtq) {
         $this->adIntBtq = $adIntBtq;
@@ -1146,6 +1147,7 @@ class DevisCommercialEntetes {
      * Set the ad int bureau distributeur.
      *
      * @param string $adIntBureauDistributeur The ad int bureau distributeur.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setAdIntBureauDistributeur($adIntBureauDistributeur) {
         $this->adIntBureauDistributeur = $adIntBureauDistributeur;
@@ -1156,6 +1158,7 @@ class DevisCommercialEntetes {
      * Set the ad int code pays.
      *
      * @param string $adIntCodePays The ad int code pays.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setAdIntCodePays($adIntCodePays) {
         $this->adIntCodePays = $adIntCodePays;
@@ -1166,6 +1169,7 @@ class DevisCommercialEntetes {
      * Set the ad int code postal.
      *
      * @param string $adIntCodePostal The ad int code postal.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setAdIntCodePostal($adIntCodePostal) {
         $this->adIntCodePostal = $adIntCodePostal;
@@ -1176,6 +1180,7 @@ class DevisCommercialEntetes {
      * Set the ad int complement.
      *
      * @param string $adIntComplement The ad int complement.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setAdIntComplement($adIntComplement) {
         $this->adIntComplement = $adIntComplement;
@@ -1186,6 +1191,7 @@ class DevisCommercialEntetes {
      * Set the ad int nom.
      *
      * @param string $adIntNom The ad int nom.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setAdIntNom($adIntNom) {
         $this->adIntNom = $adIntNom;
@@ -1196,6 +1202,7 @@ class DevisCommercialEntetes {
      * Set the ad int nom voie.
      *
      * @param string $adIntNomVoie The ad int nom voie.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setAdIntNomVoie($adIntNomVoie) {
         $this->adIntNomVoie = $adIntNomVoie;
@@ -1206,6 +1213,7 @@ class DevisCommercialEntetes {
      * Set the ad int num voie.
      *
      * @param string $adIntNumVoie The ad int num voie.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setAdIntNumVoie($adIntNumVoie) {
         $this->adIntNumVoie = $adIntNumVoie;
@@ -1216,6 +1224,7 @@ class DevisCommercialEntetes {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -1226,6 +1235,7 @@ class DevisCommercialEntetes {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -1236,6 +1246,7 @@ class DevisCommercialEntetes {
      * Set the civilite.
      *
      * @param string $civilite The civilite.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCivilite($civilite) {
         $this->civilite = $civilite;
@@ -1246,6 +1257,7 @@ class DevisCommercialEntetes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -1256,6 +1268,7 @@ class DevisCommercialEntetes {
      * Set the code anal client.
      *
      * @param string $codeAnalClient The code anal client.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeAnalClient($codeAnalClient) {
         $this->codeAnalClient = $codeAnalClient;
@@ -1266,6 +1279,7 @@ class DevisCommercialEntetes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -1276,6 +1290,7 @@ class DevisCommercialEntetes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -1286,6 +1301,7 @@ class DevisCommercialEntetes {
      * Set the code client fact.
      *
      * @param string $codeClientFact The code client fact.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeClientFact($codeClientFact) {
         $this->codeClientFact = $codeClientFact;
@@ -1296,6 +1312,7 @@ class DevisCommercialEntetes {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -1306,6 +1323,7 @@ class DevisCommercialEntetes {
      * Set the code factor.
      *
      * @param string $codeFactor The code factor.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeFactor($codeFactor) {
         $this->codeFactor = $codeFactor;
@@ -1316,6 +1334,7 @@ class DevisCommercialEntetes {
      * Set the code langue designation article.
      *
      * @param string $codeLangueDesignationArticle The code langue designation article.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeLangueDesignationArticle($codeLangueDesignationArticle) {
         $this->codeLangueDesignationArticle = $codeLangueDesignationArticle;
@@ -1326,6 +1345,7 @@ class DevisCommercialEntetes {
      * Set the code mode reglement.
      *
      * @param string $codeModeReglement The code mode reglement.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeModeReglement($codeModeReglement) {
         $this->codeModeReglement = $codeModeReglement;
@@ -1336,6 +1356,7 @@ class DevisCommercialEntetes {
      * Set the code pays.
      *
      * @param string $codePays The code pays.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodePays($codePays) {
         $this->codePays = $codePays;
@@ -1346,6 +1367,7 @@ class DevisCommercialEntetes {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -1356,6 +1378,7 @@ class DevisCommercialEntetes {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -1366,6 +1389,7 @@ class DevisCommercialEntetes {
      * Set the code representant.
      *
      * @param string $codeRepresentant The code representant.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeRepresentant($codeRepresentant) {
         $this->codeRepresentant = $codeRepresentant;
@@ -1376,6 +1400,7 @@ class DevisCommercialEntetes {
      * Set the code tva client.
      *
      * @param string $codeTvaClient The code tva client.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeTvaClient($codeTvaClient) {
         $this->codeTvaClient = $codeTvaClient;
@@ -1386,6 +1411,7 @@ class DevisCommercialEntetes {
      * Set the code ventil client.
      *
      * @param string $codeVentilClient The code ventil client.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setCodeVentilClient($codeVentilClient) {
         $this->codeVentilClient = $codeVentilClient;
@@ -1396,6 +1422,7 @@ class DevisCommercialEntetes {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -1406,6 +1433,7 @@ class DevisCommercialEntetes {
      * Set the date acceptation.
      *
      * @param DateTime|null $dateAcceptation The date acceptation.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setDateAcceptation(DateTime $dateAcceptation = null) {
         $this->dateAcceptation = $dateAcceptation;
@@ -1416,6 +1444,7 @@ class DevisCommercialEntetes {
      * Set the date devis.
      *
      * @param DateTime|null $dateDevis The date devis.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setDateDevis(DateTime $dateDevis = null) {
         $this->dateDevis = $dateDevis;
@@ -1426,6 +1455,7 @@ class DevisCommercialEntetes {
      * Set the date echeance.
      *
      * @param DateTime|null $dateEcheance The date echeance.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setDateEcheance(DateTime $dateEcheance = null) {
         $this->dateEcheance = $dateEcheance;
@@ -1436,6 +1466,7 @@ class DevisCommercialEntetes {
      * Set the date validation.
      *
      * @param DateTime|null $dateValidation The date validation.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setDateValidation(DateTime $dateValidation = null) {
         $this->dateValidation = $dateValidation;
@@ -1446,6 +1477,7 @@ class DevisCommercialEntetes {
      * Set the devis euros.
      *
      * @param bool $devisEuros The devis euros.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setDevisEuros($devisEuros) {
         $this->devisEuros = $devisEuros;
@@ -1456,6 +1488,7 @@ class DevisCommercialEntetes {
      * Set the devis vm.
      *
      * @param bool $devisVm The devis vm.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setDevisVm($devisVm) {
         $this->devisVm = $devisVm;
@@ -1466,6 +1499,7 @@ class DevisCommercialEntetes {
      * Set the echeance depart.
      *
      * @param string $echeanceDepart The echeance depart.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setEcheanceDepart($echeanceDepart) {
         $this->echeanceDepart = $echeanceDepart;
@@ -1476,6 +1510,7 @@ class DevisCommercialEntetes {
      * Set the echeance forcee.
      *
      * @param bool $echeanceForcee The echeance forcee.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setEcheanceForcee($echeanceForcee) {
         $this->echeanceForcee = $echeanceForcee;
@@ -1486,6 +1521,7 @@ class DevisCommercialEntetes {
      * Set the echeance le.
      *
      * @param string $echeanceLe The echeance le.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setEcheanceLe($echeanceLe) {
         $this->echeanceLe = $echeanceLe;
@@ -1496,6 +1532,7 @@ class DevisCommercialEntetes {
      * Set the echeance nb jours.
      *
      * @param int $echeanceNbJours The echeance nb jours.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setEcheanceNbJours($echeanceNbJours) {
         $this->echeanceNbJours = $echeanceNbJours;
@@ -1506,6 +1543,7 @@ class DevisCommercialEntetes {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -1516,6 +1554,7 @@ class DevisCommercialEntetes {
      * Set the fonction commercial.
      *
      * @param string $fonctionCommercial The fonction commercial.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setFonctionCommercial($fonctionCommercial) {
         $this->fonctionCommercial = $fonctionCommercial;
@@ -1526,6 +1565,7 @@ class DevisCommercialEntetes {
      * Set the interlocuteur.
      *
      * @param string $interlocuteur The interlocuteur.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setInterlocuteur($interlocuteur) {
         $this->interlocuteur = $interlocuteur;
@@ -1536,6 +1576,7 @@ class DevisCommercialEntetes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -1546,6 +1587,7 @@ class DevisCommercialEntetes {
      * Set the libelle transf cpta.
      *
      * @param string $libelleTransfCpta The libelle transf cpta.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setLibelleTransfCpta($libelleTransfCpta) {
         $this->libelleTransfCpta = $libelleTransfCpta;
@@ -1556,6 +1598,7 @@ class DevisCommercialEntetes {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -1566,6 +1609,7 @@ class DevisCommercialEntetes {
      * Set the mention libre.
      *
      * @param string $mentionLibre The mention libre.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setMentionLibre($mentionLibre) {
         $this->mentionLibre = $mentionLibre;
@@ -1576,6 +1620,7 @@ class DevisCommercialEntetes {
      * Set the montant acompte.
      *
      * @param float $montantAcompte The montant acompte.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setMontantAcompte($montantAcompte) {
         $this->montantAcompte = $montantAcompte;
@@ -1586,6 +1631,7 @@ class DevisCommercialEntetes {
      * Set the montant htpx.
      *
      * @param float $montantHtpx The montant htpx.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setMontantHtpx($montantHtpx) {
         $this->montantHtpx = $montantHtpx;
@@ -1596,6 +1642,7 @@ class DevisCommercialEntetes {
      * Set the montant htvm.
      *
      * @param float $montantHtvm The montant htvm.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setMontantHtvm($montantHtvm) {
         $this->montantHtvm = $montantHtvm;
@@ -1606,6 +1653,7 @@ class DevisCommercialEntetes {
      * Set the montant ttc.
      *
      * @param float $montantTtc The montant ttc.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setMontantTtc($montantTtc) {
         $this->montantTtc = $montantTtc;
@@ -1616,6 +1664,7 @@ class DevisCommercialEntetes {
      * Set the nom client.
      *
      * @param string $nomClient The nom client.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNomClient($nomClient) {
         $this->nomClient = $nomClient;
@@ -1626,6 +1675,7 @@ class DevisCommercialEntetes {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -1636,6 +1686,7 @@ class DevisCommercialEntetes {
      * Set the nom suite2.
      *
      * @param string $nomSuite2 The nom suite2.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNomSuite2($nomSuite2) {
         $this->nomSuite2 = $nomSuite2;
@@ -1646,6 +1697,7 @@ class DevisCommercialEntetes {
      * Set the nom suite3.
      *
      * @param string $nomSuite3 The nom suite3.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNomSuite3($nomSuite3) {
         $this->nomSuite3 = $nomSuite3;
@@ -1656,6 +1708,7 @@ class DevisCommercialEntetes {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -1666,6 +1719,7 @@ class DevisCommercialEntetes {
      * Set the nombre echeances.
      *
      * @param string $nombreEcheances The nombre echeances.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -1676,6 +1730,7 @@ class DevisCommercialEntetes {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -1686,6 +1741,7 @@ class DevisCommercialEntetes {
      * Set the numero devis.
      *
      * @param string $numeroDevis The numero devis.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNumeroDevis($numeroDevis) {
         $this->numeroDevis = $numeroDevis;
@@ -1696,6 +1752,7 @@ class DevisCommercialEntetes {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -1706,6 +1763,7 @@ class DevisCommercialEntetes {
      * Set the prestation.
      *
      * @param string $prestation The prestation.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setPrestation($prestation) {
         $this->prestation = $prestation;
@@ -1716,6 +1774,7 @@ class DevisCommercialEntetes {
      * Set the reference1.
      *
      * @param string $reference1 The reference1.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setReference1($reference1) {
         $this->reference1 = $reference1;
@@ -1726,6 +1785,7 @@ class DevisCommercialEntetes {
      * Set the reference2.
      *
      * @param string $reference2 The reference2.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setReference2($reference2) {
         $this->reference2 = $reference2;
@@ -1736,6 +1796,7 @@ class DevisCommercialEntetes {
      * Set the reference3.
      *
      * @param string $reference3 The reference3.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setReference3($reference3) {
         $this->reference3 = $reference3;
@@ -1746,6 +1807,7 @@ class DevisCommercialEntetes {
      * Set the reference4.
      *
      * @param string $reference4 The reference4.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setReference4($reference4) {
         $this->reference4 = $reference4;
@@ -1756,6 +1818,7 @@ class DevisCommercialEntetes {
      * Set the saisir adresse.
      *
      * @param bool $saisirAdresse The saisir adresse.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setSaisirAdresse($saisirAdresse) {
         $this->saisirAdresse = $saisirAdresse;
@@ -1766,6 +1829,7 @@ class DevisCommercialEntetes {
      * Set the soumis escompte.
      *
      * @param bool $soumisEscompte The soumis escompte.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setSoumisEscompte($soumisEscompte) {
         $this->soumisEscompte = $soumisEscompte;
@@ -1776,6 +1840,7 @@ class DevisCommercialEntetes {
      * Set the soumis taxe deee.
      *
      * @param bool $soumisTaxeDeee The soumis taxe deee.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setSoumisTaxeDeee($soumisTaxeDeee) {
         $this->soumisTaxeDeee = $soumisTaxeDeee;
@@ -1786,6 +1851,7 @@ class DevisCommercialEntetes {
      * Set the taux devise.
      *
      * @param float $tauxDevise The taux devise.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setTauxDevise($tauxDevise) {
         $this->tauxDevise = $tauxDevise;
@@ -1796,6 +1862,7 @@ class DevisCommercialEntetes {
      * Set the taux escompte.
      *
      * @param float $tauxEscompte The taux escompte.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setTauxEscompte($tauxEscompte) {
         $this->tauxEscompte = $tauxEscompte;
@@ -1806,6 +1873,7 @@ class DevisCommercialEntetes {
      * Set the taux remise1.
      *
      * @param float $tauxRemise1 The taux remise1.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setTauxRemise1($tauxRemise1) {
         $this->tauxRemise1 = $tauxRemise1;
@@ -1816,6 +1884,7 @@ class DevisCommercialEntetes {
      * Set the taux remise2.
      *
      * @param float $tauxRemise2 The taux remise2.
+     * @return DevisCommercialEntetes Returns this Devis commercial entetes.
      */
     public function setTauxRemise2($tauxRemise2) {
         $this->tauxRemise2 = $tauxRemise2;

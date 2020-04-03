@@ -78,6 +78,7 @@ class PrestationsRisques {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return PrestationsRisques Returns this Prestations risques.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -88,6 +89,7 @@ class PrestationsRisques {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return PrestationsRisques Returns this Prestations risques.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -98,6 +100,7 @@ class PrestationsRisques {
      * Set the taux exposition.
      *
      * @param float $tauxExposition The taux exposition.
+     * @return PrestationsRisques Returns this Prestations risques.
      */
     public function setTauxExposition($tauxExposition) {
         $this->tauxExposition = $tauxExposition;

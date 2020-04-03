@@ -240,6 +240,7 @@ class EmpRecapLodeom {
      * Set the brut.
      *
      * @param float $brut The brut.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setBrut($brut) {
         $this->brut = $brut;
@@ -250,6 +251,7 @@ class EmpRecapLodeom {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -260,6 +262,7 @@ class EmpRecapLodeom {
      * Set the code etablissement.
      *
      * @param string $codeEtablissement The code etablissement.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -270,6 +273,7 @@ class EmpRecapLodeom {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -280,6 +284,7 @@ class EmpRecapLodeom {
      * Set the difference.
      *
      * @param float $difference The difference.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setDifference($difference) {
         $this->difference = $difference;
@@ -290,6 +295,7 @@ class EmpRecapLodeom {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -300,6 +306,7 @@ class EmpRecapLodeom {
      * Set the nbhr.
      *
      * @param float $nbhr The nbhr.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setNbhr($nbhr) {
         $this->nbhr = $nbhr;
@@ -310,6 +317,7 @@ class EmpRecapLodeom {
      * Set the nom employe.
      *
      * @param string $nomEmploye The nom employe.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setNomEmploye($nomEmploye) {
         $this->nomEmploye = $nomEmploye;
@@ -320,6 +328,7 @@ class EmpRecapLodeom {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -330,6 +339,7 @@ class EmpRecapLodeom {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -340,6 +350,7 @@ class EmpRecapLodeom {
      * Set the reduc bul.
      *
      * @param float $reducBul The reduc bul.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setReducBul($reducBul) {
         $this->reducBul = $reducBul;
@@ -350,6 +361,7 @@ class EmpRecapLodeom {
      * Set the reduc recalc.
      *
      * @param float $reducRecalc The reduc recalc.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setReducRecalc($reducRecalc) {
         $this->reducRecalc = $reducRecalc;
@@ -360,6 +372,7 @@ class EmpRecapLodeom {
      * Set the shb.
      *
      * @param float $shb The shb.
+     * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
     public function setShb($shb) {
         $this->shb = $shb;

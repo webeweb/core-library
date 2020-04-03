@@ -62,6 +62,7 @@ class ValorisationHoraire {
      * Set the cout horaire.
      *
      * @param float $coutHoraire The cout horaire.
+     * @return ValorisationHoraire Returns this Valorisation horaire.
      */
     public function setCoutHoraire($coutHoraire) {
         $this->coutHoraire = $coutHoraire;
@@ -72,6 +73,7 @@ class ValorisationHoraire {
      * Set the qualification.
      *
      * @param string $qualification The qualification.
+     * @return ValorisationHoraire Returns this Valorisation horaire.
      */
     public function setQualification($qualification) {
         $this->qualification = $qualification;

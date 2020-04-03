@@ -78,6 +78,7 @@ class ChapitresDocuments {
      * Set the code.
      *
      * @param string $code The code.
+     * @return ChapitresDocuments Returns this Chapitres documents.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class ChapitresDocuments {
      * Set the nom repertoire.
      *
      * @param string $nomRepertoire The nom repertoire.
+     * @return ChapitresDocuments Returns this Chapitres documents.
      */
     public function setNomRepertoire($nomRepertoire) {
         $this->nomRepertoire = $nomRepertoire;
@@ -98,6 +100,7 @@ class ChapitresDocuments {
      * Set the position.
      *
      * @param int $position The position.
+     * @return ChapitresDocuments Returns this Chapitres documents.
      */
     public function setPosition($position) {
         $this->position = $position;

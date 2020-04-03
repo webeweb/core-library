@@ -880,6 +880,7 @@ class Clients {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return Clients Returns this Clients.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -890,6 +891,7 @@ class Clients {
      * Set the bloque.
      *
      * @param bool $bloque The bloque.
+     * @return Clients Returns this Clients.
      */
     public function setBloque($bloque) {
         $this->bloque = $bloque;
@@ -900,6 +902,7 @@ class Clients {
      * Set the cle alpha.
      *
      * @param string $cleAlpha The cle alpha.
+     * @return Clients Returns this Clients.
      */
     public function setCleAlpha($cleAlpha) {
         $this->cleAlpha = $cleAlpha;
@@ -910,6 +913,7 @@ class Clients {
      * Set the code analytique.
      *
      * @param string $codeAnalytique The code analytique.
+     * @return Clients Returns this Clients.
      */
     public function setCodeAnalytique($codeAnalytique) {
         $this->codeAnalytique = $codeAnalytique;
@@ -920,6 +924,7 @@ class Clients {
      * Set the code categorie client.
      *
      * @param string $codeCategorieClient The code categorie client.
+     * @return Clients Returns this Clients.
      */
     public function setCodeCategorieClient($codeCategorieClient) {
         $this->codeCategorieClient = $codeCategorieClient;
@@ -930,6 +935,7 @@ class Clients {
      * Set the code client fact.
      *
      * @param string $codeClientFact The code client fact.
+     * @return Clients Returns this Clients.
      */
     public function setCodeClientFact($codeClientFact) {
         $this->codeClientFact = $codeClientFact;
@@ -940,6 +946,7 @@ class Clients {
      * Set the code depot.
      *
      * @param string $codeDepot The code depot.
+     * @return Clients Returns this Clients.
      */
     public function setCodeDepot($codeDepot) {
         $this->codeDepot = $codeDepot;
@@ -950,6 +957,7 @@ class Clients {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return Clients Returns this Clients.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -960,6 +968,7 @@ class Clients {
      * Set the code famille.
      *
      * @param string $codeFamille The code famille.
+     * @return Clients Returns this Clients.
      */
     public function setCodeFamille($codeFamille) {
         $this->codeFamille = $codeFamille;
@@ -970,6 +979,7 @@ class Clients {
      * Set the code geo.
      *
      * @param string $codeGeo The code geo.
+     * @return Clients Returns this Clients.
      */
     public function setCodeGeo($codeGeo) {
         $this->codeGeo = $codeGeo;
@@ -980,6 +990,7 @@ class Clients {
      * Set the code langue designation article.
      *
      * @param string $codeLangueDesignationArticle The code langue designation article.
+     * @return Clients Returns this Clients.
      */
     public function setCodeLangueDesignationArticle($codeLangueDesignationArticle) {
         $this->codeLangueDesignationArticle = $codeLangueDesignationArticle;
@@ -990,6 +1001,7 @@ class Clients {
      * Set the code mode reglement.
      *
      * @param string $codeModeReglement The code mode reglement.
+     * @return Clients Returns this Clients.
      */
     public function setCodeModeReglement($codeModeReglement) {
         $this->codeModeReglement = $codeModeReglement;
@@ -1000,6 +1012,7 @@ class Clients {
      * Set the code origine.
      *
      * @param string $codeOrigine The code origine.
+     * @return Clients Returns this Clients.
      */
     public function setCodeOrigine($codeOrigine) {
         $this->codeOrigine = $codeOrigine;
@@ -1010,6 +1023,7 @@ class Clients {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return Clients Returns this Clients.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -1020,6 +1034,7 @@ class Clients {
      * Set the code representant.
      *
      * @param string $codeRepresentant The code representant.
+     * @return Clients Returns this Clients.
      */
     public function setCodeRepresentant($codeRepresentant) {
         $this->codeRepresentant = $codeRepresentant;
@@ -1030,6 +1045,7 @@ class Clients {
      * Set the code revision.
      *
      * @param string $codeRevision The code revision.
+     * @return Clients Returns this Clients.
      */
     public function setCodeRevision($codeRevision) {
         $this->codeRevision = $codeRevision;
@@ -1040,6 +1056,7 @@ class Clients {
      * Set the code sous famille.
      *
      * @param string $codeSousFamille The code sous famille.
+     * @return Clients Returns this Clients.
      */
     public function setCodeSousFamille($codeSousFamille) {
         $this->codeSousFamille = $codeSousFamille;
@@ -1050,6 +1067,7 @@ class Clients {
      * Set the code sous tournee.
      *
      * @param string $codeSousTournee The code sous tournee.
+     * @return Clients Returns this Clients.
      */
     public function setCodeSousTournee($codeSousTournee) {
         $this->codeSousTournee = $codeSousTournee;
@@ -1060,6 +1078,7 @@ class Clients {
      * Set the code tournee.
      *
      * @param string $codeTournee The code tournee.
+     * @return Clients Returns this Clients.
      */
     public function setCodeTournee($codeTournee) {
         $this->codeTournee = $codeTournee;
@@ -1070,6 +1089,7 @@ class Clients {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return Clients Returns this Clients.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -1080,6 +1100,7 @@ class Clients {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return Clients Returns this Clients.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -1090,6 +1111,7 @@ class Clients {
      * Set the collectif comptable.
      *
      * @param int $collectifComptable The collectif comptable.
+     * @return Clients Returns this Clients.
      */
     public function setCollectifComptable($collectifComptable) {
         $this->collectifComptable = $collectifComptable;
@@ -1100,6 +1122,7 @@ class Clients {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return Clients Returns this Clients.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -1110,6 +1133,7 @@ class Clients {
      * Set the date creat.
      *
      * @param DateTime|null $dateCreat The date creat.
+     * @return Clients Returns this Clients.
      */
     public function setDateCreat(DateTime $dateCreat = null) {
         $this->dateCreat = $dateCreat;
@@ -1120,6 +1144,7 @@ class Clients {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return Clients Returns this Clients.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -1130,6 +1155,7 @@ class Clients {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return Clients Returns this Clients.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -1140,6 +1166,7 @@ class Clients {
      * Set the date sortie.
      *
      * @param DateTime|null $dateSortie The date sortie.
+     * @return Clients Returns this Clients.
      */
     public function setDateSortie(DateTime $dateSortie = null) {
         $this->dateSortie = $dateSortie;
@@ -1150,6 +1177,7 @@ class Clients {
      * Set the derniere annee facturee.
      *
      * @param int $derniereAnneeFacturee The derniere annee facturee.
+     * @return Clients Returns this Clients.
      */
     public function setDerniereAnneeFacturee($derniereAnneeFacturee) {
         $this->derniereAnneeFacturee = $derniereAnneeFacturee;
@@ -1160,6 +1188,7 @@ class Clients {
      * Set the domiciliation bancaire1.
      *
      * @param string $domiciliationBancaire1 The domiciliation bancaire1.
+     * @return Clients Returns this Clients.
      */
     public function setDomiciliationBancaire1($domiciliationBancaire1) {
         $this->domiciliationBancaire1 = $domiciliationBancaire1;
@@ -1170,6 +1199,7 @@ class Clients {
      * Set the domiciliation bancaire2.
      *
      * @param string $domiciliationBancaire2 The domiciliation bancaire2.
+     * @return Clients Returns this Clients.
      */
     public function setDomiciliationBancaire2($domiciliationBancaire2) {
         $this->domiciliationBancaire2 = $domiciliationBancaire2;
@@ -1180,6 +1210,7 @@ class Clients {
      * Set the echeance depart.
      *
      * @param int $echeanceDepart The echeance depart.
+     * @return Clients Returns this Clients.
      */
     public function setEcheanceDepart($echeanceDepart) {
         $this->echeanceDepart = $echeanceDepart;
@@ -1190,6 +1221,7 @@ class Clients {
      * Set the echeance le.
      *
      * @param int $echeanceLe The echeance le.
+     * @return Clients Returns this Clients.
      */
     public function setEcheanceLe($echeanceLe) {
         $this->echeanceLe = $echeanceLe;
@@ -1200,6 +1232,7 @@ class Clients {
      * Set the echeance nb jours.
      *
      * @param int $echeanceNbJours The echeance nb jours.
+     * @return Clients Returns this Clients.
      */
     public function setEcheanceNbJours($echeanceNbJours) {
         $this->echeanceNbJours = $echeanceNbJours;
@@ -1210,6 +1243,7 @@ class Clients {
      * Set the facture euros.
      *
      * @param bool $factureEuros The facture euros.
+     * @return Clients Returns this Clients.
      */
     public function setFactureEuros($factureEuros) {
         $this->factureEuros = $factureEuros;
@@ -1220,6 +1254,7 @@ class Clients {
      * Set the id.
      *
      * @param string $id The id.
+     * @return Clients Returns this Clients.
      */
     public function setId($id) {
         $this->id = $id;
@@ -1230,6 +1265,7 @@ class Clients {
      * Set the nb bl.
      *
      * @param int $nbBl The nb bl.
+     * @return Clients Returns this Clients.
      */
     public function setNbBl($nbBl) {
         $this->nbBl = $nbBl;
@@ -1240,6 +1276,7 @@ class Clients {
      * Set the nb facture.
      *
      * @param int $nbFacture The nb facture.
+     * @return Clients Returns this Clients.
      */
     public function setNbFacture($nbFacture) {
         $this->nbFacture = $nbFacture;
@@ -1250,6 +1287,7 @@ class Clients {
      * Set the nombre echeances.
      *
      * @param int $nombreEcheances The nombre echeances.
+     * @return Clients Returns this Clients.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -1260,6 +1298,7 @@ class Clients {
      * Set the num cpt collectif.
      *
      * @param string $numCptCollectif The num cpt collectif.
+     * @return Clients Returns this Clients.
      */
     public function setNumCptCollectif($numCptCollectif) {
         $this->numCptCollectif = $numCptCollectif;
@@ -1270,6 +1309,7 @@ class Clients {
      * Set the num cpt comptable.
      *
      * @param string $numCptComptable The num cpt comptable.
+     * @return Clients Returns this Clients.
      */
     public function setNumCptComptable($numCptComptable) {
         $this->numCptComptable = $numCptComptable;
@@ -1280,6 +1320,7 @@ class Clients {
      * Set the premiere annee facturee.
      *
      * @param int $premiereAnneeFacturee The premiere annee facturee.
+     * @return Clients Returns this Clients.
      */
     public function setPremiereAnneeFacturee($premiereAnneeFacturee) {
         $this->premiereAnneeFacturee = $premiereAnneeFacturee;
@@ -1290,6 +1331,7 @@ class Clients {
      * Set the prospect.
      *
      * @param bool $prospect The prospect.
+     * @return Clients Returns this Clients.
      */
     public function setProspect($prospect) {
         $this->prospect = $prospect;
@@ -1300,6 +1342,7 @@ class Clients {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return Clients Returns this Clients.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -1310,6 +1353,7 @@ class Clients {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return Clients Returns this Clients.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -1320,6 +1364,7 @@ class Clients {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return Clients Returns this Clients.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -1330,6 +1375,7 @@ class Clients {
      * Set the remise pied1.
      *
      * @param float $remisePied1 The remise pied1.
+     * @return Clients Returns this Clients.
      */
     public function setRemisePied1($remisePied1) {
         $this->remisePied1 = $remisePied1;
@@ -1340,6 +1386,7 @@ class Clients {
      * Set the remise pied2.
      *
      * @param float $remisePied2 The remise pied2.
+     * @return Clients Returns this Clients.
      */
     public function setRemisePied2($remisePied2) {
         $this->remisePied2 = $remisePied2;
@@ -1350,6 +1397,7 @@ class Clients {
      * Set the remise pied3.
      *
      * @param float $remisePied3 The remise pied3.
+     * @return Clients Returns this Clients.
      */
     public function setRemisePied3($remisePied3) {
         $this->remisePied3 = $remisePied3;
@@ -1360,6 +1408,7 @@ class Clients {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Clients Returns this Clients.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -1370,6 +1419,7 @@ class Clients {
      * Set the soumis escompte.
      *
      * @param bool $soumisEscompte The soumis escompte.
+     * @return Clients Returns this Clients.
      */
     public function setSoumisEscompte($soumisEscompte) {
         $this->soumisEscompte = $soumisEscompte;
@@ -1380,6 +1430,7 @@ class Clients {
      * Set the taux escompte.
      *
      * @param float $tauxEscompte The taux escompte.
+     * @return Clients Returns this Clients.
      */
     public function setTauxEscompte($tauxEscompte) {
         $this->tauxEscompte = $tauxEscompte;
@@ -1390,6 +1441,7 @@ class Clients {
      * Set the transporteur.
      *
      * @param string $transporteur The transporteur.
+     * @return Clients Returns this Clients.
      */
     public function setTransporteur($transporteur) {
         $this->transporteur = $transporteur;
@@ -1400,6 +1452,7 @@ class Clients {
      * Set the type facture.
      *
      * @param int $typeFacture The type facture.
+     * @return Clients Returns this Clients.
      */
     public function setTypeFacture($typeFacture) {
         $this->typeFacture = $typeFacture;

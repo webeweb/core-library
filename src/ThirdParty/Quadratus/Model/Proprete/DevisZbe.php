@@ -94,6 +94,7 @@ class DevisZbe {
      * Set the batiment.
      *
      * @param string $batiment The batiment.
+     * @return DevisZbe Returns this Devis zbe.
      */
     public function setBatiment($batiment) {
         $this->batiment = $batiment;
@@ -104,6 +105,7 @@ class DevisZbe {
      * Set the etage.
      *
      * @param string $etage The etage.
+     * @return DevisZbe Returns this Devis zbe.
      */
     public function setEtage($etage) {
         $this->etage = $etage;
@@ -114,6 +116,7 @@ class DevisZbe {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisZbe Returns this Devis zbe.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -124,6 +127,7 @@ class DevisZbe {
      * Set the zone geographique.
      *
      * @param string $zoneGeographique The zone geographique.
+     * @return DevisZbe Returns this Devis zbe.
      */
     public function setZoneGeographique($zoneGeographique) {
         $this->zoneGeographique = $zoneGeographique;

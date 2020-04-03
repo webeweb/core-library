@@ -816,6 +816,7 @@ class EmpDadsuGene {
      * Set the ancienn btp.
      *
      * @param DateTime|null $anciennBtp The ancienn btp.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setAnciennBtp(DateTime $anciennBtp = null) {
         $this->anciennBtp = $anciennBtp;
@@ -826,6 +827,7 @@ class EmpDadsuGene {
      * Set the annexe7 mutation.
      *
      * @param bool $annexe7Mutation The annexe7 mutation.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setAnnexe7Mutation($annexe7Mutation) {
         $this->annexe7Mutation = $annexe7Mutation;
@@ -836,6 +838,7 @@ class EmpDadsuGene {
      * Set the apprenti etam.
      *
      * @param bool $apprentiEtam The apprenti etam.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setApprentiEtam($apprentiEtam) {
         $this->apprentiEtam = $apprentiEtam;
@@ -846,6 +849,7 @@ class EmpDadsuGene {
      * Set the benef assedic.
      *
      * @param string $benefAssedic The benef assedic.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setBenefAssedic($benefAssedic) {
         $this->benefAssedic = $benefAssedic;
@@ -856,6 +860,7 @@ class EmpDadsuGene {
      * Set the btq lieu trav.
      *
      * @param string $btqLieuTrav The btq lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setBtqLieuTrav($btqLieuTrav) {
         $this->btqLieuTrav = $btqLieuTrav;
@@ -866,6 +871,7 @@ class EmpDadsuGene {
      * Set the bureau distributeur lieu trav.
      *
      * @param string $bureauDistributeurLieuTrav The bureau distributeur lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setBureauDistributeurLieuTrav($bureauDistributeurLieuTrav) {
         $this->bureauDistributeurLieuTrav = $bureauDistributeurLieuTrav;
@@ -876,6 +882,7 @@ class EmpDadsuGene {
      * Set the code caisse cp.
      *
      * @param string $codeCaisseCp The code caisse cp.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeCaisseCp($codeCaisseCp) {
         $this->codeCaisseCp = $codeCaisseCp;
@@ -886,6 +893,7 @@ class EmpDadsuGene {
      * Set the code caract.
      *
      * @param string $codeCaract The code caract.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeCaract($codeCaract) {
         $this->codeCaract = $codeCaract;
@@ -896,6 +904,7 @@ class EmpDadsuGene {
      * Set the code categ sal pourcent abat.
      *
      * @param string $codeCategSalPourcentAbat The code categ sal pourcent abat.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeCategSalPourcentAbat($codeCategSalPourcentAbat) {
         $this->codeCategSalPourcentAbat = $codeCategSalPourcentAbat;
@@ -906,6 +915,7 @@ class EmpDadsuGene {
      * Set the code class btp.
      *
      * @param string $codeClassBtp The code class btp.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeClassBtp($codeClassBtp) {
         $this->codeClassBtp = $codeClassBtp;
@@ -916,6 +926,7 @@ class EmpDadsuGene {
      * Set the code contrat trav.
      *
      * @param string $codeContratTrav The code contrat trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeContratTrav($codeContratTrav) {
         $this->codeContratTrav = $codeContratTrav;
@@ -926,6 +937,7 @@ class EmpDadsuGene {
      * Set the code convention col.
      *
      * @param string $codeConventionCol The code convention col.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeConventionCol($codeConventionCol) {
         $this->codeConventionCol = $codeConventionCol;
@@ -936,6 +948,7 @@ class EmpDadsuGene {
      * Set the code distri etranger.
      *
      * @param string $codeDistriEtranger The code distri etranger.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeDistriEtranger($codeDistriEtranger) {
         $this->codeDistriEtranger = $codeDistriEtranger;
@@ -946,6 +959,7 @@ class EmpDadsuGene {
      * Set the code exo trav.
      *
      * @param string $codeExoTrav The code exo trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeExoTrav($codeExoTrav) {
         $this->codeExoTrav = $codeExoTrav;
@@ -956,6 +970,7 @@ class EmpDadsuGene {
      * Set the code insee lieu trav.
      *
      * @param string $codeInseeLieuTrav The code insee lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeInseeLieuTrav($codeInseeLieuTrav) {
         $this->codeInseeLieuTrav = $codeInseeLieuTrav;
@@ -966,6 +981,7 @@ class EmpDadsuGene {
      * Set the code intit contrat trav.
      *
      * @param string $codeIntitContratTrav The code intit contrat trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeIntitContratTrav($codeIntitContratTrav) {
         $this->codeIntitContratTrav = $codeIntitContratTrav;
@@ -976,6 +992,7 @@ class EmpDadsuGene {
      * Set the code metier btp.
      *
      * @param string $codeMetierBtp The code metier btp.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeMetierBtp($codeMetierBtp) {
         $this->codeMetierBtp = $codeMetierBtp;
@@ -986,6 +1003,7 @@ class EmpDadsuGene {
      * Set the code officiel commune lieu trav.
      *
      * @param string $codeOfficielCommuneLieuTrav The code officiel commune lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeOfficielCommuneLieuTrav($codeOfficielCommuneLieuTrav) {
         $this->codeOfficielCommuneLieuTrav = $codeOfficielCommuneLieuTrav;
@@ -996,6 +1014,7 @@ class EmpDadsuGene {
      * Set the code pays lieu trav.
      *
      * @param string $codePaysLieuTrav The code pays lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodePaysLieuTrav($codePaysLieuTrav) {
         $this->codePaysLieuTrav = $codePaysLieuTrav;
@@ -1006,6 +1025,7 @@ class EmpDadsuGene {
      * Set the code postal lieu trav.
      *
      * @param string $codePostalLieuTrav The code postal lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodePostalLieuTrav($codePostalLieuTrav) {
         $this->codePostalLieuTrav = $codePostalLieuTrav;
@@ -1016,6 +1036,7 @@ class EmpDadsuGene {
      * Set the code regime at.
      *
      * @param string $codeRegimeAt The code regime at.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeRegimeAt($codeRegimeAt) {
         $this->codeRegimeAt = $codeRegimeAt;
@@ -1026,6 +1047,7 @@ class EmpDadsuGene {
      * Set the code regime base obl.
      *
      * @param string $codeRegimeBaseObl The code regime base obl.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeRegimeBaseObl($codeRegimeBaseObl) {
         $this->codeRegimeBaseObl = $codeRegimeBaseObl;
@@ -1036,6 +1058,7 @@ class EmpDadsuGene {
      * Set the code regime vieillesse.
      *
      * @param string $codeRegimeVieillesse The code regime vieillesse.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeRegimeVieillesse($codeRegimeVieillesse) {
         $this->codeRegimeVieillesse = $codeRegimeVieillesse;
@@ -1046,6 +1069,7 @@ class EmpDadsuGene {
      * Set the code retraite complementaire.
      *
      * @param string $codeRetraiteComplementaire The code retraite complementaire.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeRetraiteComplementaire($codeRetraiteComplementaire) {
         $this->codeRetraiteComplementaire = $codeRetraiteComplementaire;
@@ -1056,6 +1080,7 @@ class EmpDadsuGene {
      * Set the code situ admin.
      *
      * @param string $codeSituAdmin The code situ admin.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeSituAdmin($codeSituAdmin) {
         $this->codeSituAdmin = $codeSituAdmin;
@@ -1066,6 +1091,7 @@ class EmpDadsuGene {
      * Set the code statut categ.
      *
      * @param string $codeStatutCateg The code statut categ.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeStatutCateg($codeStatutCateg) {
         $this->codeStatutCateg = $codeStatutCateg;
@@ -1076,6 +1102,7 @@ class EmpDadsuGene {
      * Set the code statut categ retraite.
      *
      * @param string $codeStatutCategRetraite The code statut categ retraite.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeStatutCategRetraite($codeStatutCategRetraite) {
         $this->codeStatutCategRetraite = $codeStatutCategRetraite;
@@ -1086,6 +1113,7 @@ class EmpDadsuGene {
      * Set the code statut pro.
      *
      * @param string $codeStatutPro The code statut pro.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeStatutPro($codeStatutPro) {
         $this->codeStatutPro = $codeStatutPro;
@@ -1096,6 +1124,7 @@ class EmpDadsuGene {
      * Set the code type exo1.
      *
      * @param string $codeTypeExo1 The code type exo1.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeTypeExo1($codeTypeExo1) {
         $this->codeTypeExo1 = $codeTypeExo1;
@@ -1106,6 +1135,7 @@ class EmpDadsuGene {
      * Set the code type exo2.
      *
      * @param string $codeTypeExo2 The code type exo2.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeTypeExo2($codeTypeExo2) {
         $this->codeTypeExo2 = $codeTypeExo2;
@@ -1116,6 +1146,7 @@ class EmpDadsuGene {
      * Set the code type exo3.
      *
      * @param string $codeTypeExo3 The code type exo3.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeTypeExo3($codeTypeExo3) {
         $this->codeTypeExo3 = $codeTypeExo3;
@@ -1126,6 +1157,7 @@ class EmpDadsuGene {
      * Set the code unite temps travail.
      *
      * @param string $codeUniteTempsTravail The code unite temps travail.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeUniteTempsTravail($codeUniteTempsTravail) {
         $this->codeUniteTempsTravail = $codeUniteTempsTravail;
@@ -1136,6 +1168,7 @@ class EmpDadsuGene {
      * Set the code zone geo.
      *
      * @param string $codeZoneGeo The code zone geo.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setCodeZoneGeo($codeZoneGeo) {
         $this->codeZoneGeo = $codeZoneGeo;
@@ -1146,6 +1179,7 @@ class EmpDadsuGene {
      * Set the complement lieu trav.
      *
      * @param string $complementLieuTrav The complement lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setComplementLieuTrav($complementLieuTrav) {
         $this->complementLieuTrav = $complementLieuTrav;
@@ -1156,6 +1190,7 @@ class EmpDadsuGene {
      * Set the date rachat.
      *
      * @param DateTime|null $dateRachat The date rachat.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setDateRachat(DateTime $dateRachat = null) {
         $this->dateRachat = $dateRachat;
@@ -1166,6 +1201,7 @@ class EmpDadsuGene {
      * Set the detache expatrie.
      *
      * @param string $detacheExpatrie The detache expatrie.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setDetacheExpatrie($detacheExpatrie) {
         $this->detacheExpatrie = $detacheExpatrie;
@@ -1176,6 +1212,7 @@ class EmpDadsuGene {
      * Set the echelon.
      *
      * @param string $echelon The echelon.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setEchelon($echelon) {
         $this->echelon = $echelon;
@@ -1186,6 +1223,7 @@ class EmpDadsuGene {
      * Set the etab lieu travail.
      *
      * @param string $etabLieuTravail The etab lieu travail.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setEtabLieuTravail($etabLieuTravail) {
         $this->etabLieuTravail = $etabLieuTravail;
@@ -1196,6 +1234,7 @@ class EmpDadsuGene {
      * Set the id lieu travail.
      *
      * @param string $idLieuTravail The id lieu travail.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setIdLieuTravail($idLieuTravail) {
         $this->idLieuTravail = $idLieuTravail;
@@ -1206,6 +1245,7 @@ class EmpDadsuGene {
      * Set the indice.
      *
      * @param string $indice The indice.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -1216,6 +1256,7 @@ class EmpDadsuGene {
      * Set the niveau.
      *
      * @param string $niveau The niveau.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -1226,6 +1267,7 @@ class EmpDadsuGene {
      * Set the nom ville insee lieu trav.
      *
      * @param string $nomVilleInseeLieuTrav The nom ville insee lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setNomVilleInseeLieuTrav($nomVilleInseeLieuTrav) {
         $this->nomVilleInseeLieuTrav = $nomVilleInseeLieuTrav;
@@ -1236,6 +1278,7 @@ class EmpDadsuGene {
      * Set the nom ville lieu trav.
      *
      * @param string $nomVilleLieuTrav The nom ville lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setNomVilleLieuTrav($nomVilleLieuTrav) {
         $this->nomVilleLieuTrav = $nomVilleLieuTrav;
@@ -1246,6 +1289,7 @@ class EmpDadsuGene {
      * Set the nom voie lieu trav.
      *
      * @param string $nomVoieLieuTrav The nom voie lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setNomVoieLieuTrav($nomVoieLieuTrav) {
         $this->nomVoieLieuTrav = $nomVoieLieuTrav;
@@ -1256,6 +1300,7 @@ class EmpDadsuGene {
      * Set the num voie lieu trav.
      *
      * @param string $numVoieLieuTrav The num voie lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setNumVoieLieuTrav($numVoieLieuTrav) {
         $this->numVoieLieuTrav = $numVoieLieuTrav;
@@ -1266,6 +1311,7 @@ class EmpDadsuGene {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -1276,6 +1322,7 @@ class EmpDadsuGene {
      * Set the position.
      *
      * @param string $position The position.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setPosition($position) {
         $this->position = $position;
@@ -1286,6 +1333,7 @@ class EmpDadsuGene {
      * Set the raison soc lieu trav.
      *
      * @param string $raisonSocLieuTrav The raison soc lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setRaisonSocLieuTrav($raisonSocLieuTrav) {
         $this->raisonSocLieuTrav = $raisonSocLieuTrav;
@@ -1296,6 +1344,7 @@ class EmpDadsuGene {
      * Set the siret lieu trav.
      *
      * @param string $siretLieuTrav The siret lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
      */
     public function setSiretLieuTrav($siretLieuTrav) {
         $this->siretLieuTrav = $siretLieuTrav;

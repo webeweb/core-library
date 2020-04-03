@@ -94,6 +94,7 @@ class EmpDadsuRetraiteLignesContrat {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return EmpDadsuRetraiteLignesContrat Returns this Emp dadsu retraite lignes contrat.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -104,6 +105,7 @@ class EmpDadsuRetraiteLignesContrat {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return EmpDadsuRetraiteLignesContrat Returns this Emp dadsu retraite lignes contrat.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -114,6 +116,7 @@ class EmpDadsuRetraiteLignesContrat {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpDadsuRetraiteLignesContrat Returns this Emp dadsu retraite lignes contrat.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -124,6 +127,7 @@ class EmpDadsuRetraiteLignesContrat {
      * Set the ref contrat.
      *
      * @param string $refContrat The ref contrat.
+     * @return EmpDadsuRetraiteLignesContrat Returns this Emp dadsu retraite lignes contrat.
      */
     public function setRefContrat($refContrat) {
         $this->refContrat = $refContrat;

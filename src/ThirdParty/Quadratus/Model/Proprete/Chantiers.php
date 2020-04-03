@@ -1360,6 +1360,7 @@ class Chantiers {
      * Set the ad f bureau distributeur.
      *
      * @param string $adFBureauDistributeur The ad f bureau distributeur.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFBureauDistributeur($adFBureauDistributeur) {
         $this->adFBureauDistributeur = $adFBureauDistributeur;
@@ -1370,6 +1371,7 @@ class Chantiers {
      * Set the ad f civilite.
      *
      * @param string $adFCivilite The ad f civilite.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFCivilite($adFCivilite) {
         $this->adFCivilite = $adFCivilite;
@@ -1380,6 +1382,7 @@ class Chantiers {
      * Set the ad f code pays.
      *
      * @param string $adFCodePays The ad f code pays.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFCodePays($adFCodePays) {
         $this->adFCodePays = $adFCodePays;
@@ -1390,6 +1393,7 @@ class Chantiers {
      * Set the ad f code postal.
      *
      * @param string $adFCodePostal The ad f code postal.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFCodePostal($adFCodePostal) {
         $this->adFCodePostal = $adFCodePostal;
@@ -1400,6 +1404,7 @@ class Chantiers {
      * Set the ad f complement.
      *
      * @param string $adFComplement The ad f complement.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFComplement($adFComplement) {
         $this->adFComplement = $adFComplement;
@@ -1410,6 +1415,7 @@ class Chantiers {
      * Set the ad f nom client.
      *
      * @param string $adFNomClient The ad f nom client.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFNomClient($adFNomClient) {
         $this->adFNomClient = $adFNomClient;
@@ -1420,6 +1426,7 @@ class Chantiers {
      * Set the ad f nom suite.
      *
      * @param string $adFNomSuite The ad f nom suite.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFNomSuite($adFNomSuite) {
         $this->adFNomSuite = $adFNomSuite;
@@ -1430,6 +1437,7 @@ class Chantiers {
      * Set the ad f nom suite2.
      *
      * @param string $adFNomSuite2 The ad f nom suite2.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFNomSuite2($adFNomSuite2) {
         $this->adFNomSuite2 = $adFNomSuite2;
@@ -1440,6 +1448,7 @@ class Chantiers {
      * Set the ad f nom suite3.
      *
      * @param string $adFNomSuite3 The ad f nom suite3.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFNomSuite3($adFNomSuite3) {
         $this->adFNomSuite3 = $adFNomSuite3;
@@ -1450,6 +1459,7 @@ class Chantiers {
      * Set the ad f nom voie.
      *
      * @param string $adFNomVoie The ad f nom voie.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFNomVoie($adFNomVoie) {
         $this->adFNomVoie = $adFNomVoie;
@@ -1460,6 +1470,7 @@ class Chantiers {
      * Set the ad f num voie.
      *
      * @param string $adFNumVoie The ad f num voie.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFNumVoie($adFNumVoie) {
         $this->adFNumVoie = $adFNumVoie;
@@ -1470,6 +1481,7 @@ class Chantiers {
      * Set the ad f type adresse.
      *
      * @param string $adFTypeAdresse The ad f type adresse.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFTypeAdresse($adFTypeAdresse) {
         $this->adFTypeAdresse = $adFTypeAdresse;
@@ -1480,6 +1492,7 @@ class Chantiers {
      * Set the ad fbtq.
      *
      * @param string $adFbtq The ad fbtq.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdFbtq($adFbtq) {
         $this->adFbtq = $adFbtq;
@@ -1490,6 +1503,7 @@ class Chantiers {
      * Set the adresse.
      *
      * @param string $adresse The adresse.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setAdresse($adresse) {
         $this->adresse = $adresse;
@@ -1500,6 +1514,7 @@ class Chantiers {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -1510,6 +1525,7 @@ class Chantiers {
      * Set the btq livraison.
      *
      * @param string $btqLivraison The btq livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setBtqLivraison($btqLivraison) {
         $this->btqLivraison = $btqLivraison;
@@ -1520,6 +1536,7 @@ class Chantiers {
      * Set the budget commande.
      *
      * @param float $budgetCommande The budget commande.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setBudgetCommande($budgetCommande) {
         $this->budgetCommande = $budgetCommande;
@@ -1530,6 +1547,7 @@ class Chantiers {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -1540,6 +1558,7 @@ class Chantiers {
      * Set the bureau distributeur livraison.
      *
      * @param string $bureauDistributeurLivraison The bureau distributeur livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setBureauDistributeurLivraison($bureauDistributeurLivraison) {
         $this->bureauDistributeurLivraison = $bureauDistributeurLivraison;
@@ -1550,6 +1569,7 @@ class Chantiers {
      * Set the chantier ponctuel.
      *
      * @param bool $chantierPonctuel The chantier ponctuel.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setChantierPonctuel($chantierPonctuel) {
         $this->chantierPonctuel = $chantierPonctuel;
@@ -1560,6 +1580,7 @@ class Chantiers {
      * Set the chef equipe.
      *
      * @param string $chefEquipe The chef equipe.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setChefEquipe($chefEquipe) {
         $this->chefEquipe = $chefEquipe;
@@ -1570,6 +1591,7 @@ class Chantiers {
      * Set the cle alpha.
      *
      * @param string $cleAlpha The cle alpha.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCleAlpha($cleAlpha) {
         $this->cleAlpha = $cleAlpha;
@@ -1580,6 +1602,7 @@ class Chantiers {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -1590,6 +1613,7 @@ class Chantiers {
      * Set the code agence.
      *
      * @param string $codeAgence The code agence.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeAgence($codeAgence) {
         $this->codeAgence = $codeAgence;
@@ -1600,6 +1624,7 @@ class Chantiers {
      * Set the code analytique.
      *
      * @param string $codeAnalytique The code analytique.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeAnalytique($codeAnalytique) {
         $this->codeAnalytique = $codeAnalytique;
@@ -1610,6 +1635,7 @@ class Chantiers {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -1620,6 +1646,7 @@ class Chantiers {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -1630,6 +1657,7 @@ class Chantiers {
      * Set the code commercial.
      *
      * @param string $codeCommercial The code commercial.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeCommercial($codeCommercial) {
         $this->codeCommercial = $codeCommercial;
@@ -1640,6 +1668,7 @@ class Chantiers {
      * Set the code emp inspecteur.
      *
      * @param string $codeEmpInspecteur The code emp inspecteur.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeEmpInspecteur($codeEmpInspecteur) {
         $this->codeEmpInspecteur = $codeEmpInspecteur;
@@ -1650,6 +1679,7 @@ class Chantiers {
      * Set the code formule.
      *
      * @param string $codeFormule The code formule.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeFormule($codeFormule) {
         $this->codeFormule = $codeFormule;
@@ -1660,6 +1690,7 @@ class Chantiers {
      * Set the code livraison.
      *
      * @param string $codeLivraison The code livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeLivraison($codeLivraison) {
         $this->codeLivraison = $codeLivraison;
@@ -1670,6 +1701,7 @@ class Chantiers {
      * Set the code pays.
      *
      * @param string $codePays The code pays.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodePays($codePays) {
         $this->codePays = $codePays;
@@ -1680,6 +1712,7 @@ class Chantiers {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -1690,6 +1723,7 @@ class Chantiers {
      * Set the code postal livraison.
      *
      * @param string $codePostalLivraison The code postal livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodePostalLivraison($codePostalLivraison) {
         $this->codePostalLivraison = $codePostalLivraison;
@@ -1700,6 +1734,7 @@ class Chantiers {
      * Set the code reg marge.
      *
      * @param string $codeRegMarge The code reg marge.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeRegMarge($codeRegMarge) {
         $this->codeRegMarge = $codeRegMarge;
@@ -1710,6 +1745,7 @@ class Chantiers {
      * Set the code revision.
      *
      * @param string $codeRevision The code revision.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeRevision($codeRevision) {
         $this->codeRevision = $codeRevision;
@@ -1720,6 +1756,7 @@ class Chantiers {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -1730,6 +1767,7 @@ class Chantiers {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -1740,6 +1778,7 @@ class Chantiers {
      * Set the collectif.
      *
      * @param string $collectif The collectif.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCollectif($collectif) {
         $this->collectif = $collectif;
@@ -1750,6 +1789,7 @@ class Chantiers {
      * Set the commande isolee.
      *
      * @param bool $commandeIsolee The commande isolee.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setCommandeIsolee($commandeIsolee) {
         $this->commandeIsolee = $commandeIsolee;
@@ -1760,6 +1800,7 @@ class Chantiers {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -1770,6 +1811,7 @@ class Chantiers {
      * Set the complement livraison.
      *
      * @param string $complementLivraison The complement livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setComplementLivraison($complementLivraison) {
         $this->complementLivraison = $complementLivraison;
@@ -1780,6 +1822,7 @@ class Chantiers {
      * Set the date creat.
      *
      * @param DateTime|null $dateCreat The date creat.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDateCreat(DateTime $dateCreat = null) {
         $this->dateCreat = $dateCreat;
@@ -1790,6 +1833,7 @@ class Chantiers {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -1800,6 +1844,7 @@ class Chantiers {
      * Set the date echeance contrat.
      *
      * @param DateTime|null $dateEcheanceContrat The date echeance contrat.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDateEcheanceContrat(DateTime $dateEcheanceContrat = null) {
         $this->dateEcheanceContrat = $dateEcheanceContrat;
@@ -1810,6 +1855,7 @@ class Chantiers {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -1820,6 +1866,7 @@ class Chantiers {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -1830,6 +1877,7 @@ class Chantiers {
      * Set the date revision.
      *
      * @param DateTime|null $dateRevision The date revision.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDateRevision(DateTime $dateRevision = null) {
         $this->dateRevision = $dateRevision;
@@ -1840,6 +1888,7 @@ class Chantiers {
      * Set the descriptif.
      *
      * @param string $descriptif The descriptif.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDescriptif($descriptif) {
         $this->descriptif = $descriptif;
@@ -1850,6 +1899,7 @@ class Chantiers {
      * Set the dt avant dern prepa.
      *
      * @param DateTime|null $dtAvantDernPrepa The dt avant dern prepa.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDtAvantDernPrepa(DateTime $dtAvantDernPrepa = null) {
         $this->dtAvantDernPrepa = $dtAvantDernPrepa;
@@ -1860,6 +1910,7 @@ class Chantiers {
      * Set the dt dern prepa.
      *
      * @param DateTime|null $dtDernPrepa The dt dern prepa.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDtDernPrepa(DateTime $dtDernPrepa = null) {
         $this->dtDernPrepa = $dtDernPrepa;
@@ -1870,6 +1921,7 @@ class Chantiers {
      * Set the dt validite fact deb.
      *
      * @param DateTime|null $dtValiditeFactDeb The dt validite fact deb.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDtValiditeFactDeb(DateTime $dtValiditeFactDeb = null) {
         $this->dtValiditeFactDeb = $dtValiditeFactDeb;
@@ -1880,6 +1932,7 @@ class Chantiers {
      * Set the dt validite fact deb deb mois.
      *
      * @param DateTime|null $dtValiditeFactDebDebMois The dt validite fact deb deb mois.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDtValiditeFactDebDebMois(DateTime $dtValiditeFactDebDebMois = null) {
         $this->dtValiditeFactDebDebMois = $dtValiditeFactDebDebMois;
@@ -1890,6 +1943,7 @@ class Chantiers {
      * Set the dt validite fact fin.
      *
      * @param DateTime|null $dtValiditeFactFin The dt validite fact fin.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDtValiditeFactFin(DateTime $dtValiditeFactFin = null) {
         $this->dtValiditeFactFin = $dtValiditeFactFin;
@@ -1900,6 +1954,7 @@ class Chantiers {
      * Set the dt validite fact fin fin mois.
      *
      * @param DateTime|null $dtValiditeFactFinFinMois The dt validite fact fin fin mois.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setDtValiditeFactFinFinMois(DateTime $dtValiditeFactFinFinMois = null) {
         $this->dtValiditeFactFinFinMois = $dtValiditeFactFinFinMois;
@@ -1910,6 +1965,7 @@ class Chantiers {
      * Set the echeance annuelle.
      *
      * @param bool $echeanceAnnuelle The echeance annuelle.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setEcheanceAnnuelle($echeanceAnnuelle) {
         $this->echeanceAnnuelle = $echeanceAnnuelle;
@@ -1920,6 +1976,7 @@ class Chantiers {
      * Set the fact negoce isolee.
      *
      * @param bool $factNegoceIsolee The fact negoce isolee.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setFactNegoceIsolee($factNegoceIsolee) {
         $this->factNegoceIsolee = $factNegoceIsolee;
@@ -1930,6 +1987,7 @@ class Chantiers {
      * Set the facture isolee.
      *
      * @param bool $factureIsolee The facture isolee.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setFactureIsolee($factureIsolee) {
         $this->factureIsolee = $factureIsolee;
@@ -1940,6 +1998,7 @@ class Chantiers {
      * Set the jour fact.
      *
      * @param string $jourFact The jour fact.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setJourFact($jourFact) {
         $this->jourFact = $jourFact;
@@ -1950,6 +2009,7 @@ class Chantiers {
      * Set the latitude.
      *
      * @param float $latitude The latitude.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setLatitude($latitude) {
         $this->latitude = $latitude;
@@ -1960,6 +2020,7 @@ class Chantiers {
      * Set the loi chatel sur facture.
      *
      * @param bool $loiChatelSurFacture The loi chatel sur facture.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setLoiChatelSurFacture($loiChatelSurFacture) {
         $this->loiChatelSurFacture = $loiChatelSurFacture;
@@ -1970,6 +2031,7 @@ class Chantiers {
      * Set the longitude.
      *
      * @param float $longitude The longitude.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setLongitude($longitude) {
         $this->longitude = $longitude;
@@ -1980,6 +2042,7 @@ class Chantiers {
      * Set the maj stock by da.
      *
      * @param bool $majStockByDa The maj stock by da.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setMajStockByDa($majStockByDa) {
         $this->majStockByDa = $majStockByDa;
@@ -1990,6 +2053,7 @@ class Chantiers {
      * Set the nb controles prevus.
      *
      * @param int $nbControlesPrevus The nb controles prevus.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNbControlesPrevus($nbControlesPrevus) {
         $this->nbControlesPrevus = $nbControlesPrevus;
@@ -2000,6 +2064,7 @@ class Chantiers {
      * Set the nb mois preavis.
      *
      * @param string $nbMoisPreavis The nb mois preavis.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNbMoisPreavis($nbMoisPreavis) {
         $this->nbMoisPreavis = $nbMoisPreavis;
@@ -2010,6 +2075,7 @@ class Chantiers {
      * Set the nom adresse.
      *
      * @param string $nomAdresse The nom adresse.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNomAdresse($nomAdresse) {
         $this->nomAdresse = $nomAdresse;
@@ -2020,6 +2086,7 @@ class Chantiers {
      * Set the nom chantier.
      *
      * @param string $nomChantier The nom chantier.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNomChantier($nomChantier) {
         $this->nomChantier = $nomChantier;
@@ -2030,6 +2097,7 @@ class Chantiers {
      * Set the nom livraison.
      *
      * @param string $nomLivraison The nom livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNomLivraison($nomLivraison) {
         $this->nomLivraison = $nomLivraison;
@@ -2040,6 +2108,7 @@ class Chantiers {
      * Set the nom responsable.
      *
      * @param string $nomResponsable The nom responsable.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNomResponsable($nomResponsable) {
         $this->nomResponsable = $nomResponsable;
@@ -2050,6 +2119,7 @@ class Chantiers {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -2060,6 +2130,7 @@ class Chantiers {
      * Set the nom suite livraison.
      *
      * @param string $nomSuiteLivraison The nom suite livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNomSuiteLivraison($nomSuiteLivraison) {
         $this->nomSuiteLivraison = $nomSuiteLivraison;
@@ -2070,6 +2141,7 @@ class Chantiers {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -2080,6 +2152,7 @@ class Chantiers {
      * Set the nom voie livraison.
      *
      * @param string $nomVoieLivraison The nom voie livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNomVoieLivraison($nomVoieLivraison) {
         $this->nomVoieLivraison = $nomVoieLivraison;
@@ -2090,6 +2163,7 @@ class Chantiers {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -2100,6 +2174,7 @@ class Chantiers {
      * Set the num voie livraison.
      *
      * @param string $numVoieLivraison The num voie livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNumVoieLivraison($numVoieLivraison) {
         $this->numVoieLivraison = $numVoieLivraison;
@@ -2110,6 +2185,7 @@ class Chantiers {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -2120,6 +2196,7 @@ class Chantiers {
      * Set the plan fact.
      *
      * @param bool $planFact The plan fact.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setPlanFact($planFact) {
         $this->planFact = $planFact;
@@ -2130,6 +2207,7 @@ class Chantiers {
      * Set the pourc conso produit.
      *
      * @param float $pourcConsoProduit The pourc conso produit.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setPourcConsoProduit($pourcConsoProduit) {
         $this->pourcConsoProduit = $pourcConsoProduit;
@@ -2140,6 +2218,7 @@ class Chantiers {
      * Set the pourc marge previs.
      *
      * @param float $pourcMargePrevis The pourc marge previs.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setPourcMargePrevis($pourcMargePrevis) {
         $this->pourcMargePrevis = $pourcMargePrevis;
@@ -2150,6 +2229,7 @@ class Chantiers {
      * Set the reference facture.
      *
      * @param string $referenceFacture The reference facture.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setReferenceFacture($referenceFacture) {
         $this->referenceFacture = $referenceFacture;
@@ -2160,6 +2240,7 @@ class Chantiers {
      * Set the reference facture2.
      *
      * @param string $referenceFacture2 The reference facture2.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setReferenceFacture2($referenceFacture2) {
         $this->referenceFacture2 = $referenceFacture2;
@@ -2170,6 +2251,7 @@ class Chantiers {
      * Set the rupt date livraison.
      *
      * @param bool $ruptDateLivraison The rupt date livraison.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setRuptDateLivraison($ruptDateLivraison) {
         $this->ruptDateLivraison = $ruptDateLivraison;
@@ -2180,6 +2262,7 @@ class Chantiers {
      * Set the telephone.
      *
      * @param string $telephone The telephone.
+     * @return Chantiers Returns this Chantiers.
      */
     public function setTelephone($telephone) {
         $this->telephone = $telephone;

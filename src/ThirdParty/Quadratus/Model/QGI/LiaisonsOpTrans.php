@@ -1312,6 +1312,7 @@ class LiaisonsOpTrans {
      * Set the batch apres.
      *
      * @param string $batchApres The batch apres.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setBatchApres($batchApres) {
         $this->batchApres = $batchApres;
@@ -1322,6 +1323,7 @@ class LiaisonsOpTrans {
      * Set the batch avant.
      *
      * @param string $batchAvant The batch avant.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setBatchAvant($batchAvant) {
         $this->batchAvant = $batchAvant;
@@ -1332,6 +1334,7 @@ class LiaisonsOpTrans {
      * Set the code.
      *
      * @param string $code The code.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -1342,6 +1345,7 @@ class LiaisonsOpTrans {
      * Set the dt dern x fer.
      *
      * @param DateTime|null $dtDernXFer The dt dern x fer.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setDtDernXFer(DateTime $dtDernXFer = null) {
         $this->dtDernXFer = $dtDernXFer;
@@ -1352,6 +1356,7 @@ class LiaisonsOpTrans {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -1362,6 +1367,7 @@ class LiaisonsOpTrans {
      * Set the liste destinataires.
      *
      * @param string $listeDestinataires The liste destinataires.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setListeDestinataires($listeDestinataires) {
         $this->listeDestinataires = $listeDestinataires;
@@ -1372,6 +1378,7 @@ class LiaisonsOpTrans {
      * Set the use dt dern x fer.
      *
      * @param bool $useDtDernXFer The use dt dern x fer.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setUseDtDernXFer($useDtDernXFer) {
         $this->useDtDernXFer = $useDtDernXFer;
@@ -1382,6 +1389,7 @@ class LiaisonsOpTrans {
      * Set the x fer activites.
      *
      * @param bool $xFerActivites The x fer activites.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerActivites($xFerActivites) {
         $this->xFerActivites = $xFerActivites;
@@ -1392,6 +1400,7 @@ class LiaisonsOpTrans {
      * Set the x fer articles.
      *
      * @param bool $xFerArticles The x fer articles.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerArticles($xFerArticles) {
         $this->xFerArticles = $xFerArticles;
@@ -1402,6 +1411,7 @@ class LiaisonsOpTrans {
      * Set the x fer boni mali.
      *
      * @param bool $xFerBoniMali The x fer boni mali.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerBoniMali($xFerBoniMali) {
         $this->xFerBoniMali = $xFerBoniMali;
@@ -1412,6 +1422,7 @@ class LiaisonsOpTrans {
      * Set the x fer budgets temps.
      *
      * @param bool $xFerBudgetsTemps The x fer budgets temps.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerBudgetsTemps($xFerBudgetsTemps) {
         $this->xFerBudgetsTemps = $xFerBudgetsTemps;
@@ -1422,6 +1433,7 @@ class LiaisonsOpTrans {
      * Set the x fer civilites.
      *
      * @param bool $xFerCivilites The x fer civilites.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCivilites($xFerCivilites) {
         $this->xFerCivilites = $xFerCivilites;
@@ -1432,6 +1444,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli.
      *
      * @param bool $xFerCli The x fer cli.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCli($xFerCli) {
         $this->xFerCli = $xFerCli;
@@ -1442,6 +1455,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli a1.
      *
      * @param string $xFerCliA1 The x fer cli a1.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCliA1($xFerCliA1) {
         $this->xFerCliA1 = $xFerCliA1;
@@ -1452,6 +1466,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli a2.
      *
      * @param string $xFerCliA2 The x fer cli a2.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCliA2($xFerCliA2) {
         $this->xFerCliA2 = $xFerCliA2;
@@ -1462,6 +1477,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli c.
      *
      * @param string $xFerCliC The x fer cli c.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCliC($xFerCliC) {
         $this->xFerCliC = $xFerCliC;
@@ -1472,6 +1488,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli deb.
      *
      * @param string $xFerCliDeb The x fer cli deb.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCliDeb($xFerCliDeb) {
         $this->xFerCliDeb = $xFerCliDeb;
@@ -1482,6 +1499,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli docs.
      *
      * @param bool $xFerCliDocs The x fer cli docs.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCliDocs($xFerCliDocs) {
         $this->xFerCliDocs = $xFerCliDocs;
@@ -1492,6 +1510,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli e.
      *
      * @param string $xFerCliE The x fer cli e.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCliE($xFerCliE) {
         $this->xFerCliE = $xFerCliE;
@@ -1502,6 +1521,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli fin.
      *
      * @param string $xFerCliFin The x fer cli fin.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCliFin($xFerCliFin) {
         $this->xFerCliFin = $xFerCliFin;
@@ -1512,6 +1532,7 @@ class LiaisonsOpTrans {
      * Set the x fer cli p.
      *
      * @param string $xFerCliP The x fer cli p.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCliP($xFerCliP) {
         $this->xFerCliP = $xFerCliP;
@@ -1522,6 +1543,7 @@ class LiaisonsOpTrans {
      * Set the x fer col.
      *
      * @param bool $xFerCol The x fer col.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCol($xFerCol) {
         $this->xFerCol = $xFerCol;
@@ -1532,6 +1554,7 @@ class LiaisonsOpTrans {
      * Set the x fer collab tache.
      *
      * @param bool $xFerCollabTache The x fer collab tache.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCollabTache($xFerCollabTache) {
         $this->xFerCollabTache = $xFerCollabTache;
@@ -1542,6 +1565,7 @@ class LiaisonsOpTrans {
      * Set the x fer contenu.
      *
      * @param bool $xFerContenu The x fer contenu.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerContenu($xFerContenu) {
         $this->xFerContenu = $xFerContenu;
@@ -1552,6 +1576,7 @@ class LiaisonsOpTrans {
      * Set the x fer cpta.
      *
      * @param bool $xFerCpta The x fer cpta.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCpta($xFerCpta) {
         $this->xFerCpta = $xFerCpta;
@@ -1562,6 +1587,7 @@ class LiaisonsOpTrans {
      * Set the x fer cpta all.
      *
      * @param bool $xFerCptaAll The x fer cpta all.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCptaAll($xFerCptaAll) {
         $this->xFerCptaAll = $xFerCptaAll;
@@ -1572,6 +1598,7 @@ class LiaisonsOpTrans {
      * Set the x fer cpta cli.
      *
      * @param bool $xFerCptaCli The x fer cpta cli.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCptaCli($xFerCptaCli) {
         $this->xFerCptaCli = $xFerCptaCli;
@@ -1582,6 +1609,7 @@ class LiaisonsOpTrans {
      * Set the x fer cpta dest.
      *
      * @param string $xFerCptaDest The x fer cpta dest.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCptaDest($xFerCptaDest) {
         $this->xFerCptaDest = $xFerCptaDest;
@@ -1592,6 +1620,7 @@ class LiaisonsOpTrans {
      * Set the x fer cpta frn.
      *
      * @param bool $xFerCptaFrn The x fer cpta frn.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCptaFrn($xFerCptaFrn) {
         $this->xFerCptaFrn = $xFerCptaFrn;
@@ -1602,6 +1631,7 @@ class LiaisonsOpTrans {
      * Set the x fer cpta img.
      *
      * @param bool $xFerCptaImg The x fer cpta img.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCptaImg($xFerCptaImg) {
         $this->xFerCptaImg = $xFerCptaImg;
@@ -1612,6 +1642,7 @@ class LiaisonsOpTrans {
      * Set the x fer cpta lst dc.
      *
      * @param string $xFerCptaLstDc The x fer cpta lst dc.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCptaLstDc($xFerCptaLstDc) {
         $this->xFerCptaLstDc = $xFerCptaLstDc;
@@ -1622,6 +1653,7 @@ class LiaisonsOpTrans {
      * Set the x fer cpta src.
      *
      * @param string $xFerCptaSrc The x fer cpta src.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCptaSrc($xFerCptaSrc) {
         $this->xFerCptaSrc = $xFerCptaSrc;
@@ -1632,6 +1664,7 @@ class LiaisonsOpTrans {
      * Set the x fer cr dsi.
      *
      * @param bool $xFerCrDsi The x fer cr dsi.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCrDsi($xFerCrDsi) {
         $this->xFerCrDsi = $xFerCrDsi;
@@ -1642,6 +1675,7 @@ class LiaisonsOpTrans {
      * Set the x fer cr ducs.
      *
      * @param bool $xFerCrDucs The x fer cr ducs.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCrDucs($xFerCrDucs) {
         $this->xFerCrDucs = $xFerCrDucs;
@@ -1652,6 +1686,7 @@ class LiaisonsOpTrans {
      * Set the x fer cr pedi.
      *
      * @param bool $xFerCrPedi The x fer cr pedi.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCrPedi($xFerCrPedi) {
         $this->xFerCrPedi = $xFerCrPedi;
@@ -1662,6 +1697,7 @@ class LiaisonsOpTrans {
      * Set the x fer cr req.
      *
      * @param bool $xFerCrReq The x fer cr req.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCrReq($xFerCrReq) {
         $this->xFerCrReq = $xFerCrReq;
@@ -1672,6 +1708,7 @@ class LiaisonsOpTrans {
      * Set the x fer cr tdfc.
      *
      * @param bool $xFerCrTdfc The x fer cr tdfc.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCrTdfc($xFerCrTdfc) {
         $this->xFerCrTdfc = $xFerCrTdfc;
@@ -1682,6 +1719,7 @@ class LiaisonsOpTrans {
      * Set the x fer cr tva.
      *
      * @param bool $xFerCrTva The x fer cr tva.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCrTva($xFerCrTva) {
         $this->xFerCrTva = $xFerCrTva;
@@ -1692,6 +1730,7 @@ class LiaisonsOpTrans {
      * Set the x fer cst px km.
      *
      * @param bool $xFerCstPxKm The x fer cst px km.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerCstPxKm($xFerCstPxKm) {
         $this->xFerCstPxKm = $xFerCstPxKm;
@@ -1702,6 +1741,7 @@ class LiaisonsOpTrans {
      * Set the x fer dos cpta.
      *
      * @param bool $xFerDosCpta The x fer dos cpta.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerDosCpta($xFerDosCpta) {
         $this->xFerDosCpta = $xFerDosCpta;
@@ -1712,6 +1752,7 @@ class LiaisonsOpTrans {
      * Set the x fer dos paie.
      *
      * @param bool $xFerDosPaie The x fer dos paie.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerDosPaie($xFerDosPaie) {
         $this->xFerDosPaie = $xFerDosPaie;
@@ -1722,6 +1763,7 @@ class LiaisonsOpTrans {
      * Set the x fer ed grp.
      *
      * @param bool $xFerEdGrp The x fer ed grp.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerEdGrp($xFerEdGrp) {
         $this->xFerEdGrp = $xFerEdGrp;
@@ -1732,6 +1774,7 @@ class LiaisonsOpTrans {
      * Set the x fer etebac.
      *
      * @param bool $xFerEtebac The x fer etebac.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerEtebac($xFerEtebac) {
         $this->xFerEtebac = $xFerEtebac;
@@ -1742,6 +1785,7 @@ class LiaisonsOpTrans {
      * Set the x fer fact edit.
      *
      * @param bool $xFerFactEdit The x fer fact edit.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerFactEdit($xFerFactEdit) {
         $this->xFerFactEdit = $xFerFactEdit;
@@ -1752,6 +1796,7 @@ class LiaisonsOpTrans {
      * Set the x fer fact edit del src.
      *
      * @param bool $xFerFactEditDelSrc The x fer fact edit del src.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerFactEditDelSrc($xFerFactEditDelSrc) {
         $this->xFerFactEditDelSrc = $xFerFactEditDelSrc;
@@ -1762,6 +1807,7 @@ class LiaisonsOpTrans {
      * Set the x fer fact non edit.
      *
      * @param bool $xFerFactNonEdit The x fer fact non edit.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerFactNonEdit($xFerFactNonEdit) {
         $this->xFerFactNonEdit = $xFerFactNonEdit;
@@ -1772,6 +1818,7 @@ class LiaisonsOpTrans {
      * Set the x fer fact non edit del src.
      *
      * @param bool $xFerFactNonEditDelSrc The x fer fact non edit del src.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerFactNonEditDelSrc($xFerFactNonEditDelSrc) {
         $this->xFerFactNonEditDelSrc = $xFerFactNonEditDelSrc;
@@ -1782,6 +1829,7 @@ class LiaisonsOpTrans {
      * Set the x fer fonctions.
      *
      * @param bool $xFerFonctions The x fer fonctions.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerFonctions($xFerFonctions) {
         $this->xFerFonctions = $xFerFonctions;
@@ -1792,6 +1840,7 @@ class LiaisonsOpTrans {
      * Set the x fer impots directs.
      *
      * @param bool $xFerImpotsDirects The x fer impots directs.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerImpotsDirects($xFerImpotsDirects) {
         $this->xFerImpotsDirects = $xFerImpotsDirects;
@@ -1802,6 +1851,7 @@ class LiaisonsOpTrans {
      * Set the x fer int.
      *
      * @param bool $xFerInt The x fer int.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerInt($xFerInt) {
         $this->xFerInt = $xFerInt;
@@ -1812,6 +1862,7 @@ class LiaisonsOpTrans {
      * Set the x fer int no cli only.
      *
      * @param bool $xFerIntNoCliOnly The x fer int no cli only.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerIntNoCliOnly($xFerIntNoCliOnly) {
         $this->xFerIntNoCliOnly = $xFerIntNoCliOnly;
@@ -1822,6 +1873,7 @@ class LiaisonsOpTrans {
      * Set the x fer lst cabs.
      *
      * @param string $xFerLstCabs The x fer lst cabs.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerLstCabs($xFerLstCabs) {
         $this->xFerLstCabs = $xFerLstCabs;
@@ -1832,6 +1884,7 @@ class LiaisonsOpTrans {
      * Set the x fer mis.
      *
      * @param bool $xFerMis The x fer mis.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMis($xFerMis) {
         $this->xFerMis = $xFerMis;
@@ -1842,6 +1895,7 @@ class LiaisonsOpTrans {
      * Set the x fer mis cli.
      *
      * @param bool $xFerMisCli The x fer mis cli.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMisCli($xFerMisCli) {
         $this->xFerMisCli = $xFerMisCli;
@@ -1852,6 +1906,7 @@ class LiaisonsOpTrans {
      * Set the x fer mission principale.
      *
      * @param bool $xFerMissionPrincipale The x fer mission principale.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMissionPrincipale($xFerMissionPrincipale) {
         $this->xFerMissionPrincipale = $xFerMissionPrincipale;
@@ -1862,6 +1917,7 @@ class LiaisonsOpTrans {
      * Set the x fer msg.
      *
      * @param bool $xFerMsg The x fer msg.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMsg($xFerMsg) {
         $this->xFerMsg = $xFerMsg;
@@ -1872,6 +1928,7 @@ class LiaisonsOpTrans {
      * Set the x fer msg cli.
      *
      * @param bool $xFerMsgCli The x fer msg cli.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMsgCli($xFerMsgCli) {
         $this->xFerMsgCli = $xFerMsgCli;
@@ -1882,6 +1939,7 @@ class LiaisonsOpTrans {
      * Set the x fer msg col.
      *
      * @param bool $xFerMsgCol The x fer msg col.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMsgCol($xFerMsgCol) {
         $this->xFerMsgCol = $xFerMsgCol;
@@ -1892,6 +1950,7 @@ class LiaisonsOpTrans {
      * Set the x fer msg del src.
      *
      * @param bool $xFerMsgDelSrc The x fer msg del src.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMsgDelSrc($xFerMsgDelSrc) {
         $this->xFerMsgDelSrc = $xFerMsgDelSrc;
@@ -1902,6 +1961,7 @@ class LiaisonsOpTrans {
      * Set the x fer msg hist.
      *
      * @param bool $xFerMsgHist The x fer msg hist.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMsgHist($xFerMsgHist) {
         $this->xFerMsgHist = $xFerMsgHist;
@@ -1912,6 +1972,7 @@ class LiaisonsOpTrans {
      * Set the x fer msg hist cli.
      *
      * @param bool $xFerMsgHistCli The x fer msg hist cli.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMsgHistCli($xFerMsgHistCli) {
         $this->xFerMsgHistCli = $xFerMsgHistCli;
@@ -1922,6 +1983,7 @@ class LiaisonsOpTrans {
      * Set the x fer msg hist del src.
      *
      * @param bool $xFerMsgHistDelSrc The x fer msg hist del src.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerMsgHistDelSrc($xFerMsgHistDelSrc) {
         $this->xFerMsgHistDelSrc = $xFerMsgHistDelSrc;
@@ -1932,6 +1994,7 @@ class LiaisonsOpTrans {
      * Set the x fer obligations.
      *
      * @param bool $xFerObligations The x fer obligations.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerObligations($xFerObligations) {
         $this->xFerObligations = $xFerObligations;
@@ -1942,6 +2005,7 @@ class LiaisonsOpTrans {
      * Set the x fer pdf.
      *
      * @param bool $xFerPdf The x fer pdf.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerPdf($xFerPdf) {
         $this->xFerPdf = $xFerPdf;
@@ -1952,6 +2016,7 @@ class LiaisonsOpTrans {
      * Set the x fer planning.
      *
      * @param bool $xFerPlanning The x fer planning.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerPlanning($xFerPlanning) {
         $this->xFerPlanning = $xFerPlanning;
@@ -1962,6 +2027,7 @@ class LiaisonsOpTrans {
      * Set the x fer pre fact.
      *
      * @param bool $xFerPreFact The x fer pre fact.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerPreFact($xFerPreFact) {
         $this->xFerPreFact = $xFerPreFact;
@@ -1972,6 +2038,7 @@ class LiaisonsOpTrans {
      * Set the x fer pre fact cli.
      *
      * @param bool $xFerPreFactCli The x fer pre fact cli.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerPreFactCli($xFerPreFactCli) {
         $this->xFerPreFactCli = $xFerPreFactCli;
@@ -1982,6 +2049,7 @@ class LiaisonsOpTrans {
      * Set the x fer pre fact col.
      *
      * @param bool $xFerPreFactCol The x fer pre fact col.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerPreFactCol($xFerPreFactCol) {
         $this->xFerPreFactCol = $xFerPreFactCol;
@@ -1992,6 +2060,7 @@ class LiaisonsOpTrans {
      * Set the x fer pre fact fact.
      *
      * @param bool $xFerPreFactFact The x fer pre fact fact.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerPreFactFact($xFerPreFactFact) {
         $this->xFerPreFactFact = $xFerPreFactFact;
@@ -2002,6 +2071,7 @@ class LiaisonsOpTrans {
      * Set the x fer q infos.
      *
      * @param bool $xFerQInfos The x fer q infos.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerQInfos($xFerQInfos) {
         $this->xFerQInfos = $xFerQInfos;
@@ -2012,6 +2082,7 @@ class LiaisonsOpTrans {
      * Set the x fer q infos det.
      *
      * @param string $xFerQInfosDet The x fer q infos det.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerQInfosDet($xFerQInfosDet) {
         $this->xFerQInfosDet = $xFerQInfosDet;
@@ -2022,6 +2093,7 @@ class LiaisonsOpTrans {
      * Set the x fer qualifiants.
      *
      * @param bool $xFerQualifiants The x fer qualifiants.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerQualifiants($xFerQualifiants) {
         $this->xFerQualifiants = $xFerQualifiants;
@@ -2032,6 +2104,7 @@ class LiaisonsOpTrans {
      * Set the x fer reglements.
      *
      * @param bool $xFerReglements The x fer reglements.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerReglements($xFerReglements) {
         $this->xFerReglements = $xFerReglements;
@@ -2042,6 +2115,7 @@ class LiaisonsOpTrans {
      * Set the x fer sui cli.
      *
      * @param bool $xFerSuiCli The x fer sui cli.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerSuiCli($xFerSuiCli) {
         $this->xFerSuiCli = $xFerSuiCli;
@@ -2052,6 +2126,7 @@ class LiaisonsOpTrans {
      * Set the x fer taches.
      *
      * @param bool $xFerTaches The x fer taches.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerTaches($xFerTaches) {
         $this->xFerTaches = $xFerTaches;
@@ -2062,6 +2137,7 @@ class LiaisonsOpTrans {
      * Set the x fer tps.
      *
      * @param bool $xFerTps The x fer tps.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerTps($xFerTps) {
         $this->xFerTps = $xFerTps;
@@ -2072,6 +2148,7 @@ class LiaisonsOpTrans {
      * Set the x fer tps cli.
      *
      * @param bool $xFerTpsCli The x fer tps cli.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerTpsCli($xFerTpsCli) {
         $this->xFerTpsCli = $xFerTpsCli;
@@ -2082,6 +2159,7 @@ class LiaisonsOpTrans {
      * Set the x fer tps col.
      *
      * @param bool $xFerTpsCol The x fer tps col.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerTpsCol($xFerTpsCol) {
         $this->xFerTpsCol = $xFerTpsCol;
@@ -2092,6 +2170,7 @@ class LiaisonsOpTrans {
      * Set the x fer type evenements.
      *
      * @param bool $xFerTypeEvenements The x fer type evenements.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerTypeEvenements($xFerTypeEvenements) {
         $this->xFerTypeEvenements = $xFerTypeEvenements;
@@ -2102,6 +2181,7 @@ class LiaisonsOpTrans {
      * Set the x fer type societes.
      *
      * @param bool $xFerTypeSocietes The x fer type societes.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
      */
     public function setXFerTypeSocietes($xFerTypeSocietes) {
         $this->xFerTypeSocietes = $xFerTypeSocietes;

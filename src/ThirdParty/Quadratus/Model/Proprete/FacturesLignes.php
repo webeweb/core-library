@@ -880,6 +880,7 @@ class FacturesLignes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -890,6 +891,7 @@ class FacturesLignes {
      * Set the code affaire ligne.
      *
      * @param string $codeAffaireLigne The code affaire ligne.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeAffaireLigne($codeAffaireLigne) {
         $this->codeAffaireLigne = $codeAffaireLigne;
@@ -900,6 +902,7 @@ class FacturesLignes {
      * Set the code anal article.
      *
      * @param string $codeAnalArticle The code anal article.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeAnalArticle($codeAnalArticle) {
         $this->codeAnalArticle = $codeAnalArticle;
@@ -910,6 +913,7 @@ class FacturesLignes {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -920,6 +924,7 @@ class FacturesLignes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -930,6 +935,7 @@ class FacturesLignes {
      * Set the code chantier ligne.
      *
      * @param string $codeChantierLigne The code chantier ligne.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeChantierLigne($codeChantierLigne) {
         $this->codeChantierLigne = $codeChantierLigne;
@@ -940,6 +946,7 @@ class FacturesLignes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -950,6 +957,7 @@ class FacturesLignes {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -960,6 +968,7 @@ class FacturesLignes {
      * Set the code tva article.
      *
      * @param string $codeTvaArticle The code tva article.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeTvaArticle($codeTvaArticle) {
         $this->codeTvaArticle = $codeTvaArticle;
@@ -970,6 +979,7 @@ class FacturesLignes {
      * Set the code unite.
      *
      * @param string $codeUnite The code unite.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -980,6 +990,7 @@ class FacturesLignes {
      * Set the code ventil article.
      *
      * @param string $codeVentilArticle The code ventil article.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCodeVentilArticle($codeVentilArticle) {
         $this->codeVentilArticle = $codeVentilArticle;
@@ -990,6 +1001,7 @@ class FacturesLignes {
      * Set the coefficient bt.
      *
      * @param float $coefficientBt The coefficient bt.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setCoefficientBt($coefficientBt) {
         $this->coefficientBt = $coefficientBt;
@@ -1000,6 +1012,7 @@ class FacturesLignes {
      * Set the date bt.
      *
      * @param DateTime|null $dateBt The date bt.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDateBt(DateTime $dateBt = null) {
         $this->dateBt = $dateBt;
@@ -1010,6 +1023,7 @@ class FacturesLignes {
      * Set the date preparation.
      *
      * @param DateTime|null $datePreparation The date preparation.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDatePreparation(DateTime $datePreparation = null) {
         $this->datePreparation = $datePreparation;
@@ -1020,6 +1034,7 @@ class FacturesLignes {
      * Set the depuis deb fac.
      *
      * @param bool $depuisDebFac The depuis deb fac.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDepuisDebFac($depuisDebFac) {
         $this->depuisDebFac = $depuisDebFac;
@@ -1030,6 +1045,7 @@ class FacturesLignes {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -1040,6 +1056,7 @@ class FacturesLignes {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -1050,6 +1067,7 @@ class FacturesLignes {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -1060,6 +1078,7 @@ class FacturesLignes {
      * Set the designation bis.
      *
      * @param string $designationBis The designation bis.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDesignationBis($designationBis) {
         $this->designationBis = $designationBis;
@@ -1070,6 +1089,7 @@ class FacturesLignes {
      * Set the designation bis2.
      *
      * @param string $designationBis2 The designation bis2.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDesignationBis2($designationBis2) {
         $this->designationBis2 = $designationBis2;
@@ -1080,6 +1100,7 @@ class FacturesLignes {
      * Set the designation bis3.
      *
      * @param string $designationBis3 The designation bis3.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDesignationBis3($designationBis3) {
         $this->designationBis3 = $designationBis3;
@@ -1090,6 +1111,7 @@ class FacturesLignes {
      * Set the designation rtf.
      *
      * @param string $designationRtf The designation rtf.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDesignationRtf($designationRtf) {
         $this->designationRtf = $designationRtf;
@@ -1100,6 +1122,7 @@ class FacturesLignes {
      * Set the duree bt.
      *
      * @param float $dureeBt The duree bt.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setDureeBt($dureeBt) {
         $this->dureeBt = $dureeBt;
@@ -1110,6 +1133,7 @@ class FacturesLignes {
      * Set the from pointage bt.
      *
      * @param bool $fromPointageBt The from pointage bt.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setFromPointageBt($fromPointageBt) {
         $this->fromPointageBt = $fromPointageBt;
@@ -1120,6 +1144,7 @@ class FacturesLignes {
      * Set the heures prev.
      *
      * @param float $heuresPrev The heures prev.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setHeuresPrev($heuresPrev) {
         $this->heuresPrev = $heuresPrev;
@@ -1130,6 +1155,7 @@ class FacturesLignes {
      * Set the heures reel.
      *
      * @param float $heuresReel The heures reel.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setHeuresReel($heuresReel) {
         $this->heuresReel = $heuresReel;
@@ -1140,6 +1166,7 @@ class FacturesLignes {
      * Set the imprimer dans pied.
      *
      * @param bool $imprimerDansPied The imprimer dans pied.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setImprimerDansPied($imprimerDansPied) {
         $this->imprimerDansPied = $imprimerDansPied;
@@ -1150,6 +1177,7 @@ class FacturesLignes {
      * Set the montant unitaire taxe.
      *
      * @param float $montantUnitaireTaxe The montant unitaire taxe.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setMontantUnitaireTaxe($montantUnitaireTaxe) {
         $this->montantUnitaireTaxe = $montantUnitaireTaxe;
@@ -1160,6 +1188,7 @@ class FacturesLignes {
      * Set the mot cle dans pied.
      *
      * @param string $motCleDansPied The mot cle dans pied.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setMotCleDansPied($motCleDansPied) {
         $this->motCleDansPied = $motCleDansPied;
@@ -1170,6 +1199,7 @@ class FacturesLignes {
      * Set the no chrono preparation.
      *
      * @param int $noChronoPreparation The no chrono preparation.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setNoChronoPreparation($noChronoPreparation) {
         $this->noChronoPreparation = $noChronoPreparation;
@@ -1180,6 +1210,7 @@ class FacturesLignes {
      * Set the no ligne ori.
      *
      * @param int $noLigneOri The no ligne ori.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setNoLigneOri($noLigneOri) {
         $this->noLigneOri = $noLigneOri;
@@ -1190,6 +1221,7 @@ class FacturesLignes {
      * Set the no piece origine.
      *
      * @param string $noPieceOrigine The no piece origine.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setNoPieceOrigine($noPieceOrigine) {
         $this->noPieceOrigine = $noPieceOrigine;
@@ -1200,6 +1232,7 @@ class FacturesLignes {
      * Set the numero bt.
      *
      * @param int $numeroBt The numero bt.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setNumeroBt($numeroBt) {
         $this->numeroBt = $numeroBt;
@@ -1210,6 +1243,7 @@ class FacturesLignes {
      * Set the numero facture.
      *
      * @param string $numeroFacture The numero facture.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setNumeroFacture($numeroFacture) {
         $this->numeroFacture = $numeroFacture;
@@ -1220,6 +1254,7 @@ class FacturesLignes {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -1230,6 +1265,7 @@ class FacturesLignes {
      * Set the periode preparation.
      *
      * @param DateTime|null $periodePreparation The periode preparation.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setPeriodePreparation(DateTime $periodePreparation = null) {
         $this->periodePreparation = $periodePreparation;
@@ -1240,6 +1276,7 @@ class FacturesLignes {
      * Set the periode ventil marge.
      *
      * @param DateTime|null $periodeVentilMarge The periode ventil marge.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setPeriodeVentilMarge(DateTime $periodeVentilMarge = null) {
         $this->periodeVentilMarge = $periodeVentilMarge;
@@ -1250,6 +1287,7 @@ class FacturesLignes {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -1260,6 +1298,7 @@ class FacturesLignes {
      * Set the prix achat.
      *
      * @param float $prixAchat The prix achat.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setPrixAchat($prixAchat) {
         $this->prixAchat = $prixAchat;
@@ -1270,6 +1309,7 @@ class FacturesLignes {
      * Set the prix achat bt.
      *
      * @param float $prixAchatBt The prix achat bt.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setPrixAchatBt($prixAchatBt) {
         $this->prixAchatBt = $prixAchatBt;
@@ -1280,6 +1320,7 @@ class FacturesLignes {
      * Set the prix unitaire.
      *
      * @param float $prixUnitaire The prix unitaire.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setPrixUnitaire($prixUnitaire) {
         $this->prixUnitaire = $prixUnitaire;
@@ -1290,6 +1331,7 @@ class FacturesLignes {
      * Set the prix unitaire pdf.
      *
      * @param float $prixUnitairePdf The prix unitaire pdf.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setPrixUnitairePdf($prixUnitairePdf) {
         $this->prixUnitairePdf = $prixUnitairePdf;
@@ -1300,6 +1342,7 @@ class FacturesLignes {
      * Set the px facture.
      *
      * @param bool $pxFacture The px facture.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setPxFacture($pxFacture) {
         $this->pxFacture = $pxFacture;
@@ -1310,6 +1353,7 @@ class FacturesLignes {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -1320,6 +1364,7 @@ class FacturesLignes {
      * Set the ref poste cde web ft.
      *
      * @param string $refPosteCdeWebFt The ref poste cde web ft.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setRefPosteCdeWebFt($refPosteCdeWebFt) {
         $this->refPosteCdeWebFt = $refPosteCdeWebFt;
@@ -1330,6 +1375,7 @@ class FacturesLignes {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -1340,6 +1386,7 @@ class FacturesLignes {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -1350,6 +1397,7 @@ class FacturesLignes {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -1360,6 +1408,7 @@ class FacturesLignes {
      * Set the taux horaire bt.
      *
      * @param float $tauxHoraireBt The taux horaire bt.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setTauxHoraireBt($tauxHoraireBt) {
         $this->tauxHoraireBt = $tauxHoraireBt;
@@ -1370,6 +1419,7 @@ class FacturesLignes {
      * Set the taux tva article.
      *
      * @param float $tauxTvaArticle The taux tva article.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setTauxTvaArticle($tauxTvaArticle) {
         $this->tauxTvaArticle = $tauxTvaArticle;
@@ -1380,6 +1430,7 @@ class FacturesLignes {
      * Set the taux tva taxe.
      *
      * @param float $tauxTvaTaxe The taux tva taxe.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setTauxTvaTaxe($tauxTvaTaxe) {
         $this->tauxTvaTaxe = $tauxTvaTaxe;
@@ -1390,6 +1441,7 @@ class FacturesLignes {
      * Set the type piece.
      *
      * @param string $typePiece The type piece.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setTypePiece($typePiece) {
         $this->typePiece = $typePiece;
@@ -1400,6 +1452,7 @@ class FacturesLignes {
      * Set the ventil marge.
      *
      * @param bool $ventilMarge The ventil marge.
+     * @return FacturesLignes Returns this Factures lignes.
      */
     public function setVentilMarge($ventilMarge) {
         $this->ventilMarge = $ventilMarge;

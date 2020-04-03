@@ -160,6 +160,7 @@ class BudgetEntetes {
      * Set the arrondi.
      *
      * @param string $arrondi The arrondi.
+     * @return BudgetEntetes Returns this Budget entetes.
      */
     public function setArrondi($arrondi) {
         $this->arrondi = $arrondi;
@@ -170,6 +171,7 @@ class BudgetEntetes {
      * Set the code budget.
      *
      * @param string $codeBudget The code budget.
+     * @return BudgetEntetes Returns this Budget entetes.
      */
     public function setCodeBudget($codeBudget) {
         $this->codeBudget = $codeBudget;
@@ -180,6 +182,7 @@ class BudgetEntetes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return BudgetEntetes Returns this Budget entetes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -190,6 +193,7 @@ class BudgetEntetes {
      * Set the num col ref.
      *
      * @param int $numColRef The num col ref.
+     * @return BudgetEntetes Returns this Budget entetes.
      */
     public function setNumColRef($numColRef) {
         $this->numColRef = $numColRef;
@@ -200,6 +204,7 @@ class BudgetEntetes {
      * Set the periode debut.
      *
      * @param DateTime|null $periodeDebut The periode debut.
+     * @return BudgetEntetes Returns this Budget entetes.
      */
     public function setPeriodeDebut(DateTime $periodeDebut = null) {
         $this->periodeDebut = $periodeDebut;
@@ -210,6 +215,7 @@ class BudgetEntetes {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return BudgetEntetes Returns this Budget entetes.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;
@@ -220,6 +226,7 @@ class BudgetEntetes {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return BudgetEntetes Returns this Budget entetes.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -230,6 +237,7 @@ class BudgetEntetes {
      * Set the type col ref.
      *
      * @param string $typeColRef The type col ref.
+     * @return BudgetEntetes Returns this Budget entetes.
      */
     public function setTypeColRef($typeColRef) {
         $this->typeColRef = $typeColRef;

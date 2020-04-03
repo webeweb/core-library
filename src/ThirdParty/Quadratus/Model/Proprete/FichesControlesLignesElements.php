@@ -208,6 +208,7 @@ class FichesControlesLignesElements {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -218,6 +219,7 @@ class FichesControlesLignesElements {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -228,6 +230,7 @@ class FichesControlesLignesElements {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -238,6 +241,7 @@ class FichesControlesLignesElements {
      * Set the code element.
      *
      * @param string $codeElement The code element.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setCodeElement($codeElement) {
         $this->codeElement = $codeElement;
@@ -248,6 +252,7 @@ class FichesControlesLignesElements {
      * Set the coefficient.
      *
      * @param float $coefficient The coefficient.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setCoefficient($coefficient) {
         $this->coefficient = $coefficient;
@@ -258,6 +263,7 @@ class FichesControlesLignesElements {
      * Set the mise en conformite.
      *
      * @param DateTime|null $miseEnConformite The mise en conformite.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setMiseEnConformite(DateTime $miseEnConformite = null) {
         $this->miseEnConformite = $miseEnConformite;
@@ -268,6 +274,7 @@ class FichesControlesLignesElements {
      * Set the niveau noeud.
      *
      * @param int $niveauNoeud The niveau noeud.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setNiveauNoeud($niveauNoeud) {
         $this->niveauNoeud = $niveauNoeud;
@@ -278,6 +285,7 @@ class FichesControlesLignesElements {
      * Set the note.
      *
      * @param int $note The note.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setNote($note) {
         $this->note = $note;
@@ -288,6 +296,7 @@ class FichesControlesLignesElements {
      * Set the numero fiche.
      *
      * @param int $numeroFiche The numero fiche.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setNumeroFiche($numeroFiche) {
         $this->numeroFiche = $numeroFiche;
@@ -298,6 +307,7 @@ class FichesControlesLignesElements {
      * Set the numero noeud.
      *
      * @param int $numeroNoeud The numero noeud.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setNumeroNoeud($numeroNoeud) {
         $this->numeroNoeud = $numeroNoeud;
@@ -308,6 +318,7 @@ class FichesControlesLignesElements {
      * Set the type element.
      *
      * @param string $typeElement The type element.
+     * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
     public function setTypeElement($typeElement) {
         $this->typeElement = $typeElement;

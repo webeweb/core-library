@@ -448,6 +448,7 @@ class Emprunts {
      * Set the a echoir echu.
      *
      * @param string $aEchoirEchu The a echoir echu.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setAEchoirEchu($aEchoirEchu) {
         $this->aEchoirEchu = $aEchoirEchu;
@@ -458,6 +459,7 @@ class Emprunts {
      * Set the categorie.
      *
      * @param string $categorie The categorie.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setCategorie($categorie) {
         $this->categorie = $categorie;
@@ -468,6 +470,7 @@ class Emprunts {
      * Set the centre analytique.
      *
      * @param string $centreAnalytique The centre analytique.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setCentreAnalytique($centreAnalytique) {
         $this->centreAnalytique = $centreAnalytique;
@@ -478,6 +481,7 @@ class Emprunts {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -488,6 +492,7 @@ class Emprunts {
      * Set the cpt assurance emprunt.
      *
      * @param string $cptAssuranceEmprunt The cpt assurance emprunt.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setCptAssuranceEmprunt($cptAssuranceEmprunt) {
         $this->cptAssuranceEmprunt = $cptAssuranceEmprunt;
@@ -498,6 +503,7 @@ class Emprunts {
      * Set the cpt emprunt.
      *
      * @param string $cptEmprunt The cpt emprunt.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setCptEmprunt($cptEmprunt) {
         $this->cptEmprunt = $cptEmprunt;
@@ -508,6 +514,7 @@ class Emprunts {
      * Set the cpt interet emprunt.
      *
      * @param string $cptInteretEmprunt The cpt interet emprunt.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setCptInteretEmprunt($cptInteretEmprunt) {
         $this->cptInteretEmprunt = $cptInteretEmprunt;
@@ -518,6 +525,7 @@ class Emprunts {
      * Set the date ouverture.
      *
      * @param DateTime|null $dateOuverture The date ouverture.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setDateOuverture(DateTime $dateOuverture = null) {
         $this->dateOuverture = $dateOuverture;
@@ -528,6 +536,7 @@ class Emprunts {
      * Set the date premiere echeance.
      *
      * @param DateTime|null $datePremiereEcheance The date premiere echeance.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setDatePremiereEcheance(DateTime $datePremiereEcheance = null) {
         $this->datePremiereEcheance = $datePremiereEcheance;
@@ -538,6 +547,7 @@ class Emprunts {
      * Set the differe.
      *
      * @param bool $differe The differe.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setDiffere($differe) {
         $this->differe = $differe;
@@ -548,6 +558,7 @@ class Emprunts {
      * Set the duree.
      *
      * @param int $duree The duree.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setDuree($duree) {
         $this->duree = $duree;
@@ -558,6 +569,7 @@ class Emprunts {
      * Set the emprunt en francs.
      *
      * @param bool $empruntEnFrancs The emprunt en francs.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setEmpruntEnFrancs($empruntEnFrancs) {
         $this->empruntEnFrancs = $empruntEnFrancs;
@@ -568,6 +580,7 @@ class Emprunts {
      * Set the identification.
      *
      * @param string $identification The identification.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setIdentification($identification) {
         $this->identification = $identification;
@@ -578,6 +591,7 @@ class Emprunts {
      * Set the mois annee.
      *
      * @param string $moisAnnee The mois annee.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setMoisAnnee($moisAnnee) {
         $this->moisAnnee = $moisAnnee;
@@ -588,6 +602,7 @@ class Emprunts {
      * Set the montant assurance.
      *
      * @param float $montantAssurance The montant assurance.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setMontantAssurance($montantAssurance) {
         $this->montantAssurance = $montantAssurance;
@@ -598,6 +613,7 @@ class Emprunts {
      * Set the montant emprunte.
      *
      * @param float $montantEmprunte The montant emprunte.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setMontantEmprunte($montantEmprunte) {
         $this->montantEmprunte = $montantEmprunte;
@@ -608,6 +624,7 @@ class Emprunts {
      * Set the mt capital fixe remb.
      *
      * @param float $mtCapitalFixeRemb The mt capital fixe remb.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setMtCapitalFixeRemb($mtCapitalFixeRemb) {
         $this->mtCapitalFixeRemb = $mtCapitalFixeRemb;
@@ -618,6 +635,7 @@ class Emprunts {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -628,6 +646,7 @@ class Emprunts {
      * Set the nature analytique.
      *
      * @param string $natureAnalytique The nature analytique.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setNatureAnalytique($natureAnalytique) {
         $this->natureAnalytique = $natureAnalytique;
@@ -638,6 +657,7 @@ class Emprunts {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -648,6 +668,7 @@ class Emprunts {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -658,6 +679,7 @@ class Emprunts {
      * Set the organisme.
      *
      * @param string $organisme The organisme.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setOrganisme($organisme) {
         $this->organisme = $organisme;
@@ -668,6 +690,7 @@ class Emprunts {
      * Set the periodicite.
      *
      * @param string $periodicite The periodicite.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setPeriodicite($periodicite) {
         $this->periodicite = $periodicite;
@@ -678,6 +701,7 @@ class Emprunts {
      * Set the taux assurance.
      *
      * @param float $tauxAssurance The taux assurance.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setTauxAssurance($tauxAssurance) {
         $this->tauxAssurance = $tauxAssurance;
@@ -688,6 +712,7 @@ class Emprunts {
      * Set the taux interet.
      *
      * @param float $tauxInteret The taux interet.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setTauxInteret($tauxInteret) {
         $this->tauxInteret = $tauxInteret;
@@ -698,6 +723,7 @@ class Emprunts {
      * Set the type in fine.
      *
      * @param bool $typeInFine The type in fine.
+     * @return Emprunts Returns this Emprunts.
      */
     public function setTypeInFine($typeInFine) {
         $this->typeInFine = $typeInFine;

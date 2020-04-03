@@ -576,6 +576,7 @@ class LocationsFi {
      * Set the bureau.
      *
      * @param string $bureau The bureau.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setBureau($bureau) {
         $this->bureau = $bureau;
@@ -586,6 +587,7 @@ class LocationsFi {
      * Set the centre analytique.
      *
      * @param string $centreAnalytique The centre analytique.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCentreAnalytique($centreAnalytique) {
         $this->centreAnalytique = $centreAnalytique;
@@ -596,6 +598,7 @@ class LocationsFi {
      * Set the code journal echeance.
      *
      * @param string $codeJournalEcheance The code journal echeance.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCodeJournalEcheance($codeJournalEcheance) {
         $this->codeJournalEcheance = $codeJournalEcheance;
@@ -606,6 +609,7 @@ class LocationsFi {
      * Set the code journal paiement.
      *
      * @param string $codeJournalPaiement The code journal paiement.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCodeJournalPaiement($codeJournalPaiement) {
         $this->codeJournalPaiement = $codeJournalPaiement;
@@ -616,6 +620,7 @@ class LocationsFi {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -626,6 +631,7 @@ class LocationsFi {
      * Set the compte frn.
      *
      * @param string $compteFrn The compte frn.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCompteFrn($compteFrn) {
         $this->compteFrn = $compteFrn;
@@ -636,6 +642,7 @@ class LocationsFi {
      * Set the cpt assurance.
      *
      * @param string $cptAssurance The cpt assurance.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCptAssurance($cptAssurance) {
         $this->cptAssurance = $cptAssurance;
@@ -646,6 +653,7 @@ class LocationsFi {
      * Set the cpt charge.
      *
      * @param string $cptCharge The cpt charge.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCptCharge($cptCharge) {
         $this->cptCharge = $cptCharge;
@@ -656,6 +664,7 @@ class LocationsFi {
      * Set the cpt entretien.
      *
      * @param string $cptEntretien The cpt entretien.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCptEntretien($cptEntretien) {
         $this->cptEntretien = $cptEntretien;
@@ -666,6 +675,7 @@ class LocationsFi {
      * Set the cpt tva.
      *
      * @param string $cptTva The cpt tva.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCptTva($cptTva) {
         $this->cptTva = $cptTva;
@@ -676,6 +686,7 @@ class LocationsFi {
      * Set the cpt tva assu.
      *
      * @param string $cptTvaAssu The cpt tva assu.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setCptTvaAssu($cptTvaAssu) {
         $this->cptTvaAssu = $cptTvaAssu;
@@ -686,6 +697,7 @@ class LocationsFi {
      * Set the date acquisition.
      *
      * @param DateTime|null $dateAcquisition The date acquisition.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setDateAcquisition(DateTime $dateAcquisition = null) {
         $this->dateAcquisition = $dateAcquisition;
@@ -696,6 +708,7 @@ class LocationsFi {
      * Set the date fin contrat.
      *
      * @param DateTime|null $dateFinContrat The date fin contrat.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setDateFinContrat(DateTime $dateFinContrat = null) {
         $this->dateFinContrat = $dateFinContrat;
@@ -706,6 +719,7 @@ class LocationsFi {
      * Set the date mise service.
      *
      * @param DateTime|null $dateMiseService The date mise service.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setDateMiseService(DateTime $dateMiseService = null) {
         $this->dateMiseService = $dateMiseService;
@@ -716,6 +730,7 @@ class LocationsFi {
      * Set the din.
      *
      * @param bool $din The din.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setDin($din) {
         $this->din = $din;
@@ -726,6 +741,7 @@ class LocationsFi {
      * Set the guid vehicule.
      *
      * @param string $guidVehicule The guid vehicule.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setGuidVehicule($guidVehicule) {
         $this->guidVehicule = $guidVehicule;
@@ -736,6 +752,7 @@ class LocationsFi {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -746,6 +763,7 @@ class LocationsFi {
      * Set the libelle frn.
      *
      * @param string $libelleFrn The libelle frn.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setLibelleFrn($libelleFrn) {
         $this->libelleFrn = $libelleFrn;
@@ -756,6 +774,7 @@ class LocationsFi {
      * Set the materiaux agricole.
      *
      * @param bool $materiauxAgricole The materiaux agricole.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setMateriauxAgricole($materiauxAgricole) {
         $this->materiauxAgricole = $materiauxAgricole;
@@ -766,6 +785,7 @@ class LocationsFi {
      * Set the montant tva.
      *
      * @param float $montantTva The montant tva.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setMontantTva($montantTva) {
         $this->montantTva = $montantTva;
@@ -776,6 +796,7 @@ class LocationsFi {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -786,6 +807,7 @@ class LocationsFi {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -796,6 +818,7 @@ class LocationsFi {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -806,6 +829,7 @@ class LocationsFi {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -816,6 +840,7 @@ class LocationsFi {
      * Set the service.
      *
      * @param string $service The service.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setService($service) {
         $this->service = $service;
@@ -826,6 +851,7 @@ class LocationsFi {
      * Set the taxe pro.
      *
      * @param bool $taxePro The taxe pro.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setTaxePro($taxePro) {
         $this->taxePro = $taxePro;
@@ -836,6 +862,7 @@ class LocationsFi {
      * Set the tp duree.
      *
      * @param int $tpDuree The tp duree.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setTpDuree($tpDuree) {
         $this->tpDuree = $tpDuree;
@@ -846,6 +873,7 @@ class LocationsFi {
      * Set the tp echoir echu.
      *
      * @param string $tpEchoirEchu The tp echoir echu.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setTpEchoirEchu($tpEchoirEchu) {
         $this->tpEchoirEchu = $tpEchoirEchu;
@@ -856,6 +884,7 @@ class LocationsFi {
      * Set the tp mois annee.
      *
      * @param string $tpMoisAnnee The tp mois annee.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setTpMoisAnnee($tpMoisAnnee) {
         $this->tpMoisAnnee = $tpMoisAnnee;
@@ -866,6 +895,7 @@ class LocationsFi {
      * Set the tp montt depot.
      *
      * @param float $tpMonttDepot The tp montt depot.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setTpMonttDepot($tpMonttDepot) {
         $this->tpMonttDepot = $tpMonttDepot;
@@ -876,6 +906,7 @@ class LocationsFi {
      * Set the tp periodicite.
      *
      * @param string $tpPeriodicite The tp periodicite.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setTpPeriodicite($tpPeriodicite) {
         $this->tpPeriodicite = $tpPeriodicite;
@@ -886,6 +917,7 @@ class LocationsFi {
      * Set the tp premier paiement.
      *
      * @param DateTime|null $tpPremierPaiement The tp premier paiement.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setTpPremierPaiement(DateTime $tpPremierPaiement = null) {
         $this->tpPremierPaiement = $tpPremierPaiement;
@@ -896,6 +928,7 @@ class LocationsFi {
      * Set the valeur ht.
      *
      * @param float $valeurHt The valeur ht.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setValeurHt($valeurHt) {
         $this->valeurHt = $valeurHt;
@@ -906,6 +939,7 @@ class LocationsFi {
      * Set the valeur locative.
      *
      * @param float $valeurLocative The valeur locative.
+     * @return LocationsFi Returns this Locations fi.
      */
     public function setValeurLocative($valeurLocative) {
         $this->valeurLocative = $valeurLocative;

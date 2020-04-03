@@ -208,6 +208,7 @@ class PointEmpHeuresAbs {
      * Set the code absence.
      *
      * @param string $codeAbsence The code absence.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setCodeAbsence($codeAbsence) {
         $this->codeAbsence = $codeAbsence;
@@ -218,6 +219,7 @@ class PointEmpHeuresAbs {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -228,6 +230,7 @@ class PointEmpHeuresAbs {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -238,6 +241,7 @@ class PointEmpHeuresAbs {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -248,6 +252,7 @@ class PointEmpHeuresAbs {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -258,6 +263,7 @@ class PointEmpHeuresAbs {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -268,6 +274,7 @@ class PointEmpHeuresAbs {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -278,6 +285,7 @@ class PointEmpHeuresAbs {
      * Set the heure abs.
      *
      * @param DateTime|null $heureAbs The heure abs.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setHeureAbs(DateTime $heureAbs = null) {
         $this->heureAbs = $heureAbs;
@@ -288,6 +296,7 @@ class PointEmpHeuresAbs {
      * Set the heure abs nuit.
      *
      * @param DateTime|null $heureAbsNuit The heure abs nuit.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setHeureAbsNuit(DateTime $heureAbsNuit = null) {
         $this->heureAbsNuit = $heureAbsNuit;
@@ -298,6 +307,7 @@ class PointEmpHeuresAbs {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -308,6 +318,7 @@ class PointEmpHeuresAbs {
      * Set the type heure.
      *
      * @param string $typeHeure The type heure.
+     * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
     public function setTypeHeure($typeHeure) {
         $this->typeHeure = $typeHeure;

@@ -78,6 +78,7 @@ class Comptes3 {
      * Set the code section.
      *
      * @param string $codeSection The code section.
+     * @return Comptes3 Returns this Comptes3.
      */
     public function setCodeSection($codeSection) {
         $this->codeSection = $codeSection;
@@ -88,6 +89,7 @@ class Comptes3 {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Comptes3 Returns this Comptes3.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -98,6 +100,7 @@ class Comptes3 {
      * Set the pourcent repart.
      *
      * @param float $pourcentRepart The pourcent repart.
+     * @return Comptes3 Returns this Comptes3.
      */
     public function setPourcentRepart($pourcentRepart) {
         $this->pourcentRepart = $pourcentRepart;

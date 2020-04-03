@@ -2736,6 +2736,7 @@ class Employes2 {
      * Set the a declarer cp.
      *
      * @param bool $aDeclarerCp The a declarer cp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setADeclarerCp($aDeclarerCp) {
         $this->aDeclarerCp = $aDeclarerCp;
@@ -2746,6 +2747,7 @@ class Employes2 {
      * Set the active sal min conv.
      *
      * @param bool $activeSalMinConv The active sal min conv.
+     * @return Employes2 Returns this Employes2.
      */
     public function setActiveSalMinConv($activeSalMinConv) {
         $this->activeSalMinConv = $activeSalMinConv;
@@ -2756,6 +2758,7 @@ class Employes2 {
      * Set the active smic.
      *
      * @param bool $activeSmic The active smic.
+     * @return Employes2 Returns this Employes2.
      */
     public function setActiveSmic($activeSmic) {
         $this->activeSmic = $activeSmic;
@@ -2766,6 +2769,7 @@ class Employes2 {
      * Set the aen logement.
      *
      * @param bool $aenLogement The aen logement.
+     * @return Employes2 Returns this Employes2.
      */
     public function setAenLogement($aenLogement) {
         $this->aenLogement = $aenLogement;
@@ -2776,6 +2780,7 @@ class Employes2 {
      * Set the alleg particulier emp.
      *
      * @param string $allegParticulierEmp The alleg particulier emp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setAllegParticulierEmp($allegParticulierEmp) {
         $this->allegParticulierEmp = $allegParticulierEmp;
@@ -2786,6 +2791,7 @@ class Employes2 {
      * Set the arbitrage auto.
      *
      * @param string $arbitrageAuto The arbitrage auto.
+     * @return Employes2 Returns this Employes2.
      */
     public function setArbitrageAuto($arbitrageAuto) {
         $this->arbitrageAuto = $arbitrageAuto;
@@ -2796,6 +2802,7 @@ class Employes2 {
      * Set the autre alleg emp.
      *
      * @param string $autreAllegEmp The autre alleg emp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setAutreAllegEmp($autreAllegEmp) {
         $this->autreAllegEmp = $autreAllegEmp;
@@ -2806,6 +2813,7 @@ class Employes2 {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return Employes2 Returns this Employes2.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -2816,6 +2824,7 @@ class Employes2 {
      * Set the caisse cp.
      *
      * @param string $caisseCp The caisse cp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCaisseCp($caisseCp) {
         $this->caisseCp = $caisseCp;
@@ -2826,6 +2835,7 @@ class Employes2 {
      * Set the centre analytique.
      *
      * @param string $centreAnalytique The centre analytique.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCentreAnalytique($centreAnalytique) {
         $this->centreAnalytique = $centreAnalytique;
@@ -2836,6 +2846,7 @@ class Employes2 {
      * Set the chef equipe.
      *
      * @param bool $chefEquipe The chef equipe.
+     * @return Employes2 Returns this Employes2.
      */
     public function setChefEquipe($chefEquipe) {
         $this->chefEquipe = $chefEquipe;
@@ -2846,6 +2857,7 @@ class Employes2 {
      * Set the cie plus50.
      *
      * @param bool $ciePlus50 The cie plus50.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCiePlus50($ciePlus50) {
         $this->ciePlus50 = $ciePlus50;
@@ -2856,6 +2868,7 @@ class Employes2 {
      * Set the code analytique proprete.
      *
      * @param string $codeAnalytiqueProprete The code analytique proprete.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCodeAnalytiqueProprete($codeAnalytiqueProprete) {
         $this->codeAnalytiqueProprete = $codeAnalytiqueProprete;
@@ -2866,6 +2879,7 @@ class Employes2 {
      * Set the code emp remplace.
      *
      * @param string $codeEmpRemplace The code emp remplace.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCodeEmpRemplace($codeEmpRemplace) {
         $this->codeEmpRemplace = $codeEmpRemplace;
@@ -2876,6 +2890,7 @@ class Employes2 {
      * Set the code insee.
      *
      * @param string $codeInsee The code insee.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCodeInsee($codeInsee) {
         $this->codeInsee = $codeInsee;
@@ -2886,6 +2901,7 @@ class Employes2 {
      * Set the code motif rupture1.
      *
      * @param string $codeMotifRupture1 The code motif rupture1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCodeMotifRupture1($codeMotifRupture1) {
         $this->codeMotifRupture1 = $codeMotifRupture1;
@@ -2896,6 +2912,7 @@ class Employes2 {
      * Set the code motif rupture2.
      *
      * @param string $codeMotifRupture2 The code motif rupture2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCodeMotifRupture2($codeMotifRupture2) {
         $this->codeMotifRupture2 = $codeMotifRupture2;
@@ -2906,6 +2923,7 @@ class Employes2 {
      * Set the code pays residence.
      *
      * @param string $codePaysResidence The code pays residence.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCodePaysResidence($codePaysResidence) {
         $this->codePaysResidence = $codePaysResidence;
@@ -2916,6 +2934,7 @@ class Employes2 {
      * Set the code tuteur.
      *
      * @param string $codeTuteur The code tuteur.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCodeTuteur($codeTuteur) {
         $this->codeTuteur = $codeTuteur;
@@ -2926,6 +2945,7 @@ class Employes2 {
      * Set the coeff convention.
      *
      * @param string $coeffConvention The coeff convention.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCoeffConvention($coeffConvention) {
         $this->coeffConvention = $coeffConvention;
@@ -2936,6 +2956,7 @@ class Employes2 {
      * Set the commercial.
      *
      * @param bool $commercial The commercial.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCommercial($commercial) {
         $this->commercial = $commercial;
@@ -2946,6 +2967,7 @@ class Employes2 {
      * Set the complement pcs.
      *
      * @param string $complementPcs The complement pcs.
+     * @return Employes2 Returns this Employes2.
      */
     public function setComplementPcs($complementPcs) {
         $this->complementPcs = $complementPcs;
@@ -2956,6 +2978,7 @@ class Employes2 {
      * Set the conjoint exploitant.
      *
      * @param bool $conjointExploitant The conjoint exploitant.
+     * @return Employes2 Returns this Employes2.
      */
     public function setConjointExploitant($conjointExploitant) {
         $this->conjointExploitant = $conjointExploitant;
@@ -2966,6 +2989,7 @@ class Employes2 {
      * Set the contrat cne.
      *
      * @param bool $contratCne The contrat cne.
+     * @return Employes2 Returns this Employes2.
      */
     public function setContratCne($contratCne) {
         $this->contratCne = $contratCne;
@@ -2976,6 +3000,7 @@ class Employes2 {
      * Set the cotis base penibilite.
      *
      * @param bool $cotisBasePenibilite The cotis base penibilite.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCotisBasePenibilite($cotisBasePenibilite) {
         $this->cotisBasePenibilite = $cotisBasePenibilite;
@@ -2986,6 +3011,7 @@ class Employes2 {
      * Set the critere tri abs conges1.
      *
      * @param string $critereTriAbsConges1 The critere tri abs conges1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCritereTriAbsConges1($critereTriAbsConges1) {
         $this->critereTriAbsConges1 = $critereTriAbsConges1;
@@ -2996,6 +3022,7 @@ class Employes2 {
      * Set the critere tri abs conges2.
      *
      * @param string $critereTriAbsConges2 The critere tri abs conges2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCritereTriAbsConges2($critereTriAbsConges2) {
         $this->critereTriAbsConges2 = $critereTriAbsConges2;
@@ -3006,6 +3033,7 @@ class Employes2 {
      * Set the critere tri abs conges3.
      *
      * @param string $critereTriAbsConges3 The critere tri abs conges3.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCritereTriAbsConges3($critereTriAbsConges3) {
         $this->critereTriAbsConges3 = $critereTriAbsConges3;
@@ -3016,6 +3044,7 @@ class Employes2 {
      * Set the cum base tr2.
      *
      * @param float $cumBaseTr2 The cum base tr2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTr2($cumBaseTr2) {
         $this->cumBaseTr2 = $cumBaseTr2;
@@ -3026,6 +3055,7 @@ class Employes2 {
      * Set the cum base tr d.
      *
      * @param float $cumBaseTrD The cum base tr d.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTrD($cumBaseTrD) {
         $this->cumBaseTrD = $cumBaseTrD;
@@ -3036,6 +3066,7 @@ class Employes2 {
      * Set the cum base tr d1.
      *
      * @param float $cumBaseTrD1 The cum base tr d1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTrD1($cumBaseTrD1) {
         $this->cumBaseTrD1 = $cumBaseTrD1;
@@ -3046,6 +3077,7 @@ class Employes2 {
      * Set the cum base tr d1 caisse1.
      *
      * @param float $cumBaseTrD1Caisse1 The cum base tr d1 caisse1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTrD1Caisse1($cumBaseTrD1Caisse1) {
         $this->cumBaseTrD1Caisse1 = $cumBaseTrD1Caisse1;
@@ -3056,6 +3088,7 @@ class Employes2 {
      * Set the cum base tr d1 caisse2.
      *
      * @param float $cumBaseTrD1Caisse2 The cum base tr d1 caisse2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTrD1Caisse2($cumBaseTrD1Caisse2) {
         $this->cumBaseTrD1Caisse2 = $cumBaseTrD1Caisse2;
@@ -3066,6 +3099,7 @@ class Employes2 {
      * Set the cum base tr d1 caisse3.
      *
      * @param float $cumBaseTrD1Caisse3 The cum base tr d1 caisse3.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTrD1Caisse3($cumBaseTrD1Caisse3) {
         $this->cumBaseTrD1Caisse3 = $cumBaseTrD1Caisse3;
@@ -3076,6 +3110,7 @@ class Employes2 {
      * Set the cum base tr d caisse1.
      *
      * @param float $cumBaseTrDCaisse1 The cum base tr d caisse1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTrDCaisse1($cumBaseTrDCaisse1) {
         $this->cumBaseTrDCaisse1 = $cumBaseTrDCaisse1;
@@ -3086,6 +3121,7 @@ class Employes2 {
      * Set the cum base tr d caisse2.
      *
      * @param float $cumBaseTrDCaisse2 The cum base tr d caisse2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTrDCaisse2($cumBaseTrDCaisse2) {
         $this->cumBaseTrDCaisse2 = $cumBaseTrDCaisse2;
@@ -3096,6 +3132,7 @@ class Employes2 {
      * Set the cum base tr d caisse3.
      *
      * @param float $cumBaseTrDCaisse3 The cum base tr d caisse3.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBaseTrDCaisse3($cumBaseTrDCaisse3) {
         $this->cumBaseTrDCaisse3 = $cumBaseTrDCaisse3;
@@ -3106,6 +3143,7 @@ class Employes2 {
      * Set the cum brut al sans si.
      *
      * @param float $cumBrutAlSansSi The cum brut al sans si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBrutAlSansSi($cumBrutAlSansSi) {
         $this->cumBrutAlSansSi = $cumBrutAlSansSi;
@@ -3116,6 +3154,7 @@ class Employes2 {
      * Set the cum brut caisse1.
      *
      * @param float $cumBrutCaisse1 The cum brut caisse1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBrutCaisse1($cumBrutCaisse1) {
         $this->cumBrutCaisse1 = $cumBrutCaisse1;
@@ -3126,6 +3165,7 @@ class Employes2 {
      * Set the cum brut caisse2.
      *
      * @param float $cumBrutCaisse2 The cum brut caisse2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBrutCaisse2($cumBrutCaisse2) {
         $this->cumBrutCaisse2 = $cumBrutCaisse2;
@@ -3136,6 +3176,7 @@ class Employes2 {
      * Set the cum brut caisse3.
      *
      * @param float $cumBrutCaisse3 The cum brut caisse3.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumBrutCaisse3($cumBrutCaisse3) {
         $this->cumBrutCaisse3 = $cumBrutCaisse3;
@@ -3146,6 +3187,7 @@ class Employes2 {
      * Set the cum dif dus.
      *
      * @param float $cumDifDus The cum dif dus.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumDifDus($cumDifDus) {
         $this->cumDifDus = $cumDifDus;
@@ -3156,6 +3198,7 @@ class Employes2 {
      * Set the cum dif dus1.
      *
      * @param float $cumDifDus1 The cum dif dus1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumDifDus1($cumDifDus1) {
         $this->cumDifDus1 = $cumDifDus1;
@@ -3166,6 +3209,7 @@ class Employes2 {
      * Set the cum h bonifie.
      *
      * @param float $cumHBonifie The cum h bonifie.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumHBonifie($cumHBonifie) {
         $this->cumHBonifie = $cumHBonifie;
@@ -3176,6 +3220,7 @@ class Employes2 {
      * Set the cum rtt dus.
      *
      * @param float $cumRttDus The cum rtt dus.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumRttDus($cumRttDus) {
         $this->cumRttDus = $cumRttDus;
@@ -3186,6 +3231,7 @@ class Employes2 {
      * Set the cum rtt pris.
      *
      * @param float $cumRttPris The cum rtt pris.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumRttPris($cumRttPris) {
         $this->cumRttPris = $cumRttPris;
@@ -3196,6 +3242,7 @@ class Employes2 {
      * Set the cum tot si.
      *
      * @param float $cumTotSi The cum tot si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTotSi($cumTotSi) {
         $this->cumTotSi = $cumTotSi;
@@ -3206,6 +3253,7 @@ class Employes2 {
      * Set the cum tranche2 sans si.
      *
      * @param float $cumTranche2SansSi The cum tranche2 sans si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTranche2SansSi($cumTranche2SansSi) {
         $this->cumTranche2SansSi = $cumTranche2SansSi;
@@ -3216,6 +3264,7 @@ class Employes2 {
      * Set the cum tranche2 si.
      *
      * @param float $cumTranche2Si The cum tranche2 si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTranche2Si($cumTranche2Si) {
         $this->cumTranche2Si = $cumTranche2Si;
@@ -3226,6 +3275,7 @@ class Employes2 {
      * Set the cum tranche a sans si.
      *
      * @param float $cumTrancheASansSi The cum tranche a sans si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTrancheASansSi($cumTrancheASansSi) {
         $this->cumTrancheASansSi = $cumTrancheASansSi;
@@ -3236,6 +3286,7 @@ class Employes2 {
      * Set the cum tranche asi.
      *
      * @param float $cumTrancheAsi The cum tranche asi.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTrancheAsi($cumTrancheAsi) {
         $this->cumTrancheAsi = $cumTrancheAsi;
@@ -3246,6 +3297,7 @@ class Employes2 {
      * Set the cum tranche b sans si.
      *
      * @param float $cumTrancheBSansSi The cum tranche b sans si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTrancheBSansSi($cumTrancheBSansSi) {
         $this->cumTrancheBSansSi = $cumTrancheBSansSi;
@@ -3256,6 +3308,7 @@ class Employes2 {
      * Set the cum tranche bsi.
      *
      * @param float $cumTrancheBsi The cum tranche bsi.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTrancheBsi($cumTrancheBsi) {
         $this->cumTrancheBsi = $cumTrancheBsi;
@@ -3266,6 +3319,7 @@ class Employes2 {
      * Set the cum tranche c sans si.
      *
      * @param float $cumTrancheCSansSi The cum tranche c sans si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTrancheCSansSi($cumTrancheCSansSi) {
         $this->cumTrancheCSansSi = $cumTrancheCSansSi;
@@ -3276,6 +3330,7 @@ class Employes2 {
      * Set the cum tranche csi.
      *
      * @param float $cumTrancheCsi The cum tranche csi.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTrancheCsi($cumTrancheCsi) {
         $this->cumTrancheCsi = $cumTrancheCsi;
@@ -3286,6 +3341,7 @@ class Employes2 {
      * Set the cum tranche d1 sans si.
      *
      * @param float $cumTrancheD1SansSi The cum tranche d1 sans si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTrancheD1SansSi($cumTrancheD1SansSi) {
         $this->cumTrancheD1SansSi = $cumTrancheD1SansSi;
@@ -3296,6 +3352,7 @@ class Employes2 {
      * Set the cum tranche d sans si.
      *
      * @param float $cumTrancheDSansSi The cum tranche d sans si.
+     * @return Employes2 Returns this Employes2.
      */
     public function setCumTrancheDSansSi($cumTrancheDSansSi) {
         $this->cumTrancheDSansSi = $cumTrancheDSansSi;
@@ -3306,6 +3363,7 @@ class Employes2 {
      * Set the dadsu conjoint salarie.
      *
      * @param string $dadsuConjointSalarie The dadsu conjoint salarie.
+     * @return Employes2 Returns this Employes2.
      */
     public function setDadsuConjointSalarie($dadsuConjointSalarie) {
         $this->dadsuConjointSalarie = $dadsuConjointSalarie;
@@ -3316,6 +3374,7 @@ class Employes2 {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Employes2 Returns this Employes2.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -3326,6 +3385,7 @@ class Employes2 {
      * Set the date fin exclure lfr2012.
      *
      * @param DateTime|null $dateFinExclureLfr2012 The date fin exclure lfr2012.
+     * @return Employes2 Returns this Employes2.
      */
     public function setDateFinExclureLfr2012(DateTime $dateFinExclureLfr2012 = null) {
         $this->dateFinExclureLfr2012 = $dateFinExclureLfr2012;
@@ -3336,6 +3396,7 @@ class Employes2 {
      * Set the date fin portabilite.
      *
      * @param DateTime|null $dateFinPortabilite The date fin portabilite.
+     * @return Employes2 Returns this Employes2.
      */
     public function setDateFinPortabilite(DateTime $dateFinPortabilite = null) {
         $this->dateFinPortabilite = $dateFinPortabilite;
@@ -3346,6 +3407,7 @@ class Employes2 {
      * Set the date passage cdi.
      *
      * @param DateTime|null $datePassageCdi The date passage cdi.
+     * @return Employes2 Returns this Employes2.
      */
     public function setDatePassageCdi(DateTime $datePassageCdi = null) {
         $this->datePassageCdi = $datePassageCdi;
@@ -3356,6 +3418,7 @@ class Employes2 {
      * Set the date renouv cdd.
      *
      * @param DateTime|null $dateRenouvCdd The date renouv cdd.
+     * @return Employes2 Returns this Employes2.
      */
     public function setDateRenouvCdd(DateTime $dateRenouvCdd = null) {
         $this->dateRenouvCdd = $dateRenouvCdd;
@@ -3366,6 +3429,7 @@ class Employes2 {
      * Set the deduction anc.
      *
      * @param int $deductionAnc The deduction anc.
+     * @return Employes2 Returns this Employes2.
      */
     public function setDeductionAnc($deductionAnc) {
         $this->deductionAnc = $deductionAnc;
@@ -3376,6 +3440,7 @@ class Employes2 {
      * Set the echelon.
      *
      * @param string $echelon The echelon.
+     * @return Employes2 Returns this Employes2.
      */
     public function setEchelon($echelon) {
         $this->echelon = $echelon;
@@ -3386,6 +3451,7 @@ class Employes2 {
      * Set the ed h sup bonif que majo.
      *
      * @param string $edHSupBonifQueMajo The ed h sup bonif que majo.
+     * @return Employes2 Returns this Employes2.
      */
     public function setEdHSupBonifQueMajo($edHSupBonifQueMajo) {
         $this->edHSupBonifQueMajo = $edHSupBonifQueMajo;
@@ -3396,6 +3462,7 @@ class Employes2 {
      * Set the email.
      *
      * @param string $email The email.
+     * @return Employes2 Returns this Employes2.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -3406,6 +3473,7 @@ class Employes2 {
      * Set the etat i paie.
      *
      * @param string $etatIPaie The etat i paie.
+     * @return Employes2 Returns this Employes2.
      */
     public function setEtatIPaie($etatIPaie) {
         $this->etatIPaie = $etatIPaie;
@@ -3416,6 +3484,7 @@ class Employes2 {
      * Set the exclure chom cdd.
      *
      * @param bool $exclureChomCdd The exclure chom cdd.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureChomCdd($exclureChomCdd) {
         $this->exclureChomCdd = $exclureChomCdd;
@@ -3426,6 +3495,7 @@ class Employes2 {
      * Set the exclure cice.
      *
      * @param bool $exclureCice The exclure cice.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureCice($exclureCice) {
         $this->exclureCice = $exclureCice;
@@ -3436,6 +3506,7 @@ class Employes2 {
      * Set the exclure cospar.
      *
      * @param bool $exclureCospar The exclure cospar.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureCospar($exclureCospar) {
         $this->exclureCospar = $exclureCospar;
@@ -3446,6 +3517,7 @@ class Employes2 {
      * Set the exclure cot assedic par urssaf.
      *
      * @param bool $exclureCotAssedicParUrssaf The exclure cot assedic par urssaf.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureCotAssedicParUrssaf($exclureCotAssedicParUrssaf) {
         $this->exclureCotAssedicParUrssaf = $exclureCotAssedicParUrssaf;
@@ -3456,6 +3528,7 @@ class Employes2 {
      * Set the exclure das.
      *
      * @param bool $exclureDas The exclure das.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureDas($exclureDas) {
         $this->exclureDas = $exclureDas;
@@ -3466,6 +3539,7 @@ class Employes2 {
      * Set the exclure dsn.
      *
      * @param bool $exclureDsn The exclure dsn.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureDsn($exclureDsn) {
         $this->exclureDsn = $exclureDsn;
@@ -3476,6 +3550,7 @@ class Employes2 {
      * Set the exclure lfr2012.
      *
      * @param string $exclureLfr2012 The exclure lfr2012.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureLfr2012($exclureLfr2012) {
         $this->exclureLfr2012 = $exclureLfr2012;
@@ -3486,6 +3561,7 @@ class Employes2 {
      * Set the exclure loi tepa.
      *
      * @param bool $exclureLoiTepa The exclure loi tepa.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureLoiTepa($exclureLoiTepa) {
         $this->exclureLoiTepa = $exclureLoiTepa;
@@ -3496,6 +3572,7 @@ class Employes2 {
      * Set the exclure loi tepa part p.
      *
      * @param bool $exclureLoiTepaPartP The exclure loi tepa part p.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureLoiTepaPartP($exclureLoiTepaPartP) {
         $this->exclureLoiTepaPartP = $exclureLoiTepaPartP;
@@ -3506,6 +3583,7 @@ class Employes2 {
      * Set the exclure loi tepa part s.
      *
      * @param bool $exclureLoiTepaPartS The exclure loi tepa part s.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureLoiTepaPartS($exclureLoiTepaPartS) {
         $this->exclureLoiTepaPartS = $exclureLoiTepaPartS;
@@ -3516,6 +3594,7 @@ class Employes2 {
      * Set the exclure qgc.
      *
      * @param bool $exclureQgc The exclure qgc.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExclureQgc($exclureQgc) {
         $this->exclureQgc = $exclureQgc;
@@ -3526,6 +3605,7 @@ class Employes2 {
      * Set the exo accre17.
      *
      * @param bool $exoAccre17 The exo accre17.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExoAccre17($exoAccre17) {
         $this->exoAccre17 = $exoAccre17;
@@ -3536,6 +3616,7 @@ class Employes2 {
      * Set the exo agff.
      *
      * @param bool $exoAgff The exo agff.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExoAgff($exoAgff) {
         $this->exoAgff = $exoAgff;
@@ -3546,6 +3627,7 @@ class Employes2 {
      * Set the exo occasionnel msa.
      *
      * @param bool $exoOccasionnelMsa The exo occasionnel msa.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExoOccasionnelMsa($exoOccasionnelMsa) {
         $this->exoOccasionnelMsa = $exoOccasionnelMsa;
@@ -3556,6 +3638,7 @@ class Employes2 {
      * Set the exo professionnalisation.
      *
      * @param bool $exoProfessionnalisation The exo professionnalisation.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExoProfessionnalisation($exoProfessionnalisation) {
         $this->exoProfessionnalisation = $exoProfessionnalisation;
@@ -3566,6 +3649,7 @@ class Employes2 {
      * Set the exo specif.
      *
      * @param bool $exoSpecif The exo specif.
+     * @return Employes2 Returns this Employes2.
      */
     public function setExoSpecif($exoSpecif) {
         $this->exoSpecif = $exoSpecif;
@@ -3576,6 +3660,7 @@ class Employes2 {
      * Set the forfait heure.
      *
      * @param bool $forfaitHeure The forfait heure.
+     * @return Employes2 Returns this Employes2.
      */
     public function setForfaitHeure($forfaitHeure) {
         $this->forfaitHeure = $forfaitHeure;
@@ -3586,6 +3671,7 @@ class Employes2 {
      * Set the forfait jour.
      *
      * @param bool $forfaitJour The forfait jour.
+     * @return Employes2 Returns this Employes2.
      */
     public function setForfaitJour($forfaitJour) {
         $this->forfaitJour = $forfaitJour;
@@ -3596,6 +3682,7 @@ class Employes2 {
      * Set the gestion compteur h completer.
      *
      * @param bool $gestionCompteurHCompleter The gestion compteur h completer.
+     * @return Employes2 Returns this Employes2.
      */
     public function setGestionCompteurHCompleter($gestionCompteurHCompleter) {
         $this->gestionCompteurHCompleter = $gestionCompteurHCompleter;
@@ -3606,6 +3693,7 @@ class Employes2 {
      * Set the gestion cp.
      *
      * @param string $gestionCp The gestion cp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setGestionCp($gestionCp) {
         $this->gestionCp = $gestionCp;
@@ -3616,6 +3704,7 @@ class Employes2 {
      * Set the gestion mail bulletin.
      *
      * @param bool $gestionMailBulletin The gestion mail bulletin.
+     * @return Employes2 Returns this Employes2.
      */
     public function setGestionMailBulletin($gestionMailBulletin) {
         $this->gestionMailBulletin = $gestionMailBulletin;
@@ -3626,6 +3715,7 @@ class Employes2 {
      * Set the gestion repos comp.
      *
      * @param string $gestionReposComp The gestion repos comp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setGestionReposComp($gestionReposComp) {
         $this->gestionReposComp = $gestionReposComp;
@@ -3636,6 +3726,7 @@ class Employes2 {
      * Set the gestion repos recup.
      *
      * @param string $gestionReposRecup The gestion repos recup.
+     * @return Employes2 Returns this Employes2.
      */
     public function setGestionReposRecup($gestionReposRecup) {
         $this->gestionReposRecup = $gestionReposRecup;
@@ -3646,6 +3737,7 @@ class Employes2 {
      * Set the gestion repos remplace.
      *
      * @param string $gestionReposRemplace The gestion repos remplace.
+     * @return Employes2 Returns this Employes2.
      */
     public function setGestionReposRemplace($gestionReposRemplace) {
         $this->gestionReposRemplace = $gestionReposRemplace;
@@ -3656,6 +3748,7 @@ class Employes2 {
      * Set the gestion rtt.
      *
      * @param string $gestionRtt The gestion rtt.
+     * @return Employes2 Returns this Employes2.
      */
     public function setGestionRtt($gestionRtt) {
         $this->gestionRtt = $gestionRtt;
@@ -3666,6 +3759,7 @@ class Employes2 {
      * Set the gestion sem type.
      *
      * @param string $gestionSemType The gestion sem type.
+     * @return Employes2 Returns this Employes2.
      */
     public function setGestionSemType($gestionSemType) {
         $this->gestionSemType = $gestionSemType;
@@ -3676,6 +3770,7 @@ class Employes2 {
      * Set the heures periode initial.
      *
      * @param float $heuresPeriodeInitial The heures periode initial.
+     * @return Employes2 Returns this Employes2.
      */
     public function setHeuresPeriodeInitial($heuresPeriodeInitial) {
         $this->heuresPeriodeInitial = $heuresPeriodeInitial;
@@ -3686,6 +3781,7 @@ class Employes2 {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return Employes2 Returns this Employes2.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -3696,6 +3792,7 @@ class Employes2 {
      * Set the indem cp msa.
      *
      * @param bool $indemCpMsa The indem cp msa.
+     * @return Employes2 Returns this Employes2.
      */
     public function setIndemCpMsa($indemCpMsa) {
         $this->indemCpMsa = $indemCpMsa;
@@ -3706,6 +3803,7 @@ class Employes2 {
      * Set the indice categ.
      *
      * @param int $indiceCateg The indice categ.
+     * @return Employes2 Returns this Employes2.
      */
     public function setIndiceCateg($indiceCateg) {
         $this->indiceCateg = $indiceCateg;
@@ -3716,6 +3814,7 @@ class Employes2 {
      * Set the inspecteur.
      *
      * @param bool $inspecteur The inspecteur.
+     * @return Employes2 Returns this Employes2.
      */
     public function setInspecteur($inspecteur) {
         $this->inspecteur = $inspecteur;
@@ -3726,6 +3825,7 @@ class Employes2 {
      * Set the interim indem cp fillon.
      *
      * @param bool $interimIndemCpFillon The interim indem cp fillon.
+     * @return Employes2 Returns this Employes2.
      */
     public function setInterimIndemCpFillon($interimIndemCpFillon) {
         $this->interimIndemCpFillon = $interimIndemCpFillon;
@@ -3736,6 +3836,7 @@ class Employes2 {
      * Set the mail bulletin pwd.
      *
      * @param string $mailBulletinPwd The mail bulletin pwd.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMailBulletinPwd($mailBulletinPwd) {
         $this->mailBulletinPwd = $mailBulletinPwd;
@@ -3746,6 +3847,7 @@ class Employes2 {
      * Set the maintien intervient cp.
      *
      * @param string $maintienIntervientCp The maintien intervient cp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMaintienIntervientCp($maintienIntervientCp) {
         $this->maintienIntervientCp = $maintienIntervientCp;
@@ -3756,6 +3858,7 @@ class Employes2 {
      * Set the maintien net deduc csgijss.
      *
      * @param bool $maintienNetDeducCsgijss The maintien net deduc csgijss.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMaintienNetDeducCsgijss($maintienNetDeducCsgijss) {
         $this->maintienNetDeducCsgijss = $maintienNetDeducCsgijss;
@@ -3766,6 +3869,7 @@ class Employes2 {
      * Set the maintien salaire.
      *
      * @param string $maintienSalaire The maintien salaire.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMaintienSalaire($maintienSalaire) {
         $this->maintienSalaire = $maintienSalaire;
@@ -3776,6 +3880,7 @@ class Employes2 {
      * Set the maintien specifique.
      *
      * @param bool $maintienSpecifique The maintien specifique.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMaintienSpecifique($maintienSpecifique) {
         $this->maintienSpecifique = $maintienSpecifique;
@@ -3786,6 +3891,7 @@ class Employes2 {
      * Set the majo professionnalisation.
      *
      * @param bool $majoProfessionnalisation The majo professionnalisation.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMajoProfessionnalisation($majoProfessionnalisation) {
         $this->majoProfessionnalisation = $majoProfessionnalisation;
@@ -3796,6 +3902,7 @@ class Employes2 {
      * Set the mandataire social.
      *
      * @param bool $mandataireSocial The mandataire social.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMandataireSocial($mandataireSocial) {
         $this->mandataireSocial = $mandataireSocial;
@@ -3806,6 +3913,7 @@ class Employes2 {
      * Set the modele bulletin.
      *
      * @param string $modeleBulletin The modele bulletin.
+     * @return Employes2 Returns this Employes2.
      */
     public function setModeleBulletin($modeleBulletin) {
         $this->modeleBulletin = $modeleBulletin;
@@ -3816,6 +3924,7 @@ class Employes2 {
      * Set the mois cloture dif.
      *
      * @param string $moisClotureDif The mois cloture dif.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMoisClotureDif($moisClotureDif) {
         $this->moisClotureDif = $moisClotureDif;
@@ -3826,6 +3935,7 @@ class Employes2 {
      * Set the motif cdd.
      *
      * @param string $motifCdd The motif cdd.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMotifCdd($motifCdd) {
         $this->motifCdd = $motifCdd;
@@ -3836,6 +3946,7 @@ class Employes2 {
      * Set the motif exclusion dsn.
      *
      * @param string $motifExclusionDsn The motif exclusion dsn.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMotifExclusionDsn($motifExclusionDsn) {
         $this->motifExclusionDsn = $motifExclusionDsn;
@@ -3846,6 +3957,7 @@ class Employes2 {
      * Set the multi employeur.
      *
      * @param bool $multiEmployeur The multi employeur.
+     * @return Employes2 Returns this Employes2.
      */
     public function setMultiEmployeur($multiEmployeur) {
         $this->multiEmployeur = $multiEmployeur;
@@ -3856,6 +3968,7 @@ class Employes2 {
      * Set the nature analytique.
      *
      * @param string $natureAnalytique The nature analytique.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNatureAnalytique($natureAnalytique) {
         $this->natureAnalytique = $natureAnalytique;
@@ -3866,6 +3979,7 @@ class Employes2 {
      * Set the nb h bonifie.
      *
      * @param float $nbHBonifie The nb h bonifie.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHBonifie($nbHBonifie) {
         $this->nbHBonifie = $nbHBonifie;
@@ -3876,6 +3990,7 @@ class Employes2 {
      * Set the nb h contingent.
      *
      * @param float $nbHContingent The nb h contingent.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHContingent($nbHContingent) {
         $this->nbHContingent = $nbHContingent;
@@ -3886,6 +4001,7 @@ class Employes2 {
      * Set the nb h jour1.
      *
      * @param float $nbHJour1 The nb h jour1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHJour1($nbHJour1) {
         $this->nbHJour1 = $nbHJour1;
@@ -3896,6 +4012,7 @@ class Employes2 {
      * Set the nb h jour2.
      *
      * @param float $nbHJour2 The nb h jour2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHJour2($nbHJour2) {
         $this->nbHJour2 = $nbHJour2;
@@ -3906,6 +4023,7 @@ class Employes2 {
      * Set the nb h jour3.
      *
      * @param float $nbHJour3 The nb h jour3.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHJour3($nbHJour3) {
         $this->nbHJour3 = $nbHJour3;
@@ -3916,6 +4034,7 @@ class Employes2 {
      * Set the nb h jour4.
      *
      * @param float $nbHJour4 The nb h jour4.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHJour4($nbHJour4) {
         $this->nbHJour4 = $nbHJour4;
@@ -3926,6 +4045,7 @@ class Employes2 {
      * Set the nb h jour5.
      *
      * @param float $nbHJour5 The nb h jour5.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHJour5($nbHJour5) {
         $this->nbHJour5 = $nbHJour5;
@@ -3936,6 +4056,7 @@ class Employes2 {
      * Set the nb h jour6.
      *
      * @param float $nbHJour6 The nb h jour6.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHJour6($nbHJour6) {
         $this->nbHJour6 = $nbHJour6;
@@ -3946,6 +4067,7 @@ class Employes2 {
      * Set the nb h jour7.
      *
      * @param float $nbHJour7 The nb h jour7.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbHJour7($nbHJour7) {
         $this->nbHJour7 = $nbHJour7;
@@ -3956,6 +4078,7 @@ class Employes2 {
      * Set the nb jour annee.
      *
      * @param float $nbJourAnnee The nb jour annee.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbJourAnnee($nbJourAnnee) {
         $this->nbJourAnnee = $nbJourAnnee;
@@ -3966,6 +4089,7 @@ class Employes2 {
      * Set the nb jour cp acquis.
      *
      * @param float $nbJourCpAcquis The nb jour cp acquis.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbJourCpAcquis($nbJourCpAcquis) {
         $this->nbJourCpAcquis = $nbJourCpAcquis;
@@ -3976,6 +4100,7 @@ class Employes2 {
      * Set the nb jour cp sup.
      *
      * @param float $nbJourCpSup The nb jour cp sup.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbJourCpSup($nbJourCpSup) {
         $this->nbJourCpSup = $nbJourCpSup;
@@ -3986,6 +4111,7 @@ class Employes2 {
      * Set the nb piece logement.
      *
      * @param string $nbPieceLogement The nb piece logement.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNbPieceLogement($nbPieceLogement) {
         $this->nbPieceLogement = $nbPieceLogement;
@@ -3996,6 +4122,7 @@ class Employes2 {
      * Set the ne pas activer prime annuelle proprete.
      *
      * @param bool $nePasActiverPrimeAnnuelleProprete The ne pas activer prime annuelle proprete.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNePasActiverPrimeAnnuelleProprete($nePasActiverPrimeAnnuelleProprete) {
         $this->nePasActiverPrimeAnnuelleProprete = $nePasActiverPrimeAnnuelleProprete;
@@ -4006,6 +4133,7 @@ class Employes2 {
      * Set the niveau.
      *
      * @param string $niveau The niveau.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -4016,6 +4144,7 @@ class Employes2 {
      * Set the nom ville insee.
      *
      * @param string $nomVilleInsee The nom ville insee.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNomVilleInsee($nomVilleInsee) {
         $this->nomVilleInsee = $nomVilleInsee;
@@ -4026,6 +4155,7 @@ class Employes2 {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -4036,6 +4166,7 @@ class Employes2 {
      * Set the numero abattement contrat msa.
      *
      * @param int $numeroAbattementContratMsa The numero abattement contrat msa.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNumeroAbattementContratMsa($numeroAbattementContratMsa) {
         $this->numeroAbattementContratMsa = $numeroAbattementContratMsa;
@@ -4046,6 +4177,7 @@ class Employes2 {
      * Set the numero contrat.
      *
      * @param int $numeroContrat The numero contrat.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNumeroContrat($numeroContrat) {
         $this->numeroContrat = $numeroContrat;
@@ -4056,6 +4188,7 @@ class Employes2 {
      * Set the numero employe contrat.
      *
      * @param string $numeroEmployeContrat The numero employe contrat.
+     * @return Employes2 Returns this Employes2.
      */
     public function setNumeroEmployeContrat($numeroEmployeContrat) {
         $this->numeroEmployeContrat = $numeroEmployeContrat;
@@ -4066,6 +4199,7 @@ class Employes2 {
      * Set the pas gestion dif.
      *
      * @param bool $pasGestionDif The pas gestion dif.
+     * @return Employes2 Returns this Employes2.
      */
     public function setPasGestionDif($pasGestionDif) {
         $this->pasGestionDif = $pasGestionDif;
@@ -4076,6 +4210,7 @@ class Employes2 {
      * Set the pays naissance.
      *
      * @param string $paysNaissance The pays naissance.
+     * @return Employes2 Returns this Employes2.
      */
     public function setPaysNaissance($paysNaissance) {
         $this->paysNaissance = $paysNaissance;
@@ -4086,6 +4221,7 @@ class Employes2 {
      * Set the pays nat.
      *
      * @param string $paysNat The pays nat.
+     * @return Employes2 Returns this Employes2.
      */
     public function setPaysNat($paysNat) {
         $this->paysNat = $paysNat;
@@ -4096,6 +4232,7 @@ class Employes2 {
      * Set the periode pointage cloturee.
      *
      * @param DateTime|null $periodePointageCloturee The periode pointage cloturee.
+     * @return Employes2 Returns this Employes2.
      */
     public function setPeriodePointageCloturee(DateTime $periodePointageCloturee = null) {
         $this->periodePointageCloturee = $periodePointageCloturee;
@@ -4106,6 +4243,7 @@ class Employes2 {
      * Set the position.
      *
      * @param string $position The position.
+     * @return Employes2 Returns this Employes2.
      */
     public function setPosition($position) {
         $this->position = $position;
@@ -4116,6 +4254,7 @@ class Employes2 {
      * Set the pourcent exo.
      *
      * @param float $pourcentExo The pourcent exo.
+     * @return Employes2 Returns this Employes2.
      */
     public function setPourcentExo($pourcentExo) {
         $this->pourcentExo = $pourcentExo;
@@ -4126,6 +4265,7 @@ class Employes2 {
      * Set the rbt navigo non proratise.
      *
      * @param bool $rbtNavigoNonProratise The rbt navigo non proratise.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRbtNavigoNonProratise($rbtNavigoNonProratise) {
         $this->rbtNavigoNonProratise = $rbtNavigoNonProratise;
@@ -4136,6 +4276,7 @@ class Employes2 {
      * Set the reduction fillon.
      *
      * @param string $reductionFillon The reduction fillon.
+     * @return Employes2 Returns this Employes2.
      */
     public function setReductionFillon($reductionFillon) {
         $this->reductionFillon = $reductionFillon;
@@ -4146,6 +4287,7 @@ class Employes2 {
      * Set the reduction mayotte.
      *
      * @param string $reductionMayotte The reduction mayotte.
+     * @return Employes2 Returns this Employes2.
      */
     public function setReductionMayotte($reductionMayotte) {
         $this->reductionMayotte = $reductionMayotte;
@@ -4156,6 +4298,7 @@ class Employes2 {
      * Set the remun part fillon.
      *
      * @param bool $remunPartFillon The remun part fillon.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRemunPartFillon($remunPartFillon) {
         $this->remunPartFillon = $remunPartFillon;
@@ -4166,6 +4309,7 @@ class Employes2 {
      * Set the rtt1.
      *
      * @param float $rtt1 The rtt1.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt1($rtt1) {
         $this->rtt1 = $rtt1;
@@ -4176,6 +4320,7 @@ class Employes2 {
      * Set the rtt10.
      *
      * @param float $rtt10 The rtt10.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt10($rtt10) {
         $this->rtt10 = $rtt10;
@@ -4186,6 +4331,7 @@ class Employes2 {
      * Set the rtt11.
      *
      * @param float $rtt11 The rtt11.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt11($rtt11) {
         $this->rtt11 = $rtt11;
@@ -4196,6 +4342,7 @@ class Employes2 {
      * Set the rtt12.
      *
      * @param float $rtt12 The rtt12.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt12($rtt12) {
         $this->rtt12 = $rtt12;
@@ -4206,6 +4353,7 @@ class Employes2 {
      * Set the rtt2.
      *
      * @param float $rtt2 The rtt2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt2($rtt2) {
         $this->rtt2 = $rtt2;
@@ -4216,6 +4364,7 @@ class Employes2 {
      * Set the rtt3.
      *
      * @param float $rtt3 The rtt3.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt3($rtt3) {
         $this->rtt3 = $rtt3;
@@ -4226,6 +4375,7 @@ class Employes2 {
      * Set the rtt4.
      *
      * @param float $rtt4 The rtt4.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt4($rtt4) {
         $this->rtt4 = $rtt4;
@@ -4236,6 +4386,7 @@ class Employes2 {
      * Set the rtt5.
      *
      * @param float $rtt5 The rtt5.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt5($rtt5) {
         $this->rtt5 = $rtt5;
@@ -4246,6 +4397,7 @@ class Employes2 {
      * Set the rtt6.
      *
      * @param float $rtt6 The rtt6.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt6($rtt6) {
         $this->rtt6 = $rtt6;
@@ -4256,6 +4408,7 @@ class Employes2 {
      * Set the rtt7.
      *
      * @param float $rtt7 The rtt7.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt7($rtt7) {
         $this->rtt7 = $rtt7;
@@ -4266,6 +4419,7 @@ class Employes2 {
      * Set the rtt8.
      *
      * @param float $rtt8 The rtt8.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt8($rtt8) {
         $this->rtt8 = $rtt8;
@@ -4276,6 +4430,7 @@ class Employes2 {
      * Set the rtt9.
      *
      * @param float $rtt9 The rtt9.
+     * @return Employes2 Returns this Employes2.
      */
     public function setRtt9($rtt9) {
         $this->rtt9 = $rtt9;
@@ -4286,6 +4441,7 @@ class Employes2 {
      * Set the sans contrat.
      *
      * @param int $sansContrat The sans contrat.
+     * @return Employes2 Returns this Employes2.
      */
     public function setSansContrat($sansContrat) {
         $this->sansContrat = $sansContrat;
@@ -4296,6 +4452,7 @@ class Employes2 {
      * Set the subrogation.
      *
      * @param string $subrogation The subrogation.
+     * @return Employes2 Returns this Employes2.
      */
     public function setSubrogation($subrogation) {
         $this->subrogation = $subrogation;
@@ -4306,6 +4463,7 @@ class Employes2 {
      * Set the tds142.
      *
      * @param float $tds142 The tds142.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTds142($tds142) {
         $this->tds142 = $tds142;
@@ -4316,6 +4474,7 @@ class Employes2 {
      * Set the tds alloc chom.
      *
      * @param float $tdsAllocChom The tds alloc chom.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTdsAllocChom($tdsAllocChom) {
         $this->tdsAllocChom = $tdsAllocChom;
@@ -4326,6 +4485,7 @@ class Employes2 {
      * Set the tds alloc retraite.
      *
      * @param float $tdsAllocRetraite The tds alloc retraite.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTdsAllocRetraite($tdsAllocRetraite) {
         $this->tdsAllocRetraite = $tdsAllocRetraite;
@@ -4336,6 +4496,7 @@ class Employes2 {
      * Set the tel2.
      *
      * @param string $tel2 The tel2.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTel2($tel2) {
         $this->tel2 = $tel2;
@@ -4346,6 +4507,7 @@ class Employes2 {
      * Set the travailleur de nuit.
      *
      * @param bool $travailleurDeNuit The travailleur de nuit.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTravailleurDeNuit($travailleurDeNuit) {
         $this->travailleurDeNuit = $travailleurDeNuit;
@@ -4356,6 +4518,7 @@ class Employes2 {
      * Set the type abo navigo.
      *
      * @param string $typeAboNavigo The type abo navigo.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTypeAboNavigo($typeAboNavigo) {
         $this->typeAboNavigo = $typeAboNavigo;
@@ -4366,6 +4529,7 @@ class Employes2 {
      * Set the type exo lodeom.
      *
      * @param string $typeExoLodeom The type exo lodeom.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTypeExoLodeom($typeExoLodeom) {
         $this->typeExoLodeom = $typeExoLodeom;
@@ -4376,6 +4540,7 @@ class Employes2 {
      * Set the type intemperie btp.
      *
      * @param string $typeIntemperieBtp The type intemperie btp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTypeIntemperieBtp($typeIntemperieBtp) {
         $this->typeIntemperieBtp = $typeIntemperieBtp;
@@ -4386,6 +4551,7 @@ class Employes2 {
      * Set the type maintien brut net.
      *
      * @param string $typeMaintienBrutNet The type maintien brut net.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTypeMaintienBrutNet($typeMaintienBrutNet) {
         $this->typeMaintienBrutNet = $typeMaintienBrutNet;
@@ -4396,6 +4562,7 @@ class Employes2 {
      * Set the type maintien salaire.
      *
      * @param string $typeMaintienSalaire The type maintien salaire.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTypeMaintienSalaire($typeMaintienSalaire) {
         $this->typeMaintienSalaire = $typeMaintienSalaire;
@@ -4406,6 +4573,7 @@ class Employes2 {
      * Set the type saisie ab cp.
      *
      * @param string $typeSaisieAbCp The type saisie ab cp.
+     * @return Employes2 Returns this Employes2.
      */
     public function setTypeSaisieAbCp($typeSaisieAbCp) {
         $this->typeSaisieAbCp = $typeSaisieAbCp;
@@ -4416,6 +4584,7 @@ class Employes2 {
      * Set the zone navigo.
      *
      * @param string $zoneNavigo The zone navigo.
+     * @return Employes2 Returns this Employes2.
      */
     public function setZoneNavigo($zoneNavigo) {
         $this->zoneNavigo = $zoneNavigo;

@@ -160,6 +160,7 @@ class Historique {
      * Set the annees.
      *
      * @param int $annees The annees.
+     * @return Historique Returns this Historique.
      */
     public function setAnnees($annees) {
         $this->annees = $annees;
@@ -170,6 +171,7 @@ class Historique {
      * Set the annees plus.
      *
      * @param int $anneesPlus The annees plus.
+     * @return Historique Returns this Historique.
      */
     public function setAnneesPlus($anneesPlus) {
         $this->anneesPlus = $anneesPlus;
@@ -180,6 +182,7 @@ class Historique {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return Historique Returns this Historique.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -190,6 +193,7 @@ class Historique {
      * Set the cs valide.
      *
      * @param DateTime|null $csValide The cs valide.
+     * @return Historique Returns this Historique.
      */
     public function setCsValide(DateTime $csValide = null) {
         $this->csValide = $csValide;
@@ -200,6 +204,7 @@ class Historique {
      * Set the ct valide.
      *
      * @param DateTime|null $ctValide The ct valide.
+     * @return Historique Returns this Historique.
      */
     public function setCtValide(DateTime $ctValide = null) {
         $this->ctValide = $ctValide;
@@ -210,6 +215,7 @@ class Historique {
      * Set the rub.
      *
      * @param string $rub The rub.
+     * @return Historique Returns this Historique.
      */
     public function setRub($rub) {
         $this->rub = $rub;
@@ -220,6 +226,7 @@ class Historique {
      * Set the service.
      *
      * @param string $service The service.
+     * @return Historique Returns this Historique.
      */
     public function setService($service) {
         $this->service = $service;
@@ -230,6 +237,7 @@ class Historique {
      * Set the visite medicale.
      *
      * @param DateTime|null $visiteMedicale The visite medicale.
+     * @return Historique Returns this Historique.
      */
     public function setVisiteMedicale(DateTime $visiteMedicale = null) {
         $this->visiteMedicale = $visiteMedicale;

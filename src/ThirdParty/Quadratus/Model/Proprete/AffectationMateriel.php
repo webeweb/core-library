@@ -192,6 +192,7 @@ class AffectationMateriel {
      * Set the budget depense euro.
      *
      * @param float $budgetDepenseEuro The budget depense euro.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setBudgetDepenseEuro($budgetDepenseEuro) {
         $this->budgetDepenseEuro = $budgetDepenseEuro;
@@ -202,6 +203,7 @@ class AffectationMateriel {
      * Set the budget depense frf.
      *
      * @param float $budgetDepenseFrf The budget depense frf.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setBudgetDepenseFrf($budgetDepenseFrf) {
         $this->budgetDepenseFrf = $budgetDepenseFrf;
@@ -212,6 +214,7 @@ class AffectationMateriel {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -222,6 +225,7 @@ class AffectationMateriel {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -232,6 +236,7 @@ class AffectationMateriel {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -242,6 +247,7 @@ class AffectationMateriel {
      * Set the code materiel.
      *
      * @param string $codeMateriel The code materiel.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setCodeMateriel($codeMateriel) {
         $this->codeMateriel = $codeMateriel;
@@ -252,6 +258,7 @@ class AffectationMateriel {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -262,6 +269,7 @@ class AffectationMateriel {
      * Set the debut affect.
      *
      * @param DateTime|null $debutAffect The debut affect.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setDebutAffect(DateTime $debutAffect = null) {
         $this->debutAffect = $debutAffect;
@@ -272,6 +280,7 @@ class AffectationMateriel {
      * Set the fin affect.
      *
      * @param DateTime|null $finAffect The fin affect.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setFinAffect(DateTime $finAffect = null) {
         $this->finAffect = $finAffect;
@@ -282,6 +291,7 @@ class AffectationMateriel {
      * Set the pourcent utilise.
      *
      * @param float $pourcentUtilise The pourcent utilise.
+     * @return AffectationMateriel Returns this Affectation materiel.
      */
     public function setPourcentUtilise($pourcentUtilise) {
         $this->pourcentUtilise = $pourcentUtilise;

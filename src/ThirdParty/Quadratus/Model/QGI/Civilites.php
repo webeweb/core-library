@@ -62,6 +62,7 @@ class Civilites {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Civilites Returns this Civilites.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class Civilites {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Civilites Returns this Civilites.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

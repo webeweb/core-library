@@ -1294,6 +1294,7 @@ class CumulsAnneePrec {
      * Set the annee.
      *
      * @param string $annee The annee.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setAnnee($annee) {
         $this->annee = $annee;
@@ -1304,6 +1305,7 @@ class CumulsAnneePrec {
      * Set the cum30 ss.
      *
      * @param float $cum30Ss The cum30 ss.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCum30Ss($cum30Ss) {
         $this->cum30Ss = $cum30Ss;
@@ -1314,6 +1316,7 @@ class CumulsAnneePrec {
      * Set the cum base csg.
      *
      * @param float $cumBaseCsg The cum base csg.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseCsg($cumBaseCsg) {
         $this->cumBaseCsg = $cumBaseCsg;
@@ -1324,6 +1327,7 @@ class CumulsAnneePrec {
      * Set the cum base gmp.
      *
      * @param float $cumBaseGmp The cum base gmp.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseGmp($cumBaseGmp) {
         $this->cumBaseGmp = $cumBaseGmp;
@@ -1334,6 +1338,7 @@ class CumulsAnneePrec {
      * Set the cum base ss.
      *
      * @param float $cumBaseSs The cum base ss.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseSs($cumBaseSs) {
         $this->cumBaseSs = $cumBaseSs;
@@ -1344,6 +1349,7 @@ class CumulsAnneePrec {
      * Set the cum base tr2.
      *
      * @param float $cumBaseTr2 The cum base tr2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTr2($cumBaseTr2) {
         $this->cumBaseTr2 = $cumBaseTr2;
@@ -1354,6 +1360,7 @@ class CumulsAnneePrec {
      * Set the cum base tr a.
      *
      * @param float $cumBaseTrA The cum base tr a.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrA($cumBaseTrA) {
         $this->cumBaseTrA = $cumBaseTrA;
@@ -1364,6 +1371,7 @@ class CumulsAnneePrec {
      * Set the cum base tr a caisse1.
      *
      * @param float $cumBaseTrACaisse1 The cum base tr a caisse1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrACaisse1($cumBaseTrACaisse1) {
         $this->cumBaseTrACaisse1 = $cumBaseTrACaisse1;
@@ -1374,6 +1382,7 @@ class CumulsAnneePrec {
      * Set the cum base tr a caisse2.
      *
      * @param float $cumBaseTrACaisse2 The cum base tr a caisse2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrACaisse2($cumBaseTrACaisse2) {
         $this->cumBaseTrACaisse2 = $cumBaseTrACaisse2;
@@ -1384,6 +1393,7 @@ class CumulsAnneePrec {
      * Set the cum base tr a caisse3.
      *
      * @param float $cumBaseTrACaisse3 The cum base tr a caisse3.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrACaisse3($cumBaseTrACaisse3) {
         $this->cumBaseTrACaisse3 = $cumBaseTrACaisse3;
@@ -1394,6 +1404,7 @@ class CumulsAnneePrec {
      * Set the cum base tr b.
      *
      * @param float $cumBaseTrB The cum base tr b.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrB($cumBaseTrB) {
         $this->cumBaseTrB = $cumBaseTrB;
@@ -1404,6 +1415,7 @@ class CumulsAnneePrec {
      * Set the cum base tr b caisse1.
      *
      * @param float $cumBaseTrBCaisse1 The cum base tr b caisse1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrBCaisse1($cumBaseTrBCaisse1) {
         $this->cumBaseTrBCaisse1 = $cumBaseTrBCaisse1;
@@ -1414,6 +1426,7 @@ class CumulsAnneePrec {
      * Set the cum base tr b caisse2.
      *
      * @param float $cumBaseTrBCaisse2 The cum base tr b caisse2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrBCaisse2($cumBaseTrBCaisse2) {
         $this->cumBaseTrBCaisse2 = $cumBaseTrBCaisse2;
@@ -1424,6 +1437,7 @@ class CumulsAnneePrec {
      * Set the cum base tr b caisse3.
      *
      * @param float $cumBaseTrBCaisse3 The cum base tr b caisse3.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrBCaisse3($cumBaseTrBCaisse3) {
         $this->cumBaseTrBCaisse3 = $cumBaseTrBCaisse3;
@@ -1434,6 +1448,7 @@ class CumulsAnneePrec {
      * Set the cum base tr c.
      *
      * @param float $cumBaseTrC The cum base tr c.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrC($cumBaseTrC) {
         $this->cumBaseTrC = $cumBaseTrC;
@@ -1444,6 +1459,7 @@ class CumulsAnneePrec {
      * Set the cum base tr c caisse1.
      *
      * @param float $cumBaseTrCCaisse1 The cum base tr c caisse1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrCCaisse1($cumBaseTrCCaisse1) {
         $this->cumBaseTrCCaisse1 = $cumBaseTrCCaisse1;
@@ -1454,6 +1470,7 @@ class CumulsAnneePrec {
      * Set the cum base tr c caisse2.
      *
      * @param float $cumBaseTrCCaisse2 The cum base tr c caisse2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrCCaisse2($cumBaseTrCCaisse2) {
         $this->cumBaseTrCCaisse2 = $cumBaseTrCCaisse2;
@@ -1464,6 +1481,7 @@ class CumulsAnneePrec {
      * Set the cum base tr c caisse3.
      *
      * @param float $cumBaseTrCCaisse3 The cum base tr c caisse3.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrCCaisse3($cumBaseTrCCaisse3) {
         $this->cumBaseTrCCaisse3 = $cumBaseTrCCaisse3;
@@ -1474,6 +1492,7 @@ class CumulsAnneePrec {
      * Set the cum base tr d.
      *
      * @param float $cumBaseTrD The cum base tr d.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrD($cumBaseTrD) {
         $this->cumBaseTrD = $cumBaseTrD;
@@ -1484,6 +1503,7 @@ class CumulsAnneePrec {
      * Set the cum base tr d1.
      *
      * @param float $cumBaseTrD1 The cum base tr d1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrD1($cumBaseTrD1) {
         $this->cumBaseTrD1 = $cumBaseTrD1;
@@ -1494,6 +1514,7 @@ class CumulsAnneePrec {
      * Set the cum base tr d1 caisse1.
      *
      * @param float $cumBaseTrD1Caisse1 The cum base tr d1 caisse1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrD1Caisse1($cumBaseTrD1Caisse1) {
         $this->cumBaseTrD1Caisse1 = $cumBaseTrD1Caisse1;
@@ -1504,6 +1525,7 @@ class CumulsAnneePrec {
      * Set the cum base tr d1 caisse2.
      *
      * @param float $cumBaseTrD1Caisse2 The cum base tr d1 caisse2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrD1Caisse2($cumBaseTrD1Caisse2) {
         $this->cumBaseTrD1Caisse2 = $cumBaseTrD1Caisse2;
@@ -1514,6 +1536,7 @@ class CumulsAnneePrec {
      * Set the cum base tr d1 caisse3.
      *
      * @param float $cumBaseTrD1Caisse3 The cum base tr d1 caisse3.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrD1Caisse3($cumBaseTrD1Caisse3) {
         $this->cumBaseTrD1Caisse3 = $cumBaseTrD1Caisse3;
@@ -1524,6 +1547,7 @@ class CumulsAnneePrec {
      * Set the cum base tr d caisse1.
      *
      * @param float $cumBaseTrDCaisse1 The cum base tr d caisse1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrDCaisse1($cumBaseTrDCaisse1) {
         $this->cumBaseTrDCaisse1 = $cumBaseTrDCaisse1;
@@ -1534,6 +1558,7 @@ class CumulsAnneePrec {
      * Set the cum base tr d caisse2.
      *
      * @param float $cumBaseTrDCaisse2 The cum base tr d caisse2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrDCaisse2($cumBaseTrDCaisse2) {
         $this->cumBaseTrDCaisse2 = $cumBaseTrDCaisse2;
@@ -1544,6 +1569,7 @@ class CumulsAnneePrec {
      * Set the cum base tr d caisse3.
      *
      * @param float $cumBaseTrDCaisse3 The cum base tr d caisse3.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBaseTrDCaisse3($cumBaseTrDCaisse3) {
         $this->cumBaseTrDCaisse3 = $cumBaseTrDCaisse3;
@@ -1554,6 +1580,7 @@ class CumulsAnneePrec {
      * Set the cum brut abat non lim.
      *
      * @param float $cumBrutAbatNonLim The cum brut abat non lim.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBrutAbatNonLim($cumBrutAbatNonLim) {
         $this->cumBrutAbatNonLim = $cumBrutAbatNonLim;
@@ -1564,6 +1591,7 @@ class CumulsAnneePrec {
      * Set the cum brut al.
      *
      * @param float $cumBrutAl The cum brut al.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBrutAl($cumBrutAl) {
         $this->cumBrutAl = $cumBrutAl;
@@ -1574,6 +1602,7 @@ class CumulsAnneePrec {
      * Set the cum brut al sans si.
      *
      * @param float $cumBrutAlSansSi The cum brut al sans si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBrutAlSansSi($cumBrutAlSansSi) {
         $this->cumBrutAlSansSi = $cumBrutAlSansSi;
@@ -1584,6 +1613,7 @@ class CumulsAnneePrec {
      * Set the cum brut caisse1.
      *
      * @param float $cumBrutCaisse1 The cum brut caisse1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBrutCaisse1($cumBrutCaisse1) {
         $this->cumBrutCaisse1 = $cumBrutCaisse1;
@@ -1594,6 +1624,7 @@ class CumulsAnneePrec {
      * Set the cum brut caisse2.
      *
      * @param float $cumBrutCaisse2 The cum brut caisse2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBrutCaisse2($cumBrutCaisse2) {
         $this->cumBrutCaisse2 = $cumBrutCaisse2;
@@ -1604,6 +1635,7 @@ class CumulsAnneePrec {
      * Set the cum brut caisse3.
      *
      * @param float $cumBrutCaisse3 The cum brut caisse3.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBrutCaisse3($cumBrutCaisse3) {
         $this->cumBrutCaisse3 = $cumBrutCaisse3;
@@ -1614,6 +1646,7 @@ class CumulsAnneePrec {
      * Set the cum brut non abattu.
      *
      * @param float $cumBrutNonAbattu The cum brut non abattu.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumBrutNonAbattu($cumBrutNonAbattu) {
         $this->cumBrutNonAbattu = $cumBrutNonAbattu;
@@ -1624,6 +1657,7 @@ class CumulsAnneePrec {
      * Set the cum cp dus.
      *
      * @param float $cumCpDus The cum cp dus.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumCpDus($cumCpDus) {
         $this->cumCpDus = $cumCpDus;
@@ -1634,6 +1668,7 @@ class CumulsAnneePrec {
      * Set the cum cp dus1.
      *
      * @param float $cumCpDus1 The cum cp dus1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumCpDus1($cumCpDus1) {
         $this->cumCpDus1 = $cumCpDus1;
@@ -1644,6 +1679,7 @@ class CumulsAnneePrec {
      * Set the cum cp pris.
      *
      * @param float $cumCpPris The cum cp pris.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumCpPris($cumCpPris) {
         $this->cumCpPris = $cumCpPris;
@@ -1654,6 +1690,7 @@ class CumulsAnneePrec {
      * Set the cum cp pris1.
      *
      * @param float $cumCpPris1 The cum cp pris1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumCpPris1($cumCpPris1) {
         $this->cumCpPris1 = $cumCpPris1;
@@ -1664,6 +1701,7 @@ class CumulsAnneePrec {
      * Set the cum dif dus.
      *
      * @param float $cumDifDus The cum dif dus.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumDifDus($cumDifDus) {
         $this->cumDifDus = $cumDifDus;
@@ -1674,6 +1712,7 @@ class CumulsAnneePrec {
      * Set the cum dif dus1.
      *
      * @param float $cumDifDus1 The cum dif dus1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumDifDus1($cumDifDus1) {
         $this->cumDifDus1 = $cumDifDus1;
@@ -1684,6 +1723,7 @@ class CumulsAnneePrec {
      * Set the cum h bonifie.
      *
      * @param float $cumHBonifie The cum h bonifie.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumHBonifie($cumHBonifie) {
         $this->cumHBonifie = $cumHBonifie;
@@ -1694,6 +1734,7 @@ class CumulsAnneePrec {
      * Set the cum h repos remplace.
      *
      * @param float $cumHReposRemplace The cum h repos remplace.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumHReposRemplace($cumHReposRemplace) {
         $this->cumHReposRemplace = $cumHReposRemplace;
@@ -1704,6 +1745,7 @@ class CumulsAnneePrec {
      * Set the cum h service.
      *
      * @param float $cumHService The cum h service.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumHService($cumHService) {
         $this->cumHService = $cumHService;
@@ -1714,6 +1756,7 @@ class CumulsAnneePrec {
      * Set the cum h sup.
      *
      * @param float $cumHSup The cum h sup.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumHSup($cumHSup) {
         $this->cumHSup = $cumHSup;
@@ -1724,6 +1767,7 @@ class CumulsAnneePrec {
      * Set the cum h sup rcit.
      *
      * @param float $cumHSupRcit The cum h sup rcit.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumHSupRcit($cumHSupRcit) {
         $this->cumHSupRcit = $cumHSupRcit;
@@ -1734,6 +1778,7 @@ class CumulsAnneePrec {
      * Set the cum heure paye.
      *
      * @param float $cumHeurePaye The cum heure paye.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumHeurePaye($cumHeurePaye) {
         $this->cumHeurePaye = $cumHeurePaye;
@@ -1744,6 +1789,7 @@ class CumulsAnneePrec {
      * Set the cum heure trav.
      *
      * @param float $cumHeureTrav The cum heure trav.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumHeureTrav($cumHeureTrav) {
         $this->cumHeureTrav = $cumHeureTrav;
@@ -1754,6 +1800,7 @@ class CumulsAnneePrec {
      * Set the cum j repos recup.
      *
      * @param float $cumJReposRecup The cum j repos recup.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumJReposRecup($cumJReposRecup) {
         $this->cumJReposRecup = $cumJReposRecup;
@@ -1764,6 +1811,7 @@ class CumulsAnneePrec {
      * Set the cum jour paye.
      *
      * @param float $cumJourPaye The cum jour paye.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumJourPaye($cumJourPaye) {
         $this->cumJourPaye = $cumJourPaye;
@@ -1774,6 +1822,7 @@ class CumulsAnneePrec {
      * Set the cum jour trav.
      *
      * @param float $cumJourTrav The cum jour trav.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumJourTrav($cumJourTrav) {
         $this->cumJourTrav = $cumJourTrav;
@@ -1784,6 +1833,7 @@ class CumulsAnneePrec {
      * Set the cum mt cp pris.
      *
      * @param float $cumMtCpPris The cum mt cp pris.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumMtCpPris($cumMtCpPris) {
         $this->cumMtCpPris = $cumMtCpPris;
@@ -1794,6 +1844,7 @@ class CumulsAnneePrec {
      * Set the cum mt cp pris1.
      *
      * @param float $cumMtCpPris1 The cum mt cp pris1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumMtCpPris1($cumMtCpPris1) {
         $this->cumMtCpPris1 = $cumMtCpPris1;
@@ -1804,6 +1855,7 @@ class CumulsAnneePrec {
      * Set the cum net a payer.
      *
      * @param float $cumNetAPayer The cum net a payer.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumNetAPayer($cumNetAPayer) {
         $this->cumNetAPayer = $cumNetAPayer;
@@ -1814,6 +1866,7 @@ class CumulsAnneePrec {
      * Set the cum net imposable.
      *
      * @param float $cumNetImposable The cum net imposable.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumNetImposable($cumNetImposable) {
         $this->cumNetImposable = $cumNetImposable;
@@ -1824,6 +1877,7 @@ class CumulsAnneePrec {
      * Set the cum plaf1 caisse1.
      *
      * @param float $cumPlaf1Caisse1 The cum plaf1 caisse1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlaf1Caisse1($cumPlaf1Caisse1) {
         $this->cumPlaf1Caisse1 = $cumPlaf1Caisse1;
@@ -1834,6 +1888,7 @@ class CumulsAnneePrec {
      * Set the cum plaf1 caisse2.
      *
      * @param float $cumPlaf1Caisse2 The cum plaf1 caisse2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlaf1Caisse2($cumPlaf1Caisse2) {
         $this->cumPlaf1Caisse2 = $cumPlaf1Caisse2;
@@ -1844,6 +1899,7 @@ class CumulsAnneePrec {
      * Set the cum plaf1 caisse3.
      *
      * @param float $cumPlaf1Caisse3 The cum plaf1 caisse3.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlaf1Caisse3($cumPlaf1Caisse3) {
         $this->cumPlaf1Caisse3 = $cumPlaf1Caisse3;
@@ -1854,6 +1910,7 @@ class CumulsAnneePrec {
      * Set the cum plaf2 caisse1.
      *
      * @param float $cumPlaf2Caisse1 The cum plaf2 caisse1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlaf2Caisse1($cumPlaf2Caisse1) {
         $this->cumPlaf2Caisse1 = $cumPlaf2Caisse1;
@@ -1864,6 +1921,7 @@ class CumulsAnneePrec {
      * Set the cum plaf2 caisse2.
      *
      * @param float $cumPlaf2Caisse2 The cum plaf2 caisse2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlaf2Caisse2($cumPlaf2Caisse2) {
         $this->cumPlaf2Caisse2 = $cumPlaf2Caisse2;
@@ -1874,6 +1932,7 @@ class CumulsAnneePrec {
      * Set the cum plaf2 caisse3.
      *
      * @param float $cumPlaf2Caisse3 The cum plaf2 caisse3.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlaf2Caisse3($cumPlaf2Caisse3) {
         $this->cumPlaf2Caisse3 = $cumPlaf2Caisse3;
@@ -1884,6 +1943,7 @@ class CumulsAnneePrec {
      * Set the cum plafond gmp.
      *
      * @param float $cumPlafondGmp The cum plafond gmp.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlafondGmp($cumPlafondGmp) {
         $this->cumPlafondGmp = $cumPlafondGmp;
@@ -1894,6 +1954,7 @@ class CumulsAnneePrec {
      * Set the cum plafond ss1.
      *
      * @param float $cumPlafondSs1 The cum plafond ss1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlafondSs1($cumPlafondSs1) {
         $this->cumPlafondSs1 = $cumPlafondSs1;
@@ -1904,6 +1965,7 @@ class CumulsAnneePrec {
      * Set the cum plafond ss2.
      *
      * @param float $cumPlafondSs2 The cum plafond ss2.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumPlafondSs2($cumPlafondSs2) {
         $this->cumPlafondSs2 = $cumPlafondSs2;
@@ -1914,6 +1976,7 @@ class CumulsAnneePrec {
      * Set the cum prov cp.
      *
      * @param float $cumProvCp The cum prov cp.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumProvCp($cumProvCp) {
         $this->cumProvCp = $cumProvCp;
@@ -1924,6 +1987,7 @@ class CumulsAnneePrec {
      * Set the cum prov cp1.
      *
      * @param float $cumProvCp1 The cum prov cp1.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumProvCp1($cumProvCp1) {
         $this->cumProvCp1 = $cumProvCp1;
@@ -1934,6 +1998,7 @@ class CumulsAnneePrec {
      * Set the cum repos comp.
      *
      * @param float $cumReposComp The cum repos comp.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumReposComp($cumReposComp) {
         $this->cumReposComp = $cumReposComp;
@@ -1944,6 +2009,7 @@ class CumulsAnneePrec {
      * Set the cum rtt dus.
      *
      * @param float $cumRttDus The cum rtt dus.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumRttDus($cumRttDus) {
         $this->cumRttDus = $cumRttDus;
@@ -1954,6 +2020,7 @@ class CumulsAnneePrec {
      * Set the cum rtt pris.
      *
      * @param float $cumRttPris The cum rtt pris.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumRttPris($cumRttPris) {
         $this->cumRttPris = $cumRttPris;
@@ -1964,6 +2031,7 @@ class CumulsAnneePrec {
      * Set the cum tot si.
      *
      * @param float $cumTotSi The cum tot si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTotSi($cumTotSi) {
         $this->cumTotSi = $cumTotSi;
@@ -1974,6 +2042,7 @@ class CumulsAnneePrec {
      * Set the cum tranche2 sans si.
      *
      * @param float $cumTranche2SansSi The cum tranche2 sans si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTranche2SansSi($cumTranche2SansSi) {
         $this->cumTranche2SansSi = $cumTranche2SansSi;
@@ -1984,6 +2053,7 @@ class CumulsAnneePrec {
      * Set the cum tranche2 si.
      *
      * @param float $cumTranche2Si The cum tranche2 si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTranche2Si($cumTranche2Si) {
         $this->cumTranche2Si = $cumTranche2Si;
@@ -1994,6 +2064,7 @@ class CumulsAnneePrec {
      * Set the cum tranche a sans si.
      *
      * @param float $cumTrancheASansSi The cum tranche a sans si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTrancheASansSi($cumTrancheASansSi) {
         $this->cumTrancheASansSi = $cumTrancheASansSi;
@@ -2004,6 +2075,7 @@ class CumulsAnneePrec {
      * Set the cum tranche asi.
      *
      * @param float $cumTrancheAsi The cum tranche asi.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTrancheAsi($cumTrancheAsi) {
         $this->cumTrancheAsi = $cumTrancheAsi;
@@ -2014,6 +2086,7 @@ class CumulsAnneePrec {
      * Set the cum tranche b sans si.
      *
      * @param float $cumTrancheBSansSi The cum tranche b sans si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTrancheBSansSi($cumTrancheBSansSi) {
         $this->cumTrancheBSansSi = $cumTrancheBSansSi;
@@ -2024,6 +2097,7 @@ class CumulsAnneePrec {
      * Set the cum tranche bsi.
      *
      * @param float $cumTrancheBsi The cum tranche bsi.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTrancheBsi($cumTrancheBsi) {
         $this->cumTrancheBsi = $cumTrancheBsi;
@@ -2034,6 +2108,7 @@ class CumulsAnneePrec {
      * Set the cum tranche c sans si.
      *
      * @param float $cumTrancheCSansSi The cum tranche c sans si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTrancheCSansSi($cumTrancheCSansSi) {
         $this->cumTrancheCSansSi = $cumTrancheCSansSi;
@@ -2044,6 +2119,7 @@ class CumulsAnneePrec {
      * Set the cum tranche csi.
      *
      * @param float $cumTrancheCsi The cum tranche csi.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTrancheCsi($cumTrancheCsi) {
         $this->cumTrancheCsi = $cumTrancheCsi;
@@ -2054,6 +2130,7 @@ class CumulsAnneePrec {
      * Set the cum tranche d1 sans si.
      *
      * @param float $cumTrancheD1SansSi The cum tranche d1 sans si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTrancheD1SansSi($cumTrancheD1SansSi) {
         $this->cumTrancheD1SansSi = $cumTrancheD1SansSi;
@@ -2064,6 +2141,7 @@ class CumulsAnneePrec {
      * Set the cum tranche d sans si.
      *
      * @param float $cumTrancheDSansSi The cum tranche d sans si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setCumTrancheDSansSi($cumTrancheDSansSi) {
         $this->cumTrancheDSansSi = $cumTrancheDSansSi;
@@ -2074,6 +2152,7 @@ class CumulsAnneePrec {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;

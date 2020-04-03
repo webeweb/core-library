@@ -320,6 +320,7 @@ class ClientsDouteux {
      * Set the date doute.
      *
      * @param DateTime|null $dateDoute The date doute.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setDateDoute(DateTime $dateDoute = null) {
         $this->dateDoute = $dateDoute;
@@ -330,6 +331,7 @@ class ClientsDouteux {
      * Set the mention.
      *
      * @param string $mention The mention.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMention($mention) {
         $this->mention = $mention;
@@ -340,6 +342,7 @@ class ClientsDouteux {
      * Set the mt creance base ht.
      *
      * @param float $mtCreanceBaseHt The mt creance base ht.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtCreanceBaseHt($mtCreanceBaseHt) {
         $this->mtCreanceBaseHt = $mtCreanceBaseHt;
@@ -350,6 +353,7 @@ class ClientsDouteux {
      * Set the mt creance ttc deb exo.
      *
      * @param float $mtCreanceTtcDebExo The mt creance ttc deb exo.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtCreanceTtcDebExo($mtCreanceTtcDebExo) {
         $this->mtCreanceTtcDebExo = $mtCreanceTtcDebExo;
@@ -360,6 +364,7 @@ class ClientsDouteux {
      * Set the mt creance ttc dev dout exo.
      *
      * @param float $mtCreanceTtcDevDoutExo The mt creance ttc dev dout exo.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtCreanceTtcDevDoutExo($mtCreanceTtcDevDoutExo) {
         $this->mtCreanceTtcDevDoutExo = $mtCreanceTtcDevDoutExo;
@@ -370,6 +375,7 @@ class ClientsDouteux {
      * Set the mt creance ttc irrec exo.
      *
      * @param float $mtCreanceTtcIrrecExo The mt creance ttc irrec exo.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtCreanceTtcIrrecExo($mtCreanceTtcIrrecExo) {
         $this->mtCreanceTtcIrrecExo = $mtCreanceTtcIrrecExo;
@@ -380,6 +386,7 @@ class ClientsDouteux {
      * Set the mt creance ttc regl exo.
      *
      * @param float $mtCreanceTtcReglExo The mt creance ttc regl exo.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtCreanceTtcReglExo($mtCreanceTtcReglExo) {
         $this->mtCreanceTtcReglExo = $mtCreanceTtcReglExo;
@@ -390,6 +397,7 @@ class ClientsDouteux {
      * Set the mt provision deb exo.
      *
      * @param float $mtProvisionDebExo The mt provision deb exo.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtProvisionDebExo($mtProvisionDebExo) {
         $this->mtProvisionDebExo = $mtProvisionDebExo;
@@ -400,6 +408,7 @@ class ClientsDouteux {
      * Set the mt provision dot exo.
      *
      * @param float $mtProvisionDotExo The mt provision dot exo.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtProvisionDotExo($mtProvisionDotExo) {
         $this->mtProvisionDotExo = $mtProvisionDotExo;
@@ -410,6 +419,7 @@ class ClientsDouteux {
      * Set the mt rep provision irrec.
      *
      * @param float $mtRepProvisionIrrec The mt rep provision irrec.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtRepProvisionIrrec($mtRepProvisionIrrec) {
         $this->mtRepProvisionIrrec = $mtRepProvisionIrrec;
@@ -420,6 +430,7 @@ class ClientsDouteux {
      * Set the mt rep provision regl.
      *
      * @param float $mtRepProvisionRegl The mt rep provision regl.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setMtRepProvisionRegl($mtRepProvisionRegl) {
         $this->mtRepProvisionRegl = $mtRepProvisionRegl;
@@ -430,6 +441,7 @@ class ClientsDouteux {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -440,6 +452,7 @@ class ClientsDouteux {
      * Set the observations.
      *
      * @param string $observations The observations.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setObservations($observations) {
         $this->observations = $observations;
@@ -450,6 +463,7 @@ class ClientsDouteux {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -460,6 +474,7 @@ class ClientsDouteux {
      * Set the taux doute deb exo.
      *
      * @param float $tauxDouteDebExo The taux doute deb exo.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setTauxDouteDebExo($tauxDouteDebExo) {
         $this->tauxDouteDebExo = $tauxDouteDebExo;
@@ -470,6 +485,7 @@ class ClientsDouteux {
      * Set the taux doute exo.
      *
      * @param float $tauxDouteExo The taux doute exo.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setTauxDouteExo($tauxDouteExo) {
         $this->tauxDouteExo = $tauxDouteExo;
@@ -480,6 +496,7 @@ class ClientsDouteux {
      * Set the tx tva creance.
      *
      * @param float $txTvaCreance The tx tva creance.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setTxTvaCreance($txTvaCreance) {
         $this->txTvaCreance = $txTvaCreance;
@@ -490,6 +507,7 @@ class ClientsDouteux {
      * Set the tx tva creance force.
      *
      * @param bool $txTvaCreanceForce The tx tva creance force.
+     * @return ClientsDouteux Returns this Clients douteux.
      */
     public function setTxTvaCreanceForce($txTvaCreanceForce) {
         $this->txTvaCreanceForce = $txTvaCreanceForce;

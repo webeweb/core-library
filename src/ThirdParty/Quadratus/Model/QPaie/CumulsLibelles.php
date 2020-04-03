@@ -78,6 +78,7 @@ class CumulsLibelles {
      * Set the montant cumul.
      *
      * @param float $montantCumul The montant cumul.
+     * @return CumulsLibelles Returns this Cumuls libelles.
      */
     public function setMontantCumul($montantCumul) {
         $this->montantCumul = $montantCumul;
@@ -88,6 +89,7 @@ class CumulsLibelles {
      * Set the num cumul bulletin.
      *
      * @param int $numCumulBulletin The num cumul bulletin.
+     * @return CumulsLibelles Returns this Cumuls libelles.
      */
     public function setNumCumulBulletin($numCumulBulletin) {
         $this->numCumulBulletin = $numCumulBulletin;
@@ -98,6 +100,7 @@ class CumulsLibelles {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return CumulsLibelles Returns this Cumuls libelles.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;

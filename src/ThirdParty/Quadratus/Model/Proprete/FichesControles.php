@@ -208,6 +208,7 @@ class FichesControles {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -218,6 +219,7 @@ class FichesControles {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -228,6 +230,7 @@ class FichesControles {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -238,6 +241,7 @@ class FichesControles {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -248,6 +252,7 @@ class FichesControles {
      * Set the date controle.
      *
      * @param DateTime|null $dateControle The date controle.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setDateControle(DateTime $dateControle = null) {
         $this->dateControle = $dateControle;
@@ -258,6 +263,7 @@ class FichesControles {
      * Set the date transfert.
      *
      * @param DateTime|null $dateTransfert The date transfert.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setDateTransfert(DateTime $dateTransfert = null) {
         $this->dateTransfert = $dateTransfert;
@@ -268,6 +274,7 @@ class FichesControles {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -278,6 +285,7 @@ class FichesControles {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -288,6 +296,7 @@ class FichesControles {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -298,6 +307,7 @@ class FichesControles {
      * Set the numero reclamation.
      *
      * @param int $numeroReclamation The numero reclamation.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setNumeroReclamation($numeroReclamation) {
         $this->numeroReclamation = $numeroReclamation;
@@ -308,6 +318,7 @@ class FichesControles {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return FichesControles Returns this Fiches controles.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

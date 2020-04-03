@@ -94,6 +94,7 @@ class ConfidentialiteZones {
      * Set the champ.
      *
      * @param string $champ The champ.
+     * @return ConfidentialiteZones Returns this Confidentialite zones.
      */
     public function setChamp($champ) {
         $this->champ = $champ;
@@ -104,6 +105,7 @@ class ConfidentialiteZones {
      * Set the chapitre.
      *
      * @param string $chapitre The chapitre.
+     * @return ConfidentialiteZones Returns this Confidentialite zones.
      */
     public function setChapitre($chapitre) {
         $this->chapitre = $chapitre;
@@ -114,6 +116,7 @@ class ConfidentialiteZones {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return ConfidentialiteZones Returns this Confidentialite zones.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -124,6 +127,7 @@ class ConfidentialiteZones {
      * Set the type.
      *
      * @param string $type The type.
+     * @return ConfidentialiteZones Returns this Confidentialite zones.
      */
     public function setType($type) {
         $this->type = $type;

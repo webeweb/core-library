@@ -656,6 +656,7 @@ class AccesWeb {
      * Set the acces agenda.
      *
      * @param bool $accesAgenda The acces agenda.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesAgenda($accesAgenda) {
         $this->accesAgenda = $accesAgenda;
@@ -666,6 +667,7 @@ class AccesWeb {
      * Set the acces articles.
      *
      * @param bool $accesArticles The acces articles.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesArticles($accesArticles) {
         $this->accesArticles = $accesArticles;
@@ -676,6 +678,7 @@ class AccesWeb {
      * Set the acces articles consommes.
      *
      * @param bool $accesArticlesConsommes The acces articles consommes.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesArticlesConsommes($accesArticlesConsommes) {
         $this->accesArticlesConsommes = $accesArticlesConsommes;
@@ -686,6 +689,7 @@ class AccesWeb {
      * Set the acces clients.
      *
      * @param bool $accesClients The acces clients.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesClients($accesClients) {
         $this->accesClients = $accesClients;
@@ -696,6 +700,7 @@ class AccesWeb {
      * Set the acces clients favoris.
      *
      * @param bool $accesClientsFavoris The acces clients favoris.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesClientsFavoris($accesClientsFavoris) {
         $this->accesClientsFavoris = $accesClientsFavoris;
@@ -706,6 +711,7 @@ class AccesWeb {
      * Set the acces consultation.
      *
      * @param bool $accesConsultation The acces consultation.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesConsultation($accesConsultation) {
         $this->accesConsultation = $accesConsultation;
@@ -716,6 +722,7 @@ class AccesWeb {
      * Set the acces dossier cabinet.
      *
      * @param bool $accesDossierCabinet The acces dossier cabinet.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesDossierCabinet($accesDossierCabinet) {
         $this->accesDossierCabinet = $accesDossierCabinet;
@@ -726,6 +733,7 @@ class AccesWeb {
      * Set the acces facture.
      *
      * @param bool $accesFacture The acces facture.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesFacture($accesFacture) {
         $this->accesFacture = $accesFacture;
@@ -736,6 +744,7 @@ class AccesWeb {
      * Set the acces i bureau.
      *
      * @param bool $accesIBureau The acces i bureau.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesIBureau($accesIBureau) {
         $this->accesIBureau = $accesIBureau;
@@ -746,6 +755,7 @@ class AccesWeb {
      * Set the acces interventions.
      *
      * @param bool $accesInterventions The acces interventions.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesInterventions($accesInterventions) {
         $this->accesInterventions = $accesInterventions;
@@ -756,6 +766,7 @@ class AccesWeb {
      * Set the acces liste collab.
      *
      * @param bool $accesListeCollab The acces liste collab.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesListeCollab($accesListeCollab) {
         $this->accesListeCollab = $accesListeCollab;
@@ -766,6 +777,7 @@ class AccesWeb {
      * Set the acces messages.
      *
      * @param bool $accesMessages The acces messages.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesMessages($accesMessages) {
         $this->accesMessages = $accesMessages;
@@ -776,6 +788,7 @@ class AccesWeb {
      * Set the acces note frais.
      *
      * @param bool $accesNoteFrais The acces note frais.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesNoteFrais($accesNoteFrais) {
         $this->accesNoteFrais = $accesNoteFrais;
@@ -786,6 +799,7 @@ class AccesWeb {
      * Set the acces repertoire.
      *
      * @param bool $accesRepertoire The acces repertoire.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesRepertoire($accesRepertoire) {
         $this->accesRepertoire = $accesRepertoire;
@@ -796,6 +810,7 @@ class AccesWeb {
      * Set the acces saisie commande.
      *
      * @param bool $accesSaisieCommande The acces saisie commande.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesSaisieCommande($accesSaisieCommande) {
         $this->accesSaisieCommande = $accesSaisieCommande;
@@ -806,6 +821,7 @@ class AccesWeb {
      * Set the acces saisie tp.
      *
      * @param bool $accesSaisieTp The acces saisie tp.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesSaisieTp($accesSaisieTp) {
         $this->accesSaisieTp = $accesSaisieTp;
@@ -816,6 +832,7 @@ class AccesWeb {
      * Set the acces solde cpta.
      *
      * @param bool $accesSoldeCpta The acces solde cpta.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesSoldeCpta($accesSoldeCpta) {
         $this->accesSoldeCpta = $accesSoldeCpta;
@@ -826,6 +843,7 @@ class AccesWeb {
      * Set the acces tableaux bord.
      *
      * @param bool $accesTableauxBord The acces tableaux bord.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setAccesTableauxBord($accesTableauxBord) {
         $this->accesTableauxBord = $accesTableauxBord;
@@ -836,6 +854,7 @@ class AccesWeb {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -846,6 +865,7 @@ class AccesWeb {
      * Set the date activation.
      *
      * @param DateTime|null $dateActivation The date activation.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setDateActivation(DateTime $dateActivation = null) {
         $this->dateActivation = $dateActivation;
@@ -856,6 +876,7 @@ class AccesWeb {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -866,6 +887,7 @@ class AccesWeb {
      * Set the dern tentative.
      *
      * @param DateTime|null $dernTentative The dern tentative.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setDernTentative(DateTime $dernTentative = null) {
         $this->dernTentative = $dernTentative;
@@ -876,6 +898,7 @@ class AccesWeb {
      * Set the doss cpta.
      *
      * @param string $dossCpta The doss cpta.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setDossCpta($dossCpta) {
         $this->dossCpta = $dossCpta;
@@ -886,6 +909,7 @@ class AccesWeb {
      * Set the doss paie.
      *
      * @param string $dossPaie The doss paie.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setDossPaie($dossPaie) {
         $this->dossPaie = $dossPaie;
@@ -896,6 +920,7 @@ class AccesWeb {
      * Set the doss prop.
      *
      * @param string $dossProp The doss prop.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setDossProp($dossProp) {
         $this->dossProp = $dossProp;
@@ -906,6 +931,7 @@ class AccesWeb {
      * Set the duplique intervention.
      *
      * @param bool $dupliqueIntervention The duplique intervention.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setDupliqueIntervention($dupliqueIntervention) {
         $this->dupliqueIntervention = $dupliqueIntervention;
@@ -916,6 +942,7 @@ class AccesWeb {
      * Set the meme mdp que i bureau.
      *
      * @param bool $memeMdpQueIBureau The meme mdp que i bureau.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setMemeMdpQueIBureau($memeMdpQueIBureau) {
         $this->memeMdpQueIBureau = $memeMdpQueIBureau;
@@ -926,6 +953,7 @@ class AccesWeb {
      * Set the mot de passe.
      *
      * @param string $motDePasse The mot de passe.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setMotDePasse($motDePasse) {
         $this->motDePasse = $motDePasse;
@@ -936,6 +964,7 @@ class AccesWeb {
      * Set the restr cli assist1.
      *
      * @param string $restrCliAssist1 The restr cli assist1.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliAssist1($restrCliAssist1) {
         $this->restrCliAssist1 = $restrCliAssist1;
@@ -946,6 +975,7 @@ class AccesWeb {
      * Set the restr cli assist2.
      *
      * @param string $restrCliAssist2 The restr cli assist2.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliAssist2($restrCliAssist2) {
         $this->restrCliAssist2 = $restrCliAssist2;
@@ -956,6 +986,7 @@ class AccesWeb {
      * Set the restr cli autre1.
      *
      * @param string $restrCliAutre1 The restr cli autre1.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliAutre1($restrCliAutre1) {
         $this->restrCliAutre1 = $restrCliAutre1;
@@ -966,6 +997,7 @@ class AccesWeb {
      * Set the restr cli autre2.
      *
      * @param string $restrCliAutre2 The restr cli autre2.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliAutre2($restrCliAutre2) {
         $this->restrCliAutre2 = $restrCliAutre2;
@@ -976,6 +1008,7 @@ class AccesWeb {
      * Set the restr cli collab.
      *
      * @param string $restrCliCollab The restr cli collab.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliCollab($restrCliCollab) {
         $this->restrCliCollab = $restrCliCollab;
@@ -986,6 +1019,7 @@ class AccesWeb {
      * Set the restr cli debut.
      *
      * @param string $restrCliDebut The restr cli debut.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliDebut($restrCliDebut) {
         $this->restrCliDebut = $restrCliDebut;
@@ -996,6 +1030,7 @@ class AccesWeb {
      * Set the restr cli expert.
      *
      * @param string $restrCliExpert The restr cli expert.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliExpert($restrCliExpert) {
         $this->restrCliExpert = $restrCliExpert;
@@ -1006,6 +1041,7 @@ class AccesWeb {
      * Set the restr cli fin.
      *
      * @param string $restrCliFin The restr cli fin.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliFin($restrCliFin) {
         $this->restrCliFin = $restrCliFin;
@@ -1016,6 +1052,7 @@ class AccesWeb {
      * Set the restr cli portef.
      *
      * @param string $restrCliPortef The restr cli portef.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setRestrCliPortef($restrCliPortef) {
         $this->restrCliPortef = $restrCliPortef;
@@ -1026,6 +1063,7 @@ class AccesWeb {
      * Set the tentatives.
      *
      * @param string $tentatives The tentatives.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setTentatives($tentatives) {
         $this->tentatives = $tentatives;
@@ -1036,6 +1074,7 @@ class AccesWeb {
      * Set the i key.
      *
      * @param string $iKey The i key.
+     * @return AccesWeb Returns this Acces web.
      */
     public function setiKey($iKey) {
         $this->iKey = $iKey;

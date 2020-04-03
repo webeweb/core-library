@@ -192,6 +192,7 @@ class SaisieArret {
      * Set the dt courrier.
      *
      * @param DateTime|null $dtCourrier The dt courrier.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setDtCourrier(DateTime $dtCourrier = null) {
         $this->dtCourrier = $dtCourrier;
@@ -202,6 +203,7 @@ class SaisieArret {
      * Set the dt debut saisie.
      *
      * @param DateTime|null $dtDebutSaisie The dt debut saisie.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setDtDebutSaisie(DateTime $dtDebutSaisie = null) {
         $this->dtDebutSaisie = $dtDebutSaisie;
@@ -212,6 +214,7 @@ class SaisieArret {
      * Set the dt fin saisie.
      *
      * @param DateTime|null $dtFinSaisie The dt fin saisie.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setDtFinSaisie(DateTime $dtFinSaisie = null) {
         $this->dtFinSaisie = $dtFinSaisie;
@@ -222,6 +225,7 @@ class SaisieArret {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -232,6 +236,7 @@ class SaisieArret {
      * Set the mt creance.
      *
      * @param float $mtCreance The mt creance.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setMtCreance($mtCreance) {
         $this->mtCreance = $mtCreance;
@@ -242,6 +247,7 @@ class SaisieArret {
      * Set the mt deja paye.
      *
      * @param float $mtDejaPaye The mt deja paye.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setMtDejaPaye($mtDejaPaye) {
         $this->mtDejaPaye = $mtDejaPaye;
@@ -252,6 +258,7 @@ class SaisieArret {
      * Set the nb a charge.
      *
      * @param string $nbACharge The nb a charge.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setNbACharge($nbACharge) {
         $this->nbACharge = $nbACharge;
@@ -262,6 +269,7 @@ class SaisieArret {
      * Set the nom tribunal.
      *
      * @param string $nomTribunal The nom tribunal.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setNomTribunal($nomTribunal) {
         $this->nomTribunal = $nomTribunal;
@@ -272,6 +280,7 @@ class SaisieArret {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -282,6 +291,7 @@ class SaisieArret {
      * Set the type saisie.
      *
      * @param string $typeSaisie The type saisie.
+     * @return SaisieArret Returns this Saisie arret.
      */
     public function setTypeSaisie($typeSaisie) {
         $this->typeSaisie = $typeSaisie;

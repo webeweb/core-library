@@ -110,6 +110,7 @@ class VariablesPaieEmp {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return VariablesPaieEmp Returns this Variables paie emp.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -120,6 +121,7 @@ class VariablesPaieEmp {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return VariablesPaieEmp Returns this Variables paie emp.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -130,6 +132,7 @@ class VariablesPaieEmp {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return VariablesPaieEmp Returns this Variables paie emp.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -140,6 +143,7 @@ class VariablesPaieEmp {
      * Set the valeur1.
      *
      * @param float $valeur1 The valeur1.
+     * @return VariablesPaieEmp Returns this Variables paie emp.
      */
     public function setValeur1($valeur1) {
         $this->valeur1 = $valeur1;
@@ -150,6 +154,7 @@ class VariablesPaieEmp {
      * Set the valeur2.
      *
      * @param float $valeur2 The valeur2.
+     * @return VariablesPaieEmp Returns this Variables paie emp.
      */
     public function setValeur2($valeur2) {
         $this->valeur2 = $valeur2;

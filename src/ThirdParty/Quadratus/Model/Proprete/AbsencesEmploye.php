@@ -304,6 +304,7 @@ class AbsencesEmploye {
      * Set the absence modifiee.
      *
      * @param string $absenceModifiee The absence modifiee.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setAbsenceModifiee($absenceModifiee) {
         $this->absenceModifiee = $absenceModifiee;
@@ -314,6 +315,7 @@ class AbsencesEmploye {
      * Set the code absence.
      *
      * @param string $codeAbsence The code absence.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setCodeAbsence($codeAbsence) {
         $this->codeAbsence = $codeAbsence;
@@ -324,6 +326,7 @@ class AbsencesEmploye {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -334,6 +337,7 @@ class AbsencesEmploye {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -344,6 +348,7 @@ class AbsencesEmploye {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -354,6 +359,7 @@ class AbsencesEmploye {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -364,6 +370,7 @@ class AbsencesEmploye {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -374,6 +381,7 @@ class AbsencesEmploye {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -384,6 +392,7 @@ class AbsencesEmploye {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -394,6 +403,7 @@ class AbsencesEmploye {
      * Set the date debut abs.
      *
      * @param DateTime|null $dateDebutAbs The date debut abs.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setDateDebutAbs(DateTime $dateDebutAbs = null) {
         $this->dateDebutAbs = $dateDebutAbs;
@@ -404,6 +414,7 @@ class AbsencesEmploye {
      * Set the date fin abs.
      *
      * @param DateTime|null $dateFinAbs The date fin abs.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setDateFinAbs(DateTime $dateFinAbs = null) {
         $this->dateFinAbs = $dateFinAbs;
@@ -414,6 +425,7 @@ class AbsencesEmploye {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -424,6 +436,7 @@ class AbsencesEmploye {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -434,6 +447,7 @@ class AbsencesEmploye {
      * Set the from fermeture chantier.
      *
      * @param bool $fromFermetureChantier The from fermeture chantier.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setFromFermetureChantier($fromFermetureChantier) {
         $this->fromFermetureChantier = $fromFermetureChantier;
@@ -444,6 +458,7 @@ class AbsencesEmploye {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -454,6 +469,7 @@ class AbsencesEmploye {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;
@@ -464,6 +480,7 @@ class AbsencesEmploye {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return AbsencesEmploye Returns this Absences employe.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

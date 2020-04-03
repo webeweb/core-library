@@ -62,6 +62,7 @@ class CorrespondanceFamArtQFactChargesQProp {
      * Set the code charge.
      *
      * @param string $codeCharge The code charge.
+     * @return CorrespondanceFamArtQFactChargesQProp Returns this Correspondance fam art q fact charges q prop.
      */
     public function setCodeCharge($codeCharge) {
         $this->codeCharge = $codeCharge;
@@ -72,6 +73,7 @@ class CorrespondanceFamArtQFactChargesQProp {
      * Set the code fam art.
      *
      * @param string $codeFamArt The code fam art.
+     * @return CorrespondanceFamArtQFactChargesQProp Returns this Correspondance fam art q fact charges q prop.
      */
     public function setCodeFamArt($codeFamArt) {
         $this->codeFamArt = $codeFamArt;

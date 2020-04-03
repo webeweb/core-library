@@ -256,6 +256,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the code a charge.
      *
      * @param string $codeACharge The code a charge.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setCodeACharge($codeACharge) {
         $this->codeACharge = $codeACharge;
@@ -266,6 +267,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the code affil secu.
      *
      * @param string $codeAffilSecu The code affil secu.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setCodeAffilSecu($codeAffilSecu) {
         $this->codeAffilSecu = $codeAffilSecu;
@@ -276,6 +278,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the code autre couverture.
      *
      * @param string $codeAutreCouverture The code autre couverture.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setCodeAutreCouverture($codeAutreCouverture) {
         $this->codeAutreCouverture = $codeAutreCouverture;
@@ -286,6 +289,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the code extension secu.
      *
      * @param string $codeExtensionSecu The code extension secu.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setCodeExtensionSecu($codeExtensionSecu) {
         $this->codeExtensionSecu = $codeExtensionSecu;
@@ -296,6 +300,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the code scolarise.
      *
      * @param string $codeScolarise The code scolarise.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setCodeScolarise($codeScolarise) {
         $this->codeScolarise = $codeScolarise;
@@ -306,6 +311,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the code type.
      *
      * @param string $codeType The code type.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setCodeType($codeType) {
         $this->codeType = $codeType;
@@ -316,6 +322,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the date naissance.
      *
      * @param DateTime|null $dateNaissance The date naissance.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setDateNaissance(DateTime $dateNaissance = null) {
         $this->dateNaissance = $dateNaissance;
@@ -326,6 +333,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -336,6 +344,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the nir rattachement.
      *
      * @param string $nirRattachement The nir rattachement.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setNirRattachement($nirRattachement) {
         $this->nirRattachement = $nirRattachement;
@@ -346,6 +355,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -356,6 +366,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the numero ayant droit.
      *
      * @param int $numeroAyantDroit The numero ayant droit.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setNumeroAyantDroit($numeroAyantDroit) {
         $this->numeroAyantDroit = $numeroAyantDroit;
@@ -366,6 +377,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -376,6 +388,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -386,6 +399,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      * Set the rang naissance.
      *
      * @param string $rangNaissance The rang naissance.
+     * @return EmpDadsuPrevoyanceAyantDroit Returns this Emp dadsu prevoyance ayant droit.
      */
     public function setRangNaissance($rangNaissance) {
         $this->rangNaissance = $rangNaissance;

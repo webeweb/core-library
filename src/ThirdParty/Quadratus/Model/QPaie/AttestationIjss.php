@@ -1104,6 +1104,7 @@ class AttestationIjss {
      * Set the adresse1.
      *
      * @param string $adresse1 The adresse1.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setAdresse1($adresse1) {
         $this->adresse1 = $adresse1;
@@ -1114,6 +1115,7 @@ class AttestationIjss {
      * Set the adresse2.
      *
      * @param string $adresse2 The adresse2.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setAdresse2($adresse2) {
         $this->adresse2 = $adresse2;
@@ -1124,6 +1126,7 @@ class AttestationIjss {
      * Set the adresse3.
      *
      * @param string $adresse3 The adresse3.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setAdresse3($adresse3) {
         $this->adresse3 = $adresse3;
@@ -1134,6 +1137,7 @@ class AttestationIjss {
      * Set the cas general.
      *
      * @param bool $casGeneral The cas general.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setCasGeneral($casGeneral) {
         $this->casGeneral = $casGeneral;
@@ -1144,6 +1148,7 @@ class AttestationIjss {
      * Set the cas particulier.
      *
      * @param bool $casParticulier The cas particulier.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setCasParticulier($casParticulier) {
         $this->casParticulier = $casParticulier;
@@ -1154,6 +1159,7 @@ class AttestationIjss {
      * Set the categorie sal.
      *
      * @param string $categorieSal The categorie sal.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setCategorieSal($categorieSal) {
         $this->categorieSal = $categorieSal;
@@ -1164,6 +1170,7 @@ class AttestationIjss {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -1174,6 +1181,7 @@ class AttestationIjss {
      * Set the date debut paternite.
      *
      * @param DateTime|null $dateDebutPaternite The date debut paternite.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setDateDebutPaternite(DateTime $dateDebutPaternite = null) {
         $this->dateDebutPaternite = $dateDebutPaternite;
@@ -1184,6 +1192,7 @@ class AttestationIjss {
      * Set the date dern j mens.
      *
      * @param DateTime|null $dateDernJMens The date dern j mens.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setDateDernJMens(DateTime $dateDernJMens = null) {
         $this->dateDernJMens = $dateDernJMens;
@@ -1194,6 +1203,7 @@ class AttestationIjss {
      * Set the date naissance employe.
      *
      * @param DateTime|null $dateNaissanceEmploye The date naissance employe.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setDateNaissanceEmploye(DateTime $dateNaissanceEmploye = null) {
         $this->dateNaissanceEmploye = $dateNaissanceEmploye;
@@ -1204,6 +1214,7 @@ class AttestationIjss {
      * Set the date naissance enfant.
      *
      * @param DateTime|null $dateNaissanceEnfant The date naissance enfant.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setDateNaissanceEnfant(DateTime $dateNaissanceEnfant = null) {
         $this->dateNaissanceEnfant = $dateNaissanceEnfant;
@@ -1214,6 +1225,7 @@ class AttestationIjss {
      * Set the dern j.
      *
      * @param DateTime|null $dernJ The dern j.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setDernJ(DateTime $dernJ = null) {
         $this->dernJ = $dernJ;
@@ -1224,6 +1236,7 @@ class AttestationIjss {
      * Set the dispense travail.
      *
      * @param bool $dispenseTravail The dispense travail.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setDispenseTravail($dispenseTravail) {
         $this->dispenseTravail = $dispenseTravail;
@@ -1234,6 +1247,7 @@ class AttestationIjss {
      * Set the emploi.
      *
      * @param string $emploi The emploi.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setEmploi($emploi) {
         $this->emploi = $emploi;
@@ -1244,6 +1258,7 @@ class AttestationIjss {
      * Set the etbl adresse1.
      *
      * @param string $etblAdresse1 The etbl adresse1.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setEtblAdresse1($etblAdresse1) {
         $this->etblAdresse1 = $etblAdresse1;
@@ -1254,6 +1269,7 @@ class AttestationIjss {
      * Set the etbl adresse2.
      *
      * @param string $etblAdresse2 The etbl adresse2.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setEtblAdresse2($etblAdresse2) {
         $this->etblAdresse2 = $etblAdresse2;
@@ -1264,6 +1280,7 @@ class AttestationIjss {
      * Set the etbl adresse3.
      *
      * @param string $etblAdresse3 The etbl adresse3.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setEtblAdresse3($etblAdresse3) {
         $this->etblAdresse3 = $etblAdresse3;
@@ -1274,6 +1291,7 @@ class AttestationIjss {
      * Set the etbl raison sociale.
      *
      * @param string $etblRaisonSociale The etbl raison sociale.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setEtblRaisonSociale($etblRaisonSociale) {
         $this->etblRaisonSociale = $etblRaisonSociale;
@@ -1284,6 +1302,7 @@ class AttestationIjss {
      * Set the etbl tel.
      *
      * @param string $etblTel The etbl tel.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setEtblTel($etblTel) {
         $this->etblTel = $etblTel;
@@ -1294,6 +1313,7 @@ class AttestationIjss {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -1304,6 +1324,7 @@ class AttestationIjss {
      * Set the intitule compte.
      *
      * @param string $intituleCompte The intitule compte.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setIntituleCompte($intituleCompte) {
         $this->intituleCompte = $intituleCompte;
@@ -1314,6 +1335,7 @@ class AttestationIjss {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -1324,6 +1346,7 @@ class AttestationIjss {
      * Set the maladie.
      *
      * @param bool $maladie The maladie.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMaladie($maladie) {
         $this->maladie = $maladie;
@@ -1334,6 +1357,7 @@ class AttestationIjss {
      * Set the maternite.
      *
      * @param bool $maternite The maternite.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMaternite($maternite) {
         $this->maternite = $maternite;
@@ -1344,6 +1368,7 @@ class AttestationIjss {
      * Set the matricule.
      *
      * @param string $matricule The matricule.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMatricule($matricule) {
         $this->matricule = $matricule;
@@ -1354,6 +1379,7 @@ class AttestationIjss {
      * Set the montant general.
      *
      * @param float $montantGeneral The montant general.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMontantGeneral($montantGeneral) {
         $this->montantGeneral = $montantGeneral;
@@ -1364,6 +1390,7 @@ class AttestationIjss {
      * Set the montant particulier.
      *
      * @param float $montantParticulier The montant particulier.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMontantParticulier($montantParticulier) {
         $this->montantParticulier = $montantParticulier;
@@ -1374,6 +1401,7 @@ class AttestationIjss {
      * Set the mt cg euro ou franc.
      *
      * @param string $mtCgEuroOuFranc The mt cg euro ou franc.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMtCgEuroOuFranc($mtCgEuroOuFranc) {
         $this->mtCgEuroOuFranc = $mtCgEuroOuFranc;
@@ -1384,6 +1412,7 @@ class AttestationIjss {
      * Set the mt cp euro ou franc.
      *
      * @param string $mtCpEuroOuFranc The mt cp euro ou franc.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMtCpEuroOuFranc($mtCpEuroOuFranc) {
         $this->mtCpEuroOuFranc = $mtCpEuroOuFranc;
@@ -1394,6 +1423,7 @@ class AttestationIjss {
      * Set the mt sal brut moins150 h.
      *
      * @param float $mtSalBrutMoins150H The mt sal brut moins150 h.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMtSalBrutMoins150H($mtSalBrutMoins150H) {
         $this->mtSalBrutMoins150H = $mtSalBrutMoins150H;
@@ -1404,6 +1434,7 @@ class AttestationIjss {
      * Set the mt sal brut moins600 h.
      *
      * @param float $mtSalBrutMoins600H The mt sal brut moins600 h.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setMtSalBrutMoins600H($mtSalBrutMoins600H) {
         $this->mtSalBrutMoins600H = $mtSalBrutMoins600H;
@@ -1414,6 +1445,7 @@ class AttestationIjss {
      * Set the nb enfants a charge.
      *
      * @param string $nbEnfantsACharge The nb enfants a charge.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNbEnfantsACharge($nbEnfantsACharge) {
         $this->nbEnfantsACharge = $nbEnfantsACharge;
@@ -1424,6 +1456,7 @@ class AttestationIjss {
      * Set the nb h cas part.
      *
      * @param float $nbHCasPart The nb h cas part.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNbHCasPart($nbHCasPart) {
         $this->nbHCasPart = $nbHCasPart;
@@ -1434,6 +1467,7 @@ class AttestationIjss {
      * Set the nb h general.
      *
      * @param float $nbHGeneral The nb h general.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNbHGeneral($nbHGeneral) {
         $this->nbHGeneral = $nbHGeneral;
@@ -1444,6 +1478,7 @@ class AttestationIjss {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -1454,6 +1489,7 @@ class AttestationIjss {
      * Set the nom employe.
      *
      * @param string $nomEmploye The nom employe.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNomEmploye($nomEmploye) {
         $this->nomEmploye = $nomEmploye;
@@ -1464,6 +1500,7 @@ class AttestationIjss {
      * Set the nom marital.
      *
      * @param string $nomMarital The nom marital.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNomMarital($nomMarital) {
         $this->nomMarital = $nomMarital;
@@ -1474,6 +1511,7 @@ class AttestationIjss {
      * Set the non repris.
      *
      * @param bool $nonRepris The non repris.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNonRepris($nonRepris) {
         $this->nonRepris = $nonRepris;
@@ -1484,6 +1522,7 @@ class AttestationIjss {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -1494,6 +1533,7 @@ class AttestationIjss {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -1504,6 +1544,7 @@ class AttestationIjss {
      * Set the organisme.
      *
      * @param string $organisme The organisme.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setOrganisme($organisme) {
         $this->organisme = $organisme;
@@ -1514,6 +1555,7 @@ class AttestationIjss {
      * Set the paiement en euro.
      *
      * @param bool $paiementEnEuro The paiement en euro.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPaiementEnEuro($paiementEnEuro) {
         $this->paiementEnEuro = $paiementEnEuro;
@@ -1524,6 +1566,7 @@ class AttestationIjss {
      * Set the paternite.
      *
      * @param bool $paternite The paternite.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPaternite($paternite) {
         $this->paternite = $paternite;
@@ -1534,6 +1577,7 @@ class AttestationIjss {
      * Set the periode au.
      *
      * @param DateTime|null $periodeAu The periode au.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPeriodeAu(DateTime $periodeAu = null) {
         $this->periodeAu = $periodeAu;
@@ -1544,6 +1588,7 @@ class AttestationIjss {
      * Set the periode du.
      *
      * @param DateTime|null $periodeDu The periode du.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPeriodeDu(DateTime $periodeDu = null) {
         $this->periodeDu = $periodeDu;
@@ -1554,6 +1599,7 @@ class AttestationIjss {
      * Set the periode subr au.
      *
      * @param DateTime|null $periodeSubrAu The periode subr au.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPeriodeSubrAu(DateTime $periodeSubrAu = null) {
         $this->periodeSubrAu = $periodeSubrAu;
@@ -1564,6 +1610,7 @@ class AttestationIjss {
      * Set the periode subr du.
      *
      * @param DateTime|null $periodeSubrDu The periode subr du.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPeriodeSubrDu(DateTime $periodeSubrDu = null) {
         $this->periodeSubrDu = $periodeSubrDu;
@@ -1574,6 +1621,7 @@ class AttestationIjss {
      * Set the plusde200h.
      *
      * @param bool $plusde200h The plusde200h.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPlusde200h($plusde200h) {
         $this->plusde200h = $plusde200h;
@@ -1584,6 +1632,7 @@ class AttestationIjss {
      * Set the plusde800h.
      *
      * @param bool $plusde800h The plusde800h.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPlusde800h($plusde800h) {
         $this->plusde800h = $plusde800h;
@@ -1594,6 +1643,7 @@ class AttestationIjss {
      * Set the prenom employe.
      *
      * @param string $prenomEmploye The prenom employe.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setPrenomEmploye($prenomEmploye) {
         $this->prenomEmploye = $prenomEmploye;
@@ -1604,6 +1654,7 @@ class AttestationIjss {
      * Set the rectificative.
      *
      * @param bool $rectificative The rectificative.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setRectificative($rectificative) {
         $this->rectificative = $rectificative;
@@ -1614,6 +1665,7 @@ class AttestationIjss {
      * Set the reprise.
      *
      * @param DateTime|null $reprise The reprise.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setReprise(DateTime $reprise = null) {
         $this->reprise = $reprise;
@@ -1624,6 +1676,7 @@ class AttestationIjss {
      * Set the reprise motif med.
      *
      * @param bool $repriseMotifMed The reprise motif med.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setRepriseMotifMed($repriseMotifMed) {
         $this->repriseMotifMed = $repriseMotifMed;
@@ -1634,6 +1687,7 @@ class AttestationIjss {
      * Set the reprise raison pers.
      *
      * @param bool $repriseRaisonPers The reprise raison pers.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setRepriseRaisonPers($repriseRaisonPers) {
         $this->repriseRaisonPers = $repriseRaisonPers;
@@ -1644,6 +1698,7 @@ class AttestationIjss {
      * Set the signature date.
      *
      * @param DateTime|null $signatureDate The signature date.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSignatureDate(DateTime $signatureDate = null) {
         $this->signatureDate = $signatureDate;
@@ -1654,6 +1709,7 @@ class AttestationIjss {
      * Set the signature nom.
      *
      * @param string $signatureNom The signature nom.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSignatureNom($signatureNom) {
         $this->signatureNom = $signatureNom;
@@ -1664,6 +1720,7 @@ class AttestationIjss {
      * Set the signature qualite.
      *
      * @param string $signatureQualite The signature qualite.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSignatureQualite($signatureQualite) {
         $this->signatureQualite = $signatureQualite;
@@ -1674,6 +1731,7 @@ class AttestationIjss {
      * Set the signature ville.
      *
      * @param string $signatureVille The signature ville.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSignatureVille($signatureVille) {
         $this->signatureVille = $signatureVille;
@@ -1684,6 +1742,7 @@ class AttestationIjss {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -1694,6 +1753,7 @@ class AttestationIjss {
      * Set the situation.
      *
      * @param string $situation The situation.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSituation($situation) {
         $this->situation = $situation;
@@ -1704,6 +1764,7 @@ class AttestationIjss {
      * Set the subrogation constantes.
      *
      * @param bool $subrogationConstantes The subrogation constantes.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSubrogationConstantes($subrogationConstantes) {
         $this->subrogationConstantes = $subrogationConstantes;
@@ -1714,6 +1775,7 @@ class AttestationIjss {
      * Set the subrogation montant.
      *
      * @param float $subrogationMontant The subrogation montant.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSubrogationMontant($subrogationMontant) {
         $this->subrogationMontant = $subrogationMontant;
@@ -1724,6 +1786,7 @@ class AttestationIjss {
      * Set the subrogation partielle.
      *
      * @param bool $subrogationPartielle The subrogation partielle.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSubrogationPartielle($subrogationPartielle) {
         $this->subrogationPartielle = $subrogationPartielle;
@@ -1734,6 +1797,7 @@ class AttestationIjss {
      * Set the suspension date.
      *
      * @param DateTime|null $suspensionDate The suspension date.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSuspensionDate(DateTime $suspensionDate = null) {
         $this->suspensionDate = $suspensionDate;
@@ -1744,6 +1808,7 @@ class AttestationIjss {
      * Set the suspension motif.
      *
      * @param string $suspensionMotif The suspension motif.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setSuspensionMotif($suspensionMotif) {
         $this->suspensionMotif = $suspensionMotif;
@@ -1754,6 +1819,7 @@ class AttestationIjss {
      * Set the travail temp.
      *
      * @param bool $travailTemp The travail temp.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setTravailTemp($travailTemp) {
         $this->travailTemp = $travailTemp;
@@ -1764,6 +1830,7 @@ class AttestationIjss {
      * Set the type attestation.
      *
      * @param string $typeAttestation The type attestation.
+     * @return AttestationIjss Returns this Attestation ijss.
      */
     public function setTypeAttestation($typeAttestation) {
         $this->typeAttestation = $typeAttestation;

@@ -62,6 +62,7 @@ class Regroupement {
      * Set the classe.
      *
      * @param string $classe The classe.
+     * @return Regroupement Returns this Regroupement.
      */
     public function setClasse($classe) {
         $this->classe = $classe;
@@ -72,6 +73,7 @@ class Regroupement {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Regroupement Returns this Regroupement.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;

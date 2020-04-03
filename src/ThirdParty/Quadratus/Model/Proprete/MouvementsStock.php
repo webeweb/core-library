@@ -432,6 +432,7 @@ class MouvementsStock {
      * Set the bon sortie.
      *
      * @param string $bonSortie The bon sortie.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setBonSortie($bonSortie) {
         $this->bonSortie = $bonSortie;
@@ -442,6 +443,7 @@ class MouvementsStock {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -452,6 +454,7 @@ class MouvementsStock {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -462,6 +465,7 @@ class MouvementsStock {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -472,6 +476,7 @@ class MouvementsStock {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -482,6 +487,7 @@ class MouvementsStock {
      * Set the code depot.
      *
      * @param string $codeDepot The code depot.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeDepot($codeDepot) {
         $this->codeDepot = $codeDepot;
@@ -492,6 +498,7 @@ class MouvementsStock {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -502,6 +509,7 @@ class MouvementsStock {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -512,6 +520,7 @@ class MouvementsStock {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -522,6 +531,7 @@ class MouvementsStock {
      * Set the code variante.
      *
      * @param string $codeVariante The code variante.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCodeVariante($codeVariante) {
         $this->codeVariante = $codeVariante;
@@ -532,6 +542,7 @@ class MouvementsStock {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -542,6 +553,7 @@ class MouvementsStock {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -552,6 +564,7 @@ class MouvementsStock {
      * Set the euro.
      *
      * @param bool $euro The euro.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setEuro($euro) {
         $this->euro = $euro;
@@ -562,6 +575,7 @@ class MouvementsStock {
      * Set the index.
      *
      * @param int $index The index.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setIndex($index) {
         $this->index = $index;
@@ -572,6 +586,7 @@ class MouvementsStock {
      * Set the mouvement genere.
      *
      * @param bool $mouvementGenere The mouvement genere.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setMouvementGenere($mouvementGenere) {
         $this->mouvementGenere = $mouvementGenere;
@@ -582,6 +597,7 @@ class MouvementsStock {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -592,6 +608,7 @@ class MouvementsStock {
      * Set the prix u.
      *
      * @param float $prixU The prix u.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setPrixU($prixU) {
         $this->prixU = $prixU;
@@ -602,6 +619,7 @@ class MouvementsStock {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -612,6 +630,7 @@ class MouvementsStock {
      * Set the quantite voulue.
      *
      * @param float $quantiteVoulue The quantite voulue.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setQuantiteVoulue($quantiteVoulue) {
         $this->quantiteVoulue = $quantiteVoulue;
@@ -622,6 +641,7 @@ class MouvementsStock {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -632,6 +652,7 @@ class MouvementsStock {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -642,6 +663,7 @@ class MouvementsStock {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -652,6 +674,7 @@ class MouvementsStock {
      * Set the type.
      *
      * @param string $type The type.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setType($type) {
         $this->type = $type;
@@ -662,6 +685,7 @@ class MouvementsStock {
      * Set the type gestion.
      *
      * @param string $typeGestion The type gestion.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setTypeGestion($typeGestion) {
         $this->typeGestion = $typeGestion;
@@ -672,6 +696,7 @@ class MouvementsStock {
      * Set the type ligne.
      *
      * @param string $typeLigne The type ligne.
+     * @return MouvementsStock Returns this Mouvements stock.
      */
     public function setTypeLigne($typeLigne) {
         $this->typeLigne = $typeLigne;

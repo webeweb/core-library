@@ -142,6 +142,7 @@ class Actions {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return Actions Returns this Actions.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -152,6 +153,7 @@ class Actions {
      * Set the code calcul.
      *
      * @param int $codeCalcul The code calcul.
+     * @return Actions Returns this Actions.
      */
     public function setCodeCalcul($codeCalcul) {
         $this->codeCalcul = $codeCalcul;
@@ -162,6 +164,7 @@ class Actions {
      * Set the descriptif court.
      *
      * @param string $descriptifCourt The descriptif court.
+     * @return Actions Returns this Actions.
      */
     public function setDescriptifCourt($descriptifCourt) {
         $this->descriptifCourt = $descriptifCourt;
@@ -172,6 +175,7 @@ class Actions {
      * Set the descriptif long.
      *
      * @param string $descriptifLong The descriptif long.
+     * @return Actions Returns this Actions.
      */
     public function setDescriptifLong($descriptifLong) {
         $this->descriptifLong = $descriptifLong;
@@ -182,6 +186,7 @@ class Actions {
      * Set the obligation liee.
      *
      * @param string $obligationLiee The obligation liee.
+     * @return Actions Returns this Actions.
      */
     public function setObligationLiee($obligationLiee) {
         $this->obligationLiee = $obligationLiee;
@@ -192,6 +197,7 @@ class Actions {
      * Set the quantite heure.
      *
      * @param float $quantiteHeure The quantite heure.
+     * @return Actions Returns this Actions.
      */
     public function setQuantiteHeure($quantiteHeure) {
         $this->quantiteHeure = $quantiteHeure;
@@ -202,6 +208,7 @@ class Actions {
      * Set the relation qh.
      *
      * @param bool $relationQh The relation qh.
+     * @return Actions Returns this Actions.
      */
     public function setRelationQh($relationQh) {
         $this->relationQh = $relationQh;

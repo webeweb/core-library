@@ -2352,6 +2352,7 @@ class Dossier1 {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -2362,6 +2363,7 @@ class Dossier1 {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -2372,6 +2374,7 @@ class Dossier1 {
      * Set the calcul ana fait.
      *
      * @param bool $calculAnaFait The calcul ana fait.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCalculAnaFait($calculAnaFait) {
         $this->calculAnaFait = $calculAnaFait;
@@ -2382,6 +2385,7 @@ class Dossier1 {
      * Set the chemin implantation ascii.
      *
      * @param string $cheminImplantationAscii The chemin implantation ascii.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCheminImplantationAscii($cheminImplantationAscii) {
         $this->cheminImplantationAscii = $cheminImplantationAscii;
@@ -2392,6 +2396,7 @@ class Dossier1 {
      * Set the civilite.
      *
      * @param string $civilite The civilite.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCivilite($civilite) {
         $this->civilite = $civilite;
@@ -2402,6 +2407,7 @@ class Dossier1 {
      * Set the cle acces1.
      *
      * @param string $cleAcces1 The cle acces1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces1($cleAcces1) {
         $this->cleAcces1 = $cleAcces1;
@@ -2412,6 +2418,7 @@ class Dossier1 {
      * Set the cle acces10.
      *
      * @param string $cleAcces10 The cle acces10.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces10($cleAcces10) {
         $this->cleAcces10 = $cleAcces10;
@@ -2422,6 +2429,7 @@ class Dossier1 {
      * Set the cle acces2.
      *
      * @param string $cleAcces2 The cle acces2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces2($cleAcces2) {
         $this->cleAcces2 = $cleAcces2;
@@ -2432,6 +2440,7 @@ class Dossier1 {
      * Set the cle acces3.
      *
      * @param string $cleAcces3 The cle acces3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces3($cleAcces3) {
         $this->cleAcces3 = $cleAcces3;
@@ -2442,6 +2451,7 @@ class Dossier1 {
      * Set the cle acces4.
      *
      * @param string $cleAcces4 The cle acces4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces4($cleAcces4) {
         $this->cleAcces4 = $cleAcces4;
@@ -2452,6 +2462,7 @@ class Dossier1 {
      * Set the cle acces5.
      *
      * @param string $cleAcces5 The cle acces5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces5($cleAcces5) {
         $this->cleAcces5 = $cleAcces5;
@@ -2462,6 +2473,7 @@ class Dossier1 {
      * Set the cle acces6.
      *
      * @param string $cleAcces6 The cle acces6.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces6($cleAcces6) {
         $this->cleAcces6 = $cleAcces6;
@@ -2472,6 +2484,7 @@ class Dossier1 {
      * Set the cle acces7.
      *
      * @param string $cleAcces7 The cle acces7.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces7($cleAcces7) {
         $this->cleAcces7 = $cleAcces7;
@@ -2482,6 +2495,7 @@ class Dossier1 {
      * Set the cle acces8.
      *
      * @param string $cleAcces8 The cle acces8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces8($cleAcces8) {
         $this->cleAcces8 = $cleAcces8;
@@ -2492,6 +2506,7 @@ class Dossier1 {
      * Set the cle acces9.
      *
      * @param string $cleAcces9 The cle acces9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleAcces9($cleAcces9) {
         $this->cleAcces9 = $cleAcces9;
@@ -2502,6 +2517,7 @@ class Dossier1 {
      * Set the cle deblocage journaux.
      *
      * @param string $cleDeblocageJournaux The cle deblocage journaux.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCleDeblocageJournaux($cleDeblocageJournaux) {
         $this->cleDeblocageJournaux = $cleDeblocageJournaux;
@@ -2512,6 +2528,7 @@ class Dossier1 {
      * Set the cle portable.
      *
      * @param string $clePortable The cle portable.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setClePortable($clePortable) {
         $this->clePortable = $clePortable;
@@ -2522,6 +2539,7 @@ class Dossier1 {
      * Set the code equipe.
      *
      * @param string $codeEquipe The code equipe.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCodeEquipe($codeEquipe) {
         $this->codeEquipe = $codeEquipe;
@@ -2532,6 +2550,7 @@ class Dossier1 {
      * Set the code naf.
      *
      * @param string $codeNaf The code naf.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCodeNaf($codeNaf) {
         $this->codeNaf = $codeNaf;
@@ -2542,6 +2561,7 @@ class Dossier1 {
      * Set the code naf2008.
      *
      * @param string $codeNaf2008 The code naf2008.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCodeNaf2008($codeNaf2008) {
         $this->codeNaf2008 = $codeNaf2008;
@@ -2552,6 +2572,7 @@ class Dossier1 {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -2562,6 +2583,7 @@ class Dossier1 {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -2572,6 +2594,7 @@ class Dossier1 {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -2582,6 +2605,7 @@ class Dossier1 {
      * Set the copie backup.
      *
      * @param string $copieBackup The copie backup.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCopieBackup($copieBackup) {
         $this->copieBackup = $copieBackup;
@@ -2592,6 +2616,7 @@ class Dossier1 {
      * Set the cpt deb suivi classe0.
      *
      * @param string $cptDebSuiviClasse0 The cpt deb suivi classe0.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptDebSuiviClasse0($cptDebSuiviClasse0) {
         $this->cptDebSuiviClasse0 = $cptDebSuiviClasse0;
@@ -2602,6 +2627,7 @@ class Dossier1 {
      * Set the cpt deb suivi classe1.
      *
      * @param string $cptDebSuiviClasse1 The cpt deb suivi classe1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptDebSuiviClasse1($cptDebSuiviClasse1) {
         $this->cptDebSuiviClasse1 = $cptDebSuiviClasse1;
@@ -2612,6 +2638,7 @@ class Dossier1 {
      * Set the cpt deb suivi classe2.
      *
      * @param string $cptDebSuiviClasse2 The cpt deb suivi classe2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptDebSuiviClasse2($cptDebSuiviClasse2) {
         $this->cptDebSuiviClasse2 = $cptDebSuiviClasse2;
@@ -2622,6 +2649,7 @@ class Dossier1 {
      * Set the cpt deb suivi classe3.
      *
      * @param string $cptDebSuiviClasse3 The cpt deb suivi classe3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptDebSuiviClasse3($cptDebSuiviClasse3) {
         $this->cptDebSuiviClasse3 = $cptDebSuiviClasse3;
@@ -2632,6 +2660,7 @@ class Dossier1 {
      * Set the cpt deb suivi classe4.
      *
      * @param string $cptDebSuiviClasse4 The cpt deb suivi classe4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptDebSuiviClasse4($cptDebSuiviClasse4) {
         $this->cptDebSuiviClasse4 = $cptDebSuiviClasse4;
@@ -2642,6 +2671,7 @@ class Dossier1 {
      * Set the cpt deb suivi classe5.
      *
      * @param string $cptDebSuiviClasse5 The cpt deb suivi classe5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptDebSuiviClasse5($cptDebSuiviClasse5) {
         $this->cptDebSuiviClasse5 = $cptDebSuiviClasse5;
@@ -2652,6 +2682,7 @@ class Dossier1 {
      * Set the cpt deb suivi classe8.
      *
      * @param string $cptDebSuiviClasse8 The cpt deb suivi classe8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptDebSuiviClasse8($cptDebSuiviClasse8) {
         $this->cptDebSuiviClasse8 = $cptDebSuiviClasse8;
@@ -2662,6 +2693,7 @@ class Dossier1 {
      * Set the cpt deb suivi classe9.
      *
      * @param string $cptDebSuiviClasse9 The cpt deb suivi classe9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptDebSuiviClasse9($cptDebSuiviClasse9) {
         $this->cptDebSuiviClasse9 = $cptDebSuiviClasse9;
@@ -2672,6 +2704,7 @@ class Dossier1 {
      * Set the cpt fin suivi classe0.
      *
      * @param string $cptFinSuiviClasse0 The cpt fin suivi classe0.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptFinSuiviClasse0($cptFinSuiviClasse0) {
         $this->cptFinSuiviClasse0 = $cptFinSuiviClasse0;
@@ -2682,6 +2715,7 @@ class Dossier1 {
      * Set the cpt fin suivi classe1.
      *
      * @param string $cptFinSuiviClasse1 The cpt fin suivi classe1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptFinSuiviClasse1($cptFinSuiviClasse1) {
         $this->cptFinSuiviClasse1 = $cptFinSuiviClasse1;
@@ -2692,6 +2726,7 @@ class Dossier1 {
      * Set the cpt fin suivi classe2.
      *
      * @param string $cptFinSuiviClasse2 The cpt fin suivi classe2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptFinSuiviClasse2($cptFinSuiviClasse2) {
         $this->cptFinSuiviClasse2 = $cptFinSuiviClasse2;
@@ -2702,6 +2737,7 @@ class Dossier1 {
      * Set the cpt fin suivi classe3.
      *
      * @param string $cptFinSuiviClasse3 The cpt fin suivi classe3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptFinSuiviClasse3($cptFinSuiviClasse3) {
         $this->cptFinSuiviClasse3 = $cptFinSuiviClasse3;
@@ -2712,6 +2748,7 @@ class Dossier1 {
      * Set the cpt fin suivi classe4.
      *
      * @param string $cptFinSuiviClasse4 The cpt fin suivi classe4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptFinSuiviClasse4($cptFinSuiviClasse4) {
         $this->cptFinSuiviClasse4 = $cptFinSuiviClasse4;
@@ -2722,6 +2759,7 @@ class Dossier1 {
      * Set the cpt fin suivi classe5.
      *
      * @param string $cptFinSuiviClasse5 The cpt fin suivi classe5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptFinSuiviClasse5($cptFinSuiviClasse5) {
         $this->cptFinSuiviClasse5 = $cptFinSuiviClasse5;
@@ -2732,6 +2770,7 @@ class Dossier1 {
      * Set the cpt fin suivi classe8.
      *
      * @param string $cptFinSuiviClasse8 The cpt fin suivi classe8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptFinSuiviClasse8($cptFinSuiviClasse8) {
         $this->cptFinSuiviClasse8 = $cptFinSuiviClasse8;
@@ -2742,6 +2781,7 @@ class Dossier1 {
      * Set the cpt fin suivi classe9.
      *
      * @param string $cptFinSuiviClasse9 The cpt fin suivi classe9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCptFinSuiviClasse9($cptFinSuiviClasse9) {
         $this->cptFinSuiviClasse9 = $cptFinSuiviClasse9;
@@ -2752,6 +2792,7 @@ class Dossier1 {
      * Set the createur dossier.
      *
      * @param string $createurDossier The createur dossier.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setCreateurDossier($createurDossier) {
         $this->createurDossier = $createurDossier;
@@ -2762,6 +2803,7 @@ class Dossier1 {
      * Set the date limite saisie.
      *
      * @param DateTime|null $dateLimiteSaisie The date limite saisie.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDateLimiteSaisie(DateTime $dateLimiteSaisie = null) {
         $this->dateLimiteSaisie = $dateLimiteSaisie;
@@ -2772,6 +2814,7 @@ class Dossier1 {
      * Set the date sys changt ex.
      *
      * @param DateTime|null $dateSysChangtEx The date sys changt ex.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDateSysChangtEx(DateTime $dateSysChangtEx = null) {
         $this->dateSysChangtEx = $dateSysChangtEx;
@@ -2782,6 +2825,7 @@ class Dossier1 {
      * Set the date sys cloture periode.
      *
      * @param DateTime|null $dateSysCloturePeriode The date sys cloture periode.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDateSysCloturePeriode(DateTime $dateSysCloturePeriode = null) {
         $this->dateSysCloturePeriode = $dateSysCloturePeriode;
@@ -2792,6 +2836,7 @@ class Dossier1 {
      * Set the date sys creation.
      *
      * @param DateTime|null $dateSysCreation The date sys creation.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDateSysCreation(DateTime $dateSysCreation = null) {
         $this->dateSysCreation = $dateSysCreation;
@@ -2802,6 +2847,7 @@ class Dossier1 {
      * Set the date travail.
      *
      * @param DateTime|null $dateTravail The date travail.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDateTravail(DateTime $dateTravail = null) {
         $this->dateTravail = $dateTravail;
@@ -2812,6 +2858,7 @@ class Dossier1 {
      * Set the debut exercice.
      *
      * @param DateTime|null $debutExercice The debut exercice.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDebutExercice(DateTime $debutExercice = null) {
         $this->debutExercice = $debutExercice;
@@ -2822,6 +2869,7 @@ class Dossier1 {
      * Set the debut exercice1.
      *
      * @param DateTime|null $debutExercice1 The debut exercice1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDebutExercice1(DateTime $debutExercice1 = null) {
         $this->debutExercice1 = $debutExercice1;
@@ -2832,6 +2880,7 @@ class Dossier1 {
      * Set the delai limite saisie.
      *
      * @param int $delaiLimiteSaisie The delai limite saisie.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDelaiLimiteSaisie($delaiLimiteSaisie) {
         $this->delaiLimiteSaisie = $delaiLimiteSaisie;
@@ -2842,6 +2891,7 @@ class Dossier1 {
      * Set the dlu.
      *
      * @param string $dlu The dlu.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDlu($dlu) {
         $this->dlu = $dlu;
@@ -2852,6 +2902,7 @@ class Dossier1 {
      * Set the droit creation type cpt1.
      *
      * @param string $droitCreationTypeCpt1 The droit creation type cpt1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt1($droitCreationTypeCpt1) {
         $this->droitCreationTypeCpt1 = $droitCreationTypeCpt1;
@@ -2862,6 +2913,7 @@ class Dossier1 {
      * Set the droit creation type cpt10.
      *
      * @param string $droitCreationTypeCpt10 The droit creation type cpt10.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt10($droitCreationTypeCpt10) {
         $this->droitCreationTypeCpt10 = $droitCreationTypeCpt10;
@@ -2872,6 +2924,7 @@ class Dossier1 {
      * Set the droit creation type cpt2.
      *
      * @param string $droitCreationTypeCpt2 The droit creation type cpt2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt2($droitCreationTypeCpt2) {
         $this->droitCreationTypeCpt2 = $droitCreationTypeCpt2;
@@ -2882,6 +2935,7 @@ class Dossier1 {
      * Set the droit creation type cpt3.
      *
      * @param string $droitCreationTypeCpt3 The droit creation type cpt3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt3($droitCreationTypeCpt3) {
         $this->droitCreationTypeCpt3 = $droitCreationTypeCpt3;
@@ -2892,6 +2946,7 @@ class Dossier1 {
      * Set the droit creation type cpt4.
      *
      * @param string $droitCreationTypeCpt4 The droit creation type cpt4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt4($droitCreationTypeCpt4) {
         $this->droitCreationTypeCpt4 = $droitCreationTypeCpt4;
@@ -2902,6 +2957,7 @@ class Dossier1 {
      * Set the droit creation type cpt5.
      *
      * @param string $droitCreationTypeCpt5 The droit creation type cpt5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt5($droitCreationTypeCpt5) {
         $this->droitCreationTypeCpt5 = $droitCreationTypeCpt5;
@@ -2912,6 +2968,7 @@ class Dossier1 {
      * Set the droit creation type cpt6.
      *
      * @param string $droitCreationTypeCpt6 The droit creation type cpt6.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt6($droitCreationTypeCpt6) {
         $this->droitCreationTypeCpt6 = $droitCreationTypeCpt6;
@@ -2922,6 +2979,7 @@ class Dossier1 {
      * Set the droit creation type cpt7.
      *
      * @param string $droitCreationTypeCpt7 The droit creation type cpt7.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt7($droitCreationTypeCpt7) {
         $this->droitCreationTypeCpt7 = $droitCreationTypeCpt7;
@@ -2932,6 +2990,7 @@ class Dossier1 {
      * Set the droit creation type cpt8.
      *
      * @param string $droitCreationTypeCpt8 The droit creation type cpt8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt8($droitCreationTypeCpt8) {
         $this->droitCreationTypeCpt8 = $droitCreationTypeCpt8;
@@ -2942,6 +3001,7 @@ class Dossier1 {
      * Set the droit creation type cpt9.
      *
      * @param string $droitCreationTypeCpt9 The droit creation type cpt9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDroitCreationTypeCpt9($droitCreationTypeCpt9) {
         $this->droitCreationTypeCpt9 = $droitCreationTypeCpt9;
@@ -2952,6 +3012,7 @@ class Dossier1 {
      * Set the duree exercice.
      *
      * @param string $dureeExercice The duree exercice.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDureeExercice($dureeExercice) {
         $this->dureeExercice = $dureeExercice;
@@ -2962,6 +3023,7 @@ class Dossier1 {
      * Set the duree exercice1.
      *
      * @param string $dureeExercice1 The duree exercice1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setDureeExercice1($dureeExercice1) {
         $this->dureeExercice1 = $dureeExercice1;
@@ -2972,6 +3034,7 @@ class Dossier1 {
      * Set the edit date systeme.
      *
      * @param bool $editDateSysteme The edit date systeme.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setEditDateSysteme($editDateSysteme) {
         $this->editDateSysteme = $editDateSysteme;
@@ -2982,6 +3045,7 @@ class Dossier1 {
      * Set the edit page garde.
      *
      * @param bool $editPageGarde The edit page garde.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setEditPageGarde($editPageGarde) {
         $this->editPageGarde = $editPageGarde;
@@ -2992,6 +3056,7 @@ class Dossier1 {
      * Set the enseigne.
      *
      * @param string $enseigne The enseigne.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setEnseigne($enseigne) {
         $this->enseigne = $enseigne;
@@ -3002,6 +3067,7 @@ class Dossier1 {
      * Set the euro ou franc.
      *
      * @param string $euroOuFranc The euro ou franc.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setEuroOuFranc($euroOuFranc) {
         $this->euroOuFranc = $euroOuFranc;
@@ -3012,6 +3078,7 @@ class Dossier1 {
      * Set the famille1.
      *
      * @param string $famille1 The famille1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille1($famille1) {
         $this->famille1 = $famille1;
@@ -3022,6 +3089,7 @@ class Dossier1 {
      * Set the famille10.
      *
      * @param string $famille10 The famille10.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille10($famille10) {
         $this->famille10 = $famille10;
@@ -3032,6 +3100,7 @@ class Dossier1 {
      * Set the famille2.
      *
      * @param string $famille2 The famille2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille2($famille2) {
         $this->famille2 = $famille2;
@@ -3042,6 +3111,7 @@ class Dossier1 {
      * Set the famille3.
      *
      * @param string $famille3 The famille3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille3($famille3) {
         $this->famille3 = $famille3;
@@ -3052,6 +3122,7 @@ class Dossier1 {
      * Set the famille4.
      *
      * @param string $famille4 The famille4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille4($famille4) {
         $this->famille4 = $famille4;
@@ -3062,6 +3133,7 @@ class Dossier1 {
      * Set the famille5.
      *
      * @param string $famille5 The famille5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille5($famille5) {
         $this->famille5 = $famille5;
@@ -3072,6 +3144,7 @@ class Dossier1 {
      * Set the famille6.
      *
      * @param string $famille6 The famille6.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille6($famille6) {
         $this->famille6 = $famille6;
@@ -3082,6 +3155,7 @@ class Dossier1 {
      * Set the famille7.
      *
      * @param string $famille7 The famille7.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille7($famille7) {
         $this->famille7 = $famille7;
@@ -3092,6 +3166,7 @@ class Dossier1 {
      * Set the famille8.
      *
      * @param string $famille8 The famille8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille8($famille8) {
         $this->famille8 = $famille8;
@@ -3102,6 +3177,7 @@ class Dossier1 {
      * Set the famille9.
      *
      * @param string $famille9 The famille9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamille9($famille9) {
         $this->famille9 = $famille9;
@@ -3112,6 +3188,7 @@ class Dossier1 {
      * Set the famille analytique.
      *
      * @param string $familleAnalytique The famille analytique.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFamilleAnalytique($familleAnalytique) {
         $this->familleAnalytique = $familleAnalytique;
@@ -3122,6 +3199,7 @@ class Dossier1 {
      * Set the fin exercice.
      *
      * @param DateTime|null $finExercice The fin exercice.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFinExercice(DateTime $finExercice = null) {
         $this->finExercice = $finExercice;
@@ -3132,6 +3210,7 @@ class Dossier1 {
      * Set the fin exercice1.
      *
      * @param DateTime|null $finExercice1 The fin exercice1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setFinExercice1(DateTime $finExercice1 = null) {
         $this->finExercice1 = $finExercice1;
@@ -3142,6 +3221,7 @@ class Dossier1 {
      * Set the gestion compta eco.
      *
      * @param bool $gestionComptaEco The gestion compta eco.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setGestionComptaEco($gestionComptaEco) {
         $this->gestionComptaEco = $gestionComptaEco;
@@ -3152,6 +3232,7 @@ class Dossier1 {
      * Set the groupe app clients.
      *
      * @param string $groupeAppClients The groupe app clients.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setGroupeAppClients($groupeAppClients) {
         $this->groupeAppClients = $groupeAppClients;
@@ -3162,6 +3243,7 @@ class Dossier1 {
      * Set the lr active.
      *
      * @param bool $lrActive The lr active.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setLrActive($lrActive) {
         $this->lrActive = $lrActive;
@@ -3172,6 +3254,7 @@ class Dossier1 {
      * Set the lr periode.
      *
      * @param DateTime|null $lrPeriode The lr periode.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setLrPeriode(DateTime $lrPeriode = null) {
         $this->lrPeriode = $lrPeriode;
@@ -3182,6 +3265,7 @@ class Dossier1 {
      * Set the module agr actif.
      *
      * @param bool $moduleAgrActif The module agr actif.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setModuleAgrActif($moduleAgrActif) {
         $this->moduleAgrActif = $moduleAgrActif;
@@ -3192,6 +3276,7 @@ class Dossier1 {
      * Set the multi dossiers.
      *
      * @param bool $multiDossiers The multi dossiers.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setMultiDossiers($multiDossiers) {
         $this->multiDossiers = $multiDossiers;
@@ -3202,6 +3287,7 @@ class Dossier1 {
      * Set the nature menu1.
      *
      * @param string $natureMenu1 The nature menu1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu1($natureMenu1) {
         $this->natureMenu1 = $natureMenu1;
@@ -3212,6 +3298,7 @@ class Dossier1 {
      * Set the nature menu10.
      *
      * @param string $natureMenu10 The nature menu10.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu10($natureMenu10) {
         $this->natureMenu10 = $natureMenu10;
@@ -3222,6 +3309,7 @@ class Dossier1 {
      * Set the nature menu2.
      *
      * @param string $natureMenu2 The nature menu2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu2($natureMenu2) {
         $this->natureMenu2 = $natureMenu2;
@@ -3232,6 +3320,7 @@ class Dossier1 {
      * Set the nature menu3.
      *
      * @param string $natureMenu3 The nature menu3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu3($natureMenu3) {
         $this->natureMenu3 = $natureMenu3;
@@ -3242,6 +3331,7 @@ class Dossier1 {
      * Set the nature menu4.
      *
      * @param string $natureMenu4 The nature menu4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu4($natureMenu4) {
         $this->natureMenu4 = $natureMenu4;
@@ -3252,6 +3342,7 @@ class Dossier1 {
      * Set the nature menu5.
      *
      * @param string $natureMenu5 The nature menu5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu5($natureMenu5) {
         $this->natureMenu5 = $natureMenu5;
@@ -3262,6 +3353,7 @@ class Dossier1 {
      * Set the nature menu6.
      *
      * @param string $natureMenu6 The nature menu6.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu6($natureMenu6) {
         $this->natureMenu6 = $natureMenu6;
@@ -3272,6 +3364,7 @@ class Dossier1 {
      * Set the nature menu7.
      *
      * @param string $natureMenu7 The nature menu7.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu7($natureMenu7) {
         $this->natureMenu7 = $natureMenu7;
@@ -3282,6 +3375,7 @@ class Dossier1 {
      * Set the nature menu8.
      *
      * @param string $natureMenu8 The nature menu8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu8($natureMenu8) {
         $this->natureMenu8 = $natureMenu8;
@@ -3292,6 +3386,7 @@ class Dossier1 {
      * Set the nature menu9.
      *
      * @param string $natureMenu9 The nature menu9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureMenu9($natureMenu9) {
         $this->natureMenu9 = $natureMenu9;
@@ -3302,6 +3397,7 @@ class Dossier1 {
      * Set the nature regle1.
      *
      * @param string $natureRegle1 The nature regle1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle1($natureRegle1) {
         $this->natureRegle1 = $natureRegle1;
@@ -3312,6 +3408,7 @@ class Dossier1 {
      * Set the nature regle10.
      *
      * @param string $natureRegle10 The nature regle10.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle10($natureRegle10) {
         $this->natureRegle10 = $natureRegle10;
@@ -3322,6 +3419,7 @@ class Dossier1 {
      * Set the nature regle2.
      *
      * @param string $natureRegle2 The nature regle2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle2($natureRegle2) {
         $this->natureRegle2 = $natureRegle2;
@@ -3332,6 +3430,7 @@ class Dossier1 {
      * Set the nature regle3.
      *
      * @param string $natureRegle3 The nature regle3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle3($natureRegle3) {
         $this->natureRegle3 = $natureRegle3;
@@ -3342,6 +3441,7 @@ class Dossier1 {
      * Set the nature regle4.
      *
      * @param string $natureRegle4 The nature regle4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle4($natureRegle4) {
         $this->natureRegle4 = $natureRegle4;
@@ -3352,6 +3452,7 @@ class Dossier1 {
      * Set the nature regle5.
      *
      * @param string $natureRegle5 The nature regle5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle5($natureRegle5) {
         $this->natureRegle5 = $natureRegle5;
@@ -3362,6 +3463,7 @@ class Dossier1 {
      * Set the nature regle6.
      *
      * @param string $natureRegle6 The nature regle6.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle6($natureRegle6) {
         $this->natureRegle6 = $natureRegle6;
@@ -3372,6 +3474,7 @@ class Dossier1 {
      * Set the nature regle7.
      *
      * @param string $natureRegle7 The nature regle7.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle7($natureRegle7) {
         $this->natureRegle7 = $natureRegle7;
@@ -3382,6 +3485,7 @@ class Dossier1 {
      * Set the nature regle8.
      *
      * @param string $natureRegle8 The nature regle8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle8($natureRegle8) {
         $this->natureRegle8 = $natureRegle8;
@@ -3392,6 +3496,7 @@ class Dossier1 {
      * Set the nature regle9.
      *
      * @param string $natureRegle9 The nature regle9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNatureRegle9($natureRegle9) {
         $this->natureRegle9 = $natureRegle9;
@@ -3402,6 +3507,7 @@ class Dossier1 {
      * Set the niveau analytique.
      *
      * @param int $niveauAnalytique The niveau analytique.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauAnalytique($niveauAnalytique) {
         $this->niveauAnalytique = $niveauAnalytique;
@@ -3412,6 +3518,7 @@ class Dossier1 {
      * Set the niveau droit1.
      *
      * @param string $niveauDroit1 The niveau droit1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit1($niveauDroit1) {
         $this->niveauDroit1 = $niveauDroit1;
@@ -3422,6 +3529,7 @@ class Dossier1 {
      * Set the niveau droit10.
      *
      * @param string $niveauDroit10 The niveau droit10.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit10($niveauDroit10) {
         $this->niveauDroit10 = $niveauDroit10;
@@ -3432,6 +3540,7 @@ class Dossier1 {
      * Set the niveau droit2.
      *
      * @param string $niveauDroit2 The niveau droit2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit2($niveauDroit2) {
         $this->niveauDroit2 = $niveauDroit2;
@@ -3442,6 +3551,7 @@ class Dossier1 {
      * Set the niveau droit3.
      *
      * @param string $niveauDroit3 The niveau droit3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit3($niveauDroit3) {
         $this->niveauDroit3 = $niveauDroit3;
@@ -3452,6 +3562,7 @@ class Dossier1 {
      * Set the niveau droit4.
      *
      * @param string $niveauDroit4 The niveau droit4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit4($niveauDroit4) {
         $this->niveauDroit4 = $niveauDroit4;
@@ -3462,6 +3573,7 @@ class Dossier1 {
      * Set the niveau droit5.
      *
      * @param string $niveauDroit5 The niveau droit5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit5($niveauDroit5) {
         $this->niveauDroit5 = $niveauDroit5;
@@ -3472,6 +3584,7 @@ class Dossier1 {
      * Set the niveau droit6.
      *
      * @param string $niveauDroit6 The niveau droit6.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit6($niveauDroit6) {
         $this->niveauDroit6 = $niveauDroit6;
@@ -3482,6 +3595,7 @@ class Dossier1 {
      * Set the niveau droit7.
      *
      * @param string $niveauDroit7 The niveau droit7.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit7($niveauDroit7) {
         $this->niveauDroit7 = $niveauDroit7;
@@ -3492,6 +3606,7 @@ class Dossier1 {
      * Set the niveau droit8.
      *
      * @param string $niveauDroit8 The niveau droit8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit8($niveauDroit8) {
         $this->niveauDroit8 = $niveauDroit8;
@@ -3502,6 +3617,7 @@ class Dossier1 {
      * Set the niveau droit9.
      *
      * @param string $niveauDroit9 The niveau droit9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNiveauDroit9($niveauDroit9) {
         $this->niveauDroit9 = $niveauDroit9;
@@ -3512,6 +3628,7 @@ class Dossier1 {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -3522,6 +3639,7 @@ class Dossier1 {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -3532,6 +3650,7 @@ class Dossier1 {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -3542,6 +3661,7 @@ class Dossier1 {
      * Set the pas ecriture rb.
      *
      * @param bool $pasEcritureRb The pas ecriture rb.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setPasEcritureRb($pasEcritureRb) {
         $this->pasEcritureRb = $pasEcritureRb;
@@ -3552,6 +3672,7 @@ class Dossier1 {
      * Set the pas modif rib regl.
      *
      * @param bool $pasModifRibRegl The pas modif rib regl.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setPasModifRibRegl($pasModifRibRegl) {
         $this->pasModifRibRegl = $pasModifRibRegl;
@@ -3562,6 +3683,7 @@ class Dossier1 {
      * Set the periode cloturee.
      *
      * @param DateTime|null $periodeCloturee The periode cloturee.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setPeriodeCloturee(DateTime $periodeCloturee = null) {
         $this->periodeCloturee = $periodeCloturee;
@@ -3572,6 +3694,7 @@ class Dossier1 {
      * Set the periode validee.
      *
      * @param DateTime|null $periodeValidee The periode validee.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setPeriodeValidee(DateTime $periodeValidee = null) {
         $this->periodeValidee = $periodeValidee;
@@ -3582,6 +3705,7 @@ class Dossier1 {
      * Set the prochain num piece.
      *
      * @param int $prochainNumPiece The prochain num piece.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setProchainNumPiece($prochainNumPiece) {
         $this->prochainNumPiece = $prochainNumPiece;
@@ -3592,6 +3716,7 @@ class Dossier1 {
      * Set the raison sociale.
      *
      * @param string $raisonSociale The raison sociale.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setRaisonSociale($raisonSociale) {
         $this->raisonSociale = $raisonSociale;
@@ -3602,6 +3727,7 @@ class Dossier1 {
      * Set the rc.
      *
      * @param string $rc The rc.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setRc($rc) {
         $this->rc = $rc;
@@ -3612,6 +3738,7 @@ class Dossier1 {
      * Set the saisie immo en ecriture.
      *
      * @param bool $saisieImmoEnEcriture The saisie immo en ecriture.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSaisieImmoEnEcriture($saisieImmoEnEcriture) {
         $this->saisieImmoEnEcriture = $saisieImmoEnEcriture;
@@ -3622,6 +3749,7 @@ class Dossier1 {
      * Set the sauve commun.
      *
      * @param bool $sauveCommun The sauve commun.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSauveCommun($sauveCommun) {
         $this->sauveCommun = $sauveCommun;
@@ -3632,6 +3760,7 @@ class Dossier1 {
      * Set the sauve compresse.
      *
      * @param bool $sauveCompresse The sauve compresse.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSauveCompresse($sauveCompresse) {
         $this->sauveCompresse = $sauveCompresse;
@@ -3642,6 +3771,7 @@ class Dossier1 {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -3652,6 +3782,7 @@ class Dossier1 {
      * Set the suivi aff tout.
      *
      * @param bool $suiviAffTout The suivi aff tout.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAffTout($suiviAffTout) {
         $this->suiviAffTout = $suiviAffTout;
@@ -3662,6 +3793,7 @@ class Dossier1 {
      * Set the suivi ana2.
      *
      * @param string $suiviAna2 The suivi ana2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAna2($suiviAna2) {
         $this->suiviAna2 = $suiviAna2;
@@ -3672,6 +3804,7 @@ class Dossier1 {
      * Set the suivi ana classe0.
      *
      * @param bool $suiviAnaClasse0 The suivi ana classe0.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaClasse0($suiviAnaClasse0) {
         $this->suiviAnaClasse0 = $suiviAnaClasse0;
@@ -3682,6 +3815,7 @@ class Dossier1 {
      * Set the suivi ana classe1.
      *
      * @param bool $suiviAnaClasse1 The suivi ana classe1.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaClasse1($suiviAnaClasse1) {
         $this->suiviAnaClasse1 = $suiviAnaClasse1;
@@ -3692,6 +3826,7 @@ class Dossier1 {
      * Set the suivi ana classe2.
      *
      * @param bool $suiviAnaClasse2 The suivi ana classe2.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaClasse2($suiviAnaClasse2) {
         $this->suiviAnaClasse2 = $suiviAnaClasse2;
@@ -3702,6 +3837,7 @@ class Dossier1 {
      * Set the suivi ana classe3.
      *
      * @param bool $suiviAnaClasse3 The suivi ana classe3.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaClasse3($suiviAnaClasse3) {
         $this->suiviAnaClasse3 = $suiviAnaClasse3;
@@ -3712,6 +3848,7 @@ class Dossier1 {
      * Set the suivi ana classe4.
      *
      * @param bool $suiviAnaClasse4 The suivi ana classe4.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaClasse4($suiviAnaClasse4) {
         $this->suiviAnaClasse4 = $suiviAnaClasse4;
@@ -3722,6 +3859,7 @@ class Dossier1 {
      * Set the suivi ana classe5.
      *
      * @param bool $suiviAnaClasse5 The suivi ana classe5.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaClasse5($suiviAnaClasse5) {
         $this->suiviAnaClasse5 = $suiviAnaClasse5;
@@ -3732,6 +3870,7 @@ class Dossier1 {
      * Set the suivi ana classe8.
      *
      * @param bool $suiviAnaClasse8 The suivi ana classe8.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaClasse8($suiviAnaClasse8) {
         $this->suiviAnaClasse8 = $suiviAnaClasse8;
@@ -3742,6 +3881,7 @@ class Dossier1 {
      * Set the suivi ana classe9.
      *
      * @param bool $suiviAnaClasse9 The suivi ana classe9.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaClasse9($suiviAnaClasse9) {
         $this->suiviAnaClasse9 = $suiviAnaClasse9;
@@ -3752,6 +3892,7 @@ class Dossier1 {
      * Set the suivi ana facultatif.
      *
      * @param bool $suiviAnaFacultatif The suivi ana facultatif.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setSuiviAnaFacultatif($suiviAnaFacultatif) {
         $this->suiviAnaFacultatif = $suiviAnaFacultatif;
@@ -3762,6 +3903,7 @@ class Dossier1 {
      * Set the tva cle.
      *
      * @param string $tvaCle The tva cle.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setTvaCle($tvaCle) {
         $this->tvaCle = $tvaCle;
@@ -3772,6 +3914,7 @@ class Dossier1 {
      * Set the tva code dossier.
      *
      * @param string $tvaCodeDossier The tva code dossier.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setTvaCodeDossier($tvaCodeDossier) {
         $this->tvaCodeDossier = $tvaCodeDossier;
@@ -3782,6 +3925,7 @@ class Dossier1 {
      * Set the tva code recette.
      *
      * @param string $tvaCodeRecette The tva code recette.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setTvaCodeRecette($tvaCodeRecette) {
         $this->tvaCodeRecette = $tvaCodeRecette;
@@ -3792,6 +3936,7 @@ class Dossier1 {
      * Set the ventilations communes.
      *
      * @param bool $ventilationsCommunes The ventilations communes.
+     * @return Dossier1 Returns this Dossier1.
      */
     public function setVentilationsCommunes($ventilationsCommunes) {
         $this->ventilationsCommunes = $ventilationsCommunes;

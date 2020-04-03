@@ -96,6 +96,7 @@ class HistoPaieHSup {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HistoPaieHSup Returns this Histo paie h sup.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -106,6 +107,7 @@ class HistoPaieHSup {
      * Set the nb h sup.
      *
      * @param float $nbHSup The nb h sup.
+     * @return HistoPaieHSup Returns this Histo paie h sup.
      */
     public function setNbHSup($nbHSup) {
         $this->nbHSup = $nbHSup;
@@ -116,6 +118,7 @@ class HistoPaieHSup {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HistoPaieHSup Returns this Histo paie h sup.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -126,6 +129,7 @@ class HistoPaieHSup {
      * Set the pourcent h sup.
      *
      * @param float $pourcentHSup The pourcent h sup.
+     * @return HistoPaieHSup Returns this Histo paie h sup.
      */
     public function setPourcentHSup($pourcentHSup) {
         $this->pourcentHSup = $pourcentHSup;

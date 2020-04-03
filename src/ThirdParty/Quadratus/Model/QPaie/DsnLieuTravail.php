@@ -254,6 +254,7 @@ class DsnLieuTravail {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -264,6 +265,7 @@ class DsnLieuTravail {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -274,6 +276,7 @@ class DsnLieuTravail {
      * Set the code distribution.
      *
      * @param string $codeDistribution The code distribution.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setCodeDistribution($codeDistribution) {
         $this->codeDistribution = $codeDistribution;
@@ -284,6 +287,7 @@ class DsnLieuTravail {
      * Set the code insee.
      *
      * @param string $codeInsee The code insee.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setCodeInsee($codeInsee) {
         $this->codeInsee = $codeInsee;
@@ -294,6 +298,7 @@ class DsnLieuTravail {
      * Set the code naf.
      *
      * @param string $codeNaf The code naf.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setCodeNaf($codeNaf) {
         $this->codeNaf = $codeNaf;
@@ -304,6 +309,7 @@ class DsnLieuTravail {
      * Set the code pays.
      *
      * @param string $codePays The code pays.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setCodePays($codePays) {
         $this->codePays = $codePays;
@@ -314,6 +320,7 @@ class DsnLieuTravail {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -324,6 +331,7 @@ class DsnLieuTravail {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -334,6 +342,7 @@ class DsnLieuTravail {
      * Set the complement voie.
      *
      * @param string $complementVoie The complement voie.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setComplementVoie($complementVoie) {
         $this->complementVoie = $complementVoie;
@@ -344,6 +353,7 @@ class DsnLieuTravail {
      * Set the id.
      *
      * @param string $id The id.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setId($id) {
         $this->id = $id;
@@ -354,6 +364,7 @@ class DsnLieuTravail {
      * Set the nature juridique.
      *
      * @param string $natureJuridique The nature juridique.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setNatureJuridique($natureJuridique) {
         $this->natureJuridique = $natureJuridique;
@@ -364,6 +375,7 @@ class DsnLieuTravail {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -374,6 +386,7 @@ class DsnLieuTravail {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -384,6 +397,7 @@ class DsnLieuTravail {
      * Set the raison sociale.
      *
      * @param string $raisonSociale The raison sociale.
+     * @return DsnLieuTravail Returns this Dsn lieu travail.
      */
     public function setRaisonSociale($raisonSociale) {
         $this->raisonSociale = $raisonSociale;

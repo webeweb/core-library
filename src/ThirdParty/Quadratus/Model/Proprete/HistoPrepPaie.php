@@ -1024,6 +1024,7 @@ class HistoPrepPaie {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -1034,6 +1035,7 @@ class HistoPrepPaie {
      * Set the contingent h sup repos comp.
      *
      * @param float $contingentHSupReposComp The contingent h sup repos comp.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setContingentHSupReposComp($contingentHSupReposComp) {
         $this->contingentHSupReposComp = $contingentHSupReposComp;
@@ -1044,6 +1046,7 @@ class HistoPrepPaie {
      * Set the droit cp.
      *
      * @param float $droitCp The droit cp.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setDroitCp($droitCp) {
         $this->droitCp = $droitCp;
@@ -1054,6 +1057,7 @@ class HistoPrepPaie {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -1064,6 +1068,7 @@ class HistoPrepPaie {
      * Set the h prev.
      *
      * @param float $hPrev The h prev.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHPrev($hPrev) {
         $this->hPrev = $hPrev;
@@ -1074,6 +1079,7 @@ class HistoPrepPaie {
      * Set the h rempl.
      *
      * @param float $hRempl The h rempl.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHRempl($hRempl) {
         $this->hRempl = $hRempl;
@@ -1084,6 +1090,7 @@ class HistoPrepPaie {
      * Set the h surcroit.
      *
      * @param float $hSurcroit The h surcroit.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHSurcroit($hSurcroit) {
         $this->hSurcroit = $hSurcroit;
@@ -1094,6 +1101,7 @@ class HistoPrepPaie {
      * Set the habs0.
      *
      * @param float $habs0 The habs0.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs0($habs0) {
         $this->habs0 = $habs0;
@@ -1104,6 +1112,7 @@ class HistoPrepPaie {
      * Set the habs1.
      *
      * @param float $habs1 The habs1.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs1($habs1) {
         $this->habs1 = $habs1;
@@ -1114,6 +1123,7 @@ class HistoPrepPaie {
      * Set the habs2.
      *
      * @param float $habs2 The habs2.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs2($habs2) {
         $this->habs2 = $habs2;
@@ -1124,6 +1134,7 @@ class HistoPrepPaie {
      * Set the habs3.
      *
      * @param float $habs3 The habs3.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs3($habs3) {
         $this->habs3 = $habs3;
@@ -1134,6 +1145,7 @@ class HistoPrepPaie {
      * Set the habs4.
      *
      * @param float $habs4 The habs4.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs4($habs4) {
         $this->habs4 = $habs4;
@@ -1144,6 +1156,7 @@ class HistoPrepPaie {
      * Set the habs5.
      *
      * @param float $habs5 The habs5.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs5($habs5) {
         $this->habs5 = $habs5;
@@ -1154,6 +1167,7 @@ class HistoPrepPaie {
      * Set the habs6.
      *
      * @param float $habs6 The habs6.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs6($habs6) {
         $this->habs6 = $habs6;
@@ -1164,6 +1178,7 @@ class HistoPrepPaie {
      * Set the habs7.
      *
      * @param float $habs7 The habs7.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs7($habs7) {
         $this->habs7 = $habs7;
@@ -1174,6 +1189,7 @@ class HistoPrepPaie {
      * Set the habs8.
      *
      * @param float $habs8 The habs8.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs8($habs8) {
         $this->habs8 = $habs8;
@@ -1184,6 +1200,7 @@ class HistoPrepPaie {
      * Set the habs9.
      *
      * @param float $habs9 The habs9.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHabs9($habs9) {
         $this->habs9 = $habs9;
@@ -1194,6 +1211,7 @@ class HistoPrepPaie {
      * Set the hacp.
      *
      * @param float $hacp The hacp.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHacp($hacp) {
         $this->hacp = $hacp;
@@ -1204,6 +1222,7 @@ class HistoPrepPaie {
      * Set the hc.
      *
      * @param float $hc The hc.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHc($hc) {
         $this->hc = $hc;
@@ -1214,6 +1233,7 @@ class HistoPrepPaie {
      * Set the heures rc acquises.
      *
      * @param float $heuresRcAcquises The heures rc acquises.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHeuresRcAcquises($heuresRcAcquises) {
         $this->heuresRcAcquises = $heuresRcAcquises;
@@ -1224,6 +1244,7 @@ class HistoPrepPaie {
      * Set the heures rr acquises.
      *
      * @param float $heuresRrAcquises The heures rr acquises.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHeuresRrAcquises($heuresRrAcquises) {
         $this->heuresRrAcquises = $heuresRrAcquises;
@@ -1234,6 +1255,7 @@ class HistoPrepPaie {
      * Set the hs1.
      *
      * @param float $hs1 The hs1.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHs1($hs1) {
         $this->hs1 = $hs1;
@@ -1244,6 +1266,7 @@ class HistoPrepPaie {
      * Set the hs2.
      *
      * @param float $hs2 The hs2.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHs2($hs2) {
         $this->hs2 = $hs2;
@@ -1254,6 +1277,7 @@ class HistoPrepPaie {
      * Set the hs3.
      *
      * @param float $hs3 The hs3.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHs3($hs3) {
         $this->hs3 = $hs3;
@@ -1264,6 +1288,7 @@ class HistoPrepPaie {
      * Set the hs35 heures.
      *
      * @param float $hs35Heures The hs35 heures.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setHs35Heures($hs35Heures) {
         $this->hs35Heures = $hs35Heures;
@@ -1274,6 +1299,7 @@ class HistoPrepPaie {
      * Set the jacp.
      *
      * @param int $jacp The jacp.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setJacp($jacp) {
         $this->jacp = $jacp;
@@ -1284,6 +1310,7 @@ class HistoPrepPaie {
      * Set the jours rtt acquis.
      *
      * @param float $joursRttAcquis The jours rtt acquis.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setJoursRttAcquis($joursRttAcquis) {
         $this->joursRttAcquis = $joursRttAcquis;
@@ -1294,6 +1321,7 @@ class HistoPrepPaie {
      * Set the mensualisation.
      *
      * @param float $mensualisation The mensualisation.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setMensualisation($mensualisation) {
         $this->mensualisation = $mensualisation;
@@ -1304,6 +1332,7 @@ class HistoPrepPaie {
      * Set the mt prime1 chantier.
      *
      * @param float $mtPrime1Chantier The mt prime1 chantier.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setMtPrime1Chantier($mtPrime1Chantier) {
         $this->mtPrime1Chantier = $mtPrime1Chantier;
@@ -1314,6 +1343,7 @@ class HistoPrepPaie {
      * Set the mt prime2 chantier.
      *
      * @param float $mtPrime2Chantier The mt prime2 chantier.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setMtPrime2Chantier($mtPrime2Chantier) {
         $this->mtPrime2Chantier = $mtPrime2Chantier;
@@ -1324,6 +1354,7 @@ class HistoPrepPaie {
      * Set the mt prime3 chantier.
      *
      * @param float $mtPrime3Chantier The mt prime3 chantier.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setMtPrime3Chantier($mtPrime3Chantier) {
         $this->mtPrime3Chantier = $mtPrime3Chantier;
@@ -1334,6 +1365,7 @@ class HistoPrepPaie {
      * Set the mt prime forfait.
      *
      * @param float $mtPrimeForfait The mt prime forfait.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setMtPrimeForfait($mtPrimeForfait) {
         $this->mtPrimeForfait = $mtPrimeForfait;
@@ -1344,6 +1376,7 @@ class HistoPrepPaie {
      * Set the nb heures rs.
      *
      * @param float $nbHeuresRs The nb heures rs.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setNbHeuresRs($nbHeuresRs) {
         $this->nbHeuresRs = $nbHeuresRs;
@@ -1354,6 +1387,7 @@ class HistoPrepPaie {
      * Set the nb heures tp.
      *
      * @param float $nbHeuresTp The nb heures tp.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setNbHeuresTp($nbHeuresTp) {
         $this->nbHeuresTp = $nbHeuresTp;
@@ -1364,6 +1398,7 @@ class HistoPrepPaie {
      * Set the nb paniers.
      *
      * @param float $nbPaniers The nb paniers.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setNbPaniers($nbPaniers) {
         $this->nbPaniers = $nbPaniers;
@@ -1374,6 +1409,7 @@ class HistoPrepPaie {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -1384,6 +1420,7 @@ class HistoPrepPaie {
      * Set the prime1.
      *
      * @param float $prime1 The prime1.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime1($prime1) {
         $this->prime1 = $prime1;
@@ -1394,6 +1431,7 @@ class HistoPrepPaie {
      * Set the prime10.
      *
      * @param float $prime10 The prime10.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime10($prime10) {
         $this->prime10 = $prime10;
@@ -1404,6 +1442,7 @@ class HistoPrepPaie {
      * Set the prime1 mai.
      *
      * @param float $prime1Mai The prime1 mai.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime1Mai($prime1Mai) {
         $this->prime1Mai = $prime1Mai;
@@ -1414,6 +1453,7 @@ class HistoPrepPaie {
      * Set the prime2.
      *
      * @param float $prime2 The prime2.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime2($prime2) {
         $this->prime2 = $prime2;
@@ -1424,6 +1464,7 @@ class HistoPrepPaie {
      * Set the prime3.
      *
      * @param float $prime3 The prime3.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime3($prime3) {
         $this->prime3 = $prime3;
@@ -1434,6 +1475,7 @@ class HistoPrepPaie {
      * Set the prime4.
      *
      * @param float $prime4 The prime4.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime4($prime4) {
         $this->prime4 = $prime4;
@@ -1444,6 +1486,7 @@ class HistoPrepPaie {
      * Set the prime5.
      *
      * @param float $prime5 The prime5.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime5($prime5) {
         $this->prime5 = $prime5;
@@ -1454,6 +1497,7 @@ class HistoPrepPaie {
      * Set the prime6.
      *
      * @param float $prime6 The prime6.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime6($prime6) {
         $this->prime6 = $prime6;
@@ -1464,6 +1508,7 @@ class HistoPrepPaie {
      * Set the prime7.
      *
      * @param float $prime7 The prime7.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime7($prime7) {
         $this->prime7 = $prime7;
@@ -1474,6 +1519,7 @@ class HistoPrepPaie {
      * Set the prime8.
      *
      * @param float $prime8 The prime8.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime8($prime8) {
         $this->prime8 = $prime8;
@@ -1484,6 +1530,7 @@ class HistoPrepPaie {
      * Set the prime9.
      *
      * @param float $prime9 The prime9.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrime9($prime9) {
         $this->prime9 = $prime9;
@@ -1494,6 +1541,7 @@ class HistoPrepPaie {
      * Set the prime h compl maj.
      *
      * @param float $primeHComplMaj The prime h compl maj.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeHComplMaj($primeHComplMaj) {
         $this->primeHComplMaj = $primeHComplMaj;
@@ -1504,6 +1552,7 @@ class HistoPrepPaie {
      * Set the prime h dim2 normal.
      *
      * @param float $primeHDim2Normal The prime h dim2 normal.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeHDim2Normal($primeHDim2Normal) {
         $this->primeHDim2Normal = $primeHDim2Normal;
@@ -1514,6 +1563,7 @@ class HistoPrepPaie {
      * Set the prime h dim except.
      *
      * @param float $primeHDimExcept The prime h dim except.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeHDimExcept($primeHDimExcept) {
         $this->primeHDimExcept = $primeHDimExcept;
@@ -1524,6 +1574,7 @@ class HistoPrepPaie {
      * Set the prime h dim normal.
      *
      * @param float $primeHDimNormal The prime h dim normal.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeHDimNormal($primeHDimNormal) {
         $this->primeHDimNormal = $primeHDimNormal;
@@ -1534,6 +1585,7 @@ class HistoPrepPaie {
      * Set the prime h nuit2 normal.
      *
      * @param float $primeHNuit2Normal The prime h nuit2 normal.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeHNuit2Normal($primeHNuit2Normal) {
         $this->primeHNuit2Normal = $primeHNuit2Normal;
@@ -1544,6 +1596,7 @@ class HistoPrepPaie {
      * Set the prime h nuit except.
      *
      * @param float $primeHNuitExcept The prime h nuit except.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeHNuitExcept($primeHNuitExcept) {
         $this->primeHNuitExcept = $primeHNuitExcept;
@@ -1554,6 +1607,7 @@ class HistoPrepPaie {
      * Set the prime h nuit normal.
      *
      * @param float $primeHNuitNormal The prime h nuit normal.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeHNuitNormal($primeHNuitNormal) {
         $this->primeHNuitNormal = $primeHNuitNormal;
@@ -1564,6 +1618,7 @@ class HistoPrepPaie {
      * Set the prime jf2 normal.
      *
      * @param float $primeJf2Normal The prime jf2 normal.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeJf2Normal($primeJf2Normal) {
         $this->primeJf2Normal = $primeJf2Normal;
@@ -1574,6 +1629,7 @@ class HistoPrepPaie {
      * Set the prime jf except.
      *
      * @param float $primeJfExcept The prime jf except.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeJfExcept($primeJfExcept) {
         $this->primeJfExcept = $primeJfExcept;
@@ -1584,6 +1640,7 @@ class HistoPrepPaie {
      * Set the prime jf normal.
      *
      * @param float $primeJfNormal The prime jf normal.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setPrimeJfNormal($primeJfNormal) {
         $this->primeJfNormal = $primeJfNormal;
@@ -1594,6 +1651,7 @@ class HistoPrepPaie {
      * Set the temps passe.
      *
      * @param float $tempsPasse The temps passe.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setTempsPasse($tempsPasse) {
         $this->tempsPasse = $tempsPasse;
@@ -1604,6 +1662,7 @@ class HistoPrepPaie {
      * Set the total h anal.
      *
      * @param float $totalHAnal The total h anal.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setTotalHAnal($totalHAnal) {
         $this->totalHAnal = $totalHAnal;
@@ -1614,6 +1673,7 @@ class HistoPrepPaie {
      * Set the tx horaire rs.
      *
      * @param float $txHoraireRs The tx horaire rs.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setTxHoraireRs($txHoraireRs) {
         $this->txHoraireRs = $txHoraireRs;
@@ -1624,6 +1684,7 @@ class HistoPrepPaie {
      * Set the tx horaire tp.
      *
      * @param float $txHoraireTp The tx horaire tp.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setTxHoraireTp($txHoraireTp) {
         $this->txHoraireTp = $txHoraireTp;
@@ -1634,6 +1695,7 @@ class HistoPrepPaie {
      * Set the ya eu saisie manuelle.
      *
      * @param bool $yaEuSaisieManuelle The ya eu saisie manuelle.
+     * @return HistoPrepPaie Returns this Histo prep paie.
      */
     public function setYaEuSaisieManuelle($yaEuSaisieManuelle) {
         $this->yaEuSaisieManuelle = $yaEuSaisieManuelle;

@@ -654,6 +654,7 @@ class AgendaConstantes {
      * Set the archivage permanent.
      *
      * @param bool $archivagePermanent The archivage permanent.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setArchivagePermanent($archivagePermanent) {
         $this->archivagePermanent = $archivagePermanent;
@@ -664,6 +665,7 @@ class AgendaConstantes {
      * Set the code activite7.
      *
      * @param string $codeActivite7 The code activite7.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCodeActivite7($codeActivite7) {
         $this->codeActivite7 = $codeActivite7;
@@ -674,6 +676,7 @@ class AgendaConstantes {
      * Set the code activite8.
      *
      * @param string $codeActivite8 The code activite8.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCodeActivite8($codeActivite8) {
         $this->codeActivite8 = $codeActivite8;
@@ -684,6 +687,7 @@ class AgendaConstantes {
      * Set the code activite9.
      *
      * @param string $codeActivite9 The code activite9.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCodeActivite9($codeActivite9) {
         $this->codeActivite9 = $codeActivite9;
@@ -694,6 +698,7 @@ class AgendaConstantes {
      * Set the couleur activite1.
      *
      * @param int $couleurActivite1 The couleur activite1.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite1($couleurActivite1) {
         $this->couleurActivite1 = $couleurActivite1;
@@ -704,6 +709,7 @@ class AgendaConstantes {
      * Set the couleur activite10.
      *
      * @param int $couleurActivite10 The couleur activite10.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite10($couleurActivite10) {
         $this->couleurActivite10 = $couleurActivite10;
@@ -714,6 +720,7 @@ class AgendaConstantes {
      * Set the couleur activite11.
      *
      * @param int $couleurActivite11 The couleur activite11.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite11($couleurActivite11) {
         $this->couleurActivite11 = $couleurActivite11;
@@ -724,6 +731,7 @@ class AgendaConstantes {
      * Set the couleur activite2.
      *
      * @param int $couleurActivite2 The couleur activite2.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite2($couleurActivite2) {
         $this->couleurActivite2 = $couleurActivite2;
@@ -734,6 +742,7 @@ class AgendaConstantes {
      * Set the couleur activite3.
      *
      * @param int $couleurActivite3 The couleur activite3.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite3($couleurActivite3) {
         $this->couleurActivite3 = $couleurActivite3;
@@ -744,6 +753,7 @@ class AgendaConstantes {
      * Set the couleur activite4.
      *
      * @param int $couleurActivite4 The couleur activite4.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite4($couleurActivite4) {
         $this->couleurActivite4 = $couleurActivite4;
@@ -754,6 +764,7 @@ class AgendaConstantes {
      * Set the couleur activite5.
      *
      * @param int $couleurActivite5 The couleur activite5.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite5($couleurActivite5) {
         $this->couleurActivite5 = $couleurActivite5;
@@ -764,6 +775,7 @@ class AgendaConstantes {
      * Set the couleur activite6.
      *
      * @param int $couleurActivite6 The couleur activite6.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite6($couleurActivite6) {
         $this->couleurActivite6 = $couleurActivite6;
@@ -774,6 +786,7 @@ class AgendaConstantes {
      * Set the couleur activite7.
      *
      * @param int $couleurActivite7 The couleur activite7.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite7($couleurActivite7) {
         $this->couleurActivite7 = $couleurActivite7;
@@ -784,6 +797,7 @@ class AgendaConstantes {
      * Set the couleur activite8.
      *
      * @param int $couleurActivite8 The couleur activite8.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite8($couleurActivite8) {
         $this->couleurActivite8 = $couleurActivite8;
@@ -794,6 +808,7 @@ class AgendaConstantes {
      * Set the couleur activite9.
      *
      * @param int $couleurActivite9 The couleur activite9.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurActivite9($couleurActivite9) {
         $this->couleurActivite9 = $couleurActivite9;
@@ -804,6 +819,7 @@ class AgendaConstantes {
      * Set the couleur calendrier.
      *
      * @param int $couleurCalendrier The couleur calendrier.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurCalendrier($couleurCalendrier) {
         $this->couleurCalendrier = $couleurCalendrier;
@@ -814,6 +830,7 @@ class AgendaConstantes {
      * Set the couleur dim j feries.
      *
      * @param int $couleurDimJFeries The couleur dim j feries.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setCouleurDimJFeries($couleurDimJFeries) {
         $this->couleurDimJFeries = $couleurDimJFeries;
@@ -824,6 +841,7 @@ class AgendaConstantes {
      * Set the disabled activity label on first row.
      *
      * @param bool $disabledActivityLabelOnFirstRow The disabled activity label on first row.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setDisabledActivityLabelOnFirstRow($disabledActivityLabelOnFirstRow) {
         $this->disabledActivityLabelOnFirstRow = $disabledActivityLabelOnFirstRow;
@@ -834,6 +852,7 @@ class AgendaConstantes {
      * Set the dossier fact pme.
      *
      * @param string $dossierFactPme The dossier fact pme.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setDossierFactPme($dossierFactPme) {
         $this->dossierFactPme = $dossierFactPme;
@@ -844,6 +863,7 @@ class AgendaConstantes {
      * Set the heure debut.
      *
      * @param string $heureDebut The heure debut.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setHeureDebut($heureDebut) {
         $this->heureDebut = $heureDebut;
@@ -854,6 +874,7 @@ class AgendaConstantes {
      * Set the heure fin.
      *
      * @param string $heureFin The heure fin.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setHeureFin($heureFin) {
         $this->heureFin = $heureFin;
@@ -864,6 +885,7 @@ class AgendaConstantes {
      * Set the libelle activite7.
      *
      * @param string $libelleActivite7 The libelle activite7.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setLibelleActivite7($libelleActivite7) {
         $this->libelleActivite7 = $libelleActivite7;
@@ -874,6 +896,7 @@ class AgendaConstantes {
      * Set the libelle activite8.
      *
      * @param string $libelleActivite8 The libelle activite8.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setLibelleActivite8($libelleActivite8) {
         $this->libelleActivite8 = $libelleActivite8;
@@ -884,6 +907,7 @@ class AgendaConstantes {
      * Set the libelle activite9.
      *
      * @param string $libelleActivite9 The libelle activite9.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setLibelleActivite9($libelleActivite9) {
         $this->libelleActivite9 = $libelleActivite9;
@@ -894,6 +918,7 @@ class AgendaConstantes {
      * Set the multi dossiers.
      *
      * @param bool $multiDossiers The multi dossiers.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setMultiDossiers($multiDossiers) {
         $this->multiDossiers = $multiDossiers;
@@ -904,6 +929,7 @@ class AgendaConstantes {
      * Set the text color activite1.
      *
      * @param int $textColorActivite1 The text color activite1.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite1($textColorActivite1) {
         $this->textColorActivite1 = $textColorActivite1;
@@ -914,6 +940,7 @@ class AgendaConstantes {
      * Set the text color activite10.
      *
      * @param int $textColorActivite10 The text color activite10.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite10($textColorActivite10) {
         $this->textColorActivite10 = $textColorActivite10;
@@ -924,6 +951,7 @@ class AgendaConstantes {
      * Set the text color activite11.
      *
      * @param int $textColorActivite11 The text color activite11.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite11($textColorActivite11) {
         $this->textColorActivite11 = $textColorActivite11;
@@ -934,6 +962,7 @@ class AgendaConstantes {
      * Set the text color activite2.
      *
      * @param int $textColorActivite2 The text color activite2.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite2($textColorActivite2) {
         $this->textColorActivite2 = $textColorActivite2;
@@ -944,6 +973,7 @@ class AgendaConstantes {
      * Set the text color activite3.
      *
      * @param int $textColorActivite3 The text color activite3.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite3($textColorActivite3) {
         $this->textColorActivite3 = $textColorActivite3;
@@ -954,6 +984,7 @@ class AgendaConstantes {
      * Set the text color activite4.
      *
      * @param int $textColorActivite4 The text color activite4.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite4($textColorActivite4) {
         $this->textColorActivite4 = $textColorActivite4;
@@ -964,6 +995,7 @@ class AgendaConstantes {
      * Set the text color activite5.
      *
      * @param int $textColorActivite5 The text color activite5.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite5($textColorActivite5) {
         $this->textColorActivite5 = $textColorActivite5;
@@ -974,6 +1006,7 @@ class AgendaConstantes {
      * Set the text color activite6.
      *
      * @param int $textColorActivite6 The text color activite6.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite6($textColorActivite6) {
         $this->textColorActivite6 = $textColorActivite6;
@@ -984,6 +1017,7 @@ class AgendaConstantes {
      * Set the text color activite7.
      *
      * @param int $textColorActivite7 The text color activite7.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite7($textColorActivite7) {
         $this->textColorActivite7 = $textColorActivite7;
@@ -994,6 +1028,7 @@ class AgendaConstantes {
      * Set the text color activite8.
      *
      * @param int $textColorActivite8 The text color activite8.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite8($textColorActivite8) {
         $this->textColorActivite8 = $textColorActivite8;
@@ -1004,6 +1039,7 @@ class AgendaConstantes {
      * Set the text color activite9.
      *
      * @param int $textColorActivite9 The text color activite9.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorActivite9($textColorActivite9) {
         $this->textColorActivite9 = $textColorActivite9;
@@ -1014,6 +1050,7 @@ class AgendaConstantes {
      * Set the text color dim j feries.
      *
      * @param int $textColorDimJFeries The text color dim j feries.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setTextColorDimJFeries($textColorDimJFeries) {
         $this->textColorDimJFeries = $textColorDimJFeries;
@@ -1024,6 +1061,7 @@ class AgendaConstantes {
      * Set the use new gpe param.
      *
      * @param bool $useNewGpeParam The use new gpe param.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setUseNewGpeParam($useNewGpeParam) {
         $this->useNewGpeParam = $useNewGpeParam;
@@ -1034,6 +1072,7 @@ class AgendaConstantes {
      * Set the week mode.
      *
      * @param string $weekMode The week mode.
+     * @return AgendaConstantes Returns this Agenda constantes.
      */
     public function setWeekMode($weekMode) {
         $this->weekMode = $weekMode;

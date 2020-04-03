@@ -62,6 +62,7 @@ class EnchainementSemaines {
      * Set the discr sem.
      *
      * @param int $discrSem The discr sem.
+     * @return EnchainementSemaines Returns this Enchainement semaines.
      */
     public function setDiscrSem($discrSem) {
         $this->discrSem = $discrSem;
@@ -72,6 +73,7 @@ class EnchainementSemaines {
      * Set the num ordre.
      *
      * @param int $numOrdre The num ordre.
+     * @return EnchainementSemaines Returns this Enchainement semaines.
      */
     public function setNumOrdre($numOrdre) {
         $this->numOrdre = $numOrdre;

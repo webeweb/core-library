@@ -190,6 +190,7 @@ class iCollaborateursSites {
      * Set the adresse ip.
      *
      * @param string $adresseIp The adresse ip.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setAdresseIp($adresseIp) {
         $this->adresseIp = $adresseIp;
@@ -200,6 +201,7 @@ class iCollaborateursSites {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -210,6 +212,7 @@ class iCollaborateursSites {
      * Set the dossier.
      *
      * @param string $dossier The dossier.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setDossier($dossier) {
         $this->dossier = $dossier;
@@ -220,6 +223,7 @@ class iCollaborateursSites {
      * Set the restr cli assist1.
      *
      * @param string $restrCliAssist1 The restr cli assist1.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setRestrCliAssist1($restrCliAssist1) {
         $this->restrCliAssist1 = $restrCliAssist1;
@@ -230,6 +234,7 @@ class iCollaborateursSites {
      * Set the restr cli assist2.
      *
      * @param string $restrCliAssist2 The restr cli assist2.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setRestrCliAssist2($restrCliAssist2) {
         $this->restrCliAssist2 = $restrCliAssist2;
@@ -240,6 +245,7 @@ class iCollaborateursSites {
      * Set the restr cli autre1.
      *
      * @param string $restrCliAutre1 The restr cli autre1.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setRestrCliAutre1($restrCliAutre1) {
         $this->restrCliAutre1 = $restrCliAutre1;
@@ -250,6 +256,7 @@ class iCollaborateursSites {
      * Set the restr cli autre2.
      *
      * @param string $restrCliAutre2 The restr cli autre2.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setRestrCliAutre2($restrCliAutre2) {
         $this->restrCliAutre2 = $restrCliAutre2;
@@ -260,6 +267,7 @@ class iCollaborateursSites {
      * Set the restr cli collab.
      *
      * @param string $restrCliCollab The restr cli collab.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setRestrCliCollab($restrCliCollab) {
         $this->restrCliCollab = $restrCliCollab;
@@ -270,6 +278,7 @@ class iCollaborateursSites {
      * Set the restr cli expert.
      *
      * @param string $restrCliExpert The restr cli expert.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setRestrCliExpert($restrCliExpert) {
         $this->restrCliExpert = $restrCliExpert;
@@ -280,6 +289,7 @@ class iCollaborateursSites {
      * Set the restr cli portef.
      *
      * @param string $restrCliPortef The restr cli portef.
+     * @return iCollaborateursSites Returns this i collaborateurs sites.
      */
     public function setRestrCliPortef($restrCliPortef) {
         $this->restrCliPortef = $restrCliPortef;

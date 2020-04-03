@@ -126,6 +126,7 @@ class DetailsMissions {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return DetailsMissions Returns this Details missions.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -136,6 +137,7 @@ class DetailsMissions {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return DetailsMissions Returns this Details missions.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -146,6 +148,7 @@ class DetailsMissions {
      * Set the code travail.
      *
      * @param string $codeTravail The code travail.
+     * @return DetailsMissions Returns this Details missions.
      */
     public function setCodeTravail($codeTravail) {
         $this->codeTravail = $codeTravail;
@@ -156,6 +159,7 @@ class DetailsMissions {
      * Set the niveau.
      *
      * @param int $niveau The niveau.
+     * @return DetailsMissions Returns this Details missions.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -166,6 +170,7 @@ class DetailsMissions {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return DetailsMissions Returns this Details missions.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -176,6 +181,7 @@ class DetailsMissions {
      * Set the type affectation.
      *
      * @param string $typeAffectation The type affectation.
+     * @return DetailsMissions Returns this Details missions.
      */
     public function setTypeAffectation($typeAffectation) {
         $this->typeAffectation = $typeAffectation;

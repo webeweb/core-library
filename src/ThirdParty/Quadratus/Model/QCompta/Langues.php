@@ -78,6 +78,7 @@ class Langues {
      * Set the code langue.
      *
      * @param string $codeLangue The code langue.
+     * @return Langues Returns this Langues.
      */
     public function setCodeLangue($codeLangue) {
         $this->codeLangue = $codeLangue;
@@ -88,6 +89,7 @@ class Langues {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Langues Returns this Langues.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -98,6 +100,7 @@ class Langues {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Langues Returns this Langues.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;

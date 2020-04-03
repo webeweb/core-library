@@ -126,6 +126,7 @@ class SousRepertoiresAppels {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -136,6 +137,7 @@ class SousRepertoiresAppels {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -146,6 +148,7 @@ class SousRepertoiresAppels {
      * Set the niveau ligne.
      *
      * @param int $niveauLigne The niveau ligne.
+     * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
     public function setNiveauLigne($niveauLigne) {
         $this->niveauLigne = $niveauLigne;
@@ -156,6 +159,7 @@ class SousRepertoiresAppels {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -166,6 +170,7 @@ class SousRepertoiresAppels {
      * Set the proprietes.
      *
      * @param string $proprietes The proprietes.
+     * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
     public function setProprietes($proprietes) {
         $this->proprietes = $proprietes;
@@ -176,6 +181,7 @@ class SousRepertoiresAppels {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

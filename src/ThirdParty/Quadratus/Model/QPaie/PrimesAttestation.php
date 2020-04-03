@@ -160,6 +160,7 @@ class PrimesAttestation {
      * Set the euro ou franc.
      *
      * @param string $euroOuFranc The euro ou franc.
+     * @return PrimesAttestation Returns this Primes attestation.
      */
     public function setEuroOuFranc($euroOuFranc) {
         $this->euroOuFranc = $euroOuFranc;
@@ -170,6 +171,7 @@ class PrimesAttestation {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return PrimesAttestation Returns this Primes attestation.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -180,6 +182,7 @@ class PrimesAttestation {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return PrimesAttestation Returns this Primes attestation.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -190,6 +193,7 @@ class PrimesAttestation {
      * Set the num ligne.
      *
      * @param string $numLigne The num ligne.
+     * @return PrimesAttestation Returns this Primes attestation.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -200,6 +204,7 @@ class PrimesAttestation {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return PrimesAttestation Returns this Primes attestation.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -210,6 +215,7 @@ class PrimesAttestation {
      * Set the paye le.
      *
      * @param DateTime|null $payeLe The paye le.
+     * @return PrimesAttestation Returns this Primes attestation.
      */
     public function setPayeLe(DateTime $payeLe = null) {
         $this->payeLe = $payeLe;
@@ -220,6 +226,7 @@ class PrimesAttestation {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return PrimesAttestation Returns this Primes attestation.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -230,6 +237,7 @@ class PrimesAttestation {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return PrimesAttestation Returns this Primes attestation.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;

@@ -656,6 +656,7 @@ class CdeFournisseurMensu {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -666,6 +667,7 @@ class CdeFournisseurMensu {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -676,6 +678,7 @@ class CdeFournisseurMensu {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -686,6 +689,7 @@ class CdeFournisseurMensu {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -696,6 +700,7 @@ class CdeFournisseurMensu {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -706,6 +711,7 @@ class CdeFournisseurMensu {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -716,6 +722,7 @@ class CdeFournisseurMensu {
      * Set the code inspecteur.
      *
      * @param string $codeInspecteur The code inspecteur.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeInspecteur($codeInspecteur) {
         $this->codeInspecteur = $codeInspecteur;
@@ -726,6 +733,7 @@ class CdeFournisseurMensu {
      * Set the code livraison.
      *
      * @param string $codeLivraison The code livraison.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeLivraison($codeLivraison) {
         $this->codeLivraison = $codeLivraison;
@@ -736,6 +744,7 @@ class CdeFournisseurMensu {
      * Set the code livreur.
      *
      * @param string $codeLivreur The code livreur.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCodeLivreur($codeLivreur) {
         $this->codeLivreur = $codeLivreur;
@@ -746,6 +755,7 @@ class CdeFournisseurMensu {
      * Set the commande isolee.
      *
      * @param bool $commandeIsolee The commande isolee.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCommandeIsolee($commandeIsolee) {
         $this->commandeIsolee = $commandeIsolee;
@@ -756,6 +766,7 @@ class CdeFournisseurMensu {
      * Set the critere texte1.
      *
      * @param string $critereTexte1 The critere texte1.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setCritereTexte1($critereTexte1) {
         $this->critereTexte1 = $critereTexte1;
@@ -766,6 +777,7 @@ class CdeFournisseurMensu {
      * Set the date livraison.
      *
      * @param DateTime|null $dateLivraison The date livraison.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setDateLivraison(DateTime $dateLivraison = null) {
         $this->dateLivraison = $dateLivraison;
@@ -776,6 +788,7 @@ class CdeFournisseurMensu {
      * Set the date transfert.
      *
      * @param DateTime|null $dateTransfert The date transfert.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setDateTransfert(DateTime $dateTransfert = null) {
         $this->dateTransfert = $dateTransfert;
@@ -786,6 +799,7 @@ class CdeFournisseurMensu {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -796,6 +810,7 @@ class CdeFournisseurMensu {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -806,6 +821,7 @@ class CdeFournisseurMensu {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -816,6 +832,7 @@ class CdeFournisseurMensu {
      * Set the from cde type.
      *
      * @param bool $fromCdeType The from cde type.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setFromCdeType($fromCdeType) {
         $this->fromCdeType = $fromCdeType;
@@ -826,6 +843,7 @@ class CdeFournisseurMensu {
      * Set the maj stock by da.
      *
      * @param bool $majStockByDa The maj stock by da.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setMajStockByDa($majStockByDa) {
         $this->majStockByDa = $majStockByDa;
@@ -836,6 +854,7 @@ class CdeFournisseurMensu {
      * Set the no bon int.
      *
      * @param string $noBonInt The no bon int.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setNoBonInt($noBonInt) {
         $this->noBonInt = $noBonInt;
@@ -846,6 +865,7 @@ class CdeFournisseurMensu {
      * Set the no piece cde.
      *
      * @param string $noPieceCde The no piece cde.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setNoPieceCde($noPieceCde) {
         $this->noPieceCde = $noPieceCde;
@@ -856,6 +876,7 @@ class CdeFournisseurMensu {
      * Set the no piece cde cli.
      *
      * @param string $noPieceCdeCli The no piece cde cli.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setNoPieceCdeCli($noPieceCdeCli) {
         $this->noPieceCdeCli = $noPieceCdeCli;
@@ -866,6 +887,7 @@ class CdeFournisseurMensu {
      * Set the numero bs genere.
      *
      * @param string $numeroBsGenere The numero bs genere.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setNumeroBsGenere($numeroBsGenere) {
         $this->numeroBsGenere = $numeroBsGenere;
@@ -876,6 +898,7 @@ class CdeFournisseurMensu {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -886,6 +909,7 @@ class CdeFournisseurMensu {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -896,6 +920,7 @@ class CdeFournisseurMensu {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -906,6 +931,7 @@ class CdeFournisseurMensu {
      * Set the prix saisi.
      *
      * @param bool $prixSaisi The prix saisi.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setPrixSaisi($prixSaisi) {
         $this->prixSaisi = $prixSaisi;
@@ -916,6 +942,7 @@ class CdeFournisseurMensu {
      * Set the pu brut.
      *
      * @param float $puBrut The pu brut.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setPuBrut($puBrut) {
         $this->puBrut = $puBrut;
@@ -926,6 +953,7 @@ class CdeFournisseurMensu {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -936,6 +964,7 @@ class CdeFournisseurMensu {
      * Set the quantite bs.
      *
      * @param float $quantiteBs The quantite bs.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setQuantiteBs($quantiteBs) {
         $this->quantiteBs = $quantiteBs;
@@ -946,6 +975,7 @@ class CdeFournisseurMensu {
      * Set the quantite cde.
      *
      * @param float $quantiteCde The quantite cde.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setQuantiteCde($quantiteCde) {
         $this->quantiteCde = $quantiteCde;
@@ -956,6 +986,7 @@ class CdeFournisseurMensu {
      * Set the quantite cde cli.
      *
      * @param float $quantiteCdeCli The quantite cde cli.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setQuantiteCdeCli($quantiteCdeCli) {
         $this->quantiteCdeCli = $quantiteCdeCli;
@@ -966,6 +997,7 @@ class CdeFournisseurMensu {
      * Set the quantite liv.
      *
      * @param float $quantiteLiv The quantite liv.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setQuantiteLiv($quantiteLiv) {
         $this->quantiteLiv = $quantiteLiv;
@@ -976,6 +1008,7 @@ class CdeFournisseurMensu {
      * Set the remise1.
      *
      * @param float $remise1 The remise1.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setRemise1($remise1) {
         $this->remise1 = $remise1;
@@ -986,6 +1019,7 @@ class CdeFournisseurMensu {
      * Set the remise2.
      *
      * @param float $remise2 The remise2.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setRemise2($remise2) {
         $this->remise2 = $remise2;
@@ -996,6 +1030,7 @@ class CdeFournisseurMensu {
      * Set the remise3.
      *
      * @param float $remise3 The remise3.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setRemise3($remise3) {
         $this->remise3 = $remise3;
@@ -1006,6 +1041,7 @@ class CdeFournisseurMensu {
      * Set the type gestion.
      *
      * @param string $typeGestion The type gestion.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setTypeGestion($typeGestion) {
         $this->typeGestion = $typeGestion;
@@ -1016,6 +1052,7 @@ class CdeFournisseurMensu {
      * Set the type piece.
      *
      * @param string $typePiece The type piece.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setTypePiece($typePiece) {
         $this->typePiece = $typePiece;
@@ -1026,6 +1063,7 @@ class CdeFournisseurMensu {
      * Set the uniq id blocage.
      *
      * @param string $uniqIdBlocage The uniq id blocage.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setUniqIdBlocage($uniqIdBlocage) {
         $this->uniqIdBlocage = $uniqIdBlocage;
@@ -1036,6 +1074,7 @@ class CdeFournisseurMensu {
      * Set the validee.
      *
      * @param bool $validee The validee.
+     * @return CdeFournisseurMensu Returns this Cde fournisseur mensu.
      */
     public function setValidee($validee) {
         $this->validee = $validee;

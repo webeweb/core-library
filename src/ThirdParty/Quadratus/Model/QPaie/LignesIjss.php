@@ -272,6 +272,7 @@ class LignesIjss {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -282,6 +283,7 @@ class LignesIjss {
      * Set the montant2.
      *
      * @param float $montant2 The montant2.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setMontant2($montant2) {
         $this->montant2 = $montant2;
@@ -292,6 +294,7 @@ class LignesIjss {
      * Set the montant euro ou franc.
      *
      * @param string $montantEuroOuFranc The montant euro ou franc.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setMontantEuroOuFranc($montantEuroOuFranc) {
         $this->montantEuroOuFranc = $montantEuroOuFranc;
@@ -302,6 +305,7 @@ class LignesIjss {
      * Set the motif.
      *
      * @param string $motif The motif.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setMotif($motif) {
         $this->motif = $motif;
@@ -312,6 +316,7 @@ class LignesIjss {
      * Set the mt brut perte salaire.
      *
      * @param float $mtBrutPerteSalaire The mt brut perte salaire.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setMtBrutPerteSalaire($mtBrutPerteSalaire) {
         $this->mtBrutPerteSalaire = $mtBrutPerteSalaire;
@@ -322,6 +327,7 @@ class LignesIjss {
      * Set the nb c.
      *
      * @param float $nbC The nb c.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setNbC($nbC) {
         $this->nbC = $nbC;
@@ -332,6 +338,7 @@ class LignesIjss {
      * Set the nb e.
      *
      * @param float $nbE The nb e.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setNbE($nbE) {
         $this->nbE = $nbE;
@@ -342,6 +349,7 @@ class LignesIjss {
      * Set the num ligne.
      *
      * @param string $numLigne The num ligne.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -352,6 +360,7 @@ class LignesIjss {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -362,6 +371,7 @@ class LignesIjss {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -372,6 +382,7 @@ class LignesIjss {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;
@@ -382,6 +393,7 @@ class LignesIjss {
      * Set the sal ret euro ou franc.
      *
      * @param string $salRetEuroOuFranc The sal ret euro ou franc.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setSalRetEuroOuFranc($salRetEuroOuFranc) {
         $this->salRetEuroOuFranc = $salRetEuroOuFranc;
@@ -392,6 +404,7 @@ class LignesIjss {
      * Set the salaire ret.
      *
      * @param float $salaireRet The salaire ret.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setSalaireRet($salaireRet) {
         $this->salaireRet = $salaireRet;
@@ -402,6 +415,7 @@ class LignesIjss {
      * Set the somme regul1.
      *
      * @param float $sommeRegul1 The somme regul1.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setSommeRegul1($sommeRegul1) {
         $this->sommeRegul1 = $sommeRegul1;
@@ -412,6 +426,7 @@ class LignesIjss {
      * Set the somme regul2.
      *
      * @param float $sommeRegul2 The somme regul2.
+     * @return LignesIjss Returns this Lignes ijss.
      */
     public function setSommeRegul2($sommeRegul2) {
         $this->sommeRegul2 = $sommeRegul2;

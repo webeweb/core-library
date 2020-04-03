@@ -128,6 +128,7 @@ class AffectationEmployeChantier {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AffectationEmployeChantier Returns this Affectation employe chantier.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -138,6 +139,7 @@ class AffectationEmployeChantier {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return AffectationEmployeChantier Returns this Affectation employe chantier.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -148,6 +150,7 @@ class AffectationEmployeChantier {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AffectationEmployeChantier Returns this Affectation employe chantier.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -158,6 +161,7 @@ class AffectationEmployeChantier {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return AffectationEmployeChantier Returns this Affectation employe chantier.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -168,6 +172,7 @@ class AffectationEmployeChantier {
      * Set the date affectation.
      *
      * @param DateTime|null $dateAffectation The date affectation.
+     * @return AffectationEmployeChantier Returns this Affectation employe chantier.
      */
     public function setDateAffectation(DateTime $dateAffectation = null) {
         $this->dateAffectation = $dateAffectation;
@@ -178,6 +183,7 @@ class AffectationEmployeChantier {
      * Set the date fin affectation.
      *
      * @param DateTime|null $dateFinAffectation The date fin affectation.
+     * @return AffectationEmployeChantier Returns this Affectation employe chantier.
      */
     public function setDateFinAffectation(DateTime $dateFinAffectation = null) {
         $this->dateFinAffectation = $dateFinAffectation;

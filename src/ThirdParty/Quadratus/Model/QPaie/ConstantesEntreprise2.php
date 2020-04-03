@@ -192,6 +192,7 @@ class ConstantesEntreprise2 {
      * Set the date application forfait social8.
      *
      * @param DateTime|null $dateApplicationForfaitSocial8 The date application forfait social8.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setDateApplicationForfaitSocial8(DateTime $dateApplicationForfaitSocial8 = null) {
         $this->dateApplicationForfaitSocial8 = $dateApplicationForfaitSocial8;
@@ -202,6 +203,7 @@ class ConstantesEntreprise2 {
      * Set the date application fs lisse.
      *
      * @param DateTime|null $dateApplicationFsLisse The date application fs lisse.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setDateApplicationFsLisse(DateTime $dateApplicationFsLisse = null) {
         $this->dateApplicationFsLisse = $dateApplicationFsLisse;
@@ -212,6 +214,7 @@ class ConstantesEntreprise2 {
      * Set the gere evt fin contrat lot.
      *
      * @param bool $gereEvtFinContratLot The gere evt fin contrat lot.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setGereEvtFinContratLot($gereEvtFinContratLot) {
         $this->gereEvtFinContratLot = $gereEvtFinContratLot;
@@ -222,6 +225,7 @@ class ConstantesEntreprise2 {
      * Set the gere prev norme dsn.
      *
      * @param bool $gerePrevNormeDsn The gere prev norme dsn.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setGerePrevNormeDsn($gerePrevNormeDsn) {
         $this->gerePrevNormeDsn = $gerePrevNormeDsn;
@@ -232,6 +236,7 @@ class ConstantesEntreprise2 {
      * Set the gestion dsn.
      *
      * @param bool $gestionDsn The gestion dsn.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setGestionDsn($gestionDsn) {
         $this->gestionDsn = $gestionDsn;
@@ -242,6 +247,7 @@ class ConstantesEntreprise2 {
      * Set the n evenement dsn.
      *
      * @param int $nEvenementDsn The n evenement dsn.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setNEvenementDsn($nEvenementDsn) {
         $this->nEvenementDsn = $nEvenementDsn;
@@ -252,6 +258,7 @@ class ConstantesEntreprise2 {
      * Set the ne pas activer prime annuelle proprete.
      *
      * @param bool $nePasActiverPrimeAnnuelleProprete The ne pas activer prime annuelle proprete.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setNePasActiverPrimeAnnuelleProprete($nePasActiverPrimeAnnuelleProprete) {
         $this->nePasActiverPrimeAnnuelleProprete = $nePasActiverPrimeAnnuelleProprete;
@@ -262,6 +269,7 @@ class ConstantesEntreprise2 {
      * Set the regime mixte msa.
      *
      * @param bool $regimeMixteMsa The regime mixte msa.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setRegimeMixteMsa($regimeMixteMsa) {
         $this->regimeMixteMsa = $regimeMixteMsa;
@@ -272,6 +280,7 @@ class ConstantesEntreprise2 {
      * Set the taux prime annuelle proprete moins20 ans.
      *
      * @param float $tauxPrimeAnnuellePropreteMoins20Ans The taux prime annuelle proprete moins20 ans.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setTauxPrimeAnnuellePropreteMoins20Ans($tauxPrimeAnnuellePropreteMoins20Ans) {
         $this->tauxPrimeAnnuellePropreteMoins20Ans = $tauxPrimeAnnuellePropreteMoins20Ans;
@@ -282,6 +291,7 @@ class ConstantesEntreprise2 {
      * Set the taux prime annuelle proprete plus20 ans.
      *
      * @param float $tauxPrimeAnnuellePropretePlus20Ans The taux prime annuelle proprete plus20 ans.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
      */
     public function setTauxPrimeAnnuellePropretePlus20Ans($tauxPrimeAnnuellePropretePlus20Ans) {
         $this->tauxPrimeAnnuellePropretePlus20Ans = $tauxPrimeAnnuellePropretePlus20Ans;

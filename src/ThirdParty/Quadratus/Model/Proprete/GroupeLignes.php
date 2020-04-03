@@ -94,6 +94,7 @@ class GroupeLignes {
      * Set the code element.
      *
      * @param string $codeElement The code element.
+     * @return GroupeLignes Returns this Groupe lignes.
      */
     public function setCodeElement($codeElement) {
         $this->codeElement = $codeElement;
@@ -104,6 +105,7 @@ class GroupeLignes {
      * Set the groupe.
      *
      * @param string $groupe The groupe.
+     * @return GroupeLignes Returns this Groupe lignes.
      */
     public function setGroupe($groupe) {
         $this->groupe = $groupe;
@@ -114,6 +116,7 @@ class GroupeLignes {
      * Set the ordre.
      *
      * @param int $ordre The ordre.
+     * @return GroupeLignes Returns this Groupe lignes.
      */
     public function setOrdre($ordre) {
         $this->ordre = $ordre;
@@ -124,6 +127,7 @@ class GroupeLignes {
      * Set the type element.
      *
      * @param string $typeElement The type element.
+     * @return GroupeLignes Returns this Groupe lignes.
      */
     public function setTypeElement($typeElement) {
         $this->typeElement = $typeElement;

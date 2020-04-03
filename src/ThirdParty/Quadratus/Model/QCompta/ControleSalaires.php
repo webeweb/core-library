@@ -128,6 +128,7 @@ class ControleSalaires {
      * Set the brut.
      *
      * @param float $brut The brut.
+     * @return ControleSalaires Returns this Controle salaires.
      */
     public function setBrut($brut) {
         $this->brut = $brut;
@@ -138,6 +139,7 @@ class ControleSalaires {
      * Set the cotis patronales.
      *
      * @param float $cotisPatronales The cotis patronales.
+     * @return ControleSalaires Returns this Controle salaires.
      */
     public function setCotisPatronales($cotisPatronales) {
         $this->cotisPatronales = $cotisPatronales;
@@ -148,6 +150,7 @@ class ControleSalaires {
      * Set the cotis salariales.
      *
      * @param float $cotisSalariales The cotis salariales.
+     * @return ControleSalaires Returns this Controle salaires.
      */
     public function setCotisSalariales($cotisSalariales) {
         $this->cotisSalariales = $cotisSalariales;
@@ -158,6 +161,7 @@ class ControleSalaires {
      * Set the heures.
      *
      * @param float $heures The heures.
+     * @return ControleSalaires Returns this Controle salaires.
      */
     public function setHeures($heures) {
         $this->heures = $heures;
@@ -168,6 +172,7 @@ class ControleSalaires {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return ControleSalaires Returns this Controle salaires.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -178,6 +183,7 @@ class ControleSalaires {
      * Set the plafond.
      *
      * @param float $plafond The plafond.
+     * @return ControleSalaires Returns this Controle salaires.
      */
     public function setPlafond($plafond) {
         $this->plafond = $plafond;

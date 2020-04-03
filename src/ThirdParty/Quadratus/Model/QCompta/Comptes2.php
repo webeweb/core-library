@@ -718,6 +718,7 @@ class Comptes2 {
      * Set the affacturage.
      *
      * @param bool $affacturage The affacturage.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setAffacturage($affacturage) {
         $this->affacturage = $affacturage;
@@ -728,6 +729,7 @@ class Comptes2 {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -738,6 +740,7 @@ class Comptes2 {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -748,6 +751,7 @@ class Comptes2 {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -758,6 +762,7 @@ class Comptes2 {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -768,6 +773,7 @@ class Comptes2 {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -778,6 +784,7 @@ class Comptes2 {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -788,6 +795,7 @@ class Comptes2 {
      * Set the complement suite.
      *
      * @param string $complementSuite The complement suite.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setComplementSuite($complementSuite) {
         $this->complementSuite = $complementSuite;
@@ -798,6 +806,7 @@ class Comptes2 {
      * Set the contrepartie auto.
      *
      * @param string $contrepartieAuto The contrepartie auto.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setContrepartieAuto($contrepartieAuto) {
         $this->contrepartieAuto = $contrepartieAuto;
@@ -808,6 +817,7 @@ class Comptes2 {
      * Set the cpt four affacturage.
      *
      * @param string $cptFourAffacturage The cpt four affacturage.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setCptFourAffacturage($cptFourAffacturage) {
         $this->cptFourAffacturage = $cptFourAffacturage;
@@ -818,6 +828,7 @@ class Comptes2 {
      * Set the cpt origine.
      *
      * @param string $cptOrigine The cpt origine.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setCptOrigine($cptOrigine) {
         $this->cptOrigine = $cptOrigine;
@@ -828,6 +839,7 @@ class Comptes2 {
      * Set the dom banque.
      *
      * @param string $domBanque The dom banque.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setDomBanque($domBanque) {
         $this->domBanque = $domBanque;
@@ -838,6 +850,7 @@ class Comptes2 {
      * Set the dom banque2.
      *
      * @param string $domBanque2 The dom banque2.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setDomBanque2($domBanque2) {
         $this->domBanque2 = $domBanque2;
@@ -848,6 +861,7 @@ class Comptes2 {
      * Set the dom banque3.
      *
      * @param string $domBanque3 The dom banque3.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setDomBanque3($domBanque3) {
         $this->domBanque3 = $domBanque3;
@@ -858,6 +872,7 @@ class Comptes2 {
      * Set the echeance fin decade.
      *
      * @param bool $echeanceFinDecade The echeance fin decade.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setEcheanceFinDecade($echeanceFinDecade) {
         $this->echeanceFinDecade = $echeanceFinDecade;
@@ -868,6 +883,7 @@ class Comptes2 {
      * Set the echeance fin quinzaine.
      *
      * @param bool $echeanceFinQuinzaine The echeance fin quinzaine.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setEcheanceFinQuinzaine($echeanceFinQuinzaine) {
         $this->echeanceFinQuinzaine = $echeanceFinQuinzaine;
@@ -878,6 +894,7 @@ class Comptes2 {
      * Set the email.
      *
      * @param string $email The email.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -888,6 +905,7 @@ class Comptes2 {
      * Set the fax.
      *
      * @param string $fax The fax.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setFax($fax) {
         $this->fax = $fax;
@@ -898,6 +916,7 @@ class Comptes2 {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -908,6 +927,7 @@ class Comptes2 {
      * Set the iban code imput frais.
      *
      * @param string $ibanCodeImputFrais The iban code imput frais.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setIbanCodeImputFrais($ibanCodeImputFrais) {
         $this->ibanCodeImputFrais = $ibanCodeImputFrais;
@@ -918,6 +938,7 @@ class Comptes2 {
      * Set the ident tva.
      *
      * @param string $identTva The ident tva.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setIdentTva($identTva) {
         $this->identTva = $identTva;
@@ -928,6 +949,7 @@ class Comptes2 {
      * Set the jour depart echeance.
      *
      * @param int $jourDepartEcheance The jour depart echeance.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setJourDepartEcheance($jourDepartEcheance) {
         $this->jourDepartEcheance = $jourDepartEcheance;
@@ -938,6 +960,7 @@ class Comptes2 {
      * Set the mode paiement.
      *
      * @param string $modePaiement The mode paiement.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setModePaiement($modePaiement) {
         $this->modePaiement = $modePaiement;
@@ -948,6 +971,7 @@ class Comptes2 {
      * Set the nb jours echeance.
      *
      * @param string $nbJoursEcheance The nb jours echeance.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setNbJoursEcheance($nbJoursEcheance) {
         $this->nbJoursEcheance = $nbJoursEcheance;
@@ -958,6 +982,7 @@ class Comptes2 {
      * Set the niveau relance.
      *
      * @param string $niveauRelance The niveau relance.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setNiveauRelance($niveauRelance) {
         $this->niveauRelance = $niveauRelance;
@@ -968,6 +993,7 @@ class Comptes2 {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -978,6 +1004,7 @@ class Comptes2 {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -988,6 +1015,7 @@ class Comptes2 {
      * Set the num cpt stock.
      *
      * @param string $numCptStock The num cpt stock.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setNumCptStock($numCptStock) {
         $this->numCptStock = $numCptStock;
@@ -998,6 +1026,7 @@ class Comptes2 {
      * Set the num mandat.
      *
      * @param int $numMandat The num mandat.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setNumMandat($numMandat) {
         $this->numMandat = $numMandat;
@@ -1008,6 +1037,7 @@ class Comptes2 {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -1018,6 +1048,7 @@ class Comptes2 {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -1028,6 +1059,7 @@ class Comptes2 {
      * Set the pays.
      *
      * @param string $pays The pays.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setPays($pays) {
         $this->pays = $pays;
@@ -1038,6 +1070,7 @@ class Comptes2 {
      * Set the profession.
      *
      * @param string $profession The profession.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setProfession($profession) {
         $this->profession = $profession;
@@ -1048,6 +1081,7 @@ class Comptes2 {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -1058,6 +1092,7 @@ class Comptes2 {
      * Set the rib2.
      *
      * @param string $rib2 The rib2.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setRib2($rib2) {
         $this->rib2 = $rib2;
@@ -1068,6 +1103,7 @@ class Comptes2 {
      * Set the rib3.
      *
      * @param string $rib3 The rib3.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setRib3($rib3) {
         $this->rib3 = $rib3;
@@ -1078,6 +1114,7 @@ class Comptes2 {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -1088,6 +1125,7 @@ class Comptes2 {
      * Set the suivi stock.
      *
      * @param bool $suiviStock The suivi stock.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setSuiviStock($suiviStock) {
         $this->suiviStock = $suiviStock;
@@ -1098,6 +1136,7 @@ class Comptes2 {
      * Set the tel1.
      *
      * @param string $tel1 The tel1.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setTel1($tel1) {
         $this->tel1 = $tel1;
@@ -1108,6 +1147,7 @@ class Comptes2 {
      * Set the tel2.
      *
      * @param string $tel2 The tel2.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setTel2($tel2) {
         $this->tel2 = $tel2;
@@ -1118,6 +1158,7 @@ class Comptes2 {
      * Set the terme echeance le.
      *
      * @param string $termeEcheanceLe The terme echeance le.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setTermeEcheanceLe($termeEcheanceLe) {
         $this->termeEcheanceLe = $termeEcheanceLe;
@@ -1128,6 +1169,7 @@ class Comptes2 {
      * Set the type suivi.
      *
      * @param string $typeSuivi The type suivi.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setTypeSuivi($typeSuivi) {
         $this->typeSuivi = $typeSuivi;
@@ -1138,6 +1180,7 @@ class Comptes2 {
      * Set the zip code.
      *
      * @param string $zipCode The zip code.
+     * @return Comptes2 Returns this Comptes2.
      */
     public function setZipCode($zipCode) {
         $this->zipCode = $zipCode;

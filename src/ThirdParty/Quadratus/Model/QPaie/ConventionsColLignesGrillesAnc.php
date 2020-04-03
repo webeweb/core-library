@@ -94,6 +94,7 @@ class ConventionsColLignesGrillesAnc {
      * Set the code.
      *
      * @param string $code The code.
+     * @return ConventionsColLignesGrillesAnc Returns this Conventions col lignes grilles anc.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -104,6 +105,7 @@ class ConventionsColLignesGrillesAnc {
      * Set the code convention.
      *
      * @param string $codeConvention The code convention.
+     * @return ConventionsColLignesGrillesAnc Returns this Conventions col lignes grilles anc.
      */
     public function setCodeConvention($codeConvention) {
         $this->codeConvention = $codeConvention;
@@ -114,6 +116,7 @@ class ConventionsColLignesGrillesAnc {
      * Set the nb mois ecoules.
      *
      * @param int $nbMoisEcoules The nb mois ecoules.
+     * @return ConventionsColLignesGrillesAnc Returns this Conventions col lignes grilles anc.
      */
     public function setNbMoisEcoules($nbMoisEcoules) {
         $this->nbMoisEcoules = $nbMoisEcoules;
@@ -124,6 +127,7 @@ class ConventionsColLignesGrillesAnc {
      * Set the valeur.
      *
      * @param float $valeur The valeur.
+     * @return ConventionsColLignesGrillesAnc Returns this Conventions col lignes grilles anc.
      */
     public function setValeur($valeur) {
         $this->valeur = $valeur;

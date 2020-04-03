@@ -112,6 +112,7 @@ class NotesFichiers {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return NotesFichiers Returns this Notes fichiers.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -122,6 +123,7 @@ class NotesFichiers {
      * Set the nom fichier.
      *
      * @param string $nomFichier The nom fichier.
+     * @return NotesFichiers Returns this Notes fichiers.
      */
     public function setNomFichier($nomFichier) {
         $this->nomFichier = $nomFichier;
@@ -132,6 +134,7 @@ class NotesFichiers {
      * Set the num note.
      *
      * @param string $numNote The num note.
+     * @return NotesFichiers Returns this Notes fichiers.
      */
     public function setNumNote($numNote) {
         $this->numNote = $numNote;
@@ -142,6 +145,7 @@ class NotesFichiers {
      * Set the origine fichier.
      *
      * @param string $origineFichier The origine fichier.
+     * @return NotesFichiers Returns this Notes fichiers.
      */
     public function setOrigineFichier($origineFichier) {
         $this->origineFichier = $origineFichier;
@@ -152,6 +156,7 @@ class NotesFichiers {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return NotesFichiers Returns this Notes fichiers.
      */
     public function setTitre($titre) {
         $this->titre = $titre;

@@ -128,6 +128,7 @@ class ReintegrationFf {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return ReintegrationFf Returns this Reintegration ff.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -138,6 +139,7 @@ class ReintegrationFf {
      * Set the id tableau.
      *
      * @param int $idTableau The id tableau.
+     * @return ReintegrationFf Returns this Reintegration ff.
      */
     public function setIdTableau($idTableau) {
         $this->idTableau = $idTableau;
@@ -148,6 +150,7 @@ class ReintegrationFf {
      * Set the mtt apports.
      *
      * @param float $mttApports The mtt apports.
+     * @return ReintegrationFf Returns this Reintegration ff.
      */
     public function setMttApports($mttApports) {
         $this->mttApports = $mttApports;
@@ -158,6 +161,7 @@ class ReintegrationFf {
      * Set the mtt emprunts.
      *
      * @param float $mttEmprunts The mtt emprunts.
+     * @return ReintegrationFf Returns this Reintegration ff.
      */
     public function setMttEmprunts($mttEmprunts) {
         $this->mttEmprunts = $mttEmprunts;
@@ -168,6 +172,7 @@ class ReintegrationFf {
      * Set the mtt prelev.
      *
      * @param float $mttPrelev The mtt prelev.
+     * @return ReintegrationFf Returns this Reintegration ff.
      */
     public function setMttPrelev($mttPrelev) {
         $this->mttPrelev = $mttPrelev;
@@ -178,6 +183,7 @@ class ReintegrationFf {
      * Set the mtt treso.
      *
      * @param float $mttTreso The mtt treso.
+     * @return ReintegrationFf Returns this Reintegration ff.
      */
     public function setMttTreso($mttTreso) {
         $this->mttTreso = $mttTreso;

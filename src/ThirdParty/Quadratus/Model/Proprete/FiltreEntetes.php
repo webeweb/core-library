@@ -142,6 +142,7 @@ class FiltreEntetes {
      * Set the code filtre.
      *
      * @param string $codeFiltre The code filtre.
+     * @return FiltreEntetes Returns this Filtre entetes.
      */
     public function setCodeFiltre($codeFiltre) {
         $this->codeFiltre = $codeFiltre;
@@ -152,6 +153,7 @@ class FiltreEntetes {
      * Set the collaborateur.
      *
      * @param string $collaborateur The collaborateur.
+     * @return FiltreEntetes Returns this Filtre entetes.
      */
     public function setCollaborateur($collaborateur) {
         $this->collaborateur = $collaborateur;
@@ -162,6 +164,7 @@ class FiltreEntetes {
      * Set the commercial facture.
      *
      * @param bool $commercialFacture The commercial facture.
+     * @return FiltreEntetes Returns this Filtre entetes.
      */
     public function setCommercialFacture($commercialFacture) {
         $this->commercialFacture = $commercialFacture;
@@ -172,6 +175,7 @@ class FiltreEntetes {
      * Set the fonctionnalite.
      *
      * @param string $fonctionnalite The fonctionnalite.
+     * @return FiltreEntetes Returns this Filtre entetes.
      */
     public function setFonctionnalite($fonctionnalite) {
         $this->fonctionnalite = $fonctionnalite;
@@ -182,6 +186,7 @@ class FiltreEntetes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return FiltreEntetes Returns this Filtre entetes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -192,6 +197,7 @@ class FiltreEntetes {
      * Set the type filtre.
      *
      * @param string $typeFiltre The type filtre.
+     * @return FiltreEntetes Returns this Filtre entetes.
      */
     public function setTypeFiltre($typeFiltre) {
         $this->typeFiltre = $typeFiltre;
@@ -202,6 +208,7 @@ class FiltreEntetes {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return FiltreEntetes Returns this Filtre entetes.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

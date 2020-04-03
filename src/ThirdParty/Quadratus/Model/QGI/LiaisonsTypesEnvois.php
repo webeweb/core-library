@@ -174,6 +174,7 @@ class LiaisonsTypesEnvois {
      * Set the a bloquer.
      *
      * @param string $aBloquer The a bloquer.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setABloquer($aBloquer) {
         $this->aBloquer = $aBloquer;
@@ -184,6 +185,7 @@ class LiaisonsTypesEnvois {
      * Set the a emettre.
      *
      * @param string $aEmettre The a emettre.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setAEmettre($aEmettre) {
         $this->aEmettre = $aEmettre;
@@ -194,6 +196,7 @@ class LiaisonsTypesEnvois {
      * Set the accepte depuis q bureau.
      *
      * @param bool $accepteDepuisQBureau The accepte depuis q bureau.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setAccepteDepuisQBureau($accepteDepuisQBureau) {
         $this->accepteDepuisQBureau = $accepteDepuisQBureau;
@@ -204,6 +207,7 @@ class LiaisonsTypesEnvois {
      * Set the accepte depuis qc.
      *
      * @param bool $accepteDepuisQc The accepte depuis qc.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setAccepteDepuisQc($accepteDepuisQc) {
         $this->accepteDepuisQc = $accepteDepuisQc;
@@ -214,6 +218,7 @@ class LiaisonsTypesEnvois {
      * Set the accepte depuis qp.
      *
      * @param bool $accepteDepuisQp The accepte depuis qp.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setAccepteDepuisQp($accepteDepuisQp) {
         $this->accepteDepuisQp = $accepteDepuisQp;
@@ -224,6 +229,7 @@ class LiaisonsTypesEnvois {
      * Set the code.
      *
      * @param string $code The code.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -234,6 +240,7 @@ class LiaisonsTypesEnvois {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -244,6 +251,7 @@ class LiaisonsTypesEnvois {
      * Set the modifiable.
      *
      * @param bool $modifiable The modifiable.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setModifiable($modifiable) {
         $this->modifiable = $modifiable;
@@ -254,6 +262,7 @@ class LiaisonsTypesEnvois {
      * Set the sans images.
      *
      * @param bool $sansImages The sans images.
+     * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
     public function setSansImages($sansImages) {
         $this->sansImages = $sansImages;

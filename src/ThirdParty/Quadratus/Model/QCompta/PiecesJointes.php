@@ -128,6 +128,7 @@ class PiecesJointes {
      * Set the auteur.
      *
      * @param string $auteur The auteur.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setAuteur($auteur) {
         $this->auteur = $auteur;
@@ -138,6 +139,7 @@ class PiecesJointes {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -148,6 +150,7 @@ class PiecesJointes {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -158,6 +161,7 @@ class PiecesJointes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -168,6 +172,7 @@ class PiecesJointes {
      * Set the nom piece.
      *
      * @param string $nomPiece The nom piece.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setNomPiece($nomPiece) {
         $this->nomPiece = $nomPiece;
@@ -178,6 +183,7 @@ class PiecesJointes {
      * Set the num piece.
      *
      * @param int $numPiece The num piece.
+     * @return PiecesJointes Returns this Pieces jointes.
      */
     public function setNumPiece($numPiece) {
         $this->numPiece = $numPiece;

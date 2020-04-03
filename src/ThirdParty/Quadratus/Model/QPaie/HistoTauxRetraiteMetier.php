@@ -192,6 +192,7 @@ class HistoTauxRetraiteMetier {
      * Set the a partir de.
      *
      * @param DateTime|null $aPartirDe The a partir de.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setAPartirDe(DateTime $aPartirDe = null) {
         $this->aPartirDe = $aPartirDe;
@@ -202,6 +203,7 @@ class HistoTauxRetraiteMetier {
      * Set the categ salarie.
      *
      * @param int $categSalarie The categ salarie.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setCategSalarie($categSalarie) {
         $this->categSalarie = $categSalarie;
@@ -212,6 +214,7 @@ class HistoTauxRetraiteMetier {
      * Set the code activite.
      *
      * @param string $codeActivite The code activite.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setCodeActivite($codeActivite) {
         $this->codeActivite = $codeActivite;
@@ -222,6 +225,7 @@ class HistoTauxRetraiteMetier {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -232,6 +236,7 @@ class HistoTauxRetraiteMetier {
      * Set the code metier.
      *
      * @param string $codeMetier The code metier.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setCodeMetier($codeMetier) {
         $this->codeMetier = $codeMetier;
@@ -242,6 +247,7 @@ class HistoTauxRetraiteMetier {
      * Set the format non etendu.
      *
      * @param bool $formatNonEtendu The format non etendu.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setFormatNonEtendu($formatNonEtendu) {
         $this->formatNonEtendu = $formatNonEtendu;
@@ -252,6 +258,7 @@ class HistoTauxRetraiteMetier {
      * Set the indice categ.
      *
      * @param int $indiceCateg The indice categ.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setIndiceCateg($indiceCateg) {
         $this->indiceCateg = $indiceCateg;
@@ -262,6 +269,7 @@ class HistoTauxRetraiteMetier {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -272,6 +280,7 @@ class HistoTauxRetraiteMetier {
      * Set the taux patronal.
      *
      * @param float $tauxPatronal The taux patronal.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setTauxPatronal($tauxPatronal) {
         $this->tauxPatronal = $tauxPatronal;
@@ -282,6 +291,7 @@ class HistoTauxRetraiteMetier {
      * Set the taux salarial.
      *
      * @param float $tauxSalarial The taux salarial.
+     * @return HistoTauxRetraiteMetier Returns this Histo taux retraite metier.
      */
     public function setTauxSalarial($tauxSalarial) {
         $this->tauxSalarial = $tauxSalarial;

@@ -78,6 +78,7 @@ class StatsGroupes {
      * Set the code.
      *
      * @param string $code The code.
+     * @return StatsGroupes Returns this Stats groupes.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class StatsGroupes {
      * Set the groupe stat.
      *
      * @param string $groupeStat The groupe stat.
+     * @return StatsGroupes Returns this Stats groupes.
      */
     public function setGroupeStat($groupeStat) {
         $this->groupeStat = $groupeStat;
@@ -98,6 +100,7 @@ class StatsGroupes {
      * Set the type champ.
      *
      * @param string $typeChamp The type champ.
+     * @return StatsGroupes Returns this Stats groupes.
      */
     public function setTypeChamp($typeChamp) {
         $this->typeChamp = $typeChamp;

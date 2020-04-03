@@ -222,6 +222,7 @@ class ComptesDas2 {
      * Set the avantage nature.
      *
      * @param float $avantageNature The avantage nature.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setAvantageNature($avantageNature) {
         $this->avantageNature = $avantageNature;
@@ -232,6 +233,7 @@ class ComptesDas2 {
      * Set the indemnite rbt.
      *
      * @param float $indemniteRbt The indemnite rbt.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setIndemniteRbt($indemniteRbt) {
         $this->indemniteRbt = $indemniteRbt;
@@ -242,6 +244,7 @@ class ComptesDas2 {
      * Set the montant1.
      *
      * @param float $montant1 The montant1.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setMontant1($montant1) {
         $this->montant1 = $montant1;
@@ -252,6 +255,7 @@ class ComptesDas2 {
      * Set the montant2.
      *
      * @param float $montant2 The montant2.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setMontant2($montant2) {
         $this->montant2 = $montant2;
@@ -262,6 +266,7 @@ class ComptesDas2 {
      * Set the nature1.
      *
      * @param string $nature1 The nature1.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setNature1($nature1) {
         $this->nature1 = $nature1;
@@ -272,6 +277,7 @@ class ComptesDas2 {
      * Set the nature2.
      *
      * @param string $nature2 The nature2.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setNature2($nature2) {
         $this->nature2 = $nature2;
@@ -282,6 +288,7 @@ class ComptesDas2 {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -292,6 +299,7 @@ class ComptesDas2 {
      * Set the retenue source.
      *
      * @param float $retenueSource The retenue source.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setRetenueSource($retenueSource) {
         $this->retenueSource = $retenueSource;
@@ -302,6 +310,7 @@ class ComptesDas2 {
      * Set the tvada.
      *
      * @param float $tvada The tvada.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setTvada($tvada) {
         $this->tvada = $tvada;
@@ -312,6 +321,7 @@ class ComptesDas2 {
      * Set the type an.
      *
      * @param string $typeAn The type an.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setTypeAn($typeAn) {
         $this->typeAn = $typeAn;
@@ -322,6 +332,7 @@ class ComptesDas2 {
      * Set the type ir.
      *
      * @param string $typeIr The type ir.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setTypeIr($typeIr) {
         $this->typeIr = $typeIr;
@@ -332,6 +343,7 @@ class ComptesDas2 {
      * Set the type rs.
      *
      * @param string $typeRs The type rs.
+     * @return ComptesDas2 Returns this Comptes das2.
      */
     public function setTypeRs($typeRs) {
         $this->typeRs = $typeRs;

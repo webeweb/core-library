@@ -126,6 +126,7 @@ class PointageReglementsLignes {
      * Set the montant pointe.
      *
      * @param float $montantPointe The montant pointe.
+     * @return PointageReglementsLignes Returns this Pointage reglements lignes.
      */
     public function setMontantPointe($montantPointe) {
         $this->montantPointe = $montantPointe;
@@ -136,6 +137,7 @@ class PointageReglementsLignes {
      * Set the num cpt payeur.
      *
      * @param string $numCptPayeur The num cpt payeur.
+     * @return PointageReglementsLignes Returns this Pointage reglements lignes.
      */
     public function setNumCptPayeur($numCptPayeur) {
         $this->numCptPayeur = $numCptPayeur;
@@ -146,6 +148,7 @@ class PointageReglementsLignes {
      * Set the num doss.
      *
      * @param string $numDoss The num doss.
+     * @return PointageReglementsLignes Returns this Pointage reglements lignes.
      */
     public function setNumDoss($numDoss) {
         $this->numDoss = $numDoss;
@@ -156,6 +159,7 @@ class PointageReglementsLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return PointageReglementsLignes Returns this Pointage reglements lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -166,6 +170,7 @@ class PointageReglementsLignes {
      * Set the num uniq ecr.
      *
      * @param int $numUniqEcr The num uniq ecr.
+     * @return PointageReglementsLignes Returns this Pointage reglements lignes.
      */
     public function setNumUniqEcr($numUniqEcr) {
         $this->numUniqEcr = $numUniqEcr;
@@ -176,6 +181,7 @@ class PointageReglementsLignes {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return PointageReglementsLignes Returns this Pointage reglements lignes.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;

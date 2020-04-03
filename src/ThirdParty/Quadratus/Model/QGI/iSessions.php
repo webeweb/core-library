@@ -144,6 +144,7 @@ class iSessions {
      * Set the adresse ip.
      *
      * @param string $adresseIp The adresse ip.
+     * @return iSessions Returns this i sessions.
      */
     public function setAdresseIp($adresseIp) {
         $this->adresseIp = $adresseIp;
@@ -154,6 +155,7 @@ class iSessions {
      * Set the appli.
      *
      * @param string $appli The appli.
+     * @return iSessions Returns this i sessions.
      */
     public function setAppli($appli) {
         $this->appli = $appli;
@@ -164,6 +166,7 @@ class iSessions {
      * Set the code user.
      *
      * @param string $codeUser The code user.
+     * @return iSessions Returns this i sessions.
      */
     public function setCodeUser($codeUser) {
         $this->codeUser = $codeUser;
@@ -174,6 +177,7 @@ class iSessions {
      * Set the date active.
      *
      * @param DateTime|null $dateActive The date active.
+     * @return iSessions Returns this i sessions.
      */
     public function setDateActive(DateTime $dateActive = null) {
         $this->dateActive = $dateActive;
@@ -184,6 +188,7 @@ class iSessions {
      * Set the date added.
      *
      * @param DateTime|null $dateAdded The date added.
+     * @return iSessions Returns this i sessions.
      */
     public function setDateAdded(DateTime $dateAdded = null) {
         $this->dateAdded = $dateAdded;
@@ -194,6 +199,7 @@ class iSessions {
      * Set the dossier.
      *
      * @param string $dossier The dossier.
+     * @return iSessions Returns this i sessions.
      */
     public function setDossier($dossier) {
         $this->dossier = $dossier;
@@ -204,6 +210,7 @@ class iSessions {
      * Set the id.
      *
      * @param int $id The id.
+     * @return iSessions Returns this i sessions.
      */
     public function setId($id) {
         $this->id = $id;

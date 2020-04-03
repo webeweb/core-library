@@ -142,6 +142,7 @@ class MotsClefEtebac {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return MotsClefEtebac Returns this Mots clef etebac.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -152,6 +153,7 @@ class MotsClefEtebac {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return MotsClefEtebac Returns this Mots clef etebac.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -162,6 +164,7 @@ class MotsClefEtebac {
      * Set the liste comptes.
      *
      * @param string $listeComptes The liste comptes.
+     * @return MotsClefEtebac Returns this Mots clef etebac.
      */
     public function setListeComptes($listeComptes) {
         $this->listeComptes = $listeComptes;
@@ -172,6 +175,7 @@ class MotsClefEtebac {
      * Set the mot.
      *
      * @param string $mot The mot.
+     * @return MotsClefEtebac Returns this Mots clef etebac.
      */
     public function setMot($mot) {
         $this->mot = $mot;
@@ -182,6 +186,7 @@ class MotsClefEtebac {
      * Set the numero compte depense.
      *
      * @param string $numeroCompteDepense The numero compte depense.
+     * @return MotsClefEtebac Returns this Mots clef etebac.
      */
     public function setNumeroCompteDepense($numeroCompteDepense) {
         $this->numeroCompteDepense = $numeroCompteDepense;
@@ -192,6 +197,7 @@ class MotsClefEtebac {
      * Set the numero compte recette.
      *
      * @param string $numeroCompteRecette The numero compte recette.
+     * @return MotsClefEtebac Returns this Mots clef etebac.
      */
     public function setNumeroCompteRecette($numeroCompteRecette) {
         $this->numeroCompteRecette = $numeroCompteRecette;
@@ -202,6 +208,7 @@ class MotsClefEtebac {
      * Set the regle.
      *
      * @param string $regle The regle.
+     * @return MotsClefEtebac Returns this Mots clef etebac.
      */
     public function setRegle($regle) {
         $this->regle = $regle;

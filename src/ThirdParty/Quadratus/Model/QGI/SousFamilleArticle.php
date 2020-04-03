@@ -78,6 +78,7 @@ class SousFamilleArticle {
      * Set the activite principale.
      *
      * @param string $activitePrincipale The activite principale.
+     * @return SousFamilleArticle Returns this Sous famille article.
      */
     public function setActivitePrincipale($activitePrincipale) {
         $this->activitePrincipale = $activitePrincipale;
@@ -88,6 +89,7 @@ class SousFamilleArticle {
      * Set the code.
      *
      * @param string $code The code.
+     * @return SousFamilleArticle Returns this Sous famille article.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -98,6 +100,7 @@ class SousFamilleArticle {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return SousFamilleArticle Returns this Sous famille article.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

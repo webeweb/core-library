@@ -190,6 +190,7 @@ class PaiementsEdi {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -200,6 +201,7 @@ class PaiementsEdi {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -210,6 +212,7 @@ class PaiementsEdi {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -220,6 +223,7 @@ class PaiementsEdi {
      * Set the dom banque.
      *
      * @param string $domBanque The dom banque.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setDomBanque($domBanque) {
         $this->domBanque = $domBanque;
@@ -230,6 +234,7 @@ class PaiementsEdi {
      * Set the generer coupon paiement.
      *
      * @param bool $genererCouponPaiement The generer coupon paiement.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setGenererCouponPaiement($genererCouponPaiement) {
         $this->genererCouponPaiement = $genererCouponPaiement;
@@ -240,6 +245,7 @@ class PaiementsEdi {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -250,6 +256,7 @@ class PaiementsEdi {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -260,6 +267,7 @@ class PaiementsEdi {
      * Set the montant ducs annuelle.
      *
      * @param float $montantDucsAnnuelle The montant ducs annuelle.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setMontantDucsAnnuelle($montantDucsAnnuelle) {
         $this->montantDucsAnnuelle = $montantDucsAnnuelle;
@@ -270,6 +278,7 @@ class PaiementsEdi {
      * Set the moyen paiement.
      *
      * @param string $moyenPaiement The moyen paiement.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setMoyenPaiement($moyenPaiement) {
         $this->moyenPaiement = $moyenPaiement;
@@ -280,6 +289,7 @@ class PaiementsEdi {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return PaiementsEdi Returns this Paiements edi.
      */
     public function setRib($rib) {
         $this->rib = $rib;

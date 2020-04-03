@@ -78,6 +78,7 @@ class Regroupements {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Regroupements Returns this Regroupements.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class Regroupements {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Regroupements Returns this Regroupements.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -98,6 +100,7 @@ class Regroupements {
      * Set the num ordre.
      *
      * @param int $numOrdre The num ordre.
+     * @return Regroupements Returns this Regroupements.
      */
     public function setNumOrdre($numOrdre) {
         $this->numOrdre = $numOrdre;

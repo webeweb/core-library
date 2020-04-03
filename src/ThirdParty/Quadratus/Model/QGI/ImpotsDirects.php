@@ -62,6 +62,7 @@ class ImpotsDirects {
      * Set the code.
      *
      * @param string $code The code.
+     * @return ImpotsDirects Returns this Impots directs.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class ImpotsDirects {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ImpotsDirects Returns this Impots directs.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

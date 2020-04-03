@@ -238,6 +238,7 @@ class HistoriquesEmployesColonnes {
      * Set the clause where.
      *
      * @param string $clauseWhere The clause where.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setClauseWhere($clauseWhere) {
         $this->clauseWhere = $clauseWhere;
@@ -248,6 +249,7 @@ class HistoriquesEmployesColonnes {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -258,6 +260,7 @@ class HistoriquesEmployesColonnes {
      * Set the indice tri.
      *
      * @param string $indiceTri The indice tri.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setIndiceTri($indiceTri) {
         $this->indiceTri = $indiceTri;
@@ -268,6 +271,7 @@ class HistoriquesEmployesColonnes {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -278,6 +282,7 @@ class HistoriquesEmployesColonnes {
      * Set the jointure.
      *
      * @param string $jointure The jointure.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setJointure($jointure) {
         $this->jointure = $jointure;
@@ -288,6 +293,7 @@ class HistoriquesEmployesColonnes {
      * Set the nom champ.
      *
      * @param string $nomChamp The nom champ.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setNomChamp($nomChamp) {
         $this->nomChamp = $nomChamp;
@@ -298,6 +304,7 @@ class HistoriquesEmployesColonnes {
      * Set the nom table.
      *
      * @param string $nomTable The nom table.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setNomTable($nomTable) {
         $this->nomTable = $nomTable;
@@ -308,6 +315,7 @@ class HistoriquesEmployesColonnes {
      * Set the ref guid.
      *
      * @param string $refGuid The ref guid.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setRefGuid($refGuid) {
         $this->refGuid = $refGuid;
@@ -318,6 +326,7 @@ class HistoriquesEmployesColonnes {
      * Set the saisie.
      *
      * @param bool $saisie The saisie.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setSaisie($saisie) {
         $this->saisie = $saisie;
@@ -328,6 +337,7 @@ class HistoriquesEmployesColonnes {
      * Set the selection.
      *
      * @param string $selection The selection.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setSelection($selection) {
         $this->selection = $selection;
@@ -338,6 +348,7 @@ class HistoriquesEmployesColonnes {
      * Set the taille.
      *
      * @param int $taille The taille.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setTaille($taille) {
         $this->taille = $taille;
@@ -348,6 +359,7 @@ class HistoriquesEmployesColonnes {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setTitre($titre) {
         $this->titre = $titre;
@@ -358,6 +370,7 @@ class HistoriquesEmployesColonnes {
      * Set the b en graph.
      *
      * @param bool $bEnGraph The b en graph.
+     * @return HistoriquesEmployesColonnes Returns this Historiques employes colonnes.
      */
     public function setbEnGraph($bEnGraph) {
         $this->bEnGraph = $bEnGraph;

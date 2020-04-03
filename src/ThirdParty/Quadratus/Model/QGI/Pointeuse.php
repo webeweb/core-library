@@ -96,6 +96,7 @@ class Pointeuse {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return Pointeuse Returns this Pointeuse.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -106,6 +107,7 @@ class Pointeuse {
      * Set the date heure systeme.
      *
      * @param DateTime|null $dateHeureSysteme The date heure systeme.
+     * @return Pointeuse Returns this Pointeuse.
      */
     public function setDateHeureSysteme(DateTime $dateHeureSysteme = null) {
         $this->dateHeureSysteme = $dateHeureSysteme;
@@ -116,6 +118,7 @@ class Pointeuse {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return Pointeuse Returns this Pointeuse.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -126,6 +129,7 @@ class Pointeuse {
      * Set the id pointeuse.
      *
      * @param int $idPointeuse The id pointeuse.
+     * @return Pointeuse Returns this Pointeuse.
      */
     public function setIdPointeuse($idPointeuse) {
         $this->idPointeuse = $idPointeuse;

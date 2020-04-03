@@ -142,6 +142,7 @@ class ClientsSelectionSuite {
      * Set the coche client.
      *
      * @param bool $cocheClient The coche client.
+     * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
     public function setCocheClient($cocheClient) {
         $this->cocheClient = $cocheClient;
@@ -152,6 +153,7 @@ class ClientsSelectionSuite {
      * Set the coche fournisseur.
      *
      * @param bool $cocheFournisseur The coche fournisseur.
+     * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
     public function setCocheFournisseur($cocheFournisseur) {
         $this->cocheFournisseur = $cocheFournisseur;
@@ -162,6 +164,7 @@ class ClientsSelectionSuite {
      * Set the coche intervenant.
      *
      * @param bool $cocheIntervenant The coche intervenant.
+     * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
     public function setCocheIntervenant($cocheIntervenant) {
         $this->cocheIntervenant = $cocheIntervenant;
@@ -172,6 +175,7 @@ class ClientsSelectionSuite {
      * Set the coche prospect.
      *
      * @param bool $cocheProspect The coche prospect.
+     * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
     public function setCocheProspect($cocheProspect) {
         $this->cocheProspect = $cocheProspect;
@@ -182,6 +186,7 @@ class ClientsSelectionSuite {
      * Set the coche sorti.
      *
      * @param bool $cocheSorti The coche sorti.
+     * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
     public function setCocheSorti($cocheSorti) {
         $this->cocheSorti = $cocheSorti;
@@ -192,6 +197,7 @@ class ClientsSelectionSuite {
      * Set the code col.
      *
      * @param string $codeCol The code col.
+     * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
     public function setCodeCol($codeCol) {
         $this->codeCol = $codeCol;
@@ -202,6 +208,7 @@ class ClientsSelectionSuite {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

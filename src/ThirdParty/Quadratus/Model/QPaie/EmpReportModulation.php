@@ -80,6 +80,7 @@ class EmpReportModulation {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return EmpReportModulation Returns this Emp report modulation.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -90,6 +91,7 @@ class EmpReportModulation {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpReportModulation Returns this Emp report modulation.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -100,6 +102,7 @@ class EmpReportModulation {
      * Set the report mod ant.
      *
      * @param float $reportModAnt The report mod ant.
+     * @return EmpReportModulation Returns this Emp report modulation.
      */
     public function setReportModAnt($reportModAnt) {
         $this->reportModAnt = $reportModAnt;

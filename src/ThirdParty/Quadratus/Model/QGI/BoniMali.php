@@ -208,6 +208,7 @@ class BoniMali {
      * Set the bm calcule.
      *
      * @param bool $bmCalcule The bm calcule.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setBmCalcule($bmCalcule) {
         $this->bmCalcule = $bmCalcule;
@@ -218,6 +219,7 @@ class BoniMali {
      * Set the bonus.
      *
      * @param float $bonus The bonus.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setBonus($bonus) {
         $this->bonus = $bonus;
@@ -228,6 +230,7 @@ class BoniMali {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -238,6 +241,7 @@ class BoniMali {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -248,6 +252,7 @@ class BoniMali {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -258,6 +263,7 @@ class BoniMali {
      * Set the date bm.
      *
      * @param DateTime|null $dateBm The date bm.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setDateBm(DateTime $dateBm = null) {
         $this->dateBm = $dateBm;
@@ -268,6 +274,7 @@ class BoniMali {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -278,6 +285,7 @@ class BoniMali {
      * Set the malus.
      *
      * @param float $malus The malus.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setMalus($malus) {
         $this->malus = $malus;
@@ -288,6 +296,7 @@ class BoniMali {
      * Set the monnaie.
      *
      * @param string $monnaie The monnaie.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setMonnaie($monnaie) {
         $this->monnaie = $monnaie;
@@ -298,6 +307,7 @@ class BoniMali {
      * Set the numero bm.
      *
      * @param string $numeroBm The numero bm.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setNumeroBm($numeroBm) {
         $this->numeroBm = $numeroBm;
@@ -308,6 +318,7 @@ class BoniMali {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return BoniMali Returns this Boni mali.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;

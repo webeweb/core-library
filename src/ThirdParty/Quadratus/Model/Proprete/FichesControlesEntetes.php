@@ -432,6 +432,7 @@ class FichesControlesEntetes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -442,6 +443,7 @@ class FichesControlesEntetes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -452,6 +454,7 @@ class FichesControlesEntetes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -462,6 +465,7 @@ class FichesControlesEntetes {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -472,6 +476,7 @@ class FichesControlesEntetes {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -482,6 +487,7 @@ class FichesControlesEntetes {
      * Set the controleur.
      *
      * @param string $controleur The controleur.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setControleur($controleur) {
         $this->controleur = $controleur;
@@ -492,6 +498,7 @@ class FichesControlesEntetes {
      * Set the date controle.
      *
      * @param DateTime|null $dateControle The date controle.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setDateControle(DateTime $dateControle = null) {
         $this->dateControle = $dateControle;
@@ -502,6 +509,7 @@ class FichesControlesEntetes {
      * Set the date ctrl prevue.
      *
      * @param DateTime|null $dateCtrlPrevue The date ctrl prevue.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setDateCtrlPrevue(DateTime $dateCtrlPrevue = null) {
         $this->dateCtrlPrevue = $dateCtrlPrevue;
@@ -512,6 +520,7 @@ class FichesControlesEntetes {
      * Set the date transfert.
      *
      * @param DateTime|null $dateTransfert The date transfert.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setDateTransfert(DateTime $dateTransfert = null) {
         $this->dateTransfert = $dateTransfert;
@@ -522,6 +531,7 @@ class FichesControlesEntetes {
      * Set the fiche contradictoire.
      *
      * @param bool $ficheContradictoire The fiche contradictoire.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setFicheContradictoire($ficheContradictoire) {
         $this->ficheContradictoire = $ficheContradictoire;
@@ -532,6 +542,7 @@ class FichesControlesEntetes {
      * Set the fiche signee.
      *
      * @param bool $ficheSignee The fiche signee.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setFicheSignee($ficheSignee) {
         $this->ficheSignee = $ficheSignee;
@@ -542,6 +553,7 @@ class FichesControlesEntetes {
      * Set the heure debut.
      *
      * @param DateTime|null $heureDebut The heure debut.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setHeureDebut(DateTime $heureDebut = null) {
         $this->heureDebut = $heureDebut;
@@ -552,6 +564,7 @@ class FichesControlesEntetes {
      * Set the heure fin.
      *
      * @param DateTime|null $heureFin The heure fin.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setHeureFin(DateTime $heureFin = null) {
         $this->heureFin = $heureFin;
@@ -562,6 +575,7 @@ class FichesControlesEntetes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -572,6 +586,7 @@ class FichesControlesEntetes {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -582,6 +597,7 @@ class FichesControlesEntetes {
      * Set the local.
      *
      * @param string $local The local.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setLocal($local) {
         $this->local = $local;
@@ -592,6 +608,7 @@ class FichesControlesEntetes {
      * Set the local pere.
      *
      * @param string $localPere The local pere.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setLocalPere($localPere) {
         $this->localPere = $localPere;
@@ -602,6 +619,7 @@ class FichesControlesEntetes {
      * Set the note globale.
      *
      * @param float $noteGlobale The note globale.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setNoteGlobale($noteGlobale) {
         $this->noteGlobale = $noteGlobale;
@@ -612,6 +630,7 @@ class FichesControlesEntetes {
      * Set the note objectif.
      *
      * @param float $noteObjectif The note objectif.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setNoteObjectif($noteObjectif) {
         $this->noteObjectif = $noteObjectif;
@@ -622,6 +641,7 @@ class FichesControlesEntetes {
      * Set the numero fiche.
      *
      * @param int $numeroFiche The numero fiche.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setNumeroFiche($numeroFiche) {
         $this->numeroFiche = $numeroFiche;
@@ -632,6 +652,7 @@ class FichesControlesEntetes {
      * Set the numero noeud local.
      *
      * @param int $numeroNoeudLocal The numero noeud local.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setNumeroNoeudLocal($numeroNoeudLocal) {
         $this->numeroNoeudLocal = $numeroNoeudLocal;
@@ -642,6 +663,7 @@ class FichesControlesEntetes {
      * Set the satisfaction generale.
      *
      * @param string $satisfactionGenerale The satisfaction generale.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setSatisfactionGenerale($satisfactionGenerale) {
         $this->satisfactionGenerale = $satisfactionGenerale;
@@ -652,6 +674,7 @@ class FichesControlesEntetes {
      * Set the type controle.
      *
      * @param string $typeControle The type controle.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setTypeControle($typeControle) {
         $this->typeControle = $typeControle;
@@ -662,6 +685,7 @@ class FichesControlesEntetes {
      * Set the uniq id blocage.
      *
      * @param string $uniqIdBlocage The uniq id blocage.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setUniqIdBlocage($uniqIdBlocage) {
         $this->uniqIdBlocage = $uniqIdBlocage;
@@ -672,6 +696,7 @@ class FichesControlesEntetes {
      * Set the uniq id noeud.
      *
      * @param string $uniqIdNoeud The uniq id noeud.
+     * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
     public function setUniqIdNoeud($uniqIdNoeud) {
         $this->uniqIdNoeud = $uniqIdNoeud;

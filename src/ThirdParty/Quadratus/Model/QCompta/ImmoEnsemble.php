@@ -78,6 +78,7 @@ class ImmoEnsemble {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ImmoEnsemble Returns this Immo ensemble.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -88,6 +89,7 @@ class ImmoEnsemble {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return ImmoEnsemble Returns this Immo ensemble.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -98,6 +100,7 @@ class ImmoEnsemble {
      * Set the numero ensemble.
      *
      * @param int $numeroEnsemble The numero ensemble.
+     * @return ImmoEnsemble Returns this Immo ensemble.
      */
     public function setNumeroEnsemble($numeroEnsemble) {
         $this->numeroEnsemble = $numeroEnsemble;

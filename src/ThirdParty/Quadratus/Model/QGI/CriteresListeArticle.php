@@ -78,6 +78,7 @@ class CriteresListeArticle {
      * Set the code.
      *
      * @param string $code The code.
+     * @return CriteresListeArticle Returns this Criteres liste article.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class CriteresListeArticle {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return CriteresListeArticle Returns this Criteres liste article.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -98,6 +100,7 @@ class CriteresListeArticle {
      * Set the num libelle.
      *
      * @param string $numLibelle The num libelle.
+     * @return CriteresListeArticle Returns this Criteres liste article.
      */
     public function setNumLibelle($numLibelle) {
         $this->numLibelle = $numLibelle;

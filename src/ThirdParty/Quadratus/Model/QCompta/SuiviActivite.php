@@ -112,6 +112,7 @@ class SuiviActivite {
      * Set the code coll.
      *
      * @param string $codeColl The code coll.
+     * @return SuiviActivite Returns this Suivi activite.
      */
     public function setCodeColl($codeColl) {
         $this->codeColl = $codeColl;
@@ -122,6 +123,7 @@ class SuiviActivite {
      * Set the date heure.
      *
      * @param DateTime|null $dateHeure The date heure.
+     * @return SuiviActivite Returns this Suivi activite.
      */
     public function setDateHeure(DateTime $dateHeure = null) {
         $this->dateHeure = $dateHeure;
@@ -132,6 +134,7 @@ class SuiviActivite {
      * Set the description.
      *
      * @param string $description The description.
+     * @return SuiviActivite Returns this Suivi activite.
      */
     public function setDescription($description) {
         $this->description = $description;
@@ -142,6 +145,7 @@ class SuiviActivite {
      * Set the id action.
      *
      * @param int $idAction The id action.
+     * @return SuiviActivite Returns this Suivi activite.
      */
     public function setIdAction($idAction) {
         $this->idAction = $idAction;
@@ -152,6 +156,7 @@ class SuiviActivite {
      * Set the resultat.
      *
      * @param string $resultat The resultat.
+     * @return SuiviActivite Returns this Suivi activite.
      */
     public function setResultat($resultat) {
         $this->resultat = $resultat;

@@ -94,6 +94,7 @@ class ArticleVariantes {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArticleVariantes Returns this Article variantes.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -104,6 +105,7 @@ class ArticleVariantes {
      * Set the code barre.
      *
      * @param string $codeBarre The code barre.
+     * @return ArticleVariantes Returns this Article variantes.
      */
     public function setCodeBarre($codeBarre) {
         $this->codeBarre = $codeBarre;
@@ -114,6 +116,7 @@ class ArticleVariantes {
      * Set the code variante.
      *
      * @param string $codeVariante The code variante.
+     * @return ArticleVariantes Returns this Article variantes.
      */
     public function setCodeVariante($codeVariante) {
         $this->codeVariante = $codeVariante;
@@ -124,6 +127,7 @@ class ArticleVariantes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ArticleVariantes Returns this Article variantes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

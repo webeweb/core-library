@@ -94,6 +94,7 @@ class EnvoiSmsFact {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return EnvoiSmsFact Returns this Envoi sms fact.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -104,6 +105,7 @@ class EnvoiSmsFact {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return EnvoiSmsFact Returns this Envoi sms fact.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -114,6 +116,7 @@ class EnvoiSmsFact {
      * Set the msg client.
      *
      * @param string $msgClient The msg client.
+     * @return EnvoiSmsFact Returns this Envoi sms fact.
      */
     public function setMsgClient($msgClient) {
         $this->msgClient = $msgClient;
@@ -124,6 +127,7 @@ class EnvoiSmsFact {
      * Set the msg representant.
      *
      * @param string $msgRepresentant The msg representant.
+     * @return EnvoiSmsFact Returns this Envoi sms fact.
      */
     public function setMsgRepresentant($msgRepresentant) {
         $this->msgRepresentant = $msgRepresentant;

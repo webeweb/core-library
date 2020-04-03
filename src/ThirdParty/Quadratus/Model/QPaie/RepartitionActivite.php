@@ -78,6 +78,7 @@ class RepartitionActivite {
      * Set the code service.
      *
      * @param string $codeService The code service.
+     * @return RepartitionActivite Returns this Repartition activite.
      */
     public function setCodeService($codeService) {
         $this->codeService = $codeService;
@@ -88,6 +89,7 @@ class RepartitionActivite {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return RepartitionActivite Returns this Repartition activite.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -98,6 +100,7 @@ class RepartitionActivite {
      * Set the taux ventilation.
      *
      * @param float $tauxVentilation The taux ventilation.
+     * @return RepartitionActivite Returns this Repartition activite.
      */
     public function setTauxVentilation($tauxVentilation) {
         $this->tauxVentilation = $tauxVentilation;

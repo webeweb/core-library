@@ -110,6 +110,7 @@ class Reglements {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Reglements Returns this Reglements.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -120,6 +121,7 @@ class Reglements {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Reglements Returns this Reglements.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -130,6 +132,7 @@ class Reglements {
      * Set the intitule2.
      *
      * @param string $intitule2 The intitule2.
+     * @return Reglements Returns this Reglements.
      */
     public function setIntitule2($intitule2) {
         $this->intitule2 = $intitule2;
@@ -140,6 +143,7 @@ class Reglements {
      * Set the intitule3.
      *
      * @param string $intitule3 The intitule3.
+     * @return Reglements Returns this Reglements.
      */
     public function setIntitule3($intitule3) {
         $this->intitule3 = $intitule3;
@@ -150,6 +154,7 @@ class Reglements {
      * Set the type acceptation.
      *
      * @param string $typeAcceptation The type acceptation.
+     * @return Reglements Returns this Reglements.
      */
     public function setTypeAcceptation($typeAcceptation) {
         $this->typeAcceptation = $typeAcceptation;

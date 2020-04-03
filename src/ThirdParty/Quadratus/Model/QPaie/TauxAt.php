@@ -144,6 +144,7 @@ class TauxAt {
      * Set the a partir de.
      *
      * @param DateTime|null $aPartirDe The a partir de.
+     * @return TauxAt Returns this Taux at.
      */
     public function setAPartirDe(DateTime $aPartirDe = null) {
         $this->aPartirDe = $aPartirDe;
@@ -154,6 +155,7 @@ class TauxAt {
      * Set the bureau.
      *
      * @param string $bureau The bureau.
+     * @return TauxAt Returns this Taux at.
      */
     public function setBureau($bureau) {
         $this->bureau = $bureau;
@@ -164,6 +166,7 @@ class TauxAt {
      * Set the code at.
      *
      * @param int $codeAt The code at.
+     * @return TauxAt Returns this Taux at.
      */
     public function setCodeAt($codeAt) {
         $this->codeAt = $codeAt;
@@ -174,6 +177,7 @@ class TauxAt {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return TauxAt Returns this Taux at.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -184,6 +188,7 @@ class TauxAt {
      * Set the risque.
      *
      * @param string $risque The risque.
+     * @return TauxAt Returns this Taux at.
      */
     public function setRisque($risque) {
         $this->risque = $risque;
@@ -194,6 +199,7 @@ class TauxAt {
      * Set the section.
      *
      * @param string $section The section.
+     * @return TauxAt Returns this Taux at.
      */
     public function setSection($section) {
         $this->section = $section;
@@ -204,6 +210,7 @@ class TauxAt {
      * Set the taux.
      *
      * @param float $taux The taux.
+     * @return TauxAt Returns this Taux at.
      */
     public function setTaux($taux) {
         $this->taux = $taux;

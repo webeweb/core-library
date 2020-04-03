@@ -208,6 +208,7 @@ class Materiels {
      * Set the car tec.
      *
      * @param string $carTec The car tec.
+     * @return Materiels Returns this Materiels.
      */
     public function setCarTec($carTec) {
         $this->carTec = $carTec;
@@ -218,6 +219,7 @@ class Materiels {
      * Set the categorie.
      *
      * @param string $categorie The categorie.
+     * @return Materiels Returns this Materiels.
      */
     public function setCategorie($categorie) {
         $this->categorie = $categorie;
@@ -228,6 +230,7 @@ class Materiels {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Materiels Returns this Materiels.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -238,6 +241,7 @@ class Materiels {
      * Set the code intervenant.
      *
      * @param string $codeIntervenant The code intervenant.
+     * @return Materiels Returns this Materiels.
      */
     public function setCodeIntervenant($codeIntervenant) {
         $this->codeIntervenant = $codeIntervenant;
@@ -248,6 +252,7 @@ class Materiels {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return Materiels Returns this Materiels.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -258,6 +263,7 @@ class Materiels {
      * Set the date achat.
      *
      * @param DateTime|null $dateAchat The date achat.
+     * @return Materiels Returns this Materiels.
      */
     public function setDateAchat(DateTime $dateAchat = null) {
         $this->dateAchat = $dateAchat;
@@ -268,6 +274,7 @@ class Materiels {
      * Set the date fin util.
      *
      * @param DateTime|null $dateFinUtil The date fin util.
+     * @return Materiels Returns this Materiels.
      */
     public function setDateFinUtil(DateTime $dateFinUtil = null) {
         $this->dateFinUtil = $dateFinUtil;
@@ -278,6 +285,7 @@ class Materiels {
      * Set the indice aff.
      *
      * @param int $indiceAff The indice aff.
+     * @return Materiels Returns this Materiels.
      */
     public function setIndiceAff($indiceAff) {
         $this->indiceAff = $indiceAff;
@@ -288,6 +296,7 @@ class Materiels {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Materiels Returns this Materiels.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -298,6 +307,7 @@ class Materiels {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return Materiels Returns this Materiels.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -308,6 +318,7 @@ class Materiels {
      * Set the sous categorie.
      *
      * @param string $sousCategorie The sous categorie.
+     * @return Materiels Returns this Materiels.
      */
     public function setSousCategorie($sousCategorie) {
         $this->sousCategorie = $sousCategorie;

@@ -224,6 +224,7 @@ class TauxRetraiteEtab {
      * Set the a partir de.
      *
      * @param DateTime|null $aPartirDe The a partir de.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setAPartirDe(DateTime $aPartirDe = null) {
         $this->aPartirDe = $aPartirDe;
@@ -234,6 +235,7 @@ class TauxRetraiteEtab {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -244,6 +246,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr2 pp.
      *
      * @param float $tauxRetTr2Pp The taux ret tr2 pp.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTr2Pp($tauxRetTr2Pp) {
         $this->tauxRetTr2Pp = $tauxRetTr2Pp;
@@ -254,6 +257,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr2 ps.
      *
      * @param float $tauxRetTr2Ps The taux ret tr2 ps.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTr2Ps($tauxRetTr2Ps) {
         $this->tauxRetTr2Ps = $tauxRetTr2Ps;
@@ -264,6 +268,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr app.
      *
      * @param float $tauxRetTrApp The taux ret tr app.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTrApp($tauxRetTrApp) {
         $this->tauxRetTrApp = $tauxRetTrApp;
@@ -274,6 +279,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr aps.
      *
      * @param float $tauxRetTrAps The taux ret tr aps.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTrAps($tauxRetTrAps) {
         $this->tauxRetTrAps = $tauxRetTrAps;
@@ -284,6 +290,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr bpp.
      *
      * @param float $tauxRetTrBpp The taux ret tr bpp.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTrBpp($tauxRetTrBpp) {
         $this->tauxRetTrBpp = $tauxRetTrBpp;
@@ -294,6 +301,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr bps.
      *
      * @param float $tauxRetTrBps The taux ret tr bps.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTrBps($tauxRetTrBps) {
         $this->tauxRetTrBps = $tauxRetTrBps;
@@ -304,6 +312,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr cpp.
      *
      * @param float $tauxRetTrCpp The taux ret tr cpp.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTrCpp($tauxRetTrCpp) {
         $this->tauxRetTrCpp = $tauxRetTrCpp;
@@ -314,6 +323,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr cps.
      *
      * @param float $tauxRetTrCps The taux ret tr cps.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTrCps($tauxRetTrCps) {
         $this->tauxRetTrCps = $tauxRetTrCps;
@@ -324,6 +334,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr dpp.
      *
      * @param float $tauxRetTrDpp The taux ret tr dpp.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTrDpp($tauxRetTrDpp) {
         $this->tauxRetTrDpp = $tauxRetTrDpp;
@@ -334,6 +345,7 @@ class TauxRetraiteEtab {
      * Set the taux ret tr dps.
      *
      * @param float $tauxRetTrDps The taux ret tr dps.
+     * @return TauxRetraiteEtab Returns this Taux retraite etab.
      */
     public function setTauxRetTrDps($tauxRetTrDps) {
         $this->tauxRetTrDps = $tauxRetTrDps;

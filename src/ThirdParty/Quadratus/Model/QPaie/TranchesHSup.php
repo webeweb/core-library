@@ -240,6 +240,7 @@ class TranchesHSup {
      * Set the a comptabiliser rc.
      *
      * @param bool $aComptabiliserRc The a comptabiliser rc.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setAComptabiliserRc($aComptabiliserRc) {
         $this->aComptabiliserRc = $aComptabiliserRc;
@@ -250,6 +251,7 @@ class TranchesHSup {
      * Set the a comptabiliser rcit.
      *
      * @param bool $aComptabiliserRcit The a comptabiliser rcit.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setAComptabiliserRcit($aComptabiliserRcit) {
         $this->aComptabiliserRcit = $aComptabiliserRcit;
@@ -260,6 +262,7 @@ class TranchesHSup {
      * Set the appliquer h sup.
      *
      * @param bool $appliquerHSup The appliquer h sup.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setAppliquerHSup($appliquerHSup) {
         $this->appliquerHSup = $appliquerHSup;
@@ -270,6 +273,7 @@ class TranchesHSup {
      * Set the appliquer repos remplace.
      *
      * @param bool $appliquerReposRemplace The appliquer repos remplace.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setAppliquerReposRemplace($appliquerReposRemplace) {
         $this->appliquerReposRemplace = $appliquerReposRemplace;
@@ -280,6 +284,7 @@ class TranchesHSup {
      * Set the code lib hs.
      *
      * @param string $codeLibHs The code lib hs.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setCodeLibHs($codeLibHs) {
         $this->codeLibHs = $codeLibHs;
@@ -290,6 +295,7 @@ class TranchesHSup {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -300,6 +306,7 @@ class TranchesHSup {
      * Set the declenche rc semaine.
      *
      * @param bool $declencheRcSemaine The declenche rc semaine.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setDeclencheRcSemaine($declencheRcSemaine) {
         $this->declencheRcSemaine = $declencheRcSemaine;
@@ -310,6 +317,7 @@ class TranchesHSup {
      * Set the horaire depassement.
      *
      * @param float $horaireDepassement The horaire depassement.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setHoraireDepassement($horaireDepassement) {
         $this->horaireDepassement = $horaireDepassement;
@@ -320,6 +328,7 @@ class TranchesHSup {
      * Set the numero grille type.
      *
      * @param int $numeroGrilleType The numero grille type.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setNumeroGrilleType($numeroGrilleType) {
         $this->numeroGrilleType = $numeroGrilleType;
@@ -330,6 +339,7 @@ class TranchesHSup {
      * Set the pourcent h sup.
      *
      * @param float $pourcentHSup The pourcent h sup.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setPourcentHSup($pourcentHSup) {
         $this->pourcentHSup = $pourcentHSup;
@@ -340,6 +350,7 @@ class TranchesHSup {
      * Set the pourcent rc.
      *
      * @param float $pourcentRc The pourcent rc.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setPourcentRc($pourcentRc) {
         $this->pourcentRc = $pourcentRc;
@@ -350,6 +361,7 @@ class TranchesHSup {
      * Set the pourcent repos remplace.
      *
      * @param float $pourcentReposRemplace The pourcent repos remplace.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setPourcentReposRemplace($pourcentReposRemplace) {
         $this->pourcentReposRemplace = $pourcentReposRemplace;
@@ -360,6 +372,7 @@ class TranchesHSup {
      * Set the type paiement.
      *
      * @param string $typePaiement The type paiement.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setTypePaiement($typePaiement) {
         $this->typePaiement = $typePaiement;

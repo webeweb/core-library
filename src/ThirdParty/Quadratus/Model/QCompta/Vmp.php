@@ -190,6 +190,7 @@ class Vmp {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Vmp Returns this Vmp.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -200,6 +201,7 @@ class Vmp {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return Vmp Returns this Vmp.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -210,6 +212,7 @@ class Vmp {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return Vmp Returns this Vmp.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -220,6 +223,7 @@ class Vmp {
      * Set the compte comm.
      *
      * @param string $compteComm The compte comm.
+     * @return Vmp Returns this Vmp.
      */
     public function setCompteComm($compteComm) {
         $this->compteComm = $compteComm;
@@ -230,6 +234,7 @@ class Vmp {
      * Set the compte coupons.
      *
      * @param string $compteCoupons The compte coupons.
+     * @return Vmp Returns this Vmp.
      */
     public function setCompteCoupons($compteCoupons) {
         $this->compteCoupons = $compteCoupons;
@@ -240,6 +245,7 @@ class Vmp {
      * Set the compte frais.
      *
      * @param string $compteFrais The compte frais.
+     * @return Vmp Returns this Vmp.
      */
     public function setCompteFrais($compteFrais) {
         $this->compteFrais = $compteFrais;
@@ -250,6 +256,7 @@ class Vmp {
      * Set the identifiant.
      *
      * @param string $identifiant The identifiant.
+     * @return Vmp Returns this Vmp.
      */
     public function setIdentifiant($identifiant) {
         $this->identifiant = $identifiant;
@@ -260,6 +267,7 @@ class Vmp {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Vmp Returns this Vmp.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -270,6 +278,7 @@ class Vmp {
      * Set the nb lignes mvt.
      *
      * @param int $nbLignesMvt The nb lignes mvt.
+     * @return Vmp Returns this Vmp.
      */
     public function setNbLignesMvt($nbLignesMvt) {
         $this->nbLignesMvt = $nbLignesMvt;
@@ -280,6 +289,7 @@ class Vmp {
      * Set the num compte.
      *
      * @param string $numCompte The num compte.
+     * @return Vmp Returns this Vmp.
      */
     public function setNumCompte($numCompte) {
         $this->numCompte = $numCompte;

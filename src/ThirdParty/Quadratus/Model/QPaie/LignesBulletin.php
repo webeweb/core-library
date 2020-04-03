@@ -720,6 +720,7 @@ class LignesBulletin {
      * Set the anal diff.
      *
      * @param bool $analDiff The anal diff.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setAnalDiff($analDiff) {
         $this->analDiff = $analDiff;
@@ -730,6 +731,7 @@ class LignesBulletin {
      * Set the avantage nature.
      *
      * @param bool $avantageNature The avantage nature.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setAvantageNature($avantageNature) {
         $this->avantageNature = $avantageNature;
@@ -740,6 +742,7 @@ class LignesBulletin {
      * Set the base sans reintegration.
      *
      * @param float $baseSansReintegration The base sans reintegration.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setBaseSansReintegration($baseSansReintegration) {
         $this->baseSansReintegration = $baseSansReintegration;
@@ -750,6 +753,7 @@ class LignesBulletin {
      * Set the cle lig bul.
      *
      * @param string $cleLigBul The cle lig bul.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setCleLigBul($cleLigBul) {
         $this->cleLigBul = $cleLigBul;
@@ -760,6 +764,7 @@ class LignesBulletin {
      * Set the code.
      *
      * @param string $code The code.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -770,6 +775,7 @@ class LignesBulletin {
      * Set the code calcul.
      *
      * @param string $codeCalcul The code calcul.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setCodeCalcul($codeCalcul) {
         $this->codeCalcul = $codeCalcul;
@@ -780,6 +786,7 @@ class LignesBulletin {
      * Set the condition spec.
      *
      * @param string $conditionSpec The condition spec.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setConditionSpec($conditionSpec) {
         $this->conditionSpec = $conditionSpec;
@@ -790,6 +797,7 @@ class LignesBulletin {
      * Set the conge paye.
      *
      * @param bool $congePaye The conge paye.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setCongePaye($congePaye) {
         $this->congePaye = $congePaye;
@@ -800,6 +808,7 @@ class LignesBulletin {
      * Set the cumul cout glob.
      *
      * @param bool $cumulCoutGlob The cumul cout glob.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setCumulCoutGlob($cumulCoutGlob) {
         $this->cumulCoutGlob = $cumulCoutGlob;
@@ -810,6 +819,7 @@ class LignesBulletin {
      * Set the edition base.
      *
      * @param bool $editionBase The edition base.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setEditionBase($editionBase) {
         $this->editionBase = $editionBase;
@@ -820,6 +830,7 @@ class LignesBulletin {
      * Set the edition cot patronale.
      *
      * @param bool $editionCotPatronale The edition cot patronale.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setEditionCotPatronale($editionCotPatronale) {
         $this->editionCotPatronale = $editionCotPatronale;
@@ -830,6 +841,7 @@ class LignesBulletin {
      * Set the edition resultat.
      *
      * @param bool $editionResultat The edition resultat.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setEditionResultat($editionResultat) {
         $this->editionResultat = $editionResultat;
@@ -840,6 +852,7 @@ class LignesBulletin {
      * Set the edition taux sal.
      *
      * @param bool $editionTauxSal The edition taux sal.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setEditionTauxSal($editionTauxSal) {
         $this->editionTauxSal = $editionTauxSal;
@@ -850,6 +863,7 @@ class LignesBulletin {
      * Set the flag force.
      *
      * @param bool $flagForce The flag force.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setFlagForce($flagForce) {
         $this->flagForce = $flagForce;
@@ -860,6 +874,7 @@ class LignesBulletin {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -870,6 +885,7 @@ class LignesBulletin {
      * Set the integ net paye.
      *
      * @param bool $integNetPaye The integ net paye.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setIntegNetPaye($integNetPaye) {
         $this->integNetPaye = $integNetPaye;
@@ -880,6 +896,7 @@ class LignesBulletin {
      * Set the intervient brut al.
      *
      * @param bool $intervientBrutAl The intervient brut al.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setIntervientBrutAl($intervientBrutAl) {
         $this->intervientBrutAl = $intervientBrutAl;
@@ -890,6 +907,7 @@ class LignesBulletin {
      * Set the intervient indem preca.
      *
      * @param bool $intervientIndemPreca The intervient indem preca.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setIntervientIndemPreca($intervientIndemPreca) {
         $this->intervientIndemPreca = $intervientIndemPreca;
@@ -900,6 +918,7 @@ class LignesBulletin {
      * Set the intervient taux h ab cp.
      *
      * @param string $intervientTauxHAbCp The intervient taux h ab cp.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setIntervientTauxHAbCp($intervientTauxHAbCp) {
         $this->intervientTauxHAbCp = $intervientTauxHAbCp;
@@ -910,6 +929,7 @@ class LignesBulletin {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -920,6 +940,7 @@ class LignesBulletin {
      * Set the lien.
      *
      * @param int $lien The lien.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setLien($lien) {
         $this->lien = $lien;
@@ -930,6 +951,7 @@ class LignesBulletin {
      * Set the montant1.
      *
      * @param float $montant1 The montant1.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setMontant1($montant1) {
         $this->montant1 = $montant1;
@@ -940,6 +962,7 @@ class LignesBulletin {
      * Set the montant2.
      *
      * @param float $montant2 The montant2.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setMontant2($montant2) {
         $this->montant2 = $montant2;
@@ -950,6 +973,7 @@ class LignesBulletin {
      * Set the montant3.
      *
      * @param float $montant3 The montant3.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setMontant3($montant3) {
         $this->montant3 = $montant3;
@@ -960,6 +984,7 @@ class LignesBulletin {
      * Set the montant4.
      *
      * @param float $montant4 The montant4.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setMontant4($montant4) {
         $this->montant4 = $montant4;
@@ -970,6 +995,7 @@ class LignesBulletin {
      * Set the montant global.
      *
      * @param float $montantGlobal The montant global.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setMontantGlobal($montantGlobal) {
         $this->montantGlobal = $montantGlobal;
@@ -980,6 +1006,7 @@ class LignesBulletin {
      * Set the montant salarial.
      *
      * @param float $montantSalarial The montant salarial.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setMontantSalarial($montantSalarial) {
         $this->montantSalarial = $montantSalarial;
@@ -990,6 +1017,7 @@ class LignesBulletin {
      * Set the neutre.
      *
      * @param bool $neutre The neutre.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setNeutre($neutre) {
         $this->neutre = $neutre;
@@ -1000,6 +1028,7 @@ class LignesBulletin {
      * Set the num cumul bulletin.
      *
      * @param int $numCumulBulletin The num cumul bulletin.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setNumCumulBulletin($numCumulBulletin) {
         $this->numCumulBulletin = $numCumulBulletin;
@@ -1010,6 +1039,7 @@ class LignesBulletin {
      * Set the num cumul patron.
      *
      * @param int $numCumulPatron The num cumul patron.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setNumCumulPatron($numCumulPatron) {
         $this->numCumulPatron = $numCumulPatron;
@@ -1020,6 +1050,7 @@ class LignesBulletin {
      * Set the num ligne bulletin.
      *
      * @param int $numLigneBulletin The num ligne bulletin.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setNumLigneBulletin($numLigneBulletin) {
         $this->numLigneBulletin = $numLigneBulletin;
@@ -1030,6 +1061,7 @@ class LignesBulletin {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -1040,6 +1072,7 @@ class LignesBulletin {
      * Set the pas editer.
      *
      * @param bool $pasEditer The pas editer.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setPasEditer($pasEditer) {
         $this->pasEditer = $pasEditer;
@@ -1050,6 +1083,7 @@ class LignesBulletin {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -1060,6 +1094,7 @@ class LignesBulletin {
      * Set the pp soumis taxe.
      *
      * @param bool $ppSoumisTaxe The pp soumis taxe.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setPpSoumisTaxe($ppSoumisTaxe) {
         $this->ppSoumisTaxe = $ppSoumisTaxe;
@@ -1070,6 +1105,7 @@ class LignesBulletin {
      * Set the prime non proratisee.
      *
      * @param bool $primeNonProratisee The prime non proratisee.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setPrimeNonProratisee($primeNonProratisee) {
         $this->primeNonProratisee = $primeNonProratisee;
@@ -1080,6 +1116,7 @@ class LignesBulletin {
      * Set the regle calcul.
      *
      * @param string $regleCalcul The regle calcul.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setRegleCalcul($regleCalcul) {
         $this->regleCalcul = $regleCalcul;
@@ -1090,6 +1127,7 @@ class LignesBulletin {
      * Set the regle taux.
      *
      * @param string $regleTaux The regle taux.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setRegleTaux($regleTaux) {
         $this->regleTaux = $regleTaux;
@@ -1100,6 +1138,7 @@ class LignesBulletin {
      * Set the soumis abattement.
      *
      * @param bool $soumisAbattement The soumis abattement.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setSoumisAbattement($soumisAbattement) {
         $this->soumisAbattement = $soumisAbattement;
@@ -1110,6 +1149,7 @@ class LignesBulletin {
      * Set the soumis crds.
      *
      * @param bool $soumisCrds The soumis crds.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setSoumisCrds($soumisCrds) {
         $this->soumisCrds = $soumisCrds;
@@ -1120,6 +1160,7 @@ class LignesBulletin {
      * Set the soumis csg.
      *
      * @param bool $soumisCsg The soumis csg.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setSoumisCsg($soumisCsg) {
         $this->soumisCsg = $soumisCsg;
@@ -1130,6 +1171,7 @@ class LignesBulletin {
      * Set the type absence.
      *
      * @param string $typeAbsence The type absence.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setTypeAbsence($typeAbsence) {
         $this->typeAbsence = $typeAbsence;
@@ -1140,6 +1182,7 @@ class LignesBulletin {
      * Set the type acompte.
      *
      * @param string $typeAcompte The type acompte.
+     * @return LignesBulletin Returns this Lignes bulletin.
      */
     public function setTypeAcompte($typeAcompte) {
         $this->typeAcompte = $typeAcompte;

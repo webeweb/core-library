@@ -110,6 +110,7 @@ class ConstantesMajorations {
      * Set the except.
      *
      * @param float $except The except.
+     * @return ConstantesMajorations Returns this Constantes majorations.
      */
     public function setExcept($except) {
         $this->except = $except;
@@ -120,6 +121,7 @@ class ConstantesMajorations {
      * Set the mai.
      *
      * @param float $mai The mai.
+     * @return ConstantesMajorations Returns this Constantes majorations.
      */
     public function setMai($mai) {
         $this->mai = $mai;
@@ -130,6 +132,7 @@ class ConstantesMajorations {
      * Set the normal.
      *
      * @param float $normal The normal.
+     * @return ConstantesMajorations Returns this Constantes majorations.
      */
     public function setNormal($normal) {
         $this->normal = $normal;
@@ -140,6 +143,7 @@ class ConstantesMajorations {
      * Set the type.
      *
      * @param string $type The type.
+     * @return ConstantesMajorations Returns this Constantes majorations.
      */
     public function setType($type) {
         $this->type = $type;
@@ -150,6 +154,7 @@ class ConstantesMajorations {
      * Set the type2.
      *
      * @param float $type2 The type2.
+     * @return ConstantesMajorations Returns this Constantes majorations.
      */
     public function setType2($type2) {
         $this->type2 = $type2;

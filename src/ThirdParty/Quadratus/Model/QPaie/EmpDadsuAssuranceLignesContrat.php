@@ -126,6 +126,7 @@ class EmpDadsuAssuranceLignesContrat {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -136,6 +137,7 @@ class EmpDadsuAssuranceLignesContrat {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -146,6 +148,7 @@ class EmpDadsuAssuranceLignesContrat {
      * Set the nb enfants.
      *
      * @param string $nbEnfants The nb enfants.
+     * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
     public function setNbEnfants($nbEnfants) {
         $this->nbEnfants = $nbEnfants;
@@ -156,6 +159,7 @@ class EmpDadsuAssuranceLignesContrat {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -166,6 +170,7 @@ class EmpDadsuAssuranceLignesContrat {
      * Set the ref contrat.
      *
      * @param string $refContrat The ref contrat.
+     * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
     public function setRefContrat($refContrat) {
         $this->refContrat = $refContrat;
@@ -176,6 +181,7 @@ class EmpDadsuAssuranceLignesContrat {
      * Set the unite gestion.
      *
      * @param string $uniteGestion The unite gestion.
+     * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
     public function setUniteGestion($uniteGestion) {
         $this->uniteGestion = $uniteGestion;

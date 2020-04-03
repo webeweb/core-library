@@ -254,6 +254,7 @@ class ActionsCoInscrits {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -264,6 +265,7 @@ class ActionsCoInscrits {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -274,6 +276,7 @@ class ActionsCoInscrits {
      * Set the code manif.
      *
      * @param string $codeManif The code manif.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setCodeManif($codeManif) {
         $this->codeManif = $codeManif;
@@ -284,6 +287,7 @@ class ActionsCoInscrits {
      * Set the confirme.
      *
      * @param bool $confirme The confirme.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setConfirme($confirme) {
         $this->confirme = $confirme;
@@ -294,6 +298,7 @@ class ActionsCoInscrits {
      * Set the email.
      *
      * @param string $email The email.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -304,6 +309,7 @@ class ActionsCoInscrits {
      * Set the fax.
      *
      * @param string $fax The fax.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setFax($fax) {
         $this->fax = $fax;
@@ -314,6 +320,7 @@ class ActionsCoInscrits {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -324,6 +331,7 @@ class ActionsCoInscrits {
      * Set the num interlocuteur.
      *
      * @param int $numInterlocuteur The num interlocuteur.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setNumInterlocuteur($numInterlocuteur) {
         $this->numInterlocuteur = $numInterlocuteur;
@@ -334,6 +342,7 @@ class ActionsCoInscrits {
      * Set the num seance.
      *
      * @param int $numSeance The num seance.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setNumSeance($numSeance) {
         $this->numSeance = $numSeance;
@@ -344,6 +353,7 @@ class ActionsCoInscrits {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -354,6 +364,7 @@ class ActionsCoInscrits {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -364,6 +375,7 @@ class ActionsCoInscrits {
      * Set the present.
      *
      * @param bool $present The present.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setPresent($present) {
         $this->present = $present;
@@ -374,6 +386,7 @@ class ActionsCoInscrits {
      * Set the telephone.
      *
      * @param string $telephone The telephone.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setTelephone($telephone) {
         $this->telephone = $telephone;
@@ -384,6 +397,7 @@ class ActionsCoInscrits {
      * Set the type invite.
      *
      * @param string $typeInvite The type invite.
+     * @return ActionsCoInscrits Returns this Actions co inscrits.
      */
     public function setTypeInvite($typeInvite) {
         $this->typeInvite = $typeInvite;

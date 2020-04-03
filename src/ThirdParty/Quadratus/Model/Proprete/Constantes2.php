@@ -286,6 +286,7 @@ class Constantes2 {
      * Set the format duree.
      *
      * @param bool $formatDuree The format duree.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setFormatDuree($formatDuree) {
         $this->formatDuree = $formatDuree;
@@ -296,6 +297,7 @@ class Constantes2 {
      * Set the jours cpa deduire.
      *
      * @param bool $joursCpaDeduire The jours cpa deduire.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setJoursCpaDeduire($joursCpaDeduire) {
         $this->joursCpaDeduire = $joursCpaDeduire;
@@ -306,6 +308,7 @@ class Constantes2 {
      * Set the nb decimales duree.
      *
      * @param string $nbDecimalesDuree The nb decimales duree.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNbDecimalesDuree($nbDecimalesDuree) {
         $this->nbDecimalesDuree = $nbDecimalesDuree;
@@ -316,6 +319,7 @@ class Constantes2 {
      * Set the num critere bt bool1.
      *
      * @param string $numCritereBtBool1 The num critere bt bool1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereBtBool1($numCritereBtBool1) {
         $this->numCritereBtBool1 = $numCritereBtBool1;
@@ -326,6 +330,7 @@ class Constantes2 {
      * Set the num critere bt bool2.
      *
      * @param string $numCritereBtBool2 The num critere bt bool2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereBtBool2($numCritereBtBool2) {
         $this->numCritereBtBool2 = $numCritereBtBool2;
@@ -336,6 +341,7 @@ class Constantes2 {
      * Set the num critere bt byte1.
      *
      * @param string $numCritereBtByte1 The num critere bt byte1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereBtByte1($numCritereBtByte1) {
         $this->numCritereBtByte1 = $numCritereBtByte1;
@@ -346,6 +352,7 @@ class Constantes2 {
      * Set the num critere bt lst1.
      *
      * @param string $numCritereBtLst1 The num critere bt lst1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereBtLst1($numCritereBtLst1) {
         $this->numCritereBtLst1 = $numCritereBtLst1;
@@ -356,6 +363,7 @@ class Constantes2 {
      * Set the num critere bt lst2.
      *
      * @param string $numCritereBtLst2 The num critere bt lst2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereBtLst2($numCritereBtLst2) {
         $this->numCritereBtLst2 = $numCritereBtLst2;
@@ -366,6 +374,7 @@ class Constantes2 {
      * Set the num critere bt txt1.
      *
      * @param string $numCritereBtTxt1 The num critere bt txt1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereBtTxt1($numCritereBtTxt1) {
         $this->numCritereBtTxt1 = $numCritereBtTxt1;
@@ -376,6 +385,7 @@ class Constantes2 {
      * Set the num critere bt txt2.
      *
      * @param string $numCritereBtTxt2 The num critere bt txt2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereBtTxt2($numCritereBtTxt2) {
         $this->numCritereBtTxt2 = $numCritereBtTxt2;
@@ -386,6 +396,7 @@ class Constantes2 {
      * Set the num critere couleur bt.
      *
      * @param string $numCritereCouleurBt The num critere couleur bt.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereCouleurBt($numCritereCouleurBt) {
         $this->numCritereCouleurBt = $numCritereCouleurBt;
@@ -396,6 +407,7 @@ class Constantes2 {
      * Set the num critere da txt1.
      *
      * @param string $numCritereDaTxt1 The num critere da txt1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereDaTxt1($numCritereDaTxt1) {
         $this->numCritereDaTxt1 = $numCritereDaTxt1;
@@ -406,6 +418,7 @@ class Constantes2 {
      * Set the num critere recla lst1.
      *
      * @param string $numCritereReclaLst1 The num critere recla lst1.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereReclaLst1($numCritereReclaLst1) {
         $this->numCritereReclaLst1 = $numCritereReclaLst1;
@@ -416,6 +429,7 @@ class Constantes2 {
      * Set the num critere recla lst2.
      *
      * @param string $numCritereReclaLst2 The num critere recla lst2.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setNumCritereReclaLst2($numCritereReclaLst2) {
         $this->numCritereReclaLst2 = $numCritereReclaLst2;
@@ -426,6 +440,7 @@ class Constantes2 {
      * Set the publier photo web.
      *
      * @param bool $publierPhotoWeb The publier photo web.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setPublierPhotoWeb($publierPhotoWeb) {
         $this->publierPhotoWeb = $publierPhotoWeb;
@@ -436,6 +451,7 @@ class Constantes2 {
      * Set the type critere couleur bt.
      *
      * @param string $typeCritereCouleurBt The type critere couleur bt.
+     * @return Constantes2 Returns this Constantes2.
      */
     public function setTypeCritereCouleurBt($typeCritereCouleurBt) {
         $this->typeCritereCouleurBt = $typeCritereCouleurBt;

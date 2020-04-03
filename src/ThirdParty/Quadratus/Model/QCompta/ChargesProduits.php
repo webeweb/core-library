@@ -302,6 +302,7 @@ class ChargesProduits {
      * Set the centre.
      *
      * @param string $centre The centre.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setCentre($centre) {
         $this->centre = $centre;
@@ -312,6 +313,7 @@ class ChargesProduits {
      * Set the code feuille.
      *
      * @param string $codeFeuille The code feuille.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setCodeFeuille($codeFeuille) {
         $this->codeFeuille = $codeFeuille;
@@ -322,6 +324,7 @@ class ChargesProduits {
      * Set the commentaires.
      *
      * @param string $commentaires The commentaires.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setCommentaires($commentaires) {
         $this->commentaires = $commentaires;
@@ -332,6 +335,7 @@ class ChargesProduits {
      * Set the contre partie.
      *
      * @param string $contrePartie The contre partie.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setContrePartie($contrePartie) {
         $this->contrePartie = $contrePartie;
@@ -342,6 +346,7 @@ class ChargesProduits {
      * Set the etat ligne.
      *
      * @param string $etatLigne The etat ligne.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setEtatLigne($etatLigne) {
         $this->etatLigne = $etatLigne;
@@ -352,6 +357,7 @@ class ChargesProduits {
      * Set the lib ecriture.
      *
      * @param string $libEcriture The lib ecriture.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setLibEcriture($libEcriture) {
         $this->libEcriture = $libEcriture;
@@ -362,6 +368,7 @@ class ChargesProduits {
      * Set the mois revision.
      *
      * @param string $moisRevision The mois revision.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setMoisRevision($moisRevision) {
         $this->moisRevision = $moisRevision;
@@ -372,6 +379,7 @@ class ChargesProduits {
      * Set the mt ht.
      *
      * @param float $mtHt The mt ht.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setMtHt($mtHt) {
         $this->mtHt = $mtHt;
@@ -382,6 +390,7 @@ class ChargesProduits {
      * Set the mt n1.
      *
      * @param float $mtN1 The mt n1.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setMtN1($mtN1) {
         $this->mtN1 = $mtN1;
@@ -392,6 +401,7 @@ class ChargesProduits {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -402,6 +412,7 @@ class ChargesProduits {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -412,6 +423,7 @@ class ChargesProduits {
      * Set the num lot ecriture.
      *
      * @param int $numLotEcriture The num lot ecriture.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setNumLotEcriture($numLotEcriture) {
         $this->numLotEcriture = $numLotEcriture;
@@ -422,6 +434,7 @@ class ChargesProduits {
      * Set the num lot periodicite.
      *
      * @param int $numLotPeriodicite The num lot periodicite.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setNumLotPeriodicite($numLotPeriodicite) {
         $this->numLotPeriodicite = $numLotPeriodicite;
@@ -432,6 +445,7 @@ class ChargesProduits {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -442,6 +456,7 @@ class ChargesProduits {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -452,6 +467,7 @@ class ChargesProduits {
      * Set the sens.
      *
      * @param string $sens The sens.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setSens($sens) {
         $this->sens = $sens;
@@ -462,6 +478,7 @@ class ChargesProduits {
      * Set the tx tva.
      *
      * @param float $txTva The tx tva.
+     * @return ChargesProduits Returns this Charges produits.
      */
     public function setTxTva($txTva) {
         $this->txTva = $txTva;

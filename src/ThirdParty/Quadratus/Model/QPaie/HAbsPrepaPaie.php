@@ -112,6 +112,7 @@ class HAbsPrepaPaie {
      * Set the nb h non effectue.
      *
      * @param float $nbHNonEffectue The nb h non effectue.
+     * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
     public function setNbHNonEffectue($nbHNonEffectue) {
         $this->nbHNonEffectue = $nbHNonEffectue;
@@ -122,6 +123,7 @@ class HAbsPrepaPaie {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -132,6 +134,7 @@ class HAbsPrepaPaie {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -142,6 +145,7 @@ class HAbsPrepaPaie {
      * Set the semaine.
      *
      * @param string $semaine The semaine.
+     * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
     public function setSemaine($semaine) {
         $this->semaine = $semaine;
@@ -152,6 +156,7 @@ class HAbsPrepaPaie {
      * Set the type absence.
      *
      * @param string $typeAbsence The type absence.
+     * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
     public function setTypeAbsence($typeAbsence) {
         $this->typeAbsence = $typeAbsence;

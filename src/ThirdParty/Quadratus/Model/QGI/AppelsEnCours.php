@@ -576,6 +576,7 @@ class AppelsEnCours {
      * Set the avec mise en somm.
      *
      * @param bool $avecMiseEnSomm The avec mise en somm.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setAvecMiseEnSomm($avecMiseEnSomm) {
         $this->avecMiseEnSomm = $avecMiseEnSomm;
@@ -586,6 +587,7 @@ class AppelsEnCours {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -596,6 +598,7 @@ class AppelsEnCours {
      * Set the code collaborateur dest.
      *
      * @param string $codeCollaborateurDest The code collaborateur dest.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setCodeCollaborateurDest($codeCollaborateurDest) {
         $this->codeCollaborateurDest = $codeCollaborateurDest;
@@ -606,6 +609,7 @@ class AppelsEnCours {
      * Set the code collaborateur entrant.
      *
      * @param string $codeCollaborateurEntrant The code collaborateur entrant.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setCodeCollaborateurEntrant($codeCollaborateurEntrant) {
         $this->codeCollaborateurEntrant = $codeCollaborateurEntrant;
@@ -616,6 +620,7 @@ class AppelsEnCours {
      * Set the code collaborateur redir.
      *
      * @param string $codeCollaborateurRedir The code collaborateur redir.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setCodeCollaborateurRedir($codeCollaborateurRedir) {
         $this->codeCollaborateurRedir = $codeCollaborateurRedir;
@@ -626,6 +631,7 @@ class AppelsEnCours {
      * Set the code produit.
      *
      * @param string $codeProduit The code produit.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setCodeProduit($codeProduit) {
         $this->codeProduit = $codeProduit;
@@ -636,6 +642,7 @@ class AppelsEnCours {
      * Set the compteur temps.
      *
      * @param int $compteurTemps The compteur temps.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setCompteurTemps($compteurTemps) {
         $this->compteurTemps = $compteurTemps;
@@ -646,6 +653,7 @@ class AppelsEnCours {
      * Set the confidentiel.
      *
      * @param bool $confidentiel The confidentiel.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setConfidentiel($confidentiel) {
         $this->confidentiel = $confidentiel;
@@ -656,6 +664,7 @@ class AppelsEnCours {
      * Set the consequence.
      *
      * @param string $consequence The consequence.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setConsequence($consequence) {
         $this->consequence = $consequence;
@@ -666,6 +675,7 @@ class AppelsEnCours {
      * Set the date creation client.
      *
      * @param DateTime|null $dateCreationClient The date creation client.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setDateCreationClient(DateTime $dateCreationClient = null) {
         $this->dateCreationClient = $dateCreationClient;
@@ -676,6 +686,7 @@ class AppelsEnCours {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -686,6 +697,7 @@ class AppelsEnCours {
      * Set the date message lu.
      *
      * @param DateTime|null $dateMessageLu The date message lu.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setDateMessageLu(DateTime $dateMessageLu = null) {
         $this->dateMessageLu = $dateMessageLu;
@@ -696,6 +708,7 @@ class AppelsEnCours {
      * Set the date redir.
      *
      * @param DateTime|null $dateRedir The date redir.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setDateRedir(DateTime $dateRedir = null) {
         $this->dateRedir = $dateRedir;
@@ -706,6 +719,7 @@ class AppelsEnCours {
      * Set the demande ar.
      *
      * @param bool $demandeAr The demande ar.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setDemandeAr($demandeAr) {
         $this->demandeAr = $demandeAr;
@@ -716,6 +730,7 @@ class AppelsEnCours {
      * Set the destinataires a.
      *
      * @param string $destinatairesA The destinataires a.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setDestinatairesA($destinatairesA) {
         $this->destinatairesA = $destinatairesA;
@@ -726,6 +741,7 @@ class AppelsEnCours {
      * Set the destinataires cc.
      *
      * @param string $destinatairesCc The destinataires cc.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setDestinatairesCc($destinatairesCc) {
         $this->destinatairesCc = $destinatairesCc;
@@ -736,6 +752,7 @@ class AppelsEnCours {
      * Set the email auteur.
      *
      * @param string $emailAuteur The email auteur.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setEmailAuteur($emailAuteur) {
         $this->emailAuteur = $emailAuteur;
@@ -746,6 +763,7 @@ class AppelsEnCours {
      * Set the groupe qualifiant.
      *
      * @param string $groupeQualifiant The groupe qualifiant.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setGroupeQualifiant($groupeQualifiant) {
         $this->groupeQualifiant = $groupeQualifiant;
@@ -756,6 +774,7 @@ class AppelsEnCours {
      * Set the id appel.
      *
      * @param int $idAppel The id appel.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setIdAppel($idAppel) {
         $this->idAppel = $idAppel;
@@ -766,6 +785,7 @@ class AppelsEnCours {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -776,6 +796,7 @@ class AppelsEnCours {
      * Set the message lu.
      *
      * @param bool $messageLu The message lu.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setMessageLu($messageLu) {
         $this->messageLu = $messageLu;
@@ -786,6 +807,7 @@ class AppelsEnCours {
      * Set the mise en somm date heure.
      *
      * @param DateTime|null $miseEnSommDateHeure The mise en somm date heure.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setMiseEnSommDateHeure(DateTime $miseEnSommDateHeure = null) {
         $this->miseEnSommDateHeure = $miseEnSommDateHeure;
@@ -796,6 +818,7 @@ class AppelsEnCours {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -806,6 +829,7 @@ class AppelsEnCours {
      * Set the nb appels en cours.
      *
      * @param int $nbAppelsEnCours The nb appels en cours.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setNbAppelsEnCours($nbAppelsEnCours) {
         $this->nbAppelsEnCours = $nbAppelsEnCours;
@@ -816,6 +840,7 @@ class AppelsEnCours {
      * Set the nom client.
      *
      * @param string $nomClient The nom client.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setNomClient($nomClient) {
         $this->nomClient = $nomClient;
@@ -826,6 +851,7 @@ class AppelsEnCours {
      * Set the origine.
      *
      * @param string $origine The origine.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setOrigine($origine) {
         $this->origine = $origine;
@@ -836,6 +862,7 @@ class AppelsEnCours {
      * Set the piece jointe.
      *
      * @param string $pieceJointe The piece jointe.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setPieceJointe($pieceJointe) {
         $this->pieceJointe = $pieceJointe;
@@ -846,6 +873,7 @@ class AppelsEnCours {
      * Set the reponse.
      *
      * @param string $reponse The reponse.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setReponse($reponse) {
         $this->reponse = $reponse;
@@ -856,6 +884,7 @@ class AppelsEnCours {
      * Set the sous rep ref guid.
      *
      * @param string $sousRepRefGuid The sous rep ref guid.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setSousRepRefGuid($sousRepRefGuid) {
         $this->sousRepRefGuid = $sousRepRefGuid;
@@ -866,6 +895,7 @@ class AppelsEnCours {
      * Set the special.
      *
      * @param string $special The special.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setSpecial($special) {
         $this->special = $special;
@@ -876,6 +906,7 @@ class AppelsEnCours {
      * Set the tel.
      *
      * @param string $tel The tel.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setTel($tel) {
         $this->tel = $tel;
@@ -886,6 +917,7 @@ class AppelsEnCours {
      * Set the type message.
      *
      * @param string $typeMessage The type message.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setTypeMessage($typeMessage) {
         $this->typeMessage = $typeMessage;
@@ -896,6 +928,7 @@ class AppelsEnCours {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;
@@ -906,6 +939,7 @@ class AppelsEnCours {
      * Set the urgent.
      *
      * @param bool $urgent The urgent.
+     * @return AppelsEnCours Returns this Appels en cours.
      */
     public function setUrgent($urgent) {
         $this->urgent = $urgent;

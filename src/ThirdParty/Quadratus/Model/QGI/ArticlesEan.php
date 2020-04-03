@@ -94,6 +94,7 @@ class ArticlesEan {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArticlesEan Returns this Articles ean.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -104,6 +105,7 @@ class ArticlesEan {
      * Set the ean.
      *
      * @param string $ean The ean.
+     * @return ArticlesEan Returns this Articles ean.
      */
     public function setEan($ean) {
         $this->ean = $ean;
@@ -114,6 +116,7 @@ class ArticlesEan {
      * Set the gamme.
      *
      * @param int $gamme The gamme.
+     * @return ArticlesEan Returns this Articles ean.
      */
     public function setGamme($gamme) {
         $this->gamme = $gamme;
@@ -124,6 +127,7 @@ class ArticlesEan {
      * Set the variante.
      *
      * @param string $variante The variante.
+     * @return ArticlesEan Returns this Articles ean.
      */
     public function setVariante($variante) {
         $this->variante = $variante;

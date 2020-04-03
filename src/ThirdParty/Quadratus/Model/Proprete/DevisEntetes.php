@@ -496,6 +496,7 @@ class DevisEntetes {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -506,6 +507,7 @@ class DevisEntetes {
      * Set the civilite.
      *
      * @param string $civilite The civilite.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setCivilite($civilite) {
         $this->civilite = $civilite;
@@ -516,6 +518,7 @@ class DevisEntetes {
      * Set the client prospect.
      *
      * @param bool $clientProspect The client prospect.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setClientProspect($clientProspect) {
         $this->clientProspect = $clientProspect;
@@ -526,6 +529,7 @@ class DevisEntetes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -536,6 +540,7 @@ class DevisEntetes {
      * Set the code commercial.
      *
      * @param string $codeCommercial The code commercial.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setCodeCommercial($codeCommercial) {
         $this->codeCommercial = $codeCommercial;
@@ -546,6 +551,7 @@ class DevisEntetes {
      * Set the code pays.
      *
      * @param string $codePays The code pays.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setCodePays($codePays) {
         $this->codePays = $codePays;
@@ -556,6 +562,7 @@ class DevisEntetes {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -566,6 +573,7 @@ class DevisEntetes {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -576,6 +584,7 @@ class DevisEntetes {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -586,6 +595,7 @@ class DevisEntetes {
      * Set the date devis.
      *
      * @param DateTime|null $dateDevis The date devis.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setDateDevis(DateTime $dateDevis = null) {
         $this->dateDevis = $dateDevis;
@@ -596,6 +606,7 @@ class DevisEntetes {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -606,6 +617,7 @@ class DevisEntetes {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -616,6 +628,7 @@ class DevisEntetes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -626,6 +639,7 @@ class DevisEntetes {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -636,6 +650,7 @@ class DevisEntetes {
      * Set the montant ht.
      *
      * @param float $montantHt The montant ht.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setMontantHt($montantHt) {
         $this->montantHt = $montantHt;
@@ -646,6 +661,7 @@ class DevisEntetes {
      * Set the nom adresse.
      *
      * @param string $nomAdresse The nom adresse.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNomAdresse($nomAdresse) {
         $this->nomAdresse = $nomAdresse;
@@ -656,6 +672,7 @@ class DevisEntetes {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -666,6 +683,7 @@ class DevisEntetes {
      * Set the nom suite2.
      *
      * @param string $nomSuite2 The nom suite2.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNomSuite2($nomSuite2) {
         $this->nomSuite2 = $nomSuite2;
@@ -676,6 +694,7 @@ class DevisEntetes {
      * Set the nom suite3.
      *
      * @param string $nomSuite3 The nom suite3.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNomSuite3($nomSuite3) {
         $this->nomSuite3 = $nomSuite3;
@@ -686,6 +705,7 @@ class DevisEntetes {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -696,6 +716,7 @@ class DevisEntetes {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -706,6 +727,7 @@ class DevisEntetes {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -716,6 +738,7 @@ class DevisEntetes {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -726,6 +749,7 @@ class DevisEntetes {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -736,6 +760,7 @@ class DevisEntetes {
      * Set the reference1.
      *
      * @param string $reference1 The reference1.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setReference1($reference1) {
         $this->reference1 = $reference1;
@@ -746,6 +771,7 @@ class DevisEntetes {
      * Set the reference2.
      *
      * @param string $reference2 The reference2.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setReference2($reference2) {
         $this->reference2 = $reference2;
@@ -756,6 +782,7 @@ class DevisEntetes {
      * Set the reference3.
      *
      * @param string $reference3 The reference3.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setReference3($reference3) {
         $this->reference3 = $reference3;
@@ -766,6 +793,7 @@ class DevisEntetes {
      * Set the reference4.
      *
      * @param string $reference4 The reference4.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setReference4($reference4) {
         $this->reference4 = $reference4;
@@ -776,6 +804,7 @@ class DevisEntetes {
      * Set the taux tva.
      *
      * @param float $tauxTva The taux tva.
+     * @return DevisEntetes Returns this Devis entetes.
      */
     public function setTauxTva($tauxTva) {
         $this->tauxTva = $tauxTva;

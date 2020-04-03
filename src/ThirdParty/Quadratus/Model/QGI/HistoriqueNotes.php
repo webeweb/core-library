@@ -144,6 +144,7 @@ class HistoriqueNotes {
      * Set the code categorie.
      *
      * @param string $codeCategorie The code categorie.
+     * @return HistoriqueNotes Returns this Historique notes.
      */
     public function setCodeCategorie($codeCategorie) {
         $this->codeCategorie = $codeCategorie;
@@ -154,6 +155,7 @@ class HistoriqueNotes {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return HistoriqueNotes Returns this Historique notes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -164,6 +166,7 @@ class HistoriqueNotes {
      * Set the date cloture.
      *
      * @param DateTime|null $dateCloture The date cloture.
+     * @return HistoriqueNotes Returns this Historique notes.
      */
     public function setDateCloture(DateTime $dateCloture = null) {
         $this->dateCloture = $dateCloture;
@@ -174,6 +177,7 @@ class HistoriqueNotes {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return HistoriqueNotes Returns this Historique notes.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -184,6 +188,7 @@ class HistoriqueNotes {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return HistoriqueNotes Returns this Historique notes.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -194,6 +199,7 @@ class HistoriqueNotes {
      * Set the num uniq.
      *
      * @param string $numUniq The num uniq.
+     * @return HistoriqueNotes Returns this Historique notes.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -204,6 +210,7 @@ class HistoriqueNotes {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return HistoriqueNotes Returns this Historique notes.
      */
     public function setTitre($titre) {
         $this->titre = $titre;

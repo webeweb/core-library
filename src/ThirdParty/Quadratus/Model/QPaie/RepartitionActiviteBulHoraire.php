@@ -128,6 +128,7 @@ class RepartitionActiviteBulHoraire {
      * Set the code service.
      *
      * @param string $codeService The code service.
+     * @return RepartitionActiviteBulHoraire Returns this Repartition activite bul horaire.
      */
     public function setCodeService($codeService) {
         $this->codeService = $codeService;
@@ -138,6 +139,7 @@ class RepartitionActiviteBulHoraire {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return RepartitionActiviteBulHoraire Returns this Repartition activite bul horaire.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -148,6 +150,7 @@ class RepartitionActiviteBulHoraire {
      * Set the interimaire.
      *
      * @param bool $interimaire The interimaire.
+     * @return RepartitionActiviteBulHoraire Returns this Repartition activite bul horaire.
      */
     public function setInterimaire($interimaire) {
         $this->interimaire = $interimaire;
@@ -158,6 +161,7 @@ class RepartitionActiviteBulHoraire {
      * Set the nb heures.
      *
      * @param float $nbHeures The nb heures.
+     * @return RepartitionActiviteBulHoraire Returns this Repartition activite bul horaire.
      */
     public function setNbHeures($nbHeures) {
         $this->nbHeures = $nbHeures;
@@ -168,6 +172,7 @@ class RepartitionActiviteBulHoraire {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return RepartitionActiviteBulHoraire Returns this Repartition activite bul horaire.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -178,6 +183,7 @@ class RepartitionActiviteBulHoraire {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return RepartitionActiviteBulHoraire Returns this Repartition activite bul horaire.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

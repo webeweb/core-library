@@ -208,6 +208,7 @@ class PointEmpHeuresComplt {
      * Set the a facturer.
      *
      * @param bool $aFacturer The a facturer.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setAFacturer($aFacturer) {
         $this->aFacturer = $aFacturer;
@@ -218,6 +219,7 @@ class PointEmpHeuresComplt {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -228,6 +230,7 @@ class PointEmpHeuresComplt {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -238,6 +241,7 @@ class PointEmpHeuresComplt {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -248,6 +252,7 @@ class PointEmpHeuresComplt {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -258,6 +263,7 @@ class PointEmpHeuresComplt {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -268,6 +274,7 @@ class PointEmpHeuresComplt {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -278,6 +285,7 @@ class PointEmpHeuresComplt {
      * Set the heure compl.
      *
      * @param DateTime|null $heureCompl The heure compl.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setHeureCompl(DateTime $heureCompl = null) {
         $this->heureCompl = $heureCompl;
@@ -288,6 +296,7 @@ class PointEmpHeuresComplt {
      * Set the heure compl nuit.
      *
      * @param DateTime|null $heureComplNuit The heure compl nuit.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setHeureComplNuit(DateTime $heureComplNuit = null) {
         $this->heureComplNuit = $heureComplNuit;
@@ -298,6 +307,7 @@ class PointEmpHeuresComplt {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -308,6 +318,7 @@ class PointEmpHeuresComplt {
      * Set the type heure.
      *
      * @param string $typeHeure The type heure.
+     * @return PointEmpHeuresComplt Returns this Point emp heures complt.
      */
     public function setTypeHeure($typeHeure) {
         $this->typeHeure = $typeHeure;

@@ -272,6 +272,7 @@ class VmpMouvements {
      * Set the code vmp.
      *
      * @param string $codeVmp The code vmp.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setCodeVmp($codeVmp) {
         $this->codeVmp = $codeVmp;
@@ -282,6 +283,7 @@ class VmpMouvements {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -292,6 +294,7 @@ class VmpMouvements {
      * Set the francs euros.
      *
      * @param int $francsEuros The francs euros.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setFrancsEuros($francsEuros) {
         $this->francsEuros = $francsEuros;
@@ -302,6 +305,7 @@ class VmpMouvements {
      * Set the gratuit.
      *
      * @param bool $gratuit The gratuit.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setGratuit($gratuit) {
         $this->gratuit = $gratuit;
@@ -312,6 +316,7 @@ class VmpMouvements {
      * Set the montant comm.
      *
      * @param float $montantComm The montant comm.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setMontantComm($montantComm) {
         $this->montantComm = $montantComm;
@@ -322,6 +327,7 @@ class VmpMouvements {
      * Set the montant coupon.
      *
      * @param float $montantCoupon The montant coupon.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setMontantCoupon($montantCoupon) {
         $this->montantCoupon = $montantCoupon;
@@ -332,6 +338,7 @@ class VmpMouvements {
      * Set the montant frais.
      *
      * @param float $montantFrais The montant frais.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setMontantFrais($montantFrais) {
         $this->montantFrais = $montantFrais;
@@ -342,6 +349,7 @@ class VmpMouvements {
      * Set the no lot ecr.
      *
      * @param int $noLotEcr The no lot ecr.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setNoLotEcr($noLotEcr) {
         $this->noLotEcr = $noLotEcr;
@@ -352,6 +360,7 @@ class VmpMouvements {
      * Set the no lot trace.
      *
      * @param string $noLotTrace The no lot trace.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setNoLotTrace($noLotTrace) {
         $this->noLotTrace = $noLotTrace;
@@ -362,6 +371,7 @@ class VmpMouvements {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -372,6 +382,7 @@ class VmpMouvements {
      * Set the num uniq ecr.
      *
      * @param int $numUniqEcr The num uniq ecr.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setNumUniqEcr($numUniqEcr) {
         $this->numUniqEcr = $numUniqEcr;
@@ -382,6 +393,7 @@ class VmpMouvements {
      * Set the prix unitaire.
      *
      * @param float $prixUnitaire The prix unitaire.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setPrixUnitaire($prixUnitaire) {
         $this->prixUnitaire = $prixUnitaire;
@@ -392,6 +404,7 @@ class VmpMouvements {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -402,6 +415,7 @@ class VmpMouvements {
      * Set the solde quantite.
      *
      * @param float $soldeQuantite The solde quantite.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setSoldeQuantite($soldeQuantite) {
         $this->soldeQuantite = $soldeQuantite;
@@ -412,6 +426,7 @@ class VmpMouvements {
      * Set the type.
      *
      * @param int $type The type.
+     * @return VmpMouvements Returns this Vmp mouvements.
      */
     public function setType($type) {
         $this->type = $type;

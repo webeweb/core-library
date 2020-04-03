@@ -62,6 +62,7 @@ class ClientsFavoris {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ClientsFavoris Returns this Clients favoris.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -72,6 +73,7 @@ class ClientsFavoris {
      * Set the code col.
      *
      * @param string $codeCol The code col.
+     * @return ClientsFavoris Returns this Clients favoris.
      */
     public function setCodeCol($codeCol) {
         $this->codeCol = $codeCol;

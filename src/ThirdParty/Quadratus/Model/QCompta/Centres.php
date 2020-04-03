@@ -400,6 +400,7 @@ class Centres {
      * Set the adresse rue1.
      *
      * @param string $adresseRue1 The adresse rue1.
+     * @return Centres Returns this Centres.
      */
     public function setAdresseRue1($adresseRue1) {
         $this->adresseRue1 = $adresseRue1;
@@ -410,6 +411,7 @@ class Centres {
      * Set the adresse rue2.
      *
      * @param string $adresseRue2 The adresse rue2.
+     * @return Centres Returns this Centres.
      */
     public function setAdresseRue2($adresseRue2) {
         $this->adresseRue2 = $adresseRue2;
@@ -420,6 +422,7 @@ class Centres {
      * Set the adresse ville.
      *
      * @param string $adresseVille The adresse ville.
+     * @return Centres Returns this Centres.
      */
     public function setAdresseVille($adresseVille) {
         $this->adresseVille = $adresseVille;
@@ -430,6 +433,7 @@ class Centres {
      * Set the centre inactif.
      *
      * @param bool $centreInactif The centre inactif.
+     * @return Centres Returns this Centres.
      */
     public function setCentreInactif($centreInactif) {
         $this->centreInactif = $centreInactif;
@@ -440,6 +444,7 @@ class Centres {
      * Set the cle repartition.
      *
      * @param string $cleRepartition The cle repartition.
+     * @return Centres Returns this Centres.
      */
     public function setCleRepartition($cleRepartition) {
         $this->cleRepartition = $cleRepartition;
@@ -450,6 +455,7 @@ class Centres {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Centres Returns this Centres.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -460,6 +466,7 @@ class Centres {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Centres Returns this Centres.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -470,6 +477,7 @@ class Centres {
      * Set the date devis.
      *
      * @param DateTime|null $dateDevis The date devis.
+     * @return Centres Returns this Centres.
      */
     public function setDateDevis(DateTime $dateDevis = null) {
         $this->dateDevis = $dateDevis;
@@ -480,6 +488,7 @@ class Centres {
      * Set the description.
      *
      * @param string $description The description.
+     * @return Centres Returns this Centres.
      */
     public function setDescription($description) {
         $this->description = $description;
@@ -490,6 +499,7 @@ class Centres {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Centres Returns this Centres.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -500,6 +510,7 @@ class Centres {
      * Set the marge directe.
      *
      * @param bool $margeDirecte The marge directe.
+     * @return Centres Returns this Centres.
      */
     public function setMargeDirecte($margeDirecte) {
         $this->margeDirecte = $margeDirecte;
@@ -510,6 +521,7 @@ class Centres {
      * Set the niveau repartition.
      *
      * @param string $niveauRepartition The niveau repartition.
+     * @return Centres Returns this Centres.
      */
     public function setNiveauRepartition($niveauRepartition) {
         $this->niveauRepartition = $niveauRepartition;
@@ -520,6 +532,7 @@ class Centres {
      * Set the ordre edition.
      *
      * @param int $ordreEdition The ordre edition.
+     * @return Centres Returns this Centres.
      */
     public function setOrdreEdition($ordreEdition) {
         $this->ordreEdition = $ordreEdition;
@@ -530,6 +543,7 @@ class Centres {
      * Set the repartition ana.
      *
      * @param string $repartitionAna The repartition ana.
+     * @return Centres Returns this Centres.
      */
     public function setRepartitionAna($repartitionAna) {
         $this->repartitionAna = $repartitionAna;
@@ -540,6 +554,7 @@ class Centres {
      * Set the repartition auto.
      *
      * @param bool $repartitionAuto The repartition auto.
+     * @return Centres Returns this Centres.
      */
     public function setRepartitionAuto($repartitionAuto) {
         $this->repartitionAuto = $repartitionAuto;
@@ -550,6 +565,7 @@ class Centres {
      * Set the responsable.
      *
      * @param string $responsable The responsable.
+     * @return Centres Returns this Centres.
      */
     public function setResponsable($responsable) {
         $this->responsable = $responsable;
@@ -560,6 +576,7 @@ class Centres {
      * Set the restrictions.
      *
      * @param string $restrictions The restrictions.
+     * @return Centres Returns this Centres.
      */
     public function setRestrictions($restrictions) {
         $this->restrictions = $restrictions;
@@ -570,6 +587,7 @@ class Centres {
      * Set the suivi annee recolte.
      *
      * @param bool $suiviAnneeRecolte The suivi annee recolte.
+     * @return Centres Returns this Centres.
      */
     public function setSuiviAnneeRecolte($suiviAnneeRecolte) {
         $this->suiviAnneeRecolte = $suiviAnneeRecolte;
@@ -580,6 +598,7 @@ class Centres {
      * Set the superficie.
      *
      * @param float $superficie The superficie.
+     * @return Centres Returns this Centres.
      */
     public function setSuperficie($superficie) {
         $this->superficie = $superficie;
@@ -590,6 +609,7 @@ class Centres {
      * Set the type centre.
      *
      * @param string $typeCentre The type centre.
+     * @return Centres Returns this Centres.
      */
     public function setTypeCentre($typeCentre) {
         $this->typeCentre = $typeCentre;
@@ -600,6 +620,7 @@ class Centres {
      * Set the type suivi.
      *
      * @param string $typeSuivi The type suivi.
+     * @return Centres Returns this Centres.
      */
     public function setTypeSuivi($typeSuivi) {
         $this->typeSuivi = $typeSuivi;
@@ -610,6 +631,7 @@ class Centres {
      * Set the type suivi autre texte.
      *
      * @param string $typeSuiviAutreTexte The type suivi autre texte.
+     * @return Centres Returns this Centres.
      */
     public function setTypeSuiviAutreTexte($typeSuiviAutreTexte) {
         $this->typeSuiviAutreTexte = $typeSuiviAutreTexte;
@@ -620,6 +642,7 @@ class Centres {
      * Set the type suivi autre valeur.
      *
      * @param float $typeSuiviAutreValeur The type suivi autre valeur.
+     * @return Centres Returns this Centres.
      */
     public function setTypeSuiviAutreValeur($typeSuiviAutreValeur) {
         $this->typeSuiviAutreValeur = $typeSuiviAutreValeur;

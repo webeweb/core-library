@@ -96,6 +96,7 @@ class Spectacles {
      * Set the dt debut.
      *
      * @param DateTime|null $dtDebut The dt debut.
+     * @return Spectacles Returns this Spectacles.
      */
     public function setDtDebut(DateTime $dtDebut = null) {
         $this->dtDebut = $dtDebut;
@@ -106,6 +107,7 @@ class Spectacles {
      * Set the dt fin.
      *
      * @param DateTime|null $dtFin The dt fin.
+     * @return Spectacles Returns this Spectacles.
      */
     public function setDtFin(DateTime $dtFin = null) {
         $this->dtFin = $dtFin;
@@ -116,6 +118,7 @@ class Spectacles {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Spectacles Returns this Spectacles.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -126,6 +129,7 @@ class Spectacles {
      * Set the num objet.
      *
      * @param string $numObjet The num objet.
+     * @return Spectacles Returns this Spectacles.
      */
     public function setNumObjet($numObjet) {
         $this->numObjet = $numObjet;

@@ -94,6 +94,7 @@ class Libelles {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return Libelles Returns this Libelles.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -104,6 +105,7 @@ class Libelles {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Libelles Returns this Libelles.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -114,6 +116,7 @@ class Libelles {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Libelles Returns this Libelles.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -124,6 +127,7 @@ class Libelles {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Libelles Returns this Libelles.
      */
     public function setType($type) {
         $this->type = $type;

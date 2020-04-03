@@ -3568,6 +3568,7 @@ class InfosComplBul {
      * Set the active sal min conv.
      *
      * @param bool $activeSalMinConv The active sal min conv.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setActiveSalMinConv($activeSalMinConv) {
         $this->activeSalMinConv = $activeSalMinConv;
@@ -3578,6 +3579,7 @@ class InfosComplBul {
      * Set the active smic.
      *
      * @param bool $activeSmic The active smic.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setActiveSmic($activeSmic) {
         $this->activeSmic = $activeSmic;
@@ -3588,6 +3590,7 @@ class InfosComplBul {
      * Set the aen logement.
      *
      * @param bool $aenLogement The aen logement.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setAenLogement($aenLogement) {
         $this->aenLogement = $aenLogement;
@@ -3598,6 +3601,7 @@ class InfosComplBul {
      * Set the alleg particulier emp.
      *
      * @param string $allegParticulierEmp The alleg particulier emp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setAllegParticulierEmp($allegParticulierEmp) {
         $this->allegParticulierEmp = $allegParticulierEmp;
@@ -3608,6 +3612,7 @@ class InfosComplBul {
      * Set the annexe7 mutation.
      *
      * @param bool $annexe7Mutation The annexe7 mutation.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setAnnexe7Mutation($annexe7Mutation) {
         $this->annexe7Mutation = $annexe7Mutation;
@@ -3618,6 +3623,7 @@ class InfosComplBul {
      * Set the arbitrage auto.
      *
      * @param string $arbitrageAuto The arbitrage auto.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setArbitrageAuto($arbitrageAuto) {
         $this->arbitrageAuto = $arbitrageAuto;
@@ -3628,6 +3634,7 @@ class InfosComplBul {
      * Set the assiette af.
      *
      * @param float $assietteAf The assiette af.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setAssietteAf($assietteAf) {
         $this->assietteAf = $assietteAf;
@@ -3638,6 +3645,7 @@ class InfosComplBul {
      * Set the autre alleg emp.
      *
      * @param string $autreAllegEmp The autre alleg emp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setAutreAllegEmp($autreAllegEmp) {
         $this->autreAllegEmp = $autreAllegEmp;
@@ -3648,6 +3656,7 @@ class InfosComplBul {
      * Set the brut al sans h sup.
      *
      * @param float $brutAlSansHSup The brut al sans h sup.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setBrutAlSansHSup($brutAlSansHSup) {
         $this->brutAlSansHSup = $brutAlSansHSup;
@@ -3658,6 +3667,7 @@ class InfosComplBul {
      * Set the brut al sans h sup majo he.
      *
      * @param float $brutAlSansHSupMajoHe The brut al sans h sup majo he.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setBrutAlSansHSupMajoHe($brutAlSansHSupMajoHe) {
         $this->brutAlSansHSupMajoHe = $brutAlSansHSupMajoHe;
@@ -3668,6 +3678,7 @@ class InfosComplBul {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -3678,6 +3689,7 @@ class InfosComplBul {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -3688,6 +3700,7 @@ class InfosComplBul {
      * Set the caisse cp.
      *
      * @param bool $caisseCp The caisse cp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCaisseCp($caisseCp) {
         $this->caisseCp = $caisseCp;
@@ -3698,6 +3711,7 @@ class InfosComplBul {
      * Set the categ population.
      *
      * @param string $categPopulation The categ population.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCategPopulation($categPopulation) {
         $this->categPopulation = $categPopulation;
@@ -3708,6 +3722,7 @@ class InfosComplBul {
      * Set the categ salarie.
      *
      * @param string $categSalarie The categ salarie.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCategSalarie($categSalarie) {
         $this->categSalarie = $categSalarie;
@@ -3718,6 +3733,7 @@ class InfosComplBul {
      * Set the cddcdi.
      *
      * @param bool $cddcdi The cddcdi.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCddcdi($cddcdi) {
         $this->cddcdi = $cddcdi;
@@ -3728,6 +3744,7 @@ class InfosComplBul {
      * Set the centre analytique.
      *
      * @param string $centreAnalytique The centre analytique.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCentreAnalytique($centreAnalytique) {
         $this->centreAnalytique = $centreAnalytique;
@@ -3738,6 +3755,7 @@ class InfosComplBul {
      * Set the classification.
      *
      * @param string $classification The classification.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setClassification($classification) {
         $this->classification = $classification;
@@ -3748,6 +3766,7 @@ class InfosComplBul {
      * Set the code caisse cp.
      *
      * @param string $codeCaisseCp The code caisse cp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeCaisseCp($codeCaisseCp) {
         $this->codeCaisseCp = $codeCaisseCp;
@@ -3758,6 +3777,7 @@ class InfosComplBul {
      * Set the code caract.
      *
      * @param string $codeCaract The code caract.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeCaract($codeCaract) {
         $this->codeCaract = $codeCaract;
@@ -3768,6 +3788,7 @@ class InfosComplBul {
      * Set the code categ sal pourcent abat.
      *
      * @param string $codeCategSalPourcentAbat The code categ sal pourcent abat.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeCategSalPourcentAbat($codeCategSalPourcentAbat) {
         $this->codeCategSalPourcentAbat = $codeCategSalPourcentAbat;
@@ -3778,6 +3799,7 @@ class InfosComplBul {
      * Set the code class btp.
      *
      * @param string $codeClassBtp The code class btp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeClassBtp($codeClassBtp) {
         $this->codeClassBtp = $codeClassBtp;
@@ -3788,6 +3810,7 @@ class InfosComplBul {
      * Set the code contrat trav.
      *
      * @param string $codeContratTrav The code contrat trav.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeContratTrav($codeContratTrav) {
         $this->codeContratTrav = $codeContratTrav;
@@ -3798,6 +3821,7 @@ class InfosComplBul {
      * Set the code convention.
      *
      * @param string $codeConvention The code convention.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeConvention($codeConvention) {
         $this->codeConvention = $codeConvention;
@@ -3808,6 +3832,7 @@ class InfosComplBul {
      * Set the code convention col.
      *
      * @param string $codeConventionCol The code convention col.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeConventionCol($codeConventionCol) {
         $this->codeConventionCol = $codeConventionCol;
@@ -3818,6 +3843,7 @@ class InfosComplBul {
      * Set the code emp remplace.
      *
      * @param string $codeEmpRemplace The code emp remplace.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeEmpRemplace($codeEmpRemplace) {
         $this->codeEmpRemplace = $codeEmpRemplace;
@@ -3828,6 +3854,7 @@ class InfosComplBul {
      * Set the code exo trav.
      *
      * @param string $codeExoTrav The code exo trav.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeExoTrav($codeExoTrav) {
         $this->codeExoTrav = $codeExoTrav;
@@ -3838,6 +3865,7 @@ class InfosComplBul {
      * Set the code intit contrat trav.
      *
      * @param string $codeIntitContratTrav The code intit contrat trav.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeIntitContratTrav($codeIntitContratTrav) {
         $this->codeIntitContratTrav = $codeIntitContratTrav;
@@ -3848,6 +3876,7 @@ class InfosComplBul {
      * Set the code metier btp.
      *
      * @param string $codeMetierBtp The code metier btp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeMetierBtp($codeMetierBtp) {
         $this->codeMetierBtp = $codeMetierBtp;
@@ -3858,6 +3887,7 @@ class InfosComplBul {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -3868,6 +3898,7 @@ class InfosComplBul {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -3878,6 +3909,7 @@ class InfosComplBul {
      * Set the code regime at.
      *
      * @param string $codeRegimeAt The code regime at.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeRegimeAt($codeRegimeAt) {
         $this->codeRegimeAt = $codeRegimeAt;
@@ -3888,6 +3920,7 @@ class InfosComplBul {
      * Set the code regime base obl.
      *
      * @param string $codeRegimeBaseObl The code regime base obl.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeRegimeBaseObl($codeRegimeBaseObl) {
         $this->codeRegimeBaseObl = $codeRegimeBaseObl;
@@ -3898,6 +3931,7 @@ class InfosComplBul {
      * Set the code regime vieillesse.
      *
      * @param string $codeRegimeVieillesse The code regime vieillesse.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeRegimeVieillesse($codeRegimeVieillesse) {
         $this->codeRegimeVieillesse = $codeRegimeVieillesse;
@@ -3908,6 +3942,7 @@ class InfosComplBul {
      * Set the code retraite complementaire.
      *
      * @param string $codeRetraiteComplementaire The code retraite complementaire.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeRetraiteComplementaire($codeRetraiteComplementaire) {
         $this->codeRetraiteComplementaire = $codeRetraiteComplementaire;
@@ -3918,6 +3953,7 @@ class InfosComplBul {
      * Set the code situ admin.
      *
      * @param string $codeSituAdmin The code situ admin.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeSituAdmin($codeSituAdmin) {
         $this->codeSituAdmin = $codeSituAdmin;
@@ -3928,6 +3964,7 @@ class InfosComplBul {
      * Set the code statut categ.
      *
      * @param string $codeStatutCateg The code statut categ.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeStatutCateg($codeStatutCateg) {
         $this->codeStatutCateg = $codeStatutCateg;
@@ -3938,6 +3975,7 @@ class InfosComplBul {
      * Set the code statut categ retraite.
      *
      * @param string $codeStatutCategRetraite The code statut categ retraite.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeStatutCategRetraite($codeStatutCategRetraite) {
         $this->codeStatutCategRetraite = $codeStatutCategRetraite;
@@ -3948,6 +3986,7 @@ class InfosComplBul {
      * Set the code statut pro.
      *
      * @param string $codeStatutPro The code statut pro.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeStatutPro($codeStatutPro) {
         $this->codeStatutPro = $codeStatutPro;
@@ -3958,6 +3997,7 @@ class InfosComplBul {
      * Set the code tuteur.
      *
      * @param string $codeTuteur The code tuteur.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeTuteur($codeTuteur) {
         $this->codeTuteur = $codeTuteur;
@@ -3968,6 +4008,7 @@ class InfosComplBul {
      * Set the code unite temps travail.
      *
      * @param string $codeUniteTempsTravail The code unite temps travail.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCodeUniteTempsTravail($codeUniteTempsTravail) {
         $this->codeUniteTempsTravail = $codeUniteTempsTravail;
@@ -3978,6 +4019,7 @@ class InfosComplBul {
      * Set the coeff convention.
      *
      * @param string $coeffConvention The coeff convention.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCoeffConvention($coeffConvention) {
         $this->coeffConvention = $coeffConvention;
@@ -3988,6 +4030,7 @@ class InfosComplBul {
      * Set the coeff fillon moins20.
      *
      * @param bool $coeffFillonMoins20 The coeff fillon moins20.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCoeffFillonMoins20($coeffFillonMoins20) {
         $this->coeffFillonMoins20 = $coeffFillonMoins20;
@@ -3998,6 +4041,7 @@ class InfosComplBul {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -4008,6 +4052,7 @@ class InfosComplBul {
      * Set the complement pcs.
      *
      * @param string $complementPcs The complement pcs.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setComplementPcs($complementPcs) {
         $this->complementPcs = $complementPcs;
@@ -4018,6 +4063,7 @@ class InfosComplBul {
      * Set the contrat cne.
      *
      * @param bool $contratCne The contrat cne.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setContratCne($contratCne) {
         $this->contratCne = $contratCne;
@@ -4028,6 +4074,7 @@ class InfosComplBul {
      * Set the cum base prevoyance comp.
      *
      * @param float $cumBasePrevoyanceComp The cum base prevoyance comp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumBasePrevoyanceComp($cumBasePrevoyanceComp) {
         $this->cumBasePrevoyanceComp = $cumBasePrevoyanceComp;
@@ -4038,6 +4085,7 @@ class InfosComplBul {
      * Set the cum base retraite obli.
      *
      * @param float $cumBaseRetraiteObli The cum base retraite obli.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumBaseRetraiteObli($cumBaseRetraiteObli) {
         $this->cumBaseRetraiteObli = $cumBaseRetraiteObli;
@@ -4048,6 +4096,7 @@ class InfosComplBul {
      * Set the cum base retraite supp.
      *
      * @param float $cumBaseRetraiteSupp The cum base retraite supp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumBaseRetraiteSupp($cumBaseRetraiteSupp) {
         $this->cumBaseRetraiteSupp = $cumBaseRetraiteSupp;
@@ -4058,6 +4107,7 @@ class InfosComplBul {
      * Set the cum mt forfait social20.
      *
      * @param float $cumMtForfaitSocial20 The cum mt forfait social20.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumMtForfaitSocial20($cumMtForfaitSocial20) {
         $this->cumMtForfaitSocial20 = $cumMtForfaitSocial20;
@@ -4068,6 +4118,7 @@ class InfosComplBul {
      * Set the cum mt forfait social8.
      *
      * @param float $cumMtForfaitSocial8 The cum mt forfait social8.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumMtForfaitSocial8($cumMtForfaitSocial8) {
         $this->cumMtForfaitSocial8 = $cumMtForfaitSocial8;
@@ -4078,6 +4129,7 @@ class InfosComplBul {
      * Set the cum pp fisc prev.
      *
      * @param float $cumPpFiscPrev The cum pp fisc prev.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumPpFiscPrev($cumPpFiscPrev) {
         $this->cumPpFiscPrev = $cumPpFiscPrev;
@@ -4088,6 +4140,7 @@ class InfosComplBul {
      * Set the cum pp fisc ret.
      *
      * @param float $cumPpFiscRet The cum pp fisc ret.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumPpFiscRet($cumPpFiscRet) {
         $this->cumPpFiscRet = $cumPpFiscRet;
@@ -4098,6 +4151,7 @@ class InfosComplBul {
      * Set the cum ps fisc prev.
      *
      * @param float $cumPsFiscPrev The cum ps fisc prev.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumPsFiscPrev($cumPsFiscPrev) {
         $this->cumPsFiscPrev = $cumPsFiscPrev;
@@ -4108,6 +4162,7 @@ class InfosComplBul {
      * Set the cum ps fisc ret.
      *
      * @param float $cumPsFiscRet The cum ps fisc ret.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumPsFiscRet($cumPsFiscRet) {
         $this->cumPsFiscRet = $cumPsFiscRet;
@@ -4118,6 +4173,7 @@ class InfosComplBul {
      * Set the cum smic m.
      *
      * @param float $cumSmicM The cum smic m.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumSmicM($cumSmicM) {
         $this->cumSmicM = $cumSmicM;
@@ -4128,6 +4184,7 @@ class InfosComplBul {
      * Set the cum tr d1 caisse1.
      *
      * @param float $cumTrD1Caisse1 The cum tr d1 caisse1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumTrD1Caisse1($cumTrD1Caisse1) {
         $this->cumTrD1Caisse1 = $cumTrD1Caisse1;
@@ -4138,6 +4195,7 @@ class InfosComplBul {
      * Set the cum tr d1caisse2.
      *
      * @param float $cumTrD1caisse2 The cum tr d1caisse2.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumTrD1caisse2($cumTrD1caisse2) {
         $this->cumTrD1caisse2 = $cumTrD1caisse2;
@@ -4148,6 +4206,7 @@ class InfosComplBul {
      * Set the cum tr d1caisse3.
      *
      * @param float $cumTrD1caisse3 The cum tr d1caisse3.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumTrD1caisse3($cumTrD1caisse3) {
         $this->cumTrD1caisse3 = $cumTrD1caisse3;
@@ -4158,6 +4217,7 @@ class InfosComplBul {
      * Set the cum tr d caisse1.
      *
      * @param float $cumTrDCaisse1 The cum tr d caisse1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumTrDCaisse1($cumTrDCaisse1) {
         $this->cumTrDCaisse1 = $cumTrDCaisse1;
@@ -4168,6 +4228,7 @@ class InfosComplBul {
      * Set the cum tr dcaisse2.
      *
      * @param float $cumTrDcaisse2 The cum tr dcaisse2.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumTrDcaisse2($cumTrDcaisse2) {
         $this->cumTrDcaisse2 = $cumTrDcaisse2;
@@ -4178,6 +4239,7 @@ class InfosComplBul {
      * Set the cum tr dcaisse3.
      *
      * @param float $cumTrDcaisse3 The cum tr dcaisse3.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumTrDcaisse3($cumTrDcaisse3) {
         $this->cumTrDcaisse3 = $cumTrDcaisse3;
@@ -4188,6 +4250,7 @@ class InfosComplBul {
      * Set the cum tranche d.
      *
      * @param float $cumTrancheD The cum tranche d.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumTrancheD($cumTrancheD) {
         $this->cumTrancheD = $cumTrancheD;
@@ -4198,6 +4261,7 @@ class InfosComplBul {
      * Set the cum tranche d1.
      *
      * @param float $cumTrancheD1 The cum tranche d1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setCumTrancheD1($cumTrancheD1) {
         $this->cumTrancheD1 = $cumTrancheD1;
@@ -4208,6 +4272,7 @@ class InfosComplBul {
      * Set the date ancien branche.
      *
      * @param DateTime|null $dateAncienBranche The date ancien branche.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateAncienBranche(DateTime $dateAncienBranche = null) {
         $this->dateAncienBranche = $dateAncienBranche;
@@ -4218,6 +4283,7 @@ class InfosComplBul {
      * Set the date ancien college.
      *
      * @param DateTime|null $dateAncienCollege The date ancien college.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateAncienCollege(DateTime $dateAncienCollege = null) {
         $this->dateAncienCollege = $dateAncienCollege;
@@ -4228,6 +4294,7 @@ class InfosComplBul {
      * Set the date ancien poste.
      *
      * @param DateTime|null $dateAncienPoste The date ancien poste.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateAncienPoste(DateTime $dateAncienPoste = null) {
         $this->dateAncienPoste = $dateAncienPoste;
@@ -4238,6 +4305,7 @@ class InfosComplBul {
      * Set the date debut chom cdd.
      *
      * @param DateTime|null $dateDebutChomCdd The date debut chom cdd.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateDebutChomCdd(DateTime $dateDebutChomCdd = null) {
         $this->dateDebutChomCdd = $dateDebutChomCdd;
@@ -4248,6 +4316,7 @@ class InfosComplBul {
      * Set the date debut contrat.
      *
      * @param DateTime|null $dateDebutContrat The date debut contrat.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateDebutContrat(DateTime $dateDebutContrat = null) {
         $this->dateDebutContrat = $dateDebutContrat;
@@ -4258,6 +4327,7 @@ class InfosComplBul {
      * Set the date envoi mail.
      *
      * @param DateTime|null $dateEnvoiMail The date envoi mail.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateEnvoiMail(DateTime $dateEnvoiMail = null) {
         $this->dateEnvoiMail = $dateEnvoiMail;
@@ -4268,6 +4338,7 @@ class InfosComplBul {
      * Set the date fin chom cdd.
      *
      * @param DateTime|null $dateFinChomCdd The date fin chom cdd.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateFinChomCdd(DateTime $dateFinChomCdd = null) {
         $this->dateFinChomCdd = $dateFinChomCdd;
@@ -4278,6 +4349,7 @@ class InfosComplBul {
      * Set the date fin contrat.
      *
      * @param DateTime|null $dateFinContrat The date fin contrat.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateFinContrat(DateTime $dateFinContrat = null) {
         $this->dateFinContrat = $dateFinContrat;
@@ -4288,6 +4360,7 @@ class InfosComplBul {
      * Set the date fin prev.
      *
      * @param DateTime|null $dateFinPrev The date fin prev.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateFinPrev(DateTime $dateFinPrev = null) {
         $this->dateFinPrev = $dateFinPrev;
@@ -4298,6 +4371,7 @@ class InfosComplBul {
      * Set the date rachat.
      *
      * @param DateTime|null $dateRachat The date rachat.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateRachat(DateTime $dateRachat = null) {
         $this->dateRachat = $dateRachat;
@@ -4308,6 +4382,7 @@ class InfosComplBul {
      * Set the date renouv cdd.
      *
      * @param DateTime|null $dateRenouvCdd The date renouv cdd.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateRenouvCdd(DateTime $dateRenouvCdd = null) {
         $this->dateRenouvCdd = $dateRenouvCdd;
@@ -4318,6 +4393,7 @@ class InfosComplBul {
      * Set the date renouv cdd2.
      *
      * @param DateTime|null $dateRenouvCdd2 The date renouv cdd2.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDateRenouvCdd2(DateTime $dateRenouvCdd2 = null) {
         $this->dateRenouvCdd2 = $dateRenouvCdd2;
@@ -4328,6 +4404,7 @@ class InfosComplBul {
      * Set the detache expatrie.
      *
      * @param string $detacheExpatrie The detache expatrie.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setDetacheExpatrie($detacheExpatrie) {
         $this->detacheExpatrie = $detacheExpatrie;
@@ -4338,6 +4415,7 @@ class InfosComplBul {
      * Set the echelon.
      *
      * @param string $echelon The echelon.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setEchelon($echelon) {
         $this->echelon = $echelon;
@@ -4348,6 +4426,7 @@ class InfosComplBul {
      * Set the echelon convention col.
      *
      * @param string $echelonConventionCol The echelon convention col.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setEchelonConventionCol($echelonConventionCol) {
         $this->echelonConventionCol = $echelonConventionCol;
@@ -4358,6 +4437,7 @@ class InfosComplBul {
      * Set the email.
      *
      * @param string $email The email.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -4368,6 +4448,7 @@ class InfosComplBul {
      * Set the emploi.
      *
      * @param string $emploi The emploi.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setEmploi($emploi) {
         $this->emploi = $emploi;
@@ -4378,6 +4459,7 @@ class InfosComplBul {
      * Set the etab lieu travail.
      *
      * @param string $etabLieuTravail The etab lieu travail.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setEtabLieuTravail($etabLieuTravail) {
         $this->etabLieuTravail = $etabLieuTravail;
@@ -4388,6 +4470,7 @@ class InfosComplBul {
      * Set the exclure chom cdd.
      *
      * @param bool $exclureChomCdd The exclure chom cdd.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExclureChomCdd($exclureChomCdd) {
         $this->exclureChomCdd = $exclureChomCdd;
@@ -4398,6 +4481,7 @@ class InfosComplBul {
      * Set the exclure cice.
      *
      * @param bool $exclureCice The exclure cice.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExclureCice($exclureCice) {
         $this->exclureCice = $exclureCice;
@@ -4408,6 +4492,7 @@ class InfosComplBul {
      * Set the exclure cospar.
      *
      * @param bool $exclureCospar The exclure cospar.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExclureCospar($exclureCospar) {
         $this->exclureCospar = $exclureCospar;
@@ -4418,6 +4503,7 @@ class InfosComplBul {
      * Set the exclure dsn.
      *
      * @param bool $exclureDsn The exclure dsn.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExclureDsn($exclureDsn) {
         $this->exclureDsn = $exclureDsn;
@@ -4428,6 +4514,7 @@ class InfosComplBul {
      * Set the exclure loi tepa.
      *
      * @param bool $exclureLoiTepa The exclure loi tepa.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExclureLoiTepa($exclureLoiTepa) {
         $this->exclureLoiTepa = $exclureLoiTepa;
@@ -4438,6 +4525,7 @@ class InfosComplBul {
      * Set the exclure loi tepa part p.
      *
      * @param bool $exclureLoiTepaPartP The exclure loi tepa part p.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExclureLoiTepaPartP($exclureLoiTepaPartP) {
         $this->exclureLoiTepaPartP = $exclureLoiTepaPartP;
@@ -4448,6 +4536,7 @@ class InfosComplBul {
      * Set the exclure loi tepa part s.
      *
      * @param bool $exclureLoiTepaPartS The exclure loi tepa part s.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExclureLoiTepaPartS($exclureLoiTepaPartS) {
         $this->exclureLoiTepaPartS = $exclureLoiTepaPartS;
@@ -4458,6 +4547,7 @@ class InfosComplBul {
      * Set the exclure qgc.
      *
      * @param bool $exclureQgc The exclure qgc.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExclureQgc($exclureQgc) {
         $this->exclureQgc = $exclureQgc;
@@ -4468,6 +4558,7 @@ class InfosComplBul {
      * Set the exo accre17.
      *
      * @param bool $exoAccre17 The exo accre17.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExoAccre17($exoAccre17) {
         $this->exoAccre17 = $exoAccre17;
@@ -4478,6 +4569,7 @@ class InfosComplBul {
      * Set the exo occasionnel msa.
      *
      * @param bool $exoOccasionnelMsa The exo occasionnel msa.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExoOccasionnelMsa($exoOccasionnelMsa) {
         $this->exoOccasionnelMsa = $exoOccasionnelMsa;
@@ -4488,6 +4580,7 @@ class InfosComplBul {
      * Set the exo professionnalisation.
      *
      * @param bool $exoProfessionnalisation The exo professionnalisation.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExoProfessionnalisation($exoProfessionnalisation) {
         $this->exoProfessionnalisation = $exoProfessionnalisation;
@@ -4498,6 +4591,7 @@ class InfosComplBul {
      * Set the exo specif.
      *
      * @param bool $exoSpecif The exo specif.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setExoSpecif($exoSpecif) {
         $this->exoSpecif = $exoSpecif;
@@ -4508,6 +4602,7 @@ class InfosComplBul {
      * Set the forfait heure.
      *
      * @param bool $forfaitHeure The forfait heure.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setForfaitHeure($forfaitHeure) {
         $this->forfaitHeure = $forfaitHeure;
@@ -4518,6 +4613,7 @@ class InfosComplBul {
      * Set the fraction etab.
      *
      * @param string $fractionEtab The fraction etab.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setFractionEtab($fractionEtab) {
         $this->fractionEtab = $fractionEtab;
@@ -4528,6 +4624,7 @@ class InfosComplBul {
      * Set the gestion cp.
      *
      * @param bool $gestionCp The gestion cp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setGestionCp($gestionCp) {
         $this->gestionCp = $gestionCp;
@@ -4538,6 +4635,7 @@ class InfosComplBul {
      * Set the gestion hstepa.
      *
      * @param string $gestionHstepa The gestion hstepa.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setGestionHstepa($gestionHstepa) {
         $this->gestionHstepa = $gestionHstepa;
@@ -4548,6 +4646,7 @@ class InfosComplBul {
      * Set the gestion mail bulletin.
      *
      * @param bool $gestionMailBulletin The gestion mail bulletin.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setGestionMailBulletin($gestionMailBulletin) {
         $this->gestionMailBulletin = $gestionMailBulletin;
@@ -4558,6 +4657,7 @@ class InfosComplBul {
      * Set the gestion rtt.
      *
      * @param bool $gestionRtt The gestion rtt.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setGestionRtt($gestionRtt) {
         $this->gestionRtt = $gestionRtt;
@@ -4568,6 +4668,7 @@ class InfosComplBul {
      * Set the grille anc1.
      *
      * @param string $grilleAnc1 The grille anc1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setGrilleAnc1($grilleAnc1) {
         $this->grilleAnc1 = $grilleAnc1;
@@ -4578,6 +4679,7 @@ class InfosComplBul {
      * Set the grille anc2.
      *
      * @param string $grilleAnc2 The grille anc2.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setGrilleAnc2($grilleAnc2) {
         $this->grilleAnc2 = $grilleAnc2;
@@ -4588,6 +4690,7 @@ class InfosComplBul {
      * Set the grille anc3.
      *
      * @param string $grilleAnc3 The grille anc3.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setGrilleAnc3($grilleAnc3) {
         $this->grilleAnc3 = $grilleAnc3;
@@ -4598,6 +4701,7 @@ class InfosComplBul {
      * Set the id lieu travail.
      *
      * @param string $idLieuTravail The id lieu travail.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setIdLieuTravail($idLieuTravail) {
         $this->idLieuTravail = $idLieuTravail;
@@ -4608,6 +4712,7 @@ class InfosComplBul {
      * Set the indem cp msa.
      *
      * @param bool $indemCpMsa The indem cp msa.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setIndemCpMsa($indemCpMsa) {
         $this->indemCpMsa = $indemCpMsa;
@@ -4618,6 +4723,7 @@ class InfosComplBul {
      * Set the indice.
      *
      * @param string $indice The indice.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -4628,6 +4734,7 @@ class InfosComplBul {
      * Set the indice categ.
      *
      * @param int $indiceCateg The indice categ.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setIndiceCateg($indiceCateg) {
         $this->indiceCateg = $indiceCateg;
@@ -4638,6 +4745,7 @@ class InfosComplBul {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -4648,6 +4756,7 @@ class InfosComplBul {
      * Set the interim indem cp fillon.
      *
      * @param bool $interimIndemCpFillon The interim indem cp fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setInterimIndemCpFillon($interimIndemCpFillon) {
         $this->interimIndemCpFillon = $interimIndemCpFillon;
@@ -4658,6 +4767,7 @@ class InfosComplBul {
      * Set the libelle reintegration.
      *
      * @param string $libelleReintegration The libelle reintegration.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setLibelleReintegration($libelleReintegration) {
         $this->libelleReintegration = $libelleReintegration;
@@ -4668,6 +4778,7 @@ class InfosComplBul {
      * Set the lien reintegration.
      *
      * @param string $lienReintegration The lien reintegration.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setLienReintegration($lienReintegration) {
         $this->lienReintegration = $lienReintegration;
@@ -4678,6 +4789,7 @@ class InfosComplBul {
      * Set the maintien intervient cp.
      *
      * @param bool $maintienIntervientCp The maintien intervient cp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMaintienIntervientCp($maintienIntervientCp) {
         $this->maintienIntervientCp = $maintienIntervientCp;
@@ -4688,6 +4800,7 @@ class InfosComplBul {
      * Set the maintien salaire.
      *
      * @param bool $maintienSalaire The maintien salaire.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMaintienSalaire($maintienSalaire) {
         $this->maintienSalaire = $maintienSalaire;
@@ -4698,6 +4811,7 @@ class InfosComplBul {
      * Set the montant avantage.
      *
      * @param float $montantAvantage The montant avantage.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMontantAvantage($montantAvantage) {
         $this->montantAvantage = $montantAvantage;
@@ -4708,6 +4822,7 @@ class InfosComplBul {
      * Set the motif cdd.
      *
      * @param string $motifCdd The motif cdd.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMotifCdd($motifCdd) {
         $this->motifCdd = $motifCdd;
@@ -4718,6 +4833,7 @@ class InfosComplBul {
      * Set the motif exclusion dsn.
      *
      * @param string $motifExclusionDsn The motif exclusion dsn.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMotifExclusionDsn($motifExclusionDsn) {
         $this->motifExclusionDsn = $motifExclusionDsn;
@@ -4728,6 +4844,7 @@ class InfosComplBul {
      * Set the mt abs act part.
      *
      * @param float $mtAbsActPart The mt abs act part.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtAbsActPart($mtAbsActPart) {
         $this->mtAbsActPart = $mtAbsActPart;
@@ -4738,6 +4855,7 @@ class InfosComplBul {
      * Set the mt cotisation prev.
      *
      * @param float $mtCotisationPrev The mt cotisation prev.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtCotisationPrev($mtCotisationPrev) {
         $this->mtCotisationPrev = $mtCotisationPrev;
@@ -4748,6 +4866,7 @@ class InfosComplBul {
      * Set the mt cotisation retraite.
      *
      * @param float $mtCotisationRetraite The mt cotisation retraite.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtCotisationRetraite($mtCotisationRetraite) {
         $this->mtCotisationRetraite = $mtCotisationRetraite;
@@ -4758,6 +4877,7 @@ class InfosComplBul {
      * Set the mt crds100.
      *
      * @param float $mtCrds100 The mt crds100.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtCrds100($mtCrds100) {
         $this->mtCrds100 = $mtCrds100;
@@ -4768,6 +4888,7 @@ class InfosComplBul {
      * Set the mt csg100.
      *
      * @param float $mtCsg100 The mt csg100.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtCsg100($mtCsg100) {
         $this->mtCsg100 = $mtCsg100;
@@ -4778,6 +4899,7 @@ class InfosComplBul {
      * Set the mt fisc frais sante.
      *
      * @param float $mtFiscFraisSante The mt fisc frais sante.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtFiscFraisSante($mtFiscFraisSante) {
         $this->mtFiscFraisSante = $mtFiscFraisSante;
@@ -4788,6 +4910,7 @@ class InfosComplBul {
      * Set the mt fisc prev.
      *
      * @param float $mtFiscPrev The mt fisc prev.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtFiscPrev($mtFiscPrev) {
         $this->mtFiscPrev = $mtFiscPrev;
@@ -4798,6 +4921,7 @@ class InfosComplBul {
      * Set the mt fisc retraite.
      *
      * @param float $mtFiscRetraite The mt fisc retraite.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtFiscRetraite($mtFiscRetraite) {
         $this->mtFiscRetraite = $mtFiscRetraite;
@@ -4808,6 +4932,7 @@ class InfosComplBul {
      * Set the mt forfait social20.
      *
      * @param float $mtForfaitSocial20 The mt forfait social20.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtForfaitSocial20($mtForfaitSocial20) {
         $this->mtForfaitSocial20 = $mtForfaitSocial20;
@@ -4818,6 +4943,7 @@ class InfosComplBul {
      * Set the mt forfait social8.
      *
      * @param float $mtForfaitSocial8 The mt forfait social8.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtForfaitSocial8($mtForfaitSocial8) {
         $this->mtForfaitSocial8 = $mtForfaitSocial8;
@@ -4828,6 +4954,7 @@ class InfosComplBul {
      * Set the mt iap.
      *
      * @param float $mtIap The mt iap.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtIap($mtIap) {
         $this->mtIap = $mtIap;
@@ -4838,6 +4965,7 @@ class InfosComplBul {
      * Set the mt journee cpn.
      *
      * @param float $mtJourneeCpn The mt journee cpn.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtJourneeCpn($mtJourneeCpn) {
         $this->mtJourneeCpn = $mtJourneeCpn;
@@ -4848,6 +4976,7 @@ class InfosComplBul {
      * Set the mt journee cpn1.
      *
      * @param float $mtJourneeCpn1 The mt journee cpn1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMtJourneeCpn1($mtJourneeCpn1) {
         $this->mtJourneeCpn1 = $mtJourneeCpn1;
@@ -4858,6 +4987,7 @@ class InfosComplBul {
      * Set the multi employeur.
      *
      * @param bool $multiEmployeur The multi employeur.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setMultiEmployeur($multiEmployeur) {
         $this->multiEmployeur = $multiEmployeur;
@@ -4868,6 +4998,7 @@ class InfosComplBul {
      * Set the nature analytique.
      *
      * @param string $natureAnalytique The nature analytique.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNatureAnalytique($natureAnalytique) {
         $this->natureAnalytique = $natureAnalytique;
@@ -4878,6 +5009,7 @@ class InfosComplBul {
      * Set the nb30 renouv cdd.
      *
      * @param int $nb30RenouvCdd The nb30 renouv cdd.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNb30RenouvCdd($nb30RenouvCdd) {
         $this->nb30RenouvCdd = $nb30RenouvCdd;
@@ -4888,6 +5020,7 @@ class InfosComplBul {
      * Set the nb h act part.
      *
      * @param float $nbHActPart The nb h act part.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbHActPart($nbHActPart) {
         $this->nbHActPart = $nbHActPart;
@@ -4898,6 +5031,7 @@ class InfosComplBul {
      * Set the nb h act part indem.
      *
      * @param float $nbHActPartIndem The nb h act part indem.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbHActPartIndem($nbHActPartIndem) {
         $this->nbHActPartIndem = $nbHActPartIndem;
@@ -4908,6 +5042,7 @@ class InfosComplBul {
      * Set the nb h bonifie.
      *
      * @param float $nbHBonifie The nb h bonifie.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbHBonifie($nbHBonifie) {
         $this->nbHBonifie = $nbHBonifie;
@@ -4918,6 +5053,7 @@ class InfosComplBul {
      * Set the nb h contingent.
      *
      * @param float $nbHContingent The nb h contingent.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbHContingent($nbHContingent) {
         $this->nbHContingent = $nbHContingent;
@@ -4928,6 +5064,7 @@ class InfosComplBul {
      * Set the nb h contract.
      *
      * @param float $nbHContract The nb h contract.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbHContract($nbHContract) {
         $this->nbHContract = $nbHContract;
@@ -4938,6 +5075,7 @@ class InfosComplBul {
      * Set the nb heure mois.
      *
      * @param float $nbHeureMois The nb heure mois.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbHeureMois($nbHeureMois) {
         $this->nbHeureMois = $nbHeureMois;
@@ -4948,6 +5086,7 @@ class InfosComplBul {
      * Set the nb jour annee.
      *
      * @param float $nbJourAnnee The nb jour annee.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbJourAnnee($nbJourAnnee) {
         $this->nbJourAnnee = $nbJourAnnee;
@@ -4958,6 +5097,7 @@ class InfosComplBul {
      * Set the nb jour cp acquis.
      *
      * @param float $nbJourCpAcquis The nb jour cp acquis.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbJourCpAcquis($nbJourCpAcquis) {
         $this->nbJourCpAcquis = $nbJourCpAcquis;
@@ -4968,6 +5108,7 @@ class InfosComplBul {
      * Set the nb jour cp sup.
      *
      * @param float $nbJourCpSup The nb jour cp sup.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbJourCpSup($nbJourCpSup) {
         $this->nbJourCpSup = $nbJourCpSup;
@@ -4978,6 +5119,7 @@ class InfosComplBul {
      * Set the nb piece logement.
      *
      * @param string $nbPieceLogement The nb piece logement.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNbPieceLogement($nbPieceLogement) {
         $this->nbPieceLogement = $nbPieceLogement;
@@ -4988,6 +5130,7 @@ class InfosComplBul {
      * Set the ne pas activer prime annuelle proprete.
      *
      * @param bool $nePasActiverPrimeAnnuelleProprete The ne pas activer prime annuelle proprete.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNePasActiverPrimeAnnuelleProprete($nePasActiverPrimeAnnuelleProprete) {
         $this->nePasActiverPrimeAnnuelleProprete = $nePasActiverPrimeAnnuelleProprete;
@@ -4998,6 +5141,7 @@ class InfosComplBul {
      * Set the ne pas publier web.
      *
      * @param bool $nePasPublierWeb The ne pas publier web.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNePasPublierWeb($nePasPublierWeb) {
         $this->nePasPublierWeb = $nePasPublierWeb;
@@ -5008,6 +5152,7 @@ class InfosComplBul {
      * Set the niveau.
      *
      * @param string $niveau The niveau.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -5018,6 +5163,7 @@ class InfosComplBul {
      * Set the niveau convention col.
      *
      * @param string $niveauConventionCol The niveau convention col.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNiveauConventionCol($niveauConventionCol) {
         $this->niveauConventionCol = $niveauConventionCol;
@@ -5028,6 +5174,7 @@ class InfosComplBul {
      * Set the nom marital.
      *
      * @param string $nomMarital The nom marital.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNomMarital($nomMarital) {
         $this->nomMarital = $nomMarital;
@@ -5038,6 +5185,7 @@ class InfosComplBul {
      * Set the nom naissance.
      *
      * @param string $nomNaissance The nom naissance.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNomNaissance($nomNaissance) {
         $this->nomNaissance = $nomNaissance;
@@ -5048,6 +5196,7 @@ class InfosComplBul {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -5058,6 +5207,7 @@ class InfosComplBul {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -5068,6 +5218,7 @@ class InfosComplBul {
      * Set the num evenement.
      *
      * @param int $numEvenement The num evenement.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNumEvenement($numEvenement) {
         $this->numEvenement = $numEvenement;
@@ -5078,6 +5229,7 @@ class InfosComplBul {
      * Set the num objet.
      *
      * @param string $numObjet The num objet.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNumObjet($numObjet) {
         $this->numObjet = $numObjet;
@@ -5088,6 +5240,7 @@ class InfosComplBul {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -5098,6 +5251,7 @@ class InfosComplBul {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -5108,6 +5262,7 @@ class InfosComplBul {
      * Set the numero abattement contrat msa.
      *
      * @param int $numeroAbattementContratMsa The numero abattement contrat msa.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNumeroAbattementContratMsa($numeroAbattementContratMsa) {
         $this->numeroAbattementContratMsa = $numeroAbattementContratMsa;
@@ -5118,6 +5273,7 @@ class InfosComplBul {
      * Set the numero contrat.
      *
      * @param int $numeroContrat The numero contrat.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNumeroContrat($numeroContrat) {
         $this->numeroContrat = $numeroContrat;
@@ -5128,6 +5284,7 @@ class InfosComplBul {
      * Set the numero grille type.
      *
      * @param int $numeroGrilleType The numero grille type.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setNumeroGrilleType($numeroGrilleType) {
         $this->numeroGrilleType = $numeroGrilleType;
@@ -5138,6 +5295,7 @@ class InfosComplBul {
      * Set the part patron prev forfait social8.
      *
      * @param float $partPatronPrevForfaitSocial8 The part patron prev forfait social8.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPartPatronPrevForfaitSocial8($partPatronPrevForfaitSocial8) {
         $this->partPatronPrevForfaitSocial8 = $partPatronPrevForfaitSocial8;
@@ -5148,6 +5306,7 @@ class InfosComplBul {
      * Set the pas de reintegration.
      *
      * @param bool $pasDeReintegration The pas de reintegration.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPasDeReintegration($pasDeReintegration) {
         $this->pasDeReintegration = $pasDeReintegration;
@@ -5158,6 +5317,7 @@ class InfosComplBul {
      * Set the pas gestion dif.
      *
      * @param bool $pasGestionDif The pas gestion dif.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPasGestionDif($pasGestionDif) {
         $this->pasGestionDif = $pasGestionDif;
@@ -5168,6 +5328,7 @@ class InfosComplBul {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -5178,6 +5339,7 @@ class InfosComplBul {
      * Set the position.
      *
      * @param string $position The position.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPosition($position) {
         $this->position = $position;
@@ -5188,6 +5350,7 @@ class InfosComplBul {
      * Set the position convention col.
      *
      * @param string $positionConventionCol The position convention col.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPositionConventionCol($positionConventionCol) {
         $this->positionConventionCol = $positionConventionCol;
@@ -5198,6 +5361,7 @@ class InfosComplBul {
      * Set the pourcent exo.
      *
      * @param float $pourcentExo The pourcent exo.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPourcentExo($pourcentExo) {
         $this->pourcentExo = $pourcentExo;
@@ -5208,6 +5372,7 @@ class InfosComplBul {
      * Set the prem date entree.
      *
      * @param DateTime|null $premDateEntree The prem date entree.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPremDateEntree(DateTime $premDateEntree = null) {
         $this->premDateEntree = $premDateEntree;
@@ -5218,6 +5383,7 @@ class InfosComplBul {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -5228,6 +5394,7 @@ class InfosComplBul {
      * Set the pss1 force.
      *
      * @param bool $pss1Force The pss1 force.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setPss1Force($pss1Force) {
         $this->pss1Force = $pss1Force;
@@ -5238,6 +5405,7 @@ class InfosComplBul {
      * Set the qualification.
      *
      * @param string $qualification The qualification.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setQualification($qualification) {
         $this->qualification = $qualification;
@@ -5248,6 +5416,7 @@ class InfosComplBul {
      * Set the reduction fillon.
      *
      * @param bool $reductionFillon The reduction fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setReductionFillon($reductionFillon) {
         $this->reductionFillon = $reductionFillon;
@@ -5258,6 +5427,7 @@ class InfosComplBul {
      * Set the regle calcul.
      *
      * @param string $regleCalcul The regle calcul.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRegleCalcul($regleCalcul) {
         $this->regleCalcul = $regleCalcul;
@@ -5268,6 +5438,7 @@ class InfosComplBul {
      * Set the remun part fillon.
      *
      * @param bool $remunPartFillon The remun part fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRemunPartFillon($remunPartFillon) {
         $this->remunPartFillon = $remunPartFillon;
@@ -5278,6 +5449,7 @@ class InfosComplBul {
      * Set the rtt1.
      *
      * @param float $rtt1 The rtt1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt1($rtt1) {
         $this->rtt1 = $rtt1;
@@ -5288,6 +5460,7 @@ class InfosComplBul {
      * Set the rtt10.
      *
      * @param float $rtt10 The rtt10.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt10($rtt10) {
         $this->rtt10 = $rtt10;
@@ -5298,6 +5471,7 @@ class InfosComplBul {
      * Set the rtt11.
      *
      * @param float $rtt11 The rtt11.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt11($rtt11) {
         $this->rtt11 = $rtt11;
@@ -5308,6 +5482,7 @@ class InfosComplBul {
      * Set the rtt12.
      *
      * @param float $rtt12 The rtt12.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt12($rtt12) {
         $this->rtt12 = $rtt12;
@@ -5318,6 +5493,7 @@ class InfosComplBul {
      * Set the rtt2.
      *
      * @param float $rtt2 The rtt2.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt2($rtt2) {
         $this->rtt2 = $rtt2;
@@ -5328,6 +5504,7 @@ class InfosComplBul {
      * Set the rtt3.
      *
      * @param float $rtt3 The rtt3.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt3($rtt3) {
         $this->rtt3 = $rtt3;
@@ -5338,6 +5515,7 @@ class InfosComplBul {
      * Set the rtt4.
      *
      * @param float $rtt4 The rtt4.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt4($rtt4) {
         $this->rtt4 = $rtt4;
@@ -5348,6 +5526,7 @@ class InfosComplBul {
      * Set the rtt5.
      *
      * @param float $rtt5 The rtt5.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt5($rtt5) {
         $this->rtt5 = $rtt5;
@@ -5358,6 +5537,7 @@ class InfosComplBul {
      * Set the rtt6.
      *
      * @param float $rtt6 The rtt6.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt6($rtt6) {
         $this->rtt6 = $rtt6;
@@ -5368,6 +5548,7 @@ class InfosComplBul {
      * Set the rtt7.
      *
      * @param float $rtt7 The rtt7.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt7($rtt7) {
         $this->rtt7 = $rtt7;
@@ -5378,6 +5559,7 @@ class InfosComplBul {
      * Set the rtt8.
      *
      * @param float $rtt8 The rtt8.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt8($rtt8) {
         $this->rtt8 = $rtt8;
@@ -5388,6 +5570,7 @@ class InfosComplBul {
      * Set the rtt9.
      *
      * @param float $rtt9 The rtt9.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setRtt9($rtt9) {
         $this->rtt9 = $rtt9;
@@ -5398,6 +5581,7 @@ class InfosComplBul {
      * Set the salaire base.
      *
      * @param float $salaireBase The salaire base.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSalaireBase($salaireBase) {
         $this->salaireBase = $salaireBase;
@@ -5408,6 +5592,7 @@ class InfosComplBul {
      * Set the salaire reference.
      *
      * @param float $salaireReference The salaire reference.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSalaireReference($salaireReference) {
         $this->salaireReference = $salaireReference;
@@ -5418,6 +5603,7 @@ class InfosComplBul {
      * Set the salaire retabli dsn.
      *
      * @param float $salaireRetabliDsn The salaire retabli dsn.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSalaireRetabliDsn($salaireRetabliDsn) {
         $this->salaireRetabliDsn = $salaireRetabliDsn;
@@ -5428,6 +5614,7 @@ class InfosComplBul {
      * Set the salaire retabli dsn force.
      *
      * @param bool $salaireRetabliDsnForce The salaire retabli dsn force.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSalaireRetabliDsnForce($salaireRetabliDsnForce) {
         $this->salaireRetabliDsnForce = $salaireRetabliDsnForce;
@@ -5438,6 +5625,7 @@ class InfosComplBul {
      * Set the sans contrat.
      *
      * @param int $sansContrat The sans contrat.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSansContrat($sansContrat) {
         $this->sansContrat = $sansContrat;
@@ -5448,6 +5636,7 @@ class InfosComplBul {
      * Set the service.
      *
      * @param string $service The service.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setService($service) {
         $this->service = $service;
@@ -5458,6 +5647,7 @@ class InfosComplBul {
      * Set the setp fillon.
      *
      * @param float $setpFillon The setp fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSetpFillon($setpFillon) {
         $this->setpFillon = $setpFillon;
@@ -5468,6 +5658,7 @@ class InfosComplBul {
      * Set the signe af.
      *
      * @param string $signeAf The signe af.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSigneAf($signeAf) {
         $this->signeAf = $signeAf;
@@ -5478,6 +5669,7 @@ class InfosComplBul {
      * Set the siret lieu trav.
      *
      * @param string $siretLieuTrav The siret lieu trav.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSiretLieuTrav($siretLieuTrav) {
         $this->siretLieuTrav = $siretLieuTrav;
@@ -5488,6 +5680,7 @@ class InfosComplBul {
      * Set the smic m fillon sans hs.
      *
      * @param float $smicMFillonSansHs The smic m fillon sans hs.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSmicMFillonSansHs($smicMFillonSansHs) {
         $this->smicMFillonSansHs = $smicMFillonSansHs;
@@ -5498,6 +5691,7 @@ class InfosComplBul {
      * Set the smic maf.
      *
      * @param float $smicMaf The smic maf.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSmicMaf($smicMaf) {
         $this->smicMaf = $smicMaf;
@@ -5508,6 +5702,7 @@ class InfosComplBul {
      * Set the smic mcice.
      *
      * @param float $smicMcice The smic mcice.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSmicMcice($smicMcice) {
         $this->smicMcice = $smicMcice;
@@ -5518,6 +5713,7 @@ class InfosComplBul {
      * Set the subrogation.
      *
      * @param bool $subrogation The subrogation.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setSubrogation($subrogation) {
         $this->subrogation = $subrogation;
@@ -5528,6 +5724,7 @@ class InfosComplBul {
      * Set the tds59.
      *
      * @param string $tds59 The tds59.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTds59($tds59) {
         $this->tds59 = $tds59;
@@ -5538,6 +5735,7 @@ class InfosComplBul {
      * Set the tds76.
      *
      * @param string $tds76 The tds76.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTds76($tds76) {
         $this->tds76 = $tds76;
@@ -5548,6 +5746,7 @@ class InfosComplBul {
      * Set the tel1.
      *
      * @param string $tel1 The tel1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTel1($tel1) {
         $this->tel1 = $tel1;
@@ -5558,6 +5757,7 @@ class InfosComplBul {
      * Set the tel2.
      *
      * @param string $tel2 The tel2.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTel2($tel2) {
         $this->tel2 = $tel2;
@@ -5568,6 +5768,7 @@ class InfosComplBul {
      * Set the tepa moins20.
      *
      * @param bool $tepaMoins20 The tepa moins20.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTepaMoins20($tepaMoins20) {
         $this->tepaMoins20 = $tepaMoins20;
@@ -5578,6 +5779,7 @@ class InfosComplBul {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTitre($titre) {
         $this->titre = $titre;
@@ -5588,6 +5790,7 @@ class InfosComplBul {
      * Set the tot cot urssaf.
      *
      * @param float $totCotUrssaf The tot cot urssaf.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTotCotUrssaf($totCotUrssaf) {
         $this->totCotUrssaf = $totCotUrssaf;
@@ -5598,6 +5801,7 @@ class InfosComplBul {
      * Set the tr d1 caisse1.
      *
      * @param float $trD1Caisse1 The tr d1 caisse1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTrD1Caisse1($trD1Caisse1) {
         $this->trD1Caisse1 = $trD1Caisse1;
@@ -5608,6 +5812,7 @@ class InfosComplBul {
      * Set the tr d1caisse2.
      *
      * @param float $trD1caisse2 The tr d1caisse2.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTrD1caisse2($trD1caisse2) {
         $this->trD1caisse2 = $trD1caisse2;
@@ -5618,6 +5823,7 @@ class InfosComplBul {
      * Set the tr d1caisse3.
      *
      * @param float $trD1caisse3 The tr d1caisse3.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTrD1caisse3($trD1caisse3) {
         $this->trD1caisse3 = $trD1caisse3;
@@ -5628,6 +5834,7 @@ class InfosComplBul {
      * Set the tr d caisse1.
      *
      * @param float $trDCaisse1 The tr d caisse1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTrDCaisse1($trDCaisse1) {
         $this->trDCaisse1 = $trDCaisse1;
@@ -5638,6 +5845,7 @@ class InfosComplBul {
      * Set the tr dcaisse2.
      *
      * @param float $trDcaisse2 The tr dcaisse2.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTrDcaisse2($trDcaisse2) {
         $this->trDcaisse2 = $trDcaisse2;
@@ -5648,6 +5856,7 @@ class InfosComplBul {
      * Set the tr dcaisse3.
      *
      * @param float $trDcaisse3 The tr dcaisse3.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTrDcaisse3($trDcaisse3) {
         $this->trDcaisse3 = $trDcaisse3;
@@ -5658,6 +5867,7 @@ class InfosComplBul {
      * Set the tranche d.
      *
      * @param float $trancheD The tranche d.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTrancheD($trancheD) {
         $this->trancheD = $trancheD;
@@ -5668,6 +5878,7 @@ class InfosComplBul {
      * Set the tranche d1.
      *
      * @param float $trancheD1 The tranche d1.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTrancheD1($trancheD1) {
         $this->trancheD1 = $trancheD1;
@@ -5678,6 +5889,7 @@ class InfosComplBul {
      * Set the type chom cdd.
      *
      * @param string $typeChomCdd The type chom cdd.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeChomCdd($typeChomCdd) {
         $this->typeChomCdd = $typeChomCdd;
@@ -5688,6 +5900,7 @@ class InfosComplBul {
      * Set the type contrat.
      *
      * @param string $typeContrat The type contrat.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeContrat($typeContrat) {
         $this->typeContrat = $typeContrat;
@@ -5698,6 +5911,7 @@ class InfosComplBul {
      * Set the type exo lodeom.
      *
      * @param string $typeExoLodeom The type exo lodeom.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeExoLodeom($typeExoLodeom) {
         $this->typeExoLodeom = $typeExoLodeom;
@@ -5708,6 +5922,7 @@ class InfosComplBul {
      * Set the type he fillon.
      *
      * @param string $typeHeFillon The type he fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeHeFillon($typeHeFillon) {
         $this->typeHeFillon = $typeHeFillon;
@@ -5718,6 +5933,7 @@ class InfosComplBul {
      * Set the type maintien salaire.
      *
      * @param string $typeMaintienSalaire The type maintien salaire.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeMaintienSalaire($typeMaintienSalaire) {
         $this->typeMaintienSalaire = $typeMaintienSalaire;
@@ -5728,6 +5944,7 @@ class InfosComplBul {
      * Set the type reduction fillon.
      *
      * @param string $typeReductionFillon The type reduction fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeReductionFillon($typeReductionFillon) {
         $this->typeReductionFillon = $typeReductionFillon;
@@ -5738,6 +5955,7 @@ class InfosComplBul {
      * Set the type reduction mayotte.
      *
      * @param string $typeReductionMayotte The type reduction mayotte.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeReductionMayotte($typeReductionMayotte) {
         $this->typeReductionMayotte = $typeReductionMayotte;
@@ -5748,6 +5966,7 @@ class InfosComplBul {
      * Set the type saisie ab cp.
      *
      * @param string $typeSaisieAbCp The type saisie ab cp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeSaisieAbCp($typeSaisieAbCp) {
         $this->typeSaisieAbCp = $typeSaisieAbCp;
@@ -5758,6 +5977,7 @@ class InfosComplBul {
      * Set the type saisie chom intemp.
      *
      * @param string $typeSaisieChomIntemp The type saisie chom intemp.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setTypeSaisieChomIntemp($typeSaisieChomIntemp) {
         $this->typeSaisieChomIntemp = $typeSaisieChomIntemp;
@@ -5768,6 +5988,7 @@ class InfosComplBul {
      * Set the vrp multicarte.
      *
      * @param bool $vrpMulticarte The vrp multicarte.
+     * @return InfosComplBul Returns this Infos compl bul.
      */
     public function setVrpMulticarte($vrpMulticarte) {
         $this->vrpMulticarte = $vrpMulticarte;

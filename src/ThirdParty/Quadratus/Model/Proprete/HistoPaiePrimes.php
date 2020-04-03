@@ -160,6 +160,7 @@ class HistoPaiePrimes {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HistoPaiePrimes Returns this Histo paie primes.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -170,6 +171,7 @@ class HistoPaiePrimes {
      * Set the code prime.
      *
      * @param string $codePrime The code prime.
+     * @return HistoPaiePrimes Returns this Histo paie primes.
      */
     public function setCodePrime($codePrime) {
         $this->codePrime = $codePrime;
@@ -180,6 +182,7 @@ class HistoPaiePrimes {
      * Set the nombre prime.
      *
      * @param float $nombrePrime The nombre prime.
+     * @return HistoPaiePrimes Returns this Histo paie primes.
      */
     public function setNombrePrime($nombrePrime) {
         $this->nombrePrime = $nombrePrime;
@@ -190,6 +193,7 @@ class HistoPaiePrimes {
      * Set the numero prime.
      *
      * @param int $numeroPrime The numero prime.
+     * @return HistoPaiePrimes Returns this Histo paie primes.
      */
     public function setNumeroPrime($numeroPrime) {
         $this->numeroPrime = $numeroPrime;
@@ -200,6 +204,7 @@ class HistoPaiePrimes {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return HistoPaiePrimes Returns this Histo paie primes.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -210,6 +215,7 @@ class HistoPaiePrimes {
      * Set the periode rappel.
      *
      * @param DateTime|null $periodeRappel The periode rappel.
+     * @return HistoPaiePrimes Returns this Histo paie primes.
      */
     public function setPeriodeRappel(DateTime $periodeRappel = null) {
         $this->periodeRappel = $periodeRappel;
@@ -220,6 +226,7 @@ class HistoPaiePrimes {
      * Set the taux prime.
      *
      * @param float $tauxPrime The taux prime.
+     * @return HistoPaiePrimes Returns this Histo paie primes.
      */
     public function setTauxPrime($tauxPrime) {
         $this->tauxPrime = $tauxPrime;
@@ -230,6 +237,7 @@ class HistoPaiePrimes {
      * Set the type prime.
      *
      * @param string $typePrime The type prime.
+     * @return HistoPaiePrimes Returns this Histo paie primes.
      */
     public function setTypePrime($typePrime) {
         $this->typePrime = $typePrime;

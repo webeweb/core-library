@@ -158,6 +158,7 @@ class AffectationAnaDiv {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return AffectationAnaDiv Returns this Affectation ana div.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -168,6 +169,7 @@ class AffectationAnaDiv {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return AffectationAnaDiv Returns this Affectation ana div.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -178,6 +180,7 @@ class AffectationAnaDiv {
      * Set the num compte.
      *
      * @param string $numCompte The num compte.
+     * @return AffectationAnaDiv Returns this Affectation ana div.
      */
     public function setNumCompte($numCompte) {
         $this->numCompte = $numCompte;
@@ -188,6 +191,7 @@ class AffectationAnaDiv {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return AffectationAnaDiv Returns this Affectation ana div.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -198,6 +202,7 @@ class AffectationAnaDiv {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return AffectationAnaDiv Returns this Affectation ana div.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -208,6 +213,7 @@ class AffectationAnaDiv {
      * Set the numero deux.
      *
      * @param int $numeroDeux The numero deux.
+     * @return AffectationAnaDiv Returns this Affectation ana div.
      */
     public function setNumeroDeux($numeroDeux) {
         $this->numeroDeux = $numeroDeux;
@@ -218,6 +224,7 @@ class AffectationAnaDiv {
      * Set the pourcentage.
      *
      * @param float $pourcentage The pourcentage.
+     * @return AffectationAnaDiv Returns this Affectation ana div.
      */
     public function setPourcentage($pourcentage) {
         $this->pourcentage = $pourcentage;
@@ -228,6 +235,7 @@ class AffectationAnaDiv {
      * Set the type.
      *
      * @param string $type The type.
+     * @return AffectationAnaDiv Returns this Affectation ana div.
      */
     public function setType($type) {
         $this->type = $type;

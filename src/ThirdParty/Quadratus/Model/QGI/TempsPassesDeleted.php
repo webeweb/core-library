@@ -96,6 +96,7 @@ class TempsPassesDeleted {
      * Set the contexte.
      *
      * @param string $contexte The contexte.
+     * @return TempsPassesDeleted Returns this Temps passes deleted.
      */
     public function setContexte($contexte) {
         $this->contexte = $contexte;
@@ -106,6 +107,7 @@ class TempsPassesDeleted {
      * Set the date suppression.
      *
      * @param DateTime|null $dateSuppression The date suppression.
+     * @return TempsPassesDeleted Returns this Temps passes deleted.
      */
     public function setDateSuppression(DateTime $dateSuppression = null) {
         $this->dateSuppression = $dateSuppression;
@@ -116,6 +118,7 @@ class TempsPassesDeleted {
      * Set the g uniq id.
      *
      * @param string $gUniqId The g uniq id.
+     * @return TempsPassesDeleted Returns this Temps passes deleted.
      */
     public function setGUniqId($gUniqId) {
         $this->gUniqId = $gUniqId;
@@ -126,6 +129,7 @@ class TempsPassesDeleted {
      * Set the user.
      *
      * @param string $user The user.
+     * @return TempsPassesDeleted Returns this Temps passes deleted.
      */
     public function setUser($user) {
         $this->user = $user;

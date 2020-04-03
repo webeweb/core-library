@@ -304,6 +304,7 @@ class MensualisationTache {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -314,6 +315,7 @@ class MensualisationTache {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -324,6 +326,7 @@ class MensualisationTache {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -334,6 +337,7 @@ class MensualisationTache {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -344,6 +348,7 @@ class MensualisationTache {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -354,6 +359,7 @@ class MensualisationTache {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -364,6 +370,7 @@ class MensualisationTache {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -374,6 +381,7 @@ class MensualisationTache {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -384,6 +392,7 @@ class MensualisationTache {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -394,6 +403,7 @@ class MensualisationTache {
      * Set the histo mens saisi.
      *
      * @param bool $histoMensSaisi The histo mens saisi.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setHistoMensSaisi($histoMensSaisi) {
         $this->histoMensSaisi = $histoMensSaisi;
@@ -404,6 +414,7 @@ class MensualisationTache {
      * Set the mensualisation calculee.
      *
      * @param float $mensualisationCalculee The mensualisation calculee.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setMensualisationCalculee($mensualisationCalculee) {
         $this->mensualisationCalculee = $mensualisationCalculee;
@@ -414,6 +425,7 @@ class MensualisationTache {
      * Set the mensualisation saisie.
      *
      * @param float $mensualisationSaisie The mensualisation saisie.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setMensualisationSaisie($mensualisationSaisie) {
         $this->mensualisationSaisie = $mensualisationSaisie;
@@ -424,6 +436,7 @@ class MensualisationTache {
      * Set the mt prime.
      *
      * @param float $mtPrime The mt prime.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setMtPrime($mtPrime) {
         $this->mtPrime = $mtPrime;
@@ -434,6 +447,7 @@ class MensualisationTache {
      * Set the nb paniers.
      *
      * @param float $nbPaniers The nb paniers.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setNbPaniers($nbPaniers) {
         $this->nbPaniers = $nbPaniers;
@@ -444,6 +458,7 @@ class MensualisationTache {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -454,6 +469,7 @@ class MensualisationTache {
      * Set the periode debut validite.
      *
      * @param DateTime|null $periodeDebutValidite The periode debut validite.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setPeriodeDebutValidite(DateTime $periodeDebutValidite = null) {
         $this->periodeDebutValidite = $periodeDebutValidite;
@@ -464,6 +480,7 @@ class MensualisationTache {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return MensualisationTache Returns this Mensualisation tache.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

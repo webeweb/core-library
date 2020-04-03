@@ -94,6 +94,7 @@ class OptionsEnvoiMails {
      * Set the avec entete.
      *
      * @param bool $avecEntete The avec entete.
+     * @return OptionsEnvoiMails Returns this Options envoi mails.
      */
     public function setAvecEntete($avecEntete) {
         $this->avecEntete = $avecEntete;
@@ -104,6 +105,7 @@ class OptionsEnvoiMails {
      * Set the avec pied.
      *
      * @param bool $avecPied The avec pied.
+     * @return OptionsEnvoiMails Returns this Options envoi mails.
      */
     public function setAvecPied($avecPied) {
         $this->avecPied = $avecPied;
@@ -114,6 +116,7 @@ class OptionsEnvoiMails {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return OptionsEnvoiMails Returns this Options envoi mails.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -124,6 +127,7 @@ class OptionsEnvoiMails {
      * Set the code module.
      *
      * @param string $codeModule The code module.
+     * @return OptionsEnvoiMails Returns this Options envoi mails.
      */
     public function setCodeModule($codeModule) {
         $this->codeModule = $codeModule;

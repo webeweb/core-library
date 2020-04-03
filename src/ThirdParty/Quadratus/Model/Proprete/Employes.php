@@ -912,6 +912,7 @@ class Employes {
      * Set the a transferer en p.
      *
      * @param bool $aTransfererEnP The a transferer en p.
+     * @return Employes Returns this Employes.
      */
     public function setATransfererEnP($aTransfererEnP) {
         $this->aTransfererEnP = $aTransfererEnP;
@@ -922,6 +923,7 @@ class Employes {
      * Set the administratif.
      *
      * @param bool $administratif The administratif.
+     * @return Employes Returns this Employes.
      */
     public function setAdministratif($administratif) {
         $this->administratif = $administratif;
@@ -932,6 +934,7 @@ class Employes {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Employes Returns this Employes.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -942,6 +945,7 @@ class Employes {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Employes Returns this Employes.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -952,6 +956,7 @@ class Employes {
      * Set the chef equipe.
      *
      * @param bool $chefEquipe The chef equipe.
+     * @return Employes Returns this Employes.
      */
     public function setChefEquipe($chefEquipe) {
         $this->chefEquipe = $chefEquipe;
@@ -962,6 +967,7 @@ class Employes {
      * Set the cle deux.
      *
      * @param string $cleDeux The cle deux.
+     * @return Employes Returns this Employes.
      */
     public function setCleDeux($cleDeux) {
         $this->cleDeux = $cleDeux;
@@ -972,6 +978,7 @@ class Employes {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return Employes Returns this Employes.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -982,6 +989,7 @@ class Employes {
      * Set the code pays naissance.
      *
      * @param string $codePaysNaissance The code pays naissance.
+     * @return Employes Returns this Employes.
      */
     public function setCodePaysNaissance($codePaysNaissance) {
         $this->codePaysNaissance = $codePaysNaissance;
@@ -992,6 +1000,7 @@ class Employes {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Employes Returns this Employes.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -1002,6 +1011,7 @@ class Employes {
      * Set the commercial.
      *
      * @param bool $commercial The commercial.
+     * @return Employes Returns this Employes.
      */
     public function setCommercial($commercial) {
         $this->commercial = $commercial;
@@ -1012,6 +1022,7 @@ class Employes {
      * Set the commune naissance.
      *
      * @param string $communeNaissance The commune naissance.
+     * @return Employes Returns this Employes.
      */
     public function setCommuneNaissance($communeNaissance) {
         $this->communeNaissance = $communeNaissance;
@@ -1022,6 +1033,7 @@ class Employes {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Employes Returns this Employes.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -1032,6 +1044,7 @@ class Employes {
      * Set the controleur.
      *
      * @param bool $controleur The controleur.
+     * @return Employes Returns this Employes.
      */
     public function setControleur($controleur) {
         $this->controleur = $controleur;
@@ -1042,6 +1055,7 @@ class Employes {
      * Set the date ancien.
      *
      * @param DateTime|null $dateAncien The date ancien.
+     * @return Employes Returns this Employes.
      */
     public function setDateAncien(DateTime $dateAncien = null) {
         $this->dateAncien = $dateAncien;
@@ -1052,6 +1066,7 @@ class Employes {
      * Set the date entree1.
      *
      * @param DateTime|null $dateEntree1 The date entree1.
+     * @return Employes Returns this Employes.
      */
     public function setDateEntree1(DateTime $dateEntree1 = null) {
         $this->dateEntree1 = $dateEntree1;
@@ -1062,6 +1077,7 @@ class Employes {
      * Set the date entree2.
      *
      * @param DateTime|null $dateEntree2 The date entree2.
+     * @return Employes Returns this Employes.
      */
     public function setDateEntree2(DateTime $dateEntree2 = null) {
         $this->dateEntree2 = $dateEntree2;
@@ -1072,6 +1088,7 @@ class Employes {
      * Set the date naissance.
      *
      * @param DateTime|null $dateNaissance The date naissance.
+     * @return Employes Returns this Employes.
      */
     public function setDateNaissance(DateTime $dateNaissance = null) {
         $this->dateNaissance = $dateNaissance;
@@ -1082,6 +1099,7 @@ class Employes {
      * Set the date sortie1.
      *
      * @param DateTime|null $dateSortie1 The date sortie1.
+     * @return Employes Returns this Employes.
      */
     public function setDateSortie1(DateTime $dateSortie1 = null) {
         $this->dateSortie1 = $dateSortie1;
@@ -1092,6 +1110,7 @@ class Employes {
      * Set the date sortie2.
      *
      * @param DateTime|null $dateSortie2 The date sortie2.
+     * @return Employes Returns this Employes.
      */
     public function setDateSortie2(DateTime $dateSortie2 = null) {
         $this->dateSortie2 = $dateSortie2;
@@ -1102,6 +1121,7 @@ class Employes {
      * Set the dept naissance.
      *
      * @param string $deptNaissance The dept naissance.
+     * @return Employes Returns this Employes.
      */
     public function setDeptNaissance($deptNaissance) {
         $this->deptNaissance = $deptNaissance;
@@ -1112,6 +1132,7 @@ class Employes {
      * Set the dern num prime.
      *
      * @param int $dernNumPrime The dern num prime.
+     * @return Employes Returns this Employes.
      */
     public function setDernNumPrime($dernNumPrime) {
         $this->dernNumPrime = $dernNumPrime;
@@ -1122,6 +1143,7 @@ class Employes {
      * Set the dim type2.
      *
      * @param bool $dimType2 The dim type2.
+     * @return Employes Returns this Employes.
      */
     public function setDimType2($dimType2) {
         $this->dimType2 = $dimType2;
@@ -1132,6 +1154,7 @@ class Employes {
      * Set the fictif.
      *
      * @param bool $fictif The fictif.
+     * @return Employes Returns this Employes.
      */
     public function setFictif($fictif) {
         $this->fictif = $fictif;
@@ -1142,6 +1165,7 @@ class Employes {
      * Set the gestion maj dim.
      *
      * @param string $gestionMajDim The gestion maj dim.
+     * @return Employes Returns this Employes.
      */
     public function setGestionMajDim($gestionMajDim) {
         $this->gestionMajDim = $gestionMajDim;
@@ -1152,6 +1176,7 @@ class Employes {
      * Set the gestion maj jf.
      *
      * @param string $gestionMajJf The gestion maj jf.
+     * @return Employes Returns this Employes.
      */
     public function setGestionMajJf($gestionMajJf) {
         $this->gestionMajJf = $gestionMajJf;
@@ -1162,6 +1187,7 @@ class Employes {
      * Set the gestion maj nuit.
      *
      * @param string $gestionMajNuit The gestion maj nuit.
+     * @return Employes Returns this Employes.
      */
     public function setGestionMajNuit($gestionMajNuit) {
         $this->gestionMajNuit = $gestionMajNuit;
@@ -1172,6 +1198,7 @@ class Employes {
      * Set the h nuit type2.
      *
      * @param bool $hNuitType2 The h nuit type2.
+     * @return Employes Returns this Employes.
      */
     public function setHNuitType2($hNuitType2) {
         $this->hNuitType2 = $hNuitType2;
@@ -1182,6 +1209,7 @@ class Employes {
      * Set the handicape.
      *
      * @param bool $handicape The handicape.
+     * @return Employes Returns this Employes.
      */
     public function setHandicape($handicape) {
         $this->handicape = $handicape;
@@ -1192,6 +1220,7 @@ class Employes {
      * Set the hotellerie.
      *
      * @param bool $hotellerie The hotellerie.
+     * @return Employes Returns this Employes.
      */
     public function setHotellerie($hotellerie) {
         $this->hotellerie = $hotellerie;
@@ -1202,6 +1231,7 @@ class Employes {
      * Set the inspecteur.
      *
      * @param bool $inspecteur The inspecteur.
+     * @return Employes Returns this Employes.
      */
     public function setInspecteur($inspecteur) {
         $this->inspecteur = $inspecteur;
@@ -1212,6 +1242,7 @@ class Employes {
      * Set the livreur.
      *
      * @param bool $livreur The livreur.
+     * @return Employes Returns this Employes.
      */
     public function setLivreur($livreur) {
         $this->livreur = $livreur;
@@ -1222,6 +1253,7 @@ class Employes {
      * Set the mensualisation tache.
      *
      * @param string $mensualisationTache The mensualisation tache.
+     * @return Employes Returns this Employes.
      */
     public function setMensualisationTache($mensualisationTache) {
         $this->mensualisationTache = $mensualisationTache;
@@ -1232,6 +1264,7 @@ class Employes {
      * Set the nationalite.
      *
      * @param string $nationalite The nationalite.
+     * @return Employes Returns this Employes.
      */
     public function setNationalite($nationalite) {
         $this->nationalite = $nationalite;
@@ -1242,6 +1275,7 @@ class Employes {
      * Set the nb heure mois.
      *
      * @param float $nbHeureMois The nb heure mois.
+     * @return Employes Returns this Employes.
      */
     public function setNbHeureMois($nbHeureMois) {
         $this->nbHeureMois = $nbHeureMois;
@@ -1252,6 +1286,7 @@ class Employes {
      * Set the nom marital.
      *
      * @param string $nomMarital The nom marital.
+     * @return Employes Returns this Employes.
      */
     public function setNomMarital($nomMarital) {
         $this->nomMarital = $nomMarital;
@@ -1262,6 +1297,7 @@ class Employes {
      * Set the nom naissance.
      *
      * @param string $nomNaissance The nom naissance.
+     * @return Employes Returns this Employes.
      */
     public function setNomNaissance($nomNaissance) {
         $this->nomNaissance = $nomNaissance;
@@ -1272,6 +1308,7 @@ class Employes {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return Employes Returns this Employes.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -1282,6 +1319,7 @@ class Employes {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Employes Returns this Employes.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -1292,6 +1330,7 @@ class Employes {
      * Set the nombre enfants.
      *
      * @param string $nombreEnfants The nombre enfants.
+     * @return Employes Returns this Employes.
      */
     public function setNombreEnfants($nombreEnfants) {
         $this->nombreEnfants = $nombreEnfants;
@@ -1302,6 +1341,7 @@ class Employes {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Employes Returns this Employes.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -1312,6 +1352,7 @@ class Employes {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return Employes Returns this Employes.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -1322,6 +1363,7 @@ class Employes {
      * Set the numero insee.
      *
      * @param string $numeroInsee The numero insee.
+     * @return Employes Returns this Employes.
      */
     public function setNumeroInsee($numeroInsee) {
         $this->numeroInsee = $numeroInsee;
@@ -1332,6 +1374,7 @@ class Employes {
      * Set the numero pj pass.
      *
      * @param int $numeroPjPass The numero pj pass.
+     * @return Employes Returns this Employes.
      */
     public function setNumeroPjPass($numeroPjPass) {
         $this->numeroPjPass = $numeroPjPass;
@@ -1342,6 +1385,7 @@ class Employes {
      * Set the periode pointage cloturee.
      *
      * @param DateTime|null $periodePointageCloturee The periode pointage cloturee.
+     * @return Employes Returns this Employes.
      */
     public function setPeriodePointageCloturee(DateTime $periodePointageCloturee = null) {
         $this->periodePointageCloturee = $periodePointageCloturee;
@@ -1352,6 +1396,7 @@ class Employes {
      * Set the polyvalent.
      *
      * @param bool $polyvalent The polyvalent.
+     * @return Employes Returns this Employes.
      */
     public function setPolyvalent($polyvalent) {
         $this->polyvalent = $polyvalent;
@@ -1362,6 +1407,7 @@ class Employes {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return Employes Returns this Employes.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -1372,6 +1418,7 @@ class Employes {
      * Set the prime.
      *
      * @param bool $prime The prime.
+     * @return Employes Returns this Employes.
      */
     public function setPrime($prime) {
         $this->prime = $prime;
@@ -1382,6 +1429,7 @@ class Employes {
      * Set the qualification.
      *
      * @param string $qualification The qualification.
+     * @return Employes Returns this Employes.
      */
     public function setQualification($qualification) {
         $this->qualification = $qualification;
@@ -1392,6 +1440,7 @@ class Employes {
      * Set the situation fam.
      *
      * @param string $situationFam The situation fam.
+     * @return Employes Returns this Employes.
      */
     public function setSituationFam($situationFam) {
         $this->situationFam = $situationFam;
@@ -1402,6 +1451,7 @@ class Employes {
      * Set the tel1.
      *
      * @param string $tel1 The tel1.
+     * @return Employes Returns this Employes.
      */
     public function setTel1($tel1) {
         $this->tel1 = $tel1;
@@ -1412,6 +1462,7 @@ class Employes {
      * Set the tel2.
      *
      * @param string $tel2 The tel2.
+     * @return Employes Returns this Employes.
      */
     public function setTel2($tel2) {
         $this->tel2 = $tel2;
@@ -1422,6 +1473,7 @@ class Employes {
      * Set the temps passe.
      *
      * @param bool $tempsPasse The temps passe.
+     * @return Employes Returns this Employes.
      */
     public function setTempsPasse($tempsPasse) {
         $this->tempsPasse = $tempsPasse;
@@ -1432,6 +1484,7 @@ class Employes {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return Employes Returns this Employes.
      */
     public function setTitre($titre) {
         $this->titre = $titre;
@@ -1442,6 +1495,7 @@ class Employes {
      * Set the travaille jf.
      *
      * @param bool $travailleJf The travaille jf.
+     * @return Employes Returns this Employes.
      */
     public function setTravailleJf($travailleJf) {
         $this->travailleJf = $travailleJf;
@@ -1452,6 +1506,7 @@ class Employes {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return Employes Returns this Employes.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

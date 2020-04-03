@@ -112,6 +112,7 @@ class ChantiersPeriodesFermeture {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -122,6 +123,7 @@ class ChantiersPeriodesFermeture {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -132,6 +134,7 @@ class ChantiersPeriodesFermeture {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -142,6 +145,7 @@ class ChantiersPeriodesFermeture {
      * Set the date au.
      *
      * @param DateTime|null $dateAu The date au.
+     * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
     public function setDateAu(DateTime $dateAu = null) {
         $this->dateAu = $dateAu;
@@ -152,6 +156,7 @@ class ChantiersPeriodesFermeture {
      * Set the date du.
      *
      * @param DateTime|null $dateDu The date du.
+     * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
     public function setDateDu(DateTime $dateDu = null) {
         $this->dateDu = $dateDu;

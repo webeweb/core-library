@@ -368,6 +368,7 @@ class PrepaPaie {
      * Set the cp pris.
      *
      * @param float $cpPris The cp pris.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setCpPris($cpPris) {
         $this->cpPris = $cpPris;
@@ -378,6 +379,7 @@ class PrepaPaie {
      * Set the h majo acquis.
      *
      * @param float $hMajoAcquis The h majo acquis.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setHMajoAcquis($hMajoAcquis) {
         $this->hMajoAcquis = $hMajoAcquis;
@@ -388,6 +390,7 @@ class PrepaPaie {
      * Set the h majo pris.
      *
      * @param float $hMajoPris The h majo pris.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setHMajoPris($hMajoPris) {
         $this->hMajoPris = $hMajoPris;
@@ -398,6 +401,7 @@ class PrepaPaie {
      * Set the h sup a comptabiliser rc.
      *
      * @param float $hSupAComptabiliserRc The h sup a comptabiliser rc.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setHSupAComptabiliserRc($hSupAComptabiliserRc) {
         $this->hSupAComptabiliserRc = $hSupAComptabiliserRc;
@@ -408,6 +412,7 @@ class PrepaPaie {
      * Set the h sup a comptabiliser rcit.
      *
      * @param float $hSupAComptabiliserRcit The h sup a comptabiliser rcit.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setHSupAComptabiliserRcit($hSupAComptabiliserRcit) {
         $this->hSupAComptabiliserRcit = $hSupAComptabiliserRcit;
@@ -418,6 +423,7 @@ class PrepaPaie {
      * Set the h sup bonif.
      *
      * @param float $hSupBonif The h sup bonif.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setHSupBonif($hSupBonif) {
         $this->hSupBonif = $hSupBonif;
@@ -428,6 +434,7 @@ class PrepaPaie {
      * Set the horaire prevu.
      *
      * @param float $horairePrevu The horaire prevu.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setHorairePrevu($horairePrevu) {
         $this->horairePrevu = $horairePrevu;
@@ -438,6 +445,7 @@ class PrepaPaie {
      * Set the nb h comp.
      *
      * @param float $nbHComp The nb h comp.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setNbHComp($nbHComp) {
         $this->nbHComp = $nbHComp;
@@ -448,6 +456,7 @@ class PrepaPaie {
      * Set the nb h nuit.
      *
      * @param float $nbHNuit The nb h nuit.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setNbHNuit($nbHNuit) {
         $this->nbHNuit = $nbHNuit;
@@ -458,6 +467,7 @@ class PrepaPaie {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -468,6 +478,7 @@ class PrepaPaie {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -478,6 +489,7 @@ class PrepaPaie {
      * Set the pourcent h bonif.
      *
      * @param float $pourcentHBonif The pourcent h bonif.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setPourcentHBonif($pourcentHBonif) {
         $this->pourcentHBonif = $pourcentHBonif;
@@ -488,6 +500,7 @@ class PrepaPaie {
      * Set the r recup acquis.
      *
      * @param float $rRecupAcquis The r recup acquis.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setRRecupAcquis($rRecupAcquis) {
         $this->rRecupAcquis = $rRecupAcquis;
@@ -498,6 +511,7 @@ class PrepaPaie {
      * Set the r recup pris.
      *
      * @param float $rRecupPris The r recup pris.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setRRecupPris($rRecupPris) {
         $this->rRecupPris = $rRecupPris;
@@ -508,6 +522,7 @@ class PrepaPaie {
      * Set the rc acquis.
      *
      * @param float $rcAcquis The rc acquis.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setRcAcquis($rcAcquis) {
         $this->rcAcquis = $rcAcquis;
@@ -518,6 +533,7 @@ class PrepaPaie {
      * Set the rc pris.
      *
      * @param float $rcPris The rc pris.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setRcPris($rcPris) {
         $this->rcPris = $rcPris;
@@ -528,6 +544,7 @@ class PrepaPaie {
      * Set the rr acquis.
      *
      * @param float $rrAcquis The rr acquis.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setRrAcquis($rrAcquis) {
         $this->rrAcquis = $rrAcquis;
@@ -538,6 +555,7 @@ class PrepaPaie {
      * Set the rr pris.
      *
      * @param float $rrPris The rr pris.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setRrPris($rrPris) {
         $this->rrPris = $rrPris;
@@ -548,6 +566,7 @@ class PrepaPaie {
      * Set the semaine.
      *
      * @param string $semaine The semaine.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setSemaine($semaine) {
         $this->semaine = $semaine;
@@ -558,6 +577,7 @@ class PrepaPaie {
      * Set the tot realise.
      *
      * @param float $totRealise The tot realise.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setTotRealise($totRealise) {
         $this->totRealise = $totRealise;
@@ -568,6 +588,7 @@ class PrepaPaie {
      * Set the travail effectif.
      *
      * @param float $travailEffectif The travail effectif.
+     * @return PrepaPaie Returns this Prepa paie.
      */
     public function setTravailEffectif($travailEffectif) {
         $this->travailEffectif = $travailEffectif;

@@ -544,6 +544,7 @@ class CdeClientLigne {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -554,6 +555,7 @@ class CdeClientLigne {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -564,6 +566,7 @@ class CdeClientLigne {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -574,6 +577,7 @@ class CdeClientLigne {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -584,6 +588,7 @@ class CdeClientLigne {
      * Set the code depot.
      *
      * @param string $codeDepot The code depot.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeDepot($codeDepot) {
         $this->codeDepot = $codeDepot;
@@ -594,6 +599,7 @@ class CdeClientLigne {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -604,6 +610,7 @@ class CdeClientLigne {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -614,6 +621,7 @@ class CdeClientLigne {
      * Set the code unite.
      *
      * @param int $codeUnite The code unite.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -624,6 +632,7 @@ class CdeClientLigne {
      * Set the code variante.
      *
      * @param string $codeVariante The code variante.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeVariante($codeVariante) {
         $this->codeVariante = $codeVariante;
@@ -634,6 +643,7 @@ class CdeClientLigne {
      * Set the code ventil vente.
      *
      * @param string $codeVentilVente The code ventil vente.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCodeVentilVente($codeVentilVente) {
         $this->codeVentilVente = $codeVentilVente;
@@ -644,6 +654,7 @@ class CdeClientLigne {
      * Set the commande recue.
      *
      * @param bool $commandeRecue The commande recue.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setCommandeRecue($commandeRecue) {
         $this->commandeRecue = $commandeRecue;
@@ -654,6 +665,7 @@ class CdeClientLigne {
      * Set the date reception prevue.
      *
      * @param DateTime|null $dateReceptionPrevue The date reception prevue.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setDateReceptionPrevue(DateTime $dateReceptionPrevue = null) {
         $this->dateReceptionPrevue = $dateReceptionPrevue;
@@ -664,6 +676,7 @@ class CdeClientLigne {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -674,6 +687,7 @@ class CdeClientLigne {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -684,6 +698,7 @@ class CdeClientLigne {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -694,6 +709,7 @@ class CdeClientLigne {
      * Set the indice ligne.
      *
      * @param int $indiceLigne The indice ligne.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setIndiceLigne($indiceLigne) {
         $this->indiceLigne = $indiceLigne;
@@ -704,6 +720,7 @@ class CdeClientLigne {
      * Set the no bl.
      *
      * @param string $noBl The no bl.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setNoBl($noBl) {
         $this->noBl = $noBl;
@@ -714,6 +731,7 @@ class CdeClientLigne {
      * Set the no ligne bl.
      *
      * @param int $noLigneBl The no ligne bl.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setNoLigneBl($noLigneBl) {
         $this->noLigneBl = $noLigneBl;
@@ -724,6 +742,7 @@ class CdeClientLigne {
      * Set the no piece.
      *
      * @param string $noPiece The no piece.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setNoPiece($noPiece) {
         $this->noPiece = $noPiece;
@@ -734,6 +753,7 @@ class CdeClientLigne {
      * Set the numero facture.
      *
      * @param string $numeroFacture The numero facture.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setNumeroFacture($numeroFacture) {
         $this->numeroFacture = $numeroFacture;
@@ -744,6 +764,7 @@ class CdeClientLigne {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -754,6 +775,7 @@ class CdeClientLigne {
      * Set the prix achat.
      *
      * @param float $prixAchat The prix achat.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setPrixAchat($prixAchat) {
         $this->prixAchat = $prixAchat;
@@ -764,6 +786,7 @@ class CdeClientLigne {
      * Set the prixbloque.
      *
      * @param bool $prixbloque The prixbloque.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setPrixbloque($prixbloque) {
         $this->prixbloque = $prixbloque;
@@ -774,6 +797,7 @@ class CdeClientLigne {
      * Set the pu brut.
      *
      * @param float $puBrut The pu brut.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setPuBrut($puBrut) {
         $this->puBrut = $puBrut;
@@ -784,6 +808,7 @@ class CdeClientLigne {
      * Set the qte origine.
      *
      * @param float $qteOrigine The qte origine.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setQteOrigine($qteOrigine) {
         $this->qteOrigine = $qteOrigine;
@@ -794,6 +819,7 @@ class CdeClientLigne {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -804,6 +830,7 @@ class CdeClientLigne {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -814,6 +841,7 @@ class CdeClientLigne {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -824,6 +852,7 @@ class CdeClientLigne {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -834,6 +863,7 @@ class CdeClientLigne {
      * Set the taux commission.
      *
      * @param float $tauxCommission The taux commission.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setTauxCommission($tauxCommission) {
         $this->tauxCommission = $tauxCommission;
@@ -844,6 +874,7 @@ class CdeClientLigne {
      * Set the taux tva.
      *
      * @param float $tauxTva The taux tva.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setTauxTva($tauxTva) {
         $this->tauxTva = $tauxTva;
@@ -854,6 +885,7 @@ class CdeClientLigne {
      * Set the type ligne.
      *
      * @param string $typeLigne The type ligne.
+     * @return CdeClientLigne Returns this Cde client ligne.
      */
     public function setTypeLigne($typeLigne) {
         $this->typeLigne = $typeLigne;

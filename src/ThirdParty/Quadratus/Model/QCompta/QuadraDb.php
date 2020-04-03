@@ -46,6 +46,7 @@ class QuadraDb {
      * Set the version.
      *
      * @param int $version The version.
+     * @return QuadraDb Returns this Quadra db.
      */
     public function setVersion($version) {
         $this->version = $version;

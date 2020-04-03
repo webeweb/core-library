@@ -526,6 +526,7 @@ class OrgaGeneriques {
      * Set the a declarer dsn neant.
      *
      * @param bool $aDeclarerDsnNeant The a declarer dsn neant.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setADeclarerDsnNeant($aDeclarerDsnNeant) {
         $this->aDeclarerDsnNeant = $aDeclarerDsnNeant;
@@ -536,6 +537,7 @@ class OrgaGeneriques {
      * Set the agrement ministeriel.
      *
      * @param string $agrementMinisteriel The agrement ministeriel.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setAgrementMinisteriel($agrementMinisteriel) {
         $this->agrementMinisteriel = $agrementMinisteriel;
@@ -546,6 +548,7 @@ class OrgaGeneriques {
      * Set the appliquer cpn220.
      *
      * @param bool $appliquerCpn220 The appliquer cpn220.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setAppliquerCpn220($appliquerCpn220) {
         $this->appliquerCpn220 = $appliquerCpn220;
@@ -556,6 +559,7 @@ class OrgaGeneriques {
      * Set the arrondir base.
      *
      * @param string $arrondirBase The arrondir base.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setArrondirBase($arrondirBase) {
         $this->arrondirBase = $arrondirBase;
@@ -566,6 +570,7 @@ class OrgaGeneriques {
      * Set the arrondir cotis.
      *
      * @param string $arrondirCotis The arrondir cotis.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setArrondirCotis($arrondirCotis) {
         $this->arrondirCotis = $arrondirCotis;
@@ -576,6 +581,7 @@ class OrgaGeneriques {
      * Set the assiette specif agff.
      *
      * @param bool $assietteSpecifAgff The assiette specif agff.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setAssietteSpecifAgff($assietteSpecifAgff) {
         $this->assietteSpecifAgff = $assietteSpecifAgff;
@@ -586,6 +592,7 @@ class OrgaGeneriques {
      * Set the code.
      *
      * @param string $code The code.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -596,6 +603,7 @@ class OrgaGeneriques {
      * Set the code assiette sit2.
      *
      * @param string $codeAssietteSit2 The code assiette sit2.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCodeAssietteSit2($codeAssietteSit2) {
         $this->codeAssietteSit2 = $codeAssietteSit2;
@@ -606,6 +614,7 @@ class OrgaGeneriques {
      * Set the code assiette sit2 agff.
      *
      * @param string $codeAssietteSit2Agff The code assiette sit2 agff.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCodeAssietteSit2Agff($codeAssietteSit2Agff) {
         $this->codeAssietteSit2Agff = $codeAssietteSit2Agff;
@@ -616,6 +625,7 @@ class OrgaGeneriques {
      * Set the code assiette sitb.
      *
      * @param string $codeAssietteSitb The code assiette sitb.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCodeAssietteSitb($codeAssietteSitb) {
         $this->codeAssietteSitb = $codeAssietteSitb;
@@ -626,6 +636,7 @@ class OrgaGeneriques {
      * Set the code assiette sitbagff.
      *
      * @param string $codeAssietteSitbagff The code assiette sitbagff.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCodeAssietteSitbagff($codeAssietteSitbagff) {
         $this->codeAssietteSitbagff = $codeAssietteSitbagff;
@@ -636,6 +647,7 @@ class OrgaGeneriques {
      * Set the code assiette sitc.
      *
      * @param string $codeAssietteSitc The code assiette sitc.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCodeAssietteSitc($codeAssietteSitc) {
         $this->codeAssietteSitc = $codeAssietteSitc;
@@ -646,6 +658,7 @@ class OrgaGeneriques {
      * Set the code caisse msa.
      *
      * @param string $codeCaisseMsa The code caisse msa.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCodeCaisseMsa($codeCaisseMsa) {
         $this->codeCaisseMsa = $codeCaisseMsa;
@@ -656,6 +669,7 @@ class OrgaGeneriques {
      * Set the code organisme assurance dadsu.
      *
      * @param string $codeOrganismeAssuranceDadsu The code organisme assurance dadsu.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCodeOrganismeAssuranceDadsu($codeOrganismeAssuranceDadsu) {
         $this->codeOrganismeAssuranceDadsu = $codeOrganismeAssuranceDadsu;
@@ -666,6 +680,7 @@ class OrgaGeneriques {
      * Set the code organisme mutuelle dadsu.
      *
      * @param string $codeOrganismeMutuelleDadsu The code organisme mutuelle dadsu.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setCodeOrganismeMutuelleDadsu($codeOrganismeMutuelleDadsu) {
         $this->codeOrganismeMutuelleDadsu = $codeOrganismeMutuelleDadsu;
@@ -676,6 +691,7 @@ class OrgaGeneriques {
      * Set the detail arrco.
      *
      * @param bool $detailArrco The detail arrco.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setDetailArrco($detailArrco) {
         $this->detailArrco = $detailArrco;
@@ -686,6 +702,7 @@ class OrgaGeneriques {
      * Set the groupe crc.
      *
      * @param string $groupeCrc The groupe crc.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setGroupeCrc($groupeCrc) {
         $this->groupeCrc = $groupeCrc;
@@ -696,6 +713,7 @@ class OrgaGeneriques {
      * Set the id institution.
      *
      * @param string $idInstitution The id institution.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setIdInstitution($idInstitution) {
         $this->idInstitution = $idInstitution;
@@ -706,6 +724,7 @@ class OrgaGeneriques {
      * Set the intit sous total agff agirc.
      *
      * @param string $intitSousTotalAgffAgirc The intit sous total agff agirc.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setIntitSousTotalAgffAgirc($intitSousTotalAgffAgirc) {
         $this->intitSousTotalAgffAgirc = $intitSousTotalAgffAgirc;
@@ -716,6 +735,7 @@ class OrgaGeneriques {
      * Set the intit sous total agff arrco.
      *
      * @param string $intitSousTotalAgffArrco The intit sous total agff arrco.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setIntitSousTotalAgffArrco($intitSousTotalAgffArrco) {
         $this->intitSousTotalAgffArrco = $intitSousTotalAgffArrco;
@@ -726,6 +746,7 @@ class OrgaGeneriques {
      * Set the intit sous total apec.
      *
      * @param string $intitSousTotalApec The intit sous total apec.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setIntitSousTotalApec($intitSousTotalApec) {
         $this->intitSousTotalApec = $intitSousTotalApec;
@@ -736,6 +757,7 @@ class OrgaGeneriques {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -746,6 +768,7 @@ class OrgaGeneriques {
      * Set the lien fic param dsn.
      *
      * @param string $lienFicParamDsn The lien fic param dsn.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setLienFicParamDsn($lienFicParamDsn) {
         $this->lienFicParamDsn = $lienFicParamDsn;
@@ -756,6 +779,7 @@ class OrgaGeneriques {
      * Set the regroupement si.
      *
      * @param bool $regroupementSi The regroupement si.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setRegroupementSi($regroupementSi) {
         $this->regroupementSi = $regroupementSi;
@@ -766,6 +790,7 @@ class OrgaGeneriques {
      * Set the sous total agff.
      *
      * @param bool $sousTotalAgff The sous total agff.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setSousTotalAgff($sousTotalAgff) {
         $this->sousTotalAgff = $sousTotalAgff;
@@ -776,6 +801,7 @@ class OrgaGeneriques {
      * Set the sous total apec.
      *
      * @param bool $sousTotalApec The sous total apec.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setSousTotalApec($sousTotalApec) {
         $this->sousTotalApec = $sousTotalApec;
@@ -786,6 +812,7 @@ class OrgaGeneriques {
      * Set the sous total caisse.
      *
      * @param bool $sousTotalCaisse The sous total caisse.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setSousTotalCaisse($sousTotalCaisse) {
         $this->sousTotalCaisse = $sousTotalCaisse;
@@ -796,6 +823,7 @@ class OrgaGeneriques {
      * Set the traitement dadsu.
      *
      * @param bool $traitementDadsu The traitement dadsu.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setTraitementDadsu($traitementDadsu) {
         $this->traitementDadsu = $traitementDadsu;
@@ -806,6 +834,7 @@ class OrgaGeneriques {
      * Set the type declaration.
      *
      * @param string $typeDeclaration The type declaration.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setTypeDeclaration($typeDeclaration) {
         $this->typeDeclaration = $typeDeclaration;
@@ -816,6 +845,7 @@ class OrgaGeneriques {
      * Set the type organisme.
      *
      * @param string $typeOrganisme The type organisme.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setTypeOrganisme($typeOrganisme) {
         $this->typeOrganisme = $typeOrganisme;
@@ -826,6 +856,7 @@ class OrgaGeneriques {
      * Set the utilise.
      *
      * @param bool $utilise The utilise.
+     * @return OrgaGeneriques Returns this Orga generiques.
      */
     public function setUtilise($utilise) {
         $this->utilise = $utilise;

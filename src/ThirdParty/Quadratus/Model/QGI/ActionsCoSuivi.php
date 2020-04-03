@@ -206,6 +206,7 @@ class ActionsCoSuivi {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -216,6 +217,7 @@ class ActionsCoSuivi {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -226,6 +228,7 @@ class ActionsCoSuivi {
      * Set the code manif.
      *
      * @param string $codeManif The code manif.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setCodeManif($codeManif) {
         $this->codeManif = $codeManif;
@@ -236,6 +239,7 @@ class ActionsCoSuivi {
      * Set the confirmes.
      *
      * @param int $confirmes The confirmes.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setConfirmes($confirmes) {
         $this->confirmes = $confirmes;
@@ -246,6 +250,7 @@ class ActionsCoSuivi {
      * Set the contrat.
      *
      * @param int $contrat The contrat.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setContrat($contrat) {
         $this->contrat = $contrat;
@@ -256,6 +261,7 @@ class ActionsCoSuivi {
      * Set the inscrits.
      *
      * @param int $inscrits The inscrits.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setInscrits($inscrits) {
         $this->inscrits = $inscrits;
@@ -266,6 +272,7 @@ class ActionsCoSuivi {
      * Set the num interlocuteur.
      *
      * @param int $numInterlocuteur The num interlocuteur.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setNumInterlocuteur($numInterlocuteur) {
         $this->numInterlocuteur = $numInterlocuteur;
@@ -276,6 +283,7 @@ class ActionsCoSuivi {
      * Set the num seance.
      *
      * @param int $numSeance The num seance.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setNumSeance($numSeance) {
         $this->numSeance = $numSeance;
@@ -286,6 +294,7 @@ class ActionsCoSuivi {
      * Set the presents.
      *
      * @param int $presents The presents.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setPresents($presents) {
         $this->presents = $presents;
@@ -296,6 +305,7 @@ class ActionsCoSuivi {
      * Set the prise rdv.
      *
      * @param int $priseRdv The prise rdv.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setPriseRdv($priseRdv) {
         $this->priseRdv = $priseRdv;
@@ -306,6 +316,7 @@ class ActionsCoSuivi {
      * Set the type invite.
      *
      * @param string $typeInvite The type invite.
+     * @return ActionsCoSuivi Returns this Actions co suivi.
      */
     public function setTypeInvite($typeInvite) {
         $this->typeInvite = $typeInvite;

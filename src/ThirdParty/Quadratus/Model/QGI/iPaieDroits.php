@@ -430,6 +430,7 @@ class iPaieDroits {
      * Set the code collab messages.
      *
      * @param string $codeCollabMessages The code collab messages.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setCodeCollabMessages($codeCollabMessages) {
         $this->codeCollabMessages = $codeCollabMessages;
@@ -440,6 +441,7 @@ class iPaieDroits {
      * Set the code user.
      *
      * @param string $codeUser The code user.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setCodeUser($codeUser) {
         $this->codeUser = $codeUser;
@@ -450,6 +452,7 @@ class iPaieDroits {
      * Set the espace client.
      *
      * @param bool $espaceClient The espace client.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setEspaceClient($espaceClient) {
         $this->espaceClient = $espaceClient;
@@ -460,6 +463,7 @@ class iPaieDroits {
      * Set the fct absences cp.
      *
      * @param bool $fctAbsencesCp The fct absences cp.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctAbsencesCp($fctAbsencesCp) {
         $this->fctAbsencesCp = $fctAbsencesCp;
@@ -470,6 +474,7 @@ class iPaieDroits {
      * Set the fct acomptes.
      *
      * @param bool $fctAcomptes The fct acomptes.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctAcomptes($fctAcomptes) {
         $this->fctAcomptes = $fctAcomptes;
@@ -480,6 +485,7 @@ class iPaieDroits {
      * Set the fct archives.
      *
      * @param bool $fctArchives The fct archives.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctArchives($fctArchives) {
         $this->fctArchives = $fctArchives;
@@ -490,6 +496,7 @@ class iPaieDroits {
      * Set the fct bulletins.
      *
      * @param bool $fctBulletins The fct bulletins.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctBulletins($fctBulletins) {
         $this->fctBulletins = $fctBulletins;
@@ -500,6 +507,7 @@ class iPaieDroits {
      * Set the fct documents.
      *
      * @param bool $fctDocuments The fct documents.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctDocuments($fctDocuments) {
         $this->fctDocuments = $fctDocuments;
@@ -510,6 +518,7 @@ class iPaieDroits {
      * Set the fct donnees v.
      *
      * @param bool $fctDonneesV The fct donnees v.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctDonneesV($fctDonneesV) {
         $this->fctDonneesV = $fctDonneesV;
@@ -520,6 +529,7 @@ class iPaieDroits {
      * Set the fct etat civil.
      *
      * @param bool $fctEtatCivil The fct etat civil.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctEtatCivil($fctEtatCivil) {
         $this->fctEtatCivil = $fctEtatCivil;
@@ -530,6 +540,7 @@ class iPaieDroits {
      * Set the fct modif absences cp.
      *
      * @param bool $fctModifAbsencesCp The fct modif absences cp.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctModifAbsencesCp($fctModifAbsencesCp) {
         $this->fctModifAbsencesCp = $fctModifAbsencesCp;
@@ -540,6 +551,7 @@ class iPaieDroits {
      * Set the fct modif acomptes.
      *
      * @param bool $fctModifAcomptes The fct modif acomptes.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctModifAcomptes($fctModifAcomptes) {
         $this->fctModifAcomptes = $fctModifAcomptes;
@@ -550,6 +562,7 @@ class iPaieDroits {
      * Set the fct modif archives.
      *
      * @param bool $fctModifArchives The fct modif archives.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctModifArchives($fctModifArchives) {
         $this->fctModifArchives = $fctModifArchives;
@@ -560,6 +573,7 @@ class iPaieDroits {
      * Set the fct modif bulletins.
      *
      * @param bool $fctModifBulletins The fct modif bulletins.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctModifBulletins($fctModifBulletins) {
         $this->fctModifBulletins = $fctModifBulletins;
@@ -570,6 +584,7 @@ class iPaieDroits {
      * Set the fct modif documents.
      *
      * @param bool $fctModifDocuments The fct modif documents.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctModifDocuments($fctModifDocuments) {
         $this->fctModifDocuments = $fctModifDocuments;
@@ -580,6 +595,7 @@ class iPaieDroits {
      * Set the fct modif donnees v.
      *
      * @param bool $fctModifDonneesV The fct modif donnees v.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctModifDonneesV($fctModifDonneesV) {
         $this->fctModifDonneesV = $fctModifDonneesV;
@@ -590,6 +606,7 @@ class iPaieDroits {
      * Set the fct modif etat civil.
      *
      * @param bool $fctModifEtatCivil The fct modif etat civil.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFctModifEtatCivil($fctModifEtatCivil) {
         $this->fctModifEtatCivil = $fctModifEtatCivil;
@@ -600,6 +617,7 @@ class iPaieDroits {
      * Set the flag.
      *
      * @param string $flag The flag.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setFlag($flag) {
         $this->flag = $flag;
@@ -610,6 +628,7 @@ class iPaieDroits {
      * Set the niveau conf.
      *
      * @param string $niveauConf The niveau conf.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setNiveauConf($niveauConf) {
         $this->niveauConf = $niveauConf;
@@ -620,6 +639,7 @@ class iPaieDroits {
      * Set the no doss paie.
      *
      * @param string $noDossPaie The no doss paie.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setNoDossPaie($noDossPaie) {
         $this->noDossPaie = $noDossPaie;
@@ -630,6 +650,7 @@ class iPaieDroits {
      * Set the nom user.
      *
      * @param string $nomUser The nom user.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setNomUser($nomUser) {
         $this->nomUser = $nomUser;
@@ -640,6 +661,7 @@ class iPaieDroits {
      * Set the numi key.
      *
      * @param string $numiKey The numi key.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setNumiKey($numiKey) {
         $this->numiKey = $numiKey;
@@ -650,6 +672,7 @@ class iPaieDroits {
      * Set the password.
      *
      * @param string $password The password.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setPassword($password) {
         $this->password = $password;
@@ -660,6 +683,7 @@ class iPaieDroits {
      * Set the user expert.
      *
      * @param bool $userExpert The user expert.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setUserExpert($userExpert) {
         $this->userExpert = $userExpert;
@@ -670,6 +694,7 @@ class iPaieDroits {
      * Set the visu salaires.
      *
      * @param bool $visuSalaires The visu salaires.
+     * @return iPaieDroits Returns this i paie droits.
      */
     public function setVisuSalaires($visuSalaires) {
         $this->visuSalaires = $visuSalaires;

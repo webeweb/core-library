@@ -158,6 +158,7 @@ class RecapDpa {
      * Set the aleas climat.
      *
      * @param float $aleasClimat The aleas climat.
+     * @return RecapDpa Returns this Recap dpa.
      */
     public function setAleasClimat($aleasClimat) {
         $this->aleasClimat = $aleasClimat;
@@ -168,6 +169,7 @@ class RecapDpa {
      * Set the aleas eco.
      *
      * @param float $aleasEco The aleas eco.
+     * @return RecapDpa Returns this Recap dpa.
      */
     public function setAleasEco($aleasEco) {
         $this->aleasEco = $aleasEco;
@@ -178,6 +180,7 @@ class RecapDpa {
      * Set the annee ded.
      *
      * @param int $anneeDed The annee ded.
+     * @return RecapDpa Returns this Recap dpa.
      */
     public function setAnneeDed($anneeDed) {
         $this->anneeDed = $anneeDed;
@@ -188,6 +191,7 @@ class RecapDpa {
      * Set the annee utilisation.
      *
      * @param int $anneeUtilisation The annee utilisation.
+     * @return RecapDpa Returns this Recap dpa.
      */
     public function setAnneeUtilisation($anneeUtilisation) {
         $this->anneeUtilisation = $anneeUtilisation;
@@ -198,6 +202,7 @@ class RecapDpa {
      * Set the autres.
      *
      * @param float $autres The autres.
+     * @return RecapDpa Returns this Recap dpa.
      */
     public function setAutres($autres) {
         $this->autres = $autres;
@@ -208,6 +213,7 @@ class RecapDpa {
      * Set the franch dommages.
      *
      * @param float $franchDommages The franch dommages.
+     * @return RecapDpa Returns this Recap dpa.
      */
     public function setFranchDommages($franchDommages) {
         $this->franchDommages = $franchDommages;
@@ -218,6 +224,7 @@ class RecapDpa {
      * Set the mtt annee.
      *
      * @param float $mttAnnee The mtt annee.
+     * @return RecapDpa Returns this Recap dpa.
      */
     public function setMttAnnee($mttAnnee) {
         $this->mttAnnee = $mttAnnee;
@@ -228,6 +235,7 @@ class RecapDpa {
      * Set the primes franch.
      *
      * @param float $primesFranch The primes franch.
+     * @return RecapDpa Returns this Recap dpa.
      */
     public function setPrimesFranch($primesFranch) {
         $this->primesFranch = $primesFranch;

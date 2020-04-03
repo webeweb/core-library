@@ -126,6 +126,7 @@ class SaisiePrepaEntete {
      * Set the code.
      *
      * @param string $code The code.
+     * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -136,6 +137,7 @@ class SaisiePrepaEntete {
      * Set the desactive.
      *
      * @param bool $desactive The desactive.
+     * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
     public function setDesactive($desactive) {
         $this->desactive = $desactive;
@@ -146,6 +148,7 @@ class SaisiePrepaEntete {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -156,6 +159,7 @@ class SaisiePrepaEntete {
      * Set the saisie abs cp.
      *
      * @param bool $saisieAbsCp The saisie abs cp.
+     * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
     public function setSaisieAbsCp($saisieAbsCp) {
         $this->saisieAbsCp = $saisieAbsCp;
@@ -166,6 +170,7 @@ class SaisiePrepaEntete {
      * Set the saisie acompte.
      *
      * @param bool $saisieAcompte The saisie acompte.
+     * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
     public function setSaisieAcompte($saisieAcompte) {
         $this->saisieAcompte = $saisieAcompte;
@@ -176,6 +181,7 @@ class SaisiePrepaEntete {
      * Set the width bord.
      *
      * @param int $widthBord The width bord.
+     * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
     public function setWidthBord($widthBord) {
         $this->widthBord = $widthBord;

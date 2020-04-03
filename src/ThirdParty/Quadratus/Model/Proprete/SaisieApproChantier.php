@@ -112,6 +112,7 @@ class SaisieApproChantier {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return SaisieApproChantier Returns this Saisie appro chantier.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -122,6 +123,7 @@ class SaisieApproChantier {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return SaisieApproChantier Returns this Saisie appro chantier.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -132,6 +134,7 @@ class SaisieApproChantier {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return SaisieApproChantier Returns this Saisie appro chantier.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -142,6 +145,7 @@ class SaisieApproChantier {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return SaisieApproChantier Returns this Saisie appro chantier.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -152,6 +156,7 @@ class SaisieApproChantier {
      * Set the pret.
      *
      * @param bool $pret The pret.
+     * @return SaisieApproChantier Returns this Saisie appro chantier.
      */
     public function setPret($pret) {
         $this->pret = $pret;

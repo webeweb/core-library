@@ -4048,6 +4048,7 @@ class Constantes {
      * Set the 35 heures.
      *
      * @param DateTime|null $_35Heures The 35 heures.
+     * @return Constantes Returns this Constantes.
      */
     public function set35Heures(DateTime $_35Heures = null) {
         $this->_35Heures = $_35Heures;
@@ -4058,6 +4059,7 @@ class Constantes {
      * Set the alertes paie dans pointage.
      *
      * @param bool $alertesPaieDansPointage The alertes paie dans pointage.
+     * @return Constantes Returns this Constantes.
      */
     public function setAlertesPaieDansPointage($alertesPaieDansPointage) {
         $this->alertesPaieDansPointage = $alertesPaieDansPointage;
@@ -4068,6 +4070,7 @@ class Constantes {
      * Set the alertes paie dans reclam.
      *
      * @param bool $alertesPaieDansReclam The alertes paie dans reclam.
+     * @return Constantes Returns this Constantes.
      */
     public function setAlertesPaieDansReclam($alertesPaieDansReclam) {
         $this->alertesPaieDansReclam = $alertesPaieDansReclam;
@@ -4078,6 +4081,7 @@ class Constantes {
      * Set the analytique nature agence.
      *
      * @param bool $analytiqueNatureAgence The analytique nature agence.
+     * @return Constantes Returns this Constantes.
      */
     public function setAnalytiqueNatureAgence($analytiqueNatureAgence) {
         $this->analytiqueNatureAgence = $analytiqueNatureAgence;
@@ -4088,6 +4092,7 @@ class Constantes {
      * Set the analytique par chantier.
      *
      * @param bool $analytiqueParChantier The analytique par chantier.
+     * @return Constantes Returns this Constantes.
      */
     public function setAnalytiqueParChantier($analytiqueParChantier) {
         $this->analytiqueParChantier = $analytiqueParChantier;
@@ -4098,6 +4103,7 @@ class Constantes {
      * Set the archiver devis.
      *
      * @param bool $archiverDevis The archiver devis.
+     * @return Constantes Returns this Constantes.
      */
     public function setArchiverDevis($archiverDevis) {
         $this->archiverDevis = $archiverDevis;
@@ -4108,6 +4114,7 @@ class Constantes {
      * Set the archiver facture.
      *
      * @param bool $archiverFacture The archiver facture.
+     * @return Constantes Returns this Constantes.
      */
     public function setArchiverFacture($archiverFacture) {
         $this->archiverFacture = $archiverFacture;
@@ -4118,6 +4125,7 @@ class Constantes {
      * Set the arrondi sur pu.
      *
      * @param bool $arrondiSurPu The arrondi sur pu.
+     * @return Constantes Returns this Constantes.
      */
     public function setArrondiSurPu($arrondiSurPu) {
         $this->arrondiSurPu = $arrondiSurPu;
@@ -4128,6 +4136,7 @@ class Constantes {
      * Set the autoriser da sans maj stock.
      *
      * @param bool $autoriserDaSansMajStock The autoriser da sans maj stock.
+     * @return Constantes Returns this Constantes.
      */
     public function setAutoriserDaSansMajStock($autoriserDaSansMajStock) {
         $this->autoriserDaSansMajStock = $autoriserDaSansMajStock;
@@ -4138,6 +4147,7 @@ class Constantes {
      * Set the autoriser dep bud cha cde type.
      *
      * @param bool $autoriserDepBudChaCdeType The autoriser dep bud cha cde type.
+     * @return Constantes Returns this Constantes.
      */
     public function setAutoriserDepBudChaCdeType($autoriserDepBudChaCdeType) {
         $this->autoriserDepBudChaCdeType = $autoriserDepBudChaCdeType;
@@ -4148,6 +4158,7 @@ class Constantes {
      * Set the autoriser mensu tache vide.
      *
      * @param bool $autoriserMensuTacheVide The autoriser mensu tache vide.
+     * @return Constantes Returns this Constantes.
      */
     public function setAutoriserMensuTacheVide($autoriserMensuTacheVide) {
         $this->autoriserMensuTacheVide = $autoriserMensuTacheVide;
@@ -4158,6 +4169,7 @@ class Constantes {
      * Set the bl num fact.
      *
      * @param int $blNumFact The bl num fact.
+     * @return Constantes Returns this Constantes.
      */
     public function setBlNumFact($blNumFact) {
         $this->blNumFact = $blNumFact;
@@ -4168,6 +4180,7 @@ class Constantes {
      * Set the bl prefixe.
      *
      * @param string $blPrefixe The bl prefixe.
+     * @return Constantes Returns this Constantes.
      */
     public function setBlPrefixe($blPrefixe) {
         $this->blPrefixe = $blPrefixe;
@@ -4178,6 +4191,7 @@ class Constantes {
      * Set the br num fact.
      *
      * @param int $brNumFact The br num fact.
+     * @return Constantes Returns this Constantes.
      */
     public function setBrNumFact($brNumFact) {
         $this->brNumFact = $brNumFact;
@@ -4188,6 +4202,7 @@ class Constantes {
      * Set the br prefixe.
      *
      * @param string $brPrefixe The br prefixe.
+     * @return Constantes Returns this Constantes.
      */
     public function setBrPrefixe($brPrefixe) {
         $this->brPrefixe = $brPrefixe;
@@ -4198,6 +4213,7 @@ class Constantes {
      * Set the bs num fact.
      *
      * @param int $bsNumFact The bs num fact.
+     * @return Constantes Returns this Constantes.
      */
     public function setBsNumFact($bsNumFact) {
         $this->bsNumFact = $bsNumFact;
@@ -4208,6 +4224,7 @@ class Constantes {
      * Set the bs prefixe.
      *
      * @param string $bsPrefixe The bs prefixe.
+     * @return Constantes Returns this Constantes.
      */
     public function setBsPrefixe($bsPrefixe) {
         $this->bsPrefixe = $bsPrefixe;
@@ -4218,6 +4235,7 @@ class Constantes {
      * Set the cdd mensu total heures.
      *
      * @param bool $cddMensuTotalHeures The cdd mensu total heures.
+     * @return Constantes Returns this Constantes.
      */
     public function setCddMensuTotalHeures($cddMensuTotalHeures) {
         $this->cddMensuTotalHeures = $cddMensuTotalHeures;
@@ -4228,6 +4246,7 @@ class Constantes {
      * Set the cde client num fact.
      *
      * @param int $cdeClientNumFact The cde client num fact.
+     * @return Constantes Returns this Constantes.
      */
     public function setCdeClientNumFact($cdeClientNumFact) {
         $this->cdeClientNumFact = $cdeClientNumFact;
@@ -4238,6 +4257,7 @@ class Constantes {
      * Set the cde client prefixe.
      *
      * @param string $cdeClientPrefixe The cde client prefixe.
+     * @return Constantes Returns this Constantes.
      */
     public function setCdeClientPrefixe($cdeClientPrefixe) {
         $this->cdeClientPrefixe = $cdeClientPrefixe;
@@ -4248,6 +4268,7 @@ class Constantes {
      * Set the cde frn num fact.
      *
      * @param int $cdeFrnNumFact The cde frn num fact.
+     * @return Constantes Returns this Constantes.
      */
     public function setCdeFrnNumFact($cdeFrnNumFact) {
         $this->cdeFrnNumFact = $cdeFrnNumFact;
@@ -4258,6 +4279,7 @@ class Constantes {
      * Set the cde frn prefixe.
      *
      * @param string $cdeFrnPrefixe The cde frn prefixe.
+     * @return Constantes Returns this Constantes.
      */
     public function setCdeFrnPrefixe($cdeFrnPrefixe) {
         $this->cdeFrnPrefixe = $cdeFrnPrefixe;
@@ -4268,6 +4290,7 @@ class Constantes {
      * Set the centralisation vente.
      *
      * @param bool $centralisationVente The centralisation vente.
+     * @return Constantes Returns this Constantes.
      */
     public function setCentralisationVente($centralisationVente) {
         $this->centralisationVente = $centralisationVente;
@@ -4278,6 +4301,7 @@ class Constantes {
      * Set the charge mensuelle sans tache.
      *
      * @param bool $chargeMensuelleSansTache The charge mensuelle sans tache.
+     * @return Constantes Returns this Constantes.
      */
     public function setChargeMensuelleSansTache($chargeMensuelleSansTache) {
         $this->chargeMensuelleSansTache = $chargeMensuelleSansTache;
@@ -4288,6 +4312,7 @@ class Constantes {
      * Set the chemin doss compta.
      *
      * @param string $cheminDossCompta The chemin doss compta.
+     * @return Constantes Returns this Constantes.
      */
     public function setCheminDossCompta($cheminDossCompta) {
         $this->cheminDossCompta = $cheminDossCompta;
@@ -4298,6 +4323,7 @@ class Constantes {
      * Set the cle debloquer periode cloturee.
      *
      * @param string $cleDebloquerPeriodeCloturee The cle debloquer periode cloturee.
+     * @return Constantes Returns this Constantes.
      */
     public function setCleDebloquerPeriodeCloturee($cleDebloquerPeriodeCloturee) {
         $this->cleDebloquerPeriodeCloturee = $cleDebloquerPeriodeCloturee;
@@ -4308,6 +4334,7 @@ class Constantes {
      * Set the code abs cp sans solde.
      *
      * @param string $codeAbsCpSansSolde The code abs cp sans solde.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeAbsCpSansSolde($codeAbsCpSansSolde) {
         $this->codeAbsCpSansSolde = $codeAbsCpSansSolde;
@@ -4318,6 +4345,7 @@ class Constantes {
      * Set the code abs def jf.
      *
      * @param string $codeAbsDefJf The code abs def jf.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeAbsDefJf($codeAbsDefJf) {
         $this->codeAbsDefJf = $codeAbsDefJf;
@@ -4328,6 +4356,7 @@ class Constantes {
      * Set the code abs def jf moins3.
      *
      * @param string $codeAbsDefJfMoins3 The code abs def jf moins3.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeAbsDefJfMoins3($codeAbsDefJfMoins3) {
         $this->codeAbsDefJfMoins3 = $codeAbsDefJfMoins3;
@@ -4338,6 +4367,7 @@ class Constantes {
      * Set the code abs fermeture chantier.
      *
      * @param string $codeAbsFermetureChantier The code abs fermeture chantier.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeAbsFermetureChantier($codeAbsFermetureChantier) {
         $this->codeAbsFermetureChantier = $codeAbsFermetureChantier;
@@ -4348,6 +4378,7 @@ class Constantes {
      * Set the code abs pointage defaut.
      *
      * @param string $codeAbsPointageDefaut The code abs pointage defaut.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeAbsPointageDefaut($codeAbsPointageDefaut) {
         $this->codeAbsPointageDefaut = $codeAbsPointageDefaut;
@@ -4358,6 +4389,7 @@ class Constantes {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -4368,6 +4400,7 @@ class Constantes {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -4378,6 +4411,7 @@ class Constantes {
      * Set the code depot par defaut.
      *
      * @param string $codeDepotParDefaut The code depot par defaut.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeDepotParDefaut($codeDepotParDefaut) {
         $this->codeDepotParDefaut = $codeDepotParDefaut;
@@ -4388,6 +4422,7 @@ class Constantes {
      * Set the code ics.
      *
      * @param string $codeIcs The code ics.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeIcs($codeIcs) {
         $this->codeIcs = $codeIcs;
@@ -4398,6 +4433,7 @@ class Constantes {
      * Set the code ja.
      *
      * @param string $codeJa The code ja.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeJa($codeJa) {
         $this->codeJa = $codeJa;
@@ -4408,6 +4444,7 @@ class Constantes {
      * Set the code jv negoce.
      *
      * @param string $codeJvNegoce The code jv negoce.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeJvNegoce($codeJvNegoce) {
         $this->codeJvNegoce = $codeJvNegoce;
@@ -4418,6 +4455,7 @@ class Constantes {
      * Set the code jv prestation.
      *
      * @param string $codeJvPrestation The code jv prestation.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeJvPrestation($codeJvPrestation) {
         $this->codeJvPrestation = $codeJvPrestation;
@@ -4428,6 +4466,7 @@ class Constantes {
      * Set the code liv par defaut.
      *
      * @param string $codeLivParDefaut The code liv par defaut.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeLivParDefaut($codeLivParDefaut) {
         $this->codeLivParDefaut = $codeLivParDefaut;
@@ -4438,6 +4477,7 @@ class Constantes {
      * Set the code prime chantier1.
      *
      * @param string $codePrimeChantier1 The code prime chantier1.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeChantier1($codePrimeChantier1) {
         $this->codePrimeChantier1 = $codePrimeChantier1;
@@ -4448,6 +4488,7 @@ class Constantes {
      * Set the code prime chantier2.
      *
      * @param string $codePrimeChantier2 The code prime chantier2.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeChantier2($codePrimeChantier2) {
         $this->codePrimeChantier2 = $codePrimeChantier2;
@@ -4458,6 +4499,7 @@ class Constantes {
      * Set the code prime chantier3.
      *
      * @param string $codePrimeChantier3 The code prime chantier3.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeChantier3($codePrimeChantier3) {
         $this->codePrimeChantier3 = $codePrimeChantier3;
@@ -4468,6 +4510,7 @@ class Constantes {
      * Set the code prime dimanche1.
      *
      * @param string $codePrimeDimanche1 The code prime dimanche1.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeDimanche1($codePrimeDimanche1) {
         $this->codePrimeDimanche1 = $codePrimeDimanche1;
@@ -4478,6 +4521,7 @@ class Constantes {
      * Set the code prime dimanche1 type2.
      *
      * @param string $codePrimeDimanche1Type2 The code prime dimanche1 type2.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeDimanche1Type2($codePrimeDimanche1Type2) {
         $this->codePrimeDimanche1Type2 = $codePrimeDimanche1Type2;
@@ -4488,6 +4532,7 @@ class Constantes {
      * Set the code prime dimanche2.
      *
      * @param string $codePrimeDimanche2 The code prime dimanche2.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeDimanche2($codePrimeDimanche2) {
         $this->codePrimeDimanche2 = $codePrimeDimanche2;
@@ -4498,6 +4543,7 @@ class Constantes {
      * Set the code prime forfait.
      *
      * @param string $codePrimeForfait The code prime forfait.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeForfait($codePrimeForfait) {
         $this->codePrimeForfait = $codePrimeForfait;
@@ -4508,6 +4554,7 @@ class Constantes {
      * Set the code prime h compl.
      *
      * @param string $codePrimeHCompl The code prime h compl.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeHCompl($codePrimeHCompl) {
         $this->codePrimeHCompl = $codePrimeHCompl;
@@ -4518,6 +4565,7 @@ class Constantes {
      * Set the code prime h compl2.
      *
      * @param string $codePrimeHCompl2 The code prime h compl2.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeHCompl2($codePrimeHCompl2) {
         $this->codePrimeHCompl2 = $codePrimeHCompl2;
@@ -4528,6 +4576,7 @@ class Constantes {
      * Set the code prime jf1.
      *
      * @param string $codePrimeJf1 The code prime jf1.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeJf1($codePrimeJf1) {
         $this->codePrimeJf1 = $codePrimeJf1;
@@ -4538,6 +4587,7 @@ class Constantes {
      * Set the code prime jf1 type2.
      *
      * @param string $codePrimeJf1Type2 The code prime jf1 type2.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeJf1Type2($codePrimeJf1Type2) {
         $this->codePrimeJf1Type2 = $codePrimeJf1Type2;
@@ -4548,6 +4598,7 @@ class Constantes {
      * Set the code prime jf2.
      *
      * @param string $codePrimeJf2 The code prime jf2.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeJf2($codePrimeJf2) {
         $this->codePrimeJf2 = $codePrimeJf2;
@@ -4558,6 +4609,7 @@ class Constantes {
      * Set the code prime jf mai.
      *
      * @param string $codePrimeJfMai The code prime jf mai.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeJfMai($codePrimeJfMai) {
         $this->codePrimeJfMai = $codePrimeJfMai;
@@ -4568,6 +4620,7 @@ class Constantes {
      * Set the code prime nuit1.
      *
      * @param string $codePrimeNuit1 The code prime nuit1.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeNuit1($codePrimeNuit1) {
         $this->codePrimeNuit1 = $codePrimeNuit1;
@@ -4578,6 +4631,7 @@ class Constantes {
      * Set the code prime nuit1 type2.
      *
      * @param string $codePrimeNuit1Type2 The code prime nuit1 type2.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeNuit1Type2($codePrimeNuit1Type2) {
         $this->codePrimeNuit1Type2 = $codePrimeNuit1Type2;
@@ -4588,6 +4642,7 @@ class Constantes {
      * Set the code prime nuit2.
      *
      * @param string $codePrimeNuit2 The code prime nuit2.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeNuit2($codePrimeNuit2) {
         $this->codePrimeNuit2 = $codePrimeNuit2;
@@ -4598,6 +4653,7 @@ class Constantes {
      * Set the code prime paniers.
      *
      * @param string $codePrimePaniers The code prime paniers.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimePaniers($codePrimePaniers) {
         $this->codePrimePaniers = $codePrimePaniers;
@@ -4608,6 +4664,7 @@ class Constantes {
      * Set the code prime rs.
      *
      * @param string $codePrimeRs The code prime rs.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeRs($codePrimeRs) {
         $this->codePrimeRs = $codePrimeRs;
@@ -4618,6 +4675,7 @@ class Constantes {
      * Set the code prime tp.
      *
      * @param string $codePrimeTp The code prime tp.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodePrimeTp($codePrimeTp) {
         $this->codePrimeTp = $codePrimeTp;
@@ -4628,6 +4686,7 @@ class Constantes {
      * Set the code reg jv neg debut.
      *
      * @param string $codeRegJvNegDebut The code reg jv neg debut.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeRegJvNegDebut($codeRegJvNegDebut) {
         $this->codeRegJvNegDebut = $codeRegJvNegDebut;
@@ -4638,6 +4697,7 @@ class Constantes {
      * Set the code reg jv neg fin.
      *
      * @param string $codeRegJvNegFin The code reg jv neg fin.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeRegJvNegFin($codeRegJvNegFin) {
         $this->codeRegJvNegFin = $codeRegJvNegFin;
@@ -4648,6 +4708,7 @@ class Constantes {
      * Set the code reg jv prest debut.
      *
      * @param string $codeRegJvPrestDebut The code reg jv prest debut.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeRegJvPrestDebut($codeRegJvPrestDebut) {
         $this->codeRegJvPrestDebut = $codeRegJvPrestDebut;
@@ -4658,6 +4719,7 @@ class Constantes {
      * Set the code reg jv prest fin.
      *
      * @param string $codeRegJvPrestFin The code reg jv prest fin.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeRegJvPrestFin($codeRegJvPrestFin) {
         $this->codeRegJvPrestFin = $codeRegJvPrestFin;
@@ -4668,6 +4730,7 @@ class Constantes {
      * Set the code tache defaut.
      *
      * @param string $codeTacheDefaut The code tache defaut.
+     * @return Constantes Returns this Constantes.
      */
     public function setCodeTacheDefaut($codeTacheDefaut) {
         $this->codeTacheDefaut = $codeTacheDefaut;
@@ -4678,6 +4741,7 @@ class Constantes {
      * Set the collectif def.
      *
      * @param string $collectifDef The collectif def.
+     * @return Constantes Returns this Constantes.
      */
     public function setCollectifDef($collectifDef) {
         $this->collectifDef = $collectifDef;
@@ -4688,6 +4752,7 @@ class Constantes {
      * Set the collectif def fournisseur.
      *
      * @param string $collectifDefFournisseur The collectif def fournisseur.
+     * @return Constantes Returns this Constantes.
      */
     public function setCollectifDefFournisseur($collectifDefFournisseur) {
         $this->collectifDefFournisseur = $collectifDefFournisseur;
@@ -4698,6 +4763,7 @@ class Constantes {
      * Set the commentaire journee solidarite.
      *
      * @param string $commentaireJourneeSolidarite The commentaire journee solidarite.
+     * @return Constantes Returns this Constantes.
      */
     public function setCommentaireJourneeSolidarite($commentaireJourneeSolidarite) {
         $this->commentaireJourneeSolidarite = $commentaireJourneeSolidarite;
@@ -4708,6 +4774,7 @@ class Constantes {
      * Set the compte collectif achat.
      *
      * @param string $compteCollectifAchat The compte collectif achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompteCollectifAchat($compteCollectifAchat) {
         $this->compteCollectifAchat = $compteCollectifAchat;
@@ -4718,6 +4785,7 @@ class Constantes {
      * Set the compte collectif vente.
      *
      * @param string $compteCollectifVente The compte collectif vente.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompteCollectifVente($compteCollectifVente) {
         $this->compteCollectifVente = $compteCollectifVente;
@@ -4728,6 +4796,7 @@ class Constantes {
      * Set the compte escompte ca exonere.
      *
      * @param string $compteEscompteCaExonere The compte escompte ca exonere.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompteEscompteCaExonere($compteEscompteCaExonere) {
         $this->compteEscompteCaExonere = $compteEscompteCaExonere;
@@ -4738,6 +4807,7 @@ class Constantes {
      * Set the compte escompte soumis tva.
      *
      * @param string $compteEscompteSoumisTva The compte escompte soumis tva.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompteEscompteSoumisTva($compteEscompteSoumisTva) {
         $this->compteEscompteSoumisTva = $compteEscompteSoumisTva;
@@ -4748,6 +4818,7 @@ class Constantes {
      * Set the compte tva achat.
      *
      * @param string $compteTvaAchat The compte tva achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompteTvaAchat($compteTvaAchat) {
         $this->compteTvaAchat = $compteTvaAchat;
@@ -4758,6 +4829,7 @@ class Constantes {
      * Set the compte tva taxe deee.
      *
      * @param string $compteTvaTaxeDeee The compte tva taxe deee.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompteTvaTaxeDeee($compteTvaTaxeDeee) {
         $this->compteTvaTaxeDeee = $compteTvaTaxeDeee;
@@ -4768,6 +4840,7 @@ class Constantes {
      * Set the compte tva vente.
      *
      * @param string $compteTvaVente The compte tva vente.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompteTvaVente($compteTvaVente) {
         $this->compteTvaVente = $compteTvaVente;
@@ -4778,6 +4851,7 @@ class Constantes {
      * Set the compte ventil taxe deee.
      *
      * @param string $compteVentilTaxeDeee The compte ventil taxe deee.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompteVentilTaxeDeee($compteVentilTaxeDeee) {
         $this->compteVentilTaxeDeee = $compteVentilTaxeDeee;
@@ -4788,6 +4862,7 @@ class Constantes {
      * Set the compter samedi tf cp paie.
      *
      * @param bool $compterSamediTfCpPaie The compter samedi tf cp paie.
+     * @return Constantes Returns this Constantes.
      */
     public function setCompterSamediTfCpPaie($compterSamediTfCpPaie) {
         $this->compterSamediTfCpPaie = $compterSamediTfCpPaie;
@@ -4798,6 +4873,7 @@ class Constantes {
      * Set the controler cde frn.
      *
      * @param bool $controlerCdeFrn The controler cde frn.
+     * @return Constantes Returns this Constantes.
      */
     public function setControlerCdeFrn($controlerCdeFrn) {
         $this->controlerCdeFrn = $controlerCdeFrn;
@@ -4808,6 +4884,7 @@ class Constantes {
      * Set the controler charges mensuelles.
      *
      * @param bool $controlerChargesMensuelles The controler charges mensuelles.
+     * @return Constantes Returns this Constantes.
      */
     public function setControlerChargesMensuelles($controlerChargesMensuelles) {
         $this->controlerChargesMensuelles = $controlerChargesMensuelles;
@@ -4818,6 +4895,7 @@ class Constantes {
      * Set the controler code reg.
      *
      * @param bool $controlerCodeReg The controler code reg.
+     * @return Constantes Returns this Constantes.
      */
     public function setControlerCodeReg($controlerCodeReg) {
         $this->controlerCodeReg = $controlerCodeReg;
@@ -4828,6 +4906,7 @@ class Constantes {
      * Set the controler dep hc max.
      *
      * @param bool $controlerDepHcMax The controler dep hc max.
+     * @return Constantes Returns this Constantes.
      */
     public function setControlerDepHcMax($controlerDepHcMax) {
         $this->controlerDepHcMax = $controlerDepHcMax;
@@ -4838,6 +4917,7 @@ class Constantes {
      * Set the controler dep hc plus mois.
      *
      * @param bool $controlerDepHcPlusMois The controler dep hc plus mois.
+     * @return Constantes Returns this Constantes.
      */
     public function setControlerDepHcPlusMois($controlerDepHcPlusMois) {
         $this->controlerDepHcPlusMois = $controlerDepHcPlusMois;
@@ -4848,6 +4928,7 @@ class Constantes {
      * Set the cp sans provisions.
      *
      * @param bool $cpSansProvisions The cp sans provisions.
+     * @return Constantes Returns this Constantes.
      */
     public function setCpSansProvisions($cpSansProvisions) {
         $this->cpSansProvisions = $cpSansProvisions;
@@ -4858,6 +4939,7 @@ class Constantes {
      * Set the creer alerte paie def en paie.
      *
      * @param bool $creerAlertePaieDefEnPaie The creer alerte paie def en paie.
+     * @return Constantes Returns this Constantes.
      */
     public function setCreerAlertePaieDefEnPaie($creerAlertePaieDefEnPaie) {
         $this->creerAlertePaieDefEnPaie = $creerAlertePaieDefEnPaie;
@@ -4868,6 +4950,7 @@ class Constantes {
      * Set the ctrl auto cp.
      *
      * @param bool $ctrlAutoCp The ctrl auto cp.
+     * @return Constantes Returns this Constantes.
      */
     public function setCtrlAutoCp($ctrlAutoCp) {
         $this->ctrlAutoCp = $ctrlAutoCp;
@@ -4878,6 +4961,7 @@ class Constantes {
      * Set the ctrl auto cp avec anticipation.
      *
      * @param bool $ctrlAutoCpAvecAnticipation The ctrl auto cp avec anticipation.
+     * @return Constantes Returns this Constantes.
      */
     public function setCtrlAutoCpAvecAnticipation($ctrlAutoCpAvecAnticipation) {
         $this->ctrlAutoCpAvecAnticipation = $ctrlAutoCpAvecAnticipation;
@@ -4888,6 +4972,7 @@ class Constantes {
      * Set the date appli gestion heures en plus.
      *
      * @param DateTime|null $dateAppliGestionHeuresEnPlus The date appli gestion heures en plus.
+     * @return Constantes Returns this Constantes.
      */
     public function setDateAppliGestionHeuresEnPlus(DateTime $dateAppliGestionHeuresEnPlus = null) {
         $this->dateAppliGestionHeuresEnPlus = $dateAppliGestionHeuresEnPlus;
@@ -4898,6 +4983,7 @@ class Constantes {
      * Set the date journee solidarite.
      *
      * @param DateTime|null $dateJourneeSolidarite The date journee solidarite.
+     * @return Constantes Returns this Constantes.
      */
     public function setDateJourneeSolidarite(DateTime $dateJourneeSolidarite = null) {
         $this->dateJourneeSolidarite = $dateJourneeSolidarite;
@@ -4908,6 +4994,7 @@ class Constantes {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return Constantes Returns this Constantes.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -4918,6 +5005,7 @@ class Constantes {
      * Set the dec mois prep fact.
      *
      * @param int $decMoisPrepFact The dec mois prep fact.
+     * @return Constantes Returns this Constantes.
      */
     public function setDecMoisPrepFact($decMoisPrepFact) {
         $this->decMoisPrepFact = $decMoisPrepFact;
@@ -4928,6 +5016,7 @@ class Constantes {
      * Set the dernier compte client.
      *
      * @param string $dernierCompteClient The dernier compte client.
+     * @return Constantes Returns this Constantes.
      */
     public function setDernierCompteClient($dernierCompteClient) {
         $this->dernierCompteClient = $dernierCompteClient;
@@ -4938,6 +5027,7 @@ class Constantes {
      * Set the dernier compte frn.
      *
      * @param string $dernierCompteFrn The dernier compte frn.
+     * @return Constantes Returns this Constantes.
      */
     public function setDernierCompteFrn($dernierCompteFrn) {
         $this->dernierCompteFrn = $dernierCompteFrn;
@@ -4948,6 +5038,7 @@ class Constantes {
      * Set the discr.
      *
      * @param string $discr The discr.
+     * @return Constantes Returns this Constantes.
      */
     public function setDiscr($discr) {
         $this->discr = $discr;
@@ -4958,6 +5049,7 @@ class Constantes {
      * Set the doss compta.
      *
      * @param string $dossCompta The doss compta.
+     * @return Constantes Returns this Constantes.
      */
     public function setDossCompta($dossCompta) {
         $this->dossCompta = $dossCompta;
@@ -4968,6 +5060,7 @@ class Constantes {
      * Set the doss paie.
      *
      * @param string $dossPaie The doss paie.
+     * @return Constantes Returns this Constantes.
      */
     public function setDossPaie($dossPaie) {
         $this->dossPaie = $dossPaie;
@@ -4978,6 +5071,7 @@ class Constantes {
      * Set the es code abs entree.
      *
      * @param string $esCodeAbsEntree The es code abs entree.
+     * @return Constantes Returns this Constantes.
      */
     public function setEsCodeAbsEntree($esCodeAbsEntree) {
         $this->esCodeAbsEntree = $esCodeAbsEntree;
@@ -4988,6 +5082,7 @@ class Constantes {
      * Set the es code abs sortie.
      *
      * @param string $esCodeAbsSortie The es code abs sortie.
+     * @return Constantes Returns this Constantes.
      */
     public function setEsCodeAbsSortie($esCodeAbsSortie) {
         $this->esCodeAbsSortie = $esCodeAbsSortie;
@@ -4998,6 +5093,7 @@ class Constantes {
      * Set the es heures reelles.
      *
      * @param bool $esHeuresReelles The es heures reelles.
+     * @return Constantes Returns this Constantes.
      */
     public function setEsHeuresReelles($esHeuresReelles) {
         $this->esHeuresReelles = $esHeuresReelles;
@@ -5008,6 +5104,7 @@ class Constantes {
      * Set the etablissements paie.
      *
      * @param string $etablissementsPaie The etablissements paie.
+     * @return Constantes Returns this Constantes.
      */
     public function setEtablissementsPaie($etablissementsPaie) {
         $this->etablissementsPaie = $etablissementsPaie;
@@ -5018,6 +5115,7 @@ class Constantes {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return Constantes Returns this Constantes.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -5028,6 +5126,7 @@ class Constantes {
      * Set the euro.
      *
      * @param bool $euro The euro.
+     * @return Constantes Returns this Constantes.
      */
     public function setEuro($euro) {
         $this->euro = $euro;
@@ -5038,6 +5137,7 @@ class Constantes {
      * Set the facturation prorata heures.
      *
      * @param bool $facturationProrataHeures The facturation prorata heures.
+     * @return Constantes Returns this Constantes.
      */
     public function setFacturationProrataHeures($facturationProrataHeures) {
         $this->facturationProrataHeures = $facturationProrataHeures;
@@ -5048,6 +5148,7 @@ class Constantes {
      * Set the folio ja.
      *
      * @param string $folioJa The folio ja.
+     * @return Constantes Returns this Constantes.
      */
     public function setFolioJa($folioJa) {
         $this->folioJa = $folioJa;
@@ -5058,6 +5159,7 @@ class Constantes {
      * Set the folio jv negoce.
      *
      * @param string $folioJvNegoce The folio jv negoce.
+     * @return Constantes Returns this Constantes.
      */
     public function setFolioJvNegoce($folioJvNegoce) {
         $this->folioJvNegoce = $folioJvNegoce;
@@ -5068,6 +5170,7 @@ class Constantes {
      * Set the folio jv prestation.
      *
      * @param string $folioJvPrestation The folio jv prestation.
+     * @return Constantes Returns this Constantes.
      */
     public function setFolioJvPrestation($folioJvPrestation) {
         $this->folioJvPrestation = $folioJvPrestation;
@@ -5078,6 +5181,7 @@ class Constantes {
      * Set the gerer num cpt chantier.
      *
      * @param bool $gererNumCptChantier The gerer num cpt chantier.
+     * @return Constantes Returns this Constantes.
      */
     public function setGererNumCptChantier($gererNumCptChantier) {
         $this->gererNumCptChantier = $gererNumCptChantier;
@@ -5088,6 +5192,7 @@ class Constantes {
      * Set the gestion h compl.
      *
      * @param bool $gestionHCompl The gestion h compl.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionHCompl($gestionHCompl) {
         $this->gestionHCompl = $gestionHCompl;
@@ -5098,6 +5203,7 @@ class Constantes {
      * Set the gestion h sup mens.
      *
      * @param bool $gestionHSupMens The gestion h sup mens.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionHSupMens($gestionHSupMens) {
         $this->gestionHSupMens = $gestionHSupMens;
@@ -5108,6 +5214,7 @@ class Constantes {
      * Set the gestion h sup mensuelle.
      *
      * @param bool $gestionHSupMensuelle The gestion h sup mensuelle.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionHSupMensuelle($gestionHSupMensuelle) {
         $this->gestionHSupMensuelle = $gestionHSupMensuelle;
@@ -5118,6 +5225,7 @@ class Constantes {
      * Set the gestion maj dim.
      *
      * @param string $gestionMajDim The gestion maj dim.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionMajDim($gestionMajDim) {
         $this->gestionMajDim = $gestionMajDim;
@@ -5128,6 +5236,7 @@ class Constantes {
      * Set the gestion maj jf.
      *
      * @param string $gestionMajJf The gestion maj jf.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionMajJf($gestionMajJf) {
         $this->gestionMajJf = $gestionMajJf;
@@ -5138,6 +5247,7 @@ class Constantes {
      * Set the gestion maj nuit.
      *
      * @param string $gestionMajNuit The gestion maj nuit.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionMajNuit($gestionMajNuit) {
         $this->gestionMajNuit = $gestionMajNuit;
@@ -5148,6 +5258,7 @@ class Constantes {
      * Set the gestion multi depot.
      *
      * @param bool $gestionMultiDepot The gestion multi depot.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionMultiDepot($gestionMultiDepot) {
         $this->gestionMultiDepot = $gestionMultiDepot;
@@ -5158,6 +5269,7 @@ class Constantes {
      * Set the gestion quotas.
      *
      * @param bool $gestionQuotas The gestion quotas.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionQuotas($gestionQuotas) {
         $this->gestionQuotas = $gestionQuotas;
@@ -5168,6 +5280,7 @@ class Constantes {
      * Set the gestion specif jf.
      *
      * @param bool $gestionSpecifJf The gestion specif jf.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionSpecifJf($gestionSpecifJf) {
         $this->gestionSpecifJf = $gestionSpecifJf;
@@ -5178,6 +5291,7 @@ class Constantes {
      * Set the gestion specif majo jf.
      *
      * @param bool $gestionSpecifMajoJf The gestion specif majo jf.
+     * @return Constantes Returns this Constantes.
      */
     public function setGestionSpecifMajoJf($gestionSpecifMajoJf) {
         $this->gestionSpecifMajoJf = $gestionSpecifMajoJf;
@@ -5188,6 +5302,7 @@ class Constantes {
      * Set the h deb nuit.
      *
      * @param DateTime|null $hDebNuit The h deb nuit.
+     * @return Constantes Returns this Constantes.
      */
     public function setHDebNuit(DateTime $hDebNuit = null) {
         $this->hDebNuit = $hDebNuit;
@@ -5198,6 +5313,7 @@ class Constantes {
      * Set the h deb nuit trav nuit.
      *
      * @param DateTime|null $hDebNuitTravNuit The h deb nuit trav nuit.
+     * @return Constantes Returns this Constantes.
      */
     public function setHDebNuitTravNuit(DateTime $hDebNuitTravNuit = null) {
         $this->hDebNuitTravNuit = $hDebNuitTravNuit;
@@ -5208,6 +5324,7 @@ class Constantes {
      * Set the h fin nuit.
      *
      * @param DateTime|null $hFinNuit The h fin nuit.
+     * @return Constantes Returns this Constantes.
      */
     public function setHFinNuit(DateTime $hFinNuit = null) {
         $this->hFinNuit = $hFinNuit;
@@ -5218,6 +5335,7 @@ class Constantes {
      * Set the h fin nuit trav nuit.
      *
      * @param DateTime|null $hFinNuitTravNuit The h fin nuit trav nuit.
+     * @return Constantes Returns this Constantes.
      */
     public function setHFinNuitTravNuit(DateTime $hFinNuitTravNuit = null) {
         $this->hFinNuitTravNuit = $hFinNuitTravNuit;
@@ -5228,6 +5346,7 @@ class Constantes {
      * Set the heures absence mensualise.
      *
      * @param bool $heuresAbsenceMensualise The heures absence mensualise.
+     * @return Constantes Returns this Constantes.
      */
     public function setHeuresAbsenceMensualise($heuresAbsenceMensualise) {
         $this->heuresAbsenceMensualise = $heuresAbsenceMensualise;
@@ -5238,6 +5357,7 @@ class Constantes {
      * Set the heures rempl egales mens titulaire.
      *
      * @param bool $heuresRemplEgalesMensTitulaire The heures rempl egales mens titulaire.
+     * @return Constantes Returns this Constantes.
      */
     public function setHeuresRemplEgalesMensTitulaire($heuresRemplEgalesMensTitulaire) {
         $this->heuresRemplEgalesMensTitulaire = $heuresRemplEgalesMensTitulaire;
@@ -5248,6 +5368,7 @@ class Constantes {
      * Set the increment compte auto.
      *
      * @param int $incrementCompteAuto The increment compte auto.
+     * @return Constantes Returns this Constantes.
      */
     public function setIncrementCompteAuto($incrementCompteAuto) {
         $this->incrementCompteAuto = $incrementCompteAuto;
@@ -5258,6 +5379,7 @@ class Constantes {
      * Set the liaison compta win.
      *
      * @param bool $liaisonComptaWin The liaison compta win.
+     * @return Constantes Returns this Constantes.
      */
     public function setLiaisonComptaWin($liaisonComptaWin) {
         $this->liaisonComptaWin = $liaisonComptaWin;
@@ -5268,6 +5390,7 @@ class Constantes {
      * Set the lib critere bool1.
      *
      * @param string $libCritereBool1 The lib critere bool1.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereBool1($libCritereBool1) {
         $this->libCritereBool1 = $libCritereBool1;
@@ -5278,6 +5401,7 @@ class Constantes {
      * Set the lib critere bool2.
      *
      * @param string $libCritereBool2 The lib critere bool2.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereBool2($libCritereBool2) {
         $this->libCritereBool2 = $libCritereBool2;
@@ -5288,6 +5412,7 @@ class Constantes {
      * Set the lib critere byte1.
      *
      * @param string $libCritereByte1 The lib critere byte1.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereByte1($libCritereByte1) {
         $this->libCritereByte1 = $libCritereByte1;
@@ -5298,6 +5423,7 @@ class Constantes {
      * Set the lib critere num1.
      *
      * @param string $libCritereNum1 The lib critere num1.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereNum1($libCritereNum1) {
         $this->libCritereNum1 = $libCritereNum1;
@@ -5308,6 +5434,7 @@ class Constantes {
      * Set the lib critere num2.
      *
      * @param string $libCritereNum2 The lib critere num2.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereNum2($libCritereNum2) {
         $this->libCritereNum2 = $libCritereNum2;
@@ -5318,6 +5445,7 @@ class Constantes {
      * Set the lib critere num3.
      *
      * @param string $libCritereNum3 The lib critere num3.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereNum3($libCritereNum3) {
         $this->libCritereNum3 = $libCritereNum3;
@@ -5328,6 +5456,7 @@ class Constantes {
      * Set the lib critere num4.
      *
      * @param string $libCritereNum4 The lib critere num4.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereNum4($libCritereNum4) {
         $this->libCritereNum4 = $libCritereNum4;
@@ -5338,6 +5467,7 @@ class Constantes {
      * Set the lib critere num5.
      *
      * @param string $libCritereNum5 The lib critere num5.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereNum5($libCritereNum5) {
         $this->libCritereNum5 = $libCritereNum5;
@@ -5348,6 +5478,7 @@ class Constantes {
      * Set the lib critere tab1.
      *
      * @param string $libCritereTab1 The lib critere tab1.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTab1($libCritereTab1) {
         $this->libCritereTab1 = $libCritereTab1;
@@ -5358,6 +5489,7 @@ class Constantes {
      * Set the lib critere tab2.
      *
      * @param string $libCritereTab2 The lib critere tab2.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTab2($libCritereTab2) {
         $this->libCritereTab2 = $libCritereTab2;
@@ -5368,6 +5500,7 @@ class Constantes {
      * Set the lib critere tab3.
      *
      * @param string $libCritereTab3 The lib critere tab3.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTab3($libCritereTab3) {
         $this->libCritereTab3 = $libCritereTab3;
@@ -5378,6 +5511,7 @@ class Constantes {
      * Set the lib critere tab4.
      *
      * @param string $libCritereTab4 The lib critere tab4.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTab4($libCritereTab4) {
         $this->libCritereTab4 = $libCritereTab4;
@@ -5388,6 +5522,7 @@ class Constantes {
      * Set the lib critere tab5.
      *
      * @param string $libCritereTab5 The lib critere tab5.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTab5($libCritereTab5) {
         $this->libCritereTab5 = $libCritereTab5;
@@ -5398,6 +5533,7 @@ class Constantes {
      * Set the lib critere txt1.
      *
      * @param string $libCritereTxt1 The lib critere txt1.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTxt1($libCritereTxt1) {
         $this->libCritereTxt1 = $libCritereTxt1;
@@ -5408,6 +5544,7 @@ class Constantes {
      * Set the lib critere txt2.
      *
      * @param string $libCritereTxt2 The lib critere txt2.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTxt2($libCritereTxt2) {
         $this->libCritereTxt2 = $libCritereTxt2;
@@ -5418,6 +5555,7 @@ class Constantes {
      * Set the lib critere txt3.
      *
      * @param string $libCritereTxt3 The lib critere txt3.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTxt3($libCritereTxt3) {
         $this->libCritereTxt3 = $libCritereTxt3;
@@ -5428,6 +5566,7 @@ class Constantes {
      * Set the lib critere txt4.
      *
      * @param string $libCritereTxt4 The lib critere txt4.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTxt4($libCritereTxt4) {
         $this->libCritereTxt4 = $libCritereTxt4;
@@ -5438,6 +5577,7 @@ class Constantes {
      * Set the lib critere txt5.
      *
      * @param string $libCritereTxt5 The lib critere txt5.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibCritereTxt5($libCritereTxt5) {
         $this->libCritereTxt5 = $libCritereTxt5;
@@ -5448,6 +5588,7 @@ class Constantes {
      * Set the libelle auto avoir.
      *
      * @param string $libelleAutoAvoir The libelle auto avoir.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibelleAutoAvoir($libelleAutoAvoir) {
         $this->libelleAutoAvoir = $libelleAutoAvoir;
@@ -5458,6 +5599,7 @@ class Constantes {
      * Set the libelle auto facture.
      *
      * @param string $libelleAutoFacture The libelle auto facture.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibelleAutoFacture($libelleAutoFacture) {
         $this->libelleAutoFacture = $libelleAutoFacture;
@@ -5468,6 +5610,7 @@ class Constantes {
      * Set the libelle heures surcroit.
      *
      * @param string $libelleHeuresSurcroit The libelle heures surcroit.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibelleHeuresSurcroit($libelleHeuresSurcroit) {
         $this->libelleHeuresSurcroit = $libelleHeuresSurcroit;
@@ -5478,6 +5621,7 @@ class Constantes {
      * Set the libelle transfert.
      *
      * @param string $libelleTransfert The libelle transfert.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibelleTransfert($libelleTransfert) {
         $this->libelleTransfert = $libelleTransfert;
@@ -5488,6 +5632,7 @@ class Constantes {
      * Set the libelle transfert achat.
      *
      * @param string $libelleTransfertAchat The libelle transfert achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setLibelleTransfertAchat($libelleTransfertAchat) {
         $this->libelleTransfertAchat = $libelleTransfertAchat;
@@ -5498,6 +5643,7 @@ class Constantes {
      * Set the liv cde frn depot unique.
      *
      * @param bool $livCdeFrnDepotUnique The liv cde frn depot unique.
+     * @return Constantes Returns this Constantes.
      */
     public function setLivCdeFrnDepotUnique($livCdeFrnDepotUnique) {
         $this->livCdeFrnDepotUnique = $livCdeFrnDepotUnique;
@@ -5508,6 +5654,7 @@ class Constantes {
      * Set the mail attestations.
      *
      * @param string $mailAttestations The mail attestations.
+     * @return Constantes Returns this Constantes.
      */
     public function setMailAttestations($mailAttestations) {
         $this->mailAttestations = $mailAttestations;
@@ -5518,6 +5665,7 @@ class Constantes {
      * Set the mail factures.
      *
      * @param string $mailFactures The mail factures.
+     * @return Constantes Returns this Constantes.
      */
     public function setMailFactures($mailFactures) {
         $this->mailFactures = $mailFactures;
@@ -5528,6 +5676,7 @@ class Constantes {
      * Set the maj dernier passage bt.
      *
      * @param bool $majDernierPassageBt The maj dernier passage bt.
+     * @return Constantes Returns this Constantes.
      */
     public function setMajDernierPassageBt($majDernierPassageBt) {
         $this->majDernierPassageBt = $majDernierPassageBt;
@@ -5538,6 +5687,7 @@ class Constantes {
      * Set the maj dernier prix achat.
      *
      * @param bool $majDernierPrixAchat The maj dernier prix achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setMajDernierPrixAchat($majDernierPrixAchat) {
         $this->majDernierPrixAchat = $majDernierPrixAchat;
@@ -5548,6 +5698,7 @@ class Constantes {
      * Set the maj pamp.
      *
      * @param bool $majPamp The maj pamp.
+     * @return Constantes Returns this Constantes.
      */
     public function setMajPamp($majPamp) {
         $this->majPamp = $majPamp;
@@ -5558,6 +5709,7 @@ class Constantes {
      * Set the majoration cascade.
      *
      * @param bool $majorationCascade The majoration cascade.
+     * @return Constantes Returns this Constantes.
      */
     public function setMajorationCascade($majorationCascade) {
         $this->majorationCascade = $majorationCascade;
@@ -5568,6 +5720,7 @@ class Constantes {
      * Set the majoration h plus.
      *
      * @param string $majorationHPlus The majoration h plus.
+     * @return Constantes Returns this Constantes.
      */
     public function setMajorationHPlus($majorationHPlus) {
         $this->majorationHPlus = $majorationHPlus;
@@ -5578,6 +5731,7 @@ class Constantes {
      * Set the marge niveau edition.
      *
      * @param string $margeNiveauEdition The marge niveau edition.
+     * @return Constantes Returns this Constantes.
      */
     public function setMargeNiveauEdition($margeNiveauEdition) {
         $this->margeNiveauEdition = $margeNiveauEdition;
@@ -5588,6 +5742,7 @@ class Constantes {
      * Set the marge pourcent charge.
      *
      * @param float $margePourcentCharge The marge pourcent charge.
+     * @return Constantes Returns this Constantes.
      */
     public function setMargePourcentCharge($margePourcentCharge) {
         $this->margePourcentCharge = $margePourcentCharge;
@@ -5598,6 +5753,7 @@ class Constantes {
      * Set the marge sal insp prorata ca.
      *
      * @param bool $margeSalInspProrataCa The marge sal insp prorata ca.
+     * @return Constantes Returns this Constantes.
      */
     public function setMargeSalInspProrataCa($margeSalInspProrataCa) {
         $this->margeSalInspProrataCa = $margeSalInspProrataCa;
@@ -5608,6 +5764,7 @@ class Constantes {
      * Set the mensualisation tache.
      *
      * @param bool $mensualisationTache The mensualisation tache.
+     * @return Constantes Returns this Constantes.
      */
     public function setMensualisationTache($mensualisationTache) {
         $this->mensualisationTache = $mensualisationTache;
@@ -5618,6 +5775,7 @@ class Constantes {
      * Set the mode calcul proposition cde.
      *
      * @param string $modeCalculPropositionCde The mode calcul proposition cde.
+     * @return Constantes Returns this Constantes.
      */
     public function setModeCalculPropositionCde($modeCalculPropositionCde) {
         $this->modeCalculPropositionCde = $modeCalculPropositionCde;
@@ -5628,6 +5786,7 @@ class Constantes {
      * Set the modele devis.
      *
      * @param string $modeleDevis The modele devis.
+     * @return Constantes Returns this Constantes.
      */
     public function setModeleDevis($modeleDevis) {
         $this->modeleDevis = $modeleDevis;
@@ -5638,6 +5797,7 @@ class Constantes {
      * Set the modele devis tech.
      *
      * @param string $modeleDevisTech The modele devis tech.
+     * @return Constantes Returns this Constantes.
      */
     public function setModeleDevisTech($modeleDevisTech) {
         $this->modeleDevisTech = $modeleDevisTech;
@@ -5648,6 +5808,7 @@ class Constantes {
      * Set the modele facture.
      *
      * @param string $modeleFacture The modele facture.
+     * @return Constantes Returns this Constantes.
      */
     public function setModeleFacture($modeleFacture) {
         $this->modeleFacture = $modeleFacture;
@@ -5658,6 +5819,7 @@ class Constantes {
      * Set the mt cpta negatif.
      *
      * @param bool $mtCptaNegatif The mt cpta negatif.
+     * @return Constantes Returns this Constantes.
      */
     public function setMtCptaNegatif($mtCptaNegatif) {
         $this->mtCptaNegatif = $mtCptaNegatif;
@@ -5668,6 +5830,7 @@ class Constantes {
      * Set the n der document.
      *
      * @param int $nDerDocument The n der document.
+     * @return Constantes Returns this Constantes.
      */
     public function setNDerDocument($nDerDocument) {
         $this->nDerDocument = $nDerDocument;
@@ -5678,6 +5841,7 @@ class Constantes {
      * Set the nb caracteres ligne fact.
      *
      * @param string $nbCaracteresLigneFact The nb caracteres ligne fact.
+     * @return Constantes Returns this Constantes.
      */
     public function setNbCaracteresLigneFact($nbCaracteresLigneFact) {
         $this->nbCaracteresLigneFact = $nbCaracteresLigneFact;
@@ -5688,6 +5852,7 @@ class Constantes {
      * Set the nb decimales prix unitaire.
      *
      * @param string $nbDecimalesPrixUnitaire The nb decimales prix unitaire.
+     * @return Constantes Returns this Constantes.
      */
     public function setNbDecimalesPrixUnitaire($nbDecimalesPrixUnitaire) {
         $this->nbDecimalesPrixUnitaire = $nbDecimalesPrixUnitaire;
@@ -5698,6 +5863,7 @@ class Constantes {
      * Set the nb decimales quantite.
      *
      * @param string $nbDecimalesQuantite The nb decimales quantite.
+     * @return Constantes Returns this Constantes.
      */
     public function setNbDecimalesQuantite($nbDecimalesQuantite) {
         $this->nbDecimalesQuantite = $nbDecimalesQuantite;
@@ -5708,6 +5874,7 @@ class Constantes {
      * Set the nb entiers prix unitaire.
      *
      * @param string $nbEntiersPrixUnitaire The nb entiers prix unitaire.
+     * @return Constantes Returns this Constantes.
      */
     public function setNbEntiersPrixUnitaire($nbEntiersPrixUnitaire) {
         $this->nbEntiersPrixUnitaire = $nbEntiersPrixUnitaire;
@@ -5718,6 +5885,7 @@ class Constantes {
      * Set the nb entiers quantite.
      *
      * @param string $nbEntiersQuantite The nb entiers quantite.
+     * @return Constantes Returns this Constantes.
      */
     public function setNbEntiersQuantite($nbEntiersQuantite) {
         $this->nbEntiersQuantite = $nbEntiersQuantite;
@@ -5728,6 +5896,7 @@ class Constantes {
      * Set the nb jour cp acquis.
      *
      * @param float $nbJourCpAcquis The nb jour cp acquis.
+     * @return Constantes Returns this Constantes.
      */
     public function setNbJourCpAcquis($nbJourCpAcquis) {
         $this->nbJourCpAcquis = $nbJourCpAcquis;
@@ -5738,6 +5907,7 @@ class Constantes {
      * Set the nb jours abs proratisation dcp.
      *
      * @param int $nbJoursAbsProratisationDcp The nb jours abs proratisation dcp.
+     * @return Constantes Returns this Constantes.
      */
     public function setNbJoursAbsProratisationDcp($nbJoursAbsProratisationDcp) {
         $this->nbJoursAbsProratisationDcp = $nbJoursAbsProratisationDcp;
@@ -5748,6 +5918,7 @@ class Constantes {
      * Set the nb mois consecutifs.
      *
      * @param int $nbMoisConsecutifs The nb mois consecutifs.
+     * @return Constantes Returns this Constantes.
      */
     public function setNbMoisConsecutifs($nbMoisConsecutifs) {
         $this->nbMoisConsecutifs = $nbMoisConsecutifs;
@@ -5758,6 +5929,7 @@ class Constantes {
      * Set the nom fact nb lignes.
      *
      * @param string $nomFactNbLignes The nom fact nb lignes.
+     * @return Constantes Returns this Constantes.
      */
     public function setNomFactNbLignes($nomFactNbLignes) {
         $this->nomFactNbLignes = $nomFactNbLignes;
@@ -5768,6 +5940,7 @@ class Constantes {
      * Set the nom fichier ascii achat.
      *
      * @param string $nomFichierAsciiAchat The nom fichier ascii achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setNomFichierAsciiAchat($nomFichierAsciiAchat) {
         $this->nomFichierAsciiAchat = $nomFichierAsciiAchat;
@@ -5778,6 +5951,7 @@ class Constantes {
      * Set the nom fichier ascii vente.
      *
      * @param string $nomFichierAsciiVente The nom fichier ascii vente.
+     * @return Constantes Returns this Constantes.
      */
     public function setNomFichierAsciiVente($nomFichierAsciiVente) {
         $this->nomFichierAsciiVente = $nomFichierAsciiVente;
@@ -5788,6 +5962,7 @@ class Constantes {
      * Set the note0 non conforme.
      *
      * @param bool $note0NonConforme The note0 non conforme.
+     * @return Constantes Returns this Constantes.
      */
     public function setNote0NonConforme($note0NonConforme) {
         $this->note0NonConforme = $note0NonConforme;
@@ -5798,6 +5973,7 @@ class Constantes {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return Constantes Returns this Constantes.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -5808,6 +5984,7 @@ class Constantes {
      * Set the num critere bt num1.
      *
      * @param string $numCritereBtNum1 The num critere bt num1.
+     * @return Constantes Returns this Constantes.
      */
     public function setNumCritereBtNum1($numCritereBtNum1) {
         $this->numCritereBtNum1 = $numCritereBtNum1;
@@ -5818,6 +5995,7 @@ class Constantes {
      * Set the num critere bt num2.
      *
      * @param string $numCritereBtNum2 The num critere bt num2.
+     * @return Constantes Returns this Constantes.
      */
     public function setNumCritereBtNum2($numCritereBtNum2) {
         $this->numCritereBtNum2 = $numCritereBtNum2;
@@ -5828,6 +6006,7 @@ class Constantes {
      * Set the num critere chantier filtre1.
      *
      * @param string $numCritereChantierFiltre1 The num critere chantier filtre1.
+     * @return Constantes Returns this Constantes.
      */
     public function setNumCritereChantierFiltre1($numCritereChantierFiltre1) {
         $this->numCritereChantierFiltre1 = $numCritereChantierFiltre1;
@@ -5838,6 +6017,7 @@ class Constantes {
      * Set the num devis.
      *
      * @param int $numDevis The num devis.
+     * @return Constantes Returns this Constantes.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -5848,6 +6028,7 @@ class Constantes {
      * Set the num fact.
      *
      * @param int $numFact The num fact.
+     * @return Constantes Returns this Constantes.
      */
     public function setNumFact($numFact) {
         $this->numFact = $numFact;
@@ -5858,6 +6039,7 @@ class Constantes {
      * Set the num fact vm.
      *
      * @param int $numFactVm The num fact vm.
+     * @return Constantes Returns this Constantes.
      */
     public function setNumFactVm($numFactVm) {
         $this->numFactVm = $numFactVm;
@@ -5868,6 +6050,7 @@ class Constantes {
      * Set the numero fiche controle.
      *
      * @param int $numeroFicheControle The numero fiche controle.
+     * @return Constantes Returns this Constantes.
      */
     public function setNumeroFicheControle($numeroFicheControle) {
         $this->numeroFicheControle = $numeroFicheControle;
@@ -5878,6 +6061,7 @@ class Constantes {
      * Set the pa par fournisseur.
      *
      * @param bool $paParFournisseur The pa par fournisseur.
+     * @return Constantes Returns this Constantes.
      */
     public function setPaParFournisseur($paParFournisseur) {
         $this->paParFournisseur = $paParFournisseur;
@@ -5888,6 +6072,7 @@ class Constantes {
      * Set the pas num cpt par dossier.
      *
      * @param bool $pasNumCptParDossier The pas num cpt par dossier.
+     * @return Constantes Returns this Constantes.
      */
     public function setPasNumCptParDossier($pasNumCptParDossier) {
         $this->pasNumCptParDossier = $pasNumCptParDossier;
@@ -5898,6 +6083,7 @@ class Constantes {
      * Set the pdf bt coefficient.
      *
      * @param float $pdfBtCoefficient The pdf bt coefficient.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtCoefficient($pdfBtCoefficient) {
         $this->pdfBtCoefficient = $pdfBtCoefficient;
@@ -5908,6 +6094,7 @@ class Constantes {
      * Set the pdf bt date passage.
      *
      * @param bool $pdfBtDatePassage The pdf bt date passage.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtDatePassage($pdfBtDatePassage) {
         $this->pdfBtDatePassage = $pdfBtDatePassage;
@@ -5918,6 +6105,7 @@ class Constantes {
      * Set the pdf bt descriptif.
      *
      * @param bool $pdfBtDescriptif The pdf bt descriptif.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtDescriptif($pdfBtDescriptif) {
         $this->pdfBtDescriptif = $pdfBtDescriptif;
@@ -5928,6 +6116,7 @@ class Constantes {
      * Set the pdf bt employes corps.
      *
      * @param bool $pdfBtEmployesCorps The pdf bt employes corps.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtEmployesCorps($pdfBtEmployesCorps) {
         $this->pdfBtEmployesCorps = $pdfBtEmployesCorps;
@@ -5938,6 +6127,7 @@ class Constantes {
      * Set the pdf bt employes ref.
      *
      * @param bool $pdfBtEmployesRef The pdf bt employes ref.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtEmployesRef($pdfBtEmployesRef) {
         $this->pdfBtEmployesRef = $pdfBtEmployesRef;
@@ -5948,6 +6138,7 @@ class Constantes {
      * Set the pdf bt facturer ala validation.
      *
      * @param bool $pdfBtFacturerAlaValidation The pdf bt facturer ala validation.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtFacturerAlaValidation($pdfBtFacturerAlaValidation) {
         $this->pdfBtFacturerAlaValidation = $pdfBtFacturerAlaValidation;
@@ -5958,6 +6149,7 @@ class Constantes {
      * Set the pdf bt format saisie qte pu.
      *
      * @param bool $pdfBtFormatSaisieQtePu The pdf bt format saisie qte pu.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtFormatSaisieQtePu($pdfBtFormatSaisieQtePu) {
         $this->pdfBtFormatSaisieQtePu = $pdfBtFormatSaisieQtePu;
@@ -5968,6 +6160,7 @@ class Constantes {
      * Set the pdf bt libelle date.
      *
      * @param string $pdfBtLibelleDate The pdf bt libelle date.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtLibelleDate($pdfBtLibelleDate) {
         $this->pdfBtLibelleDate = $pdfBtLibelleDate;
@@ -5978,6 +6171,7 @@ class Constantes {
      * Set the pdf bt nom chantier.
      *
      * @param bool $pdfBtNomChantier The pdf bt nom chantier.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtNomChantier($pdfBtNomChantier) {
         $this->pdfBtNomChantier = $pdfBtNomChantier;
@@ -5988,6 +6182,7 @@ class Constantes {
      * Set the pdf bt periode validite.
      *
      * @param bool $pdfBtPeriodeValidite The pdf bt periode validite.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtPeriodeValidite($pdfBtPeriodeValidite) {
         $this->pdfBtPeriodeValidite = $pdfBtPeriodeValidite;
@@ -5998,6 +6193,7 @@ class Constantes {
      * Set the pdf bt prix achat.
      *
      * @param float $pdfBtPrixAchat The pdf bt prix achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtPrixAchat($pdfBtPrixAchat) {
         $this->pdfBtPrixAchat = $pdfBtPrixAchat;
@@ -6008,6 +6204,7 @@ class Constantes {
      * Set the pdf bt reprendre libelle date.
      *
      * @param bool $pdfBtReprendreLibelleDate The pdf bt reprendre libelle date.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtReprendreLibelleDate($pdfBtReprendreLibelleDate) {
         $this->pdfBtReprendreLibelleDate = $pdfBtReprendreLibelleDate;
@@ -6018,6 +6215,7 @@ class Constantes {
      * Set the pdf bt taux horaire.
      *
      * @param float $pdfBtTauxHoraire The pdf bt taux horaire.
+     * @return Constantes Returns this Constantes.
      */
     public function setPdfBtTauxHoraire($pdfBtTauxHoraire) {
         $this->pdfBtTauxHoraire = $pdfBtTauxHoraire;
@@ -6028,6 +6226,7 @@ class Constantes {
      * Set the pj envoi mail.
      *
      * @param string $pjEnvoiMail The pj envoi mail.
+     * @return Constantes Returns this Constantes.
      */
     public function setPjEnvoiMail($pjEnvoiMail) {
         $this->pjEnvoiMail = $pjEnvoiMail;
@@ -6038,6 +6237,7 @@ class Constantes {
      * Set the pj envoi mail attestation.
      *
      * @param string $pjEnvoiMailAttestation The pj envoi mail attestation.
+     * @return Constantes Returns this Constantes.
      */
     public function setPjEnvoiMailAttestation($pjEnvoiMailAttestation) {
         $this->pjEnvoiMailAttestation = $pjEnvoiMailAttestation;
@@ -6048,6 +6248,7 @@ class Constantes {
      * Set the point bt employes sortis.
      *
      * @param bool $pointBtEmployesSortis The point bt employes sortis.
+     * @return Constantes Returns this Constantes.
      */
     public function setPointBtEmployesSortis($pointBtEmployesSortis) {
         $this->pointBtEmployesSortis = $pointBtEmployesSortis;
@@ -6058,6 +6259,7 @@ class Constantes {
      * Set the poste1.
      *
      * @param string $poste1 The poste1.
+     * @return Constantes Returns this Constantes.
      */
     public function setPoste1($poste1) {
         $this->poste1 = $poste1;
@@ -6068,6 +6270,7 @@ class Constantes {
      * Set the poste2.
      *
      * @param string $poste2 The poste2.
+     * @return Constantes Returns this Constantes.
      */
     public function setPoste2($poste2) {
         $this->poste2 = $poste2;
@@ -6078,6 +6281,7 @@ class Constantes {
      * Set the poste3.
      *
      * @param string $poste3 The poste3.
+     * @return Constantes Returns this Constantes.
      */
     public function setPoste3($poste3) {
         $this->poste3 = $poste3;
@@ -6088,6 +6292,7 @@ class Constantes {
      * Set the poste4.
      *
      * @param string $poste4 The poste4.
+     * @return Constantes Returns this Constantes.
      */
     public function setPoste4($poste4) {
         $this->poste4 = $poste4;
@@ -6098,6 +6303,7 @@ class Constantes {
      * Set the poste5.
      *
      * @param string $poste5 The poste5.
+     * @return Constantes Returns this Constantes.
      */
     public function setPoste5($poste5) {
         $this->poste5 = $poste5;
@@ -6108,6 +6314,7 @@ class Constantes {
      * Set the pourc maj h compl.
      *
      * @param float $pourcMajHCompl The pourc maj h compl.
+     * @return Constantes Returns this Constantes.
      */
     public function setPourcMajHCompl($pourcMajHCompl) {
         $this->pourcMajHCompl = $pourcMajHCompl;
@@ -6118,6 +6325,7 @@ class Constantes {
      * Set the pourc maj h compl2.
      *
      * @param float $pourcMajHCompl2 The pourc maj h compl2.
+     * @return Constantes Returns this Constantes.
      */
     public function setPourcMajHCompl2($pourcMajHCompl2) {
         $this->pourcMajHCompl2 = $pourcMajHCompl2;
@@ -6128,6 +6336,7 @@ class Constantes {
      * Set the pourcent dep hc max.
      *
      * @param float $pourcentDepHcMax The pourcent dep hc max.
+     * @return Constantes Returns this Constantes.
      */
     public function setPourcentDepHcMax($pourcentDepHcMax) {
         $this->pourcentDepHcMax = $pourcentDepHcMax;
@@ -6138,6 +6347,7 @@ class Constantes {
      * Set the pourcent dep hc plus mois.
      *
      * @param float $pourcentDepHcPlusMois The pourcent dep hc plus mois.
+     * @return Constantes Returns this Constantes.
      */
     public function setPourcentDepHcPlusMois($pourcentDepHcPlusMois) {
         $this->pourcentDepHcPlusMois = $pourcentDepHcPlusMois;
@@ -6148,6 +6358,7 @@ class Constantes {
      * Set the pourcentage repos remplacement.
      *
      * @param float $pourcentageReposRemplacement The pourcentage repos remplacement.
+     * @return Constantes Returns this Constantes.
      */
     public function setPourcentageReposRemplacement($pourcentageReposRemplacement) {
         $this->pourcentageReposRemplacement = $pourcentageReposRemplacement;
@@ -6158,6 +6369,7 @@ class Constantes {
      * Set the prefixe.
      *
      * @param string $prefixe The prefixe.
+     * @return Constantes Returns this Constantes.
      */
     public function setPrefixe($prefixe) {
         $this->prefixe = $prefixe;
@@ -6168,6 +6380,7 @@ class Constantes {
      * Set the prefixe devis.
      *
      * @param string $prefixeDevis The prefixe devis.
+     * @return Constantes Returns this Constantes.
      */
     public function setPrefixeDevis($prefixeDevis) {
         $this->prefixeDevis = $prefixeDevis;
@@ -6178,6 +6391,7 @@ class Constantes {
      * Set the preparer chantier pret only.
      *
      * @param bool $preparerChantierPretOnly The preparer chantier pret only.
+     * @return Constantes Returns this Constantes.
      */
     public function setPreparerChantierPretOnly($preparerChantierPretOnly) {
         $this->preparerChantierPretOnly = $preparerChantierPretOnly;
@@ -6188,6 +6402,7 @@ class Constantes {
      * Set the prix defaut achat.
      *
      * @param int $prixDefautAchat The prix defaut achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setPrixDefautAchat($prixDefautAchat) {
         $this->prixDefautAchat = $prixDefautAchat;
@@ -6198,6 +6413,7 @@ class Constantes {
      * Set the prix defaut entree directe.
      *
      * @param int $prixDefautEntreeDirecte The prix defaut entree directe.
+     * @return Constantes Returns this Constantes.
      */
     public function setPrixDefautEntreeDirecte($prixDefautEntreeDirecte) {
         $this->prixDefautEntreeDirecte = $prixDefautEntreeDirecte;
@@ -6208,6 +6424,7 @@ class Constantes {
      * Set the prix defaut inventaire.
      *
      * @param int $prixDefautInventaire The prix defaut inventaire.
+     * @return Constantes Returns this Constantes.
      */
     public function setPrixDefautInventaire($prixDefautInventaire) {
         $this->prixDefautInventaire = $prixDefautInventaire;
@@ -6218,6 +6435,7 @@ class Constantes {
      * Set the prix defaut sortie directe.
      *
      * @param int $prixDefautSortieDirecte The prix defaut sortie directe.
+     * @return Constantes Returns this Constantes.
      */
     public function setPrixDefautSortieDirecte($prixDefautSortieDirecte) {
         $this->prixDefautSortieDirecte = $prixDefautSortieDirecte;
@@ -6228,6 +6446,7 @@ class Constantes {
      * Set the prix defaut vente.
      *
      * @param int $prixDefautVente The prix defaut vente.
+     * @return Constantes Returns this Constantes.
      */
     public function setPrixDefautVente($prixDefautVente) {
         $this->prixDefautVente = $prixDefautVente;
@@ -6238,6 +6457,7 @@ class Constantes {
      * Set the prochain numero pj.
      *
      * @param int $prochainNumeroPj The prochain numero pj.
+     * @return Constantes Returns this Constantes.
      */
     public function setProchainNumeroPj($prochainNumeroPj) {
         $this->prochainNumeroPj = $prochainNumeroPj;
@@ -6248,6 +6468,7 @@ class Constantes {
      * Set the prorata heures creer ligne.
      *
      * @param bool $prorataHeuresCreerLigne The prorata heures creer ligne.
+     * @return Constantes Returns this Constantes.
      */
     public function setProrataHeuresCreerLigne($prorataHeuresCreerLigne) {
         $this->prorataHeuresCreerLigne = $prorataHeuresCreerLigne;
@@ -6258,6 +6479,7 @@ class Constantes {
      * Set the prorata heures designation moins.
      *
      * @param string $prorataHeuresDesignationMoins The prorata heures designation moins.
+     * @return Constantes Returns this Constantes.
      */
     public function setProrataHeuresDesignationMoins($prorataHeuresDesignationMoins) {
         $this->prorataHeuresDesignationMoins = $prorataHeuresDesignationMoins;
@@ -6268,6 +6490,7 @@ class Constantes {
      * Set the prorata heures designation plus.
      *
      * @param string $prorataHeuresDesignationPlus The prorata heures designation plus.
+     * @return Constantes Returns this Constantes.
      */
     public function setProrataHeuresDesignationPlus($prorataHeuresDesignationPlus) {
         $this->prorataHeuresDesignationPlus = $prorataHeuresDesignationPlus;
@@ -6278,6 +6501,7 @@ class Constantes {
      * Set the prorata heures option.
      *
      * @param string $prorataHeuresOption The prorata heures option.
+     * @return Constantes Returns this Constantes.
      */
     public function setProrataHeuresOption($prorataHeuresOption) {
         $this->prorataHeuresOption = $prorataHeuresOption;
@@ -6288,6 +6512,7 @@ class Constantes {
      * Set the prov cp infos emp.
      *
      * @param bool $provCpInfosEmp The prov cp infos emp.
+     * @return Constantes Returns this Constantes.
      */
     public function setProvCpInfosEmp($provCpInfosEmp) {
         $this->provCpInfosEmp = $provCpInfosEmp;
@@ -6298,6 +6523,7 @@ class Constantes {
      * Set the provisions cp.
      *
      * @param bool $provisionsCp The provisions cp.
+     * @return Constantes Returns this Constantes.
      */
     public function setProvisionsCp($provisionsCp) {
         $this->provisionsCp = $provisionsCp;
@@ -6308,6 +6534,7 @@ class Constantes {
      * Set the qualite nb criteres.
      *
      * @param string $qualiteNbCriteres The qualite nb criteres.
+     * @return Constantes Returns this Constantes.
      */
     public function setQualiteNbCriteres($qualiteNbCriteres) {
         $this->qualiteNbCriteres = $qualiteNbCriteres;
@@ -6318,6 +6545,7 @@ class Constantes {
      * Set the qualite nb notes.
      *
      * @param string $qualiteNbNotes The qualite nb notes.
+     * @return Constantes Returns this Constantes.
      */
     public function setQualiteNbNotes($qualiteNbNotes) {
         $this->qualiteNbNotes = $qualiteNbNotes;
@@ -6328,6 +6556,7 @@ class Constantes {
      * Set the qualite satisfaction generale.
      *
      * @param bool $qualiteSatisfactionGenerale The qualite satisfaction generale.
+     * @return Constantes Returns this Constantes.
      */
     public function setQualiteSatisfactionGenerale($qualiteSatisfactionGenerale) {
         $this->qualiteSatisfactionGenerale = $qualiteSatisfactionGenerale;
@@ -6338,6 +6567,7 @@ class Constantes {
      * Set the reference mensu contrat proprete.
      *
      * @param bool $referenceMensuContratProprete The reference mensu contrat proprete.
+     * @return Constantes Returns this Constantes.
      */
     public function setReferenceMensuContratProprete($referenceMensuContratProprete) {
         $this->referenceMensuContratProprete = $referenceMensuContratProprete;
@@ -6348,6 +6578,7 @@ class Constantes {
      * Set the remplacant abs jf pas auto.
      *
      * @param bool $remplacantAbsJfPasAuto The remplacant abs jf pas auto.
+     * @return Constantes Returns this Constantes.
      */
     public function setRemplacantAbsJfPasAuto($remplacantAbsJfPasAuto) {
         $this->remplacantAbsJfPasAuto = $remplacantAbsJfPasAuto;
@@ -6358,6 +6589,7 @@ class Constantes {
      * Set the remplacant travaille pas jf.
      *
      * @param bool $remplacantTravaillePasJf The remplacant travaille pas jf.
+     * @return Constantes Returns this Constantes.
      */
     public function setRemplacantTravaillePasJf($remplacantTravaillePasJf) {
         $this->remplacantTravaillePasJf = $remplacantTravaillePasJf;
@@ -6368,6 +6600,7 @@ class Constantes {
      * Set the remplacement hcjf.
      *
      * @param bool $remplacementHcjf The remplacement hcjf.
+     * @return Constantes Returns this Constantes.
      */
     public function setRemplacementHcjf($remplacementHcjf) {
         $this->remplacementHcjf = $remplacementHcjf;
@@ -6378,6 +6611,7 @@ class Constantes {
      * Set the repos compensateur pour travailleur nuit.
      *
      * @param bool $reposCompensateurPourTravailleurNuit The repos compensateur pour travailleur nuit.
+     * @return Constantes Returns this Constantes.
      */
     public function setReposCompensateurPourTravailleurNuit($reposCompensateurPourTravailleurNuit) {
         $this->reposCompensateurPourTravailleurNuit = $reposCompensateurPourTravailleurNuit;
@@ -6388,6 +6622,7 @@ class Constantes {
      * Set the rt fdans fact dev.
      *
      * @param bool $rtFdansFactDev The rt fdans fact dev.
+     * @return Constantes Returns this Constantes.
      */
     public function setRtFdansFactDev($rtFdansFactDev) {
         $this->rtFdansFactDev = $rtFdansFactDev;
@@ -6398,6 +6633,7 @@ class Constantes {
      * Set the saisir absences sur hc.
      *
      * @param bool $saisirAbsencesSurHc The saisir absences sur hc.
+     * @return Constantes Returns this Constantes.
      */
     public function setSaisirAbsencesSurHc($saisirAbsencesSurHc) {
         $this->saisirAbsencesSurHc = $saisirAbsencesSurHc;
@@ -6408,6 +6644,7 @@ class Constantes {
      * Set the saisir code chantier achat.
      *
      * @param bool $saisirCodeChantierAchat The saisir code chantier achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setSaisirCodeChantierAchat($saisirCodeChantierAchat) {
         $this->saisirCodeChantierAchat = $saisirCodeChantierAchat;
@@ -6418,6 +6655,7 @@ class Constantes {
      * Set the saisir num bt.
      *
      * @param bool $saisirNumBt The saisir num bt.
+     * @return Constantes Returns this Constantes.
      */
     public function setSaisirNumBt($saisirNumBt) {
         $this->saisirNumBt = $saisirNumBt;
@@ -6428,6 +6666,7 @@ class Constantes {
      * Set the services paie.
      *
      * @param string $servicesPaie The services paie.
+     * @return Constantes Returns this Constantes.
      */
     public function setServicesPaie($servicesPaie) {
         $this->servicesPaie = $servicesPaie;
@@ -6438,6 +6677,7 @@ class Constantes {
      * Set the seuil majo h compl.
      *
      * @param float $seuilMajoHCompl The seuil majo h compl.
+     * @return Constantes Returns this Constantes.
      */
     public function setSeuilMajoHCompl($seuilMajoHCompl) {
         $this->seuilMajoHCompl = $seuilMajoHCompl;
@@ -6448,6 +6688,7 @@ class Constantes {
      * Set the taux escompte.
      *
      * @param float $tauxEscompte The taux escompte.
+     * @return Constantes Returns this Constantes.
      */
     public function setTauxEscompte($tauxEscompte) {
         $this->tauxEscompte = $tauxEscompte;
@@ -6458,6 +6699,7 @@ class Constantes {
      * Set the taux majo hc33.
      *
      * @param float $tauxMajoHc33 The taux majo hc33.
+     * @return Constantes Returns this Constantes.
      */
     public function setTauxMajoHc33($tauxMajoHc33) {
         $this->tauxMajoHc33 = $tauxMajoHc33;
@@ -6468,6 +6710,7 @@ class Constantes {
      * Set the taux majoration h compl.
      *
      * @param float $tauxMajorationHCompl The taux majoration h compl.
+     * @return Constantes Returns this Constantes.
      */
     public function setTauxMajorationHCompl($tauxMajorationHCompl) {
         $this->tauxMajorationHCompl = $tauxMajorationHCompl;
@@ -6478,6 +6721,7 @@ class Constantes {
      * Set the taux tva achat.
      *
      * @param float $tauxTvaAchat The taux tva achat.
+     * @return Constantes Returns this Constantes.
      */
     public function setTauxTvaAchat($tauxTvaAchat) {
         $this->tauxTvaAchat = $tauxTvaAchat;
@@ -6488,6 +6732,7 @@ class Constantes {
      * Set the taux tva taxe deee.
      *
      * @param float $tauxTvaTaxeDeee The taux tva taxe deee.
+     * @return Constantes Returns this Constantes.
      */
     public function setTauxTvaTaxeDeee($tauxTvaTaxeDeee) {
         $this->tauxTvaTaxeDeee = $tauxTvaTaxeDeee;
@@ -6498,6 +6743,7 @@ class Constantes {
      * Set the taux tva vente.
      *
      * @param float $tauxTvaVente The taux tva vente.
+     * @return Constantes Returns this Constantes.
      */
     public function setTauxTvaVente($tauxTvaVente) {
         $this->tauxTvaVente = $tauxTvaVente;
@@ -6508,6 +6754,7 @@ class Constantes {
      * Set the type rempl defaut.
      *
      * @param string $typeRemplDefaut The type rempl defaut.
+     * @return Constantes Returns this Constantes.
      */
     public function setTypeRemplDefaut($typeRemplDefaut) {
         $this->typeRemplDefaut = $typeRemplDefaut;
@@ -6518,6 +6765,7 @@ class Constantes {
      * Set the type transfert vente.
      *
      * @param string $typeTransfertVente The type transfert vente.
+     * @return Constantes Returns this Constantes.
      */
     public function setTypeTransfertVente($typeTransfertVente) {
         $this->typeTransfertVente = $typeTransfertVente;
@@ -6528,6 +6776,7 @@ class Constantes {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return Constantes Returns this Constantes.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;
@@ -6538,6 +6787,7 @@ class Constantes {
      * Set the utiliser stock mini.
      *
      * @param bool $utiliserStockMini The utiliser stock mini.
+     * @return Constantes Returns this Constantes.
      */
     public function setUtiliserStockMini($utiliserStockMini) {
         $this->utiliserStockMini = $utiliserStockMini;
@@ -6548,6 +6798,7 @@ class Constantes {
      * Set the visualiser pointage bt valides.
      *
      * @param bool $visualiserPointageBtValides The visualiser pointage bt valides.
+     * @return Constantes Returns this Constantes.
      */
     public function setVisualiserPointageBtValides($visualiserPointageBtValides) {
         $this->visualiserPointageBtValides = $visualiserPointageBtValides;

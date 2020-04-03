@@ -144,6 +144,7 @@ class FichesControlesLignesActions {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -154,6 +155,7 @@ class FichesControlesLignesActions {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -164,6 +166,7 @@ class FichesControlesLignesActions {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -174,6 +177,7 @@ class FichesControlesLignesActions {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -184,6 +188,7 @@ class FichesControlesLignesActions {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -194,6 +199,7 @@ class FichesControlesLignesActions {
      * Set the libelle action.
      *
      * @param string $libelleAction The libelle action.
+     * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
     public function setLibelleAction($libelleAction) {
         $this->libelleAction = $libelleAction;
@@ -204,6 +210,7 @@ class FichesControlesLignesActions {
      * Set the numero fiche.
      *
      * @param int $numeroFiche The numero fiche.
+     * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
     public function setNumeroFiche($numeroFiche) {
         $this->numeroFiche = $numeroFiche;

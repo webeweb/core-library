@@ -2224,6 +2224,7 @@ class Dossier3 {
      * Set the achat vente automate.
      *
      * @param bool $achatVenteAutomate The achat vente automate.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setAchatVenteAutomate($achatVenteAutomate) {
         $this->achatVenteAutomate = $achatVenteAutomate;
@@ -2234,6 +2235,7 @@ class Dossier3 {
      * Set the achat vente local tva.
      *
      * @param string $achatVenteLocalTva The achat vente local tva.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setAchatVenteLocalTva($achatVenteLocalTva) {
         $this->achatVenteLocalTva = $achatVenteLocalTva;
@@ -2244,6 +2246,7 @@ class Dossier3 {
      * Set the achat vente stop tva.
      *
      * @param bool $achatVenteStopTva The achat vente stop tva.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setAchatVenteStopTva($achatVenteStopTva) {
         $this->achatVenteStopTva = $achatVenteStopTva;
@@ -2254,6 +2257,7 @@ class Dossier3 {
      * Set the bons a payer.
      *
      * @param bool $bonsAPayer The bons a payer.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setBonsAPayer($bonsAPayer) {
         $this->bonsAPayer = $bonsAPayer;
@@ -2264,6 +2268,7 @@ class Dossier3 {
      * Set the code ics.
      *
      * @param string $codeIcs The code ics.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCodeIcs($codeIcs) {
         $this->codeIcs = $codeIcs;
@@ -2274,6 +2279,7 @@ class Dossier3 {
      * Set the code journal revision.
      *
      * @param string $codeJournalRevision The code journal revision.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCodeJournalRevision($codeJournalRevision) {
         $this->codeJournalRevision = $codeJournalRevision;
@@ -2284,6 +2290,7 @@ class Dossier3 {
      * Set the code journal transf immo.
      *
      * @param string $codeJournalTransfImmo The code journal transf immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCodeJournalTransfImmo($codeJournalTransfImmo) {
         $this->codeJournalTransfImmo = $codeJournalTransfImmo;
@@ -2294,6 +2301,7 @@ class Dossier3 {
      * Set the comp cli frs.
      *
      * @param bool $compCliFrs The comp cli frs.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompCliFrs($compCliFrs) {
         $this->compCliFrs = $compCliFrs;
@@ -2304,6 +2312,7 @@ class Dossier3 {
      * Set the compte debut assurance.
      *
      * @param string $compteDebutAssurance The compte debut assurance.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteDebutAssurance($compteDebutAssurance) {
         $this->compteDebutAssurance = $compteDebutAssurance;
@@ -2314,6 +2323,7 @@ class Dossier3 {
      * Set the compte debut bail.
      *
      * @param string $compteDebutBail The compte debut bail.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteDebutBail($compteDebutBail) {
         $this->compteDebutBail = $compteDebutBail;
@@ -2324,6 +2334,7 @@ class Dossier3 {
      * Set the compte debut car.
      *
      * @param string $compteDebutCar The compte debut car.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteDebutCar($compteDebutCar) {
         $this->compteDebutCar = $compteDebutCar;
@@ -2334,6 +2345,7 @@ class Dossier3 {
      * Set the compte debut subventions.
      *
      * @param string $compteDebutSubventions The compte debut subventions.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteDebutSubventions($compteDebutSubventions) {
         $this->compteDebutSubventions = $compteDebutSubventions;
@@ -2344,6 +2356,7 @@ class Dossier3 {
      * Set the compte fin assurance.
      *
      * @param string $compteFinAssurance The compte fin assurance.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteFinAssurance($compteFinAssurance) {
         $this->compteFinAssurance = $compteFinAssurance;
@@ -2354,6 +2367,7 @@ class Dossier3 {
      * Set the compte fin bail.
      *
      * @param string $compteFinBail The compte fin bail.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteFinBail($compteFinBail) {
         $this->compteFinBail = $compteFinBail;
@@ -2364,6 +2378,7 @@ class Dossier3 {
      * Set the compte fin car.
      *
      * @param string $compteFinCar The compte fin car.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteFinCar($compteFinCar) {
         $this->compteFinCar = $compteFinCar;
@@ -2374,6 +2389,7 @@ class Dossier3 {
      * Set the compte fin subventions.
      *
      * @param string $compteFinSubventions The compte fin subventions.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteFinSubventions($compteFinSubventions) {
         $this->compteFinSubventions = $compteFinSubventions;
@@ -2384,6 +2400,7 @@ class Dossier3 {
      * Set the compte tvacar.
      *
      * @param string $compteTvacar The compte tvacar.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCompteTvacar($compteTvacar) {
         $this->compteTvacar = $compteTvacar;
@@ -2394,6 +2411,7 @@ class Dossier3 {
      * Set the conserve mois rb.
      *
      * @param bool $conserveMoisRb The conserve mois rb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setConserveMoisRb($conserveMoisRb) {
         $this->conserveMoisRb = $conserveMoisRb;
@@ -2404,6 +2422,7 @@ class Dossier3 {
      * Set the controle edition.
      *
      * @param bool $controleEdition The controle edition.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setControleEdition($controleEdition) {
         $this->controleEdition = $controleEdition;
@@ -2414,6 +2433,7 @@ class Dossier3 {
      * Set the controle exist ecr.
      *
      * @param string $controleExistEcr The controle exist ecr.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setControleExistEcr($controleExistEcr) {
         $this->controleExistEcr = $controleExistEcr;
@@ -2424,6 +2444,7 @@ class Dossier3 {
      * Set the controle ref tire.
      *
      * @param bool $controleRefTire The controle ref tire.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setControleRefTire($controleRefTire) {
         $this->controleRefTire = $controleRefTire;
@@ -2434,6 +2455,7 @@ class Dossier3 {
      * Set the cpt transf immo communs.
      *
      * @param bool $cptTransfImmoCommuns The cpt transf immo communs.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setCptTransfImmoCommuns($cptTransfImmoCommuns) {
         $this->cptTransfImmoCommuns = $cptTransfImmoCommuns;
@@ -2444,6 +2466,7 @@ class Dossier3 {
      * Set the date revision.
      *
      * @param DateTime|null $dateRevision The date revision.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateRevision(DateTime $dateRevision = null) {
         $this->dateRevision = $dateRevision;
@@ -2454,6 +2477,7 @@ class Dossier3 {
      * Set the date transf cb.
      *
      * @param DateTime|null $dateTransfCb The date transf cb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfCb(DateTime $dateTransfCb = null) {
         $this->dateTransfCb = $dateTransfCb;
@@ -2464,6 +2488,7 @@ class Dossier3 {
      * Set the date transf cli douteux.
      *
      * @param DateTime|null $dateTransfCliDouteux The date transf cli douteux.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfCliDouteux(DateTime $dateTransfCliDouteux = null) {
         $this->dateTransfCliDouteux = $dateTransfCliDouteux;
@@ -2474,6 +2499,7 @@ class Dossier3 {
      * Set the date transf int courus.
      *
      * @param DateTime|null $dateTransfIntCourus The date transf int courus.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfIntCourus(DateTime $dateTransfIntCourus = null) {
         $this->dateTransfIntCourus = $dateTransfIntCourus;
@@ -2484,6 +2510,7 @@ class Dossier3 {
      * Set the date transf int extournes.
      *
      * @param DateTime|null $dateTransfIntExtournes The date transf int extournes.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfIntExtournes(DateTime $dateTransfIntExtournes = null) {
         $this->dateTransfIntExtournes = $dateTransfIntExtournes;
@@ -2494,6 +2521,7 @@ class Dossier3 {
      * Set the date transf lf.
      *
      * @param DateTime|null $dateTransfLf The date transf lf.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfLf(DateTime $dateTransfLf = null) {
         $this->dateTransfLf = $dateTransfLf;
@@ -2504,6 +2532,7 @@ class Dossier3 {
      * Set the date transf prov cp.
      *
      * @param DateTime|null $dateTransfProvCp The date transf prov cp.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfProvCp(DateTime $dateTransfProvCp = null) {
         $this->dateTransfProvCp = $dateTransfProvCp;
@@ -2514,6 +2543,7 @@ class Dossier3 {
      * Set the date transfert ech cb.
      *
      * @param DateTime|null $dateTransfertEchCb The date transfert ech cb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfertEchCb(DateTime $dateTransfertEchCb = null) {
         $this->dateTransfertEchCb = $dateTransfertEchCb;
@@ -2524,6 +2554,7 @@ class Dossier3 {
      * Set the date transfert ech lf.
      *
      * @param DateTime|null $dateTransfertEchLf The date transfert ech lf.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfertEchLf(DateTime $dateTransfertEchLf = null) {
         $this->dateTransfertEchLf = $dateTransfertEchLf;
@@ -2534,6 +2565,7 @@ class Dossier3 {
      * Set the date transfert echeance.
      *
      * @param DateTime|null $dateTransfertEcheance The date transfert echeance.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDateTransfertEcheance(DateTime $dateTransfertEcheance = null) {
         $this->dateTransfertEcheance = $dateTransfertEcheance;
@@ -2544,6 +2576,7 @@ class Dossier3 {
      * Set the debut calcul immo.
      *
      * @param DateTime|null $debutCalculImmo The debut calcul immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDebutCalculImmo(DateTime $debutCalculImmo = null) {
         $this->debutCalculImmo = $debutCalculImmo;
@@ -2554,6 +2587,7 @@ class Dossier3 {
      * Set the delai rejet effet.
      *
      * @param string $delaiRejetEffet The delai rejet effet.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDelaiRejetEffet($delaiRejetEffet) {
         $this->delaiRejetEffet = $delaiRejetEffet;
@@ -2564,6 +2598,7 @@ class Dossier3 {
      * Set the detail cb.
      *
      * @param bool $detailCb The detail cb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDetailCb($detailCb) {
         $this->detailCb = $detailCb;
@@ -2574,6 +2609,7 @@ class Dossier3 {
      * Set the detail immo.
      *
      * @param bool $detailImmo The detail immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDetailImmo($detailImmo) {
         $this->detailImmo = $detailImmo;
@@ -2584,6 +2620,7 @@ class Dossier3 {
      * Set the dot franc centime.
      *
      * @param string $dotFrancCentime The dot franc centime.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setDotFrancCentime($dotFrancCentime) {
         $this->dotFrancCentime = $dotFrancCentime;
@@ -2594,6 +2631,7 @@ class Dossier3 {
      * Set the edi400.
      *
      * @param bool $edi400 The edi400.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setEdi400($edi400) {
         $this->edi400 = $edi400;
@@ -2604,6 +2642,7 @@ class Dossier3 {
      * Set the edit ana contrepasse.
      *
      * @param bool $editAnaContrepasse The edit ana contrepasse.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setEditAnaContrepasse($editAnaContrepasse) {
         $this->editAnaContrepasse = $editAnaContrepasse;
@@ -2614,6 +2653,7 @@ class Dossier3 {
      * Set the fin calcul immo.
      *
      * @param DateTime|null $finCalculImmo The fin calcul immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setFinCalculImmo(DateTime $finCalculImmo = null) {
         $this->finCalculImmo = $finCalculImmo;
@@ -2624,6 +2664,7 @@ class Dossier3 {
      * Set the folio revision.
      *
      * @param int $folioRevision The folio revision.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setFolioRevision($folioRevision) {
         $this->folioRevision = $folioRevision;
@@ -2634,6 +2675,7 @@ class Dossier3 {
      * Set the folio transf immo.
      *
      * @param int $folioTransfImmo The folio transf immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setFolioTransfImmo($folioTransfImmo) {
         $this->folioTransfImmo = $folioTransfImmo;
@@ -2644,6 +2686,7 @@ class Dossier3 {
      * Set the gestion pmag client.
      *
      * @param bool $gestionPmagClient The gestion pmag client.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setGestionPmagClient($gestionPmagClient) {
         $this->gestionPmagClient = $gestionPmagClient;
@@ -2654,6 +2697,7 @@ class Dossier3 {
      * Set the gestion traite papier.
      *
      * @param bool $gestionTraitePapier The gestion traite papier.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setGestionTraitePapier($gestionTraitePapier) {
         $this->gestionTraitePapier = $gestionTraitePapier;
@@ -2664,6 +2708,7 @@ class Dossier3 {
      * Set the gestion virement frn.
      *
      * @param bool $gestionVirementFrn The gestion virement frn.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setGestionVirementFrn($gestionVirementFrn) {
         $this->gestionVirementFrn = $gestionVirementFrn;
@@ -2674,6 +2719,7 @@ class Dossier3 {
      * Set the immo detail lignes.
      *
      * @param bool $immoDetailLignes The immo detail lignes.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoDetailLignes($immoDetailLignes) {
         $this->immoDetailLignes = $immoDetailLignes;
@@ -2684,6 +2730,7 @@ class Dossier3 {
      * Set the immo detail par cpt.
      *
      * @param bool $immoDetailParCpt The immo detail par cpt.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoDetailParCpt($immoDetailParCpt) {
         $this->immoDetailParCpt = $immoDetailParCpt;
@@ -2694,6 +2741,7 @@ class Dossier3 {
      * Set the immo edit ensemble.
      *
      * @param bool $immoEditEnsemble The immo edit ensemble.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoEditEnsemble($immoEditEnsemble) {
         $this->immoEditEnsemble = $immoEditEnsemble;
@@ -2704,6 +2752,7 @@ class Dossier3 {
      * Set the immo jours par an.
      *
      * @param int $immoJoursParAn The immo jours par an.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoJoursParAn($immoJoursParAn) {
         $this->immoJoursParAn = $immoJoursParAn;
@@ -2714,6 +2763,7 @@ class Dossier3 {
      * Set the immo ss tot immo.
      *
      * @param bool $immoSsTotImmo The immo ss tot immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoSsTotImmo($immoSsTotImmo) {
         $this->immoSsTotImmo = $immoSsTotImmo;
@@ -2724,6 +2774,7 @@ class Dossier3 {
      * Set the immo tot par compte.
      *
      * @param bool $immoTotParCompte The immo tot par compte.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoTotParCompte($immoTotParCompte) {
         $this->immoTotParCompte = $immoTotParCompte;
@@ -2734,6 +2785,7 @@ class Dossier3 {
      * Set the immo transfert forfait vers reel.
      *
      * @param bool $immoTransfertForfaitVersReel The immo transfert forfait vers reel.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoTransfertForfaitVersReel($immoTransfertForfaitVersReel) {
         $this->immoTransfertForfaitVersReel = $immoTransfertForfaitVersReel;
@@ -2744,6 +2796,7 @@ class Dossier3 {
      * Set the immo tri analytique.
      *
      * @param bool $immoTriAnalytique The immo tri analytique.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoTriAnalytique($immoTriAnalytique) {
         $this->immoTriAnalytique = $immoTriAnalytique;
@@ -2754,6 +2807,7 @@ class Dossier3 {
      * Set the immo tri par date.
      *
      * @param bool $immoTriParDate The immo tri par date.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoTriParDate($immoTriParDate) {
         $this->immoTriParDate = $immoTriParDate;
@@ -2764,6 +2818,7 @@ class Dossier3 {
      * Set the immo tri par service.
      *
      * @param bool $immoTriParService The immo tri par service.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoTriParService($immoTriParService) {
         $this->immoTriParService = $immoTriParService;
@@ -2774,6 +2829,7 @@ class Dossier3 {
      * Set the immo type liasse.
      *
      * @param string $immoTypeLiasse The immo type liasse.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setImmoTypeLiasse($immoTypeLiasse) {
         $this->immoTypeLiasse = $immoTypeLiasse;
@@ -2784,6 +2840,7 @@ class Dossier3 {
      * Set the is client exp.
      *
      * @param bool $isClientExp The is client exp.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setIsClientExp($isClientExp) {
         $this->isClientExp = $isClientExp;
@@ -2794,6 +2851,7 @@ class Dossier3 {
      * Set the lettre pvaut bo.
      *
      * @param bool $lettrePvautBo The lettre pvaut bo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setLettrePvautBo($lettrePvautBo) {
         $this->lettrePvautBo = $lettrePvautBo;
@@ -2804,6 +2862,7 @@ class Dossier3 {
      * Set the lib variable1.
      *
      * @param string $libVariable1 The lib variable1.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setLibVariable1($libVariable1) {
         $this->libVariable1 = $libVariable1;
@@ -2814,6 +2873,7 @@ class Dossier3 {
      * Set the lib variable2.
      *
      * @param string $libVariable2 The lib variable2.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setLibVariable2($libVariable2) {
         $this->libVariable2 = $libVariable2;
@@ -2824,6 +2884,7 @@ class Dossier3 {
      * Set the lib variable3.
      *
      * @param string $libVariable3 The lib variable3.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setLibVariable3($libVariable3) {
         $this->libVariable3 = $libVariable3;
@@ -2834,6 +2895,7 @@ class Dossier3 {
      * Set the mise en portefeuille bic f.
      *
      * @param string $miseEnPortefeuilleBicF The mise en portefeuille bic f.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setMiseEnPortefeuilleBicF($miseEnPortefeuilleBicF) {
         $this->miseEnPortefeuilleBicF = $miseEnPortefeuilleBicF;
@@ -2844,6 +2906,7 @@ class Dossier3 {
      * Set the mise en portefeuille dom f.
      *
      * @param string $miseEnPortefeuilleDomF The mise en portefeuille dom f.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setMiseEnPortefeuilleDomF($miseEnPortefeuilleDomF) {
         $this->miseEnPortefeuilleDomF = $miseEnPortefeuilleDomF;
@@ -2854,6 +2917,7 @@ class Dossier3 {
      * Set the mise en portefeuille iban f.
      *
      * @param string $miseEnPortefeuilleIbanF The mise en portefeuille iban f.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setMiseEnPortefeuilleIbanF($miseEnPortefeuilleIbanF) {
         $this->miseEnPortefeuilleIbanF = $miseEnPortefeuilleIbanF;
@@ -2864,6 +2928,7 @@ class Dossier3 {
      * Set the mise en portefeuille rib f.
      *
      * @param string $miseEnPortefeuilleRibF The mise en portefeuille rib f.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setMiseEnPortefeuilleRibF($miseEnPortefeuilleRibF) {
         $this->miseEnPortefeuilleRibF = $miseEnPortefeuilleRibF;
@@ -2874,6 +2939,7 @@ class Dossier3 {
      * Set the multi ech client.
      *
      * @param bool $multiEchClient The multi ech client.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setMultiEchClient($multiEchClient) {
         $this->multiEchClient = $multiEchClient;
@@ -2884,6 +2950,7 @@ class Dossier3 {
      * Set the multi ech frn.
      *
      * @param bool $multiEchFrn The multi ech frn.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setMultiEchFrn($multiEchFrn) {
         $this->multiEchFrn = $multiEchFrn;
@@ -2894,6 +2961,7 @@ class Dossier3 {
      * Set the multi ech par code lib auto.
      *
      * @param bool $multiEchParCodeLibAuto The multi ech par code lib auto.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setMultiEchParCodeLibAuto($multiEchParCodeLibAuto) {
         $this->multiEchParCodeLibAuto = $multiEchParCodeLibAuto;
@@ -2904,6 +2972,7 @@ class Dossier3 {
      * Set the ne plus afficher.
      *
      * @param bool $nePlusAfficher The ne plus afficher.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNePlusAfficher($nePlusAfficher) {
         $this->nePlusAfficher = $nePlusAfficher;
@@ -2914,6 +2983,7 @@ class Dossier3 {
      * Set the niv tri analytique.
      *
      * @param string $nivTriAnalytique The niv tri analytique.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriAnalytique($nivTriAnalytique) {
         $this->nivTriAnalytique = $nivTriAnalytique;
@@ -2924,6 +2994,7 @@ class Dossier3 {
      * Set the niv tri bureau.
      *
      * @param string $nivTriBureau The niv tri bureau.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriBureau($nivTriBureau) {
         $this->nivTriBureau = $nivTriBureau;
@@ -2934,6 +3005,7 @@ class Dossier3 {
      * Set the niv tri famille.
      *
      * @param string $nivTriFamille The niv tri famille.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriFamille($nivTriFamille) {
         $this->nivTriFamille = $nivTriFamille;
@@ -2944,6 +3016,7 @@ class Dossier3 {
      * Set the niv tri nat.
      *
      * @param string $nivTriNat The niv tri nat.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriNat($nivTriNat) {
         $this->nivTriNat = $nivTriNat;
@@ -2954,6 +3027,7 @@ class Dossier3 {
      * Set the niv tri service.
      *
      * @param string $nivTriService The niv tri service.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriService($nivTriService) {
         $this->nivTriService = $nivTriService;
@@ -2964,6 +3038,7 @@ class Dossier3 {
      * Set the niv tri site.
      *
      * @param string $nivTriSite The niv tri site.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriSite($nivTriSite) {
         $this->nivTriSite = $nivTriSite;
@@ -2974,6 +3049,7 @@ class Dossier3 {
      * Set the niv tri zl1.
      *
      * @param string $nivTriZl1 The niv tri zl1.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriZl1($nivTriZl1) {
         $this->nivTriZl1 = $nivTriZl1;
@@ -2984,6 +3060,7 @@ class Dossier3 {
      * Set the niv tri zl2.
      *
      * @param string $nivTriZl2 The niv tri zl2.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriZl2($nivTriZl2) {
         $this->nivTriZl2 = $nivTriZl2;
@@ -2994,6 +3071,7 @@ class Dossier3 {
      * Set the niv tri zl3.
      *
      * @param string $nivTriZl3 The niv tri zl3.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNivTriZl3($nivTriZl3) {
         $this->nivTriZl3 = $nivTriZl3;
@@ -3004,6 +3082,7 @@ class Dossier3 {
      * Set the nom lettre p.
      *
      * @param string $nomLettreP The nom lettre p.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNomLettreP($nomLettreP) {
         $this->nomLettreP = $nomLettreP;
@@ -3014,6 +3093,7 @@ class Dossier3 {
      * Set the nom lettre pc.
      *
      * @param string $nomLettrePc The nom lettre pc.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNomLettrePc($nomLettrePc) {
         $this->nomLettrePc = $nomLettrePc;
@@ -3024,6 +3104,7 @@ class Dossier3 {
      * Set the num chrono bo.
      *
      * @param int $numChronoBo The num chrono bo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumChronoBo($numChronoBo) {
         $this->numChronoBo = $numChronoBo;
@@ -3034,6 +3115,7 @@ class Dossier3 {
      * Set the num lot cli douteux.
      *
      * @param int $numLotCliDouteux The num lot cli douteux.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotCliDouteux($numLotCliDouteux) {
         $this->numLotCliDouteux = $numLotCliDouteux;
@@ -3044,6 +3126,7 @@ class Dossier3 {
      * Set the num lot ecrit trans assurance.
      *
      * @param int $numLotEcritTransAssurance The num lot ecrit trans assurance.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotEcritTransAssurance($numLotEcritTransAssurance) {
         $this->numLotEcritTransAssurance = $numLotEcritTransAssurance;
@@ -3054,6 +3137,7 @@ class Dossier3 {
      * Set the num lot ecrit trans baux.
      *
      * @param int $numLotEcritTransBaux The num lot ecrit trans baux.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotEcritTransBaux($numLotEcritTransBaux) {
         $this->numLotEcritTransBaux = $numLotEcritTransBaux;
@@ -3064,6 +3148,7 @@ class Dossier3 {
      * Set the num lot ecrit trans car.
      *
      * @param int $numLotEcritTransCar The num lot ecrit trans car.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotEcritTransCar($numLotEcritTransCar) {
         $this->numLotEcritTransCar = $numLotEcritTransCar;
@@ -3074,6 +3159,7 @@ class Dossier3 {
      * Set the num lot ecrit trans periodicite.
      *
      * @param int $numLotEcritTransPeriodicite The num lot ecrit trans periodicite.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotEcritTransPeriodicite($numLotEcritTransPeriodicite) {
         $this->numLotEcritTransPeriodicite = $numLotEcritTransPeriodicite;
@@ -3084,6 +3170,7 @@ class Dossier3 {
      * Set the num lot ecrit trans subventions.
      *
      * @param int $numLotEcritTransSubventions The num lot ecrit trans subventions.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotEcritTransSubventions($numLotEcritTransSubventions) {
         $this->numLotEcritTransSubventions = $numLotEcritTransSubventions;
@@ -3094,6 +3181,7 @@ class Dossier3 {
      * Set the num lot ecrit transf cb.
      *
      * @param int $numLotEcritTransfCb The num lot ecrit transf cb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotEcritTransfCb($numLotEcritTransfCb) {
         $this->numLotEcritTransfCb = $numLotEcritTransfCb;
@@ -3104,6 +3192,7 @@ class Dossier3 {
      * Set the num lot ecrit transf immo.
      *
      * @param int $numLotEcritTransfImmo The num lot ecrit transf immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotEcritTransfImmo($numLotEcritTransfImmo) {
         $this->numLotEcritTransfImmo = $numLotEcritTransfImmo;
@@ -3114,6 +3203,7 @@ class Dossier3 {
      * Set the num lot ecrit transf lf.
      *
      * @param int $numLotEcritTransfLf The num lot ecrit transf lf.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotEcritTransfLf($numLotEcritTransfLf) {
         $this->numLotEcritTransfLf = $numLotEcritTransfLf;
@@ -3124,6 +3214,7 @@ class Dossier3 {
      * Set the num lot int courus.
      *
      * @param int $numLotIntCourus The num lot int courus.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotIntCourus($numLotIntCourus) {
         $this->numLotIntCourus = $numLotIntCourus;
@@ -3134,6 +3225,7 @@ class Dossier3 {
      * Set the num lot int extournes.
      *
      * @param int $numLotIntExtournes The num lot int extournes.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotIntExtournes($numLotIntExtournes) {
         $this->numLotIntExtournes = $numLotIntExtournes;
@@ -3144,6 +3236,7 @@ class Dossier3 {
      * Set the num lot prov cp.
      *
      * @param int $numLotProvCp The num lot prov cp.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setNumLotProvCp($numLotProvCp) {
         $this->numLotProvCp = $numLotProvCp;
@@ -3154,6 +3247,7 @@ class Dossier3 {
      * Set the option import mvt rb.
      *
      * @param string $optionImportMvtRb The option import mvt rb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setOptionImportMvtRb($optionImportMvtRb) {
         $this->optionImportMvtRb = $optionImportMvtRb;
@@ -3164,6 +3258,7 @@ class Dossier3 {
      * Set the periode revision.
      *
      * @param DateTime|null $periodeRevision The periode revision.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setPeriodeRevision(DateTime $periodeRevision = null) {
         $this->periodeRevision = $periodeRevision;
@@ -3174,6 +3269,7 @@ class Dossier3 {
      * Set the periode transf immo.
      *
      * @param DateTime|null $periodeTransfImmo The periode transf immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setPeriodeTransfImmo(DateTime $periodeTransfImmo = null) {
         $this->periodeTransfImmo = $periodeTransfImmo;
@@ -3184,6 +3280,7 @@ class Dossier3 {
      * Set the periodicite utiliser libelle.
      *
      * @param int $periodiciteUtiliserLibelle The periodicite utiliser libelle.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setPeriodiciteUtiliserLibelle($periodiciteUtiliserLibelle) {
         $this->periodiciteUtiliserLibelle = $periodiciteUtiliserLibelle;
@@ -3194,6 +3291,7 @@ class Dossier3 {
      * Set the prochain lot lcr.
      *
      * @param int $prochainLotLcr The prochain lot lcr.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setProchainLotLcr($prochainLotLcr) {
         $this->prochainLotLcr = $prochainLotLcr;
@@ -3204,6 +3302,7 @@ class Dossier3 {
      * Set the prochain lot lettre p.
      *
      * @param int $prochainLotLettreP The prochain lot lettre p.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setProchainLotLettreP($prochainLotLettreP) {
         $this->prochainLotLettreP = $prochainLotLettreP;
@@ -3214,6 +3313,7 @@ class Dossier3 {
      * Set the prochain lot traite.
      *
      * @param int $prochainLotTraite The prochain lot traite.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setProchainLotTraite($prochainLotTraite) {
         $this->prochainLotTraite = $prochainLotTraite;
@@ -3224,6 +3324,7 @@ class Dossier3 {
      * Set the prochain num cb.
      *
      * @param int $prochainNumCb The prochain num cb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setProchainNumCb($prochainNumCb) {
         $this->prochainNumCb = $prochainNumCb;
@@ -3234,6 +3335,7 @@ class Dossier3 {
      * Set the prochain num immo.
      *
      * @param int $prochainNumImmo The prochain num immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setProchainNumImmo($prochainNumImmo) {
         $this->prochainNumImmo = $prochainNumImmo;
@@ -3244,6 +3346,7 @@ class Dossier3 {
      * Set the prochain num lf.
      *
      * @param int $prochainNumLf The prochain num lf.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setProchainNumLf($prochainNumLf) {
         $this->prochainNumLf = $prochainNumLf;
@@ -3254,6 +3357,7 @@ class Dossier3 {
      * Set the prochain num pj.
      *
      * @param int $prochainNumPj The prochain num pj.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setProchainNumPj($prochainNumPj) {
         $this->prochainNumPj = $prochainNumPj;
@@ -3264,6 +3368,7 @@ class Dossier3 {
      * Set the racine import mvt rb.
      *
      * @param string $racineImportMvtRb The racine import mvt rb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRacineImportMvtRb($racineImportMvtRb) {
         $this->racineImportMvtRb = $racineImportMvtRb;
@@ -3274,6 +3379,7 @@ class Dossier3 {
      * Set the rebut vaut cession.
      *
      * @param bool $rebutVautCession The rebut vaut cession.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRebutVautCession($rebutVautCession) {
         $this->rebutVautCession = $rebutVautCession;
@@ -3284,6 +3390,7 @@ class Dossier3 {
      * Set the ref remise lcr.
      *
      * @param int $refRemiseLcr The ref remise lcr.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRefRemiseLcr($refRemiseLcr) {
         $this->refRemiseLcr = $refRemiseLcr;
@@ -3294,6 +3401,7 @@ class Dossier3 {
      * Set the ref virement frn.
      *
      * @param int $refVirementFrn The ref virement frn.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRefVirementFrn($refVirementFrn) {
         $this->refVirementFrn = $refVirementFrn;
@@ -3304,6 +3412,7 @@ class Dossier3 {
      * Set the regroup four cpt ech.
      *
      * @param bool $regroupFourCptEch The regroup four cpt ech.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRegroupFourCptEch($regroupFourCptEch) {
         $this->regroupFourCptEch = $regroupFourCptEch;
@@ -3314,6 +3423,7 @@ class Dossier3 {
      * Set the rep ass.
      *
      * @param bool $repAss The rep ass.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepAss($repAss) {
         $this->repAss = $repAss;
@@ -3324,6 +3434,7 @@ class Dossier3 {
      * Set the rep budget.
      *
      * @param bool $repBudget The rep budget.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepBudget($repBudget) {
         $this->repBudget = $repBudget;
@@ -3334,6 +3445,7 @@ class Dossier3 {
      * Set the rep car.
      *
      * @param bool $repCar The rep car.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepCar($repCar) {
         $this->repCar = $repCar;
@@ -3344,6 +3456,7 @@ class Dossier3 {
      * Set the rep cb.
      *
      * @param bool $repCb The rep cb.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepCb($repCb) {
         $this->repCb = $repCb;
@@ -3354,6 +3467,7 @@ class Dossier3 {
      * Set the rep cl.
      *
      * @param bool $repCl The rep cl.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepCl($repCl) {
         $this->repCl = $repCl;
@@ -3364,6 +3478,7 @@ class Dossier3 {
      * Set the rep compta gen.
      *
      * @param bool $repComptaGen The rep compta gen.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepComptaGen($repComptaGen) {
         $this->repComptaGen = $repComptaGen;
@@ -3374,6 +3489,7 @@ class Dossier3 {
      * Set the rep dec tva.
      *
      * @param bool $repDecTva The rep dec tva.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepDecTva($repDecTva) {
         $this->repDecTva = $repDecTva;
@@ -3384,6 +3500,7 @@ class Dossier3 {
      * Set the rep dos rev.
      *
      * @param bool $repDosRev The rep dos rev.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepDosRev($repDosRev) {
         $this->repDosRev = $repDosRev;
@@ -3394,6 +3511,7 @@ class Dossier3 {
      * Set the rep emprunts.
      *
      * @param bool $repEmprunts The rep emprunts.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepEmprunts($repEmprunts) {
         $this->repEmprunts = $repEmprunts;
@@ -3404,6 +3522,7 @@ class Dossier3 {
      * Set the rep es.
      *
      * @param bool $repEs The rep es.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepEs($repEs) {
         $this->repEs = $repEs;
@@ -3414,6 +3533,7 @@ class Dossier3 {
      * Set the rep immo.
      *
      * @param bool $repImmo The rep immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepImmo($repImmo) {
         $this->repImmo = $repImmo;
@@ -3424,6 +3544,7 @@ class Dossier3 {
      * Set the rep loc fi.
      *
      * @param bool $repLocFi The rep loc fi.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepLocFi($repLocFi) {
         $this->repLocFi = $repLocFi;
@@ -3434,6 +3555,7 @@ class Dossier3 {
      * Set the rep partielle.
      *
      * @param bool $repPartielle The rep partielle.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepPartielle($repPartielle) {
         $this->repPartielle = $repPartielle;
@@ -3444,6 +3566,7 @@ class Dossier3 {
      * Set the rep subv.
      *
      * @param bool $repSubv The rep subv.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepSubv($repSubv) {
         $this->repSubv = $repSubv;
@@ -3454,6 +3577,7 @@ class Dossier3 {
      * Set the rep vmp.
      *
      * @param bool $repVmp The rep vmp.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRepVmp($repVmp) {
         $this->repVmp = $repVmp;
@@ -3464,6 +3588,7 @@ class Dossier3 {
      * Set the revis solde en euro.
      *
      * @param bool $revisSoldeEnEuro The revis solde en euro.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRevisSoldeEnEuro($revisSoldeEnEuro) {
         $this->revisSoldeEnEuro = $revisSoldeEnEuro;
@@ -3474,6 +3599,7 @@ class Dossier3 {
      * Set the revis voir solde ex.
      *
      * @param bool $revisVoirSoldeEx The revis voir solde ex.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setRevisVoirSoldeEx($revisVoirSoldeEx) {
         $this->revisVoirSoldeEx = $revisVoirSoldeEx;
@@ -3484,6 +3610,7 @@ class Dossier3 {
      * Set the saisie caisse.
      *
      * @param bool $saisieCaisse The saisie caisse.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setSaisieCaisse($saisieCaisse) {
         $this->saisieCaisse = $saisieCaisse;
@@ -3494,6 +3621,7 @@ class Dossier3 {
      * Set the saisie num piece.
      *
      * @param string $saisieNumPiece The saisie num piece.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setSaisieNumPiece($saisieNumPiece) {
         $this->saisieNumPiece = $saisieNumPiece;
@@ -3504,6 +3632,7 @@ class Dossier3 {
      * Set the sauver periodicite.
      *
      * @param bool $sauverPeriodicite The sauver periodicite.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setSauverPeriodicite($sauverPeriodicite) {
         $this->sauverPeriodicite = $sauverPeriodicite;
@@ -3514,6 +3643,7 @@ class Dossier3 {
      * Set the suivi aux client.
      *
      * @param bool $suiviAuxClient The suivi aux client.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setSuiviAuxClient($suiviAuxClient) {
         $this->suiviAuxClient = $suiviAuxClient;
@@ -3524,6 +3654,7 @@ class Dossier3 {
      * Set the suivi aux frn.
      *
      * @param bool $suiviAuxFrn The suivi aux frn.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setSuiviAuxFrn($suiviAuxFrn) {
         $this->suiviAuxFrn = $suiviAuxFrn;
@@ -3534,6 +3665,7 @@ class Dossier3 {
      * Set the suivi devises.
      *
      * @param bool $suiviDevises The suivi devises.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setSuiviDevises($suiviDevises) {
         $this->suiviDevises = $suiviDevises;
@@ -3544,6 +3676,7 @@ class Dossier3 {
      * Set the transfert immo ok.
      *
      * @param bool $transfertImmoOk The transfert immo ok.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setTransfertImmoOk($transfertImmoOk) {
         $this->transfertImmoOk = $transfertImmoOk;
@@ -3554,6 +3687,7 @@ class Dossier3 {
      * Set the type pmag client.
      *
      * @param int $typePmagClient The type pmag client.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setTypePmagClient($typePmagClient) {
         $this->typePmagClient = $typePmagClient;
@@ -3564,6 +3698,7 @@ class Dossier3 {
      * Set the type transfert immo.
      *
      * @param string $typeTransfertImmo The type transfert immo.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setTypeTransfertImmo($typeTransfertImmo) {
         $this->typeTransfertImmo = $typeTransfertImmo;
@@ -3574,6 +3709,7 @@ class Dossier3 {
      * Set the type transfert tiers.
      *
      * @param string $typeTransfertTiers The type transfert tiers.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setTypeTransfertTiers($typeTransfertTiers) {
         $this->typeTransfertTiers = $typeTransfertTiers;
@@ -3584,6 +3720,7 @@ class Dossier3 {
      * Set the type transfert tiers f.
      *
      * @param string $typeTransfertTiersF The type transfert tiers f.
+     * @return Dossier3 Returns this Dossier3.
      */
     public function setTypeTransfertTiersF($typeTransfertTiersF) {
         $this->typeTransfertTiersF = $typeTransfertTiersF;

@@ -624,6 +624,7 @@ class Tarifs {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -634,6 +635,7 @@ class Tarifs {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -644,6 +646,7 @@ class Tarifs {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -654,6 +657,7 @@ class Tarifs {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -664,6 +668,7 @@ class Tarifs {
      * Set the code col creation.
      *
      * @param string $codeColCreation The code col creation.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeColCreation($codeColCreation) {
         $this->codeColCreation = $codeColCreation;
@@ -674,6 +679,7 @@ class Tarifs {
      * Set the code col modification.
      *
      * @param string $codeColModification The code col modification.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCodeColModification($codeColModification) {
         $this->codeColModification = $codeColModification;
@@ -684,6 +690,7 @@ class Tarifs {
      * Set the coeff tr1.
      *
      * @param float $coeffTr1 The coeff tr1.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCoeffTr1($coeffTr1) {
         $this->coeffTr1 = $coeffTr1;
@@ -694,6 +701,7 @@ class Tarifs {
      * Set the coeff tr2.
      *
      * @param float $coeffTr2 The coeff tr2.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCoeffTr2($coeffTr2) {
         $this->coeffTr2 = $coeffTr2;
@@ -704,6 +712,7 @@ class Tarifs {
      * Set the coeff tr3.
      *
      * @param float $coeffTr3 The coeff tr3.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCoeffTr3($coeffTr3) {
         $this->coeffTr3 = $coeffTr3;
@@ -714,6 +723,7 @@ class Tarifs {
      * Set the coeff tr4.
      *
      * @param float $coeffTr4 The coeff tr4.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCoeffTr4($coeffTr4) {
         $this->coeffTr4 = $coeffTr4;
@@ -724,6 +734,7 @@ class Tarifs {
      * Set the coeff tr5.
      *
      * @param float $coeffTr5 The coeff tr5.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setCoeffTr5($coeffTr5) {
         $this->coeffTr5 = $coeffTr5;
@@ -734,6 +745,7 @@ class Tarifs {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -744,6 +756,7 @@ class Tarifs {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -754,6 +767,7 @@ class Tarifs {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -764,6 +778,7 @@ class Tarifs {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -774,6 +789,7 @@ class Tarifs {
      * Set the fam article.
      *
      * @param string $famArticle The fam article.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setFamArticle($famArticle) {
         $this->famArticle = $famArticle;
@@ -784,6 +800,7 @@ class Tarifs {
      * Set the fam client.
      *
      * @param string $famClient The fam client.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setFamClient($famClient) {
         $this->famClient = $famClient;
@@ -794,6 +811,7 @@ class Tarifs {
      * Set the prix net tr1.
      *
      * @param bool $prixNetTr1 The prix net tr1.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPrixNetTr1($prixNetTr1) {
         $this->prixNetTr1 = $prixNetTr1;
@@ -804,6 +822,7 @@ class Tarifs {
      * Set the prix net tr2.
      *
      * @param bool $prixNetTr2 The prix net tr2.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPrixNetTr2($prixNetTr2) {
         $this->prixNetTr2 = $prixNetTr2;
@@ -814,6 +833,7 @@ class Tarifs {
      * Set the prix net tr3.
      *
      * @param bool $prixNetTr3 The prix net tr3.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPrixNetTr3($prixNetTr3) {
         $this->prixNetTr3 = $prixNetTr3;
@@ -824,6 +844,7 @@ class Tarifs {
      * Set the prix net tr4.
      *
      * @param bool $prixNetTr4 The prix net tr4.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPrixNetTr4($prixNetTr4) {
         $this->prixNetTr4 = $prixNetTr4;
@@ -834,6 +855,7 @@ class Tarifs {
      * Set the prix net tr5.
      *
      * @param bool $prixNetTr5 The prix net tr5.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPrixNetTr5($prixNetTr5) {
         $this->prixNetTr5 = $prixNetTr5;
@@ -844,6 +866,7 @@ class Tarifs {
      * Set the pu article.
      *
      * @param bool $puArticle The pu article.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPuArticle($puArticle) {
         $this->puArticle = $puArticle;
@@ -854,6 +877,7 @@ class Tarifs {
      * Set the pu base.
      *
      * @param float $puBase The pu base.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPuBase($puBase) {
         $this->puBase = $puBase;
@@ -864,6 +888,7 @@ class Tarifs {
      * Set the pu tr1.
      *
      * @param float $puTr1 The pu tr1.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPuTr1($puTr1) {
         $this->puTr1 = $puTr1;
@@ -874,6 +899,7 @@ class Tarifs {
      * Set the pu tr2.
      *
      * @param float $puTr2 The pu tr2.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPuTr2($puTr2) {
         $this->puTr2 = $puTr2;
@@ -884,6 +910,7 @@ class Tarifs {
      * Set the pu tr3.
      *
      * @param float $puTr3 The pu tr3.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPuTr3($puTr3) {
         $this->puTr3 = $puTr3;
@@ -894,6 +921,7 @@ class Tarifs {
      * Set the pu tr4.
      *
      * @param float $puTr4 The pu tr4.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPuTr4($puTr4) {
         $this->puTr4 = $puTr4;
@@ -904,6 +932,7 @@ class Tarifs {
      * Set the pu tr5.
      *
      * @param float $puTr5 The pu tr5.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setPuTr5($puTr5) {
         $this->puTr5 = $puTr5;
@@ -914,6 +943,7 @@ class Tarifs {
      * Set the qte tr1.
      *
      * @param float $qteTr1 The qte tr1.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setQteTr1($qteTr1) {
         $this->qteTr1 = $qteTr1;
@@ -924,6 +954,7 @@ class Tarifs {
      * Set the qte tr2.
      *
      * @param float $qteTr2 The qte tr2.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setQteTr2($qteTr2) {
         $this->qteTr2 = $qteTr2;
@@ -934,6 +965,7 @@ class Tarifs {
      * Set the qte tr3.
      *
      * @param float $qteTr3 The qte tr3.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setQteTr3($qteTr3) {
         $this->qteTr3 = $qteTr3;
@@ -944,6 +976,7 @@ class Tarifs {
      * Set the qte tr4.
      *
      * @param float $qteTr4 The qte tr4.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setQteTr4($qteTr4) {
         $this->qteTr4 = $qteTr4;
@@ -954,6 +987,7 @@ class Tarifs {
      * Set the qte tr5.
      *
      * @param float $qteTr5 The qte tr5.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setQteTr5($qteTr5) {
         $this->qteTr5 = $qteTr5;
@@ -964,6 +998,7 @@ class Tarifs {
      * Set the sous fam client.
      *
      * @param string $sousFamClient The sous fam client.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setSousFamClient($sousFamClient) {
         $this->sousFamClient = $sousFamClient;
@@ -974,6 +1009,7 @@ class Tarifs {
      * Set the type appli coef.
      *
      * @param string $typeAppliCoef The type appli coef.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setTypeAppliCoef($typeAppliCoef) {
         $this->typeAppliCoef = $typeAppliCoef;
@@ -984,6 +1020,7 @@ class Tarifs {
      * Set the type article.
      *
      * @param string $typeArticle The type article.
+     * @return Tarifs Returns this Tarifs.
      */
     public function setTypeArticle($typeArticle) {
         $this->typeArticle = $typeArticle;

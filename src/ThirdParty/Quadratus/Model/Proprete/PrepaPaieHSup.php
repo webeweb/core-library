@@ -112,6 +112,7 @@ class PrepaPaieHSup {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -122,6 +123,7 @@ class PrepaPaieHSup {
      * Set the nb h sup.
      *
      * @param float $nbHSup The nb h sup.
+     * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
     public function setNbHSup($nbHSup) {
         $this->nbHSup = $nbHSup;
@@ -132,6 +134,7 @@ class PrepaPaieHSup {
      * Set the num sem.
      *
      * @param string $numSem The num sem.
+     * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
     public function setNumSem($numSem) {
         $this->numSem = $numSem;
@@ -142,6 +145,7 @@ class PrepaPaieHSup {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -152,6 +156,7 @@ class PrepaPaieHSup {
      * Set the pourcent h sup.
      *
      * @param float $pourcentHSup The pourcent h sup.
+     * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
     public function setPourcentHSup($pourcentHSup) {
         $this->pourcentHSup = $pourcentHSup;

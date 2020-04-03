@@ -62,6 +62,7 @@ class ArticlesRisques {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return ArticlesRisques Returns this Articles risques.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -72,6 +73,7 @@ class ArticlesRisques {
      * Set the code risque.
      *
      * @param string $codeRisque The code risque.
+     * @return ArticlesRisques Returns this Articles risques.
      */
     public function setCodeRisque($codeRisque) {
         $this->codeRisque = $codeRisque;

@@ -464,6 +464,7 @@ class LignesDucs {
      * Set the code at.
      *
      * @param int $codeAt The code at.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setCodeAt($codeAt) {
         $this->codeAt = $codeAt;
@@ -474,6 +475,7 @@ class LignesDucs {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -484,6 +486,7 @@ class LignesDucs {
      * Set the code ducs.
      *
      * @param string $codeDucs The code ducs.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setCodeDucs($codeDucs) {
         $this->codeDucs = $codeDucs;
@@ -494,6 +497,7 @@ class LignesDucs {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -504,6 +508,7 @@ class LignesDucs {
      * Set the code insee.
      *
      * @param string $codeInsee The code insee.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setCodeInsee($codeInsee) {
         $this->codeInsee = $codeInsee;
@@ -514,6 +519,7 @@ class LignesDucs {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -524,6 +530,7 @@ class LignesDucs {
      * Set the condition spec.
      *
      * @param string $conditionSpec The condition spec.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setConditionSpec($conditionSpec) {
         $this->conditionSpec = $conditionSpec;
@@ -534,6 +541,7 @@ class LignesDucs {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -544,6 +552,7 @@ class LignesDucs {
      * Set the exclure fusion.
      *
      * @param bool $exclureFusion The exclure fusion.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setExclureFusion($exclureFusion) {
         $this->exclureFusion = $exclureFusion;
@@ -554,6 +563,7 @@ class LignesDucs {
      * Set the id institution.
      *
      * @param string $idInstitution The id institution.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setIdInstitution($idInstitution) {
         $this->idInstitution = $idInstitution;
@@ -564,6 +574,7 @@ class LignesDucs {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -574,6 +585,7 @@ class LignesDucs {
      * Set the is taux.
      *
      * @param bool $isTaux The is taux.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setIsTaux($isTaux) {
         $this->isTaux = $isTaux;
@@ -584,6 +596,7 @@ class LignesDucs {
      * Set the marque.
      *
      * @param bool $marque The marque.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setMarque($marque) {
         $this->marque = $marque;
@@ -594,6 +607,7 @@ class LignesDucs {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -604,6 +618,7 @@ class LignesDucs {
      * Set the mt patronal.
      *
      * @param float $mtPatronal The mt patronal.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setMtPatronal($mtPatronal) {
         $this->mtPatronal = $mtPatronal;
@@ -614,6 +629,7 @@ class LignesDucs {
      * Set the mt salarial.
      *
      * @param float $mtSalarial The mt salarial.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setMtSalarial($mtSalarial) {
         $this->mtSalarial = $mtSalarial;
@@ -624,6 +640,7 @@ class LignesDucs {
      * Set the nb cot.
      *
      * @param float $nbCot The nb cot.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setNbCot($nbCot) {
         $this->nbCot = $nbCot;
@@ -634,6 +651,7 @@ class LignesDucs {
      * Set the nb patronal.
      *
      * @param float $nbPatronal The nb patronal.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setNbPatronal($nbPatronal) {
         $this->nbPatronal = $nbPatronal;
@@ -644,6 +662,7 @@ class LignesDucs {
      * Set the nb salarial.
      *
      * @param float $nbSalarial The nb salarial.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setNbSalarial($nbSalarial) {
         $this->nbSalarial = $nbSalarial;
@@ -654,6 +673,7 @@ class LignesDucs {
      * Set the organisme.
      *
      * @param string $organisme The organisme.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setOrganisme($organisme) {
         $this->organisme = $organisme;
@@ -664,6 +684,7 @@ class LignesDucs {
      * Set the periode decla.
      *
      * @param DateTime|null $periodeDecla The periode decla.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setPeriodeDecla(DateTime $periodeDecla = null) {
         $this->periodeDecla = $periodeDecla;
@@ -674,6 +695,7 @@ class LignesDucs {
      * Set the qualifiant cotis.
      *
      * @param string $qualifiantCotis The qualifiant cotis.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setQualifiantCotis($qualifiantCotis) {
         $this->qualifiantCotis = $qualifiantCotis;
@@ -684,6 +706,7 @@ class LignesDucs {
      * Set the somme base.
      *
      * @param float $sommeBase The somme base.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setSommeBase($sommeBase) {
         $this->sommeBase = $sommeBase;
@@ -694,6 +717,7 @@ class LignesDucs {
      * Set the taux at.
      *
      * @param float $tauxAt The taux at.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setTauxAt($tauxAt) {
         $this->tauxAt = $tauxAt;
@@ -704,6 +728,7 @@ class LignesDucs {
      * Set the taux patronal.
      *
      * @param float $tauxPatronal The taux patronal.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setTauxPatronal($tauxPatronal) {
         $this->tauxPatronal = $tauxPatronal;
@@ -714,6 +739,7 @@ class LignesDucs {
      * Set the taux salarial.
      *
      * @param float $tauxSalarial The taux salarial.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setTauxSalarial($tauxSalarial) {
         $this->tauxSalarial = $tauxSalarial;
@@ -724,6 +750,7 @@ class LignesDucs {
      * Set the type base unique.
      *
      * @param bool $typeBaseUnique The type base unique.
+     * @return LignesDucs Returns this Lignes ducs.
      */
     public function setTypeBaseUnique($typeBaseUnique) {
         $this->typeBaseUnique = $typeBaseUnique;

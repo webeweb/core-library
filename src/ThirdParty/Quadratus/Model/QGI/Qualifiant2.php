@@ -126,6 +126,7 @@ class Qualifiant2 {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Qualifiant2 Returns this Qualifiant2.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -136,6 +137,7 @@ class Qualifiant2 {
      * Set the code liaison.
      *
      * @param string $codeLiaison The code liaison.
+     * @return Qualifiant2 Returns this Qualifiant2.
      */
     public function setCodeLiaison($codeLiaison) {
         $this->codeLiaison = $codeLiaison;
@@ -146,6 +148,7 @@ class Qualifiant2 {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return Qualifiant2 Returns this Qualifiant2.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -156,6 +159,7 @@ class Qualifiant2 {
      * Set the colonne.
      *
      * @param string $colonne The colonne.
+     * @return Qualifiant2 Returns this Qualifiant2.
      */
     public function setColonne($colonne) {
         $this->colonne = $colonne;
@@ -166,6 +170,7 @@ class Qualifiant2 {
      * Set the num lig.
      *
      * @param int $numLig The num lig.
+     * @return Qualifiant2 Returns this Qualifiant2.
      */
     public function setNumLig($numLig) {
         $this->numLig = $numLig;
@@ -176,6 +181,7 @@ class Qualifiant2 {
      * Set the objet ref.
      *
      * @param string $objetRef The objet ref.
+     * @return Qualifiant2 Returns this Qualifiant2.
      */
     public function setObjetRef($objetRef) {
         $this->objetRef = $objetRef;

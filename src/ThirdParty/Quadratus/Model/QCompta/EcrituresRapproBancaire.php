@@ -240,6 +240,7 @@ class EcrituresRapproBancaire {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -250,6 +251,7 @@ class EcrituresRapproBancaire {
      * Set the date rappro bancaire.
      *
      * @param DateTime|null $dateRapproBancaire The date rappro bancaire.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setDateRapproBancaire(DateTime $dateRapproBancaire = null) {
         $this->dateRapproBancaire = $dateRapproBancaire;
@@ -260,6 +262,7 @@ class EcrituresRapproBancaire {
      * Set the jour ecriture.
      *
      * @param string $jourEcriture The jour ecriture.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setJourEcriture($jourEcriture) {
         $this->jourEcriture = $jourEcriture;
@@ -270,6 +273,7 @@ class EcrituresRapproBancaire {
      * Set the jrn rappro bancaire.
      *
      * @param string $jrnRapproBancaire The jrn rappro bancaire.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setJrnRapproBancaire($jrnRapproBancaire) {
         $this->jrnRapproBancaire = $jrnRapproBancaire;
@@ -280,6 +284,7 @@ class EcrituresRapproBancaire {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -290,6 +295,7 @@ class EcrituresRapproBancaire {
      * Set the montant saisi credit.
      *
      * @param float $montantSaisiCredit The montant saisi credit.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setMontantSaisiCredit($montantSaisiCredit) {
         $this->montantSaisiCredit = $montantSaisiCredit;
@@ -300,6 +306,7 @@ class EcrituresRapproBancaire {
      * Set the montant saisi debit.
      *
      * @param float $montantSaisiDebit The montant saisi debit.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setMontantSaisiDebit($montantSaisiDebit) {
         $this->montantSaisiDebit = $montantSaisiDebit;
@@ -310,6 +317,7 @@ class EcrituresRapproBancaire {
      * Set the montant tenu credit.
      *
      * @param float $montantTenuCredit The montant tenu credit.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setMontantTenuCredit($montantTenuCredit) {
         $this->montantTenuCredit = $montantTenuCredit;
@@ -320,6 +328,7 @@ class EcrituresRapproBancaire {
      * Set the montant tenu debit.
      *
      * @param float $montantTenuDebit The montant tenu debit.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setMontantTenuDebit($montantTenuDebit) {
         $this->montantTenuDebit = $montantTenuDebit;
@@ -330,6 +339,7 @@ class EcrituresRapproBancaire {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -340,6 +350,7 @@ class EcrituresRapproBancaire {
      * Set the numero piece.
      *
      * @param string $numeroPiece The numero piece.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setNumeroPiece($numeroPiece) {
         $this->numeroPiece = $numeroPiece;
@@ -350,6 +361,7 @@ class EcrituresRapproBancaire {
      * Set the periode ecriture.
      *
      * @param DateTime|null $periodeEcriture The periode ecriture.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
         $this->periodeEcriture = $periodeEcriture;
@@ -360,6 +372,7 @@ class EcrituresRapproBancaire {
      * Set the rappro bancaire ok.
      *
      * @param bool $rapproBancaireOk The rappro bancaire ok.
+     * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
     public function setRapproBancaireOk($rapproBancaireOk) {
         $this->rapproBancaireOk = $rapproBancaireOk;

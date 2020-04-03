@@ -110,6 +110,7 @@ class EnvoiSms {
      * Set the acces collaborateur.
      *
      * @param bool $accesCollaborateur The acces collaborateur.
+     * @return EnvoiSms Returns this Envoi sms.
      */
     public function setAccesCollaborateur($accesCollaborateur) {
         $this->accesCollaborateur = $accesCollaborateur;
@@ -120,6 +121,7 @@ class EnvoiSms {
      * Set the acces intervenants.
      *
      * @param bool $accesIntervenants The acces intervenants.
+     * @return EnvoiSms Returns this Envoi sms.
      */
     public function setAccesIntervenants($accesIntervenants) {
         $this->accesIntervenants = $accesIntervenants;
@@ -130,6 +132,7 @@ class EnvoiSms {
      * Set the acces total.
      *
      * @param bool $accesTotal The acces total.
+     * @return EnvoiSms Returns this Envoi sms.
      */
     public function setAccesTotal($accesTotal) {
         $this->accesTotal = $accesTotal;
@@ -140,6 +143,7 @@ class EnvoiSms {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return EnvoiSms Returns this Envoi sms.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -150,6 +154,7 @@ class EnvoiSms {
      * Set the nb sms.
      *
      * @param int $nbSms The nb sms.
+     * @return EnvoiSms Returns this Envoi sms.
      */
     public function setNbSms($nbSms) {
         $this->nbSms = $nbSms;

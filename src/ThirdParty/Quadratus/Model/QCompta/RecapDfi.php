@@ -142,6 +142,7 @@ class RecapDfi {
      * Set the annee ded.
      *
      * @param int $anneeDed The annee ded.
+     * @return RecapDfi Returns this Recap dfi.
      */
     public function setAnneeDed($anneeDed) {
         $this->anneeDed = $anneeDed;
@@ -152,6 +153,7 @@ class RecapDfi {
      * Set the annee utilisation.
      *
      * @param int $anneeUtilisation The annee utilisation.
+     * @return RecapDfi Returns this Recap dfi.
      */
     public function setAnneeUtilisation($anneeUtilisation) {
         $this->anneeUtilisation = $anneeUtilisation;
@@ -162,6 +164,7 @@ class RecapDfi {
      * Set the immobilisations.
      *
      * @param float $immobilisations The immobilisations.
+     * @return RecapDfi Returns this Recap dfi.
      */
     public function setImmobilisations($immobilisations) {
         $this->immobilisations = $immobilisations;
@@ -172,6 +175,7 @@ class RecapDfi {
      * Set the mtt annee.
      *
      * @param float $mttAnnee The mtt annee.
+     * @return RecapDfi Returns this Recap dfi.
      */
     public function setMttAnnee($mttAnnee) {
         $this->mttAnnee = $mttAnnee;
@@ -182,6 +186,7 @@ class RecapDfi {
      * Set the parts sociales.
      *
      * @param float $partsSociales The parts sociales.
+     * @return RecapDfi Returns this Recap dfi.
      */
     public function setPartsSociales($partsSociales) {
         $this->partsSociales = $partsSociales;
@@ -192,6 +197,7 @@ class RecapDfi {
      * Set the reint anticipee.
      *
      * @param float $reintAnticipee The reint anticipee.
+     * @return RecapDfi Returns this Recap dfi.
      */
     public function setReintAnticipee($reintAnticipee) {
         $this->reintAnticipee = $reintAnticipee;
@@ -202,6 +208,7 @@ class RecapDfi {
      * Set the stocks.
      *
      * @param float $stocks The stocks.
+     * @return RecapDfi Returns this Recap dfi.
      */
     public function setStocks($stocks) {
         $this->stocks = $stocks;

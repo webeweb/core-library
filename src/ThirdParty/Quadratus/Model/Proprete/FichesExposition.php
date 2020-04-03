@@ -208,6 +208,7 @@ class FichesExposition {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -218,6 +219,7 @@ class FichesExposition {
      * Set the code prestation.
      *
      * @param string $codePrestation The code prestation.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setCodePrestation($codePrestation) {
         $this->codePrestation = $codePrestation;
@@ -228,6 +230,7 @@ class FichesExposition {
      * Set the code produit.
      *
      * @param string $codeProduit The code produit.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setCodeProduit($codeProduit) {
         $this->codeProduit = $codeProduit;
@@ -238,6 +241,7 @@ class FichesExposition {
      * Set the date ctrl.
      *
      * @param DateTime|null $dateCtrl The date ctrl.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setDateCtrl(DateTime $dateCtrl = null) {
         $this->dateCtrl = $dateCtrl;
@@ -248,6 +252,7 @@ class FichesExposition {
      * Set the date deb expo.
      *
      * @param DateTime|null $dateDebExpo The date deb expo.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setDateDebExpo(DateTime $dateDebExpo = null) {
         $this->dateDebExpo = $dateDebExpo;
@@ -258,6 +263,7 @@ class FichesExposition {
      * Set the date fiche.
      *
      * @param DateTime|null $dateFiche The date fiche.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setDateFiche(DateTime $dateFiche = null) {
         $this->dateFiche = $dateFiche;
@@ -268,6 +274,7 @@ class FichesExposition {
      * Set the date fin expo.
      *
      * @param DateTime|null $dateFinExpo The date fin expo.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setDateFinExpo(DateTime $dateFinExpo = null) {
         $this->dateFinExpo = $dateFinExpo;
@@ -278,6 +285,7 @@ class FichesExposition {
      * Set the lst code phase.
      *
      * @param string $lstCodePhase The lst code phase.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setLstCodePhase($lstCodePhase) {
         $this->lstCodePhase = $lstCodePhase;
@@ -288,6 +296,7 @@ class FichesExposition {
      * Set the lst code prev.
      *
      * @param string $lstCodePrev The lst code prev.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setLstCodePrev($lstCodePrev) {
         $this->lstCodePrev = $lstCodePrev;
@@ -298,6 +307,7 @@ class FichesExposition {
      * Set the resu ctrl.
      *
      * @param string $resuCtrl The resu ctrl.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setResuCtrl($resuCtrl) {
         $this->resuCtrl = $resuCtrl;
@@ -308,6 +318,7 @@ class FichesExposition {
      * Set the temps exposition.
      *
      * @param float $tempsExposition The temps exposition.
+     * @return FichesExposition Returns this Fiches exposition.
      */
     public function setTempsExposition($tempsExposition) {
         $this->tempsExposition = $tempsExposition;

@@ -542,6 +542,7 @@ class Journaux {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return Journaux Returns this Journaux.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -552,6 +553,7 @@ class Journaux {
      * Set the centralise gd livre.
      *
      * @param bool $centraliseGdLivre The centralise gd livre.
+     * @return Journaux Returns this Journaux.
      */
     public function setCentraliseGdLivre($centraliseGdLivre) {
         $this->centraliseGdLivre = $centraliseGdLivre;
@@ -562,6 +564,7 @@ class Journaux {
      * Set the cle acces.
      *
      * @param string $cleAcces The cle acces.
+     * @return Journaux Returns this Journaux.
      */
     public function setCleAcces($cleAcces) {
         $this->cleAcces = $cleAcces;
@@ -572,6 +575,7 @@ class Journaux {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Journaux Returns this Journaux.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -582,6 +586,7 @@ class Journaux {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return Journaux Returns this Journaux.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -592,6 +597,7 @@ class Journaux {
      * Set the code entree.
      *
      * @param string $codeEntree The code entree.
+     * @return Journaux Returns this Journaux.
      */
     public function setCodeEntree($codeEntree) {
         $this->codeEntree = $codeEntree;
@@ -602,6 +608,7 @@ class Journaux {
      * Set the compte contrepartie.
      *
      * @param string $compteContrepartie The compte contrepartie.
+     * @return Journaux Returns this Journaux.
      */
     public function setCompteContrepartie($compteContrepartie) {
         $this->compteContrepartie = $compteContrepartie;
@@ -612,6 +619,7 @@ class Journaux {
      * Set the compte contrepartie aamm.
      *
      * @param string $compteContrepartieAamm The compte contrepartie aamm.
+     * @return Journaux Returns this Journaux.
      */
     public function setCompteContrepartieAamm($compteContrepartieAamm) {
         $this->compteContrepartieAamm = $compteContrepartieAamm;
@@ -622,6 +630,7 @@ class Journaux {
      * Set the contrepartie.
      *
      * @param bool $contrepartie The contrepartie.
+     * @return Journaux Returns this Journaux.
      */
     public function setContrepartie($contrepartie) {
         $this->contrepartie = $contrepartie;
@@ -632,6 +641,7 @@ class Journaux {
      * Set the dom banque.
      *
      * @param string $domBanque The dom banque.
+     * @return Journaux Returns this Journaux.
      */
     public function setDomBanque($domBanque) {
         $this->domBanque = $domBanque;
@@ -642,6 +652,7 @@ class Journaux {
      * Set the equilibre auto.
      *
      * @param string $equilibreAuto The equilibre auto.
+     * @return Journaux Returns this Journaux.
      */
     public function setEquilibreAuto($equilibreAuto) {
         $this->equilibreAuto = $equilibreAuto;
@@ -652,6 +663,7 @@ class Journaux {
      * Set the etebac skip tva.
      *
      * @param bool $etebacSkipTva The etebac skip tva.
+     * @return Journaux Returns this Journaux.
      */
     public function setEtebacSkipTva($etebacSkipTva) {
         $this->etebacSkipTva = $etebacSkipTva;
@@ -662,6 +674,7 @@ class Journaux {
      * Set the etebac x fer detailler bq.
      *
      * @param bool $etebacXFerDetaillerBq The etebac x fer detailler bq.
+     * @return Journaux Returns this Journaux.
      */
     public function setEtebacXFerDetaillerBq($etebacXFerDetaillerBq) {
         $this->etebacXFerDetaillerBq = $etebacXFerDetaillerBq;
@@ -672,6 +685,7 @@ class Journaux {
      * Set the etebac x fer do prefix code op.
      *
      * @param bool $etebacXFerDoPrefixCodeOp The etebac x fer do prefix code op.
+     * @return Journaux Returns this Journaux.
      */
     public function setEtebacXFerDoPrefixCodeOp($etebacXFerDoPrefixCodeOp) {
         $this->etebacXFerDoPrefixCodeOp = $etebacXFerDoPrefixCodeOp;
@@ -682,6 +696,7 @@ class Journaux {
      * Set the etebac x fer ind libelle.
      *
      * @param string $etebacXFerIndLibelle The etebac x fer ind libelle.
+     * @return Journaux Returns this Journaux.
      */
     public function setEtebacXFerIndLibelle($etebacXFerIndLibelle) {
         $this->etebacXFerIndLibelle = $etebacXFerIndLibelle;
@@ -692,6 +707,7 @@ class Journaux {
      * Set the etebac x fer lignes comp.
      *
      * @param bool $etebacXFerLignesComp The etebac x fer lignes comp.
+     * @return Journaux Returns this Journaux.
      */
     public function setEtebacXFerLignesComp($etebacXFerLignesComp) {
         $this->etebacXFerLignesComp = $etebacXFerLignesComp;
@@ -702,6 +718,7 @@ class Journaux {
      * Set the famille.
      *
      * @param string $famille The famille.
+     * @return Journaux Returns this Journaux.
      */
     public function setFamille($famille) {
         $this->famille = $famille;
@@ -712,6 +729,7 @@ class Journaux {
      * Set the gest num piece jrn.
      *
      * @param bool $gestNumPieceJrn The gest num piece jrn.
+     * @return Journaux Returns this Journaux.
      */
     public function setGestNumPieceJrn($gestNumPieceJrn) {
         $this->gestNumPieceJrn = $gestNumPieceJrn;
@@ -722,6 +740,7 @@ class Journaux {
      * Set the gestion folio.
      *
      * @param bool $gestionFolio The gestion folio.
+     * @return Journaux Returns this Journaux.
      */
     public function setGestionFolio($gestionFolio) {
         $this->gestionFolio = $gestionFolio;
@@ -732,6 +751,7 @@ class Journaux {
      * Set the gestion num piece.
      *
      * @param string $gestionNumPiece The gestion num piece.
+     * @return Journaux Returns this Journaux.
      */
     public function setGestionNumPiece($gestionNumPiece) {
         $this->gestionNumPiece = $gestionNumPiece;
@@ -742,6 +762,7 @@ class Journaux {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return Journaux Returns this Journaux.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -752,6 +773,7 @@ class Journaux {
      * Set the iban id client.
      *
      * @param string $ibanIdClient The iban id client.
+     * @return Journaux Returns this Journaux.
      */
     public function setIbanIdClient($ibanIdClient) {
         $this->ibanIdClient = $ibanIdClient;
@@ -762,6 +784,7 @@ class Journaux {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Journaux Returns this Journaux.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -772,6 +795,7 @@ class Journaux {
      * Set the montant negatif.
      *
      * @param bool $montantNegatif The montant negatif.
+     * @return Journaux Returns this Journaux.
      */
     public function setMontantNegatif($montantNegatif) {
         $this->montantNegatif = $montantNegatif;
@@ -782,6 +806,7 @@ class Journaux {
      * Set the niveau droit.
      *
      * @param string $niveauDroit The niveau droit.
+     * @return Journaux Returns this Journaux.
      */
     public function setNiveauDroit($niveauDroit) {
         $this->niveauDroit = $niveauDroit;
@@ -792,6 +817,7 @@ class Journaux {
      * Set the num emetteur.
      *
      * @param string $numEmetteur The num emetteur.
+     * @return Journaux Returns this Journaux.
      */
     public function setNumEmetteur($numEmetteur) {
         $this->numEmetteur = $numEmetteur;
@@ -802,6 +828,7 @@ class Journaux {
      * Set the prochain num piece.
      *
      * @param int $prochainNumPiece The prochain num piece.
+     * @return Journaux Returns this Journaux.
      */
     public function setProchainNumPiece($prochainNumPiece) {
         $this->prochainNumPiece = $prochainNumPiece;
@@ -812,6 +839,7 @@ class Journaux {
      * Set the propo libelle.
      *
      * @param string $propoLibelle The propo libelle.
+     * @return Journaux Returns this Journaux.
      */
     public function setPropoLibelle($propoLibelle) {
         $this->propoLibelle = $propoLibelle;
@@ -822,6 +850,7 @@ class Journaux {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Journaux Returns this Journaux.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -832,6 +861,7 @@ class Journaux {
      * Set the saisie bordereau.
      *
      * @param bool $saisieBordereau The saisie bordereau.
+     * @return Journaux Returns this Journaux.
      */
     public function setSaisieBordereau($saisieBordereau) {
         $this->saisieBordereau = $saisieBordereau;
@@ -842,6 +872,7 @@ class Journaux {
      * Set the type journal.
      *
      * @param string $typeJournal The type journal.
+     * @return Journaux Returns this Journaux.
      */
     public function setTypeJournal($typeJournal) {
         $this->typeJournal = $typeJournal;
@@ -852,6 +883,7 @@ class Journaux {
      * Set the type piece global.
      *
      * @param bool $typePieceGlobal The type piece global.
+     * @return Journaux Returns this Journaux.
      */
     public function setTypePieceGlobal($typePieceGlobal) {
         $this->typePieceGlobal = $typePieceGlobal;

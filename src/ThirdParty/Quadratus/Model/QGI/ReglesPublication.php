@@ -110,6 +110,7 @@ class ReglesPublication {
      * Set the chaine publication.
      *
      * @param string $chainePublication The chaine publication.
+     * @return ReglesPublication Returns this Regles publication.
      */
     public function setChainePublication($chainePublication) {
         $this->chainePublication = $chainePublication;
@@ -120,6 +121,7 @@ class ReglesPublication {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ReglesPublication Returns this Regles publication.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -130,6 +132,7 @@ class ReglesPublication {
      * Set the ews publication.
      *
      * @param bool $ewsPublication The ews publication.
+     * @return ReglesPublication Returns this Regles publication.
      */
     public function setEwsPublication($ewsPublication) {
         $this->ewsPublication = $ewsPublication;
@@ -140,6 +143,7 @@ class ReglesPublication {
      * Set the type publication.
      *
      * @param string $typePublication The type publication.
+     * @return ReglesPublication Returns this Regles publication.
      */
     public function setTypePublication($typePublication) {
         $this->typePublication = $typePublication;
@@ -150,6 +154,7 @@ class ReglesPublication {
      * Set the web publication.
      *
      * @param bool $webPublication The web publication.
+     * @return ReglesPublication Returns this Regles publication.
      */
     public function setWebPublication($webPublication) {
         $this->webPublication = $webPublication;

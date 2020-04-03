@@ -656,6 +656,7 @@ class iComptaDroits {
      * Set the code collab messages.
      *
      * @param string $codeCollabMessages The code collab messages.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setCodeCollabMessages($codeCollabMessages) {
         $this->codeCollabMessages = $codeCollabMessages;
@@ -666,6 +667,7 @@ class iComptaDroits {
      * Set the code user.
      *
      * @param string $codeUser The code user.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setCodeUser($codeUser) {
         $this->codeUser = $codeUser;
@@ -676,6 +678,7 @@ class iComptaDroits {
      * Set the date limite visu.
      *
      * @param DateTime|null $dateLimiteVisu The date limite visu.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setDateLimiteVisu(DateTime $dateLimiteVisu = null) {
         $this->dateLimiteVisu = $dateLimiteVisu;
@@ -686,6 +689,7 @@ class iComptaDroits {
      * Set the droit clients.
      *
      * @param string $droitClients The droit clients.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setDroitClients($droitClients) {
         $this->droitClients = $droitClients;
@@ -696,6 +700,7 @@ class iComptaDroits {
      * Set the droit fournisseurs.
      *
      * @param string $droitFournisseurs The droit fournisseurs.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setDroitFournisseurs($droitFournisseurs) {
         $this->droitFournisseurs = $droitFournisseurs;
@@ -706,6 +711,7 @@ class iComptaDroits {
      * Set the droit generaux.
      *
      * @param string $droitGeneraux The droit generaux.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setDroitGeneraux($droitGeneraux) {
         $this->droitGeneraux = $droitGeneraux;
@@ -716,6 +722,7 @@ class iComptaDroits {
      * Set the droit modif compte.
      *
      * @param string $droitModifCompte The droit modif compte.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setDroitModifCompte($droitModifCompte) {
         $this->droitModifCompte = $droitModifCompte;
@@ -726,6 +733,7 @@ class iComptaDroits {
      * Set the espace client.
      *
      * @param bool $espaceClient The espace client.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setEspaceClient($espaceClient) {
         $this->espaceClient = $espaceClient;
@@ -736,6 +744,7 @@ class iComptaDroits {
      * Set the fct balance client.
      *
      * @param bool $fctBalanceClient The fct balance client.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctBalanceClient($fctBalanceClient) {
         $this->fctBalanceClient = $fctBalanceClient;
@@ -746,6 +755,7 @@ class iComptaDroits {
      * Set the fct balance fournisseur.
      *
      * @param bool $fctBalanceFournisseur The fct balance fournisseur.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctBalanceFournisseur($fctBalanceFournisseur) {
         $this->fctBalanceFournisseur = $fctBalanceFournisseur;
@@ -756,6 +766,7 @@ class iComptaDroits {
      * Set the fct balance generale.
      *
      * @param bool $fctBalanceGenerale The fct balance generale.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctBalanceGenerale($fctBalanceGenerale) {
         $this->fctBalanceGenerale = $fctBalanceGenerale;
@@ -766,6 +777,7 @@ class iComptaDroits {
      * Set the fct consult da.
      *
      * @param bool $fctConsultDa The fct consult da.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctConsultDa($fctConsultDa) {
         $this->fctConsultDa = $fctConsultDa;
@@ -776,6 +788,7 @@ class iComptaDroits {
      * Set the fct consult dc.
      *
      * @param bool $fctConsultDc The fct consult dc.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctConsultDc($fctConsultDc) {
         $this->fctConsultDc = $fctConsultDc;
@@ -786,6 +799,7 @@ class iComptaDroits {
      * Set the fct declare tva.
      *
      * @param bool $fctDeclareTva The fct declare tva.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctDeclareTva($fctDeclareTva) {
         $this->fctDeclareTva = $fctDeclareTva;
@@ -796,6 +810,7 @@ class iComptaDroits {
      * Set the fct delettrage.
      *
      * @param bool $fctDelettrage The fct delettrage.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctDelettrage($fctDelettrage) {
         $this->fctDelettrage = $fctDelettrage;
@@ -806,6 +821,7 @@ class iComptaDroits {
      * Set the fct edition journaux.
      *
      * @param bool $fctEditionJournaux The fct edition journaux.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctEditionJournaux($fctEditionJournaux) {
         $this->fctEditionJournaux = $fctEditionJournaux;
@@ -816,6 +832,7 @@ class iComptaDroits {
      * Set the fct interrogation cpt.
      *
      * @param bool $fctInterrogationCpt The fct interrogation cpt.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctInterrogationCpt($fctInterrogationCpt) {
         $this->fctInterrogationCpt = $fctInterrogationCpt;
@@ -826,6 +843,7 @@ class iComptaDroits {
      * Set the fct lettrage.
      *
      * @param bool $fctLettrage The fct lettrage.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctLettrage($fctLettrage) {
         $this->fctLettrage = $fctLettrage;
@@ -836,6 +854,7 @@ class iComptaDroits {
      * Set the fct modif ecriture.
      *
      * @param bool $fctModifEcriture The fct modif ecriture.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctModifEcriture($fctModifEcriture) {
         $this->fctModifEcriture = $fctModifEcriture;
@@ -846,6 +865,7 @@ class iComptaDroits {
      * Set the fct rapproch banq.
      *
      * @param bool $fctRapprochBanq The fct rapproch banq.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctRapprochBanq($fctRapprochBanq) {
         $this->fctRapprochBanq = $fctRapprochBanq;
@@ -856,6 +876,7 @@ class iComptaDroits {
      * Set the fct saisie achats.
      *
      * @param bool $fctSaisieAchats The fct saisie achats.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctSaisieAchats($fctSaisieAchats) {
         $this->fctSaisieAchats = $fctSaisieAchats;
@@ -866,6 +887,7 @@ class iComptaDroits {
      * Set the fct saisie banques.
      *
      * @param bool $fctSaisieBanques The fct saisie banques.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctSaisieBanques($fctSaisieBanques) {
         $this->fctSaisieBanques = $fctSaisieBanques;
@@ -876,6 +898,7 @@ class iComptaDroits {
      * Set the fct saisie caisse orientee.
      *
      * @param int $fctSaisieCaisseOrientee The fct saisie caisse orientee.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctSaisieCaisseOrientee($fctSaisieCaisseOrientee) {
         $this->fctSaisieCaisseOrientee = $fctSaisieCaisseOrientee;
@@ -886,6 +909,7 @@ class iComptaDroits {
      * Set the fct saisie etebac.
      *
      * @param bool $fctSaisieEtebac The fct saisie etebac.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctSaisieEtebac($fctSaisieEtebac) {
         $this->fctSaisieEtebac = $fctSaisieEtebac;
@@ -896,6 +920,7 @@ class iComptaDroits {
      * Set the fct saisie standard.
      *
      * @param bool $fctSaisieStandard The fct saisie standard.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctSaisieStandard($fctSaisieStandard) {
         $this->fctSaisieStandard = $fctSaisieStandard;
@@ -906,6 +931,7 @@ class iComptaDroits {
      * Set the fct saisie trame.
      *
      * @param int $fctSaisieTrame The fct saisie trame.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctSaisieTrame($fctSaisieTrame) {
         $this->fctSaisieTrame = $fctSaisieTrame;
@@ -916,6 +942,7 @@ class iComptaDroits {
      * Set the fct saisie ventes.
      *
      * @param bool $fctSaisieVentes The fct saisie ventes.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctSaisieVentes($fctSaisieVentes) {
         $this->fctSaisieVentes = $fctSaisieVentes;
@@ -926,6 +953,7 @@ class iComptaDroits {
      * Set the fct suppr ecriture.
      *
      * @param bool $fctSupprEcriture The fct suppr ecriture.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctSupprEcriture($fctSupprEcriture) {
         $this->fctSupprEcriture = $fctSupprEcriture;
@@ -936,6 +964,7 @@ class iComptaDroits {
      * Set the fct table bord.
      *
      * @param bool $fctTableBord The fct table bord.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFctTableBord($fctTableBord) {
         $this->fctTableBord = $fctTableBord;
@@ -946,6 +975,7 @@ class iComptaDroits {
      * Set the flag.
      *
      * @param string $flag The flag.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setFlag($flag) {
         $this->flag = $flag;
@@ -956,6 +986,7 @@ class iComptaDroits {
      * Set the niveau droit clients.
      *
      * @param string $niveauDroitClients The niveau droit clients.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setNiveauDroitClients($niveauDroitClients) {
         $this->niveauDroitClients = $niveauDroitClients;
@@ -966,6 +997,7 @@ class iComptaDroits {
      * Set the niveau droit fournisseurs.
      *
      * @param string $niveauDroitFournisseurs The niveau droit fournisseurs.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setNiveauDroitFournisseurs($niveauDroitFournisseurs) {
         $this->niveauDroitFournisseurs = $niveauDroitFournisseurs;
@@ -976,6 +1008,7 @@ class iComptaDroits {
      * Set the niveau droit generaux.
      *
      * @param string $niveauDroitGeneraux The niveau droit generaux.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setNiveauDroitGeneraux($niveauDroitGeneraux) {
         $this->niveauDroitGeneraux = $niveauDroitGeneraux;
@@ -986,6 +1019,7 @@ class iComptaDroits {
      * Set the no doss cpta.
      *
      * @param string $noDossCpta The no doss cpta.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setNoDossCpta($noDossCpta) {
         $this->noDossCpta = $noDossCpta;
@@ -996,6 +1030,7 @@ class iComptaDroits {
      * Set the nom user.
      *
      * @param string $nomUser The nom user.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setNomUser($nomUser) {
         $this->nomUser = $nomUser;
@@ -1006,6 +1041,7 @@ class iComptaDroits {
      * Set the numi key.
      *
      * @param string $numiKey The numi key.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setNumiKey($numiKey) {
         $this->numiKey = $numiKey;
@@ -1016,6 +1052,7 @@ class iComptaDroits {
      * Set the password.
      *
      * @param string $password The password.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setPassword($password) {
         $this->password = $password;
@@ -1026,6 +1063,7 @@ class iComptaDroits {
      * Set the periode saisie deb.
      *
      * @param DateTime|null $periodeSaisieDeb The periode saisie deb.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setPeriodeSaisieDeb(DateTime $periodeSaisieDeb = null) {
         $this->periodeSaisieDeb = $periodeSaisieDeb;
@@ -1036,6 +1074,7 @@ class iComptaDroits {
      * Set the periode saisie fin.
      *
      * @param DateTime|null $periodeSaisieFin The periode saisie fin.
+     * @return iComptaDroits Returns this i compta droits.
      */
     public function setPeriodeSaisieFin(DateTime $periodeSaisieFin = null) {
         $this->periodeSaisieFin = $periodeSaisieFin;

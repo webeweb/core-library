@@ -46,6 +46,7 @@ class eWsEspace {
      * Set the num doss.
      *
      * @param string $numDoss The num doss.
+     * @return eWsEspace Returns this e ws espace.
      */
     public function setNumDoss($numDoss) {
         $this->numDoss = $numDoss;

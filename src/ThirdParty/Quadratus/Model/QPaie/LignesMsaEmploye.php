@@ -2080,6 +2080,7 @@ class LignesMsaEmploye {
      * Set the agirc.
      *
      * @param string $agirc The agirc.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setAgirc($agirc) {
         $this->agirc = $agirc;
@@ -2090,6 +2091,7 @@ class LignesMsaEmploye {
      * Set the agirc evo.
      *
      * @param string $agircEvo The agirc evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setAgircEvo($agircEvo) {
         $this->agircEvo = $agircEvo;
@@ -2100,6 +2102,7 @@ class LignesMsaEmploye {
      * Set the cadre.
      *
      * @param string $cadre The cadre.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCadre($cadre) {
         $this->cadre = $cadre;
@@ -2110,6 +2113,7 @@ class LignesMsaEmploye {
      * Set the cadre evo.
      *
      * @param string $cadreEvo The cadre evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCadreEvo($cadreEvo) {
         $this->cadreEvo = $cadreEvo;
@@ -2120,6 +2124,7 @@ class LignesMsaEmploye {
      * Set the cddcdi.
      *
      * @param string $cddcdi The cddcdi.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCddcdi($cddcdi) {
         $this->cddcdi = $cddcdi;
@@ -2130,6 +2135,7 @@ class LignesMsaEmploye {
      * Set the cddcdi evo.
      *
      * @param string $cddcdiEvo The cddcdi evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCddcdiEvo($cddcdiEvo) {
         $this->cddcdiEvo = $cddcdiEvo;
@@ -2140,6 +2146,7 @@ class LignesMsaEmploye {
      * Set the code college prud.
      *
      * @param string $codeCollegePrud The code college prud.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCodeCollegePrud($codeCollegePrud) {
         $this->codeCollegePrud = $codeCollegePrud;
@@ -2150,6 +2157,7 @@ class LignesMsaEmploye {
      * Set the code college prud prec.
      *
      * @param string $codeCollegePrudPrec The code college prud prec.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCodeCollegePrudPrec($codeCollegePrudPrec) {
         $this->codeCollegePrudPrec = $codeCollegePrudPrec;
@@ -2160,6 +2168,7 @@ class LignesMsaEmploye {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -2170,6 +2179,7 @@ class LignesMsaEmploye {
      * Set the code section prud.
      *
      * @param string $codeSectionPrud The code section prud.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCodeSectionPrud($codeSectionPrud) {
         $this->codeSectionPrud = $codeSectionPrud;
@@ -2180,6 +2190,7 @@ class LignesMsaEmploye {
      * Set the code section prud prec.
      *
      * @param string $codeSectionPrudPrec The code section prud prec.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCodeSectionPrudPrec($codeSectionPrudPrec) {
         $this->codeSectionPrudPrec = $codeSectionPrudPrec;
@@ -2190,6 +2201,7 @@ class LignesMsaEmploye {
      * Set the code unite.
      *
      * @param string $codeUnite The code unite.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -2200,6 +2212,7 @@ class LignesMsaEmploye {
      * Set the coeff emploi.
      *
      * @param string $coeffEmploi The coeff emploi.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCoeffEmploi($coeffEmploi) {
         $this->coeffEmploi = $coeffEmploi;
@@ -2210,6 +2223,7 @@ class LignesMsaEmploye {
      * Set the coeff emploi evo.
      *
      * @param string $coeffEmploiEvo The coeff emploi evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCoeffEmploiEvo($coeffEmploiEvo) {
         $this->coeffEmploiEvo = $coeffEmploiEvo;
@@ -2220,6 +2234,7 @@ class LignesMsaEmploye {
      * Set the commentaires.
      *
      * @param string $commentaires The commentaires.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setCommentaires($commentaires) {
         $this->commentaires = $commentaires;
@@ -2230,6 +2245,7 @@ class LignesMsaEmploye {
      * Set the contrat.
      *
      * @param string $contrat The contrat.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setContrat($contrat) {
         $this->contrat = $contrat;
@@ -2240,6 +2256,7 @@ class LignesMsaEmploye {
      * Set the contrat evo.
      *
      * @param string $contratEvo The contrat evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setContratEvo($contratEvo) {
         $this->contratEvo = $contratEvo;
@@ -2250,6 +2267,7 @@ class LignesMsaEmploye {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -2260,6 +2278,7 @@ class LignesMsaEmploye {
      * Set the date evo.
      *
      * @param DateTime|null $dateEvo The date evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setDateEvo(DateTime $dateEvo = null) {
         $this->dateEvo = $dateEvo;
@@ -2270,6 +2289,7 @@ class LignesMsaEmploye {
      * Set the date sortie.
      *
      * @param DateTime|null $dateSortie The date sortie.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setDateSortie(DateTime $dateSortie = null) {
         $this->dateSortie = $dateSortie;
@@ -2280,6 +2300,7 @@ class LignesMsaEmploye {
      * Set the dt deb abs.
      *
      * @param DateTime|null $dtDebAbs The dt deb abs.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setDtDebAbs(DateTime $dtDebAbs = null) {
         $this->dtDebAbs = $dtDebAbs;
@@ -2290,6 +2311,7 @@ class LignesMsaEmploye {
      * Set the dt fin abs.
      *
      * @param DateTime|null $dtFinAbs The dt fin abs.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setDtFinAbs(DateTime $dtFinAbs = null) {
         $this->dtFinAbs = $dtFinAbs;
@@ -2300,6 +2322,7 @@ class LignesMsaEmploye {
      * Set the duree trav.
      *
      * @param float $dureeTrav The duree trav.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setDureeTrav($dureeTrav) {
         $this->dureeTrav = $dureeTrav;
@@ -2310,6 +2333,7 @@ class LignesMsaEmploye {
      * Set the duree trav prec.
      *
      * @param float $dureeTravPrec The duree trav prec.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setDureeTravPrec($dureeTravPrec) {
         $this->dureeTravPrec = $dureeTravPrec;
@@ -2320,6 +2344,7 @@ class LignesMsaEmploye {
      * Set the emploi.
      *
      * @param string $emploi The emploi.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEmploi($emploi) {
         $this->emploi = $emploi;
@@ -2330,6 +2355,7 @@ class LignesMsaEmploye {
      * Set the emploi evo.
      *
      * @param string $emploiEvo The emploi evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEmploiEvo($emploiEvo) {
         $this->emploiEvo = $emploiEvo;
@@ -2340,6 +2366,7 @@ class LignesMsaEmploye {
      * Set the evo agirc.
      *
      * @param bool $evoAgirc The evo agirc.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEvoAgirc($evoAgirc) {
         $this->evoAgirc = $evoAgirc;
@@ -2350,6 +2377,7 @@ class LignesMsaEmploye {
      * Set the evo cadre.
      *
      * @param bool $evoCadre The evo cadre.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEvoCadre($evoCadre) {
         $this->evoCadre = $evoCadre;
@@ -2360,6 +2388,7 @@ class LignesMsaEmploye {
      * Set the evo cddcdi.
      *
      * @param bool $evoCddcdi The evo cddcdi.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEvoCddcdi($evoCddcdi) {
         $this->evoCddcdi = $evoCddcdi;
@@ -2370,6 +2399,7 @@ class LignesMsaEmploye {
      * Set the evo contrat.
      *
      * @param bool $evoContrat The evo contrat.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEvoContrat($evoContrat) {
         $this->evoContrat = $evoContrat;
@@ -2380,6 +2410,7 @@ class LignesMsaEmploye {
      * Set the evo crcca36.
      *
      * @param bool $evoCrcca36 The evo crcca36.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEvoCrcca36($evoCrcca36) {
         $this->evoCrcca36 = $evoCrcca36;
@@ -2390,6 +2421,7 @@ class LignesMsaEmploye {
      * Set the evo crcca4 bis.
      *
      * @param bool $evoCrcca4Bis The evo crcca4 bis.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEvoCrcca4Bis($evoCrcca4Bis) {
         $this->evoCrcca4Bis = $evoCrcca4Bis;
@@ -2400,6 +2432,7 @@ class LignesMsaEmploye {
      * Set the evo emploi.
      *
      * @param bool $evoEmploi The evo emploi.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEvoEmploi($evoEmploi) {
         $this->evoEmploi = $evoEmploi;
@@ -2410,6 +2443,7 @@ class LignesMsaEmploye {
      * Set the evo fisc.
      *
      * @param bool $evoFisc The evo fisc.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setEvoFisc($evoFisc) {
         $this->evoFisc = $evoFisc;
@@ -2420,6 +2454,7 @@ class LignesMsaEmploye {
      * Set the fisc.
      *
      * @param string $fisc The fisc.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setFisc($fisc) {
         $this->fisc = $fisc;
@@ -2430,6 +2465,7 @@ class LignesMsaEmploye {
      * Set the fisc evo.
      *
      * @param string $fiscEvo The fisc evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setFiscEvo($fiscEvo) {
         $this->fiscEvo = $fiscEvo;
@@ -2440,6 +2476,7 @@ class LignesMsaEmploye {
      * Set the h equivalence.
      *
      * @param string $hEquivalence The h equivalence.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setHEquivalence($hEquivalence) {
         $this->hEquivalence = $hEquivalence;
@@ -2450,6 +2487,7 @@ class LignesMsaEmploye {
      * Set the h equivalence prec.
      *
      * @param string $hEquivalencePrec The h equivalence prec.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setHEquivalencePrec($hEquivalencePrec) {
         $this->hEquivalencePrec = $hEquivalencePrec;
@@ -2460,6 +2498,7 @@ class LignesMsaEmploye {
      * Set the lieu travail.
      *
      * @param string $lieuTravail The lieu travail.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setLieuTravail($lieuTravail) {
         $this->lieuTravail = $lieuTravail;
@@ -2470,6 +2509,7 @@ class LignesMsaEmploye {
      * Set the lieu travail evo.
      *
      * @param string $lieuTravailEvo The lieu travail evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setLieuTravailEvo($lieuTravailEvo) {
         $this->lieuTravailEvo = $lieuTravailEvo;
@@ -2480,6 +2520,7 @@ class LignesMsaEmploye {
      * Set the montant11.
      *
      * @param int $montant11 The montant11.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant11($montant11) {
         $this->montant11 = $montant11;
@@ -2490,6 +2531,7 @@ class LignesMsaEmploye {
      * Set the montant12.
      *
      * @param int $montant12 The montant12.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant12($montant12) {
         $this->montant12 = $montant12;
@@ -2500,6 +2542,7 @@ class LignesMsaEmploye {
      * Set the montant13.
      *
      * @param int $montant13 The montant13.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant13($montant13) {
         $this->montant13 = $montant13;
@@ -2510,6 +2553,7 @@ class LignesMsaEmploye {
      * Set the montant14.
      *
      * @param int $montant14 The montant14.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant14($montant14) {
         $this->montant14 = $montant14;
@@ -2520,6 +2564,7 @@ class LignesMsaEmploye {
      * Set the montant21.
      *
      * @param int $montant21 The montant21.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant21($montant21) {
         $this->montant21 = $montant21;
@@ -2530,6 +2575,7 @@ class LignesMsaEmploye {
      * Set the montant22.
      *
      * @param int $montant22 The montant22.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant22($montant22) {
         $this->montant22 = $montant22;
@@ -2540,6 +2586,7 @@ class LignesMsaEmploye {
      * Set the montant23.
      *
      * @param int $montant23 The montant23.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant23($montant23) {
         $this->montant23 = $montant23;
@@ -2550,6 +2597,7 @@ class LignesMsaEmploye {
      * Set the montant24.
      *
      * @param int $montant24 The montant24.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant24($montant24) {
         $this->montant24 = $montant24;
@@ -2560,6 +2608,7 @@ class LignesMsaEmploye {
      * Set the montant31.
      *
      * @param int $montant31 The montant31.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant31($montant31) {
         $this->montant31 = $montant31;
@@ -2570,6 +2619,7 @@ class LignesMsaEmploye {
      * Set the montant32.
      *
      * @param int $montant32 The montant32.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant32($montant32) {
         $this->montant32 = $montant32;
@@ -2580,6 +2630,7 @@ class LignesMsaEmploye {
      * Set the montant33.
      *
      * @param int $montant33 The montant33.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant33($montant33) {
         $this->montant33 = $montant33;
@@ -2590,6 +2641,7 @@ class LignesMsaEmploye {
      * Set the montant34.
      *
      * @param int $montant34 The montant34.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontant34($montant34) {
         $this->montant34 = $montant34;
@@ -2600,6 +2652,7 @@ class LignesMsaEmploye {
      * Set the montant autre11.
      *
      * @param int $montantAutre11 The montant autre11.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre11($montantAutre11) {
         $this->montantAutre11 = $montantAutre11;
@@ -2610,6 +2663,7 @@ class LignesMsaEmploye {
      * Set the montant autre12.
      *
      * @param int $montantAutre12 The montant autre12.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre12($montantAutre12) {
         $this->montantAutre12 = $montantAutre12;
@@ -2620,6 +2674,7 @@ class LignesMsaEmploye {
      * Set the montant autre13.
      *
      * @param int $montantAutre13 The montant autre13.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre13($montantAutre13) {
         $this->montantAutre13 = $montantAutre13;
@@ -2630,6 +2685,7 @@ class LignesMsaEmploye {
      * Set the montant autre14.
      *
      * @param int $montantAutre14 The montant autre14.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre14($montantAutre14) {
         $this->montantAutre14 = $montantAutre14;
@@ -2640,6 +2696,7 @@ class LignesMsaEmploye {
      * Set the montant autre21.
      *
      * @param int $montantAutre21 The montant autre21.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre21($montantAutre21) {
         $this->montantAutre21 = $montantAutre21;
@@ -2650,6 +2707,7 @@ class LignesMsaEmploye {
      * Set the montant autre22.
      *
      * @param int $montantAutre22 The montant autre22.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre22($montantAutre22) {
         $this->montantAutre22 = $montantAutre22;
@@ -2660,6 +2718,7 @@ class LignesMsaEmploye {
      * Set the montant autre23.
      *
      * @param int $montantAutre23 The montant autre23.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre23($montantAutre23) {
         $this->montantAutre23 = $montantAutre23;
@@ -2670,6 +2729,7 @@ class LignesMsaEmploye {
      * Set the montant autre24.
      *
      * @param int $montantAutre24 The montant autre24.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre24($montantAutre24) {
         $this->montantAutre24 = $montantAutre24;
@@ -2680,6 +2740,7 @@ class LignesMsaEmploye {
      * Set the montant autre31.
      *
      * @param int $montantAutre31 The montant autre31.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre31($montantAutre31) {
         $this->montantAutre31 = $montantAutre31;
@@ -2690,6 +2751,7 @@ class LignesMsaEmploye {
      * Set the montant autre32.
      *
      * @param int $montantAutre32 The montant autre32.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre32($montantAutre32) {
         $this->montantAutre32 = $montantAutre32;
@@ -2700,6 +2762,7 @@ class LignesMsaEmploye {
      * Set the montant autre33.
      *
      * @param int $montantAutre33 The montant autre33.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre33($montantAutre33) {
         $this->montantAutre33 = $montantAutre33;
@@ -2710,6 +2773,7 @@ class LignesMsaEmploye {
      * Set the montant autre34.
      *
      * @param int $montantAutre34 The montant autre34.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantAutre34($montantAutre34) {
         $this->montantAutre34 = $montantAutre34;
@@ -2720,6 +2784,7 @@ class LignesMsaEmploye {
      * Set the montant smic retenu1.
      *
      * @param float $montantSmicRetenu1 The montant smic retenu1.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantSmicRetenu1($montantSmicRetenu1) {
         $this->montantSmicRetenu1 = $montantSmicRetenu1;
@@ -2730,6 +2795,7 @@ class LignesMsaEmploye {
      * Set the montant smic retenu2.
      *
      * @param float $montantSmicRetenu2 The montant smic retenu2.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantSmicRetenu2($montantSmicRetenu2) {
         $this->montantSmicRetenu2 = $montantSmicRetenu2;
@@ -2740,6 +2806,7 @@ class LignesMsaEmploye {
      * Set the montant smic retenu3.
      *
      * @param float $montantSmicRetenu3 The montant smic retenu3.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setMontantSmicRetenu3($montantSmicRetenu3) {
         $this->montantSmicRetenu3 = $montantSmicRetenu3;
@@ -2750,6 +2817,7 @@ class LignesMsaEmploye {
      * Set the nb heures1.
      *
      * @param float $nbHeures1 The nb heures1.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNbHeures1($nbHeures1) {
         $this->nbHeures1 = $nbHeures1;
@@ -2760,6 +2828,7 @@ class LignesMsaEmploye {
      * Set the nb heures2.
      *
      * @param float $nbHeures2 The nb heures2.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNbHeures2($nbHeures2) {
         $this->nbHeures2 = $nbHeures2;
@@ -2770,6 +2839,7 @@ class LignesMsaEmploye {
      * Set the nb heures3.
      *
      * @param float $nbHeures3 The nb heures3.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNbHeures3($nbHeures3) {
         $this->nbHeures3 = $nbHeures3;
@@ -2780,6 +2850,7 @@ class LignesMsaEmploye {
      * Set the nb jours1.
      *
      * @param int $nbJours1 The nb jours1.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNbJours1($nbJours1) {
         $this->nbJours1 = $nbJours1;
@@ -2790,6 +2861,7 @@ class LignesMsaEmploye {
      * Set the nb jours2.
      *
      * @param int $nbJours2 The nb jours2.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNbJours2($nbJours2) {
         $this->nbJours2 = $nbJours2;
@@ -2800,6 +2872,7 @@ class LignesMsaEmploye {
      * Set the nb jours3.
      *
      * @param int $nbJours3 The nb jours3.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNbJours3($nbJours3) {
         $this->nbJours3 = $nbJours3;
@@ -2810,6 +2883,7 @@ class LignesMsaEmploye {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -2820,6 +2894,7 @@ class LignesMsaEmploye {
      * Set the nom employe.
      *
      * @param string $nomEmploye The nom employe.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNomEmploye($nomEmploye) {
         $this->nomEmploye = $nomEmploye;
@@ -2830,6 +2905,7 @@ class LignesMsaEmploye {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -2840,6 +2916,7 @@ class LignesMsaEmploye {
      * Set the numero employe2.
      *
      * @param string $numeroEmploye2 The numero employe2.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setNumeroEmploye2($numeroEmploye2) {
         $this->numeroEmploye2 = $numeroEmploye2;
@@ -2850,6 +2927,7 @@ class LignesMsaEmploye {
      * Set the p cent partiel.
      *
      * @param int $pCentPartiel The p cent partiel.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPCentPartiel($pCentPartiel) {
         $this->pCentPartiel = $pCentPartiel;
@@ -2860,6 +2938,7 @@ class LignesMsaEmploye {
      * Set the per deb1.
      *
      * @param DateTime|null $perDeb1 The per deb1.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPerDeb1(DateTime $perDeb1 = null) {
         $this->perDeb1 = $perDeb1;
@@ -2870,6 +2949,7 @@ class LignesMsaEmploye {
      * Set the per deb2.
      *
      * @param DateTime|null $perDeb2 The per deb2.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPerDeb2(DateTime $perDeb2 = null) {
         $this->perDeb2 = $perDeb2;
@@ -2880,6 +2960,7 @@ class LignesMsaEmploye {
      * Set the per deb3.
      *
      * @param DateTime|null $perDeb3 The per deb3.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPerDeb3(DateTime $perDeb3 = null) {
         $this->perDeb3 = $perDeb3;
@@ -2890,6 +2971,7 @@ class LignesMsaEmploye {
      * Set the per fin1.
      *
      * @param DateTime|null $perFin1 The per fin1.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPerFin1(DateTime $perFin1 = null) {
         $this->perFin1 = $perFin1;
@@ -2900,6 +2982,7 @@ class LignesMsaEmploye {
      * Set the per fin2.
      *
      * @param DateTime|null $perFin2 The per fin2.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPerFin2(DateTime $perFin2 = null) {
         $this->perFin2 = $perFin2;
@@ -2910,6 +2993,7 @@ class LignesMsaEmploye {
      * Set the per fin3.
      *
      * @param DateTime|null $perFin3 The per fin3.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPerFin3(DateTime $perFin3 = null) {
         $this->perFin3 = $perFin3;
@@ -2920,6 +3004,7 @@ class LignesMsaEmploye {
      * Set the periode decla.
      *
      * @param DateTime|null $periodeDecla The periode decla.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPeriodeDecla(DateTime $periodeDecla = null) {
         $this->periodeDecla = $periodeDecla;
@@ -2930,6 +3015,7 @@ class LignesMsaEmploye {
      * Set the periodicite.
      *
      * @param string $periodicite The periodicite.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPeriodicite($periodicite) {
         $this->periodicite = $periodicite;
@@ -2940,6 +3026,7 @@ class LignesMsaEmploye {
      * Set the periodicite prec.
      *
      * @param string $periodicitePrec The periodicite prec.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPeriodicitePrec($periodicitePrec) {
         $this->periodicitePrec = $periodicitePrec;
@@ -2950,6 +3037,7 @@ class LignesMsaEmploye {
      * Set the prenom employe.
      *
      * @param string $prenomEmploye The prenom employe.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setPrenomEmploye($prenomEmploye) {
         $this->prenomEmploye = $prenomEmploye;
@@ -2960,6 +3048,7 @@ class LignesMsaEmploye {
      * Set the saisonnier.
      *
      * @param string $saisonnier The saisonnier.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setSaisonnier($saisonnier) {
         $this->saisonnier = $saisonnier;
@@ -2970,6 +3059,7 @@ class LignesMsaEmploye {
      * Set the saisonnier prec.
      *
      * @param string $saisonnierPrec The saisonnier prec.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setSaisonnierPrec($saisonnierPrec) {
         $this->saisonnierPrec = $saisonnierPrec;
@@ -2980,6 +3070,7 @@ class LignesMsaEmploye {
      * Set the service.
      *
      * @param string $service The service.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setService($service) {
         $this->service = $service;
@@ -2990,6 +3081,7 @@ class LignesMsaEmploye {
      * Set the service evo.
      *
      * @param string $serviceEvo The service evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setServiceEvo($serviceEvo) {
         $this->serviceEvo = $serviceEvo;
@@ -3000,6 +3092,7 @@ class LignesMsaEmploye {
      * Set the suspension zrrzru1.
      *
      * @param string $suspensionZrrzru1 The suspension zrrzru1.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setSuspensionZrrzru1($suspensionZrrzru1) {
         $this->suspensionZrrzru1 = $suspensionZrrzru1;
@@ -3010,6 +3103,7 @@ class LignesMsaEmploye {
      * Set the suspension zrrzru2.
      *
      * @param string $suspensionZrrzru2 The suspension zrrzru2.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setSuspensionZrrzru2($suspensionZrrzru2) {
         $this->suspensionZrrzru2 = $suspensionZrrzru2;
@@ -3020,6 +3114,7 @@ class LignesMsaEmploye {
      * Set the suspension zrrzru3.
      *
      * @param string $suspensionZrrzru3 The suspension zrrzru3.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setSuspensionZrrzru3($suspensionZrrzru3) {
         $this->suspensionZrrzru3 = $suspensionZrrzru3;
@@ -3030,6 +3125,7 @@ class LignesMsaEmploye {
      * Set the taux smic fillon1.
      *
      * @param float $tauxSmicFillon1 The taux smic fillon1.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTauxSmicFillon1($tauxSmicFillon1) {
         $this->tauxSmicFillon1 = $tauxSmicFillon1;
@@ -3040,6 +3136,7 @@ class LignesMsaEmploye {
      * Set the taux smic fillon2.
      *
      * @param float $tauxSmicFillon2 The taux smic fillon2.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTauxSmicFillon2($tauxSmicFillon2) {
         $this->tauxSmicFillon2 = $tauxSmicFillon2;
@@ -3050,6 +3147,7 @@ class LignesMsaEmploye {
      * Set the taux smic fillon3.
      *
      * @param float $tauxSmicFillon3 The taux smic fillon3.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTauxSmicFillon3($tauxSmicFillon3) {
         $this->tauxSmicFillon3 = $tauxSmicFillon3;
@@ -3060,6 +3158,7 @@ class LignesMsaEmploye {
      * Set the temps partiel.
      *
      * @param string $tempsPartiel The temps partiel.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTempsPartiel($tempsPartiel) {
         $this->tempsPartiel = $tempsPartiel;
@@ -3070,6 +3169,7 @@ class LignesMsaEmploye {
      * Set the temps partiel evo.
      *
      * @param string $tempsPartielEvo The temps partiel evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTempsPartielEvo($tempsPartielEvo) {
         $this->tempsPartielEvo = $tempsPartielEvo;
@@ -3080,6 +3180,7 @@ class LignesMsaEmploye {
      * Set the total general.
      *
      * @param int $totalGeneral The total general.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTotalGeneral($totalGeneral) {
         $this->totalGeneral = $totalGeneral;
@@ -3090,6 +3191,7 @@ class LignesMsaEmploye {
      * Set the type absence.
      *
      * @param string $typeAbsence The type absence.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAbsence($typeAbsence) {
         $this->typeAbsence = $typeAbsence;
@@ -3100,6 +3202,7 @@ class LignesMsaEmploye {
      * Set the type autre remun11.
      *
      * @param string $typeAutreRemun11 The type autre remun11.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun11($typeAutreRemun11) {
         $this->typeAutreRemun11 = $typeAutreRemun11;
@@ -3110,6 +3213,7 @@ class LignesMsaEmploye {
      * Set the type autre remun12.
      *
      * @param string $typeAutreRemun12 The type autre remun12.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun12($typeAutreRemun12) {
         $this->typeAutreRemun12 = $typeAutreRemun12;
@@ -3120,6 +3224,7 @@ class LignesMsaEmploye {
      * Set the type autre remun13.
      *
      * @param string $typeAutreRemun13 The type autre remun13.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun13($typeAutreRemun13) {
         $this->typeAutreRemun13 = $typeAutreRemun13;
@@ -3130,6 +3235,7 @@ class LignesMsaEmploye {
      * Set the type autre remun14.
      *
      * @param string $typeAutreRemun14 The type autre remun14.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun14($typeAutreRemun14) {
         $this->typeAutreRemun14 = $typeAutreRemun14;
@@ -3140,6 +3246,7 @@ class LignesMsaEmploye {
      * Set the type autre remun21.
      *
      * @param string $typeAutreRemun21 The type autre remun21.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun21($typeAutreRemun21) {
         $this->typeAutreRemun21 = $typeAutreRemun21;
@@ -3150,6 +3257,7 @@ class LignesMsaEmploye {
      * Set the type autre remun22.
      *
      * @param string $typeAutreRemun22 The type autre remun22.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun22($typeAutreRemun22) {
         $this->typeAutreRemun22 = $typeAutreRemun22;
@@ -3160,6 +3268,7 @@ class LignesMsaEmploye {
      * Set the type autre remun23.
      *
      * @param string $typeAutreRemun23 The type autre remun23.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun23($typeAutreRemun23) {
         $this->typeAutreRemun23 = $typeAutreRemun23;
@@ -3170,6 +3279,7 @@ class LignesMsaEmploye {
      * Set the type autre remun24.
      *
      * @param string $typeAutreRemun24 The type autre remun24.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun24($typeAutreRemun24) {
         $this->typeAutreRemun24 = $typeAutreRemun24;
@@ -3180,6 +3290,7 @@ class LignesMsaEmploye {
      * Set the type autre remun31.
      *
      * @param string $typeAutreRemun31 The type autre remun31.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun31($typeAutreRemun31) {
         $this->typeAutreRemun31 = $typeAutreRemun31;
@@ -3190,6 +3301,7 @@ class LignesMsaEmploye {
      * Set the type autre remun32.
      *
      * @param string $typeAutreRemun32 The type autre remun32.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun32($typeAutreRemun32) {
         $this->typeAutreRemun32 = $typeAutreRemun32;
@@ -3200,6 +3312,7 @@ class LignesMsaEmploye {
      * Set the type autre remun33.
      *
      * @param string $typeAutreRemun33 The type autre remun33.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun33($typeAutreRemun33) {
         $this->typeAutreRemun33 = $typeAutreRemun33;
@@ -3210,6 +3323,7 @@ class LignesMsaEmploye {
      * Set the type autre remun34.
      *
      * @param string $typeAutreRemun34 The type autre remun34.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeAutreRemun34($typeAutreRemun34) {
         $this->typeAutreRemun34 = $typeAutreRemun34;
@@ -3220,6 +3334,7 @@ class LignesMsaEmploye {
      * Set the type crcca emp.
      *
      * @param string $typeCrccaEmp The type crcca emp.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeCrccaEmp($typeCrccaEmp) {
         $this->typeCrccaEmp = $typeCrccaEmp;
@@ -3230,6 +3345,7 @@ class LignesMsaEmploye {
      * Set the type remun11.
      *
      * @param string $typeRemun11 The type remun11.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun11($typeRemun11) {
         $this->typeRemun11 = $typeRemun11;
@@ -3240,6 +3356,7 @@ class LignesMsaEmploye {
      * Set the type remun12.
      *
      * @param string $typeRemun12 The type remun12.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun12($typeRemun12) {
         $this->typeRemun12 = $typeRemun12;
@@ -3250,6 +3367,7 @@ class LignesMsaEmploye {
      * Set the type remun13.
      *
      * @param string $typeRemun13 The type remun13.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun13($typeRemun13) {
         $this->typeRemun13 = $typeRemun13;
@@ -3260,6 +3378,7 @@ class LignesMsaEmploye {
      * Set the type remun14.
      *
      * @param string $typeRemun14 The type remun14.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun14($typeRemun14) {
         $this->typeRemun14 = $typeRemun14;
@@ -3270,6 +3389,7 @@ class LignesMsaEmploye {
      * Set the type remun21.
      *
      * @param string $typeRemun21 The type remun21.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun21($typeRemun21) {
         $this->typeRemun21 = $typeRemun21;
@@ -3280,6 +3400,7 @@ class LignesMsaEmploye {
      * Set the type remun22.
      *
      * @param string $typeRemun22 The type remun22.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun22($typeRemun22) {
         $this->typeRemun22 = $typeRemun22;
@@ -3290,6 +3411,7 @@ class LignesMsaEmploye {
      * Set the type remun23.
      *
      * @param string $typeRemun23 The type remun23.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun23($typeRemun23) {
         $this->typeRemun23 = $typeRemun23;
@@ -3300,6 +3422,7 @@ class LignesMsaEmploye {
      * Set the type remun24.
      *
      * @param string $typeRemun24 The type remun24.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun24($typeRemun24) {
         $this->typeRemun24 = $typeRemun24;
@@ -3310,6 +3433,7 @@ class LignesMsaEmploye {
      * Set the type remun31.
      *
      * @param string $typeRemun31 The type remun31.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun31($typeRemun31) {
         $this->typeRemun31 = $typeRemun31;
@@ -3320,6 +3444,7 @@ class LignesMsaEmploye {
      * Set the type remun32.
      *
      * @param string $typeRemun32 The type remun32.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun32($typeRemun32) {
         $this->typeRemun32 = $typeRemun32;
@@ -3330,6 +3455,7 @@ class LignesMsaEmploye {
      * Set the type remun33.
      *
      * @param string $typeRemun33 The type remun33.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun33($typeRemun33) {
         $this->typeRemun33 = $typeRemun33;
@@ -3340,6 +3466,7 @@ class LignesMsaEmploye {
      * Set the type remun34.
      *
      * @param string $typeRemun34 The type remun34.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeRemun34($typeRemun34) {
         $this->typeRemun34 = $typeRemun34;
@@ -3350,6 +3477,7 @@ class LignesMsaEmploye {
      * Set the type travail.
      *
      * @param string $typeTravail The type travail.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
      */
     public function setTypeTravail($typeTravail) {
         $this->typeTravail = $typeTravail;

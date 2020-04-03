@@ -192,6 +192,7 @@ class TableauxPaiements {
      * Set the assurance.
      *
      * @param float $assurance The assurance.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setAssurance($assurance) {
         $this->assurance = $assurance;
@@ -202,6 +203,7 @@ class TableauxPaiements {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -212,6 +214,7 @@ class TableauxPaiements {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -222,6 +225,7 @@ class TableauxPaiements {
      * Set the entretien.
      *
      * @param float $entretien The entretien.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setEntretien($entretien) {
         $this->entretien = $entretien;
@@ -232,6 +236,7 @@ class TableauxPaiements {
      * Set the loyer ht.
      *
      * @param float $loyerHt The loyer ht.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setLoyerHt($loyerHt) {
         $this->loyerHt = $loyerHt;
@@ -242,6 +247,7 @@ class TableauxPaiements {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -252,6 +258,7 @@ class TableauxPaiements {
      * Set the numero cb.
      *
      * @param int $numeroCb The numero cb.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setNumeroCb($numeroCb) {
         $this->numeroCb = $numeroCb;
@@ -262,6 +269,7 @@ class TableauxPaiements {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -272,6 +280,7 @@ class TableauxPaiements {
      * Set the numero deux cb.
      *
      * @param int $numeroDeuxCb The numero deux cb.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setNumeroDeuxCb($numeroDeuxCb) {
         $this->numeroDeuxCb = $numeroDeuxCb;
@@ -282,6 +291,7 @@ class TableauxPaiements {
      * Set the valeur rachat.
      *
      * @param float $valeurRachat The valeur rachat.
+     * @return TableauxPaiements Returns this Tableaux paiements.
      */
     public function setValeurRachat($valeurRachat) {
         $this->valeurRachat = $valeurRachat;

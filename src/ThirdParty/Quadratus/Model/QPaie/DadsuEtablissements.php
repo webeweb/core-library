@@ -142,6 +142,7 @@ class DadsuEtablissements {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return DadsuEtablissements Returns this Dadsu etablissements.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -152,6 +153,7 @@ class DadsuEtablissements {
      * Set the forma pro base.
      *
      * @param float $formaProBase The forma pro base.
+     * @return DadsuEtablissements Returns this Dadsu etablissements.
      */
     public function setFormaProBase($formaProBase) {
         $this->formaProBase = $formaProBase;
@@ -162,6 +164,7 @@ class DadsuEtablissements {
      * Set the forma pro base cdd.
      *
      * @param float $formaProBaseCdd The forma pro base cdd.
+     * @return DadsuEtablissements Returns this Dadsu etablissements.
      */
     public function setFormaProBaseCdd($formaProBaseCdd) {
         $this->formaProBaseCdd = $formaProBaseCdd;
@@ -172,6 +175,7 @@ class DadsuEtablissements {
      * Set the forma pro code assuj.
      *
      * @param string $formaProCodeAssuj The forma pro code assuj.
+     * @return DadsuEtablissements Returns this Dadsu etablissements.
      */
     public function setFormaProCodeAssuj($formaProCodeAssuj) {
         $this->formaProCodeAssuj = $formaProCodeAssuj;
@@ -182,6 +186,7 @@ class DadsuEtablissements {
      * Set the prud type dadsu derogatoire.
      *
      * @param string $prudTypeDadsuDerogatoire The prud type dadsu derogatoire.
+     * @return DadsuEtablissements Returns this Dadsu etablissements.
      */
     public function setPrudTypeDadsuDerogatoire($prudTypeDadsuDerogatoire) {
         $this->prudTypeDadsuDerogatoire = $prudTypeDadsuDerogatoire;
@@ -192,6 +197,7 @@ class DadsuEtablissements {
      * Set the taxe apprentissage base.
      *
      * @param float $taxeApprentissageBase The taxe apprentissage base.
+     * @return DadsuEtablissements Returns this Dadsu etablissements.
      */
     public function setTaxeApprentissageBase($taxeApprentissageBase) {
         $this->taxeApprentissageBase = $taxeApprentissageBase;
@@ -202,6 +208,7 @@ class DadsuEtablissements {
      * Set the taxe apprentissage code assuj.
      *
      * @param string $taxeApprentissageCodeAssuj The taxe apprentissage code assuj.
+     * @return DadsuEtablissements Returns this Dadsu etablissements.
      */
     public function setTaxeApprentissageCodeAssuj($taxeApprentissageCodeAssuj) {
         $this->taxeApprentissageCodeAssuj = $taxeApprentissageCodeAssuj;

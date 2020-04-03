@@ -142,6 +142,7 @@ class FichesDePoste {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return FichesDePoste Returns this Fiches de poste.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -152,6 +153,7 @@ class FichesDePoste {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return FichesDePoste Returns this Fiches de poste.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -162,6 +164,7 @@ class FichesDePoste {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FichesDePoste Returns this Fiches de poste.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -172,6 +175,7 @@ class FichesDePoste {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return FichesDePoste Returns this Fiches de poste.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -182,6 +186,7 @@ class FichesDePoste {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return FichesDePoste Returns this Fiches de poste.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -192,6 +197,7 @@ class FichesDePoste {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return FichesDePoste Returns this Fiches de poste.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -202,6 +208,7 @@ class FichesDePoste {
      * Set the poste.
      *
      * @param string $poste The poste.
+     * @return FichesDePoste Returns this Fiches de poste.
      */
     public function setPoste($poste) {
         $this->poste = $poste;

@@ -62,6 +62,7 @@ class Contenu {
      * Set the position.
      *
      * @param int $position The position.
+     * @return Contenu Returns this Contenu.
      */
     public function setPosition($position) {
         $this->position = $position;
@@ -72,6 +73,7 @@ class Contenu {
      * Set the texte contenu.
      *
      * @param string $texteContenu The texte contenu.
+     * @return Contenu Returns this Contenu.
      */
     public function setTexteContenu($texteContenu) {
         $this->texteContenu = $texteContenu;

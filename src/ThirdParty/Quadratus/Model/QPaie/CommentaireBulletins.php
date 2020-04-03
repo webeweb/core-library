@@ -192,6 +192,7 @@ class CommentaireBulletins {
      * Set the commentaire1.
      *
      * @param string $commentaire1 The commentaire1.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setCommentaire1($commentaire1) {
         $this->commentaire1 = $commentaire1;
@@ -202,6 +203,7 @@ class CommentaireBulletins {
      * Set the commentaire2.
      *
      * @param string $commentaire2 The commentaire2.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setCommentaire2($commentaire2) {
         $this->commentaire2 = $commentaire2;
@@ -212,6 +214,7 @@ class CommentaireBulletins {
      * Set the commentaire3.
      *
      * @param string $commentaire3 The commentaire3.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setCommentaire3($commentaire3) {
         $this->commentaire3 = $commentaire3;
@@ -222,6 +225,7 @@ class CommentaireBulletins {
      * Set the commentaire4.
      *
      * @param string $commentaire4 The commentaire4.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setCommentaire4($commentaire4) {
         $this->commentaire4 = $commentaire4;
@@ -232,6 +236,7 @@ class CommentaireBulletins {
      * Set the commentaire5.
      *
      * @param string $commentaire5 The commentaire5.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setCommentaire5($commentaire5) {
         $this->commentaire5 = $commentaire5;
@@ -242,6 +247,7 @@ class CommentaireBulletins {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -252,6 +258,7 @@ class CommentaireBulletins {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -262,6 +269,7 @@ class CommentaireBulletins {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -272,6 +280,7 @@ class CommentaireBulletins {
      * Set the txt commentaire rtf.
      *
      * @param string $txtCommentaireRtf The txt commentaire rtf.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setTxtCommentaireRtf($txtCommentaireRtf) {
         $this->txtCommentaireRtf = $txtCommentaireRtf;
@@ -282,6 +291,7 @@ class CommentaireBulletins {
      * Set the txt commentaire saisi.
      *
      * @param string $txtCommentaireSaisi The txt commentaire saisi.
+     * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
     public function setTxtCommentaireSaisi($txtCommentaireSaisi) {
         $this->txtCommentaireSaisi = $txtCommentaireSaisi;

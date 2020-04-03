@@ -208,6 +208,7 @@ class AvenantsContratsChantiers {
      * Set the code absence.
      *
      * @param string $codeAbsence The code absence.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setCodeAbsence($codeAbsence) {
         $this->codeAbsence = $codeAbsence;
@@ -218,6 +219,7 @@ class AvenantsContratsChantiers {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -228,6 +230,7 @@ class AvenantsContratsChantiers {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -238,6 +241,7 @@ class AvenantsContratsChantiers {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -248,6 +252,7 @@ class AvenantsContratsChantiers {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -258,6 +263,7 @@ class AvenantsContratsChantiers {
      * Set the code titulaire.
      *
      * @param string $codeTitulaire The code titulaire.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setCodeTitulaire($codeTitulaire) {
         $this->codeTitulaire = $codeTitulaire;
@@ -268,6 +274,7 @@ class AvenantsContratsChantiers {
      * Set the numero avenant.
      *
      * @param int $numeroAvenant The numero avenant.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setNumeroAvenant($numeroAvenant) {
         $this->numeroAvenant = $numeroAvenant;
@@ -278,6 +285,7 @@ class AvenantsContratsChantiers {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -288,6 +296,7 @@ class AvenantsContratsChantiers {
      * Set the remplace au.
      *
      * @param DateTime|null $remplaceAu The remplace au.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setRemplaceAu(DateTime $remplaceAu = null) {
         $this->remplaceAu = $remplaceAu;
@@ -298,6 +307,7 @@ class AvenantsContratsChantiers {
      * Set the remplace du.
      *
      * @param DateTime|null $remplaceDu The remplace du.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setRemplaceDu(DateTime $remplaceDu = null) {
         $this->remplaceDu = $remplaceDu;
@@ -308,6 +318,7 @@ class AvenantsContratsChantiers {
      * Set the type document.
      *
      * @param string $typeDocument The type document.
+     * @return AvenantsContratsChantiers Returns this Avenants contrats chantiers.
      */
     public function setTypeDocument($typeDocument) {
         $this->typeDocument = $typeDocument;

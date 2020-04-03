@@ -2688,6 +2688,7 @@ class Articles {
      * Set the achat par colis.
      *
      * @param bool $achatParColis The achat par colis.
+     * @return Articles Returns this Articles.
      */
     public function setAchatParColis($achatParColis) {
         $this->achatParColis = $achatParColis;
@@ -2698,6 +2699,7 @@ class Articles {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return Articles Returns this Articles.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -2708,6 +2710,7 @@ class Articles {
      * Set the allee casier.
      *
      * @param string $alleeCasier The allee casier.
+     * @return Articles Returns this Articles.
      */
     public function setAlleeCasier($alleeCasier) {
         $this->alleeCasier = $alleeCasier;
@@ -2718,6 +2721,7 @@ class Articles {
      * Set the article frais.
      *
      * @param bool $articleFrais The article frais.
+     * @return Articles Returns this Articles.
      */
     public function setArticleFrais($articleFrais) {
         $this->articleFrais = $articleFrais;
@@ -2728,6 +2732,7 @@ class Articles {
      * Set the article rattache.
      *
      * @param string $articleRattache The article rattache.
+     * @return Articles Returns this Articles.
      */
     public function setArticleRattache($articleRattache) {
         $this->articleRattache = $articleRattache;
@@ -2738,6 +2743,7 @@ class Articles {
      * Set the article regroupement.
      *
      * @param string $articleRegroupement The article regroupement.
+     * @return Articles Returns this Articles.
      */
     public function setArticleRegroupement($articleRegroupement) {
         $this->articleRegroupement = $articleRegroupement;
@@ -2748,6 +2754,7 @@ class Articles {
      * Set the article remplacement.
      *
      * @param string $articleRemplacement The article remplacement.
+     * @return Articles Returns this Articles.
      */
     public function setArticleRemplacement($articleRemplacement) {
         $this->articleRemplacement = $articleRemplacement;
@@ -2758,6 +2765,7 @@ class Articles {
      * Set the article taxe1.
      *
      * @param string $articleTaxe1 The article taxe1.
+     * @return Articles Returns this Articles.
      */
     public function setArticleTaxe1($articleTaxe1) {
         $this->articleTaxe1 = $articleTaxe1;
@@ -2768,6 +2776,7 @@ class Articles {
      * Set the article taxe2.
      *
      * @param string $articleTaxe2 The article taxe2.
+     * @return Articles Returns this Articles.
      */
     public function setArticleTaxe2($articleTaxe2) {
         $this->articleTaxe2 = $articleTaxe2;
@@ -2778,6 +2787,7 @@ class Articles {
      * Set the article taxe3.
      *
      * @param string $articleTaxe3 The article taxe3.
+     * @return Articles Returns this Articles.
      */
     public function setArticleTaxe3($articleTaxe3) {
         $this->articleTaxe3 = $articleTaxe3;
@@ -2788,6 +2798,7 @@ class Articles {
      * Set the article taxe4.
      *
      * @param string $articleTaxe4 The article taxe4.
+     * @return Articles Returns this Articles.
      */
     public function setArticleTaxe4($articleTaxe4) {
         $this->articleTaxe4 = $articleTaxe4;
@@ -2798,6 +2809,7 @@ class Articles {
      * Set the article taxe5.
      *
      * @param string $articleTaxe5 The article taxe5.
+     * @return Articles Returns this Articles.
      */
     public function setArticleTaxe5($articleTaxe5) {
         $this->articleTaxe5 = $articleTaxe5;
@@ -2808,6 +2820,7 @@ class Articles {
      * Set the calcul coeff pa pv.
      *
      * @param bool $calculCoeffPaPv The calcul coeff pa pv.
+     * @return Articles Returns this Articles.
      */
     public function setCalculCoeffPaPv($calculCoeffPaPv) {
         $this->calculCoeffPaPv = $calculCoeffPaPv;
@@ -2818,6 +2831,7 @@ class Articles {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return Articles Returns this Articles.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -2828,6 +2842,7 @@ class Articles {
      * Set the code article2.
      *
      * @param string $codeArticle2 The code article2.
+     * @return Articles Returns this Articles.
      */
     public function setCodeArticle2($codeArticle2) {
         $this->codeArticle2 = $codeArticle2;
@@ -2838,6 +2853,7 @@ class Articles {
      * Set the code devise achat.
      *
      * @param string $codeDeviseAchat The code devise achat.
+     * @return Articles Returns this Articles.
      */
     public function setCodeDeviseAchat($codeDeviseAchat) {
         $this->codeDeviseAchat = $codeDeviseAchat;
@@ -2848,6 +2864,7 @@ class Articles {
      * Set the code famille.
      *
      * @param string $codeFamille The code famille.
+     * @return Articles Returns this Articles.
      */
     public function setCodeFamille($codeFamille) {
         $this->codeFamille = $codeFamille;
@@ -2858,6 +2875,7 @@ class Articles {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return Articles Returns this Articles.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -2868,6 +2886,7 @@ class Articles {
      * Set the code gamme.
      *
      * @param string $codeGamme The code gamme.
+     * @return Articles Returns this Articles.
      */
     public function setCodeGamme($codeGamme) {
         $this->codeGamme = $codeGamme;
@@ -2878,6 +2897,7 @@ class Articles {
      * Set the code grille gamme.
      *
      * @param string $codeGrilleGamme The code grille gamme.
+     * @return Articles Returns this Articles.
      */
     public function setCodeGrilleGamme($codeGrilleGamme) {
         $this->codeGrilleGamme = $codeGrilleGamme;
@@ -2888,6 +2908,7 @@ class Articles {
      * Set the code honoraire.
      *
      * @param string $codeHonoraire The code honoraire.
+     * @return Articles Returns this Articles.
      */
     public function setCodeHonoraire($codeHonoraire) {
         $this->codeHonoraire = $codeHonoraire;
@@ -2898,6 +2919,7 @@ class Articles {
      * Set the code imputation analytique.
      *
      * @param string $codeImputationAnalytique The code imputation analytique.
+     * @return Articles Returns this Articles.
      */
     public function setCodeImputationAnalytique($codeImputationAnalytique) {
         $this->codeImputationAnalytique = $codeImputationAnalytique;
@@ -2908,6 +2930,7 @@ class Articles {
      * Set the code presentation.
      *
      * @param string $codePresentation The code presentation.
+     * @return Articles Returns this Articles.
      */
     public function setCodePresentation($codePresentation) {
         $this->codePresentation = $codePresentation;
@@ -2918,6 +2941,7 @@ class Articles {
      * Set the code ss famille.
      *
      * @param string $codeSsFamille The code ss famille.
+     * @return Articles Returns this Articles.
      */
     public function setCodeSsFamille($codeSsFamille) {
         $this->codeSsFamille = $codeSsFamille;
@@ -2928,6 +2952,7 @@ class Articles {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return Articles Returns this Articles.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -2938,6 +2963,7 @@ class Articles {
      * Set the code tarif art.
      *
      * @param string $codeTarifArt The code tarif art.
+     * @return Articles Returns this Articles.
      */
     public function setCodeTarifArt($codeTarifArt) {
         $this->codeTarifArt = $codeTarifArt;
@@ -2948,6 +2974,7 @@ class Articles {
      * Set the code taxe.
      *
      * @param string $codeTaxe The code taxe.
+     * @return Articles Returns this Articles.
      */
     public function setCodeTaxe($codeTaxe) {
         $this->codeTaxe = $codeTaxe;
@@ -2958,6 +2985,7 @@ class Articles {
      * Set the code tva achat.
      *
      * @param string $codeTvaAchat The code tva achat.
+     * @return Articles Returns this Articles.
      */
     public function setCodeTvaAchat($codeTvaAchat) {
         $this->codeTvaAchat = $codeTvaAchat;
@@ -2968,6 +2996,7 @@ class Articles {
      * Set the code tva vente.
      *
      * @param string $codeTvaVente The code tva vente.
+     * @return Articles Returns this Articles.
      */
     public function setCodeTvaVente($codeTvaVente) {
         $this->codeTvaVente = $codeTvaVente;
@@ -2978,6 +3007,7 @@ class Articles {
      * Set the code tva vente2.
      *
      * @param string $codeTvaVente2 The code tva vente2.
+     * @return Articles Returns this Articles.
      */
     public function setCodeTvaVente2($codeTvaVente2) {
         $this->codeTvaVente2 = $codeTvaVente2;
@@ -2988,6 +3018,7 @@ class Articles {
      * Set the code unite.
      *
      * @param string $codeUnite The code unite.
+     * @return Articles Returns this Articles.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -2998,6 +3029,7 @@ class Articles {
      * Set the code ventil achat.
      *
      * @param string $codeVentilAchat The code ventil achat.
+     * @return Articles Returns this Articles.
      */
     public function setCodeVentilAchat($codeVentilAchat) {
         $this->codeVentilAchat = $codeVentilAchat;
@@ -3008,6 +3040,7 @@ class Articles {
      * Set the code ventil vente.
      *
      * @param string $codeVentilVente The code ventil vente.
+     * @return Articles Returns this Articles.
      */
     public function setCodeVentilVente($codeVentilVente) {
         $this->codeVentilVente = $codeVentilVente;
@@ -3018,6 +3051,7 @@ class Articles {
      * Set the code ventil vente2.
      *
      * @param string $codeVentilVente2 The code ventil vente2.
+     * @return Articles Returns this Articles.
      */
     public function setCodeVentilVente2($codeVentilVente2) {
         $this->codeVentilVente2 = $codeVentilVente2;
@@ -3028,6 +3062,7 @@ class Articles {
      * Set the coeff pv pa.
      *
      * @param float $coeffPvPa The coeff pv pa.
+     * @return Articles Returns this Articles.
      */
     public function setCoeffPvPa($coeffPvPa) {
         $this->coeffPvPa = $coeffPvPa;
@@ -3038,6 +3073,7 @@ class Articles {
      * Set the coeff sur px achat.
      *
      * @param string $coeffSurPxAchat The coeff sur px achat.
+     * @return Articles Returns this Articles.
      */
     public function setCoeffSurPxAchat($coeffSurPxAchat) {
         $this->coeffSurPxAchat = $coeffSurPxAchat;
@@ -3048,6 +3084,7 @@ class Articles {
      * Set the coeff sur px achat brut.
      *
      * @param bool $coeffSurPxAchatBrut The coeff sur px achat brut.
+     * @return Articles Returns this Articles.
      */
     public function setCoeffSurPxAchatBrut($coeffSurPxAchatBrut) {
         $this->coeffSurPxAchatBrut = $coeffSurPxAchatBrut;
@@ -3058,6 +3095,7 @@ class Articles {
      * Set the colisage achat.
      *
      * @param float $colisageAchat The colisage achat.
+     * @return Articles Returns this Articles.
      */
     public function setColisageAchat($colisageAchat) {
         $this->colisageAchat = $colisageAchat;
@@ -3068,6 +3106,7 @@ class Articles {
      * Set the colisage px achat.
      *
      * @param float $colisagePxAchat The colisage px achat.
+     * @return Articles Returns this Articles.
      */
     public function setColisagePxAchat($colisagePxAchat) {
         $this->colisagePxAchat = $colisagePxAchat;
@@ -3078,6 +3117,7 @@ class Articles {
      * Set the colisage px vente.
      *
      * @param float $colisagePxVente The colisage px vente.
+     * @return Articles Returns this Articles.
      */
     public function setColisagePxVente($colisagePxVente) {
         $this->colisagePxVente = $colisagePxVente;
@@ -3088,6 +3128,7 @@ class Articles {
      * Set the colisage vente.
      *
      * @param float $colisageVente The colisage vente.
+     * @return Articles Returns this Articles.
      */
     public function setColisageVente($colisageVente) {
         $this->colisageVente = $colisageVente;
@@ -3098,6 +3139,7 @@ class Articles {
      * Set the commission unique.
      *
      * @param bool $commissionUnique The commission unique.
+     * @return Articles Returns this Articles.
      */
     public function setCommissionUnique($commissionUnique) {
         $this->commissionUnique = $commissionUnique;
@@ -3108,6 +3150,7 @@ class Articles {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Articles Returns this Articles.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -3118,6 +3161,7 @@ class Articles {
      * Set the conditionnement1.
      *
      * @param float $conditionnement1 The conditionnement1.
+     * @return Articles Returns this Articles.
      */
     public function setConditionnement1($conditionnement1) {
         $this->conditionnement1 = $conditionnement1;
@@ -3128,6 +3172,7 @@ class Articles {
      * Set the conditionnement2.
      *
      * @param float $conditionnement2 The conditionnement2.
+     * @return Articles Returns this Articles.
      */
     public function setConditionnement2($conditionnement2) {
         $this->conditionnement2 = $conditionnement2;
@@ -3138,6 +3183,7 @@ class Articles {
      * Set the conditionnement3.
      *
      * @param float $conditionnement3 The conditionnement3.
+     * @return Articles Returns this Articles.
      */
     public function setConditionnement3($conditionnement3) {
         $this->conditionnement3 = $conditionnement3;
@@ -3148,6 +3194,7 @@ class Articles {
      * Set the contremarque interdite.
      *
      * @param bool $contremarqueInterdite The contremarque interdite.
+     * @return Articles Returns this Articles.
      */
     public function setContremarqueInterdite($contremarqueInterdite) {
         $this->contremarqueInterdite = $contremarqueInterdite;
@@ -3158,6 +3205,7 @@ class Articles {
      * Set the cout supp.
      *
      * @param float $coutSupp The cout supp.
+     * @return Articles Returns this Articles.
      */
     public function setCoutSupp($coutSupp) {
         $this->coutSupp = $coutSupp;
@@ -3168,6 +3216,7 @@ class Articles {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Articles Returns this Articles.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -3178,6 +3227,7 @@ class Articles {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return Articles Returns this Articles.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -3188,6 +3238,7 @@ class Articles {
      * Set the debour.
      *
      * @param bool $debour The debour.
+     * @return Articles Returns this Articles.
      */
     public function setDebour($debour) {
         $this->debour = $debour;
@@ -3198,6 +3249,7 @@ class Articles {
      * Set the dernier px achat.
      *
      * @param float $dernierPxAchat The dernier px achat.
+     * @return Articles Returns this Articles.
      */
     public function setDernierPxAchat($dernierPxAchat) {
         $this->dernierPxAchat = $dernierPxAchat;
@@ -3208,6 +3260,7 @@ class Articles {
      * Set the designation apres.
      *
      * @param string $designationApres The designation apres.
+     * @return Articles Returns this Articles.
      */
     public function setDesignationApres($designationApres) {
         $this->designationApres = $designationApres;
@@ -3218,6 +3271,7 @@ class Articles {
      * Set the designation avant.
      *
      * @param string $designationAvant The designation avant.
+     * @return Articles Returns this Articles.
      */
     public function setDesignationAvant($designationAvant) {
         $this->designationAvant = $designationAvant;
@@ -3228,6 +3282,7 @@ class Articles {
      * Set the editer article rattache.
      *
      * @param bool $editerArticleRattache The editer article rattache.
+     * @return Articles Returns this Articles.
      */
     public function setEditerArticleRattache($editerArticleRattache) {
         $this->editerArticleRattache = $editerArticleRattache;
@@ -3238,6 +3293,7 @@ class Articles {
      * Set the editer article remplacement.
      *
      * @param bool $editerArticleRemplacement The editer article remplacement.
+     * @return Articles Returns this Articles.
      */
     public function setEditerArticleRemplacement($editerArticleRemplacement) {
         $this->editerArticleRemplacement = $editerArticleRemplacement;
@@ -3248,6 +3304,7 @@ class Articles {
      * Set the ensemble.
      *
      * @param bool $ensemble The ensemble.
+     * @return Articles Returns this Articles.
      */
     public function setEnsemble($ensemble) {
         $this->ensemble = $ensemble;
@@ -3258,6 +3315,7 @@ class Articles {
      * Set the est multi tva.
      *
      * @param bool $estMultiTva The est multi tva.
+     * @return Articles Returns this Articles.
      */
     public function setEstMultiTva($estMultiTva) {
         $this->estMultiTva = $estMultiTva;
@@ -3268,6 +3326,7 @@ class Articles {
      * Set the est occasion.
      *
      * @param bool $estOccasion The est occasion.
+     * @return Articles Returns this Articles.
      */
     public function setEstOccasion($estOccasion) {
         $this->estOccasion = $estOccasion;
@@ -3278,6 +3337,7 @@ class Articles {
      * Set the facturation ttc.
      *
      * @param bool $facturationTtc The facturation ttc.
+     * @return Articles Returns this Articles.
      */
     public function setFacturationTtc($facturationTtc) {
         $this->facturationTtc = $facturationTtc;
@@ -3288,6 +3348,7 @@ class Articles {
      * Set the famille achat.
      *
      * @param string $familleAchat The famille achat.
+     * @return Articles Returns this Articles.
      */
     public function setFamilleAchat($familleAchat) {
         $this->familleAchat = $familleAchat;
@@ -3298,6 +3359,7 @@ class Articles {
      * Set the frais1.
      *
      * @param float $frais1 The frais1.
+     * @return Articles Returns this Articles.
      */
     public function setFrais1($frais1) {
         $this->frais1 = $frais1;
@@ -3308,6 +3370,7 @@ class Articles {
      * Set the frais2.
      *
      * @param float $frais2 The frais2.
+     * @return Articles Returns this Articles.
      */
     public function setFrais2($frais2) {
         $this->frais2 = $frais2;
@@ -3318,6 +3381,7 @@ class Articles {
      * Set the frais3.
      *
      * @param float $frais3 The frais3.
+     * @return Articles Returns this Articles.
      */
     public function setFrais3($frais3) {
         $this->frais3 = $frais3;
@@ -3328,6 +3392,7 @@ class Articles {
      * Set the ha coeff pv pa.
      *
      * @param float $haCoeffPvPa The ha coeff pv pa.
+     * @return Articles Returns this Articles.
      */
     public function setHaCoeffPvPa($haCoeffPvPa) {
         $this->haCoeffPvPa = $haCoeffPvPa;
@@ -3338,6 +3403,7 @@ class Articles {
      * Set the ha coeff sur px achat.
      *
      * @param string $haCoeffSurPxAchat The ha coeff sur px achat.
+     * @return Articles Returns this Articles.
      */
     public function setHaCoeffSurPxAchat($haCoeffSurPxAchat) {
         $this->haCoeffSurPxAchat = $haCoeffSurPxAchat;
@@ -3348,6 +3414,7 @@ class Articles {
      * Set the ha date pa.
      *
      * @param DateTime|null $haDatePa The ha date pa.
+     * @return Articles Returns this Articles.
      */
     public function setHaDatePa(DateTime $haDatePa = null) {
         $this->haDatePa = $haDatePa;
@@ -3358,6 +3425,7 @@ class Articles {
      * Set the ha date pv.
      *
      * @param DateTime|null $haDatePv The ha date pv.
+     * @return Articles Returns this Articles.
      */
     public function setHaDatePv(DateTime $haDatePv = null) {
         $this->haDatePv = $haDatePv;
@@ -3368,6 +3436,7 @@ class Articles {
      * Set the ha dernier px achat.
      *
      * @param float $haDernierPxAchat The ha dernier px achat.
+     * @return Articles Returns this Articles.
      */
     public function setHaDernierPxAchat($haDernierPxAchat) {
         $this->haDernierPxAchat = $haDernierPxAchat;
@@ -3378,6 +3447,7 @@ class Articles {
      * Set the ha prix revient.
      *
      * @param float $haPrixRevient The ha prix revient.
+     * @return Articles Returns this Articles.
      */
     public function setHaPrixRevient($haPrixRevient) {
         $this->haPrixRevient = $haPrixRevient;
@@ -3388,6 +3458,7 @@ class Articles {
      * Set the ha prix revient net.
      *
      * @param float $haPrixRevientNet The ha prix revient net.
+     * @return Articles Returns this Articles.
      */
     public function setHaPrixRevientNet($haPrixRevientNet) {
         $this->haPrixRevientNet = $haPrixRevientNet;
@@ -3398,6 +3469,7 @@ class Articles {
      * Set the ha prix vente.
      *
      * @param float $haPrixVente The ha prix vente.
+     * @return Articles Returns this Articles.
      */
     public function setHaPrixVente($haPrixVente) {
         $this->haPrixVente = $haPrixVente;
@@ -3408,6 +3480,7 @@ class Articles {
      * Set the ha px achat brut.
      *
      * @param float $haPxAchatBrut The ha px achat brut.
+     * @return Articles Returns this Articles.
      */
     public function setHaPxAchatBrut($haPxAchatBrut) {
         $this->haPxAchatBrut = $haPxAchatBrut;
@@ -3418,6 +3491,7 @@ class Articles {
      * Set the ha remise achat1.
      *
      * @param float $haRemiseAchat1 The ha remise achat1.
+     * @return Articles Returns this Articles.
      */
     public function setHaRemiseAchat1($haRemiseAchat1) {
         $this->haRemiseAchat1 = $haRemiseAchat1;
@@ -3428,6 +3502,7 @@ class Articles {
      * Set the ha remise achat2.
      *
      * @param float $haRemiseAchat2 The ha remise achat2.
+     * @return Articles Returns this Articles.
      */
     public function setHaRemiseAchat2($haRemiseAchat2) {
         $this->haRemiseAchat2 = $haRemiseAchat2;
@@ -3438,6 +3513,7 @@ class Articles {
      * Set the ha remise achat3.
      *
      * @param float $haRemiseAchat3 The ha remise achat3.
+     * @return Articles Returns this Articles.
      */
     public function setHaRemiseAchat3($haRemiseAchat3) {
         $this->haRemiseAchat3 = $haRemiseAchat3;
@@ -3448,6 +3524,7 @@ class Articles {
      * Set the ha remise sup achat1.
      *
      * @param float $haRemiseSupAchat1 The ha remise sup achat1.
+     * @return Articles Returns this Articles.
      */
     public function setHaRemiseSupAchat1($haRemiseSupAchat1) {
         $this->haRemiseSupAchat1 = $haRemiseSupAchat1;
@@ -3458,6 +3535,7 @@ class Articles {
      * Set the ha remise sup achat2.
      *
      * @param float $haRemiseSupAchat2 The ha remise sup achat2.
+     * @return Articles Returns this Articles.
      */
     public function setHaRemiseSupAchat2($haRemiseSupAchat2) {
         $this->haRemiseSupAchat2 = $haRemiseSupAchat2;
@@ -3468,6 +3546,7 @@ class Articles {
      * Set the ha remise sup achat3.
      *
      * @param float $haRemiseSupAchat3 The ha remise sup achat3.
+     * @return Articles Returns this Articles.
      */
     public function setHaRemiseSupAchat3($haRemiseSupAchat3) {
         $this->haRemiseSupAchat3 = $haRemiseSupAchat3;
@@ -3478,6 +3557,7 @@ class Articles {
      * Set the hauteur.
      *
      * @param float $hauteur The hauteur.
+     * @return Articles Returns this Articles.
      */
     public function setHauteur($hauteur) {
         $this->hauteur = $hauteur;
@@ -3488,6 +3568,7 @@ class Articles {
      * Set the honoraires.
      *
      * @param bool $honoraires The honoraires.
+     * @return Articles Returns this Articles.
      */
     public function setHonoraires($honoraires) {
         $this->honoraires = $honoraires;
@@ -3498,6 +3579,7 @@ class Articles {
      * Set the honoraires uniquement.
      *
      * @param bool $honorairesUniquement The honoraires uniquement.
+     * @return Articles Returns this Articles.
      */
     public function setHonorairesUniquement($honorairesUniquement) {
         $this->honorairesUniquement = $honorairesUniquement;
@@ -3508,6 +3590,7 @@ class Articles {
      * Set the hors stock.
      *
      * @param bool $horsStock The hors stock.
+     * @return Articles Returns this Articles.
      */
     public function setHorsStock($horsStock) {
         $this->horsStock = $horsStock;
@@ -3518,6 +3601,7 @@ class Articles {
      * Set the intitule1.
      *
      * @param string $intitule1 The intitule1.
+     * @return Articles Returns this Articles.
      */
     public function setIntitule1($intitule1) {
         $this->intitule1 = $intitule1;
@@ -3528,6 +3612,7 @@ class Articles {
      * Set the intitule2.
      *
      * @param string $intitule2 The intitule2.
+     * @return Articles Returns this Articles.
      */
     public function setIntitule2($intitule2) {
         $this->intitule2 = $intitule2;
@@ -3538,6 +3623,7 @@ class Articles {
      * Set the intitule3.
      *
      * @param string $intitule3 The intitule3.
+     * @return Articles Returns this Articles.
      */
     public function setIntitule3($intitule3) {
         $this->intitule3 = $intitule3;
@@ -3548,6 +3634,7 @@ class Articles {
      * Set the intitule4.
      *
      * @param string $intitule4 The intitule4.
+     * @return Articles Returns this Articles.
      */
     public function setIntitule4($intitule4) {
         $this->intitule4 = $intitule4;
@@ -3558,6 +3645,7 @@ class Articles {
      * Set the largeur.
      *
      * @param float $largeur The largeur.
+     * @return Articles Returns this Articles.
      */
     public function setLargeur($largeur) {
         $this->largeur = $largeur;
@@ -3568,6 +3656,7 @@ class Articles {
      * Set the libelle interne.
      *
      * @param string $libelleInterne The libelle interne.
+     * @return Articles Returns this Articles.
      */
     public function setLibelleInterne($libelleInterne) {
         $this->libelleInterne = $libelleInterne;
@@ -3578,6 +3667,7 @@ class Articles {
      * Set the longueur.
      *
      * @param float $longueur The longueur.
+     * @return Articles Returns this Articles.
      */
     public function setLongueur($longueur) {
         $this->longueur = $longueur;
@@ -3588,6 +3678,7 @@ class Articles {
      * Set the lot serie autre.
      *
      * @param bool $lotSerieAutre The lot serie autre.
+     * @return Articles Returns this Articles.
      */
     public function setLotSerieAutre($lotSerieAutre) {
         $this->lotSerieAutre = $lotSerieAutre;
@@ -3598,6 +3689,7 @@ class Articles {
      * Set the marge mini.
      *
      * @param float $margeMini The marge mini.
+     * @return Articles Returns this Articles.
      */
     public function setMargeMini($margeMini) {
         $this->margeMini = $margeMini;
@@ -3608,6 +3700,7 @@ class Articles {
      * Set the mini facturable.
      *
      * @param float $miniFacturable The mini facturable.
+     * @return Articles Returns this Articles.
      */
     public function setMiniFacturable($miniFacturable) {
         $this->miniFacturable = $miniFacturable;
@@ -3618,6 +3711,7 @@ class Articles {
      * Set the modele code barre.
      *
      * @param string $modeleCodeBarre The modele code barre.
+     * @return Articles Returns this Articles.
      */
     public function setModeleCodeBarre($modeleCodeBarre) {
         $this->modeleCodeBarre = $modeleCodeBarre;
@@ -3628,6 +3722,7 @@ class Articles {
      * Set the modele code barre f.
      *
      * @param string $modeleCodeBarreF The modele code barre f.
+     * @return Articles Returns this Articles.
      */
     public function setModeleCodeBarreF($modeleCodeBarreF) {
         $this->modeleCodeBarreF = $modeleCodeBarreF;
@@ -3638,6 +3733,7 @@ class Articles {
      * Set the mt soumis tva2.
      *
      * @param float $mtSoumisTva2 The mt soumis tva2.
+     * @return Articles Returns this Articles.
      */
     public function setMtSoumisTva2($mtSoumisTva2) {
         $this->mtSoumisTva2 = $mtSoumisTva2;
@@ -3648,6 +3744,7 @@ class Articles {
      * Set the mt tare.
      *
      * @param float $mtTare The mt tare.
+     * @return Articles Returns this Articles.
      */
     public function setMtTare($mtTare) {
         $this->mtTare = $mtTare;
@@ -3658,6 +3755,7 @@ class Articles {
      * Set the multi tva avec remises.
      *
      * @param bool $multiTvaAvecRemises The multi tva avec remises.
+     * @return Articles Returns this Articles.
      */
     public function setMultiTvaAvecRemises($multiTvaAvecRemises) {
         $this->multiTvaAvecRemises = $multiTvaAvecRemises;
@@ -3668,6 +3766,7 @@ class Articles {
      * Set the nature produit.
      *
      * @param string $natureProduit The nature produit.
+     * @return Articles Returns this Articles.
      */
     public function setNatureProduit($natureProduit) {
         $this->natureProduit = $natureProduit;
@@ -3678,6 +3777,7 @@ class Articles {
      * Set the nb heures.
      *
      * @param float $nbHeures The nb heures.
+     * @return Articles Returns this Articles.
      */
     public function setNbHeures($nbHeures) {
         $this->nbHeures = $nbHeures;
@@ -3688,6 +3788,7 @@ class Articles {
      * Set the ne pas cumuler stats.
      *
      * @param bool $nePasCumulerStats The ne pas cumuler stats.
+     * @return Articles Returns this Articles.
      */
     public function setNePasCumulerStats($nePasCumulerStats) {
         $this->nePasCumulerStats = $nePasCumulerStats;
@@ -3698,6 +3799,7 @@ class Articles {
      * Set the ne pas editer.
      *
      * @param bool $nePasEditer The ne pas editer.
+     * @return Articles Returns this Articles.
      */
     public function setNePasEditer($nePasEditer) {
         $this->nePasEditer = $nePasEditer;
@@ -3708,6 +3810,7 @@ class Articles {
      * Set the ne plus commander.
      *
      * @param bool $nePlusCommander The ne plus commander.
+     * @return Articles Returns this Articles.
      */
     public function setNePlusCommander($nePlusCommander) {
         $this->nePlusCommander = $nePlusCommander;
@@ -3718,6 +3821,7 @@ class Articles {
      * Set the neutre.
      *
      * @param bool $neutre The neutre.
+     * @return Articles Returns this Articles.
      */
     public function setNeutre($neutre) {
         $this->neutre = $neutre;
@@ -3728,6 +3832,7 @@ class Articles {
      * Set the niveau apparition.
      *
      * @param int $niveauApparition The niveau apparition.
+     * @return Articles Returns this Articles.
      */
     public function setNiveauApparition($niveauApparition) {
         $this->niveauApparition = $niveauApparition;
@@ -3738,6 +3843,7 @@ class Articles {
      * Set the niveau totalisation.
      *
      * @param string $niveauTotalisation The niveau totalisation.
+     * @return Articles Returns this Articles.
      */
     public function setNiveauTotalisation($niveauTotalisation) {
         $this->niveauTotalisation = $niveauTotalisation;
@@ -3748,6 +3854,7 @@ class Articles {
      * Set the nomenclature ensemble.
      *
      * @param bool $nomenclatureEnsemble The nomenclature ensemble.
+     * @return Articles Returns this Articles.
      */
     public function setNomenclatureEnsemble($nomenclatureEnsemble) {
         $this->nomenclatureEnsemble = $nomenclatureEnsemble;
@@ -3758,6 +3865,7 @@ class Articles {
      * Set the nomenclature europe.
      *
      * @param string $nomenclatureEurope The nomenclature europe.
+     * @return Articles Returns this Articles.
      */
     public function setNomenclatureEurope($nomenclatureEurope) {
         $this->nomenclatureEurope = $nomenclatureEurope;
@@ -3768,6 +3876,7 @@ class Articles {
      * Set the num compte achat.
      *
      * @param string $numCompteAchat The num compte achat.
+     * @return Articles Returns this Articles.
      */
     public function setNumCompteAchat($numCompteAchat) {
         $this->numCompteAchat = $numCompteAchat;
@@ -3778,6 +3887,7 @@ class Articles {
      * Set the num compte vente.
      *
      * @param string $numCompteVente The num compte vente.
+     * @return Articles Returns this Articles.
      */
     public function setNumCompteVente($numCompteVente) {
         $this->numCompteVente = $numCompteVente;
@@ -3788,6 +3898,7 @@ class Articles {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return Articles Returns this Articles.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -3798,6 +3909,7 @@ class Articles {
      * Set the pamp.
      *
      * @param float $pamp The pamp.
+     * @return Articles Returns this Articles.
      */
     public function setPamp($pamp) {
         $this->pamp = $pamp;
@@ -3808,6 +3920,7 @@ class Articles {
      * Set the param cde.
      *
      * @param float $paramCde The param cde.
+     * @return Articles Returns this Articles.
      */
     public function setParamCde($paramCde) {
         $this->paramCde = $paramCde;
@@ -3818,6 +3931,7 @@ class Articles {
      * Set the poids unitaire.
      *
      * @param float $poidsUnitaire The poids unitaire.
+     * @return Articles Returns this Articles.
      */
     public function setPoidsUnitaire($poidsUnitaire) {
         $this->poidsUnitaire = $poidsUnitaire;
@@ -3828,6 +3942,7 @@ class Articles {
      * Set the prix achat ckp.
      *
      * @param string $prixAchatCkp The prix achat ckp.
+     * @return Articles Returns this Articles.
      */
     public function setPrixAchatCkp($prixAchatCkp) {
         $this->prixAchatCkp = $prixAchatCkp;
@@ -3838,6 +3953,7 @@ class Articles {
      * Set the prix fixe.
      *
      * @param bool $prixFixe The prix fixe.
+     * @return Articles Returns this Articles.
      */
     public function setPrixFixe($prixFixe) {
         $this->prixFixe = $prixFixe;
@@ -3848,6 +3964,7 @@ class Articles {
      * Set the prix mini.
      *
      * @param float $prixMini The prix mini.
+     * @return Articles Returns this Articles.
      */
     public function setPrixMini($prixMini) {
         $this->prixMini = $prixMini;
@@ -3858,6 +3975,7 @@ class Articles {
      * Set the prix net.
      *
      * @param bool $prixNet The prix net.
+     * @return Articles Returns this Articles.
      */
     public function setPrixNet($prixNet) {
         $this->prixNet = $prixNet;
@@ -3868,6 +3986,7 @@ class Articles {
      * Set the prix revient.
      *
      * @param float $prixRevient The prix revient.
+     * @return Articles Returns this Articles.
      */
     public function setPrixRevient($prixRevient) {
         $this->prixRevient = $prixRevient;
@@ -3878,6 +3997,7 @@ class Articles {
      * Set the prix revient net.
      *
      * @param float $prixRevientNet The prix revient net.
+     * @return Articles Returns this Articles.
      */
     public function setPrixRevientNet($prixRevientNet) {
         $this->prixRevientNet = $prixRevientNet;
@@ -3888,6 +4008,7 @@ class Articles {
      * Set the prix vente ckp.
      *
      * @param string $prixVenteCkp The prix vente ckp.
+     * @return Articles Returns this Articles.
      */
     public function setPrixVenteCkp($prixVenteCkp) {
         $this->prixVenteCkp = $prixVenteCkp;
@@ -3898,6 +4019,7 @@ class Articles {
      * Set the prmp.
      *
      * @param float $prmp The prmp.
+     * @return Articles Returns this Articles.
      */
     public function setPrmp($prmp) {
         $this->prmp = $prmp;
@@ -3908,6 +4030,7 @@ class Articles {
      * Set the provenance.
      *
      * @param string $provenance The provenance.
+     * @return Articles Returns this Articles.
      */
     public function setProvenance($provenance) {
         $this->provenance = $provenance;
@@ -3918,6 +4041,7 @@ class Articles {
      * Set the px achat brut.
      *
      * @param float $pxAchatBrut The px achat brut.
+     * @return Articles Returns this Articles.
      */
     public function setPxAchatBrut($pxAchatBrut) {
         $this->pxAchatBrut = $pxAchatBrut;
@@ -3928,6 +4052,7 @@ class Articles {
      * Set the px achat colis.
      *
      * @param bool $pxAchatColis The px achat colis.
+     * @return Articles Returns this Articles.
      */
     public function setPxAchatColis($pxAchatColis) {
         $this->pxAchatColis = $pxAchatColis;
@@ -3938,6 +4063,7 @@ class Articles {
      * Set the px achat en devise.
      *
      * @param float $pxAchatEnDevise The px achat en devise.
+     * @return Articles Returns this Articles.
      */
     public function setPxAchatEnDevise($pxAchatEnDevise) {
         $this->pxAchatEnDevise = $pxAchatEnDevise;
@@ -3948,6 +4074,7 @@ class Articles {
      * Set the px unit a editer.
      *
      * @param bool $pxUnitAEditer The px unit a editer.
+     * @return Articles Returns this Articles.
      */
     public function setPxUnitAEditer($pxUnitAEditer) {
         $this->pxUnitAEditer = $pxUnitAEditer;
@@ -3958,6 +4085,7 @@ class Articles {
      * Set the px vente colis.
      *
      * @param bool $pxVenteColis The px vente colis.
+     * @return Articles Returns this Articles.
      */
     public function setPxVenteColis($pxVenteColis) {
         $this->pxVenteColis = $pxVenteColis;
@@ -3968,6 +4096,7 @@ class Articles {
      * Set the px vente ht euro.
      *
      * @param float $pxVenteHtEuro The px vente ht euro.
+     * @return Articles Returns this Articles.
      */
     public function setPxVenteHtEuro($pxVenteHtEuro) {
         $this->pxVenteHtEuro = $pxVenteHtEuro;
@@ -3978,6 +4107,7 @@ class Articles {
      * Set the px vente ht frf.
      *
      * @param float $pxVenteHtFrf The px vente ht frf.
+     * @return Articles Returns this Articles.
      */
     public function setPxVenteHtFrf($pxVenteHtFrf) {
         $this->pxVenteHtFrf = $pxVenteHtFrf;
@@ -3988,6 +4118,7 @@ class Articles {
      * Set the px vente ttc euro.
      *
      * @param float $pxVenteTtcEuro The px vente ttc euro.
+     * @return Articles Returns this Articles.
      */
     public function setPxVenteTtcEuro($pxVenteTtcEuro) {
         $this->pxVenteTtcEuro = $pxVenteTtcEuro;
@@ -3998,6 +4129,7 @@ class Articles {
      * Set the px vente ttc frf.
      *
      * @param float $pxVenteTtcFrf The px vente ttc frf.
+     * @return Articles Returns this Articles.
      */
     public function setPxVenteTtcFrf($pxVenteTtcFrf) {
         $this->pxVenteTtcFrf = $pxVenteTtcFrf;
@@ -4008,6 +4140,7 @@ class Articles {
      * Set the qte a editer.
      *
      * @param bool $qteAEditer The qte a editer.
+     * @return Articles Returns this Articles.
      */
     public function setQteAEditer($qteAEditer) {
         $this->qteAEditer = $qteAEditer;
@@ -4018,6 +4151,7 @@ class Articles {
      * Set the qte eco commande.
      *
      * @param float $qteEcoCommande The qte eco commande.
+     * @return Articles Returns this Articles.
      */
     public function setQteEcoCommande($qteEcoCommande) {
         $this->qteEcoCommande = $qteEcoCommande;
@@ -4028,6 +4162,7 @@ class Articles {
      * Set the qte hab commande.
      *
      * @param float $qteHabCommande The qte hab commande.
+     * @return Articles Returns this Articles.
      */
     public function setQteHabCommande($qteHabCommande) {
         $this->qteHabCommande = $qteHabCommande;
@@ -4038,6 +4173,7 @@ class Articles {
      * Set the qte max facture.
      *
      * @param float $qteMaxFacture The qte max facture.
+     * @return Articles Returns this Articles.
      */
     public function setQteMaxFacture($qteMaxFacture) {
         $this->qteMaxFacture = $qteMaxFacture;
@@ -4048,6 +4184,7 @@ class Articles {
      * Set the qte min commande.
      *
      * @param float $qteMinCommande The qte min commande.
+     * @return Articles Returns this Articles.
      */
     public function setQteMinCommande($qteMinCommande) {
         $this->qteMinCommande = $qteMinCommande;
@@ -4058,6 +4195,7 @@ class Articles {
      * Set the regroup fact.
      *
      * @param string $regroupFact The regroup fact.
+     * @return Articles Returns this Articles.
      */
     public function setRegroupFact($regroupFact) {
         $this->regroupFact = $regroupFact;
@@ -4068,6 +4206,7 @@ class Articles {
      * Set the regroup fact tp.
      *
      * @param int $regroupFactTp The regroup fact tp.
+     * @return Articles Returns this Articles.
      */
     public function setRegroupFactTp($regroupFactTp) {
         $this->regroupFactTp = $regroupFactTp;
@@ -4078,6 +4217,7 @@ class Articles {
      * Set the remise1en montant.
      *
      * @param bool $remise1enMontant The remise1en montant.
+     * @return Articles Returns this Articles.
      */
     public function setRemise1enMontant($remise1enMontant) {
         $this->remise1enMontant = $remise1enMontant;
@@ -4088,6 +4228,7 @@ class Articles {
      * Set the remise2en montant.
      *
      * @param bool $remise2enMontant The remise2en montant.
+     * @return Articles Returns this Articles.
      */
     public function setRemise2enMontant($remise2enMontant) {
         $this->remise2enMontant = $remise2enMontant;
@@ -4098,6 +4239,7 @@ class Articles {
      * Set the remise achat1.
      *
      * @param float $remiseAchat1 The remise achat1.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseAchat1($remiseAchat1) {
         $this->remiseAchat1 = $remiseAchat1;
@@ -4108,6 +4250,7 @@ class Articles {
      * Set the remise achat2.
      *
      * @param float $remiseAchat2 The remise achat2.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseAchat2($remiseAchat2) {
         $this->remiseAchat2 = $remiseAchat2;
@@ -4118,6 +4261,7 @@ class Articles {
      * Set the remise achat3.
      *
      * @param float $remiseAchat3 The remise achat3.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseAchat3($remiseAchat3) {
         $this->remiseAchat3 = $remiseAchat3;
@@ -4128,6 +4272,7 @@ class Articles {
      * Set the remise sup achat1.
      *
      * @param float $remiseSupAchat1 The remise sup achat1.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseSupAchat1($remiseSupAchat1) {
         $this->remiseSupAchat1 = $remiseSupAchat1;
@@ -4138,6 +4283,7 @@ class Articles {
      * Set the remise sup achat1 en montant.
      *
      * @param bool $remiseSupAchat1EnMontant The remise sup achat1 en montant.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseSupAchat1EnMontant($remiseSupAchat1EnMontant) {
         $this->remiseSupAchat1EnMontant = $remiseSupAchat1EnMontant;
@@ -4148,6 +4294,7 @@ class Articles {
      * Set the remise sup achat2.
      *
      * @param float $remiseSupAchat2 The remise sup achat2.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseSupAchat2($remiseSupAchat2) {
         $this->remiseSupAchat2 = $remiseSupAchat2;
@@ -4158,6 +4305,7 @@ class Articles {
      * Set the remise sup achat2 en montant.
      *
      * @param bool $remiseSupAchat2EnMontant The remise sup achat2 en montant.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseSupAchat2EnMontant($remiseSupAchat2EnMontant) {
         $this->remiseSupAchat2EnMontant = $remiseSupAchat2EnMontant;
@@ -4168,6 +4316,7 @@ class Articles {
      * Set the remise sup achat3.
      *
      * @param float $remiseSupAchat3 The remise sup achat3.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseSupAchat3($remiseSupAchat3) {
         $this->remiseSupAchat3 = $remiseSupAchat3;
@@ -4178,6 +4327,7 @@ class Articles {
      * Set the remise sup achat3 en montant.
      *
      * @param bool $remiseSupAchat3EnMontant The remise sup achat3 en montant.
+     * @return Articles Returns this Articles.
      */
     public function setRemiseSupAchat3EnMontant($remiseSupAchat3EnMontant) {
         $this->remiseSupAchat3EnMontant = $remiseSupAchat3EnMontant;
@@ -4188,6 +4338,7 @@ class Articles {
      * Set the remises interdites.
      *
      * @param bool $remisesInterdites The remises interdites.
+     * @return Articles Returns this Articles.
      */
     public function setRemisesInterdites($remisesInterdites) {
         $this->remisesInterdites = $remisesInterdites;
@@ -4198,6 +4349,7 @@ class Articles {
      * Set the soumis certif.
      *
      * @param bool $soumisCertif The soumis certif.
+     * @return Articles Returns this Articles.
      */
     public function setSoumisCertif($soumisCertif) {
         $this->soumisCertif = $soumisCertif;
@@ -4208,6 +4360,7 @@ class Articles {
      * Set the ss famille achat.
      *
      * @param string $ssFamilleAchat The ss famille achat.
+     * @return Articles Returns this Articles.
      */
     public function setSsFamilleAchat($ssFamilleAchat) {
         $this->ssFamilleAchat = $ssFamilleAchat;
@@ -4218,6 +4371,7 @@ class Articles {
      * Set the suivi stock.
      *
      * @param bool $suiviStock The suivi stock.
+     * @return Articles Returns this Articles.
      */
     public function setSuiviStock($suiviStock) {
         $this->suiviStock = $suiviStock;
@@ -4228,6 +4382,7 @@ class Articles {
      * Set the tare vat.
      *
      * @param string $tareVat The tare vat.
+     * @return Articles Returns this Articles.
      */
     public function setTareVat($tareVat) {
         $this->tareVat = $tareVat;
@@ -4238,6 +4393,7 @@ class Articles {
      * Set the taux alcool.
      *
      * @param float $tauxAlcool The taux alcool.
+     * @return Articles Returns this Articles.
      */
     public function setTauxAlcool($tauxAlcool) {
         $this->tauxAlcool = $tauxAlcool;
@@ -4248,6 +4404,7 @@ class Articles {
      * Set the taux devise achat.
      *
      * @param float $tauxDeviseAchat The taux devise achat.
+     * @return Articles Returns this Articles.
      */
     public function setTauxDeviseAchat($tauxDeviseAchat) {
         $this->tauxDeviseAchat = $tauxDeviseAchat;
@@ -4258,6 +4415,7 @@ class Articles {
      * Set the tva encaissement.
      *
      * @param bool $tvaEncaissement The tva encaissement.
+     * @return Articles Returns this Articles.
      */
     public function setTvaEncaissement($tvaEncaissement) {
         $this->tvaEncaissement = $tvaEncaissement;
@@ -4268,6 +4426,7 @@ class Articles {
      * Set the tx commission.
      *
      * @param float $txCommission The tx commission.
+     * @return Articles Returns this Articles.
      */
     public function setTxCommission($txCommission) {
         $this->txCommission = $txCommission;
@@ -4278,6 +4437,7 @@ class Articles {
      * Set the type arrondi.
      *
      * @param string $typeArrondi The type arrondi.
+     * @return Articles Returns this Articles.
      */
     public function setTypeArrondi($typeArrondi) {
         $this->typeArrondi = $typeArrondi;
@@ -4288,6 +4448,7 @@ class Articles {
      * Set the type heure.
      *
      * @param bool $typeHeure The type heure.
+     * @return Articles Returns this Articles.
      */
     public function setTypeHeure($typeHeure) {
         $this->typeHeure = $typeHeure;
@@ -4298,6 +4459,7 @@ class Articles {
      * Set the type unite.
      *
      * @param string $typeUnite The type unite.
+     * @return Articles Returns this Articles.
      */
     public function setTypeUnite($typeUnite) {
         $this->typeUnite = $typeUnite;
@@ -4308,6 +4470,7 @@ class Articles {
      * Set the unite activite.
      *
      * @param bool $uniteActivite The unite activite.
+     * @return Articles Returns this Articles.
      */
     public function setUniteActivite($uniteActivite) {
         $this->uniteActivite = $uniteActivite;
@@ -4318,6 +4481,7 @@ class Articles {
      * Set the variante.
      *
      * @param bool $variante The variante.
+     * @return Articles Returns this Articles.
      */
     public function setVariante($variante) {
         $this->variante = $variante;
@@ -4328,6 +4492,7 @@ class Articles {
      * Set the vente par colis.
      *
      * @param bool $venteParColis The vente par colis.
+     * @return Articles Returns this Articles.
      */
     public function setVenteParColis($venteParColis) {
         $this->venteParColis = $venteParColis;
@@ -4338,6 +4503,7 @@ class Articles {
      * Set the volume.
      *
      * @param float $volume The volume.
+     * @return Articles Returns this Articles.
      */
     public function setVolume($volume) {
         $this->volume = $volume;

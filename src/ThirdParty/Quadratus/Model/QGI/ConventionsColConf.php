@@ -78,6 +78,7 @@ class ConventionsColConf {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return ConventionsColConf Returns this Conventions col conf.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -88,6 +89,7 @@ class ConventionsColConf {
      * Set the droit.
      *
      * @param string $droit The droit.
+     * @return ConventionsColConf Returns this Conventions col conf.
      */
     public function setDroit($droit) {
         $this->droit = $droit;
@@ -98,6 +100,7 @@ class ConventionsColConf {
      * Set the type.
      *
      * @param int $type The type.
+     * @return ConventionsColConf Returns this Conventions col conf.
      */
     public function setType($type) {
         $this->type = $type;

@@ -62,6 +62,7 @@ class MissionPrincipale {
      * Set the code.
      *
      * @param string $code The code.
+     * @return MissionPrincipale Returns this Mission principale.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class MissionPrincipale {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return MissionPrincipale Returns this Mission principale.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

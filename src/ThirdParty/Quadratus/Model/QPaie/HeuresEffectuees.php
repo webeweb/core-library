@@ -272,6 +272,7 @@ class HeuresEffectuees {
      * Set the date jour.
      *
      * @param DateTime|null $dateJour The date jour.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setDateJour(DateTime $dateJour = null) {
         $this->dateJour = $dateJour;
@@ -282,6 +283,7 @@ class HeuresEffectuees {
      * Set the h deb am.
      *
      * @param string $hDebAm The h deb am.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setHDebAm($hDebAm) {
         $this->hDebAm = $hDebAm;
@@ -292,6 +294,7 @@ class HeuresEffectuees {
      * Set the h deb pm.
      *
      * @param string $hDebPm The h deb pm.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setHDebPm($hDebPm) {
         $this->hDebPm = $hDebPm;
@@ -302,6 +305,7 @@ class HeuresEffectuees {
      * Set the h fin am.
      *
      * @param string $hFinAm The h fin am.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setHFinAm($hFinAm) {
         $this->hFinAm = $hFinAm;
@@ -312,6 +316,7 @@ class HeuresEffectuees {
      * Set the h fin pm.
      *
      * @param string $hFinPm The h fin pm.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setHFinPm($hFinPm) {
         $this->hFinPm = $hFinPm;
@@ -322,6 +327,7 @@ class HeuresEffectuees {
      * Set the nb h absence cp.
      *
      * @param float $nbHAbsenceCp The nb h absence cp.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbHAbsenceCp($nbHAbsenceCp) {
         $this->nbHAbsenceCp = $nbHAbsenceCp;
@@ -332,6 +338,7 @@ class HeuresEffectuees {
      * Set the nb h majo.
      *
      * @param float $nbHMajo The nb h majo.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbHMajo($nbHMajo) {
         $this->nbHMajo = $nbHMajo;
@@ -342,6 +349,7 @@ class HeuresEffectuees {
      * Set the nb h nuit.
      *
      * @param float $nbHNuit The nb h nuit.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbHNuit($nbHNuit) {
         $this->nbHNuit = $nbHNuit;
@@ -352,6 +360,7 @@ class HeuresEffectuees {
      * Set the nb h repos comp pris.
      *
      * @param float $nbHReposCompPris The nb h repos comp pris.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbHReposCompPris($nbHReposCompPris) {
         $this->nbHReposCompPris = $nbHReposCompPris;
@@ -362,6 +371,7 @@ class HeuresEffectuees {
      * Set the nb h repos remplace pris.
      *
      * @param float $nbHReposRemplacePris The nb h repos remplace pris.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbHReposRemplacePris($nbHReposRemplacePris) {
         $this->nbHReposRemplacePris = $nbHReposRemplacePris;
@@ -372,6 +382,7 @@ class HeuresEffectuees {
      * Set the nb h travail reel.
      *
      * @param float $nbHTravailReel The nb h travail reel.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbHTravailReel($nbHTravailReel) {
         $this->nbHTravailReel = $nbHTravailReel;
@@ -382,6 +393,7 @@ class HeuresEffectuees {
      * Set the nb hjfnt.
      *
      * @param float $nbHjfnt The nb hjfnt.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbHjfnt($nbHjfnt) {
         $this->nbHjfnt = $nbHjfnt;
@@ -392,6 +404,7 @@ class HeuresEffectuees {
      * Set the nb j repos recup pris.
      *
      * @param float $nbJReposRecupPris The nb j repos recup pris.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbJReposRecupPris($nbJReposRecupPris) {
         $this->nbJReposRecupPris = $nbJReposRecupPris;
@@ -402,6 +415,7 @@ class HeuresEffectuees {
      * Set the nb jour cp pris.
      *
      * @param float $nbJourCpPris The nb jour cp pris.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNbJourCpPris($nbJourCpPris) {
         $this->nbJourCpPris = $nbJourCpPris;
@@ -412,6 +426,7 @@ class HeuresEffectuees {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return HeuresEffectuees Returns this Heures effectuees.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;

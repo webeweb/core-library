@@ -1376,6 +1376,7 @@ class BonTravPrev {
      * Set the ad bt bureau distributeur.
      *
      * @param string $adBtBureauDistributeur The ad bt bureau distributeur.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtBureauDistributeur($adBtBureauDistributeur) {
         $this->adBtBureauDistributeur = $adBtBureauDistributeur;
@@ -1386,6 +1387,7 @@ class BonTravPrev {
      * Set the ad bt civilite.
      *
      * @param string $adBtCivilite The ad bt civilite.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtCivilite($adBtCivilite) {
         $this->adBtCivilite = $adBtCivilite;
@@ -1396,6 +1398,7 @@ class BonTravPrev {
      * Set the ad bt code pays.
      *
      * @param string $adBtCodePays The ad bt code pays.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtCodePays($adBtCodePays) {
         $this->adBtCodePays = $adBtCodePays;
@@ -1406,6 +1409,7 @@ class BonTravPrev {
      * Set the ad bt code postal.
      *
      * @param string $adBtCodePostal The ad bt code postal.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtCodePostal($adBtCodePostal) {
         $this->adBtCodePostal = $adBtCodePostal;
@@ -1416,6 +1420,7 @@ class BonTravPrev {
      * Set the ad bt complement.
      *
      * @param string $adBtComplement The ad bt complement.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtComplement($adBtComplement) {
         $this->adBtComplement = $adBtComplement;
@@ -1426,6 +1431,7 @@ class BonTravPrev {
      * Set the ad bt nom.
      *
      * @param string $adBtNom The ad bt nom.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtNom($adBtNom) {
         $this->adBtNom = $adBtNom;
@@ -1436,6 +1442,7 @@ class BonTravPrev {
      * Set the ad bt nom suite.
      *
      * @param string $adBtNomSuite The ad bt nom suite.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtNomSuite($adBtNomSuite) {
         $this->adBtNomSuite = $adBtNomSuite;
@@ -1446,6 +1453,7 @@ class BonTravPrev {
      * Set the ad bt nom voie.
      *
      * @param string $adBtNomVoie The ad bt nom voie.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtNomVoie($adBtNomVoie) {
         $this->adBtNomVoie = $adBtNomVoie;
@@ -1456,6 +1464,7 @@ class BonTravPrev {
      * Set the ad bt num voie.
      *
      * @param string $adBtNumVoie The ad bt num voie.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtNumVoie($adBtNumVoie) {
         $this->adBtNumVoie = $adBtNumVoie;
@@ -1466,6 +1475,7 @@ class BonTravPrev {
      * Set the ad btbtq.
      *
      * @param string $adBtbtq The ad btbtq.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdBtbtq($adBtbtq) {
         $this->adBtbtq = $adBtbtq;
@@ -1476,6 +1486,7 @@ class BonTravPrev {
      * Set the ad f bureau distributeur.
      *
      * @param string $adFBureauDistributeur The ad f bureau distributeur.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFBureauDistributeur($adFBureauDistributeur) {
         $this->adFBureauDistributeur = $adFBureauDistributeur;
@@ -1486,6 +1497,7 @@ class BonTravPrev {
      * Set the ad f civilite.
      *
      * @param string $adFCivilite The ad f civilite.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFCivilite($adFCivilite) {
         $this->adFCivilite = $adFCivilite;
@@ -1496,6 +1508,7 @@ class BonTravPrev {
      * Set the ad f code pays.
      *
      * @param string $adFCodePays The ad f code pays.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFCodePays($adFCodePays) {
         $this->adFCodePays = $adFCodePays;
@@ -1506,6 +1519,7 @@ class BonTravPrev {
      * Set the ad f code postal.
      *
      * @param string $adFCodePostal The ad f code postal.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFCodePostal($adFCodePostal) {
         $this->adFCodePostal = $adFCodePostal;
@@ -1516,6 +1530,7 @@ class BonTravPrev {
      * Set the ad f complement.
      *
      * @param string $adFComplement The ad f complement.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFComplement($adFComplement) {
         $this->adFComplement = $adFComplement;
@@ -1526,6 +1541,7 @@ class BonTravPrev {
      * Set the ad f nom.
      *
      * @param string $adFNom The ad f nom.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFNom($adFNom) {
         $this->adFNom = $adFNom;
@@ -1536,6 +1552,7 @@ class BonTravPrev {
      * Set the ad f nom suite.
      *
      * @param string $adFNomSuite The ad f nom suite.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFNomSuite($adFNomSuite) {
         $this->adFNomSuite = $adFNomSuite;
@@ -1546,6 +1563,7 @@ class BonTravPrev {
      * Set the ad f nom suite2.
      *
      * @param string $adFNomSuite2 The ad f nom suite2.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFNomSuite2($adFNomSuite2) {
         $this->adFNomSuite2 = $adFNomSuite2;
@@ -1556,6 +1574,7 @@ class BonTravPrev {
      * Set the ad f nom suite3.
      *
      * @param string $adFNomSuite3 The ad f nom suite3.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFNomSuite3($adFNomSuite3) {
         $this->adFNomSuite3 = $adFNomSuite3;
@@ -1566,6 +1585,7 @@ class BonTravPrev {
      * Set the ad f nom voie.
      *
      * @param string $adFNomVoie The ad f nom voie.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFNomVoie($adFNomVoie) {
         $this->adFNomVoie = $adFNomVoie;
@@ -1576,6 +1596,7 @@ class BonTravPrev {
      * Set the ad f num voie.
      *
      * @param string $adFNumVoie The ad f num voie.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFNumVoie($adFNumVoie) {
         $this->adFNumVoie = $adFNumVoie;
@@ -1586,6 +1607,7 @@ class BonTravPrev {
      * Set the ad fbtq.
      *
      * @param string $adFbtq The ad fbtq.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdFbtq($adFbtq) {
         $this->adFbtq = $adFbtq;
@@ -1596,6 +1618,7 @@ class BonTravPrev {
      * Set the adresse bt saisie.
      *
      * @param bool $adresseBtSaisie The adresse bt saisie.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdresseBtSaisie($adresseBtSaisie) {
         $this->adresseBtSaisie = $adresseBtSaisie;
@@ -1606,6 +1629,7 @@ class BonTravPrev {
      * Set the adresse facturation saisie.
      *
      * @param bool $adresseFacturationSaisie The adresse facturation saisie.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setAdresseFacturationSaisie($adresseFacturationSaisie) {
         $this->adresseFacturationSaisie = $adresseFacturationSaisie;
@@ -1616,6 +1640,7 @@ class BonTravPrev {
      * Set the bt copie.
      *
      * @param bool $btCopie The bt copie.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setBtCopie($btCopie) {
         $this->btCopie = $btCopie;
@@ -1626,6 +1651,7 @@ class BonTravPrev {
      * Set the bt devis deja facture.
      *
      * @param bool $btDevisDejaFacture The bt devis deja facture.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setBtDevisDejaFacture($btDevisDejaFacture) {
         $this->btDevisDejaFacture = $btDevisDejaFacture;
@@ -1636,6 +1662,7 @@ class BonTravPrev {
      * Set the bt valide.
      *
      * @param bool $btValide The bt valide.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setBtValide($btValide) {
         $this->btValide = $btValide;
@@ -1646,6 +1673,7 @@ class BonTravPrev {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -1656,6 +1684,7 @@ class BonTravPrev {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -1666,6 +1695,7 @@ class BonTravPrev {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -1676,6 +1706,7 @@ class BonTravPrev {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -1686,6 +1717,7 @@ class BonTravPrev {
      * Set the code equipe.
      *
      * @param string $codeEquipe The code equipe.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCodeEquipe($codeEquipe) {
         $this->codeEquipe = $codeEquipe;
@@ -1696,6 +1728,7 @@ class BonTravPrev {
      * Set the code regroupement devis.
      *
      * @param string $codeRegroupementDevis The code regroupement devis.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCodeRegroupementDevis($codeRegroupementDevis) {
         $this->codeRegroupementDevis = $codeRegroupementDevis;
@@ -1706,6 +1739,7 @@ class BonTravPrev {
      * Set the code tache type.
      *
      * @param string $codeTacheType The code tache type.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCodeTacheType($codeTacheType) {
         $this->codeTacheType = $codeTacheType;
@@ -1716,6 +1750,7 @@ class BonTravPrev {
      * Set the code tournee.
      *
      * @param string $codeTournee The code tournee.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCodeTournee($codeTournee) {
         $this->codeTournee = $codeTournee;
@@ -1726,6 +1761,7 @@ class BonTravPrev {
      * Set the critere bool1.
      *
      * @param bool $critereBool1 The critere bool1.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereBool1($critereBool1) {
         $this->critereBool1 = $critereBool1;
@@ -1736,6 +1772,7 @@ class BonTravPrev {
      * Set the critere bool2.
      *
      * @param bool $critereBool2 The critere bool2.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereBool2($critereBool2) {
         $this->critereBool2 = $critereBool2;
@@ -1746,6 +1783,7 @@ class BonTravPrev {
      * Set the critere byte1.
      *
      * @param string $critereByte1 The critere byte1.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereByte1($critereByte1) {
         $this->critereByte1 = $critereByte1;
@@ -1756,6 +1794,7 @@ class BonTravPrev {
      * Set the critere liste1.
      *
      * @param string $critereListe1 The critere liste1.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereListe1($critereListe1) {
         $this->critereListe1 = $critereListe1;
@@ -1766,6 +1805,7 @@ class BonTravPrev {
      * Set the critere liste2.
      *
      * @param string $critereListe2 The critere liste2.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereListe2($critereListe2) {
         $this->critereListe2 = $critereListe2;
@@ -1776,6 +1816,7 @@ class BonTravPrev {
      * Set the critere numerique1.
      *
      * @param float $critereNumerique1 The critere numerique1.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereNumerique1($critereNumerique1) {
         $this->critereNumerique1 = $critereNumerique1;
@@ -1786,6 +1827,7 @@ class BonTravPrev {
      * Set the critere numerique2.
      *
      * @param float $critereNumerique2 The critere numerique2.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereNumerique2($critereNumerique2) {
         $this->critereNumerique2 = $critereNumerique2;
@@ -1796,6 +1838,7 @@ class BonTravPrev {
      * Set the critere texte1.
      *
      * @param string $critereTexte1 The critere texte1.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereTexte1($critereTexte1) {
         $this->critereTexte1 = $critereTexte1;
@@ -1806,6 +1849,7 @@ class BonTravPrev {
      * Set the critere texte2.
      *
      * @param string $critereTexte2 The critere texte2.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setCritereTexte2($critereTexte2) {
         $this->critereTexte2 = $critereTexte2;
@@ -1816,6 +1860,7 @@ class BonTravPrev {
      * Set the date passage.
      *
      * @param DateTime|null $datePassage The date passage.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setDatePassage(DateTime $datePassage = null) {
         $this->datePassage = $datePassage;
@@ -1826,6 +1871,7 @@ class BonTravPrev {
      * Set the date premier passage.
      *
      * @param DateTime|null $datePremierPassage The date premier passage.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setDatePremierPassage(DateTime $datePremierPassage = null) {
         $this->datePremierPassage = $datePremierPassage;
@@ -1836,6 +1882,7 @@ class BonTravPrev {
      * Set the date transfert.
      *
      * @param DateTime|null $dateTransfert The date transfert.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setDateTransfert(DateTime $dateTransfert = null) {
         $this->dateTransfert = $dateTransfert;
@@ -1846,6 +1893,7 @@ class BonTravPrev {
      * Set the description.
      *
      * @param string $description The description.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setDescription($description) {
         $this->description = $description;
@@ -1856,6 +1904,7 @@ class BonTravPrev {
      * Set the duree pointee.
      *
      * @param float $dureePointee The duree pointee.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setDureePointee($dureePointee) {
         $this->dureePointee = $dureePointee;
@@ -1866,6 +1915,7 @@ class BonTravPrev {
      * Set the duree prevue.
      *
      * @param float $dureePrevue The duree prevue.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setDureePrevue($dureePrevue) {
         $this->dureePrevue = $dureePrevue;
@@ -1876,6 +1926,7 @@ class BonTravPrev {
      * Set the duree validee.
      *
      * @param float $dureeValidee The duree validee.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setDureeValidee($dureeValidee) {
         $this->dureeValidee = $dureeValidee;
@@ -1886,6 +1937,7 @@ class BonTravPrev {
      * Set the employe signe mob.
      *
      * @param string $employeSigneMob The employe signe mob.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setEmployeSigneMob($employeSigneMob) {
         $this->employeSigneMob = $employeSigneMob;
@@ -1896,6 +1948,7 @@ class BonTravPrev {
      * Set the gestion planning.
      *
      * @param bool $gestionPlanning The gestion planning.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setGestionPlanning($gestionPlanning) {
         $this->gestionPlanning = $gestionPlanning;
@@ -1906,6 +1959,7 @@ class BonTravPrev {
      * Set the guid mob.
      *
      * @param string $guidMob The guid mob.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setGuidMob($guidMob) {
         $this->guidMob = $guidMob;
@@ -1916,6 +1970,7 @@ class BonTravPrev {
      * Set the heure deb.
      *
      * @param DateTime|null $heureDeb The heure deb.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setHeureDeb(DateTime $heureDeb = null) {
         $this->heureDeb = $heureDeb;
@@ -1926,6 +1981,7 @@ class BonTravPrev {
      * Set the latitude.
      *
      * @param float $latitude The latitude.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setLatitude($latitude) {
         $this->latitude = $latitude;
@@ -1936,6 +1992,7 @@ class BonTravPrev {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -1946,6 +2003,7 @@ class BonTravPrev {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -1956,6 +2014,7 @@ class BonTravPrev {
      * Set the longitude.
      *
      * @param float $longitude The longitude.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setLongitude($longitude) {
         $this->longitude = $longitude;
@@ -1966,6 +2025,7 @@ class BonTravPrev {
      * Set the montant ht devis.
      *
      * @param float $montantHtDevis The montant ht devis.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setMontantHtDevis($montantHtDevis) {
         $this->montantHtDevis = $montantHtDevis;
@@ -1976,6 +2036,7 @@ class BonTravPrev {
      * Set the nb jours pointes.
      *
      * @param float $nbJoursPointes The nb jours pointes.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setNbJoursPointes($nbJoursPointes) {
         $this->nbJoursPointes = $nbJoursPointes;
@@ -1986,6 +2047,7 @@ class BonTravPrev {
      * Set the nb jours prevus.
      *
      * @param float $nbJoursPrevus The nb jours prevus.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setNbJoursPrevus($nbJoursPrevus) {
         $this->nbJoursPrevus = $nbJoursPrevus;
@@ -1996,6 +2058,7 @@ class BonTravPrev {
      * Set the nombre employes.
      *
      * @param int $nombreEmployes The nombre employes.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setNombreEmployes($nombreEmployes) {
         $this->nombreEmployes = $nombreEmployes;
@@ -2006,6 +2069,7 @@ class BonTravPrev {
      * Set the non traite.
      *
      * @param bool $nonTraite The non traite.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setNonTraite($nonTraite) {
         $this->nonTraite = $nonTraite;
@@ -2016,6 +2080,7 @@ class BonTravPrev {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -2026,6 +2091,7 @@ class BonTravPrev {
      * Set the numero devis.
      *
      * @param string $numeroDevis The numero devis.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setNumeroDevis($numeroDevis) {
         $this->numeroDevis = $numeroDevis;
@@ -2036,6 +2102,7 @@ class BonTravPrev {
      * Set the numero facture.
      *
      * @param string $numeroFacture The numero facture.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setNumeroFacture($numeroFacture) {
         $this->numeroFacture = $numeroFacture;
@@ -2046,6 +2113,7 @@ class BonTravPrev {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -2056,6 +2124,7 @@ class BonTravPrev {
      * Set the observation client.
      *
      * @param string $observationClient The observation client.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setObservationClient($observationClient) {
         $this->observationClient = $observationClient;
@@ -2066,6 +2135,7 @@ class BonTravPrev {
      * Set the observation interne.
      *
      * @param string $observationInterne The observation interne.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setObservationInterne($observationInterne) {
         $this->observationInterne = $observationInterne;
@@ -2076,6 +2146,7 @@ class BonTravPrev {
      * Set the occasionnel.
      *
      * @param bool $occasionnel The occasionnel.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setOccasionnel($occasionnel) {
         $this->occasionnel = $occasionnel;
@@ -2086,6 +2157,7 @@ class BonTravPrev {
      * Set the plusieurs jours.
      *
      * @param bool $plusieursJours The plusieurs jours.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setPlusieursJours($plusieursJours) {
         $this->plusieursJours = $plusieursJours;
@@ -2096,6 +2168,7 @@ class BonTravPrev {
      * Set the plusieurs mois.
      *
      * @param bool $plusieursMois The plusieurs mois.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setPlusieursMois($plusieursMois) {
         $this->plusieursMois = $plusieursMois;
@@ -2106,6 +2179,7 @@ class BonTravPrev {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -2116,6 +2190,7 @@ class BonTravPrev {
      * Set the proratise.
      *
      * @param bool $proratise The proratise.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setProratise($proratise) {
         $this->proratise = $proratise;
@@ -2126,6 +2201,7 @@ class BonTravPrev {
      * Set the signataire.
      *
      * @param string $signataire The signataire.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setSignataire($signataire) {
         $this->signataire = $signataire;
@@ -2136,6 +2212,7 @@ class BonTravPrev {
      * Set the signe.
      *
      * @param bool $signe The signe.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setSigne($signe) {
         $this->signe = $signe;
@@ -2146,6 +2223,7 @@ class BonTravPrev {
      * Set the start mob.
      *
      * @param string $startMob The start mob.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setStartMob($startMob) {
         $this->startMob = $startMob;
@@ -2156,6 +2234,7 @@ class BonTravPrev {
      * Set the type bt.
      *
      * @param string $typeBt The type bt.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setTypeBt($typeBt) {
         $this->typeBt = $typeBt;
@@ -2166,6 +2245,7 @@ class BonTravPrev {
      * Set the type bt saisi.
      *
      * @param string $typeBtSaisi The type bt saisi.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setTypeBtSaisi($typeBtSaisi) {
         $this->typeBtSaisi = $typeBtSaisi;
@@ -2176,6 +2256,7 @@ class BonTravPrev {
      * Set the uniq id blocage.
      *
      * @param string $uniqIdBlocage The uniq id blocage.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setUniqIdBlocage($uniqIdBlocage) {
         $this->uniqIdBlocage = $uniqIdBlocage;
@@ -2186,6 +2267,7 @@ class BonTravPrev {
      * Set the via.
      *
      * @param string $via The via.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setVia($via) {
         $this->via = $via;
@@ -2196,6 +2278,7 @@ class BonTravPrev {
      * Set the reference1 devis.
      *
      * @param string $reference1Devis The reference1 devis.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setreference1Devis($reference1Devis) {
         $this->reference1Devis = $reference1Devis;
@@ -2206,6 +2289,7 @@ class BonTravPrev {
      * Set the reference2 devis.
      *
      * @param string $reference2Devis The reference2 devis.
+     * @return BonTravPrev Returns this Bon trav prev.
      */
     public function setreference2Devis($reference2Devis) {
         $this->reference2Devis = $reference2Devis;

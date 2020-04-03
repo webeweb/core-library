@@ -160,6 +160,7 @@ class StatsPersoSuiviClientTetes {
      * Set the code.
      *
      * @param string $code The code.
+     * @return StatsPersoSuiviClientTetes Returns this Stats perso suivi client tetes.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -170,6 +171,7 @@ class StatsPersoSuiviClientTetes {
      * Set the coll creat.
      *
      * @param string $collCreat The coll creat.
+     * @return StatsPersoSuiviClientTetes Returns this Stats perso suivi client tetes.
      */
     public function setCollCreat($collCreat) {
         $this->collCreat = $collCreat;
@@ -180,6 +182,7 @@ class StatsPersoSuiviClientTetes {
      * Set the coll modif.
      *
      * @param string $collModif The coll modif.
+     * @return StatsPersoSuiviClientTetes Returns this Stats perso suivi client tetes.
      */
     public function setCollModif($collModif) {
         $this->collModif = $collModif;
@@ -190,6 +193,7 @@ class StatsPersoSuiviClientTetes {
      * Set the date creat.
      *
      * @param DateTime|null $dateCreat The date creat.
+     * @return StatsPersoSuiviClientTetes Returns this Stats perso suivi client tetes.
      */
     public function setDateCreat(DateTime $dateCreat = null) {
         $this->dateCreat = $dateCreat;
@@ -200,6 +204,7 @@ class StatsPersoSuiviClientTetes {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return StatsPersoSuiviClientTetes Returns this Stats perso suivi client tetes.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -210,6 +215,7 @@ class StatsPersoSuiviClientTetes {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return StatsPersoSuiviClientTetes Returns this Stats perso suivi client tetes.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -220,6 +226,7 @@ class StatsPersoSuiviClientTetes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return StatsPersoSuiviClientTetes Returns this Stats perso suivi client tetes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -230,6 +237,7 @@ class StatsPersoSuiviClientTetes {
      * Set the lst collab.
      *
      * @param string $lstCollab The lst collab.
+     * @return StatsPersoSuiviClientTetes Returns this Stats perso suivi client tetes.
      */
     public function setLstCollab($lstCollab) {
         $this->lstCollab = $lstCollab;

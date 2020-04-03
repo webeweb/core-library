@@ -160,6 +160,7 @@ class EmpDadsuPrevoyance {
      * Set the code affil secu.
      *
      * @param string $codeAffilSecu The code affil secu.
+     * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
     public function setCodeAffilSecu($codeAffilSecu) {
         $this->codeAffilSecu = $codeAffilSecu;
@@ -170,6 +171,7 @@ class EmpDadsuPrevoyance {
      * Set the date ancien branche.
      *
      * @param DateTime|null $dateAncienBranche The date ancien branche.
+     * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
     public function setDateAncienBranche(DateTime $dateAncienBranche = null) {
         $this->dateAncienBranche = $dateAncienBranche;
@@ -180,6 +182,7 @@ class EmpDadsuPrevoyance {
      * Set the date ancien college.
      *
      * @param DateTime|null $dateAncienCollege The date ancien college.
+     * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
     public function setDateAncienCollege(DateTime $dateAncienCollege = null) {
         $this->dateAncienCollege = $dateAncienCollege;
@@ -190,6 +193,7 @@ class EmpDadsuPrevoyance {
      * Set the date ancien poste.
      *
      * @param DateTime|null $dateAncienPoste The date ancien poste.
+     * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
     public function setDateAncienPoste(DateTime $dateAncienPoste = null) {
         $this->dateAncienPoste = $dateAncienPoste;
@@ -200,6 +204,7 @@ class EmpDadsuPrevoyance {
      * Set the nb enfants.
      *
      * @param string $nbEnfants The nb enfants.
+     * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
     public function setNbEnfants($nbEnfants) {
         $this->nbEnfants = $nbEnfants;
@@ -210,6 +215,7 @@ class EmpDadsuPrevoyance {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -220,6 +226,7 @@ class EmpDadsuPrevoyance {
      * Set the prem date entree.
      *
      * @param DateTime|null $premDateEntree The prem date entree.
+     * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
     public function setPremDateEntree(DateTime $premDateEntree = null) {
         $this->premDateEntree = $premDateEntree;
@@ -230,6 +237,7 @@ class EmpDadsuPrevoyance {
      * Set the rang naissance.
      *
      * @param string $rangNaissance The rang naissance.
+     * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
     public function setRangNaissance($rangNaissance) {
         $this->rangNaissance = $rangNaissance;

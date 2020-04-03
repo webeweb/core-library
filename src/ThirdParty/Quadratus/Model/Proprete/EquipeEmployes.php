@@ -62,6 +62,7 @@ class EquipeEmployes {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return EquipeEmployes Returns this Equipe employes.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -72,6 +73,7 @@ class EquipeEmployes {
      * Set the code equipe.
      *
      * @param string $codeEquipe The code equipe.
+     * @return EquipeEmployes Returns this Equipe employes.
      */
     public function setCodeEquipe($codeEquipe) {
         $this->codeEquipe = $codeEquipe;

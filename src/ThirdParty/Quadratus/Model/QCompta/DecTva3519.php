@@ -1024,6 +1024,7 @@ class DecTva3519 {
      * Set the autres ope1.
      *
      * @param float $autresOpe1 The autres ope1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setAutresOpe1($autresOpe1) {
         $this->autresOpe1 = $autresOpe1;
@@ -1034,6 +1035,7 @@ class DecTva3519 {
      * Set the autres ope2.
      *
      * @param float $autresOpe2 The autres ope2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setAutresOpe2($autresOpe2) {
         $this->autresOpe2 = $autresOpe2;
@@ -1044,6 +1046,7 @@ class DecTva3519 {
      * Set the autres ope3.
      *
      * @param float $autresOpe3 The autres ope3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setAutresOpe3($autresOpe3) {
         $this->autresOpe3 = $autresOpe3;
@@ -1054,6 +1057,7 @@ class DecTva3519 {
      * Set the autres ope4.
      *
      * @param float $autresOpe4 The autres ope4.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setAutresOpe4($autresOpe4) {
         $this->autresOpe4 = $autresOpe4;
@@ -1064,6 +1068,7 @@ class DecTva3519 {
      * Set the autres ope total.
      *
      * @param float $autresOpeTotal The autres ope total.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setAutresOpeTotal($autresOpeTotal) {
         $this->autresOpeTotal = $autresOpeTotal;
@@ -1074,6 +1079,7 @@ class DecTva3519 {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -1084,6 +1090,7 @@ class DecTva3519 {
      * Set the commentaires1.
      *
      * @param string $commentaires1 The commentaires1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setCommentaires1($commentaires1) {
         $this->commentaires1 = $commentaires1;
@@ -1094,6 +1101,7 @@ class DecTva3519 {
      * Set the commentaires2.
      *
      * @param string $commentaires2 The commentaires2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setCommentaires2($commentaires2) {
         $this->commentaires2 = $commentaires2;
@@ -1104,6 +1112,7 @@ class DecTva3519 {
      * Set the commentaires3.
      *
      * @param string $commentaires3 The commentaires3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setCommentaires3($commentaires3) {
         $this->commentaires3 = $commentaires3;
@@ -1114,6 +1123,7 @@ class DecTva3519 {
      * Set the commentaires4.
      *
      * @param string $commentaires4 The commentaires4.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setCommentaires4($commentaires4) {
         $this->commentaires4 = $commentaires4;
@@ -1124,6 +1134,7 @@ class DecTva3519 {
      * Set the commentaires5.
      *
      * @param string $commentaires5 The commentaires5.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setCommentaires5($commentaires5) {
         $this->commentaires5 = $commentaires5;
@@ -1134,6 +1145,7 @@ class DecTva3519 {
      * Set the credit compte.
      *
      * @param bool $creditCompte The credit compte.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setCreditCompte($creditCompte) {
         $this->creditCompte = $creditCompte;
@@ -1144,6 +1156,7 @@ class DecTva3519 {
      * Set the credit imputer.
      *
      * @param bool $creditImputer The credit imputer.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setCreditImputer($creditImputer) {
         $this->creditImputer = $creditImputer;
@@ -1154,6 +1167,7 @@ class DecTva3519 {
      * Set the credit non remb.
      *
      * @param float $creditNonRemb The credit non remb.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setCreditNonRemb($creditNonRemb) {
         $this->creditNonRemb = $creditNonRemb;
@@ -1164,6 +1178,7 @@ class DecTva3519 {
      * Set the date cession.
      *
      * @param DateTime|null $dateCession The date cession.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setDateCession(DateTime $dateCession = null) {
         $this->dateCession = $dateCession;
@@ -1174,6 +1189,7 @@ class DecTva3519 {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -1184,6 +1200,7 @@ class DecTva3519 {
      * Set the date demande.
      *
      * @param DateTime|null $dateDemande The date demande.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setDateDemande(DateTime $dateDemande = null) {
         $this->dateDemande = $dateDemande;
@@ -1194,6 +1211,7 @@ class DecTva3519 {
      * Set the exp biens1.
      *
      * @param float $expBiens1 The exp biens1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setExpBiens1($expBiens1) {
         $this->expBiens1 = $expBiens1;
@@ -1204,6 +1222,7 @@ class DecTva3519 {
      * Set the exp biens2.
      *
      * @param float $expBiens2 The exp biens2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setExpBiens2($expBiens2) {
         $this->expBiens2 = $expBiens2;
@@ -1214,6 +1233,7 @@ class DecTva3519 {
      * Set the exp biens3.
      *
      * @param float $expBiens3 The exp biens3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setExpBiens3($expBiens3) {
         $this->expBiens3 = $expBiens3;
@@ -1224,6 +1244,7 @@ class DecTva3519 {
      * Set the exp biens4.
      *
      * @param float $expBiens4 The exp biens4.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setExpBiens4($expBiens4) {
         $this->expBiens4 = $expBiens4;
@@ -1234,6 +1255,7 @@ class DecTva3519 {
      * Set the exp biens total.
      *
      * @param float $expBiensTotal The exp biens total.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setExpBiensTotal($expBiensTotal) {
         $this->expBiensTotal = $expBiensTotal;
@@ -1244,6 +1266,7 @@ class DecTva3519 {
      * Set the exp periodes.
      *
      * @param string $expPeriodes The exp periodes.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setExpPeriodes($expPeriodes) {
         $this->expPeriodes = $expPeriodes;
@@ -1254,6 +1277,7 @@ class DecTva3519 {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -1264,6 +1288,7 @@ class DecTva3519 {
      * Set the intracom1.
      *
      * @param float $intracom1 The intracom1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setIntracom1($intracom1) {
         $this->intracom1 = $intracom1;
@@ -1274,6 +1299,7 @@ class DecTva3519 {
      * Set the intracom2.
      *
      * @param float $intracom2 The intracom2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setIntracom2($intracom2) {
         $this->intracom2 = $intracom2;
@@ -1284,6 +1310,7 @@ class DecTva3519 {
      * Set the intracom3.
      *
      * @param float $intracom3 The intracom3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setIntracom3($intracom3) {
         $this->intracom3 = $intracom3;
@@ -1294,6 +1321,7 @@ class DecTva3519 {
      * Set the intracom4.
      *
      * @param float $intracom4 The intracom4.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setIntracom4($intracom4) {
         $this->intracom4 = $intracom4;
@@ -1304,6 +1332,7 @@ class DecTva3519 {
      * Set the intracom total.
      *
      * @param float $intracomTotal The intracom total.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setIntracomTotal($intracomTotal) {
         $this->intracomTotal = $intracomTotal;
@@ -1314,6 +1343,7 @@ class DecTva3519 {
      * Set the mois1.
      *
      * @param int $mois1 The mois1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setMois1($mois1) {
         $this->mois1 = $mois1;
@@ -1324,6 +1354,7 @@ class DecTva3519 {
      * Set the mois2.
      *
      * @param int $mois2 The mois2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setMois2($mois2) {
         $this->mois2 = $mois2;
@@ -1334,6 +1365,7 @@ class DecTva3519 {
      * Set the mois3.
      *
      * @param int $mois3 The mois3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setMois3($mois3) {
         $this->mois3 = $mois3;
@@ -1344,6 +1376,7 @@ class DecTva3519 {
      * Set the montant1.
      *
      * @param float $montant1 The montant1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setMontant1($montant1) {
         $this->montant1 = $montant1;
@@ -1354,6 +1387,7 @@ class DecTva3519 {
      * Set the montant2.
      *
      * @param float $montant2 The montant2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setMontant2($montant2) {
         $this->montant2 = $montant2;
@@ -1364,6 +1398,7 @@ class DecTva3519 {
      * Set the montant3.
      *
      * @param float $montant3 The montant3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setMontant3($montant3) {
         $this->montant3 = $montant3;
@@ -1374,6 +1409,7 @@ class DecTva3519 {
      * Set the montant rbt.
      *
      * @param float $montantRbt The montant rbt.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setMontantRbt($montantRbt) {
         $this->montantRbt = $montantRbt;
@@ -1384,6 +1420,7 @@ class DecTva3519 {
      * Set the nationalite.
      *
      * @param int $nationalite The nationalite.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setNationalite($nationalite) {
         $this->nationalite = $nationalite;
@@ -1394,6 +1431,7 @@ class DecTva3519 {
      * Set the nom prenom.
      *
      * @param string $nomPrenom The nom prenom.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setNomPrenom($nomPrenom) {
         $this->nomPrenom = $nomPrenom;
@@ -1404,6 +1442,7 @@ class DecTva3519 {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -1414,6 +1453,7 @@ class DecTva3519 {
      * Set the plafond rbt.
      *
      * @param float $plafondRbt The plafond rbt.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setPlafondRbt($plafondRbt) {
         $this->plafondRbt = $plafondRbt;
@@ -1424,6 +1464,7 @@ class DecTva3519 {
      * Set the qualite.
      *
      * @param string $qualite The qualite.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setQualite($qualite) {
         $this->qualite = $qualite;
@@ -1434,6 +1475,7 @@ class DecTva3519 {
      * Set the rbt demande.
      *
      * @param float $rbtDemande The rbt demande.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setRbtDemande($rbtDemande) {
         $this->rbtDemande = $rbtDemande;
@@ -1444,6 +1486,7 @@ class DecTva3519 {
      * Set the report credit.
      *
      * @param float $reportCredit The report credit.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setReportCredit($reportCredit) {
         $this->reportCredit = $reportCredit;
@@ -1454,6 +1497,7 @@ class DecTva3519 {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -1464,6 +1508,7 @@ class DecTva3519 {
      * Set the taux tva1.
      *
      * @param float $tauxTva1 The taux tva1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTauxTva1($tauxTva1) {
         $this->tauxTva1 = $tauxTva1;
@@ -1474,6 +1519,7 @@ class DecTva3519 {
      * Set the taux tva2.
      *
      * @param float $tauxTva2 The taux tva2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTauxTva2($tauxTva2) {
         $this->tauxTva2 = $tauxTva2;
@@ -1484,6 +1530,7 @@ class DecTva3519 {
      * Set the taux tva3.
      *
      * @param float $tauxTva3 The taux tva3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTauxTva3($tauxTva3) {
         $this->tauxTva3 = $tauxTva3;
@@ -1494,6 +1541,7 @@ class DecTva3519 {
      * Set the taux tva4.
      *
      * @param float $tauxTva4 The taux tva4.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTauxTva4($tauxTva4) {
         $this->tauxTva4 = $tauxTva4;
@@ -1504,6 +1552,7 @@ class DecTva3519 {
      * Set the total colonne1.
      *
      * @param float $totalColonne1 The total colonne1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTotalColonne1($totalColonne1) {
         $this->totalColonne1 = $totalColonne1;
@@ -1514,6 +1563,7 @@ class DecTva3519 {
      * Set the total colonne2.
      *
      * @param float $totalColonne2 The total colonne2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTotalColonne2($totalColonne2) {
         $this->totalColonne2 = $totalColonne2;
@@ -1524,6 +1574,7 @@ class DecTva3519 {
      * Set the total colonne3.
      *
      * @param float $totalColonne3 The total colonne3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTotalColonne3($totalColonne3) {
         $this->totalColonne3 = $totalColonne3;
@@ -1534,6 +1585,7 @@ class DecTva3519 {
      * Set the total colonne4.
      *
      * @param float $totalColonne4 The total colonne4.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTotalColonne4($totalColonne4) {
         $this->totalColonne4 = $totalColonne4;
@@ -1544,6 +1596,7 @@ class DecTva3519 {
      * Set the total colonne5.
      *
      * @param float $totalColonne5 The total colonne5.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTotalColonne5($totalColonne5) {
         $this->totalColonne5 = $totalColonne5;
@@ -1554,6 +1607,7 @@ class DecTva3519 {
      * Set the tva fictive1.
      *
      * @param float $tvaFictive1 The tva fictive1.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTvaFictive1($tvaFictive1) {
         $this->tvaFictive1 = $tvaFictive1;
@@ -1564,6 +1618,7 @@ class DecTva3519 {
      * Set the tva fictive2.
      *
      * @param float $tvaFictive2 The tva fictive2.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTvaFictive2($tvaFictive2) {
         $this->tvaFictive2 = $tvaFictive2;
@@ -1574,6 +1629,7 @@ class DecTva3519 {
      * Set the tva fictive3.
      *
      * @param float $tvaFictive3 The tva fictive3.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTvaFictive3($tvaFictive3) {
         $this->tvaFictive3 = $tvaFictive3;
@@ -1584,6 +1640,7 @@ class DecTva3519 {
      * Set the tva fictive4.
      *
      * @param float $tvaFictive4 The tva fictive4.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTvaFictive4($tvaFictive4) {
         $this->tvaFictive4 = $tvaFictive4;
@@ -1594,6 +1651,7 @@ class DecTva3519 {
      * Set the tva fictive5.
      *
      * @param float $tvaFictive5 The tva fictive5.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTvaFictive5($tvaFictive5) {
         $this->tvaFictive5 = $tvaFictive5;
@@ -1604,6 +1662,7 @@ class DecTva3519 {
      * Set the tva fictive prec.
      *
      * @param float $tvaFictivePrec The tva fictive prec.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTvaFictivePrec($tvaFictivePrec) {
         $this->tvaFictivePrec = $tvaFictivePrec;
@@ -1614,6 +1673,7 @@ class DecTva3519 {
      * Set the tva fictive pres.
      *
      * @param float $tvaFictivePres The tva fictive pres.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTvaFictivePres($tvaFictivePres) {
         $this->tvaFictivePres = $tvaFictivePres;
@@ -1624,6 +1684,7 @@ class DecTva3519 {
      * Set the type demande.
      *
      * @param int $typeDemande The type demande.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setTypeDemande($typeDemande) {
         $this->typeDemande = $typeDemande;
@@ -1634,6 +1695,7 @@ class DecTva3519 {
      * Set the ville.
      *
      * @param string $ville The ville.
+     * @return DecTva3519 Returns this Dec tva3519.
      */
     public function setVille($ville) {
         $this->ville = $ville;

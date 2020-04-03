@@ -110,6 +110,7 @@ class LibellesiPaie {
      * Set the code.
      *
      * @param string $code The code.
+     * @return LibellesiPaie Returns this Libellesi paie.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -120,6 +121,7 @@ class LibellesiPaie {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return LibellesiPaie Returns this Libellesi paie.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -130,6 +132,7 @@ class LibellesiPaie {
      * Set the intitule specifi paie.
      *
      * @param bool $intituleSpecifiPaie The intitule specifi paie.
+     * @return LibellesiPaie Returns this Libellesi paie.
      */
     public function setIntituleSpecifiPaie($intituleSpecifiPaie) {
         $this->intituleSpecifiPaie = $intituleSpecifiPaie;
@@ -140,6 +143,7 @@ class LibellesiPaie {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return LibellesiPaie Returns this Libellesi paie.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -150,6 +154,7 @@ class LibellesiPaie {
      * Set the visiblei paie.
      *
      * @param string $visibleiPaie The visiblei paie.
+     * @return LibellesiPaie Returns this Libellesi paie.
      */
     public function setVisibleiPaie($visibleiPaie) {
         $this->visibleiPaie = $visibleiPaie;

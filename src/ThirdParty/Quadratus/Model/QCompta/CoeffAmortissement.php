@@ -80,6 +80,7 @@ class CoeffAmortissement {
      * Set the coeff.
      *
      * @param float $coeff The coeff.
+     * @return CoeffAmortissement Returns this Coeff amortissement.
      */
     public function setCoeff($coeff) {
         $this->coeff = $coeff;
@@ -90,6 +91,7 @@ class CoeffAmortissement {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return CoeffAmortissement Returns this Coeff amortissement.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -100,6 +102,7 @@ class CoeffAmortissement {
      * Set the duree.
      *
      * @param int $duree The duree.
+     * @return CoeffAmortissement Returns this Coeff amortissement.
      */
     public function setDuree($duree) {
         $this->duree = $duree;

@@ -512,6 +512,7 @@ class PlansEnTeteBonTrav {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -522,6 +523,7 @@ class PlansEnTeteBonTrav {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -532,6 +534,7 @@ class PlansEnTeteBonTrav {
      * Set the civilite.
      *
      * @param string $civilite The civilite.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setCivilite($civilite) {
         $this->civilite = $civilite;
@@ -542,6 +545,7 @@ class PlansEnTeteBonTrav {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -552,6 +556,7 @@ class PlansEnTeteBonTrav {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -562,6 +567,7 @@ class PlansEnTeteBonTrav {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -572,6 +578,7 @@ class PlansEnTeteBonTrav {
      * Set the code pays.
      *
      * @param string $codePays The code pays.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setCodePays($codePays) {
         $this->codePays = $codePays;
@@ -582,6 +589,7 @@ class PlansEnTeteBonTrav {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -592,6 +600,7 @@ class PlansEnTeteBonTrav {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -602,6 +611,7 @@ class PlansEnTeteBonTrav {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -612,6 +622,7 @@ class PlansEnTeteBonTrav {
      * Set the dt avant dern prepa.
      *
      * @param DateTime|null $dtAvantDernPrepa The dt avant dern prepa.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setDtAvantDernPrepa(DateTime $dtAvantDernPrepa = null) {
         $this->dtAvantDernPrepa = $dtAvantDernPrepa;
@@ -622,6 +633,7 @@ class PlansEnTeteBonTrav {
      * Set the dt dern prepa.
      *
      * @param DateTime|null $dtDernPrepa The dt dern prepa.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setDtDernPrepa(DateTime $dtDernPrepa = null) {
         $this->dtDernPrepa = $dtDernPrepa;
@@ -632,6 +644,7 @@ class PlansEnTeteBonTrav {
      * Set the dt validite fact deb.
      *
      * @param DateTime|null $dtValiditeFactDeb The dt validite fact deb.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setDtValiditeFactDeb(DateTime $dtValiditeFactDeb = null) {
         $this->dtValiditeFactDeb = $dtValiditeFactDeb;
@@ -642,6 +655,7 @@ class PlansEnTeteBonTrav {
      * Set the dt validite fact deb deb mois.
      *
      * @param DateTime|null $dtValiditeFactDebDebMois The dt validite fact deb deb mois.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setDtValiditeFactDebDebMois(DateTime $dtValiditeFactDebDebMois = null) {
         $this->dtValiditeFactDebDebMois = $dtValiditeFactDebDebMois;
@@ -652,6 +666,7 @@ class PlansEnTeteBonTrav {
      * Set the dt validite fact fin.
      *
      * @param DateTime|null $dtValiditeFactFin The dt validite fact fin.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setDtValiditeFactFin(DateTime $dtValiditeFactFin = null) {
         $this->dtValiditeFactFin = $dtValiditeFactFin;
@@ -662,6 +677,7 @@ class PlansEnTeteBonTrav {
      * Set the dt validite fact fin fin mois.
      *
      * @param DateTime|null $dtValiditeFactFinFinMois The dt validite fact fin fin mois.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setDtValiditeFactFinFinMois(DateTime $dtValiditeFactFinFinMois = null) {
         $this->dtValiditeFactFinFinMois = $dtValiditeFactFinFinMois;
@@ -672,6 +688,7 @@ class PlansEnTeteBonTrav {
      * Set the jour fact.
      *
      * @param string $jourFact The jour fact.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setJourFact($jourFact) {
         $this->jourFact = $jourFact;
@@ -682,6 +699,7 @@ class PlansEnTeteBonTrav {
      * Set the montant htpx.
      *
      * @param float $montantHtpx The montant htpx.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setMontantHtpx($montantHtpx) {
         $this->montantHtpx = $montantHtpx;
@@ -692,6 +710,7 @@ class PlansEnTeteBonTrav {
      * Set the montant htvm.
      *
      * @param float $montantHtvm The montant htvm.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setMontantHtvm($montantHtvm) {
         $this->montantHtvm = $montantHtvm;
@@ -702,6 +721,7 @@ class PlansEnTeteBonTrav {
      * Set the nom client.
      *
      * @param string $nomClient The nom client.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setNomClient($nomClient) {
         $this->nomClient = $nomClient;
@@ -712,6 +732,7 @@ class PlansEnTeteBonTrav {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -722,6 +743,7 @@ class PlansEnTeteBonTrav {
      * Set the nom suite2.
      *
      * @param string $nomSuite2 The nom suite2.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setNomSuite2($nomSuite2) {
         $this->nomSuite2 = $nomSuite2;
@@ -732,6 +754,7 @@ class PlansEnTeteBonTrav {
      * Set the nom suite3.
      *
      * @param string $nomSuite3 The nom suite3.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setNomSuite3($nomSuite3) {
         $this->nomSuite3 = $nomSuite3;
@@ -742,6 +765,7 @@ class PlansEnTeteBonTrav {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -752,6 +776,7 @@ class PlansEnTeteBonTrav {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -762,6 +787,7 @@ class PlansEnTeteBonTrav {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -772,6 +798,7 @@ class PlansEnTeteBonTrav {
      * Set the reference facture.
      *
      * @param string $referenceFacture The reference facture.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setReferenceFacture($referenceFacture) {
         $this->referenceFacture = $referenceFacture;
@@ -782,6 +809,7 @@ class PlansEnTeteBonTrav {
      * Set the reference facture2.
      *
      * @param string $referenceFacture2 The reference facture2.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setReferenceFacture2($referenceFacture2) {
         $this->referenceFacture2 = $referenceFacture2;
@@ -792,6 +820,7 @@ class PlansEnTeteBonTrav {
      * Set the reprise dates employes.
      *
      * @param bool $repriseDatesEmployes The reprise dates employes.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setRepriseDatesEmployes($repriseDatesEmployes) {
         $this->repriseDatesEmployes = $repriseDatesEmployes;
@@ -802,6 +831,7 @@ class PlansEnTeteBonTrav {
      * Set the type adresse.
      *
      * @param string $typeAdresse The type adresse.
+     * @return PlansEnTeteBonTrav Returns this Plans en tete bon trav.
      */
     public function setTypeAdresse($typeAdresse) {
         $this->typeAdresse = $typeAdresse;

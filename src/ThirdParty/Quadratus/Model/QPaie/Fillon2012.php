@@ -208,6 +208,7 @@ class Fillon2012 {
      * Set the coeff.
      *
      * @param float $coeff The coeff.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setCoeff($coeff) {
         $this->coeff = $coeff;
@@ -218,6 +219,7 @@ class Fillon2012 {
      * Set the force.
      *
      * @param bool $force The force.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setForce($force) {
         $this->force = $force;
@@ -228,6 +230,7 @@ class Fillon2012 {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -238,6 +241,7 @@ class Fillon2012 {
      * Set the nb h sup fillon.
      *
      * @param float $nbHSupFillon The nb h sup fillon.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setNbHSupFillon($nbHSupFillon) {
         $this->nbHSupFillon = $nbHSupFillon;
@@ -248,6 +252,7 @@ class Fillon2012 {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -258,6 +263,7 @@ class Fillon2012 {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -268,6 +274,7 @@ class Fillon2012 {
      * Set the reduc fillon.
      *
      * @param float $reducFillon The reduc fillon.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setReducFillon($reducFillon) {
         $this->reducFillon = $reducFillon;
@@ -278,6 +285,7 @@ class Fillon2012 {
      * Set the reduc fillon majo he.
      *
      * @param float $reducFillonMajoHe The reduc fillon majo he.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setReducFillonMajoHe($reducFillonMajoHe) {
         $this->reducFillonMajoHe = $reducFillonMajoHe;
@@ -288,6 +296,7 @@ class Fillon2012 {
      * Set the rmb.
      *
      * @param float $rmb The rmb.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setRmb($rmb) {
         $this->rmb = $rmb;
@@ -298,6 +307,7 @@ class Fillon2012 {
      * Set the rmb majo he.
      *
      * @param float $rmbMajoHe The rmb majo he.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setRmbMajoHe($rmbMajoHe) {
         $this->rmbMajoHe = $rmbMajoHe;
@@ -308,6 +318,7 @@ class Fillon2012 {
      * Set the smic m.
      *
      * @param float $smicM The smic m.
+     * @return Fillon2012 Returns this Fillon2012.
      */
     public function setSmicM($smicM) {
         $this->smicM = $smicM;

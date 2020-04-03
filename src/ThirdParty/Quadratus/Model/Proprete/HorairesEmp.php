@@ -624,6 +624,7 @@ class HorairesEmp {
      * Set the aou.
      *
      * @param bool $aou The aou.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setAou($aou) {
         $this->aou = $aou;
@@ -634,6 +635,7 @@ class HorairesEmp {
      * Set the avr.
      *
      * @param bool $avr The avr.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setAvr($avr) {
         $this->avr = $avr;
@@ -644,6 +646,7 @@ class HorairesEmp {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -654,6 +657,7 @@ class HorairesEmp {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -664,6 +668,7 @@ class HorairesEmp {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -674,6 +679,7 @@ class HorairesEmp {
      * Set the date debut affectation.
      *
      * @param DateTime|null $dateDebutAffectation The date debut affectation.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setDateDebutAffectation(DateTime $dateDebutAffectation = null) {
         $this->dateDebutAffectation = $dateDebutAffectation;
@@ -684,6 +690,7 @@ class HorairesEmp {
      * Set the date fin affectation.
      *
      * @param DateTime|null $dateFinAffectation The date fin affectation.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setDateFinAffectation(DateTime $dateFinAffectation = null) {
         $this->dateFinAffectation = $dateFinAffectation;
@@ -694,6 +701,7 @@ class HorairesEmp {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -704,6 +712,7 @@ class HorairesEmp {
      * Set the dec.
      *
      * @param bool $dec The dec.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setDec($dec) {
         $this->dec = $dec;
@@ -714,6 +723,7 @@ class HorairesEmp {
      * Set the dim type2.
      *
      * @param string $dimType2 The dim type2.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setDimType2($dimType2) {
         $this->dimType2 = $dimType2;
@@ -724,6 +734,7 @@ class HorairesEmp {
      * Set the discr sem.
      *
      * @param int $discrSem The discr sem.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setDiscrSem($discrSem) {
         $this->discrSem = $discrSem;
@@ -734,6 +745,7 @@ class HorairesEmp {
      * Set the duree.
      *
      * @param DateTime|null $duree The duree.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setDuree(DateTime $duree = null) {
         $this->duree = $duree;
@@ -744,6 +756,7 @@ class HorairesEmp {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -754,6 +767,7 @@ class HorairesEmp {
      * Set the fev.
      *
      * @param bool $fev The fev.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setFev($fev) {
         $this->fev = $fev;
@@ -764,6 +778,7 @@ class HorairesEmp {
      * Set the h nuit type2.
      *
      * @param string $hNuitType2 The h nuit type2.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setHNuitType2($hNuitType2) {
         $this->hNuitType2 = $hNuitType2;
@@ -774,6 +789,7 @@ class HorairesEmp {
      * Set the heure deb.
      *
      * @param DateTime|null $heureDeb The heure deb.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setHeureDeb(DateTime $heureDeb = null) {
         $this->heureDeb = $heureDeb;
@@ -784,6 +800,7 @@ class HorairesEmp {
      * Set the jan.
      *
      * @param bool $jan The jan.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setJan($jan) {
         $this->jan = $jan;
@@ -794,6 +811,7 @@ class HorairesEmp {
      * Set the jf type2.
      *
      * @param string $jfType2 The jf type2.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setJfType2($jfType2) {
         $this->jfType2 = $jfType2;
@@ -804,6 +822,7 @@ class HorairesEmp {
      * Set the juil.
      *
      * @param bool $juil The juil.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setJuil($juil) {
         $this->juil = $juil;
@@ -814,6 +833,7 @@ class HorairesEmp {
      * Set the juin.
      *
      * @param bool $juin The juin.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setJuin($juin) {
         $this->juin = $juin;
@@ -824,6 +844,7 @@ class HorairesEmp {
      * Set the mai.
      *
      * @param bool $mai The mai.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setMai($mai) {
         $this->mai = $mai;
@@ -834,6 +855,7 @@ class HorairesEmp {
      * Set the mar.
      *
      * @param bool $mar The mar.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setMar($mar) {
         $this->mar = $mar;
@@ -844,6 +866,7 @@ class HorairesEmp {
      * Set the note memo.
      *
      * @param string $noteMemo The note memo.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setNoteMemo($noteMemo) {
         $this->noteMemo = $noteMemo;
@@ -854,6 +877,7 @@ class HorairesEmp {
      * Set the nov.
      *
      * @param bool $nov The nov.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setNov($nov) {
         $this->nov = $nov;
@@ -864,6 +888,7 @@ class HorairesEmp {
      * Set the num chrono.
      *
      * @param int $numChrono The num chrono.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setNumChrono($numChrono) {
         $this->numChrono = $numChrono;
@@ -874,6 +899,7 @@ class HorairesEmp {
      * Set the num jour.
      *
      * @param string $numJour The num jour.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setNumJour($numJour) {
         $this->numJour = $numJour;
@@ -884,6 +910,7 @@ class HorairesEmp {
      * Set the numero avenant.
      *
      * @param int $numeroAvenant The numero avenant.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setNumeroAvenant($numeroAvenant) {
         $this->numeroAvenant = $numeroAvenant;
@@ -894,6 +921,7 @@ class HorairesEmp {
      * Set the numero semaine.
      *
      * @param string $numeroSemaine The numero semaine.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setNumeroSemaine($numeroSemaine) {
         $this->numeroSemaine = $numeroSemaine;
@@ -904,6 +932,7 @@ class HorairesEmp {
      * Set the oct.
      *
      * @param bool $oct The oct.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setOct($oct) {
         $this->oct = $oct;
@@ -914,6 +943,7 @@ class HorairesEmp {
      * Set the sauf semaine complete.
      *
      * @param string $saufSemaineComplete The sauf semaine complete.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setSaufSemaineComplete($saufSemaineComplete) {
         $this->saufSemaineComplete = $saufSemaineComplete;
@@ -924,6 +954,7 @@ class HorairesEmp {
      * Set the semaine complete.
      *
      * @param bool $semaineComplete The semaine complete.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setSemaineComplete($semaineComplete) {
         $this->semaineComplete = $semaineComplete;
@@ -934,6 +965,7 @@ class HorairesEmp {
      * Set the sep.
      *
      * @param bool $sep The sep.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setSep($sep) {
         $this->sep = $sep;
@@ -944,6 +976,7 @@ class HorairesEmp {
      * Set the travaille jf.
      *
      * @param string $travailleJf The travaille jf.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setTravailleJf($travailleJf) {
         $this->travailleJf = $travailleJf;
@@ -954,6 +987,7 @@ class HorairesEmp {
      * Set the type contrat.
      *
      * @param string $typeContrat The type contrat.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setTypeContrat($typeContrat) {
         $this->typeContrat = $typeContrat;
@@ -964,6 +998,7 @@ class HorairesEmp {
      * Set the type freq.
      *
      * @param string $typeFreq The type freq.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setTypeFreq($typeFreq) {
         $this->typeFreq = $typeFreq;
@@ -974,6 +1009,7 @@ class HorairesEmp {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;
@@ -984,6 +1020,7 @@ class HorairesEmp {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return HorairesEmp Returns this Horaires emp.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

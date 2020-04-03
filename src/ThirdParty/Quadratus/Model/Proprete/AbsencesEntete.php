@@ -208,6 +208,7 @@ class AbsencesEntete {
      * Set the code absence.
      *
      * @param string $codeAbsence The code absence.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setCodeAbsence($codeAbsence) {
         $this->codeAbsence = $codeAbsence;
@@ -218,6 +219,7 @@ class AbsencesEntete {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -228,6 +230,7 @@ class AbsencesEntete {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -238,6 +241,7 @@ class AbsencesEntete {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -248,6 +252,7 @@ class AbsencesEntete {
      * Set the date debut abs.
      *
      * @param DateTime|null $dateDebutAbs The date debut abs.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setDateDebutAbs(DateTime $dateDebutAbs = null) {
         $this->dateDebutAbs = $dateDebutAbs;
@@ -258,6 +263,7 @@ class AbsencesEntete {
      * Set the date fin abs.
      *
      * @param DateTime|null $dateFinAbs The date fin abs.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setDateFinAbs(DateTime $dateFinAbs = null) {
         $this->dateFinAbs = $dateFinAbs;
@@ -268,6 +274,7 @@ class AbsencesEntete {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -278,6 +285,7 @@ class AbsencesEntete {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -288,6 +296,7 @@ class AbsencesEntete {
      * Set the from fermeture chantier.
      *
      * @param bool $fromFermetureChantier The from fermeture chantier.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setFromFermetureChantier($fromFermetureChantier) {
         $this->fromFermetureChantier = $fromFermetureChantier;
@@ -298,6 +307,7 @@ class AbsencesEntete {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;
@@ -308,6 +318,7 @@ class AbsencesEntete {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return AbsencesEntete Returns this Absences entete.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

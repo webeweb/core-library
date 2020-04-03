@@ -304,6 +304,7 @@ class CaisseAttestation {
      * Set the collaborateur.
      *
      * @param string $collaborateur The collaborateur.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setCollaborateur($collaborateur) {
         $this->collaborateur = $collaborateur;
@@ -314,6 +315,7 @@ class CaisseAttestation {
      * Set the date acquisition.
      *
      * @param DateTime|null $dateAcquisition The date acquisition.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setDateAcquisition(DateTime $dateAcquisition = null) {
         $this->dateAcquisition = $dateAcquisition;
@@ -324,6 +326,7 @@ class CaisseAttestation {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -334,6 +337,7 @@ class CaisseAttestation {
      * Set the date attestation.
      *
      * @param DateTime|null $dateAttestation The date attestation.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setDateAttestation(DateTime $dateAttestation = null) {
         $this->dateAttestation = $dateAttestation;
@@ -344,6 +348,7 @@ class CaisseAttestation {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -354,6 +359,7 @@ class CaisseAttestation {
      * Set the info fichier.
      *
      * @param string $infoFichier The info fichier.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setInfoFichier($infoFichier) {
         $this->infoFichier = $infoFichier;
@@ -364,6 +370,7 @@ class CaisseAttestation {
      * Set the licence.
      *
      * @param string $licence The licence.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setLicence($licence) {
         $this->licence = $licence;
@@ -374,6 +381,7 @@ class CaisseAttestation {
      * Set the nom responsable.
      *
      * @param string $nomResponsable The nom responsable.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setNomResponsable($nomResponsable) {
         $this->nomResponsable = $nomResponsable;
@@ -384,6 +392,7 @@ class CaisseAttestation {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -394,6 +403,7 @@ class CaisseAttestation {
      * Set the num version.
      *
      * @param string $numVersion The num version.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setNumVersion($numVersion) {
         $this->numVersion = $numVersion;
@@ -404,6 +414,7 @@ class CaisseAttestation {
      * Set the ordinateur.
      *
      * @param string $ordinateur The ordinateur.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setOrdinateur($ordinateur) {
         $this->ordinateur = $ordinateur;
@@ -414,6 +425,7 @@ class CaisseAttestation {
      * Set the origine.
      *
      * @param string $origine The origine.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setOrigine($origine) {
         $this->origine = $origine;
@@ -424,6 +436,7 @@ class CaisseAttestation {
      * Set the prenom responsable.
      *
      * @param string $prenomResponsable The prenom responsable.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setPrenomResponsable($prenomResponsable) {
         $this->prenomResponsable = $prenomResponsable;
@@ -434,6 +447,7 @@ class CaisseAttestation {
      * Set the raison sociale distri.
      *
      * @param string $raisonSocialeDistri The raison sociale distri.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setRaisonSocialeDistri($raisonSocialeDistri) {
         $this->raisonSocialeDistri = $raisonSocialeDistri;
@@ -444,6 +458,7 @@ class CaisseAttestation {
      * Set the raison sociale societe.
      *
      * @param string $raisonSocialeSociete The raison sociale societe.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setRaisonSocialeSociete($raisonSocialeSociete) {
         $this->raisonSocialeSociete = $raisonSocialeSociete;
@@ -454,6 +469,7 @@ class CaisseAttestation {
      * Set the uniq id.
      *
      * @param int $uniqId The uniq id.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;
@@ -464,6 +480,7 @@ class CaisseAttestation {
      * Set the utilisateur.
      *
      * @param string $utilisateur The utilisateur.
+     * @return CaisseAttestation Returns this Caisse attestation.
      */
     public function setUtilisateur($utilisateur) {
         $this->utilisateur = $utilisateur;

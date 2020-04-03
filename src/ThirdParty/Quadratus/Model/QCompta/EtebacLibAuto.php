@@ -62,6 +62,7 @@ class EtebacLibAuto {
      * Set the code etebac.
      *
      * @param string $codeEtebac The code etebac.
+     * @return EtebacLibAuto Returns this Etebac lib auto.
      */
     public function setCodeEtebac($codeEtebac) {
         $this->codeEtebac = $codeEtebac;
@@ -72,6 +73,7 @@ class EtebacLibAuto {
      * Set the code lib auto.
      *
      * @param string $codeLibAuto The code lib auto.
+     * @return EtebacLibAuto Returns this Etebac lib auto.
      */
     public function setCodeLibAuto($codeLibAuto) {
         $this->codeLibAuto = $codeLibAuto;

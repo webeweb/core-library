@@ -62,6 +62,7 @@ class RegroupementPostesCharges {
      * Set the code charge.
      *
      * @param string $codeCharge The code charge.
+     * @return RegroupementPostesCharges Returns this Regroupement postes charges.
      */
     public function setCodeCharge($codeCharge) {
         $this->codeCharge = $codeCharge;
@@ -72,6 +73,7 @@ class RegroupementPostesCharges {
      * Set the code reg charge.
      *
      * @param string $codeRegCharge The code reg charge.
+     * @return RegroupementPostesCharges Returns this Regroupement postes charges.
      */
     public function setCodeRegCharge($codeRegCharge) {
         $this->codeRegCharge = $codeRegCharge;

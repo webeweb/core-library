@@ -160,6 +160,7 @@ class PostIt {
      * Set the code coll dest.
      *
      * @param string $codeCollDest The code coll dest.
+     * @return PostIt Returns this Post it.
      */
     public function setCodeCollDest($codeCollDest) {
         $this->codeCollDest = $codeCollDest;
@@ -170,6 +171,7 @@ class PostIt {
      * Set the code coll org.
      *
      * @param string $codeCollOrg The code coll org.
+     * @return PostIt Returns this Post it.
      */
     public function setCodeCollOrg($codeCollOrg) {
         $this->codeCollOrg = $codeCollOrg;
@@ -180,6 +182,7 @@ class PostIt {
      * Set the date heure.
      *
      * @param DateTime|null $dateHeure The date heure.
+     * @return PostIt Returns this Post it.
      */
     public function setDateHeure(DateTime $dateHeure = null) {
         $this->dateHeure = $dateHeure;
@@ -190,6 +193,7 @@ class PostIt {
      * Set the date sys saisie.
      *
      * @param DateTime|null $dateSysSaisie The date sys saisie.
+     * @return PostIt Returns this Post it.
      */
     public function setDateSysSaisie(DateTime $dateSysSaisie = null) {
         $this->dateSysSaisie = $dateSysSaisie;
@@ -200,6 +204,7 @@ class PostIt {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return PostIt Returns this Post it.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -210,6 +215,7 @@ class PostIt {
      * Set the ref guid.
      *
      * @param string $refGuid The ref guid.
+     * @return PostIt Returns this Post it.
      */
     public function setRefGuid($refGuid) {
         $this->refGuid = $refGuid;
@@ -220,6 +226,7 @@ class PostIt {
      * Set the type.
      *
      * @param int $type The type.
+     * @return PostIt Returns this Post it.
      */
     public function setType($type) {
         $this->type = $type;
@@ -230,6 +237,7 @@ class PostIt {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return PostIt Returns this Post it.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

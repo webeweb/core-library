@@ -384,6 +384,7 @@ class ReglementsAux {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -394,6 +395,7 @@ class ReglementsAux {
      * Set the autre dom banque.
      *
      * @param string $autreDomBanque The autre dom banque.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setAutreDomBanque($autreDomBanque) {
         $this->autreDomBanque = $autreDomBanque;
@@ -404,6 +406,7 @@ class ReglementsAux {
      * Set the autre rib.
      *
      * @param string $autreRib The autre rib.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setAutreRib($autreRib) {
         $this->autreRib = $autreRib;
@@ -414,6 +417,7 @@ class ReglementsAux {
      * Set the code journal banque.
      *
      * @param string $codeJournalBanque The code journal banque.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setCodeJournalBanque($codeJournalBanque) {
         $this->codeJournalBanque = $codeJournalBanque;
@@ -424,6 +428,7 @@ class ReglementsAux {
      * Set the code mode paiement.
      *
      * @param string $codeModePaiement The code mode paiement.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setCodeModePaiement($codeModePaiement) {
         $this->codeModePaiement = $codeModePaiement;
@@ -434,6 +439,7 @@ class ReglementsAux {
      * Set the dans1 groupe.
      *
      * @param bool $dans1Groupe The dans1 groupe.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setDans1Groupe($dans1Groupe) {
         $this->dans1Groupe = $dans1Groupe;
@@ -444,6 +450,7 @@ class ReglementsAux {
      * Set the date echeance.
      *
      * @param DateTime|null $dateEcheance The date echeance.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setDateEcheance(DateTime $dateEcheance = null) {
         $this->dateEcheance = $dateEcheance;
@@ -454,6 +461,7 @@ class ReglementsAux {
      * Set the montant groupe.
      *
      * @param float $montantGroupe The montant groupe.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setMontantGroupe($montantGroupe) {
         $this->montantGroupe = $montantGroupe;
@@ -464,6 +472,7 @@ class ReglementsAux {
      * Set the montant saisi credit.
      *
      * @param float $montantSaisiCredit The montant saisi credit.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setMontantSaisiCredit($montantSaisiCredit) {
         $this->montantSaisiCredit = $montantSaisiCredit;
@@ -474,6 +483,7 @@ class ReglementsAux {
      * Set the montant saisi debit.
      *
      * @param float $montantSaisiDebit The montant saisi debit.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setMontantSaisiDebit($montantSaisiDebit) {
         $this->montantSaisiDebit = $montantSaisiDebit;
@@ -484,6 +494,7 @@ class ReglementsAux {
      * Set the montant tenu credit.
      *
      * @param float $montantTenuCredit The montant tenu credit.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setMontantTenuCredit($montantTenuCredit) {
         $this->montantTenuCredit = $montantTenuCredit;
@@ -494,6 +505,7 @@ class ReglementsAux {
      * Set the montant tenu debit.
      *
      * @param float $montantTenuDebit The montant tenu debit.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setMontantTenuDebit($montantTenuDebit) {
         $this->montantTenuDebit = $montantTenuDebit;
@@ -504,6 +516,7 @@ class ReglementsAux {
      * Set the no rib.
      *
      * @param string $noRib The no rib.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setNoRib($noRib) {
         $this->noRib = $noRib;
@@ -514,6 +527,7 @@ class ReglementsAux {
      * Set the num groupe.
      *
      * @param int $numGroupe The num groupe.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setNumGroupe($numGroupe) {
         $this->numGroupe = $numGroupe;
@@ -524,6 +538,7 @@ class ReglementsAux {
      * Set the num lot lcr.
      *
      * @param int $numLotLcr The num lot lcr.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setNumLotLcr($numLotLcr) {
         $this->numLotLcr = $numLotLcr;
@@ -534,6 +549,7 @@ class ReglementsAux {
      * Set the num lot lettre p.
      *
      * @param int $numLotLettreP The num lot lettre p.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setNumLotLettreP($numLotLettreP) {
         $this->numLotLettreP = $numLotLettreP;
@@ -544,6 +560,7 @@ class ReglementsAux {
      * Set the num lot traite.
      *
      * @param int $numLotTraite The num lot traite.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setNumLotTraite($numLotTraite) {
         $this->numLotTraite = $numLotTraite;
@@ -554,6 +571,7 @@ class ReglementsAux {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -564,6 +582,7 @@ class ReglementsAux {
      * Set the num uniq ecriture.
      *
      * @param int $numUniqEcriture The num uniq ecriture.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setNumUniqEcriture($numUniqEcriture) {
         $this->numUniqEcriture = $numUniqEcriture;
@@ -574,6 +593,7 @@ class ReglementsAux {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -584,6 +604,7 @@ class ReglementsAux {
      * Set the reference tire.
      *
      * @param string $referenceTire The reference tire.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setReferenceTire($referenceTire) {
         $this->referenceTire = $referenceTire;
@@ -594,6 +615,7 @@ class ReglementsAux {
      * Set the type reglement.
      *
      * @param string $typeReglement The type reglement.
+     * @return ReglementsAux Returns this Reglements aux.
      */
     public function setTypeReglement($typeReglement) {
         $this->typeReglement = $typeReglement;

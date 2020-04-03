@@ -126,6 +126,7 @@ class EmployesProprete {
      * Set the controleur.
      *
      * @param bool $controleur The controleur.
+     * @return EmployesProprete Returns this Employes proprete.
      */
     public function setControleur($controleur) {
         $this->controleur = $controleur;
@@ -136,6 +137,7 @@ class EmployesProprete {
      * Set the hotellerie.
      *
      * @param bool $hotellerie The hotellerie.
+     * @return EmployesProprete Returns this Employes proprete.
      */
     public function setHotellerie($hotellerie) {
         $this->hotellerie = $hotellerie;
@@ -146,6 +148,7 @@ class EmployesProprete {
      * Set the livreur.
      *
      * @param bool $livreur The livreur.
+     * @return EmployesProprete Returns this Employes proprete.
      */
     public function setLivreur($livreur) {
         $this->livreur = $livreur;
@@ -156,6 +159,7 @@ class EmployesProprete {
      * Set the modulation.
      *
      * @param bool $modulation The modulation.
+     * @return EmployesProprete Returns this Employes proprete.
      */
     public function setModulation($modulation) {
         $this->modulation = $modulation;
@@ -166,6 +170,7 @@ class EmployesProprete {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmployesProprete Returns this Employes proprete.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -176,6 +181,7 @@ class EmployesProprete {
      * Set the polyvalent.
      *
      * @param bool $polyvalent The polyvalent.
+     * @return EmployesProprete Returns this Employes proprete.
      */
     public function setPolyvalent($polyvalent) {
         $this->polyvalent = $polyvalent;

@@ -160,6 +160,7 @@ class BordPrepAbsences {
      * Set the id.
      *
      * @param int $id The id.
+     * @return BordPrepAbsences Returns this Bord prep absences.
      */
     public function setId($id) {
         $this->id = $id;
@@ -170,6 +171,7 @@ class BordPrepAbsences {
      * Set the nbh sais.
      *
      * @param float $nbhSais The nbh sais.
+     * @return BordPrepAbsences Returns this Bord prep absences.
      */
     public function setNbhSais($nbhSais) {
         $this->nbhSais = $nbhSais;
@@ -180,6 +182,7 @@ class BordPrepAbsences {
      * Set the nbj sais.
      *
      * @param float $nbjSais The nbj sais.
+     * @return BordPrepAbsences Returns this Bord prep absences.
      */
     public function setNbjSais($nbjSais) {
         $this->nbjSais = $nbjSais;
@@ -190,6 +193,7 @@ class BordPrepAbsences {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return BordPrepAbsences Returns this Bord prep absences.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -200,6 +204,7 @@ class BordPrepAbsences {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return BordPrepAbsences Returns this Bord prep absences.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -210,6 +215,7 @@ class BordPrepAbsences {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return BordPrepAbsences Returns this Bord prep absences.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -220,6 +226,7 @@ class BordPrepAbsences {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return BordPrepAbsences Returns this Bord prep absences.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;
@@ -230,6 +237,7 @@ class BordPrepAbsences {
      * Set the type abs cp.
      *
      * @param string $typeAbsCp The type abs cp.
+     * @return BordPrepAbsences Returns this Bord prep absences.
      */
     public function setTypeAbsCp($typeAbsCp) {
         $this->typeAbsCp = $typeAbsCp;

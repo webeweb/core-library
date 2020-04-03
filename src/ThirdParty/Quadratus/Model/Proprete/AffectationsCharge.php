@@ -496,6 +496,7 @@ class AffectationsCharge {
      * Set the ajout charge.
      *
      * @param bool $ajoutCharge The ajout charge.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setAjoutCharge($ajoutCharge) {
         $this->ajoutCharge = $ajoutCharge;
@@ -506,6 +507,7 @@ class AffectationsCharge {
      * Set the aou.
      *
      * @param bool $aou The aou.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setAou($aou) {
         $this->aou = $aou;
@@ -516,6 +518,7 @@ class AffectationsCharge {
      * Set the avr.
      *
      * @param bool $avr The avr.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setAvr($avr) {
         $this->avr = $avr;
@@ -526,6 +529,7 @@ class AffectationsCharge {
      * Set the charge mensualisee.
      *
      * @param bool $chargeMensualisee The charge mensualisee.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setChargeMensualisee($chargeMensualisee) {
         $this->chargeMensualisee = $chargeMensualisee;
@@ -536,6 +540,7 @@ class AffectationsCharge {
      * Set the charge q fact.
      *
      * @param bool $chargeQFact The charge q fact.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setChargeQFact($chargeQFact) {
         $this->chargeQFact = $chargeQFact;
@@ -546,6 +551,7 @@ class AffectationsCharge {
      * Set the charge validee.
      *
      * @param bool $chargeValidee The charge validee.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setChargeValidee($chargeValidee) {
         $this->chargeValidee = $chargeValidee;
@@ -556,6 +562,7 @@ class AffectationsCharge {
      * Set the chef equipe.
      *
      * @param string $chefEquipe The chef equipe.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setChefEquipe($chefEquipe) {
         $this->chefEquipe = $chefEquipe;
@@ -566,6 +573,7 @@ class AffectationsCharge {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -576,6 +584,7 @@ class AffectationsCharge {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -586,6 +595,7 @@ class AffectationsCharge {
      * Set the code charge.
      *
      * @param string $codeCharge The code charge.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setCodeCharge($codeCharge) {
         $this->codeCharge = $codeCharge;
@@ -596,6 +606,7 @@ class AffectationsCharge {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -606,6 +617,7 @@ class AffectationsCharge {
      * Set the code inspecteur.
      *
      * @param string $codeInspecteur The code inspecteur.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setCodeInspecteur($codeInspecteur) {
         $this->codeInspecteur = $codeInspecteur;
@@ -616,6 +628,7 @@ class AffectationsCharge {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -626,6 +639,7 @@ class AffectationsCharge {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -636,6 +650,7 @@ class AffectationsCharge {
      * Set the dec.
      *
      * @param bool $dec The dec.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setDec($dec) {
         $this->dec = $dec;
@@ -646,6 +661,7 @@ class AffectationsCharge {
      * Set the fev.
      *
      * @param bool $fev The fev.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setFev($fev) {
         $this->fev = $fev;
@@ -656,6 +672,7 @@ class AffectationsCharge {
      * Set the jan.
      *
      * @param bool $jan The jan.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setJan($jan) {
         $this->jan = $jan;
@@ -666,6 +683,7 @@ class AffectationsCharge {
      * Set the juil.
      *
      * @param bool $juil The juil.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setJuil($juil) {
         $this->juil = $juil;
@@ -676,6 +694,7 @@ class AffectationsCharge {
      * Set the juin.
      *
      * @param bool $juin The juin.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setJuin($juin) {
         $this->juin = $juin;
@@ -686,6 +705,7 @@ class AffectationsCharge {
      * Set the mai.
      *
      * @param bool $mai The mai.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setMai($mai) {
         $this->mai = $mai;
@@ -696,6 +716,7 @@ class AffectationsCharge {
      * Set the mar.
      *
      * @param bool $mar The mar.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setMar($mar) {
         $this->mar = $mar;
@@ -706,6 +727,7 @@ class AffectationsCharge {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -716,6 +738,7 @@ class AffectationsCharge {
      * Set the nov.
      *
      * @param bool $nov The nov.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setNov($nov) {
         $this->nov = $nov;
@@ -726,6 +749,7 @@ class AffectationsCharge {
      * Set the oct.
      *
      * @param bool $oct The oct.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setOct($oct) {
         $this->oct = $oct;
@@ -736,6 +760,7 @@ class AffectationsCharge {
      * Set the origine charge mens.
      *
      * @param bool $origineChargeMens The origine charge mens.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setOrigineChargeMens($origineChargeMens) {
         $this->origineChargeMens = $origineChargeMens;
@@ -746,6 +771,7 @@ class AffectationsCharge {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -756,6 +782,7 @@ class AffectationsCharge {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;
@@ -766,6 +793,7 @@ class AffectationsCharge {
      * Set the sep.
      *
      * @param bool $sep The sep.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setSep($sep) {
         $this->sep = $sep;
@@ -776,6 +804,7 @@ class AffectationsCharge {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return AffectationsCharge Returns this Affectations charge.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

@@ -304,6 +304,7 @@ class SuiviCompteParticulier {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -314,6 +315,7 @@ class SuiviCompteParticulier {
      * Set the code lettrage.
      *
      * @param string $codeLettrage The code lettrage.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setCodeLettrage($codeLettrage) {
         $this->codeLettrage = $codeLettrage;
@@ -324,6 +326,7 @@ class SuiviCompteParticulier {
      * Set the code libelle auto.
      *
      * @param string $codeLibelleAuto The code libelle auto.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setCodeLibelleAuto($codeLibelleAuto) {
         $this->codeLibelleAuto = $codeLibelleAuto;
@@ -334,6 +337,7 @@ class SuiviCompteParticulier {
      * Set the code operateur.
      *
      * @param string $codeOperateur The code operateur.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setCodeOperateur($codeOperateur) {
         $this->codeOperateur = $codeOperateur;
@@ -344,6 +348,7 @@ class SuiviCompteParticulier {
      * Set the date operation.
      *
      * @param DateTime|null $dateOperation The date operation.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setDateOperation(DateTime $dateOperation = null) {
         $this->dateOperation = $dateOperation;
@@ -354,6 +359,7 @@ class SuiviCompteParticulier {
      * Set the folio.
      *
      * @param int $folio The folio.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setFolio($folio) {
         $this->folio = $folio;
@@ -364,6 +370,7 @@ class SuiviCompteParticulier {
      * Set the jour ecriture.
      *
      * @param string $jourEcriture The jour ecriture.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setJourEcriture($jourEcriture) {
         $this->jourEcriture = $jourEcriture;
@@ -374,6 +381,7 @@ class SuiviCompteParticulier {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -384,6 +392,7 @@ class SuiviCompteParticulier {
      * Set the ligne folio.
      *
      * @param int $ligneFolio The ligne folio.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setLigneFolio($ligneFolio) {
         $this->ligneFolio = $ligneFolio;
@@ -394,6 +403,7 @@ class SuiviCompteParticulier {
      * Set the montant tenu credit.
      *
      * @param float $montantTenuCredit The montant tenu credit.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setMontantTenuCredit($montantTenuCredit) {
         $this->montantTenuCredit = $montantTenuCredit;
@@ -404,6 +414,7 @@ class SuiviCompteParticulier {
      * Set the montant tenu debit.
      *
      * @param float $montantTenuDebit The montant tenu debit.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setMontantTenuDebit($montantTenuDebit) {
         $this->montantTenuDebit = $montantTenuDebit;
@@ -414,6 +425,7 @@ class SuiviCompteParticulier {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -424,6 +436,7 @@ class SuiviCompteParticulier {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -434,6 +447,7 @@ class SuiviCompteParticulier {
      * Set the numero piece.
      *
      * @param string $numeroPiece The numero piece.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setNumeroPiece($numeroPiece) {
         $this->numeroPiece = $numeroPiece;
@@ -444,6 +458,7 @@ class SuiviCompteParticulier {
      * Set the periode ecriture.
      *
      * @param DateTime|null $periodeEcriture The periode ecriture.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
         $this->periodeEcriture = $periodeEcriture;
@@ -454,6 +469,7 @@ class SuiviCompteParticulier {
      * Set the type ligne.
      *
      * @param string $typeLigne The type ligne.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setTypeLigne($typeLigne) {
         $this->typeLigne = $typeLigne;
@@ -464,6 +480,7 @@ class SuiviCompteParticulier {
      * Set the type operation.
      *
      * @param string $typeOperation The type operation.
+     * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
     public function setTypeOperation($typeOperation) {
         $this->typeOperation = $typeOperation;

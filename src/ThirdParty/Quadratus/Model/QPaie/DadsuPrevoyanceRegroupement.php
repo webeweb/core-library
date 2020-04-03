@@ -174,6 +174,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -184,6 +185,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the code option.
      *
      * @param string $codeOption The code option.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setCodeOption($codeOption) {
         $this->codeOption = $codeOption;
@@ -194,6 +196,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -204,6 +207,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the code population.
      *
      * @param string $codePopulation The code population.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setCodePopulation($codePopulation) {
         $this->codePopulation = $codePopulation;
@@ -214,6 +218,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -224,6 +229,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the ref contrat.
      *
      * @param string $refContrat The ref contrat.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setRefContrat($refContrat) {
         $this->refContrat = $refContrat;
@@ -234,6 +240,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the type cotis.
      *
      * @param string $typeCotis The type cotis.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setTypeCotis($typeCotis) {
         $this->typeCotis = $typeCotis;
@@ -244,6 +251,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the valeur cotis.
      *
      * @param float $valeurCotis The valeur cotis.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setValeurCotis($valeurCotis) {
         $this->valeurCotis = $valeurCotis;
@@ -254,6 +262,7 @@ class DadsuPrevoyanceRegroupement {
      * Set the valeur cotis initiale.
      *
      * @param float $valeurCotisInitiale The valeur cotis initiale.
+     * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
     public function setValeurCotisInitiale($valeurCotisInitiale) {
         $this->valeurCotisInitiale = $valeurCotisInitiale;

@@ -174,6 +174,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -184,6 +185,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -194,6 +196,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -204,6 +207,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the code element.
      *
      * @param string $codeElement The code element.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setCodeElement($codeElement) {
         $this->codeElement = $codeElement;
@@ -214,6 +218,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the coefficient.
      *
      * @param float $coefficient The coefficient.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setCoefficient($coefficient) {
         $this->coefficient = $coefficient;
@@ -224,6 +229,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the niveau noeud.
      *
      * @param int $niveauNoeud The niveau noeud.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setNiveauNoeud($niveauNoeud) {
         $this->niveauNoeud = $niveauNoeud;
@@ -234,6 +240,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the numero noeud.
      *
      * @param int $numeroNoeud The numero noeud.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setNumeroNoeud($numeroNoeud) {
         $this->numeroNoeud = $numeroNoeud;
@@ -244,6 +251,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the type element.
      *
      * @param string $typeElement The type element.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setTypeElement($typeElement) {
         $this->typeElement = $typeElement;
@@ -254,6 +262,7 @@ class ChantiersDescriptifLocauxElements {
      * Set the uniq id local.
      *
      * @param string $uniqIdLocal The uniq id local.
+     * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
     public function setUniqIdLocal($uniqIdLocal) {
         $this->uniqIdLocal = $uniqIdLocal;

@@ -128,6 +128,7 @@ class LignesIjssPrevoyance {
      * Set the date versement.
      *
      * @param DateTime|null $dateVersement The date versement.
+     * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
     public function setDateVersement(DateTime $dateVersement = null) {
         $this->dateVersement = $dateVersement;
@@ -138,6 +139,7 @@ class LignesIjssPrevoyance {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -148,6 +150,7 @@ class LignesIjssPrevoyance {
      * Set the num ligne.
      *
      * @param string $numLigne The num ligne.
+     * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -158,6 +161,7 @@ class LignesIjssPrevoyance {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -168,6 +172,7 @@ class LignesIjssPrevoyance {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -178,6 +183,7 @@ class LignesIjssPrevoyance {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;

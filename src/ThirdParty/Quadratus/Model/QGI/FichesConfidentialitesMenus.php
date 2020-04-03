@@ -462,6 +462,7 @@ class FichesConfidentialitesMenus {
      * Set the code.
      *
      * @param string $code The code.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -472,6 +473,7 @@ class FichesConfidentialitesMenus {
      * Set the dossier.
      *
      * @param string $dossier The dossier.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setDossier($dossier) {
         $this->dossier = $dossier;
@@ -482,6 +484,7 @@ class FichesConfidentialitesMenus {
      * Set the droit ajout.
      *
      * @param bool $droitAjout The droit ajout.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setDroitAjout($droitAjout) {
         $this->droitAjout = $droitAjout;
@@ -492,6 +495,7 @@ class FichesConfidentialitesMenus {
      * Set the droit modification.
      *
      * @param bool $droitModification The droit modification.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setDroitModification($droitModification) {
         $this->droitModification = $droitModification;
@@ -502,6 +506,7 @@ class FichesConfidentialitesMenus {
      * Set the droit suppression.
      *
      * @param bool $droitSuppression The droit suppression.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setDroitSuppression($droitSuppression) {
         $this->droitSuppression = $droitSuppression;
@@ -512,6 +517,7 @@ class FichesConfidentialitesMenus {
      * Set the index.
      *
      * @param int $index The index.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setIndex($index) {
         $this->index = $index;
@@ -522,6 +528,7 @@ class FichesConfidentialitesMenus {
      * Set the index du pere no1.
      *
      * @param int $indexDuPereNo1 The index du pere no1.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setIndexDuPereNo1($indexDuPereNo1) {
         $this->indexDuPereNo1 = $indexDuPereNo1;
@@ -532,6 +539,7 @@ class FichesConfidentialitesMenus {
      * Set the index du pere no2.
      *
      * @param int $indexDuPereNo2 The index du pere no2.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setIndexDuPereNo2($indexDuPereNo2) {
         $this->indexDuPereNo2 = $indexDuPereNo2;
@@ -542,6 +550,7 @@ class FichesConfidentialitesMenus {
      * Set the index du pere no3.
      *
      * @param int $indexDuPereNo3 The index du pere no3.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setIndexDuPereNo3($indexDuPereNo3) {
         $this->indexDuPereNo3 = $indexDuPereNo3;
@@ -552,6 +561,7 @@ class FichesConfidentialitesMenus {
      * Set the index du pere no4.
      *
      * @param int $indexDuPereNo4 The index du pere no4.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setIndexDuPereNo4($indexDuPereNo4) {
         $this->indexDuPereNo4 = $indexDuPereNo4;
@@ -562,6 +572,7 @@ class FichesConfidentialitesMenus {
      * Set the index du pere no5.
      *
      * @param int $indexDuPereNo5 The index du pere no5.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setIndexDuPereNo5($indexDuPereNo5) {
         $this->indexDuPereNo5 = $indexDuPereNo5;
@@ -572,6 +583,7 @@ class FichesConfidentialitesMenus {
      * Set the index du pere no6.
      *
      * @param int $indexDuPereNo6 The index du pere no6.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setIndexDuPereNo6($indexDuPereNo6) {
         $this->indexDuPereNo6 = $indexDuPereNo6;
@@ -582,6 +594,7 @@ class FichesConfidentialitesMenus {
      * Set the index du pere no7.
      *
      * @param int $indexDuPereNo7 The index du pere no7.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setIndexDuPereNo7($indexDuPereNo7) {
         $this->indexDuPereNo7 = $indexDuPereNo7;
@@ -592,6 +605,7 @@ class FichesConfidentialitesMenus {
      * Set the libelle menu.
      *
      * @param string $libelleMenu The libelle menu.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setLibelleMenu($libelleMenu) {
         $this->libelleMenu = $libelleMenu;
@@ -602,6 +616,7 @@ class FichesConfidentialitesMenus {
      * Set the menu visible.
      *
      * @param bool $menuVisible The menu visible.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setMenuVisible($menuVisible) {
         $this->menuVisible = $menuVisible;
@@ -612,6 +627,7 @@ class FichesConfidentialitesMenus {
      * Set the mot de passe.
      *
      * @param string $motDePasse The mot de passe.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setMotDePasse($motDePasse) {
         $this->motDePasse = $motDePasse;
@@ -622,6 +638,7 @@ class FichesConfidentialitesMenus {
      * Set the niveau ligne.
      *
      * @param string $niveauLigne The niveau ligne.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNiveauLigne($niveauLigne) {
         $this->niveauLigne = $niveauLigne;
@@ -632,6 +649,7 @@ class FichesConfidentialitesMenus {
      * Set the nom du pere no1.
      *
      * @param string $nomDuPereNo1 The nom du pere no1.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNomDuPereNo1($nomDuPereNo1) {
         $this->nomDuPereNo1 = $nomDuPereNo1;
@@ -642,6 +660,7 @@ class FichesConfidentialitesMenus {
      * Set the nom du pere no2.
      *
      * @param string $nomDuPereNo2 The nom du pere no2.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNomDuPereNo2($nomDuPereNo2) {
         $this->nomDuPereNo2 = $nomDuPereNo2;
@@ -652,6 +671,7 @@ class FichesConfidentialitesMenus {
      * Set the nom du pere no3.
      *
      * @param string $nomDuPereNo3 The nom du pere no3.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNomDuPereNo3($nomDuPereNo3) {
         $this->nomDuPereNo3 = $nomDuPereNo3;
@@ -662,6 +682,7 @@ class FichesConfidentialitesMenus {
      * Set the nom du pere no4.
      *
      * @param string $nomDuPereNo4 The nom du pere no4.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNomDuPereNo4($nomDuPereNo4) {
         $this->nomDuPereNo4 = $nomDuPereNo4;
@@ -672,6 +693,7 @@ class FichesConfidentialitesMenus {
      * Set the nom du pere no5.
      *
      * @param string $nomDuPereNo5 The nom du pere no5.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNomDuPereNo5($nomDuPereNo5) {
         $this->nomDuPereNo5 = $nomDuPereNo5;
@@ -682,6 +704,7 @@ class FichesConfidentialitesMenus {
      * Set the nom du pere no6.
      *
      * @param string $nomDuPereNo6 The nom du pere no6.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNomDuPereNo6($nomDuPereNo6) {
         $this->nomDuPereNo6 = $nomDuPereNo6;
@@ -692,6 +715,7 @@ class FichesConfidentialitesMenus {
      * Set the nom du pere no7.
      *
      * @param string $nomDuPereNo7 The nom du pere no7.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNomDuPereNo7($nomDuPereNo7) {
         $this->nomDuPereNo7 = $nomDuPereNo7;
@@ -702,6 +726,7 @@ class FichesConfidentialitesMenus {
      * Set the nom menu.
      *
      * @param string $nomMenu The nom menu.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setNomMenu($nomMenu) {
         $this->nomMenu = $nomMenu;
@@ -712,6 +737,7 @@ class FichesConfidentialitesMenus {
      * Set the type.
      *
      * @param string $type The type.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setType($type) {
         $this->type = $type;
@@ -722,6 +748,7 @@ class FichesConfidentialitesMenus {
      * Set the type selection.
      *
      * @param string $typeSelection The type selection.
+     * @return FichesConfidentialitesMenus Returns this Fiches confidentialites menus.
      */
     public function setTypeSelection($typeSelection) {
         $this->typeSelection = $typeSelection;

@@ -288,6 +288,7 @@ class DecTvaFiliales {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -298,6 +299,7 @@ class DecTvaFiliales {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -308,6 +310,7 @@ class DecTvaFiliales {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -318,6 +321,7 @@ class DecTvaFiliales {
      * Set the cpt filiale.
      *
      * @param string $cptFiliale The cpt filiale.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setCptFiliale($cptFiliale) {
         $this->cptFiliale = $cptFiliale;
@@ -328,6 +332,7 @@ class DecTvaFiliales {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -338,6 +343,7 @@ class DecTvaFiliales {
      * Set the date sortie.
      *
      * @param DateTime|null $dateSortie The date sortie.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setDateSortie(DateTime $dateSortie = null) {
         $this->dateSortie = $dateSortie;
@@ -348,6 +354,7 @@ class DecTvaFiliales {
      * Set the detention directe.
      *
      * @param float $detentionDirecte The detention directe.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setDetentionDirecte($detentionDirecte) {
         $this->detentionDirecte = $detentionDirecte;
@@ -358,6 +365,7 @@ class DecTvaFiliales {
      * Set the detention indirecte.
      *
      * @param float $detentionIndirecte The detention indirecte.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setDetentionIndirecte($detentionIndirecte) {
         $this->detentionIndirecte = $detentionIndirecte;
@@ -368,6 +376,7 @@ class DecTvaFiliales {
      * Set the forme juridique.
      *
      * @param string $formeJuridique The forme juridique.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setFormeJuridique($formeJuridique) {
         $this->formeJuridique = $formeJuridique;
@@ -378,6 +387,7 @@ class DecTvaFiliales {
      * Set the lib doss.
      *
      * @param string $libDoss The lib doss.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setLibDoss($libDoss) {
         $this->libDoss = $libDoss;
@@ -388,6 +398,7 @@ class DecTvaFiliales {
      * Set the no doss.
      *
      * @param string $noDoss The no doss.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setNoDoss($noDoss) {
         $this->noDoss = $noDoss;
@@ -398,6 +409,7 @@ class DecTvaFiliales {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -408,6 +420,7 @@ class DecTvaFiliales {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -418,6 +431,7 @@ class DecTvaFiliales {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -428,6 +442,7 @@ class DecTvaFiliales {
      * Set the siren.
      *
      * @param string $siren The siren.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setSiren($siren) {
         $this->siren = $siren;
@@ -438,6 +453,7 @@ class DecTvaFiliales {
      * Set the ville.
      *
      * @param string $ville The ville.
+     * @return DecTvaFiliales Returns this Dec tva filiales.
      */
     public function setVille($ville) {
         $this->ville = $ville;

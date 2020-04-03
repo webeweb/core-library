@@ -62,6 +62,7 @@ class Activites {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Activites Returns this Activites.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class Activites {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Activites Returns this Activites.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

@@ -256,6 +256,7 @@ class DadsuPrev {
      * Set the base prev.
      *
      * @param float $basePrev The base prev.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setBasePrev($basePrev) {
         $this->basePrev = $basePrev;
@@ -266,6 +267,7 @@ class DadsuPrev {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -276,6 +278,7 @@ class DadsuPrev {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -286,6 +289,7 @@ class DadsuPrev {
      * Set the code organisme gestionnaire.
      *
      * @param string $codeOrganismeGestionnaire The code organisme gestionnaire.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setCodeOrganismeGestionnaire($codeOrganismeGestionnaire) {
         $this->codeOrganismeGestionnaire = $codeOrganismeGestionnaire;
@@ -296,6 +300,7 @@ class DadsuPrev {
      * Set the code popul.
      *
      * @param string $codePopul The code popul.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setCodePopul($codePopul) {
         $this->codePopul = $codePopul;
@@ -306,6 +311,7 @@ class DadsuPrev {
      * Set the code type prev.
      *
      * @param string $codeTypePrev The code type prev.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setCodeTypePrev($codeTypePrev) {
         $this->codeTypePrev = $codeTypePrev;
@@ -316,6 +322,7 @@ class DadsuPrev {
      * Set the debut periode.
      *
      * @param DateTime|null $debutPeriode The debut periode.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setDebutPeriode(DateTime $debutPeriode = null) {
         $this->debutPeriode = $debutPeriode;
@@ -326,6 +333,7 @@ class DadsuPrev {
      * Set the even contrat.
      *
      * @param string $evenContrat The even contrat.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setEvenContrat($evenContrat) {
         $this->evenContrat = $evenContrat;
@@ -336,6 +344,7 @@ class DadsuPrev {
      * Set the fin periode.
      *
      * @param DateTime|null $finPeriode The fin periode.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setFinPeriode(DateTime $finPeriode = null) {
         $this->finPeriode = $finPeriode;
@@ -346,6 +355,7 @@ class DadsuPrev {
      * Set the id institution.
      *
      * @param string $idInstitution The id institution.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setIdInstitution($idInstitution) {
         $this->idInstitution = $idInstitution;
@@ -356,6 +366,7 @@ class DadsuPrev {
      * Set the indice dadsu.
      *
      * @param int $indiceDadsu The indice dadsu.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setIndiceDadsu($indiceDadsu) {
         $this->indiceDadsu = $indiceDadsu;
@@ -366,6 +377,7 @@ class DadsuPrev {
      * Set the no affiliation.
      *
      * @param string $noAffiliation The no affiliation.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setNoAffiliation($noAffiliation) {
         $this->noAffiliation = $noAffiliation;
@@ -376,6 +388,7 @@ class DadsuPrev {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -386,6 +399,7 @@ class DadsuPrev {
      * Set the numero ordre.
      *
      * @param int $numeroOrdre The numero ordre.
+     * @return DadsuPrev Returns this Dadsu prev.
      */
     public function setNumeroOrdre($numeroOrdre) {
         $this->numeroOrdre = $numeroOrdre;

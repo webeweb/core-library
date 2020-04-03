@@ -320,6 +320,7 @@ class Licences {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Licences Returns this Licences.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -330,6 +331,7 @@ class Licences {
      * Set the code client distr.
      *
      * @param string $codeClientDistr The code client distr.
+     * @return Licences Returns this Licences.
      */
     public function setCodeClientDistr($codeClientDistr) {
         $this->codeClientDistr = $codeClientDistr;
@@ -340,6 +342,7 @@ class Licences {
      * Set the code produit.
      *
      * @param string $codeProduit The code produit.
+     * @return Licences Returns this Licences.
      */
     public function setCodeProduit($codeProduit) {
         $this->codeProduit = $codeProduit;
@@ -350,6 +353,7 @@ class Licences {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return Licences Returns this Licences.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -360,6 +364,7 @@ class Licences {
      * Set the cp ville.
      *
      * @param string $cpVille The cp ville.
+     * @return Licences Returns this Licences.
      */
     public function setCpVille($cpVille) {
         $this->cpVille = $cpVille;
@@ -370,6 +375,7 @@ class Licences {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Licences Returns this Licences.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -380,6 +386,7 @@ class Licences {
      * Set the demo.
      *
      * @param bool $demo The demo.
+     * @return Licences Returns this Licences.
      */
     public function setDemo($demo) {
         $this->demo = $demo;
@@ -390,6 +397,7 @@ class Licences {
      * Set the licence.
      *
      * @param string $licence The licence.
+     * @return Licences Returns this Licences.
      */
     public function setLicence($licence) {
         $this->licence = $licence;
@@ -400,6 +408,7 @@ class Licences {
      * Set the nom client.
      *
      * @param string $nomClient The nom client.
+     * @return Licences Returns this Licences.
      */
     public function setNomClient($nomClient) {
         $this->nomClient = $nomClient;
@@ -410,6 +419,7 @@ class Licences {
      * Set the nombre postes.
      *
      * @param int $nombrePostes The nombre postes.
+     * @return Licences Returns this Licences.
      */
     public function setNombrePostes($nombrePostes) {
         $this->nombrePostes = $nombrePostes;
@@ -420,6 +430,7 @@ class Licences {
      * Set the option1.
      *
      * @param string $option1 The option1.
+     * @return Licences Returns this Licences.
      */
     public function setOption1($option1) {
         $this->option1 = $option1;
@@ -430,6 +441,7 @@ class Licences {
      * Set the option2.
      *
      * @param string $option2 The option2.
+     * @return Licences Returns this Licences.
      */
     public function setOption2($option2) {
         $this->option2 = $option2;
@@ -440,6 +452,7 @@ class Licences {
      * Set the option3.
      *
      * @param string $option3 The option3.
+     * @return Licences Returns this Licences.
      */
     public function setOption3($option3) {
         $this->option3 = $option3;
@@ -450,6 +463,7 @@ class Licences {
      * Set the option4.
      *
      * @param string $option4 The option4.
+     * @return Licences Returns this Licences.
      */
     public function setOption4($option4) {
         $this->option4 = $option4;
@@ -460,6 +474,7 @@ class Licences {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return Licences Returns this Licences.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -470,6 +485,7 @@ class Licences {
      * Set the support.
      *
      * @param string $support The support.
+     * @return Licences Returns this Licences.
      */
     public function setSupport($support) {
         $this->support = $support;
@@ -480,6 +496,7 @@ class Licences {
      * Set the type reseau.
      *
      * @param string $typeReseau The type reseau.
+     * @return Licences Returns this Licences.
      */
     public function setTypeReseau($typeReseau) {
         $this->typeReseau = $typeReseau;
@@ -490,6 +507,7 @@ class Licences {
      * Set the version.
      *
      * @param string $version The version.
+     * @return Licences Returns this Licences.
      */
     public function setVersion($version) {
         $this->version = $version;

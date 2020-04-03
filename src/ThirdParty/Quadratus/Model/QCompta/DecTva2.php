@@ -800,6 +800,7 @@ class DecTva2 {
      * Set the as4284 base.
      *
      * @param float $as4284Base The as4284 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAs4284Base($as4284Base) {
         $this->as4284Base = $as4284Base;
@@ -810,6 +811,7 @@ class DecTva2 {
      * Set the az3510 base.
      *
      * @param float $az3510Base The az3510 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz3510Base($az3510Base) {
         $this->az3510Base = $az3510Base;
@@ -820,6 +822,7 @@ class DecTva2 {
      * Set the az3520 base.
      *
      * @param float $az3520Base The az3520 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz3520Base($az3520Base) {
         $this->az3520Base = $az3520Base;
@@ -830,6 +833,7 @@ class DecTva2 {
      * Set the az4204 nb.
      *
      * @param int $az4204Nb The az4204 nb.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4204Nb($az4204Nb) {
         $this->az4204Nb = $az4204Nb;
@@ -840,6 +844,7 @@ class DecTva2 {
      * Set the az4206 nb.
      *
      * @param int $az4206Nb The az4206 nb.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4206Nb($az4206Nb) {
         $this->az4206Nb = $az4206Nb;
@@ -850,6 +855,7 @@ class DecTva2 {
      * Set the az4207 nb k.
      *
      * @param int $az4207NbK The az4207 nb k.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4207NbK($az4207NbK) {
         $this->az4207NbK = $az4207NbK;
@@ -860,6 +866,7 @@ class DecTva2 {
      * Set the az4213 base.
      *
      * @param float $az4213Base The az4213 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4213Base($az4213Base) {
         $this->az4213Base = $az4213Base;
@@ -870,6 +877,7 @@ class DecTva2 {
      * Set the az4215 base.
      *
      * @param float $az4215Base The az4215 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4215Base($az4215Base) {
         $this->az4215Base = $az4215Base;
@@ -880,6 +888,7 @@ class DecTva2 {
      * Set the az4217 base.
      *
      * @param float $az4217Base The az4217 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4217Base($az4217Base) {
         $this->az4217Base = $az4217Base;
@@ -890,6 +899,7 @@ class DecTva2 {
      * Set the az4223 base.
      *
      * @param float $az4223Base The az4223 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4223Base($az4223Base) {
         $this->az4223Base = $az4223Base;
@@ -900,6 +910,7 @@ class DecTva2 {
      * Set the az4226 base.
      *
      * @param float $az4226Base The az4226 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4226Base($az4226Base) {
         $this->az4226Base = $az4226Base;
@@ -910,6 +921,7 @@ class DecTva2 {
      * Set the az4228 base.
      *
      * @param float $az4228Base The az4228 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4228Base($az4228Base) {
         $this->az4228Base = $az4228Base;
@@ -920,6 +932,7 @@ class DecTva2 {
      * Set the az4229 base.
      *
      * @param float $az4229Base The az4229 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4229Base($az4229Base) {
         $this->az4229Base = $az4229Base;
@@ -930,6 +943,7 @@ class DecTva2 {
      * Set the az4237 base.
      *
      * @param float $az4237Base The az4237 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4237Base($az4237Base) {
         $this->az4237Base = $az4237Base;
@@ -940,6 +954,7 @@ class DecTva2 {
      * Set the az4240 base.
      *
      * @param float $az4240Base The az4240 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4240Base($az4240Base) {
         $this->az4240Base = $az4240Base;
@@ -950,6 +965,7 @@ class DecTva2 {
      * Set the az4245 base.
      *
      * @param float $az4245Base The az4245 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4245Base($az4245Base) {
         $this->az4245Base = $az4245Base;
@@ -960,6 +976,7 @@ class DecTva2 {
      * Set the az4249 nb t.
      *
      * @param int $az4249NbT The az4249 nb t.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4249NbT($az4249NbT) {
         $this->az4249NbT = $az4249NbT;
@@ -970,6 +987,7 @@ class DecTva2 {
      * Set the az4250 nb e.
      *
      * @param int $az4250NbE The az4250 nb e.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4250NbE($az4250NbE) {
         $this->az4250NbE = $az4250NbE;
@@ -980,6 +998,7 @@ class DecTva2 {
      * Set the az4252 base.
      *
      * @param float $az4252Base The az4252 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4252Base($az4252Base) {
         $this->az4252Base = $az4252Base;
@@ -990,6 +1009,7 @@ class DecTva2 {
      * Set the az4255 base.
      *
      * @param float $az4255Base The az4255 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4255Base($az4255Base) {
         $this->az4255Base = $az4255Base;
@@ -1000,6 +1020,7 @@ class DecTva2 {
      * Set the az4257 base.
      *
      * @param float $az4257Base The az4257 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4257Base($az4257Base) {
         $this->az4257Base = $az4257Base;
@@ -1010,6 +1031,7 @@ class DecTva2 {
      * Set the az4258 base.
      *
      * @param float $az4258Base The az4258 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4258Base($az4258Base) {
         $this->az4258Base = $az4258Base;
@@ -1020,6 +1042,7 @@ class DecTva2 {
      * Set the az4268 base2.
      *
      * @param float $az4268Base2 The az4268 base2.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4268Base2($az4268Base2) {
         $this->az4268Base2 = $az4268Base2;
@@ -1030,6 +1053,7 @@ class DecTva2 {
      * Set the az4270 base2.
      *
      * @param float $az4270Base2 The az4270 base2.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4270Base2($az4270Base2) {
         $this->az4270Base2 = $az4270Base2;
@@ -1040,6 +1064,7 @@ class DecTva2 {
      * Set the az4278.
      *
      * @param float $az4278 The az4278.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4278($az4278) {
         $this->az4278 = $az4278;
@@ -1050,6 +1075,7 @@ class DecTva2 {
      * Set the az4278 base.
      *
      * @param float $az4278Base The az4278 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4278Base($az4278Base) {
         $this->az4278Base = $az4278Base;
@@ -1060,6 +1086,7 @@ class DecTva2 {
      * Set the az4279.
      *
      * @param float $az4279 The az4279.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4279($az4279) {
         $this->az4279 = $az4279;
@@ -1070,6 +1097,7 @@ class DecTva2 {
      * Set the az4279 nb k.
      *
      * @param int $az4279NbK The az4279 nb k.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4279NbK($az4279NbK) {
         $this->az4279NbK = $az4279NbK;
@@ -1080,6 +1108,7 @@ class DecTva2 {
      * Set the az4279 nb v.
      *
      * @param int $az4279NbV The az4279 nb v.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4279NbV($az4279NbV) {
         $this->az4279NbV = $az4279NbV;
@@ -1090,6 +1119,7 @@ class DecTva2 {
      * Set the az4280.
      *
      * @param float $az4280 The az4280.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4280($az4280) {
         $this->az4280 = $az4280;
@@ -1100,6 +1130,7 @@ class DecTva2 {
      * Set the az4280 nb k.
      *
      * @param int $az4280NbK The az4280 nb k.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4280NbK($az4280NbK) {
         $this->az4280NbK = $az4280NbK;
@@ -1110,6 +1141,7 @@ class DecTva2 {
      * Set the az4280 nb v.
      *
      * @param int $az4280NbV The az4280 nb v.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4280NbV($az4280NbV) {
         $this->az4280NbV = $az4280NbV;
@@ -1120,6 +1152,7 @@ class DecTva2 {
      * Set the az4281.
      *
      * @param float $az4281 The az4281.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4281($az4281) {
         $this->az4281 = $az4281;
@@ -1130,6 +1163,7 @@ class DecTva2 {
      * Set the az4281 base.
      *
      * @param float $az4281Base The az4281 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4281Base($az4281Base) {
         $this->az4281Base = $az4281Base;
@@ -1140,6 +1174,7 @@ class DecTva2 {
      * Set the az4282.
      *
      * @param float $az4282 The az4282.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4282($az4282) {
         $this->az4282 = $az4282;
@@ -1150,6 +1185,7 @@ class DecTva2 {
      * Set the az4282 base.
      *
      * @param float $az4282Base The az4282 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4282Base($az4282Base) {
         $this->az4282Base = $az4282Base;
@@ -1160,6 +1196,7 @@ class DecTva2 {
      * Set the az4283.
      *
      * @param float $az4283 The az4283.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4283($az4283) {
         $this->az4283 = $az4283;
@@ -1170,6 +1207,7 @@ class DecTva2 {
      * Set the az4283 base.
      *
      * @param float $az4283Base The az4283 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4283Base($az4283Base) {
         $this->az4283Base = $az4283Base;
@@ -1180,6 +1218,7 @@ class DecTva2 {
      * Set the az4284.
      *
      * @param float $az4284 The az4284.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4284($az4284) {
         $this->az4284 = $az4284;
@@ -1190,6 +1229,7 @@ class DecTva2 {
      * Set the az4285.
      *
      * @param float $az4285 The az4285.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4285($az4285) {
         $this->az4285 = $az4285;
@@ -1200,6 +1240,7 @@ class DecTva2 {
      * Set the az4285 base.
      *
      * @param float $az4285Base The az4285 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4285Base($az4285Base) {
         $this->az4285Base = $az4285Base;
@@ -1210,6 +1251,7 @@ class DecTva2 {
      * Set the az4288.
      *
      * @param float $az4288 The az4288.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4288($az4288) {
         $this->az4288 = $az4288;
@@ -1220,6 +1262,7 @@ class DecTva2 {
      * Set the az4288 base.
      *
      * @param float $az4288Base The az4288 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4288Base($az4288Base) {
         $this->az4288Base = $az4288Base;
@@ -1230,6 +1273,7 @@ class DecTva2 {
      * Set the az4289.
      *
      * @param float $az4289 The az4289.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4289($az4289) {
         $this->az4289 = $az4289;
@@ -1240,6 +1284,7 @@ class DecTva2 {
      * Set the az4289 base.
      *
      * @param float $az4289Base The az4289 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4289Base($az4289Base) {
         $this->az4289Base = $az4289Base;
@@ -1250,6 +1295,7 @@ class DecTva2 {
      * Set the az4290.
      *
      * @param float $az4290 The az4290.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4290($az4290) {
         $this->az4290 = $az4290;
@@ -1260,6 +1306,7 @@ class DecTva2 {
      * Set the az4290 base.
      *
      * @param float $az4290Base The az4290 base.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setAz4290Base($az4290Base) {
         $this->az4290Base = $az4290Base;
@@ -1270,6 +1317,7 @@ class DecTva2 {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return DecTva2 Returns this Dec tva2.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

@@ -304,6 +304,7 @@ class ChantiersDescriptifLocaux {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -314,6 +315,7 @@ class ChantiersDescriptifLocaux {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -324,6 +326,7 @@ class ChantiersDescriptifLocaux {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -334,6 +337,7 @@ class ChantiersDescriptifLocaux {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -344,6 +348,7 @@ class ChantiersDescriptifLocaux {
      * Set the code critere1.
      *
      * @param string $codeCritere1 The code critere1.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setCodeCritere1($codeCritere1) {
         $this->codeCritere1 = $codeCritere1;
@@ -354,6 +359,7 @@ class ChantiersDescriptifLocaux {
      * Set the coefficient.
      *
      * @param float $coefficient The coefficient.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setCoefficient($coefficient) {
         $this->coefficient = $coefficient;
@@ -364,6 +370,7 @@ class ChantiersDescriptifLocaux {
      * Set the date transfert.
      *
      * @param DateTime|null $dateTransfert The date transfert.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setDateTransfert(DateTime $dateTransfert = null) {
         $this->dateTransfert = $dateTransfert;
@@ -374,6 +381,7 @@ class ChantiersDescriptifLocaux {
      * Set the famille elements.
      *
      * @param string $familleElements The famille elements.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setFamilleElements($familleElements) {
         $this->familleElements = $familleElements;
@@ -384,6 +392,7 @@ class ChantiersDescriptifLocaux {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -394,6 +403,7 @@ class ChantiersDescriptifLocaux {
      * Set the libelle critere1.
      *
      * @param string $libelleCritere1 The libelle critere1.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setLibelleCritere1($libelleCritere1) {
         $this->libelleCritere1 = $libelleCritere1;
@@ -404,6 +414,7 @@ class ChantiersDescriptifLocaux {
      * Set the niveau noeud.
      *
      * @param int $niveauNoeud The niveau noeud.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setNiveauNoeud($niveauNoeud) {
         $this->niveauNoeud = $niveauNoeud;
@@ -414,6 +425,7 @@ class ChantiersDescriptifLocaux {
      * Set the noeud local.
      *
      * @param bool $noeudLocal The noeud local.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setNoeudLocal($noeudLocal) {
         $this->noeudLocal = $noeudLocal;
@@ -424,6 +436,7 @@ class ChantiersDescriptifLocaux {
      * Set the note objectif.
      *
      * @param float $noteObjectif The note objectif.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setNoteObjectif($noteObjectif) {
         $this->noteObjectif = $noteObjectif;
@@ -434,6 +447,7 @@ class ChantiersDescriptifLocaux {
      * Set the numero noeud.
      *
      * @param int $numeroNoeud The numero noeud.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setNumeroNoeud($numeroNoeud) {
         $this->numeroNoeud = $numeroNoeud;
@@ -444,6 +458,7 @@ class ChantiersDescriptifLocaux {
      * Set the poste.
      *
      * @param string $poste The poste.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setPoste($poste) {
         $this->poste = $poste;
@@ -454,6 +469,7 @@ class ChantiersDescriptifLocaux {
      * Set the uniq id blocage.
      *
      * @param string $uniqIdBlocage The uniq id blocage.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setUniqIdBlocage($uniqIdBlocage) {
         $this->uniqIdBlocage = $uniqIdBlocage;
@@ -464,6 +480,7 @@ class ChantiersDescriptifLocaux {
      * Set the uniq id noeud.
      *
      * @param string $uniqIdNoeud The uniq id noeud.
+     * @return ChantiersDescriptifLocaux Returns this Chantiers descriptif locaux.
      */
     public function setUniqIdNoeud($uniqIdNoeud) {
         $this->uniqIdNoeud = $uniqIdNoeud;

@@ -176,6 +176,7 @@ class DosRevEtatCpt {
      * Set the collaborateur.
      *
      * @param string $collaborateur The collaborateur.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setCollaborateur($collaborateur) {
         $this->collaborateur = $collaborateur;
@@ -186,6 +187,7 @@ class DosRevEtatCpt {
      * Set the credit.
      *
      * @param float $credit The credit.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setCredit($credit) {
         $this->credit = $credit;
@@ -196,6 +198,7 @@ class DosRevEtatCpt {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -206,6 +209,7 @@ class DosRevEtatCpt {
      * Set the debit.
      *
      * @param float $debit The debit.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setDebit($debit) {
         $this->debit = $debit;
@@ -216,6 +220,7 @@ class DosRevEtatCpt {
      * Set the etat cpt.
      *
      * @param string $etatCpt The etat cpt.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setEtatCpt($etatCpt) {
         $this->etatCpt = $etatCpt;
@@ -226,6 +231,7 @@ class DosRevEtatCpt {
      * Set the modifie.
      *
      * @param bool $modifie The modifie.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setModifie($modifie) {
         $this->modifie = $modifie;
@@ -236,6 +242,7 @@ class DosRevEtatCpt {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -246,6 +253,7 @@ class DosRevEtatCpt {
      * Set the periode rev.
      *
      * @param DateTime|null $periodeRev The periode rev.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setPeriodeRev(DateTime $periodeRev = null) {
         $this->periodeRev = $periodeRev;
@@ -256,6 +264,7 @@ class DosRevEtatCpt {
      * Set the solde.
      *
      * @param float $solde The solde.
+     * @return DosRevEtatCpt Returns this Dos rev etat cpt.
      */
     public function setSolde($solde) {
         $this->solde = $solde;

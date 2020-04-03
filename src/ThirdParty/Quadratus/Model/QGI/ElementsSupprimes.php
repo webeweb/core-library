@@ -128,6 +128,7 @@ class ElementsSupprimes {
      * Set the date1.
      *
      * @param DateTime|null $date1 The date1.
+     * @return ElementsSupprimes Returns this Elements supprimes.
      */
     public function setDate1(DateTime $date1 = null) {
         $this->date1 = $date1;
@@ -138,6 +139,7 @@ class ElementsSupprimes {
      * Set the date elem.
      *
      * @param DateTime|null $dateElem The date elem.
+     * @return ElementsSupprimes Returns this Elements supprimes.
      */
     public function setDateElem(DateTime $dateElem = null) {
         $this->dateElem = $dateElem;
@@ -148,6 +150,7 @@ class ElementsSupprimes {
      * Set the memo1.
      *
      * @param string $memo1 The memo1.
+     * @return ElementsSupprimes Returns this Elements supprimes.
      */
     public function setMemo1($memo1) {
         $this->memo1 = $memo1;
@@ -158,6 +161,7 @@ class ElementsSupprimes {
      * Set the texte1.
      *
      * @param string $texte1 The texte1.
+     * @return ElementsSupprimes Returns this Elements supprimes.
      */
     public function setTexte1($texte1) {
         $this->texte1 = $texte1;
@@ -168,6 +172,7 @@ class ElementsSupprimes {
      * Set the type elem.
      *
      * @param string $typeElem The type elem.
+     * @return ElementsSupprimes Returns this Elements supprimes.
      */
     public function setTypeElem($typeElem) {
         $this->typeElem = $typeElem;
@@ -178,6 +183,7 @@ class ElementsSupprimes {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return ElementsSupprimes Returns this Elements supprimes.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

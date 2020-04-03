@@ -496,6 +496,7 @@ class AbsEmpRemplacants {
      * Set the ajouter en h compl.
      *
      * @param bool $ajouterEnHCompl The ajouter en h compl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setAjouterEnHCompl($ajouterEnHCompl) {
         $this->ajouterEnHCompl = $ajouterEnHCompl;
@@ -506,6 +507,7 @@ class AbsEmpRemplacants {
      * Set the avenant h rempl.
      *
      * @param bool $avenantHRempl The avenant h rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setAvenantHRempl($avenantHRempl) {
         $this->avenantHRempl = $avenantHRempl;
@@ -516,6 +518,7 @@ class AbsEmpRemplacants {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -526,6 +529,7 @@ class AbsEmpRemplacants {
      * Set the code affaire rempl.
      *
      * @param string $codeAffaireRempl The code affaire rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeAffaireRempl($codeAffaireRempl) {
         $this->codeAffaireRempl = $codeAffaireRempl;
@@ -536,6 +540,7 @@ class AbsEmpRemplacants {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -546,6 +551,7 @@ class AbsEmpRemplacants {
      * Set the code chantier rempl.
      *
      * @param string $codeChantierRempl The code chantier rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeChantierRempl($codeChantierRempl) {
         $this->codeChantierRempl = $codeChantierRempl;
@@ -556,6 +562,7 @@ class AbsEmpRemplacants {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -566,6 +573,7 @@ class AbsEmpRemplacants {
      * Set the code client rempl.
      *
      * @param string $codeClientRempl The code client rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeClientRempl($codeClientRempl) {
         $this->codeClientRempl = $codeClientRempl;
@@ -576,6 +584,7 @@ class AbsEmpRemplacants {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -586,6 +595,7 @@ class AbsEmpRemplacants {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -596,6 +606,7 @@ class AbsEmpRemplacants {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -606,6 +617,7 @@ class AbsEmpRemplacants {
      * Set the code remplacant.
      *
      * @param string $codeRemplacant The code remplacant.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeRemplacant($codeRemplacant) {
         $this->codeRemplacant = $codeRemplacant;
@@ -616,6 +628,7 @@ class AbsEmpRemplacants {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -626,6 +639,7 @@ class AbsEmpRemplacants {
      * Set the code tache rempl.
      *
      * @param string $codeTacheRempl The code tache rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setCodeTacheRempl($codeTacheRempl) {
         $this->codeTacheRempl = $codeTacheRempl;
@@ -636,6 +650,7 @@ class AbsEmpRemplacants {
      * Set the date abs decalee.
      *
      * @param DateTime|null $dateAbsDecalee The date abs decalee.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setDateAbsDecalee(DateTime $dateAbsDecalee = null) {
         $this->dateAbsDecalee = $dateAbsDecalee;
@@ -646,6 +661,7 @@ class AbsEmpRemplacants {
      * Set the date debut abs.
      *
      * @param DateTime|null $dateDebutAbs The date debut abs.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setDateDebutAbs(DateTime $dateDebutAbs = null) {
         $this->dateDebutAbs = $dateDebutAbs;
@@ -656,6 +672,7 @@ class AbsEmpRemplacants {
      * Set the date debut rempl.
      *
      * @param DateTime|null $dateDebutRempl The date debut rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setDateDebutRempl(DateTime $dateDebutRempl = null) {
         $this->dateDebutRempl = $dateDebutRempl;
@@ -666,6 +683,7 @@ class AbsEmpRemplacants {
      * Set the date fin rempl.
      *
      * @param DateTime|null $dateFinRempl The date fin rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setDateFinRempl(DateTime $dateFinRempl = null) {
         $this->dateFinRempl = $dateFinRempl;
@@ -676,6 +694,7 @@ class AbsEmpRemplacants {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -686,6 +705,7 @@ class AbsEmpRemplacants {
      * Set the duree remplacement.
      *
      * @param float $dureeRemplacement The duree remplacement.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setDureeRemplacement($dureeRemplacement) {
         $this->dureeRemplacement = $dureeRemplacement;
@@ -696,6 +716,7 @@ class AbsEmpRemplacants {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -706,6 +727,7 @@ class AbsEmpRemplacants {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -716,6 +738,7 @@ class AbsEmpRemplacants {
      * Set the num bt rempl.
      *
      * @param int $numBtRempl The num bt rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setNumBtRempl($numBtRempl) {
         $this->numBtRempl = $numBtRempl;
@@ -726,6 +749,7 @@ class AbsEmpRemplacants {
      * Set the num rempl.
      *
      * @param int $numRempl The num rempl.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setNumRempl($numRempl) {
         $this->numRempl = $numRempl;
@@ -736,6 +760,7 @@ class AbsEmpRemplacants {
      * Set the numero avenant.
      *
      * @param int $numeroAvenant The numero avenant.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setNumeroAvenant($numeroAvenant) {
         $this->numeroAvenant = $numeroAvenant;
@@ -746,6 +771,7 @@ class AbsEmpRemplacants {
      * Set the remplacant travaille jf.
      *
      * @param bool $remplacantTravailleJf The remplacant travaille jf.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setRemplacantTravailleJf($remplacantTravailleJf) {
         $this->remplacantTravailleJf = $remplacantTravailleJf;
@@ -756,6 +782,7 @@ class AbsEmpRemplacants {
      * Set the remplacement complet.
      *
      * @param bool $remplacementComplet The remplacement complet.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setRemplacementComplet($remplacementComplet) {
         $this->remplacementComplet = $remplacementComplet;
@@ -766,6 +793,7 @@ class AbsEmpRemplacants {
      * Set the remplacement modifie.
      *
      * @param bool $remplacementModifie The remplacement modifie.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setRemplacementModifie($remplacementModifie) {
         $this->remplacementModifie = $remplacementModifie;
@@ -776,6 +804,7 @@ class AbsEmpRemplacants {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return AbsEmpRemplacants Returns this Abs emp remplacants.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

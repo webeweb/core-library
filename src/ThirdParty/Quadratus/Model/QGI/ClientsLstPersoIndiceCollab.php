@@ -110,6 +110,7 @@ class ClientsLstPersoIndiceCollab {
      * Set the chapitre.
      *
      * @param string $chapitre The chapitre.
+     * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
     public function setChapitre($chapitre) {
         $this->chapitre = $chapitre;
@@ -120,6 +121,7 @@ class ClientsLstPersoIndiceCollab {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -130,6 +132,7 @@ class ClientsLstPersoIndiceCollab {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -140,6 +143,7 @@ class ClientsLstPersoIndiceCollab {
      * Set the origine.
      *
      * @param int $origine The origine.
+     * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
     public function setOrigine($origine) {
         $this->origine = $origine;
@@ -150,6 +154,7 @@ class ClientsLstPersoIndiceCollab {
      * Set the ref guid.
      *
      * @param string $refGuid The ref guid.
+     * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
     public function setRefGuid($refGuid) {
         $this->refGuid = $refGuid;

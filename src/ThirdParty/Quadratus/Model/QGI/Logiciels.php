@@ -240,6 +240,7 @@ class Logiciels {
      * Set the categorie.
      *
      * @param string $categorie The categorie.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setCategorie($categorie) {
         $this->categorie = $categorie;
@@ -250,6 +251,7 @@ class Logiciels {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -260,6 +262,7 @@ class Logiciels {
      * Set the code intervenant.
      *
      * @param string $codeIntervenant The code intervenant.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setCodeIntervenant($codeIntervenant) {
         $this->codeIntervenant = $codeIntervenant;
@@ -270,6 +273,7 @@ class Logiciels {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -280,6 +284,7 @@ class Logiciels {
      * Set the date achat.
      *
      * @param DateTime|null $dateAchat The date achat.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setDateAchat(DateTime $dateAchat = null) {
         $this->dateAchat = $dateAchat;
@@ -290,6 +295,7 @@ class Logiciels {
      * Set the date fin maint.
      *
      * @param DateTime|null $dateFinMaint The date fin maint.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setDateFinMaint(DateTime $dateFinMaint = null) {
         $this->dateFinMaint = $dateFinMaint;
@@ -300,6 +306,7 @@ class Logiciels {
      * Set the indice aff.
      *
      * @param int $indiceAff The indice aff.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setIndiceAff($indiceAff) {
         $this->indiceAff = $indiceAff;
@@ -310,6 +317,7 @@ class Logiciels {
      * Set the maintenance.
      *
      * @param bool $maintenance The maintenance.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setMaintenance($maintenance) {
         $this->maintenance = $maintenance;
@@ -320,6 +328,7 @@ class Logiciels {
      * Set the montant maint.
      *
      * @param float $montantMaint The montant maint.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setMontantMaint($montantMaint) {
         $this->montantMaint = $montantMaint;
@@ -330,6 +339,7 @@ class Logiciels {
      * Set the nom logiciel.
      *
      * @param string $nomLogiciel The nom logiciel.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setNomLogiciel($nomLogiciel) {
         $this->nomLogiciel = $nomLogiciel;
@@ -340,6 +350,7 @@ class Logiciels {
      * Set the num licence.
      *
      * @param string $numLicence The num licence.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setNumLicence($numLicence) {
         $this->numLicence = $numLicence;
@@ -350,6 +361,7 @@ class Logiciels {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -360,6 +372,7 @@ class Logiciels {
      * Set the sous categorie.
      *
      * @param string $sousCategorie The sous categorie.
+     * @return Logiciels Returns this Logiciels.
      */
     public function setSousCategorie($sousCategorie) {
         $this->sousCategorie = $sousCategorie;

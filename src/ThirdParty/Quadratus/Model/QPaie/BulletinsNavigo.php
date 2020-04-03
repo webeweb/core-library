@@ -144,6 +144,7 @@ class BulletinsNavigo {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return BulletinsNavigo Returns this Bulletins navigo.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -154,6 +155,7 @@ class BulletinsNavigo {
      * Set the nb semaine.
      *
      * @param string $nbSemaine The nb semaine.
+     * @return BulletinsNavigo Returns this Bulletins navigo.
      */
     public function setNbSemaine($nbSemaine) {
         $this->nbSemaine = $nbSemaine;
@@ -164,6 +166,7 @@ class BulletinsNavigo {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return BulletinsNavigo Returns this Bulletins navigo.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -174,6 +177,7 @@ class BulletinsNavigo {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return BulletinsNavigo Returns this Bulletins navigo.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -184,6 +188,7 @@ class BulletinsNavigo {
      * Set the rbt non proratise.
      *
      * @param bool $rbtNonProratise The rbt non proratise.
+     * @return BulletinsNavigo Returns this Bulletins navigo.
      */
     public function setRbtNonProratise($rbtNonProratise) {
         $this->rbtNonProratise = $rbtNonProratise;
@@ -194,6 +199,7 @@ class BulletinsNavigo {
      * Set the type abonnement.
      *
      * @param string $typeAbonnement The type abonnement.
+     * @return BulletinsNavigo Returns this Bulletins navigo.
      */
     public function setTypeAbonnement($typeAbonnement) {
         $this->typeAbonnement = $typeAbonnement;
@@ -204,6 +210,7 @@ class BulletinsNavigo {
      * Set the zone.
      *
      * @param string $zone The zone.
+     * @return BulletinsNavigo Returns this Bulletins navigo.
      */
     public function setZone($zone) {
         $this->zone = $zone;

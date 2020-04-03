@@ -800,6 +800,7 @@ class Articles {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return Articles Returns this Articles.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -810,6 +811,7 @@ class Articles {
      * Set the article remplacement.
      *
      * @param string $articleRemplacement The article remplacement.
+     * @return Articles Returns this Articles.
      */
     public function setArticleRemplacement($articleRemplacement) {
         $this->articleRemplacement = $articleRemplacement;
@@ -820,6 +822,7 @@ class Articles {
      * Set the classification four.
      *
      * @param string $classificationFour The classification four.
+     * @return Articles Returns this Articles.
      */
     public function setClassificationFour($classificationFour) {
         $this->classificationFour = $classificationFour;
@@ -830,6 +833,7 @@ class Articles {
      * Set the classification util.
      *
      * @param string $classificationUtil The classification util.
+     * @return Articles Returns this Articles.
      */
     public function setClassificationUtil($classificationUtil) {
         $this->classificationUtil = $classificationUtil;
@@ -840,6 +844,7 @@ class Articles {
      * Set the code affect rent.
      *
      * @param string $codeAffectRent The code affect rent.
+     * @return Articles Returns this Articles.
      */
     public function setCodeAffectRent($codeAffectRent) {
         $this->codeAffectRent = $codeAffectRent;
@@ -850,6 +855,7 @@ class Articles {
      * Set the code anal achat.
      *
      * @param string $codeAnalAchat The code anal achat.
+     * @return Articles Returns this Articles.
      */
     public function setCodeAnalAchat($codeAnalAchat) {
         $this->codeAnalAchat = $codeAnalAchat;
@@ -860,6 +866,7 @@ class Articles {
      * Set the code anal vente.
      *
      * @param string $codeAnalVente The code anal vente.
+     * @return Articles Returns this Articles.
      */
     public function setCodeAnalVente($codeAnalVente) {
         $this->codeAnalVente = $codeAnalVente;
@@ -870,6 +877,7 @@ class Articles {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return Articles Returns this Articles.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -880,6 +888,7 @@ class Articles {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return Articles Returns this Articles.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -890,6 +899,7 @@ class Articles {
      * Set the code tva achat.
      *
      * @param string $codeTvaAchat The code tva achat.
+     * @return Articles Returns this Articles.
      */
     public function setCodeTvaAchat($codeTvaAchat) {
         $this->codeTvaAchat = $codeTvaAchat;
@@ -900,6 +910,7 @@ class Articles {
      * Set the code tva vente.
      *
      * @param string $codeTvaVente The code tva vente.
+     * @return Articles Returns this Articles.
      */
     public function setCodeTvaVente($codeTvaVente) {
         $this->codeTvaVente = $codeTvaVente;
@@ -910,6 +921,7 @@ class Articles {
      * Set the code unite.
      *
      * @param string $codeUnite The code unite.
+     * @return Articles Returns this Articles.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -920,6 +932,7 @@ class Articles {
      * Set the code ventil achat.
      *
      * @param string $codeVentilAchat The code ventil achat.
+     * @return Articles Returns this Articles.
      */
     public function setCodeVentilAchat($codeVentilAchat) {
         $this->codeVentilAchat = $codeVentilAchat;
@@ -930,6 +943,7 @@ class Articles {
      * Set the code ventil vente.
      *
      * @param string $codeVentilVente The code ventil vente.
+     * @return Articles Returns this Articles.
      */
     public function setCodeVentilVente($codeVentilVente) {
         $this->codeVentilVente = $codeVentilVente;
@@ -940,6 +954,7 @@ class Articles {
      * Set the coef.
      *
      * @param float $coef The coef.
+     * @return Articles Returns this Articles.
      */
     public function setCoef($coef) {
         $this->coef = $coef;
@@ -950,6 +965,7 @@ class Articles {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Articles Returns this Articles.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -960,6 +976,7 @@ class Articles {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return Articles Returns this Articles.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -970,6 +987,7 @@ class Articles {
      * Set the depuis deb fac.
      *
      * @param bool $depuisDebFac The depuis deb fac.
+     * @return Articles Returns this Articles.
      */
     public function setDepuisDebFac($depuisDebFac) {
         $this->depuisDebFac = $depuisDebFac;
@@ -980,6 +998,7 @@ class Articles {
      * Set the dernier prix achat.
      *
      * @param float $dernierPrixAchat The dernier prix achat.
+     * @return Articles Returns this Articles.
      */
     public function setDernierPrixAchat($dernierPrixAchat) {
         $this->dernierPrixAchat = $dernierPrixAchat;
@@ -990,6 +1009,7 @@ class Articles {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return Articles Returns this Articles.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -1000,6 +1020,7 @@ class Articles {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return Articles Returns this Articles.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -1010,6 +1031,7 @@ class Articles {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return Articles Returns this Articles.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -1020,6 +1042,7 @@ class Articles {
      * Set the designation rtf.
      *
      * @param string $designationRtf The designation rtf.
+     * @return Articles Returns this Articles.
      */
     public function setDesignationRtf($designationRtf) {
         $this->designationRtf = $designationRtf;
@@ -1030,6 +1053,7 @@ class Articles {
      * Set the famille article.
      *
      * @param string $familleArticle The famille article.
+     * @return Articles Returns this Articles.
      */
     public function setFamilleArticle($familleArticle) {
         $this->familleArticle = $familleArticle;
@@ -1040,6 +1064,7 @@ class Articles {
      * Set the imprimer dans pied.
      *
      * @param bool $imprimerDansPied The imprimer dans pied.
+     * @return Articles Returns this Articles.
      */
     public function setImprimerDansPied($imprimerDansPied) {
         $this->imprimerDansPied = $imprimerDansPied;
@@ -1050,6 +1075,7 @@ class Articles {
      * Set the montant unitaire taxe.
      *
      * @param float $montantUnitaireTaxe The montant unitaire taxe.
+     * @return Articles Returns this Articles.
      */
     public function setMontantUnitaireTaxe($montantUnitaireTaxe) {
         $this->montantUnitaireTaxe = $montantUnitaireTaxe;
@@ -1060,6 +1086,7 @@ class Articles {
      * Set the mot cle dans pied.
      *
      * @param string $motCleDansPied The mot cle dans pied.
+     * @return Articles Returns this Articles.
      */
     public function setMotCleDansPied($motCleDansPied) {
         $this->motCleDansPied = $motCleDansPied;
@@ -1070,6 +1097,7 @@ class Articles {
      * Set the ne pas reviser.
      *
      * @param bool $nePasReviser The ne pas reviser.
+     * @return Articles Returns this Articles.
      */
     public function setNePasReviser($nePasReviser) {
         $this->nePasReviser = $nePasReviser;
@@ -1080,6 +1108,7 @@ class Articles {
      * Set the nombre echeances.
      *
      * @param string $nombreEcheances The nombre echeances.
+     * @return Articles Returns this Articles.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -1090,6 +1119,7 @@ class Articles {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return Articles Returns this Articles.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -1100,6 +1130,7 @@ class Articles {
      * Set the pamp.
      *
      * @param float $pamp The pamp.
+     * @return Articles Returns this Articles.
      */
     public function setPamp($pamp) {
         $this->pamp = $pamp;
@@ -1110,6 +1141,7 @@ class Articles {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return Articles Returns this Articles.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -1120,6 +1152,7 @@ class Articles {
      * Set the prix net.
      *
      * @param bool $prixNet The prix net.
+     * @return Articles Returns this Articles.
      */
     public function setPrixNet($prixNet) {
         $this->prixNet = $prixNet;
@@ -1130,6 +1163,7 @@ class Articles {
      * Set the prix revient.
      *
      * @param float $prixRevient The prix revient.
+     * @return Articles Returns this Articles.
      */
     public function setPrixRevient($prixRevient) {
         $this->prixRevient = $prixRevient;
@@ -1140,6 +1174,7 @@ class Articles {
      * Set the prix vente.
      *
      * @param float $prixVente The prix vente.
+     * @return Articles Returns this Articles.
      */
     public function setPrixVente($prixVente) {
         $this->prixVente = $prixVente;
@@ -1150,6 +1185,7 @@ class Articles {
      * Set the prix vente euros.
      *
      * @param float $prixVenteEuros The prix vente euros.
+     * @return Articles Returns this Articles.
      */
     public function setPrixVenteEuros($prixVenteEuros) {
         $this->prixVenteEuros = $prixVenteEuros;
@@ -1160,6 +1196,7 @@ class Articles {
      * Set the produit.
      *
      * @param bool $produit The produit.
+     * @return Articles Returns this Articles.
      */
     public function setProduit($produit) {
         $this->produit = $produit;
@@ -1170,6 +1207,7 @@ class Articles {
      * Set the produit chimique.
      *
      * @param bool $produitChimique The produit chimique.
+     * @return Articles Returns this Articles.
      */
     public function setProduitChimique($produitChimique) {
         $this->produitChimique = $produitChimique;
@@ -1180,6 +1218,7 @@ class Articles {
      * Set the px facture.
      *
      * @param bool $pxFacture The px facture.
+     * @return Articles Returns this Articles.
      */
     public function setPxFacture($pxFacture) {
         $this->pxFacture = $pxFacture;
@@ -1190,6 +1229,7 @@ class Articles {
      * Set the qte stock mini.
      *
      * @param float $qteStockMini The qte stock mini.
+     * @return Articles Returns this Articles.
      */
     public function setQteStockMini($qteStockMini) {
         $this->qteStockMini = $qteStockMini;
@@ -1200,6 +1240,7 @@ class Articles {
      * Set the qte stock reel.
      *
      * @param float $qteStockReel The qte stock reel.
+     * @return Articles Returns this Articles.
      */
     public function setQteStockReel($qteStockReel) {
         $this->qteStockReel = $qteStockReel;
@@ -1210,6 +1251,7 @@ class Articles {
      * Set the soumis escompte.
      *
      * @param bool $soumisEscompte The soumis escompte.
+     * @return Articles Returns this Articles.
      */
     public function setSoumisEscompte($soumisEscompte) {
         $this->soumisEscompte = $soumisEscompte;
@@ -1220,6 +1262,7 @@ class Articles {
      * Set the suivi stock.
      *
      * @param bool $suiviStock The suivi stock.
+     * @return Articles Returns this Articles.
      */
     public function setSuiviStock($suiviStock) {
         $this->suiviStock = $suiviStock;
@@ -1230,6 +1273,7 @@ class Articles {
      * Set the taux escompte.
      *
      * @param float $tauxEscompte The taux escompte.
+     * @return Articles Returns this Articles.
      */
     public function setTauxEscompte($tauxEscompte) {
         $this->tauxEscompte = $tauxEscompte;
@@ -1240,6 +1284,7 @@ class Articles {
      * Set the type article.
      *
      * @param string $typeArticle The type article.
+     * @return Articles Returns this Articles.
      */
     public function setTypeArticle($typeArticle) {
         $this->typeArticle = $typeArticle;
@@ -1250,6 +1295,7 @@ class Articles {
      * Set the variante.
      *
      * @param bool $variante The variante.
+     * @return Articles Returns this Articles.
      */
     public function setVariante($variante) {
         $this->variante = $variante;
@@ -1260,6 +1306,7 @@ class Articles {
      * Set the ventil marge.
      *
      * @param bool $ventilMarge The ventil marge.
+     * @return Articles Returns this Articles.
      */
     public function setVentilMarge($ventilMarge) {
         $this->ventilMarge = $ventilMarge;
@@ -1270,6 +1317,7 @@ class Articles {
      * Set the visu dans att fisc.
      *
      * @param bool $visuDansAttFisc The visu dans att fisc.
+     * @return Articles Returns this Articles.
      */
     public function setVisuDansAttFisc($visuDansAttFisc) {
         $this->visuDansAttFisc = $visuDansAttFisc;

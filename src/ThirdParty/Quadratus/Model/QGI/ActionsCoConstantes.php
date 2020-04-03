@@ -62,6 +62,7 @@ class ActionsCoConstantes {
      * Set the lieu edition.
      *
      * @param string $lieuEdition The lieu edition.
+     * @return ActionsCoConstantes Returns this Actions co constantes.
      */
     public function setLieuEdition($lieuEdition) {
         $this->lieuEdition = $lieuEdition;
@@ -72,6 +73,7 @@ class ActionsCoConstantes {
      * Set the num declaration.
      *
      * @param string $numDeclaration The num declaration.
+     * @return ActionsCoConstantes Returns this Actions co constantes.
      */
     public function setNumDeclaration($numDeclaration) {
         $this->numDeclaration = $numDeclaration;

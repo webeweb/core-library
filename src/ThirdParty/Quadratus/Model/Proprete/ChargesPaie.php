@@ -528,6 +528,7 @@ class ChargesPaie {
      * Set the arbitrage.
      *
      * @param float $arbitrage The arbitrage.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setArbitrage($arbitrage) {
         $this->arbitrage = $arbitrage;
@@ -538,6 +539,7 @@ class ChargesPaie {
      * Set the brut.
      *
      * @param float $brut The brut.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setBrut($brut) {
         $this->brut = $brut;
@@ -548,6 +550,7 @@ class ChargesPaie {
      * Set the brut al.
      *
      * @param float $brutAl The brut al.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setBrutAl($brutAl) {
         $this->brutAl = $brutAl;
@@ -558,6 +561,7 @@ class ChargesPaie {
      * Set the brut anl.
      *
      * @param float $brutAnl The brut anl.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setBrutAnl($brutAnl) {
         $this->brutAnl = $brutAnl;
@@ -568,6 +572,7 @@ class ChargesPaie {
      * Set the charges patronales.
      *
      * @param float $chargesPatronales The charges patronales.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setChargesPatronales($chargesPatronales) {
         $this->chargesPatronales = $chargesPatronales;
@@ -578,6 +583,7 @@ class ChargesPaie {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -588,6 +594,7 @@ class ChargesPaie {
      * Set the euro.
      *
      * @param bool $euro The euro.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setEuro($euro) {
         $this->euro = $euro;
@@ -598,6 +605,7 @@ class ChargesPaie {
      * Set the heures sup.
      *
      * @param float $heuresSup The heures sup.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setHeuresSup($heuresSup) {
         $this->heuresSup = $heuresSup;
@@ -608,6 +616,7 @@ class ChargesPaie {
      * Set the impos.
      *
      * @param float $impos The impos.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setImpos($impos) {
         $this->impos = $impos;
@@ -618,6 +627,7 @@ class ChargesPaie {
      * Set the indemnite cp.
      *
      * @param float $indemniteCp The indemnite cp.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setIndemniteCp($indemniteCp) {
         $this->indemniteCp = $indemniteCp;
@@ -628,6 +638,7 @@ class ChargesPaie {
      * Set the indemnite precarite.
      *
      * @param float $indemnitePrecarite The indemnite precarite.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setIndemnitePrecarite($indemnitePrecarite) {
         $this->indemnitePrecarite = $indemnitePrecarite;
@@ -638,6 +649,7 @@ class ChargesPaie {
      * Set the interessement.
      *
      * @param float $interessement The interessement.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setInteressement($interessement) {
         $this->interessement = $interessement;
@@ -648,6 +660,7 @@ class ChargesPaie {
      * Set the mt net paye theo.
      *
      * @param float $mtNetPayeTheo The mt net paye theo.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setMtNetPayeTheo($mtNetPayeTheo) {
         $this->mtNetPayeTheo = $mtNetPayeTheo;
@@ -658,6 +671,7 @@ class ChargesPaie {
      * Set the nb h abs.
      *
      * @param float $nbHAbs The nb h abs.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setNbHAbs($nbHAbs) {
         $this->nbHAbs = $nbHAbs;
@@ -668,6 +682,7 @@ class ChargesPaie {
      * Set the nb h base.
      *
      * @param float $nbHBase The nb h base.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setNbHBase($nbHBase) {
         $this->nbHBase = $nbHBase;
@@ -678,6 +693,7 @@ class ChargesPaie {
      * Set the nb h rc.
      *
      * @param float $nbHRc The nb h rc.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setNbHRc($nbHRc) {
         $this->nbHRc = $nbHRc;
@@ -688,6 +704,7 @@ class ChargesPaie {
      * Set the nb h sup1.
      *
      * @param float $nbHSup1 The nb h sup1.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setNbHSup1($nbHSup1) {
         $this->nbHSup1 = $nbHSup1;
@@ -698,6 +715,7 @@ class ChargesPaie {
      * Set the nb h sup2.
      *
      * @param float $nbHSup2 The nb h sup2.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setNbHSup2($nbHSup2) {
         $this->nbHSup2 = $nbHSup2;
@@ -708,6 +726,7 @@ class ChargesPaie {
      * Set the nb h sup3.
      *
      * @param float $nbHSup3 The nb h sup3.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setNbHSup3($nbHSup3) {
         $this->nbHSup3 = $nbHSup3;
@@ -718,6 +737,7 @@ class ChargesPaie {
      * Set the nb hn.
      *
      * @param float $nbHn The nb hn.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setNbHn($nbHn) {
         $this->nbHn = $nbHn;
@@ -728,6 +748,7 @@ class ChargesPaie {
      * Set the nb ht.
      *
      * @param float $nbHt The nb ht.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setNbHt($nbHt) {
         $this->nbHt = $nbHt;
@@ -738,6 +759,7 @@ class ChargesPaie {
      * Set the participation.
      *
      * @param float $participation The participation.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setParticipation($participation) {
         $this->participation = $participation;
@@ -748,6 +770,7 @@ class ChargesPaie {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -758,6 +781,7 @@ class ChargesPaie {
      * Set the provision cp.
      *
      * @param float $provisionCp The provision cp.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setProvisionCp($provisionCp) {
         $this->provisionCp = $provisionCp;
@@ -768,6 +792,7 @@ class ChargesPaie {
      * Set the s base.
      *
      * @param float $sBase The s base.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setSBase($sBase) {
         $this->sBase = $sBase;
@@ -778,6 +803,7 @@ class ChargesPaie {
      * Set the salaire.
      *
      * @param float $salaire The salaire.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setSalaire($salaire) {
         $this->salaire = $salaire;
@@ -788,6 +814,7 @@ class ChargesPaie {
      * Set the tot ret.
      *
      * @param float $totRet The tot ret.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setTotRet($totRet) {
         $this->totRet = $totRet;
@@ -798,6 +825,7 @@ class ChargesPaie {
      * Set the tr a.
      *
      * @param float $trA The tr a.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setTrA($trA) {
         $this->trA = $trA;
@@ -808,6 +836,7 @@ class ChargesPaie {
      * Set the tr b.
      *
      * @param float $trB The tr b.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setTrB($trB) {
         $this->trB = $trB;
@@ -818,6 +847,7 @@ class ChargesPaie {
      * Set the tr c.
      *
      * @param float $trC The tr c.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setTrC($trC) {
         $this->trC = $trC;
@@ -828,6 +858,7 @@ class ChargesPaie {
      * Set the tx hn.
      *
      * @param float $txHn The tx hn.
+     * @return ChargesPaie Returns this Charges paie.
      */
     public function setTxHn($txHn) {
         $this->txHn = $txHn;

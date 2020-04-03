@@ -78,6 +78,7 @@ class LignesGrillesAnc {
      * Set the code grille.
      *
      * @param string $codeGrille The code grille.
+     * @return LignesGrillesAnc Returns this Lignes grilles anc.
      */
     public function setCodeGrille($codeGrille) {
         $this->codeGrille = $codeGrille;
@@ -88,6 +89,7 @@ class LignesGrillesAnc {
      * Set the nb mois ecoules.
      *
      * @param int $nbMoisEcoules The nb mois ecoules.
+     * @return LignesGrillesAnc Returns this Lignes grilles anc.
      */
     public function setNbMoisEcoules($nbMoisEcoules) {
         $this->nbMoisEcoules = $nbMoisEcoules;
@@ -98,6 +100,7 @@ class LignesGrillesAnc {
      * Set the valeur.
      *
      * @param float $valeur The valeur.
+     * @return LignesGrillesAnc Returns this Lignes grilles anc.
      */
     public function setValeur($valeur) {
         $this->valeur = $valeur;

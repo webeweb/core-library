@@ -704,6 +704,7 @@ class PlansFacturation {
      * Set the aou.
      *
      * @param bool $aou The aou.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setAou($aou) {
         $this->aou = $aou;
@@ -714,6 +715,7 @@ class PlansFacturation {
      * Set the avr.
      *
      * @param bool $avr The avr.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setAvr($avr) {
         $this->avr = $avr;
@@ -724,6 +726,7 @@ class PlansFacturation {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -734,6 +737,7 @@ class PlansFacturation {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -744,6 +748,7 @@ class PlansFacturation {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -754,6 +759,7 @@ class PlansFacturation {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -764,6 +770,7 @@ class PlansFacturation {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -774,6 +781,7 @@ class PlansFacturation {
      * Set the coefficient.
      *
      * @param float $coefficient The coefficient.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setCoefficient($coefficient) {
         $this->coefficient = $coefficient;
@@ -784,6 +792,7 @@ class PlansFacturation {
      * Set the date fin validite.
      *
      * @param DateTime|null $dateFinValidite The date fin validite.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDateFinValidite(DateTime $dateFinValidite = null) {
         $this->dateFinValidite = $dateFinValidite;
@@ -794,6 +803,7 @@ class PlansFacturation {
      * Set the dec.
      *
      * @param bool $dec The dec.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDec($dec) {
         $this->dec = $dec;
@@ -804,6 +814,7 @@ class PlansFacturation {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -814,6 +825,7 @@ class PlansFacturation {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -824,6 +836,7 @@ class PlansFacturation {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -834,6 +847,7 @@ class PlansFacturation {
      * Set the designation bis.
      *
      * @param string $designationBis The designation bis.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDesignationBis($designationBis) {
         $this->designationBis = $designationBis;
@@ -844,6 +858,7 @@ class PlansFacturation {
      * Set the designation bis2.
      *
      * @param string $designationBis2 The designation bis2.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDesignationBis2($designationBis2) {
         $this->designationBis2 = $designationBis2;
@@ -854,6 +869,7 @@ class PlansFacturation {
      * Set the designation bis3.
      *
      * @param string $designationBis3 The designation bis3.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDesignationBis3($designationBis3) {
         $this->designationBis3 = $designationBis3;
@@ -864,6 +880,7 @@ class PlansFacturation {
      * Set the designation rtf.
      *
      * @param string $designationRtf The designation rtf.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDesignationRtf($designationRtf) {
         $this->designationRtf = $designationRtf;
@@ -874,6 +891,7 @@ class PlansFacturation {
      * Set the duree.
      *
      * @param float $duree The duree.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setDuree($duree) {
         $this->duree = $duree;
@@ -884,6 +902,7 @@ class PlansFacturation {
      * Set the fev.
      *
      * @param bool $fev The fev.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setFev($fev) {
         $this->fev = $fev;
@@ -894,6 +913,7 @@ class PlansFacturation {
      * Set the fin periode tarif.
      *
      * @param DateTime|null $finPeriodeTarif The fin periode tarif.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setFinPeriodeTarif(DateTime $finPeriodeTarif = null) {
         $this->finPeriodeTarif = $finPeriodeTarif;
@@ -904,6 +924,7 @@ class PlansFacturation {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -914,6 +935,7 @@ class PlansFacturation {
      * Set the jan.
      *
      * @param bool $jan The jan.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setJan($jan) {
         $this->jan = $jan;
@@ -924,6 +946,7 @@ class PlansFacturation {
      * Set the jui.
      *
      * @param bool $jui The jui.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setJui($jui) {
         $this->jui = $jui;
@@ -934,6 +957,7 @@ class PlansFacturation {
      * Set the juin.
      *
      * @param bool $juin The juin.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setJuin($juin) {
         $this->juin = $juin;
@@ -944,6 +968,7 @@ class PlansFacturation {
      * Set the mai.
      *
      * @param bool $mai The mai.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setMai($mai) {
         $this->mai = $mai;
@@ -954,6 +979,7 @@ class PlansFacturation {
      * Set the mar.
      *
      * @param bool $mar The mar.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setMar($mar) {
         $this->mar = $mar;
@@ -964,6 +990,7 @@ class PlansFacturation {
      * Set the nov.
      *
      * @param bool $nov The nov.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setNov($nov) {
         $this->nov = $nov;
@@ -974,6 +1001,7 @@ class PlansFacturation {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -984,6 +1012,7 @@ class PlansFacturation {
      * Set the numero devis.
      *
      * @param string $numeroDevis The numero devis.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setNumeroDevis($numeroDevis) {
         $this->numeroDevis = $numeroDevis;
@@ -994,6 +1023,7 @@ class PlansFacturation {
      * Set the numero historique.
      *
      * @param int $numeroHistorique The numero historique.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setNumeroHistorique($numeroHistorique) {
         $this->numeroHistorique = $numeroHistorique;
@@ -1004,6 +1034,7 @@ class PlansFacturation {
      * Set the oct.
      *
      * @param bool $oct The oct.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setOct($oct) {
         $this->oct = $oct;
@@ -1014,6 +1045,7 @@ class PlansFacturation {
      * Set the periode tarif.
      *
      * @param DateTime|null $periodeTarif The periode tarif.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setPeriodeTarif(DateTime $periodeTarif = null) {
         $this->periodeTarif = $periodeTarif;
@@ -1024,6 +1056,7 @@ class PlansFacturation {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -1034,6 +1067,7 @@ class PlansFacturation {
      * Set the prix achat.
      *
      * @param float $prixAchat The prix achat.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setPrixAchat($prixAchat) {
         $this->prixAchat = $prixAchat;
@@ -1044,6 +1078,7 @@ class PlansFacturation {
      * Set the prix vente.
      *
      * @param float $prixVente The prix vente.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setPrixVente($prixVente) {
         $this->prixVente = $prixVente;
@@ -1054,6 +1089,7 @@ class PlansFacturation {
      * Set the px facture.
      *
      * @param bool $pxFacture The px facture.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setPxFacture($pxFacture) {
         $this->pxFacture = $pxFacture;
@@ -1064,6 +1100,7 @@ class PlansFacturation {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -1074,6 +1111,7 @@ class PlansFacturation {
      * Set the ref article.
      *
      * @param bool $refArticle The ref article.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setRefArticle($refArticle) {
         $this->refArticle = $refArticle;
@@ -1084,6 +1122,7 @@ class PlansFacturation {
      * Set the ref poste cde web ft.
      *
      * @param string $refPosteCdeWebFt The ref poste cde web ft.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setRefPosteCdeWebFt($refPosteCdeWebFt) {
         $this->refPosteCdeWebFt = $refPosteCdeWebFt;
@@ -1094,6 +1133,7 @@ class PlansFacturation {
      * Set the sep.
      *
      * @param bool $sep The sep.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setSep($sep) {
         $this->sep = $sep;
@@ -1104,6 +1144,7 @@ class PlansFacturation {
      * Set the taux.
      *
      * @param float $taux The taux.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setTaux($taux) {
         $this->taux = $taux;
@@ -1114,6 +1155,7 @@ class PlansFacturation {
      * Set the ventil marge.
      *
      * @param bool $ventilMarge The ventil marge.
+     * @return PlansFacturation Returns this Plans facturation.
      */
     public function setVentilMarge($ventilMarge) {
         $this->ventilMarge = $ventilMarge;

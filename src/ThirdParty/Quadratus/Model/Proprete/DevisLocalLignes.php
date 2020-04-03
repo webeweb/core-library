@@ -494,6 +494,7 @@ class DevisLocalLignes {
      * Set the aou.
      *
      * @param bool $aou The aou.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setAou($aou) {
         $this->aou = $aou;
@@ -504,6 +505,7 @@ class DevisLocalLignes {
      * Set the avr.
      *
      * @param bool $avr The avr.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setAvr($avr) {
         $this->avr = $avr;
@@ -514,6 +516,7 @@ class DevisLocalLignes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -524,6 +527,7 @@ class DevisLocalLignes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -534,6 +538,7 @@ class DevisLocalLignes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -544,6 +549,7 @@ class DevisLocalLignes {
      * Set the code programme.
      *
      * @param string $codeProgramme The code programme.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setCodeProgramme($codeProgramme) {
         $this->codeProgramme = $codeProgramme;
@@ -554,6 +560,7 @@ class DevisLocalLignes {
      * Set the dec.
      *
      * @param bool $dec The dec.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setDec($dec) {
         $this->dec = $dec;
@@ -564,6 +571,7 @@ class DevisLocalLignes {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -574,6 +582,7 @@ class DevisLocalLignes {
      * Set the dimanche.
      *
      * @param bool $dimanche The dimanche.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setDimanche($dimanche) {
         $this->dimanche = $dimanche;
@@ -584,6 +593,7 @@ class DevisLocalLignes {
      * Set the fev.
      *
      * @param bool $fev The fev.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setFev($fev) {
         $this->fev = $fev;
@@ -594,6 +604,7 @@ class DevisLocalLignes {
      * Set the jan.
      *
      * @param bool $jan The jan.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setJan($jan) {
         $this->jan = $jan;
@@ -604,6 +615,7 @@ class DevisLocalLignes {
      * Set the jeudi.
      *
      * @param bool $jeudi The jeudi.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setJeudi($jeudi) {
         $this->jeudi = $jeudi;
@@ -614,6 +626,7 @@ class DevisLocalLignes {
      * Set the juil.
      *
      * @param bool $juil The juil.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setJuil($juil) {
         $this->juil = $juil;
@@ -624,6 +637,7 @@ class DevisLocalLignes {
      * Set the juin.
      *
      * @param bool $juin The juin.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setJuin($juin) {
         $this->juin = $juin;
@@ -634,6 +648,7 @@ class DevisLocalLignes {
      * Set the lundi.
      *
      * @param bool $lundi The lundi.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setLundi($lundi) {
         $this->lundi = $lundi;
@@ -644,6 +659,7 @@ class DevisLocalLignes {
      * Set the mai.
      *
      * @param bool $mai The mai.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setMai($mai) {
         $this->mai = $mai;
@@ -654,6 +670,7 @@ class DevisLocalLignes {
      * Set the mar.
      *
      * @param bool $mar The mar.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setMar($mar) {
         $this->mar = $mar;
@@ -664,6 +681,7 @@ class DevisLocalLignes {
      * Set the mardi.
      *
      * @param bool $mardi The mardi.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setMardi($mardi) {
         $this->mardi = $mardi;
@@ -674,6 +692,7 @@ class DevisLocalLignes {
      * Set the mercredi.
      *
      * @param bool $mercredi The mercredi.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setMercredi($mercredi) {
         $this->mercredi = $mercredi;
@@ -684,6 +703,7 @@ class DevisLocalLignes {
      * Set the nov.
      *
      * @param bool $nov The nov.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setNov($nov) {
         $this->nov = $nov;
@@ -694,6 +714,7 @@ class DevisLocalLignes {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -704,6 +725,7 @@ class DevisLocalLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -714,6 +736,7 @@ class DevisLocalLignes {
      * Set the num ligne local.
      *
      * @param int $numLigneLocal The num ligne local.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setNumLigneLocal($numLigneLocal) {
         $this->numLigneLocal = $numLigneLocal;
@@ -724,6 +747,7 @@ class DevisLocalLignes {
      * Set the occurrence.
      *
      * @param string $occurrence The occurrence.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setOccurrence($occurrence) {
         $this->occurrence = $occurrence;
@@ -734,6 +758,7 @@ class DevisLocalLignes {
      * Set the oct.
      *
      * @param bool $oct The oct.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setOct($oct) {
         $this->oct = $oct;
@@ -744,6 +769,7 @@ class DevisLocalLignes {
      * Set the periodicite.
      *
      * @param string $periodicite The periodicite.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setPeriodicite($periodicite) {
         $this->periodicite = $periodicite;
@@ -754,6 +780,7 @@ class DevisLocalLignes {
      * Set the samedi.
      *
      * @param bool $samedi The samedi.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setSamedi($samedi) {
         $this->samedi = $samedi;
@@ -764,6 +791,7 @@ class DevisLocalLignes {
      * Set the sep.
      *
      * @param bool $sep The sep.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setSep($sep) {
         $this->sep = $sep;
@@ -774,6 +802,7 @@ class DevisLocalLignes {
      * Set the vendredi.
      *
      * @param bool $vendredi The vendredi.
+     * @return DevisLocalLignes Returns this Devis local lignes.
      */
     public function setVendredi($vendredi) {
         $this->vendredi = $vendredi;

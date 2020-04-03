@@ -112,6 +112,7 @@ class iCollaborateurs {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return iCollaborateurs Returns this i collaborateurs.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -122,6 +123,7 @@ class iCollaborateurs {
      * Set the numi key.
      *
      * @param string $numiKey The numi key.
+     * @return iCollaborateurs Returns this i collaborateurs.
      */
     public function setNumiKey($numiKey) {
         $this->numiKey = $numiKey;
@@ -132,6 +134,7 @@ class iCollaborateurs {
      * Set the password.
      *
      * @param string $password The password.
+     * @return iCollaborateurs Returns this i collaborateurs.
      */
     public function setPassword($password) {
         $this->password = $password;
@@ -142,6 +145,7 @@ class iCollaborateurs {
      * Set the valide a.
      *
      * @param DateTime|null $valideA The valide a.
+     * @return iCollaborateurs Returns this i collaborateurs.
      */
     public function setValideA(DateTime $valideA = null) {
         $this->valideA = $valideA;
@@ -152,6 +156,7 @@ class iCollaborateurs {
      * Set the valide de.
      *
      * @param DateTime|null $valideDe The valide de.
+     * @return iCollaborateurs Returns this i collaborateurs.
      */
     public function setValideDe(DateTime $valideDe = null) {
         $this->valideDe = $valideDe;

@@ -2320,6 +2320,7 @@ class Libelles {
      * Set the a compter heures assedic.
      *
      * @param bool $aCompterHeuresAssedic The a compter heures assedic.
+     * @return Libelles Returns this Libelles.
      */
     public function setACompterHeuresAssedic($aCompterHeuresAssedic) {
         $this->aCompterHeuresAssedic = $aCompterHeuresAssedic;
@@ -2330,6 +2331,7 @@ class Libelles {
      * Set the a conserver setp.
      *
      * @param bool $aConserverSetp The a conserver setp.
+     * @return Libelles Returns this Libelles.
      */
     public function setAConserverSetp($aConserverSetp) {
         $this->aConserverSetp = $aConserverSetp;
@@ -2340,6 +2342,7 @@ class Libelles {
      * Set the a cumuler base caisse1.
      *
      * @param bool $aCumulerBaseCaisse1 The a cumuler base caisse1.
+     * @return Libelles Returns this Libelles.
      */
     public function setACumulerBaseCaisse1($aCumulerBaseCaisse1) {
         $this->aCumulerBaseCaisse1 = $aCumulerBaseCaisse1;
@@ -2350,6 +2353,7 @@ class Libelles {
      * Set the a cumuler base caisse2.
      *
      * @param bool $aCumulerBaseCaisse2 The a cumuler base caisse2.
+     * @return Libelles Returns this Libelles.
      */
     public function setACumulerBaseCaisse2($aCumulerBaseCaisse2) {
         $this->aCumulerBaseCaisse2 = $aCumulerBaseCaisse2;
@@ -2360,6 +2364,7 @@ class Libelles {
      * Set the a cumuler base caisse3.
      *
      * @param bool $aCumulerBaseCaisse3 The a cumuler base caisse3.
+     * @return Libelles Returns this Libelles.
      */
     public function setACumulerBaseCaisse3($aCumulerBaseCaisse3) {
         $this->aCumulerBaseCaisse3 = $aCumulerBaseCaisse3;
@@ -2370,6 +2375,7 @@ class Libelles {
      * Set the a cumuler base cp.
      *
      * @param bool $aCumulerBaseCp The a cumuler base cp.
+     * @return Libelles Returns this Libelles.
      */
     public function setACumulerBaseCp($aCumulerBaseCp) {
         $this->aCumulerBaseCp = $aCumulerBaseCp;
@@ -2380,6 +2386,7 @@ class Libelles {
      * Set the a cumuler base secu.
      *
      * @param bool $aCumulerBaseSecu The a cumuler base secu.
+     * @return Libelles Returns this Libelles.
      */
     public function setACumulerBaseSecu($aCumulerBaseSecu) {
         $this->aCumulerBaseSecu = $aCumulerBaseSecu;
@@ -2390,6 +2397,7 @@ class Libelles {
      * Set the a reintegrer setp.
      *
      * @param bool $aReintegrerSetp The a reintegrer setp.
+     * @return Libelles Returns this Libelles.
      */
     public function setAReintegrerSetp($aReintegrerSetp) {
         $this->aReintegrerSetp = $aReintegrerSetp;
@@ -2400,6 +2408,7 @@ class Libelles {
      * Set the active variables emp.
      *
      * @param bool $activeVariablesEmp The active variables emp.
+     * @return Libelles Returns this Libelles.
      */
     public function setActiveVariablesEmp($activeVariablesEmp) {
         $this->activeVariablesEmp = $activeVariablesEmp;
@@ -2410,6 +2419,7 @@ class Libelles {
      * Set the aen lien presence effective.
      *
      * @param bool $aenLienPresenceEffective The aen lien presence effective.
+     * @return Libelles Returns this Libelles.
      */
     public function setAenLienPresenceEffective($aenLienPresenceEffective) {
         $this->aenLienPresenceEffective = $aenLienPresenceEffective;
@@ -2420,6 +2430,7 @@ class Libelles {
      * Set the agff.
      *
      * @param bool $agff The agff.
+     * @return Libelles Returns this Libelles.
      */
     public function setAgff($agff) {
         $this->agff = $agff;
@@ -2430,6 +2441,7 @@ class Libelles {
      * Set the avantage nature prime.
      *
      * @param bool $avantageNaturePrime The avantage nature prime.
+     * @return Libelles Returns this Libelles.
      */
     public function setAvantageNaturePrime($avantageNaturePrime) {
         $this->avantageNaturePrime = $avantageNaturePrime;
@@ -2440,6 +2452,7 @@ class Libelles {
      * Set the avantage nature tds.
      *
      * @param bool $avantageNatureTds The avantage nature tds.
+     * @return Libelles Returns this Libelles.
      */
     public function setAvantageNatureTds($avantageNatureTds) {
         $this->avantageNatureTds = $avantageNatureTds;
@@ -2450,6 +2463,7 @@ class Libelles {
      * Set the avec retro act.
      *
      * @param bool $avecRetroAct The avec retro act.
+     * @return Libelles Returns this Libelles.
      */
     public function setAvecRetroAct($avecRetroAct) {
         $this->avecRetroAct = $avecRetroAct;
@@ -2460,6 +2474,7 @@ class Libelles {
      * Set the base exoneree.
      *
      * @param bool $baseExoneree The base exoneree.
+     * @return Libelles Returns this Libelles.
      */
     public function setBaseExoneree($baseExoneree) {
         $this->baseExoneree = $baseExoneree;
@@ -2470,6 +2485,7 @@ class Libelles {
      * Set the base non exoneree.
      *
      * @param bool $baseNonExoneree The base non exoneree.
+     * @return Libelles Returns this Libelles.
      */
     public function setBaseNonExoneree($baseNonExoneree) {
         $this->baseNonExoneree = $baseNonExoneree;
@@ -2480,6 +2496,7 @@ class Libelles {
      * Set the categ salarie.
      *
      * @param string $categSalarie The categ salarie.
+     * @return Libelles Returns this Libelles.
      */
     public function setCategSalarie($categSalarie) {
         $this->categSalarie = $categSalarie;
@@ -2490,6 +2507,7 @@ class Libelles {
      * Set the cheque vacance.
      *
      * @param bool $chequeVacance The cheque vacance.
+     * @return Libelles Returns this Libelles.
      */
     public function setChequeVacance($chequeVacance) {
         $this->chequeVacance = $chequeVacance;
@@ -2500,6 +2518,7 @@ class Libelles {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Libelles Returns this Libelles.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -2510,6 +2529,7 @@ class Libelles {
      * Set the code calcul.
      *
      * @param string $codeCalcul The code calcul.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeCalcul($codeCalcul) {
         $this->codeCalcul = $codeCalcul;
@@ -2520,6 +2540,7 @@ class Libelles {
      * Set the code csg taux.
      *
      * @param string $codeCsgTaux The code csg taux.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeCsgTaux($codeCsgTaux) {
         $this->codeCsgTaux = $codeCsgTaux;
@@ -2530,6 +2551,7 @@ class Libelles {
      * Set the code ducs.
      *
      * @param string $codeDucs The code ducs.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeDucs($codeDucs) {
         $this->codeDucs = $codeDucs;
@@ -2540,6 +2562,7 @@ class Libelles {
      * Set the code edition histo.
      *
      * @param string $codeEditionHisto The code edition histo.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeEditionHisto($codeEditionHisto) {
         $this->codeEditionHisto = $codeEditionHisto;
@@ -2550,6 +2573,7 @@ class Libelles {
      * Set the code insee.
      *
      * @param string $codeInsee The code insee.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeInsee($codeInsee) {
         $this->codeInsee = $codeInsee;
@@ -2560,6 +2584,7 @@ class Libelles {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -2570,6 +2595,7 @@ class Libelles {
      * Set the code rds.
      *
      * @param string $codeRds The code rds.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeRds($codeRds) {
         $this->codeRds = $codeRds;
@@ -2580,6 +2606,7 @@ class Libelles {
      * Set the code type assurance.
      *
      * @param string $codeTypeAssurance The code type assurance.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeTypeAssurance($codeTypeAssurance) {
         $this->codeTypeAssurance = $codeTypeAssurance;
@@ -2590,6 +2617,7 @@ class Libelles {
      * Set the code type b plaf.
      *
      * @param string $codeTypeBPlaf The code type b plaf.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeTypeBPlaf($codeTypeBPlaf) {
         $this->codeTypeBPlaf = $codeTypeBPlaf;
@@ -2600,6 +2628,7 @@ class Libelles {
      * Set the code type b spec prev.
      *
      * @param string $codeTypeBSpecPrev The code type b spec prev.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeTypeBSpecPrev($codeTypeBSpecPrev) {
         $this->codeTypeBSpecPrev = $codeTypeBSpecPrev;
@@ -2610,6 +2639,7 @@ class Libelles {
      * Set the code type brut.
      *
      * @param string $codeTypeBrut The code type brut.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeTypeBrut($codeTypeBrut) {
         $this->codeTypeBrut = $codeTypeBrut;
@@ -2620,6 +2650,7 @@ class Libelles {
      * Set the code type prev.
      *
      * @param string $codeTypePrev The code type prev.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeTypePrev($codeTypePrev) {
         $this->codeTypePrev = $codeTypePrev;
@@ -2630,6 +2661,7 @@ class Libelles {
      * Set the code type somme.
      *
      * @param string $codeTypeSomme The code type somme.
+     * @return Libelles Returns this Libelles.
      */
     public function setCodeTypeSomme($codeTypeSomme) {
         $this->codeTypeSomme = $codeTypeSomme;
@@ -2640,6 +2672,7 @@ class Libelles {
      * Set the compte charge.
      *
      * @param string $compteCharge The compte charge.
+     * @return Libelles Returns this Libelles.
      */
     public function setCompteCharge($compteCharge) {
         $this->compteCharge = $compteCharge;
@@ -2650,6 +2683,7 @@ class Libelles {
      * Set the condition.
      *
      * @param string $condition The condition.
+     * @return Libelles Returns this Libelles.
      */
     public function setCondition($condition) {
         $this->condition = $condition;
@@ -2660,6 +2694,7 @@ class Libelles {
      * Set the condition spec.
      *
      * @param string $conditionSpec The condition spec.
+     * @return Libelles Returns this Libelles.
      */
     public function setConditionSpec($conditionSpec) {
         $this->conditionSpec = $conditionSpec;
@@ -2670,6 +2705,7 @@ class Libelles {
      * Set the conge paye.
      *
      * @param bool $congePaye The conge paye.
+     * @return Libelles Returns this Libelles.
      */
     public function setCongePaye($congePaye) {
         $this->congePaye = $congePaye;
@@ -2680,6 +2716,7 @@ class Libelles {
      * Set the cotis normal dues.
      *
      * @param bool $cotisNormalDues The cotis normal dues.
+     * @return Libelles Returns this Libelles.
      */
     public function setCotisNormalDues($cotisNormalDues) {
         $this->cotisNormalDues = $cotisNormalDues;
@@ -2690,6 +2727,7 @@ class Libelles {
      * Set the cotis normal dues accre.
      *
      * @param bool $cotisNormalDuesAccre The cotis normal dues accre.
+     * @return Libelles Returns this Libelles.
      */
     public function setCotisNormalDuesAccre($cotisNormalDuesAccre) {
         $this->cotisNormalDuesAccre = $cotisNormalDuesAccre;
@@ -2700,6 +2738,7 @@ class Libelles {
      * Set the cotis normal dues zfu.
      *
      * @param bool $cotisNormalDuesZfu The cotis normal dues zfu.
+     * @return Libelles Returns this Libelles.
      */
     public function setCotisNormalDuesZfu($cotisNormalDuesZfu) {
         $this->cotisNormalDuesZfu = $cotisNormalDuesZfu;
@@ -2710,6 +2749,7 @@ class Libelles {
      * Set the cotis normal dues zrd.
      *
      * @param bool $cotisNormalDuesZrd The cotis normal dues zrd.
+     * @return Libelles Returns this Libelles.
      */
     public function setCotisNormalDuesZrd($cotisNormalDuesZrd) {
         $this->cotisNormalDuesZrd = $cotisNormalDuesZrd;
@@ -2720,6 +2760,7 @@ class Libelles {
      * Set the cotis normal dues zrrzru.
      *
      * @param bool $cotisNormalDuesZrrzru The cotis normal dues zrrzru.
+     * @return Libelles Returns this Libelles.
      */
     public function setCotisNormalDuesZrrzru($cotisNormalDuesZrrzru) {
         $this->cotisNormalDuesZrrzru = $cotisNormalDuesZrrzru;
@@ -2730,6 +2771,7 @@ class Libelles {
      * Set the cotisation csg.
      *
      * @param bool $cotisationCsg The cotisation csg.
+     * @return Libelles Returns this Libelles.
      */
     public function setCotisationCsg($cotisationCsg) {
         $this->cotisationCsg = $cotisationCsg;
@@ -2740,6 +2782,7 @@ class Libelles {
      * Set the cout global.
      *
      * @param bool $coutGlobal The cout global.
+     * @return Libelles Returns this Libelles.
      */
     public function setCoutGlobal($coutGlobal) {
         $this->coutGlobal = $coutGlobal;
@@ -2750,6 +2793,7 @@ class Libelles {
      * Set the deb per application.
      *
      * @param DateTime|null $debPerApplication The deb per application.
+     * @return Libelles Returns this Libelles.
      */
     public function setDebPerApplication(DateTime $debPerApplication = null) {
         $this->debPerApplication = $debPerApplication;
@@ -2760,6 +2804,7 @@ class Libelles {
      * Set the determine allegement.
      *
      * @param bool $determineAllegement The determine allegement.
+     * @return Libelles Returns this Libelles.
      */
     public function setDetermineAllegement($determineAllegement) {
         $this->determineAllegement = $determineAllegement;
@@ -2770,6 +2815,7 @@ class Libelles {
      * Set the determine base secu.
      *
      * @param bool $determineBaseSecu The determine base secu.
+     * @return Libelles Returns this Libelles.
      */
     public function setDetermineBaseSecu($determineBaseSecu) {
         $this->determineBaseSecu = $determineBaseSecu;
@@ -2780,6 +2826,7 @@ class Libelles {
      * Set the diminue net.
      *
      * @param bool $diminueNet The diminue net.
+     * @return Libelles Returns this Libelles.
      */
     public function setDiminueNet($diminueNet) {
         $this->diminueNet = $diminueNet;
@@ -2790,6 +2837,7 @@ class Libelles {
      * Set the edition base.
      *
      * @param bool $editionBase The edition base.
+     * @return Libelles Returns this Libelles.
      */
     public function setEditionBase($editionBase) {
         $this->editionBase = $editionBase;
@@ -2800,6 +2848,7 @@ class Libelles {
      * Set the edition bulletin.
      *
      * @param bool $editionBulletin The edition bulletin.
+     * @return Libelles Returns this Libelles.
      */
     public function setEditionBulletin($editionBulletin) {
         $this->editionBulletin = $editionBulletin;
@@ -2810,6 +2859,7 @@ class Libelles {
      * Set the edition cot patronale.
      *
      * @param bool $editionCotPatronale The edition cot patronale.
+     * @return Libelles Returns this Libelles.
      */
     public function setEditionCotPatronale($editionCotPatronale) {
         $this->editionCotPatronale = $editionCotPatronale;
@@ -2820,6 +2870,7 @@ class Libelles {
      * Set the edition forcee ds.
      *
      * @param bool $editionForceeDs The edition forcee ds.
+     * @return Libelles Returns this Libelles.
      */
     public function setEditionForceeDs($editionForceeDs) {
         $this->editionForceeDs = $editionForceeDs;
@@ -2830,6 +2881,7 @@ class Libelles {
      * Set the edition resultat.
      *
      * @param bool $editionResultat The edition resultat.
+     * @return Libelles Returns this Libelles.
      */
     public function setEditionResultat($editionResultat) {
         $this->editionResultat = $editionResultat;
@@ -2840,6 +2892,7 @@ class Libelles {
      * Set the edition taux.
      *
      * @param bool $editionTaux The edition taux.
+     * @return Libelles Returns this Libelles.
      */
     public function setEditionTaux($editionTaux) {
         $this->editionTaux = $editionTaux;
@@ -2850,6 +2903,7 @@ class Libelles {
      * Set the exclure loi tepa.
      *
      * @param bool $exclureLoiTepa The exclure loi tepa.
+     * @return Libelles Returns this Libelles.
      */
     public function setExclureLoiTepa($exclureLoiTepa) {
         $this->exclureLoiTepa = $exclureLoiTepa;
@@ -2860,6 +2914,7 @@ class Libelles {
      * Set the exo occasionnel msa.
      *
      * @param bool $exoOccasionnelMsa The exo occasionnel msa.
+     * @return Libelles Returns this Libelles.
      */
     public function setExoOccasionnelMsa($exoOccasionnelMsa) {
         $this->exoOccasionnelMsa = $exoOccasionnelMsa;
@@ -2870,6 +2925,7 @@ class Libelles {
      * Set the exo taux patronal.
      *
      * @param bool $exoTauxPatronal The exo taux patronal.
+     * @return Libelles Returns this Libelles.
      */
     public function setExoTauxPatronal($exoTauxPatronal) {
         $this->exoTauxPatronal = $exoTauxPatronal;
@@ -2880,6 +2936,7 @@ class Libelles {
      * Set the expatriation.
      *
      * @param bool $expatriation The expatriation.
+     * @return Libelles Returns this Libelles.
      */
     public function setExpatriation($expatriation) {
         $this->expatriation = $expatriation;
@@ -2890,6 +2947,7 @@ class Libelles {
      * Set the fillon adom.
      *
      * @param bool $fillonAdom The fillon adom.
+     * @return Libelles Returns this Libelles.
      */
     public function setFillonAdom($fillonAdom) {
         $this->fillonAdom = $fillonAdom;
@@ -2900,6 +2958,7 @@ class Libelles {
      * Set the fillon sap.
      *
      * @param bool $fillonSap The fillon sap.
+     * @return Libelles Returns this Libelles.
      */
     public function setFillonSap($fillonSap) {
         $this->fillonSap = $fillonSap;
@@ -2910,6 +2969,7 @@ class Libelles {
      * Set the fin per application.
      *
      * @param DateTime|null $finPerApplication The fin per application.
+     * @return Libelles Returns this Libelles.
      */
     public function setFinPerApplication(DateTime $finPerApplication = null) {
         $this->finPerApplication = $finPerApplication;
@@ -2920,6 +2980,7 @@ class Libelles {
      * Set the frais professionnel.
      *
      * @param bool $fraisProfessionnel The frais professionnel.
+     * @return Libelles Returns this Libelles.
      */
     public function setFraisProfessionnel($fraisProfessionnel) {
         $this->fraisProfessionnel = $fraisProfessionnel;
@@ -2930,6 +2991,7 @@ class Libelles {
      * Set the frais sante.
      *
      * @param bool $fraisSante The frais sante.
+     * @return Libelles Returns this Libelles.
      */
     public function setFraisSante($fraisSante) {
         $this->fraisSante = $fraisSante;
@@ -2940,6 +3002,7 @@ class Libelles {
      * Set the freq1.
      *
      * @param bool $freq1 The freq1.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq1($freq1) {
         $this->freq1 = $freq1;
@@ -2950,6 +3013,7 @@ class Libelles {
      * Set the freq10.
      *
      * @param bool $freq10 The freq10.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq10($freq10) {
         $this->freq10 = $freq10;
@@ -2960,6 +3024,7 @@ class Libelles {
      * Set the freq11.
      *
      * @param bool $freq11 The freq11.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq11($freq11) {
         $this->freq11 = $freq11;
@@ -2970,6 +3035,7 @@ class Libelles {
      * Set the freq12.
      *
      * @param bool $freq12 The freq12.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq12($freq12) {
         $this->freq12 = $freq12;
@@ -2980,6 +3046,7 @@ class Libelles {
      * Set the freq2.
      *
      * @param bool $freq2 The freq2.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq2($freq2) {
         $this->freq2 = $freq2;
@@ -2990,6 +3057,7 @@ class Libelles {
      * Set the freq3.
      *
      * @param bool $freq3 The freq3.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq3($freq3) {
         $this->freq3 = $freq3;
@@ -3000,6 +3068,7 @@ class Libelles {
      * Set the freq4.
      *
      * @param bool $freq4 The freq4.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq4($freq4) {
         $this->freq4 = $freq4;
@@ -3010,6 +3079,7 @@ class Libelles {
      * Set the freq5.
      *
      * @param bool $freq5 The freq5.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq5($freq5) {
         $this->freq5 = $freq5;
@@ -3020,6 +3090,7 @@ class Libelles {
      * Set the freq6.
      *
      * @param bool $freq6 The freq6.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq6($freq6) {
         $this->freq6 = $freq6;
@@ -3030,6 +3101,7 @@ class Libelles {
      * Set the freq7.
      *
      * @param bool $freq7 The freq7.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq7($freq7) {
         $this->freq7 = $freq7;
@@ -3040,6 +3112,7 @@ class Libelles {
      * Set the freq8.
      *
      * @param bool $freq8 The freq8.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq8($freq8) {
         $this->freq8 = $freq8;
@@ -3050,6 +3123,7 @@ class Libelles {
      * Set the freq9.
      *
      * @param bool $freq9 The freq9.
+     * @return Libelles Returns this Libelles.
      */
     public function setFreq9($freq9) {
         $this->freq9 = $freq9;
@@ -3060,6 +3134,7 @@ class Libelles {
      * Set the h sup loi tepa.
      *
      * @param bool $hSupLoiTepa The h sup loi tepa.
+     * @return Libelles Returns this Libelles.
      */
     public function setHSupLoiTepa($hSupLoiTepa) {
         $this->hSupLoiTepa = $hSupLoiTepa;
@@ -3070,6 +3145,7 @@ class Libelles {
      * Set the h sup structurelle.
      *
      * @param bool $hSupStructurelle The h sup structurelle.
+     * @return Libelles Returns this Libelles.
      */
     public function setHSupStructurelle($hSupStructurelle) {
         $this->hSupStructurelle = $hSupStructurelle;
@@ -3080,6 +3156,7 @@ class Libelles {
      * Set the id institution.
      *
      * @param string $idInstitution The id institution.
+     * @return Libelles Returns this Libelles.
      */
     public function setIdInstitution($idInstitution) {
         $this->idInstitution = $idInstitution;
@@ -3090,6 +3167,7 @@ class Libelles {
      * Set the ijss.
      *
      * @param bool $ijss The ijss.
+     * @return Libelles Returns this Libelles.
      */
     public function setIjss($ijss) {
         $this->ijss = $ijss;
@@ -3100,6 +3178,7 @@ class Libelles {
      * Set the imput epargne ret.
      *
      * @param bool $imputEpargneRet The imput epargne ret.
+     * @return Libelles Returns this Libelles.
      */
     public function setImputEpargneRet($imputEpargneRet) {
         $this->imputEpargneRet = $imputEpargneRet;
@@ -3110,6 +3189,7 @@ class Libelles {
      * Set the indemnite non imposable.
      *
      * @param bool $indemniteNonImposable The indemnite non imposable.
+     * @return Libelles Returns this Libelles.
      */
     public function setIndemniteNonImposable($indemniteNonImposable) {
         $this->indemniteNonImposable = $indemniteNonImposable;
@@ -3120,6 +3200,7 @@ class Libelles {
      * Set the intervient brut al.
      *
      * @param bool $intervientBrutAl The intervient brut al.
+     * @return Libelles Returns this Libelles.
      */
     public function setIntervientBrutAl($intervientBrutAl) {
         $this->intervientBrutAl = $intervientBrutAl;
@@ -3130,6 +3211,7 @@ class Libelles {
      * Set the intervient indem preca.
      *
      * @param bool $intervientIndemPreca The intervient indem preca.
+     * @return Libelles Returns this Libelles.
      */
     public function setIntervientIndemPreca($intervientIndemPreca) {
         $this->intervientIndemPreca = $intervientIndemPreca;
@@ -3140,6 +3222,7 @@ class Libelles {
      * Set the intervient taux h ab cp.
      *
      * @param string $intervientTauxHAbCp The intervient taux h ab cp.
+     * @return Libelles Returns this Libelles.
      */
     public function setIntervientTauxHAbCp($intervientTauxHAbCp) {
         $this->intervientTauxHAbCp = $intervientTauxHAbCp;
@@ -3150,6 +3233,7 @@ class Libelles {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Libelles Returns this Libelles.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -3160,6 +3244,7 @@ class Libelles {
      * Set the intitule ducs.
      *
      * @param string $intituleDucs The intitule ducs.
+     * @return Libelles Returns this Libelles.
      */
     public function setIntituleDucs($intituleDucs) {
         $this->intituleDucs = $intituleDucs;
@@ -3170,6 +3255,7 @@ class Libelles {
      * Set the maintien salaire.
      *
      * @param bool $maintienSalaire The maintien salaire.
+     * @return Libelles Returns this Libelles.
      */
     public function setMaintienSalaire($maintienSalaire) {
         $this->maintienSalaire = $maintienSalaire;
@@ -3180,6 +3266,7 @@ class Libelles {
      * Set the mois deb fixe.
      *
      * @param string $moisDebFixe The mois deb fixe.
+     * @return Libelles Returns this Libelles.
      */
     public function setMoisDebFixe($moisDebFixe) {
         $this->moisDebFixe = $moisDebFixe;
@@ -3190,6 +3277,7 @@ class Libelles {
      * Set the mois echu.
      *
      * @param bool $moisEchu The mois echu.
+     * @return Libelles Returns this Libelles.
      */
     public function setMoisEchu($moisEchu) {
         $this->moisEchu = $moisEchu;
@@ -3200,6 +3288,7 @@ class Libelles {
      * Set the mois fin fixe.
      *
      * @param string $moisFinFixe The mois fin fixe.
+     * @return Libelles Returns this Libelles.
      */
     public function setMoisFinFixe($moisFinFixe) {
         $this->moisFinFixe = $moisFinFixe;
@@ -3210,6 +3299,7 @@ class Libelles {
      * Set the montant global.
      *
      * @param float $montantGlobal The montant global.
+     * @return Libelles Returns this Libelles.
      */
     public function setMontantGlobal($montantGlobal) {
         $this->montantGlobal = $montantGlobal;
@@ -3220,6 +3310,7 @@ class Libelles {
      * Set the montant salarial.
      *
      * @param float $montantSalarial The montant salarial.
+     * @return Libelles Returns this Libelles.
      */
     public function setMontantSalarial($montantSalarial) {
         $this->montantSalarial = $montantSalarial;
@@ -3230,6 +3321,7 @@ class Libelles {
      * Set the nb h contract.
      *
      * @param float $nbHContract The nb h contract.
+     * @return Libelles Returns this Libelles.
      */
     public function setNbHContract($nbHContract) {
         $this->nbHContract = $nbHContract;
@@ -3240,6 +3332,7 @@ class Libelles {
      * Set the nb mois applic.
      *
      * @param int $nbMoisApplic The nb mois applic.
+     * @return Libelles Returns this Libelles.
      */
     public function setNbMoisApplic($nbMoisApplic) {
         $this->nbMoisApplic = $nbMoisApplic;
@@ -3250,6 +3343,7 @@ class Libelles {
      * Set the neutre.
      *
      * @param bool $neutre The neutre.
+     * @return Libelles Returns this Libelles.
      */
     public function setNeutre($neutre) {
         $this->neutre = $neutre;
@@ -3260,6 +3354,7 @@ class Libelles {
      * Set the num col acbs.
      *
      * @param string $numColAcbs The num col acbs.
+     * @return Libelles Returns this Libelles.
      */
     public function setNumColAcbs($numColAcbs) {
         $this->numColAcbs = $numColAcbs;
@@ -3270,6 +3365,7 @@ class Libelles {
      * Set the num col allege35h.
      *
      * @param string $numColAllege35h The num col allege35h.
+     * @return Libelles Returns this Libelles.
      */
     public function setNumColAllege35h($numColAllege35h) {
         $this->numColAllege35h = $numColAllege35h;
@@ -3280,6 +3376,7 @@ class Libelles {
      * Set the num col charges cafe.
      *
      * @param string $numColChargesCafe The num col charges cafe.
+     * @return Libelles Returns this Libelles.
      */
     public function setNumColChargesCafe($numColChargesCafe) {
         $this->numColChargesCafe = $numColChargesCafe;
@@ -3290,6 +3387,7 @@ class Libelles {
      * Set the num cumul bulletin.
      *
      * @param int $numCumulBulletin The num cumul bulletin.
+     * @return Libelles Returns this Libelles.
      */
     public function setNumCumulBulletin($numCumulBulletin) {
         $this->numCumulBulletin = $numCumulBulletin;
@@ -3300,6 +3398,7 @@ class Libelles {
      * Set the num cumul patron.
      *
      * @param int $numCumulPatron The num cumul patron.
+     * @return Libelles Returns this Libelles.
      */
     public function setNumCumulPatron($numCumulPatron) {
         $this->numCumulPatron = $numCumulPatron;
@@ -3310,6 +3409,7 @@ class Libelles {
      * Set the num taux const nat.
      *
      * @param int $numTauxConstNat The num taux const nat.
+     * @return Libelles Returns this Libelles.
      */
     public function setNumTauxConstNat($numTauxConstNat) {
         $this->numTauxConstNat = $numTauxConstNat;
@@ -3320,6 +3420,7 @@ class Libelles {
      * Set the part patron prevoyance.
      *
      * @param bool $partPatronPrevoyance The part patron prevoyance.
+     * @return Libelles Returns this Libelles.
      */
     public function setPartPatronPrevoyance($partPatronPrevoyance) {
         $this->partPatronPrevoyance = $partPatronPrevoyance;
@@ -3330,6 +3431,7 @@ class Libelles {
      * Set the periodicite.
      *
      * @param string $periodicite The periodicite.
+     * @return Libelles Returns this Libelles.
      */
     public function setPeriodicite($periodicite) {
         $this->periodicite = $periodicite;
@@ -3340,6 +3442,7 @@ class Libelles {
      * Set the pourboire.
      *
      * @param bool $pourboire The pourboire.
+     * @return Libelles Returns this Libelles.
      */
     public function setPourboire($pourboire) {
         $this->pourboire = $pourboire;
@@ -3350,6 +3453,7 @@ class Libelles {
      * Set the prevoyance.
      *
      * @param bool $prevoyance The prevoyance.
+     * @return Libelles Returns this Libelles.
      */
     public function setPrevoyance($prevoyance) {
         $this->prevoyance = $prevoyance;
@@ -3360,6 +3464,7 @@ class Libelles {
      * Set the prevoyance comp.
      *
      * @param bool $prevoyanceComp The prevoyance comp.
+     * @return Libelles Returns this Libelles.
      */
     public function setPrevoyanceComp($prevoyanceComp) {
         $this->prevoyanceComp = $prevoyanceComp;
@@ -3370,6 +3475,7 @@ class Libelles {
      * Set the prime non proratisee.
      *
      * @param bool $primeNonProratisee The prime non proratisee.
+     * @return Libelles Returns this Libelles.
      */
     public function setPrimeNonProratisee($primeNonProratisee) {
         $this->primeNonProratisee = $primeNonProratisee;
@@ -3380,6 +3486,7 @@ class Libelles {
      * Set the prime servitude travail.
      *
      * @param bool $primeServitudeTravail The prime servitude travail.
+     * @return Libelles Returns this Libelles.
      */
     public function setPrimeServitudeTravail($primeServitudeTravail) {
         $this->primeServitudeTravail = $primeServitudeTravail;
@@ -3390,6 +3497,7 @@ class Libelles {
      * Set the qualifiant cotis.
      *
      * @param string $qualifiantCotis The qualifiant cotis.
+     * @return Libelles Returns this Libelles.
      */
     public function setQualifiantCotis($qualifiantCotis) {
         $this->qualifiantCotis = $qualifiantCotis;
@@ -3400,6 +3508,7 @@ class Libelles {
      * Set the regle calcul.
      *
      * @param string $regleCalcul The regle calcul.
+     * @return Libelles Returns this Libelles.
      */
     public function setRegleCalcul($regleCalcul) {
         $this->regleCalcul = $regleCalcul;
@@ -3410,6 +3519,7 @@ class Libelles {
      * Set the regle taux.
      *
      * @param string $regleTaux The regle taux.
+     * @return Libelles Returns this Libelles.
      */
     public function setRegleTaux($regleTaux) {
         $this->regleTaux = $regleTaux;
@@ -3420,6 +3530,7 @@ class Libelles {
      * Set the remise a zero.
      *
      * @param bool $remiseAZero The remise a zero.
+     * @return Libelles Returns this Libelles.
      */
     public function setRemiseAZero($remiseAZero) {
         $this->remiseAZero = $remiseAZero;
@@ -3430,6 +3541,7 @@ class Libelles {
      * Set the result mt.
      *
      * @param bool $resultMt The result mt.
+     * @return Libelles Returns this Libelles.
      */
     public function setResultMt($resultMt) {
         $this->resultMt = $resultMt;
@@ -3440,6 +3552,7 @@ class Libelles {
      * Set the resultat ducs.
      *
      * @param bool $resultatDucs The resultat ducs.
+     * @return Libelles Returns this Libelles.
      */
     public function setResultatDucs($resultatDucs) {
         $this->resultatDucs = $resultatDucs;
@@ -3450,6 +3563,7 @@ class Libelles {
      * Set the retenue salaire.
      *
      * @param bool $retenueSalaire The retenue salaire.
+     * @return Libelles Returns this Libelles.
      */
     public function setRetenueSalaire($retenueSalaire) {
         $this->retenueSalaire = $retenueSalaire;
@@ -3460,6 +3574,7 @@ class Libelles {
      * Set the retenue source.
      *
      * @param bool $retenueSource The retenue source.
+     * @return Libelles Returns this Libelles.
      */
     public function setRetenueSource($retenueSource) {
         $this->retenueSource = $retenueSource;
@@ -3470,6 +3585,7 @@ class Libelles {
      * Set the retraite obligatoire.
      *
      * @param bool $retraiteObligatoire The retraite obligatoire.
+     * @return Libelles Returns this Libelles.
      */
     public function setRetraiteObligatoire($retraiteObligatoire) {
         $this->retraiteObligatoire = $retraiteObligatoire;
@@ -3480,6 +3596,7 @@ class Libelles {
      * Set the retraite supp.
      *
      * @param bool $retraiteSupp The retraite supp.
+     * @return Libelles Returns this Libelles.
      */
     public function setRetraiteSupp($retraiteSupp) {
         $this->retraiteSupp = $retraiteSupp;
@@ -3490,6 +3607,7 @@ class Libelles {
      * Set the salaire cp.
      *
      * @param bool $salaireCp The salaire cp.
+     * @return Libelles Returns this Libelles.
      */
     public function setSalaireCp($salaireCp) {
         $this->salaireCp = $salaireCp;
@@ -3500,6 +3618,7 @@ class Libelles {
      * Set the sans reintegration sociale.
      *
      * @param bool $sansReintegrationSociale The sans reintegration sociale.
+     * @return Libelles Returns this Libelles.
      */
     public function setSansReintegrationSociale($sansReintegrationSociale) {
         $this->sansReintegrationSociale = $sansReintegrationSociale;
@@ -3510,6 +3629,7 @@ class Libelles {
      * Set the soumis abattement.
      *
      * @param bool $soumisAbattement The soumis abattement.
+     * @return Libelles Returns this Libelles.
      */
     public function setSoumisAbattement($soumisAbattement) {
         $this->soumisAbattement = $soumisAbattement;
@@ -3520,6 +3640,7 @@ class Libelles {
      * Set the soumis crds100.
      *
      * @param bool $soumisCrds100 The soumis crds100.
+     * @return Libelles Returns this Libelles.
      */
     public function setSoumisCrds100($soumisCrds100) {
         $this->soumisCrds100 = $soumisCrds100;
@@ -3530,6 +3651,7 @@ class Libelles {
      * Set the soumis csg.
      *
      * @param bool $soumisCsg The soumis csg.
+     * @return Libelles Returns this Libelles.
      */
     public function setSoumisCsg($soumisCsg) {
         $this->soumisCsg = $soumisCsg;
@@ -3540,6 +3662,7 @@ class Libelles {
      * Set the soumis csg100.
      *
      * @param bool $soumisCsg100 The soumis csg100.
+     * @return Libelles Returns this Libelles.
      */
     public function setSoumisCsg100($soumisCsg100) {
         $this->soumisCsg100 = $soumisCsg100;
@@ -3550,6 +3673,7 @@ class Libelles {
      * Set the soumis forfait social.
      *
      * @param bool $soumisForfaitSocial The soumis forfait social.
+     * @return Libelles Returns this Libelles.
      */
     public function setSoumisForfaitSocial($soumisForfaitSocial) {
         $this->soumisForfaitSocial = $soumisForfaitSocial;
@@ -3560,6 +3684,7 @@ class Libelles {
      * Set the soumis rds.
      *
      * @param bool $soumisRds The soumis rds.
+     * @return Libelles Returns this Libelles.
      */
     public function setSoumisRds($soumisRds) {
         $this->soumisRds = $soumisRds;
@@ -3570,6 +3695,7 @@ class Libelles {
      * Set the taux du libelle.
      *
      * @param bool $tauxDuLibelle The taux du libelle.
+     * @return Libelles Returns this Libelles.
      */
     public function setTauxDuLibelle($tauxDuLibelle) {
         $this->tauxDuLibelle = $tauxDuLibelle;
@@ -3580,6 +3706,7 @@ class Libelles {
      * Set the taux forfait social.
      *
      * @param string $tauxForfaitSocial The taux forfait social.
+     * @return Libelles Returns this Libelles.
      */
     public function setTauxForfaitSocial($tauxForfaitSocial) {
         $this->tauxForfaitSocial = $tauxForfaitSocial;
@@ -3590,6 +3717,7 @@ class Libelles {
      * Set the taux patronal dadsu.
      *
      * @param float $tauxPatronalDadsu The taux patronal dadsu.
+     * @return Libelles Returns this Libelles.
      */
     public function setTauxPatronalDadsu($tauxPatronalDadsu) {
         $this->tauxPatronalDadsu = $tauxPatronalDadsu;
@@ -3600,6 +3728,7 @@ class Libelles {
      * Set the taux salarial dadsu.
      *
      * @param float $tauxSalarialDadsu The taux salarial dadsu.
+     * @return Libelles Returns this Libelles.
      */
     public function setTauxSalarialDadsu($tauxSalarialDadsu) {
         $this->tauxSalarialDadsu = $tauxSalarialDadsu;
@@ -3610,6 +3739,7 @@ class Libelles {
      * Set the type absence h sup.
      *
      * @param string $typeAbsenceHSup The type absence h sup.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeAbsenceHSup($typeAbsenceHSup) {
         $this->typeAbsenceHSup = $typeAbsenceHSup;
@@ -3620,6 +3750,7 @@ class Libelles {
      * Set the type avantage.
      *
      * @param string $typeAvantage The type avantage.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeAvantage($typeAvantage) {
         $this->typeAvantage = $typeAvantage;
@@ -3630,6 +3761,7 @@ class Libelles {
      * Set the type base cotisation.
      *
      * @param string $typeBaseCotisation The type base cotisation.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeBaseCotisation($typeBaseCotisation) {
         $this->typeBaseCotisation = $typeBaseCotisation;
@@ -3640,6 +3772,7 @@ class Libelles {
      * Set the type cotis.
      *
      * @param string $typeCotis The type cotis.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeCotis($typeCotis) {
         $this->typeCotis = $typeCotis;
@@ -3650,6 +3783,7 @@ class Libelles {
      * Set the type date anc.
      *
      * @param int $typeDateAnc The type date anc.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeDateAnc($typeDateAnc) {
         $this->typeDateAnc = $typeDateAnc;
@@ -3660,6 +3794,7 @@ class Libelles {
      * Set the type donnee dadsu.
      *
      * @param string $typeDonneeDadsu The type donnee dadsu.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeDonneeDadsu($typeDonneeDadsu) {
         $this->typeDonneeDadsu = $typeDonneeDadsu;
@@ -3670,6 +3805,7 @@ class Libelles {
      * Set the type frais.
      *
      * @param string $typeFrais The type frais.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeFrais($typeFrais) {
         $this->typeFrais = $typeFrais;
@@ -3680,6 +3816,7 @@ class Libelles {
      * Set the type h sup loi tepa.
      *
      * @param string $typeHSupLoiTepa The type h sup loi tepa.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeHSupLoiTepa($typeHSupLoiTepa) {
         $this->typeHSupLoiTepa = $typeHSupLoiTepa;
@@ -3690,6 +3827,7 @@ class Libelles {
      * Set the type he fillon.
      *
      * @param string $typeHeFillon The type he fillon.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeHeFillon($typeHeFillon) {
         $this->typeHeFillon = $typeHeFillon;
@@ -3700,6 +3838,7 @@ class Libelles {
      * Set the type heure.
      *
      * @param string $typeHeure The type heure.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeHeure($typeHeure) {
         $this->typeHeure = $typeHeure;
@@ -3710,6 +3849,7 @@ class Libelles {
      * Set the type heure sup.
      *
      * @param string $typeHeureSup The type heure sup.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeHeureSup($typeHeureSup) {
         $this->typeHeureSup = $typeHeureSup;
@@ -3720,6 +3860,7 @@ class Libelles {
      * Set the type orga.
      *
      * @param string $typeOrga The type orga.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeOrga($typeOrga) {
         $this->typeOrga = $typeOrga;
@@ -3730,6 +3871,7 @@ class Libelles {
      * Set the type proratisation prime.
      *
      * @param string $typeProratisationPrime The type proratisation prime.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeProratisationPrime($typeProratisationPrime) {
         $this->typeProratisationPrime = $typeProratisationPrime;
@@ -3740,6 +3882,7 @@ class Libelles {
      * Set the type tranche.
      *
      * @param string $typeTranche The type tranche.
+     * @return Libelles Returns this Libelles.
      */
     public function setTypeTranche($typeTranche) {
         $this->typeTranche = $typeTranche;

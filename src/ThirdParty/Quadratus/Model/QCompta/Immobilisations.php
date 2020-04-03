@@ -1616,6 +1616,7 @@ class Immobilisations {
      * Set the ad amort anterieur.
      *
      * @param float $adAmortAnterieur The ad amort anterieur.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdAmortAnterieur($adAmortAnterieur) {
         $this->adAmortAnterieur = $adAmortAnterieur;
@@ -1626,6 +1627,7 @@ class Immobilisations {
      * Set the ad amort anterieur2.
      *
      * @param float $adAmortAnterieur2 The ad amort anterieur2.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdAmortAnterieur2($adAmortAnterieur2) {
         $this->adAmortAnterieur2 = $adAmortAnterieur2;
@@ -1636,6 +1638,7 @@ class Immobilisations {
      * Set the ad annees amort.
      *
      * @param float $adAnneesAmort The ad annees amort.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdAnneesAmort($adAnneesAmort) {
         $this->adAnneesAmort = $adAnneesAmort;
@@ -1646,6 +1649,7 @@ class Immobilisations {
      * Set the ad coeff degressif.
      *
      * @param float $adCoeffDegressif The ad coeff degressif.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdCoeffDegressif($adCoeffDegressif) {
         $this->adCoeffDegressif = $adCoeffDegressif;
@@ -1656,6 +1660,7 @@ class Immobilisations {
      * Set the ad deduction amort anterieur.
      *
      * @param float $adDeductionAmortAnterieur The ad deduction amort anterieur.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdDeductionAmortAnterieur($adDeductionAmortAnterieur) {
         $this->adDeductionAmortAnterieur = $adDeductionAmortAnterieur;
@@ -1666,6 +1671,7 @@ class Immobilisations {
      * Set the ad deduction dotation.
      *
      * @param float $adDeductionDotation The ad deduction dotation.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdDeductionDotation($adDeductionDotation) {
         $this->adDeductionDotation = $adDeductionDotation;
@@ -1676,6 +1682,7 @@ class Immobilisations {
      * Set the ad dotation.
      *
      * @param float $adDotation The ad dotation.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdDotation($adDotation) {
         $this->adDotation = $adDotation;
@@ -1686,6 +1693,7 @@ class Immobilisations {
      * Set the ad dotation2.
      *
      * @param float $adDotation2 The ad dotation2.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdDotation2($adDotation2) {
         $this->adDotation2 = $adDotation2;
@@ -1696,6 +1704,7 @@ class Immobilisations {
      * Set the ad dotation except.
      *
      * @param float $adDotationExcept The ad dotation except.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdDotationExcept($adDotationExcept) {
         $this->adDotationExcept = $adDotationExcept;
@@ -1706,6 +1715,7 @@ class Immobilisations {
      * Set the ad duree.
      *
      * @param float $adDuree The ad duree.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdDuree($adDuree) {
         $this->adDuree = $adDuree;
@@ -1716,6 +1726,7 @@ class Immobilisations {
      * Set the ad duree tot.
      *
      * @param string $adDureeTot The ad duree tot.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdDureeTot($adDureeTot) {
         $this->adDureeTot = $adDureeTot;
@@ -1726,6 +1737,7 @@ class Immobilisations {
      * Set the ad garder dot saisie.
      *
      * @param bool $adGarderDotSaisie The ad garder dot saisie.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdGarderDotSaisie($adGarderDotSaisie) {
         $this->adGarderDotSaisie = $adGarderDotSaisie;
@@ -1736,6 +1748,7 @@ class Immobilisations {
      * Set the ad quantite.
      *
      * @param float $adQuantite The ad quantite.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdQuantite($adQuantite) {
         $this->adQuantite = $adQuantite;
@@ -1746,6 +1759,7 @@ class Immobilisations {
      * Set the ad taux lineaire.
      *
      * @param float $adTauxLineaire The ad taux lineaire.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdTauxLineaire($adTauxLineaire) {
         $this->adTauxLineaire = $adTauxLineaire;
@@ -1756,6 +1770,7 @@ class Immobilisations {
      * Set the ad type.
      *
      * @param string $adType The ad type.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAdType($adType) {
         $this->adType = $adType;
@@ -1766,6 +1781,7 @@ class Immobilisations {
      * Set the af amort anterieur.
      *
      * @param float $afAmortAnterieur The af amort anterieur.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfAmortAnterieur($afAmortAnterieur) {
         $this->afAmortAnterieur = $afAmortAnterieur;
@@ -1776,6 +1792,7 @@ class Immobilisations {
      * Set the af annees amort.
      *
      * @param float $afAnneesAmort The af annees amort.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfAnneesAmort($afAnneesAmort) {
         $this->afAnneesAmort = $afAnneesAmort;
@@ -1786,6 +1803,7 @@ class Immobilisations {
      * Set the af coeff degressif.
      *
      * @param float $afCoeffDegressif The af coeff degressif.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfCoeffDegressif($afCoeffDegressif) {
         $this->afCoeffDegressif = $afCoeffDegressif;
@@ -1796,6 +1814,7 @@ class Immobilisations {
      * Set the af dotation.
      *
      * @param float $afDotation The af dotation.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfDotation($afDotation) {
         $this->afDotation = $afDotation;
@@ -1806,6 +1825,7 @@ class Immobilisations {
      * Set the af duree.
      *
      * @param float $afDuree The af duree.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfDuree($afDuree) {
         $this->afDuree = $afDuree;
@@ -1816,6 +1836,7 @@ class Immobilisations {
      * Set the af taux except.
      *
      * @param float $afTauxExcept The af taux except.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfTauxExcept($afTauxExcept) {
         $this->afTauxExcept = $afTauxExcept;
@@ -1826,6 +1847,7 @@ class Immobilisations {
      * Set the af taux lineaire.
      *
      * @param float $afTauxLineaire The af taux lineaire.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfTauxLineaire($afTauxLineaire) {
         $this->afTauxLineaire = $afTauxLineaire;
@@ -1836,6 +1858,7 @@ class Immobilisations {
      * Set the af type.
      *
      * @param string $afType The af type.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfType($afType) {
         $this->afType = $afType;
@@ -1846,6 +1869,7 @@ class Immobilisations {
      * Set the afsii.
      *
      * @param bool $afsii The afsii.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setAfsii($afsii) {
         $this->afsii = $afsii;
@@ -1856,6 +1880,7 @@ class Immobilisations {
      * Set the art151 duree deja etalee.
      *
      * @param string $art151DureeDejaEtalee The art151 duree deja etalee.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setArt151DureeDejaEtalee($art151DureeDejaEtalee) {
         $this->art151DureeDejaEtalee = $art151DureeDejaEtalee;
@@ -1866,6 +1891,7 @@ class Immobilisations {
      * Set the art151 duree etalement.
      *
      * @param string $art151DureeEtalement The art151 duree etalement.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setArt151DureeEtalement($art151DureeEtalement) {
         $this->art151DureeEtalement = $art151DureeEtalement;
@@ -1876,6 +1902,7 @@ class Immobilisations {
      * Set the art151 montant deja etale.
      *
      * @param float $art151MontantDejaEtale The art151 montant deja etale.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setArt151MontantDejaEtale($art151MontantDejaEtale) {
         $this->art151MontantDejaEtale = $art151MontantDejaEtale;
@@ -1886,6 +1913,7 @@ class Immobilisations {
      * Set the art151 montant etale annee.
      *
      * @param float $art151MontantEtaleAnnee The art151 montant etale annee.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setArt151MontantEtaleAnnee($art151MontantEtaleAnnee) {
         $this->art151MontantEtaleAnnee = $art151MontantEtaleAnnee;
@@ -1896,6 +1924,7 @@ class Immobilisations {
      * Set the base calcul.
      *
      * @param int $baseCalcul The base calcul.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setBaseCalcul($baseCalcul) {
         $this->baseCalcul = $baseCalcul;
@@ -1906,6 +1935,7 @@ class Immobilisations {
      * Set the base taxe pro.
      *
      * @param float $baseTaxePro The base taxe pro.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setBaseTaxePro($baseTaxePro) {
         $this->baseTaxePro = $baseTaxePro;
@@ -1916,6 +1946,7 @@ class Immobilisations {
      * Set the bureau.
      *
      * @param string $bureau The bureau.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setBureau($bureau) {
         $this->bureau = $bureau;
@@ -1926,6 +1957,7 @@ class Immobilisations {
      * Set the c taux imp.
      *
      * @param float $cTauxImp The c taux imp.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCTauxImp($cTauxImp) {
         $this->cTauxImp = $cTauxImp;
@@ -1936,6 +1968,7 @@ class Immobilisations {
      * Set the c valeur euros.
      *
      * @param float $cValeurEuros The c valeur euros.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCValeurEuros($cValeurEuros) {
         $this->cValeurEuros = $cValeurEuros;
@@ -1946,6 +1979,7 @@ class Immobilisations {
      * Set the centre analytique.
      *
      * @param string $centreAnalytique The centre analytique.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCentreAnalytique($centreAnalytique) {
         $this->centreAnalytique = $centreAnalytique;
@@ -1956,6 +1990,7 @@ class Immobilisations {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -1966,6 +2001,7 @@ class Immobilisations {
      * Set the compte frn.
      *
      * @param string $compteFrn The compte frn.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCompteFrn($compteFrn) {
         $this->compteFrn = $compteFrn;
@@ -1976,6 +2012,7 @@ class Immobilisations {
      * Set the cr is dot.
      *
      * @param bool $crIsDot The cr is dot.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrIsDot($crIsDot) {
         $this->crIsDot = $crIsDot;
@@ -1986,6 +2023,7 @@ class Immobilisations {
      * Set the crr151 motif.
      *
      * @param bool $crr151Motif The crr151 motif.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrr151Motif($crr151Motif) {
         $this->crr151Motif = $crr151Motif;
@@ -1996,6 +2034,7 @@ class Immobilisations {
      * Set the crr151 pm value ct.
      *
      * @param float $crr151PmValueCt The crr151 pm value ct.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrr151PmValueCt($crr151PmValueCt) {
         $this->crr151PmValueCt = $crr151PmValueCt;
@@ -2006,6 +2045,7 @@ class Immobilisations {
      * Set the crr151 pm value lt.
      *
      * @param float $crr151PmValueLt The crr151 pm value lt.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrr151PmValueLt($crr151PmValueLt) {
         $this->crr151PmValueLt = $crr151PmValueLt;
@@ -2016,6 +2056,7 @@ class Immobilisations {
      * Set the crr date.
      *
      * @param DateTime|null $crrDate The crr date.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrDate(DateTime $crrDate = null) {
         $this->crrDate = $crrDate;
@@ -2026,6 +2067,7 @@ class Immobilisations {
      * Set the crr px cession ht.
      *
      * @param float $crrPxCessionHt The crr px cession ht.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrPxCessionHt($crrPxCessionHt) {
         $this->crrPxCessionHt = $crrPxCessionHt;
@@ -2036,6 +2078,7 @@ class Immobilisations {
      * Set the crr qte vendue.
      *
      * @param float $crrQteVendue The crr qte vendue.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrQteVendue($crrQteVendue) {
         $this->crrQteVendue = $crrQteVendue;
@@ -2046,6 +2089,7 @@ class Immobilisations {
      * Set the crr suppl amort.
      *
      * @param float $crrSupplAmort The crr suppl amort.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrSupplAmort($crrSupplAmort) {
         $this->crrSupplAmort = $crrSupplAmort;
@@ -2056,6 +2100,7 @@ class Immobilisations {
      * Set the crr suppl valeur.
      *
      * @param float $crrSupplValeur The crr suppl valeur.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrSupplValeur($crrSupplValeur) {
         $this->crrSupplValeur = $crrSupplValeur;
@@ -2066,6 +2111,7 @@ class Immobilisations {
      * Set the crr type.
      *
      * @param string $crrType The crr type.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrType($crrType) {
         $this->crrType = $crrType;
@@ -2076,6 +2122,7 @@ class Immobilisations {
      * Set the crrpm value ct.
      *
      * @param float $crrpmValueCt The crrpm value ct.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrpmValueCt($crrpmValueCt) {
         $this->crrpmValueCt = $crrpmValueCt;
@@ -2086,6 +2133,7 @@ class Immobilisations {
      * Set the crrpm value ctf.
      *
      * @param float $crrpmValueCtf The crrpm value ctf.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrpmValueCtf($crrpmValueCtf) {
         $this->crrpmValueCtf = $crrpmValueCtf;
@@ -2096,6 +2144,7 @@ class Immobilisations {
      * Set the crrpm value lt.
      *
      * @param float $crrpmValueLt The crrpm value lt.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrpmValueLt($crrpmValueLt) {
         $this->crrpmValueLt = $crrpmValueLt;
@@ -2106,6 +2155,7 @@ class Immobilisations {
      * Set the crrpm value ltf.
      *
      * @param float $crrpmValueLtf The crrpm value ltf.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setCrrpmValueLtf($crrpmValueLtf) {
         $this->crrpmValueLtf = $crrpmValueLtf;
@@ -2116,6 +2166,7 @@ class Immobilisations {
      * Set the date acq forfait.
      *
      * @param DateTime|null $dateAcqForfait The date acq forfait.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setDateAcqForfait(DateTime $dateAcqForfait = null) {
         $this->dateAcqForfait = $dateAcqForfait;
@@ -2126,6 +2177,7 @@ class Immobilisations {
      * Set the date acquisition.
      *
      * @param DateTime|null $dateAcquisition The date acquisition.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setDateAcquisition(DateTime $dateAcquisition = null) {
         $this->dateAcquisition = $dateAcquisition;
@@ -2136,6 +2188,7 @@ class Immobilisations {
      * Set the date mise service.
      *
      * @param DateTime|null $dateMiseService The date mise service.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setDateMiseService(DateTime $dateMiseService = null) {
         $this->dateMiseService = $dateMiseService;
@@ -2146,6 +2199,7 @@ class Immobilisations {
      * Set the date reeval.
      *
      * @param DateTime|null $dateReeval The date reeval.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setDateReeval(DateTime $dateReeval = null) {
         $this->dateReeval = $dateReeval;
@@ -2156,6 +2210,7 @@ class Immobilisations {
      * Set the din.
      *
      * @param bool $din The din.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setDin($din) {
         $this->din = $din;
@@ -2166,6 +2221,7 @@ class Immobilisations {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -2176,6 +2232,7 @@ class Immobilisations {
      * Set the famille.
      *
      * @param string $famille The famille.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setFamille($famille) {
         $this->famille = $famille;
@@ -2186,6 +2243,7 @@ class Immobilisations {
      * Set the guid vehicule.
      *
      * @param string $guidVehicule The guid vehicule.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setGuidVehicule($guidVehicule) {
         $this->guidVehicule = $guidVehicule;
@@ -2196,6 +2254,7 @@ class Immobilisations {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -2206,6 +2265,7 @@ class Immobilisations {
      * Set the libelle frn.
      *
      * @param string $libelleFrn The libelle frn.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setLibelleFrn($libelleFrn) {
         $this->libelleFrn = $libelleFrn;
@@ -2216,6 +2276,7 @@ class Immobilisations {
      * Set the libelle quantite.
      *
      * @param string $libelleQuantite The libelle quantite.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setLibelleQuantite($libelleQuantite) {
         $this->libelleQuantite = $libelleQuantite;
@@ -2226,6 +2287,7 @@ class Immobilisations {
      * Set the limite amort.
      *
      * @param float $limiteAmort The limite amort.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setLimiteAmort($limiteAmort) {
         $this->limiteAmort = $limiteAmort;
@@ -2236,6 +2298,7 @@ class Immobilisations {
      * Set the majoration.
      *
      * @param bool $majoration The majoration.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setMajoration($majoration) {
         $this->majoration = $majoration;
@@ -2246,6 +2309,7 @@ class Immobilisations {
      * Set the materiaux agricole.
      *
      * @param bool $materiauxAgricole The materiaux agricole.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setMateriauxAgricole($materiauxAgricole) {
         $this->materiauxAgricole = $materiauxAgricole;
@@ -2256,6 +2320,7 @@ class Immobilisations {
      * Set the montant tva.
      *
      * @param float $montantTva The montant tva.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setMontantTva($montantTva) {
         $this->montantTva = $montantTva;
@@ -2266,6 +2331,7 @@ class Immobilisations {
      * Set the nature analytique.
      *
      * @param string $natureAnalytique The nature analytique.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNatureAnalytique($natureAnalytique) {
         $this->natureAnalytique = $natureAnalytique;
@@ -2276,6 +2342,7 @@ class Immobilisations {
      * Set the nb mois majoration.
      *
      * @param string $nbMoisMajoration The nb mois majoration.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNbMoisMajoration($nbMoisMajoration) {
         $this->nbMoisMajoration = $nbMoisMajoration;
@@ -2286,6 +2353,7 @@ class Immobilisations {
      * Set the num cpt trans dot.
      *
      * @param string $numCptTransDot The num cpt trans dot.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNumCptTransDot($numCptTransDot) {
         $this->numCptTransDot = $numCptTransDot;
@@ -2296,6 +2364,7 @@ class Immobilisations {
      * Set the num doss org.
      *
      * @param string $numDossOrg The num doss org.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNumDossOrg($numDossOrg) {
         $this->numDossOrg = $numDossOrg;
@@ -2306,6 +2375,7 @@ class Immobilisations {
      * Set the num ens realloc.
      *
      * @param int $numEnsRealloc The num ens realloc.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNumEnsRealloc($numEnsRealloc) {
         $this->numEnsRealloc = $numEnsRealloc;
@@ -2316,6 +2386,7 @@ class Immobilisations {
      * Set the num ensemble.
      *
      * @param int $numEnsemble The num ensemble.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNumEnsemble($numEnsemble) {
         $this->numEnsemble = $numEnsemble;
@@ -2326,6 +2397,7 @@ class Immobilisations {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -2336,6 +2408,7 @@ class Immobilisations {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -2346,6 +2419,7 @@ class Immobilisations {
      * Set the numero deux.
      *
      * @param int $numeroDeux The numero deux.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNumeroDeux($numeroDeux) {
         $this->numeroDeux = $numeroDeux;
@@ -2356,6 +2430,7 @@ class Immobilisations {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -2366,6 +2441,7 @@ class Immobilisations {
      * Set the pilotage.
      *
      * @param bool $pilotage The pilotage.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setPilotage($pilotage) {
         $this->pilotage = $pilotage;
@@ -2376,6 +2452,7 @@ class Immobilisations {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -2386,6 +2463,7 @@ class Immobilisations {
      * Set the service.
      *
      * @param string $service The service.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setService($service) {
         $this->service = $service;
@@ -2396,6 +2474,7 @@ class Immobilisations {
      * Set the site.
      *
      * @param string $site The site.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setSite($site) {
         $this->site = $site;
@@ -2406,6 +2485,7 @@ class Immobilisations {
      * Set the taux tva.
      *
      * @param float $tauxTva The taux tva.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setTauxTva($tauxTva) {
         $this->tauxTva = $tauxTva;
@@ -2416,6 +2496,7 @@ class Immobilisations {
      * Set the taxe fonciere.
      *
      * @param bool $taxeFonciere The taxe fonciere.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setTaxeFonciere($taxeFonciere) {
         $this->taxeFonciere = $taxeFonciere;
@@ -2426,6 +2507,7 @@ class Immobilisations {
      * Set the taxe pro.
      *
      * @param bool $taxePro The taxe pro.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setTaxePro($taxePro) {
         $this->taxePro = $taxePro;
@@ -2436,6 +2518,7 @@ class Immobilisations {
      * Set the tp date origine.
      *
      * @param DateTime|null $tpDateOrigine The tp date origine.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setTpDateOrigine(DateTime $tpDateOrigine = null) {
         $this->tpDateOrigine = $tpDateOrigine;
@@ -2446,6 +2529,7 @@ class Immobilisations {
      * Set the v date.
      *
      * @param DateTime|null $vDate The v date.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setVDate(DateTime $vDate = null) {
         $this->vDate = $vDate;
@@ -2456,6 +2540,7 @@ class Immobilisations {
      * Set the v numero.
      *
      * @param int $vNumero The v numero.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setVNumero($vNumero) {
         $this->vNumero = $vNumero;
@@ -2466,6 +2551,7 @@ class Immobilisations {
      * Set the v numero compte.
      *
      * @param string $vNumeroCompte The v numero compte.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setVNumeroCompte($vNumeroCompte) {
         $this->vNumeroCompte = $vNumeroCompte;
@@ -2476,6 +2562,7 @@ class Immobilisations {
      * Set the v numero compte ini.
      *
      * @param string $vNumeroCompteIni The v numero compte ini.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setVNumeroCompteIni($vNumeroCompteIni) {
         $this->vNumeroCompteIni = $vNumeroCompteIni;
@@ -2486,6 +2573,7 @@ class Immobilisations {
      * Set the v numero deux.
      *
      * @param int $vNumeroDeux The v numero deux.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setVNumeroDeux($vNumeroDeux) {
         $this->vNumeroDeux = $vNumeroDeux;
@@ -2496,6 +2584,7 @@ class Immobilisations {
      * Set the v numero deux ini.
      *
      * @param int $vNumeroDeuxIni The v numero deux ini.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setVNumeroDeuxIni($vNumeroDeuxIni) {
         $this->vNumeroDeuxIni = $vNumeroDeuxIni;
@@ -2506,6 +2595,7 @@ class Immobilisations {
      * Set the v numero ini.
      *
      * @param int $vNumeroIni The v numero ini.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setVNumeroIni($vNumeroIni) {
         $this->vNumeroIni = $vNumeroIni;
@@ -2516,6 +2606,7 @@ class Immobilisations {
      * Set the valeur acq forfait.
      *
      * @param float $valeurAcqForfait The valeur acq forfait.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setValeurAcqForfait($valeurAcqForfait) {
         $this->valeurAcqForfait = $valeurAcqForfait;
@@ -2526,6 +2617,7 @@ class Immobilisations {
      * Set the valeur base amortissement.
      *
      * @param float $valeurBaseAmortissement The valeur base amortissement.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setValeurBaseAmortissement($valeurBaseAmortissement) {
         $this->valeurBaseAmortissement = $valeurBaseAmortissement;
@@ -2536,6 +2628,7 @@ class Immobilisations {
      * Set the valeur deduction.
      *
      * @param float $valeurDeduction The valeur deduction.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setValeurDeduction($valeurDeduction) {
         $this->valeurDeduction = $valeurDeduction;
@@ -2546,6 +2639,7 @@ class Immobilisations {
      * Set the valeur ht.
      *
      * @param float $valeurHt The valeur ht.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setValeurHt($valeurHt) {
         $this->valeurHt = $valeurHt;
@@ -2556,6 +2650,7 @@ class Immobilisations {
      * Set the valeur ht origine.
      *
      * @param float $valeurHtOrigine The valeur ht origine.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setValeurHtOrigine($valeurHtOrigine) {
         $this->valeurHtOrigine = $valeurHtOrigine;
@@ -2566,6 +2661,7 @@ class Immobilisations {
      * Set the vnc realloc.
      *
      * @param float $vncRealloc The vnc realloc.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setVncRealloc($vncRealloc) {
         $this->vncRealloc = $vncRealloc;
@@ -2576,6 +2672,7 @@ class Immobilisations {
      * Set the zone libre1.
      *
      * @param string $zoneLibre1 The zone libre1.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setZoneLibre1($zoneLibre1) {
         $this->zoneLibre1 = $zoneLibre1;
@@ -2586,6 +2683,7 @@ class Immobilisations {
      * Set the zone libre2.
      *
      * @param string $zoneLibre2 The zone libre2.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setZoneLibre2($zoneLibre2) {
         $this->zoneLibre2 = $zoneLibre2;
@@ -2596,6 +2694,7 @@ class Immobilisations {
      * Set the zone libre3.
      *
      * @param string $zoneLibre3 The zone libre3.
+     * @return Immobilisations Returns this Immobilisations.
      */
     public function setZoneLibre3($zoneLibre3) {
         $this->zoneLibre3 = $zoneLibre3;

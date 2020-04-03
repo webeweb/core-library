@@ -288,6 +288,7 @@ class Subventions {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return Subventions Returns this Subventions.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -298,6 +299,7 @@ class Subventions {
      * Set the coeff degressif.
      *
      * @param float $coeffDegressif The coeff degressif.
+     * @return Subventions Returns this Subventions.
      */
     public function setCoeffDegressif($coeffDegressif) {
         $this->coeffDegressif = $coeffDegressif;
@@ -308,6 +310,7 @@ class Subventions {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return Subventions Returns this Subventions.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -318,6 +321,7 @@ class Subventions {
      * Set the date cession.
      *
      * @param DateTime|null $dateCession The date cession.
+     * @return Subventions Returns this Subventions.
      */
     public function setDateCession(DateTime $dateCession = null) {
         $this->dateCession = $dateCession;
@@ -328,6 +332,7 @@ class Subventions {
      * Set the date mise en service.
      *
      * @param DateTime|null $dateMiseEnService The date mise en service.
+     * @return Subventions Returns this Subventions.
      */
     public function setDateMiseEnService(DateTime $dateMiseEnService = null) {
         $this->dateMiseEnService = $dateMiseEnService;
@@ -338,6 +343,7 @@ class Subventions {
      * Set the duree.
      *
      * @param int $duree The duree.
+     * @return Subventions Returns this Subventions.
      */
     public function setDuree($duree) {
         $this->duree = $duree;
@@ -348,6 +354,7 @@ class Subventions {
      * Set the immo numero.
      *
      * @param int $immoNumero The immo numero.
+     * @return Subventions Returns this Subventions.
      */
     public function setImmoNumero($immoNumero) {
         $this->immoNumero = $immoNumero;
@@ -358,6 +365,7 @@ class Subventions {
      * Set the immo numero compte.
      *
      * @param string $immoNumeroCompte The immo numero compte.
+     * @return Subventions Returns this Subventions.
      */
     public function setImmoNumeroCompte($immoNumeroCompte) {
         $this->immoNumeroCompte = $immoNumeroCompte;
@@ -368,6 +376,7 @@ class Subventions {
      * Set the immo numero deux.
      *
      * @param int $immoNumeroDeux The immo numero deux.
+     * @return Subventions Returns this Subventions.
      */
     public function setImmoNumeroDeux($immoNumeroDeux) {
         $this->immoNumeroDeux = $immoNumeroDeux;
@@ -378,6 +387,7 @@ class Subventions {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Subventions Returns this Subventions.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -388,6 +398,7 @@ class Subventions {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return Subventions Returns this Subventions.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -398,6 +409,7 @@ class Subventions {
      * Set the num contrat.
      *
      * @param string $numContrat The num contrat.
+     * @return Subventions Returns this Subventions.
      */
     public function setNumContrat($numContrat) {
         $this->numContrat = $numContrat;
@@ -408,6 +420,7 @@ class Subventions {
      * Set the num cpt subvention.
      *
      * @param string $numCptSubvention The num cpt subvention.
+     * @return Subventions Returns this Subventions.
      */
     public function setNumCptSubvention($numCptSubvention) {
         $this->numCptSubvention = $numCptSubvention;
@@ -418,6 +431,7 @@ class Subventions {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return Subventions Returns this Subventions.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -428,6 +442,7 @@ class Subventions {
      * Set the taux lineaire.
      *
      * @param float $tauxLineaire The taux lineaire.
+     * @return Subventions Returns this Subventions.
      */
     public function setTauxLineaire($tauxLineaire) {
         $this->tauxLineaire = $tauxLineaire;
@@ -438,6 +453,7 @@ class Subventions {
      * Set the type amort.
      *
      * @param string $typeAmort The type amort.
+     * @return Subventions Returns this Subventions.
      */
     public function setTypeAmort($typeAmort) {
         $this->typeAmort = $typeAmort;

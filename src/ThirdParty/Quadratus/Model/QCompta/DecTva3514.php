@@ -928,6 +928,7 @@ class DecTva3514 {
      * Set the 02 base ht196.
      *
      * @param float $_02BaseHt196 The 02 base ht196.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set02BaseHt196($_02BaseHt196) {
         $this->_02BaseHt196 = $_02BaseHt196;
@@ -938,6 +939,7 @@ class DecTva3514 {
      * Set the 02 taxe due196.
      *
      * @param float $_02TaxeDue196 The 02 taxe due196.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set02TaxeDue196($_02TaxeDue196) {
         $this->_02TaxeDue196 = $_02TaxeDue196;
@@ -948,6 +950,7 @@ class DecTva3514 {
      * Set the 03 base ht55.
      *
      * @param float $_03BaseHt55 The 03 base ht55.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set03BaseHt55($_03BaseHt55) {
         $this->_03BaseHt55 = $_03BaseHt55;
@@ -958,6 +961,7 @@ class DecTva3514 {
      * Set the 03 taxe due55.
      *
      * @param float $_03TaxeDue55 The 03 taxe due55.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set03TaxeDue55($_03TaxeDue55) {
         $this->_03TaxeDue55 = $_03TaxeDue55;
@@ -968,6 +972,7 @@ class DecTva3514 {
      * Set the 04 base ht85.
      *
      * @param float $_04BaseHt85 The 04 base ht85.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set04BaseHt85($_04BaseHt85) {
         $this->_04BaseHt85 = $_04BaseHt85;
@@ -978,6 +983,7 @@ class DecTva3514 {
      * Set the 04 taxe due85.
      *
      * @param float $_04TaxeDue85 The 04 taxe due85.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set04TaxeDue85($_04TaxeDue85) {
         $this->_04TaxeDue85 = $_04TaxeDue85;
@@ -988,6 +994,7 @@ class DecTva3514 {
      * Set the 05 base ht21.
      *
      * @param float $_05BaseHt21 The 05 base ht21.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set05BaseHt21($_05BaseHt21) {
         $this->_05BaseHt21 = $_05BaseHt21;
@@ -998,6 +1005,7 @@ class DecTva3514 {
      * Set the 05 taxe due21.
      *
      * @param float $_05TaxeDue21 The 05 taxe due21.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set05TaxeDue21($_05TaxeDue21) {
         $this->_05TaxeDue21 = $_05TaxeDue21;
@@ -1008,6 +1016,7 @@ class DecTva3514 {
      * Set the 06 base ht anc taux.
      *
      * @param float $_06BaseHtAncTaux The 06 base ht anc taux.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set06BaseHtAncTaux($_06BaseHtAncTaux) {
         $this->_06BaseHtAncTaux = $_06BaseHtAncTaux;
@@ -1018,6 +1027,7 @@ class DecTva3514 {
      * Set the 06 taxe due anc taux.
      *
      * @param float $_06TaxeDueAncTaux The 06 taxe due anc taux.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set06TaxeDueAncTaux($_06TaxeDueAncTaux) {
         $this->_06TaxeDueAncTaux = $_06TaxeDueAncTaux;
@@ -1028,6 +1038,7 @@ class DecTva3514 {
      * Set the 07 base ht taux part.
      *
      * @param float $_07BaseHtTauxPart The 07 base ht taux part.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set07BaseHtTauxPart($_07BaseHtTauxPart) {
         $this->_07BaseHtTauxPart = $_07BaseHtTauxPart;
@@ -1038,6 +1049,7 @@ class DecTva3514 {
      * Set the 07 taxe due taux part.
      *
      * @param float $_07TaxeDueTauxPart The 07 taxe due taux part.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set07TaxeDueTauxPart($_07TaxeDueTauxPart) {
         $this->_07TaxeDueTauxPart = $_07TaxeDueTauxPart;
@@ -1048,6 +1060,7 @@ class DecTva3514 {
      * Set the 08 base httv aa reverser.
      *
      * @param float $_08BaseHttvAaReverser The 08 base httv aa reverser.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set08BaseHttvAaReverser($_08BaseHttvAaReverser) {
         $this->_08BaseHttvAaReverser = $_08BaseHttvAaReverser;
@@ -1058,6 +1071,7 @@ class DecTva3514 {
      * Set the 08 taxe due tv aa reverser.
      *
      * @param float $_08TaxeDueTvAaReverser The 08 taxe due tv aa reverser.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set08TaxeDueTvAaReverser($_08TaxeDueTvAaReverser) {
         $this->_08TaxeDueTvAaReverser = $_08TaxeDueTvAaReverser;
@@ -1068,6 +1082,7 @@ class DecTva3514 {
      * Set the 09 total tva brute.
      *
      * @param float $_09TotalTvaBrute The 09 total tva brute.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set09TotalTvaBrute($_09TotalTvaBrute) {
         $this->_09TotalTvaBrute = $_09TotalTvaBrute;
@@ -1078,6 +1093,7 @@ class DecTva3514 {
      * Set the 10 biens immos.
      *
      * @param float $_10BiensImmos The 10 biens immos.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set10BiensImmos($_10BiensImmos) {
         $this->_10BiensImmos = $_10BiensImmos;
@@ -1088,6 +1104,7 @@ class DecTva3514 {
      * Set the 11 autres biens.
      *
      * @param float $_11AutresBiens The 11 autres biens.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set11AutresBiens($_11AutresBiens) {
         $this->_11AutresBiens = $_11AutresBiens;
@@ -1098,6 +1115,7 @@ class DecTva3514 {
      * Set the 12 omission.
      *
      * @param float $_12Omission The 12 omission.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set12Omission($_12Omission) {
         $this->_12Omission = $_12Omission;
@@ -1108,6 +1126,7 @@ class DecTva3514 {
      * Set the 13 total tva deduc.
      *
      * @param float $_13TotalTvaDeduc The 13 total tva deduc.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set13TotalTvaDeduc($_13TotalTvaDeduc) {
         $this->_13TotalTvaDeduc = $_13TotalTvaDeduc;
@@ -1118,6 +1137,7 @@ class DecTva3514 {
      * Set the 14 a.
      *
      * @param float $_14A The 14 a.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set14A($_14A) {
         $this->_14A = $_14A;
@@ -1128,6 +1148,7 @@ class DecTva3514 {
      * Set the 15 b.
      *
      * @param float $_15B The 15 b.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set15B($_15B) {
         $this->_15B = $_15B;
@@ -1138,6 +1159,7 @@ class DecTva3514 {
      * Set the 16 rembours tva.
      *
      * @param float $_16RemboursTva The 16 rembours tva.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set16RemboursTva($_16RemboursTva) {
         $this->_16RemboursTva = $_16RemboursTva;
@@ -1148,6 +1170,7 @@ class DecTva3514 {
      * Set the 18 credit tvaca12.
      *
      * @param float $_18CreditTvaca12 The 18 credit tvaca12.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set18CreditTvaca12($_18CreditTvaca12) {
         $this->_18CreditTvaca12 = $_18CreditTvaca12;
@@ -1158,6 +1181,7 @@ class DecTva3514 {
      * Set the 1 mtt augmentation.
      *
      * @param float $_1MttAugmentation The 1 mtt augmentation.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set1MttAugmentation($_1MttAugmentation) {
         $this->_1MttAugmentation = $_1MttAugmentation;
@@ -1168,6 +1192,7 @@ class DecTva3514 {
      * Set the 20 acompte ta1.
      *
      * @param float $_20AcompteTa1 The 20 acompte ta1.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set20AcompteTa1($_20AcompteTa1) {
         $this->_20AcompteTa1 = $_20AcompteTa1;
@@ -1178,6 +1203,7 @@ class DecTva3514 {
      * Set the 20 acompte ta2.
      *
      * @param float $_20AcompteTa2 The 20 acompte ta2.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set20AcompteTa2($_20AcompteTa2) {
         $this->_20AcompteTa2 = $_20AcompteTa2;
@@ -1188,6 +1214,7 @@ class DecTva3514 {
      * Set the 21 acompte tot1.
      *
      * @param float $_21AcompteTot1 The 21 acompte tot1.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set21AcompteTot1($_21AcompteTot1) {
         $this->_21AcompteTot1 = $_21AcompteTot1;
@@ -1198,6 +1225,7 @@ class DecTva3514 {
      * Set the 21 acompte tot2.
      *
      * @param float $_21AcompteTot2 The 21 acompte tot2.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set21AcompteTot2($_21AcompteTot2) {
         $this->_21AcompteTot2 = $_21AcompteTot2;
@@ -1208,6 +1236,7 @@ class DecTva3514 {
      * Set the 2 b base ht7.
      *
      * @param float $_2BBaseHt7 The 2 b base ht7.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set2BBaseHt7($_2BBaseHt7) {
         $this->_2BBaseHt7 = $_2BBaseHt7;
@@ -1218,6 +1247,7 @@ class DecTva3514 {
      * Set the 2 b taxe due7.
      *
      * @param float $_2BTaxeDue7 The 2 b taxe due7.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set2BTaxeDue7($_2BTaxeDue7) {
         $this->_2BTaxeDue7 = $_2BTaxeDue7;
@@ -1228,6 +1258,7 @@ class DecTva3514 {
      * Set the 2 mtt credit prec.
      *
      * @param float $_2MttCreditPrec The 2 mtt credit prec.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set2MttCreditPrec($_2MttCreditPrec) {
         $this->_2MttCreditPrec = $_2MttCreditPrec;
@@ -1238,6 +1269,7 @@ class DecTva3514 {
      * Set the 2 mtt diminution.
      *
      * @param float $_2MttDiminution The 2 mtt diminution.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set2MttDiminution($_2MttDiminution) {
         $this->_2MttDiminution = $_2MttDiminution;
@@ -1248,6 +1280,7 @@ class DecTva3514 {
      * Set the 3 mtt diminution.
      *
      * @param float $_3MttDiminution The 3 mtt diminution.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set3MttDiminution($_3MttDiminution) {
         $this->_3MttDiminution = $_3MttDiminution;
@@ -1258,6 +1291,7 @@ class DecTva3514 {
      * Set the 3 suspension.
      *
      * @param int $_3Suspension The 3 suspension.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set3Suspension($_3Suspension) {
         $this->_3Suspension = $_3Suspension;
@@ -1268,6 +1302,7 @@ class DecTva3514 {
      * Set the 4 has diminution.
      *
      * @param bool $_4HasDiminution The 4 has diminution.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set4HasDiminution($_4HasDiminution) {
         $this->_4HasDiminution = $_4HasDiminution;
@@ -1278,6 +1313,7 @@ class DecTva3514 {
      * Set the 4 mtt diminution.
      *
      * @param float $_4MttDiminution The 4 mtt diminution.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function set4MttDiminution($_4MttDiminution) {
         $this->_4MttDiminution = $_4MttDiminution;
@@ -1288,6 +1324,7 @@ class DecTva3514 {
      * Set the acompte du.
      *
      * @param DateTime|null $acompteDu The acompte du.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setAcompteDu(DateTime $acompteDu = null) {
         $this->acompteDu = $acompteDu;
@@ -1298,6 +1335,7 @@ class DecTva3514 {
      * Set the date dec.
      *
      * @param DateTime|null $dateDec The date dec.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setDateDec(DateTime $dateDec = null) {
         $this->dateDec = $dateDec;
@@ -1308,6 +1346,7 @@ class DecTva3514 {
      * Set the date limite dec.
      *
      * @param DateTime|null $dateLimiteDec The date limite dec.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setDateLimiteDec(DateTime $dateLimiteDec = null) {
         $this->dateLimiteDec = $dateLimiteDec;
@@ -1318,6 +1357,7 @@ class DecTva3514 {
      * Set the det code ta.
      *
      * @param string $detCodeTa The det code ta.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setDetCodeTa($detCodeTa) {
         $this->detCodeTa = $detCodeTa;
@@ -1328,6 +1368,7 @@ class DecTva3514 {
      * Set the det ta1.
      *
      * @param string $detTa1 The det ta1.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setDetTa1($detTa1) {
         $this->detTa1 = $detTa1;
@@ -1338,6 +1379,7 @@ class DecTva3514 {
      * Set the det ta2.
      *
      * @param string $detTa2 The det ta2.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setDetTa2($detTa2) {
         $this->detTa2 = $detTa2;
@@ -1348,6 +1390,7 @@ class DecTva3514 {
      * Set the det ta3.
      *
      * @param string $detTa3 The det ta3.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setDetTa3($detTa3) {
         $this->detTa3 = $detTa3;
@@ -1358,6 +1401,7 @@ class DecTva3514 {
      * Set the det ta4.
      *
      * @param string $detTa4 The det ta4.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setDetTa4($detTa4) {
         $this->detTa4 = $detTa4;
@@ -1368,6 +1412,7 @@ class DecTva3514 {
      * Set the exigible le.
      *
      * @param DateTime|null $exigibleLe The exigible le.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setExigibleLe(DateTime $exigibleLe = null) {
         $this->exigibleLe = $exigibleLe;
@@ -1378,6 +1423,7 @@ class DecTva3514 {
      * Set the mtt a payer.
      *
      * @param float $mttAPayer The mtt a payer.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setMttAPayer($mttAPayer) {
         $this->mttAPayer = $mttAPayer;
@@ -1388,6 +1434,7 @@ class DecTva3514 {
      * Set the mtt det ta1.
      *
      * @param float $mttDetTa1 The mtt det ta1.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setMttDetTa1($mttDetTa1) {
         $this->mttDetTa1 = $mttDetTa1;
@@ -1398,6 +1445,7 @@ class DecTva3514 {
      * Set the mtt det ta2.
      *
      * @param float $mttDetTa2 The mtt det ta2.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setMttDetTa2($mttDetTa2) {
         $this->mttDetTa2 = $mttDetTa2;
@@ -1408,6 +1456,7 @@ class DecTva3514 {
      * Set the mtt det ta3.
      *
      * @param float $mttDetTa3 The mtt det ta3.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setMttDetTa3($mttDetTa3) {
         $this->mttDetTa3 = $mttDetTa3;
@@ -1418,6 +1467,7 @@ class DecTva3514 {
      * Set the mtt det ta4.
      *
      * @param float $mttDetTa4 The mtt det ta4.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setMttDetTa4($mttDetTa4) {
         $this->mttDetTa4 = $mttDetTa4;
@@ -1428,6 +1478,7 @@ class DecTva3514 {
      * Set the mtt dont taxes assim.
      *
      * @param float $mttDontTaxesAssim The mtt dont taxes assim.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setMttDontTaxesAssim($mttDontTaxesAssim) {
         $this->mttDontTaxesAssim = $mttDontTaxesAssim;
@@ -1438,6 +1489,7 @@ class DecTva3514 {
      * Set the mtt dont tva.
      *
      * @param float $mttDontTva The mtt dont tva.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setMttDontTva($mttDontTva) {
         $this->mttDontTva = $mttDontTva;
@@ -1448,6 +1500,7 @@ class DecTva3514 {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -1458,6 +1511,7 @@ class DecTva3514 {
      * Set the z0151.
      *
      * @param float $z0151 The z0151.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setz0151($z0151) {
         $this->z0151 = $z0151;
@@ -1468,6 +1522,7 @@ class DecTva3514 {
      * Set the z0207.
      *
      * @param float $z0207 The z0207.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setz0207($z0207) {
         $this->z0207 = $z0207;
@@ -1478,6 +1533,7 @@ class DecTva3514 {
      * Set the z ha.
      *
      * @param float $zHa The z ha.
+     * @return DecTva3514 Returns this Dec tva3514.
      */
     public function setzHa($zHa) {
         $this->zHa = $zHa;

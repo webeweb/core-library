@@ -240,6 +240,7 @@ class Documents {
      * Set the annee.
      *
      * @param string $annee The annee.
+     * @return Documents Returns this Documents.
      */
     public function setAnnee($annee) {
         $this->annee = $annee;
@@ -250,6 +251,7 @@ class Documents {
      * Set the auteur.
      *
      * @param string $auteur The auteur.
+     * @return Documents Returns this Documents.
      */
     public function setAuteur($auteur) {
         $this->auteur = $auteur;
@@ -260,6 +262,7 @@ class Documents {
      * Set the chapitre.
      *
      * @param string $chapitre The chapitre.
+     * @return Documents Returns this Documents.
      */
     public function setChapitre($chapitre) {
         $this->chapitre = $chapitre;
@@ -270,6 +273,7 @@ class Documents {
      * Set the chrono.
      *
      * @param string $chrono The chrono.
+     * @return Documents Returns this Documents.
      */
     public function setChrono($chrono) {
         $this->chrono = $chrono;
@@ -280,6 +284,7 @@ class Documents {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return Documents Returns this Documents.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -290,6 +295,7 @@ class Documents {
      * Set the date heure sys.
      *
      * @param DateTime|null $dateHeureSys The date heure sys.
+     * @return Documents Returns this Documents.
      */
     public function setDateHeureSys(DateTime $dateHeureSys = null) {
         $this->dateHeureSys = $dateHeureSys;
@@ -300,6 +306,7 @@ class Documents {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return Documents Returns this Documents.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -310,6 +317,7 @@ class Documents {
      * Set the indice bulletin.
      *
      * @param int $indiceBulletin The indice bulletin.
+     * @return Documents Returns this Documents.
      */
     public function setIndiceBulletin($indiceBulletin) {
         $this->indiceBulletin = $indiceBulletin;
@@ -320,6 +328,7 @@ class Documents {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Documents Returns this Documents.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -330,6 +339,7 @@ class Documents {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return Documents Returns this Documents.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -340,6 +350,7 @@ class Documents {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return Documents Returns this Documents.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -350,6 +361,7 @@ class Documents {
      * Set the periode archivage.
      *
      * @param DateTime|null $periodeArchivage The periode archivage.
+     * @return Documents Returns this Documents.
      */
     public function setPeriodeArchivage(DateTime $periodeArchivage = null) {
         $this->periodeArchivage = $periodeArchivage;
@@ -360,6 +372,7 @@ class Documents {
      * Set the publier web.
      *
      * @param bool $publierWeb The publier web.
+     * @return Documents Returns this Documents.
      */
     public function setPublierWeb($publierWeb) {
         $this->publierWeb = $publierWeb;

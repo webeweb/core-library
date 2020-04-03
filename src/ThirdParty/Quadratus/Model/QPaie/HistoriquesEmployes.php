@@ -160,6 +160,7 @@ class HistoriquesEmployes {
      * Set the chapitre.
      *
      * @param string $chapitre The chapitre.
+     * @return HistoriquesEmployes Returns this Historiques employes.
      */
     public function setChapitre($chapitre) {
         $this->chapitre = $chapitre;
@@ -170,6 +171,7 @@ class HistoriquesEmployes {
      * Set the coll creat.
      *
      * @param string $collCreat The coll creat.
+     * @return HistoriquesEmployes Returns this Historiques employes.
      */
     public function setCollCreat($collCreat) {
         $this->collCreat = $collCreat;
@@ -180,6 +182,7 @@ class HistoriquesEmployes {
      * Set the coll modif.
      *
      * @param string $collModif The coll modif.
+     * @return HistoriquesEmployes Returns this Historiques employes.
      */
     public function setCollModif($collModif) {
         $this->collModif = $collModif;
@@ -190,6 +193,7 @@ class HistoriquesEmployes {
      * Set the date creat.
      *
      * @param DateTime|null $dateCreat The date creat.
+     * @return HistoriquesEmployes Returns this Historiques employes.
      */
     public function setDateCreat(DateTime $dateCreat = null) {
         $this->dateCreat = $dateCreat;
@@ -200,6 +204,7 @@ class HistoriquesEmployes {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return HistoriquesEmployes Returns this Historiques employes.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -210,6 +215,7 @@ class HistoriquesEmployes {
      * Set the description.
      *
      * @param string $description The description.
+     * @return HistoriquesEmployes Returns this Historiques employes.
      */
     public function setDescription($description) {
         $this->description = $description;
@@ -220,6 +226,7 @@ class HistoriquesEmployes {
      * Set the g uniq id.
      *
      * @param string $gUniqId The g uniq id.
+     * @return HistoriquesEmployes Returns this Historiques employes.
      */
     public function setGUniqId($gUniqId) {
         $this->gUniqId = $gUniqId;
@@ -230,6 +237,7 @@ class HistoriquesEmployes {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return HistoriquesEmployes Returns this Historiques employes.
      */
     public function setIndice($indice) {
         $this->indice = $indice;

@@ -174,6 +174,7 @@ class FactFournLignes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -184,6 +185,7 @@ class FactFournLignes {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -194,6 +196,7 @@ class FactFournLignes {
      * Set the collaborateur.
      *
      * @param string $collaborateur The collaborateur.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setCollaborateur($collaborateur) {
         $this->collaborateur = $collaborateur;
@@ -204,6 +207,7 @@ class FactFournLignes {
      * Set the compte.
      *
      * @param string $compte The compte.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setCompte($compte) {
         $this->compte = $compte;
@@ -214,6 +218,7 @@ class FactFournLignes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -224,6 +229,7 @@ class FactFournLignes {
      * Set the montant credit.
      *
      * @param float $montantCredit The montant credit.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setMontantCredit($montantCredit) {
         $this->montantCredit = $montantCredit;
@@ -234,6 +240,7 @@ class FactFournLignes {
      * Set the montant debit.
      *
      * @param float $montantDebit The montant debit.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setMontantDebit($montantDebit) {
         $this->montantDebit = $montantDebit;
@@ -244,6 +251,7 @@ class FactFournLignes {
      * Set the num entete.
      *
      * @param string $numEntete The num entete.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setNumEntete($numEntete) {
         $this->numEntete = $numEntete;
@@ -254,6 +262,7 @@ class FactFournLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return FactFournLignes Returns this Fact fourn lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;

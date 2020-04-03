@@ -286,6 +286,7 @@ class TauxRetraiteMetier {
      * Set the active.
      *
      * @param bool $active The active.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setActive($active) {
         $this->active = $active;
@@ -296,6 +297,7 @@ class TauxRetraiteMetier {
      * Set the categ salarie.
      *
      * @param int $categSalarie The categ salarie.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setCategSalarie($categSalarie) {
         $this->categSalarie = $categSalarie;
@@ -306,6 +308,7 @@ class TauxRetraiteMetier {
      * Set the code activite.
      *
      * @param string $codeActivite The code activite.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setCodeActivite($codeActivite) {
         $this->codeActivite = $codeActivite;
@@ -316,6 +319,7 @@ class TauxRetraiteMetier {
      * Set the code ducs.
      *
      * @param string $codeDucs The code ducs.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setCodeDucs($codeDucs) {
         $this->codeDucs = $codeDucs;
@@ -326,6 +330,7 @@ class TauxRetraiteMetier {
      * Set the code edition histo.
      *
      * @param string $codeEditionHisto The code edition histo.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setCodeEditionHisto($codeEditionHisto) {
         $this->codeEditionHisto = $codeEditionHisto;
@@ -336,6 +341,7 @@ class TauxRetraiteMetier {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -346,6 +352,7 @@ class TauxRetraiteMetier {
      * Set the code metier.
      *
      * @param string $codeMetier The code metier.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setCodeMetier($codeMetier) {
         $this->codeMetier = $codeMetier;
@@ -356,6 +363,7 @@ class TauxRetraiteMetier {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -366,6 +374,7 @@ class TauxRetraiteMetier {
      * Set the compte charge.
      *
      * @param string $compteCharge The compte charge.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setCompteCharge($compteCharge) {
         $this->compteCharge = $compteCharge;
@@ -376,6 +385,7 @@ class TauxRetraiteMetier {
      * Set the condition spec.
      *
      * @param string $conditionSpec The condition spec.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setConditionSpec($conditionSpec) {
         $this->conditionSpec = $conditionSpec;
@@ -386,6 +396,7 @@ class TauxRetraiteMetier {
      * Set the exclure loi tepa.
      *
      * @param string $exclureLoiTepa The exclure loi tepa.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setExclureLoiTepa($exclureLoiTepa) {
         $this->exclureLoiTepa = $exclureLoiTepa;
@@ -396,6 +407,7 @@ class TauxRetraiteMetier {
      * Set the indice categ.
      *
      * @param int $indiceCateg The indice categ.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setIndiceCateg($indiceCateg) {
         $this->indiceCateg = $indiceCateg;
@@ -406,6 +418,7 @@ class TauxRetraiteMetier {
      * Set the libelle bul.
      *
      * @param string $libelleBul The libelle bul.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setLibelleBul($libelleBul) {
         $this->libelleBul = $libelleBul;
@@ -416,6 +429,7 @@ class TauxRetraiteMetier {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -426,6 +440,7 @@ class TauxRetraiteMetier {
      * Set the qualifiant cotis.
      *
      * @param string $qualifiantCotis The qualifiant cotis.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setQualifiantCotis($qualifiantCotis) {
         $this->qualifiantCotis = $qualifiantCotis;
@@ -436,6 +451,7 @@ class TauxRetraiteMetier {
      * Set the type libelle.
      *
      * @param int $typeLibelle The type libelle.
+     * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
     public function setTypeLibelle($typeLibelle) {
         $this->typeLibelle = $typeLibelle;

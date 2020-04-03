@@ -176,6 +176,7 @@ class PointagesEmployes {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -186,6 +187,7 @@ class PointagesEmployes {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -196,6 +198,7 @@ class PointagesEmployes {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -206,6 +209,7 @@ class PointagesEmployes {
      * Set the compteur heures.
      *
      * @param float $compteurHeures The compteur heures.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setCompteurHeures($compteurHeures) {
         $this->compteurHeures = $compteurHeures;
@@ -216,6 +220,7 @@ class PointagesEmployes {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -226,6 +231,7 @@ class PointagesEmployes {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -236,6 +242,7 @@ class PointagesEmployes {
      * Set the hp theo non affectees.
      *
      * @param float $hpTheoNonAffectees The hp theo non affectees.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setHpTheoNonAffectees($hpTheoNonAffectees) {
         $this->hpTheoNonAffectees = $hpTheoNonAffectees;
@@ -246,6 +253,7 @@ class PointagesEmployes {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -256,6 +264,7 @@ class PointagesEmployes {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return PointagesEmployes Returns this Pointages employes.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

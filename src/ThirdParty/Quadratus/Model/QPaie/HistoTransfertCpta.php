@@ -128,6 +128,7 @@ class HistoTransfertCpta {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return HistoTransfertCpta Returns this Histo transfert cpta.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -138,6 +139,7 @@ class HistoTransfertCpta {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return HistoTransfertCpta Returns this Histo transfert cpta.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -148,6 +150,7 @@ class HistoTransfertCpta {
      * Set the date ecriture.
      *
      * @param DateTime|null $dateEcriture The date ecriture.
+     * @return HistoTransfertCpta Returns this Histo transfert cpta.
      */
     public function setDateEcriture(DateTime $dateEcriture = null) {
         $this->dateEcriture = $dateEcriture;
@@ -158,6 +161,7 @@ class HistoTransfertCpta {
      * Set the num lot.
      *
      * @param int $numLot The num lot.
+     * @return HistoTransfertCpta Returns this Histo transfert cpta.
      */
     public function setNumLot($numLot) {
         $this->numLot = $numLot;
@@ -168,6 +172,7 @@ class HistoTransfertCpta {
      * Set the periode transfert.
      *
      * @param DateTime|null $periodeTransfert The periode transfert.
+     * @return HistoTransfertCpta Returns this Histo transfert cpta.
      */
     public function setPeriodeTransfert(DateTime $periodeTransfert = null) {
         $this->periodeTransfert = $periodeTransfert;
@@ -178,6 +183,7 @@ class HistoTransfertCpta {
      * Set the type transfert.
      *
      * @param string $typeTransfert The type transfert.
+     * @return HistoTransfertCpta Returns this Histo transfert cpta.
      */
     public function setTypeTransfert($typeTransfert) {
         $this->typeTransfert = $typeTransfert;

@@ -126,6 +126,7 @@ class SubventionsLignes {
      * Set the annee.
      *
      * @param string $annee The annee.
+     * @return SubventionsLignes Returns this Subventions lignes.
      */
     public function setAnnee($annee) {
         $this->annee = $annee;
@@ -136,6 +137,7 @@ class SubventionsLignes {
      * Set the montant restant.
      *
      * @param float $montantRestant The montant restant.
+     * @return SubventionsLignes Returns this Subventions lignes.
      */
     public function setMontantRestant($montantRestant) {
         $this->montantRestant = $montantRestant;
@@ -146,6 +148,7 @@ class SubventionsLignes {
      * Set the montant vir.
      *
      * @param float $montantVir The montant vir.
+     * @return SubventionsLignes Returns this Subventions lignes.
      */
     public function setMontantVir($montantVir) {
         $this->montantVir = $montantVir;
@@ -156,6 +159,7 @@ class SubventionsLignes {
      * Set the num contrat.
      *
      * @param string $numContrat The num contrat.
+     * @return SubventionsLignes Returns this Subventions lignes.
      */
     public function setNumContrat($numContrat) {
         $this->numContrat = $numContrat;
@@ -166,6 +170,7 @@ class SubventionsLignes {
      * Set the num cpt subvention.
      *
      * @param string $numCptSubvention The num cpt subvention.
+     * @return SubventionsLignes Returns this Subventions lignes.
      */
     public function setNumCptSubvention($numCptSubvention) {
         $this->numCptSubvention = $numCptSubvention;
@@ -176,6 +181,7 @@ class SubventionsLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return SubventionsLignes Returns this Subventions lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;

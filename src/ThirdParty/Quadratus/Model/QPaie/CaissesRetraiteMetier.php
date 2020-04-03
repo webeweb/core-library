@@ -334,6 +334,7 @@ class CaissesRetraiteMetier {
      * Set the categ salarie.
      *
      * @param int $categSalarie The categ salarie.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCategSalarie($categSalarie) {
         $this->categSalarie = $categSalarie;
@@ -344,6 +345,7 @@ class CaissesRetraiteMetier {
      * Set the categ salarie equiv.
      *
      * @param string $categSalarieEquiv The categ salarie equiv.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCategSalarieEquiv($categSalarieEquiv) {
         $this->categSalarieEquiv = $categSalarieEquiv;
@@ -354,6 +356,7 @@ class CaissesRetraiteMetier {
      * Set the code activite.
      *
      * @param string $codeActivite The code activite.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCodeActivite($codeActivite) {
         $this->codeActivite = $codeActivite;
@@ -364,6 +367,7 @@ class CaissesRetraiteMetier {
      * Set the code metier.
      *
      * @param string $codeMetier The code metier.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCodeMetier($codeMetier) {
         $this->codeMetier = $codeMetier;
@@ -374,6 +378,7 @@ class CaissesRetraiteMetier {
      * Set the code organisme agirc.
      *
      * @param string $codeOrganismeAgirc The code organisme agirc.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCodeOrganismeAgirc($codeOrganismeAgirc) {
         $this->codeOrganismeAgirc = $codeOrganismeAgirc;
@@ -384,6 +389,7 @@ class CaissesRetraiteMetier {
      * Set the code organisme arrco.
      *
      * @param string $codeOrganismeArrco The code organisme arrco.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCodeOrganismeArrco($codeOrganismeArrco) {
         $this->codeOrganismeArrco = $codeOrganismeArrco;
@@ -394,6 +400,7 @@ class CaissesRetraiteMetier {
      * Set the code organisme ccca.
      *
      * @param string $codeOrganismeCcca The code organisme ccca.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCodeOrganismeCcca($codeOrganismeCcca) {
         $this->codeOrganismeCcca = $codeOrganismeCcca;
@@ -404,6 +411,7 @@ class CaissesRetraiteMetier {
      * Set the code organisme frais sante.
      *
      * @param string $codeOrganismeFraisSante The code organisme frais sante.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCodeOrganismeFraisSante($codeOrganismeFraisSante) {
         $this->codeOrganismeFraisSante = $codeOrganismeFraisSante;
@@ -414,6 +422,7 @@ class CaissesRetraiteMetier {
      * Set the code organisme prev.
      *
      * @param string $codeOrganismePrev The code organisme prev.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCodeOrganismePrev($codeOrganismePrev) {
         $this->codeOrganismePrev = $codeOrganismePrev;
@@ -424,6 +433,7 @@ class CaissesRetraiteMetier {
      * Set the code organisme prev comp.
      *
      * @param string $codeOrganismePrevComp The code organisme prev comp.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setCodeOrganismePrevComp($codeOrganismePrevComp) {
         $this->codeOrganismePrevComp = $codeOrganismePrevComp;
@@ -434,6 +444,7 @@ class CaissesRetraiteMetier {
      * Set the id institution agirc.
      *
      * @param string $idInstitutionAgirc The id institution agirc.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setIdInstitutionAgirc($idInstitutionAgirc) {
         $this->idInstitutionAgirc = $idInstitutionAgirc;
@@ -444,6 +455,7 @@ class CaissesRetraiteMetier {
      * Set the id institution arrco.
      *
      * @param string $idInstitutionArrco The id institution arrco.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setIdInstitutionArrco($idInstitutionArrco) {
         $this->idInstitutionArrco = $idInstitutionArrco;
@@ -454,6 +466,7 @@ class CaissesRetraiteMetier {
      * Set the id institution ccca.
      *
      * @param string $idInstitutionCcca The id institution ccca.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setIdInstitutionCcca($idInstitutionCcca) {
         $this->idInstitutionCcca = $idInstitutionCcca;
@@ -464,6 +477,7 @@ class CaissesRetraiteMetier {
      * Set the id institution frais sante.
      *
      * @param string $idInstitutionFraisSante The id institution frais sante.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setIdInstitutionFraisSante($idInstitutionFraisSante) {
         $this->idInstitutionFraisSante = $idInstitutionFraisSante;
@@ -474,6 +488,7 @@ class CaissesRetraiteMetier {
      * Set the id institution prev.
      *
      * @param string $idInstitutionPrev The id institution prev.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setIdInstitutionPrev($idInstitutionPrev) {
         $this->idInstitutionPrev = $idInstitutionPrev;
@@ -484,6 +499,7 @@ class CaissesRetraiteMetier {
      * Set the id institution prev comp.
      *
      * @param string $idInstitutionPrevComp The id institution prev comp.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setIdInstitutionPrevComp($idInstitutionPrevComp) {
         $this->idInstitutionPrevComp = $idInstitutionPrevComp;
@@ -494,6 +510,7 @@ class CaissesRetraiteMetier {
      * Set the indice categ.
      *
      * @param int $indiceCateg The indice categ.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setIndiceCateg($indiceCateg) {
         $this->indiceCateg = $indiceCateg;
@@ -504,6 +521,7 @@ class CaissesRetraiteMetier {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -514,6 +532,7 @@ class CaissesRetraiteMetier {
      * Set the pas active.
      *
      * @param bool $pasActive The pas active.
+     * @return CaissesRetraiteMetier Returns this Caisses retraite metier.
      */
     public function setPasActive($pasActive) {
         $this->pasActive = $pasActive;

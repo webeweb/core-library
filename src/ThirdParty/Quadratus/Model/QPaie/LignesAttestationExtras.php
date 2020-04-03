@@ -192,6 +192,7 @@ class LignesAttestationExtras {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -202,6 +203,7 @@ class LignesAttestationExtras {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -212,6 +214,7 @@ class LignesAttestationExtras {
      * Set the montant iccp.
      *
      * @param float $montantIccp The montant iccp.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setMontantIccp($montantIccp) {
         $this->montantIccp = $montantIccp;
@@ -222,6 +225,7 @@ class LignesAttestationExtras {
      * Set the montant ipe.
      *
      * @param float $montantIpe The montant ipe.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setMontantIpe($montantIpe) {
         $this->montantIpe = $montantIpe;
@@ -232,6 +236,7 @@ class LignesAttestationExtras {
      * Set the montant precompte.
      *
      * @param float $montantPrecompte The montant precompte.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setMontantPrecompte($montantPrecompte) {
         $this->montantPrecompte = $montantPrecompte;
@@ -242,6 +247,7 @@ class LignesAttestationExtras {
      * Set the nb heure trav.
      *
      * @param float $nbHeureTrav The nb heure trav.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setNbHeureTrav($nbHeureTrav) {
         $this->nbHeureTrav = $nbHeureTrav;
@@ -252,6 +258,7 @@ class LignesAttestationExtras {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -262,6 +269,7 @@ class LignesAttestationExtras {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -272,6 +280,7 @@ class LignesAttestationExtras {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -282,6 +291,7 @@ class LignesAttestationExtras {
      * Set the salaire brut.
      *
      * @param float $salaireBrut The salaire brut.
+     * @return LignesAttestationExtras Returns this Lignes attestation extras.
      */
     public function setSalaireBrut($salaireBrut) {
         $this->salaireBrut = $salaireBrut;

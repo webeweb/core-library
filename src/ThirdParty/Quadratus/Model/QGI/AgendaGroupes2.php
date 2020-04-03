@@ -62,6 +62,7 @@ class AgendaGroupes2 {
      * Set the code.
      *
      * @param string $code The code.
+     * @return AgendaGroupes2 Returns this Agenda groupes2.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class AgendaGroupes2 {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return AgendaGroupes2 Returns this Agenda groupes2.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

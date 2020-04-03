@@ -62,6 +62,7 @@ class Fonctions {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Fonctions Returns this Fonctions.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class Fonctions {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Fonctions Returns this Fonctions.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

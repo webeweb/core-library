@@ -110,6 +110,7 @@ class ClientsSelAvanceFavoris {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -120,6 +121,7 @@ class ClientsSelAvanceFavoris {
      * Set the code liste.
      *
      * @param string $codeListe The code liste.
+     * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
     public function setCodeListe($codeListe) {
         $this->codeListe = $codeListe;
@@ -130,6 +132,7 @@ class ClientsSelAvanceFavoris {
      * Set the description.
      *
      * @param string $description The description.
+     * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
     public function setDescription($description) {
         $this->description = $description;
@@ -140,6 +143,7 @@ class ClientsSelAvanceFavoris {
      * Set the ordre.
      *
      * @param int $ordre The ordre.
+     * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
     public function setOrdre($ordre) {
         $this->ordre = $ordre;
@@ -150,6 +154,7 @@ class ClientsSelAvanceFavoris {
      * Set the origine.
      *
      * @param string $origine The origine.
+     * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
     public function setOrigine($origine) {
         $this->origine = $origine;

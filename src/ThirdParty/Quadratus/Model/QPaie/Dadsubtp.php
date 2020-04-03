@@ -208,6 +208,7 @@ class Dadsubtp {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -218,6 +219,7 @@ class Dadsubtp {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -228,6 +230,7 @@ class Dadsubtp {
      * Set the code temps arret.
      *
      * @param string $codeTempsArret The code temps arret.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setCodeTempsArret($codeTempsArret) {
         $this->codeTempsArret = $codeTempsArret;
@@ -238,6 +241,7 @@ class Dadsubtp {
      * Set the debut periode.
      *
      * @param DateTime|null $debutPeriode The debut periode.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setDebutPeriode(DateTime $debutPeriode = null) {
         $this->debutPeriode = $debutPeriode;
@@ -248,6 +252,7 @@ class Dadsubtp {
      * Set the fin periode.
      *
      * @param DateTime|null $finPeriode The fin periode.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setFinPeriode(DateTime $finPeriode = null) {
         $this->finPeriode = $finPeriode;
@@ -258,6 +263,7 @@ class Dadsubtp {
      * Set the montant employeur.
      *
      * @param float $montantEmployeur The montant employeur.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setMontantEmployeur($montantEmployeur) {
         $this->montantEmployeur = $montantEmployeur;
@@ -268,6 +274,7 @@ class Dadsubtp {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -278,6 +285,7 @@ class Dadsubtp {
      * Set the numero ordre.
      *
      * @param int $numeroOrdre The numero ordre.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setNumeroOrdre($numeroOrdre) {
         $this->numeroOrdre = $numeroOrdre;
@@ -288,6 +296,7 @@ class Dadsubtp {
      * Set the qualif unite temps.
      *
      * @param string $qualifUniteTemps The qualif unite temps.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setQualifUniteTemps($qualifUniteTemps) {
         $this->qualifUniteTemps = $qualifUniteTemps;
@@ -298,6 +307,7 @@ class Dadsubtp {
      * Set the temps arret.
      *
      * @param float $tempsArret The temps arret.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setTempsArret($tempsArret) {
         $this->tempsArret = $tempsArret;
@@ -308,6 +318,7 @@ class Dadsubtp {
      * Set the type arret.
      *
      * @param string $typeArret The type arret.
+     * @return Dadsubtp Returns this Dadsubtp.
      */
     public function setTypeArret($typeArret) {
         $this->typeArret = $typeArret;

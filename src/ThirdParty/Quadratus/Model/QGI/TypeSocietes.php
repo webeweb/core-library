@@ -62,6 +62,7 @@ class TypeSocietes {
      * Set the code.
      *
      * @param string $code The code.
+     * @return TypeSocietes Returns this Type societes.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class TypeSocietes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TypeSocietes Returns this Type societes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

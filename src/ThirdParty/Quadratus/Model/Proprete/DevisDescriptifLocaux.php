@@ -174,6 +174,7 @@ class DevisDescriptifLocaux {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -184,6 +185,7 @@ class DevisDescriptifLocaux {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -194,6 +196,7 @@ class DevisDescriptifLocaux {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -204,6 +207,7 @@ class DevisDescriptifLocaux {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -214,6 +218,7 @@ class DevisDescriptifLocaux {
      * Set the niveau noeud.
      *
      * @param int $niveauNoeud The niveau noeud.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setNiveauNoeud($niveauNoeud) {
         $this->niveauNoeud = $niveauNoeud;
@@ -224,6 +229,7 @@ class DevisDescriptifLocaux {
      * Set the noeud local.
      *
      * @param bool $noeudLocal The noeud local.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setNoeudLocal($noeudLocal) {
         $this->noeudLocal = $noeudLocal;
@@ -234,6 +240,7 @@ class DevisDescriptifLocaux {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -244,6 +251,7 @@ class DevisDescriptifLocaux {
      * Set the numero noeud.
      *
      * @param int $numeroNoeud The numero noeud.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setNumeroNoeud($numeroNoeud) {
         $this->numeroNoeud = $numeroNoeud;
@@ -254,6 +262,7 @@ class DevisDescriptifLocaux {
      * Set the uniq id noeud.
      *
      * @param string $uniqIdNoeud The uniq id noeud.
+     * @return DevisDescriptifLocaux Returns this Devis descriptif locaux.
      */
     public function setUniqIdNoeud($uniqIdNoeud) {
         $this->uniqIdNoeud = $uniqIdNoeud;

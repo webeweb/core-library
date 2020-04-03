@@ -142,6 +142,7 @@ class DadsuAssuranceLignesContrat {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -152,6 +153,7 @@ class DadsuAssuranceLignesContrat {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -162,6 +164,7 @@ class DadsuAssuranceLignesContrat {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -172,6 +175,7 @@ class DadsuAssuranceLignesContrat {
      * Set the code porteur risque.
      *
      * @param string $codePorteurRisque The code porteur risque.
+     * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
     public function setCodePorteurRisque($codePorteurRisque) {
         $this->codePorteurRisque = $codePorteurRisque;
@@ -182,6 +186,7 @@ class DadsuAssuranceLignesContrat {
      * Set the designation commerciale.
      *
      * @param string $designationCommerciale The designation commerciale.
+     * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
     public function setDesignationCommerciale($designationCommerciale) {
         $this->designationCommerciale = $designationCommerciale;
@@ -192,6 +197,7 @@ class DadsuAssuranceLignesContrat {
      * Set the ref contrat.
      *
      * @param string $refContrat The ref contrat.
+     * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
     public function setRefContrat($refContrat) {
         $this->refContrat = $refContrat;
@@ -202,6 +208,7 @@ class DadsuAssuranceLignesContrat {
      * Set the unite gestion.
      *
      * @param string $uniteGestion The unite gestion.
+     * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
     public function setUniteGestion($uniteGestion) {
         $this->uniteGestion = $uniteGestion;

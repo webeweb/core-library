@@ -544,6 +544,7 @@ class GroupesFournisseur {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -554,6 +555,7 @@ class GroupesFournisseur {
      * Set the code imputation analytique.
      *
      * @param string $codeImputationAnalytique The code imputation analytique.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setCodeImputationAnalytique($codeImputationAnalytique) {
         $this->codeImputationAnalytique = $codeImputationAnalytique;
@@ -564,6 +566,7 @@ class GroupesFournisseur {
      * Set the code reglement.
      *
      * @param string $codeReglement The code reglement.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setCodeReglement($codeReglement) {
         $this->codeReglement = $codeReglement;
@@ -574,6 +577,7 @@ class GroupesFournisseur {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -584,6 +588,7 @@ class GroupesFournisseur {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -594,6 +599,7 @@ class GroupesFournisseur {
      * Set the collectif.
      *
      * @param string $collectif The collectif.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setCollectif($collectif) {
         $this->collectif = $collectif;
@@ -604,6 +610,7 @@ class GroupesFournisseur {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -614,6 +621,7 @@ class GroupesFournisseur {
      * Set the date sortie.
      *
      * @param DateTime|null $dateSortie The date sortie.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setDateSortie(DateTime $dateSortie = null) {
         $this->dateSortie = $dateSortie;
@@ -624,6 +632,7 @@ class GroupesFournisseur {
      * Set the delai le.
      *
      * @param int $delaiLe The delai le.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setDelaiLe($delaiLe) {
         $this->delaiLe = $delaiLe;
@@ -634,6 +643,7 @@ class GroupesFournisseur {
      * Set the delai nombre.
      *
      * @param int $delaiNombre The delai nombre.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setDelaiNombre($delaiNombre) {
         $this->delaiNombre = $delaiNombre;
@@ -644,6 +654,7 @@ class GroupesFournisseur {
      * Set the delai type.
      *
      * @param int $delaiType The delai type.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setDelaiType($delaiType) {
         $this->delaiType = $delaiType;
@@ -654,6 +665,7 @@ class GroupesFournisseur {
      * Set the domiciliation bancaire1.
      *
      * @param string $domiciliationBancaire1 The domiciliation bancaire1.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setDomiciliationBancaire1($domiciliationBancaire1) {
         $this->domiciliationBancaire1 = $domiciliationBancaire1;
@@ -664,6 +676,7 @@ class GroupesFournisseur {
      * Set the domiciliation bancaire2.
      *
      * @param string $domiciliationBancaire2 The domiciliation bancaire2.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setDomiciliationBancaire2($domiciliationBancaire2) {
         $this->domiciliationBancaire2 = $domiciliationBancaire2;
@@ -674,6 +687,7 @@ class GroupesFournisseur {
      * Set the facture euros.
      *
      * @param bool $factureEuros The facture euros.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setFactureEuros($factureEuros) {
         $this->factureEuros = $factureEuros;
@@ -684,6 +698,7 @@ class GroupesFournisseur {
      * Set the fournisseur perdu.
      *
      * @param bool $fournisseurPerdu The fournisseur perdu.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setFournisseurPerdu($fournisseurPerdu) {
         $this->fournisseurPerdu = $fournisseurPerdu;
@@ -694,6 +709,7 @@ class GroupesFournisseur {
      * Set the groupe.
      *
      * @param string $groupe The groupe.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setGroupe($groupe) {
         $this->groupe = $groupe;
@@ -704,6 +720,7 @@ class GroupesFournisseur {
      * Set the nombre echeances.
      *
      * @param string $nombreEcheances The nombre echeances.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setNombreEcheances($nombreEcheances) {
         $this->nombreEcheances = $nombreEcheances;
@@ -714,6 +731,7 @@ class GroupesFournisseur {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -724,6 +742,7 @@ class GroupesFournisseur {
      * Set the paiement depart le.
      *
      * @param string $paiementDepartLe The paiement depart le.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setPaiementDepartLe($paiementDepartLe) {
         $this->paiementDepartLe = $paiementDepartLe;
@@ -734,6 +753,7 @@ class GroupesFournisseur {
      * Set the paiement le.
      *
      * @param string $paiementLe The paiement le.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setPaiementLe($paiementLe) {
         $this->paiementLe = $paiementLe;
@@ -744,6 +764,7 @@ class GroupesFournisseur {
      * Set the paiement nombre de jours.
      *
      * @param int $paiementNombreDeJours The paiement nombre de jours.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setPaiementNombreDeJours($paiementNombreDeJours) {
         $this->paiementNombreDeJours = $paiementNombreDeJours;
@@ -754,6 +775,7 @@ class GroupesFournisseur {
      * Set the reference piece.
      *
      * @param string $referencePiece The reference piece.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setReferencePiece($referencePiece) {
         $this->referencePiece = $referencePiece;
@@ -764,6 +786,7 @@ class GroupesFournisseur {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -774,6 +797,7 @@ class GroupesFournisseur {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -784,6 +808,7 @@ class GroupesFournisseur {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -794,6 +819,7 @@ class GroupesFournisseur {
      * Set the remise pied.
      *
      * @param float $remisePied The remise pied.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setRemisePied($remisePied) {
         $this->remisePied = $remisePied;
@@ -804,6 +830,7 @@ class GroupesFournisseur {
      * Set the remise pied2.
      *
      * @param float $remisePied2 The remise pied2.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setRemisePied2($remisePied2) {
         $this->remisePied2 = $remisePied2;
@@ -814,6 +841,7 @@ class GroupesFournisseur {
      * Set the remise pied3.
      *
      * @param float $remisePied3 The remise pied3.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setRemisePied3($remisePied3) {
         $this->remisePied3 = $remisePied3;
@@ -824,6 +852,7 @@ class GroupesFournisseur {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -834,6 +863,7 @@ class GroupesFournisseur {
      * Set the soumis escompte.
      *
      * @param bool $soumisEscompte The soumis escompte.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setSoumisEscompte($soumisEscompte) {
         $this->soumisEscompte = $soumisEscompte;
@@ -844,6 +874,7 @@ class GroupesFournisseur {
      * Set the taux escompte.
      *
      * @param float $tauxEscompte The taux escompte.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setTauxEscompte($tauxEscompte) {
         $this->tauxEscompte = $tauxEscompte;
@@ -854,6 +885,7 @@ class GroupesFournisseur {
      * Set the transporteur.
      *
      * @param string $transporteur The transporteur.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
      */
     public function setTransporteur($transporteur) {
         $this->transporteur = $transporteur;

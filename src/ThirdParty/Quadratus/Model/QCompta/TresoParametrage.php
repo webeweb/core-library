@@ -78,6 +78,7 @@ class TresoParametrage {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TresoParametrage Returns this Treso parametrage.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -88,6 +89,7 @@ class TresoParametrage {
      * Set the regle.
      *
      * @param string $regle The regle.
+     * @return TresoParametrage Returns this Treso parametrage.
      */
     public function setRegle($regle) {
         $this->regle = $regle;
@@ -98,6 +100,7 @@ class TresoParametrage {
      * Set the type.
      *
      * @param string $type The type.
+     * @return TresoParametrage Returns this Treso parametrage.
      */
     public function setType($type) {
         $this->type = $type;

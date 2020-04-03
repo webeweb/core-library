@@ -288,6 +288,7 @@ class AbsencesExcelHisto {
      * Set the date added.
      *
      * @param DateTime|null $dateAdded The date added.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setDateAdded(DateTime $dateAdded = null) {
         $this->dateAdded = $dateAdded;
@@ -298,6 +299,7 @@ class AbsencesExcelHisto {
      * Set the id.
      *
      * @param string $id The id.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setId($id) {
         $this->id = $id;
@@ -308,6 +310,7 @@ class AbsencesExcelHisto {
      * Set the nbh sais.
      *
      * @param float $nbhSais The nbh sais.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setNbhSais($nbhSais) {
         $this->nbhSais = $nbhSais;
@@ -318,6 +321,7 @@ class AbsencesExcelHisto {
      * Set the nbh sais corr.
      *
      * @param float $nbhSaisCorr The nbh sais corr.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setNbhSaisCorr($nbhSaisCorr) {
         $this->nbhSaisCorr = $nbhSaisCorr;
@@ -328,6 +332,7 @@ class AbsencesExcelHisto {
      * Set the nbj sais.
      *
      * @param float $nbjSais The nbj sais.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setNbjSais($nbjSais) {
         $this->nbjSais = $nbjSais;
@@ -338,6 +343,7 @@ class AbsencesExcelHisto {
      * Set the nbj sais corr.
      *
      * @param float $nbjSaisCorr The nbj sais corr.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setNbjSaisCorr($nbjSaisCorr) {
         $this->nbjSaisCorr = $nbjSaisCorr;
@@ -348,6 +354,7 @@ class AbsencesExcelHisto {
      * Set the num evenement.
      *
      * @param int $numEvenement The num evenement.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setNumEvenement($numEvenement) {
         $this->numEvenement = $numEvenement;
@@ -358,6 +365,7 @@ class AbsencesExcelHisto {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -368,6 +376,7 @@ class AbsencesExcelHisto {
      * Set the per paie.
      *
      * @param DateTime|null $perPaie The per paie.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setPerPaie(DateTime $perPaie = null) {
         $this->perPaie = $perPaie;
@@ -378,6 +387,7 @@ class AbsencesExcelHisto {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -388,6 +398,7 @@ class AbsencesExcelHisto {
      * Set the periode deb corr.
      *
      * @param DateTime|null $periodeDebCorr The periode deb corr.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setPeriodeDebCorr(DateTime $periodeDebCorr = null) {
         $this->periodeDebCorr = $periodeDebCorr;
@@ -398,6 +409,7 @@ class AbsencesExcelHisto {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;
@@ -408,6 +420,7 @@ class AbsencesExcelHisto {
      * Set the periode fin corr.
      *
      * @param DateTime|null $periodeFinCorr The periode fin corr.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setPeriodeFinCorr(DateTime $periodeFinCorr = null) {
         $this->periodeFinCorr = $periodeFinCorr;
@@ -418,6 +431,7 @@ class AbsencesExcelHisto {
      * Set the transfert abs.
      *
      * @param bool $transfertAbs The transfert abs.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setTransfertAbs($transfertAbs) {
         $this->transfertAbs = $transfertAbs;
@@ -428,6 +442,7 @@ class AbsencesExcelHisto {
      * Set the type abs cp.
      *
      * @param string $typeAbsCp The type abs cp.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setTypeAbsCp($typeAbsCp) {
         $this->typeAbsCp = $typeAbsCp;
@@ -438,6 +453,7 @@ class AbsencesExcelHisto {
      * Set the type abs cp corr.
      *
      * @param string $typeAbsCpCorr The type abs cp corr.
+     * @return AbsencesExcelHisto Returns this Absences excel histo.
      */
     public function setTypeAbsCpCorr($typeAbsCpCorr) {
         $this->typeAbsCpCorr = $typeAbsCpCorr;

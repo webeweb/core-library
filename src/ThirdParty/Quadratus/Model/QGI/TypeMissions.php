@@ -400,6 +400,7 @@ class TypeMissions {
      * Set the article.
      *
      * @param string $article The article.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setArticle($article) {
         $this->article = $article;
@@ -410,6 +411,7 @@ class TypeMissions {
      * Set the centre analytique.
      *
      * @param string $centreAnalytique The centre analytique.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setCentreAnalytique($centreAnalytique) {
         $this->centreAnalytique = $centreAnalytique;
@@ -420,6 +422,7 @@ class TypeMissions {
      * Set the code.
      *
      * @param string $code The code.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -430,6 +433,7 @@ class TypeMissions {
      * Set the code famille.
      *
      * @param string $codeFamille The code famille.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setCodeFamille($codeFamille) {
         $this->codeFamille = $codeFamille;
@@ -440,6 +444,7 @@ class TypeMissions {
      * Set the code responsable.
      *
      * @param string $codeResponsable The code responsable.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setCodeResponsable($codeResponsable) {
         $this->codeResponsable = $codeResponsable;
@@ -450,6 +455,7 @@ class TypeMissions {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -460,6 +466,7 @@ class TypeMissions {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -470,6 +477,7 @@ class TypeMissions {
      * Set the decalage fermeture auto.
      *
      * @param int $decalageFermetureAuto The decalage fermeture auto.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setDecalageFermetureAuto($decalageFermetureAuto) {
         $this->decalageFermetureAuto = $decalageFermetureAuto;
@@ -480,6 +488,7 @@ class TypeMissions {
      * Set the decalage fermeture auto jours.
      *
      * @param int $decalageFermetureAutoJours The decalage fermeture auto jours.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setDecalageFermetureAutoJours($decalageFermetureAutoJours) {
         $this->decalageFermetureAutoJours = $decalageFermetureAutoJours;
@@ -490,6 +499,7 @@ class TypeMissions {
      * Set the decalage ouverture auto.
      *
      * @param int $decalageOuvertureAuto The decalage ouverture auto.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setDecalageOuvertureAuto($decalageOuvertureAuto) {
         $this->decalageOuvertureAuto = $decalageOuvertureAuto;
@@ -500,6 +510,7 @@ class TypeMissions {
      * Set the descriptif.
      *
      * @param string $descriptif The descriptif.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setDescriptif($descriptif) {
         $this->descriptif = $descriptif;
@@ -510,6 +521,7 @@ class TypeMissions {
      * Set the descriptif rtf.
      *
      * @param string $descriptifRtf The descriptif rtf.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setDescriptifRtf($descriptifRtf) {
         $this->descriptifRtf = $descriptifRtf;
@@ -520,6 +532,7 @@ class TypeMissions {
      * Set the fermeture auto.
      *
      * @param bool $fermetureAuto The fermeture auto.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setFermetureAuto($fermetureAuto) {
         $this->fermetureAuto = $fermetureAuto;
@@ -530,6 +543,7 @@ class TypeMissions {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -540,6 +554,7 @@ class TypeMissions {
      * Set the mois ouverture auto.
      *
      * @param int $moisOuvertureAuto The mois ouverture auto.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setMoisOuvertureAuto($moisOuvertureAuto) {
         $this->moisOuvertureAuto = $moisOuvertureAuto;
@@ -550,6 +565,7 @@ class TypeMissions {
      * Set the ordre.
      *
      * @param int $ordre The ordre.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setOrdre($ordre) {
         $this->ordre = $ordre;
@@ -560,6 +576,7 @@ class TypeMissions {
      * Set the recurrente.
      *
      * @param bool $recurrente The recurrente.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setRecurrente($recurrente) {
         $this->recurrente = $recurrente;
@@ -570,6 +587,7 @@ class TypeMissions {
      * Set the taches groupe.
      *
      * @param string $tachesGroupe The taches groupe.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setTachesGroupe($tachesGroupe) {
         $this->tachesGroupe = $tachesGroupe;
@@ -580,6 +598,7 @@ class TypeMissions {
      * Set the transfert centre.
      *
      * @param bool $transfertCentre The transfert centre.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setTransfertCentre($transfertCentre) {
         $this->transfertCentre = $transfertCentre;
@@ -590,6 +609,7 @@ class TypeMissions {
      * Set the type centre.
      *
      * @param string $typeCentre The type centre.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setTypeCentre($typeCentre) {
         $this->typeCentre = $typeCentre;
@@ -600,6 +620,7 @@ class TypeMissions {
      * Set the type compteur.
      *
      * @param bool $typeCompteur The type compteur.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setTypeCompteur($typeCompteur) {
         $this->typeCompteur = $typeCompteur;
@@ -610,6 +631,7 @@ class TypeMissions {
      * Set the type responsable.
      *
      * @param string $typeResponsable The type responsable.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setTypeResponsable($typeResponsable) {
         $this->typeResponsable = $typeResponsable;
@@ -620,6 +642,7 @@ class TypeMissions {
      * Set the type visu taches.
      *
      * @param string $typeVisuTaches The type visu taches.
+     * @return TypeMissions Returns this Type missions.
      */
     public function setTypeVisuTaches($typeVisuTaches) {
         $this->typeVisuTaches = $typeVisuTaches;

@@ -160,6 +160,7 @@ class LocationsFiTp {
      * Set the assurance.
      *
      * @param float $assurance The assurance.
+     * @return LocationsFiTp Returns this Locations fi tp.
      */
     public function setAssurance($assurance) {
         $this->assurance = $assurance;
@@ -170,6 +171,7 @@ class LocationsFiTp {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return LocationsFiTp Returns this Locations fi tp.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -180,6 +182,7 @@ class LocationsFiTp {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return LocationsFiTp Returns this Locations fi tp.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -190,6 +193,7 @@ class LocationsFiTp {
      * Set the entretien.
      *
      * @param float $entretien The entretien.
+     * @return LocationsFiTp Returns this Locations fi tp.
      */
     public function setEntretien($entretien) {
         $this->entretien = $entretien;
@@ -200,6 +204,7 @@ class LocationsFiTp {
      * Set the loyer ht.
      *
      * @param float $loyerHt The loyer ht.
+     * @return LocationsFiTp Returns this Locations fi tp.
      */
     public function setLoyerHt($loyerHt) {
         $this->loyerHt = $loyerHt;
@@ -210,6 +215,7 @@ class LocationsFiTp {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return LocationsFiTp Returns this Locations fi tp.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -220,6 +226,7 @@ class LocationsFiTp {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return LocationsFiTp Returns this Locations fi tp.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -230,6 +237,7 @@ class LocationsFiTp {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return LocationsFiTp Returns this Locations fi tp.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;

@@ -272,6 +272,7 @@ class PointEmpNbHRemplContrat {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -282,6 +283,7 @@ class PointEmpNbHRemplContrat {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -292,6 +294,7 @@ class PointEmpNbHRemplContrat {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -302,6 +305,7 @@ class PointEmpNbHRemplContrat {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -312,6 +316,7 @@ class PointEmpNbHRemplContrat {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -322,6 +327,7 @@ class PointEmpNbHRemplContrat {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -332,6 +338,7 @@ class PointEmpNbHRemplContrat {
      * Set the code remplacant.
      *
      * @param string $codeRemplacant The code remplacant.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setCodeRemplacant($codeRemplacant) {
         $this->codeRemplacant = $codeRemplacant;
@@ -342,6 +349,7 @@ class PointEmpNbHRemplContrat {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -352,6 +360,7 @@ class PointEmpNbHRemplContrat {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -362,6 +371,7 @@ class PointEmpNbHRemplContrat {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -372,6 +382,7 @@ class PointEmpNbHRemplContrat {
      * Set the mensualisation.
      *
      * @param float $mensualisation The mensualisation.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setMensualisation($mensualisation) {
         $this->mensualisation = $mensualisation;
@@ -382,6 +393,7 @@ class PointEmpNbHRemplContrat {
      * Set the nb heures.
      *
      * @param float $nbHeures The nb heures.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setNbHeures($nbHeures) {
         $this->nbHeures = $nbHeures;
@@ -392,6 +404,7 @@ class PointEmpNbHRemplContrat {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -402,6 +415,7 @@ class PointEmpNbHRemplContrat {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -412,6 +426,7 @@ class PointEmpNbHRemplContrat {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return PointEmpNbHRemplContrat Returns this Point emp nb h rempl contrat.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

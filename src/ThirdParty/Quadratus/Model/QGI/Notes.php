@@ -192,6 +192,7 @@ class Notes {
      * Set the code categorie.
      *
      * @param string $codeCategorie The code categorie.
+     * @return Notes Returns this Notes.
      */
     public function setCodeCategorie($codeCategorie) {
         $this->codeCategorie = $codeCategorie;
@@ -202,6 +203,7 @@ class Notes {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return Notes Returns this Notes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -212,6 +214,7 @@ class Notes {
      * Set the code collaborateur modif.
      *
      * @param string $codeCollaborateurModif The code collaborateur modif.
+     * @return Notes Returns this Notes.
      */
     public function setCodeCollaborateurModif($codeCollaborateurModif) {
         $this->codeCollaborateurModif = $codeCollaborateurModif;
@@ -222,6 +225,7 @@ class Notes {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Notes Returns this Notes.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -232,6 +236,7 @@ class Notes {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return Notes Returns this Notes.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -242,6 +247,7 @@ class Notes {
      * Set the date rappel.
      *
      * @param DateTime|null $dateRappel The date rappel.
+     * @return Notes Returns this Notes.
      */
     public function setDateRappel(DateTime $dateRappel = null) {
         $this->dateRappel = $dateRappel;
@@ -252,6 +258,7 @@ class Notes {
      * Set the envoi post it.
      *
      * @param bool $envoiPostIt The envoi post it.
+     * @return Notes Returns this Notes.
      */
     public function setEnvoiPostIt($envoiPostIt) {
         $this->envoiPostIt = $envoiPostIt;
@@ -262,6 +269,7 @@ class Notes {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Notes Returns this Notes.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -272,6 +280,7 @@ class Notes {
      * Set the num uniq.
      *
      * @param string $numUniq The num uniq.
+     * @return Notes Returns this Notes.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -282,6 +291,7 @@ class Notes {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return Notes Returns this Notes.
      */
     public function setTitre($titre) {
         $this->titre = $titre;

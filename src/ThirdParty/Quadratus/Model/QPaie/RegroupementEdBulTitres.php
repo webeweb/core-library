@@ -94,6 +94,7 @@ class RegroupementEdBulTitres {
      * Set the afficher.
      *
      * @param bool $afficher The afficher.
+     * @return RegroupementEdBulTitres Returns this Regroupement ed bul titres.
      */
     public function setAfficher($afficher) {
         $this->afficher = $afficher;
@@ -104,6 +105,7 @@ class RegroupementEdBulTitres {
      * Set the code titre.
      *
      * @param string $codeTitre The code titre.
+     * @return RegroupementEdBulTitres Returns this Regroupement ed bul titres.
      */
     public function setCodeTitre($codeTitre) {
         $this->codeTitre = $codeTitre;
@@ -114,6 +116,7 @@ class RegroupementEdBulTitres {
      * Set the quadra.
      *
      * @param bool $quadra The quadra.
+     * @return RegroupementEdBulTitres Returns this Regroupement ed bul titres.
      */
     public function setQuadra($quadra) {
         $this->quadra = $quadra;
@@ -124,6 +127,7 @@ class RegroupementEdBulTitres {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return RegroupementEdBulTitres Returns this Regroupement ed bul titres.
      */
     public function setTitre($titre) {
         $this->titre = $titre;

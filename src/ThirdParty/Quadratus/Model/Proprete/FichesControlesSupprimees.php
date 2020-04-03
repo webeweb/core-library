@@ -144,6 +144,7 @@ class FichesControlesSupprimees {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -154,6 +155,7 @@ class FichesControlesSupprimees {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -164,6 +166,7 @@ class FichesControlesSupprimees {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -174,6 +177,7 @@ class FichesControlesSupprimees {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -184,6 +188,7 @@ class FichesControlesSupprimees {
      * Set the date transfert.
      *
      * @param DateTime|null $dateTransfert The date transfert.
+     * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
     public function setDateTransfert(DateTime $dateTransfert = null) {
         $this->dateTransfert = $dateTransfert;
@@ -194,6 +199,7 @@ class FichesControlesSupprimees {
      * Set the numero fiche.
      *
      * @param int $numeroFiche The numero fiche.
+     * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
     public function setNumeroFiche($numeroFiche) {
         $this->numeroFiche = $numeroFiche;
@@ -204,6 +210,7 @@ class FichesControlesSupprimees {
      * Set the uniq id blocage.
      *
      * @param string $uniqIdBlocage The uniq id blocage.
+     * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
     public function setUniqIdBlocage($uniqIdBlocage) {
         $this->uniqIdBlocage = $uniqIdBlocage;

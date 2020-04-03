@@ -1200,6 +1200,7 @@ class Ecritures {
      * Set the actif.
      *
      * @param bool $actif The actif.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setActif($actif) {
         $this->actif = $actif;
@@ -1210,6 +1211,7 @@ class Ecritures {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -1220,6 +1222,7 @@ class Ecritures {
      * Set the bons a payer.
      *
      * @param bool $bonsAPayer The bons a payer.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setBonsAPayer($bonsAPayer) {
         $this->bonsAPayer = $bonsAPayer;
@@ -1230,6 +1233,7 @@ class Ecritures {
      * Set the centre.
      *
      * @param string $centre The centre.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCentre($centre) {
         $this->centre = $centre;
@@ -1240,6 +1244,7 @@ class Ecritures {
      * Set the centre simple.
      *
      * @param string $centreSimple The centre simple.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCentreSimple($centreSimple) {
         $this->centreSimple = $centreSimple;
@@ -1250,6 +1255,7 @@ class Ecritures {
      * Set the client ou frn.
      *
      * @param string $clientOuFrn The client ou frn.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setClientOuFrn($clientOuFrn) {
         $this->clientOuFrn = $clientOuFrn;
@@ -1260,6 +1266,7 @@ class Ecritures {
      * Set the code banque.
      *
      * @param string $codeBanque The code banque.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCodeBanque($codeBanque) {
         $this->codeBanque = $codeBanque;
@@ -1270,6 +1277,7 @@ class Ecritures {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -1280,6 +1288,7 @@ class Ecritures {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -1290,6 +1299,7 @@ class Ecritures {
      * Set the code lettrage.
      *
      * @param string $codeLettrage The code lettrage.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCodeLettrage($codeLettrage) {
         $this->codeLettrage = $codeLettrage;
@@ -1300,6 +1310,7 @@ class Ecritures {
      * Set the code lettrage tiers.
      *
      * @param string $codeLettrageTiers The code lettrage tiers.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCodeLettrageTiers($codeLettrageTiers) {
         $this->codeLettrageTiers = $codeLettrageTiers;
@@ -1310,6 +1321,7 @@ class Ecritures {
      * Set the code libelle auto.
      *
      * @param string $codeLibelleAuto The code libelle auto.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCodeLibelleAuto($codeLibelleAuto) {
         $this->codeLibelleAuto = $codeLibelleAuto;
@@ -1320,6 +1332,7 @@ class Ecritures {
      * Set the code operateur.
      *
      * @param string $codeOperateur The code operateur.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCodeOperateur($codeOperateur) {
         $this->codeOperateur = $codeOperateur;
@@ -1330,6 +1343,7 @@ class Ecritures {
      * Set the code tva.
      *
      * @param int $codeTva The code tva.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -1340,6 +1354,7 @@ class Ecritures {
      * Set the compte contrepartie.
      *
      * @param string $compteContrepartie The compte contrepartie.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setCompteContrepartie($compteContrepartie) {
         $this->compteContrepartie = $compteContrepartie;
@@ -1350,6 +1365,7 @@ class Ecritures {
      * Set the date dec tva.
      *
      * @param DateTime|null $dateDecTva The date dec tva.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setDateDecTva(DateTime $dateDecTva = null) {
         $this->dateDecTva = $dateDecTva;
@@ -1360,6 +1376,7 @@ class Ecritures {
      * Set the date echeance.
      *
      * @param DateTime|null $dateEcheance The date echeance.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setDateEcheance(DateTime $dateEcheance = null) {
         $this->dateEcheance = $dateEcheance;
@@ -1370,6 +1387,7 @@ class Ecritures {
      * Set the date pointage aux.
      *
      * @param DateTime|null $datePointageAux The date pointage aux.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setDatePointageAux(DateTime $datePointageAux = null) {
         $this->datePointageAux = $datePointageAux;
@@ -1380,6 +1398,7 @@ class Ecritures {
      * Set the date rappro bancaire.
      *
      * @param DateTime|null $dateRapproBancaire The date rappro bancaire.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setDateRapproBancaire(DateTime $dateRapproBancaire = null) {
         $this->dateRapproBancaire = $dateRapproBancaire;
@@ -1390,6 +1409,7 @@ class Ecritures {
      * Set the date sys saisie.
      *
      * @param DateTime|null $dateSysSaisie The date sys saisie.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setDateSysSaisie(DateTime $dateSysSaisie = null) {
         $this->dateSysSaisie = $dateSysSaisie;
@@ -1400,6 +1420,7 @@ class Ecritures {
      * Set the date sys validation.
      *
      * @param DateTime|null $dateSysValidation The date sys validation.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setDateSysValidation(DateTime $dateSysValidation = null) {
         $this->dateSysValidation = $dateSysValidation;
@@ -1410,6 +1431,7 @@ class Ecritures {
      * Set the dom banque.
      *
      * @param string $domBanque The dom banque.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setDomBanque($domBanque) {
         $this->domBanque = $domBanque;
@@ -1420,6 +1442,7 @@ class Ecritures {
      * Set the echeance simple.
      *
      * @param DateTime|null $echeanceSimple The echeance simple.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setEcheanceSimple(DateTime $echeanceSimple = null) {
         $this->echeanceSimple = $echeanceSimple;
@@ -1430,6 +1453,7 @@ class Ecritures {
      * Set the ecriture num.
      *
      * @param string $ecritureNum The ecriture num.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setEcritureNum($ecritureNum) {
         $this->ecritureNum = $ecritureNum;
@@ -1440,6 +1464,7 @@ class Ecritures {
      * Set the en litige.
      *
      * @param bool $enLitige The en litige.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setEnLitige($enLitige) {
         $this->enLitige = $enLitige;
@@ -1450,6 +1475,7 @@ class Ecritures {
      * Set the etat.
      *
      * @param int $etat The etat.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -1460,6 +1486,7 @@ class Ecritures {
      * Set the folio.
      *
      * @param int $folio The folio.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setFolio($folio) {
         $this->folio = $folio;
@@ -1470,6 +1497,7 @@ class Ecritures {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -1480,6 +1508,7 @@ class Ecritures {
      * Set the jour ecriture.
      *
      * @param string $jourEcriture The jour ecriture.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setJourEcriture($jourEcriture) {
         $this->jourEcriture = $jourEcriture;
@@ -1490,6 +1519,7 @@ class Ecritures {
      * Set the jrn rappro bancaire.
      *
      * @param string $jrnRapproBancaire The jrn rappro bancaire.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setJrnRapproBancaire($jrnRapproBancaire) {
         $this->jrnRapproBancaire = $jrnRapproBancaire;
@@ -1500,6 +1530,7 @@ class Ecritures {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -1510,6 +1541,7 @@ class Ecritures {
      * Set the libelle memo.
      *
      * @param string $libelleMemo The libelle memo.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setLibelleMemo($libelleMemo) {
         $this->libelleMemo = $libelleMemo;
@@ -1520,6 +1552,7 @@ class Ecritures {
      * Set the ligne folio.
      *
      * @param int $ligneFolio The ligne folio.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setLigneFolio($ligneFolio) {
         $this->ligneFolio = $ligneFolio;
@@ -1530,6 +1563,7 @@ class Ecritures {
      * Set the methode tva.
      *
      * @param string $methodeTva The methode tva.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setMethodeTva($methodeTva) {
         $this->methodeTva = $methodeTva;
@@ -1540,6 +1574,7 @@ class Ecritures {
      * Set the milliemes ana.
      *
      * @param float $milliemesAna The milliemes ana.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setMilliemesAna($milliemesAna) {
         $this->milliemesAna = $milliemesAna;
@@ -1550,6 +1585,7 @@ class Ecritures {
      * Set the mode paiement.
      *
      * @param string $modePaiement The mode paiement.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setModePaiement($modePaiement) {
         $this->modePaiement = $modePaiement;
@@ -1560,6 +1596,7 @@ class Ecritures {
      * Set the montant ana.
      *
      * @param float $montantAna The montant ana.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setMontantAna($montantAna) {
         $this->montantAna = $montantAna;
@@ -1570,6 +1607,7 @@ class Ecritures {
      * Set the montant saisi credit.
      *
      * @param float $montantSaisiCredit The montant saisi credit.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setMontantSaisiCredit($montantSaisiCredit) {
         $this->montantSaisiCredit = $montantSaisiCredit;
@@ -1580,6 +1618,7 @@ class Ecritures {
      * Set the montant saisi debit.
      *
      * @param float $montantSaisiDebit The montant saisi debit.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setMontantSaisiDebit($montantSaisiDebit) {
         $this->montantSaisiDebit = $montantSaisiDebit;
@@ -1590,6 +1629,7 @@ class Ecritures {
      * Set the montant tenu credit.
      *
      * @param float $montantTenuCredit The montant tenu credit.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setMontantTenuCredit($montantTenuCredit) {
         $this->montantTenuCredit = $montantTenuCredit;
@@ -1600,6 +1640,7 @@ class Ecritures {
      * Set the montant tenu debit.
      *
      * @param float $montantTenuDebit The montant tenu debit.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setMontantTenuDebit($montantTenuDebit) {
         $this->montantTenuDebit = $montantTenuDebit;
@@ -1610,6 +1651,7 @@ class Ecritures {
      * Set the mt dev force.
      *
      * @param bool $mtDevForce The mt dev force.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setMtDevForce($mtDevForce) {
         $this->mtDevForce = $mtDevForce;
@@ -1620,6 +1662,7 @@ class Ecritures {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -1630,6 +1673,7 @@ class Ecritures {
      * Set the no lot ecritures.
      *
      * @param int $noLotEcritures The no lot ecritures.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNoLotEcritures($noLotEcritures) {
         $this->noLotEcritures = $noLotEcritures;
@@ -1640,6 +1684,7 @@ class Ecritures {
      * Set the no lot factor.
      *
      * @param int $noLotFactor The no lot factor.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNoLotFactor($noLotFactor) {
         $this->noLotFactor = $noLotFactor;
@@ -1650,6 +1695,7 @@ class Ecritures {
      * Set the no lot is.
      *
      * @param int $noLotIs The no lot is.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNoLotIs($noLotIs) {
         $this->noLotIs = $noLotIs;
@@ -1660,6 +1706,7 @@ class Ecritures {
      * Set the no lot trace.
      *
      * @param string $noLotTrace The no lot trace.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNoLotTrace($noLotTrace) {
         $this->noLotTrace = $noLotTrace;
@@ -1670,6 +1717,7 @@ class Ecritures {
      * Set the num cpt origine.
      *
      * @param string $numCptOrigine The num cpt origine.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumCptOrigine($numCptOrigine) {
         $this->numCptOrigine = $numCptOrigine;
@@ -1680,6 +1728,7 @@ class Ecritures {
      * Set the num ecr eco.
      *
      * @param int $numEcrEco The num ecr eco.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumEcrEco($numEcrEco) {
         $this->numEcrEco = $numEcrEco;
@@ -1690,6 +1739,7 @@ class Ecritures {
      * Set the num edit lettre paiement.
      *
      * @param int $numEditLettrePaiement The num edit lettre paiement.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumEditLettrePaiement($numEditLettrePaiement) {
         $this->numEditLettrePaiement = $numEditLettrePaiement;
@@ -1700,6 +1750,7 @@ class Ecritures {
      * Set the num lettrage.
      *
      * @param int $numLettrage The num lettrage.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumLettrage($numLettrage) {
         $this->numLettrage = $numLettrage;
@@ -1710,6 +1761,7 @@ class Ecritures {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -1720,6 +1772,7 @@ class Ecritures {
      * Set the num mandat.
      *
      * @param int $numMandat The num mandat.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumMandat($numMandat) {
         $this->numMandat = $numMandat;
@@ -1730,6 +1783,7 @@ class Ecritures {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -1740,6 +1794,7 @@ class Ecritures {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -1750,6 +1805,7 @@ class Ecritures {
      * Set the numero piece.
      *
      * @param string $numeroPiece The numero piece.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setNumeroPiece($numeroPiece) {
         $this->numeroPiece = $numeroPiece;
@@ -1760,6 +1816,7 @@ class Ecritures {
      * Set the periode ecriture.
      *
      * @param DateTime|null $periodeEcriture The periode ecriture.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
         $this->periodeEcriture = $periodeEcriture;
@@ -1770,6 +1827,7 @@ class Ecritures {
      * Set the periodicite debut.
      *
      * @param DateTime|null $periodiciteDebut The periodicite debut.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setPeriodiciteDebut(DateTime $periodiciteDebut = null) {
         $this->periodiciteDebut = $periodiciteDebut;
@@ -1780,6 +1838,7 @@ class Ecritures {
      * Set the periodicite fin.
      *
      * @param DateTime|null $periodiciteFin The periodicite fin.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setPeriodiciteFin(DateTime $periodiciteFin = null) {
         $this->periodiciteFin = $periodiciteFin;
@@ -1790,6 +1849,7 @@ class Ecritures {
      * Set the piece interne.
      *
      * @param int $pieceInterne The piece interne.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setPieceInterne($pieceInterne) {
         $this->pieceInterne = $pieceInterne;
@@ -1800,6 +1860,7 @@ class Ecritures {
      * Set the prct repartition.
      *
      * @param float $prctRepartition The prct repartition.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setPrctRepartition($prctRepartition) {
         $this->prctRepartition = $prctRepartition;
@@ -1810,6 +1871,7 @@ class Ecritures {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -1820,6 +1882,7 @@ class Ecritures {
      * Set the quantite2.
      *
      * @param float $quantite2 The quantite2.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setQuantite2($quantite2) {
         $this->quantite2 = $quantite2;
@@ -1830,6 +1893,7 @@ class Ecritures {
      * Set the rappro bancaire ok.
      *
      * @param bool $rapproBancaireOk The rappro bancaire ok.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setRapproBancaireOk($rapproBancaireOk) {
         $this->rapproBancaireOk = $rapproBancaireOk;
@@ -1840,6 +1904,7 @@ class Ecritures {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -1850,6 +1915,7 @@ class Ecritures {
      * Set the reference tire.
      *
      * @param string $referenceTire The reference tire.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setReferenceTire($referenceTire) {
         $this->referenceTire = $referenceTire;
@@ -1860,6 +1926,7 @@ class Ecritures {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -1870,6 +1937,7 @@ class Ecritures {
      * Set the tva e4 bi.
      *
      * @param string $tvaE4Bi The tva e4 bi.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setTvaE4Bi($tvaE4Bi) {
         $this->tvaE4Bi = $tvaE4Bi;
@@ -1880,6 +1948,7 @@ class Ecritures {
      * Set the tva e4 dr.
      *
      * @param string $tvaE4Dr The tva e4 dr.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setTvaE4Dr($tvaE4Dr) {
         $this->tvaE4Dr = $tvaE4Dr;
@@ -1890,6 +1959,7 @@ class Ecritures {
      * Set the tva e4 mt.
      *
      * @param float $tvaE4Mt The tva e4 mt.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setTvaE4Mt($tvaE4Mt) {
         $this->tvaE4Mt = $tvaE4Mt;
@@ -1900,6 +1970,7 @@ class Ecritures {
      * Set the type ligne.
      *
      * @param string $typeLigne The type ligne.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setTypeLigne($typeLigne) {
         $this->typeLigne = $typeLigne;
@@ -1910,6 +1981,7 @@ class Ecritures {
      * Set the type saisie.
      *
      * @param string $typeSaisie The type saisie.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setTypeSaisie($typeSaisie) {
         $this->typeSaisie = $typeSaisie;
@@ -1920,6 +1992,7 @@ class Ecritures {
      * Set the validee.
      *
      * @param bool $validee The validee.
+     * @return Ecritures Returns this Ecritures.
      */
     public function setValidee($validee) {
         $this->validee = $validee;

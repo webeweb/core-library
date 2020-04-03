@@ -272,6 +272,7 @@ class FactFournEntete {
      * Set the boni mali.
      *
      * @param bool $boniMali The boni mali.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setBoniMali($boniMali) {
         $this->boniMali = $boniMali;
@@ -282,6 +283,7 @@ class FactFournEntete {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -292,6 +294,7 @@ class FactFournEntete {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -302,6 +305,7 @@ class FactFournEntete {
      * Set the folio.
      *
      * @param int $folio The folio.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setFolio($folio) {
         $this->folio = $folio;
@@ -312,6 +316,7 @@ class FactFournEntete {
      * Set the lib auto.
      *
      * @param string $libAuto The lib auto.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setLibAuto($libAuto) {
         $this->libAuto = $libAuto;
@@ -322,6 +327,7 @@ class FactFournEntete {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -332,6 +338,7 @@ class FactFournEntete {
      * Set the monnaie.
      *
      * @param string $monnaie The monnaie.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setMonnaie($monnaie) {
         $this->monnaie = $monnaie;
@@ -342,6 +349,7 @@ class FactFournEntete {
      * Set the montant tt ccredit.
      *
      * @param string $montantTtCcredit The montant tt ccredit.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setMontantTtCcredit($montantTtCcredit) {
         $this->montantTtCcredit = $montantTtCcredit;
@@ -352,6 +360,7 @@ class FactFournEntete {
      * Set the montant tt cdebit.
      *
      * @param string $montantTtCdebit The montant tt cdebit.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setMontantTtCdebit($montantTtCdebit) {
         $this->montantTtCdebit = $montantTtCdebit;
@@ -362,6 +371,7 @@ class FactFournEntete {
      * Set the num doss cpta.
      *
      * @param string $numDossCpta The num doss cpta.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setNumDossCpta($numDossCpta) {
         $this->numDossCpta = $numDossCpta;
@@ -372,6 +382,7 @@ class FactFournEntete {
      * Set the num facture.
      *
      * @param string $numFacture The num facture.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setNumFacture($numFacture) {
         $this->numFacture = $numFacture;
@@ -382,6 +393,7 @@ class FactFournEntete {
      * Set the num fournisseur.
      *
      * @param string $numFournisseur The num fournisseur.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setNumFournisseur($numFournisseur) {
         $this->numFournisseur = $numFournisseur;
@@ -392,6 +404,7 @@ class FactFournEntete {
      * Set the num lot.
      *
      * @param int $numLot The num lot.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setNumLot($numLot) {
         $this->numLot = $numLot;
@@ -402,6 +415,7 @@ class FactFournEntete {
      * Set the num uniq.
      *
      * @param string $numUniq The num uniq.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -412,6 +426,7 @@ class FactFournEntete {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return FactFournEntete Returns this Fact fourn entete.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;

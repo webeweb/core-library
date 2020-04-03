@@ -4064,6 +4064,7 @@ class Bulletins {
      * Set the abat theo.
      *
      * @param float $abatTheo The abat theo.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setAbatTheo($abatTheo) {
         $this->abatTheo = $abatTheo;
@@ -4074,6 +4075,7 @@ class Bulletins {
      * Set the abattement max.
      *
      * @param float $abattementMax The abattement max.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setAbattementMax($abattementMax) {
         $this->abattementMax = $abattementMax;
@@ -4084,6 +4086,7 @@ class Bulletins {
      * Set the allegement.
      *
      * @param float $allegement The allegement.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setAllegement($allegement) {
         $this->allegement = $allegement;
@@ -4094,6 +4097,7 @@ class Bulletins {
      * Set the allegement non proratise.
      *
      * @param float $allegementNonProratise The allegement non proratise.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setAllegementNonProratise($allegementNonProratise) {
         $this->allegementNonProratise = $allegementNonProratise;
@@ -4104,6 +4108,7 @@ class Bulletins {
      * Set the avantage nature.
      *
      * @param float $avantageNature The avantage nature.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setAvantageNature($avantageNature) {
         $this->avantageNature = $avantageNature;
@@ -4114,6 +4119,7 @@ class Bulletins {
      * Set the base gmp.
      *
      * @param float $baseGmp The base gmp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBaseGmp($baseGmp) {
         $this->baseGmp = $baseGmp;
@@ -4124,6 +4130,7 @@ class Bulletins {
      * Set the base secu.
      *
      * @param float $baseSecu The base secu.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBaseSecu($baseSecu) {
         $this->baseSecu = $baseSecu;
@@ -4134,6 +4141,7 @@ class Bulletins {
      * Set the base ss plaf modif.
      *
      * @param bool $baseSsPlafModif The base ss plaf modif.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBaseSsPlafModif($baseSsPlafModif) {
         $this->baseSsPlafModif = $baseSsPlafModif;
@@ -4144,6 +4152,7 @@ class Bulletins {
      * Set the borne per modifie.
      *
      * @param bool $bornePerModifie The borne per modifie.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBornePerModifie($bornePerModifie) {
         $this->bornePerModifie = $bornePerModifie;
@@ -4154,6 +4163,7 @@ class Bulletins {
      * Set the brut.
      *
      * @param float $brut The brut.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrut($brut) {
         $this->brut = $brut;
@@ -4164,6 +4174,7 @@ class Bulletins {
      * Set the brut al.
      *
      * @param float $brutAl The brut al.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutAl($brutAl) {
         $this->brutAl = $brutAl;
@@ -4174,6 +4185,7 @@ class Bulletins {
      * Set the brut al limite smic.
      *
      * @param float $brutAlLimiteSmic The brut al limite smic.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutAlLimiteSmic($brutAlLimiteSmic) {
         $this->brutAlLimiteSmic = $brutAlLimiteSmic;
@@ -4184,6 +4196,7 @@ class Bulletins {
      * Set the brut al modifie.
      *
      * @param bool $brutAlModifie The brut al modifie.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutAlModifie($brutAlModifie) {
         $this->brutAlModifie = $brutAlModifie;
@@ -4194,6 +4207,7 @@ class Bulletins {
      * Set the brut anl.
      *
      * @param float $brutAnl The brut anl.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutAnl($brutAnl) {
         $this->brutAnl = $brutAnl;
@@ -4204,6 +4218,7 @@ class Bulletins {
      * Set the brut caisse1.
      *
      * @param float $brutCaisse1 The brut caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutCaisse1($brutCaisse1) {
         $this->brutCaisse1 = $brutCaisse1;
@@ -4214,6 +4229,7 @@ class Bulletins {
      * Set the brut caisse2.
      *
      * @param float $brutCaisse2 The brut caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutCaisse2($brutCaisse2) {
         $this->brutCaisse2 = $brutCaisse2;
@@ -4224,6 +4240,7 @@ class Bulletins {
      * Set the brut caisse3.
      *
      * @param float $brutCaisse3 The brut caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutCaisse3($brutCaisse3) {
         $this->brutCaisse3 = $brutCaisse3;
@@ -4234,6 +4251,7 @@ class Bulletins {
      * Set the brut caisse cp.
      *
      * @param float $brutCaisseCp The brut caisse cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutCaisseCp($brutCaisseCp) {
         $this->brutCaisseCp = $brutCaisseCp;
@@ -4244,6 +4262,7 @@ class Bulletins {
      * Set the brut cp.
      *
      * @param float $brutCp The brut cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutCp($brutCp) {
         $this->brutCp = $brutCp;
@@ -4254,6 +4273,7 @@ class Bulletins {
      * Set the brut csg.
      *
      * @param float $brutCsg The brut csg.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutCsg($brutCsg) {
         $this->brutCsg = $brutCsg;
@@ -4264,6 +4284,7 @@ class Bulletins {
      * Set the brut soumis abat.
      *
      * @param float $brutSoumisAbat The brut soumis abat.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutSoumisAbat($brutSoumisAbat) {
         $this->brutSoumisAbat = $brutSoumisAbat;
@@ -4274,6 +4295,7 @@ class Bulletins {
      * Set the brut soumis crds.
      *
      * @param float $brutSoumisCrds The brut soumis crds.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBrutSoumisCrds($brutSoumisCrds) {
         $this->brutSoumisCrds = $brutSoumisCrds;
@@ -4284,6 +4306,7 @@ class Bulletins {
      * Set the bulletin publie.
      *
      * @param bool $bulletinPublie The bulletin publie.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setBulletinPublie($bulletinPublie) {
         $this->bulletinPublie = $bulletinPublie;
@@ -4294,6 +4317,7 @@ class Bulletins {
      * Set the categ tds.
      *
      * @param string $categTds The categ tds.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCategTds($categTds) {
         $this->categTds = $categTds;
@@ -4304,6 +4328,7 @@ class Bulletins {
      * Set the cheque edite.
      *
      * @param bool $chequeEdite The cheque edite.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setChequeEdite($chequeEdite) {
         $this->chequeEdite = $chequeEdite;
@@ -4314,6 +4339,7 @@ class Bulletins {
      * Set the chom partiel coeff indem.
      *
      * @param float $chomPartielCoeffIndem The chom partiel coeff indem.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setChomPartielCoeffIndem($chomPartielCoeffIndem) {
         $this->chomPartielCoeffIndem = $chomPartielCoeffIndem;
@@ -4324,6 +4350,7 @@ class Bulletins {
      * Set the chom partiel cp.
      *
      * @param float $chomPartielCp The chom partiel cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setChomPartielCp($chomPartielCp) {
         $this->chomPartielCp = $chomPartielCp;
@@ -4334,6 +4361,7 @@ class Bulletins {
      * Set the chom partiel min indem.
      *
      * @param float $chomPartielMinIndem The chom partiel min indem.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setChomPartielMinIndem($chomPartielMinIndem) {
         $this->chomPartielMinIndem = $chomPartielMinIndem;
@@ -4344,6 +4372,7 @@ class Bulletins {
      * Set the code at per.
      *
      * @param int $codeAtPer The code at per.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCodeAtPer($codeAtPer) {
         $this->codeAtPer = $codeAtPer;
@@ -4354,6 +4383,7 @@ class Bulletins {
      * Set the code centre urssaf.
      *
      * @param string $codeCentreUrssaf The code centre urssaf.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCodeCentreUrssaf($codeCentreUrssaf) {
         $this->codeCentreUrssaf = $codeCentreUrssaf;
@@ -4364,6 +4394,7 @@ class Bulletins {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -4374,6 +4405,7 @@ class Bulletins {
      * Set the code type sal.
      *
      * @param string $codeTypeSal The code type sal.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCodeTypeSal($codeTypeSal) {
         $this->codeTypeSal = $codeTypeSal;
@@ -4384,6 +4416,7 @@ class Bulletins {
      * Set the coeff intemperie.
      *
      * @param float $coeffIntemperie The coeff intemperie.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCoeffIntemperie($coeffIntemperie) {
         $this->coeffIntemperie = $coeffIntemperie;
@@ -4394,6 +4427,7 @@ class Bulletins {
      * Set the cont h sup repos comp.
      *
      * @param float $contHSupReposComp The cont h sup repos comp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setContHSupReposComp($contHSupReposComp) {
         $this->contHSupReposComp = $contHSupReposComp;
@@ -4404,6 +4438,7 @@ class Bulletins {
      * Set the cout global mois.
      *
      * @param float $coutGlobalMois The cout global mois.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCoutGlobalMois($coutGlobalMois) {
         $this->coutGlobalMois = $coutGlobalMois;
@@ -4414,6 +4449,7 @@ class Bulletins {
      * Set the cum30 ss.
      *
      * @param float $cum30Ss The cum30 ss.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCum30Ss($cum30Ss) {
         $this->cum30Ss = $cum30Ss;
@@ -4424,6 +4460,7 @@ class Bulletins {
      * Set the cum ant h sup.
      *
      * @param float $cumAntHSup The cum ant h sup.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumAntHSup($cumAntHSup) {
         $this->cumAntHSup = $cumAntHSup;
@@ -4434,6 +4471,7 @@ class Bulletins {
      * Set the cum base gmp.
      *
      * @param float $cumBaseGmp The cum base gmp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumBaseGmp($cumBaseGmp) {
         $this->cumBaseGmp = $cumBaseGmp;
@@ -4444,6 +4482,7 @@ class Bulletins {
      * Set the cum base ss.
      *
      * @param float $cumBaseSs The cum base ss.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumBaseSs($cumBaseSs) {
         $this->cumBaseSs = $cumBaseSs;
@@ -4454,6 +4493,7 @@ class Bulletins {
      * Set the cum brut.
      *
      * @param float $cumBrut The cum brut.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumBrut($cumBrut) {
         $this->cumBrut = $cumBrut;
@@ -4464,6 +4504,7 @@ class Bulletins {
      * Set the cum brut al.
      *
      * @param float $cumBrutAl The cum brut al.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumBrutAl($cumBrutAl) {
         $this->cumBrutAl = $cumBrutAl;
@@ -4474,6 +4515,7 @@ class Bulletins {
      * Set the cum brut anl.
      *
      * @param float $cumBrutAnl The cum brut anl.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumBrutAnl($cumBrutAnl) {
         $this->cumBrutAnl = $cumBrutAnl;
@@ -4484,6 +4526,7 @@ class Bulletins {
      * Set the cum brut caisse1.
      *
      * @param float $cumBrutCaisse1 The cum brut caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumBrutCaisse1($cumBrutCaisse1) {
         $this->cumBrutCaisse1 = $cumBrutCaisse1;
@@ -4494,6 +4537,7 @@ class Bulletins {
      * Set the cum brut caisse2.
      *
      * @param float $cumBrutCaisse2 The cum brut caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumBrutCaisse2($cumBrutCaisse2) {
         $this->cumBrutCaisse2 = $cumBrutCaisse2;
@@ -4504,6 +4548,7 @@ class Bulletins {
      * Set the cum brut caisse3.
      *
      * @param float $cumBrutCaisse3 The cum brut caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumBrutCaisse3($cumBrutCaisse3) {
         $this->cumBrutCaisse3 = $cumBrutCaisse3;
@@ -4514,6 +4559,7 @@ class Bulletins {
      * Set the cum dif dus.
      *
      * @param float $cumDifDus The cum dif dus.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumDifDus($cumDifDus) {
         $this->cumDifDus = $cumDifDus;
@@ -4524,6 +4570,7 @@ class Bulletins {
      * Set the cum dif dus1.
      *
      * @param float $cumDifDus1 The cum dif dus1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumDifDus1($cumDifDus1) {
         $this->cumDifDus1 = $cumDifDus1;
@@ -4534,6 +4581,7 @@ class Bulletins {
      * Set the cum h bonifie.
      *
      * @param float $cumHBonifie The cum h bonifie.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumHBonifie($cumHBonifie) {
         $this->cumHBonifie = $cumHBonifie;
@@ -4544,6 +4592,7 @@ class Bulletins {
      * Set the cum h repos comp.
      *
      * @param float $cumHReposComp The cum h repos comp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumHReposComp($cumHReposComp) {
         $this->cumHReposComp = $cumHReposComp;
@@ -4554,6 +4603,7 @@ class Bulletins {
      * Set the cum h repos remplace.
      *
      * @param float $cumHReposRemplace The cum h repos remplace.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumHReposRemplace($cumHReposRemplace) {
         $this->cumHReposRemplace = $cumHReposRemplace;
@@ -4564,6 +4614,7 @@ class Bulletins {
      * Set the cum h service.
      *
      * @param float $cumHService The cum h service.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumHService($cumHService) {
         $this->cumHService = $cumHService;
@@ -4574,6 +4625,7 @@ class Bulletins {
      * Set the cum impos.
      *
      * @param float $cumImpos The cum impos.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumImpos($cumImpos) {
         $this->cumImpos = $cumImpos;
@@ -4584,6 +4636,7 @@ class Bulletins {
      * Set the cum j repos recup.
      *
      * @param float $cumJReposRecup The cum j repos recup.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumJReposRecup($cumJReposRecup) {
         $this->cumJReposRecup = $cumJReposRecup;
@@ -4594,6 +4647,7 @@ class Bulletins {
      * Set the cum mt cp pris.
      *
      * @param float $cumMtCpPris The cum mt cp pris.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumMtCpPris($cumMtCpPris) {
         $this->cumMtCpPris = $cumMtCpPris;
@@ -4604,6 +4658,7 @@ class Bulletins {
      * Set the cum mt cp pris1.
      *
      * @param float $cumMtCpPris1 The cum mt cp pris1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumMtCpPris1($cumMtCpPris1) {
         $this->cumMtCpPris1 = $cumMtCpPris1;
@@ -4614,6 +4669,7 @@ class Bulletins {
      * Set the cum net a payer.
      *
      * @param float $cumNetAPayer The cum net a payer.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumNetAPayer($cumNetAPayer) {
         $this->cumNetAPayer = $cumNetAPayer;
@@ -4624,6 +4680,7 @@ class Bulletins {
      * Set the cum plaf1 caisse1.
      *
      * @param float $cumPlaf1Caisse1 The cum plaf1 caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPlaf1Caisse1($cumPlaf1Caisse1) {
         $this->cumPlaf1Caisse1 = $cumPlaf1Caisse1;
@@ -4634,6 +4691,7 @@ class Bulletins {
      * Set the cum plaf1 caisse2.
      *
      * @param float $cumPlaf1Caisse2 The cum plaf1 caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPlaf1Caisse2($cumPlaf1Caisse2) {
         $this->cumPlaf1Caisse2 = $cumPlaf1Caisse2;
@@ -4644,6 +4702,7 @@ class Bulletins {
      * Set the cum plaf1 caisse3.
      *
      * @param float $cumPlaf1Caisse3 The cum plaf1 caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPlaf1Caisse3($cumPlaf1Caisse3) {
         $this->cumPlaf1Caisse3 = $cumPlaf1Caisse3;
@@ -4654,6 +4713,7 @@ class Bulletins {
      * Set the cum plaf2 caisse1.
      *
      * @param float $cumPlaf2Caisse1 The cum plaf2 caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPlaf2Caisse1($cumPlaf2Caisse1) {
         $this->cumPlaf2Caisse1 = $cumPlaf2Caisse1;
@@ -4664,6 +4724,7 @@ class Bulletins {
      * Set the cum plaf2 caisse2.
      *
      * @param float $cumPlaf2Caisse2 The cum plaf2 caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPlaf2Caisse2($cumPlaf2Caisse2) {
         $this->cumPlaf2Caisse2 = $cumPlaf2Caisse2;
@@ -4674,6 +4735,7 @@ class Bulletins {
      * Set the cum plaf2 caisse3.
      *
      * @param float $cumPlaf2Caisse3 The cum plaf2 caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPlaf2Caisse3($cumPlaf2Caisse3) {
         $this->cumPlaf2Caisse3 = $cumPlaf2Caisse3;
@@ -4684,6 +4746,7 @@ class Bulletins {
      * Set the cum plafond gmp.
      *
      * @param float $cumPlafondGmp The cum plafond gmp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPlafondGmp($cumPlafondGmp) {
         $this->cumPlafondGmp = $cumPlafondGmp;
@@ -4694,6 +4757,7 @@ class Bulletins {
      * Set the cum pss1.
      *
      * @param float $cumPss1 The cum pss1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPss1($cumPss1) {
         $this->cumPss1 = $cumPss1;
@@ -4704,6 +4768,7 @@ class Bulletins {
      * Set the cum pss2.
      *
      * @param float $cumPss2 The cum pss2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumPss2($cumPss2) {
         $this->cumPss2 = $cumPss2;
@@ -4714,6 +4779,7 @@ class Bulletins {
      * Set the cum rtt dus.
      *
      * @param float $cumRttDus The cum rtt dus.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumRttDus($cumRttDus) {
         $this->cumRttDus = $cumRttDus;
@@ -4724,6 +4790,7 @@ class Bulletins {
      * Set the cum rtt pris.
      *
      * @param float $cumRttPris The cum rtt pris.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumRttPris($cumRttPris) {
         $this->cumRttPris = $cumRttPris;
@@ -4734,6 +4801,7 @@ class Bulletins {
      * Set the cum tr a caisse1.
      *
      * @param float $cumTrACaisse1 The cum tr a caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrACaisse1($cumTrACaisse1) {
         $this->cumTrACaisse1 = $cumTrACaisse1;
@@ -4744,6 +4812,7 @@ class Bulletins {
      * Set the cum tr a caisse2.
      *
      * @param float $cumTrACaisse2 The cum tr a caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrACaisse2($cumTrACaisse2) {
         $this->cumTrACaisse2 = $cumTrACaisse2;
@@ -4754,6 +4823,7 @@ class Bulletins {
      * Set the cum tr a caisse3.
      *
      * @param float $cumTrACaisse3 The cum tr a caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrACaisse3($cumTrACaisse3) {
         $this->cumTrACaisse3 = $cumTrACaisse3;
@@ -4764,6 +4834,7 @@ class Bulletins {
      * Set the cum tr b caisse1.
      *
      * @param float $cumTrBCaisse1 The cum tr b caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrBCaisse1($cumTrBCaisse1) {
         $this->cumTrBCaisse1 = $cumTrBCaisse1;
@@ -4774,6 +4845,7 @@ class Bulletins {
      * Set the cum tr b caisse2.
      *
      * @param float $cumTrBCaisse2 The cum tr b caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrBCaisse2($cumTrBCaisse2) {
         $this->cumTrBCaisse2 = $cumTrBCaisse2;
@@ -4784,6 +4856,7 @@ class Bulletins {
      * Set the cum tr b caisse3.
      *
      * @param float $cumTrBCaisse3 The cum tr b caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrBCaisse3($cumTrBCaisse3) {
         $this->cumTrBCaisse3 = $cumTrBCaisse3;
@@ -4794,6 +4867,7 @@ class Bulletins {
      * Set the cum tr c caisse1.
      *
      * @param float $cumTrCCaisse1 The cum tr c caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrCCaisse1($cumTrCCaisse1) {
         $this->cumTrCCaisse1 = $cumTrCCaisse1;
@@ -4804,6 +4878,7 @@ class Bulletins {
      * Set the cum tr c caisse2.
      *
      * @param float $cumTrCCaisse2 The cum tr c caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrCCaisse2($cumTrCCaisse2) {
         $this->cumTrCCaisse2 = $cumTrCCaisse2;
@@ -4814,6 +4889,7 @@ class Bulletins {
      * Set the cum tr c caisse3.
      *
      * @param float $cumTrCCaisse3 The cum tr c caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrCCaisse3($cumTrCCaisse3) {
         $this->cumTrCCaisse3 = $cumTrCCaisse3;
@@ -4824,6 +4900,7 @@ class Bulletins {
      * Set the cum tranche2.
      *
      * @param float $cumTranche2 The cum tranche2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTranche2($cumTranche2) {
         $this->cumTranche2 = $cumTranche2;
@@ -4834,6 +4911,7 @@ class Bulletins {
      * Set the cum tranche a.
      *
      * @param float $cumTrancheA The cum tranche a.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrancheA($cumTrancheA) {
         $this->cumTrancheA = $cumTrancheA;
@@ -4844,6 +4922,7 @@ class Bulletins {
      * Set the cum tranche b.
      *
      * @param float $cumTrancheB The cum tranche b.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrancheB($cumTrancheB) {
         $this->cumTrancheB = $cumTrancheB;
@@ -4854,6 +4933,7 @@ class Bulletins {
      * Set the cum tranche c.
      *
      * @param float $cumTrancheC The cum tranche c.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setCumTrancheC($cumTrancheC) {
         $this->cumTrancheC = $cumTrancheC;
@@ -4864,6 +4944,7 @@ class Bulletins {
      * Set the delta.
      *
      * @param float $delta The delta.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setDelta($delta) {
         $this->delta = $delta;
@@ -4874,6 +4955,7 @@ class Bulletins {
      * Set the droit cp.
      *
      * @param float $droitCp The droit cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setDroitCp($droitCp) {
         $this->droitCp = $droitCp;
@@ -4884,6 +4966,7 @@ class Bulletins {
      * Set the dt debut periode.
      *
      * @param DateTime|null $dtDebutPeriode The dt debut periode.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setDtDebutPeriode(DateTime $dtDebutPeriode = null) {
         $this->dtDebutPeriode = $dtDebutPeriode;
@@ -4894,6 +4977,7 @@ class Bulletins {
      * Set the dt fin periode.
      *
      * @param DateTime|null $dtFinPeriode The dt fin periode.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setDtFinPeriode(DateTime $dtFinPeriode = null) {
         $this->dtFinPeriode = $dtFinPeriode;
@@ -4904,6 +4988,7 @@ class Bulletins {
      * Set the ecart cumule.
      *
      * @param float $ecartCumule The ecart cumule.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setEcartCumule($ecartCumule) {
         $this->ecartCumule = $ecartCumule;
@@ -4914,6 +4999,7 @@ class Bulletins {
      * Set the etat bul.
      *
      * @param string $etatBul The etat bul.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setEtatBul($etatBul) {
         $this->etatBul = $etatBul;
@@ -4924,6 +5010,7 @@ class Bulletins {
      * Set the etat edition.
      *
      * @param string $etatEdition The etat edition.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setEtatEdition($etatEdition) {
         $this->etatEdition = $etatEdition;
@@ -4934,6 +5021,7 @@ class Bulletins {
      * Set the forfait jour.
      *
      * @param bool $forfaitJour The forfait jour.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setForfaitJour($forfaitJour) {
         $this->forfaitJour = $forfaitJour;
@@ -4944,6 +5032,7 @@ class Bulletins {
      * Set the gest calc net paye.
      *
      * @param bool $gestCalcNetPaye The gest calc net paye.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setGestCalcNetPaye($gestCalcNetPaye) {
         $this->gestCalcNetPaye = $gestCalcNetPaye;
@@ -4954,6 +5043,7 @@ class Bulletins {
      * Set the gestion coeff.
      *
      * @param bool $gestionCoeff The gestion coeff.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setGestionCoeff($gestionCoeff) {
         $this->gestionCoeff = $gestionCoeff;
@@ -4964,6 +5054,7 @@ class Bulletins {
      * Set the h reel trav.
      *
      * @param float $hReelTrav The h reel trav.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setHReelTrav($hReelTrav) {
         $this->hReelTrav = $hReelTrav;
@@ -4974,6 +5065,7 @@ class Bulletins {
      * Set the h theo trav.
      *
      * @param float $hTheoTrav The h theo trav.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setHTheoTrav($hTheoTrav) {
         $this->hTheoTrav = $hTheoTrav;
@@ -4984,6 +5076,7 @@ class Bulletins {
      * Set the heure absence.
      *
      * @param float $heureAbsence The heure absence.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setHeureAbsence($heureAbsence) {
         $this->heureAbsence = $heureAbsence;
@@ -4994,6 +5087,7 @@ class Bulletins {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -5004,6 +5098,7 @@ class Bulletins {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -5014,6 +5109,7 @@ class Bulletins {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -5024,6 +5120,7 @@ class Bulletins {
      * Set the lien justificatif.
      *
      * @param string $lienJustificatif The lien justificatif.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setLienJustificatif($lienJustificatif) {
         $this->lienJustificatif = $lienJustificatif;
@@ -5034,6 +5131,7 @@ class Bulletins {
      * Set the max abat.
      *
      * @param float $maxAbat The max abat.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMaxAbat($maxAbat) {
         $this->maxAbat = $maxAbat;
@@ -5044,6 +5142,7 @@ class Bulletins {
      * Set the mensuel journalier.
      *
      * @param bool $mensuelJournalier The mensuel journalier.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMensuelJournalier($mensuelJournalier) {
         $this->mensuelJournalier = $mensuelJournalier;
@@ -5054,6 +5153,7 @@ class Bulletins {
      * Set the methode indem cp.
      *
      * @param string $methodeIndemCp The methode indem cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMethodeIndemCp($methodeIndemCp) {
         $this->methodeIndemCp = $methodeIndemCp;
@@ -5064,6 +5164,7 @@ class Bulletins {
      * Set the mig.
      *
      * @param float $mig The mig.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMig($mig) {
         $this->mig = $mig;
@@ -5074,6 +5175,7 @@ class Bulletins {
      * Set the montant1.
      *
      * @param float $montant1 The montant1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMontant1($montant1) {
         $this->montant1 = $montant1;
@@ -5084,6 +5186,7 @@ class Bulletins {
      * Set the montant2.
      *
      * @param float $montant2 The montant2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMontant2($montant2) {
         $this->montant2 = $montant2;
@@ -5094,6 +5197,7 @@ class Bulletins {
      * Set the montant3.
      *
      * @param float $montant3 The montant3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMontant3($montant3) {
         $this->montant3 = $montant3;
@@ -5104,6 +5208,7 @@ class Bulletins {
      * Set the montant4.
      *
      * @param float $montant4 The montant4.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMontant4($montant4) {
         $this->montant4 = $montant4;
@@ -5114,6 +5219,7 @@ class Bulletins {
      * Set the montant5.
      *
      * @param float $montant5 The montant5.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMontant5($montant5) {
         $this->montant5 = $montant5;
@@ -5124,6 +5230,7 @@ class Bulletins {
      * Set the mt h sup bonif.
      *
      * @param float $mtHSupBonif The mt h sup bonif.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMtHSupBonif($mtHSupBonif) {
         $this->mtHSupBonif = $mtHSupBonif;
@@ -5134,6 +5241,7 @@ class Bulletins {
      * Set the mt i cp cp.
      *
      * @param float $mtICpCp The mt i cp cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMtICpCp($mtICpCp) {
         $this->mtICpCp = $mtICpCp;
@@ -5144,6 +5252,7 @@ class Bulletins {
      * Set the mt i cpt.
      *
      * @param float $mtICpt The mt i cpt.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMtICpt($mtICpt) {
         $this->mtICpt = $mtICpt;
@@ -5154,6 +5263,7 @@ class Bulletins {
      * Set the mt i int.
      *
      * @param float $mtIInt The mt i int.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMtIInt($mtIInt) {
         $this->mtIInt = $mtIInt;
@@ -5164,6 +5274,7 @@ class Bulletins {
      * Set the mt jcp arbitrage.
      *
      * @param bool $mtJcpArbitrage The mt jcp arbitrage.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMtJcpArbitrage($mtJcpArbitrage) {
         $this->mtJcpArbitrage = $mtJcpArbitrage;
@@ -5174,6 +5285,7 @@ class Bulletins {
      * Set the mt journee cp.
      *
      * @param float $mtJourneeCp The mt journee cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMtJourneeCp($mtJourneeCp) {
         $this->mtJourneeCp = $mtJourneeCp;
@@ -5184,6 +5296,7 @@ class Bulletins {
      * Set the mt net paye theo.
      *
      * @param float $mtNetPayeTheo The mt net paye theo.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMtNetPayeTheo($mtNetPayeTheo) {
         $this->mtNetPayeTheo = $mtNetPayeTheo;
@@ -5194,6 +5307,7 @@ class Bulletins {
      * Set the mt taux lig sal base.
      *
      * @param float $mtTauxLigSalBase The mt taux lig sal base.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setMtTauxLigSalBase($mtTauxLigSalBase) {
         $this->mtTauxLigSalBase = $mtTauxLigSalBase;
@@ -5204,6 +5318,7 @@ class Bulletins {
      * Set the nb30.
      *
      * @param float $nb30 The nb30.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNb30($nb30) {
         $this->nb30 = $nb30;
@@ -5214,6 +5329,7 @@ class Bulletins {
      * Set the nb h ab cp.
      *
      * @param float $nbHAbCp The nb h ab cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHAbCp($nbHAbCp) {
         $this->nbHAbCp = $nbHAbCp;
@@ -5224,6 +5340,7 @@ class Bulletins {
      * Set the nb h absence intemp.
      *
      * @param float $nbHAbsenceIntemp The nb h absence intemp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHAbsenceIntemp($nbHAbsenceIntemp) {
         $this->nbHAbsenceIntemp = $nbHAbsenceIntemp;
@@ -5234,6 +5351,7 @@ class Bulletins {
      * Set the nb h attente.
      *
      * @param float $nbHAttente The nb h attente.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHAttente($nbHAttente) {
         $this->nbHAttente = $nbHAttente;
@@ -5244,6 +5362,7 @@ class Bulletins {
      * Set the nb h bonifie dues.
      *
      * @param float $nbHBonifieDues The nb h bonifie dues.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHBonifieDues($nbHBonifieDues) {
         $this->nbHBonifieDues = $nbHBonifieDues;
@@ -5254,6 +5373,7 @@ class Bulletins {
      * Set the nb h bonifie prises.
      *
      * @param float $nbHBonifiePrises The nb h bonifie prises.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHBonifiePrises($nbHBonifiePrises) {
         $this->nbHBonifiePrises = $nbHBonifiePrises;
@@ -5264,6 +5384,7 @@ class Bulletins {
      * Set the nb h carence intemp.
      *
      * @param float $nbHCarenceIntemp The nb h carence intemp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHCarenceIntemp($nbHCarenceIntemp) {
         $this->nbHCarenceIntemp = $nbHCarenceIntemp;
@@ -5274,6 +5395,7 @@ class Bulletins {
      * Set the nb h chom part cp.
      *
      * @param float $nbHChomPartCp The nb h chom part cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHChomPartCp($nbHChomPartCp) {
         $this->nbHChomPartCp = $nbHChomPartCp;
@@ -5284,6 +5406,7 @@ class Bulletins {
      * Set the nb h chom part tech.
      *
      * @param float $nbHChomPartTech The nb h chom part tech.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHChomPartTech($nbHChomPartTech) {
         $this->nbHChomPartTech = $nbHChomPartTech;
@@ -5294,6 +5417,7 @@ class Bulletins {
      * Set the nb h conduite.
      *
      * @param float $nbHConduite The nb h conduite.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHConduite($nbHConduite) {
         $this->nbHConduite = $nbHConduite;
@@ -5304,6 +5428,7 @@ class Bulletins {
      * Set the nb h conting.
      *
      * @param float $nbHConting The nb h conting.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHConting($nbHConting) {
         $this->nbHConting = $nbHConting;
@@ -5314,6 +5439,7 @@ class Bulletins {
      * Set the nb h dble.
      *
      * @param float $nbHDble The nb h dble.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHDble($nbHDble) {
         $this->nbHDble = $nbHDble;
@@ -5324,6 +5450,7 @@ class Bulletins {
      * Set the nb h dif dus.
      *
      * @param float $nbHDifDus The nb h dif dus.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHDifDus($nbHDifDus) {
         $this->nbHDifDus = $nbHDifDus;
@@ -5334,6 +5461,7 @@ class Bulletins {
      * Set the nb h intemp indem.
      *
      * @param float $nbHIntempIndem The nb h intemp indem.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHIntempIndem($nbHIntempIndem) {
         $this->nbHIntempIndem = $nbHIntempIndem;
@@ -5344,6 +5472,7 @@ class Bulletins {
      * Set the nb h lig sal base.
      *
      * @param float $nbHLigSalBase The nb h lig sal base.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHLigSalBase($nbHLigSalBase) {
         $this->nbHLigSalBase = $nbHLigSalBase;
@@ -5354,6 +5483,7 @@ class Bulletins {
      * Set the nb h normal.
      *
      * @param float $nbHNormal The nb h normal.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHNormal($nbHNormal) {
         $this->nbHNormal = $nbHNormal;
@@ -5364,6 +5494,7 @@ class Bulletins {
      * Set the nb h pas droit fillon.
      *
      * @param float $nbHPasDroitFillon The nb h pas droit fillon.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHPasDroitFillon($nbHPasDroitFillon) {
         $this->nbHPasDroitFillon = $nbHPasDroitFillon;
@@ -5374,6 +5505,7 @@ class Bulletins {
      * Set the nb h remplace.
      *
      * @param float $nbHRemplace The nb h remplace.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHRemplace($nbHRemplace) {
         $this->nbHRemplace = $nbHRemplace;
@@ -5384,6 +5516,7 @@ class Bulletins {
      * Set the nb h repo comp dues.
      *
      * @param float $nbHRepoCompDues The nb h repo comp dues.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHRepoCompDues($nbHRepoCompDues) {
         $this->nbHRepoCompDues = $nbHRepoCompDues;
@@ -5394,6 +5527,7 @@ class Bulletins {
      * Set the nb h repo comp prises.
      *
      * @param float $nbHRepoCompPrises The nb h repo comp prises.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHRepoCompPrises($nbHRepoCompPrises) {
         $this->nbHRepoCompPrises = $nbHRepoCompPrises;
@@ -5404,6 +5538,7 @@ class Bulletins {
      * Set the nb h repo r dues.
      *
      * @param float $nbHRepoRDues The nb h repo r dues.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHRepoRDues($nbHRepoRDues) {
         $this->nbHRepoRDues = $nbHRepoRDues;
@@ -5414,6 +5549,7 @@ class Bulletins {
      * Set the nb h repo r prises.
      *
      * @param float $nbHRepoRPrises The nb h repo r prises.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHRepoRPrises($nbHRepoRPrises) {
         $this->nbHRepoRPrises = $nbHRepoRPrises;
@@ -5424,6 +5560,7 @@ class Bulletins {
      * Set the nb h sup1.
      *
      * @param float $nbHSup1 The nb h sup1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHSup1($nbHSup1) {
         $this->nbHSup1 = $nbHSup1;
@@ -5434,6 +5571,7 @@ class Bulletins {
      * Set the nb h sup2.
      *
      * @param float $nbHSup2 The nb h sup2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHSup2($nbHSup2) {
         $this->nbHSup2 = $nbHSup2;
@@ -5444,6 +5582,7 @@ class Bulletins {
      * Set the nb h sup3.
      *
      * @param float $nbHSup3 The nb h sup3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHSup3($nbHSup3) {
         $this->nbHSup3 = $nbHSup3;
@@ -5454,6 +5593,7 @@ class Bulletins {
      * Set the nb h sup4.
      *
      * @param float $nbHSup4 The nb h sup4.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHSup4($nbHSup4) {
         $this->nbHSup4 = $nbHSup4;
@@ -5464,6 +5604,7 @@ class Bulletins {
      * Set the nb h sup5.
      *
      * @param float $nbHSup5 The nb h sup5.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHSup5($nbHSup5) {
         $this->nbHSup5 = $nbHSup5;
@@ -5474,6 +5615,7 @@ class Bulletins {
      * Set the nb h sup bonif.
      *
      * @param float $nbHSupBonif The nb h sup bonif.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHSupBonif($nbHSupBonif) {
         $this->nbHSupBonif = $nbHSupBonif;
@@ -5484,6 +5626,7 @@ class Bulletins {
      * Set the nb h sup bonif abs.
      *
      * @param float $nbHSupBonifAbs The nb h sup bonif abs.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHSupBonifAbs($nbHSupBonifAbs) {
         $this->nbHSupBonifAbs = $nbHSupBonifAbs;
@@ -5494,6 +5637,7 @@ class Bulletins {
      * Set the nb h trav.
      *
      * @param float $nbHTrav The nb h trav.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHTrav($nbHTrav) {
         $this->nbHTrav = $nbHTrav;
@@ -5504,6 +5648,7 @@ class Bulletins {
      * Set the nb h travail.
      *
      * @param float $nbHTravail The nb h travail.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHTravail($nbHTravail) {
         $this->nbHTravail = $nbHTravail;
@@ -5514,6 +5659,7 @@ class Bulletins {
      * Set the nb heure paye.
      *
      * @param float $nbHeurePaye The nb heure paye.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHeurePaye($nbHeurePaye) {
         $this->nbHeurePaye = $nbHeurePaye;
@@ -5524,6 +5670,7 @@ class Bulletins {
      * Set the nb heure sup.
      *
      * @param float $nbHeureSup The nb heure sup.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHeureSup($nbHeureSup) {
         $this->nbHeureSup = $nbHeureSup;
@@ -5534,6 +5681,7 @@ class Bulletins {
      * Set the nb heure trav.
      *
      * @param float $nbHeureTrav The nb heure trav.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHeureTrav($nbHeureTrav) {
         $this->nbHeureTrav = $nbHeureTrav;
@@ -5544,6 +5692,7 @@ class Bulletins {
      * Set the nb heure trav mois.
      *
      * @param float $nbHeureTravMois The nb heure trav mois.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbHeureTravMois($nbHeureTravMois) {
         $this->nbHeureTravMois = $nbHeureTravMois;
@@ -5554,6 +5703,7 @@ class Bulletins {
      * Set the nb j chom part cp.
      *
      * @param float $nbJChomPartCp The nb j chom part cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJChomPartCp($nbJChomPartCp) {
         $this->nbJChomPartCp = $nbJChomPartCp;
@@ -5564,6 +5714,7 @@ class Bulletins {
      * Set the nb j dus.
      *
      * @param float $nbJDus The nb j dus.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJDus($nbJDus) {
         $this->nbJDus = $nbJDus;
@@ -5574,6 +5725,7 @@ class Bulletins {
      * Set the nb j dus1.
      *
      * @param float $nbJDus1 The nb j dus1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJDus1($nbJDus1) {
         $this->nbJDus1 = $nbJDus1;
@@ -5584,6 +5736,7 @@ class Bulletins {
      * Set the nb j pris.
      *
      * @param float $nbJPris The nb j pris.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJPris($nbJPris) {
         $this->nbJPris = $nbJPris;
@@ -5594,6 +5747,7 @@ class Bulletins {
      * Set the nb j pris1.
      *
      * @param float $nbJPris1 The nb j pris1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJPris1($nbJPris1) {
         $this->nbJPris1 = $nbJPris1;
@@ -5604,6 +5758,7 @@ class Bulletins {
      * Set the nb j repo recup dus.
      *
      * @param float $nbJRepoRecupDus The nb j repo recup dus.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJRepoRecupDus($nbJRepoRecupDus) {
         $this->nbJRepoRecupDus = $nbJRepoRecupDus;
@@ -5614,6 +5769,7 @@ class Bulletins {
      * Set the nb j repo recup pris.
      *
      * @param float $nbJRepoRecupPris The nb j repo recup pris.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJRepoRecupPris($nbJRepoRecupPris) {
         $this->nbJRepoRecupPris = $nbJRepoRecupPris;
@@ -5624,6 +5780,7 @@ class Bulletins {
      * Set the nb j trav force.
      *
      * @param bool $nbJTravForce The nb j trav force.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJTravForce($nbJTravForce) {
         $this->nbJTravForce = $nbJTravForce;
@@ -5634,6 +5791,7 @@ class Bulletins {
      * Set the nb j trav mois es.
      *
      * @param int $nbJTravMoisEs The nb j trav mois es.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJTravMoisEs($nbJTravMoisEs) {
         $this->nbJTravMoisEs = $nbJTravMoisEs;
@@ -5644,6 +5802,7 @@ class Bulletins {
      * Set the nb jour base.
      *
      * @param float $nbJourBase The nb jour base.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJourBase($nbJourBase) {
         $this->nbJourBase = $nbJourBase;
@@ -5654,6 +5813,7 @@ class Bulletins {
      * Set the nb jour base cp.
      *
      * @param float $nbJourBaseCp The nb jour base cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJourBaseCp($nbJourBaseCp) {
         $this->nbJourBaseCp = $nbJourBaseCp;
@@ -5664,6 +5824,7 @@ class Bulletins {
      * Set the nb jour cp acquis.
      *
      * @param float $nbJourCpAcquis The nb jour cp acquis.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJourCpAcquis($nbJourCpAcquis) {
         $this->nbJourCpAcquis = $nbJourCpAcquis;
@@ -5674,6 +5835,7 @@ class Bulletins {
      * Set the nb jour cp pris.
      *
      * @param float $nbJourCpPris The nb jour cp pris.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJourCpPris($nbJourCpPris) {
         $this->nbJourCpPris = $nbJourCpPris;
@@ -5684,6 +5846,7 @@ class Bulletins {
      * Set the nb jour normaux.
      *
      * @param float $nbJourNormaux The nb jour normaux.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJourNormaux($nbJourNormaux) {
         $this->nbJourNormaux = $nbJourNormaux;
@@ -5694,6 +5857,7 @@ class Bulletins {
      * Set the nb jour trav.
      *
      * @param float $nbJourTrav The nb jour trav.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJourTrav($nbJourTrav) {
         $this->nbJourTrav = $nbJourTrav;
@@ -5704,6 +5868,7 @@ class Bulletins {
      * Set the nb jrtt dus.
      *
      * @param float $nbJrttDus The nb jrtt dus.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJrttDus($nbJrttDus) {
         $this->nbJrttDus = $nbJrttDus;
@@ -5714,6 +5879,7 @@ class Bulletins {
      * Set the nb jrtt pris.
      *
      * @param float $nbJrttPris The nb jrtt pris.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNbJrttPris($nbJrttPris) {
         $this->nbJrttPris = $nbJrttPris;
@@ -5724,6 +5890,7 @@ class Bulletins {
      * Set the net a payer.
      *
      * @param float $netAPayer The net a payer.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNetAPayer($netAPayer) {
         $this->netAPayer = $netAPayer;
@@ -5734,6 +5901,7 @@ class Bulletins {
      * Set the net impos.
      *
      * @param float $netImpos The net impos.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNetImpos($netImpos) {
         $this->netImpos = $netImpos;
@@ -5744,6 +5912,7 @@ class Bulletins {
      * Set the note1.
      *
      * @param string $note1 The note1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNote1($note1) {
         $this->note1 = $note1;
@@ -5754,6 +5923,7 @@ class Bulletins {
      * Set the note2.
      *
      * @param string $note2 The note2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNote2($note2) {
         $this->note2 = $note2;
@@ -5764,6 +5934,7 @@ class Bulletins {
      * Set the note3.
      *
      * @param string $note3 The note3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNote3($note3) {
         $this->note3 = $note3;
@@ -5774,6 +5945,7 @@ class Bulletins {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -5784,6 +5956,7 @@ class Bulletins {
      * Set the paie euro.
      *
      * @param bool $paieEuro The paie euro.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPaieEuro($paieEuro) {
         $this->paieEuro = $paieEuro;
@@ -5794,6 +5967,7 @@ class Bulletins {
      * Set the paiement cp non pris.
      *
      * @param bool $paiementCpNonPris The paiement cp non pris.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPaiementCpNonPris($paiementCpNonPris) {
         $this->paiementCpNonPris = $paiementCpNonPris;
@@ -5804,6 +5978,7 @@ class Bulletins {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -5814,6 +5989,7 @@ class Bulletins {
      * Set the periodicite.
      *
      * @param string $periodicite The periodicite.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPeriodicite($periodicite) {
         $this->periodicite = $periodicite;
@@ -5824,6 +6000,7 @@ class Bulletins {
      * Set the periodicite modifie.
      *
      * @param bool $periodiciteModifie The periodicite modifie.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPeriodiciteModifie($periodiciteModifie) {
         $this->periodiciteModifie = $periodiciteModifie;
@@ -5834,6 +6011,7 @@ class Bulletins {
      * Set the plafond1 caisse1.
      *
      * @param float $plafond1Caisse1 The plafond1 caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafond1Caisse1($plafond1Caisse1) {
         $this->plafond1Caisse1 = $plafond1Caisse1;
@@ -5844,6 +6022,7 @@ class Bulletins {
      * Set the plafond1 caisse2.
      *
      * @param float $plafond1Caisse2 The plafond1 caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafond1Caisse2($plafond1Caisse2) {
         $this->plafond1Caisse2 = $plafond1Caisse2;
@@ -5854,6 +6033,7 @@ class Bulletins {
      * Set the plafond1 caisse3.
      *
      * @param float $plafond1Caisse3 The plafond1 caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafond1Caisse3($plafond1Caisse3) {
         $this->plafond1Caisse3 = $plafond1Caisse3;
@@ -5864,6 +6044,7 @@ class Bulletins {
      * Set the plafond2 caisse1.
      *
      * @param float $plafond2Caisse1 The plafond2 caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafond2Caisse1($plafond2Caisse1) {
         $this->plafond2Caisse1 = $plafond2Caisse1;
@@ -5874,6 +6055,7 @@ class Bulletins {
      * Set the plafond2 caisse2.
      *
      * @param float $plafond2Caisse2 The plafond2 caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafond2Caisse2($plafond2Caisse2) {
         $this->plafond2Caisse2 = $plafond2Caisse2;
@@ -5884,6 +6066,7 @@ class Bulletins {
      * Set the plafond2 caisse3.
      *
      * @param float $plafond2Caisse3 The plafond2 caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafond2Caisse3($plafond2Caisse3) {
         $this->plafond2Caisse3 = $plafond2Caisse3;
@@ -5894,6 +6077,7 @@ class Bulletins {
      * Set the plafond gmp.
      *
      * @param float $plafondGmp The plafond gmp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafondGmp($plafondGmp) {
         $this->plafondGmp = $plafondGmp;
@@ -5904,6 +6088,7 @@ class Bulletins {
      * Set the plafond gmp modifie.
      *
      * @param bool $plafondGmpModifie The plafond gmp modifie.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafondGmpModifie($plafondGmpModifie) {
         $this->plafondGmpModifie = $plafondGmpModifie;
@@ -5914,6 +6099,7 @@ class Bulletins {
      * Set the plafond heure.
      *
      * @param float $plafondHeure The plafond heure.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafondHeure($plafondHeure) {
         $this->plafondHeure = $plafondHeure;
@@ -5924,6 +6110,7 @@ class Bulletins {
      * Set the plafond jour.
      *
      * @param float $plafondJour The plafond jour.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafondJour($plafondJour) {
         $this->plafondJour = $plafondJour;
@@ -5934,6 +6121,7 @@ class Bulletins {
      * Set the plafond semaine.
      *
      * @param float $plafondSemaine The plafond semaine.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPlafondSemaine($plafondSemaine) {
         $this->plafondSemaine = $plafondSemaine;
@@ -5944,6 +6132,7 @@ class Bulletins {
      * Set the pourcent abat.
      *
      * @param float $pourcentAbat The pourcent abat.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPourcentAbat($pourcentAbat) {
         $this->pourcentAbat = $pourcentAbat;
@@ -5954,6 +6143,7 @@ class Bulletins {
      * Set the pourcent act force.
      *
      * @param int $pourcentActForce The pourcent act force.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPourcentActForce($pourcentActForce) {
         $this->pourcentActForce = $pourcentActForce;
@@ -5964,6 +6154,7 @@ class Bulletins {
      * Set the pourcent activite.
      *
      * @param float $pourcentActivite The pourcent activite.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPourcentActivite($pourcentActivite) {
         $this->pourcentActivite = $pourcentActivite;
@@ -5974,6 +6165,7 @@ class Bulletins {
      * Set the pourcent remu hor.
      *
      * @param float $pourcentRemuHor The pourcent remu hor.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPourcentRemuHor($pourcentRemuHor) {
         $this->pourcentRemuHor = $pourcentRemuHor;
@@ -5984,6 +6176,7 @@ class Bulletins {
      * Set the pp soumis taxe.
      *
      * @param float $ppSoumisTaxe The pp soumis taxe.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPpSoumisTaxe($ppSoumisTaxe) {
         $this->ppSoumisTaxe = $ppSoumisTaxe;
@@ -5994,6 +6187,7 @@ class Bulletins {
      * Set the prov cp.
      *
      * @param float $provCp The prov cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setProvCp($provCp) {
         $this->provCp = $provCp;
@@ -6004,6 +6198,7 @@ class Bulletins {
      * Set the prov cp1.
      *
      * @param float $provCp1 The prov cp1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setProvCp1($provCp1) {
         $this->provCp1 = $provCp1;
@@ -6014,6 +6209,7 @@ class Bulletins {
      * Set the pss1.
      *
      * @param float $pss1 The pss1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPss1($pss1) {
         $this->pss1 = $pss1;
@@ -6024,6 +6220,7 @@ class Bulletins {
      * Set the pss2.
      *
      * @param float $pss2 The pss2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPss2($pss2) {
         $this->pss2 = $pss2;
@@ -6034,6 +6231,7 @@ class Bulletins {
      * Set the pss30.
      *
      * @param bool $pss30 The pss30.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPss30($pss30) {
         $this->pss30 = $pss30;
@@ -6044,6 +6242,7 @@ class Bulletins {
      * Set the pss mod.
      *
      * @param bool $pssMod The pss mod.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setPssMod($pssMod) {
         $this->pssMod = $pssMod;
@@ -6054,6 +6253,7 @@ class Bulletins {
      * Set the remun mens.
      *
      * @param float $remunMens The remun mens.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setRemunMens($remunMens) {
         $this->remunMens = $remunMens;
@@ -6064,6 +6264,7 @@ class Bulletins {
      * Set the s base.
      *
      * @param float $sBase The s base.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSBase($sBase) {
         $this->sBase = $sBase;
@@ -6074,6 +6275,7 @@ class Bulletins {
      * Set the smic1.
      *
      * @param float $smic1 The smic1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSmic1($smic1) {
         $this->smic1 = $smic1;
@@ -6084,6 +6286,7 @@ class Bulletins {
      * Set the smic h.
      *
      * @param float $smicH The smic h.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSmicH($smicH) {
         $this->smicH = $smicH;
@@ -6094,6 +6297,7 @@ class Bulletins {
      * Set the smic h35.
      *
      * @param float $smicH35 The smic h35.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSmicH35($smicH35) {
         $this->smicH35 = $smicH35;
@@ -6104,6 +6308,7 @@ class Bulletins {
      * Set the smic h39.
      *
      * @param float $smicH39 The smic h39.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSmicH39($smicH39) {
         $this->smicH39 = $smicH39;
@@ -6114,6 +6319,7 @@ class Bulletins {
      * Set the smic m.
      *
      * @param float $smicM The smic m.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSmicM($smicM) {
         $this->smicM = $smicM;
@@ -6124,6 +6330,7 @@ class Bulletins {
      * Set the smic m35.
      *
      * @param float $smicM35 The smic m35.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSmicM35($smicM35) {
         $this->smicM35 = $smicM35;
@@ -6134,6 +6341,7 @@ class Bulletins {
      * Set the smic m39.
      *
      * @param float $smicM39 The smic m39.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSmicM39($smicM39) {
         $this->smicM39 = $smicM39;
@@ -6144,6 +6352,7 @@ class Bulletins {
      * Set the sortie mois.
      *
      * @param bool $sortieMois The sortie mois.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setSortieMois($sortieMois) {
         $this->sortieMois = $sortieMois;
@@ -6154,6 +6363,7 @@ class Bulletins {
      * Set the taux h ab cp.
      *
      * @param float $tauxHAbCp The taux h ab cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTauxHAbCp($tauxHAbCp) {
         $this->tauxHAbCp = $tauxHAbCp;
@@ -6164,6 +6374,7 @@ class Bulletins {
      * Set the taux h absence.
      *
      * @param float $tauxHAbsence The taux h absence.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTauxHAbsence($tauxHAbsence) {
         $this->tauxHAbsence = $tauxHAbsence;
@@ -6174,6 +6385,7 @@ class Bulletins {
      * Set the taux h normal.
      *
      * @param float $tauxHNormal The taux h normal.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTauxHNormal($tauxHNormal) {
         $this->tauxHNormal = $tauxHNormal;
@@ -6184,6 +6396,7 @@ class Bulletins {
      * Set the taux journalier.
      *
      * @param float $tauxJournalier The taux journalier.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTauxJournalier($tauxJournalier) {
         $this->tauxJournalier = $tauxJournalier;
@@ -6194,6 +6407,7 @@ class Bulletins {
      * Set the tot acompte.
      *
      * @param float $totAcompte The tot acompte.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTotAcompte($totAcompte) {
         $this->totAcompte = $totAcompte;
@@ -6204,6 +6418,7 @@ class Bulletins {
      * Set the tot acompte cp.
      *
      * @param float $totAcompteCp The tot acompte cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTotAcompteCp($totAcompteCp) {
         $this->totAcompteCp = $totAcompteCp;
@@ -6214,6 +6429,7 @@ class Bulletins {
      * Set the tot cotis patron.
      *
      * @param float $totCotisPatron The tot cotis patron.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTotCotisPatron($totCotisPatron) {
         $this->totCotisPatron = $totCotisPatron;
@@ -6224,6 +6440,7 @@ class Bulletins {
      * Set the tot prime ni.
      *
      * @param float $totPrimeNi The tot prime ni.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTotPrimeNi($totPrimeNi) {
         $this->totPrimeNi = $totPrimeNi;
@@ -6234,6 +6451,7 @@ class Bulletins {
      * Set the tot prime ns.
      *
      * @param float $totPrimeNs The tot prime ns.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTotPrimeNs($totPrimeNs) {
         $this->totPrimeNs = $totPrimeNs;
@@ -6244,6 +6462,7 @@ class Bulletins {
      * Set the tot retenue.
      *
      * @param float $totRetenue The tot retenue.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTotRetenue($totRetenue) {
         $this->totRetenue = $totRetenue;
@@ -6254,6 +6473,7 @@ class Bulletins {
      * Set the tr a caisse1.
      *
      * @param float $trACaisse1 The tr a caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrACaisse1($trACaisse1) {
         $this->trACaisse1 = $trACaisse1;
@@ -6264,6 +6484,7 @@ class Bulletins {
      * Set the tr a caisse2.
      *
      * @param float $trACaisse2 The tr a caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrACaisse2($trACaisse2) {
         $this->trACaisse2 = $trACaisse2;
@@ -6274,6 +6495,7 @@ class Bulletins {
      * Set the tr a caisse3.
      *
      * @param float $trACaisse3 The tr a caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrACaisse3($trACaisse3) {
         $this->trACaisse3 = $trACaisse3;
@@ -6284,6 +6506,7 @@ class Bulletins {
      * Set the tr b caisse1.
      *
      * @param float $trBCaisse1 The tr b caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrBCaisse1($trBCaisse1) {
         $this->trBCaisse1 = $trBCaisse1;
@@ -6294,6 +6517,7 @@ class Bulletins {
      * Set the tr b caisse2.
      *
      * @param float $trBCaisse2 The tr b caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrBCaisse2($trBCaisse2) {
         $this->trBCaisse2 = $trBCaisse2;
@@ -6304,6 +6528,7 @@ class Bulletins {
      * Set the tr b caisse3.
      *
      * @param float $trBCaisse3 The tr b caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrBCaisse3($trBCaisse3) {
         $this->trBCaisse3 = $trBCaisse3;
@@ -6314,6 +6539,7 @@ class Bulletins {
      * Set the tr c caisse1.
      *
      * @param float $trCCaisse1 The tr c caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrCCaisse1($trCCaisse1) {
         $this->trCCaisse1 = $trCCaisse1;
@@ -6324,6 +6550,7 @@ class Bulletins {
      * Set the tr c caisse2.
      *
      * @param float $trCCaisse2 The tr c caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrCCaisse2($trCCaisse2) {
         $this->trCCaisse2 = $trCCaisse2;
@@ -6334,6 +6561,7 @@ class Bulletins {
      * Set the tr c caisse3.
      *
      * @param float $trCCaisse3 The tr c caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrCCaisse3($trCCaisse3) {
         $this->trCCaisse3 = $trCCaisse3;
@@ -6344,6 +6572,7 @@ class Bulletins {
      * Set the tranche2.
      *
      * @param float $tranche2 The tranche2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTranche2($tranche2) {
         $this->tranche2 = $tranche2;
@@ -6354,6 +6583,7 @@ class Bulletins {
      * Set the tranche a.
      *
      * @param float $trancheA The tranche a.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheA($trancheA) {
         $this->trancheA = $trancheA;
@@ -6364,6 +6594,7 @@ class Bulletins {
      * Set the tranche abal.
      *
      * @param float $trancheAbal The tranche abal.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheAbal($trancheAbal) {
         $this->trancheAbal = $trancheAbal;
@@ -6374,6 +6605,7 @@ class Bulletins {
      * Set the tranche abanl.
      *
      * @param float $trancheAbanl The tranche abanl.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheAbanl($trancheAbanl) {
         $this->trancheAbanl = $trancheAbanl;
@@ -6384,6 +6616,7 @@ class Bulletins {
      * Set the tranche abna.
      *
      * @param float $trancheAbna The tranche abna.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheAbna($trancheAbna) {
         $this->trancheAbna = $trancheAbna;
@@ -6394,6 +6627,7 @@ class Bulletins {
      * Set the tranche b.
      *
      * @param float $trancheB The tranche b.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheB($trancheB) {
         $this->trancheB = $trancheB;
@@ -6404,6 +6638,7 @@ class Bulletins {
      * Set the tranche bbal.
      *
      * @param float $trancheBbal The tranche bbal.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheBbal($trancheBbal) {
         $this->trancheBbal = $trancheBbal;
@@ -6414,6 +6649,7 @@ class Bulletins {
      * Set the tranche bbanl.
      *
      * @param float $trancheBbanl The tranche bbanl.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheBbanl($trancheBbanl) {
         $this->trancheBbanl = $trancheBbanl;
@@ -6424,6 +6660,7 @@ class Bulletins {
      * Set the tranche bbna.
      *
      * @param float $trancheBbna The tranche bbna.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheBbna($trancheBbna) {
         $this->trancheBbna = $trancheBbna;
@@ -6434,6 +6671,7 @@ class Bulletins {
      * Set the tranche c.
      *
      * @param float $trancheC The tranche c.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheC($trancheC) {
         $this->trancheC = $trancheC;
@@ -6444,6 +6682,7 @@ class Bulletins {
      * Set the tranche c plaf.
      *
      * @param float $trancheCPlaf The tranche c plaf.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheCPlaf($trancheCPlaf) {
         $this->trancheCPlaf = $trancheCPlaf;
@@ -6454,6 +6693,7 @@ class Bulletins {
      * Set the tranche cbal.
      *
      * @param float $trancheCbal The tranche cbal.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheCbal($trancheCbal) {
         $this->trancheCbal = $trancheCbal;
@@ -6464,6 +6704,7 @@ class Bulletins {
      * Set the tranche cbanl.
      *
      * @param float $trancheCbanl The tranche cbanl.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheCbanl($trancheCbanl) {
         $this->trancheCbanl = $trancheCbanl;
@@ -6474,6 +6715,7 @@ class Bulletins {
      * Set the tranche cbna.
      *
      * @param float $trancheCbna The tranche cbna.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTrancheCbna($trancheCbna) {
         $this->trancheCbna = $trancheCbna;
@@ -6484,6 +6726,7 @@ class Bulletins {
      * Set the txt note rtf.
      *
      * @param string $txtNoteRtf The txt note rtf.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTxtNoteRtf($txtNoteRtf) {
         $this->txtNoteRtf = $txtNoteRtf;
@@ -6494,6 +6737,7 @@ class Bulletins {
      * Set the type base caisse1.
      *
      * @param string $typeBaseCaisse1 The type base caisse1.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTypeBaseCaisse1($typeBaseCaisse1) {
         $this->typeBaseCaisse1 = $typeBaseCaisse1;
@@ -6504,6 +6748,7 @@ class Bulletins {
      * Set the type base caisse2.
      *
      * @param string $typeBaseCaisse2 The type base caisse2.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTypeBaseCaisse2($typeBaseCaisse2) {
         $this->typeBaseCaisse2 = $typeBaseCaisse2;
@@ -6514,6 +6759,7 @@ class Bulletins {
      * Set the type base caisse3.
      *
      * @param string $typeBaseCaisse3 The type base caisse3.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTypeBaseCaisse3($typeBaseCaisse3) {
         $this->typeBaseCaisse3 = $typeBaseCaisse3;
@@ -6524,6 +6770,7 @@ class Bulletins {
      * Set the type gestion bal.
      *
      * @param string $typeGestionBal The type gestion bal.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTypeGestionBal($typeGestionBal) {
         $this->typeGestionBal = $typeGestionBal;
@@ -6534,6 +6781,7 @@ class Bulletins {
      * Set the type paiement bul.
      *
      * @param string $typePaiementBul The type paiement bul.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTypePaiementBul($typePaiementBul) {
         $this->typePaiementBul = $typePaiementBul;
@@ -6544,6 +6792,7 @@ class Bulletins {
      * Set the type paiment modifie.
      *
      * @param bool $typePaimentModifie The type paiment modifie.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTypePaimentModifie($typePaimentModifie) {
         $this->typePaimentModifie = $typePaimentModifie;
@@ -6554,6 +6803,7 @@ class Bulletins {
      * Set the type saisie abs.
      *
      * @param string $typeSaisieAbs The type saisie abs.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTypeSaisieAbs($typeSaisieAbs) {
         $this->typeSaisieAbs = $typeSaisieAbs;
@@ -6564,6 +6814,7 @@ class Bulletins {
      * Set the type saisie absence.
      *
      * @param string $typeSaisieAbsence The type saisie absence.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setTypeSaisieAbsence($typeSaisieAbsence) {
         $this->typeSaisieAbsence = $typeSaisieAbsence;
@@ -6574,6 +6825,7 @@ class Bulletins {
      * Set the valorise cp.
      *
      * @param float $valoriseCp The valorise cp.
+     * @return Bulletins Returns this Bulletins.
      */
     public function setValoriseCp($valoriseCp) {
         $this->valoriseCp = $valoriseCp;

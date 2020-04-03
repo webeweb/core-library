@@ -78,6 +78,7 @@ class Trames {
      * Set the code.
      *
      * @param int $code The code.
+     * @return Trames Returns this Trames.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -88,6 +89,7 @@ class Trames {
      * Set the garde montants.
      *
      * @param bool $gardeMontants The garde montants.
+     * @return Trames Returns this Trames.
      */
     public function setGardeMontants($gardeMontants) {
         $this->gardeMontants = $gardeMontants;
@@ -98,6 +100,7 @@ class Trames {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Trames Returns this Trames.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

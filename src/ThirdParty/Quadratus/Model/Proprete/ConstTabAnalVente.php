@@ -110,6 +110,7 @@ class ConstTabAnalVente {
      * Set the code anal article.
      *
      * @param string $codeAnalArticle The code anal article.
+     * @return ConstTabAnalVente Returns this Const tab anal vente.
      */
     public function setCodeAnalArticle($codeAnalArticle) {
         $this->codeAnalArticle = $codeAnalArticle;
@@ -120,6 +121,7 @@ class ConstTabAnalVente {
      * Set the code anal client.
      *
      * @param string $codeAnalClient The code anal client.
+     * @return ConstTabAnalVente Returns this Const tab anal vente.
      */
     public function setCodeAnalClient($codeAnalClient) {
         $this->codeAnalClient = $codeAnalClient;
@@ -130,6 +132,7 @@ class ConstTabAnalVente {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return ConstTabAnalVente Returns this Const tab anal vente.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -140,6 +143,7 @@ class ConstTabAnalVente {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return ConstTabAnalVente Returns this Const tab anal vente.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -150,6 +154,7 @@ class ConstTabAnalVente {
      * Set the type.
      *
      * @param string $type The type.
+     * @return ConstTabAnalVente Returns this Const tab anal vente.
      */
     public function setType($type) {
         $this->type = $type;

@@ -1856,6 +1856,7 @@ class SuiviClient {
      * Set the bilan commentaire date.
      *
      * @param DateTime|null $bilanCommentaireDate The bilan commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setBilanCommentaireDate(DateTime $bilanCommentaireDate = null) {
         $this->bilanCommentaireDate = $bilanCommentaireDate;
@@ -1866,6 +1867,7 @@ class SuiviClient {
      * Set the bilan commentaire lib.
      *
      * @param string $bilanCommentaireLib The bilan commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setBilanCommentaireLib($bilanCommentaireLib) {
         $this->bilanCommentaireLib = $bilanCommentaireLib;
@@ -1876,6 +1878,7 @@ class SuiviClient {
      * Set the bull commentaire date.
      *
      * @param DateTime|null $bullCommentaireDate The bull commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setBullCommentaireDate(DateTime $bullCommentaireDate = null) {
         $this->bullCommentaireDate = $bullCommentaireDate;
@@ -1886,6 +1889,7 @@ class SuiviClient {
      * Set the bull commentaire lib.
      *
      * @param string $bullCommentaireLib The bull commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setBullCommentaireLib($bullCommentaireLib) {
         $this->bullCommentaireLib = $bullCommentaireLib;
@@ -1896,6 +1900,7 @@ class SuiviClient {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -1906,6 +1911,7 @@ class SuiviClient {
      * Set the dads u commentaire date.
      *
      * @param DateTime|null $dadsUCommentaireDate The dads u commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDadsUCommentaireDate(DateTime $dadsUCommentaireDate = null) {
         $this->dadsUCommentaireDate = $dadsUCommentaireDate;
@@ -1916,6 +1922,7 @@ class SuiviClient {
      * Set the dads u commentaire lib.
      *
      * @param string $dadsUCommentaireLib The dads u commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDadsUCommentaireLib($dadsUCommentaireLib) {
         $this->dadsUCommentaireLib = $dadsUCommentaireLib;
@@ -1926,6 +1933,7 @@ class SuiviClient {
      * Set the das2 commentaire date.
      *
      * @param DateTime|null $das2CommentaireDate The das2 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDas2CommentaireDate(DateTime $das2CommentaireDate = null) {
         $this->das2CommentaireDate = $das2CommentaireDate;
@@ -1936,6 +1944,7 @@ class SuiviClient {
      * Set the das2 commentaire lib.
      *
      * @param string $das2CommentaireLib The das2 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDas2CommentaireLib($das2CommentaireLib) {
         $this->das2CommentaireLib = $das2CommentaireLib;
@@ -1946,6 +1955,7 @@ class SuiviClient {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -1956,6 +1966,7 @@ class SuiviClient {
      * Set the dcr commentaire date.
      *
      * @param DateTime|null $dcrCommentaireDate The dcr commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDcrCommentaireDate(DateTime $dcrCommentaireDate = null) {
         $this->dcrCommentaireDate = $dcrCommentaireDate;
@@ -1966,6 +1977,7 @@ class SuiviClient {
      * Set the dcr commentaire lib.
      *
      * @param string $dcrCommentaireLib The dcr commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDcrCommentaireLib($dcrCommentaireLib) {
         $this->dcrCommentaireLib = $dcrCommentaireLib;
@@ -1976,6 +1988,7 @@ class SuiviClient {
      * Set the dcr date limite.
      *
      * @param DateTime|null $dcrDateLimite The dcr date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDcrDateLimite(DateTime $dcrDateLimite = null) {
         $this->dcrDateLimite = $dcrDateLimite;
@@ -1986,6 +1999,7 @@ class SuiviClient {
      * Set the dsi commentaire date.
      *
      * @param DateTime|null $dsiCommentaireDate The dsi commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDsiCommentaireDate(DateTime $dsiCommentaireDate = null) {
         $this->dsiCommentaireDate = $dsiCommentaireDate;
@@ -1996,6 +2010,7 @@ class SuiviClient {
      * Set the dsi commentaire lib.
      *
      * @param string $dsiCommentaireLib The dsi commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDsiCommentaireLib($dsiCommentaireLib) {
         $this->dsiCommentaireLib = $dsiCommentaireLib;
@@ -2006,6 +2021,7 @@ class SuiviClient {
      * Set the ducs assedic commentaire date.
      *
      * @param DateTime|null $ducsAssedicCommentaireDate The ducs assedic commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDucsAssedicCommentaireDate(DateTime $ducsAssedicCommentaireDate = null) {
         $this->ducsAssedicCommentaireDate = $ducsAssedicCommentaireDate;
@@ -2016,6 +2032,7 @@ class SuiviClient {
      * Set the ducs assedic commentaire lib.
      *
      * @param string $ducsAssedicCommentaireLib The ducs assedic commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDucsAssedicCommentaireLib($ducsAssedicCommentaireLib) {
         $this->ducsAssedicCommentaireLib = $ducsAssedicCommentaireLib;
@@ -2026,6 +2043,7 @@ class SuiviClient {
      * Set the ducs urssaf commentaire date.
      *
      * @param DateTime|null $ducsUrssafCommentaireDate The ducs urssaf commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDucsUrssafCommentaireDate(DateTime $ducsUrssafCommentaireDate = null) {
         $this->ducsUrssafCommentaireDate = $ducsUrssafCommentaireDate;
@@ -2036,6 +2054,7 @@ class SuiviClient {
      * Set the ducs urssaf commentaire lib.
      *
      * @param string $ducsUrssafCommentaireLib The ducs urssaf commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setDucsUrssafCommentaireLib($ducsUrssafCommentaireLib) {
         $this->ducsUrssafCommentaireLib = $ducsUrssafCommentaireLib;
@@ -2046,6 +2065,7 @@ class SuiviClient {
      * Set the facturation commentaire date.
      *
      * @param DateTime|null $facturationCommentaireDate The facturation commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFacturationCommentaireDate(DateTime $facturationCommentaireDate = null) {
         $this->facturationCommentaireDate = $facturationCommentaireDate;
@@ -2056,6 +2076,7 @@ class SuiviClient {
      * Set the facturation commentaire lib.
      *
      * @param string $facturationCommentaireLib The facturation commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFacturationCommentaireLib($facturationCommentaireLib) {
         $this->facturationCommentaireLib = $facturationCommentaireLib;
@@ -2066,6 +2087,7 @@ class SuiviClient {
      * Set the fait bilan.
      *
      * @param string $faitBilan The fait bilan.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitBilan($faitBilan) {
         $this->faitBilan = $faitBilan;
@@ -2076,6 +2098,7 @@ class SuiviClient {
      * Set the fait cvae.
      *
      * @param string $faitCvae The fait cvae.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitCvae($faitCvae) {
         $this->faitCvae = $faitCvae;
@@ -2086,6 +2109,7 @@ class SuiviClient {
      * Set the fait das2.
      *
      * @param string $faitDas2 The fait das2.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitDas2($faitDas2) {
         $this->faitDas2 = $faitDas2;
@@ -2096,6 +2120,7 @@ class SuiviClient {
      * Set the fait dcr.
      *
      * @param string $faitDcr The fait dcr.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitDcr($faitDcr) {
         $this->faitDcr = $faitDcr;
@@ -2106,6 +2131,7 @@ class SuiviClient {
      * Set the fait generic1.
      *
      * @param string $faitGeneric1 The fait generic1.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric1($faitGeneric1) {
         $this->faitGeneric1 = $faitGeneric1;
@@ -2116,6 +2142,7 @@ class SuiviClient {
      * Set the fait generic10.
      *
      * @param string $faitGeneric10 The fait generic10.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric10($faitGeneric10) {
         $this->faitGeneric10 = $faitGeneric10;
@@ -2126,6 +2153,7 @@ class SuiviClient {
      * Set the fait generic2.
      *
      * @param string $faitGeneric2 The fait generic2.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric2($faitGeneric2) {
         $this->faitGeneric2 = $faitGeneric2;
@@ -2136,6 +2164,7 @@ class SuiviClient {
      * Set the fait generic3.
      *
      * @param string $faitGeneric3 The fait generic3.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric3($faitGeneric3) {
         $this->faitGeneric3 = $faitGeneric3;
@@ -2146,6 +2175,7 @@ class SuiviClient {
      * Set the fait generic4.
      *
      * @param string $faitGeneric4 The fait generic4.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric4($faitGeneric4) {
         $this->faitGeneric4 = $faitGeneric4;
@@ -2156,6 +2186,7 @@ class SuiviClient {
      * Set the fait generic5.
      *
      * @param string $faitGeneric5 The fait generic5.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric5($faitGeneric5) {
         $this->faitGeneric5 = $faitGeneric5;
@@ -2166,6 +2197,7 @@ class SuiviClient {
      * Set the fait generic6.
      *
      * @param string $faitGeneric6 The fait generic6.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric6($faitGeneric6) {
         $this->faitGeneric6 = $faitGeneric6;
@@ -2176,6 +2208,7 @@ class SuiviClient {
      * Set the fait generic7.
      *
      * @param string $faitGeneric7 The fait generic7.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric7($faitGeneric7) {
         $this->faitGeneric7 = $faitGeneric7;
@@ -2186,6 +2219,7 @@ class SuiviClient {
      * Set the fait generic8.
      *
      * @param string $faitGeneric8 The fait generic8.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric8($faitGeneric8) {
         $this->faitGeneric8 = $faitGeneric8;
@@ -2196,6 +2230,7 @@ class SuiviClient {
      * Set the fait generic9.
      *
      * @param string $faitGeneric9 The fait generic9.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitGeneric9($faitGeneric9) {
         $this->faitGeneric9 = $faitGeneric9;
@@ -2206,6 +2241,7 @@ class SuiviClient {
      * Set the fait ifu.
      *
      * @param string $faitIfu The fait ifu.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitIfu($faitIfu) {
         $this->faitIfu = $faitIfu;
@@ -2216,6 +2252,7 @@ class SuiviClient {
      * Set the fait impot revenu.
      *
      * @param string $faitImpotRevenu The fait impot revenu.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitImpotRevenu($faitImpotRevenu) {
         $this->faitImpotRevenu = $faitImpotRevenu;
@@ -2226,6 +2263,7 @@ class SuiviClient {
      * Set the fait isa.
      *
      * @param string $faitIsa The fait isa.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitIsa($faitIsa) {
         $this->faitIsa = $faitIsa;
@@ -2236,6 +2274,7 @@ class SuiviClient {
      * Set the fait isf.
      *
      * @param string $faitIsf The fait isf.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitIsf($faitIsf) {
         $this->faitIsf = $faitIsf;
@@ -2246,6 +2285,7 @@ class SuiviClient {
      * Set the fait isr.
      *
      * @param string $faitIsr The fait isr.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitIsr($faitIsr) {
         $this->faitIsr = $faitIsr;
@@ -2256,6 +2296,7 @@ class SuiviClient {
      * Set the fait iss.
      *
      * @param string $faitIss The fait iss.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitIss($faitIss) {
         $this->faitIss = $faitIss;
@@ -2266,6 +2307,7 @@ class SuiviClient {
      * Set the fait plaf tp.
      *
      * @param string $faitPlafTp The fait plaf tp.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitPlafTp($faitPlafTp) {
         $this->faitPlafTp = $faitPlafTp;
@@ -2276,6 +2318,7 @@ class SuiviClient {
      * Set the fait pre lib.
      *
      * @param string $faitPreLib The fait pre lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitPreLib($faitPreLib) {
         $this->faitPreLib = $faitPreLib;
@@ -2286,6 +2329,7 @@ class SuiviClient {
      * Set the fait situation.
      *
      * @param string $faitSituation The fait situation.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitSituation($faitSituation) {
         $this->faitSituation = $faitSituation;
@@ -2296,6 +2340,7 @@ class SuiviClient {
      * Set the fait tab bord.
      *
      * @param string $faitTabBord The fait tab bord.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitTabBord($faitTabBord) {
         $this->faitTabBord = $faitTabBord;
@@ -2306,6 +2351,7 @@ class SuiviClient {
      * Set the fait tp.
      *
      * @param string $faitTp The fait tp.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitTp($faitTp) {
         $this->faitTp = $faitTp;
@@ -2316,6 +2362,7 @@ class SuiviClient {
      * Set the fait tva.
      *
      * @param string $faitTva The fait tva.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitTva($faitTva) {
         $this->faitTva = $faitTva;
@@ -2326,6 +2373,7 @@ class SuiviClient {
      * Set the fait tvs.
      *
      * @param string $faitTvs The fait tvs.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setFaitTvs($faitTvs) {
         $this->faitTvs = $faitTvs;
@@ -2336,6 +2384,7 @@ class SuiviClient {
      * Set the generic10 commentaire date.
      *
      * @param DateTime|null $generic10CommentaireDate The generic10 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric10CommentaireDate(DateTime $generic10CommentaireDate = null) {
         $this->generic10CommentaireDate = $generic10CommentaireDate;
@@ -2346,6 +2395,7 @@ class SuiviClient {
      * Set the generic10 commentaire lib.
      *
      * @param string $generic10CommentaireLib The generic10 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric10CommentaireLib($generic10CommentaireLib) {
         $this->generic10CommentaireLib = $generic10CommentaireLib;
@@ -2356,6 +2406,7 @@ class SuiviClient {
      * Set the generic10 date limite.
      *
      * @param DateTime|null $generic10DateLimite The generic10 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric10DateLimite(DateTime $generic10DateLimite = null) {
         $this->generic10DateLimite = $generic10DateLimite;
@@ -2366,6 +2417,7 @@ class SuiviClient {
      * Set the generic1 commentaire date.
      *
      * @param DateTime|null $generic1CommentaireDate The generic1 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric1CommentaireDate(DateTime $generic1CommentaireDate = null) {
         $this->generic1CommentaireDate = $generic1CommentaireDate;
@@ -2376,6 +2428,7 @@ class SuiviClient {
      * Set the generic1 commentaire lib.
      *
      * @param string $generic1CommentaireLib The generic1 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric1CommentaireLib($generic1CommentaireLib) {
         $this->generic1CommentaireLib = $generic1CommentaireLib;
@@ -2386,6 +2439,7 @@ class SuiviClient {
      * Set the generic1 date limite.
      *
      * @param DateTime|null $generic1DateLimite The generic1 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric1DateLimite(DateTime $generic1DateLimite = null) {
         $this->generic1DateLimite = $generic1DateLimite;
@@ -2396,6 +2450,7 @@ class SuiviClient {
      * Set the generic2 commentaire date.
      *
      * @param DateTime|null $generic2CommentaireDate The generic2 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric2CommentaireDate(DateTime $generic2CommentaireDate = null) {
         $this->generic2CommentaireDate = $generic2CommentaireDate;
@@ -2406,6 +2461,7 @@ class SuiviClient {
      * Set the generic2 commentaire lib.
      *
      * @param string $generic2CommentaireLib The generic2 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric2CommentaireLib($generic2CommentaireLib) {
         $this->generic2CommentaireLib = $generic2CommentaireLib;
@@ -2416,6 +2472,7 @@ class SuiviClient {
      * Set the generic2 date limite.
      *
      * @param DateTime|null $generic2DateLimite The generic2 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric2DateLimite(DateTime $generic2DateLimite = null) {
         $this->generic2DateLimite = $generic2DateLimite;
@@ -2426,6 +2483,7 @@ class SuiviClient {
      * Set the generic3 commentaire date.
      *
      * @param DateTime|null $generic3CommentaireDate The generic3 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric3CommentaireDate(DateTime $generic3CommentaireDate = null) {
         $this->generic3CommentaireDate = $generic3CommentaireDate;
@@ -2436,6 +2494,7 @@ class SuiviClient {
      * Set the generic3 commentaire lib.
      *
      * @param string $generic3CommentaireLib The generic3 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric3CommentaireLib($generic3CommentaireLib) {
         $this->generic3CommentaireLib = $generic3CommentaireLib;
@@ -2446,6 +2505,7 @@ class SuiviClient {
      * Set the generic3 date limite.
      *
      * @param DateTime|null $generic3DateLimite The generic3 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric3DateLimite(DateTime $generic3DateLimite = null) {
         $this->generic3DateLimite = $generic3DateLimite;
@@ -2456,6 +2516,7 @@ class SuiviClient {
      * Set the generic4 commentaire date.
      *
      * @param DateTime|null $generic4CommentaireDate The generic4 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric4CommentaireDate(DateTime $generic4CommentaireDate = null) {
         $this->generic4CommentaireDate = $generic4CommentaireDate;
@@ -2466,6 +2527,7 @@ class SuiviClient {
      * Set the generic4 commentaire lib.
      *
      * @param string $generic4CommentaireLib The generic4 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric4CommentaireLib($generic4CommentaireLib) {
         $this->generic4CommentaireLib = $generic4CommentaireLib;
@@ -2476,6 +2538,7 @@ class SuiviClient {
      * Set the generic4 date limite.
      *
      * @param DateTime|null $generic4DateLimite The generic4 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric4DateLimite(DateTime $generic4DateLimite = null) {
         $this->generic4DateLimite = $generic4DateLimite;
@@ -2486,6 +2549,7 @@ class SuiviClient {
      * Set the generic5 commentaire date.
      *
      * @param DateTime|null $generic5CommentaireDate The generic5 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric5CommentaireDate(DateTime $generic5CommentaireDate = null) {
         $this->generic5CommentaireDate = $generic5CommentaireDate;
@@ -2496,6 +2560,7 @@ class SuiviClient {
      * Set the generic5 commentaire lib.
      *
      * @param string $generic5CommentaireLib The generic5 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric5CommentaireLib($generic5CommentaireLib) {
         $this->generic5CommentaireLib = $generic5CommentaireLib;
@@ -2506,6 +2571,7 @@ class SuiviClient {
      * Set the generic5 date limite.
      *
      * @param DateTime|null $generic5DateLimite The generic5 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric5DateLimite(DateTime $generic5DateLimite = null) {
         $this->generic5DateLimite = $generic5DateLimite;
@@ -2516,6 +2582,7 @@ class SuiviClient {
      * Set the generic6 commentaire date.
      *
      * @param DateTime|null $generic6CommentaireDate The generic6 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric6CommentaireDate(DateTime $generic6CommentaireDate = null) {
         $this->generic6CommentaireDate = $generic6CommentaireDate;
@@ -2526,6 +2593,7 @@ class SuiviClient {
      * Set the generic6 commentaire lib.
      *
      * @param string $generic6CommentaireLib The generic6 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric6CommentaireLib($generic6CommentaireLib) {
         $this->generic6CommentaireLib = $generic6CommentaireLib;
@@ -2536,6 +2604,7 @@ class SuiviClient {
      * Set the generic6 date limite.
      *
      * @param DateTime|null $generic6DateLimite The generic6 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric6DateLimite(DateTime $generic6DateLimite = null) {
         $this->generic6DateLimite = $generic6DateLimite;
@@ -2546,6 +2615,7 @@ class SuiviClient {
      * Set the generic7 commentaire date.
      *
      * @param DateTime|null $generic7CommentaireDate The generic7 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric7CommentaireDate(DateTime $generic7CommentaireDate = null) {
         $this->generic7CommentaireDate = $generic7CommentaireDate;
@@ -2556,6 +2626,7 @@ class SuiviClient {
      * Set the generic7 commentaire lib.
      *
      * @param string $generic7CommentaireLib The generic7 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric7CommentaireLib($generic7CommentaireLib) {
         $this->generic7CommentaireLib = $generic7CommentaireLib;
@@ -2566,6 +2637,7 @@ class SuiviClient {
      * Set the generic7 date limite.
      *
      * @param DateTime|null $generic7DateLimite The generic7 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric7DateLimite(DateTime $generic7DateLimite = null) {
         $this->generic7DateLimite = $generic7DateLimite;
@@ -2576,6 +2648,7 @@ class SuiviClient {
      * Set the generic8 commentaire date.
      *
      * @param DateTime|null $generic8CommentaireDate The generic8 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric8CommentaireDate(DateTime $generic8CommentaireDate = null) {
         $this->generic8CommentaireDate = $generic8CommentaireDate;
@@ -2586,6 +2659,7 @@ class SuiviClient {
      * Set the generic8 commentaire lib.
      *
      * @param string $generic8CommentaireLib The generic8 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric8CommentaireLib($generic8CommentaireLib) {
         $this->generic8CommentaireLib = $generic8CommentaireLib;
@@ -2596,6 +2670,7 @@ class SuiviClient {
      * Set the generic8 date limite.
      *
      * @param DateTime|null $generic8DateLimite The generic8 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric8DateLimite(DateTime $generic8DateLimite = null) {
         $this->generic8DateLimite = $generic8DateLimite;
@@ -2606,6 +2681,7 @@ class SuiviClient {
      * Set the generic9 commentaire date.
      *
      * @param DateTime|null $generic9CommentaireDate The generic9 commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric9CommentaireDate(DateTime $generic9CommentaireDate = null) {
         $this->generic9CommentaireDate = $generic9CommentaireDate;
@@ -2616,6 +2692,7 @@ class SuiviClient {
      * Set the generic9 commentaire lib.
      *
      * @param string $generic9CommentaireLib The generic9 commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric9CommentaireLib($generic9CommentaireLib) {
         $this->generic9CommentaireLib = $generic9CommentaireLib;
@@ -2626,6 +2703,7 @@ class SuiviClient {
      * Set the generic9 date limite.
      *
      * @param DateTime|null $generic9DateLimite The generic9 date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setGeneric9DateLimite(DateTime $generic9DateLimite = null) {
         $this->generic9DateLimite = $generic9DateLimite;
@@ -2636,6 +2714,7 @@ class SuiviClient {
      * Set the ifu commentaire date.
      *
      * @param DateTime|null $ifuCommentaireDate The ifu commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIfuCommentaireDate(DateTime $ifuCommentaireDate = null) {
         $this->ifuCommentaireDate = $ifuCommentaireDate;
@@ -2646,6 +2725,7 @@ class SuiviClient {
      * Set the ifu commentaire lib.
      *
      * @param string $ifuCommentaireLib The ifu commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIfuCommentaireLib($ifuCommentaireLib) {
         $this->ifuCommentaireLib = $ifuCommentaireLib;
@@ -2656,6 +2736,7 @@ class SuiviClient {
      * Set the impot revenu commentaire date.
      *
      * @param DateTime|null $impotRevenuCommentaireDate The impot revenu commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setImpotRevenuCommentaireDate(DateTime $impotRevenuCommentaireDate = null) {
         $this->impotRevenuCommentaireDate = $impotRevenuCommentaireDate;
@@ -2666,6 +2747,7 @@ class SuiviClient {
      * Set the impot revenu commentaire lib.
      *
      * @param string $impotRevenuCommentaireLib The impot revenu commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setImpotRevenuCommentaireLib($impotRevenuCommentaireLib) {
         $this->impotRevenuCommentaireLib = $impotRevenuCommentaireLib;
@@ -2676,6 +2758,7 @@ class SuiviClient {
      * Set the impot revenu date limite.
      *
      * @param DateTime|null $impotRevenuDateLimite The impot revenu date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setImpotRevenuDateLimite(DateTime $impotRevenuDateLimite = null) {
         $this->impotRevenuDateLimite = $impotRevenuDateLimite;
@@ -2686,6 +2769,7 @@ class SuiviClient {
      * Set the isa commentaire date.
      *
      * @param DateTime|null $isaCommentaireDate The isa commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIsaCommentaireDate(DateTime $isaCommentaireDate = null) {
         $this->isaCommentaireDate = $isaCommentaireDate;
@@ -2696,6 +2780,7 @@ class SuiviClient {
      * Set the isa commentaire lib.
      *
      * @param string $isaCommentaireLib The isa commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIsaCommentaireLib($isaCommentaireLib) {
         $this->isaCommentaireLib = $isaCommentaireLib;
@@ -2706,6 +2791,7 @@ class SuiviClient {
      * Set the isf commentaire date.
      *
      * @param DateTime|null $isfCommentaireDate The isf commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIsfCommentaireDate(DateTime $isfCommentaireDate = null) {
         $this->isfCommentaireDate = $isfCommentaireDate;
@@ -2716,6 +2802,7 @@ class SuiviClient {
      * Set the isf commentaire lib.
      *
      * @param string $isfCommentaireLib The isf commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIsfCommentaireLib($isfCommentaireLib) {
         $this->isfCommentaireLib = $isfCommentaireLib;
@@ -2726,6 +2813,7 @@ class SuiviClient {
      * Set the isf date limite.
      *
      * @param DateTime|null $isfDateLimite The isf date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIsfDateLimite(DateTime $isfDateLimite = null) {
         $this->isfDateLimite = $isfDateLimite;
@@ -2736,6 +2824,7 @@ class SuiviClient {
      * Set the isr commentaire date.
      *
      * @param DateTime|null $isrCommentaireDate The isr commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIsrCommentaireDate(DateTime $isrCommentaireDate = null) {
         $this->isrCommentaireDate = $isrCommentaireDate;
@@ -2746,6 +2835,7 @@ class SuiviClient {
      * Set the isr commentaire lib.
      *
      * @param string $isrCommentaireLib The isr commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIsrCommentaireLib($isrCommentaireLib) {
         $this->isrCommentaireLib = $isrCommentaireLib;
@@ -2756,6 +2846,7 @@ class SuiviClient {
      * Set the iss commentaire date.
      *
      * @param DateTime|null $issCommentaireDate The iss commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIssCommentaireDate(DateTime $issCommentaireDate = null) {
         $this->issCommentaireDate = $issCommentaireDate;
@@ -2766,6 +2857,7 @@ class SuiviClient {
      * Set the iss commentaire lib.
      *
      * @param string $issCommentaireLib The iss commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setIssCommentaireLib($issCommentaireLib) {
         $this->issCommentaireLib = $issCommentaireLib;
@@ -2776,6 +2868,7 @@ class SuiviClient {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -2786,6 +2879,7 @@ class SuiviClient {
      * Set the plaf tp commentaire date.
      *
      * @param DateTime|null $plafTpCommentaireDate The plaf tp commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setPlafTpCommentaireDate(DateTime $plafTpCommentaireDate = null) {
         $this->plafTpCommentaireDate = $plafTpCommentaireDate;
@@ -2796,6 +2890,7 @@ class SuiviClient {
      * Set the plaf tp commentaire lib.
      *
      * @param string $plafTpCommentaireLib The plaf tp commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setPlafTpCommentaireLib($plafTpCommentaireLib) {
         $this->plafTpCommentaireLib = $plafTpCommentaireLib;
@@ -2806,6 +2901,7 @@ class SuiviClient {
      * Set the pre lib commentaire date.
      *
      * @param DateTime|null $preLibCommentaireDate The pre lib commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setPreLibCommentaireDate(DateTime $preLibCommentaireDate = null) {
         $this->preLibCommentaireDate = $preLibCommentaireDate;
@@ -2816,6 +2912,7 @@ class SuiviClient {
      * Set the pre lib commentaire lib.
      *
      * @param string $preLibCommentaireLib The pre lib commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setPreLibCommentaireLib($preLibCommentaireLib) {
         $this->preLibCommentaireLib = $preLibCommentaireLib;
@@ -2826,6 +2923,7 @@ class SuiviClient {
      * Set the pre lib date limite.
      *
      * @param DateTime|null $preLibDateLimite The pre lib date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setPreLibDateLimite(DateTime $preLibDateLimite = null) {
         $this->preLibDateLimite = $preLibDateLimite;
@@ -2836,6 +2934,7 @@ class SuiviClient {
      * Set the situation commentaire date.
      *
      * @param DateTime|null $situationCommentaireDate The situation commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setSituationCommentaireDate(DateTime $situationCommentaireDate = null) {
         $this->situationCommentaireDate = $situationCommentaireDate;
@@ -2846,6 +2945,7 @@ class SuiviClient {
      * Set the situation commentaire lib.
      *
      * @param string $situationCommentaireLib The situation commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setSituationCommentaireLib($situationCommentaireLib) {
         $this->situationCommentaireLib = $situationCommentaireLib;
@@ -2856,6 +2956,7 @@ class SuiviClient {
      * Set the situation date limite.
      *
      * @param DateTime|null $situationDateLimite The situation date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setSituationDateLimite(DateTime $situationDateLimite = null) {
         $this->situationDateLimite = $situationDateLimite;
@@ -2866,6 +2967,7 @@ class SuiviClient {
      * Set the tab bord commentaire date.
      *
      * @param DateTime|null $tabBordCommentaireDate The tab bord commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTabBordCommentaireDate(DateTime $tabBordCommentaireDate = null) {
         $this->tabBordCommentaireDate = $tabBordCommentaireDate;
@@ -2876,6 +2978,7 @@ class SuiviClient {
      * Set the tab bord commentaire lib.
      *
      * @param string $tabBordCommentaireLib The tab bord commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTabBordCommentaireLib($tabBordCommentaireLib) {
         $this->tabBordCommentaireLib = $tabBordCommentaireLib;
@@ -2886,6 +2989,7 @@ class SuiviClient {
      * Set the tab bord date limite.
      *
      * @param DateTime|null $tabBordDateLimite The tab bord date limite.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTabBordDateLimite(DateTime $tabBordDateLimite = null) {
         $this->tabBordDateLimite = $tabBordDateLimite;
@@ -2896,6 +3000,7 @@ class SuiviClient {
      * Set the tp commentaire date.
      *
      * @param DateTime|null $tpCommentaireDate The tp commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTpCommentaireDate(DateTime $tpCommentaireDate = null) {
         $this->tpCommentaireDate = $tpCommentaireDate;
@@ -2906,6 +3011,7 @@ class SuiviClient {
      * Set the tp commentaire lib.
      *
      * @param string $tpCommentaireLib The tp commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTpCommentaireLib($tpCommentaireLib) {
         $this->tpCommentaireLib = $tpCommentaireLib;
@@ -2916,6 +3022,7 @@ class SuiviClient {
      * Set the tsa commentaire date.
      *
      * @param DateTime|null $tsaCommentaireDate The tsa commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTsaCommentaireDate(DateTime $tsaCommentaireDate = null) {
         $this->tsaCommentaireDate = $tsaCommentaireDate;
@@ -2926,6 +3033,7 @@ class SuiviClient {
      * Set the tsa commentaire lib.
      *
      * @param string $tsaCommentaireLib The tsa commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTsaCommentaireLib($tsaCommentaireLib) {
         $this->tsaCommentaireLib = $tsaCommentaireLib;
@@ -2936,6 +3044,7 @@ class SuiviClient {
      * Set the tss commentaire date.
      *
      * @param DateTime|null $tssCommentaireDate The tss commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTssCommentaireDate(DateTime $tssCommentaireDate = null) {
         $this->tssCommentaireDate = $tssCommentaireDate;
@@ -2946,6 +3055,7 @@ class SuiviClient {
      * Set the tss commentaire lib.
      *
      * @param string $tssCommentaireLib The tss commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTssCommentaireLib($tssCommentaireLib) {
         $this->tssCommentaireLib = $tssCommentaireLib;
@@ -2956,6 +3066,7 @@ class SuiviClient {
      * Set the tva commentaire date.
      *
      * @param DateTime|null $tvaCommentaireDate The tva commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTvaCommentaireDate(DateTime $tvaCommentaireDate = null) {
         $this->tvaCommentaireDate = $tvaCommentaireDate;
@@ -2966,6 +3077,7 @@ class SuiviClient {
      * Set the tva commentaire lib.
      *
      * @param string $tvaCommentaireLib The tva commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTvaCommentaireLib($tvaCommentaireLib) {
         $this->tvaCommentaireLib = $tvaCommentaireLib;
@@ -2976,6 +3088,7 @@ class SuiviClient {
      * Set the tvs commentaire date.
      *
      * @param DateTime|null $tvsCommentaireDate The tvs commentaire date.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTvsCommentaireDate(DateTime $tvsCommentaireDate = null) {
         $this->tvsCommentaireDate = $tvsCommentaireDate;
@@ -2986,6 +3099,7 @@ class SuiviClient {
      * Set the tvs commentaire lib.
      *
      * @param string $tvsCommentaireLib The tvs commentaire lib.
+     * @return SuiviClient Returns this Suivi client.
      */
     public function setTvsCommentaireLib($tvsCommentaireLib) {
         $this->tvsCommentaireLib = $tvsCommentaireLib;

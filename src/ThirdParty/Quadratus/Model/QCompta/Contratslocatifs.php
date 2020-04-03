@@ -688,6 +688,7 @@ class Contratslocatifs {
      * Set the caution.
      *
      * @param float $caution The caution.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setCaution($caution) {
         $this->caution = $caution;
@@ -698,6 +699,7 @@ class Contratslocatifs {
      * Set the caution2.
      *
      * @param float $caution2 The caution2.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setCaution2($caution2) {
         $this->caution2 = $caution2;
@@ -708,6 +710,7 @@ class Contratslocatifs {
      * Set the caution3.
      *
      * @param float $caution3 The caution3.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setCaution3($caution3) {
         $this->caution3 = $caution3;
@@ -718,6 +721,7 @@ class Contratslocatifs {
      * Set the caution4.
      *
      * @param float $caution4 The caution4.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setCaution4($caution4) {
         $this->caution4 = $caution4;
@@ -728,6 +732,7 @@ class Contratslocatifs {
      * Set the caution5.
      *
      * @param float $caution5 The caution5.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setCaution5($caution5) {
         $this->caution5 = $caution5;
@@ -738,6 +743,7 @@ class Contratslocatifs {
      * Set the clausespeciale.
      *
      * @param string $clausespeciale The clausespeciale.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setClausespeciale($clausespeciale) {
         $this->clausespeciale = $clausespeciale;
@@ -748,6 +754,7 @@ class Contratslocatifs {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -758,6 +765,7 @@ class Contratslocatifs {
      * Set the date anniversaire.
      *
      * @param string $dateAnniversaire The date anniversaire.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateAnniversaire($dateAnniversaire) {
         $this->dateAnniversaire = $dateAnniversaire;
@@ -768,6 +776,7 @@ class Contratslocatifs {
      * Set the date caution.
      *
      * @param DateTime|null $dateCaution The date caution.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateCaution(DateTime $dateCaution = null) {
         $this->dateCaution = $dateCaution;
@@ -778,6 +787,7 @@ class Contratslocatifs {
      * Set the date caution2.
      *
      * @param DateTime|null $dateCaution2 The date caution2.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateCaution2(DateTime $dateCaution2 = null) {
         $this->dateCaution2 = $dateCaution2;
@@ -788,6 +798,7 @@ class Contratslocatifs {
      * Set the date caution3.
      *
      * @param DateTime|null $dateCaution3 The date caution3.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateCaution3(DateTime $dateCaution3 = null) {
         $this->dateCaution3 = $dateCaution3;
@@ -798,6 +809,7 @@ class Contratslocatifs {
      * Set the date caution4.
      *
      * @param DateTime|null $dateCaution4 The date caution4.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateCaution4(DateTime $dateCaution4 = null) {
         $this->dateCaution4 = $dateCaution4;
@@ -808,6 +820,7 @@ class Contratslocatifs {
      * Set the date caution5.
      *
      * @param DateTime|null $dateCaution5 The date caution5.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateCaution5(DateTime $dateCaution5 = null) {
         $this->dateCaution5 = $dateCaution5;
@@ -818,6 +831,7 @@ class Contratslocatifs {
      * Set the date signature.
      *
      * @param DateTime|null $dateSignature The date signature.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateSignature(DateTime $dateSignature = null) {
         $this->dateSignature = $dateSignature;
@@ -828,6 +842,7 @@ class Contratslocatifs {
      * Set the date signature2.
      *
      * @param DateTime|null $dateSignature2 The date signature2.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateSignature2(DateTime $dateSignature2 = null) {
         $this->dateSignature2 = $dateSignature2;
@@ -838,6 +853,7 @@ class Contratslocatifs {
      * Set the date signature3.
      *
      * @param DateTime|null $dateSignature3 The date signature3.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateSignature3(DateTime $dateSignature3 = null) {
         $this->dateSignature3 = $dateSignature3;
@@ -848,6 +864,7 @@ class Contratslocatifs {
      * Set the date signature4.
      *
      * @param DateTime|null $dateSignature4 The date signature4.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateSignature4(DateTime $dateSignature4 = null) {
         $this->dateSignature4 = $dateSignature4;
@@ -858,6 +875,7 @@ class Contratslocatifs {
      * Set the date signature5.
      *
      * @param DateTime|null $dateSignature5 The date signature5.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDateSignature5(DateTime $dateSignature5 = null) {
         $this->dateSignature5 = $dateSignature5;
@@ -868,6 +886,7 @@ class Contratslocatifs {
      * Set the duree.
      *
      * @param int $duree The duree.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDuree($duree) {
         $this->duree = $duree;
@@ -878,6 +897,7 @@ class Contratslocatifs {
      * Set the duree preavis.
      *
      * @param int $dureePreavis The duree preavis.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setDureePreavis($dureePreavis) {
         $this->dureePreavis = $dureePreavis;
@@ -888,6 +908,7 @@ class Contratslocatifs {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -898,6 +919,7 @@ class Contratslocatifs {
      * Set the monnaie caution.
      *
      * @param string $monnaieCaution The monnaie caution.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMonnaieCaution($monnaieCaution) {
         $this->monnaieCaution = $monnaieCaution;
@@ -908,6 +930,7 @@ class Contratslocatifs {
      * Set the monnaie loyer.
      *
      * @param string $monnaieLoyer The monnaie loyer.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMonnaieLoyer($monnaieLoyer) {
         $this->monnaieLoyer = $monnaieLoyer;
@@ -918,6 +941,7 @@ class Contratslocatifs {
      * Set the montant annuel.
      *
      * @param float $montantAnnuel The montant annuel.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantAnnuel($montantAnnuel) {
         $this->montantAnnuel = $montantAnnuel;
@@ -928,6 +952,7 @@ class Contratslocatifs {
      * Set the montant annuel2.
      *
      * @param float $montantAnnuel2 The montant annuel2.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantAnnuel2($montantAnnuel2) {
         $this->montantAnnuel2 = $montantAnnuel2;
@@ -938,6 +963,7 @@ class Contratslocatifs {
      * Set the montant annuel3.
      *
      * @param float $montantAnnuel3 The montant annuel3.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantAnnuel3($montantAnnuel3) {
         $this->montantAnnuel3 = $montantAnnuel3;
@@ -948,6 +974,7 @@ class Contratslocatifs {
      * Set the montant annuel4.
      *
      * @param float $montantAnnuel4 The montant annuel4.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantAnnuel4($montantAnnuel4) {
         $this->montantAnnuel4 = $montantAnnuel4;
@@ -958,6 +985,7 @@ class Contratslocatifs {
      * Set the montant annuel5.
      *
      * @param float $montantAnnuel5 The montant annuel5.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantAnnuel5($montantAnnuel5) {
         $this->montantAnnuel5 = $montantAnnuel5;
@@ -968,6 +996,7 @@ class Contratslocatifs {
      * Set the montant charges.
      *
      * @param float $montantCharges The montant charges.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantCharges($montantCharges) {
         $this->montantCharges = $montantCharges;
@@ -978,6 +1007,7 @@ class Contratslocatifs {
      * Set the montant charges2.
      *
      * @param float $montantCharges2 The montant charges2.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantCharges2($montantCharges2) {
         $this->montantCharges2 = $montantCharges2;
@@ -988,6 +1018,7 @@ class Contratslocatifs {
      * Set the montant charges3.
      *
      * @param float $montantCharges3 The montant charges3.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantCharges3($montantCharges3) {
         $this->montantCharges3 = $montantCharges3;
@@ -998,6 +1029,7 @@ class Contratslocatifs {
      * Set the montant charges4.
      *
      * @param float $montantCharges4 The montant charges4.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantCharges4($montantCharges4) {
         $this->montantCharges4 = $montantCharges4;
@@ -1008,6 +1040,7 @@ class Contratslocatifs {
      * Set the montant charges5.
      *
      * @param float $montantCharges5 The montant charges5.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setMontantCharges5($montantCharges5) {
         $this->montantCharges5 = $montantCharges5;
@@ -1018,6 +1051,7 @@ class Contratslocatifs {
      * Set the num cpt caution.
      *
      * @param string $numCptCaution The num cpt caution.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setNumCptCaution($numCptCaution) {
         $this->numCptCaution = $numCptCaution;
@@ -1028,6 +1062,7 @@ class Contratslocatifs {
      * Set the num cpt charges.
      *
      * @param string $numCptCharges The num cpt charges.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setNumCptCharges($numCptCharges) {
         $this->numCptCharges = $numCptCharges;
@@ -1038,6 +1073,7 @@ class Contratslocatifs {
      * Set the num cpt loyer.
      *
      * @param string $numCptLoyer The num cpt loyer.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setNumCptLoyer($numCptLoyer) {
         $this->numCptLoyer = $numCptLoyer;
@@ -1048,6 +1084,7 @@ class Contratslocatifs {
      * Set the num ordre.
      *
      * @param int $numOrdre The num ordre.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setNumOrdre($numOrdre) {
         $this->numOrdre = $numOrdre;
@@ -1058,6 +1095,7 @@ class Contratslocatifs {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -1068,6 +1106,7 @@ class Contratslocatifs {
      * Set the ref image.
      *
      * @param string $refImage The ref image.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setRefImage($refImage) {
         $this->refImage = $refImage;
@@ -1078,6 +1117,7 @@ class Contratslocatifs {
      * Set the service.
      *
      * @param string $service The service.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setService($service) {
         $this->service = $service;
@@ -1088,6 +1128,7 @@ class Contratslocatifs {
      * Set the unite duree.
      *
      * @param string $uniteDuree The unite duree.
+     * @return Contratslocatifs Returns this Contratslocatifs.
      */
     public function setUniteDuree($uniteDuree) {
         $this->uniteDuree = $uniteDuree;

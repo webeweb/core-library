@@ -1296,6 +1296,7 @@ class AttestationAem {
      * Set the activite.
      *
      * @param string $activite The activite.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setActivite($activite) {
         $this->activite = $activite;
@@ -1306,6 +1307,7 @@ class AttestationAem {
      * Set the aem initiale.
      *
      * @param bool $aemInitiale The aem initiale.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setAemInitiale($aemInitiale) {
         $this->aemInitiale = $aemInitiale;
@@ -1316,6 +1318,7 @@ class AttestationAem {
      * Set the autres contributions.
      *
      * @param float $autresContributions The autres contributions.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setAutresContributions($autresContributions) {
         $this->autresContributions = $autresContributions;
@@ -1326,6 +1329,7 @@ class AttestationAem {
      * Set the autres remun brut.
      *
      * @param float $autresRemunBrut The autres remun brut.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setAutresRemunBrut($autresRemunBrut) {
         $this->autresRemunBrut = $autresRemunBrut;
@@ -1336,6 +1340,7 @@ class AttestationAem {
      * Set the autres taux cotis.
      *
      * @param float $autresTauxCotis The autres taux cotis.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setAutresTauxCotis($autresTauxCotis) {
         $this->autresTauxCotis = $autresTauxCotis;
@@ -1346,6 +1351,7 @@ class AttestationAem {
      * Set the brut.
      *
      * @param float $brut The brut.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setBrut($brut) {
         $this->brut = $brut;
@@ -1356,6 +1362,7 @@ class AttestationAem {
      * Set the brut al.
      *
      * @param float $brutAl The brut al.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setBrutAl($brutAl) {
         $this->brutAl = $brutAl;
@@ -1366,6 +1373,7 @@ class AttestationAem {
      * Set the certification sociale.
      *
      * @param bool $certificationSociale The certification sociale.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setCertificationSociale($certificationSociale) {
         $this->certificationSociale = $certificationSociale;
@@ -1376,6 +1384,7 @@ class AttestationAem {
      * Set the civilite.
      *
      * @param string $civilite The civilite.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setCivilite($civilite) {
         $this->civilite = $civilite;
@@ -1386,6 +1395,7 @@ class AttestationAem {
      * Set the code emploi.
      *
      * @param string $codeEmploi The code emploi.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setCodeEmploi($codeEmploi) {
         $this->codeEmploi = $codeEmploi;
@@ -1396,6 +1406,7 @@ class AttestationAem {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -1406,6 +1417,7 @@ class AttestationAem {
      * Set the code naf2008.
      *
      * @param string $codeNaf2008 The code naf2008.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setCodeNaf2008($codeNaf2008) {
         $this->codeNaf2008 = $codeNaf2008;
@@ -1416,6 +1428,7 @@ class AttestationAem {
      * Set the code qualif.
      *
      * @param string $codeQualif The code qualif.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setCodeQualif($codeQualif) {
         $this->codeQualif = $codeQualif;
@@ -1426,6 +1439,7 @@ class AttestationAem {
      * Set the contact.
      *
      * @param string $contact The contact.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setContact($contact) {
         $this->contact = $contact;
@@ -1436,6 +1450,7 @@ class AttestationAem {
      * Set the contrat en cours.
      *
      * @param bool $contratEnCours The contrat en cours.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setContratEnCours($contratEnCours) {
         $this->contratEnCours = $contratEnCours;
@@ -1446,6 +1461,7 @@ class AttestationAem {
      * Set the contributions.
      *
      * @param float $contributions The contributions.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setContributions($contributions) {
         $this->contributions = $contributions;
@@ -1456,6 +1472,7 @@ class AttestationAem {
      * Set the date embauche.
      *
      * @param DateTime|null $dateEmbauche The date embauche.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setDateEmbauche(DateTime $dateEmbauche = null) {
         $this->dateEmbauche = $dateEmbauche;
@@ -1466,6 +1483,7 @@ class AttestationAem {
      * Set the date fin contrat.
      *
      * @param DateTime|null $dateFinContrat The date fin contrat.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setDateFinContrat(DateTime $dateFinContrat = null) {
         $this->dateFinContrat = $dateFinContrat;
@@ -1476,6 +1494,7 @@ class AttestationAem {
      * Set the date fin contrat initiale.
      *
      * @param DateTime|null $dateFinContratInitiale The date fin contrat initiale.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setDateFinContratInitiale(DateTime $dateFinContratInitiale = null) {
         $this->dateFinContratInitiale = $dateFinContratInitiale;
@@ -1486,6 +1505,7 @@ class AttestationAem {
      * Set the date naiss.
      *
      * @param DateTime|null $dateNaiss The date naiss.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setDateNaiss(DateTime $dateNaiss = null) {
         $this->dateNaiss = $dateNaiss;
@@ -1496,6 +1516,7 @@ class AttestationAem {
      * Set the emp adresse1.
      *
      * @param string $empAdresse1 The emp adresse1.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEmpAdresse1($empAdresse1) {
         $this->empAdresse1 = $empAdresse1;
@@ -1506,6 +1527,7 @@ class AttestationAem {
      * Set the emp adresse2.
      *
      * @param string $empAdresse2 The emp adresse2.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEmpAdresse2($empAdresse2) {
         $this->empAdresse2 = $empAdresse2;
@@ -1516,6 +1538,7 @@ class AttestationAem {
      * Set the emp code postal.
      *
      * @param string $empCodePostal The emp code postal.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEmpCodePostal($empCodePostal) {
         $this->empCodePostal = $empCodePostal;
@@ -1526,6 +1549,7 @@ class AttestationAem {
      * Set the emp commune.
      *
      * @param string $empCommune The emp commune.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEmpCommune($empCommune) {
         $this->empCommune = $empCommune;
@@ -1536,6 +1560,7 @@ class AttestationAem {
      * Set the emp tel.
      *
      * @param string $empTel The emp tel.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEmpTel($empTel) {
         $this->empTel = $empTel;
@@ -1546,6 +1571,7 @@ class AttestationAem {
      * Set the emploi.
      *
      * @param string $emploi The emploi.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEmploi($emploi) {
         $this->emploi = $emploi;
@@ -1556,6 +1582,7 @@ class AttestationAem {
      * Set the etbl adresse1.
      *
      * @param string $etblAdresse1 The etbl adresse1.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEtblAdresse1($etblAdresse1) {
         $this->etblAdresse1 = $etblAdresse1;
@@ -1566,6 +1593,7 @@ class AttestationAem {
      * Set the etbl adresse2.
      *
      * @param string $etblAdresse2 The etbl adresse2.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEtblAdresse2($etblAdresse2) {
         $this->etblAdresse2 = $etblAdresse2;
@@ -1576,6 +1604,7 @@ class AttestationAem {
      * Set the etbl code postal.
      *
      * @param string $etblCodePostal The etbl code postal.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEtblCodePostal($etblCodePostal) {
         $this->etblCodePostal = $etblCodePostal;
@@ -1586,6 +1615,7 @@ class AttestationAem {
      * Set the etbl commune.
      *
      * @param string $etblCommune The etbl commune.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEtblCommune($etblCommune) {
         $this->etblCommune = $etblCommune;
@@ -1596,6 +1626,7 @@ class AttestationAem {
      * Set the etbl fax.
      *
      * @param string $etblFax The etbl fax.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEtblFax($etblFax) {
         $this->etblFax = $etblFax;
@@ -1606,6 +1637,7 @@ class AttestationAem {
      * Set the etbl mail.
      *
      * @param string $etblMail The etbl mail.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEtblMail($etblMail) {
         $this->etblMail = $etblMail;
@@ -1616,6 +1648,7 @@ class AttestationAem {
      * Set the etbl raison sociale.
      *
      * @param string $etblRaisonSociale The etbl raison sociale.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEtblRaisonSociale($etblRaisonSociale) {
         $this->etblRaisonSociale = $etblRaisonSociale;
@@ -1626,6 +1659,7 @@ class AttestationAem {
      * Set the etbl tel.
      *
      * @param string $etblTel The etbl tel.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setEtblTel($etblTel) {
         $this->etblTel = $etblTel;
@@ -1636,6 +1670,7 @@ class AttestationAem {
      * Set the indice aem.
      *
      * @param int $indiceAem The indice aem.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setIndiceAem($indiceAem) {
         $this->indiceAem = $indiceAem;
@@ -1646,6 +1681,7 @@ class AttestationAem {
      * Set the label prestataire.
      *
      * @param bool $labelPrestataire The label prestataire.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setLabelPrestataire($labelPrestataire) {
         $this->labelPrestataire = $labelPrestataire;
@@ -1656,6 +1692,7 @@ class AttestationAem {
      * Set the licence spectacle.
      *
      * @param bool $licenceSpectacle The licence spectacle.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setLicenceSpectacle($licenceSpectacle) {
         $this->licenceSpectacle = $licenceSpectacle;
@@ -1666,6 +1703,7 @@ class AttestationAem {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -1676,6 +1714,7 @@ class AttestationAem {
      * Set the lien parente.
      *
      * @param bool $lienParente The lien parente.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setLienParente($lienParente) {
         $this->lienParente = $lienParente;
@@ -1686,6 +1725,7 @@ class AttestationAem {
      * Set the motif fin contrat.
      *
      * @param string $motifFinContrat The motif fin contrat.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setMotifFinContrat($motifFinContrat) {
         $this->motifFinContrat = $motifFinContrat;
@@ -1696,6 +1736,7 @@ class AttestationAem {
      * Set the motif rupture.
      *
      * @param string $motifRupture The motif rupture.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setMotifRupture($motifRupture) {
         $this->motifRupture = $motifRupture;
@@ -1706,6 +1747,7 @@ class AttestationAem {
      * Set the naf.
      *
      * @param string $naf The naf.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNaf($naf) {
         $this->naf = $naf;
@@ -1716,6 +1758,7 @@ class AttestationAem {
      * Set the nb jour trav.
      *
      * @param float $nbJourTrav The nb jour trav.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNbJourTrav($nbJourTrav) {
         $this->nbJourTrav = $nbJourTrav;
@@ -1726,6 +1769,7 @@ class AttestationAem {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -1736,6 +1780,7 @@ class AttestationAem {
      * Set the nom employe.
      *
      * @param string $nomEmploye The nom employe.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNomEmploye($nomEmploye) {
         $this->nomEmploye = $nomEmploye;
@@ -1746,6 +1791,7 @@ class AttestationAem {
      * Set the nom naissance.
      *
      * @param string $nomNaissance The nom naissance.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNomNaissance($nomNaissance) {
         $this->nomNaissance = $nomNaissance;
@@ -1756,6 +1802,7 @@ class AttestationAem {
      * Set the nom retraite.
      *
      * @param string $nomRetraite The nom retraite.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNomRetraite($nomRetraite) {
         $this->nomRetraite = $nomRetraite;
@@ -1766,6 +1813,7 @@ class AttestationAem {
      * Set the nombre cachets.
      *
      * @param float $nombreCachets The nombre cachets.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNombreCachets($nombreCachets) {
         $this->nombreCachets = $nombreCachets;
@@ -1776,6 +1824,7 @@ class AttestationAem {
      * Set the nombre cachets isoles.
      *
      * @param float $nombreCachetsIsoles The nombre cachets isoles.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNombreCachetsIsoles($nombreCachetsIsoles) {
         $this->nombreCachetsIsoles = $nombreCachetsIsoles;
@@ -1786,6 +1835,7 @@ class AttestationAem {
      * Set the nombre heures.
      *
      * @param float $nombreHeures The nombre heures.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNombreHeures($nombreHeures) {
         $this->nombreHeures = $nombreHeures;
@@ -1796,6 +1846,7 @@ class AttestationAem {
      * Set the num assedic.
      *
      * @param string $numAssedic The num assedic.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumAssedic($numAssedic) {
         $this->numAssedic = $numAssedic;
@@ -1806,6 +1857,7 @@ class AttestationAem {
      * Set the num caisse spectacle.
      *
      * @param string $numCaisseSpectacle The num caisse spectacle.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumCaisseSpectacle($numCaisseSpectacle) {
         $this->numCaisseSpectacle = $numCaisseSpectacle;
@@ -1816,6 +1868,7 @@ class AttestationAem {
      * Set the num certification sociale.
      *
      * @param string $numCertificationSociale The num certification sociale.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumCertificationSociale($numCertificationSociale) {
         $this->numCertificationSociale = $numCertificationSociale;
@@ -1826,6 +1879,7 @@ class AttestationAem {
      * Set the num idcc employeur.
      *
      * @param string $numIdccEmployeur The num idcc employeur.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumIdccEmployeur($numIdccEmployeur) {
         $this->numIdccEmployeur = $numIdccEmployeur;
@@ -1836,6 +1890,7 @@ class AttestationAem {
      * Set the num idcc prestation travail.
      *
      * @param string $numIdccPrestationTravail The num idcc prestation travail.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumIdccPrestationTravail($numIdccPrestationTravail) {
         $this->numIdccPrestationTravail = $numIdccPrestationTravail;
@@ -1846,6 +1901,7 @@ class AttestationAem {
      * Set the num objet.
      *
      * @param string $numObjet The num objet.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumObjet($numObjet) {
         $this->numObjet = $numObjet;
@@ -1856,6 +1912,7 @@ class AttestationAem {
      * Set the numero aem initiale.
      *
      * @param string $numeroAemInitiale The numero aem initiale.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumeroAemInitiale($numeroAemInitiale) {
         $this->numeroAemInitiale = $numeroAemInitiale;
@@ -1866,6 +1923,7 @@ class AttestationAem {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -1876,6 +1934,7 @@ class AttestationAem {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -1886,6 +1945,7 @@ class AttestationAem {
      * Set the numero label.
      *
      * @param string $numeroLabel The numero label.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumeroLabel($numeroLabel) {
         $this->numeroLabel = $numeroLabel;
@@ -1896,6 +1956,7 @@ class AttestationAem {
      * Set the numero licence.
      *
      * @param string $numeroLicence The numero licence.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setNumeroLicence($numeroLicence) {
         $this->numeroLicence = $numeroLicence;
@@ -1906,6 +1967,7 @@ class AttestationAem {
      * Set the organisateur spectacle.
      *
      * @param bool $organisateurSpectacle The organisateur spectacle.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setOrganisateurSpectacle($organisateurSpectacle) {
         $this->organisateurSpectacle = $organisateurSpectacle;
@@ -1916,6 +1978,7 @@ class AttestationAem {
      * Set the organisme assedic.
      *
      * @param string $organismeAssedic The organisme assedic.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setOrganismeAssedic($organismeAssedic) {
         $this->organismeAssedic = $organismeAssedic;
@@ -1926,6 +1989,7 @@ class AttestationAem {
      * Set the organisme retraite.
      *
      * @param string $organismeRetraite The organisme retraite.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setOrganismeRetraite($organismeRetraite) {
         $this->organismeRetraite = $organismeRetraite;
@@ -1936,6 +2000,7 @@ class AttestationAem {
      * Set the periode attest.
      *
      * @param DateTime|null $periodeAttest The periode attest.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setPeriodeAttest(DateTime $periodeAttest = null) {
         $this->periodeAttest = $periodeAttest;
@@ -1946,6 +2011,7 @@ class AttestationAem {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -1956,6 +2022,7 @@ class AttestationAem {
      * Set the signature date.
      *
      * @param DateTime|null $signatureDate The signature date.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setSignatureDate(DateTime $signatureDate = null) {
         $this->signatureDate = $signatureDate;
@@ -1966,6 +2033,7 @@ class AttestationAem {
      * Set the signature nom.
      *
      * @param string $signatureNom The signature nom.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setSignatureNom($signatureNom) {
         $this->signatureNom = $signatureNom;
@@ -1976,6 +2044,7 @@ class AttestationAem {
      * Set the signature prenom.
      *
      * @param string $signaturePrenom The signature prenom.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setSignaturePrenom($signaturePrenom) {
         $this->signaturePrenom = $signaturePrenom;
@@ -1986,6 +2055,7 @@ class AttestationAem {
      * Set the signature qualite.
      *
      * @param string $signatureQualite The signature qualite.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setSignatureQualite($signatureQualite) {
         $this->signatureQualite = $signatureQualite;
@@ -1996,6 +2066,7 @@ class AttestationAem {
      * Set the signature qualite code.
      *
      * @param string $signatureQualiteCode The signature qualite code.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setSignatureQualiteCode($signatureQualiteCode) {
         $this->signatureQualiteCode = $signatureQualiteCode;
@@ -2006,6 +2077,7 @@ class AttestationAem {
      * Set the signature ville.
      *
      * @param string $signatureVille The signature ville.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setSignatureVille($signatureVille) {
         $this->signatureVille = $signatureVille;
@@ -2016,6 +2088,7 @@ class AttestationAem {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -2026,6 +2099,7 @@ class AttestationAem {
      * Set the statut cadre.
      *
      * @param bool $statutCadre The statut cadre.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setStatutCadre($statutCadre) {
         $this->statutCadre = $statutCadre;
@@ -2036,6 +2110,7 @@ class AttestationAem {
      * Set the taux cotis.
      *
      * @param float $tauxCotis The taux cotis.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setTauxCotis($tauxCotis) {
         $this->tauxCotis = $tauxCotis;
@@ -2046,6 +2121,7 @@ class AttestationAem {
      * Set the tel contact.
      *
      * @param string $telContact The tel contact.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setTelContact($telContact) {
         $this->telContact = $telContact;
@@ -2056,6 +2132,7 @@ class AttestationAem {
      * Set the type aem.
      *
      * @param string $typeAem The type aem.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setTypeAem($typeAem) {
         $this->typeAem = $typeAem;
@@ -2066,6 +2143,7 @@ class AttestationAem {
      * Set the type lien parente.
      *
      * @param string $typeLienParente The type lien parente.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setTypeLienParente($typeLienParente) {
         $this->typeLienParente = $typeLienParente;
@@ -2076,6 +2154,7 @@ class AttestationAem {
      * Set the type nationalite.
      *
      * @param string $typeNationalite The type nationalite.
+     * @return AttestationAem Returns this Attestation aem.
      */
     public function setTypeNationalite($typeNationalite) {
         $this->typeNationalite = $typeNationalite;

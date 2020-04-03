@@ -336,6 +336,7 @@ class ChantiersReclamations {
      * Set the alerte.
      *
      * @param bool $alerte The alerte.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setAlerte($alerte) {
         $this->alerte = $alerte;
@@ -346,6 +347,7 @@ class ChantiersReclamations {
      * Set the archivee.
      *
      * @param bool $archivee The archivee.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setArchivee($archivee) {
         $this->archivee = $archivee;
@@ -356,6 +358,7 @@ class ChantiersReclamations {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -366,6 +369,7 @@ class ChantiersReclamations {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -376,6 +380,7 @@ class ChantiersReclamations {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -386,6 +391,7 @@ class ChantiersReclamations {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -396,6 +402,7 @@ class ChantiersReclamations {
      * Set the critere liste1.
      *
      * @param string $critereListe1 The critere liste1.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setCritereListe1($critereListe1) {
         $this->critereListe1 = $critereListe1;
@@ -406,6 +413,7 @@ class ChantiersReclamations {
      * Set the critere liste2.
      *
      * @param string $critereListe2 The critere liste2.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setCritereListe2($critereListe2) {
         $this->critereListe2 = $critereListe2;
@@ -416,6 +424,7 @@ class ChantiersReclamations {
      * Set the date debut doc.
      *
      * @param DateTime|null $dateDebutDoc The date debut doc.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setDateDebutDoc(DateTime $dateDebutDoc = null) {
         $this->dateDebutDoc = $dateDebutDoc;
@@ -426,6 +435,7 @@ class ChantiersReclamations {
      * Set the date fin doc.
      *
      * @param DateTime|null $dateFinDoc The date fin doc.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setDateFinDoc(DateTime $dateFinDoc = null) {
         $this->dateFinDoc = $dateFinDoc;
@@ -436,6 +446,7 @@ class ChantiersReclamations {
      * Set the date reclam.
      *
      * @param DateTime|null $dateReclam The date reclam.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setDateReclam(DateTime $dateReclam = null) {
         $this->dateReclam = $dateReclam;
@@ -446,6 +457,7 @@ class ChantiersReclamations {
      * Set the date traitement.
      *
      * @param DateTime|null $dateTraitement The date traitement.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setDateTraitement(DateTime $dateTraitement = null) {
         $this->dateTraitement = $dateTraitement;
@@ -456,6 +468,7 @@ class ChantiersReclamations {
      * Set the niveau.
      *
      * @param string $niveau The niveau.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -466,6 +479,7 @@ class ChantiersReclamations {
      * Set the niveau reclam.
      *
      * @param string $niveauReclam The niveau reclam.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setNiveauReclam($niveauReclam) {
         $this->niveauReclam = $niveauReclam;
@@ -476,6 +490,7 @@ class ChantiersReclamations {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -486,6 +501,7 @@ class ChantiersReclamations {
      * Set the numero reclam.
      *
      * @param int $numeroReclam The numero reclam.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setNumeroReclam($numeroReclam) {
         $this->numeroReclam = $numeroReclam;
@@ -496,6 +512,7 @@ class ChantiersReclamations {
      * Set the reclamation.
      *
      * @param string $reclamation The reclamation.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setReclamation($reclamation) {
         $this->reclamation = $reclamation;
@@ -506,6 +523,7 @@ class ChantiersReclamations {
      * Set the resultat.
      *
      * @param string $resultat The resultat.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setResultat($resultat) {
         $this->resultat = $resultat;
@@ -516,6 +534,7 @@ class ChantiersReclamations {
      * Set the type reclam.
      *
      * @param string $typeReclam The type reclam.
+     * @return ChantiersReclamations Returns this Chantiers reclamations.
      */
     public function setTypeReclam($typeReclam) {
         $this->typeReclam = $typeReclam;

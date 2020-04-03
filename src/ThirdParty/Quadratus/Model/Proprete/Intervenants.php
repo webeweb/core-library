@@ -496,6 +496,7 @@ class Intervenants {
      * Set the ape.
      *
      * @param string $ape The ape.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setApe($ape) {
         $this->ape = $ape;
@@ -506,6 +507,7 @@ class Intervenants {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -516,6 +518,7 @@ class Intervenants {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -526,6 +529,7 @@ class Intervenants {
      * Set the civilite.
      *
      * @param string $civilite The civilite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCivilite($civilite) {
         $this->civilite = $civilite;
@@ -536,6 +540,7 @@ class Intervenants {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -546,6 +551,7 @@ class Intervenants {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -556,6 +562,7 @@ class Intervenants {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -566,6 +573,7 @@ class Intervenants {
      * Set the date creat.
      *
      * @param DateTime|null $dateCreat The date creat.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateCreat(DateTime $dateCreat = null) {
         $this->dateCreat = $dateCreat;
@@ -576,6 +584,7 @@ class Intervenants {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -586,6 +595,7 @@ class Intervenants {
      * Set the fax.
      *
      * @param string $fax The fax.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setFax($fax) {
         $this->fax = $fax;
@@ -596,6 +606,7 @@ class Intervenants {
      * Set the id.
      *
      * @param string $id The id.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setId($id) {
         $this->id = $id;
@@ -606,6 +617,7 @@ class Intervenants {
      * Set the ident tva.
      *
      * @param string $identTva The ident tva.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setIdentTva($identTva) {
         $this->identTva = $identTva;
@@ -616,6 +628,7 @@ class Intervenants {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -626,6 +639,7 @@ class Intervenants {
      * Set the nom marital.
      *
      * @param string $nomMarital The nom marital.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomMarital($nomMarital) {
         $this->nomMarital = $nomMarital;
@@ -636,6 +650,7 @@ class Intervenants {
      * Set the nom responsable.
      *
      * @param string $nomResponsable The nom responsable.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomResponsable($nomResponsable) {
         $this->nomResponsable = $nomResponsable;
@@ -646,6 +661,7 @@ class Intervenants {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -656,6 +672,7 @@ class Intervenants {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -666,6 +683,7 @@ class Intervenants {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -676,6 +694,7 @@ class Intervenants {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -686,6 +705,7 @@ class Intervenants {
      * Set the portable1.
      *
      * @param string $portable1 The portable1.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPortable1($portable1) {
         $this->portable1 = $portable1;
@@ -696,6 +716,7 @@ class Intervenants {
      * Set the portable2.
      *
      * @param string $portable2 The portable2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPortable2($portable2) {
         $this->portable2 = $portable2;
@@ -706,6 +727,7 @@ class Intervenants {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -716,6 +738,7 @@ class Intervenants {
      * Set the qualite.
      *
      * @param string $qualite The qualite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setQualite($qualite) {
         $this->qualite = $qualite;
@@ -726,6 +749,7 @@ class Intervenants {
      * Set the rc.
      *
      * @param string $rc The rc.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setRc($rc) {
         $this->rc = $rc;
@@ -736,6 +760,7 @@ class Intervenants {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -746,6 +771,7 @@ class Intervenants {
      * Set the tel1.
      *
      * @param string $tel1 The tel1.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTel1($tel1) {
         $this->tel1 = $tel1;
@@ -756,6 +782,7 @@ class Intervenants {
      * Set the tel2.
      *
      * @param string $tel2 The tel2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTel2($tel2) {
         $this->tel2 = $tel2;
@@ -766,6 +793,7 @@ class Intervenants {
      * Set the tel voiture.
      *
      * @param string $telVoiture The tel voiture.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTelVoiture($telVoiture) {
         $this->telVoiture = $telVoiture;
@@ -776,6 +804,7 @@ class Intervenants {
      * Set the telex.
      *
      * @param string $telex The telex.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTelex($telex) {
         $this->telex = $telex;

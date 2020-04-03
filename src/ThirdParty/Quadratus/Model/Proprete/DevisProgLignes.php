@@ -510,6 +510,7 @@ class DevisProgLignes {
      * Set the aou.
      *
      * @param bool $aou The aou.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setAou($aou) {
         $this->aou = $aou;
@@ -520,6 +521,7 @@ class DevisProgLignes {
      * Set the avr.
      *
      * @param bool $avr The avr.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setAvr($avr) {
         $this->avr = $avr;
@@ -530,6 +532,7 @@ class DevisProgLignes {
      * Set the code echelle.
      *
      * @param string $codeEchelle The code echelle.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setCodeEchelle($codeEchelle) {
         $this->codeEchelle = $codeEchelle;
@@ -540,6 +543,7 @@ class DevisProgLignes {
      * Set the code operation.
      *
      * @param string $codeOperation The code operation.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setCodeOperation($codeOperation) {
         $this->codeOperation = $codeOperation;
@@ -550,6 +554,7 @@ class DevisProgLignes {
      * Set the coefficient.
      *
      * @param float $coefficient The coefficient.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setCoefficient($coefficient) {
         $this->coefficient = $coefficient;
@@ -560,6 +565,7 @@ class DevisProgLignes {
      * Set the dec.
      *
      * @param bool $dec The dec.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setDec($dec) {
         $this->dec = $dec;
@@ -570,6 +576,7 @@ class DevisProgLignes {
      * Set the dimanche.
      *
      * @param bool $dimanche The dimanche.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setDimanche($dimanche) {
         $this->dimanche = $dimanche;
@@ -580,6 +587,7 @@ class DevisProgLignes {
      * Set the fev.
      *
      * @param bool $fev The fev.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setFev($fev) {
         $this->fev = $fev;
@@ -590,6 +598,7 @@ class DevisProgLignes {
      * Set the jan.
      *
      * @param bool $jan The jan.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setJan($jan) {
         $this->jan = $jan;
@@ -600,6 +609,7 @@ class DevisProgLignes {
      * Set the jeudi.
      *
      * @param bool $jeudi The jeudi.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setJeudi($jeudi) {
         $this->jeudi = $jeudi;
@@ -610,6 +620,7 @@ class DevisProgLignes {
      * Set the juil.
      *
      * @param bool $juil The juil.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setJuil($juil) {
         $this->juil = $juil;
@@ -620,6 +631,7 @@ class DevisProgLignes {
      * Set the juin.
      *
      * @param bool $juin The juin.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setJuin($juin) {
         $this->juin = $juin;
@@ -630,6 +642,7 @@ class DevisProgLignes {
      * Set the lundi.
      *
      * @param bool $lundi The lundi.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setLundi($lundi) {
         $this->lundi = $lundi;
@@ -640,6 +653,7 @@ class DevisProgLignes {
      * Set the mai.
      *
      * @param bool $mai The mai.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setMai($mai) {
         $this->mai = $mai;
@@ -650,6 +664,7 @@ class DevisProgLignes {
      * Set the mar.
      *
      * @param bool $mar The mar.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setMar($mar) {
         $this->mar = $mar;
@@ -660,6 +675,7 @@ class DevisProgLignes {
      * Set the mardi.
      *
      * @param bool $mardi The mardi.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setMardi($mardi) {
         $this->mardi = $mardi;
@@ -670,6 +686,7 @@ class DevisProgLignes {
      * Set the mercredi.
      *
      * @param bool $mercredi The mercredi.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setMercredi($mercredi) {
         $this->mercredi = $mercredi;
@@ -680,6 +697,7 @@ class DevisProgLignes {
      * Set the note resultat.
      *
      * @param float $noteResultat The note resultat.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setNoteResultat($noteResultat) {
         $this->noteResultat = $noteResultat;
@@ -690,6 +708,7 @@ class DevisProgLignes {
      * Set the nov.
      *
      * @param bool $nov The nov.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setNov($nov) {
         $this->nov = $nov;
@@ -700,6 +719,7 @@ class DevisProgLignes {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -710,6 +730,7 @@ class DevisProgLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -720,6 +741,7 @@ class DevisProgLignes {
      * Set the num programme.
      *
      * @param int $numProgramme The num programme.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setNumProgramme($numProgramme) {
         $this->numProgramme = $numProgramme;
@@ -730,6 +752,7 @@ class DevisProgLignes {
      * Set the occurrence.
      *
      * @param string $occurrence The occurrence.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setOccurrence($occurrence) {
         $this->occurrence = $occurrence;
@@ -740,6 +763,7 @@ class DevisProgLignes {
      * Set the oct.
      *
      * @param bool $oct The oct.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setOct($oct) {
         $this->oct = $oct;
@@ -750,6 +774,7 @@ class DevisProgLignes {
      * Set the periodicite.
      *
      * @param string $periodicite The periodicite.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setPeriodicite($periodicite) {
         $this->periodicite = $periodicite;
@@ -760,6 +785,7 @@ class DevisProgLignes {
      * Set the samedi.
      *
      * @param bool $samedi The samedi.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setSamedi($samedi) {
         $this->samedi = $samedi;
@@ -770,6 +796,7 @@ class DevisProgLignes {
      * Set the sep.
      *
      * @param bool $sep The sep.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setSep($sep) {
         $this->sep = $sep;
@@ -780,6 +807,7 @@ class DevisProgLignes {
      * Set the vendredi.
      *
      * @param bool $vendredi The vendredi.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setVendredi($vendredi) {
         $this->vendredi = $vendredi;
@@ -790,6 +818,7 @@ class DevisProgLignes {
      * Set the vitesse reelle.
      *
      * @param float $vitesseReelle The vitesse reelle.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setVitesseReelle($vitesseReelle) {
         $this->vitesseReelle = $vitesseReelle;
@@ -800,6 +829,7 @@ class DevisProgLignes {
      * Set the vitesse theorique.
      *
      * @param float $vitesseTheorique The vitesse theorique.
+     * @return DevisProgLignes Returns this Devis prog lignes.
      */
     public function setVitesseTheorique($vitesseTheorique) {
         $this->vitesseTheorique = $vitesseTheorique;

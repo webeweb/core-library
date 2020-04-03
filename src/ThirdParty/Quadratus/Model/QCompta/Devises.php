@@ -80,6 +80,7 @@ class Devises {
      * Set the code devise.
      *
      * @param string $codeDevise The code devise.
+     * @return Devises Returns this Devises.
      */
     public function setCodeDevise($codeDevise) {
         $this->codeDevise = $codeDevise;
@@ -90,6 +91,7 @@ class Devises {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return Devises Returns this Devises.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -100,6 +102,7 @@ class Devises {
      * Set the taux.
      *
      * @param float $taux The taux.
+     * @return Devises Returns this Devises.
      */
     public function setTaux($taux) {
         $this->taux = $taux;

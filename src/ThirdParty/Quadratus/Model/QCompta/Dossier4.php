@@ -2528,6 +2528,7 @@ class Dossier4 {
      * Set the acompte1.
      *
      * @param float $acompte1 The acompte1.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setAcompte1($acompte1) {
         $this->acompte1 = $acompte1;
@@ -2538,6 +2539,7 @@ class Dossier4 {
      * Set the acompte2.
      *
      * @param float $acompte2 The acompte2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setAcompte2($acompte2) {
         $this->acompte2 = $acompte2;
@@ -2548,6 +2550,7 @@ class Dossier4 {
      * Set the acompte3.
      *
      * @param float $acompte3 The acompte3.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setAcompte3($acompte3) {
         $this->acompte3 = $acompte3;
@@ -2558,6 +2561,7 @@ class Dossier4 {
      * Set the acompte4.
      *
      * @param float $acompte4 The acompte4.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setAcompte4($acompte4) {
         $this->acompte4 = $acompte4;
@@ -2568,6 +2572,7 @@ class Dossier4 {
      * Set the arch imp3519 tva.
      *
      * @param bool $archImp3519Tva The arch imp3519 tva.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setArchImp3519Tva($archImp3519Tva) {
         $this->archImp3519Tva = $archImp3519Tva;
@@ -2578,6 +2583,7 @@ class Dossier4 {
      * Set the archive decl tva.
      *
      * @param int $archiveDeclTva The archive decl tva.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setArchiveDeclTva($archiveDeclTva) {
         $this->archiveDeclTva = $archiveDeclTva;
@@ -2588,6 +2594,7 @@ class Dossier4 {
      * Set the bal agee nb jours int1.
      *
      * @param int $balAgeeNbJoursInt1 The bal agee nb jours int1.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setBalAgeeNbJoursInt1($balAgeeNbJoursInt1) {
         $this->balAgeeNbJoursInt1 = $balAgeeNbJoursInt1;
@@ -2598,6 +2605,7 @@ class Dossier4 {
      * Set the bal agee nb jours int2.
      *
      * @param int $balAgeeNbJoursInt2 The bal agee nb jours int2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setBalAgeeNbJoursInt2($balAgeeNbJoursInt2) {
         $this->balAgeeNbJoursInt2 = $balAgeeNbJoursInt2;
@@ -2608,6 +2616,7 @@ class Dossier4 {
      * Set the bal agee nb jours int3.
      *
      * @param int $balAgeeNbJoursInt3 The bal agee nb jours int3.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setBalAgeeNbJoursInt3($balAgeeNbJoursInt3) {
         $this->balAgeeNbJoursInt3 = $balAgeeNbJoursInt3;
@@ -2618,6 +2627,7 @@ class Dossier4 {
      * Set the bal agee nb jours int4.
      *
      * @param int $balAgeeNbJoursInt4 The bal agee nb jours int4.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setBalAgeeNbJoursInt4($balAgeeNbJoursInt4) {
         $this->balAgeeNbJoursInt4 = $balAgeeNbJoursInt4;
@@ -2628,6 +2638,7 @@ class Dossier4 {
      * Set the base15pcent.
      *
      * @param float $base15pcent The base15pcent.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setBase15pcent($base15pcent) {
         $this->base15pcent = $base15pcent;
@@ -2638,6 +2649,7 @@ class Dossier4 {
      * Set the base33pcent.
      *
      * @param float $base33pcent The base33pcent.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setBase33pcent($base33pcent) {
         $this->base33pcent = $base33pcent;
@@ -2648,6 +2660,7 @@ class Dossier4 {
      * Set the base t npcent.
      *
      * @param float $baseTNpcent The base t npcent.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setBaseTNpcent($baseTNpcent) {
         $this->baseTNpcent = $baseTNpcent;
@@ -2658,6 +2671,7 @@ class Dossier4 {
      * Set the categorie pme.
      *
      * @param int $categoriePme The categorie pme.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCategoriePme($categoriePme) {
         $this->categoriePme = $categoriePme;
@@ -2668,6 +2682,7 @@ class Dossier4 {
      * Set the cdi btq.
      *
      * @param string $cdiBtq The cdi btq.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiBtq($cdiBtq) {
         $this->cdiBtq = $cdiBtq;
@@ -2678,6 +2693,7 @@ class Dossier4 {
      * Set the cdi bureau distributeur.
      *
      * @param string $cdiBureauDistributeur The cdi bureau distributeur.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiBureauDistributeur($cdiBureauDistributeur) {
         $this->cdiBureauDistributeur = $cdiBureauDistributeur;
@@ -2688,6 +2704,7 @@ class Dossier4 {
      * Set the cdi code officiel commune.
      *
      * @param string $cdiCodeOfficielCommune The cdi code officiel commune.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiCodeOfficielCommune($cdiCodeOfficielCommune) {
         $this->cdiCodeOfficielCommune = $cdiCodeOfficielCommune;
@@ -2698,6 +2715,7 @@ class Dossier4 {
      * Set the cdi code postal.
      *
      * @param string $cdiCodePostal The cdi code postal.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiCodePostal($cdiCodePostal) {
         $this->cdiCodePostal = $cdiCodePostal;
@@ -2708,6 +2726,7 @@ class Dossier4 {
      * Set the cdi complement.
      *
      * @param string $cdiComplement The cdi complement.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiComplement($cdiComplement) {
         $this->cdiComplement = $cdiComplement;
@@ -2718,6 +2737,7 @@ class Dossier4 {
      * Set the cdi nom.
      *
      * @param string $cdiNom The cdi nom.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiNom($cdiNom) {
         $this->cdiNom = $cdiNom;
@@ -2728,6 +2748,7 @@ class Dossier4 {
      * Set the cdi nom ville.
      *
      * @param string $cdiNomVille The cdi nom ville.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiNomVille($cdiNomVille) {
         $this->cdiNomVille = $cdiNomVille;
@@ -2738,6 +2759,7 @@ class Dossier4 {
      * Set the cdi nom voie.
      *
      * @param string $cdiNomVoie The cdi nom voie.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiNomVoie($cdiNomVoie) {
         $this->cdiNomVoie = $cdiNomVoie;
@@ -2748,6 +2770,7 @@ class Dossier4 {
      * Set the cdi num voie.
      *
      * @param string $cdiNumVoie The cdi num voie.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiNumVoie($cdiNumVoie) {
         $this->cdiNumVoie = $cdiNumVoie;
@@ -2758,6 +2781,7 @@ class Dossier4 {
      * Set the cdi tel1.
      *
      * @param string $cdiTel1 The cdi tel1.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setCdiTel1($cdiTel1) {
         $this->cdiTel1 = $cdiTel1;
@@ -2768,6 +2792,7 @@ class Dossier4 {
      * Set the date plafond interets.
      *
      * @param DateTime|null $datePlafondInterets The date plafond interets.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDatePlafondInterets(DateTime $datePlafondInterets = null) {
         $this->datePlafondInterets = $datePlafondInterets;
@@ -2778,6 +2803,7 @@ class Dossier4 {
      * Set the date plafond interets2.
      *
      * @param DateTime|null $datePlafondInterets2 The date plafond interets2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDatePlafondInterets2(DateTime $datePlafondInterets2 = null) {
         $this->datePlafondInterets2 = $datePlafondInterets2;
@@ -2788,6 +2814,7 @@ class Dossier4 {
      * Set the date transf lot cvae.
      *
      * @param DateTime|null $dateTransfLotCvae The date transf lot cvae.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDateTransfLotCvae(DateTime $dateTransfLotCvae = null) {
         $this->dateTransfLotCvae = $dateTransfLotCvae;
@@ -2798,6 +2825,7 @@ class Dossier4 {
      * Set the date transf lot is.
      *
      * @param DateTime|null $dateTransfLotIs The date transf lot is.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDateTransfLotIs(DateTime $dateTransfLotIs = null) {
         $this->dateTransfLotIs = $dateTransfLotIs;
@@ -2808,6 +2836,7 @@ class Dossier4 {
      * Set the date transfert interets.
      *
      * @param DateTime|null $dateTransfertInterets The date transfert interets.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDateTransfertInterets(DateTime $dateTransfertInterets = null) {
         $this->dateTransfertInterets = $dateTransfertInterets;
@@ -2818,6 +2847,7 @@ class Dossier4 {
      * Set the date transfert interets2.
      *
      * @param DateTime|null $dateTransfertInterets2 The date transfert interets2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDateTransfertInterets2(DateTime $dateTransfertInterets2 = null) {
         $this->dateTransfertInterets2 = $dateTransfertInterets2;
@@ -2828,6 +2858,7 @@ class Dossier4 {
      * Set the dec tva type reglement.
      *
      * @param int $decTvaTypeReglement The dec tva type reglement.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDecTvaTypeReglement($decTvaTypeReglement) {
         $this->decTvaTypeReglement = $decTvaTypeReglement;
@@ -2838,6 +2869,7 @@ class Dossier4 {
      * Set the decalage quinzaine.
      *
      * @param bool $decalageQuinzaine The decalage quinzaine.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDecalageQuinzaine($decalageQuinzaine) {
         $this->decalageQuinzaine = $decalageQuinzaine;
@@ -2848,6 +2880,7 @@ class Dossier4 {
      * Set the decl reference paiement.
      *
      * @param string $declReferencePaiement The decl reference paiement.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDeclReferencePaiement($declReferencePaiement) {
         $this->declReferencePaiement = $declReferencePaiement;
@@ -2858,6 +2891,7 @@ class Dossier4 {
      * Set the decl tva cdi.
      *
      * @param string $declTvaCdi The decl tva cdi.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDeclTvaCdi($declTvaCdi) {
         $this->declTvaCdi = $declTvaCdi;
@@ -2868,6 +2902,7 @@ class Dossier4 {
      * Set the decl tva insp.
      *
      * @param string $declTvaInsp The decl tva insp.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDeclTvaInsp($declTvaInsp) {
         $this->declTvaInsp = $declTvaInsp;
@@ -2878,6 +2913,7 @@ class Dossier4 {
      * Set the decl tva regime.
      *
      * @param string $declTvaRegime The decl tva regime.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setDeclTvaRegime($declTvaRegime) {
         $this->declTvaRegime = $declTvaRegime;
@@ -2888,6 +2924,7 @@ class Dossier4 {
      * Set the ftis contrib mtt.
      *
      * @param float $ftisContribMtt The ftis contrib mtt.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setFtisContribMtt($ftisContribMtt) {
         $this->ftisContribMtt = $ftisContribMtt;
@@ -2898,6 +2935,7 @@ class Dossier4 {
      * Set the ftis credit impot.
      *
      * @param float $ftisCreditImpot The ftis credit impot.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setFtisCreditImpot($ftisCreditImpot) {
         $this->ftisCreditImpot = $ftisCreditImpot;
@@ -2908,6 +2946,7 @@ class Dossier4 {
      * Set the ftis deficits reportables.
      *
      * @param float $ftisDeficitsReportables The ftis deficits reportables.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setFtisDeficitsReportables($ftisDeficitsReportables) {
         $this->ftisDeficitsReportables = $ftisDeficitsReportables;
@@ -2918,6 +2957,7 @@ class Dossier4 {
      * Set the ftis num cpt1.
      *
      * @param string $ftisNumCpt1 The ftis num cpt1.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setFtisNumCpt1($ftisNumCpt1) {
         $this->ftisNumCpt1 = $ftisNumCpt1;
@@ -2928,6 +2968,7 @@ class Dossier4 {
      * Set the ftis num cpt2.
      *
      * @param string $ftisNumCpt2 The ftis num cpt2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setFtisNumCpt2($ftisNumCpt2) {
         $this->ftisNumCpt2 = $ftisNumCpt2;
@@ -2938,6 +2979,7 @@ class Dossier4 {
      * Set the ftiscice.
      *
      * @param float $ftiscice The ftiscice.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setFtiscice($ftiscice) {
         $this->ftiscice = $ftiscice;
@@ -2948,6 +2990,7 @@ class Dossier4 {
      * Set the immo realloc.
      *
      * @param int $immoRealloc The immo realloc.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setImmoRealloc($immoRealloc) {
         $this->immoRealloc = $immoRealloc;
@@ -2958,6 +3001,7 @@ class Dossier4 {
      * Set the interet base.
      *
      * @param float $interetBase The interet base.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretBase($interetBase) {
         $this->interetBase = $interetBase;
@@ -2968,6 +3012,7 @@ class Dossier4 {
      * Set the interets cap.
      *
      * @param string $interetsCap The interets cap.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretsCap($interetsCap) {
         $this->interetsCap = $interetsCap;
@@ -2978,6 +3023,7 @@ class Dossier4 {
      * Set the interets cap2.
      *
      * @param string $interetsCap2 The interets cap2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretsCap2($interetsCap2) {
         $this->interetsCap2 = $interetsCap2;
@@ -2988,6 +3034,7 @@ class Dossier4 {
      * Set the interets contrepartie.
      *
      * @param string $interetsContrepartie The interets contrepartie.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretsContrepartie($interetsContrepartie) {
         $this->interetsContrepartie = $interetsContrepartie;
@@ -2998,6 +3045,7 @@ class Dossier4 {
      * Set the interets contrepartie2.
      *
      * @param string $interetsContrepartie2 The interets contrepartie2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretsContrepartie2($interetsContrepartie2) {
         $this->interetsContrepartie2 = $interetsContrepartie2;
@@ -3008,6 +3056,7 @@ class Dossier4 {
      * Set the interets contrepartie deduc.
      *
      * @param string $interetsContrepartieDeduc The interets contrepartie deduc.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretsContrepartieDeduc($interetsContrepartieDeduc) {
         $this->interetsContrepartieDeduc = $interetsContrepartieDeduc;
@@ -3018,6 +3067,7 @@ class Dossier4 {
      * Set the interets contrepartie deduc2.
      *
      * @param string $interetsContrepartieDeduc2 The interets contrepartie deduc2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretsContrepartieDeduc2($interetsContrepartieDeduc2) {
         $this->interetsContrepartieDeduc2 = $interetsContrepartieDeduc2;
@@ -3028,6 +3078,7 @@ class Dossier4 {
      * Set the interets pca.
      *
      * @param string $interetsPca The interets pca.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretsPca($interetsPca) {
         $this->interetsPca = $interetsPca;
@@ -3038,6 +3089,7 @@ class Dossier4 {
      * Set the interets pca2.
      *
      * @param string $interetsPca2 The interets pca2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setInteretsPca2($interetsPca2) {
         $this->interetsPca2 = $interetsPca2;
@@ -3048,6 +3100,7 @@ class Dossier4 {
      * Set the no lot cpt recip.
      *
      * @param int $noLotCptRecip The no lot cpt recip.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setNoLotCptRecip($noLotCptRecip) {
         $this->noLotCptRecip = $noLotCptRecip;
@@ -3058,6 +3111,7 @@ class Dossier4 {
      * Set the no lot credit is.
      *
      * @param int $noLotCreditIs The no lot credit is.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setNoLotCreditIs($noLotCreditIs) {
         $this->noLotCreditIs = $noLotCreditIs;
@@ -3068,6 +3122,7 @@ class Dossier4 {
      * Set the no lot cvae.
      *
      * @param int $noLotCvae The no lot cvae.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setNoLotCvae($noLotCvae) {
         $this->noLotCvae = $noLotCvae;
@@ -3078,6 +3133,7 @@ class Dossier4 {
      * Set the no lot interets.
      *
      * @param int $noLotInterets The no lot interets.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setNoLotInterets($noLotInterets) {
         $this->noLotInterets = $noLotInterets;
@@ -3088,6 +3144,7 @@ class Dossier4 {
      * Set the no lot interets2.
      *
      * @param int $noLotInterets2 The no lot interets2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setNoLotInterets2($noLotInterets2) {
         $this->noLotInterets2 = $noLotInterets2;
@@ -3098,6 +3155,7 @@ class Dossier4 {
      * Set the no lot is.
      *
      * @param int $noLotIs The no lot is.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setNoLotIs($noLotIs) {
         $this->noLotIs = $noLotIs;
@@ -3108,6 +3166,7 @@ class Dossier4 {
      * Set the no lot paiement is.
      *
      * @param int $noLotPaiementIs The no lot paiement is.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setNoLotPaiementIs($noLotPaiementIs) {
         $this->noLotPaiementIs = $noLotPaiementIs;
@@ -3118,6 +3177,7 @@ class Dossier4 {
      * Set the periode transfert stock.
      *
      * @param DateTime|null $periodeTransfertStock The periode transfert stock.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setPeriodeTransfertStock(DateTime $periodeTransfertStock = null) {
         $this->periodeTransfertStock = $periodeTransfertStock;
@@ -3128,6 +3188,7 @@ class Dossier4 {
      * Set the precedent num lot stock.
      *
      * @param int $precedentNumLotStock The precedent num lot stock.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setPrecedentNumLotStock($precedentNumLotStock) {
         $this->precedentNumLotStock = $precedentNumLotStock;
@@ -3138,6 +3199,7 @@ class Dossier4 {
      * Set the regime agricole.
      *
      * @param bool $regimeAgricole The regime agricole.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setRegimeAgricole($regimeAgricole) {
         $this->regimeAgricole = $regimeAgricole;
@@ -3148,6 +3210,7 @@ class Dossier4 {
      * Set the resultat net cpt.
      *
      * @param float $resultatNetCpt The resultat net cpt.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setResultatNetCpt($resultatNetCpt) {
         $this->resultatNetCpt = $resultatNetCpt;
@@ -3158,6 +3221,7 @@ class Dossier4 {
      * Set the rof tva.
      *
      * @param string $rofTva The rof tva.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setRofTva($rofTva) {
         $this->rofTva = $rofTva;
@@ -3168,6 +3232,7 @@ class Dossier4 {
      * Set the taux plafond interets.
      *
      * @param float $tauxPlafondInterets The taux plafond interets.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTauxPlafondInterets($tauxPlafondInterets) {
         $this->tauxPlafondInterets = $tauxPlafondInterets;
@@ -3178,6 +3243,7 @@ class Dossier4 {
      * Set the taux plafond interets2.
      *
      * @param float $tauxPlafondInterets2 The taux plafond interets2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTauxPlafondInterets2($tauxPlafondInterets2) {
         $this->tauxPlafondInterets2 = $tauxPlafondInterets2;
@@ -3188,6 +3254,7 @@ class Dossier4 {
      * Set the tva achats enc.
      *
      * @param bool $tvaAchatsEnc The tva achats enc.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaAchatsEnc($tvaAchatsEnc) {
         $this->tvaAchatsEnc = $tvaAchatsEnc;
@@ -3198,6 +3265,7 @@ class Dossier4 {
      * Set the tva ca12 ae.
      *
      * @param string $tvaCa12Ae The tva ca12 ae.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCa12Ae($tvaCa12Ae) {
         $this->tvaCa12Ae = $tvaCa12Ae;
@@ -3208,6 +3276,7 @@ class Dossier4 {
      * Set the tva cadtm.
      *
      * @param DateTime|null $tvaCadtm The tva cadtm.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCadtm(DateTime $tvaCadtm = null) {
         $this->tvaCadtm = $tvaCadtm;
@@ -3218,6 +3287,7 @@ class Dossier4 {
      * Set the tva cascade.
      *
      * @param bool $tvaCascade The tva cascade.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCascade($tvaCascade) {
         $this->tvaCascade = $tvaCascade;
@@ -3228,6 +3298,7 @@ class Dossier4 {
      * Set the tva cloture faite.
      *
      * @param bool $tvaClotureFaite The tva cloture faite.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaClotureFaite($tvaClotureFaite) {
         $this->tvaClotureFaite = $tvaClotureFaite;
@@ -3238,6 +3309,7 @@ class Dossier4 {
      * Set the tva code cabinet.
      *
      * @param string $tvaCodeCabinet The tva code cabinet.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCodeCabinet($tvaCodeCabinet) {
         $this->tvaCodeCabinet = $tvaCodeCabinet;
@@ -3248,6 +3320,7 @@ class Dossier4 {
      * Set the tva code int emetteur.
      *
      * @param string $tvaCodeIntEmetteur The tva code int emetteur.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCodeIntEmetteur($tvaCodeIntEmetteur) {
         $this->tvaCodeIntEmetteur = $tvaCodeIntEmetteur;
@@ -3258,6 +3331,7 @@ class Dossier4 {
      * Set the tva code int recepteur.
      *
      * @param string $tvaCodeIntRecepteur The tva code int recepteur.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCodeIntRecepteur($tvaCodeIntRecepteur) {
         $this->tvaCodeIntRecepteur = $tvaCodeIntRecepteur;
@@ -3268,6 +3342,7 @@ class Dossier4 {
      * Set the tva code journal bq.
      *
      * @param string $tvaCodeJournalBq The tva code journal bq.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCodeJournalBq($tvaCodeJournalBq) {
         $this->tvaCodeJournalBq = $tvaCodeJournalBq;
@@ -3278,6 +3353,7 @@ class Dossier4 {
      * Set the tva code journal od.
      *
      * @param string $tvaCodeJournalOd The tva code journal od.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCodeJournalOd($tvaCodeJournalOd) {
         $this->tvaCodeJournalOd = $tvaCodeJournalOd;
@@ -3288,6 +3364,7 @@ class Dossier4 {
      * Set the tva cpt a ajouter.
      *
      * @param string $tvaCptAAjouter The tva cpt a ajouter.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAAjouter($tvaCptAAjouter) {
         $this->tvaCptAAjouter = $tvaCptAAjouter;
@@ -3298,6 +3375,7 @@ class Dossier4 {
      * Set the tva cpt a ajouter g.
      *
      * @param string $tvaCptAAjouterG The tva cpt a ajouter g.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAAjouterG($tvaCptAAjouterG) {
         $this->tvaCptAAjouterG = $tvaCptAAjouterG;
@@ -3308,6 +3386,7 @@ class Dossier4 {
      * Set the tva cpt a deduire.
      *
      * @param string $tvaCptADeduire The tva cpt a deduire.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptADeduire($tvaCptADeduire) {
         $this->tvaCptADeduire = $tvaCptADeduire;
@@ -3318,6 +3397,7 @@ class Dossier4 {
      * Set the tva cpt a imputer.
      *
      * @param string $tvaCptAImputer The tva cpt a imputer.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAImputer($tvaCptAImputer) {
         $this->tvaCptAImputer = $tvaCptAImputer;
@@ -3328,6 +3408,7 @@ class Dossier4 {
      * Set the tva cpt a imputer g.
      *
      * @param string $tvaCptAImputerG The tva cpt a imputer g.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAImputerG($tvaCptAImputerG) {
         $this->tvaCptAImputerG = $tvaCptAImputerG;
@@ -3338,6 +3419,7 @@ class Dossier4 {
      * Set the tva cpt a payer.
      *
      * @param string $tvaCptAPayer The tva cpt a payer.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAPayer($tvaCptAPayer) {
         $this->tvaCptAPayer = $tvaCptAPayer;
@@ -3348,6 +3430,7 @@ class Dossier4 {
      * Set the tva cpt a payer g.
      *
      * @param string $tvaCptAPayerG The tva cpt a payer g.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAPayerG($tvaCptAPayerG) {
         $this->tvaCptAPayerG = $tvaCptAPayerG;
@@ -3358,6 +3441,7 @@ class Dossier4 {
      * Set the tva cpt acq intra com.
      *
      * @param string $tvaCptAcqIntraCom The tva cpt acq intra com.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAcqIntraCom($tvaCptAcqIntraCom) {
         $this->tvaCptAcqIntraCom = $tvaCptAcqIntraCom;
@@ -3368,6 +3452,7 @@ class Dossier4 {
      * Set the tva cpt anc taux.
      *
      * @param string $tvaCptAncTaux The tva cpt anc taux.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAncTaux($tvaCptAncTaux) {
         $this->tvaCptAncTaux = $tvaCptAncTaux;
@@ -3378,6 +3463,7 @@ class Dossier4 {
      * Set the tva cpt ante deduit.
      *
      * @param string $tvaCptAnteDeduit The tva cpt ante deduit.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAnteDeduit($tvaCptAnteDeduit) {
         $this->tvaCptAnteDeduit = $tvaCptAnteDeduit;
@@ -3388,6 +3474,7 @@ class Dossier4 {
      * Set the tva cpt assimil3310.
      *
      * @param string $tvaCptAssimil3310 The tva cpt assimil3310.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAssimil3310($tvaCptAssimil3310) {
         $this->tvaCptAssimil3310 = $tvaCptAssimil3310;
@@ -3398,6 +3485,7 @@ class Dossier4 {
      * Set the tva cpt assimil3310 g.
      *
      * @param string $tvaCptAssimil3310G The tva cpt assimil3310 g.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptAssimil3310G($tvaCptAssimil3310G) {
         $this->tvaCptAssimil3310G = $tvaCptAssimil3310G;
@@ -3408,6 +3496,7 @@ class Dossier4 {
      * Set the tva cpt biens.
      *
      * @param string $tvaCptBiens The tva cpt biens.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptBiens($tvaCptBiens) {
         $this->tvaCptBiens = $tvaCptBiens;
@@ -3418,6 +3507,7 @@ class Dossier4 {
      * Set the tva cpt biens intra com.
      *
      * @param string $tvaCptBiensIntraCom The tva cpt biens intra com.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptBiensIntraCom($tvaCptBiensIntraCom) {
         $this->tvaCptBiensIntraCom = $tvaCptBiensIntraCom;
@@ -3428,6 +3518,7 @@ class Dossier4 {
      * Set the tva cpt difference.
      *
      * @param string $tvaCptDifference The tva cpt difference.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptDifference($tvaCptDifference) {
         $this->tvaCptDifference = $tvaCptDifference;
@@ -3438,6 +3529,7 @@ class Dossier4 {
      * Set the tva cpt dom.
      *
      * @param string $tvaCptDom The tva cpt dom.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptDom($tvaCptDom) {
         $this->tvaCptDom = $tvaCptDom;
@@ -3448,6 +3540,7 @@ class Dossier4 {
      * Set the tva cpt groupe.
      *
      * @param string $tvaCptGroupe The tva cpt groupe.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptGroupe($tvaCptGroupe) {
         $this->tvaCptGroupe = $tvaCptGroupe;
@@ -3458,6 +3551,7 @@ class Dossier4 {
      * Set the tva cpt immos.
      *
      * @param string $tvaCptImmos The tva cpt immos.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptImmos($tvaCptImmos) {
         $this->tvaCptImmos = $tvaCptImmos;
@@ -3468,6 +3562,7 @@ class Dossier4 {
      * Set the tva cpt immos intra com.
      *
      * @param string $tvaCptImmosIntraCom The tva cpt immos intra com.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptImmosIntraCom($tvaCptImmosIntraCom) {
         $this->tvaCptImmosIntraCom = $tvaCptImmosIntraCom;
@@ -3478,6 +3573,7 @@ class Dossier4 {
      * Set the tva cpt regul.
      *
      * @param string $tvaCptRegul The tva cpt regul.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptRegul($tvaCptRegul) {
         $this->tvaCptRegul = $tvaCptRegul;
@@ -3488,6 +3584,7 @@ class Dossier4 {
      * Set the tva cpt rembours.
      *
      * @param string $tvaCptRembours The tva cpt rembours.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptRembours($tvaCptRembours) {
         $this->tvaCptRembours = $tvaCptRembours;
@@ -3498,6 +3595,7 @@ class Dossier4 {
      * Set the tva cpt rembours g.
      *
      * @param string $tvaCptRemboursG The tva cpt rembours g.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptRemboursG($tvaCptRemboursG) {
         $this->tvaCptRemboursG = $tvaCptRemboursG;
@@ -3508,6 +3606,7 @@ class Dossier4 {
      * Set the tva cpt report.
      *
      * @param string $tvaCptReport The tva cpt report.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptReport($tvaCptReport) {
         $this->tvaCptReport = $tvaCptReport;
@@ -3518,6 +3617,7 @@ class Dossier4 {
      * Set the tva cpt report g.
      *
      * @param string $tvaCptReportG The tva cpt report g.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptReportG($tvaCptReportG) {
         $this->tvaCptReportG = $tvaCptReportG;
@@ -3528,6 +3628,7 @@ class Dossier4 {
      * Set the tva cpt taux part.
      *
      * @param string $tvaCptTauxPart The tva cpt taux part.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptTauxPart($tvaCptTauxPart) {
         $this->tvaCptTauxPart = $tvaCptTauxPart;
@@ -3538,6 +3639,7 @@ class Dossier4 {
      * Set the tva cpt vente.
      *
      * @param string $tvaCptVente The tva cpt vente.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaCptVente($tvaCptVente) {
         $this->tvaCptVente = $tvaCptVente;
@@ -3548,6 +3650,7 @@ class Dossier4 {
      * Set the tva deb3 jrn exclure.
      *
      * @param string $tvaDeb3JrnExclure The tva deb3 jrn exclure.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaDeb3JrnExclure($tvaDeb3JrnExclure) {
         $this->tvaDeb3JrnExclure = $tvaDeb3JrnExclure;
@@ -3558,6 +3661,7 @@ class Dossier4 {
      * Set the tva dest attn.
      *
      * @param string $tvaDestAttn The tva dest attn.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaDestAttn($tvaDestAttn) {
         $this->tvaDestAttn = $tvaDestAttn;
@@ -3568,6 +3672,7 @@ class Dossier4 {
      * Set the tva dest fax.
      *
      * @param string $tvaDestFax The tva dest fax.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaDestFax($tvaDestFax) {
         $this->tvaDestFax = $tvaDestFax;
@@ -3578,6 +3683,7 @@ class Dossier4 {
      * Set the tva dest nom.
      *
      * @param string $tvaDestNom The tva dest nom.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaDestNom($tvaDestNom) {
         $this->tvaDestNom = $tvaDestNom;
@@ -3588,6 +3694,7 @@ class Dossier4 {
      * Set the tva e4 dbs.
      *
      * @param string $tvaE4Dbs The tva e4 dbs.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaE4Dbs($tvaE4Dbs) {
         $this->tvaE4Dbs = $tvaE4Dbs;
@@ -3598,6 +3705,7 @@ class Dossier4 {
      * Set the tva e4 di.
      *
      * @param string $tvaE4Di The tva e4 di.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaE4Di($tvaE4Di) {
         $this->tvaE4Di = $tvaE4Di;
@@ -3608,6 +3716,7 @@ class Dossier4 {
      * Set the tva e4 r jrn od.
      *
      * @param string $tvaE4RJrnOd The tva e4 r jrn od.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaE4RJrnOd($tvaE4RJrnOd) {
         $this->tvaE4RJrnOd = $tvaE4RJrnOd;
@@ -3618,6 +3727,7 @@ class Dossier4 {
      * Set the tva e4 rbs.
      *
      * @param string $tvaE4Rbs The tva e4 rbs.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaE4Rbs($tvaE4Rbs) {
         $this->tvaE4Rbs = $tvaE4Rbs;
@@ -3628,6 +3738,7 @@ class Dossier4 {
      * Set the tva e4 ri.
      *
      * @param string $tvaE4Ri The tva e4 ri.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaE4Ri($tvaE4Ri) {
         $this->tvaE4Ri = $tvaE4Ri;
@@ -3638,6 +3749,7 @@ class Dossier4 {
      * Set the tva emetteur is cab.
      *
      * @param bool $tvaEmetteurIsCab The tva emetteur is cab.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEmetteurIsCab($tvaEmetteurIsCab) {
         $this->tvaEmetteurIsCab = $tvaEmetteurIsCab;
@@ -3648,6 +3760,7 @@ class Dossier4 {
      * Set the tva enc3 der per rech da.
      *
      * @param DateTime|null $tvaEnc3DerPerRechDa The tva enc3 der per rech da.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEnc3DerPerRechDa(DateTime $tvaEnc3DerPerRechDa = null) {
         $this->tvaEnc3DerPerRechDa = $tvaEnc3DerPerRechDa;
@@ -3658,6 +3771,7 @@ class Dossier4 {
      * Set the tva envoyer mail.
      *
      * @param bool $tvaEnvoyerMail The tva envoyer mail.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEnvoyerMail($tvaEnvoyerMail) {
         $this->tvaEnvoyerMail = $tvaEnvoyerMail;
@@ -3668,6 +3782,7 @@ class Dossier4 {
      * Set the tva etab btq.
      *
      * @param string $tvaEtabBtq The tva etab btq.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEtabBtq($tvaEtabBtq) {
         $this->tvaEtabBtq = $tvaEtabBtq;
@@ -3678,6 +3793,7 @@ class Dossier4 {
      * Set the tva etab bureau distributeur.
      *
      * @param string $tvaEtabBureauDistributeur The tva etab bureau distributeur.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEtabBureauDistributeur($tvaEtabBureauDistributeur) {
         $this->tvaEtabBureauDistributeur = $tvaEtabBureauDistributeur;
@@ -3688,6 +3804,7 @@ class Dossier4 {
      * Set the tva etab code postal.
      *
      * @param string $tvaEtabCodePostal The tva etab code postal.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEtabCodePostal($tvaEtabCodePostal) {
         $this->tvaEtabCodePostal = $tvaEtabCodePostal;
@@ -3698,6 +3815,7 @@ class Dossier4 {
      * Set the tva etab complement.
      *
      * @param string $tvaEtabComplement The tva etab complement.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEtabComplement($tvaEtabComplement) {
         $this->tvaEtabComplement = $tvaEtabComplement;
@@ -3708,6 +3826,7 @@ class Dossier4 {
      * Set the tva etab nom.
      *
      * @param string $tvaEtabNom The tva etab nom.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEtabNom($tvaEtabNom) {
         $this->tvaEtabNom = $tvaEtabNom;
@@ -3718,6 +3837,7 @@ class Dossier4 {
      * Set the tva etab nom voie.
      *
      * @param string $tvaEtabNomVoie The tva etab nom voie.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEtabNomVoie($tvaEtabNomVoie) {
         $this->tvaEtabNomVoie = $tvaEtabNomVoie;
@@ -3728,6 +3848,7 @@ class Dossier4 {
      * Set the tva etab num voie.
      *
      * @param string $tvaEtabNumVoie The tva etab num voie.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaEtabNumVoie($tvaEtabNumVoie) {
         $this->tvaEtabNumVoie = $tvaEtabNumVoie;
@@ -3738,6 +3859,7 @@ class Dossier4 {
      * Set the tva exp nom.
      *
      * @param string $tvaExpNom The tva exp nom.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaExpNom($tvaExpNom) {
         $this->tvaExpNom = $tvaExpNom;
@@ -3748,6 +3870,7 @@ class Dossier4 {
      * Set the tva jour decla.
      *
      * @param string $tvaJourDecla The tva jour decla.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaJourDecla($tvaJourDecla) {
         $this->tvaJourDecla = $tvaJourDecla;
@@ -3758,6 +3881,7 @@ class Dossier4 {
      * Set the tva mail pj.
      *
      * @param bool $tvaMailPj The tva mail pj.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaMailPj($tvaMailPj) {
         $this->tvaMailPj = $tvaMailPj;
@@ -3768,6 +3892,7 @@ class Dossier4 {
      * Set the tva methode.
      *
      * @param string $tvaMethode The tva methode.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaMethode($tvaMethode) {
         $this->tvaMethode = $tvaMethode;
@@ -3778,6 +3903,7 @@ class Dossier4 {
      * Set the tva moyen paiement.
      *
      * @param int $tvaMoyenPaiement The tva moyen paiement.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaMoyenPaiement($tvaMoyenPaiement) {
         $this->tvaMoyenPaiement = $tvaMoyenPaiement;
@@ -3788,6 +3914,7 @@ class Dossier4 {
      * Set the tva nom vir.
      *
      * @param string $tvaNomVir The tva nom vir.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaNomVir($tvaNomVir) {
         $this->tvaNomVir = $tvaNomVir;
@@ -3798,6 +3925,7 @@ class Dossier4 {
      * Set the tva parametrage ok.
      *
      * @param bool $tvaParametrageOk The tva parametrage ok.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaParametrageOk($tvaParametrageOk) {
         $this->tvaParametrageOk = $tvaParametrageOk;
@@ -3808,6 +3936,7 @@ class Dossier4 {
      * Set the tva periodicite.
      *
      * @param string $tvaPeriodicite The tva periodicite.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaPeriodicite($tvaPeriodicite) {
         $this->tvaPeriodicite = $tvaPeriodicite;
@@ -3818,6 +3947,7 @@ class Dossier4 {
      * Set the tva prefixe intracom.
      *
      * @param string $tvaPrefixeIntracom The tva prefixe intracom.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaPrefixeIntracom($tvaPrefixeIntracom) {
         $this->tvaPrefixeIntracom = $tvaPrefixeIntracom;
@@ -3828,6 +3958,7 @@ class Dossier4 {
      * Set the tva recepteur je declare.
      *
      * @param bool $tvaRecepteurJeDeclare The tva recepteur je declare.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaRecepteurJeDeclare($tvaRecepteurJeDeclare) {
         $this->tvaRecepteurJeDeclare = $tvaRecepteurJeDeclare;
@@ -3838,6 +3969,7 @@ class Dossier4 {
      * Set the tva regime.
      *
      * @param string $tvaRegime The tva regime.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaRegime($tvaRegime) {
         $this->tvaRegime = $tvaRegime;
@@ -3848,6 +3980,7 @@ class Dossier4 {
      * Set the tva signataire.
      *
      * @param string $tvaSignataire The tva signataire.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaSignataire($tvaSignataire) {
         $this->tvaSignataire = $tvaSignataire;
@@ -3858,6 +3991,7 @@ class Dossier4 {
      * Set the tva type.
      *
      * @param string $tvaType The tva type.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaType($tvaType) {
         $this->tvaType = $tvaType;
@@ -3868,6 +4002,7 @@ class Dossier4 {
      * Set the tva vire crlf.
      *
      * @param bool $tvaVireCrlf The tva vire crlf.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaVireCrlf($tvaVireCrlf) {
         $this->tvaVireCrlf = $tvaVireCrlf;
@@ -3878,6 +4013,7 @@ class Dossier4 {
      * Set the tvabic vir.
      *
      * @param string $tvabicVir The tvabic vir.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvabicVir($tvabicVir) {
         $this->tvabicVir = $tvabicVir;
@@ -3888,6 +4024,7 @@ class Dossier4 {
      * Set the tvaedi edition.
      *
      * @param bool $tvaediEdition The tvaedi edition.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaediEdition($tvaediEdition) {
         $this->tvaediEdition = $tvaediEdition;
@@ -3898,6 +4035,7 @@ class Dossier4 {
      * Set the tvaiban vir.
      *
      * @param string $tvaibanVir The tvaiban vir.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaibanVir($tvaibanVir) {
         $this->tvaibanVir = $tvaibanVir;
@@ -3908,6 +4046,7 @@ class Dossier4 {
      * Set the tvarib vir.
      *
      * @param string $tvaribVir The tvarib vir.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvaribVir($tvaribVir) {
         $this->tvaribVir = $tvaribVir;
@@ -3918,6 +4057,7 @@ class Dossier4 {
      * Set the tvatlra bic1.
      *
      * @param string $tvatlraBic1 The tvatlra bic1.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraBic1($tvatlraBic1) {
         $this->tvatlraBic1 = $tvatlraBic1;
@@ -3928,6 +4068,7 @@ class Dossier4 {
      * Set the tvatlra bic2.
      *
      * @param string $tvatlraBic2 The tvatlra bic2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraBic2($tvatlraBic2) {
         $this->tvatlraBic2 = $tvatlraBic2;
@@ -3938,6 +4079,7 @@ class Dossier4 {
      * Set the tvatlra bic3.
      *
      * @param string $tvatlraBic3 The tvatlra bic3.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraBic3($tvatlraBic3) {
         $this->tvatlraBic3 = $tvatlraBic3;
@@ -3948,6 +4090,7 @@ class Dossier4 {
      * Set the tvatlra iban1.
      *
      * @param string $tvatlraIban1 The tvatlra iban1.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraIban1($tvatlraIban1) {
         $this->tvatlraIban1 = $tvatlraIban1;
@@ -3958,6 +4101,7 @@ class Dossier4 {
      * Set the tvatlra iban2.
      *
      * @param string $tvatlraIban2 The tvatlra iban2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraIban2($tvatlraIban2) {
         $this->tvatlraIban2 = $tvatlraIban2;
@@ -3968,6 +4112,7 @@ class Dossier4 {
      * Set the tvatlra iban3.
      *
      * @param string $tvatlraIban3 The tvatlra iban3.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraIban3($tvatlraIban3) {
         $this->tvatlraIban3 = $tvatlraIban3;
@@ -3978,6 +4123,7 @@ class Dossier4 {
      * Set the tvatlra rib1.
      *
      * @param string $tvatlraRib1 The tvatlra rib1.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraRib1($tvatlraRib1) {
         $this->tvatlraRib1 = $tvatlraRib1;
@@ -3988,6 +4134,7 @@ class Dossier4 {
      * Set the tvatlra rib2.
      *
      * @param string $tvatlraRib2 The tvatlra rib2.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraRib2($tvatlraRib2) {
         $this->tvatlraRib2 = $tvatlraRib2;
@@ -3998,6 +4145,7 @@ class Dossier4 {
      * Set the tvatlra rib3.
      *
      * @param string $tvatlraRib3 The tvatlra rib3.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setTvatlraRib3($tvatlraRib3) {
         $this->tvatlraRib3 = $tvatlraRib3;
@@ -4008,6 +4156,7 @@ class Dossier4 {
      * Set the vmp code jrn pmv.
      *
      * @param string $vmpCodeJrnPmv The vmp code jrn pmv.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setVmpCodeJrnPmv($vmpCodeJrnPmv) {
         $this->vmpCodeJrnPmv = $vmpCodeJrnPmv;
@@ -4018,6 +4167,7 @@ class Dossier4 {
      * Set the vmp cpt moins value.
      *
      * @param string $vmpCptMoinsValue The vmp cpt moins value.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setVmpCptMoinsValue($vmpCptMoinsValue) {
         $this->vmpCptMoinsValue = $vmpCptMoinsValue;
@@ -4028,6 +4178,7 @@ class Dossier4 {
      * Set the vmp cpt plus value.
      *
      * @param string $vmpCptPlusValue The vmp cpt plus value.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setVmpCptPlusValue($vmpCptPlusValue) {
         $this->vmpCptPlusValue = $vmpCptPlusValue;
@@ -4038,6 +4189,7 @@ class Dossier4 {
      * Set the vmp gest ecr pmv.
      *
      * @param int $vmpGestEcrPmv The vmp gest ecr pmv.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setVmpGestEcrPmv($vmpGestEcrPmv) {
         $this->vmpGestEcrPmv = $vmpGestEcrPmv;
@@ -4048,6 +4200,7 @@ class Dossier4 {
      * Set the vmp gestion en saisie.
      *
      * @param bool $vmpGestionEnSaisie The vmp gestion en saisie.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setVmpGestionEnSaisie($vmpGestionEnSaisie) {
         $this->vmpGestionEnSaisie = $vmpGestionEnSaisie;
@@ -4058,6 +4211,7 @@ class Dossier4 {
      * Set the ya reprise cice.
      *
      * @param bool $yaRepriseCice The ya reprise cice.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setYaRepriseCice($yaRepriseCice) {
         $this->yaRepriseCice = $yaRepriseCice;
@@ -4068,6 +4222,7 @@ class Dossier4 {
      * Set the ya taux reduit.
      *
      * @param bool $yaTauxReduit The ya taux reduit.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setYaTauxReduit($yaTauxReduit) {
         $this->yaTauxReduit = $yaTauxReduit;
@@ -4078,6 +4233,7 @@ class Dossier4 {
      * Set the b ca12 t.
      *
      * @param bool $bCa12T The b ca12 t.
+     * @return Dossier4 Returns this Dossier4.
      */
     public function setbCa12T($bCa12T) {
         $this->bCa12T = $bCa12T;

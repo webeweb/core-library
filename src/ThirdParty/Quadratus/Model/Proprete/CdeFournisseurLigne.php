@@ -544,6 +544,7 @@ class CdeFournisseurLigne {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -554,6 +555,7 @@ class CdeFournisseurLigne {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -564,6 +566,7 @@ class CdeFournisseurLigne {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -574,6 +577,7 @@ class CdeFournisseurLigne {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -584,6 +588,7 @@ class CdeFournisseurLigne {
      * Set the code depot.
      *
      * @param string $codeDepot The code depot.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeDepot($codeDepot) {
         $this->codeDepot = $codeDepot;
@@ -594,6 +599,7 @@ class CdeFournisseurLigne {
      * Set the code fournisseur.
      *
      * @param string $codeFournisseur The code fournisseur.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeFournisseur($codeFournisseur) {
         $this->codeFournisseur = $codeFournisseur;
@@ -604,6 +610,7 @@ class CdeFournisseurLigne {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -614,6 +621,7 @@ class CdeFournisseurLigne {
      * Set the code unite.
      *
      * @param int $codeUnite The code unite.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -624,6 +632,7 @@ class CdeFournisseurLigne {
      * Set the code variante.
      *
      * @param string $codeVariante The code variante.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeVariante($codeVariante) {
         $this->codeVariante = $codeVariante;
@@ -634,6 +643,7 @@ class CdeFournisseurLigne {
      * Set the code ventil achat.
      *
      * @param string $codeVentilAchat The code ventil achat.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCodeVentilAchat($codeVentilAchat) {
         $this->codeVentilAchat = $codeVentilAchat;
@@ -644,6 +654,7 @@ class CdeFournisseurLigne {
      * Set the commande recue.
      *
      * @param bool $commandeRecue The commande recue.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setCommandeRecue($commandeRecue) {
         $this->commandeRecue = $commandeRecue;
@@ -654,6 +665,7 @@ class CdeFournisseurLigne {
      * Set the conditionnement.
      *
      * @param string $conditionnement The conditionnement.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setConditionnement($conditionnement) {
         $this->conditionnement = $conditionnement;
@@ -664,6 +676,7 @@ class CdeFournisseurLigne {
      * Set the date reception prevue.
      *
      * @param DateTime|null $dateReceptionPrevue The date reception prevue.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setDateReceptionPrevue(DateTime $dateReceptionPrevue = null) {
         $this->dateReceptionPrevue = $dateReceptionPrevue;
@@ -674,6 +687,7 @@ class CdeFournisseurLigne {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -684,6 +698,7 @@ class CdeFournisseurLigne {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -694,6 +709,7 @@ class CdeFournisseurLigne {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -704,6 +720,7 @@ class CdeFournisseurLigne {
      * Set the indice ligne.
      *
      * @param int $indiceLigne The indice ligne.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setIndiceLigne($indiceLigne) {
         $this->indiceLigne = $indiceLigne;
@@ -714,6 +731,7 @@ class CdeFournisseurLigne {
      * Set the no br.
      *
      * @param string $noBr The no br.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setNoBr($noBr) {
         $this->noBr = $noBr;
@@ -724,6 +742,7 @@ class CdeFournisseurLigne {
      * Set the no ligne br.
      *
      * @param int $noLigneBr The no ligne br.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setNoLigneBr($noLigneBr) {
         $this->noLigneBr = $noLigneBr;
@@ -734,6 +753,7 @@ class CdeFournisseurLigne {
      * Set the no piece.
      *
      * @param string $noPiece The no piece.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setNoPiece($noPiece) {
         $this->noPiece = $noPiece;
@@ -744,6 +764,7 @@ class CdeFournisseurLigne {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -754,6 +775,7 @@ class CdeFournisseurLigne {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -764,6 +786,7 @@ class CdeFournisseurLigne {
      * Set the pu brut.
      *
      * @param float $puBrut The pu brut.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setPuBrut($puBrut) {
         $this->puBrut = $puBrut;
@@ -774,6 +797,7 @@ class CdeFournisseurLigne {
      * Set the qte cond.
      *
      * @param int $qteCond The qte cond.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setQteCond($qteCond) {
         $this->qteCond = $qteCond;
@@ -784,6 +808,7 @@ class CdeFournisseurLigne {
      * Set the qte origine.
      *
      * @param float $qteOrigine The qte origine.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setQteOrigine($qteOrigine) {
         $this->qteOrigine = $qteOrigine;
@@ -794,6 +819,7 @@ class CdeFournisseurLigne {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -804,6 +830,7 @@ class CdeFournisseurLigne {
      * Set the ref article fournisseur.
      *
      * @param string $refArticleFournisseur The ref article fournisseur.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setRefArticleFournisseur($refArticleFournisseur) {
         $this->refArticleFournisseur = $refArticleFournisseur;
@@ -814,6 +841,7 @@ class CdeFournisseurLigne {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -824,6 +852,7 @@ class CdeFournisseurLigne {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -834,6 +863,7 @@ class CdeFournisseurLigne {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -844,6 +874,7 @@ class CdeFournisseurLigne {
      * Set the taux tva.
      *
      * @param float $tauxTva The taux tva.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setTauxTva($tauxTva) {
         $this->tauxTva = $tauxTva;
@@ -854,6 +885,7 @@ class CdeFournisseurLigne {
      * Set the type ligne.
      *
      * @param string $typeLigne The type ligne.
+     * @return CdeFournisseurLigne Returns this Cde fournisseur ligne.
      */
     public function setTypeLigne($typeLigne) {
         $this->typeLigne = $typeLigne;

@@ -64,6 +64,7 @@ class JoursFeries {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return JoursFeries Returns this Jours feries.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -74,6 +75,7 @@ class JoursFeries {
      * Set the jour.
      *
      * @param DateTime|null $jour The jour.
+     * @return JoursFeries Returns this Jours feries.
      */
     public function setJour(DateTime $jour = null) {
         $this->jour = $jour;

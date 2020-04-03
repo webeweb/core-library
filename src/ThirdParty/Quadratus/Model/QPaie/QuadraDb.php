@@ -80,6 +80,7 @@ class QuadraDb {
      * Set the date envoi message.
      *
      * @param DateTime|null $dateEnvoiMessage The date envoi message.
+     * @return QuadraDb Returns this Quadra db.
      */
     public function setDateEnvoiMessage(DateTime $dateEnvoiMessage = null) {
         $this->dateEnvoiMessage = $dateEnvoiMessage;
@@ -90,6 +91,7 @@ class QuadraDb {
      * Set the taille base.
      *
      * @param int $tailleBase The taille base.
+     * @return QuadraDb Returns this Quadra db.
      */
     public function setTailleBase($tailleBase) {
         $this->tailleBase = $tailleBase;
@@ -100,6 +102,7 @@ class QuadraDb {
      * Set the version.
      *
      * @param int $version The version.
+     * @return QuadraDb Returns this Quadra db.
      */
     public function setVersion($version) {
         $this->version = $version;

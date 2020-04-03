@@ -816,6 +816,7 @@ class Etablissements2 {
      * Set the adherent syndicat.
      *
      * @param bool $adherentSyndicat The adherent syndicat.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setAdherentSyndicat($adherentSyndicat) {
         $this->adherentSyndicat = $adherentSyndicat;
@@ -826,6 +827,7 @@ class Etablissements2 {
      * Set the annee chgt effectif.
      *
      * @param string $anneeChgtEffectif The annee chgt effectif.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setAnneeChgtEffectif($anneeChgtEffectif) {
         $this->anneeChgtEffectif = $anneeChgtEffectif;
@@ -836,6 +838,7 @@ class Etablissements2 {
      * Set the annee jei.
      *
      * @param int $anneeJei The annee jei.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setAnneeJei($anneeJei) {
         $this->anneeJei = $anneeJei;
@@ -846,6 +849,7 @@ class Etablissements2 {
      * Set the assujetti cvae.
      *
      * @param bool $assujettiCvae The assujetti cvae.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setAssujettiCvae($assujettiCvae) {
         $this->assujettiCvae = $assujettiCvae;
@@ -856,6 +860,7 @@ class Etablissements2 {
      * Set the autre signature dnae.
      *
      * @param string $autreSignatureDnae The autre signature dnae.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setAutreSignatureDnae($autreSignatureDnae) {
         $this->autreSignatureDnae = $autreSignatureDnae;
@@ -866,6 +871,7 @@ class Etablissements2 {
      * Set the bic2.
      *
      * @param string $bic2 The bic2.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setBic2($bic2) {
         $this->bic2 = $bic2;
@@ -876,6 +882,7 @@ class Etablissements2 {
      * Set the bic3.
      *
      * @param string $bic3 The bic3.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setBic3($bic3) {
         $this->bic3 = $bic3;
@@ -886,6 +893,7 @@ class Etablissements2 {
      * Set the caisse cp transport.
      *
      * @param bool $caisseCpTransport The caisse cp transport.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCaisseCpTransport($caisseCpTransport) {
         $this->caisseCpTransport = $caisseCpTransport;
@@ -896,6 +904,7 @@ class Etablissements2 {
      * Set the categorie juridique.
      *
      * @param string $categorieJuridique The categorie juridique.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCategorieJuridique($categorieJuridique) {
         $this->categorieJuridique = $categorieJuridique;
@@ -906,6 +915,7 @@ class Etablissements2 {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -916,6 +926,7 @@ class Etablissements2 {
      * Set the code med trav due.
      *
      * @param string $codeMedTravDue The code med trav due.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCodeMedTravDue($codeMedTravDue) {
         $this->codeMedTravDue = $codeMedTravDue;
@@ -926,6 +937,7 @@ class Etablissements2 {
      * Set the code orga due.
      *
      * @param string $codeOrgaDue The code orga due.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCodeOrgaDue($codeOrgaDue) {
         $this->codeOrgaDue = $codeOrgaDue;
@@ -936,6 +948,7 @@ class Etablissements2 {
      * Set the coeff fillon moins20.
      *
      * @param bool $coeffFillonMoins20 The coeff fillon moins20.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCoeffFillonMoins20($coeffFillonMoins20) {
         $this->coeffFillonMoins20 = $coeffFillonMoins20;
@@ -946,6 +959,7 @@ class Etablissements2 {
      * Set the compte charge heures act part.
      *
      * @param string $compteChargeHeuresActPart The compte charge heures act part.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCompteChargeHeuresActPart($compteChargeHeuresActPart) {
         $this->compteChargeHeuresActPart = $compteChargeHeuresActPart;
@@ -956,6 +970,7 @@ class Etablissements2 {
      * Set the compte charge indem abs intemp.
      *
      * @param string $compteChargeIndemAbsIntemp The compte charge indem abs intemp.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCompteChargeIndemAbsIntemp($compteChargeIndemAbsIntemp) {
         $this->compteChargeIndemAbsIntemp = $compteChargeIndemAbsIntemp;
@@ -966,6 +981,7 @@ class Etablissements2 {
      * Set the compte charge indem act part.
      *
      * @param string $compteChargeIndemActPart The compte charge indem act part.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCompteChargeIndemActPart($compteChargeIndemActPart) {
         $this->compteChargeIndemActPart = $compteChargeIndemActPart;
@@ -976,6 +992,7 @@ class Etablissements2 {
      * Set the compte charge int vers.
      *
      * @param string $compteChargeIntVers The compte charge int vers.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCompteChargeIntVers($compteChargeIntVers) {
         $this->compteChargeIntVers = $compteChargeIntVers;
@@ -986,6 +1003,7 @@ class Etablissements2 {
      * Set the compte charge part vers.
      *
      * @param string $compteChargePartVers The compte charge part vers.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setCompteChargePartVers($compteChargePartVers) {
         $this->compteChargePartVers = $compteChargePartVers;
@@ -996,6 +1014,7 @@ class Etablissements2 {
      * Set the contact signature dnae.
      *
      * @param string $contactSignatureDnae The contact signature dnae.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setContactSignatureDnae($contactSignatureDnae) {
         $this->contactSignatureDnae = $contactSignatureDnae;
@@ -1006,6 +1025,7 @@ class Etablissements2 {
      * Set the date fin exclure lfr2012.
      *
      * @param DateTime|null $dateFinExclureLfr2012 The date fin exclure lfr2012.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setDateFinExclureLfr2012(DateTime $dateFinExclureLfr2012 = null) {
         $this->dateFinExclureLfr2012 = $dateFinExclureLfr2012;
@@ -1016,6 +1036,7 @@ class Etablissements2 {
      * Set the exclure lfr2012.
      *
      * @param bool $exclureLfr2012 The exclure lfr2012.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setExclureLfr2012($exclureLfr2012) {
         $this->exclureLfr2012 = $exclureLfr2012;
@@ -1026,6 +1047,7 @@ class Etablissements2 {
      * Set the gestion hstepa.
      *
      * @param string $gestionHstepa The gestion hstepa.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setGestionHstepa($gestionHstepa) {
         $this->gestionHstepa = $gestionHstepa;
@@ -1036,6 +1058,7 @@ class Etablissements2 {
      * Set the gestion maintien sal auto.
      *
      * @param bool $gestionMaintienSalAuto The gestion maintien sal auto.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setGestionMaintienSalAuto($gestionMaintienSalAuto) {
         $this->gestionMaintienSalAuto = $gestionMaintienSalAuto;
@@ -1046,6 +1069,7 @@ class Etablissements2 {
      * Set the iban2.
      *
      * @param string $iban2 The iban2.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setIban2($iban2) {
         $this->iban2 = $iban2;
@@ -1056,6 +1080,7 @@ class Etablissements2 {
      * Set the iban3.
      *
      * @param string $iban3 The iban3.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setIban3($iban3) {
         $this->iban3 = $iban3;
@@ -1066,6 +1091,7 @@ class Etablissements2 {
      * Set the iban id client2.
      *
      * @param string $ibanIdClient2 The iban id client2.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setIbanIdClient2($ibanIdClient2) {
         $this->ibanIdClient2 = $ibanIdClient2;
@@ -1076,6 +1102,7 @@ class Etablissements2 {
      * Set the iban id client3.
      *
      * @param string $ibanIdClient3 The iban id client3.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setIbanIdClient3($ibanIdClient3) {
         $this->ibanIdClient3 = $ibanIdClient3;
@@ -1086,6 +1113,7 @@ class Etablissements2 {
      * Set the implantation entreprise.
      *
      * @param string $implantationEntreprise The implantation entreprise.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setImplantationEntreprise($implantationEntreprise) {
         $this->implantationEntreprise = $implantationEntreprise;
@@ -1096,6 +1124,7 @@ class Etablissements2 {
      * Set the jf charge emp.
      *
      * @param bool $jfChargeEmp The jf charge emp.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setJfChargeEmp($jfChargeEmp) {
         $this->jfChargeEmp = $jfChargeEmp;
@@ -1106,6 +1135,7 @@ class Etablissements2 {
      * Set the lieu signature dnae.
      *
      * @param string $lieuSignatureDnae The lieu signature dnae.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setLieuSignatureDnae($lieuSignatureDnae) {
         $this->lieuSignatureDnae = $lieuSignatureDnae;
@@ -1116,6 +1146,7 @@ class Etablissements2 {
      * Set the maintien net deduc csgijss.
      *
      * @param bool $maintienNetDeducCsgijss The maintien net deduc csgijss.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setMaintienNetDeducCsgijss($maintienNetDeducCsgijss) {
         $this->maintienNetDeducCsgijss = $maintienNetDeducCsgijss;
@@ -1126,6 +1157,7 @@ class Etablissements2 {
      * Set the nb fraction etab.
      *
      * @param int $nbFractionEtab The nb fraction etab.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setNbFractionEtab($nbFractionEtab) {
         $this->nbFractionEtab = $nbFractionEtab;
@@ -1136,6 +1168,7 @@ class Etablissements2 {
      * Set the nom signataire dnae.
      *
      * @param string $nomSignataireDnae The nom signataire dnae.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setNomSignataireDnae($nomSignataireDnae) {
         $this->nomSignataireDnae = $nomSignataireDnae;
@@ -1146,6 +1179,7 @@ class Etablissements2 {
      * Set the prenom signataire dnae.
      *
      * @param string $prenomSignataireDnae The prenom signataire dnae.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setPrenomSignataireDnae($prenomSignataireDnae) {
         $this->prenomSignataireDnae = $prenomSignataireDnae;
@@ -1156,6 +1190,7 @@ class Etablissements2 {
      * Set the pseudo siret.
      *
      * @param string $pseudoSiret The pseudo siret.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setPseudoSiret($pseudoSiret) {
         $this->pseudoSiret = $pseudoSiret;
@@ -1166,6 +1201,7 @@ class Etablissements2 {
      * Set the qualite signataire dnae.
      *
      * @param string $qualiteSignataireDnae The qualite signataire dnae.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setQualiteSignataireDnae($qualiteSignataireDnae) {
         $this->qualiteSignataireDnae = $qualiteSignataireDnae;
@@ -1176,6 +1212,7 @@ class Etablissements2 {
      * Set the reduction mayotte.
      *
      * @param bool $reductionMayotte The reduction mayotte.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setReductionMayotte($reductionMayotte) {
         $this->reductionMayotte = $reductionMayotte;
@@ -1186,6 +1223,7 @@ class Etablissements2 {
      * Set the remuneration expatries.
      *
      * @param string $remunerationExpatries The remuneration expatries.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setRemunerationExpatries($remunerationExpatries) {
         $this->remunerationExpatries = $remunerationExpatries;
@@ -1196,6 +1234,7 @@ class Etablissements2 {
      * Set the siret centralisateur.
      *
      * @param bool $siretCentralisateur The siret centralisateur.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setSiretCentralisateur($siretCentralisateur) {
         $this->siretCentralisateur = $siretCentralisateur;
@@ -1206,6 +1245,7 @@ class Etablissements2 {
      * Set the smic m courant.
      *
      * @param bool $smicMCourant The smic m courant.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setSmicMCourant($smicMCourant) {
         $this->smicMCourant = $smicMCourant;
@@ -1216,6 +1256,7 @@ class Etablissements2 {
      * Set the societe interim.
      *
      * @param bool $societeInterim The societe interim.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setSocieteInterim($societeInterim) {
         $this->societeInterim = $societeInterim;
@@ -1226,6 +1267,7 @@ class Etablissements2 {
      * Set the taux compl heure.
      *
      * @param float $tauxComplHeure The taux compl heure.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setTauxComplHeure($tauxComplHeure) {
         $this->tauxComplHeure = $tauxComplHeure;
@@ -1236,6 +1278,7 @@ class Etablissements2 {
      * Set the taux cotis oss et ope.
      *
      * @param float $tauxCotisOssEtOpe The taux cotis oss et ope.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setTauxCotisOssEtOpe($tauxCotisOssEtOpe) {
         $this->tauxCotisOssEtOpe = $tauxCotisOssEtOpe;
@@ -1246,6 +1289,7 @@ class Etablissements2 {
      * Set the taux h comp.
      *
      * @param float $tauxHComp The taux h comp.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setTauxHComp($tauxHComp) {
         $this->tauxHComp = $tauxHComp;
@@ -1256,6 +1300,7 @@ class Etablissements2 {
      * Set the tds19.
      *
      * @param string $tds19 The tds19.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setTds19($tds19) {
         $this->tds19 = $tds19;
@@ -1266,6 +1311,7 @@ class Etablissements2 {
      * Set the tel signature dnae.
      *
      * @param string $telSignatureDnae The tel signature dnae.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setTelSignatureDnae($telSignatureDnae) {
         $this->telSignatureDnae = $telSignatureDnae;
@@ -1276,6 +1322,7 @@ class Etablissements2 {
      * Set the tepa moins20.
      *
      * @param bool $tepaMoins20 The tepa moins20.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setTepaMoins20($tepaMoins20) {
         $this->tepaMoins20 = $tepaMoins20;
@@ -1286,6 +1333,7 @@ class Etablissements2 {
      * Set the type effectif ct.
      *
      * @param string $typeEffectifCt The type effectif ct.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setTypeEffectifCt($typeEffectifCt) {
         $this->typeEffectifCt = $typeEffectifCt;
@@ -1296,6 +1344,7 @@ class Etablissements2 {
      * Set the type maintien brut net.
      *
      * @param string $typeMaintienBrutNet The type maintien brut net.
+     * @return Etablissements2 Returns this Etablissements2.
      */
     public function setTypeMaintienBrutNet($typeMaintienBrutNet) {
         $this->typeMaintienBrutNet = $typeMaintienBrutNet;

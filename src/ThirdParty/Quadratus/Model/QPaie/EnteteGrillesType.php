@@ -62,6 +62,7 @@ class EnteteGrillesType {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return EnteteGrillesType Returns this Entete grilles type.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -72,6 +73,7 @@ class EnteteGrillesType {
      * Set the numero grille type.
      *
      * @param int $numeroGrilleType The numero grille type.
+     * @return EnteteGrillesType Returns this Entete grilles type.
      */
     public function setNumeroGrilleType($numeroGrilleType) {
         $this->numeroGrilleType = $numeroGrilleType;

@@ -78,6 +78,7 @@ class TranchesHSup {
      * Set the nb heures.
      *
      * @param int $nbHeures The nb heures.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setNbHeures($nbHeures) {
         $this->nbHeures = $nbHeures;
@@ -88,6 +89,7 @@ class TranchesHSup {
      * Set the taux.
      *
      * @param float $taux The taux.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setTaux($taux) {
         $this->taux = $taux;
@@ -98,6 +100,7 @@ class TranchesHSup {
      * Set the type.
      *
      * @param string $type The type.
+     * @return TranchesHSup Returns this Tranches h sup.
      */
     public function setType($type) {
         $this->type = $type;

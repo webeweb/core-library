@@ -4096,6 +4096,7 @@ class Etablissements {
      * Set the abattement max.
      *
      * @param float $abattementMax The abattement max.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAbattementMax($abattementMax) {
         $this->abattementMax = $abattementMax;
@@ -4106,6 +4107,7 @@ class Etablissements {
      * Set the alleg particulier.
      *
      * @param string $allegParticulier The alleg particulier.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAllegParticulier($allegParticulier) {
         $this->allegParticulier = $allegParticulier;
@@ -4116,6 +4118,7 @@ class Etablissements {
      * Set the at bureau1.
      *
      * @param string $atBureau1 The at bureau1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtBureau1($atBureau1) {
         $this->atBureau1 = $atBureau1;
@@ -4126,6 +4129,7 @@ class Etablissements {
      * Set the at bureau2.
      *
      * @param string $atBureau2 The at bureau2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtBureau2($atBureau2) {
         $this->atBureau2 = $atBureau2;
@@ -4136,6 +4140,7 @@ class Etablissements {
      * Set the at bureau3.
      *
      * @param string $atBureau3 The at bureau3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtBureau3($atBureau3) {
         $this->atBureau3 = $atBureau3;
@@ -4146,6 +4151,7 @@ class Etablissements {
      * Set the at bureau4.
      *
      * @param string $atBureau4 The at bureau4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtBureau4($atBureau4) {
         $this->atBureau4 = $atBureau4;
@@ -4156,6 +4162,7 @@ class Etablissements {
      * Set the at bureau5.
      *
      * @param string $atBureau5 The at bureau5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtBureau5($atBureau5) {
         $this->atBureau5 = $atBureau5;
@@ -4166,6 +4173,7 @@ class Etablissements {
      * Set the at etab1.
      *
      * @param string $atEtab1 The at etab1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtEtab1($atEtab1) {
         $this->atEtab1 = $atEtab1;
@@ -4176,6 +4184,7 @@ class Etablissements {
      * Set the at etab2.
      *
      * @param string $atEtab2 The at etab2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtEtab2($atEtab2) {
         $this->atEtab2 = $atEtab2;
@@ -4186,6 +4195,7 @@ class Etablissements {
      * Set the at etab3.
      *
      * @param string $atEtab3 The at etab3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtEtab3($atEtab3) {
         $this->atEtab3 = $atEtab3;
@@ -4196,6 +4206,7 @@ class Etablissements {
      * Set the at etab4.
      *
      * @param string $atEtab4 The at etab4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtEtab4($atEtab4) {
         $this->atEtab4 = $atEtab4;
@@ -4206,6 +4217,7 @@ class Etablissements {
      * Set the at etab5.
      *
      * @param string $atEtab5 The at etab5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtEtab5($atEtab5) {
         $this->atEtab5 = $atEtab5;
@@ -4216,6 +4228,7 @@ class Etablissements {
      * Set the at risque1.
      *
      * @param string $atRisque1 The at risque1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtRisque1($atRisque1) {
         $this->atRisque1 = $atRisque1;
@@ -4226,6 +4239,7 @@ class Etablissements {
      * Set the at risque2.
      *
      * @param string $atRisque2 The at risque2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtRisque2($atRisque2) {
         $this->atRisque2 = $atRisque2;
@@ -4236,6 +4250,7 @@ class Etablissements {
      * Set the at risque3.
      *
      * @param string $atRisque3 The at risque3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtRisque3($atRisque3) {
         $this->atRisque3 = $atRisque3;
@@ -4246,6 +4261,7 @@ class Etablissements {
      * Set the at risque4.
      *
      * @param string $atRisque4 The at risque4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtRisque4($atRisque4) {
         $this->atRisque4 = $atRisque4;
@@ -4256,6 +4272,7 @@ class Etablissements {
      * Set the at risque5.
      *
      * @param string $atRisque5 The at risque5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtRisque5($atRisque5) {
         $this->atRisque5 = $atRisque5;
@@ -4266,6 +4283,7 @@ class Etablissements {
      * Set the at taux1.
      *
      * @param float $atTaux1 The at taux1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTaux1($atTaux1) {
         $this->atTaux1 = $atTaux1;
@@ -4276,6 +4294,7 @@ class Etablissements {
      * Set the at taux2.
      *
      * @param float $atTaux2 The at taux2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTaux2($atTaux2) {
         $this->atTaux2 = $atTaux2;
@@ -4286,6 +4305,7 @@ class Etablissements {
      * Set the at taux3.
      *
      * @param float $atTaux3 The at taux3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTaux3($atTaux3) {
         $this->atTaux3 = $atTaux3;
@@ -4296,6 +4316,7 @@ class Etablissements {
      * Set the at taux4.
      *
      * @param float $atTaux4 The at taux4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTaux4($atTaux4) {
         $this->atTaux4 = $atTaux4;
@@ -4306,6 +4327,7 @@ class Etablissements {
      * Set the at taux5.
      *
      * @param float $atTaux5 The at taux5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTaux5($atTaux5) {
         $this->atTaux5 = $atTaux5;
@@ -4316,6 +4338,7 @@ class Etablissements {
      * Set the at taux bul1.
      *
      * @param float $atTauxBul1 The at taux bul1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTauxBul1($atTauxBul1) {
         $this->atTauxBul1 = $atTauxBul1;
@@ -4326,6 +4349,7 @@ class Etablissements {
      * Set the at taux bul2.
      *
      * @param float $atTauxBul2 The at taux bul2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTauxBul2($atTauxBul2) {
         $this->atTauxBul2 = $atTauxBul2;
@@ -4336,6 +4360,7 @@ class Etablissements {
      * Set the at taux bul3.
      *
      * @param float $atTauxBul3 The at taux bul3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTauxBul3($atTauxBul3) {
         $this->atTauxBul3 = $atTauxBul3;
@@ -4346,6 +4371,7 @@ class Etablissements {
      * Set the at taux bul4.
      *
      * @param float $atTauxBul4 The at taux bul4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTauxBul4($atTauxBul4) {
         $this->atTauxBul4 = $atTauxBul4;
@@ -4356,6 +4382,7 @@ class Etablissements {
      * Set the at taux bul5.
      *
      * @param float $atTauxBul5 The at taux bul5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAtTauxBul5($atTauxBul5) {
         $this->atTauxBul5 = $atTauxBul5;
@@ -4366,6 +4393,7 @@ class Etablissements {
      * Set the aubry1 modifie.
      *
      * @param bool $aubry1Modifie The aubry1 modifie.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAubry1Modifie($aubry1Modifie) {
         $this->aubry1Modifie = $aubry1Modifie;
@@ -4376,6 +4404,7 @@ class Etablissements {
      * Set the autre alleg.
      *
      * @param string $autreAlleg The autre alleg.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setAutreAlleg($autreAlleg) {
         $this->autreAlleg = $autreAlleg;
@@ -4386,6 +4415,7 @@ class Etablissements {
      * Set the banque1.
      *
      * @param string $banque1 The banque1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setBanque1($banque1) {
         $this->banque1 = $banque1;
@@ -4396,6 +4426,7 @@ class Etablissements {
      * Set the banque2.
      *
      * @param string $banque2 The banque2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setBanque2($banque2) {
         $this->banque2 = $banque2;
@@ -4406,6 +4437,7 @@ class Etablissements {
      * Set the banque3.
      *
      * @param string $banque3 The banque3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setBanque3($banque3) {
         $this->banque3 = $banque3;
@@ -4416,6 +4448,7 @@ class Etablissements {
      * Set the bic1.
      *
      * @param string $bic1 The bic1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setBic1($bic1) {
         $this->bic1 = $bic1;
@@ -4426,6 +4459,7 @@ class Etablissements {
      * Set the bonus cospar.
      *
      * @param bool $bonusCospar The bonus cospar.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setBonusCospar($bonusCospar) {
         $this->bonusCospar = $bonusCospar;
@@ -4436,6 +4470,7 @@ class Etablissements {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -4446,6 +4481,7 @@ class Etablissements {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -4456,6 +4492,7 @@ class Etablissements {
      * Set the c colect11.
      *
      * @param string $cColect11 The c colect11.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect11($cColect11) {
         $this->cColect11 = $cColect11;
@@ -4466,6 +4503,7 @@ class Etablissements {
      * Set the c colect12.
      *
      * @param string $cColect12 The c colect12.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect12($cColect12) {
         $this->cColect12 = $cColect12;
@@ -4476,6 +4514,7 @@ class Etablissements {
      * Set the c colect21.
      *
      * @param string $cColect21 The c colect21.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect21($cColect21) {
         $this->cColect21 = $cColect21;
@@ -4486,6 +4525,7 @@ class Etablissements {
      * Set the c colect22.
      *
      * @param string $cColect22 The c colect22.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect22($cColect22) {
         $this->cColect22 = $cColect22;
@@ -4496,6 +4536,7 @@ class Etablissements {
      * Set the c colect31.
      *
      * @param string $cColect31 The c colect31.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect31($cColect31) {
         $this->cColect31 = $cColect31;
@@ -4506,6 +4547,7 @@ class Etablissements {
      * Set the c colect32.
      *
      * @param string $cColect32 The c colect32.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect32($cColect32) {
         $this->cColect32 = $cColect32;
@@ -4516,6 +4558,7 @@ class Etablissements {
      * Set the c colect41.
      *
      * @param string $cColect41 The c colect41.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect41($cColect41) {
         $this->cColect41 = $cColect41;
@@ -4526,6 +4569,7 @@ class Etablissements {
      * Set the c colect42.
      *
      * @param string $cColect42 The c colect42.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect42($cColect42) {
         $this->cColect42 = $cColect42;
@@ -4536,6 +4580,7 @@ class Etablissements {
      * Set the c colect51.
      *
      * @param string $cColect51 The c colect51.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect51($cColect51) {
         $this->cColect51 = $cColect51;
@@ -4546,6 +4591,7 @@ class Etablissements {
      * Set the c colect52.
      *
      * @param string $cColect52 The c colect52.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect52($cColect52) {
         $this->cColect52 = $cColect52;
@@ -4556,6 +4602,7 @@ class Etablissements {
      * Set the c colect61.
      *
      * @param string $cColect61 The c colect61.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect61($cColect61) {
         $this->cColect61 = $cColect61;
@@ -4566,6 +4613,7 @@ class Etablissements {
      * Set the c colect62.
      *
      * @param string $cColect62 The c colect62.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCColect62($cColect62) {
         $this->cColect62 = $cColect62;
@@ -4576,6 +4624,7 @@ class Etablissements {
      * Set the caisse cp.
      *
      * @param bool $caisseCp The caisse cp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCaisseCp($caisseCp) {
         $this->caisseCp = $caisseCp;
@@ -4586,6 +4635,7 @@ class Etablissements {
      * Set the centre analytique.
      *
      * @param string $centreAnalytique The centre analytique.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCentreAnalytique($centreAnalytique) {
         $this->centreAnalytique = $centreAnalytique;
@@ -4596,6 +4646,7 @@ class Etablissements {
      * Set the civilite.
      *
      * @param string $civilite The civilite.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCivilite($civilite) {
         $this->civilite = $civilite;
@@ -4606,6 +4657,7 @@ class Etablissements {
      * Set the code adherent.
      *
      * @param string $codeAdherent The code adherent.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeAdherent($codeAdherent) {
         $this->codeAdherent = $codeAdherent;
@@ -4616,6 +4668,7 @@ class Etablissements {
      * Set the code c colect1.
      *
      * @param string $codeCColect1 The code c colect1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeCColect1($codeCColect1) {
         $this->codeCColect1 = $codeCColect1;
@@ -4626,6 +4679,7 @@ class Etablissements {
      * Set the code c colect2.
      *
      * @param string $codeCColect2 The code c colect2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeCColect2($codeCColect2) {
         $this->codeCColect2 = $codeCColect2;
@@ -4636,6 +4690,7 @@ class Etablissements {
      * Set the code c colect3.
      *
      * @param string $codeCColect3 The code c colect3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeCColect3($codeCColect3) {
         $this->codeCColect3 = $codeCColect3;
@@ -4646,6 +4701,7 @@ class Etablissements {
      * Set the code c colect4.
      *
      * @param string $codeCColect4 The code c colect4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeCColect4($codeCColect4) {
         $this->codeCColect4 = $codeCColect4;
@@ -4656,6 +4712,7 @@ class Etablissements {
      * Set the code c colect5.
      *
      * @param string $codeCColect5 The code c colect5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeCColect5($codeCColect5) {
         $this->codeCColect5 = $codeCColect5;
@@ -4666,6 +4723,7 @@ class Etablissements {
      * Set the code c colect6.
      *
      * @param string $codeCColect6 The code c colect6.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeCColect6($codeCColect6) {
         $this->codeCColect6 = $codeCColect6;
@@ -4676,6 +4734,7 @@ class Etablissements {
      * Set the code centre impot.
      *
      * @param string $codeCentreImpot The code centre impot.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeCentreImpot($codeCentreImpot) {
         $this->codeCentreImpot = $codeCentreImpot;
@@ -4686,6 +4745,7 @@ class Etablissements {
      * Set the code ducs specif.
      *
      * @param string $codeDucsSpecif The code ducs specif.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeDucsSpecif($codeDucsSpecif) {
         $this->codeDucsSpecif = $codeDucsSpecif;
@@ -4696,6 +4756,7 @@ class Etablissements {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -4706,6 +4767,7 @@ class Etablissements {
      * Set the code insee.
      *
      * @param string $codeInsee The code insee.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeInsee($codeInsee) {
         $this->codeInsee = $codeInsee;
@@ -4716,6 +4778,7 @@ class Etablissements {
      * Set the code journal banque.
      *
      * @param string $codeJournalBanque The code journal banque.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeJournalBanque($codeJournalBanque) {
         $this->codeJournalBanque = $codeJournalBanque;
@@ -4726,6 +4789,7 @@ class Etablissements {
      * Set the code journal paie.
      *
      * @param string $codeJournalPaie The code journal paie.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeJournalPaie($codeJournalPaie) {
         $this->codeJournalPaie = $codeJournalPaie;
@@ -4736,6 +4800,7 @@ class Etablissements {
      * Set the code metier retraite.
      *
      * @param string $codeMetierRetraite The code metier retraite.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeMetierRetraite($codeMetierRetraite) {
         $this->codeMetierRetraite = $codeMetierRetraite;
@@ -4746,6 +4811,7 @@ class Etablissements {
      * Set the code naf.
      *
      * @param string $codeNaf The code naf.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeNaf($codeNaf) {
         $this->codeNaf = $codeNaf;
@@ -4756,6 +4822,7 @@ class Etablissements {
      * Set the code naf2.
      *
      * @param string $codeNaf2 The code naf2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeNaf2($codeNaf2) {
         $this->codeNaf2 = $codeNaf2;
@@ -4766,6 +4833,7 @@ class Etablissements {
      * Set the code naf2008.
      *
      * @param string $codeNaf2008 The code naf2008.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeNaf2008($codeNaf2008) {
         $this->codeNaf2008 = $codeNaf2008;
@@ -4776,6 +4844,7 @@ class Etablissements {
      * Set the code naf22008.
      *
      * @param string $codeNaf22008 The code naf22008.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeNaf22008($codeNaf22008) {
         $this->codeNaf22008 = $codeNaf22008;
@@ -4786,6 +4855,7 @@ class Etablissements {
      * Set the code naf3.
      *
      * @param string $codeNaf3 The code naf3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeNaf3($codeNaf3) {
         $this->codeNaf3 = $codeNaf3;
@@ -4796,6 +4866,7 @@ class Etablissements {
      * Set the code naf32008.
      *
      * @param string $codeNaf32008 The code naf32008.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeNaf32008($codeNaf32008) {
         $this->codeNaf32008 = $codeNaf32008;
@@ -4806,6 +4877,7 @@ class Etablissements {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -4816,6 +4888,7 @@ class Etablissements {
      * Set the code pays.
      *
      * @param string $codePays The code pays.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodePays($codePays) {
         $this->codePays = $codePays;
@@ -4826,6 +4899,7 @@ class Etablissements {
      * Set the code pays residence.
      *
      * @param string $codePaysResidence The code pays residence.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodePaysResidence($codePaysResidence) {
         $this->codePaysResidence = $codePaysResidence;
@@ -4836,6 +4910,7 @@ class Etablissements {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -4846,6 +4921,7 @@ class Etablissements {
      * Set the coeff aubry2.
      *
      * @param float $coeffAubry2 The coeff aubry2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCoeffAubry2($coeffAubry2) {
         $this->coeffAubry2 = $coeffAubry2;
@@ -4856,6 +4932,7 @@ class Etablissements {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -4866,6 +4943,7 @@ class Etablissements {
      * Set the compte acompte employe.
      *
      * @param bool $compteAcompteEmploye The compte acompte employe.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteAcompteEmploye($compteAcompteEmploye) {
         $this->compteAcompteEmploye = $compteAcompteEmploye;
@@ -4876,6 +4954,7 @@ class Etablissements {
      * Set the compte charge1.
      *
      * @param string $compteCharge1 The compte charge1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge1($compteCharge1) {
         $this->compteCharge1 = $compteCharge1;
@@ -4886,6 +4965,7 @@ class Etablissements {
      * Set the compte charge10.
      *
      * @param string $compteCharge10 The compte charge10.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge10($compteCharge10) {
         $this->compteCharge10 = $compteCharge10;
@@ -4896,6 +4976,7 @@ class Etablissements {
      * Set the compte charge11.
      *
      * @param string $compteCharge11 The compte charge11.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge11($compteCharge11) {
         $this->compteCharge11 = $compteCharge11;
@@ -4906,6 +4987,7 @@ class Etablissements {
      * Set the compte charge2.
      *
      * @param string $compteCharge2 The compte charge2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge2($compteCharge2) {
         $this->compteCharge2 = $compteCharge2;
@@ -4916,6 +4998,7 @@ class Etablissements {
      * Set the compte charge3.
      *
      * @param string $compteCharge3 The compte charge3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge3($compteCharge3) {
         $this->compteCharge3 = $compteCharge3;
@@ -4926,6 +5009,7 @@ class Etablissements {
      * Set the compte charge4.
      *
      * @param string $compteCharge4 The compte charge4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge4($compteCharge4) {
         $this->compteCharge4 = $compteCharge4;
@@ -4936,6 +5020,7 @@ class Etablissements {
      * Set the compte charge5.
      *
      * @param string $compteCharge5 The compte charge5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge5($compteCharge5) {
         $this->compteCharge5 = $compteCharge5;
@@ -4946,6 +5031,7 @@ class Etablissements {
      * Set the compte charge6.
      *
      * @param string $compteCharge6 The compte charge6.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge6($compteCharge6) {
         $this->compteCharge6 = $compteCharge6;
@@ -4956,6 +5042,7 @@ class Etablissements {
      * Set the compte charge7.
      *
      * @param string $compteCharge7 The compte charge7.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge7($compteCharge7) {
         $this->compteCharge7 = $compteCharge7;
@@ -4966,6 +5053,7 @@ class Etablissements {
      * Set the compte charge8.
      *
      * @param string $compteCharge8 The compte charge8.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge8($compteCharge8) {
         $this->compteCharge8 = $compteCharge8;
@@ -4976,6 +5064,7 @@ class Etablissements {
      * Set the compte charge9.
      *
      * @param string $compteCharge9 The compte charge9.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteCharge9($compteCharge9) {
         $this->compteCharge9 = $compteCharge9;
@@ -4986,6 +5075,7 @@ class Etablissements {
      * Set the compte charge aen.
      *
      * @param string $compteChargeAen The compte charge aen.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteChargeAen($compteChargeAen) {
         $this->compteChargeAen = $compteChargeAen;
@@ -4996,6 +5086,7 @@ class Etablissements {
      * Set the compte charge fc.
      *
      * @param string $compteChargeFc The compte charge fc.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteChargeFc($compteChargeFc) {
         $this->compteChargeFc = $compteChargeFc;
@@ -5006,6 +5097,7 @@ class Etablissements {
      * Set the compte charge ijss.
      *
      * @param string $compteChargeIjss The compte charge ijss.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteChargeIjss($compteChargeIjss) {
         $this->compteChargeIjss = $compteChargeIjss;
@@ -5016,6 +5108,7 @@ class Etablissements {
      * Set the compte charge indem cp.
      *
      * @param string $compteChargeIndemCp The compte charge indem cp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteChargeIndemCp($compteChargeIndemCp) {
         $this->compteChargeIndemCp = $compteChargeIndemCp;
@@ -5026,6 +5119,7 @@ class Etablissements {
      * Set the compte saisie arret.
      *
      * @param string $compteSaisieArret The compte saisie arret.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteSaisieArret($compteSaisieArret) {
         $this->compteSaisieArret = $compteSaisieArret;
@@ -5036,6 +5130,7 @@ class Etablissements {
      * Set the compte tiers1.
      *
      * @param string $compteTiers1 The compte tiers1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteTiers1($compteTiers1) {
         $this->compteTiers1 = $compteTiers1;
@@ -5046,6 +5141,7 @@ class Etablissements {
      * Set the compte tiers2.
      *
      * @param string $compteTiers2 The compte tiers2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setCompteTiers2($compteTiers2) {
         $this->compteTiers2 = $compteTiers2;
@@ -5056,6 +5152,7 @@ class Etablissements {
      * Set the dadsu code c colect1.
      *
      * @param string $dadsuCodeCColect1 The dadsu code c colect1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDadsuCodeCColect1($dadsuCodeCColect1) {
         $this->dadsuCodeCColect1 = $dadsuCodeCColect1;
@@ -5066,6 +5163,7 @@ class Etablissements {
      * Set the dadsu code c colect2.
      *
      * @param string $dadsuCodeCColect2 The dadsu code c colect2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDadsuCodeCColect2($dadsuCodeCColect2) {
         $this->dadsuCodeCColect2 = $dadsuCodeCColect2;
@@ -5076,6 +5174,7 @@ class Etablissements {
      * Set the dadsu code c colect3.
      *
      * @param string $dadsuCodeCColect3 The dadsu code c colect3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDadsuCodeCColect3($dadsuCodeCColect3) {
         $this->dadsuCodeCColect3 = $dadsuCodeCColect3;
@@ -5086,6 +5185,7 @@ class Etablissements {
      * Set the dadsu code c colect4.
      *
      * @param string $dadsuCodeCColect4 The dadsu code c colect4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDadsuCodeCColect4($dadsuCodeCColect4) {
         $this->dadsuCodeCColect4 = $dadsuCodeCColect4;
@@ -5096,6 +5196,7 @@ class Etablissements {
      * Set the dadsu code c colect5.
      *
      * @param string $dadsuCodeCColect5 The dadsu code c colect5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDadsuCodeCColect5($dadsuCodeCColect5) {
         $this->dadsuCodeCColect5 = $dadsuCodeCColect5;
@@ -5106,6 +5207,7 @@ class Etablissements {
      * Set the dadsu code c colect6.
      *
      * @param string $dadsuCodeCColect6 The dadsu code c colect6.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDadsuCodeCColect6($dadsuCodeCColect6) {
         $this->dadsuCodeCColect6 = $dadsuCodeCColect6;
@@ -5116,6 +5218,7 @@ class Etablissements {
      * Set the date allegement.
      *
      * @param DateTime|null $dateAllegement The date allegement.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDateAllegement(DateTime $dateAllegement = null) {
         $this->dateAllegement = $dateAllegement;
@@ -5126,6 +5229,7 @@ class Etablissements {
      * Set the date ducs.
      *
      * @param DateTime|null $dateDucs The date ducs.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDateDucs(DateTime $dateDucs = null) {
         $this->dateDucs = $dateDucs;
@@ -5136,6 +5240,7 @@ class Etablissements {
      * Set the date fin cospar.
      *
      * @param DateTime|null $dateFinCospar The date fin cospar.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDateFinCospar(DateTime $dateFinCospar = null) {
         $this->dateFinCospar = $dateFinCospar;
@@ -5146,6 +5251,7 @@ class Etablissements {
      * Set the date fin cp.
      *
      * @param DateTime|null $dateFinCp The date fin cp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDateFinCp(DateTime $dateFinCp = null) {
         $this->dateFinCp = $dateFinCp;
@@ -5156,6 +5262,7 @@ class Etablissements {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -5166,6 +5273,7 @@ class Etablissements {
      * Set the date publication.
      *
      * @param DateTime|null $datePublication The date publication.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDatePublication(DateTime $datePublication = null) {
         $this->datePublication = $datePublication;
@@ -5176,6 +5284,7 @@ class Etablissements {
      * Set the debut envoi.
      *
      * @param DateTime|null $debutEnvoi The debut envoi.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDebutEnvoi(DateTime $debutEnvoi = null) {
         $this->debutEnvoi = $debutEnvoi;
@@ -5186,6 +5295,7 @@ class Etablissements {
      * Set the detail salarie.
      *
      * @param bool $detailSalarie The detail salarie.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDetailSalarie($detailSalarie) {
         $this->detailSalarie = $detailSalarie;
@@ -5196,6 +5306,7 @@ class Etablissements {
      * Set the domaine activite.
      *
      * @param string $domaineActivite The domaine activite.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDomaineActivite($domaineActivite) {
         $this->domaineActivite = $domaineActivite;
@@ -5206,6 +5317,7 @@ class Etablissements {
      * Set the dossier comptable.
      *
      * @param string $dossierComptable The dossier comptable.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setDossierComptable($dossierComptable) {
         $this->dossierComptable = $dossierComptable;
@@ -5216,6 +5328,7 @@ class Etablissements {
      * Set the edition dif.
      *
      * @param bool $editionDif The edition dif.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setEditionDif($editionDif) {
         $this->editionDif = $editionDif;
@@ -5226,6 +5339,7 @@ class Etablissements {
      * Set the edition dif bul.
      *
      * @param string $editionDifBul The edition dif bul.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setEditionDifBul($editionDifBul) {
         $this->editionDifBul = $editionDifBul;
@@ -5236,6 +5350,7 @@ class Etablissements {
      * Set the emetteur1.
      *
      * @param int $emetteur1 The emetteur1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setEmetteur1($emetteur1) {
         $this->emetteur1 = $emetteur1;
@@ -5246,6 +5361,7 @@ class Etablissements {
      * Set the emetteur2.
      *
      * @param int $emetteur2 The emetteur2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setEmetteur2($emetteur2) {
         $this->emetteur2 = $emetteur2;
@@ -5256,6 +5372,7 @@ class Etablissements {
      * Set the emetteur3.
      *
      * @param int $emetteur3 The emetteur3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setEmetteur3($emetteur3) {
         $this->emetteur3 = $emetteur3;
@@ -5266,6 +5383,7 @@ class Etablissements {
      * Set the enseigne.
      *
      * @param string $enseigne The enseigne.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setEnseigne($enseigne) {
         $this->enseigne = $enseigne;
@@ -5276,6 +5394,7 @@ class Etablissements {
      * Set the etab decl dadsu.
      *
      * @param bool $etabDeclDadsu The etab decl dadsu.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setEtabDeclDadsu($etabDeclDadsu) {
         $this->etabDeclDadsu = $etabDeclDadsu;
@@ -5286,6 +5405,7 @@ class Etablissements {
      * Set the exclure dadsu.
      *
      * @param bool $exclureDadsu The exclure dadsu.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setExclureDadsu($exclureDadsu) {
         $this->exclureDadsu = $exclureDadsu;
@@ -5296,6 +5416,7 @@ class Etablissements {
      * Set the exo lodeom renforcee.
      *
      * @param bool $exoLodeomRenforcee The exo lodeom renforcee.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setExoLodeomRenforcee($exoLodeomRenforcee) {
         $this->exoLodeomRenforcee = $exoLodeomRenforcee;
@@ -5306,6 +5427,7 @@ class Etablissements {
      * Set the fax.
      *
      * @param string $fax The fax.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setFax($fax) {
         $this->fax = $fax;
@@ -5316,6 +5438,7 @@ class Etablissements {
      * Set the fin envoi.
      *
      * @param DateTime|null $finEnvoi The fin envoi.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setFinEnvoi(DateTime $finEnvoi = null) {
         $this->finEnvoi = $finEnvoi;
@@ -5326,6 +5449,7 @@ class Etablissements {
      * Set the gere fraction etab.
      *
      * @param bool $gereFractionEtab The gere fraction etab.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGereFractionEtab($gereFractionEtab) {
         $this->gereFractionEtab = $gereFractionEtab;
@@ -5336,6 +5460,7 @@ class Etablissements {
      * Set the gestion contingent.
      *
      * @param bool $gestionContingent The gestion contingent.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionContingent($gestionContingent) {
         $this->gestionContingent = $gestionContingent;
@@ -5346,6 +5471,7 @@ class Etablissements {
      * Set the gestion ducs1.
      *
      * @param string $gestionDucs1 The gestion ducs1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionDucs1($gestionDucs1) {
         $this->gestionDucs1 = $gestionDucs1;
@@ -5356,6 +5482,7 @@ class Etablissements {
      * Set the gestion ducs2.
      *
      * @param string $gestionDucs2 The gestion ducs2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionDucs2($gestionDucs2) {
         $this->gestionDucs2 = $gestionDucs2;
@@ -5366,6 +5493,7 @@ class Etablissements {
      * Set the gestion jour ferie etab.
      *
      * @param bool $gestionJourFerieEtab The gestion jour ferie etab.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionJourFerieEtab($gestionJourFerieEtab) {
         $this->gestionJourFerieEtab = $gestionJourFerieEtab;
@@ -5376,6 +5504,7 @@ class Etablissements {
      * Set the gestion repos comp.
      *
      * @param bool $gestionReposComp The gestion repos comp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionReposComp($gestionReposComp) {
         $this->gestionReposComp = $gestionReposComp;
@@ -5386,6 +5515,7 @@ class Etablissements {
      * Set the gestion repos recup.
      *
      * @param bool $gestionReposRecup The gestion repos recup.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionReposRecup($gestionReposRecup) {
         $this->gestionReposRecup = $gestionReposRecup;
@@ -5396,6 +5526,7 @@ class Etablissements {
      * Set the gestion repos remplace.
      *
      * @param bool $gestionReposRemplace The gestion repos remplace.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionReposRemplace($gestionReposRemplace) {
         $this->gestionReposRemplace = $gestionReposRemplace;
@@ -5406,6 +5537,7 @@ class Etablissements {
      * Set the gestion rtt.
      *
      * @param bool $gestionRtt The gestion rtt.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionRtt($gestionRtt) {
         $this->gestionRtt = $gestionRtt;
@@ -5416,6 +5548,7 @@ class Etablissements {
      * Set the gestion sem type.
      *
      * @param bool $gestionSemType The gestion sem type.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setGestionSemType($gestionSemType) {
         $this->gestionSemType = $gestionSemType;
@@ -5426,6 +5559,7 @@ class Etablissements {
      * Set the iban1.
      *
      * @param string $iban1 The iban1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setIban1($iban1) {
         $this->iban1 = $iban1;
@@ -5436,6 +5570,7 @@ class Etablissements {
      * Set the iban id client1.
      *
      * @param string $ibanIdClient1 The iban id client1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setIbanIdClient1($ibanIdClient1) {
         $this->ibanIdClient1 = $ibanIdClient1;
@@ -5446,6 +5581,7 @@ class Etablissements {
      * Set the inscrit rep metier.
      *
      * @param bool $inscritRepMetier The inscrit rep metier.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setInscritRepMetier($inscritRepMetier) {
         $this->inscritRepMetier = $inscritRepMetier;
@@ -5456,6 +5592,7 @@ class Etablissements {
      * Set the jour verse salaire.
      *
      * @param string $jourVerseSalaire The jour verse salaire.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setJourVerseSalaire($jourVerseSalaire) {
         $this->jourVerseSalaire = $jourVerseSalaire;
@@ -5466,6 +5603,7 @@ class Etablissements {
      * Set the maintien intervient cp.
      *
      * @param bool $maintienIntervientCp The maintien intervient cp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMaintienIntervientCp($maintienIntervientCp) {
         $this->maintienIntervientCp = $maintienIntervientCp;
@@ -5476,6 +5614,7 @@ class Etablissements {
      * Set the maintien salaire.
      *
      * @param bool $maintienSalaire The maintien salaire.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMaintienSalaire($maintienSalaire) {
         $this->maintienSalaire = $maintienSalaire;
@@ -5486,6 +5625,7 @@ class Etablissements {
      * Set the maintien specifique.
      *
      * @param bool $maintienSpecifique The maintien specifique.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMaintienSpecifique($maintienSpecifique) {
         $this->maintienSpecifique = $maintienSpecifique;
@@ -5496,6 +5636,7 @@ class Etablissements {
      * Set the masque service employe.
      *
      * @param bool $masqueServiceEmploye The masque service employe.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMasqueServiceEmploye($masqueServiceEmploye) {
         $this->masqueServiceEmploye = $masqueServiceEmploye;
@@ -5506,6 +5647,7 @@ class Etablissements {
      * Set the methode cp.
      *
      * @param string $methodeCp The methode cp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMethodeCp($methodeCp) {
         $this->methodeCp = $methodeCp;
@@ -5516,6 +5658,7 @@ class Etablissements {
      * Set the mois cloture cp.
      *
      * @param string $moisClotureCp The mois cloture cp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMoisClotureCp($moisClotureCp) {
         $this->moisClotureCp = $moisClotureCp;
@@ -5526,6 +5669,7 @@ class Etablissements {
      * Set the mois cloture dif.
      *
      * @param string $moisClotureDif The mois cloture dif.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMoisClotureDif($moisClotureDif) {
         $this->moisClotureDif = $moisClotureDif;
@@ -5536,6 +5680,7 @@ class Etablissements {
      * Set the mois cloture rtt.
      *
      * @param string $moisClotureRtt The mois cloture rtt.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMoisClotureRtt($moisClotureRtt) {
         $this->moisClotureRtt = $moisClotureRtt;
@@ -5546,6 +5691,7 @@ class Etablissements {
      * Set the montant1.
      *
      * @param float $montant1 The montant1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMontant1($montant1) {
         $this->montant1 = $montant1;
@@ -5556,6 +5702,7 @@ class Etablissements {
      * Set the montant2.
      *
      * @param float $montant2 The montant2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMontant2($montant2) {
         $this->montant2 = $montant2;
@@ -5566,6 +5713,7 @@ class Etablissements {
      * Set the montant3.
      *
      * @param float $montant3 The montant3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMontant3($montant3) {
         $this->montant3 = $montant3;
@@ -5576,6 +5724,7 @@ class Etablissements {
      * Set the montant4.
      *
      * @param float $montant4 The montant4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMontant4($montant4) {
         $this->montant4 = $montant4;
@@ -5586,6 +5735,7 @@ class Etablissements {
      * Set the montant5.
      *
      * @param float $montant5 The montant5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMontant5($montant5) {
         $this->montant5 = $montant5;
@@ -5596,6 +5746,7 @@ class Etablissements {
      * Set the montant allegement.
      *
      * @param float $montantAllegement The montant allegement.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setMontantAllegement($montantAllegement) {
         $this->montantAllegement = $montantAllegement;
@@ -5606,6 +5757,7 @@ class Etablissements {
      * Set the nature analytique.
      *
      * @param string $natureAnalytique The nature analytique.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNatureAnalytique($natureAnalytique) {
         $this->natureAnalytique = $natureAnalytique;
@@ -5616,6 +5768,7 @@ class Etablissements {
      * Set the nb h jour1.
      *
      * @param float $nbHJour1 The nb h jour1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHJour1($nbHJour1) {
         $this->nbHJour1 = $nbHJour1;
@@ -5626,6 +5779,7 @@ class Etablissements {
      * Set the nb h jour2.
      *
      * @param float $nbHJour2 The nb h jour2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHJour2($nbHJour2) {
         $this->nbHJour2 = $nbHJour2;
@@ -5636,6 +5790,7 @@ class Etablissements {
      * Set the nb h jour3.
      *
      * @param float $nbHJour3 The nb h jour3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHJour3($nbHJour3) {
         $this->nbHJour3 = $nbHJour3;
@@ -5646,6 +5801,7 @@ class Etablissements {
      * Set the nb h jour4.
      *
      * @param float $nbHJour4 The nb h jour4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHJour4($nbHJour4) {
         $this->nbHJour4 = $nbHJour4;
@@ -5656,6 +5812,7 @@ class Etablissements {
      * Set the nb h jour5.
      *
      * @param float $nbHJour5 The nb h jour5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHJour5($nbHJour5) {
         $this->nbHJour5 = $nbHJour5;
@@ -5666,6 +5823,7 @@ class Etablissements {
      * Set the nb h jour6.
      *
      * @param float $nbHJour6 The nb h jour6.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHJour6($nbHJour6) {
         $this->nbHJour6 = $nbHJour6;
@@ -5676,6 +5834,7 @@ class Etablissements {
      * Set the nb h jour7.
      *
      * @param float $nbHJour7 The nb h jour7.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHJour7($nbHJour7) {
         $this->nbHJour7 = $nbHJour7;
@@ -5686,6 +5845,7 @@ class Etablissements {
      * Set the nb hdif an.
      *
      * @param float $nbHdifAn The nb hdif an.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHdifAn($nbHdifAn) {
         $this->nbHdifAn = $nbHdifAn;
@@ -5696,6 +5856,7 @@ class Etablissements {
      * Set the nb heure trav mois.
      *
      * @param float $nbHeureTravMois The nb heure trav mois.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbHeureTravMois($nbHeureTravMois) {
         $this->nbHeureTravMois = $nbHeureTravMois;
@@ -5706,6 +5867,7 @@ class Etablissements {
      * Set the nb jour base.
      *
      * @param float $nbJourBase The nb jour base.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbJourBase($nbJourBase) {
         $this->nbJourBase = $nbJourBase;
@@ -5716,6 +5878,7 @@ class Etablissements {
      * Set the nb jour base cp.
      *
      * @param float $nbJourBaseCp The nb jour base cp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbJourBaseCp($nbJourBaseCp) {
         $this->nbJourBaseCp = $nbJourBaseCp;
@@ -5726,6 +5889,7 @@ class Etablissements {
      * Set the nb jour cp acquis.
      *
      * @param float $nbJourCpAcquis The nb jour cp acquis.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbJourCpAcquis($nbJourCpAcquis) {
         $this->nbJourCpAcquis = $nbJourCpAcquis;
@@ -5736,6 +5900,7 @@ class Etablissements {
      * Set the nb m ajout per.
      *
      * @param string $nbMAjoutPer The nb m ajout per.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbMAjoutPer($nbMAjoutPer) {
         $this->nbMAjoutPer = $nbMAjoutPer;
@@ -5746,6 +5911,7 @@ class Etablissements {
      * Set the nb mois aubry1.
      *
      * @param float $nbMoisAubry1 The nb mois aubry1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbMoisAubry1($nbMoisAubry1) {
         $this->nbMoisAubry1 = $nbMoisAubry1;
@@ -5756,6 +5922,7 @@ class Etablissements {
      * Set the nbh jour rtt.
      *
      * @param float $nbhJourRtt The nbh jour rtt.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNbhJourRtt($nbhJourRtt) {
         $this->nbhJourRtt = $nbhJourRtt;
@@ -5766,6 +5933,7 @@ class Etablissements {
      * Set the ne pas activer loi fillon2003.
      *
      * @param bool $nePasActiverLoiFillon2003 The ne pas activer loi fillon2003.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNePasActiverLoiFillon2003($nePasActiverLoiFillon2003) {
         $this->nePasActiverLoiFillon2003 = $nePasActiverLoiFillon2003;
@@ -5776,6 +5944,7 @@ class Etablissements {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -5786,6 +5955,7 @@ class Etablissements {
      * Set the nom ville insee.
      *
      * @param string $nomVilleInsee The nom ville insee.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNomVilleInsee($nomVilleInsee) {
         $this->nomVilleInsee = $nomVilleInsee;
@@ -5796,6 +5966,7 @@ class Etablissements {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -5806,6 +5977,7 @@ class Etablissements {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -5816,6 +5988,7 @@ class Etablissements {
      * Set the opca dif.
      *
      * @param string $opcaDif The opca dif.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setOpcaDif($opcaDif) {
         $this->opcaDif = $opcaDif;
@@ -5826,6 +5999,7 @@ class Etablissements {
      * Set the p lafond exo.
      *
      * @param float $pLafondExo The p lafond exo.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPLafondExo($pLafondExo) {
         $this->pLafondExo = $pLafondExo;
@@ -5836,6 +6010,7 @@ class Etablissements {
      * Set the paie decalee.
      *
      * @param bool $paieDecalee The paie decalee.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPaieDecalee($paieDecalee) {
         $this->paieDecalee = $paieDecalee;
@@ -5846,6 +6021,7 @@ class Etablissements {
      * Set the plafond1 caisse1.
      *
      * @param float $plafond1Caisse1 The plafond1 caisse1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPlafond1Caisse1($plafond1Caisse1) {
         $this->plafond1Caisse1 = $plafond1Caisse1;
@@ -5856,6 +6032,7 @@ class Etablissements {
      * Set the plafond1 caisse2.
      *
      * @param float $plafond1Caisse2 The plafond1 caisse2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPlafond1Caisse2($plafond1Caisse2) {
         $this->plafond1Caisse2 = $plafond1Caisse2;
@@ -5866,6 +6043,7 @@ class Etablissements {
      * Set the plafond1 caisse3.
      *
      * @param float $plafond1Caisse3 The plafond1 caisse3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPlafond1Caisse3($plafond1Caisse3) {
         $this->plafond1Caisse3 = $plafond1Caisse3;
@@ -5876,6 +6054,7 @@ class Etablissements {
      * Set the plafond2 caisse1.
      *
      * @param float $plafond2Caisse1 The plafond2 caisse1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPlafond2Caisse1($plafond2Caisse1) {
         $this->plafond2Caisse1 = $plafond2Caisse1;
@@ -5886,6 +6065,7 @@ class Etablissements {
      * Set the plafond2 caisse2.
      *
      * @param float $plafond2Caisse2 The plafond2 caisse2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPlafond2Caisse2($plafond2Caisse2) {
         $this->plafond2Caisse2 = $plafond2Caisse2;
@@ -5896,6 +6076,7 @@ class Etablissements {
      * Set the plafond2 caisse3.
      *
      * @param float $plafond2Caisse3 The plafond2 caisse3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPlafond2Caisse3($plafond2Caisse3) {
         $this->plafond2Caisse3 = $plafond2Caisse3;
@@ -5906,6 +6087,7 @@ class Etablissements {
      * Set the pourcent bonif.
      *
      * @param float $pourcentBonif The pourcent bonif.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPourcentBonif($pourcentBonif) {
         $this->pourcentBonif = $pourcentBonif;
@@ -5916,6 +6098,7 @@ class Etablissements {
      * Set the pourcent exo.
      *
      * @param float $pourcentExo The pourcent exo.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPourcentExo($pourcentExo) {
         $this->pourcentExo = $pourcentExo;
@@ -5926,6 +6109,7 @@ class Etablissements {
      * Set the pourcent transport.
      *
      * @param float $pourcentTransport The pourcent transport.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPourcentTransport($pourcentTransport) {
         $this->pourcentTransport = $pourcentTransport;
@@ -5936,6 +6120,7 @@ class Etablissements {
      * Set the pourcentage imp.
      *
      * @param float $pourcentageImp The pourcentage imp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPourcentageImp($pourcentageImp) {
         $this->pourcentageImp = $pourcentageImp;
@@ -5946,6 +6131,7 @@ class Etablissements {
      * Set the prof spectacle.
      *
      * @param bool $profSpectacle The prof spectacle.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setProfSpectacle($profSpectacle) {
         $this->profSpectacle = $profSpectacle;
@@ -5956,6 +6142,7 @@ class Etablissements {
      * Set the profession.
      *
      * @param string $profession The profession.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setProfession($profession) {
         $this->profession = $profession;
@@ -5966,6 +6153,7 @@ class Etablissements {
      * Set the prud type.
      *
      * @param string $prudType The prud type.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPrudType($prudType) {
         $this->prudType = $prudType;
@@ -5976,6 +6164,7 @@ class Etablissements {
      * Set the prud type dadsu.
      *
      * @param string $prudTypeDadsu The prud type dadsu.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPrudTypeDadsu($prudTypeDadsu) {
         $this->prudTypeDadsu = $prudTypeDadsu;
@@ -5986,6 +6175,7 @@ class Etablissements {
      * Set the publication.
      *
      * @param bool $publication The publication.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setPublication($publication) {
         $this->publication = $publication;
@@ -5996,6 +6186,7 @@ class Etablissements {
      * Set the qualite.
      *
      * @param string $qualite The qualite.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setQualite($qualite) {
         $this->qualite = $qualite;
@@ -6006,6 +6197,7 @@ class Etablissements {
      * Set the raison sociale.
      *
      * @param string $raisonSociale The raison sociale.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRaisonSociale($raisonSociale) {
         $this->raisonSociale = $raisonSociale;
@@ -6016,6 +6208,7 @@ class Etablissements {
      * Set the reduction fillon.
      *
      * @param bool $reductionFillon The reduction fillon.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setReductionFillon($reductionFillon) {
         $this->reductionFillon = $reductionFillon;
@@ -6026,6 +6219,7 @@ class Etablissements {
      * Set the responsable.
      *
      * @param string $responsable The responsable.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setResponsable($responsable) {
         $this->responsable = $responsable;
@@ -6036,6 +6230,7 @@ class Etablissements {
      * Set the rib1.
      *
      * @param string $rib1 The rib1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRib1($rib1) {
         $this->rib1 = $rib1;
@@ -6046,6 +6241,7 @@ class Etablissements {
      * Set the rib2.
      *
      * @param string $rib2 The rib2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRib2($rib2) {
         $this->rib2 = $rib2;
@@ -6056,6 +6252,7 @@ class Etablissements {
      * Set the rib3.
      *
      * @param string $rib3 The rib3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRib3($rib3) {
         $this->rib3 = $rib3;
@@ -6066,6 +6263,7 @@ class Etablissements {
      * Set the rtt1.
      *
      * @param float $rtt1 The rtt1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt1($rtt1) {
         $this->rtt1 = $rtt1;
@@ -6076,6 +6274,7 @@ class Etablissements {
      * Set the rtt10.
      *
      * @param float $rtt10 The rtt10.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt10($rtt10) {
         $this->rtt10 = $rtt10;
@@ -6086,6 +6285,7 @@ class Etablissements {
      * Set the rtt11.
      *
      * @param float $rtt11 The rtt11.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt11($rtt11) {
         $this->rtt11 = $rtt11;
@@ -6096,6 +6296,7 @@ class Etablissements {
      * Set the rtt12.
      *
      * @param float $rtt12 The rtt12.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt12($rtt12) {
         $this->rtt12 = $rtt12;
@@ -6106,6 +6307,7 @@ class Etablissements {
      * Set the rtt2.
      *
      * @param float $rtt2 The rtt2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt2($rtt2) {
         $this->rtt2 = $rtt2;
@@ -6116,6 +6318,7 @@ class Etablissements {
      * Set the rtt3.
      *
      * @param float $rtt3 The rtt3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt3($rtt3) {
         $this->rtt3 = $rtt3;
@@ -6126,6 +6329,7 @@ class Etablissements {
      * Set the rtt4.
      *
      * @param float $rtt4 The rtt4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt4($rtt4) {
         $this->rtt4 = $rtt4;
@@ -6136,6 +6340,7 @@ class Etablissements {
      * Set the rtt5.
      *
      * @param float $rtt5 The rtt5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt5($rtt5) {
         $this->rtt5 = $rtt5;
@@ -6146,6 +6351,7 @@ class Etablissements {
      * Set the rtt6.
      *
      * @param float $rtt6 The rtt6.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt6($rtt6) {
         $this->rtt6 = $rtt6;
@@ -6156,6 +6362,7 @@ class Etablissements {
      * Set the rtt7.
      *
      * @param float $rtt7 The rtt7.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt7($rtt7) {
         $this->rtt7 = $rtt7;
@@ -6166,6 +6373,7 @@ class Etablissements {
      * Set the rtt8.
      *
      * @param float $rtt8 The rtt8.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt8($rtt8) {
         $this->rtt8 = $rtt8;
@@ -6176,6 +6384,7 @@ class Etablissements {
      * Set the rtt9.
      *
      * @param float $rtt9 The rtt9.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setRtt9($rtt9) {
         $this->rtt9 = $rtt9;
@@ -6186,6 +6395,7 @@ class Etablissements {
      * Set the siege dadsu.
      *
      * @param bool $siegeDadsu The siege dadsu.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setSiegeDadsu($siegeDadsu) {
         $this->siegeDadsu = $siegeDadsu;
@@ -6196,6 +6406,7 @@ class Etablissements {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -6206,6 +6417,7 @@ class Etablissements {
      * Set the situation geo.
      *
      * @param string $situationGeo The situation geo.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setSituationGeo($situationGeo) {
         $this->situationGeo = $situationGeo;
@@ -6216,6 +6428,7 @@ class Etablissements {
      * Set the subrogation.
      *
      * @param bool $subrogation The subrogation.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setSubrogation($subrogation) {
         $this->subrogation = $subrogation;
@@ -6226,6 +6439,7 @@ class Etablissements {
      * Set the suivi analytique.
      *
      * @param bool $suiviAnalytique The suivi analytique.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setSuiviAnalytique($suiviAnalytique) {
         $this->suiviAnalytique = $suiviAnalytique;
@@ -6236,6 +6450,7 @@ class Etablissements {
      * Set the taux actionsociale.
      *
      * @param float $tauxActionsociale The taux actionsociale.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxActionsociale($tauxActionsociale) {
         $this->tauxActionsociale = $tauxActionsociale;
@@ -6246,6 +6461,7 @@ class Etablissements {
      * Set the taux construction.
      *
      * @param float $tauxConstruction The taux construction.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxConstruction($tauxConstruction) {
         $this->tauxConstruction = $tauxConstruction;
@@ -6256,6 +6472,7 @@ class Etablissements {
      * Set the taux formation.
      *
      * @param float $tauxFormation The taux formation.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxFormation($tauxFormation) {
         $this->tauxFormation = $tauxFormation;
@@ -6266,6 +6483,7 @@ class Etablissements {
      * Set the taux h sup1.
      *
      * @param float $tauxHSup1 The taux h sup1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxHSup1($tauxHSup1) {
         $this->tauxHSup1 = $tauxHSup1;
@@ -6276,6 +6494,7 @@ class Etablissements {
      * Set the taux h sup2.
      *
      * @param float $tauxHSup2 The taux h sup2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxHSup2($tauxHSup2) {
         $this->tauxHSup2 = $tauxHSup2;
@@ -6286,6 +6505,7 @@ class Etablissements {
      * Set the taux h sup3.
      *
      * @param float $tauxHSup3 The taux h sup3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxHSup3($tauxHSup3) {
         $this->tauxHSup3 = $tauxHSup3;
@@ -6296,6 +6516,7 @@ class Etablissements {
      * Set the taux h sup4.
      *
      * @param float $tauxHSup4 The taux h sup4.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxHSup4($tauxHSup4) {
         $this->tauxHSup4 = $tauxHSup4;
@@ -6306,6 +6527,7 @@ class Etablissements {
      * Set the taux h sup5.
      *
      * @param float $tauxHSup5 The taux h sup5.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxHSup5($tauxHSup5) {
         $this->tauxHSup5 = $tauxHSup5;
@@ -6316,6 +6538,7 @@ class Etablissements {
      * Set the taux ret tr2 pp.
      *
      * @param float $tauxRetTr2Pp The taux ret tr2 pp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTr2Pp($tauxRetTr2Pp) {
         $this->tauxRetTr2Pp = $tauxRetTr2Pp;
@@ -6326,6 +6549,7 @@ class Etablissements {
      * Set the taux ret tr2 ps.
      *
      * @param float $tauxRetTr2Ps The taux ret tr2 ps.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTr2Ps($tauxRetTr2Ps) {
         $this->tauxRetTr2Ps = $tauxRetTr2Ps;
@@ -6336,6 +6560,7 @@ class Etablissements {
      * Set the taux ret tr app.
      *
      * @param float $tauxRetTrApp The taux ret tr app.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTrApp($tauxRetTrApp) {
         $this->tauxRetTrApp = $tauxRetTrApp;
@@ -6346,6 +6571,7 @@ class Etablissements {
      * Set the taux ret tr aps.
      *
      * @param float $tauxRetTrAps The taux ret tr aps.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTrAps($tauxRetTrAps) {
         $this->tauxRetTrAps = $tauxRetTrAps;
@@ -6356,6 +6582,7 @@ class Etablissements {
      * Set the taux ret tr bpp.
      *
      * @param float $tauxRetTrBpp The taux ret tr bpp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTrBpp($tauxRetTrBpp) {
         $this->tauxRetTrBpp = $tauxRetTrBpp;
@@ -6366,6 +6593,7 @@ class Etablissements {
      * Set the taux ret tr bps.
      *
      * @param float $tauxRetTrBps The taux ret tr bps.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTrBps($tauxRetTrBps) {
         $this->tauxRetTrBps = $tauxRetTrBps;
@@ -6376,6 +6604,7 @@ class Etablissements {
      * Set the taux ret tr cpp.
      *
      * @param float $tauxRetTrCpp The taux ret tr cpp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTrCpp($tauxRetTrCpp) {
         $this->tauxRetTrCpp = $tauxRetTrCpp;
@@ -6386,6 +6615,7 @@ class Etablissements {
      * Set the taux ret tr cps.
      *
      * @param float $tauxRetTrCps The taux ret tr cps.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTrCps($tauxRetTrCps) {
         $this->tauxRetTrCps = $tauxRetTrCps;
@@ -6396,6 +6626,7 @@ class Etablissements {
      * Set the taux ret tr dpp.
      *
      * @param float $tauxRetTrDpp The taux ret tr dpp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTrDpp($tauxRetTrDpp) {
         $this->tauxRetTrDpp = $tauxRetTrDpp;
@@ -6406,6 +6637,7 @@ class Etablissements {
      * Set the taux ret tr dps.
      *
      * @param float $tauxRetTrDps The taux ret tr dps.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxRetTrDps($tauxRetTrDps) {
         $this->tauxRetTrDps = $tauxRetTrDps;
@@ -6416,6 +6648,7 @@ class Etablissements {
      * Set the taux sup formation.
      *
      * @param float $tauxSupFormation The taux sup formation.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxSupFormation($tauxSupFormation) {
         $this->tauxSupFormation = $tauxSupFormation;
@@ -6426,6 +6659,7 @@ class Etablissements {
      * Set the taux taxe apprenti.
      *
      * @param float $tauxTaxeApprenti The taux taxe apprenti.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxTaxeApprenti($tauxTaxeApprenti) {
         $this->tauxTaxeApprenti = $tauxTaxeApprenti;
@@ -6436,6 +6670,7 @@ class Etablissements {
      * Set the taux transport.
      *
      * @param float $tauxTransport The taux transport.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTauxTransport($tauxTransport) {
         $this->tauxTransport = $tauxTransport;
@@ -6446,6 +6681,7 @@ class Etablissements {
      * Set the tds128.
      *
      * @param string $tds128 The tds128.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTds128($tds128) {
         $this->tds128 = $tds128;
@@ -6456,6 +6692,7 @@ class Etablissements {
      * Set the tds19.
      *
      * @param string $tds19 The tds19.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTds19($tds19) {
         $this->tds19 = $tds19;
@@ -6466,6 +6703,7 @@ class Etablissements {
      * Set the tds47.
      *
      * @param string $tds47 The tds47.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTds47($tds47) {
         $this->tds47 = $tds47;
@@ -6476,6 +6714,7 @@ class Etablissements {
      * Set the tel.
      *
      * @param string $tel The tel.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTel($tel) {
         $this->tel = $tel;
@@ -6486,6 +6725,7 @@ class Etablissements {
      * Set the tx sal decote.
      *
      * @param float $txSalDecote The tx sal decote.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTxSalDecote($txSalDecote) {
         $this->txSalDecote = $txSalDecote;
@@ -6496,6 +6736,7 @@ class Etablissements {
      * Set the type base caisse1.
      *
      * @param string $typeBaseCaisse1 The type base caisse1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeBaseCaisse1($typeBaseCaisse1) {
         $this->typeBaseCaisse1 = $typeBaseCaisse1;
@@ -6506,6 +6747,7 @@ class Etablissements {
      * Set the type base caisse2.
      *
      * @param string $typeBaseCaisse2 The type base caisse2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeBaseCaisse2($typeBaseCaisse2) {
         $this->typeBaseCaisse2 = $typeBaseCaisse2;
@@ -6516,6 +6758,7 @@ class Etablissements {
      * Set the type base caisse3.
      *
      * @param string $typeBaseCaisse3 The type base caisse3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeBaseCaisse3($typeBaseCaisse3) {
         $this->typeBaseCaisse3 = $typeBaseCaisse3;
@@ -6526,6 +6769,7 @@ class Etablissements {
      * Set the type bonif.
      *
      * @param string $typeBonif The type bonif.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeBonif($typeBonif) {
         $this->typeBonif = $typeBonif;
@@ -6536,6 +6780,7 @@ class Etablissements {
      * Set the type domiciliation banque1.
      *
      * @param string $typeDomiciliationBanque1 The type domiciliation banque1.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeDomiciliationBanque1($typeDomiciliationBanque1) {
         $this->typeDomiciliationBanque1 = $typeDomiciliationBanque1;
@@ -6546,6 +6791,7 @@ class Etablissements {
      * Set the type domiciliation banque2.
      *
      * @param string $typeDomiciliationBanque2 The type domiciliation banque2.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeDomiciliationBanque2($typeDomiciliationBanque2) {
         $this->typeDomiciliationBanque2 = $typeDomiciliationBanque2;
@@ -6556,6 +6802,7 @@ class Etablissements {
      * Set the type domiciliation banque3.
      *
      * @param string $typeDomiciliationBanque3 The type domiciliation banque3.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeDomiciliationBanque3($typeDomiciliationBanque3) {
         $this->typeDomiciliationBanque3 = $typeDomiciliationBanque3;
@@ -6566,6 +6813,7 @@ class Etablissements {
      * Set the type effectif.
      *
      * @param string $typeEffectif The type effectif.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeEffectif($typeEffectif) {
         $this->typeEffectif = $typeEffectif;
@@ -6576,6 +6824,7 @@ class Etablissements {
      * Set the type maintien salaire.
      *
      * @param string $typeMaintienSalaire The type maintien salaire.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeMaintienSalaire($typeMaintienSalaire) {
         $this->typeMaintienSalaire = $typeMaintienSalaire;
@@ -6586,6 +6835,7 @@ class Etablissements {
      * Set the type publication.
      *
      * @param string $typePublication The type publication.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypePublication($typePublication) {
         $this->typePublication = $typePublication;
@@ -6596,6 +6846,7 @@ class Etablissements {
      * Set the type saisie ab cp.
      *
      * @param string $typeSaisieAbCp The type saisie ab cp.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeSaisieAbCp($typeSaisieAbCp) {
         $this->typeSaisieAbCp = $typeSaisieAbCp;
@@ -6606,6 +6857,7 @@ class Etablissements {
      * Set the type smic.
      *
      * @param string $typeSmic The type smic.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setTypeSmic($typeSmic) {
         $this->typeSmic = $typeSmic;
@@ -6616,6 +6868,7 @@ class Etablissements {
      * Set the urssaf alsace.
      *
      * @param bool $urssafAlsace The urssaf alsace.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setUrssafAlsace($urssafAlsace) {
         $this->urssafAlsace = $urssafAlsace;
@@ -6626,6 +6879,7 @@ class Etablissements {
      * Set the zone specif.
      *
      * @param string $zoneSpecif The zone specif.
+     * @return Etablissements Returns this Etablissements.
      */
     public function setZoneSpecif($zoneSpecif) {
         $this->zoneSpecif = $zoneSpecif;

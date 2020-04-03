@@ -126,6 +126,7 @@ class TypeIntervenants {
      * Set the acces libre.
      *
      * @param bool $accesLibre The acces libre.
+     * @return TypeIntervenants Returns this Type intervenants.
      */
     public function setAccesLibre($accesLibre) {
         $this->accesLibre = $accesLibre;
@@ -136,6 +137,7 @@ class TypeIntervenants {
      * Set the code.
      *
      * @param string $code The code.
+     * @return TypeIntervenants Returns this Type intervenants.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -146,6 +148,7 @@ class TypeIntervenants {
      * Set the increment auto.
      *
      * @param bool $incrementAuto The increment auto.
+     * @return TypeIntervenants Returns this Type intervenants.
      */
     public function setIncrementAuto($incrementAuto) {
         $this->incrementAuto = $incrementAuto;
@@ -156,6 +159,7 @@ class TypeIntervenants {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TypeIntervenants Returns this Type intervenants.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -166,6 +170,7 @@ class TypeIntervenants {
      * Set the prefixe.
      *
      * @param string $prefixe The prefixe.
+     * @return TypeIntervenants Returns this Type intervenants.
      */
     public function setPrefixe($prefixe) {
         $this->prefixe = $prefixe;
@@ -176,6 +181,7 @@ class TypeIntervenants {
      * Set the prochain numero.
      *
      * @param int $prochainNumero The prochain numero.
+     * @return TypeIntervenants Returns this Type intervenants.
      */
     public function setProchainNumero($prochainNumero) {
         $this->prochainNumero = $prochainNumero;

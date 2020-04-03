@@ -160,6 +160,7 @@ class AffaireMtPrevisionnel {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -170,6 +171,7 @@ class AffaireMtPrevisionnel {
      * Set the code avenant.
      *
      * @param string $codeAvenant The code avenant.
+     * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
     public function setCodeAvenant($codeAvenant) {
         $this->codeAvenant = $codeAvenant;
@@ -180,6 +182,7 @@ class AffaireMtPrevisionnel {
      * Set the code phase.
      *
      * @param string $codePhase The code phase.
+     * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
     public function setCodePhase($codePhase) {
         $this->codePhase = $codePhase;
@@ -190,6 +193,7 @@ class AffaireMtPrevisionnel {
      * Set the date prev.
      *
      * @param DateTime|null $datePrev The date prev.
+     * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
     public function setDatePrev(DateTime $datePrev = null) {
         $this->datePrev = $datePrev;
@@ -200,6 +204,7 @@ class AffaireMtPrevisionnel {
      * Set the mt phase.
      *
      * @param float $mtPhase The mt phase.
+     * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
     public function setMtPhase($mtPhase) {
         $this->mtPhase = $mtPhase;
@@ -210,6 +215,7 @@ class AffaireMtPrevisionnel {
      * Set the mt prev.
      *
      * @param float $mtPrev The mt prev.
+     * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
     public function setMtPrev($mtPrev) {
         $this->mtPrev = $mtPrev;
@@ -220,6 +226,7 @@ class AffaireMtPrevisionnel {
      * Set the prct phase.
      *
      * @param float $prctPhase The prct phase.
+     * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
     public function setPrctPhase($prctPhase) {
         $this->prctPhase = $prctPhase;
@@ -230,6 +237,7 @@ class AffaireMtPrevisionnel {
      * Set the type.
      *
      * @param string $type The type.
+     * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
     public function setType($type) {
         $this->type = $type;

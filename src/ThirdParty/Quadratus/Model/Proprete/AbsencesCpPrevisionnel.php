@@ -192,6 +192,7 @@ class AbsencesCpPrevisionnel {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -202,6 +203,7 @@ class AbsencesCpPrevisionnel {
      * Set the collaborateur.
      *
      * @param string $collaborateur The collaborateur.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setCollaborateur($collaborateur) {
         $this->collaborateur = $collaborateur;
@@ -212,6 +214,7 @@ class AbsencesCpPrevisionnel {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -222,6 +225,7 @@ class AbsencesCpPrevisionnel {
      * Set the date debut cp.
      *
      * @param DateTime|null $dateDebutCp The date debut cp.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setDateDebutCp(DateTime $dateDebutCp = null) {
         $this->dateDebutCp = $dateDebutCp;
@@ -232,6 +236,7 @@ class AbsencesCpPrevisionnel {
      * Set the date demande.
      *
      * @param DateTime|null $dateDemande The date demande.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setDateDemande(DateTime $dateDemande = null) {
         $this->dateDemande = $dateDemande;
@@ -242,6 +247,7 @@ class AbsencesCpPrevisionnel {
      * Set the date etat cp.
      *
      * @param DateTime|null $dateEtatCp The date etat cp.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setDateEtatCp(DateTime $dateEtatCp = null) {
         $this->dateEtatCp = $dateEtatCp;
@@ -252,6 +258,7 @@ class AbsencesCpPrevisionnel {
      * Set the date fin cp.
      *
      * @param DateTime|null $dateFinCp The date fin cp.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setDateFinCp(DateTime $dateFinCp = null) {
         $this->dateFinCp = $dateFinCp;
@@ -262,6 +269,7 @@ class AbsencesCpPrevisionnel {
      * Set the depuis web.
      *
      * @param bool $depuisWeb The depuis web.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setDepuisWeb($depuisWeb) {
         $this->depuisWeb = $depuisWeb;
@@ -272,6 +280,7 @@ class AbsencesCpPrevisionnel {
      * Set the etat cp.
      *
      * @param string $etatCp The etat cp.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setEtatCp($etatCp) {
         $this->etatCp = $etatCp;
@@ -282,6 +291,7 @@ class AbsencesCpPrevisionnel {
      * Set the indice.
      *
      * @param string $indice The indice.
+     * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
     public function setIndice($indice) {
         $this->indice = $indice;

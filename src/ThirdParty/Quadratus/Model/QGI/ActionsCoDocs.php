@@ -192,6 +192,7 @@ class ActionsCoDocs {
      * Set the auteur.
      *
      * @param string $auteur The auteur.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setAuteur($auteur) {
         $this->auteur = $auteur;
@@ -202,6 +203,7 @@ class ActionsCoDocs {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -212,6 +214,7 @@ class ActionsCoDocs {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -222,6 +225,7 @@ class ActionsCoDocs {
      * Set the code doc.
      *
      * @param string $codeDoc The code doc.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setCodeDoc($codeDoc) {
         $this->codeDoc = $codeDoc;
@@ -232,6 +236,7 @@ class ActionsCoDocs {
      * Set the code manif.
      *
      * @param string $codeManif The code manif.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setCodeManif($codeManif) {
         $this->codeManif = $codeManif;
@@ -242,6 +247,7 @@ class ActionsCoDocs {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -252,6 +258,7 @@ class ActionsCoDocs {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -262,6 +269,7 @@ class ActionsCoDocs {
      * Set the emplacement fichier.
      *
      * @param string $emplacementFichier The emplacement fichier.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setEmplacementFichier($emplacementFichier) {
         $this->emplacementFichier = $emplacementFichier;
@@ -272,6 +280,7 @@ class ActionsCoDocs {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -282,6 +291,7 @@ class ActionsCoDocs {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return ActionsCoDocs Returns this Actions co docs.
      */
     public function setNumero($numero) {
         $this->numero = $numero;

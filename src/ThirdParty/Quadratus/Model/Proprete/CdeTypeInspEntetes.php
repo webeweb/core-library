@@ -112,6 +112,7 @@ class CdeTypeInspEntetes {
      * Set the code inspecteur.
      *
      * @param string $codeInspecteur The code inspecteur.
+     * @return CdeTypeInspEntetes Returns this Cde type insp entetes.
      */
     public function setCodeInspecteur($codeInspecteur) {
         $this->codeInspecteur = $codeInspecteur;
@@ -122,6 +123,7 @@ class CdeTypeInspEntetes {
      * Set the dt validite debut.
      *
      * @param DateTime|null $dtValiditeDebut The dt validite debut.
+     * @return CdeTypeInspEntetes Returns this Cde type insp entetes.
      */
     public function setDtValiditeDebut(DateTime $dtValiditeDebut = null) {
         $this->dtValiditeDebut = $dtValiditeDebut;
@@ -132,6 +134,7 @@ class CdeTypeInspEntetes {
      * Set the dt validite fin.
      *
      * @param DateTime|null $dtValiditeFin The dt validite fin.
+     * @return CdeTypeInspEntetes Returns this Cde type insp entetes.
      */
     public function setDtValiditeFin(DateTime $dtValiditeFin = null) {
         $this->dtValiditeFin = $dtValiditeFin;
@@ -142,6 +145,7 @@ class CdeTypeInspEntetes {
      * Set the montant budget.
      *
      * @param float $montantBudget The montant budget.
+     * @return CdeTypeInspEntetes Returns this Cde type insp entetes.
      */
     public function setMontantBudget($montantBudget) {
         $this->montantBudget = $montantBudget;
@@ -152,6 +156,7 @@ class CdeTypeInspEntetes {
      * Set the montant ht cde.
      *
      * @param float $montantHtCde The montant ht cde.
+     * @return CdeTypeInspEntetes Returns this Cde type insp entetes.
      */
     public function setMontantHtCde($montantHtCde) {
         $this->montantHtCde = $montantHtCde;

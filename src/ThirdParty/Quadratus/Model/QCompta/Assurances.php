@@ -416,6 +416,7 @@ class Assurances {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return Assurances Returns this Assurances.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -426,6 +427,7 @@ class Assurances {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return Assurances Returns this Assurances.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -436,6 +438,7 @@ class Assurances {
      * Set the compagnie.
      *
      * @param string $compagnie The compagnie.
+     * @return Assurances Returns this Assurances.
      */
     public function setCompagnie($compagnie) {
         $this->compagnie = $compagnie;
@@ -446,6 +449,7 @@ class Assurances {
      * Set the courtier.
      *
      * @param string $courtier The courtier.
+     * @return Assurances Returns this Assurances.
      */
     public function setCourtier($courtier) {
         $this->courtier = $courtier;
@@ -456,6 +460,7 @@ class Assurances {
      * Set the date echeance.
      *
      * @param string $dateEcheance The date echeance.
+     * @return Assurances Returns this Assurances.
      */
     public function setDateEcheance($dateEcheance) {
         $this->dateEcheance = $dateEcheance;
@@ -466,6 +471,7 @@ class Assurances {
      * Set the date initiale.
      *
      * @param DateTime|null $dateInitiale The date initiale.
+     * @return Assurances Returns this Assurances.
      */
     public function setDateInitiale(DateTime $dateInitiale = null) {
         $this->dateInitiale = $dateInitiale;
@@ -476,6 +482,7 @@ class Assurances {
      * Set the date signature1.
      *
      * @param DateTime|null $dateSignature1 The date signature1.
+     * @return Assurances Returns this Assurances.
      */
     public function setDateSignature1(DateTime $dateSignature1 = null) {
         $this->dateSignature1 = $dateSignature1;
@@ -486,6 +493,7 @@ class Assurances {
      * Set the date signature2.
      *
      * @param DateTime|null $dateSignature2 The date signature2.
+     * @return Assurances Returns this Assurances.
      */
     public function setDateSignature2(DateTime $dateSignature2 = null) {
         $this->dateSignature2 = $dateSignature2;
@@ -496,6 +504,7 @@ class Assurances {
      * Set the date signature3.
      *
      * @param DateTime|null $dateSignature3 The date signature3.
+     * @return Assurances Returns this Assurances.
      */
     public function setDateSignature3(DateTime $dateSignature3 = null) {
         $this->dateSignature3 = $dateSignature3;
@@ -506,6 +515,7 @@ class Assurances {
      * Set the date signature4.
      *
      * @param DateTime|null $dateSignature4 The date signature4.
+     * @return Assurances Returns this Assurances.
      */
     public function setDateSignature4(DateTime $dateSignature4 = null) {
         $this->dateSignature4 = $dateSignature4;
@@ -516,6 +526,7 @@ class Assurances {
      * Set the date signature5.
      *
      * @param DateTime|null $dateSignature5 The date signature5.
+     * @return Assurances Returns this Assurances.
      */
     public function setDateSignature5(DateTime $dateSignature5 = null) {
         $this->dateSignature5 = $dateSignature5;
@@ -526,6 +537,7 @@ class Assurances {
      * Set the duree.
      *
      * @param int $duree The duree.
+     * @return Assurances Returns this Assurances.
      */
     public function setDuree($duree) {
         $this->duree = $duree;
@@ -536,6 +548,7 @@ class Assurances {
      * Set the duree preavis.
      *
      * @param int $dureePreavis The duree preavis.
+     * @return Assurances Returns this Assurances.
      */
     public function setDureePreavis($dureePreavis) {
         $this->dureePreavis = $dureePreavis;
@@ -546,6 +559,7 @@ class Assurances {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Assurances Returns this Assurances.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -556,6 +570,7 @@ class Assurances {
      * Set the montant annuel1.
      *
      * @param float $montantAnnuel1 The montant annuel1.
+     * @return Assurances Returns this Assurances.
      */
     public function setMontantAnnuel1($montantAnnuel1) {
         $this->montantAnnuel1 = $montantAnnuel1;
@@ -566,6 +581,7 @@ class Assurances {
      * Set the montant annuel2.
      *
      * @param float $montantAnnuel2 The montant annuel2.
+     * @return Assurances Returns this Assurances.
      */
     public function setMontantAnnuel2($montantAnnuel2) {
         $this->montantAnnuel2 = $montantAnnuel2;
@@ -576,6 +592,7 @@ class Assurances {
      * Set the montant annuel3.
      *
      * @param float $montantAnnuel3 The montant annuel3.
+     * @return Assurances Returns this Assurances.
      */
     public function setMontantAnnuel3($montantAnnuel3) {
         $this->montantAnnuel3 = $montantAnnuel3;
@@ -586,6 +603,7 @@ class Assurances {
      * Set the montant annuel4.
      *
      * @param float $montantAnnuel4 The montant annuel4.
+     * @return Assurances Returns this Assurances.
      */
     public function setMontantAnnuel4($montantAnnuel4) {
         $this->montantAnnuel4 = $montantAnnuel4;
@@ -596,6 +614,7 @@ class Assurances {
      * Set the montant annuel5.
      *
      * @param float $montantAnnuel5 The montant annuel5.
+     * @return Assurances Returns this Assurances.
      */
     public function setMontantAnnuel5($montantAnnuel5) {
         $this->montantAnnuel5 = $montantAnnuel5;
@@ -606,6 +625,7 @@ class Assurances {
      * Set the montant fixe.
      *
      * @param bool $montantFixe The montant fixe.
+     * @return Assurances Returns this Assurances.
      */
     public function setMontantFixe($montantFixe) {
         $this->montantFixe = $montantFixe;
@@ -616,6 +636,7 @@ class Assurances {
      * Set the num contrat.
      *
      * @param string $numContrat The num contrat.
+     * @return Assurances Returns this Assurances.
      */
     public function setNumContrat($numContrat) {
         $this->numContrat = $numContrat;
@@ -626,6 +647,7 @@ class Assurances {
      * Set the num cpt assurance.
      *
      * @param string $numCptAssurance The num cpt assurance.
+     * @return Assurances Returns this Assurances.
      */
     public function setNumCptAssurance($numCptAssurance) {
         $this->numCptAssurance = $numCptAssurance;
@@ -636,6 +658,7 @@ class Assurances {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return Assurances Returns this Assurances.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -646,6 +669,7 @@ class Assurances {
      * Set the unite duree.
      *
      * @param string $uniteDuree The unite duree.
+     * @return Assurances Returns this Assurances.
      */
     public function setUniteDuree($uniteDuree) {
         $this->uniteDuree = $uniteDuree;

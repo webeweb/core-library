@@ -192,6 +192,7 @@ class PlanPrevOrdonnancement {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -202,6 +203,7 @@ class PlanPrevOrdonnancement {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -212,6 +214,7 @@ class PlanPrevOrdonnancement {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -222,6 +225,7 @@ class PlanPrevOrdonnancement {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -232,6 +236,7 @@ class PlanPrevOrdonnancement {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -242,6 +247,7 @@ class PlanPrevOrdonnancement {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -252,6 +258,7 @@ class PlanPrevOrdonnancement {
      * Set the descriptif.
      *
      * @param string $descriptif The descriptif.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setDescriptif($descriptif) {
         $this->descriptif = $descriptif;
@@ -262,6 +269,7 @@ class PlanPrevOrdonnancement {
      * Set the discr tache.
      *
      * @param int $discrTache The discr tache.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setDiscrTache($discrTache) {
         $this->discrTache = $discrTache;
@@ -272,6 +280,7 @@ class PlanPrevOrdonnancement {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -282,6 +291,7 @@ class PlanPrevOrdonnancement {
      * Set the num ordre.
      *
      * @param int $numOrdre The num ordre.
+     * @return PlanPrevOrdonnancement Returns this Plan prev ordonnancement.
      */
     public function setNumOrdre($numOrdre) {
         $this->numOrdre = $numOrdre;

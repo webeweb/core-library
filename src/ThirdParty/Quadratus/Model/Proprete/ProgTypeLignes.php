@@ -126,6 +126,7 @@ class ProgTypeLignes {
      * Set the code operation.
      *
      * @param string $codeOperation The code operation.
+     * @return ProgTypeLignes Returns this Prog type lignes.
      */
     public function setCodeOperation($codeOperation) {
         $this->codeOperation = $codeOperation;
@@ -136,6 +137,7 @@ class ProgTypeLignes {
      * Set the coefficient.
      *
      * @param float $coefficient The coefficient.
+     * @return ProgTypeLignes Returns this Prog type lignes.
      */
     public function setCoefficient($coefficient) {
         $this->coefficient = $coefficient;
@@ -146,6 +148,7 @@ class ProgTypeLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return ProgTypeLignes Returns this Prog type lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -156,6 +159,7 @@ class ProgTypeLignes {
      * Set the num programme.
      *
      * @param int $numProgramme The num programme.
+     * @return ProgTypeLignes Returns this Prog type lignes.
      */
     public function setNumProgramme($numProgramme) {
         $this->numProgramme = $numProgramme;
@@ -166,6 +170,7 @@ class ProgTypeLignes {
      * Set the vitesse reelle.
      *
      * @param float $vitesseReelle The vitesse reelle.
+     * @return ProgTypeLignes Returns this Prog type lignes.
      */
     public function setVitesseReelle($vitesseReelle) {
         $this->vitesseReelle = $vitesseReelle;
@@ -176,6 +181,7 @@ class ProgTypeLignes {
      * Set the vitesse theorique.
      *
      * @param float $vitesseTheorique The vitesse theorique.
+     * @return ProgTypeLignes Returns this Prog type lignes.
      */
     public function setVitesseTheorique($vitesseTheorique) {
         $this->vitesseTheorique = $vitesseTheorique;

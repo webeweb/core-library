@@ -96,6 +96,7 @@ class EnteteHeuresEffectuees {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EnteteHeuresEffectuees Returns this Entete heures effectuees.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -106,6 +107,7 @@ class EnteteHeuresEffectuees {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return EnteteHeuresEffectuees Returns this Entete heures effectuees.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -116,6 +118,7 @@ class EnteteHeuresEffectuees {
      * Set the transfere.
      *
      * @param string $transfere The transfere.
+     * @return EnteteHeuresEffectuees Returns this Entete heures effectuees.
      */
     public function setTransfere($transfere) {
         $this->transfere = $transfere;
@@ -126,6 +129,7 @@ class EnteteHeuresEffectuees {
      * Set the type saisie.
      *
      * @param string $typeSaisie The type saisie.
+     * @return EnteteHeuresEffectuees Returns this Entete heures effectuees.
      */
     public function setTypeSaisie($typeSaisie) {
         $this->typeSaisie = $typeSaisie;

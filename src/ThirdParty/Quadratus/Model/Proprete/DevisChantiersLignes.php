@@ -206,6 +206,7 @@ class DevisChantiersLignes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -216,6 +217,7 @@ class DevisChantiersLignes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -226,6 +228,7 @@ class DevisChantiersLignes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -236,6 +239,7 @@ class DevisChantiersLignes {
      * Set the code local type.
      *
      * @param string $codeLocalType The code local type.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setCodeLocalType($codeLocalType) {
         $this->codeLocalType = $codeLocalType;
@@ -246,6 +250,7 @@ class DevisChantiersLignes {
      * Set the code revetement.
      *
      * @param string $codeRevetement The code revetement.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setCodeRevetement($codeRevetement) {
         $this->codeRevetement = $codeRevetement;
@@ -256,6 +261,7 @@ class DevisChantiersLignes {
      * Set the montant ht.
      *
      * @param float $montantHt The montant ht.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setMontantHt($montantHt) {
         $this->montantHt = $montantHt;
@@ -266,6 +272,7 @@ class DevisChantiersLignes {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -276,6 +283,7 @@ class DevisChantiersLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -286,6 +294,7 @@ class DevisChantiersLignes {
      * Set the sol mur.
      *
      * @param string $solMur The sol mur.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setSolMur($solMur) {
         $this->solMur = $solMur;
@@ -296,6 +305,7 @@ class DevisChantiersLignes {
      * Set the surface.
      *
      * @param float $surface The surface.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setSurface($surface) {
         $this->surface = $surface;
@@ -306,6 +316,7 @@ class DevisChantiersLignes {
      * Set the uniq id noeud.
      *
      * @param string $uniqIdNoeud The uniq id noeud.
+     * @return DevisChantiersLignes Returns this Devis chantiers lignes.
      */
     public function setUniqIdNoeud($uniqIdNoeud) {
         $this->uniqIdNoeud = $uniqIdNoeud;

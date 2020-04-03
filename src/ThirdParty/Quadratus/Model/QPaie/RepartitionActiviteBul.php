@@ -112,6 +112,7 @@ class RepartitionActiviteBul {
      * Set the code service.
      *
      * @param string $codeService The code service.
+     * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
     public function setCodeService($codeService) {
         $this->codeService = $codeService;
@@ -122,6 +123,7 @@ class RepartitionActiviteBul {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -132,6 +134,7 @@ class RepartitionActiviteBul {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -142,6 +145,7 @@ class RepartitionActiviteBul {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -152,6 +156,7 @@ class RepartitionActiviteBul {
      * Set the taux ventilation.
      *
      * @param float $tauxVentilation The taux ventilation.
+     * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
     public function setTauxVentilation($tauxVentilation) {
         $this->tauxVentilation = $tauxVentilation;

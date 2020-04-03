@@ -222,6 +222,7 @@ class TransfertImmos {
      * Set the cpt der cap.
      *
      * @param string $cptDerCap The cpt der cap.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptDerCap($cptDerCap) {
         $this->cptDerCap = $cptDerCap;
@@ -232,6 +233,7 @@ class TransfertImmos {
      * Set the cpt der dot.
      *
      * @param string $cptDerDot The cpt der dot.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptDerDot($cptDerDot) {
         $this->cptDerDot = $cptDerDot;
@@ -242,6 +244,7 @@ class TransfertImmos {
      * Set the cpt der maj.
      *
      * @param string $cptDerMaj The cpt der maj.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptDerMaj($cptDerMaj) {
         $this->cptDerMaj = $cptDerMaj;
@@ -252,6 +255,7 @@ class TransfertImmos {
      * Set the cpt der rep.
      *
      * @param string $cptDerRep The cpt der rep.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptDerRep($cptDerRep) {
         $this->cptDerRep = $cptDerRep;
@@ -262,6 +266,7 @@ class TransfertImmos {
      * Set the cpt dot cor.
      *
      * @param string $cptDotCor The cpt dot cor.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptDotCor($cptDotCor) {
         $this->cptDotCor = $cptDotCor;
@@ -272,6 +277,7 @@ class TransfertImmos {
      * Set the cpt dot exc.
      *
      * @param string $cptDotExc The cpt dot exc.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptDotExc($cptDotExc) {
         $this->cptDotExc = $cptDotExc;
@@ -282,6 +288,7 @@ class TransfertImmos {
      * Set the cpt dot fin.
      *
      * @param string $cptDotFin The cpt dot fin.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptDotFin($cptDotFin) {
         $this->cptDotFin = $cptDotFin;
@@ -292,6 +299,7 @@ class TransfertImmos {
      * Set the cpt dot inc.
      *
      * @param string $cptDotInc The cpt dot inc.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptDotInc($cptDotInc) {
         $this->cptDotInc = $cptDotInc;
@@ -302,6 +310,7 @@ class TransfertImmos {
      * Set the cpt val cor.
      *
      * @param string $cptValCor The cpt val cor.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptValCor($cptValCor) {
         $this->cptValCor = $cptValCor;
@@ -312,6 +321,7 @@ class TransfertImmos {
      * Set the cpt val exc.
      *
      * @param string $cptValExc The cpt val exc.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptValExc($cptValExc) {
         $this->cptValExc = $cptValExc;
@@ -322,6 +332,7 @@ class TransfertImmos {
      * Set the cpt val fin.
      *
      * @param string $cptValFin The cpt val fin.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptValFin($cptValFin) {
         $this->cptValFin = $cptValFin;
@@ -332,6 +343,7 @@ class TransfertImmos {
      * Set the cpt val inc.
      *
      * @param string $cptValInc The cpt val inc.
+     * @return TransfertImmos Returns this Transfert immos.
      */
     public function setCptValInc($cptValInc) {
         $this->cptValInc = $cptValInc;

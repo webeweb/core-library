@@ -176,6 +176,7 @@ class LignesAtb {
      * Set the date versement.
      *
      * @param DateTime|null $dateVersement The date versement.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setDateVersement(DateTime $dateVersement = null) {
         $this->dateVersement = $dateVersement;
@@ -186,6 +187,7 @@ class LignesAtb {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -196,6 +198,7 @@ class LignesAtb {
      * Set the montant cotis.
      *
      * @param float $montantCotis The montant cotis.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setMontantCotis($montantCotis) {
         $this->montantCotis = $montantCotis;
@@ -206,6 +209,7 @@ class LignesAtb {
      * Set the montant euro ou franc.
      *
      * @param string $montantEuroOuFranc The montant euro ou franc.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setMontantEuroOuFranc($montantEuroOuFranc) {
         $this->montantEuroOuFranc = $montantEuroOuFranc;
@@ -216,6 +220,7 @@ class LignesAtb {
      * Set the num ligne.
      *
      * @param string $numLigne The num ligne.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -226,6 +231,7 @@ class LignesAtb {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -236,6 +242,7 @@ class LignesAtb {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -246,6 +253,7 @@ class LignesAtb {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;
@@ -256,6 +264,7 @@ class LignesAtb {
      * Set the ps euro ou franc.
      *
      * @param string $psEuroOuFranc The ps euro ou franc.
+     * @return LignesAtb Returns this Lignes atb.
      */
     public function setPsEuroOuFranc($psEuroOuFranc) {
         $this->psEuroOuFranc = $psEuroOuFranc;

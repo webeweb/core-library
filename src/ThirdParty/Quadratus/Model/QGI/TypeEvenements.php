@@ -254,6 +254,7 @@ class TypeEvenements {
      * Set the avec etat.
      *
      * @param bool $avecEtat The avec etat.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setAvecEtat($avecEtat) {
         $this->avecEtat = $avecEtat;
@@ -264,6 +265,7 @@ class TypeEvenements {
      * Set the code.
      *
      * @param string $code The code.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -274,6 +276,7 @@ class TypeEvenements {
      * Set the etat couleur1.
      *
      * @param int $etatCouleur1 The etat couleur1.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setEtatCouleur1($etatCouleur1) {
         $this->etatCouleur1 = $etatCouleur1;
@@ -284,6 +287,7 @@ class TypeEvenements {
      * Set the etat couleur2.
      *
      * @param int $etatCouleur2 The etat couleur2.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setEtatCouleur2($etatCouleur2) {
         $this->etatCouleur2 = $etatCouleur2;
@@ -294,6 +298,7 @@ class TypeEvenements {
      * Set the etat couleur3.
      *
      * @param int $etatCouleur3 The etat couleur3.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setEtatCouleur3($etatCouleur3) {
         $this->etatCouleur3 = $etatCouleur3;
@@ -304,6 +309,7 @@ class TypeEvenements {
      * Set the etat priorite1.
      *
      * @param string $etatPriorite1 The etat priorite1.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setEtatPriorite1($etatPriorite1) {
         $this->etatPriorite1 = $etatPriorite1;
@@ -314,6 +320,7 @@ class TypeEvenements {
      * Set the etat priorite2.
      *
      * @param string $etatPriorite2 The etat priorite2.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setEtatPriorite2($etatPriorite2) {
         $this->etatPriorite2 = $etatPriorite2;
@@ -324,6 +331,7 @@ class TypeEvenements {
      * Set the etat priorite3.
      *
      * @param string $etatPriorite3 The etat priorite3.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setEtatPriorite3($etatPriorite3) {
         $this->etatPriorite3 = $etatPriorite3;
@@ -334,6 +342,7 @@ class TypeEvenements {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -344,6 +353,7 @@ class TypeEvenements {
      * Set the libelle1.
      *
      * @param string $libelle1 The libelle1.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setLibelle1($libelle1) {
         $this->libelle1 = $libelle1;
@@ -354,6 +364,7 @@ class TypeEvenements {
      * Set the libelle2.
      *
      * @param string $libelle2 The libelle2.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setLibelle2($libelle2) {
         $this->libelle2 = $libelle2;
@@ -364,6 +375,7 @@ class TypeEvenements {
      * Set the libelle3.
      *
      * @param string $libelle3 The libelle3.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setLibelle3($libelle3) {
         $this->libelle3 = $libelle3;
@@ -374,6 +386,7 @@ class TypeEvenements {
      * Set the libelle etat.
      *
      * @param string $libelleEtat The libelle etat.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setLibelleEtat($libelleEtat) {
         $this->libelleEtat = $libelleEtat;
@@ -384,6 +397,7 @@ class TypeEvenements {
      * Set the pos flag.
      *
      * @param string $posFlag The pos flag.
+     * @return TypeEvenements Returns this Type evenements.
      */
     public function setPosFlag($posFlag) {
         $this->posFlag = $posFlag;

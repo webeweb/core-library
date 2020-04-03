@@ -144,6 +144,7 @@ class ActionsCoSeances {
      * Set the code action.
      *
      * @param string $codeAction The code action.
+     * @return ActionsCoSeances Returns this Actions co seances.
      */
     public function setCodeAction($codeAction) {
         $this->codeAction = $codeAction;
@@ -154,6 +155,7 @@ class ActionsCoSeances {
      * Set the code manif.
      *
      * @param string $codeManif The code manif.
+     * @return ActionsCoSeances Returns this Actions co seances.
      */
     public function setCodeManif($codeManif) {
         $this->codeManif = $codeManif;
@@ -164,6 +166,7 @@ class ActionsCoSeances {
      * Set the date seance.
      *
      * @param DateTime|null $dateSeance The date seance.
+     * @return ActionsCoSeances Returns this Actions co seances.
      */
     public function setDateSeance(DateTime $dateSeance = null) {
         $this->dateSeance = $dateSeance;
@@ -174,6 +177,7 @@ class ActionsCoSeances {
      * Set the heure deb.
      *
      * @param DateTime|null $heureDeb The heure deb.
+     * @return ActionsCoSeances Returns this Actions co seances.
      */
     public function setHeureDeb(DateTime $heureDeb = null) {
         $this->heureDeb = $heureDeb;
@@ -184,6 +188,7 @@ class ActionsCoSeances {
      * Set the heure fin.
      *
      * @param DateTime|null $heureFin The heure fin.
+     * @return ActionsCoSeances Returns this Actions co seances.
      */
     public function setHeureFin(DateTime $heureFin = null) {
         $this->heureFin = $heureFin;
@@ -194,6 +199,7 @@ class ActionsCoSeances {
      * Set the libelle seance.
      *
      * @param string $libelleSeance The libelle seance.
+     * @return ActionsCoSeances Returns this Actions co seances.
      */
     public function setLibelleSeance($libelleSeance) {
         $this->libelleSeance = $libelleSeance;
@@ -204,6 +210,7 @@ class ActionsCoSeances {
      * Set the num seance.
      *
      * @param int $numSeance The num seance.
+     * @return ActionsCoSeances Returns this Actions co seances.
      */
     public function setNumSeance($numSeance) {
         $this->numSeance = $numSeance;

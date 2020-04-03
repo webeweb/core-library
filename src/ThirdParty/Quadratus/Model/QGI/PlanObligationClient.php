@@ -160,6 +160,7 @@ class PlanObligationClient {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return PlanObligationClient Returns this Plan obligation client.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -170,6 +171,7 @@ class PlanObligationClient {
      * Set the code collab specif.
      *
      * @param string $codeCollabSpecif The code collab specif.
+     * @return PlanObligationClient Returns this Plan obligation client.
      */
     public function setCodeCollabSpecif($codeCollabSpecif) {
         $this->codeCollabSpecif = $codeCollabSpecif;
@@ -180,6 +182,7 @@ class PlanObligationClient {
      * Set the code obligation.
      *
      * @param string $codeObligation The code obligation.
+     * @return PlanObligationClient Returns this Plan obligation client.
      */
     public function setCodeObligation($codeObligation) {
         $this->codeObligation = $codeObligation;
@@ -190,6 +193,7 @@ class PlanObligationClient {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return PlanObligationClient Returns this Plan obligation client.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -200,6 +204,7 @@ class PlanObligationClient {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return PlanObligationClient Returns this Plan obligation client.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -210,6 +215,7 @@ class PlanObligationClient {
      * Set the frequence.
      *
      * @param string $frequence The frequence.
+     * @return PlanObligationClient Returns this Plan obligation client.
      */
     public function setFrequence($frequence) {
         $this->frequence = $frequence;
@@ -220,6 +226,7 @@ class PlanObligationClient {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return PlanObligationClient Returns this Plan obligation client.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -230,6 +237,7 @@ class PlanObligationClient {
      * Set the qui le fait.
      *
      * @param int $quiLeFait The qui le fait.
+     * @return PlanObligationClient Returns this Plan obligation client.
      */
     public function setQuiLeFait($quiLeFait) {
         $this->quiLeFait = $quiLeFait;

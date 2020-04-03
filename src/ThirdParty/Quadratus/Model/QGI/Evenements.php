@@ -656,6 +656,7 @@ class Evenements {
      * Set the archive.
      *
      * @param bool $archive The archive.
+     * @return Evenements Returns this Evenements.
      */
     public function setArchive($archive) {
         $this->archive = $archive;
@@ -666,6 +667,7 @@ class Evenements {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Evenements Returns this Evenements.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -676,6 +678,7 @@ class Evenements {
      * Set the code collab.
      *
      * @param string $codeCollab The code collab.
+     * @return Evenements Returns this Evenements.
      */
     public function setCodeCollab($codeCollab) {
         $this->codeCollab = $codeCollab;
@@ -686,6 +689,7 @@ class Evenements {
      * Set the contenu1.
      *
      * @param string $contenu1 The contenu1.
+     * @return Evenements Returns this Evenements.
      */
     public function setContenu1($contenu1) {
         $this->contenu1 = $contenu1;
@@ -696,6 +700,7 @@ class Evenements {
      * Set the contenu2.
      *
      * @param string $contenu2 The contenu2.
+     * @return Evenements Returns this Evenements.
      */
     public function setContenu2($contenu2) {
         $this->contenu2 = $contenu2;
@@ -706,6 +711,7 @@ class Evenements {
      * Set the contenu3.
      *
      * @param string $contenu3 The contenu3.
+     * @return Evenements Returns this Evenements.
      */
     public function setContenu3($contenu3) {
         $this->contenu3 = $contenu3;
@@ -716,6 +722,7 @@ class Evenements {
      * Set the contenu4.
      *
      * @param string $contenu4 The contenu4.
+     * @return Evenements Returns this Evenements.
      */
     public function setContenu4($contenu4) {
         $this->contenu4 = $contenu4;
@@ -726,6 +733,7 @@ class Evenements {
      * Set the date evt.
      *
      * @param DateTime|null $dateEvt The date evt.
+     * @return Evenements Returns this Evenements.
      */
     public function setDateEvt(DateTime $dateEvt = null) {
         $this->dateEvt = $dateEvt;
@@ -736,6 +744,7 @@ class Evenements {
      * Set the emplacement fichier.
      *
      * @param string $emplacementFichier The emplacement fichier.
+     * @return Evenements Returns this Evenements.
      */
     public function setEmplacementFichier($emplacementFichier) {
         $this->emplacementFichier = $emplacementFichier;
@@ -746,6 +755,7 @@ class Evenements {
      * Set the etat is actif.
      *
      * @param string $etatIsActif The etat is actif.
+     * @return Evenements Returns this Evenements.
      */
     public function setEtatIsActif($etatIsActif) {
         $this->etatIsActif = $etatIsActif;
@@ -756,6 +766,7 @@ class Evenements {
      * Set the fs compta.
      *
      * @param string $fsCompta The fs compta.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsCompta($fsCompta) {
         $this->fsCompta = $fsCompta;
@@ -766,6 +777,7 @@ class Evenements {
      * Set the fs compta coll arch.
      *
      * @param string $fsComptaCollArch The fs compta coll arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsComptaCollArch($fsComptaCollArch) {
         $this->fsComptaCollArch = $fsComptaCollArch;
@@ -776,6 +788,7 @@ class Evenements {
      * Set the fs compta date alerte.
      *
      * @param DateTime|null $fsComptaDateAlerte The fs compta date alerte.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsComptaDateAlerte(DateTime $fsComptaDateAlerte = null) {
         $this->fsComptaDateAlerte = $fsComptaDateAlerte;
@@ -786,6 +799,7 @@ class Evenements {
      * Set the fs compta date arch.
      *
      * @param DateTime|null $fsComptaDateArch The fs compta date arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsComptaDateArch(DateTime $fsComptaDateArch = null) {
         $this->fsComptaDateArch = $fsComptaDateArch;
@@ -796,6 +810,7 @@ class Evenements {
      * Set the fs compta ya alerte.
      *
      * @param bool $fsComptaYaAlerte The fs compta ya alerte.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsComptaYaAlerte($fsComptaYaAlerte) {
         $this->fsComptaYaAlerte = $fsComptaYaAlerte;
@@ -806,6 +821,7 @@ class Evenements {
      * Set the fs fiscal.
      *
      * @param string $fsFiscal The fs fiscal.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsFiscal($fsFiscal) {
         $this->fsFiscal = $fsFiscal;
@@ -816,6 +832,7 @@ class Evenements {
      * Set the fs fiscal coll arch.
      *
      * @param string $fsFiscalCollArch The fs fiscal coll arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsFiscalCollArch($fsFiscalCollArch) {
         $this->fsFiscalCollArch = $fsFiscalCollArch;
@@ -826,6 +843,7 @@ class Evenements {
      * Set the fs fiscal date arch.
      *
      * @param DateTime|null $fsFiscalDateArch The fs fiscal date arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsFiscalDateArch(DateTime $fsFiscalDateArch = null) {
         $this->fsFiscalDateArch = $fsFiscalDateArch;
@@ -836,6 +854,7 @@ class Evenements {
      * Set the fs juridique.
      *
      * @param string $fsJuridique The fs juridique.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsJuridique($fsJuridique) {
         $this->fsJuridique = $fsJuridique;
@@ -846,6 +865,7 @@ class Evenements {
      * Set the fs juridique coll arch.
      *
      * @param string $fsJuridiqueCollArch The fs juridique coll arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsJuridiqueCollArch($fsJuridiqueCollArch) {
         $this->fsJuridiqueCollArch = $fsJuridiqueCollArch;
@@ -856,6 +876,7 @@ class Evenements {
      * Set the fs juridique date arch.
      *
      * @param DateTime|null $fsJuridiqueDateArch The fs juridique date arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsJuridiqueDateArch(DateTime $fsJuridiqueDateArch = null) {
         $this->fsJuridiqueDateArch = $fsJuridiqueDateArch;
@@ -866,6 +887,7 @@ class Evenements {
      * Set the fs social.
      *
      * @param string $fsSocial The fs social.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsSocial($fsSocial) {
         $this->fsSocial = $fsSocial;
@@ -876,6 +898,7 @@ class Evenements {
      * Set the fs social coll arch.
      *
      * @param string $fsSocialCollArch The fs social coll arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsSocialCollArch($fsSocialCollArch) {
         $this->fsSocialCollArch = $fsSocialCollArch;
@@ -886,6 +909,7 @@ class Evenements {
      * Set the fs social date alerte.
      *
      * @param DateTime|null $fsSocialDateAlerte The fs social date alerte.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsSocialDateAlerte(DateTime $fsSocialDateAlerte = null) {
         $this->fsSocialDateAlerte = $fsSocialDateAlerte;
@@ -896,6 +920,7 @@ class Evenements {
      * Set the fs social date arch.
      *
      * @param DateTime|null $fsSocialDateArch The fs social date arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsSocialDateArch(DateTime $fsSocialDateArch = null) {
         $this->fsSocialDateArch = $fsSocialDateArch;
@@ -906,6 +931,7 @@ class Evenements {
      * Set the fs social ya alerte.
      *
      * @param bool $fsSocialYaAlerte The fs social ya alerte.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsSocialYaAlerte($fsSocialYaAlerte) {
         $this->fsSocialYaAlerte = $fsSocialYaAlerte;
@@ -916,6 +942,7 @@ class Evenements {
      * Set the fsgi.
      *
      * @param string $fsgi The fsgi.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsgi($fsgi) {
         $this->fsgi = $fsgi;
@@ -926,6 +953,7 @@ class Evenements {
      * Set the fsgi coll arch.
      *
      * @param string $fsgiCollArch The fsgi coll arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsgiCollArch($fsgiCollArch) {
         $this->fsgiCollArch = $fsgiCollArch;
@@ -936,6 +964,7 @@ class Evenements {
      * Set the fsgi date arch.
      *
      * @param DateTime|null $fsgiDateArch The fsgi date arch.
+     * @return Evenements Returns this Evenements.
      */
     public function setFsgiDateArch(DateTime $fsgiDateArch = null) {
         $this->fsgiDateArch = $fsgiDateArch;
@@ -946,6 +975,7 @@ class Evenements {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Evenements Returns this Evenements.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -956,6 +986,7 @@ class Evenements {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return Evenements Returns this Evenements.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -966,6 +997,7 @@ class Evenements {
      * Set the qualifiant1.
      *
      * @param string $qualifiant1 The qualifiant1.
+     * @return Evenements Returns this Evenements.
      */
     public function setQualifiant1($qualifiant1) {
         $this->qualifiant1 = $qualifiant1;
@@ -976,6 +1008,7 @@ class Evenements {
      * Set the qualifiant2.
      *
      * @param string $qualifiant2 The qualifiant2.
+     * @return Evenements Returns this Evenements.
      */
     public function setQualifiant2($qualifiant2) {
         $this->qualifiant2 = $qualifiant2;
@@ -986,6 +1019,7 @@ class Evenements {
      * Set the qualifiant3.
      *
      * @param string $qualifiant3 The qualifiant3.
+     * @return Evenements Returns this Evenements.
      */
     public function setQualifiant3($qualifiant3) {
         $this->qualifiant3 = $qualifiant3;
@@ -996,6 +1030,7 @@ class Evenements {
      * Set the racine cpt.
      *
      * @param string $racineCpt The racine cpt.
+     * @return Evenements Returns this Evenements.
      */
     public function setRacineCpt($racineCpt) {
         $this->racineCpt = $racineCpt;
@@ -1006,6 +1041,7 @@ class Evenements {
      * Set the regle.
      *
      * @param bool $regle The regle.
+     * @return Evenements Returns this Evenements.
      */
     public function setRegle($regle) {
         $this->regle = $regle;
@@ -1016,6 +1052,7 @@ class Evenements {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return Evenements Returns this Evenements.
      */
     public function setTitre($titre) {
         $this->titre = $titre;
@@ -1026,6 +1063,7 @@ class Evenements {
      * Set the type evt.
      *
      * @param string $typeEvt The type evt.
+     * @return Evenements Returns this Evenements.
      */
     public function setTypeEvt($typeEvt) {
         $this->typeEvt = $typeEvt;
@@ -1036,6 +1074,7 @@ class Evenements {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return Evenements Returns this Evenements.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

@@ -304,6 +304,7 @@ class DadsuSituation {
      * Set the code debut periode.
      *
      * @param string $codeDebutPeriode The code debut periode.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setCodeDebutPeriode($codeDebutPeriode) {
         $this->codeDebutPeriode = $codeDebutPeriode;
@@ -314,6 +315,7 @@ class DadsuSituation {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -324,6 +326,7 @@ class DadsuSituation {
      * Set the code temps arret.
      *
      * @param string $codeTempsArret The code temps arret.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setCodeTempsArret($codeTempsArret) {
         $this->codeTempsArret = $codeTempsArret;
@@ -334,6 +337,7 @@ class DadsuSituation {
      * Set the date ctrl norme.
      *
      * @param DateTime|null $dateCtrlNorme The date ctrl norme.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setDateCtrlNorme(DateTime $dateCtrlNorme = null) {
         $this->dateCtrlNorme = $dateCtrlNorme;
@@ -344,6 +348,7 @@ class DadsuSituation {
      * Set the debut periode.
      *
      * @param DateTime|null $debutPeriode The debut periode.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setDebutPeriode(DateTime $debutPeriode = null) {
         $this->debutPeriode = $debutPeriode;
@@ -354,6 +359,7 @@ class DadsuSituation {
      * Set the depuis calcul.
      *
      * @param bool $depuisCalcul The depuis calcul.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setDepuisCalcul($depuisCalcul) {
         $this->depuisCalcul = $depuisCalcul;
@@ -364,6 +370,7 @@ class DadsuSituation {
      * Set the etat ctrl norme.
      *
      * @param string $etatCtrlNorme The etat ctrl norme.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setEtatCtrlNorme($etatCtrlNorme) {
         $this->etatCtrlNorme = $etatCtrlNorme;
@@ -374,6 +381,7 @@ class DadsuSituation {
      * Set the fin periode.
      *
      * @param DateTime|null $finPeriode The fin periode.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setFinPeriode(DateTime $finPeriode = null) {
         $this->finPeriode = $finPeriode;
@@ -384,6 +392,7 @@ class DadsuSituation {
      * Set the montant1.
      *
      * @param float $montant1 The montant1.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setMontant1($montant1) {
         $this->montant1 = $montant1;
@@ -394,6 +403,7 @@ class DadsuSituation {
      * Set the montant2.
      *
      * @param float $montant2 The montant2.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setMontant2($montant2) {
         $this->montant2 = $montant2;
@@ -404,6 +414,7 @@ class DadsuSituation {
      * Set the montant employeur.
      *
      * @param float $montantEmployeur The montant employeur.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setMontantEmployeur($montantEmployeur) {
         $this->montantEmployeur = $montantEmployeur;
@@ -414,6 +425,7 @@ class DadsuSituation {
      * Set the motif situation.
      *
      * @param string $motifSituation The motif situation.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setMotifSituation($motifSituation) {
         $this->motifSituation = $motifSituation;
@@ -424,6 +436,7 @@ class DadsuSituation {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -434,6 +447,7 @@ class DadsuSituation {
      * Set the numero ordre.
      *
      * @param int $numeroOrdre The numero ordre.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setNumeroOrdre($numeroOrdre) {
         $this->numeroOrdre = $numeroOrdre;
@@ -444,6 +458,7 @@ class DadsuSituation {
      * Set the qualif unite temps.
      *
      * @param string $qualifUniteTemps The qualif unite temps.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setQualifUniteTemps($qualifUniteTemps) {
         $this->qualifUniteTemps = $qualifUniteTemps;
@@ -454,6 +469,7 @@ class DadsuSituation {
      * Set the temps arret.
      *
      * @param float $tempsArret The temps arret.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setTempsArret($tempsArret) {
         $this->tempsArret = $tempsArret;
@@ -464,6 +480,7 @@ class DadsuSituation {
      * Set the type base.
      *
      * @param string $typeBase The type base.
+     * @return DadsuSituation Returns this Dadsu situation.
      */
     public function setTypeBase($typeBase) {
         $this->typeBase = $typeBase;

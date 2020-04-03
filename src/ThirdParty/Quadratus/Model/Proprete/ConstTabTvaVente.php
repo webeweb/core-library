@@ -110,6 +110,7 @@ class ConstTabTvaVente {
      * Set the code tva article.
      *
      * @param string $codeTvaArticle The code tva article.
+     * @return ConstTabTvaVente Returns this Const tab tva vente.
      */
     public function setCodeTvaArticle($codeTvaArticle) {
         $this->codeTvaArticle = $codeTvaArticle;
@@ -120,6 +121,7 @@ class ConstTabTvaVente {
      * Set the code tva client.
      *
      * @param string $codeTvaClient The code tva client.
+     * @return ConstTabTvaVente Returns this Const tab tva vente.
      */
     public function setCodeTvaClient($codeTvaClient) {
         $this->codeTvaClient = $codeTvaClient;
@@ -130,6 +132,7 @@ class ConstTabTvaVente {
      * Set the compte tva.
      *
      * @param string $compteTva The compte tva.
+     * @return ConstTabTvaVente Returns this Const tab tva vente.
      */
     public function setCompteTva($compteTva) {
         $this->compteTva = $compteTva;
@@ -140,6 +143,7 @@ class ConstTabTvaVente {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ConstTabTvaVente Returns this Const tab tva vente.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -150,6 +154,7 @@ class ConstTabTvaVente {
      * Set the taux tva.
      *
      * @param float $tauxTva The taux tva.
+     * @return ConstTabTvaVente Returns this Const tab tva vente.
      */
     public function setTauxTva($tauxTva) {
         $this->tauxTva = $tauxTva;

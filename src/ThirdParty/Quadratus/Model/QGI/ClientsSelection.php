@@ -110,6 +110,7 @@ class ClientsSelection {
      * Set the champ.
      *
      * @param string $champ The champ.
+     * @return ClientsSelection Returns this Clients selection.
      */
     public function setChamp($champ) {
         $this->champ = $champ;
@@ -120,6 +121,7 @@ class ClientsSelection {
      * Set the code col.
      *
      * @param string $codeCol The code col.
+     * @return ClientsSelection Returns this Clients selection.
      */
     public function setCodeCol($codeCol) {
         $this->codeCol = $codeCol;
@@ -130,6 +132,7 @@ class ClientsSelection {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return ClientsSelection Returns this Clients selection.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -140,6 +143,7 @@ class ClientsSelection {
      * Set the type.
      *
      * @param string $type The type.
+     * @return ClientsSelection Returns this Clients selection.
      */
     public function setType($type) {
         $this->type = $type;
@@ -150,6 +154,7 @@ class ClientsSelection {
      * Set the valeur.
      *
      * @param string $valeur The valeur.
+     * @return ClientsSelection Returns this Clients selection.
      */
     public function setValeur($valeur) {
         $this->valeur = $valeur;

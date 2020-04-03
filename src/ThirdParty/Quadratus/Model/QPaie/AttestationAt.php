@@ -1184,6 +1184,7 @@ class AttestationAt {
      * Set the accident.
      *
      * @param bool $accident The accident.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setAccident($accident) {
         $this->accident = $accident;
@@ -1194,6 +1195,7 @@ class AttestationAt {
      * Set the accident mois embauche.
      *
      * @param bool $accidentMoisEmbauche The accident mois embauche.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setAccidentMoisEmbauche($accidentMoisEmbauche) {
         $this->accidentMoisEmbauche = $accidentMoisEmbauche;
@@ -1204,6 +1206,7 @@ class AttestationAt {
      * Set the adresse1.
      *
      * @param string $adresse1 The adresse1.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setAdresse1($adresse1) {
         $this->adresse1 = $adresse1;
@@ -1214,6 +1217,7 @@ class AttestationAt {
      * Set the adresse3.
      *
      * @param string $adresse3 The adresse3.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setAdresse3($adresse3) {
         $this->adresse3 = $adresse3;
@@ -1224,6 +1228,7 @@ class AttestationAt {
      * Set the anciennete.
      *
      * @param string $anciennete The anciennete.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setAnciennete($anciennete) {
         $this->anciennete = $anciennete;
@@ -1234,6 +1239,7 @@ class AttestationAt {
      * Set the autre vivtime.
      *
      * @param bool $autreVivtime The autre vivtime.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setAutreVivtime($autreVivtime) {
         $this->autreVivtime = $autreVivtime;
@@ -1244,6 +1250,7 @@ class AttestationAt {
      * Set the cas part.
      *
      * @param string $casPart The cas part.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setCasPart($casPart) {
         $this->casPart = $casPart;
@@ -1254,6 +1261,7 @@ class AttestationAt {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -1264,6 +1272,7 @@ class AttestationAt {
      * Set the date accident.
      *
      * @param DateTime|null $dateAccident The date accident.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setDateAccident(DateTime $dateAccident = null) {
         $this->dateAccident = $dateAccident;
@@ -1274,6 +1283,7 @@ class AttestationAt {
      * Set the date contrat.
      *
      * @param DateTime|null $dateContrat The date contrat.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setDateContrat(DateTime $dateContrat = null) {
         $this->dateContrat = $dateContrat;
@@ -1284,6 +1294,7 @@ class AttestationAt {
      * Set the date naissance.
      *
      * @param DateTime|null $dateNaissance The date naissance.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setDateNaissance(DateTime $dateNaissance = null) {
         $this->dateNaissance = $dateNaissance;
@@ -1294,6 +1305,7 @@ class AttestationAt {
      * Set the dern heure.
      *
      * @param DateTime|null $dernHeure The dern heure.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setDernHeure(DateTime $dernHeure = null) {
         $this->dernHeure = $dernHeure;
@@ -1304,6 +1316,7 @@ class AttestationAt {
      * Set the dern j.
      *
      * @param DateTime|null $dernJ The dern j.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setDernJ(DateTime $dernJ = null) {
         $this->dernJ = $dernJ;
@@ -1314,6 +1327,7 @@ class AttestationAt {
      * Set the embauche.
      *
      * @param DateTime|null $embauche The embauche.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEmbauche(DateTime $embauche = null) {
         $this->embauche = $embauche;
@@ -1324,6 +1338,7 @@ class AttestationAt {
      * Set the emploi.
      *
      * @param string $emploi The emploi.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEmploi($emploi) {
         $this->emploi = $emploi;
@@ -1334,6 +1349,7 @@ class AttestationAt {
      * Set the etbl a adresse1.
      *
      * @param string $etblAAdresse1 The etbl a adresse1.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblAAdresse1($etblAAdresse1) {
         $this->etblAAdresse1 = $etblAAdresse1;
@@ -1344,6 +1360,7 @@ class AttestationAt {
      * Set the etbl a adresse2.
      *
      * @param string $etblAAdresse2 The etbl a adresse2.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblAAdresse2($etblAAdresse2) {
         $this->etblAAdresse2 = $etblAAdresse2;
@@ -1354,6 +1371,7 @@ class AttestationAt {
      * Set the etbl a adresse3.
      *
      * @param string $etblAAdresse3 The etbl a adresse3.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblAAdresse3($etblAAdresse3) {
         $this->etblAAdresse3 = $etblAAdresse3;
@@ -1364,6 +1382,7 @@ class AttestationAt {
      * Set the etbl a tel.
      *
      * @param string $etblATel The etbl a tel.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblATel($etblATel) {
         $this->etblATel = $etblATel;
@@ -1374,6 +1393,7 @@ class AttestationAt {
      * Set the etbl adresse1.
      *
      * @param string $etblAdresse1 The etbl adresse1.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblAdresse1($etblAdresse1) {
         $this->etblAdresse1 = $etblAdresse1;
@@ -1384,6 +1404,7 @@ class AttestationAt {
      * Set the etbl adresse2.
      *
      * @param string $etblAdresse2 The etbl adresse2.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblAdresse2($etblAdresse2) {
         $this->etblAdresse2 = $etblAdresse2;
@@ -1394,6 +1415,7 @@ class AttestationAt {
      * Set the etbl adresse3.
      *
      * @param string $etblAdresse3 The etbl adresse3.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblAdresse3($etblAdresse3) {
         $this->etblAdresse3 = $etblAdresse3;
@@ -1404,6 +1426,7 @@ class AttestationAt {
      * Set the etbl nature activite.
      *
      * @param string $etblNatureActivite The etbl nature activite.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblNatureActivite($etblNatureActivite) {
         $this->etblNatureActivite = $etblNatureActivite;
@@ -1414,6 +1437,7 @@ class AttestationAt {
      * Set the etbl no adherent.
      *
      * @param string $etblNoAdherent The etbl no adherent.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblNoAdherent($etblNoAdherent) {
         $this->etblNoAdherent = $etblNoAdherent;
@@ -1424,6 +1448,7 @@ class AttestationAt {
      * Set the etbl nom prenom.
      *
      * @param string $etblNomPrenom The etbl nom prenom.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblNomPrenom($etblNomPrenom) {
         $this->etblNomPrenom = $etblNomPrenom;
@@ -1434,6 +1459,7 @@ class AttestationAt {
      * Set the etbl raison sociale.
      *
      * @param string $etblRaisonSociale The etbl raison sociale.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblRaisonSociale($etblRaisonSociale) {
         $this->etblRaisonSociale = $etblRaisonSociale;
@@ -1444,6 +1470,7 @@ class AttestationAt {
      * Set the etbl tel.
      *
      * @param string $etblTel The etbl tel.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setEtblTel($etblTel) {
         $this->etblTel = $etblTel;
@@ -1454,6 +1481,7 @@ class AttestationAt {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -1464,6 +1492,7 @@ class AttestationAt {
      * Set the integral.
      *
      * @param bool $integral The integral.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setIntegral($integral) {
         $this->integral = $integral;
@@ -1474,6 +1503,7 @@ class AttestationAt {
      * Set the intitule compte.
      *
      * @param string $intituleCompte The intitule compte.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setIntituleCompte($intituleCompte) {
         $this->intituleCompte = $intituleCompte;
@@ -1484,6 +1514,7 @@ class AttestationAt {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -1494,6 +1525,7 @@ class AttestationAt {
      * Set the lieu naissance.
      *
      * @param string $lieuNaissance The lieu naissance.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setLieuNaissance($lieuNaissance) {
         $this->lieuNaissance = $lieuNaissance;
@@ -1504,6 +1536,7 @@ class AttestationAt {
      * Set the maintien.
      *
      * @param bool $maintien The maintien.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setMaintien($maintien) {
         $this->maintien = $maintien;
@@ -1514,6 +1547,7 @@ class AttestationAt {
      * Set the maladie pro.
      *
      * @param bool $maladiePro The maladie pro.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setMaladiePro($maladiePro) {
         $this->maladiePro = $maladiePro;
@@ -1524,6 +1558,7 @@ class AttestationAt {
      * Set the medecin.
      *
      * @param string $medecin The medecin.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setMedecin($medecin) {
         $this->medecin = $medecin;
@@ -1534,6 +1569,7 @@ class AttestationAt {
      * Set the montant cotis theo.
      *
      * @param float $montantCotisTheo The montant cotis theo.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setMontantCotisTheo($montantCotisTheo) {
         $this->montantCotisTheo = $montantCotisTheo;
@@ -1544,6 +1580,7 @@ class AttestationAt {
      * Set the montant sal theo.
      *
      * @param float $montantSalTheo The montant sal theo.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setMontantSalTheo($montantSalTheo) {
         $this->montantSalTheo = $montantSalTheo;
@@ -1554,6 +1591,7 @@ class AttestationAt {
      * Set the nationalite autre.
      *
      * @param bool $nationaliteAutre The nationalite autre.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNationaliteAutre($nationaliteAutre) {
         $this->nationaliteAutre = $nationaliteAutre;
@@ -1564,6 +1602,7 @@ class AttestationAt {
      * Set the nationalite cee.
      *
      * @param bool $nationaliteCee The nationalite cee.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNationaliteCee($nationaliteCee) {
         $this->nationaliteCee = $nationaliteCee;
@@ -1574,6 +1613,7 @@ class AttestationAt {
      * Set the nationalite fr.
      *
      * @param bool $nationaliteFr The nationalite fr.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNationaliteFr($nationaliteFr) {
         $this->nationaliteFr = $nationaliteFr;
@@ -1584,6 +1624,7 @@ class AttestationAt {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -1594,6 +1635,7 @@ class AttestationAt {
      * Set the nom employe.
      *
      * @param string $nomEmploye The nom employe.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNomEmploye($nomEmploye) {
         $this->nomEmploye = $nomEmploye;
@@ -1604,6 +1646,7 @@ class AttestationAt {
      * Set the nom marital.
      *
      * @param string $nomMarital The nom marital.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNomMarital($nomMarital) {
         $this->nomMarital = $nomMarital;
@@ -1614,6 +1657,7 @@ class AttestationAt {
      * Set the non repris.
      *
      * @param bool $nonRepris The non repris.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNonRepris($nonRepris) {
         $this->nonRepris = $nonRepris;
@@ -1624,6 +1668,7 @@ class AttestationAt {
      * Set the num contrat.
      *
      * @param string $numContrat The num contrat.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNumContrat($numContrat) {
         $this->numContrat = $numContrat;
@@ -1634,6 +1679,7 @@ class AttestationAt {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -1644,6 +1690,7 @@ class AttestationAt {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -1654,6 +1701,7 @@ class AttestationAt {
      * Set the partiel.
      *
      * @param bool $partiel The partiel.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPartiel($partiel) {
         $this->partiel = $partiel;
@@ -1664,6 +1712,7 @@ class AttestationAt {
      * Set the per reference au.
      *
      * @param DateTime|null $perReferenceAu The per reference au.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPerReferenceAu(DateTime $perReferenceAu = null) {
         $this->perReferenceAu = $perReferenceAu;
@@ -1674,6 +1723,7 @@ class AttestationAt {
      * Set the per reference cotisations.
      *
      * @param float $perReferenceCotisations The per reference cotisations.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPerReferenceCotisations($perReferenceCotisations) {
         $this->perReferenceCotisations = $perReferenceCotisations;
@@ -1684,6 +1734,7 @@ class AttestationAt {
      * Set the per reference du.
      *
      * @param DateTime|null $perReferenceDu The per reference du.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPerReferenceDu(DateTime $perReferenceDu = null) {
         $this->perReferenceDu = $perReferenceDu;
@@ -1694,6 +1745,7 @@ class AttestationAt {
      * Set the per reference montant.
      *
      * @param float $perReferenceMontant The per reference montant.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPerReferenceMontant($perReferenceMontant) {
         $this->perReferenceMontant = $perReferenceMontant;
@@ -1704,6 +1756,7 @@ class AttestationAt {
      * Set the per reference nb heures.
      *
      * @param float $perReferenceNbHeures The per reference nb heures.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPerReferenceNbHeures($perReferenceNbHeures) {
         $this->perReferenceNbHeures = $perReferenceNbHeures;
@@ -1714,6 +1767,7 @@ class AttestationAt {
      * Set the per reference salaires.
      *
      * @param float $perReferenceSalaires The per reference salaires.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPerReferenceSalaires($perReferenceSalaires) {
         $this->perReferenceSalaires = $perReferenceSalaires;
@@ -1724,6 +1778,7 @@ class AttestationAt {
      * Set the periode subr au.
      *
      * @param DateTime|null $periodeSubrAu The periode subr au.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPeriodeSubrAu(DateTime $periodeSubrAu = null) {
         $this->periodeSubrAu = $periodeSubrAu;
@@ -1734,6 +1789,7 @@ class AttestationAt {
      * Set the periode subr du.
      *
      * @param DateTime|null $periodeSubrDu The periode subr du.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPeriodeSubrDu(DateTime $periodeSubrDu = null) {
         $this->periodeSubrDu = $periodeSubrDu;
@@ -1744,6 +1800,7 @@ class AttestationAt {
      * Set the prenom employe.
      *
      * @param string $prenomEmploye The prenom employe.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setPrenomEmploye($prenomEmploye) {
         $this->prenomEmploye = $prenomEmploye;
@@ -1754,6 +1811,7 @@ class AttestationAt {
      * Set the qualification.
      *
      * @param string $qualification The qualification.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setQualification($qualification) {
         $this->qualification = $qualification;
@@ -1764,6 +1822,7 @@ class AttestationAt {
      * Set the reprise.
      *
      * @param DateTime|null $reprise The reprise.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setReprise(DateTime $reprise = null) {
         $this->reprise = $reprise;
@@ -1774,6 +1833,7 @@ class AttestationAt {
      * Set the risque at.
      *
      * @param string $risqueAt The risque at.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setRisqueAt($risqueAt) {
         $this->risqueAt = $risqueAt;
@@ -1784,6 +1844,7 @@ class AttestationAt {
      * Set the salaire mini.
      *
      * @param float $salaireMini The salaire mini.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSalaireMini($salaireMini) {
         $this->salaireMini = $salaireMini;
@@ -1794,6 +1855,7 @@ class AttestationAt {
      * Set the sexe.
      *
      * @param string $sexe The sexe.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSexe($sexe) {
         $this->sexe = $sexe;
@@ -1804,6 +1866,7 @@ class AttestationAt {
      * Set the signature date.
      *
      * @param DateTime|null $signatureDate The signature date.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSignatureDate(DateTime $signatureDate = null) {
         $this->signatureDate = $signatureDate;
@@ -1814,6 +1877,7 @@ class AttestationAt {
      * Set the signature nom.
      *
      * @param string $signatureNom The signature nom.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSignatureNom($signatureNom) {
         $this->signatureNom = $signatureNom;
@@ -1824,6 +1888,7 @@ class AttestationAt {
      * Set the signature qualite.
      *
      * @param string $signatureQualite The signature qualite.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSignatureQualite($signatureQualite) {
         $this->signatureQualite = $signatureQualite;
@@ -1834,6 +1899,7 @@ class AttestationAt {
      * Set the signature ville.
      *
      * @param string $signatureVille The signature ville.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSignatureVille($signatureVille) {
         $this->signatureVille = $signatureVille;
@@ -1844,6 +1910,7 @@ class AttestationAt {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -1854,6 +1921,7 @@ class AttestationAt {
      * Set the sub integral.
      *
      * @param bool $subIntegral The sub integral.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSubIntegral($subIntegral) {
         $this->subIntegral = $subIntegral;
@@ -1864,6 +1932,7 @@ class AttestationAt {
      * Set the sub partiel.
      *
      * @param bool $subPartiel The sub partiel.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSubPartiel($subPartiel) {
         $this->subPartiel = $subPartiel;
@@ -1874,6 +1943,7 @@ class AttestationAt {
      * Set the subrogation duree max.
      *
      * @param string $subrogationDureeMax The subrogation duree max.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSubrogationDureeMax($subrogationDureeMax) {
         $this->subrogationDureeMax = $subrogationDureeMax;
@@ -1884,6 +1954,7 @@ class AttestationAt {
      * Set the subrogation montant.
      *
      * @param float $subrogationMontant The subrogation montant.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setSubrogationMontant($subrogationMontant) {
         $this->subrogationMontant = $subrogationMontant;
@@ -1894,6 +1965,7 @@ class AttestationAt {
      * Set the type attestation.
      *
      * @param string $typeAttestation The type attestation.
+     * @return AttestationAt Returns this Attestation at.
      */
     public function setTypeAttestation($typeAttestation) {
         $this->typeAttestation = $typeAttestation;

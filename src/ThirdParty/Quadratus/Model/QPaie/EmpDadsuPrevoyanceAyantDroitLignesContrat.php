@@ -160,6 +160,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      * Set the code option.
      *
      * @param string $codeOption The code option.
+     * @return EmpDadsuPrevoyanceAyantDroitLignesContrat Returns this Emp dadsu prevoyance ayant droit lignes contrat.
      */
     public function setCodeOption($codeOption) {
         $this->codeOption = $codeOption;
@@ -170,6 +171,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return EmpDadsuPrevoyanceAyantDroitLignesContrat Returns this Emp dadsu prevoyance ayant droit lignes contrat.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -180,6 +182,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      * Set the code population.
      *
      * @param string $codePopulation The code population.
+     * @return EmpDadsuPrevoyanceAyantDroitLignesContrat Returns this Emp dadsu prevoyance ayant droit lignes contrat.
      */
     public function setCodePopulation($codePopulation) {
         $this->codePopulation = $codePopulation;
@@ -190,6 +193,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      * Set the debut periode.
      *
      * @param DateTime|null $debutPeriode The debut periode.
+     * @return EmpDadsuPrevoyanceAyantDroitLignesContrat Returns this Emp dadsu prevoyance ayant droit lignes contrat.
      */
     public function setDebutPeriode(DateTime $debutPeriode = null) {
         $this->debutPeriode = $debutPeriode;
@@ -200,6 +204,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      * Set the fin periode.
      *
      * @param DateTime|null $finPeriode The fin periode.
+     * @return EmpDadsuPrevoyanceAyantDroitLignesContrat Returns this Emp dadsu prevoyance ayant droit lignes contrat.
      */
     public function setFinPeriode(DateTime $finPeriode = null) {
         $this->finPeriode = $finPeriode;
@@ -210,6 +215,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      * Set the numero ayant droit.
      *
      * @param int $numeroAyantDroit The numero ayant droit.
+     * @return EmpDadsuPrevoyanceAyantDroitLignesContrat Returns this Emp dadsu prevoyance ayant droit lignes contrat.
      */
     public function setNumeroAyantDroit($numeroAyantDroit) {
         $this->numeroAyantDroit = $numeroAyantDroit;
@@ -220,6 +226,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return EmpDadsuPrevoyanceAyantDroitLignesContrat Returns this Emp dadsu prevoyance ayant droit lignes contrat.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -230,6 +237,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      * Set the ref contrat.
      *
      * @param string $refContrat The ref contrat.
+     * @return EmpDadsuPrevoyanceAyantDroitLignesContrat Returns this Emp dadsu prevoyance ayant droit lignes contrat.
      */
     public function setRefContrat($refContrat) {
         $this->refContrat = $refContrat;

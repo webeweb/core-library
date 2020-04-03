@@ -208,6 +208,7 @@ class PrepaPaieRepos {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -218,6 +219,7 @@ class PrepaPaieRepos {
      * Set the cp pris.
      *
      * @param float $cpPris The cp pris.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setCpPris($cpPris) {
         $this->cpPris = $cpPris;
@@ -228,6 +230,7 @@ class PrepaPaieRepos {
      * Set the h effectives.
      *
      * @param float $hEffectives The h effectives.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setHEffectives($hEffectives) {
         $this->hEffectives = $hEffectives;
@@ -238,6 +241,7 @@ class PrepaPaieRepos {
      * Set the h prevues.
      *
      * @param float $hPrevues The h prevues.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setHPrevues($hPrevues) {
         $this->hPrevues = $hPrevues;
@@ -248,6 +252,7 @@ class PrepaPaieRepos {
      * Set the h realisees.
      *
      * @param float $hRealisees The h realisees.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setHRealisees($hRealisees) {
         $this->hRealisees = $hRealisees;
@@ -258,6 +263,7 @@ class PrepaPaieRepos {
      * Set the num sem.
      *
      * @param string $numSem The num sem.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setNumSem($numSem) {
         $this->numSem = $numSem;
@@ -268,6 +274,7 @@ class PrepaPaieRepos {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -278,6 +285,7 @@ class PrepaPaieRepos {
      * Set the repos comp acquis.
      *
      * @param float $reposCompAcquis The repos comp acquis.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setReposCompAcquis($reposCompAcquis) {
         $this->reposCompAcquis = $reposCompAcquis;
@@ -288,6 +296,7 @@ class PrepaPaieRepos {
      * Set the repos comp pris.
      *
      * @param float $reposCompPris The repos comp pris.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setReposCompPris($reposCompPris) {
         $this->reposCompPris = $reposCompPris;
@@ -298,6 +307,7 @@ class PrepaPaieRepos {
      * Set the repos rempl acquis.
      *
      * @param float $reposRemplAcquis The repos rempl acquis.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setReposRemplAcquis($reposRemplAcquis) {
         $this->reposRemplAcquis = $reposRemplAcquis;
@@ -308,6 +318,7 @@ class PrepaPaieRepos {
      * Set the repos rempl pris.
      *
      * @param float $reposRemplPris The repos rempl pris.
+     * @return PrepaPaieRepos Returns this Prepa paie repos.
      */
     public function setReposRemplPris($reposRemplPris) {
         $this->reposRemplPris = $reposRemplPris;

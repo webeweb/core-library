@@ -352,6 +352,7 @@ class PlansDePaie {
      * Set the code pro lib.
      *
      * @param string $codeProLib The code pro lib.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setCodeProLib($codeProLib) {
         $this->codeProLib = $codeProLib;
@@ -362,6 +363,7 @@ class PlansDePaie {
      * Set the deb per application.
      *
      * @param DateTime|null $debPerApplication The deb per application.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setDebPerApplication(DateTime $debPerApplication = null) {
         $this->debPerApplication = $debPerApplication;
@@ -372,6 +374,7 @@ class PlansDePaie {
      * Set the fin per application.
      *
      * @param DateTime|null $finPerApplication The fin per application.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFinPerApplication(DateTime $finPerApplication = null) {
         $this->finPerApplication = $finPerApplication;
@@ -382,6 +385,7 @@ class PlansDePaie {
      * Set the freq1.
      *
      * @param string $freq1 The freq1.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq1($freq1) {
         $this->freq1 = $freq1;
@@ -392,6 +396,7 @@ class PlansDePaie {
      * Set the freq10.
      *
      * @param string $freq10 The freq10.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq10($freq10) {
         $this->freq10 = $freq10;
@@ -402,6 +407,7 @@ class PlansDePaie {
      * Set the freq11.
      *
      * @param string $freq11 The freq11.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq11($freq11) {
         $this->freq11 = $freq11;
@@ -412,6 +418,7 @@ class PlansDePaie {
      * Set the freq12.
      *
      * @param string $freq12 The freq12.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq12($freq12) {
         $this->freq12 = $freq12;
@@ -422,6 +429,7 @@ class PlansDePaie {
      * Set the freq2.
      *
      * @param string $freq2 The freq2.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq2($freq2) {
         $this->freq2 = $freq2;
@@ -432,6 +440,7 @@ class PlansDePaie {
      * Set the freq3.
      *
      * @param string $freq3 The freq3.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq3($freq3) {
         $this->freq3 = $freq3;
@@ -442,6 +451,7 @@ class PlansDePaie {
      * Set the freq4.
      *
      * @param string $freq4 The freq4.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq4($freq4) {
         $this->freq4 = $freq4;
@@ -452,6 +462,7 @@ class PlansDePaie {
      * Set the freq5.
      *
      * @param string $freq5 The freq5.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq5($freq5) {
         $this->freq5 = $freq5;
@@ -462,6 +473,7 @@ class PlansDePaie {
      * Set the freq6.
      *
      * @param string $freq6 The freq6.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq6($freq6) {
         $this->freq6 = $freq6;
@@ -472,6 +484,7 @@ class PlansDePaie {
      * Set the freq7.
      *
      * @param string $freq7 The freq7.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq7($freq7) {
         $this->freq7 = $freq7;
@@ -482,6 +495,7 @@ class PlansDePaie {
      * Set the freq8.
      *
      * @param string $freq8 The freq8.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq8($freq8) {
         $this->freq8 = $freq8;
@@ -492,6 +506,7 @@ class PlansDePaie {
      * Set the freq9.
      *
      * @param string $freq9 The freq9.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setFreq9($freq9) {
         $this->freq9 = $freq9;
@@ -502,6 +517,7 @@ class PlansDePaie {
      * Set the num ligne plan.
      *
      * @param int $numLignePlan The num ligne plan.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setNumLignePlan($numLignePlan) {
         $this->numLignePlan = $numLignePlan;
@@ -512,6 +528,7 @@ class PlansDePaie {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -522,6 +539,7 @@ class PlansDePaie {
      * Set the profil ou libelle.
      *
      * @param string $profilOuLibelle The profil ou libelle.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setProfilOuLibelle($profilOuLibelle) {
         $this->profilOuLibelle = $profilOuLibelle;
@@ -532,6 +550,7 @@ class PlansDePaie {
      * Set the type bens.
      *
      * @param string $typeBens The type bens.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setTypeBens($typeBens) {
         $this->typeBens = $typeBens;
@@ -542,6 +561,7 @@ class PlansDePaie {
      * Set the type commentaire.
      *
      * @param bool $typeCommentaire The type commentaire.
+     * @return PlansDePaie Returns this Plans de paie.
      */
     public function setTypeCommentaire($typeCommentaire) {
         $this->typeCommentaire = $typeCommentaire;

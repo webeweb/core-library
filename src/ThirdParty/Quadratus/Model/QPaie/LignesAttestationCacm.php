@@ -208,6 +208,7 @@ class LignesAttestationCacm {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -218,6 +219,7 @@ class LignesAttestationCacm {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -228,6 +230,7 @@ class LignesAttestationCacm {
      * Set the date paiement.
      *
      * @param DateTime|null $datePaiement The date paiement.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setDatePaiement(DateTime $datePaiement = null) {
         $this->datePaiement = $datePaiement;
@@ -238,6 +241,7 @@ class LignesAttestationCacm {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -248,6 +252,7 @@ class LignesAttestationCacm {
      * Set the montant precompte.
      *
      * @param float $montantPrecompte The montant precompte.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setMontantPrecompte($montantPrecompte) {
         $this->montantPrecompte = $montantPrecompte;
@@ -258,6 +263,7 @@ class LignesAttestationCacm {
      * Set the nb heure trav.
      *
      * @param float $nbHeureTrav The nb heure trav.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setNbHeureTrav($nbHeureTrav) {
         $this->nbHeureTrav = $nbHeureTrav;
@@ -268,6 +274,7 @@ class LignesAttestationCacm {
      * Set the nb jour trav.
      *
      * @param float $nbJourTrav The nb jour trav.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setNbJourTrav($nbJourTrav) {
         $this->nbJourTrav = $nbJourTrav;
@@ -278,6 +285,7 @@ class LignesAttestationCacm {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -288,6 +296,7 @@ class LignesAttestationCacm {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -298,6 +307,7 @@ class LignesAttestationCacm {
      * Set the salaire brut.
      *
      * @param float $salaireBrut The salaire brut.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setSalaireBrut($salaireBrut) {
         $this->salaireBrut = $salaireBrut;
@@ -308,6 +318,7 @@ class LignesAttestationCacm {
      * Set the type ligne.
      *
      * @param int $typeLigne The type ligne.
+     * @return LignesAttestationCacm Returns this Lignes attestation cacm.
      */
     public function setTypeLigne($typeLigne) {
         $this->typeLigne = $typeLigne;

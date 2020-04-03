@@ -144,6 +144,7 @@ class Dirigeants {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return Dirigeants Returns this Dirigeants.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -154,6 +155,7 @@ class Dirigeants {
      * Set the code dirigeant.
      *
      * @param string $codeDirigeant The code dirigeant.
+     * @return Dirigeants Returns this Dirigeants.
      */
     public function setCodeDirigeant($codeDirigeant) {
         $this->codeDirigeant = $codeDirigeant;
@@ -164,6 +166,7 @@ class Dirigeants {
      * Set the code fonction.
      *
      * @param string $codeFonction The code fonction.
+     * @return Dirigeants Returns this Dirigeants.
      */
     public function setCodeFonction($codeFonction) {
         $this->codeFonction = $codeFonction;
@@ -174,6 +177,7 @@ class Dirigeants {
      * Set the date nomination.
      *
      * @param DateTime|null $dateNomination The date nomination.
+     * @return Dirigeants Returns this Dirigeants.
      */
     public function setDateNomination(DateTime $dateNomination = null) {
         $this->dateNomination = $dateNomination;
@@ -184,6 +188,7 @@ class Dirigeants {
      * Set the duree.
      *
      * @param int $duree The duree.
+     * @return Dirigeants Returns this Dirigeants.
      */
     public function setDuree($duree) {
         $this->duree = $duree;
@@ -194,6 +199,7 @@ class Dirigeants {
      * Set the id.
      *
      * @param int $id The id.
+     * @return Dirigeants Returns this Dirigeants.
      */
     public function setId($id) {
         $this->id = $id;
@@ -204,6 +210,7 @@ class Dirigeants {
      * Set the observations.
      *
      * @param string $observations The observations.
+     * @return Dirigeants Returns this Dirigeants.
      */
     public function setObservations($observations) {
         $this->observations = $observations;

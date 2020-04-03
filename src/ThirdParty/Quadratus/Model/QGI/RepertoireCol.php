@@ -432,6 +432,7 @@ class RepertoireCol {
      * Set the adresse1.
      *
      * @param string $adresse1 The adresse1.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setAdresse1($adresse1) {
         $this->adresse1 = $adresse1;
@@ -442,6 +443,7 @@ class RepertoireCol {
      * Set the adresse2.
      *
      * @param string $adresse2 The adresse2.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setAdresse2($adresse2) {
         $this->adresse2 = $adresse2;
@@ -452,6 +454,7 @@ class RepertoireCol {
      * Set the adresse3.
      *
      * @param string $adresse3 The adresse3.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setAdresse3($adresse3) {
         $this->adresse3 = $adresse3;
@@ -462,6 +465,7 @@ class RepertoireCol {
      * Set the code.
      *
      * @param string $code The code.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -472,6 +476,7 @@ class RepertoireCol {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -482,6 +487,7 @@ class RepertoireCol {
      * Set the code comp.
      *
      * @param string $codeComp The code comp.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setCodeComp($codeComp) {
         $this->codeComp = $codeComp;
@@ -492,6 +498,7 @@ class RepertoireCol {
      * Set the coll modif.
      *
      * @param string $collModif The coll modif.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setCollModif($collModif) {
         $this->collModif = $collModif;
@@ -502,6 +509,7 @@ class RepertoireCol {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -512,6 +520,7 @@ class RepertoireCol {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -522,6 +531,7 @@ class RepertoireCol {
      * Set the email.
      *
      * @param string $email The email.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -532,6 +542,7 @@ class RepertoireCol {
      * Set the email2.
      *
      * @param string $email2 The email2.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setEmail2($email2) {
         $this->email2 = $email2;
@@ -542,6 +553,7 @@ class RepertoireCol {
      * Set the flag tel.
      *
      * @param string $flagTel The flag tel.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setFlagTel($flagTel) {
         $this->flagTel = $flagTel;
@@ -552,6 +564,7 @@ class RepertoireCol {
      * Set the flag tel2.
      *
      * @param string $flagTel2 The flag tel2.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setFlagTel2($flagTel2) {
         $this->flagTel2 = $flagTel2;
@@ -562,6 +575,7 @@ class RepertoireCol {
      * Set the flag tel3.
      *
      * @param string $flagTel3 The flag tel3.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setFlagTel3($flagTel3) {
         $this->flagTel3 = $flagTel3;
@@ -572,6 +586,7 @@ class RepertoireCol {
      * Set the flag tel4.
      *
      * @param string $flagTel4 The flag tel4.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setFlagTel4($flagTel4) {
         $this->flagTel4 = $flagTel4;
@@ -582,6 +597,7 @@ class RepertoireCol {
      * Set the ldap ads path.
      *
      * @param string $ldapAdsPath The ldap ads path.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setLdapAdsPath($ldapAdsPath) {
         $this->ldapAdsPath = $ldapAdsPath;
@@ -592,6 +608,7 @@ class RepertoireCol {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -602,6 +619,7 @@ class RepertoireCol {
      * Set the num sous rep.
      *
      * @param int $numSousRep The num sous rep.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setNumSousRep($numSousRep) {
         $this->numSousRep = $numSousRep;
@@ -612,6 +630,7 @@ class RepertoireCol {
      * Set the num uniq.
      *
      * @param int $numUniq The num uniq.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;
@@ -622,6 +641,7 @@ class RepertoireCol {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -632,6 +652,7 @@ class RepertoireCol {
      * Set the tel.
      *
      * @param string $tel The tel.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setTel($tel) {
         $this->tel = $tel;
@@ -642,6 +663,7 @@ class RepertoireCol {
      * Set the tel2.
      *
      * @param string $tel2 The tel2.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setTel2($tel2) {
         $this->tel2 = $tel2;
@@ -652,6 +674,7 @@ class RepertoireCol {
      * Set the tel3.
      *
      * @param string $tel3 The tel3.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setTel3($tel3) {
         $this->tel3 = $tel3;
@@ -662,6 +685,7 @@ class RepertoireCol {
      * Set the tel4.
      *
      * @param string $tel4 The tel4.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setTel4($tel4) {
         $this->tel4 = $tel4;
@@ -672,6 +696,7 @@ class RepertoireCol {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return RepertoireCol Returns this Repertoire col.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

@@ -272,6 +272,7 @@ class ClientsLstPerso {
      * Set the chapitre.
      *
      * @param string $chapitre The chapitre.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setChapitre($chapitre) {
         $this->chapitre = $chapitre;
@@ -282,6 +283,7 @@ class ClientsLstPerso {
      * Set the coll creat.
      *
      * @param string $collCreat The coll creat.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setCollCreat($collCreat) {
         $this->collCreat = $collCreat;
@@ -292,6 +294,7 @@ class ClientsLstPerso {
      * Set the coll modif.
      *
      * @param string $collModif The coll modif.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setCollModif($collModif) {
         $this->collModif = $collModif;
@@ -302,6 +305,7 @@ class ClientsLstPerso {
      * Set the date creat.
      *
      * @param DateTime|null $dateCreat The date creat.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setDateCreat(DateTime $dateCreat = null) {
         $this->dateCreat = $dateCreat;
@@ -312,6 +316,7 @@ class ClientsLstPerso {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -322,6 +327,7 @@ class ClientsLstPerso {
      * Set the description.
      *
      * @param string $description The description.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setDescription($description) {
         $this->description = $description;
@@ -332,6 +338,7 @@ class ClientsLstPerso {
      * Set the g uniq id.
      *
      * @param string $gUniqId The g uniq id.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setGUniqId($gUniqId) {
         $this->gUniqId = $gUniqId;
@@ -342,6 +349,7 @@ class ClientsLstPerso {
      * Set the indice.
      *
      * @param int $indice The indice.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setIndice($indice) {
         $this->indice = $indice;
@@ -352,6 +360,7 @@ class ClientsLstPerso {
      * Set the lst collab.
      *
      * @param string $lstCollab The lst collab.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setLstCollab($lstCollab) {
         $this->lstCollab = $lstCollab;
@@ -362,6 +371,7 @@ class ClientsLstPerso {
      * Set the option visu.
      *
      * @param string $optionVisu The option visu.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setOptionVisu($optionVisu) {
         $this->optionVisu = $optionVisu;
@@ -372,6 +382,7 @@ class ClientsLstPerso {
      * Set the origine.
      *
      * @param int $origine The origine.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setOrigine($origine) {
         $this->origine = $origine;
@@ -382,6 +393,7 @@ class ClientsLstPerso {
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setPeriodeDeb(DateTime $periodeDeb = null) {
         $this->periodeDeb = $periodeDeb;
@@ -392,6 +404,7 @@ class ClientsLstPerso {
      * Set the periode fin.
      *
      * @param DateTime|null $periodeFin The periode fin.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setPeriodeFin(DateTime $periodeFin = null) {
         $this->periodeFin = $periodeFin;
@@ -402,6 +415,7 @@ class ClientsLstPerso {
      * Set the type saisie.
      *
      * @param bool $typeSaisie The type saisie.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setTypeSaisie($typeSaisie) {
         $this->typeSaisie = $typeSaisie;
@@ -412,6 +426,7 @@ class ClientsLstPerso {
      * Set the type sel.
      *
      * @param string $typeSel The type sel.
+     * @return ClientsLstPerso Returns this Clients lst perso.
      */
     public function setTypeSel($typeSel) {
         $this->typeSel = $typeSel;

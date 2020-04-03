@@ -126,6 +126,7 @@ class TempsPrevisionnels {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -136,6 +137,7 @@ class TempsPrevisionnels {
      * Set the code avenant.
      *
      * @param string $codeAvenant The code avenant.
+     * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
     public function setCodeAvenant($codeAvenant) {
         $this->codeAvenant = $codeAvenant;
@@ -146,6 +148,7 @@ class TempsPrevisionnels {
      * Set the code phase.
      *
      * @param string $codePhase The code phase.
+     * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
     public function setCodePhase($codePhase) {
         $this->codePhase = $codePhase;
@@ -156,6 +159,7 @@ class TempsPrevisionnels {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -166,6 +170,7 @@ class TempsPrevisionnels {
      * Set the cout horaire.
      *
      * @param float $coutHoraire The cout horaire.
+     * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
     public function setCoutHoraire($coutHoraire) {
         $this->coutHoraire = $coutHoraire;
@@ -176,6 +181,7 @@ class TempsPrevisionnels {
      * Set the nb heures.
      *
      * @param float $nbHeures The nb heures.
+     * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
     public function setNbHeures($nbHeures) {
         $this->nbHeures = $nbHeures;

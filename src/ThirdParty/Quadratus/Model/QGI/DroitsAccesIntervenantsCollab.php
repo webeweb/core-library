@@ -78,6 +78,7 @@ class DroitsAccesIntervenantsCollab {
      * Set the acces libre.
      *
      * @param bool $accesLibre The acces libre.
+     * @return DroitsAccesIntervenantsCollab Returns this Droits acces intervenants collab.
      */
     public function setAccesLibre($accesLibre) {
         $this->accesLibre = $accesLibre;
@@ -88,6 +89,7 @@ class DroitsAccesIntervenantsCollab {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return DroitsAccesIntervenantsCollab Returns this Droits acces intervenants collab.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -98,6 +100,7 @@ class DroitsAccesIntervenantsCollab {
      * Set the type intervenant.
      *
      * @param string $typeIntervenant The type intervenant.
+     * @return DroitsAccesIntervenantsCollab Returns this Droits acces intervenants collab.
      */
     public function setTypeIntervenant($typeIntervenant) {
         $this->typeIntervenant = $typeIntervenant;

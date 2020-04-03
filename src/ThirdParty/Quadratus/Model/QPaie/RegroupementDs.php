@@ -94,6 +94,7 @@ class RegroupementDs {
      * Set the code rds.
      *
      * @param string $codeRds The code rds.
+     * @return RegroupementDs Returns this Regroupement ds.
      */
     public function setCodeRds($codeRds) {
         $this->codeRds = $codeRds;
@@ -104,6 +105,7 @@ class RegroupementDs {
      * Set the code rupture.
      *
      * @param string $codeRupture The code rupture.
+     * @return RegroupementDs Returns this Regroupement ds.
      */
     public function setCodeRupture($codeRupture) {
         $this->codeRupture = $codeRupture;
@@ -114,6 +116,7 @@ class RegroupementDs {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return RegroupementDs Returns this Regroupement ds.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -124,6 +127,7 @@ class RegroupementDs {
      * Set the organisme.
      *
      * @param string $organisme The organisme.
+     * @return RegroupementDs Returns this Regroupement ds.
      */
     public function setOrganisme($organisme) {
         $this->organisme = $organisme;

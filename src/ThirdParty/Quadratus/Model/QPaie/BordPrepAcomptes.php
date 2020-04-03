@@ -144,6 +144,7 @@ class BordPrepAcomptes {
      * Set the date.
      *
      * @param DateTime|null $date The date.
+     * @return BordPrepAcomptes Returns this Bord prep acomptes.
      */
     public function setDate(DateTime $date = null) {
         $this->date = $date;
@@ -154,6 +155,7 @@ class BordPrepAcomptes {
      * Set the id.
      *
      * @param int $id The id.
+     * @return BordPrepAcomptes Returns this Bord prep acomptes.
      */
     public function setId($id) {
         $this->id = $id;
@@ -164,6 +166,7 @@ class BordPrepAcomptes {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return BordPrepAcomptes Returns this Bord prep acomptes.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -174,6 +177,7 @@ class BordPrepAcomptes {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return BordPrepAcomptes Returns this Bord prep acomptes.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -184,6 +188,7 @@ class BordPrepAcomptes {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return BordPrepAcomptes Returns this Bord prep acomptes.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -194,6 +199,7 @@ class BordPrepAcomptes {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return BordPrepAcomptes Returns this Bord prep acomptes.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -204,6 +210,7 @@ class BordPrepAcomptes {
      * Set the type paiement.
      *
      * @param string $typePaiement The type paiement.
+     * @return BordPrepAcomptes Returns this Bord prep acomptes.
      */
     public function setTypePaiement($typePaiement) {
         $this->typePaiement = $typePaiement;

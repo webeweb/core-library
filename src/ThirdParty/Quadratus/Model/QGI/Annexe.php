@@ -256,6 +256,7 @@ class Annexe {
      * Set the code1.
      *
      * @param string $code1 The code1.
+     * @return Annexe Returns this Annexe.
      */
     public function setCode1($code1) {
         $this->code1 = $code1;
@@ -266,6 +267,7 @@ class Annexe {
      * Set the code2.
      *
      * @param string $code2 The code2.
+     * @return Annexe Returns this Annexe.
      */
     public function setCode2($code2) {
         $this->code2 = $code2;
@@ -276,6 +278,7 @@ class Annexe {
      * Set the date1.
      *
      * @param DateTime|null $date1 The date1.
+     * @return Annexe Returns this Annexe.
      */
     public function setDate1(DateTime $date1 = null) {
         $this->date1 = $date1;
@@ -286,6 +289,7 @@ class Annexe {
      * Set the date2.
      *
      * @param DateTime|null $date2 The date2.
+     * @return Annexe Returns this Annexe.
      */
     public function setDate2(DateTime $date2 = null) {
         $this->date2 = $date2;
@@ -296,6 +300,7 @@ class Annexe {
      * Set the double1.
      *
      * @param float $double1 The double1.
+     * @return Annexe Returns this Annexe.
      */
     public function setDouble1($double1) {
         $this->double1 = $double1;
@@ -306,6 +311,7 @@ class Annexe {
      * Set the double2.
      *
      * @param float $double2 The double2.
+     * @return Annexe Returns this Annexe.
      */
     public function setDouble2($double2) {
         $this->double2 = $double2;
@@ -316,6 +322,7 @@ class Annexe {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return Annexe Returns this Annexe.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -326,6 +333,7 @@ class Annexe {
      * Set the texte1.
      *
      * @param string $texte1 The texte1.
+     * @return Annexe Returns this Annexe.
      */
     public function setTexte1($texte1) {
         $this->texte1 = $texte1;
@@ -336,6 +344,7 @@ class Annexe {
      * Set the texte2.
      *
      * @param string $texte2 The texte2.
+     * @return Annexe Returns this Annexe.
      */
     public function setTexte2($texte2) {
         $this->texte2 = $texte2;
@@ -346,6 +355,7 @@ class Annexe {
      * Set the texte3.
      *
      * @param string $texte3 The texte3.
+     * @return Annexe Returns this Annexe.
      */
     public function setTexte3($texte3) {
         $this->texte3 = $texte3;
@@ -356,6 +366,7 @@ class Annexe {
      * Set the texte4.
      *
      * @param string $texte4 The texte4.
+     * @return Annexe Returns this Annexe.
      */
     public function setTexte4($texte4) {
         $this->texte4 = $texte4;
@@ -366,6 +377,7 @@ class Annexe {
      * Set the texte5.
      *
      * @param string $texte5 The texte5.
+     * @return Annexe Returns this Annexe.
      */
     public function setTexte5($texte5) {
         $this->texte5 = $texte5;
@@ -376,6 +388,7 @@ class Annexe {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Annexe Returns this Annexe.
      */
     public function setType($type) {
         $this->type = $type;
@@ -386,6 +399,7 @@ class Annexe {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return Annexe Returns this Annexe.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

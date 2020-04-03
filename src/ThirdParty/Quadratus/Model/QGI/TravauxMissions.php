@@ -254,6 +254,7 @@ class TravauxMissions {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -264,6 +265,7 @@ class TravauxMissions {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -274,6 +276,7 @@ class TravauxMissions {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -284,6 +287,7 @@ class TravauxMissions {
      * Set the code travail.
      *
      * @param string $codeTravail The code travail.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setCodeTravail($codeTravail) {
         $this->codeTravail = $codeTravail;
@@ -294,6 +298,7 @@ class TravauxMissions {
      * Set the declaration a rediger.
      *
      * @param bool $declarationARediger The declaration a rediger.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setDeclarationARediger($declarationARediger) {
         $this->declarationARediger = $declarationARediger;
@@ -304,6 +309,7 @@ class TravauxMissions {
      * Set the frequence.
      *
      * @param string $frequence The frequence.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setFrequence($frequence) {
         $this->frequence = $frequence;
@@ -314,6 +320,7 @@ class TravauxMissions {
      * Set the jour.
      *
      * @param int $jour The jour.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setJour($jour) {
         $this->jour = $jour;
@@ -324,6 +331,7 @@ class TravauxMissions {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -334,6 +342,7 @@ class TravauxMissions {
      * Set the missions.
      *
      * @param string $missions The missions.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setMissions($missions) {
         $this->missions = $missions;
@@ -344,6 +353,7 @@ class TravauxMissions {
      * Set the nb uo.
      *
      * @param float $nbUo The nb uo.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setNbUo($nbUo) {
         $this->nbUo = $nbUo;
@@ -354,6 +364,7 @@ class TravauxMissions {
      * Set the ne pas editer.
      *
      * @param bool $nePasEditer The ne pas editer.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setNePasEditer($nePasEditer) {
         $this->nePasEditer = $nePasEditer;
@@ -364,6 +375,7 @@ class TravauxMissions {
      * Set the niveau.
      *
      * @param int $niveau The niveau.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -374,6 +386,7 @@ class TravauxMissions {
      * Set the realise par.
      *
      * @param string $realisePar The realise par.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setRealisePar($realisePar) {
         $this->realisePar = $realisePar;
@@ -384,6 +397,7 @@ class TravauxMissions {
      * Set the type affectation.
      *
      * @param string $typeAffectation The type affectation.
+     * @return TravauxMissions Returns this Travaux missions.
      */
     public function setTypeAffectation($typeAffectation) {
         $this->typeAffectation = $typeAffectation;

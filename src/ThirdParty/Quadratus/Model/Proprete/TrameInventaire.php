@@ -78,6 +78,7 @@ class TrameInventaire {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return TrameInventaire Returns this Trame inventaire.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -88,6 +89,7 @@ class TrameInventaire {
      * Set the code trame.
      *
      * @param string $codeTrame The code trame.
+     * @return TrameInventaire Returns this Trame inventaire.
      */
     public function setCodeTrame($codeTrame) {
         $this->codeTrame = $codeTrame;
@@ -98,6 +100,7 @@ class TrameInventaire {
      * Set the num ordre.
      *
      * @param int $numOrdre The num ordre.
+     * @return TrameInventaire Returns this Trame inventaire.
      */
     public function setNumOrdre($numOrdre) {
         $this->numOrdre = $numOrdre;

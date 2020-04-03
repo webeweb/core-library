@@ -1472,6 +1472,7 @@ class DecTvaCa12 {
      * Set the date cession.
      *
      * @param DateTime|null $dateCession The date cession.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setDateCession(DateTime $dateCession = null) {
         $this->dateCession = $dateCession;
@@ -1482,6 +1483,7 @@ class DecTvaCa12 {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -1492,6 +1494,7 @@ class DecTvaCa12 {
      * Set the tx imposition.
      *
      * @param float $txImposition The tx imposition.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setTxImposition($txImposition) {
         $this->txImposition = $txImposition;
@@ -1502,6 +1505,7 @@ class DecTvaCa12 {
      * Set the type ca12.
      *
      * @param string $typeCa12 The type ca12.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setTypeCa12($typeCa12) {
         $this->typeCa12 = $typeCa12;
@@ -1512,6 +1516,7 @@ class DecTvaCa12 {
      * Set the z0008.
      *
      * @param float $z0008 The z0008.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0008($z0008) {
         $this->z0008 = $z0008;
@@ -1522,6 +1527,7 @@ class DecTvaCa12 {
      * Set the z0018.
      *
      * @param float $z0018 The z0018.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0018($z0018) {
         $this->z0018 = $z0018;
@@ -1532,6 +1538,7 @@ class DecTvaCa12 {
      * Set the z0019.
      *
      * @param float $z0019 The z0019.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0019($z0019) {
         $this->z0019 = $z0019;
@@ -1542,6 +1549,7 @@ class DecTvaCa12 {
      * Set the z0020.
      *
      * @param float $z0020 The z0020.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0020($z0020) {
         $this->z0020 = $z0020;
@@ -1552,6 +1560,7 @@ class DecTvaCa12 {
      * Set the z0028.
      *
      * @param float $z0028 The z0028.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0028($z0028) {
         $this->z0028 = $z0028;
@@ -1562,6 +1571,7 @@ class DecTvaCa12 {
      * Set the z0030b.
      *
      * @param float $z0030b The z0030b.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0030b($z0030b) {
         $this->z0030b = $z0030b;
@@ -1572,6 +1582,7 @@ class DecTvaCa12 {
      * Set the z0058.
      *
      * @param float $z0058 The z0058.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0058($z0058) {
         $this->z0058 = $z0058;
@@ -1582,6 +1593,7 @@ class DecTvaCa12 {
      * Set the z0704.
      *
      * @param float $z0704 The z0704.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0704($z0704) {
         $this->z0704 = $z0704;
@@ -1592,6 +1604,7 @@ class DecTvaCa12 {
      * Set the z0709.
      *
      * @param float $z0709 The z0709.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0709($z0709) {
         $this->z0709 = $z0709;
@@ -1602,6 +1615,7 @@ class DecTvaCa12 {
      * Set the z0970.
      *
      * @param float $z0970 The z0970.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0970($z0970) {
         $this->z0970 = $z0970;
@@ -1612,6 +1626,7 @@ class DecTvaCa12 {
      * Set the z0970b.
      *
      * @param float $z0970b The z0970b.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0970b($z0970b) {
         $this->z0970b = $z0970b;
@@ -1622,6 +1637,7 @@ class DecTvaCa12 {
      * Set the z0980.
      *
      * @param float $z0980 The z0980.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0980($z0980) {
         $this->z0980 = $z0980;
@@ -1632,6 +1648,7 @@ class DecTvaCa12 {
      * Set the z0980b.
      *
      * @param float $z0980b The z0980b.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0980b($z0980b) {
         $this->z0980b = $z0980b;
@@ -1642,6 +1659,7 @@ class DecTvaCa12 {
      * Set the z0981.
      *
      * @param float $z0981 The z0981.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0981($z0981) {
         $this->z0981 = $z0981;
@@ -1652,6 +1670,7 @@ class DecTvaCa12 {
      * Set the z0981b.
      *
      * @param float $z0981b The z0981b.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0981b($z0981b) {
         $this->z0981b = $z0981b;
@@ -1662,6 +1681,7 @@ class DecTvaCa12 {
      * Set the z0982.
      *
      * @param float $z0982 The z0982.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0982($z0982) {
         $this->z0982 = $z0982;
@@ -1672,6 +1692,7 @@ class DecTvaCa12 {
      * Set the z0983.
      *
      * @param float $z0983 The z0983.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz0983($z0983) {
         $this->z0983 = $z0983;
@@ -1682,6 +1703,7 @@ class DecTvaCa12 {
      * Set the z3240.
      *
      * @param float $z3240 The z3240.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz3240($z3240) {
         $this->z3240 = $z3240;
@@ -1692,6 +1714,7 @@ class DecTvaCa12 {
      * Set the z32 code.
      *
      * @param string $z32Code The z32 code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz32Code($z32Code) {
         $this->z32Code = $z32Code;
@@ -1702,6 +1725,7 @@ class DecTvaCa12 {
      * Set the z32 libelle.
      *
      * @param string $z32Libelle The z32 libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz32Libelle($z32Libelle) {
         $this->z32Libelle = $z32Libelle;
@@ -1712,6 +1736,7 @@ class DecTvaCa12 {
      * Set the z32 taxe.
      *
      * @param float $z32Taxe The z32 taxe.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz32Taxe($z32Taxe) {
         $this->z32Taxe = $z32Taxe;
@@ -1722,6 +1747,7 @@ class DecTvaCa12 {
      * Set the z35 b code.
      *
      * @param string $z35BCode The z35 b code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz35BCode($z35BCode) {
         $this->z35BCode = $z35BCode;
@@ -1732,6 +1758,7 @@ class DecTvaCa12 {
      * Set the z35 b libelle.
      *
      * @param string $z35BLibelle The z35 b libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz35BLibelle($z35BLibelle) {
         $this->z35BLibelle = $z35BLibelle;
@@ -1742,6 +1769,7 @@ class DecTvaCa12 {
      * Set the z35 b taxe.
      *
      * @param float $z35BTaxe The z35 b taxe.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz35BTaxe($z35BTaxe) {
         $this->z35BTaxe = $z35BTaxe;
@@ -1752,6 +1780,7 @@ class DecTvaCa12 {
      * Set the z35 code.
      *
      * @param string $z35Code The z35 code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz35Code($z35Code) {
         $this->z35Code = $z35Code;
@@ -1762,6 +1791,7 @@ class DecTvaCa12 {
      * Set the z35 libelle.
      *
      * @param string $z35Libelle The z35 libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz35Libelle($z35Libelle) {
         $this->z35Libelle = $z35Libelle;
@@ -1772,6 +1802,7 @@ class DecTvaCa12 {
      * Set the z35 taxe.
      *
      * @param float $z35Taxe The z35 taxe.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz35Taxe($z35Taxe) {
         $this->z35Taxe = $z35Taxe;
@@ -1782,6 +1813,7 @@ class DecTvaCa12 {
      * Set the z4202.
      *
      * @param float $z4202 The z4202.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4202($z4202) {
         $this->z4202 = $z4202;
@@ -1792,6 +1824,7 @@ class DecTvaCa12 {
      * Set the z4213.
      *
      * @param float $z4213 The z4213.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4213($z4213) {
         $this->z4213 = $z4213;
@@ -1802,6 +1835,7 @@ class DecTvaCa12 {
      * Set the z4216.
      *
      * @param float $z4216 The z4216.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4216($z4216) {
         $this->z4216 = $z4216;
@@ -1812,6 +1846,7 @@ class DecTvaCa12 {
      * Set the z4217.
      *
      * @param float $z4217 The z4217.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4217($z4217) {
         $this->z4217 = $z4217;
@@ -1822,6 +1857,7 @@ class DecTvaCa12 {
      * Set the z4218.
      *
      * @param float $z4218 The z4218.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4218($z4218) {
         $this->z4218 = $z4218;
@@ -1832,6 +1868,7 @@ class DecTvaCa12 {
      * Set the z4220.
      *
      * @param float $z4220 The z4220.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4220($z4220) {
         $this->z4220 = $z4220;
@@ -1842,6 +1879,7 @@ class DecTvaCa12 {
      * Set the z45 ca12.
      *
      * @param float $z45Ca12 The z45 ca12.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz45Ca12($z45Ca12) {
         $this->z45Ca12 = $z45Ca12;
@@ -1852,6 +1890,7 @@ class DecTvaCa12 {
      * Set the z45 ca12 code.
      *
      * @param string $z45Ca12Code The z45 ca12 code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz45Ca12Code($z45Ca12Code) {
         $this->z45Ca12Code = $z45Ca12Code;
@@ -1862,6 +1901,7 @@ class DecTvaCa12 {
      * Set the z45 ca12 libelle.
      *
      * @param string $z45Ca12Libelle The z45 ca12 libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz45Ca12Libelle($z45Ca12Libelle) {
         $this->z45Ca12Libelle = $z45Ca12Libelle;
@@ -1872,6 +1912,7 @@ class DecTvaCa12 {
      * Set the z47 ca12.
      *
      * @param float $z47Ca12 The z47 ca12.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz47Ca12($z47Ca12) {
         $this->z47Ca12 = $z47Ca12;
@@ -1882,6 +1923,7 @@ class DecTvaCa12 {
      * Set the z47 ca12 code.
      *
      * @param string $z47Ca12Code The z47 ca12 code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz47Ca12Code($z47Ca12Code) {
         $this->z47Ca12Code = $z47Ca12Code;
@@ -1892,6 +1934,7 @@ class DecTvaCa12 {
      * Set the z47 ca12 libelle.
      *
      * @param string $z47Ca12Libelle The z47 ca12 libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz47Ca12Libelle($z47Ca12Libelle) {
         $this->z47Ca12Libelle = $z47Ca12Libelle;
@@ -1902,6 +1945,7 @@ class DecTvaCa12 {
      * Set the z4 aca12.
      *
      * @param float $z4Aca12 The z4 aca12.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Aca12($z4Aca12) {
         $this->z4Aca12 = $z4Aca12;
@@ -1912,6 +1956,7 @@ class DecTvaCa12 {
      * Set the z4 aca12 code.
      *
      * @param string $z4Aca12Code The z4 aca12 code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Aca12Code($z4Aca12Code) {
         $this->z4Aca12Code = $z4Aca12Code;
@@ -1922,6 +1967,7 @@ class DecTvaCa12 {
      * Set the z4 aca12 libelle.
      *
      * @param string $z4Aca12Libelle The z4 aca12 libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Aca12Libelle($z4Aca12Libelle) {
         $this->z4Aca12Libelle = $z4Aca12Libelle;
@@ -1932,6 +1978,7 @@ class DecTvaCa12 {
      * Set the z4 bca12.
      *
      * @param float $z4Bca12 The z4 bca12.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Bca12($z4Bca12) {
         $this->z4Bca12 = $z4Bca12;
@@ -1942,6 +1989,7 @@ class DecTvaCa12 {
      * Set the z4 bca12 code.
      *
      * @param string $z4Bca12Code The z4 bca12 code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Bca12Code($z4Bca12Code) {
         $this->z4Bca12Code = $z4Bca12Code;
@@ -1952,6 +2000,7 @@ class DecTvaCa12 {
      * Set the z4 bca12 libelle.
      *
      * @param string $z4Bca12Libelle The z4 bca12 libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Bca12Libelle($z4Bca12Libelle) {
         $this->z4Bca12Libelle = $z4Bca12Libelle;
@@ -1962,6 +2011,7 @@ class DecTvaCa12 {
      * Set the z4 cca12.
      *
      * @param float $z4Cca12 The z4 cca12.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Cca12($z4Cca12) {
         $this->z4Cca12 = $z4Cca12;
@@ -1972,6 +2022,7 @@ class DecTvaCa12 {
      * Set the z4 cca12 code.
      *
      * @param string $z4Cca12Code The z4 cca12 code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Cca12Code($z4Cca12Code) {
         $this->z4Cca12Code = $z4Cca12Code;
@@ -1982,6 +2033,7 @@ class DecTvaCa12 {
      * Set the z4 cca12 libelle.
      *
      * @param string $z4Cca12Libelle The z4 cca12 libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz4Cca12Libelle($z4Cca12Libelle) {
         $this->z4Cca12Libelle = $z4Cca12Libelle;
@@ -1992,6 +2044,7 @@ class DecTvaCa12 {
      * Set the z5b code.
      *
      * @param string $z5bCode The z5b code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz5bCode($z5bCode) {
         $this->z5bCode = $z5bCode;
@@ -2002,6 +2055,7 @@ class DecTvaCa12 {
      * Set the z5b ht.
      *
      * @param float $z5bHt The z5b ht.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz5bHt($z5bHt) {
         $this->z5bHt = $z5bHt;
@@ -2012,6 +2066,7 @@ class DecTvaCa12 {
      * Set the z5b libelle.
      *
      * @param string $z5bLibelle The z5b libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz5bLibelle($z5bLibelle) {
         $this->z5bLibelle = $z5bLibelle;
@@ -2022,6 +2077,7 @@ class DecTvaCa12 {
      * Set the z5b taxe.
      *
      * @param float $z5bTaxe The z5b taxe.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz5bTaxe($z5bTaxe) {
         $this->z5bTaxe = $z5bTaxe;
@@ -2032,6 +2088,7 @@ class DecTvaCa12 {
      * Set the z7b code.
      *
      * @param string $z7bCode The z7b code.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz7bCode($z7bCode) {
         $this->z7bCode = $z7bCode;
@@ -2042,6 +2099,7 @@ class DecTvaCa12 {
      * Set the z7b ht.
      *
      * @param float $z7bHt The z7b ht.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz7bHt($z7bHt) {
         $this->z7bHt = $z7bHt;
@@ -2052,6 +2110,7 @@ class DecTvaCa12 {
      * Set the z7b libelle.
      *
      * @param string $z7bLibelle The z7b libelle.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz7bLibelle($z7bLibelle) {
         $this->z7bLibelle = $z7bLibelle;
@@ -2062,6 +2121,7 @@ class DecTvaCa12 {
      * Set the z7b taxe.
      *
      * @param float $z7bTaxe The z7b taxe.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz7bTaxe($z7bTaxe) {
         $this->z7bTaxe = $z7bTaxe;
@@ -2072,6 +2132,7 @@ class DecTvaCa12 {
      * Set the z8004.
      *
      * @param float $z8004 The z8004.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setz8004($z8004) {
         $this->z8004 = $z8004;
@@ -2082,6 +2143,7 @@ class DecTvaCa12 {
      * Set the z acompte deduit1.
      *
      * @param bool $zAcompteDeduit1 The z acompte deduit1.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzAcompteDeduit1($zAcompteDeduit1) {
         $this->zAcompteDeduit1 = $zAcompteDeduit1;
@@ -2092,6 +2154,7 @@ class DecTvaCa12 {
      * Set the z acompte deduit2.
      *
      * @param bool $zAcompteDeduit2 The z acompte deduit2.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzAcompteDeduit2($zAcompteDeduit2) {
         $this->zAcompteDeduit2 = $zAcompteDeduit2;
@@ -2102,6 +2165,7 @@ class DecTvaCa12 {
      * Set the z acompte deduit3.
      *
      * @param bool $zAcompteDeduit3 The z acompte deduit3.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzAcompteDeduit3($zAcompteDeduit3) {
         $this->zAcompteDeduit3 = $zAcompteDeduit3;
@@ -2112,6 +2176,7 @@ class DecTvaCa12 {
      * Set the z acompte deduit4.
      *
      * @param bool $zAcompteDeduit4 The z acompte deduit4.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzAcompteDeduit4($zAcompteDeduit4) {
         $this->zAcompteDeduit4 = $zAcompteDeduit4;
@@ -2122,6 +2187,7 @@ class DecTvaCa12 {
      * Set the z annee acompte1.
      *
      * @param int $zAnneeAcompte1 The z annee acompte1.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzAnneeAcompte1($zAnneeAcompte1) {
         $this->zAnneeAcompte1 = $zAnneeAcompte1;
@@ -2132,6 +2198,7 @@ class DecTvaCa12 {
      * Set the z annee acompte2.
      *
      * @param int $zAnneeAcompte2 The z annee acompte2.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzAnneeAcompte2($zAnneeAcompte2) {
         $this->zAnneeAcompte2 = $zAnneeAcompte2;
@@ -2142,6 +2209,7 @@ class DecTvaCa12 {
      * Set the z annee acompte3.
      *
      * @param int $zAnneeAcompte3 The z annee acompte3.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzAnneeAcompte3($zAnneeAcompte3) {
         $this->zAnneeAcompte3 = $zAnneeAcompte3;
@@ -2152,6 +2220,7 @@ class DecTvaCa12 {
      * Set the z annee acompte4.
      *
      * @param int $zAnneeAcompte4 The z annee acompte4.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzAnneeAcompte4($zAnneeAcompte4) {
         $this->zAnneeAcompte4 = $zAnneeAcompte4;
@@ -2162,6 +2231,7 @@ class DecTvaCa12 {
      * Set the z col1 acompte1.
      *
      * @param float $zCol1Acompte1 The z col1 acompte1.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzCol1Acompte1($zCol1Acompte1) {
         $this->zCol1Acompte1 = $zCol1Acompte1;
@@ -2172,6 +2242,7 @@ class DecTvaCa12 {
      * Set the z col1 acompte2.
      *
      * @param float $zCol1Acompte2 The z col1 acompte2.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzCol1Acompte2($zCol1Acompte2) {
         $this->zCol1Acompte2 = $zCol1Acompte2;
@@ -2182,6 +2253,7 @@ class DecTvaCa12 {
      * Set the z col1 acompte3.
      *
      * @param float $zCol1Acompte3 The z col1 acompte3.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzCol1Acompte3($zCol1Acompte3) {
         $this->zCol1Acompte3 = $zCol1Acompte3;
@@ -2192,6 +2264,7 @@ class DecTvaCa12 {
      * Set the z col1 acompte4.
      *
      * @param float $zCol1Acompte4 The z col1 acompte4.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzCol1Acompte4($zCol1Acompte4) {
         $this->zCol1Acompte4 = $zCol1Acompte4;
@@ -2202,6 +2275,7 @@ class DecTvaCa12 {
      * Set the z col2 acompte1.
      *
      * @param float $zCol2Acompte1 The z col2 acompte1.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzCol2Acompte1($zCol2Acompte1) {
         $this->zCol2Acompte1 = $zCol2Acompte1;
@@ -2212,6 +2286,7 @@ class DecTvaCa12 {
      * Set the z col2 acompte2.
      *
      * @param float $zCol2Acompte2 The z col2 acompte2.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzCol2Acompte2($zCol2Acompte2) {
         $this->zCol2Acompte2 = $zCol2Acompte2;
@@ -2222,6 +2297,7 @@ class DecTvaCa12 {
      * Set the z col2 acompte3.
      *
      * @param float $zCol2Acompte3 The z col2 acompte3.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzCol2Acompte3($zCol2Acompte3) {
         $this->zCol2Acompte3 = $zCol2Acompte3;
@@ -2232,6 +2308,7 @@ class DecTvaCa12 {
      * Set the z col2 acompte4.
      *
      * @param float $zCol2Acompte4 The z col2 acompte4.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzCol2Acompte4($zCol2Acompte4) {
         $this->zCol2Acompte4 = $zCol2Acompte4;
@@ -2242,6 +2319,7 @@ class DecTvaCa12 {
      * Set the z excedent versement.
      *
      * @param float $zExcedentVersement The z excedent versement.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzExcedentVersement($zExcedentVersement) {
         $this->zExcedentVersement = $zExcedentVersement;
@@ -2252,6 +2330,7 @@ class DecTvaCa12 {
      * Set the z nom demandeur rbt.
      *
      * @param string $zNomDemandeurRbt The z nom demandeur rbt.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzNomDemandeurRbt($zNomDemandeurRbt) {
         $this->zNomDemandeurRbt = $zNomDemandeurRbt;
@@ -2262,6 +2341,7 @@ class DecTvaCa12 {
      * Set the z num msa.
      *
      * @param string $zNumMsa The z num msa.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzNumMsa($zNumMsa) {
         $this->zNumMsa = $zNumMsa;
@@ -2272,6 +2352,7 @@ class DecTvaCa12 {
      * Set the z rbt demande.
      *
      * @param float $zRbtDemande The z rbt demande.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzRbtDemande($zRbtDemande) {
         $this->zRbtDemande = $zRbtDemande;
@@ -2282,6 +2363,7 @@ class DecTvaCa12 {
      * Set the z rbt qualite.
      *
      * @param string $zRbtQualite The z rbt qualite.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzRbtQualite($zRbtQualite) {
         $this->zRbtQualite = $zRbtQualite;
@@ -2292,6 +2374,7 @@ class DecTvaCa12 {
      * Set the z rbt ville.
      *
      * @param string $zRbtVille The z rbt ville.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzRbtVille($zRbtVille) {
         $this->zRbtVille = $zRbtVille;
@@ -2302,6 +2385,7 @@ class DecTvaCa12 {
      * Set the z rbtbic.
      *
      * @param string $zRbtbic The z rbtbic.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzRbtbic($zRbtbic) {
         $this->zRbtbic = $zRbtbic;
@@ -2312,6 +2396,7 @@ class DecTvaCa12 {
      * Set the z rbtiban.
      *
      * @param string $zRbtiban The z rbtiban.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzRbtiban($zRbtiban) {
         $this->zRbtiban = $zRbtiban;
@@ -2322,6 +2407,7 @@ class DecTvaCa12 {
      * Set the z rbtrib.
      *
      * @param string $zRbtrib The z rbtrib.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzRbtrib($zRbtrib) {
         $this->zRbtrib = $zRbtrib;
@@ -2332,6 +2418,7 @@ class DecTvaCa12 {
      * Set the z solde a payer.
      *
      * @param float $zSoldeAPayer The z solde a payer.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzSoldeAPayer($zSoldeAPayer) {
         $this->zSoldeAPayer = $zSoldeAPayer;
@@ -2342,6 +2429,7 @@ class DecTvaCa12 {
      * Set the z surface agr.
      *
      * @param int $zSurfaceAgr The z surface agr.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzSurfaceAgr($zSurfaceAgr) {
         $this->zSurfaceAgr = $zSurfaceAgr;
@@ -2352,6 +2440,7 @@ class DecTvaCa12 {
      * Set the z taxes fiscales.
      *
      * @param float $zTaxesFiscales The z taxes fiscales.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzTaxesFiscales($zTaxesFiscales) {
         $this->zTaxesFiscales = $zTaxesFiscales;
@@ -2362,6 +2451,7 @@ class DecTvaCa12 {
      * Set the z ya demande rbt.
      *
      * @param bool $zYaDemandeRbt The z ya demande rbt.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
      */
     public function setzYaDemandeRbt($zYaDemandeRbt) {
         $this->zYaDemandeRbt = $zYaDemandeRbt;

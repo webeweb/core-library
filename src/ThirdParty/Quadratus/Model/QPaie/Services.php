@@ -62,6 +62,7 @@ class Services {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Services Returns this Services.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class Services {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Services Returns this Services.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;

@@ -78,6 +78,7 @@ class MissionVisuTaches {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return MissionVisuTaches Returns this Mission visu taches.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -88,6 +89,7 @@ class MissionVisuTaches {
      * Set the code tache visu.
      *
      * @param string $codeTacheVisu The code tache visu.
+     * @return MissionVisuTaches Returns this Mission visu taches.
      */
     public function setCodeTacheVisu($codeTacheVisu) {
         $this->codeTacheVisu = $codeTacheVisu;
@@ -98,6 +100,7 @@ class MissionVisuTaches {
      * Set the is regroupement.
      *
      * @param bool $isRegroupement The is regroupement.
+     * @return MissionVisuTaches Returns this Mission visu taches.
      */
     public function setIsRegroupement($isRegroupement) {
         $this->isRegroupement = $isRegroupement;

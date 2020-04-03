@@ -208,6 +208,7 @@ class DadsuAssuranceEntete {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -218,6 +219,7 @@ class DadsuAssuranceEntete {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -228,6 +230,7 @@ class DadsuAssuranceEntete {
      * Set the code periodicite.
      *
      * @param string $codePeriodicite The code periodicite.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setCodePeriodicite($codePeriodicite) {
         $this->codePeriodicite = $codePeriodicite;
@@ -238,6 +241,7 @@ class DadsuAssuranceEntete {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -248,6 +252,7 @@ class DadsuAssuranceEntete {
      * Set the date emission.
      *
      * @param DateTime|null $dateEmission The date emission.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setDateEmission(DateTime $dateEmission = null) {
         $this->dateEmission = $dateEmission;
@@ -258,6 +263,7 @@ class DadsuAssuranceEntete {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -268,6 +274,7 @@ class DadsuAssuranceEntete {
      * Set the mail contact.
      *
      * @param string $mailContact The mail contact.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setMailContact($mailContact) {
         $this->mailContact = $mailContact;
@@ -278,6 +285,7 @@ class DadsuAssuranceEntete {
      * Set the mois anniv.
      *
      * @param string $moisAnniv The mois anniv.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setMoisAnniv($moisAnniv) {
         $this->moisAnniv = $moisAnniv;
@@ -288,6 +296,7 @@ class DadsuAssuranceEntete {
      * Set the nom contact.
      *
      * @param string $nomContact The nom contact.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setNomContact($nomContact) {
         $this->nomContact = $nomContact;
@@ -298,6 +307,7 @@ class DadsuAssuranceEntete {
      * Set the tel contact.
      *
      * @param string $telContact The tel contact.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setTelContact($telContact) {
         $this->telContact = $telContact;
@@ -308,6 +318,7 @@ class DadsuAssuranceEntete {
      * Set the unite gestion.
      *
      * @param string $uniteGestion The unite gestion.
+     * @return DadsuAssuranceEntete Returns this Dadsu assurance entete.
      */
     public function setUniteGestion($uniteGestion) {
         $this->uniteGestion = $uniteGestion;

@@ -608,6 +608,7 @@ class DevisCommercialLignes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -618,6 +619,7 @@ class DevisCommercialLignes {
      * Set the code affaire ligne.
      *
      * @param string $codeAffaireLigne The code affaire ligne.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeAffaireLigne($codeAffaireLigne) {
         $this->codeAffaireLigne = $codeAffaireLigne;
@@ -628,6 +630,7 @@ class DevisCommercialLignes {
      * Set the code anal article.
      *
      * @param string $codeAnalArticle The code anal article.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeAnalArticle($codeAnalArticle) {
         $this->codeAnalArticle = $codeAnalArticle;
@@ -638,6 +641,7 @@ class DevisCommercialLignes {
      * Set the code article.
      *
      * @param string $codeArticle The code article.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeArticle($codeArticle) {
         $this->codeArticle = $codeArticle;
@@ -648,6 +652,7 @@ class DevisCommercialLignes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -658,6 +663,7 @@ class DevisCommercialLignes {
      * Set the code chantier ligne.
      *
      * @param string $codeChantierLigne The code chantier ligne.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeChantierLigne($codeChantierLigne) {
         $this->codeChantierLigne = $codeChantierLigne;
@@ -668,6 +674,7 @@ class DevisCommercialLignes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -678,6 +685,7 @@ class DevisCommercialLignes {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -688,6 +696,7 @@ class DevisCommercialLignes {
      * Set the code tva article.
      *
      * @param string $codeTvaArticle The code tva article.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeTvaArticle($codeTvaArticle) {
         $this->codeTvaArticle = $codeTvaArticle;
@@ -698,6 +707,7 @@ class DevisCommercialLignes {
      * Set the code unite.
      *
      * @param string $codeUnite The code unite.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -708,6 +718,7 @@ class DevisCommercialLignes {
      * Set the code ventil article.
      *
      * @param string $codeVentilArticle The code ventil article.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setCodeVentilArticle($codeVentilArticle) {
         $this->codeVentilArticle = $codeVentilArticle;
@@ -718,6 +729,7 @@ class DevisCommercialLignes {
      * Set the depuis deb fac.
      *
      * @param bool $depuisDebFac The depuis deb fac.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setDepuisDebFac($depuisDebFac) {
         $this->depuisDebFac = $depuisDebFac;
@@ -728,6 +740,7 @@ class DevisCommercialLignes {
      * Set the designation.
      *
      * @param string $designation The designation.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setDesignation($designation) {
         $this->designation = $designation;
@@ -738,6 +751,7 @@ class DevisCommercialLignes {
      * Set the designation2.
      *
      * @param string $designation2 The designation2.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setDesignation2($designation2) {
         $this->designation2 = $designation2;
@@ -748,6 +762,7 @@ class DevisCommercialLignes {
      * Set the designation3.
      *
      * @param string $designation3 The designation3.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setDesignation3($designation3) {
         $this->designation3 = $designation3;
@@ -758,6 +773,7 @@ class DevisCommercialLignes {
      * Set the designation bis.
      *
      * @param string $designationBis The designation bis.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setDesignationBis($designationBis) {
         $this->designationBis = $designationBis;
@@ -768,6 +784,7 @@ class DevisCommercialLignes {
      * Set the designation bis2.
      *
      * @param string $designationBis2 The designation bis2.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setDesignationBis2($designationBis2) {
         $this->designationBis2 = $designationBis2;
@@ -778,6 +795,7 @@ class DevisCommercialLignes {
      * Set the designation bis3.
      *
      * @param string $designationBis3 The designation bis3.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setDesignationBis3($designationBis3) {
         $this->designationBis3 = $designationBis3;
@@ -788,6 +806,7 @@ class DevisCommercialLignes {
      * Set the designation rtf.
      *
      * @param string $designationRtf The designation rtf.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setDesignationRtf($designationRtf) {
         $this->designationRtf = $designationRtf;
@@ -798,6 +817,7 @@ class DevisCommercialLignes {
      * Set the imprimer dans pied.
      *
      * @param bool $imprimerDansPied The imprimer dans pied.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setImprimerDansPied($imprimerDansPied) {
         $this->imprimerDansPied = $imprimerDansPied;
@@ -808,6 +828,7 @@ class DevisCommercialLignes {
      * Set the montant unitaire taxe.
      *
      * @param float $montantUnitaireTaxe The montant unitaire taxe.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setMontantUnitaireTaxe($montantUnitaireTaxe) {
         $this->montantUnitaireTaxe = $montantUnitaireTaxe;
@@ -818,6 +839,7 @@ class DevisCommercialLignes {
      * Set the mot cle dans pied.
      *
      * @param string $motCleDansPied The mot cle dans pied.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setMotCleDansPied($motCleDansPied) {
         $this->motCleDansPied = $motCleDansPied;
@@ -828,6 +850,7 @@ class DevisCommercialLignes {
      * Set the numero devis.
      *
      * @param string $numeroDevis The numero devis.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setNumeroDevis($numeroDevis) {
         $this->numeroDevis = $numeroDevis;
@@ -838,6 +861,7 @@ class DevisCommercialLignes {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -848,6 +872,7 @@ class DevisCommercialLignes {
      * Set the periode ventil marge.
      *
      * @param DateTime|null $periodeVentilMarge The periode ventil marge.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setPeriodeVentilMarge(DateTime $periodeVentilMarge = null) {
         $this->periodeVentilMarge = $periodeVentilMarge;
@@ -858,6 +883,7 @@ class DevisCommercialLignes {
      * Set the poste rent.
      *
      * @param string $posteRent The poste rent.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setPosteRent($posteRent) {
         $this->posteRent = $posteRent;
@@ -868,6 +894,7 @@ class DevisCommercialLignes {
      * Set the prix achat.
      *
      * @param float $prixAchat The prix achat.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setPrixAchat($prixAchat) {
         $this->prixAchat = $prixAchat;
@@ -878,6 +905,7 @@ class DevisCommercialLignes {
      * Set the prix unitaire.
      *
      * @param float $prixUnitaire The prix unitaire.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setPrixUnitaire($prixUnitaire) {
         $this->prixUnitaire = $prixUnitaire;
@@ -888,6 +916,7 @@ class DevisCommercialLignes {
      * Set the px devis.
      *
      * @param bool $pxDevis The px devis.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setPxDevis($pxDevis) {
         $this->pxDevis = $pxDevis;
@@ -898,6 +927,7 @@ class DevisCommercialLignes {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -908,6 +938,7 @@ class DevisCommercialLignes {
      * Set the remise ligne1.
      *
      * @param float $remiseLigne1 The remise ligne1.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setRemiseLigne1($remiseLigne1) {
         $this->remiseLigne1 = $remiseLigne1;
@@ -918,6 +949,7 @@ class DevisCommercialLignes {
      * Set the remise ligne2.
      *
      * @param float $remiseLigne2 The remise ligne2.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setRemiseLigne2($remiseLigne2) {
         $this->remiseLigne2 = $remiseLigne2;
@@ -928,6 +960,7 @@ class DevisCommercialLignes {
      * Set the remise ligne3.
      *
      * @param float $remiseLigne3 The remise ligne3.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setRemiseLigne3($remiseLigne3) {
         $this->remiseLigne3 = $remiseLigne3;
@@ -938,6 +971,7 @@ class DevisCommercialLignes {
      * Set the taux tva article.
      *
      * @param float $tauxTvaArticle The taux tva article.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setTauxTvaArticle($tauxTvaArticle) {
         $this->tauxTvaArticle = $tauxTvaArticle;
@@ -948,6 +982,7 @@ class DevisCommercialLignes {
      * Set the taux tva taxe.
      *
      * @param float $tauxTvaTaxe The taux tva taxe.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setTauxTvaTaxe($tauxTvaTaxe) {
         $this->tauxTvaTaxe = $tauxTvaTaxe;
@@ -958,6 +993,7 @@ class DevisCommercialLignes {
      * Set the ventil marge.
      *
      * @param bool $ventilMarge The ventil marge.
+     * @return DevisCommercialLignes Returns this Devis commercial lignes.
      */
     public function setVentilMarge($ventilMarge) {
         $this->ventilMarge = $ventilMarge;

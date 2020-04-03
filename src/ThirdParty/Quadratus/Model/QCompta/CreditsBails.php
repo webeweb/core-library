@@ -1152,6 +1152,7 @@ class CreditsBails {
      * Set the ad amort anterieur.
      *
      * @param float $adAmortAnterieur The ad amort anterieur.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdAmortAnterieur($adAmortAnterieur) {
         $this->adAmortAnterieur = $adAmortAnterieur;
@@ -1162,6 +1163,7 @@ class CreditsBails {
      * Set the ad amort anterieur2.
      *
      * @param float $adAmortAnterieur2 The ad amort anterieur2.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdAmortAnterieur2($adAmortAnterieur2) {
         $this->adAmortAnterieur2 = $adAmortAnterieur2;
@@ -1172,6 +1174,7 @@ class CreditsBails {
      * Set the ad annees amort.
      *
      * @param float $adAnneesAmort The ad annees amort.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdAnneesAmort($adAnneesAmort) {
         $this->adAnneesAmort = $adAnneesAmort;
@@ -1182,6 +1185,7 @@ class CreditsBails {
      * Set the ad coeff degressif.
      *
      * @param float $adCoeffDegressif The ad coeff degressif.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdCoeffDegressif($adCoeffDegressif) {
         $this->adCoeffDegressif = $adCoeffDegressif;
@@ -1192,6 +1196,7 @@ class CreditsBails {
      * Set the ad dotation.
      *
      * @param float $adDotation The ad dotation.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdDotation($adDotation) {
         $this->adDotation = $adDotation;
@@ -1202,6 +1207,7 @@ class CreditsBails {
      * Set the ad dotation2.
      *
      * @param float $adDotation2 The ad dotation2.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdDotation2($adDotation2) {
         $this->adDotation2 = $adDotation2;
@@ -1212,6 +1218,7 @@ class CreditsBails {
      * Set the ad dotation except.
      *
      * @param float $adDotationExcept The ad dotation except.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdDotationExcept($adDotationExcept) {
         $this->adDotationExcept = $adDotationExcept;
@@ -1222,6 +1229,7 @@ class CreditsBails {
      * Set the ad duree.
      *
      * @param float $adDuree The ad duree.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdDuree($adDuree) {
         $this->adDuree = $adDuree;
@@ -1232,6 +1240,7 @@ class CreditsBails {
      * Set the ad taux lineaire.
      *
      * @param float $adTauxLineaire The ad taux lineaire.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdTauxLineaire($adTauxLineaire) {
         $this->adTauxLineaire = $adTauxLineaire;
@@ -1242,6 +1251,7 @@ class CreditsBails {
      * Set the ad type.
      *
      * @param string $adType The ad type.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAdType($adType) {
         $this->adType = $adType;
@@ -1252,6 +1262,7 @@ class CreditsBails {
      * Set the af amort anterieur.
      *
      * @param float $afAmortAnterieur The af amort anterieur.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfAmortAnterieur($afAmortAnterieur) {
         $this->afAmortAnterieur = $afAmortAnterieur;
@@ -1262,6 +1273,7 @@ class CreditsBails {
      * Set the af annees amort.
      *
      * @param float $afAnneesAmort The af annees amort.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfAnneesAmort($afAnneesAmort) {
         $this->afAnneesAmort = $afAnneesAmort;
@@ -1272,6 +1284,7 @@ class CreditsBails {
      * Set the af coeff degressif.
      *
      * @param float $afCoeffDegressif The af coeff degressif.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfCoeffDegressif($afCoeffDegressif) {
         $this->afCoeffDegressif = $afCoeffDegressif;
@@ -1282,6 +1295,7 @@ class CreditsBails {
      * Set the af dotation.
      *
      * @param float $afDotation The af dotation.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfDotation($afDotation) {
         $this->afDotation = $afDotation;
@@ -1292,6 +1306,7 @@ class CreditsBails {
      * Set the af duree.
      *
      * @param float $afDuree The af duree.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfDuree($afDuree) {
         $this->afDuree = $afDuree;
@@ -1302,6 +1317,7 @@ class CreditsBails {
      * Set the af taux except.
      *
      * @param float $afTauxExcept The af taux except.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfTauxExcept($afTauxExcept) {
         $this->afTauxExcept = $afTauxExcept;
@@ -1312,6 +1328,7 @@ class CreditsBails {
      * Set the af taux lineaire.
      *
      * @param float $afTauxLineaire The af taux lineaire.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfTauxLineaire($afTauxLineaire) {
         $this->afTauxLineaire = $afTauxLineaire;
@@ -1322,6 +1339,7 @@ class CreditsBails {
      * Set the af type.
      *
      * @param string $afType The af type.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfType($afType) {
         $this->afType = $afType;
@@ -1332,6 +1350,7 @@ class CreditsBails {
      * Set the afsii.
      *
      * @param bool $afsii The afsii.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setAfsii($afsii) {
         $this->afsii = $afsii;
@@ -1342,6 +1361,7 @@ class CreditsBails {
      * Set the base taxe pro.
      *
      * @param float $baseTaxePro The base taxe pro.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setBaseTaxePro($baseTaxePro) {
         $this->baseTaxePro = $baseTaxePro;
@@ -1352,6 +1372,7 @@ class CreditsBails {
      * Set the bureau.
      *
      * @param string $bureau The bureau.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setBureau($bureau) {
         $this->bureau = $bureau;
@@ -1362,6 +1383,7 @@ class CreditsBails {
      * Set the cb en francs.
      *
      * @param bool $cbEnFrancs The cb en francs.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCbEnFrancs($cbEnFrancs) {
         $this->cbEnFrancs = $cbEnFrancs;
@@ -1372,6 +1394,7 @@ class CreditsBails {
      * Set the centre analytique.
      *
      * @param string $centreAnalytique The centre analytique.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCentreAnalytique($centreAnalytique) {
         $this->centreAnalytique = $centreAnalytique;
@@ -1382,6 +1405,7 @@ class CreditsBails {
      * Set the code journal echeance.
      *
      * @param string $codeJournalEcheance The code journal echeance.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCodeJournalEcheance($codeJournalEcheance) {
         $this->codeJournalEcheance = $codeJournalEcheance;
@@ -1392,6 +1416,7 @@ class CreditsBails {
      * Set the code journal paiement.
      *
      * @param string $codeJournalPaiement The code journal paiement.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCodeJournalPaiement($codeJournalPaiement) {
         $this->codeJournalPaiement = $codeJournalPaiement;
@@ -1402,6 +1427,7 @@ class CreditsBails {
      * Set the code tva.
      *
      * @param string $codeTva The code tva.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -1412,6 +1438,7 @@ class CreditsBails {
      * Set the compte frn.
      *
      * @param string $compteFrn The compte frn.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCompteFrn($compteFrn) {
         $this->compteFrn = $compteFrn;
@@ -1422,6 +1449,7 @@ class CreditsBails {
      * Set the cpt assurance.
      *
      * @param string $cptAssurance The cpt assurance.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCptAssurance($cptAssurance) {
         $this->cptAssurance = $cptAssurance;
@@ -1432,6 +1460,7 @@ class CreditsBails {
      * Set the cpt charge.
      *
      * @param string $cptCharge The cpt charge.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCptCharge($cptCharge) {
         $this->cptCharge = $cptCharge;
@@ -1442,6 +1471,7 @@ class CreditsBails {
      * Set the cpt entretien.
      *
      * @param string $cptEntretien The cpt entretien.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCptEntretien($cptEntretien) {
         $this->cptEntretien = $cptEntretien;
@@ -1452,6 +1482,7 @@ class CreditsBails {
      * Set the cpt tva.
      *
      * @param string $cptTva The cpt tva.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCptTva($cptTva) {
         $this->cptTva = $cptTva;
@@ -1462,6 +1493,7 @@ class CreditsBails {
      * Set the cpt tva assu.
      *
      * @param string $cptTvaAssu The cpt tva assu.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCptTvaAssu($cptTvaAssu) {
         $this->cptTvaAssu = $cptTvaAssu;
@@ -1472,6 +1504,7 @@ class CreditsBails {
      * Set the cr valeur euros.
      *
      * @param float $crValeurEuros The cr valeur euros.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrValeurEuros($crValeurEuros) {
         $this->crValeurEuros = $crValeurEuros;
@@ -1482,6 +1515,7 @@ class CreditsBails {
      * Set the crr date.
      *
      * @param DateTime|null $crrDate The crr date.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrrDate(DateTime $crrDate = null) {
         $this->crrDate = $crrDate;
@@ -1492,6 +1526,7 @@ class CreditsBails {
      * Set the crr px cession ht.
      *
      * @param float $crrPxCessionHt The crr px cession ht.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrrPxCessionHt($crrPxCessionHt) {
         $this->crrPxCessionHt = $crrPxCessionHt;
@@ -1502,6 +1537,7 @@ class CreditsBails {
      * Set the crr qte vendue.
      *
      * @param float $crrQteVendue The crr qte vendue.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrrQteVendue($crrQteVendue) {
         $this->crrQteVendue = $crrQteVendue;
@@ -1512,6 +1548,7 @@ class CreditsBails {
      * Set the crr suppl amort.
      *
      * @param float $crrSupplAmort The crr suppl amort.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrrSupplAmort($crrSupplAmort) {
         $this->crrSupplAmort = $crrSupplAmort;
@@ -1522,6 +1559,7 @@ class CreditsBails {
      * Set the crr suppl valeur.
      *
      * @param float $crrSupplValeur The crr suppl valeur.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrrSupplValeur($crrSupplValeur) {
         $this->crrSupplValeur = $crrSupplValeur;
@@ -1532,6 +1570,7 @@ class CreditsBails {
      * Set the crr type.
      *
      * @param string $crrType The crr type.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrrType($crrType) {
         $this->crrType = $crrType;
@@ -1542,6 +1581,7 @@ class CreditsBails {
      * Set the crrpm value ct.
      *
      * @param float $crrpmValueCt The crrpm value ct.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrrpmValueCt($crrpmValueCt) {
         $this->crrpmValueCt = $crrpmValueCt;
@@ -1552,6 +1592,7 @@ class CreditsBails {
      * Set the crrpm value lt.
      *
      * @param float $crrpmValueLt The crrpm value lt.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setCrrpmValueLt($crrpmValueLt) {
         $this->crrpmValueLt = $crrpmValueLt;
@@ -1562,6 +1603,7 @@ class CreditsBails {
      * Set the date acquisition.
      *
      * @param DateTime|null $dateAcquisition The date acquisition.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setDateAcquisition(DateTime $dateAcquisition = null) {
         $this->dateAcquisition = $dateAcquisition;
@@ -1572,6 +1614,7 @@ class CreditsBails {
      * Set the date mise service.
      *
      * @param DateTime|null $dateMiseService The date mise service.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setDateMiseService(DateTime $dateMiseService = null) {
         $this->dateMiseService = $dateMiseService;
@@ -1582,6 +1625,7 @@ class CreditsBails {
      * Set the din.
      *
      * @param bool $din The din.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setDin($din) {
         $this->din = $din;
@@ -1592,6 +1636,7 @@ class CreditsBails {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -1602,6 +1647,7 @@ class CreditsBails {
      * Set the guid vehicule.
      *
      * @param string $guidVehicule The guid vehicule.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setGuidVehicule($guidVehicule) {
         $this->guidVehicule = $guidVehicule;
@@ -1612,6 +1658,7 @@ class CreditsBails {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -1622,6 +1669,7 @@ class CreditsBails {
      * Set the libelle frn.
      *
      * @param string $libelleFrn The libelle frn.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setLibelleFrn($libelleFrn) {
         $this->libelleFrn = $libelleFrn;
@@ -1632,6 +1680,7 @@ class CreditsBails {
      * Set the limite amort.
      *
      * @param float $limiteAmort The limite amort.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setLimiteAmort($limiteAmort) {
         $this->limiteAmort = $limiteAmort;
@@ -1642,6 +1691,7 @@ class CreditsBails {
      * Set the materiaux agricole.
      *
      * @param bool $materiauxAgricole The materiaux agricole.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setMateriauxAgricole($materiauxAgricole) {
         $this->materiauxAgricole = $materiauxAgricole;
@@ -1652,6 +1702,7 @@ class CreditsBails {
      * Set the montant tva.
      *
      * @param float $montantTva The montant tva.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setMontantTva($montantTva) {
         $this->montantTva = $montantTva;
@@ -1662,6 +1713,7 @@ class CreditsBails {
      * Set the nature analytique.
      *
      * @param string $natureAnalytique The nature analytique.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setNatureAnalytique($natureAnalytique) {
         $this->natureAnalytique = $natureAnalytique;
@@ -1672,6 +1724,7 @@ class CreditsBails {
      * Set the num deux immo rachat.
      *
      * @param int $numDeuxImmoRachat The num deux immo rachat.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setNumDeuxImmoRachat($numDeuxImmoRachat) {
         $this->numDeuxImmoRachat = $numDeuxImmoRachat;
@@ -1682,6 +1735,7 @@ class CreditsBails {
      * Set the num immo rachat.
      *
      * @param int $numImmoRachat The num immo rachat.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setNumImmoRachat($numImmoRachat) {
         $this->numImmoRachat = $numImmoRachat;
@@ -1692,6 +1746,7 @@ class CreditsBails {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -1702,6 +1757,7 @@ class CreditsBails {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -1712,6 +1768,7 @@ class CreditsBails {
      * Set the numero deux.
      *
      * @param int $numeroDeux The numero deux.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setNumeroDeux($numeroDeux) {
         $this->numeroDeux = $numeroDeux;
@@ -1722,6 +1779,7 @@ class CreditsBails {
      * Set the numero pj.
      *
      * @param int $numeroPj The numero pj.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setNumeroPj($numeroPj) {
         $this->numeroPj = $numeroPj;
@@ -1732,6 +1790,7 @@ class CreditsBails {
      * Set the quantite.
      *
      * @param float $quantite The quantite.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setQuantite($quantite) {
         $this->quantite = $quantite;
@@ -1742,6 +1801,7 @@ class CreditsBails {
      * Set the service.
      *
      * @param string $service The service.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setService($service) {
         $this->service = $service;
@@ -1752,6 +1812,7 @@ class CreditsBails {
      * Set the taxe fonciere.
      *
      * @param bool $taxeFonciere The taxe fonciere.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setTaxeFonciere($taxeFonciere) {
         $this->taxeFonciere = $taxeFonciere;
@@ -1762,6 +1823,7 @@ class CreditsBails {
      * Set the taxe pro.
      *
      * @param bool $taxePro The taxe pro.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setTaxePro($taxePro) {
         $this->taxePro = $taxePro;
@@ -1772,6 +1834,7 @@ class CreditsBails {
      * Set the tp duree.
      *
      * @param int $tpDuree The tp duree.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setTpDuree($tpDuree) {
         $this->tpDuree = $tpDuree;
@@ -1782,6 +1845,7 @@ class CreditsBails {
      * Set the tp echoir echu.
      *
      * @param string $tpEchoirEchu The tp echoir echu.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setTpEchoirEchu($tpEchoirEchu) {
         $this->tpEchoirEchu = $tpEchoirEchu;
@@ -1792,6 +1856,7 @@ class CreditsBails {
      * Set the tp mois annee.
      *
      * @param string $tpMoisAnnee The tp mois annee.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setTpMoisAnnee($tpMoisAnnee) {
         $this->tpMoisAnnee = $tpMoisAnnee;
@@ -1802,6 +1867,7 @@ class CreditsBails {
      * Set the tp montt depot.
      *
      * @param float $tpMonttDepot The tp montt depot.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setTpMonttDepot($tpMonttDepot) {
         $this->tpMonttDepot = $tpMonttDepot;
@@ -1812,6 +1878,7 @@ class CreditsBails {
      * Set the tp periodicite.
      *
      * @param string $tpPeriodicite The tp periodicite.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setTpPeriodicite($tpPeriodicite) {
         $this->tpPeriodicite = $tpPeriodicite;
@@ -1822,6 +1889,7 @@ class CreditsBails {
      * Set the tp premier paiement.
      *
      * @param DateTime|null $tpPremierPaiement The tp premier paiement.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setTpPremierPaiement(DateTime $tpPremierPaiement = null) {
         $this->tpPremierPaiement = $tpPremierPaiement;
@@ -1832,6 +1900,7 @@ class CreditsBails {
      * Set the valeur euros.
      *
      * @param float $valeurEuros The valeur euros.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setValeurEuros($valeurEuros) {
         $this->valeurEuros = $valeurEuros;
@@ -1842,6 +1911,7 @@ class CreditsBails {
      * Set the valeur ht.
      *
      * @param float $valeurHt The valeur ht.
+     * @return CreditsBails Returns this Credits bails.
      */
     public function setValeurHt($valeurHt) {
         $this->valeurHt = $valeurHt;

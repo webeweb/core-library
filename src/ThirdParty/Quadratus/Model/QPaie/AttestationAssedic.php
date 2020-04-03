@@ -2416,6 +2416,7 @@ class AttestationAssedic {
      * Set the adhesion aides.
      *
      * @param bool $adhesionAides The adhesion aides.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setAdhesionAides($adhesionAides) {
         $this->adhesionAides = $adhesionAides;
@@ -2426,6 +2427,7 @@ class AttestationAssedic {
      * Set the adhesion revocable.
      *
      * @param bool $adhesionRevocable The adhesion revocable.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setAdhesionRevocable($adhesionRevocable) {
         $this->adhesionRevocable = $adhesionRevocable;
@@ -2436,6 +2438,7 @@ class AttestationAssedic {
      * Set the adresse1.
      *
      * @param string $adresse1 The adresse1.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setAdresse1($adresse1) {
         $this->adresse1 = $adresse1;
@@ -2446,6 +2449,7 @@ class AttestationAssedic {
      * Set the adresse2.
      *
      * @param string $adresse2 The adresse2.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setAdresse2($adresse2) {
         $this->adresse2 = $adresse2;
@@ -2456,6 +2460,7 @@ class AttestationAssedic {
      * Set the adresse3.
      *
      * @param string $adresse3 The adresse3.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setAdresse3($adresse3) {
         $this->adresse3 = $adresse3;
@@ -2466,6 +2471,7 @@ class AttestationAssedic {
      * Set the alsace moselle.
      *
      * @param bool $alsaceMoselle The alsace moselle.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setAlsaceMoselle($alsaceMoselle) {
         $this->alsaceMoselle = $alsaceMoselle;
@@ -2476,6 +2482,7 @@ class AttestationAssedic {
      * Set the auto assurance.
      *
      * @param bool $autoAssurance The auto assurance.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setAutoAssurance($autoAssurance) {
         $this->autoAssurance = $autoAssurance;
@@ -2486,6 +2493,7 @@ class AttestationAssedic {
      * Set the caisse indemcp.
      *
      * @param string $caisseIndemcp The caisse indemcp.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCaisseIndemcp($caisseIndemcp) {
         $this->caisseIndemcp = $caisseIndemcp;
@@ -2496,6 +2504,7 @@ class AttestationAssedic {
      * Set the categ emploi autre.
      *
      * @param string $categEmploiAutre The categ emploi autre.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCategEmploiAutre($categEmploiAutre) {
         $this->categEmploiAutre = $categEmploiAutre;
@@ -2506,6 +2515,7 @@ class AttestationAssedic {
      * Set the chomage total.
      *
      * @param bool $chomageTotal The chomage total.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setChomageTotal($chomageTotal) {
         $this->chomageTotal = $chomageTotal;
@@ -2516,6 +2526,7 @@ class AttestationAssedic {
      * Set the code ana.
      *
      * @param string $codeAna The code ana.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCodeAna($codeAna) {
         $this->codeAna = $codeAna;
@@ -2526,6 +2537,7 @@ class AttestationAssedic {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -2536,6 +2548,7 @@ class AttestationAssedic {
      * Set the code motif rupture.
      *
      * @param string $codeMotifRupture The code motif rupture.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCodeMotifRupture($codeMotifRupture) {
         $this->codeMotifRupture = $codeMotifRupture;
@@ -2546,6 +2559,7 @@ class AttestationAssedic {
      * Set the code naf2008.
      *
      * @param string $codeNaf2008 The code naf2008.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCodeNaf2008($codeNaf2008) {
         $this->codeNaf2008 = $codeNaf2008;
@@ -2556,6 +2570,7 @@ class AttestationAssedic {
      * Set the code p.
      *
      * @param string $codeP The code p.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCodeP($codeP) {
         $this->codeP = $codeP;
@@ -2566,6 +2581,7 @@ class AttestationAssedic {
      * Set the code retraite agirc.
      *
      * @param string $codeRetraiteAgirc The code retraite agirc.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCodeRetraiteAgirc($codeRetraiteAgirc) {
         $this->codeRetraiteAgirc = $codeRetraiteAgirc;
@@ -2576,6 +2592,7 @@ class AttestationAssedic {
      * Set the code retraite arrco.
      *
      * @param string $codeRetraiteArrco The code retraite arrco.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCodeRetraiteArrco($codeRetraiteArrco) {
         $this->codeRetraiteArrco = $codeRetraiteArrco;
@@ -2586,6 +2603,7 @@ class AttestationAssedic {
      * Set the code retraite autre.
      *
      * @param string $codeRetraiteAutre The code retraite autre.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setCodeRetraiteAutre($codeRetraiteAutre) {
         $this->codeRetraiteAutre = $codeRetraiteAutre;
@@ -2596,6 +2614,7 @@ class AttestationAssedic {
      * Set the contrat part autre.
      *
      * @param string $contratPartAutre The contrat part autre.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setContratPartAutre($contratPartAutre) {
         $this->contratPartAutre = $contratPartAutre;
@@ -2606,6 +2625,7 @@ class AttestationAssedic {
      * Set the contrat particulier.
      *
      * @param string $contratParticulier The contrat particulier.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setContratParticulier($contratParticulier) {
         $this->contratParticulier = $contratParticulier;
@@ -2616,6 +2636,7 @@ class AttestationAssedic {
      * Set the convention fne.
      *
      * @param bool $conventionFne The convention fne.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setConventionFne($conventionFne) {
         $this->conventionFne = $conventionFne;
@@ -2626,6 +2647,7 @@ class AttestationAssedic {
      * Set the date adhesion.
      *
      * @param DateTime|null $dateAdhesion The date adhesion.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDateAdhesion(DateTime $dateAdhesion = null) {
         $this->dateAdhesion = $dateAdhesion;
@@ -2636,6 +2658,7 @@ class AttestationAssedic {
      * Set the date convention fne.
      *
      * @param DateTime|null $dateConventionFne The date convention fne.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDateConventionFne(DateTime $dateConventionFne = null) {
         $this->dateConventionFne = $dateConventionFne;
@@ -2646,6 +2669,7 @@ class AttestationAssedic {
      * Set the date naiss.
      *
      * @param DateTime|null $dateNaiss The date naiss.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDateNaiss(DateTime $dateNaiss = null) {
         $this->dateNaiss = $dateNaiss;
@@ -2656,6 +2680,7 @@ class AttestationAssedic {
      * Set the date notification.
      *
      * @param DateTime|null $dateNotification The date notification.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDateNotification(DateTime $dateNotification = null) {
         $this->dateNotification = $dateNotification;
@@ -2666,6 +2691,7 @@ class AttestationAssedic {
      * Set the date paie.
      *
      * @param DateTime|null $datePaie The date paie.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDatePaie(DateTime $datePaie = null) {
         $this->datePaie = $datePaie;
@@ -2676,6 +2702,7 @@ class AttestationAssedic {
      * Set the date paie2.
      *
      * @param DateTime|null $datePaie2 The date paie2.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDatePaie2(DateTime $datePaie2 = null) {
         $this->datePaie2 = $datePaie2;
@@ -2686,6 +2713,7 @@ class AttestationAssedic {
      * Set the date plan.
      *
      * @param DateTime|null $datePlan The date plan.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDatePlan(DateTime $datePlan = null) {
         $this->datePlan = $datePlan;
@@ -2696,6 +2724,7 @@ class AttestationAssedic {
      * Set the demande ddte deb.
      *
      * @param DateTime|null $demandeDdteDeb The demande ddte deb.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDemandeDdteDeb(DateTime $demandeDdteDeb = null) {
         $this->demandeDdteDeb = $demandeDdteDeb;
@@ -2706,6 +2735,7 @@ class AttestationAssedic {
      * Set the demande ddte fin.
      *
      * @param DateTime|null $demandeDdteFin The demande ddte fin.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDemandeDdteFin(DateTime $demandeDdteFin = null) {
         $this->demandeDdteFin = $demandeDdteFin;
@@ -2716,6 +2746,7 @@ class AttestationAssedic {
      * Set the demande ddte reprise.
      *
      * @param DateTime|null $demandeDdteReprise The demande ddte reprise.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDemandeDdteReprise(DateTime $demandeDdteReprise = null) {
         $this->demandeDdteReprise = $demandeDdteReprise;
@@ -2726,6 +2757,7 @@ class AttestationAssedic {
      * Set the dept.
      *
      * @param string $dept The dept.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDept($dept) {
         $this->dept = $dept;
@@ -2736,6 +2768,7 @@ class AttestationAssedic {
      * Set the dern jour trav.
      *
      * @param DateTime|null $dernJourTrav The dern jour trav.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDernJourTrav(DateTime $dernJourTrav = null) {
         $this->dernJourTrav = $dernJourTrav;
@@ -2746,6 +2779,7 @@ class AttestationAssedic {
      * Set the dern lieu travail.
      *
      * @param string $dernLieuTravail The dern lieu travail.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDernLieuTravail($dernLieuTravail) {
         $this->dernLieuTravail = $dernLieuTravail;
@@ -2756,6 +2790,7 @@ class AttestationAssedic {
      * Set the dernier emploi.
      *
      * @param string $dernierEmploi The dernier emploi.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDernierEmploi($dernierEmploi) {
         $this->dernierEmploi = $dernierEmploi;
@@ -2766,6 +2801,7 @@ class AttestationAssedic {
      * Set the duree emploi1 deb.
      *
      * @param DateTime|null $dureeEmploi1Deb The duree emploi1 deb.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDureeEmploi1Deb(DateTime $dureeEmploi1Deb = null) {
         $this->dureeEmploi1Deb = $dureeEmploi1Deb;
@@ -2776,6 +2812,7 @@ class AttestationAssedic {
      * Set the duree emploi1 fin.
      *
      * @param DateTime|null $dureeEmploi1Fin The duree emploi1 fin.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDureeEmploi1Fin(DateTime $dureeEmploi1Fin = null) {
         $this->dureeEmploi1Fin = $dureeEmploi1Fin;
@@ -2786,6 +2823,7 @@ class AttestationAssedic {
      * Set the duree emploi2 deb.
      *
      * @param DateTime|null $dureeEmploi2Deb The duree emploi2 deb.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDureeEmploi2Deb(DateTime $dureeEmploi2Deb = null) {
         $this->dureeEmploi2Deb = $dureeEmploi2Deb;
@@ -2796,6 +2834,7 @@ class AttestationAssedic {
      * Set the duree emploi2 fin.
      *
      * @param DateTime|null $dureeEmploi2Fin The duree emploi2 fin.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setDureeEmploi2Fin(DateTime $dureeEmploi2Fin = null) {
         $this->dureeEmploi2Fin = $dureeEmploi2Fin;
@@ -2806,6 +2845,7 @@ class AttestationAssedic {
      * Set the effectif.
      *
      * @param string $effectif The effectif.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setEffectif($effectif) {
         $this->effectif = $effectif;
@@ -2816,6 +2856,7 @@ class AttestationAssedic {
      * Set the effectif val.
      *
      * @param float $effectifVal The effectif val.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setEffectifVal($effectifVal) {
         $this->effectifVal = $effectifVal;
@@ -2826,6 +2867,7 @@ class AttestationAssedic {
      * Set the emploi collectivite.
      *
      * @param string $emploiCollectivite The emploi collectivite.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setEmploiCollectivite($emploiCollectivite) {
         $this->emploiCollectivite = $emploiCollectivite;
@@ -2836,6 +2878,7 @@ class AttestationAssedic {
      * Set the etbl adresse1.
      *
      * @param string $etblAdresse1 The etbl adresse1.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setEtblAdresse1($etblAdresse1) {
         $this->etblAdresse1 = $etblAdresse1;
@@ -2846,6 +2889,7 @@ class AttestationAssedic {
      * Set the etbl adresse2.
      *
      * @param string $etblAdresse2 The etbl adresse2.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setEtblAdresse2($etblAdresse2) {
         $this->etblAdresse2 = $etblAdresse2;
@@ -2856,6 +2900,7 @@ class AttestationAssedic {
      * Set the etbl adresse3.
      *
      * @param string $etblAdresse3 The etbl adresse3.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setEtblAdresse3($etblAdresse3) {
         $this->etblAdresse3 = $etblAdresse3;
@@ -2866,6 +2911,7 @@ class AttestationAssedic {
      * Set the etbl raison sociale.
      *
      * @param string $etblRaisonSociale The etbl raison sociale.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setEtblRaisonSociale($etblRaisonSociale) {
         $this->etblRaisonSociale = $etblRaisonSociale;
@@ -2876,6 +2922,7 @@ class AttestationAssedic {
      * Set the etbl tel.
      *
      * @param string $etblTel The etbl tel.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setEtblTel($etblTel) {
         $this->etblTel = $etblTel;
@@ -2886,6 +2933,7 @@ class AttestationAssedic {
      * Set the fngs non a percevoir motif.
      *
      * @param string $fngsNonAPercevoirMotif The fngs non a percevoir motif.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setFngsNonAPercevoirMotif($fngsNonAPercevoirMotif) {
         $this->fngsNonAPercevoirMotif = $fngsNonAPercevoirMotif;
@@ -2896,6 +2944,7 @@ class AttestationAssedic {
      * Set the fngs non percue motif.
      *
      * @param string $fngsNonPercueMotif The fngs non percue motif.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setFngsNonPercueMotif($fngsNonPercueMotif) {
         $this->fngsNonPercueMotif = $fngsNonPercueMotif;
@@ -2906,6 +2955,7 @@ class AttestationAssedic {
      * Set the fngs percue.
      *
      * @param bool $fngsPercue The fngs percue.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setFngsPercue($fngsPercue) {
         $this->fngsPercue = $fngsPercue;
@@ -2916,6 +2966,7 @@ class AttestationAssedic {
      * Set the fngs percue creance.
      *
      * @param string $fngsPercueCreance The fngs percue creance.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setFngsPercueCreance($fngsPercueCreance) {
         $this->fngsPercueCreance = $fngsPercueCreance;
@@ -2926,6 +2977,7 @@ class AttestationAssedic {
      * Set the fngsa percevoir.
      *
      * @param bool $fngsaPercevoir The fngsa percevoir.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setFngsaPercevoir($fngsaPercevoir) {
         $this->fngsaPercevoir = $fngsaPercevoir;
@@ -2936,6 +2988,7 @@ class AttestationAssedic {
      * Set the fngsa percevoir creance.
      *
      * @param string $fngsaPercevoirCreance The fngsa percevoir creance.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setFngsaPercevoirCreance($fngsaPercevoirCreance) {
         $this->fngsaPercevoirCreance = $fngsaPercevoirCreance;
@@ -2946,6 +2999,7 @@ class AttestationAssedic {
      * Set the heures trav.
      *
      * @param float $heuresTrav The heures trav.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setHeuresTrav($heuresTrav) {
         $this->heuresTrav = $heuresTrav;
@@ -2956,6 +3010,7 @@ class AttestationAssedic {
      * Set the heures trav2.
      *
      * @param float $heuresTrav2 The heures trav2.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setHeuresTrav2($heuresTrav2) {
         $this->heuresTrav2 = $heuresTrav2;
@@ -2966,6 +3021,7 @@ class AttestationAssedic {
      * Set the horaire annuel etbl.
      *
      * @param float $horaireAnnuelEtbl The horaire annuel etbl.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setHoraireAnnuelEtbl($horaireAnnuelEtbl) {
         $this->horaireAnnuelEtbl = $horaireAnnuelEtbl;
@@ -2976,6 +3032,7 @@ class AttestationAssedic {
      * Set the horaire annuel sal.
      *
      * @param float $horaireAnnuelSal The horaire annuel sal.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setHoraireAnnuelSal($horaireAnnuelSal) {
         $this->horaireAnnuelSal = $horaireAnnuelSal;
@@ -2986,6 +3043,7 @@ class AttestationAssedic {
      * Set the horaire hebdo etbl.
      *
      * @param float $horaireHebdoEtbl The horaire hebdo etbl.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setHoraireHebdoEtbl($horaireHebdoEtbl) {
         $this->horaireHebdoEtbl = $horaireHebdoEtbl;
@@ -2996,6 +3054,7 @@ class AttestationAssedic {
      * Set the horaire hebdo sal.
      *
      * @param float $horaireHebdoSal The horaire hebdo sal.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setHoraireHebdoSal($horaireHebdoSal) {
         $this->horaireHebdoSal = $horaireHebdoSal;
@@ -3006,6 +3065,7 @@ class AttestationAssedic {
      * Set the indemn autres.
      *
      * @param float $indemnAutres The indemn autres.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnAutres($indemnAutres) {
         $this->indemnAutres = $indemnAutres;
@@ -3016,6 +3076,7 @@ class AttestationAssedic {
      * Set the indemn clientele.
      *
      * @param float $indemnClientele The indemn clientele.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnClientele($indemnClientele) {
         $this->indemnClientele = $indemnClientele;
@@ -3026,6 +3087,7 @@ class AttestationAssedic {
      * Set the indemn compens cp.
      *
      * @param float $indemnCompensCp The indemn compens cp.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnCompensCp($indemnCompensCp) {
         $this->indemnCompensCp = $indemnCompensCp;
@@ -3036,6 +3098,7 @@ class AttestationAssedic {
      * Set the indemn compens preavis.
      *
      * @param float $indemnCompensPreavis The indemn compens preavis.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnCompensPreavis($indemnCompensPreavis) {
         $this->indemnCompensPreavis = $indemnCompensPreavis;
@@ -3046,6 +3109,7 @@ class AttestationAssedic {
      * Set the indemn depart retraite.
      *
      * @param float $indemnDepartRetraite The indemn depart retraite.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnDepartRetraite($indemnDepartRetraite) {
         $this->indemnDepartRetraite = $indemnDepartRetraite;
@@ -3056,6 +3120,7 @@ class AttestationAssedic {
      * Set the indemn due sinistre.
      *
      * @param float $indemnDueSinistre The indemn due sinistre.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnDueSinistre($indemnDueSinistre) {
         $this->indemnDueSinistre = $indemnDueSinistre;
@@ -3066,6 +3131,7 @@ class AttestationAssedic {
      * Set the indemn fin cdd.
      *
      * @param float $indemnFinCdd The indemn fin cdd.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnFinCdd($indemnFinCdd) {
         $this->indemnFinCdd = $indemnFinCdd;
@@ -3076,6 +3142,7 @@ class AttestationAssedic {
      * Set the indemn fin cne.
      *
      * @param float $indemnFinCne The indemn fin cne.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnFinCne($indemnFinCne) {
         $this->indemnFinCne = $indemnFinCne;
@@ -3086,6 +3153,7 @@ class AttestationAssedic {
      * Set the indemn fin mission.
      *
      * @param float $indemnFinMission The indemn fin mission.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnFinMission($indemnFinMission) {
         $this->indemnFinMission = $indemnFinMission;
@@ -3096,6 +3164,7 @@ class AttestationAssedic {
      * Set the indemn journalistes.
      *
      * @param float $indemnJournalistes The indemn journalistes.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnJournalistes($indemnJournalistes) {
         $this->indemnJournalistes = $indemnJournalistes;
@@ -3106,6 +3175,7 @@ class AttestationAssedic {
      * Set the indemn licens.
      *
      * @param float $indemnLicens The indemn licens.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnLicens($indemnLicens) {
         $this->indemnLicens = $indemnLicens;
@@ -3116,6 +3186,7 @@ class AttestationAssedic {
      * Set the indemn navig.
      *
      * @param float $indemnNavig The indemn navig.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnNavig($indemnNavig) {
         $this->indemnNavig = $indemnNavig;
@@ -3126,6 +3197,7 @@ class AttestationAssedic {
      * Set the indemn rupt conv.
      *
      * @param float $indemnRuptConv The indemn rupt conv.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnRuptConv($indemnRuptConv) {
         $this->indemnRuptConv = $indemnRuptConv;
@@ -3136,6 +3208,7 @@ class AttestationAssedic {
      * Set the indemn speci licens.
      *
      * @param float $indemnSpeciLicens The indemn speci licens.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnSpeciLicens($indemnSpeciLicens) {
         $this->indemnSpeciLicens = $indemnSpeciLicens;
@@ -3146,6 +3219,7 @@ class AttestationAssedic {
      * Set the indemn specif licens.
      *
      * @param float $indemnSpecifLicens The indemn specif licens.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnSpecifLicens($indemnSpecifLicens) {
         $this->indemnSpecifLicens = $indemnSpecifLicens;
@@ -3156,6 +3230,7 @@ class AttestationAssedic {
      * Set the indemn suppl licens.
      *
      * @param float $indemnSupplLicens The indemn suppl licens.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnSupplLicens($indemnSupplLicens) {
         $this->indemnSupplLicens = $indemnSupplLicens;
@@ -3166,6 +3241,7 @@ class AttestationAssedic {
      * Set the indemn versee apprenti.
      *
      * @param float $indemnVerseeApprenti The indemn versee apprenti.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setIndemnVerseeApprenti($indemnVerseeApprenti) {
         $this->indemnVerseeApprenti = $indemnVerseeApprenti;
@@ -3176,6 +3252,7 @@ class AttestationAssedic {
      * Set the licencie55ans.
      *
      * @param bool $licencie55ans The licencie55ans.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setLicencie55ans($licencie55ans) {
         $this->licencie55ans = $licencie55ans;
@@ -3186,6 +3263,7 @@ class AttestationAssedic {
      * Set the licencie plan social.
      *
      * @param bool $licenciePlanSocial The licencie plan social.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setLicenciePlanSocial($licenciePlanSocial) {
         $this->licenciePlanSocial = $licenciePlanSocial;
@@ -3196,6 +3274,7 @@ class AttestationAssedic {
      * Set the lien document.
      *
      * @param string $lienDocument The lien document.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setLienDocument($lienDocument) {
         $this->lienDocument = $lienDocument;
@@ -3206,6 +3285,7 @@ class AttestationAssedic {
      * Set the lien parente.
      *
      * @param string $lienParente The lien parente.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setLienParente($lienParente) {
         $this->lienParente = $lienParente;
@@ -3216,6 +3296,7 @@ class AttestationAssedic {
      * Set the motif difference.
      *
      * @param string $motifDifference The motif difference.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setMotifDifference($motifDifference) {
         $this->motifDifference = $motifDifference;
@@ -3226,6 +3307,7 @@ class AttestationAssedic {
      * Set the motif non paie iccp.
      *
      * @param string $motifNonPaieIccp The motif non paie iccp.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setMotifNonPaieIccp($motifNonPaieIccp) {
         $this->motifNonPaieIccp = $motifNonPaieIccp;
@@ -3236,6 +3318,7 @@ class AttestationAssedic {
      * Set the motif non paiement.
      *
      * @param string $motifNonPaiement The motif non paiement.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setMotifNonPaiement($motifNonPaiement) {
         $this->motifNonPaiement = $motifNonPaiement;
@@ -3246,6 +3329,7 @@ class AttestationAssedic {
      * Set the motif rupture.
      *
      * @param string $motifRupture The motif rupture.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setMotifRupture($motifRupture) {
         $this->motifRupture = $motifRupture;
@@ -3256,6 +3340,7 @@ class AttestationAssedic {
      * Set the mt idemn conv col.
      *
      * @param float $mtIdemnConvCol The mt idemn conv col.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setMtIdemnConvCol($mtIdemnConvCol) {
         $this->mtIdemnConvCol = $mtIdemnConvCol;
@@ -3266,6 +3351,7 @@ class AttestationAssedic {
      * Set the mt idemn transac.
      *
      * @param float $mtIdemnTransac The mt idemn transac.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setMtIdemnTransac($mtIdemnTransac) {
         $this->mtIdemnTransac = $mtIdemnTransac;
@@ -3276,6 +3362,7 @@ class AttestationAssedic {
      * Set the naf.
      *
      * @param string $naf The naf.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNaf($naf) {
         $this->naf = $naf;
@@ -3286,6 +3373,7 @@ class AttestationAssedic {
      * Set the nature contrat.
      *
      * @param string $natureContrat The nature contrat.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNatureContrat($natureContrat) {
         $this->natureContrat = $natureContrat;
@@ -3296,6 +3384,7 @@ class AttestationAssedic {
      * Set the nb jours ouvrables.
      *
      * @param float $nbJoursOuvrables The nb jours ouvrables.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNbJoursOuvrables($nbJoursOuvrables) {
         $this->nbJoursOuvrables = $nbJoursOuvrables;
@@ -3306,6 +3395,7 @@ class AttestationAssedic {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -3316,6 +3406,7 @@ class AttestationAssedic {
      * Set the niveau qualif.
      *
      * @param string $niveauQualif The niveau qualif.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNiveauQualif($niveauQualif) {
         $this->niveauQualif = $niveauQualif;
@@ -3326,6 +3417,7 @@ class AttestationAssedic {
      * Set the nom ass chom.
      *
      * @param string $nomAssChom The nom ass chom.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNomAssChom($nomAssChom) {
         $this->nomAssChom = $nomAssChom;
@@ -3336,6 +3428,7 @@ class AttestationAssedic {
      * Set the nom employe.
      *
      * @param string $nomEmploye The nom employe.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNomEmploye($nomEmploye) {
         $this->nomEmploye = $nomEmploye;
@@ -3346,6 +3439,7 @@ class AttestationAssedic {
      * Set the nom naissance.
      *
      * @param string $nomNaissance The nom naissance.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNomNaissance($nomNaissance) {
         $this->nomNaissance = $nomNaissance;
@@ -3356,6 +3450,7 @@ class AttestationAssedic {
      * Set the nom special secu.
      *
      * @param string $nomSpecialSecu The nom special secu.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNomSpecialSecu($nomSpecialSecu) {
         $this->nomSpecialSecu = $nomSpecialSecu;
@@ -3366,6 +3461,7 @@ class AttestationAssedic {
      * Set the nouvelle attest.
      *
      * @param bool $nouvelleAttest The nouvelle attest.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNouvelleAttest($nouvelleAttest) {
         $this->nouvelleAttest = $nouvelleAttest;
@@ -3376,6 +3472,7 @@ class AttestationAssedic {
      * Set the num ass chom.
      *
      * @param string $numAssChom The num ass chom.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNumAssChom($numAssChom) {
         $this->numAssChom = $numAssChom;
@@ -3386,6 +3483,7 @@ class AttestationAssedic {
      * Set the num convention fne.
      *
      * @param string $numConventionFne The num convention fne.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNumConventionFne($numConventionFne) {
         $this->numConventionFne = $numConventionFne;
@@ -3396,6 +3494,7 @@ class AttestationAssedic {
      * Set the num convention gestion.
      *
      * @param string $numConventionGestion The num convention gestion.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNumConventionGestion($numConventionGestion) {
         $this->numConventionGestion = $numConventionGestion;
@@ -3406,6 +3505,7 @@ class AttestationAssedic {
      * Set the num special secu.
      *
      * @param string $numSpecialSecu The num special secu.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNumSpecialSecu($numSpecialSecu) {
         $this->numSpecialSecu = $numSpecialSecu;
@@ -3416,6 +3516,7 @@ class AttestationAssedic {
      * Set the numero attestation.
      *
      * @param string $numeroAttestation The numero attestation.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNumeroAttestation($numeroAttestation) {
         $this->numeroAttestation = $numeroAttestation;
@@ -3426,6 +3527,7 @@ class AttestationAssedic {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -3436,6 +3538,7 @@ class AttestationAssedic {
      * Set the organisme ass chom.
      *
      * @param string $organismeAssChom The organisme ass chom.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setOrganismeAssChom($organismeAssChom) {
         $this->organismeAssChom = $organismeAssChom;
@@ -3446,6 +3549,7 @@ class AttestationAssedic {
      * Set the preavis effectue.
      *
      * @param bool $preavisEffectue The preavis effectue.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPreavisEffectue($preavisEffectue) {
         $this->preavisEffectue = $preavisEffectue;
@@ -3456,6 +3560,7 @@ class AttestationAssedic {
      * Set the preavis effectue deb.
      *
      * @param DateTime|null $preavisEffectueDeb The preavis effectue deb.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPreavisEffectueDeb(DateTime $preavisEffectueDeb = null) {
         $this->preavisEffectueDeb = $preavisEffectueDeb;
@@ -3466,6 +3571,7 @@ class AttestationAssedic {
      * Set the preavis effectue fin.
      *
      * @param DateTime|null $preavisEffectueFin The preavis effectue fin.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPreavisEffectueFin(DateTime $preavisEffectueFin = null) {
         $this->preavisEffectueFin = $preavisEffectueFin;
@@ -3476,6 +3582,7 @@ class AttestationAssedic {
      * Set the preavis effectue paye.
      *
      * @param bool $preavisEffectuePaye The preavis effectue paye.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPreavisEffectuePaye($preavisEffectuePaye) {
         $this->preavisEffectuePaye = $preavisEffectuePaye;
@@ -3486,6 +3593,7 @@ class AttestationAssedic {
      * Set the preavis non effectue.
      *
      * @param bool $preavisNonEffectue The preavis non effectue.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPreavisNonEffectue($preavisNonEffectue) {
         $this->preavisNonEffectue = $preavisNonEffectue;
@@ -3496,6 +3604,7 @@ class AttestationAssedic {
      * Set the preavis non effectue deb.
      *
      * @param DateTime|null $preavisNonEffectueDeb The preavis non effectue deb.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPreavisNonEffectueDeb(DateTime $preavisNonEffectueDeb = null) {
         $this->preavisNonEffectueDeb = $preavisNonEffectueDeb;
@@ -3506,6 +3615,7 @@ class AttestationAssedic {
      * Set the preavis non effectue fin.
      *
      * @param DateTime|null $preavisNonEffectueFin The preavis non effectue fin.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPreavisNonEffectueFin(DateTime $preavisNonEffectueFin = null) {
         $this->preavisNonEffectueFin = $preavisNonEffectueFin;
@@ -3516,6 +3626,7 @@ class AttestationAssedic {
      * Set the preavis non effectue paye.
      *
      * @param bool $preavisNonEffectuePaye The preavis non effectue paye.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPreavisNonEffectuePaye($preavisNonEffectuePaye) {
         $this->preavisNonEffectuePaye = $preavisNonEffectuePaye;
@@ -3526,6 +3637,7 @@ class AttestationAssedic {
      * Set the precompte stc.
      *
      * @param float $precompteStc The precompte stc.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPrecompteStc($precompteStc) {
         $this->precompteStc = $precompteStc;
@@ -3536,6 +3648,7 @@ class AttestationAssedic {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -3546,6 +3659,7 @@ class AttestationAssedic {
      * Set the qualite emploi.
      *
      * @param string $qualiteEmploi The qualite emploi.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setQualiteEmploi($qualiteEmploi) {
         $this->qualiteEmploi = $qualiteEmploi;
@@ -3556,6 +3670,7 @@ class AttestationAssedic {
      * Set the reclassement.
      *
      * @param bool $reclassement The reclassement.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setReclassement($reclassement) {
         $this->reclassement = $reclassement;
@@ -3566,6 +3681,7 @@ class AttestationAssedic {
      * Set the refus salarie.
      *
      * @param bool $refusSalarie The refus salarie.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setRefusSalarie($refusSalarie) {
         $this->refusSalarie = $refusSalarie;
@@ -3576,6 +3692,7 @@ class AttestationAssedic {
      * Set the retraite agirc.
      *
      * @param string $retraiteAgirc The retraite agirc.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setRetraiteAgirc($retraiteAgirc) {
         $this->retraiteAgirc = $retraiteAgirc;
@@ -3586,6 +3703,7 @@ class AttestationAssedic {
      * Set the retraite agirc compl.
      *
      * @param string $retraiteAgircCompl The retraite agirc compl.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setRetraiteAgircCompl($retraiteAgircCompl) {
         $this->retraiteAgircCompl = $retraiteAgircCompl;
@@ -3596,6 +3714,7 @@ class AttestationAssedic {
      * Set the retraite arrco.
      *
      * @param string $retraiteArrco The retraite arrco.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setRetraiteArrco($retraiteArrco) {
         $this->retraiteArrco = $retraiteArrco;
@@ -3606,6 +3725,7 @@ class AttestationAssedic {
      * Set the retraite arrco compl.
      *
      * @param string $retraiteArrcoCompl The retraite arrco compl.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setRetraiteArrcoCompl($retraiteArrcoCompl) {
         $this->retraiteArrcoCompl = $retraiteArrcoCompl;
@@ -3616,6 +3736,7 @@ class AttestationAssedic {
      * Set the retraite autre.
      *
      * @param string $retraiteAutre The retraite autre.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setRetraiteAutre($retraiteAutre) {
         $this->retraiteAutre = $retraiteAutre;
@@ -3626,6 +3747,7 @@ class AttestationAssedic {
      * Set the retraite autre compl.
      *
      * @param string $retraiteAutreCompl The retraite autre compl.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setRetraiteAutreCompl($retraiteAutreCompl) {
         $this->retraiteAutreCompl = $retraiteAutreCompl;
@@ -3636,6 +3758,7 @@ class AttestationAssedic {
      * Set the salaire brut.
      *
      * @param float $salaireBrut The salaire brut.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSalaireBrut($salaireBrut) {
         $this->salaireBrut = $salaireBrut;
@@ -3646,6 +3769,7 @@ class AttestationAssedic {
      * Set the signature code qualite.
      *
      * @param string $signatureCodeQualite The signature code qualite.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSignatureCodeQualite($signatureCodeQualite) {
         $this->signatureCodeQualite = $signatureCodeQualite;
@@ -3656,6 +3780,7 @@ class AttestationAssedic {
      * Set the signature contact.
      *
      * @param string $signatureContact The signature contact.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSignatureContact($signatureContact) {
         $this->signatureContact = $signatureContact;
@@ -3666,6 +3791,7 @@ class AttestationAssedic {
      * Set the signature date.
      *
      * @param DateTime|null $signatureDate The signature date.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSignatureDate(DateTime $signatureDate = null) {
         $this->signatureDate = $signatureDate;
@@ -3676,6 +3802,7 @@ class AttestationAssedic {
      * Set the signature nom.
      *
      * @param string $signatureNom The signature nom.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSignatureNom($signatureNom) {
         $this->signatureNom = $signatureNom;
@@ -3686,6 +3813,7 @@ class AttestationAssedic {
      * Set the signature prenom.
      *
      * @param string $signaturePrenom The signature prenom.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSignaturePrenom($signaturePrenom) {
         $this->signaturePrenom = $signaturePrenom;
@@ -3696,6 +3824,7 @@ class AttestationAssedic {
      * Set the signature qualite.
      *
      * @param string $signatureQualite The signature qualite.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSignatureQualite($signatureQualite) {
         $this->signatureQualite = $signatureQualite;
@@ -3706,6 +3835,7 @@ class AttestationAssedic {
      * Set the signature tel.
      *
      * @param string $signatureTel The signature tel.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSignatureTel($signatureTel) {
         $this->signatureTel = $signatureTel;
@@ -3716,6 +3846,7 @@ class AttestationAssedic {
      * Set the signature ville.
      *
      * @param string $signatureVille The signature ville.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSignatureVille($signatureVille) {
         $this->signatureVille = $signatureVille;
@@ -3726,6 +3857,7 @@ class AttestationAssedic {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -3736,6 +3868,7 @@ class AttestationAssedic {
      * Set the solde tout compte.
      *
      * @param string $soldeToutCompte The solde tout compte.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSoldeToutCompte($soldeToutCompte) {
         $this->soldeToutCompte = $soldeToutCompte;
@@ -3746,6 +3879,7 @@ class AttestationAssedic {
      * Set the sommes periode deb.
      *
      * @param DateTime|null $sommesPeriodeDeb The sommes periode deb.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSommesPeriodeDeb(DateTime $sommesPeriodeDeb = null) {
         $this->sommesPeriodeDeb = $sommesPeriodeDeb;
@@ -3756,6 +3890,7 @@ class AttestationAssedic {
      * Set the sommes periode deb2.
      *
      * @param DateTime|null $sommesPeriodeDeb2 The sommes periode deb2.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSommesPeriodeDeb2(DateTime $sommesPeriodeDeb2 = null) {
         $this->sommesPeriodeDeb2 = $sommesPeriodeDeb2;
@@ -3766,6 +3901,7 @@ class AttestationAssedic {
      * Set the sommes periode fin.
      *
      * @param DateTime|null $sommesPeriodeFin The sommes periode fin.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSommesPeriodeFin(DateTime $sommesPeriodeFin = null) {
         $this->sommesPeriodeFin = $sommesPeriodeFin;
@@ -3776,6 +3912,7 @@ class AttestationAssedic {
      * Set the sommes periode fin2.
      *
      * @param DateTime|null $sommesPeriodeFin2 The sommes periode fin2.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSommesPeriodeFin2(DateTime $sommesPeriodeFin2 = null) {
         $this->sommesPeriodeFin2 = $sommesPeriodeFin2;
@@ -3786,6 +3923,7 @@ class AttestationAssedic {
      * Set the special secu.
      *
      * @param string $specialSecu The special secu.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setSpecialSecu($specialSecu) {
         $this->specialSecu = $specialSecu;
@@ -3796,6 +3934,7 @@ class AttestationAssedic {
      * Set the statut.
      *
      * @param string $statut The statut.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setStatut($statut) {
         $this->statut = $statut;
@@ -3806,6 +3945,7 @@ class AttestationAssedic {
      * Set the statut cadre.
      *
      * @param bool $statutCadre The statut cadre.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setStatutCadre($statutCadre) {
         $this->statutCadre = $statutCadre;
@@ -3816,6 +3956,7 @@ class AttestationAssedic {
      * Set the statut part autre.
      *
      * @param string $statutPartAutre The statut part autre.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setStatutPartAutre($statutPartAutre) {
         $this->statutPartAutre = $statutPartAutre;
@@ -3826,6 +3967,7 @@ class AttestationAssedic {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setTitre($titre) {
         $this->titre = $titre;
@@ -3836,6 +3978,7 @@ class AttestationAssedic {
      * Set the total sommes.
      *
      * @param float $totalSommes The total sommes.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setTotalSommes($totalSommes) {
         $this->totalSommes = $totalSommes;
@@ -3846,6 +3989,7 @@ class AttestationAssedic {
      * Set the transaction en cours.
      *
      * @param bool $transactionEnCours The transaction en cours.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setTransactionEnCours($transactionEnCours) {
         $this->transactionEnCours = $transactionEnCours;
@@ -3856,6 +4000,7 @@ class AttestationAssedic {
      * Set the type assedic.
      *
      * @param string $typeAssedic The type assedic.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setTypeAssedic($typeAssedic) {
         $this->typeAssedic = $typeAssedic;
@@ -3866,6 +4011,7 @@ class AttestationAssedic {
      * Set the type diff horaire.
      *
      * @param string $typeDiffHoraire The type diff horaire.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setTypeDiffHoraire($typeDiffHoraire) {
         $this->typeDiffHoraire = $typeDiffHoraire;
@@ -3876,6 +4022,7 @@ class AttestationAssedic {
      * Set the type societe.
      *
      * @param string $typeSociete The type societe.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setTypeSociete($typeSociete) {
         $this->typeSociete = $typeSociete;
@@ -3886,6 +4033,7 @@ class AttestationAssedic {
      * Set the urssaf.
      *
      * @param string $urssaf The urssaf.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setUrssaf($urssaf) {
         $this->urssaf = $urssaf;
@@ -3896,6 +4044,7 @@ class AttestationAssedic {
      * Set the validite convention fne.
      *
      * @param DateTime|null $validiteConventionFne The validite convention fne.
+     * @return AttestationAssedic Returns this Attestation assedic.
      */
     public function setValiditeConventionFne(DateTime $validiteConventionFne = null) {
         $this->validiteConventionFne = $validiteConventionFne;

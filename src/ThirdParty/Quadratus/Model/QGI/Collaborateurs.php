@@ -3328,6 +3328,7 @@ class Collaborateurs {
      * Set the acces autorise bons travaux.
      *
      * @param bool $accesAutoriseBonsTravaux The acces autorise bons travaux.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesAutoriseBonsTravaux($accesAutoriseBonsTravaux) {
         $this->accesAutoriseBonsTravaux = $accesAutoriseBonsTravaux;
@@ -3338,6 +3339,7 @@ class Collaborateurs {
      * Set the acces autorise plan facturation.
      *
      * @param bool $accesAutorisePlanFacturation The acces autorise plan facturation.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesAutorisePlanFacturation($accesAutorisePlanFacturation) {
         $this->accesAutorisePlanFacturation = $accesAutorisePlanFacturation;
@@ -3348,6 +3350,7 @@ class Collaborateurs {
      * Set the acces autorise plan tache.
      *
      * @param bool $accesAutorisePlanTache The acces autorise plan tache.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesAutorisePlanTache($accesAutorisePlanTache) {
         $this->accesAutorisePlanTache = $accesAutorisePlanTache;
@@ -3358,6 +3361,7 @@ class Collaborateurs {
      * Set the acces cur doss only.
      *
      * @param bool $accesCurDossOnly The acces cur doss only.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesCurDossOnly($accesCurDossOnly) {
         $this->accesCurDossOnly = $accesCurDossOnly;
@@ -3368,6 +3372,7 @@ class Collaborateurs {
      * Set the acces docs cab.
      *
      * @param bool $accesDocsCab The acces docs cab.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesDocsCab($accesDocsCab) {
         $this->accesDocsCab = $accesDocsCab;
@@ -3378,6 +3383,7 @@ class Collaborateurs {
      * Set the acces dossier cpta.
      *
      * @param string $accesDossierCpta The acces dossier cpta.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesDossierCpta($accesDossierCpta) {
         $this->accesDossierCpta = $accesDossierCpta;
@@ -3388,6 +3394,7 @@ class Collaborateurs {
      * Set the acces dossier paie.
      *
      * @param string $accesDossierPaie The acces dossier paie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesDossierPaie($accesDossierPaie) {
         $this->accesDossierPaie = $accesDossierPaie;
@@ -3398,6 +3405,7 @@ class Collaborateurs {
      * Set the acces gestionaire stats croisees.
      *
      * @param bool $accesGestionaireStatsCroisees The acces gestionaire stats croisees.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesGestionaireStatsCroisees($accesGestionaireStatsCroisees) {
         $this->accesGestionaireStatsCroisees = $accesGestionaireStatsCroisees;
@@ -3408,6 +3416,7 @@ class Collaborateurs {
      * Set the acces rep commun.
      *
      * @param string $accesRepCommun The acces rep commun.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesRepCommun($accesRepCommun) {
         $this->accesRepCommun = $accesRepCommun;
@@ -3418,6 +3427,7 @@ class Collaborateurs {
      * Set the acces stat cab.
      *
      * @param bool $accesStatCab The acces stat cab.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAccesStatCab($accesStatCab) {
         $this->accesStatCab = $accesStatCab;
@@ -3428,6 +3438,7 @@ class Collaborateurs {
      * Set the annulation affaire.
      *
      * @param bool $annulationAffaire The annulation affaire.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationAffaire($annulationAffaire) {
         $this->annulationAffaire = $annulationAffaire;
@@ -3438,6 +3449,7 @@ class Collaborateurs {
      * Set the annulation article.
      *
      * @param bool $annulationArticle The annulation article.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationArticle($annulationArticle) {
         $this->annulationArticle = $annulationArticle;
@@ -3448,6 +3460,7 @@ class Collaborateurs {
      * Set the annulation bons travaux.
      *
      * @param bool $annulationBonsTravaux The annulation bons travaux.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationBonsTravaux($annulationBonsTravaux) {
         $this->annulationBonsTravaux = $annulationBonsTravaux;
@@ -3458,6 +3471,7 @@ class Collaborateurs {
      * Set the annulation chantier.
      *
      * @param bool $annulationChantier The annulation chantier.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationChantier($annulationChantier) {
         $this->annulationChantier = $annulationChantier;
@@ -3468,6 +3482,7 @@ class Collaborateurs {
      * Set the annulation client.
      *
      * @param bool $annulationClient The annulation client.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationClient($annulationClient) {
         $this->annulationClient = $annulationClient;
@@ -3478,6 +3493,7 @@ class Collaborateurs {
      * Set the annulation commission.
      *
      * @param bool $annulationCommission The annulation commission.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationCommission($annulationCommission) {
         $this->annulationCommission = $annulationCommission;
@@ -3488,6 +3504,7 @@ class Collaborateurs {
      * Set the annulation dossier cpta.
      *
      * @param bool $annulationDossierCpta The annulation dossier cpta.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationDossierCpta($annulationDossierCpta) {
         $this->annulationDossierCpta = $annulationDossierCpta;
@@ -3498,6 +3515,7 @@ class Collaborateurs {
      * Set the annulation dossier fact.
      *
      * @param bool $annulationDossierFact The annulation dossier fact.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationDossierFact($annulationDossierFact) {
         $this->annulationDossierFact = $annulationDossierFact;
@@ -3508,6 +3526,7 @@ class Collaborateurs {
      * Set the annulation dossier paie.
      *
      * @param bool $annulationDossierPaie The annulation dossier paie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationDossierPaie($annulationDossierPaie) {
         $this->annulationDossierPaie = $annulationDossierPaie;
@@ -3518,6 +3537,7 @@ class Collaborateurs {
      * Set the annulation fournisseur.
      *
      * @param bool $annulationFournisseur The annulation fournisseur.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationFournisseur($annulationFournisseur) {
         $this->annulationFournisseur = $annulationFournisseur;
@@ -3528,6 +3548,7 @@ class Collaborateurs {
      * Set the annulation plan facturation.
      *
      * @param bool $annulationPlanFacturation The annulation plan facturation.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationPlanFacturation($annulationPlanFacturation) {
         $this->annulationPlanFacturation = $annulationPlanFacturation;
@@ -3538,6 +3559,7 @@ class Collaborateurs {
      * Set the annulation plan tache.
      *
      * @param bool $annulationPlanTache The annulation plan tache.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationPlanTache($annulationPlanTache) {
         $this->annulationPlanTache = $annulationPlanTache;
@@ -3548,6 +3570,7 @@ class Collaborateurs {
      * Set the annulation tache.
      *
      * @param bool $annulationTache The annulation tache.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationTache($annulationTache) {
         $this->annulationTache = $annulationTache;
@@ -3558,6 +3581,7 @@ class Collaborateurs {
      * Set the annulation tarif.
      *
      * @param bool $annulationTarif The annulation tarif.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAnnulationTarif($annulationTarif) {
         $this->annulationTarif = $annulationTarif;
@@ -3568,6 +3592,7 @@ class Collaborateurs {
      * Set the articles lst perso acces gestion modifiables.
      *
      * @param bool $articlesLstPersoAccesGestionModifiables The articles lst perso acces gestion modifiables.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setArticlesLstPersoAccesGestionModifiables($articlesLstPersoAccesGestionModifiables) {
         $this->articlesLstPersoAccesGestionModifiables = $articlesLstPersoAccesGestionModifiables;
@@ -3578,6 +3603,7 @@ class Collaborateurs {
      * Set the articles lst perso acces gestionnaire.
      *
      * @param bool $articlesLstPersoAccesGestionnaire The articles lst perso acces gestionnaire.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setArticlesLstPersoAccesGestionnaire($articlesLstPersoAccesGestionnaire) {
         $this->articlesLstPersoAccesGestionnaire = $articlesLstPersoAccesGestionnaire;
@@ -3588,6 +3614,7 @@ class Collaborateurs {
      * Set the articles lst perso champs modif.
      *
      * @param bool $articlesLstPersoChampsModif The articles lst perso champs modif.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setArticlesLstPersoChampsModif($articlesLstPersoChampsModif) {
         $this->articlesLstPersoChampsModif = $articlesLstPersoChampsModif;
@@ -3598,6 +3625,7 @@ class Collaborateurs {
      * Set the articles lst perso copie colonne.
      *
      * @param bool $articlesLstPersoCopieColonne The articles lst perso copie colonne.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setArticlesLstPersoCopieColonne($articlesLstPersoCopieColonne) {
         $this->articlesLstPersoCopieColonne = $articlesLstPersoCopieColonne;
@@ -3608,6 +3636,7 @@ class Collaborateurs {
      * Set the articles lst perso interdire creat.
      *
      * @param bool $articlesLstPersoInterdireCreat The articles lst perso interdire creat.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setArticlesLstPersoInterdireCreat($articlesLstPersoInterdireCreat) {
         $this->articlesLstPersoInterdireCreat = $articlesLstPersoInterdireCreat;
@@ -3618,6 +3647,7 @@ class Collaborateurs {
      * Set the autorise saisie tps colonnes.
      *
      * @param bool $autoriseSaisieTpsColonnes The autorise saisie tps colonnes.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setAutoriseSaisieTpsColonnes($autoriseSaisieTpsColonnes) {
         $this->autoriseSaisieTpsColonnes = $autoriseSaisieTpsColonnes;
@@ -3628,6 +3658,7 @@ class Collaborateurs {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -3638,6 +3669,7 @@ class Collaborateurs {
      * Set the blocage ed cli.
      *
      * @param bool $blocageEdCli The blocage ed cli.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setBlocageEdCli($blocageEdCli) {
         $this->blocageEdCli = $blocageEdCli;
@@ -3648,6 +3680,7 @@ class Collaborateurs {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -3658,6 +3691,7 @@ class Collaborateurs {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -3668,6 +3702,7 @@ class Collaborateurs {
      * Set the categorie prix km.
      *
      * @param string $categoriePrixKm The categorie prix km.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCategoriePrixKm($categoriePrixKm) {
         $this->categoriePrixKm = $categoriePrixKm;
@@ -3678,6 +3713,7 @@ class Collaborateurs {
      * Set the categorie ticket resto.
      *
      * @param string $categorieTicketResto The categorie ticket resto.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCategorieTicketResto($categorieTicketResto) {
         $this->categorieTicketResto = $categorieTicketResto;
@@ -3688,6 +3724,7 @@ class Collaborateurs {
      * Set the charges mensuelles.
      *
      * @param float $chargesMensuelles The charges mensuelles.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setChargesMensuelles($chargesMensuelles) {
         $this->chargesMensuelles = $chargesMensuelles;
@@ -3698,6 +3735,7 @@ class Collaborateurs {
      * Set the cle ccn paie.
      *
      * @param string $cleCcnPaie The cle ccn paie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCleCcnPaie($cleCcnPaie) {
         $this->cleCcnPaie = $cleCcnPaie;
@@ -3708,6 +3746,7 @@ class Collaborateurs {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -3718,6 +3757,7 @@ class Collaborateurs {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -3728,6 +3768,7 @@ class Collaborateurs {
      * Set the code chef1.
      *
      * @param string $codeChef1 The code chef1.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeChef1($codeChef1) {
         $this->codeChef1 = $codeChef1;
@@ -3738,6 +3779,7 @@ class Collaborateurs {
      * Set the code chef2.
      *
      * @param string $codeChef2 The code chef2.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeChef2($codeChef2) {
         $this->codeChef2 = $codeChef2;
@@ -3748,6 +3790,7 @@ class Collaborateurs {
      * Set the code depot.
      *
      * @param string $codeDepot The code depot.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeDepot($codeDepot) {
         $this->codeDepot = $codeDepot;
@@ -3758,6 +3801,7 @@ class Collaborateurs {
      * Set the code famille.
      *
      * @param string $codeFamille The code famille.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeFamille($codeFamille) {
         $this->codeFamille = $codeFamille;
@@ -3768,6 +3812,7 @@ class Collaborateurs {
      * Set the code famille frn.
      *
      * @param string $codeFamilleFrn The code famille frn.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeFamilleFrn($codeFamilleFrn) {
         $this->codeFamilleFrn = $codeFamilleFrn;
@@ -3778,6 +3823,7 @@ class Collaborateurs {
      * Set the code groupe.
      *
      * @param string $codeGroupe The code groupe.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeGroupe($codeGroupe) {
         $this->codeGroupe = $codeGroupe;
@@ -3788,6 +3834,7 @@ class Collaborateurs {
      * Set the code groupe visu msg.
      *
      * @param string $codeGroupeVisuMsg The code groupe visu msg.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeGroupeVisuMsg($codeGroupeVisuMsg) {
         $this->codeGroupeVisuMsg = $codeGroupeVisuMsg;
@@ -3798,6 +3845,7 @@ class Collaborateurs {
      * Set the code langue.
      *
      * @param string $codeLangue The code langue.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeLangue($codeLangue) {
         $this->codeLangue = $codeLangue;
@@ -3808,6 +3856,7 @@ class Collaborateurs {
      * Set the code liaison dest.
      *
      * @param string $codeLiaisonDest The code liaison dest.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeLiaisonDest($codeLiaisonDest) {
         $this->codeLiaisonDest = $codeLiaisonDest;
@@ -3818,6 +3867,7 @@ class Collaborateurs {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -3828,6 +3878,7 @@ class Collaborateurs {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -3838,6 +3889,7 @@ class Collaborateurs {
      * Set the code vehicule.
      *
      * @param string $codeVehicule The code vehicule.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeVehicule($codeVehicule) {
         $this->codeVehicule = $codeVehicule;
@@ -3848,6 +3900,7 @@ class Collaborateurs {
      * Set the code ventil compta.
      *
      * @param string $codeVentilCompta The code ventil compta.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCodeVentilCompta($codeVentilCompta) {
         $this->codeVentilCompta = $codeVentilCompta;
@@ -3858,6 +3911,7 @@ class Collaborateurs {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -3868,6 +3922,7 @@ class Collaborateurs {
      * Set the compte comptable.
      *
      * @param string $compteComptable The compte comptable.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCompteComptable($compteComptable) {
         $this->compteComptable = $compteComptable;
@@ -3878,6 +3933,7 @@ class Collaborateurs {
      * Set the compte de tiers.
      *
      * @param string $compteDeTiers The compte de tiers.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCompteDeTiers($compteDeTiers) {
         $this->compteDeTiers = $compteDeTiers;
@@ -3888,6 +3944,7 @@ class Collaborateurs {
      * Set the controle saisie tp.
      *
      * @param string $controleSaisieTp The controle saisie tp.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setControleSaisieTp($controleSaisieTp) {
         $this->controleSaisieTp = $controleSaisieTp;
@@ -3898,6 +3955,7 @@ class Collaborateurs {
      * Set the creation affaire.
      *
      * @param bool $creationAffaire The creation affaire.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationAffaire($creationAffaire) {
         $this->creationAffaire = $creationAffaire;
@@ -3908,6 +3966,7 @@ class Collaborateurs {
      * Set the creation article.
      *
      * @param bool $creationArticle The creation article.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationArticle($creationArticle) {
         $this->creationArticle = $creationArticle;
@@ -3918,6 +3977,7 @@ class Collaborateurs {
      * Set the creation bons travaux.
      *
      * @param bool $creationBonsTravaux The creation bons travaux.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationBonsTravaux($creationBonsTravaux) {
         $this->creationBonsTravaux = $creationBonsTravaux;
@@ -3928,6 +3988,7 @@ class Collaborateurs {
      * Set the creation chantier.
      *
      * @param bool $creationChantier The creation chantier.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationChantier($creationChantier) {
         $this->creationChantier = $creationChantier;
@@ -3938,6 +3999,7 @@ class Collaborateurs {
      * Set the creation client.
      *
      * @param bool $creationClient The creation client.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationClient($creationClient) {
         $this->creationClient = $creationClient;
@@ -3948,6 +4010,7 @@ class Collaborateurs {
      * Set the creation commission.
      *
      * @param bool $creationCommission The creation commission.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationCommission($creationCommission) {
         $this->creationCommission = $creationCommission;
@@ -3958,6 +4021,7 @@ class Collaborateurs {
      * Set the creation dossier cpta.
      *
      * @param bool $creationDossierCpta The creation dossier cpta.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationDossierCpta($creationDossierCpta) {
         $this->creationDossierCpta = $creationDossierCpta;
@@ -3968,6 +4032,7 @@ class Collaborateurs {
      * Set the creation dossier fact.
      *
      * @param bool $creationDossierFact The creation dossier fact.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationDossierFact($creationDossierFact) {
         $this->creationDossierFact = $creationDossierFact;
@@ -3978,6 +4043,7 @@ class Collaborateurs {
      * Set the creation dossier paie.
      *
      * @param bool $creationDossierPaie The creation dossier paie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationDossierPaie($creationDossierPaie) {
         $this->creationDossierPaie = $creationDossierPaie;
@@ -3988,6 +4054,7 @@ class Collaborateurs {
      * Set the creation fournisseur.
      *
      * @param bool $creationFournisseur The creation fournisseur.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationFournisseur($creationFournisseur) {
         $this->creationFournisseur = $creationFournisseur;
@@ -3998,6 +4065,7 @@ class Collaborateurs {
      * Set the creation plan facturation.
      *
      * @param bool $creationPlanFacturation The creation plan facturation.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationPlanFacturation($creationPlanFacturation) {
         $this->creationPlanFacturation = $creationPlanFacturation;
@@ -4008,6 +4076,7 @@ class Collaborateurs {
      * Set the creation plan tache.
      *
      * @param bool $creationPlanTache The creation plan tache.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationPlanTache($creationPlanTache) {
         $this->creationPlanTache = $creationPlanTache;
@@ -4018,6 +4087,7 @@ class Collaborateurs {
      * Set the creation tache.
      *
      * @param bool $creationTache The creation tache.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationTache($creationTache) {
         $this->creationTache = $creationTache;
@@ -4028,6 +4098,7 @@ class Collaborateurs {
      * Set the creation tarif.
      *
      * @param bool $creationTarif The creation tarif.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setCreationTarif($creationTarif) {
         $this->creationTarif = $creationTarif;
@@ -4038,6 +4109,7 @@ class Collaborateurs {
      * Set the date entree.
      *
      * @param DateTime|null $dateEntree The date entree.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDateEntree(DateTime $dateEntree = null) {
         $this->dateEntree = $dateEntree;
@@ -4048,6 +4120,7 @@ class Collaborateurs {
      * Set the date sortie.
      *
      * @param DateTime|null $dateSortie The date sortie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDateSortie(DateTime $dateSortie = null) {
         $this->dateSortie = $dateSortie;
@@ -4058,6 +4131,7 @@ class Collaborateurs {
      * Set the date validation budget.
      *
      * @param DateTime|null $dateValidationBudget The date validation budget.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDateValidationBudget(DateTime $dateValidationBudget = null) {
         $this->dateValidationBudget = $dateValidationBudget;
@@ -4068,6 +4142,7 @@ class Collaborateurs {
      * Set the date validation nd f.
      *
      * @param DateTime|null $dateValidationNdF The date validation nd f.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDateValidationNdF(DateTime $dateValidationNdF = null) {
         $this->dateValidationNdF = $dateValidationNdF;
@@ -4078,6 +4153,7 @@ class Collaborateurs {
      * Set the date validation tp.
      *
      * @param DateTime|null $dateValidationTp The date validation tp.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDateValidationTp(DateTime $dateValidationTp = null) {
         $this->dateValidationTp = $dateValidationTp;
@@ -4088,6 +4164,7 @@ class Collaborateurs {
      * Set the desactiver filtre msg.
      *
      * @param bool $desactiverFiltreMsg The desactiver filtre msg.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDesactiverFiltreMsg($desactiverFiltreMsg) {
         $this->desactiverFiltreMsg = $desactiverFiltreMsg;
@@ -4098,6 +4175,7 @@ class Collaborateurs {
      * Set the disponible.
      *
      * @param bool $disponible The disponible.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDisponible($disponible) {
         $this->disponible = $disponible;
@@ -4108,6 +4186,7 @@ class Collaborateurs {
      * Set the dom banque.
      *
      * @param string $domBanque The dom banque.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDomBanque($domBanque) {
         $this->domBanque = $domBanque;
@@ -4118,6 +4197,7 @@ class Collaborateurs {
      * Set the dossier paie.
      *
      * @param string $dossierPaie The dossier paie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDossierPaie($dossierPaie) {
         $this->dossierPaie = $dossierPaie;
@@ -4128,6 +4208,7 @@ class Collaborateurs {
      * Set the droit param emails confidentiels.
      *
      * @param bool $droitParamEmailsConfidentiels The droit param emails confidentiels.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDroitParamEmailsConfidentiels($droitParamEmailsConfidentiels) {
         $this->droitParamEmailsConfidentiels = $droitParamEmailsConfidentiels;
@@ -4138,6 +4219,7 @@ class Collaborateurs {
      * Set the droit sync port.
      *
      * @param bool $droitSyncPort The droit sync port.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDroitSyncPort($droitSyncPort) {
         $this->droitSyncPort = $droitSyncPort;
@@ -4148,6 +4230,7 @@ class Collaborateurs {
      * Set the droit sync q prop.
      *
      * @param bool $droitSyncQProp The droit sync q prop.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setDroitSyncQProp($droitSyncQProp) {
         $this->droitSyncQProp = $droitSyncQProp;
@@ -4158,6 +4241,7 @@ class Collaborateurs {
      * Set the email.
      *
      * @param string $email The email.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -4168,6 +4252,7 @@ class Collaborateurs {
      * Set the email activer aide saisie.
      *
      * @param bool $emailActiverAideSaisie The email activer aide saisie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailActiverAideSaisie($emailActiverAideSaisie) {
         $this->emailActiverAideSaisie = $emailActiverAideSaisie;
@@ -4178,6 +4263,7 @@ class Collaborateurs {
      * Set the email agenda dmd confirm.
      *
      * @param string $emailAgendaDmdConfirm The email agenda dmd confirm.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailAgendaDmdConfirm($emailAgendaDmdConfirm) {
         $this->emailAgendaDmdConfirm = $emailAgendaDmdConfirm;
@@ -4188,6 +4274,7 @@ class Collaborateurs {
      * Set the email auto cloture imap.
      *
      * @param bool $emailAutoClotureImap The email auto cloture imap.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailAutoClotureImap($emailAutoClotureImap) {
         $this->emailAutoClotureImap = $emailAutoClotureImap;
@@ -4198,6 +4285,7 @@ class Collaborateurs {
      * Set the email lst adr choix elem.
      *
      * @param int $emailLstAdrChoixElem The email lst adr choix elem.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailLstAdrChoixElem($emailLstAdrChoixElem) {
         $this->emailLstAdrChoixElem = $emailLstAdrChoixElem;
@@ -4208,6 +4296,7 @@ class Collaborateurs {
      * Set the email mode signature.
      *
      * @param int $emailModeSignature The email mode signature.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailModeSignature($emailModeSignature) {
         $this->emailModeSignature = $emailModeSignature;
@@ -4218,6 +4307,7 @@ class Collaborateurs {
      * Set the email nb j ag mini.
      *
      * @param int $emailNbJAgMini The email nb j ag mini.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailNbJAgMini($emailNbJAgMini) {
         $this->emailNbJAgMini = $emailNbJAgMini;
@@ -4228,6 +4318,7 @@ class Collaborateurs {
      * Set the email objet defaut.
      *
      * @param string $emailObjetDefaut The email objet defaut.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailObjetDefaut($emailObjetDefaut) {
         $this->emailObjetDefaut = $emailObjetDefaut;
@@ -4238,6 +4329,7 @@ class Collaborateurs {
      * Set the email pied.
      *
      * @param string $emailPied The email pied.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailPied($emailPied) {
         $this->emailPied = $emailPied;
@@ -4248,6 +4340,7 @@ class Collaborateurs {
      * Set the email redir auto.
      *
      * @param bool $emailRedirAuto The email redir auto.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailRedirAuto($emailRedirAuto) {
         $this->emailRedirAuto = $emailRedirAuto;
@@ -4258,6 +4351,7 @@ class Collaborateurs {
      * Set the email redir auto collab.
      *
      * @param string $emailRedirAutoCollab The email redir auto collab.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailRedirAutoCollab($emailRedirAutoCollab) {
         $this->emailRedirAutoCollab = $emailRedirAutoCollab;
@@ -4268,6 +4362,7 @@ class Collaborateurs {
      * Set the email redirection.
      *
      * @param string $emailRedirection The email redirection.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailRedirection($emailRedirection) {
         $this->emailRedirection = $emailRedirection;
@@ -4278,6 +4373,7 @@ class Collaborateurs {
      * Set the email reponse auto.
      *
      * @param bool $emailReponseAuto The email reponse auto.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailReponseAuto($emailReponseAuto) {
         $this->emailReponseAuto = $emailReponseAuto;
@@ -4288,6 +4384,7 @@ class Collaborateurs {
      * Set the email reponse auto text.
      *
      * @param string $emailReponseAutoText The email reponse auto text.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailReponseAutoText($emailReponseAutoText) {
         $this->emailReponseAutoText = $emailReponseAutoText;
@@ -4298,6 +4395,7 @@ class Collaborateurs {
      * Set the email rr active.
      *
      * @param bool $emailRrActive The email rr active.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailRrActive($emailRrActive) {
         $this->emailRrActive = $emailRrActive;
@@ -4308,6 +4406,7 @@ class Collaborateurs {
      * Set the email start mode.
      *
      * @param int $emailStartMode The email start mode.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailStartMode($emailStartMode) {
         $this->emailStartMode = $emailStartMode;
@@ -4318,6 +4417,7 @@ class Collaborateurs {
      * Set the email sur serveur.
      *
      * @param bool $emailSurServeur The email sur serveur.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailSurServeur($emailSurServeur) {
         $this->emailSurServeur = $emailSurServeur;
@@ -4328,6 +4428,7 @@ class Collaborateurs {
      * Set the email tete.
      *
      * @param string $emailTete The email tete.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEmailTete($emailTete) {
         $this->emailTete = $emailTete;
@@ -4338,6 +4439,7 @@ class Collaborateurs {
      * Set the est acheteur.
      *
      * @param int $estAcheteur The est acheteur.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEstAcheteur($estAcheteur) {
         $this->estAcheteur = $estAcheteur;
@@ -4348,6 +4450,7 @@ class Collaborateurs {
      * Set the etab confidentialite qp.
      *
      * @param string $etabConfidentialiteQp The etab confidentialite qp.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setEtabConfidentialiteQp($etabConfidentialiteQp) {
         $this->etabConfidentialiteQp = $etabConfidentialiteQp;
@@ -4358,6 +4461,7 @@ class Collaborateurs {
      * Set the fictif.
      *
      * @param bool $fictif The fictif.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setFictif($fictif) {
         $this->fictif = $fictif;
@@ -4368,6 +4472,7 @@ class Collaborateurs {
      * Set the fonction.
      *
      * @param string $fonction The fonction.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setFonction($fonction) {
         $this->fonction = $fonction;
@@ -4378,6 +4483,7 @@ class Collaborateurs {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -4388,6 +4494,7 @@ class Collaborateurs {
      * Set the interdiction pwd.
      *
      * @param bool $interdictionPwd The interdiction pwd.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdictionPwd($interdictionPwd) {
         $this->interdictionPwd = $interdictionPwd;
@@ -4398,6 +4505,7 @@ class Collaborateurs {
      * Set the interdiction vue facturation.
      *
      * @param bool $interdictionVueFacturation The interdiction vue facturation.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdictionVueFacturation($interdictionVueFacturation) {
         $this->interdictionVueFacturation = $interdictionVueFacturation;
@@ -4408,6 +4516,7 @@ class Collaborateurs {
      * Set the interdire acces archives cpta.
      *
      * @param bool $interdireAccesArchivesCpta The interdire acces archives cpta.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireAccesArchivesCpta($interdireAccesArchivesCpta) {
         $this->interdireAccesArchivesCpta = $interdireAccesArchivesCpta;
@@ -4418,6 +4527,7 @@ class Collaborateurs {
      * Set the interdire acces archives paie.
      *
      * @param bool $interdireAccesArchivesPaie The interdire acces archives paie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireAccesArchivesPaie($interdireAccesArchivesPaie) {
         $this->interdireAccesArchivesPaie = $interdireAccesArchivesPaie;
@@ -4428,6 +4538,7 @@ class Collaborateurs {
      * Set the interdire acces edition balance.
      *
      * @param bool $interdireAccesEditionBalance The interdire acces edition balance.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireAccesEditionBalance($interdireAccesEditionBalance) {
         $this->interdireAccesEditionBalance = $interdireAccesEditionBalance;
@@ -4438,6 +4549,7 @@ class Collaborateurs {
      * Set the interdire acces entete.
      *
      * @param bool $interdireAccesEntete The interdire acces entete.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireAccesEntete($interdireAccesEntete) {
         $this->interdireAccesEntete = $interdireAccesEntete;
@@ -4448,6 +4560,7 @@ class Collaborateurs {
      * Set the interdire acces supp doc arch.
      *
      * @param bool $interdireAccesSuppDocArch The interdire acces supp doc arch.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireAccesSuppDocArch($interdireAccesSuppDocArch) {
         $this->interdireAccesSuppDocArch = $interdireAccesSuppDocArch;
@@ -4458,6 +4571,7 @@ class Collaborateurs {
      * Set the interdire edition valorise jrn temps.
      *
      * @param bool $interdireEditionValoriseJrnTemps The interdire edition valorise jrn temps.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireEditionValoriseJrnTemps($interdireEditionValoriseJrnTemps) {
         $this->interdireEditionValoriseJrnTemps = $interdireEditionValoriseJrnTemps;
@@ -4468,6 +4582,7 @@ class Collaborateurs {
      * Set the interdire envoi postit.
      *
      * @param bool $interdireEnvoiPostit The interdire envoi postit.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireEnvoiPostit($interdireEnvoiPostit) {
         $this->interdireEnvoiPostit = $interdireEnvoiPostit;
@@ -4478,6 +4593,7 @@ class Collaborateurs {
      * Set the interdire modif aff cli.
      *
      * @param bool $interdireModifAffCli The interdire modif aff cli.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireModifAffCli($interdireModifAffCli) {
         $this->interdireModifAffCli = $interdireModifAffCli;
@@ -4488,6 +4604,7 @@ class Collaborateurs {
      * Set the interdire modif depot.
      *
      * @param bool $interdireModifDepot The interdire modif depot.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdireModifDepot($interdireModifDepot) {
         $this->interdireModifDepot = $interdireModifDepot;
@@ -4498,6 +4615,7 @@ class Collaborateurs {
      * Set the interdire publi doc web.
      *
      * @param bool $interdirePubliDocWeb The interdire publi doc web.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterdirePubliDocWeb($interdirePubliDocWeb) {
         $this->interdirePubliDocWeb = $interdirePubliDocWeb;
@@ -4508,6 +4626,7 @@ class Collaborateurs {
      * Set the interim.
      *
      * @param bool $interim The interim.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setInterim($interim) {
         $this->interim = $interim;
@@ -4518,6 +4637,7 @@ class Collaborateurs {
      * Set the is groupe.
      *
      * @param bool $isGroupe The is groupe.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setIsGroupe($isGroupe) {
         $this->isGroupe = $isGroupe;
@@ -4528,6 +4648,7 @@ class Collaborateurs {
      * Set the is profil messages.
      *
      * @param bool $isProfilMessages The is profil messages.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setIsProfilMessages($isProfilMessages) {
         $this->isProfilMessages = $isProfilMessages;
@@ -4538,6 +4659,7 @@ class Collaborateurs {
      * Set the limiter visu agenda.
      *
      * @param bool $limiterVisuAgenda The limiter visu agenda.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setLimiterVisuAgenda($limiterVisuAgenda) {
         $this->limiterVisuAgenda = $limiterVisuAgenda;
@@ -4548,6 +4670,7 @@ class Collaborateurs {
      * Set the masquer fournisseurs.
      *
      * @param bool $masquerFournisseurs The masquer fournisseurs.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setMasquerFournisseurs($masquerFournisseurs) {
         $this->masquerFournisseurs = $masquerFournisseurs;
@@ -4558,6 +4681,7 @@ class Collaborateurs {
      * Set the messages confidentiels.
      *
      * @param string $messagesConfidentiels The messages confidentiels.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setMessagesConfidentiels($messagesConfidentiels) {
         $this->messagesConfidentiels = $messagesConfidentiels;
@@ -4568,6 +4692,7 @@ class Collaborateurs {
      * Set the modif affaire.
      *
      * @param string $modifAffaire The modif affaire.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifAffaire($modifAffaire) {
         $this->modifAffaire = $modifAffaire;
@@ -4578,6 +4703,7 @@ class Collaborateurs {
      * Set the modif article.
      *
      * @param string $modifArticle The modif article.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifArticle($modifArticle) {
         $this->modifArticle = $modifArticle;
@@ -4588,6 +4714,7 @@ class Collaborateurs {
      * Set the modif bons travaux.
      *
      * @param string $modifBonsTravaux The modif bons travaux.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifBonsTravaux($modifBonsTravaux) {
         $this->modifBonsTravaux = $modifBonsTravaux;
@@ -4598,6 +4725,7 @@ class Collaborateurs {
      * Set the modif chantier.
      *
      * @param string $modifChantier The modif chantier.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifChantier($modifChantier) {
         $this->modifChantier = $modifChantier;
@@ -4608,6 +4736,7 @@ class Collaborateurs {
      * Set the modif client.
      *
      * @param string $modifClient The modif client.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifClient($modifClient) {
         $this->modifClient = $modifClient;
@@ -4618,6 +4747,7 @@ class Collaborateurs {
      * Set the modif commission.
      *
      * @param string $modifCommission The modif commission.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifCommission($modifCommission) {
         $this->modifCommission = $modifCommission;
@@ -4628,6 +4758,7 @@ class Collaborateurs {
      * Set the modif dossier fact.
      *
      * @param string $modifDossierFact The modif dossier fact.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifDossierFact($modifDossierFact) {
         $this->modifDossierFact = $modifDossierFact;
@@ -4638,6 +4769,7 @@ class Collaborateurs {
      * Set the modif droits asp.
      *
      * @param bool $modifDroitsAsp The modif droits asp.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifDroitsAsp($modifDroitsAsp) {
         $this->modifDroitsAsp = $modifDroitsAsp;
@@ -4648,6 +4780,7 @@ class Collaborateurs {
      * Set the modif en vue.
      *
      * @param bool $modifEnVue The modif en vue.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifEnVue($modifEnVue) {
         $this->modifEnVue = $modifEnVue;
@@ -4658,6 +4791,7 @@ class Collaborateurs {
      * Set the modif fournisseur.
      *
      * @param string $modifFournisseur The modif fournisseur.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifFournisseur($modifFournisseur) {
         $this->modifFournisseur = $modifFournisseur;
@@ -4668,6 +4802,7 @@ class Collaborateurs {
      * Set the modif plan facturation.
      *
      * @param string $modifPlanFacturation The modif plan facturation.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifPlanFacturation($modifPlanFacturation) {
         $this->modifPlanFacturation = $modifPlanFacturation;
@@ -4678,6 +4813,7 @@ class Collaborateurs {
      * Set the modif plan tache.
      *
      * @param string $modifPlanTache The modif plan tache.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifPlanTache($modifPlanTache) {
         $this->modifPlanTache = $modifPlanTache;
@@ -4688,6 +4824,7 @@ class Collaborateurs {
      * Set the modif tache.
      *
      * @param string $modifTache The modif tache.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifTache($modifTache) {
         $this->modifTache = $modifTache;
@@ -4698,6 +4835,7 @@ class Collaborateurs {
      * Set the modif tarif.
      *
      * @param string $modifTarif The modif tarif.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setModifTarif($modifTarif) {
         $this->modifTarif = $modifTarif;
@@ -4708,6 +4846,7 @@ class Collaborateurs {
      * Set the mot de passe.
      *
      * @param string $motDePasse The mot de passe.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setMotDePasse($motDePasse) {
         $this->motDePasse = $motDePasse;
@@ -4718,6 +4857,7 @@ class Collaborateurs {
      * Set the msg redir auto.
      *
      * @param bool $msgRedirAuto The msg redir auto.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setMsgRedirAuto($msgRedirAuto) {
         $this->msgRedirAuto = $msgRedirAuto;
@@ -4728,6 +4868,7 @@ class Collaborateurs {
      * Set the niv conf emp proprete restreint.
      *
      * @param bool $nivConfEmpPropreteRestreint The niv conf emp proprete restreint.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setNivConfEmpPropreteRestreint($nivConfEmpPropreteRestreint) {
         $this->nivConfEmpPropreteRestreint = $nivConfEmpPropreteRestreint;
@@ -4738,6 +4879,7 @@ class Collaborateurs {
      * Set the niveau.
      *
      * @param int $niveau The niveau.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -4748,6 +4890,7 @@ class Collaborateurs {
      * Set the niveau confidentialite qp.
      *
      * @param string $niveauConfidentialiteQp The niveau confidentialite qp.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setNiveauConfidentialiteQp($niveauConfidentialiteQp) {
         $this->niveauConfidentialiteQp = $niveauConfidentialiteQp;
@@ -4758,6 +4901,7 @@ class Collaborateurs {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -4768,6 +4912,7 @@ class Collaborateurs {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -4778,6 +4923,7 @@ class Collaborateurs {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -4788,6 +4934,7 @@ class Collaborateurs {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -4798,6 +4945,7 @@ class Collaborateurs {
      * Set the numero.
      *
      * @param string $numero The numero.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -4808,6 +4956,7 @@ class Collaborateurs {
      * Set the pa invisible.
      *
      * @param bool $paInvisible The pa invisible.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPaInvisible($paInvisible) {
         $this->paInvisible = $paInvisible;
@@ -4818,6 +4967,7 @@ class Collaborateurs {
      * Set the parc code remorque.
      *
      * @param string $parcCodeRemorque The parc code remorque.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setParcCodeRemorque($parcCodeRemorque) {
         $this->parcCodeRemorque = $parcCodeRemorque;
@@ -4828,6 +4978,7 @@ class Collaborateurs {
      * Set the parc code vehicule.
      *
      * @param string $parcCodeVehicule The parc code vehicule.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setParcCodeVehicule($parcCodeVehicule) {
         $this->parcCodeVehicule = $parcCodeVehicule;
@@ -4838,6 +4989,7 @@ class Collaborateurs {
      * Set the pas acces qws.
      *
      * @param bool $pasAccesQws The pas acces qws.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPasAccesQws($pasAccesQws) {
         $this->pasAccesQws = $pasAccesQws;
@@ -4848,6 +5000,7 @@ class Collaborateurs {
      * Set the pas saisie des temps.
      *
      * @param bool $pasSaisieDesTemps The pas saisie des temps.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPasSaisieDesTemps($pasSaisieDesTemps) {
         $this->pasSaisieDesTemps = $pasSaisieDesTemps;
@@ -4858,6 +5011,7 @@ class Collaborateurs {
      * Set the pas saisie des temps auto.
      *
      * @param bool $pasSaisieDesTempsAuto The pas saisie des temps auto.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPasSaisieDesTempsAuto($pasSaisieDesTempsAuto) {
         $this->pasSaisieDesTempsAuto = $pasSaisieDesTempsAuto;
@@ -4868,6 +5022,7 @@ class Collaborateurs {
      * Set the portable perso.
      *
      * @param string $portablePerso The portable perso.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPortablePerso($portablePerso) {
         $this->portablePerso = $portablePerso;
@@ -4878,6 +5033,7 @@ class Collaborateurs {
      * Set the present.
      *
      * @param bool $present The present.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPresent($present) {
         $this->present = $present;
@@ -4888,6 +5044,7 @@ class Collaborateurs {
      * Set the prevenu nouveau cd.
      *
      * @param bool $prevenuNouveauCd The prevenu nouveau cd.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPrevenuNouveauCd($prevenuNouveauCd) {
         $this->prevenuNouveauCd = $prevenuNouveauCd;
@@ -4898,6 +5055,7 @@ class Collaborateurs {
      * Set the prix km.
      *
      * @param float $prixKm The prix km.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPrixKm($prixKm) {
         $this->prixKm = $prixKm;
@@ -4908,6 +5066,7 @@ class Collaborateurs {
      * Set the prix vente.
      *
      * @param float $prixVente The prix vente.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPrixVente($prixVente) {
         $this->prixVente = $prixVente;
@@ -4918,6 +5077,7 @@ class Collaborateurs {
      * Set the prix vente2.
      *
      * @param float $prixVente2 The prix vente2.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPrixVente2($prixVente2) {
         $this->prixVente2 = $prixVente2;
@@ -4928,6 +5088,7 @@ class Collaborateurs {
      * Set the prix vente3.
      *
      * @param float $prixVente3 The prix vente3.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setPrixVente3($prixVente3) {
         $this->prixVente3 = $prixVente3;
@@ -4938,6 +5099,7 @@ class Collaborateurs {
      * Set the restrict acces pieces.
      *
      * @param bool $restrictAccesPieces The restrict acces pieces.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setRestrictAccesPieces($restrictAccesPieces) {
         $this->restrictAccesPieces = $restrictAccesPieces;
@@ -4948,6 +5110,7 @@ class Collaborateurs {
      * Set the restrict acces stats.
      *
      * @param bool $restrictAccesStats The restrict acces stats.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setRestrictAccesStats($restrictAccesStats) {
         $this->restrictAccesStats = $restrictAccesStats;
@@ -4958,6 +5121,7 @@ class Collaborateurs {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -4968,6 +5132,7 @@ class Collaborateurs {
      * Set the saisie pv interdite.
      *
      * @param bool $saisiePvInterdite The saisie pv interdite.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSaisiePvInterdite($saisiePvInterdite) {
         $this->saisiePvInterdite = $saisiePvInterdite;
@@ -4978,6 +5143,7 @@ class Collaborateurs {
      * Set the salaire mensuel.
      *
      * @param float $salaireMensuel The salaire mensuel.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSalaireMensuel($salaireMensuel) {
         $this->salaireMensuel = $salaireMensuel;
@@ -4988,6 +5154,7 @@ class Collaborateurs {
      * Set the sel art collab.
      *
      * @param bool $selArtCollab The sel art collab.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelArtCollab($selArtCollab) {
         $this->selArtCollab = $selArtCollab;
@@ -4998,6 +5165,7 @@ class Collaborateurs {
      * Set the sel av lst perso acces gestion modifiables.
      *
      * @param bool $selAvLstPersoAccesGestionModifiables The sel av lst perso acces gestion modifiables.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelAvLstPersoAccesGestionModifiables($selAvLstPersoAccesGestionModifiables) {
         $this->selAvLstPersoAccesGestionModifiables = $selAvLstPersoAccesGestionModifiables;
@@ -5008,6 +5176,7 @@ class Collaborateurs {
      * Set the sel av lst perso acces gestionnaire.
      *
      * @param bool $selAvLstPersoAccesGestionnaire The sel av lst perso acces gestionnaire.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelAvLstPersoAccesGestionnaire($selAvLstPersoAccesGestionnaire) {
         $this->selAvLstPersoAccesGestionnaire = $selAvLstPersoAccesGestionnaire;
@@ -5018,6 +5187,7 @@ class Collaborateurs {
      * Set the sel av lst perso champs modif.
      *
      * @param bool $selAvLstPersoChampsModif The sel av lst perso champs modif.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelAvLstPersoChampsModif($selAvLstPersoChampsModif) {
         $this->selAvLstPersoChampsModif = $selAvLstPersoChampsModif;
@@ -5028,6 +5198,7 @@ class Collaborateurs {
      * Set the sel av lst perso copie colonne.
      *
      * @param bool $selAvLstPersoCopieColonne The sel av lst perso copie colonne.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelAvLstPersoCopieColonne($selAvLstPersoCopieColonne) {
         $this->selAvLstPersoCopieColonne = $selAvLstPersoCopieColonne;
@@ -5038,6 +5209,7 @@ class Collaborateurs {
      * Set the sel av lst perso interdire creat.
      *
      * @param bool $selAvLstPersoInterdireCreat The sel av lst perso interdire creat.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelAvLstPersoInterdireCreat($selAvLstPersoInterdireCreat) {
         $this->selAvLstPersoInterdireCreat = $selAvLstPersoInterdireCreat;
@@ -5048,6 +5220,7 @@ class Collaborateurs {
      * Set the sel cli collab.
      *
      * @param bool $selCliCollab The sel cli collab.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelCliCollab($selCliCollab) {
         $this->selCliCollab = $selCliCollab;
@@ -5058,6 +5231,7 @@ class Collaborateurs {
      * Set the sel frn collab.
      *
      * @param bool $selFrnCollab The sel frn collab.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelFrnCollab($selFrnCollab) {
         $this->selFrnCollab = $selFrnCollab;
@@ -5068,6 +5242,7 @@ class Collaborateurs {
      * Set the selection article.
      *
      * @param string $selectionArticle The selection article.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelectionArticle($selectionArticle) {
         $this->selectionArticle = $selectionArticle;
@@ -5078,6 +5253,7 @@ class Collaborateurs {
      * Set the selection client.
      *
      * @param string $selectionClient The selection client.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelectionClient($selectionClient) {
         $this->selectionClient = $selectionClient;
@@ -5088,6 +5264,7 @@ class Collaborateurs {
      * Set the selection fournisseur.
      *
      * @param string $selectionFournisseur The selection fournisseur.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSelectionFournisseur($selectionFournisseur) {
         $this->selectionFournisseur = $selectionFournisseur;
@@ -5098,6 +5275,7 @@ class Collaborateurs {
      * Set the suivi messages.
      *
      * @param bool $suiviMessages The suivi messages.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSuiviMessages($suiviMessages) {
         $this->suiviMessages = $suiviMessages;
@@ -5108,6 +5286,7 @@ class Collaborateurs {
      * Set the superviseur.
      *
      * @param bool $superviseur The superviseur.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSuperviseur($superviseur) {
         $this->superviseur = $superviseur;
@@ -5118,6 +5297,7 @@ class Collaborateurs {
      * Set the sync mso.
      *
      * @param bool $syncMso The sync mso.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setSyncMso($syncMso) {
         $this->syncMso = $syncMso;
@@ -5128,6 +5308,7 @@ class Collaborateurs {
      * Set the taches groupe.
      *
      * @param string $tachesGroupe The taches groupe.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTachesGroupe($tachesGroupe) {
         $this->tachesGroupe = $tachesGroupe;
@@ -5138,6 +5319,7 @@ class Collaborateurs {
      * Set the taux commission.
      *
      * @param float $tauxCommission The taux commission.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTauxCommission($tauxCommission) {
         $this->tauxCommission = $tauxCommission;
@@ -5148,6 +5330,7 @@ class Collaborateurs {
      * Set the tel direct.
      *
      * @param string $telDirect The tel direct.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTelDirect($telDirect) {
         $this->telDirect = $telDirect;
@@ -5158,6 +5341,7 @@ class Collaborateurs {
      * Set the tel perso.
      *
      * @param string $telPerso The tel perso.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTelPerso($telPerso) {
         $this->telPerso = $telPerso;
@@ -5168,6 +5352,7 @@ class Collaborateurs {
      * Set the tel portable1.
      *
      * @param string $telPortable1 The tel portable1.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTelPortable1($telPortable1) {
         $this->telPortable1 = $telPortable1;
@@ -5178,6 +5363,7 @@ class Collaborateurs {
      * Set the tel portable2.
      *
      * @param string $telPortable2 The tel portable2.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTelPortable2($telPortable2) {
         $this->telPortable2 = $telPortable2;
@@ -5188,6 +5374,7 @@ class Collaborateurs {
      * Set the tel poste.
      *
      * @param string $telPoste The tel poste.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTelPoste($telPoste) {
         $this->telPoste = $telPoste;
@@ -5198,6 +5385,7 @@ class Collaborateurs {
      * Set the tp pas controler.
      *
      * @param bool $tpPasControler The tp pas controler.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTpPasControler($tpPasControler) {
         $this->tpPasControler = $tpPasControler;
@@ -5208,6 +5396,7 @@ class Collaborateurs {
      * Set the tp pas journal temps.
      *
      * @param bool $tpPasJournalTemps The tp pas journal temps.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTpPasJournalTemps($tpPasJournalTemps) {
         $this->tpPasJournalTemps = $tpPasJournalTemps;
@@ -5218,6 +5407,7 @@ class Collaborateurs {
      * Set the tp pas notes de frais.
      *
      * @param bool $tpPasNotesDeFrais The tp pas notes de frais.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTpPasNotesDeFrais($tpPasNotesDeFrais) {
         $this->tpPasNotesDeFrais = $tpPasNotesDeFrais;
@@ -5228,6 +5418,7 @@ class Collaborateurs {
      * Set the tp pas tps valide.
      *
      * @param bool $tpPasTpsValide The tp pas tps valide.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTpPasTpsValide($tpPasTpsValide) {
         $this->tpPasTpsValide = $tpPasTpsValide;
@@ -5238,6 +5429,7 @@ class Collaborateurs {
      * Set the tp pourcentage non operationnel.
      *
      * @param float $tpPourcentageNonOperationnel The tp pourcentage non operationnel.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTpPourcentageNonOperationnel($tpPourcentageNonOperationnel) {
         $this->tpPourcentageNonOperationnel = $tpPourcentageNonOperationnel;
@@ -5248,6 +5440,7 @@ class Collaborateurs {
      * Set the tps niveau blocage.
      *
      * @param string $tpsNiveauBlocage The tps niveau blocage.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTpsNiveauBlocage($tpsNiveauBlocage) {
         $this->tpsNiveauBlocage = $tpsNiveauBlocage;
@@ -5258,6 +5451,7 @@ class Collaborateurs {
      * Set the tx com invisible.
      *
      * @param bool $txComInvisible The tx com invisible.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTxComInvisible($txComInvisible) {
         $this->txComInvisible = $txComInvisible;
@@ -5268,6 +5462,7 @@ class Collaborateurs {
      * Set the type conf2 cmav cli.
      *
      * @param string $typeConf2CmavCli The type conf2 cmav cli.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTypeConf2CmavCli($typeConf2CmavCli) {
         $this->typeConf2CmavCli = $typeConf2CmavCli;
@@ -5278,6 +5473,7 @@ class Collaborateurs {
      * Set the type conf cmav cli.
      *
      * @param string $typeConfCmavCli The type conf cmav cli.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTypeConfCmavCli($typeConfCmavCli) {
         $this->typeConfCmavCli = $typeConfCmavCli;
@@ -5288,6 +5484,7 @@ class Collaborateurs {
      * Set the type visu appels.
      *
      * @param string $typeVisuAppels The type visu appels.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTypeVisuAppels($typeVisuAppels) {
         $this->typeVisuAppels = $typeVisuAppels;
@@ -5298,6 +5495,7 @@ class Collaborateurs {
      * Set the type visu taches.
      *
      * @param string $typeVisuTaches The type visu taches.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setTypeVisuTaches($typeVisuTaches) {
         $this->typeVisuTaches = $typeVisuTaches;
@@ -5308,6 +5506,7 @@ class Collaborateurs {
      * Set the use mail generic.
      *
      * @param bool $useMailGeneric The use mail generic.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setUseMailGeneric($useMailGeneric) {
         $this->useMailGeneric = $useMailGeneric;
@@ -5318,6 +5517,7 @@ class Collaborateurs {
      * Set the visualisation fiche cabinet.
      *
      * @param bool $visualisationFicheCabinet The visualisation fiche cabinet.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setVisualisationFicheCabinet($visualisationFicheCabinet) {
         $this->visualisationFicheCabinet = $visualisationFicheCabinet;
@@ -5328,6 +5528,7 @@ class Collaborateurs {
      * Set the vue com droit reaffect.
      *
      * @param bool $vueComDroitReaffect The vue com droit reaffect.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setVueComDroitReaffect($vueComDroitReaffect) {
         $this->vueComDroitReaffect = $vueComDroitReaffect;
@@ -5338,6 +5539,7 @@ class Collaborateurs {
      * Set the vue devis droit reaffect.
      *
      * @param bool $vueDevisDroitReaffect The vue devis droit reaffect.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setVueDevisDroitReaffect($vueDevisDroitReaffect) {
         $this->vueDevisDroitReaffect = $vueDevisDroitReaffect;
@@ -5348,6 +5550,7 @@ class Collaborateurs {
      * Set the vue devis droit suppr.
      *
      * @param bool $vueDevisDroitSuppr The vue devis droit suppr.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setVueDevisDroitSuppr($vueDevisDroitSuppr) {
         $this->vueDevisDroitSuppr = $vueDevisDroitSuppr;
@@ -5358,6 +5561,7 @@ class Collaborateurs {
      * Set the vue devis droit valid.
      *
      * @param bool $vueDevisDroitValid The vue devis droit valid.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setVueDevisDroitValid($vueDevisDroitValid) {
         $this->vueDevisDroitValid = $vueDevisDroitValid;
@@ -5368,6 +5572,7 @@ class Collaborateurs {
      * Set the ya droits collab.
      *
      * @param bool $yaDroitsCollab The ya droits collab.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function setYaDroitsCollab($yaDroitsCollab) {
         $this->yaDroitsCollab = $yaDroitsCollab;
@@ -5378,6 +5583,7 @@ class Collaborateurs {
      * Set the e ws mdp.
      *
      * @param string $eWsMdp The e ws mdp.
+     * @return Collaborateurs Returns this Collaborateurs.
      */
     public function seteWsMdp($eWsMdp) {
         $this->eWsMdp = $eWsMdp;

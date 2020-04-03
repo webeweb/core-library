@@ -96,6 +96,7 @@ class Interets {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return Interets Returns this Interets.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -106,6 +107,7 @@ class Interets {
      * Set the numero compte.
      *
      * @param string $numeroCompte The numero compte.
+     * @return Interets Returns this Interets.
      */
     public function setNumeroCompte($numeroCompte) {
         $this->numeroCompte = $numeroCompte;
@@ -116,6 +118,7 @@ class Interets {
      * Set the taux.
      *
      * @param float $taux The taux.
+     * @return Interets Returns this Interets.
      */
     public function setTaux($taux) {
         $this->taux = $taux;
@@ -126,6 +129,7 @@ class Interets {
      * Set the type cpt.
      *
      * @param string $typeCpt The type cpt.
+     * @return Interets Returns this Interets.
      */
     public function setTypeCpt($typeCpt) {
         $this->typeCpt = $typeCpt;

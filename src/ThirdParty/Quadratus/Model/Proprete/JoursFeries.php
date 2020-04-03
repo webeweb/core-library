@@ -80,6 +80,7 @@ class JoursFeries {
      * Set the code pays.
      *
      * @param string $codePays The code pays.
+     * @return JoursFeries Returns this Jours feries.
      */
     public function setCodePays($codePays) {
         $this->codePays = $codePays;
@@ -90,6 +91,7 @@ class JoursFeries {
      * Set the jour.
      *
      * @param DateTime|null $jour The jour.
+     * @return JoursFeries Returns this Jours feries.
      */
     public function setJour(DateTime $jour = null) {
         $this->jour = $jour;
@@ -100,6 +102,7 @@ class JoursFeries {
      * Set the numero jf.
      *
      * @param int $numeroJf The numero jf.
+     * @return JoursFeries Returns this Jours feries.
      */
     public function setNumeroJf($numeroJf) {
         $this->numeroJf = $numeroJf;

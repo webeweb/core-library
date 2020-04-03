@@ -208,6 +208,7 @@ class LignesHsmsaEmploye {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -218,6 +219,7 @@ class LignesHsmsaEmploye {
      * Set the code unite.
      *
      * @param string $codeUnite The code unite.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -228,6 +230,7 @@ class LignesHsmsaEmploye {
      * Set the mt hs.
      *
      * @param int $mtHs The mt hs.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setMtHs($mtHs) {
         $this->mtHs = $mtHs;
@@ -238,6 +241,7 @@ class LignesHsmsaEmploye {
      * Set the nb hs.
      *
      * @param float $nbHs The nb hs.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setNbHs($nbHs) {
         $this->nbHs = $nbHs;
@@ -248,6 +252,7 @@ class LignesHsmsaEmploye {
      * Set the num ligne.
      *
      * @param string $numLigne The num ligne.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -258,6 +263,7 @@ class LignesHsmsaEmploye {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -268,6 +274,7 @@ class LignesHsmsaEmploye {
      * Set the numero employe2.
      *
      * @param string $numeroEmploye2 The numero employe2.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setNumeroEmploye2($numeroEmploye2) {
         $this->numeroEmploye2 = $numeroEmploye2;
@@ -278,6 +285,7 @@ class LignesHsmsaEmploye {
      * Set the per deb.
      *
      * @param DateTime|null $perDeb The per deb.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setPerDeb(DateTime $perDeb = null) {
         $this->perDeb = $perDeb;
@@ -288,6 +296,7 @@ class LignesHsmsaEmploye {
      * Set the periode decla.
      *
      * @param DateTime|null $periodeDecla The periode decla.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setPeriodeDecla(DateTime $periodeDecla = null) {
         $this->periodeDecla = $periodeDecla;
@@ -298,6 +307,7 @@ class LignesHsmsaEmploye {
      * Set the taux hs.
      *
      * @param int $tauxHs The taux hs.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setTauxHs($tauxHs) {
         $this->tauxHs = $tauxHs;
@@ -308,6 +318,7 @@ class LignesHsmsaEmploye {
      * Set the type remun hs.
      *
      * @param string $typeRemunHs The type remun hs.
+     * @return LignesHsmsaEmploye Returns this Lignes hsmsa employe.
      */
     public function setTypeRemunHs($typeRemunHs) {
         $this->typeRemunHs = $typeRemunHs;

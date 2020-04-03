@@ -176,6 +176,7 @@ class RegularisationAf {
      * Set the base af.
      *
      * @param float $baseAf The base af.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setBaseAf($baseAf) {
         $this->baseAf = $baseAf;
@@ -186,6 +187,7 @@ class RegularisationAf {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -196,6 +198,7 @@ class RegularisationAf {
      * Set the indice bul deb.
      *
      * @param int $indiceBulDeb The indice bul deb.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setIndiceBulDeb($indiceBulDeb) {
         $this->indiceBulDeb = $indiceBulDeb;
@@ -206,6 +209,7 @@ class RegularisationAf {
      * Set the indice bul fin.
      *
      * @param int $indiceBulFin The indice bul fin.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setIndiceBulFin($indiceBulFin) {
         $this->indiceBulFin = $indiceBulFin;
@@ -216,6 +220,7 @@ class RegularisationAf {
      * Set the indice periode.
      *
      * @param int $indicePeriode The indice periode.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setIndicePeriode($indicePeriode) {
         $this->indicePeriode = $indicePeriode;
@@ -226,6 +231,7 @@ class RegularisationAf {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -236,6 +242,7 @@ class RegularisationAf {
      * Set the per bul deb.
      *
      * @param DateTime|null $perBulDeb The per bul deb.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setPerBulDeb(DateTime $perBulDeb = null) {
         $this->perBulDeb = $perBulDeb;
@@ -246,6 +253,7 @@ class RegularisationAf {
      * Set the per bul fin.
      *
      * @param DateTime|null $perBulFin The per bul fin.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setPerBulFin(DateTime $perBulFin = null) {
         $this->perBulFin = $perBulFin;
@@ -256,6 +264,7 @@ class RegularisationAf {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return RegularisationAf Returns this Regularisation af.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;

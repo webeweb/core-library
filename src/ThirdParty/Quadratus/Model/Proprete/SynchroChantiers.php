@@ -94,6 +94,7 @@ class SynchroChantiers {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return SynchroChantiers Returns this Synchro chantiers.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -104,6 +105,7 @@ class SynchroChantiers {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return SynchroChantiers Returns this Synchro chantiers.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -114,6 +116,7 @@ class SynchroChantiers {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return SynchroChantiers Returns this Synchro chantiers.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -124,6 +127,7 @@ class SynchroChantiers {
      * Set the code synchro.
      *
      * @param string $codeSynchro The code synchro.
+     * @return SynchroChantiers Returns this Synchro chantiers.
      */
     public function setCodeSynchro($codeSynchro) {
         $this->codeSynchro = $codeSynchro;

@@ -544,6 +544,7 @@ class GrillesType {
      * Set the code lib h nuit.
      *
      * @param string $codeLibHNuit The code lib h nuit.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setCodeLibHNuit($codeLibHNuit) {
         $this->codeLibHNuit = $codeLibHNuit;
@@ -554,6 +555,7 @@ class GrillesType {
      * Set the contingent h sup rc.
      *
      * @param float $contingentHSupRc The contingent h sup rc.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setContingentHSupRc($contingentHSupRc) {
         $this->contingentHSupRc = $contingentHSupRc;
@@ -564,6 +566,7 @@ class GrillesType {
      * Set the contingent h sup rcit.
      *
      * @param float $contingentHSupRcit The contingent h sup rcit.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setContingentHSupRcit($contingentHSupRcit) {
         $this->contingentHSupRcit = $contingentHSupRcit;
@@ -574,6 +577,7 @@ class GrillesType {
      * Set the date application.
      *
      * @param DateTime|null $dateApplication The date application.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDateApplication(DateTime $dateApplication = null) {
         $this->dateApplication = $dateApplication;
@@ -584,6 +588,7 @@ class GrillesType {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -594,6 +599,7 @@ class GrillesType {
      * Set the duree hebdo.
      *
      * @param float $dureeHebdo The duree hebdo.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDureeHebdo($dureeHebdo) {
         $this->dureeHebdo = $dureeHebdo;
@@ -604,6 +610,7 @@ class GrillesType {
      * Set the duree max hebdo.
      *
      * @param float $dureeMaxHebdo The duree max hebdo.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDureeMaxHebdo($dureeMaxHebdo) {
         $this->dureeMaxHebdo = $dureeMaxHebdo;
@@ -614,6 +621,7 @@ class GrillesType {
      * Set the duree max hebdo modul.
      *
      * @param float $dureeMaxHebdoModul The duree max hebdo modul.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDureeMaxHebdoModul($dureeMaxHebdoModul) {
         $this->dureeMaxHebdoModul = $dureeMaxHebdoModul;
@@ -624,6 +632,7 @@ class GrillesType {
      * Set the duree max mens.
      *
      * @param float $dureeMaxMens The duree max mens.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDureeMaxMens($dureeMaxMens) {
         $this->dureeMaxMens = $dureeMaxMens;
@@ -634,6 +643,7 @@ class GrillesType {
      * Set the duree moy hebdo1.
      *
      * @param float $dureeMoyHebdo1 The duree moy hebdo1.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDureeMoyHebdo1($dureeMoyHebdo1) {
         $this->dureeMoyHebdo1 = $dureeMoyHebdo1;
@@ -644,6 +654,7 @@ class GrillesType {
      * Set the duree moy hebdo2.
      *
      * @param float $dureeMoyHebdo2 The duree moy hebdo2.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDureeMoyHebdo2($dureeMoyHebdo2) {
         $this->dureeMoyHebdo2 = $dureeMoyHebdo2;
@@ -654,6 +665,7 @@ class GrillesType {
      * Set the duree moy periode1.
      *
      * @param int $dureeMoyPeriode1 The duree moy periode1.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDureeMoyPeriode1($dureeMoyPeriode1) {
         $this->dureeMoyPeriode1 = $dureeMoyPeriode1;
@@ -664,6 +676,7 @@ class GrillesType {
      * Set the duree moy periode2.
      *
      * @param int $dureeMoyPeriode2 The duree moy periode2.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setDureeMoyPeriode2($dureeMoyPeriode2) {
         $this->dureeMoyPeriode2 = $dureeMoyPeriode2;
@@ -674,6 +687,7 @@ class GrillesType {
      * Set the gestion h nuit.
      *
      * @param bool $gestionHNuit The gestion h nuit.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setGestionHNuit($gestionHNuit) {
         $this->gestionHNuit = $gestionHNuit;
@@ -684,6 +698,7 @@ class GrillesType {
      * Set the gestion jfnt.
      *
      * @param bool $gestionJfnt The gestion jfnt.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setGestionJfnt($gestionJfnt) {
         $this->gestionJfnt = $gestionJfnt;
@@ -694,6 +709,7 @@ class GrillesType {
      * Set the gestion plages horaires.
      *
      * @param bool $gestionPlagesHoraires The gestion plages horaires.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setGestionPlagesHoraires($gestionPlagesHoraires) {
         $this->gestionPlagesHoraires = $gestionPlagesHoraires;
@@ -704,6 +720,7 @@ class GrillesType {
      * Set the h nuit deb.
      *
      * @param string $hNuitDeb The h nuit deb.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setHNuitDeb($hNuitDeb) {
         $this->hNuitDeb = $hNuitDeb;
@@ -714,6 +731,7 @@ class GrillesType {
      * Set the h nuit fin.
      *
      * @param string $hNuitFin The h nuit fin.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setHNuitFin($hNuitFin) {
         $this->hNuitFin = $hNuitFin;
@@ -724,6 +742,7 @@ class GrillesType {
      * Set the h nuit tx majo.
      *
      * @param float $hNuitTxMajo The h nuit tx majo.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setHNuitTxMajo($hNuitTxMajo) {
         $this->hNuitTxMajo = $hNuitTxMajo;
@@ -734,6 +753,7 @@ class GrillesType {
      * Set the hebdo mens.
      *
      * @param string $hebdoMens The hebdo mens.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setHebdoMens($hebdoMens) {
         $this->hebdoMens = $hebdoMens;
@@ -744,6 +764,7 @@ class GrillesType {
      * Set the modulation.
      *
      * @param bool $modulation The modulation.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setModulation($modulation) {
         $this->modulation = $modulation;
@@ -754,6 +775,7 @@ class GrillesType {
      * Set the nb heures dans jour.
      *
      * @param float $nbHeuresDansJour The nb heures dans jour.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNbHeuresDansJour($nbHeuresDansJour) {
         $this->nbHeuresDansJour = $nbHeuresDansJour;
@@ -764,6 +786,7 @@ class GrillesType {
      * Set the nb hjf1.
      *
      * @param float $nbHjf1 The nb hjf1.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNbHjf1($nbHjf1) {
         $this->nbHjf1 = $nbHjf1;
@@ -774,6 +797,7 @@ class GrillesType {
      * Set the nb hjf2.
      *
      * @param float $nbHjf2 The nb hjf2.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNbHjf2($nbHjf2) {
         $this->nbHjf2 = $nbHjf2;
@@ -784,6 +808,7 @@ class GrillesType {
      * Set the nb hjf3.
      *
      * @param float $nbHjf3 The nb hjf3.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNbHjf3($nbHjf3) {
         $this->nbHjf3 = $nbHjf3;
@@ -794,6 +819,7 @@ class GrillesType {
      * Set the nb hjf4.
      *
      * @param float $nbHjf4 The nb hjf4.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNbHjf4($nbHjf4) {
         $this->nbHjf4 = $nbHjf4;
@@ -804,6 +830,7 @@ class GrillesType {
      * Set the nb hjf5.
      *
      * @param float $nbHjf5 The nb hjf5.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNbHjf5($nbHjf5) {
         $this->nbHjf5 = $nbHjf5;
@@ -814,6 +841,7 @@ class GrillesType {
      * Set the nb hjf6.
      *
      * @param float $nbHjf6 The nb hjf6.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNbHjf6($nbHjf6) {
         $this->nbHjf6 = $nbHjf6;
@@ -824,6 +852,7 @@ class GrillesType {
      * Set the nb hjf7.
      *
      * @param float $nbHjf7 The nb hjf7.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNbHjf7($nbHjf7) {
         $this->nbHjf7 = $nbHjf7;
@@ -834,6 +863,7 @@ class GrillesType {
      * Set the numero grille type.
      *
      * @param int $numeroGrilleType The numero grille type.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setNumeroGrilleType($numeroGrilleType) {
         $this->numeroGrilleType = $numeroGrilleType;
@@ -844,6 +874,7 @@ class GrillesType {
      * Set the repos recup.
      *
      * @param bool $reposRecup The repos recup.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setReposRecup($reposRecup) {
         $this->reposRecup = $reposRecup;
@@ -854,6 +885,7 @@ class GrillesType {
      * Set the taux repos comp.
      *
      * @param float $tauxReposComp The taux repos comp.
+     * @return GrillesType Returns this Grilles type.
      */
     public function setTauxReposComp($tauxReposComp) {
         $this->tauxReposComp = $tauxReposComp;

@@ -94,6 +94,7 @@ class RepartitionActiviteAna {
      * Set the centre.
      *
      * @param string $centre The centre.
+     * @return RepartitionActiviteAna Returns this Repartition activite ana.
      */
     public function setCentre($centre) {
         $this->centre = $centre;
@@ -104,6 +105,7 @@ class RepartitionActiviteAna {
      * Set the nature.
      *
      * @param string $nature The nature.
+     * @return RepartitionActiviteAna Returns this Repartition activite ana.
      */
     public function setNature($nature) {
         $this->nature = $nature;
@@ -114,6 +116,7 @@ class RepartitionActiviteAna {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return RepartitionActiviteAna Returns this Repartition activite ana.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -124,6 +127,7 @@ class RepartitionActiviteAna {
      * Set the taux ventilation.
      *
      * @param float $tauxVentilation The taux ventilation.
+     * @return RepartitionActiviteAna Returns this Repartition activite ana.
      */
     public function setTauxVentilation($tauxVentilation) {
         $this->tauxVentilation = $tauxVentilation;

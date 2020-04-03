@@ -126,6 +126,7 @@ class TravauxTypeEntetes {
      * Set the code.
      *
      * @param string $code The code.
+     * @return TravauxTypeEntetes Returns this Travaux type entetes.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -136,6 +137,7 @@ class TravauxTypeEntetes {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return TravauxTypeEntetes Returns this Travaux type entetes.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -146,6 +148,7 @@ class TravauxTypeEntetes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return TravauxTypeEntetes Returns this Travaux type entetes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -156,6 +159,7 @@ class TravauxTypeEntetes {
      * Set the police.
      *
      * @param string $police The police.
+     * @return TravauxTypeEntetes Returns this Travaux type entetes.
      */
     public function setPolice($police) {
         $this->police = $police;
@@ -166,6 +170,7 @@ class TravauxTypeEntetes {
      * Set the police2.
      *
      * @param string $police2 The police2.
+     * @return TravauxTypeEntetes Returns this Travaux type entetes.
      */
     public function setPolice2($police2) {
         $this->police2 = $police2;
@@ -176,6 +181,7 @@ class TravauxTypeEntetes {
      * Set the police3.
      *
      * @param string $police3 The police3.
+     * @return TravauxTypeEntetes Returns this Travaux type entetes.
      */
     public function setPolice3($police3) {
         $this->police3 = $police3;

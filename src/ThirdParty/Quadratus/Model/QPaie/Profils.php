@@ -62,6 +62,7 @@ class Profils {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Profils Returns this Profils.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class Profils {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Profils Returns this Profils.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;

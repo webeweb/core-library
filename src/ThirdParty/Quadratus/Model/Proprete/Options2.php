@@ -144,6 +144,7 @@ class Options2 {
      * Set the booleen.
      *
      * @param bool $booleen The booleen.
+     * @return Options2 Returns this Options2.
      */
     public function setBooleen($booleen) {
         $this->booleen = $booleen;
@@ -154,6 +155,7 @@ class Options2 {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Options2 Returns this Options2.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -164,6 +166,7 @@ class Options2 {
      * Set the date heure.
      *
      * @param DateTime|null $dateHeure The date heure.
+     * @return Options2 Returns this Options2.
      */
     public function setDateHeure(DateTime $dateHeure = null) {
         $this->dateHeure = $dateHeure;
@@ -174,6 +177,7 @@ class Options2 {
      * Set the descriptif.
      *
      * @param string $descriptif The descriptif.
+     * @return Options2 Returns this Options2.
      */
     public function setDescriptif($descriptif) {
         $this->descriptif = $descriptif;
@@ -184,6 +188,7 @@ class Options2 {
      * Set the numerique.
      *
      * @param float $numerique The numerique.
+     * @return Options2 Returns this Options2.
      */
     public function setNumerique($numerique) {
         $this->numerique = $numerique;
@@ -194,6 +199,7 @@ class Options2 {
      * Set the string.
      *
      * @param string $string The string.
+     * @return Options2 Returns this Options2.
      */
     public function setString($string) {
         $this->string = $string;
@@ -204,6 +210,7 @@ class Options2 {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Options2 Returns this Options2.
      */
     public function setType($type) {
         $this->type = $type;

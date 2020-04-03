@@ -110,6 +110,7 @@ class Variantes {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Variantes Returns this Variantes.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -120,6 +121,7 @@ class Variantes {
      * Set the code variante.
      *
      * @param string $codeVariante The code variante.
+     * @return Variantes Returns this Variantes.
      */
     public function setCodeVariante($codeVariante) {
         $this->codeVariante = $codeVariante;
@@ -130,6 +132,7 @@ class Variantes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return Variantes Returns this Variantes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -140,6 +143,7 @@ class Variantes {
      * Set the numero.
      *
      * @param int $numero The numero.
+     * @return Variantes Returns this Variantes.
      */
     public function setNumero($numero) {
         $this->numero = $numero;
@@ -150,6 +154,7 @@ class Variantes {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Variantes Returns this Variantes.
      */
     public function setType($type) {
         $this->type = $type;

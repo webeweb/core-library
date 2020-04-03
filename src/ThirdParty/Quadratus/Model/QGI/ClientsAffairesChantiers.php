@@ -110,6 +110,7 @@ class ClientsAffairesChantiers {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ClientsAffairesChantiers Returns this Clients affaires chantiers.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -120,6 +121,7 @@ class ClientsAffairesChantiers {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ClientsAffairesChantiers Returns this Clients affaires chantiers.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -130,6 +132,7 @@ class ClientsAffairesChantiers {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ClientsAffairesChantiers Returns this Clients affaires chantiers.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -140,6 +143,7 @@ class ClientsAffairesChantiers {
      * Set the dossier prop.
      *
      * @param string $dossierProp The dossier prop.
+     * @return ClientsAffairesChantiers Returns this Clients affaires chantiers.
      */
     public function setDossierProp($dossierProp) {
         $this->dossierProp = $dossierProp;
@@ -150,6 +154,7 @@ class ClientsAffairesChantiers {
      * Set the num uniq.
      *
      * @param string $numUniq The num uniq.
+     * @return ClientsAffairesChantiers Returns this Clients affaires chantiers.
      */
     public function setNumUniq($numUniq) {
         $this->numUniq = $numUniq;

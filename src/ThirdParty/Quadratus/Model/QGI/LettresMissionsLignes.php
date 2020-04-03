@@ -368,6 +368,7 @@ class LettresMissionsLignes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -378,6 +379,7 @@ class LettresMissionsLignes {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -388,6 +390,7 @@ class LettresMissionsLignes {
      * Set the code mission.
      *
      * @param string $codeMission The code mission.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setCodeMission($codeMission) {
         $this->codeMission = $codeMission;
@@ -398,6 +401,7 @@ class LettresMissionsLignes {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -408,6 +412,7 @@ class LettresMissionsLignes {
      * Set the code travail.
      *
      * @param string $codeTravail The code travail.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setCodeTravail($codeTravail) {
         $this->codeTravail = $codeTravail;
@@ -418,6 +423,7 @@ class LettresMissionsLignes {
      * Set the date debut.
      *
      * @param DateTime|null $dateDebut The date debut.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setDateDebut(DateTime $dateDebut = null) {
         $this->dateDebut = $dateDebut;
@@ -428,6 +434,7 @@ class LettresMissionsLignes {
      * Set the date fin.
      *
      * @param DateTime|null $dateFin The date fin.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setDateFin(DateTime $dateFin = null) {
         $this->dateFin = $dateFin;
@@ -438,6 +445,7 @@ class LettresMissionsLignes {
      * Set the declaration a rediger.
      *
      * @param bool $declarationARediger The declaration a rediger.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setDeclarationARediger($declarationARediger) {
         $this->declarationARediger = $declarationARediger;
@@ -448,6 +456,7 @@ class LettresMissionsLignes {
      * Set the frequence.
      *
      * @param string $frequence The frequence.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setFrequence($frequence) {
         $this->frequence = $frequence;
@@ -458,6 +467,7 @@ class LettresMissionsLignes {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;
@@ -468,6 +478,7 @@ class LettresMissionsLignes {
      * Set the nbr heures.
      *
      * @param float $nbrHeures The nbr heures.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setNbrHeures($nbrHeures) {
         $this->nbrHeures = $nbrHeures;
@@ -478,6 +489,7 @@ class LettresMissionsLignes {
      * Set the nbr operations.
      *
      * @param string $nbrOperations The nbr operations.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setNbrOperations($nbrOperations) {
         $this->nbrOperations = $nbrOperations;
@@ -488,6 +500,7 @@ class LettresMissionsLignes {
      * Set the niveau.
      *
      * @param int $niveau The niveau.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setNiveau($niveau) {
         $this->niveau = $niveau;
@@ -498,6 +511,7 @@ class LettresMissionsLignes {
      * Set the niveau ligne.
      *
      * @param string $niveauLigne The niveau ligne.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setNiveauLigne($niveauLigne) {
         $this->niveauLigne = $niveauLigne;
@@ -508,6 +522,7 @@ class LettresMissionsLignes {
      * Set the numero lettre.
      *
      * @param string $numeroLettre The numero lettre.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setNumeroLettre($numeroLettre) {
         $this->numeroLettre = $numeroLettre;
@@ -518,6 +533,7 @@ class LettresMissionsLignes {
      * Set the numero ligne.
      *
      * @param int $numeroLigne The numero ligne.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setNumeroLigne($numeroLigne) {
         $this->numeroLigne = $numeroLigne;
@@ -528,6 +544,7 @@ class LettresMissionsLignes {
      * Set the observations.
      *
      * @param string $observations The observations.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setObservations($observations) {
         $this->observations = $observations;
@@ -538,6 +555,7 @@ class LettresMissionsLignes {
      * Set the police.
      *
      * @param string $police The police.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setPolice($police) {
         $this->police = $police;
@@ -548,6 +566,7 @@ class LettresMissionsLignes {
      * Set the realise par.
      *
      * @param string $realisePar The realise par.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setRealisePar($realisePar) {
         $this->realisePar = $realisePar;
@@ -558,6 +577,7 @@ class LettresMissionsLignes {
      * Set the type affectation.
      *
      * @param string $typeAffectation The type affectation.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setTypeAffectation($typeAffectation) {
         $this->typeAffectation = $typeAffectation;
@@ -568,6 +588,7 @@ class LettresMissionsLignes {
      * Set the uniq id.
      *
      * @param string $uniqId The uniq id.
+     * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
     public function setUniqId($uniqId) {
         $this->uniqId = $uniqId;

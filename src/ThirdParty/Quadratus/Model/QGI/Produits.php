@@ -190,6 +190,7 @@ class Produits {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Produits Returns this Produits.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -200,6 +201,7 @@ class Produits {
      * Set the compteur.
      *
      * @param int $compteur The compteur.
+     * @return Produits Returns this Produits.
      */
     public function setCompteur($compteur) {
         $this->compteur = $compteur;
@@ -210,6 +212,7 @@ class Produits {
      * Set the cpt maj.
      *
      * @param int $cptMaj The cpt maj.
+     * @return Produits Returns this Produits.
      */
     public function setCptMaj($cptMaj) {
         $this->cptMaj = $cptMaj;
@@ -220,6 +223,7 @@ class Produits {
      * Set the dernier numero.
      *
      * @param int $dernierNumero The dernier numero.
+     * @return Produits Returns this Produits.
      */
     public function setDernierNumero($dernierNumero) {
         $this->dernierNumero = $dernierNumero;
@@ -230,6 +234,7 @@ class Produits {
      * Set the fichier licence.
      *
      * @param string $fichierLicence The fichier licence.
+     * @return Produits Returns this Produits.
      */
     public function setFichierLicence($fichierLicence) {
         $this->fichierLicence = $fichierLicence;
@@ -240,6 +245,7 @@ class Produits {
      * Set the gamme windows.
      *
      * @param bool $gammeWindows The gamme windows.
+     * @return Produits Returns this Produits.
      */
     public function setGammeWindows($gammeWindows) {
         $this->gammeWindows = $gammeWindows;
@@ -250,6 +256,7 @@ class Produits {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Produits Returns this Produits.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -260,6 +267,7 @@ class Produits {
      * Set the lettre licence.
      *
      * @param string $lettreLicence The lettre licence.
+     * @return Produits Returns this Produits.
      */
     public function setLettreLicence($lettreLicence) {
         $this->lettreLicence = $lettreLicence;
@@ -270,6 +278,7 @@ class Produits {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return Produits Returns this Produits.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -280,6 +289,7 @@ class Produits {
      * Set the nom prod licence.
      *
      * @param string $nomProdLicence The nom prod licence.
+     * @return Produits Returns this Produits.
      */
     public function setNomProdLicence($nomProdLicence) {
         $this->nomProdLicence = $nomProdLicence;

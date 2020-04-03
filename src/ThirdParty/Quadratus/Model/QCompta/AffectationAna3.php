@@ -174,6 +174,7 @@ class AffectationAna3 {
      * Set the annee recolte.
      *
      * @param string $anneeRecolte The annee recolte.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setAnneeRecolte($anneeRecolte) {
         $this->anneeRecolte = $anneeRecolte;
@@ -184,6 +185,7 @@ class AffectationAna3 {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -194,6 +196,7 @@ class AffectationAna3 {
      * Set the code nature.
      *
      * @param string $codeNature The code nature.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setCodeNature($codeNature) {
         $this->codeNature = $codeNature;
@@ -204,6 +207,7 @@ class AffectationAna3 {
      * Set the montant.
      *
      * @param float $montant The montant.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setMontant($montant) {
         $this->montant = $montant;
@@ -214,6 +218,7 @@ class AffectationAna3 {
      * Set the num compte.
      *
      * @param string $numCompte The num compte.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setNumCompte($numCompte) {
         $this->numCompte = $numCompte;
@@ -224,6 +229,7 @@ class AffectationAna3 {
      * Set the pourcentage.
      *
      * @param float $pourcentage The pourcentage.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setPourcentage($pourcentage) {
         $this->pourcentage = $pourcentage;
@@ -234,6 +240,7 @@ class AffectationAna3 {
      * Set the quantite1.
      *
      * @param float $quantite1 The quantite1.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setQuantite1($quantite1) {
         $this->quantite1 = $quantite1;
@@ -244,6 +251,7 @@ class AffectationAna3 {
      * Set the quantite2.
      *
      * @param float $quantite2 The quantite2.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setQuantite2($quantite2) {
         $this->quantite2 = $quantite2;
@@ -254,6 +262,7 @@ class AffectationAna3 {
      * Set the sens.
      *
      * @param string $sens The sens.
+     * @return AffectationAna3 Returns this Affectation ana3.
      */
     public function setSens($sens) {
         $this->sens = $sens;

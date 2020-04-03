@@ -430,6 +430,7 @@ class Taches {
      * Set the article.
      *
      * @param string $article The article.
+     * @return Taches Returns this Taches.
      */
     public function setArticle($article) {
         $this->article = $article;
@@ -440,6 +441,7 @@ class Taches {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Taches Returns this Taches.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -450,6 +452,7 @@ class Taches {
      * Set the code frais.
      *
      * @param string $codeFrais The code frais.
+     * @return Taches Returns this Taches.
      */
     public function setCodeFrais($codeFrais) {
         $this->codeFrais = $codeFrais;
@@ -460,6 +463,7 @@ class Taches {
      * Set the code regroupement.
      *
      * @param string $codeRegroupement The code regroupement.
+     * @return Taches Returns this Taches.
      */
     public function setCodeRegroupement($codeRegroupement) {
         $this->codeRegroupement = $codeRegroupement;
@@ -470,6 +474,7 @@ class Taches {
      * Set the code travail.
      *
      * @param string $codeTravail The code travail.
+     * @return Taches Returns this Taches.
      */
     public function setCodeTravail($codeTravail) {
         $this->codeTravail = $codeTravail;
@@ -480,6 +485,7 @@ class Taches {
      * Set the code uo.
      *
      * @param string $codeUo The code uo.
+     * @return Taches Returns this Taches.
      */
     public function setCodeUo($codeUo) {
         $this->codeUo = $codeUo;
@@ -490,6 +496,7 @@ class Taches {
      * Set the compte comptable.
      *
      * @param string $compteComptable The compte comptable.
+     * @return Taches Returns this Taches.
      */
     public function setCompteComptable($compteComptable) {
         $this->compteComptable = $compteComptable;
@@ -500,6 +507,7 @@ class Taches {
      * Set the compte tva.
      *
      * @param string $compteTva The compte tva.
+     * @return Taches Returns this Taches.
      */
     public function setCompteTva($compteTva) {
         $this->compteTva = $compteTva;
@@ -510,6 +518,7 @@ class Taches {
      * Set the facturable.
      *
      * @param bool $facturable The facturable.
+     * @return Taches Returns this Taches.
      */
     public function setFacturable($facturable) {
         $this->facturable = $facturable;
@@ -520,6 +529,7 @@ class Taches {
      * Set the inactif.
      *
      * @param bool $inactif The inactif.
+     * @return Taches Returns this Taches.
      */
     public function setInactif($inactif) {
         $this->inactif = $inactif;
@@ -530,6 +540,7 @@ class Taches {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Taches Returns this Taches.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -540,6 +551,7 @@ class Taches {
      * Set the intitule rtf.
      *
      * @param string $intituleRtf The intitule rtf.
+     * @return Taches Returns this Taches.
      */
     public function setIntituleRtf($intituleRtf) {
         $this->intituleRtf = $intituleRtf;
@@ -550,6 +562,7 @@ class Taches {
      * Set the liste travaux.
      *
      * @param string $listeTravaux The liste travaux.
+     * @return Taches Returns this Taches.
      */
     public function setListeTravaux($listeTravaux) {
         $this->listeTravaux = $listeTravaux;
@@ -560,6 +573,7 @@ class Taches {
      * Set the niveau exec.
      *
      * @param string $niveauExec The niveau exec.
+     * @return Taches Returns this Taches.
      */
     public function setNiveauExec($niveauExec) {
         $this->niveauExec = $niveauExec;
@@ -570,6 +584,7 @@ class Taches {
      * Set the non remboursable.
      *
      * @param bool $nonRemboursable The non remboursable.
+     * @return Taches Returns this Taches.
      */
     public function setNonRemboursable($nonRemboursable) {
         $this->nonRemboursable = $nonRemboursable;
@@ -580,6 +595,7 @@ class Taches {
      * Set the non travaillee.
      *
      * @param bool $nonTravaillee The non travaillee.
+     * @return Taches Returns this Taches.
      */
     public function setNonTravaillee($nonTravaillee) {
         $this->nonTravaillee = $nonTravaillee;
@@ -590,6 +606,7 @@ class Taches {
      * Set the operationnelle.
      *
      * @param bool $operationnelle The operationnelle.
+     * @return Taches Returns this Taches.
      */
     public function setOperationnelle($operationnelle) {
         $this->operationnelle = $operationnelle;
@@ -600,6 +617,7 @@ class Taches {
      * Set the prix vente1.
      *
      * @param float $prixVente1 The prix vente1.
+     * @return Taches Returns this Taches.
      */
     public function setPrixVente1($prixVente1) {
         $this->prixVente1 = $prixVente1;
@@ -610,6 +628,7 @@ class Taches {
      * Set the prix vente2.
      *
      * @param float $prixVente2 The prix vente2.
+     * @return Taches Returns this Taches.
      */
     public function setPrixVente2($prixVente2) {
         $this->prixVente2 = $prixVente2;
@@ -620,6 +639,7 @@ class Taches {
      * Set the prix vente3.
      *
      * @param float $prixVente3 The prix vente3.
+     * @return Taches Returns this Taches.
      */
     public function setPrixVente3($prixVente3) {
         $this->prixVente3 = $prixVente3;
@@ -630,6 +650,7 @@ class Taches {
      * Set the pv maxi.
      *
      * @param float $pvMaxi The pv maxi.
+     * @return Taches Returns this Taches.
      */
     public function setPvMaxi($pvMaxi) {
         $this->pvMaxi = $pvMaxi;
@@ -640,6 +661,7 @@ class Taches {
      * Set the saisie tva.
      *
      * @param bool $saisieTva The saisie tva.
+     * @return Taches Returns this Taches.
      */
     public function setSaisieTva($saisieTva) {
         $this->saisieTva = $saisieTva;
@@ -650,6 +672,7 @@ class Taches {
      * Set the super facturable.
      *
      * @param bool $superFacturable The super facturable.
+     * @return Taches Returns this Taches.
      */
     public function setSuperFacturable($superFacturable) {
         $this->superFacturable = $superFacturable;
@@ -660,6 +683,7 @@ class Taches {
      * Set the ticket resto.
      *
      * @param bool $ticketResto The ticket resto.
+     * @return Taches Returns this Taches.
      */
     public function setTicketResto($ticketResto) {
         $this->ticketResto = $ticketResto;
@@ -670,6 +694,7 @@ class Taches {
      * Set the type heure.
      *
      * @param string $typeHeure The type heure.
+     * @return Taches Returns this Taches.
      */
     public function setTypeHeure($typeHeure) {
         $this->typeHeure = $typeHeure;

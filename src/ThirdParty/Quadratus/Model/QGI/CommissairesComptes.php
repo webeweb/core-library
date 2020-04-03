@@ -144,6 +144,7 @@ class CommissairesComptes {
      * Set the code cac.
      *
      * @param string $codeCac The code cac.
+     * @return CommissairesComptes Returns this Commissaires comptes.
      */
     public function setCodeCac($codeCac) {
         $this->codeCac = $codeCac;
@@ -154,6 +155,7 @@ class CommissairesComptes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return CommissairesComptes Returns this Commissaires comptes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -164,6 +166,7 @@ class CommissairesComptes {
      * Set the date nomination.
      *
      * @param DateTime|null $dateNomination The date nomination.
+     * @return CommissairesComptes Returns this Commissaires comptes.
      */
     public function setDateNomination(DateTime $dateNomination = null) {
         $this->dateNomination = $dateNomination;
@@ -174,6 +177,7 @@ class CommissairesComptes {
      * Set the duree mandat.
      *
      * @param int $dureeMandat The duree mandat.
+     * @return CommissairesComptes Returns this Commissaires comptes.
      */
     public function setDureeMandat($dureeMandat) {
         $this->dureeMandat = $dureeMandat;
@@ -184,6 +188,7 @@ class CommissairesComptes {
      * Set the observations.
      *
      * @param string $observations The observations.
+     * @return CommissairesComptes Returns this Commissaires comptes.
      */
     public function setObservations($observations) {
         $this->observations = $observations;
@@ -194,6 +199,7 @@ class CommissairesComptes {
      * Set the position.
      *
      * @param int $position The position.
+     * @return CommissairesComptes Returns this Commissaires comptes.
      */
     public function setPosition($position) {
         $this->position = $position;
@@ -204,6 +210,7 @@ class CommissairesComptes {
      * Set the titulaire.
      *
      * @param bool $titulaire The titulaire.
+     * @return CommissairesComptes Returns this Commissaires comptes.
      */
     public function setTitulaire($titulaire) {
         $this->titulaire = $titulaire;

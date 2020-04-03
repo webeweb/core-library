@@ -416,6 +416,7 @@ class VisiteMedicaleEntete {
      * Set the adresse mt.
      *
      * @param string $adresseMt The adresse mt.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setAdresseMt($adresseMt) {
         $this->adresseMt = $adresseMt;
@@ -426,6 +427,7 @@ class VisiteMedicaleEntete {
      * Set the code.
      *
      * @param string $code The code.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -436,6 +438,7 @@ class VisiteMedicaleEntete {
      * Set the code medecine travail.
      *
      * @param string $codeMedecineTravail The code medecine travail.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setCodeMedecineTravail($codeMedecineTravail) {
         $this->codeMedecineTravail = $codeMedecineTravail;
@@ -446,6 +449,7 @@ class VisiteMedicaleEntete {
      * Set the code postal mt.
      *
      * @param string $codePostalMt The code postal mt.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setCodePostalMt($codePostalMt) {
         $this->codePostalMt = $codePostalMt;
@@ -456,6 +460,7 @@ class VisiteMedicaleEntete {
      * Set the debut1.
      *
      * @param DateTime|null $debut1 The debut1.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setDebut1(DateTime $debut1 = null) {
         $this->debut1 = $debut1;
@@ -466,6 +471,7 @@ class VisiteMedicaleEntete {
      * Set the debut2.
      *
      * @param DateTime|null $debut2 The debut2.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setDebut2(DateTime $debut2 = null) {
         $this->debut2 = $debut2;
@@ -476,6 +482,7 @@ class VisiteMedicaleEntete {
      * Set the debut session.
      *
      * @param DateTime|null $debutSession The debut session.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setDebutSession(DateTime $debutSession = null) {
         $this->debutSession = $debutSession;
@@ -486,6 +493,7 @@ class VisiteMedicaleEntete {
      * Set the description.
      *
      * @param string $description The description.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setDescription($description) {
         $this->description = $description;
@@ -496,6 +504,7 @@ class VisiteMedicaleEntete {
      * Set the duree visite.
      *
      * @param string $dureeVisite The duree visite.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setDureeVisite($dureeVisite) {
         $this->dureeVisite = $dureeVisite;
@@ -506,6 +515,7 @@ class VisiteMedicaleEntete {
      * Set the fin1.
      *
      * @param DateTime|null $fin1 The fin1.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setFin1(DateTime $fin1 = null) {
         $this->fin1 = $fin1;
@@ -516,6 +526,7 @@ class VisiteMedicaleEntete {
      * Set the fin2.
      *
      * @param DateTime|null $fin2 The fin2.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setFin2(DateTime $fin2 = null) {
         $this->fin2 = $fin2;
@@ -526,6 +537,7 @@ class VisiteMedicaleEntete {
      * Set the fin session.
      *
      * @param DateTime|null $finSession The fin session.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setFinSession(DateTime $finSession = null) {
         $this->finSession = $finSession;
@@ -536,6 +548,7 @@ class VisiteMedicaleEntete {
      * Set the lient document.
      *
      * @param string $lientDocument The lient document.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setLientDocument($lientDocument) {
         $this->lientDocument = $lientDocument;
@@ -546,6 +559,7 @@ class VisiteMedicaleEntete {
      * Set the medecin responsable.
      *
      * @param string $medecinResponsable The medecin responsable.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setMedecinResponsable($medecinResponsable) {
         $this->medecinResponsable = $medecinResponsable;
@@ -556,6 +570,7 @@ class VisiteMedicaleEntete {
      * Set the nom mt.
      *
      * @param string $nomMt The nom mt.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setNomMt($nomMt) {
         $this->nomMt = $nomMt;
@@ -566,6 +581,7 @@ class VisiteMedicaleEntete {
      * Set the rdv jour1.
      *
      * @param bool $rdvJour1 The rdv jour1.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setRdvJour1($rdvJour1) {
         $this->rdvJour1 = $rdvJour1;
@@ -576,6 +592,7 @@ class VisiteMedicaleEntete {
      * Set the rdv jour2.
      *
      * @param bool $rdvJour2 The rdv jour2.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setRdvJour2($rdvJour2) {
         $this->rdvJour2 = $rdvJour2;
@@ -586,6 +603,7 @@ class VisiteMedicaleEntete {
      * Set the rdv jour3.
      *
      * @param bool $rdvJour3 The rdv jour3.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setRdvJour3($rdvJour3) {
         $this->rdvJour3 = $rdvJour3;
@@ -596,6 +614,7 @@ class VisiteMedicaleEntete {
      * Set the rdv jour4.
      *
      * @param bool $rdvJour4 The rdv jour4.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setRdvJour4($rdvJour4) {
         $this->rdvJour4 = $rdvJour4;
@@ -606,6 +625,7 @@ class VisiteMedicaleEntete {
      * Set the rdv jour5.
      *
      * @param bool $rdvJour5 The rdv jour5.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setRdvJour5($rdvJour5) {
         $this->rdvJour5 = $rdvJour5;
@@ -616,6 +636,7 @@ class VisiteMedicaleEntete {
      * Set the rdv jour6.
      *
      * @param bool $rdvJour6 The rdv jour6.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setRdvJour6($rdvJour6) {
         $this->rdvJour6 = $rdvJour6;
@@ -626,6 +647,7 @@ class VisiteMedicaleEntete {
      * Set the rdv jour7.
      *
      * @param bool $rdvJour7 The rdv jour7.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setRdvJour7($rdvJour7) {
         $this->rdvJour7 = $rdvJour7;
@@ -636,6 +658,7 @@ class VisiteMedicaleEntete {
      * Set the tel1.
      *
      * @param string $tel1 The tel1.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setTel1($tel1) {
         $this->tel1 = $tel1;
@@ -646,6 +669,7 @@ class VisiteMedicaleEntete {
      * Set the ville mt.
      *
      * @param string $villeMt The ville mt.
+     * @return VisiteMedicaleEntete Returns this Visite medicale entete.
      */
     public function setVilleMt($villeMt) {
         $this->villeMt = $villeMt;

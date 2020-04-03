@@ -334,6 +334,7 @@ class ComptesLibQuadra {
      * Set the code ducs.
      *
      * @param string $codeDucs The code ducs.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setCodeDucs($codeDucs) {
         $this->codeDucs = $codeDucs;
@@ -344,6 +345,7 @@ class ComptesLibQuadra {
      * Set the code edition histo.
      *
      * @param string $codeEditionHisto The code edition histo.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setCodeEditionHisto($codeEditionHisto) {
         $this->codeEditionHisto = $codeEditionHisto;
@@ -354,6 +356,7 @@ class ComptesLibQuadra {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -364,6 +367,7 @@ class ComptesLibQuadra {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -374,6 +378,7 @@ class ComptesLibQuadra {
      * Set the code type b spec prev.
      *
      * @param string $codeTypeBSpecPrev The code type b spec prev.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setCodeTypeBSpecPrev($codeTypeBSpecPrev) {
         $this->codeTypeBSpecPrev = $codeTypeBSpecPrev;
@@ -384,6 +389,7 @@ class ComptesLibQuadra {
      * Set the compte charge.
      *
      * @param string $compteCharge The compte charge.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setCompteCharge($compteCharge) {
         $this->compteCharge = $compteCharge;
@@ -394,6 +400,7 @@ class ComptesLibQuadra {
      * Set the condition spec.
      *
      * @param string $conditionSpec The condition spec.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setConditionSpec($conditionSpec) {
         $this->conditionSpec = $conditionSpec;
@@ -404,6 +411,7 @@ class ComptesLibQuadra {
      * Set the edition forcee ds.
      *
      * @param string $editionForceeDs The edition forcee ds.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setEditionForceeDs($editionForceeDs) {
         $this->editionForceeDs = $editionForceeDs;
@@ -414,6 +422,7 @@ class ComptesLibQuadra {
      * Set the exclure loi tepa.
      *
      * @param string $exclureLoiTepa The exclure loi tepa.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setExclureLoiTepa($exclureLoiTepa) {
         $this->exclureLoiTepa = $exclureLoiTepa;
@@ -424,6 +433,7 @@ class ComptesLibQuadra {
      * Set the frais sante.
      *
      * @param string $fraisSante The frais sante.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setFraisSante($fraisSante) {
         $this->fraisSante = $fraisSante;
@@ -434,6 +444,7 @@ class ComptesLibQuadra {
      * Set the prevoyance comp.
      *
      * @param string $prevoyanceComp The prevoyance comp.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setPrevoyanceComp($prevoyanceComp) {
         $this->prevoyanceComp = $prevoyanceComp;
@@ -444,6 +455,7 @@ class ComptesLibQuadra {
      * Set the qualifiant cotis.
      *
      * @param string $qualifiantCotis The qualifiant cotis.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setQualifiantCotis($qualifiantCotis) {
         $this->qualifiantCotis = $qualifiantCotis;
@@ -454,6 +466,7 @@ class ComptesLibQuadra {
      * Set the retraite obligatoire.
      *
      * @param string $retraiteObligatoire The retraite obligatoire.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setRetraiteObligatoire($retraiteObligatoire) {
         $this->retraiteObligatoire = $retraiteObligatoire;
@@ -464,6 +477,7 @@ class ComptesLibQuadra {
      * Set the retraite supp.
      *
      * @param string $retraiteSupp The retraite supp.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setRetraiteSupp($retraiteSupp) {
         $this->retraiteSupp = $retraiteSupp;
@@ -474,6 +488,7 @@ class ComptesLibQuadra {
      * Set the sans reintegration sociale.
      *
      * @param string $sansReintegrationSociale The sans reintegration sociale.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setSansReintegrationSociale($sansReintegrationSociale) {
         $this->sansReintegrationSociale = $sansReintegrationSociale;
@@ -484,6 +499,7 @@ class ComptesLibQuadra {
      * Set the soumis crds100.
      *
      * @param string $soumisCrds100 The soumis crds100.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setSoumisCrds100($soumisCrds100) {
         $this->soumisCrds100 = $soumisCrds100;
@@ -494,6 +510,7 @@ class ComptesLibQuadra {
      * Set the soumis csg100.
      *
      * @param string $soumisCsg100 The soumis csg100.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setSoumisCsg100($soumisCsg100) {
         $this->soumisCsg100 = $soumisCsg100;
@@ -504,6 +521,7 @@ class ComptesLibQuadra {
      * Set the taux forfait social20.
      *
      * @param string $tauxForfaitSocial20 The taux forfait social20.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setTauxForfaitSocial20($tauxForfaitSocial20) {
         $this->tauxForfaitSocial20 = $tauxForfaitSocial20;
@@ -514,6 +532,7 @@ class ComptesLibQuadra {
      * Set the taux forfait social8.
      *
      * @param string $tauxForfaitSocial8 The taux forfait social8.
+     * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
     public function setTauxForfaitSocial8($tauxForfaitSocial8) {
         $this->tauxForfaitSocial8 = $tauxForfaitSocial8;

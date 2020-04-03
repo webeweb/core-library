@@ -62,6 +62,7 @@ class ProfilsActions {
      * Set the code profil.
      *
      * @param string $codeProfil The code profil.
+     * @return ProfilsActions Returns this Profils actions.
      */
     public function setCodeProfil($codeProfil) {
         $this->codeProfil = $codeProfil;
@@ -72,6 +73,7 @@ class ProfilsActions {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return ProfilsActions Returns this Profils actions.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;

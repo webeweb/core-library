@@ -1920,6 +1920,7 @@ class Intervenants {
      * Set the adresse site client.
      *
      * @param string $adresseSiteClient The adresse site client.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setAdresseSiteClient($adresseSiteClient) {
         $this->adresseSiteClient = $adresseSiteClient;
@@ -1930,6 +1931,7 @@ class Intervenants {
      * Set the adresse transpac.
      *
      * @param string $adresseTranspac The adresse transpac.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setAdresseTranspac($adresseTranspac) {
         $this->adresseTranspac = $adresseTranspac;
@@ -1940,6 +1942,7 @@ class Intervenants {
      * Set the age.
      *
      * @param string $age The age.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setAge($age) {
         $this->age = $age;
@@ -1950,6 +1953,7 @@ class Intervenants {
      * Set the autoriser acces internet.
      *
      * @param bool $autoriserAccesInternet The autoriser acces internet.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setAutoriserAccesInternet($autoriserAccesInternet) {
         $this->autoriserAccesInternet = $autoriserAccesInternet;
@@ -1960,6 +1964,7 @@ class Intervenants {
      * Set the bic.
      *
      * @param string $bic The bic.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setBic($bic) {
         $this->bic = $bic;
@@ -1970,6 +1975,7 @@ class Intervenants {
      * Set the btq.
      *
      * @param string $btq The btq.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setBtq($btq) {
         $this->btq = $btq;
@@ -1980,6 +1986,7 @@ class Intervenants {
      * Set the btq2.
      *
      * @param string $btq2 The btq2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setBtq2($btq2) {
         $this->btq2 = $btq2;
@@ -1990,6 +1997,7 @@ class Intervenants {
      * Set the bureau distributeur.
      *
      * @param string $bureauDistributeur The bureau distributeur.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setBureauDistributeur($bureauDistributeur) {
         $this->bureauDistributeur = $bureauDistributeur;
@@ -2000,6 +2008,7 @@ class Intervenants {
      * Set the bureau distributeur2.
      *
      * @param string $bureauDistributeur2 The bureau distributeur2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setBureauDistributeur2($bureauDistributeur2) {
         $this->bureauDistributeur2 = $bureauDistributeur2;
@@ -2010,6 +2019,7 @@ class Intervenants {
      * Set the capital.
      *
      * @param float $capital The capital.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCapital($capital) {
         $this->capital = $capital;
@@ -2020,6 +2030,7 @@ class Intervenants {
      * Set the capital monnaie.
      *
      * @param string $capitalMonnaie The capital monnaie.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCapitalMonnaie($capitalMonnaie) {
         $this->capitalMonnaie = $capitalMonnaie;
@@ -2030,6 +2041,7 @@ class Intervenants {
      * Set the categorie juridique.
      *
      * @param string $categorieJuridique The categorie juridique.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCategorieJuridique($categorieJuridique) {
         $this->categorieJuridique = $categorieJuridique;
@@ -2040,6 +2052,7 @@ class Intervenants {
      * Set the civilite.
      *
      * @param string $civilite The civilite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCivilite($civilite) {
         $this->civilite = $civilite;
@@ -2050,6 +2063,7 @@ class Intervenants {
      * Set the code.
      *
      * @param string $code The code.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -2060,6 +2074,7 @@ class Intervenants {
      * Set the code epoux.
      *
      * @param string $codeEpoux The code epoux.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodeEpoux($codeEpoux) {
         $this->codeEpoux = $codeEpoux;
@@ -2070,6 +2085,7 @@ class Intervenants {
      * Set the code insee.
      *
      * @param string $codeInsee The code insee.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodeInsee($codeInsee) {
         $this->codeInsee = $codeInsee;
@@ -2080,6 +2096,7 @@ class Intervenants {
      * Set the code naf.
      *
      * @param string $codeNaf The code naf.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodeNaf($codeNaf) {
         $this->codeNaf = $codeNaf;
@@ -2090,6 +2107,7 @@ class Intervenants {
      * Set the code naf2008.
      *
      * @param string $codeNaf2008 The code naf2008.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodeNaf2008($codeNaf2008) {
         $this->codeNaf2008 = $codeNaf2008;
@@ -2100,6 +2118,7 @@ class Intervenants {
      * Set the code officiel commune.
      *
      * @param string $codeOfficielCommune The code officiel commune.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodeOfficielCommune($codeOfficielCommune) {
         $this->codeOfficielCommune = $codeOfficielCommune;
@@ -2110,6 +2129,7 @@ class Intervenants {
      * Set the code officiel commune2.
      *
      * @param string $codeOfficielCommune2 The code officiel commune2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodeOfficielCommune2($codeOfficielCommune2) {
         $this->codeOfficielCommune2 = $codeOfficielCommune2;
@@ -2120,6 +2140,7 @@ class Intervenants {
      * Set the code pays iso.
      *
      * @param string $codePaysIso The code pays iso.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePaysIso($codePaysIso) {
         $this->codePaysIso = $codePaysIso;
@@ -2130,6 +2151,7 @@ class Intervenants {
      * Set the code pays iso naiss.
      *
      * @param string $codePaysIsoNaiss The code pays iso naiss.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePaysIsoNaiss($codePaysIsoNaiss) {
         $this->codePaysIsoNaiss = $codePaysIsoNaiss;
@@ -2140,6 +2162,7 @@ class Intervenants {
      * Set the code postal.
      *
      * @param string $codePostal The code postal.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePostal($codePostal) {
         $this->codePostal = $codePostal;
@@ -2150,6 +2173,7 @@ class Intervenants {
      * Set the code postal2.
      *
      * @param string $codePostal2 The code postal2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePostal2($codePostal2) {
         $this->codePostal2 = $codePostal2;
@@ -2160,6 +2184,7 @@ class Intervenants {
      * Set the code postal mariage.
      *
      * @param string $codePostalMariage The code postal mariage.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePostalMariage($codePostalMariage) {
         $this->codePostalMariage = $codePostalMariage;
@@ -2170,6 +2195,7 @@ class Intervenants {
      * Set the code postal naissance.
      *
      * @param string $codePostalNaissance The code postal naissance.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePostalNaissance($codePostalNaissance) {
         $this->codePostalNaissance = $codePostalNaissance;
@@ -2180,6 +2206,7 @@ class Intervenants {
      * Set the code postal rc.
      *
      * @param string $codePostalRc The code postal rc.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePostalRc($codePostalRc) {
         $this->codePostalRc = $codePostalRc;
@@ -2190,6 +2217,7 @@ class Intervenants {
      * Set the code postal rm.
      *
      * @param string $codePostalRm The code postal rm.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodePostalRm($codePostalRm) {
         $this->codePostalRm = $codePostalRm;
@@ -2200,6 +2228,7 @@ class Intervenants {
      * Set the code responsable.
      *
      * @param string $codeResponsable The code responsable.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCodeResponsable($codeResponsable) {
         $this->codeResponsable = $codeResponsable;
@@ -2210,6 +2239,7 @@ class Intervenants {
      * Set the complement.
      *
      * @param string $complement The complement.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setComplement($complement) {
         $this->complement = $complement;
@@ -2220,6 +2250,7 @@ class Intervenants {
      * Set the complement2.
      *
      * @param string $complement2 The complement2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setComplement2($complement2) {
         $this->complement2 = $complement2;
@@ -2230,6 +2261,7 @@ class Intervenants {
      * Set the complement suite.
      *
      * @param string $complementSuite The complement suite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setComplementSuite($complementSuite) {
         $this->complementSuite = $complementSuite;
@@ -2240,6 +2272,7 @@ class Intervenants {
      * Set the compteur liens.
      *
      * @param int $compteurLiens The compteur liens.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCompteurLiens($compteurLiens) {
         $this->compteurLiens = $compteurLiens;
@@ -2250,6 +2283,7 @@ class Intervenants {
      * Set the contact.
      *
      * @param string $contact The contact.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setContact($contact) {
         $this->contact = $contact;
@@ -2260,6 +2294,7 @@ class Intervenants {
      * Set the creation societe.
      *
      * @param DateTime|null $creationSociete The creation societe.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setCreationSociete(DateTime $creationSociete = null) {
         $this->creationSociete = $creationSociete;
@@ -2270,6 +2305,7 @@ class Intervenants {
      * Set the date creat.
      *
      * @param DateTime|null $dateCreat The date creat.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateCreat(DateTime $dateCreat = null) {
         $this->dateCreat = $dateCreat;
@@ -2280,6 +2316,7 @@ class Intervenants {
      * Set the date deb activite.
      *
      * @param DateTime|null $dateDebActivite The date deb activite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateDebActivite(DateTime $dateDebActivite = null) {
         $this->dateDebActivite = $dateDebActivite;
@@ -2290,6 +2327,7 @@ class Intervenants {
      * Set the date divorce.
      *
      * @param DateTime|null $dateDivorce The date divorce.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateDivorce(DateTime $dateDivorce = null) {
         $this->dateDivorce = $dateDivorce;
@@ -2300,6 +2338,7 @@ class Intervenants {
      * Set the date installation.
      *
      * @param DateTime|null $dateInstallation The date installation.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateInstallation(DateTime $dateInstallation = null) {
         $this->dateInstallation = $dateInstallation;
@@ -2310,6 +2349,7 @@ class Intervenants {
      * Set the date mariage.
      *
      * @param DateTime|null $dateMariage The date mariage.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateMariage(DateTime $dateMariage = null) {
         $this->dateMariage = $dateMariage;
@@ -2320,6 +2360,7 @@ class Intervenants {
      * Set the date modif.
      *
      * @param DateTime|null $dateModif The date modif.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateModif(DateTime $dateModif = null) {
         $this->dateModif = $dateModif;
@@ -2330,6 +2371,7 @@ class Intervenants {
      * Set the date naissance.
      *
      * @param DateTime|null $dateNaissance The date naissance.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDateNaissance(DateTime $dateNaissance = null) {
         $this->dateNaissance = $dateNaissance;
@@ -2340,6 +2382,7 @@ class Intervenants {
      * Set the donnees appel.
      *
      * @param string $donneesAppel The donnees appel.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDonneesAppel($donneesAppel) {
         $this->donneesAppel = $donneesAppel;
@@ -2350,6 +2393,7 @@ class Intervenants {
      * Set the droit collab visu documents.
      *
      * @param string $droitCollabVisuDocuments The droit collab visu documents.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDroitCollabVisuDocuments($droitCollabVisuDocuments) {
         $this->droitCollabVisuDocuments = $droitCollabVisuDocuments;
@@ -2360,6 +2404,7 @@ class Intervenants {
      * Set the duree societe.
      *
      * @param string $dureeSociete The duree societe.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setDureeSociete($dureeSociete) {
         $this->dureeSociete = $dureeSociete;
@@ -2370,6 +2415,7 @@ class Intervenants {
      * Set the email.
      *
      * @param string $email The email.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setEmail($email) {
         $this->email = $email;
@@ -2380,6 +2426,7 @@ class Intervenants {
      * Set the email2.
      *
      * @param string $email2 The email2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setEmail2($email2) {
         $this->email2 = $email2;
@@ -2390,6 +2437,7 @@ class Intervenants {
      * Set the enseigne.
      *
      * @param string $enseigne The enseigne.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setEnseigne($enseigne) {
         $this->enseigne = $enseigne;
@@ -2400,6 +2448,7 @@ class Intervenants {
      * Set the fax.
      *
      * @param string $fax The fax.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setFax($fax) {
         $this->fax = $fax;
@@ -2410,6 +2459,7 @@ class Intervenants {
      * Set the fax2.
      *
      * @param string $fax2 The fax2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setFax2($fax2) {
         $this->fax2 = $fax2;
@@ -2420,6 +2470,7 @@ class Intervenants {
      * Set the frp cle.
      *
      * @param string $frpCle The frp cle.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setFrpCle($frpCle) {
         $this->frpCle = $frpCle;
@@ -2430,6 +2481,7 @@ class Intervenants {
      * Set the frp dossier.
      *
      * @param string $frpDossier The frp dossier.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setFrpDossier($frpDossier) {
         $this->frpDossier = $frpDossier;
@@ -2440,6 +2492,7 @@ class Intervenants {
      * Set the frp recette.
      *
      * @param string $frpRecette The frp recette.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setFrpRecette($frpRecette) {
         $this->frpRecette = $frpRecette;
@@ -2450,6 +2503,7 @@ class Intervenants {
      * Set the gest juri.
      *
      * @param bool $gestJuri The gest juri.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setGestJuri($gestJuri) {
         $this->gestJuri = $gestJuri;
@@ -2460,6 +2514,7 @@ class Intervenants {
      * Set the iban.
      *
      * @param string $iban The iban.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setIban($iban) {
         $this->iban = $iban;
@@ -2470,6 +2525,7 @@ class Intervenants {
      * Set the ident tva.
      *
      * @param string $identTva The ident tva.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setIdentTva($identTva) {
         $this->identTva = $identTva;
@@ -2480,6 +2536,7 @@ class Intervenants {
      * Set the identifiant.
      *
      * @param string $identifiant The identifiant.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setIdentifiant($identifiant) {
         $this->identifiant = $identifiant;
@@ -2490,6 +2547,7 @@ class Intervenants {
      * Set the identifiant internet.
      *
      * @param string $identifiantInternet The identifiant internet.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setIdentifiantInternet($identifiantInternet) {
         $this->identifiantInternet = $identifiantInternet;
@@ -2500,6 +2558,7 @@ class Intervenants {
      * Set the inscription rc.
      *
      * @param DateTime|null $inscriptionRc The inscription rc.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setInscriptionRc(DateTime $inscriptionRc = null) {
         $this->inscriptionRc = $inscriptionRc;
@@ -2510,6 +2569,7 @@ class Intervenants {
      * Set the inscription rm.
      *
      * @param DateTime|null $inscriptionRm The inscription rm.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setInscriptionRm(DateTime $inscriptionRm = null) {
         $this->inscriptionRm = $inscriptionRm;
@@ -2520,6 +2580,7 @@ class Intervenants {
      * Set the is client.
      *
      * @param string $isClient The is client.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setIsClient($isClient) {
         $this->isClient = $isClient;
@@ -2530,6 +2591,7 @@ class Intervenants {
      * Set the is fournisseur.
      *
      * @param string $isFournisseur The is fournisseur.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setIsFournisseur($isFournisseur) {
         $this->isFournisseur = $isFournisseur;
@@ -2540,6 +2602,7 @@ class Intervenants {
      * Set the mdp internet.
      *
      * @param string $mdpInternet The mdp internet.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setMdpInternet($mdpInternet) {
         $this->mdpInternet = $mdpInternet;
@@ -2550,6 +2613,7 @@ class Intervenants {
      * Set the mission principale.
      *
      * @param string $missionPrincipale The mission principale.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setMissionPrincipale($missionPrincipale) {
         $this->missionPrincipale = $missionPrincipale;
@@ -2560,6 +2624,7 @@ class Intervenants {
      * Set the nationalite.
      *
      * @param string $nationalite The nationalite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNationalite($nationalite) {
         $this->nationalite = $nationalite;
@@ -2570,6 +2635,7 @@ class Intervenants {
      * Set the nb enfants.
      *
      * @param string $nbEnfants The nb enfants.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNbEnfants($nbEnfants) {
         $this->nbEnfants = $nbEnfants;
@@ -2580,6 +2646,7 @@ class Intervenants {
      * Set the nb km.
      *
      * @param float $nbKm The nb km.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNbKm($nbKm) {
         $this->nbKm = $nbKm;
@@ -2590,6 +2657,7 @@ class Intervenants {
      * Set the nie1.
      *
      * @param string $nie1 The nie1.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNie1($nie1) {
         $this->nie1 = $nie1;
@@ -2600,6 +2668,7 @@ class Intervenants {
      * Set the nie2.
      *
      * @param string $nie2 The nie2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNie2($nie2) {
         $this->nie2 = $nie2;
@@ -2610,6 +2679,7 @@ class Intervenants {
      * Set the nir.
      *
      * @param string $nir The nir.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNir($nir) {
         $this->nir = $nir;
@@ -2620,6 +2690,7 @@ class Intervenants {
      * Set the nom.
      *
      * @param string $nom The nom.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNom($nom) {
         $this->nom = $nom;
@@ -2630,6 +2701,7 @@ class Intervenants {
      * Set the nom marital.
      *
      * @param string $nomMarital The nom marital.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomMarital($nomMarital) {
         $this->nomMarital = $nomMarital;
@@ -2640,6 +2712,7 @@ class Intervenants {
      * Set the nom mere.
      *
      * @param string $nomMere The nom mere.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomMere($nomMere) {
         $this->nomMere = $nomMere;
@@ -2650,6 +2723,7 @@ class Intervenants {
      * Set the nom pere.
      *
      * @param string $nomPere The nom pere.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomPere($nomPere) {
         $this->nomPere = $nomPere;
@@ -2660,6 +2734,7 @@ class Intervenants {
      * Set the nom suite.
      *
      * @param string $nomSuite The nom suite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomSuite($nomSuite) {
         $this->nomSuite = $nomSuite;
@@ -2670,6 +2745,7 @@ class Intervenants {
      * Set the nom ville.
      *
      * @param string $nomVille The nom ville.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomVille($nomVille) {
         $this->nomVille = $nomVille;
@@ -2680,6 +2756,7 @@ class Intervenants {
      * Set the nom ville2.
      *
      * @param string $nomVille2 The nom ville2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomVille2($nomVille2) {
         $this->nomVille2 = $nomVille2;
@@ -2690,6 +2767,7 @@ class Intervenants {
      * Set the nom voie.
      *
      * @param string $nomVoie The nom voie.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomVoie($nomVoie) {
         $this->nomVoie = $nomVoie;
@@ -2700,6 +2778,7 @@ class Intervenants {
      * Set the nom voie2.
      *
      * @param string $nomVoie2 The nom voie2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNomVoie2($nomVoie2) {
         $this->nomVoie2 = $nomVoie2;
@@ -2710,6 +2789,7 @@ class Intervenants {
      * Set the nombre actions.
      *
      * @param int $nombreActions The nombre actions.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNombreActions($nombreActions) {
         $this->nombreActions = $nombreActions;
@@ -2720,6 +2800,7 @@ class Intervenants {
      * Set the num agrement cga.
      *
      * @param string $numAgrementCga The num agrement cga.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNumAgrementCga($numAgrementCga) {
         $this->numAgrementCga = $numAgrementCga;
@@ -2730,6 +2811,7 @@ class Intervenants {
      * Set the num voie.
      *
      * @param string $numVoie The num voie.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNumVoie($numVoie) {
         $this->numVoie = $numVoie;
@@ -2740,6 +2822,7 @@ class Intervenants {
      * Set the num voie2.
      *
      * @param string $numVoie2 The num voie2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setNumVoie2($numVoie2) {
         $this->numVoie2 = $numVoie2;
@@ -2750,6 +2833,7 @@ class Intervenants {
      * Set the pays.
      *
      * @param string $pays The pays.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPays($pays) {
         $this->pays = $pays;
@@ -2760,6 +2844,7 @@ class Intervenants {
      * Set the pays naissance.
      *
      * @param string $paysNaissance The pays naissance.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPaysNaissance($paysNaissance) {
         $this->paysNaissance = $paysNaissance;
@@ -2770,6 +2855,7 @@ class Intervenants {
      * Set the personne physique.
      *
      * @param bool $personnePhysique The personne physique.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPersonnePhysique($personnePhysique) {
         $this->personnePhysique = $personnePhysique;
@@ -2780,6 +2866,7 @@ class Intervenants {
      * Set the portable1.
      *
      * @param string $portable1 The portable1.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPortable1($portable1) {
         $this->portable1 = $portable1;
@@ -2790,6 +2877,7 @@ class Intervenants {
      * Set the portable12.
      *
      * @param string $portable12 The portable12.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPortable12($portable12) {
         $this->portable12 = $portable12;
@@ -2800,6 +2888,7 @@ class Intervenants {
      * Set the portable2.
      *
      * @param string $portable2 The portable2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPortable2($portable2) {
         $this->portable2 = $portable2;
@@ -2810,6 +2899,7 @@ class Intervenants {
      * Set the portable22.
      *
      * @param string $portable22 The portable22.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPortable22($portable22) {
         $this->portable22 = $portable22;
@@ -2820,6 +2910,7 @@ class Intervenants {
      * Set the prenom.
      *
      * @param string $prenom The prenom.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setPrenom($prenom) {
         $this->prenom = $prenom;
@@ -2830,6 +2921,7 @@ class Intervenants {
      * Set the qualite.
      *
      * @param string $qualite The qualite.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setQualite($qualite) {
         $this->qualite = $qualite;
@@ -2840,6 +2932,7 @@ class Intervenants {
      * Set the rc.
      *
      * @param string $rc The rc.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setRc($rc) {
         $this->rc = $rc;
@@ -2850,6 +2943,7 @@ class Intervenants {
      * Set the rc code.
      *
      * @param string $rcCode The rc code.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setRcCode($rcCode) {
         $this->rcCode = $rcCode;
@@ -2860,6 +2954,7 @@ class Intervenants {
      * Set the regime matrimonial.
      *
      * @param string $regimeMatrimonial The regime matrimonial.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setRegimeMatrimonial($regimeMatrimonial) {
         $this->regimeMatrimonial = $regimeMatrimonial;
@@ -2870,6 +2965,7 @@ class Intervenants {
      * Set the regime matrimoniale.
      *
      * @param string $regimeMatrimoniale The regime matrimoniale.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setRegimeMatrimoniale($regimeMatrimoniale) {
         $this->regimeMatrimoniale = $regimeMatrimoniale;
@@ -2880,6 +2976,7 @@ class Intervenants {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -2890,6 +2987,7 @@ class Intervenants {
      * Set the rm.
      *
      * @param string $rm The rm.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setRm($rm) {
         $this->rm = $rm;
@@ -2900,6 +2998,7 @@ class Intervenants {
      * Set the rm code.
      *
      * @param string $rmCode The rm code.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setRmCode($rmCode) {
         $this->rmCode = $rmCode;
@@ -2910,6 +3009,7 @@ class Intervenants {
      * Set the salarie independant.
      *
      * @param string $salarieIndependant The salarie independant.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setSalarieIndependant($salarieIndependant) {
         $this->salarieIndependant = $salarieIndependant;
@@ -2920,6 +3020,7 @@ class Intervenants {
      * Set the siret.
      *
      * @param string $siret The siret.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setSiret($siret) {
         $this->siret = $siret;
@@ -2930,6 +3031,7 @@ class Intervenants {
      * Set the situation fam.
      *
      * @param string $situationFam The situation fam.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setSituationFam($situationFam) {
         $this->situationFam = $situationFam;
@@ -2940,6 +3042,7 @@ class Intervenants {
      * Set the tel1.
      *
      * @param string $tel1 The tel1.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTel1($tel1) {
         $this->tel1 = $tel1;
@@ -2950,6 +3053,7 @@ class Intervenants {
      * Set the tel12.
      *
      * @param string $tel12 The tel12.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTel12($tel12) {
         $this->tel12 = $tel12;
@@ -2960,6 +3064,7 @@ class Intervenants {
      * Set the tel2.
      *
      * @param string $tel2 The tel2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTel2($tel2) {
         $this->tel2 = $tel2;
@@ -2970,6 +3075,7 @@ class Intervenants {
      * Set the tel22.
      *
      * @param string $tel22 The tel22.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTel22($tel22) {
         $this->tel22 = $tel22;
@@ -2980,6 +3086,7 @@ class Intervenants {
      * Set the tel voiture.
      *
      * @param string $telVoiture The tel voiture.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTelVoiture($telVoiture) {
         $this->telVoiture = $telVoiture;
@@ -2990,6 +3097,7 @@ class Intervenants {
      * Set the tel voiture2.
      *
      * @param string $telVoiture2 The tel voiture2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTelVoiture2($telVoiture2) {
         $this->telVoiture2 = $telVoiture2;
@@ -3000,6 +3108,7 @@ class Intervenants {
      * Set the telex.
      *
      * @param string $telex The telex.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTelex($telex) {
         $this->telex = $telex;
@@ -3010,6 +3119,7 @@ class Intervenants {
      * Set the telex2.
      *
      * @param string $telex2 The telex2.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTelex2($telex2) {
         $this->telex2 = $telex2;
@@ -3020,6 +3130,7 @@ class Intervenants {
      * Set the travail a domicile.
      *
      * @param bool $travailADomicile The travail a domicile.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTravailADomicile($travailADomicile) {
         $this->travailADomicile = $travailADomicile;
@@ -3030,6 +3141,7 @@ class Intervenants {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setType($type) {
         $this->type = $type;
@@ -3040,6 +3152,7 @@ class Intervenants {
      * Set the type societe.
      *
      * @param string $typeSociete The type societe.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setTypeSociete($typeSociete) {
         $this->typeSociete = $typeSociete;
@@ -3050,6 +3163,7 @@ class Intervenants {
      * Set the ville mariage.
      *
      * @param string $villeMariage The ville mariage.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setVilleMariage($villeMariage) {
         $this->villeMariage = $villeMariage;
@@ -3060,6 +3174,7 @@ class Intervenants {
      * Set the ville naissance.
      *
      * @param string $villeNaissance The ville naissance.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setVilleNaissance($villeNaissance) {
         $this->villeNaissance = $villeNaissance;
@@ -3070,6 +3185,7 @@ class Intervenants {
      * Set the ville rc.
      *
      * @param string $villeRc The ville rc.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setVilleRc($villeRc) {
         $this->villeRc = $villeRc;
@@ -3080,6 +3196,7 @@ class Intervenants {
      * Set the ville rm.
      *
      * @param string $villeRm The ville rm.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setVilleRm($villeRm) {
         $this->villeRm = $villeRm;
@@ -3090,6 +3207,7 @@ class Intervenants {
      * Set the zip code.
      *
      * @param string $zipCode The zip code.
+     * @return Intervenants Returns this Intervenants.
      */
     public function setZipCode($zipCode) {
         $this->zipCode = $zipCode;

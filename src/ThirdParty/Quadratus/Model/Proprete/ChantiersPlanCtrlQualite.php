@@ -288,6 +288,7 @@ class ChantiersPlanCtrlQualite {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -298,6 +299,7 @@ class ChantiersPlanCtrlQualite {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -308,6 +310,7 @@ class ChantiersPlanCtrlQualite {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -318,6 +321,7 @@ class ChantiersPlanCtrlQualite {
      * Set the code collabo valid.
      *
      * @param string $codeCollaboValid The code collabo valid.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setCodeCollaboValid($codeCollaboValid) {
         $this->codeCollaboValid = $codeCollaboValid;
@@ -328,6 +332,7 @@ class ChantiersPlanCtrlQualite {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -338,6 +343,7 @@ class ChantiersPlanCtrlQualite {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -348,6 +354,7 @@ class ChantiersPlanCtrlQualite {
      * Set the date prevue.
      *
      * @param DateTime|null $datePrevue The date prevue.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setDatePrevue(DateTime $datePrevue = null) {
         $this->datePrevue = $datePrevue;
@@ -358,6 +365,7 @@ class ChantiersPlanCtrlQualite {
      * Set the date reelle.
      *
      * @param DateTime|null $dateReelle The date reelle.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setDateReelle(DateTime $dateReelle = null) {
         $this->dateReelle = $dateReelle;
@@ -368,6 +376,7 @@ class ChantiersPlanCtrlQualite {
      * Set the date validation synchro.
      *
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
         $this->dateValidationSynchro = $dateValidationSynchro;
@@ -378,6 +387,7 @@ class ChantiersPlanCtrlQualite {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -388,6 +398,7 @@ class ChantiersPlanCtrlQualite {
      * Set the note globale.
      *
      * @param float $noteGlobale The note globale.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setNoteGlobale($noteGlobale) {
         $this->noteGlobale = $noteGlobale;
@@ -398,6 +409,7 @@ class ChantiersPlanCtrlQualite {
      * Set the numero reclam.
      *
      * @param int $numeroReclam The numero reclam.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setNumeroReclam($numeroReclam) {
         $this->numeroReclam = $numeroReclam;
@@ -408,6 +420,7 @@ class ChantiersPlanCtrlQualite {
      * Set the realise par fcq.
      *
      * @param bool $realiseParFcq The realise par fcq.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setRealiseParFcq($realiseParFcq) {
         $this->realiseParFcq = $realiseParFcq;
@@ -418,6 +431,7 @@ class ChantiersPlanCtrlQualite {
      * Set the type controle.
      *
      * @param string $typeControle The type controle.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setTypeControle($typeControle) {
         $this->typeControle = $typeControle;
@@ -428,6 +442,7 @@ class ChantiersPlanCtrlQualite {
      * Set the uniq id noeud.
      *
      * @param string $uniqIdNoeud The uniq id noeud.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setUniqIdNoeud($uniqIdNoeud) {
         $this->uniqIdNoeud = $uniqIdNoeud;
@@ -438,6 +453,7 @@ class ChantiersPlanCtrlQualite {
      * Set the uniq id synchro.
      *
      * @param string $uniqIdSynchro The uniq id synchro.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
      */
     public function setUniqIdSynchro($uniqIdSynchro) {
         $this->uniqIdSynchro = $uniqIdSynchro;

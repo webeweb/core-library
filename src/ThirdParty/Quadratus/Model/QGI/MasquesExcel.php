@@ -78,6 +78,7 @@ class MasquesExcel {
      * Set the modele.
      *
      * @param string $modele The modele.
+     * @return MasquesExcel Returns this Masques excel.
      */
     public function setModele($modele) {
         $this->modele = $modele;
@@ -88,6 +89,7 @@ class MasquesExcel {
      * Set the titre.
      *
      * @param string $titre The titre.
+     * @return MasquesExcel Returns this Masques excel.
      */
     public function setTitre($titre) {
         $this->titre = $titre;
@@ -98,6 +100,7 @@ class MasquesExcel {
      * Set the type masque.
      *
      * @param string $typeMasque The type masque.
+     * @return MasquesExcel Returns this Masques excel.
      */
     public function setTypeMasque($typeMasque) {
         $this->typeMasque = $typeMasque;

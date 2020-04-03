@@ -640,6 +640,7 @@ class Affaires {
      * Set the client donneur ordre.
      *
      * @param string $clientDonneurOrdre The client donneur ordre.
+     * @return Affaires Returns this Affaires.
      */
     public function setClientDonneurOrdre($clientDonneurOrdre) {
         $this->clientDonneurOrdre = $clientDonneurOrdre;
@@ -650,6 +651,7 @@ class Affaires {
      * Set the client payeur.
      *
      * @param string $clientPayeur The client payeur.
+     * @return Affaires Returns this Affaires.
      */
     public function setClientPayeur($clientPayeur) {
         $this->clientPayeur = $clientPayeur;
@@ -660,6 +662,7 @@ class Affaires {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -670,6 +673,7 @@ class Affaires {
      * Set the code avenant.
      *
      * @param string $codeAvenant The code avenant.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeAvenant($codeAvenant) {
         $this->codeAvenant = $codeAvenant;
@@ -680,6 +684,7 @@ class Affaires {
      * Set the code col creat.
      *
      * @param string $codeColCreat The code col creat.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeColCreat($codeColCreat) {
         $this->codeColCreat = $codeColCreat;
@@ -690,6 +695,7 @@ class Affaires {
      * Set the code col modif.
      *
      * @param string $codeColModif The code col modif.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodeColModif($codeColModif) {
         $this->codeColModif = $codeColModif;
@@ -700,6 +706,7 @@ class Affaires {
      * Set the code phase.
      *
      * @param string $codePhase The code phase.
+     * @return Affaires Returns this Affaires.
      */
     public function setCodePhase($codePhase) {
         $this->codePhase = $codePhase;
@@ -710,6 +717,7 @@ class Affaires {
      * Set the cout heure theo.
      *
      * @param float $coutHeureTheo The cout heure theo.
+     * @return Affaires Returns this Affaires.
      */
     public function setCoutHeureTheo($coutHeureTheo) {
         $this->coutHeureTheo = $coutHeureTheo;
@@ -720,6 +728,7 @@ class Affaires {
      * Set the date creation.
      *
      * @param DateTime|null $dateCreation The date creation.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateCreation(DateTime $dateCreation = null) {
         $this->dateCreation = $dateCreation;
@@ -730,6 +739,7 @@ class Affaires {
      * Set the date debut prevue.
      *
      * @param DateTime|null $dateDebutPrevue The date debut prevue.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateDebutPrevue(DateTime $dateDebutPrevue = null) {
         $this->dateDebutPrevue = $dateDebutPrevue;
@@ -740,6 +750,7 @@ class Affaires {
      * Set the date debut reelle.
      *
      * @param DateTime|null $dateDebutReelle The date debut reelle.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateDebutReelle(DateTime $dateDebutReelle = null) {
         $this->dateDebutReelle = $dateDebutReelle;
@@ -750,6 +761,7 @@ class Affaires {
      * Set the date fin prevue.
      *
      * @param DateTime|null $dateFinPrevue The date fin prevue.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateFinPrevue(DateTime $dateFinPrevue = null) {
         $this->dateFinPrevue = $dateFinPrevue;
@@ -760,6 +772,7 @@ class Affaires {
      * Set the date fin reelle.
      *
      * @param DateTime|null $dateFinReelle The date fin reelle.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateFinReelle(DateTime $dateFinReelle = null) {
         $this->dateFinReelle = $dateFinReelle;
@@ -770,6 +783,7 @@ class Affaires {
      * Set the date modification.
      *
      * @param DateTime|null $dateModification The date modification.
+     * @return Affaires Returns this Affaires.
      */
     public function setDateModification(DateTime $dateModification = null) {
         $this->dateModification = $dateModification;
@@ -780,6 +794,7 @@ class Affaires {
      * Set the ech en mt.
      *
      * @param bool $echEnMt The ech en mt.
+     * @return Affaires Returns this Affaires.
      */
     public function setEchEnMt($echEnMt) {
         $this->echEnMt = $echEnMt;
@@ -790,6 +805,7 @@ class Affaires {
      * Set the etat.
      *
      * @param string $etat The etat.
+     * @return Affaires Returns this Affaires.
      */
     public function setEtat($etat) {
         $this->etat = $etat;
@@ -800,6 +816,7 @@ class Affaires {
      * Set the etat1.
      *
      * @param string $etat1 The etat1.
+     * @return Affaires Returns this Affaires.
      */
     public function setEtat1($etat1) {
         $this->etat1 = $etat1;
@@ -810,6 +827,7 @@ class Affaires {
      * Set the etat2.
      *
      * @param string $etat2 The etat2.
+     * @return Affaires Returns this Affaires.
      */
     public function setEtat2($etat2) {
         $this->etat2 = $etat2;
@@ -820,6 +838,7 @@ class Affaires {
      * Set the etat3.
      *
      * @param string $etat3 The etat3.
+     * @return Affaires Returns this Affaires.
      */
     public function setEtat3($etat3) {
         $this->etat3 = $etat3;
@@ -830,6 +849,7 @@ class Affaires {
      * Set the etat4.
      *
      * @param string $etat4 The etat4.
+     * @return Affaires Returns this Affaires.
      */
     public function setEtat4($etat4) {
         $this->etat4 = $etat4;
@@ -840,6 +860,7 @@ class Affaires {
      * Set the etat5.
      *
      * @param string $etat5 The etat5.
+     * @return Affaires Returns this Affaires.
      */
     public function setEtat5($etat5) {
         $this->etat5 = $etat5;
@@ -850,6 +871,7 @@ class Affaires {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return Affaires Returns this Affaires.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -860,6 +882,7 @@ class Affaires {
      * Set the liste collab acces.
      *
      * @param string $listeCollabAcces The liste collab acces.
+     * @return Affaires Returns this Affaires.
      */
     public function setListeCollabAcces($listeCollabAcces) {
         $this->listeCollabAcces = $listeCollabAcces;
@@ -870,6 +893,7 @@ class Affaires {
      * Set the mt ca prevu.
      *
      * @param float $mtCaPrevu The mt ca prevu.
+     * @return Affaires Returns this Affaires.
      */
     public function setMtCaPrevu($mtCaPrevu) {
         $this->mtCaPrevu = $mtCaPrevu;
@@ -880,6 +904,7 @@ class Affaires {
      * Set the nb heures interim.
      *
      * @param float $nbHeuresInterim The nb heures interim.
+     * @return Affaires Returns this Affaires.
      */
     public function setNbHeuresInterim($nbHeuresInterim) {
         $this->nbHeuresInterim = $nbHeuresInterim;
@@ -890,6 +915,7 @@ class Affaires {
      * Set the nb heures prevues.
      *
      * @param float $nbHeuresPrevues The nb heures prevues.
+     * @return Affaires Returns this Affaires.
      */
     public function setNbHeuresPrevues($nbHeuresPrevues) {
         $this->nbHeuresPrevues = $nbHeuresPrevues;
@@ -900,6 +926,7 @@ class Affaires {
      * Set the nb heures reel interim.
      *
      * @param float $nbHeuresReelInterim The nb heures reel interim.
+     * @return Affaires Returns this Affaires.
      */
     public function setNbHeuresReelInterim($nbHeuresReelInterim) {
         $this->nbHeuresReelInterim = $nbHeuresReelInterim;
@@ -910,6 +937,7 @@ class Affaires {
      * Set the nb heures reel sous trait.
      *
      * @param float $nbHeuresReelSousTrait The nb heures reel sous trait.
+     * @return Affaires Returns this Affaires.
      */
     public function setNbHeuresReelSousTrait($nbHeuresReelSousTrait) {
         $this->nbHeuresReelSousTrait = $nbHeuresReelSousTrait;
@@ -920,6 +948,7 @@ class Affaires {
      * Set the nb heures sous trait.
      *
      * @param float $nbHeuresSousTrait The nb heures sous trait.
+     * @return Affaires Returns this Affaires.
      */
     public function setNbHeuresSousTrait($nbHeuresSousTrait) {
         $this->nbHeuresSousTrait = $nbHeuresSousTrait;
@@ -930,6 +959,7 @@ class Affaires {
      * Set the nb inscrits.
      *
      * @param int $nbInscrits The nb inscrits.
+     * @return Affaires Returns this Affaires.
      */
     public function setNbInscrits($nbInscrits) {
         $this->nbInscrits = $nbInscrits;
@@ -940,6 +970,7 @@ class Affaires {
      * Set the nb jours prevus.
      *
      * @param float $nbJoursPrevus The nb jours prevus.
+     * @return Affaires Returns this Affaires.
      */
     public function setNbJoursPrevus($nbJoursPrevus) {
         $this->nbJoursPrevus = $nbJoursPrevus;
@@ -950,6 +981,7 @@ class Affaires {
      * Set the nb jours reels.
      *
      * @param float $nbJoursReels The nb jours reels.
+     * @return Affaires Returns this Affaires.
      */
     public function setNbJoursReels($nbJoursReels) {
         $this->nbJoursReels = $nbJoursReels;
@@ -960,6 +992,7 @@ class Affaires {
      * Set the prochain num arr.
      *
      * @param int $prochainNumArr The prochain num arr.
+     * @return Affaires Returns this Affaires.
      */
     public function setProchainNumArr($prochainNumArr) {
         $this->prochainNumArr = $prochainNumArr;
@@ -970,6 +1003,7 @@ class Affaires {
      * Set the ref devis.
      *
      * @param string $refDevis The ref devis.
+     * @return Affaires Returns this Affaires.
      */
     public function setRefDevis($refDevis) {
         $this->refDevis = $refDevis;
@@ -980,6 +1014,7 @@ class Affaires {
      * Set the responsable.
      *
      * @param string $responsable The responsable.
+     * @return Affaires Returns this Affaires.
      */
     public function setResponsable($responsable) {
         $this->responsable = $responsable;
@@ -990,6 +1025,7 @@ class Affaires {
      * Set the responsable chantier.
      *
      * @param string $responsableChantier The responsable chantier.
+     * @return Affaires Returns this Affaires.
      */
     public function setResponsableChantier($responsableChantier) {
         $this->responsableChantier = $responsableChantier;
@@ -1000,6 +1036,7 @@ class Affaires {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Affaires Returns this Affaires.
      */
     public function setType($type) {
         $this->type = $type;
@@ -1010,6 +1047,7 @@ class Affaires {
      * Set the type fg.
      *
      * @param string $typeFg The type fg.
+     * @return Affaires Returns this Affaires.
      */
     public function setTypeFg($typeFg) {
         $this->typeFg = $typeFg;

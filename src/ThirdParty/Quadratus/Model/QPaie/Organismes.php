@@ -446,6 +446,7 @@ class Organismes {
      * Set the centre payeur.
      *
      * @param string $centrePayeur The centre payeur.
+     * @return Organismes Returns this Organismes.
      */
     public function setCentrePayeur($centrePayeur) {
         $this->centrePayeur = $centrePayeur;
@@ -456,6 +457,7 @@ class Organismes {
      * Set the code cat cadre.
      *
      * @param string $codeCatCadre The code cat cadre.
+     * @return Organismes Returns this Organismes.
      */
     public function setCodeCatCadre($codeCatCadre) {
         $this->codeCatCadre = $codeCatCadre;
@@ -466,6 +468,7 @@ class Organismes {
      * Set the code centre.
      *
      * @param string $codeCentre The code centre.
+     * @return Organismes Returns this Organismes.
      */
     public function setCodeCentre($codeCentre) {
         $this->codeCentre = $codeCentre;
@@ -476,6 +479,7 @@ class Organismes {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return Organismes Returns this Organismes.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -486,6 +490,7 @@ class Organismes {
      * Set the code non cadre.
      *
      * @param string $codeNonCadre The code non cadre.
+     * @return Organismes Returns this Organismes.
      */
     public function setCodeNonCadre($codeNonCadre) {
         $this->codeNonCadre = $codeNonCadre;
@@ -496,6 +501,7 @@ class Organismes {
      * Set the code organisme.
      *
      * @param string $codeOrganisme The code organisme.
+     * @return Organismes Returns this Organismes.
      */
     public function setCodeOrganisme($codeOrganisme) {
         $this->codeOrganisme = $codeOrganisme;
@@ -506,6 +512,7 @@ class Organismes {
      * Set the compte charge.
      *
      * @param string $compteCharge The compte charge.
+     * @return Organismes Returns this Organismes.
      */
     public function setCompteCharge($compteCharge) {
         $this->compteCharge = $compteCharge;
@@ -516,6 +523,7 @@ class Organismes {
      * Set the compte tiers.
      *
      * @param string $compteTiers The compte tiers.
+     * @return Organismes Returns this Organismes.
      */
     public function setCompteTiers($compteTiers) {
         $this->compteTiers = $compteTiers;
@@ -526,6 +534,7 @@ class Organismes {
      * Set the cot assedic par urssaf.
      *
      * @param bool $cotAssedicParUrssaf The cot assedic par urssaf.
+     * @return Organismes Returns this Organismes.
      */
     public function setCotAssedicParUrssaf($cotAssedicParUrssaf) {
         $this->cotAssedicParUrssaf = $cotAssedicParUrssaf;
@@ -536,6 +545,7 @@ class Organismes {
      * Set the cotitel.
      *
      * @param bool $cotitel The cotitel.
+     * @return Organismes Returns this Organismes.
      */
     public function setCotitel($cotitel) {
         $this->cotitel = $cotitel;
@@ -546,6 +556,7 @@ class Organismes {
      * Set the doss cadre.
      *
      * @param string $dossCadre The doss cadre.
+     * @return Organismes Returns this Organismes.
      */
     public function setDossCadre($dossCadre) {
         $this->dossCadre = $dossCadre;
@@ -556,6 +567,7 @@ class Organismes {
      * Set the doss non cadre.
      *
      * @param string $dossNonCadre The doss non cadre.
+     * @return Organismes Returns this Organismes.
      */
     public function setDossNonCadre($dossNonCadre) {
         $this->dossNonCadre = $dossNonCadre;
@@ -566,6 +578,7 @@ class Organismes {
      * Set the edition ducs.
      *
      * @param bool $editionDucs The edition ducs.
+     * @return Organismes Returns this Organismes.
      */
     public function setEditionDucs($editionDucs) {
         $this->editionDucs = $editionDucs;
@@ -576,6 +589,7 @@ class Organismes {
      * Set the gestion paie decalee oc.
      *
      * @param bool $gestionPaieDecaleeOc The gestion paie decalee oc.
+     * @return Organismes Returns this Organismes.
      */
     public function setGestionPaieDecaleeOc($gestionPaieDecaleeOc) {
         $this->gestionPaieDecaleeOc = $gestionPaieDecaleeOc;
@@ -586,6 +600,7 @@ class Organismes {
      * Set the groupe interne.
      *
      * @param string $groupeInterne The groupe interne.
+     * @return Organismes Returns this Organismes.
      */
     public function setGroupeInterne($groupeInterne) {
         $this->groupeInterne = $groupeInterne;
@@ -596,6 +611,7 @@ class Organismes {
      * Set the id intervenant.
      *
      * @param string $idIntervenant The id intervenant.
+     * @return Organismes Returns this Organismes.
      */
     public function setIdIntervenant($idIntervenant) {
         $this->idIntervenant = $idIntervenant;
@@ -606,6 +622,7 @@ class Organismes {
      * Set the jour exigible.
      *
      * @param string $jourExigible The jour exigible.
+     * @return Organismes Returns this Organismes.
      */
     public function setJourExigible($jourExigible) {
         $this->jourExigible = $jourExigible;
@@ -616,6 +633,7 @@ class Organismes {
      * Set the jour limite depot.
      *
      * @param string $jourLimiteDepot The jour limite depot.
+     * @return Organismes Returns this Organismes.
      */
     public function setJourLimiteDepot($jourLimiteDepot) {
         $this->jourLimiteDepot = $jourLimiteDepot;
@@ -626,6 +644,7 @@ class Organismes {
      * Set the jour reglement.
      *
      * @param string $jourReglement The jour reglement.
+     * @return Organismes Returns this Organismes.
      */
     public function setJourReglement($jourReglement) {
         $this->jourReglement = $jourReglement;
@@ -636,6 +655,7 @@ class Organismes {
      * Set the mens trim.
      *
      * @param string $mensTrim The mens trim.
+     * @return Organismes Returns this Organismes.
      */
     public function setMensTrim($mensTrim) {
         $this->mensTrim = $mensTrim;
@@ -646,6 +666,7 @@ class Organismes {
      * Set the no affiliation.
      *
      * @param string $noAffiliation The no affiliation.
+     * @return Organismes Returns this Organismes.
      */
     public function setNoAffiliation($noAffiliation) {
         $this->noAffiliation = $noAffiliation;
@@ -656,6 +677,7 @@ class Organismes {
      * Set the optique ducs.
      *
      * @param string $optiqueDucs The optique ducs.
+     * @return Organismes Returns this Organismes.
      */
     public function setOptiqueDucs($optiqueDucs) {
         $this->optiqueDucs = $optiqueDucs;
@@ -666,6 +688,7 @@ class Organismes {
      * Set the paiement edi vlu.
      *
      * @param bool $paiementEdiVlu The paiement edi vlu.
+     * @return Organismes Returns this Organismes.
      */
     public function setPaiementEdiVlu($paiementEdiVlu) {
         $this->paiementEdiVlu = $paiementEdiVlu;
@@ -676,6 +699,7 @@ class Organismes {
      * Set the pas traiter edi.
      *
      * @param bool $pasTraiterEdi The pas traiter edi.
+     * @return Organismes Returns this Organismes.
      */
     public function setPasTraiterEdi($pasTraiterEdi) {
         $this->pasTraiterEdi = $pasTraiterEdi;
@@ -686,6 +710,7 @@ class Organismes {
      * Set the rib.
      *
      * @param string $rib The rib.
+     * @return Organismes Returns this Organismes.
      */
     public function setRib($rib) {
         $this->rib = $rib;
@@ -696,6 +721,7 @@ class Organismes {
      * Set the telepaiement.
      *
      * @param bool $telepaiement The telepaiement.
+     * @return Organismes Returns this Organismes.
      */
     public function setTelepaiement($telepaiement) {
         $this->telepaiement = $telepaiement;

@@ -208,6 +208,7 @@ class MensualisationTacheAvenants {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -218,6 +219,7 @@ class MensualisationTacheAvenants {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -228,6 +230,7 @@ class MensualisationTacheAvenants {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -238,6 +241,7 @@ class MensualisationTacheAvenants {
      * Set the code employe.
      *
      * @param string $codeEmploye The code employe.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setCodeEmploye($codeEmploye) {
         $this->codeEmploye = $codeEmploye;
@@ -248,6 +252,7 @@ class MensualisationTacheAvenants {
      * Set the code tache.
      *
      * @param string $codeTache The code tache.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setCodeTache($codeTache) {
         $this->codeTache = $codeTache;
@@ -258,6 +263,7 @@ class MensualisationTacheAvenants {
      * Set the histo mens saisi.
      *
      * @param bool $histoMensSaisi The histo mens saisi.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setHistoMensSaisi($histoMensSaisi) {
         $this->histoMensSaisi = $histoMensSaisi;
@@ -268,6 +274,7 @@ class MensualisationTacheAvenants {
      * Set the mensualisation calculee.
      *
      * @param float $mensualisationCalculee The mensualisation calculee.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setMensualisationCalculee($mensualisationCalculee) {
         $this->mensualisationCalculee = $mensualisationCalculee;
@@ -278,6 +285,7 @@ class MensualisationTacheAvenants {
      * Set the mensualisation saisie.
      *
      * @param float $mensualisationSaisie The mensualisation saisie.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setMensualisationSaisie($mensualisationSaisie) {
         $this->mensualisationSaisie = $mensualisationSaisie;
@@ -288,6 +296,7 @@ class MensualisationTacheAvenants {
      * Set the num bt.
      *
      * @param int $numBt The num bt.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setNumBt($numBt) {
         $this->numBt = $numBt;
@@ -298,6 +307,7 @@ class MensualisationTacheAvenants {
      * Set the numero avenant.
      *
      * @param int $numeroAvenant The numero avenant.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setNumeroAvenant($numeroAvenant) {
         $this->numeroAvenant = $numeroAvenant;
@@ -308,6 +318,7 @@ class MensualisationTacheAvenants {
      * Set the periode debut validite.
      *
      * @param DateTime|null $periodeDebutValidite The periode debut validite.
+     * @return MensualisationTacheAvenants Returns this Mensualisation tache avenants.
      */
     public function setPeriodeDebutValidite(DateTime $periodeDebutValidite = null) {
         $this->periodeDebutValidite = $periodeDebutValidite;

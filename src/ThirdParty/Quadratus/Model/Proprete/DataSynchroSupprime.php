@@ -62,6 +62,7 @@ class DataSynchroSupprime {
      * Set the type data.
      *
      * @param string $typeData The type data.
+     * @return DataSynchroSupprime Returns this Data synchro supprime.
      */
     public function setTypeData($typeData) {
         $this->typeData = $typeData;
@@ -72,6 +73,7 @@ class DataSynchroSupprime {
      * Set the uniq id blocage.
      *
      * @param string $uniqIdBlocage The uniq id blocage.
+     * @return DataSynchroSupprime Returns this Data synchro supprime.
      */
     public function setUniqIdBlocage($uniqIdBlocage) {
         $this->uniqIdBlocage = $uniqIdBlocage;

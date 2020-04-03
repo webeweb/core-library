@@ -78,6 +78,7 @@ class CollabAdrMailConf {
      * Set the adresse email.
      *
      * @param string $adresseEmail The adresse email.
+     * @return CollabAdrMailConf Returns this Collab adr mail conf.
      */
     public function setAdresseEmail($adresseEmail) {
         $this->adresseEmail = $adresseEmail;
@@ -88,6 +89,7 @@ class CollabAdrMailConf {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return CollabAdrMailConf Returns this Collab adr mail conf.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -98,6 +100,7 @@ class CollabAdrMailConf {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return CollabAdrMailConf Returns this Collab adr mail conf.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;

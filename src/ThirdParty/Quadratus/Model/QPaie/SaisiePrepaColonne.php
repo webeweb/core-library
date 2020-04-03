@@ -142,6 +142,7 @@ class SaisiePrepaColonne {
      * Set the code.
      *
      * @param string $code The code.
+     * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -152,6 +153,7 @@ class SaisiePrepaColonne {
      * Set the code libelle.
      *
      * @param string $codeLibelle The code libelle.
+     * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
     public function setCodeLibelle($codeLibelle) {
         $this->codeLibelle = $codeLibelle;
@@ -162,6 +164,7 @@ class SaisiePrepaColonne {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -172,6 +175,7 @@ class SaisiePrepaColonne {
      * Set the intit col.
      *
      * @param string $intitCol The intit col.
+     * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
     public function setIntitCol($intitCol) {
         $this->intitCol = $intitCol;
@@ -182,6 +186,7 @@ class SaisiePrepaColonne {
      * Set the ligne abondement.
      *
      * @param string $ligneAbondement The ligne abondement.
+     * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
     public function setLigneAbondement($ligneAbondement) {
         $this->ligneAbondement = $ligneAbondement;
@@ -192,6 +197,7 @@ class SaisiePrepaColonne {
      * Set the num col.
      *
      * @param string $numCol The num col.
+     * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
     public function setNumCol($numCol) {
         $this->numCol = $numCol;
@@ -202,6 +208,7 @@ class SaisiePrepaColonne {
      * Set the width.
      *
      * @param int $width The width.
+     * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
     public function setWidth($width) {
         $this->width = $width;

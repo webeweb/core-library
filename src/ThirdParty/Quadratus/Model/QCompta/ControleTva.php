@@ -206,6 +206,7 @@ class ControleTva {
      * Set the code calc.
      *
      * @param string $codeCalc The code calc.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setCodeCalc($codeCalc) {
         $this->codeCalc = $codeCalc;
@@ -216,6 +217,7 @@ class ControleTva {
      * Set the code tva.
      *
      * @param float $codeTva The code tva.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -226,6 +228,7 @@ class ControleTva {
      * Set the colonne taux.
      *
      * @param int $colonneTaux The colonne taux.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setColonneTaux($colonneTaux) {
         $this->colonneTaux = $colonneTaux;
@@ -236,6 +239,7 @@ class ControleTva {
      * Set the intitule.
      *
      * @param string $intitule The intitule.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setIntitule($intitule) {
         $this->intitule = $intitule;
@@ -246,6 +250,7 @@ class ControleTva {
      * Set the mtt taux.
      *
      * @param float $mttTaux The mtt taux.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setMttTaux($mttTaux) {
         $this->mttTaux = $mttTaux;
@@ -256,6 +261,7 @@ class ControleTva {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -266,6 +272,7 @@ class ControleTva {
      * Set the racine cpt.
      *
      * @param string $racineCpt The racine cpt.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setRacineCpt($racineCpt) {
         $this->racineCpt = $racineCpt;
@@ -276,6 +283,7 @@ class ControleTva {
      * Set the saisie manuelle.
      *
      * @param bool $saisieManuelle The saisie manuelle.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setSaisieManuelle($saisieManuelle) {
         $this->saisieManuelle = $saisieManuelle;
@@ -286,6 +294,7 @@ class ControleTva {
      * Set the type controle.
      *
      * @param string $typeControle The type controle.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setTypeControle($typeControle) {
         $this->typeControle = $typeControle;
@@ -296,6 +305,7 @@ class ControleTva {
      * Set the type ligne.
      *
      * @param string $typeLigne The type ligne.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setTypeLigne($typeLigne) {
         $this->typeLigne = $typeLigne;
@@ -306,6 +316,7 @@ class ControleTva {
      * Set the valeur taux.
      *
      * @param float $valeurTaux The valeur taux.
+     * @return ControleTva Returns this Controle tva.
      */
     public function setValeurTaux($valeurTaux) {
         $this->valeurTaux = $valeurTaux;

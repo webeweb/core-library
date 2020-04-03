@@ -240,6 +240,7 @@ class DecTvaUlt {
      * Set the code journal.
      *
      * @param string $codeJournal The code journal.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setCodeJournal($codeJournal) {
         $this->codeJournal = $codeJournal;
@@ -250,6 +251,7 @@ class DecTvaUlt {
      * Set the code tva.
      *
      * @param int $codeTva The code tva.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setCodeTva($codeTva) {
         $this->codeTva = $codeTva;
@@ -260,6 +262,7 @@ class DecTvaUlt {
      * Set the compteur.
      *
      * @param int $compteur The compteur.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setCompteur($compteur) {
         $this->compteur = $compteur;
@@ -270,6 +273,7 @@ class DecTvaUlt {
      * Set the folio.
      *
      * @param int $folio The folio.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setFolio($folio) {
         $this->folio = $folio;
@@ -280,6 +284,7 @@ class DecTvaUlt {
      * Set the libelle ecr.
      *
      * @param string $libelleEcr The libelle ecr.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setLibelleEcr($libelleEcr) {
         $this->libelleEcr = $libelleEcr;
@@ -290,6 +295,7 @@ class DecTvaUlt {
      * Set the ligne folio.
      *
      * @param int $ligneFolio The ligne folio.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setLigneFolio($ligneFolio) {
         $this->ligneFolio = $ligneFolio;
@@ -300,6 +306,7 @@ class DecTvaUlt {
      * Set the montant ht.
      *
      * @param float $montantHt The montant ht.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setMontantHt($montantHt) {
         $this->montantHt = $montantHt;
@@ -310,6 +317,7 @@ class DecTvaUlt {
      * Set the montant tva.
      *
      * @param float $montantTva The montant tva.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setMontantTva($montantTva) {
         $this->montantTva = $montantTva;
@@ -320,6 +328,7 @@ class DecTvaUlt {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -330,6 +339,7 @@ class DecTvaUlt {
      * Set the num uniq ecr.
      *
      * @param int $numUniqEcr The num uniq ecr.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setNumUniqEcr($numUniqEcr) {
         $this->numUniqEcr = $numUniqEcr;
@@ -340,6 +350,7 @@ class DecTvaUlt {
      * Set the per dec.
      *
      * @param DateTime|null $perDec The per dec.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setPerDec(DateTime $perDec = null) {
         $this->perDec = $perDec;
@@ -350,6 +361,7 @@ class DecTvaUlt {
      * Set the per dec ult.
      *
      * @param DateTime|null $perDecUlt The per dec ult.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setPerDecUlt(DateTime $perDecUlt = null) {
         $this->perDecUlt = $perDecUlt;
@@ -360,6 +372,7 @@ class DecTvaUlt {
      * Set the periode ecriture.
      *
      * @param DateTime|null $periodeEcriture The periode ecriture.
+     * @return DecTvaUlt Returns this Dec tva ult.
      */
     public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
         $this->periodeEcriture = $periodeEcriture;

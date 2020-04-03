@@ -94,6 +94,7 @@ class NotesCategories {
      * Set the code categorie.
      *
      * @param string $codeCategorie The code categorie.
+     * @return NotesCategories Returns this Notes categories.
      */
     public function setCodeCategorie($codeCategorie) {
         $this->codeCategorie = $codeCategorie;
@@ -104,6 +105,7 @@ class NotesCategories {
      * Set the code collaborateur.
      *
      * @param string $codeCollaborateur The code collaborateur.
+     * @return NotesCategories Returns this Notes categories.
      */
     public function setCodeCollaborateur($codeCollaborateur) {
         $this->codeCollaborateur = $codeCollaborateur;
@@ -114,6 +116,7 @@ class NotesCategories {
      * Set the nom categorie.
      *
      * @param string $nomCategorie The nom categorie.
+     * @return NotesCategories Returns this Notes categories.
      */
     public function setNomCategorie($nomCategorie) {
         $this->nomCategorie = $nomCategorie;
@@ -124,6 +127,7 @@ class NotesCategories {
      * Set the position.
      *
      * @param int $position The position.
+     * @return NotesCategories Returns this Notes categories.
      */
     public function setPosition($position) {
         $this->position = $position;

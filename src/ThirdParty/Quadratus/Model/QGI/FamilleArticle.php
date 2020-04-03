@@ -62,6 +62,7 @@ class FamilleArticle {
      * Set the code.
      *
      * @param string $code The code.
+     * @return FamilleArticle Returns this Famille article.
      */
     public function setCode($code) {
         $this->code = $code;
@@ -72,6 +73,7 @@ class FamilleArticle {
      * Set the libelle.
      *
      * @param string $libelle The libelle.
+     * @return FamilleArticle Returns this Famille article.
      */
     public function setLibelle($libelle) {
         $this->libelle = $libelle;

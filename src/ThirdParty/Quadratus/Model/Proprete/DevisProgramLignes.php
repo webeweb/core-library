@@ -222,6 +222,7 @@ class DevisProgramLignes {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -232,6 +233,7 @@ class DevisProgramLignes {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -242,6 +244,7 @@ class DevisProgramLignes {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -252,6 +255,7 @@ class DevisProgramLignes {
      * Set the code echelle.
      *
      * @param string $codeEchelle The code echelle.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setCodeEchelle($codeEchelle) {
         $this->codeEchelle = $codeEchelle;
@@ -262,6 +266,7 @@ class DevisProgramLignes {
      * Set the code operation.
      *
      * @param string $codeOperation The code operation.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setCodeOperation($codeOperation) {
         $this->codeOperation = $codeOperation;
@@ -272,6 +277,7 @@ class DevisProgramLignes {
      * Set the code programme.
      *
      * @param string $codeProgramme The code programme.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setCodeProgramme($codeProgramme) {
         $this->codeProgramme = $codeProgramme;
@@ -282,6 +288,7 @@ class DevisProgramLignes {
      * Set the coefficient.
      *
      * @param float $coefficient The coefficient.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setCoefficient($coefficient) {
         $this->coefficient = $coefficient;
@@ -292,6 +299,7 @@ class DevisProgramLignes {
      * Set the note resultat.
      *
      * @param float $noteResultat The note resultat.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setNoteResultat($noteResultat) {
         $this->noteResultat = $noteResultat;
@@ -302,6 +310,7 @@ class DevisProgramLignes {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
@@ -312,6 +321,7 @@ class DevisProgramLignes {
      * Set the num ligne.
      *
      * @param int $numLigne The num ligne.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setNumLigne($numLigne) {
         $this->numLigne = $numLigne;
@@ -322,6 +332,7 @@ class DevisProgramLignes {
      * Set the num ligne prog.
      *
      * @param int $numLigneProg The num ligne prog.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setNumLigneProg($numLigneProg) {
         $this->numLigneProg = $numLigneProg;
@@ -332,6 +343,7 @@ class DevisProgramLignes {
      * Set the vitesse theorique.
      *
      * @param float $vitesseTheorique The vitesse theorique.
+     * @return DevisProgramLignes Returns this Devis program lignes.
      */
     public function setVitesseTheorique($vitesseTheorique) {
         $this->vitesseTheorique = $vitesseTheorique;

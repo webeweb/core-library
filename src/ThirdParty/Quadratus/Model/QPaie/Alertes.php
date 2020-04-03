@@ -128,6 +128,7 @@ class Alertes {
      * Set the cloturee.
      *
      * @param bool $cloturee The cloturee.
+     * @return Alertes Returns this Alertes.
      */
     public function setCloturee($cloturee) {
         $this->cloturee = $cloturee;
@@ -138,6 +139,7 @@ class Alertes {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return Alertes Returns this Alertes.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -148,6 +150,7 @@ class Alertes {
      * Set the commentaire.
      *
      * @param string $commentaire The commentaire.
+     * @return Alertes Returns this Alertes.
      */
     public function setCommentaire($commentaire) {
         $this->commentaire = $commentaire;
@@ -158,6 +161,7 @@ class Alertes {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return Alertes Returns this Alertes.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -168,6 +172,7 @@ class Alertes {
      * Set the periode.
      *
      * @param DateTime|null $periode The periode.
+     * @return Alertes Returns this Alertes.
      */
     public function setPeriode(DateTime $periode = null) {
         $this->periode = $periode;
@@ -178,6 +183,7 @@ class Alertes {
      * Set the type.
      *
      * @param string $type The type.
+     * @return Alertes Returns this Alertes.
      */
     public function setType($type) {
         $this->type = $type;

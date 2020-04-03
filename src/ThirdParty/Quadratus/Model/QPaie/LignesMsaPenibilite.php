@@ -320,6 +320,7 @@ class LignesMsaPenibilite {
      * Set the code etablissement.
      *
      * @param int $codeEtablissement The code etablissement.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeEtablissement($codeEtablissement) {
         $this->codeEtablissement = $codeEtablissement;
@@ -330,6 +331,7 @@ class LignesMsaPenibilite {
      * Set the code risque1.
      *
      * @param string $codeRisque1 The code risque1.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque1($codeRisque1) {
         $this->codeRisque1 = $codeRisque1;
@@ -340,6 +342,7 @@ class LignesMsaPenibilite {
      * Set the code risque10.
      *
      * @param string $codeRisque10 The code risque10.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque10($codeRisque10) {
         $this->codeRisque10 = $codeRisque10;
@@ -350,6 +353,7 @@ class LignesMsaPenibilite {
      * Set the code risque2.
      *
      * @param string $codeRisque2 The code risque2.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque2($codeRisque2) {
         $this->codeRisque2 = $codeRisque2;
@@ -360,6 +364,7 @@ class LignesMsaPenibilite {
      * Set the code risque3.
      *
      * @param string $codeRisque3 The code risque3.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque3($codeRisque3) {
         $this->codeRisque3 = $codeRisque3;
@@ -370,6 +375,7 @@ class LignesMsaPenibilite {
      * Set the code risque4.
      *
      * @param string $codeRisque4 The code risque4.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque4($codeRisque4) {
         $this->codeRisque4 = $codeRisque4;
@@ -380,6 +386,7 @@ class LignesMsaPenibilite {
      * Set the code risque5.
      *
      * @param string $codeRisque5 The code risque5.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque5($codeRisque5) {
         $this->codeRisque5 = $codeRisque5;
@@ -390,6 +397,7 @@ class LignesMsaPenibilite {
      * Set the code risque6.
      *
      * @param string $codeRisque6 The code risque6.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque6($codeRisque6) {
         $this->codeRisque6 = $codeRisque6;
@@ -400,6 +408,7 @@ class LignesMsaPenibilite {
      * Set the code risque7.
      *
      * @param string $codeRisque7 The code risque7.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque7($codeRisque7) {
         $this->codeRisque7 = $codeRisque7;
@@ -410,6 +419,7 @@ class LignesMsaPenibilite {
      * Set the code risque8.
      *
      * @param string $codeRisque8 The code risque8.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque8($codeRisque8) {
         $this->codeRisque8 = $codeRisque8;
@@ -420,6 +430,7 @@ class LignesMsaPenibilite {
      * Set the code risque9.
      *
      * @param string $codeRisque9 The code risque9.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeRisque9($codeRisque9) {
         $this->codeRisque9 = $codeRisque9;
@@ -430,6 +441,7 @@ class LignesMsaPenibilite {
      * Set the code unite.
      *
      * @param string $codeUnite The code unite.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setCodeUnite($codeUnite) {
         $this->codeUnite = $codeUnite;
@@ -440,6 +452,7 @@ class LignesMsaPenibilite {
      * Set the dt deb penibilite.
      *
      * @param DateTime|null $dtDebPenibilite The dt deb penibilite.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setDtDebPenibilite(DateTime $dtDebPenibilite = null) {
         $this->dtDebPenibilite = $dtDebPenibilite;
@@ -450,6 +463,7 @@ class LignesMsaPenibilite {
      * Set the dt deb per.
      *
      * @param DateTime|null $dtDebPer The dt deb per.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setDtDebPer(DateTime $dtDebPer = null) {
         $this->dtDebPer = $dtDebPer;
@@ -460,6 +474,7 @@ class LignesMsaPenibilite {
      * Set the dt fin penibilite.
      *
      * @param DateTime|null $dtFinPenibilite The dt fin penibilite.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setDtFinPenibilite(DateTime $dtFinPenibilite = null) {
         $this->dtFinPenibilite = $dtFinPenibilite;
@@ -470,6 +485,7 @@ class LignesMsaPenibilite {
      * Set the dt fin per.
      *
      * @param DateTime|null $dtFinPer The dt fin per.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setDtFinPer(DateTime $dtFinPer = null) {
         $this->dtFinPer = $dtFinPer;
@@ -480,6 +496,7 @@ class LignesMsaPenibilite {
      * Set the numero employe.
      *
      * @param string $numeroEmploye The numero employe.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setNumeroEmploye($numeroEmploye) {
         $this->numeroEmploye = $numeroEmploye;
@@ -490,6 +507,7 @@ class LignesMsaPenibilite {
      * Set the periode decla.
      *
      * @param DateTime|null $periodeDecla The periode decla.
+     * @return LignesMsaPenibilite Returns this Lignes msa penibilite.
      */
     public function setPeriodeDecla(DateTime $periodeDecla = null) {
         $this->periodeDecla = $periodeDecla;

@@ -126,6 +126,7 @@ class DevisChantiers {
      * Set the code affaire.
      *
      * @param string $codeAffaire The code affaire.
+     * @return DevisChantiers Returns this Devis chantiers.
      */
     public function setCodeAffaire($codeAffaire) {
         $this->codeAffaire = $codeAffaire;
@@ -136,6 +137,7 @@ class DevisChantiers {
      * Set the code chantier.
      *
      * @param string $codeChantier The code chantier.
+     * @return DevisChantiers Returns this Devis chantiers.
      */
     public function setCodeChantier($codeChantier) {
         $this->codeChantier = $codeChantier;
@@ -146,6 +148,7 @@ class DevisChantiers {
      * Set the code client.
      *
      * @param string $codeClient The code client.
+     * @return DevisChantiers Returns this Devis chantiers.
      */
     public function setCodeClient($codeClient) {
         $this->codeClient = $codeClient;
@@ -156,6 +159,7 @@ class DevisChantiers {
      * Set the maj descriptif.
      *
      * @param bool $majDescriptif The maj descriptif.
+     * @return DevisChantiers Returns this Devis chantiers.
      */
     public function setMajDescriptif($majDescriptif) {
         $this->majDescriptif = $majDescriptif;
@@ -166,6 +170,7 @@ class DevisChantiers {
      * Set the montant ht.
      *
      * @param float $montantHt The montant ht.
+     * @return DevisChantiers Returns this Devis chantiers.
      */
     public function setMontantHt($montantHt) {
         $this->montantHt = $montantHt;
@@ -176,6 +181,7 @@ class DevisChantiers {
      * Set the num devis.
      *
      * @param string $numDevis The num devis.
+     * @return DevisChantiers Returns this Devis chantiers.
      */
     public function setNumDevis($numDevis) {
         $this->numDevis = $numDevis;
