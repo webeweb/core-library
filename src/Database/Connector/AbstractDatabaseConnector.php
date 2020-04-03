@@ -156,7 +156,7 @@ abstract class AbstractDatabaseConnector {
      * Set the authenticator.
      *
      * @param Authenticator $authenticator The authenticator.
-     * @return AbstractDatabase Returns this abstract database.
+     * @return AbstractDatabaseConnector Returns this database connector.
      */
     protected function setAuthenticator(Authenticator $authenticator) {
         $this->authenticator = $authenticator;
@@ -167,7 +167,7 @@ abstract class AbstractDatabaseConnector {
      * Set the database.
      *
      * @param string $database The database.
-     * @return AbstractDatabase Returns this abstract database.
+     * @return AbstractDatabaseConnector Returns this database connector.
      */
     protected function setDatabase($database) {
         $this->database = $database;

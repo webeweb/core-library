@@ -98,6 +98,8 @@ class OcrProvider {
 
     /**
      * Destructor.
+     *
+     * @throws FtpException Throws a FTP exception if an error occurs.
      */
     public function __destruct() {
 
