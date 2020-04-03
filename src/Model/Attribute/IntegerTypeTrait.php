@@ -22,14 +22,14 @@ trait IntegerTypeTrait {
     /**
      * Type.
      *
-     * @var integer
+     * @var int
      */
     protected $type;
 
     /**
      * Get the type.
      *
-     * @return integer Returns the type.
+     * @return int Returns the type.
      */
     public function getType() {
         return $this->type;
@@ -38,7 +38,7 @@ trait IntegerTypeTrait {
     /**
      * Set the type.
      *
-     * @param integer $type The type.
+     * @param int $type The type.
      */
     public function setType($type) {
         $this->type = $type;

@@ -22,14 +22,14 @@ trait IntegerMinimumTrait {
     /**
      * Minimum.
      *
-     * @var integer
+     * @var int
      */
     protected $minimum;
 
     /**
      * Get the minimum.
      *
-     * @return integer Returns the minimum.
+     * @return int Returns the minimum.
      */
     public function getMinimum() {
         return $this->minimum;
@@ -38,7 +38,7 @@ trait IntegerMinimumTrait {
     /**
      * Set the minimum.
      *
-     * @param integer $minimum The minimum.
+     * @param int $minimum The minimum.
      */
     public function setMinimum($minimum) {
         $this->minimum = $minimum;

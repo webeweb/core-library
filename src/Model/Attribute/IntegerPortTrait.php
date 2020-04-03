@@ -24,14 +24,14 @@ trait IntegerPortTrait {
     /**
      * Port.
      *
-     * @var integer
+     * @var int
      */
     protected $port;
 
     /**
      * Get the port.
      *
-     * @return integer Returns the port.
+     * @return int Returns the port.
      */
     public function getPort() {
         return $this->port;
@@ -40,7 +40,7 @@ trait IntegerPortTrait {
     /**
      * Set the port.
      *
-     * @param integer $port The port.
+     * @param int $port The port.
      * @throws InvalidArgumentException Throws an invalid argument exception if the port is not between 1 and 65536.
      */
     public function setPort($port) {

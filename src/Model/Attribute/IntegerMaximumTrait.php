@@ -22,14 +22,14 @@ trait IntegerMaximumTrait {
     /**
      * Maximum.
      *
-     * @var integer
+     * @var int
      */
     protected $maximum;
 
     /**
      * Get the maximum.
      *
-     * @return integer Returns the maximum.
+     * @return int Returns the maximum.
      */
     public function getMaximum() {
         return $this->maximum;
@@ -38,7 +38,7 @@ trait IntegerMaximumTrait {
     /**
      * Set the maximum.
      *
-     * @param integer $maximum The maximum.
+     * @param int $maximum The maximum.
      */
     public function setMaximum($maximum) {
         $this->maximum = $maximum;

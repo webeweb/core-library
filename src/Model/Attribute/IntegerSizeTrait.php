@@ -22,14 +22,14 @@ trait IntegerSizeTrait {
     /**
      * Size.
      *
-     * @var integer
+     * @var int
      */
     protected $size;
 
     /**
      * Get the size.
      *
-     * @return integer Returns the size.
+     * @return int Returns the size.
      */
     public function getSize() {
         return $this->size;
@@ -38,7 +38,7 @@ trait IntegerSizeTrait {
     /**
      * Set the size.
      *
-     * @param integer $size The size.
+     * @param int $size The size.
      */
     public function setSize($size) {
         $this->size = $size;

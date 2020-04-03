@@ -22,14 +22,14 @@ trait IntegerCountTrait {
     /**
      * Count.
      *
-     * @var integer
+     * @var int
      */
     protected $count;
 
     /**
      * Get the count.
      *
-     * @return integer Returns the count.
+     * @return int Returns the count.
      */
     public function getCount() {
         return $this->count;
@@ -38,7 +38,7 @@ trait IntegerCountTrait {
     /**
      * Set the count.
      *
-     * @param integer $count The count.
+     * @param int $count The count.
      */
     public function setCount($count) {
         $this->count = $count;

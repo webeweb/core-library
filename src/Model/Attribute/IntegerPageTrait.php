@@ -24,14 +24,14 @@ trait IntegerPageTrait {
     /**
      * Page.
      *
-     * @var integer
+     * @var int
      */
     protected $page;
 
     /**
      * Get the page.
      *
-     * @return integer Returns the page.
+     * @return int Returns the page.
      */
     public function getPage() {
         return $this->page;
@@ -40,7 +40,7 @@ trait IntegerPageTrait {
     /**
      * Set the page.
      *
-     * @param integer $page The page.
+     * @param int $page The page.
      * @throws InvalidArgumentException Throws an invalid argument exception if the page is not between 1 and 65536.
      */
     public function setPage($page) {
