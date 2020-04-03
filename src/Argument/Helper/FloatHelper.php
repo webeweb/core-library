@@ -45,7 +45,7 @@ class FloatHelper {
         if (null === $value) {
             return null;
         }
-        if (0 === preg_match("/^\-?[0-9]{1,}(\.[0-9]{0,})?$/", $value)) {
+        if (0 === preg_match("/^-?[0-9]+(\.[0-9]*)?$/", $value)) {
             throw new FloatArgumentException($value);
         }
         return floatval($value);
