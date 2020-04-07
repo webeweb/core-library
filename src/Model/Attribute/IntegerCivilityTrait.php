@@ -44,5 +44,4 @@ trait IntegerCivilityTrait {
         $this->civility = $civility;
         return $this;
     }
-
 }

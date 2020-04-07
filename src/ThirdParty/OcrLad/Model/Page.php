@@ -141,5 +141,4 @@ class Page {
         $this->tag = $tag;
         return $this;
     }
-
 }
