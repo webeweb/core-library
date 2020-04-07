@@ -119,7 +119,7 @@ class OcrProvider {
      */
     protected function buildFilePaths(IOFile $file) {
         return [
-            "upload" => $this->getRemoteDirectoryBefore() . "/{${$file->getUniqFilenamePdf()}}",
+            "upload" => implode("/", [$this->getRemoteDirectoryBefore(), $file->getUniqFilenamePdf()]),
             "remote" => [
                 implode("/", [$this->getRemoteDirectoryAfter(), $file->getUniqFilenameDer()]),
                 implode("/", [$this->getRemoteDirectoryAfter(), $file->getUniqFilenamePdf()]),

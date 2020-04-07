@@ -12,6 +12,8 @@
 namespace WBW\Library\Core\Tests\ThirdParty\OcrLab\Provider;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Core\Tests\Fixtures\ThirdParty\OcrLad\Provider\TestOcrProvider;
+use WBW\Library\Core\ThirdParty\OcrLad\Model\IOFile;
 use WBW\Library\Core\ThirdParty\OcrLad\Provider\OcrProvider;
 
 /**
@@ -21,6 +23,39 @@ use WBW\Library\Core\ThirdParty\OcrLad\Provider\OcrProvider;
  * @package WBW\Library\Core\Tests\ThirdParty\OcrLab\Provider
  */
 class OcrProviderTest extends AbstractTestCase {
+
+    /**
+     * Tests the buildFilePaths() method.
+     *
+     * @return void
+     */
+    public function testBuildFilePaths() {
+
+        // Set an I/O file mock.
+        $file = new IOFile(getcwd() . "/tests/ThirdParty/OcrLad/Model/OcrFileTest.php");
+
+        $obj = new TestOcrProvider($this->logger);
+        $obj->setLocalDirectoryAfter("/localDirectoryAfter");
+        $obj->setRemoteDirectoryAfter("/remoteDirectoryAfter");
+
+        $md5 = md5($file->getPathname());
+
+        $exp = [
+            "upload" => "/Avant/{$md5}.pdf",
+            "remote" => [
+                "/remoteDirectoryAfter/{$md5}.der",
+                "/remoteDirectoryAfter/{$md5}.pdf",
+                "/remoteDirectoryAfter/{$md5}.xml",
+            ],
+            "local"  => [
+                "/localDirectoryAfter/{$md5}.der",
+                "/localDirectoryAfter/{$md5}.pdf",
+                "/localDirectoryAfter/{$md5}.xml",
+            ],
+        ];
+        $res = $obj->buildFilePaths($file);
+        $this->assertEquals($exp, $res);
+    }
 
     /**
      * Tests the __construct() method.
