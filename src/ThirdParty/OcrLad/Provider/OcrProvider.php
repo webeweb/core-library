@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\ThirdParty\OcrLad\Provider;
 
+use Closure;
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LoggerInterface;
 use WBW\Library\Core\Model\Attribute\StringHostnameTrait;
@@ -134,28 +135,28 @@ class OcrProvider {
     }
 
     /**
-     * Delete the remote files.
+     * Delete the files.
      *
      * @param IOFile $file The I/O file.
      * @return void
      * @throws FtpException Throws an FTP exception if an error occurs.
      */
-    public function deleteRemoteFiles(IOFile $file) {
+    public function deleteFiles(IOFile $file) {
 
         $provider = $this;
 
         /**
-         * Delete closure.
+         * Delete the remote files.
          *
          * @param string $directory The directory.
          * @return void
+         * @var Closure
          */
         $deleteClosure = function($directory) use ($provider, $file) {
 
             $paths = $provider->buildFilePaths($file);
 
             $provider->getLogger()->info("OCR provider list files in a given directory", ["_directory" => $directory]);
-
             $files = $provider->getFtpClient()->nlist($directory);
             foreach ($files as $current) {
 
@@ -171,6 +172,44 @@ class OcrProvider {
         $deleteClosure($this->getRemoteDirectoryBefore());
         $deleteClosure($this->getRemoteDirectoryAfter());
         $deleteClosure($this->getRemoteDirectoryError());
+    }
+
+    /**
+     * Download the files.
+     *
+     * @param IOFile $file The I/O file.
+     * @return bool Returns true in case of success, false otherwise.
+     * @throws FtpException Throws an FTP exception if an error occurs.
+     */
+    public function downloadFiles(IOFile $file) {
+
+        $paths = $this->buildFilePaths($file);
+
+        $files = $this->getFtpClient()->nlist($this->getRemoteDirectoryAfter());
+        if (false === in_array($paths["remote"][0], $files)) {
+            return false;
+        }
+
+        $provider = $this;
+
+        /**
+         * Download a remote file.
+         *
+         * @param string $local The local file.
+         * @param string $remote The remote file.
+         * @return void
+         * @var Closure
+         */
+        $downloadClosure = function($local, $remote) use ($provider) {
+            $provider->getLogger()->info("OCR provider downloads a file  from the FTP server", ["_local" => $local, "_remote" => $remote]);
+            $provider->getFtpClient()->get($local, $remote);
+        };
+
+        $downloadClosure($paths["local"][0], $paths["remote"][0]);
+        $downloadClosure($paths["local"][1], $paths["remote"][1]);
+        $downloadClosure($paths["local"][2], $paths["remote"][2]);
+
+        return true;
     }
 
     /**
@@ -277,42 +316,19 @@ class OcrProvider {
 
         $paths = $this->buildFilePaths($file);
 
-        $this->getLogger()->info("OCR provider upload a file to the FTP server", ["_local" => $file->getPathname(), "_remote" => $paths["upload"]]);
-        $this->getFtpClient()->put($file->getPathname(), $paths["upload"]);
-
-        $provider = $this;
-
-        /**
-         * Download closure.
-         *
-         * @param string $local The local file.
-         * @param string $remote The remote file.
-         */
-        $downloadClosure = function($local, $remote) use ($provider) {
-            $provider->getLogger()->info("OCR provider downloads a file  from the FTP server", ["_local" => $local, "_remote" => $remote]);
-            $provider->getFtpClient()->get($local, $remote);
-        };
+        $this->uploadFile($file);
 
         $result = false;
 
         for ($i = 0; $i < $retry; ++$i) {
 
-            $files = $this->getFtpClient()->nlist($this->getRemoteDirectoryAfter());
-            if (false === in_array($paths["remote"][0], $files)) {
-
-                $this->getLogger()->info("OCR provider is waiting for...", ["_remote" => $paths["remote"][0]]);
-                sleep($wait);
-
-                continue;
+            if (true === $this->downloadFiles($file)) {
+                $result = true;
+                break;
             }
 
-            $downloadClosure($paths["local"][0], $paths["remote"][0]);
-            $downloadClosure($paths["local"][1], $paths["remote"][1]);
-            $downloadClosure($paths["local"][2], $paths["remote"][2]);
-
-            $result = true;
-
-            break;
+            $this->getLogger()->info("OCR provider is waiting for...", ["_remote" => $paths["remote"][0]]);
+            sleep($wait);
         }
 
         if (false === $result) {
@@ -388,5 +404,20 @@ class OcrProvider {
     public function setRemoteDirectoryError($remoteDirectoryError) {
         $this->remoteDirectoryError = $remoteDirectoryError;
         return $this;
+    }
+
+    /**
+     * Upload a file.
+     *
+     * @param IOFile $file The I/O file.
+     * @return void
+     * @throws FtpException Throws an FTP exception if an error occurs.
+     */
+    public function uploadFile(IOFile $file) {
+
+        $paths = $this->buildFilePaths($file);
+
+        $this->getLogger()->info("OCR provider upload a file to the FTP server", ["_local" => $file->getPathname(), "_remote" => $paths["upload"]]);
+        $this->getFtpClient()->put($file->getPathname(), $paths["upload"]);
     }
 }
