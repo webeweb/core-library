@@ -50,7 +50,7 @@ abstract class AbstractDatabaseConnector {
      * @param Authenticator $authenticator The authenticator.
      */
     protected function __construct(Authenticator $authenticator) {
-        $this->authenticator = $authenticator;
+        $this->setAuthenticator($authenticator);
     }
 
     /**

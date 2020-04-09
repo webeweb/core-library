@@ -117,7 +117,7 @@ JSON;
      */
     public function testDeserializeResult() {
 
-        $obj = ResponseDeserializer::deserializeresult(self::RAW_RESPONSE_RESULT);
+        $obj = ResponseDeserializer::deserializeResult(self::RAW_RESPONSE_RESULT);
 
         $this->assertInstanceOf(Result::class, $obj);
 
@@ -137,5 +137,21 @@ JSON;
         $this->assertEquals("invoiceNumber", $obj->getData()[0]->getInvoiceNumber());
         $this->assertEquals("reference", $obj->getData()[0]->getReference());
         $this->assertEquals("subledgerAccount", $obj->getData()[0]->getSubledgerAccount());
+    }
+
+    /**
+     * Tests the deserializeResult() method.
+     *
+     * @return void
+     */
+    public function testDeserializeResultWithMalformedResponse() {
+
+        $obj = ResponseDeserializer::deserializeResult("");
+
+        $this->assertInstanceOf(Result::class, $obj);
+
+        $this->assertCount(0, $obj->getData());
+        $this->assertEquals([], $obj->getErrors());
+        $this->assertEquals(0, $obj->getReturnCode());
     }
 }

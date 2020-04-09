@@ -13,6 +13,7 @@ namespace WBW\Library\Core\Tests\Database\Connector;
 
 use Exception;
 use InvalidArgumentException;
+use PDOException;
 use WBW\Library\Core\Database\Connector\MicrosoftAccessDatabaseConnector;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
@@ -42,7 +43,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetConnectionWithPDOException() {
+    public function testGetConnectionWithInvalidArgumentException() {
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, "exception");
 
@@ -53,6 +54,28 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The database \"exception\" was not found", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the getConnection() method.
+     *
+     * @return void
+     */
+    public function testGetConnectionWithPDOException() {
+
+        // Set a MDB mock.
+        $mdb = getcwd() . "/tests/Fixtures/Database/Connector/test.mdb";
+
+        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, $mdb);
+
+        try {
+
+            $obj->getConnection();
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(PDOException::class, $ex);
+            $this->assertNotEmpty($ex->getMessage());
         }
     }
 
