@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add boolean Debug trait
+
 ### [6.4.0](https://github.com/webeweb/core-library/tree/v6.4.0) (2020-04-09)
 
 - Add integer Code trait
