@@ -46,18 +46,18 @@ class ResponseDeserializer {
 
         $model = new Line();
 
-        $model->setAccountingCode(ArrayHelper::get($decodedResponse, "AccountingCode"));
-        $model->setAnalyticCode(ArrayHelper::get($decodedResponse, "AnalyticCode"));
-        $model->setAmount(ArrayHelper::get($decodedResponse, "Amount"));
-        $model->setAmountSign(ArrayHelper::get($decodedResponse, "AmountSign"));
         $model->setBookingJournalCode(ArrayHelper::get($decodedResponse, "BookingJournalCode"));
-        $model->setCurrency(ArrayHelper::get($decodedResponse, "Currency"));
-        $model->setFreeField(ArrayHelper::get($decodedResponse, "FreeField"));
         $model->setInvoiceDate(false !== $invoiceDate ? $invoiceDate : null);
-        $model->setInvoiceDueDate(false !== $invoiceDueDate ? $invoiceDueDate : null);
+        $model->setAccountingCode(ArrayHelper::get($decodedResponse, "AccountingCode"));
+        $model->setSubledgerAccount(ArrayHelper::get($decodedResponse, "SubledgerAccount"));
         $model->setInvoiceNumber(ArrayHelper::get($decodedResponse, "InvoiceNumber"));
         $model->setReference(ArrayHelper::get($decodedResponse, "Reference"));
-        $model->setSubledgerAccount(ArrayHelper::get($decodedResponse, "SubledgerAccount"));
+        $model->setAnalyticCode(ArrayHelper::get($decodedResponse, "AnalyticCode"));
+        $model->setAmount(ArrayHelper::get($decodedResponse, "Amount"));
+        $model->setCurrency(ArrayHelper::get($decodedResponse, "Currency"));
+        $model->setAmountSign(ArrayHelper::get($decodedResponse, "AmountSign"));
+        $model->setInvoiceDueDate(false !== $invoiceDueDate ? $invoiceDueDate : null);
+        $model->setFreeField(ArrayHelper::get($decodedResponse, "FreeField"));
 
         return $model;
     }
@@ -88,9 +88,9 @@ class ResponseDeserializer {
             $lines[] = static::deserializeLine(json_encode($current));
         }
 
-        $model->setData($lines);
-        $model->setErrors(ArrayHelper::get($decodedResponse, "Errors", []));
         $model->setReturnCode(intval(ArrayHelper::get($decodedResponse, "ReturnCode", -1)));
+        $model->setErrors(ArrayHelper::get($decodedResponse, "Errors", []));
+        $model->setData($lines);
 
         return $model;
     }

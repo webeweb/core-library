@@ -27,7 +27,7 @@ class ApiProviderInterfaceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals("http://ws.adoria.com", ApiProviderInterface::ENDPOINT_PATH);
         $this->assertEquals("/MdbProcurement.adoria.ExternalsServices/EProcurement/Buying/V10.svc/rest/AcountingInterface", ApiProviderInterface::REQUEST_DATA_RESOURCE_PATH);

@@ -48,7 +48,7 @@ class CurlDeleteRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new CurlDeleteRequest($this->curlConfiguration, $this->curlResourcePath);
 

@@ -29,7 +29,7 @@ class DateTimeRendererTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals("Y-m-d H:i", DateTimeRenderer::DATETIME_FORMAT);
     }

@@ -39,11 +39,11 @@ class RequestSerializer {
 
         $parameters = [];
 
-        ArrayHelper::set($parameters, "AnalyticCode", $requestData->getAnalyticCode(), [null]);
+        ArrayHelper::set($parameters, "IdentificationKey", $requestData->getIdentificationKey(), [null]);
         if (null !== $requestData->getBuyDateMax()) {
             $parameters["BuyDateMax"] = $requestData->getBuyDateMax()->format(self::REQUEST_DATE_FORMAT);
         }
-        ArrayHelper::set($parameters, "IdentificationKey", $requestData->getIdentificationKey(), [null]);
+        ArrayHelper::set($parameters, "AnalyticCode", $requestData->getAnalyticCode(), [null]);
 
         return $parameters;
     }

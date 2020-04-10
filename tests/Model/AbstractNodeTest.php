@@ -58,7 +58,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new TestNode("id");
 

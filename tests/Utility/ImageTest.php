@@ -47,7 +47,7 @@ class ImageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new Image($this->images[0]);
 
@@ -69,7 +69,7 @@ class ImageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstructWithInvalidArgumentException() {
+    public function test__constructWithInvalidArgumentException() {
 
         // Set a pathname mock.
         $pathname = getcwd() . "/exception.txt";

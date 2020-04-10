@@ -27,7 +27,7 @@ class AngleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals("degree", Angle::UNIT_DEGREE);
         $this->assertEquals("radian", Angle::UNIT_RADIAN);

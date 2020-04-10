@@ -29,7 +29,7 @@ class DecTva3514Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new DecTva3514();
 

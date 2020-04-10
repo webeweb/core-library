@@ -27,7 +27,7 @@ class ArrayArgumentExceptionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $ex = new ArrayArgumentException("exception");
 

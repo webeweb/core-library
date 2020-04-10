@@ -26,7 +26,7 @@ class DerDeserializerTest extends AbstractTestCase {
     /**
      * Tests the __construct() method.
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals(";", DerDeserializer::DER_DELIMITER);
     }

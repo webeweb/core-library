@@ -29,7 +29,7 @@ class TmpTable1Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new TmpTable1();
 

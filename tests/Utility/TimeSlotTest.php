@@ -69,7 +69,7 @@ class TimeSlotTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new TimeSlot($this->startDate, $this->endDate);
 
@@ -83,7 +83,7 @@ class TimeSlotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstructWithException() {
+    public function test__constructWithException() {
 
         try {
 

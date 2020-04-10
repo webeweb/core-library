@@ -48,7 +48,7 @@ class CurlHeadRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new CurlHeadRequest($this->curlConfiguration, $this->curlResourcePath);
 

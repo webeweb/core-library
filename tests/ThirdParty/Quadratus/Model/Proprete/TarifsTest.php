@@ -29,7 +29,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new Tarifs();
 

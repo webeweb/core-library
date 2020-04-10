@@ -45,7 +45,7 @@ class AuthenticatorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new Authenticator(null, $this->passwordAuthentication);
 

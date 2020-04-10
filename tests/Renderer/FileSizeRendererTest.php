@@ -27,7 +27,7 @@ class FileSizeRendererTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals(1024, FileSizeRenderer::SIZE_DIVIDER_KIO);
         $this->assertEquals(1024 * 1024, FileSizeRenderer::SIZE_DIVIDER_MIO);

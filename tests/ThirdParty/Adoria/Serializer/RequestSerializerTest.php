@@ -30,7 +30,7 @@ class RequestSerializerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstructor() {
+    public function test__constructor() {
 
         $this->assertEquals("Y-m-d", RequestSerializer::REQUEST_DATE_FORMAT);
     }

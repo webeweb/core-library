@@ -28,7 +28,7 @@ class WordTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals("LB", Word::TYPE_LINE_BREAK);
         $this->assertEquals("NLB", Word::TYPE_NO_LINE_BREAK);

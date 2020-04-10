@@ -27,7 +27,7 @@ class ImageInterfaceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals("image/jpeg", ImageInterface::MIME_TYPE_JPEG);
         $this->assertEquals("image/png", ImageInterface::MIME_TYPE_PNG);

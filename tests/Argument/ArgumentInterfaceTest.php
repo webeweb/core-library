@@ -27,7 +27,7 @@ class ArgumentInterfaceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals(220, ArgumentInterface::ARGUMENT_ARRAY);
         $this->assertEquals(254, ArgumentInterface::ARGUMENT_BOOLEAN);

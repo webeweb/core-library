@@ -27,7 +27,7 @@ class DateArgumentExceptionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $ex = new DateArgumentException("exception");
 

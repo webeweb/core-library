@@ -29,7 +29,7 @@ class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
      *
      * @returns void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new MicrosoftSQLServerDatabaseConnector($this->authenticator, null);
 

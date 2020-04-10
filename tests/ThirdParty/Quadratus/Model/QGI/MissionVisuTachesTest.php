@@ -27,7 +27,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new MissionVisuTaches();
 

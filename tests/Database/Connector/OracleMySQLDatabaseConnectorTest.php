@@ -29,7 +29,7 @@ class OracleMySQLDatabaseConnectorTest extends AbstractTestCase {
      *
      * @returns void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new OracleMySQLDatabaseConnector($this->authenticator, null);
 

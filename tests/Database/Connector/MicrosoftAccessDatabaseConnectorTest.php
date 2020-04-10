@@ -30,7 +30,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      *
      * @returns void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
 

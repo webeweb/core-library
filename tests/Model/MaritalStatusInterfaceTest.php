@@ -27,7 +27,7 @@ class MaritalStatusInterfaceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $this->assertEquals(-1, MaritalStatusInterface::MARITAL_STATUS_EMPTY);
         $this->assertEquals(323, MaritalStatusInterface::MARITAL_STATUS_DIVORCED);

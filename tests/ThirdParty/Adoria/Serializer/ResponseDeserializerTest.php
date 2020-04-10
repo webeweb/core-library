@@ -76,16 +76,6 @@ JSON;
 JSON;
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function testConstructor() {
-
-        $this->assertEquals(RequestSerializer::REQUEST_DATE_FORMAT, ResponseDeserializer::RESPONSE_DATE_FORMAT);
-    }
-
-    /**
      * Tests the deserializeLine() method.
      *
      * @return void
@@ -96,18 +86,18 @@ JSON;
 
         $this->assertInstanceOf(Line::class, $obj);
 
-        $this->assertEquals("401", $obj->getAccountingCode());
-        $this->assertEquals("amount", $obj->getAmount());
-        $this->assertEquals("D", $obj->getAmountSign());
-        $this->assertEquals("analyticCode", $obj->getAnalyticCode());
         $this->assertEquals("bookingJournalCode", $obj->getBookingJournalCode());
-        $this->assertEquals("currency", $obj->getCurrency());
-        $this->assertEquals("freeField", $obj->getFreeField());
         $this->assertEquals("2019-01-16", $obj->getInvoiceDate()->format("Y-m-d"));
-        $this->assertEquals("2019-01-31", $obj->getInvoiceDueDate()->format("Y-m-d"));
+        $this->assertEquals("401", $obj->getAccountingCode());
+        $this->assertEquals("subledgerAccount", $obj->getSubledgerAccount());
         $this->assertEquals("invoiceNumber", $obj->getInvoiceNumber());
         $this->assertEquals("reference", $obj->getReference());
-        $this->assertEquals("subledgerAccount", $obj->getSubledgerAccount());
+        $this->assertEquals("analyticCode", $obj->getAnalyticCode());
+        $this->assertEquals("amount", $obj->getAmount());
+        $this->assertEquals("currency", $obj->getCurrency());
+        $this->assertEquals("D", $obj->getAmountSign());
+        $this->assertEquals("2019-01-31", $obj->getInvoiceDueDate()->format("Y-m-d"));
+        $this->assertEquals("freeField", $obj->getFreeField());
     }
 
     /**
@@ -125,18 +115,18 @@ JSON;
         $this->assertEquals([], $obj->getErrors());
         $this->assertEquals(1, $obj->getReturnCode());
 
-        $this->assertEquals("401", $obj->getData()[0]->getAccountingCode());
-        $this->assertEquals("amount", $obj->getData()[0]->getAmount());
-        $this->assertEquals("D", $obj->getData()[0]->getAmountSign());
-        $this->assertEquals("analyticCode", $obj->getData()[0]->getAnalyticCode());
         $this->assertEquals("bookingJournalCode", $obj->getData()[0]->getBookingJournalCode());
-        $this->assertEquals("currency", $obj->getData()[0]->getCurrency());
-        $this->assertEquals("freeField", $obj->getData()[0]->getFreeField());
         $this->assertEquals("2019-01-16", $obj->getData()[0]->getInvoiceDate()->format("Y-m-d"));
-        $this->assertEquals("2019-01-31", $obj->getData()[0]->getInvoiceDueDate()->format("Y-m-d"));
+        $this->assertEquals("401", $obj->getData()[0]->getAccountingCode());
+        $this->assertEquals("subledgerAccount", $obj->getData()[0]->getSubledgerAccount());
         $this->assertEquals("invoiceNumber", $obj->getData()[0]->getInvoiceNumber());
         $this->assertEquals("reference", $obj->getData()[0]->getReference());
-        $this->assertEquals("subledgerAccount", $obj->getData()[0]->getSubledgerAccount());
+        $this->assertEquals("analyticCode", $obj->getData()[0]->getAnalyticCode());
+        $this->assertEquals("amount", $obj->getData()[0]->getAmount());
+        $this->assertEquals("currency", $obj->getData()[0]->getCurrency());
+        $this->assertEquals("D", $obj->getData()[0]->getAmountSign());
+        $this->assertEquals("2019-01-31", $obj->getData()[0]->getInvoiceDueDate()->format("Y-m-d"));
+        $this->assertEquals("freeField", $obj->getData()[0]->getFreeField());
     }
 
     /**
@@ -150,8 +140,18 @@ JSON;
 
         $this->assertInstanceOf(Result::class, $obj);
 
-        $this->assertCount(0, $obj->getData());
-        $this->assertEquals([], $obj->getErrors());
         $this->assertEquals(0, $obj->getReturnCode());
+        $this->assertEquals([], $obj->getErrors());
+        $this->assertCount(0, $obj->getData());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $this->assertEquals(RequestSerializer::REQUEST_DATE_FORMAT, ResponseDeserializer::RESPONSE_DATE_FORMAT);
     }
 }

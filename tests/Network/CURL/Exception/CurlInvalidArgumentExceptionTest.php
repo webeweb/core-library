@@ -27,7 +27,7 @@ class CurlInvalidArgumentExceptionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $ex = new CurlInvalidArgumentException("exception");
 

@@ -27,7 +27,7 @@ class TooLongDataExceptionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $ex = new TooLongDataException("", 0);
 

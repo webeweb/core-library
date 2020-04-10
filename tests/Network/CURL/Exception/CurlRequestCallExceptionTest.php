@@ -28,7 +28,7 @@ class CurlRequestCallExceptionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConstruct() {
+    public function test__construct() {
 
         $obj = new CurlRequestCallException("exception", 404, new CurlResponse());
 
