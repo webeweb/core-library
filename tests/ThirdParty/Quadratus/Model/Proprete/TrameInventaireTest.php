@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\TrameInventaire;
 class TrameInventaireTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TrameInventaire();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeTrame());
-        $this->assertNull($obj->getNumOrdre());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class TrameInventaireTest extends AbstractTestCase {
 
         $obj->setNumOrdre(10);
         $this->assertEquals(10, $obj->getNumOrdre());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TrameInventaire();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeTrame());
+        $this->assertNull($obj->getNumOrdre());
     }
 }

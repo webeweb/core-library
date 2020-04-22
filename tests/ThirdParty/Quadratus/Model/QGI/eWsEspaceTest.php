@@ -23,18 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\eWsEspace;
 class eWsEspaceTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new eWsEspace();
-
-        $this->assertNull($obj->getNumDoss());
-    }
-
-    /**
      * Tests the setNumDoss() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class eWsEspaceTest extends AbstractTestCase {
 
         $obj->setNumDoss("numDoss");
         $this->assertEquals("numDoss", $obj->getNumDoss());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new eWsEspace();
+
+        $this->assertNull($obj->getNumDoss());
     }
 }

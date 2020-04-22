@@ -26,16 +26,6 @@ use WBW\Library\Core\ThirdParty\Adoria\Serializer\RequestSerializer;
 class RequestSerializerTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $this->assertEquals("Y-m-d", RequestSerializer::REQUEST_DATE_FORMAT);
-    }
-
-    /**
      * Tests the serializeRequestData() method.
      *
      * @return void
@@ -57,5 +47,15 @@ class RequestSerializerTest extends AbstractTestCase {
             "IdentificationKey" => "identificationKey",
         ];
         $this->assertEquals($res, $obj);
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $this->assertEquals("Y-m-d", RequestSerializer::REQUEST_DATE_FORMAT);
     }
 }

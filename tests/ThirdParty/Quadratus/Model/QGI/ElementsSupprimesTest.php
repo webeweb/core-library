@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ElementsSupprimes;
 class ElementsSupprimesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ElementsSupprimes();
-
-        $this->assertNull($obj->getDate1());
-        $this->assertNull($obj->getDateElem());
-        $this->assertNull($obj->getMemo1());
-        $this->assertNull($obj->getTexte1());
-        $this->assertNull($obj->getTypeElem());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setDate1() method.
      *
      * @return void
@@ -125,5 +108,22 @@ class ElementsSupprimesTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ElementsSupprimes();
+
+        $this->assertNull($obj->getDate1());
+        $this->assertNull($obj->getDateElem());
+        $this->assertNull($obj->getMemo1());
+        $this->assertNull($obj->getTexte1());
+        $this->assertNull($obj->getTypeElem());
+        $this->assertNull($obj->getUniqId());
     }
 }

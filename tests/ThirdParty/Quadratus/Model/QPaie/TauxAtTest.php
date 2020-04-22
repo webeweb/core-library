@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxAt;
 class TauxAtTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TauxAt();
-
-        $this->assertNull($obj->getAPartirDe());
-        $this->assertNull($obj->getBureau());
-        $this->assertNull($obj->getCodeAt());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getRisque());
-        $this->assertNull($obj->getSection());
-        $this->assertNull($obj->getTaux());
-    }
-
-    /**
      * Tests the setAPartirDe() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class TauxAtTest extends AbstractTestCase {
 
         $obj->setTaux(10.092018);
         $this->assertEquals(10.092018, $obj->getTaux());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TauxAt();
+
+        $this->assertNull($obj->getAPartirDe());
+        $this->assertNull($obj->getBureau());
+        $this->assertNull($obj->getCodeAt());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getRisque());
+        $this->assertNull($obj->getSection());
+        $this->assertNull($obj->getTaux());
     }
 }

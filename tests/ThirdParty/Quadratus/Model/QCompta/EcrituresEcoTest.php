@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\EcrituresEco;
 class EcrituresEcoTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EcrituresEco();
-
-        $this->assertNull($obj->getCentre());
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getCodeLibelleAuto());
-        $this->assertNull($obj->getFolio());
-        $this->assertNull($obj->getJourEcriture());
-        $this->assertNull($obj->getLiaisonEcriture());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontantTenuCredit());
-        $this->assertNull($obj->getMontantTenuDebit());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNoLotTrace());
-        $this->assertNull($obj->getNumEcrEco());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getPeriodeEcriture());
-        $this->assertNull($obj->getQuantite());
-        $this->assertNull($obj->getQuantite2());
-    }
-
-    /**
      * Tests the setCentre() method.
      *
      * @return void
@@ -261,5 +234,32 @@ class EcrituresEcoTest extends AbstractTestCase {
 
         $obj->setQuantite2(10.092018);
         $this->assertEquals(10.092018, $obj->getQuantite2());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EcrituresEco();
+
+        $this->assertNull($obj->getCentre());
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getCodeLibelleAuto());
+        $this->assertNull($obj->getFolio());
+        $this->assertNull($obj->getJourEcriture());
+        $this->assertNull($obj->getLiaisonEcriture());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontantTenuCredit());
+        $this->assertNull($obj->getMontantTenuDebit());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNoLotTrace());
+        $this->assertNull($obj->getNumEcrEco());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getPeriodeEcriture());
+        $this->assertNull($obj->getQuantite());
+        $this->assertNull($obj->getQuantite2());
     }
 }

@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersSynchroId;
 class ChantiersSynchroIdTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersSynchroId();
-
-        $this->assertNull($obj->getBlocDa());
-        $this->assertNull($obj->getBlocFc());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setBlocDa() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersSynchroId();
+
+        $this->assertNull($obj->getBlocDa());
+        $this->assertNull($obj->getBlocFc());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getUniqId());
     }
 }

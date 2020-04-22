@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\CumulsLibelles;
 class CumulsLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CumulsLibelles();
-
-        $this->assertNull($obj->getMontantCumul());
-        $this->assertNull($obj->getNumCumulBulletin());
-        $this->assertNull($obj->getNumeroEmploye());
-    }
-
-    /**
      * Tests the setMontantCumul() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class CumulsLibellesTest extends AbstractTestCase {
 
         $obj->setNumeroEmploye("numeroEmploye");
         $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CumulsLibelles();
+
+        $this->assertNull($obj->getMontantCumul());
+        $this->assertNull($obj->getNumCumulBulletin());
+        $this->assertNull($obj->getNumeroEmploye());
     }
 }

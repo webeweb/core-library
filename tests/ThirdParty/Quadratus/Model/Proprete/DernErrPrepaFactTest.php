@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DernErrPrepaFact;
 class DernErrPrepaFactTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DernErrPrepaFact();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getDesignation());
-        $this->assertNull($obj->getDtPrepa());
-        $this->assertNull($obj->getNoChronoPreparation());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class DernErrPrepaFactTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DernErrPrepaFact();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getDtPrepa());
+        $this->assertNull($obj->getNoChronoPreparation());
+        $this->assertNull($obj->getPeriode());
     }
 }

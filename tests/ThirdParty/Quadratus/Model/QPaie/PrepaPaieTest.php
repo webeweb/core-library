@@ -25,38 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\PrepaPaie;
 class PrepaPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PrepaPaie();
-
-        $this->assertNull($obj->getCpPris());
-        $this->assertNull($obj->getHMajoAcquis());
-        $this->assertNull($obj->getHMajoPris());
-        $this->assertNull($obj->getHSupAComptabiliserRc());
-        $this->assertNull($obj->getHSupAComptabiliserRcit());
-        $this->assertNull($obj->getHSupBonif());
-        $this->assertNull($obj->getHorairePrevu());
-        $this->assertNull($obj->getNbHComp());
-        $this->assertNull($obj->getNbHNuit());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPourcentHBonif());
-        $this->assertNull($obj->getRcAcquis());
-        $this->assertNull($obj->getRcPris());
-        $this->assertNull($obj->getRrAcquis());
-        $this->assertNull($obj->getRrPris());
-        $this->assertNull($obj->getRRecupAcquis());
-        $this->assertNull($obj->getRRecupPris());
-        $this->assertNull($obj->getSemaine());
-        $this->assertNull($obj->getTotRealise());
-        $this->assertNull($obj->getTravailEffectif());
-    }
-
-    /**
      * Tests the setCpPris() method.
      *
      * @return void
@@ -331,5 +299,37 @@ class PrepaPaieTest extends AbstractTestCase {
 
         $obj->setTravailEffectif(10.092018);
         $this->assertEquals(10.092018, $obj->getTravailEffectif());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PrepaPaie();
+
+        $this->assertNull($obj->getCpPris());
+        $this->assertNull($obj->getHMajoAcquis());
+        $this->assertNull($obj->getHMajoPris());
+        $this->assertNull($obj->getHSupAComptabiliserRc());
+        $this->assertNull($obj->getHSupAComptabiliserRcit());
+        $this->assertNull($obj->getHSupBonif());
+        $this->assertNull($obj->getHorairePrevu());
+        $this->assertNull($obj->getNbHComp());
+        $this->assertNull($obj->getNbHNuit());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPourcentHBonif());
+        $this->assertNull($obj->getRcAcquis());
+        $this->assertNull($obj->getRcPris());
+        $this->assertNull($obj->getRrAcquis());
+        $this->assertNull($obj->getRrPris());
+        $this->assertNull($obj->getRRecupAcquis());
+        $this->assertNull($obj->getRRecupPris());
+        $this->assertNull($obj->getSemaine());
+        $this->assertNull($obj->getTotRealise());
+        $this->assertNull($obj->getTravailEffectif());
     }
 }

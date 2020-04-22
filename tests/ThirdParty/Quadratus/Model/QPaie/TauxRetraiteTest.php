@@ -23,31 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxRetraite;
 class TauxRetraiteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TauxRetraite();
-
-        $this->assertNull($obj->getCategCadre());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getIndiceContrat());
-        $this->assertNull($obj->getLibelleBul());
-        $this->assertNull($obj->getNumDossier());
-        $this->assertNull($obj->getSousDossier());
-        $this->assertNull($obj->getTauxPatTrA());
-        $this->assertNull($obj->getTauxPatTrB());
-        $this->assertNull($obj->getTauxPatTrC());
-        $this->assertNull($obj->getTauxSalTrA());
-        $this->assertNull($obj->getTauxSalTrB());
-        $this->assertNull($obj->getTauxSalTrC());
-    }
-
-    /**
      * Tests the setCategCadre() method.
      *
      * @return void
@@ -227,5 +202,30 @@ class TauxRetraiteTest extends AbstractTestCase {
 
         $obj->setTauxSalTrC(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxSalTrC());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TauxRetraite();
+
+        $this->assertNull($obj->getCategCadre());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getIndiceContrat());
+        $this->assertNull($obj->getLibelleBul());
+        $this->assertNull($obj->getNumDossier());
+        $this->assertNull($obj->getSousDossier());
+        $this->assertNull($obj->getTauxPatTrA());
+        $this->assertNull($obj->getTauxPatTrB());
+        $this->assertNull($obj->getTauxPatTrC());
+        $this->assertNull($obj->getTauxSalTrA());
+        $this->assertNull($obj->getTauxSalTrB());
+        $this->assertNull($obj->getTauxSalTrC());
     }
 }

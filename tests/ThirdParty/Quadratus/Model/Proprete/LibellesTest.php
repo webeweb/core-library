@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Libelles;
 class LibellesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Libelles();
-
-        $this->assertNull($obj->getActif());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setActif() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class LibellesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Libelles();
+
+        $this->assertNull($obj->getActif());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getType());
     }
 }

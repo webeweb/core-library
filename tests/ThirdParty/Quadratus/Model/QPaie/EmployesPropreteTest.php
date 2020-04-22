@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmployesProprete;
 class EmployesPropreteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmployesProprete();
-
-        $this->assertNull($obj->getControleur());
-        $this->assertNull($obj->getHotellerie());
-        $this->assertNull($obj->getLivreur());
-        $this->assertNull($obj->getModulation());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPolyvalent());
-    }
-
-    /**
      * Tests the setControleur() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class EmployesPropreteTest extends AbstractTestCase {
 
         $obj->setPolyvalent(true);
         $this->assertEquals(true, $obj->getPolyvalent());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmployesProprete();
+
+        $this->assertNull($obj->getControleur());
+        $this->assertNull($obj->getHotellerie());
+        $this->assertNull($obj->getLivreur());
+        $this->assertNull($obj->getModulation());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPolyvalent());
     }
 }

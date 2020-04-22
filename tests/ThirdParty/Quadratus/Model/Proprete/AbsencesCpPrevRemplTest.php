@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AbsencesCpPrevRempl;
 class AbsencesCpPrevRemplTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AbsencesCpPrevRempl();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeRemplacant());
-        $this->assertNull($obj->getDateDebutCp());
-        $this->assertNull($obj->getDateDebutRempl());
-        $this->assertNull($obj->getDateFinRempl());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getTypeRempl());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -143,5 +125,23 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
 
         $obj->setTypeRempl("typeRempl");
         $this->assertEquals("typeRempl", $obj->getTypeRempl());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AbsencesCpPrevRempl();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeRemplacant());
+        $this->assertNull($obj->getDateDebutCp());
+        $this->assertNull($obj->getDateDebutRempl());
+        $this->assertNull($obj->getDateFinRempl());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getTypeRempl());
     }
 }

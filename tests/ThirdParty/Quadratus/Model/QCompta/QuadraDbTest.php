@@ -23,18 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\QuadraDb;
 class QuadraDbTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new QuadraDb();
-
-        $this->assertNull($obj->getVersion());
-    }
-
-    /**
      * Tests the setVersion() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class QuadraDbTest extends AbstractTestCase {
 
         $obj->setVersion(10);
         $this->assertEquals(10, $obj->getVersion());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new QuadraDb();
+
+        $this->assertNull($obj->getVersion());
     }
 }

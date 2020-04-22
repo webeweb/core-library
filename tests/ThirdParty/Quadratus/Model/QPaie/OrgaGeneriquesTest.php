@@ -23,48 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\OrgaGeneriques;
 class OrgaGeneriquesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new OrgaGeneriques();
-
-        $this->assertNull($obj->getADeclarerDsnNeant());
-        $this->assertNull($obj->getAgrementMinisteriel());
-        $this->assertNull($obj->getAppliquerCpn220());
-        $this->assertNull($obj->getArrondirBase());
-        $this->assertNull($obj->getArrondirCotis());
-        $this->assertNull($obj->getAssietteSpecifAgff());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeAssietteSit2());
-        $this->assertNull($obj->getCodeAssietteSit2Agff());
-        $this->assertNull($obj->getCodeAssietteSitb());
-        $this->assertNull($obj->getCodeAssietteSitbagff());
-        $this->assertNull($obj->getCodeAssietteSitc());
-        $this->assertNull($obj->getCodeCaisseMsa());
-        $this->assertNull($obj->getCodeOrganismeAssuranceDadsu());
-        $this->assertNull($obj->getCodeOrganismeMutuelleDadsu());
-        $this->assertNull($obj->getDetailArrco());
-        $this->assertNull($obj->getGroupeCrc());
-        $this->assertNull($obj->getIdInstitution());
-        $this->assertNull($obj->getIntitSousTotalAgffAgirc());
-        $this->assertNull($obj->getIntitSousTotalAgffArrco());
-        $this->assertNull($obj->getIntitSousTotalApec());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getLienFicParamDsn());
-        $this->assertNull($obj->getRegroupementSi());
-        $this->assertNull($obj->getSousTotalAgff());
-        $this->assertNull($obj->getSousTotalApec());
-        $this->assertNull($obj->getSousTotalCaisse());
-        $this->assertNull($obj->getTraitementDadsu());
-        $this->assertNull($obj->getTypeDeclaration());
-        $this->assertNull($obj->getTypeOrganisme());
-        $this->assertNull($obj->getUtilise());
-    }
-
-    /**
      * Tests the setADeclarerDsnNeant() method.
      *
      * @return void
@@ -465,5 +423,47 @@ class OrgaGeneriquesTest extends AbstractTestCase {
 
         $obj->setUtilise(true);
         $this->assertEquals(true, $obj->getUtilise());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new OrgaGeneriques();
+
+        $this->assertNull($obj->getADeclarerDsnNeant());
+        $this->assertNull($obj->getAgrementMinisteriel());
+        $this->assertNull($obj->getAppliquerCpn220());
+        $this->assertNull($obj->getArrondirBase());
+        $this->assertNull($obj->getArrondirCotis());
+        $this->assertNull($obj->getAssietteSpecifAgff());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeAssietteSit2());
+        $this->assertNull($obj->getCodeAssietteSit2Agff());
+        $this->assertNull($obj->getCodeAssietteSitb());
+        $this->assertNull($obj->getCodeAssietteSitbagff());
+        $this->assertNull($obj->getCodeAssietteSitc());
+        $this->assertNull($obj->getCodeCaisseMsa());
+        $this->assertNull($obj->getCodeOrganismeAssuranceDadsu());
+        $this->assertNull($obj->getCodeOrganismeMutuelleDadsu());
+        $this->assertNull($obj->getDetailArrco());
+        $this->assertNull($obj->getGroupeCrc());
+        $this->assertNull($obj->getIdInstitution());
+        $this->assertNull($obj->getIntitSousTotalAgffAgirc());
+        $this->assertNull($obj->getIntitSousTotalAgffArrco());
+        $this->assertNull($obj->getIntitSousTotalApec());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getLienFicParamDsn());
+        $this->assertNull($obj->getRegroupementSi());
+        $this->assertNull($obj->getSousTotalAgff());
+        $this->assertNull($obj->getSousTotalApec());
+        $this->assertNull($obj->getSousTotalCaisse());
+        $this->assertNull($obj->getTraitementDadsu());
+        $this->assertNull($obj->getTypeDeclaration());
+        $this->assertNull($obj->getTypeOrganisme());
+        $this->assertNull($obj->getUtilise());
     }
 }

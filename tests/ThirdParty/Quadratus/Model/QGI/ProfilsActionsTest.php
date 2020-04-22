@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ProfilsActions;
 class ProfilsActionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ProfilsActions();
-
-        $this->assertNull($obj->getCodeProfil());
-        $this->assertNull($obj->getIntitule());
-    }
-
-    /**
      * Tests the setCodeProfil() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ProfilsActionsTest extends AbstractTestCase {
 
         $obj->setIntitule("intitule");
         $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ProfilsActions();
+
+        $this->assertNull($obj->getCodeProfil());
+        $this->assertNull($obj->getIntitule());
     }
 }

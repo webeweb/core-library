@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AccesWebAgenda;
 class AccesWebAgendaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AccesWebAgenda();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getDroitModif());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class AccesWebAgendaTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AccesWebAgenda();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getDroitModif());
+        $this->assertNull($obj->getType());
     }
 }

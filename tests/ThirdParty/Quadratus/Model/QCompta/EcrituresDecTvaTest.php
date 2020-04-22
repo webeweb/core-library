@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\EcrituresDecTva;
 class EcrituresDecTvaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EcrituresDecTva();
-
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getDateDecTva());
-        $this->assertNull($obj->getJourEcriture());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontantHt());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getPeriodeEcriture());
-        $this->assertNull($obj->getTypeCdi());
-    }
-
-    /**
      * Tests the setCodeTva() method.
      *
      * @return void
@@ -167,5 +147,25 @@ class EcrituresDecTvaTest extends AbstractTestCase {
 
         $obj->setTypeCdi("typeCdi");
         $this->assertEquals("typeCdi", $obj->getTypeCdi());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EcrituresDecTva();
+
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getDateDecTva());
+        $this->assertNull($obj->getJourEcriture());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontantHt());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getPeriodeEcriture());
+        $this->assertNull($obj->getTypeCdi());
     }
 }

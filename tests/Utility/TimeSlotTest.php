@@ -64,38 +64,6 @@ class TimeSlotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function test__construct() {
-
-        $obj = new TimeSlot($this->startDate, $this->endDate);
-
-        $this->assertSame($this->endDate, $obj->getEndDate());
-        $this->assertSame($this->startDate, $obj->getStartDate());
-        $this->assertEquals([], $obj->getTimeSlots());
-    }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructWithException() {
-
-        try {
-
-            new TimeSlot($this->endDate, $this->startDate);
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The end date must be greater than start date", $ex->getMessage());
-        }
-    }
-
-    /**
      * Tests the getDuration() method.
      *
      * @return void
@@ -214,5 +182,37 @@ class TimeSlotTest extends AbstractTestCase {
 
         $this->assertSame($obj, $obj->removeTimeSlot($arg));
         $this->assertCount(0, $obj->getTimeSlots());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function test__construct() {
+
+        $obj = new TimeSlot($this->startDate, $this->endDate);
+
+        $this->assertSame($this->endDate, $obj->getEndDate());
+        $this->assertSame($this->startDate, $obj->getStartDate());
+        $this->assertEquals([], $obj->getTimeSlots());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructWithException() {
+
+        try {
+
+            new TimeSlot($this->endDate, $this->startDate);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("The end date must be greater than start date", $ex->getMessage());
+        }
     }
 }

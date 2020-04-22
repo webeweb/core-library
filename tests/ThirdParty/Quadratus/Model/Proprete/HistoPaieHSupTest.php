@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HistoPaieHSup;
 class HistoPaieHSupTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoPaieHSup();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getNbHSup());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPourcentHSup());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class HistoPaieHSupTest extends AbstractTestCase {
 
         $obj->setPourcentHSup(10.092018);
         $this->assertEquals(10.092018, $obj->getPourcentHSup());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoPaieHSup();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getNbHSup());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPourcentHSup());
     }
 }

@@ -25,18 +25,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestDateTimeBirthDateTrait;
 class DateTimeBirthDateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestDateTimeBirthDateTrait();
-
-        $this->assertNull($obj->getBirthDate());
-    }
-
-    /**
      * Tests the setBirthdate() method.
      *
      * @return void
@@ -51,5 +39,17 @@ class DateTimeBirthDateTraitTest extends AbstractTestCase {
 
         $obj->setBirthDate($birthDate);
         $this->assertSame($birthDate, $obj->getBirthDate());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestDateTimeBirthDateTrait();
+
+        $this->assertNull($obj->getBirthDate());
     }
 }

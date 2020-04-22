@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\FractionEtabPseudoSiret;
 class FractionEtabPseudoSiretTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FractionEtabPseudoSiret();
-
-        $this->assertNull($obj->getAPartirDe());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getNumFraction());
-        $this->assertNull($obj->getPseudoSiret());
-    }
-
-    /**
      * Tests the setAPartirDe() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
 
         $obj->setPseudoSiret("pseudoSiret");
         $this->assertEquals("pseudoSiret", $obj->getPseudoSiret());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FractionEtabPseudoSiret();
+
+        $this->assertNull($obj->getAPartirDe());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getNumFraction());
+        $this->assertNull($obj->getPseudoSiret());
     }
 }

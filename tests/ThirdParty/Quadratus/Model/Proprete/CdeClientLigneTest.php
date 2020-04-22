@@ -25,49 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CdeClientLigne;
 class CdeClientLigneTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CdeClientLigne();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeDepot());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getCodeUnite());
-        $this->assertNull($obj->getCodeVariante());
-        $this->assertNull($obj->getCodeVentilVente());
-        $this->assertNull($obj->getCommandeRecue());
-        $this->assertNull($obj->getDateReceptionPrevue());
-        $this->assertNull($obj->getDesignation());
-        $this->assertNull($obj->getDesignation2());
-        $this->assertNull($obj->getDesignation3());
-        $this->assertNull($obj->getIndiceLigne());
-        $this->assertNull($obj->getNoBl());
-        $this->assertNull($obj->getNoLigneBl());
-        $this->assertNull($obj->getNoPiece());
-        $this->assertNull($obj->getNumeroFacture());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getPuBrut());
-        $this->assertNull($obj->getPrixAchat());
-        $this->assertNull($obj->getPrixbloque());
-        $this->assertNull($obj->getQteOrigine());
-        $this->assertNull($obj->getQuantite());
-        $this->assertNull($obj->getRemiseLigne1());
-        $this->assertNull($obj->getRemiseLigne2());
-        $this->assertNull($obj->getRemiseLigne3());
-        $this->assertNull($obj->getTauxCommission());
-        $this->assertNull($obj->getTauxTva());
-        $this->assertNull($obj->getTypeLigne());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -485,5 +442,48 @@ class CdeClientLigneTest extends AbstractTestCase {
 
         $obj->setTypeLigne("typeLigne");
         $this->assertEquals("typeLigne", $obj->getTypeLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CdeClientLigne();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeDepot());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getCodeUnite());
+        $this->assertNull($obj->getCodeVariante());
+        $this->assertNull($obj->getCodeVentilVente());
+        $this->assertNull($obj->getCommandeRecue());
+        $this->assertNull($obj->getDateReceptionPrevue());
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getDesignation2());
+        $this->assertNull($obj->getDesignation3());
+        $this->assertNull($obj->getIndiceLigne());
+        $this->assertNull($obj->getNoBl());
+        $this->assertNull($obj->getNoLigneBl());
+        $this->assertNull($obj->getNoPiece());
+        $this->assertNull($obj->getNumeroFacture());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getPuBrut());
+        $this->assertNull($obj->getPrixAchat());
+        $this->assertNull($obj->getPrixbloque());
+        $this->assertNull($obj->getQteOrigine());
+        $this->assertNull($obj->getQuantite());
+        $this->assertNull($obj->getRemiseLigne1());
+        $this->assertNull($obj->getRemiseLigne2());
+        $this->assertNull($obj->getRemiseLigne3());
+        $this->assertNull($obj->getTauxCommission());
+        $this->assertNull($obj->getTauxTva());
+        $this->assertNull($obj->getTypeLigne());
     }
 }

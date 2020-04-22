@@ -54,23 +54,6 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TestNode("id");
-
-        $this->assertEquals("id", $obj->getId());
-
-        $this->assertNull($obj->getFirstNode());
-        $this->assertNull($obj->getLastNode());
-        $this->assertEquals([], $obj->getNodes());
-        $this->assertNull($obj->getParent());
-    }
-
-    /**
      * Tests the getFirstNode() method.
      *
      * @return void
@@ -164,5 +147,22 @@ class AbstractNodeTest extends AbstractTestCase {
 
         $this->assertSame($obj, $obj->addNode($add));
         $this->assertEquals(1, $obj->size());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TestNode("id");
+
+        $this->assertEquals("id", $obj->getId());
+
+        $this->assertNull($obj->getFirstNode());
+        $this->assertNull($obj->getLastNode());
+        $this->assertEquals([], $obj->getNodes());
+        $this->assertNull($obj->getParent());
     }
 }

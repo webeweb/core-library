@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Variantes;
 class VariantesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Variantes();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeVariante());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class VariantesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Variantes();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeVariante());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getType());
     }
 }

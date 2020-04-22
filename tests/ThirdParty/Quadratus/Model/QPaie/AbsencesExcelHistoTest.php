@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\AbsencesExcelHisto;
 class AbsencesExcelHistoTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AbsencesExcelHisto();
-
-        $this->assertNull($obj->getDateAdded());
-        $this->assertNull($obj->getId());
-        $this->assertNull($obj->getNbhSais());
-        $this->assertNull($obj->getNbhSaisCorr());
-        $this->assertNull($obj->getNbjSais());
-        $this->assertNull($obj->getNbjSaisCorr());
-        $this->assertNull($obj->getNumEvenement());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPerPaie());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeDebCorr());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getPeriodeFinCorr());
-        $this->assertNull($obj->getTransfertAbs());
-        $this->assertNull($obj->getTypeAbsCp());
-        $this->assertNull($obj->getTypeAbsCpCorr());
-    }
-
-    /**
      * Tests the setDateAdded() method.
      *
      * @return void
@@ -281,5 +254,32 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
 
         $obj->setTypeAbsCpCorr("typeAbsCpCorr");
         $this->assertEquals("typeAbsCpCorr", $obj->getTypeAbsCpCorr());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AbsencesExcelHisto();
+
+        $this->assertNull($obj->getDateAdded());
+        $this->assertNull($obj->getId());
+        $this->assertNull($obj->getNbhSais());
+        $this->assertNull($obj->getNbhSaisCorr());
+        $this->assertNull($obj->getNbjSais());
+        $this->assertNull($obj->getNbjSaisCorr());
+        $this->assertNull($obj->getNumEvenement());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPerPaie());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeDebCorr());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getPeriodeFinCorr());
+        $this->assertNull($obj->getTransfertAbs());
+        $this->assertNull($obj->getTypeAbsCp());
+        $this->assertNull($obj->getTypeAbsCpCorr());
     }
 }

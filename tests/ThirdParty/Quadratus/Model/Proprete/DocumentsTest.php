@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Documents;
 class DocumentsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Documents();
-
-        $this->assertNull($obj->getChrono());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getDateHeureSys());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLienDocument());
-    }
-
-    /**
      * Tests the setChrono() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class DocumentsTest extends AbstractTestCase {
 
         $obj->setLienDocument("lienDocument");
         $this->assertEquals("lienDocument", $obj->getLienDocument());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Documents();
+
+        $this->assertNull($obj->getChrono());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getDateHeureSys());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLienDocument());
     }
 }

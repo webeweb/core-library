@@ -27,18 +27,6 @@ use WBW\Library\Core\ThirdParty\Adoria\Provider\ApiProvider;
 class ApiProviderTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ApiProvider();
-
-        $this->assertFalse($obj->getDebug());
-    }
-
-    /**
      * Tests the requestData() method.
      *
      * @return void
@@ -78,5 +66,17 @@ class ApiProviderTest extends AbstractTestCase {
 
         $obj->setDebug(true);
         $this->assertTrue($obj->getDebug());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ApiProvider();
+
+        $this->assertFalse($obj->getDebug());
     }
 }

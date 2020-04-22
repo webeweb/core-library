@@ -17,6 +17,19 @@ use WBW\Library\Core\Tests\Fixtures\Model\TestAddressTrait;
 class AddressTraitTest extends AbstractTestCase {
 
     /**
+     * Tests the setAddresseeDescription() method.
+     *
+     * @return void
+     */
+    public function testSetAddresseeDescription() {
+
+        $obj = new TestAddressTrait();
+
+        $obj->setAddresseeDescription("addresseeDescription");
+        $this->assertEquals("addresseeDescription", $obj->getAddresseeDescription());
+    }
+
+    /**
      * Tests the __construct() method.
      *
      * @return void
@@ -32,18 +45,5 @@ class AddressTraitTest extends AbstractTestCase {
         $this->assertNull($obj->getLocation());
         $this->assertNull($obj->getPostalCode());
         $this->assertNull($obj->getStreetName());
-    }
-
-    /**
-     * Tests the setAddresseeDescription() method.
-     *
-     * @return void
-     */
-    public function testSetAddresseeDescription() {
-
-        $obj = new TestAddressTrait();
-
-        $obj->setAddresseeDescription("addresseeDescription");
-        $this->assertEquals("addresseeDescription", $obj->getAddresseeDescription());
     }
 }

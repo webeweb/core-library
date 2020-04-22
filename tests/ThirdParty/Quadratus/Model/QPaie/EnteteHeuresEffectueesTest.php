@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EnteteHeuresEffectuees;
 class EnteteHeuresEffectueesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EnteteHeuresEffectuees();
-
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getTransfere());
-        $this->assertNull($obj->getTypeSaisie());
-    }
-
-    /**
      * Tests the setNumeroEmploye() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class EnteteHeuresEffectueesTest extends AbstractTestCase {
 
         $obj->setTypeSaisie("typeSaisie");
         $this->assertEquals("typeSaisie", $obj->getTypeSaisie());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EnteteHeuresEffectuees();
+
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTransfere());
+        $this->assertNull($obj->getTypeSaisie());
     }
 }

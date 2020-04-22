@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestIntegerMaritalStatusTrai
 class IntegerMaritalStatusTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestIntegerMaritalStatusTrait();
-
-        $this->assertNull($obj->getMaritalStatus());
-    }
-
-    /**
      * Tests the setMaritalStatus() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class IntegerMaritalStatusTraitTest extends AbstractTestCase {
 
         $obj->setMaritalStatus(1);
         $this->assertEquals(1, $obj->getMaritalStatus());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestIntegerMaritalStatusTrait();
+
+        $this->assertNull($obj->getMaritalStatus());
     }
 }

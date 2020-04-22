@@ -25,51 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TempsPasses;
 class TempsPassesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TempsPasses();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCodePhase());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getCodeVehicule());
-        $this->assertNull($obj->getCoutKm());
-        $this->assertNull($obj->getDateSaisie());
-        $this->assertNull($obj->getDateSysSaisie());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getFacturable());
-        $this->assertNull($obj->getGUniqId());
-        $this->assertNull($obj->getHeureDebut());
-        $this->assertNull($obj->getHeureFin());
-        $this->assertNull($obj->getIdTps());
-        $this->assertNull($obj->getIsTransf());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMonnaie());
-        $this->assertNull($obj->getMontantCrt());
-        $this->assertNull($obj->getMontantTva());
-        $this->assertNull($obj->getNbKm());
-        $this->assertNull($obj->getNbUo());
-        $this->assertNull($obj->getPu());
-        $this->assertNull($obj->getPv1());
-        $this->assertNull($obj->getPv2());
-        $this->assertNull($obj->getPv3());
-        $this->assertNull($obj->getPeriodeEditionNdF());
-        $this->assertNull($obj->getQte());
-        $this->assertNull($obj->getTauxRemise());
-        $this->assertNull($obj->getTauxRemiseIci());
-        $this->assertNull($obj->getUniqIdFacture());
-        $this->assertNull($obj->getValide());
-        $this->assertNull($obj->getValideCollab());
-        $this->assertNull($obj->getValideDate());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -533,5 +488,50 @@ class TempsPassesTest extends AbstractTestCase {
 
         $obj->setValideDate($valideDate);
         $this->assertSame($valideDate, $obj->getValideDate());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TempsPasses();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodePhase());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getCodeVehicule());
+        $this->assertNull($obj->getCoutKm());
+        $this->assertNull($obj->getDateSaisie());
+        $this->assertNull($obj->getDateSysSaisie());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getFacturable());
+        $this->assertNull($obj->getGUniqId());
+        $this->assertNull($obj->getHeureDebut());
+        $this->assertNull($obj->getHeureFin());
+        $this->assertNull($obj->getIdTps());
+        $this->assertNull($obj->getIsTransf());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMonnaie());
+        $this->assertNull($obj->getMontantCrt());
+        $this->assertNull($obj->getMontantTva());
+        $this->assertNull($obj->getNbKm());
+        $this->assertNull($obj->getNbUo());
+        $this->assertNull($obj->getPu());
+        $this->assertNull($obj->getPv1());
+        $this->assertNull($obj->getPv2());
+        $this->assertNull($obj->getPv3());
+        $this->assertNull($obj->getPeriodeEditionNdF());
+        $this->assertNull($obj->getQte());
+        $this->assertNull($obj->getTauxRemise());
+        $this->assertNull($obj->getTauxRemiseIci());
+        $this->assertNull($obj->getUniqIdFacture());
+        $this->assertNull($obj->getValide());
+        $this->assertNull($obj->getValideCollab());
+        $this->assertNull($obj->getValideDate());
     }
 }

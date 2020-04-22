@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuAssuranceLignesContra
 class DadsuAssuranceLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuAssuranceLignesContrat();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodePorteurRisque());
-        $this->assertNull($obj->getDesignationCommerciale());
-        $this->assertNull($obj->getRefContrat());
-        $this->assertNull($obj->getUniteGestion());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
 
         $obj->setUniteGestion("uniteGestion");
         $this->assertEquals("uniteGestion", $obj->getUniteGestion());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuAssuranceLignesContrat();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodePorteurRisque());
+        $this->assertNull($obj->getDesignationCommerciale());
+        $this->assertNull($obj->getRefContrat());
+        $this->assertNull($obj->getUniteGestion());
     }
 }

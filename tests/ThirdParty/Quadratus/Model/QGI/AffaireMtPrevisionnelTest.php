@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AffaireMtPrevisionnel;
 class AffaireMtPrevisionnelTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AffaireMtPrevisionnel();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeAvenant());
-        $this->assertNull($obj->getCodePhase());
-        $this->assertNull($obj->getDatePrev());
-        $this->assertNull($obj->getMtPhase());
-        $this->assertNull($obj->getMtPrev());
-        $this->assertNull($obj->getPrctPhase());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -149,5 +130,24 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AffaireMtPrevisionnel();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeAvenant());
+        $this->assertNull($obj->getCodePhase());
+        $this->assertNull($obj->getDatePrev());
+        $this->assertNull($obj->getMtPhase());
+        $this->assertNull($obj->getMtPrev());
+        $this->assertNull($obj->getPrctPhase());
+        $this->assertNull($obj->getType());
     }
 }

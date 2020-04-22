@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\StatsGroupes;
 class StatsGroupesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new StatsGroupes();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getGroupeStat());
-        $this->assertNull($obj->getTypeChamp());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class StatsGroupesTest extends AbstractTestCase {
 
         $obj->setTypeChamp("typeChamp");
         $this->assertEquals("typeChamp", $obj->getTypeChamp());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new StatsGroupes();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getGroupeStat());
+        $this->assertNull($obj->getTypeChamp());
     }
 }

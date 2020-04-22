@@ -23,33 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxRetraiteMetier;
 class TauxRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TauxRetraiteMetier();
-
-        $this->assertNull($obj->getActive());
-        $this->assertNull($obj->getCategSalarie());
-        $this->assertNull($obj->getCodeActivite());
-        $this->assertNull($obj->getCodeDucs());
-        $this->assertNull($obj->getCodeEditionHisto());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeMetier());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCompteCharge());
-        $this->assertNull($obj->getConditionSpec());
-        $this->assertNull($obj->getExclureLoiTepa());
-        $this->assertNull($obj->getIndiceCateg());
-        $this->assertNull($obj->getLibelleBul());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getQualifiantCotis());
-        $this->assertNull($obj->getTypeLibelle());
-    }
-
-    /**
      * Tests the setActive() method.
      *
      * @return void
@@ -255,5 +228,32 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
 
         $obj->setTypeLibelle(10);
         $this->assertEquals(10, $obj->getTypeLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TauxRetraiteMetier();
+
+        $this->assertNull($obj->getActive());
+        $this->assertNull($obj->getCategSalarie());
+        $this->assertNull($obj->getCodeActivite());
+        $this->assertNull($obj->getCodeDucs());
+        $this->assertNull($obj->getCodeEditionHisto());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeMetier());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCompteCharge());
+        $this->assertNull($obj->getConditionSpec());
+        $this->assertNull($obj->getExclureLoiTepa());
+        $this->assertNull($obj->getIndiceCateg());
+        $this->assertNull($obj->getLibelleBul());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getQualifiantCotis());
+        $this->assertNull($obj->getTypeLibelle());
     }
 }

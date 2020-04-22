@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\SousRepertoiresAppels;
 class SousRepertoiresAppelsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SousRepertoiresAppels();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNiveauLigne());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getProprietes());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SousRepertoiresAppels();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNiveauLigne());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getProprietes());
+        $this->assertNull($obj->getUniqId());
     }
 }

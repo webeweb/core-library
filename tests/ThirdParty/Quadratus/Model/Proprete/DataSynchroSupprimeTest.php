@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DataSynchroSupprime;
 class DataSynchroSupprimeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DataSynchroSupprime();
-
-        $this->assertNull($obj->getTypeData());
-        $this->assertNull($obj->getUniqIdBlocage());
-    }
-
-    /**
      * Tests the setTypeData() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class DataSynchroSupprimeTest extends AbstractTestCase {
 
         $obj->setUniqIdBlocage("uniqIdBlocage");
         $this->assertEquals("uniqIdBlocage", $obj->getUniqIdBlocage());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DataSynchroSupprime();
+
+        $this->assertNull($obj->getTypeData());
+        $this->assertNull($obj->getUniqIdBlocage());
     }
 }

@@ -25,46 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AbsEmpRemplacants;
 class AbsEmpRemplacantsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AbsEmpRemplacants();
-
-        $this->assertNull($obj->getAjouterEnHCompl());
-        $this->assertNull($obj->getAvenantHRempl());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeAffaireRempl());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeChantierRempl());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeClientRempl());
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeRemplacant());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getCodeTacheRempl());
-        $this->assertNull($obj->getDateAbsDecalee());
-        $this->assertNull($obj->getDateDebutAbs());
-        $this->assertNull($obj->getDateDebutRempl());
-        $this->assertNull($obj->getDateFinRempl());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getDureeRemplacement());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getNumBtRempl());
-        $this->assertNull($obj->getNumRempl());
-        $this->assertNull($obj->getNumeroAvenant());
-        $this->assertNull($obj->getRemplacantTravailleJf());
-        $this->assertNull($obj->getRemplacementComplet());
-        $this->assertNull($obj->getRemplacementModifie());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setAjouterEnHCompl() method.
      *
      * @return void
@@ -459,5 +419,45 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AbsEmpRemplacants();
+
+        $this->assertNull($obj->getAjouterEnHCompl());
+        $this->assertNull($obj->getAvenantHRempl());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeAffaireRempl());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeChantierRempl());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeClientRempl());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeRemplacant());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getCodeTacheRempl());
+        $this->assertNull($obj->getDateAbsDecalee());
+        $this->assertNull($obj->getDateDebutAbs());
+        $this->assertNull($obj->getDateDebutRempl());
+        $this->assertNull($obj->getDateFinRempl());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getDureeRemplacement());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getNumBtRempl());
+        $this->assertNull($obj->getNumRempl());
+        $this->assertNull($obj->getNumeroAvenant());
+        $this->assertNull($obj->getRemplacantTravailleJf());
+        $this->assertNull($obj->getRemplacementComplet());
+        $this->assertNull($obj->getRemplacementModifie());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

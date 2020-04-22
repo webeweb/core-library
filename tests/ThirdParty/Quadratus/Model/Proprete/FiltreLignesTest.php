@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FiltreLignes;
 class FiltreLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FiltreLignes();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class FiltreLignesTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FiltreLignes();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getUniqId());
     }
 }

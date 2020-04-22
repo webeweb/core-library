@@ -23,29 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\SousLignesAnalytiques;
 class SousLignesAnalytiquesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SousLignesAnalytiques();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumeroDocument());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getNumeroLigneAnal());
-        $this->assertNull($obj->getNumeroSousLigneCptHt());
-        $this->assertNull($obj->getTypeDocument());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -199,5 +176,28 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
 
         $obj->setTypeDocument("typeDocument");
         $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SousLignesAnalytiques();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumeroDocument());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getNumeroLigneAnal());
+        $this->assertNull($obj->getNumeroSousLigneCptHt());
+        $this->assertNull($obj->getTypeDocument());
     }
 }

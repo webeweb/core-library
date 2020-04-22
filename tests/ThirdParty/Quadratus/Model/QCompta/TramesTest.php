@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Trames;
 class TramesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Trames();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getGardeMontants());
-        $this->assertNull($obj->getLibelle());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class TramesTest extends AbstractTestCase {
 
         $obj->setLibelle("libelle");
         $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Trames();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getGardeMontants());
+        $this->assertNull($obj->getLibelle());
     }
 }

@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PostesCharge;
 class PostesChargeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PostesCharge();
-
-        $this->assertNull($obj->getActif());
-        $this->assertNull($obj->getCodeCharge());
-        $this->assertNull($obj->getDernPosteAffecte());
-        $this->assertNull($obj->getDescription());
-        $this->assertNull($obj->getPosteRent());
-        $this->assertNull($obj->getTypeProrata());
-    }
-
-    /**
      * Tests the setActif() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class PostesChargeTest extends AbstractTestCase {
 
         $obj->setTypeProrata("typeProrata");
         $this->assertEquals("typeProrata", $obj->getTypeProrata());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PostesCharge();
+
+        $this->assertNull($obj->getActif());
+        $this->assertNull($obj->getCodeCharge());
+        $this->assertNull($obj->getDernPosteAffecte());
+        $this->assertNull($obj->getDescription());
+        $this->assertNull($obj->getPosteRent());
+        $this->assertNull($obj->getTypeProrata());
     }
 }

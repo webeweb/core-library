@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\IntitCumulsLibelles;
 class IntitCumulsLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new IntitCumulsLibelles();
-
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumCumulBulletin());
-    }
-
-    /**
      * Tests the setIntitule() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class IntitCumulsLibellesTest extends AbstractTestCase {
 
         $obj->setNumCumulBulletin(10);
         $this->assertEquals(10, $obj->getNumCumulBulletin());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new IntitCumulsLibelles();
+
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumCumulBulletin());
     }
 }

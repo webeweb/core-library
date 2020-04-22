@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\RgCorrespondances;
 class RgCorrespondancesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RgCorrespondances();
-
-        $this->assertNull($obj->getFichiersPublierWeb());
-        $this->assertNull($obj->getIgnorer());
-        $this->assertNull($obj->getNiveau());
-        $this->assertNull($obj->getTypeDonnees());
-        $this->assertNull($obj->getUniqId());
-        $this->assertNull($obj->getValeur());
-        $this->assertNull($obj->getValeurOrigine());
-    }
-
-    /**
      * Tests the setFichiersPublierWeb() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class RgCorrespondancesTest extends AbstractTestCase {
 
         $obj->setValeurOrigine("valeurOrigine");
         $this->assertEquals("valeurOrigine", $obj->getValeurOrigine());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RgCorrespondances();
+
+        $this->assertNull($obj->getFichiersPublierWeb());
+        $this->assertNull($obj->getIgnorer());
+        $this->assertNull($obj->getNiveau());
+        $this->assertNull($obj->getTypeDonnees());
+        $this->assertNull($obj->getUniqId());
+        $this->assertNull($obj->getValeur());
+        $this->assertNull($obj->getValeurOrigine());
     }
 }

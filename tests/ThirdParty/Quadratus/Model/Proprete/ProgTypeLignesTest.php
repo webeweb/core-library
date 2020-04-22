@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ProgTypeLignes;
 class ProgTypeLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ProgTypeLignes();
-
-        $this->assertNull($obj->getCodeOperation());
-        $this->assertNull($obj->getCoefficient());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumProgramme());
-        $this->assertNull($obj->getVitesseReelle());
-        $this->assertNull($obj->getVitesseTheorique());
-    }
-
-    /**
      * Tests the setCodeOperation() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class ProgTypeLignesTest extends AbstractTestCase {
 
         $obj->setVitesseTheorique(10.092018);
         $this->assertEquals(10.092018, $obj->getVitesseTheorique());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ProgTypeLignes();
+
+        $this->assertNull($obj->getCodeOperation());
+        $this->assertNull($obj->getCoefficient());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumProgramme());
+        $this->assertNull($obj->getVitesseReelle());
+        $this->assertNull($obj->getVitesseTheorique());
     }
 }

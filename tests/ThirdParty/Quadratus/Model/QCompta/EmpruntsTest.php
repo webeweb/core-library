@@ -25,43 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Emprunts;
 class EmpruntsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Emprunts();
-
-        $this->assertNull($obj->getAEchoirEchu());
-        $this->assertNull($obj->getCategorie());
-        $this->assertNull($obj->getCentreAnalytique());
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getCptAssuranceEmprunt());
-        $this->assertNull($obj->getCptEmprunt());
-        $this->assertNull($obj->getCptInteretEmprunt());
-        $this->assertNull($obj->getDateOuverture());
-        $this->assertNull($obj->getDatePremiereEcheance());
-        $this->assertNull($obj->getDiffere());
-        $this->assertNull($obj->getDuree());
-        $this->assertNull($obj->getEmpruntEnFrancs());
-        $this->assertNull($obj->getIdentification());
-        $this->assertNull($obj->getMoisAnnee());
-        $this->assertNull($obj->getMontantAssurance());
-        $this->assertNull($obj->getMontantEmprunte());
-        $this->assertNull($obj->getMtCapitalFixeRemb());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNatureAnalytique());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getNumeroPj());
-        $this->assertNull($obj->getOrganisme());
-        $this->assertNull($obj->getPeriodicite());
-        $this->assertNull($obj->getTauxAssurance());
-        $this->assertNull($obj->getTauxInteret());
-        $this->assertNull($obj->getTypeInFine());
-    }
-
-    /**
      * Tests the setAEchoirEchu() method.
      *
      * @return void
@@ -405,5 +368,42 @@ class EmpruntsTest extends AbstractTestCase {
 
         $obj->setTypeInFine(true);
         $this->assertEquals(true, $obj->getTypeInFine());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Emprunts();
+
+        $this->assertNull($obj->getAEchoirEchu());
+        $this->assertNull($obj->getCategorie());
+        $this->assertNull($obj->getCentreAnalytique());
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getCptAssuranceEmprunt());
+        $this->assertNull($obj->getCptEmprunt());
+        $this->assertNull($obj->getCptInteretEmprunt());
+        $this->assertNull($obj->getDateOuverture());
+        $this->assertNull($obj->getDatePremiereEcheance());
+        $this->assertNull($obj->getDiffere());
+        $this->assertNull($obj->getDuree());
+        $this->assertNull($obj->getEmpruntEnFrancs());
+        $this->assertNull($obj->getIdentification());
+        $this->assertNull($obj->getMoisAnnee());
+        $this->assertNull($obj->getMontantAssurance());
+        $this->assertNull($obj->getMontantEmprunte());
+        $this->assertNull($obj->getMtCapitalFixeRemb());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNatureAnalytique());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getNumeroPj());
+        $this->assertNull($obj->getOrganisme());
+        $this->assertNull($obj->getPeriodicite());
+        $this->assertNull($obj->getTauxAssurance());
+        $this->assertNull($obj->getTauxInteret());
+        $this->assertNull($obj->getTypeInFine());
     }
 }

@@ -23,19 +23,6 @@ use WBW\Library\Core\Transformer\PregReplaceTransformer;
 class PregReplaceTransformerTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PregReplaceTransformer("/pattern/", "replacement");
-
-        $this->assertEquals("/pattern/", $obj->getPattern());
-        $this->assertEquals("replacement", $obj->getReplacement());
-    }
-
-    /**
      * Tests the transform() method.
      *
      * @return void
@@ -47,5 +34,18 @@ class PregReplaceTransformerTest extends AbstractTestCase {
         $this->assertNull($obj->transform(null));
         $this->assertNull($obj->transform(true));
         $this->assertEquals("replacement", $obj->transform("pattern"));
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PregReplaceTransformer("/pattern/", "replacement");
+
+        $this->assertEquals("/pattern/", $obj->getPattern());
+        $this->assertEquals("replacement", $obj->getReplacement());
     }
 }

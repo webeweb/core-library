@@ -23,26 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuPrevoyanceRegroupemen
 class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuPrevoyanceRegroupement();
-
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeOption());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodePopulation());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getRefContrat());
-        $this->assertNull($obj->getTypeCotis());
-        $this->assertNull($obj->getValeurCotis());
-        $this->assertNull($obj->getValeurCotisInitiale());
-    }
-
-    /**
      * Tests the setCodeLibelle() method.
      *
      * @return void
@@ -157,5 +137,25 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
 
         $obj->setValeurCotisInitiale(10.092018);
         $this->assertEquals(10.092018, $obj->getValeurCotisInitiale());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuPrevoyanceRegroupement();
+
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeOption());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodePopulation());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getRefContrat());
+        $this->assertNull($obj->getTypeCotis());
+        $this->assertNull($obj->getValeurCotis());
+        $this->assertNull($obj->getValeurCotisInitiale());
     }
 }

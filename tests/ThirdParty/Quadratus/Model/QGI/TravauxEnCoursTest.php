@@ -25,32 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TravauxEnCours;
 class TravauxEnCoursTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TravauxEnCours();
-
-        $this->assertNull($obj->getCataloguee());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateurDest());
-        $this->assertNull($obj->getCodeCollaborateurEntrant());
-        $this->assertNull($obj->getDateAlerte());
-        $this->assertNull($obj->getDateButoir());
-        $this->assertNull($obj->getDateEntree());
-        $this->assertNull($obj->getDateModif());
-        $this->assertNull($obj->getDemandeur());
-        $this->assertNull($obj->getEnvoiPostIt());
-        $this->assertNull($obj->getIdTravail());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNomClient());
-        $this->assertNull($obj->getPieceJointe());
-        $this->assertNull($obj->getTravailFait());
-    }
-
-    /**
      * Tests the setCataloguee() method.
      *
      * @return void
@@ -259,5 +233,31 @@ class TravauxEnCoursTest extends AbstractTestCase {
 
         $obj->setTravailFait(true);
         $this->assertEquals(true, $obj->getTravailFait());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TravauxEnCours();
+
+        $this->assertNull($obj->getCataloguee());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateurDest());
+        $this->assertNull($obj->getCodeCollaborateurEntrant());
+        $this->assertNull($obj->getDateAlerte());
+        $this->assertNull($obj->getDateButoir());
+        $this->assertNull($obj->getDateEntree());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getDemandeur());
+        $this->assertNull($obj->getEnvoiPostIt());
+        $this->assertNull($obj->getIdTravail());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNomClient());
+        $this->assertNull($obj->getPieceJointe());
+        $this->assertNull($obj->getTravailFait());
     }
 }

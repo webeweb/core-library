@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\TranchesHSup;
 class TranchesHSupTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TranchesHSup();
-
-        $this->assertNull($obj->getNbHeures());
-        $this->assertNull($obj->getTaux());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setNbHeures() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class TranchesHSupTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TranchesHSup();
+
+        $this->assertNull($obj->getNbHeures());
+        $this->assertNull($obj->getTaux());
+        $this->assertNull($obj->getType());
     }
 }

@@ -23,22 +23,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class AngleTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $this->assertEquals("degree", Angle::UNIT_DEGREE);
-        $this->assertEquals("radian", Angle::UNIT_RADIAN);
-
-        $obj = new Angle(180, Angle::UNIT_DEGREE);
-
-        $this->assertEquals(Angle::UNIT_DEGREE, $obj->getUnits());
-        $this->assertEquals(180, $obj->getValue());
-    }
-
-    /**
      * Tests the deg() method.
      *
      * @return void
@@ -99,5 +83,21 @@ class AngleTest extends AbstractTestCase {
 
         $obj->setValue($arg);
         $this->assertEquals($arg, $obj->getValue());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $this->assertEquals("degree", Angle::UNIT_DEGREE);
+        $this->assertEquals("radian", Angle::UNIT_RADIAN);
+
+        $obj = new Angle(180, Angle::UNIT_DEGREE);
+
+        $this->assertEquals(Angle::UNIT_DEGREE, $obj->getUnits());
+        $this->assertEquals(180, $obj->getValue());
     }
 }

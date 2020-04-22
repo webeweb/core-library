@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TranchesHSup;
 class TranchesHSupTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TranchesHSup();
-
-        $this->assertNull($obj->getAComptabiliserRc());
-        $this->assertNull($obj->getAComptabiliserRcit());
-        $this->assertNull($obj->getAppliquerHSup());
-        $this->assertNull($obj->getAppliquerReposRemplace());
-        $this->assertNull($obj->getCodeLibHs());
-        $this->assertNull($obj->getDateApplication());
-        $this->assertNull($obj->getDeclencheRcSemaine());
-        $this->assertNull($obj->getHoraireDepassement());
-        $this->assertNull($obj->getNumeroGrilleType());
-        $this->assertNull($obj->getPourcentHSup());
-        $this->assertNull($obj->getPourcentRc());
-        $this->assertNull($obj->getPourcentReposRemplace());
-        $this->assertNull($obj->getTypePaiement());
-    }
-
-    /**
      * Tests the setAComptabiliserRc() method.
      *
      * @return void
@@ -219,5 +195,29 @@ class TranchesHSupTest extends AbstractTestCase {
 
         $obj->setTypePaiement("typePaiement");
         $this->assertEquals("typePaiement", $obj->getTypePaiement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TranchesHSup();
+
+        $this->assertNull($obj->getAComptabiliserRc());
+        $this->assertNull($obj->getAComptabiliserRcit());
+        $this->assertNull($obj->getAppliquerHSup());
+        $this->assertNull($obj->getAppliquerReposRemplace());
+        $this->assertNull($obj->getCodeLibHs());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getDeclencheRcSemaine());
+        $this->assertNull($obj->getHoraireDepassement());
+        $this->assertNull($obj->getNumeroGrilleType());
+        $this->assertNull($obj->getPourcentHSup());
+        $this->assertNull($obj->getPourcentRc());
+        $this->assertNull($obj->getPourcentReposRemplace());
+        $this->assertNull($obj->getTypePaiement());
     }
 }

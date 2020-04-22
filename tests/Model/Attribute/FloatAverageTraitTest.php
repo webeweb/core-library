@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestFloatAverageTrait;
 class FloatAverageTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestFloatAverageTrait();
-
-        $this->assertNull($obj->getAverage());
-    }
-
-    /**
      * Tests the setAverage() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class FloatAverageTraitTest extends AbstractTestCase {
 
         $obj->setAverage(1.01);
         $this->assertEquals(1.01, $obj->getAverage());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestFloatAverageTrait();
+
+        $this->assertNull($obj->getAverage());
     }
 }

@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Comptes3;
 class Comptes3Test extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Comptes3();
-
-        $this->assertNull($obj->getCodeSection());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getPourcentRepart());
-    }
-
-    /**
      * Tests the setCodeSection() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class Comptes3Test extends AbstractTestCase {
 
         $obj->setPourcentRepart(10.092018);
         $this->assertEquals(10.092018, $obj->getPourcentRepart());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Comptes3();
+
+        $this->assertNull($obj->getCodeSection());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getPourcentRepart());
     }
 }

@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Reglements;
 class ReglementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Reglements();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getIntitule2());
-        $this->assertNull($obj->getIntitule3());
-        $this->assertNull($obj->getTypeAcceptation());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class ReglementsTest extends AbstractTestCase {
 
         $obj->setTypeAcceptation("typeAcceptation");
         $this->assertEquals("typeAcceptation", $obj->getTypeAcceptation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Reglements();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getIntitule2());
+        $this->assertNull($obj->getIntitule3());
+        $this->assertNull($obj->getTypeAcceptation());
     }
 }

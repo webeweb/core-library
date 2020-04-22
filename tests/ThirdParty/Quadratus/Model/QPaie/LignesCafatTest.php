@@ -25,31 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesCafat;
 class LignesCafatTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesCafat();
-
-        $this->assertNull($obj->getCodeCommune());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getDateDebauchage());
-        $this->assertNull($obj->getDateEmbauchage());
-        $this->assertNull($obj->getNbHTrav());
-        $this->assertNull($obj->getNoEt());
-        $this->assertNull($obj->getNomEmploye());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAssure());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getOrganisme());
-        $this->assertNull($obj->getPeriodeDecla());
-        $this->assertNull($obj->getSalaireBrut());
-        $this->assertNull($obj->getTauxAt());
-    }
-
-    /**
      * Tests the setCodeCommune() method.
      *
      * @return void
@@ -241,5 +216,30 @@ class LignesCafatTest extends AbstractTestCase {
 
         $obj->setTauxAt(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxAt());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesCafat();
+
+        $this->assertNull($obj->getCodeCommune());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getDateDebauchage());
+        $this->assertNull($obj->getDateEmbauchage());
+        $this->assertNull($obj->getNbHTrav());
+        $this->assertNull($obj->getNoEt());
+        $this->assertNull($obj->getNomEmploye());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAssure());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getOrganisme());
+        $this->assertNull($obj->getPeriodeDecla());
+        $this->assertNull($obj->getSalaireBrut());
+        $this->assertNull($obj->getTauxAt());
     }
 }

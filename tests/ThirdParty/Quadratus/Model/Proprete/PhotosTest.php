@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Photos;
 class PhotosTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Photos();
-
-        $this->assertNull($obj->getAPublierEspaceClient());
-        $this->assertNull($obj->getAuteur());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getNomFichierId());
-        $this->assertNull($obj->getTypeId());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setAPublierEspaceClient() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class PhotosTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Photos();
+
+        $this->assertNull($obj->getAPublierEspaceClient());
+        $this->assertNull($obj->getAuteur());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getNomFichierId());
+        $this->assertNull($obj->getTypeId());
+        $this->assertNull($obj->getUniqId());
     }
 }

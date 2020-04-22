@@ -25,32 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AffaireParamFrais;
 class AffaireParamFraisTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AffaireParamFrais();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeAvenant());
-        $this->assertNull($obj->getCodeFraisFixe());
-        $this->assertNull($obj->getCodePhase());
-        $this->assertNull($obj->getComptesComptables());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMtFg1());
-        $this->assertNull($obj->getMtFg2());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPourcentage());
-        $this->assertNull($obj->getPrctFg1());
-        $this->assertNull($obj->getPrctFg2());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -247,5 +221,31 @@ class AffaireParamFraisTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AffaireParamFrais();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeAvenant());
+        $this->assertNull($obj->getCodeFraisFixe());
+        $this->assertNull($obj->getCodePhase());
+        $this->assertNull($obj->getComptesComptables());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMtFg1());
+        $this->assertNull($obj->getMtFg2());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPourcentage());
+        $this->assertNull($obj->getPrctFg1());
+        $this->assertNull($obj->getPrctFg2());
+        $this->assertNull($obj->getType());
     }
 }

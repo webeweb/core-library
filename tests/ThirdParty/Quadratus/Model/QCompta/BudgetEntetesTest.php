@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\BudgetEntetes;
 class BudgetEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BudgetEntetes();
-
-        $this->assertNull($obj->getArrondi());
-        $this->assertNull($obj->getCodeBudget());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumColRef());
-        $this->assertNull($obj->getPeriodeDebut());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getRefImage());
-        $this->assertNull($obj->getTypeColRef());
-    }
-
-    /**
      * Tests the setArrondi() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class BudgetEntetesTest extends AbstractTestCase {
 
         $obj->setTypeColRef("typeColRef");
         $this->assertEquals("typeColRef", $obj->getTypeColRef());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BudgetEntetes();
+
+        $this->assertNull($obj->getArrondi());
+        $this->assertNull($obj->getCodeBudget());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumColRef());
+        $this->assertNull($obj->getPeriodeDebut());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getRefImage());
+        $this->assertNull($obj->getTypeColRef());
     }
 }

@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Documents;
 class DocumentsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Documents();
-
-        $this->assertNull($obj->getAnnee());
-        $this->assertNull($obj->getAuteur());
-        $this->assertNull($obj->getChapitre());
-        $this->assertNull($obj->getChrono());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getDateHeureSys());
-        $this->assertNull($obj->getDateModification());
-        $this->assertNull($obj->getIndiceBulletin());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriodeArchivage());
-        $this->assertNull($obj->getPublierWeb());
-    }
-
-    /**
      * Tests the setAnnee() method.
      *
      * @return void
@@ -227,5 +203,29 @@ class DocumentsTest extends AbstractTestCase {
 
         $obj->setPublierWeb(true);
         $this->assertEquals(true, $obj->getPublierWeb());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Documents();
+
+        $this->assertNull($obj->getAnnee());
+        $this->assertNull($obj->getAuteur());
+        $this->assertNull($obj->getChapitre());
+        $this->assertNull($obj->getChrono());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getDateHeureSys());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getIndiceBulletin());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriodeArchivage());
+        $this->assertNull($obj->getPublierWeb());
     }
 }

@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestBooleanDebugTrait;
 class BooleanDebugTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestBooleanDebugTrait();
-
-        $this->assertNull($obj->getDebug());
-    }
-
-    /**
      * Tests the setDebug() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class BooleanDebugTraitTest extends AbstractTestCase {
 
         $obj->setDebug(true);
         $this->assertTrue($obj->getDebug());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestBooleanDebugTrait();
+
+        $this->assertNull($obj->getDebug());
     }
 }

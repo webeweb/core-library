@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ValorisationHoraire;
 class ValorisationHoraireTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ValorisationHoraire();
-
-        $this->assertNull($obj->getCoutHoraire());
-        $this->assertNull($obj->getQualification());
-    }
-
-    /**
      * Tests the setCoutHoraire() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ValorisationHoraireTest extends AbstractTestCase {
 
         $obj->setQualification("qualification");
         $this->assertEquals("qualification", $obj->getQualification());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ValorisationHoraire();
+
+        $this->assertNull($obj->getCoutHoraire());
+        $this->assertNull($obj->getQualification());
     }
 }

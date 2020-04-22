@@ -23,28 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AnnexeSuite;
 class AnnexeSuiteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AnnexeSuite();
-
-        $this->assertNull($obj->getCode1());
-        $this->assertNull($obj->getCode2());
-        $this->assertNull($obj->getCritereLibre1());
-        $this->assertNull($obj->getCritereLibre2());
-        $this->assertNull($obj->getDestRelance());
-        $this->assertNull($obj->getFax());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getPrenom());
-        $this->assertNull($obj->getRemarquesRtf());
-        $this->assertNull($obj->getService());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCode1() method.
      *
      * @return void
@@ -185,5 +163,27 @@ class AnnexeSuiteTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AnnexeSuite();
+
+        $this->assertNull($obj->getCode1());
+        $this->assertNull($obj->getCode2());
+        $this->assertNull($obj->getCritereLibre1());
+        $this->assertNull($obj->getCritereLibre2());
+        $this->assertNull($obj->getDestRelance());
+        $this->assertNull($obj->getFax());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getPrenom());
+        $this->assertNull($obj->getRemarquesRtf());
+        $this->assertNull($obj->getService());
+        $this->assertNull($obj->getType());
     }
 }

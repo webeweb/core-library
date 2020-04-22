@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Centralisateur;
 class CentralisateurTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Centralisateur();
-
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getCreditClasse15());
-        $this->assertNull($obj->getCreditClasse67());
-        $this->assertNull($obj->getCreditClient());
-        $this->assertNull($obj->getCreditFournisseur());
-        $this->assertNull($obj->getDebitClasse15());
-        $this->assertNull($obj->getDebitClasse67());
-        $this->assertNull($obj->getDebitClient());
-        $this->assertNull($obj->getDebitFournisseur());
-        $this->assertNull($obj->getFolio());
-        $this->assertNull($obj->getNbLigneFolio());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getProchaineLigne());
-    }
-
-    /**
      * Tests the setCodeJournal() method.
      *
      * @return void
@@ -219,5 +195,29 @@ class CentralisateurTest extends AbstractTestCase {
 
         $obj->setProchaineLigne(10);
         $this->assertEquals(10, $obj->getProchaineLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Centralisateur();
+
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getCreditClasse15());
+        $this->assertNull($obj->getCreditClasse67());
+        $this->assertNull($obj->getCreditClient());
+        $this->assertNull($obj->getCreditFournisseur());
+        $this->assertNull($obj->getDebitClasse15());
+        $this->assertNull($obj->getDebitClasse67());
+        $this->assertNull($obj->getDebitClient());
+        $this->assertNull($obj->getDebitFournisseur());
+        $this->assertNull($obj->getFolio());
+        $this->assertNull($obj->getNbLigneFolio());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getProchaineLigne());
     }
 }

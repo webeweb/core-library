@@ -23,43 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Organismes;
 class OrganismesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Organismes();
-
-        $this->assertNull($obj->getCentrePayeur());
-        $this->assertNull($obj->getCodeCatCadre());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeNonCadre());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCompteCharge());
-        $this->assertNull($obj->getCompteTiers());
-        $this->assertNull($obj->getCotAssedicParUrssaf());
-        $this->assertNull($obj->getCotitel());
-        $this->assertNull($obj->getDossCadre());
-        $this->assertNull($obj->getDossNonCadre());
-        $this->assertNull($obj->getEditionDucs());
-        $this->assertNull($obj->getGestionPaieDecaleeOc());
-        $this->assertNull($obj->getGroupeInterne());
-        $this->assertNull($obj->getIdIntervenant());
-        $this->assertNull($obj->getJourExigible());
-        $this->assertNull($obj->getJourLimiteDepot());
-        $this->assertNull($obj->getJourReglement());
-        $this->assertNull($obj->getMensTrim());
-        $this->assertNull($obj->getNoAffiliation());
-        $this->assertNull($obj->getOptiqueDucs());
-        $this->assertNull($obj->getPaiementEdiVlu());
-        $this->assertNull($obj->getPasTraiterEdi());
-        $this->assertNull($obj->getRib());
-        $this->assertNull($obj->getTelepaiement());
-    }
-
-    /**
      * Tests the setCentrePayeur() method.
      *
      * @return void
@@ -395,5 +358,42 @@ class OrganismesTest extends AbstractTestCase {
 
         $obj->setTelepaiement(true);
         $this->assertEquals(true, $obj->getTelepaiement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Organismes();
+
+        $this->assertNull($obj->getCentrePayeur());
+        $this->assertNull($obj->getCodeCatCadre());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeNonCadre());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCompteCharge());
+        $this->assertNull($obj->getCompteTiers());
+        $this->assertNull($obj->getCotAssedicParUrssaf());
+        $this->assertNull($obj->getCotitel());
+        $this->assertNull($obj->getDossCadre());
+        $this->assertNull($obj->getDossNonCadre());
+        $this->assertNull($obj->getEditionDucs());
+        $this->assertNull($obj->getGestionPaieDecaleeOc());
+        $this->assertNull($obj->getGroupeInterne());
+        $this->assertNull($obj->getIdIntervenant());
+        $this->assertNull($obj->getJourExigible());
+        $this->assertNull($obj->getJourLimiteDepot());
+        $this->assertNull($obj->getJourReglement());
+        $this->assertNull($obj->getMensTrim());
+        $this->assertNull($obj->getNoAffiliation());
+        $this->assertNull($obj->getOptiqueDucs());
+        $this->assertNull($obj->getPaiementEdiVlu());
+        $this->assertNull($obj->getPasTraiterEdi());
+        $this->assertNull($obj->getRib());
+        $this->assertNull($obj->getTelepaiement());
     }
 }

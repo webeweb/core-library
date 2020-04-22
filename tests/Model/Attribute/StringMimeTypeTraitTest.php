@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringMimeTypeTrait;
 class StringMimeTypeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringMimeTypeTrait();
-
-        $this->assertNull($obj->getMimeType());
-    }
-
-    /**
      * Tests the setMimeType() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringMimeTypeTraitTest extends AbstractTestCase {
 
         $obj->setMimeType("mimeType");
         $this->assertEquals("mimeType", $obj->getMimeType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringMimeTypeTrait();
+
+        $this->assertNull($obj->getMimeType());
     }
 }

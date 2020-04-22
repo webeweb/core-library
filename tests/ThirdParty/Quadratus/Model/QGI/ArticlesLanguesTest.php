@@ -23,25 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ArticlesLangues;
 class ArticlesLanguesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ArticlesLangues();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeLangue());
-        $this->assertNull($obj->getDesignationApres());
-        $this->assertNull($obj->getDesignationAvant());
-        $this->assertNull($obj->getIntitule1());
-        $this->assertNull($obj->getIntitule2());
-        $this->assertNull($obj->getIntitule3());
-        $this->assertNull($obj->getIntitule4());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -143,5 +124,24 @@ class ArticlesLanguesTest extends AbstractTestCase {
 
         $obj->setIntitule4("intitule4");
         $this->assertEquals("intitule4", $obj->getIntitule4());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ArticlesLangues();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeLangue());
+        $this->assertNull($obj->getDesignationApres());
+        $this->assertNull($obj->getDesignationAvant());
+        $this->assertNull($obj->getIntitule1());
+        $this->assertNull($obj->getIntitule2());
+        $this->assertNull($obj->getIntitule3());
+        $this->assertNull($obj->getIntitule4());
     }
 }

@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesIjssPrevoyance;
 class LignesIjssPrevoyanceTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesIjssPrevoyance();
-
-        $this->assertNull($obj->getDateVersement());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-    }
-
-    /**
      * Tests the setDateVersement() method.
      *
      * @return void
@@ -129,5 +112,22 @@ class LignesIjssPrevoyanceTest extends AbstractTestCase {
 
         $obj->setPeriodeFin($periodeFin);
         $this->assertSame($periodeFin, $obj->getPeriodeFin());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesIjssPrevoyance();
+
+        $this->assertNull($obj->getDateVersement());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
     }
 }

@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesLignesEl
 class FichesControlesLignesElementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesControlesLignesElements();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeElement());
-        $this->assertNull($obj->getCoefficient());
-        $this->assertNull($obj->getMiseEnConformite());
-        $this->assertNull($obj->getNiveauNoeud());
-        $this->assertNull($obj->getNote());
-        $this->assertNull($obj->getNumeroFiche());
-        $this->assertNull($obj->getNumeroNoeud());
-        $this->assertNull($obj->getTypeElement());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -191,5 +169,27 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
 
         $obj->setTypeElement("typeElement");
         $this->assertEquals("typeElement", $obj->getTypeElement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesControlesLignesElements();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeElement());
+        $this->assertNull($obj->getCoefficient());
+        $this->assertNull($obj->getMiseEnConformite());
+        $this->assertNull($obj->getNiveauNoeud());
+        $this->assertNull($obj->getNote());
+        $this->assertNull($obj->getNumeroFiche());
+        $this->assertNull($obj->getNumeroNoeud());
+        $this->assertNull($obj->getTypeElement());
     }
 }

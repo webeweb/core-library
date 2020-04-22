@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AgendaJoursFeries;
 class AgendaJoursFeriesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AgendaJoursFeries();
-
-        $this->assertNull($obj->getCalculee());
-        $this->assertNull($obj->getDateFeriee());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCalculee() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AgendaJoursFeries();
+
+        $this->assertNull($obj->getCalculee());
+        $this->assertNull($obj->getDateFeriee());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getType());
     }
 }

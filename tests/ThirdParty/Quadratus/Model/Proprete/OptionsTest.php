@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Options;
 class OptionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Options();
-
-        $this->assertNull($obj->getBooleen());
-        $this->assertNull($obj->getDateHeure());
-        $this->assertNull($obj->getDescriptif());
-        $this->assertNull($obj->getNumerique());
-        $this->assertNull($obj->getString());
-    }
-
-    /**
      * Tests the setBooleen() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class OptionsTest extends AbstractTestCase {
 
         $obj->setString("string");
         $this->assertEquals("string", $obj->getString());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Options();
+
+        $this->assertNull($obj->getBooleen());
+        $this->assertNull($obj->getDateHeure());
+        $this->assertNull($obj->getDescriptif());
+        $this->assertNull($obj->getNumerique());
+        $this->assertNull($obj->getString());
     }
 }

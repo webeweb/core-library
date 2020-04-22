@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringLangTrait;
 class StringLangTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringLangTrait();
-
-        $this->assertNull($obj->getLang());
-    }
-
-    /**
      * Tests the setLang() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringLangTraitTest extends AbstractTestCase {
 
         $obj->setLang("lang");
         $this->assertEquals("lang", $obj->getLang());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringLangTrait();
+
+        $this->assertNull($obj->getLang());
     }
 }

@@ -25,48 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChargesPaie;
 class ChargesPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChargesPaie();
-
-        $this->assertNull($obj->getArbitrage());
-        $this->assertNull($obj->getBrut());
-        $this->assertNull($obj->getBrutAl());
-        $this->assertNull($obj->getBrutAnl());
-        $this->assertNull($obj->getChargesPatronales());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getEuro());
-        $this->assertNull($obj->getHeuresSup());
-        $this->assertNull($obj->getImpos());
-        $this->assertNull($obj->getIndemniteCp());
-        $this->assertNull($obj->getIndemnitePrecarite());
-        $this->assertNull($obj->getInteressement());
-        $this->assertNull($obj->getMtNetPayeTheo());
-        $this->assertNull($obj->getNbHAbs());
-        $this->assertNull($obj->getNbHBase());
-        $this->assertNull($obj->getNbHn());
-        $this->assertNull($obj->getNbHRc());
-        $this->assertNull($obj->getNbHSup1());
-        $this->assertNull($obj->getNbHSup2());
-        $this->assertNull($obj->getNbHSup3());
-        $this->assertNull($obj->getNbHt());
-        $this->assertNull($obj->getParticipation());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getProvisionCp());
-        $this->assertNull($obj->getSBase());
-        $this->assertNull($obj->getSalaire());
-        $this->assertNull($obj->getTotRet());
-        $this->assertNull($obj->getTrA());
-        $this->assertNull($obj->getTrB());
-        $this->assertNull($obj->getTrC());
-        $this->assertNull($obj->getTxHn());
-    }
-
-    /**
      * Tests the setArbitrage() method.
      *
      * @return void
@@ -471,5 +429,47 @@ class ChargesPaieTest extends AbstractTestCase {
 
         $obj->setTxHn(10.092018);
         $this->assertEquals(10.092018, $obj->getTxHn());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChargesPaie();
+
+        $this->assertNull($obj->getArbitrage());
+        $this->assertNull($obj->getBrut());
+        $this->assertNull($obj->getBrutAl());
+        $this->assertNull($obj->getBrutAnl());
+        $this->assertNull($obj->getChargesPatronales());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getEuro());
+        $this->assertNull($obj->getHeuresSup());
+        $this->assertNull($obj->getImpos());
+        $this->assertNull($obj->getIndemniteCp());
+        $this->assertNull($obj->getIndemnitePrecarite());
+        $this->assertNull($obj->getInteressement());
+        $this->assertNull($obj->getMtNetPayeTheo());
+        $this->assertNull($obj->getNbHAbs());
+        $this->assertNull($obj->getNbHBase());
+        $this->assertNull($obj->getNbHn());
+        $this->assertNull($obj->getNbHRc());
+        $this->assertNull($obj->getNbHSup1());
+        $this->assertNull($obj->getNbHSup2());
+        $this->assertNull($obj->getNbHSup3());
+        $this->assertNull($obj->getNbHt());
+        $this->assertNull($obj->getParticipation());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getProvisionCp());
+        $this->assertNull($obj->getSBase());
+        $this->assertNull($obj->getSalaire());
+        $this->assertNull($obj->getTotRet());
+        $this->assertNull($obj->getTrA());
+        $this->assertNull($obj->getTrB());
+        $this->assertNull($obj->getTrC());
+        $this->assertNull($obj->getTxHn());
     }
 }

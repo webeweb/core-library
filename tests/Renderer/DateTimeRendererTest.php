@@ -25,16 +25,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class DateTimeRendererTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $this->assertEquals("Y-m-d H:i", DateTimeRenderer::DATETIME_FORMAT);
-    }
-
-    /**
      * Tests the renderAge() method.
      *
      * @return void
@@ -82,5 +72,15 @@ class DateTimeRendererTest extends AbstractTestCase {
     public function testRenderDateTimeWithoutArguments() {
 
         $this->assertEquals("", DateTimeRenderer::renderDateTime());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $this->assertEquals("Y-m-d H:i", DateTimeRenderer::DATETIME_FORMAT);
     }
 }

@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisChantiers;
 class DevisChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DevisChantiers();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getMajDescriptif());
-        $this->assertNull($obj->getMontantHt());
-        $this->assertNull($obj->getNumDevis());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class DevisChantiersTest extends AbstractTestCase {
 
         $obj->setNumDevis("numDevis");
         $this->assertEquals("numDevis", $obj->getNumDevis());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DevisChantiers();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getMajDescriptif());
+        $this->assertNull($obj->getMontantHt());
+        $this->assertNull($obj->getNumDevis());
     }
 }

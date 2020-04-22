@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AvenantsPrepares;
 class AvenantsPreparesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AvenantsPrepares();
-
-        $this->assertNull($obj->getChrono());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getContinuerVerif());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPrenom());
-        $this->assertNull($obj->getTypeDocument());
-    }
-
-    /**
      * Tests the setChrono() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class AvenantsPreparesTest extends AbstractTestCase {
 
         $obj->setTypeDocument("typeDocument");
         $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AvenantsPrepares();
+
+        $this->assertNull($obj->getChrono());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getContinuerVerif());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPrenom());
+        $this->assertNull($obj->getTypeDocument());
     }
 }

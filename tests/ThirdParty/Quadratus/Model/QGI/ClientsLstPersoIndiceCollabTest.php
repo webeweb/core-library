@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsLstPersoIndiceCollab;
 class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsLstPersoIndiceCollab();
-
-        $this->assertNull($obj->getChapitre());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getOrigine());
-        $this->assertNull($obj->getRefGuid());
-    }
-
-    /**
      * Tests the setChapitre() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
 
         $obj->setRefGuid("refGuid");
         $this->assertEquals("refGuid", $obj->getRefGuid());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsLstPersoIndiceCollab();
+
+        $this->assertNull($obj->getChapitre());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getOrigine());
+        $this->assertNull($obj->getRefGuid());
     }
 }

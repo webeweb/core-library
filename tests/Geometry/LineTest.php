@@ -25,19 +25,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class LineTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Line();
-
-        $this->assertNull($obj->getA());
-        $this->assertNull($obj->getB());
-    }
-
-    /**
      * Tests the d() method.
      *
      * @return void
@@ -159,5 +146,18 @@ class LineTest extends AbstractTestCase {
 
         $obj->setB($point);
         $this->assertSame($point, $obj->getB());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Line();
+
+        $this->assertNull($obj->getA());
+        $this->assertNull($obj->getB());
     }
 }

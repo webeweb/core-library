@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CartesAppelEtebac;
 class CartesAppelEtebacTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CartesAppelEtebac();
-
-        $this->assertNull($obj->getCarteAppel());
-        $this->assertNull($obj->getCodeBanque());
-        $this->assertNull($obj->getIdCarte());
-        $this->assertNull($obj->getLgCarteAppel());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getTypeCarte());
-    }
-
-    /**
      * Tests the setCarteAppel() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class CartesAppelEtebacTest extends AbstractTestCase {
 
         $obj->setTypeCarte("typeCarte");
         $this->assertEquals("typeCarte", $obj->getTypeCarte());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CartesAppelEtebac();
+
+        $this->assertNull($obj->getCarteAppel());
+        $this->assertNull($obj->getCodeBanque());
+        $this->assertNull($obj->getIdCarte());
+        $this->assertNull($obj->getLgCarteAppel());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getTypeCarte());
     }
 }

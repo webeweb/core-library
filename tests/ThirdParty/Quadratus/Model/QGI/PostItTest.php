@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\PostIt;
 class PostItTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PostIt();
-
-        $this->assertNull($obj->getCodeCollDest());
-        $this->assertNull($obj->getCodeCollOrg());
-        $this->assertNull($obj->getDateHeure());
-        $this->assertNull($obj->getDateSysSaisie());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getRefGuid());
-        $this->assertNull($obj->getType());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setCodeCollDest() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class PostItTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PostIt();
+
+        $this->assertNull($obj->getCodeCollDest());
+        $this->assertNull($obj->getCodeCollOrg());
+        $this->assertNull($obj->getDateHeure());
+        $this->assertNull($obj->getDateSysSaisie());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getRefGuid());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getUniqId());
     }
 }

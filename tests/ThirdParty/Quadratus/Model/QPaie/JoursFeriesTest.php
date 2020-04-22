@@ -25,19 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\JoursFeries;
 class JoursFeriesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new JoursFeries();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getJour());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -65,5 +52,18 @@ class JoursFeriesTest extends AbstractTestCase {
 
         $obj->setJour($jour);
         $this->assertSame($jour, $obj->getJour());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new JoursFeries();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getJour());
     }
 }

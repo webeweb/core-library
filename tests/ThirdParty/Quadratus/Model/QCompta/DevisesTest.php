@@ -25,20 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Devises;
 class DevisesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Devises();
-
-        $this->assertNull($obj->getCodeDevise());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getTaux());
-    }
-
-    /**
      * Tests the setCodeDevise() method.
      *
      * @return void
@@ -79,5 +65,19 @@ class DevisesTest extends AbstractTestCase {
 
         $obj->setTaux(10.092018);
         $this->assertEquals(10.092018, $obj->getTaux());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Devises();
+
+        $this->assertNull($obj->getCodeDevise());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getTaux());
     }
 }

@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Dirigeants;
 class DirigeantsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Dirigeants();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeDirigeant());
-        $this->assertNull($obj->getCodeFonction());
-        $this->assertNull($obj->getDateNomination());
-        $this->assertNull($obj->getDuree());
-        $this->assertNull($obj->getId());
-        $this->assertNull($obj->getObservations());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class DirigeantsTest extends AbstractTestCase {
 
         $obj->setObservations("observations");
         $this->assertEquals("observations", $obj->getObservations());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Dirigeants();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeDirigeant());
+        $this->assertNull($obj->getCodeFonction());
+        $this->assertNull($obj->getDateNomination());
+        $this->assertNull($obj->getDuree());
+        $this->assertNull($obj->getId());
+        $this->assertNull($obj->getObservations());
     }
 }

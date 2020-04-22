@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ReglesPublication;
 class ReglesPublicationTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ReglesPublication();
-
-        $this->assertNull($obj->getChainePublication());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getEwsPublication());
-        $this->assertNull($obj->getTypePublication());
-        $this->assertNull($obj->getWebPublication());
-    }
-
-    /**
      * Tests the setChainePublication() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class ReglesPublicationTest extends AbstractTestCase {
 
         $obj->setWebPublication(true);
         $this->assertEquals(true, $obj->getWebPublication());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ReglesPublication();
+
+        $this->assertNull($obj->getChainePublication());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getEwsPublication());
+        $this->assertNull($obj->getTypePublication());
+        $this->assertNull($obj->getWebPublication());
     }
 }

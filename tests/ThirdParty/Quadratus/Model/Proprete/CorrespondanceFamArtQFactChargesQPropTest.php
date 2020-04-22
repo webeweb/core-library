@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CorrespondanceFamArtQFa
 class CorrespondanceFamArtQFactChargesQPropTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CorrespondanceFamArtQFactChargesQProp();
-
-        $this->assertNull($obj->getCodeCharge());
-        $this->assertNull($obj->getCodeFamArt());
-    }
-
-    /**
      * Tests the setCodeCharge() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class CorrespondanceFamArtQFactChargesQPropTest extends AbstractTestCase {
 
         $obj->setCodeFamArt("codeFamArt");
         $this->assertEquals("codeFamArt", $obj->getCodeFamArt());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CorrespondanceFamArtQFactChargesQProp();
+
+        $this->assertNull($obj->getCodeCharge());
+        $this->assertNull($obj->getCodeFamArt());
     }
 }

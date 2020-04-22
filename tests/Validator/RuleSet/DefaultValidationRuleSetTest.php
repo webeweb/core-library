@@ -25,18 +25,6 @@ use WBW\Library\Core\Validator\RuleSet\DefaultValidationRuleSet;
 class DefaultValidationRuleSetTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DefaultValidationRuleSet();
-
-        $this->assertEquals([], $obj->getRules());
-    }
-
-    /**
      * Tests the removeRule() method.
      *
      * @return void
@@ -75,5 +63,17 @@ class DefaultValidationRuleSetTest extends AbstractTestCase {
         $this->assertEquals(500, $res[0]->getCode());
         $this->assertEquals("The argument is not an int", $res[0]->getMessage());
         $this->assertEquals("Test validation rule", $res[0]->getRuleName());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DefaultValidationRuleSet();
+
+        $this->assertEquals([], $obj->getRules());
     }
 }

@@ -25,38 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TmpTable0;
 class TmpTable0Test extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TmpTable0();
-
-        $this->assertNull($obj->getBase());
-        $this->assertNull($obj->getBaseTot());
-        $this->assertNull($obj->getChargePat());
-        $this->assertNull($obj->getChargePatTot());
-        $this->assertNull($obj->getChargeSal());
-        $this->assertNull($obj->getChargeSalTot());
-        $this->assertNull($obj->getClasse());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getEtablissement());
-        $this->assertNull($obj->getImputation());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getInverse());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getQui());
-        $this->assertNull($obj->getService());
-        $this->assertNull($obj->getTauxPat());
-        $this->assertNull($obj->getTauxSal());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setBase() method.
      *
      * @return void
@@ -331,5 +299,37 @@ class TmpTable0Test extends AbstractTestCase {
 
         $obj->setType(10);
         $this->assertEquals(10, $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TmpTable0();
+
+        $this->assertNull($obj->getBase());
+        $this->assertNull($obj->getBaseTot());
+        $this->assertNull($obj->getChargePat());
+        $this->assertNull($obj->getChargePatTot());
+        $this->assertNull($obj->getChargeSal());
+        $this->assertNull($obj->getChargeSalTot());
+        $this->assertNull($obj->getClasse());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getEtablissement());
+        $this->assertNull($obj->getImputation());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getInverse());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getQui());
+        $this->assertNull($obj->getService());
+        $this->assertNull($obj->getTauxPat());
+        $this->assertNull($obj->getTauxSal());
+        $this->assertNull($obj->getType());
     }
 }

@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsFavoris;
 class ClientsFavorisTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsFavoris();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCol());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ClientsFavorisTest extends AbstractTestCase {
 
         $obj->setCodeCol("codeCol");
         $this->assertEquals("codeCol", $obj->getCodeCol());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsFavoris();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCol());
     }
 }

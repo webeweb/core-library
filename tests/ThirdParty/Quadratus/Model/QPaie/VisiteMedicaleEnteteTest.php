@@ -25,41 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\VisiteMedicaleEntete;
 class VisiteMedicaleEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new VisiteMedicaleEntete();
-
-        $this->assertNull($obj->getAdresseMt());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeMedecineTravail());
-        $this->assertNull($obj->getCodePostalMt());
-        $this->assertNull($obj->getDebut1());
-        $this->assertNull($obj->getDebut2());
-        $this->assertNull($obj->getDebutSession());
-        $this->assertNull($obj->getDescription());
-        $this->assertNull($obj->getDureeVisite());
-        $this->assertNull($obj->getFin1());
-        $this->assertNull($obj->getFin2());
-        $this->assertNull($obj->getFinSession());
-        $this->assertNull($obj->getLientDocument());
-        $this->assertNull($obj->getMedecinResponsable());
-        $this->assertNull($obj->getNomMt());
-        $this->assertNull($obj->getRdvJour1());
-        $this->assertNull($obj->getRdvJour2());
-        $this->assertNull($obj->getRdvJour3());
-        $this->assertNull($obj->getRdvJour4());
-        $this->assertNull($obj->getRdvJour5());
-        $this->assertNull($obj->getRdvJour6());
-        $this->assertNull($obj->getRdvJour7());
-        $this->assertNull($obj->getTel1());
-        $this->assertNull($obj->getVilleMt());
-    }
-
-    /**
      * Tests the setAdresseMt() method.
      *
      * @return void
@@ -393,5 +358,40 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
 
         $obj->setVilleMt("villeMt");
         $this->assertEquals("villeMt", $obj->getVilleMt());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new VisiteMedicaleEntete();
+
+        $this->assertNull($obj->getAdresseMt());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeMedecineTravail());
+        $this->assertNull($obj->getCodePostalMt());
+        $this->assertNull($obj->getDebut1());
+        $this->assertNull($obj->getDebut2());
+        $this->assertNull($obj->getDebutSession());
+        $this->assertNull($obj->getDescription());
+        $this->assertNull($obj->getDureeVisite());
+        $this->assertNull($obj->getFin1());
+        $this->assertNull($obj->getFin2());
+        $this->assertNull($obj->getFinSession());
+        $this->assertNull($obj->getLientDocument());
+        $this->assertNull($obj->getMedecinResponsable());
+        $this->assertNull($obj->getNomMt());
+        $this->assertNull($obj->getRdvJour1());
+        $this->assertNull($obj->getRdvJour2());
+        $this->assertNull($obj->getRdvJour3());
+        $this->assertNull($obj->getRdvJour4());
+        $this->assertNull($obj->getRdvJour5());
+        $this->assertNull($obj->getRdvJour6());
+        $this->assertNull($obj->getRdvJour7());
+        $this->assertNull($obj->getTel1());
+        $this->assertNull($obj->getVilleMt());
     }
 }

@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HistoTransfertCpta;
 class HistoTransfertCptaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoTransfertCpta();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getDateEcriture());
-        $this->assertNull($obj->getNumLot());
-        $this->assertNull($obj->getPeriodeTransfert());
-        $this->assertNull($obj->getTypeTransfert());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -125,5 +108,22 @@ class HistoTransfertCptaTest extends AbstractTestCase {
 
         $obj->setTypeTransfert("typeTransfert");
         $this->assertEquals("typeTransfert", $obj->getTypeTransfert());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoTransfertCpta();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getDateEcriture());
+        $this->assertNull($obj->getNumLot());
+        $this->assertNull($obj->getPeriodeTransfert());
+        $this->assertNull($obj->getTypeTransfert());
     }
 }

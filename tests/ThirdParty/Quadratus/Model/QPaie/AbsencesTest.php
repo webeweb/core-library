@@ -25,39 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Absences;
 class AbsencesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Absences();
-
-        $this->assertNull($obj->getAbsJour());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeUser());
-        $this->assertNull($obj->getCongesPayes());
-        $this->assertNull($obj->getDateAdded());
-        $this->assertNull($obj->getDateAddedColl());
-        $this->assertNull($obj->getInBul());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNb30());
-        $this->assertNull($obj->getNbHAbCpCalcule());
-        $this->assertNull($obj->getNbHAbCpSaisi());
-        $this->assertNull($obj->getNbJh());
-        $this->assertNull($obj->getNbJhCalcule());
-        $this->assertNull($obj->getNumEvenement());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriodeBul());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getProlongation());
-        $this->assertNull($obj->getReprise());
-        $this->assertNull($obj->getTypeAbs());
-    }
-
-    /**
      * Tests the setAbsJour() method.
      *
      * @return void
@@ -361,5 +328,38 @@ class AbsencesTest extends AbstractTestCase {
 
         $obj->setTypeAbs("typeAbs");
         $this->assertEquals("typeAbs", $obj->getTypeAbs());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Absences();
+
+        $this->assertNull($obj->getAbsJour());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeUser());
+        $this->assertNull($obj->getCongesPayes());
+        $this->assertNull($obj->getDateAdded());
+        $this->assertNull($obj->getDateAddedColl());
+        $this->assertNull($obj->getInBul());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNb30());
+        $this->assertNull($obj->getNbHAbCpCalcule());
+        $this->assertNull($obj->getNbHAbCpSaisi());
+        $this->assertNull($obj->getNbJh());
+        $this->assertNull($obj->getNbJhCalcule());
+        $this->assertNull($obj->getNumEvenement());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriodeBul());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getProlongation());
+        $this->assertNull($obj->getReprise());
+        $this->assertNull($obj->getTypeAbs());
     }
 }

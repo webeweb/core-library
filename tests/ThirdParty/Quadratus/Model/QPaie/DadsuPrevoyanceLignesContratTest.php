@@ -23,34 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuPrevoyanceLignesContr
 class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuPrevoyanceLignesContrat();
-
-        $this->assertNull($obj->getCodeDelegGestion());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeOption());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodePopulation());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getPeriodeAffectation());
-        $this->assertNull($obj->getQualificationFraisSante());
-        $this->assertNull($obj->getRefContrat());
-        $this->assertNull($obj->getTypeCotis());
-        $this->assertNull($obj->getTypePopulation());
-        $this->assertNull($obj->getUniteDateAncienBranche());
-        $this->assertNull($obj->getUniteDateAncienCollege());
-        $this->assertNull($obj->getUniteDateAncienPoste());
-        $this->assertNull($obj->getUnitePremDateEntree());
-        $this->assertNull($obj->getValeurCotis());
-        $this->assertNull($obj->getValeurCotisInitiale());
-    }
-
-    /**
      * Tests the setCodeDelegGestion() method.
      *
      * @return void
@@ -269,5 +241,33 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
 
         $obj->setValeurCotisInitiale(10.092018);
         $this->assertEquals(10.092018, $obj->getValeurCotisInitiale());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuPrevoyanceLignesContrat();
+
+        $this->assertNull($obj->getCodeDelegGestion());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeOption());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodePopulation());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getPeriodeAffectation());
+        $this->assertNull($obj->getQualificationFraisSante());
+        $this->assertNull($obj->getRefContrat());
+        $this->assertNull($obj->getTypeCotis());
+        $this->assertNull($obj->getTypePopulation());
+        $this->assertNull($obj->getUniteDateAncienBranche());
+        $this->assertNull($obj->getUniteDateAncienCollege());
+        $this->assertNull($obj->getUniteDateAncienPoste());
+        $this->assertNull($obj->getUnitePremDateEntree());
+        $this->assertNull($obj->getValeurCotis());
+        $this->assertNull($obj->getValeurCotisInitiale());
     }
 }

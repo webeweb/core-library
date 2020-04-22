@@ -23,29 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ProvisionsCp;
 class ProvisionsCpTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ProvisionsCp();
-
-        $this->assertNull($obj->getCentre());
-        $this->assertNull($obj->getColPourSalRef());
-        $this->assertNull($obj->getDernierSalaire());
-        $this->assertNull($obj->getMoyenneSalaires());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNomCompletEmp());
-        $this->assertNull($obj->getNumeroEmp());
-        $this->assertNull($obj->getProvisionTotale());
-        $this->assertNull($obj->getSalaireRef());
-        $this->assertNull($obj->getSoldeJoursN());
-        $this->assertNull($obj->getSoldeJoursN1());
-        $this->assertNull($obj->getTxChargesSoc());
-    }
-
-    /**
      * Tests the setCentre() method.
      *
      * @return void
@@ -199,5 +176,28 @@ class ProvisionsCpTest extends AbstractTestCase {
 
         $obj->setTxChargesSoc(10.092018);
         $this->assertEquals(10.092018, $obj->getTxChargesSoc());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ProvisionsCp();
+
+        $this->assertNull($obj->getCentre());
+        $this->assertNull($obj->getColPourSalRef());
+        $this->assertNull($obj->getDernierSalaire());
+        $this->assertNull($obj->getMoyenneSalaires());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNomCompletEmp());
+        $this->assertNull($obj->getNumeroEmp());
+        $this->assertNull($obj->getProvisionTotale());
+        $this->assertNull($obj->getSalaireRef());
+        $this->assertNull($obj->getSoldeJoursN());
+        $this->assertNull($obj->getSoldeJoursN1());
+        $this->assertNull($obj->getTxChargesSoc());
     }
 }

@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\EnvoiSms;
 class EnvoiSmsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EnvoiSms();
-
-        $this->assertNull($obj->getAccesCollaborateur());
-        $this->assertNull($obj->getAccesIntervenants());
-        $this->assertNull($obj->getAccesTotal());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getNbSms());
-    }
-
-    /**
      * Tests the setAccesCollaborateur() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class EnvoiSmsTest extends AbstractTestCase {
 
         $obj->setNbSms(10);
         $this->assertEquals(10, $obj->getNbSms());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EnvoiSms();
+
+        $this->assertNull($obj->getAccesCollaborateur());
+        $this->assertNull($obj->getAccesIntervenants());
+        $this->assertNull($obj->getAccesTotal());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getNbSms());
     }
 }

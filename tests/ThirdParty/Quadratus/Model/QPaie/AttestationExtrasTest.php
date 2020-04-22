@@ -25,43 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\AttestationExtras;
 class AttestationExtrasTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AttestationExtras();
-
-        $this->assertNull($obj->getAncienAssedic());
-        $this->assertNull($obj->getAncienGarp());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeMotifRupture());
-        $this->assertNull($obj->getCodeNaf());
-        $this->assertNull($obj->getEffectif());
-        $this->assertNull($obj->getEmploi());
-        $this->assertNull($obj->getEtblAdresse());
-        $this->assertNull($obj->getEtblRaisonSociale());
-        $this->assertNull($obj->getEtblTel());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getNir());
-        $this->assertNull($obj->getNomEmploye());
-        $this->assertNull($obj->getNomPoleEmploi());
-        $this->assertNull($obj->getNomRegimeRetraite());
-        $this->assertNull($obj->getNumeroAffiliation());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriodeEmploiDeb());
-        $this->assertNull($obj->getPeriodeEmploiFin());
-        $this->assertNull($obj->getPrenom());
-        $this->assertNull($obj->getSiret());
-        $this->assertNull($obj->getSignatureDate());
-        $this->assertNull($obj->getSignatureNom());
-        $this->assertNull($obj->getSignatureQualite());
-        $this->assertNull($obj->getSignatureVille());
-    }
-
-    /**
      * Tests the setAncienAssedic() method.
      *
      * @return void
@@ -409,5 +372,42 @@ class AttestationExtrasTest extends AbstractTestCase {
 
         $obj->setSiret("siret");
         $this->assertEquals("siret", $obj->getSiret());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AttestationExtras();
+
+        $this->assertNull($obj->getAncienAssedic());
+        $this->assertNull($obj->getAncienGarp());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeMotifRupture());
+        $this->assertNull($obj->getCodeNaf());
+        $this->assertNull($obj->getEffectif());
+        $this->assertNull($obj->getEmploi());
+        $this->assertNull($obj->getEtblAdresse());
+        $this->assertNull($obj->getEtblRaisonSociale());
+        $this->assertNull($obj->getEtblTel());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNir());
+        $this->assertNull($obj->getNomEmploye());
+        $this->assertNull($obj->getNomPoleEmploi());
+        $this->assertNull($obj->getNomRegimeRetraite());
+        $this->assertNull($obj->getNumeroAffiliation());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriodeEmploiDeb());
+        $this->assertNull($obj->getPeriodeEmploiFin());
+        $this->assertNull($obj->getPrenom());
+        $this->assertNull($obj->getSiret());
+        $this->assertNull($obj->getSignatureDate());
+        $this->assertNull($obj->getSignatureNom());
+        $this->assertNull($obj->getSignatureQualite());
+        $this->assertNull($obj->getSignatureVille());
     }
 }

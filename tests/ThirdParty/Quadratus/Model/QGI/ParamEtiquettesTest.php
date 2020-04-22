@@ -23,33 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ParamEtiquettes;
 class ParamEtiquettesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ParamEtiquettes();
-
-        $this->assertNull($obj->getAvecCodeBarre());
-        $this->assertNull($obj->getAvecPrixVente());
-        $this->assertNull($obj->getCodeModele());
-        $this->assertNull($obj->getEtiqDeFront());
-        $this->assertNull($obj->getEtiqMasque());
-        $this->assertNull($obj->getEtiqPlus());
-        $this->assertNull($obj->getImprimante());
-        $this->assertNull($obj->getInitChamp());
-        $this->assertNull($obj->getInitTable());
-        $this->assertNull($obj->getInitValeur());
-        $this->assertNull($obj->getLgZone());
-        $this->assertNull($obj->getLibZone());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getQteEnt());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setAvecCodeBarre() method.
      *
      * @return void
@@ -255,5 +228,32 @@ class ParamEtiquettesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ParamEtiquettes();
+
+        $this->assertNull($obj->getAvecCodeBarre());
+        $this->assertNull($obj->getAvecPrixVente());
+        $this->assertNull($obj->getCodeModele());
+        $this->assertNull($obj->getEtiqDeFront());
+        $this->assertNull($obj->getEtiqMasque());
+        $this->assertNull($obj->getEtiqPlus());
+        $this->assertNull($obj->getImprimante());
+        $this->assertNull($obj->getInitChamp());
+        $this->assertNull($obj->getInitTable());
+        $this->assertNull($obj->getInitValeur());
+        $this->assertNull($obj->getLgZone());
+        $this->assertNull($obj->getLibZone());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getQteEnt());
+        $this->assertNull($obj->getType());
     }
 }

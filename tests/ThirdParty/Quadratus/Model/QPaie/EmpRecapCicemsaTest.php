@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpRecapCicemsa;
 class EmpRecapCicemsaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpRecapCicemsa();
-
-        $this->assertNull($obj->getCaisseCp());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeUnite());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNomEmploye());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getRemunAssietteCice());
-        $this->assertNull($obj->getRemunBrutCice());
-        $this->assertNull($obj->getSmicMcice());
-        $this->assertNull($obj->getSortieMois());
-    }
-
-    /**
      * Tests the setCaisseCp() method.
      *
      * @return void
@@ -191,5 +169,27 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
 
         $obj->setSortieMois(true);
         $this->assertEquals(true, $obj->getSortieMois());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpRecapCicemsa();
+
+        $this->assertNull($obj->getCaisseCp());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeUnite());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNomEmploye());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getRemunAssietteCice());
+        $this->assertNull($obj->getRemunBrutCice());
+        $this->assertNull($obj->getSmicMcice());
+        $this->assertNull($obj->getSortieMois());
     }
 }

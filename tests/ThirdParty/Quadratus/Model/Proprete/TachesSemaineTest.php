@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\TachesSemaine;
 class TachesSemaineTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TachesSemaine();
-
-        $this->assertNull($obj->getAutoIncr());
-        $this->assertNull($obj->getCodeSemaineTache());
-        $this->assertNull($obj->getDiscrTache());
-    }
-
-    /**
      * Tests the setAutoIncr() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class TachesSemaineTest extends AbstractTestCase {
 
         $obj->setDiscrTache(10);
         $this->assertEquals(10, $obj->getDiscrTache());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TachesSemaine();
+
+        $this->assertNull($obj->getAutoIncr());
+        $this->assertNull($obj->getCodeSemaineTache());
+        $this->assertNull($obj->getDiscrTache());
     }
 }

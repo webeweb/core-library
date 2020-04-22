@@ -23,26 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArticlesFrn;
 class ArticlesFrnTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ArticlesFrn();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeFournisseur());
-        $this->assertNull($obj->getCommentaires());
-        $this->assertNull($obj->getConditionnement());
-        $this->assertNull($obj->getDelaiLe());
-        $this->assertNull($obj->getDelaiLocal());
-        $this->assertNull($obj->getDelaiNombre());
-        $this->assertNull($obj->getDelaiType());
-        $this->assertNull($obj->getRefArticleFournisseur());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -157,5 +137,25 @@ class ArticlesFrnTest extends AbstractTestCase {
 
         $obj->setRefArticleFournisseur("refArticleFournisseur");
         $this->assertEquals("refArticleFournisseur", $obj->getRefArticleFournisseur());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ArticlesFrn();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeFournisseur());
+        $this->assertNull($obj->getCommentaires());
+        $this->assertNull($obj->getConditionnement());
+        $this->assertNull($obj->getDelaiLe());
+        $this->assertNull($obj->getDelaiLocal());
+        $this->assertNull($obj->getDelaiNombre());
+        $this->assertNull($obj->getDelaiType());
+        $this->assertNull($obj->getRefArticleFournisseur());
     }
 }

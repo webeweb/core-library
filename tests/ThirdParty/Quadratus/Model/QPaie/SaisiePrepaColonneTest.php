@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\SaisiePrepaColonne;
 class SaisiePrepaColonneTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SaisiePrepaColonne();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getIntitCol());
-        $this->assertNull($obj->getLigneAbondement());
-        $this->assertNull($obj->getNumCol());
-        $this->assertNull($obj->getWidth());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class SaisiePrepaColonneTest extends AbstractTestCase {
 
         $obj->setWidth(10);
         $this->assertEquals(10, $obj->getWidth());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SaisiePrepaColonne();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getIntitCol());
+        $this->assertNull($obj->getLigneAbondement());
+        $this->assertNull($obj->getNumCol());
+        $this->assertNull($obj->getWidth());
     }
 }

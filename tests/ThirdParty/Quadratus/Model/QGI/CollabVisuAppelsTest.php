@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CollabVisuAppels;
 class CollabVisuAppelsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CollabVisuAppels();
-
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getCodeCollabVisu());
-        $this->assertNull($obj->getTypeCode());
-    }
-
-    /**
      * Tests the setCodeCollab() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class CollabVisuAppelsTest extends AbstractTestCase {
 
         $obj->setTypeCode("typeCode");
         $this->assertEquals("typeCode", $obj->getTypeCode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CollabVisuAppels();
+
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getCodeCollabVisu());
+        $this->assertNull($obj->getTypeCode());
     }
 }

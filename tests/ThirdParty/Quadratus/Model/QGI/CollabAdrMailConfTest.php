@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CollabAdrMailConf;
 class CollabAdrMailConfTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CollabAdrMailConf();
-
-        $this->assertNull($obj->getAdresseEmail());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getIntitule());
-    }
-
-    /**
      * Tests the setAdresseEmail() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class CollabAdrMailConfTest extends AbstractTestCase {
 
         $obj->setIntitule("intitule");
         $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CollabAdrMailConf();
+
+        $this->assertNull($obj->getAdresseEmail());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getIntitule());
     }
 }

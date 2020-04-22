@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\StatsPersoSuiviClientTetes;
 class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new StatsPersoSuiviClientTetes();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCollCreat());
-        $this->assertNull($obj->getCollModif());
-        $this->assertNull($obj->getDateCreat());
-        $this->assertNull($obj->getDateModif());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLstCollab());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
 
         $obj->setLstCollab("lstCollab");
         $this->assertEquals("lstCollab", $obj->getLstCollab());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new StatsPersoSuiviClientTetes();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCollCreat());
+        $this->assertNull($obj->getCollModif());
+        $this->assertNull($obj->getDateCreat());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLstCollab());
     }
 }

@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CriteresListeEntPieceAc;
 class CriteresListeEntPieceAcTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CriteresListeEntPieceAc();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumLibelle());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class CriteresListeEntPieceAcTest extends AbstractTestCase {
 
         $obj->setNumLibelle("numLibelle");
         $this->assertEquals("numLibelle", $obj->getNumLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CriteresListeEntPieceAc();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumLibelle());
     }
 }

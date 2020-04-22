@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringCountryTrait;
 class StringCountryTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringCountryTrait();
-
-        $this->assertNull($obj->getCountry());
-    }
-
-    /**
      * Tests the setCountry() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringCountryTraitTest extends AbstractTestCase {
 
         $obj->setCountry("country");
         $this->assertEquals("country", $obj->getCountry());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringCountryTrait();
+
+        $this->assertNull($obj->getCountry());
     }
 }

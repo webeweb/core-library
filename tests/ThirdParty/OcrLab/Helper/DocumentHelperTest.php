@@ -46,18 +46,6 @@ class DocumentHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DocumentHelper($this->document);
-
-        $this->assertSame($this->document, $obj->getDocument());
-    }
-
-    /**
      * Tests the findWordAt() method.
      *
      * @return void
@@ -102,5 +90,17 @@ class DocumentHelperTest extends AbstractTestCase {
 
         $this->assertEquals("Hello", $res[0]->getContent());
         $this->assertEquals("World", $res[1]->getContent());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DocumentHelper($this->document);
+
+        $this->assertSame($this->document, $obj->getDocument());
     }
 }

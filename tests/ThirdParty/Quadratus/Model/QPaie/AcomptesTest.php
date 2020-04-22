@@ -25,31 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Acomptes;
 class AcomptesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Acomptes();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeUser());
-        $this->assertNull($obj->getCongesPayes());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getDateAdded());
-        $this->assertNull($obj->getDateAddedColl());
-        $this->assertNull($obj->getEnEuro());
-        $this->assertNull($obj->getInBul());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPaye());
-        $this->assertNull($obj->getTypePaiement());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -241,5 +216,30 @@ class AcomptesTest extends AbstractTestCase {
 
         $obj->setTypePaiement("typePaiement");
         $this->assertEquals("typePaiement", $obj->getTypePaiement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Acomptes();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeUser());
+        $this->assertNull($obj->getCongesPayes());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getDateAdded());
+        $this->assertNull($obj->getDateAddedColl());
+        $this->assertNull($obj->getEnEuro());
+        $this->assertNull($obj->getInBul());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPaye());
+        $this->assertNull($obj->getTypePaiement());
     }
 }

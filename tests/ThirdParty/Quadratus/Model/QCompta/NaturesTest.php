@@ -23,26 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Natures;
 class NaturesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Natures();
-
-        $this->assertNull($obj->getChapitreAffect());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getModeCalculRepart());
-        $this->assertNull($obj->getNatureInactive());
-        $this->assertNull($obj->getOrdreEdition());
-        $this->assertNull($obj->getSuiviAnneeRecolte());
-        $this->assertNull($obj->getSuiviQuantite());
-        $this->assertNull($obj->getTypeNature());
-    }
-
-    /**
      * Tests the setChapitreAffect() method.
      *
      * @return void
@@ -157,5 +137,25 @@ class NaturesTest extends AbstractTestCase {
 
         $obj->setTypeNature("typeNature");
         $this->assertEquals("typeNature", $obj->getTypeNature());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Natures();
+
+        $this->assertNull($obj->getChapitreAffect());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getModeCalculRepart());
+        $this->assertNull($obj->getNatureInactive());
+        $this->assertNull($obj->getOrdreEdition());
+        $this->assertNull($obj->getSuiviAnneeRecolte());
+        $this->assertNull($obj->getSuiviQuantite());
+        $this->assertNull($obj->getTypeNature());
     }
 }

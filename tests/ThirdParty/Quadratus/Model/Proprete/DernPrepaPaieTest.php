@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DernPrepaPaie;
 class DernPrepaPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DernPrepaPaie();
-
-        $this->assertNull($obj->getAlerteRouge());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getDesignation());
-        $this->assertNull($obj->getDtPrepa());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setAlerteRouge() method.
      *
      * @return void
@@ -111,5 +95,21 @@ class DernPrepaPaieTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DernPrepaPaie();
+
+        $this->assertNull($obj->getAlerteRouge());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getDtPrepa());
+        $this->assertNull($obj->getPeriode());
     }
 }

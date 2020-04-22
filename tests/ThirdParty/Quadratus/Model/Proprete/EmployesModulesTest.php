@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\EmployesModules;
 class EmployesModulesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmployesModules();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getDebutModulation());
-        $this->assertNull($obj->getEcartCumuleInit());
-        $this->assertNull($obj->getFinModulation());
-        $this->assertNull($obj->getPeriodeEcartCumule());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -115,5 +99,21 @@ class EmployesModulesTest extends AbstractTestCase {
 
         $obj->setPeriodeEcartCumule($periodeEcartCumule);
         $this->assertSame($periodeEcartCumule, $obj->getPeriodeEcartCumule());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmployesModules();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDebutModulation());
+        $this->assertNull($obj->getEcartCumuleInit());
+        $this->assertNull($obj->getFinModulation());
+        $this->assertNull($obj->getPeriodeEcartCumule());
     }
 }

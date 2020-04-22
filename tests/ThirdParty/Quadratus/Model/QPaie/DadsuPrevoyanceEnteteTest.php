@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuPrevoyanceEntete;
 class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuPrevoyanceEntete();
-
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodePeriodicite());
-        $this->assertNull($obj->getDateApplication());
-        $this->assertNull($obj->getDateEmission());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getMailContact());
-        $this->assertNull($obj->getMoisAnniv());
-        $this->assertNull($obj->getNomContact());
-        $this->assertNull($obj->getTelContact());
-    }
-
-    /**
      * Tests the setCodeOrganisme() method.
      *
      * @return void
@@ -167,5 +147,25 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
 
         $obj->setTelContact("telContact");
         $this->assertEquals("telContact", $obj->getTelContact());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuPrevoyanceEntete();
+
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodePeriodicite());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getDateEmission());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMailContact());
+        $this->assertNull($obj->getMoisAnniv());
+        $this->assertNull($obj->getNomContact());
+        $this->assertNull($obj->getTelContact());
     }
 }

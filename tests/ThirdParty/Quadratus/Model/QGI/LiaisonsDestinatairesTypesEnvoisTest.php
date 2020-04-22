@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LiaisonsDestinatairesTypesEn
 class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LiaisonsDestinatairesTypesEnvois();
-
-        $this->assertNull($obj->getCodeDestinataire());
-        $this->assertNull($obj->getCodeTypeEnvoi());
-    }
-
-    /**
      * Tests the setCodeDestinataire() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
 
         $obj->setCodeTypeEnvoi("codeTypeEnvoi");
         $this->assertEquals("codeTypeEnvoi", $obj->getCodeTypeEnvoi());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LiaisonsDestinatairesTypesEnvois();
+
+        $this->assertNull($obj->getCodeDestinataire());
+        $this->assertNull($obj->getCodeTypeEnvoi());
     }
 }

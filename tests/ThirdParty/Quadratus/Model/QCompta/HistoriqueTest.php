@@ -25,36 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Historique;
 class HistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Historique();
-
-        $this->assertNull($obj->getAlpha());
-        $this->assertNull($obj->getAnN());
-        $this->assertNull($obj->getAnN1());
-        $this->assertNull($obj->getAnN2());
-        $this->assertNull($obj->getBudget1());
-        $this->assertNull($obj->getBudget2());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getFlgAnN());
-        $this->assertNull($obj->getFlgAnN1());
-        $this->assertNull($obj->getFlgAnN2());
-        $this->assertNull($obj->getFlgBudget1());
-        $this->assertNull($obj->getFlgBudget2());
-        $this->assertNull($obj->getFmtDec());
-        $this->assertNull($obj->getFmtInt());
-        $this->assertNull($obj->getMemo());
-        $this->assertNull($obj->getNoConvEuro());
-        $this->assertNull($obj->getRegle());
-        $this->assertNull($obj->getRub());
-        $this->assertNull($obj->getTypeZone());
-    }
-
-    /**
      * Tests the setAlpha() method.
      *
      * @return void
@@ -303,5 +273,35 @@ class HistoriqueTest extends AbstractTestCase {
 
         $obj->setTypeZone("typeZone");
         $this->assertEquals("typeZone", $obj->getTypeZone());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Historique();
+
+        $this->assertNull($obj->getAlpha());
+        $this->assertNull($obj->getAnN());
+        $this->assertNull($obj->getAnN1());
+        $this->assertNull($obj->getAnN2());
+        $this->assertNull($obj->getBudget1());
+        $this->assertNull($obj->getBudget2());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getFlgAnN());
+        $this->assertNull($obj->getFlgAnN1());
+        $this->assertNull($obj->getFlgAnN2());
+        $this->assertNull($obj->getFlgBudget1());
+        $this->assertNull($obj->getFlgBudget2());
+        $this->assertNull($obj->getFmtDec());
+        $this->assertNull($obj->getFmtInt());
+        $this->assertNull($obj->getMemo());
+        $this->assertNull($obj->getNoConvEuro());
+        $this->assertNull($obj->getRegle());
+        $this->assertNull($obj->getRub());
+        $this->assertNull($obj->getTypeZone());
     }
 }

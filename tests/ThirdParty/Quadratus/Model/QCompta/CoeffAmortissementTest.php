@@ -25,20 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\CoeffAmortissement;
 class CoeffAmortissementTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CoeffAmortissement();
-
-        $this->assertNull($obj->getCoeff());
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getDuree());
-    }
-
-    /**
      * Tests the setCoeff() method.
      *
      * @return void
@@ -79,5 +65,19 @@ class CoeffAmortissementTest extends AbstractTestCase {
 
         $obj->setDuree(10);
         $this->assertEquals(10, $obj->getDuree());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CoeffAmortissement();
+
+        $this->assertNull($obj->getCoeff());
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getDuree());
     }
 }

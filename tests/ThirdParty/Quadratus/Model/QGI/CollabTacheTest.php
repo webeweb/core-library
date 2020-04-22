@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CollabTache;
 class CollabTacheTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CollabTache();
-
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getPv1());
-        $this->assertNull($obj->getPv2());
-        $this->assertNull($obj->getPv3());
-    }
-
-    /**
      * Tests the setCodeCollab() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class CollabTacheTest extends AbstractTestCase {
 
         $obj->setPv3(10.092018);
         $this->assertEquals(10.092018, $obj->getPv3());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CollabTache();
+
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getPv1());
+        $this->assertNull($obj->getPv2());
+        $this->assertNull($obj->getPv3());
     }
 }

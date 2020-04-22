@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ObligationsPointees;
 class ObligationsPointeesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ObligationsPointees();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeObligation());
-        $this->assertNull($obj->getDateEffet());
-        $this->assertNull($obj->getLe());
-        $this->assertNull($obj->getPar());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -111,5 +95,21 @@ class ObligationsPointeesTest extends AbstractTestCase {
 
         $obj->setPar("par");
         $this->assertEquals("par", $obj->getPar());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ObligationsPointees();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeObligation());
+        $this->assertNull($obj->getDateEffet());
+        $this->assertNull($obj->getLe());
+        $this->assertNull($obj->getPar());
     }
 }

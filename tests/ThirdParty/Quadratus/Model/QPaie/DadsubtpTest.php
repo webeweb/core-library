@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Dadsubtp;
 class DadsubtpTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Dadsubtp();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodeTempsArret());
-        $this->assertNull($obj->getDebutPeriode());
-        $this->assertNull($obj->getFinPeriode());
-        $this->assertNull($obj->getMontantEmployeur());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getNumeroOrdre());
-        $this->assertNull($obj->getQualifUniteTemps());
-        $this->assertNull($obj->getTempsArret());
-        $this->assertNull($obj->getTypeArret());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -195,5 +173,27 @@ class DadsubtpTest extends AbstractTestCase {
 
         $obj->setTypeArret("typeArret");
         $this->assertEquals("typeArret", $obj->getTypeArret());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Dadsubtp();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodeTempsArret());
+        $this->assertNull($obj->getDebutPeriode());
+        $this->assertNull($obj->getFinPeriode());
+        $this->assertNull($obj->getMontantEmployeur());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getNumeroOrdre());
+        $this->assertNull($obj->getQualifUniteTemps());
+        $this->assertNull($obj->getTempsArret());
+        $this->assertNull($obj->getTypeArret());
     }
 }

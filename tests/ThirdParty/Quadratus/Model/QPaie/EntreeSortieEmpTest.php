@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EntreeSortieEmp;
 class EntreeSortieEmpTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EntreeSortieEmp();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeMotifRupture());
-        $this->assertNull($obj->getDateEs());
-        $this->assertNull($obj->getDateFinPeriodeEssai());
-        $this->assertNull($obj->getDateModification());
-        $this->assertNull($obj->getDateNotification());
-        $this->assertNull($obj->getDateRenouvCdd1());
-        $this->assertNull($obj->getDateRenouvCdd2());
-        $this->assertNull($obj->getEntrepriseTravailTemp());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getTransfertEs());
-        $this->assertNull($obj->getTravailTemp());
-        $this->assertNull($obj->getTypeEs());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -239,5 +215,29 @@ class EntreeSortieEmpTest extends AbstractTestCase {
 
         $obj->setTypeEs("typeEs");
         $this->assertEquals("typeEs", $obj->getTypeEs());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EntreeSortieEmp();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeMotifRupture());
+        $this->assertNull($obj->getDateEs());
+        $this->assertNull($obj->getDateFinPeriodeEssai());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getDateNotification());
+        $this->assertNull($obj->getDateRenouvCdd1());
+        $this->assertNull($obj->getDateRenouvCdd2());
+        $this->assertNull($obj->getEntrepriseTravailTemp());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTransfertEs());
+        $this->assertNull($obj->getTravailTemp());
+        $this->assertNull($obj->getTypeEs());
     }
 }

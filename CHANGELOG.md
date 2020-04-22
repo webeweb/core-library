@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [6.5.0](https://github.com/webeweb/core-library/tree/v6.5.0) (2020-04-21)
 
 - Add boolean Debug trait
 - Add string Email trait

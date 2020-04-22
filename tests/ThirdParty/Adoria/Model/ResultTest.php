@@ -24,22 +24,6 @@ use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
 class ResultTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Result();
-
-        $this->assertEquals([], $obj->getData());
-        $this->assertEquals([], $obj->getErrors());
-        $this->assertFalse($obj->hasData());
-        $this->assertFalse($obj->hasError());
-        $this->assertNull($obj->getReturnCode());
-    }
-
-    /**
      * Tests the hasData() method.
      *
      * @return void
@@ -108,5 +92,21 @@ class ResultTest extends AbstractTestCase {
 
         $obj->setReturnCode(1);
         $this->assertEquals(1, $obj->getReturnCode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Result();
+
+        $this->assertEquals([], $obj->getData());
+        $this->assertEquals([], $obj->getErrors());
+        $this->assertFalse($obj->hasData());
+        $this->assertFalse($obj->hasError());
+        $this->assertNull($obj->getReturnCode());
     }
 }

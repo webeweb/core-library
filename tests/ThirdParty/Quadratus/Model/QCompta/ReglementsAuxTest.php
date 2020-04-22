@@ -25,39 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ReglementsAux;
 class ReglementsAuxTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ReglementsAux();
-
-        $this->assertNull($obj->getActif());
-        $this->assertNull($obj->getAutreDomBanque());
-        $this->assertNull($obj->getAutreRib());
-        $this->assertNull($obj->getCodeJournalBanque());
-        $this->assertNull($obj->getCodeModePaiement());
-        $this->assertNull($obj->getDans1Groupe());
-        $this->assertNull($obj->getDateEcheance());
-        $this->assertNull($obj->getMontantGroupe());
-        $this->assertNull($obj->getMontantSaisiCredit());
-        $this->assertNull($obj->getMontantSaisiDebit());
-        $this->assertNull($obj->getMontantTenuCredit());
-        $this->assertNull($obj->getMontantTenuDebit());
-        $this->assertNull($obj->getNoRib());
-        $this->assertNull($obj->getNumGroupe());
-        $this->assertNull($obj->getNumLotLcr());
-        $this->assertNull($obj->getNumLotLettreP());
-        $this->assertNull($obj->getNumLotTraite());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getNumUniqEcriture());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getReferenceTire());
-        $this->assertNull($obj->getTypeReglement());
-    }
-
-    /**
      * Tests the setActif() method.
      *
      * @return void
@@ -345,5 +312,38 @@ class ReglementsAuxTest extends AbstractTestCase {
 
         $obj->setTypeReglement("typeReglement");
         $this->assertEquals("typeReglement", $obj->getTypeReglement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ReglementsAux();
+
+        $this->assertNull($obj->getActif());
+        $this->assertNull($obj->getAutreDomBanque());
+        $this->assertNull($obj->getAutreRib());
+        $this->assertNull($obj->getCodeJournalBanque());
+        $this->assertNull($obj->getCodeModePaiement());
+        $this->assertNull($obj->getDans1Groupe());
+        $this->assertNull($obj->getDateEcheance());
+        $this->assertNull($obj->getMontantGroupe());
+        $this->assertNull($obj->getMontantSaisiCredit());
+        $this->assertNull($obj->getMontantSaisiDebit());
+        $this->assertNull($obj->getMontantTenuCredit());
+        $this->assertNull($obj->getMontantTenuDebit());
+        $this->assertNull($obj->getNoRib());
+        $this->assertNull($obj->getNumGroupe());
+        $this->assertNull($obj->getNumLotLcr());
+        $this->assertNull($obj->getNumLotLettreP());
+        $this->assertNull($obj->getNumLotTraite());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getNumUniqEcriture());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getReferenceTire());
+        $this->assertNull($obj->getTypeReglement());
     }
 }

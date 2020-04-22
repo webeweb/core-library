@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArticlesPrevention;
 class ArticlesPreventionTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ArticlesPrevention();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodePrev());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ArticlesPreventionTest extends AbstractTestCase {
 
         $obj->setCodePrev("codePrev");
         $this->assertEquals("codePrev", $obj->getCodePrev());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ArticlesPrevention();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodePrev());
     }
 }

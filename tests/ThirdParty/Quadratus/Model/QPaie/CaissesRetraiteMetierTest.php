@@ -23,36 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\CaissesRetraiteMetier;
 class CaissesRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CaissesRetraiteMetier();
-
-        $this->assertNull($obj->getCategSalarie());
-        $this->assertNull($obj->getCategSalarieEquiv());
-        $this->assertNull($obj->getCodeActivite());
-        $this->assertNull($obj->getCodeMetier());
-        $this->assertNull($obj->getCodeOrganismeAgirc());
-        $this->assertNull($obj->getCodeOrganismeArrco());
-        $this->assertNull($obj->getCodeOrganismeCcca());
-        $this->assertNull($obj->getCodeOrganismeFraisSante());
-        $this->assertNull($obj->getCodeOrganismePrev());
-        $this->assertNull($obj->getCodeOrganismePrevComp());
-        $this->assertNull($obj->getIdInstitutionAgirc());
-        $this->assertNull($obj->getIdInstitutionArrco());
-        $this->assertNull($obj->getIdInstitutionCcca());
-        $this->assertNull($obj->getIdInstitutionFraisSante());
-        $this->assertNull($obj->getIdInstitutionPrev());
-        $this->assertNull($obj->getIdInstitutionPrevComp());
-        $this->assertNull($obj->getIndiceCateg());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getPasActive());
-    }
-
-    /**
      * Tests the setCategSalarie() method.
      *
      * @return void
@@ -297,5 +267,35 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
 
         $obj->setPasActive(true);
         $this->assertEquals(true, $obj->getPasActive());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CaissesRetraiteMetier();
+
+        $this->assertNull($obj->getCategSalarie());
+        $this->assertNull($obj->getCategSalarieEquiv());
+        $this->assertNull($obj->getCodeActivite());
+        $this->assertNull($obj->getCodeMetier());
+        $this->assertNull($obj->getCodeOrganismeAgirc());
+        $this->assertNull($obj->getCodeOrganismeArrco());
+        $this->assertNull($obj->getCodeOrganismeCcca());
+        $this->assertNull($obj->getCodeOrganismeFraisSante());
+        $this->assertNull($obj->getCodeOrganismePrev());
+        $this->assertNull($obj->getCodeOrganismePrevComp());
+        $this->assertNull($obj->getIdInstitutionAgirc());
+        $this->assertNull($obj->getIdInstitutionArrco());
+        $this->assertNull($obj->getIdInstitutionCcca());
+        $this->assertNull($obj->getIdInstitutionFraisSante());
+        $this->assertNull($obj->getIdInstitutionPrev());
+        $this->assertNull($obj->getIdInstitutionPrevComp());
+        $this->assertNull($obj->getIndiceCateg());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getPasActive());
     }
 }

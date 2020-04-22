@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Previsionnel;
 class PrevisionnelTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Previsionnel();
-
-        $this->assertNull($obj->getAnnee());
-        $this->assertNull($obj->getDateApplication());
-        $this->assertNull($obj->getDebutSemaine());
-        $this->assertNull($obj->getHorairePrevu());
-        $this->assertNull($obj->getNumeroGrilleType());
-        $this->assertNull($obj->getNumeroSemaine());
-    }
-
-    /**
      * Tests the setAnnee() method.
      *
      * @return void
@@ -125,5 +108,22 @@ class PrevisionnelTest extends AbstractTestCase {
 
         $obj->setNumeroSemaine("numeroSemaine");
         $this->assertEquals("numeroSemaine", $obj->getNumeroSemaine());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Previsionnel();
+
+        $this->assertNull($obj->getAnnee());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getDebutSemaine());
+        $this->assertNull($obj->getHorairePrevu());
+        $this->assertNull($obj->getNumeroGrilleType());
+        $this->assertNull($obj->getNumeroSemaine());
     }
 }

@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HistoPaieType2;
 class HistoPaieType2Test extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoPaieType2();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodePrime());
-        $this->assertNull($obj->getNbHeures());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getTauxMajoration());
-        $this->assertNull($obj->getTypeDnjf());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class HistoPaieType2Test extends AbstractTestCase {
 
         $obj->setTypeDnjf("typeDnjf");
         $this->assertEquals("typeDnjf", $obj->getTypeDnjf());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoPaieType2();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodePrime());
+        $this->assertNull($obj->getNbHeures());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTauxMajoration());
+        $this->assertNull($obj->getTypeDnjf());
     }
 }

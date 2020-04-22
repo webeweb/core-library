@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Langues;
 class LanguesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Langues();
-
-        $this->assertNull($obj->getCodeLangue());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumeroCompte());
-    }
-
-    /**
      * Tests the setCodeLangue() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class LanguesTest extends AbstractTestCase {
 
         $obj->setNumeroCompte("numeroCompte");
         $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Langues();
+
+        $this->assertNull($obj->getCodeLangue());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumeroCompte());
     }
 }

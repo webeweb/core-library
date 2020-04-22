@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsSelectionSuite;
 class ClientsSelectionSuiteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsSelectionSuite();
-
-        $this->assertNull($obj->getCocheClient());
-        $this->assertNull($obj->getCocheFournisseur());
-        $this->assertNull($obj->getCocheIntervenant());
-        $this->assertNull($obj->getCocheProspect());
-        $this->assertNull($obj->getCocheSorti());
-        $this->assertNull($obj->getCodeCol());
-        $this->assertNull($obj->getLibelle());
-    }
-
-    /**
      * Tests the setCocheClient() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
 
         $obj->setLibelle("libelle");
         $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsSelectionSuite();
+
+        $this->assertNull($obj->getCocheClient());
+        $this->assertNull($obj->getCocheFournisseur());
+        $this->assertNull($obj->getCocheIntervenant());
+        $this->assertNull($obj->getCocheProspect());
+        $this->assertNull($obj->getCocheSorti());
+        $this->assertNull($obj->getCodeCol());
+        $this->assertNull($obj->getLibelle());
     }
 }

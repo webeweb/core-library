@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Profils;
 class ProfilsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Profils();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getIntitule());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ProfilsTest extends AbstractTestCase {
 
         $obj->setIntitule("intitule");
         $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Profils();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getIntitule());
     }
 }

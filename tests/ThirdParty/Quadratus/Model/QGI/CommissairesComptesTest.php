@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CommissairesComptes;
 class CommissairesComptesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CommissairesComptes();
-
-        $this->assertNull($obj->getCodeCac());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getDateNomination());
-        $this->assertNull($obj->getDureeMandat());
-        $this->assertNull($obj->getObservations());
-        $this->assertNull($obj->getPosition());
-        $this->assertNull($obj->getTitulaire());
-    }
-
-    /**
      * Tests the setCodeCac() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class CommissairesComptesTest extends AbstractTestCase {
 
         $obj->setTitulaire(true);
         $this->assertEquals(true, $obj->getTitulaire());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CommissairesComptes();
+
+        $this->assertNull($obj->getCodeCac());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDateNomination());
+        $this->assertNull($obj->getDureeMandat());
+        $this->assertNull($obj->getObservations());
+        $this->assertNull($obj->getPosition());
+        $this->assertNull($obj->getTitulaire());
     }
 }

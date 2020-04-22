@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\GroupeLignes;
 class GroupeLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new GroupeLignes();
-
-        $this->assertNull($obj->getCodeElement());
-        $this->assertNull($obj->getGroupe());
-        $this->assertNull($obj->getOrdre());
-        $this->assertNull($obj->getTypeElement());
-    }
-
-    /**
      * Tests the setCodeElement() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class GroupeLignesTest extends AbstractTestCase {
 
         $obj->setTypeElement("typeElement");
         $this->assertEquals("typeElement", $obj->getTypeElement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new GroupeLignes();
+
+        $this->assertNull($obj->getCodeElement());
+        $this->assertNull($obj->getGroupe());
+        $this->assertNull($obj->getOrdre());
+        $this->assertNull($obj->getTypeElement());
     }
 }

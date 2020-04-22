@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\CleRepartitionLignes;
 class CleRepartitionLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CleRepartitionLignes();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getValeur());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class CleRepartitionLignesTest extends AbstractTestCase {
 
         $obj->setValeur(10.092018);
         $this->assertEquals(10.092018, $obj->getValeur());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CleRepartitionLignes();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getValeur());
     }
 }

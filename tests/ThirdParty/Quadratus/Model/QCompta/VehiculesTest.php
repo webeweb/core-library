@@ -25,31 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Vehicules;
 class VehiculesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Vehicules();
-
-        $this->assertNull($obj->getCategorie());
-        $this->assertNull($obj->getDateCession());
-        $this->assertNull($obj->getDateImmat());
-        $this->assertNull($obj->getDatePmec());
-        $this->assertNull($obj->getGuid());
-        $this->assertNull($obj->getHybride());
-        $this->assertNull($obj->getImmatriculation());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLienCompta());
-        $this->assertNull($obj->getNonPolluant());
-        $this->assertNull($obj->getPuissanceCv());
-        $this->assertNull($obj->getSuperCarbu());
-        $this->assertNull($obj->getTauxEmissionCo2());
-        $this->assertNull($obj->getUsageAgricole());
-    }
-
-    /**
      * Tests the setCategorie() method.
      *
      * @return void
@@ -241,5 +216,30 @@ class VehiculesTest extends AbstractTestCase {
 
         $obj->setUsageAgricole(true);
         $this->assertEquals(true, $obj->getUsageAgricole());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Vehicules();
+
+        $this->assertNull($obj->getCategorie());
+        $this->assertNull($obj->getDateCession());
+        $this->assertNull($obj->getDateImmat());
+        $this->assertNull($obj->getDatePmec());
+        $this->assertNull($obj->getGuid());
+        $this->assertNull($obj->getHybride());
+        $this->assertNull($obj->getImmatriculation());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLienCompta());
+        $this->assertNull($obj->getNonPolluant());
+        $this->assertNull($obj->getPuissanceCv());
+        $this->assertNull($obj->getSuperCarbu());
+        $this->assertNull($obj->getTauxEmissionCo2());
+        $this->assertNull($obj->getUsageAgricole());
     }
 }

@@ -96,24 +96,6 @@ class CurlPostRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function test__construct() {
-
-        $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
-
-        $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
-        $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(CurlPostRequest::HTTP_METHOD_POST, $obj->getMethod());
-        $this->assertEquals([], $obj->getPostData());
-        $this->assertEquals([], $obj->getQueryData());
-        $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());
-    }
-
-    /**
      * Tests removePostData() method.
      *
      * @return void
@@ -131,5 +113,23 @@ class CurlPostRequestTest extends AbstractTestCase {
 
         $obj->removePostData("name");
         $this->assertCount(0, $obj->getPostData());
+    }
+
+    /**
+     * Tests __construct() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function test__construct() {
+
+        $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
+
+        $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
+        $this->assertEquals([], $obj->getHeaders());
+        $this->assertEquals(CurlPostRequest::HTTP_METHOD_POST, $obj->getMethod());
+        $this->assertEquals([], $obj->getPostData());
+        $this->assertEquals([], $obj->getQueryData());
+        $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());
     }
 }

@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\EcrituresRapproBancaire;
 class EcrituresRapproBancaireTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EcrituresRapproBancaire();
-
-        $this->assertNull($obj->getCodeDevise());
-        $this->assertNull($obj->getDateRapproBancaire());
-        $this->assertNull($obj->getJourEcriture());
-        $this->assertNull($obj->getJrnRapproBancaire());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontantSaisiCredit());
-        $this->assertNull($obj->getMontantSaisiDebit());
-        $this->assertNull($obj->getMontantTenuCredit());
-        $this->assertNull($obj->getMontantTenuDebit());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getNumeroPiece());
-        $this->assertNull($obj->getPeriodeEcriture());
-        $this->assertNull($obj->getRapproBancaireOk());
-    }
-
-    /**
      * Tests the setCodeDevise() method.
      *
      * @return void
@@ -223,5 +199,29 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
 
         $obj->setRapproBancaireOk(true);
         $this->assertEquals(true, $obj->getRapproBancaireOk());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EcrituresRapproBancaire();
+
+        $this->assertNull($obj->getCodeDevise());
+        $this->assertNull($obj->getDateRapproBancaire());
+        $this->assertNull($obj->getJourEcriture());
+        $this->assertNull($obj->getJrnRapproBancaire());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontantSaisiCredit());
+        $this->assertNull($obj->getMontantSaisiDebit());
+        $this->assertNull($obj->getMontantTenuCredit());
+        $this->assertNull($obj->getMontantTenuDebit());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getNumeroPiece());
+        $this->assertNull($obj->getPeriodeEcriture());
+        $this->assertNull($obj->getRapproBancaireOk());
     }
 }

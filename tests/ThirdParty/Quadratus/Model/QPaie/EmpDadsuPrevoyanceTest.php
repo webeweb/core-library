@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpDadsuPrevoyance;
 class EmpDadsuPrevoyanceTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpDadsuPrevoyance();
-
-        $this->assertNull($obj->getCodeAffilSecu());
-        $this->assertNull($obj->getDateAncienBranche());
-        $this->assertNull($obj->getDateAncienCollege());
-        $this->assertNull($obj->getDateAncienPoste());
-        $this->assertNull($obj->getNbEnfants());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPremDateEntree());
-        $this->assertNull($obj->getRangNaissance());
-    }
-
-    /**
      * Tests the setCodeAffilSecu() method.
      *
      * @return void
@@ -161,5 +142,24 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
 
         $obj->setRangNaissance("rangNaissance");
         $this->assertEquals("rangNaissance", $obj->getRangNaissance());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpDadsuPrevoyance();
+
+        $this->assertNull($obj->getCodeAffilSecu());
+        $this->assertNull($obj->getDateAncienBranche());
+        $this->assertNull($obj->getDateAncienCollege());
+        $this->assertNull($obj->getDateAncienPoste());
+        $this->assertNull($obj->getNbEnfants());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPremDateEntree());
+        $this->assertNull($obj->getRangNaissance());
     }
 }

@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Alertes;
 class AlertesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Alertes();
-
-        $this->assertNull($obj->getCloturee());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCloturee() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class AlertesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Alertes();
+
+        $this->assertNull($obj->getCloturee());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getType());
     }
 }

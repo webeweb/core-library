@@ -23,32 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Confidentialite;
 class ConfidentialiteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Confidentialite();
-
-        $this->assertNull($obj->getActivationLstRestriArt());
-        $this->assertNull($obj->getActivationLstRestriCli());
-        $this->assertNull($obj->getActivationLstRestriFrn());
-        $this->assertNull($obj->getActiveConfMenusQb());
-        $this->assertNull($obj->getActiveConfMenusQb2());
-        $this->assertNull($obj->getActiveConfMenusQc());
-        $this->assertNull($obj->getActiveConfMenusQfact());
-        $this->assertNull($obj->getActiveConfMenusQgi());
-        $this->assertNull($obj->getActiveConfMenusQp());
-        $this->assertNull($obj->getActiveConfMenusQprop());
-        $this->assertNull($obj->getActiveConfMenusQtrs());
-        $this->assertNull($obj->getMasquerBaseAccess());
-        $this->assertNull($obj->getSelLstRestriArtDef());
-        $this->assertNull($obj->getSelLstRestriCliDef());
-        $this->assertNull($obj->getSelLstRestriFrnDef());
-    }
-
-    /**
      * Tests the setActivationLstRestriArt() method.
      *
      * @return void
@@ -241,5 +215,31 @@ class ConfidentialiteTest extends AbstractTestCase {
 
         $obj->setSelLstRestriFrnDef("selLstRestriFrnDef");
         $this->assertEquals("selLstRestriFrnDef", $obj->getSelLstRestriFrnDef());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Confidentialite();
+
+        $this->assertNull($obj->getActivationLstRestriArt());
+        $this->assertNull($obj->getActivationLstRestriCli());
+        $this->assertNull($obj->getActivationLstRestriFrn());
+        $this->assertNull($obj->getActiveConfMenusQb());
+        $this->assertNull($obj->getActiveConfMenusQb2());
+        $this->assertNull($obj->getActiveConfMenusQc());
+        $this->assertNull($obj->getActiveConfMenusQfact());
+        $this->assertNull($obj->getActiveConfMenusQgi());
+        $this->assertNull($obj->getActiveConfMenusQp());
+        $this->assertNull($obj->getActiveConfMenusQprop());
+        $this->assertNull($obj->getActiveConfMenusQtrs());
+        $this->assertNull($obj->getMasquerBaseAccess());
+        $this->assertNull($obj->getSelLstRestriArtDef());
+        $this->assertNull($obj->getSelLstRestriCliDef());
+        $this->assertNull($obj->getSelLstRestriFrnDef());
     }
 }

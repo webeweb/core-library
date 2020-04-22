@@ -25,31 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HistoPaieAbsences;
 class HistoPaieAbsencesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoPaieAbsences();
-
-        $this->assertNull($obj->getCodeAbsPaie());
-        $this->assertNull($obj->getCodeAbsence());
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getDateDebutAbs());
-        $this->assertNull($obj->getDateFinAbs());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getDureeAbsence());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getNbJoursAbs());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getUniqId());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setCodeAbsPaie() method.
      *
      * @return void
@@ -245,5 +220,30 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoPaieAbsences();
+
+        $this->assertNull($obj->getCodeAbsPaie());
+        $this->assertNull($obj->getCodeAbsence());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateDebutAbs());
+        $this->assertNull($obj->getDateFinAbs());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getDureeAbsence());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getNbJoursAbs());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getUniqId());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

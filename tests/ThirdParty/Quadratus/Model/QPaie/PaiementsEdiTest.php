@@ -23,27 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\PaiementsEdi;
 class PaiementsEdiTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PaiementsEdi();
-
-        $this->assertNull($obj->getBic());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getDomBanque());
-        $this->assertNull($obj->getGenererCouponPaiement());
-        $this->assertNull($obj->getIban());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMontantDucsAnnuelle());
-        $this->assertNull($obj->getMoyenPaiement());
-        $this->assertNull($obj->getRib());
-    }
-
-    /**
      * Tests the setBic() method.
      *
      * @return void
@@ -171,5 +150,26 @@ class PaiementsEdiTest extends AbstractTestCase {
 
         $obj->setRib("rib");
         $this->assertEquals("rib", $obj->getRib());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PaiementsEdi();
+
+        $this->assertNull($obj->getBic());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getDomBanque());
+        $this->assertNull($obj->getGenererCouponPaiement());
+        $this->assertNull($obj->getIban());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantDucsAnnuelle());
+        $this->assertNull($obj->getMoyenPaiement());
+        $this->assertNull($obj->getRib());
     }
 }

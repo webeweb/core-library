@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ImmoEnsemble;
 class ImmoEnsembleTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ImmoEnsemble();
-
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getNumeroEnsemble());
-    }
-
-    /**
      * Tests the setLibelle() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class ImmoEnsembleTest extends AbstractTestCase {
 
         $obj->setNumeroEnsemble(10);
         $this->assertEquals(10, $obj->getNumeroEnsemble());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ImmoEnsemble();
+
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getNumeroEnsemble());
     }
 }

@@ -25,35 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesMsaPenibilite;
 class LignesMsaPenibiliteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesMsaPenibilite();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeRisque1());
-        $this->assertNull($obj->getCodeRisque10());
-        $this->assertNull($obj->getCodeRisque2());
-        $this->assertNull($obj->getCodeRisque3());
-        $this->assertNull($obj->getCodeRisque4());
-        $this->assertNull($obj->getCodeRisque5());
-        $this->assertNull($obj->getCodeRisque6());
-        $this->assertNull($obj->getCodeRisque7());
-        $this->assertNull($obj->getCodeRisque8());
-        $this->assertNull($obj->getCodeRisque9());
-        $this->assertNull($obj->getCodeUnite());
-        $this->assertNull($obj->getDtDebPenibilite());
-        $this->assertNull($obj->getDtDebPer());
-        $this->assertNull($obj->getDtFinPenibilite());
-        $this->assertNull($obj->getDtFinPer());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriodeDecla());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -305,5 +276,34 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
 
         $obj->setPeriodeDecla($periodeDecla);
         $this->assertSame($periodeDecla, $obj->getPeriodeDecla());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesMsaPenibilite();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeRisque1());
+        $this->assertNull($obj->getCodeRisque10());
+        $this->assertNull($obj->getCodeRisque2());
+        $this->assertNull($obj->getCodeRisque3());
+        $this->assertNull($obj->getCodeRisque4());
+        $this->assertNull($obj->getCodeRisque5());
+        $this->assertNull($obj->getCodeRisque6());
+        $this->assertNull($obj->getCodeRisque7());
+        $this->assertNull($obj->getCodeRisque8());
+        $this->assertNull($obj->getCodeRisque9());
+        $this->assertNull($obj->getCodeUnite());
+        $this->assertNull($obj->getDtDebPenibilite());
+        $this->assertNull($obj->getDtDebPer());
+        $this->assertNull($obj->getDtFinPenibilite());
+        $this->assertNull($obj->getDtFinPer());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriodeDecla());
     }
 }

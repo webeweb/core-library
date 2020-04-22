@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisProgEntetes;
 class DevisProgEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DevisProgEntetes();
-
-        $this->assertNull($obj->getDesignation());
-        $this->assertNull($obj->getNumDevis());
-        $this->assertNull($obj->getNumProgramme());
-    }
-
-    /**
      * Tests the setDesignation() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class DevisProgEntetesTest extends AbstractTestCase {
 
         $obj->setNumProgramme(10);
         $this->assertEquals(10, $obj->getNumProgramme());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DevisProgEntetes();
+
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getNumProgramme());
     }
 }

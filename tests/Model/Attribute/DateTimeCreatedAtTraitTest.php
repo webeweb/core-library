@@ -25,18 +25,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestDateTimeCreatedAtTrait;
 class DateTimeCreatedAtTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestDateTimeCreatedAtTrait();
-
-        $this->assertNull($obj->getCreatedAt());
-    }
-
-    /**
      * Tests the setCreatedAt() method.
      *
      * @return void
@@ -51,5 +39,17 @@ class DateTimeCreatedAtTraitTest extends AbstractTestCase {
 
         $obj->setCreatedAt($createdAt);
         $this->assertSame($createdAt, $obj->getCreatedAt());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestDateTimeCreatedAtTrait();
+
+        $this->assertNull($obj->getCreatedAt());
     }
 }

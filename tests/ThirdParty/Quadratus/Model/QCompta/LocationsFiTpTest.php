@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\LocationsFiTp;
 class LocationsFiTpTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LocationsFiTp();
-
-        $this->assertNull($obj->getAssurance());
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getEntretien());
-        $this->assertNull($obj->getLoyerHt());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getNumeroCompte());
-    }
-
-    /**
      * Tests the setAssurance() method.
      *
      * @return void
@@ -149,5 +130,24 @@ class LocationsFiTpTest extends AbstractTestCase {
 
         $obj->setNumeroCompte("numeroCompte");
         $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LocationsFiTp();
+
+        $this->assertNull($obj->getAssurance());
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getEntretien());
+        $this->assertNull($obj->getLoyerHt());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getNumeroCompte());
     }
 }

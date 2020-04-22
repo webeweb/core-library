@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ChargesARepartirLignes;
 class ChargesARepartirLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChargesARepartirLignes();
-
-        $this->assertNull($obj->getAnnee());
-        $this->assertNull($obj->getMontantRestant());
-        $this->assertNull($obj->getMontantVir());
-        $this->assertNull($obj->getNumContrat());
-        $this->assertNull($obj->getNumCptCar());
-        $this->assertNull($obj->getNumLigne());
-    }
-
-    /**
      * Tests the setAnnee() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class ChargesARepartirLignesTest extends AbstractTestCase {
 
         $obj->setNumLigne(10);
         $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChargesARepartirLignes();
+
+        $this->assertNull($obj->getAnnee());
+        $this->assertNull($obj->getMontantRestant());
+        $this->assertNull($obj->getMontantVir());
+        $this->assertNull($obj->getNumContrat());
+        $this->assertNull($obj->getNumCptCar());
+        $this->assertNull($obj->getNumLigne());
     }
 }

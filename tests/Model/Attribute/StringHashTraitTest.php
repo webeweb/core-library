@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringHashTrait;
 class StringHashTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringHashTrait();
-
-        $this->assertNull($obj->getHash());
-    }
-
-    /**
      * Tests the setHash() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringHashTraitTest extends AbstractTestCase {
 
         $obj->setHash("hash");
         $this->assertEquals("hash", $obj->getHash());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringHashTrait();
+
+        $this->assertNull($obj->getHash());
     }
 }

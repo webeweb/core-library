@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesSupprime
 class FichesControlesSupprimeesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesControlesSupprimees();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getDateTransfert());
-        $this->assertNull($obj->getNumeroFiche());
-        $this->assertNull($obj->getUniqIdBlocage());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class FichesControlesSupprimeesTest extends AbstractTestCase {
 
         $obj->setUniqIdBlocage("uniqIdBlocage");
         $this->assertEquals("uniqIdBlocage", $obj->getUniqIdBlocage());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesControlesSupprimees();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getDateTransfert());
+        $this->assertNull($obj->getNumeroFiche());
+        $this->assertNull($obj->getUniqIdBlocage());
     }
 }

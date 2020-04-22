@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\iSessions;
 class iSessionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new iSessions();
-
-        $this->assertNull($obj->getAdresseIp());
-        $this->assertNull($obj->getAppli());
-        $this->assertNull($obj->getCodeUser());
-        $this->assertNull($obj->getDateActive());
-        $this->assertNull($obj->getDateAdded());
-        $this->assertNull($obj->getDossier());
-        $this->assertNull($obj->getId());
-    }
-
-    /**
      * Tests the setAdresseIp() method.
      *
      * @return void
@@ -139,5 +121,23 @@ class iSessionsTest extends AbstractTestCase {
 
         $obj->setId(10);
         $this->assertEquals(10, $obj->getId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new iSessions();
+
+        $this->assertNull($obj->getAdresseIp());
+        $this->assertNull($obj->getAppli());
+        $this->assertNull($obj->getCodeUser());
+        $this->assertNull($obj->getDateActive());
+        $this->assertNull($obj->getDateAdded());
+        $this->assertNull($obj->getDossier());
+        $this->assertNull($obj->getId());
     }
 }

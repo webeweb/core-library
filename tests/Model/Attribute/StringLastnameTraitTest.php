@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringLastNameTrait;
 class StringLastnameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringLastNameTrait();
-
-        $this->assertNull($obj->getLastName());
-    }
-
-    /**
      * Tests the setLastName() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringLastnameTraitTest extends AbstractTestCase {
 
         $obj->setLastName("lastname");
         $this->assertEquals("lastname", $obj->getLastName());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringLastNameTrait();
+
+        $this->assertNull($obj->getLastName());
     }
 }

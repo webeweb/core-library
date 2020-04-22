@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCo;
 class ActionsCoTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ActionsCo();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDateFinVie());
-        $this->assertNull($obj->getDateModification());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLibelleMemo());
-        $this->assertNull($obj->getOpConfirmation());
-        $this->assertNull($obj->getOpContratSigne());
-        $this->assertNull($obj->getOpExplication());
-        $this->assertNull($obj->getOpInvitationIndiv());
-        $this->assertNull($obj->getOpInvitationMasse());
-        $this->assertNull($obj->getOpPresence());
-        $this->assertNull($obj->getOpPriseRdv());
-        $this->assertNull($obj->getOpRelance());
-        $this->assertNull($obj->getOpReponseInscrip());
-        $this->assertNull($obj->getOpReponseNegative());
-        $this->assertNull($obj->getOpReservation());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -283,5 +255,33 @@ class ActionsCoTest extends AbstractTestCase {
 
         $obj->setOpReservation(true);
         $this->assertEquals(true, $obj->getOpReservation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ActionsCo();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateFinVie());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLibelleMemo());
+        $this->assertNull($obj->getOpConfirmation());
+        $this->assertNull($obj->getOpContratSigne());
+        $this->assertNull($obj->getOpExplication());
+        $this->assertNull($obj->getOpInvitationIndiv());
+        $this->assertNull($obj->getOpInvitationMasse());
+        $this->assertNull($obj->getOpPresence());
+        $this->assertNull($obj->getOpPriseRdv());
+        $this->assertNull($obj->getOpRelance());
+        $this->assertNull($obj->getOpReponseInscrip());
+        $this->assertNull($obj->getOpReponseNegative());
+        $this->assertNull($obj->getOpReservation());
     }
 }

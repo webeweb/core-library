@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuSituation;
 class DadsuSituationTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuSituation();
-
-        $this->assertNull($obj->getCodeDebutPeriode());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodeTempsArret());
-        $this->assertNull($obj->getDateCtrlNorme());
-        $this->assertNull($obj->getDebutPeriode());
-        $this->assertNull($obj->getDepuisCalcul());
-        $this->assertNull($obj->getEtatCtrlNorme());
-        $this->assertNull($obj->getFinPeriode());
-        $this->assertNull($obj->getMontant1());
-        $this->assertNull($obj->getMontant2());
-        $this->assertNull($obj->getMontantEmployeur());
-        $this->assertNull($obj->getMotifSituation());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getNumeroOrdre());
-        $this->assertNull($obj->getQualifUniteTemps());
-        $this->assertNull($obj->getTempsArret());
-        $this->assertNull($obj->getTypeBase());
-    }
-
-    /**
      * Tests the setCodeDebutPeriode() method.
      *
      * @return void
@@ -283,5 +255,33 @@ class DadsuSituationTest extends AbstractTestCase {
 
         $obj->setTypeBase("typeBase");
         $this->assertEquals("typeBase", $obj->getTypeBase());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuSituation();
+
+        $this->assertNull($obj->getCodeDebutPeriode());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodeTempsArret());
+        $this->assertNull($obj->getDateCtrlNorme());
+        $this->assertNull($obj->getDebutPeriode());
+        $this->assertNull($obj->getDepuisCalcul());
+        $this->assertNull($obj->getEtatCtrlNorme());
+        $this->assertNull($obj->getFinPeriode());
+        $this->assertNull($obj->getMontant1());
+        $this->assertNull($obj->getMontant2());
+        $this->assertNull($obj->getMontantEmployeur());
+        $this->assertNull($obj->getMotifSituation());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getNumeroOrdre());
+        $this->assertNull($obj->getQualifUniteTemps());
+        $this->assertNull($obj->getTempsArret());
+        $this->assertNull($obj->getTypeBase());
     }
 }

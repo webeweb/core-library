@@ -25,47 +25,6 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\Customer;
 class CustomerTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new Customer();
-
-        $this->assertNull($obj->getAccountingNumber());
-        $this->assertNull($obj->getBeginDate());
-        $this->assertNull($obj->getCity());
-        $this->assertNull($obj->getCountingNeutralCards());
-        $this->assertNull($obj->getCountry());
-        $this->assertNull($obj->getCustomerNumber());
-        $this->assertNull($obj->getDatetimeLastModification());
-        $this->assertNull($obj->getDeletedRecord());
-        $this->assertNull($obj->getDeposit());
-        $this->assertNull($obj->getDivision());
-        $this->assertNull($obj->getEmail());
-        $this->assertNull($obj->getEntryMaxLevelAllowed());
-        $this->assertNull($obj->getFirstname());
-        $this->assertNull($obj->getGroupCounting());
-        $this->assertNull($obj->getIdDocumentNo());
-        $this->assertNull($obj->getMaxLevelCarPark());
-        $this->assertNull($obj->getMaximumLevel());
-        $this->assertNull($obj->getNationality());
-        $this->assertNull($obj->getPCode());
-        $this->assertNull($obj->getRemarks());
-        $this->assertNull($obj->getRemarks2());
-        $this->assertNull($obj->getRemarks3());
-        $this->assertNull($obj->getRentalAgreementNo());
-        $this->assertNull($obj->getStreet());
-        $this->assertNull($obj->getSurname());
-        $this->assertNull($obj->getTaxCode());
-        $this->assertNull($obj->getTelephone());
-        $this->assertNull($obj->getTerminationDate());
-        $this->assertNull($obj->getTicketReturnAllowed());
-        $this->assertNull($obj->getTitle());
-    }
-
-    /**
      * Tests the setAccountingNumber() method.
      *
      * @return void
@@ -299,5 +258,46 @@ class CustomerTest extends AbstractTestCase {
 
         $obj->setTicketReturnAllowed(true);
         $this->assertTrue($obj->getTicketReturnAllowed());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new Customer();
+
+        $this->assertNull($obj->getAccountingNumber());
+        $this->assertNull($obj->getBeginDate());
+        $this->assertNull($obj->getCity());
+        $this->assertNull($obj->getCountingNeutralCards());
+        $this->assertNull($obj->getCountry());
+        $this->assertNull($obj->getCustomerNumber());
+        $this->assertNull($obj->getDatetimeLastModification());
+        $this->assertNull($obj->getDeletedRecord());
+        $this->assertNull($obj->getDeposit());
+        $this->assertNull($obj->getDivision());
+        $this->assertNull($obj->getEmail());
+        $this->assertNull($obj->getEntryMaxLevelAllowed());
+        $this->assertNull($obj->getFirstname());
+        $this->assertNull($obj->getGroupCounting());
+        $this->assertNull($obj->getIdDocumentNo());
+        $this->assertNull($obj->getMaxLevelCarPark());
+        $this->assertNull($obj->getMaximumLevel());
+        $this->assertNull($obj->getNationality());
+        $this->assertNull($obj->getPCode());
+        $this->assertNull($obj->getRemarks());
+        $this->assertNull($obj->getRemarks2());
+        $this->assertNull($obj->getRemarks3());
+        $this->assertNull($obj->getRentalAgreementNo());
+        $this->assertNull($obj->getStreet());
+        $this->assertNull($obj->getSurname());
+        $this->assertNull($obj->getTaxCode());
+        $this->assertNull($obj->getTelephone());
+        $this->assertNull($obj->getTerminationDate());
+        $this->assertNull($obj->getTicketReturnAllowed());
+        $this->assertNull($obj->getTitle());
     }
 }

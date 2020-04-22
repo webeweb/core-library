@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsSelAvanceFavoris;
 class ClientsSelAvanceFavorisTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsSelAvanceFavoris();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeListe());
-        $this->assertNull($obj->getDescription());
-        $this->assertNull($obj->getOrdre());
-        $this->assertNull($obj->getOrigine());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
 
         $obj->setOrigine("origine");
         $this->assertEquals("origine", $obj->getOrigine());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsSelAvanceFavoris();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeListe());
+        $this->assertNull($obj->getDescription());
+        $this->assertNull($obj->getOrdre());
+        $this->assertNull($obj->getOrigine());
     }
 }

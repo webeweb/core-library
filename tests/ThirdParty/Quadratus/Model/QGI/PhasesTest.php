@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Phases;
 class PhasesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Phases();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumOrdre());
-        $this->assertNull($obj->getSaisieFact());
-        $this->assertNull($obj->getSaisieTemps());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class PhasesTest extends AbstractTestCase {
 
         $obj->setSaisieTemps(true);
         $this->assertEquals(true, $obj->getSaisieTemps());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Phases();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumOrdre());
+        $this->assertNull($obj->getSaisieFact());
+        $this->assertNull($obj->getSaisieTemps());
     }
 }

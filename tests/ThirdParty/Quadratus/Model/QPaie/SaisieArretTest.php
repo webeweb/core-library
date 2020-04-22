@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\SaisieArret;
 class SaisieArretTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SaisieArret();
-
-        $this->assertNull($obj->getDtCourrier());
-        $this->assertNull($obj->getDtDebutSaisie());
-        $this->assertNull($obj->getDtFinSaisie());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMtCreance());
-        $this->assertNull($obj->getMtDejaPaye());
-        $this->assertNull($obj->getNbACharge());
-        $this->assertNull($obj->getNomTribunal());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getTypeSaisie());
-    }
-
-    /**
      * Tests the setDtCourrier() method.
      *
      * @return void
@@ -185,5 +164,26 @@ class SaisieArretTest extends AbstractTestCase {
 
         $obj->setTypeSaisie("typeSaisie");
         $this->assertEquals("typeSaisie", $obj->getTypeSaisie());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SaisieArret();
+
+        $this->assertNull($obj->getDtCourrier());
+        $this->assertNull($obj->getDtDebutSaisie());
+        $this->assertNull($obj->getDtFinSaisie());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMtCreance());
+        $this->assertNull($obj->getMtDejaPaye());
+        $this->assertNull($obj->getNbACharge());
+        $this->assertNull($obj->getNomTribunal());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTypeSaisie());
     }
 }

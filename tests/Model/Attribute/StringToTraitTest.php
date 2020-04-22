@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringToTrait;
 class StringToTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringToTrait();
-
-        $this->assertNull($obj->getTo());
-    }
-
-    /**
      * Tests the setTo() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringToTraitTest extends AbstractTestCase {
 
         $obj->setTo("to");
         $this->assertEquals("to", $obj->getTo());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringToTrait();
+
+        $this->assertNull($obj->getTo());
     }
 }

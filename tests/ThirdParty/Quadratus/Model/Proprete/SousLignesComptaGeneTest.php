@@ -23,28 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\SousLignesComptaGene;
 class SousLignesComptaGeneTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SousLignesComptaGene();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getIntituleCompte());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getNumeroDocument());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getNumeroSousLigne());
-        $this->assertNull($obj->getTypeDocument());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -185,5 +163,27 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
 
         $obj->setTypeDocument("typeDocument");
         $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SousLignesComptaGene();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getIntituleCompte());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getNumeroDocument());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getNumeroSousLigne());
+        $this->assertNull($obj->getTypeDocument());
     }
 }

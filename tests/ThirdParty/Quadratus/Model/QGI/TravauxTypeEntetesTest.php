@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TravauxTypeEntetes;
 class TravauxTypeEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TravauxTypeEntetes();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getPolice());
-        $this->assertNull($obj->getPolice2());
-        $this->assertNull($obj->getPolice3());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
 
         $obj->setPolice3("police3");
         $this->assertEquals("police3", $obj->getPolice3());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TravauxTypeEntetes();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getPolice());
+        $this->assertNull($obj->getPolice2());
+        $this->assertNull($obj->getPolice3());
     }
 }

@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\InfoStatistiques;
 class InfoStatistiquesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new InfoStatistiques();
-
-        $this->assertNull($obj->getAFacturerHorsEx());
-        $this->assertNull($obj->getAFacturerSurEx());
-        $this->assertNull($obj->getCodeElement());
-        $this->assertNull($obj->getCompteurHorsEx());
-        $this->assertNull($obj->getCompteurSurEx());
-    }
-
-    /**
      * Tests the setAFacturerHorsEx() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class InfoStatistiquesTest extends AbstractTestCase {
 
         $obj->setCompteurSurEx(10);
         $this->assertEquals(10, $obj->getCompteurSurEx());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new InfoStatistiques();
+
+        $this->assertNull($obj->getAFacturerHorsEx());
+        $this->assertNull($obj->getAFacturerSurEx());
+        $this->assertNull($obj->getCodeElement());
+        $this->assertNull($obj->getCompteurHorsEx());
+        $this->assertNull($obj->getCompteurSurEx());
     }
 }

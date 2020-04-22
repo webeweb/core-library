@@ -25,29 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\VisiteMedicaleLigne;
 class VisiteMedicaleLigneTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new VisiteMedicaleLigne();
-
-        $this->assertNull($obj->getCodeMedecineTravail());
-        $this->assertNull($obj->getCodeSession());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDateVisite());
-        $this->assertNull($obj->getDureeVisite());
-        $this->assertNull($obj->getEtatVisite());
-        $this->assertNull($obj->getHeureVisite());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getTel1());
-        $this->assertNull($obj->getTypeLigne());
-        $this->assertNull($obj->getTypeVisite());
-    }
-
-    /**
      * Tests the setCodeMedecineTravail() method.
      *
      * @return void
@@ -209,5 +186,28 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
 
         $obj->setTypeVisite("typeVisite");
         $this->assertEquals("typeVisite", $obj->getTypeVisite());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new VisiteMedicaleLigne();
+
+        $this->assertNull($obj->getCodeMedecineTravail());
+        $this->assertNull($obj->getCodeSession());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDateVisite());
+        $this->assertNull($obj->getDureeVisite());
+        $this->assertNull($obj->getEtatVisite());
+        $this->assertNull($obj->getHeureVisite());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTel1());
+        $this->assertNull($obj->getTypeLigne());
+        $this->assertNull($obj->getTypeVisite());
     }
 }

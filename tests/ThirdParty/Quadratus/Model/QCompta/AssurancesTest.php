@@ -25,41 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Assurances;
 class AssurancesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Assurances();
-
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getCompagnie());
-        $this->assertNull($obj->getCourtier());
-        $this->assertNull($obj->getDateEcheance());
-        $this->assertNull($obj->getDateInitiale());
-        $this->assertNull($obj->getDateSignature1());
-        $this->assertNull($obj->getDateSignature2());
-        $this->assertNull($obj->getDateSignature3());
-        $this->assertNull($obj->getDateSignature4());
-        $this->assertNull($obj->getDateSignature5());
-        $this->assertNull($obj->getDuree());
-        $this->assertNull($obj->getDureePreavis());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontantAnnuel1());
-        $this->assertNull($obj->getMontantAnnuel2());
-        $this->assertNull($obj->getMontantAnnuel3());
-        $this->assertNull($obj->getMontantAnnuel4());
-        $this->assertNull($obj->getMontantAnnuel5());
-        $this->assertNull($obj->getMontantFixe());
-        $this->assertNull($obj->getNumContrat());
-        $this->assertNull($obj->getNumCptAssurance());
-        $this->assertNull($obj->getNumeroPj());
-        $this->assertNull($obj->getUniteDuree());
-    }
-
-    /**
      * Tests the setCodeCentre() method.
      *
      * @return void
@@ -393,5 +358,40 @@ class AssurancesTest extends AbstractTestCase {
 
         $obj->setUniteDuree("uniteDuree");
         $this->assertEquals("uniteDuree", $obj->getUniteDuree());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Assurances();
+
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getCompagnie());
+        $this->assertNull($obj->getCourtier());
+        $this->assertNull($obj->getDateEcheance());
+        $this->assertNull($obj->getDateInitiale());
+        $this->assertNull($obj->getDateSignature1());
+        $this->assertNull($obj->getDateSignature2());
+        $this->assertNull($obj->getDateSignature3());
+        $this->assertNull($obj->getDateSignature4());
+        $this->assertNull($obj->getDateSignature5());
+        $this->assertNull($obj->getDuree());
+        $this->assertNull($obj->getDureePreavis());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontantAnnuel1());
+        $this->assertNull($obj->getMontantAnnuel2());
+        $this->assertNull($obj->getMontantAnnuel3());
+        $this->assertNull($obj->getMontantAnnuel4());
+        $this->assertNull($obj->getMontantAnnuel5());
+        $this->assertNull($obj->getMontantFixe());
+        $this->assertNull($obj->getNumContrat());
+        $this->assertNull($obj->getNumCptAssurance());
+        $this->assertNull($obj->getNumeroPj());
+        $this->assertNull($obj->getUniteDuree());
     }
 }

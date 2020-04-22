@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PointageSynchroSupprime
 class PointageSynchroSupprimeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PointageSynchroSupprime();
-
-        $this->assertNull($obj->getCleEnreg());
-        $this->assertNull($obj->getCreeParGenPrev());
-        $this->assertNull($obj->getNomTable());
-        $this->assertNull($obj->getTimeSuppression());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setCleEnreg() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PointageSynchroSupprime();
+
+        $this->assertNull($obj->getCleEnreg());
+        $this->assertNull($obj->getCreeParGenPrev());
+        $this->assertNull($obj->getNomTable());
+        $this->assertNull($obj->getTimeSuppression());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

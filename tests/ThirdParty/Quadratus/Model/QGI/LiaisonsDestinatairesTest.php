@@ -23,30 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LiaisonsDestinataires;
 class LiaisonsDestinatairesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LiaisonsDestinataires();
-
-        $this->assertNull($obj->getAgence());
-        $this->assertNull($obj->getChemin());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getEmail());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getMachine());
-        $this->assertNull($obj->getMotDePasse());
-        $this->assertNull($obj->getPartage());
-        $this->assertNull($obj->getSelectionArticle());
-        $this->assertNull($obj->getSelectionClient());
-        $this->assertNull($obj->getSelectionFournisseur());
-        $this->assertNull($obj->getTypeLiaison());
-        $this->assertNull($obj->getUtilisateur());
-    }
-
-    /**
      * Tests the setAgence() method.
      *
      * @return void
@@ -213,5 +189,29 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
 
         $obj->setUtilisateur("utilisateur");
         $this->assertEquals("utilisateur", $obj->getUtilisateur());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LiaisonsDestinataires();
+
+        $this->assertNull($obj->getAgence());
+        $this->assertNull($obj->getChemin());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getEmail());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMachine());
+        $this->assertNull($obj->getMotDePasse());
+        $this->assertNull($obj->getPartage());
+        $this->assertNull($obj->getSelectionArticle());
+        $this->assertNull($obj->getSelectionClient());
+        $this->assertNull($obj->getSelectionFournisseur());
+        $this->assertNull($obj->getTypeLiaison());
+        $this->assertNull($obj->getUtilisateur());
     }
 }

@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\SaisiePrepaEntete;
 class SaisiePrepaEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SaisiePrepaEntete();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getDesactive());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getSaisieAbsCp());
-        $this->assertNull($obj->getSaisieAcompte());
-        $this->assertNull($obj->getWidthBord());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
 
         $obj->setWidthBord(10);
         $this->assertEquals(10, $obj->getWidthBord());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SaisiePrepaEntete();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getDesactive());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getSaisieAbsCp());
+        $this->assertNull($obj->getSaisieAcompte());
+        $this->assertNull($obj->getWidthBord());
     }
 }

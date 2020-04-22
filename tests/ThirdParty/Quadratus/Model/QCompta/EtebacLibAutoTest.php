@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\EtebacLibAuto;
 class EtebacLibAutoTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EtebacLibAuto();
-
-        $this->assertNull($obj->getCodeEtebac());
-        $this->assertNull($obj->getCodeLibAuto());
-    }
-
-    /**
      * Tests the setCodeEtebac() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class EtebacLibAutoTest extends AbstractTestCase {
 
         $obj->setCodeLibAuto("codeLibAuto");
         $this->assertEquals("codeLibAuto", $obj->getCodeLibAuto());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EtebacLibAuto();
+
+        $this->assertNull($obj->getCodeEtebac());
+        $this->assertNull($obj->getCodeLibAuto());
     }
 }

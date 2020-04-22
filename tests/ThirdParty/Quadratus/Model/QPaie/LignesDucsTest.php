@@ -25,44 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesDucs;
 class LignesDucsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesDucs();
-
-        $this->assertNull($obj->getCodeAt());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeDucs());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeInsee());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getConditionSpec());
-        $this->assertNull($obj->getDateApplication());
-        $this->assertNull($obj->getExclureFusion());
-        $this->assertNull($obj->getIdInstitution());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getIsTaux());
-        $this->assertNull($obj->getMarque());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMtPatronal());
-        $this->assertNull($obj->getMtSalarial());
-        $this->assertNull($obj->getNbCot());
-        $this->assertNull($obj->getNbPatronal());
-        $this->assertNull($obj->getNbSalarial());
-        $this->assertNull($obj->getOrganisme());
-        $this->assertNull($obj->getPeriodeDecla());
-        $this->assertNull($obj->getQualifiantCotis());
-        $this->assertNull($obj->getSommeBase());
-        $this->assertNull($obj->getTauxAt());
-        $this->assertNull($obj->getTauxPatronal());
-        $this->assertNull($obj->getTauxSalarial());
-        $this->assertNull($obj->getTypeBaseUnique());
-    }
-
-    /**
      * Tests the setCodeAt() method.
      *
      * @return void
@@ -419,5 +381,43 @@ class LignesDucsTest extends AbstractTestCase {
 
         $obj->setTypeBaseUnique(true);
         $this->assertEquals(true, $obj->getTypeBaseUnique());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesDucs();
+
+        $this->assertNull($obj->getCodeAt());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeDucs());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeInsee());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getConditionSpec());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getExclureFusion());
+        $this->assertNull($obj->getIdInstitution());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getIsTaux());
+        $this->assertNull($obj->getMarque());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMtPatronal());
+        $this->assertNull($obj->getMtSalarial());
+        $this->assertNull($obj->getNbCot());
+        $this->assertNull($obj->getNbPatronal());
+        $this->assertNull($obj->getNbSalarial());
+        $this->assertNull($obj->getOrganisme());
+        $this->assertNull($obj->getPeriodeDecla());
+        $this->assertNull($obj->getQualifiantCotis());
+        $this->assertNull($obj->getSommeBase());
+        $this->assertNull($obj->getTauxAt());
+        $this->assertNull($obj->getTauxPatronal());
+        $this->assertNull($obj->getTauxSalarial());
+        $this->assertNull($obj->getTypeBaseUnique());
     }
 }

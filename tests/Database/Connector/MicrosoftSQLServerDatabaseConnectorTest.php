@@ -25,19 +25,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct method.
-     *
-     * @returns void
-     */
-    public function test__construct() {
-
-        $obj = new MicrosoftSQLServerDatabaseConnector($this->authenticator, null);
-
-        $this->assertSame($this->authenticator, $obj->getAuthenticator());
-        $this->assertNull($obj->getDatabase());
-    }
-
-    /**
      * Tests the getConnection() method.
      *
      * @return void
@@ -54,5 +41,18 @@ class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
             $this->assertInstanceOf(PDOException::class, $ex);
             $this->assertNotEmpty($ex->getMessage());
         }
+    }
+
+    /**
+     * Tests the __construct method.
+     *
+     * @returns void
+     */
+    public function test__construct() {
+
+        $obj = new MicrosoftSQLServerDatabaseConnector($this->authenticator, null);
+
+        $this->assertSame($this->authenticator, $obj->getAuthenticator());
+        $this->assertNull($obj->getDatabase());
     }
 }

@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpRecapPenibilite;
 class EmpRecapPenibiliteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpRecapPenibilite();
-
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getDateCreat());
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getDateFin());
-        $this->assertNull($obj->getDateModif());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getIdRecap());
-        $this->assertNull($obj->getIndiceBul());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getNumeroOrdre());
-        $this->assertNull($obj->getReguleTraitee());
-    }
-
-    /**
      * Tests the setCodeCollab() method.
      *
      * @return void
@@ -207,5 +185,27 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
 
         $obj->setReguleTraitee($reguleTraitee);
         $this->assertSame($reguleTraitee, $obj->getReguleTraitee());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpRecapPenibilite();
+
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getDateCreat());
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getDateFin());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getIdRecap());
+        $this->assertNull($obj->getIndiceBul());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getNumeroOrdre());
+        $this->assertNull($obj->getReguleTraitee());
     }
 }

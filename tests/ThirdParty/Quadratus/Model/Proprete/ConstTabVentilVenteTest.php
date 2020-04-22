@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ConstTabVentilVente;
 class ConstTabVentilVenteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConstTabVentilVente();
-
-        $this->assertNull($obj->getCodeVentilArticle());
-        $this->assertNull($obj->getCodeVentilClient());
-        $this->assertNull($obj->getCompteVentil());
-        $this->assertNull($obj->getLibelle());
-    }
-
-    /**
      * Tests the setCodeVentilArticle() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class ConstTabVentilVenteTest extends AbstractTestCase {
 
         $obj->setLibelle("libelle");
         $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConstTabVentilVente();
+
+        $this->assertNull($obj->getCodeVentilArticle());
+        $this->assertNull($obj->getCodeVentilClient());
+        $this->assertNull($obj->getCompteVentil());
+        $this->assertNull($obj->getLibelle());
     }
 }

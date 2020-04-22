@@ -25,43 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PointBonTrav;
 class PointBonTravTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PointBonTrav();
-
-        $this->assertNull($obj->getAvenantSigne());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeEquipe());
-        $this->assertNull($obj->getCodeTacheType());
-        $this->assertNull($obj->getDatePassage());
-        $this->assertNull($obj->getDateRefBt());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getFromGenBt());
-        $this->assertNull($obj->getHeureDeb());
-        $this->assertNull($obj->getHeureDebMob());
-        $this->assertNull($obj->getHeureFinMob());
-        $this->assertNull($obj->getHeuresJour());
-        $this->assertNull($obj->getHeuresNuit());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNomPrenom());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getNumChrono());
-        $this->assertNull($obj->getNumeroAvenant());
-        $this->assertNull($obj->getPaniers());
-        $this->assertNull($obj->getPrime1());
-        $this->assertNull($obj->getPrime2());
-        $this->assertNull($obj->getPrime3());
-        $this->assertNull($obj->getQualification());
-        $this->assertNull($obj->getTransfertPaie());
-        $this->assertNull($obj->getUniqId());
-        $this->assertNull($obj->getValideMob());
-    }
-
-    /**
      * Tests the setAvenantSigne() method.
      *
      * @return void
@@ -425,5 +388,42 @@ class PointBonTravTest extends AbstractTestCase {
 
         $obj->setValideMob(true);
         $this->assertEquals(true, $obj->getValideMob());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PointBonTrav();
+
+        $this->assertNull($obj->getAvenantSigne());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeEquipe());
+        $this->assertNull($obj->getCodeTacheType());
+        $this->assertNull($obj->getDatePassage());
+        $this->assertNull($obj->getDateRefBt());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getFromGenBt());
+        $this->assertNull($obj->getHeureDeb());
+        $this->assertNull($obj->getHeureDebMob());
+        $this->assertNull($obj->getHeureFinMob());
+        $this->assertNull($obj->getHeuresJour());
+        $this->assertNull($obj->getHeuresNuit());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNomPrenom());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getNumChrono());
+        $this->assertNull($obj->getNumeroAvenant());
+        $this->assertNull($obj->getPaniers());
+        $this->assertNull($obj->getPrime1());
+        $this->assertNull($obj->getPrime2());
+        $this->assertNull($obj->getPrime3());
+        $this->assertNull($obj->getQualification());
+        $this->assertNull($obj->getTransfertPaie());
+        $this->assertNull($obj->getUniqId());
+        $this->assertNull($obj->getValideMob());
     }
 }

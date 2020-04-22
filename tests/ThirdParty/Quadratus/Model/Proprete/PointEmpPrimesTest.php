@@ -25,39 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PointEmpPrimes;
 class PointEmpPrimesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PointEmpPrimes();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodePrime());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getCodeTacheTypeBt());
-        $this->assertNull($obj->getDateApplication());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getDefaut());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getNbHeureMajoration());
-        $this->assertNull($obj->getNombrePrime());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getNumeroPrime());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getTauxPrime());
-        $this->assertNull($obj->getTypeMajo());
-        $this->assertNull($obj->getTypePrime());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -353,5 +320,38 @@ class PointEmpPrimesTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PointEmpPrimes();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodePrime());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getCodeTacheTypeBt());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getDefaut());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getNbHeureMajoration());
+        $this->assertNull($obj->getNombrePrime());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getNumeroPrime());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTauxPrime());
+        $this->assertNull($obj->getTypeMajo());
+        $this->assertNull($obj->getTypePrime());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

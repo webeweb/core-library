@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ChargesARepartir;
 class ChargesARepartirTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChargesARepartir();
-
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCoeffDegressif());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getDuree());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumContrat());
-        $this->assertNull($obj->getNumCptCar());
-        $this->assertNull($obj->getNumeroPj());
-        $this->assertNull($obj->getTauxLineaire());
-        $this->assertNull($obj->getTypeAmort());
-    }
-
-    /**
      * Tests the setCodeCentre() method.
      *
      * @return void
@@ -191,5 +169,27 @@ class ChargesARepartirTest extends AbstractTestCase {
 
         $obj->setTypeAmort("typeAmort");
         $this->assertEquals("typeAmort", $obj->getTypeAmort());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChargesARepartir();
+
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCoeffDegressif());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getDuree());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumContrat());
+        $this->assertNull($obj->getNumCptCar());
+        $this->assertNull($obj->getNumeroPj());
+        $this->assertNull($obj->getTauxLineaire());
+        $this->assertNull($obj->getTypeAmort());
     }
 }

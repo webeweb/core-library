@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesHsmsaEmploye;
 class LignesHsmsaEmployeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesHsmsaEmploye();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeUnite());
-        $this->assertNull($obj->getMtHs());
-        $this->assertNull($obj->getNbHs());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getNumeroEmploye2());
-        $this->assertNull($obj->getPerDeb());
-        $this->assertNull($obj->getPeriodeDecla());
-        $this->assertNull($obj->getTauxHs());
-        $this->assertNull($obj->getTypeRemunHs());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -195,5 +173,27 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
 
         $obj->setTypeRemunHs("typeRemunHs");
         $this->assertEquals("typeRemunHs", $obj->getTypeRemunHs());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesHsmsaEmploye();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeUnite());
+        $this->assertNull($obj->getMtHs());
+        $this->assertNull($obj->getNbHs());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getNumeroEmploye2());
+        $this->assertNull($obj->getPerDeb());
+        $this->assertNull($obj->getPeriodeDecla());
+        $this->assertNull($obj->getTauxHs());
+        $this->assertNull($obj->getTypeRemunHs());
     }
 }

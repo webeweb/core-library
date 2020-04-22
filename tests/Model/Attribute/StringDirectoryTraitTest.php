@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringDirectoryTrait;
 class StringDirectoryTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringDirectoryTrait();
-
-        $this->assertNull($obj->getDirectory());
-    }
-
-    /**
      * Tests the setDirectory() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringDirectoryTraitTest extends AbstractTestCase {
 
         $obj->setDirectory("directory");
         $this->assertEquals("directory", $obj->getDirectory());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringDirectoryTrait();
+
+        $this->assertNull($obj->getDirectory());
     }
 }

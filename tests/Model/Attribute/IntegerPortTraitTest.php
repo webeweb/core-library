@@ -25,18 +25,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestIntegerPortTrait;
 class IntegerPortTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestIntegerPortTrait();
-
-        $this->assertNull($obj->getPort());
-    }
-
-    /**
      * Tests the setPort() method.
      *
      * @return void
@@ -86,5 +74,17 @@ class IntegerPortTraitTest extends AbstractTestCase {
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestIntegerPortTrait();
+
+        $this->assertNull($obj->getPort());
     }
 }

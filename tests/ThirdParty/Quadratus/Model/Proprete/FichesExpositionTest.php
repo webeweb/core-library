@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesExposition;
 class FichesExpositionTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesExposition();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodePrestation());
-        $this->assertNull($obj->getCodeProduit());
-        $this->assertNull($obj->getDateCtrl());
-        $this->assertNull($obj->getDateDebExpo());
-        $this->assertNull($obj->getDateFiche());
-        $this->assertNull($obj->getDateFinExpo());
-        $this->assertNull($obj->getLstCodePhase());
-        $this->assertNull($obj->getLstCodePrev());
-        $this->assertNull($obj->getResuCtrl());
-        $this->assertNull($obj->getTempsExposition());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -203,5 +181,27 @@ class FichesExpositionTest extends AbstractTestCase {
 
         $obj->setTempsExposition(10.092018);
         $this->assertEquals(10.092018, $obj->getTempsExposition());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesExposition();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodePrestation());
+        $this->assertNull($obj->getCodeProduit());
+        $this->assertNull($obj->getDateCtrl());
+        $this->assertNull($obj->getDateDebExpo());
+        $this->assertNull($obj->getDateFiche());
+        $this->assertNull($obj->getDateFinExpo());
+        $this->assertNull($obj->getLstCodePhase());
+        $this->assertNull($obj->getLstCodePrev());
+        $this->assertNull($obj->getResuCtrl());
+        $this->assertNull($obj->getTempsExposition());
     }
 }

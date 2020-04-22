@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\iCollaborateurs;
 class iCollaborateursTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new iCollaborateurs();
-
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getNumiKey());
-        $this->assertNull($obj->getPassword());
-        $this->assertNull($obj->getValideA());
-        $this->assertNull($obj->getValideDe());
-    }
-
-    /**
      * Tests the setCodeCollab() method.
      *
      * @return void
@@ -111,5 +95,21 @@ class iCollaborateursTest extends AbstractTestCase {
 
         $obj->setValideDe($valideDe);
         $this->assertSame($valideDe, $obj->getValideDe());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new iCollaborateurs();
+
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getNumiKey());
+        $this->assertNull($obj->getPassword());
+        $this->assertNull($obj->getValideA());
+        $this->assertNull($obj->getValideDe());
     }
 }

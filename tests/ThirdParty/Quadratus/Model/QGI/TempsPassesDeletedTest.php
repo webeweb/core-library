@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TempsPassesDeleted;
 class TempsPassesDeletedTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TempsPassesDeleted();
-
-        $this->assertNull($obj->getContexte());
-        $this->assertNull($obj->getDateSuppression());
-        $this->assertNull($obj->getGUniqId());
-        $this->assertNull($obj->getUser());
-    }
-
-    /**
      * Tests the setContexte() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class TempsPassesDeletedTest extends AbstractTestCase {
 
         $obj->setUser("user");
         $this->assertEquals("user", $obj->getUser());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TempsPassesDeleted();
+
+        $this->assertNull($obj->getContexte());
+        $this->assertNull($obj->getDateSuppression());
+        $this->assertNull($obj->getGUniqId());
+        $this->assertNull($obj->getUser());
     }
 }

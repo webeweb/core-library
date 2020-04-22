@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestFloatValueTrait;
 class FloatValueTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestFloatValueTrait();
-
-        $this->assertNull($obj->getValue());
-    }
-
-    /**
      * Tests the setValue() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class FloatValueTraitTest extends AbstractTestCase {
 
         $obj->setValue(1.01);
         $this->assertEquals(1.01, $obj->getValue());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestFloatValueTrait();
+
+        $this->assertNull($obj->getValue());
     }
 }

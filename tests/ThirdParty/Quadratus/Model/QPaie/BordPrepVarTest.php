@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\BordPrepVar;
 class BordPrepVarTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BordPrepVar();
-
-        $this->assertNull($obj->getCodeModele());
-        $this->assertNull($obj->getFlagForce());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumCol());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getValeur());
-    }
-
-    /**
      * Tests the setCodeModele() method.
      *
      * @return void
@@ -149,5 +130,24 @@ class BordPrepVarTest extends AbstractTestCase {
 
         $obj->setValeur(10.092018);
         $this->assertEquals(10.092018, $obj->getValeur());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BordPrepVar();
+
+        $this->assertNull($obj->getCodeModele());
+        $this->assertNull($obj->getFlagForce());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumCol());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getValeur());
     }
 }

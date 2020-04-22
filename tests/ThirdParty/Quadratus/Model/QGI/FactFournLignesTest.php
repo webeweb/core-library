@@ -23,26 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\FactFournLignes;
 class FactFournLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FactFournLignes();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCollaborateur());
-        $this->assertNull($obj->getCompte());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontantCredit());
-        $this->assertNull($obj->getMontantDebit());
-        $this->assertNull($obj->getNumEntete());
-        $this->assertNull($obj->getNumLigne());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -157,5 +137,25 @@ class FactFournLignesTest extends AbstractTestCase {
 
         $obj->setNumLigne(10);
         $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FactFournLignes();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCollaborateur());
+        $this->assertNull($obj->getCompte());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontantCredit());
+        $this->assertNull($obj->getMontantDebit());
+        $this->assertNull($obj->getNumEntete());
+        $this->assertNull($obj->getNumLigne());
     }
 }

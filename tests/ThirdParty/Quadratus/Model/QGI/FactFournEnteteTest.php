@@ -25,32 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\FactFournEntete;
 class FactFournEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FactFournEntete();
-
-        $this->assertNull($obj->getBoniMali());
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getFolio());
-        $this->assertNull($obj->getLibAuto());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMonnaie());
-        $this->assertNull($obj->getMontantTtCcredit());
-        $this->assertNull($obj->getMontantTtCdebit());
-        $this->assertNull($obj->getNumDossCpta());
-        $this->assertNull($obj->getNumFacture());
-        $this->assertNull($obj->getNumFournisseur());
-        $this->assertNull($obj->getNumLot());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getRefImage());
-    }
-
-    /**
      * Tests the setBoniMali() method.
      *
      * @return void
@@ -247,5 +221,31 @@ class FactFournEnteteTest extends AbstractTestCase {
 
         $obj->setRefImage("refImage");
         $this->assertEquals("refImage", $obj->getRefImage());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FactFournEntete();
+
+        $this->assertNull($obj->getBoniMali());
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getFolio());
+        $this->assertNull($obj->getLibAuto());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMonnaie());
+        $this->assertNull($obj->getMontantTtCcredit());
+        $this->assertNull($obj->getMontantTtCdebit());
+        $this->assertNull($obj->getNumDossCpta());
+        $this->assertNull($obj->getNumFacture());
+        $this->assertNull($obj->getNumFournisseur());
+        $this->assertNull($obj->getNumLot());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getRefImage());
     }
 }

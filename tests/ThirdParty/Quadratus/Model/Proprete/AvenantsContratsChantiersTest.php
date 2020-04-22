@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AvenantsContratsChantie
 class AvenantsContratsChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AvenantsContratsChantiers();
-
-        $this->assertNull($obj->getCodeAbsence());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeTitulaire());
-        $this->assertNull($obj->getNumeroAvenant());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getRemplaceAu());
-        $this->assertNull($obj->getRemplaceDu());
-        $this->assertNull($obj->getTypeDocument());
-    }
-
-    /**
      * Tests the setCodeAbsence() method.
      *
      * @return void
@@ -195,5 +173,27 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
 
         $obj->setTypeDocument("typeDocument");
         $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AvenantsContratsChantiers();
+
+        $this->assertNull($obj->getCodeAbsence());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTitulaire());
+        $this->assertNull($obj->getNumeroAvenant());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getRemplaceAu());
+        $this->assertNull($obj->getRemplaceDu());
+        $this->assertNull($obj->getTypeDocument());
     }
 }

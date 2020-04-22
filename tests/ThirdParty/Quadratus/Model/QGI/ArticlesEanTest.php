@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ArticlesEan;
 class ArticlesEanTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ArticlesEan();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getEan());
-        $this->assertNull($obj->getGamme());
-        $this->assertNull($obj->getVariante());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class ArticlesEanTest extends AbstractTestCase {
 
         $obj->setVariante("variante");
         $this->assertEquals("variante", $obj->getVariante());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ArticlesEan();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getEan());
+        $this->assertNull($obj->getGamme());
+        $this->assertNull($obj->getVariante());
     }
 }

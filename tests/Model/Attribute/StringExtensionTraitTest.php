@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringExtensionTrait;
 class StringExtensionTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringExtensionTrait();
-
-        $this->assertNull($obj->getExtension());
-    }
-
-    /**
      * Tests the setExtension() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringExtensionTraitTest extends AbstractTestCase {
 
         $obj->setExtension("extension");
         $this->assertEquals("extension", $obj->getExtension());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringExtensionTrait();
+
+        $this->assertNull($obj->getExtension());
     }
 }

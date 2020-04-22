@@ -23,28 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Prospects;
 class ProspectsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Prospects();
-
-        $this->assertNull($obj->getBtq());
-        $this->assertNull($obj->getBureauDistributeur());
-        $this->assertNull($obj->getCodePostal());
-        $this->assertNull($obj->getCodeProspect());
-        $this->assertNull($obj->getComplement());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getNomSuite());
-        $this->assertNull($obj->getNomSuite2());
-        $this->assertNull($obj->getNomSuite3());
-        $this->assertNull($obj->getNomVoie());
-        $this->assertNull($obj->getNumVoie());
-    }
-
-    /**
      * Tests the setBtq() method.
      *
      * @return void
@@ -185,5 +163,27 @@ class ProspectsTest extends AbstractTestCase {
 
         $obj->setNumVoie("numVoie");
         $this->assertEquals("numVoie", $obj->getNumVoie());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Prospects();
+
+        $this->assertNull($obj->getBtq());
+        $this->assertNull($obj->getBureauDistributeur());
+        $this->assertNull($obj->getCodePostal());
+        $this->assertNull($obj->getCodeProspect());
+        $this->assertNull($obj->getComplement());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNomSuite());
+        $this->assertNull($obj->getNomSuite2());
+        $this->assertNull($obj->getNomSuite3());
+        $this->assertNull($obj->getNomVoie());
+        $this->assertNull($obj->getNumVoie());
     }
 }

@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\RecapDfi;
 class RecapDfiTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RecapDfi();
-
-        $this->assertNull($obj->getAnneeDed());
-        $this->assertNull($obj->getAnneeUtilisation());
-        $this->assertNull($obj->getImmobilisations());
-        $this->assertNull($obj->getMttAnnee());
-        $this->assertNull($obj->getPartsSociales());
-        $this->assertNull($obj->getReintAnticipee());
-        $this->assertNull($obj->getStocks());
-    }
-
-    /**
      * Tests the setAnneeDed() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class RecapDfiTest extends AbstractTestCase {
 
         $obj->setStocks(10.092018);
         $this->assertEquals(10.092018, $obj->getStocks());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RecapDfi();
+
+        $this->assertNull($obj->getAnneeDed());
+        $this->assertNull($obj->getAnneeUtilisation());
+        $this->assertNull($obj->getImmobilisations());
+        $this->assertNull($obj->getMttAnnee());
+        $this->assertNull($obj->getPartsSociales());
+        $this->assertNull($obj->getReintAnticipee());
+        $this->assertNull($obj->getStocks());
     }
 }

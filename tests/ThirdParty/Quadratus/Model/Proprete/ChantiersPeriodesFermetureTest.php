@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersPeriodesFermet
 class ChantiersPeriodesFermetureTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersPeriodesFermeture();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getDateAu());
-        $this->assertNull($obj->getDateDu());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -111,5 +95,21 @@ class ChantiersPeriodesFermetureTest extends AbstractTestCase {
 
         $obj->setDateDu($dateDu);
         $this->assertSame($dateDu, $obj->getDateDu());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersPeriodesFermeture();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDateAu());
+        $this->assertNull($obj->getDateDu());
     }
 }

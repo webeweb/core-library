@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\DetailsMissions;
 class DetailsMissionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DetailsMissions();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCodeTravail());
-        $this->assertNull($obj->getNiveau());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getTypeAffectation());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class DetailsMissionsTest extends AbstractTestCase {
 
         $obj->setTypeAffectation("typeAffectation");
         $this->assertEquals("typeAffectation", $obj->getTypeAffectation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DetailsMissions();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodeTravail());
+        $this->assertNull($obj->getNiveau());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getTypeAffectation());
     }
 }

@@ -23,25 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersFrequencesCont
 class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersFrequencesControlesQualite();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getJour());
-        $this->assertNull($obj->getMois());
-        $this->assertNull($obj->getNumeroFreq());
-        $this->assertNull($obj->getQuePremiereAnnee());
-        $this->assertNull($obj->getTypeControle());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -143,5 +124,24 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
 
         $obj->setTypeControle("typeControle");
         $this->assertEquals("typeControle", $obj->getTypeControle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersFrequencesControlesQualite();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getJour());
+        $this->assertNull($obj->getMois());
+        $this->assertNull($obj->getNumeroFreq());
+        $this->assertNull($obj->getQuePremiereAnnee());
+        $this->assertNull($obj->getTypeControle());
     }
 }

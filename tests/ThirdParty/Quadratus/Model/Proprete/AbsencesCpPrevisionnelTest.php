@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AbsencesCpPrevisionnel;
 class AbsencesCpPrevisionnelTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AbsencesCpPrevisionnel();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCollaborateur());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDateDebutCp());
-        $this->assertNull($obj->getDateDemande());
-        $this->assertNull($obj->getDateEtatCp());
-        $this->assertNull($obj->getDateFinCp());
-        $this->assertNull($obj->getDepuisWeb());
-        $this->assertNull($obj->getEtatCp());
-        $this->assertNull($obj->getIndice());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -189,5 +168,26 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
 
         $obj->setIndice("indice");
         $this->assertEquals("indice", $obj->getIndice());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AbsencesCpPrevisionnel();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCollaborateur());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDateDebutCp());
+        $this->assertNull($obj->getDateDemande());
+        $this->assertNull($obj->getDateEtatCp());
+        $this->assertNull($obj->getDateFinCp());
+        $this->assertNull($obj->getDepuisWeb());
+        $this->assertNull($obj->getEtatCp());
+        $this->assertNull($obj->getIndice());
     }
 }

@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpRecapLodeom;
 class EmpRecapLodeomTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpRecapLodeom();
-
-        $this->assertNull($obj->getBrut());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getDifference());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNbhr());
-        $this->assertNull($obj->getNomEmploye());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getReducBul());
-        $this->assertNull($obj->getReducRecalc());
-        $this->assertNull($obj->getShb());
-    }
-
-    /**
      * Tests the setBrut() method.
      *
      * @return void
@@ -219,5 +195,29 @@ class EmpRecapLodeomTest extends AbstractTestCase {
 
         $obj->setShb(10.092018);
         $this->assertEquals(10.092018, $obj->getShb());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpRecapLodeom();
+
+        $this->assertNull($obj->getBrut());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getDifference());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNbhr());
+        $this->assertNull($obj->getNomEmploye());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getReducBul());
+        $this->assertNull($obj->getReducRecalc());
+        $this->assertNull($obj->getShb());
     }
 }

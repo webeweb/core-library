@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Actions;
 class ActionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Actions();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeCalcul());
-        $this->assertNull($obj->getDescriptifCourt());
-        $this->assertNull($obj->getDescriptifLong());
-        $this->assertNull($obj->getObligationLiee());
-        $this->assertNull($obj->getQuantiteHeure());
-        $this->assertNull($obj->getRelationQh());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class ActionsTest extends AbstractTestCase {
 
         $obj->setRelationQh(true);
         $this->assertEquals(true, $obj->getRelationQh());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Actions();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeCalcul());
+        $this->assertNull($obj->getDescriptifCourt());
+        $this->assertNull($obj->getDescriptifLong());
+        $this->assertNull($obj->getObligationLiee());
+        $this->assertNull($obj->getQuantiteHeure());
+        $this->assertNull($obj->getRelationQh());
     }
 }

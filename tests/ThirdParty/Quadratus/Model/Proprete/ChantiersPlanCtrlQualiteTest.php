@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersPlanCtrlQualit
 class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersPlanCtrlQualite();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDatePrevue());
-        $this->assertNull($obj->getDateReelle());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getNoteGlobale());
-        $this->assertNull($obj->getNumeroReclam());
-        $this->assertNull($obj->getRealiseParFcq());
-        $this->assertNull($obj->getTypeControle());
-        $this->assertNull($obj->getUniqIdSynchro());
-        $this->assertNull($obj->getUniqIdNoeud());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -269,5 +242,32 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersPlanCtrlQualite();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDatePrevue());
+        $this->assertNull($obj->getDateReelle());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getNoteGlobale());
+        $this->assertNull($obj->getNumeroReclam());
+        $this->assertNull($obj->getRealiseParFcq());
+        $this->assertNull($obj->getTypeControle());
+        $this->assertNull($obj->getUniqIdSynchro());
+        $this->assertNull($obj->getUniqIdNoeud());
     }
 }

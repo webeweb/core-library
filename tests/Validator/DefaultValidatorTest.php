@@ -56,18 +56,6 @@ class DefaultValidatorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DefaultValidator($this->ruleSet);
-
-        $this->assertSame($this->ruleSet, $obj->getRuleSet());
-    }
-
-    /**
      * Tests the validate() method.
      *
      * @return void
@@ -81,5 +69,17 @@ class DefaultValidatorTest extends AbstractTestCase {
         $this->assertInstanceOf(ValidationStatusInterface::class, $res[0]);
         $this->assertEquals(500, $res[0]->getCode());
         $this->assertEquals("The argument is not an int", $res[0]->getMessage());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DefaultValidator($this->ruleSet);
+
+        $this->assertSame($this->ruleSet, $obj->getRuleSet());
     }
 }

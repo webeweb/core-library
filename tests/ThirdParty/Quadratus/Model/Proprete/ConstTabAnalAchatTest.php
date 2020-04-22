@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ConstTabAnalAchat;
 class ConstTabAnalAchatTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConstTabAnalAchat();
-
-        $this->assertNull($obj->getCodeAnalArticle());
-        $this->assertNull($obj->getCodeAnalFourn());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeNature());
-    }
-
-    /**
      * Tests the setCodeAnalArticle() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class ConstTabAnalAchatTest extends AbstractTestCase {
 
         $obj->setCodeNature("codeNature");
         $this->assertEquals("codeNature", $obj->getCodeNature());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConstTabAnalAchat();
+
+        $this->assertNull($obj->getCodeAnalArticle());
+        $this->assertNull($obj->getCodeAnalFourn());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeNature());
     }
 }

@@ -25,38 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LettresMissionsLignes;
 class LettresMissionsLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LettresMissionsLignes();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getCodeTravail());
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getDateFin());
-        $this->assertNull($obj->getDeclarationARediger());
-        $this->assertNull($obj->getFrequence());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNbrHeures());
-        $this->assertNull($obj->getNbrOperations());
-        $this->assertNull($obj->getNiveau());
-        $this->assertNull($obj->getNiveauLigne());
-        $this->assertNull($obj->getNumeroLettre());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getObservations());
-        $this->assertNull($obj->getPolice());
-        $this->assertNull($obj->getRealisePar());
-        $this->assertNull($obj->getTypeAffectation());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -335,5 +303,37 @@ class LettresMissionsLignesTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LettresMissionsLignes();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getCodeTravail());
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getDateFin());
+        $this->assertNull($obj->getDeclarationARediger());
+        $this->assertNull($obj->getFrequence());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNbrHeures());
+        $this->assertNull($obj->getNbrOperations());
+        $this->assertNull($obj->getNiveau());
+        $this->assertNull($obj->getNiveauLigne());
+        $this->assertNull($obj->getNumeroLettre());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getObservations());
+        $this->assertNull($obj->getPolice());
+        $this->assertNull($obj->getRealisePar());
+        $this->assertNull($obj->getTypeAffectation());
+        $this->assertNull($obj->getUniqId());
     }
 }

@@ -23,25 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\ConventionsColLibelles;
 class ConventionsColLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConventionsColLibelles();
-
-        $this->assertNull($obj->getActive());
-        $this->assertNull($obj->getCategSalarie());
-        $this->assertNull($obj->getCodeConvention());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getFraisSanteAm());
-        $this->assertNull($obj->getIndiceCateg());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getPosition());
-    }
-
-    /**
      * Tests the setActive() method.
      *
      * @return void
@@ -143,5 +124,24 @@ class ConventionsColLibellesTest extends AbstractTestCase {
 
         $obj->setPosition(10);
         $this->assertEquals(10, $obj->getPosition());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConventionsColLibelles();
+
+        $this->assertNull($obj->getActive());
+        $this->assertNull($obj->getCategSalarie());
+        $this->assertNull($obj->getCodeConvention());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getFraisSanteAm());
+        $this->assertNull($obj->getIndiceCateg());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getPosition());
     }
 }

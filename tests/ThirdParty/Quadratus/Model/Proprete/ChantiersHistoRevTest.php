@@ -25,31 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersHistoRev;
 class ChantiersHistoRevTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersHistoRev();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeFormule());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDateRevision());
-        $this->assertNull($obj->getFormule());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getNumLigneRev());
-        $this->assertNull($obj->getPeriodeRevisee());
-        $this->assertNull($obj->getPourcentage());
-        $this->assertNull($obj->getRefusClient());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -237,5 +212,30 @@ class ChantiersHistoRevTest extends AbstractTestCase {
 
         $obj->setRefusClient(true);
         $this->assertEquals(true, $obj->getRefusClient());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersHistoRev();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeFormule());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDateRevision());
+        $this->assertNull($obj->getFormule());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getNumLigneRev());
+        $this->assertNull($obj->getPeriodeRevisee());
+        $this->assertNull($obj->getPourcentage());
+        $this->assertNull($obj->getRefusClient());
     }
 }

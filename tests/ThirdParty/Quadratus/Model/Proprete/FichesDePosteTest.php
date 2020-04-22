@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesDePoste;
 class FichesDePosteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesDePoste();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getPoste());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class FichesDePosteTest extends AbstractTestCase {
 
         $obj->setPoste("poste");
         $this->assertEquals("poste", $obj->getPoste());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesDePoste();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getPoste());
     }
 }

@@ -25,47 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PlansEnTeteBonTrav;
 class PlansEnTeteBonTravTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PlansEnTeteBonTrav();
-
-        $this->assertNull($obj->getBtq());
-        $this->assertNull($obj->getBureauDistributeur());
-        $this->assertNull($obj->getCivilite());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodePays());
-        $this->assertNull($obj->getCodePostal());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getComplement());
-        $this->assertNull($obj->getDtAvantDernPrepa());
-        $this->assertNull($obj->getDtDernPrepa());
-        $this->assertNull($obj->getDtValiditeFactDeb());
-        $this->assertNull($obj->getDtValiditeFactDebDebMois());
-        $this->assertNull($obj->getDtValiditeFactFin());
-        $this->assertNull($obj->getDtValiditeFactFinFinMois());
-        $this->assertNull($obj->getJourFact());
-        $this->assertNull($obj->getMontantHtpx());
-        $this->assertNull($obj->getMontantHtvm());
-        $this->assertNull($obj->getNomClient());
-        $this->assertNull($obj->getNomSuite());
-        $this->assertNull($obj->getNomSuite2());
-        $this->assertNull($obj->getNomSuite3());
-        $this->assertNull($obj->getNomVoie());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getNumVoie());
-        $this->assertNull($obj->getReferenceFacture());
-        $this->assertNull($obj->getReferenceFacture2());
-        $this->assertNull($obj->getRepriseDatesEmployes());
-        $this->assertNull($obj->getTypeAdresse());
-    }
-
-    /**
      * Tests the setBtq() method.
      *
      * @return void
@@ -477,5 +436,46 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
 
         $obj->setTypeAdresse("typeAdresse");
         $this->assertEquals("typeAdresse", $obj->getTypeAdresse());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PlansEnTeteBonTrav();
+
+        $this->assertNull($obj->getBtq());
+        $this->assertNull($obj->getBureauDistributeur());
+        $this->assertNull($obj->getCivilite());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodePays());
+        $this->assertNull($obj->getCodePostal());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getComplement());
+        $this->assertNull($obj->getDtAvantDernPrepa());
+        $this->assertNull($obj->getDtDernPrepa());
+        $this->assertNull($obj->getDtValiditeFactDeb());
+        $this->assertNull($obj->getDtValiditeFactDebDebMois());
+        $this->assertNull($obj->getDtValiditeFactFin());
+        $this->assertNull($obj->getDtValiditeFactFinFinMois());
+        $this->assertNull($obj->getJourFact());
+        $this->assertNull($obj->getMontantHtpx());
+        $this->assertNull($obj->getMontantHtvm());
+        $this->assertNull($obj->getNomClient());
+        $this->assertNull($obj->getNomSuite());
+        $this->assertNull($obj->getNomSuite2());
+        $this->assertNull($obj->getNomSuite3());
+        $this->assertNull($obj->getNomVoie());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getNumVoie());
+        $this->assertNull($obj->getReferenceFacture());
+        $this->assertNull($obj->getReferenceFacture2());
+        $this->assertNull($obj->getRepriseDatesEmployes());
+        $this->assertNull($obj->getTypeAdresse());
     }
 }

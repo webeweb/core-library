@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RegroupementLibelles;
 class RegroupementLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RegroupementLibelles();
-
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getNumRegroupement());
-    }
-
-    /**
      * Tests the setCodeLibelle() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class RegroupementLibellesTest extends AbstractTestCase {
 
         $obj->setNumRegroupement(10);
         $this->assertEquals(10, $obj->getNumRegroupement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RegroupementLibelles();
+
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getNumRegroupement());
     }
 }

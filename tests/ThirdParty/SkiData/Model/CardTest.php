@@ -25,46 +25,6 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\Card;
 class CardTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new Card();
-
-        $this->assertNull($obj->getArticleNumber());
-        $this->assertNull($obj->getBlocked());
-        $this->assertNull($obj->getBlockedDate());
-        $this->assertNull($obj->getCurrencyResidualValue());
-        $this->assertNull($obj->getDisplayText());
-        $this->assertNull($obj->getDisplayText1());
-        $this->assertNull($obj->getDisplayText2());
-        $this->assertNull($obj->getEntryBarrierClosed());
-        $this->assertNull($obj->getExitBarrierClosed());
-        $this->assertNull($obj->getExpires());
-        $this->assertNull($obj->getNeutral());
-        $this->assertNull($obj->getPersonnalNo());
-        $this->assertNull($obj->getProductionCounter());
-        $this->assertNull($obj->getProductionFacilityNumber());
-        $this->assertNull($obj->getProductionState());
-        $this->assertNull($obj->getReasonProduction());
-        $this->assertNull($obj->getResidualValue());
-        $this->assertNull($obj->getRetainTicketEntry());
-        $this->assertNull($obj->getRetainTicketExit());
-        $this->assertNull($obj->getSerialNo());
-        $this->assertNull($obj->getSerialNumberKeyCardSwatch());
-        $this->assertNull($obj->getSuspendPeriodFrom());
-        $this->assertNull($obj->getSuspendPeriodUntil());
-        $this->assertNull($obj->getTicketNumber());
-        $this->assertNull($obj->getTicketSubType());
-        $this->assertNull($obj->getTicketType());
-        $this->assertNull($obj->getUseValidCarParks());
-        $this->assertNull($obj->getUserNumber());
-        $this->assertNull($obj->getValidFrom());
-    }
-
-    /**
      * Tests the setArticleNumber() method.
      *
      * @return void
@@ -417,5 +377,45 @@ class CardTest extends AbstractTestCase {
 
         $obj->setValidFrom(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getValidFrom()->format("Y-m-d"));
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new Card();
+
+        $this->assertNull($obj->getArticleNumber());
+        $this->assertNull($obj->getBlocked());
+        $this->assertNull($obj->getBlockedDate());
+        $this->assertNull($obj->getCurrencyResidualValue());
+        $this->assertNull($obj->getDisplayText());
+        $this->assertNull($obj->getDisplayText1());
+        $this->assertNull($obj->getDisplayText2());
+        $this->assertNull($obj->getEntryBarrierClosed());
+        $this->assertNull($obj->getExitBarrierClosed());
+        $this->assertNull($obj->getExpires());
+        $this->assertNull($obj->getNeutral());
+        $this->assertNull($obj->getPersonnalNo());
+        $this->assertNull($obj->getProductionCounter());
+        $this->assertNull($obj->getProductionFacilityNumber());
+        $this->assertNull($obj->getProductionState());
+        $this->assertNull($obj->getReasonProduction());
+        $this->assertNull($obj->getResidualValue());
+        $this->assertNull($obj->getRetainTicketEntry());
+        $this->assertNull($obj->getRetainTicketExit());
+        $this->assertNull($obj->getSerialNo());
+        $this->assertNull($obj->getSerialNumberKeyCardSwatch());
+        $this->assertNull($obj->getSuspendPeriodFrom());
+        $this->assertNull($obj->getSuspendPeriodUntil());
+        $this->assertNull($obj->getTicketNumber());
+        $this->assertNull($obj->getTicketSubType());
+        $this->assertNull($obj->getTicketType());
+        $this->assertNull($obj->getUseValidCarParks());
+        $this->assertNull($obj->getUserNumber());
+        $this->assertNull($obj->getValidFrom());
     }
 }

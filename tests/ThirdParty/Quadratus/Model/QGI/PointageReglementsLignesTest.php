@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\PointageReglementsLignes;
 class PointageReglementsLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PointageReglementsLignes();
-
-        $this->assertNull($obj->getMontantPointe());
-        $this->assertNull($obj->getNumCptPayeur());
-        $this->assertNull($obj->getNumDoss());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumUniqEcr());
-        $this->assertNull($obj->getNumeroCompte());
-    }
-
-    /**
      * Tests the setMontantPointe() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class PointageReglementsLignesTest extends AbstractTestCase {
 
         $obj->setNumeroCompte("numeroCompte");
         $this->assertEquals("numeroCompte", $obj->getNumeroCompte());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PointageReglementsLignes();
+
+        $this->assertNull($obj->getMontantPointe());
+        $this->assertNull($obj->getNumCptPayeur());
+        $this->assertNull($obj->getNumDoss());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumUniqEcr());
+        $this->assertNull($obj->getNumeroCompte());
     }
 }

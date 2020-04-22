@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersDescriptifLoca
 class ChantiersDescriptifLocauxTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersDescriptifLocaux();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeCritere1());
-        $this->assertNull($obj->getCoefficient());
-        $this->assertNull($obj->getDateTransfert());
-        $this->assertNull($obj->getFamilleElements());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLibelleCritere1());
-        $this->assertNull($obj->getNiveauNoeud());
-        $this->assertNull($obj->getNoeudLocal());
-        $this->assertNull($obj->getNoteObjectif());
-        $this->assertNull($obj->getNumeroNoeud());
-        $this->assertNull($obj->getPoste());
-        $this->assertNull($obj->getUniqIdBlocage());
-        $this->assertNull($obj->getUniqIdNoeud());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -275,5 +247,33 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
 
         $obj->setUniqIdNoeud("uniqIdNoeud");
         $this->assertEquals("uniqIdNoeud", $obj->getUniqIdNoeud());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersDescriptifLocaux();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeCritere1());
+        $this->assertNull($obj->getCoefficient());
+        $this->assertNull($obj->getDateTransfert());
+        $this->assertNull($obj->getFamilleElements());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLibelleCritere1());
+        $this->assertNull($obj->getNiveauNoeud());
+        $this->assertNull($obj->getNoeudLocal());
+        $this->assertNull($obj->getNoteObjectif());
+        $this->assertNull($obj->getNumeroNoeud());
+        $this->assertNull($obj->getPoste());
+        $this->assertNull($obj->getUniqIdBlocage());
+        $this->assertNull($obj->getUniqIdNoeud());
     }
 }

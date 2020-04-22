@@ -23,29 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\BonsTravauxIntervention
 class BonsTravauxInterventionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BonsTravauxInterventions();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getDimanche());
-        $this->assertNull($obj->getJeudi());
-        $this->assertNull($obj->getLundi());
-        $this->assertNull($obj->getMardi());
-        $this->assertNull($obj->getMercredi());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getNumSem());
-        $this->assertNull($obj->getSamedi());
-        $this->assertNull($obj->getVendredi());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -199,5 +176,28 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
 
         $obj->setVendredi(true);
         $this->assertEquals(true, $obj->getVendredi());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BonsTravauxInterventions();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDimanche());
+        $this->assertNull($obj->getJeudi());
+        $this->assertNull($obj->getLundi());
+        $this->assertNull($obj->getMardi());
+        $this->assertNull($obj->getMercredi());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getNumSem());
+        $this->assertNull($obj->getSamedi());
+        $this->assertNull($obj->getVendredi());
     }
 }

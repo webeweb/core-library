@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class FileSizeRendererTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $this->assertEquals(1024, FileSizeRenderer::SIZE_DIVIDER_KIO);
-        $this->assertEquals(1024 * 1024, FileSizeRenderer::SIZE_DIVIDER_MIO);
-        $this->assertEquals(1024 * 1024 * 1024, FileSizeRenderer::SIZE_DIVIDER_GIO);
-    }
-
-    /**
      * Tests the renderSize() method.
      *
      * @return void
@@ -47,5 +35,17 @@ class FileSizeRendererTest extends AbstractTestCase {
         $this->assertRegExp("/^1[\.,]00 Mio$/", FileSizeRenderer::renderSize(1048576));
         $this->assertRegExp("/^1[\.,]00 Gio$/", FileSizeRenderer::renderSize(1073741842));
         $this->assertRegExp("/^1[\.,]000 Gio$/", FileSizeRenderer::renderSize(1073741842, 3));
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $this->assertEquals(1024, FileSizeRenderer::SIZE_DIVIDER_KIO);
+        $this->assertEquals(1024 * 1024, FileSizeRenderer::SIZE_DIVIDER_MIO);
+        $this->assertEquals(1024 * 1024 * 1024, FileSizeRenderer::SIZE_DIVIDER_GIO);
     }
 }

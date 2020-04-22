@@ -25,32 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Nomenclatures;
 class NomenclaturesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Nomenclatures();
-
-        $this->assertNull($obj->getCode1());
-        $this->assertNull($obj->getCode2());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getCommentaire2());
-        $this->assertNull($obj->getDate1());
-        $this->assertNull($obj->getDate2());
-        $this->assertNull($obj->getDouble1());
-        $this->assertNull($obj->getDouble2());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getTexte1());
-        $this->assertNull($obj->getTexte2());
-        $this->assertNull($obj->getTexte3());
-        $this->assertNull($obj->getTexte4());
-        $this->assertNull($obj->getTexte5());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCode1() method.
      *
      * @return void
@@ -251,5 +225,31 @@ class NomenclaturesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Nomenclatures();
+
+        $this->assertNull($obj->getCode1());
+        $this->assertNull($obj->getCode2());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getCommentaire2());
+        $this->assertNull($obj->getDate1());
+        $this->assertNull($obj->getDate2());
+        $this->assertNull($obj->getDouble1());
+        $this->assertNull($obj->getDouble2());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getTexte1());
+        $this->assertNull($obj->getTexte2());
+        $this->assertNull($obj->getTexte3());
+        $this->assertNull($obj->getTexte4());
+        $this->assertNull($obj->getTexte5());
+        $this->assertNull($obj->getType());
     }
 }

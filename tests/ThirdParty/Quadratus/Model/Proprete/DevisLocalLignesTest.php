@@ -23,46 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisLocalLignes;
 class DevisLocalLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DevisLocalLignes();
-
-        $this->assertNull($obj->getAou());
-        $this->assertNull($obj->getAvr());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeProgramme());
-        $this->assertNull($obj->getDec());
-        $this->assertNull($obj->getDesignation());
-        $this->assertNull($obj->getDimanche());
-        $this->assertNull($obj->getFev());
-        $this->assertNull($obj->getJan());
-        $this->assertNull($obj->getJeudi());
-        $this->assertNull($obj->getJuil());
-        $this->assertNull($obj->getJuin());
-        $this->assertNull($obj->getLundi());
-        $this->assertNull($obj->getMai());
-        $this->assertNull($obj->getMar());
-        $this->assertNull($obj->getMardi());
-        $this->assertNull($obj->getMercredi());
-        $this->assertNull($obj->getNov());
-        $this->assertNull($obj->getNumDevis());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumLigneLocal());
-        $this->assertNull($obj->getOccurrence());
-        $this->assertNull($obj->getOct());
-        $this->assertNull($obj->getPeriodicite());
-        $this->assertNull($obj->getSamedi());
-        $this->assertNull($obj->getSep());
-        $this->assertNull($obj->getVendredi());
-    }
-
-    /**
      * Tests the setAou() method.
      *
      * @return void
@@ -437,5 +397,45 @@ class DevisLocalLignesTest extends AbstractTestCase {
 
         $obj->setVendredi(true);
         $this->assertEquals(true, $obj->getVendredi());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DevisLocalLignes();
+
+        $this->assertNull($obj->getAou());
+        $this->assertNull($obj->getAvr());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeProgramme());
+        $this->assertNull($obj->getDec());
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getDimanche());
+        $this->assertNull($obj->getFev());
+        $this->assertNull($obj->getJan());
+        $this->assertNull($obj->getJeudi());
+        $this->assertNull($obj->getJuil());
+        $this->assertNull($obj->getJuin());
+        $this->assertNull($obj->getLundi());
+        $this->assertNull($obj->getMai());
+        $this->assertNull($obj->getMar());
+        $this->assertNull($obj->getMardi());
+        $this->assertNull($obj->getMercredi());
+        $this->assertNull($obj->getNov());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumLigneLocal());
+        $this->assertNull($obj->getOccurrence());
+        $this->assertNull($obj->getOct());
+        $this->assertNull($obj->getPeriodicite());
+        $this->assertNull($obj->getSamedi());
+        $this->assertNull($obj->getSep());
+        $this->assertNull($obj->getVendredi());
     }
 }

@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesGrillesAnc;
 class LignesGrillesAncTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesGrillesAnc();
-
-        $this->assertNull($obj->getCodeGrille());
-        $this->assertNull($obj->getNbMoisEcoules());
-        $this->assertNull($obj->getValeur());
-    }
-
-    /**
      * Tests the setCodeGrille() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class LignesGrillesAncTest extends AbstractTestCase {
 
         $obj->setValeur(10.092018);
         $this->assertEquals(10.092018, $obj->getValeur());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesGrillesAnc();
+
+        $this->assertNull($obj->getCodeGrille());
+        $this->assertNull($obj->getNbMoisEcoules());
+        $this->assertNull($obj->getValeur());
     }
 }

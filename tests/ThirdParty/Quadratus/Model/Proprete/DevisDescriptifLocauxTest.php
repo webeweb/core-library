@@ -23,26 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisDescriptifLocaux;
 class DevisDescriptifLocauxTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DevisDescriptifLocaux();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNiveauNoeud());
-        $this->assertNull($obj->getNoeudLocal());
-        $this->assertNull($obj->getNumDevis());
-        $this->assertNull($obj->getNumeroNoeud());
-        $this->assertNull($obj->getUniqIdNoeud());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -157,5 +137,25 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
 
         $obj->setUniqIdNoeud("uniqIdNoeud");
         $this->assertEquals("uniqIdNoeud", $obj->getUniqIdNoeud());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DevisDescriptifLocaux();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNiveauNoeud());
+        $this->assertNull($obj->getNoeudLocal());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getNumeroNoeud());
+        $this->assertNull($obj->getUniqIdNoeud());
     }
 }

@@ -52,19 +52,6 @@ class QuickSortTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new QuickSort($this->values, $this->functor);
-
-        $this->assertSame($this->functor, $obj->getFunctor());
-        $this->assertSame($this->values, $obj->getValues());
-    }
-
-    /**
      * Tests the sort() method.
      *
      * @return void
@@ -77,5 +64,18 @@ class QuickSortTest extends AbstractTestCase {
 
         $res = [12, 21, 23, 32, 34, 43, 45, 54, 56, 65, 67, 76, 78, 87, 89, 98];
         $this->assertEquals($res, $obj->getValues());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new QuickSort($this->values, $this->functor);
+
+        $this->assertSame($this->functor, $obj->getFunctor());
+        $this->assertSame($this->values, $obj->getValues());
     }
 }

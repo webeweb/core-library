@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringSchemaTrait;
 class StringSchemaTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringSchemaTrait();
-
-        $this->assertNull($obj->getSchema());
-    }
-
-    /**
      * Tests the setSchema() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringSchemaTraitTest extends AbstractTestCase {
 
         $obj->setSchema("schema");
         $this->assertEquals("schema", $obj->getSchema());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringSchemaTrait();
+
+        $this->assertNull($obj->getSchema());
     }
 }

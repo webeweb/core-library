@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsTaches;
 class ActionsTachesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ActionsTaches();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeTache());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ActionsTachesTest extends AbstractTestCase {
 
         $obj->setCodeTache("codeTache");
         $this->assertEquals("codeTache", $obj->getCodeTache());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ActionsTaches();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeTache());
     }
 }

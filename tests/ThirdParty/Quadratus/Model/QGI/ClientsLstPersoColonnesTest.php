@@ -23,31 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsLstPersoColonnes;
 class ClientsLstPersoColonnesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsLstPersoColonnes();
-
-        $this->assertNull($obj->getClauseWhere());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getIndiceTri());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getIsFormule());
-        $this->assertNull($obj->getJointure());
-        $this->assertNull($obj->getNbDecimales());
-        $this->assertNull($obj->getNomChamp());
-        $this->assertNull($obj->getNomTable());
-        $this->assertNull($obj->getRefGuid());
-        $this->assertNull($obj->getSaisie());
-        $this->assertNull($obj->getSelection());
-        $this->assertNull($obj->getTaille());
-        $this->assertNull($obj->getTitre());
-    }
-
-    /**
      * Tests the setClauseWhere() method.
      *
      * @return void
@@ -227,5 +202,30 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
 
         $obj->setTitre("titre");
         $this->assertEquals("titre", $obj->getTitre());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsLstPersoColonnes();
+
+        $this->assertNull($obj->getClauseWhere());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getIndiceTri());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getIsFormule());
+        $this->assertNull($obj->getJointure());
+        $this->assertNull($obj->getNbDecimales());
+        $this->assertNull($obj->getNomChamp());
+        $this->assertNull($obj->getNomTable());
+        $this->assertNull($obj->getRefGuid());
+        $this->assertNull($obj->getSaisie());
+        $this->assertNull($obj->getSelection());
+        $this->assertNull($obj->getTaille());
+        $this->assertNull($obj->getTitre());
     }
 }

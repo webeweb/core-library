@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Historique;
 class HistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Historique();
-
-        $this->assertNull($obj->getAnnees());
-        $this->assertNull($obj->getAnneesPlus());
-        $this->assertNull($obj->getCsValide());
-        $this->assertNull($obj->getCtValide());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getRub());
-        $this->assertNull($obj->getService());
-        $this->assertNull($obj->getVisiteMedicale());
-    }
-
-    /**
      * Tests the setAnnees() method.
      *
      * @return void
@@ -157,5 +138,24 @@ class HistoriqueTest extends AbstractTestCase {
 
         $obj->setVisiteMedicale($visiteMedicale);
         $this->assertSame($visiteMedicale, $obj->getVisiteMedicale());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Historique();
+
+        $this->assertNull($obj->getAnnees());
+        $this->assertNull($obj->getAnneesPlus());
+        $this->assertNull($obj->getCsValide());
+        $this->assertNull($obj->getCtValide());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getRub());
+        $this->assertNull($obj->getService());
+        $this->assertNull($obj->getVisiteMedicale());
     }
 }

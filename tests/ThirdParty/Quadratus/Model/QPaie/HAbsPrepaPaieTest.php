@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HAbsPrepaPaie;
 class HAbsPrepaPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HAbsPrepaPaie();
-
-        $this->assertNull($obj->getNbHNonEffectue());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getSemaine());
-        $this->assertNull($obj->getTypeAbsence());
-    }
-
-    /**
      * Tests the setNbHNonEffectue() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
 
         $obj->setTypeAbsence("typeAbsence");
         $this->assertEquals("typeAbsence", $obj->getTypeAbsence());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HAbsPrepaPaie();
+
+        $this->assertNull($obj->getNbHNonEffectue());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getSemaine());
+        $this->assertNull($obj->getTypeAbsence());
     }
 }

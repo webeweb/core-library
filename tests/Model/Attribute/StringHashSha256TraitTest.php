@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringHashSha256Trait;
 class StringHashSha256TraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringHashSha256Trait();
-
-        $this->assertNull($obj->getHashSha256());
-    }
-
-    /**
      * Tests the setHashSha256() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringHashSha256TraitTest extends AbstractTestCase {
 
         $obj->setHashSha256("hashSha256");
         $this->assertEquals("hashSha256", $obj->getHashSha256());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringHashSha256Trait();
+
+        $this->assertNull($obj->getHashSha256());
     }
 }

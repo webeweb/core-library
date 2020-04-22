@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\BulletinsNavigo;
 class BulletinsNavigoTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BulletinsNavigo();
-
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNbSemaine());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getRbtNonProratise());
-        $this->assertNull($obj->getTypeAbonnement());
-        $this->assertNull($obj->getZone());
-    }
-
-    /**
      * Tests the setIndicePeriode() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class BulletinsNavigoTest extends AbstractTestCase {
 
         $obj->setZone("zone");
         $this->assertEquals("zone", $obj->getZone());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BulletinsNavigo();
+
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNbSemaine());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getRbtNonProratise());
+        $this->assertNull($obj->getTypeAbonnement());
+        $this->assertNull($obj->getZone());
     }
 }

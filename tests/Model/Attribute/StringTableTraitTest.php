@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringTableTrait;
 class StringTableTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringTableTrait();
-
-        $this->assertNull($obj->getTable());
-    }
-
-    /**
      * Tests the setTable() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringTableTraitTest extends AbstractTestCase {
 
         $obj->setTable("table");
         $this->assertEquals("table", $obj->getTable());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringTableTrait();
+
+        $this->assertNull($obj->getTable());
     }
 }

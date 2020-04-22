@@ -61,34 +61,6 @@ class CurlConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __constructor() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CurlConfiguration();
-
-        $this->assertFalse($obj->getAllowEncoding());
-        $this->assertEquals(0, $obj->getConnectTimeout());
-        $this->assertFalse($obj->getDebug());
-        $this->assertEquals("php://output", $obj->getDebugFile());
-        $this->assertEquals([], $obj->getHeaders());
-        $this->assertNull($obj->getHost());
-        $this->assertNull($obj->getHttpPassword());
-        $this->assertNull($obj->getHttpUsername());
-        $this->assertNull($obj->getProxyHost());
-        $this->assertNull($obj->getProxyPassword());
-        $this->assertNull($obj->getProxyPort());
-        $this->assertNull($obj->getProxyType());
-        $this->assertNull($obj->getProxyUsername());
-        $this->assertEquals(0, $obj->getRequestTimeout());
-        $this->assertTrue($obj->getSslVerification());
-        $this->assertEquals("webeweb/curl-library", $obj->getUserAgent());
-        $this->assertFalse($obj->getVerbose());
-    }
-
-    /**
      * Tests the removeHeader() method.
      *
      * @return void
@@ -312,5 +284,33 @@ class CurlConfigurationTest extends AbstractTestCase {
 
         $obj->setVerbose(true);
         $this->assertTrue($obj->getVerbose());
+    }
+
+    /**
+     * Tests the __constructor() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CurlConfiguration();
+
+        $this->assertFalse($obj->getAllowEncoding());
+        $this->assertEquals(0, $obj->getConnectTimeout());
+        $this->assertFalse($obj->getDebug());
+        $this->assertEquals("php://output", $obj->getDebugFile());
+        $this->assertEquals([], $obj->getHeaders());
+        $this->assertNull($obj->getHost());
+        $this->assertNull($obj->getHttpPassword());
+        $this->assertNull($obj->getHttpUsername());
+        $this->assertNull($obj->getProxyHost());
+        $this->assertNull($obj->getProxyPassword());
+        $this->assertNull($obj->getProxyPort());
+        $this->assertNull($obj->getProxyType());
+        $this->assertNull($obj->getProxyUsername());
+        $this->assertEquals(0, $obj->getRequestTimeout());
+        $this->assertTrue($obj->getSslVerification());
+        $this->assertEquals("webeweb/curl-library", $obj->getUserAgent());
+        $this->assertFalse($obj->getVerbose());
     }
 }

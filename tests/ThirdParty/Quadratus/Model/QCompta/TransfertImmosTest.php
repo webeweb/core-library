@@ -23,29 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\TransfertImmos;
 class TransfertImmosTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TransfertImmos();
-
-        $this->assertNull($obj->getCptDerCap());
-        $this->assertNull($obj->getCptDerDot());
-        $this->assertNull($obj->getCptDerMaj());
-        $this->assertNull($obj->getCptDerRep());
-        $this->assertNull($obj->getCptDotCor());
-        $this->assertNull($obj->getCptDotExc());
-        $this->assertNull($obj->getCptDotFin());
-        $this->assertNull($obj->getCptDotInc());
-        $this->assertNull($obj->getCptValCor());
-        $this->assertNull($obj->getCptValExc());
-        $this->assertNull($obj->getCptValFin());
-        $this->assertNull($obj->getCptValInc());
-    }
-
-    /**
      * Tests the setCptDerCap() method.
      *
      * @return void
@@ -199,5 +176,28 @@ class TransfertImmosTest extends AbstractTestCase {
 
         $obj->setCptValInc("cptValInc");
         $this->assertEquals("cptValInc", $obj->getCptValInc());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TransfertImmos();
+
+        $this->assertNull($obj->getCptDerCap());
+        $this->assertNull($obj->getCptDerDot());
+        $this->assertNull($obj->getCptDerMaj());
+        $this->assertNull($obj->getCptDerRep());
+        $this->assertNull($obj->getCptDotCor());
+        $this->assertNull($obj->getCptDotExc());
+        $this->assertNull($obj->getCptDotFin());
+        $this->assertNull($obj->getCptDotInc());
+        $this->assertNull($obj->getCptValCor());
+        $this->assertNull($obj->getCptValExc());
+        $this->assertNull($obj->getCptValFin());
+        $this->assertNull($obj->getCptValInc());
     }
 }

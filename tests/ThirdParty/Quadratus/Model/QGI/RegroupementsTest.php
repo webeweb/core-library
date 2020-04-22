@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Regroupements;
 class RegroupementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Regroupements();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumOrdre());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class RegroupementsTest extends AbstractTestCase {
 
         $obj->setNumOrdre(10);
         $this->assertEquals(10, $obj->getNumOrdre());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Regroupements();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumOrdre());
     }
 }

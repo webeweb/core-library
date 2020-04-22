@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringPostalCodeTrait;
 class StringPostalCodeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringPostalCodeTrait();
-
-        $this->assertNull($obj->getPostalCode());
-    }
-
-    /**
      * Tests the setPostalCode() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringPostalCodeTraitTest extends AbstractTestCase {
 
         $obj->setPostalCode("postalCode");
         $this->assertEquals("postalCode", $obj->getPostalCode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringPostalCodeTrait();
+
+        $this->assertNull($obj->getPostalCode());
     }
 }

@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArticleVariantes;
 class ArticleVariantesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ArticleVariantes();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeBarre());
-        $this->assertNull($obj->getCodeVariante());
-        $this->assertNull($obj->getLibelle());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class ArticleVariantesTest extends AbstractTestCase {
 
         $obj->setLibelle("libelle");
         $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ArticleVariantes();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeBarre());
+        $this->assertNull($obj->getCodeVariante());
+        $this->assertNull($obj->getLibelle());
     }
 }

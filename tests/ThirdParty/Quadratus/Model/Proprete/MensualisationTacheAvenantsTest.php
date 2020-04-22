@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\MensualisationTacheAven
 class MensualisationTacheAvenantsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new MensualisationTacheAvenants();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getHistoMensSaisi());
-        $this->assertNull($obj->getMensualisationCalculee());
-        $this->assertNull($obj->getMensualisationSaisie());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getNumeroAvenant());
-        $this->assertNull($obj->getPeriodeDebutValidite());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -191,5 +169,27 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
 
         $obj->setPeriodeDebutValidite($periodeDebutValidite);
         $this->assertSame($periodeDebutValidite, $obj->getPeriodeDebutValidite());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new MensualisationTacheAvenants();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getHistoMensSaisi());
+        $this->assertNull($obj->getMensualisationCalculee());
+        $this->assertNull($obj->getMensualisationSaisie());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getNumeroAvenant());
+        $this->assertNull($obj->getPeriodeDebutValidite());
     }
 }

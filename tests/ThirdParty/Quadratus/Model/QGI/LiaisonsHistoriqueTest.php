@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LiaisonsHistorique;
 class LiaisonsHistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LiaisonsHistorique();
-
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getDateLiaison());
-        $this->assertNull($obj->getDateRetourPrevue());
-        $this->assertNull($obj->getDestinataire());
-        $this->assertNull($obj->getModules());
-        $this->assertNull($obj->getModulesBloques());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getNumeroDossier());
-        $this->assertNull($obj->getSens());
-        $this->assertNull($obj->getTypeLiaison());
-    }
-
-    /**
      * Tests the setCodeCollab() method.
      *
      * @return void
@@ -181,5 +160,26 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
 
         $obj->setTypeLiaison("typeLiaison");
         $this->assertEquals("typeLiaison", $obj->getTypeLiaison());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LiaisonsHistorique();
+
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getDateLiaison());
+        $this->assertNull($obj->getDateRetourPrevue());
+        $this->assertNull($obj->getDestinataire());
+        $this->assertNull($obj->getModules());
+        $this->assertNull($obj->getModulesBloques());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getNumeroDossier());
+        $this->assertNull($obj->getSens());
+        $this->assertNull($obj->getTypeLiaison());
     }
 }

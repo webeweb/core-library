@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Tva;
 class TvaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Tva();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCompteTvaAchat());
-        $this->assertNull($obj->getCompteTvaImmo());
-        $this->assertNull($obj->getCompteTvaVente());
-        $this->assertNull($obj->getCompteVentilation());
-        $this->assertNull($obj->getTauxTva());
-        $this->assertNull($obj->getTypeAutoliquidation());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class TvaTest extends AbstractTestCase {
 
         $obj->setTypeAutoliquidation("typeAutoliquidation");
         $this->assertEquals("typeAutoliquidation", $obj->getTypeAutoliquidation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Tva();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCompteTvaAchat());
+        $this->assertNull($obj->getCompteTvaImmo());
+        $this->assertNull($obj->getCompteTvaVente());
+        $this->assertNull($obj->getCompteVentilation());
+        $this->assertNull($obj->getTauxTva());
+        $this->assertNull($obj->getTypeAutoliquidation());
     }
 }

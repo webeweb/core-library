@@ -25,29 +25,6 @@ use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
 class LineTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Line();
-
-        $this->assertNull($obj->getAccountingCode());
-        $this->assertNull($obj->getAmount());
-        $this->assertNull($obj->getAmountSign());
-        $this->assertNull($obj->getAnalyticCode());
-        $this->assertNull($obj->getBookingJournalCode());
-        $this->assertNull($obj->getCurrency());
-        $this->assertNull($obj->getFreeField());
-        $this->assertNull($obj->getInvoiceDate());
-        $this->assertNull($obj->getInvoiceDueDate());
-        $this->assertNull($obj->getInvoiceNumber());
-        $this->assertNull($obj->getReference());
-        $this->assertNull($obj->getSubledgerAccount());
-    }
-
-    /**
      * Tests the setAmount() method.
      *
      * @return void
@@ -183,5 +160,28 @@ class LineTest extends AbstractTestCase {
 
         $obj->setSubledgerAccount("SubledgerAccount");
         $this->assertEquals("SubledgerAccount", $obj->getSubledgerAccount());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Line();
+
+        $this->assertNull($obj->getAccountingCode());
+        $this->assertNull($obj->getAmount());
+        $this->assertNull($obj->getAmountSign());
+        $this->assertNull($obj->getAnalyticCode());
+        $this->assertNull($obj->getBookingJournalCode());
+        $this->assertNull($obj->getCurrency());
+        $this->assertNull($obj->getFreeField());
+        $this->assertNull($obj->getInvoiceDate());
+        $this->assertNull($obj->getInvoiceDueDate());
+        $this->assertNull($obj->getInvoiceNumber());
+        $this->assertNull($obj->getReference());
+        $this->assertNull($obj->getSubledgerAccount());
     }
 }

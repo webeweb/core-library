@@ -24,24 +24,6 @@ use WBW\Library\Core\ThirdParty\OcrLad\Model\Page;
 class PageTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Page();
-
-        $this->assertNull($obj->getHeight());
-        $this->assertNull($obj->getParent());
-        $this->assertNull($obj->getResolution());
-        $this->assertNull($obj->getRotation());
-        $this->assertNull($obj->getTag());
-        $this->assertNull($obj->getWidth());
-        $this->assertEquals([], $obj->getWords());
-    }
-
-    /**
      * Tests the setParent() method.
      *
      * @return void
@@ -94,5 +76,23 @@ class PageTest extends AbstractTestCase {
 
         $obj->setTag(0);
         $this->assertEquals(0, $obj->getTag());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Page();
+
+        $this->assertNull($obj->getHeight());
+        $this->assertNull($obj->getParent());
+        $this->assertNull($obj->getResolution());
+        $this->assertNull($obj->getRotation());
+        $this->assertNull($obj->getTag());
+        $this->assertNull($obj->getWidth());
+        $this->assertEquals([], $obj->getWords());
     }
 }

@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ConventionsColConf;
 class ConventionsColConfTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConventionsColConf();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getDroit());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class ConventionsColConfTest extends AbstractTestCase {
 
         $obj->setType(10);
         $this->assertEquals(10, $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConventionsColConf();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getDroit());
+        $this->assertNull($obj->getType());
     }
 }

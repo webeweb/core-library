@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\DroitsAccesIntervenantsColla
 class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DroitsAccesIntervenantsCollab();
-
-        $this->assertNull($obj->getAccesLibre());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getTypeIntervenant());
-    }
-
-    /**
      * Tests the setAccesLibre() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
 
         $obj->setTypeIntervenant("typeIntervenant");
         $this->assertEquals("typeIntervenant", $obj->getTypeIntervenant());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DroitsAccesIntervenantsCollab();
+
+        $this->assertNull($obj->getAccesLibre());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getTypeIntervenant());
     }
 }

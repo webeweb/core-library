@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ObligationsLiees;
 class ObligationsLieesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ObligationsLiees();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeObligation());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ObligationsLieesTest extends AbstractTestCase {
 
         $obj->setCodeObligation("codeObligation");
         $this->assertEquals("codeObligation", $obj->getCodeObligation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ObligationsLiees();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeObligation());
     }
 }

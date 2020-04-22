@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxPlanPaie;
 class TauxPlanPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TauxPlanPaie();
-
-        $this->assertNull($obj->getAPartirDe());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getFormatNonEtendu());
-        $this->assertNull($obj->getNumeroTaux());
-        $this->assertNull($obj->getTauxPatronal());
-        $this->assertNull($obj->getTauxSalarial());
-    }
-
-    /**
      * Tests the setAPartirDe() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class TauxPlanPaieTest extends AbstractTestCase {
 
         $obj->setTauxSalarial(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxSalarial());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TauxPlanPaie();
+
+        $this->assertNull($obj->getAPartirDe());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getFormatNonEtendu());
+        $this->assertNull($obj->getNumeroTaux());
+        $this->assertNull($obj->getTauxPatronal());
+        $this->assertNull($obj->getTauxSalarial());
     }
 }

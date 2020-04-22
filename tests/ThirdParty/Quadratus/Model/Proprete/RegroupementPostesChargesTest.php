@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\RegroupementPostesCharg
 class RegroupementPostesChargesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RegroupementPostesCharges();
-
-        $this->assertNull($obj->getCodeCharge());
-        $this->assertNull($obj->getCodeRegCharge());
-    }
-
-    /**
      * Tests the setCodeCharge() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class RegroupementPostesChargesTest extends AbstractTestCase {
 
         $obj->setCodeRegCharge("codeRegCharge");
         $this->assertEquals("codeRegCharge", $obj->getCodeRegCharge());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RegroupementPostesCharges();
+
+        $this->assertNull($obj->getCodeCharge());
+        $this->assertNull($obj->getCodeRegCharge());
     }
 }

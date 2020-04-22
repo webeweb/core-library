@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisZbe;
 class DevisZbeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DevisZbe();
-
-        $this->assertNull($obj->getBatiment());
-        $this->assertNull($obj->getEtage());
-        $this->assertNull($obj->getNumDevis());
-        $this->assertNull($obj->getZoneGeographique());
-    }
-
-    /**
      * Tests the setBatiment() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class DevisZbeTest extends AbstractTestCase {
 
         $obj->setZoneGeographique("zoneGeographique");
         $this->assertEquals("zoneGeographique", $obj->getZoneGeographique());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DevisZbe();
+
+        $this->assertNull($obj->getBatiment());
+        $this->assertNull($obj->getEtage());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getZoneGeographique());
     }
 }

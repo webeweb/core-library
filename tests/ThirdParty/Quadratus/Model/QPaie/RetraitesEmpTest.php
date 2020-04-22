@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RetraitesEmp;
 class RetraitesEmpTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RetraitesEmp();
-
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getIdInstitution());
-        $this->assertNull($obj->getIndiceContrat());
-        $this->assertNull($obj->getNonGere());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getTypeOrga());
-    }
-
-    /**
      * Tests the setCodeOrganisme() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class RetraitesEmpTest extends AbstractTestCase {
 
         $obj->setTypeOrga("typeOrga");
         $this->assertEquals("typeOrga", $obj->getTypeOrga());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RetraitesEmp();
+
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getIdInstitution());
+        $this->assertNull($obj->getIndiceContrat());
+        $this->assertNull($obj->getNonGere());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTypeOrga());
     }
 }

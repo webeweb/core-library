@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PrepaPaieRepos;
 class PrepaPaieReposTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PrepaPaieRepos();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCpPris());
-        $this->assertNull($obj->getHEffectives());
-        $this->assertNull($obj->getHPrevues());
-        $this->assertNull($obj->getHRealisees());
-        $this->assertNull($obj->getNumSem());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getReposCompAcquis());
-        $this->assertNull($obj->getReposCompPris());
-        $this->assertNull($obj->getReposRemplAcquis());
-        $this->assertNull($obj->getReposRemplPris());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -191,5 +169,27 @@ class PrepaPaieReposTest extends AbstractTestCase {
 
         $obj->setReposRemplPris(10.092018);
         $this->assertEquals(10.092018, $obj->getReposRemplPris());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PrepaPaieRepos();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCpPris());
+        $this->assertNull($obj->getHEffectives());
+        $this->assertNull($obj->getHPrevues());
+        $this->assertNull($obj->getHRealisees());
+        $this->assertNull($obj->getNumSem());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getReposCompAcquis());
+        $this->assertNull($obj->getReposCompPris());
+        $this->assertNull($obj->getReposRemplAcquis());
+        $this->assertNull($obj->getReposRemplPris());
     }
 }

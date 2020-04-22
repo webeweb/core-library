@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringContentTrait;
 class StringContentTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringContentTrait();
-
-        $this->assertNull($obj->getContent());
-    }
-
-    /**
      * Tests the setContent() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringContentTraitTest extends AbstractTestCase {
 
         $obj->setContent("content");
         $this->assertEquals("content", $obj->getContent());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringContentTrait();
+
+        $this->assertNull($obj->getContent());
     }
 }

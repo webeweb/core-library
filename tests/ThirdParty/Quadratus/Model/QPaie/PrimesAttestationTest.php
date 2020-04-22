@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\PrimesAttestation;
 class PrimesAttestationTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PrimesAttestation();
-
-        $this->assertNull($obj->getEuroOuFranc());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getPayeLe());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-    }
-
-    /**
      * Tests the setEuroOuFranc() method.
      *
      * @return void
@@ -157,5 +138,24 @@ class PrimesAttestationTest extends AbstractTestCase {
 
         $obj->setPeriodeFin($periodeFin);
         $this->assertSame($periodeFin, $obj->getPeriodeFin());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PrimesAttestation();
+
+        $this->assertNull($obj->getEuroOuFranc());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPayeLe());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
     }
 }

@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringSourceTrait;
 class StringSourceTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringSourceTrait();
-
-        $this->assertNull($obj->getSource());
-    }
-
-    /**
      * Tests the setSource() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringSourceTraitTest extends AbstractTestCase {
 
         $obj->setSource("source");
         $this->assertEquals("source", $obj->getSource());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringSourceTrait();
+
+        $this->assertNull($obj->getSource());
     }
 }

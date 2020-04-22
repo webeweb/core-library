@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsAffairesChantiers;
 class ClientsAffairesChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsAffairesChantiers();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getDossierProp());
-        $this->assertNull($obj->getNumUniq());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class ClientsAffairesChantiersTest extends AbstractTestCase {
 
         $obj->setNumUniq("numUniq");
         $this->assertEquals("numUniq", $obj->getNumUniq());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsAffairesChantiers();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDossierProp());
+        $this->assertNull($obj->getNumUniq());
     }
 }

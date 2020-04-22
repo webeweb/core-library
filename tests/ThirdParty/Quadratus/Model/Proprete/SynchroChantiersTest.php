@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\SynchroChantiers;
 class SynchroChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SynchroChantiers();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeSynchro());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class SynchroChantiersTest extends AbstractTestCase {
 
         $obj->setCodeSynchro("codeSynchro");
         $this->assertEquals("codeSynchro", $obj->getCodeSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SynchroChantiers();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeSynchro());
     }
 }

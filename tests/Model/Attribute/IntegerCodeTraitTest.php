@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestIntegerCodeTrait;
 class IntegerCodeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestIntegerCodeTrait();
-
-        $this->assertNull($obj->getCode());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class IntegerCodeTraitTest extends AbstractTestCase {
 
         $obj->setCode(1);
         $this->assertEquals(1, $obj->getCode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestIntegerCodeTrait();
+
+        $this->assertNull($obj->getCode());
     }
 }

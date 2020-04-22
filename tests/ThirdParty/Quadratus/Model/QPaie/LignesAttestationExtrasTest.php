@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesAttestationExtras;
 class LignesAttestationExtrasTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesAttestationExtras();
-
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getDateFin());
-        $this->assertNull($obj->getMontantIccp());
-        $this->assertNull($obj->getMontantIpe());
-        $this->assertNull($obj->getMontantPrecompte());
-        $this->assertNull($obj->getNbHeureTrav());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getSalaireBrut());
-    }
-
-    /**
      * Tests the setDateDebut() method.
      *
      * @return void
@@ -181,5 +160,26 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
 
         $obj->setSalaireBrut(10.092018);
         $this->assertEquals(10.092018, $obj->getSalaireBrut());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesAttestationExtras();
+
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getDateFin());
+        $this->assertNull($obj->getMontantIccp());
+        $this->assertNull($obj->getMontantIpe());
+        $this->assertNull($obj->getMontantPrecompte());
+        $this->assertNull($obj->getNbHeureTrav());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getSalaireBrut());
     }
 }

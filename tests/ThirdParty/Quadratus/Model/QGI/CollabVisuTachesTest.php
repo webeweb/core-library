@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\CollabVisuTaches;
 class CollabVisuTachesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CollabVisuTaches();
-
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getCodeTacheVisu());
-    }
-
-    /**
      * Tests the setCodeCollab() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class CollabVisuTachesTest extends AbstractTestCase {
 
         $obj->setCodeTacheVisu("codeTacheVisu");
         $this->assertEquals("codeTacheVisu", $obj->getCodeTacheVisu());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CollabVisuTaches();
+
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getCodeTacheVisu());
     }
 }

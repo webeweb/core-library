@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LibellesiPaie;
 class LibellesiPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LibellesiPaie();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getIntituleSpecifiPaie());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getVisibleiPaie());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class LibellesiPaieTest extends AbstractTestCase {
 
         $obj->setVisibleiPaie("visibleiPaie");
         $this->assertEquals("visibleiPaie", $obj->getVisibleiPaie());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LibellesiPaie();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getIntituleSpecifiPaie());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getVisibleiPaie());
     }
 }

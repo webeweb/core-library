@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\MasquesExcel;
 class MasquesExcelTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new MasquesExcel();
-
-        $this->assertNull($obj->getModele());
-        $this->assertNull($obj->getTitre());
-        $this->assertNull($obj->getTypeMasque());
-    }
-
-    /**
      * Tests the setModele() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class MasquesExcelTest extends AbstractTestCase {
 
         $obj->setTypeMasque("typeMasque");
         $this->assertEquals("typeMasque", $obj->getTypeMasque());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new MasquesExcel();
+
+        $this->assertNull($obj->getModele());
+        $this->assertNull($obj->getTitre());
+        $this->assertNull($obj->getTypeMasque());
     }
 }

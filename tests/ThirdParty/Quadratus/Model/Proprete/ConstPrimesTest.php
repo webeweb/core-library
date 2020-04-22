@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ConstPrimes;
 class ConstPrimesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConstPrimes();
-
-        $this->assertNull($obj->getCodePrimeQPaie());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getLibelle());
-    }
-
-    /**
      * Tests the setCodePrimeQPaie() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class ConstPrimesTest extends AbstractTestCase {
 
         $obj->setLibelle("libelle");
         $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConstPrimes();
+
+        $this->assertNull($obj->getCodePrimeQPaie());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getLibelle());
     }
 }

@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ComptesRecurrents;
 class ComptesRecurrentsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ComptesRecurrents();
-
-        $this->assertNull($obj->getCompte());
-        $this->assertNull($obj->getCompteRecurrent());
-        $this->assertNull($obj->getDateDernierAcces());
-        $this->assertNull($obj->getNbAcces());
-    }
-
-    /**
      * Tests the setCompte() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class ComptesRecurrentsTest extends AbstractTestCase {
 
         $obj->setNbAcces(10);
         $this->assertEquals(10, $obj->getNbAcces());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ComptesRecurrents();
+
+        $this->assertNull($obj->getCompte());
+        $this->assertNull($obj->getCompteRecurrent());
+        $this->assertNull($obj->getDateDernierAcces());
+        $this->assertNull($obj->getNbAcces());
     }
 }

@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Interets;
 class InteretsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Interets();
-
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getTaux());
-        $this->assertNull($obj->getTypeCpt());
-    }
-
-    /**
      * Tests the setDateDebut() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class InteretsTest extends AbstractTestCase {
 
         $obj->setTypeCpt("typeCpt");
         $this->assertEquals("typeCpt", $obj->getTypeCpt());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Interets();
+
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getTaux());
+        $this->assertNull($obj->getTypeCpt());
     }
 }

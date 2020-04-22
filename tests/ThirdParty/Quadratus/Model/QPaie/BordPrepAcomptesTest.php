@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\BordPrepAcomptes;
 class BordPrepAcomptesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BordPrepAcomptes();
-
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getId());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getTypePaiement());
-    }
-
-    /**
      * Tests the setDate() method.
      *
      * @return void
@@ -139,5 +121,23 @@ class BordPrepAcomptesTest extends AbstractTestCase {
 
         $obj->setTypePaiement("typePaiement");
         $this->assertEquals("typePaiement", $obj->getTypePaiement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BordPrepAcomptes();
+
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getId());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTypePaiement());
     }
 }

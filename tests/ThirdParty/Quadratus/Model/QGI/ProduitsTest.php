@@ -23,27 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Produits;
 class ProduitsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Produits();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCompteur());
-        $this->assertNull($obj->getCptMaj());
-        $this->assertNull($obj->getDernierNumero());
-        $this->assertNull($obj->getFichierLicence());
-        $this->assertNull($obj->getGammeWindows());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getLettreLicence());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getNomProdLicence());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -171,5 +150,26 @@ class ProduitsTest extends AbstractTestCase {
 
         $obj->setNomProdLicence("nomProdLicence");
         $this->assertEquals("nomProdLicence", $obj->getNomProdLicence());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Produits();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCompteur());
+        $this->assertNull($obj->getCptMaj());
+        $this->assertNull($obj->getDernierNumero());
+        $this->assertNull($obj->getFichierLicence());
+        $this->assertNull($obj->getGammeWindows());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getLettreLicence());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNomProdLicence());
     }
 }

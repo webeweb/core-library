@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\BudgetL;
 class BudgetLTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BudgetL();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getCodeTravail());
-        $this->assertNull($obj->getHSoldees());
-        $this->assertNull($obj->getNbrHeures());
-        $this->assertNull($obj->getNiveau());
-        $this->assertNull($obj->getNomTravail());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPrixHeure());
-        $this->assertNull($obj->getQuantite());
-        $this->assertNull($obj->getTypeAffectation());
-        $this->assertNull($obj->getUniqIdLm());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -261,5 +234,32 @@ class BudgetLTest extends AbstractTestCase {
 
         $obj->setUniqIdLm("uniqIdLm");
         $this->assertEquals("uniqIdLm", $obj->getUniqIdLm());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BudgetL();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getCodeTravail());
+        $this->assertNull($obj->getHSoldees());
+        $this->assertNull($obj->getNbrHeures());
+        $this->assertNull($obj->getNiveau());
+        $this->assertNull($obj->getNomTravail());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPrixHeure());
+        $this->assertNull($obj->getQuantite());
+        $this->assertNull($obj->getTypeAffectation());
+        $this->assertNull($obj->getUniqIdLm());
     }
 }

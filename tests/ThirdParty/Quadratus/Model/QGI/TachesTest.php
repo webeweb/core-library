@@ -23,42 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Taches;
 class TachesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Taches();
-
-        $this->assertNull($obj->getArticle());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeFrais());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getCodeTravail());
-        $this->assertNull($obj->getCodeUo());
-        $this->assertNull($obj->getCompteComptable());
-        $this->assertNull($obj->getCompteTva());
-        $this->assertNull($obj->getFacturable());
-        $this->assertNull($obj->getInactif());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getIntituleRtf());
-        $this->assertNull($obj->getListeTravaux());
-        $this->assertNull($obj->getNiveauExec());
-        $this->assertNull($obj->getNonRemboursable());
-        $this->assertNull($obj->getNonTravaillee());
-        $this->assertNull($obj->getOperationnelle());
-        $this->assertNull($obj->getPvMaxi());
-        $this->assertNull($obj->getPrixVente1());
-        $this->assertNull($obj->getPrixVente2());
-        $this->assertNull($obj->getPrixVente3());
-        $this->assertNull($obj->getSaisieTva());
-        $this->assertNull($obj->getSuperFacturable());
-        $this->assertNull($obj->getTicketResto());
-        $this->assertNull($obj->getTypeHeure());
-    }
-
-    /**
      * Tests the setArticle() method.
      *
      * @return void
@@ -381,5 +345,41 @@ class TachesTest extends AbstractTestCase {
 
         $obj->setTypeHeure("typeHeure");
         $this->assertEquals("typeHeure", $obj->getTypeHeure());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Taches();
+
+        $this->assertNull($obj->getArticle());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeFrais());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getCodeTravail());
+        $this->assertNull($obj->getCodeUo());
+        $this->assertNull($obj->getCompteComptable());
+        $this->assertNull($obj->getCompteTva());
+        $this->assertNull($obj->getFacturable());
+        $this->assertNull($obj->getInactif());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getIntituleRtf());
+        $this->assertNull($obj->getListeTravaux());
+        $this->assertNull($obj->getNiveauExec());
+        $this->assertNull($obj->getNonRemboursable());
+        $this->assertNull($obj->getNonTravaillee());
+        $this->assertNull($obj->getOperationnelle());
+        $this->assertNull($obj->getPvMaxi());
+        $this->assertNull($obj->getPrixVente1());
+        $this->assertNull($obj->getPrixVente2());
+        $this->assertNull($obj->getPrixVente3());
+        $this->assertNull($obj->getSaisieTva());
+        $this->assertNull($obj->getSuperFacturable());
+        $this->assertNull($obj->getTicketResto());
+        $this->assertNull($obj->getTypeHeure());
     }
 }

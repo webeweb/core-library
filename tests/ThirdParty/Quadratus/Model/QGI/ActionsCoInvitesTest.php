@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCoInvites;
 class ActionsCoInvitesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ActionsCoInvites();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeColl());
-        $this->assertNull($obj->getDateAjout());
-        $this->assertNull($obj->getNomInterlocuteur());
-        $this->assertNull($obj->getNumInterlocuteur());
-        $this->assertNull($obj->getRetourNeg());
-        $this->assertNull($obj->getTypeInvitation());
-        $this->assertNull($obj->getTypeInvite());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -163,5 +143,25 @@ class ActionsCoInvitesTest extends AbstractTestCase {
 
         $obj->setTypeInvite("typeInvite");
         $this->assertEquals("typeInvite", $obj->getTypeInvite());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ActionsCoInvites();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeColl());
+        $this->assertNull($obj->getDateAjout());
+        $this->assertNull($obj->getNomInterlocuteur());
+        $this->assertNull($obj->getNumInterlocuteur());
+        $this->assertNull($obj->getRetourNeg());
+        $this->assertNull($obj->getTypeInvitation());
+        $this->assertNull($obj->getTypeInvite());
     }
 }

@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\MotsClefEtebac;
 class MotsClefEtebacTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new MotsClefEtebac();
-
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getListeComptes());
-        $this->assertNull($obj->getMot());
-        $this->assertNull($obj->getNumeroCompteDepense());
-        $this->assertNull($obj->getNumeroCompteRecette());
-        $this->assertNull($obj->getRegle());
-    }
-
-    /**
      * Tests the setCodeJournal() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class MotsClefEtebacTest extends AbstractTestCase {
 
         $obj->setRegle("regle");
         $this->assertEquals("regle", $obj->getRegle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new MotsClefEtebac();
+
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getListeComptes());
+        $this->assertNull($obj->getMot());
+        $this->assertNull($obj->getNumeroCompteDepense());
+        $this->assertNull($obj->getNumeroCompteRecette());
+        $this->assertNull($obj->getRegle());
     }
 }

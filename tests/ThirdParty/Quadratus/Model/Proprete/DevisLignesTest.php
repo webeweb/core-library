@@ -23,30 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisLignes;
 class DevisLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DevisLignes();
-
-        $this->assertNull($obj->getBatiment());
-        $this->assertNull($obj->getCodeLocal());
-        $this->assertNull($obj->getCodeRevetement());
-        $this->assertNull($obj->getEtage());
-        $this->assertNull($obj->getIdentification());
-        $this->assertNull($obj->getLibelleLocal());
-        $this->assertNull($obj->getLibelleRevetement());
-        $this->assertNull($obj->getNumDevis());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumProgramme());
-        $this->assertNull($obj->getSolMur());
-        $this->assertNull($obj->getSurface());
-        $this->assertNull($obj->getZoneGeographique());
-    }
-
-    /**
      * Tests the setBatiment() method.
      *
      * @return void
@@ -213,5 +189,29 @@ class DevisLignesTest extends AbstractTestCase {
 
         $obj->setZoneGeographique("zoneGeographique");
         $this->assertEquals("zoneGeographique", $obj->getZoneGeographique());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DevisLignes();
+
+        $this->assertNull($obj->getBatiment());
+        $this->assertNull($obj->getCodeLocal());
+        $this->assertNull($obj->getCodeRevetement());
+        $this->assertNull($obj->getEtage());
+        $this->assertNull($obj->getIdentification());
+        $this->assertNull($obj->getLibelleLocal());
+        $this->assertNull($obj->getLibelleRevetement());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumProgramme());
+        $this->assertNull($obj->getSolMur());
+        $this->assertNull($obj->getSurface());
+        $this->assertNull($obj->getZoneGeographique());
     }
 }

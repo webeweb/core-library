@@ -23,27 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Tarifs;
 class TarifsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Tarifs();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeDevise());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getComSurMargeBrute());
-        $this->assertNull($obj->getPrixTtc());
-        $this->assertNull($obj->getPrixUnitBase());
-        $this->assertNull($obj->getTauxCommission());
-        $this->assertNull($obj->getTypeCodeArticle());
-        $this->assertNull($obj->getTypeCodeClient());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -171,5 +150,26 @@ class TarifsTest extends AbstractTestCase {
 
         $obj->setTypeCodeClient("typeCodeClient");
         $this->assertEquals("typeCodeClient", $obj->getTypeCodeClient());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Tarifs();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeDevise());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getComSurMargeBrute());
+        $this->assertNull($obj->getPrixTtc());
+        $this->assertNull($obj->getPrixUnitBase());
+        $this->assertNull($obj->getTauxCommission());
+        $this->assertNull($obj->getTypeCodeArticle());
+        $this->assertNull($obj->getTypeCodeClient());
     }
 }

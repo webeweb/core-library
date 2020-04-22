@@ -23,29 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\iEspaceClientDroits;
 class iEspaceClientDroitsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new iEspaceClientDroits();
-
-        $this->assertNull($obj->getCodeCollabMessages());
-        $this->assertNull($obj->getCodeUser());
-        $this->assertNull($obj->getDossierClient());
-        $this->assertNull($obj->getFctDocuments());
-        $this->assertNull($obj->getFctDocumentsAutre());
-        $this->assertNull($obj->getFctDocumentsCompta());
-        $this->assertNull($obj->getFctDocumentsJuridique());
-        $this->assertNull($obj->getFctDocumentsPaie());
-        $this->assertNull($obj->getFctInfos());
-        $this->assertNull($obj->getFctMessagerie());
-        $this->assertNull($obj->getNomUser());
-        $this->assertNull($obj->getPassword());
-    }
-
-    /**
      * Tests the setCodeCollabMessages() method.
      *
      * @return void
@@ -199,5 +176,28 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
 
         $obj->setPassword("password");
         $this->assertEquals("password", $obj->getPassword());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new iEspaceClientDroits();
+
+        $this->assertNull($obj->getCodeCollabMessages());
+        $this->assertNull($obj->getCodeUser());
+        $this->assertNull($obj->getDossierClient());
+        $this->assertNull($obj->getFctDocuments());
+        $this->assertNull($obj->getFctDocumentsAutre());
+        $this->assertNull($obj->getFctDocumentsCompta());
+        $this->assertNull($obj->getFctDocumentsJuridique());
+        $this->assertNull($obj->getFctDocumentsPaie());
+        $this->assertNull($obj->getFctInfos());
+        $this->assertNull($obj->getFctMessagerie());
+        $this->assertNull($obj->getNomUser());
+        $this->assertNull($obj->getPassword());
     }
 }

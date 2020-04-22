@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\NotesCategories;
 class NotesCategoriesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new NotesCategories();
-
-        $this->assertNull($obj->getCodeCategorie());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getNomCategorie());
-        $this->assertNull($obj->getPosition());
-    }
-
-    /**
      * Tests the setCodeCategorie() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class NotesCategoriesTest extends AbstractTestCase {
 
         $obj->setPosition(10);
         $this->assertEquals(10, $obj->getPosition());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new NotesCategories();
+
+        $this->assertNull($obj->getCodeCategorie());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getNomCategorie());
+        $this->assertNull($obj->getPosition());
     }
 }

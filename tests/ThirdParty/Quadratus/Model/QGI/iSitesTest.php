@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\iSites;
 class iSitesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new iSites();
-
-        $this->assertNull($obj->getAdresseIp());
-        $this->assertNull($obj->getNomSite());
-    }
-
-    /**
      * Tests the setAdresseIp() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class iSitesTest extends AbstractTestCase {
 
         $obj->setNomSite("nomSite");
         $this->assertEquals("nomSite", $obj->getNomSite());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new iSites();
+
+        $this->assertNull($obj->getAdresseIp());
+        $this->assertNull($obj->getNomSite());
     }
 }

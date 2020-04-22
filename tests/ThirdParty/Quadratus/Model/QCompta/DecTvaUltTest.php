@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DecTvaUlt;
 class DecTvaUltTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DecTvaUlt();
-
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getCompteur());
-        $this->assertNull($obj->getFolio());
-        $this->assertNull($obj->getLibelleEcr());
-        $this->assertNull($obj->getLigneFolio());
-        $this->assertNull($obj->getMontantHt());
-        $this->assertNull($obj->getMontantTva());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumUniqEcr());
-        $this->assertNull($obj->getPerDec());
-        $this->assertNull($obj->getPerDecUlt());
-        $this->assertNull($obj->getPeriodeEcriture());
-    }
-
-    /**
      * Tests the setCodeJournal() method.
      *
      * @return void
@@ -227,5 +203,29 @@ class DecTvaUltTest extends AbstractTestCase {
 
         $obj->setPeriodeEcriture($periodeEcriture);
         $this->assertSame($periodeEcriture, $obj->getPeriodeEcriture());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DecTvaUlt();
+
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getCompteur());
+        $this->assertNull($obj->getFolio());
+        $this->assertNull($obj->getLibelleEcr());
+        $this->assertNull($obj->getLigneFolio());
+        $this->assertNull($obj->getMontantHt());
+        $this->assertNull($obj->getMontantTva());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumUniqEcr());
+        $this->assertNull($obj->getPerDec());
+        $this->assertNull($obj->getPerDecUlt());
+        $this->assertNull($obj->getPeriodeEcriture());
     }
 }

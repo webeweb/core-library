@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ConfidentialiteZones;
 class ConfidentialiteZonesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConfidentialiteZones();
-
-        $this->assertNull($obj->getChamp());
-        $this->assertNull($obj->getChapitre());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setChamp() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConfidentialiteZones();
+
+        $this->assertNull($obj->getChamp());
+        $this->assertNull($obj->getChapitre());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getType());
     }
 }

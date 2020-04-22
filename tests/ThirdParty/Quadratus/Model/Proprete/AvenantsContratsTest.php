@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AvenantsContrats;
 class AvenantsContratsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AvenantsContrats();
-
-        $this->assertNull($obj->getChrono());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getDateAvenant());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getNumAvenantSaisi());
-        $this->assertNull($obj->getNumeroAvenant());
-        $this->assertNull($obj->getObservation());
-        $this->assertNull($obj->getPeriodeAvenant());
-        $this->assertNull($obj->getSignatureEmploye());
-        $this->assertNull($obj->getTypeAvenant());
-        $this->assertNull($obj->getTypeDocument());
-    }
-
-    /**
      * Tests the setChrono() method.
      *
      * @return void
@@ -195,5 +173,27 @@ class AvenantsContratsTest extends AbstractTestCase {
 
         $obj->setTypeDocument("typeDocument");
         $this->assertEquals("typeDocument", $obj->getTypeDocument());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AvenantsContrats();
+
+        $this->assertNull($obj->getChrono());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateAvenant());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNumAvenantSaisi());
+        $this->assertNull($obj->getNumeroAvenant());
+        $this->assertNull($obj->getObservation());
+        $this->assertNull($obj->getPeriodeAvenant());
+        $this->assertNull($obj->getSignatureEmploye());
+        $this->assertNull($obj->getTypeAvenant());
+        $this->assertNull($obj->getTypeDocument());
     }
 }

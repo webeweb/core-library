@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DetailCreditsBails;
 class DetailCreditsBailsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DetailCreditsBails();
-
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getNumeroDeux());
-        $this->assertNull($obj->getQuantite());
-        $this->assertNull($obj->getValeur());
-    }
-
-    /**
      * Tests the setIntitule() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class DetailCreditsBailsTest extends AbstractTestCase {
 
         $obj->setValeur(10.092018);
         $this->assertEquals(10.092018, $obj->getValeur());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DetailCreditsBails();
+
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getNumeroDeux());
+        $this->assertNull($obj->getQuantite());
+        $this->assertNull($obj->getValeur());
     }
 }

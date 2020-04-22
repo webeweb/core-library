@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpDadsuPrevoyanceEvenemen
 class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpDadsuPrevoyanceEvenements();
-
-        $this->assertNull($obj->getADeclarerDsn());
-        $this->assertNull($obj->getCodeEvenement());
-        $this->assertNull($obj->getCodeOption());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodePopulation());
-        $this->assertNull($obj->getDateEvenement());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getRefContrat());
-    }
-
-    /**
      * Tests the setADeclarerDsn() method.
      *
      * @return void
@@ -149,5 +130,24 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
 
         $obj->setRefContrat("refContrat");
         $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpDadsuPrevoyanceEvenements();
+
+        $this->assertNull($obj->getADeclarerDsn());
+        $this->assertNull($obj->getCodeEvenement());
+        $this->assertNull($obj->getCodeOption());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodePopulation());
+        $this->assertNull($obj->getDateEvenement());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getRefContrat());
     }
 }

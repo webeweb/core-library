@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Spectacles;
 class SpectaclesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Spectacles();
-
-        $this->assertNull($obj->getDtDebut());
-        $this->assertNull($obj->getDtFin());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumObjet());
-    }
-
-    /**
      * Tests the setDtDebut() method.
      *
      * @return void
@@ -97,5 +82,20 @@ class SpectaclesTest extends AbstractTestCase {
 
         $obj->setNumObjet("numObjet");
         $this->assertEquals("numObjet", $obj->getNumObjet());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Spectacles();
+
+        $this->assertNull($obj->getDtDebut());
+        $this->assertNull($obj->getDtFin());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumObjet());
     }
 }

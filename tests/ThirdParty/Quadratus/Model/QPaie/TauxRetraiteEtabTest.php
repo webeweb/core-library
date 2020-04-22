@@ -25,29 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TauxRetraiteEtab;
 class TauxRetraiteEtabTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TauxRetraiteEtab();
-
-        $this->assertNull($obj->getAPartirDe());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getTauxRetTr2Pp());
-        $this->assertNull($obj->getTauxRetTr2Ps());
-        $this->assertNull($obj->getTauxRetTrApp());
-        $this->assertNull($obj->getTauxRetTrAps());
-        $this->assertNull($obj->getTauxRetTrBpp());
-        $this->assertNull($obj->getTauxRetTrBps());
-        $this->assertNull($obj->getTauxRetTrCpp());
-        $this->assertNull($obj->getTauxRetTrCps());
-        $this->assertNull($obj->getTauxRetTrDpp());
-        $this->assertNull($obj->getTauxRetTrDps());
-    }
-
-    /**
      * Tests the setAPartirDe() method.
      *
      * @return void
@@ -205,5 +182,28 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
 
         $obj->setTauxRetTrDps(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxRetTrDps());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TauxRetraiteEtab();
+
+        $this->assertNull($obj->getAPartirDe());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getTauxRetTr2Pp());
+        $this->assertNull($obj->getTauxRetTr2Ps());
+        $this->assertNull($obj->getTauxRetTrApp());
+        $this->assertNull($obj->getTauxRetTrAps());
+        $this->assertNull($obj->getTauxRetTrBpp());
+        $this->assertNull($obj->getTauxRetTrBps());
+        $this->assertNull($obj->getTauxRetTrCpp());
+        $this->assertNull($obj->getTauxRetTrCps());
+        $this->assertNull($obj->getTauxRetTrDpp());
+        $this->assertNull($obj->getTauxRetTrDps());
     }
 }

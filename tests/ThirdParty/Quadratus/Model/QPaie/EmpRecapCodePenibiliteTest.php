@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpRecapCodePenibilite;
 class EmpRecapCodePenibiliteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpRecapCodePenibilite();
-
-        $this->assertNull($obj->getCodePenibilite());
-        $this->assertNull($obj->getIdRecap());
-        $this->assertNull($obj->getNumeroOrdre());
-    }
-
-    /**
      * Tests the setCodePenibilite() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
 
         $obj->setNumeroOrdre(10);
         $this->assertEquals(10, $obj->getNumeroOrdre());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpRecapCodePenibilite();
+
+        $this->assertNull($obj->getCodePenibilite());
+        $this->assertNull($obj->getIdRecap());
+        $this->assertNull($obj->getNumeroOrdre());
     }
 }

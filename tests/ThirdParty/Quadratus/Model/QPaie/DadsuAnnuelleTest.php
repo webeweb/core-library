@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuAnnuelle;
 class DadsuAnnuelleTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuAnnuelle();
-
-        $this->assertNull($obj->getNomFichierDadsu());
-        $this->assertNull($obj->getTdsAnnee());
-    }
-
-    /**
      * Tests the setNomFichierDadsu() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class DadsuAnnuelleTest extends AbstractTestCase {
 
         $obj->setTdsAnnee(10);
         $this->assertEquals(10, $obj->getTdsAnnee());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuAnnuelle();
+
+        $this->assertNull($obj->getNomFichierDadsu());
+        $this->assertNull($obj->getTdsAnnee());
     }
 }

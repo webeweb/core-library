@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuEtablissementsRectif;
 class DadsuEtablissementsRectifTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuEtablissementsRectif();
-
-        $this->assertNull($obj->getActif());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getFormaProBase());
-        $this->assertNull($obj->getFormaProBaseCdd());
-        $this->assertNull($obj->getIndiceRectif());
-        $this->assertNull($obj->getTaxeApprentissageBase());
-    }
-
-    /**
      * Tests the setActif() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
 
         $obj->setTaxeApprentissageBase(10.092018);
         $this->assertEquals(10.092018, $obj->getTaxeApprentissageBase());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuEtablissementsRectif();
+
+        $this->assertNull($obj->getActif());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getFormaProBase());
+        $this->assertNull($obj->getFormaProBaseCdd());
+        $this->assertNull($obj->getIndiceRectif());
+        $this->assertNull($obj->getTaxeApprentissageBase());
     }
 }

@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringNameTrait;
 class StringNameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringNameTrait();
-
-        $this->assertNull($obj->getName());
-    }
-
-    /**
      * Tests the setName() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringNameTraitTest extends AbstractTestCase {
 
         $obj->setName("name");
         $this->assertEquals("name", $obj->getName());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringNameTrait();
+
+        $this->assertNull($obj->getName());
     }
 }

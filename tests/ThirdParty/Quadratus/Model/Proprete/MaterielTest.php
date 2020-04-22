@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Materiel;
 class MaterielTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Materiel();
-
-        $this->assertNull($obj->getCodeBarre());
-        $this->assertNull($obj->getCodeMateriel());
-        $this->assertNull($obj->getDateAchat());
-        $this->assertNull($obj->getDateDebutAmortissement());
-        $this->assertNull($obj->getDateFinAmortissement());
-        $this->assertNull($obj->getDateFinService());
-        $this->assertNull($obj->getDateMiseEnService());
-        $this->assertNull($obj->getDesignation1());
-        $this->assertNull($obj->getDesignation2());
-        $this->assertNull($obj->getDesignation3());
-        $this->assertNull($obj->getDesignation4());
-        $this->assertNull($obj->getDesignation5());
-        $this->assertNull($obj->getMontantAmortissement());
-        $this->assertNull($obj->getNumeroSerie());
-        $this->assertNull($obj->getValAchatEuro());
-        $this->assertNull($obj->getValAchatFrf());
-    }
-
-    /**
      * Tests the setCodeBarre() method.
      *
      * @return void
@@ -277,5 +250,32 @@ class MaterielTest extends AbstractTestCase {
 
         $obj->setValAchatFrf(10.092018);
         $this->assertEquals(10.092018, $obj->getValAchatFrf());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Materiel();
+
+        $this->assertNull($obj->getCodeBarre());
+        $this->assertNull($obj->getCodeMateriel());
+        $this->assertNull($obj->getDateAchat());
+        $this->assertNull($obj->getDateDebutAmortissement());
+        $this->assertNull($obj->getDateFinAmortissement());
+        $this->assertNull($obj->getDateFinService());
+        $this->assertNull($obj->getDateMiseEnService());
+        $this->assertNull($obj->getDesignation1());
+        $this->assertNull($obj->getDesignation2());
+        $this->assertNull($obj->getDesignation3());
+        $this->assertNull($obj->getDesignation4());
+        $this->assertNull($obj->getDesignation5());
+        $this->assertNull($obj->getMontantAmortissement());
+        $this->assertNull($obj->getNumeroSerie());
+        $this->assertNull($obj->getValAchatEuro());
+        $this->assertNull($obj->getValAchatFrf());
     }
 }

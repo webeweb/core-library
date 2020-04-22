@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesIjssTpsPartiel;
 class LignesIjssTpsPartielTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesIjssTpsPartiel();
-
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMontantPlein());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-    }
-
-    /**
      * Tests the setMontant() method.
      *
      * @return void
@@ -125,5 +108,22 @@ class LignesIjssTpsPartielTest extends AbstractTestCase {
 
         $obj->setPeriodeFin($periodeFin);
         $this->assertSame($periodeFin, $obj->getPeriodeFin());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesIjssTpsPartiel();
+
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantPlein());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
     }
 }

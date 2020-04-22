@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\ConventionsColGrillesAnc;
 class ConventionsColGrillesAncTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConventionsColGrillesAnc();
-
-        $this->assertNull($obj->getCodeConvention());
-        $this->assertNull($obj->getCodeGrille());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getTypeGrille());
-    }
-
-    /**
      * Tests the setCodeConvention() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
 
         $obj->setTypeGrille(10);
         $this->assertEquals(10, $obj->getTypeGrille());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConventionsColGrillesAnc();
+
+        $this->assertNull($obj->getCodeConvention());
+        $this->assertNull($obj->getCodeGrille());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getTypeGrille());
     }
 }

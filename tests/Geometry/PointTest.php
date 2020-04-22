@@ -24,19 +24,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class PointTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Point();
-
-        $this->assertNull($obj->getX());
-        $this->assertNull($obj->getY());
-    }
-
-    /**
      * Tests the d() method.
      *
      * @return void
@@ -87,5 +74,18 @@ class PointTest extends AbstractTestCase {
         $res = $obj->rotate(new Point(0, 0), new Angle(90, Angle::UNIT_DEGREE));
         $this->assertEquals(5, $res->getX());
         $this->assertEquals(-5, $res->getY());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Point();
+
+        $this->assertNull($obj->getX());
+        $this->assertNull($obj->getY());
     }
 }

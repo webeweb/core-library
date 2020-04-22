@@ -25,56 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Evenements;
 class EvenementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Evenements();
-
-        $this->assertNull($obj->getArchive());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getContenu1());
-        $this->assertNull($obj->getContenu2());
-        $this->assertNull($obj->getContenu3());
-        $this->assertNull($obj->getContenu4());
-        $this->assertNull($obj->getDateEvt());
-        $this->assertNull($obj->getEmplacementFichier());
-        $this->assertNull($obj->getEtatIsActif());
-        $this->assertNull($obj->getFsCompta());
-        $this->assertNull($obj->getFsComptaDateAlerte());
-        $this->assertNull($obj->getFsComptaYaAlerte());
-        $this->assertNull($obj->getFsComptaCollArch());
-        $this->assertNull($obj->getFsComptaDateArch());
-        $this->assertNull($obj->getFsFiscal());
-        $this->assertNull($obj->getFsFiscalCollArch());
-        $this->assertNull($obj->getFsFiscalDateArch());
-        $this->assertNull($obj->getFsgi());
-        $this->assertNull($obj->getFsgiCollArch());
-        $this->assertNull($obj->getFsgiDateArch());
-        $this->assertNull($obj->getFsJuridique());
-        $this->assertNull($obj->getFsJuridiqueCollArch());
-        $this->assertNull($obj->getFsJuridiqueDateArch());
-        $this->assertNull($obj->getFsSocial());
-        $this->assertNull($obj->getFsSocialDateAlerte());
-        $this->assertNull($obj->getFsSocialYaAlerte());
-        $this->assertNull($obj->getFsSocialCollArch());
-        $this->assertNull($obj->getFsSocialDateArch());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getQualifiant1());
-        $this->assertNull($obj->getQualifiant2());
-        $this->assertNull($obj->getQualifiant3());
-        $this->assertNull($obj->getRacineCpt());
-        $this->assertNull($obj->getRegle());
-        $this->assertNull($obj->getTitre());
-        $this->assertNull($obj->getTypeEvt());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setArchive() method.
      *
      * @return void
@@ -611,5 +561,55 @@ class EvenementsTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Evenements();
+
+        $this->assertNull($obj->getArchive());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getContenu1());
+        $this->assertNull($obj->getContenu2());
+        $this->assertNull($obj->getContenu3());
+        $this->assertNull($obj->getContenu4());
+        $this->assertNull($obj->getDateEvt());
+        $this->assertNull($obj->getEmplacementFichier());
+        $this->assertNull($obj->getEtatIsActif());
+        $this->assertNull($obj->getFsCompta());
+        $this->assertNull($obj->getFsComptaDateAlerte());
+        $this->assertNull($obj->getFsComptaYaAlerte());
+        $this->assertNull($obj->getFsComptaCollArch());
+        $this->assertNull($obj->getFsComptaDateArch());
+        $this->assertNull($obj->getFsFiscal());
+        $this->assertNull($obj->getFsFiscalCollArch());
+        $this->assertNull($obj->getFsFiscalDateArch());
+        $this->assertNull($obj->getFsgi());
+        $this->assertNull($obj->getFsgiCollArch());
+        $this->assertNull($obj->getFsgiDateArch());
+        $this->assertNull($obj->getFsJuridique());
+        $this->assertNull($obj->getFsJuridiqueCollArch());
+        $this->assertNull($obj->getFsJuridiqueDateArch());
+        $this->assertNull($obj->getFsSocial());
+        $this->assertNull($obj->getFsSocialDateAlerte());
+        $this->assertNull($obj->getFsSocialYaAlerte());
+        $this->assertNull($obj->getFsSocialCollArch());
+        $this->assertNull($obj->getFsSocialDateArch());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getQualifiant1());
+        $this->assertNull($obj->getQualifiant2());
+        $this->assertNull($obj->getQualifiant3());
+        $this->assertNull($obj->getRacineCpt());
+        $this->assertNull($obj->getRegle());
+        $this->assertNull($obj->getTitre());
+        $this->assertNull($obj->getTypeEvt());
+        $this->assertNull($obj->getUniqId());
     }
 }

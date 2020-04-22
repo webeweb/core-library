@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringCommentTrait;
 class StringCommentTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringCommentTrait();
-
-        $this->assertNull($obj->getComment());
-    }
-
-    /**
      * Tests the setComment() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringCommentTraitTest extends AbstractTestCase {
 
         $obj->setComment("comment");
         $this->assertEquals("comment", $obj->getComment());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringCommentTrait();
+
+        $this->assertNull($obj->getComment());
     }
 }

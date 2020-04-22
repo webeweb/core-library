@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AgendaDroitsAcces;
 class AgendaDroitsAccesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AgendaDroitsAcces();
-
-        $this->assertNull($obj->getCodeCollDroit());
-        $this->assertNull($obj->getCodeCollSuivi());
-        $this->assertNull($obj->getNiveauDroit());
-    }
-
-    /**
      * Tests the setCodeCollDroit() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class AgendaDroitsAccesTest extends AbstractTestCase {
 
         $obj->setNiveauDroit("niveauDroit");
         $this->assertEquals("niveauDroit", $obj->getNiveauDroit());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AgendaDroitsAcces();
+
+        $this->assertNull($obj->getCodeCollDroit());
+        $this->assertNull($obj->getCodeCollSuivi());
+        $this->assertNull($obj->getNiveauDroit());
     }
 }

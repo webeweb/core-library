@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DosRevEtatCpt;
 class DosRevEtatCptTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DosRevEtatCpt();
-
-        $this->assertNull($obj->getCollaborateur());
-        $this->assertNull($obj->getCredit());
-        $this->assertNull($obj->getDateModif());
-        $this->assertNull($obj->getDebit());
-        $this->assertNull($obj->getEtatCpt());
-        $this->assertNull($obj->getModifie());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getPeriodeRev());
-        $this->assertNull($obj->getSolde());
-    }
-
-    /**
      * Tests the setCollaborateur() method.
      *
      * @return void
@@ -167,5 +147,25 @@ class DosRevEtatCptTest extends AbstractTestCase {
 
         $obj->setSolde(10.092018);
         $this->assertEquals(10.092018, $obj->getSolde());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DosRevEtatCpt();
+
+        $this->assertNull($obj->getCollaborateur());
+        $this->assertNull($obj->getCredit());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getDebit());
+        $this->assertNull($obj->getEtatCpt());
+        $this->assertNull($obj->getModifie());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getPeriodeRev());
+        $this->assertNull($obj->getSolde());
     }
 }

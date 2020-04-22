@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\SuiviActivite;
 class SuiviActiviteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SuiviActivite();
-
-        $this->assertNull($obj->getCodeColl());
-        $this->assertNull($obj->getDateHeure());
-        $this->assertNull($obj->getDescription());
-        $this->assertNull($obj->getIdAction());
-        $this->assertNull($obj->getResultat());
-    }
-
-    /**
      * Tests the setCodeColl() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class SuiviActiviteTest extends AbstractTestCase {
 
         $obj->setResultat("resultat");
         $this->assertEquals("resultat", $obj->getResultat());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SuiviActivite();
+
+        $this->assertNull($obj->getCodeColl());
+        $this->assertNull($obj->getDateHeure());
+        $this->assertNull($obj->getDescription());
+        $this->assertNull($obj->getIdAction());
+        $this->assertNull($obj->getResultat());
     }
 }

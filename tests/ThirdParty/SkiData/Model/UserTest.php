@@ -25,43 +25,6 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\User;
 class UserTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new User();
-
-        $this->assertNull($obj->getCheckLicensePlate());
-        $this->assertNull($obj->getCreditCardNumber());
-        $this->assertNull($obj->getCustomerNumber());
-        $this->assertNull($obj->getDateBirth());
-        $this->assertNull($obj->getDatetimeLastModification());
-        $this->assertNull($obj->getDeletedRecord());
-        $this->assertNull($obj->getDivision());
-        $this->assertNull($obj->getETicketAuthentication());
-        $this->assertNull($obj->getETicketEmailTelephone());
-        $this->assertNull($obj->getETicketServiceArt());
-        $this->assertNull($obj->getETicketServiceTyp());
-        $this->assertNull($obj->getETicketTypeP());
-        $this->assertNull($obj->getEmail());
-        $this->assertNull($obj->getExcessTimesCreditCard());
-        $this->assertNull($obj->getExpiryDate());
-        $this->assertNull($obj->getFirstname());
-        $this->assertNull($obj->getGroupCounting());
-        $this->assertNull($obj->getIdentificationNumber());
-        $this->assertNull($obj->getParkingSpace());
-        $this->assertNull($obj->getPassageLicensePlatePermitted());
-        $this->assertNull($obj->getRemarks());
-        $this->assertNull($obj->getRemarks2());
-        $this->assertNull($obj->getRemarks3());
-        $this->assertNull($obj->getSurname());
-        $this->assertNull($obj->getTitle());
-        $this->assertNull($obj->getUserNumber());
-    }
-
-    /**
      * Tests the setCheckLicensePlate() method.
      *
      * @return void
@@ -243,5 +206,42 @@ class UserTest extends AbstractTestCase {
 
         $obj->setUserNumber(1);
         $this->assertEquals(1, $obj->getUserNumber());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new User();
+
+        $this->assertNull($obj->getCheckLicensePlate());
+        $this->assertNull($obj->getCreditCardNumber());
+        $this->assertNull($obj->getCustomerNumber());
+        $this->assertNull($obj->getDateBirth());
+        $this->assertNull($obj->getDatetimeLastModification());
+        $this->assertNull($obj->getDeletedRecord());
+        $this->assertNull($obj->getDivision());
+        $this->assertNull($obj->getETicketAuthentication());
+        $this->assertNull($obj->getETicketEmailTelephone());
+        $this->assertNull($obj->getETicketServiceArt());
+        $this->assertNull($obj->getETicketServiceTyp());
+        $this->assertNull($obj->getETicketTypeP());
+        $this->assertNull($obj->getEmail());
+        $this->assertNull($obj->getExcessTimesCreditCard());
+        $this->assertNull($obj->getExpiryDate());
+        $this->assertNull($obj->getFirstname());
+        $this->assertNull($obj->getGroupCounting());
+        $this->assertNull($obj->getIdentificationNumber());
+        $this->assertNull($obj->getParkingSpace());
+        $this->assertNull($obj->getPassageLicensePlatePermitted());
+        $this->assertNull($obj->getRemarks());
+        $this->assertNull($obj->getRemarks2());
+        $this->assertNull($obj->getRemarks3());
+        $this->assertNull($obj->getSurname());
+        $this->assertNull($obj->getTitle());
+        $this->assertNull($obj->getUserNumber());
     }
 }

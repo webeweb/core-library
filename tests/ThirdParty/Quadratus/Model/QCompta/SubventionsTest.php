@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Subventions;
 class SubventionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Subventions();
-
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCoeffDegressif());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getDateCession());
-        $this->assertNull($obj->getDateMiseEnService());
-        $this->assertNull($obj->getDuree());
-        $this->assertNull($obj->getImmoNumero());
-        $this->assertNull($obj->getImmoNumeroCompte());
-        $this->assertNull($obj->getImmoNumeroDeux());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumContrat());
-        $this->assertNull($obj->getNumCptSubvention());
-        $this->assertNull($obj->getNumeroPj());
-        $this->assertNull($obj->getTauxLineaire());
-        $this->assertNull($obj->getTypeAmort());
-    }
-
-    /**
      * Tests the setCodeCentre() method.
      *
      * @return void
@@ -269,5 +242,32 @@ class SubventionsTest extends AbstractTestCase {
 
         $obj->setTypeAmort("typeAmort");
         $this->assertEquals("typeAmort", $obj->getTypeAmort());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Subventions();
+
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCoeffDegressif());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getDateCession());
+        $this->assertNull($obj->getDateMiseEnService());
+        $this->assertNull($obj->getDuree());
+        $this->assertNull($obj->getImmoNumero());
+        $this->assertNull($obj->getImmoNumeroCompte());
+        $this->assertNull($obj->getImmoNumeroDeux());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumContrat());
+        $this->assertNull($obj->getNumCptSubvention());
+        $this->assertNull($obj->getNumeroPj());
+        $this->assertNull($obj->getTauxLineaire());
+        $this->assertNull($obj->getTypeAmort());
     }
 }

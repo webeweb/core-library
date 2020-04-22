@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringLocationTrait;
 class StringLocationTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringLocationTrait();
-
-        $this->assertNull($obj->getLocation());
-    }
-
-    /**
      * Tests the setLocation() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringLocationTraitTest extends AbstractTestCase {
 
         $obj->setLocation("location");
         $this->assertEquals("location", $obj->getLocation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringLocationTrait();
+
+        $this->assertNull($obj->getLocation());
     }
 }

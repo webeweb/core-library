@@ -25,18 +25,6 @@ use WBW\Library\Core\Transformer\TrimTransformer;
 class DefaultTransformerSetTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DefaultTransformerSet();
-
-        $this->assertEquals([], $obj->getTransformers());
-    }
-
-    /**
      * Tests the removeTransformer() method.
      *
      * @retun void
@@ -73,5 +61,17 @@ class DefaultTransformerSetTest extends AbstractTestCase {
         $obj->addTransformer($transformer);
 
         $this->assertEquals("trim", $obj->transform(" trim "));
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DefaultTransformerSet();
+
+        $this->assertEquals([], $obj->getTransformers());
     }
 }

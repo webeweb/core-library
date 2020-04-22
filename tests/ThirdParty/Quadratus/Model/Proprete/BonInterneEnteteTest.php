@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\BonInterneEntete;
 class BonInterneEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BonInterneEntete();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeLivreur());
-        $this->assertNull($obj->getDateLivraison());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getNoBonInt());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class BonInterneEnteteTest extends AbstractTestCase {
 
         $obj->setNoBonInt("noBonInt");
         $this->assertEquals("noBonInt", $obj->getNoBonInt());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BonInterneEntete();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeLivreur());
+        $this->assertNull($obj->getDateLivraison());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNoBonInt());
     }
 }

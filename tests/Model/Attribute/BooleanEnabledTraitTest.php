@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestBooleanEnabledTrait;
 class BooleanEnabledTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestBooleanEnabledTrait();
-
-        $this->assertNull($obj->getEnabled());
-    }
-
-    /**
      * Tests the setEnabled() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class BooleanEnabledTraitTest extends AbstractTestCase {
 
         $obj->setEnabled(true);
         $this->assertTrue($obj->getEnabled());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestBooleanEnabledTrait();
+
+        $this->assertNull($obj->getEnabled());
     }
 }

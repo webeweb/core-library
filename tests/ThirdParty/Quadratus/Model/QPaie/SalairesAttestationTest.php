@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\SalairesAttestation;
 class SalairesAttestationTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SalairesAttestation();
-
-        $this->assertNull($obj->getDatePaie());
-        $this->assertNull($obj->getEuroOuFranc());
-        $this->assertNull($obj->getHeuresTrav());
-        $this->assertNull($obj->getJoursNonPayes());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getObservation());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getPrecompte());
-        $this->assertNull($obj->getSalaireBrut());
-    }
-
-    /**
      * Tests the setDatePaie() method.
      *
      * @return void
@@ -199,5 +177,27 @@ class SalairesAttestationTest extends AbstractTestCase {
 
         $obj->setSalaireBrut(10.092018);
         $this->assertEquals(10.092018, $obj->getSalaireBrut());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SalairesAttestation();
+
+        $this->assertNull($obj->getDatePaie());
+        $this->assertNull($obj->getEuroOuFranc());
+        $this->assertNull($obj->getHeuresTrav());
+        $this->assertNull($obj->getJoursNonPayes());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getObservation());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getPrecompte());
+        $this->assertNull($obj->getSalaireBrut());
     }
 }

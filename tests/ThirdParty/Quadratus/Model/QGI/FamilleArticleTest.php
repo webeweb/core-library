@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\FamilleArticle;
 class FamilleArticleTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FamilleArticle();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getLibelle());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class FamilleArticleTest extends AbstractTestCase {
 
         $obj->setLibelle("libelle");
         $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FamilleArticle();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
     }
 }

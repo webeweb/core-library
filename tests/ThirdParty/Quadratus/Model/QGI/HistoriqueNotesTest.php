@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\HistoriqueNotes;
 class HistoriqueNotesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoriqueNotes();
-
-        $this->assertNull($obj->getCodeCategorie());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getDateCloture());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getTitre());
-    }
-
-    /**
      * Tests the setCodeCategorie() method.
      *
      * @return void
@@ -139,5 +121,23 @@ class HistoriqueNotesTest extends AbstractTestCase {
 
         $obj->setTitre("titre");
         $this->assertEquals("titre", $obj->getTitre());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoriqueNotes();
+
+        $this->assertNull($obj->getCodeCategorie());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getDateCloture());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getTitre());
     }
 }

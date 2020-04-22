@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LignesProfilsActions;
 class LignesProfilsActionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesProfilsActions();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeProfil());
-        $this->assertNull($obj->getNumLigne());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class LignesProfilsActionsTest extends AbstractTestCase {
 
         $obj->setNumLigne(10);
         $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesProfilsActions();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeProfil());
+        $this->assertNull($obj->getNumLigne());
     }
 }

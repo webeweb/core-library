@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuAssuranceEntete;
 class DadsuAssuranceEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuAssuranceEntete();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodePeriodicite());
-        $this->assertNull($obj->getDateApplication());
-        $this->assertNull($obj->getDateEmission());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getMailContact());
-        $this->assertNull($obj->getMoisAnniv());
-        $this->assertNull($obj->getNomContact());
-        $this->assertNull($obj->getTelContact());
-        $this->assertNull($obj->getUniteGestion());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -195,5 +173,27 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
 
         $obj->setUniteGestion("uniteGestion");
         $this->assertEquals("uniteGestion", $obj->getUniteGestion());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuAssuranceEntete();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodePeriodicite());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getDateEmission());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMailContact());
+        $this->assertNull($obj->getMoisAnniv());
+        $this->assertNull($obj->getNomContact());
+        $this->assertNull($obj->getTelContact());
+        $this->assertNull($obj->getUniteGestion());
     }
 }

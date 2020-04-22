@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCoSeances;
 class ActionsCoSeancesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ActionsCoSeances();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeManif());
-        $this->assertNull($obj->getDateSeance());
-        $this->assertNull($obj->getHeureDeb());
-        $this->assertNull($obj->getHeureFin());
-        $this->assertNull($obj->getLibelleSeance());
-        $this->assertNull($obj->getNumSeance());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -143,5 +125,23 @@ class ActionsCoSeancesTest extends AbstractTestCase {
 
         $obj->setNumSeance(10);
         $this->assertEquals(10, $obj->getNumSeance());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ActionsCoSeances();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeManif());
+        $this->assertNull($obj->getDateSeance());
+        $this->assertNull($obj->getHeureDeb());
+        $this->assertNull($obj->getHeureFin());
+        $this->assertNull($obj->getLibelleSeance());
+        $this->assertNull($obj->getNumSeance());
     }
 }

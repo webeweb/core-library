@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Enfants;
 class EnfantsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Enfants();
-
-        $this->assertNull($obj->getACharge());
-        $this->assertNull($obj->getDateNaissance());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPrenom());
-        $this->assertNull($obj->getSexe());
-    }
-
-    /**
      * Tests the setACharge() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class EnfantsTest extends AbstractTestCase {
 
         $obj->setSexe("sexe");
         $this->assertEquals("sexe", $obj->getSexe());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Enfants();
+
+        $this->assertNull($obj->getACharge());
+        $this->assertNull($obj->getDateNaissance());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPrenom());
+        $this->assertNull($obj->getSexe());
     }
 }

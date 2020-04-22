@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ControleSalaires;
 class ControleSalairesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ControleSalaires();
-
-        $this->assertNull($obj->getBrut());
-        $this->assertNull($obj->getCotisPatronales());
-        $this->assertNull($obj->getCotisSalariales());
-        $this->assertNull($obj->getHeures());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPlafond());
-    }
-
-    /**
      * Tests the setBrut() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class ControleSalairesTest extends AbstractTestCase {
 
         $obj->setPlafond(10.092018);
         $this->assertEquals(10.092018, $obj->getPlafond());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ControleSalaires();
+
+        $this->assertNull($obj->getBrut());
+        $this->assertNull($obj->getCotisPatronales());
+        $this->assertNull($obj->getCotisSalariales());
+        $this->assertNull($obj->getHeures());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPlafond());
     }
 }

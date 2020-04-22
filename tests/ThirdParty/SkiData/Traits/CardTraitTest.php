@@ -25,19 +25,6 @@ use WBW\Library\Core\Tests\Fixtures\ThirdParty\SkiData\Traits\TestCardTrait;
 class CardTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestCardTrait();
-
-        $this->assertNull($obj->getBlocked());
-        $this->assertNull($obj->getBlockedDate());
-    }
-
-    /**
      * Tests the setBlocked() method.
      *
      * @return void
@@ -62,5 +49,18 @@ class CardTraitTest extends AbstractTestCase {
 
         $obj->setBlockedDate(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getBlockedDate()->format("2018-08-30"));
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestCardTrait();
+
+        $this->assertNull($obj->getBlocked());
+        $this->assertNull($obj->getBlockedDate());
     }
 }

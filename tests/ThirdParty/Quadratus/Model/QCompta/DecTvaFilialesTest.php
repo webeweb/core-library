@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\DecTvaFiliales;
 class DecTvaFilialesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DecTvaFiliales();
-
-        $this->assertNull($obj->getBtq());
-        $this->assertNull($obj->getCodePostal());
-        $this->assertNull($obj->getComplement());
-        $this->assertNull($obj->getCptFiliale());
-        $this->assertNull($obj->getDateEntree());
-        $this->assertNull($obj->getDateSortie());
-        $this->assertNull($obj->getDetentionDirecte());
-        $this->assertNull($obj->getDetentionIndirecte());
-        $this->assertNull($obj->getFormeJuridique());
-        $this->assertNull($obj->getLibDoss());
-        $this->assertNull($obj->getNoDoss());
-        $this->assertNull($obj->getNomVoie());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getNumVoie());
-        $this->assertNull($obj->getSiren());
-        $this->assertNull($obj->getVille());
-    }
-
-    /**
      * Tests the setBtq() method.
      *
      * @return void
@@ -265,5 +238,32 @@ class DecTvaFilialesTest extends AbstractTestCase {
 
         $obj->setVille("ville");
         $this->assertEquals("ville", $obj->getVille());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DecTvaFiliales();
+
+        $this->assertNull($obj->getBtq());
+        $this->assertNull($obj->getCodePostal());
+        $this->assertNull($obj->getComplement());
+        $this->assertNull($obj->getCptFiliale());
+        $this->assertNull($obj->getDateEntree());
+        $this->assertNull($obj->getDateSortie());
+        $this->assertNull($obj->getDetentionDirecte());
+        $this->assertNull($obj->getDetentionIndirecte());
+        $this->assertNull($obj->getFormeJuridique());
+        $this->assertNull($obj->getLibDoss());
+        $this->assertNull($obj->getNoDoss());
+        $this->assertNull($obj->getNomVoie());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getNumVoie());
+        $this->assertNull($obj->getSiren());
+        $this->assertNull($obj->getVille());
     }
 }

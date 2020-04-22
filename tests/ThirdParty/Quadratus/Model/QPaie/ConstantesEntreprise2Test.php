@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\ConstantesEntreprise2;
 class ConstantesEntreprise2Test extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConstantesEntreprise2();
-
-        $this->assertNull($obj->getDateApplicationFsLisse());
-        $this->assertNull($obj->getDateApplicationForfaitSocial8());
-        $this->assertNull($obj->getGereEvtFinContratLot());
-        $this->assertNull($obj->getGerePrevNormeDsn());
-        $this->assertNull($obj->getGestionDsn());
-        $this->assertNull($obj->getNEvenementDsn());
-        $this->assertNull($obj->getNePasActiverPrimeAnnuelleProprete());
-        $this->assertNull($obj->getRegimeMixteMsa());
-        $this->assertNull($obj->getTauxPrimeAnnuellePropreteMoins20Ans());
-        $this->assertNull($obj->getTauxPrimeAnnuellePropretePlus20Ans());
-    }
-
-    /**
      * Tests the setDateApplicationForfaitSocial8() method.
      *
      * @return void
@@ -181,5 +160,26 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
 
         $obj->setTauxPrimeAnnuellePropretePlus20Ans(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxPrimeAnnuellePropretePlus20Ans());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConstantesEntreprise2();
+
+        $this->assertNull($obj->getDateApplicationFsLisse());
+        $this->assertNull($obj->getDateApplicationForfaitSocial8());
+        $this->assertNull($obj->getGereEvtFinContratLot());
+        $this->assertNull($obj->getGerePrevNormeDsn());
+        $this->assertNull($obj->getGestionDsn());
+        $this->assertNull($obj->getNEvenementDsn());
+        $this->assertNull($obj->getNePasActiverPrimeAnnuelleProprete());
+        $this->assertNull($obj->getRegimeMixteMsa());
+        $this->assertNull($obj->getTauxPrimeAnnuellePropreteMoins20Ans());
+        $this->assertNull($obj->getTauxPrimeAnnuellePropretePlus20Ans());
     }
 }

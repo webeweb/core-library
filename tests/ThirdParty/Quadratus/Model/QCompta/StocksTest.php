@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Stocks;
 class StocksTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Stocks();
-
-        $this->assertNull($obj->getAnnee());
-        $this->assertNull($obj->getCentre());
-        $this->assertNull($obj->getLibelleEcriture());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPrixU());
-        $this->assertNull($obj->getPrixU2());
-        $this->assertNull($obj->getQuantite());
-        $this->assertNull($obj->getQuantite2());
-        $this->assertNull($obj->getRefEcrCodeJournal());
-        $this->assertNull($obj->getRefEcrFolio());
-        $this->assertNull($obj->getRefEcrLigneFolio());
-        $this->assertNull($obj->getRefEcrNumLigne());
-        $this->assertNull($obj->getRefEcrPeriodeEcriture());
-    }
-
-    /**
      * Tests the setAnnee() method.
      *
      * @return void
@@ -279,5 +251,33 @@ class StocksTest extends AbstractTestCase {
 
         $obj->setRefEcrPeriodeEcriture($refEcrPeriodeEcriture);
         $this->assertSame($refEcrPeriodeEcriture, $obj->getRefEcrPeriodeEcriture());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Stocks();
+
+        $this->assertNull($obj->getAnnee());
+        $this->assertNull($obj->getCentre());
+        $this->assertNull($obj->getLibelleEcriture());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPrixU());
+        $this->assertNull($obj->getPrixU2());
+        $this->assertNull($obj->getQuantite());
+        $this->assertNull($obj->getQuantite2());
+        $this->assertNull($obj->getRefEcrCodeJournal());
+        $this->assertNull($obj->getRefEcrFolio());
+        $this->assertNull($obj->getRefEcrLigneFolio());
+        $this->assertNull($obj->getRefEcrNumLigne());
+        $this->assertNull($obj->getRefEcrPeriodeEcriture());
     }
 }

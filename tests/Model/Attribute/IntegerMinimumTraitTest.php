@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestIntegerMinimumTrait;
 class IntegerMinimumTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestIntegerMinimumTrait();
-
-        $this->assertNull($obj->getMinimum());
-    }
-
-    /**
      * Tests the setMinimum() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class IntegerMinimumTraitTest extends AbstractTestCase {
 
         $obj->setMinimum(1);
         $this->assertEquals(1, $obj->getMinimum());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestIntegerMinimumTrait();
+
+        $this->assertNull($obj->getMinimum());
     }
 }

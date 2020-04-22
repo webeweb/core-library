@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AffaireSuivi;
 class AffaireSuiviTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AffaireSuivi();
-
-        $this->assertNull($obj->getAvancement());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodePhase());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDateBilan());
-        $this->assertNull($obj->getListeCollab());
-        $this->assertNull($obj->getNbHeuresPrevisionnel());
-    }
-
-    /**
      * Tests the setAvancement() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class AffaireSuiviTest extends AbstractTestCase {
 
         $obj->setNbHeuresPrevisionnel(10.092018);
         $this->assertEquals(10.092018, $obj->getNbHeuresPrevisionnel());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AffaireSuivi();
+
+        $this->assertNull($obj->getAvancement());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodePhase());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDateBilan());
+        $this->assertNull($obj->getListeCollab());
+        $this->assertNull($obj->getNbHeuresPrevisionnel());
     }
 }

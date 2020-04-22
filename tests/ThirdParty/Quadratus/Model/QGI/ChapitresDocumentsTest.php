@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ChapitresDocuments;
 class ChapitresDocumentsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChapitresDocuments();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getNomRepertoire());
-        $this->assertNull($obj->getPosition());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class ChapitresDocumentsTest extends AbstractTestCase {
 
         $obj->setPosition(10);
         $this->assertEquals(10, $obj->getPosition());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChapitresDocuments();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getNomRepertoire());
+        $this->assertNull($obj->getPosition());
     }
 }

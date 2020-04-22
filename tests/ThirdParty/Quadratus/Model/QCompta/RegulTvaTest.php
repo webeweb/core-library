@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\RegulTva;
 class RegulTvaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RegulTva();
-
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getHt());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLigne());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getTtc());
-        $this->assertNull($obj->getTva());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCodeTva() method.
      *
      * @return void
@@ -149,5 +130,24 @@ class RegulTvaTest extends AbstractTestCase {
 
         $obj->setType(10);
         $this->assertEquals(10, $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RegulTva();
+
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getHt());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLigne());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTtc());
+        $this->assertNull($obj->getTva());
+        $this->assertNull($obj->getType());
     }
 }

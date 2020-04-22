@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\SeuilReposRecup;
 class SeuilReposRecupTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SeuilReposRecup();
-
-        $this->assertNull($obj->getDateApplication());
-        $this->assertNull($obj->getNbJourReposRecup());
-        $this->assertNull($obj->getNumeroGrilleType());
-        $this->assertNull($obj->getSeuilDeclenche());
-    }
-
-    /**
      * Tests the setDateApplication() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class SeuilReposRecupTest extends AbstractTestCase {
 
         $obj->setSeuilDeclenche(10.092018);
         $this->assertEquals(10.092018, $obj->getSeuilDeclenche());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SeuilReposRecup();
+
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getNbJourReposRecup());
+        $this->assertNull($obj->getNumeroGrilleType());
+        $this->assertNull($obj->getSeuilDeclenche());
     }
 }

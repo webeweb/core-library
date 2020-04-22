@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Fonctions;
 class FonctionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Fonctions();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getLibelle());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class FonctionsTest extends AbstractTestCase {
 
         $obj->setLibelle("libelle");
         $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Fonctions();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
     }
 }

@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HistoTauxRetraiteMetier;
 class HistoTauxRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoTauxRetraiteMetier();
-
-        $this->assertNull($obj->getAPartirDe());
-        $this->assertNull($obj->getCategSalarie());
-        $this->assertNull($obj->getCodeActivite());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeMetier());
-        $this->assertNull($obj->getFormatNonEtendu());
-        $this->assertNull($obj->getIndiceCateg());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getTauxPatronal());
-        $this->assertNull($obj->getTauxSalarial());
-    }
-
-    /**
      * Tests the setAPartirDe() method.
      *
      * @return void
@@ -177,5 +156,26 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
 
         $obj->setTauxSalarial(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxSalarial());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoTauxRetraiteMetier();
+
+        $this->assertNull($obj->getAPartirDe());
+        $this->assertNull($obj->getCategSalarie());
+        $this->assertNull($obj->getCodeActivite());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeMetier());
+        $this->assertNull($obj->getFormatNonEtendu());
+        $this->assertNull($obj->getIndiceCateg());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getTauxPatronal());
+        $this->assertNull($obj->getTauxSalarial());
     }
 }

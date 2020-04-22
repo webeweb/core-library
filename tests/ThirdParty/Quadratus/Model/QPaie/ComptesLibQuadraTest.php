@@ -23,36 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\ComptesLibQuadra;
 class ComptesLibQuadraTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ComptesLibQuadra();
-
-        $this->assertNull($obj->getCodeDucs());
-        $this->assertNull($obj->getCodeEditionHisto());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getCodeTypeBSpecPrev());
-        $this->assertNull($obj->getCompteCharge());
-        $this->assertNull($obj->getConditionSpec());
-        $this->assertNull($obj->getEditionForceeDs());
-        $this->assertNull($obj->getExclureLoiTepa());
-        $this->assertNull($obj->getFraisSante());
-        $this->assertNull($obj->getPrevoyanceComp());
-        $this->assertNull($obj->getQualifiantCotis());
-        $this->assertNull($obj->getRetraiteObligatoire());
-        $this->assertNull($obj->getRetraiteSupp());
-        $this->assertNull($obj->getSansReintegrationSociale());
-        $this->assertNull($obj->getSoumisCrds100());
-        $this->assertNull($obj->getSoumisCsg100());
-        $this->assertNull($obj->getTauxForfaitSocial20());
-        $this->assertNull($obj->getTauxForfaitSocial8());
-    }
-
-    /**
      * Tests the setCodeDucs() method.
      *
      * @return void
@@ -297,5 +267,35 @@ class ComptesLibQuadraTest extends AbstractTestCase {
 
         $obj->setTauxForfaitSocial8("tauxForfaitSocial8");
         $this->assertEquals("tauxForfaitSocial8", $obj->getTauxForfaitSocial8());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ComptesLibQuadra();
+
+        $this->assertNull($obj->getCodeDucs());
+        $this->assertNull($obj->getCodeEditionHisto());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getCodeTypeBSpecPrev());
+        $this->assertNull($obj->getCompteCharge());
+        $this->assertNull($obj->getConditionSpec());
+        $this->assertNull($obj->getEditionForceeDs());
+        $this->assertNull($obj->getExclureLoiTepa());
+        $this->assertNull($obj->getFraisSante());
+        $this->assertNull($obj->getPrevoyanceComp());
+        $this->assertNull($obj->getQualifiantCotis());
+        $this->assertNull($obj->getRetraiteObligatoire());
+        $this->assertNull($obj->getRetraiteSupp());
+        $this->assertNull($obj->getSansReintegrationSociale());
+        $this->assertNull($obj->getSoumisCrds100());
+        $this->assertNull($obj->getSoumisCsg100());
+        $this->assertNull($obj->getTauxForfaitSocial20());
+        $this->assertNull($obj->getTauxForfaitSocial8());
     }
 }

@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesAtc;
 class LignesAtcTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesAtc();
-
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMontantCotis());
-        $this->assertNull($obj->getMotif());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getPsEuroOuFranc());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getSalaireEuroOuFranc());
-    }
-
-    /**
      * Tests the setMontant() method.
      *
      * @return void
@@ -167,5 +147,25 @@ class LignesAtcTest extends AbstractTestCase {
 
         $obj->setSalaireEuroOuFranc("salaireEuroOuFranc");
         $this->assertEquals("salaireEuroOuFranc", $obj->getSalaireEuroOuFranc());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesAtc();
+
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantCotis());
+        $this->assertNull($obj->getMotif());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPsEuroOuFranc());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getSalaireEuroOuFranc());
     }
 }

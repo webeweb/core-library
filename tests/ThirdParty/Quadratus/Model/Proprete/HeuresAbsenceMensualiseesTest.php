@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HeuresAbsenceMensualise
 class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HeuresAbsenceMensualisees();
-
-        $this->assertNull($obj->getCodeAbsence());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getDateDebutAbs());
-        $this->assertNull($obj->getDateFinAbs());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getHAbsMens());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setCodeAbsence() method.
      *
      * @return void
@@ -273,5 +246,32 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HeuresAbsenceMensualisees();
+
+        $this->assertNull($obj->getCodeAbsence());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getDateDebutAbs());
+        $this->assertNull($obj->getDateFinAbs());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getHAbsMens());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

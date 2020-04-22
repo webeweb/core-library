@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RegroupementDs;
 class RegroupementDsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RegroupementDs();
-
-        $this->assertNull($obj->getCodeRds());
-        $this->assertNull($obj->getCodeRupture());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getOrganisme());
-    }
-
-    /**
      * Tests the setCodeRds() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class RegroupementDsTest extends AbstractTestCase {
 
         $obj->setOrganisme("organisme");
         $this->assertEquals("organisme", $obj->getOrganisme());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RegroupementDs();
+
+        $this->assertNull($obj->getCodeRds());
+        $this->assertNull($obj->getCodeRupture());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getOrganisme());
     }
 }

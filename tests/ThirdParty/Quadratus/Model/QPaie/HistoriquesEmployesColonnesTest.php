@@ -23,30 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HistoriquesEmployesColonne
 class HistoriquesEmployesColonnesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoriquesEmployesColonnes();
-
-        $this->assertNull($obj->getClauseWhere());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getIndiceTri());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getJointure());
-        $this->assertNull($obj->getNomChamp());
-        $this->assertNull($obj->getNomTable());
-        $this->assertNull($obj->getRefGuid());
-        $this->assertNull($obj->getSaisie());
-        $this->assertNull($obj->getSelection());
-        $this->assertNull($obj->getTaille());
-        $this->assertNull($obj->getTitre());
-        $this->assertNull($obj->getbEnGraph());
-    }
-
-    /**
      * Tests the setClauseWhere() method.
      *
      * @return void
@@ -213,5 +189,29 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
 
         $obj->setbEnGraph(true);
         $this->assertEquals(true, $obj->getbEnGraph());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoriquesEmployesColonnes();
+
+        $this->assertNull($obj->getClauseWhere());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getIndiceTri());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getJointure());
+        $this->assertNull($obj->getNomChamp());
+        $this->assertNull($obj->getNomTable());
+        $this->assertNull($obj->getRefGuid());
+        $this->assertNull($obj->getSaisie());
+        $this->assertNull($obj->getSelection());
+        $this->assertNull($obj->getTaille());
+        $this->assertNull($obj->getTitre());
+        $this->assertNull($obj->getbEnGraph());
     }
 }

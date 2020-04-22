@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Regroupement;
 class RegroupementTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Regroupement();
-
-        $this->assertNull($obj->getClasse());
-        $this->assertNull($obj->getIntitule());
-    }
-
-    /**
      * Tests the setClasse() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class RegroupementTest extends AbstractTestCase {
 
         $obj->setIntitule("intitule");
         $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Regroupement();
+
+        $this->assertNull($obj->getClasse());
+        $this->assertNull($obj->getIntitule());
     }
 }

@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersBudgetCommande
 class ChantiersBudgetCommandeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersBudgetCommande();
-
-        $this->assertNull($obj->getBudgetCommande1());
-        $this->assertNull($obj->getBudgetCommande10());
-        $this->assertNull($obj->getBudgetCommande11());
-        $this->assertNull($obj->getBudgetCommande12());
-        $this->assertNull($obj->getBudgetCommande2());
-        $this->assertNull($obj->getBudgetCommande3());
-        $this->assertNull($obj->getBudgetCommande4());
-        $this->assertNull($obj->getBudgetCommande5());
-        $this->assertNull($obj->getBudgetCommande6());
-        $this->assertNull($obj->getBudgetCommande7());
-        $this->assertNull($obj->getBudgetCommande8());
-        $this->assertNull($obj->getBudgetCommande9());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setBudgetCommande1() method.
      *
      * @return void
@@ -261,5 +234,32 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersBudgetCommande();
+
+        $this->assertNull($obj->getBudgetCommande1());
+        $this->assertNull($obj->getBudgetCommande10());
+        $this->assertNull($obj->getBudgetCommande11());
+        $this->assertNull($obj->getBudgetCommande12());
+        $this->assertNull($obj->getBudgetCommande2());
+        $this->assertNull($obj->getBudgetCommande3());
+        $this->assertNull($obj->getBudgetCommande4());
+        $this->assertNull($obj->getBudgetCommande5());
+        $this->assertNull($obj->getBudgetCommande6());
+        $this->assertNull($obj->getBudgetCommande7());
+        $this->assertNull($obj->getBudgetCommande8());
+        $this->assertNull($obj->getBudgetCommande9());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getPeriode());
     }
 }

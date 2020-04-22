@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringFromTrait;
 class StringFromTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringFromTrait();
-
-        $this->assertNull($obj->getFrom());
-    }
-
-    /**
      * Tests the setFrom() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringFromTraitTest extends AbstractTestCase {
 
         $obj->setFrom("from");
         $this->assertEquals("from", $obj->getFrom());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringFromTrait();
+
+        $this->assertNull($obj->getFrom());
     }
 }

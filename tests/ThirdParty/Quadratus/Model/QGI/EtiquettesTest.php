@@ -23,40 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Etiquettes;
 class EtiquettesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Etiquettes();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeBarre());
-        $this->assertNull($obj->getCodeCliFour());
-        $this->assertNull($obj->getCodeModele());
-        $this->assertNull($obj->getEtiqPlus());
-        $this->assertNull($obj->getImprimante());
-        $this->assertNull($obj->getPrixVente());
-        $this->assertNull($obj->getType());
-        $this->assertNull($obj->getZone1());
-        $this->assertNull($obj->getZone10());
-        $this->assertNull($obj->getZone11());
-        $this->assertNull($obj->getZone12());
-        $this->assertNull($obj->getZone13());
-        $this->assertNull($obj->getZone14());
-        $this->assertNull($obj->getZone15());
-        $this->assertNull($obj->getZone2());
-        $this->assertNull($obj->getZone3());
-        $this->assertNull($obj->getZone4());
-        $this->assertNull($obj->getZone5());
-        $this->assertNull($obj->getZone6());
-        $this->assertNull($obj->getZone7());
-        $this->assertNull($obj->getZone8());
-        $this->assertNull($obj->getZone9());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -353,5 +319,39 @@ class EtiquettesTest extends AbstractTestCase {
 
         $obj->setZone9("zone9");
         $this->assertEquals("zone9", $obj->getZone9());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Etiquettes();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeBarre());
+        $this->assertNull($obj->getCodeCliFour());
+        $this->assertNull($obj->getCodeModele());
+        $this->assertNull($obj->getEtiqPlus());
+        $this->assertNull($obj->getImprimante());
+        $this->assertNull($obj->getPrixVente());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getZone1());
+        $this->assertNull($obj->getZone10());
+        $this->assertNull($obj->getZone11());
+        $this->assertNull($obj->getZone12());
+        $this->assertNull($obj->getZone13());
+        $this->assertNull($obj->getZone14());
+        $this->assertNull($obj->getZone15());
+        $this->assertNull($obj->getZone2());
+        $this->assertNull($obj->getZone3());
+        $this->assertNull($obj->getZone4());
+        $this->assertNull($obj->getZone5());
+        $this->assertNull($obj->getZone6());
+        $this->assertNull($obj->getZone7());
+        $this->assertNull($obj->getZone8());
+        $this->assertNull($obj->getZone9());
     }
 }

@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Logiciels;
 class LogicielsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Logiciels();
-
-        $this->assertNull($obj->getCategorie());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeIntervenant());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDateAchat());
-        $this->assertNull($obj->getDateFinMaint());
-        $this->assertNull($obj->getIndiceAff());
-        $this->assertNull($obj->getMaintenance());
-        $this->assertNull($obj->getMontantMaint());
-        $this->assertNull($obj->getNomLogiciel());
-        $this->assertNull($obj->getNumLicence());
-        $this->assertNull($obj->getRefImage());
-        $this->assertNull($obj->getSousCategorie());
-    }
-
-    /**
      * Tests the setCategorie() method.
      *
      * @return void
@@ -223,5 +199,29 @@ class LogicielsTest extends AbstractTestCase {
 
         $obj->setSousCategorie("sousCategorie");
         $this->assertEquals("sousCategorie", $obj->getSousCategorie());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Logiciels();
+
+        $this->assertNull($obj->getCategorie());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeIntervenant());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDateAchat());
+        $this->assertNull($obj->getDateFinMaint());
+        $this->assertNull($obj->getIndiceAff());
+        $this->assertNull($obj->getMaintenance());
+        $this->assertNull($obj->getMontantMaint());
+        $this->assertNull($obj->getNomLogiciel());
+        $this->assertNull($obj->getNumLicence());
+        $this->assertNull($obj->getRefImage());
+        $this->assertNull($obj->getSousCategorie());
     }
 }

@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersReclamationsEm
 class ChantiersReclamationsEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersReclamationsEmployes();
-
-        $this->assertNull($obj->getAlerte());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getDateAlertePaie());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getNiveau());
-        $this->assertNull($obj->getNumeroReclam());
-    }
-
-    /**
      * Tests the setAlerte() method.
      *
      * @return void
@@ -163,5 +143,25 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
 
         $obj->setNumeroReclam(10);
         $this->assertEquals(10, $obj->getNumeroReclam());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersReclamationsEmployes();
+
+        $this->assertNull($obj->getAlerte());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateAlertePaie());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getNiveau());
+        $this->assertNull($obj->getNumeroReclam());
     }
 }

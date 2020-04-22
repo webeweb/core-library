@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\tblPaieTempLibelles;
 class tblPaieTempLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new tblPaieTempLibelles();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeCalcul());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumeroEmploye());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
 
         $obj->setNumeroEmploye("numeroEmploye");
         $this->assertEquals("numeroEmploye", $obj->getNumeroEmploye());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new tblPaieTempLibelles();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeCalcul());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumeroEmploye());
     }
 }

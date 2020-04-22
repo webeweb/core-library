@@ -24,31 +24,6 @@ use WBW\Library\Core\ThirdParty\OcrLad\Model\Word;
 class WordTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $this->assertEquals("LB", Word::TYPE_LINE_BREAK);
-        $this->assertEquals("NLB", Word::TYPE_NO_LINE_BREAK);
-
-        $obj = new Word();
-
-        $this->assertNull($obj->getContent());
-        $this->assertNull($obj->getOcrConfidence());
-        $this->assertNull($obj->getPage());
-        $this->assertNull($obj->getParent());
-        $this->assertInstanceOf(Point::class, $obj->getPoint1());
-        $this->assertInstanceOf(Point::class, $obj->getPoint2());
-        $this->assertNull($obj->getType());
-        $this->assertNull($obj->getX1());
-        $this->assertNull($obj->getX2());
-        $this->assertNull($obj->getY1());
-        $this->assertNull($obj->getY2());
-    }
-
-    /**
      * Tests the setOcrConfidence() method.
      *
      * @return void
@@ -111,5 +86,30 @@ class WordTest extends AbstractTestCase {
 
         $obj->setY2(2.1);
         $this->assertEquals(2.1, $obj->getY2());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $this->assertEquals("LB", Word::TYPE_LINE_BREAK);
+        $this->assertEquals("NLB", Word::TYPE_NO_LINE_BREAK);
+
+        $obj = new Word();
+
+        $this->assertNull($obj->getContent());
+        $this->assertNull($obj->getOcrConfidence());
+        $this->assertNull($obj->getPage());
+        $this->assertNull($obj->getParent());
+        $this->assertInstanceOf(Point::class, $obj->getPoint1());
+        $this->assertInstanceOf(Point::class, $obj->getPoint2());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getX1());
+        $this->assertNull($obj->getX2());
+        $this->assertNull($obj->getY1());
+        $this->assertNull($obj->getY2());
     }
 }

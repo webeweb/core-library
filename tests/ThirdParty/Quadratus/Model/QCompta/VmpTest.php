@@ -23,27 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Vmp;
 class VmpTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Vmp();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getCompteComm());
-        $this->assertNull($obj->getCompteCoupons());
-        $this->assertNull($obj->getCompteFrais());
-        $this->assertNull($obj->getIdentifiant());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNbLignesMvt());
-        $this->assertNull($obj->getNumCompte());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -171,5 +150,26 @@ class VmpTest extends AbstractTestCase {
 
         $obj->setNumCompte("numCompte");
         $this->assertEquals("numCompte", $obj->getNumCompte());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Vmp();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getCompteComm());
+        $this->assertNull($obj->getCompteCoupons());
+        $this->assertNull($obj->getCompteFrais());
+        $this->assertNull($obj->getIdentifiant());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNbLignesMvt());
+        $this->assertNull($obj->getNumCompte());
     }
 }

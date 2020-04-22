@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestIntegerPositionTrait;
 class IntegerPositionTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestIntegerPositionTrait();
-
-        $this->assertNull($obj->getPosition());
-    }
-
-    /**
      * Tests the setPosition() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class IntegerPositionTraitTest extends AbstractTestCase {
 
         $obj->setPosition(1);
         $this->assertEquals(1, $obj->getPosition());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestIntegerPositionTrait();
+
+        $this->assertNull($obj->getPosition());
     }
 }

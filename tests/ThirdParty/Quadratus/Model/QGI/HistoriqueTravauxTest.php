@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\HistoriqueTravaux;
 class HistoriqueTravauxTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoriqueTravaux();
-
-        $this->assertNull($obj->getCataloguee());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateurClot());
-        $this->assertNull($obj->getCodeCollaborateurDest());
-        $this->assertNull($obj->getCodeCollaborateurEntrant());
-        $this->assertNull($obj->getDateAlerte());
-        $this->assertNull($obj->getDateButoir());
-        $this->assertNull($obj->getDateEntree());
-        $this->assertNull($obj->getDateSortie());
-        $this->assertNull($obj->getDemandeur());
-        $this->assertNull($obj->getDuree());
-        $this->assertNull($obj->getIdTravail());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNomClient());
-        $this->assertNull($obj->getPieceJointe());
-        $this->assertNull($obj->getReponse());
-        $this->assertNull($obj->getTravailFait());
-    }
-
-    /**
      * Tests the setCataloguee() method.
      *
      * @return void
@@ -287,5 +259,33 @@ class HistoriqueTravauxTest extends AbstractTestCase {
 
         $obj->setTravailFait(true);
         $this->assertEquals(true, $obj->getTravailFait());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoriqueTravaux();
+
+        $this->assertNull($obj->getCataloguee());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateurClot());
+        $this->assertNull($obj->getCodeCollaborateurDest());
+        $this->assertNull($obj->getCodeCollaborateurEntrant());
+        $this->assertNull($obj->getDateAlerte());
+        $this->assertNull($obj->getDateButoir());
+        $this->assertNull($obj->getDateEntree());
+        $this->assertNull($obj->getDateSortie());
+        $this->assertNull($obj->getDemandeur());
+        $this->assertNull($obj->getDuree());
+        $this->assertNull($obj->getIdTravail());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNomClient());
+        $this->assertNull($obj->getPieceJointe());
+        $this->assertNull($obj->getReponse());
+        $this->assertNull($obj->getTravailFait());
     }
 }

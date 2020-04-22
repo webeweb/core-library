@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\FonctionsControles;
 class FonctionsControlesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FonctionsControles();
-
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getMotControle());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setIntitule() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class FonctionsControlesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FonctionsControles();
+
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMotControle());
+        $this->assertNull($obj->getType());
     }
 }

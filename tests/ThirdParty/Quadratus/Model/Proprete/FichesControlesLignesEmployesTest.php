@@ -23,25 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesLignesEm
 class FichesControlesLignesEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesControlesLignesEmployes();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeRemplacant());
-        $this->assertNull($obj->getNumeroFiche());
-        $this->assertNull($obj->getPoste());
-        $this->assertNull($obj->getRemarque());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -143,5 +124,24 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
 
         $obj->setRemarque("remarque");
         $this->assertEquals("remarque", $obj->getRemarque());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesControlesLignesEmployes();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeRemplacant());
+        $this->assertNull($obj->getNumeroFiche());
+        $this->assertNull($obj->getPoste());
+        $this->assertNull($obj->getRemarque());
     }
 }

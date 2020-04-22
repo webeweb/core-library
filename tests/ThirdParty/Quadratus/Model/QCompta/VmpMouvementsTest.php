@@ -25,32 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\VmpMouvements;
 class VmpMouvementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new VmpMouvements();
-
-        $this->assertNull($obj->getCodeVmp());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getFrancsEuros());
-        $this->assertNull($obj->getGratuit());
-        $this->assertNull($obj->getMontantComm());
-        $this->assertNull($obj->getMontantCoupon());
-        $this->assertNull($obj->getMontantFrais());
-        $this->assertNull($obj->getNoLotEcr());
-        $this->assertNull($obj->getNoLotTrace());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumUniqEcr());
-        $this->assertNull($obj->getPrixUnitaire());
-        $this->assertNull($obj->getQuantite());
-        $this->assertNull($obj->getSoldeQuantite());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCodeVmp() method.
      *
      * @return void
@@ -247,5 +221,31 @@ class VmpMouvementsTest extends AbstractTestCase {
 
         $obj->setType(10);
         $this->assertEquals(10, $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new VmpMouvements();
+
+        $this->assertNull($obj->getCodeVmp());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getFrancsEuros());
+        $this->assertNull($obj->getGratuit());
+        $this->assertNull($obj->getMontantComm());
+        $this->assertNull($obj->getMontantCoupon());
+        $this->assertNull($obj->getMontantFrais());
+        $this->assertNull($obj->getNoLotEcr());
+        $this->assertNull($obj->getNoLotTrace());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumUniqEcr());
+        $this->assertNull($obj->getPrixUnitaire());
+        $this->assertNull($obj->getQuantite());
+        $this->assertNull($obj->getSoldeQuantite());
+        $this->assertNull($obj->getType());
     }
 }

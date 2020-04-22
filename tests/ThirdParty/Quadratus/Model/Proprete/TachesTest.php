@@ -25,43 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Taches;
 class TachesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Taches();
-
-        $this->assertNull($obj->getAutoIncr());
-        $this->assertNull($obj->getCadence());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeAnalytique());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeDernSemGen());
-        $this->assertNull($obj->getCodePrimeDimanche1Type2());
-        $this->assertNull($obj->getCodePrimeJf1Type2());
-        $this->assertNull($obj->getCodePrimeNuit1Type2());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getCodeTacheType());
-        $this->assertNull($obj->getDescriptif());
-        $this->assertNull($obj->getDtDernSemGen());
-        $this->assertNull($obj->getDureeBudget());
-        $this->assertNull($obj->getFichePoste());
-        $this->assertNull($obj->getGestionHotellerie());
-        $this->assertNull($obj->getMajDimNormalType2());
-        $this->assertNull($obj->getMajJfNormalType2());
-        $this->assertNull($obj->getMajNuitNormalType2());
-        $this->assertNull($obj->getNiveauQualif());
-        $this->assertNull($obj->getNonOeuvrant());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getPlanningDernSemPrioritaire());
-        $this->assertNull($obj->getPosteRent());
-        $this->assertNull($obj->getSuiviHeures());
-    }
-
-    /**
      * Tests the setAutoIncr() method.
      *
      * @return void
@@ -401,5 +364,42 @@ class TachesTest extends AbstractTestCase {
 
         $obj->setSuiviHeures(true);
         $this->assertEquals(true, $obj->getSuiviHeures());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Taches();
+
+        $this->assertNull($obj->getAutoIncr());
+        $this->assertNull($obj->getCadence());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeAnalytique());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeDernSemGen());
+        $this->assertNull($obj->getCodePrimeDimanche1Type2());
+        $this->assertNull($obj->getCodePrimeJf1Type2());
+        $this->assertNull($obj->getCodePrimeNuit1Type2());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getCodeTacheType());
+        $this->assertNull($obj->getDescriptif());
+        $this->assertNull($obj->getDtDernSemGen());
+        $this->assertNull($obj->getDureeBudget());
+        $this->assertNull($obj->getFichePoste());
+        $this->assertNull($obj->getGestionHotellerie());
+        $this->assertNull($obj->getMajDimNormalType2());
+        $this->assertNull($obj->getMajJfNormalType2());
+        $this->assertNull($obj->getMajNuitNormalType2());
+        $this->assertNull($obj->getNiveauQualif());
+        $this->assertNull($obj->getNonOeuvrant());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getPlanningDernSemPrioritaire());
+        $this->assertNull($obj->getPosteRent());
+        $this->assertNull($obj->getSuiviHeures());
     }
 }

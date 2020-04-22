@@ -25,20 +25,6 @@ use WBW\Library\Core\ThirdParty\Adoria\Model\RequestData;
 class RequestDataTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RequestData();
-
-        $this->assertNull($obj->getAnalyticCode());
-        $this->assertNull($obj->getBuyDateMax());
-        $this->assertNull($obj->getIdentificationKey());
-    }
-
-    /**
      * Tests the setAnalyticCode() method.
      *
      * @return void
@@ -79,5 +65,19 @@ class RequestDataTest extends AbstractTestCase {
 
         $obj->setIdentificationKey("IdentificationKey");
         $this->assertEquals("IdentificationKey", $obj->getIdentificationKey());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RequestData();
+
+        $this->assertNull($obj->getAnalyticCode());
+        $this->assertNull($obj->getBuyDateMax());
+        $this->assertNull($obj->getIdentificationKey());
     }
 }

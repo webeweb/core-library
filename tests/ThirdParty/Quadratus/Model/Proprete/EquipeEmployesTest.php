@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\EquipeEmployes;
 class EquipeEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EquipeEmployes();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeEquipe());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class EquipeEmployesTest extends AbstractTestCase {
 
         $obj->setCodeEquipe("codeEquipe");
         $this->assertEquals("codeEquipe", $obj->getCodeEquipe());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EquipeEmployes();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeEquipe());
     }
 }

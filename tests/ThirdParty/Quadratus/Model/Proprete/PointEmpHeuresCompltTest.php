@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PointEmpHeuresComplt;
 class PointEmpHeuresCompltTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PointEmpHeuresComplt();
-
-        $this->assertNull($obj->getAFacturer());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getHeureCompl());
-        $this->assertNull($obj->getHeureComplNuit());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getTypeHeure());
-    }
-
-    /**
      * Tests the setAFacturer() method.
      *
      * @return void
@@ -199,5 +177,27 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
 
         $obj->setTypeHeure("typeHeure");
         $this->assertEquals("typeHeure", $obj->getTypeHeure());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PointEmpHeuresComplt();
+
+        $this->assertNull($obj->getAFacturer());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getHeureCompl());
+        $this->assertNull($obj->getHeureComplNuit());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getTypeHeure());
     }
 }

@@ -23,34 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ChargesProduits;
 class ChargesProduitsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChargesProduits();
-
-        $this->assertNull($obj->getCentre());
-        $this->assertNull($obj->getCodeFeuille());
-        $this->assertNull($obj->getCommentaires());
-        $this->assertNull($obj->getContrePartie());
-        $this->assertNull($obj->getEtatLigne());
-        $this->assertNull($obj->getLibEcriture());
-        $this->assertNull($obj->getMoisRevision());
-        $this->assertNull($obj->getMtHt());
-        $this->assertNull($obj->getMtN1());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumLotEcriture());
-        $this->assertNull($obj->getNumLotPeriodicite());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getRefImage());
-        $this->assertNull($obj->getSens());
-        $this->assertNull($obj->getTxTva());
-    }
-
-    /**
      * Tests the setCentre() method.
      *
      * @return void
@@ -269,5 +241,33 @@ class ChargesProduitsTest extends AbstractTestCase {
 
         $obj->setTxTva(10.092018);
         $this->assertEquals(10.092018, $obj->getTxTva());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChargesProduits();
+
+        $this->assertNull($obj->getCentre());
+        $this->assertNull($obj->getCodeFeuille());
+        $this->assertNull($obj->getCommentaires());
+        $this->assertNull($obj->getContrePartie());
+        $this->assertNull($obj->getEtatLigne());
+        $this->assertNull($obj->getLibEcriture());
+        $this->assertNull($obj->getMoisRevision());
+        $this->assertNull($obj->getMtHt());
+        $this->assertNull($obj->getMtN1());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumLotEcriture());
+        $this->assertNull($obj->getNumLotPeriodicite());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getRefImage());
+        $this->assertNull($obj->getSens());
+        $this->assertNull($obj->getTxTva());
     }
 }

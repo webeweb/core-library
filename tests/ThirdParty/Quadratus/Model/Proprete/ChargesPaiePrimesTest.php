@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChargesPaiePrimes;
 class ChargesPaiePrimesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChargesPaiePrimes();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodePrime());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class ChargesPaiePrimesTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChargesPaiePrimes();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodePrime());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getPeriode());
     }
 }

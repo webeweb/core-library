@@ -23,20 +23,6 @@ use WBW\Library\Core\Validator\Status\DefaultValidationStatus;
 class DefaultValidationStatusTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DefaultValidationStatus();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getMessage());
-        $this->assertNull($obj->getRuleName());
-    }
-
-    /**
      * Tests the jsonSerialize() method.
      *
      * @return void
@@ -89,5 +75,19 @@ class DefaultValidationStatusTest extends AbstractTestCase {
 
         $obj->setRuleName("ruleName");
         $this->assertEquals("ruleName", $obj->getRuleName());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DefaultValidationStatus();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getMessage());
+        $this->assertNull($obj->getRuleName());
     }
 }

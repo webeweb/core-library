@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AbsencesEntete;
 class AbsencesEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AbsencesEntete();
-
-        $this->assertNull($obj->getCodeAbsence());
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getDateDebutAbs());
-        $this->assertNull($obj->getDateFinAbs());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getFromFermetureChantier());
-        $this->assertNull($obj->getUniqId());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setCodeAbsence() method.
      *
      * @return void
@@ -199,5 +177,27 @@ class AbsencesEnteteTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AbsencesEntete();
+
+        $this->assertNull($obj->getCodeAbsence());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateDebutAbs());
+        $this->assertNull($obj->getDateFinAbs());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getFromFermetureChantier());
+        $this->assertNull($obj->getUniqId());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

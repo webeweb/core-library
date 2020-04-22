@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringFilenameTrait;
 class StringFilenameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringFilenameTrait();
-
-        $this->assertNull($obj->getFilename());
-    }
-
-    /**
      * Tests the setFilename() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringFilenameTraitTest extends AbstractTestCase {
 
         $obj->setFilename("filename");
         $this->assertEquals("filename", $obj->getFilename());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringFilenameTrait();
+
+        $this->assertNull($obj->getFilename());
     }
 }

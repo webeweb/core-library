@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArticlesFrnPrixA;
 class ArticlesFrnPrixATest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ArticlesFrnPrixA();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeFournisseur());
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getPrixCond());
-        $this->assertNull($obj->getPxAchat());
-        $this->assertNull($obj->getQteAchat());
-        $this->assertNull($obj->getQteCond());
-        $this->assertNull($obj->getRemise1());
-        $this->assertNull($obj->getRemise2());
-        $this->assertNull($obj->getRemise3());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -177,5 +156,26 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
 
         $obj->setRemise3(10.092018);
         $this->assertEquals(10.092018, $obj->getRemise3());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ArticlesFrnPrixA();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeFournisseur());
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getPrixCond());
+        $this->assertNull($obj->getPxAchat());
+        $this->assertNull($obj->getQteAchat());
+        $this->assertNull($obj->getQteCond());
+        $this->assertNull($obj->getRemise1());
+        $this->assertNull($obj->getRemise2());
+        $this->assertNull($obj->getRemise3());
     }
 }

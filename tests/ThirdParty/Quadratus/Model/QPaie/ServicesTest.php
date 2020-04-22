@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Services;
 class ServicesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Services();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getIntitule());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ServicesTest extends AbstractTestCase {
 
         $obj->setIntitule("intitule");
         $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Services();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getIntitule());
     }
 }

@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PrepaPaieHSup;
 class PrepaPaieHSupTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PrepaPaieHSup();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getNbHSup());
-        $this->assertNull($obj->getNumSem());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPourcentHSup());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class PrepaPaieHSupTest extends AbstractTestCase {
 
         $obj->setPourcentHSup(10.092018);
         $this->assertEquals(10.092018, $obj->getPourcentHSup());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PrepaPaieHSup();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getNbHSup());
+        $this->assertNull($obj->getNumSem());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPourcentHSup());
     }
 }

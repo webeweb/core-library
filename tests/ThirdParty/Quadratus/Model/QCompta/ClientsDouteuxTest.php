@@ -25,35 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ClientsDouteux;
 class ClientsDouteuxTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsDouteux();
-
-        $this->assertNull($obj->getDateDoute());
-        $this->assertNull($obj->getMention());
-        $this->assertNull($obj->getMtCreanceBaseHt());
-        $this->assertNull($obj->getMtCreanceTtcDebExo());
-        $this->assertNull($obj->getMtCreanceTtcDevDoutExo());
-        $this->assertNull($obj->getMtCreanceTtcIrrecExo());
-        $this->assertNull($obj->getMtCreanceTtcReglExo());
-        $this->assertNull($obj->getMtProvisionDebExo());
-        $this->assertNull($obj->getMtProvisionDotExo());
-        $this->assertNull($obj->getMtRepProvisionIrrec());
-        $this->assertNull($obj->getMtRepProvisionRegl());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getObservations());
-        $this->assertNull($obj->getRefImage());
-        $this->assertNull($obj->getTauxDouteDebExo());
-        $this->assertNull($obj->getTauxDouteExo());
-        $this->assertNull($obj->getTxTvaCreance());
-        $this->assertNull($obj->getTxTvaCreanceForce());
-    }
-
-    /**
      * Tests the setDateDoute() method.
      *
      * @return void
@@ -289,5 +260,34 @@ class ClientsDouteuxTest extends AbstractTestCase {
 
         $obj->setTxTvaCreanceForce(true);
         $this->assertEquals(true, $obj->getTxTvaCreanceForce());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsDouteux();
+
+        $this->assertNull($obj->getDateDoute());
+        $this->assertNull($obj->getMention());
+        $this->assertNull($obj->getMtCreanceBaseHt());
+        $this->assertNull($obj->getMtCreanceTtcDebExo());
+        $this->assertNull($obj->getMtCreanceTtcDevDoutExo());
+        $this->assertNull($obj->getMtCreanceTtcIrrecExo());
+        $this->assertNull($obj->getMtCreanceTtcReglExo());
+        $this->assertNull($obj->getMtProvisionDebExo());
+        $this->assertNull($obj->getMtProvisionDotExo());
+        $this->assertNull($obj->getMtRepProvisionIrrec());
+        $this->assertNull($obj->getMtRepProvisionRegl());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getObservations());
+        $this->assertNull($obj->getRefImage());
+        $this->assertNull($obj->getTauxDouteDebExo());
+        $this->assertNull($obj->getTauxDouteExo());
+        $this->assertNull($obj->getTxTvaCreance());
+        $this->assertNull($obj->getTxTvaCreanceForce());
     }
 }

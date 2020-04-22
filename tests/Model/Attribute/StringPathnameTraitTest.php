@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringPathnameTrait;
 class StringPathnameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringPathnameTrait();
-
-        $this->assertNull($obj->getPathname());
-    }
-
-    /**
      * Tests the setPathname() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringPathnameTraitTest extends AbstractTestCase {
 
         $obj->setPathname("pathname");
         $this->assertEquals("pathname", $obj->getPathname());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringPathnameTrait();
+
+        $this->assertNull($obj->getPathname());
     }
 }

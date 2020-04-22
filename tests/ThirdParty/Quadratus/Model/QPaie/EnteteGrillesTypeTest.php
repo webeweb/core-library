@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EnteteGrillesType;
 class EnteteGrillesTypeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EnteteGrillesType();
-
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumeroGrilleType());
-    }
-
-    /**
      * Tests the setIntitule() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class EnteteGrillesTypeTest extends AbstractTestCase {
 
         $obj->setNumeroGrilleType(10);
         $this->assertEquals(10, $obj->getNumeroGrilleType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EnteteGrillesType();
+
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumeroGrilleType());
     }
 }

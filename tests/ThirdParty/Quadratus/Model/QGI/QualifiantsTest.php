@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Qualifiants;
 class QualifiantsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Qualifiants();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getColonne());
-        $this->assertNull($obj->getVisuAppels());
-        $this->assertNull($obj->getVisuDocuments());
-        $this->assertNull($obj->getVisuEvenements());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class QualifiantsTest extends AbstractTestCase {
 
         $obj->setVisuEvenements(true);
         $this->assertEquals(true, $obj->getVisuEvenements());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Qualifiants();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getColonne());
+        $this->assertNull($obj->getVisuAppels());
+        $this->assertNull($obj->getVisuDocuments());
+        $this->assertNull($obj->getVisuEvenements());
     }
 }

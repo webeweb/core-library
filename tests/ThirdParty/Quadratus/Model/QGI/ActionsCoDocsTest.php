@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCoDocs;
 class ActionsCoDocsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ActionsCoDocs();
-
-        $this->assertNull($obj->getAuteur());
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeDoc());
-        $this->assertNull($obj->getCodeManif());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDateModification());
-        $this->assertNull($obj->getEmplacementFichier());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumero());
-    }
-
-    /**
      * Tests the setAuteur() method.
      *
      * @return void
@@ -181,5 +160,26 @@ class ActionsCoDocsTest extends AbstractTestCase {
 
         $obj->setNumero(10);
         $this->assertEquals(10, $obj->getNumero());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ActionsCoDocs();
+
+        $this->assertNull($obj->getAuteur());
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeDoc());
+        $this->assertNull($obj->getCodeManif());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getEmplacementFichier());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumero());
     }
 }

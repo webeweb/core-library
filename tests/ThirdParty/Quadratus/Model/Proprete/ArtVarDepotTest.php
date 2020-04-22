@@ -23,26 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ArtVarDepot;
 class ArtVarDepotTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ArtVarDepot();
-
-        $this->assertNull($obj->getAlleeCasier());
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeDepot());
-        $this->assertNull($obj->getCodeVariante());
-        $this->assertNull($obj->getQteStockAttente());
-        $this->assertNull($obj->getQteStockMaxi());
-        $this->assertNull($obj->getQteStockMini());
-        $this->assertNull($obj->getQteStockReel());
-        $this->assertNull($obj->getQteStockReserve());
-    }
-
-    /**
      * Tests the setAlleeCasier() method.
      *
      * @return void
@@ -157,5 +137,25 @@ class ArtVarDepotTest extends AbstractTestCase {
 
         $obj->setQteStockReserve(10.092018);
         $this->assertEquals(10.092018, $obj->getQteStockReserve());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ArtVarDepot();
+
+        $this->assertNull($obj->getAlleeCasier());
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeDepot());
+        $this->assertNull($obj->getCodeVariante());
+        $this->assertNull($obj->getQteStockAttente());
+        $this->assertNull($obj->getQteStockMaxi());
+        $this->assertNull($obj->getQteStockMini());
+        $this->assertNull($obj->getQteStockReel());
+        $this->assertNull($obj->getQteStockReserve());
     }
 }

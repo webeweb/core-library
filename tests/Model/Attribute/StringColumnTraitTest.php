@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringColumnTrait;
 class StringColumnTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringColumnTrait();
-
-        $this->assertNull($obj->getColumn());
-    }
-
-    /**
      * Tests the setColumn() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringColumnTraitTest extends AbstractTestCase {
 
         $obj->setColumn("column");
         $this->assertEquals("column", $obj->getColumn());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringColumnTrait();
+
+        $this->assertNull($obj->getColumn());
     }
 }

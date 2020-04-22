@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\EmpruntsLignes;
 class EmpruntsLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpruntsLignes();
-
-        $this->assertNull($obj->getDateRemboursement());
-        $this->assertNull($obj->getDontAssurance());
-        $this->assertNull($obj->getDontCapital());
-        $this->assertNull($obj->getDontInteret());
-        $this->assertNull($obj->getMontantRembour());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getRestantDuAvant());
-        $this->assertNull($obj->getTauxLigne());
-    }
-
-    /**
      * Tests the setDateRemboursement() method.
      *
      * @return void
@@ -163,5 +143,25 @@ class EmpruntsLignesTest extends AbstractTestCase {
 
         $obj->setTauxLigne(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpruntsLignes();
+
+        $this->assertNull($obj->getDateRemboursement());
+        $this->assertNull($obj->getDontAssurance());
+        $this->assertNull($obj->getDontCapital());
+        $this->assertNull($obj->getDontInteret());
+        $this->assertNull($obj->getMontantRembour());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getRestantDuAvant());
+        $this->assertNull($obj->getTauxLigne());
     }
 }

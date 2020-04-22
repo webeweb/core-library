@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HistoriquesEmployes;
 class HistoriquesEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoriquesEmployes();
-
-        $this->assertNull($obj->getChapitre());
-        $this->assertNull($obj->getCollCreat());
-        $this->assertNull($obj->getCollModif());
-        $this->assertNull($obj->getDateCreat());
-        $this->assertNull($obj->getDateModif());
-        $this->assertNull($obj->getDescription());
-        $this->assertNull($obj->getGUniqId());
-        $this->assertNull($obj->getIndice());
-    }
-
-    /**
      * Tests the setChapitre() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class HistoriquesEmployesTest extends AbstractTestCase {
 
         $obj->setIndice(10);
         $this->assertEquals(10, $obj->getIndice());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoriquesEmployes();
+
+        $this->assertNull($obj->getChapitre());
+        $this->assertNull($obj->getCollCreat());
+        $this->assertNull($obj->getCollModif());
+        $this->assertNull($obj->getDateCreat());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getDescription());
+        $this->assertNull($obj->getGUniqId());
+        $this->assertNull($obj->getIndice());
     }
 }

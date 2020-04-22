@@ -23,31 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCoInscrits;
 class ActionsCoInscritsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ActionsCoInscrits();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeManif());
-        $this->assertNull($obj->getConfirme());
-        $this->assertNull($obj->getEmail());
-        $this->assertNull($obj->getFax());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getNumInterlocuteur());
-        $this->assertNull($obj->getNumSeance());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getPrenom());
-        $this->assertNull($obj->getPresent());
-        $this->assertNull($obj->getTelephone());
-        $this->assertNull($obj->getTypeInvite());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -227,5 +202,30 @@ class ActionsCoInscritsTest extends AbstractTestCase {
 
         $obj->setTypeInvite("typeInvite");
         $this->assertEquals("typeInvite", $obj->getTypeInvite());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ActionsCoInscrits();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeManif());
+        $this->assertNull($obj->getConfirme());
+        $this->assertNull($obj->getEmail());
+        $this->assertNull($obj->getFax());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNumInterlocuteur());
+        $this->assertNull($obj->getNumSeance());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getPrenom());
+        $this->assertNull($obj->getPresent());
+        $this->assertNull($obj->getTelephone());
+        $this->assertNull($obj->getTypeInvite());
     }
 }

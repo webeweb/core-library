@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\BoniMali;
 class BoniMaliTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BoniMali();
-
-        $this->assertNull($obj->getBmCalcule());
-        $this->assertNull($obj->getBonus());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getDateBm());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMalus());
-        $this->assertNull($obj->getMonnaie());
-        $this->assertNull($obj->getNumeroBm());
-        $this->assertNull($obj->getNumeroLigne());
-    }
-
-    /**
      * Tests the setBmCalcule() method.
      *
      * @return void
@@ -191,5 +169,27 @@ class BoniMaliTest extends AbstractTestCase {
 
         $obj->setNumeroLigne(10);
         $this->assertEquals(10, $obj->getNumeroLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BoniMali();
+
+        $this->assertNull($obj->getBmCalcule());
+        $this->assertNull($obj->getBonus());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getDateBm());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMalus());
+        $this->assertNull($obj->getMonnaie());
+        $this->assertNull($obj->getNumeroBm());
+        $this->assertNull($obj->getNumeroLigne());
     }
 }

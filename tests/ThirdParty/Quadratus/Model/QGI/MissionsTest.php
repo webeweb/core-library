@@ -25,51 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Missions;
 class MissionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Missions();
-
-        $this->assertNull($obj->getArticle());
-        $this->assertNull($obj->getBmCalcule());
-        $this->assertNull($obj->getCentreAnalytique());
-        $this->assertNull($obj->getCloture());
-        $this->assertNull($obj->getClotureContexte());
-        $this->assertNull($obj->getClotureDate());
-        $this->assertNull($obj->getCloturePar());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCodeMissionType());
-        $this->assertNull($obj->getCodeResponsable());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDateDebutTp());
-        $this->assertNull($obj->getDateFinTp());
-        $this->assertNull($obj->getDateModification());
-        $this->assertNull($obj->getDecalageFermetureAuto());
-        $this->assertNull($obj->getDecalageFermetureAutoJours());
-        $this->assertNull($obj->getDecalageOuvertureAuto());
-        $this->assertNull($obj->getDescriptif());
-        $this->assertNull($obj->getDescriptifRtf());
-        $this->assertNull($obj->getDtFermetureAuto());
-        $this->assertNull($obj->getFermetureAuto());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMissionMillesime());
-        $this->assertNull($obj->getMoisOuvertureAuto());
-        $this->assertNull($obj->getOuvertureContexte());
-        $this->assertNull($obj->getOuvertureDate());
-        $this->assertNull($obj->getOuverturePar());
-        $this->assertNull($obj->getSociete());
-        $this->assertNull($obj->getTpArchive());
-        $this->assertNull($obj->getTpCloture());
-        $this->assertNull($obj->getTransfertCentre());
-        $this->assertNull($obj->getTypeCentre());
-        $this->assertNull($obj->getTypeResponsable());
-    }
-
-    /**
      * Tests the setArticle() method.
      *
      * @return void
@@ -537,5 +492,50 @@ class MissionsTest extends AbstractTestCase {
 
         $obj->setTypeResponsable("typeResponsable");
         $this->assertEquals("typeResponsable", $obj->getTypeResponsable());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Missions();
+
+        $this->assertNull($obj->getArticle());
+        $this->assertNull($obj->getBmCalcule());
+        $this->assertNull($obj->getCentreAnalytique());
+        $this->assertNull($obj->getCloture());
+        $this->assertNull($obj->getClotureContexte());
+        $this->assertNull($obj->getClotureDate());
+        $this->assertNull($obj->getCloturePar());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodeMissionType());
+        $this->assertNull($obj->getCodeResponsable());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateDebutTp());
+        $this->assertNull($obj->getDateFinTp());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getDecalageFermetureAuto());
+        $this->assertNull($obj->getDecalageFermetureAutoJours());
+        $this->assertNull($obj->getDecalageOuvertureAuto());
+        $this->assertNull($obj->getDescriptif());
+        $this->assertNull($obj->getDescriptifRtf());
+        $this->assertNull($obj->getDtFermetureAuto());
+        $this->assertNull($obj->getFermetureAuto());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMissionMillesime());
+        $this->assertNull($obj->getMoisOuvertureAuto());
+        $this->assertNull($obj->getOuvertureContexte());
+        $this->assertNull($obj->getOuvertureDate());
+        $this->assertNull($obj->getOuverturePar());
+        $this->assertNull($obj->getSociete());
+        $this->assertNull($obj->getTpArchive());
+        $this->assertNull($obj->getTpCloture());
+        $this->assertNull($obj->getTransfertCentre());
+        $this->assertNull($obj->getTypeCentre());
+        $this->assertNull($obj->getTypeResponsable());
     }
 }

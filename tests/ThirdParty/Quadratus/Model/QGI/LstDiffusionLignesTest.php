@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\LstDiffusionLignes;
 class LstDiffusionLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LstDiffusionLignes();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeGroupe());
-        $this->assertNull($obj->getNumLig());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class LstDiffusionLignesTest extends AbstractTestCase {
 
         $obj->setType(10);
         $this->assertEquals(10, $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LstDiffusionLignes();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeGroupe());
+        $this->assertNull($obj->getNumLig());
+        $this->assertNull($obj->getType());
     }
 }

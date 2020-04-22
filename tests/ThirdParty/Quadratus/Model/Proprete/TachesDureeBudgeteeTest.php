@@ -25,35 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\TachesDureeBudgetee;
 class TachesDureeBudgeteeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TachesDureeBudgetee();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getDureeBudgetee1());
-        $this->assertNull($obj->getDureeBudgetee10());
-        $this->assertNull($obj->getDureeBudgetee11());
-        $this->assertNull($obj->getDureeBudgetee12());
-        $this->assertNull($obj->getDureeBudgetee2());
-        $this->assertNull($obj->getDureeBudgetee3());
-        $this->assertNull($obj->getDureeBudgetee4());
-        $this->assertNull($obj->getDureeBudgetee5());
-        $this->assertNull($obj->getDureeBudgetee6());
-        $this->assertNull($obj->getDureeBudgetee7());
-        $this->assertNull($obj->getDureeBudgetee8());
-        $this->assertNull($obj->getDureeBudgetee9());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -289,5 +260,34 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TachesDureeBudgetee();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getDureeBudgetee1());
+        $this->assertNull($obj->getDureeBudgetee10());
+        $this->assertNull($obj->getDureeBudgetee11());
+        $this->assertNull($obj->getDureeBudgetee12());
+        $this->assertNull($obj->getDureeBudgetee2());
+        $this->assertNull($obj->getDureeBudgetee3());
+        $this->assertNull($obj->getDureeBudgetee4());
+        $this->assertNull($obj->getDureeBudgetee5());
+        $this->assertNull($obj->getDureeBudgetee6());
+        $this->assertNull($obj->getDureeBudgetee7());
+        $this->assertNull($obj->getDureeBudgetee8());
+        $this->assertNull($obj->getDureeBudgetee9());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getPeriode());
     }
 }

@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\AbsencesExcel;
 class AbsencesExcelTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AbsencesExcel();
-
-        $this->assertNull($obj->getId());
-        $this->assertNull($obj->getNbhSais());
-        $this->assertNull($obj->getNbjSais());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getTypeAbsCp());
-        $this->assertNull($obj->getTypeImport());
-    }
-
-    /**
      * Tests the setId() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class AbsencesExcelTest extends AbstractTestCase {
 
         $obj->setTypeImport(10);
         $this->assertEquals(10, $obj->getTypeImport());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AbsencesExcel();
+
+        $this->assertNull($obj->getId());
+        $this->assertNull($obj->getNbhSais());
+        $this->assertNull($obj->getNbjSais());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getTypeAbsCp());
+        $this->assertNull($obj->getTypeImport());
     }
 }

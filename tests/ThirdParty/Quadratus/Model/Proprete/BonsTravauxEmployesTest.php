@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\BonsTravauxEmployes;
 class BonsTravauxEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BonsTravauxEmployes();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeEquipe());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getTransfertPaie());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
 
         $obj->setTransfertPaie("transfertPaie");
         $this->assertEquals("transfertPaie", $obj->getTransfertPaie());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BonsTravauxEmployes();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeEquipe());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getTransfertPaie());
     }
 }

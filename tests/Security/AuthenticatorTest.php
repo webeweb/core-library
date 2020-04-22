@@ -41,21 +41,6 @@ class AuthenticatorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Authenticator(null, $this->passwordAuthentication);
-
-        $this->assertNull($obj->getHostname());
-        $this->assertSame($this->passwordAuthentication, $obj->getPasswordAuthentication());
-        $this->assertNull($obj->getPort());
-        $this->assertNull($obj->getScheme());
-    }
-
-    /**
      * Tests the setPasswordAuthentication() method.
      *
      * @return void
@@ -80,5 +65,20 @@ class AuthenticatorTest extends AbstractTestCase {
 
         $obj->setScheme("scheme");
         $this->assertEquals("scheme", $obj->getScheme());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Authenticator(null, $this->passwordAuthentication);
+
+        $this->assertNull($obj->getHostname());
+        $this->assertSame($this->passwordAuthentication, $obj->getPasswordAuthentication());
+        $this->assertNull($obj->getPort());
+        $this->assertNull($obj->getScheme());
     }
 }

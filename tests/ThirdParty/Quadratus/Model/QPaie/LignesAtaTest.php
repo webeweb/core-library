@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesAta;
 class LignesAtaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesAta();
-
-        $this->assertNull($obj->getAvantagesEuroOuFranc());
-        $this->assertNull($obj->getCsEuroOuFranc());
-        $this->assertNull($obj->getDateEcheance());
-        $this->assertNull($obj->getFraisPsEuroOuFranc());
-        $this->assertNull($obj->getFraisProSoumis());
-        $this->assertNull($obj->getIndemnitesEuroOuFranc());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMontantAvantages());
-        $this->assertNull($obj->getMontantCotis());
-        $this->assertNull($obj->getMontantEuroOuFranc());
-        $this->assertNull($obj->getMontantIndemnites());
-        $this->assertNull($obj->getNbHTrav());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getTauxDedSup());
-    }
-
-    /**
      * Tests the setAvantagesEuroOuFranc() method.
      *
      * @return void
@@ -283,5 +255,33 @@ class LignesAtaTest extends AbstractTestCase {
 
         $obj->setTauxDedSup(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxDedSup());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesAta();
+
+        $this->assertNull($obj->getAvantagesEuroOuFranc());
+        $this->assertNull($obj->getCsEuroOuFranc());
+        $this->assertNull($obj->getDateEcheance());
+        $this->assertNull($obj->getFraisPsEuroOuFranc());
+        $this->assertNull($obj->getFraisProSoumis());
+        $this->assertNull($obj->getIndemnitesEuroOuFranc());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantAvantages());
+        $this->assertNull($obj->getMontantCotis());
+        $this->assertNull($obj->getMontantEuroOuFranc());
+        $this->assertNull($obj->getMontantIndemnites());
+        $this->assertNull($obj->getNbHTrav());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getTauxDedSup());
     }
 }

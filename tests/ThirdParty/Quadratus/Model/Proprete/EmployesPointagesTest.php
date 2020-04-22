@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\EmployesPointages;
 class EmployesPointagesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmployesPointages();
-
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getPeriodePointageCloturee());
-        $this->assertNull($obj->getPeriodePrevisionnelGeneree());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setCodeCollaboValid() method.
      *
      * @return void
@@ -157,5 +138,24 @@ class EmployesPointagesTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmployesPointages();
+
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getPeriodePointageCloturee());
+        $this->assertNull($obj->getPeriodePrevisionnelGeneree());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

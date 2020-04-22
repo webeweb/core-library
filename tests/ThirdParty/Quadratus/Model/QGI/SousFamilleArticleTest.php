@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\SousFamilleArticle;
 class SousFamilleArticleTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SousFamilleArticle();
-
-        $this->assertNull($obj->getActivitePrincipale());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getLibelle());
-    }
-
-    /**
      * Tests the setActivitePrincipale() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class SousFamilleArticleTest extends AbstractTestCase {
 
         $obj->setLibelle("libelle");
         $this->assertEquals("libelle", $obj->getLibelle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SousFamilleArticle();
+
+        $this->assertNull($obj->getActivitePrincipale());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
     }
 }

@@ -25,24 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesLignesAc
 class FichesControlesLignesActionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesControlesLignesActions();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getLibelleAction());
-        $this->assertNull($obj->getNumeroFiche());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -135,5 +117,23 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
 
         $obj->setNumeroFiche(10);
         $this->assertEquals(10, $obj->getNumeroFiche());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesControlesLignesActions();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getLibelleAction());
+        $this->assertNull($obj->getNumeroFiche());
     }
 }

@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ConstTabTvaVente;
 class ConstTabTvaVenteTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConstTabTvaVente();
-
-        $this->assertNull($obj->getCodeTvaArticle());
-        $this->assertNull($obj->getCodeTvaClient());
-        $this->assertNull($obj->getCompteTva());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getTauxTva());
-    }
-
-    /**
      * Tests the setCodeTvaArticle() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class ConstTabTvaVenteTest extends AbstractTestCase {
 
         $obj->setTauxTva(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxTva());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConstTabTvaVente();
+
+        $this->assertNull($obj->getCodeTvaArticle());
+        $this->assertNull($obj->getCodeTvaClient());
+        $this->assertNull($obj->getCompteTva());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getTauxTva());
     }
 }

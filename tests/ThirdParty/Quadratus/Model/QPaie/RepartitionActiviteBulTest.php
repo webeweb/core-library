@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RepartitionActiviteBul;
 class RepartitionActiviteBulTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RepartitionActiviteBul();
-
-        $this->assertNull($obj->getCodeService());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getTauxVentilation());
-    }
-
-    /**
      * Tests the setCodeService() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class RepartitionActiviteBulTest extends AbstractTestCase {
 
         $obj->setTauxVentilation(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxVentilation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RepartitionActiviteBul();
+
+        $this->assertNull($obj->getCodeService());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTauxVentilation());
     }
 }

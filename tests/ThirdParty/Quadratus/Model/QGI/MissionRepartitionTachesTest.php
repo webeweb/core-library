@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\MissionRepartitionTaches;
 class MissionRepartitionTachesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new MissionRepartitionTaches();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getRepartition());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
 
         $obj->setRepartition(10.092018);
         $this->assertEquals(10.092018, $obj->getRepartition());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new MissionRepartitionTaches();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getRepartition());
     }
 }

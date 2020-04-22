@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AlertesEnCours;
 class AlertesEnCoursTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AlertesEnCours();
-
-        $this->assertNull($obj->getArDemande());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollabDst());
-        $this->assertNull($obj->getCodeCollabOrg());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDateDeclenchement());
-        $this->assertNull($obj->getIdAlerte());
-        $this->assertNull($obj->getTexteAlerte());
-    }
-
-    /**
      * Tests the setArDemande() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class AlertesEnCoursTest extends AbstractTestCase {
 
         $obj->setTexteAlerte("texteAlerte");
         $this->assertEquals("texteAlerte", $obj->getTexteAlerte());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AlertesEnCours();
+
+        $this->assertNull($obj->getArDemande());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollabDst());
+        $this->assertNull($obj->getCodeCollabOrg());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateDeclenchement());
+        $this->assertNull($obj->getIdAlerte());
+        $this->assertNull($obj->getTexteAlerte());
     }
 }

@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestIntegerSizeTrait;
 class IntegerSizeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestIntegerSizeTrait();
-
-        $this->assertNull($obj->getSize());
-    }
-
-    /**
      * Tests the setSize() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class IntegerSizeTraitTest extends AbstractTestCase {
 
         $obj->setSize(1);
         $this->assertEquals(1, $obj->getSize());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestIntegerSizeTrait();
+
+        $this->assertNull($obj->getSize());
     }
 }

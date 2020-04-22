@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HSupTepaBul;
 class HSupTepaBulTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HSupTepaBul();
-
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getMtBrutExo());
-        $this->assertNull($obj->getMtBrutExoAbat());
-        $this->assertNull($obj->getNbJhExo());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPourcentMajo());
-        $this->assertNull($obj->getTypeExo());
-    }
-
-    /**
      * Tests the setIndicePeriode() method.
      *
      * @return void
@@ -163,5 +143,25 @@ class HSupTepaBulTest extends AbstractTestCase {
 
         $obj->setTypeExo("typeExo");
         $this->assertEquals("typeExo", $obj->getTypeExo());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HSupTepaBul();
+
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getMtBrutExo());
+        $this->assertNull($obj->getMtBrutExoAbat());
+        $this->assertNull($obj->getNbJhExo());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPourcentMajo());
+        $this->assertNull($obj->getTypeExo());
     }
 }

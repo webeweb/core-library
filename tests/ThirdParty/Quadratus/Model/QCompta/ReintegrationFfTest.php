@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ReintegrationFf;
 class ReintegrationFfTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ReintegrationFf();
-
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getIdTableau());
-        $this->assertNull($obj->getMttApports());
-        $this->assertNull($obj->getMttEmprunts());
-        $this->assertNull($obj->getMttPrelev());
-        $this->assertNull($obj->getMttTreso());
-    }
-
-    /**
      * Tests the setDate() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class ReintegrationFfTest extends AbstractTestCase {
 
         $obj->setMttTreso(10.092018);
         $this->assertEquals(10.092018, $obj->getMttTreso());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ReintegrationFf();
+
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getIdTableau());
+        $this->assertNull($obj->getMttApports());
+        $this->assertNull($obj->getMttEmprunts());
+        $this->assertNull($obj->getMttPrelev());
+        $this->assertNull($obj->getMttTreso());
     }
 }

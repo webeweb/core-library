@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HeuresAbsence;
 class HeuresAbsenceTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HeuresAbsence();
-
-        $this->assertNull($obj->getAbsenceAu());
-        $this->assertNull($obj->getAbsenceDu());
-        $this->assertNull($obj->getDateJour());
-        $this->assertNull($obj->getNbHaReintegrer());
-        $this->assertNull($obj->getNbHNonEffectue());
-        $this->assertNull($obj->getNbHRetenueSalaire());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getTransfere());
-        $this->assertNull($obj->getTypeAbsence());
-    }
-
-    /**
      * Tests the setAbsenceAu() method.
      *
      * @return void
@@ -171,5 +151,25 @@ class HeuresAbsenceTest extends AbstractTestCase {
 
         $obj->setTypeAbsence("typeAbsence");
         $this->assertEquals("typeAbsence", $obj->getTypeAbsence());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HeuresAbsence();
+
+        $this->assertNull($obj->getAbsenceAu());
+        $this->assertNull($obj->getAbsenceDu());
+        $this->assertNull($obj->getDateJour());
+        $this->assertNull($obj->getNbHaReintegrer());
+        $this->assertNull($obj->getNbHNonEffectue());
+        $this->assertNull($obj->getNbHRetenueSalaire());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTransfere());
+        $this->assertNull($obj->getTypeAbsence());
     }
 }

@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesAttestationCacm;
 class LignesAttestationCacmTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesAttestationCacm();
-
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getDateFin());
-        $this->assertNull($obj->getDatePaiement());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMontantPrecompte());
-        $this->assertNull($obj->getNbHeureTrav());
-        $this->assertNull($obj->getNbJourTrav());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getSalaireBrut());
-        $this->assertNull($obj->getTypeLigne());
-    }
-
-    /**
      * Tests the setDateDebut() method.
      *
      * @return void
@@ -199,5 +177,27 @@ class LignesAttestationCacmTest extends AbstractTestCase {
 
         $obj->setTypeLigne(10);
         $this->assertEquals(10, $obj->getTypeLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesAttestationCacm();
+
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getDateFin());
+        $this->assertNull($obj->getDatePaiement());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantPrecompte());
+        $this->assertNull($obj->getNbHeureTrav());
+        $this->assertNull($obj->getNbJourTrav());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getSalaireBrut());
+        $this->assertNull($obj->getTypeLigne());
     }
 }

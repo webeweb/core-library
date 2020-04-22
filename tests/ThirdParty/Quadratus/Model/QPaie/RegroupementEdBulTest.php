@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RegroupementEdBul;
 class RegroupementEdBulTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RegroupementEdBul();
-
-        $this->assertNull($obj->getAfficher());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeRegroupEdBul());
-        $this->assertNull($obj->getCodeTitre());
-        $this->assertNull($obj->getExo());
-        $this->assertNull($obj->getQuadra());
-    }
-
-    /**
      * Tests the setAfficher() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class RegroupementEdBulTest extends AbstractTestCase {
 
         $obj->setQuadra(true);
         $this->assertEquals(true, $obj->getQuadra());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RegroupementEdBul();
+
+        $this->assertNull($obj->getAfficher());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeRegroupEdBul());
+        $this->assertNull($obj->getCodeTitre());
+        $this->assertNull($obj->getExo());
+        $this->assertNull($obj->getQuadra());
     }
 }

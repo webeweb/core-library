@@ -25,40 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TypeMissions;
 class TypeMissionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TypeMissions();
-
-        $this->assertNull($obj->getArticle());
-        $this->assertNull($obj->getCentreAnalytique());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeFamille());
-        $this->assertNull($obj->getCodeResponsable());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDateModification());
-        $this->assertNull($obj->getDecalageFermetureAuto());
-        $this->assertNull($obj->getDecalageFermetureAutoJours());
-        $this->assertNull($obj->getDecalageOuvertureAuto());
-        $this->assertNull($obj->getDescriptif());
-        $this->assertNull($obj->getDescriptifRtf());
-        $this->assertNull($obj->getFermetureAuto());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMoisOuvertureAuto());
-        $this->assertNull($obj->getOrdre());
-        $this->assertNull($obj->getRecurrente());
-        $this->assertNull($obj->getTachesGroupe());
-        $this->assertNull($obj->getTransfertCentre());
-        $this->assertNull($obj->getTypeCentre());
-        $this->assertNull($obj->getTypeCompteur());
-        $this->assertNull($obj->getTypeResponsable());
-        $this->assertNull($obj->getTypeVisuTaches());
-    }
-
-    /**
      * Tests the setArticle() method.
      *
      * @return void
@@ -363,5 +329,39 @@ class TypeMissionsTest extends AbstractTestCase {
 
         $obj->setTypeVisuTaches("typeVisuTaches");
         $this->assertEquals("typeVisuTaches", $obj->getTypeVisuTaches());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TypeMissions();
+
+        $this->assertNull($obj->getArticle());
+        $this->assertNull($obj->getCentreAnalytique());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeFamille());
+        $this->assertNull($obj->getCodeResponsable());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getDecalageFermetureAuto());
+        $this->assertNull($obj->getDecalageFermetureAutoJours());
+        $this->assertNull($obj->getDecalageOuvertureAuto());
+        $this->assertNull($obj->getDescriptif());
+        $this->assertNull($obj->getDescriptifRtf());
+        $this->assertNull($obj->getFermetureAuto());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMoisOuvertureAuto());
+        $this->assertNull($obj->getOrdre());
+        $this->assertNull($obj->getRecurrente());
+        $this->assertNull($obj->getTachesGroupe());
+        $this->assertNull($obj->getTransfertCentre());
+        $this->assertNull($obj->getTypeCentre());
+        $this->assertNull($obj->getTypeCompteur());
+        $this->assertNull($obj->getTypeResponsable());
+        $this->assertNull($obj->getTypeVisuTaches());
     }
 }

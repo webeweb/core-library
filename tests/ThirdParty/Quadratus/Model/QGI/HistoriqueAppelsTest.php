@@ -25,38 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\HistoriqueAppels;
 class HistoriqueAppelsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoriqueAppels();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateurClot());
-        $this->assertNull($obj->getCodeCollaborateurDest());
-        $this->assertNull($obj->getCodeCollaborateurEntrant());
-        $this->assertNull($obj->getCodeProduit());
-        $this->assertNull($obj->getConfidentiel());
-        $this->assertNull($obj->getConsequence());
-        $this->assertNull($obj->getDateEntree());
-        $this->assertNull($obj->getDateSortie());
-        $this->assertNull($obj->getEmailAuteur());
-        $this->assertNull($obj->getGroupeQualifiant());
-        $this->assertNull($obj->getIdHistorique());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNomClient());
-        $this->assertNull($obj->getOrigine());
-        $this->assertNull($obj->getPieceJointe());
-        $this->assertNull($obj->getReponse());
-        $this->assertNull($obj->getSpecial());
-        $this->assertNull($obj->getTel());
-        $this->assertNull($obj->getTypeMessage());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -335,5 +303,37 @@ class HistoriqueAppelsTest extends AbstractTestCase {
 
         $obj->setTypeMessage("typeMessage");
         $this->assertEquals("typeMessage", $obj->getTypeMessage());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoriqueAppels();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateurClot());
+        $this->assertNull($obj->getCodeCollaborateurDest());
+        $this->assertNull($obj->getCodeCollaborateurEntrant());
+        $this->assertNull($obj->getCodeProduit());
+        $this->assertNull($obj->getConfidentiel());
+        $this->assertNull($obj->getConsequence());
+        $this->assertNull($obj->getDateEntree());
+        $this->assertNull($obj->getDateSortie());
+        $this->assertNull($obj->getEmailAuteur());
+        $this->assertNull($obj->getGroupeQualifiant());
+        $this->assertNull($obj->getIdHistorique());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNomClient());
+        $this->assertNull($obj->getOrigine());
+        $this->assertNull($obj->getPieceJointe());
+        $this->assertNull($obj->getReponse());
+        $this->assertNull($obj->getSpecial());
+        $this->assertNull($obj->getTel());
+        $this->assertNull($obj->getTypeMessage());
     }
 }

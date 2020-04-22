@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ProgTypeEntetes;
 class ProgTypeEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ProgTypeEntetes();
-
-        $this->assertNull($obj->getDesignation());
-        $this->assertNull($obj->getNumProgramme());
-    }
-
-    /**
      * Tests the setDesignation() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ProgTypeEntetesTest extends AbstractTestCase {
 
         $obj->setNumProgramme(10);
         $this->assertEquals(10, $obj->getNumProgramme());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ProgTypeEntetes();
+
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getNumProgramme());
     }
 }

@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestFloatDiscountRateTrait;
 class FloatDiscountRateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestFloatDiscountRateTrait();
-
-        $this->assertNull($obj->getDiscountRate());
-    }
-
-    /**
      * Tests the setDiscountRate() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class FloatDiscountRateTraitTest extends AbstractTestCase {
 
         $obj->setDiscountRate(1.01);
         $this->assertEquals(1.01, $obj->getDiscountRate());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestFloatDiscountRateTrait();
+
+        $this->assertNull($obj->getDiscountRate());
     }
 }

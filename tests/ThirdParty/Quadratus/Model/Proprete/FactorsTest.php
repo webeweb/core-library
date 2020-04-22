@@ -23,32 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\Factors;
 class FactorsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Factors();
-
-        $this->assertNull($obj->getBic());
-        $this->assertNull($obj->getBtq());
-        $this->assertNull($obj->getBureauDistributeur());
-        $this->assertNull($obj->getCodeFactor());
-        $this->assertNull($obj->getCodePostal());
-        $this->assertNull($obj->getComplement());
-        $this->assertNull($obj->getDomiciliationBancaire1());
-        $this->assertNull($obj->getDomiciliationBancaire2());
-        $this->assertNull($obj->getIban());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getNomSuite());
-        $this->assertNull($obj->getNomVoie());
-        $this->assertNull($obj->getNumVoie());
-        $this->assertNull($obj->getRib());
-        $this->assertNull($obj->getTelephone());
-    }
-
-    /**
      * Tests the setBic() method.
      *
      * @return void
@@ -241,5 +215,31 @@ class FactorsTest extends AbstractTestCase {
 
         $obj->setTelephone("telephone");
         $this->assertEquals("telephone", $obj->getTelephone());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Factors();
+
+        $this->assertNull($obj->getBic());
+        $this->assertNull($obj->getBtq());
+        $this->assertNull($obj->getBureauDistributeur());
+        $this->assertNull($obj->getCodeFactor());
+        $this->assertNull($obj->getCodePostal());
+        $this->assertNull($obj->getComplement());
+        $this->assertNull($obj->getDomiciliationBancaire1());
+        $this->assertNull($obj->getDomiciliationBancaire2());
+        $this->assertNull($obj->getIban());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNomSuite());
+        $this->assertNull($obj->getNomVoie());
+        $this->assertNull($obj->getNumVoie());
+        $this->assertNull($obj->getRib());
+        $this->assertNull($obj->getTelephone());
     }
 }

@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\PointageReglementsTetes;
 class PointageReglementsTetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PointageReglementsTetes();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollCreation());
-        $this->assertNull($obj->getCodeCollGenere());
-        $this->assertNull($obj->getCodeCollModif());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDateGenere());
-        $this->assertNull($obj->getDateModif());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontantSaisi());
-        $this->assertNull($obj->getNumCptPayeur());
-        $this->assertNull($obj->getNumDoss());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -199,5 +177,27 @@ class PointageReglementsTetesTest extends AbstractTestCase {
 
         $obj->setNumDoss("numDoss");
         $this->assertEquals("numDoss", $obj->getNumDoss());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PointageReglementsTetes();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollCreation());
+        $this->assertNull($obj->getCodeCollGenere());
+        $this->assertNull($obj->getCodeCollModif());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateGenere());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontantSaisi());
+        $this->assertNull($obj->getNumCptPayeur());
+        $this->assertNull($obj->getNumDoss());
     }
 }

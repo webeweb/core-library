@@ -23,44 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsSelAvance;
 class ClientsSelAvanceTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsSelAvance();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeCol());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNomReq1());
-        $this->assertNull($obj->getNomReq10());
-        $this->assertNull($obj->getNomReq11());
-        $this->assertNull($obj->getNomReq12());
-        $this->assertNull($obj->getNomReq2());
-        $this->assertNull($obj->getNomReq3());
-        $this->assertNull($obj->getNomReq4());
-        $this->assertNull($obj->getNomReq5());
-        $this->assertNull($obj->getNomReq6());
-        $this->assertNull($obj->getNomReq7());
-        $this->assertNull($obj->getNomReq8());
-        $this->assertNull($obj->getNomReq9());
-        $this->assertNull($obj->getRequete1());
-        $this->assertNull($obj->getRequete10());
-        $this->assertNull($obj->getRequete11());
-        $this->assertNull($obj->getRequete12());
-        $this->assertNull($obj->getRequete2());
-        $this->assertNull($obj->getRequete3());
-        $this->assertNull($obj->getRequete4());
-        $this->assertNull($obj->getRequete5());
-        $this->assertNull($obj->getRequete6());
-        $this->assertNull($obj->getRequete7());
-        $this->assertNull($obj->getRequete8());
-        $this->assertNull($obj->getRequete9());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -409,5 +371,43 @@ class ClientsSelAvanceTest extends AbstractTestCase {
 
         $obj->setRequete9("requete9");
         $this->assertEquals("requete9", $obj->getRequete9());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsSelAvance();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeCol());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNomReq1());
+        $this->assertNull($obj->getNomReq10());
+        $this->assertNull($obj->getNomReq11());
+        $this->assertNull($obj->getNomReq12());
+        $this->assertNull($obj->getNomReq2());
+        $this->assertNull($obj->getNomReq3());
+        $this->assertNull($obj->getNomReq4());
+        $this->assertNull($obj->getNomReq5());
+        $this->assertNull($obj->getNomReq6());
+        $this->assertNull($obj->getNomReq7());
+        $this->assertNull($obj->getNomReq8());
+        $this->assertNull($obj->getNomReq9());
+        $this->assertNull($obj->getRequete1());
+        $this->assertNull($obj->getRequete10());
+        $this->assertNull($obj->getRequete11());
+        $this->assertNull($obj->getRequete12());
+        $this->assertNull($obj->getRequete2());
+        $this->assertNull($obj->getRequete3());
+        $this->assertNull($obj->getRequete4());
+        $this->assertNull($obj->getRequete5());
+        $this->assertNull($obj->getRequete6());
+        $this->assertNull($obj->getRequete7());
+        $this->assertNull($obj->getRequete8());
+        $this->assertNull($obj->getRequete9());
     }
 }

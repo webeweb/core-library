@@ -23,31 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DsnLieuTravail;
 class DsnLieuTravailTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DsnLieuTravail();
-
-        $this->assertNull($obj->getBtq());
-        $this->assertNull($obj->getBureauDistributeur());
-        $this->assertNull($obj->getCodeDistribution());
-        $this->assertNull($obj->getCodeInsee());
-        $this->assertNull($obj->getCodeNaf());
-        $this->assertNull($obj->getCodePays());
-        $this->assertNull($obj->getCodePostal());
-        $this->assertNull($obj->getComplement());
-        $this->assertNull($obj->getComplementVoie());
-        $this->assertNull($obj->getId());
-        $this->assertNull($obj->getNatureJuridique());
-        $this->assertNull($obj->getNomVoie());
-        $this->assertNull($obj->getNumVoie());
-        $this->assertNull($obj->getRaisonSociale());
-    }
-
-    /**
      * Tests the setBtq() method.
      *
      * @return void
@@ -227,5 +202,30 @@ class DsnLieuTravailTest extends AbstractTestCase {
 
         $obj->setRaisonSociale("raisonSociale");
         $this->assertEquals("raisonSociale", $obj->getRaisonSociale());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DsnLieuTravail();
+
+        $this->assertNull($obj->getBtq());
+        $this->assertNull($obj->getBureauDistributeur());
+        $this->assertNull($obj->getCodeDistribution());
+        $this->assertNull($obj->getCodeInsee());
+        $this->assertNull($obj->getCodeNaf());
+        $this->assertNull($obj->getCodePays());
+        $this->assertNull($obj->getCodePostal());
+        $this->assertNull($obj->getComplement());
+        $this->assertNull($obj->getComplementVoie());
+        $this->assertNull($obj->getId());
+        $this->assertNull($obj->getNatureJuridique());
+        $this->assertNull($obj->getNomVoie());
+        $this->assertNull($obj->getNumVoie());
+        $this->assertNull($obj->getRaisonSociale());
     }
 }

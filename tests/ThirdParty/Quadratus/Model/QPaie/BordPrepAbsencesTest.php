@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\BordPrepAbsences;
 class BordPrepAbsencesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new BordPrepAbsences();
-
-        $this->assertNull($obj->getId());
-        $this->assertNull($obj->getNbhSais());
-        $this->assertNull($obj->getNbjSais());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getTypeAbsCp());
-    }
-
-    /**
      * Tests the setId() method.
      *
      * @return void
@@ -157,5 +138,24 @@ class BordPrepAbsencesTest extends AbstractTestCase {
 
         $obj->setTypeAbsCp("typeAbsCp");
         $this->assertEquals("typeAbsCp", $obj->getTypeAbsCp());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new BordPrepAbsences();
+
+        $this->assertNull($obj->getId());
+        $this->assertNull($obj->getNbhSais());
+        $this->assertNull($obj->getNbjSais());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getTypeAbsCp());
     }
 }

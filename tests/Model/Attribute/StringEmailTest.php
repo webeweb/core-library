@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringEmailTrait;
 class StringEmailTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringEmailTrait();
-
-        $this->assertNull($obj->getEmail());
-    }
-
-    /**
      * Tests the setEmail() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringEmailTraitTest extends AbstractTestCase {
 
         $obj->setEmail("email");
         $this->assertEquals("email", $obj->getEmail());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringEmailTrait();
+
+        $this->assertNull($obj->getEmail());
     }
 }

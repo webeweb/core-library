@@ -23,30 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\StatsPersoSuiviClientCols;
 class StatsPersoSuiviClientColsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new StatsPersoSuiviClientCols();
-
-        $this->assertNull($obj->getAnN());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getRegleAutres());
-        $this->assertNull($obj->getRegleBarn());
-        $this->assertNull($obj->getRegleBars());
-        $this->assertNull($obj->getRegleBicrn());
-        $this->assertNull($obj->getRegleBicrs());
-        $this->assertNull($obj->getRegleBnc());
-        $this->assertNull($obj->getRegleSci());
-        $this->assertNull($obj->getRegleScm());
-        $this->assertNull($obj->getRegleTous());
-    }
-
-    /**
      * Tests the setAnN() method.
      *
      * @return void
@@ -213,5 +189,29 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
 
         $obj->setRegleTous("regleTous");
         $this->assertEquals("regleTous", $obj->getRegleTous());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new StatsPersoSuiviClientCols();
+
+        $this->assertNull($obj->getAnN());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getRegleAutres());
+        $this->assertNull($obj->getRegleBarn());
+        $this->assertNull($obj->getRegleBars());
+        $this->assertNull($obj->getRegleBicrn());
+        $this->assertNull($obj->getRegleBicrs());
+        $this->assertNull($obj->getRegleBnc());
+        $this->assertNull($obj->getRegleSci());
+        $this->assertNull($obj->getRegleScm());
+        $this->assertNull($obj->getRegleTous());
     }
 }

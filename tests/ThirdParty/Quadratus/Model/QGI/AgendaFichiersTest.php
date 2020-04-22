@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AgendaFichiers;
 class AgendaFichiersTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AgendaFichiers();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getDateAjout());
-        $this->assertNull($obj->getNomFichier());
-        $this->assertNull($obj->getOrigineFichier());
-        $this->assertNull($obj->getRefGuid());
-        $this->assertNull($obj->getTitre());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class AgendaFichiersTest extends AbstractTestCase {
 
         $obj->setTitre("titre");
         $this->assertEquals("titre", $obj->getTitre());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AgendaFichiers();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getDateAjout());
+        $this->assertNull($obj->getNomFichier());
+        $this->assertNull($obj->getOrigineFichier());
+        $this->assertNull($obj->getRefGuid());
+        $this->assertNull($obj->getTitre());
     }
 }

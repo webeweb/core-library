@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuEtablissements;
 class DadsuEtablissementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuEtablissements();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getFormaProBase());
-        $this->assertNull($obj->getFormaProBaseCdd());
-        $this->assertNull($obj->getFormaProCodeAssuj());
-        $this->assertNull($obj->getPrudTypeDadsuDerogatoire());
-        $this->assertNull($obj->getTaxeApprentissageBase());
-        $this->assertNull($obj->getTaxeApprentissageCodeAssuj());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class DadsuEtablissementsTest extends AbstractTestCase {
 
         $obj->setTaxeApprentissageCodeAssuj("taxeApprentissageCodeAssuj");
         $this->assertEquals("taxeApprentissageCodeAssuj", $obj->getTaxeApprentissageCodeAssuj());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuEtablissements();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getFormaProBase());
+        $this->assertNull($obj->getFormaProBaseCdd());
+        $this->assertNull($obj->getFormaProCodeAssuj());
+        $this->assertNull($obj->getPrudTypeDadsuDerogatoire());
+        $this->assertNull($obj->getTaxeApprentissageBase());
+        $this->assertNull($obj->getTaxeApprentissageCodeAssuj());
     }
 }

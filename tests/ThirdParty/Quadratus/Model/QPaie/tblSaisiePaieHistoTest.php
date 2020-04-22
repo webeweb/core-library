@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\tblSaisiePaieHisto;
 class tblSaisiePaieHistoTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new tblSaisiePaieHisto();
-
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeUser());
-        $this->assertNull($obj->getDateAdded());
-        $this->assertNull($obj->getFlag());
-        $this->assertNull($obj->getId());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getIntitule2());
-        $this->assertNull($obj->getMoisDebFixe());
-        $this->assertNull($obj->getMoisFinFixe());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPeriodeRappel());
-        $this->assertNull($obj->getPosit());
-        $this->assertNull($obj->getTypeLigne());
-        $this->assertNull($obj->getValeur1());
-        $this->assertNull($obj->getValeur2());
-    }
-
-    /**
      * Tests the setCodeLibelle() method.
      *
      * @return void
@@ -283,5 +255,33 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
 
         $obj->setValeur2(10.092018);
         $this->assertEquals(10.092018, $obj->getValeur2());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new tblSaisiePaieHisto();
+
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeUser());
+        $this->assertNull($obj->getDateAdded());
+        $this->assertNull($obj->getFlag());
+        $this->assertNull($obj->getId());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getIntitule2());
+        $this->assertNull($obj->getMoisDebFixe());
+        $this->assertNull($obj->getMoisFinFixe());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPeriodeRappel());
+        $this->assertNull($obj->getPosit());
+        $this->assertNull($obj->getTypeLigne());
+        $this->assertNull($obj->getValeur1());
+        $this->assertNull($obj->getValeur2());
     }
 }

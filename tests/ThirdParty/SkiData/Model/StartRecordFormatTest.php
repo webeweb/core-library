@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\StartRecordFormat;
 class StartRecordFormatTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new StartRecordFormat();
-
-        $this->assertNull($obj->getCurrency());
-        $this->assertNull($obj->getDateFile());
-        $this->assertNull($obj->getFacilityNumber());
-        $this->assertNull($obj->getNumberRecords());
-        $this->assertNull($obj->getVersionRecordStructure());
-    }
-
-    /**
      * Tests the setCurrency() method.
      *
      * @return void
@@ -104,5 +88,21 @@ class StartRecordFormatTest extends AbstractTestCase {
 
         $obj->setVersionRecordStructure(1);
         $this->assertEquals(1, $obj->getVersionRecordStructure());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new StartRecordFormat();
+
+        $this->assertNull($obj->getCurrency());
+        $this->assertNull($obj->getDateFile());
+        $this->assertNull($obj->getFacilityNumber());
+        $this->assertNull($obj->getNumberRecords());
+        $this->assertNull($obj->getVersionRecordStructure());
     }
 }

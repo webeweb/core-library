@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AgendaGroupesCompos;
 class AgendaGroupesComposTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AgendaGroupesCompos();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeGroupe());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class AgendaGroupesComposTest extends AbstractTestCase {
 
         $obj->setCodeGroupe("codeGroupe");
         $this->assertEquals("codeGroupe", $obj->getCodeGroupe());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AgendaGroupesCompos();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeGroupe());
     }
 }

@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Materiels;
 class MaterielsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Materiels();
-
-        $this->assertNull($obj->getCarTec());
-        $this->assertNull($obj->getCategorie());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeIntervenant());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDateAchat());
-        $this->assertNull($obj->getDateFinUtil());
-        $this->assertNull($obj->getIndiceAff());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getRefImage());
-        $this->assertNull($obj->getSousCategorie());
-    }
-
-    /**
      * Tests the setCarTec() method.
      *
      * @return void
@@ -195,5 +173,27 @@ class MaterielsTest extends AbstractTestCase {
 
         $obj->setSousCategorie("sousCategorie");
         $this->assertEquals("sousCategorie", $obj->getSousCategorie());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Materiels();
+
+        $this->assertNull($obj->getCarTec());
+        $this->assertNull($obj->getCategorie());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeIntervenant());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDateAchat());
+        $this->assertNull($obj->getDateFinUtil());
+        $this->assertNull($obj->getIndiceAff());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getRefImage());
+        $this->assertNull($obj->getSousCategorie());
     }
 }

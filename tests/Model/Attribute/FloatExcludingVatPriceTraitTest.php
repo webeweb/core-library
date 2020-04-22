@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestFloatExcludingVatPriceTr
 class FloatExcludingVatPriceTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestFloatExcludingVatPriceTrait();
-
-        $this->assertNull($obj->getExcludingVatPrice());
-    }
-
-    /**
      * Tests the setExcludingVatPrice() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class FloatExcludingVatPriceTraitTest extends AbstractTestCase {
 
         $obj->setExcludingVatPrice(1.01);
         $this->assertEquals(1.01, $obj->getExcludingVatPrice());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestFloatExcludingVatPriceTrait();
+
+        $this->assertNull($obj->getExcludingVatPrice());
     }
 }

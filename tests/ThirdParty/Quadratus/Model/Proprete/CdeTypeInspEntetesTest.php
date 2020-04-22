@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CdeTypeInspEntetes;
 class CdeTypeInspEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CdeTypeInspEntetes();
-
-        $this->assertNull($obj->getCodeInspecteur());
-        $this->assertNull($obj->getDtValiditeDebut());
-        $this->assertNull($obj->getDtValiditeFin());
-        $this->assertNull($obj->getMontantBudget());
-        $this->assertNull($obj->getMontantHtCde());
-    }
-
-    /**
      * Tests the setCodeInspecteur() method.
      *
      * @return void
@@ -111,5 +95,21 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
 
         $obj->setMontantHtCde(10.092018);
         $this->assertEquals(10.092018, $obj->getMontantHtCde());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CdeTypeInspEntetes();
+
+        $this->assertNull($obj->getCodeInspecteur());
+        $this->assertNull($obj->getDtValiditeDebut());
+        $this->assertNull($obj->getDtValiditeFin());
+        $this->assertNull($obj->getMontantBudget());
+        $this->assertNull($obj->getMontantHtCde());
     }
 }

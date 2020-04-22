@@ -23,27 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AdressesLivraison;
 class AdressesLivraisonTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AdressesLivraison();
-
-        $this->assertNull($obj->getBtq());
-        $this->assertNull($obj->getBureauDistributeur());
-        $this->assertNull($obj->getCodeLivraison());
-        $this->assertNull($obj->getCodePostal());
-        $this->assertNull($obj->getComplement());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getNomSuite());
-        $this->assertNull($obj->getNomVoie());
-        $this->assertNull($obj->getNumVoie());
-    }
-
-    /**
      * Tests the setBtq() method.
      *
      * @return void
@@ -171,5 +150,26 @@ class AdressesLivraisonTest extends AbstractTestCase {
 
         $obj->setNumVoie("numVoie");
         $this->assertEquals("numVoie", $obj->getNumVoie());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AdressesLivraison();
+
+        $this->assertNull($obj->getBtq());
+        $this->assertNull($obj->getBureauDistributeur());
+        $this->assertNull($obj->getCodeLivraison());
+        $this->assertNull($obj->getCodePostal());
+        $this->assertNull($obj->getComplement());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNomSuite());
+        $this->assertNull($obj->getNomVoie());
+        $this->assertNull($obj->getNumVoie());
     }
 }

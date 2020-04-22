@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Devises;
 class DevisesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Devises();
-
-        $this->assertNull($obj->getCodeDevise());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getNbDec());
-        $this->assertNull($obj->getTaux());
-        $this->assertNull($obj->getUseNbDec());
-    }
-
-    /**
      * Tests the setCodeDevise() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class DevisesTest extends AbstractTestCase {
 
         $obj->setUseNbDec(true);
         $this->assertEquals(true, $obj->getUseNbDec());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Devises();
+
+        $this->assertNull($obj->getCodeDevise());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getNbDec());
+        $this->assertNull($obj->getTaux());
+        $this->assertNull($obj->getUseNbDec());
     }
 }

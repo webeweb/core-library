@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AgendaCollabGroup;
 class AgendaCollabGroupTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AgendaCollabGroup();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeGroupe());
-        $this->assertNull($obj->getNumLig());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class AgendaCollabGroupTest extends AbstractTestCase {
 
         $obj->setNumLig(10);
         $this->assertEquals(10, $obj->getNumLig());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AgendaCollabGroup();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeGroupe());
+        $this->assertNull($obj->getNumLig());
     }
 }

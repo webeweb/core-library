@@ -25,42 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FichesControlesEntetes;
 class FichesControlesEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesControlesEntetes();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getControleur());
-        $this->assertNull($obj->getDateControle());
-        $this->assertNull($obj->getDateCtrlPrevue());
-        $this->assertNull($obj->getDateTransfert());
-        $this->assertNull($obj->getFicheContradictoire());
-        $this->assertNull($obj->getFicheSignee());
-        $this->assertNull($obj->getHeureDebut());
-        $this->assertNull($obj->getHeureFin());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getLocal());
-        $this->assertNull($obj->getLocalPere());
-        $this->assertNull($obj->getNoteGlobale());
-        $this->assertNull($obj->getNoteObjectif());
-        $this->assertNull($obj->getNumeroFiche());
-        $this->assertNull($obj->getNumeroNoeudLocal());
-        $this->assertNull($obj->getSatisfactionGenerale());
-        $this->assertNull($obj->getTypeControle());
-        $this->assertNull($obj->getUniqIdBlocage());
-        $this->assertNull($obj->getUniqIdNoeud());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -403,5 +367,41 @@ class FichesControlesEntetesTest extends AbstractTestCase {
 
         $obj->setUniqIdNoeud("uniqIdNoeud");
         $this->assertEquals("uniqIdNoeud", $obj->getUniqIdNoeud());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesControlesEntetes();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getControleur());
+        $this->assertNull($obj->getDateControle());
+        $this->assertNull($obj->getDateCtrlPrevue());
+        $this->assertNull($obj->getDateTransfert());
+        $this->assertNull($obj->getFicheContradictoire());
+        $this->assertNull($obj->getFicheSignee());
+        $this->assertNull($obj->getHeureDebut());
+        $this->assertNull($obj->getHeureFin());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getLocal());
+        $this->assertNull($obj->getLocalPere());
+        $this->assertNull($obj->getNoteGlobale());
+        $this->assertNull($obj->getNoteObjectif());
+        $this->assertNull($obj->getNumeroFiche());
+        $this->assertNull($obj->getNumeroNoeudLocal());
+        $this->assertNull($obj->getSatisfactionGenerale());
+        $this->assertNull($obj->getTypeControle());
+        $this->assertNull($obj->getUniqIdBlocage());
+        $this->assertNull($obj->getUniqIdNoeud());
     }
 }

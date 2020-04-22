@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Qualifiant2;
 class Qualifiant2Test extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Qualifiant2();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeLiaison());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getColonne());
-        $this->assertNull($obj->getNumLig());
-        $this->assertNull($obj->getObjetRef());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class Qualifiant2Test extends AbstractTestCase {
 
         $obj->setObjetRef("objetRef");
         $this->assertEquals("objetRef", $obj->getObjetRef());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Qualifiant2();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeLiaison());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getColonne());
+        $this->assertNull($obj->getNumLig());
+        $this->assertNull($obj->getObjetRef());
     }
 }

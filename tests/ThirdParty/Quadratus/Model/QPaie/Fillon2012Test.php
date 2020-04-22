@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Fillon2012;
 class Fillon2012Test extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Fillon2012();
-
-        $this->assertNull($obj->getCoeff());
-        $this->assertNull($obj->getForce());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNbHSupFillon());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getRmb());
-        $this->assertNull($obj->getRmbMajoHe());
-        $this->assertNull($obj->getReducFillon());
-        $this->assertNull($obj->getReducFillonMajoHe());
-        $this->assertNull($obj->getSmicM());
-    }
-
-    /**
      * Tests the setCoeff() method.
      *
      * @return void
@@ -191,5 +169,27 @@ class Fillon2012Test extends AbstractTestCase {
 
         $obj->setSmicM(10.092018);
         $this->assertEquals(10.092018, $obj->getSmicM());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Fillon2012();
+
+        $this->assertNull($obj->getCoeff());
+        $this->assertNull($obj->getForce());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNbHSupFillon());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getRmb());
+        $this->assertNull($obj->getRmbMajoHe());
+        $this->assertNull($obj->getReducFillon());
+        $this->assertNull($obj->getReducFillonMajoHe());
+        $this->assertNull($obj->getSmicM());
     }
 }

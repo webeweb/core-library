@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TarifsTranches;
 class TarifsTranchesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TarifsTranches();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeDevise());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getCoeff());
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getDateFin());
-        $this->assertNull($obj->getNumTranche());
-        $this->assertNull($obj->getPrixNet());
-        $this->assertNull($obj->getPrixUnit());
-        $this->assertNull($obj->getQteMini());
-        $this->assertNull($obj->getTypeCodeArticle());
-        $this->assertNull($obj->getTypeCodeClient());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -223,5 +199,29 @@ class TarifsTranchesTest extends AbstractTestCase {
 
         $obj->setTypeCodeClient("typeCodeClient");
         $this->assertEquals("typeCodeClient", $obj->getTypeCodeClient());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TarifsTranches();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeDevise());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getCoeff());
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getDateFin());
+        $this->assertNull($obj->getNumTranche());
+        $this->assertNull($obj->getPrixNet());
+        $this->assertNull($obj->getPrixUnit());
+        $this->assertNull($obj->getQteMini());
+        $this->assertNull($obj->getTypeCodeArticle());
+        $this->assertNull($obj->getTypeCodeClient());
     }
 }

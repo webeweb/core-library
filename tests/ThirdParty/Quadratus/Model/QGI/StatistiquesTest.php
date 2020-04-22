@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Statistiques;
 class StatistiquesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Statistiques();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeRubrique());
-        $this->assertNull($obj->getInfoCellule());
-        $this->assertNull($obj->getMillesime());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class StatistiquesTest extends AbstractTestCase {
 
         $obj->setMillesime("millesime");
         $this->assertEquals("millesime", $obj->getMillesime());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Statistiques();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeRubrique());
+        $this->assertNull($obj->getInfoCellule());
+        $this->assertNull($obj->getMillesime());
     }
 }

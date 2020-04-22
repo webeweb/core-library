@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\SaisieApproChantier;
 class SaisieApproChantierTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SaisieApproChantier();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPret());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class SaisieApproChantierTest extends AbstractTestCase {
 
         $obj->setPret(true);
         $this->assertEquals(true, $obj->getPret());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SaisieApproChantier();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPret());
     }
 }

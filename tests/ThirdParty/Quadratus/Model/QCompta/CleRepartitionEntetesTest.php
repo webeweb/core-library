@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\CleRepartitionEntetes;
 class CleRepartitionEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CleRepartitionEntetes();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getTotal());
-        $this->assertNull($obj->getTypeCle());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
 
         $obj->setTypeCle("typeCle");
         $this->assertEquals("typeCle", $obj->getTypeCle());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CleRepartitionEntetes();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getTotal());
+        $this->assertNull($obj->getTypeCle());
     }
 }

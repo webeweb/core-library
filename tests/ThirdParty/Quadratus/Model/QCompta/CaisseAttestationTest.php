@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\CaisseAttestation;
 class CaisseAttestationTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CaisseAttestation();
-
-        $this->assertNull($obj->getCollaborateur());
-        $this->assertNull($obj->getDateAcquisition());
-        $this->assertNull($obj->getDateApplication());
-        $this->assertNull($obj->getDateAttestation());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getInfoFichier());
-        $this->assertNull($obj->getLicence());
-        $this->assertNull($obj->getNomResponsable());
-        $this->assertNull($obj->getNomVille());
-        $this->assertNull($obj->getNumVersion());
-        $this->assertNull($obj->getOrdinateur());
-        $this->assertNull($obj->getOrigine());
-        $this->assertNull($obj->getPrenomResponsable());
-        $this->assertNull($obj->getRaisonSocialeDistri());
-        $this->assertNull($obj->getRaisonSocialeSociete());
-        $this->assertNull($obj->getUniqId());
-        $this->assertNull($obj->getUtilisateur());
-    }
-
-    /**
      * Tests the setCollaborateur() method.
      *
      * @return void
@@ -287,5 +259,33 @@ class CaisseAttestationTest extends AbstractTestCase {
 
         $obj->setUtilisateur("utilisateur");
         $this->assertEquals("utilisateur", $obj->getUtilisateur());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CaisseAttestation();
+
+        $this->assertNull($obj->getCollaborateur());
+        $this->assertNull($obj->getDateAcquisition());
+        $this->assertNull($obj->getDateApplication());
+        $this->assertNull($obj->getDateAttestation());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getInfoFichier());
+        $this->assertNull($obj->getLicence());
+        $this->assertNull($obj->getNomResponsable());
+        $this->assertNull($obj->getNomVille());
+        $this->assertNull($obj->getNumVersion());
+        $this->assertNull($obj->getOrdinateur());
+        $this->assertNull($obj->getOrigine());
+        $this->assertNull($obj->getPrenomResponsable());
+        $this->assertNull($obj->getRaisonSocialeDistri());
+        $this->assertNull($obj->getRaisonSocialeSociete());
+        $this->assertNull($obj->getUniqId());
+        $this->assertNull($obj->getUtilisateur());
     }
 }

@@ -58,28 +58,6 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new OcrProvider($this->logger);
-
-        $this->assertNull($obj->getHostname());
-        $this->assertNull($obj->getPassword());
-        $this->assertNull($obj->getUsername());
-
-        $this->assertNull($obj->getLocalDirectoryAfter());
-        $this->assertNull($obj->getLocalDirectoryBefore());
-        $this->assertNull($obj->getLocalDirectoryError());
-        $this->assertSame($this->logger, $obj->getLogger());
-        $this->assertEquals("/Apres", $obj->getRemoteDirectoryAfter());
-        $this->assertEquals("/Avant", $obj->getRemoteDirectoryBefore());
-        $this->assertEquals("/Erreur", $obj->getRemoteDirectoryError());
-    }
-
-    /**
      * Tests the setLocalDirectoryAfter() method.
      *
      * @return void
@@ -155,5 +133,27 @@ class OcrProviderTest extends AbstractTestCase {
 
         $obj->setRemoteDirectoryError("remoteDirectoryError");
         $this->assertEquals("remoteDirectoryError", $obj->getRemoteDirectoryError());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new OcrProvider($this->logger);
+
+        $this->assertNull($obj->getHostname());
+        $this->assertNull($obj->getPassword());
+        $this->assertNull($obj->getUsername());
+
+        $this->assertNull($obj->getLocalDirectoryAfter());
+        $this->assertNull($obj->getLocalDirectoryBefore());
+        $this->assertNull($obj->getLocalDirectoryError());
+        $this->assertSame($this->logger, $obj->getLogger());
+        $this->assertEquals("/Apres", $obj->getRemoteDirectoryAfter());
+        $this->assertEquals("/Avant", $obj->getRemoteDirectoryBefore());
+        $this->assertEquals("/Erreur", $obj->getRemoteDirectoryError());
     }
 }

@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringPasswordTrait;
 class StringPasswordTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringPasswordTrait();
-
-        $this->assertNull($obj->getPassword());
-    }
-
-    /**
      * Tests the setPassword() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringPasswordTraitTest extends AbstractTestCase {
 
         $obj->setPassword("password");
         $this->assertEquals("password", $obj->getPassword());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringPasswordTrait();
+
+        $this->assertNull($obj->getPassword());
     }
 }

@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TypeIntervenants;
 class TypeIntervenantsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TypeIntervenants();
-
-        $this->assertNull($obj->getAccesLibre());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getIncrementAuto());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getPrefixe());
-        $this->assertNull($obj->getProchainNumero());
-    }
-
-    /**
      * Tests the setAccesLibre() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class TypeIntervenantsTest extends AbstractTestCase {
 
         $obj->setProchainNumero(10);
         $this->assertEquals(10, $obj->getProchainNumero());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TypeIntervenants();
+
+        $this->assertNull($obj->getAccesLibre());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getIncrementAuto());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getPrefixe());
+        $this->assertNull($obj->getProchainNumero());
     }
 }

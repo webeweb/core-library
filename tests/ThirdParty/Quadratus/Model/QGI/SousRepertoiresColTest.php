@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\SousRepertoiresCol;
 class SousRepertoiresColTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SousRepertoiresCol();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getNumSousRep());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class SousRepertoiresColTest extends AbstractTestCase {
 
         $obj->setNumSousRep(10);
         $this->assertEquals(10, $obj->getNumSousRep());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SousRepertoiresCol();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNumSousRep());
     }
 }

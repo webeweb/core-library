@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\JournauxRapproch;
 class JournauxRapprochTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new JournauxRapproch();
-
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getMethode());
-        $this->assertNull($obj->getNePasSaisirSoldeFin());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getSoldeFin());
-    }
-
-    /**
      * Tests the setCodeJournal() method.
      *
      * @return void
@@ -107,5 +91,21 @@ class JournauxRapprochTest extends AbstractTestCase {
 
         $obj->setSoldeFin(10.092018);
         $this->assertEquals(10.092018, $obj->getSoldeFin());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new JournauxRapproch();
+
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getMethode());
+        $this->assertNull($obj->getNePasSaisirSoldeFin());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getSoldeFin());
     }
 }

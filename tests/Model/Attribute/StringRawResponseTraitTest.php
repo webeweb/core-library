@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringRawResponseTrait;
 class StringRawResponseTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringRawResponseTrait();
-
-        $this->assertNull($obj->getRawResponse());
-    }
-
-    /**
      * Tests the setRawResponse() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringRawResponseTraitTest extends AbstractTestCase {
 
         $obj->setRawResponse("rawResponse");
         $this->assertEquals("rawResponse", $obj->getRawResponse());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringRawResponseTrait();
+
+        $this->assertNull($obj->getRawResponse());
     }
 }

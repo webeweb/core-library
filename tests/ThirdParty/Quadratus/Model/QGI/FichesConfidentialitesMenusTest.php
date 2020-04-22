@@ -23,44 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\FichesConfidentialitesMenus;
 class FichesConfidentialitesMenusTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesConfidentialitesMenus();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getDossier());
-        $this->assertNull($obj->getDroitAjout());
-        $this->assertNull($obj->getDroitModification());
-        $this->assertNull($obj->getDroitSuppression());
-        $this->assertNull($obj->getIndex());
-        $this->assertNull($obj->getIndexDuPereNo1());
-        $this->assertNull($obj->getIndexDuPereNo2());
-        $this->assertNull($obj->getIndexDuPereNo3());
-        $this->assertNull($obj->getIndexDuPereNo4());
-        $this->assertNull($obj->getIndexDuPereNo5());
-        $this->assertNull($obj->getIndexDuPereNo6());
-        $this->assertNull($obj->getIndexDuPereNo7());
-        $this->assertNull($obj->getLibelleMenu());
-        $this->assertNull($obj->getMenuVisible());
-        $this->assertNull($obj->getMotDePasse());
-        $this->assertNull($obj->getNiveauLigne());
-        $this->assertNull($obj->getNomDuPereNo1());
-        $this->assertNull($obj->getNomDuPereNo2());
-        $this->assertNull($obj->getNomDuPereNo3());
-        $this->assertNull($obj->getNomDuPereNo4());
-        $this->assertNull($obj->getNomDuPereNo5());
-        $this->assertNull($obj->getNomDuPereNo6());
-        $this->assertNull($obj->getNomDuPereNo7());
-        $this->assertNull($obj->getNomMenu());
-        $this->assertNull($obj->getType());
-        $this->assertNull($obj->getTypeSelection());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -409,5 +371,43 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
 
         $obj->setTypeSelection("typeSelection");
         $this->assertEquals("typeSelection", $obj->getTypeSelection());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesConfidentialitesMenus();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getDossier());
+        $this->assertNull($obj->getDroitAjout());
+        $this->assertNull($obj->getDroitModification());
+        $this->assertNull($obj->getDroitSuppression());
+        $this->assertNull($obj->getIndex());
+        $this->assertNull($obj->getIndexDuPereNo1());
+        $this->assertNull($obj->getIndexDuPereNo2());
+        $this->assertNull($obj->getIndexDuPereNo3());
+        $this->assertNull($obj->getIndexDuPereNo4());
+        $this->assertNull($obj->getIndexDuPereNo5());
+        $this->assertNull($obj->getIndexDuPereNo6());
+        $this->assertNull($obj->getIndexDuPereNo7());
+        $this->assertNull($obj->getLibelleMenu());
+        $this->assertNull($obj->getMenuVisible());
+        $this->assertNull($obj->getMotDePasse());
+        $this->assertNull($obj->getNiveauLigne());
+        $this->assertNull($obj->getNomDuPereNo1());
+        $this->assertNull($obj->getNomDuPereNo2());
+        $this->assertNull($obj->getNomDuPereNo3());
+        $this->assertNull($obj->getNomDuPereNo4());
+        $this->assertNull($obj->getNomDuPereNo5());
+        $this->assertNull($obj->getNomDuPereNo6());
+        $this->assertNull($obj->getNomDuPereNo7());
+        $this->assertNull($obj->getNomMenu());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getTypeSelection());
     }
 }

@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpDadsuAssuranceLignesCon
 class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpDadsuAssuranceLignesContrat();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getNbEnfants());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getRefContrat());
-        $this->assertNull($obj->getUniteGestion());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
 
         $obj->setUniteGestion("uniteGestion");
         $this->assertEquals("uniteGestion", $obj->getUniteGestion());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpDadsuAssuranceLignesContrat();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getNbEnfants());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getRefContrat());
+        $this->assertNull($obj->getUniteGestion());
     }
 }

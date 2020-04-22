@@ -25,32 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesIjss;
 class LignesIjssTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesIjss();
-
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMontant2());
-        $this->assertNull($obj->getMontantEuroOuFranc());
-        $this->assertNull($obj->getMotif());
-        $this->assertNull($obj->getMtBrutPerteSalaire());
-        $this->assertNull($obj->getNbC());
-        $this->assertNull($obj->getNbE());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getSalRetEuroOuFranc());
-        $this->assertNull($obj->getSalaireRet());
-        $this->assertNull($obj->getSommeRegul1());
-        $this->assertNull($obj->getSommeRegul2());
-    }
-
-    /**
      * Tests the setMontant() method.
      *
      * @return void
@@ -251,5 +225,31 @@ class LignesIjssTest extends AbstractTestCase {
 
         $obj->setSommeRegul2(10.092018);
         $this->assertEquals(10.092018, $obj->getSommeRegul2());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesIjss();
+
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontant2());
+        $this->assertNull($obj->getMontantEuroOuFranc());
+        $this->assertNull($obj->getMotif());
+        $this->assertNull($obj->getMtBrutPerteSalaire());
+        $this->assertNull($obj->getNbC());
+        $this->assertNull($obj->getNbE());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getSalRetEuroOuFranc());
+        $this->assertNull($obj->getSalaireRet());
+        $this->assertNull($obj->getSommeRegul1());
+        $this->assertNull($obj->getSommeRegul2());
     }
 }

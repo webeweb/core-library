@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ConstantesMajorations;
 class ConstantesMajorationsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ConstantesMajorations();
-
-        $this->assertNull($obj->getExcept());
-        $this->assertNull($obj->getMai());
-        $this->assertNull($obj->getNormal());
-        $this->assertNull($obj->getType());
-        $this->assertNull($obj->getType2());
-    }
-
-    /**
      * Tests the setExcept() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class ConstantesMajorationsTest extends AbstractTestCase {
 
         $obj->setType2(10.092018);
         $this->assertEquals(10.092018, $obj->getType2());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ConstantesMajorations();
+
+        $this->assertNull($obj->getExcept());
+        $this->assertNull($obj->getMai());
+        $this->assertNull($obj->getNormal());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getType2());
     }
 }

@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\Alertes;
 class AlertesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Alertes();
-
-        $this->assertNull($obj->getCloturee());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setCloturee() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class AlertesTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Alertes();
+
+        $this->assertNull($obj->getCloturee());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getUniqId());
     }
 }

@@ -23,31 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TravauxMissions;
 class TravauxMissionsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TravauxMissions();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getCodeTravail());
-        $this->assertNull($obj->getDeclarationARediger());
-        $this->assertNull($obj->getFrequence());
-        $this->assertNull($obj->getJour());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMissions());
-        $this->assertNull($obj->getNbUo());
-        $this->assertNull($obj->getNePasEditer());
-        $this->assertNull($obj->getNiveau());
-        $this->assertNull($obj->getRealisePar());
-        $this->assertNull($obj->getTypeAffectation());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -227,5 +202,30 @@ class TravauxMissionsTest extends AbstractTestCase {
 
         $obj->setTypeAffectation("typeAffectation");
         $this->assertEquals("typeAffectation", $obj->getTypeAffectation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TravauxMissions();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getCodeTravail());
+        $this->assertNull($obj->getDeclarationARediger());
+        $this->assertNull($obj->getFrequence());
+        $this->assertNull($obj->getJour());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMissions());
+        $this->assertNull($obj->getNbUo());
+        $this->assertNull($obj->getNePasEditer());
+        $this->assertNull($obj->getNiveau());
+        $this->assertNull($obj->getRealisePar());
+        $this->assertNull($obj->getTypeAffectation());
     }
 }

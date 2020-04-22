@@ -23,25 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\RecapDpa;
 class RecapDpaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RecapDpa();
-
-        $this->assertNull($obj->getAleasClimat());
-        $this->assertNull($obj->getAleasEco());
-        $this->assertNull($obj->getAnneeDed());
-        $this->assertNull($obj->getAnneeUtilisation());
-        $this->assertNull($obj->getAutres());
-        $this->assertNull($obj->getFranchDommages());
-        $this->assertNull($obj->getMttAnnee());
-        $this->assertNull($obj->getPrimesFranch());
-    }
-
-    /**
      * Tests the setAleasClimat() method.
      *
      * @return void
@@ -143,5 +124,24 @@ class RecapDpaTest extends AbstractTestCase {
 
         $obj->setPrimesFranch(10.092018);
         $this->assertEquals(10.092018, $obj->getPrimesFranch());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RecapDpa();
+
+        $this->assertNull($obj->getAleasClimat());
+        $this->assertNull($obj->getAleasEco());
+        $this->assertNull($obj->getAnneeDed());
+        $this->assertNull($obj->getAnneeUtilisation());
+        $this->assertNull($obj->getAutres());
+        $this->assertNull($obj->getFranchDommages());
+        $this->assertNull($obj->getMttAnnee());
+        $this->assertNull($obj->getPrimesFranch());
     }
 }

@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringDescriptionTrait;
 class StringDescriptionTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringDescriptionTrait();
-
-        $this->assertNull($obj->getDescription());
-    }
-
-    /**
      * Tests the setDescription() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringDescriptionTraitTest extends AbstractTestCase {
 
         $obj->setDescription("description");
         $this->assertEquals("description", $obj->getDescription());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringDescriptionTrait();
+
+        $this->assertNull($obj->getDescription());
     }
 }

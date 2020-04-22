@@ -25,35 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PlansFactBonTrav;
 class PlansFactBonTravTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PlansFactBonTrav();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getCoefficient());
-        $this->assertNull($obj->getDateBt());
-        $this->assertNull($obj->getDesignation());
-        $this->assertNull($obj->getDesignation2());
-        $this->assertNull($obj->getDesignation3());
-        $this->assertNull($obj->getDuree());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getPosteRent());
-        $this->assertNull($obj->getPrixAchat());
-        $this->assertNull($obj->getPxFacture());
-        $this->assertNull($obj->getTaux());
-        $this->assertNull($obj->getVentilMarge());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -289,5 +260,34 @@ class PlansFactBonTravTest extends AbstractTestCase {
 
         $obj->setVentilMarge(true);
         $this->assertEquals(true, $obj->getVentilMarge());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PlansFactBonTrav();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getCoefficient());
+        $this->assertNull($obj->getDateBt());
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getDesignation2());
+        $this->assertNull($obj->getDesignation3());
+        $this->assertNull($obj->getDuree());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getPosteRent());
+        $this->assertNull($obj->getPrixAchat());
+        $this->assertNull($obj->getPxFacture());
+        $this->assertNull($obj->getTaux());
+        $this->assertNull($obj->getVentilMarge());
     }
 }

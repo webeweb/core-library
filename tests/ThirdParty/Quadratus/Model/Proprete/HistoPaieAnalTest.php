@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HistoPaieAnal;
 class HistoPaieAnalTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoPaieAnal();
-
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getNumeroLigneAnal());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPourcent());
-    }
-
-    /**
      * Tests the setCodeCentre() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class HistoPaieAnalTest extends AbstractTestCase {
 
         $obj->setPourcent(10.092018);
         $this->assertEquals(10.092018, $obj->getPourcent());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoPaieAnal();
+
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getNumeroLigneAnal());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPourcent());
     }
 }

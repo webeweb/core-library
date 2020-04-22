@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TempsPrevisionnels;
 class TempsPrevisionnelsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TempsPrevisionnels();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeAvenant());
-        $this->assertNull($obj->getCodePhase());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getCoutHoraire());
-        $this->assertNull($obj->getNbHeures());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
 
         $obj->setNbHeures(10.092018);
         $this->assertEquals(10.092018, $obj->getNbHeures());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TempsPrevisionnels();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeAvenant());
+        $this->assertNull($obj->getCodePhase());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getCoutHoraire());
+        $this->assertNull($obj->getNbHeures());
     }
 }

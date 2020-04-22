@@ -25,22 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AgendaNoteDuJour;
 class AgendaNoteDuJourTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AgendaNoteDuJour();
-
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDateModif());
-        $this->assertNull($obj->getJour());
-        $this->assertNull($obj->getMaJExterne());
-    }
-
-    /**
      * Tests the setCodeCollaborateur() method.
      *
      * @return void
@@ -111,5 +95,21 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
 
         $obj->setMaJExterne(true);
         $this->assertEquals(true, $obj->getMaJExterne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AgendaNoteDuJour();
+
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getJour());
+        $this->assertNull($obj->getMaJExterne());
     }
 }

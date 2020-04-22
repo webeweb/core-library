@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\DadsuRetraiteLignesContrat
 class DadsuRetraiteLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DadsuRetraiteLignesContrat();
-
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getCodeOrganisme());
-        $this->assertNull($obj->getDesignationCommerciale());
-        $this->assertNull($obj->getRefContrat());
-    }
-
-    /**
      * Tests the setCodeEtablissement() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class DadsuRetraiteLignesContratTest extends AbstractTestCase {
 
         $obj->setRefContrat("refContrat");
         $this->assertEquals("refContrat", $obj->getRefContrat());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DadsuRetraiteLignesContrat();
+
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getCodeOrganisme());
+        $this->assertNull($obj->getDesignationCommerciale());
+        $this->assertNull($obj->getRefContrat());
     }
 }

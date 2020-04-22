@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\MensualisationTache;
 class MensualisationTacheTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new MensualisationTache();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getHistoMensSaisi());
-        $this->assertNull($obj->getMensualisationCalculee());
-        $this->assertNull($obj->getMensualisationSaisie());
-        $this->assertNull($obj->getMtPrime());
-        $this->assertNull($obj->getNbPaniers());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getPeriodeDebutValidite());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -279,5 +251,33 @@ class MensualisationTacheTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new MensualisationTache();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getHistoMensSaisi());
+        $this->assertNull($obj->getMensualisationCalculee());
+        $this->assertNull($obj->getMensualisationSaisie());
+        $this->assertNull($obj->getMtPrime());
+        $this->assertNull($obj->getNbPaniers());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getPeriodeDebutValidite());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

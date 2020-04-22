@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsSelection;
 class ClientsSelectionTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsSelection();
-
-        $this->assertNull($obj->getChamp());
-        $this->assertNull($obj->getCodeCol());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getType());
-        $this->assertNull($obj->getValeur());
-    }
-
-    /**
      * Tests the setChamp() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class ClientsSelectionTest extends AbstractTestCase {
 
         $obj->setValeur("valeur");
         $this->assertEquals("valeur", $obj->getValeur());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsSelection();
+
+        $this->assertNull($obj->getChamp());
+        $this->assertNull($obj->getCodeCol());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getValeur());
     }
 }

@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringAddresseeTrait;
 class StringAddresseeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringAddresseeTrait();
-
-        $this->assertNull($obj->getAddressee());
-    }
-
-    /**
      * Tests the setAddressee() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringAddresseeTraitTest extends AbstractTestCase {
 
         $obj->setAddressee("addressee");
         $this->assertEquals("addressee", $obj->getAddressee());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringAddresseeTrait();
+
+        $this->assertNull($obj->getAddressee());
     }
 }

@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\DossiersCpta;
 class DossiersCptaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DossiersCpta();
-
-        $this->assertNull($obj->getCheminDossierCpta());
-        $this->assertNull($obj->getNumDossierCpta());
-        $this->assertNull($obj->getNumDossierFact());
-    }
-
-    /**
      * Tests the setCheminDossierCpta() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class DossiersCptaTest extends AbstractTestCase {
 
         $obj->setNumDossierFact("numDossierFact");
         $this->assertEquals("numDossierFact", $obj->getNumDossierFact());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DossiersCpta();
+
+        $this->assertNull($obj->getCheminDossierCpta());
+        $this->assertNull($obj->getNumDossierCpta());
+        $this->assertNull($obj->getNumDossierFact());
     }
 }

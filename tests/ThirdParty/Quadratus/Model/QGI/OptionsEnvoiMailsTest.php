@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\OptionsEnvoiMails;
 class OptionsEnvoiMailsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new OptionsEnvoiMails();
-
-        $this->assertNull($obj->getAvecEntete());
-        $this->assertNull($obj->getAvecPied());
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getCodeModule());
-    }
-
-    /**
      * Tests the setAvecEntete() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
 
         $obj->setCodeModule("codeModule");
         $this->assertEquals("codeModule", $obj->getCodeModule());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new OptionsEnvoiMails();
+
+        $this->assertNull($obj->getAvecEntete());
+        $this->assertNull($obj->getAvecPied());
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getCodeModule());
     }
 }

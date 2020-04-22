@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\TravauxTypeLignes;
 class TravauxTypeLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TravauxTypeLignes();
-
-        $this->assertNull($obj->getCodeRepartition());
-        $this->assertNull($obj->getCodeTravail());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNbUo());
-        $this->assertNull($obj->getNiveauLigne());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getPolice());
-    }
-
-    /**
      * Tests the setCodeRepartition() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class TravauxTypeLignesTest extends AbstractTestCase {
 
         $obj->setPolice("police");
         $this->assertEquals("police", $obj->getPolice());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TravauxTypeLignes();
+
+        $this->assertNull($obj->getCodeRepartition());
+        $this->assertNull($obj->getCodeTravail());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNbUo());
+        $this->assertNull($obj->getNiveauLigne());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getPolice());
     }
 }

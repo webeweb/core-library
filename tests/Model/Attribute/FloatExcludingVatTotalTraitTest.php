@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestFloatExcludingVatTotalTr
 class FloatExcludingVatTotalTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestFloatExcludingVatTotalTrait();
-
-        $this->assertNull($obj->getExcludingVatTotal());
-    }
-
-    /**
      * Tests the setExcludingVatTotal() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class FloatExcludingVatTotalTraitTest extends AbstractTestCase {
 
         $obj->setExcludingVatTotal(1.01);
         $this->assertEquals(1.01, $obj->getExcludingVatTotal());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestFloatExcludingVatTotalTrait();
+
+        $this->assertNull($obj->getExcludingVatTotal());
     }
 }

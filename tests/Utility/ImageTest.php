@@ -43,6 +43,46 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the init() method.
+     *
+     * @return void
+     */
+    public function testInit() {
+
+        $obj = new Image($this->images[1]);
+
+        $obj->init();
+        $this->assertEquals([1920, 1037], $obj->getDimensions());
+        $this->assertEquals(getcwd() . "/tests/Fixtures/Utility", $obj->getDirectory());
+        $this->assertEquals("png", $obj->getExtension());
+        $this->assertEquals("TestImage_1920x1037.png", $obj->getFilename());
+        $this->assertEquals(1037, $obj->getHeight());
+        $this->assertEquals("image/png", $obj->getMimeType());
+        $this->assertEquals(Image::ORIENTATION_HORIZONTAL, $obj->getOrientation());
+        $this->assertEquals(127373, $obj->getSize());
+        $this->assertEquals(1920, $obj->getWidth());
+    }
+
+    /**
+     * Tests the resize() method.
+     *
+     * @return void
+     */
+    public function testResize() {
+
+        // Set a pathname mock.
+        $pathname = str_replace(".jpg", "_thumb.jpg", $this->images[0]);
+        if (true === file_exists($pathname)) {
+            unlink($pathname);
+        }
+
+        $obj = new Image($this->images[0]);
+
+        $res = $obj->resize(1000, 500, $pathname);
+        $this->assertTrue($res);
+    }
+
+    /**
      * Tests the __construct() method.
      *
      * @return void
@@ -82,45 +122,5 @@ class ImageTest extends AbstractTestCase {
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The image \"{$pathname}\" was not found", $ex->getMessage());
         }
-    }
-
-    /**
-     * Tests the init() method.
-     *
-     * @return void
-     */
-    public function testInit() {
-
-        $obj = new Image($this->images[1]);
-
-        $obj->init();
-        $this->assertEquals([1920, 1037], $obj->getDimensions());
-        $this->assertEquals(getcwd() . "/tests/Fixtures/Utility", $obj->getDirectory());
-        $this->assertEquals("png", $obj->getExtension());
-        $this->assertEquals("TestImage_1920x1037.png", $obj->getFilename());
-        $this->assertEquals(1037, $obj->getHeight());
-        $this->assertEquals("image/png", $obj->getMimeType());
-        $this->assertEquals(Image::ORIENTATION_HORIZONTAL, $obj->getOrientation());
-        $this->assertEquals(127373, $obj->getSize());
-        $this->assertEquals(1920, $obj->getWidth());
-    }
-
-    /**
-     * Tests the resize() method.
-     *
-     * @return void
-     */
-    public function testResize() {
-
-        // Set a pathname mock.
-        $pathname = str_replace(".jpg", "_thumb.jpg", $this->images[0]);
-        if (true === file_exists($pathname)) {
-            unlink($pathname);
-        }
-
-        $obj = new Image($this->images[0]);
-
-        $res = $obj->resize(1000, 500, $pathname);
-        $this->assertTrue($res);
     }
 }

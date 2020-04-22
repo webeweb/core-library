@@ -25,31 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Annexe;
 class AnnexeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Annexe();
-
-        $this->assertNull($obj->getCode1());
-        $this->assertNull($obj->getCode2());
-        $this->assertNull($obj->getDate1());
-        $this->assertNull($obj->getDate2());
-        $this->assertNull($obj->getDouble1());
-        $this->assertNull($obj->getDouble2());
-        $this->assertNull($obj->getNumero());
-        $this->assertNull($obj->getTexte1());
-        $this->assertNull($obj->getTexte2());
-        $this->assertNull($obj->getTexte3());
-        $this->assertNull($obj->getTexte4());
-        $this->assertNull($obj->getTexte5());
-        $this->assertNull($obj->getType());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setCode1() method.
      *
      * @return void
@@ -237,5 +212,30 @@ class AnnexeTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Annexe();
+
+        $this->assertNull($obj->getCode1());
+        $this->assertNull($obj->getCode2());
+        $this->assertNull($obj->getDate1());
+        $this->assertNull($obj->getDate2());
+        $this->assertNull($obj->getDouble1());
+        $this->assertNull($obj->getDouble2());
+        $this->assertNull($obj->getNumero());
+        $this->assertNull($obj->getTexte1());
+        $this->assertNull($obj->getTexte2());
+        $this->assertNull($obj->getTexte3());
+        $this->assertNull($obj->getTexte4());
+        $this->assertNull($obj->getTexte5());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getUniqId());
     }
 }

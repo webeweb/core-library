@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\EnchainementSemaines;
 class EnchainementSemainesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EnchainementSemaines();
-
-        $this->assertNull($obj->getDiscrSem());
-        $this->assertNull($obj->getNumOrdre());
-    }
-
-    /**
      * Tests the setDiscrSem() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class EnchainementSemainesTest extends AbstractTestCase {
 
         $obj->setNumOrdre(10);
         $this->assertEquals(10, $obj->getNumOrdre());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EnchainementSemaines();
+
+        $this->assertNull($obj->getDiscrSem());
+        $this->assertNull($obj->getNumOrdre());
     }
 }

@@ -25,35 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Licences;
 class LicencesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Licences();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeClientDistr());
-        $this->assertNull($obj->getCodeProduit());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getCpVille());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDemo());
-        $this->assertNull($obj->getLicence());
-        $this->assertNull($obj->getNomClient());
-        $this->assertNull($obj->getNombrePostes());
-        $this->assertNull($obj->getOption1());
-        $this->assertNull($obj->getOption2());
-        $this->assertNull($obj->getOption3());
-        $this->assertNull($obj->getOption4());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getSupport());
-        $this->assertNull($obj->getTypeReseau());
-        $this->assertNull($obj->getVersion());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -293,5 +264,34 @@ class LicencesTest extends AbstractTestCase {
 
         $obj->setVersion("version");
         $this->assertEquals("version", $obj->getVersion());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Licences();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeClientDistr());
+        $this->assertNull($obj->getCodeProduit());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getCpVille());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDemo());
+        $this->assertNull($obj->getLicence());
+        $this->assertNull($obj->getNomClient());
+        $this->assertNull($obj->getNombrePostes());
+        $this->assertNull($obj->getOption1());
+        $this->assertNull($obj->getOption2());
+        $this->assertNull($obj->getOption3());
+        $this->assertNull($obj->getOption4());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getSupport());
+        $this->assertNull($obj->getTypeReseau());
+        $this->assertNull($obj->getVersion());
     }
 }

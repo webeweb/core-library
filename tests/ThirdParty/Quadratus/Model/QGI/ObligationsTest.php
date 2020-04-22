@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Obligations;
 class ObligationsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Obligations();
-
-        $this->assertNull($obj->getCodeFamille());
-        $this->assertNull($obj->getCodeObligation());
-        $this->assertNull($obj->getFrequence());
-        $this->assertNull($obj->getIntitule());
-    }
-
-    /**
      * Tests the setCodeFamille() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class ObligationsTest extends AbstractTestCase {
 
         $obj->setIntitule("intitule");
         $this->assertEquals("intitule", $obj->getIntitule());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Obligations();
+
+        $this->assertNull($obj->getCodeFamille());
+        $this->assertNull($obj->getCodeObligation());
+        $this->assertNull($obj->getFrequence());
+        $this->assertNull($obj->getIntitule());
     }
 }

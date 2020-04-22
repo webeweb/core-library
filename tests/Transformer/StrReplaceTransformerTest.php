@@ -23,19 +23,6 @@ use WBW\Library\Core\Transformer\StrReplaceTransformer;
 class StrReplaceTransformerTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new StrReplaceTransformer(["search"], ["replace"]);
-
-        $this->assertEquals(["search"], $obj->getSearches());
-        $this->assertEquals(["replace"], $obj->getReplaces());
-    }
-
-    /**
      * Tests the transform() method.
      *
      * @return void
@@ -47,5 +34,18 @@ class StrReplaceTransformerTest extends AbstractTestCase {
         $this->assertNull($obj->transform(null));
         $this->assertNull($obj->transform(true));
         $this->assertEquals("replace", $obj->transform("search"));
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new StrReplaceTransformer(["search"], ["replace"]);
+
+        $this->assertEquals(["search"], $obj->getSearches());
+        $this->assertEquals(["replace"], $obj->getReplaces());
     }
 }

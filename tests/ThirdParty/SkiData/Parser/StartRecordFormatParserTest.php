@@ -27,22 +27,6 @@ use WBW\Library\Core\ThirdParty\SkiData\Parser\StartRecordFormatParser;
 class StartRecordFormatParserTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new StartRecordFormatParser();
-
-        $this->assertNull($obj->getStartRecordFormat());
-
-        $res = new StartRecordFormat();
-        $obj->setStartRecordFormat($res);
-        $this->assertEquals($res, $obj->getStartRecordFormat());
-    }
-
-    /**
      * Tests the parseEntity() method.
      *
      * @return void
@@ -114,5 +98,21 @@ class StartRecordFormatParserTest extends AbstractTestCase {
         $this->assertEquals(new DateTime("2017-09-21 00:00:00"), $obj->getDateFile());
         $this->assertEquals(18, $obj->getNumberRecords());
         $this->assertEquals("EUR", $obj->getCurrency());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new StartRecordFormatParser();
+
+        $this->assertNull($obj->getStartRecordFormat());
+
+        $res = new StartRecordFormat();
+        $obj->setStartRecordFormat($res);
+        $this->assertEquals($res, $obj->getStartRecordFormat());
     }
 }

@@ -23,29 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisProgramLignes;
 class DevisProgramLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DevisProgramLignes();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEchelle());
-        $this->assertNull($obj->getCodeOperation());
-        $this->assertNull($obj->getCodeProgramme());
-        $this->assertNull($obj->getCoefficient());
-        $this->assertNull($obj->getNoteResultat());
-        $this->assertNull($obj->getNumDevis());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumLigneProg());
-        $this->assertNull($obj->getVitesseTheorique());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -199,5 +176,28 @@ class DevisProgramLignesTest extends AbstractTestCase {
 
         $obj->setVitesseTheorique(10.092018);
         $this->assertEquals(10.092018, $obj->getVitesseTheorique());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DevisProgramLignes();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEchelle());
+        $this->assertNull($obj->getCodeOperation());
+        $this->assertNull($obj->getCodeProgramme());
+        $this->assertNull($obj->getCoefficient());
+        $this->assertNull($obj->getNoteResultat());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumLigneProg());
+        $this->assertNull($obj->getVitesseTheorique());
     }
 }

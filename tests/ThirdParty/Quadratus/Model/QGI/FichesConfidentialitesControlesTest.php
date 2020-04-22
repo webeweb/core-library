@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\FichesConfidentialitesContro
 class FichesConfidentialitesControlesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FichesConfidentialitesControles();
-
-        $this->assertNull($obj->getAgence());
-        $this->assertNull($obj->getAutorise());
-        $this->assertNull($obj->getCodeColl());
-        $this->assertNull($obj->getDossier());
-        $this->assertNull($obj->getMotControle());
-        $this->assertNull($obj->getMotDePasse());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setAgence() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FichesConfidentialitesControles();
+
+        $this->assertNull($obj->getAgence());
+        $this->assertNull($obj->getAutorise());
+        $this->assertNull($obj->getCodeColl());
+        $this->assertNull($obj->getDossier());
+        $this->assertNull($obj->getMotControle());
+        $this->assertNull($obj->getMotDePasse());
+        $this->assertNull($obj->getType());
     }
 }

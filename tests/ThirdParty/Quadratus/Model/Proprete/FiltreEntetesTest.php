@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\FiltreEntetes;
 class FiltreEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new FiltreEntetes();
-
-        $this->assertNull($obj->getCodeFiltre());
-        $this->assertNull($obj->getCollaborateur());
-        $this->assertNull($obj->getCommercialFacture());
-        $this->assertNull($obj->getFonctionnalite());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getTypeFiltre());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setCodeFiltre() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class FiltreEntetesTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new FiltreEntetes();
+
+        $this->assertNull($obj->getCodeFiltre());
+        $this->assertNull($obj->getCollaborateur());
+        $this->assertNull($obj->getCommercialFacture());
+        $this->assertNull($obj->getFonctionnalite());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getTypeFiltre());
+        $this->assertNull($obj->getUniqId());
     }
 }

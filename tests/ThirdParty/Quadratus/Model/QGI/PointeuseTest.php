@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Pointeuse;
 class PointeuseTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Pointeuse();
-
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getDateHeureSysteme());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getIdPointeuse());
-    }
-
-    /**
      * Tests the setCodeCollab() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class PointeuseTest extends AbstractTestCase {
 
         $obj->setIdPointeuse(10);
         $this->assertEquals(10, $obj->getIdPointeuse());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Pointeuse();
+
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getDateHeureSysteme());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getIdPointeuse());
     }
 }

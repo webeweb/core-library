@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RepartitionActiviteAna;
 class RepartitionActiviteAnaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RepartitionActiviteAna();
-
-        $this->assertNull($obj->getCentre());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getTauxVentilation());
-    }
-
-    /**
      * Tests the setCentre() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class RepartitionActiviteAnaTest extends AbstractTestCase {
 
         $obj->setTauxVentilation(10.092018);
         $this->assertEquals(10.092018, $obj->getTauxVentilation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RepartitionActiviteAna();
+
+        $this->assertNull($obj->getCentre());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getTauxVentilation());
     }
 }

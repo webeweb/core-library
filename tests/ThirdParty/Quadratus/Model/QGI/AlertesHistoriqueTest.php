@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AlertesHistorique;
 class AlertesHistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AlertesHistorique();
-
-        $this->assertNull($obj->getArEnvoye());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollabDst());
-        $this->assertNull($obj->getCodeCollabOrg());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDateDeclenchement());
-        $this->assertNull($obj->getDateReponse());
-        $this->assertNull($obj->getIdAlerteHisto());
-        $this->assertNull($obj->getTexteAlerte());
-        $this->assertNull($obj->getTexteReponse());
-    }
-
-    /**
      * Tests the setArEnvoye() method.
      *
      * @return void
@@ -185,5 +164,26 @@ class AlertesHistoriqueTest extends AbstractTestCase {
 
         $obj->setTexteReponse("texteReponse");
         $this->assertEquals("texteReponse", $obj->getTexteReponse());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AlertesHistorique();
+
+        $this->assertNull($obj->getArEnvoye());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollabDst());
+        $this->assertNull($obj->getCodeCollabOrg());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateDeclenchement());
+        $this->assertNull($obj->getDateReponse());
+        $this->assertNull($obj->getIdAlerteHisto());
+        $this->assertNull($obj->getTexteAlerte());
+        $this->assertNull($obj->getTexteReponse());
     }
 }

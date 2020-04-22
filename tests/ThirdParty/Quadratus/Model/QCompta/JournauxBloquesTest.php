@@ -25,19 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\JournauxBloques;
 class JournauxBloquesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new JournauxBloques();
-
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setCodeJournal() method.
      *
      * @return void
@@ -65,5 +52,18 @@ class JournauxBloquesTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new JournauxBloques();
+
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getPeriode());
     }
 }

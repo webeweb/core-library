@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RegularisationAf;
 class RegularisationAfTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RegularisationAf();
-
-        $this->assertNull($obj->getBaseAf());
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getIndiceBulDeb());
-        $this->assertNull($obj->getIndiceBulFin());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPerBulDeb());
-        $this->assertNull($obj->getPerBulFin());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setBaseAf() method.
      *
      * @return void
@@ -171,5 +151,25 @@ class RegularisationAfTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RegularisationAf();
+
+        $this->assertNull($obj->getBaseAf());
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getIndiceBulDeb());
+        $this->assertNull($obj->getIndiceBulFin());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPerBulDeb());
+        $this->assertNull($obj->getPerBulFin());
+        $this->assertNull($obj->getPeriode());
     }
 }

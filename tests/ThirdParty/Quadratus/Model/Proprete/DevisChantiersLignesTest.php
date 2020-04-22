@@ -23,28 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DevisChantiersLignes;
 class DevisChantiersLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DevisChantiersLignes();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeLocalType());
-        $this->assertNull($obj->getCodeRevetement());
-        $this->assertNull($obj->getMontantHt());
-        $this->assertNull($obj->getNumDevis());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getSolMur());
-        $this->assertNull($obj->getSurface());
-        $this->assertNull($obj->getUniqIdNoeud());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -185,5 +163,27 @@ class DevisChantiersLignesTest extends AbstractTestCase {
 
         $obj->setUniqIdNoeud("uniqIdNoeud");
         $this->assertEquals("uniqIdNoeud", $obj->getUniqIdNoeud());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DevisChantiersLignes();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeLocalType());
+        $this->assertNull($obj->getCodeRevetement());
+        $this->assertNull($obj->getMontantHt());
+        $this->assertNull($obj->getNumDevis());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getSolMur());
+        $this->assertNull($obj->getSurface());
+        $this->assertNull($obj->getUniqIdNoeud());
     }
 }

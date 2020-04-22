@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\PiecesJointes;
 class PiecesJointesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PiecesJointes();
-
-        $this->assertNull($obj->getAuteur());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNomPiece());
-        $this->assertNull($obj->getNumPiece());
-    }
-
-    /**
      * Tests the setAuteur() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class PiecesJointesTest extends AbstractTestCase {
 
         $obj->setNumPiece(10);
         $this->assertEquals(10, $obj->getNumPiece());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PiecesJointes();
+
+        $this->assertNull($obj->getAuteur());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNomPiece());
+        $this->assertNull($obj->getNumPiece());
     }
 }

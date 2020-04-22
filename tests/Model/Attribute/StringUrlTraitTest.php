@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringUrlTrait;
 class StringUrlTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringUrlTrait();
-
-        $this->assertNull($obj->getUrl());
-    }
-
-    /**
      * Tests the setUrl() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringUrlTraitTest extends AbstractTestCase {
 
         $obj->setUrl("Url");
         $this->assertEquals("Url", $obj->getUrl());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringUrlTrait();
+
+        $this->assertNull($obj->getUrl());
     }
 }

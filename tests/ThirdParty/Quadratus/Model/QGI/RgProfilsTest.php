@@ -23,24 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\RgProfils;
 class RgProfilsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RgProfils();
-
-        $this->assertNull($obj->getFichiersMove());
-        $this->assertNull($obj->getFichiersPublierWeb());
-        $this->assertNull($obj->getNiveauMaxi());
-        $this->assertNull($obj->getNiveauSupplementairelibelle());
-        $this->assertNull($obj->getPath());
-        $this->assertNull($obj->getPathFormat());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setFichiersMove() method.
      *
      * @return void
@@ -129,5 +111,23 @@ class RgProfilsTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RgProfils();
+
+        $this->assertNull($obj->getFichiersMove());
+        $this->assertNull($obj->getFichiersPublierWeb());
+        $this->assertNull($obj->getNiveauMaxi());
+        $this->assertNull($obj->getNiveauSupplementairelibelle());
+        $this->assertNull($obj->getPath());
+        $this->assertNull($obj->getPathFormat());
+        $this->assertNull($obj->getUniqId());
     }
 }

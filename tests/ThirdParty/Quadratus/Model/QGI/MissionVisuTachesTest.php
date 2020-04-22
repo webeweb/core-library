@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\MissionVisuTaches;
 class MissionVisuTachesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new MissionVisuTaches();
-
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCodeTacheVisu());
-        $this->assertNull($obj->getIsRegroupement());
-    }
-
-    /**
      * Tests the setCodeMission() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class MissionVisuTachesTest extends AbstractTestCase {
 
         $obj->setIsRegroupement(true);
         $this->assertEquals(true, $obj->getIsRegroupement());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new MissionVisuTaches();
+
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodeTacheVisu());
+        $this->assertNull($obj->getIsRegroupement());
     }
 }

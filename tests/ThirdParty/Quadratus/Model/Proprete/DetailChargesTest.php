@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\DetailCharges;
 class DetailChargesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new DetailCharges();
-
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setCommentaire() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class DetailChargesTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new DetailCharges();
+
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getUniqId());
     }
 }

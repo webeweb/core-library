@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestIntegerPageTrait;
 class IntegerPageTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestIntegerPageTrait();
-
-        $this->assertNull($obj->getPage());
-    }
-
-    /**
      * Tests the setPage() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class IntegerPageTraitTest extends AbstractTestCase {
 
         $obj->setPage(1);
         $this->assertEquals(1, $obj->getPage());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestIntegerPageTrait();
+
+        $this->assertNull($obj->getPage());
     }
 }

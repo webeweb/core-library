@@ -25,31 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HistoTransfPaie;
 class HistoTransfPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoTransfPaie();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getEcartCumule());
-        $this->assertNull($obj->getHcrPayees());
-        $this->assertNull($obj->getHnpComplH());
-        $this->assertNull($obj->getHnphc11());
-        $this->assertNull($obj->getHnphc25());
-        $this->assertNull($obj->getHnphc33());
-        $this->assertNull($obj->getNbComplH());
-        $this->assertNull($obj->getNbHAbs());
-        $this->assertNull($obj->getNbHAbsJf());
-        $this->assertNull($obj->getNbHCompl());
-        $this->assertNull($obj->getNbHRempl());
-        $this->assertNull($obj->getNbHprevues());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -233,5 +208,30 @@ class HistoTransfPaieTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoTransfPaie();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getEcartCumule());
+        $this->assertNull($obj->getHcrPayees());
+        $this->assertNull($obj->getHnpComplH());
+        $this->assertNull($obj->getHnphc11());
+        $this->assertNull($obj->getHnphc25());
+        $this->assertNull($obj->getHnphc33());
+        $this->assertNull($obj->getNbComplH());
+        $this->assertNull($obj->getNbHAbs());
+        $this->assertNull($obj->getNbHAbsJf());
+        $this->assertNull($obj->getNbHCompl());
+        $this->assertNull($obj->getNbHRempl());
+        $this->assertNull($obj->getNbHprevues());
+        $this->assertNull($obj->getPeriode());
     }
 }

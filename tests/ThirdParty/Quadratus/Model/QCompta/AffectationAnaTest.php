@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\AffectationAna;
 class AffectationAnaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AffectationAna();
-
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getNumCompte());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getPourcentage());
-    }
-
-    /**
      * Tests the setCodeCentre() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class AffectationAnaTest extends AbstractTestCase {
 
         $obj->setPourcentage(10.092018);
         $this->assertEquals(10.092018, $obj->getPourcentage());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AffectationAna();
+
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getNumCompte());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getPourcentage());
     }
 }

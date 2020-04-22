@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestFloatYTrait;
 class FloatYTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestFloatYTrait();
-
-        $this->assertNull($obj->getY());
-    }
-
-    /**
      * Tests the setY() method.
      *
      * @return void
@@ -46,5 +34,17 @@ class FloatYTraitTest extends AbstractTestCase {
         $obj->setY(1.01);
         $this->assertEquals(1.01, $obj->getY());
         $this->assertEquals(1, $obj->getYInt());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestFloatYTrait();
+
+        $this->assertNull($obj->getY());
     }
 }

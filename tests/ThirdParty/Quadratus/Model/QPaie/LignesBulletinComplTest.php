@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesBulletinCompl;
 class LignesBulletinComplTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesBulletinCompl();
-
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getDateFin());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNumLigneBulletin());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPeriodicite());
-        $this->assertNull($obj->getTypeRegul());
-    }
-
-    /**
      * Tests the setDateDebut() method.
      *
      * @return void
@@ -157,5 +138,24 @@ class LignesBulletinComplTest extends AbstractTestCase {
 
         $obj->setTypeRegul("typeRegul");
         $this->assertEquals("typeRegul", $obj->getTypeRegul());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesBulletinCompl();
+
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getDateFin());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNumLigneBulletin());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPeriodicite());
+        $this->assertNull($obj->getTypeRegul());
     }
 }

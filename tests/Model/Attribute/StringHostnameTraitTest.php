@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringHostnameTrait;
 class StringHostnameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringHostnameTrait();
-
-        $this->assertNull($obj->getHostname());
-    }
-
-    /**
      * Tests the setHostname() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringHostnameTraitTest extends AbstractTestCase {
 
         $obj->setHostname("hostname");
         $this->assertEquals("hostname", $obj->getHostname());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringHostnameTrait();
+
+        $this->assertNull($obj->getHostname());
     }
 }

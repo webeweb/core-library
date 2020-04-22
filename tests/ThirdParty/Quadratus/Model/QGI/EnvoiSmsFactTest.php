@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\EnvoiSmsFact;
 class EnvoiSmsFactTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EnvoiSmsFact();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getMsgClient());
-        $this->assertNull($obj->getMsgRepresentant());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class EnvoiSmsFactTest extends AbstractTestCase {
 
         $obj->setMsgRepresentant("msgRepresentant");
         $this->assertEquals("msgRepresentant", $obj->getMsgRepresentant());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EnvoiSmsFact();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getMsgClient());
+        $this->assertNull($obj->getMsgRepresentant());
     }
 }

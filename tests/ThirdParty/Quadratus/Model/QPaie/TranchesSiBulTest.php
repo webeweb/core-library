@@ -25,44 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\TranchesSiBul;
 class TranchesSiBulTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TranchesSiBul();
-
-        $this->assertNull($obj->getBrutAlSansSi());
-        $this->assertNull($obj->getCumBrutAlSansSi());
-        $this->assertNull($obj->getCumTotSi());
-        $this->assertNull($obj->getCumTranche2Si());
-        $this->assertNull($obj->getCumTranche2SansSi());
-        $this->assertNull($obj->getCumTrancheAsi());
-        $this->assertNull($obj->getCumTrancheASansSi());
-        $this->assertNull($obj->getCumTrancheBsi());
-        $this->assertNull($obj->getCumTrancheBSansSi());
-        $this->assertNull($obj->getCumTrancheCsi());
-        $this->assertNull($obj->getCumTrancheCSansSi());
-        $this->assertNull($obj->getCumTrancheD1SansSi());
-        $this->assertNull($obj->getCumTrancheDSansSi());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getTotSi());
-        $this->assertNull($obj->getTranche2Si());
-        $this->assertNull($obj->getTranche2SansSi());
-        $this->assertNull($obj->getTrancheAsi());
-        $this->assertNull($obj->getTrancheASansSi());
-        $this->assertNull($obj->getTrancheBsi());
-        $this->assertNull($obj->getTrancheBSansSi());
-        $this->assertNull($obj->getTrancheCsi());
-        $this->assertNull($obj->getTrancheCSansSi());
-        $this->assertNull($obj->getTrancheD1SansSi());
-        $this->assertNull($obj->getTrancheDSansSi());
-    }
-
-    /**
      * Tests the setBrutAlSansSi() method.
      *
      * @return void
@@ -415,5 +377,43 @@ class TranchesSiBulTest extends AbstractTestCase {
 
         $obj->setTrancheDSansSi(10.092018);
         $this->assertEquals(10.092018, $obj->getTrancheDSansSi());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TranchesSiBul();
+
+        $this->assertNull($obj->getBrutAlSansSi());
+        $this->assertNull($obj->getCumBrutAlSansSi());
+        $this->assertNull($obj->getCumTotSi());
+        $this->assertNull($obj->getCumTranche2Si());
+        $this->assertNull($obj->getCumTranche2SansSi());
+        $this->assertNull($obj->getCumTrancheAsi());
+        $this->assertNull($obj->getCumTrancheASansSi());
+        $this->assertNull($obj->getCumTrancheBsi());
+        $this->assertNull($obj->getCumTrancheBSansSi());
+        $this->assertNull($obj->getCumTrancheCsi());
+        $this->assertNull($obj->getCumTrancheCSansSi());
+        $this->assertNull($obj->getCumTrancheD1SansSi());
+        $this->assertNull($obj->getCumTrancheDSansSi());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTotSi());
+        $this->assertNull($obj->getTranche2Si());
+        $this->assertNull($obj->getTranche2SansSi());
+        $this->assertNull($obj->getTrancheAsi());
+        $this->assertNull($obj->getTrancheASansSi());
+        $this->assertNull($obj->getTrancheBsi());
+        $this->assertNull($obj->getTrancheBSansSi());
+        $this->assertNull($obj->getTrancheCsi());
+        $this->assertNull($obj->getTrancheCSansSi());
+        $this->assertNull($obj->getTrancheD1SansSi());
+        $this->assertNull($obj->getTrancheDSansSi());
     }
 }

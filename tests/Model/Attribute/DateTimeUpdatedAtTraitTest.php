@@ -25,18 +25,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestDateTimeUpdatedAtTrait;
 class DateTimeUpdatedAtTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestDateTimeUpdatedAtTrait();
-
-        $this->assertNull($obj->getUpdatedAt());
-    }
-
-    /**
      * Tests the setUpdatedAt() method.
      *
      * @return void
@@ -51,5 +39,17 @@ class DateTimeUpdatedAtTraitTest extends AbstractTestCase {
 
         $obj->setUpdatedAt($updatedAt);
         $this->assertSame($updatedAt, $obj->getUpdatedAt());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestDateTimeUpdatedAtTrait();
+
+        $this->assertNull($obj->getUpdatedAt());
     }
 }

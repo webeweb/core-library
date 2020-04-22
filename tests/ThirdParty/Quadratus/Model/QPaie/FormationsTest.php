@@ -25,30 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\Formations;
 class FormationsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Formations();
-
-        $this->assertNull($obj->getActive());
-        $this->assertNull($obj->getDescription());
-        $this->assertNull($obj->getId());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getLieu());
-        $this->assertNull($obj->getNbHFormation());
-        $this->assertNull($obj->getNbhDifPrisHorsW());
-        $this->assertNull($obj->getNbhDiFPrisW());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getOrganisme());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getTypeFormation());
-    }
-
-    /**
      * Tests the setActive() method.
      *
      * @return void
@@ -223,5 +199,29 @@ class FormationsTest extends AbstractTestCase {
 
         $obj->setTypeFormation(10);
         $this->assertEquals(10, $obj->getTypeFormation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Formations();
+
+        $this->assertNull($obj->getActive());
+        $this->assertNull($obj->getDescription());
+        $this->assertNull($obj->getId());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getLieu());
+        $this->assertNull($obj->getNbHFormation());
+        $this->assertNull($obj->getNbhDifPrisHorsW());
+        $this->assertNull($obj->getNbhDiFPrisW());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getOrganisme());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getTypeFormation());
     }
 }

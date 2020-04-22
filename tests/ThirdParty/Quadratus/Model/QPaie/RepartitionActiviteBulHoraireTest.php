@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RepartitionActiviteBulHora
 class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RepartitionActiviteBulHoraire();
-
-        $this->assertNull($obj->getCodeService());
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getInterimaire());
-        $this->assertNull($obj->getNbHeures());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setCodeService() method.
      *
      * @return void
@@ -121,5 +104,22 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RepartitionActiviteBulHoraire();
+
+        $this->assertNull($obj->getCodeService());
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getInterimaire());
+        $this->assertNull($obj->getNbHeures());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPeriode());
     }
 }

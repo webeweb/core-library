@@ -23,30 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CriteresChantier;
 class CriteresChantierTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CriteresChantier();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeRef1());
-        $this->assertNull($obj->getCodeRef2());
-        $this->assertNull($obj->getCodeRef3());
-        $this->assertNull($obj->getCodeRef4());
-        $this->assertNull($obj->getCodeRef5());
-        $this->assertNull($obj->getTexte1());
-        $this->assertNull($obj->getTexte2());
-        $this->assertNull($obj->getTexte3());
-        $this->assertNull($obj->getTexte4());
-        $this->assertNull($obj->getTexte5());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -213,5 +189,29 @@ class CriteresChantierTest extends AbstractTestCase {
 
         $obj->setTexte5("texte5");
         $this->assertEquals("texte5", $obj->getTexte5());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CriteresChantier();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeRef1());
+        $this->assertNull($obj->getCodeRef2());
+        $this->assertNull($obj->getCodeRef3());
+        $this->assertNull($obj->getCodeRef4());
+        $this->assertNull($obj->getCodeRef5());
+        $this->assertNull($obj->getTexte1());
+        $this->assertNull($obj->getTexte2());
+        $this->assertNull($obj->getTexte3());
+        $this->assertNull($obj->getTexte4());
+        $this->assertNull($obj->getTexte5());
     }
 }

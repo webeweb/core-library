@@ -23,25 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\SousLignesAnalAchats;
 class SousLignesAnalAchatsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new SousLignesAnalAchats();
-
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeFournisseur());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getIndiceLigne());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNoPiece());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getNumeroLigneAnal());
-    }
-
-    /**
      * Tests the setCodeCentre() method.
      *
      * @return void
@@ -143,5 +124,24 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
 
         $obj->setNumeroLigneAnal(10);
         $this->assertEquals(10, $obj->getNumeroLigneAnal());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new SousLignesAnalAchats();
+
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeFournisseur());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getIndiceLigne());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNoPiece());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getNumeroLigneAnal());
     }
 }

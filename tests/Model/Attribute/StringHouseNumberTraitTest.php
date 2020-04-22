@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringHouseNumberTrait;
 class StringHouseNumberTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringHouseNumberTrait();
-
-        $this->assertNull($obj->getHouseNumber());
-    }
-
-    /**
      * Tests the setHouseNumber() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringHouseNumberTraitTest extends AbstractTestCase {
 
         $obj->setHouseNumber("houseNumber");
         $this->assertEquals("houseNumber", $obj->getHouseNumber());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringHouseNumberTrait();
+
+        $this->assertNull($obj->getHouseNumber());
     }
 }

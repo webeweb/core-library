@@ -23,22 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\VariablesPaieEmp;
 class VariablesPaieEmpTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new VariablesPaieEmp();
-
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getValeur1());
-        $this->assertNull($obj->getValeur2());
-    }
-
-    /**
      * Tests the setCodeLibelle() method.
      *
      * @return void
@@ -101,5 +85,21 @@ class VariablesPaieEmpTest extends AbstractTestCase {
 
         $obj->setValeur2(10.092018);
         $this->assertEquals(10.092018, $obj->getValeur2());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new VariablesPaieEmp();
+
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getValeur1());
+        $this->assertNull($obj->getValeur2());
     }
 }

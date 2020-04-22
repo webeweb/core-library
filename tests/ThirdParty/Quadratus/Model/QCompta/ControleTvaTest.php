@@ -23,28 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ControleTva;
 class ControleTvaTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ControleTva();
-
-        $this->assertNull($obj->getCodeCalc());
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getColonneTaux());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getMttTaux());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getRacineCpt());
-        $this->assertNull($obj->getSaisieManuelle());
-        $this->assertNull($obj->getTypeControle());
-        $this->assertNull($obj->getTypeLigne());
-        $this->assertNull($obj->getValeurTaux());
-    }
-
-    /**
      * Tests the setCodeCalc() method.
      *
      * @return void
@@ -185,5 +163,27 @@ class ControleTvaTest extends AbstractTestCase {
 
         $obj->setValeurTaux(10.092018);
         $this->assertEquals(10.092018, $obj->getValeurTaux());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ControleTva();
+
+        $this->assertNull($obj->getCodeCalc());
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getColonneTaux());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMttTaux());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getRacineCpt());
+        $this->assertNull($obj->getSaisieManuelle());
+        $this->assertNull($obj->getTypeControle());
+        $this->assertNull($obj->getTypeLigne());
+        $this->assertNull($obj->getValeurTaux());
     }
 }

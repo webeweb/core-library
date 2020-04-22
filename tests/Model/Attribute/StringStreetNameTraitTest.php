@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringStreetNameTrait;
 class StringStreetNameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringStreetNameTrait();
-
-        $this->assertNull($obj->getStreetName());
-    }
-
-    /**
      * Tests the setStreetName() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringStreetNameTraitTest extends AbstractTestCase {
 
         $obj->setStreetName("streetName");
         $this->assertEquals("streetName", $obj->getStreetName());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringStreetNameTrait();
+
+        $this->assertNull($obj->getStreetName());
     }
 }

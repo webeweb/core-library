@@ -23,21 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Categories;
 class CategoriesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Categories();
-
-        $this->assertNull($obj->getCarTec());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getParent());
-        $this->assertNull($obj->getType());
-    }
-
-    /**
      * Tests the setCarTec() method.
      *
      * @return void
@@ -87,5 +72,20 @@ class CategoriesTest extends AbstractTestCase {
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Categories();
+
+        $this->assertNull($obj->getCarTec());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getParent());
+        $this->assertNull($obj->getType());
     }
 }

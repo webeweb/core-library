@@ -25,49 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\CdeFournisseurLigne;
 class CdeFournisseurLigneTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CdeFournisseurLigne();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeDepot());
-        $this->assertNull($obj->getCodeFournisseur());
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getCodeUnite());
-        $this->assertNull($obj->getCodeVariante());
-        $this->assertNull($obj->getCodeVentilAchat());
-        $this->assertNull($obj->getCommandeRecue());
-        $this->assertNull($obj->getConditionnement());
-        $this->assertNull($obj->getDateReceptionPrevue());
-        $this->assertNull($obj->getDesignation());
-        $this->assertNull($obj->getDesignation2());
-        $this->assertNull($obj->getDesignation3());
-        $this->assertNull($obj->getIndiceLigne());
-        $this->assertNull($obj->getNoBr());
-        $this->assertNull($obj->getNoLigneBr());
-        $this->assertNull($obj->getNoPiece());
-        $this->assertNull($obj->getNumeroLigne());
-        $this->assertNull($obj->getPuBrut());
-        $this->assertNull($obj->getPosteRent());
-        $this->assertNull($obj->getQteCond());
-        $this->assertNull($obj->getQteOrigine());
-        $this->assertNull($obj->getQuantite());
-        $this->assertNull($obj->getRefArticleFournisseur());
-        $this->assertNull($obj->getRemiseLigne1());
-        $this->assertNull($obj->getRemiseLigne2());
-        $this->assertNull($obj->getRemiseLigne3());
-        $this->assertNull($obj->getTauxTva());
-        $this->assertNull($obj->getTypeLigne());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -485,5 +442,48 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
 
         $obj->setTypeLigne("typeLigne");
         $this->assertEquals("typeLigne", $obj->getTypeLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CdeFournisseurLigne();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeDepot());
+        $this->assertNull($obj->getCodeFournisseur());
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getCodeUnite());
+        $this->assertNull($obj->getCodeVariante());
+        $this->assertNull($obj->getCodeVentilAchat());
+        $this->assertNull($obj->getCommandeRecue());
+        $this->assertNull($obj->getConditionnement());
+        $this->assertNull($obj->getDateReceptionPrevue());
+        $this->assertNull($obj->getDesignation());
+        $this->assertNull($obj->getDesignation2());
+        $this->assertNull($obj->getDesignation3());
+        $this->assertNull($obj->getIndiceLigne());
+        $this->assertNull($obj->getNoBr());
+        $this->assertNull($obj->getNoLigneBr());
+        $this->assertNull($obj->getNoPiece());
+        $this->assertNull($obj->getNumeroLigne());
+        $this->assertNull($obj->getPuBrut());
+        $this->assertNull($obj->getPosteRent());
+        $this->assertNull($obj->getQteCond());
+        $this->assertNull($obj->getQteOrigine());
+        $this->assertNull($obj->getQuantite());
+        $this->assertNull($obj->getRefArticleFournisseur());
+        $this->assertNull($obj->getRemiseLigne1());
+        $this->assertNull($obj->getRemiseLigne2());
+        $this->assertNull($obj->getRemiseLigne3());
+        $this->assertNull($obj->getTauxTva());
+        $this->assertNull($obj->getTypeLigne());
     }
 }

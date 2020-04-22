@@ -25,46 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AffectationsCharge;
 class AffectationsChargeTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AffectationsCharge();
-
-        $this->assertNull($obj->getAjoutCharge());
-        $this->assertNull($obj->getAou());
-        $this->assertNull($obj->getAvr());
-        $this->assertNull($obj->getChargeMensualisee());
-        $this->assertNull($obj->getChargeQFact());
-        $this->assertNull($obj->getChargeValidee());
-        $this->assertNull($obj->getChefEquipe());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeCharge());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeInspecteur());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getCommentaire());
-        $this->assertNull($obj->getDec());
-        $this->assertNull($obj->getFev());
-        $this->assertNull($obj->getJan());
-        $this->assertNull($obj->getJuil());
-        $this->assertNull($obj->getJuin());
-        $this->assertNull($obj->getMai());
-        $this->assertNull($obj->getMar());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNov());
-        $this->assertNull($obj->getOct());
-        $this->assertNull($obj->getOrigineChargeMens());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getSep());
-        $this->assertNull($obj->getUniqId());
-    }
-
-    /**
      * Tests the setAjoutCharge() method.
      *
      * @return void
@@ -447,5 +407,45 @@ class AffectationsChargeTest extends AbstractTestCase {
 
         $obj->setUniqId("uniqId");
         $this->assertEquals("uniqId", $obj->getUniqId());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AffectationsCharge();
+
+        $this->assertNull($obj->getAjoutCharge());
+        $this->assertNull($obj->getAou());
+        $this->assertNull($obj->getAvr());
+        $this->assertNull($obj->getChargeMensualisee());
+        $this->assertNull($obj->getChargeQFact());
+        $this->assertNull($obj->getChargeValidee());
+        $this->assertNull($obj->getChefEquipe());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeCharge());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeInspecteur());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getCommentaire());
+        $this->assertNull($obj->getDec());
+        $this->assertNull($obj->getFev());
+        $this->assertNull($obj->getJan());
+        $this->assertNull($obj->getJuil());
+        $this->assertNull($obj->getJuin());
+        $this->assertNull($obj->getMai());
+        $this->assertNull($obj->getMar());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNov());
+        $this->assertNull($obj->getOct());
+        $this->assertNull($obj->getOrigineChargeMens());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getSep());
+        $this->assertNull($obj->getUniqId());
     }
 }

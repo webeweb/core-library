@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\TableauxPaiements;
 class TableauxPaiementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TableauxPaiements();
-
-        $this->assertNull($obj->getAssurance());
-        $this->assertNull($obj->getCodeTva());
-        $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getEntretien());
-        $this->assertNull($obj->getLoyerHt());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroCb());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getNumeroDeuxCb());
-        $this->assertNull($obj->getValeurRachat());
-    }
-
-    /**
      * Tests the setAssurance() method.
      *
      * @return void
@@ -177,5 +156,26 @@ class TableauxPaiementsTest extends AbstractTestCase {
 
         $obj->setValeurRachat(10.092018);
         $this->assertEquals(10.092018, $obj->getValeurRachat());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TableauxPaiements();
+
+        $this->assertNull($obj->getAssurance());
+        $this->assertNull($obj->getCodeTva());
+        $this->assertNull($obj->getDate());
+        $this->assertNull($obj->getEntretien());
+        $this->assertNull($obj->getLoyerHt());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroCb());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getNumeroDeuxCb());
+        $this->assertNull($obj->getValeurRachat());
     }
 }

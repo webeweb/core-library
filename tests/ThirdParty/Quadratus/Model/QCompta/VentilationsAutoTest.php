@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\VentilationsAuto;
 class VentilationsAutoTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new VentilationsAuto();
-
-        $this->assertNull($obj->getCodeJournal());
-        $this->assertNull($obj->getCodeVentilation());
-        $this->assertNull($obj->getCompteVentilation());
-    }
-
-    /**
      * Tests the setCodeJournal() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class VentilationsAutoTest extends AbstractTestCase {
 
         $obj->setCompteVentilation("compteVentilation");
         $this->assertEquals("compteVentilation", $obj->getCompteVentilation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new VentilationsAuto();
+
+        $this->assertNull($obj->getCodeJournal());
+        $this->assertNull($obj->getCodeVentilation());
+        $this->assertNull($obj->getCompteVentilation());
     }
 }

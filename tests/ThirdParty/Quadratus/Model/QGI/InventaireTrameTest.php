@@ -23,20 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\InventaireTrame;
 class InventaireTrameTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new InventaireTrame();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeTrame());
-        $this->assertNull($obj->getNumeroLigne());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -73,5 +59,19 @@ class InventaireTrameTest extends AbstractTestCase {
 
         $obj->setNumeroLigne(10);
         $this->assertEquals(10, $obj->getNumeroLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new InventaireTrame();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeTrame());
+        $this->assertNull($obj->getNumeroLigne());
     }
 }

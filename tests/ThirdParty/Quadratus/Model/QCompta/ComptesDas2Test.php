@@ -23,29 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\ComptesDas2;
 class ComptesDas2Test extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ComptesDas2();
-
-        $this->assertNull($obj->getAvantageNature());
-        $this->assertNull($obj->getIndemniteRbt());
-        $this->assertNull($obj->getMontant1());
-        $this->assertNull($obj->getMontant2());
-        $this->assertNull($obj->getNature1());
-        $this->assertNull($obj->getNature2());
-        $this->assertNull($obj->getNumeroCompte());
-        $this->assertNull($obj->getRetenueSource());
-        $this->assertNull($obj->getTvada());
-        $this->assertNull($obj->getTypeAn());
-        $this->assertNull($obj->getTypeIr());
-        $this->assertNull($obj->getTypeRs());
-    }
-
-    /**
      * Tests the setAvantageNature() method.
      *
      * @return void
@@ -199,5 +176,28 @@ class ComptesDas2Test extends AbstractTestCase {
 
         $obj->setTypeRs("typeRs");
         $this->assertEquals("typeRs", $obj->getTypeRs());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ComptesDas2();
+
+        $this->assertNull($obj->getAvantageNature());
+        $this->assertNull($obj->getIndemniteRbt());
+        $this->assertNull($obj->getMontant1());
+        $this->assertNull($obj->getMontant2());
+        $this->assertNull($obj->getNature1());
+        $this->assertNull($obj->getNature2());
+        $this->assertNull($obj->getNumeroCompte());
+        $this->assertNull($obj->getRetenueSource());
+        $this->assertNull($obj->getTvada());
+        $this->assertNull($obj->getTypeAn());
+        $this->assertNull($obj->getTypeIr());
+        $this->assertNull($obj->getTypeRs());
     }
 }

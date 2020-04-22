@@ -25,21 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\HistoMois;
 class HistoMoisTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoMois();
-
-        $this->assertNull($obj->getIndicePeriode());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getPeriode());
-    }
-
-    /**
      * Tests the setIndicePeriode() method.
      *
      * @return void
@@ -93,5 +78,20 @@ class HistoMoisTest extends AbstractTestCase {
 
         $obj->setPeriode($periode);
         $this->assertSame($periode, $obj->getPeriode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoMois();
+
+        $this->assertNull($obj->getIndicePeriode());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getPeriode());
     }
 }

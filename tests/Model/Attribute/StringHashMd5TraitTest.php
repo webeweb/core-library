@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringHashMd5Trait;
 class StringHashMd5TraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringHashMd5Trait();
-
-        $this->assertNull($obj->getHashMd5());
-    }
-
-    /**
      * Tests the setHashMd5() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringHashMd5TraitTest extends AbstractTestCase {
 
         $obj->setHashMd5("hashMd5");
         $this->assertEquals("hashMd5", $obj->getHashMd5());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringHashMd5Trait();
+
+        $this->assertNull($obj->getHashMd5());
     }
 }

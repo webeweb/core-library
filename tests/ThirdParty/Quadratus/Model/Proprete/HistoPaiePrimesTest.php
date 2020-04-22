@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\HistoPaiePrimes;
 class HistoPaiePrimesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HistoPaiePrimes();
-
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodePrime());
-        $this->assertNull($obj->getNombrePrime());
-        $this->assertNull($obj->getNumeroPrime());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPeriodeRappel());
-        $this->assertNull($obj->getTauxPrime());
-        $this->assertNull($obj->getTypePrime());
-    }
-
-    /**
      * Tests the setCodeEmploye() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class HistoPaiePrimesTest extends AbstractTestCase {
 
         $obj->setTypePrime("typePrime");
         $this->assertEquals("typePrime", $obj->getTypePrime());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HistoPaiePrimes();
+
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodePrime());
+        $this->assertNull($obj->getNombrePrime());
+        $this->assertNull($obj->getNumeroPrime());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPeriodeRappel());
+        $this->assertNull($obj->getTauxPrime());
+        $this->assertNull($obj->getTypePrime());
     }
 }

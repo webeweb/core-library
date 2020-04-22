@@ -23,18 +23,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\Attribute\TestStringAccountingCodeTrai
 class StringAccountingCodeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor() {
-
-        $obj = new TestStringAccountingCodeTrait();
-
-        $this->assertNull($obj->getAccountingCode());
-    }
-
-    /**
      * Tests the setAccountingCode() method.
      *
      * @return void
@@ -45,5 +33,17 @@ class StringAccountingCodeTraitTest extends AbstractTestCase {
 
         $obj->setAccountingCode("accountingCode");
         $this->assertEquals("accountingCode", $obj->getAccountingCode());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__constructor() {
+
+        $obj = new TestStringAccountingCodeTrait();
+
+        $this->assertNull($obj->getAccountingCode());
     }
 }

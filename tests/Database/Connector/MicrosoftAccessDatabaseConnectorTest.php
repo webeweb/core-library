@@ -26,19 +26,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct method.
-     *
-     * @returns void
-     */
-    public function test__construct() {
-
-        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
-
-        $this->assertSame($this->authenticator, $obj->getAuthenticator());
-        $this->assertNull($obj->getDatabase());
-    }
-
-    /**
      * Tests the getConnection() method.
      *
      * @return void
@@ -119,5 +106,18 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
         $arg = ["field1" => 1, "field2" => "'value2'", "field3" => "'value3'"];
         $res = "UPDATE table SET `field1` = 1, `field2` = 'value2', `field3` = 'value3'";
         $this->assertEquals($res, $obj->prepareUpdate("table", $arg));
+    }
+
+    /**
+     * Tests the __construct method.
+     *
+     * @returns void
+     */
+    public function test__construct() {
+
+        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
+
+        $this->assertSame($this->authenticator, $obj->getAuthenticator());
+        $this->assertNull($obj->getDatabase());
     }
 }

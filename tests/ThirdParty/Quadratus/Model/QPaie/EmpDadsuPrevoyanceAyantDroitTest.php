@@ -25,31 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\EmpDadsuPrevoyanceAyantDro
 class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new EmpDadsuPrevoyanceAyantDroit();
-
-        $this->assertNull($obj->getCodeACharge());
-        $this->assertNull($obj->getCodeAffilSecu());
-        $this->assertNull($obj->getCodeAutreCouverture());
-        $this->assertNull($obj->getCodeExtensionSecu());
-        $this->assertNull($obj->getCodeScolarise());
-        $this->assertNull($obj->getCodeType());
-        $this->assertNull($obj->getDateNaissance());
-        $this->assertNull($obj->getNir());
-        $this->assertNull($obj->getNirRattachement());
-        $this->assertNull($obj->getNom());
-        $this->assertNull($obj->getNumeroAyantDroit());
-        $this->assertNull($obj->getNumeroEmploye());
-        $this->assertNull($obj->getPrenom());
-        $this->assertNull($obj->getRangNaissance());
-    }
-
-    /**
      * Tests the setCodeACharge() method.
      *
      * @return void
@@ -233,5 +208,30 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
 
         $obj->setRangNaissance("rangNaissance");
         $this->assertEquals("rangNaissance", $obj->getRangNaissance());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new EmpDadsuPrevoyanceAyantDroit();
+
+        $this->assertNull($obj->getCodeACharge());
+        $this->assertNull($obj->getCodeAffilSecu());
+        $this->assertNull($obj->getCodeAutreCouverture());
+        $this->assertNull($obj->getCodeExtensionSecu());
+        $this->assertNull($obj->getCodeScolarise());
+        $this->assertNull($obj->getCodeType());
+        $this->assertNull($obj->getDateNaissance());
+        $this->assertNull($obj->getNir());
+        $this->assertNull($obj->getNirRattachement());
+        $this->assertNull($obj->getNom());
+        $this->assertNull($obj->getNumeroAyantDroit());
+        $this->assertNull($obj->getNumeroEmploye());
+        $this->assertNull($obj->getPrenom());
+        $this->assertNull($obj->getRangNaissance());
     }
 }

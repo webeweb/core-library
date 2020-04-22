@@ -25,28 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\TramesLignes;
 class TramesLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TramesLignes();
-
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeLibAuto());
-        $this->assertNull($obj->getCompte());
-        $this->assertNull($obj->getCompteContrepartie());
-        $this->assertNull($obj->getCredit());
-        $this->assertNull($obj->getDateEcheance());
-        $this->assertNull($obj->getDebit());
-        $this->assertNull($obj->getIsDebit());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getNumLigne());
-    }
-
-    /**
      * Tests the setCode() method.
      *
      * @return void
@@ -191,5 +169,27 @@ class TramesLignesTest extends AbstractTestCase {
 
         $obj->setNumLigne(10);
         $this->assertEquals(10, $obj->getNumLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TramesLignes();
+
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeLibAuto());
+        $this->assertNull($obj->getCompte());
+        $this->assertNull($obj->getCompteContrepartie());
+        $this->assertNull($obj->getCredit());
+        $this->assertNull($obj->getDateEcheance());
+        $this->assertNull($obj->getDebit());
+        $this->assertNull($obj->getIsDebit());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getNumLigne());
     }
 }

@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Contenu;
 class ContenuTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Contenu();
-
-        $this->assertNull($obj->getPosition());
-        $this->assertNull($obj->getTexteContenu());
-    }
-
-    /**
      * Tests the setPosition() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ContenuTest extends AbstractTestCase {
 
         $obj->setTexteContenu("texteContenu");
         $this->assertEquals("texteContenu", $obj->getTexteContenu());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Contenu();
+
+        $this->assertNull($obj->getPosition());
+        $this->assertNull($obj->getTexteContenu());
     }
 }

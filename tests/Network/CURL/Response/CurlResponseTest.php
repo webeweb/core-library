@@ -23,23 +23,6 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class CurlResponseTest extends AbstractTestCase {
 
     /**
-     * Tests the __constructor() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CurlResponse();
-
-        $this->assertNull($obj->getRequestBody());
-        $this->assertEquals([], $obj->getRequestHeader());
-        $this->assertNull($obj->getRequestUrl());
-        $this->assertNull($obj->getResponseBody());
-        $this->assertEquals([], $obj->getResponseHeader());
-        $this->assertEquals([], $obj->getResponseInfo());
-    }
-
-    /**
      * Tests the setRequestBody() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class CurlResponseTest extends AbstractTestCase {
 
         $obj->setResponseInfo(["responseInfo" => "responseInfo"]);
         $this->assertEquals(["responseInfo" => "responseInfo"], $obj->getResponseInfo());
+    }
+
+    /**
+     * Tests the __constructor() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CurlResponse();
+
+        $this->assertNull($obj->getRequestBody());
+        $this->assertEquals([], $obj->getRequestHeader());
+        $this->assertNull($obj->getRequestUrl());
+        $this->assertNull($obj->getResponseBody());
+        $this->assertEquals([], $obj->getResponseHeader());
+        $this->assertEquals([], $obj->getResponseInfo());
     }
 }

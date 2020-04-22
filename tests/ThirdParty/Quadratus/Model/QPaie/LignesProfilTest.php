@@ -25,34 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesProfil;
 class LignesProfilTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesProfil();
-
-        $this->assertNull($obj->getCodeLibelle());
-        $this->assertNull($obj->getCodeProfil());
-        $this->assertNull($obj->getDebPerApplication());
-        $this->assertNull($obj->getFinPerApplication());
-        $this->assertNull($obj->getFreq1());
-        $this->assertNull($obj->getFreq10());
-        $this->assertNull($obj->getFreq11());
-        $this->assertNull($obj->getFreq12());
-        $this->assertNull($obj->getFreq2());
-        $this->assertNull($obj->getFreq3());
-        $this->assertNull($obj->getFreq4());
-        $this->assertNull($obj->getFreq5());
-        $this->assertNull($obj->getFreq6());
-        $this->assertNull($obj->getFreq7());
-        $this->assertNull($obj->getFreq8());
-        $this->assertNull($obj->getFreq9());
-        $this->assertNull($obj->getNumLigneProfil());
-    }
-
-    /**
      * Tests the setCodeLibelle() method.
      *
      * @return void
@@ -279,5 +251,33 @@ class LignesProfilTest extends AbstractTestCase {
 
         $obj->setNumLigneProfil(10);
         $this->assertEquals(10, $obj->getNumLigneProfil());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesProfil();
+
+        $this->assertNull($obj->getCodeLibelle());
+        $this->assertNull($obj->getCodeProfil());
+        $this->assertNull($obj->getDebPerApplication());
+        $this->assertNull($obj->getFinPerApplication());
+        $this->assertNull($obj->getFreq1());
+        $this->assertNull($obj->getFreq10());
+        $this->assertNull($obj->getFreq11());
+        $this->assertNull($obj->getFreq12());
+        $this->assertNull($obj->getFreq2());
+        $this->assertNull($obj->getFreq3());
+        $this->assertNull($obj->getFreq4());
+        $this->assertNull($obj->getFreq5());
+        $this->assertNull($obj->getFreq6());
+        $this->assertNull($obj->getFreq7());
+        $this->assertNull($obj->getFreq8());
+        $this->assertNull($obj->getFreq9());
+        $this->assertNull($obj->getNumLigneProfil());
     }
 }

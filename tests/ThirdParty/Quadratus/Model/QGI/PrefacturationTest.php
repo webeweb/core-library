@@ -25,33 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Prefacturation;
 class PrefacturationTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Prefacturation();
-
-        $this->assertNull($obj->getCodeArticle());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeMission());
-        $this->assertNull($obj->getCodePhase());
-        $this->assertNull($obj->getCodeRegroupement());
-        $this->assertNull($obj->getDateSaisie());
-        $this->assertNull($obj->getDateSysSaisie());
-        $this->assertNull($obj->getFacturable());
-        $this->assertNull($obj->getIdPrefacturation());
-        $this->assertNull($obj->getIsTransf());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMonnaie());
-        $this->assertNull($obj->getPu());
-        $this->assertNull($obj->getQte());
-        $this->assertNull($obj->getUniqIdFacture());
-    }
-
-    /**
      * Tests the setCodeArticle() method.
      *
      * @return void
@@ -265,5 +238,32 @@ class PrefacturationTest extends AbstractTestCase {
 
         $obj->setUniqIdFacture("uniqIdFacture");
         $this->assertEquals("uniqIdFacture", $obj->getUniqIdFacture());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Prefacturation();
+
+        $this->assertNull($obj->getCodeArticle());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeMission());
+        $this->assertNull($obj->getCodePhase());
+        $this->assertNull($obj->getCodeRegroupement());
+        $this->assertNull($obj->getDateSaisie());
+        $this->assertNull($obj->getDateSysSaisie());
+        $this->assertNull($obj->getFacturable());
+        $this->assertNull($obj->getIdPrefacturation());
+        $this->assertNull($obj->getIsTransf());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMonnaie());
+        $this->assertNull($obj->getPu());
+        $this->assertNull($obj->getQte());
+        $this->assertNull($obj->getUniqIdFacture());
     }
 }

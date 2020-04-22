@@ -25,23 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AffectationEmployeChant
 class AffectationEmployeChantierTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AffectationEmployeChantier();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getDateAffectation());
-        $this->assertNull($obj->getDateFinAffectation());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -125,5 +108,22 @@ class AffectationEmployeChantierTest extends AbstractTestCase {
 
         $obj->setDateFinAffectation($dateFinAffectation);
         $this->assertSame($dateFinAffectation, $obj->getDateFinAffectation());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AffectationEmployeChantier();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getDateAffectation());
+        $this->assertNull($obj->getDateFinAffectation());
     }
 }

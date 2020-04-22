@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\AffectationMateriel;
 class AffectationMaterielTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AffectationMateriel();
-
-        $this->assertNull($obj->getBudgetDepenseEuro());
-        $this->assertNull($obj->getBudgetDepenseFrf());
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeMateriel());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getDebutAffect());
-        $this->assertNull($obj->getFinAffect());
-        $this->assertNull($obj->getPourcentUtilise());
-    }
-
-    /**
      * Tests the setBudgetDepenseEuro() method.
      *
      * @return void
@@ -181,5 +160,26 @@ class AffectationMaterielTest extends AbstractTestCase {
 
         $obj->setPourcentUtilise(10.092018);
         $this->assertEquals(10.092018, $obj->getPourcentUtilise());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AffectationMateriel();
+
+        $this->assertNull($obj->getBudgetDepenseEuro());
+        $this->assertNull($obj->getBudgetDepenseFrf());
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeMateriel());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getDebutAffect());
+        $this->assertNull($obj->getFinAffect());
+        $this->assertNull($obj->getPourcentUtilise());
     }
 }

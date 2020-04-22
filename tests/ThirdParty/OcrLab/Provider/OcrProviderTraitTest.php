@@ -24,18 +24,6 @@ use WBW\Library\Core\ThirdParty\OcrLad\Provider\OcrProvider;
 class OcrProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new TestOcrProviderTrait();
-
-        $this->assertNull($obj->getOcrProvider());
-    }
-
-    /**
      * Tests the setOcrProvider() method.
      *
      * @return void
@@ -49,5 +37,17 @@ class OcrProviderTraitTest extends AbstractTestCase {
 
         $obj->setOcrProvider($ocrProvider);
         $this->assertSame($ocrProvider, $obj->getOcrProvider());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new TestOcrProviderTrait();
+
+        $this->assertNull($obj->getOcrProvider());
     }
 }

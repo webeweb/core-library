@@ -25,43 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\PointEmpTache;
 class PointEmpTacheTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PointEmpTache();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaboValid());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeEmploye());
-        $this->assertNull($obj->getCodeTache());
-        $this->assertNull($obj->getDateValidationSynchro());
-        $this->assertNull($obj->getEtat());
-        $this->assertNull($obj->getHRemplMens());
-        $this->assertNull($obj->getMensualisation());
-        $this->assertNull($obj->getMtPrime1Chantier());
-        $this->assertNull($obj->getMtPrime2Chantier());
-        $this->assertNull($obj->getMtPrime3Chantier());
-        $this->assertNull($obj->getNbHeures1Rs());
-        $this->assertNull($obj->getNbHeures1Tp());
-        $this->assertNull($obj->getNbHeures2Rs());
-        $this->assertNull($obj->getNbHeures2Tp());
-        $this->assertNull($obj->getNbPaniers());
-        $this->assertNull($obj->getNumBt());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getTxHoraire1Rs());
-        $this->assertNull($obj->getTxHoraire1Tp());
-        $this->assertNull($obj->getTxHoraire2Rs());
-        $this->assertNull($obj->getTxHoraire2Tp());
-        $this->assertNull($obj->getUniqIdSynchro());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -405,5 +368,42 @@ class PointEmpTacheTest extends AbstractTestCase {
 
         $obj->setUniqIdSynchro("uniqIdSynchro");
         $this->assertEquals("uniqIdSynchro", $obj->getUniqIdSynchro());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PointEmpTache();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaboValid());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeEmploye());
+        $this->assertNull($obj->getCodeTache());
+        $this->assertNull($obj->getDateValidationSynchro());
+        $this->assertNull($obj->getEtat());
+        $this->assertNull($obj->getHRemplMens());
+        $this->assertNull($obj->getMensualisation());
+        $this->assertNull($obj->getMtPrime1Chantier());
+        $this->assertNull($obj->getMtPrime2Chantier());
+        $this->assertNull($obj->getMtPrime3Chantier());
+        $this->assertNull($obj->getNbHeures1Rs());
+        $this->assertNull($obj->getNbHeures1Tp());
+        $this->assertNull($obj->getNbHeures2Rs());
+        $this->assertNull($obj->getNbHeures2Tp());
+        $this->assertNull($obj->getNbPaniers());
+        $this->assertNull($obj->getNumBt());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getTxHoraire1Rs());
+        $this->assertNull($obj->getTxHoraire1Tp());
+        $this->assertNull($obj->getTxHoraire2Rs());
+        $this->assertNull($obj->getTxHoraire2Tp());
+        $this->assertNull($obj->getUniqIdSynchro());
     }
 }

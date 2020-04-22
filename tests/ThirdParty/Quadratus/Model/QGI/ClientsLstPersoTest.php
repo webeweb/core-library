@@ -25,32 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ClientsLstPerso;
 class ClientsLstPersoTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ClientsLstPerso();
-
-        $this->assertNull($obj->getChapitre());
-        $this->assertNull($obj->getCollCreat());
-        $this->assertNull($obj->getCollModif());
-        $this->assertNull($obj->getDateCreat());
-        $this->assertNull($obj->getDateModif());
-        $this->assertNull($obj->getDescription());
-        $this->assertNull($obj->getGUniqId());
-        $this->assertNull($obj->getIndice());
-        $this->assertNull($obj->getLstCollab());
-        $this->assertNull($obj->getOptionVisu());
-        $this->assertNull($obj->getOrigine());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-        $this->assertNull($obj->getTypeSaisie());
-        $this->assertNull($obj->getTypeSel());
-    }
-
-    /**
      * Tests the setChapitre() method.
      *
      * @return void
@@ -259,5 +233,31 @@ class ClientsLstPersoTest extends AbstractTestCase {
 
         $obj->setTypeSel("typeSel");
         $this->assertEquals("typeSel", $obj->getTypeSel());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ClientsLstPerso();
+
+        $this->assertNull($obj->getChapitre());
+        $this->assertNull($obj->getCollCreat());
+        $this->assertNull($obj->getCollModif());
+        $this->assertNull($obj->getDateCreat());
+        $this->assertNull($obj->getDateModif());
+        $this->assertNull($obj->getDescription());
+        $this->assertNull($obj->getGUniqId());
+        $this->assertNull($obj->getIndice());
+        $this->assertNull($obj->getLstCollab());
+        $this->assertNull($obj->getOptionVisu());
+        $this->assertNull($obj->getOrigine());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
+        $this->assertNull($obj->getTypeSaisie());
+        $this->assertNull($obj->getTypeSel());
     }
 }

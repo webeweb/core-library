@@ -25,25 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\PlanObligationClient;
 class PlanObligationClientTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new PlanObligationClient();
-
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollabSpecif());
-        $this->assertNull($obj->getCodeObligation());
-        $this->assertNull($obj->getDateDebut());
-        $this->assertNull($obj->getDateFin());
-        $this->assertNull($obj->getFrequence());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getQuiLeFait());
-    }
-
-    /**
      * Tests the setCodeClient() method.
      *
      * @return void
@@ -153,5 +134,24 @@ class PlanObligationClientTest extends AbstractTestCase {
 
         $obj->setQuiLeFait(10);
         $this->assertEquals(10, $obj->getQuiLeFait());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new PlanObligationClient();
+
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollabSpecif());
+        $this->assertNull($obj->getCodeObligation());
+        $this->assertNull($obj->getDateDebut());
+        $this->assertNull($obj->getDateFin());
+        $this->assertNull($obj->getFrequence());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getQuiLeFait());
     }
 }

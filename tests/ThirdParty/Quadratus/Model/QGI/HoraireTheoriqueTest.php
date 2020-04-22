@@ -23,51 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\HoraireTheorique;
 class HoraireTheoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new HoraireTheorique();
-
-        $this->assertNull($obj->getAnnee());
-        $this->assertNull($obj->getCode());
-        $this->assertNull($obj->getNbreH());
-        $this->assertNull($obj->getNbreHDimanche());
-        $this->assertNull($obj->getNbreHJeudi());
-        $this->assertNull($obj->getNbreHLundi());
-        $this->assertNull($obj->getNbreHMardi());
-        $this->assertNull($obj->getNbreHMax());
-        $this->assertNull($obj->getNbreHMaxiDimanche());
-        $this->assertNull($obj->getNbreHMaxiJeudi());
-        $this->assertNull($obj->getNbreHMaxiLundi());
-        $this->assertNull($obj->getNbreHMaxiMardi());
-        $this->assertNull($obj->getNbreHMaxiMercredi());
-        $this->assertNull($obj->getNbreHMaxiSamedi());
-        $this->assertNull($obj->getNbreHMaxiVendredi());
-        $this->assertNull($obj->getNbreHMercredi());
-        $this->assertNull($obj->getNbreHMini());
-        $this->assertNull($obj->getNbreHMiniDimanche());
-        $this->assertNull($obj->getNbreHMiniJeudi());
-        $this->assertNull($obj->getNbreHMiniLundi());
-        $this->assertNull($obj->getNbreHMiniMardi());
-        $this->assertNull($obj->getNbreHMiniMercredi());
-        $this->assertNull($obj->getNbreHMiniSamedi());
-        $this->assertNull($obj->getNbreHMiniVendredi());
-        $this->assertNull($obj->getNbreHSamedi());
-        $this->assertNull($obj->getNbreHVendredi());
-        $this->assertNull($obj->getNumeroSem());
-        $this->assertNull($obj->getTDimanche());
-        $this->assertNull($obj->getTJeudi());
-        $this->assertNull($obj->getTLundi());
-        $this->assertNull($obj->getTMardi());
-        $this->assertNull($obj->getTMercredi());
-        $this->assertNull($obj->getTSamedi());
-        $this->assertNull($obj->getTVendredi());
-    }
-
-    /**
      * Tests the setAnnee() method.
      *
      * @return void
@@ -507,5 +462,50 @@ class HoraireTheoriqueTest extends AbstractTestCase {
 
         $obj->setTVendredi(true);
         $this->assertEquals(true, $obj->getTVendredi());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new HoraireTheorique();
+
+        $this->assertNull($obj->getAnnee());
+        $this->assertNull($obj->getCode());
+        $this->assertNull($obj->getNbreH());
+        $this->assertNull($obj->getNbreHDimanche());
+        $this->assertNull($obj->getNbreHJeudi());
+        $this->assertNull($obj->getNbreHLundi());
+        $this->assertNull($obj->getNbreHMardi());
+        $this->assertNull($obj->getNbreHMax());
+        $this->assertNull($obj->getNbreHMaxiDimanche());
+        $this->assertNull($obj->getNbreHMaxiJeudi());
+        $this->assertNull($obj->getNbreHMaxiLundi());
+        $this->assertNull($obj->getNbreHMaxiMardi());
+        $this->assertNull($obj->getNbreHMaxiMercredi());
+        $this->assertNull($obj->getNbreHMaxiSamedi());
+        $this->assertNull($obj->getNbreHMaxiVendredi());
+        $this->assertNull($obj->getNbreHMercredi());
+        $this->assertNull($obj->getNbreHMini());
+        $this->assertNull($obj->getNbreHMiniDimanche());
+        $this->assertNull($obj->getNbreHMiniJeudi());
+        $this->assertNull($obj->getNbreHMiniLundi());
+        $this->assertNull($obj->getNbreHMiniMardi());
+        $this->assertNull($obj->getNbreHMiniMercredi());
+        $this->assertNull($obj->getNbreHMiniSamedi());
+        $this->assertNull($obj->getNbreHMiniVendredi());
+        $this->assertNull($obj->getNbreHSamedi());
+        $this->assertNull($obj->getNbreHVendredi());
+        $this->assertNull($obj->getNumeroSem());
+        $this->assertNull($obj->getTDimanche());
+        $this->assertNull($obj->getTJeudi());
+        $this->assertNull($obj->getTLundi());
+        $this->assertNull($obj->getTMardi());
+        $this->assertNull($obj->getTMercredi());
+        $this->assertNull($obj->getTSamedi());
+        $this->assertNull($obj->getTVendredi());
     }
 }

@@ -25,51 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\AppelsEnCours;
 class AppelsEnCoursTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AppelsEnCours();
-
-        $this->assertNull($obj->getAvecMiseEnSomm());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeCollaborateurDest());
-        $this->assertNull($obj->getCodeCollaborateurEntrant());
-        $this->assertNull($obj->getCodeCollaborateurRedir());
-        $this->assertNull($obj->getCodeProduit());
-        $this->assertNull($obj->getCompteurTemps());
-        $this->assertNull($obj->getConfidentiel());
-        $this->assertNull($obj->getConsequence());
-        $this->assertNull($obj->getDateCreationClient());
-        $this->assertNull($obj->getDateEntree());
-        $this->assertNull($obj->getDateMessageLu());
-        $this->assertNull($obj->getDateRedir());
-        $this->assertNull($obj->getDemandeAr());
-        $this->assertNull($obj->getDestinatairesA());
-        $this->assertNull($obj->getDestinatairesCc());
-        $this->assertNull($obj->getEmailAuteur());
-        $this->assertNull($obj->getGroupeQualifiant());
-        $this->assertNull($obj->getIdAppel());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getMessageLu());
-        $this->assertNull($obj->getMiseEnSommDateHeure());
-        $this->assertNull($obj->getNature());
-        $this->assertNull($obj->getNbAppelsEnCours());
-        $this->assertNull($obj->getNomClient());
-        $this->assertNull($obj->getOrigine());
-        $this->assertNull($obj->getPieceJointe());
-        $this->assertNull($obj->getReponse());
-        $this->assertNull($obj->getSousRepRefGuid());
-        $this->assertNull($obj->getSpecial());
-        $this->assertNull($obj->getTel());
-        $this->assertNull($obj->getTypeMessage());
-        $this->assertNull($obj->getUniqId());
-        $this->assertNull($obj->getUrgent());
-    }
-
-    /**
      * Tests the setAvecMiseEnSomm() method.
      *
      * @return void
@@ -529,5 +484,50 @@ class AppelsEnCoursTest extends AbstractTestCase {
 
         $obj->setUrgent(true);
         $this->assertEquals(true, $obj->getUrgent());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AppelsEnCours();
+
+        $this->assertNull($obj->getAvecMiseEnSomm());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeCollaborateurDest());
+        $this->assertNull($obj->getCodeCollaborateurEntrant());
+        $this->assertNull($obj->getCodeCollaborateurRedir());
+        $this->assertNull($obj->getCodeProduit());
+        $this->assertNull($obj->getCompteurTemps());
+        $this->assertNull($obj->getConfidentiel());
+        $this->assertNull($obj->getConsequence());
+        $this->assertNull($obj->getDateCreationClient());
+        $this->assertNull($obj->getDateEntree());
+        $this->assertNull($obj->getDateMessageLu());
+        $this->assertNull($obj->getDateRedir());
+        $this->assertNull($obj->getDemandeAr());
+        $this->assertNull($obj->getDestinatairesA());
+        $this->assertNull($obj->getDestinatairesCc());
+        $this->assertNull($obj->getEmailAuteur());
+        $this->assertNull($obj->getGroupeQualifiant());
+        $this->assertNull($obj->getIdAppel());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getMessageLu());
+        $this->assertNull($obj->getMiseEnSommDateHeure());
+        $this->assertNull($obj->getNature());
+        $this->assertNull($obj->getNbAppelsEnCours());
+        $this->assertNull($obj->getNomClient());
+        $this->assertNull($obj->getOrigine());
+        $this->assertNull($obj->getPieceJointe());
+        $this->assertNull($obj->getReponse());
+        $this->assertNull($obj->getSousRepRefGuid());
+        $this->assertNull($obj->getSpecial());
+        $this->assertNull($obj->getTel());
+        $this->assertNull($obj->getTypeMessage());
+        $this->assertNull($obj->getUniqId());
+        $this->assertNull($obj->getUrgent());
     }
 }

@@ -23,26 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\AffectationAna3;
 class AffectationAna3Test extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new AffectationAna3();
-
-        $this->assertNull($obj->getAnneeRecolte());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeNature());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getNumCompte());
-        $this->assertNull($obj->getPourcentage());
-        $this->assertNull($obj->getQuantite1());
-        $this->assertNull($obj->getQuantite2());
-        $this->assertNull($obj->getSens());
-    }
-
-    /**
      * Tests the setAnneeRecolte() method.
      *
      * @return void
@@ -157,5 +137,25 @@ class AffectationAna3Test extends AbstractTestCase {
 
         $obj->setSens("sens");
         $this->assertEquals("sens", $obj->getSens());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new AffectationAna3();
+
+        $this->assertNull($obj->getAnneeRecolte());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeNature());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getNumCompte());
+        $this->assertNull($obj->getPourcentage());
+        $this->assertNull($obj->getQuantite1());
+        $this->assertNull($obj->getQuantite2());
+        $this->assertNull($obj->getSens());
     }
 }

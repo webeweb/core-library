@@ -23,19 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCoConstantes;
 class ActionsCoConstantesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ActionsCoConstantes();
-
-        $this->assertNull($obj->getLieuEdition());
-        $this->assertNull($obj->getNumDeclaration());
-    }
-
-    /**
      * Tests the setLieuEdition() method.
      *
      * @return void
@@ -59,5 +46,18 @@ class ActionsCoConstantesTest extends AbstractTestCase {
 
         $obj->setNumDeclaration("numDeclaration");
         $this->assertEquals("numDeclaration", $obj->getNumDeclaration());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ActionsCoConstantes();
+
+        $this->assertNull($obj->getLieuEdition());
+        $this->assertNull($obj->getNumDeclaration());
     }
 }

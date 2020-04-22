@@ -25,70 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\RecapDucsAnnuelle;
 class RecapDucsAnnuelleTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new RecapDucsAnnuelle();
-
-        $this->assertNull($obj->getAEditerDucs());
-        $this->assertNull($obj->getAcompte());
-        $this->assertNull($obj->getArrondiBase());
-        $this->assertNull($obj->getArrondiCotis());
-        $this->assertNull($obj->getCodeCentre());
-        $this->assertNull($obj->getCodeEtablissement());
-        $this->assertNull($obj->getDateReglement());
-        $this->assertNull($obj->getDateVerseSalaire());
-        $this->assertNull($obj->getDucsEuro());
-        $this->assertNull($obj->getEffectifInscrit());
-        $this->assertNull($obj->getEffectifMoyen());
-        $this->assertNull($obj->getEffectifPaye());
-        $this->assertNull($obj->getFinPer());
-        $this->assertNull($obj->getGrandDecalage());
-        $this->assertNull($obj->getLienDocument());
-        $this->assertNull($obj->getMethodeCalculCicehe());
-        $this->assertNull($obj->getMontantTotal());
-        $this->assertNull($obj->getMotifEcartEff());
-        $this->assertNull($obj->getMtAideCtAides());
-        $this->assertNull($obj->getMtBrutDads());
-        $this->assertNull($obj->getMtRegulLodeom());
-        $this->assertNull($obj->getNbAutres());
-        $this->assertNull($obj->getNbFemmes());
-        $this->assertNull($obj->getNbFinContrat());
-        $this->assertNull($obj->getNbHommes());
-        $this->assertNull($obj->getNoAffiliation());
-        $this->assertNull($obj->getOrganisme());
-        $this->assertNull($obj->getPaieDecalee());
-        $this->assertNull($obj->getPerDebCice());
-        $this->assertNull($obj->getPerFinCice());
-        $this->assertNull($obj->getPeriode());
-        $this->assertNull($obj->getPeriodeDecla());
-        $this->assertNull($obj->getPetitDecalage());
-        $this->assertNull($obj->getPremMois());
-        $this->assertNull($obj->getRaisonSociale());
-        $this->assertNull($obj->getRecapDucs1());
-        $this->assertNull($obj->getRecapDucs10());
-        $this->assertNull($obj->getRecapDucs11());
-        $this->assertNull($obj->getRecapDucs12());
-        $this->assertNull($obj->getRecapDucs13());
-        $this->assertNull($obj->getRecapDucs2());
-        $this->assertNull($obj->getRecapDucs3());
-        $this->assertNull($obj->getRecapDucs4());
-        $this->assertNull($obj->getRecapDucs5());
-        $this->assertNull($obj->getRecapDucs6());
-        $this->assertNull($obj->getRecapDucs7());
-        $this->assertNull($obj->getRecapDucs8());
-        $this->assertNull($obj->getRecapDucs9());
-        $this->assertNull($obj->getRegulDucs());
-        $this->assertNull($obj->getRib());
-        $this->assertNull($obj->getSousTypeOrganisme());
-        $this->assertNull($obj->getTraiterEdi());
-        $this->assertNull($obj->getTypeOrganisme());
-    }
-
-    /**
      * Tests the setAEditerDucs() method.
      *
      * @return void
@@ -803,5 +739,69 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
 
         $obj->setTypeOrganisme("typeOrganisme");
         $this->assertEquals("typeOrganisme", $obj->getTypeOrganisme());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new RecapDucsAnnuelle();
+
+        $this->assertNull($obj->getAEditerDucs());
+        $this->assertNull($obj->getAcompte());
+        $this->assertNull($obj->getArrondiBase());
+        $this->assertNull($obj->getArrondiCotis());
+        $this->assertNull($obj->getCodeCentre());
+        $this->assertNull($obj->getCodeEtablissement());
+        $this->assertNull($obj->getDateReglement());
+        $this->assertNull($obj->getDateVerseSalaire());
+        $this->assertNull($obj->getDucsEuro());
+        $this->assertNull($obj->getEffectifInscrit());
+        $this->assertNull($obj->getEffectifMoyen());
+        $this->assertNull($obj->getEffectifPaye());
+        $this->assertNull($obj->getFinPer());
+        $this->assertNull($obj->getGrandDecalage());
+        $this->assertNull($obj->getLienDocument());
+        $this->assertNull($obj->getMethodeCalculCicehe());
+        $this->assertNull($obj->getMontantTotal());
+        $this->assertNull($obj->getMotifEcartEff());
+        $this->assertNull($obj->getMtAideCtAides());
+        $this->assertNull($obj->getMtBrutDads());
+        $this->assertNull($obj->getMtRegulLodeom());
+        $this->assertNull($obj->getNbAutres());
+        $this->assertNull($obj->getNbFemmes());
+        $this->assertNull($obj->getNbFinContrat());
+        $this->assertNull($obj->getNbHommes());
+        $this->assertNull($obj->getNoAffiliation());
+        $this->assertNull($obj->getOrganisme());
+        $this->assertNull($obj->getPaieDecalee());
+        $this->assertNull($obj->getPerDebCice());
+        $this->assertNull($obj->getPerFinCice());
+        $this->assertNull($obj->getPeriode());
+        $this->assertNull($obj->getPeriodeDecla());
+        $this->assertNull($obj->getPetitDecalage());
+        $this->assertNull($obj->getPremMois());
+        $this->assertNull($obj->getRaisonSociale());
+        $this->assertNull($obj->getRecapDucs1());
+        $this->assertNull($obj->getRecapDucs10());
+        $this->assertNull($obj->getRecapDucs11());
+        $this->assertNull($obj->getRecapDucs12());
+        $this->assertNull($obj->getRecapDucs13());
+        $this->assertNull($obj->getRecapDucs2());
+        $this->assertNull($obj->getRecapDucs3());
+        $this->assertNull($obj->getRecapDucs4());
+        $this->assertNull($obj->getRecapDucs5());
+        $this->assertNull($obj->getRecapDucs6());
+        $this->assertNull($obj->getRecapDucs7());
+        $this->assertNull($obj->getRecapDucs8());
+        $this->assertNull($obj->getRecapDucs9());
+        $this->assertNull($obj->getRegulDucs());
+        $this->assertNull($obj->getRib());
+        $this->assertNull($obj->getSousTypeOrganisme());
+        $this->assertNull($obj->getTraiterEdi());
+        $this->assertNull($obj->getTypeOrganisme());
     }
 }

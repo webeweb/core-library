@@ -23,23 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QCompta\CalculIs;
 class CalculIsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new CalculIs();
-
-        $this->assertNull($obj->getCorrespondance());
-        $this->assertNull($obj->getLibelle());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMontantN1());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getTypeLigne());
-    }
-
-    /**
      * Tests the setCorrespondance() method.
      *
      * @return void
@@ -115,5 +98,22 @@ class CalculIsTest extends AbstractTestCase {
 
         $obj->setTypeLigne("typeLigne");
         $this->assertEquals("typeLigne", $obj->getTypeLigne());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new CalculIs();
+
+        $this->assertNull($obj->getCorrespondance());
+        $this->assertNull($obj->getLibelle());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantN1());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getTypeLigne());
     }
 }

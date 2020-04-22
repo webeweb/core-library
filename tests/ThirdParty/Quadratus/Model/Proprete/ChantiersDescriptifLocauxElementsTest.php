@@ -23,26 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\Proprete\ChantiersDescriptifLoca
 class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ChantiersDescriptifLocauxElements();
-
-        $this->assertNull($obj->getCodeAffaire());
-        $this->assertNull($obj->getCodeChantier());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeElement());
-        $this->assertNull($obj->getCoefficient());
-        $this->assertNull($obj->getNiveauNoeud());
-        $this->assertNull($obj->getNumeroNoeud());
-        $this->assertNull($obj->getTypeElement());
-        $this->assertNull($obj->getUniqIdLocal());
-    }
-
-    /**
      * Tests the setCodeAffaire() method.
      *
      * @return void
@@ -157,5 +137,25 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
 
         $obj->setUniqIdLocal("uniqIdLocal");
         $this->assertEquals("uniqIdLocal", $obj->getUniqIdLocal());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ChantiersDescriptifLocauxElements();
+
+        $this->assertNull($obj->getCodeAffaire());
+        $this->assertNull($obj->getCodeChantier());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeElement());
+        $this->assertNull($obj->getCoefficient());
+        $this->assertNull($obj->getNiveauNoeud());
+        $this->assertNull($obj->getNumeroNoeud());
+        $this->assertNull($obj->getTypeElement());
+        $this->assertNull($obj->getUniqIdLocal());
     }
 }

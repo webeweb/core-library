@@ -23,28 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\ActionsCoSuivi;
 class ActionsCoSuiviTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new ActionsCoSuivi();
-
-        $this->assertNull($obj->getCodeAction());
-        $this->assertNull($obj->getCodeClient());
-        $this->assertNull($obj->getCodeManif());
-        $this->assertNull($obj->getConfirmes());
-        $this->assertNull($obj->getContrat());
-        $this->assertNull($obj->getInscrits());
-        $this->assertNull($obj->getNumInterlocuteur());
-        $this->assertNull($obj->getNumSeance());
-        $this->assertNull($obj->getPresents());
-        $this->assertNull($obj->getPriseRdv());
-        $this->assertNull($obj->getTypeInvite());
-    }
-
-    /**
      * Tests the setCodeAction() method.
      *
      * @return void
@@ -185,5 +163,27 @@ class ActionsCoSuiviTest extends AbstractTestCase {
 
         $obj->setTypeInvite("typeInvite");
         $this->assertEquals("typeInvite", $obj->getTypeInvite());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new ActionsCoSuivi();
+
+        $this->assertNull($obj->getCodeAction());
+        $this->assertNull($obj->getCodeClient());
+        $this->assertNull($obj->getCodeManif());
+        $this->assertNull($obj->getConfirmes());
+        $this->assertNull($obj->getContrat());
+        $this->assertNull($obj->getInscrits());
+        $this->assertNull($obj->getNumInterlocuteur());
+        $this->assertNull($obj->getNumSeance());
+        $this->assertNull($obj->getPresents());
+        $this->assertNull($obj->getPriseRdv());
+        $this->assertNull($obj->getTypeInvite());
     }
 }

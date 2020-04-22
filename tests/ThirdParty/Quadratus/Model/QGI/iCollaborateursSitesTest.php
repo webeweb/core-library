@@ -23,27 +23,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\iCollaborateursSites;
 class iCollaborateursSitesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new iCollaborateursSites();
-
-        $this->assertNull($obj->getAdresseIp());
-        $this->assertNull($obj->getCodeCollab());
-        $this->assertNull($obj->getDossier());
-        $this->assertNull($obj->getRestrCliAssist1());
-        $this->assertNull($obj->getRestrCliAssist2());
-        $this->assertNull($obj->getRestrCliAutre1());
-        $this->assertNull($obj->getRestrCliAutre2());
-        $this->assertNull($obj->getRestrCliCollab());
-        $this->assertNull($obj->getRestrCliExpert());
-        $this->assertNull($obj->getRestrCliPortef());
-    }
-
-    /**
      * Tests the setAdresseIp() method.
      *
      * @return void
@@ -171,5 +150,26 @@ class iCollaborateursSitesTest extends AbstractTestCase {
 
         $obj->setRestrCliPortef("restrCliPortef");
         $this->assertEquals("restrCliPortef", $obj->getRestrCliPortef());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new iCollaborateursSites();
+
+        $this->assertNull($obj->getAdresseIp());
+        $this->assertNull($obj->getCodeCollab());
+        $this->assertNull($obj->getDossier());
+        $this->assertNull($obj->getRestrCliAssist1());
+        $this->assertNull($obj->getRestrCliAssist2());
+        $this->assertNull($obj->getRestrCliAutre1());
+        $this->assertNull($obj->getRestrCliAutre2());
+        $this->assertNull($obj->getRestrCliCollab());
+        $this->assertNull($obj->getRestrCliExpert());
+        $this->assertNull($obj->getRestrCliPortef());
     }
 }

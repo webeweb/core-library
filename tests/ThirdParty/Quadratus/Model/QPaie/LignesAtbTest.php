@@ -25,26 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie\LignesAtb;
 class LignesAtbTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new LignesAtb();
-
-        $this->assertNull($obj->getDateVersement());
-        $this->assertNull($obj->getMontant());
-        $this->assertNull($obj->getMontantCotis());
-        $this->assertNull($obj->getMontantEuroOuFranc());
-        $this->assertNull($obj->getNumLigne());
-        $this->assertNull($obj->getNumeroAttestation());
-        $this->assertNull($obj->getPsEuroOuFranc());
-        $this->assertNull($obj->getPeriodeDeb());
-        $this->assertNull($obj->getPeriodeFin());
-    }
-
-    /**
      * Tests the setDateVersement() method.
      *
      * @return void
@@ -171,5 +151,25 @@ class LignesAtbTest extends AbstractTestCase {
 
         $obj->setPsEuroOuFranc("psEuroOuFranc");
         $this->assertEquals("psEuroOuFranc", $obj->getPsEuroOuFranc());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new LignesAtb();
+
+        $this->assertNull($obj->getDateVersement());
+        $this->assertNull($obj->getMontant());
+        $this->assertNull($obj->getMontantCotis());
+        $this->assertNull($obj->getMontantEuroOuFranc());
+        $this->assertNull($obj->getNumLigne());
+        $this->assertNull($obj->getNumeroAttestation());
+        $this->assertNull($obj->getPsEuroOuFranc());
+        $this->assertNull($obj->getPeriodeDeb());
+        $this->assertNull($obj->getPeriodeFin());
     }
 }

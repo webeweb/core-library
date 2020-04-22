@@ -25,27 +25,6 @@ use WBW\Library\Core\ThirdParty\Quadratus\Model\QGI\Notes;
 class NotesTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new Notes();
-
-        $this->assertNull($obj->getCodeCategorie());
-        $this->assertNull($obj->getCodeCollaborateur());
-        $this->assertNull($obj->getCodeCollaborateurModif());
-        $this->assertNull($obj->getDateCreation());
-        $this->assertNull($obj->getDateModification());
-        $this->assertNull($obj->getDateRappel());
-        $this->assertNull($obj->getEnvoiPostIt());
-        $this->assertNull($obj->getIntitule());
-        $this->assertNull($obj->getNumUniq());
-        $this->assertNull($obj->getTitre());
-    }
-
-    /**
      * Tests the setCodeCategorie() method.
      *
      * @return void
@@ -185,5 +164,26 @@ class NotesTest extends AbstractTestCase {
 
         $obj->setTitre("titre");
         $this->assertEquals("titre", $obj->getTitre());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new Notes();
+
+        $this->assertNull($obj->getCodeCategorie());
+        $this->assertNull($obj->getCodeCollaborateur());
+        $this->assertNull($obj->getCodeCollaborateurModif());
+        $this->assertNull($obj->getDateCreation());
+        $this->assertNull($obj->getDateModification());
+        $this->assertNull($obj->getDateRappel());
+        $this->assertNull($obj->getEnvoiPostIt());
+        $this->assertNull($obj->getIntitule());
+        $this->assertNull($obj->getNumUniq());
+        $this->assertNull($obj->getTitre());
     }
 }

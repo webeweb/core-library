@@ -24,14 +24,6 @@ use WBW\Library\Core\ThirdParty\OcrLad\Serializer\DerDeserializer;
 class DerDeserializerTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
-     */
-    public function test__construct() {
-
-        $this->assertEquals(";", DerDeserializer::DER_DELIMITER);
-    }
-
-    /**
      * Tests the deserializeDocument() method.
      *
      * @return void
@@ -136,5 +128,13 @@ class DerDeserializerTest extends AbstractTestCase {
         $this->assertEquals("300;2479;3508;0;0;", $res[4]);
         $this->assertEquals("300;2479;3508;0;0;", $res[5]);
         $this->assertEquals("300;2479;3508;0;0;", $res[6]);
+    }
+
+    /**
+     * Tests the __construct() method.
+     */
+    public function test__construct() {
+
+        $this->assertEquals(";", DerDeserializer::DER_DELIMITER);
     }
 }
