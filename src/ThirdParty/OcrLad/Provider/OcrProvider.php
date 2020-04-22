@@ -125,11 +125,13 @@ class OcrProvider {
                 implode("/", [$this->getRemoteDirectoryAfter(), $file->getUniqFilenameDer()]),
                 implode("/", [$this->getRemoteDirectoryAfter(), $file->getUniqFilenamePdf()]),
                 implode("/", [$this->getRemoteDirectoryAfter(), $file->getUniqFilenameXml()]),
+                implode("/", [$this->getRemoteDirectoryAfter(), $file->getUniqFilenameTif()]),
             ],
             "local"  => [
                 implode("/", [$this->getLocalDirectoryAfter(), $file->getUniqFilenameDer()]),
                 implode("/", [$this->getLocalDirectoryAfter(), $file->getUniqFilenamePdf()]),
                 implode("/", [$this->getLocalDirectoryAfter(), $file->getUniqFilenameXml()]),
+                implode("/", [$this->getLocalDirectoryAfter(), $file->getUniqFilenameTif()]),
             ],
         ];
     }
@@ -171,7 +173,7 @@ class OcrProvider {
 
         $deleteClosure($this->getRemoteDirectoryBefore());
         $deleteClosure($this->getRemoteDirectoryAfter());
-        $deleteClosure($this->getRemoteDirectoryError());
+        //$deleteClosure($this->getRemoteDirectoryError());
     }
 
     /**
@@ -208,6 +210,7 @@ class OcrProvider {
         $downloadClosure($paths["local"][0], $paths["remote"][0]);
         $downloadClosure($paths["local"][1], $paths["remote"][1]);
         $downloadClosure($paths["local"][2], $paths["remote"][2]);
+        $downloadClosure($paths["local"][3], $paths["remote"][3]);
 
         return true;
     }

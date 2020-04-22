@@ -49,6 +49,15 @@ class IOFile extends SplFileInfo {
     }
 
     /**
+     * Get an uniq filename "tif".
+     *
+     * @return string Returns the uniq filename "tif".
+     */
+    public function getUniqFilenameTif() {
+        return "~" . $this->getUniqFilenameWithExtension("tif");
+    }
+
+    /**
      * Get an uniq filename.
      *
      * @param string $extension The extension.

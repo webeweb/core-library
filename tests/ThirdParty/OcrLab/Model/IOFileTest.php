@@ -40,18 +40,6 @@ class IOFileTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct() {
-
-        $obj = new IOFile($this->filename);
-
-        $this->assertEquals($this->filename, $obj->getPathname());
-    }
-
-    /**
      * Tests the getUniqFilenameDer() method.
      *
      * @return void
@@ -80,6 +68,20 @@ class IOFileTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the getUniqFilenameTif() method.
+     *
+     * @return void
+     */
+    public function testGetUniqFilenameTif() {
+
+        $md5 = md5($this->filename);
+
+        $obj = new IOFile($this->filename);
+
+        $this->assertEquals("~{$md5}.tif", $obj->getUniqFilenameTif());
+    }
+
+    /**
      * Tests the getUniqFilenameXml() method.
      *
      * @return void
@@ -91,5 +93,17 @@ class IOFileTest extends AbstractTestCase {
         $obj = new IOFile($this->filename);
 
         $this->assertEquals("{$md5}.xml", $obj->getUniqFilenameXml());
+    }
+
+    /**
+     * Tests the __construct() method.
+     *
+     * @return void
+     */
+    public function test__construct() {
+
+        $obj = new IOFile($this->filename);
+
+        $this->assertEquals($this->filename, $obj->getPathname());
     }
 }
