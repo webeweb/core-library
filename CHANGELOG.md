@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [6.6.0](https://github.com/webeweb/core-library/tree/v6.6.0) (2020-05-27)
+
+- Add API exception
+
 ### [6.5.0](https://github.com/webeweb/core-library/tree/v6.5.0) (2020-04-22)
 
 - Add boolean Debug trait
