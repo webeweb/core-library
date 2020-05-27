@@ -15,6 +15,7 @@ use Exception;
 use WBW\Library\Core\Exception\ApiException;
 use WBW\Library\Core\Network\CURL\Configuration\CurlConfiguration;
 use WBW\Library\Core\Network\CURL\Request\CurlPostRequest;
+use WBW\Library\Core\Provider\AbstractProvider;
 use WBW\Library\Core\ThirdParty\Adoria\API\ApiProviderInterface;
 use WBW\Library\Core\ThirdParty\Adoria\Model\RequestData;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
@@ -27,14 +28,7 @@ use WBW\Library\Core\ThirdParty\Adoria\Serializer\ResponseDeserializer;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\ThirdParty\Adoria\Provider
  */
-class ApiProvider implements ApiProviderInterface {
-
-    /**
-     * Debug.
-     *
-     * @var bool
-     */
-    private $debug;
+class ApiProvider extends AbstractProvider implements ApiProviderInterface {
 
     /**
      * Constructor.
@@ -77,15 +71,6 @@ class ApiProvider implements ApiProviderInterface {
     }
 
     /**
-     * Get the debug.
-     *
-     * @return bool Returns the debug.
-     */
-    public function getDebug() {
-        return $this->debug;
-    }
-
-    /**
      * Request data.
      *
      * @param RequestData $requestData The request data.
@@ -99,16 +84,5 @@ class ApiProvider implements ApiProviderInterface {
         $rawResponse = $this->callAPI(self::REQUEST_DATA_RESOURCE_PATH, $parameters);
 
         return ResponseDeserializer::deserializeResult($rawResponse);
-    }
-
-    /**
-     * Set the debug.
-     *
-     * @param bool $debug The debug.
-     * @return ApiProvider Returns this API provider.
-     */
-    public function setDebug($debug) {
-        $this->debug = $debug;
-        return $this;
     }
 }

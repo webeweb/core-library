@@ -12,13 +12,13 @@
 namespace WBW\Library\Core\ThirdParty\OcrLad\Provider;
 
 use Closure;
-use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LoggerInterface;
 use WBW\Library\Core\Model\Attribute\StringHostnameTrait;
 use WBW\Library\Core\Model\Attribute\StringPasswordTrait;
 use WBW\Library\Core\Model\Attribute\StringUsernameTrait;
 use WBW\Library\Core\Network\FTP\Client\FtpClient;
 use WBW\Library\Core\Network\FTP\Exception\FtpException;
+use WBW\Library\Core\Provider\AbstractProvider;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
 use WBW\Library\Core\ThirdParty\OcrLad\Model\IOFile;
@@ -29,9 +29,8 @@ use WBW\Library\Core\ThirdParty\OcrLad\Model\IOFile;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Core\ThirdParty\OcrLad\Provider
  */
-class OcrProvider {
+class OcrProvider extends AbstractProvider {
 
-    use LoggerAwareTrait;
     use StringHostnameTrait;
     use StringPasswordTrait;
     use StringUsernameTrait;
@@ -91,7 +90,7 @@ class OcrProvider {
      * @param LoggerInterface $logger The logger.
      */
     public function __construct(LoggerInterface $logger) {
-        $this->setLogger($logger);
+        parent::__construct($logger);
         $this->setRemoteDirectoryAfter("/Apres");
         $this->setRemoteDirectoryBefore("/Avant");
         $this->setRemoteDirectoryError("/Erreur");
@@ -268,15 +267,6 @@ class OcrProvider {
      */
     public function getLocalDirectoryError() {
         return $this->localDirectoryError;
-    }
-
-    /**
-     * Get the logger.
-     *
-     * @return LoggerInterface Returns the logger.
-     */
-    public function getLogger() {
-        return $this->logger;
     }
 
     /**
