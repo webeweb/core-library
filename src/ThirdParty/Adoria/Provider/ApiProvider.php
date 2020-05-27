@@ -12,10 +12,10 @@
 namespace WBW\Library\Core\ThirdParty\Adoria\Provider;
 
 use Exception;
+use WBW\Library\Core\Exception\ApiException;
 use WBW\Library\Core\Network\CURL\Configuration\CurlConfiguration;
 use WBW\Library\Core\Network\CURL\Request\CurlPostRequest;
 use WBW\Library\Core\ThirdParty\Adoria\API\ApiProviderInterface;
-use WBW\Library\Core\ThirdParty\Adoria\Exception\ApiException;
 use WBW\Library\Core\ThirdParty\Adoria\Model\RequestData;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
 use WBW\Library\Core\ThirdParty\Adoria\Serializer\RequestSerializer;

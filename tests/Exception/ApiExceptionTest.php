@@ -3,39 +3,40 @@
 /*
  * This file is part of the core-library package.
  *
- * (c) 2019 WEBEWEB
+ * (c) 2020 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Exception;
+namespace WBW\Library\Core\Tests\Exception;
 
 use Exception;
+use WBW\Library\Core\Exception\ApiException;
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\ThirdParty\Adoria\Exception\ApiException;
 
 /**
  * API exception test.
  *
- * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Adoria\Exception
+ * @author webeweb <https://github.com/webeweb>
+ * @package WBW\Library\Core\Tests\Exception
  */
 class ApiExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests the construct() method.
+     * Tests the __construct() method.
      *
      * @return void
      */
     public function test__construct() {
 
         // Set an Exception mock.
-        $arg = new Exception;
+        $throwable = new Exception();
 
-        $obj = new ApiException("message", $arg);
+        $obj = new ApiException("message", 500, $throwable);
 
         $this->assertEquals("message", $obj->getMessage());
-        $this->assertSame($arg, $obj->getPrevious());
+        $this->assertEquals(500, $obj->getCode());
+        $this->assertSame($throwable, $obj->getPrevious());
     }
 }

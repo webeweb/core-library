@@ -3,23 +3,23 @@
 /*
  * This file is part of the core-library package.
  *
- * (c) 2019 WEBEWEB
+ * (c) 2020 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Exception;
+namespace WBW\Library\Core\Tests\Exception;
 
 use Exception;
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\ThirdParty\Adoria\Exception\TestException;
+use WBW\Library\Core\Tests\Fixtures\Exception\TestException;
 
 /**
  * Abstract exception test.
  *
- * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Adoria\Exception
+ * @author webeweb <https://github.com/webeweb>
+ * @package WBW\Library\Core\Tests\Exception
  */
 class AbstractExceptionTest extends AbstractTestCase {
 
@@ -31,11 +31,12 @@ class AbstractExceptionTest extends AbstractTestCase {
     public function test__construct() {
 
         // Set an Exception mock.
-        $throwable = new Exception("throwable");
+        $throwable = new Exception();
 
-        $obj = new TestException("exception", $throwable);
+        $obj = new TestException("message", 500, $throwable);
 
-        $this->assertEquals("exception", $obj->getMessage());
+        $this->assertEquals("message", $obj->getMessage());
+        $this->assertEquals(500, $obj->getCode());
         $this->assertSame($throwable, $obj->getPrevious());
     }
 }
