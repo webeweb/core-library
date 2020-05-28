@@ -44,6 +44,6 @@ class AbstractProviderTest extends AbstractTestCase {
         $obj = new TestProvider($this->logger);
 
         $this->assertSame($this->logger, $obj->getLogger());
-        $this->assertNull($obj->getDebug());
+        $this->assertFalse($obj->getDebug());
     }
 }
