@@ -32,19 +32,19 @@ class RequestSerializer {
     /**
      * Serialize a request data.
      *
-     * @param RequestData $requestData The request data.
-     * @return array Returns the serialized parameters.
+     * @param RequestData $request The request data.
+     * @return array Returns the serialized request data.
      */
-    public static function serializeRequestData(RequestData $requestData) {
+    public static function serializeRequestData(RequestData $request) {
 
-        $parameters = [];
+        $result = [];
 
-        ArrayHelper::set($parameters, "IdentificationKey", $requestData->getIdentificationKey(), [null]);
-        if (null !== $requestData->getBuyDateMax()) {
-            $parameters["BuyDateMax"] = $requestData->getBuyDateMax()->format(self::REQUEST_DATE_FORMAT);
+        ArrayHelper::set($result, "IdentificationKey", $request->getIdentificationKey(), [null]);
+        if (null !== $request->getBuyDateMax()) {
+            $result["BuyDateMax"] = $request->getBuyDateMax()->format(self::REQUEST_DATE_FORMAT);
         }
-        ArrayHelper::set($parameters, "AnalyticCode", $requestData->getAnalyticCode(), [null]);
+        ArrayHelper::set($result, "AnalyticCode", $request->getAnalyticCode(), [null]);
 
-        return $parameters;
+        return $result;
     }
 }
