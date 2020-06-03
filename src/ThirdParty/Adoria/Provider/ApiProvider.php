@@ -66,7 +66,7 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
             return $cURLResponse->getResponseBody();
         } catch (Exception $ex) {
 
-            throw new ApiException("Failed to call Adoria API", $ex);
+            throw new ApiException("Failed to call Adoria API", 500, $ex);
         }
     }
 
