@@ -20,7 +20,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Network\CURL\Exception
  */
-class CURLInvalidMessageClassExceptionTest extends AbstractTestCase {
+class CurlMethodNotAllowedExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.
