@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### master
+
+- Add string Data trait
+- Add string Id trait
+- Improve unit tests
+
 ### [6.6.0](https://github.com/webeweb/core-library/tree/v6.6.0) (2020-05-27)
 
 - Add abstract Provider
