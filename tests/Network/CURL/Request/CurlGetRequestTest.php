@@ -42,7 +42,7 @@ class CurlGetRequestTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(StringArgumentException::class, $ex);
-            $this->assertEquals("The argument \"1\" is not a string", $ex->getMessage());
+            $this->assertEquals('The argument "1" is not a string', $ex->getMessage());
         }
     }
 
@@ -62,7 +62,7 @@ class CurlGetRequestTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(StringArgumentException::class, $ex);
-            $this->assertEquals("The argument \"1\" is not a string", $ex->getMessage());
+            $this->assertEquals('The argument "1" is not a string', $ex->getMessage());
         }
     }
 

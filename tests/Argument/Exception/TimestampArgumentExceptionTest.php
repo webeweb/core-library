@@ -31,7 +31,7 @@ class TimestampArgumentExceptionTest extends AbstractTestCase {
 
         $ex = new TimestampArgumentException("exception");
 
-        $res = "The argument \"exception\" is not a timestamp";
+        $res = 'The argument "exception" is not a timestamp';
         $this->assertEquals($res, $ex->getMessage());
     }
 }

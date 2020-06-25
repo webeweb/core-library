@@ -61,7 +61,7 @@ class IntegerHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
-            $this->assertEquals("The argument \"1.0\" is not an integer", $ex->getMessage());
+            $this->assertEquals('The argument "1.0" is not an integer', $ex->getMessage());
         }
     }
 }

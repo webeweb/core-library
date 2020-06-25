@@ -48,7 +48,7 @@ class MicrosoftAccessDatabaseConnector extends AbstractDatabaseConnector {
     protected function connect() {
 
         if (false === file_exists($this->getDatabase())) {
-            throw new InvalidArgumentException(sprintf("The database \"%s\" was not found", $this->getDatabase()));
+            throw new InvalidArgumentException(sprintf('The database "%s" was not found', $this->getDatabase()));
         }
 
         $searches = ["%DBQ%", "%UID%", "%PWD%"];

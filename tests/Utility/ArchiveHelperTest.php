@@ -85,7 +85,7 @@ class ArchiveHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The file \"exception\" was not found", $ex->getMessage());
+            $this->assertEquals('The file "exception" was not found', $ex->getMessage());
         }
     }
 }

@@ -131,7 +131,7 @@ abstract class AbstractParser implements ParserInterface {
         if (-1 !== $length && $length < strlen($value)) {
             throw new TooLongDataException($value, $length);
         }
-        return "\"" . substr($value, 0, (-1 === $length ? strlen($value) : $length)) . "\"";
+        return '"' . substr($value, 0, (-1 === $length ? strlen($value) : $length)) . '"';
     }
 
     /**

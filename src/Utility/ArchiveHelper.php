@@ -35,7 +35,7 @@ class ArchiveHelper {
     public static function zip($src, $dst) {
 
         if (false === file_exists($src)) {
-            throw new InvalidArgumentException(sprintf("The file \"%s\" was not found", $src));
+            throw new InvalidArgumentException(sprintf('The file "%s" was not found', $src));
         }
 
         $zipArch = new ZipArchive();

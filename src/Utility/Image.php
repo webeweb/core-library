@@ -139,7 +139,7 @@ class Image implements ImageInterface {
      */
     protected function setPathname($pathname) {
         if (false === realpath($pathname)) {
-            throw new InvalidArgumentException(sprintf("The image \"%s\" was not found", $pathname));
+            throw new InvalidArgumentException(sprintf('The image "%s" was not found', $pathname));
         }
         $this->pathname = realpath($pathname);
         return $this;

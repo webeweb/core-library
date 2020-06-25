@@ -85,7 +85,7 @@ class StringHelper {
             }
 
             if ("" !== $buffer) {
-                $output[] = $key . "=\"" . preg_replace("/\s+/", " ", $buffer) . "\"";
+                $output[] = $key . '="' . preg_replace("/\s+/", " ", $buffer) . '"';
             }
         }
 

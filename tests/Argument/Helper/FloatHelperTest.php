@@ -53,7 +53,7 @@ class FloatHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(FloatArgumentException::class, $ex);
-            $this->assertEquals("The argument \"1A\" is not a float", $ex->getMessage());
+            $this->assertEquals('The argument "1A" is not a float', $ex->getMessage());
         }
     }
 }

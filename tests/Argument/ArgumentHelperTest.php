@@ -66,7 +66,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(DateArgumentException::class, $ex);
-            $this->assertEquals("The argument \"exception\" is not a date", $ex->getMessage());
+            $this->assertEquals('The argument "exception" is not a date', $ex->getMessage());
         }
     }
 
@@ -83,7 +83,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"220\" is not implemented", $ex->getMessage());
+            $this->assertEquals('The type "220" is not implemented', $ex->getMessage());
         }
     }
 
@@ -100,7 +100,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"419\" is not implemented", $ex->getMessage());
+            $this->assertEquals('The type "419" is not implemented', $ex->getMessage());
         }
     }
 
@@ -151,7 +151,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"204\" is not implemented", $ex->getMessage());
+            $this->assertEquals('The type "204" is not implemented', $ex->getMessage());
         }
     }
 
@@ -168,7 +168,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"236\" is not implemented", $ex->getMessage());
+            $this->assertEquals('The type "236" is not implemented', $ex->getMessage());
         }
     }
 
@@ -185,7 +185,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(TimestampArgumentException::class, $ex);
-            $this->assertEquals("The argument \"exception\" is not a timestamp", $ex->getMessage());
+            $this->assertEquals('The argument "exception" is not a timestamp', $ex->getMessage());
         }
     }
 
@@ -224,7 +224,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(ArrayArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not an array", $ex->getMessage());
+            $this->assertEquals('The argument "" is not an array', $ex->getMessage());
         }
     }
 
@@ -241,7 +241,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(BooleanArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not a boolean", $ex->getMessage());
+            $this->assertEquals('The argument "" is not a boolean', $ex->getMessage());
         }
     }
 
@@ -258,7 +258,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(DateArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not a date", $ex->getMessage());
+            $this->assertEquals('The argument "" is not a date', $ex->getMessage());
         }
     }
 
@@ -275,7 +275,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(DoubleArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not a double", $ex->getMessage());
+            $this->assertEquals('The argument "" is not a double', $ex->getMessage());
         }
     }
 
@@ -292,7 +292,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(FloatArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not a float", $ex->getMessage());
+            $this->assertEquals('The argument "" is not a float', $ex->getMessage());
         }
     }
 
@@ -309,7 +309,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not an integer", $ex->getMessage());
+            $this->assertEquals('The argument "" is not an integer', $ex->getMessage());
         }
     }
 
@@ -326,7 +326,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The type \"-1\" is not implemented", $ex->getMessage());
+            $this->assertEquals('The type "-1" is not implemented', $ex->getMessage());
         }
     }
 
@@ -343,7 +343,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(NumberArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not a number", $ex->getMessage());
+            $this->assertEquals('The argument "" is not a number', $ex->getMessage());
         }
     }
 
@@ -360,7 +360,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(ObjectArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not an object", $ex->getMessage());
+            $this->assertEquals('The argument "" is not an object', $ex->getMessage());
         }
     }
 
@@ -377,7 +377,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(ResourceArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not a resource", $ex->getMessage());
+            $this->assertEquals('The argument "" is not a resource', $ex->getMessage());
         }
     }
 
@@ -394,7 +394,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(StringArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not a string", $ex->getMessage());
+            $this->assertEquals('The argument "" is not a string', $ex->getMessage());
         }
     }
 
@@ -411,7 +411,7 @@ class ArgumentHelperTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(TimestampArgumentException::class, $ex);
-            $this->assertEquals("The argument \"\" is not a timestamp", $ex->getMessage());
+            $this->assertEquals('The argument "" is not a timestamp', $ex->getMessage());
         }
     }
 }

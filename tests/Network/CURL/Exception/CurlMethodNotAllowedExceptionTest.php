@@ -31,6 +31,6 @@ class CurlMethodNotAllowedExceptionTest extends AbstractTestCase {
 
         $ex = new CurlMethodNotAllowedException("exception");
 
-        $this->assertEquals("The method \"exception\" is not allowed", $ex->getMessage());
+        $this->assertEquals('The method "exception" is not allowed', $ex->getMessage());
     }
 }

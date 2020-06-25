@@ -72,7 +72,7 @@ class CurlFactory implements HttpInterface {
                 return new CurlPutRequest($configuration, $resourcePath);
         }
 
-        throw new InvalidArgumentException(sprintf("The HTTP method \"%s\" is invalid", $method));
+        throw new InvalidArgumentException(sprintf('The HTTP method "%s" is invalid', $method));
     }
 
     /**

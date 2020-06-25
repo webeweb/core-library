@@ -29,6 +29,6 @@ class ResourceArgumentException extends InvalidArgumentException {
      * @param Exception|null $previous The previous exception.
      */
     public function __construct($argument, Exception $previous = null) {
-        parent::__construct(sprintf("The argument \"%s\" is not a resource", print_r($argument, true)), 500, $previous);
+        parent::__construct(sprintf('The argument "%s" is not a resource', print_r($argument, true)), 500, $previous);
     }
 }

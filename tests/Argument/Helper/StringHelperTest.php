@@ -54,7 +54,7 @@ class StringHelperTest extends AbstractTestCase {
     public function testParseArray() {
 
         $arg = ["exception" => null, "id" => "id", "class" => ["class1", "class2", "class3   class4"]];
-        $res = "id=\"id\" class=\"class1 class2 class3 class4\"";
+        $res = 'id="id" class="class1 class2 class3 class4"';
         $this->assertEquals($res, StringHelper::parseArray($arg));
     }
 

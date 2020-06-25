@@ -31,7 +31,7 @@ class BooleanArgumentExceptionTest extends AbstractTestCase {
 
         $ex = new BooleanArgumentException("exception");
 
-        $res = "The argument \"exception\" is not a boolean";
+        $res = 'The argument "exception" is not a boolean';
         $this->assertEquals($res, $ex->getMessage());
     }
 }

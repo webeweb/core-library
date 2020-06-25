@@ -409,7 +409,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
                 $this->method = $method;
                 break;
             default:
-                throw new InvalidArgumentException(sprintf("The HTTP method \"%s\" is invalid", $method));
+                throw new InvalidArgumentException(sprintf('The HTTP method "%s" is invalid', $method));
         }
 
         return $this;

@@ -40,7 +40,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The database \"exception\" was not found", $ex->getMessage());
+            $this->assertEquals('The database "exception" was not found', $ex->getMessage());
         }
     }
 

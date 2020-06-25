@@ -31,7 +31,7 @@ class DateArgumentExceptionTest extends AbstractTestCase {
 
         $ex = new DateArgumentException("exception");
 
-        $res = "The argument \"exception\" is not a date";
+        $res = 'The argument "exception" is not a date';
         $this->assertEquals($res, $ex->getMessage());
     }
 }

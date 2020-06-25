@@ -67,7 +67,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(Exception::class, $ex);
-            $this->assertEquals("The data \"2000000\" exceeds the length \"6\" allowed", $ex->getMessage());
+            $this->assertEquals('The data "2000000" exceeds the length "6" allowed', $ex->getMessage());
         }
 
         try {
@@ -78,7 +78,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(TooLongDataException::class, $ex);
-            $this->assertEquals("The data \"Exception\" exceeds the length \"6\" allowed", $ex->getMessage());
+            $this->assertEquals('The data "Exception" exceeds the length "6" allowed', $ex->getMessage());
         }
     }
 

@@ -87,7 +87,7 @@ class CurlFactoryTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The HTTP method \"exception\" is invalid", $ex->getMessage());
+            $this->assertEquals('The HTTP method "exception" is invalid', $ex->getMessage());
         }
     }
 
