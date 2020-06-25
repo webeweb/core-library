@@ -1,10 +1,11 @@
 CHANGELOG
 =========
 
-### master
+### [6.7.0](https://github.com/webeweb/core-library/tree/v6.7.0) (2020-06-25)
 
 - Add string Data trait
 - Add string Id trait
+- Improve code quality
 - Improve unit tests
 
 ### [6.6.0](https://github.com/webeweb/core-library/tree/v6.6.0) (2020-05-27)
