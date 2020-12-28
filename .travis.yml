@@ -24,6 +24,7 @@ install:
     - php coveralls.phar --version
 
 before_script:
+    - echo "xdebug.mode=coverage" ~/.phpenv/versions/($phpenv version-name)/etc/php.ini
     - mkdir -p build/logs
 
 script:
